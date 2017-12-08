@@ -1,7 +1,7 @@
 ---
 title: "Lead Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Lead entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # Lead Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Prospect or potential sales opportunity. Leads are converted into accounts, contacts, or opportunities when they are qualified. Otherwise, they are deleted or archived.
 
@@ -42,17 +40,20 @@ Prospect or potential sales opportunity. Leads are converted into accounts, cont
 
 ## Entity Properties
 
-**DisplayName**: Lead<br />
-**DisplayCollectionName**: Leads<br />
-**SchemaName**: Lead<br />
-**CollectionSchemaName**: Leads<br />
-**LogicalName**: lead<br />
-**LogicalCollectionName**: leads<br />
-**EntitySetName**: leads<br />
-**PrimaryIdAttribute**: leadid<br />
-**PrimaryNameAttribute**: fullname<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|Leads|
+|DisplayCollectionName|Leads|
+|DisplayName|Lead|
+|EntitySetName|leads|
+|IsBPFEntity|False|
+|LogicalCollectionName|leads|
+|LogicalName|lead|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|leadid|
+|PrimaryNameAttribute|fullname|
+|SchemaName|Lead|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -186,1809 +187,2156 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Address1_AddressId"></a> Address1_AddressId
 
-**Description**: Unique identifier for address 1.<br />
-**DisplayName**: Address 1: ID<br />
-**LogicalName**: address1_addressid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for address 1.|
+|DisplayName|Address 1: ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|address1_addressid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Address1_AddressTypeCode"></a> Address1_AddressTypeCode
 
-**Description**: Select the primary address type.<br />
-**DisplayName**: Address 1: Address Type<br />
-**LogicalName**: address1_addresstypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the primary address type.|
+|DisplayName|Address 1: Address Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_addresstypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address1_AddressTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address1_City"></a> Address1_City
 
-**Description**: Type the city for the primary address.<br />
-**DisplayName**: City<br />
-**LogicalName**: address1_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the city for the primary address.|
+|DisplayName|City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Country"></a> Address1_Country
 
-**Description**: Type the country or region for the primary address.<br />
-**DisplayName**: Country/Region<br />
-**LogicalName**: address1_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the country or region for the primary address.|
+|DisplayName|Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_County"></a> Address1_County
 
-**Description**: Type the county for the primary address.<br />
-**DisplayName**: Address 1: County<br />
-**LogicalName**: address1_county<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the county for the primary address.|
+|DisplayName|Address 1: County|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_county|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Fax"></a> Address1_Fax
 
-**Description**: Type the fax number associated with the primary address.<br />
-**DisplayName**: Address 1: Fax<br />
-**LogicalName**: address1_fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the fax number associated with the primary address.|
+|DisplayName|Address 1: Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Latitude"></a> Address1_Latitude
 
-**Description**: Type the latitude value for the primary address for use in mapping and other applications.<br />
-**DisplayName**: Address 1: Latitude<br />
-**LogicalName**: address1_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the latitude value for the primary address for use in mapping and other applications.|
+|DisplayName|Address 1: Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address1_Line1"></a> Address1_Line1
 
-**Description**: Type the first line of the primary address.<br />
-**DisplayName**: Street 1<br />
-**LogicalName**: address1_line1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the first line of the primary address.|
+|DisplayName|Street 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Line2"></a> Address1_Line2
 
-**Description**: Type the second line of the primary address.<br />
-**DisplayName**: Street 2<br />
-**LogicalName**: address1_line2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the second line of the primary address.|
+|DisplayName|Street 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Line3"></a> Address1_Line3
 
-**Description**: Type the third line of the primary address.<br />
-**DisplayName**: Street 3<br />
-**LogicalName**: address1_line3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the third line of the primary address.|
+|DisplayName|Street 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Longitude"></a> Address1_Longitude
 
-**Description**: Type the longitude value for the primary address for use in mapping and other applications.<br />
-**DisplayName**: Address 1: Longitude<br />
-**LogicalName**: address1_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the longitude value for the primary address for use in mapping and other applications.|
+|DisplayName|Address 1: Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address1_Name"></a> Address1_Name
 
-**Description**: Type a descriptive name for the primary address, such as Corporate Headquarters.<br />
-**DisplayName**: Address 1: Name<br />
-**LogicalName**: address1_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type a descriptive name for the primary address, such as Corporate Headquarters.|
+|DisplayName|Address 1: Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_name|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_PostalCode"></a> Address1_PostalCode
 
-**Description**: Type the ZIP Code or postal code for the primary address.<br />
-**DisplayName**: ZIP/Postal Code<br />
-**LogicalName**: address1_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the ZIP Code or postal code for the primary address.|
+|DisplayName|ZIP/Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_PostOfficeBox"></a> Address1_PostOfficeBox
 
-**Description**: Type the post office box number of the primary address.<br />
-**DisplayName**: Address 1: Post Office Box<br />
-**LogicalName**: address1_postofficebox<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the post office box number of the primary address.|
+|DisplayName|Address 1: Post Office Box|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_postofficebox|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_ShippingMethodCode"></a> Address1_ShippingMethodCode
 
-**Description**: Select a shipping method for deliveries sent to this address.<br />
-**DisplayName**: Address 1: Shipping Method<br />
-**LogicalName**: address1_shippingmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a shipping method for deliveries sent to this address.|
+|DisplayName|Address 1: Shipping Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_shippingmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address1_ShippingMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address1_StateOrProvince"></a> Address1_StateOrProvince
 
-**Description**: Type the state or province of the primary address.<br />
-**DisplayName**: State/Province<br />
-**LogicalName**: address1_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the state or province of the primary address.|
+|DisplayName|State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone1"></a> Address1_Telephone1
 
-**Description**: Type the main phone number associated with the primary address.<br />
-**DisplayName**: Address 1: Telephone 1<br />
-**LogicalName**: address1_telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the main phone number associated with the primary address.|
+|DisplayName|Address 1: Telephone 1|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone2"></a> Address1_Telephone2
 
-**Description**: Type a second phone number associated with the primary address.<br />
-**DisplayName**: Address 1: Telephone 2<br />
-**LogicalName**: address1_telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a second phone number associated with the primary address.|
+|DisplayName|Address 1: Telephone 2|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone3"></a> Address1_Telephone3
 
-**Description**: Type a third phone number associated with the primary address.<br />
-**DisplayName**: Address 1: Telephone 3<br />
-**LogicalName**: address1_telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a third phone number associated with the primary address.|
+|DisplayName|Address 1: Telephone 3|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_UPSZone"></a> Address1_UPSZone
 
-**Description**: Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.<br />
-**DisplayName**: Address 1: UPS Zone<br />
-**LogicalName**: address1_upszone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4
+|Property|Value|
+|--------|-----|
+|Description|Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|
+|DisplayName|Address 1: UPS Zone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_upszone|
+|MaxLength|4|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_UTCOffset"></a> Address1_UTCOffset
 
-**Description**: Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.<br />
-**DisplayName**: Address 1: UTC Offset<br />
-**LogicalName**: address1_utcoffset<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: TimeZone<br />
-**MaxValue**: 1500<br />
-**MinValue**: -1500
+|Property|Value|
+|--------|-----|
+|Description|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|
+|DisplayName|Address 1: UTC Offset|
+|Format|TimeZone|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_utcoffset|
+|MaxValue|1500|
+|MinValue|-1500|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_Address2_AddressId"></a> Address2_AddressId
 
-**Description**: Unique identifier for address 2.<br />
-**DisplayName**: Address 2: ID<br />
-**LogicalName**: address2_addressid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for address 2.|
+|DisplayName|Address 2: ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|address2_addressid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Address2_AddressTypeCode"></a> Address2_AddressTypeCode
 
-**Description**: Select the secondary address type.<br />
-**DisplayName**: Address 2: Address Type<br />
-**LogicalName**: address2_addresstypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the secondary address type.|
+|DisplayName|Address 2: Address Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_addresstypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address2_AddressTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address2_City"></a> Address2_City
 
-**Description**: Type the city for the secondary address.<br />
-**DisplayName**: Address 2: City<br />
-**LogicalName**: address2_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the city for the secondary address.|
+|DisplayName|Address 2: City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Country"></a> Address2_Country
 
-**Description**: Type the country or region for the secondary address.<br />
-**DisplayName**: Address 2: Country/Region<br />
-**LogicalName**: address2_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the country or region for the secondary address.|
+|DisplayName|Address 2: Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_County"></a> Address2_County
 
-**Description**: Type the county for the secondary address.<br />
-**DisplayName**: Address 2: County<br />
-**LogicalName**: address2_county<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the county for the secondary address.|
+|DisplayName|Address 2: County|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_county|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Fax"></a> Address2_Fax
 
-**Description**: Type the fax number associated with the secondary address.<br />
-**DisplayName**: Address 2: Fax<br />
-**LogicalName**: address2_fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the fax number associated with the secondary address.|
+|DisplayName|Address 2: Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Latitude"></a> Address2_Latitude
 
-**Description**: Type the latitude value for the secondary address for use in mapping and other applications.<br />
-**DisplayName**: Address 2: Latitude<br />
-**LogicalName**: address2_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the latitude value for the secondary address for use in mapping and other applications.|
+|DisplayName|Address 2: Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address2_Line1"></a> Address2_Line1
 
-**Description**: Type the first line of the secondary address.<br />
-**DisplayName**: Address 2: Street 1<br />
-**LogicalName**: address2_line1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the first line of the secondary address.|
+|DisplayName|Address 2: Street 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Line2"></a> Address2_Line2
 
-**Description**: Type the second line of the secondary address.<br />
-**DisplayName**: Address 2: Street 2<br />
-**LogicalName**: address2_line2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the second line of the secondary address.|
+|DisplayName|Address 2: Street 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Line3"></a> Address2_Line3
 
-**Description**: Type the third line of the secondary address.<br />
-**DisplayName**: Address 2: Street 3<br />
-**LogicalName**: address2_line3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the third line of the secondary address.|
+|DisplayName|Address 2: Street 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Longitude"></a> Address2_Longitude
 
-**Description**: Type the longitude value for the secondary address for use in mapping and other applications.<br />
-**DisplayName**: Address 2: Longitude<br />
-**LogicalName**: address2_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the longitude value for the secondary address for use in mapping and other applications.|
+|DisplayName|Address 2: Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address2_Name"></a> Address2_Name
 
-**Description**: Type a descriptive name for the secondary address, such as Corporate Headquarters.<br />
-**DisplayName**: Address 2: Name<br />
-**LogicalName**: address2_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type a descriptive name for the secondary address, such as Corporate Headquarters.|
+|DisplayName|Address 2: Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_name|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_PostalCode"></a> Address2_PostalCode
 
-**Description**: Type the ZIP Code or postal code for the secondary address.<br />
-**DisplayName**: Address 2: ZIP/Postal Code<br />
-**LogicalName**: address2_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the ZIP Code or postal code for the secondary address.|
+|DisplayName|Address 2: ZIP/Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_PostOfficeBox"></a> Address2_PostOfficeBox
 
-**Description**: Type the post office box number of the secondary address.<br />
-**DisplayName**: Address 2: Post Office Box<br />
-**LogicalName**: address2_postofficebox<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the post office box number of the secondary address.|
+|DisplayName|Address 2: Post Office Box|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_postofficebox|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_ShippingMethodCode"></a> Address2_ShippingMethodCode
 
-**Description**: Select a shipping method for deliveries sent to this address.<br />
-**DisplayName**: Address 2: Shipping Method<br />
-**LogicalName**: address2_shippingmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a shipping method for deliveries sent to this address.|
+|DisplayName|Address 2: Shipping Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_shippingmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address2_ShippingMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address2_StateOrProvince"></a> Address2_StateOrProvince
 
-**Description**: Type the state or province of the secondary address.<br />
-**DisplayName**: Address 2: State/Province<br />
-**LogicalName**: address2_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the state or province of the secondary address.|
+|DisplayName|Address 2: State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone1"></a> Address2_Telephone1
 
-**Description**: Type the main phone number associated with the secondary address.<br />
-**DisplayName**: Address 2: Telephone 1<br />
-**LogicalName**: address2_telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the main phone number associated with the secondary address.|
+|DisplayName|Address 2: Telephone 1|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone2"></a> Address2_Telephone2
 
-**Description**: Type a second phone number associated with the secondary address.<br />
-**DisplayName**: Address 2: Telephone 2<br />
-**LogicalName**: address2_telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a second phone number associated with the secondary address.|
+|DisplayName|Address 2: Telephone 2|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone3"></a> Address2_Telephone3
 
-**Description**: Type a third phone number associated with the secondary address.<br />
-**DisplayName**: Address 2: Telephone 3<br />
-**LogicalName**: address2_telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a third phone number associated with the secondary address.|
+|DisplayName|Address 2: Telephone 3|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_UPSZone"></a> Address2_UPSZone
 
-**Description**: Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.<br />
-**DisplayName**: Address 2: UPS Zone<br />
-**LogicalName**: address2_upszone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4
+|Property|Value|
+|--------|-----|
+|Description|Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|
+|DisplayName|Address 2: UPS Zone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_upszone|
+|MaxLength|4|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_UTCOffset"></a> Address2_UTCOffset
 
-**Description**: Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.<br />
-**DisplayName**: Address 2: UTC Offset<br />
-**LogicalName**: address2_utcoffset<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: TimeZone<br />
-**MaxValue**: 1500<br />
-**MinValue**: -1500
+|Property|Value|
+|--------|-----|
+|Description|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|
+|DisplayName|Address 2: UTC Offset|
+|Format|TimeZone|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_utcoffset|
+|MaxValue|1500|
+|MinValue|-1500|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_BudgetAmount"></a> BudgetAmount
 
-**Description**: Information about the budget amount of the lead's company or organization.<br />
-**DisplayName**: Budget Amount<br />
-**LogicalName**: budgetamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Information about the budget amount of the lead's company or organization.|
+|DisplayName|Budget Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|budgetamount|
+|MaxValue|1000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_BudgetStatus"></a> BudgetStatus
 
-**Description**: Information about the budget status of the lead's company or organization.<br />
-**DisplayName**: Budget<br />
-**LogicalName**: budgetstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Information about the budget status of the lead's company or organization.|
+|DisplayName|Budget|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|budgetstatus|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: No Committed Budget
-- **Value**: 1 **Label**: May Buy
-- **Value**: 2 **Label**: Can Buy
-- **Value**: 3 **Label**: Will Buy
+#### BudgetStatus Options
+
+|Value|Label|
+|-----|-----|
+|0|No Committed Budget|
+|1|May Buy|
+|2|Can Buy|
+|3|Will Buy|
 
 
 
 ### <a name="BKMK_CampaignId"></a> CampaignId
 
-**Description**: Choose the campaign that the lead was generated from to track the effectiveness of marketing campaigns and identify  communications received by the lead.<br />
-**DisplayName**: Source Campaign<br />
-**LogicalName**: campaignid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: campaign
+|Property|Value|
+|--------|-----|
+|Description|Choose the campaign that the lead was generated from to track the effectiveness of marketing campaigns and identify  communications received by the lead.|
+|DisplayName|Source Campaign|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|campaignid|
+|RequiredLevel|None|
+|Targets|campaign|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CompanyName"></a> CompanyName
 
-**Description**: Type the name of the company associated with the lead. This becomes the account name when the lead is qualified and converted to a customer account.<br />
-**DisplayName**: Company Name<br />
-**LogicalName**: companyname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the name of the company associated with the lead. This becomes the account name when the lead is qualified and converted to a customer account.|
+|DisplayName|Company Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|companyname|
+|MaxLength|100|
+|RequiredLevel|Recommended|
+|Type|String|
 
 
 ### <a name="BKMK_ConfirmInterest"></a> ConfirmInterest
 
-**Description**: Select whether the lead confirmed interest in your offerings. This helps in determining the lead quality.<br />
-**DisplayName**: Confirm Interest<br />
-**LogicalName**: confirminterest<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the lead confirmed interest in your offerings. This helps in determining the lead quality.|
+|DisplayName|Confirm Interest|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|confirminterest|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: No
-- **FalseOption Value**: 0 **Label**: Yes
+#### ConfirmInterest Options
+
+|Value|Label|
+|-----|-----|
+|1|No|
+|0|Yes|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_CustomerId"></a> CustomerId
 
-**Description**: Select the customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.<br />
-**DisplayName**: Customer<br />
-**LogicalName**: customerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Customer<br />
-**Targets**: account,contact
+|Property|Value|
+|--------|-----|
+|Description|Select the customer account or contact to provide a quick link to additional customer details, such as account information, activities, and opportunities.|
+|DisplayName|Customer|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|customerid|
+|RequiredLevel|None|
+|Targets|account,contact|
+|Type|Customer|
 
 
 ### <a name="BKMK_CustomerIdType"></a> CustomerIdType
 
-**Description**: <br />
-**DisplayName**: Customer Type<br />
-**LogicalName**: customeridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Customer Type|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|customeridtype|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_DecisionMaker"></a> DecisionMaker
 
-**Description**: Select whether your notes include information about who makes the purchase decisions at the lead's company.<br />
-**DisplayName**: Decision Maker?<br />
-**LogicalName**: decisionmaker<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether your notes include information about who makes the purchase decisions at the lead's company.|
+|DisplayName|Decision Maker?|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|decisionmaker|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: completed
-- **FalseOption Value**: 0 **Label**: mark complete
+#### DecisionMaker Options
+
+|Value|Label|
+|-----|-----|
+|1|completed|
+|0|mark complete|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Type additional information to describe the lead, such as an excerpt from the company's website.<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Type additional information to describe the lead, such as an excerpt from the company's website.|
+|DisplayName|Description|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_DoNotBulkEMail"></a> DoNotBulkEMail
 
-**Description**: Select whether the lead accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the lead can be added to marketing lists, but will be excluded from the email.<br />
-**DisplayName**: Do not allow Bulk Emails<br />
-**LogicalName**: donotbulkemail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the lead accepts bulk email sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the lead can be added to marketing lists, but will be excluded from the email.|
+|DisplayName|Do not allow Bulk Emails|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotbulkemail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotBulkEMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotEMail"></a> DoNotEMail
 
-**Description**: Select whether the lead allows direct email sent from Microsoft Dynamics 365.<br />
-**DisplayName**: Do not allow Emails<br />
-**LogicalName**: donotemail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the lead allows direct email sent from Microsoft Dynamics 365.|
+|DisplayName|Do not allow Emails|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotemail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotEMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotFax"></a> DoNotFax
 
-**Description**: Select whether the lead allows faxes.<br />
-**DisplayName**: Do not allow Faxes<br />
-**LogicalName**: donotfax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the lead allows faxes.|
+|DisplayName|Do not allow Faxes|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotfax|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotFax Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotPhone"></a> DoNotPhone
 
-**Description**: Select whether the lead allows phone calls.<br />
-**DisplayName**: Do not allow Phone Calls<br />
-**LogicalName**: donotphone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the lead allows phone calls.|
+|DisplayName|Do not allow Phone Calls|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotphone|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotPhone Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotPostalMail"></a> DoNotPostalMail
 
-**Description**: Select whether the lead allows direct mail.<br />
-**DisplayName**: Do not allow Mails<br />
-**LogicalName**: donotpostalmail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the lead allows direct mail.|
+|DisplayName|Do not allow Mails|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotpostalmail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotPostalMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotSendMM"></a> DoNotSendMM
 
-**Description**: Select whether the lead accepts marketing materials, such as brochures or catalogs. Leads that opt out can be excluded from marketing initiatives.<br />
-**DisplayName**: Marketing Material<br />
-**LogicalName**: donotsendmm<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the lead accepts marketing materials, such as brochures or catalogs. Leads that opt out can be excluded from marketing initiatives.|
+|DisplayName|Marketing Material|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotsendmm|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Send
-- **FalseOption Value**: 0 **Label**: Send
+#### DoNotSendMM Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Send|
+|0|Send|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_EMailAddress1"></a> EMailAddress1
 
-**Description**: Type the primary email address for the lead.<br />
-**DisplayName**: Email<br />
-**LogicalName**: emailaddress1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Email<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the primary email address for the lead.|
+|DisplayName|Email|
+|FormatName|Email|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|emailaddress1|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EMailAddress2"></a> EMailAddress2
 
-**Description**: Type the secondary email address for the lead.<br />
-**DisplayName**: Email Address 2<br />
-**LogicalName**: emailaddress2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Email<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the secondary email address for the lead.|
+|DisplayName|Email Address 2|
+|FormatName|Email|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|emailaddress2|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EMailAddress3"></a> EMailAddress3
 
-**Description**: Type a third email address for the lead.<br />
-**DisplayName**: Email Address 3<br />
-**LogicalName**: emailaddress3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Email<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type a third email address for the lead.|
+|DisplayName|Email Address 3|
+|FormatName|Email|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|emailaddress3|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImage"></a> EntityImage
 
-**Description**: Shows the default image for the record.<br />
-**DisplayName**: Entity Image<br />
-**LogicalName**: entityimage<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Image<br />
-**IsPrimaryImage**: True<br />
-**MaxHeight**: 144<br />
-**MaxWidth**: 144
+|Property|Value|
+|--------|-----|
+|Description|Shows the default image for the record.|
+|DisplayName|Entity Image|
+|IsPrimaryImage|True|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage|
+|MaxHeight|144|
+|MaxWidth|144|
+|RequiredLevel|None|
+|Type|Image|
 
 
 ### <a name="BKMK_EstimatedAmount"></a> EstimatedAmount
 
-**Description**: Type the estimated revenue value that this lead will generate to assist in sales forecasting and planning.<br />
-**DisplayName**: Est. Value<br />
-**LogicalName**: estimatedamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type the estimated revenue value that this lead will generate to assist in sales forecasting and planning.|
+|DisplayName|Est. Value|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|estimatedamount|
+|MaxValue|1000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_EstimatedCloseDate"></a> EstimatedCloseDate
 
-**Description**: Enter the expected close date for the lead, so that the sales team can schedule timely follow-up meetings to move the prospect to the next sales stage.<br />
-**DisplayName**: Est. Close Date<br />
-**LogicalName**: estimatedclosedate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: DateOnly<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|DateOnly|
+|Description|Enter the expected close date for the lead, so that the sales team can schedule timely follow-up meetings to move the prospect to the next sales stage.|
+|DisplayName|Est. Close Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|estimatedclosedate|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_EstimatedValue"></a> EstimatedValue
 
-**Description**: Type a numeric value of the lead's estimated value, such as a product quantity, if no revenue amount can be specified in the Est. Value field. This can be used for sales forecasting and planning.<br />
-**DisplayName**: Est. Value (deprecated)<br />
-**LogicalName**: estimatedvalue<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type a numeric value of the lead's estimated value, such as a product quantity, if no revenue amount can be specified in the Est. Value field. This can be used for sales forecasting and planning.|
+|DisplayName|Est. Value (deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|estimatedvalue|
+|MaxValue|1000000000|
+|MinValue|0|
+|Precision|2|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_EvaluateFit"></a> EvaluateFit
 
-**Description**: Select whether the fit between the lead's requirements and your offerings was evaluated.<br />
-**DisplayName**: Evaluate Fit<br />
-**LogicalName**: evaluatefit<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the fit between the lead's requirements and your offerings was evaluated.|
+|DisplayName|Evaluate Fit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|evaluatefit|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: No
-- **FalseOption Value**: 0 **Label**: Yes
+#### EvaluateFit Options
+
+|Value|Label|
+|-----|-----|
+|1|No|
+|0|Yes|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_Fax"></a> Fax
 
-**Description**: Type the fax number for the primary contact for the lead.<br />
-**DisplayName**: Fax<br />
-**LogicalName**: fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the fax number for the primary contact for the lead.|
+|DisplayName|Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_FirstName"></a> FirstName
 
-**Description**: Type the first name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.<br />
-**DisplayName**: First Name<br />
-**LogicalName**: firstname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the first name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|
+|DisplayName|First Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|firstname|
+|MaxLength|50|
+|RequiredLevel|Recommended|
+|Type|String|
 
 
 ### <a name="BKMK_FollowEmail"></a> FollowEmail
 
-**Description**: Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the lead.<br />
-**DisplayName**: Follow Email Activity<br />
-**LogicalName**: followemail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the lead.|
+|DisplayName|Follow Email Activity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|followemail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Allow
-- **FalseOption Value**: 0 **Label**: Do Not Allow
+#### FollowEmail Options
+
+|Value|Label|
+|-----|-----|
+|1|Allow|
+|0|Do Not Allow|
 
 **DefaultValue**: True
 
 
+
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IndustryCode"></a> IndustryCode
 
-**Description**: Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.<br />
-**DisplayName**: Industry<br />
-**LogicalName**: industrycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the primary industry in which the lead's business is focused, for use in marketing segmentation and demographic analysis.|
+|DisplayName|Industry|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|industrycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Accounting
-- **Value**: 2 **Label**: Agriculture and Non-petrol Natural Resource Extraction
-- **Value**: 3 **Label**: Broadcasting Printing and Publishing
-- **Value**: 4 **Label**: Brokers
-- **Value**: 5 **Label**: Building Supply Retail
-- **Value**: 6 **Label**: Business Services
-- **Value**: 7 **Label**: Consulting
-- **Value**: 8 **Label**: Consumer Services
-- **Value**: 9 **Label**: Design, Direction and Creative Management
-- **Value**: 10 **Label**: Distributors, Dispatchers and Processors
-- **Value**: 11 **Label**: Doctor's Offices and Clinics
-- **Value**: 12 **Label**: Durable Manufacturing
-- **Value**: 13 **Label**: Eating and Drinking Places
-- **Value**: 14 **Label**: Entertainment Retail
-- **Value**: 15 **Label**: Equipment Rental and Leasing
-- **Value**: 16 **Label**: Financial
-- **Value**: 17 **Label**: Food and Tobacco Processing
-- **Value**: 18 **Label**: Inbound Capital Intensive Processing
-- **Value**: 19 **Label**: Inbound Repair and Services
-- **Value**: 20 **Label**: Insurance
-- **Value**: 21 **Label**: Legal Services
-- **Value**: 22 **Label**: Non-Durable Merchandise Retail
-- **Value**: 23 **Label**: Outbound Consumer Service
-- **Value**: 24 **Label**: Petrochemical Extraction and Distribution
-- **Value**: 25 **Label**: Service Retail
-- **Value**: 26 **Label**: SIG Affiliations
-- **Value**: 27 **Label**: Social Services
-- **Value**: 28 **Label**: Special Outbound Trade Contractors
-- **Value**: 29 **Label**: Specialty Realty
-- **Value**: 30 **Label**: Transportation
-- **Value**: 31 **Label**: Utility Creation and Distribution
-- **Value**: 32 **Label**: Vehicle Retail
-- **Value**: 33 **Label**: Wholesale
+#### IndustryCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Accounting|
+|2|Agriculture and Non-petrol Natural Resource Extraction|
+|3|Broadcasting Printing and Publishing|
+|4|Brokers|
+|5|Building Supply Retail|
+|6|Business Services|
+|7|Consulting|
+|8|Consumer Services|
+|9|Design, Direction and Creative Management|
+|10|Distributors, Dispatchers and Processors|
+|11|Doctor's Offices and Clinics|
+|12|Durable Manufacturing|
+|13|Eating and Drinking Places|
+|14|Entertainment Retail|
+|15|Equipment Rental and Leasing|
+|16|Financial|
+|17|Food and Tobacco Processing|
+|18|Inbound Capital Intensive Processing|
+|19|Inbound Repair and Services|
+|20|Insurance|
+|21|Legal Services|
+|22|Non-Durable Merchandise Retail|
+|23|Outbound Consumer Service|
+|24|Petrochemical Extraction and Distribution|
+|25|Service Retail|
+|26|SIG Affiliations|
+|27|Social Services|
+|28|Special Outbound Trade Contractors|
+|29|Specialty Realty|
+|30|Transportation|
+|31|Utility Creation and Distribution|
+|32|Vehicle Retail|
+|33|Wholesale|
 
 
 
 ### <a name="BKMK_InitialCommunication"></a> InitialCommunication
 
-**Description**: Choose whether someone from the sales team contacted this lead earlier.<br />
-**DisplayName**: Initial Communication<br />
-**LogicalName**: initialcommunication<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Choose whether someone from the sales team contacted this lead earlier.|
+|DisplayName|Initial Communication|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|initialcommunication|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Contacted
-- **Value**: 1 **Label**: Not Contacted
+#### InitialCommunication Options
+
+|Value|Label|
+|-----|-----|
+|0|Contacted|
+|1|Not Contacted|
 
 
 
 ### <a name="BKMK_JobTitle"></a> JobTitle
 
-**Description**: Type the job title of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.<br />
-**DisplayName**: Job Title<br />
-**LogicalName**: jobtitle<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the job title of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|
+|DisplayName|Job Title|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|jobtitle|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_LastName"></a> LastName
 
-**Description**: Type the last name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.<br />
-**DisplayName**: Last Name<br />
-**LogicalName**: lastname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the last name of the primary contact for the lead to make sure the prospect is addressed correctly in sales calls, email, and marketing campaigns.|
+|DisplayName|Last Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastname|
+|MaxLength|50|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_LastOnHoldTime"></a> LastOnHoldTime
 
-**Description**: Contains the date and time stamp of the last on hold time.<br />
-**DisplayName**: Last On Hold Time<br />
-**LogicalName**: lastonholdtime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Contains the date and time stamp of the last on hold time.|
+|DisplayName|Last On Hold Time|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastonholdtime|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_LastUsedInCampaign"></a> LastUsedInCampaign
 
-**Description**: Shows the date when the lead was last included in a marketing campaign or quick campaign.<br />
-**DisplayName**: Last Campaign Date<br />
-**LogicalName**: lastusedincampaign<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date when the lead was last included in a marketing campaign or quick campaign.|
+|DisplayName|Last Campaign Date|
+|Format|DateOnly|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastusedincampaign|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_LeadId"></a> LeadId
 
-**Description**: Unique identifier of the lead.<br />
-**DisplayName**: Lead<br />
-**LogicalName**: leadid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the lead.|
+|DisplayName|Lead|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|leadid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_LeadQualityCode"></a> LeadQualityCode
 
-**Description**: Select a rating value to indicate the lead's potential to become a customer.<br />
-**DisplayName**: Rating<br />
-**LogicalName**: leadqualitycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a rating value to indicate the lead's potential to become a customer.|
+|DisplayName|Rating|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|leadqualitycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Hot
-- **Value**: 2 **Label**: Warm
-- **Value**: 3 **Label**: Cold
+#### LeadQualityCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Hot|
+|2|Warm|
+|3|Cold|
 
 
 
 ### <a name="BKMK_LeadSourceCode"></a> LeadSourceCode
 
-**Description**: Select the primary marketing source that prompted the lead to contact you.<br />
-**DisplayName**: Lead Source<br />
-**LogicalName**: leadsourcecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the primary marketing source that prompted the lead to contact you.|
+|DisplayName|Lead Source|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|leadsourcecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Advertisement
-- **Value**: 2 **Label**: Employee Referral
-- **Value**: 3 **Label**: External Referral
-- **Value**: 4 **Label**: Partner
-- **Value**: 5 **Label**: Public Relations
-- **Value**: 6 **Label**: Seminar
-- **Value**: 7 **Label**: Trade Show
-- **Value**: 8 **Label**: Web
-- **Value**: 9 **Label**: Word of Mouth
-- **Value**: 10 **Label**: Other
+#### LeadSourceCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Advertisement|
+|2|Employee Referral|
+|3|External Referral|
+|4|Partner|
+|5|Public Relations|
+|6|Seminar|
+|7|Trade Show|
+|8|Web|
+|9|Word of Mouth|
+|10|Other|
 
 
 
 ### <a name="BKMK_MiddleName"></a> MiddleName
 
-**Description**: Type the middle name or initial of the primary contact for the lead to make sure the prospect is addressed correctly.<br />
-**DisplayName**: Middle Name<br />
-**LogicalName**: middlename<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the middle name or initial of the primary contact for the lead to make sure the prospect is addressed correctly.|
+|DisplayName|Middle Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|middlename|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_MobilePhone"></a> MobilePhone
 
-**Description**: Type the mobile phone number for the primary contact for the lead.<br />
-**DisplayName**: Mobile Phone<br />
-**LogicalName**: mobilephone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the mobile phone number for the primary contact for the lead.|
+|DisplayName|Mobile Phone|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|mobilephone|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ordertype"></a> msdyn_ordertype
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Whether the Opportunity created when qualifying this Lead is for an Item- based or a Work-based sale<br />
-**DisplayName**: Type<br />
-**LogicalName**: msdyn_ordertype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Whether the Opportunity created when qualifying this Lead is for an Item- based or a Work-based sale|
+|DisplayName|Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_ordertype|
+|RequiredLevel|Recommended|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: Item based
-- **Value**: 192350001 **Label**: Work based
-- **Value**: 690970002 **Label**: Service-Maintenance Based
+#### msdyn_ordertype Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Item based|
+|192350001|Work based|
+|690970002|Service-Maintenance Based|
 
 
 
 ### <a name="BKMK_Need"></a> Need
 
-**Description**: Choose how high the level of need is for the lead's company.<br />
-**DisplayName**: Need<br />
-**LogicalName**: need<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Choose how high the level of need is for the lead's company.|
+|DisplayName|Need|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|need|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Must have
-- **Value**: 1 **Label**: Should have
-- **Value**: 2 **Label**: Good to have
-- **Value**: 3 **Label**: No need
+#### Need Options
+
+|Value|Label|
+|-----|-----|
+|0|Must have|
+|1|Should have|
+|2|Good to have|
+|3|No need|
 
 
 
 ### <a name="BKMK_NumberOfEmployees"></a> NumberOfEmployees
 
-**Description**: Type the number of employees that work at the company associated with the lead, for use in marketing segmentation and demographic analysis.<br />
-**DisplayName**: No. of Employees<br />
-**LogicalName**: numberofemployees<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Type the number of employees that work at the company associated with the lead, for use in marketing segmentation and demographic analysis.|
+|DisplayName|No. of Employees|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|numberofemployees|
+|MaxValue|1000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OriginatingCaseId"></a> OriginatingCaseId
 
-**Description**: This attribute is used for Sample Service Business Processes.<br />
-**DisplayName**: Originating Case<br />
-**LogicalName**: originatingcaseid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: incident
+|Property|Value|
+|--------|-----|
+|Description|This attribute is used for Sample Service Business Processes.|
+|DisplayName|Originating Case|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|originatingcaseid|
+|RequiredLevel|None|
+|Targets|incident|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Owner Id<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_Pager"></a> Pager
 
-**Description**: Type the pager number for the primary contact for the lead.<br />
-**DisplayName**: Pager<br />
-**LogicalName**: pager<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the pager number for the primary contact for the lead.|
+|DisplayName|Pager|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|pager|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ParentAccountId"></a> ParentAccountId
 
-**Description**: Choose an account to connect this lead to, so that the relationship is visible in reports and analytics.<br />
-**DisplayName**: Parent Account for lead<br />
-**LogicalName**: parentaccountid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Choose an account to connect this lead to, so that the relationship is visible in reports and analytics.|
+|DisplayName|Parent Account for lead|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|parentaccountid|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ParentContactId"></a> ParentContactId
 
-**Description**: Choose a contact to connect this lead to, so that the relationship is visible in reports and analytics.<br />
-**DisplayName**: Parent Contact for lead<br />
-**LogicalName**: parentcontactid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: contact
+|Property|Value|
+|--------|-----|
+|Description|Choose a contact to connect this lead to, so that the relationship is visible in reports and analytics.|
+|DisplayName|Parent Contact for lead|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|parentcontactid|
+|RequiredLevel|None|
+|Targets|contact|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ParticipatesInWorkflow"></a> ParticipatesInWorkflow
 
-**Description**: Shows whether the lead participates in workflow rules.<br />
-**DisplayName**: Participates in Workflow<br />
-**LogicalName**: participatesinworkflow<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the lead participates in workflow rules.|
+|DisplayName|Participates in Workflow|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|participatesinworkflow|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### ParticipatesInWorkflow Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_PreferredContactMethodCode"></a> PreferredContactMethodCode
 
-**Description**: Select the preferred method of contact.<br />
-**DisplayName**: Preferred Method of Contact<br />
-**LogicalName**: preferredcontactmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the preferred method of contact.|
+|DisplayName|Preferred Method of Contact|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|preferredcontactmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Any
-- **Value**: 2 **Label**: Email
-- **Value**: 3 **Label**: Phone
-- **Value**: 4 **Label**: Fax
-- **Value**: 5 **Label**: Mail
+#### PreferredContactMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Any|
+|2|Email|
+|3|Phone|
+|4|Fax|
+|5|Mail|
 
 
 
 ### <a name="BKMK_PriorityCode"></a> PriorityCode
 
-**Description**: Select the priority so that preferred customers or critical issues are handled quickly.<br />
-**DisplayName**: Priority<br />
-**LogicalName**: prioritycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the priority so that preferred customers or critical issues are handled quickly.|
+|DisplayName|Priority|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|prioritycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### PriorityCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_ProcessId"></a> ProcessId
 
-**Description**: Contains the id of the process associated with the entity.<br />
-**DisplayName**: Process Id<br />
-**LogicalName**: processid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Contains the id of the process associated with the entity.|
+|DisplayName|Process Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|processid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_PurchaseProcess"></a> PurchaseProcess
 
-**Description**: Choose whether an individual or a committee will be involved in the  purchase process for the lead.<br />
-**DisplayName**: Purchase Process<br />
-**LogicalName**: purchaseprocess<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Choose whether an individual or a committee will be involved in the  purchase process for the lead.|
+|DisplayName|Purchase Process|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|purchaseprocess|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Individual
-- **Value**: 1 **Label**: Committee
-- **Value**: 2 **Label**: Unknown
+#### PurchaseProcess Options
+
+|Value|Label|
+|-----|-----|
+|0|Individual|
+|1|Committee|
+|2|Unknown|
 
 
 
 ### <a name="BKMK_PurchaseTimeFrame"></a> PurchaseTimeFrame
 
-**Description**: Choose how long the lead will likely take to make the purchase, so the sales team will be aware.<br />
-**DisplayName**: Purchase Timeframe<br />
-**LogicalName**: purchasetimeframe<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Choose how long the lead will likely take to make the purchase, so the sales team will be aware.|
+|DisplayName|Purchase Timeframe|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|purchasetimeframe|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Immediate
-- **Value**: 1 **Label**: This Quarter
-- **Value**: 2 **Label**: Next Quarter
-- **Value**: 3 **Label**: This Year
-- **Value**: 4 **Label**: Unknown
+#### PurchaseTimeFrame Options
+
+|Value|Label|
+|-----|-----|
+|0|Immediate|
+|1|This Quarter|
+|2|Next Quarter|
+|3|This Year|
+|4|Unknown|
 
 
 
 ### <a name="BKMK_QualificationComments"></a> QualificationComments
 
-**Description**: Type comments about the qualification or scoring of the lead.<br />
-**DisplayName**: Qualification Comments<br />
-**LogicalName**: qualificationcomments<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Type comments about the qualification or scoring of the lead.|
+|DisplayName|Qualification Comments|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|qualificationcomments|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_QualifyingOpportunityId"></a> QualifyingOpportunityId
 
-**Description**: Choose the opportunity that the lead was qualified on and then converted to.<br />
-**DisplayName**: Qualifying Opportunity<br />
-**LogicalName**: qualifyingopportunityid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: opportunity
+|Property|Value|
+|--------|-----|
+|Description|Choose the opportunity that the lead was qualified on and then converted to.|
+|DisplayName|Qualifying Opportunity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|qualifyingopportunityid|
+|RequiredLevel|None|
+|Targets|opportunity|
+|Type|Lookup|
 
 
 ### <a name="BKMK_RelatedObjectId"></a> RelatedObjectId
 
-**Description**: Related Campaign Response.<br />
-**DisplayName**: Related Campaign Response<br />
-**LogicalName**: relatedobjectid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Lookup<br />
-**Targets**: campaignresponse
+|Property|Value|
+|--------|-----|
+|Description|Related Campaign Response.|
+|DisplayName|Related Campaign Response|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|relatedobjectid|
+|RequiredLevel|None|
+|Targets|campaignresponse|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Revenue"></a> Revenue
 
-**Description**: Type the annual revenue of the company associated with the lead to provide an understanding of the prospect's business.<br />
-**DisplayName**: Annual Revenue<br />
-**LogicalName**: revenue<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 100000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type the annual revenue of the company associated with the lead to provide an understanding of the prospect's business.|
+|DisplayName|Annual Revenue|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|revenue|
+|MaxValue|100000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_SalesStage"></a> SalesStage
 
-**Description**: Select the sales stage of this lead to aid the sales team in their efforts to convert this lead to an opportunity.<br />
-**DisplayName**: Sales Stage<br />
-**LogicalName**: salesstage<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the sales stage of this lead to aid the sales team in their efforts to convert this lead to an opportunity.|
+|DisplayName|Sales Stage|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|salesstage|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Qualify
+#### SalesStage Options
+
+|Value|Label|
+|-----|-----|
+|0|Qualify|
 
 
 
 ### <a name="BKMK_SalesStageCode"></a> SalesStageCode
 
-**Description**: Select the sales process stage for the lead to help determine the probability of the lead converting to an opportunity.<br />
-**DisplayName**: Sales Stage Code<br />
-**LogicalName**: salesstagecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the sales process stage for the lead to help determine the probability of the lead converting to an opportunity.|
+|DisplayName|Sales Stage Code|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|salesstagecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### SalesStageCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Salutation"></a> Salutation
 
-**Description**: Type the salutation of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email messages, and marketing campaigns.<br />
-**DisplayName**: Salutation<br />
-**LogicalName**: salutation<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the salutation of the primary contact for this lead to make sure the prospect is addressed correctly in sales calls, email messages, and marketing campaigns.|
+|DisplayName|Salutation|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|salutation|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ScheduleFollowUp_Prospect"></a> ScheduleFollowUp_Prospect
 
-**Description**: Enter the date and time of the prospecting follow-up meeting with the lead.<br />
-**DisplayName**: Schedule Follow Up (Prospect)<br />
-**LogicalName**: schedulefollowup_prospect<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the date and time of the prospecting follow-up meeting with the lead.|
+|DisplayName|Schedule Follow Up (Prospect)|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|schedulefollowup_prospect|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ScheduleFollowUp_Qualify"></a> ScheduleFollowUp_Qualify
 
-**Description**: Enter the date and time of the qualifying follow-up meeting with the lead.<br />
-**DisplayName**: Schedule Follow Up (Qualify)<br />
-**LogicalName**: schedulefollowup_qualify<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the date and time of the qualifying follow-up meeting with the lead.|
+|DisplayName|Schedule Follow Up (Qualify)|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|schedulefollowup_qualify|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SIC"></a> SIC
 
-**Description**: Type the Standard Industrial Classification (SIC) code that indicates the lead's primary industry of business for use in marketing segmentation and demographic analysis.<br />
-**DisplayName**: SIC Code<br />
-**LogicalName**: sic<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the Standard Industrial Classification (SIC) code that indicates the lead's primary industry of business for use in marketing segmentation and demographic analysis.|
+|DisplayName|SIC Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|sic|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SLAId"></a> SLAId
 
-**Description**: Choose the service level agreement (SLA) that you want to apply to the Lead record.<br />
-**DisplayName**: SLA<br />
-**LogicalName**: slaid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: sla
+|Property|Value|
+|--------|-----|
+|Description|Choose the service level agreement (SLA) that you want to apply to the Lead record.|
+|DisplayName|SLA|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|slaid|
+|RequiredLevel|None|
+|Targets|sla|
+|Type|Lookup|
 
 
 ### <a name="BKMK_StageId"></a> StageId
 
-**Description**: Contains the id of the stage where the entity is located.<br />
-**DisplayName**: Stage Id<br />
-**LogicalName**: stageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Contains the id of the stage where the entity is located.|
+|DisplayName|Stage Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|stageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_StateCode"></a> StateCode
 
-**Description**: Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the lead is open, qualified, or disqualified. Qualified and disqualified leads are read-only and can't be edited unless they are reactivated.|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Open **DefaultStatus**: 1 **InvariantName**: Open
-- **Value**: 1 **Label**: Qualified **DefaultStatus**: 3 **InvariantName**: Qualified
-- **Value**: 2 **Label**: Disqualified **DefaultStatus**: 4 **InvariantName**: Disqualified
+#### StateCode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Open|1|Open|
+|1|Qualified|3|Qualified|
+|2|Disqualified|4|Disqualified|
 
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-**Description**: Select the lead's status.<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the lead's status.|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: New **State**: 0
-- **Value**: 2 **Label**: Contacted **State**: 0
-- **Value**: 3 **Label**: Qualified **State**: 1
-- **Value**: 4 **Label**: Lost **State**: 2
-- **Value**: 5 **Label**: Cannot Contact **State**: 2
-- **Value**: 6 **Label**: No Longer Interested **State**: 2
-- **Value**: 7 **Label**: Canceled **State**: 2
+#### StatusCode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|New|0|
+|2|Contacted|0|
+|3|Qualified|1|
+|4|Lost|2|
+|5|Cannot Contact|2|
+|6|No Longer Interested|2|
+|7|Canceled|2|
 
 
 
 ### <a name="BKMK_Subject"></a> Subject
 
-**Description**: Type a subject or descriptive name, such as the expected order, company name, or marketing source list, to identify the lead.<br />
-**DisplayName**: Topic<br />
-**LogicalName**: subject<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 300
+|Property|Value|
+|--------|-----|
+|Description|Type a subject or descriptive name, such as the expected order, company name, or marketing source list, to identify the lead.|
+|DisplayName|Topic|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|subject|
+|MaxLength|300|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_Telephone1"></a> Telephone1
 
-**Description**: Type the work phone number for the primary contact for the lead.<br />
-**DisplayName**: Business Phone<br />
-**LogicalName**: telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the work phone number for the primary contact for the lead.|
+|DisplayName|Business Phone|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Telephone2"></a> Telephone2
 
-**Description**: Type the home phone number for the primary contact for the lead.<br />
-**DisplayName**: Home Phone<br />
-**LogicalName**: telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the home phone number for the primary contact for the lead.|
+|DisplayName|Home Phone|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Telephone3"></a> Telephone3
 
-**Description**: Type an alternate phone number for the primary contact for the lead.<br />
-**DisplayName**: Other Phone<br />
-**LogicalName**: telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type an alternate phone number for the primary contact for the lead.|
+|DisplayName|Other Phone|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Choose the local currency for the record to make sure budgets are reported in the correct currency.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Choose the local currency for the record to make sure budgets are reported in the correct currency.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TraversedPath"></a> TraversedPath
 
-**Description**: A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.<br />
-**DisplayName**: Traversed Path<br />
-**LogicalName**: traversedpath<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1250
+|Property|Value|
+|--------|-----|
+|Description|A comma separated list of string values representing the unique identifiers of stages in a Business Process Flow Instance in the order that they occur.|
+|DisplayName|Traversed Path|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|traversedpath|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_WebSiteUrl"></a> WebSiteUrl
 
-**Description**: Type the website URL for the company associated with this lead.<br />
-**DisplayName**: Website<br />
-**LogicalName**: websiteurl<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Url<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Type the website URL for the company associated with this lead.|
+|DisplayName|Website|
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|websiteurl|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_YomiCompanyName"></a> YomiCompanyName
 
-**Description**: Type the phonetic spelling of the lead's company name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.<br />
-**DisplayName**: Yomi Company Name<br />
-**LogicalName**: yomicompanyname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: PhoneticGuide<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the phonetic spelling of the lead's company name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|
+|DisplayName|Yomi Company Name|
+|FormatName|PhoneticGuide|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|yomicompanyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_YomiFirstName"></a> YomiFirstName
 
-**Description**: Type the phonetic spelling of the lead's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.<br />
-**DisplayName**: Yomi First Name<br />
-**LogicalName**: yomifirstname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: PhoneticGuide<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 150
+|Property|Value|
+|--------|-----|
+|Description|Type the phonetic spelling of the lead's first name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|
+|DisplayName|Yomi First Name|
+|FormatName|PhoneticGuide|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|yomifirstname|
+|MaxLength|150|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_YomiLastName"></a> YomiLastName
 
-**Description**: Type the phonetic spelling of the lead's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.<br />
-**DisplayName**: Yomi Last Name<br />
-**LogicalName**: yomilastname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: PhoneticGuide<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 150
+|Property|Value|
+|--------|-----|
+|Description|Type the phonetic spelling of the lead's last name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|
+|DisplayName|Yomi Last Name|
+|FormatName|PhoneticGuide|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|yomilastname|
+|MaxLength|150|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_YomiMiddleName"></a> YomiMiddleName
 
-**Description**: Type the phonetic spelling of the lead's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.<br />
-**DisplayName**: Yomi Middle Name<br />
-**LogicalName**: yomimiddlename<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: PhoneticGuide<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 150
+|Property|Value|
+|--------|-----|
+|Description|Type the phonetic spelling of the lead's middle name, if the name is specified in Japanese, to make sure the name is pronounced correctly in phone calls with the prospect.|
+|DisplayName|Yomi Middle Name|
+|FormatName|PhoneticGuide|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|yomimiddlename|
+|MaxLength|150|
+|RequiredLevel|None|
+|Type|String|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -2057,811 +2405,941 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_AccountId"></a> AccountId
 
-**Description**: Unique identifier of the account with which the lead is associated.<br />
-**DisplayName**: Account<br />
-**LogicalName**: accountid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the account with which the lead is associated.|
+|DisplayName|Account|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|accountid|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_AccountIdName"></a> AccountIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: accountidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|accountidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_AccountIdYomiName"></a> AccountIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: accountidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|accountidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Composite"></a> Address1_Composite
 
-**Description**: Shows the complete primary address.<br />
-**DisplayName**: Address 1<br />
-**LogicalName**: address1_composite<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1000
+|Property|Value|
+|--------|-----|
+|Description|Shows the complete primary address.|
+|DisplayName|Address 1|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_composite|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Address2_Composite"></a> Address2_Composite
 
-**Description**: Shows the complete secondary address.<br />
-**DisplayName**: Address 2<br />
-**LogicalName**: address2_composite<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1000
+|Property|Value|
+|--------|-----|
+|Description|Shows the complete secondary address.|
+|DisplayName|Address 2|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_composite|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_BudgetAmount_Base"></a> BudgetAmount_Base
 
-**Description**: Value of the Budget Amount in base currency.<br />
-**DisplayName**: Budget Amount (Base)<br />
-**LogicalName**: budgetamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Budget Amount in base currency.|
+|DisplayName|Budget Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|budgetamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_CampaignIdName"></a> CampaignIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: campaignidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|campaignidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ContactId"></a> ContactId
 
-**Description**: Unique identifier of the contact with which the lead is associated.<br />
-**DisplayName**: Contact<br />
-**LogicalName**: contactid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: contact
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the contact with which the lead is associated.|
+|DisplayName|Contact|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|contactid|
+|RequiredLevel|None|
+|Targets|contact|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ContactIdName"></a> ContactIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: contactidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|contactidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ContactIdYomiName"></a> ContactIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: contactidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|contactidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Shows who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CustomerIdName"></a> CustomerIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: customeridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|customeridname|
+|MaxLength|160|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_CustomerIdYomiName"></a> CustomerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: customeridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 450
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|customeridyominame|
+|MaxLength|450|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImage_Timestamp"></a> EntityImage_Timestamp
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: entityimage_timestamp<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage_timestamp|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 
 ### <a name="BKMK_EntityImage_URL"></a> EntityImage_URL
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: entityimage_url<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Url<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage_url|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImageId"></a> EntityImageId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: entityimageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_EstimatedAmount_Base"></a> EstimatedAmount_Base
 
-**Description**: Value of the Est. Value in base currency.<br />
-**DisplayName**: Est. Value (Base)<br />
-**LogicalName**: estimatedamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Est. Value in base currency.|
+|DisplayName|Est. Value (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|estimatedamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_FullName"></a> FullName
 
-**Description**: Combines and shows the lead's first and last names so the full name can be displayed in views and reports.<br />
-**DisplayName**: Name<br />
-**LogicalName**: fullname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Combines and shows the lead's first and last names so the full name can be displayed in views and reports.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|fullname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_IsAutoCreate"></a> IsAutoCreate
 
-**Description**: Information about whether the contact was auto-created when promoting an email or an appointment.<br />
-**DisplayName**: Auto-created<br />
-**LogicalName**: isautocreate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Information about whether the contact was auto-created when promoting an email or an appointment.|
+|DisplayName|Auto-created|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|isautocreate|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsAutoCreate Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_IsPrivate"></a> IsPrivate
 
-**Description**: Indicates whether the lead is private or visible to the entire organization.<br />
-**DisplayName**: Is Private<br />
-**LogicalName**: isprivate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the lead is private or visible to the entire organization.|
+|DisplayName|Is Private|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|isprivate|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsPrivate Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_MasterId"></a> MasterId
 
-**Description**: Unique identifier of the master lead for merge.<br />
-**DisplayName**: Master ID<br />
-**LogicalName**: masterid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: lead
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the master lead for merge.|
+|DisplayName|Master ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|masterid|
+|RequiredLevel|None|
+|Targets|lead|
+|Type|Lookup|
 
 
 ### <a name="BKMK_MasterLeadIdName"></a> MasterLeadIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: masterleadidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|masterleadidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_MasterLeadIdYomiName"></a> MasterLeadIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: masterleadidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|masterleadidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Merged"></a> Merged
 
-**Description**: Tells whether the lead has been merged with another lead.<br />
-**DisplayName**: Merged<br />
-**LogicalName**: merged<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Tells whether the lead has been merged with another lead.|
+|DisplayName|Merged|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|merged|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### Merged Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Shows who last updated the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the record was modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who last updated the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
 
-**Description**: Shows how long, in minutes, that the record was on hold.<br />
-**DisplayName**: On Hold Time (Minutes)<br />
-**LogicalName**: onholdtime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows how long, in minutes, that the record was on hold.|
+|DisplayName|On Hold Time (Minutes)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|onholdtime|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OriginatingCaseIdName"></a> OriginatingCaseIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: originatingcaseidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|originatingcaseidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: Yomi name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ParentAccountIdName"></a> ParentAccountIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: parentaccountidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|parentaccountidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ParentAccountIdYomiName"></a> ParentAccountIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: parentaccountidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|parentaccountidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ParentContactIdName"></a> ParentContactIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: parentcontactidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|parentcontactidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ParentContactIdYomiName"></a> ParentContactIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: parentcontactidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|parentcontactidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_QualifyingOpportunityIdName"></a> QualifyingOpportunityIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: qualifyingopportunityidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|qualifyingopportunityidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_RelatedObjectIdName"></a> RelatedObjectIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: relatedobjectidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|relatedobjectidname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Revenue_Base"></a> Revenue_Base
 
-**Description**: Value of the Annual Revenue in base currency.<br />
-**DisplayName**: Annual Revenue (Base)<br />
-**LogicalName**: revenue_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Annual Revenue in base currency.|
+|DisplayName|Annual Revenue (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|revenue_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_SLAInvokedId"></a> SLAInvokedId
 
-**Description**: Last SLA that was applied to this case. This field is for internal use only.<br />
-**DisplayName**: Last SLA applied<br />
-**LogicalName**: slainvokedid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: sla
+|Property|Value|
+|--------|-----|
+|Description|Last SLA that was applied to this case. This field is for internal use only.|
+|DisplayName|Last SLA applied|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slainvokedid|
+|RequiredLevel|None|
+|Targets|sla|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SLAInvokedIdName"></a> SLAInvokedIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: slainvokedidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slainvokedidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SLAName"></a> SLAName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: slaname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slaname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_TimeSpentByMeOnEmailAndMeetings"></a> TimeSpentByMeOnEmailAndMeetings
 
-**Description**: Total time spent for emails (read and write) and meetings by me in relation to the lead record.<br />
-**DisplayName**: Time Spent by me<br />
-**LogicalName**: timespentbymeonemailandmeetings<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1250
+|Property|Value|
+|--------|-----|
+|Description|Total time spent for emails (read and write) and meetings by me in relation to the lead record.|
+|DisplayName|Time Spent by me|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timespentbymeonemailandmeetings|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 
 ### <a name="BKMK_YomiFullName"></a> YomiFullName
 
-**Description**: Combines and shows the lead's Yomi first and last names so the full phonetic name can be displayed in views and reports.<br />
-**DisplayName**: Yomi Full Name<br />
-**LogicalName**: yomifullname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: PhoneticGuide<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 450
+|Property|Value|
+|--------|-----|
+|Description|Combines and shows the lead's Yomi first and last names so the full phonetic name can be displayed in views and reports.|
+|DisplayName|Yomi Full Name|
+|FormatName|PhoneticGuide|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|yomifullname|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
 
 <a name="onetomany"></a>
 
@@ -2893,12 +3371,12 @@ Listed by **SchemaName**.
 - [lead_connections1](#BKMK_lead_connections1)
 - [lead_connections2](#BKMK_lead_connections2)
 - [Lead_Annotation](#BKMK_Lead_Annotation)
-- [slakpiinstance_lead](#BKMK_slakpiinstance_lead)
 - [Lead_actioncard](#BKMK_Lead_actioncard)
 - [Lead_Email_EmailSender](#BKMK_Lead_Email_EmailSender)
 - [lead_addresses](#BKMK_lead_addresses)
 - [lead_PostFollows](#BKMK_lead_PostFollows)
 - [lead_master_lead](#BKMK_lead_master_lead)
+- [slakpiinstance_lead](#BKMK_slakpiinstance_lead)
 - [account_originating_lead](#BKMK_account_originating_lead)
 - [contact_originating_lead](#BKMK_contact_originating_lead)
 - [lead_BulkOperations](#BKMK_lead_BulkOperations)
@@ -2920,1197 +3398,645 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Lead_ActivityPointers"></a> Lead_ActivityPointers
 
 Same as activitypointer entity [Lead_ActivityPointers](activitypointer.md#BKMK_Lead_ActivityPointers) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Lead_ActivityPointers<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Lead_ActivityPointers|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_SyncErrors"></a> Lead_SyncErrors
 
 Same as syncerror entity [Lead_SyncErrors](syncerror.md#BKMK_Lead_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_activity_parties"></a> lead_activity_parties
 
 Same as activityparty entity [lead_activity_parties](activityparty.md#BKMK_lead_activity_parties) Many-To-One relationship.
-
-**ReferencingEntity**: activityparty<br />
-**ReferencingAttribute**: partyid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: lead_activity_parties<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activityparty|
+|ReferencingAttribute|partyid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|lead_activity_parties|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_DuplicateMatchingRecord"></a> Lead_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Lead_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Lead_DuplicateMatchingRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: duplicaterecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Lead_DuplicateMatchingRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|duplicaterecordid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Lead_DuplicateMatchingRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_DuplicateBaseRecord"></a> Lead_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Lead_DuplicateBaseRecord](duplicaterecord.md#BKMK_Lead_DuplicateBaseRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: baserecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Lead_DuplicateBaseRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|baserecordid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Lead_DuplicateBaseRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_SharepointDocumentLocation"></a> Lead_SharepointDocumentLocation
 
 Same as sharepointdocumentlocation entity [Lead_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Lead_SharepointDocumentLocation) Many-To-One relationship.
-
-**ReferencingEntity**: sharepointdocumentlocation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_SharepointDocumentLocation<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|sharepointdocumentlocation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_SharepointDocumentLocation|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_SharepointDocument"></a> Lead_SharepointDocument
 
 Same as sharepointdocument entity [Lead_SharepointDocument](sharepointdocument.md#BKMK_Lead_SharepointDocument) Many-To-One relationship.
-
-**ReferencingEntity**: sharepointdocument<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_SharepointDocument<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|sharepointdocument|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_SharepointDocument|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_AsyncOperations"></a> Lead_AsyncOperations
 
 Same as asyncoperation entity [Lead_AsyncOperations](asyncoperation.md#BKMK_Lead_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Lead_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Lead_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_MailboxTrackingFolder"></a> Lead_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Lead_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Lead_MailboxTrackingFolder) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_MailboxTrackingFolder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_MailboxTrackingFolder|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_userentityinstancedata_lead"></a> userentityinstancedata_lead
 
 Same as userentityinstancedata entity [userentityinstancedata_lead](userentityinstancedata.md#BKMK_userentityinstancedata_lead) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_lead<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_ProcessSessions"></a> Lead_ProcessSessions
 
 Same as processsession entity [Lead_ProcessSessions](processsession.md#BKMK_Lead_ProcessSessions) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Lead_ProcessSessions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 110
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Lead_ProcessSessions|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 110|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_BulkDeleteFailures"></a> Lead_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Lead_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Lead_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Lead_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Lead_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_principalobjectattributeaccess"></a> lead_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [lead_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_lead_principalobjectattributeaccess) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: lead_principalobjectattributeaccess<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|lead_principalobjectattributeaccess|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_Appointments"></a> Lead_Appointments
 
 Same as appointment entity [Lead_Appointments](appointment.md#BKMK_Lead_Appointments) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Appointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_Appointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_Emails"></a> Lead_Emails
 
 Same as email entity [Lead_Emails](email.md#BKMK_Lead_Emails) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Emails<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_Emails|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_Faxes"></a> Lead_Faxes
 
 Same as fax entity [Lead_Faxes](fax.md#BKMK_Lead_Faxes) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Faxes<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_Faxes|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_Letters"></a> Lead_Letters
 
 Same as letter entity [Lead_Letters](letter.md#BKMK_Lead_Letters) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Letters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_Letters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_Phonecalls"></a> Lead_Phonecalls
 
 Same as phonecall entity [Lead_Phonecalls](phonecall.md#BKMK_Lead_Phonecalls) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Phonecalls<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_Phonecalls|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_Tasks"></a> Lead_Tasks
 
 Same as task entity [Lead_Tasks](task.md#BKMK_Lead_Tasks) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Tasks<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_Tasks|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_RecurringAppointmentMasters"></a> Lead_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Lead_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Lead_RecurringAppointmentMasters) Many-To-One relationship.
-
-**ReferencingEntity**: recurringappointmentmaster<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_RecurringAppointmentMasters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|recurringappointmentmaster|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_RecurringAppointmentMasters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_SocialActivities"></a> Lead_SocialActivities
 
 Same as socialactivity entity [Lead_SocialActivities](socialactivity.md#BKMK_Lead_SocialActivities) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_SocialActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_SocialActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_connections1"></a> lead_connections1
 
 Same as connection entity [lead_connections1](connection.md#BKMK_lead_connections1) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record1id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_connections1<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 100
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record1id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_connections1|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 100|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_connections2"></a> lead_connections2
 
 Same as connection entity [lead_connections2](connection.md#BKMK_lead_connections2) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record2id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_connections2<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 100
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record2id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_connections2|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 100|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_Annotation"></a> Lead_Annotation
 
 Same as annotation entity [Lead_Annotation](annotation.md#BKMK_Lead_Annotation) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Annotation<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
-
-
-### <a name="BKMK_slakpiinstance_lead"></a> slakpiinstance_lead
-
-Same as slakpiinstance entity [slakpiinstance_lead](slakpiinstance.md#BKMK_slakpiinstance_lead) Many-To-One relationship.
-
-**ReferencingEntity**: slakpiinstance<br />
-**ReferencingAttribute**: regarding<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: slakpiinstance_lead<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_Annotation|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_actioncard"></a> Lead_actioncard
 
 Same as actioncard entity [Lead_actioncard](actioncard.md#BKMK_Lead_actioncard) Many-To-One relationship.
-
-**ReferencingEntity**: actioncard<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_actioncard<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|actioncard|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_actioncard|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Lead_Email_EmailSender"></a> Lead_Email_EmailSender
 
 Same as email entity [Lead_Email_EmailSender](email.md#BKMK_Lead_Email_EmailSender) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: emailsender<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Lead_Email_EmailSender<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|emailsender|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Lead_Email_EmailSender|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_addresses"></a> lead_addresses
 
 Same as leadaddress entity [lead_addresses](leadaddress.md#BKMK_lead_addresses) Many-To-One relationship.
-
-**ReferencingEntity**: leadaddress<br />
-**ReferencingAttribute**: parentid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_addresses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|leadaddress|
+|ReferencingAttribute|parentid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_addresses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_PostFollows"></a> lead_PostFollows
 
 Same as postfollow entity [lead_PostFollows](postfollow.md#BKMK_lead_PostFollows) Many-To-One relationship.
-
-**ReferencingEntity**: postfollow<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: lead_PostFollows<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|postfollow|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|lead_PostFollows|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_master_lead"></a> lead_master_lead
 
 Same as lead entity [lead_master_lead](lead.md#BKMK_lead_master_lead) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|lead|
+|ReferencingAttribute|masterid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_master_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-**ReferencingEntity**: lead<br />
-**ReferencingAttribute**: masterid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_master_lead<br />
-**AssociatedMenuConfiguration**:
 
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
+### <a name="BKMK_slakpiinstance_lead"></a> slakpiinstance_lead
 
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+Same as slakpiinstance entity [slakpiinstance_lead](slakpiinstance.md#BKMK_slakpiinstance_lead) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|slakpiinstance|
+|ReferencingAttribute|regarding|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|slakpiinstance_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_originating_lead"></a> account_originating_lead
 
 Same as account entity [account_originating_lead](account.md#BKMK_account_originating_lead) Many-To-One relationship.
-
-**ReferencingEntity**: account<br />
-**ReferencingAttribute**: originatingleadid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_originating_lead<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|originatingleadid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_originating_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_contact_originating_lead"></a> contact_originating_lead
 
 Same as contact entity [contact_originating_lead](contact.md#BKMK_contact_originating_lead) Many-To-One relationship.
-
-**ReferencingEntity**: contact<br />
-**ReferencingAttribute**: originatingleadid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: contact_originating_lead<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contact|
+|ReferencingAttribute|originatingleadid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|contact_originating_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_BulkOperations"></a> lead_BulkOperations
 
 Same as bulkoperation entity [lead_BulkOperations](bulkoperation.md#BKMK_lead_BulkOperations) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_BulkOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_BulkOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_CampaignActivities"></a> lead_CampaignActivities
 
 Same as campaignactivity entity [lead_CampaignActivities](campaignactivity.md#BKMK_lead_CampaignActivities) Many-To-One relationship.
-
-**ReferencingEntity**: campaignactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_CampaignActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_CampaignActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_CampaignResponses"></a> lead_CampaignResponses
 
 Same as campaignresponse entity [lead_CampaignResponses](campaignresponse.md#BKMK_lead_CampaignResponses) Many-To-One relationship.
-
-**ReferencingEntity**: campaignresponse<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_CampaignResponses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignresponse|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_CampaignResponses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_CreatedLead_BulkOperationLogs"></a> CreatedLead_BulkOperationLogs
 
 Same as bulkoperationlog entity [CreatedLead_BulkOperationLogs](bulkoperationlog.md#BKMK_CreatedLead_BulkOperationLogs) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperationlog<br />
-**ReferencingAttribute**: createdobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: CreatedLead_BulkOperationLogs<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|createdobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|CreatedLead_BulkOperationLogs|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SourceLead_BulkOperationLogs"></a> SourceLead_BulkOperationLogs
 
 Same as bulkoperationlog entity [SourceLead_BulkOperationLogs](bulkoperationlog.md#BKMK_SourceLead_BulkOperationLogs) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperationlog<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: SourceLead_BulkOperationLogs<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|SourceLead_BulkOperationLogs|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_IncidentResolutions"></a> lead_IncidentResolutions
 
 Same as incidentresolution entity [lead_IncidentResolutions](incidentresolution.md#BKMK_lead_IncidentResolutions) Many-To-One relationship.
-
-**ReferencingEntity**: incidentresolution<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_IncidentResolutions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incidentresolution|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_IncidentResolutions|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Lead_ServiceAppointments"></a> Lead_ServiceAppointments
 
 Same as serviceappointment entity [Lead_ServiceAppointments](serviceappointment.md#BKMK_Lead_ServiceAppointments) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Lead_ServiceAppointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Lead_ServiceAppointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_OpportunityCloses"></a> lead_OpportunityCloses
 
 Same as opportunityclose entity [lead_OpportunityCloses](opportunityclose.md#BKMK_lead_OpportunityCloses) Many-To-One relationship.
-
-**ReferencingEntity**: opportunityclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_OpportunityCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_OpportunityCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_OrderCloses"></a> lead_OrderCloses
 
 Same as orderclose entity [lead_OrderCloses](orderclose.md#BKMK_lead_OrderCloses) Many-To-One relationship.
-
-**ReferencingEntity**: orderclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_OrderCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|orderclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_OrderCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_QuoteCloses"></a> lead_QuoteCloses
 
 Same as quoteclose entity [lead_QuoteCloses](quoteclose.md#BKMK_lead_QuoteCloses) Many-To-One relationship.
-
-**ReferencingEntity**: quoteclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_QuoteCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quoteclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_QuoteCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_opportunity_originating_lead"></a> opportunity_originating_lead
 
 Same as opportunity entity [opportunity_originating_lead](opportunity.md#BKMK_opportunity_originating_lead) Many-To-One relationship.
-
-**ReferencingEntity**: opportunity<br />
-**ReferencingAttribute**: originatingleadid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: opportunity_originating_lead<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunity|
+|ReferencingAttribute|originatingleadid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|opportunity_originating_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lk_leadtoopportunitysalesprocess_leadid"></a> lk_leadtoopportunitysalesprocess_leadid
 
 Same as leadtoopportunitysalesprocess entity [lk_leadtoopportunitysalesprocess_leadid](leadtoopportunitysalesprocess.md#BKMK_lk_leadtoopportunitysalesprocess_leadid) Many-To-One relationship.
-
-**ReferencingEntity**: leadtoopportunitysalesprocess<br />
-**ReferencingAttribute**: leadid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_leadtoopportunitysalesprocess<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|leadtoopportunitysalesprocess|
+|ReferencingAttribute|leadid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_leadtoopportunitysalesprocess|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_msdyn_bookingalerts"></a> lead_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [lead_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_lead_msdyn_bookingalerts) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_msdyn_bookingalerts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_msdyn_bookingalerts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_msdyn_approvals"></a> lead_msdyn_approvals
 
 Same as msdyn_approval entity [lead_msdyn_approvals](msdyn_approval.md#BKMK_lead_msdyn_approvals) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_msdyn_approvals<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 <a name="manytoone"></a>
 
@@ -4127,10 +4053,10 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [business_unit_leads](#BKMK_business_unit_leads)
 - [processstage_lead](#BKMK_processstage_lead)
 - [transactioncurrency_lead](#BKMK_transactioncurrency_lead)
-- [manualsla_lead](#BKMK_manualsla_lead)
-- [sla_lead](#BKMK_sla_lead)
 - [lead_customer_accounts](#BKMK_lead_customer_accounts)
 - [lead_customer_contacts](#BKMK_lead_customer_contacts)
+- [manualsla_lead](#BKMK_manualsla_lead)
+- [sla_lead](#BKMK_sla_lead)
 - [lead_master_lead](#BKMK_lead_master_lead)
 - [lead_parent_account](#BKMK_lead_parent_account)
 - [lead_parent_contact](#BKMK_lead_parent_contact)
@@ -4176,14 +4102,6 @@ See processstage Entity [processstage_lead](processstage.md#BKMK_processstage_le
 
 See transactioncurrency Entity [transactioncurrency_lead](transactioncurrency.md#BKMK_transactioncurrency_lead) One-To-Many relationship.
 
-### <a name="BKMK_manualsla_lead"></a> manualsla_lead
-
-See sla Entity [manualsla_lead](sla.md#BKMK_manualsla_lead) One-To-Many relationship.
-
-### <a name="BKMK_sla_lead"></a> sla_lead
-
-See sla Entity [sla_lead](sla.md#BKMK_sla_lead) One-To-Many relationship.
-
 ### <a name="BKMK_lead_customer_accounts"></a> lead_customer_accounts
 
 See account Entity [lead_customer_accounts](account.md#BKMK_lead_customer_accounts) One-To-Many relationship.
@@ -4191,6 +4109,14 @@ See account Entity [lead_customer_accounts](account.md#BKMK_lead_customer_accoun
 ### <a name="BKMK_lead_customer_contacts"></a> lead_customer_contacts
 
 See contact Entity [lead_customer_contacts](contact.md#BKMK_lead_customer_contacts) One-To-Many relationship.
+
+### <a name="BKMK_manualsla_lead"></a> manualsla_lead
+
+See sla Entity [manualsla_lead](sla.md#BKMK_manualsla_lead) One-To-Many relationship.
+
+### <a name="BKMK_sla_lead"></a> sla_lead
+
+See sla Entity [sla_lead](sla.md#BKMK_sla_lead) One-To-Many relationship.
 
 ### <a name="BKMK_lead_master_lead"></a> lead_master_lead
 
@@ -4246,59 +4172,51 @@ See list Entity [listlead_association](list.md#BKMK_listlead_association) Many-T
 
 ### <a name="BKMK_leadcompetitors_association"></a> leadcompetitors_association
 
-**IntersectEntityName**: leadcompetitors<br />
-**Entity1LogicalName**: lead<br />
+IntersectEntityName: leadcompetitors<br />
+#### Entity 1
 
-- **Entity1IntersectAttribute**: leadid
-- **Entity1NavigationPropertyName**: leadcompetitors_association
-- **Entity1AssociatedMenuConfiguration**:
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|leadid|
+|IsCustomizable|False|
+|LogicalName|lead|
+|NavigationPropertyName|leadcompetitors_association|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
+#### Entity 2
 
-**Entity2LogicalName**: [competitor](competitor.md)<br />
+|Property|Value|
+|--------|-----|
+|LogicalName|competitor|
+|IntersectAttribute|competitorid|
+|NavigationPropertyName|leadcompetitors_association|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 40|
 
-- **Entity2IntersectAttribute**: competitorid
-- **Entity2NavigationPropertyName**: leadcompetitors_association
-- **Entity2AssociatedMenuConfiguration**:
-
-  - **Behavior**: UseCollectionName
-  - **Group**: Sales
-  - **Label**: 
-  - **Order**: 40
-
-**IsCustomizable**: False<br />
 
 ### <a name="BKMK_leadproduct_association"></a> leadproduct_association
 
-**IntersectEntityName**: leadproduct<br />
-**Entity1LogicalName**: lead<br />
+IntersectEntityName: leadproduct<br />
+#### Entity 1
 
-- **Entity1IntersectAttribute**: leadid
-- **Entity1NavigationPropertyName**: leadproduct_association
-- **Entity1AssociatedMenuConfiguration**:
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|leadid|
+|IsCustomizable|False|
+|LogicalName|lead|
+|NavigationPropertyName|leadproduct_association|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
+#### Entity 2
 
-**Entity2LogicalName**: [product](product.md)<br />
+|Property|Value|
+|--------|-----|
+|LogicalName|product|
+|IntersectAttribute|productid|
+|NavigationPropertyName|leadproduct_association|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-- **Entity2IntersectAttribute**: productid
-- **Entity2NavigationPropertyName**: leadproduct_association
-- **Entity2AssociatedMenuConfiguration**:
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
-
-**IsCustomizable**: False<br />
-
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

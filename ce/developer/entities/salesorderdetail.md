@@ -1,7 +1,7 @@
 ---
 title: "SalesOrderDetail Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SalesOrderDetail entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # SalesOrderDetail Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Line item in a sales order.
 
@@ -37,17 +35,20 @@ Line item in a sales order.
 
 ## Entity Properties
 
-**DisplayName**: Order Line<br />
-**DisplayCollectionName**: Order Lines<br />
-**SchemaName**: SalesOrderDetail<br />
-**CollectionSchemaName**: SalesOrderDetails<br />
-**LogicalName**: salesorderdetail<br />
-**LogicalCollectionName**: salesorderdetails<br />
-**EntitySetName**: salesorderdetails<br />
-**PrimaryIdAttribute**: salesorderdetailid<br />
-**PrimaryNameAttribute**: productidname<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|SalesOrderDetails|
+|DisplayCollectionName|Order Lines|
+|DisplayName|Order Line|
+|EntitySetName|salesorderdetails|
+|IsBPFEntity|False|
+|LogicalCollectionName|salesorderdetails|
+|LogicalName|salesorderdetail|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|salesorderdetailid|
+|PrimaryNameAttribute|productidname|
+|SchemaName|SalesOrderDetail|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -119,934 +120,1106 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_BaseAmount"></a> BaseAmount
 
-**Description**: Shows the total price of the order product, based on the price per unit, volume discount, and quantity.<br />
-**DisplayName**: Amount<br />
-**LogicalName**: baseamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Shows the total price of the order product, based on the price per unit, volume discount, and quantity.|
+|DisplayName|Amount|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|baseamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Type additional information to describe the order product, such as manufacturing details or acceptable substitutions.<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Type additional information to describe the order product, such as manufacturing details or acceptable substitutions.|
+|DisplayName|Description|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_ExtendedAmount"></a> ExtendedAmount
 
-**Description**: Shows the total amount due for the order product, based on the sum of the unit price, quantity, discounts, and tax.<br />
-**DisplayName**: Extended Amount<br />
-**LogicalName**: extendedamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Shows the total amount due for the order product, based on the sum of the unit price, quantity, discounts, and tax.|
+|DisplayName|Extended Amount|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|extendedamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IsCopied"></a> IsCopied
 
-**Description**: Select whether the invoice line item is copied from another item or data source.<br />
-**DisplayName**: Copied<br />
-**LogicalName**: iscopied<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the invoice line item is copied from another item or data source.|
+|DisplayName|Copied|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|iscopied|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsCopied Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_IsPriceOverridden"></a> IsPriceOverridden
 
-**Description**: Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the order product.<br />
-**DisplayName**: Pricing<br />
-**LogicalName**: ispriceoverridden<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the price per unit is fixed at the value in the specified price list or can be overridden by users who have edit rights to the order product.|
+|DisplayName|Pricing|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ispriceoverridden|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Override Price
-- **FalseOption Value**: 0 **Label**: Use Default
+#### IsPriceOverridden Options
+
+|Value|Label|
+|-----|-----|
+|1|Override Price|
+|0|Use Default|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_IsProductOverridden"></a> IsProductOverridden
 
-**Description**: Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the order.<br />
-**DisplayName**: Select Product<br />
-**LogicalName**: isproductoverridden<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the product exists in the Microsoft Dynamics 365 product catalog or is a write-in product specific to the order.|
+|DisplayName|Select Product|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|isproductoverridden|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Write In
-- **FalseOption Value**: 0 **Label**: Existing
+#### IsProductOverridden Options
+
+|Value|Label|
+|-----|-----|
+|1|Write In|
+|0|Existing|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_LineItemNumber"></a> LineItemNumber
 
-**Description**: Type the line item number for the order product to easily identify the product in the order and make sure it's listed in the correct sequence.<br />
-**DisplayName**: Line Item Number<br />
-**LogicalName**: lineitemnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Type the line item number for the order product to easily identify the product in the order and make sure it's listed in the correct sequence.|
+|DisplayName|Line Item Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lineitemnumber|
+|MaxValue|1000000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ManualDiscountAmount"></a> ManualDiscountAmount
 
-**Description**: Type the manual discount amount for the order product to deduct any negotiated or other savings from the product total on the order.<br />
-**DisplayName**: Manual Discount<br />
-**LogicalName**: manualdiscountamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type the manual discount amount for the order product to deduct any negotiated or other savings from the product total on the order.|
+|DisplayName|Manual Discount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|manualdiscountamount|
+|MaxValue|1000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_agreement"></a> msdyn_agreement
 
 **Added by**: Field Service Solution<br />
-**Description**: Select a Agreement for this order line<br />
-**DisplayName**: Agreement<br />
-**LogicalName**: msdyn_agreement<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_agreement
+|Property|Value|
+|--------|-----|
+|Description|Select a Agreement for this order line|
+|DisplayName|Agreement|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreement|
+|RequiredLevel|None|
+|Targets|msdyn_agreement|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_BillingMethod"></a> msdyn_BillingMethod
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Billing method for the project contract line. Valid values are Time and Material and Fixed Price<br />
-**DisplayName**: Billing Method<br />
-**LogicalName**: msdyn_billingmethod<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Billing method for the project contract line. Valid values are Time and Material and Fixed Price|
+|DisplayName|Billing Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingmethod|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: Time and Material
-- **Value**: 192350001 **Label**: Fixed Price
+#### msdyn_BillingMethod Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Time and Material|
+|192350001|Fixed Price|
 
 
 
 ### <a name="BKMK_msdyn_BillingStartDate"></a> msdyn_BillingStartDate
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the billing start date for the project contract line.<br />
-**DisplayName**: Billing Start Date<br />
-**LogicalName**: msdyn_billingstartdate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Select the billing start date for the project contract line.|
+|DisplayName|Billing Start Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingstartdate|
+|RequiredLevel|Recommended|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_BudgetAmount"></a> msdyn_BudgetAmount
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the amount the customer has set aside or is willing to pay for the project contract component.<br />
-**DisplayName**: Budget Amount<br />
-**LogicalName**: msdyn_budgetamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the amount the customer has set aside or is willing to pay for the project contract component.|
+|DisplayName|Budget Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_budgetamount|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_CostAmount"></a> msdyn_CostAmount
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Shows the total cost price of the product based on the cost price per unit and quantity.<br />
-**DisplayName**: Cost Amount<br />
-**LogicalName**: msdyn_costamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: 0<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Shows the total cost price of the product based on the cost price per unit and quantity.|
+|DisplayName|Cost Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_costamount|
+|MaxValue|922337203685477|
+|MinValue|0|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_CostPricePerUnit"></a> msdyn_CostPricePerUnit
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Cost price per unit of the product. The default is the cost price of the product.<br />
-**DisplayName**: Cost Price Per Unit<br />
-**LogicalName**: msdyn_costpriceperunit<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Cost price per unit of the product. The default is the cost price of the product.|
+|DisplayName|Cost Price Per Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_costpriceperunit|
+|MaxValue|922337203685477|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_IncludeExpense"></a> msdyn_IncludeExpense
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select whether to include expenses in the project contract line.<br />
-**DisplayName**: Include Expense<br />
-**LogicalName**: msdyn_includeexpense<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether to include expenses in the project contract line.|
+|DisplayName|Include Expense|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_includeexpense|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IncludeExpense Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_IncludeFee"></a> msdyn_IncludeFee
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select whether to include fees in the project contract line.<br />
-**DisplayName**: Include Fee<br />
-**LogicalName**: msdyn_includefee<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether to include fees in the project contract line.|
+|DisplayName|Include Fee|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_includefee|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IncludeFee Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_IncludeMaterial"></a> msdyn_IncludeMaterial
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select whether to include materials in the project contract line.<br />
-**DisplayName**: Include Material<br />
-**LogicalName**: msdyn_includematerial<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether to include materials in the project contract line.|
+|DisplayName|Include Material|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_includematerial|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IncludeMaterial Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_IncludeTime"></a> msdyn_IncludeTime
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select whether to include time transactions in the project contract line.<br />
-**DisplayName**: Include Time<br />
-**LogicalName**: msdyn_includetime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether to include time transactions in the project contract line.|
+|DisplayName|Include Time|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_includetime|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IncludeTime Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_invoicefrequency"></a> msdyn_invoicefrequency
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the frequency for the automatic invoice creation job to create the invoice.<br />
-**DisplayName**: Invoice Frequency<br />
-**LogicalName**: msdyn_invoicefrequency<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_invoicefrequency
+|Property|Value|
+|--------|-----|
+|Description|Select the frequency for the automatic invoice creation job to create the invoice.|
+|DisplayName|Invoice Frequency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoicefrequency|
+|RequiredLevel|None|
+|Targets|msdyn_invoicefrequency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_LineType"></a> msdyn_LineType
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: The field to distinguish the order lines to be of project service or field service<br />
-**DisplayName**: Line Type<br />
-**LogicalName**: msdyn_linetype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|The field to distinguish the order lines to be of project service or field service|
+|DisplayName|Line Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_linetype|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Project Service Line
-- **Value**: 690970001 **Label**: Field Service Line
+#### msdyn_LineType Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Project Service Line|
+|690970001|Field Service Line|
 
 
 
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the project of the project contract line.<br />
-**DisplayName**: Project<br />
-**LogicalName**: msdyn_project<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_project
+|Property|Value|
+|--------|-----|
+|Description|Select the project of the project contract line.|
+|DisplayName|Project|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_project|
+|RequiredLevel|None|
+|Targets|msdyn_project|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_QuoteLine"></a> msdyn_QuoteLine
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Shows the quote line related to the project contract line.<br />
-**DisplayName**: Quote Line<br />
-**LogicalName**: msdyn_quoteline<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Shows the quote line related to the project contract line.|
+|DisplayName|Quote Line|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_quoteline|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ParentBundleId"></a> ParentBundleId
 
-**Description**: Choose the parent bundle associated with this product<br />
-**DisplayName**: Parent Bundle<br />
-**LogicalName**: parentbundleid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Choose the parent bundle associated with this product|
+|DisplayName|Parent Bundle|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|parentbundleid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_PricePerUnit"></a> PricePerUnit
 
-**Description**: Type the price per unit of the order product. The default is the value in the price list specified on the order for existing products.<br />
-**DisplayName**: Price Per Unit<br />
-**LogicalName**: priceperunit<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Type the price per unit of the order product. The default is the value in the price list specified on the order for existing products.|
+|DisplayName|Price Per Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|priceperunit|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_PricingErrorCode"></a> PricingErrorCode
 
-**Description**: Select the type of pricing error, such as a missing or invalid product, or missing quantity.<br />
-**DisplayName**: Pricing Error <br />
-**LogicalName**: pricingerrorcode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the type of pricing error, such as a missing or invalid product, or missing quantity.|
+|DisplayName|Pricing Error |
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|pricingerrorcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: None
-- **Value**: 1 **Label**: Detail Error
-- **Value**: 2 **Label**: Missing Price Level
-- **Value**: 3 **Label**: Inactive Price Level
-- **Value**: 4 **Label**: Missing Quantity
-- **Value**: 5 **Label**: Missing Unit Price
-- **Value**: 6 **Label**: Missing Product
-- **Value**: 7 **Label**: Invalid Product
-- **Value**: 8 **Label**: Missing Pricing Code
-- **Value**: 9 **Label**: Invalid Pricing Code
-- **Value**: 10 **Label**: Missing UOM
-- **Value**: 11 **Label**: Product Not In Price Level
-- **Value**: 12 **Label**: Missing Price Level Amount
-- **Value**: 13 **Label**: Missing Price Level Percentage
-- **Value**: 14 **Label**: Missing Price
-- **Value**: 15 **Label**: Missing Current Cost
-- **Value**: 16 **Label**: Missing Standard Cost
-- **Value**: 17 **Label**: Invalid Price Level Amount
-- **Value**: 18 **Label**: Invalid Price Level Percentage
-- **Value**: 19 **Label**: Invalid Price
-- **Value**: 20 **Label**: Invalid Current Cost
-- **Value**: 21 **Label**: Invalid Standard Cost
-- **Value**: 22 **Label**: Invalid Rounding Policy
-- **Value**: 23 **Label**: Invalid Rounding Option
-- **Value**: 24 **Label**: Invalid Rounding Amount
-- **Value**: 25 **Label**: Price Calculation Error
-- **Value**: 26 **Label**: Invalid Discount Type
-- **Value**: 27 **Label**: Discount Type Invalid State
-- **Value**: 28 **Label**: Invalid Discount
-- **Value**: 29 **Label**: Invalid Quantity
-- **Value**: 30 **Label**: Invalid Pricing Precision
-- **Value**: 31 **Label**: Missing Product Default UOM
-- **Value**: 32 **Label**: Missing Product UOM Schedule 
-- **Value**: 33 **Label**: Inactive Discount Type
-- **Value**: 34 **Label**: Invalid Price Level Currency
-- **Value**: 35 **Label**: Price Attribute Out Of Range
-- **Value**: 36 **Label**: Base Currency Attribute Overflow
-- **Value**: 37 **Label**: Base Currency Attribute Underflow
+#### PricingErrorCode Options
+
+|Value|Label|
+|-----|-----|
+|0|None|
+|1|Detail Error|
+|2|Missing Price Level|
+|3|Inactive Price Level|
+|4|Missing Quantity|
+|5|Missing Unit Price|
+|6|Missing Product|
+|7|Invalid Product|
+|8|Missing Pricing Code|
+|9|Invalid Pricing Code|
+|10|Missing UOM|
+|11|Product Not In Price Level|
+|12|Missing Price Level Amount|
+|13|Missing Price Level Percentage|
+|14|Missing Price|
+|15|Missing Current Cost|
+|16|Missing Standard Cost|
+|17|Invalid Price Level Amount|
+|18|Invalid Price Level Percentage|
+|19|Invalid Price|
+|20|Invalid Current Cost|
+|21|Invalid Standard Cost|
+|22|Invalid Rounding Policy|
+|23|Invalid Rounding Option|
+|24|Invalid Rounding Amount|
+|25|Price Calculation Error|
+|26|Invalid Discount Type|
+|27|Discount Type Invalid State|
+|28|Invalid Discount|
+|29|Invalid Quantity|
+|30|Invalid Pricing Precision|
+|31|Missing Product Default UOM|
+|32|Missing Product UOM Schedule |
+|33|Inactive Discount Type|
+|34|Invalid Price Level Currency|
+|35|Price Attribute Out Of Range|
+|36|Base Currency Attribute Overflow|
+|37|Base Currency Attribute Underflow|
 
 
 
 ### <a name="BKMK_ProductAssociationId"></a> ProductAssociationId
 
-**Description**: Unique identifier of the product line item association with bundle in the sales order<br />
-**DisplayName**: Bundle Item Association<br />
-**LogicalName**: productassociationid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the product line item association with bundle in the sales order|
+|DisplayName|Bundle Item Association|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|productassociationid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ProductDescription"></a> ProductDescription
 
-**Description**: Type a name or description to identify the type of write-in product included in the order.<br />
-**DisplayName**: Write-In Product<br />
-**LogicalName**: productdescription<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 500
+|Property|Value|
+|--------|-----|
+|Description|Type a name or description to identify the type of write-in product included in the order.|
+|DisplayName|Write-In Product|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|productdescription|
+|MaxLength|500|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ProductId"></a> ProductId
 
-**Description**: Choose the product to include on the order to link the product's pricing and other information to the parent order.<br />
-**DisplayName**: Existing Product<br />
-**LogicalName**: productid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: product
+|Property|Value|
+|--------|-----|
+|Description|Choose the product to include on the order to link the product's pricing and other information to the parent order.|
+|DisplayName|Existing Product|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|productid|
+|RequiredLevel|None|
+|Targets|product|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ProductName"></a> ProductName
 
-**Description**: Calculated field that will be populated by name and description of the product.<br />
-**DisplayName**: Product Name<br />
-**LogicalName**: productname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 500
+|Property|Value|
+|--------|-----|
+|Description|Calculated field that will be populated by name and description of the product.|
+|DisplayName|Product Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|productname|
+|MaxLength|500|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ProductTypeCode"></a> ProductTypeCode
 
-**Description**: Product Type<br />
-**DisplayName**: Product type<br />
-**LogicalName**: producttypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Product Type|
+|DisplayName|Product type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|producttypecode|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Product
-- **Value**: 2 **Label**: Bundle
-- **Value**: 3 **Label**: Required Bundle Product
-- **Value**: 4 **Label**: Optional Bundle Product
-- **Value**: 5 **Label**: Project-based Service
+#### ProductTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Product|
+|2|Bundle|
+|3|Required Bundle Product|
+|4|Optional Bundle Product|
+|5|Project-based Service|
 
 
 
 ### <a name="BKMK_PropertyConfigurationStatus"></a> PropertyConfigurationStatus
 
-**Description**: Status of the property configuration.<br />
-**DisplayName**: Property Configuration<br />
-**LogicalName**: propertyconfigurationstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Status of the property configuration.|
+|DisplayName|Property Configuration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|propertyconfigurationstatus|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Edit
-- **Value**: 1 **Label**: Rectify
-- **Value**: 2 **Label**: Not Configured
+#### PropertyConfigurationStatus Options
+
+|Value|Label|
+|-----|-----|
+|0|Edit|
+|1|Rectify|
+|2|Not Configured|
 
 
 
 ### <a name="BKMK_Quantity"></a> Quantity
 
-**Description**: Type the amount or quantity of the product ordered by the customer.<br />
-**DisplayName**: Quantity<br />
-**LogicalName**: quantity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: -100000000000<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the amount or quantity of the product ordered by the customer.|
+|DisplayName|Quantity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|quantity|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|5|
+|RequiredLevel|ApplicationRequired|
+|Type|Decimal|
 
 
 ### <a name="BKMK_QuantityBackordered"></a> QuantityBackordered
 
-**Description**: Type the amount or quantity of the product that is back ordered for the order.<br />
-**DisplayName**: Quantity Back Ordered<br />
-**LogicalName**: quantitybackordered<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the amount or quantity of the product that is back ordered for the order.|
+|DisplayName|Quantity Back Ordered|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|quantitybackordered|
+|MaxValue|1000000000|
+|MinValue|0|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_QuantityCancelled"></a> QuantityCancelled
 
-**Description**: Type the amount or quantity of the product that was canceled.<br />
-**DisplayName**: Quantity Canceled<br />
-**LogicalName**: quantitycancelled<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the amount or quantity of the product that was canceled.|
+|DisplayName|Quantity Canceled|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|quantitycancelled|
+|MaxValue|1000000000|
+|MinValue|0|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_QuantityShipped"></a> QuantityShipped
 
-**Description**: Type the amount or quantity of the product that was shipped for the order.<br />
-**DisplayName**: Quantity Shipped<br />
-**LogicalName**: quantityshipped<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the amount or quantity of the product that was shipped for the order.|
+|DisplayName|Quantity Shipped|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|quantityshipped|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_RequestDeliveryBy"></a> RequestDeliveryBy
 
-**Description**: Enter the delivery date requested by the customer for the order product.<br />
-**DisplayName**: Requested Delivery Date<br />
-**LogicalName**: requestdeliveryby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the delivery date requested by the customer for the order product.|
+|DisplayName|Requested Delivery Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|requestdeliveryby|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SalesOrderDetailId"></a> SalesOrderDetailId
 
-**Description**: Unique identifier of the product specified in the order.<br />
-**DisplayName**: Order Product<br />
-**LogicalName**: salesorderdetailid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the product specified in the order.|
+|DisplayName|Order Product|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|salesorderdetailid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SalesOrderId"></a> SalesOrderId
 
-**Description**: Shows the order for the product. The ID is used to link product pricing and other details to the total amounts and other information on the order.<br />
-**DisplayName**: Order<br />
-**LogicalName**: salesorderid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: salesorder
+|Property|Value|
+|--------|-----|
+|Description|Shows the order for the product. The ID is used to link product pricing and other details to the total amounts and other information on the order.|
+|DisplayName|Order|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|salesorderid|
+|RequiredLevel|SystemRequired|
+|Targets|salesorder|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SalesRepId"></a> SalesRepId
 
-**Description**: Choose the user responsible for the sale of the order product.<br />
-**DisplayName**: Salesperson<br />
-**LogicalName**: salesrepid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Choose the user responsible for the sale of the order product.|
+|DisplayName|Salesperson|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|salesrepid|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SequenceNumber"></a> SequenceNumber
 
-**Description**: Shows the ID of the data that maintains the sequence.<br />
-**DisplayName**: Sequence Number<br />
-**LogicalName**: sequencenumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows the ID of the data that maintains the sequence.|
+|DisplayName|Sequence Number|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|sequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ShipTo_AddressId"></a> ShipTo_AddressId
 
-**Description**: Unique identifier of the shipping address.<br />
-**DisplayName**: Ship To Address ID<br />
-**LogicalName**: shipto_addressid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the shipping address.|
+|DisplayName|Ship To Address ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|shipto_addressid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ShipTo_City"></a> ShipTo_City
 
-**Description**: Type the city for the customer's shipping address.<br />
-**DisplayName**: Ship To City<br />
-**LogicalName**: shipto_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the city for the customer's shipping address.|
+|DisplayName|Ship To City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_ContactName"></a> ShipTo_ContactName
 
-**Description**: Type the primary contact name at the customer's shipping address.<br />
-**DisplayName**: Ship To Contact Name<br />
-**LogicalName**: shipto_contactname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 150
+|Property|Value|
+|--------|-----|
+|Description|Type the primary contact name at the customer's shipping address.|
+|DisplayName|Ship To Contact Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_contactname|
+|MaxLength|150|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_Country"></a> ShipTo_Country
 
-**Description**: Type the country or region for the customer's shipping address.<br />
-**DisplayName**: Ship To Country/Region<br />
-**LogicalName**: shipto_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the country or region for the customer's shipping address.|
+|DisplayName|Ship To Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_Fax"></a> ShipTo_Fax
 
-**Description**: Type the fax number for the customer's shipping address.<br />
-**DisplayName**: Ship To Fax<br />
-**LogicalName**: shipto_fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the fax number for the customer's shipping address.|
+|DisplayName|Ship To Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_FreightTermsCode"></a> ShipTo_FreightTermsCode
 
-**Description**: Select the freight terms to make sure shipping orders are processed correctly.<br />
-**DisplayName**: Freight Terms<br />
-**LogicalName**: shipto_freighttermscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the freight terms to make sure shipping orders are processed correctly.|
+|DisplayName|Freight Terms|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_freighttermscode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: FOB
-- **Value**: 2 **Label**: No Charge
+#### ShipTo_FreightTermsCode Options
+
+|Value|Label|
+|-----|-----|
+|1|FOB|
+|2|No Charge|
 
 
 
 ### <a name="BKMK_ShipTo_Line1"></a> ShipTo_Line1
 
-**Description**: Type the first line of the customer's shipping address.<br />
-**DisplayName**: Ship To Street 1<br />
-**LogicalName**: shipto_line1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the first line of the customer's shipping address.|
+|DisplayName|Ship To Street 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_line1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_Line2"></a> ShipTo_Line2
 
-**Description**: Type the second line of the customer's shipping address.<br />
-**DisplayName**: Ship To Street 2<br />
-**LogicalName**: shipto_line2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the second line of the customer's shipping address.|
+|DisplayName|Ship To Street 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_line2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_Line3"></a> ShipTo_Line3
 
-**Description**: Type the third line of the shipping address.<br />
-**DisplayName**: Ship To Street 3<br />
-**LogicalName**: shipto_line3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the third line of the shipping address.|
+|DisplayName|Ship To Street 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_line3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_Name"></a> ShipTo_Name
 
-**Description**: Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.<br />
-**DisplayName**: Ship To Name<br />
-**LogicalName**: shipto_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Type a name for the customer's shipping address, such as "Headquarters" or "Field office",  to identify the address.|
+|DisplayName|Ship To Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_name|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_PostalCode"></a> ShipTo_PostalCode
 
-**Description**: Type the ZIP Code or postal code for the shipping address.<br />
-**DisplayName**: Ship To ZIP/Postal Code<br />
-**LogicalName**: shipto_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the ZIP Code or postal code for the shipping address.|
+|DisplayName|Ship To ZIP/Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_StateOrProvince"></a> ShipTo_StateOrProvince
 
-**Description**: Type the state or province for the shipping address.<br />
-**DisplayName**: Ship To State/Province<br />
-**LogicalName**: shipto_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the state or province for the shipping address.|
+|DisplayName|Ship To State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ShipTo_Telephone"></a> ShipTo_Telephone
 
-**Description**: Type the phone number for the customer's shipping address.<br />
-**DisplayName**: Ship To Phone<br />
-**LogicalName**: shipto_telephone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the phone number for the customer's shipping address.|
+|DisplayName|Ship To Phone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shipto_telephone|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Tax"></a> Tax
 
-**Description**: Type the tax amount for the order product.<br />
-**DisplayName**: Tax<br />
-**LogicalName**: tax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000000<br />
-**MinValue**: -1000000000000<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type the tax amount for the order product.|
+|DisplayName|Tax|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|tax|
+|MaxValue|1000000000000|
+|MinValue|-1000000000000|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Choose the local currency for the record to make sure budgets are reported in the correct currency.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Choose the local currency for the record to make sure budgets are reported in the correct currency.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_UoMId"></a> UoMId
 
-**Description**: Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.<br />
-**DisplayName**: Unit<br />
-**LogicalName**: uomid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: uom
+|Property|Value|
+|--------|-----|
+|Description|Choose the unit of measurement for the base unit quantity for this purchase, such as each or dozen.|
+|DisplayName|Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|uomid|
+|RequiredLevel|None|
+|Targets|uom|
+|Type|Lookup|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_WillCall"></a> WillCall
 
-**Description**: Select whether the order product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.<br />
-**DisplayName**: Ship To<br />
-**LogicalName**: willcall<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the order product should be shipped to the specified address or held until the customer calls with further pick up or delivery instructions.|
+|DisplayName|Ship To|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|willcall|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Will Call
-- **FalseOption Value**: 0 **Label**: Address
+#### WillCall Options
+
+|Value|Label|
+|-----|-----|
+|1|Will Call|
+|0|Address|
 
 **DefaultValue**: False
+
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -1100,612 +1273,708 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_BaseAmount_Base"></a> BaseAmount_Base
 
-**Description**: Value of the Amount in base currency.<br />
-**DisplayName**: Amount (Base)<br />
-**LogicalName**: baseamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Amount in base currency.|
+|DisplayName|Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|baseamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Shows who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_ExtendedAmount_Base"></a> ExtendedAmount_Base
 
-**Description**: Value of the Extended Amount in base currency.<br />
-**DisplayName**: Extended Amount (Base)<br />
-**LogicalName**: extendedamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Extended Amount in base currency.|
+|DisplayName|Extended Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|extendedamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_ManualDiscountAmount_Base"></a> ManualDiscountAmount_Base
 
-**Description**: Value of the Manual Discount in base currency.<br />
-**DisplayName**: Manual Discount (Base)<br />
-**LogicalName**: manualdiscountamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Manual Discount in base currency.|
+|DisplayName|Manual Discount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|manualdiscountamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Shows who last updated the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the record was modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was modified.|
+|DisplayName|Modified On|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who last updated the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_agreementName"></a> msdyn_agreementName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_agreementname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreementname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_budgetamount_Base"></a> msdyn_budgetamount_Base
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Value of the Budget Amount in base currency.<br />
-**DisplayName**: Budget Amount (Base)<br />
-**LogicalName**: msdyn_budgetamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Budget Amount in base currency.|
+|DisplayName|Budget Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_budgetamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_costamount_Base"></a> msdyn_costamount_Base
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Value of the Cost Amount in base currency.<br />
-**DisplayName**: Cost Amount (Base)<br />
-**LogicalName**: msdyn_costamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Cost Amount in base currency.|
+|DisplayName|Cost Amount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_costamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_costpriceperunit_Base"></a> msdyn_costpriceperunit_Base
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Value of the Cost Price Per Unit in base currency.<br />
-**DisplayName**: Cost Price Per Unit (Base)<br />
-**LogicalName**: msdyn_costpriceperunit_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Value of the Cost Price Per Unit in base currency.|
+|DisplayName|Cost Price Per Unit (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_costpriceperunit_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_invoicefrequencyName"></a> msdyn_invoicefrequencyName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_invoicefrequencyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoicefrequencyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ProjectName"></a> msdyn_ProjectName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_projectname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Owner Id<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|ApplicationRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: Yomi name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: 
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|ApplicationRequired|
+|Targets||
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: 
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|ApplicationRequired|
+|Targets||
+|Type|Lookup|
 
 
 ### <a name="BKMK_PricePerUnit_Base"></a> PricePerUnit_Base
 
-**Description**: Value of the Price Per Unit in base currency.<br />
-**DisplayName**: Price Per Unit (Base)<br />
-**LogicalName**: priceperunit_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Value of the Price Per Unit in base currency.|
+|DisplayName|Price Per Unit (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|priceperunit_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_ProductIdName"></a> ProductIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: productidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|productidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SalesOrderIdName"></a> SalesOrderIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: salesorderidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|salesorderidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SalesOrderIsPriceLocked"></a> SalesOrderIsPriceLocked
 
-**Description**: Tells whether product pricing is locked for the order.<br />
-**DisplayName**: Order Is Price Locked<br />
-**LogicalName**: salesorderispricelocked<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Tells whether product pricing is locked for the order.|
+|DisplayName|Order Is Price Locked|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|salesorderispricelocked|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### SalesOrderIsPriceLocked Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_SalesOrderStateCode"></a> SalesOrderStateCode
 
-**Description**: Shows the status of the order that the order detail is associated with.<br />
-**DisplayName**: Order Status<br />
-**LogicalName**: salesorderstatecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows the status of the order that the order detail is associated with.|
+|DisplayName|Order Status|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|salesorderstatecode|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### SalesOrderStateCode Options
+
+|Value|Label|
+|-----|-----|
 
 
 
 
 ### <a name="BKMK_SalesRepIdName"></a> SalesRepIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: salesrepidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|salesrepidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SalesRepIdYomiName"></a> SalesRepIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: salesrepidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|salesrepidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Tax_Base"></a> Tax_Base
 
-**Description**: Value of the Tax in base currency.<br />
-**DisplayName**: Tax (Base)<br />
-**LogicalName**: tax_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Tax in base currency.|
+|DisplayName|Tax (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|tax_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_UoMIdName"></a> UoMIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: uomidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|uomidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 
 ### <a name="BKMK_VolumeDiscountAmount"></a> VolumeDiscountAmount
 
-**Description**: Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.<br />
-**DisplayName**: Volume Discount<br />
-**LogicalName**: volumediscountamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Shows the discount amount per unit if a specified volume is purchased. Configure volume discounts in the Product Catalog in the Settings area.|
+|DisplayName|Volume Discount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|volumediscountamount|
+|MaxValue|922337203685477|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_VolumeDiscountAmount_Base"></a> VolumeDiscountAmount_Base
 
-**Description**: Value of the Volume Discount in base currency.<br />
-**DisplayName**: Volume Discount (Base)<br />
-**LogicalName**: volumediscountamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Volume Discount in base currency.|
+|DisplayName|Volume Discount (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|volumediscountamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 <a name="onetomany"></a>
 
@@ -1727,235 +1996,127 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SalesOrderDetail_SyncErrors"></a> SalesOrderDetail_SyncErrors
 
 Same as syncerror entity [SalesOrderDetail_SyncErrors](syncerror.md#BKMK_SalesOrderDetail_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: SalesOrderDetail_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|SalesOrderDetail_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_SalesOrderDetail_AsyncOperations"></a> SalesOrderDetail_AsyncOperations
 
 Same as asyncoperation entity [SalesOrderDetail_AsyncOperations](asyncoperation.md#BKMK_SalesOrderDetail_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: SalesOrderDetail_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|SalesOrderDetail_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_salesorderdetail_MailboxTrackingFolders"></a> salesorderdetail_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [salesorderdetail_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_salesorderdetail_MailboxTrackingFolders) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: salesorderdetail_MailboxTrackingFolders<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|salesorderdetail_MailboxTrackingFolders|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_userentityinstancedata_salesorderdetail"></a> userentityinstancedata_salesorderdetail
 
 Same as userentityinstancedata entity [userentityinstancedata_salesorderdetail](userentityinstancedata.md#BKMK_userentityinstancedata_salesorderdetail) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_salesorderdetail<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_salesorderdetail|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SalesOrderDetail_ProcessSessions"></a> SalesOrderDetail_ProcessSessions
 
 Same as processsession entity [SalesOrderDetail_ProcessSessions](processsession.md#BKMK_SalesOrderDetail_ProcessSessions) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: SalesOrderDetail_ProcessSessions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 110
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|SalesOrderDetail_ProcessSessions|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 110|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SalesOrderDetail_BulkDeleteFailures"></a> SalesOrderDetail_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [SalesOrderDetail_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SalesOrderDetail_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: SalesOrderDetail_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|SalesOrderDetail_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_salesorderdetail_principalobjectattributeaccess"></a> salesorderdetail_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [salesorderdetail_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_salesorderdetail_principalobjectattributeaccess) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: salesorderdetail_principalobjectattributeaccess<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|salesorderdetail_principalobjectattributeaccess|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SalesOrderDetail_Dynamicpropertyinstance"></a> SalesOrderDetail_Dynamicpropertyinstance
 
 Same as dynamicpropertyinstance entity [SalesOrderDetail_Dynamicpropertyinstance](dynamicpropertyinstance.md#BKMK_SalesOrderDetail_Dynamicpropertyinstance) Many-To-One relationship.
-
-**ReferencingEntity**: dynamicpropertyinstance<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: SalesOrderDetail_Dynamicpropertyinstance<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: Cascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|dynamicpropertyinstance|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|SalesOrderDetail_Dynamicpropertyinstance|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: Cascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_salesorderdetail_parent_salesorderdetail"></a> salesorderdetail_parent_salesorderdetail
 
 Same as salesorderdetail entity [salesorderdetail_parent_salesorderdetail](salesorderdetail.md#BKMK_salesorderdetail_parent_salesorderdetail) Many-To-One relationship.
-
-**ReferencingEntity**: salesorderdetail<br />
-**ReferencingAttribute**: parentbundleid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: salesorderdetail_parent_salesorderdetail<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|salesorderdetail|
+|ReferencingAttribute|parentbundleid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|salesorderdetail_parent_salesorderdetail|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -2045,7 +2206,7 @@ See msdyn_project Entity [msdyn_msdyn_project_salesorderdetail_Project](msdyn_pr
 
 See msdyn_agreement Entity [msdyn_msdyn_agreement_salesorderdetail_Agreement](msdyn_agreement.md#BKMK_msdyn_msdyn_agreement_salesorderdetail_Agreement) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

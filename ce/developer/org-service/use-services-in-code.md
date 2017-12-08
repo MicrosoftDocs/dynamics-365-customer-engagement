@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 services in code (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This article discusses about the Discovery Service and Organization Service that can be used to identify your organization and to access Dynamics 365 data"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: bae224ef-2f5d-4555-a33c-9225b9365ed6
-caps.latest.revision: 33
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -33,7 +32,7 @@ manager: "amyla"
  Most of the time you’ll use the SDK assemblies in your development projects. Using the assemblies is the recommended developer scenario for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. These assemblies are available from NuGet packages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Assemblies Included in the Dynamics 365 SDK](assemblies-included-sdk.md) and [Subscribe to SDK assembly updates using NuGet](subscribe-sdk-assembly-updates-using-nuget.md)
   
 ## Add the service reference to your project  
- You may have a development scenario where you want to include the service reference in your project rather than using the assemblies. To find the correct service references for your organization, see [Download endpoints using Developer resources page](../developer-resources-page.md). 
+ You may have a development scenario where you want to include the service reference in your project rather than using the assemblies. To find the correct service references for your organization, see [Developer resources page](../developer-resources-page.md).
 > [!NOTE]
 > While it is technically possible to use the Organization Service endpoint without assemblies, the Web API provides a modern RESTful endpoint that is easier to use. More information: [Use the Dynamics 365 Customer Engagement Web API](../use-microsoft-dynamics-365-web-api.md)
   

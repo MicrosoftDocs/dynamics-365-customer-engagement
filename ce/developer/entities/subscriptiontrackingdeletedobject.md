@@ -1,7 +1,7 @@
 ---
 title: "SubscriptionTrackingDeletedObject Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SubscriptionTrackingDeletedObject entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # SubscriptionTrackingDeletedObject Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 For internal use only.
 
@@ -26,17 +24,20 @@ For internal use only.
 
 ## Entity Properties
 
-**DisplayName**: Tracking information for deleted entities<br />
-**DisplayCollectionName**: Tracking information for deleted entities<br />
-**SchemaName**: SubscriptionTrackingDeletedObject<br />
-**CollectionSchemaName**: SubscriptionTrackingDeletedObjects<br />
-**LogicalName**: subscriptiontrackingdeletedobject<br />
-**LogicalCollectionName**: subscriptiontrackingdeletedobjects<br />
-**EntitySetName**: subscriptiontrackingdeletedobjects<br />
-**PrimaryIdAttribute**: timestamp<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|SubscriptionTrackingDeletedObjects|
+|DisplayCollectionName|Tracking information for deleted entities|
+|DisplayName|Tracking information for deleted entities|
+|EntitySetName|subscriptiontrackingdeletedobjects|
+|IsBPFEntity|False|
+|LogicalCollectionName|subscriptiontrackingdeletedobjects|
+|LogicalName|subscriptiontrackingdeletedobject|
+|OwnershipType|None|
+|PrimaryIdAttribute|timestamp|
+|PrimaryNameAttribute||
+|SchemaName|SubscriptionTrackingDeletedObject|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -49,32 +50,40 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_DeleteTime"></a> DeleteTime
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: deletetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|deletetime|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_IsLogicalDelete"></a> IsLogicalDelete
 
-**Description**: Indicates whether solution aware entity record is logical delete or not<br />
-**DisplayName**: Is Logical Delete<br />
-**LogicalName**: islogicaldelete<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether solution aware entity record is logical delete or not|
+|DisplayName|Is Logical Delete|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|islogicaldelete|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsLogicalDelete Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -87,41 +96,47 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ObjectId"></a> ObjectId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: objectid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|objectid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ObjectTypeCode"></a> ObjectTypeCode
 
-**Description**: Type of entity that was deleted.<br />
-**DisplayName**: <br />
-**LogicalName**: objecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Type of entity that was deleted.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|objecttypecode|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_TimeStamp"></a> TimeStamp
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: timestamp<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timestamp|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|SystemRequired|
+|Type|BigInt|
 
 
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
