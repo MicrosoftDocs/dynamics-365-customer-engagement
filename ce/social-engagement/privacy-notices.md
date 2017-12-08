@@ -1,15 +1,19 @@
 ---
 title: "Microsoft Social Engagement Privacy Notices | Microsoft Docs"
 description: "Additional privacy notices for Social Engagement."
-ms.date: 09/12/2017
+keywords: "privacy notice, privacy statement addition"
+ms.date: 12/08/2017
+ms.service: mse
 ms.topic: article
-ms.servide: mse
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 1d821d1e-2c8c-4aa2-a93c-5c0b3572fde9
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Microsoft Social Engagement Privacy Notices
 
 Your privacy is important to us. For Microsoft Online Services, read the [Microsoft Online Services privacy Statement](http://go.microsoft.com/fwlink/p/?LinkID=389041).  
