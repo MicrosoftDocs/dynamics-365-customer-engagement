@@ -1,7 +1,7 @@
 ---
 title: "Connection Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Connection entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # Connection Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Relationship between two entities.
 
@@ -37,17 +35,20 @@ Relationship between two entities.
 
 ## Entity Properties
 
-**DisplayName**: Connection<br />
-**DisplayCollectionName**: Connections<br />
-**SchemaName**: Connection<br />
-**CollectionSchemaName**: Connections<br />
-**LogicalName**: connection<br />
-**LogicalCollectionName**: connections<br />
-**EntitySetName**: connections<br />
-**PrimaryIdAttribute**: connectionid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|Connections|
+|DisplayCollectionName|Connections|
+|DisplayName|Connection|
+|EntitySetName|connections|
+|IsBPFEntity|False|
+|LogicalCollectionName|connections|
+|LogicalName|connection|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|connectionid|
+|PrimaryNameAttribute|name|
+|SchemaName|Connection|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -76,235 +77,277 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ConnectionId"></a> ConnectionId
 
-**Description**: Unique identifier of the connection.<br />
-**DisplayName**: Connection<br />
-**LogicalName**: connectionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the connection.|
+|DisplayName|Connection|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|connectionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Type additional information to describe the connection, such as the length or quality of the relationship.<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Type additional information to describe the connection, such as the length or quality of the relationship.|
+|DisplayName|Description|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_EffectiveEnd"></a> EffectiveEnd
 
-**Description**: Enter the end date of the connection.<br />
-**DisplayName**: Ending<br />
-**LogicalName**: effectiveend<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the end date of the connection.|
+|DisplayName|Ending|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|effectiveend|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_EffectiveStart"></a> EffectiveStart
 
-**Description**: Enter the start date of the connection.<br />
-**DisplayName**: Starting<br />
-**LogicalName**: effectivestart<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the start date of the connection.|
+|DisplayName|Starting|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|effectivestart|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_EntityImage"></a> EntityImage
 
-**Description**: The default image for the entity.<br />
-**DisplayName**: Entity Image<br />
-**LogicalName**: entityimage<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Image<br />
-**IsPrimaryImage**: False<br />
-**MaxHeight**: 144<br />
-**MaxWidth**: 144
+|Property|Value|
+|--------|-----|
+|Description|The default image for the entity.|
+|DisplayName|Entity Image|
+|IsPrimaryImage|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage|
+|MaxHeight|144|
+|MaxWidth|144|
+|RequiredLevel|None|
+|Type|Image|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Unique identifier of the data import or data migration that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the data import or data migration that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user.|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Type of the owner of the connection, such as user, team, or business unit.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Type of the owner of the connection, such as user, team, or business unit.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_Record1Id"></a> Record1Id
 
-**Description**: Unique identifier of the source record.<br />
-**DisplayName**: Connected From<br />
-**LogicalName**: record1id<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the source record.|
+|DisplayName|Connected From|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|record1id|
+|RequiredLevel|None|
+|Targets|account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Record1IdObjectTypeCode"></a> Record1IdObjectTypeCode
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: record1idobjecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|record1idobjecttypecode|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_Record1RoleId"></a> Record1RoleId
 
-**Description**: Choose the primary party's role or relationship with the second party.<br />
-**DisplayName**: Role (From)<br />
-**LogicalName**: record1roleid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: connectionrole
+|Property|Value|
+|--------|-----|
+|Description|Choose the primary party's role or relationship with the second party.|
+|DisplayName|Role (From)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|record1roleid|
+|RequiredLevel|None|
+|Targets|connectionrole|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Record2Id"></a> Record2Id
 
-**Description**: Unique identifier of the target record.<br />
-**DisplayName**: Connected To<br />
-**LogicalName**: record2id<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the target record.|
+|DisplayName|Connected To|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|record2id|
+|RequiredLevel|None|
+|Targets|account,activitypointer,appointment,campaign,campaignactivity,channelaccessprofilerule,competitor,constraintbasedgroup,contact,contract,email,entitlement,entitlementchannel,entitlementtemplatechannel,equipment,fax,goal,incident,invoice,knowledgearticle,knowledgebaserecord,lead,letter,list,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_approval,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingrule,msdyn_bookingtimestamp,msdyn_customerasset,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectteam,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffrequest,msdyn_warehouse,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,opportunity,phonecall,position,pricelevel,processsession,product,quote,recurringappointmentmaster,resourcegroup,salesorder,serviceappointment,socialactivity,socialprofile,systemuser,task,team,territory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Record2IdObjectTypeCode"></a> Record2IdObjectTypeCode
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: record2idobjecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|record2idobjecttypecode|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_Record2RoleId"></a> Record2RoleId
 
-**Description**: Choose the secondary party's role or relationship with the primary party.<br />
-**DisplayName**: Role (To)<br />
-**LogicalName**: record2roleid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: connectionrole
+|Property|Value|
+|--------|-----|
+|Description|Choose the secondary party's role or relationship with the primary party.|
+|DisplayName|Role (To)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|record2roleid|
+|RequiredLevel|None|
+|Targets|connectionrole|
+|Type|Lookup|
 
 
 ### <a name="BKMK_StateCode"></a> StateCode
 
-**Description**: Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the connection is active or inactive. Inactive connections are read-only and can't be edited unless they are reactivated.|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### StateCode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-**Description**: Reason for the status of the connection.<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Reason for the status of the connection.|
+|DisplayName|Status Reason|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### StatusCode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Choose the local currency for the record to make sure budgets are reported in the correct currency.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Choose the local currency for the record to make sure budgets are reported in the correct currency.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -348,682 +391,760 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Shows who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: Name of the user who created the connection.<br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the user who created the connection.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: YomiName of the user who created the connection.<br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|YomiName of the user who created the connection.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImage_Timestamp"></a> EntityImage_Timestamp
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: entityimage_timestamp<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage_timestamp|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 
 ### <a name="BKMK_EntityImage_URL"></a> EntityImage_URL
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: entityimage_url<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Url<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage_url|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImageId"></a> EntityImageId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Entity Image Id<br />
-**LogicalName**: entityimageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Entity Image Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_IsMaster"></a> IsMaster
 
-**Description**: Indicates that this is the master record.<br />
-**DisplayName**: Is Master<br />
-**LogicalName**: ismaster<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Indicates that this is the master record.|
+|DisplayName|Is Master|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismaster|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsMaster Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Shows who last updated the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: Name of the user who last modified the connection.<br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the user who last modified the connection.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: YomiName of the user who last modified the connection.<br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|YomiName of the user who last modified the connection.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who last updated the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Name of the connection.<br />
-**DisplayName**: Connection Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 500
+|Property|Value|
+|--------|-----|
+|Description|Name of the connection.|
+|DisplayName|Connection Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|500|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner of the connection.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner of the connection.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Shows the business unit that the record owner belongs to.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Shows the business unit that the record owner belongs to.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier of the team who owns the connection.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the team who owns the connection.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user who owns the connection.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who owns the connection.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Record1IdName"></a> Record1IdName
 
-**Description**: Display name for the source record.<br />
-**DisplayName**: Name (From)<br />
-**LogicalName**: record1idname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 500
+|Property|Value|
+|--------|-----|
+|Description|Display name for the source record.|
+|DisplayName|Name (From)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|record1idname|
+|MaxLength|500|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Record1ObjectTypeCode"></a> Record1ObjectTypeCode
 
-**Description**: Shows the record type of the source record.<br />
-**DisplayName**: Type (From)<br />
-**LogicalName**: record1objecttypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows the record type of the source record.|
+|DisplayName|Type (From)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|record1objecttypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Account
-- **Value**: 2 **Label**: Contact
-- **Value**: 3 **Label**: Opportunity
-- **Value**: 4 **Label**: Lead
-- **Value**: 8 **Label**: User
-- **Value**: 9 **Label**: Team
-- **Value**: 50 **Label**: Position
-- **Value**: 99 **Label**: Social Profile
-- **Value**: 112 **Label**: Case
-- **Value**: 123 **Label**: Competitor
-- **Value**: 1010 **Label**: Contract
-- **Value**: 1022 **Label**: Price List
-- **Value**: 1024 **Label**: Product
-- **Value**: 1084 **Label**: Quote
-- **Value**: 1088 **Label**: Order
-- **Value**: 1090 **Label**: Invoice
-- **Value**: 2013 **Label**: Territory
-- **Value**: 4000 **Label**: Facility/Equipment
-- **Value**: 4005 **Label**: Scheduling Group
-- **Value**: 4007 **Label**: Resource Group
-- **Value**: 4200 **Label**: Activity
-- **Value**: 4201 **Label**: Appointment
-- **Value**: 4202 **Label**: Email
-- **Value**: 4204 **Label**: Fax
-- **Value**: 4207 **Label**: Letter
-- **Value**: 4210 **Label**: Phone Call
-- **Value**: 4212 **Label**: Task
-- **Value**: 4214 **Label**: Service Activity
-- **Value**: 4216 **Label**: Social Activity
-- **Value**: 4251 **Label**: Recurring Appointment
-- **Value**: 4300 **Label**: Marketing List
-- **Value**: 4400 **Label**: Campaign
-- **Value**: 4402 **Label**: Campaign Activity
-- **Value**: 4710 **Label**: Process Session
-- **Value**: 9400 **Label**: Channel Access Profile Rule
-- **Value**: 9600 **Label**: Goal
-- **Value**: 9700 **Label**: Entitlement
-- **Value**: 9701 **Label**: Entitlement Channel
-- **Value**: 9703 **Label**: Entitlement Template Channel
-- **Value**: 9930 **Label**: Knowledge Base Record
-- **Value**: 9953 **Label**: Knowledge Article
-- **Value**: 10001 **Label**: Profile Album
-- **Value**: 10007 **Label**: Booking Alert
-- **Value**: 10008 **Label**: Booking Alert Status
-- **Value**: 10010 **Label**: Booking Rule
-- **Value**: 10023 **Label**: Resource Territory
-- **Value**: 10026 **Label**: System User Scheduler Setting
-- **Value**: 10027 **Label**: Time Group
-- **Value**: 10028 **Label**: Time Group Detail
-- **Value**: 10032 **Label**: Approval
-- **Value**: 10068 **Label**: Process Notes
-- **Value**: 10069 **Label**: Project
-- **Value**: 10077 **Label**: Project Team Member
-- **Value**: 10107 **Label**: Agreement
-- **Value**: 10108 **Label**: Agreement Booking Date
-- **Value**: 10109 **Label**: Agreement Booking Incident
-- **Value**: 10110 **Label**: Agreement Booking Product
-- **Value**: 10111 **Label**: Agreement Booking Service
-- **Value**: 10112 **Label**: Agreement Booking Service Task
-- **Value**: 10113 **Label**: Agreement Booking Setup
-- **Value**: 10114 **Label**: Agreement Invoice Date
-- **Value**: 10115 **Label**: Agreement Invoice Product
-- **Value**: 10116 **Label**: Agreement Invoice Setup
-- **Value**: 10119 **Label**: Booking Timestamp
-- **Value**: 10124 **Label**: Customer Asset
-- **Value**: 10129 **Label**: Incident Type Characteristic
-- **Value**: 10130 **Label**: Incident Type Product
-- **Value**: 10131 **Label**: Incident Type Service
-- **Value**: 10133 **Label**: Inventory Adjustment
-- **Value**: 10134 **Label**: Inventory Adjustment Product
-- **Value**: 10135 **Label**: Inventory Journal
-- **Value**: 10136 **Label**: Inventory Transfer
-- **Value**: 10141 **Label**: Payment
-- **Value**: 10142 **Label**: Payment Detail
-- **Value**: 10143 **Label**: Payment Method
-- **Value**: 10144 **Label**: Payment Term
-- **Value**: 10145 **Label**: Postal Code
-- **Value**: 10146 **Label**: Product Inventory
-- **Value**: 10147 **Label**: Purchase Order
-- **Value**: 10148 **Label**: Purchase Order Bill
-- **Value**: 10149 **Label**: Purchase Order Product
-- **Value**: 10150 **Label**: Purchase Order Receipt
-- **Value**: 10151 **Label**: Purchase Order Receipt Product
-- **Value**: 10152 **Label**: Purchase Order Sub Status
-- **Value**: 10153 **Label**: Quote Booking Incident
-- **Value**: 10154 **Label**: Quote Booking Product
-- **Value**: 10155 **Label**: Quote Booking Service
-- **Value**: 10156 **Label**: Quote Booking Service Task
-- **Value**: 10161 **Label**: RMA
-- **Value**: 10162 **Label**: RMA Product
-- **Value**: 10163 **Label**: RMA Receipt
-- **Value**: 10164 **Label**: RMA Receipt Product
-- **Value**: 10165 **Label**: RMA Sub-Status
-- **Value**: 10166 **Label**: RTV
-- **Value**: 10167 **Label**: RTV Product
-- **Value**: 10168 **Label**: RTV Sub-Status
-- **Value**: 10170 **Label**: Ship Via
-- **Value**: 10171 **Label**: Tax Code
-- **Value**: 10173 **Label**: Time Off Request
-- **Value**: 10175 **Label**: Warehouse
-- **Value**: 10176 **Label**: Work Order
-- **Value**: 10177 **Label**: Work Order Characteristic (Deprecated)
-- **Value**: 10179 **Label**: Work Order Incident
-- **Value**: 10180 **Label**: Work Order Product
-- **Value**: 10181 **Label**: Resource Restriction (Deprecated)
-- **Value**: 10182 **Label**: Work Order Service
-- **Value**: 10183 **Label**: Work Order Service Task
-- **Value**: 10190 **Label**: IoT Alert
-- **Value**: 10191 **Label**: IoT Device
-- **Value**: 10192 **Label**: IoT Device Category
-- **Value**: 10193 **Label**: IoT Device Command
-- **Value**: 10194 **Label**: IoT Device Registration History
+#### Record1ObjectTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Account|
+|2|Contact|
+|3|Opportunity|
+|4|Lead|
+|8|User|
+|9|Team|
+|50|Position|
+|99|Social Profile|
+|112|Case|
+|123|Competitor|
+|1010|Contract|
+|1022|Price List|
+|1024|Product|
+|1084|Quote|
+|1088|Order|
+|1090|Invoice|
+|2013|Territory|
+|4000|Facility/Equipment|
+|4005|Scheduling Group|
+|4007|Resource Group|
+|4200|Activity|
+|4201|Appointment|
+|4202|Email|
+|4204|Fax|
+|4207|Letter|
+|4210|Phone Call|
+|4212|Task|
+|4214|Service Activity|
+|4216|Social Activity|
+|4251|Recurring Appointment|
+|4300|Marketing List|
+|4400|Campaign|
+|4402|Campaign Activity|
+|4710|Process Session|
+|9400|Channel Access Profile Rule|
+|9600|Goal|
+|9700|Entitlement|
+|9701|Entitlement Channel|
+|9703|Entitlement Template Channel|
+|9930|Knowledge Base Record|
+|9953|Knowledge Article|
+|10001|Profile Album|
+|10007|Booking Alert|
+|10008|Booking Alert Status|
+|10010|Booking Rule|
+|10023|Resource Territory|
+|10026|System User Scheduler Setting|
+|10027|Time Group|
+|10028|Time Group Detail|
+|10032|Approval|
+|10068|Process Notes|
+|10069|Project|
+|10077|Project Team Member|
+|10107|Agreement|
+|10108|Agreement Booking Date|
+|10109|Agreement Booking Incident|
+|10110|Agreement Booking Product|
+|10111|Agreement Booking Service|
+|10112|Agreement Booking Service Task|
+|10113|Agreement Booking Setup|
+|10114|Agreement Invoice Date|
+|10115|Agreement Invoice Product|
+|10116|Agreement Invoice Setup|
+|10119|Booking Timestamp|
+|10124|Customer Asset|
+|10129|Incident Type Characteristic|
+|10130|Incident Type Product|
+|10131|Incident Type Service|
+|10133|Inventory Adjustment|
+|10134|Inventory Adjustment Product|
+|10135|Inventory Journal|
+|10136|Inventory Transfer|
+|10141|Payment|
+|10142|Payment Detail|
+|10143|Payment Method|
+|10144|Payment Term|
+|10145|Postal Code|
+|10146|Product Inventory|
+|10147|Purchase Order|
+|10148|Purchase Order Bill|
+|10149|Purchase Order Product|
+|10150|Purchase Order Receipt|
+|10151|Purchase Order Receipt Product|
+|10152|Purchase Order Sub Status|
+|10153|Quote Booking Incident|
+|10154|Quote Booking Product|
+|10155|Quote Booking Service|
+|10156|Quote Booking Service Task|
+|10161|RMA|
+|10162|RMA Product|
+|10163|RMA Receipt|
+|10164|RMA Receipt Product|
+|10165|RMA Sub-Status|
+|10166|RTV|
+|10167|RTV Product|
+|10168|RTV Sub-Status|
+|10170|Ship Via|
+|10171|Tax Code|
+|10173|Time Off Request|
+|10175|Warehouse|
+|10176|Work Order|
+|10177|Work Order Characteristic (Deprecated)|
+|10179|Work Order Incident|
+|10180|Work Order Product|
+|10181|Resource Restriction (Deprecated)|
+|10182|Work Order Service|
+|10183|Work Order Service Task|
+|10186|IoT Alert|
+|10187|IoT Device|
+|10188|IoT Device Category|
+|10189|IoT Device Command|
+|10190|IoT Device Registration History|
 
 
 
 ### <a name="BKMK_Record1RoleIdName"></a> Record1RoleIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: record1roleidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|record1roleidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_Record2IdName"></a> Record2IdName
 
-**Description**: Display name for the target record.<br />
-**DisplayName**: Name (To)<br />
-**LogicalName**: record2idname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 500
+|Property|Value|
+|--------|-----|
+|Description|Display name for the target record.|
+|DisplayName|Name (To)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|record2idname|
+|MaxLength|500|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Record2ObjectTypeCode"></a> Record2ObjectTypeCode
 
-**Description**: Shows the record type of the target record.<br />
-**DisplayName**: Type (To)<br />
-**LogicalName**: record2objecttypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows the record type of the target record.|
+|DisplayName|Type (To)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|record2objecttypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Account
-- **Value**: 2 **Label**: Contact
-- **Value**: 3 **Label**: Opportunity
-- **Value**: 4 **Label**: Lead
-- **Value**: 8 **Label**: User
-- **Value**: 9 **Label**: Team
-- **Value**: 50 **Label**: Position
-- **Value**: 99 **Label**: Social Profile
-- **Value**: 112 **Label**: Case
-- **Value**: 123 **Label**: Competitor
-- **Value**: 1010 **Label**: Contract
-- **Value**: 1022 **Label**: Price List
-- **Value**: 1024 **Label**: Product
-- **Value**: 1084 **Label**: Quote
-- **Value**: 1088 **Label**: Order
-- **Value**: 1090 **Label**: Invoice
-- **Value**: 2013 **Label**: Territory
-- **Value**: 4000 **Label**: Facility/Equipment
-- **Value**: 4005 **Label**: Scheduling Group
-- **Value**: 4007 **Label**: Resource Group
-- **Value**: 4200 **Label**: Activity
-- **Value**: 4201 **Label**: Appointment
-- **Value**: 4202 **Label**: Email
-- **Value**: 4204 **Label**: Fax
-- **Value**: 4207 **Label**: Letter
-- **Value**: 4210 **Label**: Phone Call
-- **Value**: 4212 **Label**: Task
-- **Value**: 4214 **Label**: Service Activity
-- **Value**: 4216 **Label**: Social Activity
-- **Value**: 4251 **Label**: Recurring Appointment
-- **Value**: 4300 **Label**: Marketing List
-- **Value**: 4400 **Label**: Campaign
-- **Value**: 4402 **Label**: Campaign Activity
-- **Value**: 4710 **Label**: Process Session
-- **Value**: 9400 **Label**: Channel Access Profile Rule
-- **Value**: 9600 **Label**: Goal
-- **Value**: 9700 **Label**: Entitlement
-- **Value**: 9701 **Label**: Entitlement Channel
-- **Value**: 9703 **Label**: Entitlement Template Channel
-- **Value**: 9930 **Label**: Knowledge Base Record
-- **Value**: 9953 **Label**: Knowledge Article
-- **Value**: 10001 **Label**: Profile Album
-- **Value**: 10007 **Label**: Booking Alert
-- **Value**: 10008 **Label**: Booking Alert Status
-- **Value**: 10010 **Label**: Booking Rule
-- **Value**: 10023 **Label**: Resource Territory
-- **Value**: 10026 **Label**: System User Scheduler Setting
-- **Value**: 10027 **Label**: Time Group
-- **Value**: 10028 **Label**: Time Group Detail
-- **Value**: 10032 **Label**: Approval
-- **Value**: 10068 **Label**: Process Notes
-- **Value**: 10069 **Label**: Project
-- **Value**: 10077 **Label**: Project Team Member
-- **Value**: 10107 **Label**: Agreement
-- **Value**: 10108 **Label**: Agreement Booking Date
-- **Value**: 10109 **Label**: Agreement Booking Incident
-- **Value**: 10110 **Label**: Agreement Booking Product
-- **Value**: 10111 **Label**: Agreement Booking Service
-- **Value**: 10112 **Label**: Agreement Booking Service Task
-- **Value**: 10113 **Label**: Agreement Booking Setup
-- **Value**: 10114 **Label**: Agreement Invoice Date
-- **Value**: 10115 **Label**: Agreement Invoice Product
-- **Value**: 10116 **Label**: Agreement Invoice Setup
-- **Value**: 10119 **Label**: Booking Timestamp
-- **Value**: 10124 **Label**: Customer Asset
-- **Value**: 10129 **Label**: Incident Type Characteristic
-- **Value**: 10130 **Label**: Incident Type Product
-- **Value**: 10131 **Label**: Incident Type Service
-- **Value**: 10133 **Label**: Inventory Adjustment
-- **Value**: 10134 **Label**: Inventory Adjustment Product
-- **Value**: 10135 **Label**: Inventory Journal
-- **Value**: 10136 **Label**: Inventory Transfer
-- **Value**: 10141 **Label**: Payment
-- **Value**: 10142 **Label**: Payment Detail
-- **Value**: 10143 **Label**: Payment Method
-- **Value**: 10144 **Label**: Payment Term
-- **Value**: 10145 **Label**: Postal Code
-- **Value**: 10146 **Label**: Product Inventory
-- **Value**: 10147 **Label**: Purchase Order
-- **Value**: 10148 **Label**: Purchase Order Bill
-- **Value**: 10149 **Label**: Purchase Order Product
-- **Value**: 10150 **Label**: Purchase Order Receipt
-- **Value**: 10151 **Label**: Purchase Order Receipt Product
-- **Value**: 10152 **Label**: Purchase Order Sub Status
-- **Value**: 10153 **Label**: Quote Booking Incident
-- **Value**: 10154 **Label**: Quote Booking Product
-- **Value**: 10155 **Label**: Quote Booking Service
-- **Value**: 10156 **Label**: Quote Booking Service Task
-- **Value**: 10161 **Label**: RMA
-- **Value**: 10162 **Label**: RMA Product
-- **Value**: 10163 **Label**: RMA Receipt
-- **Value**: 10164 **Label**: RMA Receipt Product
-- **Value**: 10165 **Label**: RMA Sub-Status
-- **Value**: 10166 **Label**: RTV
-- **Value**: 10167 **Label**: RTV Product
-- **Value**: 10168 **Label**: RTV Sub-Status
-- **Value**: 10170 **Label**: Ship Via
-- **Value**: 10171 **Label**: Tax Code
-- **Value**: 10173 **Label**: Time Off Request
-- **Value**: 10175 **Label**: Warehouse
-- **Value**: 10176 **Label**: Work Order
-- **Value**: 10177 **Label**: Work Order Characteristic (Deprecated)
-- **Value**: 10179 **Label**: Work Order Incident
-- **Value**: 10180 **Label**: Work Order Product
-- **Value**: 10181 **Label**: Resource Restriction (Deprecated)
-- **Value**: 10182 **Label**: Work Order Service
-- **Value**: 10183 **Label**: Work Order Service Task
-- **Value**: 10190 **Label**: IoT Alert
-- **Value**: 10191 **Label**: IoT Device
-- **Value**: 10192 **Label**: IoT Device Category
-- **Value**: 10193 **Label**: IoT Device Command
-- **Value**: 10194 **Label**: IoT Device Registration History
+#### Record2ObjectTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Account|
+|2|Contact|
+|3|Opportunity|
+|4|Lead|
+|8|User|
+|9|Team|
+|50|Position|
+|99|Social Profile|
+|112|Case|
+|123|Competitor|
+|1010|Contract|
+|1022|Price List|
+|1024|Product|
+|1084|Quote|
+|1088|Order|
+|1090|Invoice|
+|2013|Territory|
+|4000|Facility/Equipment|
+|4005|Scheduling Group|
+|4007|Resource Group|
+|4200|Activity|
+|4201|Appointment|
+|4202|Email|
+|4204|Fax|
+|4207|Letter|
+|4210|Phone Call|
+|4212|Task|
+|4214|Service Activity|
+|4216|Social Activity|
+|4251|Recurring Appointment|
+|4300|Marketing List|
+|4400|Campaign|
+|4402|Campaign Activity|
+|4710|Process Session|
+|9400|Channel Access Profile Rule|
+|9600|Goal|
+|9700|Entitlement|
+|9701|Entitlement Channel|
+|9703|Entitlement Template Channel|
+|9930|Knowledge Base Record|
+|9953|Knowledge Article|
+|10001|Profile Album|
+|10007|Booking Alert|
+|10008|Booking Alert Status|
+|10010|Booking Rule|
+|10023|Resource Territory|
+|10026|System User Scheduler Setting|
+|10027|Time Group|
+|10028|Time Group Detail|
+|10032|Approval|
+|10068|Process Notes|
+|10069|Project|
+|10077|Project Team Member|
+|10107|Agreement|
+|10108|Agreement Booking Date|
+|10109|Agreement Booking Incident|
+|10110|Agreement Booking Product|
+|10111|Agreement Booking Service|
+|10112|Agreement Booking Service Task|
+|10113|Agreement Booking Setup|
+|10114|Agreement Invoice Date|
+|10115|Agreement Invoice Product|
+|10116|Agreement Invoice Setup|
+|10119|Booking Timestamp|
+|10124|Customer Asset|
+|10129|Incident Type Characteristic|
+|10130|Incident Type Product|
+|10131|Incident Type Service|
+|10133|Inventory Adjustment|
+|10134|Inventory Adjustment Product|
+|10135|Inventory Journal|
+|10136|Inventory Transfer|
+|10141|Payment|
+|10142|Payment Detail|
+|10143|Payment Method|
+|10144|Payment Term|
+|10145|Postal Code|
+|10146|Product Inventory|
+|10147|Purchase Order|
+|10148|Purchase Order Bill|
+|10149|Purchase Order Product|
+|10150|Purchase Order Receipt|
+|10151|Purchase Order Receipt Product|
+|10152|Purchase Order Sub Status|
+|10153|Quote Booking Incident|
+|10154|Quote Booking Product|
+|10155|Quote Booking Service|
+|10156|Quote Booking Service Task|
+|10161|RMA|
+|10162|RMA Product|
+|10163|RMA Receipt|
+|10164|RMA Receipt Product|
+|10165|RMA Sub-Status|
+|10166|RTV|
+|10167|RTV Product|
+|10168|RTV Sub-Status|
+|10170|Ship Via|
+|10171|Tax Code|
+|10173|Time Off Request|
+|10175|Warehouse|
+|10176|Work Order|
+|10177|Work Order Characteristic (Deprecated)|
+|10179|Work Order Incident|
+|10180|Work Order Product|
+|10181|Resource Restriction (Deprecated)|
+|10182|Work Order Service|
+|10183|Work Order Service Task|
+|10186|IoT Alert|
+|10187|IoT Device|
+|10188|IoT Device Category|
+|10189|IoT Device Command|
+|10190|IoT Device Registration History|
 
 
 
 ### <a name="BKMK_Record2RoleIdName"></a> Record2RoleIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: record2roleidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|record2roleidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_RelatedConnectionId"></a> RelatedConnectionId
 
-**Description**: Unique identifier for the reciprocal connection record.<br />
-**DisplayName**: Reciprocal Connection<br />
-**LogicalName**: relatedconnectionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: connection
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the reciprocal connection record.|
+|DisplayName|Reciprocal Connection|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|relatedconnectionid|
+|RequiredLevel|ApplicationRequired|
+|Targets|connection|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version number of the connection.<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version number of the connection.|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1042,157 +1163,85 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Connection_AsyncOperations"></a> Connection_AsyncOperations
 
 Same as asyncoperation entity [Connection_AsyncOperations](asyncoperation.md#BKMK_Connection_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Connection_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Connection_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_connection_related_connection"></a> connection_related_connection
 
 Same as connection entity [connection_related_connection](connection.md#BKMK_connection_related_connection) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: relatedconnectionid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: connection_related_connection<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|relatedconnectionid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|connection_related_connection|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_userentityinstancedata_connection"></a> userentityinstancedata_connection
 
 Same as userentityinstancedata entity [userentityinstancedata_connection](userentityinstancedata.md#BKMK_userentityinstancedata_connection) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_connection<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_connection|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_connection_principalobjectattributeaccess"></a> connection_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [connection_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_connection_principalobjectattributeaccess) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: connection_principalobjectattributeaccess<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|connection_principalobjectattributeaccess|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Connection_SyncErrors"></a> Connection_SyncErrors
 
 Same as syncerror entity [Connection_SyncErrors](syncerror.md#BKMK_Connection_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Connection_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Connection_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Connection_ProcessSessions"></a> Connection_ProcessSessions
 
 Same as processsession entity [Connection_ProcessSessions](processsession.md#BKMK_Connection_ProcessSessions) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Connection_ProcessSessions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 110
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Connection_ProcessSessions|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 110|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1200,16 +1249,6 @@ Same as processsession entity [Connection_ProcessSessions](processsession.md#BKM
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_iotalert_connections1](#BKMK_msdyn_iotalert_connections1)
-- [msdyn_iotalert_connections2](#BKMK_msdyn_iotalert_connections2)
-- [msdyn_iotdevice_connections1](#BKMK_msdyn_iotdevice_connections1)
-- [msdyn_iotdevice_connections2](#BKMK_msdyn_iotdevice_connections2)
-- [msdyn_iotdevicecategory_connections1](#BKMK_msdyn_iotdevicecategory_connections1)
-- [msdyn_iotdevicecategory_connections2](#BKMK_msdyn_iotdevicecategory_connections2)
-- [msdyn_iotdevicecommand_connections1](#BKMK_msdyn_iotdevicecommand_connections1)
-- [msdyn_iotdevicecommand_connections2](#BKMK_msdyn_iotdevicecommand_connections2)
-- [msdyn_iotdeviceregistrationhistory_connections1](#BKMK_msdyn_iotdeviceregistrationhistory_connections1)
-- [msdyn_iotdeviceregistrationhistory_connections2](#BKMK_msdyn_iotdeviceregistrationhistory_connections2)
 - [territory_connections1](#BKMK_territory_connections1)
 - [territory_connections2](#BKMK_territory_connections2)
 - [lead_connections1](#BKMK_lead_connections1)
@@ -1384,6 +1423,16 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_workorderservice_connections2](#BKMK_msdyn_workorderservice_connections2)
 - [msdyn_workorderservicetask_connections1](#BKMK_msdyn_workorderservicetask_connections1)
 - [msdyn_workorderservicetask_connections2](#BKMK_msdyn_workorderservicetask_connections2)
+- [msdyn_iotalert_connections1](#BKMK_msdyn_iotalert_connections1)
+- [msdyn_iotalert_connections2](#BKMK_msdyn_iotalert_connections2)
+- [msdyn_iotdevice_connections1](#BKMK_msdyn_iotdevice_connections1)
+- [msdyn_iotdevice_connections2](#BKMK_msdyn_iotdevice_connections2)
+- [msdyn_iotdevicecategory_connections1](#BKMK_msdyn_iotdevicecategory_connections1)
+- [msdyn_iotdevicecategory_connections2](#BKMK_msdyn_iotdevicecategory_connections2)
+- [msdyn_iotdevicecommand_connections1](#BKMK_msdyn_iotdevicecommand_connections1)
+- [msdyn_iotdevicecommand_connections2](#BKMK_msdyn_iotdevicecommand_connections2)
+- [msdyn_iotdeviceregistrationhistory_connections1](#BKMK_msdyn_iotdeviceregistrationhistory_connections1)
+- [msdyn_iotdeviceregistrationhistory_connections2](#BKMK_msdyn_iotdeviceregistrationhistory_connections2)
 - [knowledgearticle_connections1](#BKMK_knowledgearticle_connections1)
 - [knowledgearticle_connections2](#BKMK_knowledgearticle_connections2)
 - [profilerule_connections1](#BKMK_profilerule_connections1)
@@ -1434,46 +1483,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [socialactivity_connections2](#BKMK_socialactivity_connections2)
 - [recurringappointmentmaster_connections2](#BKMK_recurringappointmentmaster_connections2)
 
-
-### <a name="BKMK_msdyn_iotalert_connections1"></a> msdyn_iotalert_connections1
-
-See msdyn_iotalert Entity [msdyn_iotalert_connections1](msdyn_iotalert.md#BKMK_msdyn_iotalert_connections1) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotalert_connections2"></a> msdyn_iotalert_connections2
-
-See msdyn_iotalert Entity [msdyn_iotalert_connections2](msdyn_iotalert.md#BKMK_msdyn_iotalert_connections2) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevice_connections1"></a> msdyn_iotdevice_connections1
-
-See msdyn_iotdevice Entity [msdyn_iotdevice_connections1](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_connections1) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevice_connections2"></a> msdyn_iotdevice_connections2
-
-See msdyn_iotdevice Entity [msdyn_iotdevice_connections2](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_connections2) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecategory_connections1"></a> msdyn_iotdevicecategory_connections1
-
-See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_connections1](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_connections1) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecategory_connections2"></a> msdyn_iotdevicecategory_connections2
-
-See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_connections2](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_connections2) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecommand_connections1"></a> msdyn_iotdevicecommand_connections1
-
-See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_connections1](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_connections1) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecommand_connections2"></a> msdyn_iotdevicecommand_connections2
-
-See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_connections2](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_connections2) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdeviceregistrationhistory_connections1"></a> msdyn_iotdeviceregistrationhistory_connections1
-
-See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_connections1](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_connections1) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdeviceregistrationhistory_connections2"></a> msdyn_iotdeviceregistrationhistory_connections2
-
-See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_connections2](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_connections2) One-To-Many relationship.
 
 ### <a name="BKMK_territory_connections1"></a> territory_connections1
 
@@ -2171,6 +2180,46 @@ See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_connections1](
 
 See msdyn_workorderservicetask Entity [msdyn_workorderservicetask_connections2](msdyn_workorderservicetask.md#BKMK_msdyn_workorderservicetask_connections2) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_iotalert_connections1"></a> msdyn_iotalert_connections1
+
+See msdyn_iotalert Entity [msdyn_iotalert_connections1](msdyn_iotalert.md#BKMK_msdyn_iotalert_connections1) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotalert_connections2"></a> msdyn_iotalert_connections2
+
+See msdyn_iotalert Entity [msdyn_iotalert_connections2](msdyn_iotalert.md#BKMK_msdyn_iotalert_connections2) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevice_connections1"></a> msdyn_iotdevice_connections1
+
+See msdyn_iotdevice Entity [msdyn_iotdevice_connections1](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_connections1) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevice_connections2"></a> msdyn_iotdevice_connections2
+
+See msdyn_iotdevice Entity [msdyn_iotdevice_connections2](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_connections2) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecategory_connections1"></a> msdyn_iotdevicecategory_connections1
+
+See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_connections1](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_connections1) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecategory_connections2"></a> msdyn_iotdevicecategory_connections2
+
+See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_connections2](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_connections2) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecommand_connections1"></a> msdyn_iotdevicecommand_connections1
+
+See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_connections1](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_connections1) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecommand_connections2"></a> msdyn_iotdevicecommand_connections2
+
+See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_connections2](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_connections2) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdeviceregistrationhistory_connections1"></a> msdyn_iotdeviceregistrationhistory_connections1
+
+See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_connections1](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_connections1) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdeviceregistrationhistory_connections2"></a> msdyn_iotdeviceregistrationhistory_connections2
+
+See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_connections2](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_connections2) One-To-Many relationship.
+
 ### <a name="BKMK_knowledgearticle_connections1"></a> knowledgearticle_connections1
 
 See knowledgearticle Entity [knowledgearticle_connections1](knowledgearticle.md#BKMK_knowledgearticle_connections1) One-To-Many relationship.
@@ -2367,7 +2416,7 @@ See socialactivity Entity [socialactivity_connections2](socialactivity.md#BKMK_s
 
 See recurringappointmentmaster Entity [recurringappointmentmaster_connections2](recurringappointmentmaster.md#BKMK_recurringappointmentmaster_connections2) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

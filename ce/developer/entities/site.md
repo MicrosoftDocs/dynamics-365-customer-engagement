@@ -1,7 +1,7 @@
 ---
 title: "Site Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Site entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # Site Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Location or branch office where an organization does business. An organization can have multiple sites.
 
@@ -31,17 +29,20 @@ Location or branch office where an organization does business. An organization c
 
 ## Entity Properties
 
-**DisplayName**: Site<br />
-**DisplayCollectionName**: Sites<br />
-**SchemaName**: Site<br />
-**CollectionSchemaName**: Sites<br />
-**LogicalName**: site<br />
-**LogicalCollectionName**: sites<br />
-**EntitySetName**: sites<br />
-**PrimaryIdAttribute**: siteid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: OrganizationOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|Sites|
+|DisplayCollectionName|Sites|
+|DisplayName|Site|
+|EntitySetName|sites|
+|IsBPFEntity|False|
+|LogicalCollectionName|sites|
+|LogicalName|site|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|siteid|
+|PrimaryNameAttribute|name|
+|SchemaName|Site|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -102,699 +103,811 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Address1_AddressId"></a> Address1_AddressId
 
-**Description**: Unique identifier for address 1.<br />
-**DisplayName**: Address 1: ID<br />
-**LogicalName**: address1_addressid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for address 1.|
+|DisplayName|Address 1: ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_addressid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Address1_AddressTypeCode"></a> Address1_AddressTypeCode
 
-**Description**: Type of address for address 1, such as billing, shipping, or primary address.<br />
-**DisplayName**: Address 1: Address Type<br />
-**LogicalName**: address1_addresstypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Type of address for address 1, such as billing, shipping, or primary address.|
+|DisplayName|Address 1: Address Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_addresstypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address1_AddressTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address1_City"></a> Address1_City
 
-**Description**: City name for address 1.<br />
-**DisplayName**: City<br />
-**LogicalName**: address1_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|City name for address 1.|
+|DisplayName|City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Country"></a> Address1_Country
 
-**Description**: Country/region name for address 1.<br />
-**DisplayName**: Country/Region<br />
-**LogicalName**: address1_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Country/region name for address 1.|
+|DisplayName|Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_County"></a> Address1_County
 
-**Description**: County name for address 1.<br />
-**DisplayName**: Address 1: County<br />
-**LogicalName**: address1_county<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|County name for address 1.|
+|DisplayName|Address 1: County|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_county|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Fax"></a> Address1_Fax
 
-**Description**: Fax number for address 1.<br />
-**DisplayName**: Fax<br />
-**LogicalName**: address1_fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Fax number for address 1.|
+|DisplayName|Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Latitude"></a> Address1_Latitude
 
-**Description**: Latitude for address 1.<br />
-**DisplayName**: Address 1: Latitude<br />
-**LogicalName**: address1_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Latitude for address 1.|
+|DisplayName|Address 1: Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address1_Line1"></a> Address1_Line1
 
-**Description**: First line for entering address 1 information.<br />
-**DisplayName**: Street 1<br />
-**LogicalName**: address1_line1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|First line for entering address 1 information.|
+|DisplayName|Street 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Line2"></a> Address1_Line2
 
-**Description**: Second line for entering address 1 information.<br />
-**DisplayName**: Street 2<br />
-**LogicalName**: address1_line2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Second line for entering address 1 information.|
+|DisplayName|Street 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Line3"></a> Address1_Line3
 
-**Description**: Third line for entering address 1 information.<br />
-**DisplayName**: Street 3<br />
-**LogicalName**: address1_line3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Third line for entering address 1 information.|
+|DisplayName|Street 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Longitude"></a> Address1_Longitude
 
-**Description**: Longitude for address 1.<br />
-**DisplayName**: Address 1: Longitude<br />
-**LogicalName**: address1_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Longitude for address 1.|
+|DisplayName|Address 1: Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address1_Name"></a> Address1_Name
 
-**Description**: Name to enter for address 1.<br />
-**DisplayName**: Address 1: Name<br />
-**LogicalName**: address1_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name to enter for address 1.|
+|DisplayName|Address 1: Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_name|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_PostalCode"></a> Address1_PostalCode
 
-**Description**: ZIP Code or postal code for address 1.<br />
-**DisplayName**: ZIP/Postal Code<br />
-**LogicalName**: address1_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|ZIP Code or postal code for address 1.|
+|DisplayName|ZIP/Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_PostOfficeBox"></a> Address1_PostOfficeBox
 
-**Description**: Post office box number for address 1.<br />
-**DisplayName**: Address 1: Post Office Box<br />
-**LogicalName**: address1_postofficebox<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Post office box number for address 1.|
+|DisplayName|Address 1: Post Office Box|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_postofficebox|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_ShippingMethodCode"></a> Address1_ShippingMethodCode
 
-**Description**: Method of shipment for address 1.<br />
-**DisplayName**: Address 1: Shipping Method<br />
-**LogicalName**: address1_shippingmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Method of shipment for address 1.|
+|DisplayName|Address 1: Shipping Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_shippingmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address1_ShippingMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address1_StateOrProvince"></a> Address1_StateOrProvince
 
-**Description**: State or province for address 1.<br />
-**DisplayName**: State/Province<br />
-**LogicalName**: address1_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|State or province for address 1.|
+|DisplayName|State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone1"></a> Address1_Telephone1
 
-**Description**: First telephone number associated with address 1.<br />
-**DisplayName**: Main Phone<br />
-**LogicalName**: address1_telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|First telephone number associated with address 1.|
+|DisplayName|Main Phone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone2"></a> Address1_Telephone2
 
-**Description**: Second telephone number associated with address 1.<br />
-**DisplayName**: Other Phone<br />
-**LogicalName**: address1_telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Second telephone number associated with address 1.|
+|DisplayName|Other Phone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone3"></a> Address1_Telephone3
 
-**Description**: Third telephone number associated with address 1.<br />
-**DisplayName**: Address 1: Telephone 3<br />
-**LogicalName**: address1_telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Third telephone number associated with address 1.|
+|DisplayName|Address 1: Telephone 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_UPSZone"></a> Address1_UPSZone
 
-**Description**: United Parcel Service (UPS) zone for address 1.<br />
-**DisplayName**: Address 1: UPS Zone<br />
-**LogicalName**: address1_upszone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4
+|Property|Value|
+|--------|-----|
+|Description|United Parcel Service (UPS) zone for address 1.|
+|DisplayName|Address 1: UPS Zone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_upszone|
+|MaxLength|4|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_UTCOffset"></a> Address1_UTCOffset
 
-**Description**: UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.<br />
-**DisplayName**: Address 1: UTC Offset<br />
-**LogicalName**: address1_utcoffset<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: TimeZone<br />
-**MaxValue**: 1500<br />
-**MinValue**: -1500
+|Property|Value|
+|--------|-----|
+|Description|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|
+|DisplayName|Address 1: UTC Offset|
+|Format|TimeZone|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_utcoffset|
+|MaxValue|1500|
+|MinValue|-1500|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_Address2_AddressId"></a> Address2_AddressId
 
-**Description**: Unique identifier for address 2.<br />
-**DisplayName**: Address 2: ID<br />
-**LogicalName**: address2_addressid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for address 2.|
+|DisplayName|Address 2: ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_addressid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Address2_AddressTypeCode"></a> Address2_AddressTypeCode
 
-**Description**: Type of address for address 2, such as billing, shipping, or primary address.<br />
-**DisplayName**: Address 2: Address Type<br />
-**LogicalName**: address2_addresstypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Type of address for address 2, such as billing, shipping, or primary address.|
+|DisplayName|Address 2: Address Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_addresstypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address2_AddressTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address2_City"></a> Address2_City
 
-**Description**: City name for address 2.<br />
-**DisplayName**: Address 2: City<br />
-**LogicalName**: address2_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|City name for address 2.|
+|DisplayName|Address 2: City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Country"></a> Address2_Country
 
-**Description**: Country/region name for address 2.<br />
-**DisplayName**: Address 2: Country/Region<br />
-**LogicalName**: address2_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Country/region name for address 2.|
+|DisplayName|Address 2: Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_County"></a> Address2_County
 
-**Description**: County name for address 2.<br />
-**DisplayName**: Address 2: County<br />
-**LogicalName**: address2_county<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|County name for address 2.|
+|DisplayName|Address 2: County|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_county|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Fax"></a> Address2_Fax
 
-**Description**: Fax number for address 2.<br />
-**DisplayName**: Address 2: Fax<br />
-**LogicalName**: address2_fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Fax number for address 2.|
+|DisplayName|Address 2: Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Latitude"></a> Address2_Latitude
 
-**Description**: Latitude for address 2.<br />
-**DisplayName**: Address 2: Latitude<br />
-**LogicalName**: address2_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Latitude for address 2.|
+|DisplayName|Address 2: Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address2_Line1"></a> Address2_Line1
 
-**Description**: First line for entering address 2 information.<br />
-**DisplayName**: Address 2: Street 1<br />
-**LogicalName**: address2_line1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|First line for entering address 2 information.|
+|DisplayName|Address 2: Street 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Line2"></a> Address2_Line2
 
-**Description**: Second line for entering address 2 information.<br />
-**DisplayName**: Address 2: Street 2<br />
-**LogicalName**: address2_line2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Second line for entering address 2 information.|
+|DisplayName|Address 2: Street 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Line3"></a> Address2_Line3
 
-**Description**: Third line for entering address 2 information.<br />
-**DisplayName**: Address 2: Street 3<br />
-**LogicalName**: address2_line3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Third line for entering address 2 information.|
+|DisplayName|Address 2: Street 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Longitude"></a> Address2_Longitude
 
-**Description**: Longitude for address 2.<br />
-**DisplayName**: Address 2: Longitude<br />
-**LogicalName**: address2_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Longitude for address 2.|
+|DisplayName|Address 2: Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address2_Name"></a> Address2_Name
 
-**Description**: Name to enter for address 2.<br />
-**DisplayName**: Address 2: Name<br />
-**LogicalName**: address2_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name to enter for address 2.|
+|DisplayName|Address 2: Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_name|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_PostalCode"></a> Address2_PostalCode
 
-**Description**: ZIP Code or postal code for address 2.<br />
-**DisplayName**: Address 2: ZIP/Postal Code<br />
-**LogicalName**: address2_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|ZIP Code or postal code for address 2.|
+|DisplayName|Address 2: ZIP/Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_PostOfficeBox"></a> Address2_PostOfficeBox
 
-**Description**: Post office box number for address 2.<br />
-**DisplayName**: Address 2: Post Office Box<br />
-**LogicalName**: address2_postofficebox<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Post office box number for address 2.|
+|DisplayName|Address 2: Post Office Box|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_postofficebox|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_ShippingMethodCode"></a> Address2_ShippingMethodCode
 
-**Description**: Method of shipment for address 2.<br />
-**DisplayName**: Address 2: Shipping Method<br />
-**LogicalName**: address2_shippingmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Method of shipment for address 2.|
+|DisplayName|Address 2: Shipping Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_shippingmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address2_ShippingMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address2_StateOrProvince"></a> Address2_StateOrProvince
 
-**Description**: State or province for address 2.<br />
-**DisplayName**: Address 2: State/Province<br />
-**LogicalName**: address2_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|State or province for address 2.|
+|DisplayName|Address 2: State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone1"></a> Address2_Telephone1
 
-**Description**: First telephone number associated with address 2.<br />
-**DisplayName**: Address 2: Telephone 1<br />
-**LogicalName**: address2_telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|First telephone number associated with address 2.|
+|DisplayName|Address 2: Telephone 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone2"></a> Address2_Telephone2
 
-**Description**: Second telephone number associated with address 2.<br />
-**DisplayName**: Address 2: Telephone 2<br />
-**LogicalName**: address2_telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Second telephone number associated with address 2.|
+|DisplayName|Address 2: Telephone 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone3"></a> Address2_Telephone3
 
-**Description**: Third telephone number associated with address 2.<br />
-**DisplayName**: Address 2: Telephone 3<br />
-**LogicalName**: address2_telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Third telephone number associated with address 2.|
+|DisplayName|Address 2: Telephone 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_UPSZone"></a> Address2_UPSZone
 
-**Description**: United Parcel Service (UPS) zone for address 2.<br />
-**DisplayName**: Address 2: UPS Zone<br />
-**LogicalName**: address2_upszone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4
+|Property|Value|
+|--------|-----|
+|Description|United Parcel Service (UPS) zone for address 2.|
+|DisplayName|Address 2: UPS Zone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_upszone|
+|MaxLength|4|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_UTCOffset"></a> Address2_UTCOffset
 
-**Description**: UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.<br />
-**DisplayName**: Address 2: UTC Offset<br />
-**LogicalName**: address2_utcoffset<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: TimeZone<br />
-**MaxValue**: 1500<br />
-**MinValue**: -1500
+|Property|Value|
+|--------|-----|
+|Description|UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.|
+|DisplayName|Address 2: UTC Offset|
+|Format|TimeZone|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_utcoffset|
+|MaxValue|1500|
+|MinValue|-1500|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_EMailAddress"></a> EMailAddress
 
-**Description**: Email address for the site.<br />
-**DisplayName**: Email<br />
-**LogicalName**: emailaddress<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Email<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Email address for the site.|
+|DisplayName|Email|
+|FormatName|Email|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|emailaddress|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Name of the site.<br />
-**DisplayName**: Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Name of the site.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|160|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SiteId"></a> SiteId
 
-**Description**: Unique identifier of the site.<br />
-**DisplayName**: Site<br />
-**LogicalName**: siteid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the site.|
+|DisplayName|Site|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|siteid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_TimeZoneCode"></a> TimeZoneCode
 
-**Description**: Local time zone for the site.<br />
-**DisplayName**: Time Zone<br />
-**LogicalName**: timezonecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Integer<br />
-**Format**: TimeZone<br />
-**MaxValue**: 1500<br />
-**MinValue**: -1500
+|Property|Value|
+|--------|-----|
+|Description|Local time zone for the site.|
+|DisplayName|Time Zone|
+|Format|TimeZone|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|timezonecode|
+|MaxValue|1500|
+|MinValue|-1500|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -821,227 +934,261 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the site.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the site.|
+|DisplayName|Created By|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the site was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the site was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who created the site.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the site.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who last modified the site.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who last modified the site.|
+|DisplayName|Modified By|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the site was last modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the site was last modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who last modified the site.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who last modified the site.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier for the organization<br />
-**DisplayName**: Organization Id<br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: organization
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the organization|
+|DisplayName|Organization Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Targets|organization|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: organizationidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1080,677 +1227,365 @@ Listed by **SchemaName**.
 ### <a name="BKMK_site_ActivityPointers"></a> site_ActivityPointers
 
 Same as activitypointer entity [site_ActivityPointers](activitypointer.md#BKMK_site_ActivityPointers) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_ActivityPointers<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_ActivityPointers|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Site_SyncErrors"></a> Site_SyncErrors
 
 Same as syncerror entity [Site_SyncErrors](syncerror.md#BKMK_Site_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Site_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Site_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Site_AsyncOperations"></a> Site_AsyncOperations
 
 Same as asyncoperation entity [Site_AsyncOperations](asyncoperation.md#BKMK_Site_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Site_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Site_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_MailboxTrackingFolders"></a> site_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [site_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_site_MailboxTrackingFolders) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_MailboxTrackingFolders<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_MailboxTrackingFolders|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_userentityinstancedata_site"></a> userentityinstancedata_site
 
 Same as userentityinstancedata entity [userentityinstancedata_site](userentityinstancedata.md#BKMK_userentityinstancedata_site) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_site<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_site|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Site_ProcessSessions"></a> Site_ProcessSessions
 
 Same as processsession entity [Site_ProcessSessions](processsession.md#BKMK_Site_ProcessSessions) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Site_ProcessSessions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 110
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Site_ProcessSessions|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 110|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Site_BulkDeleteFailures"></a> Site_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Site_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Site_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Site_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Site_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_PrincipalObjectAttributeAccesses"></a> site_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [site_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_site_PrincipalObjectAttributeAccesses) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_PrincipalObjectAttributeAccesses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_PrincipalObjectAttributeAccesses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_Appointments"></a> site_Appointments
 
 Same as appointment entity [site_Appointments](appointment.md#BKMK_site_Appointments) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_Appointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_Appointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_Emails"></a> site_Emails
 
 Same as email entity [site_Emails](email.md#BKMK_site_Emails) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_Emails<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_Emails|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_Faxes"></a> site_Faxes
 
 Same as fax entity [site_Faxes](fax.md#BKMK_site_Faxes) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_Faxes<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_Faxes|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_Letters"></a> site_Letters
 
 Same as letter entity [site_Letters](letter.md#BKMK_site_Letters) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_Letters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_Letters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_PhoneCalls"></a> site_PhoneCalls
 
 Same as phonecall entity [site_PhoneCalls](phonecall.md#BKMK_site_PhoneCalls) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_PhoneCalls<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_PhoneCalls|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_Tasks"></a> site_Tasks
 
 Same as task entity [site_Tasks](task.md#BKMK_site_Tasks) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_Tasks<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_Tasks|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_RecurringAppointmentMasters"></a> site_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [site_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_site_RecurringAppointmentMasters) Many-To-One relationship.
-
-**ReferencingEntity**: recurringappointmentmaster<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_RecurringAppointmentMasters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|recurringappointmentmaster|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_RecurringAppointmentMasters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_SocialActivities"></a> site_SocialActivities
 
 Same as socialactivity entity [site_SocialActivities](socialactivity.md#BKMK_site_SocialActivities) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_SocialActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_SocialActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_ServiceAppointments"></a> site_ServiceAppointments
 
 Same as serviceappointment entity [site_ServiceAppointments](serviceappointment.md#BKMK_site_ServiceAppointments) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_ServiceAppointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_ServiceAppointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_equipment"></a> site_equipment
 
 Same as equipment entity [site_equipment](equipment.md#BKMK_site_equipment) Many-To-One relationship.
-
-**ReferencingEntity**: equipment<br />
-**ReferencingAttribute**: siteid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: site_equipment<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|equipment|
+|ReferencingAttribute|siteid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|site_equipment|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_resources"></a> site_resources
 
 Same as resource entity [site_resources](resource.md#BKMK_site_resources) Many-To-One relationship.
-
-**ReferencingEntity**: resource<br />
-**ReferencingAttribute**: siteid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: site_resources<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|resource|
+|ReferencingAttribute|siteid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|site_resources|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_system_users"></a> site_system_users
 
 Same as systemuser entity [site_system_users](systemuser.md#BKMK_site_system_users) Many-To-One relationship.
-
-**ReferencingEntity**: systemuser<br />
-**ReferencingAttribute**: siteid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: site_system_users<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|systemuser|
+|ReferencingAttribute|siteid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|site_system_users|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_service_appointments"></a> site_service_appointments
 
 Same as serviceappointment entity [site_service_appointments](serviceappointment.md#BKMK_site_service_appointments) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: siteid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: site_service_appointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|siteid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|site_service_appointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_OpportunityCloses"></a> site_OpportunityCloses
 
 Same as opportunityclose entity [site_OpportunityCloses](opportunityclose.md#BKMK_site_OpportunityCloses) Many-To-One relationship.
-
-**ReferencingEntity**: opportunityclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_OpportunityCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_OpportunityCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_OrderCloses"></a> site_OrderCloses
 
 Same as orderclose entity [site_OrderCloses](orderclose.md#BKMK_site_OrderCloses) Many-To-One relationship.
-
-**ReferencingEntity**: orderclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_OrderCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|orderclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_OrderCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_QuoteCloses"></a> site_QuoteCloses
 
 Same as quoteclose entity [site_QuoteCloses](quoteclose.md#BKMK_site_QuoteCloses) Many-To-One relationship.
-
-**ReferencingEntity**: quoteclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_QuoteCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quoteclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_QuoteCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_msdyn_bookingalerts"></a> site_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [site_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_site_msdyn_bookingalerts) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_msdyn_bookingalerts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_msdyn_bookingalerts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_site_msdyn_approvals"></a> site_msdyn_approvals
 
 Same as msdyn_approval entity [site_msdyn_approvals](msdyn_approval.md#BKMK_site_msdyn_approvals) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: site_msdyn_approvals<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|site_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1785,7 +1620,7 @@ See systemuser Entity [lk_site_modifiedonbehalfby](systemuser.md#BKMK_lk_site_mo
 
 See organization Entity [organization_sites](organization.md#BKMK_organization_sites) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

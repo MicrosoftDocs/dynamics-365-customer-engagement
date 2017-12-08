@@ -1,7 +1,7 @@
 ---
 title: "BulkOperation Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the BulkOperation entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # BulkOperation Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 System operation used to perform lengthy and asynchronous operations on large data sets, such as distributing a campaign activity or quick campaign.
 
@@ -34,17 +32,20 @@ System operation used to perform lengthy and asynchronous operations on large da
 
 ## Entity Properties
 
-**DisplayName**: Quick Campaign<br />
-**DisplayCollectionName**: Quick Campaigns<br />
-**SchemaName**: BulkOperation<br />
-**CollectionSchemaName**: BulkOperations<br />
-**LogicalName**: bulkoperation<br />
-**LogicalCollectionName**: bulkoperations<br />
-**EntitySetName**: bulkoperations<br />
-**PrimaryIdAttribute**: activityid<br />
-**PrimaryNameAttribute**: subject<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|BulkOperations|
+|DisplayCollectionName|Quick Campaigns|
+|DisplayName|Quick Campaign|
+|EntitySetName|bulkoperations|
+|IsBPFEntity|False|
+|LogicalCollectionName|bulkoperations|
+|LogicalName|bulkoperation|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|activityid|
+|PrimaryNameAttribute|subject|
+|SchemaName|BulkOperation|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -102,665 +103,788 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ActivityAdditionalParams"></a> ActivityAdditionalParams
 
-**Description**: Additional information provided by the external application as JSON. For internal use only.<br />
-**DisplayName**: Activity Additional Parameters<br />
-**LogicalName**: activityadditionalparams<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 8192
+|Property|Value|
+|--------|-----|
+|Description|Additional information provided by the external application as JSON. For internal use only.|
+|DisplayName|Activity Additional Parameters|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|activityadditionalparams|
+|MaxLength|8192|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_ActivityId"></a> ActivityId
 
-**Description**: Unique identifier of the bulk operation.<br />
-**DisplayName**: Activity<br />
-**LogicalName**: activityid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the bulk operation.|
+|DisplayName|Activity|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|activityid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ActualEnd"></a> ActualEnd
 
-**Description**: Shows the date and time when the quick campaign was completed or canceled.<br />
-**DisplayName**: Actual End<br />
-**LogicalName**: actualend<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the quick campaign was completed or canceled.|
+|DisplayName|Actual End|
+|Format|DateAndTime|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|actualend|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_BCC"></a> BCC
 
-**Description**: Blind Carbon-copy (bcc) recipients of the activity.<br />
-**DisplayName**: BCC<br />
-**LogicalName**: bcc<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact,systemuser
+|Property|Value|
+|--------|-----|
+|Description|Blind Carbon-copy (bcc) recipients of the activity.|
+|DisplayName|BCC|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|bcc|
+|RequiredLevel|None|
+|Targets|account,contact,systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_CC"></a> CC
 
-**Description**: Carbon-copy (cc) recipients of the activity.<br />
-**DisplayName**: CC<br />
-**LogicalName**: cc<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact,systemuser
+|Property|Value|
+|--------|-----|
+|Description|Carbon-copy (cc) recipients of the activity.|
+|DisplayName|CC|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|cc|
+|RequiredLevel|None|
+|Targets|account,contact,systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_Community"></a> Community
 
-**Description**: Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.<br />
-**DisplayName**: Social Channel<br />
-**LogicalName**: community<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows how contact about the social activity originated, such as from Twitter or Facebook. This field is read-only.|
+|DisplayName|Social Channel|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|community|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Other
-- **Value**: 1 **Label**: Facebook
-- **Value**: 2 **Label**: Twitter
+#### Community Options
+
+|Value|Label|
+|-----|-----|
+|0|Other|
+|1|Facebook|
+|2|Twitter|
 
 
 
 ### <a name="BKMK_CreatedRecordTypeCode"></a> CreatedRecordTypeCode
 
-**Description**: Choose the activity to create that determines how target prospects or customers in this quick campaign are contacted.<br />
-**DisplayName**: Activity Type<br />
-**LogicalName**: createdrecordtypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Choose the activity to create that determines how target prospects or customers in this quick campaign are contacted.|
+|DisplayName|Activity Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|createdrecordtypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Phone Call
-- **Value**: 2 **Label**: Fax
-- **Value**: 3 **Label**: Letter
-- **Value**: 4 **Label**: Email
-- **Value**: 5 **Label**: Appointment
-- **Value**: 6 **Label**: Send Direct Email
+#### CreatedRecordTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Phone Call|
+|2|Fax|
+|3|Letter|
+|4|Email|
+|5|Appointment|
+|6|Send Direct Email|
 
 
 
 ### <a name="BKMK_Customers"></a> Customers
 
-**Description**: Customer with which the activity is associated.<br />
-**DisplayName**: Customers<br />
-**LogicalName**: customers<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact
+|Property|Value|
+|--------|-----|
+|Description|Customer with which the activity is associated.|
+|DisplayName|Customers|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|customers|
+|RequiredLevel|None|
+|Targets|account,contact|
+|Type|PartyList|
 
 
 ### <a name="BKMK_DeliveryPriorityCode"></a> DeliveryPriorityCode
 
-**Description**: Priority of delivery of the activity to the email server.<br />
-**DisplayName**: Delivery Priority<br />
-**LogicalName**: deliveryprioritycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Priority of delivery of the activity to the email server.|
+|DisplayName|Delivery Priority|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|deliveryprioritycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Low
-- **Value**: 1 **Label**: Normal
-- **Value**: 2 **Label**: High
+#### DeliveryPriorityCode Options
+
+|Value|Label|
+|-----|-----|
+|0|Low|
+|1|Normal|
+|2|High|
 
 
 
 ### <a name="BKMK_ErrorNumber"></a> ErrorNumber
 
-**Description**: Shows the error code that is used to troubleshoot issues in the quick campaign.<br />
-**DisplayName**: Error Number<br />
-**LogicalName**: errornumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows the error code that is used to troubleshoot issues in the quick campaign.|
+|DisplayName|Error Number|
+|Format|None|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|errornumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ExchangeItemId"></a> ExchangeItemId
 
-**Description**: The message id of activity which is returned from Exchange Server.<br />
-**DisplayName**: Exchange Item ID<br />
-**LogicalName**: exchangeitemid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|The message id of activity which is returned from Exchange Server.|
+|DisplayName|Exchange Item ID|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|exchangeitemid|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ExchangeWebLink"></a> ExchangeWebLink
 
-**Description**: Shows the web link of Activity of type email.<br />
-**DisplayName**: Exchange WebLink<br />
-**LogicalName**: exchangeweblink<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1250
+|Property|Value|
+|--------|-----|
+|Description|Shows the web link of Activity of type email.|
+|DisplayName|Exchange WebLink|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|exchangeweblink|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_FailureCount"></a> FailureCount
 
-**Description**: Number of records which failed in the bulk operation.<br />
-**DisplayName**: No. of Failures<br />
-**LogicalName**: failurecount<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Number of records which failed in the bulk operation.|
+|DisplayName|No. of Failures|
+|Format|None|
+|IsValidForCreate|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|failurecount|
+|MaxValue|1000000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_from"></a> from
 
-**Description**: Person who the activity is from.<br />
-**DisplayName**: From<br />
-**LogicalName**: from<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact,systemuser
+|Property|Value|
+|--------|-----|
+|Description|Person who the activity is from.|
+|DisplayName|From|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|from|
+|RequiredLevel|None|
+|Targets|account,contact,systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IsMapiPrivate"></a> IsMapiPrivate
 
-**Description**: For internal use only.<br />
-**DisplayName**: Is Private<br />
-**LogicalName**: ismapiprivate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Is Private|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismapiprivate|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsMapiPrivate Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_LastOnHoldTime"></a> LastOnHoldTime
 
-**Description**: Contains the date and time stamp of the last on hold time.<br />
-**DisplayName**: Last On Hold Time<br />
-**LogicalName**: lastonholdtime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Contains the date and time stamp of the last on hold time.|
+|DisplayName|Last On Hold Time|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastonholdtime|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_LeftVoiceMail"></a> LeftVoiceMail
 
-**Description**: Left the voice mail<br />
-**DisplayName**: Left Voice Mail<br />
-**LogicalName**: leftvoicemail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Left the voice mail|
+|DisplayName|Left Voice Mail|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|leftvoicemail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### LeftVoiceMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_OperationTypeCode"></a> OperationTypeCode
 
-**Description**: Select the type of bulk operation process, such as quick campaign or campaign activity distribution.<br />
-**DisplayName**: Operation<br />
-**LogicalName**: operationtypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the type of bulk operation process, such as quick campaign or campaign activity distribution.|
+|DisplayName|Operation|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|operationtypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Create Opportunities
-- **Value**: 2 **Label**: Create Activities
-- **Value**: 3 **Label**: Send Direct Mail
-- **Value**: 4 **Label**: Distribute
-- **Value**: 5 **Label**: Execute
-- **Value**: 7 **Label**: Quick Campaign
+#### OperationTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Create Opportunities|
+|2|Create Activities|
+|3|Send Direct Mail|
+|4|Distribute|
+|5|Execute|
+|7|Quick Campaign|
 
 
 
 ### <a name="BKMK_OptionalAttendees"></a> OptionalAttendees
 
-**Description**: List of optional attendees for the activity.<br />
-**DisplayName**: Optional Attendees<br />
-**LogicalName**: optionalattendees<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact,systemuser
+|Property|Value|
+|--------|-----|
+|Description|List of optional attendees for the activity.|
+|DisplayName|Optional Attendees|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|optionalattendees|
+|RequiredLevel|None|
+|Targets|account,contact,systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_Organizer"></a> Organizer
 
-**Description**: Person who organized the activity.<br />
-**DisplayName**: Organizer<br />
-**LogicalName**: organizer<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Person who organized the activity.|
+|DisplayName|Organizer|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|organizer|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Unique identifier of the user or team who owns the activity.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user or team who owns the activity.|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_Parameters"></a> Parameters
 
-**Description**: XML string that contains the parameters to the bulk operation.<br />
-**DisplayName**: Parameters<br />
-**LogicalName**: parameters<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100000
+|Property|Value|
+|--------|-----|
+|Description|XML string that contains the parameters to the bulk operation.|
+|DisplayName|Parameters|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|parameters|
+|MaxLength|100000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Partners"></a> Partners
 
-**Description**: Outsource vendor with which activity is associated.<br />
-**DisplayName**: Outsource Vendors<br />
-**LogicalName**: partners<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact
+|Property|Value|
+|--------|-----|
+|Description|Outsource vendor with which activity is associated.|
+|DisplayName|Outsource Vendors|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|partners|
+|RequiredLevel|None|
+|Targets|account,contact|
+|Type|PartyList|
 
 
 ### <a name="BKMK_PriorityCode"></a> PriorityCode
 
-**Description**: Priority of the activity.<br />
-**DisplayName**: Priority<br />
-**LogicalName**: prioritycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Priority of the activity.|
+|DisplayName|Priority|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|prioritycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Low
-- **Value**: 1 **Label**: Normal
-- **Value**: 2 **Label**: High
+#### PriorityCode Options
+
+|Value|Label|
+|-----|-----|
+|0|Low|
+|1|Normal|
+|2|High|
 
 
 
 ### <a name="BKMK_ProcessId"></a> ProcessId
 
-**Description**: Unique identifier of the Process.<br />
-**DisplayName**: Process<br />
-**LogicalName**: processid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Process.|
+|DisplayName|Process|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|processid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-**Description**: Choose the campaign from which the campaign activities were bulk-distributed.<br />
-**DisplayName**: Import File Name<br />
-**LogicalName**: regardingobjectid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Lookup<br />
-**Targets**: campaignactivity,list
+|Property|Value|
+|--------|-----|
+|Description|Choose the campaign from which the campaign activities were bulk-distributed.|
+|DisplayName|Import File Name|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|regardingobjectid|
+|RequiredLevel|None|
+|Targets|campaignactivity,list|
+|Type|Lookup|
 
 
 ### <a name="BKMK_RegardingObjectTypeCode"></a> RegardingObjectTypeCode
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: regardingobjecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|regardingobjecttypecode|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_RequiredAttendees"></a> RequiredAttendees
 
-**Description**: List of required attendees for the activity.<br />
-**DisplayName**: Required Attendees<br />
-**LogicalName**: requiredattendees<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact,systemuser
+|Property|Value|
+|--------|-----|
+|Description|List of required attendees for the activity.|
+|DisplayName|Required Attendees|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|requiredattendees|
+|RequiredLevel|None|
+|Targets|account,contact,systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_Resources"></a> Resources
 
-**Description**: Users or facility/equipment that are required for the activity.<br />
-**DisplayName**: Resources<br />
-**LogicalName**: resources<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Users or facility/equipment that are required for the activity.|
+|DisplayName|Resources|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|resources|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_ServiceId"></a> ServiceId
 
-**Description**: Unique identifier for an associated service.<br />
-**DisplayName**: Service<br />
-**LogicalName**: serviceid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: 
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for an associated service.|
+|DisplayName|Service|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|serviceid|
+|RequiredLevel|None|
+|Targets||
+|Type|Lookup|
 
 
 ### <a name="BKMK_SLAId"></a> SLAId
 
-**Description**: Choose the service level agreement (SLA) that you want to apply to the case record.<br />
-**DisplayName**: SLA<br />
-**LogicalName**: slaid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: sla
+|Property|Value|
+|--------|-----|
+|Description|Choose the service level agreement (SLA) that you want to apply to the case record.|
+|DisplayName|SLA|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|slaid|
+|RequiredLevel|None|
+|Targets|sla|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SortDate"></a> SortDate
 
-**Description**: Shows the date and time by which the activities are sorted.<br />
-**DisplayName**: Sort Date<br />
-**LogicalName**: sortdate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time by which the activities are sorted.|
+|DisplayName|Sort Date|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|sortdate|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_StageId"></a> StageId
 
-**Description**: Unique identifier of the Stage.<br />
-**DisplayName**: Process Stage<br />
-**LogicalName**: stageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Stage.|
+|DisplayName|Process Stage|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|stageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-**Description**: Select the quick campaign's status.<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the quick campaign's status.|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Pending **State**: 0
-- **Value**: 2 **Label**: In Progress **State**: 0
-- **Value**: 3 **Label**: Aborted **State**: 1
-- **Value**: 4 **Label**: Completed **State**: 1
-- **Value**: 5 **Label**: Canceled **State**: 2
+#### StatusCode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Pending|0|
+|2|In Progress|0|
+|3|Aborted|1|
+|4|Completed|1|
+|5|Canceled|2|
 
 
 
 ### <a name="BKMK_Subject"></a> Subject
 
-**Description**: Type a short description about the objective or primary topic of the quick campaign.<br />
-**DisplayName**: Subject<br />
-**LogicalName**: subject<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Type a short description about the objective or primary topic of the quick campaign.|
+|DisplayName|Subject|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|subject|
+|MaxLength|200|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_SuccessCount"></a> SuccessCount
 
-**Description**: Number of records which succeeded in the bulk operation.<br />
-**DisplayName**: No. of Successes<br />
-**LogicalName**: successcount<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Number of records which succeeded in the bulk operation.|
+|DisplayName|No. of Successes|
+|Format|None|
+|IsValidForCreate|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|successcount|
+|MaxValue|1000000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TargetedRecordTypeCode"></a> TargetedRecordTypeCode
 
-**Description**: Select the type of records targeted in the quick campaign to identify the target audience.<br />
-**DisplayName**: Members Type<br />
-**LogicalName**: targetedrecordtypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the type of records targeted in the quick campaign to identify the target audience.|
+|DisplayName|Members Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|targetedrecordtypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Account
-- **Value**: 2 **Label**: Contact
-- **Value**: 4 **Label**: Lead
+#### TargetedRecordTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Account|
+|2|Contact|
+|4|Lead|
 
 
 
 ### <a name="BKMK_TargetMembersCount"></a> TargetMembersCount
 
-**Description**: Number of members to target.<br />
-**DisplayName**: Total Members<br />
-**LogicalName**: targetmemberscount<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Number of members to target.|
+|DisplayName|Total Members|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|targetmemberscount|
+|MaxValue|1000000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_To"></a> To
 
-**Description**: Person who is the receiver of the activity.<br />
-**DisplayName**: To<br />
-**LogicalName**: to<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: PartyList<br />
-**Targets**: account,contact,systemuser
+|Property|Value|
+|--------|-----|
+|Description|Person who is the receiver of the activity.|
+|DisplayName|To|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|to|
+|RequiredLevel|None|
+|Targets|account,contact,systemuser|
+|Type|PartyList|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Unique identifier of the currency associated with the activitypointer.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the currency associated with the activitypointer.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TraversedPath"></a> TraversedPath
 
-**Description**: For internal use only.<br />
-**DisplayName**: Traversed Path<br />
-**LogicalName**: traversedpath<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1250
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Traversed Path|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|traversedpath|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_WorkflowInfo"></a> WorkflowInfo
 
-**Description**: Information for bulk operation workflow.<br />
-**DisplayName**: Workflow information<br />
-**LogicalName**: workflowinfo<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100000
+|Property|Value|
+|--------|-----|
+|Description|Information for bulk operation workflow.|
+|DisplayName|Workflow information|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForCreate|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|workflowinfo|
+|MaxLength|100000|
+|RequiredLevel|None|
+|Type|String|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -817,644 +941,756 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ActivityTypeCode"></a> ActivityTypeCode
 
-**Description**: Type of activity.<br />
-**DisplayName**: Activity Type<br />
-**LogicalName**: activitytypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Type of activity.|
+|DisplayName|Activity Type|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|activitytypecode|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_ActualDurationMinutes"></a> ActualDurationMinutes
 
-**Description**: Actual duration of the bulk operation in minutes.<br />
-**DisplayName**: Actual Duration<br />
-**LogicalName**: actualdurationminutes<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Actual duration of the bulk operation in minutes.|
+|DisplayName|Actual Duration|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|actualdurationminutes|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ActualStart"></a> ActualStart
 
-**Description**: Shows the date and time when the activity was started or created.<br />
-**DisplayName**: Actual Start<br />
-**LogicalName**: actualstart<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the activity was started or created.|
+|DisplayName|Actual Start|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|actualstart|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_BulkOperationNumber"></a> BulkOperationNumber
 
-**Description**: Shows the number for the quick campaign record, used to identify the quick campaign.<br />
-**DisplayName**: Bulk Operation Number<br />
-**LogicalName**: bulkoperationnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 32
+|Property|Value|
+|--------|-----|
+|Description|Shows the number for the quick campaign record, used to identify the quick campaign.|
+|DisplayName|Bulk Operation Number|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|bulkoperationnumber|
+|MaxLength|32|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Shows who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: Name of the user who created the bulk operation.<br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the user who created the bulk operation.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who created the bulk operation.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the bulk operation.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_DeliveryLastAttemptedOn"></a> DeliveryLastAttemptedOn
 
-**Description**: Date and time when the delivery of the activity was last attempted.<br />
-**DisplayName**: Date Delivery Last Attempted<br />
-**LogicalName**: deliverylastattemptedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the delivery of the activity was last attempted.|
+|DisplayName|Date Delivery Last Attempted|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|deliverylastattemptedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Type additional information to describe the quick campaign, such as the products or services offered.<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Type additional information to describe the quick campaign, such as the products or services offered.|
+|DisplayName|Description|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Exchange rate for the currency associated with the activitypointer with respect to the base currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_InstanceTypeCode"></a> InstanceTypeCode
 
-**Description**: Type of instance of a recurring series.<br />
-**DisplayName**: Recurring Instance Type<br />
-**LogicalName**: instancetypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Type of instance of a recurring series.|
+|DisplayName|Recurring Instance Type|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|instancetypecode|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Not Recurring
-- **Value**: 1 **Label**: Recurring Master
-- **Value**: 2 **Label**: Recurring Instance
-- **Value**: 3 **Label**: Recurring Exception
-- **Value**: 4 **Label**: Recurring Future Exception
+#### InstanceTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|0|Not Recurring|
+|1|Recurring Master|
+|2|Recurring Instance|
+|3|Recurring Exception|
+|4|Recurring Future Exception|
 
 
 
 ### <a name="BKMK_IsBilled"></a> IsBilled
 
-**Description**: For internal use only.<br />
-**DisplayName**: Is Billed<br />
-**LogicalName**: isbilled<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Is Billed|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isbilled|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsBilled Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_IsRegularActivity"></a> IsRegularActivity
 
-**Description**: Information regarding whether the activity is a regular activity type or event type.<br />
-**DisplayName**: Is Regular Activity<br />
-**LogicalName**: isregularactivity<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Information regarding whether the activity is a regular activity type or event type.|
+|DisplayName|Is Regular Activity|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isregularactivity|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsRegularActivity Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_IsWorkflowCreated"></a> IsWorkflowCreated
 
-**Description**: Specifies if the bulk operation was created from a workflow rule.<br />
-**DisplayName**: Is Workflow Created<br />
-**LogicalName**: isworkflowcreated<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Specifies if the bulk operation was created from a workflow rule.|
+|DisplayName|Is Workflow Created|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isworkflowcreated|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsWorkflowCreated Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Shows who last updated the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: Name of the user who modified the bulk operation.<br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the user who modified the bulk operation.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the bulk operation was last modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the bulk operation was last modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who last modified the bulk operation.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who last modified the bulk operation.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
 
-**Description**: Shows how long, in minutes, that the record was on hold.<br />
-**DisplayName**: On Hold Time (Minutes)<br />
-**LogicalName**: onholdtime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows how long, in minutes, that the record was on hold.|
+|DisplayName|On Hold Time (Minutes)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|onholdtime|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier of the business unit that owns the activity.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the business unit that owns the activity.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier of the team that owns the activity.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the team that owns the activity.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user that owns the activity.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user that owns the activity.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_PostponeActivityProcessingUntil"></a> PostponeActivityProcessingUntil
 
-**Description**: For internal use only.<br />
-**DisplayName**: Delay activity processing until<br />
-**LogicalName**: postponeactivityprocessinguntil<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Delay activity processing until|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|postponeactivityprocessinguntil|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_RegardingObjectIdName"></a> RegardingObjectIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: regardingobjectidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|regardingobjectidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_RegardingObjectIdYomiName"></a> RegardingObjectIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: regardingobjectidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|regardingobjectidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ScheduledDurationMinutes"></a> ScheduledDurationMinutes
 
-**Description**: Scheduled duration of the bulk operation, specified in minutes.<br />
-**DisplayName**: Scheduled Duration<br />
-**LogicalName**: scheduleddurationminutes<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Scheduled duration of the bulk operation, specified in minutes.|
+|DisplayName|Scheduled Duration|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|scheduleddurationminutes|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ScheduledEnd"></a> ScheduledEnd
 
-**Description**: Scheduled end date and time of the bulk operation.<br />
-**DisplayName**: Due Date<br />
-**LogicalName**: scheduledend<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Scheduled end date and time of the bulk operation.|
+|DisplayName|Due Date|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|scheduledend|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ScheduledStart"></a> ScheduledStart
 
-**Description**: Scheduled start date and time of the bulk operation.<br />
-**DisplayName**: Start Date<br />
-**LogicalName**: scheduledstart<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Scheduled start date and time of the bulk operation.|
+|DisplayName|Start Date|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|scheduledstart|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SenderMailboxId"></a> SenderMailboxId
 
-**Description**: Unique identifier of the mailbox associated with the sender of the email message.<br />
-**DisplayName**: Sender's Mailbox<br />
-**LogicalName**: sendermailboxid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: mailbox
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the mailbox associated with the sender of the email message.|
+|DisplayName|Sender's Mailbox|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|sendermailboxid|
+|RequiredLevel|None|
+|Targets|mailbox|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SenderMailboxIdName"></a> SenderMailboxIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: sendermailboxidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|sendermailboxidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SentOn"></a> SentOn
 
-**Description**: Date and time when the activity was sent.<br />
-**DisplayName**: Date Sent<br />
-**LogicalName**: senton<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the activity was sent.|
+|DisplayName|Date Sent|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|senton|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SeriesId"></a> SeriesId
 
-**Description**: Uniqueidentifier specifying the id of recurring series of an instance.<br />
-**DisplayName**: Series Id<br />
-**LogicalName**: seriesid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Uniqueidentifier specifying the id of recurring series of an instance.|
+|DisplayName|Series Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|seriesid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SLAInvokedId"></a> SLAInvokedId
 
-**Description**: Last SLA that was applied to this case. This field is for internal use only.<br />
-**DisplayName**: Last SLA applied<br />
-**LogicalName**: slainvokedid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: sla
+|Property|Value|
+|--------|-----|
+|Description|Last SLA that was applied to this case. This field is for internal use only.|
+|DisplayName|Last SLA applied|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slainvokedid|
+|RequiredLevel|None|
+|Targets|sla|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SLAInvokedIdName"></a> SLAInvokedIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: slainvokedidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slainvokedidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SLAName"></a> SLAName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: slaname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slaname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_StateCode"></a> StateCode
 
-**Description**: Shows whether the quick campaign is open, closed, or canceled.  Closed or canceled quick campaigns are read-only and can't be edited.<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the quick campaign is open, closed, or canceled.  Closed or canceled quick campaigns are read-only and can't be edited.|
+|DisplayName|Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Open **DefaultStatus**: 1 **InvariantName**: Open
-- **Value**: 1 **Label**: Closed **DefaultStatus**: 4 **InvariantName**: Closed
-- **Value**: 2 **Label**: Canceled **DefaultStatus**: 5 **InvariantName**: Canceled
+#### StateCode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Open|1|Open|
+|1|Closed|4|Closed|
+|2|Canceled|5|Canceled|
 
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version number of the activity.<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version number of the activity.|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1496,755 +1732,407 @@ Listed by **SchemaName**.
 ### <a name="BKMK_BulkOperation_ActivityPointers"></a> BulkOperation_ActivityPointers
 
 Same as activitypointer entity [BulkOperation_ActivityPointers](activitypointer.md#BKMK_BulkOperation_ActivityPointers) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_ActivityPointers<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|BulkOperation_ActivityPointers|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_BulkOperation_SyncErrors"></a> BulkOperation_SyncErrors
 
 Same as syncerror entity [BulkOperation_SyncErrors](syncerror.md#BKMK_BulkOperation_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_activity_parties"></a> bulkoperation_activity_parties
 
 Same as activityparty entity [bulkoperation_activity_parties](activityparty.md#BKMK_bulkoperation_activity_parties) Many-To-One relationship.
-
-**ReferencingEntity**: activityparty<br />
-**ReferencingAttribute**: partyid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_activity_parties<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activityparty|
+|ReferencingAttribute|partyid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|bulkoperation_activity_parties|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_BulkOperation_AsyncOperations"></a> BulkOperation_AsyncOperations
 
 Same as asyncoperation entity [BulkOperation_AsyncOperations](asyncoperation.md#BKMK_BulkOperation_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|BulkOperation_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_BulkOperation_MailboxTrackingFolder"></a> BulkOperation_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [BulkOperation_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_BulkOperation_MailboxTrackingFolder) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_MailboxTrackingFolder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_MailboxTrackingFolder|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_userentityinstancedata_bulkoperation"></a> userentityinstancedata_bulkoperation
 
 Same as userentityinstancedata entity [userentityinstancedata_bulkoperation](userentityinstancedata.md#BKMK_userentityinstancedata_bulkoperation) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_bulkoperation<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_bulkoperation|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_BulkOperation_BulkDeleteFailures"></a> BulkOperation_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [BulkOperation_BulkDeleteFailures](bulkdeletefailure.md#BKMK_BulkOperation_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|BulkOperation_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bulkoperation_PrincipalObjectAttributeAccesses"></a> bulkoperation_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [bulkoperation_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_bulkoperation_PrincipalObjectAttributeAccesses) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_PrincipalObjectAttributeAccesses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_PrincipalObjectAttributeAccesses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_BulkOperation_Appointment"></a> BulkOperation_Appointment
 
 Same as appointment entity [BulkOperation_Appointment](appointment.md#BKMK_BulkOperation_Appointment) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_Appointment<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_Appointment|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_Email"></a> BulkOperation_Email
 
 Same as email entity [BulkOperation_Email](email.md#BKMK_BulkOperation_Email) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_Email<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_Email|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_Faxes"></a> BulkOperation_Faxes
 
 Same as fax entity [BulkOperation_Faxes](fax.md#BKMK_BulkOperation_Faxes) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_Faxes<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_Faxes|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_Letter"></a> BulkOperation_Letter
 
 Same as letter entity [BulkOperation_Letter](letter.md#BKMK_BulkOperation_Letter) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_Letter<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_Letter|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_Phonecall"></a> BulkOperation_Phonecall
 
 Same as phonecall entity [BulkOperation_Phonecall](phonecall.md#BKMK_BulkOperation_Phonecall) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_Phonecall<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_Phonecall|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_Tasks"></a> bulkoperation_Tasks
 
 Same as task entity [bulkoperation_Tasks](task.md#BKMK_bulkoperation_Tasks) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_Tasks<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_Tasks|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_RecurringAppointmentMaster"></a> BulkOperation_RecurringAppointmentMaster
 
 Same as recurringappointmentmaster entity [BulkOperation_RecurringAppointmentMaster](recurringappointmentmaster.md#BKMK_BulkOperation_RecurringAppointmentMaster) Many-To-One relationship.
-
-**ReferencingEntity**: recurringappointmentmaster<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_RecurringAppointmentMaster<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|recurringappointmentmaster|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|BulkOperation_RecurringAppointmentMaster|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_SocialActivity"></a> BulkOperation_SocialActivity
 
 Same as socialactivity entity [BulkOperation_SocialActivity](socialactivity.md#BKMK_BulkOperation_SocialActivity) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_SocialActivity<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_SocialActivity|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_Annotations"></a> bulkoperation_Annotations
 
 Same as annotation entity [bulkoperation_Annotations](annotation.md#BKMK_bulkoperation_Annotations) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_Annotations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_Annotations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_CampaignActivities"></a> bulkoperation_CampaignActivities
 
 Same as campaignactivity entity [bulkoperation_CampaignActivities](campaignactivity.md#BKMK_bulkoperation_CampaignActivities) Many-To-One relationship.
-
-**ReferencingEntity**: campaignactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_CampaignActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_CampaignActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_CampaignResponses"></a> bulkoperation_CampaignResponses
 
 Same as campaignresponse entity [bulkoperation_CampaignResponses](campaignresponse.md#BKMK_bulkoperation_CampaignResponses) Many-To-One relationship.
-
-**ReferencingEntity**: campaignresponse<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_CampaignResponses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignresponse|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_CampaignResponses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_CampaignResponse"></a> BulkOperation_CampaignResponse
 
 Same as campaignresponse entity [BulkOperation_CampaignResponse](campaignresponse.md#BKMK_BulkOperation_CampaignResponse) Many-To-One relationship.
-
-**ReferencingEntity**: campaignresponse<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_CampaignResponse<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignresponse|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_CampaignResponse|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_BulkOperation_logs"></a> BulkOperation_logs
 
 Same as bulkoperationlog entity [BulkOperation_logs](bulkoperationlog.md#BKMK_BulkOperation_logs) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperationlog<br />
-**ReferencingAttribute**: bulkoperationid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_logs<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|bulkoperationid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|BulkOperation_logs|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_BulkOperation_QueueItem"></a> BulkOperation_QueueItem
 
 Same as queueitem entity [BulkOperation_QueueItem](queueitem.md#BKMK_BulkOperation_QueueItem) Many-To-One relationship.
-
-**ReferencingEntity**: queueitem<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: BulkOperation_QueueItem<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|queueitem|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|BulkOperation_QueueItem|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bulkoperation_IncidentResolutions"></a> bulkoperation_IncidentResolutions
 
 Same as incidentresolution entity [bulkoperation_IncidentResolutions](incidentresolution.md#BKMK_bulkoperation_IncidentResolutions) Many-To-One relationship.
-
-**ReferencingEntity**: incidentresolution<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_IncidentResolutions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incidentresolution|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_IncidentResolutions|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_ServiceAppointments"></a> bulkoperation_ServiceAppointments
 
 Same as serviceappointment entity [bulkoperation_ServiceAppointments](serviceappointment.md#BKMK_bulkoperation_ServiceAppointments) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_ServiceAppointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_ServiceAppointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_OpportunityCloses"></a> bulkoperation_OpportunityCloses
 
 Same as opportunityclose entity [bulkoperation_OpportunityCloses](opportunityclose.md#BKMK_bulkoperation_OpportunityCloses) Many-To-One relationship.
-
-**ReferencingEntity**: opportunityclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_OpportunityCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_OpportunityCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_OrderCloses"></a> bulkoperation_OrderCloses
 
 Same as orderclose entity [bulkoperation_OrderCloses](orderclose.md#BKMK_bulkoperation_OrderCloses) Many-To-One relationship.
-
-**ReferencingEntity**: orderclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_OrderCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|orderclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_OrderCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_QuoteCloses"></a> bulkoperation_QuoteCloses
 
 Same as quoteclose entity [bulkoperation_QuoteCloses](quoteclose.md#BKMK_bulkoperation_QuoteCloses) Many-To-One relationship.
-
-**ReferencingEntity**: quoteclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_QuoteCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quoteclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_QuoteCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_msdyn_bookingalerts"></a> bulkoperation_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [bulkoperation_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_bulkoperation_msdyn_bookingalerts) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_msdyn_bookingalerts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_msdyn_bookingalerts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_bulkoperation_msdyn_approvals"></a> bulkoperation_msdyn_approvals
 
 Same as msdyn_approval entity [bulkoperation_msdyn_approvals](msdyn_approval.md#BKMK_bulkoperation_msdyn_approvals) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_msdyn_approvals<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 <a name="manytoone"></a>
 
@@ -2364,7 +2252,7 @@ See campaignactivity Entity [CampaignActivity_BulkOperations](campaignactivity.m
 
 See list Entity [List_BulkOperations](list.md#BKMK_List_BulkOperations) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

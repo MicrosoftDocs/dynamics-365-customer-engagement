@@ -1,7 +1,7 @@
 ---
 title: "EmailSignature Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the EmailSignature entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # EmailSignature Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Signature for email message
 
@@ -32,17 +30,20 @@ Signature for email message
 
 ## Entity Properties
 
-**DisplayName**: Email Signature<br />
-**DisplayCollectionName**: Email Signatures<br />
-**SchemaName**: EmailSignature<br />
-**CollectionSchemaName**: EmailSignatures<br />
-**LogicalName**: emailsignature<br />
-**LogicalCollectionName**: emailsignatures<br />
-**EntitySetName**: emailsignatures<br />
-**PrimaryIdAttribute**: emailsignatureid<br />
-**PrimaryNameAttribute**: title<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|EmailSignatures|
+|DisplayCollectionName|Email Signatures|
+|DisplayName|Email Signature|
+|EntitySetName|emailsignatures|
+|IsBPFEntity|False|
+|LogicalCollectionName|emailsignatures|
+|LogicalName|emailsignature|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|emailsignatureid|
+|PrimaryNameAttribute|title|
+|SchemaName|EmailSignature|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -68,210 +69,248 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_Body"></a> Body
 
-**Description**: Body text of the email signature.<br />
-**DisplayName**: Body<br />
-**LogicalName**: body<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Body text of the email signature.|
+|DisplayName|Body|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|body|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Description of the email signature.<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Description of the email signature.|
+|DisplayName|Description|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_EmailSignatureId"></a> EmailSignatureId
 
-**Description**: Unique identifier of the email signature.<br />
-**DisplayName**: Email Signature<br />
-**LogicalName**: emailsignatureid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the email signature.|
+|DisplayName|Email Signature|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|emailsignatureid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_GenerationTypeCode"></a> GenerationTypeCode
 
-**Description**: For internal use only.<br />
-**DisplayName**: Generation Type Code<br />
-**LogicalName**: generationtypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Generation Type Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|generationtypecode|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Unique identifier of the data import or data migration that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the data import or data migration that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IsCustomizable"></a> IsCustomizable
 
-**Description**: Information that specifies whether this component can be customized.<br />
-**DisplayName**: Customizable<br />
-**LogicalName**: iscustomizable<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: ManagedProperty<br />
+|Property|Value|
+|--------|-----|
+|Description|Information that specifies whether this component can be customized.|
+|DisplayName|Customizable|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|iscustomizable|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
 
 
 ### <a name="BKMK_IsDefault"></a> IsDefault
 
-**Description**: Information that specifies whether the email signature is default to the user.<br />
-**DisplayName**: Is Default<br />
-**LogicalName**: isdefault<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Information that specifies whether the email signature is default to the user.|
+|DisplayName|Is Default|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isdefault|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsDefault Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_IsPersonal"></a> IsPersonal
 
-**Description**: Information about whether the email signature is personal or is available to all users.<br />
-**DisplayName**: Viewable By<br />
-**LogicalName**: ispersonal<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Information about whether the email signature is personal or is available to all users.|
+|DisplayName|Viewable By|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ispersonal|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Individual
-- **FalseOption Value**: 0 **Label**: Queue
+#### IsPersonal Options
+
+|Value|Label|
+|-----|-----|
+|1|Individual|
+|0|Queue|
 
 **DefaultValue**: True
 
 
+
 ### <a name="BKMK_LanguageCode"></a> LanguageCode
 
-**Description**: Language of the email signature.<br />
-**DisplayName**: Language<br />
-**LogicalName**: languagecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Integer<br />
-**Format**: Language<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Language of the email signature.|
+|DisplayName|Language|
+|Format|Language|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|languagecode|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_MimeType"></a> MimeType
 
-**Description**: MIME type of the email signature.<br />
-**DisplayName**: Mime Type<br />
-**LogicalName**: mimetype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 256
+|Property|Value|
+|--------|-----|
+|Description|MIME type of the email signature.|
+|DisplayName|Mime Type|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|mimetype|
+|MaxLength|256|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Unique identifier of the user or team who owns the email signature for the email activity.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user or team who owns the email signature for the email activity.|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_PresentationXml"></a> PresentationXml
 
-**Description**: XML data for the body of the email signature.<br />
-**DisplayName**: Presentation XML<br />
-**LogicalName**: presentationxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|XML data for the body of the email signature.|
+|DisplayName|Presentation XML|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|presentationxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Title"></a> Title
 
-**Description**: Title of the email signature.<br />
-**DisplayName**: Title<br />
-**LogicalName**: title<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Title of the email signature.|
+|DisplayName|Title|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|title|
+|MaxLength|200|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -307,353 +346,408 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
 
-**Description**: For internal use only.<br />
-**DisplayName**: Component State<br />
-**LogicalName**: componentstate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Published
-- **Value**: 1 **Label**: Unpublished
-- **Value**: 2 **Label**: Deleted
-- **Value**: 3 **Label**: Deleted Unpublished
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
 
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the email signature.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the email signature.|
+|DisplayName|Created By|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByDsc"></a> CreatedByDsc
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbydsc<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbydsc|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: Name of the user who created the email signature.<br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the user who created the email signature.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: YomiName of the user who created the email signature.<br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|YomiName of the user who created the email signature.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the email signature was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the email signature was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who created the email signature.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the email signature.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByDsc"></a> CreatedOnBehalfByDsc
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbydsc<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbydsc|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who last modified the email signature.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who last modified the email signature.|
+|DisplayName|Modified By|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByDsc"></a> ModifiedByDsc
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbydsc<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbydsc|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the email signature was last modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the email signature was last modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who last modified the email signature.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who last modified the email signature.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByDsc"></a> ModifiedOnBehalfByDsc
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbydsc<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbydsc|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
-**Description**: For internal use only.<br />
-**DisplayName**: Record Overwrite Time<br />
-**LogicalName**: overwritetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Record Overwrite Time|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerIdDsc"></a> OwnerIdDsc
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneriddsc<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneriddsc|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier of the business unit that owns the email signature.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the business unit that owns the email signature.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier of the team who owns the email signature.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the team who owns the email signature.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user who owns the email signature.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who owns the email signature.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 <a name="manytoone"></a>
 
@@ -688,7 +782,7 @@ See systemuser Entity [lk_emailsignaturebase_modifiedonbehalfby](systemuser.md#B
 
 See systemuser Entity [lk_emailsignaturebase_createdby](systemuser.md#BKMK_lk_emailsignaturebase_createdby) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

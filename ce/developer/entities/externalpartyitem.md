@@ -1,7 +1,7 @@
 ---
 title: "ExternalPartyItem Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ExternalPartyItem entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # ExternalPartyItem Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Information about external party items that need to access Dynamics 365 from external channels.For internal use only
 
@@ -31,17 +29,20 @@ Information about external party items that need to access Dynamics 365 from ext
 
 ## Entity Properties
 
-**DisplayName**: External Party Item<br />
-**DisplayCollectionName**: External Party Items<br />
-**SchemaName**: ExternalPartyItem<br />
-**CollectionSchemaName**: ExternalPartyItems<br />
-**LogicalName**: externalpartyitem<br />
-**LogicalCollectionName**: externalpartyitems<br />
-**EntitySetName**: externalpartyitems<br />
-**PrimaryIdAttribute**: externalpartyitemid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|ExternalPartyItems|
+|DisplayCollectionName|External Party Items|
+|DisplayName|External Party Item|
+|EntitySetName|externalpartyitems|
+|IsBPFEntity|False|
+|LogicalCollectionName|externalpartyitems|
+|LogicalName|externalpartyitem|
+|OwnershipType|None|
+|PrimaryIdAttribute|externalpartyitemid|
+|PrimaryNameAttribute|name|
+|SchemaName|ExternalPartyItem|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -74,293 +75,343 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ChannelAccessProfileId"></a> ChannelAccessProfileId
 
-**Description**: Choose the channel access profile that's used to determine the permissions when CRM is accessed from an external channel.<br />
-**DisplayName**: Channel Access Profile<br />
-**LogicalName**: channelaccessprofileid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: channelaccessprofile
+|Property|Value|
+|--------|-----|
+|Description|Choose the channel access profile that's used to determine the permissions when CRM is accessed from an external channel.|
+|DisplayName|Channel Access Profile|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|channelaccessprofileid|
+|RequiredLevel|SystemRequired|
+|Targets|channelaccessprofile|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ChannelAccessProfileIdName"></a> ChannelAccessProfileIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: channelaccessprofileidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|channelaccessprofileidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ExternalPartyId"></a> ExternalPartyId
 
-**Description**: Type the external party record that this item is created for.<br />
-**DisplayName**: External Party<br />
-**LogicalName**: externalpartyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: externalparty
+|Property|Value|
+|--------|-----|
+|Description|Type the external party record that this item is created for.|
+|DisplayName|External Party|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|externalpartyid|
+|RequiredLevel|SystemRequired|
+|Targets|externalparty|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ExternalPartyIdName"></a> ExternalPartyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: externalpartyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|externalpartyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ExternalPartyItemId"></a> ExternalPartyItemId
 
-**Description**: Unique identifier for external party instances<br />
-**DisplayName**: External Party Item<br />
-**LogicalName**: externalpartyitemid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for external party instances|
+|DisplayName|External Party Item|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|externalpartyitemid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IntroducedVersion"></a> IntroducedVersion
 
-**Description**: Version in which the similarity rule is introduced.<br />
-**DisplayName**: Introduced Version<br />
-**LogicalName**: introducedversion<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: VersionNumber<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 48
+|Property|Value|
+|--------|-----|
+|Description|Version in which the similarity rule is introduced.|
+|DisplayName|Introduced Version|
+|FormatName|VersionNumber|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|introducedversion|
+|MaxLength|48|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_LastDisabledOn"></a> LastDisabledOn
 
-**Description**: Shows the date and time when the external party item was last disabled for external channel access.<br />
-**DisplayName**: Last Disabled On<br />
-**LogicalName**: lastdisabledon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the external party item was last disabled for external channel access.|
+|DisplayName|Last Disabled On|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastdisabledon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_LastEnabledOn"></a> LastEnabledOn
 
-**Description**: Shows the date and time when the external party item was last enabled for external channel access.<br />
-**DisplayName**: Last Enabled On<br />
-**LogicalName**: lastenabledon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the external party item was last enabled for external channel access.|
+|DisplayName|Last Enabled On|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastenabledon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Type the name of the external party item.<br />
-**DisplayName**: Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 300
+|Property|Value|
+|--------|-----|
+|Description|Type the name of the external party item.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|300|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user or team.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user or team.|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: 
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets||
+|Type|Lookup|
 
 
 ### <a name="BKMK_RegardingObjectId"></a> RegardingObjectId
 
-**Description**: Choose the external party enabled record that is associated with this external party item.<br />
-**DisplayName**: Regarding<br />
-**LogicalName**: regardingobjectid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: contact,systemuser
+|Property|Value|
+|--------|-----|
+|Description|Choose the external party enabled record that is associated with this external party item.|
+|DisplayName|Regarding|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|regardingobjectid|
+|RequiredLevel|SystemRequired|
+|Targets|contact,systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_RegardingObjectIdDsc"></a> RegardingObjectIdDsc
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: regardingobjectiddsc<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|regardingobjectiddsc|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_RegardingObjectIdName"></a> RegardingObjectIdName
 
-**Description**: Shows the name of the regarding object.<br />
-**DisplayName**: Regarding object name<br />
-**LogicalName**: regardingobjectidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 400
+|Property|Value|
+|--------|-----|
+|Description|Shows the name of the regarding object.|
+|DisplayName|Regarding object name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|regardingobjectidname|
+|MaxLength|400|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_RegardingObjectIdYomiName"></a> RegardingObjectIdYomiName
 
-**Description**: Shows the name of the regarding object.<br />
-**DisplayName**: Regarding object yomi name<br />
-**LogicalName**: regardingobjectidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 400
+|Property|Value|
+|--------|-----|
+|Description|Shows the name of the regarding object.|
+|DisplayName|Regarding object yomi name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|regardingobjectidyominame|
+|MaxLength|400|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_RegardingObjectTypeCode"></a> RegardingObjectTypeCode
 
-**Description**: Shows the regarding object type.<br />
-**DisplayName**: Regarding object type<br />
-**LogicalName**: regardingobjecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the regarding object type.|
+|DisplayName|Regarding object type|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|regardingobjecttypecode|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_StateCode"></a> StateCode
 
-**Description**: Shows whether the external party item is enabled or disabled.<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the external party item is enabled or disabled.|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Enabled **DefaultStatus**: 1 **InvariantName**: Enabled
-- **Value**: 1 **Label**: Disabled **DefaultStatus**: 2 **InvariantName**: Disabled
+#### StateCode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Enabled|1|Enabled|
+|1|Disabled|2|Disabled|
 
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-**Description**: Select the external party items status.<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the external party items status.|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Enabled **State**: 0
-- **Value**: 2 **Label**: Disabled **State**: 1
+#### StatusCode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Enabled|0|
+|2|Disabled|1|
 
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Exchange rate for the currency associated with the ExternalPartyItem with respect to the base currency.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Exchange rate for the currency associated with the ExternalPartyItem with respect to the base currency.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -388,241 +439,277 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who created the record.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the record.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Exchange rate for the currency associated with the external party item with respect to the base currency.<br />
-**DisplayName**: ExchangeRate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Exchange rate for the currency associated with the external party item with respect to the base currency.|
+|DisplayName|ExchangeRate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who modified the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the record was modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who modified the record.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who modified the record.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: 
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets||
+|Type|Lookup|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -639,105 +726,57 @@ Listed by **SchemaName**.
 ### <a name="BKMK_externalpartyitem_ProcessSession"></a> externalpartyitem_ProcessSession
 
 Same as processsession entity [externalpartyitem_ProcessSession](processsession.md#BKMK_externalpartyitem_ProcessSession) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: externalpartyitem_processsession_externalpartyitem<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|externalpartyitem_processsession_externalpartyitem|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_externalpartyitem_BulkDeleteFailures"></a> externalpartyitem_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [externalpartyitem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_externalpartyitem_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: externalpartyitem_bulkdeletefailures_externalpartyitem<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|externalpartyitem_bulkdeletefailures_externalpartyitem|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_ExternalPartyItem_SyncErrors"></a> ExternalPartyItem_SyncErrors
 
 Same as syncerror entity [ExternalPartyItem_SyncErrors](syncerror.md#BKMK_ExternalPartyItem_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: ExternalPartyItem_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|ExternalPartyItem_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_externalpartyitem_AsyncOperations"></a> externalpartyitem_AsyncOperations
 
 Same as asyncoperation entity [externalpartyitem_AsyncOperations](asyncoperation.md#BKMK_externalpartyitem_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: externalpartyitem_asyncoperations_externalpartyitem<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|externalpartyitem_asyncoperations_externalpartyitem|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -792,7 +831,7 @@ See transactioncurrency Entity [TransactionCurrency_externalpartyitem](transacti
 
 See systemuser Entity [lk_externalpartyitem_modifiedby](systemuser.md#BKMK_lk_externalpartyitem_modifiedby) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

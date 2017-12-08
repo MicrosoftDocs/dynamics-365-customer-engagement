@@ -1,7 +1,7 @@
 ---
 title: "msdyn_taxcode Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_taxcode entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # msdyn_taxcode Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Store tax related information. Each tax code could contain multiple child tax codes, and in that case the tax rate will be determined by the total tax of all children.
 
@@ -39,17 +37,20 @@ Store tax related information. Each tax code could contain multiple child tax co
 
 ## Entity Properties
 
-**DisplayName**: Tax Code<br />
-**DisplayCollectionName**: Tax Codes<br />
-**SchemaName**: msdyn_taxcode<br />
-**CollectionSchemaName**: msdyn_taxcodes<br />
-**LogicalName**: msdyn_taxcode<br />
-**LogicalCollectionName**: msdyn_taxcodes<br />
-**EntitySetName**: msdyn_taxcodes<br />
-**PrimaryIdAttribute**: msdyn_taxcodeid<br />
-**PrimaryNameAttribute**: msdyn_name<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|msdyn_taxcodes|
+|DisplayCollectionName|Tax Codes|
+|DisplayName|Tax Code|
+|EntitySetName|msdyn_taxcodes|
+|IsBPFEntity|False|
+|LogicalCollectionName|msdyn_taxcodes|
+|LogicalName|msdyn_taxcode|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_taxcodeid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_taxcode|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -75,223 +76,275 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Shows the sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows the sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_ActasTaxGroup"></a> msdyn_ActasTaxGroup
 
-**Description**: If set as a Tax Group the tax rate will be the total of all the Tax Code details combined<br />
-**DisplayName**: Act as Tax Group<br />
-**LogicalName**: msdyn_actastaxgroup<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|If set as a Tax Group the tax rate will be the total of all the Tax Code details combined|
+|DisplayName|Act as Tax Group|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_actastaxgroup|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_ActasTaxGroup Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_msdyn_AgreementTaxable"></a> msdyn_AgreementTaxable
 
-**Description**: Select whether this tax code applies to service agreements.<br />
-**DisplayName**: Agreement Taxable<br />
-**LogicalName**: msdyn_agreementtaxable<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether this tax code applies to service agreements.|
+|DisplayName|Agreement Taxable|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreementtaxable|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_AgreementTaxable Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
-**Description**: Type the sales tax code name.<br />
-**DisplayName**: Name<br />
-**LogicalName**: msdyn_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the sales tax code name.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_name|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ProductsTaxable"></a> msdyn_ProductsTaxable
 
-**Description**: Select whether this tax code applies to products.<br />
-**DisplayName**: Products Taxable<br />
-**LogicalName**: msdyn_productstaxable<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether this tax code applies to products.|
+|DisplayName|Products Taxable|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_productstaxable|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_ProductsTaxable Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
+
 
 
 ### <a name="BKMK_msdyn_ServicesTaxable"></a> msdyn_ServicesTaxable
 
-**Description**: Select whether this tax code applies to services.<br />
-**DisplayName**: Services Taxable<br />
-**LogicalName**: msdyn_servicestaxable<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether this tax code applies to services.|
+|DisplayName|Services Taxable|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_servicestaxable|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_ServicesTaxable Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: True
 
 
+
 ### <a name="BKMK_msdyn_taxcodeId"></a> msdyn_taxcodeId
 
-**Description**: Shows the entity instances.<br />
-**DisplayName**: Tax Code<br />
-**LogicalName**: msdyn_taxcodeid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the entity instances.|
+|DisplayName|Tax Code|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_taxcodeid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_TaxRate"></a> msdyn_TaxRate
 
-**Description**: Enter the rate of this sales tax code.<br />
-**DisplayName**: Tax Rate %<br />
-**LogicalName**: msdyn_taxrate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 100<br />
-**MinValue**: 0<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Enter the rate of this sales tax code.|
+|DisplayName|Tax Rate %|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxrate|
+|MaxValue|100|
+|MinValue|0|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Shows the date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Owner Id<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_statecode"></a> statecode
 
-**Description**: Status of the Tax Code<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Status of the Tax Code|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### statecode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
-**Description**: Reason for the status of the Tax Code<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Reason for the status of the Tax Code|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### statuscode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Shows the time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Shows the time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -321,265 +374,305 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who modified the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who last updated the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: Yomi name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -614,573 +707,309 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_taxcode_SyncErrors"></a> msdyn_taxcode_SyncErrors
 
 Same as syncerror entity [msdyn_taxcode_SyncErrors](syncerror.md#BKMK_msdyn_taxcode_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_DuplicateMatchingRecord"></a> msdyn_taxcode_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_taxcode_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_taxcode_DuplicateMatchingRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: duplicaterecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_DuplicateMatchingRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|duplicaterecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_DuplicateMatchingRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_DuplicateBaseRecord"></a> msdyn_taxcode_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_taxcode_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_taxcode_DuplicateBaseRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: baserecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_DuplicateBaseRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|baserecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_DuplicateBaseRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_AsyncOperations"></a> msdyn_taxcode_AsyncOperations
 
 Same as asyncoperation entity [msdyn_taxcode_AsyncOperations](asyncoperation.md#BKMK_msdyn_taxcode_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_MailboxTrackingFolders"></a> msdyn_taxcode_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_taxcode_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_taxcode_MailboxTrackingFolders) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_MailboxTrackingFolders<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_MailboxTrackingFolders|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_UserEntityInstanceDatas"></a> msdyn_taxcode_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_taxcode_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_taxcode_UserEntityInstanceDatas) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_UserEntityInstanceDatas<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_UserEntityInstanceDatas|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_ProcessSession"></a> msdyn_taxcode_ProcessSession
 
 Same as processsession entity [msdyn_taxcode_ProcessSession](processsession.md#BKMK_msdyn_taxcode_ProcessSession) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_ProcessSession<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_ProcessSession|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_BulkDeleteFailures"></a> msdyn_taxcode_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_taxcode_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_taxcode_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_PrincipalObjectAttributeAccesses"></a> msdyn_taxcode_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_taxcode_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_taxcode_PrincipalObjectAttributeAccesses) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_PrincipalObjectAttributeAccesses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_PrincipalObjectAttributeAccesses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_connections1"></a> msdyn_taxcode_connections1
 
 Same as connection entity [msdyn_taxcode_connections1](connection.md#BKMK_msdyn_taxcode_connections1) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record1id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_connections1<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 100
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record1id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_connections1|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 100|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_connections2"></a> msdyn_taxcode_connections2
 
 Same as connection entity [msdyn_taxcode_connections2](connection.md#BKMK_msdyn_taxcode_connections2) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record2id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_connections2<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record2id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_connections2|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_taxcode_Annotations"></a> msdyn_taxcode_Annotations
 
 Same as annotation entity [msdyn_taxcode_Annotations](annotation.md#BKMK_msdyn_taxcode_Annotations) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_taxcode_Annotations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_taxcode_Annotations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode"></a> msdyn_msdyn_taxcode_account_SalesTaxCode
 
 Same as account entity [msdyn_msdyn_taxcode_account_SalesTaxCode](account.md#BKMK_msdyn_msdyn_taxcode_account_SalesTaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: account<br />
-**ReferencingAttribute**: msdyn_salestaxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_account_SalesTaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|msdyn_salestaxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_account_SalesTaxCode|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_actual_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_actual_TaxCode
 
 Same as msdyn_actual entity [msdyn_msdyn_taxcode_msdyn_actual_TaxCode](msdyn_actual.md#BKMK_msdyn_msdyn_taxcode_msdyn_actual_TaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_actual<br />
-**ReferencingAttribute**: msdyn_taxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_actual_TaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_actual|
+|ReferencingAttribute|msdyn_taxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_actual_TaxCode|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode"></a> msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode
 
 Same as msdyn_agreement entity [msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode](msdyn_agreement.md#BKMK_msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_agreement<br />
-**ReferencingAttribute**: msdyn_salestaxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_agreement|
+|ReferencingAttribute|msdyn_salestaxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_agreement_SalesTaxCode|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode
 
 Same as msdyn_purchaseorderbill entity [msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode](msdyn_purchaseorderbill.md#BKMK_msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_purchaseorderbill<br />
-**ReferencingAttribute**: msdyn_taxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_purchaseorderbill|
+|ReferencingAttribute|msdyn_taxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_purchaseorderbill_TaxCode|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_rma_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_rma_TaxCode
 
 Same as msdyn_rma entity [msdyn_msdyn_taxcode_msdyn_rma_TaxCode](msdyn_rma.md#BKMK_msdyn_msdyn_taxcode_msdyn_rma_TaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rma<br />
-**ReferencingAttribute**: msdyn_taxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_rma_TaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Tax Code
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rma|
+|ReferencingAttribute|msdyn_taxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_rma_TaxCode|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Tax Code<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_rtv_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_rtv_TaxCode
 
 Same as msdyn_rtv entity [msdyn_msdyn_taxcode_msdyn_rtv_TaxCode](msdyn_rtv.md#BKMK_msdyn_msdyn_taxcode_msdyn_rtv_TaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rtv<br />
-**ReferencingAttribute**: msdyn_taxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_rtv_TaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Tax Code
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rtv|
+|ReferencingAttribute|msdyn_taxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_rtv_TaxCode|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Tax Code<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode"></a> msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode
 
 Same as msdyn_taxcodedetail entity [msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode](msdyn_taxcodedetail.md#BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_taxcodedetail<br />
-**ReferencingAttribute**: msdyn_parenttaxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Tax Code Groups
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_taxcodedetail|
+|ReferencingAttribute|msdyn_parenttaxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_taxcodedetail_ParentTaxCode|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Tax Code Groups<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode
 
 Same as msdyn_taxcodedetail entity [msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode](msdyn_taxcodedetail.md#BKMK_msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_taxcodedetail<br />
-**ReferencingAttribute**: msdyn_taxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Tax Code Items
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_taxcodedetail|
+|ReferencingAttribute|msdyn_taxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_taxcodedetail_TaxCode|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Tax Code Items<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_msdyn_workorder_TaxCode"></a> msdyn_msdyn_taxcode_msdyn_workorder_TaxCode
 
 Same as msdyn_workorder entity [msdyn_msdyn_taxcode_msdyn_workorder_TaxCode](msdyn_workorder.md#BKMK_msdyn_msdyn_taxcode_msdyn_workorder_TaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorder<br />
-**ReferencingAttribute**: msdyn_taxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_msdyn_workorder_TaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorder|
+|ReferencingAttribute|msdyn_taxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_msdyn_workorder_TaxCode|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_taxcode_quotedetail_SalesTaxCode"></a> msdyn_msdyn_taxcode_quotedetail_SalesTaxCode
 
 Same as quotedetail entity [msdyn_msdyn_taxcode_quotedetail_SalesTaxCode](quotedetail.md#BKMK_msdyn_msdyn_taxcode_quotedetail_SalesTaxCode) Many-To-One relationship.
-
-**ReferencingEntity**: quotedetail<br />
-**ReferencingAttribute**: msdyn_salestaxcode<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_taxcode_quotedetail_SalesTaxCode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quotedetail|
+|ReferencingAttribute|msdyn_salestaxcode|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_taxcode_quotedetail_SalesTaxCode|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1225,7 +1054,7 @@ See team Entity [team_msdyn_taxcode](team.md#BKMK_team_msdyn_taxcode) One-To-Man
 
 See businessunit Entity [business_unit_msdyn_taxcode](businessunit.md#BKMK_business_unit_msdyn_taxcode) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

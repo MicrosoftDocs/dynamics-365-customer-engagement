@@ -1,7 +1,7 @@
 ---
 title: "msdyn_resourcerequirement Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_resourcerequirement entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # msdyn_resourcerequirement Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Entity used to track the high-level information about resource requirements.
 
@@ -44,17 +42,20 @@ Entity used to track the high-level information about resource requirements.
 
 ## Entity Properties
 
-**DisplayName**: Resource Requirement<br />
-**DisplayCollectionName**: Resource Requirements<br />
-**SchemaName**: msdyn_resourcerequirement<br />
-**CollectionSchemaName**: msdyn_resourcerequirements<br />
-**LogicalName**: msdyn_resourcerequirement<br />
-**LogicalCollectionName**: msdyn_resourcerequirements<br />
-**EntitySetName**: msdyn_resourcerequirements<br />
-**PrimaryIdAttribute**: msdyn_resourcerequirementid<br />
-**PrimaryNameAttribute**: msdyn_name<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|msdyn_resourcerequirements|
+|DisplayCollectionName|Resource Requirements|
+|DisplayName|Resource Requirement|
+|EntitySetName|msdyn_resourcerequirements|
+|IsBPFEntity|False|
+|LogicalCollectionName|msdyn_resourcerequirements|
+|LogicalName|msdyn_resourcerequirement|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_resourcerequirementid|
+|PrimaryNameAttribute|msdyn_name|
+|SchemaName|msdyn_resourcerequirement|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -111,658 +112,769 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_allocationmethod"></a> msdyn_allocationmethod
 
-**Description**: Select the allocation method to be used for creating requirement distribution over a time period.<br />
-**DisplayName**: Allocation Method<br />
-**LogicalName**: msdyn_allocationmethod<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the allocation method to be used for creating requirement distribution over a time period.|
+|DisplayName|Allocation Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_allocationmethod|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: None
-- **Value**: 192350001 **Label**: Full capacity
-- **Value**: 192350003 **Label**: Distribute evenly
-- **Value**: 192350004 **Label**: Percentage capacity
-- **Value**: 192350005 **Label**: Front load
+#### msdyn_allocationmethod Options
+
+|Value|Label|
+|-----|-----|
+|192350000|None|
+|192350001|Full capacity|
+|192350003|Distribute evenly|
+|192350004|Percentage capacity|
+|192350005|Front load|
 
 
 
 ### <a name="BKMK_msdyn_BookingSetupMetadataId"></a> msdyn_BookingSetupMetadataId
 
-**Description**: A unique identifier for the booking setup metadata that is associated with a resource requirement.<br />
-**DisplayName**: Booking Setup Metadata<br />
-**LogicalName**: msdyn_bookingsetupmetadataid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_bookingsetupmetadata
+|Property|Value|
+|--------|-----|
+|Description|A unique identifier for the booking setup metadata that is associated with a resource requirement.|
+|DisplayName|Booking Setup Metadata|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookingsetupmetadataid|
+|RequiredLevel|None|
+|Targets|msdyn_bookingsetupmetadata|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_CalendarId"></a> msdyn_CalendarId
 
-**Description**: The calendar that will be used for a resource requirement<br />
-**DisplayName**: Calendar Id<br />
-**LogicalName**: msdyn_calendarid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|The calendar that will be used for a resource requirement|
+|DisplayName|Calendar Id|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_calendarid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_city"></a> msdyn_city
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Type the city where the resource is required.<br />
-**DisplayName**: City<br />
-**LogicalName**: msdyn_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the city where the resource is required.|
+|DisplayName|City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_city|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_costprice"></a> msdyn_costprice
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the cost price of the resource required.<br />
-**DisplayName**: Cost Price<br />
-**LogicalName**: msdyn_costprice<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the cost price of the resource required.|
+|DisplayName|Cost Price|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_costprice|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_country"></a> msdyn_country
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Type the country/region where the resource is required.<br />
-**DisplayName**: Country/Region<br />
-**LogicalName**: msdyn_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the country/region where the resource is required.|
+|DisplayName|Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_country|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_duration"></a> msdyn_duration
 
-**Description**: Duration of total minutes required<br />
-**DisplayName**: Duration<br />
-**LogicalName**: msdyn_duration<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: Duration<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Duration of total minutes required|
+|DisplayName|Duration|
+|Format|Duration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_duration|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_fromdate"></a> msdyn_fromdate
 
-**Description**: <br />
-**DisplayName**: From Date<br />
-**LogicalName**: msdyn_fromdate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|From Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fromdate|
+|RequiredLevel|Recommended|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_FulfilledDuration"></a> msdyn_FulfilledDuration
 
-**Description**: The fulfilled duration, in minutes.<br />
-**DisplayName**: Fulfilled Duration<br />
-**LogicalName**: msdyn_fulfilledduration<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: Duration<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|The fulfilled duration, in minutes.|
+|DisplayName|Fulfilled Duration|
+|Format|Duration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fulfilledduration|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_fulfilledhours"></a> msdyn_fulfilledhours
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the hours fulfilled against requirement when the requirement status is fulfilled.<br />
-**DisplayName**: Fulfilled Hours (Deprecated)<br />
-**LogicalName**: msdyn_fulfilledhours<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: -100000000000<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the hours fulfilled against requirement when the requirement status is fulfilled.|
+|DisplayName|Fulfilled Hours (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_fulfilledhours|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|2|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_msdyn_hours"></a> msdyn_hours
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the number of hours for which a requirement is required.<br />
-**DisplayName**: Hours (Deprecated)<br />
-**LogicalName**: msdyn_hours<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: -100000000000<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the number of hours for which a requirement is required.|
+|DisplayName|Hours (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_hours|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|2|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_msdyn_InternalFlags"></a> msdyn_InternalFlags
 
-**Description**: For internal use only.<br />
-**DisplayName**: Internal Flags<br />
-**LogicalName**: msdyn_internalflags<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1048576
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Internal Flags|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_internalflags|
+|MaxLength|1048576|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_msdyn_IsPrimary"></a> msdyn_IsPrimary
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Is Primary<br />
-**LogicalName**: msdyn_isprimary<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is Primary|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isprimary|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IsPrimary Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_Latitude"></a> msdyn_Latitude
 
 **Added by**: Field Service Solution<br />
-**Description**: The latitude to use for the location of a requirement.<br />
-**DisplayName**: Latitude<br />
-**LogicalName**: msdyn_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|The latitude to use for the location of a requirement.|
+|DisplayName|Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_msdyn_Longitude"></a> msdyn_Longitude
 
 **Added by**: Field Service Solution<br />
-**Description**: The longitude to use for the location of a requirement.<br />
-**DisplayName**: Longitude<br />
-**LogicalName**: msdyn_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|The longitude to use for the location of a requirement.|
+|DisplayName|Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_msdyn_name"></a> msdyn_name
 
-**Description**: The name of the custom entity.<br />
-**DisplayName**: Name<br />
-**LogicalName**: msdyn_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|The name of the custom entity.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_name|
+|MaxLength|100|
+|RequiredLevel|Recommended|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_percentage"></a> msdyn_percentage
 
-**Description**: Enter the percentage of the calendar capacity required.<br />
-**DisplayName**: Percentage<br />
-**LogicalName**: msdyn_percentage<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: -100000000000<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the percentage of the calendar capacity required.|
+|DisplayName|Percentage|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_percentage|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|2|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_msdyn_Priority"></a> msdyn_Priority
 
 **Added by**: Field Service Solution<br />
-**Description**: Priority of the requirement. To be taken into consideration while scheduling resources<br />
-**DisplayName**: Priority<br />
-**LogicalName**: msdyn_priority<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_priority
+|Property|Value|
+|--------|-----|
+|Description|Priority of the requirement. To be taken into consideration while scheduling resources|
+|DisplayName|Priority|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_priority|
+|RequiredLevel|None|
+|Targets|msdyn_priority|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_projectid"></a> msdyn_projectid
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the project for which the resource is required.<br />
-**DisplayName**: Project<br />
-**LogicalName**: msdyn_projectid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_project
+|Property|Value|
+|--------|-----|
+|Description|Select the project for which the resource is required.|
+|DisplayName|Project|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectid|
+|RequiredLevel|None|
+|Targets|msdyn_project|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_quantity"></a> msdyn_quantity
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the number of resources required.<br />
-**DisplayName**: Quantity<br />
-**LogicalName**: msdyn_quantity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: -100000000000<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the number of resources required.|
+|DisplayName|Quantity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_quantity|
+|MaxValue|100000000000|
+|MinValue|-100000000000|
+|Precision|2|
+|RequiredLevel|ApplicationRequired|
+|Type|Decimal|
 
 
 ### <a name="BKMK_msdyn_RemainingDuration"></a> msdyn_RemainingDuration
 
-**Description**: <br />
-**DisplayName**: Remaining Duration<br />
-**LogicalName**: msdyn_remainingduration<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: Duration<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Remaining Duration|
+|Format|Duration|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_remainingduration|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_requeststatus"></a> msdyn_requeststatus
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Type the status of the resource request associated with this requirement.<br />
-**DisplayName**: Status<br />
-**LogicalName**: msdyn_requeststatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the status of the resource request associated with this requirement.|
+|DisplayName|Status|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_requeststatus|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_resourcerequirementId"></a> msdyn_resourcerequirementId
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier for entity instances<br />
-**DisplayName**: Resource Requirement<br />
-**LogicalName**: msdyn_resourcerequirementid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|Resource Requirement|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_resourcerequirementid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_roleid"></a> msdyn_roleid
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the required role.<br />
-**DisplayName**: Role (Deprecated)<br />
-**LogicalName**: msdyn_roleid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: bookableresourcecategory
+|Property|Value|
+|--------|-----|
+|Description|Select the required role.|
+|DisplayName|Role (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_roleid|
+|RequiredLevel|None|
+|Targets|bookableresourcecategory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_stateorprovince"></a> msdyn_stateorprovince
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Type the state/province where the resource is required.<br />
-**DisplayName**: State/Province<br />
-**LogicalName**: msdyn_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the state/province where the resource is required.|
+|DisplayName|State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_stateorprovince|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_Status"></a> msdyn_Status
 
-**Description**: Requirement Status<br />
-**DisplayName**: Status<br />
-**LogicalName**: msdyn_status<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_requirementstatus
+|Property|Value|
+|--------|-----|
+|Description|Requirement Status|
+|DisplayName|Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_status|
+|RequiredLevel|ApplicationRequired|
+|Targets|msdyn_requirementstatus|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Territory"></a> msdyn_Territory
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Territory<br />
-**LogicalName**: msdyn_territory<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: territory
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Territory|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_territory|
+|RequiredLevel|None|
+|Targets|territory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TimeFromPromised"></a> msdyn_TimeFromPromised
 
 **Added by**: Field Service Solution<br />
-**Description**: Enter the starting range of the time promised to the account that incidents will be resolved.<br />
-**DisplayName**: Time From Promised<br />
-**LogicalName**: msdyn_timefrompromised<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the starting range of the time promised to the account that incidents will be resolved.|
+|DisplayName|Time From Promised|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timefrompromised|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TimeGroup"></a> msdyn_TimeGroup
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Time Group<br />
-**LogicalName**: msdyn_timegroup<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_timegroup
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Time Group|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timegroup|
+|RequiredLevel|None|
+|Targets|msdyn_timegroup|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TimeToPromised"></a> msdyn_TimeToPromised
 
 **Added by**: Field Service Solution<br />
-**Description**: Enter the ending range of the time promised to the account that incidents will be resolved.<br />
-**DisplayName**: Time To Promised<br />
-**LogicalName**: msdyn_timetopromised<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the ending range of the time promised to the account that incidents will be resolved.|
+|DisplayName|Time To Promised|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timetopromised|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TimeWindowEnd"></a> msdyn_TimeWindowEnd
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Time Window End<br />
-**LogicalName**: msdyn_timewindowend<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Time Window End|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timewindowend|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_TimeWindowStart"></a> msdyn_TimeWindowStart
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Time Window Start<br />
-**LogicalName**: msdyn_timewindowstart<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Time Window Start|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_timewindowstart|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_todate"></a> msdyn_todate
 
-**Description**: End date of requirement period<br />
-**DisplayName**: To Date<br />
-**LogicalName**: msdyn_todate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|End date of requirement period|
+|DisplayName|To Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_todate|
+|RequiredLevel|Recommended|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_type"></a> msdyn_type
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the type of resource requirement.<br />
-**DisplayName**: Type<br />
-**LogicalName**: msdyn_type<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the type of resource requirement.|
+|DisplayName|Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_type|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: New
-- **Value**: 192350001 **Label**: Extend
+#### msdyn_type Options
+
+|Value|Label|
+|-----|-----|
+|192350000|New|
+|192350001|Extend|
 
 
 
 ### <a name="BKMK_msdyn_workhourtemplate"></a> msdyn_workhourtemplate
 
-**Description**: The working hours for a requirement.<br />
-**DisplayName**: Work Hour Template<br />
-**LogicalName**: msdyn_workhourtemplate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_workhourtemplate
+|Property|Value|
+|--------|-----|
+|Description|The working hours for a requirement.|
+|DisplayName|Work Hour Template|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workhourtemplate|
+|RequiredLevel|None|
+|Targets|msdyn_workhourtemplate|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_WorkLocation"></a> msdyn_WorkLocation
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Work Location<br />
-**LogicalName**: msdyn_worklocation<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Work Location|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_worklocation|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Onsite
-- **Value**: 690970001 **Label**: Depot
-- **Value**: 690970002 **Label**: Location Agnostic
+#### msdyn_WorkLocation Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Onsite|
+|690970001|Depot|
+|690970002|Location Agnostic|
 
 
 
 ### <a name="BKMK_msdyn_WorkOrder"></a> msdyn_WorkOrder
 
 **Added by**: Field Service Solution<br />
-**Description**: Unique identifier for Work Order associated with Resource Requirement.<br />
-**DisplayName**: Work Order<br />
-**LogicalName**: msdyn_workorder<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_workorder
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Work Order associated with Resource Requirement.|
+|DisplayName|Work Order|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workorder|
+|RequiredLevel|None|
+|Targets|msdyn_workorder|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Owner Id<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_statecode"></a> statecode
 
-**Description**: Status of the Resource Requirement<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Status of the Resource Requirement|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### statecode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
-**Description**: Reason for the status of the Resource Requirement<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Reason for the status of the Resource Requirement|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### statuscode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier of the currency associated with the entity.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the currency associated with the entity.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -804,435 +916,499 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who created the record.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the record.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Exchange rate for the currency associated with the entity with respect to the base currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Exchange rate for the currency associated with the entity with respect to the base currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who modified the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the record was modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who modified the record.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who modified the record.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_BookingSetupMetadataIdName"></a> msdyn_BookingSetupMetadataIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_bookingsetupmetadataidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 450
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookingsetupmetadataidname|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_costprice_Base"></a> msdyn_costprice_Base
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Value of the Cost Price in base currency.<br />
-**DisplayName**: Cost Price (Base)<br />
-**LogicalName**: msdyn_costprice_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Cost Price in base currency.|
+|DisplayName|Cost Price (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_costprice_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_PriorityName"></a> msdyn_PriorityName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_priorityname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_priorityname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_projectidName"></a> msdyn_projectidName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_projectidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectidname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_roleidName"></a> msdyn_roleidName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_roleidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_roleidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_StatusName"></a> msdyn_StatusName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_statusname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_statusname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TerritoryName"></a> msdyn_TerritoryName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_territoryname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_territoryname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TimeGroupName"></a> msdyn_TimeGroupName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_timegroupname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_timegroupname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_workhourtemplateName"></a> msdyn_workhourtemplateName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_workhourtemplatename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_workhourtemplatename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_WorkOrderName"></a> msdyn_WorkOrderName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_workordername<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_workordername|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: Yomi name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1266,547 +1442,295 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_resourcerequirement_SyncErrors"></a> msdyn_resourcerequirement_SyncErrors
 
 Same as syncerror entity [msdyn_resourcerequirement_SyncErrors](syncerror.md#BKMK_msdyn_resourcerequirement_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_DuplicateMatchingRecord"></a> msdyn_resourcerequirement_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_resourcerequirement_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_resourcerequirement_DuplicateMatchingRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: duplicaterecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_DuplicateMatchingRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|duplicaterecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_DuplicateMatchingRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_DuplicateBaseRecord"></a> msdyn_resourcerequirement_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_resourcerequirement_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_resourcerequirement_DuplicateBaseRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: baserecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_DuplicateBaseRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|baserecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_DuplicateBaseRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_AsyncOperations"></a> msdyn_resourcerequirement_AsyncOperations
 
 Same as asyncoperation entity [msdyn_resourcerequirement_AsyncOperations](asyncoperation.md#BKMK_msdyn_resourcerequirement_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_MailboxTrackingFolders"></a> msdyn_resourcerequirement_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_resourcerequirement_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_resourcerequirement_MailboxTrackingFolders) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_MailboxTrackingFolders<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_MailboxTrackingFolders|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_UserEntityInstanceDatas"></a> msdyn_resourcerequirement_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_resourcerequirement_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_resourcerequirement_UserEntityInstanceDatas) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_UserEntityInstanceDatas<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_UserEntityInstanceDatas|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_ProcessSession"></a> msdyn_resourcerequirement_ProcessSession
 
 Same as processsession entity [msdyn_resourcerequirement_ProcessSession](processsession.md#BKMK_msdyn_resourcerequirement_ProcessSession) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_ProcessSession<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_ProcessSession|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_BulkDeleteFailures"></a> msdyn_resourcerequirement_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_resourcerequirement_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_resourcerequirement_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_PrincipalObjectAttributeAccesses"></a> msdyn_resourcerequirement_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_resourcerequirement_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_resourcerequirement_PrincipalObjectAttributeAccesses) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_PrincipalObjectAttributeAccesses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_PrincipalObjectAttributeAccesses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_Annotations"></a> msdyn_resourcerequirement_Annotations
 
 Same as annotation entity [msdyn_resourcerequirement_Annotations](annotation.md#BKMK_msdyn_resourcerequirement_Annotations) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_Annotations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_Annotations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement"></a> msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement
 
 Same as bookableresourcebooking entity [msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement](bookableresourcebooking.md#BKMK_msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement) Many-To-One relationship.
-
-**ReferencingEntity**: bookableresourcebooking<br />
-**ReferencingAttribute**: msdyn_resourcerequirement<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bookableresourcebooking|
+|ReferencingAttribute|msdyn_resourcerequirement|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_bookableresourcebooking_ResourceRequirement|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement"></a> msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement
 
 Same as bookableresourcebookingheader entity [msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement](bookableresourcebookingheader.md#BKMK_msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement) Many-To-One relationship.
-
-**ReferencingEntity**: bookableresourcebookingheader<br />
-**ReferencingAttribute**: msdyn_resourcerequirement<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bookableresourcebookingheader|
+|ReferencingAttribute|msdyn_resourcerequirement|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_bookableresourcebookingheader_ResourceRequirement|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_details"></a> msdyn_resourcerequirement_details
 
 Same as msdyn_resourcerequirementdetail entity [msdyn_resourcerequirement_details](msdyn_resourcerequirementdetail.md#BKMK_msdyn_resourcerequirement_details) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_resourcerequirementdetail<br />
-**ReferencingAttribute**: msdyn_resourcerequirementid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_details<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Requirement Details
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_resourcerequirementdetail|
+|ReferencingAttribute|msdyn_resourcerequirementid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_details|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Requirement Details<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement"></a> msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement
 
 Same as msdyn_requirementcharacteristic entity [msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement](msdyn_requirementcharacteristic.md#BKMK_msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_requirementcharacteristic<br />
-**ReferencingAttribute**: msdyn_resourcerequirement<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Characteristics
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_requirementcharacteristic|
+|ReferencingAttribute|msdyn_resourcerequirement|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_requirementcharacteristic_resourcerequirement|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Characteristics<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement"></a> msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement
 
 Same as msdyn_requirementorganizationunit entity [msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement](msdyn_requirementorganizationunit.md#BKMK_msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_requirementorganizationunit<br />
-**ReferencingAttribute**: msdyn_resourcerequirement<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Organizational Units
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_requirementorganizationunit|
+|ReferencingAttribute|msdyn_resourcerequirement|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_requirementorganizationunit_ResourceRequirement|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Organizational Units<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement"></a> msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement
 
 Same as msdyn_requirementresourcecategory entity [msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement](msdyn_requirementresourcecategory.md#BKMK_msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_requirementresourcecategory<br />
-**ReferencingAttribute**: msdyn_resourcerequirement<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Resource Categories
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_requirementresourcecategory|
+|ReferencingAttribute|msdyn_resourcerequirement|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_requirementresourcecategory_resourcerequirement|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resource Categories<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement"></a> msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement
 
 Same as msdyn_requirementresourcepreference entity [msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement](msdyn_requirementresourcepreference.md#BKMK_msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_requirementresourcepreference<br />
-**ReferencingAttribute**: msdyn_resourcerequirement<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Resource Preferences
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_requirementresourcepreference|
+|ReferencingAttribute|msdyn_resourcerequirement|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_requirementresourcepreference_ResourceRequirement|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resource Preferences<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_characteristicreq"></a> msdyn_resourcerequirement_characteristicreq
 
 Same as msdyn_characteristicreqforteammember entity [msdyn_resourcerequirement_characteristicreq](msdyn_characteristicreqforteammember.md#BKMK_msdyn_resourcerequirement_characteristicreq) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_characteristicreqforteammember<br />
-**ReferencingAttribute**: msdyn_resourcerequirementid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_characteristicreq<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_characteristicreqforteammember|
+|ReferencingAttribute|msdyn_resourcerequirementid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_characteristicreq|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_projectteam"></a> msdyn_resourcerequirement_projectteam
 
 Same as msdyn_projectteam entity [msdyn_resourcerequirement_projectteam](msdyn_projectteam.md#BKMK_msdyn_resourcerequirement_projectteam) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_projectteam<br />
-**ReferencingAttribute**: msdyn_resourcerequirementid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_projectteam<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_projectteam|
+|ReferencingAttribute|msdyn_resourcerequirementid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_projectteam|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_request"></a> msdyn_resourcerequirement_request
 
 Same as msdyn_resourcerequest entity [msdyn_resourcerequirement_request](msdyn_resourcerequest.md#BKMK_msdyn_resourcerequirement_request) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_resourcerequest<br />
-**ReferencingAttribute**: msdyn_resourcerequirementid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_resourcerequirement_request<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_resourcerequest|
+|ReferencingAttribute|msdyn_resourcerequirementid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_resourcerequirement_request|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement"></a> msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement
 
 Same as msdyn_workorderincident entity [msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement](msdyn_workorderincident.md#BKMK_msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorderincident<br />
-**ReferencingAttribute**: msdyn_resourcerequirement<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorderincident|
+|ReferencingAttribute|msdyn_resourcerequirement|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_resourcerequirement_msdyn_workorderincident_ResourceRequirement|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -1913,86 +1837,74 @@ Relationship details provided where the msdyn_resourcerequirement entity is the 
 
 ### <a name="BKMK_msdyn_resourcerequirement_bookableresource"></a> msdyn_resourcerequirement_bookableresource
 
-**IntersectEntityName**: msdyn_resourcerequirement_bookableresource<br />
-**Entity1LogicalName**: msdyn_resourcerequirement<br />
+IntersectEntityName: msdyn_resourcerequirement_bookableresource<br />
+#### Entity 1
 
-- **Entity1IntersectAttribute**: msdyn_resourcerequirementid
-- **Entity1NavigationPropertyName**: msdyn_resourcerequirement_bookableresource
-- **Entity1AssociatedMenuConfiguration**:
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_resourcerequirementid|
+|IsCustomizable|True|
+|LogicalName|msdyn_resourcerequirement|
+|NavigationPropertyName|msdyn_resourcerequirement_bookableresource|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
+#### Entity 2
 
-**Entity2LogicalName**: [bookableresource](bookableresource.md)<br />
+|Property|Value|
+|--------|-----|
+|LogicalName|bookableresource|
+|IntersectAttribute|bookableresourceid|
+|NavigationPropertyName|msdyn_resourcerequirement_bookableresource|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-- **Entity2IntersectAttribute**: bookableresourceid
-- **Entity2NavigationPropertyName**: msdyn_resourcerequirement_bookableresource
-- **Entity2AssociatedMenuConfiguration**:
-
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
-
-**IsCustomizable**: True<br />
 
 ### <a name="BKMK_msdyn_resourcerequirement_bookingheader"></a> msdyn_resourcerequirement_bookingheader
 
-**IntersectEntityName**: msdyn_resourcerequirement_bookingheader<br />
-**Entity1LogicalName**: msdyn_resourcerequirement<br />
+IntersectEntityName: msdyn_resourcerequirement_bookingheader<br />
+#### Entity 1
 
-- **Entity1IntersectAttribute**: msdyn_resourcerequirementid
-- **Entity1NavigationPropertyName**: msdyn_resourcerequirement_bookingheader
-- **Entity1AssociatedMenuConfiguration**:
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_resourcerequirementid|
+|IsCustomizable|True|
+|LogicalName|msdyn_resourcerequirement|
+|NavigationPropertyName|msdyn_resourcerequirement_bookingheader|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
+#### Entity 2
 
-**Entity2LogicalName**: [bookableresourcebookingheader](bookableresourcebookingheader.md)<br />
+|Property|Value|
+|--------|-----|
+|LogicalName|bookableresourcebookingheader|
+|IntersectAttribute|bookableresourcebookingheaderid|
+|NavigationPropertyName|msdyn_resourcerequirement_bookingheader|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-- **Entity2IntersectAttribute**: bookableresourcebookingheaderid
-- **Entity2NavigationPropertyName**: msdyn_resourcerequirement_bookingheader
-- **Entity2AssociatedMenuConfiguration**:
-
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
-
-**IsCustomizable**: True<br />
 
 ### <a name="BKMK_msdyn_resourcerequirement_systemuser"></a> msdyn_resourcerequirement_systemuser
 
-**IntersectEntityName**: msdyn_resourcerequirement_systemuser<br />
-**Entity1LogicalName**: msdyn_resourcerequirement<br />
+IntersectEntityName: msdyn_resourcerequirement_systemuser<br />
+#### Entity 1
 
-- **Entity1IntersectAttribute**: msdyn_resourcerequirementid
-- **Entity1NavigationPropertyName**: msdyn_resourcerequirement_systemuser
-- **Entity1AssociatedMenuConfiguration**:
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|msdyn_resourcerequirementid|
+|IsCustomizable|True|
+|LogicalName|msdyn_resourcerequirement|
+|NavigationPropertyName|msdyn_resourcerequirement_systemuser|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
+#### Entity 2
 
-**Entity2LogicalName**: [systemuser](systemuser.md)<br />
+|Property|Value|
+|--------|-----|
+|LogicalName|systemuser|
+|IntersectAttribute|systemuserid|
+|NavigationPropertyName|msdyn_resourcerequirement_systemuser|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-- **Entity2IntersectAttribute**: systemuserid
-- **Entity2NavigationPropertyName**: msdyn_resourcerequirement_systemuser
-- **Entity2AssociatedMenuConfiguration**:
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
-
-**IsCustomizable**: True<br />
-
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

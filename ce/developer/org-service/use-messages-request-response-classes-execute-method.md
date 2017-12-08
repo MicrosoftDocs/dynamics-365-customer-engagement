@@ -2,7 +2,7 @@
 title: "Use messages (request and response classes) with the Execute method (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read about IOrganizationService.Execute method that takes a message request class as a parameter and returns a message response class"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 218d9d80-fb52-49a4-9208-b72675080451
-caps.latest.revision: 46
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"

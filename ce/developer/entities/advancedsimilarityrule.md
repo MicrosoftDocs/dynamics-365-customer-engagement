@@ -1,7 +1,7 @@
 ---
 title: "AdvancedSimilarityRule Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the AdvancedSimilarityRule entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # AdvancedSimilarityRule Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 A text match rule identifies similar records using keywords and key phrases determined with text analytics
 
@@ -31,17 +29,20 @@ A text match rule identifies similar records using keywords and key phrases dete
 
 ## Entity Properties
 
-**DisplayName**: Advanced Similarity Rule<br />
-**DisplayCollectionName**: Advanced Similarity Rules<br />
-**SchemaName**: AdvancedSimilarityRule<br />
-**CollectionSchemaName**: AdvancedSimilarityRules<br />
-**LogicalName**: advancedsimilarityrule<br />
-**LogicalCollectionName**: advancedsimilarityrules<br />
-**EntitySetName**: advancedsimilarityrules<br />
-**PrimaryIdAttribute**: advancedsimilarityruleid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: OrganizationOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|AdvancedSimilarityRules|
+|DisplayCollectionName|Advanced Similarity Rules|
+|DisplayName|Advanced Similarity Rule|
+|EntitySetName|advancedsimilarityrules|
+|IsBPFEntity|False|
+|LogicalCollectionName|advancedsimilarityrules|
+|LogicalName|advancedsimilarityrule|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|advancedsimilarityruleid|
+|PrimaryNameAttribute|name|
+|SchemaName|AdvancedSimilarityRule|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -67,209 +68,249 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_AdvancedSimilarityRuleId"></a> AdvancedSimilarityRuleId
 
-**Description**: Unique identifier for entity instances<br />
-**DisplayName**: Advanced Similarity Rule<br />
-**LogicalName**: advancedsimilarityruleid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|Advanced Similarity Rule|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|advancedsimilarityruleid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_AzureServiceConnectionId"></a> AzureServiceConnectionId
 
-**Description**: Unique identifier for AzureServiceConnection associated with AdvancedSimilarityRule.<br />
-**DisplayName**: Connection<br />
-**LogicalName**: azureserviceconnectionid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: azureserviceconnection
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for AzureServiceConnection associated with AdvancedSimilarityRule.|
+|DisplayName|Connection|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|azureserviceconnectionid|
+|RequiredLevel|ApplicationRequired|
+|Targets|azureserviceconnection|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Enter a description for the Advanced Similarity Rule<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Enter a description for the Advanced Similarity Rule|
+|DisplayName|Description|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Entity"></a> Entity
 
-**Description**: entity<br />
-**DisplayName**: Target Entity<br />
-**LogicalName**: entity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|entity|
+|DisplayName|Target Entity|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|entity|
+|MaxLength|100|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ExactMatchList"></a> ExactMatchList
 
-**Description**: For internal use only.<br />
-**DisplayName**: For internal use only.<br />
-**LogicalName**: exactmatchlist<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 500000
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|For internal use only.|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|exactmatchlist|
+|MaxLength|500000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_FetchXmlList"></a> FetchXmlList
 
-**Description**: For internal use only.<br />
-**DisplayName**: For internal use only.<br />
-**LogicalName**: fetchxmllist<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 500000
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|For internal use only.|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|fetchxmllist|
+|MaxLength|500000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_FilterResultByStatus"></a> FilterResultByStatus
 
-**Description**: Filter Result By Status<br />
-**DisplayName**: Filter Result By Status<br />
-**LogicalName**: filterresultbystatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Filter Result By Status|
+|DisplayName|Filter Result By Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|filterresultbystatus|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_FilterResultByStatusDisplayName"></a> FilterResultByStatusDisplayName
 
-**Description**: Filter Result By Status<br />
-**DisplayName**: Filter Result By Status<br />
-**LogicalName**: filterresultbystatusdisplayname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Filter Result By Status|
+|DisplayName|Filter Result By Status|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|filterresultbystatusdisplayname|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_IsAzureMLRequired"></a> IsAzureMLRequired
 
-**Description**: Use Text Analytics for Target Match<br />
-**DisplayName**: Use Text Analytics for Target Match<br />
-**LogicalName**: isazuremlrequired<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Use Text Analytics for Target Match|
+|DisplayName|Use Text Analytics for Target Match|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isazuremlrequired|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsAzureMLRequired Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_MaxNumberKeyphrases"></a> MaxNumberKeyphrases
 
-**Description**: Enter the maximum number of keywords and key phrases to use with text analytics.<br />
-**DisplayName**: Maximum Number of Key Phrases<br />
-**LogicalName**: maxnumberkeyphrases<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Enter the maximum number of keywords and key phrases to use with text analytics.|
+|DisplayName|Maximum Number of Key Phrases|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|maxnumberkeyphrases|
+|MaxValue|1000|
+|MinValue|0|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_name"></a> name
 
-**Description**: Type a logical name for the similarity configuration<br />
-**DisplayName**: Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type a logical name for the similarity configuration|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_NgramSize"></a> NgramSize
 
-**Description**: Enter the maximum number of words in a key phrase to use with text analytics.<br />
-**DisplayName**: Maximum Key Phrase Words<br />
-**LogicalName**: ngramsize<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 3<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description|Enter the maximum number of words in a key phrase to use with text analytics.|
+|DisplayName|Maximum Key Phrase Words|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ngramsize|
+|MaxValue|3|
+|MinValue|1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_SourceEntity"></a> SourceEntity
 
-**Description**: Enter an entity that similar records will be suggested for<br />
-**DisplayName**: Source Entity<br />
-**LogicalName**: sourceentity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Enter an entity that similar records will be suggested for|
+|DisplayName|Source Entity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|sourceentity|
+|RequiredLevel|ApplicationRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_StateCode"></a> StateCode
 
-**Description**: Status of the advanced similarity rules<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Status of the advanced similarity rules|
+|DisplayName|Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### StateCode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-**Description**: Reason for the status of the advanced similarity rules<br />
-**DisplayName**: Status<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Reason for the status of the advanced similarity rules|
+|DisplayName|Status|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### StatusCode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 <a name="read-only-attributes"></a>
@@ -301,281 +342,330 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_AdvancedSimilarityRuleIdUnique"></a> AdvancedSimilarityRuleIdUnique
 
-**Description**: Unique identifier of the Advanced Similarity Rule used when synchronizing customizations for the Microsoft Dynamics 365 client for Outlook<br />
-**DisplayName**: Advanced Similarity Rule Unique Id<br />
-**LogicalName**: advancedsimilarityruleidunique<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Advanced Similarity Rule used when synchronizing customizations for the Microsoft Dynamics 365 client for Outlook|
+|DisplayName|Advanced Similarity Rule Unique Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|advancedsimilarityruleidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_AzureServiceConnectionIdName"></a> AzureServiceConnectionIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: azureserviceconnectionidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|azureserviceconnectionidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
 
-**Description**: For internal use only.<br />
-**DisplayName**: Component State<br />
-**LogicalName**: componentstate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Published
-- **Value**: 1 **Label**: Unpublished
-- **Value**: 2 **Label**: Deleted
-- **Value**: 3 **Label**: Deleted Unpublished
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
 
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the Advanced Similarity Rules.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the Advanced Similarity Rules.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who created the record.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the record.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_IsManaged"></a> IsManaged
 
-**Description**: Is Manageed<br />
-**DisplayName**: State<br />
-**LogicalName**: ismanaged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Is Manageed|
+|DisplayName|State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Managed
-- **FalseOption Value**: 0 **Label**: Unmanaged
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who modified the Advanced Similarity Rules.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the Advanced Similarity Rules.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who last modified the advanced similarity rules.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who last modified the advanced similarity rules.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier of the organization associated with the advanced similarity rules<br />
-**DisplayName**: Organization<br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: organization
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the organization associated with the advanced similarity rules|
+|DisplayName|Organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Targets|organization|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: organizationidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: overwritetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SolutionId"></a> SolutionId
 
-**Description**: Unique identifier of the associated solution.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: solutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: supportingsolutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 <a name="onetomany"></a>
 
@@ -587,27 +677,15 @@ Listed by **SchemaName**.
 ### <a name="BKMK_advancedsimilarityrule_textanalyticsentitymapping"></a> advancedsimilarityrule_textanalyticsentitymapping
 
 Same as textanalyticsentitymapping entity [advancedsimilarityrule_textanalyticsentitymapping](textanalyticsentitymapping.md#BKMK_advancedsimilarityrule_textanalyticsentitymapping) Many-To-One relationship.
-
-**ReferencingEntity**: textanalyticsentitymapping<br />
-**ReferencingAttribute**: advancedsimilarityruleid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: advancedsimilarityrule_textanalyticsentitymapping<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 1000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|textanalyticsentitymapping|
+|ReferencingAttribute|advancedsimilarityruleid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|advancedsimilarityrule_textanalyticsentitymapping|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 1000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -647,7 +725,7 @@ See systemuser Entity [lk_advancedsimilarityrule_modifiedonbehalfby](systemuser.
 
 See systemuser Entity [lk_advancedsimilarityrule_createdby](systemuser.md#BKMK_lk_advancedsimilarityrule_createdby) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

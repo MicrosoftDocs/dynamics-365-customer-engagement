@@ -1,7 +1,7 @@
 ---
 title: "AppModule Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the AppModule entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # AppModule Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 A role-based, modular business app that provides task-based functionality for a particular area of work.
 
@@ -35,17 +33,20 @@ A role-based, modular business app that provides task-based functionality for a 
 
 ## Entity Properties
 
-**DisplayName**: App<br />
-**DisplayCollectionName**: Apps<br />
-**SchemaName**: AppModule<br />
-**CollectionSchemaName**: AppModules<br />
-**LogicalName**: appmodule<br />
-**LogicalCollectionName**: appmodules<br />
-**EntitySetName**: appmodules<br />
-**PrimaryIdAttribute**: appmoduleid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: OrganizationOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|AppModules|
+|DisplayCollectionName|Apps|
+|DisplayName|App|
+|EntitySetName|appmodules|
+|IsBPFEntity|False|
+|LogicalCollectionName|appmodules|
+|LogicalName|appmodule|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|appmoduleid|
+|PrimaryNameAttribute|name|
+|SchemaName|AppModule|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -76,276 +77,324 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_AppModuleId"></a> AppModuleId
 
-**Description**: Unique identifier for entity instances<br />
-**DisplayName**: AppModuleId<br />
-**LogicalName**: appmoduleid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|AppModuleId|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|appmoduleid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_AppModuleIdUnique"></a> AppModuleIdUnique
 
-**Description**: Unique identifier of the App Module used when synchronizing customizations for the Microsoft Dynamics 365 client for Outlook<br />
-**DisplayName**: App Module Unique Id<br />
-**LogicalName**: appmoduleidunique<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the App Module used when synchronizing customizations for the Microsoft Dynamics 365 client for Outlook|
+|DisplayName|App Module Unique Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|appmoduleidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_AppModuleVersion"></a> AppModuleVersion
 
-**Description**: App Module Version<br />
-**DisplayName**: App Module Version<br />
-**LogicalName**: appmoduleversion<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: VersionNumber<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 48
+|Property|Value|
+|--------|-----|
+|Description|App Module Version|
+|DisplayName|App Module Version|
+|FormatName|VersionNumber|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|appmoduleversion|
+|MaxLength|48|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_AppModuleXmlManaged"></a> AppModuleXmlManaged
 
-**Description**: App Module Xml Managed<br />
-**DisplayName**: <br />
-**LogicalName**: appmodulexmlmanaged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|App Module Xml Managed|
+|DisplayName||
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|appmodulexmlmanaged|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_ClientType"></a> ClientType
 
-**Description**: Client Type such as Web or UCI<br />
-**DisplayName**: Client Type<br />
-**LogicalName**: clienttype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 31<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description|Client Type such as Web or UCI|
+|DisplayName|Client Type|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|clienttype|
+|MaxValue|31|
+|MinValue|1|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_ConfigXML"></a> ConfigXML
 
-**Description**: Contains configuration XML<br />
-**DisplayName**: <br />
-**LogicalName**: configxml<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|Contains configuration XML|
+|DisplayName||
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|configxml|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Description for entity<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: True<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Description for entity|
+|DisplayName|Description|
+|FormatName|Text|
+|IsLocalizable|True|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_FormFactor"></a> FormFactor
 
-**Description**: Form Factor<br />
-**DisplayName**: Form Factor<br />
-**LogicalName**: formfactor<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 8<br />
-**MinValue**: 1
+|Property|Value|
+|--------|-----|
+|Description|Form Factor|
+|DisplayName|Form Factor|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|formfactor|
+|MaxValue|8|
+|MinValue|1|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Unique identifier of the data import or data migration that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the data import or data migration that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IntroducedVersion"></a> IntroducedVersion
 
-**Description**: Version in which the similarity rule is introduced.<br />
-**DisplayName**: Introduced Version<br />
-**LogicalName**: introducedversion<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: VersionNumber<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Version in which the similarity rule is introduced.|
+|DisplayName|Introduced Version|
+|FormatName|VersionNumber|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|introducedversion|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_IsDefault"></a> IsDefault
 
-**Description**: Is Default<br />
-**DisplayName**: Is Default<br />
-**LogicalName**: isdefault<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Is Default|
+|DisplayName|Is Default|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isdefault|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsDefault Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_IsFeatured"></a> IsFeatured
 
-**Description**: Is Featured<br />
-**DisplayName**: IsFeatured<br />
-**LogicalName**: isfeatured<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Is Featured|
+|DisplayName|IsFeatured|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|isfeatured|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsFeatured Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Name of App Module<br />
-**DisplayName**: Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: True<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of App Module|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|True|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_PublishedOn"></a> PublishedOn
 
-**Description**: Date and time when the record was published.<br />
-**DisplayName**: Published On<br />
-**LogicalName**: publishedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was published.|
+|DisplayName|Published On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|publishedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_PublisherId"></a> PublisherId
 
-**Description**: Unique identifier of the publisher.<br />
-**DisplayName**: Publisher<br />
-**LogicalName**: publisherid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: publisher
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the publisher.|
+|DisplayName|Publisher|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|publisherid|
+|RequiredLevel|ApplicationRequired|
+|Targets|publisher|
+|Type|Lookup|
 
 
 ### <a name="BKMK_UniqueName"></a> UniqueName
 
-**Description**: Unique Name of App Module<br />
-**DisplayName**: Unique Name<br />
-**LogicalName**: uniquename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Unique Name of App Module|
+|DisplayName|Unique Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|uniquename|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_URL"></a> URL
 
-**Description**: Contains URL<br />
-**DisplayName**: URL<br />
-**LogicalName**: url<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Contains URL|
+|DisplayName|URL|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|url|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_WebResourceId"></a> WebResourceId
 
-**Description**: Unique identifier of the Web Resource<br />
-**DisplayName**: Web Resource Id<br />
-**LogicalName**: webresourceid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Web Resource|
+|DisplayName|Web Resource Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|webresourceid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_WelcomePageId"></a> WelcomePageId
 
-**Description**: Unique identifier of the Web Resource as Welcome Page Id<br />
-**DisplayName**: Welcome Page Id<br />
-**LogicalName**: welcomepageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Web Resource as Welcome Page Id|
+|DisplayName|Welcome Page Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|welcomepageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -377,297 +426,348 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
 
-**Description**: For internal use only<br />
-**DisplayName**: Component State<br />
-**LogicalName**: componentstate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Published
-- **Value**: 1 **Label**: Unpublished
-- **Value**: 2 **Label**: Deleted
-- **Value**: 3 **Label**: Deleted Unpublished
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
 
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Unique identifier of the user who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who created the record.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the record.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_Descriptor"></a> Descriptor
 
-**Description**: App Module Descriptor<br />
-**DisplayName**: Descriptor<br />
-**LogicalName**: descriptor<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1073741823
+|Property|Value|
+|--------|-----|
+|Description|App Module Descriptor|
+|DisplayName|Descriptor|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|descriptor|
+|MaxLength|1073741823|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_IsManaged"></a> IsManaged
 
-**Description**: Is Managed<br />
-**DisplayName**: IsManaged<br />
-**LogicalName**: ismanaged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Is Managed|
+|DisplayName|IsManaged|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Managed
-- **FalseOption Value**: 0 **Label**: Unmanaged
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Unique identifier of the user who modified the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the record.|
+|DisplayName|Modified By|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Date and time when the record was modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Unique identifier of the delegate user who modified the record.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who modified the record.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier of the organization associated with the app.<br />
-**DisplayName**: Organization<br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: organization
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the organization associated with the app.|
+|DisplayName|Organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Targets|organization|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: organizationidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
-**Description**: Internal use only<br />
-**DisplayName**: Overwrite Time<br />
-**LogicalName**: overwritetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Internal use only|
+|DisplayName|Overwrite Time|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_PublisherIdName"></a> PublisherIdName
 
-**Description**: name of the publisher.<br />
-**DisplayName**: Publisher<br />
-**LogicalName**: publisheridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|name of the publisher.|
+|DisplayName|Publisher|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|publisheridname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SolutionId"></a> SolutionId
 
-**Description**: Unique identifier of the associated solution.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: solutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: supportingsolutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -682,53 +782,29 @@ Listed by **SchemaName**.
 ### <a name="BKMK_appmodule_appconfig"></a> appmodule_appconfig
 
 Same as appconfig entity [appmodule_appconfig](appconfig.md#BKMK_appmodule_appconfig) Many-To-One relationship.
-
-**ReferencingEntity**: appconfig<br />
-**ReferencingAttribute**: appmoduleid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: appmodule_appconfig<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appconfig|
+|ReferencingAttribute|appmoduleid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|appmodule_appconfig|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_appmodule_appmodulecomponent"></a> appmodule_appmodulecomponent
 
 Same as appmodulecomponent entity [appmodule_appmodulecomponent](appmodulecomponent.md#BKMK_appmodule_appmodulecomponent) Many-To-One relationship.
-
-**ReferencingEntity**: appmodulecomponent<br />
-**ReferencingAttribute**: appmoduleidunique<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: appmodule_appmodulecomponent<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appmodulecomponent|
+|ReferencingAttribute|appmoduleidunique|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|appmodule_appmodulecomponent|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 <a name="manytoone"></a>
 
@@ -776,32 +852,28 @@ Relationship details provided where the AppModule entity is the first entity in 
 
 ### <a name="BKMK_appmoduleroles_association"></a> appmoduleroles_association
 
-**IntersectEntityName**: appmoduleroles<br />
-**Entity1LogicalName**: appmodule<br />
+IntersectEntityName: appmoduleroles<br />
+#### Entity 1
 
-- **Entity1IntersectAttribute**: appmoduleid
-- **Entity1NavigationPropertyName**: appmoduleroles_association
-- **Entity1AssociatedMenuConfiguration**:
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|appmoduleid|
+|IsCustomizable|False|
+|LogicalName|appmodule|
+|NavigationPropertyName|appmoduleroles_association|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
+#### Entity 2
 
-**Entity2LogicalName**: [role](role.md)<br />
+|Property|Value|
+|--------|-----|
+|LogicalName|role|
+|IntersectAttribute|roleid|
+|NavigationPropertyName|appmoduleroles_association|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-- **Entity2IntersectAttribute**: roleid
-- **Entity2NavigationPropertyName**: appmoduleroles_association
-- **Entity2AssociatedMenuConfiguration**:
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
-
-**IsCustomizable**: False<br />
-
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

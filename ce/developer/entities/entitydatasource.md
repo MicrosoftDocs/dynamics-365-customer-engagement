@@ -1,7 +1,7 @@
 ---
 title: "EntityDataSource Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the EntityDataSource entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # EntityDataSource Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Internal entity that stores data source information for all installed providers.
 
@@ -30,17 +28,20 @@ Internal entity that stores data source information for all installed providers.
 
 ## Entity Properties
 
-**DisplayName**: Virtual Entity Data Source<br />
-**DisplayCollectionName**: Virtual Entity Data Sources<br />
-**SchemaName**: EntityDataSource<br />
-**CollectionSchemaName**: EntityDataSources<br />
-**LogicalName**: entitydatasource<br />
-**LogicalCollectionName**: entitydatasources<br />
-**EntitySetName**: entitydatasources<br />
-**PrimaryIdAttribute**: entitydatasourceid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: OrganizationOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|EntityDataSources|
+|DisplayCollectionName|Virtual Entity Data Sources|
+|DisplayName|Virtual Entity Data Source|
+|EntitySetName|entitydatasources|
+|IsBPFEntity|False|
+|LogicalCollectionName|entitydatasources|
+|LogicalName|entitydatasource|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|entitydatasourceid|
+|PrimaryNameAttribute|name|
+|SchemaName|EntityDataSource|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -60,122 +61,140 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ConnectionDefinition"></a> ConnectionDefinition
 
-**Description**: JSON data representing values from a data source entity as individual fields.<br />
-**DisplayName**: Data Source Values<br />
-**LogicalName**: connectiondefinition<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|JSON data representing values from a data source entity as individual fields.|
+|DisplayName|Data Source Values|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|connectiondefinition|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ConnectionDefinitionSecrets"></a> ConnectionDefinitionSecrets
 
-**Description**: JSON data representing secrets in a data source entity as individual fields.<br />
-**DisplayName**: Data Source Secrets<br />
-**LogicalName**: connectiondefinitionsecrets<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|JSON data representing secrets in a data source entity as individual fields.|
+|DisplayName|Data Source Secrets|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|connectiondefinitionsecrets|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Enter additional information to describe the environment this data source targets and the purpose of this system.<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1000
+|Property|Value|
+|--------|-----|
+|Description|Enter additional information to describe the environment this data source targets and the purpose of this system.|
+|DisplayName|Description|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityDataProviderId"></a> EntityDataProviderId
 
-**Description**: Choose the entity dataprovider for the entity datasource.<br />
-**DisplayName**: Entity Provider<br />
-**LogicalName**: entitydataproviderid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: contact
+|Property|Value|
+|--------|-----|
+|Description|Choose the entity dataprovider for the entity datasource.|
+|DisplayName|Entity Provider|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entitydataproviderid|
+|RequiredLevel|None|
+|Targets|contact|
+|Type|Lookup|
 
 
 ### <a name="BKMK_EntityDataSourceId"></a> EntityDataSourceId
 
-**Description**: Unique identifier of the Data Source Id<br />
-**DisplayName**: Data Source Id<br />
-**LogicalName**: entitydatasourceid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Data Source Id|
+|DisplayName|Data Source Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|entitydatasourceid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_EntityName"></a> EntityName
 
-**Description**: Entity Logical Name<br />
-**DisplayName**: Entity Logical Name<br />
-**LogicalName**: entityname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Entity Logical Name|
+|DisplayName|Entity Logical Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_IntroducedVersion"></a> IntroducedVersion
 
-**Description**: Version in which the form is introduced.<br />
-**DisplayName**: Introduced Version<br />
-**LogicalName**: introducedversion<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: VersionNumber<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 48
+|Property|Value|
+|--------|-----|
+|Description|Version in which the form is introduced.|
+|DisplayName|Introduced Version|
+|FormatName|VersionNumber|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|introducedversion|
+|MaxLength|48|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_IsCustomizable"></a> IsCustomizable
 
-**Description**: Information that specifies whether this component can be customized.<br />
-**DisplayName**: Customizable<br />
-**LogicalName**: iscustomizable<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: ManagedProperty<br />
+|Property|Value|
+|--------|-----|
+|Description|Information that specifies whether this component can be customized.|
+|DisplayName|Customizable|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|iscustomizable|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
 
 
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Name of this data source. This name appears in the data source drop-down when creating a new entity.<br />
-**DisplayName**: Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 256
+|Property|Value|
+|--------|-----|
+|Description|Name of this data source. This name appears in the data source drop-down when creating a new entity.|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|256|
+|RequiredLevel|None|
+|Type|String|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -193,108 +212,131 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
 
-**Description**: For internal use only.<br />
-**DisplayName**: Component State<br />
-**LogicalName**: componentstate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Published
-- **Value**: 1 **Label**: Unpublished
-- **Value**: 2 **Label**: Deleted
-- **Value**: 3 **Label**: Deleted Unpublished
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
 
 
 
 ### <a name="BKMK_EntityDataProviderIdName"></a> EntityDataProviderIdName
 
-**Description**: <br />
-**DisplayName**: Entity Provider Name<br />
-**LogicalName**: entitydataprovideridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Entity Provider Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entitydataprovideridname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityDataSourceIdUnique"></a> EntityDataSourceIdUnique
 
-**Description**: For internal use only.<br />
-**DisplayName**: Unique Id<br />
-**LogicalName**: entitydatasourceidunique<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Unique Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entitydatasourceidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_IsManaged"></a> IsManaged
 
-**Description**: Indicates whether the solution component is part of a managed solution.<br />
-**DisplayName**: State<br />
-**LogicalName**: ismanaged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the solution component is part of a managed solution.|
+|DisplayName|State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Managed
-- **FalseOption Value**: 0 **Label**: Unmanaged
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier for the organization.<br />
-**DisplayName**: Organization Id<br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the organization.|
+|DisplayName|Organization Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
-**Description**: For internal use only.<br />
-**DisplayName**: Record Overwrite Time<br />
-**LogicalName**: overwritetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Record Overwrite Time|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SolutionId"></a> SolutionId
 
-**Description**: Unique identifier of the associated solution.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: solutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: supportingsolutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 <a name="manytoone"></a>
 
@@ -314,7 +356,7 @@ See entitydataprovider Entity [entitydataprovider_datasource](entitydataprovider
 
 See organization Entity [organization_entitydatasource](organization.md#BKMK_organization_entitydatasource) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

@@ -1,7 +1,7 @@
 ---
 title: "RolePrivileges Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the RolePrivileges entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # RolePrivileges Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Group of privileges used to categorize users to provide appropriate access to entities.
 
@@ -26,17 +24,20 @@ Group of privileges used to categorize users to provide appropriate access to en
 
 ## Entity Properties
 
-**DisplayName**: <br />
-**DisplayCollectionName**: <br />
-**SchemaName**: RolePrivileges<br />
-**CollectionSchemaName**: <br />
-**LogicalName**: roleprivileges<br />
-**LogicalCollectionName**: <br />
-**EntitySetName**: roleprivilegescollection<br />
-**PrimaryIdAttribute**: roleprivilegeid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName||
+|DisplayCollectionName||
+|DisplayName||
+|EntitySetName|roleprivilegescollection|
+|IsBPFEntity|False|
+|LogicalCollectionName||
+|LogicalName|roleprivileges|
+|OwnershipType|None|
+|PrimaryIdAttribute|roleprivilegeid|
+|PrimaryNameAttribute||
+|SchemaName|RolePrivileges|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -50,39 +51,45 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_CanBeDeleted"></a> CanBeDeleted
 
-**Description**: Tells whether the role privilege can be deleted.<br />
-**DisplayName**: Can Be Deleted<br />
-**LogicalName**: canbedeleted<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: ManagedProperty<br />
+|Property|Value|
+|--------|-----|
+|Description|Tells whether the role privilege can be deleted.|
+|DisplayName|Can Be Deleted|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|canbedeleted|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
 
 
 ### <a name="BKMK_PrivilegeDepthMask"></a> PrivilegeDepthMask
 
-**Description**: System-generated attribute that stores the privileges associated with the role.<br />
-**DisplayName**: <br />
-**LogicalName**: privilegedepthmask<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|System-generated attribute that stores the privileges associated with the role.|
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|privilegedepthmask|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_RolePrivilegeId"></a> RolePrivilegeId
 
-**Description**: Unique identifier of the role privilege.<br />
-**DisplayName**: <br />
-**LogicalName**: roleprivilegeid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the role privilege.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|roleprivilegeid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -101,118 +108,143 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
 
-**Description**: For internal use only.<br />
-**DisplayName**: Component State<br />
-**LogicalName**: componentstate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Published
-- **Value**: 1 **Label**: Unpublished
-- **Value**: 2 **Label**: Deleted
-- **Value**: 3 **Label**: Deleted Unpublished
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
 
 
 
 ### <a name="BKMK_IsManaged"></a> IsManaged
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: ismanaged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Managed
-- **FalseOption Value**: 0 **Label**: Unmanaged
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
-**Description**: For internal use only.<br />
-**DisplayName**: Record Overwrite Time<br />
-**LogicalName**: overwritetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Record Overwrite Time|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_PrivilegeId"></a> PrivilegeId
 
-**Description**: Unique identifier of the privilege associated with the role.<br />
-**DisplayName**: <br />
-**LogicalName**: privilegeid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the privilege associated with the role.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|privilegeid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_RoleId"></a> RoleId
 
-**Description**: Unique identifier of the role that is associated with the role privilege.<br />
-**DisplayName**: <br />
-**LogicalName**: roleid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the role that is associated with the role privilege.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|roleid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_RolePrivilegeIdUnique"></a> RolePrivilegeIdUnique
 
-**Description**: For internal use only.<br />
-**DisplayName**: <br />
-**LogicalName**: roleprivilegeidunique<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|roleprivilegeidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SolutionId"></a> SolutionId
 
-**Description**: Unique identifier of the associated solution.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: solutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: supportingsolutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytomany"></a>
 
@@ -225,7 +257,7 @@ Relationship details provided where the RolePrivileges entity is the first entit
 
 See privilege Entity [roleprivileges_association](privilege.md#BKMK_roleprivileges_association) Many-To-Many Relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

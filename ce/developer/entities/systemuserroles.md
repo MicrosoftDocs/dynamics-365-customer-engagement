@@ -1,7 +1,7 @@
 ---
 title: "SystemUserRoles Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SystemUserRoles entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -13,7 +13,8 @@ manager: "jdaly"
 ---
 # SystemUserRoles Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+
 
 ## Messages
 
@@ -23,17 +24,20 @@ manager: "jdaly"
 
 ## Entity Properties
 
-**DisplayName**: <br />
-**DisplayCollectionName**: <br />
-**SchemaName**: SystemUserRoles<br />
-**CollectionSchemaName**: <br />
-**LogicalName**: systemuserroles<br />
-**LogicalCollectionName**: <br />
-**EntitySetName**: systemuserrolescollection<br />
-**PrimaryIdAttribute**: systemuserroleid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName||
+|DisplayCollectionName||
+|DisplayName||
+|EntitySetName|systemuserrolescollection|
+|IsBPFEntity|False|
+|LogicalCollectionName||
+|LogicalName|systemuserroles|
+|OwnershipType|None|
+|PrimaryIdAttribute|systemuserroleid|
+|PrimaryNameAttribute||
+|SchemaName|SystemUserRoles|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -43,14 +47,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_SystemUserRoleId"></a> SystemUserRoleId
 
-**Description**: For internal use only.<br />
-**DisplayName**: <br />
-**LogicalName**: systemuserroleid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|systemuserroleid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -63,37 +69,43 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_RoleId"></a> RoleId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: roleid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|roleid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SystemUserId"></a> SystemUserId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: systemuserid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|systemuserid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytomany"></a>
 
@@ -106,7 +118,7 @@ Relationship details provided where the SystemUserRoles entity is the first enti
 
 See systemuser Entity [systemuserroles_association](systemuser.md#BKMK_systemuserroles_association) Many-To-Many Relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

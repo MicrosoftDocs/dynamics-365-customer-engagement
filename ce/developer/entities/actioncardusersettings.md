@@ -1,7 +1,7 @@
 ---
 title: "ActionCardUserSettings Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ActionCardUserSettings entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # ActionCardUserSettings Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Stores user settings for action cards
 
@@ -30,17 +28,20 @@ Stores user settings for action cards
 
 ## Entity Properties
 
-**DisplayName**: Action Card User Settings<br />
-**DisplayCollectionName**: Action Card User Settings<br />
-**SchemaName**: ActionCardUserSettings<br />
-**CollectionSchemaName**: ActionCardUserSettingses<br />
-**LogicalName**: actioncardusersettings<br />
-**LogicalCollectionName**: actioncardusersettingses<br />
-**EntitySetName**: actioncardusersettingsset<br />
-**PrimaryIdAttribute**: actioncardusersettingsid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|ActionCardUserSettingses|
+|DisplayCollectionName|Action Card User Settings|
+|DisplayName|Action Card User Settings|
+|EntitySetName|actioncardusersettingsset|
+|IsBPFEntity|False|
+|LogicalCollectionName|actioncardusersettingses|
+|LogicalName|actioncardusersettings|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|actioncardusersettingsid|
+|PrimaryNameAttribute||
+|SchemaName|ActionCardUserSettings|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -60,126 +61,152 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_ActionCardUserSettingsId"></a> ActionCardUserSettingsId
 
-**Description**: Unique identifier user entity<br />
-**DisplayName**: <br />
-**LogicalName**: actioncardusersettingsid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier user entity|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|actioncardusersettingsid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_BoolCardOption"></a> BoolCardOption
 
-**Description**: Bolean option for a cardtype.<br />
-**DisplayName**: Bolean option for a cardtype.<br />
-**LogicalName**: boolcardoption<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Bolean option for a cardtype.|
+|DisplayName|Bolean option for a cardtype.|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|boolcardoption|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Check
-- **FalseOption Value**: 0 **Label**: Uncheck
+#### BoolCardOption Options
+
+|Value|Label|
+|-----|-----|
+|1|Check|
+|0|Uncheck|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_CardType"></a> CardType
 
-**Description**: The CardType ENUM value.<br />
-**DisplayName**: CardType ENUM<br />
-**LogicalName**: cardtype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|The CardType ENUM value.|
+|DisplayName|CardType ENUM|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|cardtype|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_CardTypeId"></a> CardTypeId
 
-**Description**: card type attribute<br />
-**DisplayName**: card type<br />
-**LogicalName**: cardtypeid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Lookup<br />
-**Targets**: cardtype
+|Property|Value|
+|--------|-----|
+|Description|card type attribute|
+|DisplayName|card type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|cardtypeid|
+|RequiredLevel|SystemRequired|
+|Targets|cardtype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_IntCardOption"></a> IntCardOption
 
-**Description**: Any int option for a cardtype.<br />
-**DisplayName**: Any int option for a cardtype.<br />
-**LogicalName**: intcardoption<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Any int option for a cardtype.|
+|DisplayName|Any int option for a cardtype.|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|intcardoption|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IsEnabled"></a> IsEnabled
 
-**Description**: Select whether the card is enabled for user or not.<br />
-**DisplayName**: Visibiliy Status of ActionCard<br />
-**LogicalName**: isenabled<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the card is enabled for user or not.|
+|DisplayName|Visibiliy Status of ActionCard|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|isenabled|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Enable
-- **FalseOption Value**: 0 **Label**: Disable
+#### IsEnabled Options
+
+|Value|Label|
+|-----|-----|
+|1|Enable|
+|0|Disable|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Unique identifier of the user or team who owns the settings.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user or team who owns the settings.|
+|DisplayName|Owner|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Type of the owner of the saved view, such as user, team, or business unit.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Type of the owner of the saved view, such as user, team, or business unit.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_StringCardOption"></a> StringCardOption
 
-**Description**: Any string option for a cardtype.<br />
-**DisplayName**: Any string option for a cardtype.<br />
-**LogicalName**: stringcardoption<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 8192
+|Property|Value|
+|--------|-----|
+|Description|Any string option for a cardtype.|
+|DisplayName|Any string option for a cardtype.|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|stringcardoption|
+|MaxLength|8192|
+|RequiredLevel|None|
+|Type|Memo|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -196,93 +223,107 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CardTypeIdName"></a> CardTypeIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: cardtypeidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 256
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|cardtypeidname|
+|MaxLength|256|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner of the saved view.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner of the saved view.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier of the business unit that owns this.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the business unit that owns this.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier of the team who owns this saved view.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the team who owns this saved view.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user who owns this saved view.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who owns this saved view.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytoone"></a>
 
@@ -312,7 +353,7 @@ See team Entity [team_actioncardusersettings](team.md#BKMK_team_actioncarduserse
 
 See businessunit Entity [actioncardusersettings_businessunit](businessunit.md#BKMK_actioncardusersettings_businessunit) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />
