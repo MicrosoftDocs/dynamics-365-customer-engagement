@@ -30,7 +30,7 @@ Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer 
  **Request**
 
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=DisplayName,IsKnowledgeManagementEnabled,EntitySetName&$filter=SchemaName eq 'Account' HTTP/1.1  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')?$select=DisplayName,IsKnowledgeManagementEnabled,EntitySetName HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
