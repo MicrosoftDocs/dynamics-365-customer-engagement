@@ -55,14 +55,6 @@ Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 
 > [!TIP]
 >  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] application. This ensures that the authentication dialog boxes load properly. If it doesn't, you won’t be able to add or reauthorize social profiles.  
-  
-### Add a Facebook page to your social profiles  
-
-  
-5.  After the profile is successfully authenticated, you can select from the list of [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages that the authenticated user administers. After you add the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page, you can find it on the **Social Profiles** page under **Owned profiles**. 
-  
-You can allow Power Analysts and Administrators to create rules for direct messages from this social profile in a search topic. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add rules to a search topic](add-rules-search-topic.md) 
-  
 
 ## Add a social profile
 
@@ -95,9 +87,7 @@ To let other users of your organization post on behalf of a social profile that 
   
 4. Start typing the name of the user or group you want to share the profile with, and then select it from the list.  
   
-   To share the profile with all users in your organization who have access to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], select the **Shared with all users** check box.  
-  
-   > [!IMPORTANT]
+   > [!CAUTION]
    > When you select **Shared with all users**, all users with a **Responder** or **Manager** interaction role will be able to use the social profile for publishing actions (such as replying, commenting, sharing, retweeting, and liking) within [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 5. Click the **Add** button to confirm your selection.  
