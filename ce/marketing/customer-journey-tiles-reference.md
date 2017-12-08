@@ -1,5 +1,5 @@
 ---
-title: "Customer-journey tiles in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Customer-journey tiles (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each tile that is available for assembling a customer journey pipeline for Dynamics 365 for Marketing"
 keywords: "customer journey; tile; reference; pipeline"
 ms.date: 12/15/2017
@@ -18,9 +18,11 @@ topic-status: Drafting
 
 # Customer journey tiles reference
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic describes how to use each of the tiles that are available for constructing a customer journey.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The following tiles are available for constructing a customer journey.
 
 ## Content-type tiles
 
@@ -183,7 +185,7 @@ Trigger tiles hold contacts until some condition is true, or until a defined amo
 
 A typical use of this is to set up an email tile followed by a trigger tile that holds each contact for 7 days, or until he or she opens the message. As soon as a contact opens the message, the trigger sends that contact down the *true* path, which might include tiles designed for contacts that have shown an interest in your messages. However, if the time limit passes and the contact still has not opened the message, then the trigger will send that contact down the *false* path, which might send the original message again, just to make sure.
 
-A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific landing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, landing page, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a child tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email tiles](#email-tiles).
+A wide range of trigger logic is available, and you can combine several rules into a complex logical expression. Some specialized trigger rules are even possible, such as reactions for specific landing page submissions, survey submissions or event registrations, but for these to work, the relevant survey, landing page, or event must be available to the trigger. So, to trigger on an email message, that message must be part of the current customer journey; and to trigger on a click or submission of a survey delivered by that email, that email tile must also have a child tile that links to the appropriate survey setup. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Email](#email).
 
 Trigger tiles are stand-alone, so they never have any parent or child tiles.
 

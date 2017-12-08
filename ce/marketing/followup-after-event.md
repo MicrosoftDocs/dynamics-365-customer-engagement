@@ -1,5 +1,5 @@
 ---
-title: "Evaluate your event and follow up with attendees in Dynamics 365 for Marketing | Microsoft Docs  "
+title: "Evaluate your event and follow up with attendees (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "Learn what you can do to optimize the benefits gained from your event by collecting feedback, analyzing attendance data, and handing leads off to sales from Dynamics 365 for Marketing"
 keywords: "events; event management; survey; attendance"
 author: kamaybac
@@ -16,7 +16,9 @@ ms.reviewer: renwe
 ---
 # Follow up after the event
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 After an event is over, you'll want to evaluate how it went and start following up.
 

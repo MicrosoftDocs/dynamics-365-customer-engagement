@@ -19,17 +19,17 @@ Segment your insights
 
 1.  Open your Customer Insights Customer 360 application.
 
-2.  Select **Show Menu** ![](../media/ShowMenu75.png "Show Menu"). 
+2.  Select **Show Menu** ![Show Menu](../media/ShowMenu75.png "Show Menu"). 
 
 3.  Select **All Options** > **Segmentation**.
 
-    ![](../media/SegmentationNewMenu75.png "Select Segmentation")
+    ![Select Segmentation](../media/SegmentationNewMenu75.png "Select Segmentation")
 
 4.  Under Static select **Create**.
 
 5.  Fill in the values and select **Save**.
 
- ![](../media/SegmentNewStatic75.png "New Static Segment")
+ ![New Static Segment](../media/SegmentNewStatic75.png "New Static Segment")
 
     **Properties**
     |**Item**|**Description**|
@@ -42,18 +42,18 @@ Segment your insights
 
     Choose the members to be included in the segment. For example, the customers who requested to not be contacted.
 
-    ![](../media/SegmentDoNotCallMod650.png "New Static Segment")
+    ![New Static Segment](../media/SegmentDoNotCallMod650.png "New Static Segment")
 
 
  ##Create a dynamic segment
 
 1.  From the Segmentation Dashboard, select **Add** > **Dynamic Segment**.
 
-    ![](../media/SegmentAddDynamic75.png "Add Dynamic Segment"). 
+    ![Add Dynamic Segment](../media/SegmentAddDynamic75.png "Add Dynamic Segment"). 
 
 3.  Fill in the values and select **Save**.
 
- ![](../media/SegmentNewDynamic650.png "New Dynamic Segment")
+ ![New Dynamic Segment](../media/SegmentNewDynamic650.png "New Dynamic Segment")
 
     **Properties**
     |**Item**|**Description**|
@@ -73,13 +73,13 @@ Segment your insights
 
 The following are settings for a dynamic segment to find customers using security products with low satisfaction.
 
-![](../media/SegmentDynamicSocial720.png "Example Dynamic Segment")
+![Example Dynamic Segment](../media/SegmentDynamicSocial720.png "Example Dynamic Segment")
 
 A group consists of profiles joined together by set operations such as union, intersect, and exclude. 
 
 Note that all profiles included with the group end with the node selected in Audience type; in this case, Customer. 
 
-![](../media/SegmentGroupAndAudienceType720.png "Audience Type and Group")
+![Audience Type and Group](../media/SegmentGroupAndAudienceType720.png "Audience Type and Group")
 
 Let's say you want to segment a group that has the following attributes:
 - Customers who use security products
@@ -92,33 +92,33 @@ Here are the steps:
 
 2. In the group, select **Product**, enter "Security" for Product.Category, and then click **Add** (+).
 
-    ![](../media/SegmentProductCategorySec75.png)
+    ![Select Security for Product.Category](../media/SegmentProductCategorySec75.png)
 
-2. For Product.ProductID, enter "5567", click **Add** (+), and then click **And**.
+3. For Product.ProductID, enter "5567", click **Add** (+), and then click **And**.
 
-    ![](../media/SegmentProductID75.png)
+    ![Add Product.ProductId](../media/SegmentProductID75.png)
 
-3. For Customer.CustomerSatisfaction, select **<**, enter "60", the click **Add** (+).
+4. For Customer.CustomerSatisfaction, select **<**, enter "60", the click **Add** (+).
 
-    ![](../media/SegmentCustomerSat75.png)
+    ![Add Customer.CustomerSatisfaction](../media/SegmentCustomerSat75.png)
 
-4. Select **OK** to save these group settings.
+5. Select **OK** to save these group settings.
 
 The group created from these steps consists of people using security products (excluding 5567) whose satisfaction is less than 60 out of 100.
 
 Select the **Query** tab to see the group settings defined as a query.
 
-![](../media/SegmentQuery650.png "Query for the segment")
+![Query for the segment](../media/SegmentQuery650.png "Query for the segment")
 
 ##Create a compound segment
 
 1. From the Segmentation Dashboard, select **Add** > **Compound Segment**.
 
-    ![](../media/SegmentAddCompound75.png "Add Compound Segment"). 
+    ![Add Compound Segment](../media/SegmentAddCompound75.png "Add Compound Segment"). 
 
 2. Fill in the values and select **Save**.
 
- ![](../media/SegmentNewCompound75.png "New Compound Segment")
+ ![New Compound Segment](../media/SegmentNewCompound75.png "New Compound Segment")
 
     **Properties**
     |**Item**|**Description**|
@@ -133,7 +133,7 @@ The following steps show the creation of a compound segment of high credit card 
 
 1. Select the dynamic segment of high balance customers.
 
-    ![](../media/SegmentHighBalance75.png) 
+    ![Select dynamic segment](../media/SegmentHighBalance75.png) 
 
 2. Exclude the customers who do not want to be contacted.
 
@@ -141,17 +141,17 @@ The following steps show the creation of a compound segment of high credit card 
 
     There are four customers who will be excluded.
 
-    ![](../media/SegmentFourDoNotCall75.png)
+    ![Exclude customers](../media/SegmentFourDoNotCall75.png)
 
 3. Select **Save** and the compound segment is added to the dashboard.
 
-![](../media/SegmentDashboardExample720.png "Example dashboard with multiple segments")
+![Example dashboard with multiple segments](../media/SegmentDashboardExample720.png "Example dashboard with multiple segments")
 
 ##View your segment details
 
 Select a segment in the dashboard to see member and trendline information.
 
-![](../media/SegmentInfo720.png "Segment member and trend information")
+![Segment member and trend information](../media/SegmentInfo720.png "Segment member and trend information")
 
 ### See also
 [What is segmentation?](newfeatures.md#what-is-segmentation)

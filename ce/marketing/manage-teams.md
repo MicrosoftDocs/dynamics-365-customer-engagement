@@ -1,5 +1,5 @@
 ---
-title: "Administer teams of users in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Administer teams of users (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Organize users into teams and apply roles to teams in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; user; team; role; permission; fiscal year"
 ms.date: 12/15/2017
@@ -18,11 +18,13 @@ topic-status: Drafting
 
 # Manage teams
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
-1. Go to **Settings** > **Organization** > **Team Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **Team Management**.
 1. Select **Add Team**.
 1. Enter the following details, and then select **Add**.
     - Team Name
@@ -44,7 +46,7 @@ A team is a group of users who share and collaborate on business records. A user
 
 When a team is assigned a role, all team members are assigned the set of privileges associated with that role.
 
-1. Go to **Settings** > **Organization** > **Team Management**.
+1. Go to **Settings** > **Advanced Settings** > **Organization** > **Team Management**.
 1. Select a team you want to assign a role to, and then on the command bar, select **Manage Roles**.
 1. In the **Manage Roles** dialog box, select the security role you want for the team, and then select **OK**.
 

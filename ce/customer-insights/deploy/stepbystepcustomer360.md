@@ -23,7 +23,7 @@ After you've got [!include[pn-customer-insights](../../includes/pn-customer-insi
 
 Create a view to see data presented like this bank branch example.
 
-![](../media/360BranchView40.png "Example bank branch view") 
+![Example bank branch view](../media/360BranchView40.png "Example bank branch view") 
 
 There are two types of views you can create in [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)].
 
@@ -38,17 +38,17 @@ Follow these steps to create a Profile Type view.
 
 2.  On your [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] service instance blade, select **Link to [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] Application** to open it.
 
-    ![](../media/LaunchApp.png "Open the Customer Insights application") 
+    ![Open the Customer Insights application](../media/LaunchApp.png "Open the Customer Insights application") 
 
 3.  In the [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] application, open the leftmost navigation menu by selecting the icon in the upper-left corner.
 
 4.  To create a view for your use, select the **+** button next to **Views**, and then select **Profile Type**. 
 
-    ![](../media/CreateAView.png "Create a view") 
+    ![Create a view](../media/CreateAView.png "Create a view") 
 
 5.  In the **Create A New View** dialog box, enter the **View Name**.
 
-    ![](../media/EnterViewName.png "Enter the View name") 
+    ![Enter the View name](../media/EnterViewName.png "Enter the View name") 
 
 6.  From the **Select A Profile Type** list, choose the profile that you want to target based on the business requirement.
 
@@ -134,17 +134,17 @@ Create a Profile Instance view to enable searching for particular records.
 
 2.  On your [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] service instance blade, select **Link to [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] Application** to open it.
 
-    ![](../media/LaunchApp.png "Open the Customer Insights application") 
+    ![Open the Customer Insights application](../media/LaunchApp.png "Open the Customer Insights application") 
 
 3.  In the [!include[pn-customer-insights](../../includes/pn-customer-insights-short.md)] application, open the leftmost navigation menu by selecting the icon in the upper-left corner.
 
 4.  To create a view for your use, select the **+** button next to **Views**, and then select **Profile Instance**. 
 
-    ![](../media/CreateAView.png "Create a view") 
+    ![Create a view](../media/CreateAView.png "Create a view") 
 
 5.  In the **Create A New View** dialog box, enter the **View Name**.
 
-    ![](../media/EnterViewName.png "Enter the View name") 
+    ![Enter the View name](../media/EnterViewName.png "Enter the View name") 
 
 6.  From the **Select A Profile Type** list, choose the profile that you want to target based on the business requirement.
 
@@ -275,15 +275,15 @@ With the widgets created, you're ready to get some meaningful data.
 
 1. Select the Search icon in the upper-right corner. 
 
-   ![](../media/SearchIcon.png "Select the Search icon") 
+   ![Select the Search icon](../media/SearchIcon.png "Select the Search icon") 
 
 2. Fill in the criteria, and then select **Search**.
 
-   ![](../media/SearchCriteria.png "Fill in Search criteria") 
+   ![Fill in Search criteria](../media/SearchCriteria.png "Fill in Search criteria") 
 
 Note the change in values in the widgets.
 
-![](../media/NewBranchView40.png "New values based on search") 
+![New values based on search](../media/NewBranchView40.png "New values based on search") 
 
 >[!NOTE]
 >**TRY IT!** <br>
@@ -298,4 +298,4 @@ Note the change in values in the widgets.
 </ol>
 >The two widgets are updated with the values for the case ID entered. <br>
 ><br>
->![](../media/ProfInstCase2_650.png "The Profile Instance after a search") <br>
+>![The Profile Instance after a search](../media/ProfInstCase2_650.png "The Profile Instance after a search") <br>

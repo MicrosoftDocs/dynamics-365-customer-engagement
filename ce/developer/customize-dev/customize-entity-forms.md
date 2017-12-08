@@ -72,7 +72,7 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
   
 ### See also  
  [Customize Microsoft Dynamics 365](customize-applications.md)   
- [Create and design forms](https://technet.microsoft.com/library/dn531143.aspx)   
+ [Create and design forms](../../customize/create-design-forms.md)   
  [SystemForm Entity](../entities/systemform.md)   
  [Create or edit how business rules are initiated](create-edit-how-business-rules-initiated.md)   
  [Form XML Schema](form-xml-schema.md)

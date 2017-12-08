@@ -1,5 +1,5 @@
 ---
-title: "Set up a subscription center in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Set up a subscription center (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
 keywords: "tutorial; subscription center; static list; subscription list; marketing page; page"
 ms.date: 11/07/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Set up subscription lists and subscription centers
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
