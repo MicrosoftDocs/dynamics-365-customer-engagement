@@ -235,11 +235,11 @@ Splitter-branch tiles provide the following settings in the **Properties** pane 
 - **Percentage** or **Value**: When the preceding splitter tile is set to split by percentage, set the percentage of contacts that should be sent down this branch. When the preceding splitter tile is set to split by value, enter the total number of contacts that should go down that branch.
 - **Description**: Add a description or other notes here (optional).
 
-## Create custom channels for customer journeys
+## Custom content tiles
 
-Beyond the out-of-the box channels provided in customer journeys, you can create custom channels to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You can create a custom channel, such as text (SMS) or Social Media, and expose the channel as a "tile" in the journey designer. These custom channels provide similar capabilities as the out-of-the box channels such as sending communication, tracking customer interactions, and adding triggers to branch the paths within customer journey.
+Custom content tiles provide similar capabilities as the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. 
 
-The custom channel development takes advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] such as custom entities, workflows, and plugins, which allows developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to build custom channels.
+Custom channels take advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
 ### See also
 
