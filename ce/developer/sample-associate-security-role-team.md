@@ -2,7 +2,7 @@
 title: "Sample: Associate a security role to a team (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to assign a security role to a team by using the AssignRequest message."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
