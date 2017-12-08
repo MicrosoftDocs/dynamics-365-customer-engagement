@@ -276,6 +276,8 @@
 #### [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
 #### [Step 3: Create a package for your app](create-package-app-appsource.md)
 #### [Step 4: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
+#### [Next steps: Submit your app on Cloud Partner Portal](next-steps-submit-app-cloud-partner-portal.md)
+
 ## [Create and manage custom business apps using code](create-manage-custom-business-apps-using-code.md)
 
 ## [Extend Outlook Client](outlook-client/)

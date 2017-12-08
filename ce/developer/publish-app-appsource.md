@@ -22,7 +22,7 @@ manager: "amyla"
 
 Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement subscribers can find it, try it, and buy it.  
   
-Before you proceed to publish your app on the AppSource, you must visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners), and read the **App review guidelines** to understand whether your app is a good fit for AppSource. All apps that are listed on AppSource must go through a certification process.
+Before you proceed to publish your app on the AppSource, you must visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners), and read the **App review guidelines** to understand whether your app is a good fit for AppSource.
 
 Publishing an app to AppSource involves a series of steps such as registering on the Microsoft Partner Network (MPN), preparing your app for submission using solution and package, and finally creating an offer on the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app. 
 - Instructions about making your app ready for submission will be covered in this document.
@@ -37,6 +37,8 @@ Use the following steps to publish an app on AppSource:
 > [Step 3: Create a package for your app](create-package-app-appsource.md)
 
 > [Step 4: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
+
+> [Next steps: Submit your app on Cloud Partner Portal](next-steps-submit-app-cloud-partner-portal.md)
   
   
  <!--If your app is a good fit, please proceed to the next step to submit your app. The specific process for this may change over time, but at the time this was written the process consists of a form where you will let us know about your app and how to contact you. After that, someone will contact you and help lead you through the process of registering your app.  
@@ -61,5 +63,4 @@ Use the following steps to publish an app on AppSource:
 -   With your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Package you will need to provide a number of test cases and use cases which will be reviewed as part of the certification process.-->  
   
 ### See also  
- [Video: Microsoft AppSource: find the right app for your business](https://youtu.be/hpq_Y9LuIB8)   
- [Plan For Solution Development](plan-solution-development.md)
+ [Video: Microsoft AppSource: find the right app for your business](https://youtu.be/hpq_Y9LuIB8) 
