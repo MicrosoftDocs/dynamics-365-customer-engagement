@@ -1,14 +1,19 @@
 ---
-title: "Social Engagement 2017 Update 1.8 Readme"
-ms.date: 12/13/2017
+title: "Social Engagement 2017 Update 1.11 Readme"
+description: "Important and late-breaking information about Microsoft Social Engagement"
+keywords: "readme, known issues, information"
+ms.date: 12/08/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 Social Engagement 2017 Update 1.11 Readme
 =========================================
 
