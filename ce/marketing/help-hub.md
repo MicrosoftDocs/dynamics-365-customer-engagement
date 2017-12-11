@@ -63,6 +63,7 @@ topic-status: Drafting
 <li>[Set up subscription lists and subscription centers](set-up-subscription-center.md)</li>
 
 </td></tr>
+
 <tr><td>
 <h2>Marketing with Dynamics 365</h2>
 <li>[Design digital content](design-digital-content.md)</li>
@@ -77,7 +78,6 @@ topic-status: Drafting
 <li>[Analyze results with Power BI](power-bi-analytics.md)</li>
 </td><td>
 
-<td>
 <h2>Extend the system</h2>
 <li>[Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)</li>
 </td></tr>
