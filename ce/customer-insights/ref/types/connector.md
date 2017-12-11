@@ -2,8 +2,8 @@
 title: Connector Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: Data connectors enable Customer Insights to consume different types of data sources, on an on-going basis and at scale.
 keywords: Customer Insights; type; Connector
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/26/2017
 ms.topic: reference

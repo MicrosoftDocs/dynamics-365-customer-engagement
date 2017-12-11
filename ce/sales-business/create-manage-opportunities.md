@@ -1,12 +1,14 @@
 ---
-title: "Manage opportunities in Dynamics 365 for Sales | Microsoft Docs"
-description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales."
+title: "Manage opportunities (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales, Preview."
 keywords: "Deal; Opportunity; sales transaction"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: e203546f-2215-485a-8c52-34e81b90794b
 author: shubhadaj
 ms.author: shujoshi
@@ -15,11 +17,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Manage opportunities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Manage opportunities in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You must link a new opportunity to an existing account or contact.  
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, an opportunity is a potential sale, like a lead, but with an opportunity you can forecast revenue, set a potential close date, and factor in a probability for the sale. You must link a new opportunity to an existing account or contact.  
 
 ## Create and convert opportunities
 
@@ -149,6 +153,6 @@ Whether you win a sale or close an opportunity, you probably want to close it. 
 
 
 ### See Also
-[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)  
-[Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales](create-manage-activities.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)  
+[Manage tasks, appointments, email, or phone calls in Dynamics 365 for Sales, Preview](create-manage-activities.md)

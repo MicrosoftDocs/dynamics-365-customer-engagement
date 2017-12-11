@@ -34,10 +34,10 @@ Your applications can adapt to configuration changes by querying the metadata. W
   
 |Metadata item|Alternate Key|Example|  
 |-------------------|-------------------|-------------|  
-|Entity|LogicalName|`GET /api/data/v8.2/EntityDefinitions(LogicalName='account')`|  
-|Attribute|LogicalName|`GET /api/data/v8.2/EntityDefinitions(LogicalName='account')/Attributes(LogicalName='emailaddress1')`|  
-|Relationship|SchemaName|`GET /api/data/v8.2/RelationshipDefinitions(SchemaName='Account_Tasks')`|  
-|Global Option Set|Name|`GET /api/data/v8.2/GlobalOptionSetDefinitions(Name='metric_goaltype')`|  
+|Entity|LogicalName|`GET /api/data/v9.0/EntityDefinitions(LogicalName='account')`|  
+|Attribute|LogicalName|`GET /api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes(LogicalName='emailaddress1')`|  
+|Relationship|SchemaName|`GET /api/data/v9.0/RelationshipDefinitions(SchemaName='Account_Tasks')`|  
+|Global Option Set|Name|`GET /api/data/v9.0/GlobalOptionSetDefinitions(Name='metric_goaltype')`|  
   
 <a name="bkmk_exampleByName"></a>
 
@@ -144,10 +144,10 @@ OData-Version: 4.0
   
 |Metadata item|Example|  
 |-------------------|-------------|  
-|Entity|`GET /api/data/v8.2/EntityDefinitions(<Entity MetadataId>)`|  
-|Attribute|`GET /api/data/v8.2/EntityDefinitions(<Entity MetadataId>)/Attributes(<Attribute MetadataId>)`|  
-|Relationship|`GET /api/data/v8.2/RelationshipDefinitions(<Relationship MetadataId>)`|  
-|Global Option Set|`GET /api/data/v8.2/GlobalOptionSetDefinitions(<OptionSet MetadataId>)`|  
+|Entity|`GET /api/data/v9.0/EntityDefinitions(<Entity MetadataId>)`|  
+|Attribute|`GET /api/data/v9.0/EntityDefinitions(<Entity MetadataId>)/Attributes(<Attribute MetadataId>)`|  
+|Relationship|`GET /api/data/v9.0/RelationshipDefinitions(<Relationship MetadataId>)`|  
+|Global Option Set|`GET /api/data/v9.0/GlobalOptionSetDefinitions(<OptionSet MetadataId>)`|  
   
 ### Example: Retrieve metadata items by MetadataId  
  To achieve the same result as shown in [Example: Retrieve metadata items by name](#bkmk_exampleByName), you will need to perform a series of query operations to get the `MetadataId` by filtering by the entity `LogicalName` and then by the attribute `LogicalName`.  

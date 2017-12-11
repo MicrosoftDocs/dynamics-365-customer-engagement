@@ -49,7 +49,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 <a name="BKMK_ActiveUsers"></a>   
 
 ## Active users
- ![](media/organization-insights-active-users-chart.png "Organization Insights Active Users chart")
+ ![Organization Insights Active Users chart](media/organization-insights-active-users-chart.png "Organization Insights Active Users chart")
   
 ### What's included in this chart  
   

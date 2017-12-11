@@ -2,8 +2,8 @@
 title: Image Management APIs (Hub)
 description: These APIs help associate images with types.
 keywords: Customer Insights; Hub API; image;
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

@@ -2,8 +2,8 @@
 title: Create or Update Prediction Type (Hub)
 description: Creates a new or updates an existing Prediction.
 keywords: Customer Insights; Hub API; prediction; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/29/2017
 ms.topic: reference

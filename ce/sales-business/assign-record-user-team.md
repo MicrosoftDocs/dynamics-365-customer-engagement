@@ -1,12 +1,14 @@
 ---
-title: "Assign a record to a user or team in Dynamics 365 for Sales | Microsoft Docs"
-description: "Assign a record to other user in Dynamics 365 for Sales."
+title: "Assign a record to a user or team (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Assign a record to other user in Dynamics 365 for Sales, Preview."
 keywords: "Assign; User; Team; sales"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 402a1981-0eee-484f-83ae-54d38ae55fbb
 author: shubhadaj
 ms.author: shujoshi
@@ -16,6 +18,8 @@ topic-status: Drafting
 ---
 
 # Assign a record to a user or team
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -36,5 +40,5 @@ You can also assign a record to a team, or to yourself.
 6.  Select **Assign**.
 
 ### See Also
-[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](learn-basics.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Learn the Basics](learn-basics.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

@@ -1,12 +1,14 @@
 ---
-title: "Dynamics 365 for Sales overview | Microsoft Docs"
+title: "Overview (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Get an overview of Dynamics 365 for Sales and its capabilities"
 keywords: "Dynamics 365 for Sales; Office 365 integration; Business process flow"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: crm-online
+ms.custom: Sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: ccdffcfc-fb43-4119-b7a0-47fca20f6f4e
 author: shubhadaj
 ms.author: shujoshi
@@ -15,28 +17,26 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Dynamics 365 Sales Overview
+# Overview of Dynamics 365 for Sales, Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-So, now you’re a user of the [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)] app designed especially for businesses like yours. 
 
-This new Sales app is is built on a new Unified Interface, designed from the ground up with accessibility in mind, which means:
+> [!IMPORTANT]
+> [Learn about the usage and extensibility restrictions for Dynamics 365 for Sales, Preview](https://go.microsoft.com/fwlink/p/?linkid=850959).
 
--  People with screen readers can skip to content directly and navigate to sections that are important to them.
+Welcome to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview. If you don't need a full-fledged enterprise app for your organization, the new [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview app is for you. 
 
--  People using reading plugins receive great results.
+This offering, available online-only and built on the new Unified Interface framework, contains a targeted set of sales capabilities to get your organization up and running quickly.
 
--  People using browser plugins can jump to specific sections on a page.
+It is designed from the ground up with accessibility in mind, and uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
--  Keyboard users can save time and effort by using the tab key and keyboard shortcuts.
-
-The app comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
+[!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview comes with a wizard that simplifies the setup process, including connecting email, sharing documents,
 and importing data.
 
 Plus, sellers will find a streamlined lead to cash process, easier account, contact, and opportunity management, and dashboards that make it faster to visualize useful information at a glance.
-
-The new Sales application also uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. For example, subgrids morph into lists for smaller screen sizes.
 
 ![Image for Dynamics 365 for Sales](media/sales-app-image.png "Image for Dynamics 365 for Sales")
 
@@ -82,7 +82,8 @@ You’ll also find quick access to any favorite customers you’ve pinned and yo
 
 ##  Feature highlights
 
-Here are some highlights of [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+Here are some highlights of [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
 -   **Visual insights.** The out-of-the-box dashboards and charts have almost everything that you would need to get insight into your business. 
 
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Gain insights with dashboards in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](gain-insights-dashboards.md)
@@ -134,5 +135,5 @@ Here are some highlights of [!INCLUDE[pn-sales-business-doc-name](../includes/pn
  
  
 ### See Also
-[Signing in to [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](learn-basics.md)  
-[Administrator and Sales Manager Guide](administrator-sales-manager-guide.md)
+[Learn the basics](learn-basics.md)  
+[Quick Setup & Advanced Settings Overview](quick-setup-advanced-settings-overview.md)

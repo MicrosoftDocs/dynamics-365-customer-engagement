@@ -2,8 +2,8 @@
 title: Create or Update Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates a new or updates an existing Hub.  
 keywords: Customer Insights; ARM API; Hub; create
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/07/2017
 ms.topic: reference

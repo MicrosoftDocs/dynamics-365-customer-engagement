@@ -2,8 +2,8 @@
 title: Get a Role Assignment (Hub)
 description: Gets the specified Role Assignment.
 keywords: Customer Insights; Hub API; role assignment; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference

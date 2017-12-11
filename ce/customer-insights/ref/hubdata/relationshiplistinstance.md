@@ -2,8 +2,8 @@
 title: List Relationship Instances (Hub Data)
 description: List instances of a custom Relationship type. 
 keywords: Customer Insights; Hub Data API; Relationship instance; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/20/2017
 ms.topic: reference

@@ -2,8 +2,8 @@
 title: Create Profile Instance (Hub Data)
 description: Creates a new Profile instance. 
 keywords: Customer Insights; Hub Data API;  Profile instance; create
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/17/2017
 ms.topic: reference

@@ -2,8 +2,8 @@
 title: Profile Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: A Profile contains a set of properties that describe an entity in a specific context.
 keywords: Customer Insights; type; profile
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/09/2017
 ms.topic: reference

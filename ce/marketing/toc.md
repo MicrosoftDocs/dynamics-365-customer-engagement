@@ -1,11 +1,12 @@
 # [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
+
+## [About the Preview](about-preview.md)
  
 ## [Administrator Guide](admin-guide.md)
 
 ### [First time setup](purchase-setup.md)
-### [Use your own Azure subscription for Customer Insights](setup-licensed-dci.md)
 ### [Open the administration settings](open-advanced-settings.md)
 ### [Organization settings](organization-settings.md)
 #### [Manage users](manage-users.md)

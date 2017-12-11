@@ -2,8 +2,8 @@
 title: Delete Link (ARM)
 description: Deletes a Link.  
 keywords: Customer Insights; ARM API; Link; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/09/2017
 ms.topic: reference

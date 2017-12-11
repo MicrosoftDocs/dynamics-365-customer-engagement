@@ -1,24 +1,28 @@
 ---
-title: "Administer users, teams, templates, and themes in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Administer users, teams, templates, and themes (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Make settings that relate to your organization, including: add new user accounts, set user permissions, add Word and Excel templates for exports, set the fiscal year, and change the general appearance in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; user; team; role; permission; fiscal year"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: 8bf059f0-4159-4a44-bb96-bbe6ce3cd407
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Organization settings
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This section describes the following settings pages, which are available in the **Organization settings** section of the **Settings** work area:
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+This following pages are available in the **Settings** > **Advanced Settings** > **Organization** section:
 
 - **User Management**: Manage user accounts and assign security roles. [!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Manage users](manage-users.md)
 - **Team Management**: Organize users into teams and apply roles to teams. [!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Manage teams](manage-teams.md)

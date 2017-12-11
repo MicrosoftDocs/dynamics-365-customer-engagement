@@ -2,8 +2,8 @@
 title: Predictive Match Policy Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: A Predictive Match Policy defines the criteria used to find matching profiles or interactions.
 keywords: Customer Insights; type; predictive match policy
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/13/2017
 ms.topic: reference

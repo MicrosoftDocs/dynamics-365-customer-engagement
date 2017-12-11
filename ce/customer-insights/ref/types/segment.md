@@ -2,8 +2,8 @@
 title: Segment Type Definition
 description: A Segment defines a group of profiles with similar properties.
 keywords: Customer Insights; type; segment
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/01/2017
 ms.topic: reference

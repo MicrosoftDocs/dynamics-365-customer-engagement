@@ -40,8 +40,6 @@ We're sorry you're having a problem with [!INCLUDE[pn_microsoftcrm](../includes/
   
 -   [Troubleshooting and things to know about Dynamics 365 for phones and tablets](../mobile-app/troubleshooting-things-know-about-phones-tablets.md)  
   
--   [Troubleshoot a Dynamics 365 for Windows app start-up error](../mobile-app/troubleshoot-windows-app-start-up-error.md)  
-  
 ## Dynamics 365 (online)  
   
 -   [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)  

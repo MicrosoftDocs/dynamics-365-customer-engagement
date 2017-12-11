@@ -2,8 +2,8 @@
 title: Type Modeling APIs (ARM)
 description: These APIs enable management of the primary modeling entity types for a Hub.
 keywords: Customer Insights; ARM API; type; modeling 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/27/2017
 ms.topic: reference

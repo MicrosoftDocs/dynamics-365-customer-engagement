@@ -2,8 +2,8 @@
 title: Get Widget Type (Hub) 
 description: Gets the specified Widget type.
 keywords: Customer Insights; Hub API; application packaging; widget; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2016
 ms.topic: reference

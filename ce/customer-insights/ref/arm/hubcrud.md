@@ -2,8 +2,8 @@
 title: Hub CRUD APIs (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: These APIs help perform CRUD operations on Customer Insights Hubs. 
 keywords: Customer Insights; ARM API; Hub; CRUD
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

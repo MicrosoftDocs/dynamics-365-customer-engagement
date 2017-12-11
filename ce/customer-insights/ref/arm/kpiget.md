@@ -2,8 +2,8 @@
 title: Read a KPI Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified KPI type.
 keywords: Customer Insights; ARM API; KPI; read
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/02/2016
 ms.topic: reference

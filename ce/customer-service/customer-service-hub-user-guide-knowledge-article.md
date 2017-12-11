@@ -61,7 +61,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 5.  In the **Content** section, add the content for your knowledge article.  
   
     > [!NOTE]
-    >  As soon as you click inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles](#use-the-rich-text-editor-to-create-knowledge-articles "rich text editor for knowledge article")
+    >  As soon as you click inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
 6. Select **Save**. 
    
@@ -83,8 +83,8 @@ Posts about knowledge article-related activities will begin appearing in the **T
   
 <a name="bkmk_RTE"></a>   
 
-## Use the rich text editor to create knowledge articles
- Create rich and well-formatted content for knowledge articles using the new rich text editor in the Customer Service Hub. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
+## Use the rich text editor to create knowledge articles and emails
+ Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the Customer Service Hub. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
 
 The **Content** editor panel consists of three tabs:
 
@@ -109,9 +109,9 @@ You can choose a specific format or style for the content you’re writing.
 |**5**. Bold|Apply bold formatting to the selected text.|  
 |**6**. Italic|Apply italic formatting to the selected text.|  
 |**7**. Underline|Underline the selected text.|  
-|**8**.Strikethrough|Mark selected text for deletion.|  
+|**8**. Strikethrough|Mark selected text for deletion.|  
 |**9**. Text Color|Choose a text color for the selected text.|  
-|**10**.Background Color|Choose a background color for the selected text.|  
+|**10**. Background Color|Choose a background color for the selected text.|  
 |**11**. Align Left|Left align the text. When you align your text left, the paragraph is aligned with the left margin and the text is ragged on the right side. **Note:**  This option is available in the expanded mode only.|  
 |**12**. Center|Center align the text. When you center align the text, the paragraph is aligned symmetrically along the vertical axis and the text is ragged on the both sides. **Note:**  This option is available in the expanded mode only.|  
 |**13**. Align Right|Right align the text. When you align your text right, the paragraph is aligned with the right margin and the text is ragged on the left side. **Note:**  This option is available in the expanded mode only.|  
@@ -122,7 +122,7 @@ You can choose a specific format or style for the content you’re writing.
 |**18**. Paste as Plain Text|Paste the clipboard data as plain text, without the source formatting and styling.|  
 |**19**. Paste From Word|Paste content from [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] with the original content formatting.  This will retain:<br /><br /> -   Spacing and line breaks<br />-   Ordered and unordered lists<br />-   Tables<br />-   Font styles and colors **Note:**  Images won’t be copied from [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)].|  
 |**20**. Insert Table|Insert a table, and specify the table properties.|  
-|**21**. Image| Insert an image.<br /><br /> <ol><li>Choose Insert Image.</li><li>In the **Image Info** tab, specify the web address of the image, and also specify properties to define how the image will appear in the article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path.</li><li>If you want the image to be a clickable link, in the **Link** tab, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>To configure additional image options, use the **Advanced** tab. This is meant for advanced users with knowledge of HTML and CSS, and lets you change the presentation of the image.<br /><br /> <ul><li>**ID**. Type a unique identifier for an image element in the document (`id` attribute).</li><li>**Language Direction**. Choose the direction of the text.</li><li>**Language Code.** Type the language of the image element specified.</li><li>**Long Description URL**. Type the web address of an HTML page containing a longer description of the image.</li><li>**Stylesheet Classes**. Enter the class of the image element (class attribute). Note that an image element might be assigned more than one class. If this is the case, separate class names with spaces.</li><li>**Advisory Title**. Enter the text of the tooltip that is shown when the mouse cursor hovers over the image.</li><li>**Style**. Enter the CSS style definitions. Note that each value must end with a semicolon and individual properties should be separated with spaces.</li></ul></li></ol>|  
+|**21**. Image| Insert an image.<br /><br /> <ol><li>Choose Insert Image.</li><li>In the **Image Info** tab, specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path.</li><li>If you want the image to be a clickable link, in the **Link** tab, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>To configure additional image options, use the **Advanced** tab. This is meant for advanced users with knowledge of HTML and CSS, and lets you change the presentation of the image.<br /><br /> <ul><li>**ID**. Type a unique identifier for an image element in the document (`id` attribute).</li><li>**Language Direction**. Choose the direction of the text.</li><li>**Language Code.** Type the language of the image element specified.</li><li>**Long Description URL**. Type the web address of an HTML page containing a longer description of the image.</li><li>**Stylesheet Classes**. Enter the class of the image element (class attribute). Note that an image element might be assigned more than one class. If this is the case, separate class names with spaces.</li><li>**Advisory Title**. Enter the text of the tooltip that is shown when the mouse cursor hovers over the image.</li><li>**Style**. Enter the CSS style definitions. Note that each value must end with a semicolon and individual properties should be separated with spaces.</li></ul></li></ol>|  
 |**22**. Link|Add clickable hyperlinks or email addresses to your documents. In the **Link** dialog box choose the type of link you’d like to insert.<br /><br /> The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br /> The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it.|  
 |**23**. Unlink|When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text.|  
 |**24**. Anchor|You can add anchors in document text. After you add anchors, you can link to these anchors for easier navigation.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Ente a name for the anchor, and then click **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor.|  
@@ -131,7 +131,7 @@ You can choose a specific format or style for the content you’re writing.
  
   
 > [!IMPORTANT]
->  You can’t use client-side code (script tags or [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]) in articles. If you want to associate CSS or [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], use web resources. 
+>  You can’t use client-side code (script tags or [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)]) in articles or emails. If you want to associate CSS or [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], use web resources. 
 
 > [!NOTE]
 > In mobile devices, where you have comparatively smaller screen sizes, limited set of formatting options will be displayed.

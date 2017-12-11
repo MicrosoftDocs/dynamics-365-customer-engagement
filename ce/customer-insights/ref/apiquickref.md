@@ -2,8 +2,8 @@
 title: Microsoft Dynamics 365 for Customer Insights API Quick Reference | MicrosoftDocs
 description: 
 keywords: Customer Insights; quick reference; Hub API; ARM API;
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/26/2017
 ms.topic: reference
