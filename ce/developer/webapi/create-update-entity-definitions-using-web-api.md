@@ -2,7 +2,7 @@
 title: "Create and update entity definitions using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about creating and updating entity definitions using the Web API."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
