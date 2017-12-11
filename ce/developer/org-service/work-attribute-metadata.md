@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 5fc61379-4811-4b3c-9bac-2227ce5662e2
-caps.latest.revision: 25
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
