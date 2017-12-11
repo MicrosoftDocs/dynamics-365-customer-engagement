@@ -31,7 +31,10 @@ The following illustration provides a high-level overview of the operation flow 
 3. Activity execution feedback is processed through a custom action, **Custom Channel Activity Create Interaction**, and the interactions are sent to Dynamics 365 for Customer Insights to enable analytics and triggers on the interactions. For example, one message could generate 3 interactions: sent, delivered, opened.
   
   
-### See also  
- [Administrator Guide (Marketing)](../../marketing/admin-guide.md)
-   
- [User Guide (Marketing)](../../marketing/user-guide.md)   
+### See also 
+
+[Workflows overview](../../customize/workflow-processes.md)
+
+[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md) 
+
+[Dynamics 365 for Customer Insights](../../customer-insights/getstart.md)   
