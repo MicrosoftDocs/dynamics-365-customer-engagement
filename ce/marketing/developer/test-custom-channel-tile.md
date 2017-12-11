@@ -38,7 +38,7 @@ To make the custom channel tile visible in the customer journey designer:
 
 ### See also
 
-[Web resources for Customer Engagement](../web-resources.md)
+[Web resources for Customer Engagement](../../developer/web-resources.md)
 
 
 
