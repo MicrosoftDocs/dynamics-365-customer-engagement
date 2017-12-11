@@ -24,7 +24,7 @@ You must create an AppSource package, a compressed .zip file, to bundle your sol
 |File|Description|
 |--|--|
 |Package file|A package file used by Package Deployer tool to deploy your solutions and demo configuration data into multiple languages.|
-|[Content_Types].xml|File that provides MIME type information of the file type extensions of the files included in the AppSource package. Typically, these are .dll, .xml, .exe, and .config file types, but you can add almost any file type that iss supported by Windows.|
+|[Content_Types].xml|File that provides MIME type information of the file type extensions included in the AppSource package. Typically, these are .config, .dll, .exe, .xml, and .zip file types, but you can add almost any file type that is supported by Windows.|
 |Icon file|An image file for the appsource package icon; size should be 32x32 pixels. Valid image formats are PNG and JPG.|
 |HTML file|File containing your License terms.|
 |input.xml|Files that describes the assets in your AppSource package.|

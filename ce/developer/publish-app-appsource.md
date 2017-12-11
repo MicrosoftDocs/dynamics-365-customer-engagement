@@ -34,7 +34,7 @@ Preparing an app for publishing on AppSource involves a series of steps such as 
 
 > [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
 
-> [Step 3: Create a package for your app](create-package-app-appsource.md)
+> [Step 3: Create an AppSource package for your app](create-package-app-appsource.md)
 
 > [Step 4: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
 
