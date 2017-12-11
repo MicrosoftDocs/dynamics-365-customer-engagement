@@ -19,7 +19,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
- Using <xref:Microsoft.Xrm.Sdk.Messages.UpdatedRequest> you can now update certain entity attribute values. The following table identifies the specialized deprecated message requests and the related message attributes that can be updated using <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>.
+ Using <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> you can now update certain entity attribute values. The following table identifies the specialized deprecated message requests and the related message attributes that can be updated using <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>.
   
 |Deprecated message request|Attribute to update|  
 |--------------------------------|-------------------------|  
