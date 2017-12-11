@@ -2,7 +2,7 @@
 title: "Work with attribute metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample code demonstrates creating, retriving, updating and attributes, and creating lookup, creating a picklist that uses a global option set, inserting a new status value, updating a state value and so on. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic uses code snippets from the [Sample: Work with Attributes](sample-work-attribute-metadata.md) to show how to perform common tasks when working with attributes.  
+This topic uses code snippets from the [Sample: Work with attribute metadata](sample-work-attribute-metadata.md) to show how to perform common tasks when working with attributes.
   
 <a name="BKMK_CreateAttributes"></a>   
 ## Create attributes  
