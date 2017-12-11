@@ -18,8 +18,6 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 <table>
 
 <tr><td>
@@ -36,7 +34,8 @@ manager: "amyla"
 <li>[Introduction to entities](../../developer/introduction-entities.md)</li>
 <li>[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)</li>
 <li>[Automate your business processes in Customer Engagement](../../developer/automate-business-processes-customer-engagement.md)</li>
-<li>[Workflows overview](../../customize/workflow-processes.md)
+<li>[Workflows overview](../../customize/workflow-processes.md)</li>
+<li>[Web resources for Customer Engagement](../../developer/web-resources.md)</li>
 
 </td></tr>
 </table>

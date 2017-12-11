@@ -77,5 +77,8 @@ topic-status: Drafting
 <li>[Analyze results with Power BI](power-bi-analytics.md)</li>
 </td><td>
 
+<td>
+<h2>Extend the system</h2>
+<li>[Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)</li>
 </td></tr>
 </table>
