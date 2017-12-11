@@ -102,6 +102,7 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Custo
 <h2> Additional resources </h2>
 
 <li>[Connected Field Service](connected-field-service-developer-guide.md)</li>
+<li>[Marketing](../marketing/developer/marketing-developer-guide.md)</li>
 <li>[Sample code directory](sample-code-directory.md)</li>
 <li>[Tools on NuGet](download-tools-nuget.md)</li>
 </td>
