@@ -40,9 +40,7 @@ Preparing an app for publishing on AppSource involves a series of steps such as 
 
 ## Submitting your app on Cloud Partner Portal
 
-Once your app is ready for submission, you use the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app to be listed on the Microsoft AppSource.
-
-Access to the Cloud Partner Portal and related documentation is available only to Microsoft Partner Network members.
+Once your app is ready for submission, you use the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app to be listed on the Microsoft AppSource. Access to the Cloud Partner Portal and related documentation is available only to Microsoft Partner Network members.
 
 More information: [Next steps: Submit your app on Cloud Partner Portal](next-steps-submit-app-cloud-partner-portal.md)
   
