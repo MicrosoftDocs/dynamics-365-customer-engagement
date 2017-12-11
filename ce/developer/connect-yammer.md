@@ -20,7 +20,14 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to connect directly to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for social networking in your company. Before you set up a connection to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must purchase [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses for your organization, such as an Enterprise Network or [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] + [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account.  
+To enhance your organization’s collaboration, use [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to connect directly to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)], a powerful tool for social networking in your company. 
+
+### Prerequisites 
+
+- Before you set up a connection to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], you must purchase [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] enterprise licenses for your organization, such as an Enterprise Network or [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] + [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] account.
+
+- [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] integration is only available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].
+
   
 > [!NOTE]
 >  Connecting to [!INCLUDE[pn_yammer](../includes/pn-yammer.md)] is a one-way process. After the connection is established, it can’t be removed.  
