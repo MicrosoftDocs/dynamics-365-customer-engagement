@@ -64,7 +64,7 @@ Identify potential leads on social media and let your sales team know about them
 
 Have you launched or refreshed a product or service? Let your marketing team share it with the world. Publish posts and engage with your communities on social media with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
-1. [Add social profiles](manage-social-profiles.md) and [share](manage-social-profiles.md#let-other-users-work-with-your-social-profile) them with your team.
+1. [Add social profiles](manage-social-profiles.md) and [share](manage-social-profiles.md#share-a-social-profile-with-other-users) them with your team.
 
 2. [Publish](publish-react-posts.md) your news to social networks to spread the word about your products and services.
 
