@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 12/08/2017
+ms.date: 12/12/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -18,7 +18,7 @@ topic-status: Drafting
 
 *Social profiles* are the profiles on social networks that you authenticate by using [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. These profiles represent your organization or business on social media. You use them to interact with posts on your behalf from within the application.  
   
-To [publish or react to posts](publish-react-posts.md), you need active social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
+To [publish or react to posts](publish-react-posts.md), you need active social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. 
   
 Data acquisition and acquisition of private messages from your social profiles require [access tokens](manage-access-tokens.md), and you need to explicitly allow data acquisition before you can view or interact with any posts. No posts are published on your profiles unless you decide to take action on a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
@@ -47,18 +47,32 @@ Currently, you can add the following social profiles:
 
 - **[!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user**: Interact with posts on [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] with a [!INCLUDE[tn-youtube](../includes/tn-youtube.md)] user profile.
 
-With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.
+With a **Responder** or **Manager** user role, you can add, share, and delete social profiles you own.    
+To learn more about social profiles for data acquisition, see [Manage access tokens](manage-access-tokens.md).
 
-## Add a social profile to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+## Ownership status of social profiles
 
-Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. Additionally, for some social profiles, you can explicitly allow data acquisition so the sytem can gather private messages or direct messages.
+**Settings** > **Social Profiles** lists the different types of ownership for a social profile and lets you check the [health state of your social profiles](social-profiles-health-state.md) and [access tokens](manage-access-tokens.md).
+  
+- **Owned profiles**: Profiles that you added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. These can be personal profiles or profiles that you set up and manage for your organization. Social profiles can have multiple owners.
+  
+  > [!CAUTION]
+  >  If you are an owner of a profile that has multiple owners, you can delete the profile. Always be careful not to delete any profiles that are in use.  
+  
+- **Shared profiles**: Profiles that are owned by other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, but shared with you. You can post on social media by using these profiles, but you won't be able to manage them unless you successfully [claim ownership](#claim-ownership-of-a-social-profile) of them.
+  
+- **Profiles without owners**: Profiles that were added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] but currently don't have owners. You can’t use these profiles for posting on social media. At least one [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user needs to [claim ownership](#claim-ownership-of-a-social-profile) of these profiles for them to be available.  
+
+## Add a social profile
+
+Adding social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is an important step if you want to react to a post directly from within the application. You can engage with your audience through social profiles that you own or that are shared with you. Additionally, for some social profiles, you can explicitly allow data acquisition, so the system can gather private messages or direct messages.
 
 > [!TIP]
 >  Common browsers block pop-ups by default. You should explicitly allow your browser to show pop-ups in the domain for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] application. This ensures that the authentication dialog boxes load properly. If it doesn't, you won’t be able to add or reauthorize social profiles.  
 
-## Add a social profile
+### Add a social profile to Social Engagement
 
-Before you can acquire [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data and reply or like on behalf of a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to add the organization page to your social profiles. To authenticate the organization page as a social profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) of the page on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].
+Before you can work with a social profile, or use its token for data acquisition, the owner of a social profile needs to add it to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 1. Go to **Settings** > **Social Profiles**.  
   
@@ -134,20 +148,7 @@ If you know the credentials to a social profile, you can claim ownership for it.
 > [!NOTE]
 > While adding or reauthenticating a social profile for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] data acquisition, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] might encounter an error due to rate limits on our [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] connector app. Please wait about 15 minutes before trying to add or reauthenticate your profile.
 
-## Ownership status of social profiles
-
-To add, edit, share, or remove a social profile, go to **Settings** > **Social Profiles**. From here you can also check the [health state of your social profiles](social-profiles-health-state.md) and [access tokens](manage-access-tokens.md).
-  
-- **Owned profiles**: Profiles that you added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. These can be personal profiles or profiles that you set up and manage for your organization. Social profiles can have multiple owners.
-  
-  > [!CAUTION]
-  >  If you are an owner of a profile that has multiple owners, you can delete the profile. Always be careful not to delete any profiles that are in use.  
-  
-- **Shared profiles**: Profiles that are owned by other [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users, but shared with you. You can post on social media by using these profiles, but you won't be able to manage them unless you successfully [claim ownership](#claim-ownership-of-a-social-profile) of them.
-  
-- **Profiles without owners**: Profiles that were added to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] but currently don't have owners. You can’t use these profiles for posting on social media. At least one [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user needs to [claim ownership](#claim-ownership-of-a-social-profile) of these profiles for them to be available.  
-
-## Acquisistion token status of social profiles
+## Acquisition token status of social profiles
 
 - **Profiles for acquisition**: [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] require at least one valid access token to acquire data. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access tokens](manage-access-tokens.md)  
   
