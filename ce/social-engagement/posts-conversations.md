@@ -2,7 +2,7 @@
 title: "View posts and conversations in Social Engagement | Microsoft Docs"
 description: "Understand how you can work with posts after acquiring them through Social Engagement."
 keywords: "post list, post details, stream, post actions, reply, mention, share"
-ms.date: 10/04/2017
+ms.date: 12/08/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -117,7 +117,7 @@ You'll find additional metadata and controls for the posts:
   
 - **Copy internal URL (![Copy button.](media/copy-url-icon.png "Copy button."))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to point them to a specific post.  
   
-- **Reach**: This indicates the potential size of an author's network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](/use-filters.md)  
+- **Reach**: This indicates the potential size of an author's network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](use-filters.md)  
   
 - **Date and time of publication**: The date and time when the post was published by the author. Redirects you to the original URL where the post was found. This lets you see the post in the context of the site or social network it originated from.  
   

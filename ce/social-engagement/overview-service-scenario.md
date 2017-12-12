@@ -1,14 +1,19 @@
 ---
 title: "Customer service scenarios for Social Engagement | Microsoft Docs"
 description: "Review service scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
-ms.date: 09/12/2017
+keywords: "service scenario, overview, customer service, social customer service"
+ms.date: 12/08/2017
+ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 0c5c29b5-c4f8-43e2-b20e-65408303e53a
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
-ms.manager: sakudes
+manager: sakudes
+topic-status: Drafting
 ---
+
 # Address customer service scenarios on social media with Social Engagement
 
 Do you want to offer fast, powerful support to your customers on social channels? This overview suggests ways you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to address your customers' service requests on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you keep track of requests and adds intelligence on top of this tracking. You can answer customers directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
@@ -48,7 +53,7 @@ The following steps describe an end-to-end configuration for social customer car
 
 1. [Add a new social profile](manage-social-profiles.md).
 
-2. [Share a social profile](manage-social-profiles.md#let-other-users-work-with-your-social-profile).
+2. [Share a social profile](manage-social-profiles.md#share-a-social-profile-with-other-users).
 
 3. [Create](social-center.md#configure-a-stream) and [share a stream](social-center.md#share-a-stream).
 
