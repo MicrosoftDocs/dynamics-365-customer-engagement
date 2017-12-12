@@ -2,7 +2,7 @@
 title: "Work with tags in Social Engagement | Microsoft Docs"
 description: "Learn how to work with tags on post and the auto-tagging capabilities in Social Engagement."
 keywords: "tags, tagging, auto tags, custom tags, Social Engagement"
-ms.date: 10/17/2017
+ms.date: 11/16/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -77,7 +77,7 @@ To improve your workflows and increase efficiency, you can leverage auto tagged 
     > [!NOTE]
     >  You can maintain up to five auto tags simultaneously.  
   
-4.  In the **Add Auto Tag** pane, enter a tag to search and select existing custom tags to be turned into auto tags.  
+4.  In the **Add Auto Tag** pane, enter a tag to search and select existing custom tags to be turned into auto tags. If you don't have any custom tags created yet, refer to the [Add custom tags](tags.md#add-custom-tags) section. 
   
 5.  Select **Save** to apply your changes.  
   

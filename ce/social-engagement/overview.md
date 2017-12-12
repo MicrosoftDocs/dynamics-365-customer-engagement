@@ -1,8 +1,8 @@
 ---
-title: "Introduction and overview on Social Engagement and related scenarios | Microsoft Docs"
+title: "Introduction to and overview of Social Engagement and related scenarios | Microsoft Docs"
 description: "Learn about Social Engagement and get started using the service."
 keywords: "social engagement, overview, quick start, scenarios"
-ms.date: 11/14/2017
+ms.date: 12/07/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -40,24 +40,24 @@ See how some of our customers are using [!INCLUDE[Social Engagement](../includes
 
 ## Pricing information
 
-[!INCLUDE[Social Engagement](../includes/pn-netbreeze-short.md)] is included with all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Enterprise edition Plans and Plan 1 Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], please visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
-Please note that [!INCLUDE[Social Engagement](../includes/pn-netbreeze-short.md)] is priced on monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
+[!INCLUDE[Social Engagement](../includes/pn-netbreeze-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+Note that [!INCLUDE[Social Engagement](../includes/pn-netbreeze-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
 
 ## Getting started
 
 Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] doesn't take long. The following topics will help you get started quickly.
 
--   [Get started with Social Engagement](get-started.md)&mdash;Find important information to help you get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+-   [Get started with Social Engagement](get-started.md): Find important information to help you get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
 
--   [Administer Social Engagement](administer-microsoft-social-engagement.md)&mdash;If you're an administrator, review this information to get your users set up quickly with the appropriate permissions. Learn how you can integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] with other services, like [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+-   [Administer Social Engagement](administer-microsoft-social-engagement.md): If you're an administrator, review this information to get your users set up quickly with the appropriate permissions. Learn how you can integrate [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] with other services, like [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
--   [Set up searches to listen to social media conversations](set-up-searches.md)&mdash;Capturing the right data for your business is a crucial step for successfully analyzing social media data. Set up searches and refine the quality of the results they give you, organize searches to meet your needs, and maintain an optimal post quota.
+-   [Set up searches to listen to social media conversations](set-up-searches.md): Capturing the right data for your business is a crucial step for successfully analyzing social media data. Set up searches and refine the quality of the results they give you, organize searches to meet your needs, and maintain an optimal post quota.
 
--   [Analyze social data by using widgets](analyze-social-data-using-widgets.md)&mdash;Visualize data in different areas to analyze your search results. See which filters are available to form a data set and how you can apply them to various widgets.
+-   [Analyze social data by using widgets](analyze-social-data-using-widgets.md): Visualize data in different areas to analyze your search results. See which filters are available to form a data set and how you can apply them to various widgets.
 
--   [Engage on social networks](engage-on-social-networks.md)&mdash;Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and share it with other users of the solution.
+-   [Engage on social networks](engage-on-social-networks.md): Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and share it with other users of the solution.
 
--   [Stay up to date with alerts](email-alerts.md)&mdash;Stay on top of what's happening on the social web. Set up alerts to be sent directly to your inbox, and find out right away when something important happens.
+-   [Stay up to date with alerts](email-alerts.md): Stay on top of what's happening on the social web. Set up alerts to be sent directly to your inbox, and find out right away when something important happens.
 
 ## Business scenarios
 

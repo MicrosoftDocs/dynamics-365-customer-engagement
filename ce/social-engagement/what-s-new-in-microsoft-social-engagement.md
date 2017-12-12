@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 11/06/2017
+ms.date: 12/06/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,40 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.11
+
+### Support for [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]'s extended tweet length
+
+With this update, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports the new tweet length as [recently released by Twitter](https://blog.twitter.com/official/en_us/topics/product/2017/tweetingmadeeasier.html). When writing tweets, you benefit from the increased limit of 280 characters. As a temporary restriction, tweets with Japanese, Korean and Chinese characters will not be reflected in the character limit accurately. If your tweet is too long, you will receive an error notification and you can shorten it.  
+  
+By early 2018 we plan to update our service to use the new logic of [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] for any language and character set.
+
+### Introduction of table and pattern view for charts in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]
+
+A new table view on all existing charts in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is now available. This means that every user can decide whether they want to explore the data represented as charts or as tables.   
+You can either turn on the table view on single charts or you can enable the table view globally for your user profile in **Settings > User Preferences** under **Chart data representation mode**. 
+
+Additionally, we're introducing a new styling for charts with colored areas. You can choose to render the charts with a filling patterns or solid colors.
+To switch between filling pattern and solid color, go to **Settings > User Preferences** and update the **Chart filling mode**.
+
+
+### Redesigned activity map and pause functionality
+
+We are introducing the "pause" functionality to the activity map feature. This enables you to choose whether you want to get live updates on the map, or not. When turned off, posts will stop updating automatically and users can view and explore a snapshot in more detail. New posts will appear again, when live updates have been are turned on and new posts are available.   
+
+In addition to that, the activity map has received a couple of visual updates, such as bigger dots on the map and updated visuals in the activity map header. 
+
+### New field in the JSON payload for Azure Event Hubs: post.profile.uri
+
+Social Engagement includes a feature that allows users to send posts to [Azure Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/) by using Automation Rules. As part of evolving functionality, Social Engagement is updating the [JSON payload](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/event-hubs-json-reference-social-engagement) by replacing the post.profile.id field with a new post.profile.uri field. 
+Moving forward, post.profile.uri will also include a source-based identifier as part of the field value (for example: mse-tw://#12345678).
+
+Please make sure you follow the timeline outlined [in this blog post](https://blogs.msdn.microsoft.com/crm/2017/11/27/deprecation-of-post-profile-id-object-in-social-engagement-json-payload/) to avoid breaking your apps and intermittent data loss. 
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.10
 
@@ -45,14 +79,14 @@ Explore the social engagement circle and social strategy, and look at brand repu
 
 ### New social post packs for Microsoft Social Engagement available
 
-Next to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/licensing/mpsa/default.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
+Next to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/Licensing/worldwide.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
 
 ### Service and product improvements
 
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 
-## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2017 Update 1.9
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] 2017 Update 1.9
 
 ### User experience clean-up for Search Setup and Settings
 
@@ -94,7 +128,7 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 Get in touch with your audience on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Users with at least a Responder interaction role can now rate and reply to videos and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)]. You'll need to add a social profile for [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] under **Settings** > **Social Profiles**, or get a [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] profile shared with you before you can interact on this source.
 
-Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
+Additionally, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] extended the listening capabilities and is now capable of acquiring video posts and comments on [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels. Any user with permission to create search rules can create [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] rules under any search topic and add [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channels to gather posts and comments from. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a YouTube rule](add-rules-search-topic.md#add-a-includetnyoutubeincludestn-youtubemd-rule)
 
 Keyword-based searches on the video source continue to reside under the [keywords rule](add-rules-search-topic.md#add-a-keywords-rule) and now also contain comments for actively discussed video posts. 
 

@@ -1,20 +1,19 @@
 ---
 title: "Adaptive learning in Social Engagement | Microsoft Docs"
-descripion: "Learn about sentiment analysis and the organization-based machine learning models which learn from your inputs."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+description: "Learn about sentiment analysis and the organization-based machine learning models which learn from your inputs."
+keywords: ""
+ms.date: 12/08/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 2c056a5c-d890-4106-837a-d4b403e011a1
-caps.latest.revision: 12
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Adaptive learning based on changes to organization’s sentiment values
 [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] now uses *adaptive learning* to gain information about your edits and confirmations on sentiment values. With adaptive learning, every edit on the sentiment value of posts contributes to the way that sentiments are determined for your organization.  
   

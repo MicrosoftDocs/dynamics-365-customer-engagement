@@ -1,14 +1,19 @@
 ---
 title: "Configure the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to prepare for the Social Selling Assistant before sharing it with your users."
-ms.date: 09/12/2017
+keywords: "ssa, social selling assistant, MSE, dynamics 365, configuration"
+ms.date: 12/12/2017
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: bbed3178-9494-44bf-9d4e-1f78e84e729d
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
+manager: sakudes
+topic-status: Drafting
 ---
+
 # Configure Social Engagement for the Social Selling Assistant
 Before you invite users to work with Social Selling Assistant, we recommend that an administrator configure [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], so users get the most out of the recommendation experience.  The personalized content feeds are based on the configuration in the connected [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution. Users can choose from the available search topics and social profiles to personalize their Social Selling Assistant settings.In the personalization process, users get to choose the search topics to get insights and recommendations for sharing. Also, they can add their own social profiles or view shared profiles for sharing the recommendations.  
   
@@ -21,18 +26,18 @@ If you configured a search rule for posts from social profiles owned by your org
 
 ### Flag owned profiles
 
-1.  In Social Engagement, go to **Search Setup**.
+1. In Social Engagement, go to **Search Setup**.
 
-2.  Select the search topic you want to update.
+2. Select the search topic you want to update.
 
-3.  Select the search rule that contains the social profiles or create a new rule.
+3. Select the search rule that contains the social profiles or create a new rule.
 
-![Screenshot of the Summary page in the Search Setup area.](media/owned-social-profile-social-selling-assistant.png "Screenshot of the Summary page in the Search Setup area.")
+   ![Screenshot of the Summary page in the Search Setup area.](media/owned-social-profile-social-selling-assistant.png "Screenshot of the Summary page in the Search Setup area.")
 
-4.  In the social profiles list, set **Owned** to **Yes** if your organization owns the profile.
+4. In the social profiles list, set **Owned** to **Yes** if your organization owns the profile.
 
 > [!TIP]
->  As an ongoing process to ease maintenance, consider setting the **Owned** flag  when new search topics and/or search rules are created in your organization.
+> As an ongoing process to ease maintenance, consider setting the **Owned** flag  when new search topics and/or search rules are created in your organization.
 
 ## Share social profiles with other users
 
@@ -47,9 +52,9 @@ Enable your organization to amplify specific messages on social media. Build on 
 
 1.  As an  administrator in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings** > **Custom Tags**.
 
-2.  Select the tag you want to use to promote posts.
+2. Select the tag you want to use to promote posts.
 
-3.  Set the **Social Selling Assistant** setting to **On**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](tags.md)
+3. Set the **Social Selling Assistant** setting to **On**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with tags](tags.md)
 
 All posts that have the one or more of these tags will be promoted automatically to Social Selling Assistant. To promote a specific post to Social Selling Assistant, apply any of the tags that you marked here to that post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Promote a post to the Social Selling Assistant](work-with-social-selling-assistant.md#promote-a-post-to-the-social-selling-assistant)
 
