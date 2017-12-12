@@ -1,6 +1,6 @@
 ---
 title: "Administer Social Engagement | Microsoft Docs"
-description: "Learn about the main ares to administer Social Engagement"
+description: "Learn about the main areas to administer Social Engagement"
 Description: 
 ms.custom: ""
 ms.date: 09/12/2017

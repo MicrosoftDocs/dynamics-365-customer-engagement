@@ -86,13 +86,13 @@ Some system entities will have more than one active or inactive state.The follow
 > You can review the available `StateCode` options for an entity using the Metadata Browser described in [Browse the metadata for your organization](browse-your-metadata.md).
 >
 > To retrieve the `StateCode` options for an entity you can use the following Web API query  by substituting the `LogicalName` of the entity with `appointment` used below:
-> ```
+> ```HTTP
 > GET [organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='appointment')/Attributes(LogicalName='statecode')/Microsoft.Dynamics.CRM.StateAttributeMetadata/OptionSet?$select=Options
 > ```
 
 ## DuplicateRule Special messages
 
-`DuplicateRule` is a user-owned entity and normal create, retrieve, update, assign, and delete operations are allowed as well as operations to control access. More information: [DuplicateRule Messages](entities/duplicaterule.md#messages).
+[DuplicateRule](entities/duplicaterule.md) is a user-owned entity and normal create, retrieve, update, assign, and delete operations are allowed as well as operations to control access. More information: [DuplicateRule Messages](entities/duplicaterule.md#messages).
 
 The following special messages can also be used:
 
@@ -118,7 +118,7 @@ The following special messages can also be used:
 
 ## DuplicateRuleCondition Special messages
 
-`DuplicateRuleCondition` is a child entity to `DuplicateRule`. Access to retrieve or modify these entities is dependant on access to the `DuplicateRule` it is associated with. More information: [DuplicateRuleCondition Messages](entities/duplicaterulecondition.md#messages).
+[DuplicateRuleCondition](entities/duplicaterulecondition.md) is a child entity to `DuplicateRule`. Access to retrieve or modify these entities is dependant on access to the `DuplicateRule` it is associated with. More information: [DuplicateRuleCondition Messages](entities/duplicaterulecondition.md#messages).
 
 The following special messages can also be used:
 
@@ -128,6 +128,8 @@ The following special messages can also be used:
 
 
 ### See also
+<xref href="Microsoft.Dynamics.CRM.duplicaterule?text=duplicaterule EntityType" />   
+<xref href="Microsoft.Dynamics.CRM.duplicaterulecondition?text=duplicaterulecondition EntityType" />   
 [Detect duplicate data](detect-duplicate-data-for-developers.md)<br />
 [Enable and disable duplicate detection](enable-disable-duplicate-detection.md)<br />
 [Run duplicate detection](run-duplicate-detection.md)<br />

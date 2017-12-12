@@ -61,6 +61,7 @@
 ### [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)
 #### [Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)
 #### [Manage the connection between Dynamics 365 and Social Engagement](manage-connection-dynamics-365-social-engagement.md)
+#### [Configure Record Creation and Update Rule](configure-automatic-record-creation.md)
 #### [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)
 ### [Connect Social Engagement to other domains](connect-other-domains.md)
 ## [Empower your salespeople with the Social Selling Assistant](social-selling-assistant-overview.md)

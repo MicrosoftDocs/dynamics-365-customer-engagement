@@ -26,7 +26,7 @@ If you want to execute multiple requests in a transaction, you must pass in a ch
 
 ```JavaScript
 var requests = [req1, req2, req3];
-Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback);
+Xrm.WebApi.executeMultiple(requests).then(successCallback, errorCallback);
 ```
 
 **Execute multiple requests in a transaction:**
@@ -36,7 +36,7 @@ In this case, `req1`, `req2`, and `req3` will be executed in transaction.
 ```JavaScript
 var changeSet = [req1, req2, req3];
 var requests = [changeSet];
-Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback);
+Xrm.WebApi.executeMultiple(requests).then(successCallback, errorCallback);
 ```
 
 
@@ -47,7 +47,7 @@ In this case, `req1`, `req2`, and `req3` will be executed in transaction, but `r
 ```JavaScript
 var changeSet = [req1, req2, req3];
 var requests = [req4, req5, changeset];
-Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback);
+Xrm.WebApi.executeMultiple(requests).then(successCallback, errorCallback);
 ```
 
 ## Parameters

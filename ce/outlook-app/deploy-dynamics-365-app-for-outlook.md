@@ -20,6 +20,8 @@ tags:
 ---
 # Deploy Dynamics 365 App for Outlook  
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 > [!IMPORTANT]
 > The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)], a preview feature, works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. 
 >
@@ -146,9 +148,11 @@ For example, to set privileges for the Mailbox entity:
 ### Support summary
 
 #### Windows desktop
-- Outlook 2013 (desktop client)
+- Outlook 2013 (desktop client)*
 - Outlook 2016 (desktop client)
 - Outlook on the web on Internet Explorer 11, Edge, and Chrome
+
+*[Support for 2013 versions of Office 365 ProPlus ended February 28, 2017.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28)
 
 #### Macintosh
 - Not supported
@@ -245,23 +249,23 @@ Check back later for updates on supported platforms.
   
 ### Supported languages  
 [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] supports the following languages:  
-  
+
 ||||  
 |-|-|-|  
-|Bulgarian (Bulgaria) - 1026|Hindi (India) - 1081|Portuguese (Portugal) - 2070|  
-|Chinese (People's Republic of China) - 2052|Hungarian - 1038|Romanian - 1048|  
-|Chinese (Taiwan) - 1028|Indonesian - 1057|Russian - 1049|  
-|Croatian (Croatia) - 1050|Italian - 1040|Serbian - 2074|  
-|Czech (Czech Republic) - 1029|Japanese - 1041|Slovak - 1051|  
-|Danish - 1030|Kazakh - 1087|Slovenian - 1060|  
-|Dutch - 1043|Korean - 1042|Spanish - 3082|  
-|English - 1033|Latvian - 1062|Swedish - 1053|  
-|Estonian - 1061|Lithuanian - 1063|Thai - 1054|  
-|Finnish - 1035|Malaysian - 1086|Turkish - 1055|  
-|French - 1036|Norwegian - 1044|Ukrainian - 1058|  
-|German - 1031|Polish - 1045|Vietnamese - 1066|  
-|Greek - 1032|Portuguese (Brazil) - 1046||  
-  
+|Bulgarian (Bulgaria) - 1026|Hebrew - 1037|Portuguese (Brazil) - 1046|  
+|Chinese (People's Republic of China) - 2052|Hindi (India) - 1081|Portuguese (Portugal) - 2070|  
+|Chinese (Taiwan) - 1028|Hungarian - 1038|Romanian - 1048|  
+|Croatian (Croatia) - 1050|Indonesian - 1057|Russian - 1049|  
+|Czech (Czech Republic) - 1029|Italian - 1040|Serbian - 2074|  
+|Danish - 1030|Japanese - 1041|Slovak - 1051|  
+|Dutch - 1043|Kazakh - 1087|Slovenian - 1060|  
+|English - 1033|Korean - 1042|Spanish - 3082|  
+|Estonian - 1061|Latvian - 1062|Swedish - 1053|  
+|Finnish - 1035|Lithuanian - 1063|Thai - 1054|  
+|French - 1036|Malaysian - 1086|Turkish - 1055|  
+|German - 1031|Norwegian - 1044|Ukrainian - 1058|  
+|Greek - 1032|Polish - 1045|Vietnamese - 1066|  
+
 <a name="BKMK_Deploy"></a>   
 
 ## Deploy Dynamics 365 App for Outlook  
