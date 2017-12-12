@@ -2,7 +2,7 @@
 title: "Use the early bound entity classes in code (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The code generation tool (CrmSvcUtil) creates early-bound entity classes that you can use to access business data in Dynamics 365. The advantage of using early-bound entity classes is that all type references are checked at compile time"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -47,18 +47,17 @@ new_bankaccount bankaccount = New new_bankaccount();bankaccount.new_accountnumbe
   
  For more information about using early bound entity classes, see the following topics:  
   
-||  
-|-|  
-|[Use the Organization Service Context Class](use-the-organizationservicecontext-class.md)|  
-|[Use the Early Bound Entity Classes for Create, Update, and Delete](use-early-bound-entity-classes-create-update-delete.md)|  
-|[Use the early bound entity classes to associate records](use-early-bound-entity-classes-associate-records.md)|  
-|[Mix Early and Late Bound Entities](mix-early-late-bound-entities.md)|  
-|[Sample: Create, Retrieve, Update, and Delete Records (Early Bound)](sample-create-retrieve-update-delete-records-early-bound.md)|  
-|[Sample: Associate Records (Early Bound)](sample-associate-records-early-bound.md)|  
-|[Sample: Create and Update Records With Related Records (Early Bound)](sample-create-update-records-related-records-early-bound.md)|  
-|[Sample: Assign a Record to a New Owner](sample-assign-record-new-owner.md)|  
-|[Sample: Use the Organization Service Context](sample-use-organization-service-context.md)|  
-|[Sample: Serialize and Deserialize an Entity](sample-serialize-deserialize-entity-instance.md)|  
+  
+[Use the Organization Service Context Class](use-the-organizationservicecontext-class.md) 
+[Use the Early Bound Entity Classes for Create, Update, and Delete](use-early-bound-entity-classes-create-update-delete.md) 
+[Use the early bound entity classes to associate records](use-early-bound-entity-classes-associate-records.md) 
+[Mix Early and Late Bound Entities](mix-early-late-bound-entities.md) 
+[Sample: Create, Retrieve, Update, and Delete Records (Early Bound)](sample-create-retrieve-update-delete-records-early-bound.md)  
+[Sample: Associate Records (Early Bound)](sample-associate-records-early-bound.md)  
+[Sample: Create and Update Records With Related Records (Early Bound)](sample-create-update-records-related-records-early-bound.md)
+[Sample: Assign a Record to a New Owner](sample-assign-record-new-owner.md) 
+[Sample: Use the Organization Service Context](sample-use-organization-service-context.md)
+[Sample: Serialize and Deserialize an Entity](sample-serialize-deserialize-entity-instance.md)  
   
 ## Code generation example  
  The code generation tool creates classes based on the entities in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. For example, the code generation tool creates the following class for the `Team` entity.  
