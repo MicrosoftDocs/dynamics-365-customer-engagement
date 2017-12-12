@@ -53,7 +53,7 @@ The following steps describe an end-to-end configuration for social customer car
 
 1. [Add a new social profile](manage-social-profiles.md).
 
-2. [Share a social profile](manage-social-profiles.md#let-other-users-work-with-your-social-profile).
+2. [Share a social profile](manage-social-profiles.md#share-a-social-profile-with-other-users).
 
 3. [Create](social-center.md#configure-a-stream) and [share a stream](social-center.md#share-a-stream).
 
