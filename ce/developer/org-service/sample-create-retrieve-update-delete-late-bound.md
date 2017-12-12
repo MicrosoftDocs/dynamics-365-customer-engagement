@@ -25,7 +25,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample is for [!INCLUDE[pn_crm_2015_and_online_full](../../includes/pn-crm-2015-and-online-full.md)]. Download the complete sample here [Sample: Create, retrieve, update and delete (late bound)](https://code.msdn.microsoft.com/Sample-Create-retrieve-e183a7fb).  
+This sample is for [!INCLUDE[pn_crm_2015_and_online_full](../../includes/pn-crm-2015-and-online-full.md)]. Download the sample: [Sample: Create, retrieve, update and delete (late bound)](https://code.msdn.microsoft.com/Sample-Create-retrieve-e183a7fb).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
