@@ -2,7 +2,7 @@
 title: "Sample: Create, retrieve, update, and delete (late bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates the create, retrieve, update, and delete operations on an account using the late bound Entity class"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,7 +25,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample is for [!INCLUDE[pn_crm_2015_and_online_full](../../includes/pn-crm-2015-and-online-full.md)]. Download the complete sample here [Sample: Create, retrieve, update and delete (late bound)](https://code.msdn.microsoft.com/Sample-Create-retrieve-e183a7fb).  
+This sample is for [!INCLUDE[pn_crm_2015_and_online_full](../../includes/pn-crm-2015-and-online-full.md)]. Download the complete sample here [Work with late bound entities](https://code.msdn.microsoft.com/Work-with-late-bound-e3208935).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]
