@@ -1,6 +1,6 @@
 ---
 title: "updateRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -44,7 +44,7 @@ manager: "amyla"
 <td>data</td>
 <td>Object</td>
 <td>Yes</td>
-<td><p>A JSON object containing <code>key: value</code> pairs, where `key` is the property of the entity and <code>value</code> is the value of the property you want update.</p>
+<td><p>A JSON object containing <code>key: value</code> pairs, where `key` is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
 <p>See examples later in this topic to see how you can define the <code>data</code> object for various update scenarios.</td>
 </tr>
 <tr>
@@ -55,14 +55,17 @@ manager: "amyla"
 <ul>
 <li><b>entityType</b>: String. The entity type of the updated record.</li>
 <li><b>id</b>: String. GUID of the updated record.</li>
-<li><b>name</b>: String. Name of the updated record.</li>
 </ul></td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to call when te operation fails.</td>
+<td>A function to call when the operation fails. An object with the following properties will be passed:
+<ul>
+<li><b>errorCode</b>: Number. The error code.</li>
+<li><b>message</b>: String. An error message describing the issue.</li>
+</ul></td>
 </tr>
 </table>
 
@@ -74,7 +77,7 @@ On success, returns a promise object containing the attributes specified earlier
 
 These examples use some of the same request objects as demonstrated in [Update and delete entities using the Web API](../../../webapi/update-delete-entities-using-web-api.md) to define the data object for updating an entity record.
 
-### Basic create 
+### Basic update 
 
 Updates an existing account record with record ID = 5531d753-95af-e711-a94e-000d3a11e605.
 

@@ -1,6 +1,6 @@
 ---
 title: "deleteRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -46,16 +46,20 @@ manager: "amyla"
 <td>No</td>
 <td><p>A function to call when a record is deleted. An object with the following properties will be passed to identify the deleted record:</p>
 <ul>
-<li><b>entityType</b>: String. The entity type of the record.</li>
+<li><b>entityType</b>: String. The entity logical name of the deleted record.</li>
 <li><b>id</b>: String. GUID of the record.</li>
-<li><b>name</b>: String. Name of the record.</li>
 </ul></td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to call when the operation fails.</td>
+<td>A function to call when the operation fails. An object with the following properties will be passed:
+<ul>
+<li><b>errorCode</b>: Number. The error code.</li>
+<li><b>message</b>: String. An error message describing the issue.</li>
+</ul>
+</td>
 </tr>
 </table>
 
