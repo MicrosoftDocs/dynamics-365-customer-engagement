@@ -2,7 +2,7 @@
 title: "Handle exceptions in your code (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This article discusses the exceptions that are returned from a Dynamics 365 Customer Engagement web service method call. The sample in this article highlights the common faults and exceptions that your application design should handle."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 02d0ad6c-eb76-4ea9-972f-c7647eef6c09
-caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -53,7 +52,7 @@ There are a number of exceptions that can be returned from a [!INCLUDE[pn_dynami
  
  With [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] and [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], customizers can create business rules that are evaluated on the server. Customizers can throw error messages based on conditions set in the business rule. Developers should be sure to include robust error handling in their code to catch and handle these exceptions.  
   
- The following is an example of the trace log produced when one of these errors is returned from a business rule named “Name of Entity Scope Business Rule returning Error” and the error message is “custom error message”.  
+ The following is an example of the trace log produced when one of these errors is returned from a business rule named **Name of Entity Scope Business Rule returning Error** and the error message is **custom error message**.  
   
 ```csharp
 Unhandled Exception: System.ServiceModel.FaultException`1[[Microsoft.Xrm.Sdk.OrganizationServiceFault, Microsoft.Xrm.Sdk, Version=7.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35]]: custom error messageDetail:   
