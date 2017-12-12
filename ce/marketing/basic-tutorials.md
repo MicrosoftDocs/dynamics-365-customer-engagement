@@ -1,8 +1,8 @@
 ---
-title: "Basic tutorials for Dynamics 365 for Marketing | Microsoft Docs"
+title: "Basic tutorials (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Step-by-step tutorials for learning how to work with core user scenarios in Dynamics 365 for Marketing"
 keywords: "tutorial; basic; overview"
-ms.date: 11/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -18,7 +18,11 @@ topic-status: Drafting
 
 # Basic tutorials for core scenarios
 
-This chapter provides exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you've never used this product before, this is the best place to start. When you have completed the exercises here, you'll be able to:
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The tutorials in this section provide exercises that illustrate the core functionality of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you've never used this product before, this is the best place to start. When you have completed the exercises here, you'll be able to:
 
 - Create marketing segments that organize contacts from your database into logical groups that match your marketing strategies.
 

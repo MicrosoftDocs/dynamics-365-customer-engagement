@@ -103,6 +103,6 @@ Monitor real-time updates in the activity feed to stay current with fast-moving 
 
 More information:
 
-- [Move around Customer Engagement apps using keyboard shortcuts](../basics/move-around-dynamics-365-using-keyboard-shortcuts.md)   
+- [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](keyboard-shortcuts.md)   
 - [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)
 

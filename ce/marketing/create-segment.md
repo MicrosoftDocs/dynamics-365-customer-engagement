@@ -1,8 +1,8 @@
 ---
-title: "Create a marketing segment in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Create a marketing segment (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to create a marketing segment and define its membership criteria in Dynamics 365 for Marketing"
 keywords: "tutorial; segments; dynamic segments"
-ms.date: 11/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -17,6 +17,10 @@ topic-status: Drafting
 ---
 
 # Create a dynamic segment
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 One of the first and most important decisions you'll make when you design any marketing piece is to choose the right audience. Only after you know this will you be able to tailor your message to best appeal to that group of people.
 
@@ -51,7 +55,8 @@ In this exercise, you'll create a couple of fictional contacts with email addres
 1. The **Definition** tab offers three ways to build and view your query: **Flow**, **Designer**, and **Query**. You can use whichever view you prefer—the result will be the same. For this procedure, you'll use the **Designer** view, which is both easy to use and compact.  
     ![The segment definition Designer view](media/segment-definition-designer.png "The segment definition Designer view")
 
-    > [!TIP] Each of the three views on the **Definition** tab supports a different way of creating or viewing your segment design:
+    > [!TIP]
+    > Each of the three views on the **Definition** tab supports a different way of creating or viewing your segment design:
     > - **Flow** is optimized for combining segments by using logical operators.
     > - **Designer** is optimized for defining sets of logical rules and conditions that filter out contacts.
     > - **Query** presents the query as text, which is very compact and suitable for users who are used to working with database queries.
@@ -64,7 +69,8 @@ In this exercise, you'll create a couple of fictional contacts with email addres
     Here's an example of how a simple query that finds all contacts from Atlantis might look on the **Designer** tab.  
     ![Define a segment by city](media/segment-designer-city.png "Define a segment by city")
 
-    > [!TIP] You can build very complex queries by using the tools here, combining AND clauses and OR clauses, and adding groups of additional clauses that you can combine with the main clause and other groups by using **Union**, **Exclude**, or **Intersect** operations. You can also move freely between the **Flow**, **Designer**, and **Query** tabs to see how your query looks when presented in these various ways.
+    > [!TIP]
+    > You can build very complex queries by using the tools here, combining AND clauses and OR clauses, and adding groups of additional clauses that you can combine with the main clause and other groups by using **Union**, **Exclude**, or **Intersect** operations. You can also move freely between the **Flow**, **Designer**, and **Query** tabs to see how your query looks when presented in these various ways.
 
 1. On the command bar, select **Save** to save the work you've done on the segment so far.
 

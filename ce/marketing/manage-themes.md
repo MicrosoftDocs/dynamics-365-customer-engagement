@@ -1,5 +1,5 @@
 ---
-title: "Use themes to customize the appearance of Dynamics 365 for Marketing | Microsoft Docs"
+title: "Use themes to customize the appearance (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Choose a standard theme or create your own to customize the general appearance of Dynamics 365 for Marketing"
 keywords: "administration; organization settings; theme; logo"
 author: kamaybac
@@ -16,7 +16,9 @@ ms.reviewer: renwe
 ---
 # Use themes to customize the appearance of your app
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Change the color scheme of the user interface based on your preferences, or create your own branding by changing the color scheme or logo in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. You can create a theme&mdash;a custom look and feel&mdash;for your app by creating new themes with  colors and visual elements you choose.
 

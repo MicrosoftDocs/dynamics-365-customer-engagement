@@ -2,7 +2,7 @@
 title: "Define entity forms and custom logic within a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create entity forms in a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,8 +27,9 @@ To view existing entity forms or to create new entity forms, go to **Portals** &
 
 When creating a new entity form, the first step is to decide the **Entity** and **Form Name** that you will be rendering, in addition to the **mode: Insert, Edit, or Read Only**. The mode selected will determine if you are creating a new record from the portal, editing an existing record, or just displaying information about a record on the portal.
 
->[!Note]
-> An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
+> [!Note]
+> - An **Entity Form** must be associated with a webpage for a given [website](#website-1) for the form to be viewable within the site.
+> - The Connection entity subgrids are not supported in entity forms. If you add a Connection entity subgrid to the form using Form designer, error messages are displayed when you render the form on the portal and use the Connection entity.
 
 The webpages associated with the entity form can be viewed by selecting the **Web Pages** link listed in the **Related** navigation links in the leftmost menu.
 

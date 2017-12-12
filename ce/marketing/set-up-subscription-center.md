@@ -1,5 +1,5 @@
 ---
-title: "Set up a subscription center in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Set up a subscription center (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
 keywords: "tutorial; subscription center; static list; subscription list; marketing page; page"
 ms.date: 11/07/2017
@@ -17,6 +17,10 @@ topic-status: Drafting
 ---
 
 # Set up subscription lists and subscription centers
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
@@ -52,7 +56,8 @@ Subscription lists are based on the standard (static) marketing lists feature of
     - **Name**: Enter a descriptive name
     - **Subscription**: Set to **True**.
 
-    > [!TIP] When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting.
+    > [!TIP]
+    > When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting.
 
 1. On the command bar, select **Save** to save your new subscription list.
 
@@ -66,7 +71,8 @@ Now that you have a subscription list available, you can add it to a subscriptio
 
 1. You now see a list of forms. On the command bar, select **New** to create a new one.
 
-    > [!TIP] You could instead edit an existing form by choosing it from the list, but for this exercise we'll describe how to create a new one. Note that if you edit an existing form, your edits will affect all marketing pages that use that form because forms are imported by reference, not copied to the page like template content.
+    > [!TIP]
+    > You could instead edit an existing form by choosing it from the list, but for this exercise we'll describe how to create a new one. Note that if you edit an existing form, your edits will affect all marketing pages that use that form because forms are imported by reference, not copied to the page like template content.
 
 1. The **Select a Form Template** dialog box opens.  
     ![How to find a subscription center template](media/form-template-subcenter.png "How to find a subscription center template")
@@ -86,12 +92,14 @@ Now that you have a subscription list available, you can add it to a subscriptio
 
     Work directly on the canvas to select each of the placeholder headings (including the brackets) and replace them with actual headings (for example, **Update your contact information** and **Newsletter subscriptions**).
 
-    > [!TIP] Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo-Latin ("lorem ipsum") text as a placeholder for body text, and sometimes example text for headlines, but these don't use square brackets because the text isn't instructional.
+    > [!TIP]
+    > Many of the supplied templates for emails, pages, and forms employ this convention of using square brackets to mark instructional placeholder text. They also typically use pseudo-Latin ("lorem ipsum") text as a placeholder for body text, and sometimes example text for headlines, but these don't use square brackets because the text isn't instructional.
 
 1. On the **Toolbox** tab, scroll down until you find the **Subscription Lists** heading. You should see the subscription list that you just made listed here, plus any others that were already in your system. Drag it from the **Toolbox** to the space under the **Newsletter subscriptions** heading.  
     ![Add a subscription list to the form](media/from-add-subscription-list.png "Add a subscription list to the form")
 
-    > [!TIP] Only forms of type Subscription Center show subscription lists in the **Toolbox**.
+    > [!TIP]
+    > Only forms of type Subscription Center show subscription lists in the **Toolbox**.
 
 1. On the command bar, select **Save** to save your new form.
 
@@ -117,7 +125,8 @@ As you saw in [Create a marketing email and go live](create-marketing-email.md),
 
 To work with content settings records, go to **Marketing** &gt; **Templates** &gt; **Content Settings**. This brings you to a list of current content settings. As usual, you can edit any listed record or select **New** on the command bar to create a new one.
 
-> [!TIP] Like email messages and customer journeys, content settings must be published to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service (by choosing **Go Live**). After a Content Settings record is published, you can't edit its values. If you need to edit a live Content Settings record, choose **Stop** from the toolbar after opening the record, and then make your changes. Remember to **Go Live** again when you are done editing.
+> [!TIP]
+> Like email messages and customer journeys, content settings must be published to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email marketing service (by choosing **Go Live**). After a Content Settings record is published, you can't edit its values. If you need to edit a live Content Settings record, choose **Stop** from the toolbar after opening the record, and then make your changes. Remember to **Go Live** again when you are done editing.
 
 Each field shown here (besides the **Name** and **Default** setting) can be referenced dynamically in your email messages. The two fields, **Address Main** and **Subscription Center** must be referenced in all marketing emails, so they are likewise required here.
 
@@ -138,7 +147,8 @@ To specify a subscription center:
 1. Assist-edit adds the GUID (a unique ID code) for the page you selected, and then opens a third drop-down list that shows the names of several relevant attributes from the Marketing Page entity. We are looking for the page URL, so choose **FullPageUrl**.  
     ![Choose the field value to find with the expression](media/assist-edit-subcenter-3.png "Choose the field value to find with the expression")
 
-    > [!TIP] The expression you just created by using assist-edit is of the form:
+    > [!TIP]
+    > The expression you just created by using assist-edit is of the form:
     >
     > **{{*EntityName*(*EntityID*).*AttributeName*}}**
     >

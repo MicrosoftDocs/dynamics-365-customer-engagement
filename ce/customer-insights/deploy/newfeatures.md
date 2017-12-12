@@ -23,7 +23,7 @@ Predictive matching is the process of combining data from multiple sources. Data
 
 For example, consider the following customer records.
 
-![](../media/conflationexample.png "Predictive matching example") 
+![Predictive matching example](../media/conflationexample.png "Predictive matching example") 
 
 In one company's records, customers are identified by **First Name** and **Last Name**. In another company, **Name** is used. The name given is **Mike** at one company and **Michael** at another. Yet, these two records represent the same customer. Predictive matching in [!INCLUDE[pn-customer-insights](../../includes/pn-customer-insights-full.md)] uses context-based matching of entities from diverse sources to merge the data. 
 
@@ -55,7 +55,7 @@ For information on creating a new prediction, see [What is Predictive Scoring?](
 
 ## What is segmentation?
 
-![](../media/SegmentationRightAudience650.png "Choose the right audience") 
+![Choose the right audience](../media/SegmentationRightAudience650.png "Choose the right audience") 
 
 As customers move through the sales or service process, groups of customers can reach the same process point. You can use [!INCLUDE[pn-customer-insights](../../includes/pn-customer-insights-full.md)] to segment customers at that point so you can gather insights about them and take actions suitable for their stage.
 

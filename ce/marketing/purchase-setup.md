@@ -18,36 +18,33 @@ topic-status: Drafting
 
 # First time setup
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic explains how licensing works, how to set up the system for the first time, and how to rerun the setup wizard if you need to change your setup later. It also provides important privacy information.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+Read this topic to learn how to set up the system for the first time.
 
 ## Prerequisites and requirements
 
-> [!IMPORTANT] A setup wizard is provided to help you set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time. Before running the wizard, you must meet all of the following requirements:
-> - Use Google Chrome (only)
-> - Put your browser in incognito mode
-> - Turn off all pop-up blockers
+> [!IMPORTANT]
+> A setup wizard is provided to help you set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time. Before running the wizard, you must meet all of the following requirements:
 > - Close all other browser windows and tabs before starting
 > - Clear your browser cache before starting
-> - You must sign into [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] as a _global administrator_ (also known as a _tenant admin_).  [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [About Office 365 admin roles](https://support.office.com/en-us/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)
+> - You must run the setup wizard as a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user with admin privileges on the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] org where you are installing [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 > - You must already be assigned a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license in [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)].
-> - [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. During the setup, you can choose to use a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created and managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] specifically for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you might also choose to use your own, fully licensed account to gain access to more [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features. _If you do choose to use your own [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account, please note that it must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]_.
+
+> [!IMPORTANT]
+> Your system is constrained by certain limits and quotas that apply to the number contacts you can store, monthly email messages you can send, monthly Litmus previews you can view, and more. Please read [About the Preview](https://go.microsoft.com/fwlink/p/?linkid=864735) to familiarize yourself with these limits before you begin working with the system. You can keep an eye on your usage levels by going to **Settings** >**Advanced Settings** > **Others** > **Quota Limits** in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
-> Once the setup is complete, we recommend that all users also use Google Chrome, though most browsers should also work fine, and wider browser support is expected soon.
+> See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
-## How licensing works
-
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is provided as a cloud-based solution that is linked to your [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] organization. You can add it to your [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription by going to the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] Commerce Portal, but you might instead use some other sales channel. After you've set up the app, you'll be able to use the user-admin settings in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to create user accounts and set the required access permissions for each user you've licensed.
-
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is available with a variety of bundles and licensing options, the specifics of which will depend on your agreement. Typically, your agreement will include a quota of bulk email messages each month, a quota of contact records, a quota of Litmus inbox previews, a fixed number of user licenses, and other allotments. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provides tools that help you keep an eye on your monthly quotas and purchase extra capacity as needed. Please refer to your own license agreement and to [!INCLUDE[pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] sales websites and other sales channels for specific details about bundles, pricing, and quotas.
 
 ## First-time setup
 
 After purchasing your initial license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll receive the URL required to access the app. The first time you open the link, you'll launch a setup wizard that guides you through the initial setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the wizard will help you review all the relevant privacy policies and set up and integrate these various elements.
 
 > [!IMPORTANT]
-> Most of the settings you make while running the setup wizard will be *permanent* for your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance, so take care while filling it out. One exception to this is the password (policy primary key) for [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], which you will be able to update later by rerunning the setup wizard. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Rerun the setup wizard to update your Customer Insights key](#rerun-the-setup-wizard-to-update-your-customer-insights-key)).
+> Most of the settings you make while running the setup wizard will be *permanent* for your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance, so take care while filling it out.
 
 The remaining sections of this topic provide details about each step of the setup wizard.
 
@@ -67,24 +64,14 @@ Do the following:
 
 ### Step 2: The Customer Insights page
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. On this page of the setup wizard, you can choose to use a [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account created and managed by [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] specifically for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but you might also choose to use your own, fully licensed account to gain access to more [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] features.
-
-> [!IMPORTANT]  If you choose to use your own [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account, please note that it must be running on the same tenant as [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customer Insights overview](https://docs.microsoft.com/dynamics365/customer-insights/deploy/overview)
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] to process contact information, define market segments, and more. On this page of the setup wizard, you must read and agree to a privacy statement that applies to this service.
 
 ![The Customer Insights page](media/fre-customer-insights.png "The Customer Insights page")
 
-To use the limited [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], do the following:
+Carefully read the check box text provided here, and follow and read all the links provided. This text and its links provide important privacy information and describe the privacy policy for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. If you agree with the policies described, select the check box. If you don't accept these terms, quit the setup wizard.
 
-1. Set the drop-down list on this page to **Use default**.
-
-1. Carefully read the check box text at the bottom of the form, and follow and read all the links provided. This text and its links provide important privacy information and describe the privacy policy for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. If you agree with the policies described, select the check box. If you don't accept these terms, quit the setup wizard.
-
-1. Select **Continue** to start the setup and integration process for [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] and continue with the wizard.
-
-To use your own, full-featured [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] account instead of the included one, go to [Use a full Customer Insights license with Dynamics 365 for Marketing](setup-licensed-dci.md) for instructions, then return here to continue.
+> [!NOTE]
+> Your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] hub will be located either in North America or in the EMEA region, whichever is closest to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] tenant.
 
 ### Step 3: The Portal page
 
@@ -128,7 +115,8 @@ Do the following:
 
 1. As soon as the **Survey** page opens, a dialog box opens asking whether you want to allow the app to access your information. This is required for the feature to function. Read the information carefully, and select **Yes** if you agree. If you don't agree, select **No** and then quit the setup wizard.
 
-    > [!IMPORTANT] If you don't see the pop-up dialog, then your browser may be blocking them. Disable your pop-up blocker and then reload the **Survey** page before continuing. Your setup will fail if you continue without agreeing to the message shown in the pop-up.
+    > [!IMPORTANT]
+    > If you don't see the pop-up dialog, then your browser may be blocking them. Disable your pop-up blocker and then reload the **Survey** page before continuing. Your setup will fail if you continue without agreeing to the message shown in the pop-up.
 
 1. The **Survey** page includes a check box, which you must select to indicate that you have read and agreed to its terms of service. Read the check box text carefully and follow its links for complete details. If you agree to the license terms and privacy policies that apply for the feature, select the check box. If you don't agree, quit the setup wizard.
 
@@ -136,17 +124,9 @@ Do the following:
 
 ### Step 6: The Summary page
 
-You are now done entering settings. The wizard will continue to set up your system. You can track its progress on this page if you like, or you can close the page and wait for an email to arrive announcing that the process is complete. The email will be sent to the address associated with your [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] account.
+You are now done entering settings. The wizard will continue to set up your system. You can track its progress on this page if you like, or you can close the page and wait for an email to arrive announcing that the process is complete. The email will be sent to the address associated with your [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] subscription.
 
 ![The Summary page](media/fre-summary.png "The Summary page")
-
-<a name="rerun-the-setup-wizard-to-update-your-customer-insights-key"></a>
-
-## Rerun the setup wizard to update your [!INCLUDE [pn-customer-insights-short](../includes/pn-customer-insights-short.md)] key
-
-As mentioned earlier in this topic, most of the settings you made while running the setup wizard are permanent for your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance. One exception to this is the password (policy primary key) for [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], which you can only update by rerunning the setup wizard.
-
-To rerun the wizard, go to the **Settings** work area of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and select the **Go to installation setup** link at the top of any page here. The setup wizard launches, behaving just like it did the first time you ran it, but this time only the key field on the **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]** page will be active; all other settings are read-only. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Open advanced settings](open-advanced-settings.md).
 
 ## Privacy notice
 
@@ -154,5 +134,4 @@ To rerun the wizard, go to the **Settings** work area of [!INCLUDE[pn-marketing-
 
 ### See also
 
-[Use a full Customer Insights account with Marketing](setup-licensed-dci.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)

@@ -2,8 +2,8 @@
 title: RBAC Management APIs (Hub)
 description: Enables management of Roles and Role Assignments.
 keywords: Customer Insights; Hub API; RBAC; role management
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

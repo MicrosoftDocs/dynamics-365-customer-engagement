@@ -2,8 +2,8 @@
 title: Create or Update Predictive Match Policy (Hub)
 description: Creates a new or updates an existing  Predictive Match Policy.
 keywords: Customer Insights; Hub API; predictive match policy; create; update
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/12/2017
 ms.topic: reference

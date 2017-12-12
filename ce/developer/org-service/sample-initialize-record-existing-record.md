@@ -2,7 +2,7 @@
 title: "Sample: Initialize a record from an existing record (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the IOrganizationService.InitializeFromRequest message to create new records from an existing record"
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. [Download the Sample: Initialize a record from an existing record (early bound)](https://code.msdn.microsoft.com/Sample-Initialize-a-record-f81879fa). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement. Download the Sample: [Work with early bound entity classes in code](https://code.msdn.microsoft.com/Work-with-early-bound-6914f6e7). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../../includes/sdk-prerequisite.md)]

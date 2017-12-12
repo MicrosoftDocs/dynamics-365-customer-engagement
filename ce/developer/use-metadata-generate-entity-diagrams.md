@@ -101,7 +101,13 @@ Visual representation of metadata can be very useful, especially when you are tr
   
 <a name="Generate"></a>   
 ## Generate entity diagrams with the metadata diagram tool  
- To use the sample code that will programmatically generate [!INCLUDE[pn_microsoft_office_visio](../includes/pn-microsoft-office-visio.md)] metadata diagrams, build and execute the one of these solutions found in the SDK package: `SDK\SampleCode\CS\Metadata\Diagram`. The folder contains a Readme file with instructions for its use. The code sample is a stand-alone console application that creates an entity relationship diagram. The program requires[!INCLUDE[pn_microsoft_office_visio](../includes/pn-microsoft-office-visio.md)].  
+ To use the sample code that will programmatically generate [!INCLUDE[pn_microsoft_office_visio](../includes/pn-microsoft-office-visio.md)] metadata diagrams, build and execute the using the solutions from SDK sample.
+ 
+ Download the sample: [Generate entity diagrams with the metadata diagram tool](https://code.msdn.microsoft.com/Sample-of-generating-a0ba0e47)
+ 
+ After you download the sample, you can find the solution file in the following folder path: `Generate entity diagrams with the metadata diagram tool\C#\Diagram`.
+ 
+ The folder contains a Readme file with instructions for its use. The code sample is a stand-alone console application that creates an entity relationship diagram. The program requires[!INCLUDE[pn_microsoft_office_visio](../includes/pn-microsoft-office-visio.md)].  
   
  You can run the program at the command prompt. Simply list the entities you wish to include in the diagram as command-line arguments. Other entities may be included in your diagram as needed to show all the relationships for each entity you have requested. To generate a diagram that shows the relationships for the new_bankaccount and new_safedepositbox entities, use the following command:  
   

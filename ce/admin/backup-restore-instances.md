@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Backup and restore instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.   
   
@@ -34,9 +34,9 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
 -   System backups occur daily.  
   
 -   System backups are retained up to three days. Check your expiration date.  
-  
+
   ![](media/Expires66.png "Expires On column that shows the expiration dates for backups.")
-  
+
 -   System backups do not count against your storage limits.  
   
 -   System backups are identified as created by **System** on the **Manage backups** page.  
@@ -77,6 +77,10 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
  ![On-demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
   
+-   You are not limited in the number of on-demand backups you can make.
+
+-   On-demand backups do not count against your storage limits.  
+
 -   On-demand backups are identified by having a label you created and by the presence of **Edit** &#124; **Delete** &#124; **Restore** in the details section. System backups have only **Restore**.  
   
  ![Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
@@ -99,7 +103,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 6.  Type a label and any notes to help identify this backup for future restoration.  
   
-7.  Verify that **Dynamics 365**  is selected as the type of backup, and then click **Create**.  
+7.  Click **Create**.  
   
  ![Form for creating a new Dynamics 365 (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
   

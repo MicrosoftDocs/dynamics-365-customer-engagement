@@ -1,8 +1,8 @@
 ---
-title: "Generate activities from a customer journey in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Generate activities from a customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; activities"
-ms.date: 11/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -17,6 +17,12 @@ topic-status: Drafting
 ---
 
 # Generate activities from a customer journey
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe>
 
 In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the trigger that creates a phone-call task associated with each contact who submits the registration form.  
 
@@ -50,7 +56,7 @@ For this exercise, you'll set up a template to create task activities, and then 
 1. Expand the **Segment Group** tile to expose its child **Segment** tile. Then select the child tile, open the **Properties** tab, and configure the tile to reference the segment you want to target.  
     ![Assign a segment to the segment tile](media/journey-assign-segment.png "Assign a segment to the segment tile")
 
-    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a dynamic segment](create-segment.md) and [Create a simple customer journey with email messaging](#create-a-simple-customer-journey-with-email-messaging)  
+    [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a simple customer journey with email messaging](create-simple-customer-journey.md)
 
 1. Select the **Activity** tile, and then open the **Properties** tab.  
     ![Set up the activity tile](media/journey-activity-properties.png "Set up the activity tile")  
@@ -65,7 +71,8 @@ For this exercise, you'll set up a template to create task activities, and then 
 1. Go to the **General** tab, and set the **Name**, **Time Zone**, **Start Date and Time,** and **End Date and Time**. You can set it to start right away, but allow it a few hours to run, just in case.  
     ![Name and schedule the journey](media/journey-general-settings2.png "Name and schedule the journey")
 
-    > [!TIP] A simple journey like this one might be useful for reminding staff to review key contacts each week. You can set this up by creating a segment that finds interesting contacts to work on for the week, and then use the **Is Recurring** settings on the **General** tab of your journey to rerun the journey once a week for as long as the journey is active.
+    > [!TIP]
+    > A simple journey like this one might be useful for reminding staff to review key contacts each week. You can set this up by creating a segment that finds interesting contacts to work on for the week, and then use the **Is Recurring** settings on the **General** tab of your journey to rerun the journey once a week for as long as the journey is active.
 
 1. On the command bar, select **Check for Errors**, and then read the results and fix any problems reported.
 

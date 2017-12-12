@@ -50,7 +50,9 @@ The following sample code demonstrates how to write an extension.
 
 [!code-csharp[CrmSvcUtilExtensions#BasicFilteringService](../../snippets/csharp/CRMV8/crmsvcutilextensions/cs/basicfilteringservice.cs#basicfilteringservice)]  
 
-Download the [CrmSvcUtilExtensions](https://code.msdn.microsoft.com/Create-extensions-for-the-b8b24d1d) and [GeneratePickListEnums](https://code.msdn.microsoft.com/Create-extensions-for-the-3dd56a27) sample. The **GeneratePicklistEnums** sample extension outputs a source code file that contains enumerations for all option sets, state codes, and status codes. For an example of how to use these enumerations, see the `SampleCode\CS\QuickStart` sample.  
+Download the sample: [CrmSvcUtilExtensions](https://code.msdn.microsoft.com/Create-extensions-for-the-b8b24d1d) and  [GeneratePickListEnums](https://code.msdn.microsoft.com/Create-extensions-for-the-3dd56a27). 
+
+The **GeneratePicklistEnums** sample extension outputs a source code file that contains enumerations for all option sets, state codes, and status codes. For an example of how to use these enumerations, see the `SampleCode\CS\QuickStart` sample.  
 
 ### See Also
 

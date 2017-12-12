@@ -2,8 +2,8 @@
 title: Predictive Matching Policy APIs (Hub)
 description: Enables predictive matching of profile and interaction instances within a hub.
 keywords: Customer Insights; Hub API; Predictive Matching; conflation
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/12/2017
 ms.topic: reference

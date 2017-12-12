@@ -2,7 +2,7 @@
 title: "Configure web form properties for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to configure web form properties for a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 12/05/2017
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -154,11 +154,11 @@ The following options provide a default value for a field on the form.
 
 The following options specify a value to be set when the form is saved.
 
-| Name              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Set Value On Save | Yes indicates that a value should be assigned to the attribute using the input provided in the **Value** field.                                                                  All attribute types are supported except the following: Unique Identifier. |                                                                                                                                                                                                                                                                                                                                                              |
-| Type              | One of the following: Value, Today's Date,Current User's Contact. Selecting Value requires a value to be specified in the **Value** field that will be assigned to the field when the form is loaded. Selecting Today's Date will assign the current date and time to the attribute field. Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
-| Value             | Value assigned to the attribute when the form is being saved. For Two Option (Boolean) fields, use true or false. For Option Set field, use the integer value for the option. For Lookup (EntityReference) fields, use the GUID. Note that if the attribute is also on the form, the user's value will be overwritten with this value. |                                                                                 |
+| Name              | Description |
+|-------------------|-------------|
+| Set Value On Save | Yes indicates that a value should be assigned to the attribute using the input provided in the **Value** field. All attribute types are supported except the following: Unique Identifier. |
+| Type              | One of the following:<br><ul><li> Value</li><li>Today's Date</li><li>Current User's Contact</li></ul> You must specify a value to be specified in the **Value** field that will be assigned to the field when the form is saved.<br>Selecting Today's Date will assign the current date and time to the attribute field.<br>Selecting Current User's Contact requires a **From Attribute** that is an attribute on the contact entity that will be retrieved from the current user's contact record and set on the attribute field specified.  |
+| Value             | Value assigned to the attribute when the form is being saved.<br>For Two Option (Boolean) fields, use true or false.<br>For Option Set field, use the integer value for the option.<br>For the Customer lookup fields (account or contact), use the `entity-name:entity-guid` syntax. For other lookup (EntityReference) fields, use the GUID.<br>Note that if the attribute is also on the form, the user's value will be overwritten with this value. |                                                                                 |
 | From Attribute    | An attribute on the contact entity that will be retrieved from the current portal user's record and assigned to the field during save.|
 ||
 

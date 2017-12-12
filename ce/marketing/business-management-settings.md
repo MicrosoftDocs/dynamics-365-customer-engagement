@@ -1,5 +1,5 @@
 ---
-title: "Import data and set up duplicate detection in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Import data and set up duplicate detection (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
 keywords: "administration; import; export; duplicate detection"
 ms.date: 12/15/2017
@@ -18,9 +18,11 @@ topic-status: Drafting
 
 # Business management settings
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic describes the pages available in the **Business Management** section of the **Settings** work area.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+The following pages are available in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
 
 ## Import data
 
@@ -72,7 +74,7 @@ Here are some guidelines to help make sure that your file will be imported succe
 
 For example, the following lines show what the data might look like for a .csv format file containing leads. The first line contains the field names, and the remaining lines are imported as data.
 
-```
+```Excel
 Company,Last Name,First Name,Topic,Email,Mobile Phone
 "Designer Bikes""Groth""Brian""Mountain bikes""someone@example.com""555-555-0112"
 "Major Sporting [!INCLUDE[pn-good-shortest](../includes/pn-good-shortest.md)]s""Bedecs""Anna""Components""555-555-0171"
@@ -85,7 +87,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 1. Start your import by doing either of the following:
     - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]** on the command bar.
-    - If you are an administrator, go to **Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
+    - If you are an administrator, go to **Advanced Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 1. Select **Browse** to upload a file.
 1. Select **Next**.<br>All the fields in your source file are automatically mapped.
 1. Select **Finish Import**.
@@ -96,7 +98,7 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 1. Start your import by doing either of the following:
     - Go to the list view for the entity you want to import to (such as the list of leads), and select **Import from CSV** on the command bar.
-    - If you are an administrator, go to **Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select **CSV**.
+    - If you are an administrator, go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. On the **Import Data** page, select the record type you want to import the data for, and then in the drop-down list, select **CSV**.
 
 1. Choose a file to upload.
 
@@ -176,7 +178,7 @@ The import process updates the records based on the alternate key and then appli
 
 You must wait for an import job to be completed before you can repair failures.
 
-1. Go to **Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
+1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
 1. Find your job in the list and check its progress. The **Status** column shows the status of the import by using the following values:
     - Submitted
     - Parsing
@@ -191,7 +193,7 @@ You must wait for an import job to be completed before you can repair failures.
 
 ### Delete imported records
 
-1. Go to **Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
+1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Import Data**. Import jobs for all recent imports are listed here.
 1. Select the import file that you want to delete, followed by one of the following actions:
    - **Delete import source file**: Deletes the import log file and its details.
    - **Delete imported records**: Deletes all records that were imported from the selected file.
@@ -228,7 +230,7 @@ If any of these rules are deleted, duplicate detection won't work as expected.
 
 If duplicate detection is disabled, duplicates won't be detected. To enable duplicate detection:
 
-1. Go to **Settings** > **Business Management** > **Duplicate Detection**.
+1. Go to **Settings** > **Advanced Settings** > **Business Management** > **Duplicate Detection**.
 1. Select **Enable**.
 
 ### When does duplicate detection happen?
@@ -245,7 +247,7 @@ If duplicate detection is enabled, duplicates are detected when:
 
 If your system contains a large number of records, checking for duplicates can affect performance. You might want to disable duplicate detection at such times.
 
-1. To disable duplicate detection, go to **Settings** > **Business Management** > **Duplicate Detection**.
+1. To disable duplicate detection, go to **Settings** > **Advanced Settings** > **Business Management** > **Duplicate Detection**.
 1. Select **Disable**.
 
 All the duplicate detection rules will be unpublished in the back end.

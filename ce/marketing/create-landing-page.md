@@ -1,8 +1,8 @@
 ---
-title: "Create a landing page in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Create a landing page (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to create a new landing page that includes a form for Dynamics 365 for Marketing"
 keywords: "tutorial; landing page; marketing page; form; page"
-ms.date: 11/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -18,6 +18,10 @@ topic-status: Drafting
 
 # Create a landing page with a form
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 A *landing page* is a webpage that functions as a customer touchpoint for one of your marketing initiatives. For example, you might send out an email message that invites recipients to sign up for a free white paper download. To get the download, message recipients must select a link that opens a webpage with a form where they enter information (which is saved directly in your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] database), and then they receive an email with the download link. The same landing page can also be made available to unknown visitors of your website, who will add themselves as new contacts in your database when they request the download.
 
 In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], a landing page is a type of *marketing page*. Other types of marketing pages include *subscription centers* and *forward-to-a-friend forms*, both of which support email marketing and are more specialized in purpose. All marketing pages run on your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] server and are based on the portal capabilities for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] feature.
@@ -29,7 +33,8 @@ To create a landing page and go live:
 
     On the command bar, select **New**.
 
-    > [!TIP] Forms are standalone records, and each of them can be used on any number of marketing pages. In day-to-day work, you'll often reuse existing forms rather than create a new one for each landing page. But for this exercise, you'll create a new one.
+    > [!TIP]
+    > Forms are standalone records, and each of them can be used on any number of marketing pages. In day-to-day work, you'll often reuse existing forms rather than create a new one for each landing page. But for this exercise, you'll create a new one.
 
 1. The **New Marketing Form** page opens with the **Select a Form Template** dialog box shown. This is similar to the template dialog box presented for marketing emails (as you saw in [Create a marketing email and go live](create-marketing-email.md)).  
     ![Select a form template dialog](media/form-template-dialog.png "Select a Form Template dialog box")
@@ -80,7 +85,8 @@ To create a landing page and go live:
 
     The **Details** tab opens when you select the **Form** block. Set the **Marketing Form** field to the name of the form that you created earlier in this procedure. Your form design is loaded onto the page.
 
-    > [!TIP]Forms are imported by reference—they are not copied to your page. That means that if you go back and edit the form, any changes you make there will be seen on all existing pages that use that form, so be careful when editing forms!
+    > [!TIP]
+    > Forms are imported by reference—they are not copied to your page. That means that if you go back and edit the form, any changes you make there will be seen on all existing pages that use that form, so be careful when editing forms!
 
 1. As you did with the other items you created, select **Save** on the command bar. Then select **Check for Errors** and read the results in the notification area. Address any issues, and recheck until your design passes. Finally, choose **Go Live**. If the command is successful, your page will be published and available on the internet.
 
@@ -89,7 +95,8 @@ To create a landing page and go live:
 
     Here you'll find information about your page, a **Timeline** where you can add notes and track its development, and links to various related records. You'll also find the **Full Page URL** in the **Content** section. Select the preview button ![The page preview button](media/page-preview-button.png "The page preview button") at the right side of the **Full Page URL** field to open the page. Then enter and submit some information through the page.
 
-    > [!TIP] Many entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] have a **Summary** tab like this one, where you can see general settings, a timeline, and related records.
+    > [!TIP]
+    > Many entities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] have a **Summary** tab like this one, where you can see general settings, a timeline, and related records.
 
 1. Switch to the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view by using the drop-down list above the page name headline.  
     ![Location of the view selector](media/page-view-selector.png "Location of the view selector")

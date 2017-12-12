@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Overview (Marketing)
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 <iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=853872" frameborder="0" allowfullscreen></iframe>
 

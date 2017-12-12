@@ -1,7 +1,7 @@
 ---
 title: "KnowledgeArticlesCategories Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the KnowledgeArticlesCategories entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # KnowledgeArticlesCategories Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Category for a Knowledge Article.
 
@@ -26,17 +24,20 @@ Category for a Knowledge Article.
 
 ## Entity Properties
 
-**DisplayName**: Knowledge Article Category<br />
-**DisplayCollectionName**: KnowledgeArticle Categories<br />
-**SchemaName**: KnowledgeArticlesCategories<br />
-**CollectionSchemaName**: <br />
-**LogicalName**: knowledgearticlescategories<br />
-**LogicalCollectionName**: <br />
-**EntitySetName**: KnowledgeArticleCategories<br />
-**PrimaryIdAttribute**: knowledgearticlecategoryid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName||
+|DisplayCollectionName|KnowledgeArticle Categories|
+|DisplayName|Knowledge Article Category|
+|EntitySetName|KnowledgeArticleCategories|
+|IsBPFEntity|False|
+|LogicalCollectionName||
+|LogicalName|knowledgearticlescategories|
+|OwnershipType|None|
+|PrimaryIdAttribute|knowledgearticlecategoryid|
+|PrimaryNameAttribute||
+|SchemaName|KnowledgeArticlesCategories|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -46,14 +47,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_KnowledgeArticleCategoryId"></a> KnowledgeArticleCategoryId
 
-**Description**: Unique identifier of the Category for the knowledge article.<br />
-**DisplayName**: <br />
-**LogicalName**: knowledgearticlecategoryid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Category for the knowledge article.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|knowledgearticlecategoryid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -66,37 +69,43 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_CategoryId"></a> CategoryId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: categoryid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|categoryid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_KnowledgeArticleId"></a> KnowledgeArticleId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: knowledgearticleid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|knowledgearticleid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytomany"></a>
 
@@ -109,7 +118,7 @@ Relationship details provided where the KnowledgeArticlesCategories entity is th
 
 See knowledgearticle Entity [knowledgearticle_category](knowledgearticle.md#BKMK_knowledgearticle_category) Many-To-Many Relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

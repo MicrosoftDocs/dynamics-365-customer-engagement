@@ -9,7 +9,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# getGridType (Client API reference) in Dynamics 365 Customer Engagement
+# getGridType (Client API reference)
 
 [!INCLUDE[](../../../../../includes/cc_applies_to_update_9_0_0.md)]
 

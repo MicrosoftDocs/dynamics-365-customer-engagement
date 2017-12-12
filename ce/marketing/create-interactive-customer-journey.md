@@ -1,8 +1,8 @@
 ---
-title: "Create an interactive customer journey in Dynamics 365 for Marketing | Microsoft Docs"
+title: "Create an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; trigger; landing page; signup; page"
-ms.date: 11/07/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -18,11 +18,18 @@ topic-status: Drafting
 
 # Create an interactive customer journey with triggers and signup
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe>
+
 In [Create a simple customer journey with email messaging](create-simple-customer-journey.md), you created the simplest possible customer journey, which simply sends an email message to all contacts in a segment. Now we'll go a bit deeper into customer journeys to see how to add interactive features and decision points by including landing pages and triggers in the design.
 
 1. Go to **Marketing** &gt; **Marketing Execution** &gt; **Marketing Emails** and create a new email message like the one you made in [Create a marketing email and go live](create-marketing-email.md). Be sure to include all the minimum requirements&mdash;name, subject, from-contact, subscription center link, and sender physical address—but don't go live yet.
 
-    > [!TIP] Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
+    > [!TIP]
+    > Consider choosing a non-blank email template this time. These templates not only have sample content, graphics, and column layouts, but also include all mandatory elements such as the subscription center link and physical address.
 
 1. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** block from the **Toolbox** onto the design canvas.  
     ![Add a marketing-page block to a message](media/email-add-page-block.png "Add a Marketing Page block to a message")
@@ -82,7 +89,8 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 
     This expression evaluates to true as soon as a contact submits valid information by using the referenced landing page. Each contact will wait at this trigger tile either until its logic evaluates to true or until the timeout period has elapsed, whichever comes first. As soon as a contact fulfills the requirements, it's sent down the true (top) path; if the timeout expires first, the contact is sent down the false (bottom) path instead.
 
-    > [!TIP] Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the trigger. For example, you might define a trigger when a contact just opens the landing page, or define a trigger on the email message itself when a contact selects a link or opens the message. You can also establish complex logic by adding several rules and combining them using AND or OR operators.
+    > [!TIP]
+    > Many types of trigger rules are possible, depending on which types of tiles are available along the pipeline leading to the trigger. For example, you might define a trigger when a contact just opens the landing page, or define a trigger on the email message itself when a contact selects a link or opens the message. You can also establish complex logic by adding several rules and combining them using AND or OR operators.
 
 1. Add two more **Marketing Email Message** tiles after the trigger, one on the top path and one on the bottom path.  
     ![Add an email tile to each path](media/journey-trigger-paths.png "Add an email tile to each path")  
@@ -91,7 +99,8 @@ In [Create a simple customer journey with email messaging](create-simple-custome
     - **Top tile**: This message is sent to contacts who submit the form (when the trigger evaluates to true). Configure it to send the download link message that you created earlier in this procedure.
     - **Bottom tile**: This message is sent to contacts who haven't submitted the form within three days of receiving the initial offer. Configure it to send the follow-up reminder message that you created earlier in this procedure.
 
-    > [!TIP] For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a marketing page as a child to the follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
+    > [!TIP]
+    > For the purposes of this exercise, you can stop here. But in a real campaign, you would probably repeat most of this pipeline along the bottom path, so that you have a marketing page as a child to the follow-up reminder and then a trigger that waits for page submissions. You can reuse the same landing page and download-link message.
     > 
     > ![An example of how to complete the follow-up path](media/journey-trigger-example.png "An example of how to complete the follow-up path")
 

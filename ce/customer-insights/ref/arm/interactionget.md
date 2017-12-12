@@ -2,8 +2,8 @@
 title: Get a Interaction Type (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Gets the specified Interaction.
 keywords: Customer Insights; ARM API; Interaction; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference

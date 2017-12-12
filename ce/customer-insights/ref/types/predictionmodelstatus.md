@@ -2,8 +2,8 @@
 title: PredictionModelStatus Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: Status of the training model used for predictive analysis
 keywords: Customer Insights; type; predictive analysis; prediction model status
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/28/2017
 ms.topic: reference

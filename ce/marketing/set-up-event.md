@@ -1,5 +1,5 @@
 ---
-title: "Initial and ongoing event planning in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Initial and ongoing event planning (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to plan an event (including: register basic info; set up your team; manage sessions and speakers; set the event schedule; issue passes;  and manage venues) in Dynamics 365 for Marketing"
 keywords: "events; event management"
 ms.date: 12/15/2017
@@ -18,9 +18,11 @@ topic-status: Drafting
 
 # Set up an event
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic explains how to get started planning an event with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You'll start by creating an event record, which collects all of your planning details, gives links to related records, and provides a business-process timeline that helps guide you through each step of the event-planning process. This topic also describes how to set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
+To get started planning an event with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you start by creating an event record, which collects all of your planning details, gives links to related records, and provides a business-process timeline that helps guide you through each step of the event-planning process. Then you set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
 
 ## Create the root event record
 

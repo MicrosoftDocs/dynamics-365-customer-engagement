@@ -18,9 +18,9 @@ manager: "brycho"
 ---
 # Manage updates 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-You have options for when you update your Dynamics 365 Online organization to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. To prepare for a smooth process, use the information in this topic.  
+You have options for when you update your Dynamics 365 Online organization to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. To prepare for a smooth process, use the information in this topic.
   
  You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
   
@@ -381,7 +381,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 |30 days before update|All Admins|No|Yes|Yes|  
 |15 days before update|All Admins|No|Yes|Yes|  
 |7 days before update|All Admins|Yes|Yes|Yes|  
-|Schedule confirmed by Admin|All Admins|No|Yes|Yes|  
+|Schedule confirmed by Admin|All Admins|No|No|Yes|  
 |Update in progress|All Admins and Users|No|No|Yes|  
 |Update successful|All Admins and Users|No|Yes|Yes|  
 |Fallback to secondary update|All Admins|No|Yes|Yes|  
