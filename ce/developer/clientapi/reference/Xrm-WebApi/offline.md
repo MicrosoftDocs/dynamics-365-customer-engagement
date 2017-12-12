@@ -15,6 +15,8 @@ manager: "amyla"
 
 [!INCLUDE[./includes/offline-description.md](./includes/offline-description.md)] 
 
+For information about the mobile offline feature, see [Configure mobile offline synchronization to allow users to work in offline mode on their mobile device](../../../../mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
+
 `var offlineWebApi = Xrm.WebApi.offline;`
 
 > [!NOTE]
