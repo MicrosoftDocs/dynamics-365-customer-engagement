@@ -31,6 +31,8 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 - [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]  
   
  The request page also indicates whether the message works while online (connected to the server) or offline (disconnected from the server).  
+
+ [!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)]
   
 ## Messages  
  The following table shows the messages available in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] namespace.  
