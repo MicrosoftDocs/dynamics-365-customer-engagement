@@ -2,7 +2,7 @@
 title: "Publish and react to posts in Social Engagement | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: "publish, post, like, favorite, share, private message, Social Engagement"
-ms.date: 10/17/2017
+ms.date: 11/29/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -99,7 +99,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-netb
   
 <a name="commentReply"></a>   
 ### Reply to a conversation  
- Reply to questions, requests, and feedback on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+ Reply to questions, requests, and feedback on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
  Conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] usually start with public posts. Especially with support requests, additional information is often required (for example a billing number, or a real name confirmation). This additional information usually isn’t intended for the public and needs to be shared in a private way. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you add a link to start a private conversation to any public reply on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. This lets you turn any public conversation into a private one, without losing the context.  
   
@@ -125,7 +125,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-netb
   
 7.  To publish the message on behalf of the selected social profile, click **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement").  
   
-     You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+     You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
   
 #### Add a link to send a private message from a public conversation on Twitter  
   
@@ -209,7 +209,7 @@ Share a link to a public post along with your own comments as a new post directl
 ### Engage in private conversations  
  Quickly respond to a private conversation through one of your social profiles directly from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. You can allow the data acquisition of your private messages so that other users of your organization’s solution can see the full context of the conversations.  
   
- If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
+ If data acquisition for private conversation from a social profile is allowed, and a search topic contains a Private Messages rule for the same social profile, all direct messages are visible to other users of the same [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Data retention in Social Engagement](data-retention-social-engagement.md)  
   
 <a name="dmTwitter"></a>   
 #### Send a direct message on Twitter from Social Engagement  
