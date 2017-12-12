@@ -1,7 +1,7 @@
 ---
 title: "TextAnalyticsEntityMapping Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the TextAnalyticsEntityMapping entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -13,7 +13,8 @@ manager: "jdaly"
 ---
 # TextAnalyticsEntityMapping Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+
 
 ## Messages
 
@@ -27,17 +28,20 @@ manager: "jdaly"
 
 ## Entity Properties
 
-**DisplayName**: Text Analytics Entity Mapping<br />
-**DisplayCollectionName**: Text Analytics Entity Mappings<br />
-**SchemaName**: TextAnalyticsEntityMapping<br />
-**CollectionSchemaName**: TextAnalyticsEntityMappings<br />
-**LogicalName**: textanalyticsentitymapping<br />
-**LogicalCollectionName**: textanalyticsentitymapping<br />
-**EntitySetName**: textanalyticsentitymappings<br />
-**PrimaryIdAttribute**: textanalyticsentitymappingid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: OrganizationOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|TextAnalyticsEntityMappings|
+|DisplayCollectionName|Text Analytics Entity Mappings|
+|DisplayName|Text Analytics Entity Mapping|
+|EntitySetName|textanalyticsentitymappings|
+|IsBPFEntity|False|
+|LogicalCollectionName|textanalyticsentitymapping|
+|LogicalName|textanalyticsentitymapping|
+|OwnershipType|OrganizationOwned|
+|PrimaryIdAttribute|textanalyticsentitymappingid|
+|PrimaryNameAttribute||
+|SchemaName|TextAnalyticsEntityMapping|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -62,191 +66,226 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_AdvancedSimilarityRuleId"></a> AdvancedSimilarityRuleId
 
-**Description**: Advanced Similarity RuleId associated with entity mapping.<br />
-**DisplayName**: Advanced Similarity RuleId<br />
-**LogicalName**: advancedsimilarityruleid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: incident
+|Property|Value|
+|--------|-----|
+|Description|Advanced Similarity RuleId associated with entity mapping.|
+|DisplayName|Advanced Similarity RuleId|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|advancedsimilarityruleid|
+|RequiredLevel|ApplicationRequired|
+|Targets|incident|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Entity"></a> Entity
 
-**Description**: Entity<br />
-**DisplayName**: Entity<br />
-**LogicalName**: entity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Entity|
+|DisplayName|Entity|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|entity|
+|MaxLength|50|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_EntityDisplayName"></a> EntityDisplayName
 
-**Description**: Entity Display Name<br />
-**DisplayName**: Entity Name<br />
-**LogicalName**: entitydisplayname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Entity Display Name|
+|DisplayName|Entity Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|entitydisplayname|
+|MaxLength|50|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_EntityPickList"></a> EntityPickList
 
-**Description**: Select Entity<br />
-**DisplayName**: Entity<br />
-**LogicalName**: entitypicklist<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Select Entity|
+|DisplayName|Entity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|entitypicklist|
+|RequiredLevel|None|
+|Type|EntityName|
 
 
 ### <a name="BKMK_Field"></a> Field
 
-**Description**: Field<br />
-**DisplayName**: Field<br />
-**LogicalName**: field<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Field|
+|DisplayName|Field|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|field|
+|MaxLength|50|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_FieldDisplayName"></a> FieldDisplayName
 
-**Description**: Field Display Name<br />
-**DisplayName**: Field Name<br />
-**LogicalName**: fielddisplayname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Field Display Name|
+|DisplayName|Field Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|fielddisplayname|
+|MaxLength|50|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_FieldPickList"></a> FieldPickList
 
-**Description**: Select Field<br />
-**DisplayName**: Field<br />
-**LogicalName**: fieldpicklist<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select Field|
+|DisplayName|Field|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|fieldpicklist|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: No
-- **Value**: 2 **Label**: Yes
+#### FieldPickList Options
+
+|Value|Label|
+|-----|-----|
+|1|No|
+|2|Yes|
 
 
 
 ### <a name="BKMK_IsTextMatchMapping"></a> IsTextMatchMapping
 
-**Description**: Specify if the mapping is for text match or exact match<br />
-**DisplayName**: Criteria<br />
-**LogicalName**: istextmatchmapping<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Specify if the mapping is for text match or exact match|
+|DisplayName|Criteria|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|istextmatchmapping|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Text Match
-- **FalseOption Value**: 0 **Label**: Exact Match
+#### IsTextMatchMapping Options
+
+|Value|Label|
+|-----|-----|
+|1|Text Match|
+|0|Exact Match|
 
 **DefaultValue**: True
 
 
+
 ### <a name="BKMK_KnowledgeSearchModelId"></a> KnowledgeSearchModelId
 
-**Description**: Knowledge Search Model associated with entity mapping.<br />
-**DisplayName**: Knowledge Search Model Id<br />
-**LogicalName**: knowledgesearchmodelid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: incident
+|Property|Value|
+|--------|-----|
+|Description|Knowledge Search Model associated with entity mapping.|
+|DisplayName|Knowledge Search Model Id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|knowledgesearchmodelid|
+|RequiredLevel|ApplicationRequired|
+|Targets|incident|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModelType"></a> ModelType
 
-**Description**: Model Type.<br />
-**DisplayName**: Model Type<br />
-**LogicalName**: modeltype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Model Type.|
+|DisplayName|Model Type|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modeltype|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_RelationshipName"></a> RelationshipName
 
-**Description**: Relationship Name<br />
-**DisplayName**: Relationship Name<br />
-**LogicalName**: relationshipname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Relationship Name|
+|DisplayName|Relationship Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|relationshipname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SimilarityRuleId"></a> SimilarityRuleId
 
-**Description**: Similarity Rule associated with entity mapping.<br />
-**DisplayName**: Similarity Rule Id<br />
-**LogicalName**: similarityruleid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: similarityrule
+|Property|Value|
+|--------|-----|
+|Description|Similarity Rule associated with entity mapping.|
+|DisplayName|Similarity Rule Id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|similarityruleid|
+|RequiredLevel|ApplicationRequired|
+|Targets|similarityrule|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TextAnalyticsEntityMappingId"></a> TextAnalyticsEntityMappingId
 
-**Description**: Unique identifier for entity instances<br />
-**DisplayName**: Text Analytics Entity Mapping<br />
-**LogicalName**: textanalyticsentitymappingid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|Text Analytics Entity Mapping|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|textanalyticsentitymappingid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_TopicModelConfigurationId"></a> TopicModelConfigurationId
 
-**Description**: Topic Model Configuration associated with entity mapping.<br />
-**DisplayName**: Topic Model Configuration Id<br />
-**LogicalName**: topicmodelconfigurationid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Lookup<br />
-**Targets**: topicmodelconfiguration
+|Property|Value|
+|--------|-----|
+|Description|Topic Model Configuration associated with entity mapping.|
+|DisplayName|Topic Model Configuration Id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|topicmodelconfigurationid|
+|RequiredLevel|ApplicationRequired|
+|Targets|topicmodelconfiguration|
+|Type|Lookup|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -268,165 +307,196 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_AdvancedSimilarityRuleIdName"></a> AdvancedSimilarityRuleIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: advancedsimilarityruleidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|advancedsimilarityruleidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
 
-**Description**: For internal use only.<br />
-**DisplayName**: Component State<br />
-**LogicalName**: componentstate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Published
-- **Value**: 1 **Label**: Unpublished
-- **Value**: 2 **Label**: Deleted
-- **Value**: 3 **Label**: Deleted Unpublished
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
 
 
 
 ### <a name="BKMK_IsManaged"></a> IsManaged
 
-**Description**: Is Manageed<br />
-**DisplayName**: State<br />
-**LogicalName**: ismanaged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Is Manageed|
+|DisplayName|State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Managed
-- **FalseOption Value**: 0 **Label**: Unmanaged
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_KnowledgeSearchModelIdName"></a> KnowledgeSearchModelIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: knowledgesearchmodelidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|knowledgesearchmodelidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier of the organization associated with the Text Analytics Entity Mapping.<br />
-**DisplayName**: Organization<br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: organization
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the organization associated with the Text Analytics Entity Mapping.|
+|DisplayName|Organization|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Targets|organization|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: organizationidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: overwritetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_SimilarityRuleIdName"></a> SimilarityRuleIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: similarityruleidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|similarityruleidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SolutionId"></a> SolutionId
 
-**Description**: Unique identifier of the associated solution.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: solutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: supportingsolutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_TextAnalyticsEntityMappingIdUnique"></a> TextAnalyticsEntityMappingIdUnique
 
-**Description**: Unique identifier of the Text Analytics Entity Mapping<br />
-**DisplayName**: Text Analytics Entity Mapping Unique Id<br />
-**LogicalName**: textanalyticsentitymappingidunique<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the Text Analytics Entity Mapping|
+|DisplayName|Text Analytics Entity Mapping Unique Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|textanalyticsentitymappingidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_TopicModelConfigurationIdName"></a> TopicModelConfigurationIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: topicmodelconfigurationidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|topicmodelconfigurationidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 <a name="manytoone"></a>
 
@@ -456,7 +526,7 @@ See organization Entity [organization_textanalyticsentitymapping](organization.m
 
 See knowledgesearchmodel Entity [knowledgesearchmodel_textanalyticsentitymapping](knowledgesearchmodel.md#BKMK_knowledgesearchmodel_textanalyticsentitymapping) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

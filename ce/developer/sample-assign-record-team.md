@@ -2,7 +2,7 @@
 title: "Sample: Assign a record to a team (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to assign a record to a team by using the AssignRequest message. "
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 12/12/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -26,7 +26,7 @@ topic-status: Drafting
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Sample: Assign a record to a team (early bound)](https://code.msdn.microsoft.com/Sample-Assign-a-record-to-c7d2c946).
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the Sample: [Work with early bound entity classes in code](https://code.msdn.microsoft.com/Work-with-early-bound-6914f6e7).
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
