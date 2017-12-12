@@ -1,28 +1,35 @@
 ---
 title: "Manage the encryption keys for your Dynamics 365 (online) instance | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Learn how you can manage database encryption keys for your instance."
+keywords: "encrypt"
+ms.date: 12/12/2017
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 Version 8.2"
 ms.assetid: 47bbbe8f-7839-475d-a844-632aa33fae51
+author: Mattp123
+ms.author: matp
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 4
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Manage the encryption keys
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] Transparent Data Encryption (TDE) to perform real-time encryption of data when written to disk, also known as encryption at rest.  
   
- By default, [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] stores and manages the database encryption keys for your instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] so you don’t have to.  The manage keys feature in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] gives administrators the ability to self-manage the database encryption keys that are associated with instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)].  
+ By default, [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] stores and manages the database encryption keys for your instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] so you don’t have to.  The manage keys feature in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] gives administrators the ability to self-manage the database encryption keys that are associated with instances of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. 
+
+> [!IMPORTANT]
+>  Self-managed database encryption keys are only available in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-8-2-0-online.md)] and may not be made available for later versions.  
   
 <a name="KM_tasks"></a>   
 ## Introduction to key management  
@@ -73,9 +80,6 @@ However, if after 72 hours the key change is not rolled back, the [!INCLUDE[pn_d
   
 ### Subscription requirements  
  The ability to self-manage database encryption keys requires either Dynamics 365 Customer Engagement Plan Enterprise Edition or Dynamics 365 Plan.  
-  
-### Dynamics 365 version support  
- Self-managed database encryption keys are only available in the January 2017 update for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and may not be made available for later versions.  
   
 ### Encryption key requirements  
  If you provide your own encryption key, your key must meet  these  requirements that are accepted by [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)].  
