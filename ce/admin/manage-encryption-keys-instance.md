@@ -8,7 +8,7 @@ ms.custom:
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 Version 8.2"
 ms.assetid: 47bbbe8f-7839-475d-a844-632aa33fae51
 author: jimholtz
 ms.author: jimholtz
