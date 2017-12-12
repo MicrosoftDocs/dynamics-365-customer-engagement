@@ -31,7 +31,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
  
 
 > [!IMPORTANT]
-> The manage keys feature is only available with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-8-2-0-online.md)]. 
+>  Self-managed database encryption keys are only available in the [!INCLUDE[pn_CRM_Online](../includes/pn-crm-8-2-0-online.md)] and may not be made available for later versions.  
   
 <a name="KM_tasks"></a>   
 ## Introduction to key management  
@@ -82,9 +82,6 @@ However, if after 72 hours the key change is not rolled back, the [!INCLUDE[pn_d
   
 ### Subscription requirements  
  The ability to self-manage database encryption keys requires either Dynamics 365 Customer Engagement Plan Enterprise Edition or Dynamics 365 Plan.  
-  
-### Dynamics 365 version support  
- Self-managed database encryption keys are only available in the January 2017 update for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and may not be made available for later versions.  
   
 ### Encryption key requirements  
  If you provide your own encryption key, your key must meet  these  requirements that are accepted by [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)].  
