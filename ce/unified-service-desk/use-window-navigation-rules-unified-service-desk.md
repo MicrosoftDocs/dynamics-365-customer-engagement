@@ -33,7 +33,7 @@ Window navigation rules define the interaction between various controls in [!INC
   
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
   
-3.  Click **Windows Navigation Rules**. The page displays all the existing navigation rules in the system.  
+3. Click **Windows Navigation Rules**. The page displays all the existing navigation rules in the system.  
   
  ![Windows navigation rules](../unified-service-desk/media/usd-windows-navigation-rules.PNG "Windows navigation rules")  
   
