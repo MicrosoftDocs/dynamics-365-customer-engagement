@@ -41,8 +41,7 @@ Window navigation rules define the interaction between various controls in [!INC
   
     1.  To create a new navigation rule, click or tap **NEW** on the command bar.  
   
-    2.  To edit an existing navigation rule, either click on the navigation rule name or select the navigation rule record in the list, and then click **EDIT** on the command bar.  
-  
+    2.  To edit an existing navigation rule, either click on the navigation rule name or select the navigation rule record in the list, and then click **EDIT** on the command bar.    
 5.  On the navigation rule definition page, specify or modify the following values if you are creating a new navigation rule or editing an existing navigation rule respectively. Fields marked with red asterisk are mandatory.  
   
  ![New window navigation rule](../unified-service-desk/media/usd-new-navigation-rule.PNG "New window navigation rule")  
@@ -63,7 +62,7 @@ Window navigation rules define the interaction between various controls in [!INC
  |Entity Search|This is the entity search (FetchXML-based web service definition) that will be used to look up the data. This will populate the data fields in the session with the fields collected by the call. For more information about entity searches, see [Search data using entity searches in Unified Service Desk](../unified-service-desk/search-data-entity-searches.md).|  
  |Hide Command Bar|This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] command bar after the window is displayed in the new tab.|  
  |Hide Navigation Bar|This causes [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to hide the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] navigation bar on the left of the window, when the window is displayed in a new tab.|
- |Condition|The condition field is a JavaScript expression that results in true or false.<br/>The windows navigation rule is executed only if the conditional expression is validated as true at the run-time. In addition to the standard replacement parameters, you can use the `[[url]]` as a replacement parameter in the condition. The `[[url]]` replacement parameter is replaced with the URL of the target page at the run-time.<br/> > [!Note]<br/> > The conditional expression is optional and does not affect the windows navigation rule validation.<br/> > Incorrect conditional expression causes the windows navigation rule to fail.|
+ |Condition|The condition field is a JavaScript expression that results in true or false.<br/>The windows navigation rule is executed only if the conditional expression is validated as true at the run-time. In addition to the standard replacement parameters, you can use the `[[url]]` as a replacement parameter in the condition. The `[[url]]` replacement parameter is replaced with the URL of the target page at the run-time.<br/>The conditional expression is optional and does not affect the windows navigation rule validation.<br/> Incorrect conditional expression causes the windows navigation rule to fail.|
 
 6.  Click **Save** to create or modify the window navigation rule.
   
