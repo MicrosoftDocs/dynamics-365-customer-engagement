@@ -43,6 +43,10 @@ GET [Organization URI]/api/data/v9.0/themes?$filter=isdefaulttheme eq true&$sele
  **Response:**
 
 ```json
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
 {  
     "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#themes(defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor)",  
     "value": [  
