@@ -20,9 +20,9 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you are not already a member of the Microsoft Partner Network (MPN), you must become a member by enrolling [here](https://partners.microsoft.com/PartnerProgram/simplifiedenrollment.aspx).
+If you are not already a member of the Microsoft Partner Network (MPN), you must become a member by enrolling at [https://partners.microsoft.com/PartnerProgram/simplifiedenrollment.aspx](https://partners.microsoft.com/PartnerProgram/simplifiedenrollment.aspx).
 
-You must have a MPN account (MPN ID) to publish apps on AppSource. MPN membership is free. 
+MPN members are provided with an MPN ID that is required for publishing apps on AppSource. MPN membership is free.
 
 > [!div class="nextstepaction"]
 > [Step 3: Create a managed solution for your app](create-solution-app-appsource.md)
