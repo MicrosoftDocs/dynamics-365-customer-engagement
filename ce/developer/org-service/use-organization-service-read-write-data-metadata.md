@@ -2,7 +2,7 @@
 title: "Use the Organization Service to read and write data or metadata (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "IOrganizationService is the primary web service that accesses data and metadata for your organization. This web service contains the methods that you use to write code that uses all the data and metadata in Dynamics 365"
 ms.custom: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

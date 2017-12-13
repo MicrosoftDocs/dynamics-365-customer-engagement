@@ -2,7 +2,7 @@
 title: "Use the OrganizationServiceContext class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The OrganizationServiceContext class lets you track changes, manage identities and relationships, and gives you access to the Dynamics 365 LINQ provider. This class also contains a OrganizationServiceContext.SaveChanges method that you use to submit the changes to data that the context is tracking"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -24,9 +24,9 @@ In [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] 
   
  To generate this class, provide a value for the `/serviceContextName` parameter when you generate early bound types. The code generation tool uses this name as the name of the generated class. For more information about how to use the code generation tool, see [Use the Code Generation Utility (CrmSvcUtil.exe)](create-early-bound-entity-classes-code-generation-tool.md). You can use the organization service context when you develop applications, plug-ins, and workflow activities.  
   
-<a name="how_to_use"></a>   
+<a name="how_to_use"></a>
 ## How to use the OrganizationServiceContext class  
- To instantiate the context class, you must pass the class constructor an object that implements the<xref:Microsoft.Xrm.Sdk.IOrganizationService> interface. One option is to pass an instance of the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> class. For more information about the<xref:Microsoft.Xrm.Sdk.IOrganizationService> interface, see [Use IOrganizationService for Your Organization](use-organization-service-read-write-data-metadata.md).  
+ To instantiate the context class, you must pass the class constructor an object that implements the <xref:Microsoft.Xrm.Sdk.IOrganizationService> interface. One option is to pass an instance of the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> class. For more information about the<xref:Microsoft.Xrm.Sdk.IOrganizationService> interface, see [Use IOrganizationService for Your Organization](use-organization-service-read-write-data-metadata.md).
   
  The following code example shows how to create a new instance of the context class. In this example, the context class was named AdventureWorksCycleServiceContext by specifying the name using the `/serviceContextName` parameter on the code generation tool:  
   

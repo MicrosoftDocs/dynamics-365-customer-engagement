@@ -2,7 +2,7 @@
 title: "Sample: Access the Discovery service (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The sample demonstrates how to obtain organization information, including the organization’s URL, from the DiscoveryService Web service."
 ms.custom: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
