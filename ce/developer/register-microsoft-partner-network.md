@@ -1,6 +1,6 @@
 ---
-title: "Step 1: Register for Microsoft Partner Network account (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "App builders must be memebers of Microsoft Partner Network (MPN) to publish apps on AppSource."
+title: "Step 2: Register for Microsoft Partner Network (MPN) account (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "App builders must be members of Microsoft Partner Network (MPN) to publish apps on AppSource."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -16,18 +16,16 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Step 1: Register for Microsoft Partner Network account
+# Step 2: Register for Microsoft Partner Network account
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-App builders must be identifiable to Microsoft. If you are not already a member of the Microsoft Partner Network (MPN), you must become a member by enrolling [here]. Membership to MPN is free.
+If you are not already a member of the Microsoft Partner Network (MPN), you must become a member by enrolling [here].
 
-On registering for MPN membership, your data is securely sent to Microsoft where it's reviewed by a team. If you qualify for the MPN membership, your account is created, and you receive an email with the required information and credentials that you can use later to sign in to the Cloud Partner Portal to submit your app.
-
-The membership request review process might take couple of days so you can proceed to the next steps as you are waiting for the approval and your Cloud Partner Portal credentials to arrive. 
+You must have a MPN account (MPN ID) to publish apps on AppSource. MPN membership is free. 
 
 > [!div class="nextstepaction"]
-> [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
+> [Step 3: Create a managed solution for your app](create-solution-app-appsource.md)
 
 ### See also 
 

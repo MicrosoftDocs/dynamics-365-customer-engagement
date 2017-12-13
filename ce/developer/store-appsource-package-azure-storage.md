@@ -1,6 +1,6 @@
 ---
-title: "Step 4: Store your AppSource Package on Azure storage and generate a URL with SAS key (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "App builders must be memebers of Microsoft Partner Network (MPN) to publish apps on AppSource."
+title: "Step 5: Store your AppSource Package on Azure storage and generate a URL with SAS key (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "To maintain security of your files, all app developers must store their AppSource package file in a Microsoft Azure Blob storage account, and use a Shared Access Signature (SAS) key to share the package file. Your package file is retrieved from your Azure Storage location for certification, and then for AppSource trials."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -15,13 +15,13 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Step 4: Store your AppSource Package on Azure Storage and generate a URL with SAS key
+# Step 5: Store your AppSource Package on Azure Storage and generate a URL with SAS key
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
 Microsoft Azure Storage is a Microsoft-managed cloud service that provides storage that is highly available, secure, durable, scalable, and redundant. More information: [Introduction to Microsoft Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-introduction).
 
-To maintain security of your files, all partners must store their AppSource package file in a Microsoft Azure Blob storage account, and use a Shared Access Signature (SAS) key to share the package file. Your package file is retrieved from your Azure Storage location for certification, and then for AppSource trials.
+To maintain security of your files, all app developers must store their AppSource package file in a Microsoft Azure Blob storage account, and use a Shared Access Signature (SAS) key to share the package file. Your package file is retrieved from your Azure Storage location for certification, and then for AppSource trials.
 
 ## Before you upload your package
 

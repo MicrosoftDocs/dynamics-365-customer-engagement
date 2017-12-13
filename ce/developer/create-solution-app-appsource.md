@@ -1,6 +1,6 @@
 ---
-title: "Step 2: Create a managed solution for your app (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "App builders must be memebers of Microsoft Partner Network (MPN) to publish apps on AppSource."
+title: "Step 3: Create a managed solution for your app (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Learn about how to create a managed solution for your app to include all the components. This is required for publishing an app to Appsource."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -15,7 +15,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Step 2: Create a managed solution for your app
+# Step 3: Create a managed solution for your app
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -50,6 +50,6 @@ You will have a solution file (example: *SampleSolution.zip*) and optionally a d
 
 
 > [!div class="nextstepaction"]
-> [Step 3: Create a package for your app](create-package-app-appsource.md) 
+> [Step 4: Create an AppSource package for your app](create-package-app-appsource.md) 
   
 

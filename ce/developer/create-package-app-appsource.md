@@ -1,6 +1,6 @@
 ---
-title: "Step 3: Create an AppSource package for your app (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "App builders must be memebers of Microsoft Partner Network (MPN) to publish apps on AppSource."
+title: "Step 4: Create an AppSource package for your app (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
+description: "Learn about how to create an AppSource package (.zip file) to include your solution and demo data files along with other required files."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -15,11 +15,11 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Step 3: Create an AppSource package for your app
+# Step 4: Create an AppSource package for your app
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-You must create an AppSource package, a compressed .zip file, to bundle your solution and demo data files along with other required files. An app source package consists of the following files:
+You must create an AppSource package (.zip file) to include your solution and demo data files along with other required files. An AppSource package consists of the following files:
 
 |File|Description|
 |--|--|
@@ -136,6 +136,6 @@ The final step is to add all the components that you created earlier into a sing
  
 
 > [!div class="nextstepaction"]
-> [Step 4: Store your AppSource Package to Azure storage](store-appsource-package-azure-storage.md) 
+> [Step 5: Store your AppSource Package to Azure storage](store-appsource-package-azure-storage.md) 
   
 

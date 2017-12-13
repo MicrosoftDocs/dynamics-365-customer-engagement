@@ -1,6 +1,6 @@
 ---
 title: "Next steps: Submit your app on Cloud Partner Portal (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "App builders must be memebers of Microsoft Partner Network (MPN) to publish apps on AppSource."
+description: "Learn about how to submit an app on Cloud Partner Portal."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -19,11 +19,11 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-Your app is ready for submission after completing steps 1-4. Use the [Cloud Partner Portal](https://cloudpartner.azure.com) to create an offer to submit your app. All apps that are submitted to be listed on Microsoft AppSource go through a certification process. 
+Your app is ready for submission after completing steps 1-5. 
 
-You can access the Cloud Partner Portal only if you are a member of the Microsoft Partner Network (MPN). We explained earlier how you can enroll for MPN membership in [Step 1: Register for Microsoft Partner Network account](register-microsoft-partner-network.md).
+If you have received your credentials to sign in to the [Cloud Partner Portal](https://cloudpartner.azure.com) from the AppSource team, proceed to sign in to the portal and [create an offer](https://cloudpartner.azure.com/#new/microsoft-crm/form/offerSettings) to submit your app. All apps that are submitted to be listed on AppSource go through a certification process. 
 
-Once your membership request is approved, you will receive the credentials and instructions in an email to sign in to Cloud Partner Portal to [create an offer](https://cloudpartner.azure.com/#new/microsoft-crm/form/offerSettings) for your app submission. Detailed information about submitting an app for Dynamics 365 for Customer Engagement is available in the Cloud Partner Portal [documentation](https://cloudpartner.azure.com/#documentation/crm-create-offer). Again, the portal documentation is only accessible to MPN members.
+Detailed information about submitting an app for Dynamics 365 for Customer Engagement is available in the Cloud Partner Portal [documentation](https://cloudpartner.azure.com/#documentation/crm-create-offer). Again, the portal documentation is only accessible to authorized users of the Cloud Partner Portal.
 
 ## See also
 

@@ -1,6 +1,6 @@
 ---
 title: "Publish your app on AppSource (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Publish your Dynamics 365 app with Microsoft AppSource so that subscribers can find it, try it, and buy it."
+description: "Learn about how to publish your Dynamics 365 Customer Engagement app on Microsoft AppSource so that subscribers can find it, try it, and buy it."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.reviewer: ""
@@ -22,23 +22,21 @@ manager: "amyla"
 
 Publish your app on [Microsoft AppSource](https://appsource.microsoft.com) so that [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] Customer Engagement subscribers can find it, try it, and buy it. 
 
-## Before publishing your app 
-  
-Visit [https://appsource.microsoft.com/partners](https://appsource.microsoft.com/partners), and read the **App review guidelines** to understand whether your app is a good fit for AppSource.
+## Prepare for submitting your app on AppSource
 
-## Preparing your app for publishing
+Use the following steps to prepare for submitting your app to be listed on Microsoft AppSource:
 
-Preparing an app for publishing on AppSource involves a series of steps such as such as registering on the Microsoft Partner Network (MPN) and then preparing your app-related files for submission. Use the following steps to prepare your app for submission:
+> [Step 1: Fill the app submission form on AppSource](fill-app-submission-form-appsource.md)
 
-> [Step 1: Register for Microsoft Partner Network account](register-microsoft-partner-network.md)
+> [Step 2: Register for Microsoft Partner Network account](register-microsoft-partner-network.md)
 
-> [Step 2: Create a managed solution for your app](create-solution-app-appsource.md)
+> [Step 3: Create a managed solution for your app](create-solution-app-appsource.md)
 
-> [Step 3: Create an AppSource package for your app](create-package-app-appsource.md)
+> [Step 4: Create an AppSource package for your app](create-package-app-appsource.md)
 
-> [Step 4: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
+> [Step 5: Store your package on Azure Storage](store-appsource-package-azure-storage.md)
 
-## Submitting your app on Cloud Partner Portal
+## Submit your app on Cloud Partner Portal
 
 Once your app is ready for submission, you use the [Cloud Partner Portal](https://cloudpartner.azure.com) to submit your app to be listed on the Microsoft AppSource. Access to the Cloud Partner Portal and related documentation is available only to Microsoft Partner Network members.
 
