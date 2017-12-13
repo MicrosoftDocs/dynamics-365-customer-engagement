@@ -136,6 +136,6 @@ The final step is to add all the components that you created earlier into a sing
  
 
 > [!div class="nextstepaction"]
-> [Step 5: Store your AppSource Package to Azure storage](store-appsource-package-azure-storage.md) 
+> [Step 5: Store your AppSource Package on Azure Storage](store-appsource-package-azure-storage.md) 
   
 
