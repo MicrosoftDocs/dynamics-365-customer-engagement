@@ -2,7 +2,7 @@
 title: "Web API Samples (C#) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This topic provides a description of various Web API samples that are implemented using C#"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -36,6 +36,9 @@ This topic provides information about the Web API samples implemented with C#. W
 -   Access to  Dynamics 365 Online or on-premises (or later). For all Dynamics 365 installation types, a user account with privileges to perform CRUD operations is required.  
   
 -   In order to run samples against [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)], you must register your application with Azure Active Directory to obtain a client ID and redirect URL. For more information, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).  
+
+> [!NOTE]
+> These samples require version 2.x of assembly Microsoft.IdentityModel.Client.ActiveDirectory for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)].
   
 <a name="bkmk_webApiSamplesListing"></a>   
 ## Web API samples listing (C#)  
