@@ -99,7 +99,63 @@ The following is a sample Tile XML file. Description of the elements in the XML 
 </LibraryTile>
 ```
 
+### Tile XML file elements
 
+The XML file has the following elements:
+
+- **Definition**: Defines the icon by specifying the following properties:
+
+    <table>
+    <tr>
+    <th>Property</th>
+    <th>Description</th>
+    </tr>
+    <tr>
+    <td>icon</td>
+    <td>CSS class defining your tile icon. This definition is available in your CSS file.</td>
+    </tr>
+    <tr>
+    <td>fontFamily</td>
+    <td>CSS class definiing font-family for your icon. This definition is available in your CSS file.</td>
+    </tr>
+    <tr>
+    <td>cssFileName</td>
+    <td>Your CSS file name containing the definitions.</td>
+    </tr>
+    </table>
+
+    Example:
+
+    ```xml
+    <Definition icon="sample_SpecialTile" fontFamily="sample_SpecialTileSymbolFont" cssFileName="sample_SpecialTileCustomerJourneyDesignerTileConfig.css" />
+    ```
+
+- **ChannelProperties**: Contains information about the custom entity that you created to store and manage data related to your custom channel.
+
+    <table>
+    <tr>
+    <th>Element</th>
+    <th>Description</th>
+    </tr>
+    <tr>
+    <td>EntityType</td>
+    <td>Logical name of the custom entity.</td>
+    </tr>
+    <tr>
+    <td>EntitySetName</td>
+    <td>Collection name (plural name) of the custom entity.</td>
+    </tr>
+    <tr>
+    <td>ComplianceField</td>
+    <td><p>Contains a boolean attribute of the Contact entity whose value determines whether an instance of the Custom Channel Activity (msdyncrm_customerjourneycustomchannelactivity) entity is created when the contact record goes through a customer journey.</p>
+    <p>For example, if you set the value of this element to <b>donotphone</b>:</p>
+
+    `<ComplianceField>donotphone</ComplianceField>`
+ 
+    <p>The value of this attribute will be checked for a contact record while going through a customer journey, and an instance of the Custom Channel Activity entity will be created only if the value of the <b>donotphone</b> attribute for the contact record is <b>false</b>.</p>
+</td>
+    </tr>
+    </table>
 
 
 
