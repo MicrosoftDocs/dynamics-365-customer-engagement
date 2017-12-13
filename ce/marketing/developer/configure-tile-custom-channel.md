@@ -147,13 +147,14 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>ComplianceField</td>
-    <td><p>Contains a boolean attribute of the Contact entity whose value determines whether an instance of the Custom Channel Activity (msdyncrm_customerjourneycustomchannelactivity) entity is created when the contact record goes through a customer journey.</p>
-    <p>For example, if you set the value of this element to <b>donotphone</b>:</p>
+    <td>Contains a boolean attribute of the [Contact]((../../developer/entities/contact.md)) entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.
+    
+    For example, if you set the value of this element to [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone):
 
     `<ComplianceField>donotphone</ComplianceField>`
  
-    <p>The value of this attribute will be checked for a contact record while going through a customer journey, and an instance of the Custom Channel Activity entity will be created only if the value of the <b>donotphone</b> attribute for the contact record is <b>false</b>.</p>
-</td>
+    The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone) attribute for the contact record is <b>false</b>.
+    </td>
     </tr>
     </table>
 
