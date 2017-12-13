@@ -38,7 +38,7 @@ This topic provides information about the Web API samples implemented with C#. W
 -   In order to run samples against [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)], you must register your application with Azure Active Directory to obtain a client ID and redirect URL. For more information, see [Walkthrough: Register a Dynamics 365 app with Azure Active Directory](../walkthrough-register-dynamics-365-app-azure-active-directory.md).  
 
 > [!NOTE]
-> These samples require version 2.x of assembly Microsoft.IdentityModel.Client.ActiveDirectory for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)].
+> These samples require version 2.x of assembly [Microsoft.IdentityModel.Client.ActiveDirectory](https://docs.microsoft.com/en-us/dotnet/api/microsoft.identitymodel.clients.activedirectory?view=azure-dotnet) for OAuth based authentication with [!INCLUDE[](../../includes/pn-crm-online.md)].
   
 <a name="bkmk_webApiSamplesListing"></a>   
 ## Web API samples listing (C#)  
