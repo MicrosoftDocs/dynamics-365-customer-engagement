@@ -1,1 +1,1 @@
-Edge
+Microsoft Edge

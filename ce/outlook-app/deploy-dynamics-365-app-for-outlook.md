@@ -148,9 +148,11 @@ For example, to set privileges for the Mailbox entity:
 ### Support summary
 
 #### Windows desktop
-- Outlook 2013 (desktop client)
+- Outlook 2013 (desktop client)*
 - Outlook 2016 (desktop client)
 - Outlook on the web on Internet Explorer 11, Edge, and Chrome
+
+*[Support for 2013 versions of Office 365 ProPlus ended February 28, 2017.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28)
 
 #### Macintosh
 - Not supported

@@ -2,8 +2,8 @@
 title: Create Interaction Instance (Hub Data)
 description: Creates a new Interaction instance. 
 keywords: Customer Insights; Hub Data API;  Interaction instance; create
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/03/2016
 ms.topic: reference

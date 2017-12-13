@@ -15,9 +15,9 @@ caps.latest.revision: 15
 ms.author: "rdubois"
 manager: "brycho"
 ---
-# Create a schema to export configuration data 
+# Create a schema to export configuration data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 The Configuration Migration tool lets you build a schema to describe your export data. It also enables you to check for any missing dependencies and relationships in the entities or fields to be exported to avoid an inconsistent data set.  
   
@@ -25,12 +25,13 @@ The Configuration Migration tool lets you build a schema to describe your export
 
 ## Before you begin 
 
-Download and install the [Microsoft Dynamics 365 SDK Xrm Configuration Migration Tool](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf/9.0.0.7). 
+Download the Configuration Migration Tool. The Configuration Migration tool is available as a [NuGet package](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.ConfigurationMigration.Wpf). To download the tool, see [Download tools from NuGet](../developer/download-tools-nuget.md). Follow the steps on this page to extract the **DataMigrationUtility.exe** tool. 
  
-<a name="CreateandExport"></a>   
+<a name="CreateandExport"></a>  
+
 ## Create a schema and export configuration data  
   
-1.  Start the Configuration Migration tool.  
+1.  Start the Configuration Migration tool. Double-click **DataMigrationUtility.exe** in the folder: \[your folder]\Tools\ConfigurationMigration\  
   
 2.  On the main screen, click **Create schema**, and click **Continue**.  
   

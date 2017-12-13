@@ -1,11 +1,12 @@
 # [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
+
+## [About the Preview](about-preview.md)
  
 ## [Administrator Guide](admin-guide.md)
 
 ### [First time setup](purchase-setup.md)
-### [Use your own Azure subscription for Customer Insights](setup-licensed-dci.md)
 ### [Open the administration settings](open-advanced-settings.md)
 ### [Organization settings](organization-settings.md)
 #### [Manage users](manage-users.md)
@@ -77,3 +78,14 @@
 ### [Export data](export-data-Word-Excel.md)
 ### [Explore results with Power BI](Power-BI-analytics.md)
 ### [How the app uses cookies](cookies.md)
+
+## [Developer Guide](developer/marketing-developer-guide.md)
+### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
+#### [Overview of custom channel](developer/overview-custom-channel.md)
+#### [Create a custom channel](developer/create-custom-channel.md)
+##### [Step 1: Create required entities and forms](developer/create-entities-forms.md) 
+##### [Step 2: Create a workflow or plug-in to implement your custom logic](developer/create-workflow-plugin-custom-channel.md)
+##### [Step 3: Configure the tile for custom channel](developer/configure-tile-custom-channel.md)
+##### [Step 4: Test your custom channel tile](developer/test-custom-channel-tile.md)
+#### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
+#### [Configure and use custom channel](developer/configure-use-custom-channel.md)

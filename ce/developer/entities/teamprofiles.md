@@ -1,7 +1,7 @@
 ---
 title: "TeamProfiles Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the TeamProfiles entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # TeamProfiles Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Team Profiles
 
@@ -26,17 +24,20 @@ Team Profiles
 
 ## Entity Properties
 
-**DisplayName**: Team Profiles<br />
-**DisplayCollectionName**: Team Profiles<br />
-**SchemaName**: TeamProfiles<br />
-**CollectionSchemaName**: TeamProfiles<br />
-**LogicalName**: teamprofiles<br />
-**LogicalCollectionName**: teamprofilescollection<br />
-**EntitySetName**: teamprofilescollection<br />
-**PrimaryIdAttribute**: teamprofileid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|TeamProfiles|
+|DisplayCollectionName|Team Profiles|
+|DisplayName|Team Profiles|
+|EntitySetName|teamprofilescollection|
+|IsBPFEntity|False|
+|LogicalCollectionName|teamprofilescollection|
+|LogicalName|teamprofiles|
+|OwnershipType|None|
+|PrimaryIdAttribute|teamprofileid|
+|PrimaryNameAttribute||
+|SchemaName|TeamProfiles|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -46,14 +47,16 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_TeamProfileId"></a> TeamProfileId
 
-**Description**: For internal use only.<br />
-**DisplayName**: <br />
-**LogicalName**: teamprofileid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|teamprofileid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -66,37 +69,43 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_FieldSecurityProfileId"></a> FieldSecurityProfileId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: fieldsecurityprofileid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|fieldsecurityprofileid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_TeamId"></a> TeamId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: teamid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|teamid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytomany"></a>
 
@@ -109,7 +118,7 @@ Relationship details provided where the TeamProfiles entity is the first entity 
 
 See team Entity [teamprofiles_association](team.md#BKMK_teamprofiles_association) Many-To-Many Relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

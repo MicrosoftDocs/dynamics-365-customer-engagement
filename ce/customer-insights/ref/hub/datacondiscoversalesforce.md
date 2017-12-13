@@ -2,8 +2,8 @@
 title: Discover Salesforce Connector Tables (Hub)
 description: Gets the specified Data Connector Mapping.
 keywords: Customer Insights; Hub API; Salesforce Connector; tables; read
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

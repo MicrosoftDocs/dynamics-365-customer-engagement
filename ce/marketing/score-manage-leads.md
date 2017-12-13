@@ -1,5 +1,5 @@
 ---
-title: "Generate, score, and qualify leads in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Generate, score, and qualify leads (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to work with leads, set up automatic scoring rules, and identify sales-ready prospects in Dynamics 365 for Marketing"
 keywords: "lead; lead-scoring rule; grade; qualify; sales ready"
 ms.date: 12/15/2017
@@ -18,13 +18,17 @@ topic-status: Drafting
 
 # Score and manage leads
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic describes how [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] handles leads, including:
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-- How to generate leads manually or automatically by using landing pages.
-- How to set up automatic lead-scoring models.
-- How to set lead-scoring grades and the sales-ready threshold.
+<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863166" frameborder="0" allowfullscreen></iframe>
+
+Using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you can:
+
+- Generate leads manually or automatically by using landing pages.
+- Set up automatic lead-scoring models.
+- Set lead-scoring grades and the sales-ready threshold.
 
 ## Leads and the lead life cycle
 
@@ -79,6 +83,9 @@ The condition tile is a compound tile, which includes both parent and child tile
 
 The parent condition tile just gives the condition group a name. Select the parent and open the **Properties** tab to assign the name. You can assign as many child conditions as you need by dragging additional condition tiles onto the parent.
 
+> [!NOTE]
+> All conditions belonging to the same parent are combined using an AND operator, which means that all sibling conditions must evaluate to TRUE for the attached action to be triggered.
+
 The logic for the condition is contained in the child tile(s). Choose a child condition tile and open the **Properties** tab to establish the logic.
 
 ![Condition tile settings](media/lead-score-logic.png "Condition tile settings")
@@ -90,6 +97,9 @@ Set up the logic for a condition tile by making the following settings:
 - **Frequency**: Choose how often the condition should be triggered. Choose **Each** to score on each occurrence (such as to increase the score on each email click). Choose **At least** to score just once (such as to increase the score on the first email click, but ignore subsequent ones).
 - **Date Range**: Enter a date before which scorable events won't be counted. For example, set this to a year to ignore all email interactions that occurred more than a year ago. This can result in scores going down over time as interactions age.
 - **New Expression**: Select this button to add a new expression to the condition. The additional expression further tests the condition based on stored data. For example, you could add an expression for "City = New York", which would modify the condition so that only email clicks made by contacts in New York City would trigger the condition. You can add as many extra expressions as you like to create complex conditions.
+
+    > [!NOTE]
+    > All expressions belonging to the same condition are combined using an AND operator, which means that all expressions must evaluate to TRUE for the overall condition to be true.
 
 There are two categories of conditions:
 
@@ -119,6 +129,29 @@ The grades and sales-ready score apply to the entire model, regardless of how ma
 Enter an integer in the **Sales Ready Score** field to set the sales-ready score.
 
 To add an additional grade, select **New**, which adds a new section to the tab, where you can enter a grade name and the score range where it applies. Grade ranges must be continuous and non-overlapping.
+
+<a name="traversals"></a>
+
+## Create advanced lead scoring conditions by using traversals
+
+When you are setting up a condition tile for lead scoring, you can set up the **Entity** you are testing to include traversals across interactions and profiles by using a _dot notation_, where each hop is separated by a period. For example, you could start with an interaction such as _EmailClicked_ and traverse to the associated _Contact_ profile, and then test for values from the contact profile. Here's an example of how to set this up:
+
+1. Open the **Properties** for a **Condition** tile. Then set the **Entity** to **EmailClicked**.  
+    ![Choose the first entity in the hop](media/lead-scoring-hop-example-1.png "Choose the first entity in the hop")
+
+1. In the **Entity** field, type a period after the **EmailClicked** entity you just added to open a new drop-down list that shows the various types of hops you can make from here. Choose **EmailClicked_contact** to hop to the contact profile.  
+    ![Add a period to create a hop to a second entity](media/lead-scoring-hop-example-2.png "Add a period to create a hop to a second entity")
+
+1. Now you can add **Expressions** to specify values that come from the contact record associated with each email click. For example, you might only want to score on clicks for contacts that live in Chicago.  
+    ![Add a condition for the final entity in the chain](media/lead-scoring-hop-example-3.png "Add a condition for the final entity in the chain")
+
+> [!NOTE]
+> You can establish up to five hops by using this technique.
+
+Here are a few more examples of how to use hops to create useful conditions:
+
+* **Lead.lead&#95;contact&#95;parentcontactid**: Lets you score leads associated with contacts who have particular properties (such as contacts who have a Microsoft email address&#8212;where _Email | contains | @microsoft.com_).
+* **Lead.lead&#95;contact&#95;parentcontactid.contact&#95;account&#95;parentcustomerid**: Lets you score leads associated with contacts who belong to accounts with particular properties (such as accounts where _Number of employees | > | 500_).
 
 ### See also
 

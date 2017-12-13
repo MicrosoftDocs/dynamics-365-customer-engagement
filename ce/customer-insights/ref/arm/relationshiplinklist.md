@@ -2,8 +2,8 @@
 title: Lists Relationship Links for a Hub (ARM)
 description: Lists the Relationship Link type definitions for a Hub.
 keywords: Customer Insights; ARM API; relationship links; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/09/2017
 ms.topic: reference

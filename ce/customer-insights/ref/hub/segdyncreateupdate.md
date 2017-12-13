@@ -2,8 +2,8 @@
 title: Create or Update a Dynamic Segment Type (Hub)
 description: Creates or updates a dynamic segment type.
 keywords: Customer Insights; Hub API; dynamic segment; create; update
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/03/2017
 ms.topic: reference

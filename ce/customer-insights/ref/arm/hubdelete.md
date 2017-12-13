@@ -2,8 +2,8 @@
 title: Delete Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Deletes a Customer Insights Hub.  
 keywords: Customer Insights; ARM API; Hub; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/07/2017
 ms.topic: reference

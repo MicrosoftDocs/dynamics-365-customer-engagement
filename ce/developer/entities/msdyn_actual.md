@@ -1,7 +1,7 @@
 ---
 title: "msdyn_actual Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_actual entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -13,7 +13,7 @@ manager: "jdaly"
 ---
 # msdyn_actual Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 
 **Added by**: Unified Resource Scheduling Solution<br />
 
@@ -37,17 +37,20 @@ manager: "jdaly"
 
 ## Entity Properties
 
-**DisplayName**: Actual<br />
-**DisplayCollectionName**: Actuals<br />
-**SchemaName**: msdyn_actual<br />
-**CollectionSchemaName**: msdyn_actuals<br />
-**LogicalName**: msdyn_actual<br />
-**LogicalCollectionName**: msdyn_actuals<br />
-**EntitySetName**: msdyn_actuals<br />
-**PrimaryIdAttribute**: msdyn_actualid<br />
-**PrimaryNameAttribute**: msdyn_description<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|msdyn_actuals|
+|DisplayCollectionName|Actuals|
+|DisplayName|Actual|
+|EntitySetName|msdyn_actuals|
+|IsBPFEntity|False|
+|LogicalCollectionName|msdyn_actuals|
+|LogicalName|msdyn_actual|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|msdyn_actualid|
+|PrimaryNameAttribute|msdyn_description|
+|SchemaName|msdyn_actual|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -123,949 +126,1120 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Sequence number of the import that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Sequence number of the import that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_msdyn_AccountCustomer"></a> msdyn_AccountCustomer
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the customer.<br />
-**DisplayName**: Customer ID<br />
-**LogicalName**: msdyn_accountcustomer<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Select the customer.|
+|DisplayName|Customer ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountcustomer|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_AccountingDate"></a> msdyn_AccountingDate
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: <br />
-**DisplayName**: Accounting Date<br />
-**LogicalName**: msdyn_accountingdate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description||
+|DisplayName|Accounting Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountingdate|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_AccountVendor"></a> msdyn_AccountVendor
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: <br />
-**DisplayName**: Vendor<br />
-**LogicalName**: msdyn_accountvendor<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Vendor|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountvendor|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_actualId"></a> msdyn_actualId
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier for entity instances<br />
-**DisplayName**: Actual<br />
-**LogicalName**: msdyn_actualid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for entity instances|
+|DisplayName|Actual|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|msdyn_actualid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_AdjustmentStatus"></a> msdyn_AdjustmentStatus
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Shows the adjustment status ID of the transaction.<br />
-**DisplayName**: Adjustment Status ID<br />
-**LogicalName**: msdyn_adjustmentstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows the adjustment status ID of the transaction.|
+|DisplayName|Adjustment Status ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_adjustmentstatus|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: In Process
-- **Value**: 192350001 **Label**: Adjusted
-- **Value**: 192350002 **Label**: Unadjustable
+#### msdyn_AdjustmentStatus Options
+
+|Value|Label|
+|-----|-----|
+|192350000|In Process|
+|192350001|Adjusted|
+|192350002|Unadjustable|
 
 
 
 ### <a name="BKMK_msdyn_Agreement"></a> msdyn_Agreement
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Agreement<br />
-**LogicalName**: msdyn_agreement<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_agreement
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Agreement|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreement|
+|RequiredLevel|None|
+|Targets|msdyn_agreement|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Amount"></a> msdyn_Amount
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the amount in transaction currency.<br />
-**DisplayName**: Amount<br />
-**LogicalName**: msdyn_amount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the amount in transaction currency.|
+|DisplayName|Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_amount|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_AmountMethod"></a> msdyn_AmountMethod
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the method by which the amount was computed.<br />
-**DisplayName**: Amount Method ID<br />
-**LogicalName**: msdyn_amountmethod<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the method by which the amount was computed.|
+|DisplayName|Amount Method ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_amountmethod|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: Multiply Quantity By Price
-- **Value**: 192350001 **Label**: Fixed Price
-- **Value**: 192350002 **Label**: Multiply Basis Quantity By Price
-- **Value**: 192350003 **Label**: Multiply Basis Amount By Percent
-- **Value**: 690970000 **Label**: Tax Calculation
+#### msdyn_AmountMethod Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Multiply Quantity By Price|
+|192350001|Fixed Price|
+|192350002|Multiply Basis Quantity By Price|
+|192350003|Multiply Basis Amount By Percent|
+|690970000|Tax Calculation|
 
 
 
 ### <a name="BKMK_msdyn_BasisAmount"></a> msdyn_BasisAmount
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the cost amount of the sales transaction in the transaction currency.<br />
-**DisplayName**: Basis Amount<br />
-**LogicalName**: msdyn_basisamount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the cost amount of the sales transaction in the transaction currency.|
+|DisplayName|Basis Amount|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_basisamount|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_BasisPrice"></a> msdyn_BasisPrice
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the cost price of the sales transaction in transaction currency.<br />
-**DisplayName**: Basis Price<br />
-**LogicalName**: msdyn_basisprice<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the cost price of the sales transaction in transaction currency.|
+|DisplayName|Basis Price|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_basisprice|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_BasisQuantity"></a> msdyn_BasisQuantity
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the cost quantity of the sales transaction in the base (organization) currency.<br />
-**DisplayName**: Basis Quantity<br />
-**LogicalName**: msdyn_basisquantity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the cost quantity of the sales transaction in the base (organization) currency.|
+|DisplayName|Basis Quantity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_basisquantity|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|2|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_msdyn_BillingStatus"></a> msdyn_BillingStatus
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the billing status ID.<br />
-**DisplayName**: Billing status ID<br />
-**LogicalName**: msdyn_billingstatus<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the billing status ID.|
+|DisplayName|Billing status ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingstatus|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: Unbilled Sales Created
-- **Value**: 192350001 **Label**: Customer Invoice Created
-- **Value**: 192350002 **Label**: Customer Invoice Posted
-- **Value**: 192350003 **Label**: Canceled
-- **Value**: 690970000 **Label**: Work order closed - posted
+#### msdyn_BillingStatus Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Unbilled Sales Created|
+|192350001|Customer Invoice Created|
+|192350002|Customer Invoice Posted|
+|192350003|Canceled|
+|690970000|Work order closed - posted|
 
 
 
 ### <a name="BKMK_msdyn_BillingType"></a> msdyn_BillingType
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the billing type ID.<br />
-**DisplayName**: Billing type ID<br />
-**LogicalName**: msdyn_billingtype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the billing type ID.|
+|DisplayName|Billing type ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingtype|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: Non Chargeable
-- **Value**: 192350001 **Label**: Chargeable
-- **Value**: 192350002 **Label**: Complimentary
-- **Value**: 192350003 **Label**: Not Available
+#### msdyn_BillingType Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Non Chargeable|
+|192350001|Chargeable|
+|192350002|Complimentary|
+|192350003|Not Available|
 
 
 
 ### <a name="BKMK_msdyn_bookableresource"></a> msdyn_bookableresource
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Shows the bookable resource for which the actual is recorded.<br />
-**DisplayName**: Bookable Resource<br />
-**LogicalName**: msdyn_bookableresource<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: bookableresource
+|Property|Value|
+|--------|-----|
+|Description|Shows the bookable resource for which the actual is recorded.|
+|DisplayName|Bookable Resource|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookableresource|
+|RequiredLevel|None|
+|Targets|bookableresource|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ContactCustomer"></a> msdyn_ContactCustomer
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the customer contact.<br />
-**DisplayName**: Customer contact ID<br />
-**LogicalName**: msdyn_contactcustomer<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: contact
+|Property|Value|
+|--------|-----|
+|Description|Select the customer contact.|
+|DisplayName|Customer contact ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contactcustomer|
+|RequiredLevel|None|
+|Targets|contact|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ContactVendor"></a> msdyn_ContactVendor
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: <br />
-**DisplayName**: Vendor<br />
-**LogicalName**: msdyn_contactvendor<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: contact
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Vendor|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contactvendor|
+|RequiredLevel|None|
+|Targets|contact|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_contractorganizationalunitid"></a> msdyn_contractorganizationalunitid
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the organizational unit ID for the contract.<br />
-**DisplayName**: Contracting Unit<br />
-**LogicalName**: msdyn_contractorganizationalunitid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_organizationalunit
+|Property|Value|
+|--------|-----|
+|Description|Select the organizational unit ID for the contract.|
+|DisplayName|Contracting Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractorganizationalunitid|
+|RequiredLevel|None|
+|Targets|msdyn_organizationalunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_CustomerType"></a> msdyn_CustomerType
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the customer type ID.<br />
-**DisplayName**: Customer type ID<br />
-**LogicalName**: msdyn_customertype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the customer type ID.|
+|DisplayName|Customer type ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_customertype|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 192350001 **Label**: Account
-- **Value**: 192350002 **Label**: Contact
+#### msdyn_CustomerType Options
+
+|Value|Label|
+|-----|-----|
+|192350001|Account|
+|192350002|Contact|
 
 
 
 ### <a name="BKMK_msdyn_description"></a> msdyn_description
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Type the record description.<br />
-**DisplayName**: Description<br />
-**LogicalName**: msdyn_description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the record description.|
+|DisplayName|Description|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_description|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_DocumentDate"></a> msdyn_DocumentDate
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the transaction date of the business event.<br />
-**DisplayName**: Document Date<br />
-**LogicalName**: msdyn_documentdate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the transaction date of the business event.|
+|DisplayName|Document Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_documentdate|
+|RequiredLevel|ApplicationRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_EndDateTime"></a> msdyn_EndDateTime
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the end date and time for this transaction.<br />
-**DisplayName**: End Date/Time<br />
-**LogicalName**: msdyn_enddatetime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the end date and time for this transaction.|
+|DisplayName|End Date/Time|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enddatetime|
+|RequiredLevel|ApplicationRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_ExchangeRateDate"></a> msdyn_ExchangeRateDate
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the date of the exchange rate used for this transaction.<br />
-**DisplayName**: Exchange Rate Date<br />
-**LogicalName**: msdyn_exchangeratedate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the date of the exchange rate used for this transaction.|
+|DisplayName|Exchange Rate Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_exchangeratedate|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_externaldescription"></a> msdyn_externaldescription
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: The external description of the business transaction.<br />
-**DisplayName**: External Description<br />
-**LogicalName**: msdyn_externaldescription<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|The external description of the business transaction.|
+|DisplayName|External Description|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externaldescription|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ExternalReferenceDate"></a> msdyn_ExternalReferenceDate
 
-**Description**: Stores a date from an external system, such as a journal entry voucher date from an ERP system<br />
-**DisplayName**: External Reference Date<br />
-**LogicalName**: msdyn_externalreferencedate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Stores a date from an external system, such as a journal entry voucher date from an ERP system|
+|DisplayName|External Reference Date|
+|Format|DateOnly|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externalreferencedate|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_ExternalReferenceID"></a> msdyn_ExternalReferenceID
 
-**Description**: Stores an ID from an external system, such as the journal entry voucher number from an ERP system.<br />
-**DisplayName**: External Reference ID<br />
-**LogicalName**: msdyn_externalreferenceid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Stores an ID from an external system, such as the journal entry voucher number from an ERP system.|
+|DisplayName|External Reference ID|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externalreferenceid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_IncidentType"></a> msdyn_IncidentType
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Incident Type<br />
-**LogicalName**: msdyn_incidenttype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_incidenttype
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Incident Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_incidenttype|
+|RequiredLevel|None|
+|Targets|msdyn_incidenttype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Invoice"></a> msdyn_Invoice
 
-**Description**: The unique identifier of an invoice.<br />
-**DisplayName**: Invoice<br />
-**LogicalName**: msdyn_invoice<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: invoice
+|Property|Value|
+|--------|-----|
+|Description|The unique identifier of an invoice.|
+|DisplayName|Invoice|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoice|
+|RequiredLevel|None|
+|Targets|invoice|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_IsJournalized"></a> msdyn_IsJournalized
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: <br />
-**DisplayName**: Is Journalized<br />
-**LogicalName**: msdyn_isjournalized<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Is Journalized|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_isjournalized|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_IsJournalized Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_JournalType"></a> msdyn_JournalType
 
 **Added by**: Field Service Solution<br />
-**Description**: Type of journal for resource cost.<br />
-**DisplayName**: Journal Type<br />
-**LogicalName**: msdyn_journaltype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Type of journal for resource cost.|
+|DisplayName|Journal Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_journaltype|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Working Hours
-- **Value**: 690970001 **Label**: Break
-- **Value**: 690970002 **Label**: Travel
-- **Value**: 690970003 **Label**: Overtime
-- **Value**: 690970004 **Label**: Business Closure
+#### msdyn_JournalType Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Working Hours|
+|690970001|Break|
+|690970002|Travel|
+|690970003|Overtime|
+|690970004|Business Closure|
 
 
 
 ### <a name="BKMK_msdyn_Percent"></a> msdyn_Percent
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the percent.<br />
-**DisplayName**: Percent<br />
-**LogicalName**: msdyn_percent<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the percent.|
+|DisplayName|Percent|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_percent|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|2|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_msdyn_Price"></a> msdyn_Price
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the price in the transaction currency.<br />
-**DisplayName**: Price<br />
-**LogicalName**: msdyn_price<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the price in the transaction currency.|
+|DisplayName|Price|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_price|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_PriceList"></a> msdyn_PriceList
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the price list.<br />
-**DisplayName**: Price list ID<br />
-**LogicalName**: msdyn_pricelist<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: pricelevel
+|Property|Value|
+|--------|-----|
+|Description|Select the price list.|
+|DisplayName|Price list ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_pricelist|
+|RequiredLevel|None|
+|Targets|pricelevel|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Product"></a> msdyn_Product
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the product ID.<br />
-**DisplayName**: Product ID<br />
-**LogicalName**: msdyn_product<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: product
+|Property|Value|
+|--------|-----|
+|Description|Select the product ID.|
+|DisplayName|Product ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_product|
+|RequiredLevel|None|
+|Targets|product|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ProductType"></a> msdyn_ProductType
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Product Type<br />
-**LogicalName**: msdyn_producttype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Product Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_producttype|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Inventory
-- **Value**: 690970001 **Label**: Non-Inventory
-- **Value**: 690970002 **Label**: Service
+#### msdyn_ProductType Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Inventory|
+|690970001|Non-Inventory|
+|690970002|Service|
 
 
 
 ### <a name="BKMK_msdyn_Project"></a> msdyn_Project
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the project ID.<br />
-**DisplayName**: Project ID<br />
-**LogicalName**: msdyn_project<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_project
+|Property|Value|
+|--------|-----|
+|Description|Select the project ID.|
+|DisplayName|Project ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_project|
+|RequiredLevel|None|
+|Targets|msdyn_project|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_Quantity"></a> msdyn_Quantity
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the quantity.<br />
-**DisplayName**: Quantity<br />
-**LogicalName**: msdyn_quantity<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: -1000000000<br />
-**Precision**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the quantity.|
+|DisplayName|Quantity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_quantity|
+|MaxValue|1000000000|
+|MinValue|-1000000000|
+|Precision|2|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_msdyn_ResourceCategory"></a> msdyn_ResourceCategory
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the role ID of the resource performing the work.<br />
-**DisplayName**: Resource role ID<br />
-**LogicalName**: msdyn_resourcecategory<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: bookableresourcecategory
+|Property|Value|
+|--------|-----|
+|Description|Select the role ID of the resource performing the work.|
+|DisplayName|Resource role ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourcecategory|
+|RequiredLevel|None|
+|Targets|bookableresourcecategory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ResourceOrganizationalUnitId"></a> msdyn_ResourceOrganizationalUnitId
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Organizational unit at the time the actual was registered of the resource who performed the work.<br />
-**DisplayName**: Resourcing Unit<br />
-**LogicalName**: msdyn_resourceorganizationalunitid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: Recommended<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_organizationalunit
+|Property|Value|
+|--------|-----|
+|Description|Organizational unit at the time the actual was registered of the resource who performed the work.|
+|DisplayName|Resourcing Unit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourceorganizationalunitid|
+|RequiredLevel|Recommended|
+|Targets|msdyn_organizationalunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_SalesContract"></a> msdyn_SalesContract
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the project contract.<br />
-**DisplayName**: Project Contract ID<br />
-**LogicalName**: msdyn_salescontract<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: salesorder
+|Property|Value|
+|--------|-----|
+|Description|Select the project contract.|
+|DisplayName|Project Contract ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salescontract|
+|RequiredLevel|None|
+|Targets|salesorder|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_SalesContractLine"></a> msdyn_SalesContractLine
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Type the project contract line.<br />
-**DisplayName**: Project Contract Line<br />
-**LogicalName**: msdyn_salescontractline<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the project contract line.|
+|DisplayName|Project Contract Line|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salescontractline|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceAccount"></a> msdyn_ServiceAccount
 
 **Added by**: Field Service Solution<br />
-**Description**: Account that was serviced<br />
-**DisplayName**: Service Account<br />
-**LogicalName**: msdyn_serviceaccount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Account that was serviced|
+|DisplayName|Service Account|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceaccount|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Service Territory<br />
-**LogicalName**: msdyn_serviceterritory<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: territory
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Service Territory|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceterritory|
+|RequiredLevel|None|
+|Targets|territory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_StartDateTime"></a> msdyn_StartDateTime
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Enter the start date and time.<br />
-**DisplayName**: Start Date/Time<br />
-**LogicalName**: msdyn_startdatetime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Enter the start date and time.|
+|DisplayName|Start Date/Time|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_startdatetime|
+|RequiredLevel|ApplicationRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_msdyn_Task"></a> msdyn_Task
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the task.<br />
-**DisplayName**: Task ID<br />
-**LogicalName**: msdyn_task<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_projecttask
+|Property|Value|
+|--------|-----|
+|Description|Select the task.|
+|DisplayName|Task ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_task|
+|RequiredLevel|None|
+|Targets|msdyn_projecttask|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TaxCode"></a> msdyn_TaxCode
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Tax Code<br />
-**LogicalName**: msdyn_taxcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_taxcode
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Tax Code|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxcode|
+|RequiredLevel|None|
+|Targets|msdyn_taxcode|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TransactionCategory"></a> msdyn_TransactionCategory
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the transaction category.<br />
-**DisplayName**: Transaction category ID<br />
-**LogicalName**: msdyn_transactioncategory<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_transactioncategory
+|Property|Value|
+|--------|-----|
+|Description|Select the transaction category.|
+|DisplayName|Transaction category ID|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactioncategory|
+|RequiredLevel|None|
+|Targets|msdyn_transactioncategory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TransactionClassification"></a> msdyn_TransactionClassification
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Shows the transaction classification of this transaction.<br />
-**DisplayName**: Transaction Class<br />
-**LogicalName**: msdyn_transactionclassification<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows the transaction classification of this transaction.|
+|DisplayName|Transaction Class|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactionclassification|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: Time
-- **Value**: 192350001 **Label**: Expense
-- **Value**: 192350002 **Label**: Material
-- **Value**: 192350003 **Label**: Milestone
-- **Value**: 192350004 **Label**: Fee
-- **Value**: 690970000 **Label**: Commission
-- **Value**: 690970001 **Label**: Additional
-- **Value**: 690970002 **Label**: Tax
+#### msdyn_TransactionClassification Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Time|
+|192350001|Expense|
+|192350002|Material|
+|192350003|Milestone|
+|192350004|Fee|
+|690970000|Commission|
+|690970001|Additional|
+|690970002|Tax|
 
 
 
 ### <a name="BKMK_msdyn_TransactionTypeCode"></a> msdyn_TransactionTypeCode
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Shows the transaction type of this transaction.<br />
-**DisplayName**: Transaction Type<br />
-**LogicalName**: msdyn_transactiontypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows the transaction type of this transaction.|
+|DisplayName|Transaction Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactiontypecode|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
 
-- **Value**: 192350000 **Label**: Cost
-- **Value**: 192350004 **Label**: Project Contract
-- **Value**: 192350005 **Label**: Unbilled Sales
-- **Value**: 192350006 **Label**: Billed Sales
-- **Value**: 192350007 **Label**: Resourcing Unit Cost
-- **Value**: 192350008 **Label**: Inter-Organizational Sales
+#### msdyn_TransactionTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|192350000|Cost|
+|192350004|Project Contract|
+|192350005|Unbilled Sales|
+|192350006|Billed Sales|
+|192350007|Resourcing Unit Cost|
+|192350008|Inter-Organizational Sales|
 
 
 
 ### <a name="BKMK_msdyn_Unit"></a> msdyn_Unit
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the unit of measure.<br />
-**DisplayName**: Unit of measure<br />
-**LogicalName**: msdyn_unit<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: uom
+|Property|Value|
+|--------|-----|
+|Description|Select the unit of measure.|
+|DisplayName|Unit of measure|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_unit|
+|RequiredLevel|None|
+|Targets|uom|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_UnitSchedule"></a> msdyn_UnitSchedule
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Select the unit schedule.<br />
-**DisplayName**: Unit Schedule<br />
-**LogicalName**: msdyn_unitschedule<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: uomschedule
+|Property|Value|
+|--------|-----|
+|Description|Select the unit schedule.|
+|DisplayName|Unit Schedule|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_unitschedule|
+|RequiredLevel|None|
+|Targets|uomschedule|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_VendorType"></a> msdyn_VendorType
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: <br />
-**DisplayName**: Vendor Type<br />
-**LogicalName**: msdyn_vendortype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Vendor Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_vendortype|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 192350001 **Label**: Account
-- **Value**: 192350002 **Label**: Contact
+#### msdyn_VendorType Options
+
+|Value|Label|
+|-----|-----|
+|192350001|Account|
+|192350002|Contact|
 
 
 
 ### <a name="BKMK_msdyn_Warehouse"></a> msdyn_Warehouse
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Warehouse<br />
-**LogicalName**: msdyn_warehouse<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_warehouse
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Warehouse|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_warehouse|
+|RequiredLevel|None|
+|Targets|msdyn_warehouse|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_WorkLocation"></a> msdyn_WorkLocation
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Work Location<br />
-**LogicalName**: msdyn_worklocation<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Work Location|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_worklocation|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Onsite
-- **Value**: 690970001 **Label**: Depot
-- **Value**: 690970002 **Label**: Location Agnostic
+#### msdyn_WorkLocation Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Onsite|
+|690970001|Depot|
+|690970002|Location Agnostic|
 
 
 
 ### <a name="BKMK_msdyn_WorkOrder"></a> msdyn_WorkOrder
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Work Order<br />
-**LogicalName**: msdyn_workorder<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_workorder
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Work Order|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workorder|
+|RequiredLevel|None|
+|Targets|msdyn_workorder|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_WorkOrderType"></a> msdyn_WorkOrderType
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Work Order Type<br />
-**LogicalName**: msdyn_workordertype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_workordertype
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Work Order Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workordertype|
+|RequiredLevel|None|
+|Targets|msdyn_workordertype|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Owner Id<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Owner Id|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Owner Id Type<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Owner Id Type|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_statecode"></a> statecode
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Status of the Actual<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Status of the Actual|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### statecode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_statuscode"></a> statuscode
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Reason for the status of the Actual<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Reason for the status of the Actual|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### statuscode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Shows the currency associated with the entity.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Shows the currency associated with the entity.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -1132,781 +1306,893 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier of the user who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Date and time when the record was created.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was created.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier of the delegate user who created the record.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who created the record.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Exchange rate for the currency associated with the entity with respect to the base currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Exchange rate for the currency associated with the entity with respect to the base currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier of the user who modified the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who modified the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Date and time when the record was modified.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time when the record was modified.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier of the delegate user who modified the record.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the delegate user who modified the record.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AccountCustomerName"></a> msdyn_AccountCustomerName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_accountcustomername<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountcustomername|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AccountCustomerYomiName"></a> msdyn_AccountCustomerYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_accountcustomeryominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountcustomeryominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AccountVendorName"></a> msdyn_AccountVendorName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_accountvendorname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountvendorname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AccountVendorYomiName"></a> msdyn_AccountVendorYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_accountvendoryominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountvendoryominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_AgreementName"></a> msdyn_AgreementName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_agreementname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_agreementname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_amount_Base"></a> msdyn_amount_Base
 
-**Description**: Enter the value of the amount in the base (organization) currency.<br />
-**DisplayName**: Amount (Base currency)<br />
-**LogicalName**: msdyn_amount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the value of the amount in the base (organization) currency.|
+|DisplayName|Amount (Base currency)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_amount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_basisamount_Base"></a> msdyn_basisamount_Base
 
-**Description**: Enter the cost amount of the sales transaction in the base (organization) currency.<br />
-**DisplayName**: Basis Amount (Base currency)<br />
-**LogicalName**: msdyn_basisamount_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the cost amount of the sales transaction in the base (organization) currency.|
+|DisplayName|Basis Amount (Base currency)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_basisamount_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_basisprice_Base"></a> msdyn_basisprice_Base
 
-**Description**: Enter the cost price of the sales transaction in base (organization) currency.<br />
-**DisplayName**: Basis Price (Base currency)<br />
-**LogicalName**: msdyn_basisprice_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the cost price of the sales transaction in base (organization) currency.|
+|DisplayName|Basis Price (Base currency)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_basisprice_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_bookableresourceName"></a> msdyn_bookableresourceName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_bookableresourcename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_bookableresourcename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ContactCustomerName"></a> msdyn_ContactCustomerName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_contactcustomername<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contactcustomername|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ContactCustomerYomiName"></a> msdyn_ContactCustomerYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_contactcustomeryominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 450
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contactcustomeryominame|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ContactVendorName"></a> msdyn_ContactVendorName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_contactvendorname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contactvendorname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ContactVendorYomiName"></a> msdyn_ContactVendorYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_contactvendoryominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 450
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contactvendoryominame|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_contractorganizationalunitidName"></a> msdyn_contractorganizationalunitidName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_contractorganizationalunitidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_contractorganizationalunitidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_IncidentTypeName"></a> msdyn_IncidentTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_incidenttypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_incidenttypename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_InvoiceName"></a> msdyn_InvoiceName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_invoicename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 300
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_invoicename|
+|MaxLength|300|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_price_Base"></a> msdyn_price_Base
 
-**Description**: Enter the price in the base (organization) currency.<br />
-**DisplayName**: Price (Base)<br />
-**LogicalName**: msdyn_price_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Enter the price in the base (organization) currency.|
+|DisplayName|Price (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_price_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_PriceListName"></a> msdyn_PriceListName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_pricelistname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_pricelistname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ProductName"></a> msdyn_ProductName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_productname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_productname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ProjectName"></a> msdyn_ProjectName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_projectname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_projectname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ResourceCategoryName"></a> msdyn_ResourceCategoryName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_resourcecategoryname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourcecategoryname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ResourceOrganizationalUnitIdName"></a> msdyn_ResourceOrganizationalUnitIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_resourceorganizationalunitidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourceorganizationalunitidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SalesContractName"></a> msdyn_SalesContractName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_salescontractname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 300
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_salescontractname|
+|MaxLength|300|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceAccountName"></a> msdyn_ServiceAccountName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_serviceaccountname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceaccountname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceAccountYomiName"></a> msdyn_ServiceAccountYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_serviceaccountyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceaccountyominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceTerritoryName"></a> msdyn_ServiceTerritoryName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_serviceterritoryname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceterritoryname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TaskName"></a> msdyn_TaskName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_taskname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 450
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_taskname|
+|MaxLength|450|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TaxCodeName"></a> msdyn_TaxCodeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_taxcodename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxcodename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TransactionCategoryName"></a> msdyn_TransactionCategoryName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_transactioncategoryname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_transactioncategoryname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_UnitName"></a> msdyn_UnitName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_unitname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_unitname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_UnitScheduleName"></a> msdyn_UnitScheduleName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_unitschedulename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_unitschedulename|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_WarehouseName"></a> msdyn_WarehouseName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_warehousename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_warehousename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_WorkOrderName"></a> msdyn_WorkOrderName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_workordername<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_workordername|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_WorkOrderTypeName"></a> msdyn_WorkOrderTypeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_workordertypename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_workordertypename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: Yomi name of the owner<br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Yomi name of the owner|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version Number<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version Number|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1929,261 +2215,141 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_actual_SyncErrors"></a> msdyn_actual_SyncErrors
 
 Same as syncerror entity [msdyn_actual_SyncErrors](syncerror.md#BKMK_msdyn_actual_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_actual_DuplicateMatchingRecord"></a> msdyn_actual_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_actual_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_actual_DuplicateMatchingRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: duplicaterecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_DuplicateMatchingRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|duplicaterecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_DuplicateMatchingRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_actual_DuplicateBaseRecord"></a> msdyn_actual_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_actual_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_actual_DuplicateBaseRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: baserecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_DuplicateBaseRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|baserecordid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_DuplicateBaseRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_actual_AsyncOperations"></a> msdyn_actual_AsyncOperations
 
 Same as asyncoperation entity [msdyn_actual_AsyncOperations](asyncoperation.md#BKMK_msdyn_actual_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_actual_MailboxTrackingFolders"></a> msdyn_actual_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_actual_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_actual_MailboxTrackingFolders) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_MailboxTrackingFolders<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_MailboxTrackingFolders|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_actual_UserEntityInstanceDatas"></a> msdyn_actual_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_actual_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_actual_UserEntityInstanceDatas) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_UserEntityInstanceDatas<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_UserEntityInstanceDatas|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_actual_ProcessSession"></a> msdyn_actual_ProcessSession
 
 Same as processsession entity [msdyn_actual_ProcessSession](processsession.md#BKMK_msdyn_actual_ProcessSession) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_ProcessSession<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_ProcessSession|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_actual_BulkDeleteFailures"></a> msdyn_actual_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_actual_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_actual_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_actual_PrincipalObjectAttributeAccesses"></a> msdyn_actual_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_actual_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_actual_PrincipalObjectAttributeAccesses) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_PrincipalObjectAttributeAccesses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_PrincipalObjectAttributeAccesses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_actual_Annotations"></a> msdyn_actual_Annotations
 
 Same as annotation entity [msdyn_actual_Annotations](annotation.md#BKMK_msdyn_actual_Annotations) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_actual_Annotations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_actual_Annotations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 <a name="manytoone"></a>
 
@@ -2358,7 +2524,7 @@ See msdyn_workordertype Entity [msdyn_msdyn_workordertype_msdyn_actual_WorkOrder
 
 See territory Entity [msdyn_territory_msdyn_actual_ServiceTerritory](territory.md#BKMK_msdyn_territory_msdyn_actual_ServiceTerritory) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

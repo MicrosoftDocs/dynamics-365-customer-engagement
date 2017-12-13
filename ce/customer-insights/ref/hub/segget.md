@@ -2,8 +2,8 @@
 title: Get a Segment Type (Hub)
 description: Gets the specified segment entity type.
 keywords: Customer Insights; Hub API; segment; get
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference

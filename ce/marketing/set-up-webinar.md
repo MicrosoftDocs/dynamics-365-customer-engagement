@@ -1,5 +1,5 @@
 ---
-title: "Set up an online event or simulcast in Dynamics 365 for Marketing | Microsoft Docs "
+title: "Set up an online event or simulcast (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to set up a webinar to create an online-only event or to simulcast a live event in Dynamics 365 for Marketing"
 keywords: "events; event management; webinar"
 ms.date: 12/15/2017
@@ -18,7 +18,9 @@ topic-status: Drafting
 
 # Set up a webinar
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A *webinar* (short for "web seminar") is a live event that one or more people can watch simultaneously online. You can set up any session or event to function as a webinar. An event or session can be webinar-only (where live attendance is not possible) or a simulcast for attendees who can't make it to the venue to attend a live event. You can also set an event or session as onsite only, which will disable webinars for that item and hide its webinar settings.
 

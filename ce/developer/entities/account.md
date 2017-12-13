@@ -1,7 +1,7 @@
 ---
 title: "Account Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the Account entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -41,17 +41,20 @@ Business that represents a customer or potential customer. The company that is b
 
 ## Entity Properties
 
-**DisplayName**: Account<br />
-**DisplayCollectionName**: Accounts<br />
-**SchemaName**: Account<br />
-**CollectionSchemaName**: Accounts<br />
-**LogicalName**: account<br />
-**LogicalCollectionName**: accounts<br />
-**EntitySetName**: accounts<br />
-**PrimaryIdAttribute**: accountid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|Accounts|
+|DisplayCollectionName|Accounts|
+|DisplayName|Account|
+|EntitySetName|accounts|
+|IsBPFEntity|False|
+|LogicalCollectionName|accounts|
+|LogicalName|account|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|accountid|
+|PrimaryNameAttribute|name|
+|SchemaName|Account|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -191,1914 +194,2289 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_AccountCategoryCode"></a> AccountCategoryCode
 
-**Description**: Select a category to indicate whether the customer account is standard or preferred.<br />
-**DisplayName**: Category<br />
-**LogicalName**: accountcategorycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a category to indicate whether the customer account is standard or preferred.|
+|DisplayName|Category|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|accountcategorycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Preferred Customer
-- **Value**: 2 **Label**: Standard
+#### AccountCategoryCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Preferred Customer|
+|2|Standard|
 
 
 
 ### <a name="BKMK_AccountClassificationCode"></a> AccountClassificationCode
 
-**Description**: Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.<br />
-**DisplayName**: Classification<br />
-**LogicalName**: accountclassificationcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a classification code to indicate the potential value of the customer account based on the projected return on investment, cooperation level, sales cycle length or other criteria.|
+|DisplayName|Classification|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|accountclassificationcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### AccountClassificationCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_AccountId"></a> AccountId
 
-**Description**: Unique identifier of the account.<br />
-**DisplayName**: Account<br />
-**LogicalName**: accountid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the account.|
+|DisplayName|Account|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|accountid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_AccountNumber"></a> AccountNumber
 
-**Description**: Type an ID number or code for the account to quickly search and identify the account in system views.<br />
-**DisplayName**: Account Number<br />
-**LogicalName**: accountnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type an ID number or code for the account to quickly search and identify the account in system views.|
+|DisplayName|Account Number|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|accountnumber|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_AccountRatingCode"></a> AccountRatingCode
 
-**Description**: Select a rating to indicate the value of the customer account.<br />
-**DisplayName**: Account Rating<br />
-**LogicalName**: accountratingcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a rating to indicate the value of the customer account.|
+|DisplayName|Account Rating|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|accountratingcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### AccountRatingCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address1_AddressId"></a> Address1_AddressId
 
-**Description**: Unique identifier for address 1.<br />
-**DisplayName**: Address 1: ID<br />
-**LogicalName**: address1_addressid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for address 1.|
+|DisplayName|Address 1: ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|address1_addressid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Address1_AddressTypeCode"></a> Address1_AddressTypeCode
 
-**Description**: Select the primary address type.<br />
-**DisplayName**: Address 1: Address Type<br />
-**LogicalName**: address1_addresstypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the primary address type.|
+|DisplayName|Address 1: Address Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_addresstypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Bill To
-- **Value**: 2 **Label**: Ship To
-- **Value**: 3 **Label**: Primary
-- **Value**: 4 **Label**: Other
+#### Address1_AddressTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Bill To|
+|2|Ship To|
+|3|Primary|
+|4|Other|
 
 
 
 ### <a name="BKMK_Address1_City"></a> Address1_City
 
-**Description**: Type the city for the primary address.<br />
-**DisplayName**: Address 1: City<br />
-**LogicalName**: address1_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the city for the primary address.|
+|DisplayName|Address 1: City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Country"></a> Address1_Country
 
-**Description**: Type the country or region for the primary address.<br />
-**DisplayName**: Address 1: Country/Region<br />
-**LogicalName**: address1_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the country or region for the primary address.|
+|DisplayName|Address 1: Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_County"></a> Address1_County
 
-**Description**: Type the county for the primary address.<br />
-**DisplayName**: Address 1: County<br />
-**LogicalName**: address1_county<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the county for the primary address.|
+|DisplayName|Address 1: County|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_county|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Fax"></a> Address1_Fax
 
-**Description**: Type the fax number associated with the primary address.<br />
-**DisplayName**: Address 1: Fax<br />
-**LogicalName**: address1_fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the fax number associated with the primary address.|
+|DisplayName|Address 1: Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_FreightTermsCode"></a> Address1_FreightTermsCode
 
-**Description**: Select the freight terms for the primary address to make sure shipping orders are processed correctly.<br />
-**DisplayName**: Address 1: Freight Terms<br />
-**LogicalName**: address1_freighttermscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the freight terms for the primary address to make sure shipping orders are processed correctly.|
+|DisplayName|Address 1: Freight Terms|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_freighttermscode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: FOB
-- **Value**: 2 **Label**: No Charge
+#### Address1_FreightTermsCode Options
+
+|Value|Label|
+|-----|-----|
+|1|FOB|
+|2|No Charge|
 
 
 
 ### <a name="BKMK_Address1_Latitude"></a> Address1_Latitude
 
-**Description**: Type the latitude value for the primary address for use in mapping and other applications.<br />
-**DisplayName**: Address 1: Latitude<br />
-**LogicalName**: address1_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the latitude value for the primary address for use in mapping and other applications.|
+|DisplayName|Address 1: Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address1_Line1"></a> Address1_Line1
 
-**Description**: Type the first line of the primary address.<br />
-**DisplayName**: Address 1: Street 1<br />
-**LogicalName**: address1_line1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the first line of the primary address.|
+|DisplayName|Address 1: Street 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Line2"></a> Address1_Line2
 
-**Description**: Type the second line of the primary address.<br />
-**DisplayName**: Address 1: Street 2<br />
-**LogicalName**: address1_line2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the second line of the primary address.|
+|DisplayName|Address 1: Street 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Line3"></a> Address1_Line3
 
-**Description**: Type the third line of the primary address.<br />
-**DisplayName**: Address 1: Street 3<br />
-**LogicalName**: address1_line3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the third line of the primary address.|
+|DisplayName|Address 1: Street 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_line3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Longitude"></a> Address1_Longitude
 
-**Description**: Type the longitude value for the primary address for use in mapping and other applications.<br />
-**DisplayName**: Address 1: Longitude<br />
-**LogicalName**: address1_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the longitude value for the primary address for use in mapping and other applications.|
+|DisplayName|Address 1: Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address1_Name"></a> Address1_Name
 
-**Description**: Type a descriptive name for the primary address, such as Corporate Headquarters.<br />
-**DisplayName**: Address 1: Name<br />
-**LogicalName**: address1_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Type a descriptive name for the primary address, such as Corporate Headquarters.|
+|DisplayName|Address 1: Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_name|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_PostalCode"></a> Address1_PostalCode
 
-**Description**: Type the ZIP Code or postal code for the primary address.<br />
-**DisplayName**: Address 1: ZIP/Postal Code<br />
-**LogicalName**: address1_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the ZIP Code or postal code for the primary address.|
+|DisplayName|Address 1: ZIP/Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_PostOfficeBox"></a> Address1_PostOfficeBox
 
-**Description**: Type the post office box number of the primary address.<br />
-**DisplayName**: Address 1: Post Office Box<br />
-**LogicalName**: address1_postofficebox<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the post office box number of the primary address.|
+|DisplayName|Address 1: Post Office Box|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_postofficebox|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_PrimaryContactName"></a> Address1_PrimaryContactName
 
-**Description**: Type the name of the main contact at the account's primary address.<br />
-**DisplayName**: Address 1: Primary Contact Name<br />
-**LogicalName**: address1_primarycontactname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the name of the main contact at the account's primary address.|
+|DisplayName|Address 1: Primary Contact Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_primarycontactname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_ShippingMethodCode"></a> Address1_ShippingMethodCode
 
-**Description**: Select a shipping method for deliveries sent to this address.<br />
-**DisplayName**: Address 1: Shipping Method<br />
-**LogicalName**: address1_shippingmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a shipping method for deliveries sent to this address.|
+|DisplayName|Address 1: Shipping Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_shippingmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Airborne
-- **Value**: 2 **Label**: DHL
-- **Value**: 3 **Label**: FedEx
-- **Value**: 4 **Label**: UPS
-- **Value**: 5 **Label**: Postal Mail
-- **Value**: 6 **Label**: Full Load
-- **Value**: 7 **Label**: Will Call
+#### Address1_ShippingMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Airborne|
+|2|DHL|
+|3|FedEx|
+|4|UPS|
+|5|Postal Mail|
+|6|Full Load|
+|7|Will Call|
 
 
 
 ### <a name="BKMK_Address1_StateOrProvince"></a> Address1_StateOrProvince
 
-**Description**: Type the state or province of the primary address.<br />
-**DisplayName**: Address 1: State/Province<br />
-**LogicalName**: address1_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the state or province of the primary address.|
+|DisplayName|Address 1: State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone1"></a> Address1_Telephone1
 
-**Description**: Type the main phone number associated with the primary address.<br />
-**DisplayName**: Address Phone<br />
-**LogicalName**: address1_telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the main phone number associated with the primary address.|
+|DisplayName|Address Phone|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone2"></a> Address1_Telephone2
 
-**Description**: Type a second phone number associated with the primary address.<br />
-**DisplayName**: Address 1: Telephone 2<br />
-**LogicalName**: address1_telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a second phone number associated with the primary address.|
+|DisplayName|Address 1: Telephone 2|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_Telephone3"></a> Address1_Telephone3
 
-**Description**: Type a third phone number associated with the primary address.<br />
-**DisplayName**: Address 1: Telephone 3<br />
-**LogicalName**: address1_telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a third phone number associated with the primary address.|
+|DisplayName|Address 1: Telephone 3|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_UPSZone"></a> Address1_UPSZone
 
-**Description**: Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.<br />
-**DisplayName**: Address 1: UPS Zone<br />
-**LogicalName**: address1_upszone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4
+|Property|Value|
+|--------|-----|
+|Description|Type the UPS zone of the primary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|
+|DisplayName|Address 1: UPS Zone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_upszone|
+|MaxLength|4|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address1_UTCOffset"></a> Address1_UTCOffset
 
-**Description**: Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.<br />
-**DisplayName**: Address 1: UTC Offset<br />
-**LogicalName**: address1_utcoffset<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: TimeZone<br />
-**MaxValue**: 1500<br />
-**MinValue**: -1500
+|Property|Value|
+|--------|-----|
+|Description|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|
+|DisplayName|Address 1: UTC Offset|
+|Format|TimeZone|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_utcoffset|
+|MaxValue|1500|
+|MinValue|-1500|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_Address2_AddressId"></a> Address2_AddressId
 
-**Description**: Unique identifier for address 2.<br />
-**DisplayName**: Address 2: ID<br />
-**LogicalName**: address2_addressid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for address 2.|
+|DisplayName|Address 2: ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|address2_addressid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Address2_AddressTypeCode"></a> Address2_AddressTypeCode
 
-**Description**: Select the secondary address type.<br />
-**DisplayName**: Address 2: Address Type<br />
-**LogicalName**: address2_addresstypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the secondary address type.|
+|DisplayName|Address 2: Address Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_addresstypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address2_AddressTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address2_City"></a> Address2_City
 
-**Description**: Type the city for the secondary address.<br />
-**DisplayName**: Address 2: City<br />
-**LogicalName**: address2_city<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the city for the secondary address.|
+|DisplayName|Address 2: City|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_city|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Country"></a> Address2_Country
 
-**Description**: Type the country or region for the secondary address.<br />
-**DisplayName**: Address 2: Country/Region<br />
-**LogicalName**: address2_country<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 80
+|Property|Value|
+|--------|-----|
+|Description|Type the country or region for the secondary address.|
+|DisplayName|Address 2: Country/Region|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_country|
+|MaxLength|80|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_County"></a> Address2_County
 
-**Description**: Type the county for the secondary address.<br />
-**DisplayName**: Address 2: County<br />
-**LogicalName**: address2_county<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the county for the secondary address.|
+|DisplayName|Address 2: County|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_county|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Fax"></a> Address2_Fax
 
-**Description**: Type the fax number associated with the secondary address.<br />
-**DisplayName**: Address 2: Fax<br />
-**LogicalName**: address2_fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the fax number associated with the secondary address.|
+|DisplayName|Address 2: Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_FreightTermsCode"></a> Address2_FreightTermsCode
 
-**Description**: Select the freight terms for the secondary address to make sure shipping orders are processed correctly.<br />
-**DisplayName**: Address 2: Freight Terms<br />
-**LogicalName**: address2_freighttermscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the freight terms for the secondary address to make sure shipping orders are processed correctly.|
+|DisplayName|Address 2: Freight Terms|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_freighttermscode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address2_FreightTermsCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address2_Latitude"></a> Address2_Latitude
 
-**Description**: Type the latitude value for the secondary address for use in mapping and other applications.<br />
-**DisplayName**: Address 2: Latitude<br />
-**LogicalName**: address2_latitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 90<br />
-**MinValue**: -90<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the latitude value for the secondary address for use in mapping and other applications.|
+|DisplayName|Address 2: Latitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_latitude|
+|MaxValue|90|
+|MinValue|-90|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address2_Line1"></a> Address2_Line1
 
-**Description**: Type the first line of the secondary address.<br />
-**DisplayName**: Address 2: Street 1<br />
-**LogicalName**: address2_line1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the first line of the secondary address.|
+|DisplayName|Address 2: Street 1|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line1|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Line2"></a> Address2_Line2
 
-**Description**: Type the second line of the secondary address.<br />
-**DisplayName**: Address 2: Street 2<br />
-**LogicalName**: address2_line2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the second line of the secondary address.|
+|DisplayName|Address 2: Street 2|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line2|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Line3"></a> Address2_Line3
 
-**Description**: Type the third line of the secondary address.<br />
-**DisplayName**: Address 2: Street 3<br />
-**LogicalName**: address2_line3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 250
+|Property|Value|
+|--------|-----|
+|Description|Type the third line of the secondary address.|
+|DisplayName|Address 2: Street 3|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_line3|
+|MaxLength|250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Longitude"></a> Address2_Longitude
 
-**Description**: Type the longitude value for the secondary address for use in mapping and other applications.<br />
-**DisplayName**: Address 2: Longitude<br />
-**LogicalName**: address2_longitude<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Double<br />
-**MaxValue**: 180<br />
-**MinValue**: -180<br />
-**Precision**: 5
+|Property|Value|
+|--------|-----|
+|Description|Type the longitude value for the secondary address for use in mapping and other applications.|
+|DisplayName|Address 2: Longitude|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_longitude|
+|MaxValue|180|
+|MinValue|-180|
+|Precision|5|
+|RequiredLevel|None|
+|Type|Double|
 
 
 ### <a name="BKMK_Address2_Name"></a> Address2_Name
 
-**Description**: Type a descriptive name for the secondary address, such as Corporate Headquarters.<br />
-**DisplayName**: Address 2: Name<br />
-**LogicalName**: address2_name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Type a descriptive name for the secondary address, such as Corporate Headquarters.|
+|DisplayName|Address 2: Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_name|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_PostalCode"></a> Address2_PostalCode
 
-**Description**: Type the ZIP Code or postal code for the secondary address.<br />
-**DisplayName**: Address 2: ZIP/Postal Code<br />
-**LogicalName**: address2_postalcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the ZIP Code or postal code for the secondary address.|
+|DisplayName|Address 2: ZIP/Postal Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_postalcode|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_PostOfficeBox"></a> Address2_PostOfficeBox
 
-**Description**: Type the post office box number of the secondary address.<br />
-**DisplayName**: Address 2: Post Office Box<br />
-**LogicalName**: address2_postofficebox<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the post office box number of the secondary address.|
+|DisplayName|Address 2: Post Office Box|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_postofficebox|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_PrimaryContactName"></a> Address2_PrimaryContactName
 
-**Description**: Type the name of the main contact at the account's secondary address.<br />
-**DisplayName**: Address 2: Primary Contact Name<br />
-**LogicalName**: address2_primarycontactname<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the name of the main contact at the account's secondary address.|
+|DisplayName|Address 2: Primary Contact Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_primarycontactname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_ShippingMethodCode"></a> Address2_ShippingMethodCode
 
-**Description**: Select a shipping method for deliveries sent to this address.<br />
-**DisplayName**: Address 2: Shipping Method<br />
-**LogicalName**: address2_shippingmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a shipping method for deliveries sent to this address.|
+|DisplayName|Address 2: Shipping Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_shippingmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### Address2_ShippingMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_Address2_StateOrProvince"></a> Address2_StateOrProvince
 
-**Description**: Type the state or province of the secondary address.<br />
-**DisplayName**: Address 2: State/Province<br />
-**LogicalName**: address2_stateorprovince<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the state or province of the secondary address.|
+|DisplayName|Address 2: State/Province|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_stateorprovince|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone1"></a> Address2_Telephone1
 
-**Description**: Type the main phone number associated with the secondary address.<br />
-**DisplayName**: Address 2: Telephone 1<br />
-**LogicalName**: address2_telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the main phone number associated with the secondary address.|
+|DisplayName|Address 2: Telephone 1|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone2"></a> Address2_Telephone2
 
-**Description**: Type a second phone number associated with the secondary address.<br />
-**DisplayName**: Address 2: Telephone 2<br />
-**LogicalName**: address2_telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a second phone number associated with the secondary address.|
+|DisplayName|Address 2: Telephone 2|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_Telephone3"></a> Address2_Telephone3
 
-**Description**: Type a third phone number associated with the secondary address.<br />
-**DisplayName**: Address 2: Telephone 3<br />
-**LogicalName**: address2_telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a third phone number associated with the secondary address.|
+|DisplayName|Address 2: Telephone 3|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_UPSZone"></a> Address2_UPSZone
 
-**Description**: Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.<br />
-**DisplayName**: Address 2: UPS Zone<br />
-**LogicalName**: address2_upszone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4
+|Property|Value|
+|--------|-----|
+|Description|Type the UPS zone of the secondary address to make sure shipping charges are calculated correctly and deliveries are made promptly, if shipped by UPS.|
+|DisplayName|Address 2: UPS Zone|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_upszone|
+|MaxLength|4|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Address2_UTCOffset"></a> Address2_UTCOffset
 
-**Description**: Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.<br />
-**DisplayName**: Address 2: UTC Offset<br />
-**LogicalName**: address2_utcoffset<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: TimeZone<br />
-**MaxValue**: 1500<br />
-**MinValue**: -1500
+|Property|Value|
+|--------|-----|
+|Description|Select the time zone, or UTC offset, for this address so that other people can reference it when they contact someone at this address.|
+|DisplayName|Address 2: UTC Offset|
+|Format|TimeZone|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_utcoffset|
+|MaxValue|1500|
+|MinValue|-1500|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_BusinessTypeCode"></a> BusinessTypeCode
 
-**Description**: Select the legal designation or other business type of the account for contracts or reporting purposes.<br />
-**DisplayName**: Business Type<br />
-**LogicalName**: businesstypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the legal designation or other business type of the account for contracts or reporting purposes.|
+|DisplayName|Business Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|businesstypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### BusinessTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_CreditLimit"></a> CreditLimit
 
-**Description**: Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.<br />
-**DisplayName**: Credit Limit<br />
-**LogicalName**: creditlimit<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 100000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type the credit limit of the account. This is a useful reference when you address invoice and accounting issues with the customer.|
+|DisplayName|Credit Limit|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|creditlimit|
+|MaxValue|100000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_CreditOnHold"></a> CreditOnHold
 
-**Description**: Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.<br />
-**DisplayName**: Credit Hold<br />
-**LogicalName**: creditonhold<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the credit for the account is on hold. This is a useful reference while addressing the invoice and accounting issues with the customer.|
+|DisplayName|Credit Hold|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|creditonhold|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### CreditOnHold Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_CustomerSizeCode"></a> CustomerSizeCode
 
-**Description**: Select the size category or range of the account for segmentation and reporting purposes.<br />
-**DisplayName**: Customer Size<br />
-**LogicalName**: customersizecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the size category or range of the account for segmentation and reporting purposes.|
+|DisplayName|Customer Size|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|customersizecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### CustomerSizeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_CustomerTypeCode"></a> CustomerTypeCode
 
-**Description**: Select the category that best describes the relationship between the account and your organization.<br />
-**DisplayName**: Relationship Type<br />
-**LogicalName**: customertypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the category that best describes the relationship between the account and your organization.|
+|DisplayName|Relationship Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|customertypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Competitor
-- **Value**: 2 **Label**: Consultant
-- **Value**: 3 **Label**: Customer
-- **Value**: 4 **Label**: Investor
-- **Value**: 5 **Label**: Partner
-- **Value**: 6 **Label**: Influencer
-- **Value**: 7 **Label**: Press
-- **Value**: 8 **Label**: Prospect
-- **Value**: 9 **Label**: Reseller
-- **Value**: 10 **Label**: Supplier
-- **Value**: 11 **Label**: Vendor
-- **Value**: 12 **Label**: Other
+#### CustomerTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Competitor|
+|2|Consultant|
+|3|Customer|
+|4|Investor|
+|5|Partner|
+|6|Influencer|
+|7|Press|
+|8|Prospect|
+|9|Reseller|
+|10|Supplier|
+|11|Vendor|
+|12|Other|
 
 
 
 ### <a name="BKMK_DefaultPriceLevelId"></a> DefaultPriceLevelId
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.<br />
-**DisplayName**: Product Price List<br />
-**LogicalName**: defaultpricelevelid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: pricelevel
+|Property|Value|
+|--------|-----|
+|Description|Choose the default price list associated with the account to make sure the correct product prices for this customer are applied in sales opportunities, quotes, and orders.|
+|DisplayName|Product Price List|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|defaultpricelevelid|
+|RequiredLevel|None|
+|Targets|pricelevel|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Type additional information to describe the account, such as an excerpt from the company's website.<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Type additional information to describe the account, such as an excerpt from the company's website.|
+|DisplayName|Description|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_DoNotBulkEMail"></a> DoNotBulkEMail
 
-**Description**: Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.<br />
-**DisplayName**: Do not allow Bulk Emails<br />
-**LogicalName**: donotbulkemail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account allows bulk email sent through campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but is excluded from email.|
+|DisplayName|Do not allow Bulk Emails|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotbulkemail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotBulkEMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotBulkPostalMail"></a> DoNotBulkPostalMail
 
-**Description**: Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.<br />
-**DisplayName**: Do not allow Bulk Mails<br />
-**LogicalName**: donotbulkpostalmail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account allows bulk postal mail sent through marketing campaigns or quick campaigns. If Do Not Allow is selected, the account can be added to marketing lists, but will be excluded from the postal mail.|
+|DisplayName|Do not allow Bulk Mails|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotbulkpostalmail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### DoNotBulkPostalMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotEMail"></a> DoNotEMail
 
-**Description**: Select whether the account allows direct email sent from Microsoft Dynamics 365.<br />
-**DisplayName**: Do not allow Emails<br />
-**LogicalName**: donotemail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account allows direct email sent from Microsoft Dynamics 365.|
+|DisplayName|Do not allow Emails|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotemail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotEMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotFax"></a> DoNotFax
 
-**Description**: Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.<br />
-**DisplayName**: Do not allow Faxes<br />
-**LogicalName**: donotfax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account allows faxes. If Do Not Allow is selected, the account will be excluded from fax activities distributed in marketing campaigns.|
+|DisplayName|Do not allow Faxes|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotfax|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotFax Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotPhone"></a> DoNotPhone
 
-**Description**: Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.<br />
-**DisplayName**: Do not allow Phone Calls<br />
-**LogicalName**: donotphone<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account allows phone calls. If Do Not Allow is selected, the account will be excluded from phone call activities distributed in marketing campaigns.|
+|DisplayName|Do not allow Phone Calls|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotphone|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotPhone Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotPostalMail"></a> DoNotPostalMail
 
-**Description**: Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.<br />
-**DisplayName**: Do not allow Mails<br />
-**LogicalName**: donotpostalmail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account allows direct mail. If Do Not Allow is selected, the account will be excluded from letter activities distributed in marketing campaigns.|
+|DisplayName|Do not allow Mails|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotpostalmail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Allow
-- **FalseOption Value**: 0 **Label**: Allow
+#### DoNotPostalMail Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Allow|
+|0|Allow|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_DoNotSendMM"></a> DoNotSendMM
 
-**Description**: Select whether the account accepts marketing materials, such as brochures or catalogs.<br />
-**DisplayName**: Send Marketing Materials<br />
-**LogicalName**: donotsendmm<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account accepts marketing materials, such as brochures or catalogs.|
+|DisplayName|Send Marketing Materials|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|donotsendmm|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Do Not Send
-- **FalseOption Value**: 0 **Label**: Send
+#### DoNotSendMM Options
+
+|Value|Label|
+|-----|-----|
+|1|Do Not Send|
+|0|Send|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_EMailAddress1"></a> EMailAddress1
 
-**Description**: Type the primary email address for the account.<br />
-**DisplayName**: Email<br />
-**LogicalName**: emailaddress1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Email<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the primary email address for the account.|
+|DisplayName|Email|
+|FormatName|Email|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|emailaddress1|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EMailAddress2"></a> EMailAddress2
 
-**Description**: Type the secondary email address for the account.<br />
-**DisplayName**: Email Address 2<br />
-**LogicalName**: emailaddress2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Email<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type the secondary email address for the account.|
+|DisplayName|Email Address 2|
+|FormatName|Email|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|emailaddress2|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EMailAddress3"></a> EMailAddress3
 
-**Description**: Type an alternate email address for the account.<br />
-**DisplayName**: Email Address 3<br />
-**LogicalName**: emailaddress3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Email<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type an alternate email address for the account.|
+|DisplayName|Email Address 3|
+|FormatName|Email|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|emailaddress3|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImage"></a> EntityImage
 
-**Description**: Shows the default image for the record.<br />
-**DisplayName**: Default Image<br />
-**LogicalName**: entityimage<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Image<br />
-**IsPrimaryImage**: True<br />
-**MaxHeight**: 144<br />
-**MaxWidth**: 144
+|Property|Value|
+|--------|-----|
+|Description|Shows the default image for the record.|
+|DisplayName|Default Image|
+|IsPrimaryImage|True|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage|
+|MaxHeight|144|
+|MaxWidth|144|
+|RequiredLevel|None|
+|Type|Image|
 
 
 ### <a name="BKMK_Fax"></a> Fax
 
-**Description**: Type the fax number for the account.<br />
-**DisplayName**: Fax<br />
-**LogicalName**: fax<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the fax number for the account.|
+|DisplayName|Fax|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|fax|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_FollowEmail"></a> FollowEmail
 
-**Description**: Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.<br />
-**DisplayName**: Follow Email Activity<br />
-**LogicalName**: followemail<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Information about whether to allow following email activity like opens, attachment views and link clicks for emails sent to the account.|
+|DisplayName|Follow Email Activity|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|followemail|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Allow
-- **FalseOption Value**: 0 **Label**: Do Not Allow
+#### FollowEmail Options
+
+|Value|Label|
+|-----|-----|
+|1|Allow|
+|0|Do Not Allow|
 
 **DefaultValue**: True
 
 
+
 ### <a name="BKMK_FtpSiteURL"></a> FtpSiteURL
 
-**Description**: Type the URL for the account's FTP site to enable users to access data and share documents.<br />
-**DisplayName**: FTP Site<br />
-**LogicalName**: ftpsiteurl<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Url<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Type the URL for the account's FTP site to enable users to access data and share documents.|
+|DisplayName|FTP Site|
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ftpsiteurl|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
 
-**Description**: Unique identifier of the data import or data migration that created this record.<br />
-**DisplayName**: Import Sequence Number<br />
-**LogicalName**: importsequencenumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the data import or data migration that created this record.|
+|DisplayName|Import Sequence Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|importsequencenumber|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_IndustryCode"></a> IndustryCode
 
-**Description**: Select the account's primary industry for use in marketing segmentation and demographic analysis.<br />
-**DisplayName**: Industry<br />
-**LogicalName**: industrycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the account's primary industry for use in marketing segmentation and demographic analysis.|
+|DisplayName|Industry|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|industrycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Accounting
-- **Value**: 2 **Label**: Agriculture and Non-petrol Natural Resource Extraction
-- **Value**: 3 **Label**: Broadcasting Printing and Publishing
-- **Value**: 4 **Label**: Brokers
-- **Value**: 5 **Label**: Building Supply Retail
-- **Value**: 6 **Label**: Business Services
-- **Value**: 7 **Label**: Consulting
-- **Value**: 8 **Label**: Consumer Services
-- **Value**: 9 **Label**: Design, Direction and Creative Management
-- **Value**: 10 **Label**: Distributors, Dispatchers and Processors
-- **Value**: 11 **Label**: Doctor's Offices and Clinics
-- **Value**: 12 **Label**: Durable Manufacturing
-- **Value**: 13 **Label**: Eating and Drinking Places
-- **Value**: 14 **Label**: Entertainment Retail
-- **Value**: 15 **Label**: Equipment Rental and Leasing
-- **Value**: 16 **Label**: Financial
-- **Value**: 17 **Label**: Food and Tobacco Processing
-- **Value**: 18 **Label**: Inbound Capital Intensive Processing
-- **Value**: 19 **Label**: Inbound Repair and Services
-- **Value**: 20 **Label**: Insurance
-- **Value**: 21 **Label**: Legal Services
-- **Value**: 22 **Label**: Non-Durable Merchandise Retail
-- **Value**: 23 **Label**: Outbound Consumer Service
-- **Value**: 24 **Label**: Petrochemical Extraction and Distribution
-- **Value**: 25 **Label**: Service Retail
-- **Value**: 26 **Label**: SIG Affiliations
-- **Value**: 27 **Label**: Social Services
-- **Value**: 28 **Label**: Special Outbound Trade Contractors
-- **Value**: 29 **Label**: Specialty Realty
-- **Value**: 30 **Label**: Transportation
-- **Value**: 31 **Label**: Utility Creation and Distribution
-- **Value**: 32 **Label**: Vehicle Retail
-- **Value**: 33 **Label**: Wholesale
+#### IndustryCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Accounting|
+|2|Agriculture and Non-petrol Natural Resource Extraction|
+|3|Broadcasting Printing and Publishing|
+|4|Brokers|
+|5|Building Supply Retail|
+|6|Business Services|
+|7|Consulting|
+|8|Consumer Services|
+|9|Design, Direction and Creative Management|
+|10|Distributors, Dispatchers and Processors|
+|11|Doctor's Offices and Clinics|
+|12|Durable Manufacturing|
+|13|Eating and Drinking Places|
+|14|Entertainment Retail|
+|15|Equipment Rental and Leasing|
+|16|Financial|
+|17|Food and Tobacco Processing|
+|18|Inbound Capital Intensive Processing|
+|19|Inbound Repair and Services|
+|20|Insurance|
+|21|Legal Services|
+|22|Non-Durable Merchandise Retail|
+|23|Outbound Consumer Service|
+|24|Petrochemical Extraction and Distribution|
+|25|Service Retail|
+|26|SIG Affiliations|
+|27|Social Services|
+|28|Special Outbound Trade Contractors|
+|29|Specialty Realty|
+|30|Transportation|
+|31|Utility Creation and Distribution|
+|32|Vehicle Retail|
+|33|Wholesale|
 
 
 
 ### <a name="BKMK_LastOnHoldTime"></a> LastOnHoldTime
 
-**Description**: Contains the date and time stamp of the last on hold time.<br />
-**DisplayName**: Last On Hold Time<br />
-**LogicalName**: lastonholdtime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Contains the date and time stamp of the last on hold time.|
+|DisplayName|Last On Hold Time|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastonholdtime|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_LastUsedInCampaign"></a> LastUsedInCampaign
 
-**Description**: Shows the date when the account was last included in a marketing campaign or quick campaign.<br />
-**DisplayName**: Last Date Included in Campaign<br />
-**LogicalName**: lastusedincampaign<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForCreate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date when the account was last included in a marketing campaign or quick campaign.|
+|DisplayName|Last Date Included in Campaign|
+|Format|DateOnly|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|lastusedincampaign|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_MarketCap"></a> MarketCap
 
-**Description**: Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.<br />
-**DisplayName**: Market Capitalization<br />
-**LogicalName**: marketcap<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 100000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type the market capitalization of the account to identify the company's equity, used as an indicator in financial performance analysis.|
+|DisplayName|Market Capitalization|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|marketcap|
+|MaxValue|100000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_MarketingOnly"></a> MarketingOnly
 
-**Description**: Whether is only for marketing<br />
-**DisplayName**: Marketing Only<br />
-**LogicalName**: marketingonly<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Whether is only for marketing|
+|DisplayName|Marketing Only|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|marketingonly|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### MarketingOnly Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_BillingAccount"></a> msdyn_BillingAccount
 
 **Added by**: Field Service Solution<br />
-**Description**: Reference to an other account to be used for billing (only to be used if billing account differs)<br />
-**DisplayName**: Billing Account<br />
-**LogicalName**: msdyn_billingaccount<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Reference to an other account to be used for billing (only to be used if billing account differs)|
+|DisplayName|Billing Account|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccount|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_externalaccountid"></a> msdyn_externalaccountid
 
 **Added by**: Project Service Automation Solution<br />
-**Description**: External Account ID from other systems.<br />
-**DisplayName**: External ID<br />
-**LogicalName**: msdyn_externalaccountid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|External Account ID from other systems.|
+|DisplayName|External ID|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_externalaccountid|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PreferredResource"></a> msdyn_PreferredResource
 
 **Added by**: Field Service Solution<br />
-**Description**: <br />
-**DisplayName**: Preferred Resource (Deprecated)<br />
-**LogicalName**: msdyn_preferredresource<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: bookableresource
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Preferred Resource (Deprecated)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_preferredresource|
+|RequiredLevel|None|
+|Targets|bookableresource|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_SalesTaxCode"></a> msdyn_SalesTaxCode
 
 **Added by**: Field Service Solution<br />
-**Description**: Default Sales Tax Code<br />
-**DisplayName**: Sales Tax Code<br />
-**LogicalName**: msdyn_salestaxcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: msdyn_taxcode
+|Property|Value|
+|--------|-----|
+|Description|Default Sales Tax Code|
+|DisplayName|Sales Tax Code|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_salestaxcode|
+|RequiredLevel|None|
+|Targets|msdyn_taxcode|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_ServiceTerritory"></a> msdyn_ServiceTerritory
 
 **Added by**: Field Service Solution<br />
-**Description**: The Service Territory this account belongs to. This is used to optimize scheduling and routing<br />
-**DisplayName**: Service Territory<br />
-**LogicalName**: msdyn_serviceterritory<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: territory
+|Property|Value|
+|--------|-----|
+|Description|The Service Territory this account belongs to. This is used to optimize scheduling and routing|
+|DisplayName|Service Territory|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceterritory|
+|RequiredLevel|None|
+|Targets|territory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_TaxExempt"></a> msdyn_TaxExempt
 
 **Added by**: Field Service Solution<br />
-**Description**: Select whether the account is tax exempt.<br />
-**DisplayName**: Tax Exempt<br />
-**LogicalName**: msdyn_taxexempt<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether the account is tax exempt.|
+|DisplayName|Tax Exempt|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxexempt|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### msdyn_TaxExempt Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_msdyn_TaxExemptNumber"></a> msdyn_TaxExemptNumber
 
 **Added by**: Field Service Solution<br />
-**Description**: Shows the government tax exempt number.<br />
-**DisplayName**: Tax Exempt Number<br />
-**LogicalName**: msdyn_taxexemptnumber<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Shows the government tax exempt number.|
+|DisplayName|Tax Exempt Number|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_taxexemptnumber|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_TravelCharge"></a> msdyn_TravelCharge
 
 **Added by**: Field Service Solution<br />
-**Description**: Enter the travel charge to include on work orders. This value will be multiplied by the travel charge type.<br />
-**DisplayName**: Travel Charge<br />
-**LogicalName**: msdyn_travelcharge<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Enter the travel charge to include on work orders. This value will be multiplied by the travel charge type.|
+|DisplayName|Travel Charge|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_travelcharge|
+|MaxValue|1000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_msdyn_TravelChargeType"></a> msdyn_TravelChargeType
 
 **Added by**: Field Service Solution<br />
-**Description**: Specify how travel is charged for this account.<br />
-**DisplayName**: Travel Charge Type<br />
-**LogicalName**: msdyn_travelchargetype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Specify how travel is charged for this account.|
+|DisplayName|Travel Charge Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_travelchargetype|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 690970000 **Label**: Hourly
-- **Value**: 690970001 **Label**: Mileage
-- **Value**: 690970002 **Label**: Fixed
-- **Value**: 690970003 **Label**: None
+#### msdyn_TravelChargeType Options
+
+|Value|Label|
+|-----|-----|
+|690970000|Hourly|
+|690970001|Mileage|
+|690970002|Fixed|
+|690970003|None|
 
 
 
 ### <a name="BKMK_msdyn_WorkOrderInstructions"></a> msdyn_WorkOrderInstructions
 
 **Added by**: Field Service Solution<br />
-**Description**: Shows the default instructions to show on new work orders.<br />
-**DisplayName**: Work Order Instructions<br />
-**LogicalName**: msdyn_workorderinstructions<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4000
+|Property|Value|
+|--------|-----|
+|Description|Shows the default instructions to show on new work orders.|
+|DisplayName|Work Order Instructions|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_workorderinstructions|
+|MaxLength|4000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Type the company or business name.<br />
-**DisplayName**: Account Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: ApplicationRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Type the company or business name.|
+|DisplayName|Account Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|160|
+|RequiredLevel|ApplicationRequired|
+|Type|String|
 
 
 ### <a name="BKMK_NumberOfEmployees"></a> NumberOfEmployees
 
-**Description**: Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.<br />
-**DisplayName**: Number of Employees<br />
-**LogicalName**: numberofemployees<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Type the number of employees that work at the account for use in marketing segmentation and demographic analysis.|
+|DisplayName|Number of Employees|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|numberofemployees|
+|MaxValue|1000000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OriginatingLeadId"></a> OriginatingLeadId
 
-**Description**: Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365. This is used to relate the account to data on the originating lead for use in reporting and analytics.<br />
-**DisplayName**: Originating Lead<br />
-**LogicalName**: originatingleadid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: Lookup<br />
-**Targets**: lead
+|Property|Value|
+|--------|-----|
+|Description|Shows the lead that the account was created from if the account was created by converting a lead in Microsoft Dynamics 365. This is used to relate the account to data on the originating lead for use in reporting and analytics.|
+|DisplayName|Originating Lead|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|originatingleadid|
+|RequiredLevel|None|
+|Targets|lead|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 
-**Description**: Date and time that the record was migrated.<br />
-**DisplayName**: Record Created On<br />
-**LogicalName**: overriddencreatedon<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**IsValidForUpdate**: False<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Date and time that the record was migrated.|
+|DisplayName|Record Created On|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|overriddencreatedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Enter the user or team who is assigned to manage the record. This field is updated every time the record is assigned to a different user.|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_OwnershipCode"></a> OwnershipCode
 
-**Description**: Select the account's ownership structure, such as public or private.<br />
-**DisplayName**: Ownership<br />
-**LogicalName**: ownershipcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the account's ownership structure, such as public or private.|
+|DisplayName|Ownership|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownershipcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Public
-- **Value**: 2 **Label**: Private
-- **Value**: 3 **Label**: Subsidiary
-- **Value**: 4 **Label**: Other
+#### OwnershipCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Public|
+|2|Private|
+|3|Subsidiary|
+|4|Other|
 
 
 
 ### <a name="BKMK_ParentAccountId"></a> ParentAccountId
 
-**Description**: Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.<br />
-**DisplayName**: Parent Account<br />
-**LogicalName**: parentaccountid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Choose the parent account associated with this account to show parent and child businesses in reporting and analytics.|
+|DisplayName|Parent Account|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|parentaccountid|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ParticipatesInWorkflow"></a> ParticipatesInWorkflow
 
-**Description**: For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.<br />
-**DisplayName**: Participates in Workflow<br />
-**LogicalName**: participatesinworkflow<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For system use only. Legacy Microsoft Dynamics CRM 3.0 workflow data.|
+|DisplayName|Participates in Workflow|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|participatesinworkflow|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### ParticipatesInWorkflow Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_PaymentTermsCode"></a> PaymentTermsCode
 
-**Description**: Select the payment terms to indicate when the customer needs to pay the total amount.<br />
-**DisplayName**: Payment Terms<br />
-**LogicalName**: paymenttermscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the payment terms to indicate when the customer needs to pay the total amount.|
+|DisplayName|Payment Terms|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|paymenttermscode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Net 30
-- **Value**: 2 **Label**: 2% 10, Net 30
-- **Value**: 3 **Label**: Net 45
-- **Value**: 4 **Label**: Net 60
+#### PaymentTermsCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Net 30|
+|2|2% 10, Net 30|
+|3|Net 45|
+|4|Net 60|
 
 
 
 ### <a name="BKMK_PreferredAppointmentDayCode"></a> PreferredAppointmentDayCode
 
-**Description**: Select the preferred day of the week for service appointments.<br />
-**DisplayName**: Preferred Day<br />
-**LogicalName**: preferredappointmentdaycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the preferred day of the week for service appointments.|
+|DisplayName|Preferred Day|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|preferredappointmentdaycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Sunday
-- **Value**: 1 **Label**: Monday
-- **Value**: 2 **Label**: Tuesday
-- **Value**: 3 **Label**: Wednesday
-- **Value**: 4 **Label**: Thursday
-- **Value**: 5 **Label**: Friday
-- **Value**: 6 **Label**: Saturday
+#### PreferredAppointmentDayCode Options
+
+|Value|Label|
+|-----|-----|
+|0|Sunday|
+|1|Monday|
+|2|Tuesday|
+|3|Wednesday|
+|4|Thursday|
+|5|Friday|
+|6|Saturday|
 
 
 
 ### <a name="BKMK_PreferredAppointmentTimeCode"></a> PreferredAppointmentTimeCode
 
-**Description**: Select the preferred time of day for service appointments.<br />
-**DisplayName**: Preferred Time<br />
-**LogicalName**: preferredappointmenttimecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the preferred time of day for service appointments.|
+|DisplayName|Preferred Time|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|preferredappointmenttimecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Morning
-- **Value**: 2 **Label**: Afternoon
-- **Value**: 3 **Label**: Evening
+#### PreferredAppointmentTimeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Morning|
+|2|Afternoon|
+|3|Evening|
 
 
 
 ### <a name="BKMK_PreferredContactMethodCode"></a> PreferredContactMethodCode
 
-**Description**: Select the preferred method of contact.<br />
-**DisplayName**: Preferred Method of Contact<br />
-**LogicalName**: preferredcontactmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the preferred method of contact.|
+|DisplayName|Preferred Method of Contact|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|preferredcontactmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Any
-- **Value**: 2 **Label**: Email
-- **Value**: 3 **Label**: Phone
-- **Value**: 4 **Label**: Fax
-- **Value**: 5 **Label**: Mail
+#### PreferredContactMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Any|
+|2|Email|
+|3|Phone|
+|4|Fax|
+|5|Mail|
 
 
 
 ### <a name="BKMK_PreferredEquipmentId"></a> PreferredEquipmentId
 
-**Description**: Choose the account's preferred service facility or equipment to make sure services are scheduled correctly for the customer.<br />
-**DisplayName**: Preferred Facility/Equipment<br />
-**LogicalName**: preferredequipmentid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: equipment
+|Property|Value|
+|--------|-----|
+|Description|Choose the account's preferred service facility or equipment to make sure services are scheduled correctly for the customer.|
+|DisplayName|Preferred Facility/Equipment|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|preferredequipmentid|
+|RequiredLevel|None|
+|Targets|equipment|
+|Type|Lookup|
 
 
 ### <a name="BKMK_PreferredServiceId"></a> PreferredServiceId
 
-**Description**: Choose the account's preferred service for reference when you schedule service activities.<br />
-**DisplayName**: Preferred Service<br />
-**LogicalName**: preferredserviceid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: service
+|Property|Value|
+|--------|-----|
+|Description|Choose the account's preferred service for reference when you schedule service activities.|
+|DisplayName|Preferred Service|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|preferredserviceid|
+|RequiredLevel|None|
+|Targets|service|
+|Type|Lookup|
 
 
 ### <a name="BKMK_PreferredSystemUserId"></a> PreferredSystemUserId
 
-**Description**: Choose the preferred service representative for reference when you schedule service activities for the account.<br />
-**DisplayName**: Preferred User<br />
-**LogicalName**: preferredsystemuserid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Choose the preferred service representative for reference when you schedule service activities for the account.|
+|DisplayName|Preferred User|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|preferredsystemuserid|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_PrimaryContactId"></a> PrimaryContactId
 
-**Description**: Choose the primary contact for the account to provide quick access to contact details.<br />
-**DisplayName**: Primary Contact<br />
-**LogicalName**: primarycontactid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: contact
+|Property|Value|
+|--------|-----|
+|Description|Choose the primary contact for the account to provide quick access to contact details.|
+|DisplayName|Primary Contact|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|primarycontactid|
+|RequiredLevel|None|
+|Targets|contact|
+|Type|Lookup|
 
 
 ### <a name="BKMK_PrimarySatoriId"></a> PrimarySatoriId
 
-**Description**: Primary Satori ID for Account<br />
-**DisplayName**: Primary Satori ID<br />
-**LogicalName**: primarysatoriid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Primary Satori ID for Account|
+|DisplayName|Primary Satori ID|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|primarysatoriid|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_PrimaryTwitterId"></a> PrimaryTwitterId
 
-**Description**: Primary Twitter ID for Account<br />
-**DisplayName**: Primary Twitter ID<br />
-**LogicalName**: primarytwitterid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 128
+|Property|Value|
+|--------|-----|
+|Description|Primary Twitter ID for Account|
+|DisplayName|Primary Twitter ID|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|primarytwitterid|
+|MaxLength|128|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ProcessId"></a> ProcessId
 
-**Description**: Shows the ID of the process.<br />
-**DisplayName**: Process<br />
-**LogicalName**: processid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the ID of the process.|
+|DisplayName|Process|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|processid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_Revenue"></a> Revenue
 
-**Description**: Type the annual revenue for the account, used as an indicator in financial performance analysis.<br />
-**DisplayName**: Annual Revenue<br />
-**LogicalName**: revenue<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 100000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Type the annual revenue for the account, used as an indicator in financial performance analysis.|
+|DisplayName|Annual Revenue|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|revenue|
+|MaxValue|100000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_SharesOutstanding"></a> SharesOutstanding
 
-**Description**: Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.<br />
-**DisplayName**: Shares Outstanding<br />
-**LogicalName**: sharesoutstanding<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 1000000000<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Type the number of shares available to the public for the account. This number is used as an indicator in financial performance analysis.|
+|DisplayName|Shares Outstanding|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|sharesoutstanding|
+|MaxValue|1000000000|
+|MinValue|0|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ShippingMethodCode"></a> ShippingMethodCode
 
-**Description**: Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.<br />
-**DisplayName**: Shipping Method<br />
-**LogicalName**: shippingmethodcode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a shipping method for deliveries sent to the account's address to designate the preferred carrier or other delivery option.|
+|DisplayName|Shipping Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|shippingmethodcode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### ShippingMethodCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_SIC"></a> SIC
 
-**Description**: Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.<br />
-**DisplayName**: SIC Code<br />
-**LogicalName**: sic<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the Standard Industrial Classification (SIC) code that indicates the account's primary industry of business, for use in marketing segmentation and demographic analysis.|
+|DisplayName|SIC Code|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|sic|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SLAId"></a> SLAId
 
-**Description**: Choose the service level agreement (SLA) that you want to apply to the Account record.<br />
-**DisplayName**: SLA<br />
-**LogicalName**: slaid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: sla
+|Property|Value|
+|--------|-----|
+|Description|Choose the service level agreement (SLA) that you want to apply to the Account record.|
+|DisplayName|SLA|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|slaid|
+|RequiredLevel|None|
+|Targets|sla|
+|Type|Lookup|
 
 
 ### <a name="BKMK_StageId"></a> StageId
 
-**Description**: Shows the ID of the stage.<br />
-**DisplayName**: Process Stage<br />
-**LogicalName**: stageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Shows the ID of the stage.|
+|DisplayName|Process Stage|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|stageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_StateCode"></a> StateCode
 
-**Description**: Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the account is active or inactive. Inactive accounts are read-only and can't be edited unless they are reactivated.|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Active **DefaultStatus**: 1 **InvariantName**: Active
-- **Value**: 1 **Label**: Inactive **DefaultStatus**: 2 **InvariantName**: Inactive
+#### StateCode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Active|1|Active|
+|1|Inactive|2|Inactive|
 
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-**Description**: Select the account's status.<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the account's status.|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Active **State**: 0
-- **Value**: 2 **Label**: Inactive **State**: 1
+#### StatusCode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Active|0|
+|2|Inactive|1|
 
 
 
 ### <a name="BKMK_StockExchange"></a> StockExchange
 
-**Description**: Type the stock exchange at which the account is listed to track their stock and financial performance of the company.<br />
-**DisplayName**: Stock Exchange<br />
-**LogicalName**: stockexchange<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Type the stock exchange at which the account is listed to track their stock and financial performance of the company.|
+|DisplayName|Stock Exchange|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|stockexchange|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Telephone1"></a> Telephone1
 
-**Description**: Type the main phone number for this account.<br />
-**DisplayName**: Main Phone<br />
-**LogicalName**: telephone1<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type the main phone number for this account.|
+|DisplayName|Main Phone|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|telephone1|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Telephone2"></a> Telephone2
 
-**Description**: Type a second phone number for this account.<br />
-**DisplayName**: Other Phone<br />
-**LogicalName**: telephone2<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a second phone number for this account.|
+|DisplayName|Other Phone|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|telephone2|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Telephone3"></a> Telephone3
 
-**Description**: Type a third phone number for this account.<br />
-**DisplayName**: Telephone 3<br />
-**LogicalName**: telephone3<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Phone<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 50
+|Property|Value|
+|--------|-----|
+|Description|Type a third phone number for this account.|
+|DisplayName|Telephone 3|
+|FormatName|Phone|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|telephone3|
+|MaxLength|50|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_TerritoryCode"></a> TerritoryCode
 
-**Description**: Select a region or territory for the account for use in segmentation and analysis.<br />
-**DisplayName**: Territory Code<br />
-**LogicalName**: territorycode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select a region or territory for the account for use in segmentation and analysis.|
+|DisplayName|Territory Code|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|territorycode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Default Value
+#### TerritoryCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Default Value|
 
 
 
 ### <a name="BKMK_TerritoryId"></a> TerritoryId
 
-**Description**: Choose the sales region or territory for the account to make sure the account is assigned to the correct representative and for use in segmentation and analysis.<br />
-**DisplayName**: Territory<br />
-**LogicalName**: territoryid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: territory
+|Property|Value|
+|--------|-----|
+|Description|Choose the sales region or territory for the account to make sure the account is assigned to the correct representative and for use in segmentation and analysis.|
+|DisplayName|Territory|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|territoryid|
+|RequiredLevel|None|
+|Targets|territory|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TickerSymbol"></a> TickerSymbol
 
-**Description**: Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.<br />
-**DisplayName**: Ticker Symbol<br />
-**LogicalName**: tickersymbol<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: TickerSymbol<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 10
+|Property|Value|
+|--------|-----|
+|Description|Type the stock exchange symbol for the account to track financial performance of the company. You can click the code entered in this field to access the latest trading information from MSN Money.|
+|DisplayName|Ticker Symbol|
+|FormatName|TickerSymbol|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|tickersymbol|
+|MaxLength|10|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
 
-**Description**: For internal use only.<br />
-**DisplayName**: Time Zone Rule Version Number<br />
-**LogicalName**: timezoneruleversionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Time Zone Rule Version Number|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timezoneruleversionnumber|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Choose the local currency for the record to make sure budgets are reported in the correct currency.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Choose the local currency for the record to make sure budgets are reported in the correct currency.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TraversedPath"></a> TraversedPath
 
-**Description**: For internal use only.<br />
-**DisplayName**: Traversed Path<br />
-**LogicalName**: traversedpath<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1250
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Traversed Path|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|traversedpath|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
 
-**Description**: Time zone code that was in use when the record was created.<br />
-**DisplayName**: UTC Conversion Time Zone Code<br />
-**LogicalName**: utcconversiontimezonecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -1
+|Property|Value|
+|--------|-----|
+|Description|Time zone code that was in use when the record was created.|
+|DisplayName|UTC Conversion Time Zone Code|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|utcconversiontimezonecode|
+|MaxValue|2147483647|
+|MinValue|-1|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_WebSiteURL"></a> WebSiteURL
 
-**Description**: Type the account's website URL to get quick details about the company profile.<br />
-**DisplayName**: Website<br />
-**LogicalName**: websiteurl<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Url<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description|Type the account's website URL to get quick details about the company profile.|
+|DisplayName|Website|
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|websiteurl|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_YomiName"></a> YomiName
 
-**Description**: Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.<br />
-**DisplayName**: Yomi Account Name<br />
-**LogicalName**: yominame<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: PhoneticGuide<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description|Type the phonetic spelling of the company name, if specified in Japanese, to make sure the name is pronounced correctly in phone calls and other communications.|
+|DisplayName|Yomi Account Name|
+|FormatName|PhoneticGuide|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|yominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -2185,1068 +2563,1230 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_Address1_Composite"></a> Address1_Composite
 
-**Description**: Shows the complete primary address.<br />
-**DisplayName**: Address 1<br />
-**LogicalName**: address1_composite<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1000
+|Property|Value|
+|--------|-----|
+|Description|Shows the complete primary address.|
+|DisplayName|Address 1|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address1_composite|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Address2_Composite"></a> Address2_Composite
 
-**Description**: Shows the complete secondary address.<br />
-**DisplayName**: Address 2<br />
-**LogicalName**: address2_composite<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Memo<br />
-**Format**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1000
+|Property|Value|
+|--------|-----|
+|Description|Shows the complete secondary address.|
+|DisplayName|Address 2|
+|Format|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|address2_composite|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Aging30"></a> Aging30
 
-**Description**: For system use only.<br />
-**DisplayName**: Aging 30<br />
-**LogicalName**: aging30<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 100000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|For system use only.|
+|DisplayName|Aging 30|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|aging30|
+|MaxValue|100000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_Aging30_Base"></a> Aging30_Base
 
-**Description**: The base currency equivalent of the aging 30 field.<br />
-**DisplayName**: Aging 30 (Base)<br />
-**LogicalName**: aging30_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|The base currency equivalent of the aging 30 field.|
+|DisplayName|Aging 30 (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|aging30_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_Aging60"></a> Aging60
 
-**Description**: For system use only.<br />
-**DisplayName**: Aging 60<br />
-**LogicalName**: aging60<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 100000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|For system use only.|
+|DisplayName|Aging 60|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|aging60|
+|MaxValue|100000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_Aging60_Base"></a> Aging60_Base
 
-**Description**: The base currency equivalent of the aging 60 field.<br />
-**DisplayName**: Aging 60 (Base)<br />
-**LogicalName**: aging60_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|The base currency equivalent of the aging 60 field.|
+|DisplayName|Aging 60 (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|aging60_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_Aging90"></a> Aging90
 
-**Description**: For system use only.<br />
-**DisplayName**: Aging 90<br />
-**LogicalName**: aging90<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 100000000000000<br />
-**MinValue**: 0<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|For system use only.|
+|DisplayName|Aging 90|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|aging90|
+|MaxValue|100000000000000|
+|MinValue|0|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_Aging90_Base"></a> Aging90_Base
 
-**Description**: The base currency equivalent of the aging 90 field.<br />
-**DisplayName**: Aging 90 (Base)<br />
-**LogicalName**: aging90_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|The base currency equivalent of the aging 90 field.|
+|DisplayName|Aging 90 (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|aging90_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Shows who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByExternalParty"></a> CreatedByExternalParty
 
-**Description**: Shows the external party who created the record.<br />
-**DisplayName**: Created By (External Party)<br />
-**LogicalName**: createdbyexternalparty<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: externalparty
+|Property|Value|
+|--------|-----|
+|Description|Shows the external party who created the record.|
+|DisplayName|Created By (External Party)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdbyexternalparty|
+|RequiredLevel|None|
+|Targets|externalparty|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByExternalPartyName"></a> CreatedByExternalPartyName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyexternalpartyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyexternalpartyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByExternalPartyYomiName"></a> CreatedByExternalPartyYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyexternalpartyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyexternalpartyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreditLimit_Base"></a> CreditLimit_Base
 
-**Description**: Shows the credit limit converted to the system's default base currency for reporting purposes.<br />
-**DisplayName**: Credit Limit (Base)<br />
-**LogicalName**: creditlimit_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Shows the credit limit converted to the system's default base currency for reporting purposes.|
+|DisplayName|Credit Limit (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|creditlimit_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_DefaultPriceLevelIdName"></a> DefaultPriceLevelIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: defaultpricelevelidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|defaultpricelevelidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImage_Timestamp"></a> EntityImage_Timestamp
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: entityimage_timestamp<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage_timestamp|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 
 ### <a name="BKMK_EntityImage_URL"></a> EntityImage_URL
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: entityimage_url<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Url<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Url|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimage_url|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_EntityImageId"></a> EntityImageId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Entity Image Id<br />
-**LogicalName**: entityimageid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Entity Image Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|entityimageid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Shows the conversion rate of the record's currency. The exchange rate is used to convert all money fields in the record from the local currency to the system's default currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_IsPrivate"></a> IsPrivate
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: isprivate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|isprivate|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsPrivate Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
+
 
 
 ### <a name="BKMK_MarketCap_Base"></a> MarketCap_Base
 
-**Description**: Shows the market capitalization converted to the system's default base currency.<br />
-**DisplayName**: Market Capitalization (Base)<br />
-**LogicalName**: marketcap_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Shows the market capitalization converted to the system's default base currency.|
+|DisplayName|Market Capitalization (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|marketcap_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_MasterAccountIdName"></a> MasterAccountIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: masteraccountidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|masteraccountidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_MasterAccountIdYomiName"></a> MasterAccountIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: masteraccountidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|masteraccountidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_MasterId"></a> MasterId
 
-**Description**: Shows the master account that the account was merged with.<br />
-**DisplayName**: Master ID<br />
-**LogicalName**: masterid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: account
+|Property|Value|
+|--------|-----|
+|Description|Shows the master account that the account was merged with.|
+|DisplayName|Master ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|masterid|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
 
 
 ### <a name="BKMK_Merged"></a> Merged
 
-**Description**: Shows whether the account has been merged with another account.<br />
-**DisplayName**: Merged<br />
-**LogicalName**: merged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the account has been merged with another account.|
+|DisplayName|Merged|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|merged|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### Merged Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Shows who last updated the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByExternalParty"></a> ModifiedByExternalParty
 
-**Description**: Shows the external party who modified the record.<br />
-**DisplayName**: Modified By (External Party)<br />
-**LogicalName**: modifiedbyexternalparty<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: externalparty
+|Property|Value|
+|--------|-----|
+|Description|Shows the external party who modified the record.|
+|DisplayName|Modified By (External Party)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedbyexternalparty|
+|RequiredLevel|None|
+|Targets|externalparty|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByExternalPartyName"></a> ModifiedByExternalPartyName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyexternalpartyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyexternalpartyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByExternalPartyYomiName"></a> ModifiedByExternalPartyYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyexternalpartyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyexternalpartyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_BillingAccountName"></a> msdyn_BillingAccountName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_billingaccountname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccountname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_BillingAccountYomiName"></a> msdyn_BillingAccountYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_billingaccountyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 160
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_billingaccountyominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_PreferredResourceName"></a> msdyn_PreferredResourceName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_preferredresourcename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_preferredresourcename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_SalesTaxCodeName"></a> msdyn_SalesTaxCodeName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_salestaxcodename<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_salestaxcodename|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_ServiceTerritoryName"></a> msdyn_ServiceTerritoryName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_serviceterritoryname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 200
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_serviceterritoryname|
+|MaxLength|200|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_msdyn_travelcharge_Base"></a> msdyn_travelcharge_Base
 
 **Added by**: Field Service Solution<br />
-**Description**: Value of the Travel Charge in base currency.<br />
-**DisplayName**: Travel Charge (Base)<br />
-**LogicalName**: msdyn_travelcharge_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 1
+|Property|Value|
+|--------|-----|
+|Description|Value of the Travel Charge in base currency.|
+|DisplayName|Travel Charge (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_travelcharge_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|1|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_OnHoldTime"></a> OnHoldTime
 
-**Description**: Shows how long, in minutes, that the record was on hold.<br />
-**DisplayName**: On Hold Time (Minutes)<br />
-**LogicalName**: onholdtime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows how long, in minutes, that the record was on hold.|
+|DisplayName|On Hold Time (Minutes)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|onholdtime|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OpenDeals"></a> OpenDeals
 
-**Description**: Number of open opportunities against an account and its child accounts.<br />
-**DisplayName**: Open Deals<br />
-**LogicalName**: opendeals<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Number of open opportunities against an account and its child accounts.|
+|DisplayName|Open Deals|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|opendeals|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OpenDeals_Date"></a> OpenDeals_Date
 
-**Description**: Last Updated time of rollup field Open Deals.<br />
-**DisplayName**: Open Deals (Last Updated On)<br />
-**LogicalName**: opendeals_date<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Updated time of rollup field Open Deals.|
+|DisplayName|Open Deals (Last Updated On)|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|opendeals_date|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OpenDeals_State"></a> OpenDeals_State
 
-**Description**: State of rollup field Open Deals.<br />
-**DisplayName**: Open Deals (State)<br />
-**LogicalName**: opendeals_state<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|State of rollup field Open Deals.|
+|DisplayName|Open Deals (State)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|opendeals_state|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OpenRevenue"></a> OpenRevenue
 
-**Description**: Sum of open revenue against an account and its child accounts.<br />
-**DisplayName**: Open Revenue<br />
-**LogicalName**: openrevenue<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Sum of open revenue against an account and its child accounts.|
+|DisplayName|Open Revenue|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|openrevenue|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_OpenRevenue_Base"></a> OpenRevenue_Base
 
-**Description**: Value of the Open Revenue in base currency.<br />
-**DisplayName**: Open Revenue (Base)<br />
-**LogicalName**: openrevenue_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 2<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Value of the Open Revenue in base currency.|
+|DisplayName|Open Revenue (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|openrevenue_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|2|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_OpenRevenue_Date"></a> OpenRevenue_Date
 
-**Description**: Last Updated time of rollup field Open Revenue.<br />
-**DisplayName**: Open Revenue (Last Updated On)<br />
-**LogicalName**: openrevenue_date<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Last Updated time of rollup field Open Revenue.|
+|DisplayName|Open Revenue (Last Updated On)|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|openrevenue_date|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OpenRevenue_State"></a> OpenRevenue_State
 
-**Description**: State of rollup field Open Revenue.<br />
-**DisplayName**: Open Revenue (State)<br />
-**LogicalName**: openrevenue_state<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|State of rollup field Open Revenue.|
+|DisplayName|Open Revenue (State)|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|openrevenue_state|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_OriginatingLeadIdName"></a> OriginatingLeadIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: originatingleadidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|originatingleadidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OriginatingLeadIdYomiName"></a> OriginatingLeadIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: originatingleadidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|originatingleadidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Shows the business unit that the record owner belongs to.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Shows the business unit that the record owner belongs to.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier of the team who owns the account.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the team who owns the account.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user who owns the account.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who owns the account.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ParentAccountIdName"></a> ParentAccountIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: parentaccountidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|parentaccountidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ParentAccountIdYomiName"></a> ParentAccountIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: parentaccountidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|parentaccountidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_PreferredEquipmentIdName"></a> PreferredEquipmentIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: preferredequipmentidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|preferredequipmentidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_PreferredServiceIdName"></a> PreferredServiceIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: preferredserviceidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|preferredserviceidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_PreferredSystemUserIdName"></a> PreferredSystemUserIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: preferredsystemuseridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|preferredsystemuseridname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_PreferredSystemUserIdYomiName"></a> PreferredSystemUserIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: preferredsystemuseridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|preferredsystemuseridyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_PrimaryContactIdName"></a> PrimaryContactIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: primarycontactidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|primarycontactidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_PrimaryContactIdYomiName"></a> PrimaryContactIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: primarycontactidyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|primarycontactidyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Revenue_Base"></a> Revenue_Base
 
-**Description**: Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.<br />
-**DisplayName**: Annual Revenue (Base)<br />
-**LogicalName**: revenue_base<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Money<br />
-**MaxValue**: 922337203685477<br />
-**MinValue**: -922337203685477<br />
-**Precision**: 4<br />
-**PrecisionSource**: 2
+|Property|Value|
+|--------|-----|
+|Description|Shows the annual revenue converted to the system's default base currency. The calculations use the exchange rate specified in the Currencies area.|
+|DisplayName|Annual Revenue (Base)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|revenue_base|
+|MaxValue|922337203685477|
+|MinValue|-922337203685477|
+|Precision|4|
+|PrecisionSource|2|
+|RequiredLevel|None|
+|Type|Money|
 
 
 ### <a name="BKMK_SLAInvokedId"></a> SLAInvokedId
 
-**Description**: Last SLA that was applied to this case. This field is for internal use only.<br />
-**DisplayName**: Last SLA applied<br />
-**LogicalName**: slainvokedid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: sla
+|Property|Value|
+|--------|-----|
+|Description|Last SLA that was applied to this case. This field is for internal use only.|
+|DisplayName|Last SLA applied|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slainvokedid|
+|RequiredLevel|None|
+|Targets|sla|
+|Type|Lookup|
 
 
 ### <a name="BKMK_SLAInvokedIdName"></a> SLAInvokedIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: slainvokedidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slainvokedidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_SLAName"></a> SLAName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: slaname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slaname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_TerritoryIdName"></a> TerritoryIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: territoryidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|territoryidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_TimeSpentByMeOnEmailAndMeetings"></a> TimeSpentByMeOnEmailAndMeetings
 
-**Description**: Total time spent for emails (read and write) and meetings by me in relation to account record.<br />
-**DisplayName**: Time Spent by me<br />
-**LogicalName**: timespentbymeonemailandmeetings<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1250
+|Property|Value|
+|--------|-----|
+|Description|Total time spent for emails (read and write) and meetings by me in relation to account record.|
+|DisplayName|Time Spent by me|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|timespentbymeonemailandmeetings|
+|MaxLength|1250|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version number of the account.<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version number of the account.|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -3254,7 +3794,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Listed by **SchemaName**.
 
-- [msdyn_account_msdyn_iotdevice_Account](#BKMK_msdyn_account_msdyn_iotdevice_Account)
 - [lead_customer_accounts](#BKMK_lead_customer_accounts)
 - [lead_parent_account](#BKMK_lead_parent_account)
 - [account_bookableresource_AccountId](#BKMK_account_bookableresource_AccountId)
@@ -3321,6 +3860,7 @@ Listed by **SchemaName**.
 - [msdyn_account_quote_Account](#BKMK_msdyn_account_quote_Account)
 - [msdyn_account_quotedetail_ServiceAccount](#BKMK_msdyn_account_quotedetail_ServiceAccount)
 - [msdyn_account_salesorder_Account](#BKMK_msdyn_account_salesorder_Account)
+- [msdyn_account_msdyn_iotdevice_Account](#BKMK_msdyn_account_msdyn_iotdevice_Account)
 - [account_principalobjectattributeaccess](#BKMK_account_principalobjectattributeaccess)
 - [Account_Faxes](#BKMK_Account_Faxes)
 - [slakpiinstance_account](#BKMK_slakpiinstance_account)
@@ -3361,2734 +3901,1474 @@ Listed by **SchemaName**.
 - [account_connections2](#BKMK_account_connections2)
 
 
-### <a name="BKMK_msdyn_account_msdyn_iotdevice_Account"></a> msdyn_account_msdyn_iotdevice_Account
-
-Same as msdyn_iotdevice entity [msdyn_account_msdyn_iotdevice_Account](msdyn_iotdevice.md#BKMK_msdyn_account_msdyn_iotdevice_Account) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_iotdevice<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_iotdevice_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
 ### <a name="BKMK_lead_customer_accounts"></a> lead_customer_accounts
 
 Same as lead entity [lead_customer_accounts](lead.md#BKMK_lead_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: lead<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|lead|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_lead_parent_account"></a> lead_parent_account
 
 Same as lead entity [lead_parent_account](lead.md#BKMK_lead_parent_account) Many-To-One relationship.
-
-**ReferencingEntity**: lead<br />
-**ReferencingAttribute**: parentaccountid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: lead_parent_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|lead|
+|ReferencingAttribute|parentaccountid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|lead_parent_account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_bookableresource_AccountId"></a> account_bookableresource_AccountId
 
 Same as bookableresource entity [account_bookableresource_AccountId](bookableresource.md#BKMK_account_bookableresource_AccountId) Many-To-One relationship.
-
-**ReferencingEntity**: bookableresource<br />
-**ReferencingAttribute**: accountid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_bookableresource_AccountId<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bookableresource|
+|ReferencingAttribute|accountid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_bookableresource_AccountId|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_BulkOperations"></a> account_BulkOperations
 
 Same as bulkoperation entity [account_BulkOperations](bulkoperation.md#BKMK_account_BulkOperations) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_BulkOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_BulkOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_CampaignActivities"></a> account_CampaignActivities
 
 Same as campaignactivity entity [account_CampaignActivities](campaignactivity.md#BKMK_account_CampaignActivities) Many-To-One relationship.
-
-**ReferencingEntity**: campaignactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_CampaignActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_CampaignActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_CampaignResponses"></a> account_CampaignResponses
 
 Same as campaignresponse entity [account_CampaignResponses](campaignresponse.md#BKMK_account_CampaignResponses) Many-To-One relationship.
-
-**ReferencingEntity**: campaignresponse<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_CampaignResponses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignresponse|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_CampaignResponses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_CreatedAccount_BulkOperationLogs2"></a> CreatedAccount_BulkOperationLogs2
 
 Same as bulkoperationlog entity [CreatedAccount_BulkOperationLogs2](bulkoperationlog.md#BKMK_CreatedAccount_BulkOperationLogs2) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperationlog<br />
-**ReferencingAttribute**: createdobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: CreatedAccount_BulkOperationLogs2<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|createdobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|CreatedAccount_BulkOperationLogs2|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SourceAccount_BulkOperationLogs"></a> SourceAccount_BulkOperationLogs
 
 Same as bulkoperationlog entity [SourceAccount_BulkOperationLogs](bulkoperationlog.md#BKMK_SourceAccount_BulkOperationLogs) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperationlog<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: SourceAccount_BulkOperationLogs<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperationlog|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|SourceAccount_BulkOperationLogs|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_IncidentResolutions"></a> account_IncidentResolutions
 
 Same as incidentresolution entity [account_IncidentResolutions](incidentresolution.md#BKMK_account_IncidentResolutions) Many-To-One relationship.
-
-**ReferencingEntity**: incidentresolution<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_IncidentResolutions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incidentresolution|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_IncidentResolutions|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_ServiceAppointments"></a> Account_ServiceAppointments
 
 Same as serviceappointment entity [Account_ServiceAppointments](serviceappointment.md#BKMK_Account_ServiceAppointments) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_ServiceAppointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_ServiceAppointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_contractlineitem_customer_accounts"></a> contractlineitem_customer_accounts
 
 Same as contractdetail entity [contractlineitem_customer_accounts](contractdetail.md#BKMK_contractlineitem_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: contractdetail<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: contractlineitem_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contractdetail|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|contractlineitem_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_contract_billingcustomer_accounts"></a> contract_billingcustomer_accounts
 
 Same as contract entity [contract_billingcustomer_accounts](contract.md#BKMK_contract_billingcustomer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: contract<br />
-**ReferencingAttribute**: billingcustomerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: contract_billingcustomer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contract|
+|ReferencingAttribute|billingcustomerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|contract_billingcustomer_accounts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_contract_customer_accounts"></a> contract_customer_accounts
 
 Same as contract entity [contract_customer_accounts](contract.md#BKMK_contract_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: contract<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: contract_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Service
-- **Label**: 
-- **Order**: 20
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contract|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|contract_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Service<br />Label: <br />Order: 20|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_incident_customer_accounts"></a> incident_customer_accounts
 
 Same as incident entity [incident_customer_accounts](incident.md#BKMK_incident_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: incident<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: incident_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Service
-- **Label**: 
-- **Order**: 10
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incident|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|incident_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Service<br />Label: <br />Order: 10|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_entitlement_Account"></a> account_entitlement_Account
 
 Same as entitlement entity [account_entitlement_Account](entitlement.md#BKMK_account_entitlement_Account) Many-To-One relationship.
-
-**ReferencingEntity**: entitlement<br />
-**ReferencingAttribute**: accountid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_entitlement_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|entitlement|
+|ReferencingAttribute|accountid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_entitlement_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_entitlement_Customer"></a> account_entitlement_Customer
 
 Same as entitlement entity [account_entitlement_Customer](entitlement.md#BKMK_account_entitlement_Customer) Many-To-One relationship.
-
-**ReferencingEntity**: entitlement<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_entitlement_Customer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|entitlement|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_entitlement_Customer|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_OpportunityCloses"></a> account_OpportunityCloses
 
 Same as opportunityclose entity [account_OpportunityCloses](opportunityclose.md#BKMK_account_OpportunityCloses) Many-To-One relationship.
-
-**ReferencingEntity**: opportunityclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_OpportunityCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_OpportunityCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_OrderCloses"></a> account_OrderCloses
 
 Same as orderclose entity [account_OrderCloses](orderclose.md#BKMK_account_OrderCloses) Many-To-One relationship.
-
-**ReferencingEntity**: orderclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_OrderCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|orderclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_OrderCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_QuoteCloses"></a> account_QuoteCloses
 
 Same as quoteclose entity [account_QuoteCloses](quoteclose.md#BKMK_account_QuoteCloses) Many-To-One relationship.
-
-**ReferencingEntity**: quoteclose<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_QuoteCloses<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quoteclose|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_QuoteCloses|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_customer_opportunity_roles"></a> account_customer_opportunity_roles
 
 Same as customeropportunityrole entity [account_customer_opportunity_roles](customeropportunityrole.md#BKMK_account_customer_opportunity_roles) Many-To-One relationship.
-
-**ReferencingEntity**: customeropportunityrole<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: account_customer_opportunity_roles<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|customeropportunityrole|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|account_customer_opportunity_roles|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_invoice_customer_accounts"></a> invoice_customer_accounts
 
 Same as invoice entity [invoice_customer_accounts](invoice.md#BKMK_invoice_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: invoice<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: invoice_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Sales
-- **Label**: 
-- **Order**: 40
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|invoice|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|invoice_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 40|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_opportunity_customer_accounts"></a> opportunity_customer_accounts
 
 Same as opportunity entity [opportunity_customer_accounts](opportunity.md#BKMK_opportunity_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: opportunity<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: opportunity_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Sales
-- **Label**: 
-- **Order**: 10
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunity|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|opportunity_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 10|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_order_customer_accounts"></a> order_customer_accounts
 
 Same as salesorder entity [order_customer_accounts](salesorder.md#BKMK_order_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: salesorder<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: order_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Sales
-- **Label**: 
-- **Order**: 30
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|salesorder|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|order_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 30|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_quote_customer_accounts"></a> quote_customer_accounts
 
 Same as quote entity [quote_customer_accounts](quote.md#BKMK_quote_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: quote<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: quote_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Sales
-- **Label**: 
-- **Order**: 20
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quote|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|quote_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 20|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_opportunity_parent_account"></a> opportunity_parent_account
 
 Same as opportunity entity [opportunity_parent_account](opportunity.md#BKMK_opportunity_parent_account) Many-To-One relationship.
-
-**ReferencingEntity**: opportunity<br />
-**ReferencingAttribute**: parentaccountid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: opportunity_parent_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunity|
+|ReferencingAttribute|parentaccountid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|opportunity_parent_account|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_msdyn_bookingalerts"></a> account_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [account_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_account_msdyn_bookingalerts) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_msdyn_bookingalerts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_msdyn_bookingalerts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_actual_AccountCustomer"></a> msdyn_account_msdyn_actual_AccountCustomer
 
 Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountCustomer](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_actual<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_actual_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_actual|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_actual_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_actual_AccountVendor"></a> msdyn_account_msdyn_actual_AccountVendor
 
 Same as msdyn_actual entity [msdyn_account_msdyn_actual_AccountVendor](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_actual<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_actual_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_actual|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_actual_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_msdyn_approvals"></a> account_msdyn_approvals
 
 Same as msdyn_approval entity [account_msdyn_approvals](msdyn_approval.md#BKMK_account_msdyn_approvals) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_msdyn_approvals<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_msdyn_approvals|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_accountpricelist_Account"></a> msdyn_account_msdyn_accountpricelist_Account
 
 Same as msdyn_accountpricelist entity [msdyn_account_msdyn_accountpricelist_Account](msdyn_accountpricelist.md#BKMK_msdyn_account_msdyn_accountpricelist_Account) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_accountpricelist<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_accountpricelist_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_accountpricelist|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_accountpricelist_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_estimateline_AccountCustomer"></a> msdyn_account_msdyn_estimateline_AccountCustomer
 
 Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountCustomer](msdyn_estimateline.md#BKMK_msdyn_account_msdyn_estimateline_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_estimateline<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_estimateline_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_estimateline|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_estimateline_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_estimateline_AccountVendor"></a> msdyn_account_msdyn_estimateline_AccountVendor
 
 Same as msdyn_estimateline entity [msdyn_account_msdyn_estimateline_AccountVendor](msdyn_estimateline.md#BKMK_msdyn_account_msdyn_estimateline_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_estimateline<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_estimateline_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_estimateline|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_estimateline_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_fact_AccountCustomer"></a> msdyn_account_msdyn_fact_AccountCustomer
 
 Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountCustomer](msdyn_fact.md#BKMK_msdyn_account_msdyn_fact_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_fact<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_fact_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_fact|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_fact_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_fact_AccountVendor"></a> msdyn_account_msdyn_fact_AccountVendor
 
 Same as msdyn_fact entity [msdyn_account_msdyn_fact_AccountVendor](msdyn_fact.md#BKMK_msdyn_account_msdyn_fact_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_fact<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_fact_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_fact|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_fact_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer"></a> msdyn_account_msdyn_invoicelinetransaction_AccountCustomer
 
 Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetransaction_AccountCustomer](msdyn_invoicelinetransaction.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_invoicelinetransaction<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_invoicelinetransaction_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_invoicelinetransaction|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_invoicelinetransaction_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor"></a> msdyn_account_msdyn_invoicelinetransaction_AccountVendor
 
 Same as msdyn_invoicelinetransaction entity [msdyn_account_msdyn_invoicelinetransaction_AccountVendor](msdyn_invoicelinetransaction.md#BKMK_msdyn_account_msdyn_invoicelinetransaction_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_invoicelinetransaction<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_invoicelinetransaction_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_invoicelinetransaction|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_invoicelinetransaction_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_journalline_AccountCustomer"></a> msdyn_account_msdyn_journalline_AccountCustomer
 
 Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountCustomer](msdyn_journalline.md#BKMK_msdyn_account_msdyn_journalline_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_journalline<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_journalline_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_journalline|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_journalline_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_journalline_AccountVendor"></a> msdyn_account_msdyn_journalline_AccountVendor
 
 Same as msdyn_journalline entity [msdyn_account_msdyn_journalline_AccountVendor](msdyn_journalline.md#BKMK_msdyn_account_msdyn_journalline_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_journalline<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_journalline_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_journalline|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_journalline_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer"></a> msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer](msdyn_opportunitylinetransaction.md#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_opportunitylinetransaction<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_opportunitylinetransaction|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_opportunitylinetransaction_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountVendor"></a> msdyn_account_msdyn_opportunitylinetransaction_AccountVendor
 
 Same as msdyn_opportunitylinetransaction entity [msdyn_account_msdyn_opportunitylinetransaction_AccountVendor](msdyn_opportunitylinetransaction.md#BKMK_msdyn_account_msdyn_opportunitylinetransaction_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_opportunitylinetransaction<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_opportunitylinetransaction_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_opportunitylinetransaction|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_opportunitylinetransaction_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_orderlinetransaction_AccountCustomer"></a> msdyn_account_msdyn_orderlinetransaction_AccountCustomer
 
 Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransaction_AccountCustomer](msdyn_orderlinetransaction.md#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_orderlinetransaction<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_orderlinetransaction_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_orderlinetransaction|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_orderlinetransaction_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_orderlinetransaction_AccountVendor"></a> msdyn_account_msdyn_orderlinetransaction_AccountVendor
 
 Same as msdyn_orderlinetransaction entity [msdyn_account_msdyn_orderlinetransaction_AccountVendor](msdyn_orderlinetransaction.md#BKMK_msdyn_account_msdyn_orderlinetransaction_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_orderlinetransaction<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_orderlinetransaction_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_orderlinetransaction|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_orderlinetransaction_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_project_Customer"></a> msdyn_account_msdyn_project_Customer
 
 Same as msdyn_project entity [msdyn_account_msdyn_project_Customer](msdyn_project.md#BKMK_msdyn_account_msdyn_project_Customer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_project<br />
-**ReferencingAttribute**: msdyn_customer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_project_Customer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_project|
+|ReferencingAttribute|msdyn_customer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_project_Customer|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_quotelinetransaction_AccountCustomer"></a> msdyn_account_msdyn_quotelinetransaction_AccountCustomer
 
 Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransaction_AccountCustomer](msdyn_quotelinetransaction.md#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountCustomer) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_quotelinetransaction<br />
-**ReferencingAttribute**: msdyn_accountcustomer<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_quotelinetransaction_AccountCustomer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_quotelinetransaction|
+|ReferencingAttribute|msdyn_accountcustomer|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_quotelinetransaction_AccountCustomer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_quotelinetransaction_AccountVendor"></a> msdyn_account_msdyn_quotelinetransaction_AccountVendor
 
 Same as msdyn_quotelinetransaction entity [msdyn_account_msdyn_quotelinetransaction_AccountVendor](msdyn_quotelinetransaction.md#BKMK_msdyn_account_msdyn_quotelinetransaction_AccountVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_quotelinetransaction<br />
-**ReferencingAttribute**: msdyn_accountvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_quotelinetransaction_AccountVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_quotelinetransaction|
+|ReferencingAttribute|msdyn_accountvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_quotelinetransaction_AccountVendor|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_account_BillingAccount"></a> msdyn_account_account_BillingAccount
 
 Same as account entity [msdyn_account_account_BillingAccount](account.md#BKMK_msdyn_account_account_BillingAccount) Many-To-One relationship.
-
-**ReferencingEntity**: account<br />
-**ReferencingAttribute**: msdyn_billingaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_account_BillingAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Billed Accounts
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|msdyn_billingaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_account_BillingAccount|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billed Accounts<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_actual_ServiceAccount"></a> msdyn_account_msdyn_actual_ServiceAccount
 
 Same as msdyn_actual entity [msdyn_account_msdyn_actual_ServiceAccount](msdyn_actual.md#BKMK_msdyn_account_msdyn_actual_ServiceAccount) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_actual<br />
-**ReferencingAttribute**: msdyn_serviceaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_actual_ServiceAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_actual|
+|ReferencingAttribute|msdyn_serviceaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_actual_ServiceAccount|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_agreement_BillingAccount"></a> msdyn_account_msdyn_agreement_BillingAccount
 
 Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_BillingAccount](msdyn_agreement.md#BKMK_msdyn_account_msdyn_agreement_BillingAccount) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_agreement<br />
-**ReferencingAttribute**: msdyn_billingaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_agreement_BillingAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Billed Agreements
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_agreement|
+|ReferencingAttribute|msdyn_billingaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_agreement_BillingAccount|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billed Agreements<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_agreement_ServiceAccount"></a> msdyn_account_msdyn_agreement_ServiceAccount
 
 Same as msdyn_agreement entity [msdyn_account_msdyn_agreement_ServiceAccount](msdyn_agreement.md#BKMK_msdyn_account_msdyn_agreement_ServiceAccount) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_agreement<br />
-**ReferencingAttribute**: msdyn_serviceaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_agreement_ServiceAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_agreement|
+|ReferencingAttribute|msdyn_serviceaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_agreement_ServiceAccount|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_customerasset_Account"></a> msdyn_account_msdyn_customerasset_Account
 
 Same as msdyn_customerasset entity [msdyn_account_msdyn_customerasset_Account](msdyn_customerasset.md#BKMK_msdyn_account_msdyn_customerasset_Account) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_customerasset<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_customerasset_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_customerasset|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_customerasset_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_payment_Account"></a> msdyn_account_msdyn_payment_Account
 
 Same as msdyn_payment entity [msdyn_account_msdyn_payment_Account](msdyn_payment.md#BKMK_msdyn_account_msdyn_payment_Account) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_payment<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_payment_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_payment|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_payment_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_purchaseorder_Vendor"></a> msdyn_account_msdyn_purchaseorder_Vendor
 
 Same as msdyn_purchaseorder entity [msdyn_account_msdyn_purchaseorder_Vendor](msdyn_purchaseorder.md#BKMK_msdyn_account_msdyn_purchaseorder_Vendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_purchaseorder<br />
-**ReferencingAttribute**: msdyn_vendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_purchaseorder_Vendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_purchaseorder|
+|ReferencingAttribute|msdyn_vendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_purchaseorder_Vendor|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_requirementresourcepreference_Account"></a> msdyn_account_msdyn_requirementresourcepreference_Account
 
 Same as msdyn_requirementresourcepreference entity [msdyn_account_msdyn_requirementresourcepreference_Account](msdyn_requirementresourcepreference.md#BKMK_msdyn_account_msdyn_requirementresourcepreference_Account) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_requirementresourcepreference<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_requirementresourcepreference_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Resource Preferences
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_requirementresourcepreference|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_requirementresourcepreference_Account|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Resource Preferences<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_rma_BillingAccount"></a> msdyn_account_msdyn_rma_BillingAccount
 
 Same as msdyn_rma entity [msdyn_account_msdyn_rma_BillingAccount](msdyn_rma.md#BKMK_msdyn_account_msdyn_rma_BillingAccount) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rma<br />
-**ReferencingAttribute**: msdyn_billingaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_rma_BillingAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Billing RMAs
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rma|
+|ReferencingAttribute|msdyn_billingaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rma_BillingAccount|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billing RMAs<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_rma_ServiceAccount"></a> msdyn_account_msdyn_rma_ServiceAccount
 
 Same as msdyn_rma entity [msdyn_account_msdyn_rma_ServiceAccount](msdyn_rma.md#BKMK_msdyn_account_msdyn_rma_ServiceAccount) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rma<br />
-**ReferencingAttribute**: msdyn_serviceaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_rma_ServiceAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: RMAs
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rma|
+|ReferencingAttribute|msdyn_serviceaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rma_ServiceAccount|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: RMAs<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_rmaproduct_Changeownership"></a> msdyn_account_msdyn_rmaproduct_Changeownership
 
 Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_Changeownership](msdyn_rmaproduct.md#BKMK_msdyn_account_msdyn_rmaproduct_Changeownership) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rmaproduct<br />
-**ReferencingAttribute**: msdyn_changeownership<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_rmaproduct_Changeownership<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Change ownership
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rmaproduct|
+|ReferencingAttribute|msdyn_changeownership|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rmaproduct_Changeownership|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Change ownership<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_rmaproduct_ReturntoVendor"></a> msdyn_account_msdyn_rmaproduct_ReturntoVendor
 
 Same as msdyn_rmaproduct entity [msdyn_account_msdyn_rmaproduct_ReturntoVendor](msdyn_rmaproduct.md#BKMK_msdyn_account_msdyn_rmaproduct_ReturntoVendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rmaproduct<br />
-**ReferencingAttribute**: msdyn_returntovendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_rmaproduct_ReturntoVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Return to Vendor
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rmaproduct|
+|ReferencingAttribute|msdyn_returntovendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rmaproduct_ReturntoVendor|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Return to Vendor<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_rtv_Vendor"></a> msdyn_account_msdyn_rtv_Vendor
 
 Same as msdyn_rtv entity [msdyn_account_msdyn_rtv_Vendor](msdyn_rtv.md#BKMK_msdyn_account_msdyn_rtv_Vendor) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_rtv<br />
-**ReferencingAttribute**: msdyn_vendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_rtv_Vendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: RTVs
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_rtv|
+|ReferencingAttribute|msdyn_vendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_rtv_Vendor|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: RTVs<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_workorder_BillingAccount"></a> msdyn_account_msdyn_workorder_BillingAccount
 
 Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_BillingAccount](msdyn_workorder.md#BKMK_msdyn_account_msdyn_workorder_BillingAccount) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorder<br />
-**ReferencingAttribute**: msdyn_billingaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_workorder_BillingAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Billed Work Orders
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorder|
+|ReferencingAttribute|msdyn_billingaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_workorder_BillingAccount|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Billed Work Orders<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_workorder_ServiceAccount"></a> msdyn_account_msdyn_workorder_ServiceAccount
 
 Same as msdyn_workorder entity [msdyn_account_msdyn_workorder_ServiceAccount](msdyn_workorder.md#BKMK_msdyn_account_msdyn_workorder_ServiceAccount) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorder<br />
-**ReferencingAttribute**: msdyn_serviceaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_workorder_ServiceAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Restrict
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorder|
+|ReferencingAttribute|msdyn_serviceaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_workorder_ServiceAccount|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Restrict<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_msdyn_workorderresourcerestriction_Account"></a> msdyn_account_msdyn_workorderresourcerestriction_Account
 
 Same as msdyn_workorderresourcerestriction entity [msdyn_account_msdyn_workorderresourcerestriction_Account](msdyn_workorderresourcerestriction.md#BKMK_msdyn_account_msdyn_workorderresourcerestriction_Account) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_workorderresourcerestriction<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_msdyn_workorderresourcerestriction_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_workorderresourcerestriction|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_workorderresourcerestriction_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_opportunityproduct_ServiceAccount"></a> msdyn_account_opportunityproduct_ServiceAccount
 
 Same as opportunityproduct entity [msdyn_account_opportunityproduct_ServiceAccount](opportunityproduct.md#BKMK_msdyn_account_opportunityproduct_ServiceAccount) Many-To-One relationship.
-
-**ReferencingEntity**: opportunityproduct<br />
-**ReferencingAttribute**: msdyn_serviceaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_opportunityproduct_ServiceAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityproduct|
+|ReferencingAttribute|msdyn_serviceaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_opportunityproduct_ServiceAccount|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_product_DefaultVendor"></a> msdyn_account_product_DefaultVendor
 
 Same as product entity [msdyn_account_product_DefaultVendor](product.md#BKMK_msdyn_account_product_DefaultVendor) Many-To-One relationship.
-
-**ReferencingEntity**: product<br />
-**ReferencingAttribute**: msdyn_defaultvendor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_product_DefaultVendor<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseLabel
-- **Group**: Details
-- **Label**: Default Vendor
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|product|
+|ReferencingAttribute|msdyn_defaultvendor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_product_DefaultVendor|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Default Vendor<br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_quote_Account"></a> msdyn_account_quote_Account
 
 Same as quote entity [msdyn_account_quote_Account](quote.md#BKMK_msdyn_account_quote_Account) Many-To-One relationship.
-
-**ReferencingEntity**: quote<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_quote_Account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quote|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_quote_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_quotedetail_ServiceAccount"></a> msdyn_account_quotedetail_ServiceAccount
 
 Same as quotedetail entity [msdyn_account_quotedetail_ServiceAccount](quotedetail.md#BKMK_msdyn_account_quotedetail_ServiceAccount) Many-To-One relationship.
-
-**ReferencingEntity**: quotedetail<br />
-**ReferencingAttribute**: msdyn_serviceaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_quotedetail_ServiceAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quotedetail|
+|ReferencingAttribute|msdyn_serviceaccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_quotedetail_ServiceAccount|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_account_salesorder_Account"></a> msdyn_account_salesorder_Account
 
 Same as salesorder entity [msdyn_account_salesorder_Account](salesorder.md#BKMK_msdyn_account_salesorder_Account) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|salesorder|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_salesorder_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-**ReferencingEntity**: salesorder<br />
-**ReferencingAttribute**: msdyn_account<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_account_salesorder_Account<br />
-**AssociatedMenuConfiguration**:
 
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
+### <a name="BKMK_msdyn_account_msdyn_iotdevice_Account"></a> msdyn_account_msdyn_iotdevice_Account
 
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+Same as msdyn_iotdevice entity [msdyn_account_msdyn_iotdevice_Account](msdyn_iotdevice.md#BKMK_msdyn_account_msdyn_iotdevice_Account) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_iotdevice|
+|ReferencingAttribute|msdyn_account|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_account_msdyn_iotdevice_Account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_principalobjectattributeaccess"></a> account_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [account_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_account_principalobjectattributeaccess) Many-To-One relationship.
-
-**ReferencingEntity**: principalobjectattributeaccess<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: account_principalobjectattributeaccess<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|principalobjectattributeaccess|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|account_principalobjectattributeaccess|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_Faxes"></a> Account_Faxes
 
 Same as fax entity [Account_Faxes](fax.md#BKMK_Account_Faxes) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_Faxes<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_Faxes|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_slakpiinstance_account"></a> slakpiinstance_account
 
 Same as slakpiinstance entity [slakpiinstance_account](slakpiinstance.md#BKMK_slakpiinstance_account) Many-To-One relationship.
-
-**ReferencingEntity**: slakpiinstance<br />
-**ReferencingAttribute**: regarding<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: slakpiinstance_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|slakpiinstance|
+|ReferencingAttribute|regarding|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|slakpiinstance_account|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_PostFollows"></a> account_PostFollows
 
 Same as postfollow entity [account_PostFollows](postfollow.md#BKMK_account_PostFollows) Many-To-One relationship.
-
-**ReferencingEntity**: postfollow<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: account_PostFollows<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|postfollow|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|account_PostFollows|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_Tasks"></a> Account_Tasks
 
 Same as task entity [Account_Tasks](task.md#BKMK_Account_Tasks) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_Tasks<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_Tasks|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_connections1"></a> account_connections1
 
 Same as connection entity [account_connections1](connection.md#BKMK_account_connections1) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record1id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_connections1<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 100
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record1id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_connections1|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 100|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_customer_relationship_customer"></a> account_customer_relationship_customer
 
 Same as customerrelationship entity [account_customer_relationship_customer](customerrelationship.md#BKMK_account_customer_relationship_customer) Many-To-One relationship.
-
-**ReferencingEntity**: customerrelationship<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: account_customer_relationship_customer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 60
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|customerrelationship|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|account_customer_relationship_customer|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 60|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_userentityinstancedata_account"></a> userentityinstancedata_account
 
 Same as userentityinstancedata entity [userentityinstancedata_account](userentityinstancedata.md#BKMK_userentityinstancedata_account) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_account|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SocialActivity_PostAuthorAccount_accounts"></a> SocialActivity_PostAuthorAccount_accounts
 
 Same as socialactivity entity [SocialActivity_PostAuthorAccount_accounts](socialactivity.md#BKMK_SocialActivity_PostAuthorAccount_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: postauthoraccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: SocialActivity_PostAuthorAccount_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|postauthoraccount|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|SocialActivity_PostAuthorAccount_accounts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_DuplicateBaseRecord"></a> Account_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Account_DuplicateBaseRecord](duplicaterecord.md#BKMK_Account_DuplicateBaseRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: baserecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_DuplicateBaseRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|baserecordid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_DuplicateBaseRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SocialActivity_PostAuthor_accounts"></a> SocialActivity_PostAuthor_accounts
 
 Same as socialactivity entity [SocialActivity_PostAuthor_accounts](socialactivity.md#BKMK_SocialActivity_PostAuthor_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: postauthor<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: SocialActivity_PostAuthor_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|postauthor|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|SocialActivity_PostAuthor_accounts|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_SyncErrors"></a> Account_SyncErrors
 
 Same as syncerror entity [Account_SyncErrors](syncerror.md#BKMK_Account_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_MailboxTrackingFolder"></a> Account_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Account_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Account_MailboxTrackingFolder) Many-To-One relationship.
-
-**ReferencingEntity**: mailboxtrackingfolder<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_MailboxTrackingFolder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|mailboxtrackingfolder|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_MailboxTrackingFolder|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_BulkDeleteFailures"></a> Account_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Account_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Account_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_ActivityPointers"></a> Account_ActivityPointers
 
 Same as activitypointer entity [Account_ActivityPointers](activitypointer.md#BKMK_Account_ActivityPointers) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_ActivityPointers<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 20
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_ActivityPointers|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 20|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_Email_SendersAccount"></a> Account_Email_SendersAccount
 
 Same as email entity [Account_Email_SendersAccount](email.md#BKMK_Account_Email_SendersAccount) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: sendersaccount<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_Email_SendersAccount<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|sendersaccount|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_Email_SendersAccount|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_Appointments"></a> Account_Appointments
 
 Same as appointment entity [Account_Appointments](appointment.md#BKMK_Account_Appointments) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_Appointments<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_Appointments|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Socialprofile_customer_accounts"></a> Socialprofile_customer_accounts
 
 Same as socialprofile entity [Socialprofile_customer_accounts](socialprofile.md#BKMK_Socialprofile_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: socialprofile<br />
-**ReferencingAttribute**: customerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Socialprofile_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 50
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialprofile|
+|ReferencingAttribute|customerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Socialprofile_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 50|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_Emails"></a> Account_Emails
 
 Same as email entity [Account_Emails](email.md#BKMK_Account_Emails) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_Emails<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_Emails|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_activity_parties"></a> account_activity_parties
 
 Same as activityparty entity [account_activity_parties](activityparty.md#BKMK_account_activity_parties) Many-To-One relationship.
-
-**ReferencingEntity**: activityparty<br />
-**ReferencingAttribute**: partyid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: account_activity_parties<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activityparty|
+|ReferencingAttribute|partyid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|account_activity_parties|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_Phonecalls"></a> Account_Phonecalls
 
 Same as phonecall entity [Account_Phonecalls](phonecall.md#BKMK_Account_Phonecalls) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_Phonecalls<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_Phonecalls|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_customer_relationship_partner"></a> account_customer_relationship_partner
 
 Same as customerrelationship entity [account_customer_relationship_partner](customerrelationship.md#BKMK_account_customer_relationship_partner) Many-To-One relationship.
-
-**ReferencingEntity**: customerrelationship<br />
-**ReferencingAttribute**: partnerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: account_customer_relationship_partner<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|customerrelationship|
+|ReferencingAttribute|partnerid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|account_customer_relationship_partner|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_SocialActivities"></a> Account_SocialActivities
 
 Same as socialactivity entity [Account_SocialActivities](socialactivity.md#BKMK_Account_SocialActivities) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_SocialActivities<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_SocialActivities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_DuplicateMatchingRecord"></a> Account_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Account_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Account_DuplicateMatchingRecord) Many-To-One relationship.
-
-**ReferencingEntity**: duplicaterecord<br />
-**ReferencingAttribute**: duplicaterecordid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_DuplicateMatchingRecord<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|duplicaterecord|
+|ReferencingAttribute|duplicaterecordid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_DuplicateMatchingRecord|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_SharepointDocument"></a> Account_SharepointDocument
 
 Same as sharepointdocument entity [Account_SharepointDocument](sharepointdocument.md#BKMK_Account_SharepointDocument) Many-To-One relationship.
-
-**ReferencingEntity**: sharepointdocument<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_SharepointDocument<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 60
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|sharepointdocument|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_SharepointDocument|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 60|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_actioncard"></a> account_actioncard
 
 Same as actioncard entity [account_actioncard](actioncard.md#BKMK_account_actioncard) Many-To-One relationship.
-
-**ReferencingEntity**: actioncard<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_actioncard<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|actioncard|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_actioncard|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_AsyncOperations"></a> Account_AsyncOperations
 
 Same as asyncoperation entity [Account_AsyncOperations](asyncoperation.md#BKMK_Account_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_CustomerAddress"></a> Account_CustomerAddress
 
 Same as customeraddress entity [Account_CustomerAddress](customeraddress.md#BKMK_Account_CustomerAddress) Many-To-One relationship.
-
-**ReferencingEntity**: customeraddress<br />
-**ReferencingAttribute**: parentid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_CustomerAddress<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|customeraddress|
+|ReferencingAttribute|parentid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_CustomerAddress|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_Annotation"></a> Account_Annotation
 
 Same as annotation entity [Account_Annotation](annotation.md#BKMK_Account_Annotation) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_Annotation<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_Annotation|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_Letters"></a> Account_Letters
 
 Same as letter entity [Account_Letters](letter.md#BKMK_Account_Letters) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_Letters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_Letters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_RecurringAppointmentMasters"></a> Account_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Account_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Account_RecurringAppointmentMasters) Many-To-One relationship.
-
-**ReferencingEntity**: recurringappointmentmaster<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_RecurringAppointmentMasters<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|recurringappointmentmaster|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_RecurringAppointmentMasters|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_Account_Email_EmailSender"></a> Account_Email_EmailSender
 
 Same as email entity [Account_Email_EmailSender](email.md#BKMK_Account_Email_EmailSender) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: emailsender<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_Email_EmailSender<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|emailsender|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_Email_EmailSender|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_ProcessSessions"></a> Account_ProcessSessions
 
 Same as processsession entity [Account_ProcessSessions](processsession.md#BKMK_Account_ProcessSessions) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: Account_ProcessSessions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 110
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|Account_ProcessSessions|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 110|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_parent_account"></a> account_parent_account
 
 Same as account entity [account_parent_account](account.md#BKMK_account_parent_account) Many-To-One relationship.
-
-**ReferencingEntity**: account<br />
-**ReferencingAttribute**: parentaccountid<br />
-**IsHierarchical**: True<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_parent_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 40
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: RemoveLink
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|parentaccountid|
+|IsHierarchical|True|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_parent_account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 40|
+|CascadeConfiguration|Assign: Cascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_contact_customer_accounts"></a> contact_customer_accounts
 
 Same as contact entity [contact_customer_accounts](contact.md#BKMK_contact_customer_accounts) Many-To-One relationship.
-
-**ReferencingEntity**: contact<br />
-**ReferencingAttribute**: parentcustomerid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: contact_customer_accounts<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 50
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contact|
+|ReferencingAttribute|parentcustomerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|contact_customer_accounts|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 50|
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_account_master_account"></a> account_master_account
 
 Same as account entity [account_master_account](account.md#BKMK_account_master_account) Many-To-One relationship.
-
-**ReferencingEntity**: account<br />
-**ReferencingAttribute**: masterid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_master_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|masterid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_master_account|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_Account_SharepointDocumentLocation"></a> Account_SharepointDocumentLocation
 
 Same as sharepointdocumentlocation entity [Account_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Account_SharepointDocumentLocation) Many-To-One relationship.
-
-**ReferencingEntity**: sharepointdocumentlocation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: Account_SharepointDocumentLocation<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|sharepointdocumentlocation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|Account_SharepointDocumentLocation|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_account_connections2"></a> account_connections2
 
 Same as connection entity [account_connections2](connection.md#BKMK_account_connections2) Many-To-One relationship.
-
-**ReferencingEntity**: connection<br />
-**ReferencingAttribute**: record2id<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: account_connections2<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 100
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|connection|
+|ReferencingAttribute|record2id|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|account_connections2|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 100|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -6239,36 +5519,32 @@ Relationship details provided where the Account entity is the first entity in th
 
 ### <a name="BKMK_accountleads_association"></a> accountleads_association
 
-**IntersectEntityName**: accountleads<br />
-**Entity1LogicalName**: account<br />
+IntersectEntityName: accountleads<br />
+#### Entity 1
 
-- **Entity1IntersectAttribute**: leadid
-- **Entity1NavigationPropertyName**: accountleads_association
-- **Entity1AssociatedMenuConfiguration**:
+|Property|Value|
+|--------|-----|
+|IntersectAttribute|leadid|
+|IsCustomizable|False|
+|LogicalName|account|
+|NavigationPropertyName|accountleads_association|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
+#### Entity 2
 
-**Entity2LogicalName**: [lead](lead.md)<br />
+|Property|Value|
+|--------|-----|
+|LogicalName|lead|
+|IntersectAttribute|accountid|
+|NavigationPropertyName|accountleads_association|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
-- **Entity2IntersectAttribute**: accountid
-- **Entity2NavigationPropertyName**: accountleads_association
-- **Entity2AssociatedMenuConfiguration**:
-
-  - **Behavior**: DoNotDisplay
-  - **Group**: Details
-  - **Label**: 
-  - **Order**: 
-
-**IsCustomizable**: False<br />
 
 ### <a name="BKMK_listaccount_association"></a> listaccount_association
 
 See list Entity [listaccount_association](list.md#BKMK_listaccount_association) Many-To-Many Relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

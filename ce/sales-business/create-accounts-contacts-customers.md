@@ -1,12 +1,14 @@
 ---
-title: "Manage accounts and contacts in Dynamics 365 for Sales | Microsoft Docs"
-description: "Store information about your customers by using accounts and contacts in Dynamics 365 for Sales."
+title: "Manage accounts and contacts (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Store information about your customers by using accounts and contacts in Dynamics 365 for Sales, Preview."
 keywords: "Account; Contact; Customers; Sales"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 24ec7a53-f455-416f-800a-bc37c381c2e6
 author: shubhadaj
 ms.author: shujoshi
@@ -17,9 +19,11 @@ topic-status: Drafting
 
 # Manage your customers
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
+
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], accounts and contacts records types are used to store information about your customers.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, accounts and contacts records types are used to store information about your customers.
 
 Accounts are organizations you do business with, and contacts are individual people with whom you have a relationship. A contact may or may not be associated to an account.
 
@@ -94,5 +98,5 @@ To create or edit a contact
 
 ### See Also
 
-[Develop sales from lead to cash in Dynamics 365 for Sales](develop-sales-lead-to-cash.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Develop sales from lead to cash in Dynamics 365 for Sales, Preview](develop-sales-lead-to-cash.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

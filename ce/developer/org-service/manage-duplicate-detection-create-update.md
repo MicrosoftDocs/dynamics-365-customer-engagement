@@ -29,9 +29,9 @@ Use `SuppressDuplicateDetection` parameter and set its value to `false` to activ
 
 The example shown below illustrates how to create a duplicate record by suppressing duplicate detection. Change the value of `SuppressDuplicateDetection` parameter to `false` to prohibit creation of a duplicate record.
 
-[!code-csharp[DuplicateDetection#DuplicateDetectionCreate](../../snippets/csharp/CRMV8/duplicatedetection/cs/duplicatedetectioncreate.cs)]
+[!code-csharp[DuplicateDetection#DuplicateDetectionCreate](../../snippets/csharp/CRMV8/duplicatedetection/cs/duplicatedetectioncreate.cs#duplicatedetectioncreate)]
 
-Find the complete code sample here, [Sample: Use duplicate detection when creating and updating records](sample-use-duplicate-detection-when-creating-and-updating-records.md).
+Find the complete code sample, see [Sample: Use duplicate detection when creating and updating records](sample-use-duplicate-detection-when-creating-and-updating-records.md).
 
 ### See Also
 

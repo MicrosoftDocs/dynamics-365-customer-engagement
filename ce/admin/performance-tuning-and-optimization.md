@@ -18,6 +18,6 @@ manager: "brycho"
 ---
 # Performance tuning and optimization
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Use this information to help you plan and optimize application performance with [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  

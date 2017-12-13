@@ -1,12 +1,14 @@
 ---
-title: "Create and manage leads in Dynamics 365 for Sales | Microsoft Docs"
-description: "Track your potential sales as leads in Dynamics 365 for Sales."
+title: "Create and manage leads (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Track your potential sales as leads in Dynamics 365 for Sales, Preview."
 keywords: "Lead; manage; potential sale; qualify; convert"
-ms.date: 08/09/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 6a90c7e7-4f42-4420-9969-85171faf31e5
 author: shubhadaj
 ms.author: shujoshi
@@ -15,11 +17,13 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
- # Manage Leads in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Manage Leads in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], leads are potential sales. In other words, a lead is a potential customer who must be qualified or disqualified as a sales opportunity. When a lead is qualified, it can be converted to an opportunity, account, or contact.
+In [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview, leads are potential sales. In other words, a lead is a potential customer who must be qualified or disqualified as a sales opportunity. When a lead is qualified, it can be converted to an opportunity, account, or contact.
 
 You can collect leads from many different sources. For example, you can generate sales leads from marketing campaigns, inquiries from your website or mailing lists.
 
@@ -69,5 +73,5 @@ To disqualify, select the lead, and on the command bar, select **Disqualify**.
 
 
 ### See Also
-[Develop sales from lead to cash in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]](develop-sales-lead-to-cash.md)  
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Develop sales from lead to cash in [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview](develop-sales-lead-to-cash.md)  
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

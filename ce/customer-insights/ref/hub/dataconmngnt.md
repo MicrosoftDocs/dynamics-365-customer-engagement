@@ -2,8 +2,8 @@
 title: Data Connector Management APIs (Hub)
 description: These APIs enable management of Connectors and Connector Mappings.
 keywords: Customer Insights; Hub API; connector management; Connector; ConnectorMapping 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

@@ -2,8 +2,8 @@
 title: Update Hub (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Updates an existing Hub.  
 keywords: Customer Insights; ARM API; Hub; update
-author: Milar1
-ms.author: v-milaro
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/06/2017
 ms.topic: reference

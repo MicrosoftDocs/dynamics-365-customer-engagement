@@ -2,8 +2,8 @@
 title: Delete Data Connector Mapping (Hub)
 description: Deletes the specified Data Connector Mapping.
 keywords: Customer Insights; Hub API; Data Connector Mapping; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/06/2017
 ms.topic: reference

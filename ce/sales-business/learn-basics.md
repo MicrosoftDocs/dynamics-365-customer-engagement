@@ -1,12 +1,14 @@
 ---
-title: "Learn the basics of Dynamics 365 for Sales | Microsoft Docs"
-description: "Quickly onboard and learn about Dynamics 365 for Sales and its user interface."
+title: "Learn the basics (Dynamics 365 for Sales, Preview) | Microsoft Docs"
+description: "Quickly onboard and learn about Dynamics 365 for Sales, Preview and its user interface."
 keywords: "Get started; understand data; quick create; Sales"
-ms.date: 07/15/2017
-ms.service: dynamics-365
+ms.date: 12/15/2017
+ms.service: "crm-online"
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.custom: Sales
 ms.assetid: 99a199cf-cc42-4bdb-a73c-825d07bfb82a
 author: shubhadaj
 ms.author: shujoshi
@@ -15,7 +17,9 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Learn the basics of [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)]
+# Learn the basics of [!INCLUDE[pn-sales-business-doc-name](../includes/pn-sales-business-doc-name.md)], Preview
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-update-9-0-0.md)]
 
 [!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -99,4 +103,4 @@ There are three ready-to-use business processes that you can use as you move you
 
 
 ### See Also
-[Dynamics 365 Sales Overview](overview-dynamics-365-for-sales.md)
+[Overview of Dynamics 365 for Sales, Preview](overview-dynamics-365-for-sales.md)

@@ -24,7 +24,7 @@ Entity views are special saved queries that retrieve data by using a specific fi
   
  An Entity view is different from a `UserQuery`. A user query, called a Saved view in the application, is owned by an individual user, can be assigned and shared with other users, and can be viewed by other users depending on the query's access privileges. This is appropriate for frequently used queries that span entity types and queries that perform aggregation. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [UserQuery (Saved View) Entity](../userquery-saved-view-entity.md)  
   
- You can also use the customization tool in [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] to customize views. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and edit views](https://technet.microsoft.com/library/dn509578.aspx)  
+ You can also use the customization tool in [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] to customize views. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and edit views](../../customize/create-edit-views.md)  
   
 <a name="BKMK_TypesOfViews"></a>   
 ## Types of views  
@@ -130,7 +130,7 @@ System.String layoutXml =
 </grid>";  
 ```  
   
- The [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function for displaying custom icons and tooltip text expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text for the icon in multiple languages. For more information about the languages supported by CRM, see [Enable languages](https://technet.microsoft.com/library/dn832148.aspx) and [Install or upgrade Language Packs for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs Assigned by Microsoft](https://go.microsoft.com/fwlink/?linkid=829588).  
+ The [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function for displaying custom icons and tooltip text expects the following two arguments: the entire row object specified in layoutxml and the calling user’s Locale ID (LCID). The LCID parameter enables you to specify tooltip text for the icon in multiple languages. For more information about the languages supported by CRM, see [Enable additional languages](../../customize/enable-additional-languages.md) and [Install or upgrade Language Packs for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx). For a list of locale ID (LCID) values that you can use in your code, see [Locale IDs Assigned by Microsoft](https://go.microsoft.com/fwlink/?linkid=829588).  
   
  Assuming you will most likely be adding custom icons for an option set type of attribute as it has a limited set of predefined options, make sure you use the integer value of the options instead of label to avoid breaking the code due to changes in the localized label string. Also, in your JavaScript function, specify just the name of an image web resource that you want to use as an icon for a value in the attribute. The image should be of 16x16 pixels size; larger images will be automatically scaled down to 16x16 pixels size.  
   

@@ -1,5 +1,5 @@
 ---
-title: "Manage event logistics in Dynamics 365 for Marketing | Microsoft Docs  "
+title: "Manage event logistics (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "How to manage event logistics (including vendors, hotels, room allocations, and reservations) in Dynamics 365 for Marketing"
 keywords: "events; event management; logistics; hotel; reservation"
 author: kamaybac
@@ -16,7 +16,9 @@ ms.reviewer: renwe
 ---
 # Manage attendee logistics and accommodation availability
 
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use the entities in the **Logistics** area to provide information that can help attendees from farther away to plan accommodation for their trip. Register local hotels, record their contact information, allocate sets of rooms that will be made available to attendees, and take reservations for the allocated rooms. You can also register various other types of attendee-facing vendors here, such as airlines, car rentals, food caterers, and more.
 
