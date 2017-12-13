@@ -24,9 +24,9 @@ Custom channel is exposed as a “tile” in the customer journey designer. You 
 
 ## Define the Tile XML file
 
-Define tile properties of the custom Tile in in an XML file. The XML file name should be in the following format: **<SolutionPublisherPrefix>_<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
+Define tile properties of the custom Tile in in an XML file. The XML file name should be in the following format: **\<SolutionPublisherPrefix>_\<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
 
-For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml**. 
+For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml** 
 
 ### Sample Tile XML file 
 
@@ -147,13 +147,13 @@ The XML file has the following elements:
     </tr>
     <tr>
     <td>ComplianceField</td>
-    <td>Contains a boolean attribute of the [Contact]((../../developer/entities/contact.md) entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/>
+    <td>Contains a boolean attribute of the [Contact](../../developer/entities/contact.md) entity whose value determines whether an instance of the Custom Channel Activity (<b>msdyncrm_customerjourneycustomchannelactivity</b>) entity is created when the Contact record goes through a customer journey.<br/><br/>
     
-    For example, if you set the value of this element to [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone):<br/>
+    For example, if you set the value of this element to [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone):<br/><br/>
 
     `<ComplianceField>donotphone</ComplianceField>`
  
-    <br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone) attribute for the contact record is <b>false</b>.
+    <br/><br/>The value of this attribute will be checked for a Contact record while going through a customer journey and an instance of the Custom Channel Activity entity will be created only if the value of the [donotphone](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entities/contact#BKMK_DoNotPhone) attribute for the contact record is <b>false</b>.
     </td>
     </tr>
     <tr>
@@ -197,9 +197,11 @@ The XML file has the following elements:
 
 ## Define the Tile CSS File
 
-Define the style of the custom channel tile in a CSS file. Makes sure that your Tile CSS file name matches the value that you specified in the `cssFileName` property of the Tile XML file.
+Define the style of the custom channel tile in a CSS file. Make sure that your Tile CSS file name aheres to the file naming convention for the Tile XML file, and matches the value that you specified in the `cssFileName` property of the Tile XML file.
 
-The following is an example of a CSS file where you define the font styles:
+For example, in this case, your Tile CSS file name will be: **sample_SpecialTileCustomerJourneyDesignerTileConfig.css**
+
+The following is an example of a CSS file where the font styles are defined using the same prefix name (sample_SpeciaTile) that you used in the Tile XML file earlier to refer to the fint styles:
 
 ```css
 @font-face {
