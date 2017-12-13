@@ -20,7 +20,92 @@ manager: "amyla"
 
 [!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-TODO: Add content
+Custom channel is exposed as a “tile” in the customer journey designer. You define the tile using 2 files: an XML file and a CSS file.
+
+## Define the Tile XML file
+
+Define tile properties of the custom Tile in in an XML file. The XML file name should be in the following format: **<SolutionPublisherPrefix>_<FileNamePrefix>CustomerJourneyDesignerTileConfig.xml**.
+
+For example if you want to use **SpecialTile** as the name for your XML file then the file name will be the following assuming the [solution publisher prefix](../../customize/change-solution-publisher-prefix.md) in your Customer Engagement instance is "sample": **sample_SpecialTileCustomerJourneyDesignerTileConfig.xml**. 
+
+### Sample Tile XML file 
+
+The following is a sample Tile XML file. Description of the elements in the XML file is available later in this topic:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file name should only contain alpha-numeric characters and underscore -->
+<!-- format: <fileNamePrefix>CustomerJourneyDesignerTileConfig.xml> -->
+<LibraryTile>
+  <!-- mandatory -->
+  <!-- icon: CSS class defining your tile icon-->
+  <!-- fontFamily: CSS class definiing font-family for your icon-->
+  <!-- cssFileName: your CSS file name in CRM-->
+  <Definition icon="sample_SpecialTile" fontFamily="sample_SpecialTileSymbolFont" cssFileName="sample_SpecialTileCustomerJourneyDesignerTileConfig.css" />
+  <!-- mandatory -->
+  <ChannelProperties>
+    <!-- mandatory -->
+    <EntityType>sample_specialmessage</EntityType>
+    <EntitySetName>sample_specialmessages</EntitySetName>
+    <TitleFieldName>sample_name</TitleFieldName>
+    <ComplianceField>donotphone</ComplianceField>
+    <!-- optional -->
+    <!-- Lookup view id for your entity-->
+    <LookupViewId>4112769C-F12D-4F63-B8C3-9068FECBB4E9</LookupViewId>
+    <!--Insights form id for your entity -->
+    <InsightsMainFormId>6370c410-6dd5-43f5-b1d1-7b757992d2de</InsightsMainFormId>
+    <!--Quick view form id for your entity -->
+    <QuickViewFormId>404BA31B-2C12-4233-8711-804B78DE1267</QuickViewFormId>
+  </ChannelProperties>
+  <!-- optional -->
+  <ResponseTypes>
+    <ResponseType id="sent">
+      <Labels>
+        <!-- Labels should always have a Label for 1033 -->
+        <Label locId="1033">Sent</Label>
+        <Label locId="1031">[Sent]</Label>
+      </Labels>
+    </ResponseType>
+    <ResponseType id="delivered">
+      <Labels>
+        <!-- Labels should always have a Label for 1033 -->
+        <Label locId="1033">Delivered</Label>
+        <Label locId="1031">[Delivered]</Label>
+      </Labels>
+    </ResponseType>
+    <ResponseType id="keyword" custom="True">
+      <!-- there should be only one response type with attribute custom=true -->
+      <Labels>
+        <!-- Labels should always have a Label for 1033 -->
+        <Label locId="1033">Keyword match</Label>
+        <Label locId="1031">[Keyword match]</Label>
+      </Labels>
+    </ResponseType>
+  </ResponseTypes>
+  <!-- mandatory -->
+  <Labels>
+    <!-- Labels should always have a Label for 1033 -->
+    <Label locId="1033">Special</Label>
+    <Label locId="1031">[Special]</Label>
+  </Labels>
+  <!-- mandatory -->
+  <Tooltips>
+    <!-- Tooltips should always have a tooltip for 1033 -->
+    <!-- mandatory -->
+    <Tooltip locId="1033">Custom Tile tool tip</Tooltip>
+    <!-- optional -->
+    <Tooltip locId="1031">[Custom Tile tool tip]</Tooltip>
+  </Tooltips>
+</LibraryTile>
+```
+
+
+
+
+
+
+
+
 
 
 > [!div class="nextstepaction"]
