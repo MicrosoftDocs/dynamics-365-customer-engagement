@@ -392,22 +392,22 @@ Dynamics 365 App for Outlook
 -   Initial loading might take some time.
 
 -   When selecting **See more** to see more entities, Outlook 2013 and Outlook
-    2016 display an add-in error, Chrome and IE 11 display a "long running
+    2016 display an add-in error, Chrome and Internet Explorer 11 display a "long running
     script" error message, and Edge displays a blank screen for a while and then
     navigates to the previous page.
 
 -   On Outlook 2013 and Outlook 2016, Outlook frequently displays "add-in
     error."
 
--   On IE 11, IE frequently displays a "long running script" error message.
+-   On Internet Explorer 11, Internet Explorer frequently displays a "long running script" error message.
 
 -   When navigating to a record's main form, Outlook 2013 and Outlook 2016
-    display an add-in error; in Chrome and IE 11 the app displays a "Script
+    display an add-in error; in Chrome and Internet Explorer 11 the app displays a "Script
     Error" message.
 
 -   When entering text in the **Look for Records** field when you set regarding,
     in Outlook 2013 and Outlook 2016, some of the characters disappear. On
-    Chrome, IE 11, and Edge the lookup sometimes stays in the "Loading…" state
+    Chrome, Internet Explorer 11, and Edge the lookup sometimes stays in the "Loading…" state
     forever.
 
 -   The Back button doesn't work on Outlook 2016 and Outlook 2013. On browsers,
