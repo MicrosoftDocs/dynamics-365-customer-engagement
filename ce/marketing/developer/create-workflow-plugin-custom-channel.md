@@ -1,6 +1,6 @@
 ---
 title: "Step 2: Create a workflow or plug-in to implement your custom logic (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Creating a custom channel for customer journeys involves using the extensibility infrastructure in Dynamics 365 Customer Engagement such as custom entities, workflows, plugins, and web resources, which allows developers and partners to leverage their existing knowledge of Customer Engagement."
+description: "Partners can create a workflow or plug-in to implement their custom logic for a custom channel in Dynamics 365 for Marketing."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.service: "crm-online"
