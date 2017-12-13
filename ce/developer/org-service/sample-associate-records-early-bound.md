@@ -2,7 +2,7 @@
 title: "Sample: Associate records (early bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to associate a contact with three account records using the IOrganizationService.EntityReferenceCollection) method. It also shows how to use the IOrganizationService.EntityReferenceCollection) method"
 keywords: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples

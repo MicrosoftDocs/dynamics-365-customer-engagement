@@ -2,7 +2,7 @@
 title: "Sample: Initialize a record from an existing record (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the IOrganizationService.InitializeFromRequest message to create new records from an existing record"
 keywords: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -15,7 +15,6 @@ manager: jdaly
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 15
 topic-status: Drafting
 ---
 
