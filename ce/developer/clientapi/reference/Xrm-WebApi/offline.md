@@ -15,12 +15,14 @@ manager: "amyla"
 
 [!INCLUDE[./includes/offline-description.md](./includes/offline-description.md)] 
 
+For information about the mobile offline feature, see [Configure mobile offline synchronization to allow users to work in offline mode on their mobile device](../../../../mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
+
 `var offlineWebApi = Xrm.WebApi.offline;`
 
 > [!NOTE]
-> You must use **Xrm.WebApi.offline** instead of the [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated) **Xrm.Mobile.Offline** namespace to create and manage records in the mobile clients while working in the offline mode.
+> Use **Xrm.WebApi.offline** instead of the [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated) **Xrm.Mobile.Offline** namespace to create and manage records in the mobile clients while working in the offline mode.
 
-The **offlineWebApi** object provides the following methods. When in the offline mode, these methods will work only for entities that are enabled for mobile offline synchronization.
+The **offlineWebApi** object provides the following methods. When in the offline mode, these methods will work only for entities that are enabled for mobile offline synchronization and available in current user’s mobile offline profile.
 
 - [createRecord](createRecord.md)
 - [deleteRecord](deleteRecord.md)
@@ -30,7 +32,7 @@ The **offlineWebApi** object provides the following methods. When in the offline
 - [updateRecord](updateRecord.md)
 
 > [!IMPORTANT]
-> While creating or updating record in the offline mode, only basic validation is performed on the input data. Basic validation includes things such as ensuring that the entity attribute name specified is in lower case and does exist for an entity, checking for data type mismatch for the specified attribute value, preventing records getting created with the same GUID value, checking whether the related entity is offline enabled when retrieving related entity records, and validating if the record that you want to retrieve, update, or delete actually exists in the offline data store. Business-level validations happen only when you are connected to the server and the data is synchronized. A record is created or updated in Customer Engagement only if the input data is completely valid.
+> While creating or updating record in the offline mode, only basic validation is performed on the input data. Basic validation includes things such as ensuring that the entity attribute name specified is in lower case and does exist for an entity, checking for data type mismatch for the specified attribute value, preventing records getting created with the same GUID value, checking whether the related entity is offline enabled when retrieving related entity records, and validating if the record that you want to retrieve, update, or delete actually exists in the offline data store. Business-level validations happen only when you are connected to the server and the data is synchronized. A record is created or updated only if the input data is completely valid.
 
 ### Related topics
 
