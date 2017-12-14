@@ -2,7 +2,7 @@
 title: "Understand user roles in Social Engagement | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Social Engagement."
 keywords: "permissions, user roles, interaction role, configuration role"
-ms.date: 10/17/2017
+ms.date: 12/14/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -78,6 +78,8 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
 |View automation rules|Yes|Yes|Yes|  
 |Create custom tags|No|Yes|Yes|  
 |Edit tags on posts (confirm  tags, add tags, remove tags)|Yes|Yes|Yes|  
+|Create new author tags|No|Yes|Yes|  
+|Change or remove author tags|Yes|Yes|Yes|  
   
 ### See Also  
  [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   
