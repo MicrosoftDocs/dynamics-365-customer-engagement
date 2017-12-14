@@ -2,8 +2,8 @@
 title: Link Management APIs (Hub)
 description: Enables Link management on a Hub.
 keywords: Customer Insights; Hub API; Link management 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/02/2016
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: "Sample: Share a record using an access team (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to allow access to a record using an access team. All members of the team receive the same access to the record as is granted to the team."
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples
@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. [Download the Sample: Share a record using an access team (early bound)](https://code.msdn.microsoft.com/Sample-Share-a-record-2e976c16).  
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the Sample: [Work with early bound entity classes in code](https://code.msdn.microsoft.com/Work-with-early-bound-6914f6e7).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

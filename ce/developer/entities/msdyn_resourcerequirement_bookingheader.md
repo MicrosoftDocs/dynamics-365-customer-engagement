@@ -1,7 +1,7 @@
 ---
 title: "msdyn_resourcerequirement_bookingheader Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_resourcerequirement_bookingheader entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -13,7 +13,8 @@ manager: "jdaly"
 ---
 # msdyn_resourcerequirement_bookingheader Entity Reference
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
+
 
 ## Messages
 
@@ -23,17 +24,20 @@ manager: "jdaly"
 
 ## Entity Properties
 
-**DisplayName**: <br />
-**DisplayCollectionName**: <br />
-**SchemaName**: msdyn_resourcerequirement_bookingheader<br />
-**CollectionSchemaName**: <br />
-**LogicalName**: msdyn_resourcerequirement_bookingheader<br />
-**LogicalCollectionName**: <br />
-**EntitySetName**: msdyn_resourcerequirement_bookingheaderset<br />
-**PrimaryIdAttribute**: msdyn_resourcerequirement_bookingheaderid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName||
+|DisplayCollectionName||
+|DisplayName||
+|EntitySetName|msdyn_resourcerequirement_bookingheaderset|
+|IsBPFEntity|False|
+|LogicalCollectionName||
+|LogicalName|msdyn_resourcerequirement_bookingheader|
+|OwnershipType|None|
+|PrimaryIdAttribute|msdyn_resourcerequirement_bookingheaderid|
+|PrimaryNameAttribute||
+|SchemaName|msdyn_resourcerequirement_bookingheader|
+
 <a name="read-only-attributes"></a>
 ## Read-only attributes
 These attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
@@ -46,48 +50,56 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_bookableresourcebookingheaderid"></a> bookableresourcebookingheaderid
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: bookableresourcebookingheaderid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|bookableresourcebookingheaderid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_resourcerequirement_bookingheaderId"></a> msdyn_resourcerequirement_bookingheaderId
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_resourcerequirement_bookingheaderid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourcerequirement_bookingheaderid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_msdyn_resourcerequirementid"></a> msdyn_resourcerequirementid
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: msdyn_resourcerequirementid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_resourcerequirementid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytomany"></a>
 
@@ -100,7 +112,7 @@ Relationship details provided where the msdyn_resourcerequirement_bookingheader 
 
 See msdyn_resourcerequirement Entity [msdyn_resourcerequirement_bookingheader](msdyn_resourcerequirement.md#BKMK_msdyn_resourcerequirement_bookingheader) Many-To-Many Relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

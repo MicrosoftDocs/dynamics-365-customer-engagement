@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Understand the public perception using sentiment analysis
-View and understand the sentiments in the social chat related to the posts that are found by your search topics. Using the **Sentiments** page, [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] calculates the sentiment value of social posts with natural-language processing and machine learning techniques. From the details displayed on this page, you can understand the positive, negative, or neutral sentiments and also the volume and the sources they come from.  
+View and understand the sentiments in the social chat related to the posts that are found by your search topics. Using the **Sentiments** page, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] calculates the sentiment value of social posts with natural-language processing and machine learning techniques. From the details displayed on this page, you can understand the positive, negative, or neutral sentiments and also the volume and the sources they come from.  
   
 Navigate to this page from **Analytics > Sentiments**.  
   

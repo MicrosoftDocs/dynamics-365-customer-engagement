@@ -2,8 +2,8 @@
 title: Segmentation Management APIs (ARM)
 description: Enables management of Profile collections (Segments).
 keywords: Customer Insights; Hub API; Segmentation API
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/05/2017
 ms.topic: reference

@@ -61,11 +61,11 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 4.	Select **Save** to enable other sections on the form.
 
-5.	In the **Stakeholders** section, select **+ New Connection** to add a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making.
+5.	In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the box that appears, enter a name or select the Lookup icon to choose from a list of suggestions. When you have entered the name you want, select the Enter key. To create a new contact, select **+ New**.
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you have entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Click the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
 
-6.	In the **Sales Team** section, select **+ New Connection** to add a member of the sales team from your organization.
+6.	In the **Sales Team** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a member of the sales team (from your organization).
 
 7.	In the **Competitors** section, select **Add Existing Competitor** to add a competitor who's competing with your organization for this opportunity.
 
@@ -158,9 +158,11 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 5.  Add any notes and activities (for example, phone calls or emails) related to this opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Keep track of notes, tasks, calls, or email with activities](../basics/work-with-activities.md)  
   
-6.  To add stakeholders, in the **Stakeholders** area, select **+**.  
+6.  In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+
+    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Click the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.   
   
-7.  To add sales team members, in the **Sales Team** area, select **+**.  
+7.  In the **Sales Team** section, select the**Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button"), and then select **+ New Connection** to add a member of the sales team (from your organization).  
   
 8.  To add competitors, in the **Competitors** area, select **+**.  
   

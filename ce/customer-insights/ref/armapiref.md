@@ -2,8 +2,8 @@
 title: Azure Resource Manager (ARM) API Reference
 description: These APIs are exposed by the Customer Insights Azure Resource Provider.
 keywords: Customer Insights; ARM API;
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

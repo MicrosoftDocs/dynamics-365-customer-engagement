@@ -17,7 +17,7 @@ ms.author: "jimholtz"
 ---
 # About the Microsoft Cloud Canada datacenter
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 <a name="BKMK_NewCloud"></a>   
 ## New Microsoft Cloud Services in Canada  
@@ -55,7 +55,7 @@ ms.author: "jimholtz"
  Yes, the standard [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] service level agreements (SLAs) will apply to the Canada regions, just as they do in our other regions around the world.  
   
 > [!NOTE]
->  The SLA for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] doesn't cover [!INCLUDE[pn_netbreeze_long](../../includes/pn-netbreeze-long.md)].  
+>  The SLA for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] doesn't cover [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)].  
   
 ### Will Microsoft Dynamics Marketing, Social Engagement, and Parature be available in the Canada datacenters?  
  These services are available for purchase in Canada, however, these services are provisioned regionally at this time.  

@@ -21,7 +21,7 @@ Using activity maps, you can view real-time posts by geographical location on an
 >  You can only visualize those posts on an activity map that have location data for posts or authors. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See the locations for the posts](analytics-location.md), [Analyze the sources for the posts](analytics-sources.md)  
   
 ## Role privileges  
-Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], regardless of user role or license type. Activity maps are saved and displayed separately for every user. You can only view the activity maps you create.  
+Every user can create activity maps in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], regardless of user role or license type. Activity maps are saved and displayed separately for every user. You can only view the activity maps you create.  
   
 <a name="createactivitymap"></a>   
 ## Create an activity map  

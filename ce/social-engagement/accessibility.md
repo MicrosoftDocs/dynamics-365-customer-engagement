@@ -20,7 +20,7 @@ manager: sakudes
   
 For more information about features, products, and services that make [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] products more accessible for all users, open **[!INCLUDE[pn_Control_Panel](../includes/pn-control-panel.md)]**, click **Ease of access**, and then click **Ease of access Center**.  
   
-The [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] application supports zooming on the user interface to 200% of the original screen size and works with the **High Contrast** settings in either your browser or operating system.  
+The [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] application supports zooming on the user interface to 200% of the original screen size and works with the **High Contrast** settings in either your browser or operating system.  
   
 For accessibility information for specific browsers, visit the following websites:  
   

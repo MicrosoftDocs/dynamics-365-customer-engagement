@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Billing FAQs for Dynamics 365 (online)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] often hear similar questions from our customers. To help answer your billing and subscription management questions as quickly as possible, we’ve put together this list of the most frequently asked questions.  
   
@@ -34,7 +34,7 @@ Billing support agents for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcr
  If you sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] account with a user name that follows this format, `email@live.com`, you’re on the [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)] commerce transaction platform. To find a contact in billing and subscription support, you can submit a query to CRMAOC@microsoft.com.  
   
 ## What billing activities do I need to contact Dynamics 365 (online) Billing Support to manage?  
- The instructions in this section apply equally to subscriptions purchased for [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)], [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], as well as [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
+ The instructions in this section apply equally to subscriptions purchased for [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)], [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], as well as [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
  You can resolve many billing-related issues by yourself, but there are some requests that only billing support can resolve. Please refer to the [Billing support](../admin/billing-support.md) page if you want to do any of the following:  
   

@@ -2,8 +2,8 @@
 title: Delete Relationship Link (Hub)
 description: Deletes a Relationship Link type.  
 keywords: Customer Insights; Hub API; relationship link; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/12/2017
 ms.topic: reference

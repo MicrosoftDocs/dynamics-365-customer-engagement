@@ -1,7 +1,7 @@
 ---
 title: "UserEntityInstanceData Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the UserEntityInstanceData entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # UserEntityInstanceData Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Per User item instance data
 
@@ -30,17 +28,20 @@ Per User item instance data
 
 ## Entity Properties
 
-**DisplayName**: User Entity Instance Data<br />
-**DisplayCollectionName**: User Entity Instance Data<br />
-**SchemaName**: UserEntityInstanceData<br />
-**CollectionSchemaName**: UserEntityInstanceDatas<br />
-**LogicalName**: userentityinstancedata<br />
-**LogicalCollectionName**: userentityinstancedatas<br />
-**EntitySetName**: userentityinstancedataset<br />
-**PrimaryIdAttribute**: userentityinstancedataid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|UserEntityInstanceDatas|
+|DisplayCollectionName|User Entity Instance Data|
+|DisplayName|User Entity Instance Data|
+|EntitySetName|userentityinstancedataset|
+|IsBPFEntity|False|
+|LogicalCollectionName|userentityinstancedatas|
+|LogicalName|userentityinstancedata|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|userentityinstancedataid|
+|PrimaryNameAttribute||
+|SchemaName|UserEntityInstanceData|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -70,257 +71,299 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_CommonEnd"></a> CommonEnd
 
-**Description**: Common end date<br />
-**DisplayName**: Common end date<br />
-**LogicalName**: commonend<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Common end date|
+|DisplayName|Common end date|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|commonend|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CommonStart"></a> CommonStart
 
-**Description**: Common start date<br />
-**DisplayName**: Common start date<br />
-**LogicalName**: commonstart<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Common start date|
+|DisplayName|Common start date|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|commonstart|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_DueDate"></a> DueDate
 
-**Description**: Due Date<br />
-**DisplayName**: Due Date<br />
-**LogicalName**: duedate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Due Date|
+|DisplayName|Due Date|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|duedate|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_FlagDueBy"></a> FlagDueBy
 
-**Description**: Flag due by<br />
-**DisplayName**: Flag due by<br />
-**LogicalName**: flagdueby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Flag due by|
+|DisplayName|Flag due by|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|flagdueby|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_FlagRequest"></a> FlagRequest
 
-**Description**: Flag request<br />
-**DisplayName**: Flag Request<br />
-**LogicalName**: flagrequest<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|Flag request|
+|DisplayName|Flag Request|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|flagrequest|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_FlagStatus"></a> FlagStatus
 
-**Description**: Flag status.<br />
-**DisplayName**: <br />
-**LogicalName**: flagstatus<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Flag status.|
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|flagstatus|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ObjectId"></a> ObjectId
 
-**Description**: Unique identifier of the source record.<br />
-**DisplayName**: Object Id<br />
-**LogicalName**: objectid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: account,accountleads,activitymimeattachment,activityparty,annotation,appointment,asyncoperation,attachment,attributemap,audit,bookableresource,bookableresourcebooking,bookableresourcebookingexchangesyncidmapping,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,bulkdeletefailure,bulkdeleteoperation,bulkoperation,bulkoperationlog,businessunitmap,businessunitnewsarticle,calendar,calendarrule,campaign,campaignactivity,campaignactivityitem,campaignitem,campaignresponse,channelaccessprofile,channelaccessprofilerule,characteristic,childincidentcount,clientupdate,columnmapping,commitment,competitor,competitoraddress,competitorproduct,competitorsalesliterature,connection,connectionrole,connectionroleassociation,connectionroleobjecttypecode,constraintbasedgroup,contact,contactinvoices,contactleads,contactorders,contactquotes,contract,contractdetail,contracttemplate,convertrule,customeraddress,customeropportunityrole,customerrelationship,dependency,dependencynode,discount,discounttype,displaystring,displaystringmap,documentindex,duplicaterecord,duplicaterule,duplicaterulecondition,dynamicproperty,dynamicpropertyassociation,dynamicpropertyinstance,dynamicpropertyoptionsetitem,email,emailhash,emailsearch,entitlement,entitlementchannel,entitlementcontacts,entitlementproducts,entitlementtemplate,entitlementtemplatechannel,entitlementtemplateproducts,entitymap,equipment,externalparty,fax,fieldpermission,fieldsecurityprofile,filtertemplate,goal,goalrollupquery,import,importdata,importentitymapping,importfile,importjob,importlog,importmap,incident,incidentknowledgebaserecord,incidentresolution,internaladdress,invaliddependency,invoice,invoicedetail,isvconfig,kbarticle,kbarticlecomment,kbarticletemplate,knowledgearticle,knowledgearticleincident,knowledgebaserecord,lead,leadaddress,leadcompetitors,leadproduct,leadtoopportunitysalesprocess,letter,license,list,listmember,lookupmapping,mailbox,mailmergetemplate,metric,msdyn_accountpricelist,msdyn_actual,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_agreementsubstatus,msdyn_approval,msdyn_batchjob,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingchange,msdyn_bookingjournal,msdyn_bookingrule,msdyn_bookingsetupmetadata,msdyn_bookingtimestamp,msdyn_bpf_2c5fe86acc8b414b8322ae571000c799,msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b,msdyn_bpf_665e73aa18c247d886bfc50499c73b82,msdyn_bpf_989e9b1857e24af18787d5143b67523b,msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39,msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d,msdyn_characteristicreqforteammember,msdyn_clientextension,msdyn_configuration,msdyn_contactpricelist,msdyn_contractlineinvoiceschedule,msdyn_contractlinescheduleofvalue,msdyn_customerasset,msdyn_dataexport,msdyn_delegation,msdyn_estimate,msdyn_estimateline,msdyn_expense,msdyn_expensecategory,msdyn_expensereceipt,msdyn_fact,msdyn_fieldcomputation,msdyn_fieldservicepricelistitem,msdyn_fieldservicesetting,msdyn_fieldservicesystemjob,msdyn_findworkevent,msdyn_incidenttype,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_incidenttypeservicetask,msdyn_integrationjob,msdyn_integrationjobdetail,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_invoicefrequency,msdyn_invoicefrequencydetail,msdyn_invoicelinetransaction,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_journal,msdyn_journalline,msdyn_mlresultcache,msdyn_opportunitylineresourcecategory,msdyn_opportunitylinetransaction,msdyn_opportunitylinetransactioncategory,msdyn_opportunitylinetransactionclassificatio,msdyn_opportunitypricelist,msdyn_orderinvoicingdate,msdyn_orderinvoicingproduct,msdyn_orderinvoicingsetup,msdyn_orderinvoicingsetupdate,msdyn_orderlineresourcecategory,msdyn_orderlinetransaction,msdyn_orderlinetransactioncategory,msdyn_orderlinetransactionclassification,msdyn_orderpricelist,msdyn_organizationalunit,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_postconfig,msdyn_postruleconfig,msdyn_priority,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectapproval,msdyn_projectparameter,msdyn_projectparameterpricelist,msdyn_projectpricelist,msdyn_projecttask,msdyn_projecttaskdependency,msdyn_projecttaskstatususer,msdyn_projectteam,msdyn_projectteammembersignup,msdyn_projecttransactioncategory,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_quotebookingsetup,msdyn_quoteinvoicingproduct,msdyn_quoteinvoicingsetup,msdyn_quotelineanalyticsbreakdown,msdyn_quotelineinvoiceschedule,msdyn_quotelineresourcecategory,msdyn_quotelinescheduleofvalue,msdyn_quotelinetransaction,msdyn_quotelinetransactioncategory,msdyn_quotelinetransactionclassification,msdyn_quotepricelist,msdyn_requirementcharacteristic,msdyn_requirementorganizationunit,msdyn_requirementresourcecategory,msdyn_requirementresourcepreference,msdyn_requirementstatus,msdyn_resourceassignment,msdyn_resourceassignmentdetail,msdyn_resourcecategorypricelevel,msdyn_resourcepaytype,msdyn_resourcerequest,msdyn_resourcerequirement,msdyn_resourcerequirementdetail,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rolecompetencyrequirement,msdyn_roleutilization,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_scheduleboardsetting,msdyn_schedulingparameter,msdyn_servicetasktype,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_taxcodedetail,msdyn_timeentry,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffcalendar,msdyn_timeoffrequest,msdyn_transactioncategory,msdyn_transactioncategoryclassification,msdyn_transactioncategoryhierarchyelement,msdyn_transactioncategorypricelevel,msdyn_transactionconnection,msdyn_transactionorigin,msdyn_transactiontype,msdyn_uniquenumber,msdyn_userworkhistory,msdyn_wallsavedquery,msdyn_wallsavedqueryusersettings,msdyn_warehouse,msdyn_workhourtemplate,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderdetailsgenerationqueue,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msdyn_workordersubstatus,msdyn_workordertype,notification,opportunity,opportunityclose,opportunitycompetitors,opportunityproduct,opportunitysalesprocess,orderclose,organization,organizationstatistic,ownermapping,phonecall,phonetocaseprocess,picklistmapping,pluginassembly,plugintype,plugintypestatistic,pricelevel,principalattributeaccessmap,principalentitymap,principalobjectaccess,principalobjectattributeaccess,privilege,processsession,product,productassociation,productpricelevel,productsalesliterature,productsubstitute,publisher,publisheraddress,queue,queueitem,quote,quoteclose,quotedetail,ratingmodel,ratingvalue,recurringappointmentmaster,relationshiprole,relationshiprolemap,report,reportcategory,reportentity,reportlink,reportvisibility,resource,resourcegroup,resourcegroupexpansion,resourcespec,ribboncommand,ribboncontextgroup,ribboncustomization,ribbondiff,ribbonrule,ribbontabtocommandmap,role,roletemplate,rollupfield,routingrule,routingruleitem,salesliterature,salesliteratureitem,salesorder,salesorderdetail,salesprocessinstance,savedquery,savedqueryvisualization,sdkmessage,sdkmessagefilter,sdkmessagepair,sdkmessageprocessingstep,sdkmessageprocessingstepimage,sdkmessageprocessingstepsecureconfig,sdkmessagerequest,sdkmessagerequestfield,sdkmessageresponse,sdkmessageresponsefield,service,serviceappointment,servicecontractcontacts,serviceendpoint,sharepointdocumentlocation,sharepointsite,site,sitemap,sla,socialactivity,solution,solutioncomponent,statusmap,stringmap,subject,subscription,subscriptionmanuallytrackedobject,subscriptionsyncinfo,systemuser,systemuserbusinessunitentitymap,task,team,teammembership,template,territory,theme,timezonedefinition,timezonelocalizedname,timezonerule,topic,topichistory,topicmodel,topicmodelconfiguration,topicmodelexecutionhistory,transactioncurrency,transformationmapping,transformationparametermapping,unresolvedaddress,uom,uomschedule,userentityuisettings,userfiscalcalendar,userform,usermapping,userquery,userqueryvisualization,webresource,webwizard,wizardaccessprivilege,wizardpage,workflow,workflowdependency,workflowlog,workflowwaitsubscription
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the source record.|
+|DisplayName|Object Id|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|objectid|
+|RequiredLevel|SystemRequired|
+|Targets|account,accountleads,activitymimeattachment,activityparty,annotation,appointment,asyncoperation,attachment,attributemap,audit,bookableresource,bookableresourcebooking,bookableresourcebookingexchangesyncidmapping,bookableresourcebookingheader,bookableresourcecategory,bookableresourcecategoryassn,bookableresourcecharacteristic,bookableresourcegroup,bookingstatus,bulkdeletefailure,bulkdeleteoperation,bulkoperation,bulkoperationlog,businessunitmap,businessunitnewsarticle,calendar,calendarrule,campaign,campaignactivity,campaignactivityitem,campaignitem,campaignresponse,channelaccessprofile,channelaccessprofilerule,characteristic,childincidentcount,clientupdate,columnmapping,commitment,competitor,competitoraddress,competitorproduct,competitorsalesliterature,connection,connectionrole,connectionroleassociation,connectionroleobjecttypecode,constraintbasedgroup,contact,contactinvoices,contactleads,contactorders,contactquotes,contract,contractdetail,contracttemplate,convertrule,customeraddress,customeropportunityrole,customerrelationship,dependency,dependencynode,discount,discounttype,displaystring,displaystringmap,documentindex,duplicaterecord,duplicaterule,duplicaterulecondition,dynamicproperty,dynamicpropertyassociation,dynamicpropertyinstance,dynamicpropertyoptionsetitem,email,emailhash,emailsearch,entitlement,entitlementchannel,entitlementcontacts,entitlementproducts,entitlementtemplate,entitlementtemplatechannel,entitlementtemplateproducts,entitymap,equipment,externalparty,fax,fieldpermission,fieldsecurityprofile,filtertemplate,goal,goalrollupquery,import,importdata,importentitymapping,importfile,importjob,importlog,importmap,incident,incidentknowledgebaserecord,incidentresolution,internaladdress,invaliddependency,invoice,invoicedetail,isvconfig,kbarticle,kbarticlecomment,kbarticletemplate,knowledgearticle,knowledgearticleincident,knowledgebaserecord,lead,leadaddress,leadcompetitors,leadproduct,leadtoopportunitysalesprocess,letter,license,list,listmember,lookupmapping,mailbox,mailmergetemplate,metric,msdyn_accountpricelist,msdyn_actual,msdyn_agreement,msdyn_agreementbookingdate,msdyn_agreementbookingincident,msdyn_agreementbookingproduct,msdyn_agreementbookingservice,msdyn_agreementbookingservicetask,msdyn_agreementbookingsetup,msdyn_agreementinvoicedate,msdyn_agreementinvoiceproduct,msdyn_agreementinvoicesetup,msdyn_agreementsubstatus,msdyn_approval,msdyn_batchjob,msdyn_bookingalert,msdyn_bookingalertstatus,msdyn_bookingchange,msdyn_bookingjournal,msdyn_bookingrule,msdyn_bookingsetupmetadata,msdyn_bookingtimestamp,msdyn_bpf_2c5fe86acc8b414b8322ae571000c799,msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b,msdyn_bpf_665e73aa18c247d886bfc50499c73b82,msdyn_bpf_989e9b1857e24af18787d5143b67523b,msdyn_bpf_baa0a411a239410cb8bded8b5fdd88e3,msdyn_bpf_d3d97bac8c294105840e99e37a9d1c39,msdyn_bpf_d8f9dc7f099f44db9d641dd81fbd470d,msdyn_characteristicreqforteammember,msdyn_clientextension,msdyn_configuration,msdyn_contactpricelist,msdyn_contractlineinvoiceschedule,msdyn_contractlinescheduleofvalue,msdyn_customerasset,msdyn_dataexport,msdyn_delegation,msdyn_estimate,msdyn_estimateline,msdyn_expense,msdyn_expensecategory,msdyn_expensereceipt,msdyn_fact,msdyn_fieldcomputation,msdyn_fieldservicepricelistitem,msdyn_fieldservicesetting,msdyn_fieldservicesystemjob,msdyn_findworkevent,msdyn_incidenttype,msdyn_incidenttypecharacteristic,msdyn_incidenttypeproduct,msdyn_incidenttypeservice,msdyn_incidenttypeservicetask,msdyn_integrationjob,msdyn_integrationjobdetail,msdyn_inventoryadjustment,msdyn_inventoryadjustmentproduct,msdyn_inventoryjournal,msdyn_inventorytransfer,msdyn_invoicefrequency,msdyn_invoicefrequencydetail,msdyn_invoicelinetransaction,msdyn_iotalert,msdyn_iotdevice,msdyn_iotdevicecategory,msdyn_iotdevicecommand,msdyn_iotdeviceregistrationhistory,msdyn_journal,msdyn_journalline,msdyn_mlresultcache,msdyn_opportunitylineresourcecategory,msdyn_opportunitylinetransaction,msdyn_opportunitylinetransactioncategory,msdyn_opportunitylinetransactionclassificatio,msdyn_opportunitypricelist,msdyn_orderinvoicingdate,msdyn_orderinvoicingproduct,msdyn_orderinvoicingsetup,msdyn_orderinvoicingsetupdate,msdyn_orderlineresourcecategory,msdyn_orderlinetransaction,msdyn_orderlinetransactioncategory,msdyn_orderlinetransactionclassification,msdyn_orderpricelist,msdyn_organizationalunit,msdyn_payment,msdyn_paymentdetail,msdyn_paymentmethod,msdyn_paymentterm,msdyn_postalbum,msdyn_postalcode,msdyn_postconfig,msdyn_postruleconfig,msdyn_priority,msdyn_processnotes,msdyn_productinventory,msdyn_project,msdyn_projectapproval,msdyn_projectparameter,msdyn_projectparameterpricelist,msdyn_projectpricelist,msdyn_projecttask,msdyn_projecttaskdependency,msdyn_projecttaskstatususer,msdyn_projectteam,msdyn_projectteammembersignup,msdyn_projecttransactioncategory,msdyn_purchaseorder,msdyn_purchaseorderbill,msdyn_purchaseorderproduct,msdyn_purchaseorderreceipt,msdyn_purchaseorderreceiptproduct,msdyn_purchaseordersubstatus,msdyn_quotebookingincident,msdyn_quotebookingproduct,msdyn_quotebookingservice,msdyn_quotebookingservicetask,msdyn_quotebookingsetup,msdyn_quoteinvoicingproduct,msdyn_quoteinvoicingsetup,msdyn_quotelineanalyticsbreakdown,msdyn_quotelineinvoiceschedule,msdyn_quotelineresourcecategory,msdyn_quotelinescheduleofvalue,msdyn_quotelinetransaction,msdyn_quotelinetransactioncategory,msdyn_quotelinetransactionclassification,msdyn_quotepricelist,msdyn_requirementcharacteristic,msdyn_requirementorganizationunit,msdyn_requirementresourcecategory,msdyn_requirementresourcepreference,msdyn_requirementstatus,msdyn_resourceassignment,msdyn_resourceassignmentdetail,msdyn_resourcecategorypricelevel,msdyn_resourcepaytype,msdyn_resourcerequest,msdyn_resourcerequirement,msdyn_resourcerequirementdetail,msdyn_resourceterritory,msdyn_rma,msdyn_rmaproduct,msdyn_rmareceipt,msdyn_rmareceiptproduct,msdyn_rmasubstatus,msdyn_rolecompetencyrequirement,msdyn_roleutilization,msdyn_rtv,msdyn_rtvproduct,msdyn_rtvsubstatus,msdyn_scheduleboardsetting,msdyn_schedulingparameter,msdyn_servicetasktype,msdyn_shipvia,msdyn_systemuserschedulersetting,msdyn_taxcode,msdyn_taxcodedetail,msdyn_timeentry,msdyn_timegroup,msdyn_timegroupdetail,msdyn_timeoffcalendar,msdyn_timeoffrequest,msdyn_transactioncategory,msdyn_transactioncategoryclassification,msdyn_transactioncategoryhierarchyelement,msdyn_transactioncategorypricelevel,msdyn_transactionconnection,msdyn_transactionorigin,msdyn_transactiontype,msdyn_uniquenumber,msdyn_userworkhistory,msdyn_wallsavedquery,msdyn_wallsavedqueryusersettings,msdyn_warehouse,msdyn_workhourtemplate,msdyn_workorder,msdyn_workordercharacteristic,msdyn_workorderdetailsgenerationqueue,msdyn_workorderincident,msdyn_workorderproduct,msdyn_workorderresourcerestriction,msdyn_workorderservice,msdyn_workorderservicetask,msdyn_workordersubstatus,msdyn_workordertype,notification,opportunity,opportunityclose,opportunitycompetitors,opportunityproduct,opportunitysalesprocess,orderclose,organization,organizationstatistic,ownermapping,phonecall,phonetocaseprocess,picklistmapping,pluginassembly,plugintype,plugintypestatistic,pricelevel,principalattributeaccessmap,principalentitymap,principalobjectaccess,principalobjectattributeaccess,privilege,processsession,product,productassociation,productpricelevel,productsalesliterature,productsubstitute,publisher,publisheraddress,queue,queueitem,quote,quoteclose,quotedetail,ratingmodel,ratingvalue,recurringappointmentmaster,relationshiprole,relationshiprolemap,report,reportcategory,reportentity,reportlink,reportvisibility,resource,resourcegroup,resourcegroupexpansion,resourcespec,ribboncommand,ribboncontextgroup,ribboncustomization,ribbondiff,ribbonrule,ribbontabtocommandmap,role,roletemplate,rollupfield,routingrule,routingruleitem,salesliterature,salesliteratureitem,salesorder,salesorderdetail,salesprocessinstance,savedquery,savedqueryvisualization,sdkmessage,sdkmessagefilter,sdkmessagepair,sdkmessageprocessingstep,sdkmessageprocessingstepimage,sdkmessageprocessingstepsecureconfig,sdkmessagerequest,sdkmessagerequestfield,sdkmessageresponse,sdkmessageresponsefield,service,serviceappointment,servicecontractcontacts,serviceendpoint,sharepointdocumentlocation,sharepointsite,site,sitemap,sla,socialactivity,solution,solutioncomponent,statusmap,stringmap,subject,subscription,subscriptionmanuallytrackedobject,subscriptionsyncinfo,systemuser,systemuserbusinessunitentitymap,task,team,teammembership,template,territory,theme,timezonedefinition,timezonelocalizedname,timezonerule,topic,topichistory,topicmodel,topicmodelconfiguration,topicmodelexecutionhistory,transactioncurrency,transformationmapping,transformationparametermapping,unresolvedaddress,uom,uomschedule,userentityuisettings,userfiscalcalendar,userform,usermapping,userquery,userqueryvisualization,webresource,webwizard,wizardaccessprivilege,wizardpage,workflow,workflowdependency,workflowlog,workflowwaitsubscription|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ObjectTypeCode"></a> ObjectTypeCode
 
-**Description**: Object Type Code<br />
-**DisplayName**: <br />
-**LogicalName**: objecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: 0
+|Property|Value|
+|--------|-----|
+|Description|Object Type Code|
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|objecttypecode|
+|MaxValue|2147483647|
+|MinValue|0|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Unique identifier of the user or team who owns the user entity instance data.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Owner<br />
-**Targets**: systemuser,team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user or team who owns the user entity instance data.|
+|DisplayName|Owner|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser,team|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: Type of the owner of the object.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description|Type of the owner of the object.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_PersonalCategories"></a> PersonalCategories
 
-**Description**: Personal categories<br />
-**DisplayName**: personal categories<br />
-**LogicalName**: personalcategories<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 2000
+|Property|Value|
+|--------|-----|
+|Description|Personal categories|
+|DisplayName|personal categories|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|personalcategories|
+|MaxLength|2000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ReminderSet"></a> ReminderSet
 
-**Description**: Indicates whether a reminder is set on this object.<br />
-**DisplayName**: Is Reminder set<br />
-**LogicalName**: reminderset<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether a reminder is set on this object.|
+|DisplayName|Is Reminder set|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|reminderset|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Remind Set
-- **FalseOption Value**: 0 **Label**: Reminder Not Set
+#### ReminderSet Options
+
+|Value|Label|
+|-----|-----|
+|1|Remind Set|
+|0|Reminder Not Set|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ReminderTime"></a> ReminderTime
 
-**Description**: Reminder time<br />
-**DisplayName**: Reminder time<br />
-**LogicalName**: remindertime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Reminder time|
+|DisplayName|Reminder time|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|remindertime|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_StartTime"></a> StartTime
 
-**Description**: Start Time<br />
-**DisplayName**: Start Time<br />
-**LogicalName**: starttime<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Start Time|
+|DisplayName|Start Time|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|starttime|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ToDoItemFlags"></a> ToDoItemFlags
 
-**Description**: To Do item flags.<br />
-**DisplayName**: <br />
-**LogicalName**: todoitemflags<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|To Do item flags.|
+|DisplayName||
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|todoitemflags|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|None|
+|Type|Integer|
 
 
 ### <a name="BKMK_ToDoOrdinalDate"></a> ToDoOrdinalDate
 
-**Description**: For internal use only.<br />
-**DisplayName**: To Do Primary Sort Date<br />
-**LogicalName**: todoordinaldate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|To Do Primary Sort Date|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|todoordinaldate|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ToDoSubOrdinal"></a> ToDoSubOrdinal
 
-**Description**: For internal use only.<br />
-**DisplayName**: To Do Sort Tie Breaker<br />
-**LogicalName**: todosubordinal<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 20
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|To Do Sort Tie Breaker|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|todosubordinal|
+|MaxLength|20|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ToDoTitle"></a> ToDoTitle
 
-**Description**: For internal use only.<br />
-**DisplayName**: To Do Title<br />
-**LogicalName**: todotitle<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 4000
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|To Do Title|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|todotitle|
+|MaxLength|4000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_UserEntityInstanceDataId"></a> UserEntityInstanceDataId
 
-**Description**: Unique identifier user entity<br />
-**DisplayName**: <br />
-**LogicalName**: userentityinstancedataid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier user entity|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|userentityinstancedataid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -336,79 +379,91 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: Name of the owner of the object.<br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Name of the owner of the object.|
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier of the business unit that owns this.<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the business unit that owns this.|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier of the team who owns this object.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the team who owns this object.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|SystemRequired|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier of the user who owns this object.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the user who owns this object.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="manytoone"></a>
 
@@ -416,12 +471,6 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
-- [msdyn_iotalert_UserEntityInstanceDatas](#BKMK_msdyn_iotalert_UserEntityInstanceDatas)
-- [msdyn_iotdevice_UserEntityInstanceDatas](#BKMK_msdyn_iotdevice_UserEntityInstanceDatas)
-- [msdyn_iotdevicecategory_UserEntityInstanceDatas](#BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas)
-- [msdyn_iotdevicecommand_UserEntityInstanceDatas](#BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas)
-- [msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas](#BKMK_msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas)
-- [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas](#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas)
 - [userentityinstancedata_territory](#BKMK_userentityinstancedata_territory)
 - [accountleads_UserEntityInstanceDatas](#BKMK_accountleads_UserEntityInstanceDatas)
 - [contactleads_UserEntityInstanceDatas](#BKMK_contactleads_UserEntityInstanceDatas)
@@ -704,6 +753,12 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [msdyn_workorderservicetask_UserEntityInstanceDatas](#BKMK_msdyn_workorderservicetask_UserEntityInstanceDatas)
 - [msdyn_workordersubstatus_UserEntityInstanceDatas](#BKMK_msdyn_workordersubstatus_UserEntityInstanceDatas)
 - [msdyn_workordertype_UserEntityInstanceDatas](#BKMK_msdyn_workordertype_UserEntityInstanceDatas)
+- [msdyn_iotalert_UserEntityInstanceDatas](#BKMK_msdyn_iotalert_UserEntityInstanceDatas)
+- [msdyn_iotdevice_UserEntityInstanceDatas](#BKMK_msdyn_iotdevice_UserEntityInstanceDatas)
+- [msdyn_iotdevicecategory_UserEntityInstanceDatas](#BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas)
+- [msdyn_iotdevicecommand_UserEntityInstanceDatas](#BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas)
+- [msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas](#BKMK_msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas)
+- [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas](#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas)
 - [theme_UserEntityInstanceDatas](#BKMK_theme_UserEntityInstanceDatas)
 - [usermapping_UserEntityInstanceDatas](#BKMK_usermapping_UserEntityInstanceDatas)
 - [knowledgearticle_UserEntityInstanceDatas](#BKMK_knowledgearticle_UserEntityInstanceDatas)
@@ -832,30 +887,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [userentityinstancedata_sdkmessagefilter](#BKMK_userentityinstancedata_sdkmessagefilter)
 - [userentityinstancedata_reportlink](#BKMK_userentityinstancedata_reportlink)
 
-
-### <a name="BKMK_msdyn_iotalert_UserEntityInstanceDatas"></a> msdyn_iotalert_UserEntityInstanceDatas
-
-See msdyn_iotalert Entity [msdyn_iotalert_UserEntityInstanceDatas](msdyn_iotalert.md#BKMK_msdyn_iotalert_UserEntityInstanceDatas) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevice_UserEntityInstanceDatas"></a> msdyn_iotdevice_UserEntityInstanceDatas
-
-See msdyn_iotdevice Entity [msdyn_iotdevice_UserEntityInstanceDatas](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_UserEntityInstanceDatas) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas"></a> msdyn_iotdevicecategory_UserEntityInstanceDatas
-
-See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_UserEntityInstanceDatas](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas"></a> msdyn_iotdevicecommand_UserEntityInstanceDatas
-
-See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_UserEntityInstanceDatas](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas"></a> msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas
-
-See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas) One-To-Many relationship.
-
-### <a name="BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas"></a> msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas
-
-See msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b Entity [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas) One-To-Many relationship.
 
 ### <a name="BKMK_userentityinstancedata_territory"></a> userentityinstancedata_territory
 
@@ -1985,6 +2016,30 @@ See msdyn_workordersubstatus Entity [msdyn_workordersubstatus_UserEntityInstance
 
 See msdyn_workordertype Entity [msdyn_workordertype_UserEntityInstanceDatas](msdyn_workordertype.md#BKMK_msdyn_workordertype_UserEntityInstanceDatas) One-To-Many relationship.
 
+### <a name="BKMK_msdyn_iotalert_UserEntityInstanceDatas"></a> msdyn_iotalert_UserEntityInstanceDatas
+
+See msdyn_iotalert Entity [msdyn_iotalert_UserEntityInstanceDatas](msdyn_iotalert.md#BKMK_msdyn_iotalert_UserEntityInstanceDatas) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevice_UserEntityInstanceDatas"></a> msdyn_iotdevice_UserEntityInstanceDatas
+
+See msdyn_iotdevice Entity [msdyn_iotdevice_UserEntityInstanceDatas](msdyn_iotdevice.md#BKMK_msdyn_iotdevice_UserEntityInstanceDatas) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas"></a> msdyn_iotdevicecategory_UserEntityInstanceDatas
+
+See msdyn_iotdevicecategory Entity [msdyn_iotdevicecategory_UserEntityInstanceDatas](msdyn_iotdevicecategory.md#BKMK_msdyn_iotdevicecategory_UserEntityInstanceDatas) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas"></a> msdyn_iotdevicecommand_UserEntityInstanceDatas
+
+See msdyn_iotdevicecommand Entity [msdyn_iotdevicecommand_UserEntityInstanceDatas](msdyn_iotdevicecommand.md#BKMK_msdyn_iotdevicecommand_UserEntityInstanceDatas) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas"></a> msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas
+
+See msdyn_iotdeviceregistrationhistory Entity [msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas](msdyn_iotdeviceregistrationhistory.md#BKMK_msdyn_iotdeviceregistrationhistory_UserEntityInstanceDatas) One-To-Many relationship.
+
+### <a name="BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas"></a> msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas
+
+See msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b Entity [msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas](msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b.md#BKMK_msdyn_bpf_477c16f59170487b8b4dc895c5dcd09b_UserEntityInstanceDatas) One-To-Many relationship.
+
 ### <a name="BKMK_theme_UserEntityInstanceDatas"></a> theme_UserEntityInstanceDatas
 
 See theme Entity [theme_UserEntityInstanceDatas](theme.md#BKMK_theme_UserEntityInstanceDatas) One-To-Many relationship.
@@ -2493,7 +2548,7 @@ See sdkmessagefilter Entity [userentityinstancedata_sdkmessagefilter](sdkmessage
 
 See reportlink Entity [userentityinstancedata_reportlink](reportlink.md#BKMK_userentityinstancedata_reportlink) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

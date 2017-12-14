@@ -2,8 +2,8 @@
 title: Create or Update Link (ARM)
 description: Creates a new or updates an existing SAS Policy.
 keywords: Customer Insights; ARM API; Link; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/08/2017
 ms.topic: reference

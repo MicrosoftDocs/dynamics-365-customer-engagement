@@ -2,8 +2,8 @@
 title: Create or Update App View (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Creates a new or updates an existing Application View.
 keywords: Customer Insights; ARM API; View; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/08/2017
 ms.topic: reference

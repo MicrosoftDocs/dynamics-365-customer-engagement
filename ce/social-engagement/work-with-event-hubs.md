@@ -15,9 +15,9 @@ topic-status: Drafting
 ---
 
 # Work with events from Social Engagement in Azure Event Hubs
-[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] lets you stream posts to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] and empowers you with data, so unleash your creativity! The options that [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] offer are huge. Benefit from a simple data format and highly performant cloud services to work with your data with endless possibilities. Build your own apps, connect your data with other data sources, and step into big data analysis.  
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] lets you stream posts to [!INCLUDE[pn_microsoft_azure_event_hubs](../includes/pn-microsoft-azure-event-hubs.md)] and empowers you with data, so unleash your creativity! The options that [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] offer are huge. Benefit from a simple data format and highly performant cloud services to work with your data with endless possibilities. Build your own apps, connect your data with other data sources, and step into big data analysis.  
   
- To get you started, we’ve provided some inspiration to build a real-time [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] Dashboard where we’ll stream posts from [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. By using the power of [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] we can consolidate the information and push it to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] to analyze our data in real time. [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] provides the capabilities to combine the data from a variety of sources, where [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] is one of them. It can send the data to another event hub, a SQL database, or to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)]. [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] lets you build your own business intelligence based on the data sources you are connected to. All connections listed in the scenario below are supported by default with the services. No need to customize—get started right away!  
+ To get you started, we’ve provided some inspiration to build a real-time [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-bi.md)] Dashboard where we’ll stream posts from [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)]. By using the power of [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] we can consolidate the information and push it to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] to analyze our data in real time. [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)] provides the capabilities to combine the data from a variety of sources, where [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] is one of them. It can send the data to another event hub, a SQL database, or to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)]. [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] lets you build your own business intelligence based on the data sources you are connected to. All connections listed in the scenario below are supported by default with the services. No need to customize—get started right away!  
   
  For the following scenario, we assume that you have access to [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] and an Azure subscription (including [!INCLUDE[pn_azure_service_bus](../includes/pn-azure-service-bus.md)], [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], and [!INCLUDE[pn_azure_stream_analytics](../includes/pn-azure-stream-analytics.md)]), and have admin permissions to work through the steps. If you want to know more about the functionality of these services, please refer to the following links:  
   
@@ -66,9 +66,9 @@ topic-status: Drafting
 ### Step 3: Create an automation rule to select the posts that get streamed to the event hub  
  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], create an automation rule that streams events to your event hub. Make sure the filters are defined according to your requirements so you get the posts that you are looking for. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md), [Get relevant data using filters](use-filters.md)  
   
-1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Automation Rules**, and then create an automation rule that streams events to your event hub.  
+1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Automation Rules**, and then create an automation rule that streams events to your event hub.  
   
-2.  In [Azure Portal](https://portal.azure.com/), check the dashboard of the event hub and verify that the events from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] appear. Depending on the selected data set, it may take a while for new posts to get published on social media and pushed to the event hub.  
+2.  In [Azure Portal](https://portal.azure.com/), check the dashboard of the event hub and verify that the events from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] appear. Depending on the selected data set, it may take a while for new posts to get published on social media and pushed to the event hub.  
   
  ![Events from Social Engagement shown in a connected event hub](media/verify-data-in-event-hubs.png "Events from Social Engagement shown in a connected event hub")  
   
@@ -100,7 +100,7 @@ topic-status: Drafting
     >   
     >  In the [Azure Portal](https://portal.azure.com/), go to **Service Bus > [namespace] > Connection Information**. Copy the connection string from your SAS key for RootManagedSharedAccessKey to connect to your namespace.  
     >   
-    >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
+    >  In Service Bus Explorer, expand the event hub you connected to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Right-click the $Default consumer group, and then click Create Consumer Group Listener. Start the listener, and then review the JSON payload in the Event Text field of the Events tab.  
     >   
     > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)  
   
@@ -165,7 +165,7 @@ topic-status: Drafting
   
  **Values:** *count*  
   
- There are almost unlimited options to combine data from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] with data from other applications or the Internet. The following picture shows you a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard that correlates weather data with the different types of intentions from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]'s machine-learning based intention analysis.  
+ There are almost unlimited options to combine data from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with data from other applications or the Internet. The following picture shows you a [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] dashboard that correlates weather data with the different types of intentions from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]'s machine-learning based intention analysis.  
   
  ![Power BI dashboard with Social Engagement intentions](media/power-bi-dashboard-event-hub.png "Power BI dashboard with Social Engagement intentions")  
   

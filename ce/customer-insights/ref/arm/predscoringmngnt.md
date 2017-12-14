@@ -2,8 +2,8 @@
 title: Predictive Scoring APIs (ARM)
 description: These APIs apply machine learning models to analyze and predict process outcomes.
 keywords: Customer Insights; ARM API; predictive analysis 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/29/2017
 ms.topic: reference

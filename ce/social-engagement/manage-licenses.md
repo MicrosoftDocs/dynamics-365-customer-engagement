@@ -16,14 +16,14 @@ topic-status: Drafting
 
 # Manage licenses for Social Engagement
 
-Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+Using the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] admin center, you can manage [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses and other services. This topic provides information about the steps to give users access to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 You must be your organization's [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] administrator to perform the following tasks.
 
 ## Prepare your organization
 
 For step-by-step instructions on adding a service to an existing [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, see [Office help: Manage a subscription](http://go.microsoft.com/fwlink/p/?LinkId=392376).
 
-As a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] customer, review [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462) if the organization is eligible for [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] user licenses.
+As a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] customer, review [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462) if the organization is eligible for [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] user licenses.
 
 If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription yet, you need to create an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] tenant for your organization.
 
@@ -37,19 +37,19 @@ If your school or work organization doesn't have an [!INCLUDE[pn_Office_365](../
 
 4. Optionally, select add-ins to enhance your post quota.
 
-5. Complete the purchase process to start provisioning [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+5. Complete the purchase process to start provisioning [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 It takes a few minutes to complete the provisioning process before you can start using [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You'll receive an email with the details to access your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance when it's set up. You are now ready to [sign in](sign-in.md) and [set up](administer-microsoft-social-engagement.md) [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ## Assign a license to a user
 
-Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] by assigning [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](assign-user-roles.md) to use certain features.  
+Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by assigning [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] licenses to them. As an administrator you can always [modify the user's permissions](assign-user-roles.md) to use certain features.  
 
 1. In the [Office 365 Admin center](http://go.microsoft.com/fwlink/p/?LinkID=390650), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
-3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** to **On**.
+3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **On**.
 
 4. Select **Save** to confirm your change and update the user's product licenses.  
 
@@ -57,14 +57,14 @@ Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze
 
 When you [create an Office 365 user account](http://go.microsoft.com/fwlink/p/?LinkId=526143), you normally [assign a license](http://go.microsoft.com/fwlink/p/?LinkId=390651) to users so that they can use certain features. 
 
-When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license you've assigned to the user.  
-Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain.
+When you [remove the assigned license](http://go.microsoft.com/fwlink/p/?LinkId=526144) from a user in your subscription, the license assigned to that user automatically becomes available for assignment to a different user. If you want the user to still have access to other applications that you manage through [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], for example [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] or [!INCLUDE[pn_ms_SharePoint_long](../includes/pn-ms-sharepoint-long.md)], don't delete the user. Instead, remove the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license you've assigned to the user.  
+Removing a user's license  from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] deletes all related custom settings, alerts, and any owned or shared streams. Deleted custom settings can't be restored. Search topics owned by a removed user will remain.
 
 1. In the [Office 365 Admin center](http://go.microsoft.com/fwlink/p/?LinkID=390650), select **Users** > **Active Users**, and then select the user.
 
 2. In the **Product licenses** tab, select **Edit**.
 
-3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]** to **Off**.
+3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **Off**.
 
 4. Select **Save** to confirm your change and update the user's product licenses.
 
@@ -77,7 +77,7 @@ You can purchase and add licenses and other plans to your subscription any time.
 
 1. In the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], select **Billing** > **Purchase Services**.
 
-2. Select the [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] add-in or user licenses you want to purchase, and then select **Change license quantity**. Customize your order by choosing the number of licenses you'd like to order.
+2. Select the [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] add-in or user licenses you want to purchase, and then select **Change license quantity**. Customize your order by choosing the number of licenses you'd like to order.
 
 3. Follow the checkout procedure to confirm your purchase.
 

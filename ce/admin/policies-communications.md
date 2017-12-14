@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Policies and Communications for service incidents
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
   
@@ -45,7 +45,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 **How do I find out about planned maintenance?**  
   
- Your organization will receive a Maintenance notification through the [Office 365 Message Center](https://support.office.com/article/Message-center-in-Office-365-38fb3333-bfcc-4340-a37b-deda509c2093). Additionally, for maintenance activities that impact your ability to use the service, [!INCLUDE[pn_dyn_365_online](../includes/pn-dyn-365-online.md)] System Administrators will receive an email notification.  
+ Your organization will receive a Maintenance notification through the [Office 365 Message Center](https://support.office.com/article/Message-center-in-Office-365-38fb3333-bfcc-4340-a37b-deda509c2093). Additionally, for maintenance activities that impact your ability to use the service, [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] System Administrators will receive an email notification.  
   
  You can also view notifications in the [Office 365 Admin mobile app](https://products.office.com/business/manage-office-365-admin-app) on your mobile device.  
   

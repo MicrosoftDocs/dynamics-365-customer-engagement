@@ -31,7 +31,7 @@ Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/p
   
  You can revert to the non-editable grid at any time for main grid and associated grids, if required. Also, at runtime, users can toggle between editable grids and read-only grids.  
   
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](https://technet.microsoft.com/library/mt791766.aspx)  
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
   
 <a name="FormScripting"></a>   
 ## Form scripting support  
@@ -51,7 +51,7 @@ Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/p
   
  On the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] mobile client, an entity will support editable grid if the entity can be displayed in the mobile client's site map.  
   
- For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](https://technet.microsoft.com/library/mt791766.aspx)  
+ For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
   
  Editable grids do not support roll up associated views (**Rollup type** = `Related`).  
   
@@ -279,4 +279,4 @@ namespace Microsoft.Crm.Sdk.Samples
   
 ### See also  
  [Grids and subgrids in Customer Engagement](../clientapi/reference/grids.md)   
- [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](https://technet.microsoft.com/library/mt791766.aspx)
+ [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)

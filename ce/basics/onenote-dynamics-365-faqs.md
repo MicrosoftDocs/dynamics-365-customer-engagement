@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # OneNote in Dynamics 365 FAQs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Why do OneNote files show a folder icon?  
  This is a known issue. Click the file name to open the [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] as expected.  
@@ -71,7 +71,7 @@ Note that [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] requires [!INCLUDE[p
 
 On subsequent clicks in [!INCLUDE[pn_onenote](../includes/pn-onenote.md)], this error message appears: **No sections to display. Note that sections in a section group aren’t supported.** To fix this issue, set the file path length to less than 70 characters.  
 
-## Changing the name of a OneNote file in the July 2017 update for Dynamics 365 (online) can create a conflict
+## Changing the name of a OneNote file in [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] can create a conflict
 
 Consider this scenario:
 

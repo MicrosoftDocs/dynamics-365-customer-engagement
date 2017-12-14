@@ -2,8 +2,8 @@
 title: Hub Data APIs
 description: These Hub APIs manage custom instances of modeled types. 
 keywords: Customer Insights; types; metadata
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/14/2017
 ms.topic: reference
@@ -20,6 +20,6 @@ Insights Hub. The Service Metadata document for your Customer Insights hub is ob
 &emsp;  `GET <hub-endpoint>/data/$metadata`
 
 >[!NOTE]
->The topics in this section represent common hub data operations, which are presented as reference examples. This section is _not_ exhaustive as there are considerably more custom types and associations that can be created, deleted, or queried.  Furthermeore, many of these examples assume the existence of custom types, such as **Customer** profiles.
+>The topics in this section represent common hub data operations, which are presented as reference examples. This section is _not_ exhaustive as there are considerably more custom types and associations that can be created, deleted, or queried.  Furthermore, many of these examples assume the existence of custom types, such as **Customer** profiles.
 
 

@@ -2,8 +2,8 @@
 title: Microsoft Dynamics 365 for Customer Insights Programming Reference | MicrosoftDocs
 description: This section contains reference documentation for the web services, schemas, APIs, and error codes for Customer Insights service.
 keywords: Dynamics 365 Customer Insights; Customer Insights; Programming Reference
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/26/2017
 ms.topic: get-started-article

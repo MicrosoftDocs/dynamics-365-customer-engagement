@@ -108,6 +108,14 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], fields define th
 > [!NOTE]
 >  Installing a solution or publishing customizations can interfere with normal system operation. We recommend that you schedule a solution to be published when it’s least disruptive to users.  
 
+## Community tools
+
+**Attribute Manager** is a tool that XrmToolbox community developed for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement. Please see the [Developer tools](../developer/developer-tools.md) topic for community developed tools.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com).
+
 ### See also  
  [Entities and metadata overview](../customize/create-edit-metadata.md)   
  [Create and edit entities](../customize/create-edit-entities.md)   
