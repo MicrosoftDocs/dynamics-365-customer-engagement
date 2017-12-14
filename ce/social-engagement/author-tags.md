@@ -49,6 +49,6 @@ If you want to extract the author tags that were added to a specific author, you
 
 ### See also
 
-[User roles and permissions](user-roles.md)
-[Work with tags](tags.md)
+[User roles and permissions](user-roles.md)    
+[Work with tags](tags.md)    
 [Use filters](use-filters.md)
