@@ -184,7 +184,7 @@ var data =
     }
 
 // create account record
-Xrm.WebApi.createRecord("account", data).then(
+Xrm.WebApi.offline.createRecord("account", data).then(
     function success(result) {
         console.log("Account created with ID: " + result.id);
         // perform operations on record creation

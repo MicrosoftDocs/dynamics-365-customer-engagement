@@ -147,7 +147,7 @@ var data =
         }
     }
 // update the record
-Xrm.WebApi.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", data).then(
+Xrm.WebApi.offline.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", data).then(
     function success(result) {
         console.log("Account updated");
         // perform operations on record update
