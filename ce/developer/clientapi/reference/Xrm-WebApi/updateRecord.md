@@ -1,6 +1,6 @@
 ---
 title: "updateRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 12/18/2017
+ms.date: 10/31/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -44,7 +44,7 @@ manager: "amyla"
 <td>data</td>
 <td>Object</td>
 <td>Yes</td>
-<td><p>A JSON object containing <code>key: value</code> pairs, where `key` is the property of the entity and <code>value</code> is the value of the property you want to update.</p>
+<td><p>A JSON object containing <code>key: value</code> pairs, where `key` is the property of the entity and <code>value</code> is the value of the property you want update.</p>
 <p>See examples later in this topic to see how you can define the <code>data</code> object for various update scenarios.</td>
 </tr>
 <tr>
@@ -55,17 +55,14 @@ manager: "amyla"
 <ul>
 <li><b>entityType</b>: String. The entity type of the updated record.</li>
 <li><b>id</b>: String. GUID of the updated record.</li>
+<li><b>name</b>: String. Name of the updated record.</li>
 </ul></td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to call when the operation fails. An object with the following properties will be passed:
-<ul>
-<li><b>errorCode</b>: Number. The error code.</li>
-<li><b>message</b>: String. An error message describing the issue.</li>
-</ul></td>
+<td>A function to call when te operation fails.</td>
 </tr>
 </table>
 
@@ -77,7 +74,7 @@ On success, returns a promise object containing the attributes specified earlier
 
 These examples use some of the same request objects as demonstrated in [Update and delete entities using the Web API](../../../webapi/update-delete-entities-using-web-api.md) to define the data object for updating an entity record.
 
-### Basic update 
+### Basic create 
 
 Updates an existing account record with record ID = 5531d753-95af-e711-a94e-000d3a11e605.
 
@@ -105,13 +102,10 @@ Xrm.WebApi.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", data)
 );
 ```
 
-### Update associations to the related entities
+## Update associations to the related entities
 
-To update association to the related entity records (lookups), set the value of single-valued navigation properties using the `@odata.bind` annotation to another record. However, for mobile clients in the offline mode, you cannot use the `@odata.bind` annotation, and instead have to pass a **lookup** object (**logicalname** and **id**) pointing to the target record. Here are code examples for both the scenarios:
+To update association to the related entity records (lookups), set the value of single-valued navigation properties using the `@odata.bind` annotation to another record. The following example updates an account record to associate another contact record as the primary contact for the account:
 
-**For online scenario (connected to server)**
-
-The following example updates an account record to associate another contact record as the primary contact for the account:
 
 ```JavaScript
 // define the data to update a record
@@ -121,33 +115,6 @@ var data =
     }
 // update the record
 Xrm.WebApi.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", data).then(
-    function success(result) {
-        console.log("Account updated");
-        // perform operations on record update
-    },
-    function (error) {
-        console.log(error.message);
-        // handle error conditions
-    }
-);
-```
-
-**For mobile offine scenario**
-
-Here is the updated sample code to update an account record to associate another contact record as the primary contact for the account from mobile clients when working in the offline mode:
-
-```JavaScript
-// define the data to update a record
-var data =
-    {
-        "primarycontactid":
-        {
-            "logicalname": "contact",
-            "id": "61a0e5b9-88df-e311-b8e5-6c3be5a8b200"
-        }
-    }
-// update the record
-Xrm.WebApi.offline.updateRecord("account", "5531d753-95af-e711-a94e-000d3a11e605", data).then(
     function success(result) {
         console.log("Account updated");
         // perform operations on record update
