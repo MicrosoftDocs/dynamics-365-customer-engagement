@@ -201,7 +201,7 @@ Define the style of the custom channel tile in a CSS file. Make sure that your T
 
 For example, in this case, your Tile CSS file name will be: **sample_SpecialTileCustomerJourneyDesignerTileConfig.css**
 
-The following is an example of a CSS file where the font styles are defined using the same prefix name (sample_SpeciaTile) that you used in the Tile XML file earlier to refer to the fint styles:
+The following is an example of a CSS file where the font styles are defined using the same prefix name (sample_SpeciaTile) that you used in the Tile XML file earlier to refer to the font styles:
 
 ```css
 @font-face {
