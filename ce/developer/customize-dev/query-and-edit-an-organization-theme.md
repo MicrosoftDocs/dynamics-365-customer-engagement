@@ -27,7 +27,7 @@ You can define and apply visual themes for an organization. This provides a supp
   
  Theme customization is supported in this release only for the web application. The changes made for an organization's theme are not included in solutions exported from the organization. You can define multiple themes, but only one can be set and published as the default theme.  
   
- Video: [Theming in Microsoft Dynamics CRM](http://go.microsoft.com/fwlink/p/?LinkId=529568)  
+ Video: [Theming in Microsoft Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkId=529568)  
   
 <a name="BKMK_QueryTheme"></a>
 
@@ -43,6 +43,10 @@ GET [Organization URI]/api/data/v9.0/themes?$filter=isdefaulttheme eq true&$sele
  **Response:**
 
 ```json
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
 {  
     "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#themes(defaultentitycolor,defaultcustomentitycolor,controlborder,controlshade,selectedlinkeffect,globallinkcolor,processcontrolcolor,headercolor,logotooltip,hoverlinkeffect,navbarshelfcolor,navbarbackgroundcolor)",  
     "value": [  

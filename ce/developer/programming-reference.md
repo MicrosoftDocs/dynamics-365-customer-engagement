@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This section contains reference documentation of the public assemblies, web services, schemas, and error codes for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+This section contains reference documentation of the public assemblies, web services, client API, schemas, and error codes for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 ## In This Section  
  [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
@@ -33,6 +33,7 @@ This section contains reference documentation of the public assemblies, web serv
  [Dynamics 365 Outlook Client 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-outlookclient-ce-9)<br />
  [Dynamics 365 Deployment Service 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9)<br />
  [Online Management API for Customer Engagement Reference](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com)<br />
+ [Client API Reference](clientapi/reference.md)<br />
  [Customization XML reference](customization-xml-reference.md)<br />
  [Schemas used in Dynamics 365](schemas-used-dynamics-365.md)<br />
   
@@ -40,10 +41,4 @@ This section contains reference documentation of the public assemblies, web serv
  [Release history](release-history.md)<br />
  [What's new for developers: Dynamics 365 Customer Engagement](whats-new-developers.md)<br />
  [Get started with developement for Dynamcis 365 Customer Engagement](get-started-sdk.md)<br />
- [Connect to Dynamics 365](connect-customer-engagement.md)<br />
- [The Security Model of Dynamics 365](security-dev/security-model.md)<br />
- [Extend Dynamics 365](extend-dynamics-365-server.md)<br />
- [Model your business data](model-business-data.md)<br />
- [Manage Your Data](manage-data.md)<br />
- [Manage your deployment](manage-deployment.md)<br />
- [Sample code directory](sample-code-directory.md)<br />
+  [Sample code directory](sample-code-directory.md)<br />
