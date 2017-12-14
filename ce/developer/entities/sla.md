@@ -1,7 +1,7 @@
 ---
 title: "SLA Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the SLA entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # SLA Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Contains information about the tracked service-level KPIs for cases that belong to different customers.
 
@@ -37,17 +35,20 @@ Contains information about the tracked service-level KPIs for cases that belong 
 
 ## Entity Properties
 
-**DisplayName**: SLA<br />
-**DisplayCollectionName**: SLAs<br />
-**SchemaName**: SLA<br />
-**CollectionSchemaName**: SLAs<br />
-**LogicalName**: sla<br />
-**LogicalCollectionName**: slas<br />
-**EntitySetName**: slas<br />
-**PrimaryIdAttribute**: slaid<br />
-**PrimaryNameAttribute**: name<br />
-**OwnershipType**: UserOwned<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|SLAs|
+|DisplayCollectionName|SLAs|
+|DisplayName|SLA|
+|EntitySetName|slas|
+|IsBPFEntity|False|
+|LogicalCollectionName|slas|
+|LogicalName|sla|
+|OwnershipType|UserOwned|
+|PrimaryIdAttribute|slaid|
+|PrimaryNameAttribute|name|
+|SchemaName|SLA|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -78,284 +79,344 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_AllowPauseResume"></a> AllowPauseResume
 
-**Description**: Select whether this SLA will allow pausing and resuming during the time calculation.<br />
-**DisplayName**: Allow Pause and Resume<br />
-**LogicalName**: allowpauseresume<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select whether this SLA will allow pausing and resuming during the time calculation.|
+|DisplayName|Allow Pause and Resume|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|allowpauseresume|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Allow
-- **FalseOption Value**: 0 **Label**: Do Not Allow
+#### AllowPauseResume Options
+
+|Value|Label|
+|-----|-----|
+|1|Allow|
+|0|Do Not Allow|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ApplicableFrom"></a> ApplicableFrom
 
-**Description**: Select the field that specifies the date and time from which the SLA items will be calculated for the case record. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created. <br />
-**DisplayName**: Applicable From<br />
-**LogicalName**: applicablefrom<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Select the field that specifies the date and time from which the SLA items will be calculated for the case record. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created. |
+|DisplayName|Applicable From|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|applicablefrom|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ApplicableFromPickList"></a> ApplicableFromPickList
 
-**Description**: Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created.<br />
-**DisplayName**: Applicable From<br />
-**LogicalName**: applicablefrompicklist<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the Case Created On field, SLA calculation will begin from the time the case is created.|
+|DisplayName|Applicable From|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|applicablefrompicklist|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: No
-- **Value**: 2 **Label**: Yes
+#### ApplicableFromPickList Options
+
+|Value|Label|
+|-----|-----|
+|1|No|
+|2|Yes|
 
 
 
 ### <a name="BKMK_BusinessHoursId"></a> BusinessHoursId
 
-**Description**: Choose the business hours for calculating SLA item timelines.<br />
-**DisplayName**: Business Hours<br />
-**LogicalName**: businesshoursid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: calendar
+|Property|Value|
+|--------|-----|
+|Description|Choose the business hours for calculating SLA item timelines.|
+|DisplayName|Business Hours|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|businesshoursid|
+|RequiredLevel|None|
+|Targets|calendar|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ChangedAttributeList"></a> ChangedAttributeList
 
-**Description**: Type additional information to describe the SLA<br />
-**DisplayName**: ChangedAttributeList<br />
-**LogicalName**: changedattributelist<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 1000
+|Property|Value|
+|--------|-----|
+|Description|Type additional information to describe the SLA|
+|DisplayName|ChangedAttributeList|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|changedattributelist|
+|MaxLength|1000|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_Description"></a> Description
 
-**Description**: Type additional information to describe the SLA<br />
-**DisplayName**: Description<br />
-**LogicalName**: description<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: TextArea<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type additional information to describe the SLA|
+|DisplayName|Description|
+|FormatName|TextArea|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|description|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_IsDefault"></a> IsDefault
 
-**Description**: Tells whether this SLA is the default one.<br />
-**DisplayName**: Is Default<br />
-**LogicalName**: isdefault<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Tells whether this SLA is the default one.|
+|DisplayName|Is Default|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|isdefault|
+|RequiredLevel|None|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Yes
-- **FalseOption Value**: 0 **Label**: No
+#### IsDefault Options
+
+|Value|Label|
+|-----|-----|
+|1|Yes|
+|0|No|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_Name"></a> Name
 
-**Description**: Type a descriptive name of the service level agreement (SLA).<br />
-**DisplayName**: Name<br />
-**LogicalName**: name<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description|Type a descriptive name of the service level agreement (SLA).|
+|DisplayName|Name|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|name|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerId"></a> OwnerId
 
-**Description**: Enter the user or team who owns the SLA. This field is updated every time the item is assigned to a different user.<br />
-**DisplayName**: Owner<br />
-**LogicalName**: ownerid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Owner<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Enter the user or team who owns the SLA. This field is updated every time the item is assigned to a different user.|
+|DisplayName|Owner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ownerid|
+|RequiredLevel|SystemRequired|
+|Targets|systemuser|
+|Type|Owner|
 
 
 ### <a name="BKMK_OwnerIdType"></a> OwnerIdType
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridtype<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridtype|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_OwningBusinessUnit"></a> OwningBusinessUnit
 
-**Description**: Unique identifier for the business unit that owns the record<br />
-**DisplayName**: Owning Business Unit<br />
-**LogicalName**: owningbusinessunit<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: businessunit
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the business unit that owns the record|
+|DisplayName|Owning Business Unit|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningbusinessunit|
+|RequiredLevel|None|
+|Targets|businessunit|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningTeam"></a> OwningTeam
 
-**Description**: Unique identifier for the team that owns the record.<br />
-**DisplayName**: Owning Team<br />
-**LogicalName**: owningteam<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: team
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the team that owns the record.|
+|DisplayName|Owning Team|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owningteam|
+|RequiredLevel|None|
+|Targets|team|
+|Type|Lookup|
 
 
 ### <a name="BKMK_OwningUser"></a> OwningUser
 
-**Description**: Unique identifier for the user that owns the record.<br />
-**DisplayName**: Owning User<br />
-**LogicalName**: owninguser<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for the user that owns the record.|
+|DisplayName|Owning User|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owninguser|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_PrimaryEntityOTC"></a> PrimaryEntityOTC
 
-**Description**: Shows the primary entity that the SLA has been created for.<br />
-**DisplayName**: Primary Entity<br />
-**LogicalName**: primaryentityotc<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Integer<br />
-**Format**: None<br />
-**MaxValue**: 2147483647<br />
-**MinValue**: -2147483648
+|Property|Value|
+|--------|-----|
+|Description|Shows the primary entity that the SLA has been created for.|
+|DisplayName|Primary Entity|
+|Format|None|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|primaryentityotc|
+|MaxValue|2147483647|
+|MinValue|-2147483648|
+|RequiredLevel|SystemRequired|
+|Type|Integer|
 
 
 ### <a name="BKMK_SLAId"></a> SLAId
 
-**Description**: Unique identifier of the SLA.<br />
-**DisplayName**: SLA<br />
-**LogicalName**: slaid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the SLA.|
+|DisplayName|SLA|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|slaid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SLAType"></a> SLAType
 
-**Description**: Select the type of service level agreement (SLA).<br />
-**DisplayName**: SLA Type<br />
-**LogicalName**: slatype<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the type of service level agreement (SLA).|
+|DisplayName|SLA Type|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|slatype|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Standard
-- **Value**: 1 **Label**: Enhanced
+#### SLAType Options
+
+|Value|Label|
+|-----|-----|
+|0|Standard|
+|1|Enhanced|
 
 
 
 ### <a name="BKMK_StateCode"></a> StateCode
 
-**Description**: Shows whether the Service Level Agreement (SLA) is active or inactive.<br />
-**DisplayName**: Status<br />
-**LogicalName**: statecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForCreate**: False<br />
-**Type**: State<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Shows whether the Service Level Agreement (SLA) is active or inactive.|
+|DisplayName|Status|
+|IsValidForCreate|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statecode|
+|RequiredLevel|SystemRequired|
+|Type|State|
 
-- **Value**: 0 **Label**: Draft **DefaultStatus**: 1 **InvariantName**: Draft
-- **Value**: 1 **Label**: Active **DefaultStatus**: 2 **InvariantName**: Active
+#### StateCode Options
+
+|Value|Label|DefaultStatus|InvariantName|
+|-----|-----|-------------|-------------|
+|0|Draft|1|Draft|
+|1|Active|2|Active|
 
 
 
 ### <a name="BKMK_StatusCode"></a> StatusCode
 
-**Description**: Select the status of the service level agreement (SLA).<br />
-**DisplayName**: Status Reason<br />
-**LogicalName**: statuscode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Status<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Select the status of the service level agreement (SLA).|
+|DisplayName|Status Reason|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|statuscode|
+|RequiredLevel|None|
+|Type|Status|
 
-- **Value**: 1 **Label**: Draft **State**: 0
-- **Value**: 2 **Label**: Active **State**: 1
+#### StatusCode Options
+
+|Value|Label|State|
+|-----|-----|-----|
+|1|Draft|0|
+|2|Active|1|
 
 
 
 ### <a name="BKMK_WorkflowId"></a> WorkflowId
 
-**Description**: Workflow associated with the SLA.<br />
-**DisplayName**: Workflow ID<br />
-**LogicalName**: workflowid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: workflow
+|Property|Value|
+|--------|-----|
+|Description|Workflow associated with the SLA.|
+|DisplayName|Workflow ID|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|workflowid|
+|RequiredLevel|None|
+|Targets|workflow|
+|Type|Lookup|
 
 
 ### <a name="BKMK_WorkflowIdName"></a> WorkflowIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: workflowidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|workflowidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -393,956 +454,1022 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_BusinessHoursIdName"></a> BusinessHoursIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: businesshoursidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|businesshoursidname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_ComponentState"></a> ComponentState
 
-**Description**: For internal use only.<br />
-**DisplayName**: Component State<br />
-**LogicalName**: componentstate<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
 
-- **Value**: 0 **Label**: Published
-- **Value**: 1 **Label**: Unpublished
-- **Value**: 2 **Label**: Deleted
-- **Value**: 3 **Label**: Deleted Unpublished
+#### ComponentState Options
+
+|Value|Label|
+|-----|-----|
+|0|Published|
+|1|Unpublished|
+|2|Deleted|
+|3|Deleted Unpublished|
 
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
 
-**Description**: Shows who created the record.<br />
-**DisplayName**: Created By<br />
-**LogicalName**: createdby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record.|
+|DisplayName|Created By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedByName"></a> CreatedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOn"></a> CreatedOn
 
-**Description**: Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Created On<br />
-**LogicalName**: createdon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was created. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Created On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Created By (Delegate)<br />
-**LogicalName**: createdonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Created By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: createdonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|createdonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ExchangeRate"></a> ExchangeRate
 
-**Description**: Exchange rate between the currency associated with the SLA record and the base currency.<br />
-**DisplayName**: Exchange Rate<br />
-**LogicalName**: exchangerate<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Decimal<br />
-**MaxValue**: 100000000000<br />
-**MinValue**: 0.0000000001<br />
-**Precision**: 10
+|Property|Value|
+|--------|-----|
+|Description|Exchange rate between the currency associated with the SLA record and the base currency.|
+|DisplayName|Exchange Rate|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|exchangerate|
+|MaxValue|100000000000|
+|MinValue|0.0000000001|
+|Precision|10|
+|RequiredLevel|None|
+|Type|Decimal|
 
 
 ### <a name="BKMK_IsManaged"></a> IsManaged
 
-**Description**: For internal use only.<br />
-**DisplayName**: Is Managed<br />
-**LogicalName**: ismanaged<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Boolean<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Is Managed|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
 
-- **TrueOption Value**: 1 **Label**: Managed
-- **FalseOption Value**: 0 **Label**: Unmanaged
+#### IsManaged Options
+
+|Value|Label|
+|-----|-----|
+|1|Managed|
+|0|Unmanaged|
 
 **DefaultValue**: False
 
 
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
-**Description**: Shows who last updated the record.<br />
-**DisplayName**: Modified By<br />
-**LogicalName**: modifiedby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who last updated the record.|
+|DisplayName|Modified By|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedByName"></a> ModifiedByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOn"></a> ModifiedOn
 
-**Description**: Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.<br />
-**DisplayName**: Modified On<br />
-**LogicalName**: modifiedon<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateAndTime
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|Shows the date and time when the record was last updated. The date and time are displayed in the time zone selected in Microsoft Dynamics 365 options.|
+|DisplayName|Modified On|
+|Format|DateAndTime|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedon|
+|RequiredLevel|None|
+|Type|DateTime|
 
 
 ### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
 
-**Description**: Shows who created the record on behalf of another user.<br />
-**DisplayName**: Modified By (Delegate)<br />
-**LogicalName**: modifiedonbehalfby<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: systemuser
+|Property|Value|
+|--------|-----|
+|Description|Shows who created the record on behalf of another user.|
+|DisplayName|Modified By (Delegate)|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfby|
+|RequiredLevel|None|
+|Targets|systemuser|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: modifiedonbehalfbyyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|modifiedonbehalfbyyominame|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_ObjectTypeCode"></a> ObjectTypeCode
 
-**Description**: Choose the entity type that the SLA is defined.<br />
-**DisplayName**: Object Type Code<br />
-**LogicalName**: objecttypecode<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Picklist<br />
-**Options**:
+|Property|Value|
+|--------|-----|
+|Description|Choose the entity type that the SLA is defined.|
+|DisplayName|Object Type Code|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|objecttypecode|
+|RequiredLevel|None|
+|Type|Picklist|
 
-- **Value**: 1 **Label**: Account
-- **Value**: 2 **Label**: Contact
-- **Value**: 3 **Label**: Opportunity
-- **Value**: 4 **Label**: Lead
-- **Value**: 5 **Label**: Note
-- **Value**: 6 **Label**: Business Unit Map
-- **Value**: 7 **Label**: Owner
-- **Value**: 8 **Label**: User
-- **Value**: 9 **Label**: Team
-- **Value**: 10 **Label**: Business Unit
-- **Value**: 14 **Label**: System User Principal
-- **Value**: 16 **Label**: AccountLeads
-- **Value**: 17 **Label**: ContactInvoices
-- **Value**: 18 **Label**: ContactQuotes
-- **Value**: 19 **Label**: ContactOrders
-- **Value**: 20 **Label**: Service Contract Contact
-- **Value**: 21 **Label**: ProductSalesLiterature
-- **Value**: 22 **Label**: ContactLeads
-- **Value**: 24 **Label**: LeadCompetitors
-- **Value**: 25 **Label**: OpportunityCompetitors
-- **Value**: 26 **Label**: CompetitorSalesLiterature
-- **Value**: 27 **Label**: LeadProduct
-- **Value**: 29 **Label**: Subscription
-- **Value**: 30 **Label**: Filter Template
-- **Value**: 31 **Label**: Privilege Object Type Code
-- **Value**: 32 **Label**: Sales Process Instance
-- **Value**: 33 **Label**: Subscription Synchronization Information
-- **Value**: 35 **Label**: Tracking information for deleted entities
-- **Value**: 36 **Label**: Client update
-- **Value**: 37 **Label**: Subscription Manually Tracked Object
-- **Value**: 42 **Label**: SystemUser BusinessUnit Entity Map
-- **Value**: 44 **Label**: Field Sharing
-- **Value**: 45 **Label**: Subscription Statistic Offline
-- **Value**: 46 **Label**: Subscription Statistic Outlook
-- **Value**: 47 **Label**: Subscription Sync Entry Offline
-- **Value**: 48 **Label**: Subscription Sync Entry Outlook
-- **Value**: 50 **Label**: Position
-- **Value**: 51 **Label**: System User Manager Map
-- **Value**: 52 **Label**: User Search Facet
-- **Value**: 54 **Label**: Global Search Configuration
-- **Value**: 78 **Label**: Virtual Entity Data Provider
-- **Value**: 85 **Label**: Virtual Entity Data Source
-- **Value**: 92 **Label**: Team template
-- **Value**: 99 **Label**: Social Profile
-- **Value**: 112 **Label**: Case
-- **Value**: 113 **Label**: Child Incident Count
-- **Value**: 123 **Label**: Competitor
-- **Value**: 126 **Label**: Indexed Article
-- **Value**: 127 **Label**: Article
-- **Value**: 129 **Label**: Subject
-- **Value**: 132 **Label**: Announcement
-- **Value**: 135 **Label**: Activity Party
-- **Value**: 150 **Label**: User Settings
-- **Value**: 950 **Label**: New Process
-- **Value**: 951 **Label**: Translation Process
-- **Value**: 952 **Label**: Phone To Case Process
-- **Value**: 953 **Label**: Opportunity Sales Process
-- **Value**: 954 **Label**: Lead To Opportunity Sales Process
-- **Value**: 955 **Label**: Expired Process
-- **Value**: 1001 **Label**: Attachment
-- **Value**: 1002 **Label**: Attachment
-- **Value**: 1003 **Label**: Internal Address
-- **Value**: 1004 **Label**: Competitor Address
-- **Value**: 1006 **Label**: Competitor Product
-- **Value**: 1007 **Label**: Image Descriptor
-- **Value**: 1010 **Label**: Contract
-- **Value**: 1011 **Label**: Contract Line
-- **Value**: 1013 **Label**: Discount
-- **Value**: 1016 **Label**: Article Template
-- **Value**: 1017 **Label**: Lead Address
-- **Value**: 1019 **Label**: Organization
-- **Value**: 1021 **Label**: Organization UI
-- **Value**: 1022 **Label**: Price List
-- **Value**: 1023 **Label**: Privilege
-- **Value**: 1024 **Label**: Product
-- **Value**: 1025 **Label**: Product Association
-- **Value**: 1026 **Label**: Price List Item
-- **Value**: 1028 **Label**: Product Relationship
-- **Value**: 1030 **Label**: System Form
-- **Value**: 1031 **Label**: User Dashboard
-- **Value**: 1036 **Label**: Security Role
-- **Value**: 1037 **Label**: Role Template
-- **Value**: 1038 **Label**: Sales Literature
-- **Value**: 1039 **Label**: View
-- **Value**: 1043 **Label**: String Map
-- **Value**: 1048 **Label**: Property
-- **Value**: 1049 **Label**: Property Option Set Item
-- **Value**: 1055 **Label**: Unit
-- **Value**: 1056 **Label**: Unit Group
-- **Value**: 1070 **Label**: Sales Attachment
-- **Value**: 1071 **Label**: Address
-- **Value**: 1072 **Label**: Subscription Clients
-- **Value**: 1075 **Label**: Status Map
-- **Value**: 1080 **Label**: Discount List
-- **Value**: 1082 **Label**: Article Comment
-- **Value**: 1083 **Label**: Opportunity Line
-- **Value**: 1084 **Label**: Quote
-- **Value**: 1085 **Label**: Quote Line
-- **Value**: 1086 **Label**: User Fiscal Calendar
-- **Value**: 1088 **Label**: Order
-- **Value**: 1089 **Label**: Order Line
-- **Value**: 1090 **Label**: Invoice
-- **Value**: 1091 **Label**: Invoice Line
-- **Value**: 1094 **Label**: Authorization Server
-- **Value**: 1095 **Label**: Partner Application
-- **Value**: 1111 **Label**: System Chart
-- **Value**: 1112 **Label**: User Chart
-- **Value**: 1113 **Label**: Ribbon Tab To Command Mapping
-- **Value**: 1115 **Label**: Ribbon Context Group
-- **Value**: 1116 **Label**: Ribbon Command
-- **Value**: 1117 **Label**: Ribbon Rule
-- **Value**: 1120 **Label**: Application Ribbons
-- **Value**: 1130 **Label**: Ribbon Difference
-- **Value**: 1140 **Label**: Replication Backlog
-- **Value**: 1141 **Label**: Characteristic
-- **Value**: 1142 **Label**: Rating Value
-- **Value**: 1144 **Label**: Rating Model
-- **Value**: 1145 **Label**: Bookable Resource Booking
-- **Value**: 1146 **Label**: Bookable Resource Booking Header
-- **Value**: 1147 **Label**: Bookable Resource Category
-- **Value**: 1148 **Label**: Bookable Resource Characteristic
-- **Value**: 1149 **Label**: Bookable Resource Category Assn
-- **Value**: 1150 **Label**: Bookable Resource
-- **Value**: 1151 **Label**: Bookable Resource Group
-- **Value**: 1152 **Label**: Booking Status
-- **Value**: 1189 **Label**: Document Suggestions
-- **Value**: 1190 **Label**: SuggestionCardTemplate
-- **Value**: 1200 **Label**: Field Security Profile
-- **Value**: 1201 **Label**: Field Permission
-- **Value**: 1203 **Label**: Team Profiles
-- **Value**: 1234 **Label**: Channel Property Group
-- **Value**: 1235 **Label**: Property Association
-- **Value**: 1236 **Label**: Channel Property
-- **Value**: 1300 **Label**: SocialInsightsConfiguration
-- **Value**: 1309 **Label**: Saved Organization Insights Configuration
-- **Value**: 1333 **Label**: Property Instance
-- **Value**: 1400 **Label**: Sync Attribute Mapping Profile
-- **Value**: 1401 **Label**: Sync Attribute Mapping
-- **Value**: 1403 **Label**: Team Sync-Attribute Mapping Profiles
-- **Value**: 1404 **Label**: Principal Sync Attribute Map
-- **Value**: 2000 **Label**: Annual Fiscal Calendar
-- **Value**: 2001 **Label**: Semiannual Fiscal Calendar
-- **Value**: 2002 **Label**: Quarterly Fiscal Calendar
-- **Value**: 2003 **Label**: Monthly Fiscal Calendar
-- **Value**: 2004 **Label**: Fixed Monthly Fiscal Calendar
-- **Value**: 2010 **Label**: Email Template
-- **Value**: 2011 **Label**: Contract Template
-- **Value**: 2012 **Label**: Unresolved Address
-- **Value**: 2013 **Label**: Territory
-- **Value**: 2015 **Label**: Theme
-- **Value**: 2016 **Label**: User Mapping
-- **Value**: 2020 **Label**: Queue
-- **Value**: 2023 **Label**: QueueItemCount
-- **Value**: 2024 **Label**: QueueMemberCount
-- **Value**: 2027 **Label**: License
-- **Value**: 2029 **Label**: Queue Item
-- **Value**: 2500 **Label**: User Entity UI Settings
-- **Value**: 2501 **Label**: User Entity Instance Data
-- **Value**: 3000 **Label**: Integration Status
-- **Value**: 3005 **Label**: Channel Access Profile
-- **Value**: 3008 **Label**: External Party
-- **Value**: 3231 **Label**: Connection Role
-- **Value**: 3233 **Label**: Connection Role Object Type Code
-- **Value**: 3234 **Label**: Connection
-- **Value**: 4000 **Label**: Facility/Equipment
-- **Value**: 4001 **Label**: Service
-- **Value**: 4002 **Label**: Resource
-- **Value**: 4003 **Label**: Calendar
-- **Value**: 4004 **Label**: Calendar Rule
-- **Value**: 4005 **Label**: Scheduling Group
-- **Value**: 4006 **Label**: Resource Specification
-- **Value**: 4007 **Label**: Resource Group
-- **Value**: 4009 **Label**: Site
-- **Value**: 4010 **Label**: Resource Expansion
-- **Value**: 4011 **Label**: Inter Process Lock
-- **Value**: 4023 **Label**: Email Hash
-- **Value**: 4101 **Label**: Display String Map
-- **Value**: 4102 **Label**: Display String
-- **Value**: 4110 **Label**: Notification
-- **Value**: 4120 **Label**: Exchange Sync Id Mapping
-- **Value**: 4200 **Label**: Activity
-- **Value**: 4201 **Label**: Appointment
-- **Value**: 4202 **Label**: Email
-- **Value**: 4204 **Label**: Fax
-- **Value**: 4206 **Label**: Case Resolution
-- **Value**: 4207 **Label**: Letter
-- **Value**: 4208 **Label**: Opportunity Close
-- **Value**: 4209 **Label**: Order Close
-- **Value**: 4210 **Label**: Phone Call
-- **Value**: 4211 **Label**: Quote Close
-- **Value**: 4212 **Label**: Task
-- **Value**: 4214 **Label**: Service Activity
-- **Value**: 4215 **Label**: Commitment
-- **Value**: 4216 **Label**: Social Activity
-- **Value**: 4220 **Label**: UntrackedEmail
-- **Value**: 4230 **Label**: Saved View
-- **Value**: 4231 **Label**: Metadata Difference
-- **Value**: 4232 **Label**: Business Data Localized Label
-- **Value**: 4250 **Label**: Recurrence Rule
-- **Value**: 4251 **Label**: Recurring Appointment
-- **Value**: 4299 **Label**: Email Search
-- **Value**: 4300 **Label**: Marketing List
-- **Value**: 4301 **Label**: Marketing List Member
-- **Value**: 4400 **Label**: Campaign
-- **Value**: 4401 **Label**: Campaign Response
-- **Value**: 4402 **Label**: Campaign Activity
-- **Value**: 4403 **Label**: Campaign Item
-- **Value**: 4404 **Label**: Campaign Activity Item
-- **Value**: 4405 **Label**: Bulk Operation Log
-- **Value**: 4406 **Label**: Quick Campaign
-- **Value**: 4410 **Label**: Data Import
-- **Value**: 4411 **Label**: Data Map
-- **Value**: 4412 **Label**: Import Source File
-- **Value**: 4413 **Label**: Import Data
-- **Value**: 4414 **Label**: Duplicate Detection Rule
-- **Value**: 4415 **Label**: Duplicate Record
-- **Value**: 4416 **Label**: Duplicate Rule Condition
-- **Value**: 4417 **Label**: Column Mapping
-- **Value**: 4418 **Label**: List Value Mapping
-- **Value**: 4419 **Label**: Lookup Mapping
-- **Value**: 4420 **Label**: Owner Mapping
-- **Value**: 4421 **Label**: BookableResourceBooking to Exchange Id Mapping
-- **Value**: 4423 **Label**: Import Log
-- **Value**: 4424 **Label**: Bulk Delete Operation
-- **Value**: 4425 **Label**: Bulk Delete Failure
-- **Value**: 4426 **Label**: Transformation Mapping
-- **Value**: 4427 **Label**: Transformation Parameter Mapping
-- **Value**: 4428 **Label**: Import Entity Mapping
-- **Value**: 4450 **Label**: Data Performance Dashboard
-- **Value**: 4490 **Label**: Office Document
-- **Value**: 4500 **Label**: Relationship Role
-- **Value**: 4501 **Label**: Relationship Role Map
-- **Value**: 4502 **Label**: Customer Relationship
-- **Value**: 4503 **Label**: Opportunity Relationship
-- **Value**: 4545 **Label**: Entitlement Template Product
-- **Value**: 4567 **Label**: Auditing
-- **Value**: 4579 **Label**: Ribbon Client Metadata.
-- **Value**: 4600 **Label**: Entity Map
-- **Value**: 4601 **Label**: Attribute Map
-- **Value**: 4602 **Label**: Plug-in Type
-- **Value**: 4603 **Label**: Plug-in Type Statistic
-- **Value**: 4605 **Label**: Plug-in Assembly
-- **Value**: 4606 **Label**: Sdk Message
-- **Value**: 4607 **Label**: Sdk Message Filter
-- **Value**: 4608 **Label**: Sdk Message Processing Step
-- **Value**: 4609 **Label**: Sdk Message Request
-- **Value**: 4610 **Label**: Sdk Message Response
-- **Value**: 4611 **Label**: Sdk Message Response Field
-- **Value**: 4613 **Label**: Sdk Message Pair
-- **Value**: 4614 **Label**: Sdk Message Request Field
-- **Value**: 4615 **Label**: Sdk Message Processing Step Image
-- **Value**: 4616 **Label**: Sdk Message Processing Step Secure Configuration
-- **Value**: 4618 **Label**: Service Endpoint
-- **Value**: 4619 **Label**: Plug-in Trace Log
-- **Value**: 4700 **Label**: System Job
-- **Value**: 4702 **Label**: Workflow Wait Subscription
-- **Value**: 4703 **Label**: Process
-- **Value**: 4704 **Label**: Process Dependency
-- **Value**: 4705 **Label**: ISV Config
-- **Value**: 4706 **Label**: Process Log
-- **Value**: 4707 **Label**: Application File
-- **Value**: 4708 **Label**: Organization Statistic
-- **Value**: 4709 **Label**: Site Map
-- **Value**: 4710 **Label**: Process Session
-- **Value**: 4711 **Label**: Expander Event
-- **Value**: 4712 **Label**: Process Trigger
-- **Value**: 4724 **Label**: Process Stage
-- **Value**: 4725 **Label**: Business Process Flow Instance
-- **Value**: 4800 **Label**: Web Wizard
-- **Value**: 4802 **Label**: Wizard Page
-- **Value**: 4803 **Label**: Web Wizard Access Privilege
-- **Value**: 4810 **Label**: Time Zone Definition
-- **Value**: 4811 **Label**: Time Zone Rule
-- **Value**: 4812 **Label**: Time Zone Localized Name
-- **Value**: 6363 **Label**: Entitlement Product
-- **Value**: 7000 **Label**: System Application Metadata
-- **Value**: 7001 **Label**: User Application Metadata
-- **Value**: 7100 **Label**: Solution
-- **Value**: 7101 **Label**: Publisher
-- **Value**: 7102 **Label**: Publisher Address
-- **Value**: 7103 **Label**: Solution Component
-- **Value**: 7105 **Label**: Dependency
-- **Value**: 7106 **Label**: Dependency Node
-- **Value**: 7107 **Label**: Invalid Dependency
-- **Value**: 7108 **Label**: Dependency Feature
-- **Value**: 7200 **Label**: RuntimeDependency
-- **Value**: 7272 **Label**: Entitlement Contact
-- **Value**: 8000 **Label**: Post
-- **Value**: 8001 **Label**: Post Role
-- **Value**: 8002 **Label**: Post Regarding
-- **Value**: 8003 **Label**: Follow
-- **Value**: 8005 **Label**: Comment
-- **Value**: 8006 **Label**: Like
-- **Value**: 8040 **Label**: ACIViewMapper
-- **Value**: 8050 **Label**: Trace
-- **Value**: 8051 **Label**: Trace Association
-- **Value**: 8052 **Label**: Trace Regarding
-- **Value**: 8181 **Label**: Routing Rule Set
-- **Value**: 8199 **Label**: Rule Item
-- **Value**: 8700 **Label**: AppModule Metadata
-- **Value**: 8701 **Label**: AppModule Metadata Dependency
-- **Value**: 8702 **Label**: AppModule Metadata Async Operation
-- **Value**: 8840 **Label**: Hierarchy Rule
-- **Value**: 9006 **Label**: App
-- **Value**: 9007 **Label**: App Module Component
-- **Value**: 9009 **Label**: App Module Roles
-- **Value**: 9011 **Label**: App Config Master
-- **Value**: 9012 **Label**: App Configuration
-- **Value**: 9013 **Label**: App Configuration Instance
-- **Value**: 9100 **Label**: Report
-- **Value**: 9101 **Label**: Report Related Entity
-- **Value**: 9102 **Label**: Report Related Category
-- **Value**: 9103 **Label**: Report Visibility
-- **Value**: 9104 **Label**: Report Link
-- **Value**: 9105 **Label**: Currency
-- **Value**: 9106 **Label**: Mail Merge Template
-- **Value**: 9107 **Label**: Import Job
-- **Value**: 9201 **Label**: LocalConfigStore
-- **Value**: 9300 **Label**: Record Creation and Update Rule
-- **Value**: 9301 **Label**: Record Creation and Update Rule Item
-- **Value**: 9333 **Label**: Web Resource
-- **Value**: 9400 **Label**: Channel Access Profile Rule
-- **Value**: 9401 **Label**: Channel Access Profile Rule Item
-- **Value**: 9502 **Label**: SharePoint Site
-- **Value**: 9507 **Label**: Sharepoint Document
-- **Value**: 9508 **Label**: Document Location
-- **Value**: 9509 **Label**: SharePoint Data
-- **Value**: 9510 **Label**: Rollup Properties
-- **Value**: 9511 **Label**: Rollup Job
-- **Value**: 9600 **Label**: Goal
-- **Value**: 9602 **Label**: Rollup Query
-- **Value**: 9603 **Label**: Goal Metric
-- **Value**: 9604 **Label**: Rollup Field
-- **Value**: 9605 **Label**: Email Server Profile
-- **Value**: 9606 **Label**: Mailbox
-- **Value**: 9607 **Label**: Mailbox Statistics
-- **Value**: 9608 **Label**: Mailbox Auto Tracking Folder
-- **Value**: 9650 **Label**: Process Configuration
-- **Value**: 9690 **Label**: Organization Insights Notification
-- **Value**: 9699 **Label**: Organization Insights Metric
-- **Value**: 9700 **Label**: Entitlement
-- **Value**: 9701 **Label**: Entitlement Channel
-- **Value**: 9702 **Label**: Entitlement Template
-- **Value**: 9703 **Label**: Entitlement Template Channel
-- **Value**: 9750 **Label**: SLA
-- **Value**: 9751 **Label**: SLA Item
-- **Value**: 9752 **Label**: SLA KPI Instance
-- **Value**: 9753 **Label**: Custom Control
-- **Value**: 9754 **Label**: Custom Control Resource
-- **Value**: 9755 **Label**: Custom Control Default Config
-- **Value**: 9866 **Label**: Mobile Offline Profile
-- **Value**: 9867 **Label**: Mobile Offline Profile Item
-- **Value**: 9868 **Label**: Mobile Offline Profile Item Association
-- **Value**: 9869 **Label**: Sync Error
-- **Value**: 9870 **Label**: Offline Command Definition
-- **Value**: 9900 **Label**: Navigation Setting
-- **Value**: 9910 **Label**: MultiEntitySearch
-- **Value**: 9912 **Label**: Multi Select Option Value
-- **Value**: 9919 **Label**: Hierarchy Security Configuration
-- **Value**: 9930 **Label**: Knowledge Base Record
-- **Value**: 9931 **Label**: Incident KnowledgeBaseRecord
-- **Value**: 9932 **Label**: Time Stamp Date Mapping
-- **Value**: 9936 **Label**: Azure Service Connection
-- **Value**: 9940 **Label**: Document Template
-- **Value**: 9941 **Label**: Personal Document Template
-- **Value**: 9942 **Label**: Topic Model Configuration
-- **Value**: 9943 **Label**: Topic Model Execution History
-- **Value**: 9944 **Label**: Topic Model
-- **Value**: 9945 **Label**: Text Analytics Entity Mapping
-- **Value**: 9946 **Label**: Topic History
-- **Value**: 9947 **Label**: Knowledge Search Model
-- **Value**: 9948 **Label**: Text Analytics Topic
-- **Value**: 9949 **Label**: Advanced Similarity Rule
-- **Value**: 9950 **Label**: Office Graph Document
-- **Value**: 9951 **Label**: Similarity Rule
-- **Value**: 9953 **Label**: Knowledge Article
-- **Value**: 9954 **Label**: Knowledge Article Incident
-- **Value**: 9955 **Label**: Knowledge Article Views
-- **Value**: 9957 **Label**: Language
-- **Value**: 9958 **Label**: Feedback
-- **Value**: 9959 **Label**: Category
-- **Value**: 9960 **Label**: Knowledge Article Category
-- **Value**: 9961 **Label**: DelveActionHub
-- **Value**: 9962 **Label**: Action Card
-- **Value**: 9968 **Label**: ActionCardUserState
-- **Value**: 9973 **Label**: Action Card User Settings
-- **Value**: 9983 **Label**: Action Card Type
-- **Value**: 9986 **Label**: Interaction for Email
-- **Value**: 9987 **Label**: External Party Item
-- **Value**: 9997 **Label**: Email Signature
-- **Value**: 10000 **Label**: OData v4 Data Source
-- **Value**: 10001 **Label**: Profile Album
-- **Value**: 10002 **Label**: Post Configuration
-- **Value**: 10003 **Label**: Post Rule Configuration
-- **Value**: 10004 **Label**: Wall View
-- **Value**: 10005 **Label**: Filter
-- **Value**: 10006 **Label**: Actual
-- **Value**: 10007 **Label**: Booking Alert
-- **Value**: 10008 **Label**: Booking Alert Status
-- **Value**: 10009 **Label**: Booking Change
-- **Value**: 10010 **Label**: Booking Rule
-- **Value**: 10011 **Label**: Booking Setup Metadata
-- **Value**: 10012 **Label**: Client Extension
-- **Value**: 10013 **Label**: Configuration
-- **Value**: 10014 **Label**: Organizational Unit
-- **Value**: 10015 **Label**: Priority
-- **Value**: 10016 **Label**: Requirement Characteristic
-- **Value**: 10017 **Label**: Requirement Organization Unit
-- **Value**: 10018 **Label**: Requirement Resource Category
-- **Value**: 10019 **Label**: Requirement Resource Preference
-- **Value**: 10020 **Label**: Requirement Status
-- **Value**: 10021 **Label**: Resource Requirement
-- **Value**: 10022 **Label**: Resource Requirement Detail
-- **Value**: 10023 **Label**: Resource Territory
-- **Value**: 10024 **Label**: Schedule Board Setting
-- **Value**: 10025 **Label**: Scheduling Parameter
-- **Value**: 10026 **Label**: System User Scheduler Setting
-- **Value**: 10027 **Label**: Time Group
-- **Value**: 10028 **Label**: Time Group Detail
-- **Value**: 10029 **Label**: Transaction Origin
-- **Value**: 10030 **Label**: Work template
-- **Value**: 10031 **Label**: Account Project Price List
-- **Value**: 10032 **Label**: Approval
-- **Value**: 10033 **Label**: Batch Job
-- **Value**: 10034 **Label**: Project Stages
-- **Value**: 10035 **Label**: Invoice Process
-- **Value**: 10036 **Label**: Competency Requirement (Deprecated)
-- **Value**: 10037 **Label**: Contact Price List
-- **Value**: 10038 **Label**: Project Contract Line Invoice Schedule
-- **Value**: 10039 **Label**: Project Contract Line Milestone
-- **Value**: 10040 **Label**: Actual Data Export (Deprecated)
-- **Value**: 10041 **Label**: Delegation
-- **Value**: 10042 **Label**: Estimate
-- **Value**: 10043 **Label**: Estimate Line
-- **Value**: 10044 **Label**: Expense
-- **Value**: 10045 **Label**: Expense Category
-- **Value**: 10046 **Label**: Expense Receipt
-- **Value**: 10047 **Label**: Fact
-- **Value**: 10048 **Label**: Field Computation
-- **Value**: 10049 **Label**: Find Work Event
-- **Value**: 10050 **Label**: Integration Job
-- **Value**: 10051 **Label**: Integration Job Detail
-- **Value**: 10052 **Label**: Invoice Frequency
-- **Value**: 10053 **Label**: Invoice Frequency Detail
-- **Value**: 10054 **Label**: Invoice Line Detail
-- **Value**: 10055 **Label**: Journal
-- **Value**: 10056 **Label**: Journal Line
-- **Value**: 10057 **Label**: Result Cache
-- **Value**: 10058 **Label**: Opportunity Line Resource Category
-- **Value**: 10059 **Label**: Opportunity Line Detail
-- **Value**: 10060 **Label**: Opportunity Line Transaction Category
-- **Value**: 10061 **Label**: Opportunity Line Transaction Classification
-- **Value**: 10062 **Label**: Opportunity Project Price List
-- **Value**: 10063 **Label**: Project Contract Line Resource Category
-- **Value**: 10064 **Label**: Project Contract Line Detail
-- **Value**: 10065 **Label**: Project Contract Line Transaction Category
-- **Value**: 10066 **Label**: Project Contract Line Transaction Classification
-- **Value**: 10067 **Label**: Project Contract Project Price List
-- **Value**: 10068 **Label**: Process Notes
-- **Value**: 10069 **Label**: Project
-- **Value**: 10070 **Label**: Project Approval
-- **Value**: 10071 **Label**: Project Parameter
-- **Value**: 10072 **Label**: Project Parameter Price List
-- **Value**: 10073 **Label**: Project Price List
-- **Value**: 10074 **Label**: Project Task
-- **Value**: 10075 **Label**: Project Task Dependency
-- **Value**: 10076 **Label**: Project Task Status User
-- **Value**: 10077 **Label**: Project Team Member
-- **Value**: 10078 **Label**: Project Team Member Sign-Up
-- **Value**: 10079 **Label**: Project Transaction Category
-- **Value**: 10080 **Label**: Quote Line Analytics Breakdown
-- **Value**: 10081 **Label**: Quote Line Invoice Schedule
-- **Value**: 10082 **Label**: Quote Line Resource Category
-- **Value**: 10083 **Label**: Quote Line Milestone
-- **Value**: 10084 **Label**: Quote Line Detail
-- **Value**: 10085 **Label**: Quote Line Transaction Category
-- **Value**: 10086 **Label**: Quote Line Transaction Classification
-- **Value**: 10087 **Label**: Quote Project Price List
-- **Value**: 10088 **Label**: Resource Assignment
-- **Value**: 10089 **Label**: Resource Assignment Detail
-- **Value**: 10090 **Label**: Role Price
-- **Value**: 10091 **Label**: Resource Request
-- **Value**: 10092 **Label**: Role competency requirement
-- **Value**: 10093 **Label**: Role Utilization
-- **Value**: 10094 **Label**: Time Entry
-- **Value**: 10095 **Label**: Time Off Calendar
-- **Value**: 10096 **Label**: Transaction Category
-- **Value**: 10097 **Label**: Transaction Category Classification
-- **Value**: 10098 **Label**: Transaction Category Hierarchy Element
-- **Value**: 10099 **Label**: Transaction Category Price
-- **Value**: 10100 **Label**: Transaction Connection
-- **Value**: 10101 **Label**: Transaction Type
-- **Value**: 10102 **Label**: User Work History
-- **Value**: 10107 **Label**: Agreement
-- **Value**: 10108 **Label**: Agreement Booking Date
-- **Value**: 10109 **Label**: Agreement Booking Incident
-- **Value**: 10110 **Label**: Agreement Booking Product
-- **Value**: 10111 **Label**: Agreement Booking Service
-- **Value**: 10112 **Label**: Agreement Booking Service Task
-- **Value**: 10113 **Label**: Agreement Booking Setup
-- **Value**: 10114 **Label**: Agreement Invoice Date
-- **Value**: 10115 **Label**: Agreement Invoice Product
-- **Value**: 10116 **Label**: Agreement Invoice Setup
-- **Value**: 10117 **Label**: Agreement Sub-Status
-- **Value**: 10118 **Label**: Booking Journal
-- **Value**: 10119 **Label**: Booking Timestamp
-- **Value**: 10120 **Label**: Purchase Order Business Process
-- **Value**: 10121 **Label**: Case to Work Order Business Process
-- **Value**: 10122 **Label**: Agreement Business Process
-- **Value**: 10123 **Label**: Work Order Business Process
-- **Value**: 10124 **Label**: Customer Asset
-- **Value**: 10125 **Label**: Field Service Price List Item
-- **Value**: 10126 **Label**: Field Service Setting
-- **Value**: 10127 **Label**: Field Service System Job
-- **Value**: 10128 **Label**: Incident Type
-- **Value**: 10129 **Label**: Incident Type Characteristic
-- **Value**: 10130 **Label**: Incident Type Product
-- **Value**: 10131 **Label**: Incident Type Service
-- **Value**: 10132 **Label**: Incident Type Service Task
-- **Value**: 10133 **Label**: Inventory Adjustment
-- **Value**: 10134 **Label**: Inventory Adjustment Product
-- **Value**: 10135 **Label**: Inventory Journal
-- **Value**: 10136 **Label**: Inventory Transfer
-- **Value**: 10137 **Label**: Order Invoicing Date
-- **Value**: 10138 **Label**: Order Invoicing Product
-- **Value**: 10139 **Label**: Order Invoicing Setup
-- **Value**: 10140 **Label**: Order Invoicing Setup Date
-- **Value**: 10141 **Label**: Payment
-- **Value**: 10142 **Label**: Payment Detail
-- **Value**: 10143 **Label**: Payment Method
-- **Value**: 10144 **Label**: Payment Term
-- **Value**: 10145 **Label**: Postal Code
-- **Value**: 10146 **Label**: Product Inventory
-- **Value**: 10147 **Label**: Purchase Order
-- **Value**: 10148 **Label**: Purchase Order Bill
-- **Value**: 10149 **Label**: Purchase Order Product
-- **Value**: 10150 **Label**: Purchase Order Receipt
-- **Value**: 10151 **Label**: Purchase Order Receipt Product
-- **Value**: 10152 **Label**: Purchase Order Sub Status
-- **Value**: 10153 **Label**: Quote Booking Incident
-- **Value**: 10154 **Label**: Quote Booking Product
-- **Value**: 10155 **Label**: Quote Booking Service
-- **Value**: 10156 **Label**: Quote Booking Service Task
-- **Value**: 10157 **Label**: Quote Booking Setup
-- **Value**: 10158 **Label**: Quote Invoicing Product
-- **Value**: 10159 **Label**: Quote Invoicing Setup
-- **Value**: 10160 **Label**: Resource Pay Type
-- **Value**: 10161 **Label**: RMA
-- **Value**: 10162 **Label**: RMA Product
-- **Value**: 10163 **Label**: RMA Receipt
-- **Value**: 10164 **Label**: RMA Receipt Product
-- **Value**: 10165 **Label**: RMA Sub-Status
-- **Value**: 10166 **Label**: RTV
-- **Value**: 10167 **Label**: RTV Product
-- **Value**: 10168 **Label**: RTV Sub-Status
-- **Value**: 10169 **Label**: Service Task Type
-- **Value**: 10170 **Label**: Ship Via
-- **Value**: 10171 **Label**: Tax Code
-- **Value**: 10172 **Label**: Tax Code Detail
-- **Value**: 10173 **Label**: Time Off Request
-- **Value**: 10174 **Label**: Unique Number
-- **Value**: 10175 **Label**: Warehouse
-- **Value**: 10176 **Label**: Work Order
-- **Value**: 10177 **Label**: Work Order Characteristic (Deprecated)
-- **Value**: 10178 **Label**: Work Order Details Generation Queue (Deprecated)
-- **Value**: 10179 **Label**: Work Order Incident
-- **Value**: 10180 **Label**: Work Order Product
-- **Value**: 10181 **Label**: Resource Restriction (Deprecated)
-- **Value**: 10182 **Label**: Work Order Service
-- **Value**: 10183 **Label**: Work Order Service Task
-- **Value**: 10184 **Label**: Work Order Sub-Status
-- **Value**: 10185 **Label**: Work Order Type
-- **Value**: 10190 **Label**: IoT Alert
-- **Value**: 10191 **Label**: IoT Device
-- **Value**: 10192 **Label**: IoT Device Category
-- **Value**: 10193 **Label**: IoT Device Command
-- **Value**: 10194 **Label**: IoT Device Registration History
-- **Value**: 10195 **Label**: CFS - IoT Alert Process Flow
+#### ObjectTypeCode Options
+
+|Value|Label|
+|-----|-----|
+|1|Account|
+|2|Contact|
+|3|Opportunity|
+|4|Lead|
+|5|Note|
+|6|Business Unit Map|
+|7|Owner|
+|8|User|
+|9|Team|
+|10|Business Unit|
+|14|System User Principal|
+|16|AccountLeads|
+|17|ContactInvoices|
+|18|ContactQuotes|
+|19|ContactOrders|
+|20|Service Contract Contact|
+|21|ProductSalesLiterature|
+|22|ContactLeads|
+|24|LeadCompetitors|
+|25|OpportunityCompetitors|
+|26|CompetitorSalesLiterature|
+|27|LeadProduct|
+|29|Subscription|
+|30|Filter Template|
+|31|Privilege Object Type Code|
+|32|Sales Process Instance|
+|33|Subscription Synchronization Information|
+|35|Tracking information for deleted entities|
+|36|Client update|
+|37|Subscription Manually Tracked Object|
+|42|SystemUser BusinessUnit Entity Map|
+|44|Field Sharing|
+|45|Subscription Statistic Offline|
+|46|Subscription Statistic Outlook|
+|47|Subscription Sync Entry Offline|
+|48|Subscription Sync Entry Outlook|
+|50|Position|
+|51|System User Manager Map|
+|52|User Search Facet|
+|54|Global Search Configuration|
+|78|Virtual Entity Data Provider|
+|85|Virtual Entity Data Source|
+|92|Team template|
+|99|Social Profile|
+|112|Case|
+|113|Child Incident Count|
+|123|Competitor|
+|126|Indexed Article|
+|127|Article|
+|129|Subject|
+|132|Announcement|
+|135|Activity Party|
+|150|User Settings|
+|950|New Process|
+|951|Translation Process|
+|952|Phone To Case Process|
+|953|Opportunity Sales Process|
+|954|Lead To Opportunity Sales Process|
+|955|Expired Process|
+|1001|Attachment|
+|1002|Attachment|
+|1003|Internal Address|
+|1004|Competitor Address|
+|1006|Competitor Product|
+|1007|Image Descriptor|
+|1010|Contract|
+|1011|Contract Line|
+|1013|Discount|
+|1016|Article Template|
+|1017|Lead Address|
+|1019|Organization|
+|1021|Organization UI|
+|1022|Price List|
+|1023|Privilege|
+|1024|Product|
+|1025|Product Association|
+|1026|Price List Item|
+|1028|Product Relationship|
+|1030|System Form|
+|1031|User Dashboard|
+|1036|Security Role|
+|1037|Role Template|
+|1038|Sales Literature|
+|1039|View|
+|1043|String Map|
+|1048|Property|
+|1049|Property Option Set Item|
+|1055|Unit|
+|1056|Unit Group|
+|1070|Sales Attachment|
+|1071|Address|
+|1072|Subscription Clients|
+|1075|Status Map|
+|1080|Discount List|
+|1082|Article Comment|
+|1083|Opportunity Line|
+|1084|Quote|
+|1085|Quote Line|
+|1086|User Fiscal Calendar|
+|1088|Order|
+|1089|Order Line|
+|1090|Invoice|
+|1091|Invoice Line|
+|1094|Authorization Server|
+|1095|Partner Application|
+|1111|System Chart|
+|1112|User Chart|
+|1113|Ribbon Tab To Command Mapping|
+|1115|Ribbon Context Group|
+|1116|Ribbon Command|
+|1117|Ribbon Rule|
+|1120|Application Ribbons|
+|1130|Ribbon Difference|
+|1140|Replication Backlog|
+|1141|Characteristic|
+|1142|Rating Value|
+|1144|Rating Model|
+|1145|Bookable Resource Booking|
+|1146|Bookable Resource Booking Header|
+|1147|Bookable Resource Category|
+|1148|Bookable Resource Characteristic|
+|1149|Bookable Resource Category Assn|
+|1150|Bookable Resource|
+|1151|Bookable Resource Group|
+|1152|Booking Status|
+|1189|Document Suggestions|
+|1190|SuggestionCardTemplate|
+|1200|Field Security Profile|
+|1201|Field Permission|
+|1203|Team Profiles|
+|1234|Channel Property Group|
+|1235|Property Association|
+|1236|Channel Property|
+|1300|SocialInsightsConfiguration|
+|1309|Saved Organization Insights Configuration|
+|1333|Property Instance|
+|1400|Sync Attribute Mapping Profile|
+|1401|Sync Attribute Mapping|
+|1403|Team Sync-Attribute Mapping Profiles|
+|1404|Principal Sync Attribute Map|
+|2000|Annual Fiscal Calendar|
+|2001|Semiannual Fiscal Calendar|
+|2002|Quarterly Fiscal Calendar|
+|2003|Monthly Fiscal Calendar|
+|2004|Fixed Monthly Fiscal Calendar|
+|2010|Email Template|
+|2011|Contract Template|
+|2012|Unresolved Address|
+|2013|Territory|
+|2015|Theme|
+|2016|User Mapping|
+|2020|Queue|
+|2023|QueueItemCount|
+|2024|QueueMemberCount|
+|2027|License|
+|2029|Queue Item|
+|2500|User Entity UI Settings|
+|2501|User Entity Instance Data|
+|3000|Integration Status|
+|3005|Channel Access Profile|
+|3008|External Party|
+|3231|Connection Role|
+|3233|Connection Role Object Type Code|
+|3234|Connection|
+|4000|Facility/Equipment|
+|4001|Service|
+|4002|Resource|
+|4003|Calendar|
+|4004|Calendar Rule|
+|4005|Scheduling Group|
+|4006|Resource Specification|
+|4007|Resource Group|
+|4009|Site|
+|4010|Resource Expansion|
+|4011|Inter Process Lock|
+|4023|Email Hash|
+|4101|Display String Map|
+|4102|Display String|
+|4110|Notification|
+|4120|Exchange Sync Id Mapping|
+|4200|Activity|
+|4201|Appointment|
+|4202|Email|
+|4204|Fax|
+|4206|Case Resolution|
+|4207|Letter|
+|4208|Opportunity Close|
+|4209|Order Close|
+|4210|Phone Call|
+|4211|Quote Close|
+|4212|Task|
+|4214|Service Activity|
+|4215|Commitment|
+|4216|Social Activity|
+|4220|UntrackedEmail|
+|4230|Saved View|
+|4231|Metadata Difference|
+|4232|Business Data Localized Label|
+|4250|Recurrence Rule|
+|4251|Recurring Appointment|
+|4299|Email Search|
+|4300|Marketing List|
+|4301|Marketing List Member|
+|4400|Campaign|
+|4401|Campaign Response|
+|4402|Campaign Activity|
+|4403|Campaign Item|
+|4404|Campaign Activity Item|
+|4405|Bulk Operation Log|
+|4406|Quick Campaign|
+|4410|Data Import|
+|4411|Data Map|
+|4412|Import Source File|
+|4413|Import Data|
+|4414|Duplicate Detection Rule|
+|4415|Duplicate Record|
+|4416|Duplicate Rule Condition|
+|4417|Column Mapping|
+|4418|List Value Mapping|
+|4419|Lookup Mapping|
+|4420|Owner Mapping|
+|4421|BookableResourceBooking to Exchange Id Mapping|
+|4423|Import Log|
+|4424|Bulk Delete Operation|
+|4425|Bulk Delete Failure|
+|4426|Transformation Mapping|
+|4427|Transformation Parameter Mapping|
+|4428|Import Entity Mapping|
+|4450|Data Performance Dashboard|
+|4490|Office Document|
+|4500|Relationship Role|
+|4501|Relationship Role Map|
+|4502|Customer Relationship|
+|4503|Opportunity Relationship|
+|4545|Entitlement Template Product|
+|4567|Auditing|
+|4579|Ribbon Client Metadata.|
+|4600|Entity Map|
+|4601|Attribute Map|
+|4602|Plug-in Type|
+|4603|Plug-in Type Statistic|
+|4605|Plug-in Assembly|
+|4606|Sdk Message|
+|4607|Sdk Message Filter|
+|4608|Sdk Message Processing Step|
+|4609|Sdk Message Request|
+|4610|Sdk Message Response|
+|4611|Sdk Message Response Field|
+|4613|Sdk Message Pair|
+|4614|Sdk Message Request Field|
+|4615|Sdk Message Processing Step Image|
+|4616|Sdk Message Processing Step Secure Configuration|
+|4618|Service Endpoint|
+|4619|Plug-in Trace Log|
+|4700|System Job|
+|4702|Workflow Wait Subscription|
+|4703|Process|
+|4704|Process Dependency|
+|4705|ISV Config|
+|4706|Process Log|
+|4707|Application File|
+|4708|Organization Statistic|
+|4709|Site Map|
+|4710|Process Session|
+|4711|Expander Event|
+|4712|Process Trigger|
+|4724|Process Stage|
+|4725|Business Process Flow Instance|
+|4800|Web Wizard|
+|4802|Wizard Page|
+|4803|Web Wizard Access Privilege|
+|4810|Time Zone Definition|
+|4811|Time Zone Rule|
+|4812|Time Zone Localized Name|
+|6363|Entitlement Product|
+|7000|System Application Metadata|
+|7001|User Application Metadata|
+|7100|Solution|
+|7101|Publisher|
+|7102|Publisher Address|
+|7103|Solution Component|
+|7105|Dependency|
+|7106|Dependency Node|
+|7107|Invalid Dependency|
+|7108|Dependency Feature|
+|7200|RuntimeDependency|
+|7272|Entitlement Contact|
+|8000|Post|
+|8001|Post Role|
+|8002|Post Regarding|
+|8003|Follow|
+|8005|Comment|
+|8006|Like|
+|8040|ACIViewMapper|
+|8050|Trace|
+|8051|Trace Association|
+|8052|Trace Regarding|
+|8181|Routing Rule Set|
+|8199|Rule Item|
+|8700|AppModule Metadata|
+|8701|AppModule Metadata Dependency|
+|8702|AppModule Metadata Async Operation|
+|8840|Hierarchy Rule|
+|9006|App|
+|9007|App Module Component|
+|9009|App Module Roles|
+|9011|App Config Master|
+|9012|App Configuration|
+|9013|App Configuration Instance|
+|9100|Report|
+|9101|Report Related Entity|
+|9102|Report Related Category|
+|9103|Report Visibility|
+|9104|Report Link|
+|9105|Currency|
+|9106|Mail Merge Template|
+|9107|Import Job|
+|9201|LocalConfigStore|
+|9300|Record Creation and Update Rule|
+|9301|Record Creation and Update Rule Item|
+|9333|Web Resource|
+|9400|Channel Access Profile Rule|
+|9401|Channel Access Profile Rule Item|
+|9502|SharePoint Site|
+|9507|Sharepoint Document|
+|9508|Document Location|
+|9509|SharePoint Data|
+|9510|Rollup Properties|
+|9511|Rollup Job|
+|9600|Goal|
+|9602|Rollup Query|
+|9603|Goal Metric|
+|9604|Rollup Field|
+|9605|Email Server Profile|
+|9606|Mailbox|
+|9607|Mailbox Statistics|
+|9608|Mailbox Auto Tracking Folder|
+|9650|Process Configuration|
+|9690|Organization Insights Notification|
+|9699|Organization Insights Metric|
+|9700|Entitlement|
+|9701|Entitlement Channel|
+|9702|Entitlement Template|
+|9703|Entitlement Template Channel|
+|9750|SLA|
+|9751|SLA Item|
+|9752|SLA KPI Instance|
+|9753|Custom Control|
+|9754|Custom Control Resource|
+|9755|Custom Control Default Config|
+|9866|Mobile Offline Profile|
+|9867|Mobile Offline Profile Item|
+|9868|Mobile Offline Profile Item Association|
+|9869|Sync Error|
+|9870|Offline Command Definition|
+|9900|Navigation Setting|
+|9910|MultiEntitySearch|
+|9912|Multi Select Option Value|
+|9919|Hierarchy Security Configuration|
+|9930|Knowledge Base Record|
+|9931|Incident KnowledgeBaseRecord|
+|9932|Time Stamp Date Mapping|
+|9936|Azure Service Connection|
+|9940|Document Template|
+|9941|Personal Document Template|
+|9942|Topic Model Configuration|
+|9943|Topic Model Execution History|
+|9944|Topic Model|
+|9945|Text Analytics Entity Mapping|
+|9946|Topic History|
+|9947|Knowledge Search Model|
+|9948|Text Analytics Topic|
+|9949|Advanced Similarity Rule|
+|9950|Office Graph Document|
+|9951|Similarity Rule|
+|9953|Knowledge Article|
+|9954|Knowledge Article Incident|
+|9955|Knowledge Article Views|
+|9957|Language|
+|9958|Feedback|
+|9959|Category|
+|9960|Knowledge Article Category|
+|9961|DelveActionHub|
+|9962|Action Card|
+|9968|ActionCardUserState|
+|9973|Action Card User Settings|
+|9983|Action Card Type|
+|9986|Interaction for Email|
+|9987|External Party Item|
+|9997|Email Signature|
+|10000|OData v4 Data Source|
+|10001|Profile Album|
+|10002|Post Configuration|
+|10003|Post Rule Configuration|
+|10004|Wall View|
+|10005|Filter|
+|10006|Actual|
+|10007|Booking Alert|
+|10008|Booking Alert Status|
+|10009|Booking Change|
+|10010|Booking Rule|
+|10011|Booking Setup Metadata|
+|10012|Client Extension|
+|10013|Configuration|
+|10014|Organizational Unit|
+|10015|Priority|
+|10016|Requirement Characteristic|
+|10017|Requirement Organization Unit|
+|10018|Requirement Resource Category|
+|10019|Requirement Resource Preference|
+|10020|Requirement Status|
+|10021|Resource Requirement|
+|10022|Resource Requirement Detail|
+|10023|Resource Territory|
+|10024|Schedule Board Setting|
+|10025|Scheduling Parameter|
+|10026|System User Scheduler Setting|
+|10027|Time Group|
+|10028|Time Group Detail|
+|10029|Transaction Origin|
+|10030|Work template|
+|10031|Account Project Price List|
+|10032|Approval|
+|10033|Batch Job|
+|10034|Project Stages|
+|10035|Invoice Process|
+|10036|Competency Requirement (Deprecated)|
+|10037|Contact Price List|
+|10038|Project Contract Line Invoice Schedule|
+|10039|Project Contract Line Milestone|
+|10040|Actual Data Export (Deprecated)|
+|10041|Delegation|
+|10042|Estimate|
+|10043|Estimate Line|
+|10044|Expense|
+|10045|Expense Category|
+|10046|Expense Receipt|
+|10047|Fact|
+|10048|Field Computation|
+|10049|Find Work Event|
+|10050|Integration Job|
+|10051|Integration Job Detail|
+|10052|Invoice Frequency|
+|10053|Invoice Frequency Detail|
+|10054|Invoice Line Detail|
+|10055|Journal|
+|10056|Journal Line|
+|10057|Result Cache|
+|10058|Opportunity Line Resource Category|
+|10059|Opportunity Line Detail|
+|10060|Opportunity Line Transaction Category|
+|10061|Opportunity Line Transaction Classification|
+|10062|Opportunity Project Price List|
+|10063|Project Contract Line Resource Category|
+|10064|Project Contract Line Detail|
+|10065|Project Contract Line Transaction Category|
+|10066|Project Contract Line Transaction Classification|
+|10067|Project Contract Project Price List|
+|10068|Process Notes|
+|10069|Project|
+|10070|Project Approval|
+|10071|Project Parameter|
+|10072|Project Parameter Price List|
+|10073|Project Price List|
+|10074|Project Task|
+|10075|Project Task Dependency|
+|10076|Project Task Status User|
+|10077|Project Team Member|
+|10078|Project Team Member Sign-Up|
+|10079|Project Transaction Category|
+|10080|Quote Line Analytics Breakdown|
+|10081|Quote Line Invoice Schedule|
+|10082|Quote Line Resource Category|
+|10083|Quote Line Milestone|
+|10084|Quote Line Detail|
+|10085|Quote Line Transaction Category|
+|10086|Quote Line Transaction Classification|
+|10087|Quote Project Price List|
+|10088|Resource Assignment|
+|10089|Resource Assignment Detail|
+|10090|Role Price|
+|10091|Resource Request|
+|10092|Role competency requirement|
+|10093|Role Utilization|
+|10094|Time Entry|
+|10095|Time Off Calendar|
+|10096|Transaction Category|
+|10097|Transaction Category Classification|
+|10098|Transaction Category Hierarchy Element|
+|10099|Transaction Category Price|
+|10100|Transaction Connection|
+|10101|Transaction Type|
+|10102|User Work History|
+|10107|Agreement|
+|10108|Agreement Booking Date|
+|10109|Agreement Booking Incident|
+|10110|Agreement Booking Product|
+|10111|Agreement Booking Service|
+|10112|Agreement Booking Service Task|
+|10113|Agreement Booking Setup|
+|10114|Agreement Invoice Date|
+|10115|Agreement Invoice Product|
+|10116|Agreement Invoice Setup|
+|10117|Agreement Sub-Status|
+|10118|Booking Journal|
+|10119|Booking Timestamp|
+|10120|Purchase Order Business Process|
+|10121|Case to Work Order Business Process|
+|10122|Agreement Business Process|
+|10123|Work Order Business Process|
+|10124|Customer Asset|
+|10125|Field Service Price List Item|
+|10126|Field Service Setting|
+|10127|Field Service System Job|
+|10128|Incident Type|
+|10129|Incident Type Characteristic|
+|10130|Incident Type Product|
+|10131|Incident Type Service|
+|10132|Incident Type Service Task|
+|10133|Inventory Adjustment|
+|10134|Inventory Adjustment Product|
+|10135|Inventory Journal|
+|10136|Inventory Transfer|
+|10137|Order Invoicing Date|
+|10138|Order Invoicing Product|
+|10139|Order Invoicing Setup|
+|10140|Order Invoicing Setup Date|
+|10141|Payment|
+|10142|Payment Detail|
+|10143|Payment Method|
+|10144|Payment Term|
+|10145|Postal Code|
+|10146|Product Inventory|
+|10147|Purchase Order|
+|10148|Purchase Order Bill|
+|10149|Purchase Order Product|
+|10150|Purchase Order Receipt|
+|10151|Purchase Order Receipt Product|
+|10152|Purchase Order Sub Status|
+|10153|Quote Booking Incident|
+|10154|Quote Booking Product|
+|10155|Quote Booking Service|
+|10156|Quote Booking Service Task|
+|10157|Quote Booking Setup|
+|10158|Quote Invoicing Product|
+|10159|Quote Invoicing Setup|
+|10160|Resource Pay Type|
+|10161|RMA|
+|10162|RMA Product|
+|10163|RMA Receipt|
+|10164|RMA Receipt Product|
+|10165|RMA Sub-Status|
+|10166|RTV|
+|10167|RTV Product|
+|10168|RTV Sub-Status|
+|10169|Service Task Type|
+|10170|Ship Via|
+|10171|Tax Code|
+|10172|Tax Code Detail|
+|10173|Time Off Request|
+|10174|Unique Number|
+|10175|Warehouse|
+|10176|Work Order|
+|10177|Work Order Characteristic (Deprecated)|
+|10178|Work Order Details Generation Queue (Deprecated)|
+|10179|Work Order Incident|
+|10180|Work Order Product|
+|10181|Resource Restriction (Deprecated)|
+|10182|Work Order Service|
+|10183|Work Order Service Task|
+|10184|Work Order Sub-Status|
+|10185|Work Order Type|
+|10186|IoT Alert|
+|10187|IoT Device|
+|10188|IoT Device Category|
+|10189|IoT Device Command|
+|10190|IoT Device Registration History|
+|10191|CFS - IoT Alert Process Flow|
 
 
 
 ### <a name="BKMK_OverwriteTime"></a> OverwriteTime
 
-**Description**: For internal use only.<br />
-**DisplayName**: Record Overwrite Time<br />
-**LogicalName**: overwritetime<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: DateTime<br />
-**DateTimeBehavior**: UserLocal<br />
-**Format**: DateOnly
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Record Overwrite Time|
+|Format|DateOnly|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
 
 
 ### <a name="BKMK_OwnerIdName"></a> OwnerIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridname|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_OwnerIdYomiName"></a> OwnerIdYomiName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: owneridyominame<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|owneridyominame|
+|MaxLength|100|
+|RequiredLevel|SystemRequired|
+|Type|String|
 
 
 ### <a name="BKMK_SLAIdUnique"></a> SLAIdUnique
 
-**Description**: For internal use only.<br />
-**DisplayName**: Unique Id<br />
-**LogicalName**: slaidunique<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Unique Id|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|slaidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SolutionId"></a> SolutionId
 
-**Description**: Unique identifier of the associated solution.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: solutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
 
-**Description**: For internal use only.<br />
-**DisplayName**: Solution<br />
-**LogicalName**: supportingsolutionid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: False<br />
-**RequiredLevel**: None<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
 
-**Description**: Unique identifier of the currency associated with the SLA record.<br />
-**DisplayName**: Currency<br />
-**LogicalName**: transactioncurrencyid<br />
-**IsValidForForm**: True<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: Lookup<br />
-**Targets**: transactioncurrency
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the currency associated with the SLA record.|
+|DisplayName|Currency|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyid|
+|RequiredLevel|None|
+|Targets|transactioncurrency|
+|Type|Lookup|
 
 
 ### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: transactioncurrencyidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|transactioncurrencyidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: Version number of the SLA.<br />
-**DisplayName**: Version Number<br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description|Version number of the SLA.|
+|DisplayName|Version Number|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -1358,28 +1485,28 @@ Listed by **SchemaName**.
 - [campaignactivity_sla_slainvokedid](#BKMK_campaignactivity_sla_slainvokedid)
 - [campaignresponse_sla_slaid](#BKMK_campaignresponse_sla_slaid)
 - [campaignresponse_sla_slainvokedid](#BKMK_campaignresponse_sla_slainvokedid)
-- [sla_entitlement](#BKMK_sla_entitlement)
 - [manualsla_cases](#BKMK_manualsla_cases)
 - [sla_cases](#BKMK_sla_cases)
 - [incidentresolution_sla_slaid](#BKMK_incidentresolution_sla_slaid)
 - [incidentresolution_sla_slainvokedid](#BKMK_incidentresolution_sla_slainvokedid)
 - [manualsla_serviceappointment](#BKMK_manualsla_serviceappointment)
 - [sla_serviceappointment](#BKMK_sla_serviceappointment)
+- [sla_entitlement](#BKMK_sla_entitlement)
 - [sla_entitlementtemplate](#BKMK_sla_entitlementtemplate)
-- [manualsla_invoice](#BKMK_manualsla_invoice)
-- [sla_invoice](#BKMK_sla_invoice)
-- [manualsla_opportunity](#BKMK_manualsla_opportunity)
-- [sla_opportunity](#BKMK_sla_opportunity)
 - [opportunityclose_sla_slaid](#BKMK_opportunityclose_sla_slaid)
 - [opportunityclose_sla_slainvokedid](#BKMK_opportunityclose_sla_slainvokedid)
 - [orderclose_sla_slaid](#BKMK_orderclose_sla_slaid)
 - [orderclose_sla_slainvokedid](#BKMK_orderclose_sla_slainvokedid)
-- [manualsla_quote](#BKMK_manualsla_quote)
-- [sla_quote](#BKMK_sla_quote)
 - [quoteclose_sla_slaid](#BKMK_quoteclose_sla_slaid)
 - [quoteclose_sla_slainvokedid](#BKMK_quoteclose_sla_slainvokedid)
+- [sla_invoice](#BKMK_sla_invoice)
 - [manualsla_salesorder](#BKMK_manualsla_salesorder)
 - [sla_salesorder](#BKMK_sla_salesorder)
+- [manualsla_quote](#BKMK_manualsla_quote)
+- [sla_quote](#BKMK_sla_quote)
+- [manualsla_opportunity](#BKMK_manualsla_opportunity)
+- [sla_opportunity](#BKMK_sla_opportunity)
+- [manualsla_invoice](#BKMK_manualsla_invoice)
 - [msdyn_bookingalert_sla_slaid](#BKMK_msdyn_bookingalert_sla_slaid)
 - [msdyn_bookingalert_sla_slainvokedid](#BKMK_msdyn_bookingalert_sla_slainvokedid)
 - [msdyn_approval_sla_slaid](#BKMK_msdyn_approval_sla_slaid)
@@ -1416,1587 +1543,855 @@ Listed by **SchemaName**.
 ### <a name="BKMK_manualsla_lead"></a> manualsla_lead
 
 Same as lead entity [manualsla_lead](lead.md#BKMK_manualsla_lead) Many-To-One relationship.
-
-**ReferencingEntity**: lead<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_lead<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|lead|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_lead|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_lead"></a> sla_lead
 
 Same as lead entity [sla_lead](lead.md#BKMK_sla_lead) Many-To-One relationship.
-
-**ReferencingEntity**: lead<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_lead<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|lead|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_lead|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bulkoperation_sla_slaid"></a> bulkoperation_sla_slaid
 
 Same as bulkoperation entity [bulkoperation_sla_slaid](bulkoperation.md#BKMK_bulkoperation_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperation<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperation|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_bulkoperation_sla_slainvokedid"></a> bulkoperation_sla_slainvokedid
 
 Same as bulkoperation entity [bulkoperation_sla_slainvokedid](bulkoperation.md#BKMK_bulkoperation_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: bulkoperation<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: bulkoperation_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkoperation|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|bulkoperation_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_campaignactivity_sla_slaid"></a> campaignactivity_sla_slaid
 
 Same as campaignactivity entity [campaignactivity_sla_slaid](campaignactivity.md#BKMK_campaignactivity_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: campaignactivity<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: campaignactivity_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignactivity|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|campaignactivity_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_campaignactivity_sla_slainvokedid"></a> campaignactivity_sla_slainvokedid
 
 Same as campaignactivity entity [campaignactivity_sla_slainvokedid](campaignactivity.md#BKMK_campaignactivity_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: campaignactivity<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: campaignactivity_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignactivity|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|campaignactivity_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_campaignresponse_sla_slaid"></a> campaignresponse_sla_slaid
 
 Same as campaignresponse entity [campaignresponse_sla_slaid](campaignresponse.md#BKMK_campaignresponse_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: campaignresponse<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: campaignresponse_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignresponse|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|campaignresponse_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_campaignresponse_sla_slainvokedid"></a> campaignresponse_sla_slainvokedid
 
 Same as campaignresponse entity [campaignresponse_sla_slainvokedid](campaignresponse.md#BKMK_campaignresponse_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: campaignresponse<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: campaignresponse_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_sla_entitlement"></a> sla_entitlement
-
-Same as entitlement entity [sla_entitlement](entitlement.md#BKMK_sla_entitlement) Many-To-One relationship.
-
-**ReferencingEntity**: entitlement<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_entitlement<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|campaignresponse|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|campaignresponse_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_cases"></a> manualsla_cases
 
 Same as incident entity [manualsla_cases](incident.md#BKMK_manualsla_cases) Many-To-One relationship.
-
-**ReferencingEntity**: incident<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_cases<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incident|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_cases|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_cases"></a> sla_cases
 
 Same as incident entity [sla_cases](incident.md#BKMK_sla_cases) Many-To-One relationship.
-
-**ReferencingEntity**: incident<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_cases<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incident|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_cases|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_incidentresolution_sla_slaid"></a> incidentresolution_sla_slaid
 
 Same as incidentresolution entity [incidentresolution_sla_slaid](incidentresolution.md#BKMK_incidentresolution_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: incidentresolution<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: incidentresolution_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incidentresolution|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|incidentresolution_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_incidentresolution_sla_slainvokedid"></a> incidentresolution_sla_slainvokedid
 
 Same as incidentresolution entity [incidentresolution_sla_slainvokedid](incidentresolution.md#BKMK_incidentresolution_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: incidentresolution<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: incidentresolution_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|incidentresolution|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|incidentresolution_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_serviceappointment"></a> manualsla_serviceappointment
 
 Same as serviceappointment entity [manualsla_serviceappointment](serviceappointment.md#BKMK_manualsla_serviceappointment) Many-To-One relationship.
-
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_serviceappointment<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_serviceappointment|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_serviceappointment"></a> sla_serviceappointment
 
 Same as serviceappointment entity [sla_serviceappointment](serviceappointment.md#BKMK_sla_serviceappointment) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|serviceappointment|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_serviceappointment|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-**ReferencingEntity**: serviceappointment<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_serviceappointment<br />
-**AssociatedMenuConfiguration**:
 
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
+### <a name="BKMK_sla_entitlement"></a> sla_entitlement
 
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+Same as entitlement entity [sla_entitlement](entitlement.md#BKMK_sla_entitlement) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|entitlement|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_entitlement|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_entitlementtemplate"></a> sla_entitlementtemplate
 
 Same as entitlementtemplate entity [sla_entitlementtemplate](entitlementtemplate.md#BKMK_sla_entitlementtemplate) Many-To-One relationship.
-
-**ReferencingEntity**: entitlementtemplate<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_entitlementtemplate<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_manualsla_invoice"></a> manualsla_invoice
-
-Same as invoice entity [manualsla_invoice](invoice.md#BKMK_manualsla_invoice) Many-To-One relationship.
-
-**ReferencingEntity**: invoice<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_invoice<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_sla_invoice"></a> sla_invoice
-
-Same as invoice entity [sla_invoice](invoice.md#BKMK_sla_invoice) Many-To-One relationship.
-
-**ReferencingEntity**: invoice<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_invoice<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_manualsla_opportunity"></a> manualsla_opportunity
-
-Same as opportunity entity [manualsla_opportunity](opportunity.md#BKMK_manualsla_opportunity) Many-To-One relationship.
-
-**ReferencingEntity**: opportunity<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_opportunity<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_sla_opportunity"></a> sla_opportunity
-
-Same as opportunity entity [sla_opportunity](opportunity.md#BKMK_sla_opportunity) Many-To-One relationship.
-
-**ReferencingEntity**: opportunity<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_opportunity<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|entitlementtemplate|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_entitlementtemplate|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_opportunityclose_sla_slaid"></a> opportunityclose_sla_slaid
 
 Same as opportunityclose entity [opportunityclose_sla_slaid](opportunityclose.md#BKMK_opportunityclose_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: opportunityclose<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: opportunityclose_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityclose|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|opportunityclose_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_opportunityclose_sla_slainvokedid"></a> opportunityclose_sla_slainvokedid
 
 Same as opportunityclose entity [opportunityclose_sla_slainvokedid](opportunityclose.md#BKMK_opportunityclose_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: opportunityclose<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: opportunityclose_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunityclose|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|opportunityclose_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_orderclose_sla_slaid"></a> orderclose_sla_slaid
 
 Same as orderclose entity [orderclose_sla_slaid](orderclose.md#BKMK_orderclose_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: orderclose<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: orderclose_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|orderclose|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|orderclose_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_orderclose_sla_slainvokedid"></a> orderclose_sla_slainvokedid
 
 Same as orderclose entity [orderclose_sla_slainvokedid](orderclose.md#BKMK_orderclose_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: orderclose<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: orderclose_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_manualsla_quote"></a> manualsla_quote
-
-Same as quote entity [manualsla_quote](quote.md#BKMK_manualsla_quote) Many-To-One relationship.
-
-**ReferencingEntity**: quote<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_quote<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
-
-
-### <a name="BKMK_sla_quote"></a> sla_quote
-
-Same as quote entity [sla_quote](quote.md#BKMK_sla_quote) Many-To-One relationship.
-
-**ReferencingEntity**: quote<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_quote<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|orderclose|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|orderclose_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_quoteclose_sla_slaid"></a> quoteclose_sla_slaid
 
 Same as quoteclose entity [quoteclose_sla_slaid](quoteclose.md#BKMK_quoteclose_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: quoteclose<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: quoteclose_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quoteclose|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|quoteclose_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_quoteclose_sla_slainvokedid"></a> quoteclose_sla_slainvokedid
 
 Same as quoteclose entity [quoteclose_sla_slainvokedid](quoteclose.md#BKMK_quoteclose_sla_slainvokedid) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quoteclose|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|quoteclose_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-**ReferencingEntity**: quoteclose<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: quoteclose_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
 
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
+### <a name="BKMK_sla_invoice"></a> sla_invoice
 
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+Same as invoice entity [sla_invoice](invoice.md#BKMK_sla_invoice) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|invoice|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_invoice|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_salesorder"></a> manualsla_salesorder
 
 Same as salesorder entity [manualsla_salesorder](salesorder.md#BKMK_manualsla_salesorder) Many-To-One relationship.
-
-**ReferencingEntity**: salesorder<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_salesorder<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|salesorder|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_salesorder|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_salesorder"></a> sla_salesorder
 
 Same as salesorder entity [sla_salesorder](salesorder.md#BKMK_sla_salesorder) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|salesorder|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_salesorder|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-**ReferencingEntity**: salesorder<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_salesorder<br />
-**AssociatedMenuConfiguration**:
 
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
+### <a name="BKMK_manualsla_quote"></a> manualsla_quote
 
-**CascadeConfiguration**:
+Same as quote entity [manualsla_quote](quote.md#BKMK_manualsla_quote) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quote|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_quote|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+
+### <a name="BKMK_sla_quote"></a> sla_quote
+
+Same as quote entity [sla_quote](quote.md#BKMK_sla_quote) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|quote|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_quote|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_manualsla_opportunity"></a> manualsla_opportunity
+
+Same as opportunity entity [manualsla_opportunity](opportunity.md#BKMK_manualsla_opportunity) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunity|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_opportunity|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_sla_opportunity"></a> sla_opportunity
+
+Same as opportunity entity [sla_opportunity](opportunity.md#BKMK_sla_opportunity) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|opportunity|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_opportunity|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_manualsla_invoice"></a> manualsla_invoice
+
+Same as invoice entity [manualsla_invoice](invoice.md#BKMK_manualsla_invoice) Many-To-One relationship.
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|invoice|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_invoice|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_bookingalert_sla_slaid"></a> msdyn_bookingalert_sla_slaid
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_sla_slaid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_bookingalert_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_bookingalert_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_bookingalert_sla_slainvokedid"></a> msdyn_bookingalert_sla_slainvokedid
 
 Same as msdyn_bookingalert entity [msdyn_bookingalert_sla_slainvokedid](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_bookingalert<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_bookingalert_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_bookingalert|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_bookingalert_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_approval_sla_slaid"></a> msdyn_approval_sla_slaid
 
 Same as msdyn_approval entity [msdyn_approval_sla_slaid](msdyn_approval.md#BKMK_msdyn_approval_sla_slaid) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_approval_sla_slaid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_approval_sla_slaid|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_msdyn_approval_sla_slainvokedid"></a> msdyn_approval_sla_slainvokedid
 
 Same as msdyn_approval entity [msdyn_approval_sla_slainvokedid](msdyn_approval.md#BKMK_msdyn_approval_sla_slainvokedid) Many-To-One relationship.
-
-**ReferencingEntity**: msdyn_approval<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: msdyn_approval_sla_slainvokedid<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_approval|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_approval_sla_slainvokedid|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_socialactivity"></a> sla_socialactivity
 
 Same as socialactivity entity [sla_socialactivity](socialactivity.md#BKMK_sla_socialactivity) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_socialactivity<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_socialactivity|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_contact"></a> manualsla_contact
 
 Same as contact entity [manualsla_contact](contact.md#BKMK_manualsla_contact) Many-To-One relationship.
-
-**ReferencingEntity**: contact<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_contact<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contact|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_contact|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_slabase_BulkDeleteFailures"></a> slabase_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [slabase_BulkDeleteFailures](bulkdeletefailure.md#BKMK_slabase_BulkDeleteFailures) Many-To-One relationship.
-
-**ReferencingEntity**: bulkdeletefailure<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: slabase_BulkDeleteFailures<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|bulkdeletefailure|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|slabase_BulkDeleteFailures|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_fax"></a> manualsla_fax
 
 Same as fax entity [manualsla_fax](fax.md#BKMK_manualsla_fax) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_fax<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_fax|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_activitypointer"></a> manualsla_activitypointer
 
 Same as activitypointer entity [manualsla_activitypointer](activitypointer.md#BKMK_manualsla_activitypointer) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_activitypointer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_activitypointer|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_slabase_AsyncOperations"></a> slabase_AsyncOperations
 
 Same as asyncoperation entity [slabase_AsyncOperations](asyncoperation.md#BKMK_slabase_AsyncOperations) Many-To-One relationship.
-
-**ReferencingEntity**: asyncoperation<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: slabase_AsyncOperations<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|asyncoperation|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|slabase_AsyncOperations|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_Annotation"></a> sla_Annotation
 
 Same as annotation entity [sla_Annotation](annotation.md#BKMK_sla_Annotation) Many-To-One relationship.
-
-**ReferencingEntity**: annotation<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_Annotation<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|annotation|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_Annotation|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_sla_task"></a> sla_task
 
 Same as task entity [sla_task](task.md#BKMK_sla_task) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_task<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_task|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_activitypointer"></a> sla_activitypointer
 
 Same as activitypointer entity [sla_activitypointer](activitypointer.md#BKMK_sla_activitypointer) Many-To-One relationship.
-
-**ReferencingEntity**: activitypointer<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_activitypointer<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|activitypointer|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_activitypointer|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_task"></a> manualsla_task
 
 Same as task entity [manualsla_task](task.md#BKMK_manualsla_task) Many-To-One relationship.
-
-**ReferencingEntity**: task<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_task<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|task|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_task|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_account"></a> manualsla_account
 
 Same as account entity [manualsla_account](account.md#BKMK_manualsla_account) Many-To-One relationship.
-
-**ReferencingEntity**: account<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_account|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_letter"></a> sla_letter
 
 Same as letter entity [sla_letter](letter.md#BKMK_sla_letter) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_letter<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_letter|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_phonecall"></a> manualsla_phonecall
 
 Same as phonecall entity [manualsla_phonecall](phonecall.md#BKMK_manualsla_phonecall) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_phonecall<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_phonecall|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_email"></a> sla_email
 
 Same as email entity [sla_email](email.md#BKMK_sla_email) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_email<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_email|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_appointment"></a> sla_appointment
 
 Same as appointment entity [sla_appointment](appointment.md#BKMK_sla_appointment) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_appointment<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_appointment|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_slaitem_slaId"></a> sla_slaitem_slaId
 
 Same as slaitem entity [sla_slaitem_slaId](slaitem.md#BKMK_sla_slaitem_slaId) Many-To-One relationship.
-
-**ReferencingEntity**: slaitem<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_slaitem_slaId<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|slaitem|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_slaitem_slaId|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_account"></a> sla_account
 
 Same as account entity [sla_account](account.md#BKMK_sla_account) Many-To-One relationship.
-
-**ReferencingEntity**: account<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_account<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_account|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_SLA_SyncErrors"></a> SLA_SyncErrors
 
 Same as syncerror entity [SLA_SyncErrors](syncerror.md#BKMK_SLA_SyncErrors) Many-To-One relationship.
-
-**ReferencingEntity**: syncerror<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: SLA_SyncErrors<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: Cascade
-- **Delete**: Cascade
-- **Merge**: Cascade
-- **Reparent**: Cascade
-- **Share**: Cascade
-- **Unshare**: Cascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|syncerror|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|SLA_SyncErrors|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: Cascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
 ### <a name="BKMK_manualsla_letter"></a> manualsla_letter
 
 Same as letter entity [manualsla_letter](letter.md#BKMK_manualsla_letter) Many-To-One relationship.
-
-**ReferencingEntity**: letter<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_letter<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|letter|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_letter|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_appointment"></a> manualsla_appointment
 
 Same as appointment entity [manualsla_appointment](appointment.md#BKMK_manualsla_appointment) Many-To-One relationship.
-
-**ReferencingEntity**: appointment<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_appointment<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|appointment|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_appointment|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_socialactivity"></a> manualsla_socialactivity
 
 Same as socialactivity entity [manualsla_socialactivity](socialactivity.md#BKMK_manualsla_socialactivity) Many-To-One relationship.
-
-**ReferencingEntity**: socialactivity<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_socialactivity<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10001
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|socialactivity|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_socialactivity|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10001|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_slabase_userentityinstancedatas"></a> slabase_userentityinstancedatas
 
 Same as userentityinstancedata entity [slabase_userentityinstancedatas](userentityinstancedata.md#BKMK_slabase_userentityinstancedatas) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: slabase_userentityinstancedatas<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|slabase_userentityinstancedatas|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_fax"></a> sla_fax
 
 Same as fax entity [sla_fax](fax.md#BKMK_sla_fax) Many-To-One relationship.
-
-**ReferencingEntity**: fax<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_fax<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|fax|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_fax|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_contact"></a> sla_contact
 
 Same as contact entity [sla_contact](contact.md#BKMK_sla_contact) Many-To-One relationship.
-
-**ReferencingEntity**: contact<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_contact<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contact|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_contact|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_slabase_ProcessSessions"></a> slabase_ProcessSessions
 
 Same as processsession entity [slabase_ProcessSessions](processsession.md#BKMK_slabase_ProcessSessions) Many-To-One relationship.
-
-**ReferencingEntity**: processsession<br />
-**ReferencingAttribute**: regardingobjectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: slabase_ProcessSessions<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 110
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: NoCascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|processsession|
+|ReferencingAttribute|regardingobjectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|slabase_ProcessSessions|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 110|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_sla_phonecall"></a> sla_phonecall
 
 Same as phonecall entity [sla_phonecall](phonecall.md#BKMK_sla_phonecall) Many-To-One relationship.
-
-**ReferencingEntity**: phonecall<br />
-**ReferencingAttribute**: slainvokedid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: sla_phonecall<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|phonecall|
+|ReferencingAttribute|slainvokedid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|sla_phonecall|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_manualsla_email"></a> manualsla_email
 
 Same as email entity [manualsla_email](email.md#BKMK_manualsla_email) Many-To-One relationship.
-
-**ReferencingEntity**: email<br />
-**ReferencingAttribute**: slaid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: True<br />
-**ReferencedEntityNavigationPropertyName**: manualsla_email<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: UseCollectionName
-- **Group**: Details
-- **Label**: 
-- **Order**: 10000
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: RemoveLink
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|email|
+|ReferencingAttribute|slaid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|manualsla_email|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -3056,7 +2451,7 @@ See businessunit Entity [business_unit_slabase](businessunit.md#BKMK_business_un
 
 See calendar Entity [slabase_businesshoursid](calendar.md#BKMK_slabase_businesshoursid) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

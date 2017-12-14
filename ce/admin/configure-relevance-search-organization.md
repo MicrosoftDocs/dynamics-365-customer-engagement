@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Configure Relevance Search to improve search results and performance 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Relevance Search delivers fast and comprehensive search results in a single list, sorted by relevance. It uses a dedicated search service external to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] Search to improve your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] search experience. As an administrator or customizer, you'll be able to enable and configure Relevance Search in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface without writing code. Many of the configuration steps will look familiar to you, as they use the same user interface as the Quick Find configuration.  
   
@@ -50,7 +50,7 @@ The following table provides a brief comparison of the three available searches.
   
 |Functionality|Relevance Search|Full-Text Quick Find|Quick Find|  
 |-------------------|----------------------|---------------------------|----------------|  
-|Availability|Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations that have installed [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. Not available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] organizations.|Available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] organizations, starting with [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] Update Rollup 1.|Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)] organizations.|  
+|Availability|Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations that have installed [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)]. Not available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.|Available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations, starting with [!INCLUDE[pn_crm_2015](../includes/pn-crm-2015.md)] Update Rollup 1.|Available for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations and [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] organizations.|  
 |Enabled by default?|No. An administrator must manually enable it.|No. An administrator must manually enable it.|Yes|  
 |Single-entity search scope|Not available in an entity grid. You can filter the search results by an entity on the results page.|Available in an entity grid.|Available in an entity grid.|  
 |Multi-entity search scope|There is no maximum limit on the number of entities you can search. **Note:**  While there is no maximum limit on the number of entities you can search, the Record Type filter shows data only 10 entities.|Searches up to 10 entities, grouped by an entity.|Searches up to 10 entities, grouped by an entity.|  

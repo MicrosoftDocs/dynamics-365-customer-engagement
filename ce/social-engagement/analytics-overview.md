@@ -20,7 +20,7 @@ See key widgets on the Overview page. The widgets on this page provide informati
 Go to this page from **Analytics > Overview**.  
   
 > [!NOTE]
-> **Overview** is the default landing page when you go to the Analytics area, or when you choose [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] on the nav bar.  
+> **Overview** is the default landing page when you go to the Analytics area, or when you choose [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] on the nav bar.  
   
 ## Static widgets on the Overview page  
   

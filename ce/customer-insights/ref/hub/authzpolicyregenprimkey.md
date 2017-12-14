@@ -2,8 +2,8 @@
 title: Regenerate Primary Key of a SAS Policy (Hub)
 description: Regenerates the primary key of the storage account associated with a SAS Policy.
 keywords: Customer Insights; Hub API; SAS Policy; regenerate key
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

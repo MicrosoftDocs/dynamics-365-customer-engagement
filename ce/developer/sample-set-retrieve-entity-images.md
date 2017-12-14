@@ -2,7 +2,7 @@
 title: "Sample: Set and retrieve entity images (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 descriptions: "The sample demonstrates how to set and retrieve data for entity images."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Sample: Set and retrieve entity images (late bound)](https://code.msdn.microsoft.com/Sample-Set-and-retrieve-e32916bc). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample from [Work with late bound entities](https://code.msdn.microsoft.com/Work-with-late-bound-e3208935). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

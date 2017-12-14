@@ -35,7 +35,7 @@ Analyze your results and optimize your search queries regularly to make sure you
   
 4.  Click **Save** ![Save button](media/save-icon.png "Save button") to apply your edits and the updated search topic.  
   
- Using the updated rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] starts searching for posts immediately after you save the changed search topic. You’ll see the first results from the updated rules after a few minutes, when you set the analysis time frame to **Today** in Analytics. To see the newly-acquired posts, open the **Posts** view.  
+ Using the updated rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] starts searching for posts immediately after you save the changed search topic. You’ll see the first results from the updated rules after a few minutes, when you set the analysis time frame to **Today** in Analytics. To see the newly-acquired posts, open the **Posts** view.  
   
 > [!NOTE]
 >  When you have updated a search topic, existing posts that matched the former configuration will remain in the database, but your analytics will adapt to the updated configuration. It may take a few hours to reflect the changes in the existing data.  

@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Personalize the Social Selling Assistant
-When using the Social Selling Assistant for the first time, users will get recommendations for all available search topics in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. To personalize the experience, we recommend each user select specific topics that are of interest to them. Additionally, users must add their social profiles to be able to share content recommendations on their networks.  
+When using the Social Selling Assistant for the first time, users will get recommendations for all available search topics in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. To personalize the experience, we recommend each user select specific topics that are of interest to them. Additionally, users must add their social profiles to be able to share content recommendations on their networks.  
   
 ## Access the Social Selling Assistant dashboard  
  To access the Social Selling Assistant in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)], go to **Sales** > **Dashboards** and select the **Social Selling Assistant dashboard**.  
@@ -48,7 +48,7 @@ When using the Social Selling Assistant for the first time, users will get recom
 5.  If you have a responder or manager interaction role, click **Social Profiles** to add profiles you own. You can add profiles from LinkedIn [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] to share content directly from the Social Selling Assistant. If your administrator shared a social profile with you, you can select it from the list. To add a social profile or to share a social profile you own with other users, see [Manage social profiles](manage-social-profiles.md).  
   
 > [!NOTE]
->  If you’ve set the dark theme in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], the Social Selling Assistant will inherit this setting.  
+>  If you’ve set the dark theme in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the Social Selling Assistant will inherit this setting.  
   
 ### See also  
  [Increase your influence using the Social Selling Assistant](social-selling-assistant-overview.md)   

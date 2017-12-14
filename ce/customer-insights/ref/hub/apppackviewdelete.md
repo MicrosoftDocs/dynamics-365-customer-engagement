@@ -2,8 +2,8 @@
 title: Delete App View (Hub)
 description: Deletes the specified Application View.
 keywords: Customer Insights; Hub API; View; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

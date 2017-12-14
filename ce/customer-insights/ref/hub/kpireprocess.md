@@ -2,8 +2,8 @@
 title: Reprocess KPI (Hub)
 description: Reprocesses a KPI value
 keywords: Customer Insights; Hub API; KPI; reprocess; recalculate
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/07/2017
 ms.topic: reference

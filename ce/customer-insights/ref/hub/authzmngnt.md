@@ -2,8 +2,8 @@
 title: Authorization Policies Management APIs (Hub)
 description: Enables management of Authorization Policies.
 keywords: Customer Insights; Hub API; Authorization Policies; SAS Policies; policy management
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/30/2017
 ms.topic: reference

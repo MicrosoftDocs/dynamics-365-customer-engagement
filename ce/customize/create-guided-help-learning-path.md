@@ -28,7 +28,7 @@ Use Learning Path to give your users a custom, in-app Help experience that is ta
 
 [//]: # (Editor's note: Via Writing Style Guide: No hyphen for an adverb ending in -ly, such as *completely*, when it precedes another modifier. Also, please note a change to the token for "on premises". Via Amy: "on-premises is only relevant for the 'CRM' apps, not for Dynamics 365 as a whole.")
 ## How is Learning Path different from customizable Help?  
- Customizable Help allows you to override the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Help and point users in your organization to a different URL for Help. Or you can override the Help for a highly customized entity so that you can better describe your workflow. Customizable Help is available for only for [!INCLUDE[pn-crm-op-edition](../includes/pn-crm-op-edition.md)] deployments.
+ Customizable Help allows you to override the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Help and point users in your organization to a different URL for Help. Or you can override the Help for a highly customized entity so that you can better describe your workflow. Customizable Help is available for only for [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)] deployments.
   
  Learning Path lets you add customizable Help that users see in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when they open a page, perform an action, or select the Help button (?). Learning Path is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
  <!-- 
@@ -650,6 +650,8 @@ When you run into an issue while working on [!INCLUDE[pn_crm_shortest](../includ
 2.	Select **Report an issue**.
 
 3.	Enter the necessary information in the ticket creation form.
+ 
+ 
     ![Support ticket form](../customize/media/Inapp_createSupportTicket.png "Support ticket form")
 
     |Field Name|Description|

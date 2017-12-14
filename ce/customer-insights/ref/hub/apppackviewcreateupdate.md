@@ -2,8 +2,8 @@
 title: Create or Update App View (Hub)
 description: Creates a new or updates an existing Application View.
 keywords: Customer Insights; Hub API; View; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

@@ -36,8 +36,8 @@ You can edit or remove filters from your analysis at any time, and the charts, l
  Select between system-rated and manually edited sentiment values. Distinguish whether a sentiment value was calculated by the sentiment algorithm or edited by a user. Confirming or changing a sentiment value for a post is considered to be a manual edit. You can limit your data set to see only posts that have the selected sentiment status.  
   
 ## Reach  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] takes an author’s network size into account to determine the potential size of an author's influence.
- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] maps the author's potential influence to reach values that allow segmentation of authors' reaches for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] takes an author’s network size into account to determine the potential size of an author's influence.
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] maps the author's potential influence to reach values that allow segmentation of authors' reaches for [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
  Choose a value from 1 to 5, where 1 is the lowest reach and 5 is the highest reach.
  
@@ -73,7 +73,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
   
 <a name="assignee_filter"></a>   
 ## Assignee  
- The assignee filter narrows your data set to show only posts that are assigned to the selected user or group. You can enter any user or group that is assigned a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. Start typing a name to see suggestions. You can also specify whether you want to include posts assigned to any groups that the Assignee is a member of.  
+ The assignee filter narrows your data set to show only posts that are assigned to the selected user or group. You can enter any user or group that is assigned a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Start typing a name to see suggestions. You can also specify whether you want to include posts assigned to any groups that the Assignee is a member of.  
   
 ## Labels  
  Narrow your data set to see only posts that are assigned the selected labels. You can also exclude labels when you apply the labels filter to find posts that don't have a specific label. Any label that an administrator defined in **Settings** > **Global Settings** > **Labels** is available as a filter value.  

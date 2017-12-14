@@ -17,7 +17,7 @@ ms.author: "jimholtz"
 ---
 # Dynamics 365 Government
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 In response to the unique and evolving requirements of the United States public sector, Microsoft has created [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] that is available to qualified government entities in the United States. On October 11, 2016, Microsoft announced the next generation of intelligent business applications in the cloud under the brand [!INCLUDE[pn_ms_dyn_365](../../includes/pn-ms-dyn-365.md)]. To this end, [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] entails a continuity of the protected environment that was originally branded Microsoft CRM Online Government where the protections afforded to the government community cloud under the new brand are now represented by four discrete functions: Sales, Customer Service, Field Service, and Project Service Automation. This section provides an overview of features that are specific to [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)].  
   
@@ -71,7 +71,7 @@ In response to the unique and evolving requirements of the United States public 
 ## Customer content located within the United States  
  [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] services are provided from datacenters physically located in the United States. [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] customer content is stored at rest in datacenters physically located only in the US.  
   
- If your users are located within the US while using [!INCLUDE[pn_netbreeze_long](../../includes/pn-netbreeze-long.md)] or if you adopt the use of [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../includes/pn-active-dir-fed-svcs-ad-fs.md)] 2.0 and set up policies to help ensure your users connect to the services through single sign-on, any customer content that is temporarily cached in [!INCLUDE[pn_netbreeze_long](../../includes/pn-netbreeze-long.md)] will be located in the US.  
+ If your users are located within the US while using [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)] or if you adopt the use of [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../includes/pn-active-dir-fed-svcs-ad-fs.md)] 2.0 and set up policies to help ensure your users connect to the services through single sign-on, any customer content that is temporarily cached in [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)] will be located in the US.  
   
 ## Restricted data access by administrators  
  Access to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] customer content by Microsoft administrators is restricted to personnel who are US citizens. These personnel undergo background investigations in accordance with relevant government standards.  

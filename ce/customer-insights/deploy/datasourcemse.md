@@ -32,11 +32,11 @@ For information about Social Engagement, see [Social Engagement Help & Training]
 
 4.  On the **Data Source Type** blade, select **Microsoft Social Engagement**.
 
-    ![](../media/MSEDataSource75.png "Select the Microsoft Social Engagement data source type") 
+    ![Select the Microsoft Social Engagement data source type](../media/MSEDataSource75.png "Select the Microsoft Social Engagement data source type") 
 
 5.  Enter a **Name** for the data source, the Microsoft Social Engagement Solution URL, and then select **Login to Microsoft Social Engagement**.
 
-    ![](../media/DataSourceMSESettings75.png "New data source name") 
+    ![New data source name](../media/DataSourceMSESettings75.png "New data source name") 
 
     For information on how to find your solution URL, see [Connect Social Engagement to other domains](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/connect-other-domains#add-the-solution-url-to-the-configuration-page).
 
@@ -44,11 +44,11 @@ For information about Social Engagement, see [Social Engagement Help & Training]
 
 7.  Select **Configure required settings**.
 
-    ![](../media/MSEDataSourceSignedIn75.png "Configure required settings") 
+    ![Configure required settings](../media/MSEDataSourceSignedIn75.png "Configure required settings") 
 
 8.  Select search topics to specify which conversations to listen to. 
 
-    ![](../media/MSESelectSearchTopics75.png "Select topics") 
+    ![Select topics](../media/MSESelectSearchTopics75.png "Select topics") 
 
     For information on Social Engagement search topics, see [Set up searches to listen to social media conversations] (https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/set-up-searches).
 
@@ -58,7 +58,7 @@ For information about Social Engagement, see [Social Engagement Help & Training]
 
     To see your automation rule in Social Engagement, go to **Settings** > **Automation Rules**.
 
-    ![](../media/MSEAutomationRules650.png "View the automation rule") 
+    ![View the automation rule](../media/MSEAutomationRules650.png "View the automation rule") 
 
     Under **ACTIONS**, select **Stream to Event Hubs** to see connection settings.
 

@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Server-side synchronization isn't working for your mailbox
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You’re trying to track email using [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] folder tracking, but server-side synchronization isn’t working for your mailbox. Folder tracking requires that your email be synchronized using server-side synchronization. Contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator for help. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md)  
   

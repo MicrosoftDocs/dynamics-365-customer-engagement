@@ -2,8 +2,8 @@
 title: Query KPI Data (Hub Data)
 description: Gets all data for the specified KPI with optional filtering.
 keywords: Customer Insights; Hub Data API; Interaction instance; get; 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/07/2016
 ms.topic: reference

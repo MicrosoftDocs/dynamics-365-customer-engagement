@@ -2,8 +2,8 @@
 title: Delete Data Connector (ARM) (Dynamics 365 Customer Insights SDK) | MicrosoftDocs
 description: Deletes the specified Data Connector.
 keywords: Customer Insights; ARM API; Data Connector; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

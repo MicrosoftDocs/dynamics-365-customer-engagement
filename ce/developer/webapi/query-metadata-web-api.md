@@ -2,7 +2,7 @@
 title: "Query metadata using the Web API (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The capability to query system metadata is available using the Web API as well as using the organization service by using RetrieveMetadataChangesRequest"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -30,7 +30,7 @@ Because [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer 
  **Request**
 
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=DisplayName,IsKnowledgeManagementEnabled,EntitySetName&$filter=SchemaName eq 'Account' HTTP/1.1  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')?$select=DisplayName,IsKnowledgeManagementEnabled,EntitySetName HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -108,7 +108,7 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions?$select=LogicalName&$filt
 <a name="bkmk_queryAttributesexample"></a>
 
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)?$select=LogicalName&$expand=Attributes($select=LogicalName;$filter=AttributeType eq Microsoft.Dynamics.CRM.AttributeTypeCode'Picklist')  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')?$select=LogicalName&$expand=Attributes($select=LogicalName;$filter=AttributeType eq Microsoft.Dynamics.CRM.AttributeTypeCode'Picklist')  
 ```
 
  But you can’t include the OptionSet or GlobalOptionSet collection-valued navigation properties that <xref href="Microsoft.Dynamics.CRM.PicklistAttributeMetadata?text=PicklistAttributeMetadata EntityType" /> attributes have within the `$select` filter of this query.  
@@ -116,7 +116,7 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6
  In order to retrieve the properties of a specific type of attribute you must cast the Attributes collection-valued navigation property to the type you want. The following query will return only the PicklistAttributeMetadata attributes and will include the LogicalName as well as expanding the OptionSet and GlobalOptionSet collection-valued navigation properties  
 
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes/Microsoft.Dynamics.CRM.PicklistAttributeMetadata?$select=LogicalName&$expand=OptionSet,GlobalOptionSet  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes/Microsoft.Dynamics.CRM.PicklistAttributeMetadata?$select=LogicalName&$expand=OptionSet,GlobalOptionSet  
 ```
 
 > [!NOTE]
@@ -125,7 +125,7 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6
  Another example of this is accessing the Precision property available in <xref href="Microsoft.Dynamics.CRM.MoneyAttributeMetadata?text=MoneyAttributeMetadata EntityType" /> and <xref href="Microsoft.Dynamics.CRM.DecimalAttributeMetadata?text=DecimalAttributeMetadata EntityType" /> attributes. To access this property you must cast the attributes collection either as MoneyAttributeMetadata or DecimalAttributeMetadata. An example showing casting to MoneyAttributeMetadata is shown here.
   
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes/Microsoft.Dynamics.CRM.MoneyAttributeMetadata?$select=LogicalName,Precision
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes/Microsoft.Dynamics.CRM.MoneyAttributeMetadata?$select=LogicalName,Precision
 ```
 
 ### Filtering by required level
@@ -133,7 +133,7 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6
  The <xref href="Microsoft.Dynamics.CRM.AttributeMetadata?text=AttributeMetadata EntityType" /> `RequiredLevel` property uses a special <xref href="Microsoft.Dynamics.CRM.AttributeRequiredLevelManagedProperty?text=AttributeRequiredLevelManagedProperty ComplexType" /> where the `Value` property is a <xref href="Microsoft.Dynamics.CRM.AttributeRequiredLevel?text=AttributeRequiredLevel EnumType" />. In this case you must combine patterns found in [Use complex types in $filter operations](query-metadata-web-api.md#bkmk_complexTypesAsFilters) and [Use enum types in $filter operations](query-metadata-web-api.md#bkmk_filterEnumTypes) to filter by this unique property. The following query will filter those attributes in the account entity that are ApplicationRequired.
 
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes?$select=SchemaName&$filter=RequiredLevel/Value eq Microsoft.Dynamics.CRM.AttributeRequiredLevel'ApplicationRequired'  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes?$select=SchemaName&$filter=RequiredLevel/Value eq Microsoft.Dynamics.CRM.AttributeRequiredLevel'ApplicationRequired'  
 ```
 
 <a name="bkmk_retrieveAttributes"></a>
@@ -144,7 +144,7 @@ GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6
 
  **Request**
  ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes(5967e7cc-afbb-4c10-bf7e-e7ef430c52be)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata?$select=LogicalName&$expand=OptionSet HTTP/1.1  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes(5967e7cc-afbb-4c10-bf7e-e7ef430c52be)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata?$select=LogicalName&$expand=OptionSet HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
 OData-MaxVersion: 4.0  
@@ -253,7 +253,7 @@ Additional options removed for brevity
 
  **Request**
  ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes(5967e7cc-afbb-4c10-bf7e-e7ef430c52be)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata/OptionSet?$select=Options HTTP/1.1  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/Attributes(5967e7cc-afbb-4c10-bf7e-e7ef430c52be)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata/OptionSet?$select=Options HTTP/1.1  
 Accept: application/json  
 Content-Type: application/json; charset=utf-8  
 OData-MaxVersion: 4.0  
@@ -267,7 +267,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0  
   
 {  
- "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/Attributes(5967e7cc-afbb-4c10-bf7e-e7ef430c52be)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata/OptionSet(Options)/$entity",  
+ "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#EntityDefinitions('account')/Attributes(5967e7cc-afbb-4c10-bf7e-e7ef430c52be)/Microsoft.Dynamics.CRM.PicklistAttributeMetadata/OptionSet(Options)/$entity",  
  "Options": [{  
    "Value": 0,  
    "Label": {  
@@ -328,7 +328,7 @@ GET [Organization URI]/api/data/v9.0/RelationshipDefinitions/Microsoft.Dynamics.
  That query will return essentially the same results as the following query, which is filtered because it is included in the EntityMetadataOneToManyRelationships collection-valued navigation property of the account entity. The difference is that for the previous query you don’t need to know the MetadataId for the account entity.  
 
 ```http
-GET [Organization URI]/api/data/v9.0/EntityDefinitions(70816501-edb9-4740-a16c-6a5efbc05d84)/OneToManyRelationships?$select=SchemaName  
+GET [Organization URI]/api/data/v9.0/EntityDefinitions(LogicalName='account')/OneToManyRelationships?$select=SchemaName  
 ```
 
 <a name="bkmk_GlobalOptionSets"></a>

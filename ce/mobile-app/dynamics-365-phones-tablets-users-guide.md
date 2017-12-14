@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"  
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-ms.author: "mkaur"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 
@@ -339,18 +339,18 @@ In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, ta
 
 When you’re finished with your call, the app prompts you to enter details about
 the call.
-       
-<!-- (Temp change: cutting this section out temp since Mobile Offline is not supported in GA, 9/30
+ 
+<!--       
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
 When you're admin has enabled mobile offline, the next time that you access the mobile app, you will be prompted to download updates. Once you download the updates, you can start using the mobile app in offline mode.
 
-1. When you see the **Offline Updates Avilable** dialog box, choose **Update**. 
+1. When you see the **Offline Updates Available** dialog box, choose **Update**. 
 
   ![Download updates on your mobile device for mobile offline](media/DownloadUpdates.png "Download updates on your mobile device for mobile offline")
   
-2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is avilable.
+2. You'll see a progress indicator while the updates are being downloaded. When the download load is complete, it's a good idea to verify offline mode is available.
 
     ![Download updates progress bar](media/downloadingupdatesprogress.png "Download updates progress bar")
 
@@ -452,7 +452,8 @@ Admins can choose what information to sync to user's devices. This can help mini
  |not-begin-with|  
  ends-with|  
  |not-end-with|
- -->
+-->
+
  
  <!-- (Temp change: cutting this section out for now since no one can verify that Cortana voice commands work in Potassium. It has not been tested and there is no PM/test owner for this feature)
 ## Use Cortana voice commands
