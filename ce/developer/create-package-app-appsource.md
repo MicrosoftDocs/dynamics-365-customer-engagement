@@ -132,7 +132,7 @@ The final step is to add all the components that you created earlier into a sing
 
     ![AppSource package](media/appsource-package.png)
 
-    > [IMPORTANT]
+    > [!IMPORTANT]
     > You must follow the content structure precisely for your package as described here otherwise, your package will fail during certification. Some common issues that lead to certification failure are incorrect file names or a nested file structure.
 
 2. Rename the file approriately as per your app. We recommend that you include your company name and app name. For example: **Microsoft_SamplePackage.zip**.
