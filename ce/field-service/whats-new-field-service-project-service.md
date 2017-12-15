@@ -16,7 +16,8 @@ applies_to:
   - "Dynamics 365 Version 8.x"
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
 caps.latest.revision: 11
-ms.author: "dgittler"
+author: "dgittler"
+ms.author: "shellyha"
 ---
 
 # What's new in Universal Resource Scheduling for [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)]
