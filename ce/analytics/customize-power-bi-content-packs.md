@@ -51,7 +51,7 @@ tags:
 > [!IMPORTANT]
 >  To connect the OData feed to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance you must follow the steps described here before you customize the content pack.  
 
-> Currently, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service isn’t compatible with the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 9.0 OData endpoint. When you try to use the version 9.0 OData endpoint with the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service the error message “The feed's metadata document appears to be invalid” is displayed. To work around this incompatibility, use the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 8.2 OData endpoint.For more information about the different endpoint versions, see [Web API URL and versions](../developer/webapi/compose-http-requests-handle-errors#web-api-url-and-versions).
+> Currently, the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service isn’t compatible with the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 9.0 OData endpoint. When you try to use the version 9.0 OData endpoint with the [!INCLUDE[pn_power_bi](../includes/pn-power-bi.md)] service the error message “The feed's metadata document appears to be invalid” is displayed. To work around this incompatibility, use the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] version 8.2 OData endpoint.For more information about the different endpoint versions, see [Web API URL and versions](../developer/webapi/compose-http-requests-handle-errors.md).
   
 1.  Start [!INCLUDE[pn_power_bi_desktop](../includes/pn-power-bi-desktop.md)].  
   
