@@ -1,5 +1,6 @@
 ---
 title: "Basics Guide (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+keywords: sales; service; marketing
 ms.custom: ""
 ms.date: 09/15/2017
 ms.reviewer: ""

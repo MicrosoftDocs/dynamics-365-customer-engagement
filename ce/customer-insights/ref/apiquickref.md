@@ -2,8 +2,8 @@
 title: Microsoft Dynamics 365 for Customer Insights API Quick Reference | MicrosoftDocs
 description: 
 keywords: Customer Insights; quick reference; Hub API; ARM API;
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/26/2017
 ms.topic: reference
@@ -216,7 +216,7 @@ The following table lists the operations only available through the Customer Ins
 
 |**Operation**|**Request**|  
 |-------------|---------------|
-|***Predicitive Matching Policy Management Operations***| | 
+|***Predictive Matching Policy Management Operations***| | 
 |Create or Update Predictive Match Policy|`PUT <hub-endpoint>/manage/model/predictiveMatchPolicies/<policyName>`| 
 |Get a Predictive Match Policy Type|`GET <hub-endpoint>/manage/model/predictiveMatchPolicies/<policyName>`| 
 |List Predictive Match Policy Types|`GET <hub-endpoint>/manage/model/predictiveMatchPolicies`|

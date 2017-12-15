@@ -2,8 +2,8 @@
 title: Segmentation Query Language Reference (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: A segmentation query expression defines a Customer Insights segment.
 keywords: Customer Insights; Hub API, Segmentation Query Language
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 07/26/2017
 ms.topic: reference

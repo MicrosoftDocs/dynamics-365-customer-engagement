@@ -26,7 +26,7 @@ Data flow involving [!INCLUDE[pn-customer-insights-full](../includes/pn-customer
 - [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Analytics
 - [!INCLUDE[pn-azure-key-vault](../includes/pn-azure-key-vault.md)]
 - [!INCLUDE[pn_azure_service_fabric](../includes/pn_azure_service_fabric.md)]
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] DocumentDb
+- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] DocumentDB
 - [!INCLUDE[pn-microsoft-azure-active-directory](../includes/pn-microsoft-azure-active-directory.md)]
 - [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Storage
 
@@ -43,7 +43,7 @@ At present, [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insigh
 
 - [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Store
 - [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Data Lake Analytics
-- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] HD Insight (Spark, Phoenix, HBase)
+- [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] HDInsight (Spark, Phoenix, HBase)
 - [!INCLUDE[pn-ms-azure-sql-database](../includes/pn-ms-azure-sql-database.md)]
 - [!INCLUDE[pn-azure-key-vault](../includes/pn-azure-key-vault.md)]
 - [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] Secret Store

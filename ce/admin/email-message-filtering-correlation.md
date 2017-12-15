@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Use Email message filtering and correlation to specify which emails are tracked 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Server-side synchronization, [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], or the Email Router can automatically create email activities in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], which are based on received email messages. This type of automation is known as email message tracking. Users can select a filtering option that determines what email messages will be tracked in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. Filtering is set on the **Email** tab of the **Set Personal Options** dialog box in the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] client applications. Users can set the following options:  
   

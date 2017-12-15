@@ -2,8 +2,8 @@
 title: Get the Specified Segment (Hub Data)
 description: Gets the specified segment instance.
 keywords: Customer Insights; Hub API; segment; get
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/16/2017
 ms.topic: reference

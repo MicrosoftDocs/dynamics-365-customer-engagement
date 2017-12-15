@@ -2,7 +2,7 @@
 title: "Use Relevance Search for faster comprehensive search results | MicrosoftDocs"
 description: "Search for records across entities by using Relevance Search."
 keywords: "Search, relevance, Azure, Indexing"
-ms.date: 12/04/2017
+ms.date: 09/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

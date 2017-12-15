@@ -15,9 +15,9 @@ topic-status: Drafting
 ---
 
 # Stream data from Social Engagement to Microsoft Azure Event Hubs
-Start building out your custom metrics or analysis based on the posts found by [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. Using [Microsoft Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/)—a highly scalable publish-subscribe event ingestor that can intake millions of events per second—you can transform and store social data for further processing. Specify an automation rule in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and stream all posts that match a data set as events to a connected event hub. Once you have the data ingested into the event hub, you can access the data from any application that you connected to your event hub.  
+Start building out your custom metrics or analysis based on the posts found by [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. Using [Microsoft Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/)—a highly scalable publish-subscribe event ingestor that can intake millions of events per second—you can transform and store social data for further processing. Specify an automation rule in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and stream all posts that match a data set as events to a connected event hub. Once you have the data ingested into the event hub, you can access the data from any application that you connected to your event hub.  
   
- In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Connections** to connect your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].  
+ In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections** to connect your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)].  
   
 <a name="prerequisites"></a>   
 ## Prerequisites to stream posts to Azure Event Hubs  
@@ -31,12 +31,12 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 <a name="set_up_connection"></a>   
 ## Connect Social Engagement to Azure Event Hubs  
- [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] allows you to connect to multiple event hubs. Before you can start to stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], you need to enable the connection and acknowledge that you agree data can be sent to a third-party application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Privacy Notice](#privacy)  
+ [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] allows you to connect to multiple event hubs. Before you can start to stream posts to [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)], you need to enable the connection and acknowledge that you agree data can be sent to a third-party application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Privacy Notice](#privacy)  
   
 <a name="connect_procedure"></a>   
 ### Connect to Azure Event Hubs  
   
-1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Connections**.  
+1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
   
 2.  In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
   
@@ -65,7 +65,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 <a name="disable_procedure"></a>   
 ### Disable a connection  
   
-1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Connections**.  
+1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
   
 2.  In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
   
@@ -76,7 +76,7 @@ Start building out your custom metrics or analysis based on the posts found by [
 <a name="re_enable_connection"></a>   
 ### Re-enable a disabled connection  
   
-1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], go to **Settings > Connections**.  
+1.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings > Connections**.  
   
 2.  In the **Connections** pane, select **Microsoft Azure Event Hubs** from the list.  
   

@@ -24,7 +24,7 @@ topic-status: Drafting
  [![Introducing Social Engagement e-book](media/ebook-thumbnail-introducing-social-enagement.png "Introducing Social Engagement e-book")](http://go.microsoft.com/fwlink/p/?LinkID=395230)  
   
 > [!TIP]
->  Check back regularly on our [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel to view the latest videos about [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+>  Check back regularly on our [!INCLUDE[tn_youtube](../includes/tn-youtube.md)] channel to view the latest videos about [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
 >   
 >  More information: [Microsoft Social Engagement YouTube channel](http://go.microsoft.com/fwlink/p/?LinkId=400720)  
   

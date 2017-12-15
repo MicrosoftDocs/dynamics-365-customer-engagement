@@ -2,7 +2,7 @@
 title: "Manage duplicate detection for create and update operations using the Web API | MicrosoftDocs"
 description: "Read how to detect duplicates using MSCRM.SuppressDuplicateDetection header and Dynamics 365 Customer Engagement Web API"
 ms.custom: ""
-ms.date: 11/15/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -63,6 +63,10 @@ If a lead record with the same `emailaddress1` attribute already exists, the fol
 
 **Response**
 ```json
+HTTP/1.1 500 Internal Server Error  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
 {
     "error": {
         "code": "0x80040333",
@@ -104,6 +108,10 @@ MSCRM.SuppressDuplicateDetection: false
 
 **Response**
 ```json  
+HTTP/1.1 500 Internal Server Error  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
 {
     "error": {
         "code": "0x80040333",

@@ -2,7 +2,7 @@
 title: "Use ExecuteMultiple to improve performance for bulk data load (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "ExecuteMultipleRequest message supports higher throughput bulk message passing scenarios in Dynamics 365 (online) Customer Engagement, particularly in the case of Dynamics 365 (online) where Internet latency can be the largest limiting factor"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 8029be0f-0dd6-44d2-b458-94fb40095ec3
-caps.latest.revision: 27
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
@@ -32,7 +31,7 @@ You can use the <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> message
   
  [!code-csharp[ExecuteMultiple#ExecuteMultiple1](../../snippets/csharp/CRMV8/executemultiple/cs/executemultiple1.cs#executemultiple1)]  
   
- To view the complete sample, see [Sample: Execute Multiple Requests](sample-execute-multiple-requests.md).  
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Sample: Execute Multiple Requests](sample-execute-multiple-requests.md).  
   
 <a name="options"></a>   
 ## Specify run-time execution options  

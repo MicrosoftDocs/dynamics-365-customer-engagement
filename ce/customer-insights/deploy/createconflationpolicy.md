@@ -19,15 +19,15 @@ Predictive Matching
 
 1.  Open your Customer Insights  Customer 360 application.
 
-2.  Select **Show Menu** ![](../media/ShowMenu75.png "Show Menu"). 
+2.  Select **Show Menu** ![Show Menu](../media/ShowMenu75.png "Show Menu"). 
 
 3.  Select **All Options** > **Predictive Match**.
 
-    ![](../media/PredictMatchNewMenu75.png "Select Predictive Match")
+    ![Select Predictive Match](../media/PredictMatchNewMenu75.png "Select Predictive Match")
 
 4.  Select **Add** and fill in the values.
 
-    ![](../media/PredictMatchNew275.png "New Predictive Match policy")
+    ![New Predictive Match policy](../media/PredictMatchNew275.png "New Predictive Match policy")
 
     **Properties**
     |**Item**|**Description**|
@@ -73,21 +73,21 @@ The following values were used to create a sample Predictive Match policy:
 | Profile Property | Phone |
 | Match Type | Phone |
 
-![](../media/PredictMatchSample275.png "Sample Predictive Match policy")
+![Sample Predictive Match policy](../media/PredictMatchSample275.png "Sample Predictive Match policy")
 
 The new policy shows up as a tile when saved.
 
-![](../media/PredictMatchSaved75.png "New Predictive Match policy")
+![New Predictive Match policy](../media/PredictMatchSaved75.png "New Predictive Match policy")
 
 You can see the policy in action in Customer 360.
 
-![](../media/PredictMatchCustomer360_650.png "New Predictive Match policy in Customer 360")
+![New Predictive Match policy in Customer 360](../media/PredictMatchCustomer360_650.png "New Predictive Match policy in Customer 360")
 
 For example, you can see the predictive matching inferences for Karen Johnson.
 
 Click the **Show Predictive Matches** in her Info card to display the predictive matches for her contact information.
 
-![](../media/PredictMatchJohnsonHL.png "Sample predictive matches")
+![Sample predictive matches](../media/PredictMatchJohnsonHL.png "Sample predictive matches")
 
 In this sample, phone numbers appear to match as well as last names despite the differences. We therefore have a matching score of 99%.
 

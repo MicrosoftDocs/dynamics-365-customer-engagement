@@ -2,8 +2,8 @@
 title: Get Image Upload URL for Instance Data (Hub)
 description: Creates an image association to a specific data instance.
 keywords: Customer Insights; Hub API; image; 
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/01/2016
 ms.topic: reference

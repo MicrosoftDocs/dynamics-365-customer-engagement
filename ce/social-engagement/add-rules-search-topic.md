@@ -17,8 +17,8 @@ topic-status: Drafting
 # Add rules to a search topic
 Search topics define the data that's available for your analysis. You can add an unlimited number of search rules to a search topic. Each rule selects posts that will be available for the analysis of the data set. You can update your search topics at any time, and add more rules or change existing ones.
 
-[!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] supports the following search rules. 
-You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Administrator or Power Analyst to create or modify search topics.
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] supports the following search rules. 
+You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator or Power Analyst to create or modify search topics.
 
 - **[Keywords rule](#add-a-keywords-rule)** ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol"): Gather posts based on a query that consists of keywords, inclusions, and exclusions.
 
@@ -132,7 +132,7 @@ To exclude multiple terms, the exclusions must be added to the same search rule.
 Exclusions are a great way to reduce the number of posts that result from your search and make sure you stay within your post quota. However, you should choose your exclusions carefully to avoid missing relevant posts.  
   
 ### Handle special characters in keywords, inclusions, and exclusions  
-Exact searches are critical to successful social listening. Special characters are often used in brand or product names in the form of connectors. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] interprets the special characters +, &, /,  and - as separate entities in a search rule.  
+Exact searches are critical to successful social listening. Special characters are often used in brand or product names in the form of connectors. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interprets the special characters +, &, /,  and - as separate entities in a search rule.  
   
 For example, searching for the term **City Power & Light** will result in posts that mention this term with all combinations of white space. Posts that contain any of the following terms (not case-sensitive) will be picked up by the search:  
   
@@ -145,7 +145,7 @@ For example, searching for the term **City Power & Light** will result in posts 
 -   City Power&Light (no white space before or after the special character)  
   
 #### Additional special characters  
-Authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] regularly use #hashtags and @mentions. [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors also will use $stocktweets. Use those special characters if you want to search explicitly for #hashtags, $stocktweets, or @mentions. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] interprets those terms as unique entities when they're added to a search rule.  
+Authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] regularly use #hashtags and @mentions. [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] authors also will use $stocktweets. Use those special characters if you want to search explicitly for #hashtags, $stocktweets, or @mentions. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] interprets those terms as unique entities when they're added to a search rule.  
   
 For example, searching for the term **#contoso** will only find results that contain the exact match of the hashtag.  
   
@@ -164,7 +164,7 @@ Although you can create an unlimited number of search rules per search topic, th
   
 <a name="addFacebookRule"></a>   
 ## Add a Facebook pages rule  
-Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. Usually, you follow conversations on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page in full context and don't look only at specific posts. If you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to a search topic, you can make sure that all posts on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page (such as posts from the audience and the page, or comments from the page and the audience) are captured for further processing in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+Keep track of all conversations that happen on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. Usually, you follow conversations on a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page in full context and don't look only at specific posts. If you add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page to a search topic, you can make sure that all posts on the [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page (such as posts from the audience and the page, or comments from the page and the audience) are captured for further processing in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 ### Add a new Facebook pages rule  
   
@@ -245,11 +245,11 @@ Create rules to gather posts from [!INCLUDE[tn_instagram](../includes/tn-instagr
   
 <a name="privateMessagesRule"></a>   
 ## Add a private messages rule  
-To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] users send or receive on an added social profile, create a private messages rule in a search topic. You can create a private messages rule for every social profile if the owner of the social profile allows the data acquisition of private messages.  
+To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] users send or receive on an added social profile, create a private messages rule in a search topic. You can create a private messages rule for every social profile if the owner of the social profile allows the data acquisition of private messages.  
   
 > [!IMPORTANT]
-> If you add a private messages rule, all private messages (except where the message is an image only) that were sent to the selected profile are visible in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
-> When you add a new private messages rule, all private messages from the past 14 days get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and thus count toward your monthly post quota. 
+> If you add a private messages rule, all private messages (except where the message is an image only) that were sent to the selected profile are visible in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+> When you add a new private messages rule, all private messages from the past 14 days get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and thus count toward your monthly post quota. 
   
 ### Add a new private messages rule  
   

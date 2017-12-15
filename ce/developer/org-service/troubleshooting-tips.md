@@ -2,7 +2,7 @@
 title: "Troubleshooting tips (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This topic contains tips to diagnose and fix certain common issues that may arise when developing Dynamics 365 SDK–based applications"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -42,7 +42,7 @@ Unhandled Exception: System.ServiceModel.Security.MessageSecurityException: An u
 The type initializer for Microsoft.Xrm.Client.CodeGeneration.CodeCustomization threw an exception.  
 ```  
   
- This error can be caused if the build version of the CrmSvcUtil tool and Microsoft.Xrm.Client.CodeGeneration.dll assembly aren’t the same. When you develop applications using the .NET SDK assemblies, always use the CrmSvcUtil tool and assemblies that are provided in the same version of the NuGet package.  
+ This error can be caused if the build version of the CrmSvcUtil tool and `Microsoft.Xrm.Client.CodeGeneration.dll` assembly aren’t the same. When you develop applications using the .NET SDK assemblies, always use the CrmSvcUtil tool and assemblies that are provided in the same version of the NuGet package.  
   
 ### See also  
  [Troubleshooting and Error Handling](troubleshooting-error-handling.md)   

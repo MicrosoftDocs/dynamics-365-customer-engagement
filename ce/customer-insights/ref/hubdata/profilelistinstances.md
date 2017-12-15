@@ -2,8 +2,8 @@
 title: List Profile Instances (Hub Data)
 description: Lists all instances of the specified custom Profile type. 
 keywords: Customer Insights; Hub Data API;  Profile instance; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/17/2017
 ms.topic: reference

@@ -2,8 +2,8 @@
 title: Create or Update Prediction Model Status Type (ARM)
 description: Creates a new or updates an existing status of a prediction model.
 keywords: Customer Insights; ARM API; prediction model status; create; update
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/30/2017
 ms.topic: reference

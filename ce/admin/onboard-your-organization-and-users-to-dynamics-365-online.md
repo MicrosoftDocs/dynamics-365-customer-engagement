@@ -17,12 +17,12 @@ ms.author: "brycho"
 ---
 # Onboard your organization and users
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]? We've put together step-by-step guidance whether you’re still evaluating [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ready to make a purchase, or ready to onboard your organization and users.  
   
 > [!NOTE]
->  This topic is targeted at administrators for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Many of the features covered in this topic are also available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. If a feature is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
+>  This topic is targeted at administrators for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. Many of the features covered in this topic are also available for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. If a feature is available only for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], it’s indicated in the topic. For more information about which features are online only, see [Online-only features in Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
 ## Step One: Try out Dynamics 365 (online) in a free 30-day trial  
  If you haven’t already purchased [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], we recommend you [start with a free 30-day trial](http://go.microsoft.com/fwlink/p/?LinkId=400723). You can try out any of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] apps, including Sales, Customer Service, Field Service, Project Service Automation, Operations, or Financials.  
@@ -284,7 +284,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
  You may be interested in any of the following additional products and services as you onboard your organization to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
 
 #### Social Engagement  
- Connect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] to get social insights in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] collects data from social media channels, such as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and blogs, and presents it in charts and graphs that you can use to spot emerging trends in people's comments, whether positive, negative, or neutral. Drill down into the data and analyze social conversations about your brand. Pinpoint what you're doing right and address potential concerns.  
+ Connect [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] to get social insights in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] collects data from social media channels, such as [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], and blogs, and presents it in charts and graphs that you can use to spot emerging trends in people's comments, whether positive, negative, or neutral. Drill down into the data and analyze social conversations about your brand. Pinpoint what you're doing right and address potential concerns.  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   

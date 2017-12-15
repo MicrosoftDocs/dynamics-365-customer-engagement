@@ -16,13 +16,13 @@ topic-status: Drafting
 
 # Address customer service scenarios on social media with Social Engagement
 
-Do you want to offer fast, powerful support to your customers on social channels? This overview suggests ways you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] to address your customers' service requests on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you keep track of requests and adds intelligence on top of this tracking. You can answer customers directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
+Do you want to offer fast, powerful support to your customers on social channels? This overview suggests ways you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to address your customers' service requests on social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you keep track of requests and adds intelligence on top of this tracking. You can answer customers directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] or link them to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for further tracking.
 
 > [!VIDEO https://www.youtube.com/embed/GMzpeZdQDQY]
 
 ## Prerequisites
 
-- You (and any user you plan to work with) have a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] license assigned.
+- You (and any user you plan to work with) have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license assigned.
 
 - [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is [set up](administer-microsoft-social-engagement.md).
 
@@ -38,9 +38,9 @@ The following steps describe an end-to-end configuration for social customer car
 
 2. Before you start engaging with customers, you need to [create a search topic](set-up-searches.md) with rules that gather all posts that address your organization's social profiles. For example, if you added a Twitter or Facebook page profile, make sure you [allow the acquisition of private messages](manage-access-tokens.md#tokens-for-interactions-with-posts) and [create search rules](add-rules-search-topic.md) that gather private messages and all post types for the profile.
 
-3. [Add tags, automatically and manually](#use-intelligence-to-boost-productivity), and learn how automated intention analysis can help triage incoming posts. Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] do some of your work for you.
+3. [Add tags, automatically and manually](#use-intelligence-to-boost-productivity), and learn how automated intention analysis can help triage incoming posts. Let [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] do some of your work for you.
 
-4. [Save time on repetitive tasks](#create-support-cases-in-includepncrmshortestincludespn-crm-shortestmd-from-social-posts). Create new case records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].
+4. [Save time on repetitive tasks](#create-support-cases-in-includepncrmshortestincludespn-crm-shortestmd-from-social-posts). Create new case records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 5. [Collaborate with your team](#establish-workflows-and-collaborate-with-other-users) and make sure they address the right customer issue with the intended priority.
 
@@ -61,7 +61,7 @@ The following steps describe an end-to-end configuration for social customer car
 
 ## Use intelligence to boost productivity
 
-Let [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] work for you. Find out how you can add tags to important posts, automatically or manually, and learn how intention analysis can help triage incoming posts and how to automate this process.
+Let [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] work for you. Find out how you can add tags to important posts, automatically or manually, and learn how intention analysis can help triage incoming posts and how to automate this process.
 
 - [Define a new tag](tags.md#add-custom-tags) so you can add it to posts.
 
@@ -72,7 +72,7 @@ To further increase efficiency, you can automate the routing of posts by using [
 
 ## Create support cases in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from social posts
 
-Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. For example, you can create a case and assign it so the right service rep in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they review and solve the case efficiently.
+Save time and minimize repetitive activities. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you create new records in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] directly from a post within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For example, you can create a case and assign it so the right service rep in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] so they review and solve the case efficiently.
 
 1. Get an [overview](link-posts-to-dynamics-365.md) of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] integration.
 

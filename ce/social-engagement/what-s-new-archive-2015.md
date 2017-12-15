@@ -21,7 +21,7 @@ manager: sakudes
  The sentiment algorithm can now learn from edits to sentiment values. You can turn on the adaptive learning by going to **Settings** > **Global Settings** > **Sentiment**, and then turn it off at any time when you’re satisfied with the quality level of your sentiment. You can also reset all edited sentiment values to the default base model for sentiment detection. The sentiment algorithm builds a dedicated model based on the users’ inputs for each organization individually. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Adaptive learning for your organization’s sentiment value edits](adaptive-learning.md) 
  
 ### New sentiment and app languages introduced 
- The application interface and sentiment calculation are now available for Danish, Dutch, Finnish, Greek, Norwegian, Polish, Russian, and Swedish besides the already available languages for the application interface and sentiment calculation. For more information about the languages that [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] is translated into, see the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086). 
+ The application interface and sentiment calculation are now available for Danish, Dutch, Finnish, Greek, Norwegian, Polish, Russian, and Swedish besides the already available languages for the application interface and sentiment calculation. For more information about the languages that [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is translated into, see the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086). 
  
 ### Mobile-friendly settings and alerts 
  The Settings and Alerts areas are updated to enrich the experience for mobile devices and tablets. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with Social Engagement](get-started.md) 
@@ -52,7 +52,7 @@ manager: sakudes
 ## Microsoft Social Engagement 2015 Update 1 
  
 ### Listen, analyze, and engage on social posts 
- With the redesigned user interface, which puts the information up front, it’s easier than ever to navigate and find the posts that matter to you, so you can analyze and take action on them. You can now find the posts that matter to you, analyze them, and take action on those posts in a single application. To reflect the addition of Social Center functionality, the product name has changed to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)]. 
+ With the redesigned user interface, which puts the information up front, it’s easier than ever to navigate and find the posts that matter to you, so you can analyze and take action on them. You can now find the posts that matter to you, analyze them, and take action on those posts in a single application. To reflect the addition of Social Center functionality, the product name has changed to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]. 
  
 ### Stay connected with your audience using Social Center 
  Engage with your audience on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] and [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. With Social Center, you can create and share user-based streams to follow conversations and collaborate when working with posts. Assign posts to other users and add custom labels to a post. You can also authenticate social profiles and reply to posts or direct messages in real time. More information: [Keep track of live data streams with Social Center](social-center.md) 
@@ -73,4 +73,4 @@ manager: sakudes
  You can display the user interface for the Analytics areas, Social Center, and Search setup in either a light or a dark color theme. More information: [Set your preferences for the user interface](user-preferences.md). 
  
 ### Explore Social Engagement with more multimedia content 
- There’s more multimedia content added regularly to help you understand different aspects of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. To find a list of available videos and eBooks, see [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708). 
+ There’s more multimedia content added regularly to help you understand different aspects of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. To find a list of available videos and eBooks, see [Videos & eBooks](http://go.microsoft.com/fwlink/p/?LinkId=400708). 

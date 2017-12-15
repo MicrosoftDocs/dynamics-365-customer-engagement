@@ -2,8 +2,8 @@
 title: Get KPI Type (Hub)
 description: Gets the specified KPI.
 keywords: Customer Insights; Hub API; KPI; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/18/2017
 ms.topic: reference

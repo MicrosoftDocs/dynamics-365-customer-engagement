@@ -12,52 +12,52 @@ ms.service: customer-insights
 ms.assetid: 0b4f076f-8053-4789-9483-f414321a3d86
 ---
 
-Add [!include[](../../includes/pn-dyn-365-online.md)] as a data source
+Add [!include[](../../includes/pn-crm-online.md)] as a data source
 ==========================
 [!include[pre release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-If you need to import data from your [!include[](../../includes/pn-dyn-365-online.md)] instance into [!include[](../../includes/pn-customer-insights-full.md)], please have the [!include[](../../includes/pn-dynamics-crm.md)] Administrator credentials for your [!include[](../../includes/pn-dynamics-crm.md)] organization ready.
+If you need to import data from your [!include[](../../includes/pn-crm-online.md)] instance into [!include[](../../includes/pn-customer-insights-full.md)], please have the [!include[](../../includes/pn-dynamics-crm.md)] Administrator credentials for your [!include[](../../includes/pn-dynamics-crm.md)] organization ready.
 
-![](../media/ConceptCRMConnector.png "About Dynamics 365 Connector") 
+![About Dynamics 365 Connector](../media/ConceptCRMConnector.png "About Dynamics 365 Connector") 
 
 >[!NOTE]
 >**TRY IT!** <br>
-If you have an instance of [!include[](../../includes/pn-dyn-365-online.md)] with the sample data installed, you can use it for your data connection. We'll use the sample data for data modeling and Customer 360. You'll need to have the Customer Service app installed. <br>
->If you don't have an instance of [!include[](../../includes/pn-dyn-365-online.md)], you can sign up for a 30-day trial and try out [!include[](../../includes/pn-customer-insights-short.md)] with our sample data. Go to [Microsoft Dynamics 365 for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=829708), and then select **Get Started**.
+If you have an instance of [!include[](../../includes/pn-crm-online.md)] with the sample data installed, you can use it for your data connection. We'll use the sample data for data modeling and Customer 360. You'll need to have the Customer Service app installed. <br>
+>If you don't have an instance of [!include[](../../includes/pn-crm-online.md)], you can sign up for a 30-day trial and try out [!include[](../../includes/pn-customer-insights-short.md)] with our sample data. Go to [Microsoft Dynamics 365 for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=829708), and then select **Get Started**.
 
-##To use [!include[](../../includes/pn-dyn-365-online.md)] as a data source by using the [!include[](../../includes/pn-azure-portal.md)]
+##To use [!include[](../../includes/pn-crm-online.md)] as a data source by using the [!include[](../../includes/pn-azure-portal.md)]
 
 1.  On your [!include[](../../includes/pn-customer-insights-short.md)] hub blade, select **Data Sources** .
 
 2.  On the **All Data Sources** blade, select **Add**.
 
-    ![](../media/AddAzureBlobDataSource.png "Add a data source") 
+    ![Add a data source](../media/AddAzureBlobDataSource.png "Add a data source") 
 
 3.  On the **New Data Source** blade, select **Data Source Type**.
 
 4.  On the **Data Source Type** blade, select **Dynamics 365**.
 
-    ![](../media/CRMDataSourceType.png "Select the Dynamics 365 data source type") 
+    ![Select the Dynamics 365 data source type](../media/CRMDataSourceType.png "Select the Dynamics 365 data source type") 
 
 5.  Enter a **Name** for the data source, and then select **Login to CRM**.
 
-    ![](../media/NewDataSourceName.png "New data source name") 
+    ![New data source name](../media/NewDataSourceName.png "New data source name") 
 
-6.  This opens a new window for you to sign in to your [!include[](../../includes/pn-dyn-365-online.md)] instance. You must use **Dynamics 365 Administrator credentials** for this sign-in.
+6.  This opens a new window for you to sign in to your [!include[](../../includes/pn-crm-online.md)] instance. You must use **Dynamics 365 Administrator credentials** for this sign-in.
 
 7.  If the sign-in is successful, the **New Data Source** blade will be updated with the logged-in ID and the [!include[](../../includes/pn-dynamics-crm.md)] organization name.
 
-    ![](../media/NewDataSourceLogin.png "Log in to the new data source") 
+    ![Log in to the new data source](../media/NewDataSourceLogin.png "Log in to the new data source") 
 
 8.  Select **Configure required settings** to open the **Select Entities** blade. Depending on your [!include[](../../includes/pn-dynamics-crm.md)] configuration, the entities you see might be different from the ones below.
 
-    ![](../media/SelectEntitiesBlade.png "Select the Entities blade") 
+    ![Select the Entities blade](../media/SelectEntitiesBlade.png "Select the Entities blade") 
 
 9.  Select the entities to import into [!include[](../../includes/pn-customer-insights-short.md)]. This displays a check mark next to the selected entity.
 
 10.  If an entity should be modeled as a profile, choose **Yes** under **Is Profile**; otherwise, entities will be imported as interactions.
 
-     ![](../media/SelectEntitiesToModelAsProfile.png "Select entities to model as a profile") 
+     ![Select entities to model as a profile](../media/SelectEntitiesToModelAsProfile.png "Select entities to model as a profile") 
 
    >[!NOTE]
    >**TRY IT!** <br>
@@ -73,19 +73,19 @@ If you have an instance of [!include[](../../includes/pn-dyn-365-online.md)] wit
 
 11.  On the **Select Entities** blade, select **OK**.
 
-12.  On the **New Data Source** blade, select **Create** to provision [!include[](../../includes/pn-dyn-365-online.md)] as your data source.<br>
+12.  On the **New Data Source** blade, select **Create** to provision [!include[](../../includes/pn-crm-online.md)] as your data source.<br>
      It will take several minutes for the connection to be established. Refresh your browser to update the status.
 
-     ![](../media/CreatingDataSource650.png "The data connection is being created") 
+     ![The data connection is being created](../media/CreatingDataSource650.png "The data connection is being created") 
 
 13.  When the status becomes **Created**, select the **Activate** icon to activate the connection.
 
-     ![](../media/ActivateConnection650.png "Activate the data connection") 
+     ![Activate the data connection](../media/ActivateConnection650.png "Activate the data connection") 
 
 14.  After the connection is active, verify that data is being synchronized between [!include[](../../includes/pn-azure-shortest.md)] and [!include[](../../includes/pn-dynamics-crm.md)]. <br>
 Close the **All Data Sources** blade, and open the **Profiles** and **Interactions** blades. You should see some values that aren't zero. It might take up to 24 hours for the data to be synchronized between [!include[](../../includes/pn-dynamics-crm.md)] and [!include[](../../includes/pn-azure-shortest.md)]. 
 
-     ![](../media/ProfilesShowingData650.png "Some profiles should show data")
+     ![Some profiles should show data](../media/ProfilesShowingData650.png "Some profiles should show data") 
 
 Each [!include[](../../includes/pn-dynamics-crm.md)] entity you import into [!include[](../../includes/pn-customer-insights-short.md)] will have a corresponding interaction that appears on the **Interactions** blade. In addition, each entity imported as a profile will have a corresponding **Profile** type in [!include[](../../includes/pn-customer-insights-short.md)] that appears on the **Profiles** blade.
 

@@ -2,8 +2,8 @@
 title: Field Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: The Field type defines custom properties in other types, thereby providing extensibility.
 keywords: Customer Insights; type; field
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/06/2017
 ms.topic: reference

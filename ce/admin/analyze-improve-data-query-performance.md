@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Analyze and improve data query performance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a sub-grid or view. When you optimize an entity that has long-running queries, it could significantly reduce the amount of time the query takes to load. Behind the scenes, optimizations add one or more [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] indexes.  
   

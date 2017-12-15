@@ -1,22 +1,16 @@
 ---
-title: "Understand accessibility in app designer, site map designer, and My Apps page in Dynamics 365 | Microsoft Docs"
-description: "Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365"
-keywords: "App designer; site map designer; my apps; Dynamics 365"
-ms.date: 09/30/2017
-ms.service: crm-online
-ms.custom: 
-ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
+title: Understand accessibility in app designer, site map designer, and My Apps page in Dynamics 365 | Microsoft Docs
+description: Know about accessibility in app designer, site map designer, and My Apps page in Dynamics 365
+keywords: App designer; site map designer; my apps; Dynamics 365
 author: anjgupta
 ms.author: anjgup
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-topic-status: Drafting
+ms.date: 12/15/2017
+ms.topic: article
+applies_to: 
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
 ---
 
 # Accessibility in app designer, site map designer, and My Apps page
@@ -95,14 +89,15 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Accessibility info for browsers  
  For accessibility information about your browser, visit the following websites:  
   
--   [Internet Explorer 11 accessibility](https://www.microsoft.com/enable/products/ie11/default.aspx)  
   
--   [Internet Explorer 10 accessibility](http://www.microsoft.com/enable/products/ie10/default.aspx)  
-  
--   [Internet Explorer 9 accessibility](http://www.microsoft.com/enable/products/ie9/default.aspx)  
+-   [Windows accessibility features](http://www.microsoft.com/enable/products/ie9/default.aspx)  
   
 -   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)  
   
 -   [Safari accessibility features](http://www.apple.com/accessibility/)  
   
 -   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
+
+## See also
+
+[Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)

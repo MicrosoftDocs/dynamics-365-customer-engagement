@@ -17,7 +17,7 @@ ms.author: "jimholtz"
 ---
 # About the Microsoft Cloud Australia datacenter
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 You may request migration to the Australia datacenter upon datacenter availability (Q1 CY2015).  
   
@@ -99,7 +99,7 @@ You may request migration to the Australia datacenter upon datacenter availabili
 -   Availability of multi-geo instance support will be limited in the initial rollout to a fixed number of eligible customers upon request, and we will continue to expand over time.  
   
 ### Will the standard Dynamics 365 Online SLA be offered at general availability launch?  
- Yes, on the date of general availability, the standard 99.9 % financially backed service level agreement (SLA) for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] will apply, just as it does in our other regions around the world. Note: the SLA for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] doesn’t cover [!INCLUDE[pn_netbreeze_long](../../includes/pn-netbreeze-long.md)].  
+ Yes, on the date of general availability, the standard 99.9 % financially backed service level agreement (SLA) for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] will apply, just as it does in our other regions around the world. Note: the SLA for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] doesn’t cover [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)].  
   
 ### What rules govern New Zealand or Oceania customers who want to license affiliates located in Australia?  
  A New Zealand and Oceania customer may not place orders under its existing agreement for any affiliate located in Australia, nor grant any affiliate located in Australia administrative rights to manage subscriptions, if the customer elects to access and use services delivered from datacenters located in Australia. An affiliate located in Australia that wants to access and use Online Services delivered from our datacenters located in Australia must enter into its own subscription under its separate [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] Agreement.  
@@ -193,7 +193,7 @@ You may request migration to the Australia datacenter upon datacenter availabili
  The additional seats will be invoiced at the same rate on the customer’s invoice. The business desk will need to provide a multi-tenant amendment to provide an additional tenant in Australia.  
   
 ### Will customers who purchase Dynamics CRM Online and an additional service such as Parature, Dynamics Marketing, or Microsoft Social Engagement be taxed differently per service?  
- [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] has a datacenter footprint that varies according to each online service offered. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] will be provisioned and available from datacenters located within Australia, which makes those services subject to some taxes that do not necessarily apply to tenants located and provisioned outside Australia. [!INCLUDE[pn_netbreeze_long](../../includes/pn-netbreeze-long.md)] has their own datacenter footprint; they’re offered from to customers in Australia from datacenters outside of Australia. Therefore, these online services are subject to a different tax treatment.  
+ [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] has a datacenter footprint that varies according to each online service offered. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] will be provisioned and available from datacenters located within Australia, which makes those services subject to some taxes that do not necessarily apply to tenants located and provisioned outside Australia. [!INCLUDE[pn_netbreeze_long](../../includes/pn-social-engagement-long.md)] has their own datacenter footprint; they’re offered from to customers in Australia from datacenters outside of Australia. Therefore, these online services are subject to a different tax treatment.  
   
 <a name="BKMK_Tax"></a>   
 ## Tax and billing  

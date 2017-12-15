@@ -2,8 +2,8 @@
 title: Segmentation Management APIs (Hub)
 description: Enables management of Profile collections (Segments).
 keywords: Customer Insights; Hub API; Segmentation API
-author: Milar1
-ms.author: v-larmic
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 04/28/2017
 ms.topic: reference

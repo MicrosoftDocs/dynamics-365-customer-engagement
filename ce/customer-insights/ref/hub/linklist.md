@@ -2,8 +2,8 @@
 title: List Link Types for a Hub (Hub)
 description: Lists the Link type definitions for a Hub.
 keywords: Customer Insights; Hub API; Link; list
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/17/2017
 ms.topic: reference

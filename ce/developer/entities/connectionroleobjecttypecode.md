@@ -1,7 +1,7 @@
 ---
 title: "ConnectionRoleObjectTypeCode Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Includes schema information and supported messages for the ConnectionRoleObjectTypeCode entity."
-ms.date: 10/31/2017
+ms.date: 12/05/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: 
@@ -12,8 +12,6 @@ ms.author: "jdaly"
 manager: "jdaly"
 ---
 # ConnectionRoleObjectTypeCode Entity Reference
-
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 Specifies the entity type that can play specific role in a connection.
 
@@ -29,17 +27,20 @@ Specifies the entity type that can play specific role in a connection.
 
 ## Entity Properties
 
-**DisplayName**: Connection Role Object Type Code<br />
-**DisplayCollectionName**: Connection Role Object Type Codes<br />
-**SchemaName**: ConnectionRoleObjectTypeCode<br />
-**CollectionSchemaName**: ConnectionRoleObjectTypeCodes<br />
-**LogicalName**: connectionroleobjecttypecode<br />
-**LogicalCollectionName**: connectionroleobjecttypecodes<br />
-**EntitySetName**: connectionroleobjecttypecodes<br />
-**PrimaryIdAttribute**: connectionroleobjecttypecodeid<br />
-**PrimaryNameAttribute**: <br />
-**OwnershipType**: None<br />
-**IsBPFEntity**: False<br />
+|Property|Value|
+|--------|-----|
+|CollectionSchemaName|ConnectionRoleObjectTypeCodes|
+|DisplayCollectionName|Connection Role Object Type Codes|
+|DisplayName|Connection Role Object Type Code|
+|EntitySetName|connectionroleobjecttypecodes|
+|IsBPFEntity|False|
+|LogicalCollectionName|connectionroleobjecttypecodes|
+|LogicalName|connectionroleobjecttypecode|
+|OwnershipType|None|
+|PrimaryIdAttribute|connectionroleobjecttypecodeid|
+|PrimaryNameAttribute||
+|SchemaName|ConnectionRoleObjectTypeCode|
+
 <a name="writable-attributes"></a>
 
 ## Writable attributes
@@ -53,39 +54,45 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 ### <a name="BKMK_AssociatedObjectTypeCode"></a> AssociatedObjectTypeCode
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: associatedobjecttypecode<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: EntityName<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|associatedobjecttypecode|
+|RequiredLevel|SystemRequired|
+|Type|EntityName|
 
 
 ### <a name="BKMK_ConnectionRoleId"></a> ConnectionRoleId
 
-**Description**: Unique identifier of the connection role associated with the Connection Role Object Type Code.<br />
-**DisplayName**: Connection Role<br />
-**LogicalName**: connectionroleid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Lookup<br />
-**Targets**: connectionrole
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the connection role associated with the Connection Role Object Type Code.|
+|DisplayName|Connection Role|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|connectionroleid|
+|RequiredLevel|SystemRequired|
+|Targets|connectionrole|
+|Type|Lookup|
 
 
 ### <a name="BKMK_ConnectionRoleObjectTypeCodeId"></a> ConnectionRoleObjectTypeCodeId
 
-**Description**: Unique identifier of the connection role object type association.<br />
-**DisplayName**: <br />
-**LogicalName**: connectionroleobjecttypecodeid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**IsValidForUpdate**: False<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the connection role object type association.|
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|IsValidForUpdate|False|
+|LogicalName|connectionroleobjecttypecodeid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 <a name="read-only-attributes"></a>
 ## Read-only attributes
@@ -98,40 +105,46 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 ### <a name="BKMK_ConnectionRoleIdName"></a> ConnectionRoleIdName
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: connectionroleidname<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: String<br />
-**FormatName**: Text<br />
-**IsLocalizable**: False<br />
-**MaxLength**: 100
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|connectionroleidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
 
 
 ### <a name="BKMK_OrganizationId"></a> OrganizationId
 
-**Description**: Unique identifier of the organization associated with the connectionroleobjecttypecode.<br />
-**DisplayName**: Organization <br />
-**LogicalName**: organizationid<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: SystemRequired<br />
-**Type**: Uniqueidentifier<br />
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the organization associated with the connectionroleobjecttypecode.|
+|DisplayName|Organization |
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|organizationid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
 
 
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
-**Description**: <br />
-**DisplayName**: <br />
-**LogicalName**: versionnumber<br />
-**IsValidForForm**: False<br />
-**IsValidForRead**: True<br />
-**RequiredLevel**: None<br />
-**Type**: BigInt<br />
-**MaxValue**: 9223372036854775807<br />
-**MinValue**: -9223372036854775808<br />
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|versionnumber|
+|MaxValue|9223372036854775807|
+|MinValue|-9223372036854775808|
+|RequiredLevel|None|
+|Type|BigInt|
 
 <a name="onetomany"></a>
 
@@ -143,27 +156,15 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_connectionroleobjecttypecode"></a> userentityinstancedata_connectionroleobjecttypecode
 
 Same as userentityinstancedata entity [userentityinstancedata_connectionroleobjecttypecode](userentityinstancedata.md#BKMK_userentityinstancedata_connectionroleobjecttypecode) Many-To-One relationship.
-
-**ReferencingEntity**: userentityinstancedata<br />
-**ReferencingAttribute**: objectid<br />
-**IsHierarchical**: False<br />
-**IsCustomizable**: False<br />
-**ReferencedEntityNavigationPropertyName**: userentityinstancedata_connectionroleobjecttypecode<br />
-**AssociatedMenuConfiguration**:
-
-- **Behavior**: DoNotDisplay
-- **Group**: Details
-- **Label**: 
-- **Order**: 
-
-**CascadeConfiguration**:
-
-- **Assign**: NoCascade
-- **Delete**: Cascade
-- **Merge**: NoCascade
-- **Reparent**: NoCascade
-- **Share**: NoCascade
-- **Unshare**: NoCascade
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|userentityinstancedata|
+|ReferencingAttribute|objectid|
+|IsHierarchical|False|
+|IsCustomizable|False|
+|ReferencedEntityNavigationPropertyName|userentityinstancedata_connectionroleobjecttypecode|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -176,7 +177,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See connectionrole Entity [connection_role_connection_role_object_type_codes](connectionrole.md#BKMK_connection_role_connection_role_object_type_codes) One-To-Many relationship.
 
-## See also
+### See also
 
 [About the Entity Reference](../about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement](../programming-reference.md)<br />

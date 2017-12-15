@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Set your preferences for the user interface
-When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], they define default values that apply to all users of the same solution. However, you can override the Administrator’s defaults to display the user interface according to your requirements. For your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] profile, you can select the following:  
+When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], they define default values that apply to all users of the same solution. However, you can override the Administrator’s defaults to display the user interface according to your requirements. For your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] profile, you can select the following:  
   
 - Screen language  
   
@@ -44,8 +44,8 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze
   
 |Option|What you can do|  
 |------------|---------------------|  
-|Profile Photo|Click **Edit** to navigate to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] account and upload the photo that you want to use as your profile photo. The  new photo will replace the default profile photo and will be visible in various areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] where the user activity is involved.  Note that changes to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] account may take time to synchronize.<br /><br /> You can also change your profile by clicking the **View Office 365 profile option** on the top navigation bar.|  
-|Screen language|Choose the language that the application will be displayed in.<br /><br /> The available languages for [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] are listed in the [Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086) download.|  
+|Profile Photo|Click **Edit** to navigate to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] account and upload the photo that you want to use as your profile photo. The  new photo will replace the default profile photo and will be visible in various areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] where the user activity is involved.  Note that changes to your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] account may take time to synchronize.<br /><br /> You can also change your profile by clicking the **View Office 365 profile option** on the top navigation bar.|  
+|Screen language|Choose the language that the application will be displayed in.<br /><br /> The available languages for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] are listed in the [Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086) download.|  
 |Date and time format|Set the default date and time format for charts and graphs in the dialog box.|  
 |Theme|Choose between a light and a dark color theme for your user interface.|  
 |Number format|Choose from a predefined set of option to display numbers on the user interface.|  

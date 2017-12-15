@@ -19,7 +19,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
   
 <a name="data_set"></a>   
 ## Set a baseline for your analysis with a data set  
- Data sets are an important concept in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)], defining the set of posts that your current analysis focuses on. Data sets are used in Analytics, Alerts, and Social Center to give you the most flexibility for your views of the data.  
+ Data sets are an important concept in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], defining the set of posts that your current analysis focuses on. Data sets are used in Analytics, Alerts, and Social Center to give you the most flexibility for your views of the data.  
   
  You can create a data set by providing parameters for your analysis focus and the filters:  
   
@@ -30,7 +30,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
  ![Create data sets in Social Engagment](media/data-set-concept-social-engagement.png "Create data sets in Social Engagment")  
   
 ## Drill down into data and apply filters from widgets  
- [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
+ [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] widgets provide you with drill-down functionality to narrow your data set. You can select a data point to get a more detailed view on the data.  
   
  When you work through the application by drilling down, it redirects you to corresponding pages, and updates filters in the filter section. For example, if you select a data point in a **Sources History** widget (which spans more than one day) on **Analytics** > **Sources**, the widget on the **Sources** page applies the filter for the source that you selected, and your time frame updates to the time frame of the selected data point.  
   

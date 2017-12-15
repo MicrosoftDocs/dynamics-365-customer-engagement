@@ -503,12 +503,14 @@
 ### [Sample: Install or remove sample data](sample-install-remove-sample-data.md)
 # [Sample code directory](sample-code-directory.md)
 
+# [Online Management API](online-management-api/)
+
 # [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)
 ## [Connected Field Service architecture](connected-field-service-architecture.md)
 ## [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](iot-parent-iot-alerts-workflow.md)
 
-# [Online Management API](online-management-api/)
+# [Marketing Developer Guide](../marketing/developer/marketing-developer-guide.md)
 
 # [Programming reference](programming-reference.md)
 ## [Entity Reference](entities/TOC.yml)

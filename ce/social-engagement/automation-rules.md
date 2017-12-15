@@ -63,7 +63,7 @@ When no rule is selected, you'll see the  aggregated numbers across all automati
 The following section explains more about the available actions for automation rules.  
   
 > [!TIP]
-> [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] can send administrators a failure notification if an action in an automation rule fails. Administrators can turn this feature on if they want to receive these notifications. To receive email notifications, go to **Settings** > **Automation Rules**, and then set **Send failure notification** to **ON**.  
+> [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can send administrators a failure notification if an action in an automation rule fails. Administrators can turn this feature on if they want to receive these notifications. To receive email notifications, go to **Settings** > **Automation Rules**, and then set **Send failure notification** to **ON**.  
 >   
 >  For troubleshooting information when receiving failure notifications, see [Troubleshoot issues with failing actions](#troubleshoot).  
   
@@ -100,7 +100,7 @@ Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
  **Recover missed posts**  
   
- You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the Analytics area in [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)].  
+ You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the Analytics area in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 1.  Open the automation rule with the failed Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
   
@@ -115,7 +115,7 @@ All posts that remain in your data set were missed by the automation rule and we
 ### Stream to Event Hubs action fails  
  **Possible causes**  
   
-Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
+Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
   
  **Address the issue**  
   
@@ -127,7 +127,7 @@ Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_
   
  **Identify missed psots**  
   
-Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], you can quickly find how many posts were missed.  
+Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can quickly find how many posts were missed.  
   
 1.  Open the automation rule with the **Stream to Event Hubs** actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
   
@@ -140,7 +140,7 @@ Event hubs are built to handle high volumes of events in real time. Although you
 Automation rules are visible to all users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], but only users with Manager or Administrator roles can manage them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md "Understand user roles")  
   
 > [!IMPORTANT]
->  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], see [Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md).  
+>  To link posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] using automation rules, make sure the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance you select is upgraded to at least [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] Update 2016. Automation rules aren't supported for [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)]. To link a post manually to [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)], see [Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md).  
   
 <a name="create_rule"></a>   
 ### Create an automation rule  
@@ -208,7 +208,7 @@ A newly-found post can match the filters of more than one automation rule. If th
 > [!CAUTION]
 >  If a post matches the filters for multiple automation rules, only the last created (the newest) automation rule will process the post.  
 >   
->  You can create up to 1 link per second in the same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. If more than 1 post per second matches your active automation rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] will continue trying to create the link every minute, for a maximum of 10 minutes. If [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]'s queue is still blocked after 10 re-tries, the post gets dropped eventually.  
+>  You can create up to 1 link per second in the same [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. If more than 1 post per second matches your active automation rules, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will continue trying to create the link every minute, for a maximum of 10 minutes. If [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]'s queue is still blocked after 10 re-tries, the post gets dropped eventually.  
   
 ### See Also  
 [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)   

@@ -20,16 +20,16 @@ This section describes the steps for creating a data model for profiles and inte
 
    >[!NOTE]
    >**WAIT!** <br>
-   >If you have connected your [!include[](../../includes/pn-customer-insights-short.md)] hub by using [!include[](../../includes/pn-dyn-365-online.md)] sample data, you can ignore this section because the settings below were configured for you. Skip to [Step-by-step Customer 360](stepbystepcustomer360.md).
+   >If you have connected your [!include[](../../includes/pn-customer-insights-short.md)] hub by using [!include[](../../includes/pn-crm-online.md)] sample data, you can ignore this section because the settings below were configured for you. Skip to [Step-by-step Customer 360](stepbystepcustomer360.md).
 
 Begin by selecting your [!include[](../../includes/pn-customer-insights-short.md)] hub in the [!include[](../../includes/pn-azure-portal.md)]. The key **Settings** for your hub are displayed.
 
-![](../media/ServiceSettings.png "Hub settings") 
+![Hub settings](../media/ServiceSettings.png "Hub settings") 
 
 
 ##Add a profile
 
-![](../media/ConceptProfile.png "About profiles") 
+![About profiles](../media/ConceptProfile.png "About profiles") 
 
 There are two ways to create a profile definition in the [!include[](../../includes/pn-azure-portal.md)]:
 
@@ -47,20 +47,20 @@ To create a new profile definition from the [!include[](../../includes/pn-azure-
 
     1.  On the **New Profile** blade, select **Creating from sample data**.
 
-        ![](../media/CreatingFromSampleDataHL.png "Create a new profile from sample data") 
+        ![Create a new profile from sample data](../media/CreatingFromSampleDataHL.png "Create a new profile from sample data") 
 
     2.  On the **Creating from sample data** blade, select the **Select a file** dialog box or the folder icon next to it, to upload a sample CSV file.
 
         >[!NOTE]
         >**TRY IT!** <br>
         >Upload the Branch.csv sample file. Use default values and do not add an image. <br>
-        >![](../media/BranchFileUpload.png "Upload the Branch.csv sample data") 
+        >![Upload the Branch.csv sample data](../media/BranchFileUpload.png "Upload the Branch.csv sample data") 
 
     3.  Choose the appropriate **Column Delimiter**, and then select **OK**. A delimiter will be preselected based on the data you've uploaded.
 
 4.  On the **New Profile** blade, select **Edit basic information** to modify any of the properties loaded from the sample file, add more properties, or to define the keys for your profile.
 
-    ![](../media/EditBasicInfo.png "Edit basic profile information") 
+    ![Edit basic profile information](../media/EditBasicInfo.png "Edit basic profile information") 
 
     1.  To change the name or type of a property, select the property in the **Properties** section of the **New Profile** blade.
 
@@ -74,7 +74,7 @@ To create a new profile definition from the [!include[](../../includes/pn-azure-
         >Key Name: branchid <br>
         >BranchId Property: BranchId <br>
         >Use default values for the rest of the settings. <br>
-        >![](../media/BranchProfileKeys.png "Upload the Branch.csv sample data")     
+        >![Upload the Branch.csv sample data](../media/BranchProfileKeys.png "Upload the Branch.csv sample data")     
 
     4.  Select **OK** to save the additions and modifications for your profile properties.
 
@@ -83,7 +83,7 @@ To create a new profile definition from the [!include[](../../includes/pn-azure-
 
 5.  \[Optional\] On the **Upload Images** blade, you can associate icons of different sizes with your profile or with a specific property in a profile. The icon will be used in the [!include[](../../includes/pn-customer-insights-short.md)] app to represent the profile or property.
 
-    ![](../media/UploadImagesHL.png "Upload images to the profile") 
+    ![Upload images to the profile](../media/UploadImagesHL.png "Upload images to the profile") 
 
     1.  Select **Add** to add the image to your profile.
 
@@ -93,7 +93,7 @@ To create a new profile definition from the [!include[](../../includes/pn-azure-
 
 6.  Selecting **Edit Advanced Information** on the **New Profile** blade will display the JSON schema for your profile definition. You can make changes to your profile by directly editing the JSON representation. You can also use this to copy the JSON schema for creating the profiles programmatically using our REST APIs.
 
-    ![](../media/EditAdvancedInfoHL.png "Edit advanced profile information") 
+    ![Edit advanced profile information](../media/EditAdvancedInfoHL.png "Edit advanced profile information") 
 
     Select **OK** to save any edits.
 
@@ -111,7 +111,7 @@ To create a new profile definition from the [!include[](../../includes/pn-azure-
 
 ##Add an interaction
 
-![](../media/ConceptInteractions.png "About interactions") 
+![About interactions](../media/ConceptInteractions.png "About interactions") 
 
 Interactions can be created from the [!include[](../../includes/pn-azure-portal.md)] in two ways:
 
@@ -125,13 +125,13 @@ To create a new interaction definition from the [!include[](../../includes/pn-az
 
 2.  On the **Interactions** blade, select **Add Interaction**.
 
-    ![](../media/AddInteractions.png "Add interactions") 
+    ![Add interactions](../media/AddInteractions.png "Add interactions") 
 
 3.  \[Optional Step\] This step describes how to add properties to your interaction when you have sample activity or interaction data in a CSV file. If you do not have such sample data or want to define each property explicitly, you can skip ahead to the next step.
 
     1.  On the **New Interaction** blade, select **Creating from sample data**.
 
-        ![](../media/CreateFromSampleData2.png "Create from sample data") 
+        ![Create from sample data](../media/CreateFromSampleData2.png "Create from sample data") 
 
     2.  On the **Creating from sample data** blade, select the **Select a file** dialog box or the folder icon next to it, to upload a sample CSV file.
 
@@ -143,7 +143,7 @@ To create a new interaction definition from the [!include[](../../includes/pn-az
 
 4.  On the **New Interaction** blade, select **Edit basic information** to modify any of the properties loaded from the sample file.
 
-    ![](../media/EditBasicInfo2.png "Edit basic information") 
+    ![Edit basic information](../media/EditBasicInfo2.png "Edit basic information") 
 
     1.  To change the name or type of a property, select the property in the **Properties** section of the **New Interaction** blade.
 
@@ -163,7 +163,7 @@ To create a new interaction definition from the [!include[](../../includes/pn-az
 
 1.  \[Optional\] On the **Upload Images** blade, you can associate icons of different sizes with your interaction or with a specific property in an interaction. The icon will be used in the [!include[](../../includes/pn-customer-insights-short.md)] app to represent the interaction or property.
 
-    ![](../media/UploadImagesHL2.png "Upload images to the interaction") 
+    ![Upload images to the interaction](../media/UploadImagesHL2.png "Upload images to the interaction") 
 
     1.  Select **Add** to add the image to your interaction.
 
@@ -173,7 +173,7 @@ To create a new interaction definition from the [!include[](../../includes/pn-az
 
 2.  Selecting **Edit Advanced Information** on the **New Interaction** blade will display the JSON schema for your interaction definition. You can make changes to your interaction definition by directly editing its JSON representation. You can also use this to copy the JSON schema for creating the interactions programmatically using our REST APIs.
 
-    ![](../media/EditAdvancedInfoHL2.png "Edit Advanced Interaction information") 
+    ![Edit Advanced Interaction information](../media/EditAdvancedInfoHL2.png "Edit Advanced Interaction information") 
 
     Select **OK** to save any edits.
 
@@ -185,7 +185,7 @@ To create a new interaction definition from the [!include[](../../includes/pn-az
 
 ##Add a link
 
-![](../media/ConceptLinks.png "About links") 
+![About links](../media/ConceptLinks.png "About links") 
 
 To create a new **Link** definition from the [!include[](../../includes/pn-azure-portal.md)]:
 
@@ -193,7 +193,7 @@ To create a new **Link** definition from the [!include[](../../includes/pn-azure
 
 2.  On the **Links** blade, select **Add Link**.
 
-    ![](../media/AddLink.png "Add a link") 
+    ![Add a link](../media/AddLink.png "Add a link") 
 
 3.  On the **New Link** blade, do the following:
 
@@ -217,11 +217,11 @@ To create a new **Link** definition from the [!include[](../../includes/pn-azure
         >Profile Key Group: `<select the branch profile key group you created above>` <br>
         >Interaction Properties `<select the branch interaction you created above>` <br>
         >Click **Populate property mappings**. <br>
-        >![](../media/BranchToBranchLink.png "Create a link between branch profile and interaction")     
+        >![Create a link between branch profile and interaction](../media/BranchToBranchLink.png "Create a link between branch profile and interaction")     
 
     7.  In the **Property Mappings** section, you can link an Interaction property to a corresponding Profile property. Currently only links of type Update Always are supported. Future releases may support additional link types such as Update If Null, Update If Newer, and so on.
 
-        ![](../media/NewLinkDetails.png "New link details") 
+        ![New link details](../media/NewLinkDetails.png "New link details") 
 
 4.  Select **Create** to provision the link between the interaction and the profile.
 
@@ -256,7 +256,7 @@ New content coming.
 
 ##Add a KPI
 
-![](../media/ConceptKPIs.png "About KPIs") 
+![About KPIs](../media/ConceptKPIs.png "About KPIs") 
 
 To create a new **KPI** definition from the [!include[](../../includes/pn-azure-portal.md)]:
 
@@ -264,7 +264,7 @@ To create a new **KPI** definition from the [!include[](../../includes/pn-azure-
 
 2.  On the **KPI** blade, select **Add KPI**.
 
-    ![](../media/AddKPI.png "Add KPI") 
+    ![Add KPI](../media/AddKPI.png "Add KPI") 
 
 3.  On the **New KPI** blade, do the following:
 
@@ -302,7 +302,7 @@ To create a new **KPI** definition from the [!include[](../../includes/pn-azure-
     > <br>
     >1. A KPI to calculate total monthly deposits for a branch <br>
     > <br>
-    >![](../media/TotalMonDepoKPI.png "Total monthly deposits KPI") <br>  
+    >![Total monthly deposits KPI](../media/TotalMonDepoKPI.png "Total monthly deposits KPI") <br>  
     >**Edit Basic Information** <br>
     >Calculation Window: Month <br>
     >Choose an item to create KPI for: Interaction <br>
@@ -312,7 +312,7 @@ To create a new **KPI** definition from the [!include[](../../includes/pn-azure-
     >**Function** <br>
     >Function: Sum <br>
     >Expression: BranchId - Type a letter to autofill with expression choices <br>
-    >![](../media/KPIFunctionBranchId.png "Type a letter to autofill with expression choices") <br>  
+    >![Type a letter to autofill with expression choices](../media/KPIFunctionBranchId.png "Type a letter to autofill with expression choices") <br>  
     >**Filter Conditions** <br>
     >Basic and Advanced: No filters <br>
     > <br>
@@ -327,7 +327,7 @@ To create a new **KPI** definition from the [!include[](../../includes/pn-azure-
     >**Function** <br>
     >Function: Sum <br>
     >Expression: BranchId - Type a letter to autofill with expression choices <br>
-    >![](../media/KPIFunctionBranchId.png "Type a letter to autofill with expression choices") <br>  
+    >![Type a letter to autofill with expression choices](../media/KPIFunctionBranchId.png "Type a letter to autofill with expression choices") <br>  
     >**Filter Conditions** <br>
     >Basic and Advanced: No filters <br>
 

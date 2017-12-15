@@ -2,8 +2,8 @@
 title: Get Prediction Model Status Type (Hub)
 description: Gets the model status of the specified prediction.
 keywords: Customer Insights; Hub API; prediction model status; get
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/30/2017
 ms.topic: reference

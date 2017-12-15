@@ -16,10 +16,10 @@ ms.author: mhart
 manager: sakudes
 ---
 # Assign permissions and user roles
-Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)].  
+Manage user permissions by assigning user roles for newly licensed users and editing user roles for existing users. Learn how to contact licensed users by email in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   
 > [!NOTE]
->  You must be a [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] Administrator to perform these tasks.  
+>  You must be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Administrator to perform these tasks.  
   
 <a name="AssignRole"></a>   
 ## Assign a role to a new user  
@@ -46,7 +46,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
 4.  Click **Save** ![Save button](media/save-icon.png "Save button").  
   
 > [!TIP]
->  You can use the **Search for users** input field to find licensed users of your [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] solution. Additionally, you can filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.  
+>  You can use the **Search for users** input field to find licensed users of your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. Additionally, you can filter for users with a specific role by choosing a role in the **Configuration role** or **Interaction role** drop-down list.  
   
 > [!NOTE]
 >  The specified user will receive an email with the updated user roles and permissions.  
@@ -57,7 +57,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 <a name="EmailUsers"></a>   
 ## Send email to users  
-Use your email client to send email to [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
+Use your email client to send email to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] users. You don’t need to research a user’s email address. The email opens with the recipient’s address already filled in.  
   
 1.  Navigate to **Settings** > **User Management**.  
   

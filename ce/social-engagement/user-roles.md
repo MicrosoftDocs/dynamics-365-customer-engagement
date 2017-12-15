@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Understand user roles
-You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreeze_long](../includes/pn-netbreeze-long.md)] solution users. Every user can be assigned two sets of roles: configuration roles and interaction roles. This gives administrators flexibility to manage user roles and permissions, and give users the functionality they need.  
+You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] solution users. Every user can be assigned two sets of roles: configuration roles and interaction roles. This gives administrators flexibility to manage user roles and permissions, and give users the functionality they need.  
   
  Every invited user should be assigned both types of roles.  
   
@@ -27,7 +27,7 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
 >  This Settings page is visible to administrators only.  
   
 > [!IMPORTANT]
->  User roles set in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] don’t apply to [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)]. You’ll need to set roles in both [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)] and in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user can have a different role in each solution.  
+>  User roles set in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] don’t apply to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You’ll need to set roles in both [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user can have a different role in each solution.  
 >   
 >  If there are **Newly invited (Analyst/Reader)** users in the solution, administrators will receive a notification when accessing the **Settings** area.  
   
@@ -61,7 +61,7 @@ You can assign roles with appropriate permissions for your [!INCLUDE[pn_netbreez
 ## Interaction user roles  
  The interaction role defines permissions to collaborate with other solution users and to engage on social media from within the solution.  
   
- To let users interact with a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-netbreeze-short.md)], administrators can assign the appropriate interaction roles. Typically, a user with a Manager role defines streams and shares them with other users. Readers just want to keep track of the conversations and posts assigned to them, while Responders tend to take action on a post.  
+ To let users interact with a post from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], administrators can assign the appropriate interaction roles. Typically, a user with a Manager role defines streams and shares them with other users. Readers just want to keep track of the conversations and posts assigned to them, while Responders tend to take action on a post.  
   
 |Permissions|Reader|Responder|Manager|  
 |-----------------|------------|---------------|-------------|  

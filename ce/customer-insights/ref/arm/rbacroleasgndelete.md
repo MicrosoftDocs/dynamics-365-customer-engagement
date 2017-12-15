@@ -2,8 +2,8 @@
 title: Delete Role Assignment (ARM)
 description: Deletes a Role Assignment type.  
 keywords: Customer Insights; ARM API; Role Assignment; delete
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 11/03/2016
 ms.topic: reference

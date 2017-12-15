@@ -4,7 +4,7 @@ ms.assetid: 7ec3635f-c77f-4a24-bc61-4f8e2d9999e8
 description: ""
 keywords: ""
 ms.custom: ""
-ms.date: "07/26/2017"
+ms.date: 07/26/2017
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"

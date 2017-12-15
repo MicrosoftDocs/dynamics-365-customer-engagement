@@ -2,8 +2,8 @@
 title: Hub Type Definition (Microsoft Dynamics 365 for Customer Insights) | MicrosoftDocs
 description: The Hub type represents the Azure Hub resource.
 keywords: Customer Insights; type; hub
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 05/31/2017
 ms.topic: reference

@@ -2,8 +2,8 @@
 title: View Type Definition
 description: 
 keywords: Customer Insights; type; View
-author: Milar1
-ms.author: v-milar
+author: JimDaly
+ms.author: jdaly
 manager: jdaly
 ms.date: 06/07/2017
 ms.topic: reference
