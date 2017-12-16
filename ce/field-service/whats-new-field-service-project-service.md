@@ -16,6 +16,7 @@ applies_to:
   - "Dynamics 365 Version 8.x"
 ms.assetid: 70c37c89-fc96-421d-b559-500d26c200b3
 caps.latest.revision: 11
+author: "dgittler"
 ms.author: "shellyha"
 ---
 
@@ -124,7 +125,7 @@ Note that certain resources are considered eligible for work. So, assuming a res
 
 [For more details about this new sort option, visit our blog post on the topic](https://go.microsoft.com/fwlink/p/?linkid=865112).
 
-Dynamics 365 (online), version 8.2### Include schedule board date ranges in custom queries
+### Include schedule board date ranges in custom queries
 
 In a previous release, we introduced scheduling extensibility, opening up countless scenarios for field service organizations. Since then, we’ve heard from our partners and customers about some additional use cases that require being able to include a date range in custom queries on the schedule board. Now, you can do that.
 
