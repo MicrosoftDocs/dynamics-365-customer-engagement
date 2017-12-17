@@ -15,14 +15,12 @@ manager: "amyla"
 
 Provides properties and methods to use Web API to create and manage records and execute Web API actions and functions in Customer Engagement. 
 
-<!--
 ## Properties
 
 |Property | Description | 
 |----- |-----| 
 |[online](xrm-webapi/online.md)|[!INCLUDE[xrm-webapi/includes/online-description.md](xrm-webapi/includes/online-description.md)]|
 |[offline](xrm-webapi/offline.md)|[!INCLUDE[xrm-webapi/includes/offline-description.md](xrm-webapi/includes/offline-description.md)]|
--->
 
 ## Methods
 
