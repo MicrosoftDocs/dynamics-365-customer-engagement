@@ -41,7 +41,7 @@ manager: "amyla"
 
 **Type**: Boolean.
 
-**Description**: true if the entity is offline enabled; otherwise false.
+**Description**: true if the entity is present in user’s profile and is currently available for use in offline mode; otherwise false.
 
 [Xrm.WebApi.offline](offline.md)
 
