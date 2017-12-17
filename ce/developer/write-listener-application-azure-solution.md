@@ -26,7 +26,7 @@ This topic describes how to write an [!INCLUDE[pn_Windows_Azure](../includes/pn-
 
 ## Write a queue listener
 
-A message *queue* is a repository of messages received at a service bus endpoint. A *queue listener* is an application that reads and processes these queued messages. Because the service bus messages are stored in a queue, a listener doesn’t have to be actively listening for messages to be received in the queue. A queue listener can be started after messages have arrived in the queue and still process those messages. Other types of listeners discussed in the next section must be actively listening or they will miss the opportunity to read a message. These messages can originate from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or from some other source. .  
+A message *queue* is a repository of messages received at a service bus endpoint. A *queue listener* is an application that reads and processes these queued messages. Because the service bus messages are stored in a queue, a listener doesn’t have to be actively listening for messages to be received in the queue. A queue listener can be started after messages have arrived in the queue and still process those messages. Other types of listeners discussed in the next section must be actively listening or they will miss the opportunity to read a message. These messages can originate from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or from some other source. 
   
 > [!IMPORTANT]
 >  When writing a queue listener, check each message header action to determine if the message originated from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For information on how to do this see [Filter messages](write-listener-application-azure-solution.md#filter).  
@@ -46,7 +46,9 @@ Use of queues and topics in your multisystem software design can result in the d
 
 In addition to the queue listener described previously, you can write a listener for three other service bus contracts that are supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]: one-way, two-way, and REST. A one-way listener can read and process a message posted to the service bus. A two-way listener can do the same but can also return a string of some information back to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A REST listener is the same as the two-way listener except that it works with a REST endpoint. Notice that these listeners must be actively listening at a service endpoint to read a message sent over the service bus. If the listener isn’t listening when [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] attempts to post a message to the service bus, the message doesn’t get sent.  
   
-Writing a listener is structured around what is known as ABC: address, binding, and contract. The following information identifies the ABCs of a one-way listener.  
+Writing a listener is structured around what is known as ABC: address, binding, and contract. 
+
+### One-way listener
   
 - Address: service URI  
   
@@ -54,9 +56,9 @@ Writing a listener is structured around what is known as ABC: address, binding, 
   
 - Contract: <xref:Microsoft.Xrm.Sdk.IServiceEndpointPlugin>  
   
-After your listener is registered with an endpoint, the listener’s `Execute` method is invoked whenever a message is posted to the service bus by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The `Execute` method doesn’t return any data from the method call. For more information, see the one-way listener sample, [Sample: One-way Listener](sample-one-way-listener.md).  
+After your listener is registered with an endpoint, the listener’s <xref:Microsoft.Xrm.Sdk.IServiceEndpointPlugin.Execute*> method is invoked whenever a message is posted to the service bus by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. The `Execute` method doesn’t return any data from the method call. For more information, see the one-way listener sample, [Sample: One-way Listener](sample-one-way-listener.md).  
   
-A two-way listener is coded in a similar fashion as a one-way listener. The ABCs of a two-way listener are as follows:  
+### Two-way listener
   
 - Address: service URI  
   
@@ -64,9 +66,9 @@ A two-way listener is coded in a similar fashion as a one-way listener. The ABCs
   
 - Contract: <xref:Microsoft.Xrm.Sdk.ITwoWayServiceEndpointPlugin>  
   
-For this two-way contract, the **Execute** method returns a string from the method call. For more information, see the two-way listener sample, [Sample: Two-way Listener](sample-two-way-listener.md).  
+For this two-way contract, the <xref:Microsoft.Xrm.Sdk.ITwoWayServiceEndpointPlugin.Execute*> method returns a string from the method call. For more information, see the two-way listener sample, [Sample: Two-way Listener](sample-two-way-listener.md).  
   
-A REST listener is coded in a similar fashion as a two-way listener. The ABCs of a REST listener are as follows:  
+### REST listener
   
 - Address: service URI  
   
@@ -74,12 +76,12 @@ A REST listener is coded in a similar fashion as a two-way listener. The ABCs of
   
 - Contract: <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin>  
   
-For the REST contract, the `Execute` method returns a string from the method call. Refer to the REST listener sample, [Sample: REST Listener](sample-rest-listener.md), for more information. Notice that in the REST listener sample, a [WebServiceHost](https://msdn.microsoft.com/library/system.servicemodel.web.webservicehost.aspx) is instantiated and not a [ServiceHost](https://msdn.microsoft.com/library/system.servicemodel.servicehost.aspx) as was done in the two-way sample.  
+For the REST contract, the <xref:Microsoft.Xrm.Sdk.IWebHttpServiceEndpointPlugin.Execute*>  method returns a string from the method call. Refer to the REST listener sample, [Sample: REST Listener](sample-rest-listener.md), for more information. Notice that in the REST listener sample, a [WebServiceHost](https://msdn.microsoft.com/library/system.servicemodel.web.webservicehost.aspx) is instantiated and not a [ServiceHost](https://msdn.microsoft.com/library/system.servicemodel.servicehost.aspx) as was done in the two-way sample.  
   
 > [!NOTE]
 >  When using the out-of-box (ServiceBusPlugin) plug-in with a two-way or REST listener, the plug-in doesn’t use any string data returned from the listener. However, a custom [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)]-aware plug-in could make use of this information.  
 >   
->  When you run the listener samples, the issuer secret you’re prompted for is the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] management key. The WS2007 Federation HTTP binding uses “token” mode and the WS-Trust 1.3 protocol.  
+>  When you run the listener samples, the issuer secret you’re prompted for is the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] management key. The WS2007 Federation HTTP binding uses `token` mode and the WS-Trust 1.3 protocol.  
   
 <a name="filter"></a>
 
