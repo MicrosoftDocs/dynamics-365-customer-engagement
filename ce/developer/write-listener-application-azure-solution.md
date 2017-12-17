@@ -105,7 +105,7 @@ This information identifies the organization, user, entity, and message request 
  
 ## Read the data context in multiple data formats
 
-The data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operation is passed to your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] solution listener application in the body of a service bus message. In previous releases, only a .NET binary format was supported.  For cross-platform (non-.NET) interoperability, you can now specify one of three data formats for the message body: .NET Binary, JSON, or XML.  This format is specified in the `MessageFormat` attribute of the `ServiceEndpoint` entity.  
+The data context from the current [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operation is passed to your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] solution listener application in the body of a service bus message. In previous releases, only a .NET binary format was supported.  For cross-platform (non-.NET) interoperability, you can now specify one of three data formats for the message body: .NET Binary, JSON, or XML.  This format is specified in the [MessageFormat](entities/serviceendpoint.md#BKMK_MessageFormat) attribute of the [ServiceEndpoint Entity](entities/serviceendpoint.md).  
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_update_8_1_0_admins](../includes/cc-feature-included-with-update-8-1-0-admins.md)]  
