@@ -9,3 +9,4 @@
 |South America|`https://disco.crm2.dynamics.com/XRMServices/2011/Discovery.svc`|
 |India (IND)|`https://disco.crm8.dynamics.com/XRMServices/2011/Discovery.svc`|
 |Canada|`https://disco.crm3.dynamics.com/XRMServices/2011/Discovery.svc`|
+|United Kingdom (UK)|`https://disco.crm11.dynamics.com/XRMServices/2011/Discovery.svc`|

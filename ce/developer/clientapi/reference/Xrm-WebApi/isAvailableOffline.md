@@ -1,6 +1,6 @@
 ---
 title: "isAvailableOffline (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -41,7 +41,7 @@ manager: "amyla"
 
 **Type**: Boolean.
 
-**Description**: true if the entity is offline enabled; otherwise false.
+**Description**: true if the entity is present in user’s profile and is currently available for use in offline mode; otherwise false.
 
 [Xrm.WebApi.offline](offline.md)
 

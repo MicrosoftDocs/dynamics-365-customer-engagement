@@ -51,13 +51,12 @@ Here's how to sign out in case someone else needs to use your device.
 
 You can sign in again as the same or a different user, or you can sign in to a different organization.
 
-<!-- (Temp change: cutting this section out temp since Mobile Offline is not supported in GA, 9/30
+<!-- (Temp change: cutting this section out temp since Mobile Offline is not supported in GA, 9/30-->
 ## Continuum support for Windows Phone
 Use your phone like a PC with Continuum support. You can connect a Windows 10 mobile device to a larger screen, allowing you to utilize your phone as a PC. Use a dock or adapter to connect to a monitor, keyboard, and mouse, and then use the mobile app on your Windows 10 phone and see your content on a larger screen.
 
 When your phone is connected to another screen, the mobile app reflows to fit the larger screen size. You can also continue to use your phone the way you normally would without interrupting what’s playing on the larger screen. This offers a natural, no compromise, and familiar method to seamlessly switch between a smaller device to a bigger device, without impacting your productivity. [Learn more about
 Continuum](https://www.microsoft.com/en-us/windows/Continuum).
- -->
  
 ## Basic navigation
 
@@ -340,7 +339,6 @@ In the [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] app, ta
 When you’re finished with your call, the app prompts you to enter details about
 the call.
  
-<!--       
 ## Work offline 
 Seamless work offline with mobile offline synchronization. You can work with mobile app in offline mode when the device is disconnected from the internet. The app provides a rich offline experience which lets you to work with basic commands like create, read, update, and delete and business processes - so you always stay productive. Once you're back online, changes you've made are synchronized with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. 
 
@@ -452,7 +450,6 @@ Admins can choose what information to sync to user's devices. This can help mini
  |not-begin-with|  
  ends-with|  
  |not-end-with|
--->
 
  
  <!-- (Temp change: cutting this section out for now since no one can verify that Cortana voice commands work in Potassium. It has not been tested and there is no PM/test owner for this feature)

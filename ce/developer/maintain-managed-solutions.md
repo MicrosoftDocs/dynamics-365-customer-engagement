@@ -72,4 +72,4 @@ Before you release your managed solution you should consider how you will mainta
   
 ### See also  
  [Plan For Solution Development](plan-solution-development.md)   
- [Register your solution with the Microsoft Dynamics Marketplace](register-app-appsource.md)
+ [Publish your app on AppSource](publish-app-appsource.md)
