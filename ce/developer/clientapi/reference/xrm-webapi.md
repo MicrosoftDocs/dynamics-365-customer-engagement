@@ -1,6 +1,6 @@
 ---
 title: "Xrm.WebApi (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 12/5/2017
+ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -30,6 +30,7 @@ Provides properties and methods to use Web API to create and manage records and 
 |[deleteRecord](xrm-webapi/deleteRecord.md)|[!INCLUDE[xrm-webapi/includes/deleteRecord-description.md](xrm-webapi/includes/deleteRecord-description.md)]|
 |[retrieveRecord](xrm-webapi/retrieveRecord.md)|[!INCLUDE[xrm-webapi/includes/retrieveRecord-description.md](xrm-webapi/includes/retrieveRecord-description.md)]|
 |[retrieveMultipleRecords](xrm-webapi/retrieveMultipleRecords.md)|[!INCLUDE[xrm-webapi/includes/retrieveMultipleRecords-description.md](xrm-webapi/includes/retrieveMultipleRecords-description.md)]|
+|[isAvailableOffline](xrm-webapi/isAvailableOffline.md)|[!INCLUDE[xrm-webapi/includes/isAvailableOffline-description.md](xrm-webapi/includes/isAvailableOffline-description.md)]|
 |[execute](xrm-webapi/execute.md)|[!INCLUDE[xrm-webapi/includes/execute-description.md](xrm-webapi/includes/execute-description.md)]|
 |[executeMultiple](xrm-webapi/executeMultiple.md)|[!INCLUDE[xrm-webapi/includes/executeMultiple-description.md](xrm-webapi/includes/executeMultiple-description.md)]|
 
