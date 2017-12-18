@@ -1,6 +1,6 @@
 ---
 title: "Step 4: Test your custom channel tile (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Creating a custom channel for customer journeys involves using the extensibility infrastructure in Dynamics 365 Customer Engagement such as custom entities, workflows, plugins, and web resources, which allows developers and partners to leverage their existing knowledge of Customer Engagement."
+description: "Provides information on how you can make the custom channel tile available in the customer journey designer in Dynamics 365 for Marketing."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.service: "crm-online"
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-To make the custom channel tile visible in the customer journey designer:
+To make the custom channel tile available in the customer journey designer:
 
 1. Create a solution. More information: [Create a solution](../../customize/create-solution.md)
 2. Add the tile CSS file as a **Style Sheet (CSS)** web resource to the solution you created. Note the generated file name as the name will contain publisher prefix (for example, sample_). This file name needs to be used in the tile XML file. More information: [Create or edit web resources to extend a web application](../../customize/create-edit-web-resources.md)

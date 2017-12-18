@@ -2,7 +2,7 @@
 title: "Start a managed code project in Visual Studio (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This topic shows you how to create a new project in Visual Studio that’s properly configured to build a console application that uses the Dynamics 365 Customer Engagement web services (SDK)."
 ms.custom: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "Sample: Enable field security for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to enable field security for an entity."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Sample: Enable field security for an entity](https://code.msdn.microsoft.com/Sample-Enable-field-479dc6f4).  
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Work with Field security entities](https://code.msdn.microsoft.com/Work-with-Field-Security-a18489bf).  
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]

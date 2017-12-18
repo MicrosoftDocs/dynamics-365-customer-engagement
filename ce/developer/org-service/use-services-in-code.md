@@ -2,7 +2,7 @@
 title: "Use Dynamics 365 services in code (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This article discusses about the Discovery Service and Organization Service that can be used to identify your organization and to access Dynamics 365 data"
 ms.custom: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

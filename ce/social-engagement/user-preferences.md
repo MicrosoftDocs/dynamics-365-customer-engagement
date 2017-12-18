@@ -1,32 +1,33 @@
 ---
 title: "Set your preferences for the user interface | Microsoft Docs"
 description: "Learn how to configure user preferences for individual users."
-ms.custom: ""
-ms.date: 09/12/2017
-ms.reviewer: ""
+keywords: "user preferences, social engagement, my preferences, individual settings"
+ms.date: 12/06/2017
 ms.service: mse
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: dc6e2e29-bfbe-4a07-977f-a80d68a2e489
-caps.latest.revision: 37
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Set your preferences for the user interface
 When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], they define default values that apply to all users of the same solution. However, you can override the Administrator’s defaults to display the user interface according to your requirements. For your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] profile, you can select the following:  
   
--   Screen language  
+- Screen language  
   
--   Default time frame in Analytics  
+- Default time frame in Analytics  
   
--   Preferred color theme  
+- Preferred color theme  
   
--   Date and time format  
+- Date and time format  
   
--   Number format  
+- Number format  
+
+- Chart format
   
 <a name="EditPrefs"></a>   
 ## Edit your user preferences  
@@ -49,6 +50,7 @@ When Administrators set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-en
 |Theme|Choose between a light and a dark color theme for your user interface.|  
 |Number format|Choose from a predefined set of option to display numbers on the user interface.|  
 |Default time frame|Set the default time frame to present data in your charts and graphs for analysis. You can change the time frame at any time.|  
+|Chart format|You can choose between **Chart** and **Table** view. Choose if you want to see the data points represented as charts or as tables with fields for individual data points. Additionally, you can choose to render widgets with filling patterns or solid colors, depending on your preferences.|  
   
 ### See Also  
  [Get started with Social Engagement](get-started.md)   

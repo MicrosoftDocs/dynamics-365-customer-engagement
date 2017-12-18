@@ -2,7 +2,7 @@
 title: "Organization service messages in Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This topic shows the messages available in the Dynamics 365 namespace"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,6 +31,8 @@ The <xref:Microsoft.Crm.Sdk.Messages> namespace contains all the messages you ne
 - [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]  
   
  The request page also indicates whether the message works while online (connected to the server) or offline (disconnected from the server).  
+
+ [!INCLUDE[cc_sdk_onpremises_note](../../includes/cc-sdk-onpremises-note.md)]
   
 ## Messages  
  The following table shows the messages available in the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] namespace.  

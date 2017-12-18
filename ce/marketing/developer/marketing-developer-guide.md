@@ -38,10 +38,6 @@ manager: "amyla"
 </td></tr>
 </table>
 
-
-
-
-
 ## Related resources
 
 [Administrator Guide (Marketing)](../admin-guide.md)

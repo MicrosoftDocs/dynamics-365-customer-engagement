@@ -2,7 +2,7 @@
 title: "Sample: Retrieve field permissions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to retrieve secured fields for a user according to the steps outlined in Field security entities."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Sample: Retrieve field permissions](https://code.msdn.microsoft.com/Sample-Retrieve-field-e5a31f0f). 
+This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Download the complete sample here [Work with Field security entities](https://code.msdn.microsoft.com/Work-with-Field-Security-a18489bf). 
 
 ## Prerequisites
 [!INCLUDE[sdk-prerequisite](../includes/sdk-prerequisite.md)]
