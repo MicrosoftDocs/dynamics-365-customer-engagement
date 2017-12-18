@@ -1,1 +1,1 @@
-Returns a boolean value indicating whether an entity is offline enabled.
+Returns a boolean value indicating whether an entity is present in user’s profile and is currently available for use in offline mode.
