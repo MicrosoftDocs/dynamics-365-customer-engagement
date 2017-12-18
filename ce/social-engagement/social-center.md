@@ -2,7 +2,7 @@
 title: "Streams in Social Center of Microsoft Social Engagement | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
 keywords: "social center, streams, post list, social engagement, engagement"
-ms.date: 10/04/2017
+ms.date: 12/08/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -26,7 +26,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
  Streams show posts from the last 14 days. To review older posts that match a stream's filters, click **Open earlier posts in Analytics** ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters") at the bottom of the stream. This opens the same data set with an extended time frame in Analytics. Or you can change the time frame for the posts to display however you want. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Open a data set in other areas of Social Engagement](more-options-with-data-set.md)  
   
 > [!NOTE]
->  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](/manage-licenses.md)  
+>  If you have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] Professional user license, you can have up to two streams in Social Center. Streams shared with you and streams you own both count toward that limit. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Integrate Social Engagement with Office 365](manage-licenses.md)  
   
 <a name="ConfigureStream"></a>   
 ## Configure a stream  

@@ -2,7 +2,7 @@
 title: "Use ExecuteMultiple to improve performance for bulk data load (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "ExecuteMultipleRequest message supports higher throughput bulk message passing scenarios in Dynamics 365 (online) Customer Engagement, particularly in the case of Dynamics 365 (online) where Internet latency can be the largest limiting factor"
 ms.custom: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

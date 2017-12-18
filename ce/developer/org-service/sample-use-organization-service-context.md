@@ -2,7 +2,7 @@
 title: "Sample: Use the organization service context (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the OrganizationServiceContext to perform basic operations such as create, retrieve, update and delete"
 keywords: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.service: crm-online
 ms.custom: 
 ms.topic: samples

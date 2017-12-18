@@ -1,6 +1,6 @@
 ---
 title: "Step 1: Create required entities and forms for custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Create required custom entities, forms, and dashboards to store and display information about your custom channel."
+description: "Create required custom entities, forms, and dashboards to store and display information about your custom channel in Dynamics 365 for Marketing."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.service: "crm-online"
@@ -26,6 +26,9 @@ More information:
 - [Create or edit entities (record types)](../../customize/create-edit-entities.md)
 - [Create and design forms](../../customize/create-design-forms.md)
 - [Create or edit dashboards](../../customize/create-edit-dashboards.md)
+
+> [!NOTE]
+> You can browse the metadata for your Dynamics 365 instance using the [Entity Metadata Browser](../../developer/browse-your-metadata.md) or a community-developed [Metadata Browser tool](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser/).
 
 > [!div class="nextstepaction"]
 > [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)

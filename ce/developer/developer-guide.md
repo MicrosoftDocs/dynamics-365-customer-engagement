@@ -2,7 +2,7 @@
 title: "Developer Guide for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "This SDK contains a wealth of resources, including code samples, which are designed to help you build powerful vertical applications using the Customer Engagement platform. It is a guide for developers writing solutions, server-side code, client applications and extensions, custom business logic, plug-ins, integration modules, custom workflow modules and more. The SDK contains an architectural overview of Customer Engagement, the entity model, security model, web services, and sample code."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -100,12 +100,27 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Custo
 </td>
 
 <td>
+<h2> Programming reference </h2>
+
+<li>[Entity Reference](about-entity-reference.md)</li>
+<li>[Web API Reference](/dynamics365/customer-engagement/web-api/about)</li>
+<li>[Organization Service Reference](https://docs.microsoft.com/dotnet/api/?view=dynamics-general-ce-9)</li>
+<li>[Client API Reference](clientapi/reference.md)</li>
+</td>
+</tr>
+
+<tr>
+<td>
 <h2> Additional resources </h2>
 
 <li>[Connected Field Service](connected-field-service-developer-guide.md)</li>
 <li>[Marketing](../marketing/developer/marketing-developer-guide.md)</li>
 <li>[Sample code directory](sample-code-directory.md)</li>
 <li>[Tools on NuGet](download-tools-nuget.md)</li>
+</td>
+
+<td>
+
 </td>
 </tr>
 

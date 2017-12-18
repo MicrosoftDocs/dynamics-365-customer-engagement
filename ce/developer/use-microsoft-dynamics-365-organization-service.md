@@ -22,19 +22,8 @@ manager: "amyla"
 
 Learn about the techniques available to you when developing managed application code that accesses the Organization service using .NET SDK assemblies. Learn how to access the service, retrieve data, and perform the many supported web service operations.  
   
-### In This Section
+### See also
 
-[Getting started with managed code application development](org-service/get-started-managed-code-application-development.md)<br />
-[Use Dynamics 365 Services in Code](org-service/use-services-in-code.md)<br />
-[Discover the URL for your organization using the Discovery Service](org-service/discover-url-organization-organization-service.md)<br />
-[Use the Organization Service to read and write data or metadata](org-service/use-organization-service-read-write-data-metadata.md)<br />
-[Use the early bound entity classes in code](org-service/use-early-bound-entity-classes-code.md)<br />
-[Use the late bound entity class in code](org-service/use-late-bound-entity-class-code.md)<br /> 
-[Retrieve data with queries using SDK assemblies](org-service/retrieve-data-queries-sdk-assemblies.md)<br />
-[Reduce potential data loss using optimistic concurrency](org-service/reduce-potential-data-loss-using-optimistic-concurrency.md)<br />
-[Offline Use of the Dynamics 365 Services](org-service/offline-use-services.md)<br />
-[Troubleshooting and error handling](org-service/troubleshooting-error-handling.md)<br />
-[Use the sample and helper Code](org-service/use-sample-helper-code.md)<br />
-[Subscribe to SDK assembly updates using NuGet](org-service/subscribe-sdk-assembly-updates-using-nuget.md)<br />
-[Impersonate another user](org-service/impersonate-another-user.md)<br />
-[Detect Duplicate Data](org-service/manage-duplicate-detection-create-update.md)
+[Choose your development style for Dynamics 365 Customer Engagement](choose-development-style.md)
+
+[Developer tools](developer-tools.md)

@@ -2,7 +2,7 @@
 title: "Perform specialized operations using Update (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Before Dynamics CRM Online 2015 Update 1, specialized messages were required to update certain entity attribute values. Learn about how UpdateRequest can now be used to set these attributes. This article lists the specialized deprecated message requests and the related message attributes that can be updated using UpdateRequest"
 ms.custom: ""
-ms.date: 12/12/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,18 +19,16 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Before [!INCLUDE[pn_crm_online_2015_update_1](../../includes/pn-crm-online-2015-update-1.md)], specialized messages were required to update certain entity attribute values.  Now, <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> can now be used to set these attributes. The following table identifies the specialized deprecated message requests and the related message attributes that can be updated using <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>.  
+ Using <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> you can now update certain entity attribute values. The following table identifies the specialized deprecated message requests and the related message attributes that can be updated using <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest>.
   
 |Deprecated message request|Attribute to update|  
 |--------------------------------|-------------------------|  
 |<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|\<entity>.`OwnerId`*|  
-|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|\<entity>.`StateCode`* **Important:**  For **SLA** and **RoutingRule** entities, changing the **OwnerId** and **StateCode** in a single **Update** message invocation is not supported and results in an exception.|  
-|||  
+|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|\<entity>.`StateCode`* **Important:**  For **SLA** and **RoutingRule** entities, changing the **OwnerId** and **StateCode** in a single **Update** message invocation is not supported and results in an exception.|   
 |<xref:Microsoft.Crm.Sdk.Messages.SetParentSystemUserRequest>|`SystemUser.ParentSystemUserId`|  
 |<xref:Microsoft.Crm.Sdk.Messages.SetParentTeamRequest>|`Team.BusinessUnitId`|  
 |<xref:Microsoft.Crm.Sdk.Messages.SetParentBusinessUnitRequest>|`BusinessUnit.ParentBusinessUnitId`|  
 |<xref:Microsoft.Crm.Sdk.Messages.SetBusinessEquipmentRequest>|`Equipment.BusinessUnitId`|  
-|||  
 |<xref:Microsoft.Crm.Sdk.Messages.SetBusinessSystemUserRequest>|`SystemUser.BusinessUnitId`|  
   
  *\<entity> refers to any entity that provides this attribute.  

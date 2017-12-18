@@ -1,6 +1,6 @@
 ---
 title: "createRecord (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 12/18/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -47,16 +47,19 @@ manager: "amyla"
 <td>No</td>
 <td><p>A function to call when a record is created. An object with the following properties will be passed to identify the new record:</p>
 <ul>
-<li><b>entityType</b>: String. The entity logical name the new record.</li>
+<li><b>entityType</b>: String. The entity logical name of the new record.</li>
 <li><b>id</b>: String. GUID of the new record.</li>
-<li><b>name</b>: String. Name of the new record.</li>
 </ul></td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to call when the operation fails.</td>
+<td>A function to call when the operation fails. An object with the following properties will be passed:
+<ul>
+<li><b>errorCode</b>: Number. The error code.</li>
+<li><b>message</b>: String. An error message describing the issue.</li>
+</ul></td>
 </tr>
 </table>
 
@@ -138,7 +141,12 @@ Xrm.WebApi.createRecord("account", data).then(
 
 ### Associate entities on creating new records
 
- To associate new entity records to existing entity records, set the value of single-valued navigation properties using the `@odata.bind` annotation. The following example creates an account record, and associates it to an existing contact record to set the latter as the primary contact for the new account record:
+To associate new entity records to existing entity records, set the value of single-valued navigation properties using the `@odata.bind` annotation. However, for mobile clients in the offline mode, you cannot use the `@odata.bind` annotation, and instead have to pass a **lookup** object (**logicalname** and **id**) pointing to the target record. Here are code examples for both the scenarios: 
+
+
+**For online scenario (connected to server)**
+
+The following example creates an account record, and associates it to an existing contact record to set the latter as the primary contact for the new account record:
 
 ```JavaScript
 var data =
@@ -160,13 +168,36 @@ Xrm.WebApi.createRecord("account", data).then(
 );
 ```
 
+**For mobile offine scenario**
+
+Here is the updated sample code to create an account record, and associate it to an existing contact record to set the latter as the primary contact for the new account record from mobile clients when working in the offline mode:
+
+```JavaScript
+var data =
+    {
+        "name": "Sample Account",
+        "primarycontactid":
+        {
+            "logicalname": "contact",
+            "id": "465b158c-541c-e511-80d3-3863bb347ba8"
+        } 
+    }
+
+// create account record
+Xrm.WebApi.offline.createRecord("account", data).then(
+    function success(result) {
+        console.log("Account created with ID: " + result.id);
+        // perform operations on record creation
+    },
+    function (error) {
+        console.log(error.message);
+        // handle error conditions
+    }
+);
+``` 
  
 ### Related topics
 
 [Create an entity using the Web API](../../../webapi/create-entity-web-api.md)
 
 [Xrm.WebApi](../xrm-webapi.md)
-
-
-
-
