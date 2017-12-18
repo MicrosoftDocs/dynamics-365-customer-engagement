@@ -113,5 +113,5 @@ manager: "amyla"
  [Customize the Ribbon for Dynamics 365](customize-dev/customize-commands-ribbon.md)   
  [Web Resources for Dynamics 365](web-resources.md)   
  [Use the Web API with web resources](webapi/get-started-web-api-client-side-javascript.md)   
- [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md))   
+ [Understand the Client API Object Model](clientapi/understand-clientapi-object-model.md)   
  [Blog: Debugging JavaScript code in CRM using browser developer tools](http://go.microsoft.com/fwlink/p/?LinkId=715699)

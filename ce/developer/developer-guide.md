@@ -96,6 +96,7 @@ Welcome to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Custo
 <li>[Use solutions](package-distribute-extensions-use-solutions.md)</li>
 <li>[Use Package Deployer](create-packages-package-deployer.md)</li>
 <li>[Use SolutionPackager](compress-extract-solution-file-solutionpackager.md)</li>
+<li>[Publish your app on AppSource](publish-app-appsource.md)</li>
 </td>
 
 <td>

@@ -2,7 +2,7 @@
 title: "Developer resources page (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Read how you can find your organization unique name, Discovery service endpoint address, Organization service endpoint address and issuer name to access Azure Service Bus using the Developer Resources page"
 ms.custom: ""
-ms.date: 11/14/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
