@@ -1,7 +1,7 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 12/18/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,12 +12,10 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 7f992770-8c7b-48ba-806a-63a3634d209c
 caps.latest.revision: 7
-ms.author: "mkaur"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Configure mobile offline synchronization to allow users to work in offline mode on their mobile device
-
-[!INCLUDE[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Configure mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
 Provide an enhanced offline experience for mobile users using Dynamics 365. Once offline synchronisation is turned on, mobile users can seamlessly work in offline mode on their mobile device when they don't have an internet connection.   
   
@@ -26,9 +24,9 @@ Provide an enhanced offline experience for mobile users using Dynamics 365. Once
  > [!NOTE] 
 > -   Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations. 
  
-## Step 1: Enable entities for mobile offline synchronization
+## Step 1: Enable entities for mobile offline synchronization 
  
-One of the first things that you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. Any entity that is enable for mobile can also be enabled for mobile offline. To find a list of entities that are available for mobile see, [Entities displayed in Dynamics 365 for phones and tablets](customize-phones-tablets.md#entities-displayed-in-dynamics-365-for-phones-and-tablets). 
+One of the first things that you need to do is enable entities that will be available to mobile users when they're using the mobile app in offline mode. Any entity that is enable for mobile can also be enabled for mobile offline. To find a list of entities that are available for mobile see, [Entities displayed in Dynamics 365 for phones and tablets](../customize/customize-phones-tablets.md#entities-displayed-in-dynamics-365-for-phones-and-tablets). 
   
 The following entities are enabled for mobile offline by default:  
   
@@ -182,10 +180,11 @@ You need to create mobile offline profiles for users to configure filters that d
   
 8.  Admins can choose what information to sync to user's devices. This can help minimize impact to user's device's memory. Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
- ||  
- |-|  
- |equal|  
- |not equal|  
+
+ |  |
+ |---------|
+ |equal     |
+ |not equal     |
  |gt – greater than|  
  |ge – greater than or equal to|  
  |le – less than or equal to|  
@@ -193,7 +192,7 @@ You need to create mobile offline profiles for users to configure filters that d
  |like|  
  |not-like|  
  |in|  
- not-in|  
+ |not-in|  
  |null|  
  |not-null|  
  |eq-userid|  
@@ -205,9 +204,9 @@ You need to create mobile offline profiles for users to configure filters that d
  |eq-businessid|  
  |ne-businessid|  
  |eq-userlanguage|  
- begins-with|  
+ |begins-with|  
  |not-begin-with|  
- ends-with|  
+ |ends-with|  
  |not-end-with|
  
  > [!NOTE]
