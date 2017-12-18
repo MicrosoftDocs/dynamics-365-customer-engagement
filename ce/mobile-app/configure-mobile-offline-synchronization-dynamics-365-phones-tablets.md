@@ -15,7 +15,7 @@ caps.latest.revision: 7
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Configure mobile offline synchronization to allow users to work in offline mode on their mobile device
+# Configure mobile offline synchronization to allow users to work in offline mode on their mobile device 
 
 Provide an enhanced offline experience for mobile users using Dynamics 365. Once offline synchronisation is turned on, mobile users can seamlessly work in offline mode on their mobile device when they don't have an internet connection.   
   
