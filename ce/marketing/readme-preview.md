@@ -22,6 +22,38 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 
 -   ### Dynamics 365 for Marketing Public Preview sign-up
 
+    -   For users signing up from languages/regions that are not yet supported,
+        you must **change your browser language to English** to proceed further. To
+        change your browser language, follow the steps for the browser you are
+        using:
+
+        -   **Edge:** In the Windows Search bar, open Control Panel. Select **Clock** \>
+            **Language** \> and **Region**. Click **Add a language** and select
+            **English (United States)**. Move it to the top of the list. Close Control
+            Panel. Restart your computer.
+
+            -   **Important:** This will change the language of your user interface, not
+                just your browser language preferences.
+
+        -   **Chrome:** Open the browser settings, and in the **Advanced** section
+            scroll down to find **Languages**. Open **Language and Input Settings** and
+            add **English (United States)**. Order the resulting list so that it is in
+            descending order of preference. Also select **Display Google Chrome in this
+            Language**. You don't need to restart Chrome.
+
+        -   **Firefox:** On the **Open** menu, select **Options**. Go to the
+            **Language** section and select **Choose**. Select **Language to Add** on
+            the **Content** tab. Under **Languages** , choose **English (US)**. Then
+            move **English (US)** to the top.
+
+        -   **Safari:** On OS X the language sent is that specified in the OS X system
+            language preferences. To change those preferences, go to **System
+            Preferences** \> **Language & Region** \> **Preferred Language**. Click the
+            plus sign (**+**) and add **English**. Drag it to the top of the list. Close
+            **System Preferences**. Close the Safari browser and restart it.
+
+            -   **Important:** This will change the language of your user interface, not
+                just your browser language preferences.
     -   The **Learn more** link goes to the incorrect FAQ on the preview
         instance picker.
 
@@ -34,40 +66,7 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 
     -   Certain pages and related documentation, like the FAQ, Terms and
         conditions, and sign-up screen, might display English rather than
-        localized content.
-
-    -   For users signing up from languages/regions that are not yet supported,
-        you must change your browser language to English to proceed further. To
-        change your browser language, follow the steps for the browser you are
-        using:
-
-        -   **Edge:** In the Windows Search bar, open Control Panel. Select **Clock** \>
-    **Language** \> and **Region**. Click **Add a language** and select
-    **English (United States)**. Move it to the top of the list. Close Control
-    Panel. Restart your computer.
-
-            -   **Important:** This will change the language of your user interface, not
-        just your browser language preferences.
-
-        -   **Chrome:** Open the browser settings, and in the **Advanced** section
-    scroll down to find **Languages**. Open **Language and Input Settings** and
-    add **English (United States)**. Order the resulting list so that it is in
-    descending order of preference. Also select **Display Google Chrome in this
-    Language**. You don't need to restart Chrome.
-
-        -   **Firefox:** On the **Open** menu, select **Options**. Go to the
-    **Language** section and select **Choose**. Select **Language to Add** on
-    the **Content** tab. Under **Languages** , choose **English (US)**. Then
-    move **English (US)** to the top.
-
-        -   **Safari:** On OS X the language sent is that specified in the OS X system
-    language preferences. To change those preferences, go to **System
-    Preferences** \> **Language & Region** \> **Preferred Language**. Click the
-    plus sign (**+**) and add **English**. Drag it to the top of the list. Close
-    **System Preferences**. Close the Safari browser and restart it.
-
-            -   **Important:** This will change the language of your user interface, not
-        just your browser language preferences.
+        localized content.    
 
 -   ### Configuration, installation, and first-run experience
 
@@ -79,8 +78,7 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
         to two hours.
 
     -   For some organizations, the **Advanced Settings** pages may not show up
-        even after setup has been completed, which would affect the steps
-        [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/open-advanced-settings). For help, please contact the support team.
+        even after setup has been completed, which would affect the steps <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/open-advanced-settings" target="_blank">here</a>. For help, please contact the support team.
 
     -   Even though surveys show up in the app (such as for emails, journeys,
         and events) this feature is not yet functional. To try out surveys, you
@@ -152,15 +150,14 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
     -   To send any marketing emails, or generate a heatmap on **Insights**
         pages, the default content settings record should be live. We expect
         this to be live automatically when your setup is complete, however, this
-        might not always be the case. Please refer to the [Admin Guide](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings) for
+        might not always be the case. Please refer to the <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings" target="_blank">Admin Guide</a> for
         troubleshooting content settings.
 
     -   Selecting **Stop** on a live email will not prevent it from further use
         within live journeys.
 
     -   If you want to see a true inbox preview for your emails, you must enable
-        Litmus preview via **Advanced Settings**. Please refer to the [Admin
-        Guide](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings#use-marketing-configurations-to-enable-litmus-previews) for details.
+        Litmus preview via **Advanced Settings**. Please refer to the <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings#use-marketing-configurations-to-enable-litmus-previews" target="_blank">Admin Guide</a> for details.
 
     -   Reusing the same email multiple times (within the same journey or in
         different journeys) yields incorrect performance results, as shown on
@@ -244,4 +241,4 @@ agreement.
 Microsoft and Microsoft Dynamics are trademarks of the Microsoft group of
 companies. All other trademarks are property of their respective owners.
 
-[Third Party Notices](https://go.microsoft.com/fwlink/p/?linkid=853765)
+<a href="https://go.microsoft.com/fwlink/p/?linkid=853765" target="_blank">Third Party Notices</a>
