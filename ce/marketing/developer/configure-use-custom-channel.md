@@ -1,6 +1,6 @@
 ---
 title: "Configure and use custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Provides information on how to add custom channel from AppSource to your Dynamics 365 instance."
+description: "Provides information on how to install custom channel from AppSource to your Dynamics 365 instance."
 ms.custom: ""
 ms.date: 12/15/2017
 ms.service: "crm-online"
@@ -28,18 +28,15 @@ To configure a custom channel in your instance of Dynamics 365 for Marketing, ad
 3. If you are signed into AppSource using your work or school account that you have registered with Microsoft while signing up for Dynamics 365, you will be prompted to accept the license agreement for the custom channel. Otherwise, you will be prompted to sign in using your work or school account. After signing in, you will be prompted to accept the license agreement for the custom channel. Click **Continue** to accept accept and proceed.
 4. The next page will let you select the Dynamics 365 instance where you want to add the custom channel. Select the appropriate instance, select the checkboxes to accept Microsoft legal terms and privacy notices, and click **Agree** to install.
 
-
 After the custom channel is installed in your Dynamics 365 instance, users will see the new custom channel tile in their customer journey designer when they create a customer journey.
+
+![Custom Content tiles](../media/marketing-custom-channel-tile.png)
 
 For information about creating a customer journey, see the following topics in the Marketing User Guide:
 - [Create a simple customer journey with email messaging](../../marketing/create-simple-customer-journey.md)
 - [Create an interactive customer journey with triggers and signup](../../marketing/create-interactive-customer-journey.md)
 
-### See also
 
-[Administrator Guide (Marketing)](../../marketing/admin-guide.md)
-   
-[User Guide (Marketing)](../../marketing/user-guide.md)
 
 
 

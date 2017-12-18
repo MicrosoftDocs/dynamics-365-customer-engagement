@@ -26,7 +26,7 @@ The following illustration provides a high-level overview of the operation flow 
 
 ![Custom channel flow](../media/marketing-custom-channel-flow.png) 
 
-1. When a contact record, which has the compliance field set to allow using custom channels, goes through a customer journey, an instance (record) of the **Custom Channel Activity** (**msdyncrm_customerjourneycustomchannelactivity**) entity is automatically created. For example, for a segment of 50 contacts with 40 contacts enabled for custom channel, the customer journey would generate 40 records of the **Custom Channel Activity** entity. For information about the compliance field, see Define the Tile XML file.
+1. When a contact record, which has the compliance field set to allow using custom channels, goes through a customer journey, an instance (record) of the **Custom Channel Activity** (**msdyncrm_customerjourneycustomchannelactivity**) entity is automatically created. For example, for a segment of 50 contacts with 40 contacts enabled for custom channel, the customer journey would generate 40 records of the **Custom Channel Activity** entity. For information about the compliance field, see [Define the Tile XML file](configure-tile-custom-channel.md#define-the-tile-xml-file).
 2. On creation of the entity instance, the custom business logic present in a partner-developed plug-in or workflow is triggered, and interacts with the external service to execute custom operations. For example, send a message to the external service and receive a response from the external service.
 3. Activity execution feedback is processed through a custom action, **Custom Channel Activity Create Interaction**, and the interactions are sent to Dynamics 365 for Customer Insights to enable analytics and triggers on the interactions. For example, one message could generate 3 interactions: sent, delivered, opened.
   
@@ -35,6 +35,8 @@ The following illustration provides a high-level overview of the operation flow 
 
 [Workflows overview](../../customize/workflow-processes.md)
 
-[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md) 
+[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)
+
+[Web resources for Customer Engagement](../../developer/web-resources.md) 
 
 [Dynamics 365 for Customer Insights](../../customer-insights/getstart.md)   

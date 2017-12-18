@@ -87,7 +87,7 @@ This sample demonstrates how to perform basic query requests using the [!INCLUDE
   
     <h2>Instructions</h2>  
     <p>Choose your preferences and run the JavaScript code.   
-    Use your browser's developer tools to view the output written to the console (e.g.: in IE11 or Edge,   
+    Use your browser's developer tools to view the output written to the console (e.g.: in [!include[](../../includes/pn-ie-11.md)] or [!include[](../../includes/pn-microsoft-edge.md)],   
     press F12 to load the Developer Tools).</p>  
     <form id="preferences">  
         <p>  
