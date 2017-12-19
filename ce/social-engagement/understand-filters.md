@@ -2,7 +2,7 @@
 title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Social Engagement"
-ms.date: 12/14/2017
+ms.date: 11/01/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -53,11 +53,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
   
 > [!NOTE]
 >  Some posts might have no location assigned if a location wasn't shared by the author.  
-
-## Author tags
-
-Filter posts by [author tags](author-tags.md). Author tags are a convenient way to quickly create groups of authors to see what they are discussing.
-
+  
 ## Authors  
  Filter posts by author names. Any author name is available for filtering if the author published at least one post. Start typing the author name to see suggested author names from your solution's database. When you filter by author, only posts from the selected authors remain in your data set and widgets display.  
   

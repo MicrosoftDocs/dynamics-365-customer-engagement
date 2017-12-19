@@ -53,7 +53,6 @@
 ### [View posts and conversations in Social Engagement](posts-conversations.md)
 ### [Get details about specific authors](author-details.md)
 ### [Work with tags](tags.md)
-### [Manage author tags](author-tags.md)
 ## [Manage connections in Social Engagement](manage-connections.md)
 ### [Integrate Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)
 ### [Stream data from Social Engagement to Azure Event Hubs](stream-data-to-event-hubs.md)
