@@ -16,8 +16,8 @@ topic-status: Drafting
 
 # Manage author tags
 
-Author tags let you add tags to certain authors to group and classify them. For example, you can tag influencers, competitors, or fans. When authors are tagged, you can quickly find them using [filters](understand-filters.md) and you can get a heads-up when new posts from these authors are found by [setting up alerts](email-alerts.md). 
-You need to have an [interaction role](user-roles.md) of Responder or Manager to create new author tags. Every user can add or remove author tags when working with an author's details.
+Author tags let you add tags to authors to group and classify them. For example, you can tag influencers, competitors, or fans. When authors are tagged, you can quickly find them using [filters](understand-filters.md) and you can get a heads-up when new posts from these authors are found by [setting up alerts](email-alerts.md). 
+Every user can add or remove author tags when working with an author's details. You need to have an [interaction role](user-roles.md) of Responder or Manager to create new author tags.
 
 > [!TIP]
 > To review all authors that have a certain tag added, go to **Social Engagement** > **Analytics** > **Overview** and apply an **Author Tags** [filter](use-filters.md). You’ll find the 100 most active authors with this tag in the **Authors** widget when you expand it to the full view. 
