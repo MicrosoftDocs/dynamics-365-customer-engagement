@@ -64,9 +64,8 @@ In order to use the Web API you need to find information about what is available
 ### CSDL $metadata document  
  A `GET` request to the following URL will return a rather large (more than 3.5 MB) Common Schema Definition Language (CSDL) document, or *metadata document* that describes the data and operations exposed by the service.  
   
-```  
-  
-[Organization URI]/api/data/v9.0/$metadata  
+```http  
+GET [Organization URI]/api/data/v9.0/$metadata  
 ```  
   
  This document can be used as a data source to generate classes that will provide strongly typed objects for the service. But if you are not using generated classes, you may want to review documentation generated from this information instead. The [Web API Reference](/dynamics365/customer-engagement/web-api/about) uses information primarily from this document taken from a system with common additional solutions installed.  

@@ -41,8 +41,6 @@ The *entities* are used to model and manage business data in [!INCLUDE[pn_dynami
   
 -   You can use the Entity Metadata Browser to view entities and their properties in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For details, see [Browse the Metadata for Your Organization](browse-your-metadata.md).  
   
--   The SDK package contains this same information in an [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)] spreadsheet. You can find this in the file `SDK\Tools\EntityMetadata.xlsx`.  
-  
 -   You can generate the metadata for your organization using these samples:  
   
     -   [Sample: Dump Entity Metadata to a File](org-service/sample-dump-entity-metadata-file.md)  
