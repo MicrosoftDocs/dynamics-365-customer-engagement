@@ -359,10 +359,10 @@
 #### [Xrm.WebApi.offline](reference/xrm-webapi/offline.md)
 #### [createRecord](reference/xrm-webapi/createRecord.md)
 #### [deleteRecord](reference/xrm-webapi/deleteRecord.md)
-#### [isAvailableOffline](reference/xrm-webapi/isAvailableOffline.md)
 #### [retrieveRecord](reference/xrm-webapi/retrieveRecord.md)
 #### [retrieveMultipleRecords](reference/xrm-webapi/retrieveMultipleRecords.md)
 #### [updateRecord](reference/xrm-webapi/updateRecord.md)
+#### [isAvailableOffline](reference/xrm-webapi/isAvailableOffline.md)
 #### [execute](reference/xrm-webapi/execute.md)
 #### [executeMultiple](reference/xrm-webapi/executeMultiple.md)
 
