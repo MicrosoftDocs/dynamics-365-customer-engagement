@@ -129,7 +129,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
   
 <a name="BKMK_Diagnostics"></a>   
 ## Diagnostics  
- UTF-8 encoded text files that are named **UnifiedServiceDesk-\<date>.log** are maintained at the following location on the client computer: c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\*\<Version>*. The log files record operational events and errors in the client application, and are created or appended to when you first start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. By default, diagnostic logging is enabled at the error level for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. This topic describes how you can view and change the client diagnostic logging characteristics.  
+ UTF-8 encoded text files that are named **UnifiedServiceDesk-\<date>.log** are maintained at the following location on the client computer: `c:\Users\\*\<UserName>*\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\*\<Version>*`. The log files record operational events and errors in the client application, and are created or appended to when you first start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. By default, diagnostic logging is enabled at the error level for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. This topic describes how you can view and change the client diagnostic logging characteristics.  
   
 #### Create an Audit & Diagnostics record to use for diagnostics  
   
@@ -147,7 +147,7 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
   
     - **Enable Exit Monitoring.** By default, exit monitoring is enabled and both diagnostics logs and exit logs are collected in the event of an exception in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
   
-    - **Diagnostics Logs Directory.** Specifies the full path to the folder where diagnostics files for exceptions are kept. If the path is invalid or inaccessible, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will use the default folder. By default, the folder is %APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<version\>\Diagnostics\\.  
+    - **Diagnostics Logs Directory.** Specifies the full path to the folder where diagnostics files for exceptions are kept. If the path is invalid or inaccessible, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will use the default folder. By default, the folder is `%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<version\>\Diagnostics\\`.  
   
     - **On Demand Diagnostics Shortcut.** Specifies the shortcut key used to invoke the manual creation of a  dump file. The default key combination is CTRL+ALT+A. To change the default, use the form *key1*+*key2*+*key3*.
 
