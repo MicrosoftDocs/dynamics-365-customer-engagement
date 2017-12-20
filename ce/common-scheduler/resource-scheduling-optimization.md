@@ -21,7 +21,7 @@ caps.latest.revision: 22
 ms.author: "mkaur"
 manager: "brycho"
 ---
-# Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Sales, Customer Service, Field Service, Project Service Automation)
+# Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Field Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -35,11 +35,8 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
   
  If you've enabled the Common Scheduling Solution for other entities such as cases, opportunities, or leads, you can also use Resource Scheduling Optimization to automatically schedule time to work on those. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Scheduling anything in Dynamics 365 with Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)  
   
-> [!NOTE]
-> [!INCLUDE[cc_feature_included_with_2016_update_d365_online](../includes/cc-feature-included-with-update-2016.md)]  <!-- This may be the incorrect token. It was added to fix a build issue. -->  
-  
 ## Prerequisites  
- Before you  install [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)], you need to have either [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] or [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] with the correct licensing to use Resource Scheduling Optimization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=833491)  
+ Before you  install [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)], you need to have [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] with the correct licensing to use Resource Scheduling Optimization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?linkid=833491)  
   
 ## Deploy (admin task)  
  To use this feature, first you need to install [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-resource-scheduling-optimization-msdyn365.md)].  
