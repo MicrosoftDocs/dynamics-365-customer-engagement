@@ -1,6 +1,6 @@
 ---
 title: "Use InvalidPluginExecutionException in plug-ins and workflow activities | MicrosoftDocs"
-description: "You should use InvalidPluginExecutionException when raising errors within the context of a Dynamics 365 Customer Engagement plug-in and workflow activity."
+description: "Use InvalidPluginExecutionException when raising errors within the context of a Dynamics 365 Customer Engagement plug-in and workflow activity."
 ms.date: 11/30/2017
 ms.service: "crm-online"
 ms.topic: "article"
@@ -29,35 +29,36 @@ manager: "austinj"
 <a name='symptoms'></a>
 
 ## Symptoms
-If a synchronous plug-in returns an exception other than <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> back to the platform, the error dialog is displayed to the user with the message of the exception ([System.Exception.Message](https://msdn.microsoft.com/library/system.exception.message.aspx)) and the stack trace. This provides an unfriendly experience to users to a likely already frustrating situation.
+
+If a synchronous plug-in returns an exception other than <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> back to the platform, the error dialog box is displayed to the user with the message of the exception ([System.Exception.Message](https://msdn.microsoft.com/library/system.exception.message.aspx)) and the stack trace. This provides an unfriendly user experience in what is likely already a frustrating situation.
 
 <a name='guidance'></a>
 
 ## Guidance
 
-It is recommended that plug-ins only pass an <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> back to the platform for the following reasons:
+We recommend that plug-ins only return an <xref:Microsoft.Xrm.Sdk.InvalidPluginExecutionException> back to the platform for the following reasons:
 
-- Surfacing a friendly message to the end-user
+- Surfacing a friendly message to the user
 - Avoiding event log/trace file bloat
 
-Unhandled exceptions of other types should only occur when unexpected errors are encountered at runtime. Here are some examples of valid approaches:
+Unhandled exceptions of other types should only occur when unexpected errors are encountered at runtime. The following are examples of valid approaches.
 
 ### Throw unguarded InvalidPluginExecutionException
 
 ```csharp
 public void Execute(IServiceProvider serviceProvider)
 {
-    // Invoke valid scenario that throws an appropriate exception type
+    // Invocation of a valid scenario that throws an appropriate exception type
     ThrowPluginException();
 }
 
 private void ThrowPluginException()
 {
-    throw new InvalidPluginExecutionException("Throwing plugin exception in member method body");
+    throw new InvalidPluginExecutionException("Throwing a plug-in exception in a member method body");
 }
 ```
 
-### Guarded exceptions handled and/or thrown as new InvalidPluginExecutionException
+### Guarded exceptions handled or thrown as new InvalidPluginExecutionException
 
 ```csharp
 public void Execute(IServiceProvider serviceProvider)
@@ -71,7 +72,7 @@ public void Execute(IServiceProvider serviceProvider)
         throw new InvalidPluginExecutionException("Unable to save the contact. This is likely caused by..."), ex);
     }
 
-    // Invoke valid scenario in member method
+    // Invocation of a valid scenario in a member method
     HandleMemberException();
 }
 
@@ -79,20 +80,20 @@ private void HandleMemberException()
 {
     try
     {
-        // Invoke scenario where CustomException is thrown
+        // Invocation of a scenario where CustomException is thrown
         ThrowGuardedMemberException();
     }
     catch (CustomException ex)
     {
-        // Handle the exception. 
-        // Note - Debug.WriteLine is not likely the appropriate way to handle the exception. This is for demonstration purposes only.
+        // Handle the exception.
+        // Note - Debug.WriteLine is likely not the appropriate way to handle the exception. This is for demonstration purposes only
         Debug.WriteLine(ex.Message);
     }
 }
 
 private void ThrowGuardedMemberException()
 {
-    throw new CustomException("Throwing custom exception in guarded member");
+    throw new CustomException("Throwing a custom exception in a guarded member");
 }
 ```
 
@@ -100,20 +101,20 @@ private void ThrowGuardedMemberException()
 
 ## Problematic patterns
 
-The following are examples of code that should be corrected:
+The following are examples of code that should be corrected.
 
 ### Unguarded exception thrown
 
 ```csharp
 public void Execute(IServiceProvider serviceProvider)
 {
-    // Invoke scenario where violation occurs during unguarded throw
+    // Invocation of a scenario where violation occurs during an unguarded throw
     UnguardedMemberThrowException();
 }
 
 private void UnguardedMemberThrowException()
 {
-    throw new CustomException("Throwing unguarded custom exception in member method body");
+    throw new CustomException("Throwing an unguarded custom exception in a member method body");
 }
 ```
 
@@ -122,7 +123,7 @@ private void UnguardedMemberThrowException()
 ```csharp
 public void Execute(IServiceProvider serviceProvider)
 {
-    // Invoke scenario where violation occurs during unguarded rethrow
+    // Invocation of a scenario where violation occurs during an unguarded rethrow
     UnguardedMemberRethrowException();
 }
 
@@ -130,7 +131,7 @@ private void UnguardedMemberRethrowException()
 {
     try
     {
-        // Guarded invoking of method member that throws custom exception
+        // Guarded invoking of a method member that throws a custom exception
         GuardedMemberThrowException();
     }
     catch (CustomException ex)
@@ -145,14 +146,14 @@ private void UnguardedMemberRethrowException()
 
 private void GuardedMemberThrowException()
 {
-    throw new CustomException("Throwing guarded custom exception in member method body");
+    throw new CustomException("Throwing a guarded custom exception in a member method body");
 }
 ```
 
 <a name='seealso'></a>
 
-## See also
+### See also
 
-[Handle Exceptions in Plug-ins](../../developer/handle-exceptions-plugins.md)<br/>
+[Handle exceptions in plug-ins](../../developer/handle-exceptions-plugins.md)<br/>
 [How should you report exceptions in custom workflow activities?](../../developer/best-practices-sdk.md#how-to-report-exceptions-custom-workflow-activities)<br/>
 [Sample: Create a custom workflow activity](../../developer/workflow/sample-create-custom-workflow-activity.md)<br/>
