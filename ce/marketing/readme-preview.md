@@ -90,9 +90,7 @@ Follow the steps for the browser you are using:
         If you need the organization name, please refer to the welcome email.
 
     -   For some organizations, the **Advanced Settings** pages may not show up
-        even after setup has been completed, which would affect the steps
-        [here](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/open-advanced-settings).
-        For help, please contact the support team.
+        even after setup has been completed, which would affect the steps <a href="https://docs.microsoft.com/dynamics365/customer-engagement/marketing/open-advanced-settings" target="_blank">here</a>. For help, please contact the support team.
 
     -   In Firefox, the **Give consent** button needed for surveys might not be
         displayed in a pop-up window during the first-run-experience. You may
@@ -165,17 +163,13 @@ Follow the steps for the browser you are using:
     -   To send any marketing emails, or generate a heatmap on **Insights**
         pages, the default content settings record should be live. We expect
         this to be live automatically when your setup is complete, however, this
-        might not always be the case. Please refer to the [Admin
-        Guide](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings)
-        for troubleshooting content settings.
+        might not always be the case. Please refer to the <a href="https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings" target="_blank">Admin Guide</a> for troubleshooting content settings.
 
     -   Selecting **Stop** on a live email will not prevent it from further use
         within live journeys.
 
     -   If you want to see a true inbox preview for your emails, you must enable
-        Litmus preview via **Advanced Settings**. Please refer to the [Admin
-        Guide](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings#use-marketing-configurations-to-enable-litmus-previews)
-        for details.
+        Litmus preview via **Advanced Settings**. Please refer to the <a href="https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings#use-marketing-configurations-to-enable-litmus-previews" target="_blank">Admin Guide</a> for details.
 
     -   Reusing the same email multiple times (within the same journey or in
         different journeys) yields incorrect performance results, as shown on
@@ -259,4 +253,4 @@ agreement.
 Microsoft and Microsoft Dynamics are trademarks of the Microsoft group of
 companies. All other trademarks are property of their respective owners.
 
-[Third Party Notices](https://go.microsoft.com/fwlink/p/?linkid=853765)
+<a href="https://go.microsoft.com/fwlink/p/?linkid=853765" target="_blank">Third Party Notices</a>
