@@ -75,6 +75,9 @@
     - name: Online Management API
       tocHref: /dynamics365/customer-engagement/developer/online-management-api/
       topicHref: /dynamics365/customer-engagement/developer/online-management-api
+    - name: Extend Customer Engagement
+      tocHref: /dynamics365/customer-engagement/developer/outlook-client/
+      topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement
     - name: Extend Outlook Client
       tocHref: /dynamics365/customer-engagement/developer/outlook-client/
       topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
