@@ -106,7 +106,7 @@ Multiple identity providers can be configured by substituting a label for the \[
 
 You can configure your portal to accept [!include[](../includes/pn-azure-active-directory.md)] users from any tenant in [!include[](../includes/pn-azure-shortest.md)] and not just a specific tenant by using the multi-tenant application registered in [!include[](../includes/pn-azure-active-directory.md)]. To enable multi-tenancy, set the **Multi-tenanted** switch to **Yes** in the [!include[](../includes/pn-azure-active-directory.md)] application.
 
-![Enable multi tenancy in Azure Active Directory application](media/emable-multi-tenancy.png "Enable multi tenancy in Azure Active Directory application")
+![Enable multi tenancy in Azure Active Directory application](media/enable-multi-tenancy.png "Enable multi tenancy in Azure Active Directory application")
 
 ### Related site settings
 
