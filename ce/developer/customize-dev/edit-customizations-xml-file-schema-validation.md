@@ -25,7 +25,7 @@ manager: "amyla"
 The customizations.xml file is included within the compressed .zip file exported as a solution. Certain portions of the customizations.xml file can be edited manually. Information about the schema helps you confirm that any modifications you make are valid.  
   
 ## XSD schema files  
- The XSD schema files used to validate the customization.xml file in a solution are available here [!INCLUDE[schema_download](../../includes/schema-download.md)]. The necessary files are:  
+ [!INCLUDE[schema_download](../../includes/schema-download.md)] for the XSD schema files used to validate the customization.xml file in a solution. The necessary files are:  
   
 -   CustomizationsSolution.xsd  
   
