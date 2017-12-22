@@ -93,7 +93,7 @@ The following site settings are required if you want to support password reset w
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Authentication/OpenIdConnect/[Federation-Name/PasswordResetPolicyId | ID of the password reset policy.                                                                                     |
 | Authentication/OpenIdConnect/[Federation-Name]/ValidIssuers         | A comma-delimited list of issuers that includes the [Policy-Signin-URL] and the issuer of the password reset policy. |
-|Authentication/OpenIdConnect/[Federation-Name/DefaultPolicyId | ID of the sign-in or sign-up policy.|
+|Authentication/OpenIdConnect/[Federation-Name]/DefaultPolicyId | ID of the sign-in or sign-up policy.|
 |||
 
 ### Related site settings
