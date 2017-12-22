@@ -23,7 +23,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic contains links to all the schemas needed for features described in the SDK documentation. [Download the schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+This topic contains links to all the schemas needed for features described in the Developer guide. [Download the schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)  
   
