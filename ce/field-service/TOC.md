@@ -59,7 +59,8 @@
 ## [Mobile App User Guide](field-service-mobile-app-user-guide.md)
 # [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
 # [Developer Guide](developer/field-service-developer-guide.md)
-## [Create custom plug-in to use your preferred geospatial data provider](developer/custom-plugin-preferred-geospatial-data-provider.md)
+## [Use preferred geospatial data provider](developer/use-preferred-geospatial-data-provider.md)
+## [Create custom plug-in to use your preferred geospatial data provider](developer/create-custom-plugin-preferred-geospatial-data-provider.md)
 
 
 
