@@ -514,12 +514,11 @@
 
 # [Online Management API](online-management-api/)
 
-# [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)
+<!--# [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)
 ## [Connected Field Service architecture](connected-field-service-architecture.md)
 ## [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)
-### [IoT - Parent IoT Alerts workflow](iot-parent-iot-alerts-workflow.md)
+### [IoT - Parent IoT Alerts workflow](iot-parent-iot-alerts-workflow.md)-->
 
-# [Marketing Developer Guide](../marketing/developer/marketing-developer-guide.md)
 
 # [Programming reference](programming-reference.md)
 ## [Entity Reference](entities/TOC.yml)
@@ -535,3 +534,7 @@
 ## [Client API Reference](clientapi/reference.md)
 ## [Schemas used in Dynamics 365](schemas-used-dynamics-365.md)
 ## [Customization XML reference](customization-xml-reference.md)
+
+# [Developer Guide for Dynamics 365 for Field Service](../field-service/developer/field-service-developer-guide.md)
+
+# [Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)
