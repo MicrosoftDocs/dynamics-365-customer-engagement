@@ -2,7 +2,7 @@
 title: "ISV configuration file schema | MicrosoftDocs"
 description: "The topic shows you the schema definition for the ISV Configuration section of an import/export customization file."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/22/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic shows you the schema definition for the ISV Configuration section of an import/export customization file. This schema is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md). You can find this schema in the `SDK\Schemas\ISV.config.xsd` file in the SDK package. [!INCLUDE[sdk_download](../../includes/sdk-download.md)]  
+This topic shows you the schema definition for the ISV Configuration section of an import/export customization file. This schema is included from the [Customization Solutions File Schema](customization-solutions-file-schema.md). For more information, see [Package and Distribute Extensions with Microsoft Dynamics 365 Solutions](../package-distribute-extensions-use-solutions.md). [!INCLUDE[schema_download](../../includes/schema-download.md)] and see the file `ISV.config.xsd`.
   
 ## Schema  
   
