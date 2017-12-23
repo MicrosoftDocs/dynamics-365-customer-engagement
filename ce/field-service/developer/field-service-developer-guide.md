@@ -28,18 +28,12 @@ This guide provides information about how developers and ISVs can extend [!INCLU
 <tr><td>
 
 <h2>Extend Field Service</h2>
-<li>[Extend customer journeys using custom channels](extend-customer-journeys-custom-channels.md)</li>
-<li>[Create a custom channel](create-custom-channel.md)</li>
-<li>[Publish custom channel on AppSource](publish-custom-channel-appsource.md)</li>
-<li>[Configure and use custom channel](configure-use-custom-channel.md)</li>
-
+<li>[Use preferred geospatial data provider](use-preferred-geospatial-data-provider.md)</li>
 </td><td>
 
 <h2>Extend Connected Field Service</h2>
-
 <li>[Connected Field Service architecture](connected-field-service-architecture.md)</li>   
 <li>[Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)</li>
-
 </td></tr>
 
 <tr><td>
