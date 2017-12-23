@@ -19,7 +19,7 @@ manager: "amyla"
 ---
 # Use your preferred geospatial data provider in Field Service
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] provides geospatial functionality for the field service operations by using the Bing Maps API (data provider) by default.
 

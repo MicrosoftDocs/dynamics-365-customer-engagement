@@ -19,7 +19,7 @@ manager: "amyla"
 ---
 # Field Service Developer Guide
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This guide provides information about how developers and ISVs can extend [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)].
 
