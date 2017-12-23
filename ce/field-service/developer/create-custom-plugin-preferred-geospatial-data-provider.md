@@ -21,13 +21,18 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] provides geospatial functionality for the field service operations by using the Bing Maps API (data provider) by default.
+This topic provides you information about how to create a custom plug-in containing sample code that uses Google Maps API instead of the Bing Maps API as the geospatial data provider and register the plug-in on the two Field Service actions using the Plug-in Registration tool
 
-The geospatial functionality in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md) is provided using [actions](../../customize/actions.md), such as the **msdyn_GeocodeAddress** for geocoding addresses and **msdyn_RetrieveDistanceMatrix** for calculating travel times and distances between two locations. Additionally, the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md) solution contains a plug-in registered on these two actions that uses the data provided by Bing Maps to perform geospatial operations.
+## Create your custom plug-in
 
-You can create a custom plugin to use geospatial data from a data provider of your choice instead of using the default Bing Maps. More information: 
+Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. For detailed information about creating a plug-in, see [Plug-in development](../../developer/plugin-development.md)
 
-For general information about plug-ins and how to create a plug-in, see [Plug-in development](../../developer/plugin-development.md).
+We have a sample custom plug-in that uses the Google Maps API to provide geospatial data instead of the default Bing Maps API. Download the sample code from here.
+
+> [!NOTE]
+> The sample plug-in code won't work unless you provide your own Google API key in the **GoogleDataContracts.cs** file in the sample.
+
+
 
 ### See also  
     

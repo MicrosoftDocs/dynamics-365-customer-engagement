@@ -18,16 +18,16 @@ ms.author: "v-milaro"
 ---
 # Connected Field Service Developer Guide
 
-[!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] integrates Internet of Things (IoT) devices with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] to enable their registration, monitoring and management into established business processes. This guide explains the component architecture, supplied interfaces and customization points, and explains the approach develop customized IoT solutions.  
+[!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] integrates Internet of Things (IoT) devices with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] to enable their registration, monitoring and management into established business processes. This guide explains the component architecture, supplied interfaces and customization points, and explains the approach develop customized IoT solutions.  
   
 ## Supported Developer Scenarios  
  The initial release of Connected Field Service supports the following two primary development scenarios:  
   
--   Extend [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] so that manufacturers and hardware service organizations can register, monitor, and manage—including controlling and correcting—IoT devices. Future releases will provide additional support for predicative and prescriptive maintenance capabilities.  
+-   Extend [!INCLUDE[pn_connected_field_service_msdyn365](../../includes/pn-connected-field-service-msdyn365.md)] so that manufacturers and hardware service organizations can register, monitor, and manage—including controlling and correcting—IoT devices. Future releases will provide additional support for predicative and prescriptive maintenance capabilities.  
   
--   Provide an IoT Platform that ISVs and partners can build on to IOT-enable their [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] custom entities and managed solutions.  
+-   Provide an IoT Platform that ISVs and partners can build on to IOT-enable their [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] custom entities and managed solutions.  
   
  To enable the first scenario, the following capabilities are supported:  
   
