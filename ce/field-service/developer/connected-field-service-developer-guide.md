@@ -1,8 +1,8 @@
 ---
-title: "Connected Field Service Developer Guide (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Extend Connected Field Service (Developer Guide for Dynamics 365 Field Service) | MicrosoftDocs"
 description: "Connected Field Service integrates Internet of Things (IoT) devices with Dynamics 365 (online) to enable their registration, monitoring and management into established business processes."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 01/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,7 @@ ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
 caps.latest.revision: 8
 ms.author: "v-milaro"
 ---
-# Connected Field Service Developer Guide
+# Extend Connected Field Service
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
