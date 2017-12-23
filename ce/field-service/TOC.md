@@ -63,9 +63,9 @@
 # [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
 
 # [Developer Guide](developer/field-service-developer-guide.md)
-## [Use your preferred geospatial data provider](developer/use-preferred-geospatial-data-provider.md)
+## [Use your preferred geospatial data provider in Field Service](developer/use-preferred-geospatial-data-provider.md)
 ### [Create custom plug-in to use your preferred geospatial data provider](developer/create-custom-plugin-preferred-geospatial-data-provider.md)
-## [Extend Connected Field Service](developer/connected-field-service-developer-guide.md)
+## [Develop customized IoT solutions in Connected Field Service](developer/connected-field-service-developer-guide.md)
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend Connected Field Service solutions](developer/extend-connected-field-service-solutions.md)
 #### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow)

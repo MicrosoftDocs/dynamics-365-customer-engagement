@@ -32,7 +32,8 @@ This guide provides information about how developers and ISVs can extend [!INCLU
 </td><td>
 
 <h2>Extend Connected Field Service</h2>
-<li>[Connected Field Service architecture](connected-field-service-architecture.md)</li>   
+<li>[Develop customized IoT solutions](connected-field-service-developer-guide.md)</li>
+<li>[Connected Field Service architecture](connected-field-service-architecture.md)</li>
 <li>[Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)</li>
 </td></tr>
 
