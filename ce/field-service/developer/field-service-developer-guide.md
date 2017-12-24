@@ -43,6 +43,7 @@ This guide provides information about how developers and ISVs can extend [!INCLU
 <li>[Introduction to solutions](../../developer/introduction-solutions.md)</li>
 <li>[Write plug-ins to extend business processes](../../developer/write-plugin-extend-business-processes.md)</li>
 <li>[Actions overview](../../customize/actions.md)</li>
+<li>[Developer Guide for Dynamics 365 Customer Engagement](../../developer/developer-guide.md)</li>
 </td><td>
 
 
@@ -52,5 +53,4 @@ This guide provides information about how developers and ISVs can extend [!INCLU
   
   
   
-### See also  
     
