@@ -21,13 +21,13 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic provides you information about how to create a custom plug-in containing sample code that uses Google Maps API instead of the Bing Maps API as the geospatial data provider and register the plug-in on the two Field Service actions using the Plug-in Registration tool
+This topic provides you information about how to create a custom plug-in containing sample code that uses Google Maps API instead of the Bing Maps API as the geospatial data provider and register the plug-in on the two [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] actions using the Plug-in Registration tool
 
 ## Input and output parameters for geospatial actions
 
 While writing your custom plug-in, you will have to consider the input and output parameters for the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] so that you can pass in and expect appropriate input and output data respectively in your plug-in code. There are two ways in which you can view the input and output parameters of the geospatial functions:
 
-- **Web API action reference content**: View refrence information about the geospatial actions in [pn_field_service](../../includes/pn-field-service.md)].
+- **Web API action reference content**: View refrence information about the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].
     - <xref:Microsoft.Dynamics.CRM.msdyn_GeocodeAddress>
     - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
 - **Action definition**: You can view the action definition in the product for information about the input/output prameters, including information whether a parametr is required or optional.
@@ -45,7 +45,7 @@ We have created a sample custom plug-in that demonstrates how to use the Google 
 > [!NOTE]
 > The sample plug-in code won't work unless you provide your own Google API key in the **GoogleDataContracts.cs** file in the sample.
 
-Once you have written your plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the Field Service geospatial actions.
+Once you have written your plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] geospatial actions.
 
 ## Register and deploy your custom plug-in
 
@@ -62,7 +62,7 @@ Before a plug-in can be used, it must be registered and deployed on the server. 
 6. You should see a collapsed list of registered plug-in or custom workflow activity assemblies. Select **Register** > **Register New Assembly**.
 7. In the **Register New Assembly** dialog box:
     
-    - Under **Step 1** section, click the ellipses […] button to select the **CustomPlugin-FS-Geospatial.dll** assembly.
+    - Under the **Step 1** section, click the ellipses […] button to select the **CustomPlugin-FS-Geospatial.dll** assembly.
     - Under the **Step 2** section, select both the plug-ins.
     - Under the **Step 3** section, select the **Sandbox** option.
     - Under the **Step 4** section, select the **Database** option.
@@ -102,7 +102,7 @@ Before a plug-in can be used, it must be registered and deployed on the server. 
 
 You are now done with registering steps to call your custom plug-in for the both the geospatial actions. 
 
-If you view any of the Field Service geospatial actions in the Plug-in Registration tool, you will see both the default and your custom plug-in registered for the action. For example, see the plug-ins for the **mdyn_GeocodeAddress** action.
+If you view any of the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] geospatial actions in the Plug-in Registration tool, you will see both the default and your custom plug-in registered for the action. For example, see the plug-ins for the **mdyn_GeocodeAddress** action.
 
 ![](../media/FS-resitered-plugins-for-message.png)
 
@@ -114,13 +114,13 @@ If you view any of the Field Service geospatial actions in the Plug-in Registrat
 
 When you register multiple plug-ins for the same entity and message, the execution sequence of the plug-ins is defined by the *execution order* of individual plug-ins. The one with a lower execution order value executes first followed by the one with a higher execution order value.
 
-The execution order value of the default Field Service plug-in that uses Bing Maps for the geocode and distance matrix actions is set to **1**. You can set the execution order of your custom plug-in to execute before (less than 1) or after (greater than 1) the default plug-in.
+The execution order value of the default [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] plug-in that uses Bing Maps for the geocode and distance matrix actions is set to **1**. You can set the execution order of your custom plug-in to execute before (less than 1) or after (greater than 1) the default plug-in.
 
 The following table depicts how you may want your custom plug-in to be treated depending on the execution order and parameter conditions.
 
 |||
 |--|--|
-|**Primary**| If you want to treat your custom plug-in as *primary* and the default Field Service Bing plug-in as secondary, set the execution order of your plug-in to **0**. This will result in your plug-in getting executed prior to the Bing plug-in. The Bing plug-in will examine the "latitude" and "longitude" values that your custom plug-in returns, and only proceeds to geocode with Bing if both the returned values are 0. This would be the preferred way if your custom plug-in is expected to provide the majority of your geocoding needs.|
+|**Primary**| If you want to treat your custom plug-in as *primary* and the default [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] Bing plug-in as secondary, set the execution order of your plug-in to **0**. This will result in your plug-in getting executed prior to the Bing plug-in. The Bing plug-in will examine the "latitude" and "longitude" values that your custom plug-in returns, and only proceeds to geocode with Bing if both the returned values are 0. This would be the preferred way if your custom plug-in is expected to provide the majority of your geocoding needs.|
 |**Secondary**|If you want to treat your custom plug-in as *secondary* to Bing plug-in by providing the geocoding service only when Bing fails to geocode, set the execution order of your plugin to **2**. You would also write your custom plug-in code such that it first examines the "latitude" and "longitude" values that Bing plug-in returns, and proceeds only if both the returned values are 0. This would be the preferred execution way if Bing is expected to provide the majority of your geocoding needs.|
 |**Completely override**| If you always want your custom plug-in to be the source of geocoding and completely override Bing from geocoding even when your custom plug-in fails to geocode, you will need to always return something other than 0,0 for "latitude" and "longitude" values. You may want to decide which exception conditions throw a .NET exception and which ones simply do not return a result. To not return a result and not allow any subsequent plug-in to return a result, your custom plug-in needs to return something like 0.0001, 0.0001. 
 
