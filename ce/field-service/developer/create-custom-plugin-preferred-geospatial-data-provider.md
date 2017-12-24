@@ -45,18 +45,59 @@ We have created a sample custom plug-in that demonstrates how to use the Google 
 > [!NOTE]
 > The sample plug-in code won't work unless you provide your own Google API key in the **GoogleDataContracts.cs** file in the sample.
 
-Once you have written your plug-in code, build the project to generate a plug-in assembly (.dll) that will be used to register the plug-in on the Field Service geospatial actions.
+Once you have written your plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the Field Service geospatial actions.
 
 ## Register and deploy your custom plug-in
 
 Before a plug-in can be used, it must be registered and deployed on the server. The Plug-in Registration Tool provides a graphical user interface to register and deploy plug-ins. For detailed information about registering and eploying plog-ins in general, see [Register and Deploy Plug-Ins](../../developer/register-deploy-plugins.md).
 
-Assuming that you are working with the sample custom plug-in, you will have the **CustomPlugin-FS-Geospatial.dll** assembly when you build the sample project. We will use the Plug-in Registration Tool to register and deploy this plug-in assembly.
+> [!IMPORTANT]
+> This section contains information based on an assumption that you are working with the sample custom plug-in, and have built the sample project to generate the **CustomPlugin-FS-Geospatial.dll** assembly. We will use the Plug-in Registration Tool to register and deploy this plug-in assembly.
+
+1. Get the Plug-in Registration Tool. [!INCLUDE[proc-download-plugin-registration-tool](../../includes/proc-download-plugin-registration-tool.md)]
+2. Navigate to the `[Your folder]\Tools\PluginRegistration` folder, and double-click the **PluginRegistration.exe** file to run the tool.
+3. Click **CREATE NEW CONNECTION**.
+4. In the **Login** dialog, specify the credentials to connect to your Dynamics 365 instance, and click **Login**.
+5. If you have access to multiple organizations in the Dynamics 365 instance, you are prseneted with a list of organizations to choose to connect to. Otherwise, your default organization is used.
+6. You should see a collapsed list of registered plug-in or custom workflow activity assemblies. Select **Register** > **Register New Assembly**.
+7. In the **Register New Assembly** dialog box:
+    
+    - Under **Step 1** section, click the ellipses […] button to select the **CustomPlugin-FS-Geospatial.dll** assembly.
+    - Under the **Step 2** section, select both the plug-ins.
+    - Under the **Step 3** section, select the **Sandbox** option.
+    - Under the **Step 4** section, select the **Database** option.
+    - Select **Register Selected Plugins**.
+
+    ![](../media/FS-register-plugin-assembly.png)
+
+    The **CustomPlugin-FS-Geospatial.dll** assembly and the two plug-ins for the msdyn_GeocodeAddress and msdyn_RetrieveDistanceMatrix are now registered and deployed to the server.
+
+8. The next step is to register a step for each action. A *step* refers to the SDK message processing step entity that is used to configure when and how the plug-in is to be executed.
+
+    In the **Registered Plug-ins & Custom Workflow Activities** tree view, expand the **(Assembly) CustomPlugin-FS-Geospatial** node, and select a registered plug-in, say **Microsoft.Crm.Sdk.Samples.msdyn_RetrieveDistanceMatrix**.
+
+    ![](../media/FS-register-plugin-step.png)
+
+9. Right-click the plugin, and select **Register New Step**. 
+10. In the **Register New Step** dialog box, specify the following:
+    - **Message**: msdyn_RetrieveDistanceMatrix
+    - **Execution Order**: 0
+        > [!IMPORTANT]
+        > The execution order value defines whether your custom plug-in will run before or after the deafult Filed Service plug-in that uses the Bing Maps for geospatial actions. See [Execution order considerations while registering your custom plug-in](#execution-order-considerations-while-registering-your-custom-plug-in) later in this topic.  
+    - **Event Pipeline Stage of Execution**: PostOperation
+    - **Execution Mode**: Synchronous
+    Leave the rest of the field with their default values. Click **Register New Step**. 
+
+    ![](../media/FS-register-step-retrievedistancematrix.png)
 
 > [!TIP]
 > For detailed information about how to use Plug-in Registration Tool, see [Walkthrough: Register a plug-in using the plug-in registration tool](../../developer/walkthrough-register-plugin-using-plugin-registration-tool.md)
 
- 
+## Execution order considerations while registering your custom plug-in
+
+When you register multiple plug-ins for the same entity and message, the execution sequence of the plug-ins is defined by the execution order of a plug-in. The one with a lower execution order value executes first followed by higher execytion order values.
+
+The execution order of the default Field Service plug-in that uses Bing Maps for the geocode and distance matrix actions is set to **1**. You can set the execution order of your custom plug-in to execute before (less than 1) or after (greater than 1) the default plug-in, as execution order <1 or >1 respectively, in conjunction with reacting to any previously calculated results, you can coordinate your service with the Bing geocoding service. You can make your plugin supplement or override the Bing plugin. For the example of creating your own plugin to provide geocoding services, the diagram below depicts how you may want your plugin to be treated and what execution order and parameter conditions to implement:
 
 ### See also  
     

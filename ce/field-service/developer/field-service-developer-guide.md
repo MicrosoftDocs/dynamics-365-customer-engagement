@@ -28,7 +28,7 @@ This guide provides information about how developers and ISVs can extend [!INCLU
 <tr><td>
 
 <h2>Extend Field Service</h2>
-<li>[Use preferred geospatial data provider](use-preferred-geospatial-data-provider.md)</li>
+<li>[Use your preferred geospatial data provider](use-preferred-geospatial-data-provider.md)</li>
 </td><td>
 
 <h2>Extend Connected Field Service</h2>
