@@ -78,26 +78,58 @@ Before a plug-in can be used, it must be registered and deployed on the server. 
 
     ![](../media/FS-register-plugin-step.png)
 
-9. Right-click the plugin, and select **Register New Step**. 
+9. Right-click the plugin, and select **Register New Step**.
+
 10. In the **Register New Step** dialog box, specify the following:
     - **Message**: msdyn_RetrieveDistanceMatrix
-    - **Execution Order**: 0
+    - **Execution Order**: As required
+
         > [!IMPORTANT]
-        > The execution order value defines whether your custom plug-in will run before or after the deafult Filed Service plug-in that uses the Bing Maps for geospatial actions. See [Execution order considerations while registering your custom plug-in](#execution-order-considerations-while-registering-your-custom-plug-in) later in this topic.  
+        > The execution order value defines whether your custom plug-in will run before or after the default Filed Service plug-in that uses the Bing Maps for geospatial actions. See [Execution order considerations while registering your custom plug-in](#execution-order-considerations-while-registering-your-custom-plug-in) later in this topic.  
     - **Event Pipeline Stage of Execution**: PostOperation
     - **Execution Mode**: Synchronous
-    Leave the rest of the field with their default values. Click **Register New Step**. 
+    - Leave the rest of the fields with their default values. Click **Register New Step**. 
 
     ![](../media/FS-register-step-retrievedistancematrix.png)
+
+11. Next, right-click the **Microsoft.Crm.Sdk.Samples.msdyn_GeocodeAddress** plug-in, and select **Register New Step**.
+
+12. In the **Register New Step** dialog box, specify the following:
+    - **Message**: msdyn_GeocodeAddress
+    - **Execution Order**: As required
+
+        > [!IMPORTANT]
+        > The execution order value defines whether your custom plug-in will run before or after the default Filed Service plug-in that uses the Bing Maps for geospatial actions. See [Execution order considerations while registering your custom plug-in](#execution-order-considerations-while-registering-your-custom-plug-in) later in this topic.
+  
+    - **Event Pipeline Stage of Execution**: PostOperation
+    - **Execution Mode**: Synchronous
+    - Leave the rest of the fields with their default values. Click **Register New Step**. 
+
+    ![](../media/FS-register-step-geocodeaddress.png)
+
+You are now done with registering steps to call your custom plug-in for the both the geospatial actions. 
+
+If you view any of the Field Service geospatial actions in the Plug-in Registration tool, you will see both the default and your custom plug-in registered for the action. For example, see the plug-ins for the **mdyn_GeocodeAddress** action.
+
+![](../media/FS-resitered-plugins-for-message.png)
+
 
 > [!TIP]
 > For detailed information about how to use Plug-in Registration Tool, see [Walkthrough: Register a plug-in using the plug-in registration tool](../../developer/walkthrough-register-plugin-using-plugin-registration-tool.md)
 
 ## Execution order considerations while registering your custom plug-in
 
-When you register multiple plug-ins for the same entity and message, the execution sequence of the plug-ins is defined by the execution order of a plug-in. The one with a lower execution order value executes first followed by higher execytion order values.
+When you register multiple plug-ins for the same entity and message, the execution sequence of the plug-ins is defined by the *execution order* of individual plug-ins. The one with a lower execution order value executes first followed by the one with a higher execution order value.
 
-The execution order of the default Field Service plug-in that uses Bing Maps for the geocode and distance matrix actions is set to **1**. You can set the execution order of your custom plug-in to execute before (less than 1) or after (greater than 1) the default plug-in, as execution order <1 or >1 respectively, in conjunction with reacting to any previously calculated results, you can coordinate your service with the Bing geocoding service. You can make your plugin supplement or override the Bing plugin. For the example of creating your own plugin to provide geocoding services, the diagram below depicts how you may want your plugin to be treated and what execution order and parameter conditions to implement:
+The execution order value of the default Field Service plug-in that uses Bing Maps for the geocode and distance matrix actions is set to **1**. You can set the execution order of your custom plug-in to execute before (less than 1) or after (greater than 1) the default plug-in.
+
+The following table depicts how you may want your custom plug-in to be treated depending on the execution order and parameter conditions.
+
+|||
+|--|--|
+|**Primary**| If you want to treat your custom plug-in as *primary* and the default Field Service Bing plug-in as secondary, set the execution order of your plug-in to **0**. This will result in your plug-in getting executed prior to the Bing plug-in. The Bing plug-in will examine the "latitude" and "longitude" values that your custom plug-in returns, and only proceeds to geocode with Bing if both the returned values are 0. This would be the preferred way if your custom plug-in is expected to provide the majority of your geocoding needs.|
+|**Secondary**|If you want to treat your custom plug-in as *secondary* to Bing plug-in by providing the geocoding service only when Bing fails to geocode, set the execution order of your plugin to **2**. You would also write your custom plug-in code such that it first examines the "latitude" and "longitude" values that Bing plug-in returns, and proceeds only if both the returned values are 0. This would be the preferred execution way if Bing is expected to provide the majority of your geocoding needs.|
+|**Completely override**| 
 
 ### See also  
     
