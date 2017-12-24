@@ -25,14 +25,16 @@ This topic provides you information about how to create a custom plug-in contain
 
 ## Input and output parameters for geospatial actions
 
-While writing your custom plug-in, you will have to consider the input and output parameters for the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] so that you can pass in and expect appropriate input and output data respectively in your plug-in code. There are two ways in which you can view the input and output parameters of the geospatial functions:
+While writing your custom plug-in, you will have to consider the input and output parameters for the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] so that you know what data to pass in and the expected output data in your plug-in code. 
+
+There are two ways in which you can view the input and output parameters for the two geospatial actions:
 
 - **Web API action reference content**: View refrence information about the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].
     - <xref:Microsoft.Dynamics.CRM.msdyn_GeocodeAddress>
     - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
 - **Action definition**: You can view the action definition in the product for information about the input/output prameters, including information whether a parametr is required or optional.
  
-    To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. The highlighted area in the action definition provides information about the input and output paraneters for an action.
+    To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 
     ![Action definition](../media/FS-ActionDefinition.png)
 
@@ -41,6 +43,89 @@ While writing your custom plug-in, you will have to consider the input and outpu
 Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. For detailed information about creating a plug-in, see [Plug-in development](../../developer/plugin-development.md)
 
 We have created a sample custom plug-in that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default Bing Maps API. More information: Download the sample code from here.
+
+The following sample code in each plug-in fetches data from the Google Maps:
+
+- msdyn_GeocodeAddress.cs
+
+    ```c#
+    public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+    {
+    localContext.Trace($"{nameof(msdyn_GeocodeAddress)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+
+    try
+    {
+        // If a plugin earlier in the pipeline has already geocoded successfully, quit 
+        if ((double)OutputParameters[LatitudeKey] != 0d || (double)OutputParameters[LongitudeKey] != 0d) return;
+
+        // Get user Lcid if request did not include it
+        int Lcid = (int)InputParameters[LcidKey];
+        string _address = string.Empty;
+        if (Lcid == 0)
+        {
+            var userSettingsQuery = new QueryExpression("usersettings");
+            userSettingsQuery.ColumnSet.AddColumns("uilanguageid", "systemuserid");
+            userSettingsQuery.Criteria.AddCondition("systemuserid", ConditionOperator.Equal, localContext.PluginExecutionContext.InitiatingUserId);
+            var userSettings = localContext.OrganizationService.RetrieveMultiple(userSettingsQuery);
+            if (userSettings.Entities.Count > 0)
+                Lcid = (int)userSettings.Entities[0]["uilanguageid"];
+        }
+
+        // Arrange the address components in a single comma-separated string, according to LCID
+        _address = GisUtility.FormatInternationalAddress(Lcid,
+            (string)InputParameters[Address1Key], (string)InputParameters[PostalCodeKey], (string)InputParameters[CityKey], (string)InputParameters[StateKey], (string)InputParameters[CountryKey]);
+
+        // Make Geocoding call to Google API
+        WebClient client = new WebClient();
+        var url = $"https://{GoogleConstants.GoogleApiServer}{GoogleConstants.GoogleGeocodePath}/json?address={_address}&key={GoogleConstants.GoogleApiKey}";
+        localContext.Trace($"Calling {url}\n");
+        string response = client.DownloadString(url);   // Post ...
+
+        localContext.Trace("Parsing response ...\n");
+        DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(GeocodeResponse));    // Deserialize response json
+        object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
+        GeocodeResponse geocodeResponse = objResponse as GeocodeResponse;       // Unbox into our data contracted class for response
+
+        localContext.Trace("Response Status = " + geocodeResponse.Status + "\n");
+        if (geocodeResponse.Status != "OK")
+            throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (Status {geocodeResponse.Status}).");
+
+        localContext.Trace("Checking geocodeResponse.Result...\n");
+        if (geocodeResponse.Results != null)
+        {
+            if (geocodeResponse.Results.Count() == 1)
+            {
+                localContext.Trace("Checking geocodeResponse.Result.Geometry.Location...\n");
+                if (geocodeResponse.Results.First()?.Geometry?.Location != null)
+                {
+                    localContext.Trace("Setting Latitude, Longitude in OutputParameters...\n");
+
+                    // update output parameters
+                    OutputParameters[LatitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lat;
+                    OutputParameters[LongitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lng;
+
+                }
+                else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (missing Results[0].Geometry.Location)");
+            }
+            else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (more than 1 result returned)");
+        }
+        else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (missing Results)");
+    }
+    catch (Exception ex)
+    {
+        // Signal to subsequent plugins in this message pipeline that geocoding failed here.
+        OutputParameters[LatitudeKey] = 0d;
+        OutputParameters[LongitudeKey] = 0d;
+
+        //TODO: You may need to decide which caught exceptions will rethrow and which ones will simply signal geocoding did not complete.
+        throw new InvalidPluginExecutionException(string.Format("Geocoding failed at {0} with exception -- {1}: {2}"
+            , GoogleConstants.GoogleApiServer, ex.GetType().ToString(), ex.Message), ex);
+    }
+
+    // For debugging purposes, throw an exception to see the details of the parameters
+    //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
+}
+    ```
 
 > [!NOTE]
 > The sample plug-in code won't work unless you provide your own Google API key in the **GoogleDataContracts.cs** file in the sample.
