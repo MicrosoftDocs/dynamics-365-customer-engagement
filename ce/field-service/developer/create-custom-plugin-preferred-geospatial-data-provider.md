@@ -1,6 +1,6 @@
 ---
 title: "Create custom plug-in to use your preferred geospatial data provider (Developer Guide for Dynamics 365 Field Service) | MicrosoftDocs"
-description: "Provides information on how to use geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service."
+description: "Provides information on how to create a  geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service."
 ms.custom: ""
 ms.date: 01/05/2018
 ms.reviewer: ""
@@ -21,7 +21,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic provides you information about how to create a custom plug-in containing sample code that uses Google Maps API instead of the Bing Maps API as the geospatial data provider and register the plug-in on the two [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] actions using the Plug-in Registration tool
+This topic provides information about the two geospatial actions in Field Service, how to create a custom plug-in for the two geospatial actions, and provides examples from a sample custom plug-in on using Google Maps API for geospatial data.
 
 ## Input and output parameters for geospatial actions
 
@@ -42,91 +42,151 @@ There are two ways in which you can view the input and output parameters for the
 
 Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. For detailed information about creating a plug-in, see [Plug-in development](../../developer/plugin-development.md)
 
-We have created a sample custom plug-in that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default Bing Maps API. More information: Download the sample code from here.
+A custom plug-in sample is provided for your reference that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default Bing Maps API. More information: Download the sample code from here.
 
 The following sample code in each plug-in uses data from the Google API:
 
-- `ExecuteGeocodeAddress` method in the **msdyn_GeocodeAddress.cs** file
+### ExecuteGeocodeAddress method in the msdyn_GeocodeAddress.cs plug-in file
 
-    ```c#
-    public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+```C#
+public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+{
+    localContext.Trace($"{nameof(msdyn_GeocodeAddress)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+
+    try
     {
-        localContext.Trace($"{nameof(msdyn_GeocodeAddress)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+        // If a plugin earlier in the pipeline has already geocoded successfully, quit 
+        if ((double)OutputParameters[LatitudeKey] != 0d || (double)OutputParameters[LongitudeKey] != 0d) return;
 
-        try
+        // Get user Lcid if request did not include it
+        int Lcid = (int)InputParameters[LcidKey];
+        string _address = string.Empty;
+        if (Lcid == 0)
         {
-            // If a plugin earlier in the pipeline has already geocoded successfully, quit 
-            if ((double)OutputParameters[LatitudeKey] != 0d || (double)OutputParameters[LongitudeKey] != 0d) return;
+            var userSettingsQuery = new QueryExpression("usersettings");
+            userSettingsQuery.ColumnSet.AddColumns("uilanguageid", "systemuserid");
+            userSettingsQuery.Criteria.AddCondition("systemuserid", ConditionOperator.Equal, localContext.PluginExecutionContext.InitiatingUserId);
+            var userSettings = localContext.OrganizationService.RetrieveMultiple(userSettingsQuery);
+            if (userSettings.Entities.Count > 0)
+                Lcid = (int)userSettings.Entities[0]["uilanguageid"];
+        }
 
-            // Get user Lcid if request did not include it
-            int Lcid = (int)InputParameters[LcidKey];
-            string _address = string.Empty;
-            if (Lcid == 0)
-            {
-                var userSettingsQuery = new QueryExpression("usersettings");
-                userSettingsQuery.ColumnSet.AddColumns("uilanguageid", "systemuserid");
-                userSettingsQuery.Criteria.AddCondition("systemuserid", ConditionOperator.Equal, localContext.PluginExecutionContext.InitiatingUserId);
-                var userSettings = localContext.OrganizationService.RetrieveMultiple(userSettingsQuery);
-                if (userSettings.Entities.Count > 0)
-                    Lcid = (int)userSettings.Entities[0]["uilanguageid"];
-            }
-
-            // Arrange the address components in a single comma-separated string, according to LCID
-            _address = GisUtility.FormatInternationalAddress(Lcid,
+        // Arrange the address components in a single comma-separated string, according to LCID
+        _address = GisUtility.FormatInternationalAddress(Lcid,
             (string)InputParameters[Address1Key], (string)InputParameters[PostalCodeKey], (string)InputParameters[CityKey], (string)InputParameters[StateKey], (string)InputParameters[CountryKey]);
 
-            // Make Geocoding call to Google API
-            WebClient client = new WebClient();
-            var url = $"https://{GoogleConstants.GoogleApiServer}{GoogleConstants.GoogleGeocodePath}/json?address={_address}&key={GoogleConstants.GoogleApiKey}";
-            localContext.Trace($"Calling {url}\n");
-            string response = client.DownloadString(url);   // Post ...
+        // Make Geocoding call to Google API
+        WebClient client = new WebClient();
+        var url = $"https://{GoogleConstants.GoogleApiServer}{GoogleConstants.GoogleGeocodePath}/json?address={_address}&key={GoogleConstants.GoogleApiKey}";
+        localContext.Trace($"Calling {url}\n");
+        string response = client.DownloadString(url);   // Post ...
 
-            localContext.Trace("Parsing response ...\n");
-            DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(GeocodeResponse));    // Deserialize response json
-            object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
-            GeocodeResponse geocodeResponse = objResponse as GeocodeResponse;       // Unbox into our data contracted class for response
+        localContext.Trace("Parsing response ...\n");
+        DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(GeocodeResponse));    // Deserialize response json
+        object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
+        GeocodeResponse geocodeResponse = objResponse as GeocodeResponse;       // Unbox into our data contracted class for response
 
-            localContext.Trace("Response Status = " + geocodeResponse.Status + "\n");
-            if (geocodeResponse.Status != "OK")
+        localContext.Trace("Response Status = " + geocodeResponse.Status + "\n");
+        if (geocodeResponse.Status != "OK")
             throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (Status {geocodeResponse.Status}).");
 
-            localContext.Trace("Checking geocodeResponse.Result...\n");
-            if (geocodeResponse.Results != null)
-            {
-                if (geocodeResponse.Results.Count() == 1)
-                {
-                    localContext.Trace("Checking geocodeResponse.Result.Geometry.Location...\n");
-                    if (geocodeResponse.Results.First()?.Geometry?.Location != null)
-                    {
-                        localContext.Trace("Setting Latitude, Longitude in OutputParameters...\n");
-
-                        // update output parameters
-                        OutputParameters[LatitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lat;
-                        OutputParameters[LongitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lng;
-
-                    }
-                    else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (missing Results[0].Geometry.Location)");
-                }
-                else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (more than 1 result returned)");
-            }
-            else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (missing Results)");
-        }
-        catch (Exception ex)
+        localContext.Trace("Checking geocodeResponse.Result...\n");
+        if (geocodeResponse.Results != null)
         {
-            // Signal to subsequent plugins in this message pipeline that geocoding failed here.
-            OutputParameters[LatitudeKey] = 0d;
-            OutputParameters[LongitudeKey] = 0d;
+            if (geocodeResponse.Results.Count() == 1)
+            {
+                localContext.Trace("Checking geocodeResponse.Result.Geometry.Location...\n");
+                if (geocodeResponse.Results.First()?.Geometry?.Location != null)
+                {
+                    localContext.Trace("Setting Latitude, Longitude in OutputParameters...\n");
 
-            //TODO: You may need to decide which caught exceptions will rethrow and which ones will simply signal geocoding did not complete.
-            throw new InvalidPluginExecutionException(string.Format("Geocoding failed at {0} with exception -- {1}: {2}"
-            , GoogleConstants.GoogleApiServer, ex.GetType().ToString(), ex.Message), ex);
+                    // update output parameters
+                    OutputParameters[LatitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lat;
+                    OutputParameters[LongitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lng;
+
+                }
+                else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (missing Results[0].Geometry.Location)");
+            }
+            else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (more than 1 result returned)");
         }
-
-        // For debugging purposes, throw an exception to see the details of the parameters
-        //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
+        else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (missing Results)");
     }
-    ```
-- ExecuteGeocodeAddress method in the **msdyn_RetrieveDistanceMatrix.cs** file:
+    catch (Exception ex)
+    {
+        // Signal to subsequent plugins in this message pipeline that geocoding failed here.
+        OutputParameters[LatitudeKey] = 0d;
+        OutputParameters[LongitudeKey] = 0d;
+
+        //TODO: You may need to decide which caught exceptions will rethrow and which ones will simply signal geocoding did not complete.
+        throw new InvalidPluginExecutionException(string.Format("Geocoding failed at {0} with exception -- {1}: {2}"
+            , GoogleConstants.GoogleApiServer, ex.GetType().ToString(), ex.Message), ex);
+    }
+
+    // For debugging purposes, throw an exception to see the details of the parameters
+    //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
+}
+```
+
+### ExecuteDistanceMatrix method in the msdyn_RetrieveDistanceMatrix.cs plug-in file
+
+```C#
+public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+{
+    localContext.Trace($"{nameof(msdyn_RetrieveDistanceMatrix)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+
+    try
+    {
+        // If a plugin earlier in the pipeline has already retrieved a distance matrix successfully, quit 
+        if (OutputParameters[MatrixKey] != null)
+            if (((EntityCollection)OutputParameters[MatrixKey]).Entities != null)
+                if (((EntityCollection)OutputParameters[MatrixKey]).Entities.Count > 0) return;
+
+        // Make Distance Matrix call to Google API
+        WebClient client = new WebClient();
+        var url = String.Format($"https://{GoogleConstants.GoogleApiServer}{GoogleConstants.GoogleDistanceMatrixPath}/json"
+            + "?units=imperial"
+            + $"&origins={string.Join("|", ((EntityCollection)InputParameters[SourcesKey]).Entities.Select(e => e.GetAttributeValue<double?>("latitude") + "," + e.GetAttributeValue<double?>("longitude")))}"
+            + $"&destinations={string.Join("|", ((EntityCollection)InputParameters[TargetsKey]).Entities.Select(e => e.GetAttributeValue<double?>("latitude") + "," + e.GetAttributeValue<double?>("longitude")))}"
+            + $"&key={GoogleConstants.GoogleApiKey}");
+        localContext.Trace($"Calling {url}\n");
+        string response = client.DownloadString(url);   // Post ...
+
+        localContext.Trace("Parsing response ...\n");
+        DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(DistanceMatrixResponse));    // Deserialize response json
+        object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
+        DistanceMatrixResponse distancematrixResponse = objResponse as DistanceMatrixResponse;       // Unbox as our data contracted class for response
+
+        localContext.Trace("Response Status = " + distancematrixResponse.Status + "\n");
+        if (distancematrixResponse.Status != "OK")
+            throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (Status={distancematrixResponse.Status}). {distancematrixResponse.ErrorMessage}");
+
+        localContext.Trace("Checking distancematrixResponse.Results...\n");
+        if (distancematrixResponse.Rows != null)
+        {
+            localContext.Trace("Parsing distancematrixResponse.Results.Elements...\n");
+
+            // build and update output parameter
+            var result = new EntityCollection();
+            result.Entities.AddRange(distancematrixResponse.Rows.Select(r => ToEntity(r.Columns.Select(c => ToEntity(c.Status, c.Duration, c.Distance)).ToArray())));
+            OutputParameters[MatrixKey] = result;
+
+        }
+        else throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (missing Rows)");
+    }
+    catch (Exception ex)
+    {
+        // Signal to subsequent plugins in this message pipeline that retrieval of distance matrix failed here.
+        OutputParameters[MatrixKey] = null;
+
+        //TODO: You may need to decide which caught exceptions will rethrow and which ones will simply signal geocoding did not complete.
+        throw new InvalidPluginExecutionException(string.Format("Geocoding failed at {0} with exception -- {1}: {2}"
+            , GoogleConstants.GoogleApiServer, ex.GetType().ToString(), ex.Message), ex);
+    }
+
+    // For debugging purposes, throw an exception to see the details of the parameters
+    //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
+}
+```
 
 > [!NOTE]
 > The sample plug-in code won't work unless you provide your own Google API key in the **GoogleDataContracts.cs** file in the sample.
