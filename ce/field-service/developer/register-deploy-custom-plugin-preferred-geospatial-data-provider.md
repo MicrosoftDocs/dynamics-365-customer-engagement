@@ -43,7 +43,7 @@ The following table depicts how you may want your custom plug-in to be treated d
 
 You can register and deploy plug-ins using the Plug-in Registration Tool or programmatically by writing registration code using certain SDK classes. More information: [Register and Deploy Plug-ins](../../developer/register-deploy-plugins.md).
 
-For this section, we will use the Plug-in Registration tool, which provides a graphical user interface to easily register and deploy plug-ins. Also, this section contains information based on the assumption that you are working with the sample custom plug-in, and have built the sample project to generate the **CustomPlugin-FS-Geospatial.dll** assembly. If you have developed your own custom plug-in, the name of the assembly and plug-ins will differ, but the overall instructions to register the plug-in will remain the same.
+For this section, we will use the Plug-in Registration tool, which provides a graphical user interface to easily register and deploy plug-ins. Also, this section contains information based on the assumption that you are working with the [sample custom plug-in](developer/sample-custom-plugin-google-geospatial-data-provider.md), and have built the sample project to generate the **CustomPlugin-FS-Geospatial.dll** assembly. If you have developed your own custom plug-in, the name of the assembly and plug-ins will differ, but the overall instructions to register the plug-in will remain the same.
 
 > [!TIP]
 > For detailed information about how to use Plug-in Registration Tool in general, see [Walkthrough: Register a plug-in using the plug-in registration tool](../../developer/walkthrough-register-plugin-using-plugin-registration-tool.md)
@@ -72,7 +72,7 @@ For this section, we will use the Plug-in Registration tool, which provides a gr
 
     ![](../media/FS-register-plugin-step.png)
 
-9. Right-click the plugin, and select **Register New Step**.
+9. Right-click **Microsoft.Crm.Sdk.Samples.msdyn_RetrieveDistanceMatrix**, and select **Register New Step**.
 
 10. In the **Register New Step** dialog box, specify the following:
     - **Message**: msdyn_RetrieveDistanceMatrix
@@ -100,7 +100,6 @@ If you view any of the [!INCLUDE[pn_field_service](../../includes/pn-field-servi
 
 ![](../media/FS-resitered-plugins-for-message.png)
 
-
-
 ### See also  
-    
+
+[Sample: Custom plug-in to use Google Maps API as geospatial data provider](sample-custom-plugin-google-geospatial-data-provider.md)    

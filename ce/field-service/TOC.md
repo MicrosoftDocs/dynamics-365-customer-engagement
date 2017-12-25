@@ -66,6 +66,7 @@
 ## [Use your preferred geospatial data provider in Field Service](developer/use-preferred-geospatial-data-provider.md)
 ### [Create custom plug-in to use your preferred geospatial data provider](developer/create-custom-plugin-preferred-geospatial-data-provider.md)
 ### [Register and deploy custom plug-in to use your preferred geospatial data provider](developer/register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
+### [Sample: Custom plug-in to use Google Maps API as geospatial data provider](developer/sample-custom-plugin-google-geospatial-data-provider.md)
 ## [Develop customized IoT solutions in Connected Field Service](developer/connected-field-service-developer-guide.md)
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend Connected Field Service solutions](developer/extend-connected-field-service-solutions.md)

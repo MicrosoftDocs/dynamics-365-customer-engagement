@@ -42,9 +42,9 @@ There are two ways in which you can view the input and output parameters for the
 
 Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> interface. For detailed information about creating a plug-in, see [Plug-in development](../../developer/plugin-development.md)
 
-A custom plug-in sample is provided for your reference that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default Bing Maps API. More information: Download the sample code from here.
+A custom plug-in sample is provided for your reference that demonstrates how to use the Google Maps API to provide geospatial data for field operations instead of the default Bing Maps API. More information: [Sample: Custom plug-in to use Google Maps API as geospatial data provider](developer/sample-custom-plugin-google-geospatial-data-provider.md).
 
-The following sample code in each plug-in uses data from the Google API:
+The following code in each sample plug-in uses data from the Google API:
 
 ### ExecuteGeocodeAddress method in the msdyn_GeocodeAddress.cs plug-in file
 
@@ -188,10 +188,7 @@ public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterColl
 }
 ```
 
-> [!NOTE]
-> The sample plug-in code won't work unless you provide your own Google API key in the **GoogleDataContracts.cs** file in the sample.
-
-Once you have written your plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] geospatial actions.
+After you have written your custom plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] geospatial actions.
 
 > [!div class="nextstepaction"]
 > [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
