@@ -48,7 +48,7 @@ The following sample code in each plug-in uses data from the Google API:
 
 ### ExecuteGeocodeAddress method in the msdyn_GeocodeAddress.cs plug-in file
 
-```C#
+```c#
 public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
 {
     localContext.Trace($"{nameof(msdyn_GeocodeAddress)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
@@ -129,7 +129,7 @@ public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterColl
 
 ### ExecuteDistanceMatrix method in the msdyn_RetrieveDistanceMatrix.cs plug-in file
 
-```C#
+```c#
 public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
 {
     localContext.Trace($"{nameof(msdyn_RetrieveDistanceMatrix)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
@@ -194,5 +194,5 @@ public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterColl
 Once you have written your plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] geospatial actions.
 
 > [!div class="nextstepaction"]
-> [Register and deploy custom plug-in to use your preferred geospatial data provider in Field Service](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
+> [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
     
