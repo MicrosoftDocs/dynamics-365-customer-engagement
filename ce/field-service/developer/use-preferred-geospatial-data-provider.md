@@ -30,7 +30,7 @@ You can create a custom plug-in and register on these two actions to use geospat
 
 ### See also
 
-[Register and deploy custom plug-in to use your preferred geospatial data provider](developer/register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
+[Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
 
-[Sample: Custom plug-in to use Google Maps API as geospatial data provider](developer/sample-custom-plugin-google-geospatial-data-provider.md)  
+[Sample: Custom plug-in to use Google Maps API as geospatial data provider](sample-custom-plugin-google-geospatial-data-provider.md)  
     

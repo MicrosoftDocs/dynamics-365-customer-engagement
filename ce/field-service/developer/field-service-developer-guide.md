@@ -29,6 +29,8 @@ This guide provides information about how developers and ISVs can extend [!INCLU
 
 <h2>Extend Field Service</h2>
 <li>[Use your preferred geospatial data provider](use-preferred-geospatial-data-provider.md)</li>
+<li>[Create custom plug-in to use your preferred geospatial data provider](create-custom-plugin-preferred-geospatial-data-provider.md)</li>
+<li>[Sample: Custom plug-in to use Google Maps API as geospatial data provider](sample-custom-plugin-google-geospatial-data-provider.md)</li>
 </td><td>
 
 <h2>Extend Connected Field Service</h2>

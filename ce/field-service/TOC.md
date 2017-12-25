@@ -70,7 +70,7 @@
 ## [Develop customized IoT solutions in Connected Field Service](developer/connected-field-service-developer-guide.md)
 ### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
 ### [Extend Connected Field Service solutions](developer/extend-connected-field-service-solutions.md)
-#### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow)
+#### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
 
 
