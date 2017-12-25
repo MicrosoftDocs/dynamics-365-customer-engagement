@@ -1,6 +1,6 @@
 ---
 title: "Create custom plug-in to use your preferred geospatial data provider (Developer Guide for Dynamics 365 Field Service) | MicrosoftDocs"
-description: "Provides information on how to create a  geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service."
+description: "Provides information on how to create a custom plug-in to use geospatial data provider other than the default Bing Maps in Dynamics 365 for Field Service."
 ms.custom: ""
 ms.date: 01/05/2018
 ms.reviewer: ""
@@ -48,7 +48,7 @@ The following code in each sample plug-in uses data from the Google API:
 
 ### ExecuteGeocodeAddress method in the msdyn_GeocodeAddress.cs plug-in file
 
-```c#
+```csharp
 public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
 {
     localContext.Trace($"{nameof(msdyn_GeocodeAddress)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
@@ -129,7 +129,7 @@ public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterColl
 
 ### ExecuteDistanceMatrix method in the msdyn_RetrieveDistanceMatrix.cs plug-in file
 
-```c#
+```csharp
 public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
 {
     localContext.Trace($"{nameof(msdyn_RetrieveDistanceMatrix)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");

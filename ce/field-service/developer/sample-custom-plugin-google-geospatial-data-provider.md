@@ -44,9 +44,9 @@ This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress*
 
 After you have succesfully run (build) the sample, a custom plug-in assembly file, **CustomPlugin-FS-Geospatial.dll**, will become available in the `<Project>\bin\debug` folder. You must register the sample custom plug-in assembly on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance to be able to use the plug-in to use the Google Maps API instead of the default Bing Maps API. More information: [Register and deploy your custom plug-in](register-deploy-custom-plugin-preferred-geospatial-data-provider.md#register-and-deploy-your-custom-plug-in) 
 
-## Plug-in sample code for **msdyn_GeocodeAddress** action
+## Plug-in sample code for msdyn_GeocodeAddress action
 
-```c#
+```csharp
 using System;
 using System.IO;
 using System.Linq;
@@ -211,9 +211,9 @@ namespace Microsoft.Crm.Sdk.Samples
 }
 ```
 
-## Plug-in sample code for **msdyn_RetrieveDistanceMatrix** action
+## Plug-in sample code for msdyn_RetrieveDistanceMatrix action
 
-```c#
+```csharp
 using System;
 using System.IO;
 using System.Linq;
