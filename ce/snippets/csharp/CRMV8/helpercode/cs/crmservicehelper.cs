@@ -1,9 +1,6 @@
-// <snippetcrmservicehelper>
-
-
+//<snippetcrmservicehelper>
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.DirectoryServices.AccountManagement;
 using System.IO;
 using System.Runtime.InteropServices;
@@ -19,7 +16,7 @@ using System.Xml.Linq;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
 using Microsoft.Xrm.Sdk.Discovery;
-using Microsoft.Crm.Services.Utility;
+
 
 
 namespace Microsoft.Crm.Sdk.Samples
@@ -40,7 +37,6 @@ namespace Microsoft.Crm.Sdk.Samples
             public Uri DiscoveryUri;
             public Uri OrganizationUri;
             public Uri HomeRealmUri = null;
-            public ClientCredentials DeviceCredentials = null;
             public ClientCredentials Credentials = null;
             public AuthenticationProviderType EndpointType;
             public String UserPrincipalName;
@@ -57,41 +53,29 @@ namespace Microsoft.Crm.Sdk.Samples
 
                 Configuration c = (Configuration)obj;
 
-                if (!this.ServerAddress.Equals(c.ServerAddress, StringComparison.InvariantCultureIgnoreCase))
+                if (!ServerAddress.Equals(c.ServerAddress, StringComparison.InvariantCultureIgnoreCase))
                     return false;
-                if (!this.OrganizationName.Equals(c.OrganizationName, StringComparison.InvariantCultureIgnoreCase))
+                if (!OrganizationName.Equals(c.OrganizationName, StringComparison.InvariantCultureIgnoreCase))
                     return false;
-                if (this.EndpointType != c.EndpointType)
+                if (EndpointType != c.EndpointType)
                     return false;
-                if (null != this.Credentials &amp;&amp; null != c.Credentials)
+                if (null != Credentials && null != c.Credentials)
                 {
-                    if (this.EndpointType == AuthenticationProviderType.ActiveDirectory)
+                    if (EndpointType == AuthenticationProviderType.ActiveDirectory)
                     {
 
-                        if (!this.Credentials.Windows.ClientCredential.Domain.Equals(
+                        if (!Credentials.Windows.ClientCredential.Domain.Equals(
                             c.Credentials.Windows.ClientCredential.Domain, StringComparison.InvariantCultureIgnoreCase))
                             return false;
-                        if (!this.Credentials.Windows.ClientCredential.UserName.Equals(
+                        if (!Credentials.Windows.ClientCredential.UserName.Equals(
                             c.Credentials.Windows.ClientCredential.UserName, StringComparison.InvariantCultureIgnoreCase))
                             return false;
 
                     }
-                    else if (this.EndpointType == AuthenticationProviderType.LiveId)
-                    {
-                        if (!this.Credentials.UserName.UserName.Equals(c.Credentials.UserName.UserName,
-                            StringComparison.InvariantCultureIgnoreCase))
-                            return false;
-                        if (!this.DeviceCredentials.UserName.UserName.Equals(
-                            c.DeviceCredentials.UserName.UserName, StringComparison.InvariantCultureIgnoreCase))
-                            return false;
-                        if (!this.DeviceCredentials.UserName.Password.Equals(
-                            c.DeviceCredentials.UserName.Password, StringComparison.InvariantCultureIgnoreCase))
-                            return false;
-                    }
                     else
                     {
 
-                        if (!this.Credentials.UserName.UserName.Equals(c.Credentials.UserName.UserName,
+                        if (!Credentials.UserName.UserName.Equals(c.Credentials.UserName.UserName,
                             StringComparison.InvariantCultureIgnoreCase))
                             return false;
 
@@ -103,22 +87,17 @@ namespace Microsoft.Crm.Sdk.Samples
             public override int GetHashCode()
             {
                 int returnHashCode = this.ServerAddress.GetHashCode() 
-                    ^ this.OrganizationName.GetHashCode() 
-                    ^ this.EndpointType.GetHashCode();
-                if (null != this.Credentials)
+                    ^ OrganizationName.GetHashCode() 
+                    ^ EndpointType.GetHashCode();
+                if (null != Credentials)
                 {
-                    if (this.EndpointType == AuthenticationProviderType.ActiveDirectory)
+                    if (EndpointType == AuthenticationProviderType.ActiveDirectory)
                         returnHashCode = returnHashCode
-                            ^ this.Credentials.Windows.ClientCredential.UserName.GetHashCode()
-                            ^ this.Credentials.Windows.ClientCredential.Domain.GetHashCode();
-                    else if (this.EndpointType == AuthenticationProviderType.LiveId)
-                        returnHashCode = returnHashCode
-                            ^ this.Credentials.UserName.UserName.GetHashCode()
-                            ^ this.DeviceCredentials.UserName.UserName.GetHashCode()
-                            ^ this.DeviceCredentials.UserName.Password.GetHashCode();
+                            ^ Credentials.Windows.ClientCredential.UserName.GetHashCode()
+                            ^ Credentials.Windows.ClientCredential.Domain.GetHashCode();
                     else
                         returnHashCode = returnHashCode
-                            ^ this.Credentials.UserName.UserName.GetHashCode();
+                            ^ Credentials.UserName.UserName.GetHashCode();
                 }
                 return returnHashCode;
             }
@@ -147,7 +126,7 @@ namespace Microsoft.Crm.Sdk.Samples
         /// <param name="serverConfiguration">An instance of ServerConnection.Configuration</param>
         /// <returns>An instance of organization service proxy</returns>
         public static OrganizationServiceProxy GetOrganizationProxy(
-            ServerConnection.Configuration serverConfiguration)
+            Configuration serverConfiguration)
         {
             // If organization service management exists, then use it. 
             // Otherwise generate organization service proxy from scratch.
@@ -231,7 +210,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 {
                     addConfig = true;
                 }
-                else if (configNumber > 0 &amp;&amp; configNumber <= configurations.Count)
+                else if (configNumber > 0 && configNumber <= configurations.Count)
                 {
                     // Return the organization Uri.
                     config = configurations[configNumber - 1];
@@ -274,8 +253,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     config.DiscoveryUri =
                         new Uri(String.Format("https://dev.{0}/XRMServices/2011/Discovery.svc", config.ServerAddress));
 
-                    // Get or set the device credentials. This is required for Microsoft account authentication. 
-                    config.DeviceCredentials = GetDeviceCredentials(); 
+
                     }
                 }
                 // Check if the server uses Secure Socket Layer (https).
@@ -413,10 +391,7 @@ namespace Microsoft.Crm.Sdk.Samples
                             newConfig.EndpointType,
                             newConfig.ServerAddress + ":" + newConfig.OrganizationName + ":" + config.Element("Credentials").Element("UserName").Value);
                     }
-                    if (newConfig.EndpointType == AuthenticationProviderType.LiveId)
-                    {
-                        newConfig.DeviceCredentials = GetDeviceCredentials();
-                    }
+
                     var userPrincipalName = config.Element("UserPrincipalName");
                     if (userPrincipalName != null)
                         if (!String.IsNullOrWhiteSpace(userPrincipalName.Value))
@@ -483,7 +458,6 @@ namespace Microsoft.Crm.Sdk.Samples
                     case AuthenticationProviderType.ActiveDirectory:
                         target = target + ":" + config.Credentials.Windows.ClientCredential.UserName;
                         break;
-                    case AuthenticationProviderType.LiveId:
                     case AuthenticationProviderType.Federation:
                     case AuthenticationProviderType.OnlineFederation:
                         target = target + ":" + config.Credentials.UserName.UserName;
@@ -552,7 +526,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 // An on-premises Microsoft Dynamics CRM server deployment. 
                 case AuthenticationProviderType.ActiveDirectory:
                     // Uses credentials from windows credential manager for earlier saved configuration.
-                    if (isCredentialExist &amp;&amp; !String.IsNullOrWhiteSpace(config.OrganizationName))
+                    if (isCredentialExist && !String.IsNullOrWhiteSpace(config.OrganizationName))
                     {
                         domain = config.Credentials.Windows.ClientCredential.Domain;
                         userName = config.Credentials.Windows.ClientCredential.UserName;
@@ -572,7 +546,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         }
                     }
                     // Uses default credentials saved in windows credential manager for current organization.
-                    else if (!isCredentialExist &amp;&amp; !String.IsNullOrWhiteSpace(config.OrganizationName))
+                    else if (!isCredentialExist && !String.IsNullOrWhiteSpace(config.OrganizationName))
                     {
                         return null;
                     }
@@ -587,7 +561,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
                             // If user do not choose to enter user name, 
                             // then try to use default credential from windows credential manager.
-                            if (domainAndUserName.Length == 1 &amp;&amp; String.IsNullOrWhiteSpace(domainAndUserName[0]))
+                            if (domainAndUserName.Length == 1 && String.IsNullOrWhiteSpace(domainAndUserName[0]))
                             {
                                 return null;
                             }
@@ -612,8 +586,6 @@ namespace Microsoft.Crm.Sdk.Samples
                     }
 
                     break;
-                // A Microsoft Dynamics CRM Online server deployment. 
-                case AuthenticationProviderType.LiveId:
                 // An internet-facing deployment (IFD) of Microsoft Dynamics CRM.          
                 case AuthenticationProviderType.Federation:
                 // Managed Identity/Federated Identity users using Microsoft Office 365.
@@ -638,8 +610,8 @@ namespace Microsoft.Crm.Sdk.Samples
                     // For OnlineFederation environments, initially try to authenticate with the current UserPrincipalName
                     // for single sign-on scenario.
                     else if (config.EndpointType == AuthenticationProviderType.OnlineFederation 
-                        &amp;&amp; config.AuthFailureCount == 0 
-                        &amp;&amp; !String.IsNullOrWhiteSpace(UserPrincipal.Current.UserPrincipalName))
+                        && config.AuthFailureCount == 0 
+                        && !String.IsNullOrWhiteSpace(UserPrincipal.Current.UserPrincipalName))
                     {
                         config.UserPrincipalName = UserPrincipal.Current.UserPrincipalName;
                         return null;
@@ -648,9 +620,6 @@ namespace Microsoft.Crm.Sdk.Samples
                     else
                     {
                         config.UserPrincipalName = String.Empty;
-                        if (config.EndpointType == AuthenticationProviderType.LiveId)
-                            Console.Write("\n Enter Microsoft account: ");
-                        else
                             Console.Write("\n Enter Username: ");
                         userName = Console.ReadLine();
                         if (string.IsNullOrWhiteSpace(userName))
@@ -737,7 +706,7 @@ namespace Microsoft.Crm.Sdk.Samples
             // For organization service Uri, if service management exists 
             // then use it from cache. Otherwise create new service management for current organization.
             IServiceManagement<TService> serviceManagement =
-                (isOrgServiceRequest &amp;&amp; null != currentConfig.OrganizationServiceManagement) ?
+                (isOrgServiceRequest && null != currentConfig.OrganizationServiceManagement) ?
                 (IServiceManagement<TService>)currentConfig.OrganizationServiceManagement :
                 ServiceConfigurationFactory.CreateManagement<TService>(
                 serviceUri);
@@ -781,12 +750,6 @@ namespace Microsoft.Crm.Sdk.Samples
             if (currentConfig.EndpointType !=
                 AuthenticationProviderType.ActiveDirectory)
             {
-                if (currentConfig.EndpointType == AuthenticationProviderType.LiveId)
-                {
-                    authCredentials.SupportingCredentials = new AuthenticationCredentials();
-                    authCredentials.SupportingCredentials.ClientCredentials =
-                        currentConfig.DeviceCredentials;
-                }
 
                 AuthenticationCredentials tokenCredentials =
                     serviceManagement.Authenticate(
@@ -967,7 +930,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         }
                         int orgNumber;
                         Int32.TryParse(input, out orgNumber);
-                        if (orgNumber > 0 &amp;&amp; orgNumber <= orgs.Count)
+                        if (orgNumber > 0 && orgNumber <= orgs.Count)
                         {
                             config.OrganizationName = orgs[orgNumber - 1].FriendlyName;
                             // Return the organization Uri.
@@ -987,15 +950,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }
         }        
 
-        /// <summary>
-        /// Get the device credentials by either loading from the local cache 
-        /// or request new device credentials by registering the device.
-        /// </summary>
-        /// <returns>Device Credentials.</returns>
-        protected virtual ClientCredentials GetDeviceCredentials()
-        {
-            return Microsoft.Crm.Services.Utility.DeviceIdManager.LoadOrRegisterDevice();
-        }
+
 
         /// <summary>
         /// Get the discovery service proxy based on existing configuration data.
@@ -1017,7 +972,7 @@ namespace Microsoft.Crm.Sdk.Samples
             {
                     // If authentication failed using current UserPrincipalName, 
                     // request UserName and Password to try to authenticate using user credentials.
-                    if (!String.IsNullOrWhiteSpace(config.UserPrincipalName) &amp;&amp; 
+                    if (!String.IsNullOrWhiteSpace(config.UserPrincipalName) && 
                         ex.Message.Contains("Access is denied."))
                     {
                         config.AuthFailureCount += 1;
@@ -1048,8 +1003,6 @@ namespace Microsoft.Crm.Sdk.Samples
             {
                 case "ActiveDirectory":
                     return AuthenticationProviderType.ActiveDirectory;
-                case "LiveId":
-                    return AuthenticationProviderType.LiveId;
                 case "Federation":
                     return AuthenticationProviderType.Federation;
                 case "OnlineFederation":
@@ -1076,7 +1029,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 switch (endpointType)
                 {
                     case AuthenticationProviderType.ActiveDirectory:
-                        if (null != cred &amp;&amp; cred.UserName.Contains("\\"))
+                        if (null != cred && cred.UserName.Contains("\\"))
                         {
                             String[] domainAndUser = cred.UserName.Split('\\');
                             result.Windows.ClientCredential = new System.Net.NetworkCredential()
@@ -1095,7 +1048,6 @@ namespace Microsoft.Crm.Sdk.Samples
                             };
                         }
                         break;
-                    case AuthenticationProviderType.LiveId:
                     case AuthenticationProviderType.Federation:
                     case AuthenticationProviderType.OnlineFederation:
                         if (null != cred)
@@ -1162,8 +1114,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         return new XElement("Credentials",
                             new XElement("UserName", clientCredentials.Windows.ClientCredential.UserName),
                             new XElement("Domain", clientCredentials.Windows.ClientCredential.Domain)
-                            );
-                    case AuthenticationProviderType.LiveId:                        
+                            );                   
                     case AuthenticationProviderType.Federation:                        
                     case AuthenticationProviderType.OnlineFederation:
                         if (cred == null)
@@ -1565,11 +1516,6 @@ namespace Microsoft.Crm.Sdk.Samples
             this._proxyManager = new AutoRefreshSecurityToken<DiscoveryServiceProxy, IDiscoveryService>(this);
         }
 
-        protected override SecurityTokenResponse AuthenticateDeviceCore()
-        {
-            return this._proxyManager.AuthenticateDevice();
-        }
-
         protected override void AuthenticateCore()
         {
             this._proxyManager.PrepareCredentials();
@@ -1610,10 +1556,6 @@ namespace Microsoft.Crm.Sdk.Samples
             this._proxyManager = new AutoRefreshSecurityToken<OrganizationServiceProxy, IOrganizationService>(this);
         }
 
-        protected override SecurityTokenResponse AuthenticateDeviceCore()
-        {
-            return this._proxyManager.AuthenticateDevice();
-        }
 
         protected override void AuthenticateCore()
         {
@@ -1634,8 +1576,7 @@ namespace Microsoft.Crm.Sdk.Samples
     public sealed class AutoRefreshSecurityToken<TProxy, TService>
         where TProxy : ServiceProxy<TService>
         where TService : class
-    {
-        private ClientCredentials _deviceCredentials;
+    {        
         private TProxy _proxy;
 
         /// <summary>
@@ -1669,7 +1610,6 @@ namespace Microsoft.Crm.Sdk.Samples
                     this._proxy.ClientCredentials.UserName.Password = null;
                     break;
                 case AuthenticationProviderType.Federation:
-                case AuthenticationProviderType.LiveId:
                     this._proxy.ClientCredentials.Windows.ClientCredential = null;
                     break;
                 default:
@@ -1677,27 +1617,13 @@ namespace Microsoft.Crm.Sdk.Samples
             }
         }
 
-        /// <summary>
-        /// Authenticates the device token
-        /// </summary>
-        /// <returns>Generated SecurityTokenResponse for the device</returns>
-        public SecurityTokenResponse AuthenticateDevice()
-        {
-            if (null == this._deviceCredentials)
-            {
-                this._deviceCredentials = DeviceIdManager.LoadOrRegisterDevice(
-                    this._proxy.ServiceConfiguration.CurrentIssuer.IssuerAddress.Uri);
-            }
-
-            return this._proxy.ServiceConfiguration.AuthenticateDevice(this._deviceCredentials);
-        }
 
         /// <summary>
         /// Renews the token (if it is near expiration or has expired)
         /// </summary>
         public void RenewTokenIfRequired()
         {
-            if (null != this._proxy.SecurityTokenResponse &amp;&amp;
+            if (null != this._proxy.SecurityTokenResponse &&
                 DateTime.UtcNow.AddMinutes(15) >= this._proxy.SecurityTokenResponse.Response.Lifetime.Expires)
             {
                 try
@@ -1719,5 +1645,4 @@ namespace Microsoft.Crm.Sdk.Samples
     }
     #endregion
 }
-
-// </snippetcrmservicehelper>
+//</snippetcrmservicehelper>
