@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Preview feature: Azure Cosmos DB for DocumentDB API Data Provider requirements
 
-This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] as well as how to configure and recommended best practices when you use the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] virtual entities. [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] is Microsoft's globally distributed, multi-model database.
+This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] as well as how to configure and recommended best practices when you use the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] virtual entities. 
 
 > [!IMPORTANT]
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -32,7 +32,7 @@ This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provi
 
 ## What is Azure Cosmos DB?
 
-Azure Cosmos DB is Microsoft's globally distributed multi-model database service for mission-critical applications. It provides rich and familiar SQL query capabilities with consistent low latencies over schema-less JSON data. More information: [Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/azure/cosmos-db/sql-api-introduction)
+[!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] is Microsoft's globally distributed multi-model database service for mission-critical applications. It provides rich and familiar SQL query capabilities with consistent low latencies over schema-less JSON data. More information: [Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/azure/cosmos-db/sql-api-introduction)
 
 ## Requirements
 
@@ -94,7 +94,7 @@ SQL query filtering supports the following operators.
 
 ## Best practices and limitations
 
-- Although you can have only one entity for each Data Source, you can have multiple Data Sources with different entities connecting to the same Collection in the Azure Cosmos DB.
+- Although you can have only one entity for each Data Source, you can have multiple Data Sources with different entities connecting to the same Collection in the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)].
 - You can’t segment the data in a collection by entity.
 - [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] databases do not require a schema, however the data within the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] must be structured using a predictable schema. 
 - Although the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] implements query translation of projection, filtering, and sorting operators, it does not support join operations.
