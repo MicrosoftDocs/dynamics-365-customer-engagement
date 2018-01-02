@@ -2,7 +2,7 @@
 title: "Helper code: ServerConnection class (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The ServerConnection class demonstrates how to establish a connection to the Dynamics 365 web services for the purpose of invoking web methods"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "Run duplicate detection (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Execute duplicate detection for a specific record, entity type, or during create or update operations."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/15/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -53,6 +53,10 @@ Accept: application/json
 ```
 **Response**
 ```json
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
 {
     "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#accounts",
     "value": [
@@ -103,6 +107,10 @@ OData-MaxVersion: 4.0
 ```
 **Response**
 ```json
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
 {
     "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.BulkDetectDuplicatesResponse",
     "JobId": "efaff068-7598-e711-80e8-00155db64062"
@@ -140,6 +148,10 @@ The FetchXML equivalent of the above request is shown below.
 
 **Response**
 ```json
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
 {  
    "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#duplicaterecords",
    "value":[  

@@ -2,7 +2,7 @@
 title: "Use webhooks to create external handlers for server events(Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "You can send data about events that occur on the server to a web application using webhooks. Webhooks is a lightweight HTTP pattern for connecting Web APIs and services with a publish/subscribe model. webhook senders notify receivers about events by making requests to receiver endpoints with some information about the events."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/18/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -67,7 +67,7 @@ The correct webhook registration authentication option and values to use depend 
 |Type  |Description  |
 |---------|---------|
 |**HttpHeader**|Includes one or more key values pairs in the header of the http request.<br />Example: <br />`Key1: Value1`<br />`Key2: Value2`|
-|**WebhookKey**|Includes one key value as query string appended to the Endpoint URL using the code parameter.<br />Example: <br />`?code=00000000-0000-0000-0000-000000000001`|
+|**WebhookKey**|Includes a query string using `code` as the key and a value required by the endpoint. When registering the web hook using the Plug-in Registration tool, only enter the value.<br />Example: <br />`?code=00000000-0000-0000-0000-000000000001`|
 |**HttpQueryString**|Includes one or more key value pairs as query string parameters.<br />Example: <br />`?Key1=Value1&Key2=Value2`|
 
 > [!NOTE]
