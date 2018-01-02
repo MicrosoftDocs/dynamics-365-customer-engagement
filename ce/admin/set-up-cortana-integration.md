@@ -20,6 +20,11 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
+> [!IMPORTANT]
+> [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration has been deprecated. For more information, see the blog [Deprecating Cortana Integration](https://community.dynamics.com/enterprise/b/365teamblog).
+  
+<!-- 
+
 We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help salespeople keep track of important [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
   
  Cortana integration is available as a Preview feature to organizations that use [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
@@ -44,3 +49,5 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
   
 ### See also  
  [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)
+
+-->
