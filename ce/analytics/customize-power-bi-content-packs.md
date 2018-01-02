@@ -1,6 +1,6 @@
 ---
 title: "Customize Dynamics 365 Power BI content packs (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: ""
+description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 data."
 keywords: "PBI"
 ms.date: 09/30/2017
 ms.service: crm-online
@@ -18,7 +18,7 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 16
 topic-status: Drafting
-tags: - "MigrationHO
+tags: 
 ---
 
 # Customize Dynamics 365 Power BI content packs
