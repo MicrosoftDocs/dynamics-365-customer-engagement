@@ -1,8 +1,8 @@
 ---
 title: "Preview Feature: Use the Azure Cosmos DB for DocumentDB API Data Provider with Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to configure the Azure Cosmos DB for DocumentDB API Data Provider to use with Dynamics 365 virtual entities."
-keywords: ""
-ms.date: 11/5/2017
+keywords: "SQL (DocumentDB) API"
+ms.date: 1/2/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -29,6 +29,10 @@ This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provi
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-no-ms-support.md)]
 
+
+## What is Azure Cosmos DB?
+
+Azure Cosmos DB is Microsoft's globally distributed multi-model database service for mission-critical applications. It provides rich and familiar SQL query capabilities with consistent low latencies over schema-less JSON data. More information: [Introduction to Azure Cosmos DB: SQL API](https://docs.microsoft.com/azure/cosmos-db/sql-api-introduction)
 
 ## Requirements
 
@@ -90,7 +94,9 @@ SQL query filtering supports the following operators.
 
 ## Best practices and limitations
 
-- [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] databases do not require a schema, however the data within the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] must be structured using a known schema. 
+- Although you can have only one entity for each Data Source, you can have multiple Data Sources with different entities connecting to the same Collection in the Azure Cosmos DB.
+- You can’t segment the data in a collection by entity.
+- [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] databases do not require a schema, however the data within the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] must be structured using a predictable schema. 
 - Although the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] implements query translation of projection, filtering, and sorting operators, it does not support join operations.
 - You can only filter by a single column with [!INCLUDE [cc-docdb-api-short](../includes/cc-docdb-api-short.md)].
 
