@@ -29,7 +29,7 @@ While writing your custom plug-in, you will have to consider the input and outpu
 
 There are two ways in which you can view the input and output parameters for the two geospatial actions:
 
-- **Web API action reference content**: View refrence information about the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].
+- **Web API action reference content**: View reference information about the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].
     - <xref:Microsoft.Dynamics.CRM.msdyn_GeocodeAddress>
     - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
 - **Action definition**: You can view the action definition in the product for information about the input/output prameters, including information whether a parametr is required or optional.
