@@ -177,6 +177,7 @@
 #### [Set field values using parameters passed to a form](set-field-values-using-parameters-passed-form.md)
 #### [Configure a form to accept custom querystring parameters](configure-form-accept-custom-querystring-parameters.md)
 ### [Open forms, views, and dashboards in Dynamics 365 mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)
+### [Client scripting using JavaScript](clientapi/client-scripting.md)
 ### [Web resources for Dynamics 365 Customer Engagement](web-resources.md)
 #### [Create accessible web resources](create-accessible-web-resources.md)
 #### [Create web resources and IFrame content for use with the Dynamics 365 for mobile clients](create-web-resources-iframe-mobile.md)
