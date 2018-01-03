@@ -21,7 +21,7 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 > [!IMPORTANT]
-> After carefully consideration, we've decided to discontinue the [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature. You can no longer access Dynamics information using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. We welcome your [feedback and ideas](https://ideas.dynamics.com/ideas/dynamics-crm).
+> After carefully consideration, we've decided to discontinue the [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature. Dynamics 365 will no longer appear in Cortana’s notebook, and Cortana will no longer prompt users with relevant information about sales activities, accounts, opportunities, and meetings. We welcome your [feedback and ideas](https://ideas.dynamics.com/ideas/dynamics-crm).
   
 <!-- 
 
