@@ -59,7 +59,9 @@ Preview features are features that aren’t complete, but are made available on 
 |**Preview feature**|**Learning resource**|  
 |Data Loader for bulk importing|[Preview feature: Import bulk data](import-bulk-data-data-loader.md)|  
 |Get a quick overview of key Dynamics 365 (online) performance metrics|[Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)|  
+<!-- OK to delete when PM notifies
 |Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]|[Preview feature: Let Cortana help you track your Dynamics 365 deals and activities](../basics/let-cortana-track-deals-activities.md)<br /><br /> [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|  
+-->
   
 > [!NOTE]
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  

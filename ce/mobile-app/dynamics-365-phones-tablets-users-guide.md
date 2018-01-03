@@ -490,6 +490,6 @@ Here's how to do it:
 ## Privacy notices  
 [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
   
-[!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)]
+<!-- [!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)] -->
   
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]

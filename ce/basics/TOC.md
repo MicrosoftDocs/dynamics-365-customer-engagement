@@ -50,7 +50,7 @@
 ## [Add an activity to a record](../basics/add-phone-call-task-email-appointment-activity-case-record.md)
 ## [Activities feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)
 ## [Appointments](../basics/create-edit-appointment.md)
-## [Track deals with Cortana](../basics/let-cortana-track-deals-activities.md)
+<!-- OK to delete when PM notifies ## [Track deals with Cortana](../basics/let-cortana-track-deals-activities.md) -->
 ## [Call using Skype](../basics/place-calls-with-skype-skype-business.md)
 ## [Workplace calendar](../basics/workplace-calendar.md)
 ## [Add a signature for an email or queue](create-signature-dynamics-365-email-queue.md)
