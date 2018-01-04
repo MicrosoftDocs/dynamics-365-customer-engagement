@@ -94,9 +94,9 @@ SQL query filtering supports the following operators.
 
 ## Best practices and limitations
 
-- Notice the following when you use [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] as a Data Source:
-   - Each [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] Data Source can only be associated with a single virtual entity.
-   - You can connect multiple Data Sources to the same Collection in the [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)].
+- Notice the following when you use [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] as a Data Source:
+   - Each [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] Data Source can only be associated with a single virtual entity.
+   - You can connect multiple Data Sources to the same Collection in the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)].
 - You can’t segment the data in a collection by entity.
 - [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] databases do not require a schema, however the data within the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] must be structured using a predictable schema. 
 - Although the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] implements query translation of projection, filtering, and sorting operators, it does not support join operations.
