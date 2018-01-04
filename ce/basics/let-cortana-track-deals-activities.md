@@ -16,12 +16,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Preview feature: Let Cortana help you track your Dynamics 365 deals and activities
+# Preview feature: Let Cortana help you track your Dynamics 365 deals and activities 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
 > After carefully consideration, we've decided to discontinue the [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature. [!INCLUDE [pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] will no longer appear in Cortana’s notebook, and [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] will no longer prompt users with relevant information about sales activities, accounts, opportunities, and meetings. We welcome your [feedback and ideas](https://ideas.dynamics.com/ideas/dynamics-crm).
+
 <!-- 
 We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration to help you keep track of important [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities. [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)] embeds sales activities, accounts, and opportunities into [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] to surface what’s most relevant to salespeople at any time.  
   
