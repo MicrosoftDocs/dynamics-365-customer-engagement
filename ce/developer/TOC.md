@@ -259,7 +259,6 @@
 #### [Use managed properties](use-managed-properties.md)
 #### [Maintain managed solutions](maintain-managed-solutions.md)
 #### [Create patches to simplify solution updates](create-patches-simplify-solution-updates.md)
-#### [Register your app with AppSource](register-app-appsource.md)
 ### [Dependency tracking for solution components](dependency-tracking-solution-components.md)
 ### [Create, export, or import an unmanaged solution](create-export-import-unmanaged-solution.md)
 ### [Create, install, and update a managed solution](create-install-update-managed-solution.md)
@@ -271,7 +270,17 @@
 ### [Create packages for the Dynamics 365 Package Deployer](package-deployer/)
 ### [Sample: Work with solutions](sample-work-solutions.md)
 ### [Sample: Detect solution dependencies](sample-detect-solution-dependencies.md)
+
+### [Publish your app on AppSource](publish-app-appsource.md)
+#### [Step 1: Fill the app submission form on AppSource](fill-app-submission-form-appsource.md)
+#### [Step 2: Register for Microsoft Partner Network account](register-microsoft-partner-network.md)
+#### [Step 3: Create a managed solution for your app](create-solution-app-appsource.md)
+#### [Step 4: Create an AppSource package for your app](create-package-app-appsource.md)
+#### [Step 5: Store your AppSource package on Azure Storage](store-appsource-package-azure-storage.md)
+#### [Next steps: Submit your app on Cloud Partner Portal](next-steps-submit-app-cloud-partner-portal.md)
+
 ## [Create and manage custom business apps using code](create-manage-custom-business-apps-using-code.md)
+
 ## [Extend Outlook Client](outlook-client/)
 ## [Integrate with SharePoint](integration-dev/integrate-sharepoint.md)
 ### [Get started with SharePoint integration](integration-dev/get-started-sharepoint-integration.md)
