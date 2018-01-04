@@ -79,7 +79,7 @@ SQL query filtering supports the following operators.
 
 ## Add a data source using the Azure Cosmos DB for DocumentDB API Data Provider
 
-1. Go to AppSource and add the application to your [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later instance.
+1. Go to [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.documentdb_data_provider?tab=Overview), click **GET IT NOW**, and follow the instructions to add the application to your [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later instance.
 2. After the solution is installed, sign in to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance and go to **Settings** > **Administration** > **Virtual Entity Data Sources**.
 3. On the Actions toolbar click **NEW**, and in the **Select Data Provider** dialog box select **Azure Cosmos DB for DocumentDB API Data Provider**, and then click **OK**.
 ![Select the Azure Cosmos DB for DocumentDB API Data Provider.](media/createdatasource.png)
@@ -94,7 +94,9 @@ SQL query filtering supports the following operators.
 
 ## Best practices and limitations
 
-- Although you can have only one entity for each Data Source, you can have multiple Data Sources with different entities connecting to the same Collection in the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)].
+- Notice the following when you use [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] as a Data Source:
+   - Each [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] Data Source can only be associated with a single virtual entity.
+   - You can connect multiple Data Sources to the same Collection in the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)].
 - You can’t segment the data in a collection by entity.
 - [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] databases do not require a schema, however the data within the [!INCLUDE [cc-azure-cosmos-db](../includes/cc-azure-cosmos-db.md)] must be structured using a predictable schema. 
 - Although the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] implements query translation of projection, filtering, and sorting operators, it does not support join operations.
