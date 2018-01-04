@@ -21,7 +21,7 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 > [!IMPORTANT]
-> [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration has been deprecated. For more information, see the blog [Deprecating Cortana Integration](https://community.dynamics.com/enterprise/b/365teamblog).
+> After carefully consideration, we've decided to discontinue the [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature. [!INCLUDE [pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] will no longer appear in Cortana’s notebook, and [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] will no longer prompt users with relevant information about sales activities, accounts, opportunities, and meetings. We welcome your [feedback and ideas](https://ideas.dynamics.com/ideas/dynamics-crm).
   
 <!-- 
 

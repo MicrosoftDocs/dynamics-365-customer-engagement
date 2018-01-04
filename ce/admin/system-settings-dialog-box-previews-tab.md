@@ -18,9 +18,6 @@ manager: "brycho"
 ---
 # System Settings dialog box - Previews tab
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
-
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Use the settings on this page to enable preview features in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
@@ -50,7 +47,7 @@ Use the settings on this page to enable preview features in [!INCLUDE[pn_microso
 |**Organization Insights Preview**||
 |Enable Organization Insights Preview|More information: [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md)|
 |**Cortana for Dynamics 365**||
-|Enable Cortana for Dynamics 365.|More information: [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|
+|Enable Cortana for Dynamics 365.|This feature is now discontinued.|
 |**Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**||
 |Enable the Dynamics 365 Text Analytics Preview|More information: [Public Preview: Topic analysis](https://technet.microsoft.com/library/mt752501.aspx)|
 |**Relationship Insights**||
