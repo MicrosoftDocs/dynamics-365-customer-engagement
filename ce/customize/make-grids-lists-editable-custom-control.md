@@ -113,7 +113,7 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
 ## Make a subgrid on a form editable
 
 > [!NOTE] 
-> If you are using legacy forms and enable an editable grid on a subgrid, the editable subgrid will not be rendered. System administrators can turn off legacy forms in system settings, if needed.
+> If you are using legacy forms (versions prior to [!INCLUDE][pn-crm-2016](../includes/pn-crm-2016.md)) and enable an editable grid on a subgrid, the editable subgrid will not be rendered. System administrators can turn off legacy forms in system settings, if needed.
   
 1.  Go to **Settings>Customization>Customize the System**.  
   
