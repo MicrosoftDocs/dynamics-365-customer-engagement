@@ -98,7 +98,7 @@ You are now done with registering steps to call your custom plug-in for the both
 
 If you view any of the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] geospatial actions in the Plug-in Registration tool, you will see both the default and your custom plug-in registered for the action. For example, see the plug-ins for the **mdyn_GeocodeAddress** action.
 
-![](../media/FS-resitered-plugins-for-message.png)
+![](../media/FS-registered-plugins-for-message.png)
 
 ### See also  
 
