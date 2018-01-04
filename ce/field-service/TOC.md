@@ -7,8 +7,6 @@
 ## [View user accounts and security roles](view-user-accounts-security-roles.md)
 ## [Configure default settings](configure-default-settings.md)
 ## [Turn on auto geocoding](turn-on-auto-geocoding.md)
-
-## [Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
 ## [Mobile app installation](install-the-mobile-app.md)
 ## Resource setup
 ### [Bookable resources](set-up-bookable-resources.md)
@@ -47,8 +45,7 @@
 ### [Create a work order](create-work-order.md)
 ### [Schedule a work order](schedule-work-order.md)
 ### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
-### [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-### [Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
+
 ## Inventory management
 ### [Set up customer assets](configure-set-up-customer-assets.md)
 ### [Create a purchase order](create-purchase-order.md)
@@ -62,11 +59,6 @@
 # [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
 
 # [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-## [Use Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
-## [Extend Universal Resource Scheduling actions to use preferred geospatial data provider](../common-scheduler/developer/use-preferred-geospatial-data-provider.md)
-### [Create custom plug-in to use your preferred geospatial data provider](../common-scheduler/developer/create-custom-plugin-preferred-geospatial-data-provider.md)
-### [Register and deploy custom plug-in to use your preferred geospatial data provider](../common-scheduler/developer/register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
-### [Sample: Custom plug-in to use Google Maps API as geospatial data provider](../common-scheduler/developer/sample-custom-plugin-google-geospatial-data-provider.md)
 
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [Extend Connected Field Service to develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
