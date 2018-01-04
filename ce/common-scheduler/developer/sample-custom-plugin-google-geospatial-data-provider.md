@@ -1,6 +1,6 @@
 ---
-title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider (Developer Guide for Dynamics 365 Field Service) | MicrosoftDocs"
-description: "Provides information on how to create a  geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service."
+title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
+description: "Provides information on how to create a  geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service and Dynamics 365 for Project Service."
 ms.custom: ""
 ms.date: 01/05/2018
 ms.reviewer: ""
@@ -17,11 +17,11 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Sample: Custom plug-in to use Google Maps API as geospatial data provider in Field Service
+# Sample: Custom plug-in to use Google Maps API as geospatial data provider
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-You can extend Field Service using a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API.
+You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
 Download the sample: [TODO: Add the download location from https://code.msdn.microsoft.com]
 
@@ -31,7 +31,7 @@ Internet connection is required to download the sample project and to restore th
 
 ## Requirements
 
-- [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] solution must be installed on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance. More information: [Install and setup Dynamics 365 for Field Service](../install-field-service.md) 
+- [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] or solution must be installed on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance. More information: [Install and setup Dynamics 365 for Field Service](../install-field-service.md) 
 - Provide your own Google API key in the **GoogleDataContracts.cs** file in the sample:
 
     `public const string GoogleApiKey = "<PROVIDE YOUR GOOGLE API KEY";` 
