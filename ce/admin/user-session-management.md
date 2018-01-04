@@ -1,5 +1,5 @@
 ---
-title: "Security enhancements: User session and access management for Dynamics 365 for Government | MicrosoftDocs"
+title: "Security enhancements: User session and access management for Dynamics 365 Government | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/27/2017
 ms.reviewer: ""
