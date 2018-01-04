@@ -29,11 +29,11 @@ This topic provides information about the two geospatial actions in Universal Re
 
 ## Input and output parameters for geospatial actions
 
-While writing your custom plug-in, you will have to consider the input and output parameters for the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] so that you know what data to pass in and the expected output data in your plug-in code. 
+While writing your custom plug-in, you will have to consider the input and output parameters for the geospatial actions in so that you know what data to pass in and the expected output data in your plug-in code. 
 
 There are two ways in which you can view the input and output parameters for the two geospatial actions:
 
-- **Web API action reference content**: View reference information about the geospatial actions in [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].
+- **Web API action reference content**: View reference information about the geospatial actions in Universal Resource Scheduling.
     - <xref:Microsoft.Dynamics.CRM.msdyn_GeocodeAddress>
     - <xref:Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix>
 - **Action definition**: You can view the action definition in Dynamics 365 for information about the input/output prameters, including information whether a parametr is required or optional.
@@ -192,7 +192,7 @@ public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterColl
 }
 ```
 
-After you have written your custom plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)] geospatial actions.
+After you have written your custom plug-in code, build the project to generate a plug-in assembly (.dll), which will be used to register the plug-in on the Universal Resource Scheduling geospatial actions.
 
 > [!div class="nextstepaction"]
 > [Register and deploy custom plug-in to use your preferred geospatial data provider](register-deploy-custom-plugin-preferred-geospatial-data-provider.md)
