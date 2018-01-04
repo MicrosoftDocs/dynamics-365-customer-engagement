@@ -39,6 +39,14 @@
 ### [Payment terms](set-up-payment-terms.md)
 ### [Tax codes](set-up-tax-codes.md)
 
+# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+
+# [Connected Field Service (IoT)](connected-field-service.md)
+## [Extend Connected Field Service to develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
+### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+### [Extend Connected Field Service solutions](developer/extend-connected-field-service-solutions.md)
+#### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+
 # [User Guide](user-guide.md)
 ## Scheduling
 ### [Configure the schedule board](configure-schedule-board.md)
@@ -54,17 +62,12 @@
 ### [Process a return](process-return.md)
 ### [Return product to vendor](create-return-vendor.md)
 ### [View product inventory](view-product-inventory.md)
+
 ## [Mobile App User Guide](field-service-mobile-app-user-guide.md)
 
-# [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
+## [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
 
-# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
-# [Connected Field Service (IoT)](connected-field-service.md)
-## [Extend Connected Field Service to develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
-### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
-### [Extend Connected Field Service solutions](developer/extend-connected-field-service-solutions.md)
-#### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
 
 
