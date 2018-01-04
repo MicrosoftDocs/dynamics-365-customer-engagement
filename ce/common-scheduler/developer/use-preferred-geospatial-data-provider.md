@@ -3,11 +3,15 @@ title: "Extend Universal Resource Scheduling actions to use your preferred geosp
 description: "Provides information on how to use geospatial data providers of your choice instead of the default Bing Maps in Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation."
 ms.custom: ""
 ms.date: 01/05/2018
+searchScope:
+  - Field Service
+  - Project Service
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.technology: 
   - "field-service"
+  - "project-service"
 ms.tgt_pltfrm: ""
 ms.topic: "conceptual"
 applies_to: 
@@ -17,7 +21,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Extend Universal Resource Scheduling actions to use your preferred geospatial data provider
+# Extend Universal Resource Scheduling actions to use your preferred geospatial data provider (Field Service, Project Service Automation)
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 

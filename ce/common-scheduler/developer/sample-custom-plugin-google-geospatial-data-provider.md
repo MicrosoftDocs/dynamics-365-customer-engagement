@@ -3,11 +3,15 @@ title: "Sample: Custom plug-in to use Google Maps API as geospatial data provide
 description: "Provides information on how to create a  geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service and Dynamics 365 for Project Service."
 ms.custom: ""
 ms.date: 01/05/2018
+searchScope:
+  - Field Service
+  - Project Service
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.technology: 
   - "field-service"
+  - "project-service"
 ms.tgt_pltfrm: ""
 ms.topic: "sample"
 applies_to: 
