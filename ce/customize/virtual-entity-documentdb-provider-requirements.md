@@ -79,7 +79,7 @@ SQL query filtering supports the following operators.
 
 ## Add a data source using the Azure Cosmos DB for DocumentDB API Data Provider
 
-1. Go to AppSource and add the application to your [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later instance.
+1. Go to [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.documentdb_data_provider?tab=Overview), click **GET IT NOW**, and follow the instructions to add the application to your [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later instance.
 2. After the solution is installed, sign in to the [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] instance and go to **Settings** > **Administration** > **Virtual Entity Data Sources**.
 3. On the Actions toolbar click **NEW**, and in the **Select Data Provider** dialog box select **Azure Cosmos DB for DocumentDB API Data Provider**, and then click **OK**.
 ![Select the Azure Cosmos DB for DocumentDB API Data Provider.](media/createdatasource.png)
