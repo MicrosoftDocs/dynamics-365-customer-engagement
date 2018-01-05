@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 12/06/2017
+ms.date: 01/05/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -49,7 +49,7 @@ In addition to that, the activity map has received a couple of visual updates, s
 
 ### New field in the JSON payload for Azure Event Hubs: post.profile.uri
 
-Social Engagement includes a feature that allows users to send posts to [Azure Event Hubs](https://azure.microsoft.com/en-us/services/event-hubs/) by using Automation Rules. As part of evolving functionality, Social Engagement is updating the [JSON payload](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/event-hubs-json-reference-social-engagement) by replacing the post.profile.id field with a new post.profile.uri field. 
+Social Engagement includes a feature that allows users to send posts to [Azure Event Hubs](https://azure.microsoft.com/services/event-hubs/) by using Automation Rules. As part of evolving functionality, Social Engagement is updating the [JSON payload](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/event-hubs-json-reference-social-engagement) by replacing the post.profile.id field with a new post.profile.uri field. 
 Moving forward, post.profile.uri will also include a source-based identifier as part of the field value (for example: mse-tw://#12345678).
 
 Please make sure you follow the timeline outlined [in this blog post](https://blogs.msdn.microsoft.com/crm/2017/11/27/deprecation-of-post-profile-id-object-in-social-engagement-json-payload/) to avoid breaking your apps and intermittent data loss. 
