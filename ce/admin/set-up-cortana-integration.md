@@ -51,5 +51,5 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
  [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)
 -->
 
-## Privacy notices  
+## Privacy notice  
 [!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)]
