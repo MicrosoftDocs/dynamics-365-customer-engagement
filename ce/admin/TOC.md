@@ -208,7 +208,7 @@
 ### [Preview Feature: Live Assist powered by Café X](../live-assist/live-assist-microsoft-dynamics-365-powered-by-cafe-x.md)
 ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)
 ### [Use Power BI with Dynamics 365](use-power-bi.md)
-<!-- OK to delete when PM notifies ### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md) -->
+### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)
 ### [Install or remove a preferred solution](install-remove-preferred-solution.md)
 
 ### [Add Office 365 Online services](add-office-365-online-services.md)
