@@ -20,7 +20,7 @@ caps.latest.revision:
 topic-status: Drafting
 ---
 
-# Preview feature: Azure Cosmos DB for DocumentDB API Data Provider requirements 
+# Preview feature: Azure Cosmos DB for DocumentDB API Data Provider requirements
 
 This topic describes the requirements for the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] as well as how to configure and recommended best practices when you use the [!INCLUDE [cc-docdb-api-data-provider](../includes/cc-docdb-api-data-provider.md)] with [!INCLUDE [pn-crm-shortest](../includes/pn-crm-shortest.md)] virtual entities. 
 
