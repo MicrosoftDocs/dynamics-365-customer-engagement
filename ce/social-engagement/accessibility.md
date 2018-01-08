@@ -54,7 +54,7 @@ When navigating the Post details view, which shows the post and a parent post, y
 - Whenever one of those posts is expanded, the other is collapsed. 
 - The Post details view can contain several threads. These can be navigated exactly like the post list.
 
-### Accessibility in applications that can work with Social Engagement data
+## Accessibility in applications that can work with Social Engagement data
 
 [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] provides integrations and data export for other applications. 
 
@@ -93,7 +93,7 @@ The high contrast setting in Windows heightens the color contrast of some text a
 [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] supports zooming on the user interface to 200% of the original screen size and works with the High Contrast settings in either your browser or operating system.
 
 > [!NOTE]
-> When zooming the user interface to 200%, some fields or controls are hidden to keep it readable. WE aim only to hide information and controls that aren't required to complete a task. You can chance the zoom level to access these controls. 
+> When zooming the user interface to 200%, some fields or controls are hidden to keep it readable. We aim only to hide information and controls that aren't required to complete a task. You can chance the zoom level to access these controls. 
 
 For accessibility information for specific browsers, visit the following websites:  
   
