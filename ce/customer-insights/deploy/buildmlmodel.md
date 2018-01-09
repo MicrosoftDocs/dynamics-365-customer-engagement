@@ -20,15 +20,15 @@ Predictive Scoring
 
 1.  Open your Customer Insights  Customer 360 application.
 
-2.  Select **Show Menu** ![](../media/ShowMenu75.png "Show Menu"). 
+2.  Select **Show Menu** ![Show Menu](../media/ShowMenu75.png "Show Menu"). 
 
 3.  Select **All Options** > **Predictive Analytics**.
 
-    ![](../media/PredictScoreNewMenu75.png "Select Predictive Analytics")
+    ![Select Predictive Analytics](../media/PredictScoreNewMenu75.png "Select Predictive Analytics")
 
 4.  Select **Add** and fill in the values.
 
-    ![](../media/PredictScoreNew75.png "New Prediction")
+    ![New Prediction](../media/PredictScoreNew75.png "New Prediction")
 
     **Prediction Details**
     |**Item**|**Description**|
