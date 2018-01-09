@@ -42,7 +42,7 @@ manager: "sakudes"
   
 To open a list of records in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], click **Export to Excel** > **Open in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)]**.  
   
- ![Export [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data to Excel Online](../basics/media/export-to-excel-online.png "Export Dynamics 365 data to Excel Online")  
+ ![Export Dynamics 365 data to Excel Online](../basics/media/export-to-excel-online.png "Export Dynamics 365 data to Excel Online")  
   
 > [!NOTE]
 >  By default, you can’t open your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)] in the **Advanced Find** view. However, you can save your advanced find as a personal view and then go to your personal view to do an ad-hoc analysis in [!INCLUDE[pn_excel_online](../includes/pn-excel-online.md)].  

@@ -26,7 +26,7 @@ For information about Social Engagement, see [Social Engagement Help & Training]
 
 2.  On the **All Data Sources** blade, select **Add**.
 
-    ![](../media/AddAzureBlobDataSource.png "Add a data source") 
+    ![Add a data source](../media/AddAzureBlobDataSource.png "Add a data source") 
 
 3.  On the **New Data Source** blade, select **Data Source Type**.
 
