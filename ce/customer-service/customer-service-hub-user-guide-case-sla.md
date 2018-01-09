@@ -151,7 +151,7 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
 |View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png) |
 |Create a new interaction|In the **Timeline** section, click **+**, and then select an interaction type: Activity, Appointement, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To create an email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). **Note**: Create and edit emails feature is in preview mode if you are using the app on a desktop browser.|
 |Filter activities|1.  In the **Timeline** section, click  **(...)**  and click **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
-|Take actions on an activity|For an activity, click the **Quick Actions** button ![Click the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Click the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
+|Take actions on an activity|For an activity, click the **Quick Actions** button ![Click the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Select the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
   
 <a name="bkmk_ManageRelatedRecords"></a>
    
@@ -184,7 +184,7 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
   
 -   Click the article title to see its full content. The article opens inline and you can scroll to read the complete article. Click the back arrow ![back-arrow](media/back-arrow.PNG) to come back to the list view. 
   
--   To associate the knowledge article to the current case, click the  **Link the KB Article** button ![Click to link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Click to link the knowledge article to the case").  
+-   To associate the knowledge article to the current case, click the  **Link the KB Article** button ![Select link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Select to link the knowledge article to the case").  
   
      You can also dissociate the article from the case by choosing the **Unlink the knowledge article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365").  
   

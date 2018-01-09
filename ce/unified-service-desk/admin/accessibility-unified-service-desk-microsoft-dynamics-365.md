@@ -25,7 +25,7 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Keyboard  access in the Unified Service Desk client  
  [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] offers keyboard navigation to help address issues faced by people with disabilities. Also, people who don’t use a mouse can use their keyboard to navigate in some areas of the [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] client.  
   
-|To|Press|  
+|To|Select|  
 |--------|-----------|  
 |Move from left to right and top to bottom towards the next control, option, option group, or field.|Tab|  
 |Move from right to left and bottom to top towards the next control, option, option group, or field.|Shift + Tab|  
