@@ -1,21 +1,25 @@
 ---
 title: "Web application requirements for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 6404db68-f66b-4128-ac2f-84258503bc82
+author: Mattp123
+ms.author: matp
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 123
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Web application requirements
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -86,7 +90,7 @@ Notice that the suggested network requirements include the metadata download nee
 To find the latest release for these web browsers, visit the software manufacturer’s website.  
   
 > [!IMPORTANT]
->  -   Using plug-ins or other third-party extensions in your browser can increase load times on pages with lists of data.  
+> - Using plug-ins or other third-party extensions in your browser can increase load times on pages with lists of data.  
 > - [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)] ESR (Extended Support Release) versions aren’t supported.  
   
 <a name="SupportedMSOffice"></a>   
