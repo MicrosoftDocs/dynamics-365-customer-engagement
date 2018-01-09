@@ -2,7 +2,7 @@
 title: "Web application requirements for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 09/30/2017
+ms.date: 01/09/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
