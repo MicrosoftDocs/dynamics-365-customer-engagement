@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: b16a9d08-e24a-4b60-9dcc-6803cea4882e
 caps.latest.revision: 5
-author: "shujoshi"
+author: "shubhadaj"
 ms.author: "shujoshi"
 manager: "sakudes"
 ---
