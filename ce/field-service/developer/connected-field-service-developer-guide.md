@@ -43,4 +43,5 @@ ms.author: "v-milaro"
   
 ### See also  
  [Connected Field Service architecture](connected-field-service-architecture.md)   
- [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)   
+ [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)<br>
+ [Developer Guide for Dynamics 365 Customer Engagement](../../developer/developer-guide.md)   
