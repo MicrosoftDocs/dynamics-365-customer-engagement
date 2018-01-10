@@ -2,7 +2,7 @@
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about the accessibility features in general and specifically in Social Engagement."
 keywords: "ease of access, acessibility, a11y, screen reader, color patterns"
-ms.date: 01/08/2018
+ms.date: 01/10/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -15,6 +15,7 @@ topic-status: Drafting
 ---
 
 # Accessibility for Microsoft Social Engagement
+
 [Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive. 
 
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, irrespective of abilities. 
@@ -30,6 +31,8 @@ To enable the table view for your user profile for all widgets by default, go to
 ### Change how colors on charts are displayed
 
 [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] also provides a filling pattern for charts with colored areas. You can choose to render the charts with a filling patterns or solid colors. To switch between filling pattern and solid color, go to **Settings > User Preferences** and update the **Chart filling mode**.
+
+When selecting the filling pattern, data on maps will be represented in different shapes and not rely on color exclusively.
 
 > [!NOTE]
 > The Analytics area in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] renders the data in charts by default. Data points in charts aren’t accessible with keyboard navigation. You can either turn on the table view on single charts when working in the Analytics area, or you can enable the table view globally for your user profile in **Settings > User Preferences** under **Chart data representation mode**. 
@@ -53,6 +56,27 @@ When navigating the Post details view, which shows the post and a parent post, y
 - When expanded the post’s content and all possible actions can be reached by moving focus with the Tab key.
 - Whenever one of those posts is expanded, the other is collapsed. 
 - The Post details view can contain several threads. These can be navigated exactly like the post list.
+
+### Navigate maps with keyboard
+
+#### Analytics
+
+You can navigate the maps in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] with a keyboard by selecting tab to reach the first data point on map. The order of navigation is based on the sorting of the data points by their latitude, so they are sorted from North-South. The first tab stop starts on the northmost data point.  
+
+- To move to the next data point (to the south), select the right or down arrow. 
+- To move to the previous data point (to the north), select the left or up arrow. 
+
+#### Activity maps
+
+Activity maps let you read the data in two ways. Either by analyzing the data on the visual map or from the table view which can be turned on using the **Switch to table view** control.
+To navigate the data on the visual activity map, select tab until you end up on a data point on the map. Then you can use the arrow keys to browse through all data points on the map. The arrow keys indicate in which direction the next data point bill be:
+- Left arrow: the closest data point in the east
+- Up arrow: the closest data point in the north
+- Right arrow: the closest data point in the west
+- Down arrow: the closest data point in the south
+To navigate the data in the cells of the table view, select the arrow keys. 
+To use the area filter with a keyboard, select Tab until you reach the **Area filter** and provide coordinates for two corner points of the rectangular area filter. Provide latitude and longitude for Point A and the same for Point B. Tab to the **Save** control and select Enter to activate the area filter. Only data that matches your area filter is now shown in your map/table. 
+
 
 ## Accessibility in applications that can work with Social Engagement data
 
