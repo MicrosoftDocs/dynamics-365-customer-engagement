@@ -535,6 +535,6 @@
 ## [Schemas used in Dynamics 365](schemas-used-dynamics-365.md)
 ## [Customization XML reference](customization-xml-reference.md)
 
-# [Developer Guide for Dynamics 365 for Field Service](../field-service/developer/field-service-developer-guide.md)
+# [Developer Guide for Connected Field Service](../field-service/developer/connected-field-service-developer-guide.md)
 
 # [Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)
