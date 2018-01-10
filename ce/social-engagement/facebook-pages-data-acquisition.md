@@ -27,7 +27,10 @@ Currently all you need is an [active acquisition token](manage-access-tokens.md#
 ## How will it work starting February 6th?
 
 You will still need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user token to acquire any data from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)]. In addition, you’ll also need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page access token to pull the author information for posts on that page. All posts on pages that you haven’t added to [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will appear without author information starting February 6th 2018.
-Note: We recommend you add those tokens for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages **before February 6th 2018**. That way, every post on those pages is acquired with author information when the switch happens. You’ll also need to reauthenticate the tokens regularly. 
+
+
+> [!TIP]
+> We recommend you add those tokens for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages **before February 6th 2018**. That way, every post on those pages is acquired with author information when the switch happens. You’ll also need to reauthenticate the tokens regularly. 
 
 ## How do I still get author information?
 
@@ -58,7 +61,8 @@ Let’s assume the organization _Contoso_ currently uses [!INCLUDE[pn-social-eng
 - Contoso
 - Fabrikam
 - Proseware
-To make acquisition work two members of their social team added [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] acquisition tokens with their personal [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] users.
+
+To enable data acquisition, two members of their social team added [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] acquisition tokens with their personal [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] users.
 For the page _Contoso_ the team added a social profile for the page itself, so they can publish on their page and receive private messages. 
 They currently get all posts and comments for all three pages with full author information.
 
