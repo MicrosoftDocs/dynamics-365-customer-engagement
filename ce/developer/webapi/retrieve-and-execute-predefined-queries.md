@@ -2,7 +2,7 @@
 title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -64,9 +64,9 @@ GET [Organization URI]/api/data/v9.0/accounts(8f390c24-9c72-e511-80d4-00155d2a68
 
 ## Use custom FetchXML
 
-FetchXML is a proprietary query language that provides capabilities to perform aggregation. The saved queries and user queries stored in <xref href="Microsoft.Dynamics.CRM.savedquery?text=savedquery EntityType" /> and <xref href="Microsoft.Dynamics.CRM.userquery?text=userquery EntityType" /> respectively both include a fetchxml property that defines the query. You can use FetchXML directly with the<xref:Microsoft.Xrm.Sdk.IOrganizationService>. <xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method or with the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Build Queries with FetchXML](../org-service/build-queries-fetchxml.md)
+FetchXML is a proprietary query language that provides capabilities to perform aggregation. The saved queries and user queries stored in <xref href="Microsoft.Dynamics.CRM.savedquery?text=savedquery EntityType" /> and <xref href="Microsoft.Dynamics.CRM.userquery?text=userquery EntityType" /> respectively both include a fetchxml property that defines the query. You can use FetchXML directly with the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*> method or with the <xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest>. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Build Queries with FetchXML](../org-service/build-queries-fetchxml.md)
 
-You can pass URL encoded FetchXML as a query to the entity set corresponding to the root entity of the query using the FetchXML parameter to return the results from the Web API. For example, you can have the following FetchXML that has account as the entity.  
+You can pass URL encoded FetchXML as a query to the entity set corresponding to the root entity of the query using the `fetchXml` query string parameter to return the results from the Web API. For example, you can have the following FetchXML that has account as the entity.  
 
 ```xml  
 <fetch mapping='logical'>
@@ -83,7 +83,7 @@ The URL encoded value of this FetchXML is as shown here.
 %3Cfetch%20mapping='logical'%3E%3Centity%20name='account'%3E%3Cattribute%20name='accountid'/%3E%3Cattribute%20name='name'/%3E%3C/entity%3E%3C/fetch%3E
 ```
 
-Most programming languages include a function to URL encode a string. For example, in [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] you use the                  [encodeURI](http://www.ecma-international.org/ecma-262/5.1/) function. You should URL encode any request that you send to any RESTful web service. If you paste a URL into the address bar of your browser it should URL encode the address automatically. The following example shows a GET request using the FetchXML shown previously using the entity set path for accounts.
+Most programming languages include a function to URL encode a string. For example, in [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] you use the [encodeURI](http://www.ecma-international.org/ecma-262/5.1/) function. You should URL encode any request that you send to any RESTful web service. If you paste a URL into the address bar of your browser it should URL encode the address automatically. The following example shows a GET request using the FetchXML shown previously using the entity set path for accounts.
 
 **Request**
 
@@ -149,7 +149,7 @@ With fetchXML you can apply paging by setting the `page` and `count` attributes 
 
 With a request using fetchXML you can also request a paging cookie and include it with your query. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Page large result sets with FetchXML](../org-service/page-large-result-sets-with-fetchxml.md)  
 
-A paging cookie must be requested as an annotation. Set the `odata.include-annotations` preference to use (or include)                          `Microsoft.Dynamics.CRM.fetchxmlpagingcookie` and a `@Microsoft.Dynamics.CRM.fetchxmlpagingcookie` property will be returned with the result.
+A paging cookie must be requested as an annotation. Set the `odata.include-annotations` preference to use (or include) `Microsoft.Dynamics.CRM.fetchxmlpagingcookie` and a `@Microsoft.Dynamics.CRM.fetchxmlpagingcookie` property will be returned with the result.
 
 ### See also
 
