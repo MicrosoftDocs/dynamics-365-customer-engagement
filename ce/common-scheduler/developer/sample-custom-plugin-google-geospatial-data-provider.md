@@ -35,7 +35,7 @@ Internet connection is required to download the sample project and to restore th
 
 ## Requirements
 
-- [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] solution must be installed on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance. More information: [Install Field Service](../install-field-service.md) 
+- [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] solution must be installed on your [!INCLUDE[pn_dynamics_365](../../includes/pn-dynamics-365.md)] (online) instance. More information: [Install and setup [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)]](../../field-service/install-field-service.md) 
 - Provide your own Google API key in the **GoogleDataContracts.cs** file in the sample:
 
     `public const string GoogleApiKey = "<PROVIDE YOUR GOOGLE API KEY";` 
