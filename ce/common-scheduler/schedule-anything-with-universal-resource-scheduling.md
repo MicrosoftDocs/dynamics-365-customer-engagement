@@ -25,13 +25,15 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.  
+Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can enable scheduling for any entity including custom entities.   
   
  For example, you can enable scheduling for the opportunity form and schedule marketing visits for your opportunities. You can also do this for the case form and schedule time to work on cases.  
   
- For organizations that use [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience.  
+ For organizations that use:
+
+- [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)], you’ll see a new integrated scheduling experience. More information: [Dynamics 365 for Field Service Help](../field-service/overview.md) 
   
- For organizations that use [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience.  
+- [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Project Service Automation Help](../project-service/overview.md) 
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_2016_update_d365_online](../includes/cc-feature-included-with-update-2016.md)]  <!-- This may be the incorrect token. It was added to fix a build issue. -->  
