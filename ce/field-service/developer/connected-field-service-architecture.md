@@ -25,7 +25,7 @@ ms.author: "v-milaro"
 ## High-level component architecture  
  The following diagram illustrates the high-level components and services found in the standard installation of Connected Field Service for Dynamics 365 and its supporting Azure resources. In this initial release, the IoT functionality in [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] is tied directly into [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)].  
   
- ![Connected Field Service Component Architecture Diagram](media/iot-component-architecture-diagram-1.jpg "Connected Field Service Component Architecture Diagram")  
+ ![Connected Field Service Component Architecture Diagram](../media/iot-component-architecture-diagram-1.jpg "Connected Field Service Component Architecture Diagram")  
   
  The following table describes the components in this diagram.  
   

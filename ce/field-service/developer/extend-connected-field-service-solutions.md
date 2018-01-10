@@ -31,7 +31,7 @@ manager: "amyla"
   
  After the standard installation, Connected Field Services will configure your resource group with a set of Azure services similar to the following.  
   
- ![Connected Field Service Standard Azure Services](media/iot-standard-azure-service.jpg "Connected Field Service Standard Azure Services")  
+ ![Connected Field Service Standard Azure Services](../media/iot-standard-azure-service.jpg "Connected Field Service Standard Azure Services")  
   
  Although extending these Azure services (or adding additional ones) is beyond the scope of this topic, there are ample resources available to the developer, including the following from Microsoft:  
   
