@@ -1,7 +1,7 @@
 ---
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about the accessibility features in general and specifically in Social Engagement."
-keywords: "ease of access, acessibility, a11y, screen reader, color patterns"
+keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
 ms.date: 01/10/2018
 ms.service: mse
 ms.topic: article
@@ -55,27 +55,28 @@ When navigating the Post details view, which shows the post and a parent post, y
 - When collapsed, the post preview won’t receive focus.
 - When expanded the post’s content and all possible actions can be reached by moving focus with the Tab key.
 - Whenever one of those posts is expanded, the other is collapsed. 
-- The Post details view can contain several threads. These can be navigated exactly like the post list.
+- The post details view can contain several threads. These can be navigated exactly like the post list.
 
 ### Navigate maps with keyboard
 
 #### Analytics
 
-You can navigate the maps in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] with a keyboard by selecting tab to reach the first data point on map. The order of navigation is based on the sorting of the data points by their latitude, so they are sorted from North-South. The first tab stop starts on the northmost data point.  
+You can navigate the maps in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] with a keyboard by selecting tab to reach the first data point on map. The order of navigation is based on the sorting of the data points by latitude, from north to south. The first tab stop starts on the northernmost data point.  
 
-- To move to the next data point (to the south), select the right or down arrow. 
-- To move to the previous data point (to the north), select the left or up arrow. 
+- To move to the next data point, select the right or down arrow. 
+- To move to the previous data point, select the left or up arrow. 
 
 #### Activity maps
 
 Activity maps let you read the data in two ways. Either by analyzing the data on the visual map or from the table view which can be turned on using the **Switch to table view** control.
-To navigate the data on the visual activity map, select tab until you end up on a data point on the map. Then you can use the arrow keys to browse through all data points on the map. The arrow keys indicate in which direction the next data point bill be:
+To navigate the data on the visual activity map, select tab until you end up on a data point on the map. Then you can use the arrow keys to browse through all data points on the map. The arrow keys indicate in which direction the next data point will be:
 - Left arrow: the closest data point in the east
 - Up arrow: the closest data point in the north
 - Right arrow: the closest data point in the west
 - Down arrow: the closest data point in the south
-To navigate the data in the cells of the table view, select the arrow keys. 
-To use the area filter with a keyboard, select Tab until you reach the **Area filter** and provide coordinates for two corner points of the rectangular area filter. Provide latitude and longitude for Point A and the same for Point B. Tab to the **Save** control and select Enter to activate the area filter. Only data that matches your area filter is now shown in your map/table. 
+
+To navigate the data in the cells of the table view, select the arrow keys.    
+To use the area filter with a keyboard, select Tab until you reach the **Area filter** and provide coordinates for two corner points of the rectangular area filter. Provide the latitude and longitude for Point A and the same for Point B. Tab to the **Save** control and select Enter to activate the area filter. Only data that matches your area filter is now shown in your map/table. 
 
 
 ## Accessibility in applications that can work with Social Engagement data
