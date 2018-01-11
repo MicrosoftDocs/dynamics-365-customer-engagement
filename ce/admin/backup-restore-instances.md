@@ -35,7 +35,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 -   System backups are retained up to three days. Check your expiration date.  
 
-  ![](media/Expires66.png "Expires On column that shows the expiration dates for backups.")
+  ![Expires On column that shows the expiration dates for backups](media/Expires66.png "Expires On column that shows the expiration dates for backups")
 
 -   System backups do not count against your storage limits.  
   

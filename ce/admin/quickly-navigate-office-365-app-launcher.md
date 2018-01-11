@@ -49,7 +49,7 @@ manager: "brycho"
   
  Click the **Admin** tile to go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], where you can add users and change passwords.  
   
- ![Office 365 admin center 2016 in Dynamics 365](../admin/media/office-365-admin-center.png "Office 365 admin center 2016 in Dynamics 365")  
+ ![Office 365 admin center in Dynamics 365](../admin/media/office-365-admin-center.png "Office 365 admin center in Dynamics 365")  
   
 <a name="BKMK_IntroD365HomePage"></a>   
 ## For admins and end users: Introducing the Dynamics 365 home page  

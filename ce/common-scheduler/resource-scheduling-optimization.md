@@ -303,5 +303,5 @@ Use [!INCLUDE[pn_resource_scheduling_ optimization_msdyn365](../includes/pn-reso
 [!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
   
 ### See also  
- [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)
+ [Install Dynamics 365 for Field Service](../field-service/install-field-service.md)<br>
  [Install Dynamics 365 for Project Service Automation](../project-service/install-customize.md)
