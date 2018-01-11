@@ -90,9 +90,11 @@ Customer Engagement Plan Enterprise Edition is a user subscription that includes
 - [!INCLUDE[pn_azure_machine_learning](../../includes/pn-azure-machine-learning.md)] integration  
   
 - [!INCLUDE[pn_bing_maps](../../includes/pn-bing-maps.md)] integration  
-  
+
+<!-- safe to delete after PM go ahead
 - [!INCLUDE[pn_cortana](../../includes/pn-cortana.md)] integration  
-  
+-->
+
 - [!INCLUDE[pn_office_365_groups](../../includes/pn-office-365-groups.md)] integration  
   
 - [!INCLUDE[pn_power_bi](../../includes/pn-power-bi.md)] integration  
@@ -113,7 +115,7 @@ Data centers undergo audits like any other expansion.
   
  [!INCLUDE[pn_dyn_365_germany](../../includes/pn-dyn-365-germany.md)] includes client software applications that are installed and run on an end user’s device (“client software applications”), such as [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], [!INCLUDE[pn_dyn_365_phones](../../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn_365_tablets](../../includes/pn-dyn-365-tablets.md)], and the [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)]. Client software applications do not operate exclusively in German data centers and may enable an end user to access online services that are not German Online Services. For purposes of your agreement with Microsoft, client software applications are not German Online Services. German Data Residency commitments and access control by German Data Trustee apply only to the German Online Services.  
   
- Apps available in a Microsoft app store are provided by either Microsoft or a third-party app publisher and these are subject to a separate privacy statement and terms and conditions. Data provided through the use of a Microsoft app store and any app may be accessible to Microsoft or the third-party app publisher, as applicable, and transferred to, stored, and processed in the United States or any other country where Microsoft or the app publisher and their affiliates or service providers maintain facilities. Please work with the app publisher to make sure it meets requirements for your [!INCLUDE[pn_dyn_365_germany](../../includes/pn-dyn-365-germany.md)] deployment.  
+ Apps available in a Microsoft app store are provided by either Microsoft or a third-party app publisher and these are subject to a separate privacy statement and terms and conditions. Data provided through the use of a Microsoft app store and any app may be accessible to Microsoft or the third-party app publisher, as applicable, and transferred to, stored, and processed in the United States or any other country or region where Microsoft or the app publisher and their affiliates or service providers maintain facilities. Please work with the app publisher to make sure it meets requirements for your [!INCLUDE[pn_dyn_365_germany](../../includes/pn-dyn-365-germany.md)] deployment.  
   
 <a name="BKMK_Privacy"></a>   
 ## Privacy notice  

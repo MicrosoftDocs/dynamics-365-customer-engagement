@@ -86,5 +86,5 @@ There are two flavors of [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-
  [Install](../field-service/install-field-service.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
- [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)</br?
+ [Turn on auto geocoding](../field-service/turn-on-auto-geocoding.md)<br>
  [Dynamics 365 Basics Guide](../basics/basics-guide.md)
