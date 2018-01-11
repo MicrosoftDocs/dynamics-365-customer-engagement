@@ -140,4 +140,4 @@ Once server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short
 ### See also  
  [Manage your documents using SharePoint](manage-documents-using-sharepoint.md)   
  [SharePoint Online for IT pros](https://technet.microsoft.com/sharepoint/gg144571)   
- [Book: SharePoint and CRM](http://crmbook.powerobjects.com/system-administration/sharepoint-document-management/)
+

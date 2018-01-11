@@ -2,7 +2,7 @@
 title: "Form XML schema | MicrosoftDocs"
 description: "Learn about schema definition for form customizations."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/22/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The following is the schema definition for form customizations for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. For more information, see [Customize Entity Forms in Microsoft Dynamics 365](customize-entity-forms.md). You can find this schema in the `SDK\Schemas\FormXML.xsd` file in the SDK package. [!INCLUDE[sdk_download](../../includes/sdk-download.md)]  
+The following is the schema definition for form customizations for [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement. For more information, see [Customize Entity Forms in Microsoft Dynamics 365](customize-entity-forms.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
   
 ## Schema  
   
