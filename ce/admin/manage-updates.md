@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/10/2017
+ms.date: 01/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -357,7 +357,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 4. **Verify your customizations are compatible.**  
   
-     You should take the time before your update to verify that customizations are compatible using the [CRM Custom Code Validation Tool](http://go.microsoft.com/fwlink/p/?LinkID=511979). You should do this early enough that you have time to fix any identified issues. Additionally, Microsoft will run a number of automated tests, and if any of those tests fail in your instance, we will email the administrator a list of potential issues we have identified.  
+     You should take the time before your update to verify that customizations are compatible. You should do this early enough that you have time to fix any identified issues. Additionally, Microsoft will run a number of automated tests, and if any of those tests fail in your instance, we will email the administrator a list of potential issues we have identified.  
   
 5. **Create a non-production (Sandbox) instance in which you can test your customizations.**  
   

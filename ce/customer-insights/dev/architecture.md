@@ -18,7 +18,7 @@ Customer Insights Architecture
 
 The following diagram depicts the high-level logical architecture of Customer Insights.
 
-![](../media/HighLevelArch.png "high-level logical architecture") 
+![High-level logical architecture](../media/HighLevelArch.png "High-level logical architecture") 
 
 This diagram contains the following components:
 
