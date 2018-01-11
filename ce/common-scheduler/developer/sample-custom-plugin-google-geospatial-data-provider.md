@@ -259,6 +259,8 @@ namespace Microsoft.Crm.Sdk.Samples
             // Obtain the tracing service from the service provider.
             ITracingService TracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
 
+            ExecuteDistanceMatrix(PluginExecutionContext, OrganizationService, TracingService);
+
         }
 
         public void ExecuteDistanceMatrix(IPluginExecutionContext pluginExecutionContext, IOrganizationService organizationService, ITracingService tracingService)
