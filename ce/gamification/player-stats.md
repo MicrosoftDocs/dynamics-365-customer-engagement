@@ -25,7 +25,7 @@ To see player stats for active games, [sign in to Gamification](sign-in.md) and 
 1. Select the game to display the stats for.
 2. When you go to **Player Stats**, you start on the **Actuals** section. Switch between the sections to see the different types of stats.
 3. Choose the game period to display the stats for. 
-4. Optionally, you can download the stats in an [!INCLUDE[pn-excel-short](../includes/pn-[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]-short.md)] workbook to create your own charts or analysis from the available data points. 
+4. Optionally, you can download the stats in an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook to create your own charts or analysis from the available data points. 
 
 ## Charts section
 
