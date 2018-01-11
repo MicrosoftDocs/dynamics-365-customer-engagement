@@ -2,7 +2,7 @@
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about the accessibility features in general and specifically in Social Engagement."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 01/10/2018
+ms.date: 01/11/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -24,7 +24,7 @@ topic-status: Drafting
 
 ### Switch to the table view to improve readability of data points
 
-All charts in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] have two possible ways to display: chart view or table view. This means that every user can decide whether they want to explore the data represented as charts or as tables.
+Widgets in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can show in a chart view or a table view. You can decide whether you want to work with the data represented as charts or as tables.
 You can turn on the table view for a widget in chart view by selecting the ![More options control](media/more-options-icon.png "More options control") control on the chart you want to change and then selecting the **Switch to table view** option. To switch back, open the same control and select **Switch to chart view**.    
 To enable the table view for your user profile for all widgets by default, go to **Settings > User Preferences** and change the value under **Chart data representation mode** from **Chart** to **Table**.
 
