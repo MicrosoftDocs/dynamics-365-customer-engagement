@@ -22,10 +22,10 @@ To see player stats for active games, [sign in to Gamification](sign-in.md) and 
 
 ![Actuals section in player stats with highlighted controls](media/player-stats-actuals-section.png "Actuals section in player stats with highlighted controls")
  
-1)	Select the game to display the stats for.
-2)	When you go to **Player Stats**, you start on the **Actuals** section. Switch between the sections to see the different types of stats.
-3)	Choose the game period to display the stats for. 
-4)	Optionally, you can download the stats in an Excel workbook to create your own charts or analysis from the available data points. 
+1. Select the game to display the stats for.
+2. When you go to **Player Stats**, you start on the **Actuals** section. Switch between the sections to see the different types of stats.
+3. Choose the game period to display the stats for. 
+4. Optionally, you can download the stats in an [!INCLUDE[pn-excel-short](../includes/pn-[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)]-short.md)] workbook to create your own charts or analysis from the available data points. 
 
 ## Charts section
 
@@ -33,12 +33,12 @@ Get a history chart for a specific user's performance in a set of KPIs. Above th
 
 ## Actuals section
 
-Review the actual numbers of other players. Select the game and game period to define the data set. To get an Excel file with the current stats of all players in a game, select **Download stats**. 
+Review the actual numbers of other players. Select the game and game period to define the data set. To get an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file with the current stats of all players in a game, select **Download stats**. 
 
 ## Points section
 
 Review the total points of the players across all active KPIs as configured in the game setup. For example, if _Calls made_ is a KPI and the game is configured to award 2 points per call, a player with 5 calls will show 10 points.    
-Select the game and game period to define the data set. To get an Excel file with the current stats of all players in a game, select **Download stats**.
+Select the game and game period to define the data set. To get an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file with the current stats of all players in a game, select **Download stats**.
 
 ## Team Points section
 
@@ -46,8 +46,8 @@ Ranking of the total points per team (depending on the game model).
 
 ![Team points section in player stats with highlighted controls](media/player-stats-team-points-section.png "Team points section in player stats with highlighted controls")
 
-1.	Select a game period for the selected game.
-2.	Select the ![Expand the team view to see individual players](media/add-button-gamification.png "Expand the team view to see individual players") icon to see the team roster and each team member's contribution. 
+1. Select a game period for the selected game.
+2. Select the ![Expand the team view to see individual players](media/add-button-gamification.png "Expand the team view to see individual players") icon to see the team roster and each team member's contribution. 
 
 ### See also
 
