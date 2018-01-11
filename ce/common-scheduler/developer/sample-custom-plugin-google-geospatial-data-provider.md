@@ -3,7 +3,9 @@ title: "Sample: Custom plug-in to use Google Maps API as geospatial data provide
 description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 for Field Service."
 ms.custom: ""
 ms.date: 01/10/2018
-searchScope: CRM   
+searchScope:  
+  - Field Service
+  - Project Service   
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
