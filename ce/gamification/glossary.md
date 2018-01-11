@@ -2,7 +2,7 @@
 title: "Terminology glossary for Dynamics 365 – Gamification | Microsoft Docs"
 description: "Review specific terms used in Dynamics 365 – Gamification."
 keywords: "glossary, terms, terminology"
-ms.date: 10/12/2017
+ms.date: 01/11/2018
 ms.service: gamification
 ms.topic: get-started-article
 applies_to:
@@ -59,6 +59,10 @@ Games are set up and run in [!INCLUDE[pn_gamification_shortest](../includes/pn-g
 ## Gamification (concept)
 
 Gamification as a concept applies gaming elements and principles to non-game contexts to improve user engagement and productivity, or promote activities and processes among colleagues. Gamification strives to leverage people's natural desire for socializing, mastery, competition, achievement, altruism, or closure. Rewards include points, achievements, badges, cash prizes, tangible prizes, or company benefits.
+
+## BAM posts
+
+BAM posts are post on the Smack Talk board that announce a special achievement, a new award, or a promotion. These posts usually draw more attention, so we suggest you use them when appropriate. You can choose one of the predefined animations to make the BAM post visually appealing. 
 
 ## Stream TV
 
