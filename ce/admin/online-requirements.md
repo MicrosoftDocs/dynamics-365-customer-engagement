@@ -30,7 +30,7 @@ manager: "brycho"
   
 ## Web browser requirements  
  You use a common web browser, such as [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)], [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] or [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)] to view, add, or edit information stored in your organization’s [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] database. For more information about the supported web browsers and hardware requirements, see [Web application requirements for Microsoft Dynamics 365](web-application-requirements.md).  
-<!--
+
 ## Unified Interface apps
 Apps built on the Unified Interface framework such as [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)], and the Customer Service Hub, share the following requirements:
 
@@ -43,14 +43,15 @@ Apps built on the Unified Interface framework such as [!INCLUDE[pn_crm_app_for_o
     - Apple Safari 11
 
 - **Mobile**
-    - iOS 10 - Tablet & Phone
-    - Android - Tablet + Phone (Android 6 and 7)
+    - iOS 10 - Tablet and Phone
+    - Android - Tablet and Phone (Android 6 and 7)
     - Windows 10 
-  -->
 
+<!--
 ## Mobile device requirements  
  Users can work in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] by using a supported browser on a mobile device, or by using [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)]. For more information about the mobile experience in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], see [Set up Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
-  
+--> 
+
 ## Microsoft Office requirements  
  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] leverages the capabilities of on-premises versions of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] or [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] and integrates with [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] and [!INCLUDE[pn_MS_Excel_Full](../includes/pn-ms-excel-full.md)]. For more information about the supported versions of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)], see [Supported versions of Office](web-application-requirements.md#supported-versions-of-office).  
   
