@@ -28,7 +28,7 @@ Use this function for any initial setup necessary for your control.
 |context|IPropBag|yes|The *Input Properties* containing the parameters, control metadata and interface functions.|
 |notifyOutputChanged|*function*|no|The method for this control to notify the framework that it has new outputs|
 |state|dictionary|no|The control state for this control saved from setState in the last session|
-|container|HTML DIV element|no|The div element to render|
+|container|[HTMLDivElement](https://developer.mozilla.org/docs/Web/API/HTMLDivElement)|no|The div element to render|
 
 ## Remarks
 
