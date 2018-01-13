@@ -7,7 +7,6 @@ ms.topic: "index-page"
 ms.assetid: 135481cd-4583-4e49-8f58-02f32a9b054a
 applies_to: 
   - "Dynamics 365 (online)"
-ms.assetid: 
 author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
