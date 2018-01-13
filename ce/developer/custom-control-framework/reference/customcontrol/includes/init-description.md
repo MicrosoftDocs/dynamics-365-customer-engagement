@@ -1,0 +1,1 @@
+CustomControl.init method description placeholder

@@ -1,0 +1,1 @@
+CustomControl.updateView method description placeholder

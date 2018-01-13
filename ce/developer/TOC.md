@@ -170,6 +170,7 @@
 ##### [Sample: REST listener](sample-rest-listener.md)
 ##### [Sample: Persistent queue listener](sample-persistent-queue-listener.md)
 ### [Use WebHooks](use-webhooks.md)
+
 ## [Extend Customer Engagement on the client](extend-client.md)
 ### [Use JavaScript with Dynamics 365 Customer Engagement](use-javascript.md)
 ### [Work with data using web resources](work-data-using-web-resources.md)
@@ -533,6 +534,7 @@
 ## [Deployment Service 9.0](https://docs.microsoft.com/dotnet/api/?view=dynamics-deployment-ce-9)
 ## [Online Management API Reference](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com)
 ## [Client API Reference](clientapi/reference.md)
+## [Custom Control Framework API reference](custom-control-framework/reference/)
 ## [Schemas used in Dynamics 365](schemas-used-dynamics-365.md)
 ## [Customization XML reference](customization-xml-reference.md)
 

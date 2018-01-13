@@ -1,0 +1,1 @@
+CustomControl.getOutputs method description placeholder

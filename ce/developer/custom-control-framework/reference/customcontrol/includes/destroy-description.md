@@ -1,0 +1,1 @@
+CustomControl.destroy method description placeholder
