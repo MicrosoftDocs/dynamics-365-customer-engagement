@@ -1,0 +1,1 @@
+Gets SIP mapped attribute field for entity.

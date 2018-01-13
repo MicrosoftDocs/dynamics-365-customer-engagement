@@ -1,0 +1,25 @@
+# getPresenceMappedField
+
+[!INCLUDE [cc_applies_to_update_9_0_0](../../../../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[./includes/getpresencemappedfield-description.md](./includes/getpresencemappedfield-description.md)]
+
+## Syntax
+
+`getPresenceMappedField(entityName)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|entityName|`string`|yes|The entity logical name|
+
+## Return Value
+Type: `string`
+
+
+### Related topics
+
+[ICommunicationChannel](../icommunicationchannel.md)<br />
+[Custom Control Framework API Reference](../index.md)<br />
+[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
