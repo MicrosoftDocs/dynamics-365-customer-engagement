@@ -27,6 +27,6 @@ manager: "amyla"
 
 ### Related topics
 
-[Custom Control Framework API Reference for Customer Engagement](index.md)
+[Custom Control Framework API Reference](index.md)
 
 [Custom Control Framework Overview](../custom-control-framework-overview.md)
