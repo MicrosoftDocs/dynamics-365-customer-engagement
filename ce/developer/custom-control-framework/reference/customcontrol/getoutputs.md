@@ -26,4 +26,6 @@ TODO
 
 ### Related topics
 
-[CustomControl (Custom Control Framework API reference)](../customcontrol.md)
+[CustomControl (Custom Control Framework API reference)](../customcontrol.md)<br />
+[Custom Control Framework API Reference for Customer Engagement](../index.md)<br />
+[Custom Control Framework Customer Engagement](../../index.md)<br />

@@ -24,7 +24,7 @@ manager: "amyla"
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|context|dictonary|yes|TODO: context description|
+|context|dictionary|yes|TODO: context description|
 
 ## Return Value
 Type: IVirtualComponent
@@ -38,4 +38,6 @@ TODO
 
 ### Related topics
 
-[CustomControl (Custom Control Framework API reference)](../customcontrol.md)
+[CustomControl (Custom Control Framework API reference)](../customcontrol.md)<br />
+[Custom Control Framework API Reference for Customer Engagement](../index.md)<br />
+[Custom Control Framework Customer Engagement](../../index.md)<br />
