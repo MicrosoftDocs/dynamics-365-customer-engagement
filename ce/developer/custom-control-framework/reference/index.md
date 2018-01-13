@@ -18,4 +18,8 @@ manager: "amyla"
 
 This section contains reference documentation for creating custom controls using the custom control framework.
 
+|Name|Description|
+|----|-----------|
+|[CustomControl (Custom Control Framework API reference)](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
+
 ### Related topics

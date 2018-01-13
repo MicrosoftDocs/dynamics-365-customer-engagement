@@ -46,4 +46,4 @@ SimpleIncrementStandardControl.prototype.getOutputs = function () {
 
 [CustomControl (Custom Control Framework API reference)](../customcontrol.md)<br />
 [Custom Control Framework API Reference for Customer Engagement](../index.md)<br />
-[Custom Control Framework Customer Engagement](../../index.md)<br />
+[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />

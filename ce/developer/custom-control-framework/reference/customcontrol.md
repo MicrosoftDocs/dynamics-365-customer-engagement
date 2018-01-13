@@ -13,7 +13,7 @@ manager: "amyla"
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Provides methods to ...
+[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]
 
 |Method | Description | 
 | ------------- |-------------|
@@ -26,3 +26,7 @@ Provides methods to ...
 
 
 ### Related topics
+
+[Custom Control Framework API Reference for Customer Engagement](index.md)
+
+[Custom Control Framework Overview](../custom-control-framework-overview.md)
