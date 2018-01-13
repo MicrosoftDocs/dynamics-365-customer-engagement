@@ -15,8 +15,6 @@ manager: "amyla"
 
 [!INCLUDE[./includes/updateview-description.md](./includes/updateview-description.md)]
 
-This method would rerender the control with the updated values after you call NotifyOutputChanged
-
 ## Syntax
 
 `updateView(context)`

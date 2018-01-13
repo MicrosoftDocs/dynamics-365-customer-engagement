@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\getoutputs-description.md
+Returns an *Output Bag* to the control Infrastructure.

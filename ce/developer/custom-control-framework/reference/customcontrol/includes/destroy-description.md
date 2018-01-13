@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\destroy-description.md
+This function will be called when the control is destroyed. Use it for cleanup and to release any memory that the control is using.

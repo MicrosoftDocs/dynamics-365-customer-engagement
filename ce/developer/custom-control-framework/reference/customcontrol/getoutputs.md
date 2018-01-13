@@ -15,7 +15,7 @@ manager: "amyla"
 
 [!INCLUDE[./includes/getoutputs-description.md](./includes/getoutputs-description.md)]
 
-Return an *Output Bag* to the control Infrastructure.
+
 
 ## Syntax
 

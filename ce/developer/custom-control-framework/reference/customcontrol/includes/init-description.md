@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\init-description.md
+Use this function for any initial setup necessary for your control.

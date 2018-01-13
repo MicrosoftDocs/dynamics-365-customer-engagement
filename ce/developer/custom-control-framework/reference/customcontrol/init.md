@@ -15,7 +15,7 @@ manager: "amyla"
 
 [!INCLUDE[./includes/destroy-description.md](./includes/destroy-description.md)]
 
-Use this function for any initial setup necessary for your control.
+
 
 ## Syntax
 
