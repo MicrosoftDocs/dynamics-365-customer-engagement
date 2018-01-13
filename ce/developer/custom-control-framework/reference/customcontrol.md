@@ -15,6 +15,8 @@ manager: "amyla"
 
 [!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]
 
+## Methods
+
 |Method | Description | 
 | ------------- |-------------|
 |[destroy](customcontrol/destroy.md)|[!INCLUDE [destroy-description](customcontrol/includes/destroy-description.md)]| 

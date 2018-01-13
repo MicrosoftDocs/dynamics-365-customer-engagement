@@ -4,8 +4,30 @@
 
 [!INCLUDE [ipropbag-description](includes/ipropbag-description.md)]
 
-|Name|Type|Required|Description|
-|-|-|-|-|
-|accessibility|[IAccessibility](iaccessibility.md)|yes|Placeholder description: IPropBag.accessibility|
-|children|any|no|Placeholder description: IPropBag.children|
-|client|[IClient](iclient.md)|yes|Placeholder description: IPropBag.client|
+## Properties
+
+### accessibility
+
+Placeholder description: IPropBag.accessibility
+
+**Type**: [IAccessibility](iaccessibility.md)
+
+**Required**: yes
+
+### children
+
+Placeholder description: IPropBag.children
+
+**Type**: any
+
+**Required**: no
+
+### client
+
+Placeholder description: IPropBag.client
+
+**Type**: [IClient](iclient.md)
+
+**Required**: yes
+
+

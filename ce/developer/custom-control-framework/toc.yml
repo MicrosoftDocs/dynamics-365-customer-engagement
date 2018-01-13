@@ -18,6 +18,51 @@
       - name: render
         href: reference/customcontrol/render.md
       - name: updateView
-        href: reference/customcontrol/updateview.md                              
-
+        href: reference/customcontrol/updateview.md
+    - name: Diagnostics
+      href: reference/diagnostics.md
+    - name: IAccessibility
+      href: reference/iaccessibility.md
+    - name: IClient
+      href: reference/iclient.md
+    - name: ICommunicationChannel
+      href: reference/icommunicationchannel.md
+    - name: IDecorators
+      href: reference/idecorators.md
+    - name: IDevice
+      href: reference/idevice.md
+    - name: IExternalContext
+      href: reference/iexternalcontext.md
+    - name: IFactory
+      href: reference/ifactory.md
+    - name: IFormatting
+      href: reference/iformatting.md
+    - name: ILearningPath
+      href: reference/ilearningpath.md
+    - name: IMode
+      href: reference/imode.md
+    - name: INavigation
+      href: reference/inavigation.md
+    - name: IOrgSettings
+      href: reference/iorgsettings.md
+    - name: IPage
+      href: reference/ipage.md
+    - name: IPerformance
+      href: reference/iperformance.md
+    - name: IPropBag
+      href: reference/ipropbag.md
+    - name: IResources
+      href: reference/iresources.md
+    - name: IThemingBag
+      href: reference/ithemingbag.md
+    - name: IUserSettings
+      href: reference/iusersettings.md
+    - name: IUtility
+      href: reference/iutility.md
+    - name: Offline
+      href: reference/offline.md
+    - name: Reporting
+      href: reference/reporting.md
+    - name: WebApi
+      href: reference/webapi.md
     
