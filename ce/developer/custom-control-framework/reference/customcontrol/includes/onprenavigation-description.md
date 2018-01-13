@@ -1,1 +1,1 @@
-CustomControl.onPreNavigation method description placeholder
+Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\onprenavigation-description.md

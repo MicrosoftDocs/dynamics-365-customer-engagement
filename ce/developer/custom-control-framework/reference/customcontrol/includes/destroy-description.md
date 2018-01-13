@@ -1,1 +1,1 @@
-CustomControl.destroy method description placeholder
+Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\destroy-description.md

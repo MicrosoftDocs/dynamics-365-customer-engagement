@@ -1,1 +1,1 @@
-CustomControl.init method description placeholder
+Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\init-description.md

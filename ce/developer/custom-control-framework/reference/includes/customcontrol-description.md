@@ -1,1 +1,1 @@
-Description for CustomControl placeholder
+Placeholder description: ce\developer\custom-control-framework\reference\includes\customcontrol-description.md
