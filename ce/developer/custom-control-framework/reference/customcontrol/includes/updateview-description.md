@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\updateview-description.md
+This method will re-render the control with the updated values after you call NotifyOutputChanged.
