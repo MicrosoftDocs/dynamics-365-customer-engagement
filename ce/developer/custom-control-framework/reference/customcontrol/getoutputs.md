@@ -15,6 +15,7 @@ manager: "amyla"
 
 [!INCLUDE[./includes/getoutputs-description.md](./includes/getoutputs-description.md)]
 
+Return an *Output Bag* to the control Infrastructure.
 
 ## Syntax
 
@@ -22,7 +23,24 @@ manager: "amyla"
 
 ## Remarks
 
-TODO
+The outputs will contain a value for each property marked as `input-output` or `bound` in your manifest.
+For example, if your manifest has a property `value` that is an `input-output`, and you want to set that to the local variable `myvalue` you should return:
+```javascript
+{
+    value: myvalue
+};
+```
+
+## Example
+
+```javascript
+SimpleIncrementStandardControl.prototype.getOutputs = function () {
+    var result = {
+        value: this._value
+    };
+    return result;
+};
+```
 
 ### Related topics
 

@@ -15,6 +15,7 @@ manager: "amyla"
 
 [!INCLUDE[./includes/destroy-description.md](./includes/destroy-description.md)]
 
+Use this function for any initial setup necessary for your control.
 
 ## Syntax
 
@@ -24,14 +25,14 @@ manager: "amyla"
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|context|IPropBag|yes|TODO: IPropBag description|
-|notifyOutputChanged|*function*|no|TODO: notifyOutputChanged description|
-|state|dictionary|no|TODO: state description|
-|container|HTML DIV element|no|TODO: container description|
+|context|IPropBag|yes|The *Input Properties* containing the parameters, control metadata and interface functions.|
+|notifyOutputChanged|*function*|no|The method for this control to notify the framework that it has new outputs|
+|state|dictionary|no|The control state for this control saved from setState in the last session|
+|container|HTML DIV element|no|The div element to render|
 
 ## Remarks
 
-TODO
+
 
 
 ### Related topics

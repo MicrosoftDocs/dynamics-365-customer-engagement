@@ -15,6 +15,7 @@ manager: "amyla"
 
 [!INCLUDE[./includes/updateview-description.md](./includes/updateview-description.md)]
 
+This method would rerender the control with the updated values after you call NotifyOutputChanged
 
 ## Syntax
 
@@ -34,7 +35,7 @@ TODO:
 
 ## Remarks
 
-TODO
+Set the value of the field control to the raw value from the configured field
 
 ### Related topics
 

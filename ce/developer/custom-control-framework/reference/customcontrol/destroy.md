@@ -15,10 +15,18 @@ manager: "amyla"
 
 [!INCLUDE[./includes/destroy-description.md](./includes/destroy-description.md)]
 
+This function will be called when the control is destroyed. Use it for cleanup and to release any memory that the control is using
 
 ## Syntax
 
 `destroy()`
+
+## Example
+```javascript
+SimpleIncrementStandardControl.prototype.destroy = function () {
+ this.button.removeEventListener("click", this.onButtonClick);
+};
+```
 
 ### Related topics
 
