@@ -20,7 +20,7 @@ Client-side scripting using JavaScript is one of the ways to apply custom busine
 > [!NOTE]
 > You can also use business rules, which provides a way for someone who does not know JavaScript and is not a developer, to apply business process logic in a form. More information: [Create business rules and recommendations to apply logic in a form](../../customize/create-business-rules-recommendations-apply-logic-form.md)  
 
-Forms in Customer Engagement help display data to the user. A form in Customer Engagement can contain items such as fields, a quick form, or a grid. An [event](events-forms-grids.md) occurs in Customer Enagement forms whenever:
+Forms in Customer Engagement help display data to the user. A form in Customer Engagement can contain items such as fields, a quick form, or a grid. An [event](events-forms-grids.md) occurs in Customer Engagement forms whenever:
 - A form loads
 - Data is changed in a field or an item within the form
 - Data is saved in a form
