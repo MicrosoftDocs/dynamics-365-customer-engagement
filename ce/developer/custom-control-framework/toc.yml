@@ -190,8 +190,6 @@
       items:
       - name: getClientUrl
         href: reference/ipage/getclienturl.md      
-    - name: IPerformance
-      href: reference/iperformance.md
     - name: IPropBag
       href: reference/ipropbag.md
     - name: IResources

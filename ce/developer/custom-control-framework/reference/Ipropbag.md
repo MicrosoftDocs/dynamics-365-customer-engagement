@@ -167,11 +167,11 @@ Placeholder description: IPropBag.parameters
 
 ## performance
 
-Placeholder description: IPropBag.performance
+<!-- 
+All methods provided by IPerformance are internal
+--->
 
-**Type**: [IPerformance](iperformance.md)
-
-
+[!INCLUDE [internal](../../../includes/internal.md)]
 
 ## refs
 
