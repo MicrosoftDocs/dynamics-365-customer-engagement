@@ -24,7 +24,7 @@ This section contains reference documentation for creating custom controls using
 |[Diagnostics](diagnostics.md)|[!INCLUDE [diagnostics-description](includes/diagnostics-description.md)]|
 |[IAccessibility](iaccessibility.md)|[!INCLUDE [iaccessibility-description](includes/iaccessibility-description.md)]|
 |[IClient](iclient.md)|[!INCLUDE [iclient-description](includes/iclient-description.md)]|
-|[ICommunicationChannel](icommunicationchannelname.md)|[!INCLUDE [icommunicationchannelname-description](includes/icommunicationchannelname-description.md)]|
+|[ICommunicationChannel](icommunicationchannel.md)|[!INCLUDE [icommunicationchannel-description](includes/icommunicationchannel-description.md)]|
 |[IDevice](idevice.md)|[!INCLUDE [idevice-description](includes/idevice-description.md)]|
 |[IExternalContext](iexternalcontext.md)|[!INCLUDE [iexternalcontext-description](includes/iexternalcontext-description.md)]|
 |[IFactory](ifactory.md)|[!INCLUDE [ifactory-description](includes/ifactory-description.md)]|
