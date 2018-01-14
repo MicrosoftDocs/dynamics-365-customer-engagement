@@ -43,6 +43,19 @@
         href: reference/iaccessibility/registershortcut.md
     - name: IClient
       href: reference/iclient.md
+      items:
+      - name: getClient
+        href: reference/iclient/getclient.md
+      - name: getClientState
+        href: reference/iclient/getclientstate.md
+      - name: getFormFactor
+        href: reference/iclient/getformfactor.md
+      - name: ignoreSelfUpdates
+        href: reference/iclient/ignoreselfupdates.md
+      - name: isOffline
+        href: reference/iclient/isoffline.md
+      - name: setFullScreen
+        href: reference/iclient/setfullscreen.md                                              
     - name: ICommunicationChannel
       href: reference/icommunicationchannel.md
       items:
