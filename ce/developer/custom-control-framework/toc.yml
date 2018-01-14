@@ -254,9 +254,7 @@
       href: reference/offline.md
       items:
       - name: isOfflineEnabled
-        href: reference/offline/isofflineenabled.md      
-    - name: PickFileOptions
-      href: reference/pickfileoptions.md      
+        href: reference/offline/isofflineenabled.md
     - name: Reporting
       href: reference/reporting.md
       items:

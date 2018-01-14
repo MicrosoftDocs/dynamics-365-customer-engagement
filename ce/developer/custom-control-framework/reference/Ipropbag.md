@@ -181,21 +181,11 @@ Placeholder description: IPropBag.refs
 
 **Optional**
 
-## name
-
-Placeholder description: IPropBag.name
-
-**Type**: [Name](name.md)
-
-
-
 ## reporting
 
 Placeholder description: IPropBag.reporting
 
 **Type**: [Reporting](reporting.md)
-
-
 
 ## resources
 
@@ -203,15 +193,11 @@ Placeholder description: IPropBag.resources
 
 **Type**: [IResources](iresources.md)
 
-
-
 ## theming
 
 Placeholder description: IPropBag.theming
 
 **Type**: [IThemingBag](ithemingbag.md)
-
-
 
 ## updatedProperties
 
@@ -219,23 +205,17 @@ Placeholder description: IPropBag.updatedProperties
 
 **Type**: `string[]`
 
-
-
 ## userSettings
 
 Placeholder description: IPropBag.userSettings
 
 **Type**: [IUserSettings](iusersettings.md)
 
-
-
 ## utils
 
 Placeholder description: IPropBag.utils
 
 **Type**: [IUtility](iutility.md)
-
-
 
 ## webAPI
 

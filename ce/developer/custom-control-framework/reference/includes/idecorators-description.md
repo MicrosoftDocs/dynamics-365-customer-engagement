@@ -1,1 +1,0 @@
-The decorators where Parent Control passed to the child control.

@@ -13,14 +13,21 @@
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|options|[PickFileOptions](../pickfileoptions.md)|no|TODO: options description|
+|`options`|`object`|no|TODO: options description|
 
 ## Return Value
 
 Type: `Promise<File[]>`
+See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [File](https://developer.mozilla.org/docs/Web/API/File)
 
 ## Remarks
-See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [File](https://developer.mozilla.org/docs/Web/API/File)
+The `options` object has the following properties:
+
+|Name|Type|Description|
+|--|--|--|
+|`accept`|`string`|Placeholder description: PickFileOptions.accept|
+|`allowMultipleFiles`|`boolean`|Placeholder description: PickFileOptions.allowMultipleFiles|
+|`maximumAllowedFileSize`|`number`|Placeholder description: PickFileOptions.maximumAllowedFileSize|
 
 ### Related topics
 
