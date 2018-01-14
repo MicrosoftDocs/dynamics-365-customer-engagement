@@ -1,0 +1,2 @@
+# getEntityColor
+getentitycolor-description.md

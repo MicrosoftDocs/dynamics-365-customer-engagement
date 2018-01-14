@@ -185,6 +185,15 @@
         href: reference/iresources/getstring.md       
     - name: IThemingBag
       href: reference/ithemingbag.md
+      items:
+      - name: disableUiTransitions
+        href: reference/ithemingbag/disableuitransitions.md
+      - name: getEntityColor
+        href: reference/ithemingbag/getentitycolor.md
+      - name: inlineLayout
+        href: reference/ithemingbag/inlinelayout.md
+      - name: rightAlignEdit
+        href: reference/ithemingbag/rightalignedit.md        
     - name: IUserSettings
       href: reference/iusersettings.md
     - name: IUtility
