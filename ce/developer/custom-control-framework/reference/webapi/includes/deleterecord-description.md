@@ -1,0 +1,1 @@
+To delete the record mobile offline db

@@ -252,4 +252,17 @@
         href: reference/reporting/reportsuccess.md                        
     - name: WebApi
       href: reference/webapi.md
+      items:
+      - name: createRecord
+        href: reference/webapi/createrecord.md     
+      - name: deleteRecord
+        href: reference/webapi/deleterecord.md 
+      - name: executeMultiple
+        href: reference/webapi/executemultiple.md 
+      - name: retrieveMultipleRecords
+        href: reference/webapi/retrievemultiplerecords.md 
+      - name: retrieveRecord
+        href: reference/webapi/retrieverecord.md 
+      - name: updateRecord
+        href: reference/webapi/updaterecord.md   
     

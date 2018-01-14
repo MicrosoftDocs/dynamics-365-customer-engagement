@@ -1,0 +1,1 @@
+To retrieve a record from offline db

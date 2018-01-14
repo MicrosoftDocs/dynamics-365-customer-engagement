@@ -1,0 +1,1 @@
+To retrieve the records from mobile offline db
