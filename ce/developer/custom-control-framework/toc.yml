@@ -196,6 +196,7 @@
         href: reference/ithemingbag/rightalignedit.md        
     - name: IUserSettings
       href: reference/iusersettings.md
+      items:
       - name: getTimeZoneOffsetMinutes
         href: reference/iusersettings/gettimezoneoffsetminutes.md      
     - name: IUtility
