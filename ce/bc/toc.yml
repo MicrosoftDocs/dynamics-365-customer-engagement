@@ -78,6 +78,16 @@
     - name: Extend Outlook Client
       tocHref: /dynamics365/customer-engagement/developer/outlook-client/
       topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
+    - name: Client Scripting API
+      tocHref: /dynamics365/customer-engagement/developer/clientapi/
+      topicHref: /dynamics365/customer-engagement/developer/clientapi/client-scripting
+    - name: Custom Control Framework
+      tocHref: /dynamics365/customer-engagement/developer/custom-control-framework/
+      topicHref: /dynamics365/customer-engagement/developer/custom-control-framework/custom-control-framework-overview
+      items:
+        - name: Custom Control Framework API Reference
+          tocHref: /dynamics365/customer-engagement/developer/custom-control-framework/reference/
+          topicHref: /dynamics365/customer-engagement/developer/custom-control-framework/reference
   - name: Unified Service Desk
     tocHref: /dynamics365/customer-engagement/unified-service-desk/
     topicHref: /dynamics365/customer-engagement/unified-service-desk/index
