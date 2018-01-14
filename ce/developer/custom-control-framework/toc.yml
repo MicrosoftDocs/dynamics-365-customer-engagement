@@ -183,6 +183,9 @@
       href: reference/iutility.md
     - name: Offline
       href: reference/offline.md
+      items:
+      - name: isOfflineEnabled
+        href: reference/offline/isofflineenabled.md      
     - name: PickFileOptions
       href: reference/pickfileoptions.md      
     - name: Reporting
