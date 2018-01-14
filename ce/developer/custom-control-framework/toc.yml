@@ -19,6 +19,8 @@
         href: reference/customcontrol/render.md
       - name: updateView
         href: reference/customcontrol/updateview.md
+    - name: DateFormattingInfo
+      href: reference/dateformattinginfo.md
     - name: Diagnostics
       href: reference/diagnostics.md
       items:
@@ -250,6 +252,8 @@
         href: reference/iutility/retrieverecordcommand.md  
       - name: triggerOfflineMetadataSync
         href: reference/iutility/triggerofflinemetadatasync.md                                                                                                                          
+    - name: NumberFormattingInfo
+      href: reference/numberformattinginfo.md
     - name: Offline
       href: reference/offline.md
       items:
