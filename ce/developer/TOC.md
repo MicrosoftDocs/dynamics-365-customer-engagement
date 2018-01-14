@@ -170,7 +170,6 @@
 ##### [Sample: REST listener](sample-rest-listener.md)
 ##### [Sample: Persistent queue listener](sample-persistent-queue-listener.md)
 ### [Use WebHooks](use-webhooks.md)
-
 ## [Extend Customer Engagement on the client](extend-client.md)
 ### [Use JavaScript with Dynamics 365 Customer Engagement](use-javascript.md)
 ### [Work with data using web resources](work-data-using-web-resources.md)
@@ -195,6 +194,7 @@
 #### [Sample: Pass multiple values to a  web resource through the data parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)
 #### [Sample: Import files as web resources](sample-import-files-web-resources.md)
 #### [Sample: Web resource utility](sample-web-resource-utility.md)
+### [Create Custom Controls](custom-control-framework/custom-control-framework-overview.md)
 ## [Customize Customer Engagement applications](customize-dev/customize-applications.md)
 ### [Customize entity forms](customize-dev/customize-entity-forms.md)
 #### [Create or edit how business rules are initiated](customize-dev/create-edit-how-business-rules-initiated.md)
