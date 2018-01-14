@@ -1,0 +1,1 @@
+Create a Server URI based on a relative path, prepending the org name if necessary.

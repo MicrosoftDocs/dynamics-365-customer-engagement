@@ -1,0 +1,1 @@
+Gets the entity metadatas for multiple entities.

@@ -1,0 +1,1 @@
+gets the status of FCB

@@ -1,0 +1,2 @@
+# getEntityMetadata
+getentitymetadata-description.md

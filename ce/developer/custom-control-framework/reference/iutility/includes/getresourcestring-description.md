@@ -1,0 +1,1 @@
+Gets the localized string from the web resource for the given key

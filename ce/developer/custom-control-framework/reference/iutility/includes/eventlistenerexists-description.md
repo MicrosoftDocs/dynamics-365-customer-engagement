@@ -1,0 +1,1 @@
+Returns true if there is an event listener added to the passed event name in the parent component.

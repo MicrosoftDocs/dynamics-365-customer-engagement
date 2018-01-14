@@ -201,6 +201,39 @@
         href: reference/iusersettings/gettimezoneoffsetminutes.md      
     - name: IUtility
       href: reference/iutility.md
+      items:
+      - name: addGlobalNotification
+        href: reference/iutility/addglobalnotification.md
+      - name: beginSecureSessionForResource
+        href: reference/iutility/beginsecuresessionforresource.md  
+      - name: clearGlobalNotification
+        href: reference/iutility/clearglobalnotification.md  
+      - name: createServerUri
+        href: reference/iutility/createserveruri.md  
+      - name: eventListenerExists
+        href: reference/iutility/eventlistenerexists.md  
+      - name: getEntitiesMetadata
+        href: reference/iutility/getentitiesmetadata.md  
+      - name: getEntityMetadata
+        href: reference/iutility/getentitymetadata.md  
+      - name: getEntityName
+        href: reference/iutility/getentityname.md  
+      - name: getFormId
+        href: reference/iutility/getformid.md  
+      - name: getResourceString
+        href: reference/iutility/getresourcestring.md  
+      - name: hasEntityPrivilege
+        href: reference/iutility/hasentityprivilege.md  
+      - name: isFeatureEnabled
+        href: reference/iutility/isfeatureenabled.md  
+      - name: lookupObjects
+        href: reference/iutility/lookupobjects.md  
+      - name: retrieveFormWithAttributes
+        href: reference/iutility/retrieveformwithattributes.md  
+      - name: retrieveRecordCommand
+        href: reference/iutility/retrieverecordcommand.md  
+      - name: triggerOfflineMetadataSync
+        href: reference/iutility/triggerofflinemetadatasync.md                                                                                                                          
     - name: Offline
       href: reference/offline.md
       items:

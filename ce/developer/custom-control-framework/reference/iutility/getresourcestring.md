@@ -1,0 +1,2 @@
+# getResourceString
+getresourcestring-description.md

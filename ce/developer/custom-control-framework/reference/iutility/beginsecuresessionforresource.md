@@ -1,0 +1,2 @@
+# beginSecureSessionForResource
+beginsecuresessionforresource-description.md

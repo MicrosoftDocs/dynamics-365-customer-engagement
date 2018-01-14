@@ -1,0 +1,1 @@
+Adds a global notification.

@@ -1,0 +1,1 @@
+Opens a lookup dialog allowing the user to select one or more entities.

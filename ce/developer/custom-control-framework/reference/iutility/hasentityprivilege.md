@@ -1,0 +1,2 @@
+# hasEntityPrivilege
+hasentityprivilege-description.md
