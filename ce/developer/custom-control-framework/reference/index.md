@@ -21,6 +21,7 @@ This section contains reference documentation for creating custom controls using
 |Name|Description|
 |----|-----------|
 |[CustomControl](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
+|[DateFormattingInfo](dateformattinginfo.md)|[!INCLUDE [dateformattinginfo-description](includes/dateformattinginfo-description.md)]|
 |[Diagnostics](diagnostics.md)|[!INCLUDE [diagnostics-description](includes/diagnostics-description.md)]|
 |[IAccessibility](iaccessibility.md)|[!INCLUDE [iaccessibility-description](includes/iaccessibility-description.md)]|
 |[IClient](iclient.md)|[!INCLUDE [iclient-description](includes/iclient-description.md)]|
@@ -38,6 +39,7 @@ This section contains reference documentation for creating custom controls using
 |[IThemingBag](ithemingbag.md)|[!INCLUDE [ithemingbag-description](includes/ithemingbag-description.md)]|
 |[IUserSettings](iusersettings.md)|[!INCLUDE [iusersettings-description](includes/iusersettings-description.md)]|
 |[IUtility](iutility.md)|[!INCLUDE [iutility-description](includes/iutility-description.md)]|
+|[NumberFormattingInfo](numberformattinginfo.md)|[!INCLUDE [numberformattinginfo-description](includes/numberformattinginfo-description.md)]|
 |[Offline](offline.md)|[!INCLUDE [offline-description](includes/offline-description.md)]|
 |[Reporting](reporting.md)|[!INCLUDE [reporting-description](includes/reporting-description.md)]|
 |[WebApi](webapi.md)|[!INCLUDE [webapi-description](includes/webapi-description.md)]|
