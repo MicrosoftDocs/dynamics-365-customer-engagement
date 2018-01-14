@@ -79,25 +79,25 @@
       href: reference/ifactory.md
       items:
       - name: bindDOMComponent
-        href: reference/iexternalcontext/binddomcomponent.md
+        href: reference/ifactory/binddomcomponent.md
       - name: bindDOMElement
-        href: reference/iexternalcontext/binddomelement.md        
+        href: reference/ifactory/binddomelement.md        
       - name: createComponent
-        href: reference/iexternalcontext/createcomponent.md
+        href: reference/ifactory/createcomponent.md
       - name: createElement
-        href: reference/iexternalcontext/createelement.md
+        href: reference/ifactory/createelement.md
       - name: fireEvent
-        href: reference/iexternalcontext/fireevent.md
+        href: reference/ifactory/fireevent.md
       - name: getControlDefaultMapping
-        href: reference/iexternalcontext/getcontroldefaultmapping.md
+        href: reference/ifactory/getcontroldefaultmapping.md
       - name: getPopupService
-        href: reference/iexternalcontext/getpopupservice.md
+        href: reference/ifactory/getpopupservice.md
       - name: requestRender
-        href: reference/iexternalcontext/requestrender.md
+        href: reference/ifactory/requestrender.md
       - name: unbindDOMComponent
-        href: reference/iexternalcontext/unbinddomcomponent.md
+        href: reference/ifactory/unbinddomcomponent.md
       - name: updateComponent
-        href: reference/iexternalcontext/updatecomponent.md     
+        href: reference/ifactory/updatecomponent.md     
     - name: IFormatting
       href: reference/iformatting.md
       items:
