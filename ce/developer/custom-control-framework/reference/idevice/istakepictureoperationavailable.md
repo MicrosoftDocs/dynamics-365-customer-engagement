@@ -8,7 +8,6 @@
 
 `isTakePictureOperationAvailable()`
 
-
 ## Return Value
 
 Type: `boolean`

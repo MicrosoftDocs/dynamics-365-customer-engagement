@@ -12,14 +12,26 @@
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|options|[CaptureImageOptions](../captureimageoptions.md)|no|TODO: options description|
+|`options`|`object`|no|Placeholder description: captureImage.options|
 
 
 ## Return Value
+
 Type: `Promise<File>`
 
-## Remarks
 See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [File](https://developer.mozilla.org/docs/Web/API/File)
+
+## Remarks
+
+The `options` parameter object has the following properties:
+
+|Name|Type|Description|
+| ---|----|-----------|
+|`allowEdit`|`boolean`|Placeholder description: CaptureImageOptions.allowEdit|
+|`height`|`number`|Placeholder description: CaptureImageOptions.height|
+|`preferFrontCamera`|`boolean`|Placeholder description: CaptureImageOptions.preferFrontCamera|
+|`quality`|`number`|Placeholder description: CaptureImageOptions.quality|
+|`width`|`number`|Placeholder description: CaptureImageOptions.width|
 
 ### Related topics
 
