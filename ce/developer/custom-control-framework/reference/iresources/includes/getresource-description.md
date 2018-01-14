@@ -1,0 +1,1 @@
+Gets a resource from within the control manifest.

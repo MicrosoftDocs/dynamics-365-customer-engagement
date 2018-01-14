@@ -178,6 +178,11 @@
       href: reference/ipropbag.md
     - name: IResources
       href: reference/iresources.md
+      items:
+      - name: getResource
+        href: reference/iresources/getresource.md
+      - name: getString
+        href: reference/iresources/getstring.md       
     - name: IThemingBag
       href: reference/ithemingbag.md
     - name: IUserSettings

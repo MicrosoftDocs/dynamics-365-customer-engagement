@@ -1,0 +1,2 @@
+# getString
+getstring-description.md

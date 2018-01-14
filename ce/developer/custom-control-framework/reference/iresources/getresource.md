@@ -1,0 +1,2 @@
+# getResource
+getresource-description.md

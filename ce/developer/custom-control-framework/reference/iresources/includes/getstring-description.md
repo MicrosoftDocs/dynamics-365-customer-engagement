@@ -1,0 +1,1 @@
+Get the localized string for the given identifier.
