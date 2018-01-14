@@ -21,7 +21,7 @@ manager: "amyla"
 
 ## Example
 ```javascript
-SimpleIncrementStandardControl.prototype.destroy = function () {
+MyControl.prototype.destroy = function () {
  this.button.removeEventListener("click", this.onButtonClick);
 };
 ```

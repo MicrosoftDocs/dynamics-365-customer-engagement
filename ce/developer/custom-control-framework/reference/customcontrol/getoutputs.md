@@ -34,7 +34,7 @@ For example, if your manifest has a property `value` that is an `input-output`, 
 ## Example
 
 ```javascript
-SimpleIncrementStandardControl.prototype.getOutputs = function () {
+MyControl.prototype.getOutputs = function () {
     var result = {
         value: this._value
     };

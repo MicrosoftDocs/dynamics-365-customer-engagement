@@ -18,6 +18,7 @@
 ## Return Value
 
 Type: `Promise<File[]>`
+
 See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [File](https://developer.mozilla.org/docs/Web/API/File)
 
 ## Remarks
