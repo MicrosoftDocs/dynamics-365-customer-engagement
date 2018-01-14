@@ -1,0 +1,1 @@
+Determines if take picture operation is supported in the device

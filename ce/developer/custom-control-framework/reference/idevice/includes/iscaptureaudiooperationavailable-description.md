@@ -1,0 +1,1 @@
+Determines if capture audio operation is supported in the device

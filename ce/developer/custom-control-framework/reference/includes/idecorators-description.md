@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\includes\idecorators-description.md
+The decorators where Parent Control passed to the child control.

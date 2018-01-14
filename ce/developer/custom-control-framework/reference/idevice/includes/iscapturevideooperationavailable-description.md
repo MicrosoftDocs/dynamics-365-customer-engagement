@@ -1,0 +1,1 @@
+Determines if capture video operation is supported in the device

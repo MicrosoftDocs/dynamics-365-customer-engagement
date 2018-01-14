@@ -26,7 +26,7 @@ manager: "amyla"
 |context|dictionary|yes|TODO: context description|
 
 ## Return Value
-Type: IVirtualComponent
+Type: `IVirtualComponent`
 
 TODO: 
 

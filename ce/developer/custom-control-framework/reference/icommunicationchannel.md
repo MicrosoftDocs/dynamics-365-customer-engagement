@@ -8,7 +8,7 @@
 
 |Method | Description | 
 | ------------- |-------------|
-|[getPresenceMappedField](icommunicationchannel/destroy.md)|[!INCLUDE [getpresencemappedfield-description](icommunicationchannel/includes/getpresencemappedfield-description.md)]| 
+|[getPresenceMappedField](icommunicationchannel/getpresencemappedfield.md)|[!INCLUDE [getpresencemappedfield-description](icommunicationchannel/includes/getpresencemappedfield-description.md)]| 
 |[isPresenceEnabled](icommunicationchannel/ispresenceenabled.md)|[!INCLUDE [ispresenceenabled-description](icommunicationchannel/includes/ispresenceenabled-description.md)]|
 
 

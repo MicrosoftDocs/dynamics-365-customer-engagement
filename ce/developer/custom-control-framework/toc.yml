@@ -27,10 +27,36 @@
       href: reference/iclient.md
     - name: ICommunicationChannel
       href: reference/icommunicationchannel.md
+      items:
+      - name: getPresenceMappedField
+        href: reference/icommunicationchannel/getpresencemappedfield.md
+      - name: isPresenceEnabled
+        href: reference/icommunicationchannel/getpresencemappedfield.md        
     - name: IDecorators
       href: reference/idecorators.md
     - name: IDevice
       href: reference/idevice.md
+      items:
+      - name: captureAudio
+        href: reference/idevice/captureaudio.md
+      - name: captureImage
+        href: reference/idevice/captureimage.md
+      - name: captureVideo
+        href: reference/idevice/capturevideo.md 
+      - name: getBarcodeValue
+        href: reference/idevice/getbarcodevalue.md 
+      - name: getCurrentPosition
+        href: reference/idevice/getcurrentposition.md 
+      - name: isCaptureAudioOperationAvailable
+        href: reference/idevice/iscaptureaudiooperationavailable.md 
+      - name: isCaptureVideoOperationAvailable
+        href: reference/idevice/iscapturevideooperationavailable.md                                         
+      - name: isGetBarcodeValueOperationAvailable
+        href: reference/idevice/isgetbarcodevalueoperationavailable.md    
+      - name: isTakePictureOperationAvailable
+        href: reference/idevice/istakepictureoperationavailable.md  
+      - name: pickFile
+        href: reference/idevice/pickfile.md                                              
     - name: IExternalContext
       href: reference/iexternalcontext.md
     - name: IFactory

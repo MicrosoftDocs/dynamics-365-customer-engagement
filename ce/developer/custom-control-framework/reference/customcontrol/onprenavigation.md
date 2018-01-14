@@ -20,9 +20,6 @@ manager: "amyla"
 
 `onPreNavigation()`
 
-## Remarks
-
-TODO
 
 ### Related topics
 

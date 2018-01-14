@@ -20,9 +20,6 @@ manager: "amyla"
 
 `render()`
 
-## Remarks
-
-TODO
 
 ### Related topics
 
