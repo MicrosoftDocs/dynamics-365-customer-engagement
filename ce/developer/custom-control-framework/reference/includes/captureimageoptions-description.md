@@ -1,1 +1,0 @@
-The interface for capture image settings.

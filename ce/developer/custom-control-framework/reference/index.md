@@ -21,6 +21,26 @@ This section contains reference documentation for creating custom controls using
 |Name|Description|
 |----|-----------|
 |[CustomControl](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
+|[Diagnostics](diagnostics.md)|[!INCLUDE [diagnostics-description](includes/diagnostics-description.md)]|
+|[IAccessibility](iaccessibility.md)|[!INCLUDE [iaccessibility-description](includes/iaccessibility-description.md)]|
+|[IClient](iclient.md)|[!INCLUDE [iclient-description](includes/iclient-description.md)]|
+|[ICommunicationChannel](icommunicationchannelname.md)|[!INCLUDE [icommunicationchannelname-description](includes/icommunicationchannelname-description.md)]|
+|[IDevice](idevice.md)|[!INCLUDE [idevice-description](includes/idevice-description.md)]|
+|[IExternalContext](iexternalcontext.md)|[!INCLUDE [iexternalcontext-description](includes/iexternalcontext-description.md)]|
+|[IFactory](ifactory.md)|[!INCLUDE [ifactory-description](includes/ifactory-description.md)]|
+|[IFormatting](iformatting.md)|[!INCLUDE [iformatting-description](includes/iformatting-description.md)]|
+|[IMode](imode.md)|[!INCLUDE [imode-description](includes/imode-description.md)]|
+|[INavigation](inavigation.md)|[!INCLUDE [inavigation-description](includes/inavigation-description.md)]|
+|[IOrgSettings](iorgsettings.md)|[!INCLUDE [iorgsettings-description](includes/iorgsettings-description.md)]|
+|[IPage](ipage.md)|[!INCLUDE [ipage-description](includes/ipage-description.md)]|
+|[IPropBag](ipropbag.md)|[!INCLUDE [ipropbag-description](includes/ipropbag-description.md)]|
+|[IResources](iresources.md)|[!INCLUDE [iresources-description](includes/iresources-description.md)]|
+|[IThemingBag](ithemingbag.md)|[!INCLUDE [ithemingbag-description](includes/ithemingbag-description.md)]|
+|[IUserSettings](iusersettings.md)|[!INCLUDE [iusersettings-description](includes/iusersettings-description.md)]|
+|[IUtility](iutility.md)|[!INCLUDE [iutility-description](includes/iutility-description.md)]|
+|[Offline](offline.md)|[!INCLUDE [offline-description](includes/offline-description.md)]|
+|[Reporting](reporting.md)|[!INCLUDE [reporting-description](includes/reporting-description.md)]|
+|[WebApi](webapi.md)|[!INCLUDE [webapi-description](includes/webapi-description.md)]|
 
 ### Related topics
 
