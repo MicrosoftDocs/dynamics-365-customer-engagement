@@ -68,6 +68,13 @@
         href: reference/idevice/pickfile.md                                              
     - name: IExternalContext
       href: reference/iexternalcontext.md
+      items:
+      - name: getAvailableExternalContexts
+        href: reference/iexternalcontext/getavailableexternalcontexts.md
+      - name: getExternalContextProperty
+        href: reference/iexternalcontext/getexternalcontextproperty.md 
+      - name: invokeExternalContextAction
+        href: reference/iexternalcontext/invokeexternalcontextaction.md                 
     - name: IFactory
       href: reference/ifactory.md
     - name: IFormatting

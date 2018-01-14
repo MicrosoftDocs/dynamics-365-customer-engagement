@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\includes\diagnostics-description.md
+Interface for Diagnostics
