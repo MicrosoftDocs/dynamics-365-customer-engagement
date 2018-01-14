@@ -1,0 +1,1 @@
+Reports a success for the component - the activityid, orgid and userid are automatically appended dimensions.
