@@ -1,0 +1,1 @@
+Whether the user is online or offline.

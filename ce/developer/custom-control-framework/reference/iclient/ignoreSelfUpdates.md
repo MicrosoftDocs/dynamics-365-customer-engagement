@@ -1,0 +1,2 @@
+# ignoreSelfUpdates
+ignoreselfupdates-description.md
