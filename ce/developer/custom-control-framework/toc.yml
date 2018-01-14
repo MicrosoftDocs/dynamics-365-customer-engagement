@@ -21,6 +21,15 @@
         href: reference/customcontrol/updateview.md
     - name: Diagnostics
       href: reference/diagnostics.md
+      items:
+      - name: traceDebug
+        href: reference/diagnostics/tracedebug.md
+      - name: traceError
+        href: reference/diagnostics/traceerror.md
+      - name: traceInfo
+        href: reference/diagnostics/traceinfo.md
+      - name: traceWarning
+        href: reference/diagnostics/tracewarning.md          
     - name: IAccessibility
       href: reference/iaccessibility.md
     - name: IClient
@@ -31,7 +40,7 @@
       - name: getPresenceMappedField
         href: reference/icommunicationchannel/getpresencemappedfield.md
       - name: isPresenceEnabled
-        href: reference/icommunicationchannel/getpresencemappedfield.md        
+        href: reference/icommunicationchannel/ispresenceenabled.md        
     - name: IDecorators
       href: reference/idecorators.md
     - name: IDevice
@@ -87,6 +96,8 @@
       href: reference/iutility.md
     - name: Offline
       href: reference/offline.md
+    - name: PickFileOptions
+      href: reference/pickfileoptions.md      
     - name: Reporting
       href: reference/reporting.md
     - name: WebApi
