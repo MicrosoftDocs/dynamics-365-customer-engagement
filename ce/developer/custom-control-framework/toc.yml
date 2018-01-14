@@ -140,6 +140,31 @@
         href: reference/imode/trackcontainerresize.md                                
     - name: INavigation
       href: reference/inavigation.md
+      items:
+      - name: openAlertDialog
+        href: reference/inavigation/openalertdialog.md
+      - name: openConfirmDialog
+        href: reference/inavigation/openconfirmdialog.md
+      - name: openDialog
+        href: reference/inavigation/opendialog.md
+      - name: openErrorDialog
+        href: reference/inavigation/openerrordialog.md
+      - name: openFile
+        href: reference/inavigation/openfile.md
+      - name: openForm
+        href: reference/inavigation/openform.md
+      - name: openGrid
+        href: reference/inavigation/opengrid.md
+      - name: openMap
+        href: reference/inavigation/openmap.md
+      - name: openPhoneNumber
+        href: reference/inavigation/openphonenumber.md
+      - name: openTaskFlow
+        href: reference/inavigation/opentaskflow.md
+      - name: openUrl
+        href: reference/inavigation/openurl.md
+      - name: openWebResource
+        href: reference/inavigation/openwebresource.md   
     - name: IOrgSettings
       href: reference/iorgsettings.md
     - name: IPage
