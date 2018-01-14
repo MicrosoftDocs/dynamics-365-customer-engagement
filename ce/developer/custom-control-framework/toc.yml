@@ -193,6 +193,13 @@
       href: reference/pickfileoptions.md      
     - name: Reporting
       href: reference/reporting.md
+      items:
+      - name: reportEvent
+        href: reference/reporting/reportevent.md
+      - name: reportFailure
+        href: reference/reporting/reportfailure.md 
+      - name: reportSuccess
+        href: reference/reporting/reportsuccess.md                        
     - name: WebApi
       href: reference/webapi.md
     
