@@ -169,6 +169,9 @@
       href: reference/iorgsettings.md
     - name: IPage
       href: reference/ipage.md
+      items:
+      - name: getClientUrl
+        href: reference/ipage/getclienturl.md      
     - name: IPerformance
       href: reference/iperformance.md
     - name: IPropBag
