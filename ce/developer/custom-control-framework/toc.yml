@@ -127,6 +127,17 @@
       href: reference/ilearningpath.md
     - name: IMode
       href: reference/imode.md
+      items:
+      - name: clearNotification
+        href: reference/imode/clearnotification.md
+      - name: setControlState
+        href: reference/imode/setcontrolstate.md
+      - name: setFullScreen
+        href: reference/imode/setfullscreen.md
+      - name: setNotification
+        href: reference/imode/setnotification.md
+      - name: trackContainerResize
+        href: reference/imode/trackcontainerresize.md                                
     - name: INavigation
       href: reference/inavigation.md
     - name: IOrgSettings
