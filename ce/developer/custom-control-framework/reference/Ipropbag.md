@@ -89,9 +89,33 @@ Placeholder description: IPropBag.formatting
 
 Placeholder description: IPropBag.learningPath
 
-**Type**: [ILearningPath](ilearningpath.md)
+<!-- 
+I don't think we should document ILearningPath as an interface in our TOC.
+We can document it in-line with this property.
 
+interface ILearningPath
+{
+	/**
+	 * DOM attribute name.
+	 */
+	DOMAttributeName: string;
 
+	/**
+	 * Identifier for the base control.
+	 */
+	baseControlId: string;
+}
+
+-->
+
+**Type**: `object`
+
+### Remarks
+The object has the following `string` properties:
+|Name|Description|
+|----|-----------|
+|DOMAttributeName|DOM attribute name.|
+|baseControlId|Identifier for the base control.|
 
 ## mode
 

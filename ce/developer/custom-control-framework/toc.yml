@@ -143,8 +143,6 @@
         href: reference/iformatting/formattime.md 
       - name: getWeekOfYear
         href: reference/iformatting/getweekofyear.md                                                                                                                                                       
-    - name: ILearningPath
-      href: reference/ilearningpath.md
     - name: IMode
       href: reference/imode.md
       items:
