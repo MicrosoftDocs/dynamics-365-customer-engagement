@@ -10,7 +10,7 @@ Placeholder description: IThemingBag.borders
 
 **Type**: `IThemingBagBorders`
 
-**Required**: yes
+
 
 ## breakpoints
 
@@ -18,7 +18,7 @@ Placeholder description: IThemingBag.breakpoints
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## IThemingBagBreakpoints
 
@@ -26,7 +26,7 @@ Placeholder description: IThemingBag.IThemingBagBreakpoints
 
 **Type**: `IThemingBagBreakpoints`
 
-**Required**: yes
+
 
 ## colors
 
@@ -34,7 +34,7 @@ Placeholder description: IThemingBag.colors
 
 **Type**: `IThemingBagColors`
 
-**Required**: yes
+
 
 ## fontfamilies
 
@@ -42,7 +42,7 @@ Placeholder description: IThemingBag.fontfamilies
 
 **Type**: `IThemingBagFontFamilies`
 
-**Required**: yes
+
 
 ## fontsizes
 
@@ -50,7 +50,7 @@ Placeholder description: IThemingBag.fontsizes
 
 **Type**: `IThemingBagFontSizes`
 
-**Required**: yes
+
 
 ## lookup
 
@@ -58,7 +58,7 @@ Placeholder description: IThemingBag.lookup
 
 **Type**: `IThemingBagLookup`
 
-**Required**: yes
+
 
 ## measures
 
@@ -66,7 +66,7 @@ Placeholder description: IThemingBag.measures
 
 **Type**: `IThemingBagMeasures`
 
-**Required**: yes
+
 
 ## normalfontcolor
 
@@ -74,7 +74,7 @@ Placeholder description: IThemingBag.normalfontcolor
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## normalfontfamily
 
@@ -82,7 +82,7 @@ Placeholder description: IThemingBag.normalfontfamily
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## normalfontsize
 
@@ -90,7 +90,7 @@ Placeholder description: IThemingBag.normalfontsize
 
 **Type**: `IThemingBagShadows`
 
-**Required**: yes
+
 
 ## shadows
 
@@ -98,7 +98,7 @@ Placeholder description: IThemingBag.shadows
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## solidborderstyle
 
@@ -106,7 +106,7 @@ Placeholder description: IThemingBag.solidborderstyle
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## spacings
 
@@ -114,7 +114,7 @@ Placeholder description: IThemingBag.spacings
 
 **Type**: `IThemingBagSpacings`
 
-**Required**: yes
+
 
 ## textbox
 
@@ -122,7 +122,7 @@ Placeholder description: IThemingBag.textbox
 
 **Type**: `IThemingBagTextBox`
 
-**Required**: yes
+
 
 
 ## Methods

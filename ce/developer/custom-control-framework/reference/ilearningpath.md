@@ -10,7 +10,6 @@ Placeholder description: ILearningPath.DOMAttributeName
 
 **Type**: `string`
 
-**Required**: yes
 
 ## baseControlId
 
@@ -18,4 +17,3 @@ Placeholder description: ILearningPath.baseControlId
 
 **Type**: `string`
 
-**Required**: yes

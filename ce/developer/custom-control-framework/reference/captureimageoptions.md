@@ -10,7 +10,7 @@ Placeholder description: CaptureImageOptions.allowEdit
 
 **Type**: `boolean`
 
-**Required**: yes
+
 
 ## height
 
@@ -18,7 +18,7 @@ Placeholder description: CaptureImageOptions.height
 
 **Type**: `number`
 
-**Required**: yes
+
 
 ## preferFrontCamera
 
@@ -26,7 +26,7 @@ Placeholder description: CaptureImageOptions.preferFrontCamera
 
 **Type**: `boolean`
 
-**Required**: yes
+
 
 
 ## quality
@@ -35,7 +35,7 @@ Placeholder description: CaptureImageOptions.quality
 
 **Type**: `number`
 
-**Required**: yes
+
 
 
 ## width
@@ -44,7 +44,7 @@ Placeholder description: CaptureImageOptions.width
 
 **Type**: `number`
 
-**Required**: yes
+
 
 
 ### Related topics

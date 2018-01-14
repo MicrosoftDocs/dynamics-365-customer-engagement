@@ -50,8 +50,6 @@
         href: reference/icommunicationchannel/getpresencemappedfield.md
       - name: isPresenceEnabled
         href: reference/icommunicationchannel/ispresenceenabled.md        
-    - name: IDecorators
-      href: reference/idecorators.md
     - name: IDevice
       href: reference/idevice.md
       items:

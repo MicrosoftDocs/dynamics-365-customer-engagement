@@ -10,7 +10,7 @@ The app identifier.
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## entityId
 
@@ -18,7 +18,7 @@ The identifier of the entity (if applicable).
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## entityTypeName
 
@@ -26,7 +26,7 @@ The entity type name of the page (if applicable).
 
 **Type**: `string`
 
-**Required**: yes
+
 
 ## isPageReadOnly
 
@@ -34,7 +34,7 @@ Whether the page is read only.
 
 **Type**: `boolean`
 
-**Required**: yes
+
 
 
 ## Methods

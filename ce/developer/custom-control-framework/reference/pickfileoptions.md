@@ -10,7 +10,7 @@ Placeholder description: PickFileOptions.accept
 
 **Type**: `string`
 
-**Required**: no
+**Optional**
 
 ## allowMultipleFiles
 
@@ -18,7 +18,7 @@ Placeholder description: PickFileOptions.allowMultipleFiles
 
 **Type**: `boolean`
 
-**Required**: no
+**Optional**
 
 ## maximumAllowedFileSize
 
@@ -26,4 +26,3 @@ Placeholder description: PickFileOptions.maximumAllowedFileSize
 
 **Type**: `number`
 
-**Required**: yes

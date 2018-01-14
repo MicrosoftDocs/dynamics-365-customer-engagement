@@ -11,7 +11,7 @@ The tab index of the control.
 
 **Type**: `number`
 
-**Required**: yes
+
 
 
 ## Methods
