@@ -1,0 +1,1 @@
+Gets the unique identifier of the control.

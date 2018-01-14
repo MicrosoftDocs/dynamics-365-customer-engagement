@@ -1,0 +1,1 @@
+Unfocuses an element of the control.

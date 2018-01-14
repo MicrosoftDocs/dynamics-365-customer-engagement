@@ -32,6 +32,15 @@
         href: reference/diagnostics/tracewarning.md          
     - name: IAccessibility
       href: reference/iaccessibility.md
+      items:
+      - name: blurElementById
+        href: reference/iaccessibility/blurelementbyid.md
+      - name: focusElementById
+        href: reference/iaccessibility/focuselementbyid.md
+      - name: getUniqueId
+        href: reference/iaccessibility/getuniqueid.md
+      - name: registerShortcut
+        href: reference/iaccessibility/registershortcut.md
     - name: IClient
       href: reference/iclient.md
     - name: ICommunicationChannel
