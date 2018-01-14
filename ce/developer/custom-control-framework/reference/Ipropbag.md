@@ -91,7 +91,7 @@ Placeholder description: IPropBag.learningPath
 
 <!-- 
 I don't think we should document ILearningPath as an interface in our TOC.
-We can document it in-line with this property.
+We can document it in-line with this property since it is only used here.
 
 interface ILearningPath
 {
@@ -114,8 +114,8 @@ interface ILearningPath
 The object has the following `string` properties:
 |Name|Description|
 |----|-----------|
-|DOMAttributeName|DOM attribute name.|
-|baseControlId|Identifier for the base control.|
+|`DOMAttributeName`|DOM attribute name.|
+|`baseControlId`|Identifier for the base control.|
 
 ## mode
 

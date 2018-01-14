@@ -28,7 +28,7 @@ For example, if your manifest has a property `value` that is an `input-output`, 
 ```javascript
 {
     value: myvalue
-};
+}
 ```
 
 ## Example
