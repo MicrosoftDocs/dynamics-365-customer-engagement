@@ -100,6 +100,29 @@
         href: reference/iexternalcontext/updatecomponent.md     
     - name: IFormatting
       href: reference/iformatting.md
+      items:
+      - name: formatCurrency
+        href: reference/iformatting/formatcurrency.md
+      - name: formatDateAsFilterStringInUTC
+        href: reference/iformatting/formatdateasfilterstringinutc.md 
+      - name: formatDateLong
+        href: reference/iformatting/formatdatelong.md 
+      - name: formatDateLongAbbreviated
+        href: reference/iformatting/formatdatelongabbreviated.md 
+      - name: formatDateShort
+        href: reference/iformatting/formatdateshort.md 
+      - name: formatDateYearMonth
+        href: reference/iformatting/formatdateyearmonth.md 
+      - name: formatDecimal
+        href: reference/iformatting/formatdecimal.md 
+      - name: formatInteger
+        href: reference/iformatting/formatinteger.md 
+      - name: formatLanguage
+        href: reference/iformatting/formatlanguage.md 
+      - name: formatTime
+        href: reference/iformatting/formattime.md 
+      - name: getWeekOfYear
+        href: reference/iformatting/getweekofyear.md                                                                                                                                                       
     - name: ILearningPath
       href: reference/ilearningpath.md
     - name: IMode
