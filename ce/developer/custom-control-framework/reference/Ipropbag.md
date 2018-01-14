@@ -17,7 +17,7 @@ Placeholder description: IPropBag.accessibility
 
 Placeholder description: IPropBag.children
 
-**Type**: any
+**Type**: `any`
 
 **Required**: no
 
@@ -129,7 +129,7 @@ Placeholder description: IPropBag.page
 
 Placeholder description: IPropBag.parameters
 
-**Type**: any
+**Type**: `any`
 
 **Required**: yes
 
@@ -145,7 +145,7 @@ Placeholder description: IPropBag.performance
 
 Placeholder description: IPropBag.refs
 
-**Type**: object
+**Type**: `object`
 
 **Required**: no
 
