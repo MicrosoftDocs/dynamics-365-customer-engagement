@@ -85,9 +85,9 @@ The illustrations given below show multi-stream and single-stream dashboards wit
   
   
  If you have five streams in the multi-stream dashboard in the standard view, after you switch to tiles, you’ll see five tiles. If a view that tracks your active cases contains 32 items, the corresponding **My Active Cases** tile will display a numerical number 32 in the center of the tile. To drill down to a particular case, do one of the following:
-- Click the tile anywhere
-- Click **View**
-- Click  **(…)** in the top right corner
+- Select the tile anywhere
+- Select **View**
+- Select  **(…)** in the top right corner
 
 A flyout window will open. If there are too many cases to show, the window will have a scrollbar. You can navigate and select a particular case in the list, which will take you straight to the case form. The illustration shows the tiles and underlined cases in the list.  
   
@@ -169,7 +169,7 @@ For example, you can choose to view cases created in **This Quarter**, or  **Las
 
 Benefit from the Bulk Select option, where you can select multiple records at one time and perform specific actions.
 
-Select the Bulk Select icon and select multiple records by selecting the check box. Then click **(...)** to view the actions that can be performed on the selected records.
+Select the Bulk Select icon and select multiple records by selecting the check box. Then select **(...)** to view the actions that can be performed on the selected records.
 
 ![bulk-select](media/bulk-select-csh.png "bulk select")
 

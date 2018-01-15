@@ -92,7 +92,7 @@ If you use a screen reader, follow the steps given below to access any of the su
 3. To access these submenu options, use the assistive technology (AT) shortcut key to navigate to the next button. For example, if you use the NVDA screen reader, you would use the “b” shortcut key (NVDA+b). To navigate through all the options, select the key repeatedly.
 
 > [!IMPORTANT]
-> There are several areas in the user interface (UI) that have auto-collapse built in for menus. This  includes the Navigation Bar and Form Navigation. Both expand when clicked, but after 30 seconds of inactivity, the items collapse.
+> There are several areas in the user interface (UI) that have auto-collapse built in for menus. This  includes the Navigation Bar and Form Navigation. Both expand when selected, but after 30 seconds of inactivity, the items collapse.
 
 ### Navigating through stages of a process
 If you’re in a record, for example a lead, this section shows you the keyboard shortcuts to navigate through the different stages in the sales process to qualify the lead, and how to make selections in those stages. For example, if you want to move easily from the Qualify stage through to the Close stage, try these keyboard actions:
@@ -102,8 +102,8 @@ If you’re in a record, for example a lead, this section shows you the keyboard
 > [!NOTE]
 > The process name is an icon at the bottom of the page, not the top.
 
-- **Keyboard shortcuts in Windows:** If you are using Windows operating system, click the following link and choose the version number from the drop-down. You can view all the shortcuts that are applicable to a Windows environment. See [Windows keyboard shortcuts](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts) 
-- **Keyboard shortcuts in Mac:** If you are using Mac operating system, click the following link to view all the shortcuts that are applicable to a Mac environment. See [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
+- **Keyboard shortcuts in Windows:** If you are using Windows operating system, select the following link and choose the version number from the drop-down. You can view all the shortcuts that are applicable to a Windows environment. See [Windows keyboard shortcuts](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts) 
+- **Keyboard shortcuts in Mac:** If you are using Mac operating system, select the following link to view all the shortcuts that are applicable to a Mac environment. See [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236)
 
 
 ## See also

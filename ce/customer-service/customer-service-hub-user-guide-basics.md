@@ -156,7 +156,7 @@ To return back, select **Open Views** in the command bar.
 <a name="bkmk_EmailLink"></a>   
 
 ## Email a link  
-You can Email links to records so your colleagues can quickly find these records by clicking the links. To Email links to records, select one or more records in the list, and then on the command bar, click **Email a link**. The default Email client opens with the links to these records. The recipients will see all content in the records for which they have permission.  
+You can Email links to records so your colleagues can quickly find these records by selecting the links. To Email links to records, select one or more records in the list, and then on the command bar, select **Email a link**. The default Email client opens with the links to these records. The recipients will see all content in the records for which they have permission.  
 
   
 <a name="bkmk_NewForms"></a>   
@@ -167,7 +167,7 @@ You can Email links to records so your colleagues can quickly find these records
 ### **Business processes**  
  In the Customer Service Hub, Case and Knowledge article forms display a process bar called Business Process flow, which appears when you save the record for the first time. 
  
-When you click a process stage, you'll see relevant steps for that stage. A flag on a stage indicates the stage you’re currently on. When you click an active stage, you can see the **Next Stage** button move to the next stage in the process.  
+When you select a process stage, you'll see relevant steps for that stage. A flag on a stage indicates the stage you’re currently on. When you select an active stage, you can see the **Next Stage** button move to the next stage in the process.  
 
 The stages in the business process flow can  be displayed in floating mode, along with docked mode. Stages can  be aligned in a vertical layout, instead of horizontal, which makes it easier to see what steps are required to be completed before moving forward. You can also choose to include an optional step in the business process flow and define criteria to trigger it.
 
