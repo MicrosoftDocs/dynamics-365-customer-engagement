@@ -157,12 +157,12 @@ A compound segment combines one or more existing segments into a single new segm
 
 1. Create or edit a segment and, on the **General** tab, set its **Segment type** to **Compound segment**.
 
-1. Go to the **Definition** tab, which shows a drop-down list for selecting your first member segment. Choose an existing segment and then select the submit button next to the list.
+1. Go to the **Definition** tab, which shows a drop-down list for selecting your first member segment. Choose an existing segment and then select the submit button next to the list.  
     ![Choose the first segment](media/segment-compound-step1.png "Choose the first segment")
     > [!TIP]
     > Only existing, live segments are shown in the list. If you don't see a segment here that you are expecting, check to make sure it's live (not draft).
 
-1. Your chosen segment is added, and a new **Add Operation** block is shown. If you want to combine another segment with the current result, then choose an operation here.
+1. Your chosen segment is added, and a new **Add Operation** block is shown. If you want to combine another segment with the current result, then choose an operation here.  
     ![Choose an operation for combining a new segment with the current result](media/segment-compound-step2.png "Choose an operation for combining a new segment with the current result")
 
     The operations work as follows:
@@ -170,10 +170,10 @@ A compound segment combines one or more existing segments into a single new segm
     - **Exclude**: removes members of the next segment from the results so far.
     - **Intersect**: removes all members from the results so far that are not also members of the next segment.
 
-1. A new block is added, which once again asks you to choose a segment. As before, choose a segment and select the submit button to apply it.
+1. A new block is added, which once again asks you to choose a segment. As before, choose a segment and select the submit button to apply it.  
     ![Choose a segment to apply using the selected operation](media/segment-compound-step3.png "Choose a segment to apply using the selected operation")
 
-1. Continue to compose your segment by adding more segments as needed and choosing an operation for each. As with the **Flow** view for dynamic, segments, you'll build a Sankey diagram of how your segments are combined, and how contacts flow into and out of the segment as a result of each operation.
+1. Continue to compose your segment by adding more segments as needed and choosing an operation for each. As with the **Flow** view for dynamic, segments, you'll build a Sankey diagram of how your segments are combined, and how contacts flow into and out of the segment as a result of each operation.  
     ![Sankey diagram for a compound segment](media/segment-compound-step4.png "Sankey diagram for a compound segment")
     > [!TIP]
     > To edit or remove a segment already shown in the diagram, hover your mouse pointer over the upper-right corner of a displayed tile to reveal edit and delete buttons, which you can select to edit or delete that tile.
