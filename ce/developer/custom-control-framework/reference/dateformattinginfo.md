@@ -34,7 +34,19 @@ Placeholder description: DateFormattingInfo.amDesignator
 
 Placeholder description: DateFormattingInfo.calendar
 
-**Type**: `Calendar`
+**Type**: `object`
+
+The calendar object contains the following properties:
+
+|Name|Type|Description|
+|--|--|--|
+|`algorithmType`|`number`|Placeholder description: Calendar.algorithmType|
+|`calendarType`|`number`|Placeholder description: Calendar.calendarType|
+|`eras`|`number[]`|Placeholder description: Calendar.eras|
+|`isReadOnly`|`boolean`|Placeholder description: Calendar.isReadOnly|
+|`maxSupportedDateTime`|`Date`|Placeholder description: Calendar.maxSupportedDateTime|
+|`minSupportedDateTime`|`Date`|Placeholder description: Calendar.minSupportedDateTime|
+|`twoDigitYearMax`|`number`|Placeholder description: Calendar.twoDigitYearMax|
 
 ## calendarWeekRule
 

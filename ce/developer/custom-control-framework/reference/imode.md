@@ -32,7 +32,15 @@ Unfocus this control and any children.
 
 Contains type, id and record name of current entity.
 
-**Type**: `IContextInfo`
+**Type**: `object`
+
+The contextInfo object contains the following properties:
+
+|Name|Type|Optional|Description|
+|--|--|--|--|
+|`entityId`|`string`|no|The unique id for the entity|
+|`entityRecordName`|`string`|yes|The value of the primary name attribute of the entity|
+|`entityTypeName`|`string`|no|Logical name of the entity|
 
 
 ## focus
