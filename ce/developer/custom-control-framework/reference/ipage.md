@@ -42,3 +42,8 @@ Whether the page is read only.
 |Method | Description | 
 | ------|-------------|
 |[getClientUrl](ipage/getclienturl.md)|[!INCLUDE [getclienturl-description](ipage/includes/getclienturl-description.md)]|
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)

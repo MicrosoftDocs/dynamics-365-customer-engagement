@@ -135,3 +135,8 @@ Unique name of the organization
 
 **Type**: `string`
 
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)
+

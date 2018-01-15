@@ -15,3 +15,8 @@
 |[retrieveMultipleRecords](webapi/retrievemultiplerecords.md)|[!INCLUDE [retrievemultiplerecords-description](webapi/includes/retrievemultiplerecords-description.md)]|
 |[retrieveRecord](webapi/retrieverecord.md)|[!INCLUDE [retrieverecord-description](webapi/includes/retrieverecord-description.md)]|
 |[updateRecord](webapi/updaterecord.md)|[!INCLUDE [updaterecord-description](webapi/includes/updaterecord-description.md)]|
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)

@@ -71,3 +71,8 @@ The `orgSettings` object contains the following properties:
 |[ignoreSelfUpdates](iclient/ignoreselfupdates.md)|[!INCLUDE [ignoreselfupdates-description](iclient/includes/ignoreselfupdates-description.md)]|
 |[isOffline](iclient/isoffline.md)|[!INCLUDE [isoffline-description](iclient/includes/isoffline-description.md)]|
 |[setFullScreen](iclient/setfullscreen.md)|[!INCLUDE [setfullscreen-description](iclient/includes/setfullscreen-description.md)]|
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)

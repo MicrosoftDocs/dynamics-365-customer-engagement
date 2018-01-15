@@ -25,3 +25,8 @@
 |[retrieveFormWithAttributes](iutility/retrieveformwithattributes.md)|[!INCLUDE [retrieveformwithattributes-description](iutility/includes/retrieveformwithattributes-description.md)]|
 |[retrieveRecordCommand](iutility/retrieveRecordCommand.md)|[!INCLUDE [retrieveRecordCommand-description](iutility/includes/retrieveRecordCommand-description.md)]|
 |[triggerOfflineMetadataSync](iutility/triggerOfflineMetadataSync.md)|[!INCLUDE [triggerOfflineMetadataSync-description](iutility/includes/triggerOfflineMetadataSync-description.md)]|
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)

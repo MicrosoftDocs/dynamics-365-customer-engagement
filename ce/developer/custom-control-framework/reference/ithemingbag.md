@@ -263,3 +263,8 @@ The `textbox` object contains the following properties:
 |[getEntityColor](ithemingbag/getentitycolor.md)|[!INCLUDE [getentitycolor-description](ithemingbag/includes/getentitycolor-description.md)]|
 |[inlineLayout](ithemingbag/inlinelayout.md)|[!INCLUDE [inlinelayout-description](ithemingbag/includes/inlinelayout-description.md)]|
 |[rightAlignEdit](ithemingbag/rightalignedit.md)|[!INCLUDE [rightalignedit-description](ithemingbag/includes/rightalignedit-description.md)]|
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)

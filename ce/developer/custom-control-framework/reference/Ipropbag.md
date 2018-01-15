@@ -40,7 +40,9 @@ Placeholder description: IPropBag.communicationChannel
 ## decorators
 
 Placeholder description: IPropBag.decorators
-<!-- IDecorators seems to be no more than a dictionary
+<!-- 
+QUESTION
+IDecorators seems to be no more than a dictionary
 	interface IDecorators
 	{
 		//Multiple decorators where parent can pass to child control
@@ -90,6 +92,7 @@ Placeholder description: IPropBag.formatting
 Placeholder description: IPropBag.learningPath
 
 <!-- 
+QUESTION
 I don't think we should document ILearningPath as an interface in our TOC.
 We can document it in-line with this property since it is only used here.
 
@@ -168,7 +171,9 @@ Placeholder description: IPropBag.parameters
 ## performance
 
 <!-- 
+QUESTION
 All methods provided by IPerformance are internal
+Should we just remove it?
 --->
 
 [!INCLUDE [internal](../../../includes/internal.md)]
@@ -222,6 +227,11 @@ Placeholder description: IPropBag.utils
 Placeholder description: IPropBag.webAPI
 
 **Type**: [WebApi](webapi.md)
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)
 
 
 

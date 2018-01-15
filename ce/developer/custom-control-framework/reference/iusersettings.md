@@ -83,3 +83,9 @@ The name of the current user
 |Method | Description | 
 | ------|-------------|
 |[getTimeZoneOffsetMinutes](iusersettings/gettimezoneoffsetminutes.md)|[!INCLUDE [gettimezoneoffsetminutes-description](iusersettings/includes/gettimezoneoffsetminutes-description.md)]|
+
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)

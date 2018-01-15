@@ -174,3 +174,8 @@ Placeholder description: DateFormattingInfo.universalSortableDateTimePattern
 Placeholder description: DateFormattingInfo.yearMonthPattern
 
 **Type**: `string`
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)

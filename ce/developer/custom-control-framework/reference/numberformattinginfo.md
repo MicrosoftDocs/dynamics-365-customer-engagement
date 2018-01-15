@@ -143,3 +143,8 @@ Placeholder description: NumberFormattingInfo.percentSymbol
 Placeholder description: NumberFormattingInfo.name
 
 **Type**: `string`
+
+### Related topics
+
+[Custom Control Framework API Reference](index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)
