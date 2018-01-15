@@ -212,6 +212,8 @@
         href: reference/ithemingbag/inlinelayout.md
       - name: rightAlignEdit
         href: reference/ithemingbag/rightalignedit.md        
+    - name: IThemingBagColors
+      href: reference/ithemingbagcolors.md
     - name: IUserSettings
       href: reference/iusersettings.md
       items:

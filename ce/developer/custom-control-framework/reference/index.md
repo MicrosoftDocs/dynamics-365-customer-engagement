@@ -37,6 +37,7 @@ This section contains reference documentation for creating custom controls using
 |[IPropBag](ipropbag.md)|[!INCLUDE [ipropbag-description](includes/ipropbag-description.md)]|
 |[IResources](iresources.md)|[!INCLUDE [iresources-description](includes/iresources-description.md)]|
 |[IThemingBag](ithemingbag.md)|[!INCLUDE [ithemingbag-description](includes/ithemingbag-description.md)]|
+|[IThemingBagColors](ithemingbagcolors.md)|[!INCLUDE [ithemingbagcolors-description](includes/ithemingbagcolors-description.md)]|
 |[IUserSettings](iusersettings.md)|[!INCLUDE [iusersettings-description](includes/iusersettings-description.md)]|
 |[IUtility](iutility.md)|[!INCLUDE [iutility-description](includes/iutility-description.md)]|
 |[NumberFormattingInfo](numberformattinginfo.md)|[!INCLUDE [numberformattinginfo-description](includes/numberformattinginfo-description.md)]|

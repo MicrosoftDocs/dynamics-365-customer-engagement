@@ -70,7 +70,24 @@ Placeholder description: DateFormattingInfo.dayNames
 
 Placeholder description: DateFormattingInfo.firstDayOfWeek
 
-**Type**: `CrmFramework.DayOfWeek`
+**Type**: `number`
+
+<!-- 
+The CrmFramework.DayOfWeek enum is not defined in CustomControlExposedInterfaces
+So assuming that this must be a number.
+ -->
+
+The `firstDayOfWeek` property can be set to one of the following values:
+
+|Value|Meaning|
+|--|--|
+|0|Sunday|
+|1|Monday|
+|2|Tuesday|
+|3|Wednesday|
+|4|Thursday|
+|5|Friday|
+|6|Saturday|
 
 ## fullDateTimePattern
 
