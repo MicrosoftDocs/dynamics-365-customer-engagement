@@ -2,6 +2,21 @@
 
 [!INCLUDE [trackcontainerresize-description](includes/trackcontainerresize-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IMode](../imode.md)<br />

@@ -2,6 +2,21 @@
 
 [!INCLUDE [getpopupservice-description](includes/getpopupservice-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IFactory](../ifactory.md)<br />

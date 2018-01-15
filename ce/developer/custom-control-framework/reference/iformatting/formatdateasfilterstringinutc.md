@@ -2,6 +2,21 @@
 
 [!INCLUDE [formatdateasfilterstringinutc-description](includes/formatdateasfilterstringinutc-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IFormatting](../iformatting.md)<br />

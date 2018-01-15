@@ -2,6 +2,21 @@
 
 [!INCLUDE [gettimezoneoffsetminutes-description](includes/gettimezoneoffsetminutes-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IUserSettings](../iusersettings.md)<br />

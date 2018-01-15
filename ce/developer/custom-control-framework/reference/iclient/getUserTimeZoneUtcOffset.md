@@ -2,6 +2,21 @@
 
 [!INCLUDE [getusertimezoneutcoffset-description](includes/getusertimezoneutcoffset-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IClient](../iclient.md)<br />

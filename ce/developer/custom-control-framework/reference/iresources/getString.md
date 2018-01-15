@@ -2,6 +2,21 @@
 
 [!INCLUDE [getstring-description](includes/getstring-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IResources](../iresources.md)<br />

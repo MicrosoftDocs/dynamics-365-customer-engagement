@@ -2,6 +2,21 @@
 
 [!INCLUDE [isofflineenabled-description](includes/isofflineenabled-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [Offline](../offline.md)<br />

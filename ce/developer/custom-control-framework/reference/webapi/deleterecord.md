@@ -2,6 +2,21 @@
 
 [!INCLUDE [deleterecord-description](includes/deleterecord-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [WebApi](../webapi.md)<br />

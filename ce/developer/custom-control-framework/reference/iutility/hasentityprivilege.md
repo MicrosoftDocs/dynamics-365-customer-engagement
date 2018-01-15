@@ -2,6 +2,21 @@
 
 [!INCLUDE [hasentityprivilege-description](includes/hasentityprivilege-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IUtility](../iutility.md)<br />

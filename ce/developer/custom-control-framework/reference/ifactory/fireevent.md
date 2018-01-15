@@ -2,6 +2,21 @@
 
 [!INCLUDE [fireevent-description](includes/fireevent-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IFactory](../ifactory.md)<br />

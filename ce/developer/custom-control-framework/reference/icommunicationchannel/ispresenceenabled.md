@@ -6,6 +6,21 @@
 
 ## Syntax
 
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
+## Syntax
+
 `isPresenceEnabled(entityName)`
 
 ## Parameters

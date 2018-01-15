@@ -2,6 +2,21 @@
 
 [!INCLUDE [opendialog-description](includes/opendialog-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [INavigation](../inavigation.md)<br />

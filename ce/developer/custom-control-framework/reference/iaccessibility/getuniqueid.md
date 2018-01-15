@@ -2,6 +2,21 @@
 
 [!INCLUDE [getuniqueid-description](includes/getuniqueid-description.md)]
 
+## Syntax
+
+`getUniqueId(id)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|id|`string`|yes|The id of the control to put focus on.|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IAccessibility](../iaccessibility.md)<br />

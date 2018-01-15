@@ -2,6 +2,21 @@
 
 [!INCLUDE [formatdatelong-description](includes/formatdatelong-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IFormatting](../iformatting.md)<br />

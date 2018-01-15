@@ -2,6 +2,21 @@
 
 [!INCLUDE [getentitycolor-description](includes/getentitycolor-description.md)]
 
+## Syntax
+
+`Name(param)`
+
+## Parameters
+
+| Parameter Name|Type|Required|Description|
+| ------------- |----|--------|-----------|
+|param|`string`|yes|placeholder|
+
+## Return Value
+
+Type: `string`
+
+
 ### Related topics
 
 [IThemingBag](../ithemingbag.md)<br />
