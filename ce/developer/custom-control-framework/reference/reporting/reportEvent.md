@@ -1,2 +1,3 @@
 # reportEvent
-reportevent-description.md
+
+[!INCLUDE [reportevent-description](includes/reportevent-description.md)]

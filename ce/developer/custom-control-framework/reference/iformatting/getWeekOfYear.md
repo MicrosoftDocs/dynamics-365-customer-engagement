@@ -1,2 +1,3 @@
 # getWeekOfYear
-getweekofyear-description.md
+
+[!INCLUDE [getweekofyear-description](includes/getweekofyear-description.md)]

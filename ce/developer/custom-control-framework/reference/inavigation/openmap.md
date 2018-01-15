@@ -1,2 +1,3 @@
 # openMap
-openmap-description.md
+
+[!INCLUDE [openmap-description](includes/openmap-description.md)]

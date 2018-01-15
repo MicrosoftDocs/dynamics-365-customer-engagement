@@ -1,2 +1,3 @@
 # openErrorDialog
-openerrordialog-description.md
+
+[!INCLUDE [openerrordialog-description](includes/openerrordialog-description.md)]

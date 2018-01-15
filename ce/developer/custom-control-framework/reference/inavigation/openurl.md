@@ -1,2 +1,3 @@
 # openUrl
-openurl-description.md
+
+[!INCLUDE [openurl-description](includes/openurl-description.md)]

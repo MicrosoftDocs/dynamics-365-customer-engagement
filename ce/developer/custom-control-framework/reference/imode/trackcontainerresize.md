@@ -1,2 +1,3 @@
 # trackContainerResize
-trackcontainerresize-description.md
+
+[!INCLUDE [trackcontainerresize-description](includes/trackcontainerresize-description.md)]

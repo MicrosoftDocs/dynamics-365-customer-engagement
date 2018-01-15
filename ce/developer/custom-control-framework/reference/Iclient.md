@@ -38,9 +38,27 @@ The interface for Number Formatting.
 
 Settings object for the organization.
 
-**Type**: `ICustomControlExposedOrgSettings`
+**Type**: `object`
 
-<!--QUESTION: Why is ICustomControlExposedOrgSettings different from IOrgSettings? -->
+<!-- ICustomControlExposedOrgSettings -->
+
+The `orgSettings` object contains the following properties:
+
+|Name|Type|Description|
+|--|--|--|
+|`boundDashboardDefaultCardExpanded`|`boolean`|Whether to show the Card Form in Expanded State or not|
+|`fiscalPeriodConnector`|`string`|How the names of the fiscal year and the fiscal period should be connected when displayed together.|
+|`fiscalPeriodFormat`|`number`|How the name of the fiscal period is displayed.|
+|`fiscalPeriodType`|`number`|Type of fiscal period used.|
+|`fiscalYearDisplayCode`|`number`|Whether the fiscal year should be displayed based on the start date or the end date of the fiscal year.|
+|`fiscalYearFormatPrefix`|`number`|Prefix for the display of the fiscal year.|
+|`fiscalYearFormatSuffix`|`number`|Suffix for the display of the fiscal year.|
+|`fiscalYearFormatYear`|`number`|Format for the year.|
+|`fiscalYearStartDate`|`Date`|Start date for the fiscal period.|
+|`isActionCardEnabled`|`boolean`|Whether ActionCard is enabled.|
+|`isEmailMonitoringAllowed`|`boolean`|Whether email monitoring is allowed.|
+|`organizationId`|`string`|Identifier of the organization.|
+|`showWeekNumber`|`boolean`|Information that specifies whether to display the week number.|
 
 
 ## Methods

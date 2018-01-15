@@ -1,2 +1,3 @@
 # focusElementById
-focuselementbyid-description.md
+
+[!INCLUDE [focuselementbyid-description](includes/focuselementbyid-description.md)]

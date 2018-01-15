@@ -1,2 +1,3 @@
 # formatDateYearMonth
-formatdateyearmonth-description.md
+
+[!INCLUDE [formatdateyearmonth-description](includes/formatdateyearmonth-description.md)]

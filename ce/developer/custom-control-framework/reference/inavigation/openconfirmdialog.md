@@ -1,2 +1,3 @@
 # openConfirmDialog
-openconfirmdialog-description.md
+
+[!INCLUDE [openconfirmdialog-description](includes/openconfirmdialog-description.md)]

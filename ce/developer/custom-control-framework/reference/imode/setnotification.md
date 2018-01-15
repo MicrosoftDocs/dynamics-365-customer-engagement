@@ -1,2 +1,3 @@
 # setNotification
-setnotification-description.md
+
+[!INCLUDE [setnotification-description](includes/setnotification-description.md)]

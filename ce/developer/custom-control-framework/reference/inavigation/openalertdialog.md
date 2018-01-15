@@ -1,2 +1,3 @@
 # openAlertDialog
-openalertdialog-description.md
+
+[!INCLUDE [openalertdialog-description](includes/openalertdialog-description.md)]

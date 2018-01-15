@@ -1,5 +1,7 @@
 # blurElementById
 
+[!INCLUDE [blurelementbyid-description](includes/blurelementbyid-description.md)]
+
 ## Syntax
 
 `blurElementById(id,isAbsoluteId)`

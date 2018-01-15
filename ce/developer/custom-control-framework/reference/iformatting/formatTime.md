@@ -1,2 +1,3 @@
 # formatTime
-formattime-description.md
+
+[!INCLUDE [formattime-description](includes/formattime-description.md)]

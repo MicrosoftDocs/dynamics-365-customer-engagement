@@ -1,2 +1,3 @@
 # openEditForm
-openeditform-description.md
+
+[!INCLUDE [openeditform-description](includes/openeditform-description.md)]

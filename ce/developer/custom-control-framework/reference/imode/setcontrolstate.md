@@ -1,2 +1,3 @@
 # setControlState
-setcontrolstate-description.md
+
+[!INCLUDE [setcontrolstate-description](includes/setcontrolstate-description.md)]

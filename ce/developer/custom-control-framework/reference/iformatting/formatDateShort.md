@@ -1,2 +1,3 @@
 # formatDateShort
-formatdateshort-description.md
+
+[!INCLUDE [formatdateshort-description](includes/formatdateshort-description.md)]

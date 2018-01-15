@@ -1,2 +1,3 @@
 # openPhoneNumber
-openphonenumber-description.md
+
+[!INCLUDE [openphonenumber-description](includes/openphonenumber-description.md)]

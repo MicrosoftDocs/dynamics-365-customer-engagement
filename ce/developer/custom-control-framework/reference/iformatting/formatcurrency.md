@@ -1,2 +1,3 @@
 # formatCurrency
-formatcurrency-description.md
+
+[!INCLUDE [formatcurrency-description](includes/formatcurrency-description.md)]

@@ -1,2 +1,3 @@
 # formatLanguage
-formatlanguage-description.md
+
+[!INCLUDE [formatlanguage-description](includes/formatlanguage-description.md)]

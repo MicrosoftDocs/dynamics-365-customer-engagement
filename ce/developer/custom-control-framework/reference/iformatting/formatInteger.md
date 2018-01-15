@@ -1,2 +1,3 @@
 # formatInteger
-formatinteger-description.md
+
+[!INCLUDE [formatinteger-description](includes/formatinteger-description.md)]

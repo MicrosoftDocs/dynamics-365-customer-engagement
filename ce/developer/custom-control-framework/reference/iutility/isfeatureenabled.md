@@ -1,2 +1,3 @@
 # isFeatureEnabled
-isfeatureenabled-description.md
+
+[!INCLUDE [isfeatureenabled-description](includes/isfeatureenabled-description.md)]

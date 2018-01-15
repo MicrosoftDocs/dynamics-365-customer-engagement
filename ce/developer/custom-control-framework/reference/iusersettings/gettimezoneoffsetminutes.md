@@ -1,2 +1,3 @@
 # getTimeZoneOffsetMinutes
-gettimezoneoffsetminutes-description.md
+
+[!INCLUDE [gettimezoneoffsetminutes-description](includes/gettimezoneoffsetminutes-description.md)]

@@ -1,2 +1,3 @@
 # inlineLayout
-inlinelayout-description.md
+
+[!INCLUDE [inlinelayout-description](includes/inlinelayout-description.md)]

@@ -23,12 +23,17 @@ manager: "amyla"
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|context|dictionary|yes|TODO: context description|
+|context|dictionary|yes|Placeholder description CustomControl.updateView.context parameter|
 
 ## Return Value
 Type: `IVirtualComponent`
+<!-- 
 
-TODO: 
+QUESTION: IVirtualComponent is CustomControlInterfaces (not in CustomControlExposedInterfaces).
+There is a whole other tree of definitions for it.
+ 
+Do we need reference documentation for it?
+--->
 
 
 ## Remarks

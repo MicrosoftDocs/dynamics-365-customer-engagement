@@ -1,2 +1,3 @@
 # lookupObjects
-lookupobjects-description.md
+
+[!INCLUDE [lookupobjects-description](includes/lookupobjects-description.md)]

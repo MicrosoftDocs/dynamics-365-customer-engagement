@@ -1,2 +1,3 @@
 # getEntityColor
-getentitycolor-description.md
+
+[!INCLUDE [getentitycolor-description](includes/getentitycolor-description.md)]

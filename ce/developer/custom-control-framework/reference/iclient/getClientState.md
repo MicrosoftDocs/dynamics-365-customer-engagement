@@ -1,2 +1,3 @@
 # getClientState
-getclientstate-description.md
+
+[!INCLUDE [getclientstate-description](includes/getclientstate-description.md)]

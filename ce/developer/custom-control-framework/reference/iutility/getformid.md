@@ -1,2 +1,3 @@
 # getFormId
-getformid-description.md
+
+[!INCLUDE [getformid-description](includes/getformid-description.md)]

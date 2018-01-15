@@ -1,2 +1,3 @@
 # getFormFactor
-getformfactor-description.md
+
+[!INCLUDE [getformfactor-description](includes/getformfactor-description.md)]

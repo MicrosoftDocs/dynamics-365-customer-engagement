@@ -1,2 +1,3 @@
 # openGrid
-opengrid-description.md
+
+[!INCLUDE [opengrid-description](includes/opengrid-description.md)]

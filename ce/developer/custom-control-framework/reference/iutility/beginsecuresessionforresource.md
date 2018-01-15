@@ -1,2 +1,3 @@
 # beginSecureSessionForResource
-beginsecuresessionforresource-description.md
+
+[!INCLUDE [beginsecuresessionforresource-description](includes/beginsecuresessionforresource-description.md)]

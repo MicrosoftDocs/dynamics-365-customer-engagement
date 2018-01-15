@@ -34,7 +34,9 @@ Contains type, id and record name of current entity.
 
 **Type**: `object`
 
-The contextInfo object contains the following properties:
+<!-- IContextInfo -->
+
+The `contextInfo` object contains the following properties:
 
 |Name|Type|Optional|Description|
 |--|--|--|--|

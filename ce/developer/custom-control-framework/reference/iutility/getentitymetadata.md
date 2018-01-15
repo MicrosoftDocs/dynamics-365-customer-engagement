@@ -1,2 +1,3 @@
 # getEntityMetadata
-getentitymetadata-description.md
+
+[!INCLUDE [getentitymetadata-description](includes/getentitymetadata-description.md)]

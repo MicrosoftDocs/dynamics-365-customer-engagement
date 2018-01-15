@@ -1,2 +1,3 @@
 # openWebResource
-openwebresource-description.md
+
+[!INCLUDE [openwebresource-description](includes/openwebresource-description.md)]

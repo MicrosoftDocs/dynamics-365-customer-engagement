@@ -1,2 +1,3 @@
 # reportFailure
-reportfailure-description.md
+
+[!INCLUDE [reportfailure-description](includes/reportfailure-description.md)]

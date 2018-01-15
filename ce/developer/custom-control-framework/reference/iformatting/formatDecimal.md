@@ -1,2 +1,3 @@
 # formatDecimal
-formatdecimal-description.md
+
+[!INCLUDE [formatdecimal-description](includes/formatdecimal-description.md)]

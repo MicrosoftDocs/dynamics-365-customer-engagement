@@ -1,2 +1,3 @@
 # openDialog
-opendialog-description.md
+
+[!INCLUDE [opendialog-description](includes/opendialog-description.md)]

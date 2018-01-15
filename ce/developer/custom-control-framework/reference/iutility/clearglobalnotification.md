@@ -1,2 +1,3 @@
 # clearGlobalNotification
-clearglobalnotification-description.md
+
+[!INCLUDE [clearglobalnotification-description](includes/clearglobalnotification-description.md)]

@@ -1,2 +1,3 @@
 # registerShortcut
-registershortcut-description.md
+
+[!INCLUDE [registershortcut-description](includes/registershortcut-description.md)]

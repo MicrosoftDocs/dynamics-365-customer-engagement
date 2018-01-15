@@ -1,2 +1,3 @@
 # openFile
-openfile-description.md
+
+[!INCLUDE [openfile-description](includes/openfile-description.md)]

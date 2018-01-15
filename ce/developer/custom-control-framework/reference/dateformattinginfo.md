@@ -36,6 +36,8 @@ Placeholder description: DateFormattingInfo.calendar
 
 **Type**: `object`
 
+<!-- Calendar -->
+
 The `calendar` object contains the following properties:
 
 |Name|Type|Description|

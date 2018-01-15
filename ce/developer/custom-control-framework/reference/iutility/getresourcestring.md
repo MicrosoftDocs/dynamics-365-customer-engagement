@@ -1,2 +1,3 @@
 # getResourceString
-getresourcestring-description.md
+
+[!INCLUDE [getresourcestring-description](includes/getresourcestring-description.md)]

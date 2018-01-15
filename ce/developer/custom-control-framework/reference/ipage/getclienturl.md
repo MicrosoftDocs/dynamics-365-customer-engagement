@@ -1,2 +1,3 @@
 # getClientUrl
-getclienturl-description.md
+
+[!INCLUDE [getclienturl-description](includes/getclienturl-description.md)]

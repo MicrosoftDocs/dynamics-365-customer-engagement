@@ -1,2 +1,3 @@
 # getResource
-getresource-description.md
+
+[!INCLUDE [getresource-description](includes/getresource-description.md)]

@@ -1,2 +1,3 @@
 # disableUiTransitions
-disableuitransitions-description.md
+
+[!INCLUDE [disableuitransitions-description](includes/disableuitransitions-description.md)]

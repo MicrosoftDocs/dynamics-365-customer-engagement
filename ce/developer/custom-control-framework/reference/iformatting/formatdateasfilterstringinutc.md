@@ -1,2 +1,3 @@
 # formatDateAsFilterStringInUTC
-formatdateasfilterstringinutc-description.md
+
+[!INCLUDE [formatdateasfilterstringinutc-description](includes/formatdateasfilterstringinutc-description.md)]

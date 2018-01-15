@@ -1,2 +1,3 @@
 # ignoreSelfUpdates
-ignoreselfupdates-description.md
+
+[!INCLUDE [ignoreselfupdates-description](includes/ignoreselfupdates-description.md)]

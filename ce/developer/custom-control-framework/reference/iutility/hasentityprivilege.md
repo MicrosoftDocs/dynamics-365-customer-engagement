@@ -1,2 +1,3 @@
 # hasEntityPrivilege
-hasentityprivilege-description.md
+
+[!INCLUDE [hasentityprivilege-description](includes/hasentityprivilege-description.md)]

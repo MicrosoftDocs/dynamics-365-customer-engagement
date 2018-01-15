@@ -1,2 +1,3 @@
 # getUserTimeZoneUtcOffset
-getusertimezoneutcoffset-description.md
+
+[!INCLUDE [getusertimezoneutcoffset-description](includes/getusertimezoneutcoffset-description.md)]

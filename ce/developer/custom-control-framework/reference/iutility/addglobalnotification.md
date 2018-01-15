@@ -1,2 +1,3 @@
 # addGlobalNotification
-addglobalnotification-description.md
+
+[!INCLUDE [addglobalnotification-description](includes/addglobalnotification-description.md)]

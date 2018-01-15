@@ -1,2 +1,3 @@
 # updateRecord
-updaterecord-description.md
+
+[!INCLUDE [updaterecord-description](includes/updaterecord-description.md)]

@@ -1,2 +1,3 @@
 # setFullScreen
-setfullscreen-description.md
+
+[!INCLUDE [setfullscreen-description](includes/setfullscreen-description.md)]

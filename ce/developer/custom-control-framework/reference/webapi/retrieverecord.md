@@ -1,2 +1,3 @@
 # retrieveRecord
-retrieverecord-description.md
+
+[!INCLUDE [retrieverecord-description](includes/retrieverecord-description.md)]

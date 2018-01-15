@@ -1,2 +1,3 @@
 # createRecord
-createrecord-description.md
+
+[!INCLUDE [createrecord-description](includes/createrecord-description.md)]

@@ -1,2 +1,3 @@
 # deleteRecord
-deleterecord-description.md
+
+[!INCLUDE [deleterecord-description](includes/deleterecord-description.md)]

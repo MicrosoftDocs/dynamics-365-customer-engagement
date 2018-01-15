@@ -1,2 +1,3 @@
 # formatDateLong
-formatdatelong-description.md
+
+[!INCLUDE [formatdatelong-description](includes/formatdatelong-description.md)]

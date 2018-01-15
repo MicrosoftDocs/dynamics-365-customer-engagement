@@ -1,2 +1,3 @@
 # clearNotification
-clearnotification-description.md
+
+[!INCLUDE [clearnotification-description](includes/clearnotification-description.md)]

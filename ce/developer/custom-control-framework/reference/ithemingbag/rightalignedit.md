@@ -1,2 +1,3 @@
 # rightAlignEdit
-rightalignedit-description.md
+
+[!INCLUDE [rightalignedit-description](includes/rightalignedit-description.md)]

@@ -1,2 +1,3 @@
 # triggerOfflineMetadataSync
-triggerofflinemetadatasync-description.md
+
+[!INCLUDE [triggerofflinemetadatasync-description](includes/triggerofflinemetadatasync-description.md)]

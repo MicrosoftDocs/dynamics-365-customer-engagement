@@ -1,2 +1,3 @@
 # getString
-getstring-description.md
+
+[!INCLUDE [getstring-description](includes/getstring-description.md)]

@@ -1,2 +1,3 @@
 # getEntityName
-getentityname-description.md
+
+[!INCLUDE [getentityname-description](includes/getentityname-description.md)]

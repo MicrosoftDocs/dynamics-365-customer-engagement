@@ -1,2 +1,3 @@
 # createServerUri
-createserveruri-description.md
+
+[!INCLUDE [createserveruri-description](includes/createserveruri-description.md)]

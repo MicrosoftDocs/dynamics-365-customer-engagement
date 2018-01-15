@@ -1,2 +1,3 @@
 # formatDateLongAbbreviated
-formatdatelongabbreviated-description.md
+
+[!INCLUDE [formatdatelongabbreviated-description](includes/formatdatelongabbreviated-description.md)]

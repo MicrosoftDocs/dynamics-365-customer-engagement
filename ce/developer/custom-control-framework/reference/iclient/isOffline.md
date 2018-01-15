@@ -1,2 +1,3 @@
 # isOffline
-isoffline-description.md
+
+[!INCLUDE [isoffline-description](includes/isoffline-description.md)]

@@ -1,2 +1,3 @@
 # openDashboard
-opendashboard-description.md
+
+[!INCLUDE [opendashboard-description](includes/opendashboard-description.md)]
