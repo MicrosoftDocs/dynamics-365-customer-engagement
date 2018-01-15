@@ -18,6 +18,7 @@
 ```JavaScript
 context.accessibility.blurElementById("myControlId",false);
 ```
+### Related topics
 
 [IAccessibility](../iaccessibility.md)<br />
 [Custom Control Framework API Reference](../index.md)<br />
