@@ -36,7 +36,7 @@ Placeholder description: DateFormattingInfo.calendar
 
 **Type**: `object`
 
-The calendar object contains the following properties:
+The `calendar` object contains the following properties:
 
 |Name|Type|Description|
 |--|--|--|

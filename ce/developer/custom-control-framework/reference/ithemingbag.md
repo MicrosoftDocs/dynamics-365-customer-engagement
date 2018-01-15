@@ -8,7 +8,15 @@
 
 Placeholder description: IThemingBag.borders
 
-**Type**: `IThemingBagBorders`
+**Type**: `object`
+
+The `borders` object contains the following properties:
+
+|Name|Type|Description|
+|--|--|--|
+|`border01`|`string`|Placeholder description: IThemingBagBorders.border01|
+|`border02`|`string`|Placeholder description: IThemingBagBorders.border02|
+|`border03`|`string`|Placeholder description: IThemingBagBorders.border03|
 
 
 
@@ -18,13 +26,15 @@ Placeholder description: IThemingBag.breakpoints
 
 **Type**: `string`
 
+The `breakpoints` object contains the following properties:
 
-
-## IThemingBagBreakpoints
-
-Placeholder description: IThemingBag.IThemingBagBreakpoints
-
-**Type**: `IThemingBagBreakpoints`
+|Name|Type|Description|
+|--|--|--|
+|`dimensionl`|`string`|Placeholder description: IThemingBagBreakpoints.dimensionl|
+|`dimensionm`|`string`|Placeholder description: IThemingBagBreakpoints.dimensionm|
+|`dimensions`|`string`|Placeholder description: IThemingBagBreakpoints.dimensions|
+|`dimensionxl`|`string`|Placeholder description: IThemingBagBreakpoints.dimensionxl|
+|`dimensionxs`|`string`|Placeholder description: IThemingBagBreakpoints.dimensionxs|
 
 
 
@@ -32,7 +42,7 @@ Placeholder description: IThemingBag.IThemingBagBreakpoints
 
 Placeholder description: IThemingBag.colors
 
-**Type**: `IThemingBagColors`
+**Type**: [IThemingBagColors](ithemingbagcolors.md)
 
 
 
