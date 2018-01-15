@@ -1,1 +1,1 @@
-This method will re-render the control with the updated values after the function you set in the  [CustomControl](../../customcontrol.md).[init](../init.md)] *NotifyOutputChanged* parameter.
+This method will re-render the control with the updated values after the function you set in the  [CustomControl](../../customcontrol.md).[init](../init.md)*`NotifyOutputChanged`* parameter.
