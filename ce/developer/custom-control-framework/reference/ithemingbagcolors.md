@@ -96,7 +96,7 @@ Placeholder description: IThemingBagColors.hoverlinkeffect
 
 Placeholder description: IThemingBagColors.links
 
-**Type**: `IThemingBagLinkColors`
+**Type**: `object`
 
 The `links` object contains the following properties:
 
