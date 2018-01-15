@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+redirect_url: https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub
 ---
 
 # Videos &amp; e-books
