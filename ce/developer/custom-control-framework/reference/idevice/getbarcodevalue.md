@@ -13,6 +13,7 @@
 Type: `Promise<string>`
 
 ## Remarks
+
 See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ### Related topics

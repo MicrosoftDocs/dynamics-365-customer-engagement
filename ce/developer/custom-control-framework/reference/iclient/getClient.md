@@ -5,13 +5,7 @@
 
 ## Syntax
 
-`Name(param)`
-
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+`getClient()`
 
 ## Return Value
 

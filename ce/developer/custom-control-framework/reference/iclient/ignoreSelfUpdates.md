@@ -4,17 +4,13 @@
 
 ## Syntax
 
-`Name(param)`
+`ignoreSelfUpdates(value)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
-
-## Return Value
-
-Type: `string`
+|value|`boolean`|yes|Set to true if control should not receive update on the values modified by itself to avoid circular updates.|
 
 
 ### Related topics

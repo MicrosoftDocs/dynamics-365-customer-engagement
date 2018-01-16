@@ -102,8 +102,6 @@
       items:
       - name: bindDOMComponent
         href: reference/ifactory/binddomcomponent.md
-      - name: bindDOMElement
-        href: reference/ifactory/binddomelement.md        
       - name: createComponent
         href: reference/ifactory/createcomponent.md
       - name: createElement
@@ -112,8 +110,6 @@
         href: reference/ifactory/fireevent.md
       - name: getControlDefaultMapping
         href: reference/ifactory/getcontroldefaultmapping.md
-      - name: getPopupService
-        href: reference/ifactory/getpopupservice.md
       - name: requestRender
         href: reference/ifactory/requestrender.md
       - name: unbindDOMComponent

@@ -2,22 +2,16 @@
 
 [!INCLUDE [getformfactor-description](includes/getformfactor-description.md)]
 
-
-
 ## Syntax
 
-`Name(param)`
+`getFormFactor()`
 
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
 
 ## Return Value
 
-Type: `string`
+Type: `number`
 
+<!-- QUESTION: What kind of number values are expected here? -->
 
 ### Related topics
 

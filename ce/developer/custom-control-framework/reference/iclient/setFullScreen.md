@@ -4,17 +4,13 @@
 
 ## Syntax
 
-`Name(param)`
+`setFullScreen(value)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
-
-## Return Value
-
-Type: `string`
+|value|`boolean`|yes|Use auto sizing.|
 
 
 ### Related topics

@@ -6,17 +6,14 @@
 
 ## Syntax
 
-`Name(param)`
+`getClientState()`
 
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
 
 ## Return Value
 
 Type: `string`
+
+<!-- QUESTION: What kind of string values are expected here? -->
 
 
 ### Related topics

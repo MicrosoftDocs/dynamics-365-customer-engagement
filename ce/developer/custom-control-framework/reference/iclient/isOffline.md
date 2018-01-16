@@ -4,17 +4,11 @@
 
 ## Syntax
 
-`Name(param)`
-
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+`isOffline()`
 
 ## Return Value
 
-Type: `string`
+Type: `boolean`
 
 
 ### Related topics

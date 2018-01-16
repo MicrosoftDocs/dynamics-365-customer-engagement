@@ -22,6 +22,7 @@ Type: `Promise<File[]>`
 See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [File](https://developer.mozilla.org/docs/Web/API/File)
 
 ## Remarks
+
 The `options` parameter object has the following properties:
 
 |Name|Type|Description|
