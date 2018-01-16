@@ -2,7 +2,7 @@
 title: "Social Engagement 2018 Update 1.1 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 12/08/2017
+ms.date: 01/24/2017
 ms.service: mse
 ms.topic: article
 applies_to:
