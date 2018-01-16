@@ -142,13 +142,41 @@ You can help ensure that people enter data consistently and follow the same step
   
 -   Multi-entity processes can contain no more than five entities.
   
-### Working with Business Process Flows and the “Business Process” subarea
+### Preview Feature: Business Process Flow entity customization support 
 
-Business Process Flow entities can now be added to the sitemap, which makes it easy for users to find process instances they or their teams are working on. They can visualize those instances with charts and quickly jump to the associated data form.
+With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update, business process flow entities can appear in the system so that the related entity record data can be made available in grids, views, charts, and dashboards. 
 
-This feature is in public preview and can be enabled through System Settings. For more information, see this blog: [New automation and visualization features for Business Process Flows (public preview)](https://blogs.msdn.microsoft.com/crm/2017/10/25/new-automation-and-visualization-features-for-business-process-flows-public-preview/) 
+[!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-When a new business process definition is added to an application through the app designer, the corresponding business process entity is also automatically added to the site map if the primary data entity for that business process is already on the site map.
+[!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+
+#### Enable Action Step support for business process flows 
+1.	Go to **Settings** > **Administration** > **System Settings**.
+2.	Select the **Preview** tab.
+3.	Review, and if you agree, accept the license terms.
+4.	Select **Enable BPF Entity Customization Support**.
+
+![Enable business process flow entity customization support](media/enable-bpf-custom.png)
+
+#### Use business process flow entity records with grids, views, charts, and dashboards
+
+With business processes flows available as an entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can now use advanced finds, views, charts, and dashboards sourced with business process flow data for a given entity, such as a lead or opportunity. System Administrators and Customizers can create custom business process flow grids, views, charts, and dashboards similar to how they can be created with any other entity.
+
+Business process flows, such as **Lead To Opportunity**, appear as a customizable entity in Solution Explorer.
+
+![Solution Explorer with lead-to-opportunity process entity](media/bpf-lead-solution-explorer.png)
+
+To access a default business process flow view, go to **Sales** > **Business processes**, and select the view that you want.
+
+![Access a business process flow entity view](media/bpf-entity-views.png)
+
+Several default views are available that you can view as a chart, such as the **Active Opportunity Sales Process** view. 
+
+![Active Opportunity Sales Process view](media/bpf-default-view.png)
+
+#### Limitation with using business process flow entities
+
+Currently, you can’t create custom forms for entities based on a business process flow.
 
 
 ### See also  
