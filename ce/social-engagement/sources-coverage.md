@@ -2,7 +2,7 @@
 title: "Sources coverage in Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
-ms.date: 11/15/2017
+ms.date: 01/10/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -35,7 +35,7 @@ Posts and comments published on Disqus are available for [keyword searches](add-
 Monitor posts and comments on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages without age restriction or geographical restriction that are added to your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rules. You can also gather private messages for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages if you add a social profile and explicitly allow the acquisition of private messages.
 
 > [!NOTE]
-> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), ads, and status updates are not available for monitoring or engagement at this time.
+> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), ads, and status updates are not available for monitoring or engagement at this time. Starting February 6th 2018, author information for Facebook posts is only available if you add a Facebook page profile for every page you own and keep their interaction tokens valid. 
 
 To add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule, see [Add a Facebook pages rule](add-rules-search-topic.md#addFacebookRule).
 

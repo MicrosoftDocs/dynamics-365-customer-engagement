@@ -25,6 +25,7 @@
 ### [Find out what's covered by sources](sources-coverage.md)
 ### [Create or delete a search topic](create-delete-search-topic.md)
 ### [Add rules to a search topic](add-rules-search-topic.md)
+### [Acquire data from Facebook pages](facebook-pages-data-acquisition.md)
 ### [Refine your search rules to find relevant content](refine-search-rules.md)
 ### [Manage the quality of your search results](search-results-quality.md)
 ### [Create or delete custom sources](custom-sources.md)
