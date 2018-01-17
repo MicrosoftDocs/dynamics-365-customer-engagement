@@ -21,7 +21,7 @@ topic-status: Drafting
 
 Read this topic to get an overview of how to update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and its related solutions.
 
-# Solutions that are part of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+# Solutions included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is implemented using several different [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] _solutions_, where a _solution_ is a type software package that adds functionality to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] platform. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes several solutions that are unique to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, plus a few more that are also available as separate apps or in other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] app bundles.
 
@@ -33,9 +33,9 @@ When you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn
 
 # Find out when new updates are available
 
-To find out when an update is available, regularly check the status of your apps and solutions in the Dynamics 365 Administration Center, as described in this topic. It's also a good idea to participate in forums and follow blogs related to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], where updates are likely to be announced.
+To find out when an update is available, regularly check the status of your apps and solutions in the Dynamics 365 Administration Center, as described in this topic. It's also a good idea to participate in forums and follow blogs related to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], where updates are likely to be announced and discussed.
 
-# Open the Dynamics 365 Administration Center
+# Open the Dynamics 365 admin center
 
 Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to review the status of your apps and solutions and to apply updates. To open the admin center:
 
@@ -44,9 +44,9 @@ Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.m
 1. Open the app-selector menu and select the **Admin** app.  
     ![Open the Office 365 admin center](media/update-admin-icon.png "Open the Office 365 admin center")
 
-1. The **Home** dashboard for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] opens. This is where you can sometimes see push announcements from [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)], including update announcements for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] and related solutions.
+1. The **Home** dashboard for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] opens.
 
-1. In the navigation column on the left, expand the **Admin centers** entry and select **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]**.  
+1. In the navigation column on the left, expand the **Admin centers** entry and then select **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]**.  
     ![Open the Dynamics 365 admin center](media/update-open-d365-admin.png "Open the Dynamics 365 admin center")
 
 1. The [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] opens.
@@ -56,7 +56,7 @@ See the remaining sections of this topic for details about how to use this page 
 
 # Find and apply updates for core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions
 
-To find and apply available updates to all core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions (including the [!INCLUDE[pn-linkedin-solution-shortest](../includes/pn-linkedin-solution-shortest.md)), do the following:
+To find and apply available updates to all core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions (including the [!INCLUDE[pn-linkedin-solution-shortest](../includes/pn-linkedin-solution-shortest.md)]), do the following:
 
 1. Open the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described previously.
 
@@ -65,10 +65,10 @@ To find and apply available updates to all core [!INCLUDE[pn-marketing-app-modul
 
 1. Select the **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Application** item and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the right column.
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens. Select an organization from the drop-down list provided and look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization; check your other organizations and if none require an update you can just quit the wizard.  
+1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens. Select an organization from the drop-down list provided and look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization. Use the drop-down list to check each of your organizations and if none requires an update you can just quit the wizard.  
     ![Select the Update packages button](media/update-fre-update-packages-button.png "Select the Update packages button")
 
-1. If the **Update packages** button is shown, then select it to begin the update procedure. The wizard skips ahead to the **Summary** page, which tracks the progress of the update and will tell you when the update is finished.
+1. If the **Update packages** button is shown, then select it to start the update. The wizard skips ahead to the **Summary** page, which tracks the progress of the update and will tell you when it's finished.
 
 1. Repeat this procedure for each [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] organization that you have.
 
@@ -92,7 +92,7 @@ To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
     ![Select a solution to update](media/update-select-solution.png "Select a solution to update")
 
     > [!NOTE]
-    >  As mentioned at the start of this procedure, you shouldn't update core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions from here. Always run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] update wizard first, before you start looking for shared-solution updates, to ensure that all your core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions already appear as up to date in this list.
+    >  As mentioned at the start of this procedure, you shouldn't update core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions from here. Always run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] update wizard first, before you start looking for shared-solution updates, to ensure that all your core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions are already shown as up-to-date in this list.
 
 1. Select a solution marked as having an upgrade available and read the information shown in the right column. This should include a link for applying the update. Select the link and then follow the instructions on your screen to apply it.
 
