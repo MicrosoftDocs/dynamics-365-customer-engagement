@@ -42,6 +42,7 @@
 ### [Configure client caching in Unified Service Desk](admin/configure-client-caching-unified-service-desk.md)
 ### [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md)
 ## [Configure auditing and diagnostics in Unified Service Desk](admin/configure-auditing-diagnostics-unified-service-desk.md)
+## [Performance data collection using keyboard shortcut](admin/performance-data-collection-using-keyboard-shortcut.md)
 ## [Distribute custom hosted controls using Customization Files](admin/distribute-custom-hosted-controls-using-customization-files.md)
 ## [Access management in Unified Service Desk](admin/security-unified-service-desk.md)
 ### [Manage access using Unified Service Desk security roles](admin/manage-access-using-unified-service-desk-security-roles.md)

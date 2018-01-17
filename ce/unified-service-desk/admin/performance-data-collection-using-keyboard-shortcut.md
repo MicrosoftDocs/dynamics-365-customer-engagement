@@ -45,7 +45,7 @@ To configure a new performance data collection keyboard shortcut, perform the fo
  
 3. Open the existing Audit & Diagnostics Setting record in the **Audit & Diagnostics Settings** section.
     > [!Note]
-    > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md#Diagnostics).
+    > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md##Diagnostics).
 
 4. Expand the **Diagnostics Settings** area to see **Performance Data Collection**.
 
@@ -86,7 +86,7 @@ To modify the application configuration file, change the value from **Off** to *
 
 ```<add name="Microsoft.Uii.Common.Performance" value="Verbose"/>```
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md) [Diagnostics Verbosity Level](../admin/configure-auditing-diagnostics-unified-service-desk.md#Diagnostics)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md) [Diagnostics Verbosity Level](../admin/configure-auditing-diagnostics-unified-service-desk.md##Diagnostics)
 
 ## See also
 
