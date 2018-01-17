@@ -97,7 +97,7 @@ manager: "amyla"
 <td>Function</td>
 <td>No</td>
 <td>The function executes as follows:
-<ul><li>When displaying an existing record, the function executes when the entity form is displayed.</li>
+<ul><li>When opening an entity form to display an existing record, the function executes when the entity form is displayed.</li>
 <li>When opening an entity form for new record or opening a quick create form, the function executes when you save data in the form to create new record.</li></ul>
 This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> property with the following properties to identify the record displayed or created:
 <ul>
