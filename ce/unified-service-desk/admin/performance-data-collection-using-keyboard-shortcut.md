@@ -20,7 +20,7 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Performance data collection
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data collection enables you to collect data about the operational events, errors, and performance in the client application to log files, which is used to identify and troubleshoot performance issues or errors. If you encounter technical issues that relates to performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Customer Support Service personnel may request you send the log file to help troubleshoot the issue.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data collection enables you to collect data about the operational events, errors, and performance in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues or errors. If you encounter technical issues that relates to performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Customer Support Service personnel may request you send the log file to help troubleshoot the issue.
 When you enable the performance data collection, the log files are maintained with a unique performance session Id (GUID) on the client computer. Example of performance session Id (GUID): **cv0ab1gg-1df3-7bd9-b5dt-1221d65r93w8**.
 
 The path where the log files are maintained on the client computer:
@@ -45,7 +45,7 @@ To configure a new performance data collection keyboard shortcut, perform the fo
  
 3. Open the existing Audit & Diagnostics Setting record in the **Audit & Diagnostics Settings** section.
     > [!Note]
-    > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md##Diagnostics).
+    > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md##BKMK-Diagnostics).
 
 4. Expand the **Diagnostics Settings** area to see **Performance Data Collection**.
 
@@ -86,7 +86,7 @@ To modify the application configuration file, change the value from **Off** to *
 
 ```<add name="Microsoft.Uii.Common.Performance" value="Verbose"/>```
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md) [Diagnostics Verbosity Level](../admin/configure-auditing-diagnostics-unified-service-desk.md##Diagnostics)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics Verbosity Level](../admin/configure-auditing-diagnostics-unified-service-desk.md##BKMK-Diagnostics)
 
 ## See also
 
