@@ -33,7 +33,7 @@ All instances of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] use [!I
   
 <a name="KM_tasks"></a>   
 ## Introduction to key management  
- With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] key management, administrators can provide their own encryption key or have an encryption key generated for them, which is used to encrypt the database for an instance.  
+ With [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] key management, administrators can provide their own encryption key or have an encryption key generated for them, which is used to protect the database for an instance.  
   
  The key management feature supports both PFX and BYOK encryption key files, such as those stored in a hardware security module (HSM). To use the upload encryption key option you need both the public and private encryption key.  
   
