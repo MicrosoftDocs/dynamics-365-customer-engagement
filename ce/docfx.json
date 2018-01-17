@@ -83,7 +83,7 @@
         "project-service/**.*": ["Dynamics 365", "CRM" ],
         "sales-business/**.*": ["Dynamics 365", "CRM" ],
         "sales-enterprise/**.*": ["Dynamics 365", "CRM" ],
-        "social-engagement/**.*": ["Dynamics 365", "CRM" ],
+        "social-engagement/**.*": ["Dynamics 365", "MSE", "CRM" ],
         "unified-service-desk/**.*": ["Dynamics 365", "CRM" ],
         "voice-of-customer/**.*": ["Dynamics 365", "CRM" ]
       }
