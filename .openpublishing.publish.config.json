@@ -61,7 +61,7 @@
         },
         {
           "ConceptualTOC": "ce/unified-service-desk/toc.yml",
-          "ReferenceTOCUrl": "/dotnet/api/usd_3_dotnet_toc/api/dotnet-template/toc.json"
+          "ReferenceTOCUrl": "/dotnet/api/usd-3-dotnet/api/dotnet-template/toc.json"
         }
       ]
     }
