@@ -152,11 +152,11 @@ With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] up
 > [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 
-### Enable Action Step support for business process flows 
+### Enable customization support for business process flow entities
 1.	Go to **Settings** > **Administration** > **System Settings**.
 2.	Select the **Preview** tab.
 3.	Review, and if you agree, accept the license terms.
-4.	Select **Enable BPF Entity Customization Support**.
+4.	Select **Enable BPF Entity Customization Support**, and then select **OK**.
 
 ![Enable business process flow entity customization support](media/enable-bpf-custom.png)
 

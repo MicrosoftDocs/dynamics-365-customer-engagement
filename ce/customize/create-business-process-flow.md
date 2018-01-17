@@ -202,11 +202,9 @@ The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update 
 1.	Go to **Settings** > **Administration** > **System Settings**.
 2.	Select the **Preview** tab.
 3.	Review, and if you agree, accept the license terms.
-4.	Select **Action Step Support for Business Process Flows Preview**.
+4.	Select **Action Step Support for Business Process Flows Preview**, and then select **OK**.
 
     ![Enable business process flow preview feature](media/enable-bpf-actionstep.png)
-
-5.	Select **OK**.
 
 ### Add on-demand workflows or actions using an Action Step
 Suppose that, as part of opportunity qualification, the Contoso organization requires all opportunities be reviewed by the designated reviewer. Subsequently, the Contoso organization has an action that performs the following two tasks. 
