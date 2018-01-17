@@ -193,9 +193,10 @@ This topic shows how to create a business process flow with [!INCLUDE[pn_crm_sho
 ## Preview Feature: Add an on-demand action to a business process flow
 The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a new business process flow feature: business process flow automation with Action Steps. This feature lets you add a “button” to a business process flow that when selected triggers an action or workflow.
 
-[!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> [!IMPORTANT]
+> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
 
-[!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ### Enable Action Step support for business process flows 
 1.	Go to **Settings** > **Administration** > **System Settings**.
@@ -203,7 +204,7 @@ The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update 
 3.	Review, and if you agree, accept the license terms.
 4.	Select **Action Step Support for Business Process Flows Preview**.
 
-![Enable business process flow preview feature](media/enable-bpf-actionstep.png)
+    ![Enable business process flow preview feature](media/enable-bpf-actionstep.png)
 
 5.	Select **OK**.
 
@@ -232,7 +233,7 @@ Now, members of Contoso’s salesforce can kick-off the action from the **Opport
 ### Limitations with using Action Steps in a Business Process Flow
 
 - Any user customization that utilizes Action Steps is not supported when importing or exporting solutions.
-- Dynamics 365 Actions are not available as Action Steps if the input or output parameters are of type Entity, EntityCollection, or OptionSet (Picklist). Actions with more than one EntityReference output parameters or any number of EntityReference input parameters are not available as Action Steps. Actions not associated with a primary entity (global action) are not available as Action Steps.
+- Dynamics 365 actions are not available as Action Steps if the input or output parameters are of type Entity, EntityCollection, or OptionSet (Picklist). Actions with more than one EntityReference output parameters or any number of EntityReference input parameters are not available as Action Steps. Actions not associated with a primary entity (global action) are not available as Action Steps.
 
   
 ### See also  
