@@ -58,6 +58,10 @@
         {
           "ConceptualTOC": "ce/developer/virtual-entities/toc.yml",
           "ReferenceTOCUrl": "/dotnet/api/ce-9-virtualentity/toc.json"
+        },
+        {
+          "ConceptualTOC": "ce/unified-service-desk/toc.yml",
+          "ReferenceTOCUrl": "/dotnet/api/usd-3-dotnet/toc.json"
         }
       ]
     }
