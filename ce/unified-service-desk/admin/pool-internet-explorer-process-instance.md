@@ -57,5 +57,5 @@ To enable the Internet Explorer pooling option, perform the following steps:
 
 ## See also
 
-[Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)  
+[Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
  
