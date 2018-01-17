@@ -103,14 +103,18 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 <ul>
 <li><b>entityType</b>: The logical name of the entity.</li>
 <li><b>id</b>: A string representation of a GUID value for the record.</li>
-<li><b>name</b>: The primary attribute value of the record displayed or created.</li>
+<li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
+
+<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>successCallback</b> function will be executed only if you are opening a quick create form or opening an entity form in a new window.
 </td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when the operation fails.</td>
+<td>A function to execute when the operation fails.
+
+<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>errorCallback</b> function will be executed only if you are opening a quick create form or opening an entity form in a new window.</td>
 </tr>
 </table>
 
@@ -118,7 +122,7 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 
 You must use this method to open entity or quick create forms instead of the deprecated  [Xrm.Utility.openEntityForm](https://msdn.microsoft.com/library/jj602956.aspx#openEntityForm) and  [Xrm.Utility.openQuickCreate](https://msdn.microsoft.com/library/jj602956.aspx#openQuickCreate) methods.
 
-On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the callback functions (**successCallback** and **errorCallback**) in the **openForm** method will be executed only if you are opening a quick create form or opening a form in a new window. 
+ 
 
 ## Examples
 
