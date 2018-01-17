@@ -25,12 +25,9 @@ With this release of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 The `IE Process` browser control hosts your controls in individual Internet Explorer process instances and displays them in tabs in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.  
 
 Whenever you are opening a hosted control of CRM entity type in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, the Internet Explorer Pooling feature creates a dynamic pool of Internet Explorer process instance. The hosted control that you are opening uses an Internet Explorer instance from the pool and inline navigation is performed. If you are opening another hosted control, instead of creating a new Internet Explorer instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] opens the hosted control using an Internet Explorer instance from the pool and performs the inline navigation.
-
-when you close a hosted control, the Internet explorer pooling feature recycles the Internet Explorer instance and adds it back to the pool. 
+When you close a hosted control, the Internet explorer pooling feature recycles the Internet Explorer instance and adds it back to the pool. 
   
-Unified Service Desk always maintains a pool of Internet Explorer instances for the hosted controls to use.
-  
-This way of opening a hosted control using an Internet Explorer instance with pool enhances the performance of the Unified Service Desk. 
+Unified Service Desk always maintains a pool of Internet Explorer instances for the hosted controls to use. This way of opening a hosted control using an Internet Explorer instance with pool enhances the performance of the Unified Service Desk. 
 
 > [!Note]
 > The Internet Explorer pool feature supports only CRM entity type navigation.
