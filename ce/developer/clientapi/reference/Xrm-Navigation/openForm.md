@@ -96,14 +96,14 @@ manager: "amyla"
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when:
-<ul><li>the entity form is displayed while opening an existing record.</li>
-<li>the record is saved while opening an entity form for new record or opening a quick create form.</li></ul>
-This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> property with the following properties to identify the record created:
+<td>The function executes as follows:
+<ul><li>When displaying an existing record, the function executes when the entity form is displayed.</li>
+<li>When opening an entity form for new record or opening a quick create form, the function executes when you save data in the form to create new record.</li></ul>
+This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> property with the following properties to identify the record displayed or created:
 <ul>
 <li><b>entityType</b>: The logical name of the entity.</li>
 <li><b>id</b>: A string representation of a GUID value for the record.</li>
-<li><b>name</b>: The primary attribute value of the record created.</li>
+<li><b>name</b>: The primary attribute value of the record displayed or created.</li>
 </td>
 </tr>
 <tr>
