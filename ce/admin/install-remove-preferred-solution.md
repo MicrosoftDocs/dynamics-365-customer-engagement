@@ -35,7 +35,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 3.  Select the **Instances** tab, and then select the instance to add the solution to.  
   
-4.  Select **Manage your solutions** (![Manage your solutions](media/manage-solution.png "Manage your solutions").  
+4.  Select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").  
   
 5.  Select the solution you want to install and select **Install**.  
   
@@ -53,7 +53,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 3.  Select the **Instances** tab, and then select the instance to add the solution to.  
   
-4.  Select the instance with the solution to update, and then select **Manage your solutions**.  
+4.  Select the instance with the solution to update, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").  
   
     ![Select an instance and Manage your solutions](media/select-instance-solution.png "Select an instance and Manage your solutions")
 
