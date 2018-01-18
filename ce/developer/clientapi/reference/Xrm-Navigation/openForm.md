@@ -180,7 +180,7 @@ The following sample code opens a quick create contact form with some pre-popula
 ```JavaScript
 var entityFormOptions = {};
 entityFormOptions["entityName"] = "contact";
-entityFormOptions["useQuickCreateForm"] = "true";
+entityFormOptions["useQuickCreateForm"] = true;
 
 // Set default values for the Contact form
 var formParameters = {};
