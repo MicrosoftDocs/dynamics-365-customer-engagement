@@ -23,7 +23,7 @@ To get the **gridContext** object, you use the [formContext](clientapi-form-cont
 For more information about methods and events available for grids and subgrids, see [Grids and subgrids](reference/grids.md).
 
 > [!NOTE]
-> Getting the **gridContext** object for JavaScript functions for ribbon actions is different from how you get these values in form scripting. More information: [Form and grid context in ribbon actions](../customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md#form-and-grid-context-in-ribbon-actions)
+> Getting the **gridContext** object for JavaScript functions for ribbon actions is different from how you get it in form scripting. More information: [Form and grid context in ribbon actions](../customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md#form-and-grid-context-in-ribbon-actions)
 
 ## Related topics
 
