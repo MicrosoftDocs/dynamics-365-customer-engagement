@@ -51,7 +51,7 @@ function mySampleFunction(primaryControl) {
 }
 ```
 
-You can also use the `CommandProperties` value to pass details about the event from the ribbon control. You can use this to send contextual information to a central function where specific actions can be determined based on the context of the event.
+You can also specify **CommandProperties** as `<CrmParameter>` value in your ribbon definition to pass details about the event from the ribbon control. You can use this to send contextual information to your JavaScript function where specific actions can be determined based on the context of the event.
 
 > [!NOTE]
 > Getting *form context* and *grid context* for JavaScript functions for ribbon actions is different from how you get these values in form scripting. For information about form scripting and how to get these contexts, see [Client API form context](../clientapi/clientapi-form-context.md) and [Client API grid context](../clientapi/clientapi-grid-context.md).
