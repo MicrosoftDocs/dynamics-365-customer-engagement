@@ -22,8 +22,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-When you define an action in a ribbon, you frequently have to pass data from the page to either a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function or a URL. 
-This topic describes options for using the `<CrmParameter>` element to retrieve these values.
+When you define an action in a ribbon, you frequently have to pass data from the page to either a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function or a URL. This topic describes options for using the [CrmParameter](https://msdn.microsoft.com/library/gg309332.aspx) element to retrieve these values.
 
 ## Form and grid context in ribbon actions
 
@@ -43,7 +42,7 @@ For example, here is a sample ribbon definition where we pass in the **PrimaryCo
 </CommandDefinition>
 ```
 
-Next, in the **new_mySampleScript.js** web resource file used in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the form or grid context depending on where the ribbon command is executed:
+Next, in the **new_mySampleScript.js** web resource file referenced in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the form or grid context depending on where the ribbon command is executed:
 
 ```JavaScript
 function mySampleFunction(primaryControl) {
@@ -132,5 +131,7 @@ function mySampleFunction(primaryControl, primaryControlId) {
  [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md)   
  [Passing Parameters to a URL using the Ribbon](pass-parameters-url-by-using-ribbon.md)    
  [Define Ribbon Actions](define-ribbon-actions.md)   
- [Define Custom Actions to modify the Ribbon](define-custom-actions-modify-ribbon.md)
- formContext in Client API
+ [Define Custom Actions to modify the Ribbon](define-custom-actions-modify-ribbon.md)<br>
+ [Client API form context](../clientapi/clientapi-form-context.md)<br>
+ [Client API grid context](../clientapi/clientapi-grid-context.md)<br>
+ 
