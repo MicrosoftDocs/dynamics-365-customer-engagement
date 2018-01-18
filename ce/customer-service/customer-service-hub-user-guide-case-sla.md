@@ -34,7 +34,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
 2.  In the Customer Service Hub sitemap, go to **Service** > **Cases**.
 
-    - The **My Active Cases** view is displayed. You can switch between various case views using the drop-down.
+    - The **My Active Cases** view is displayed. You can switch between case views using the drop-down.
     - Select **Show Chart** in the command bar to see the chart view.
     - Select **Open Dashboards** in the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
 
@@ -121,7 +121,7 @@ When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record
 
 The on-hold time is the time for which the case was set to a status that you defined as an **On-Hold** status in the **System settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](../admin/system-settings-dialog-box-service-tab.md)<br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case is on hold<br /><br /> If the service rep puts the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
 
-Similarly, the status of the SLA KPI instance is updated when the first reponse time on a case is:
+Similarly, the status of the SLA KPI instance is updated when the first response time on a case is:
 
 - Nearing expiry 
 
@@ -149,14 +149,14 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
 |**To**|**Do this**|| 
 |Enter a note |  Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.|
 |View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png) |
-|Create a new interaction|In the **Timeline** section, select **+**, and then select an interaction type: Activity, Appointement, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To create an email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). **Note**: Create and edit emails feature is in preview mode if you are using the app on a desktop browser.|
+|Create a new interaction|In the **Timeline** section, select **+**, and then select an interaction type: Activity, Appointment, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To draft an email in the email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
 |Filter activities|1.  In the **Timeline** section, select  **(...)**  and select **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
 |Take actions on an activity|For an activity, select the **Quick Actions** button ![Select the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Select the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
   
 <a name="bkmk_ManageRelatedRecords"></a>
    
 ## See and manage related records in the Related section  
- The **Related** section in a case record provides you quick access to important information related to the primary case that would help you in solving the case.   
+ The **Related** section (also known as Reference panel) in a case record provides you quick access to important information related to the selected case that would help you in solving the case. For more information, see [Related section](customer-service-hub-user-guide-basics.md#related-section).
   
 ### See recent cases and entitlements  
  See **Recent Cases and Entitlement** to view:  
@@ -166,7 +166,7 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
 -   A list of entitlements for the customer associated with the current case.  
  
   
-### Search for Knowledge Articles  
+### Search for knowledge articles  
  The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Select the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
 
 **Knowledge Base Search** in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in the Global search UI. Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
@@ -174,7 +174,7 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
 > [!IMPORTANT]
 >  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
   
-   ![Find knowledge articles from a case record](../customer-service/media/v9-case-form-search-kb-records.png "Find knowledge articles from a case record")  
+  ![knowledge-article-search](media/case-form-search-rp.png) 
   
 -   Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
   
@@ -187,8 +187,10 @@ Similarly, the status of the SLA KPI instance is updated when the first reponse 
 -   To associate the knowledge article to the current case, select the  **Link the KB Article** button ![Select link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Select to link the knowledge article to the case").  
   
      You can also dissociate the article from the case by choosing the **Unlink the knowledge article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365").  
+
+-  	To email the article directly, select the **Email** button. 
   
--   To send an email with a link to the knowledge article on a portal in an email, select the **Quick Actions** button ![Send link to the knowledge article in email](../customer-service/media/v8-email-link.png "Send link to the knowledge article in email"), and then select **Email Link**. An email form opens with the link to the article populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**. 
+-   To send a link of the knowledge article in an email, select the **Quick Actions** button ![Send link to the knowledge article in email](../customer-service/media/v8-email-link.png "Send link to the knowledge article in email"), and then select **Email Link**. An email form opens with the link to the article populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**. 
   
      If the article is published, an external link is copied to the email body.  
   

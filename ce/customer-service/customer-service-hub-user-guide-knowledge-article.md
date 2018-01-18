@@ -65,7 +65,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 6. Select **Save**. 
    
-   As the article is saved, the Business Process flow bar appears for the article. The various stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article towards completeness. You can customize the stages in the Business Process flow to suit your  requirements.
+   As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article towards completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
 7. On the Business process bar, select **Author**.  
 8. In the **Set Keywords** text box, add keywords for your article.
@@ -90,7 +90,7 @@ The **Content** editor panel consists of three tabs:
 
 - **Designer**. Author and edit the article here. Benefit from the enhanced and rich text editing capabilities.
 - **HTML**. View the HTML preview of the content here. You can author or edit the article in the HTML tab also.
-- **Preview**. See how your content would look like on various devices like Desktop, Tablet, or Mobile.
+- **Preview**. See how your content would look like on devices like Desktop, Tablet, or Mobile.
 
 Additionally, you can perform **Undo**, **Redo**, and **Full Screen** in the Content editor panel. 
   
@@ -103,7 +103,7 @@ You can choose a specific format or style for the content you’re writing.
 |Command|Use|  
 |-------------|---------|  
 |**1**. Formatting Styles|Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note:**  This option is available in the expanded mode only.|  
-|**2**. Paragraph Format|Apply predefined block-level combinations of various formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only.|  
+|**2**. Paragraph Format|Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only.|  
 |**3**. Font Name|Choose a font for the selected text.|  
 |**4**. Font size|Choose a font size for the selected text.|  
 |**5**. Bold|Apply bold formatting to the selected text.|  
