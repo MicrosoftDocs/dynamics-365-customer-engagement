@@ -46,7 +46,8 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 ### Changes for author information from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages
 
-Starting February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updates its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages and author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for pages that add as a social profile to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. The content of posts and comments as well as enrichments, such as sentiment, are continuing to be available for posts and comments without author information. We recommend you add page access tokens for every Facebook page before the change on February 6. [Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
+Starting February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updates its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages and author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for pages that add as a social profile to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. The content of posts and comments as well as enrichments, such as sentiment, are continuing to be available for posts and comments without author information. We recommend you add page access tokens for every Facebook page before the change on February 6.   
+[Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
 
