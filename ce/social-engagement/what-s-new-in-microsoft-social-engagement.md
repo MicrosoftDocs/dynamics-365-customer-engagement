@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 01/05/2018
+ms.date: 01/18/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -33,7 +33,7 @@ With this update, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement
 New capabilities for all users:
 
 - You can choose to represent the data from widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] in a chart or a data table.
-- You can choose to render the charts with a fill patterns or solid colors. When selecting the fill patterns, data on maps will be represented in different shapes and not rely exclusively on color.
+- You can choose to render the charts with a fill pattern or solid colors. When selecting the fill patterns, data on maps will be represented in different shapes and not rely exclusively on color.
 - You can navigate the maps in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] with a keyboard by selecting a tab to reach the first data point on a map.
 - In activity maps, you can choose between a visual map and a data table. The map allows navigation by keyboard in cardinal directions.
 - You will experience improved navigation for post lists and post details
@@ -43,6 +43,10 @@ To learn more, see our dedicated [documentation on accessibility for Microsoft S
 ### Administrators now enabled to remove alert recipients
 
 With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can now remove recipients from alerts that were configured by other users. You can search for a specific email address and then [remove the recipient from all alerts](email-alerts.md) that send email to that address. Additionally, you can export a list of alerts this recipient receives.
+
+### Changes for author information from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages
+
+Starting February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updates its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages and author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for pages that add as a social profile to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. The content of posts and comments as well as enrichments, such as sentiment, are continuing to be available for posts and comments without author information. We recommend you add page access tokens for every Facebook page before the change on February 6. [Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
 
