@@ -57,7 +57,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
     ![Select an instance and Manage your solutions](media/select-instance-solution.png "Select an instance and Manage your solutions")
 
-5.  Select the solution you want to update and the select **Upgrade**.  
+5.  Select the solution you want to update, and then select **Upgrade**.  
   
     ![Select solution and upgrade](media/select-solution-upgrade.png "Select solution and upgrade")
 
