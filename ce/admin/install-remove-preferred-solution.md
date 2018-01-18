@@ -51,7 +51,7 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 2.  Select **Admin centers** > **Dynamics 365**  
   
-3.  Select the **Instances** tab, and then select the instance to add the solution to.  
+3.  Select the **Instances** tab.  
   
 4.  Select the instance with the solution to update, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").  
   
