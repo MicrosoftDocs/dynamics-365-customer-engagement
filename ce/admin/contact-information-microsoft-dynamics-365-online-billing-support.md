@@ -1,7 +1,7 @@
 ---
 title: "Contact information for Dynamics 365 (online) billing support | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 01/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 73759d4a-596d-469a-8da3-8ab4f02cd048
 caps.latest.revision: 14
-ms.author: "mkaur"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Contact information for billing support
