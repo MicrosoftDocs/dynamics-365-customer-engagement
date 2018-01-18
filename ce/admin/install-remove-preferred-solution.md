@@ -1,7 +1,7 @@
 ---
-title: "Install or remove a preferred solution for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Install, update, or remove a preferred solution for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 01/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Install or remove a preferred solution
+# Install, update, or remove a preferred solution
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -31,19 +31,38 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 1.  Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
   
-2.  Click **Admin centers** > **Dynamics 365**  
+2.  Select **Admin centers** > **Dynamics 365**  
   
-3.  Click the **Instances** tab, and then select the instance to add the solution to.  
+3.  Select the **Instances** tab, and then select the instance to add the solution to.  
   
-4.  Click **Solutions**.  
+4.  Select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").  
   
-5.  Select the solution you want to install and click **Install**.  
+5.  Select the solution you want to install and select **Install**.  
   
      Proceed through **Terms of service** to accept the terms.  
   
  The status for the solution changes to **Installation pending**.  
   
  The status for the solution will change to **Installed** when the solution is ready.  
+
+## Update a preferred solution
+
+1.  Sign in to [https://portal.office.com](https://portal.office.com) with your Global administrator or [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator credentials.  
+  
+2.  Select **Admin centers** > **Dynamics 365**  
+  
+3.  Select the **Instances** tab.  
+  
+4.  Select the instance with the solution to update, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").  
+  
+    ![Select an instance and Manage your solutions](media/select-instance-solution.png "Select an instance and Manage your solutions")
+
+5.  Select the solution you want to update, and then select **Upgrade**.  
+  
+    ![Select solution and upgrade](media/select-solution-upgrade.png "Select solution and upgrade")
+
+6.  Proceed through **Terms of service** to accept the terms and start the upgrade. 
+
   
 ## Delete a preferred solution  
   
@@ -51,8 +70,8 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 2.  Sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-3.  Click **Settings** > **Solutions**.  
+3.  Select **Settings** > **Solutions**.  
   
-4.  Select a solution and click **Delete**.  
+4.  Select a solution and select **Delete**.  
   
 ### See also  
