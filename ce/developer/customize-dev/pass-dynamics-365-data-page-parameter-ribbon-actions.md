@@ -22,7 +22,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-When you define an action in a ribbon, you frequently have to pass data from the page to either a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function or a URL. This topic describes options for using the [CrmParameter](https://msdn.microsoft.com/library/gg309332.aspx) element to retrieve these values.
+When you define an action in a ribbon, you frequently have to pass data from the page to either a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function or a URL. This topic describes options for using the [\<CrmParameter\>](https://msdn.microsoft.com/library/gg309332.aspx) element to retrieve these values.
 
 ## Form and grid context in ribbon actions
 
@@ -50,6 +50,8 @@ function mySampleFunction(primaryControl) {
     // Perform operations using the executionContext object
 }
 ```
+
+You can also use the `CommandProperties` value to pass details about the event from the ribbon control. You can use this to send contextual information to a central function where specific actions can be determined based on the context of the event.
 
 > [!NOTE]
 > Getting *form context* and *grid context* for JavaScript functions for ribbon actions is different from how you get these values in form scripting. For information about form scripting and how to get these contexts, see [Client API form context](../clientapi/clientapi-form-context.md) and [Client API grid context](../clientapi/clientapi-grid-context.md).
@@ -117,15 +119,11 @@ function mySampleFunction(primaryControl, primaryControlId) {
  
   
 ## Client Context information  
- In addition to data values, you can retrieve additional context information by using `<CrmParameter>`.  
-  
- For convenience, the `Value` attribute options `OrgName`, `OrgLcid`, and `UserLcid` are available.
+ In addition to data values, you can retrieve client context information by using [\<CrmParameter\>](https://msdn.microsoft.com/library/gg309332.aspx).  You can use the following options as the value for the `CrmParameter` element: `OrgName`, `OrgLcid`, and `UserLcid`.
  
  For a `<Url>` action, you can also use the `PassParams` attribute to include contextual information.  
   
- `Value` options `PrimaryEntityTypeName` and `FirstPrimaryItemId` provide information for an entity record. You can use `PrimaryItemIds` for a `HomepageGrid` ribbon to get a list of all the displayed items.  
-  
- Finally, you can use the `CommandProperties` value to pass details about the event from the ribbon control. You can use this to send contextual information to a central function where specific actions can be determined based on the context of the event.  
+ `Value` options `PrimaryEntityTypeName` and `FirstPrimaryItemId` provide information for an entity record. You can use `PrimaryItemIds` for a `HomepageGrid` ribbon to get a list of all the displayed items.
   
 ### See also  
  [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md)   
