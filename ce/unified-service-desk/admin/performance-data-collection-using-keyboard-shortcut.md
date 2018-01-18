@@ -20,7 +20,7 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Performance data collection
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data collection enables you to collect data about the operational events, errors, and performance in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Performance data collection creates log files to help you identify and troubleshoot performance issues or errors. If you encounter technical issues with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], customer support may ask you send the log file to help troubleshoot the issue.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data collection enables you to collect data about operational events, errors, and performance in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Performance data collection creates log files to help you identify and troubleshoot performance issues or errors. If you encounter technical issues with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], customer support may ask you send the log file to help troubleshoot the issue.
 
 When you enable performance data collection, log files are maintained with a unique performance session ID (GUID) on the client computer. Example of performance session ID (GUID): **cv0ab1gg-1df3-7bd9-b5dt-1221d65r93w8**.
 [comment]: <> (In the above paragraph, the first sentence was very long. I broke into two sentence, please make sure it makes sense.)
@@ -36,14 +36,14 @@ The path where the log files are maintained on the client computer:
 
 An agent working on a client computer can start and stop collecting the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data using keyboard shortcuts. By default, the keyboard shortcut to start performance data collection is **Ctrl+Alt+Q** and to stop performance data collection is **Ctrl+Alt+P**.
 
-To change the default keyboard shortcut, System Administrator need to configure new keyboard shortcuts to start and stop collection of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data.
+To change the default keyboard shortcut, a System Administrator needs to configure new keyboard shortcuts to start and stop collection of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data.
 
 To configure a new performance data collection keyboard shortcut:
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 
 2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
- [comment]: <> (Step 2 does not look like an instruction. We need to tell the user to do something.)
+ 
 3. Open the Audit & Diagnostics Setting record in the **Audit & Diagnostics Settings** section.
     > [!Note]
     > If there is no existing record, create a new Audit & Diagnostics Setting record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create an Audit & Diagnostics record to use for diagnostics](../admin/configure-auditing-diagnostics-unified-service-desk.md).
