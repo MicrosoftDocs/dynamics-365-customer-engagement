@@ -23,7 +23,68 @@ manager: "amyla"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 When you define an action in a ribbon, you frequently have to pass data from the page to either a [!INCLUDE[pn_JavaScript](../../includes/pn-javascript.md)] function or a URL. 
-This topic describes options for using the `<CrmParameter>` element to retrieve these values.  
+This topic describes options for using the `<CrmParameter>` element to retrieve these values.
+
+## Form and grid context in ribbon actions
+
+To pass in the *form context* or *grid context* information to JavaScript function for your ribbon actions, specify **PrimaryControl** as the `<CrmParameter>` value in your ribbon definition. The passed in PrimaryControl value is used as an argument in your JavaScript function that provides the *form context* or *grid context* depending on where the ribbon command is executed. 
+
+For example, here is a sample ribbon definition where we pass in the **PrimaryControl** parameter to the JavaScript function:
+
+```xml
+<CommandDefinition Id="SampleCommand">
+  <EnableRules/>
+  <DisplayRules/>
+  <Actions>
+    <JavaScriptFunction Library="$webresource:new_mySampleScript.js" FunctionName="mySampleFunction">
+      <CrmParameter Value="PrimaryControl" />
+    </JavaScriptFunction>
+  </Actions>
+</CommandDefinition>
+```
+
+Next, in the **new_mySampleScript.js** web resource file used in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the form or grid context depending on where the ribbon command is executed:
+
+```JavaScript
+function mySampleFunction(primaryControl) {
+    var executionContext = primaryControl;
+    // Perform operations using the executionContext object
+}
+```
+
+> [!NOTE]
+> Getting *form context* and *grid context* for JavaScript functions for ribbon actions is different from how you get these values in form scripting. For information about form scripting and how to get these contexts, see [Client API form context](../clientapi/clientapi-form-context.md) and [Client API grid context](../clientapi/clientapi-grid-context.md).
+
+## Form values
+
+With a form ribbon, you can use the `data.entity`.[attributes](../clientapi/reference/collections.md) collection and the `ui`.[controls](../clientapi/reference/collections.md) collection to retrieve values for known fields. 
+
+However, if you want to pass the value of a selected form field, you’ll have to do more scripting to get the value. You can use the **PrimaryControlId** parameter to get the Id value for the control that has focus when the ribbon control received focus. This Id is the Document Object Model (DOM) Id value. 
+
+Here is a sample ribbon definition where we pass in the **PrimaryControlId** parameter:
+
+```xml
+<CommandDefinition Id="SampleCommand">
+  <EnableRules/>
+  <DisplayRules/>
+  <Actions>
+    <JavaScriptFunction Library="$webresource:new_mySampleScript.js" FunctionName="mySampleFunction">
+      <CrmParameter Value="PrimaryControl" />
+      <CrmParameter Value="PrimaryControlId" />
+    </JavaScriptFunction>
+  </Actions>
+</CommandDefinition>
+```
+
+To get the data value, you will have to try using that value by using code such as that in the following example:  
+  
+```javascript  
+function mySampleFunction(primaryControl, primaryControlId) {
+    var executionContext = primaryControl;
+    var focusFieldValue = executionContext.ui.controls.get(primaryControlId).getAttribute().getValue();
+}  
+```
+
   
 ## Grid values  
  The majority of the values available for the `<CrmParameter>` element are related to working with data displayed in a grid or hierarchy chart. By using the `Value` attribute enumeration options, you can easily isolate items by:  
@@ -54,19 +115,9 @@ This topic describes options for using the `<CrmParameter>` element to retrieve 
   
  For each of these groupings, you can gather the number of items and the GUID identifier. If you are passing the values to a URL, you can also retrieve `EntityReference` objects that contain all the information that you need to uniquely identify the objects in the grid. These parameters apply whether the page viewed is the main grid (`HomepageGrid`) or a sub grid located in a form. When used together with the `SelectedEntityTypeName` parameter, you have all the information that you must have to pass to another application.  
   
-## Form values  
- With a form ribbon, you can use the `formContext.data.entity`.[attributes](../clientapi/reference/collections.md) collection and the `formContext.ui`.[controls](../clientapi/reference/collections.md) collection to retrieve values for known fields. For more information about **formContext**, see [Client API form context](../clientapi/clientapi-form-context.md). 
-
-However, if you want to pass the value of a selected form field, you’ll have to do more scripting to get the value. You can use the `PrimaryControlId` parameter to get the Id value for the control that has focus when the ribbon control received focus. This Id is the Document Object Model (DOM) Id value. To get the data value, you will have to try using that value by using code such as that in the following example:  
+ 
   
-```javascript  
-function myFunction(executionContext) {
-    var formContext = executionContext.getFormContext();
-    varFocusFieldValue = formContext.ui.controls.get(PrimaryControlId).getAttribute().getValue();
-}  
-```  
-  
-## Context information  
+## Client Context information  
  In addition to data values, you can retrieve additional context information by using `<CrmParameter>`.  
   
  For convenience, the `Value` attribute options `OrgName`, `OrgLcid`, and `UserLcid` are available.
@@ -82,3 +133,4 @@ function myFunction(executionContext) {
  [Passing Parameters to a URL using the Ribbon](pass-parameters-url-by-using-ribbon.md)    
  [Define Ribbon Actions](define-ribbon-actions.md)   
  [Define Custom Actions to modify the Ribbon](define-custom-actions-modify-ribbon.md)
+ formContext in Client API
