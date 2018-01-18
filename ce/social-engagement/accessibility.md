@@ -2,7 +2,7 @@
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Social Engagement."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 01/11/2018
+ms.date: 01/18/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -16,9 +16,8 @@ topic-status: Drafting
 
 # Accessibility for Microsoft Social Engagement
 
-[Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive. 
-[comment]: <> (In the sentence below--do you think "regardless of abilities" is clearer that "irrespective of abilities?") 
-[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, irrespective of abilities. 
+[Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
+[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
 ## Accessibility capabilities built into Social Engagement
 
@@ -70,11 +69,11 @@ You can navigate the maps in [!INCLUDE[pn-social-engagement-short](../includes/p
 
 Activity maps let you read the data either by analyzing the data on the visual map or from the table view, which can be turned on using the **Switch to table view** control.
 To navigate the data on the visual activity map, select Tab until you reach a data point on the map. Then you can use the arrow keys to browse through all data points on the map. The arrow keys indicate the direction where the next data point will be:
-- Left arrow: the closest data point in the east
+- Left arrow: the closest data point in the west
 - Up arrow: the closest data point in the north
-- Right arrow: the closest data point in the west
+- Right arrow: the closest data point in the east
 - Down arrow: the closest data point in the south
-[comment]: <> (The directions above seem counterintuitive--I just want to verify. Do you really use the left arrow to go east and right arrow to go west?)
+
 To navigate the data in the cells of the table view, select the arrow keys.    
 
 To use the area filter with a keyboard, select Tab until you reach the **Area filter** and provide coordinates for two corner points of the rectangular area filter. Provide the latitude and longitude for Point A and for Point B. Tab to the **Save** control and select Enter to activate the area filter. Only data that matches your area filter is now shown in your map/table. 
@@ -137,4 +136,3 @@ For more information on detailed accessibility features built into Microsoft pro
 
 [Social Engagement overview](overview.md)    
 [Manage user preferences](user-preferences.md)    
- 
