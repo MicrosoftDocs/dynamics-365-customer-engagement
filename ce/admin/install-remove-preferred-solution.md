@@ -72,6 +72,6 @@ Install preferred solutions to gain added features and functionality for [!INCLU
   
 3.  Select **Settings** > **Solutions**.  
   
-4.  Select a solution and Select **Delete**.  
+4.  Select a solution and select **Delete**.  
   
 ### See also  
