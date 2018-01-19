@@ -1,6 +1,6 @@
 ---
 title: "What&#39;s new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
-description: "Learn about new features available with Unified Service Desk for Dynamics 365 Customer Engagement." 
+description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement" 
 ms.custom: ""
 ms.date: 01/25/2018
 ms.reviewer: ""
@@ -25,39 +25,39 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 <a name="NewIn320"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]
 
-### Performance enhancements: Internet Explorer Pooling
+### Performance enhancements: Internet Explorer pooling
 
-In [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can experience enhanced performance with the Internet Explorer pooling.
+In [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can experience enhanced performance with Internet Explorer pooling.
 
-The Internet Explorer Pooling feature creates a dynamic pool of Internet Explorer process instance whenever you are opening a hosted control (entity type) in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. The hosted control that you are opening uses an Internet Explorer instance from the pool and inline navigation is performed. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for the hosted controls to use.
+Internet Explorer pooling creates a dynamic pool of Internet Explorer process instances whenever you open a hosted control (entity type) in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. The hosted control that you open uses an Internet Explorer instance from the pool to perform inline navigation. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for the hosted controls to use.
 
-By default, the Internet Explorer pooling feature is disabled. To enable the option, System Administrator must configure the **InternetExplorerPooling** option on the **Active UII Options** page and set it to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Pool Internet Explorer process instance](../../unified-service-desk/admin/pool-internet-explorer-process-instance.md).
+By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the **InternetExplorerPooling** option on the **Active UII Options** page and set it to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Pool Internet Explorer process instance](../../unified-service-desk/admin/pool-internet-explorer-process-instance.md).
 
-### Recover Internet Explorer process instance
+### Recover an Internet Explorer process instance
 
-With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can recover the Internet Explorer process instance in the following scenarios:
+With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can recover an Internet Explorer process instance in the following scenarios:
 
 - When Internet Explorer closes abruptly.
 
-- When Internet Explorer webpage is unresponsive.
+- When an Internet Explorer webpage is unresponsive.
 
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
 
-- When a script on the hosted control that uses IE process browser control takes time more than the timeout period for page navigation.
+- When a script on the hosted control that uses an Internet Explorer process browser control takes time more than the timeout period for page navigation.
+[comment]: <> (We need to simplify the sentence above.) 
+- When you use a keyboard shortcut to manually terminate an Internet Explorer webpage.
 
-- When you use the keyboard shortcut to manually terminate the Internet Explorer webpage.
+Internet Explorer process (IEWebPageRecovery) recovery enables you to recover any Internet Explorer process instance (which may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application.
 
-Internet Explorer process (IEWebPageRecovery) recovery feature enables you to recover any Internet Explorer process instance (may have more than one webpage) that are unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application.
+By default, Internet Explorer process instance recovery is enabled. To disable recovery, a System Administrator must configure the **IEWebPageRecovery** option on the **Active UII Options** page and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Recover Internet Explorer process instance](../../unified-service-desk/admin/recover-internet-explorer-process-instance.md).
 
-By default, the Internet Explorer process instance recovery feature is enabled. However, to disable the option, System Administrator must configure the **IEWebPageRecovery** option on the **Active UII Options** page and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Recover Internet Explorer process instance](../../unified-service-desk/admin/recover-internet-explorer-process-instance.md).
+### Performance data collection using keyboard shortcuts
 
-### Performance diagnostics: Performance data collection using keyboard shortcut
+Using keyboard shortcuts, you can start and stop collecting data about operational events, errors, and performance in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. You can collect data in log files, which can be used to identify and troubleshoot performance issues or errors. If you encounter a technical issue that is related to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance, Customer Support Service personal may ask you to send the log file to help troubleshoot the issue. 
 
-Using the keyboard shortcut agents can start and stop collecting data about the operational events, errors, and performance in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues or errors. If agents encounter technical issues that are related to performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Customer Support Service personal may request you send the log file to help troubleshoot the issue. 
+When you enable performance data collection using a keyboard shortcut, the log files are maintained with a unique performance session ID (GUID) on the client computer.
 
-When agents enable the performance data collection using keyboard shortcut, the log files are maintained with a unique performance session Id (GUID) on the client computer.
-
-Agent working on the client computer can use **Ctrl+Alt+Q** to start and use **Ctrl+Alt+P** to stop collecting the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data. To change the default keyboard shortcut, System Administrator need to configure the new keyboard shortcuts to start and stop the collection of performance data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance data collection](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md).
+Agents working on the client computer can use **Ctrl+Alt+Q** to start and **Ctrl+Alt+P** to stop collecting the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data. To change the default keyboard shortcut, a System Administrator must configure the new keyboard shortcut to start and stop collecting performance data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance data collection](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md).
 
 <a name="NewIn310"></a>  
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
