@@ -144,6 +144,7 @@
 # [Work with templates](work-with-templates.md)
 ## [Articles](create-templates-articles.md)
 ## [Email](create-templates-email.md)
+## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
 ## [Entitlements](../customer-service/set-up-entitlements-quickly-templates.md)
 ## [Excel](analyze-your-data-with-excel-templates.md)
