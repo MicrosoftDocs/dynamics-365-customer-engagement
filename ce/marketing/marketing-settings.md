@@ -28,6 +28,8 @@ To find these settings, open **Settings** > **Advanced Settings** and choose one
 
 See the remaining sections of this topic for information about how to work with each page in the **Marketing** section.
 
+<a name="config-mkt-pages"></a>
+
 ## Configure marketing pages
 
 Use the **Settings** > **Advanced Settings** > **Marketing** > **Marketing Page Configuration** page to set up a privacy banner, set hosting defaults, and configure defaults for how data submitted through a landing page form is matched to existing contact or lead records.
