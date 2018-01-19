@@ -7,6 +7,7 @@
 ## [Administrator Guide](admin-guide.md)
 
 ### [First time setup](purchase-setup.md)
+### [Keep Marketing up to date](apply-updates.md)
 ### [Open the administration settings](open-advanced-settings.md)
 ### [Organization settings](organization-settings.md)
 #### [Manage users](manage-users.md)
