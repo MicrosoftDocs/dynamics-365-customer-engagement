@@ -24,9 +24,8 @@ With this release of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 
 The `IE Process` browser control hosts your controls in individual Internet Explorer process instances and displays them in tabs in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.  
 
-Whenever you open a CRM entity type hosted control in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, the Internet Explorer Pooling feature creates a dynamic pool of Internet Explorer process instances. The hosted control uses an Internet Explorer instance from the pool, which performs inline navigation. If you open another hosted control, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] opens it using an Internet Explorer instance from the pool and performs the inline navigation.
-[comment]: <> (Is pooling an official feature name? That affects if we capitalize "pooling" or not. If it is an official feature name, then it is capped. If it is a function of IE, then it's lowercase pooling. Please ping me if you want my help sorting this out. I feel like we could make this paragraph clearer.)
-When you close a hosted control, the Internet Explorer pooling feature recycles the Internet Explorer instance and adds it back to the pool. 
+Whenever you are opening a CRM entity type hosted control in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, the Internet Explorer Pooling feature creates a dynamic pool of Internet Explorer process instances. The hosted control uses an Internet Explorer instance from the pool, which performs inline navigation. If you open another hosted control, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] opens it using an Internet Explorer instance from the pool and performs the inline navigation.
+When you close a hosted control, the Internet Explorer Pooling feature recycles the Internet Explorer instance and adds it back to the pool. 
   
 Unified Service Desk always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control using a pooled Internet Explorer instance enhances the performance of the Unified Service Desk.
 
