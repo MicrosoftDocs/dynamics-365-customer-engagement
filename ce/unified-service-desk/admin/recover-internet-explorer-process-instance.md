@@ -22,6 +22,8 @@ manager: "sakudes"
 # Recover an Internet Explorer process instance
 The `IE process` browser control hosts your controls in individual Internet Explorer process instances and displays them in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. You can use the Internet Explorer process (IEWebPageRecovery) recovery feature to reload any Internet Explorer process instance (may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. 
 
+By default, Internet Explorer process instance recovery is enabled. To disable the feature, an administrator must configure the option and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
+
 <a name="BKMK_When_you_can_recover_the_Internet_Explorer_process_instances"></a>
 ## When you can recover Internet Explorer process instances
 
@@ -85,17 +87,21 @@ After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_s
 
 After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message: **Internet Explorer closed abruptly**. Select **Reload** to recover the closed Internet Explorer process instance. If you do not want to recover, select **Cancel**.
 
-<name="BKMK_Limitations"></a>
+<a name="BKMK_Limitations"></a>
 ## Limitations
 The limitations of Internet Explorer process recovery are as follows: 
 
-- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover inline navigation of an Internet Explorer webpage. </br>
-For example, you open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage. If the **Case** Internet Explorer webpage becomes unresponsive, the recovery feature reloads only the **Account** Internet Explorer webpage and not the **Case** Internet Explorer webpage.
-By default, Internet Explorer process instance recovery is enabled. To disable the feature, an administrator must configure the option and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
+- When you recover an Internet Explorer webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers all the events that associate with the webpage. </br>
+For example: </br> **TaskUpdated** is a event configured for the **Agent Scripting** hosted control (webpage) and has **Action Call for Reminder** and **Action Call for Resolve Case** as Action Calls. 
+If you recover **Agent Scripting** webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers the **TaskUpdated** event and the **Action Calls**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Events](../events.md).
+
+- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover inline navigation of an Internet Explorer webpage, and you may lose an unsaved work. </br>
+For example: </br>
+  You open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage and not the **Case** webpage. You may lose any unsaved data that you had entered in the **Case** webpage.
 
 - If the web browser runs slowly while executing a script, and you choose **Stop** to terminate and not to recover the Internet Explorer webpage, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] may terminate other Internet Explorer webpages.
 
-- Using the **Ctrl + Alt + K** keyboard shortcut may terminate any responsive Internet Explorer webpage, causing you to lose any unsaved work.</br>
+- Using **Ctrl + Alt + K** keyboard shortcut may terminate any responsive Internet Explorer webpage, causing you to lose any unsaved work.</br>
 
 ## See also
 
