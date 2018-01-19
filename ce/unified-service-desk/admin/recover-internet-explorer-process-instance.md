@@ -1,6 +1,6 @@
 ---
-title: "Reload Internet explorer process instance in Unified Service Desk | MicrosoftDocs"
-description: "Learn about recovering the internet explorer process instance"
+title: "Reloading an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
+description: "Learn about recovering an Internet Explorer process instance"
 ms.custom: ""
 ms.date: 01/25/2018
 ms.reviewer: ""
@@ -19,82 +19,82 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Recover Internet Explorer process
-The `IE process` browser control hosts your controls in individual Internet Explorer process instances, and displays them in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. Internet Explorer process (IEWebPageRecovery) recovery feature enables you to reload any Internet Explorer process instance (may have more than one webpage) that are unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. 
+# Recover an Internet Explorer process instance
+The `IE process` browser control hosts your controls in individual Internet Explorer process instances and displays them in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. You can use the Internet Explorer process (IEWebPageRecovery) recovery feature to reload any Internet Explorer process instance (may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. 
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover an inline navigation of an Internet Explorer webpage. 
-For example, you open an **Account** Internet Explorer webpage and perform an inline navigation to a Case Internet Explorer webpage. If the **Case** Internet Explorer webpage becomes unresponsive. The recovery feature reloads only the **Account** Internet Explorer webpage and not **Case** Internet Explorer webpage.
-By default, the Internet Explorer process instance recovery feature is enabled. However, to disable the feature, administrator must configure the option the option and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover inline navigation of an Internet Explorer webpage. 
+For example, you open an **Account** Internet Explorer webpage and navigate inline to a Case Internet Explorer webpage. If the **Case** Internet Explorer webpage becomes unresponsive, the recovery feature reloads only the **Account** Internet Explorer webpage and not the **Case** Internet Explorer webpage.
+By default, Internet Explorer process instance recovery is enabled. To disable the feature, an administrator must configure the option and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
 
 <a name="BKMK_When_you_can_recover_the_Internet_Explorer_process_instances"></a>
-## When you can recover the Internet Explorer process instances
+## When you can recover Internet Explorer process instances
 
-You can recover the Internet Explorer process instance in the following scenarios:
+You can recover an Internet Explorer process instance in the following scenarios:
 
 - When Internet Explorer closes abruptly.
-- When Internet Explorer webpage is unresponsive.
+- When an Internet Explorer webpage is unresponsive.
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
 - When a script on the hosted control that uses `IE process` browser control takes time more than the timeout period for page navigation.
 - When you use the keyboard shortcut to manually terminate the Internet Explorer webpage.
 
 <a name="BKMK_recover_unresponsive_Internet_Explorer_process_instance"></a>
-## Recover unresponsive Internet Explorer process instance
+## Recover an unresponsive Internet Explorer process instance
 
-You can re the Internet Explorer process instance in the following ways:
+You can recover the Internet Explorer process instance in the following ways:
 
-When a hosted control that uses IE process browser control closes unexpectedly, Unified Service Desk client application displays a window, which reads – **Internet Explorer closed abruptly**.
+When a hosted control that uses an Internet Explorer process browser control closes unexpectedly, the Unified Service Desk client application displays the message **Internet Explorer closed abruptly**.
 
-To recover the closed Internet Explorer process instance (may contain one more webpages), select the **Reload** option in the window. If you do not want to recover, select the **Cancel** option. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips the recovery of the Internet Explorer process instance and displays a message, which reads – **The webpage stopped responding. If you frequently experience unexpected closing of Internet Explorer webpage, contact your system administrator**.
-
-The list provides the option and description.
+To recover the closed instance (which may contain more than one webpage), select **Reload**. If you do not want to recover, select **Cancel**. If you cancel, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application skips recovery of the Internet Explorer process instance and displays a message, **The webpage stopped responding. If you frequently experience unexpected closing of Internet Explorer webpage, contact your system administrator**.
+[comment]: <> (We need to verify this message, it is not grammatically correct.)
+The following list shows recovery options and descriptions.
 
 |Option|Description|
 |:------|:------|
 |Reload|Recovers the Internet Explorer process instance|
-|Option|Skips the recovery of the Internet Explorer process instance|
-
+|Cancel|Skips the recovery of the Internet Explorer process instance|
+[comment]: <> (I don't think we need this table, the text in the paragraph before is perfectly clear. Three are only two options. OR, simplify the paragraph and leave the table. Just don't need both.)
 <a name="BKMK_recover_when_using_RunScript_on_a_hosted_control"></a>
-## Recover when using RunScript on a hosted control
+## Recover using RunScript on a hosted control
 
-A script running on the hosted control causes the Internet Explorer webpage to run slowly. If you have configured the **IEWebPageInactivityTimeOut** UII option, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period. By default, the **IEWebPageInactivityTimeOut** timeout period is 15000 milliseconds (15 seconds).
-
+A script running on a hosted control causes an Internet Explorer webpage to run slowly. If you have configured the **IEWebPageInactivityTimeOut** UII option, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period. By default, the **IEWebPageInactivityTimeOut** timeout period is 15 seconds.
+[comment]: <> (We want to use simple language, can we just say seconds? Or is milliseconds in the UI?)
 > [!Note]
-> - To change the default timeout period, System Administrator need to configure the **IEWebPageInactivityTimeOut** on the **Active UII Options** page and type the value. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md).
+> - To change the default timeout period, a System Administrator must configure the **IEWebPageInactivityTimeOut** on the **Active UII Options** page and type the value. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md).
 > - If you set the value as 0 milliseconds, then the **IEWebPageInactivityTimeOut** is disabled.
+[comment]: <> (Does the UI use milliseconds?)
+After the timeout period, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the message **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**. 
 
-After the timeout period, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a message window, which reads - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**. 
+To recover the webpage, select **Reload**. If you do not want to recover the webpage, select **Stop**. If you want to wait for the Internet Explorer webpage to respond, select **Continue**.
+[comment]: <> (Do we need to say "Internet Explorer webpage" every time? Can we just say "webpage?" I think we have established that we are talking about IE, and the reader will know that.)
+After you select **Continue** and wait for the Internet Explorer webpage to respond, if it does not respond, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period.
 
-To recover the Internet Explorer webpage, select the **Reload** option. If you want to end and not to recover the Internet Explorer webpage, select the **Stop** option. If you want to wait for the Internet Explorer webpage to respond, select the **Continue** option.
-
-After you select **Continue** and wait for the Internet Explorer webpage to respond, if the Internet Explorer webpage does not respond, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period.
-
-The list provides the set of options and descriptions to select when you see the message window.
+The following list shows the options and descriptions to select when you see the message window.
 
 |Option|Description|
 |:------|:------|
 |Reload|Recovers the Internet Explorer webpage|
 |Stop|Terminates and does not to recover the Internet Explorer webpage.|
 |Continue|Wait until the Internet Explorer webpage to respond|
-
-If the webpage runs slowly while executing a script on the `IE process` browser hosting hosted control, and when you select the **Reload** option, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays another window, which reads – **Internet Explorer closed abruptly.** Select the **Reload** option again to recover the Internet Explorer webpage.
+[comment]: <> (Same thing as the table before. Do we need to repeat this information a second time?)
+If the webpage runs slowly while executing a script on the `IE process` browser hosting hosted control, and when you select **Reload**, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays another message, **Internet Explorer closed abruptly.** Select **Reload** again to recover the webpage.
 
 > [!Note]
-> If the web browser runs slowly while executing a script, and you choose the **Stop** option to terminate and not to recover the Internet Explorer webpage, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] may terminate other Internet Explorer webpages.
+> If the web browser runs slowly while executing a script, and you choose **Stop** to terminate and not to recover the Internet Explorer webpage, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] may terminate other Internet Explorer webpages.
 
 <a name="Recover_unresponsive_Internet_Explorer_process_instance using_keyboard_shortcut"></a>
-## Recover unresponsive Internet Explorer process instance using keyboard shortcut
+## Recover unresponsive Internet Explorer process instances using a keyboard shortcut
 
-When the Internet Explorer webpage is unresponsive and causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to freeze, hover the cursor on the unresponsive tab and use the keyboard shortcut combination – **Ctrl + Alt + K** to end. In turn, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a window, which reads - **\<Message>**. Select **Yes** to end the Internet Explorer process instance. Select **No** to cancel the operation.
+When the Internet Explorer webpage is unresponsive and causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to freeze, hover the cursor on the unresponsive tab and use the keyboard shortcut **Ctrl + Alt + K** to end. The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a dialog box: **\<Message>**. Select **Yes** to end the Internet Explorer process instance. Select **No** to cancel the operation.
 
-After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a window, which reads – **Internet Explorer closed abruptly**. Select the **Reload** option to recover the closed Internet Explorer process instance. If you do not want to recover, select the **Cancel** option.
+After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message, **Internet Explorer closed abruptly**. Select **Reload** to recover the closed Internet Explorer process instance. If you do not want to recover, select **Cancel**.
 
 > [!Note]
-> - Agent must wait until first for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process to detect and terminate the unresponsive Internet Explorer process instance.</br>
-> - The agent must use keyboard shortcut as the last option when the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process fails to detect the unresponsive Internet Explorer process instance.</br>
-> - Using the keyboard shortcut may terminate any responsive Internet Explorer webpage causing you to lose any unsaved work.</br>
-> - Agent need to use the keyboard shortcut as a last option only when terminating an Internet Explorer web page can recover the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
-
-After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a window, which reads – **Internet Explorer closed abruptly**. Select the **Reload** option to recover the closed Internet Explorer process instance. If you do not want to recover, select the **Cancel** option.
+> - An agent must wait for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process to detect and terminate the unresponsive Internet Explorer process instance.</br>
+> - The agent must use a keyboard shortcut as the last option when the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process fails to detect the unresponsive Internet Explorer process instance.</br>
+> - Using the keyboard shortcut may terminate any responsive Internet Explorer webpage, causing you to lose any unsaved work.</br>
+> - An agent must use the keyboard shortcut as a last option only when terminating an Internet Explorer web page can recover the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+[comment]: <> (This last sentence is confusing. I can't edit it.)
+After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message: **Internet Explorer closed abruptly**. Select **Reload** to recover the closed Internet Explorer process instance. If you do not want to recover, select **Cancel**.
 
 ## See also
 
