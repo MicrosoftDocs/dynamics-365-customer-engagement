@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 01/18/2018
+ms.date: 01/19/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -46,7 +46,7 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 ### Changes for author information from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages
 
-Starting February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updates its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages and author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for pages that add as a social profile to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. The content of posts and comments as well as enrichments, such as sentiment, are continuing to be available for posts and comments without author information. We recommend you add page access tokens for every Facebook page before the change on February 6.   
+Starting February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updates its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. From that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, will continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page before this change on February 6.    
 [Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
