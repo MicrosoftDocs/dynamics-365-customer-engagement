@@ -2,18 +2,20 @@
 title: "Use the event portal to promote your event and accept registrations (Dynamics 365 for Marketing) | Microsoft Docs  "
 description: "Details about the event portal, including site map, information sources, and how to publish your events in Dynamics 365 for Marketing"
 keywords: "events; event management; portal; event portal; registration"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.assetid: fb12fb67-69b7-4a23-a574-9d6f53d3c8b6
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Set up the event portal
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
