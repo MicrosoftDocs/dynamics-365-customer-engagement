@@ -121,7 +121,7 @@ When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record
 
 The on-hold time is the time for which the case was set to a status that you defined as an **On-Hold** status in the **System settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](../admin/system-settings-dialog-box-service-tab.md)<br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case is on hold<br /><br /> If the service rep puts the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
 
-Similarly, the status of the SLA KPI instance is updated when the first reponse time on a case is:
+Similarly, the status of the SLA KPI instance is updated when the first response time on a case is:
 
 - Nearing expiry 
 
