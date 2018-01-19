@@ -12,6 +12,7 @@ applies_to:
 ms.assetid: db4ef53d-8a48-4b27-899f-8f4c788bc43c
 author: "KumarVivek"
 ms.author: "kvivek"
+robots: noindex,nofollow
 manager: "amyla"
 ---
 # Step 4: Test your custom channel tile
