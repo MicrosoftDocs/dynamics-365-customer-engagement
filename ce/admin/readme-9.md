@@ -1,15 +1,5 @@
----
-title: "Dynamics 365 Customer Engagement General Availability Readme (Known Issues) | MicrosoftDocs"
-ms.date: 12/15/2017
-ms.service: "crm-online"
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
----
-Dynamics 365 Customer Engagement<br>General Availability Readme (Known Issues)
-==============================================================================
+Dynamics 365 Customer Engagement<br>Readme / Known Issues
+=========================================================
 
 This document provides important, late-breaking information about this product
 version:
@@ -29,9 +19,10 @@ Services and apps availability
 | Portal capabilities for Dynamics 365                                                        | X  |                |                 |
 | Relevance Search Enhancements                                                               | X  |                |                 |
 | Learning Path                                                                               | X  |                |                 |
-| Resource Scheduling Optimizer                                                               | X  |                |                 |
+| Resource Scheduling Optimization                                                            | X  |                |                 |
 | Glympse                                                                                     | X  |                |                 |
-| Connected Field Service (Internet of Things)                                                | X  |                |                 |
+| Connected Field Service                                                                     | X  |                |                 |
+| (Internet of Things)                                                                        |    |                |                 |
 | Machine Learning                                                                            | X  |                |                 |
 | Office 365 Group                                                                            | X  |                |                 |
 | Gamification                                                                                | X  |                |                 |
@@ -48,9 +39,39 @@ Services and apps availability
 | Customer Insights                                                                           |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                                                              |    | X              |                 |
 | Cortana                                                                                     |    | X              |                 |
-| Mobile offline (Dynamics 365 for tablets and phones)                                        |    |                | X               |
+| Mobile offline (Dynamics 365 for tablets and phones)                                        | X  |                |                 |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
 
+Transport Layer Security (TLS) Requirements
+-------------------------------------------
+
+Starting with Dynamics 365 (online), version 9.0, connections to Customer
+Engagement applications are required to use TLS 1.2 (or later) security
+protocols. This aligns with updated Microsoft and industry security policies and
+best practices. To prevent any disruption to your organization, you might be
+required to take actions to maintain the connectivity to Dynamics 365 Customer
+Engagement applications.
+
+Please refer to the following information to help you identify if you are
+impacted and what steps you might need to take:
+
+1.  [Blog announcement on connection security
+    requirement](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+
+2.  [Technical support documentation with additional
+    information](https://support.microsoft.com/help/4051700)
+
+3.  Product documentation:
+
+    1.  [Supported
+        Extensions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/supported-extensions)
+
+    2.  [Web application
+        requirements](https://docs.microsoft.com/dynamics365/customer-engagement/admin/web-application-requirements)
+
+**If your organization is impacted by this requirement, you must take the
+necessary steps to upgrade to TLS 1.2 prior to scheduling your instance
+update.**
 
 Sales and Customer Service web client apps
 ------------------------------------------
@@ -101,8 +122,8 @@ Sales and Customer Service web client apps
 -   The **Save & Close** command for a Price List Item displays an error and
     doesn't close the window properly.
 
--   An unexpected error is thrown while trying to assign a security role to a
-    newly created user in non-English orgs.
+-   In organizations using languages other than English, an unexpected error
+    occurs while trying to assign a security role to a newly created user.
 
 Sales Hub and Customer Service Hub apps
 
@@ -128,7 +149,7 @@ in the browser or on mobile devices for each scenario. 
 
 -   Web resources aren't rendered on the dashboards.
 
--   Web resources and iframe tags aren't displayed with the height and width
+-   Web resources and IFrame tags aren't displayed with the height and width
     they're allocated in the mobile app configuration.
 
 -   The Quote command bar is missing icons.
@@ -166,6 +187,13 @@ in the browser or on mobile devices for each scenario. 
 
     -   Phone to case process: The Find Case option on the Identify stage isn't
         available for update for an existing case.
+
+    -   The SLA lookup, when added via case entity form customization renders as
+        read-only and the user will not be able to use the look-up to associate
+        an on-demand SLA with the case record. This impacts only those set of
+        customers who are on 9.0 version already and receiving an interim 9.0
+        update. This issue does not impact new users signing for Dynamics 365
+        trial.
 
     -   The Similar Cases sub-grid isn't available on the Case form.
 
@@ -301,7 +329,8 @@ Field controls and mobile application in Unified Interface
 -   The Phone Call activity quick-create form isn't opened when the call action
     is initiated on the mobile app.
 
--   Date fields can't be set in Internet Explorer 11, Firefox, or Edge.
+-   Date fields can't be set in Internet Explorer 11, Firefox, or Microsoft
+    Edge.
 
 -   The date-time control uses browser locale as opposed to user locale for
     editing.
@@ -316,7 +345,7 @@ Field controls and mobile application in Unified Interface
 -   The Lookup most recently used list doesn't take into account the lookup
     view.
 
--   Unable to enable web resources for offline through an imported solution.
+-   Can’t enable web resources for offline through an imported solution.
 
 -   For related grids, command flyouts don't open in See More mode.
 
@@ -376,10 +405,17 @@ Activities in Unified Interface
 -   The Regarding field is not populated when the user replies to an email from
     the Activity pane.
 
--   When multiple records are set for the **Call To** field and the direction is
-    changed to **Incoming**, an error occurs.
+-   An error occurs when multiple records are set for the **Call To** field and
+    the direction is changed to **Incoming**.
 
 -   Unable to open activities from a record set.
+
+-   Related campaign field is not present in convert to opportunity dialog.
+
+-   Converting a custom activity to opportunity results in an error.
+
+-   Social Activities views are not displayed in My Activities views. The
+    workaround is viewing Social activities in All Activities view.
 
 Dynamics 365 App for Outlook
 ----------------------------
@@ -392,23 +428,24 @@ Dynamics 365 App for Outlook
 -   Initial loading might take some time.
 
 -   When selecting **See more** to see more entities, Outlook 2013 and Outlook
-    2016 display an add-in error, Chrome and Internet Explorer 11 display a "long running
-    script" error message, and Edge displays a blank screen for a while and then
-    navigates to the previous page.
+    2016 display an add-in error, Chrome and Internet Explorer 11 display a
+    "long running script" error message, and Edge displays a blank screen for a
+    while and then navigates to the previous page.
 
 -   On Outlook 2013 and Outlook 2016, Outlook frequently displays "add-in
     error."
 
--   On Internet Explorer 11, Internet Explorer frequently displays a "long running script" error message.
+-   On Internet Explorer 11, Internet Explorer frequently displays a "long
+    running script" error message.
 
 -   When navigating to a record's main form, Outlook 2013 and Outlook 2016
-    display an add-in error; in Chrome and Internet Explorer 11 the app displays a "Script
-    Error" message.
+    display an add-in error; in Chrome and Internet Explorer 11 the app displays
+    a "Script Error" message.
 
 -   When entering text in the **Look for Records** field when you set regarding,
     in Outlook 2013 and Outlook 2016, some of the characters disappear. On
-    Chrome, Internet Explorer 11, and Edge the lookup sometimes stays in the "Loading…" state
-    forever.
+    Chrome, Internet Explorer 11, and Edge the lookup sometimes stays in the
+    "Loading…" state forever.
 
 -   The Back button doesn't work on Outlook 2016 and Outlook 2013. On browsers,
     selecting the back icon navigates to the previous webpage (this is the same
@@ -514,43 +551,13 @@ Web client visual refresh
         changes and might leave an empty space. However, this empty space will
         disappear on refresh
 
-Project Service Automation 
----------------------------
+Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 version 9.0, or later 
+-------------------------------------------------------------------------------------------------------------------------------
 
--   Product bundles don't work correctly on project-based opportunities, quotes,
-    and orders.
-
--   The Contract Performance tab doesn't work correctly for project contracts in
-    the amounts for actual costs and actual effort.
-
--   The project estimated cost and actual cost fields only show labor cost
-    amounts and not expense cost amounts.
-
--   When there are multiple project price lists with overlapping date ranges,
-    the price defaulted to for roles and expense categories might be
-    indeterministic.
-
--   Taxes of Fixed Price Milestones don't generate separate tax actuals.
-    Transactions representing taxes collected/paid are typically recorded as
-    actuals along with the main transaction. However, taxes for milestones
-    aren't recorded as a separate actual entry. The tax amount gets combined
-    with the milestone amount, and the actual is recorded for the entire amount.
-
--   When a project is linked to a contract and the customer field on the project
-    gets updated in the process, the change isn't propagated to actuals.
-
--   Project Opportunity isn't shown on the Sales tab of the project in the
-    Opportunities section.
-
--   In languages other than English, the Invoice Line page doesn't show actions
-    under the New ribbon action.
-
--   The Confirm button and the + button to add new lines aren't disabled on the
-    journal details page for journals that are already confirmed.
-
--   Contract confirmation doesn't correctly process unbilled actuals that came
-    from journals. Unbilled sales actuals are cancelled and reversed by contract
-    confirmation.
+When you update to version 9.0, or later, you must also update the Project
+Service Automation and Field Service Solutions. After updating to version 9.0,
+or later, go to the Dynamics 365 Administration Center, Manage Solutions page to
+update the preferred solution.
 
 Cortana integration with Dynamics 365
 -------------------------------------
@@ -566,7 +573,12 @@ Cortana integration with Dynamics 365
 Mobile Offline
 --------------
 
--   Change of organization url leads to disabling of mobile offline feature
+-   Any BPF which will update the entity will throw conflict errors on upsync of
+    any offline changes, where the entity records have been created or updated.
+    Work around is to disable conflict detection from Mobile Offline settings
+    for the org.
+
+-   Change of organization URL leads to disabling of mobile offline feature
 
 -   When you delete an entity field and immediately create another entity field
     with the same name and a different data type, you might see an Offline Sync
@@ -601,7 +613,7 @@ Mobile Offline
 -   Calendar view is not supported in offline, and there could be some
     inconsistencies in the data in this view in offline.
 
--   Iframes are not supported in offline mode
+-   IFrames are not supported in offline mode
 
 -   Updates to a BU for a user role when the user is offline are not synced
     properly on reconnecting
@@ -629,7 +641,7 @@ Mobile Offline
 
 -   With BPF enabled, lead to opportunity qualify fails in offline mode
 
--   With BPF enabled, opportunity creation failes in offline mode
+-   With BPF enabled, opportunity creation fails in offline mode
 
 -   Next Stage does not respond in offline mode intermittently
 
