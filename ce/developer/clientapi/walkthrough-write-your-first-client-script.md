@@ -17,7 +17,7 @@ Ready to write your first client script to see things in action. Lets get starte
 
 ## Objective
 
-After completing this walkthrough, you will know how to use your JavaScript code in Customer Enagagement, which involves the following steps at a high level:
+After completing this walkthrough, you will know how to use your JavaScript code in Customer Engagement, which involves the following steps at a high level:
 - Write your JavaScript code to address a business issue
 - Upload your JavaScript code as a web resource in Customer Engagement
 - Associate the JavaScript functions in the web resource to different client-side events in Customer Engagement.
@@ -113,7 +113,7 @@ Now that your code is ready, you want to associate it with events in Customer En
 
 ## Step 3: Associate Script web resource to a form
 
-Associate the web resource containing your JavaScript code to Customer Enagagement forms to be able to associate functions in your code with events. As the JavaScript code in this walkthrough is targeted at the account record, we will associate the web resource with the account form.
+Associate the web resource containing your JavaScript code to Customer Engagement forms to be able to associate functions in your code with events. As the JavaScript code in this walkthrough is targeted at the account record, we will associate the web resource with the account form.
 
 1. Navigate to your Customer Engagement instance in browser, and go to **Sales** > **Accounts** or **Service** > **Accounts**.
 2. Open an account record, and select **Form** to open the form editor.
