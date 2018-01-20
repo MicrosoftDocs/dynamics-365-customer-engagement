@@ -29,7 +29,7 @@ Depending on where your JavaScript code is executed, you get the **gridContext**
     }
     ```
 
-- **Executing code on a grid event**: Use the [executionContext](clientapi-execution-context.md) object to directly get the **gridContext** object. The grid events include [OnChange](reference/events/grid-onchange.md), [OnRecordSelect](reference/events/grid-onrecordselect.md), and [OnSave](reference/events/grid-onsave.md).
+- **Executing code on a grid event**: Use the [getFormContext](reference/executioncontext/getFormContext.md) method of the passed in execution context object to directly return reference to the grid where the code is executed. The grid events include [OnChange](reference/events/grid-onchange.md), [OnRecordSelect](reference/events/grid-onrecordselect.md), and [OnSave](reference/events/grid-onsave.md).
 
     ```JavaScript
     function doSomething(executionContext) {
@@ -45,7 +45,11 @@ For more information about working with methods and events available for grids a
 
 [Client API form context](clientapi-form-context.md)
 
+[Client API execution context](clientapi-execution-context.md)
+
 [Understand the Client API object model](understand-clientapi-object-model.md)
+
+[Grids and subgrids](reference/grids.md)
 
  
 
