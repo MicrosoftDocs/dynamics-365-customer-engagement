@@ -2,7 +2,7 @@
 title: "Walkthrough: Register a plug-in using the plug-in registration tool (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This article tells how to register a plug-in by using the Plug-in Registration tool that is provided in the SDK."
 ms.custom: ""
-ms.date: 01/19/2017
+ms.date: 01/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
