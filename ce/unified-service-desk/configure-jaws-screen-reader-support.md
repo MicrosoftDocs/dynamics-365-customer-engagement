@@ -58,11 +58,11 @@ EndFunction
 ```
 In the example image, the button name and the tooltip text is same: **REMINDER**. In this scenario, the script checks for the button name and tooltip text, which is different and hence, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] does not read the tooltip text.
 
-![USD button with same tootip](media/usd-reminder-button-reminder-tootip.png "USD button with same tootip")
+![Unified Service Desk button with same tootip](media/usd-reminder-button-reminder-tootip.png "Unified Service Desk button with same tootip")
 
 In the example image, the **REMINDER** button name is different than the tooltip text: **SET REMINDER**. In this scenario, the [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reads the tooltip text.
 
-![USD button with differnt tootip](media/usd-reminder-button-setreminder-tootip.png "USD button with differnt tootip")
+![Unified Service Desk button with differnt tootip](media/usd-reminder-button-setreminder-tootip.png "Unified Service Desk button with differnt tootip")
 
 You can write script for your application in [!INCLUDE[pn-jaws](../includes/pn-jaws.md)]. For more information about writing scripts, see [Basics of Scripting Manual](http://www.freedomscientific.com/Content/Documents/Other/ScriptManual/01-0_Introduction.htm).
 
