@@ -126,41 +126,9 @@ Select the **Show Global Filter** button in the command bar to view and apply gl
   
  After you apply Global filters, the dashboard refreshes to show you only the cases in charts, streams, and tiles that are based on the filter entity (the filter entity is the entity that is used in the charts). To clear the Global filter, select **Clear** in the flyout window.
 
-## Saved Filter
-
-Global Filters are used to filter and view granular data based on various parameters. However, to view similar filter combinations, you end up repeating your selections in the filter flyout window. This effort can now be minimized using **Saved Filters**. 
-
-You can now save your frequently used filter combinations as Saved filters. So, the next time you want to view the interactive dashboard for one of those combinations, you can directly select your saved filter instead of repeating the selections. Saved Filters save time in getting to your frequently viewed dashboards with just one click.
-
-### Create a Saved Filter
-
-Saved Filters are created and saved in the Global Filter flyout. To create a Saved filter, follow the steps given below:
-
-1.	Select the **Show Global Filter** button to open the filter flyout window.
-2.	In the Custom Filters drop-down, expand and select the parameters based on which you want to filter the dashboard.
-3.	Select the **Save** icon and enter a unique name for the filter.
-    > [!NOTE]
-    > Saved Filters must be named uniquely. The filters that you create and save are available only for your personal view. 
-4.	Select -> (icon) and save the filter.
-
-    The filter is saved in the Saved Filters drop-down in the Global Filter flyout window.
+By using a combination of Visual and Global filters, you can drill down from a long list of cases to a more focused list.
 
 
-### Apply a Saved Filter
-
-1.	Select the **Show Global Filter** button to open the filter flyout window.
-2.	Expand the **Saved Filters** drop-down and select the funnel icon for the filter that you want to apply.
-
-3.	Collapse the drop-down and select the **Show Global Filter** button again. 
-    
-    The interactive dashboard displays the results of the Saved filter.
-    > [!NOTE]
-    > For a particular filter, the funnel icon in filled state signifies that the filter is currently applied. 
-
-    Click **…** to set a particular Saved filter as default or to delete it.
-
-
-  
 <a name="BKMK_ClearFilters"></a> 
 
 ## Clear the filters  
