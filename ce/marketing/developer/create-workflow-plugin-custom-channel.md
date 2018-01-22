@@ -12,6 +12,7 @@ applies_to:
 ms.assetid: 30a97860-1369-400b-8931-5d070daea4f9
 author: "KumarVivek"
 ms.author: "kvivek"
+robots: noindex,nofollow
 manager: "amyla"
 ---
 # Step 2: Create a workflow or plug-in to implement your custom logic
