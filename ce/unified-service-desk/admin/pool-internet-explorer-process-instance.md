@@ -56,7 +56,6 @@ To enable Internet Explorer pooling:
 
   ![Enable InternetExplorerPooling option](../../unified-service-desk/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
-[comment]: <> (We need to rewrite the title on this to make it clearer and easier to understand. Please ping me to discuss.)
 ## See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)

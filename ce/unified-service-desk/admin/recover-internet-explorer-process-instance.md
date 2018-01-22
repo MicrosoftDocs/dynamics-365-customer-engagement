@@ -51,13 +51,7 @@ To recover the closed instance (which may contain more than one webpage), select
 <a name="BKMK_recover_when_using_RunScript_on_a_hosted_control"></a>
 ## Recover when using RunScript on a hosted control
 
-A script running on a hosted control causes an Internet Explorer webpage to run slowly. If you have configured the **IEWebPageInactivityTimeOut** UII option, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period. By default, the **IEWebPageInactivityTimeOut** timeout period is 15000 milliseconds (15 seconds).
-
-> [!Note]
-> - To change the default timeout period, a System Administrator must configure the **IEWebPageInactivityTimeOut** on the **Active UII Options** page and type the value in milliseconds. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md).
-> - If you set the value as 0 milliseconds, then the **IEWebPageInactivityTimeOut** is disabled.
-
-After the timeout period, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the message **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**. 
+A script running on a hosted control causes an Internet Explorer webpage to run slowly. If you have configured the **IEWebPageInactivityTimeOut** UII option, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period to display the message - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**. 
 
 To recover the webpage, select **Reload**. If you want to terminate and do not want to recover the webpage, select **Stop**. If you want to wait for the Internet Explorer webpage to respond, select **Continue**.
 
@@ -65,14 +59,11 @@ To recover the webpage, select **Reload**. If you want to terminate and do not w
 
 After you select **Continue** and wait for the Internet Explorer webpage to respond, if it does not respond, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period.
 
-The following list shows the options and descriptions to select when you see the message window.
+> [!Note]
+> - By default, the **IEWebPageInactivityTimeOut** timeout period is 15000 milliseconds (15 seconds).
+> - To change the default timeout period, a System Administrator must configure the **IEWebPageInactivityTimeOut** on the **Active UII Options** page and type the value in milliseconds. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md).
+> - If you set the value as 0 milliseconds, then the **IEWebPageInactivityTimeOut** is disabled.
 
-|Option|Description|
-|:------|:------|
-|Reload|Recovers the Internet Explorer webpage|
-|Stop|Terminates and does not to recover the Internet Explorer webpage.|
-|Continue|Wait until the Internet Explorer webpage to respond|
-[comment]: <> (Same thing as the table before. Do we need to repeat this information a second time?)
 If the webpage runs slowly while executing a script on the `IE process` browser hosting hosted control, and when you select **Reload**, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays another message, **Internet Explorer closed abruptly.** Select **Reload** again to recover the webpage.
 
 ![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly.PNG "Internet Explorer closed abruptly")
@@ -96,10 +87,33 @@ After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_s
 ![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly.PNG "Internet Explorer closed abruptly")
 
 > [!Note]
-> - An agent must wait for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process to detect and terminate the unresponsive Internet Explorer process instance.</br>
-> - The agent must use a keyboard shortcut as the last option when the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process fails to detect the unresponsive Internet Explorer process instance.</br>
+> - An agent must wait for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process (usdmp.exe) to detect and terminate the unresponsive Internet Explorer process instance.</br>
+> - The agent must use the keyboard shortcut as last option when the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] monitoring process fails to detect the unresponsive Internet Explorer process instance.</br>
 > - Using the keyboard shortcut may terminate any responsive Internet Explorer webpage, causing you to lose any unsaved work.</br>
 > - An agent must use the keyboard shortcut as a last option only when terminating an Internet Explorer web page can recover the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+<a name="BKMK_Change_keyboard_shortcut"></a>
+## Change keyboard shortcut
+
+To change the keyboard shortcut:
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. click **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **On-DemandIETerminationShortcut** for the **Name** field.
+
+7. Type the keyboard shortcut in the format _key1+key2+key3_ for the **Value** field.
+
+8. Click **Save**.
+
+![Change On-DemandIETerminationShortcut](../../unified-service-desk/media/crm-usd-options-on-demand-ie-termination-shortcut.PNG "Change On-DemandIETerminationShortcut")
 
 <a name="BKMK_Limitations"></a>
 ## Limitations
@@ -113,9 +127,9 @@ If you recover **Agent Scripting** webpage, [!INCLUDE[pn_unified_service_desk](.
 For example: </br>
   You open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage and not the **Case** webpage. You may lose any unsaved data that you had entered in the **Case** webpage.
 
-- If the web browser runs slowly while executing a script, and you choose **Stop** to terminate and not to recover the Internet Explorer webpage, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] may terminate other Internet Explorer webpages.
+- If the web browser runs slowly while executing a script, and you choose **Stop** to terminate and not to recover the Internet Explorer webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] may terminate other Internet Explorer webpages.
 
-- Using **Ctrl + Alt + K** keyboard shortcut may terminate any responsive Internet Explorer webpage, causing you to lose any unsaved work.</br>
+- Using **Ctrl+Alt+K** keyboard shortcut may terminate any responsive Internet Explorer webpage, causing you to lose any unsaved work.
 
 ## See also
 
