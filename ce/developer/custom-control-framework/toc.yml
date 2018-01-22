@@ -295,15 +295,15 @@
         href: reference/popupservice/setpopupsid.md   
       - name: updatePopup
         href: reference/popupservice/updatepopup.md                                                                    
-    - name: Reporting
-      href: reference/reporting.md
-      items:
-      - name: reportEvent
-        href: reference/reporting/reportevent.md
-      - name: reportFailure
-        href: reference/reporting/reportfailure.md 
-      - name: reportSuccess
-        href: reference/reporting/reportsuccess.md         
+#    - name: Reporting
+#      href: reference/reporting.md
+#      items:
+#      - name: reportEvent
+#        href: reference/reporting/reportevent.md
+#      - name: reportFailure
+#        href: reference/reporting/reportfailure.md 
+#      - name: reportSuccess
+#        href: reference/reporting/reportsuccess.md         
     - name: Resources
       href: reference/resources.md
       items:
