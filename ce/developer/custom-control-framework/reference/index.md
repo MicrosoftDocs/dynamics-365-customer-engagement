@@ -52,7 +52,9 @@ This section contains reference documentation for creating custom controls using
 |[ParameterDefinitionMap](parameterdefinitionmap.md)|[!INCLUDE [parameterdefinitionmap-description](includes/parameterdefinitionmap-description.md)]|
 |[Popup](popup.md)|[!INCLUDE [popup-description](includes/popup-description.md)]|
 |[PopupService](popupservice.md)|[!INCLUDE [popupservice-description](includes/popupservice-description.md)]|
-<!-- |[Reporting](reporting.md)|[!INCLUDE [reporting-description](includes/reporting-description.md)]| -->
+<!-- 
+|[Reporting](reporting.md)|[!INCLUDE [reporting-description](includes/reporting-description.md)]| 
+-->
 |[Resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 |[Sort](sort.md)|[!INCLUDE [sort-description](includes/sort-description.md)]|
 |[Style](style.md)|[!INCLUDE [style-description](includes/style-description.md)]|
