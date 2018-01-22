@@ -18,6 +18,12 @@ manager: "amyla"
 
 This section contains documentation for creating custom controls using the custom control framework.
 
+> [!IMPORTANT]
+> - [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-no-ms-support.md)]
+
+
 ### Related topics
 
 [Custom Control Framework API Reference](reference/index.md)

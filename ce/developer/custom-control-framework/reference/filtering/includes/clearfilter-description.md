@@ -1,0 +1,1 @@
+Clears the filter associated with the data-set.

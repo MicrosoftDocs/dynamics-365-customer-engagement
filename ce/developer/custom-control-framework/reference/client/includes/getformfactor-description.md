@@ -1,0 +1,1 @@
+Placeholder description: ce\developer\custom-control-framework\reference\client\includes\getformfactor-description.md

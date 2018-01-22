@@ -1,1 +1,0 @@
-Placeholder description: ce\developer\custom-control-framework\reference\ithemingbag\includes\getentitycolor-description.md

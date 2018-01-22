@@ -1,0 +1,1 @@
+Placeholder description: ce\developer\custom-control-framework\reference\device\includes\getcurrentposition-description.md

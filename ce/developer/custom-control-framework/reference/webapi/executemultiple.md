@@ -2,20 +2,7 @@
 
 [!INCLUDE [executemultiple-description](includes/executemultiple-description.md)]
 
-## Syntax
-
-`Name(param)`
-
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
-
-## Return Value
-
-Type: `string`
-
+See [executeMultiple (Client API reference)](../../../clientapi/reference/Xrm-WebApi/executeMultiple.md)
 
 ### Related topics
 

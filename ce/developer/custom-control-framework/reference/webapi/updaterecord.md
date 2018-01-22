@@ -2,19 +2,7 @@
 
 [!INCLUDE [updaterecord-description](includes/updaterecord-description.md)]
 
-## Syntax
-
-`Name(param)`
-
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
-
-## Return Value
-
-Type: `string`
+See [updateRecord (Client API reference)](../../../clientapi/reference/Xrm-WebApi/updateRecord.md)
 
 
 ### Related topics

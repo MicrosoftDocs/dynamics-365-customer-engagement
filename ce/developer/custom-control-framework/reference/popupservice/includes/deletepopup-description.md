@@ -1,0 +1,1 @@
+Remove the referenced popup from the popupService

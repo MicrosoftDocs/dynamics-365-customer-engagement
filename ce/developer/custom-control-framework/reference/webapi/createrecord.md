@@ -2,19 +2,7 @@
 
 [!INCLUDE [createrecord-description](includes/createrecord-description.md)]
 
-## Syntax
-
-`Name(param)`
-
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
-
-## Return Value
-
-Type: `string`
+See [createRecord (Client API reference)](../../../clientapi/reference/Xrm-WebApi/createRecord.md)
 
 
 ### Related topics

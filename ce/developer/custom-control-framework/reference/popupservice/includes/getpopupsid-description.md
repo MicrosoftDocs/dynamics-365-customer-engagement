@@ -1,0 +1,1 @@
+Gets the currently set popup Id (not incl. the appended control ID).

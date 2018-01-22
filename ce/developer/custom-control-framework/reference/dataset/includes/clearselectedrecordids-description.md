@@ -1,0 +1,1 @@
+Clear selected record ids list

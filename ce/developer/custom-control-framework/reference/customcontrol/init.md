@@ -25,9 +25,9 @@ manager: "amyla"
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|context|[IPropBag](../ipropbag.md)|yes|The *Input Properties* containing the parameters, control metadata and interface functions.|
+|context|[Context](../context.md)|yes|The *Input Properties* containing the parameters, control metadata and interface functions.|
 |notifyOutputChanged|`function`|no|The method for this control to notify the framework that it has new outputs|
-|state|`dictionary`|no|The control state for this control saved from setState in the last session|
+|state|[Dictionary](../dictionary.md)|no|The control state for this control saved from setState in the last session|
 |container|[HTMLDivElement](https://developer.mozilla.org/docs/Web/API/HTMLDivElement)|no|The div element to render|
 
 

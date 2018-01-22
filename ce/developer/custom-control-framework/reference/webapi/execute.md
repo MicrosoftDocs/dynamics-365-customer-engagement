@@ -2,20 +2,7 @@
 
 [!INCLUDE [execute-description](includes/execute-description.md)]
 
-## Syntax
-
-`Name(param)`
-
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
-
-## Return Value
-
-Type: `string`
-
+See [execute (Client API reference)](../../../clientapi/reference/Xrm-WebApi/execute.md)
 
 ### Related topics
 

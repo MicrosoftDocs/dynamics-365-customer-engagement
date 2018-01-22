@@ -1,6 +1,9 @@
 # isOfflineEnabled
 
 [!INCLUDE [isofflineenabled-description](includes/isofflineenabled-description.md)]
+<!-- TODO -->
+> [!IMPORTANT]
+> The content below is a placeholder. It doesn't describe the correct parameters for this method.
 
 ## Syntax
 

@@ -4,6 +4,45 @@
   - name: Reference
     href: reference/index.md
     items:
+    - name: Accessibility
+      href: reference/accessibility.md
+      items:
+      - name: blurElementById
+        href: reference/accessibility/blurelementbyid.md
+      - name: focusElementById
+        href: reference/accessibility/focuselementbyid.md
+      - name: getUniqueId
+        href: reference/accessibility/getuniqueid.md
+      - name: registerShortcut
+        href: reference/accessibility/registershortcut.md
+    - name: Client
+      href: reference/client.md
+      items:
+      - name: getClient
+        href: reference/client/getclient.md
+      - name: getClientState
+        href: reference/client/getclientstate.md
+      - name: getFormFactor
+        href: reference/client/getformfactor.md
+      - name: ignoreSelfUpdates
+        href: reference/client/ignoreselfupdates.md
+      - name: isOffline
+        href: reference/client/isoffline.md
+      - name: setFullScreen
+        href: reference/client/setfullscreen.md                                              
+    - name: Column
+      href: reference/column.md    
+    - name: CommunicationChannel
+      href: reference/communicationchannel.md
+      items:
+      - name: getPresenceMappedField
+        href: reference/communicationchannel/getpresencemappedfield.md
+      - name: isPresenceEnabled
+        href: reference/communicationchannel/ispresenceenabled.md
+    - name: ConditionExpression	
+      href: reference/conditionexpression.md
+    - name: Context
+      href: reference/context.md      
     - name: CustomControl
       href: reference/customcontrol.md
       items:
@@ -19,8 +58,56 @@
         href: reference/customcontrol/render.md
       - name: updateView
         href: reference/customcontrol/updateview.md
+    - name: CustomControlConfiguration
+      href: reference/customcontrolconfiguration.md        
+    - name: CustomControlDescriptor
+      href: reference/customcontroldescriptor.md              
+    - name: DataSet
+      href: reference/dataset.md
+      items:
+      - name: clearSelectedRecordIds
+        href: reference/dataset/clearselectedrecordids.md
+      - name: getSelectedRecordIds
+        href: reference/dataset/getselectedrecordids.md
+      - name: getTargetEntityType
+        href: reference/dataset/gettargetentitytype.md
+      - name: getTitle
+        href: reference/dataset/gettitle.md
+      - name: getViewId
+        href: reference/dataset/getviewid.md
+      - name: openDatasetItem
+        href: reference/dataset/opendatasetitem.md
+      - name: refresh
+        href: reference/dataset/refresh.md
+      - name: retrieveRecordCommand
+        href: reference/dataset/retrieverecordcommand.md
+      - name: setSelectedRecordIds
+        href: reference/dataset/setselectedrecordids.md                                                                
     - name: DateFormattingInfo
       href: reference/dateformattinginfo.md
+    - name: Device
+      href: reference/device.md
+      items:
+      - name: captureAudio
+        href: reference/device/captureaudio.md
+      - name: captureImage
+        href: reference/device/captureimage.md
+      - name: captureVideo
+        href: reference/device/capturevideo.md 
+      - name: getBarcodeValue
+        href: reference/device/getbarcodevalue.md 
+      - name: getCurrentPosition
+        href: reference/device/getcurrentposition.md 
+      - name: isCaptureAudioOperationAvailable
+        href: reference/device/iscaptureaudiooperationavailable.md 
+      - name: isCaptureVideoOperationAvailable
+        href: reference/device/iscapturevideooperationavailable.md                                         
+      - name: isGetBarcodeValueOperationAvailable
+        href: reference/device/isgetbarcodevalueoperationavailable.md    
+      - name: isTakePictureOperationAvailable
+        href: reference/device/istakepictureoperationavailable.md  
+      - name: pickFile
+        href: reference/device/pickfile.md        
     - name: Diagnostics
       href: reference/diagnostics.md
       items:
@@ -31,232 +118,183 @@
       - name: traceInfo
         href: reference/diagnostics/traceinfo.md
       - name: traceWarning
-        href: reference/diagnostics/tracewarning.md          
-    - name: IAccessibility
-      href: reference/iaccessibility.md
+        href: reference/diagnostics/tracewarning.md
+    - name: Dictionary
+      href: reference/dictionary.md
+    - name: Entity
+      href: reference/entity.md
       items:
-      - name: blurElementById
-        href: reference/iaccessibility/blurelementbyid.md
-      - name: focusElementById
-        href: reference/iaccessibility/focuselementbyid.md
-      - name: getUniqueId
-        href: reference/iaccessibility/getuniqueid.md
-      - name: registerShortcut
-        href: reference/iaccessibility/registershortcut.md
-    - name: IClient
-      href: reference/iclient.md
-      items:
-      - name: getClient
-        href: reference/iclient/getclient.md
-      - name: getClientState
-        href: reference/iclient/getclientstate.md
-      - name: getFormFactor
-        href: reference/iclient/getformfactor.md
-      - name: ignoreSelfUpdates
-        href: reference/iclient/ignoreselfupdates.md
-      - name: isOffline
-        href: reference/iclient/isoffline.md
-      - name: setFullScreen
-        href: reference/iclient/setfullscreen.md                                              
-    - name: ICommunicationChannel
-      href: reference/icommunicationchannel.md
-      items:
-      - name: getPresenceMappedField
-        href: reference/icommunicationchannel/getpresencemappedfield.md
-      - name: isPresenceEnabled
-        href: reference/icommunicationchannel/ispresenceenabled.md        
-    - name: IDevice
-      href: reference/idevice.md
-      items:
-      - name: captureAudio
-        href: reference/idevice/captureaudio.md
-      - name: captureImage
-        href: reference/idevice/captureimage.md
-      - name: captureVideo
-        href: reference/idevice/capturevideo.md 
-      - name: getBarcodeValue
-        href: reference/idevice/getbarcodevalue.md 
-      - name: getCurrentPosition
-        href: reference/idevice/getcurrentposition.md 
-      - name: isCaptureAudioOperationAvailable
-        href: reference/idevice/iscaptureaudiooperationavailable.md 
-      - name: isCaptureVideoOperationAvailable
-        href: reference/idevice/iscapturevideooperationavailable.md                                         
-      - name: isGetBarcodeValueOperationAvailable
-        href: reference/idevice/isgetbarcodevalueoperationavailable.md    
-      - name: isTakePictureOperationAvailable
-        href: reference/idevice/istakepictureoperationavailable.md  
-      - name: pickFile
-        href: reference/idevice/pickfile.md                                              
-    - name: IExternalContext
-      href: reference/iexternalcontext.md
+      - name: getNamedReference
+        href: reference/entity/getnamedreference.md
+      - name: getRecordId
+        href: reference/entity/getrecordid.md
+      - name: getValue
+        href: reference/entity/getvalue.md                
+    - name: EntityReference
+      href: reference/entityreference.md          
+    - name: ExternalContext
+      href: reference/externalcontext.md
       items:
       - name: getAvailableExternalContexts
-        href: reference/iexternalcontext/getavailableexternalcontexts.md
+        href: reference/externalcontext/getavailableexternalcontexts.md
       - name: getExternalContextProperty
-        href: reference/iexternalcontext/getexternalcontextproperty.md 
+        href: reference/externalcontext/getexternalcontextproperty.md 
       - name: invokeExternalContextAction
-        href: reference/iexternalcontext/invokeexternalcontextaction.md                 
-    - name: IFactory
-      href: reference/ifactory.md
+        href: reference/externalcontext/invokeexternalcontextaction.md                 
+    - name: Factory
+      href: reference/factory.md
       items:
       - name: bindDOMComponent
-        href: reference/ifactory/binddomcomponent.md
+        href: reference/factory/binddomcomponent.md
       - name: createComponent
-        href: reference/ifactory/createcomponent.md
+        href: reference/factory/createcomponent.md
       - name: createElement
-        href: reference/ifactory/createelement.md
+        href: reference/factory/createelement.md
       - name: fireEvent
-        href: reference/ifactory/fireevent.md
+        href: reference/factory/fireevent.md
       - name: getControlDefaultMapping
-        href: reference/ifactory/getcontroldefaultmapping.md
+        href: reference/factory/getcontroldefaultmapping.md
       - name: requestRender
-        href: reference/ifactory/requestrender.md
+        href: reference/factory/requestrender.md
       - name: unbindDOMComponent
-        href: reference/ifactory/unbinddomcomponent.md
+        href: reference/factory/unbinddomcomponent.md
       - name: updateComponent
-        href: reference/ifactory/updatecomponent.md     
-    - name: IFormatting
-      href: reference/iformatting.md
+        href: reference/factory/updatecomponent.md
+    - name: FilterExpression
+      href: reference/filterexpression.md
+    - name: Filtering
+      href: reference/filtering.md
+      items:
+      - name: clearFilter
+        href: reference/filtering/clearfilter.md
+      - name: getFilter
+        href: reference/filtering/getfilter.md 
+      - name: setFilter
+        href: reference/filtering/setfilter.md                 
+    - name: Formatting
+      href: reference/formatting.md
       items:
       - name: formatCurrency
-        href: reference/iformatting/formatcurrency.md
+        href: reference/formatting/formatcurrency.md
       - name: formatDateAsFilterStringInUTC
-        href: reference/iformatting/formatdateasfilterstringinutc.md 
+        href: reference/formatting/formatdateasfilterstringinutc.md 
       - name: formatDateLong
-        href: reference/iformatting/formatdatelong.md 
+        href: reference/formatting/formatdatelong.md 
       - name: formatDateLongAbbreviated
-        href: reference/iformatting/formatdatelongabbreviated.md 
+        href: reference/formatting/formatdatelongabbreviated.md 
       - name: formatDateShort
-        href: reference/iformatting/formatdateshort.md 
+        href: reference/formatting/formatdateshort.md 
       - name: formatDateYearMonth
-        href: reference/iformatting/formatdateyearmonth.md 
+        href: reference/formatting/formatdateyearmonth.md 
       - name: formatDecimal
-        href: reference/iformatting/formatdecimal.md 
+        href: reference/formatting/formatdecimal.md 
       - name: formatInteger
-        href: reference/iformatting/formatinteger.md 
+        href: reference/formatting/formatinteger.md 
       - name: formatLanguage
-        href: reference/iformatting/formatlanguage.md 
+        href: reference/formatting/formatlanguage.md 
       - name: formatTime
-        href: reference/iformatting/formattime.md 
+        href: reference/formatting/formattime.md 
       - name: getWeekOfYear
-        href: reference/iformatting/getweekofyear.md                                                                                                                                                       
-    - name: IMode
-      href: reference/imode.md
+        href: reference/formatting/getweekofyear.md 
+    - name: FormProps
+      href: reference/formprops.md               
+    - name: LinkEntity
+      href: reference/linkentity.md
+    - name: Linking
+      href: reference/linking.md
+      items:
+      - name: addLinkedEntity
+        href: reference/linking/addlinkedentity.md
+      - name: getLinkedEntities
+        href: reference/linking/getlinkedentities.md
+    - name: Mode
+      href: reference/mode.md
       items:
       - name: clearNotification
-        href: reference/imode/clearnotification.md
+        href: reference/mode/clearnotification.md
       - name: setControlState
-        href: reference/imode/setcontrolstate.md
+        href: reference/mode/setcontrolstate.md
       - name: setFullScreen
-        href: reference/imode/setfullscreen.md
+        href: reference/mode/setfullscreen.md
       - name: setNotification
-        href: reference/imode/setnotification.md
+        href: reference/mode/setnotification.md
       - name: trackContainerResize
-        href: reference/imode/trackcontainerresize.md                                
-    - name: INavigation
-      href: reference/inavigation.md
+        href: reference/mode/trackcontainerresize.md                                
+    - name: Navigation
+      href: reference/navigation.md
       items:
       - name: openAlertDialog
-        href: reference/inavigation/openalertdialog.md
+        href: reference/navigation/openalertdialog.md
       - name: openConfirmDialog
-        href: reference/inavigation/openconfirmdialog.md
+        href: reference/navigation/openconfirmdialog.md
       - name: openDialog
-        href: reference/inavigation/opendialog.md
+        href: reference/navigation/opendialog.md
       - name: openErrorDialog
-        href: reference/inavigation/openerrordialog.md
+        href: reference/navigation/openerrordialog.md
       - name: openFile
-        href: reference/inavigation/openfile.md
+        href: reference/navigation/openfile.md
       - name: openForm
-        href: reference/inavigation/openform.md
+        href: reference/navigation/openform.md
       - name: openGrid
-        href: reference/inavigation/opengrid.md
+        href: reference/navigation/opengrid.md
       - name: openMap
-        href: reference/inavigation/openmap.md
+        href: reference/navigation/openmap.md
       - name: openPhoneNumber
-        href: reference/inavigation/openphonenumber.md
+        href: reference/navigation/openphonenumber.md
       - name: openTaskFlow
-        href: reference/inavigation/opentaskflow.md
+        href: reference/navigation/opentaskflow.md
       - name: openUrl
-        href: reference/inavigation/openurl.md
+        href: reference/navigation/openurl.md
       - name: openWebResource
-        href: reference/inavigation/openwebresource.md   
-    - name: IOrgSettings
-      href: reference/iorgsettings.md
-    - name: IPage
-      href: reference/ipage.md
-      items:
-      - name: getClientUrl
-        href: reference/ipage/getclienturl.md      
-    - name: IPropBag
-      href: reference/ipropbag.md
-    - name: IResources
-      href: reference/iresources.md
-      items:
-      - name: getResource
-        href: reference/iresources/getresource.md
-      - name: getString
-        href: reference/iresources/getstring.md       
-    - name: IThemingBag
-      href: reference/ithemingbag.md
-      items:
-      - name: disableUiTransitions
-        href: reference/ithemingbag/disableuitransitions.md
-      - name: getEntityColor
-        href: reference/ithemingbag/getentitycolor.md
-      - name: inlineLayout
-        href: reference/ithemingbag/inlinelayout.md
-      - name: rightAlignEdit
-        href: reference/ithemingbag/rightalignedit.md        
-    - name: IThemingBagColors
-      href: reference/ithemingbagcolors.md
-    - name: IUserSettings
-      href: reference/iusersettings.md
-      items:
-      - name: getTimeZoneOffsetMinutes
-        href: reference/iusersettings/gettimezoneoffsetminutes.md      
-    - name: IUtility
-      href: reference/iutility.md
-      items:
-      - name: addGlobalNotification
-        href: reference/iutility/addglobalnotification.md
-      - name: beginSecureSessionForResource
-        href: reference/iutility/beginsecuresessionforresource.md  
-      - name: clearGlobalNotification
-        href: reference/iutility/clearglobalnotification.md  
-      - name: createServerUri
-        href: reference/iutility/createserveruri.md  
-      - name: eventListenerExists
-        href: reference/iutility/eventlistenerexists.md  
-      - name: getEntitiesMetadata
-        href: reference/iutility/getentitiesmetadata.md  
-      - name: getEntityMetadata
-        href: reference/iutility/getentitymetadata.md  
-      - name: getEntityName
-        href: reference/iutility/getentityname.md  
-      - name: getFormId
-        href: reference/iutility/getformid.md  
-      - name: getResourceString
-        href: reference/iutility/getresourcestring.md  
-      - name: hasEntityPrivilege
-        href: reference/iutility/hasentityprivilege.md  
-      - name: isFeatureEnabled
-        href: reference/iutility/isfeatureenabled.md  
-      - name: lookupObjects
-        href: reference/iutility/lookupobjects.md  
-      - name: retrieveFormWithAttributes
-        href: reference/iutility/retrieveformwithattributes.md  
-      - name: retrieveRecordCommand
-        href: reference/iutility/retrieverecordcommand.md  
-      - name: triggerOfflineMetadataSync
-        href: reference/iutility/triggerofflinemetadatasync.md                                                                                                                          
+        href: reference/navigation/openwebresource.md
     - name: NumberFormattingInfo
       href: reference/numberformattinginfo.md
     - name: Offline
       href: reference/offline.md
       items:
       - name: isOfflineEnabled
-        href: reference/offline/isofflineenabled.md
+        href: reference/offline/isofflineenabled.md         
+    - name: OrgSettings
+      href: reference/orgsettings.md
+    - name: Page
+      href: reference/page.md
+      items:
+      - name: getClientUrl
+        href: reference/page/getclienturl.md
+    - name: Paging
+      href: reference/paging.md
+      items:
+      - name: loadNextPage
+        href: reference/paging/loadnextpage.md      
+      - name: loadPreviousPage
+        href: reference/paging/loadpreviouspage.md   
+      - name: reset
+        href: reference/paging/reset.md   
+      - name: setPageSize
+        href: reference/paging/setpagesize.md                           
+    - name: ParameterDefinitionMap
+      href: reference/parameterdefinitionmap.md      
+    - name: Popup
+      href: reference/popup.md
+    - name: PopupService
+      href: reference/popupservice.md 
+      items:
+      - name: closePopup
+        href: reference/popupservice/closepopup.md    
+      - name: createPopup
+        href: reference/popupservice/createpopup.md   
+      - name: deletePopup
+        href: reference/popupservice/deletepopup.md   
+      - name: getPopups
+        href: reference/popupservice/getpopups.md   
+      - name: getPopupsId
+        href: reference/popupservice/getpopupsid.md   
+      - name: openPopup
+        href: reference/popupservice/openpopup.md   
+      - name: setPopupsId
+        href: reference/popupservice/setpopupsid.md   
+      - name: updatePopup
+        href: reference/popupservice/updatepopup.md                                                                    
     - name: Reporting
       href: reference/reporting.md
       items:
@@ -265,7 +303,90 @@
       - name: reportFailure
         href: reference/reporting/reportfailure.md 
       - name: reportSuccess
-        href: reference/reporting/reportsuccess.md                        
+        href: reference/reporting/reportsuccess.md         
+    - name: Resources
+      href: reference/resources.md
+      items:
+      - name: getResource
+        href: reference/resources/getresource.md
+      - name: getString
+        href: reference/resources/getstring.md
+    - name: Sort
+      href: reference/sort.md
+    - name: Style
+      href: reference/style.md         
+    - name: Theming
+      href: reference/theming.md
+      items:
+      - name: disableUiTransitions
+        href: reference/theming/disableuitransitions.md
+      - name: getEntityColor
+        href: reference/theming/getentitycolor.md
+      - name: inlineLayout
+        href: reference/theming/inlinelayout.md
+      - name: rightAlignEdit
+        href: reference/theming/rightalignedit.md        
+    - name: ThemingColors
+      href: reference/themingcolors.md
+    - name: UserSettings
+      href: reference/usersettings.md
+      items:
+      - name: getTimeZoneOffsetMinutes
+        href: reference/usersettings/gettimezoneoffsetminutes.md      
+    - name: Utility
+      href: reference/utility.md
+      items:
+      - name: addGlobalNotification
+        href: reference/utility/addglobalnotification.md
+      - name: beginSecureSessionForResource
+        href: reference/utility/beginsecuresessionforresource.md  
+      - name: clearGlobalNotification
+        href: reference/utility/clearglobalnotification.md  
+      - name: createServerUri
+        href: reference/utility/createserveruri.md  
+      - name: eventListenerExists
+        href: reference/utility/eventlistenerexists.md  
+      - name: getEntitiesMetadata
+        href: reference/utility/getentitiesmetadata.md  
+      - name: getEntityMetadata
+        href: reference/utility/getentitymetadata.md  
+      - name: getEntityName
+        href: reference/utility/getentityname.md  
+      - name: getFormId
+        href: reference/utility/getformid.md  
+      - name: getResourceString
+        href: reference/utility/getresourcestring.md  
+      - name: hasEntityPrivilege
+        href: reference/utility/hasentityprivilege.md  
+      - name: isFeatureEnabled
+        href: reference/utility/isfeatureenabled.md  
+      - name: lookupObjects
+        href: reference/utility/lookupobjects.md  
+      - name: retrieveFormWithAttributes
+        href: reference/utility/retrieveformwithattributes.md  
+      - name: retrieveRecordCommand
+        href: reference/utility/retrieverecordcommand.md  
+      - name: triggerOfflineMetadataSync
+        href: reference/utility/triggerofflinemetadatasync.md 
+    - name: VirtualComponent
+      href: reference/virtualcomponent.md
+      items:
+      - name: getChildren
+        href: reference/virtualcomponent/getchildren.md
+      - name: getComponentId
+        href: reference/virtualcomponent/getcomponentid.md
+      - name: getProperties
+        href: reference/virtualcomponent/getproperties.md
+      - name: getType
+        href: reference/virtualcomponent/gettype.md
+      - name: getVirtualRepresentation
+        href: reference/virtualcomponent/getvirtualrepresentation.md                                
+    - name: VirtualComponentControlStates
+      href: reference/virtualcomponentcontrolstates.md  
+    - name: VirtualComponentEventHandlerPair
+      href: reference/virtualcomponenteventhandlerpair.md  
+    - name: VirtualComponentProps
+      href: reference/virtualcomponentprops.md                    
     - name: WebApi
       href: reference/webapi.md
       items:

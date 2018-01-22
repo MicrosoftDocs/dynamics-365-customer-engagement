@@ -1,0 +1,1 @@
+Retrieves all selected record ids

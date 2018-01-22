@@ -2,19 +2,7 @@
 
 [!INCLUDE [retrieverecord-description](includes/retrieverecord-description.md)]
 
-## Syntax
-
-`Name(param)`
-
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
-
-## Return Value
-
-Type: `string`
+See [retrieveRecord (Client API reference)](../../../clientapi/reference/Xrm-WebApi/retrieveRecord.md)
 
 
 ### Related topics
