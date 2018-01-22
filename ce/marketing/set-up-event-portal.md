@@ -4,6 +4,7 @@ description: "Details about the event portal, including site map, information so
 keywords: "events; event management; portal; event portal; registration"
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)

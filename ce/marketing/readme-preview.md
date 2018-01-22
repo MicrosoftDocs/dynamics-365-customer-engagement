@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 for Marketing Preview Readme (Known Issues) | MicrosoftDocs"
-ms.date: 12/18/2017
+ms.date: 01/15/2018
 ms.service: "crm-online"
 ms.topic: "article"
+ROBOTS: NOINDEX,NOFOLLOW
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
