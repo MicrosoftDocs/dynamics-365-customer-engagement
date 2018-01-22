@@ -94,6 +94,6 @@ To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
     > [!NOTE]
     >  As mentioned at the start of this procedure, you shouldn't update core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions from here. Always run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] update wizard first, before you start looking for shared-solution updates, to ensure that all your core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions are already shown as up-to-date in this list.
 
-1. Select a solution marked as having an upgrade available and read the information shown in the right column. This should include a link for applying the update. Select the link and then follow the instructions on your screen to apply it.
+1. Select a solution marked as having an upgrade available and read the information shown in the right column. Select the **upgrade** button ![The Upgrade button](media/update-manage-button.png "The Upgrade button") in the right column and then follow the instructions on your screen to apply it.
 
 1. Repeat this procedure for each solution that requires an update.
