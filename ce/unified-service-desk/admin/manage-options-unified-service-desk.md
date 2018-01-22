@@ -15,10 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: be4effc4-a2a8-414b-87a1-a8b303160bac
-caps.latest.revision: 21
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 tags: 
  - "MigrationHO"
 ---
