@@ -61,22 +61,27 @@ To configure a new performance data collection keyboard shortcut:
 1. Press **Ctrl+Alt+Q** or the configured keyboard shortcut to start collecting performance data. 
 Unified Service Desk displays a window asking - **Do you want to start collecting performance data?**.
 
+   ![Do you want to start collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-start-collecting-perf-data.PNG "Do you want to start collecting performance data")
+
 2. Click **Yes** to start collecting the performance data.
 
 > [!Note]
 > If you press **Ctrl+Alt+Q** after you start collecting performance data for a session, Unified Service Desk displays a window with a message - **Performance data collection has already started. PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
+> ![Performance data collection already started](../../unified-service-desk/media/usd-keyboard-shortcut-already-started-collecting-perf-data.PNG "Performance data collection already started")
 
 <a name="BKMK_stop_performance_data_collection_using_keyboard_shortcut"></a>
 ## Stop performance data collection using keyboard shortcut
 
-1.	Press **Ctrl+Alt+P** or the configured keyboard shortcut to stop the collection of performance data.
+1.	Press **Ctrl+Alt+P** or the configured keyboard shortcut to stop the collection of performance data.</br>
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a window with a message - **Do you want to stop collecting performance data? PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
 
-2.	[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a window with a message - **Do you want to stop collecting performance data? PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
+    ![Do you want to stop collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-stop-collecting-perf-data.PNG "Do you want to stop collecting performance data")
 
 3.	Click **Yes** to stop collecting the performance data.
 
 > [!Note]
 > If you press **Ctrl+Alt+P** after you stop collecting performance data for a session, Unified Service Desk displays a window **Performance data collection has already stopped**.
+> ![Performance data collection already stopped](../../unified-service-desk/media/usd-keyboard-shortcut-already-stopped-collecting-perf-data.PNG "Performance data collection already stopped")
 
 If you experience performance issues when starting [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you can manually modify the application configuration file (UnifiedServiceDesk.exe.config) to start collecting the performance data to log files.
 

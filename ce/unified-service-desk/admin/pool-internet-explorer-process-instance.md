@@ -44,7 +44,7 @@ To enable Internet Explorer pooling:
 
 3. Choose **Options**.  
 
-4. On the **Active UII Options** page, click **New**.
+4. click **New** on the **Active UII Options** page.
 
 5. Choose **Others** for the **Global Option** field.
 
@@ -53,6 +53,8 @@ To enable Internet Explorer pooling:
 7. Set **true** for the **Value** field.
 
 8. Click **Save**.
+
+  ![Enable InternetExplorerPooling option](../../unified-service-desk/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
 [comment]: <> (We need to rewrite the title on this to make it clearer and easier to understand. Please ping me to discuss.)
 ## See also
