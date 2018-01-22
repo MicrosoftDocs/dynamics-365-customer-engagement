@@ -36,7 +36,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
   
 3.  Choose **Options**.  
   
-4.  On the **Active UII Options** page, click **New**.  
+4.  On the **Active UII Options** page, click **New**.
   
 5.  On the **New Option** page, type the option name and corresponding value. Some options are available in the **Global Options** list. Additional global options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that aren't displayed in the list and must be entered by the administrator are described in this table.  
   
