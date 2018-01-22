@@ -77,7 +77,7 @@ Unified Service Desk displays a window asking - **Do you want to start collectin
 
     ![Do you want to stop collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-stop-collecting-perf-data.PNG "Do you want to stop collecting performance data")
 
-3.	Click **Yes** to stop collecting the performance data.
+2.	Click **Yes** to stop collecting the performance data.
 
 > [!Note]
 > If you press **Ctrl+Alt+P** after you stop collecting performance data for a session, Unified Service Desk displays a window **Performance data collection has already stopped**.
