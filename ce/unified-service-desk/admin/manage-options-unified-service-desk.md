@@ -15,10 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: be4effc4-a2a8-414b-87a1-a8b303160bac
-caps.latest.revision: 21
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 tags: 
  - "MigrationHO"
 ---
@@ -36,7 +35,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
   
 3.  Choose **Options**.  
   
-4.  On the **Active UII Options** page, click **New**.  
+4.  On the **Active UII Options** page, click **New**.
   
 5.  On the **New Option** page, type the option name and corresponding value. Some options are available in the **Global Options** list. Additional global options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] that aren't displayed in the list and must be entered by the administrator are described in this table.  
   
