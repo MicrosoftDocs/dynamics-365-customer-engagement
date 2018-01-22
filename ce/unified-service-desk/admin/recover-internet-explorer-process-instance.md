@@ -74,7 +74,7 @@ If the webpage runs slowly while executing a script on the `IE process` browser 
 <a name="Recover_unresponsive_Internet_Explorer_process_instance using_keyboard_shortcut"></a>
 ## Recover unresponsive Internet Explorer process instances using a keyboard shortcut
 
-When the Internet Explorer webpage is unresponsive and causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to freeze, hover the cursor on the unresponsive tab and use the keyboard shortcut **Ctrl + Alt + K** to terminate. 
+When the Internet Explorer webpage is unresponsive and causes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to freeze, hover the cursor on the unresponsive tab and use the keyboard shortcut **Ctrl+Alt+K** to terminate. 
 
 The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a dialog box: **You have chosen to end the Internet Explorer process that is active in Unified Service Desk by pressing Ctrl+Alt+K. Do you want to continue?**. 
 
