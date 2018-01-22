@@ -85,6 +85,8 @@
       href: admin/help-improve-unified-service-desk.md
   - name: Configure auditing and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
+  - name: Performance data collection using keyboard shortcut
+    href: admin/performance-data-collection-using-keyboard-shortcut.md
   - name: Distribute custom hosted controls using Customization Files
     href: admin/distribute-custom-hosted-controls-using-customization-files.md
   - name: Access management in Unified Service Desk
@@ -101,6 +103,10 @@
       href: admin/import-unified-service-desk-configuration-data.md
     - name: Export Unified Service Desk configuration data
       href: admin/export-unified-service-desk-configuration-data.md
+  - name: Pool Internet Explorer process instance
+    href: admin/pool-internet-explorer-process-instance.md
+  - name: Recover Internet Explorer process instance
+    href: admin/recover-internet-explorer-process-instance.md
 - name: Configure your agent application using Unified Service Desk
   href: configure-agent-application-unified-service-desk.md
   items:

@@ -1,8 +1,8 @@
 ---
 title: "What&#39;s new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
-description: "Learn about new features available with Unified Service Desk for Dynamics 365 Customer Engagement." 
+description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement" 
 ms.custom: ""
-ms.date: 11/02/2017
+ms.date: 01/25/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -15,16 +15,52 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
-caps.latest.revision: 44
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 ---
 # New feature information for administrators
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  
 
+<a name="NewIn320"></a>
+## What's new in [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]
+
+### Performance enhancements: Internet Explorer Pooling
+
+In [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can experience enhanced performance with Internet Explorer pooling.
+
+Internet Explorer pooling creates a dynamic pool of Internet Explorer process instances whenever you open a hosted control (entity type) in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. The hosted control that you are opening uses an Internet Explorer instance from the pool to perform inline navigation. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for the hosted controls to use.
+
+By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the **InternetExplorerPooling** option on the **Active UII Options** page and set it to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Pool Internet Explorer process instance](../../unified-service-desk/admin/pool-internet-explorer-process-instance.md).
+
+### Recover an Internet Explorer process instance
+
+With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can recover an Internet Explorer process instance in the following scenarios:
+
+- When Internet Explorer closes abruptly.
+
+- When an Internet Explorer webpage is unresponsive.
+
+- When you manually end an unresponsive Internet Explorer process instance from Task Manager.
+
+- When a script on the hosted control that uses an `IE process` browser control takes time more than the timeout period for page navigation.
+
+- When you use a keyboard shortcut to manually terminate an Internet Explorer webpage.
+
+Internet Explorer process (IEWebPageRecovery) recovery enables you to recover any Internet Explorer process instance (which may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application.
+
+By default, Internet Explorer process instance recovery is enabled. To disable recovery, a System Administrator must configure the **IEWebPageRecovery** option on the **Active UII Options** page and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Recover Internet Explorer process instance](../../unified-service-desk/admin/recover-internet-explorer-process-instance.md).
+
+### Performance data collection using keyboard shortcuts
+
+Using keyboard shortcuts, agents can start and stop collecting data about operational events, errors, and performance in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. You can collect data in log files, which can be used to identify and troubleshoot performance issues or errors. If you encounter a technical issue that is related to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance, Customer Support Service personal may ask you to send the log file to help troubleshoot the issue. 
+
+When agents start collecting the performance data using keyboard shortcut, the log files are maintained with a unique performance session ID (GUID) on the client computer.
+
+Agents working on the client computer can use **Ctrl+Alt+Q** to start and **Ctrl+Alt+P** to stop collecting the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data. To change the default keyboard shortcut, a System Administrator must configure the new keyboard shortcut to start and stop collecting performance data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance data collection](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md).
+
 <a name="NewIn310"></a>  
-## What's new in [!INCLUDE [pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
+## What's new in [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
 
  Administrators will be able  to leverage the following enhancements and new capabilities in this release. 
 
@@ -67,7 +103,7 @@ These are the limitations:
  Previous versions maintained the error diagnostics reporting settings in the Options area of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution. With this release, to simplify configuration the error diagnostics reporting settings have been moved to the Audit & Diagnostics Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Diagnostics](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md#BKMK_Diagnostics)  
   
 ### Support for JAWS screen reader  
- You can now use the JAWS (Job Access With Speech) version 18 for Windows screen reader application for speech output with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility in Unified Service Desk](https://go.microsoft.com/fwlink/?linkid=826563)  
+ You can now use the JAWS (Job Access With Speech) version 18 for Windows screen reader application for speech output with the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessibility in Unified Service Desk](https://go.microsoft.com/fwlink/?linkid=826563)  
   
 ## See also  
  [What’s New in Unified Service Desk for developers](../../unified-service-desk/what-s-new-in-unified-service-desk.md)

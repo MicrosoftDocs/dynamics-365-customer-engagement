@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 ms.custom: ""
-ms.date: 11/02/2017
+ms.date: 01/25/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -15,19 +15,22 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 1949915b-77a0-4489-addf-b3b3b37c3e89
-caps.latest.revision: 18
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 ---
 # Release history for Unified Service Desk
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
  
-
 |Release  |Information  |
 |---------|---------|
-|Version 3.1, November 2017   | [!INCLUDE [pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] update |
-|Version 3.0, August 2017  |  [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] update |
+|Version 3.2, January 2018   | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |
+|Version 3.1, November 2017   | [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] update |
+|Version 3.0, August 2017  |  [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] update |
+
+<a name="Release_3_2"></a>   
+## Release history for [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)], January 2018
+For information about this release see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md).
 
 <a name="Release_3_1"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)], November 2017
