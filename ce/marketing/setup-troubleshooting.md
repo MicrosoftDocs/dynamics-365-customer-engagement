@@ -22,8 +22,8 @@ Read this topic to find solutions to known issues that can sometimes occur durin
 
 ## Authorization fails due to unmanaged organization state
 
-In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an _unmanaged_ state, which means (among other things), that you can't get permission to install third-part solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see the following error message when you run the setup wizard for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
+In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an _unmanaged_ state, which means (among other things), that you can't get permission to install third-party solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see the following error message when you run the setup wizard for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
 
 ![Unmanaged org error](media/setup-ts-unmanaged-aad.png "Unmanaged org error")
 
-To fix this, you must convert your unmanaged org into a managed one and then run the setup wizard again. For instructions about how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=866753).
+To fix this, you must convert your unmanaged org into a managed one and then run the setup wizard again. For instructions about how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).
