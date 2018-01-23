@@ -65,7 +65,7 @@ For example, the following sample code shows how to retrieve the account name fi
 ```JavaScript
 function mySampleFunction(primaryControl) {
     var executionContext = primaryControl;    
-    var accountName = executionContext.getControl('name').getAttribute().getValue();    
+    var accountName = executionContext.getControl("name").getAttribute().getValue();    
 
     // Set the WebSiteURL field if account name contains "Contoso"
     if (accountName.toLowerCase().search("contoso") != -1) {
