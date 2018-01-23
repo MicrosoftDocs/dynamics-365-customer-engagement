@@ -12,6 +12,7 @@ applies_to:
 ms.assetid: 30a97860-1369-400b-8931-5d070daea4f9
 author: "KumarVivek"
 ms.author: "kvivek"
+robots: noindex,nofollow
 manager: "amyla"
 ---
 # Create a custom channel for customer journey
