@@ -12,9 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: e9f3a0d0-99fb-40bf-bd82-54995d05f128
 caps.latest.revision: 14
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
 # Preview feature: Relationship Insights overview
 

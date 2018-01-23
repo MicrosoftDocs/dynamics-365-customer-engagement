@@ -12,9 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9cf9f43a-2156-418c-be33-6f34027f3d79
 caps.latest.revision: 20
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
 # Preview feature: Use Relationship analytics to gather KPIs 
 
