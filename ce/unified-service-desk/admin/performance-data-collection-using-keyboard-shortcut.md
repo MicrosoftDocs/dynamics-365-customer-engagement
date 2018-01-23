@@ -20,15 +20,20 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Performance data collection
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data collection enables you to collect data about operational events, errors, and performance in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues or errors.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data collection enables you to collect data about operational events in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues.
 
-When you start collecting performance data, log files are maintained with a unique performance session ID (GUID) on the client computer. Example of performance session ID (GUID): **cv0ab1gg-1df3-7bd9-b5dt-1221d65r93w8**. If you encounter technical issues with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], customer support may ask you send the log file to help troubleshoot the issue.
+> [!Note]
+> If you encounter performance issues with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], customer support may ask you collect the performance data send the log file to help troubleshoot the issue.
+
+When you start collecting performance data, log files are maintained with a unique performance session ID (GUID) on the client computer. 
+
+> [!Note]
+> Each time you start and stop collecting performance data, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a new file with a performance session ID, which it maintains on the client computer.
+
 The path where the log files are maintained on the client computer:
 
 ```%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\USDPerformanceData_<hhmmssfff>_<yyyy-mm-dd>```
 
-> [!Note]
-> Each time you start and stop collecting performance data, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a new file with a performance session ID, which it maintains on the client computer.
 
 <a name="BKMK_Configure_performance_data_collection_keyboard_shortcut"></a>
 ## Configure a performance data collection keyboard shortcut
@@ -55,13 +60,19 @@ To configure a new performance data collection keyboard shortcut:
 
 7. Click **Save & Close**.
 
-<a name="BKMK_start_performance_data_collection_using_keyboard_shortcut"></a>
-## Start performance data collection using a keyboard shortcut
+<a name="BKMK_performance_data_collection_using_keyboard_shortcut"></a>
+## Performance data collection using a keyboard shortcut
+
+
+### Start performance data collection using a keyboard shortcut
 
 1. Press **Ctrl+Alt+Q** or the configured keyboard shortcut to start collecting performance data. 
 Unified Service Desk displays a window asking - **Do you want to start collecting performance data?**.
 
    ![Do you want to start collecting performance data](../../unified-service-desk/media/usd-keyboard-shortcut-start-collecting-perf-data.PNG "Do you want to start collecting performance data")
+
+    > [!Note]
+    > When you press the keyboard shortcut and if [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not display the performance data collection starting window, then ensure the keyboard focus is not on the Internet Explorer Webpage. To bring the keyboard focus outside the Internet Explorer webpage, press the `IEProcessKeyboardShortcut`, and press the keyboard shortcut to start the performance data collection.
 
 2. Click **Yes** to start collecting the performance data.
 
@@ -69,8 +80,8 @@ Unified Service Desk displays a window asking - **Do you want to start collectin
 > If you press **Ctrl+Alt+Q** after you start collecting performance data for a session, Unified Service Desk displays a window with a message - **Performance data collection has already started. PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
 > ![Performance data collection already started](../../unified-service-desk/media/usd-keyboard-shortcut-already-started-collecting-perf-data.PNG "Performance data collection already started")
 
-<a name="BKMK_stop_performance_data_collection_using_keyboard_shortcut"></a>
-## Stop performance data collection using keyboard shortcut
+
+### Stop performance data collection using keyboard shortcut
 
 1.	Press **Ctrl+Alt+P** or the configured keyboard shortcut to stop the collection of performance data.</br>
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays a window with a message - **Do you want to stop collecting performance data? PerfSessionId - XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX**.
@@ -83,9 +94,12 @@ Unified Service Desk displays a window asking - **Do you want to start collectin
 > If you press **Ctrl+Alt+P** after you stop collecting performance data for a session, Unified Service Desk displays a window **Performance data collection has already stopped**.
 > ![Performance data collection already stopped](../../unified-service-desk/media/usd-keyboard-shortcut-already-stopped-collecting-perf-data.PNG "Performance data collection already stopped")
 
+<a name="BKMK_collect__startup_performance_data_using_application_configuration_file"></a>
+## Collect startup performance data using application configuration file
+
 If you experience performance issues when starting [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you can manually modify the application configuration file (UnifiedServiceDesk.exe.config) to start collecting the performance data to log files.
 
-To modify the application configuration file, change the value from **Off** to **Verbose** in the XML node.
+To start collecting the startup performance data, change the value in application configuration file from **Off** to **Verbose** in the XML node.
 
 ```<add name="Microsoft.Uii.Common.Performance" value="Verbose"/>```
 
