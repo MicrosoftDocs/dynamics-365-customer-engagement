@@ -58,7 +58,7 @@ You can also specify **CommandProperties** as `<CrmParameter>` value in your rib
 
 ## Form values
 
-With a form ribbon, you can use the `data.entity`.[attributes](../clientapi/reference/attributes.md) collection and the `ui`.[Controls (Client API reference)](../clientapi/reference/controls.md) collection to retrieve values for known fields.
+With a form ribbon, you can use the `data.entity`.[attributes](../clientapi/reference/attributes.md) collection and the `ui`.[Controls](../clientapi/reference/controls.md) collection to retrieve values for known fields.
 
 <!--
 However, if you want to pass the value of a selected form field, you’ll have to do more scripting to get the value. You can use the **PrimaryControlId** parameter to get the Id value for the control that has focus when the ribbon control received focus. This Id is the Document Object Model (DOM) Id value. 
@@ -119,7 +119,7 @@ function mySampleFunction(primaryControl, primaryControlId) {
   
  
   
-## Other Context information  
+## Other context information  
  In addition to data values, you can retrieve client context information by using [\<CrmParameter\>](https://msdn.microsoft.com/library/gg309332.aspx).  You can use the following options as the value for the `CrmParameter` element: `OrgName`, `OrgLcid`, and `UserLcid`.
  
  For a `<Url>` action, you can also use the `PassParams` attribute to include contextual information.  
