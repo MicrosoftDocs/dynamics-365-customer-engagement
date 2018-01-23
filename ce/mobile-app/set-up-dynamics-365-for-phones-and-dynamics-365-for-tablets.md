@@ -1,7 +1,7 @@
 ---
 title: "Set up Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/10/2017
+ms.date: 01/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -552,6 +552,7 @@ else
   
 ### See Also  
  [Secure and manage Dynamics 365 for phones and tablets](secure-manage-phones-tablets.md)   
+ [What's supported](support-phones-tablets.md)
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)   
  [Install Dynamics 365 for tablets and phones](dynamics-365-phones-tablets-users-guide.md)   
  [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)   
