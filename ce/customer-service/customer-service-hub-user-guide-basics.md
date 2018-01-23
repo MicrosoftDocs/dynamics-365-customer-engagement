@@ -266,10 +266,10 @@ The second tab in the Related section of a case record is the **Knowledge Base s
 
 The third tab in the Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options. 
 
+![similar-cases](media/similar-cases.png)
+
 > [!NOTE]
 > You can configure rules that help you view similar cases based on automatic suggestions. These rules can be created using either the Cognitive Services Text Analytics or a built-in similarities matching engine in Dynamics 365. For more information, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create-similar-record-suggestion-rules).
-
-![similar-cases](media/similar-cases.png)
 
 Similarly,
 
