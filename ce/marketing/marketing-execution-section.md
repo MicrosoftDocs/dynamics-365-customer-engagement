@@ -4,6 +4,7 @@ description: "How to design and deliver digital marketing content in Dynamics 36
 keywords: "marketing execution;email;landing page;marketing page;customer journey"
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)
