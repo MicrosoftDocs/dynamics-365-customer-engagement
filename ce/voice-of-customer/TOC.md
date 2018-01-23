@@ -1,4 +1,5 @@
 # [Voice of the Customer help and training](help-hub.md)
+## [What's new](monthly-updates-voc.md)
 ## [Overview](get-feedback-surveys.md)
 ## [Install the Voice of the Customer solution](install-solution.md)
 ## [Plan a survey](plan-survey.md)
@@ -6,3 +7,4 @@
 ## [Distribute a survey](distribute-survey.md)
 ## [Design an advanced survey](design-advanced-survey.md)
 ## [Analyze survey data](analyze-survey-data.md)
+## [Troubleshoot Voice of the Customer](troubleshoot.md)
