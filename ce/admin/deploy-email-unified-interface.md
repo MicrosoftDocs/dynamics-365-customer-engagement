@@ -28,13 +28,13 @@ Admins, follow these steps to deploy the Email for Unified Interface app.
 
 **Install the app**
 
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
+1.  [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
-2. Select **Admin centers** > **Dynamics 365**.  
+2.  Select **Admin centers** > **Dynamics 365**.  
 
-3. Select the **Instances** tab, select the instance to add the app to, and then select ![Manage your solutions](media/manage-solution.png "Manage your solutions").
+3.  Select the **Instances** tab, select the instance to add the app to, and then select ![Manage your solutions](media/manage-solution.png "Manage your solutions").
 
-4. Select the **Email for United Interface** app, and then select **Install**.  
+4.  Select the **Email for United Interface** app, and then select **Install**.  
 
 You can now see the app in the list of published apps. Go to **Settings** > **My Apps**.
 
@@ -42,15 +42,15 @@ You can now see the app in the list of published apps. Go to **Settings** > **My
 
 **Assign users access to the app**
 
-1. Go to **Settings** > **Security** > **Users**.  
+1.  Go to **Settings** > **Security** > **Users**.  
   
-2. In the list, select the user or users that you want to assign a security role to.  
+2.  In the list, select the user or users that you want to assign a security role to.  
   
-3. Select **Manage Roles**.  
+3.  Select **Manage Roles**.  
   
-   Only the security roles available for that user's business unit are displayed.  
+    Only the security roles available for that user's business unit are displayed.  
   
-4. In the **Manage User Roles** dialog box, select the **Email app access role** security role, and then select **OK**.  
+4.  In the **Manage User Roles** dialog box, select the **Email app access role** security role, and then select **OK**.  
 
 ## For end users: Accessing the app
 
