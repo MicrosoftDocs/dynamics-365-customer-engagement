@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # What's new in Voice of the Customer for Dynamics 365
 
-Welcome to Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. Here's a list of features we added recently.
+Welcome to Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. Here's a list of features we added and updated recently.
 
 ## Voice of the Customer version 9.0.1027.16
 
