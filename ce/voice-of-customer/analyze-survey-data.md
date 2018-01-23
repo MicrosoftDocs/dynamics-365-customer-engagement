@@ -70,8 +70,9 @@ Voice of the Customer provides some additional fields in the Survey Response ent
 
 Response mapping makes the question responses directly available as part of the Survey Response entity and, therefore, readily available to reports and workflows. The mapping fields available on the survey response are listed in the following table.
 
-| Salutation       | Company Response     | Generic number 11                  | Linked Answer 2  |
+|| | | |
 |------------------|----------------------|------------------------------------|------------------|
+| Salutation       | Company Response     | Generic number 11                  | Linked Answer 2  |
 | First Name       | Generic string 2     | Generic number 14                  | Linked Answer 3  |
 | Last Name        | Custom Value         | Generic number 13                  | Linked Answer 4  |
 | Job Title        | Generic text 4       | Generic number 16                  | Linked Answer 5  |
@@ -86,6 +87,7 @@ Response mapping makes the question responses directly available as part of the 
 | Website Response | Generic number 8     | Satisfaction Rating                | Linked Answer 14 |
 | Email Response   | Generic number 7     | Customer Effort Score              | Linked Answer 15 |
 | Fax              | Generic number 10    | Linked Answer 1                    |                  |
+||||
 
 ## Run and export reports
 
