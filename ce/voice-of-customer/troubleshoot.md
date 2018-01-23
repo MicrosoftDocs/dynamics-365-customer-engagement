@@ -22,7 +22,7 @@ This chapter provides information for troubleshooting the Voice of the Customer 
 
 ## Reconfigure Voice of the Customer
 
-If the Voice of the Customer solution is misconfigured, it may not be able to receive survey responses. To remediate this, you can allow Voice of the Customer to automatically setup the correct configurations itself. If the solution cannot be reconfigured properly, an error message is displayed with the related information.
+If the Voice of the Customer solution is accidentally deleted or misconfigured, it may not be able to receive survey responses. To remediate this, you can now repair or restore the Voice of the Customer configuration from the **Voice of the Customer Configurations** page.
 
 > [!Note]
 > You must be a survey administrator to reconfigure Voice of the Customer solution.
@@ -30,6 +30,11 @@ If the Voice of the Customer solution is misconfigured, it may not be able to re
 1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 2. Go to **Settings** > **Voice of the Customer Configurations**.
 3. Select **Configure** from the toolbar at the top of the screen.
+
+  ![Configure Voice of the Customer](media/reconfigure-voc.png "Configure Voice of the Customer")  
+
+> [!Note]
+> If the solution cannot be reconfigured properly, an error message is displayed with the related information.
 
 ### See also
 [Plan a survey](plan-survey.md)   

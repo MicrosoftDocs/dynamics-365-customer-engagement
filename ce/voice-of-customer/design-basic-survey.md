@@ -378,14 +378,7 @@ We recommend that when you create a survey you specify a redirect URL to display
 
 ## Delete a survey
 
-You can delete a survey if it is not required anymore. When a survey is deleted, all its related entities are also deleted. You must delete the associated survey responses before deleting the survey.
-
-To delete survey responses:
-1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
-2. Go to **Voice of the Customer** > **Surveys**.
-3. Select the name of the survey for which you want to delete survey responses.
-4. Select the down arrow next to your survey name at the top of the screen, and then select **Survey Responses**.
-5. Select all the survey responses and select **Delete Survey Response** from the toolbar.
+You can delete a survey if it is not required anymore. When a survey is deleted, all its dependent entities  are also deleted.
 
 To delete a survey:
 1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
@@ -393,6 +386,14 @@ To delete a survey:
 3. Select or open the survey you want to delete.
 4. Select **Delete** from the toolbar at the top of the screen.
 
+> [!Note]
+> The associated survey responses must be deleted before deleting the survey.
+> To delete survey responses:
+> 1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+> 2. Go to **Voice of the Customer** > **Surveys**.
+> 3. Select the name of the survey for which you want to delete survey responses.
+> 4. Select the down arrow next to your survey name at the top of the screen, and then select **Survey Responses**.
+> 5. Select all the survey responses and select **Delete Survey Response** from the toolbar.
 
 ### See also
 [Plan a survey](plan-survey.md)   
