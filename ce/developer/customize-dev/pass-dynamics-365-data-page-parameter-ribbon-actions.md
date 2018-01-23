@@ -58,7 +58,26 @@ You can also specify **CommandProperties** as `<CrmParameter>` value in your rib
 
 ## Form values
 
-With a form ribbon, you can use the `data.entity`.[attributes](../clientapi/reference/attributes.md) collection and the `ui`.[Controls](../clientapi/reference/controls.md) collection to retrieve values for known fields.
+With a form ribbon, you can use the `data.entity`.[attributes](../clientapi/reference/attributes.md) collection and the `ui`.[Controls](../clientapi/reference/controls.md) collection to retrieve and set values for known fields. 
+
+For example, the following sample code shows how to retrieve the account name field on the account form, and then set a value in the websiteurl field based on the account name value:
+
+```JavaScript
+function mySampleFunction(primaryControl) {
+    var executionContext = primaryControl;    
+    var accountName = executionContext.getControl('name').getAttribute().getValue();    
+
+    // Set the WebSiteURL field if account name contains "Contoso"
+    if (accountName.toLowerCase().search("contoso") != -1) {
+        executionContext.getAttribute("websiteurl").setValue("http://www.contoso.com");
+    }
+    else {
+        Xrm.Navigation.openAlertDialog({ text: "Account name does not contain 'Contoso'." });
+    }
+}
+```
+
+
 
 <!--
 However, if you want to pass the value of a selected form field, you’ll have to do more scripting to get the value. You can use the **PrimaryControlId** parameter to get the Id value for the control that has focus when the ribbon control received focus. This Id is the Document Object Model (DOM) Id value. 
