@@ -1,8 +1,8 @@
 ---
-title: "Pass Microsoft Dynamics 365 data from a page as a parameter to Ribbon Actions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Pass Customer Engagement data from a page as a parameter to Ribbon actions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic describes options for using the <CrmParameter> element to retrieve these values. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 01/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,7 +18,7 @@ author: "JimDaly"
 ms.author: "jdaly"
 manager: "amyla"
 ---
-# Pass Microsoft Dynamics 365 data from a page as a parameter to Ribbon Actions
+# Pass Customer Engagement data from a page as a parameter to ribbon actions
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -26,7 +26,7 @@ When you define an action in a ribbon, you frequently have to pass data from the
 
 ## Form and grid context in ribbon actions
 
-To pass in the *form context* or *grid context* information to JavaScript function for your ribbon actions, specify **PrimaryControl** as the `<CrmParameter>` value in your ribbon definition. The passed in PrimaryControl value is used as an argument in your JavaScript function that provides the *form context* or *grid context* depending on where the ribbon command is executed. 
+To pass in the execution context (*form context* or *grid context*) information to JavaScript function for your ribbon actions, specify **PrimaryControl** as the `<CrmParameter>` value in your ribbon definition. The passed in PrimaryControl value is used as an argument in your JavaScript function that provides the *form context* or *grid context* depending on where the ribbon command is executed. 
 
 For example, here is a sample ribbon definition where we pass in the **PrimaryControl** parameter to the JavaScript function:
 
@@ -58,8 +58,9 @@ You can also specify **CommandProperties** as `<CrmParameter>` value in your rib
 
 ## Form values
 
-With a form ribbon, you can use the `data.entity`.[attributes](../clientapi/reference/collections.md) collection and the `ui`.[controls](../clientapi/reference/collections.md) collection to retrieve values for known fields. 
+With a form ribbon, you can use the `data.entity`.[attributes](../clientapi/reference/attributes.md) collection and the `ui`.[Controls (Client API reference)](../clientapi/reference/controls.md) collection to retrieve values for known fields.
 
+<!--
 However, if you want to pass the value of a selected form field, you’ll have to do more scripting to get the value. You can use the **PrimaryControlId** parameter to get the Id value for the control that has focus when the ribbon control received focus. This Id is the Document Object Model (DOM) Id value. 
 
 Here is a sample ribbon definition where we pass in the **PrimaryControlId** parameter:
@@ -85,7 +86,7 @@ function mySampleFunction(primaryControl, primaryControlId) {
     var focusFieldValue = executionContext.ui.controls.get(primaryControlId).getAttribute().getValue();
 }  
 ```
-
+-->
   
 ## Grid values  
  The majority of the values available for the `<CrmParameter>` element are related to working with data displayed in a grid or hierarchy chart. By using the `Value` attribute enumeration options, you can easily isolate items by:  
@@ -118,12 +119,12 @@ function mySampleFunction(primaryControl, primaryControlId) {
   
  
   
-## Client Context information  
+## Other Context information  
  In addition to data values, you can retrieve client context information by using [\<CrmParameter\>](https://msdn.microsoft.com/library/gg309332.aspx).  You can use the following options as the value for the `CrmParameter` element: `OrgName`, `OrgLcid`, and `UserLcid`.
  
  For a `<Url>` action, you can also use the `PassParams` attribute to include contextual information.  
   
- `Value` options `PrimaryEntityTypeName` and `FirstPrimaryItemId` provide information for an entity record. You can use `PrimaryItemIds` for a `HomepageGrid` ribbon to get a list of all the displayed items.
+ The `Value` options `PrimaryEntityTypeName` and `FirstPrimaryItemId` provide information for an entity record. You can use `PrimaryItemIds` for a `HomepageGrid` ribbon to get a list of all the displayed items.
   
 ### See also  
  [Customize the Ribbon for Microsoft Dynamics 365](customize-commands-ribbon.md)   
