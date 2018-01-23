@@ -76,5 +76,4 @@
 ### [Social Engagement FAQ](faq.md)
 ### [Accessibility for Social Engagement](accessibility.md)
 ### [Social Engagement Privacy Notices](privacy-notices.md)
-## [E-books and videos](https://www.microsoft.com/en-us/dynamics/social-engagement-help-and-training/ebooks-and-videos.aspx#social)
 
