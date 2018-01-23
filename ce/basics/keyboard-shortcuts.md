@@ -18,16 +18,18 @@ ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
 Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface.
 
 > [!NOTE]
-> The shortcut keys described in this section refer to the U.S. keyboard layout. Depending on your country/region and layout, you may not have the same keys. 
+> Dynamics 365 apps based on Unified Interface are yet to be tested fully for Accessibility compliance and standards.  
 
 ## Keyboard shortcuts applicable to all Dynamics 365 applications
 
 The keyboard shortcuts in this topic apply to all Dynamics 365 applications. 
 
-
 [Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
+
+> [!NOTE]
+> The shortcut keys described in this section refer to the U.S. keyboard layout. Depending on your country/region and layout, you may not have the same keys. 
 
 Additional shortcut keys for specific apps, are listed below:
 
@@ -107,8 +109,6 @@ If you’re in a record, for example a lead, this section shows you the keyboard
 
 
 ## See also
-
-[Shortcuts for activity feeds](../basics/stay-up-date-with-customer-news-with-activity-feed.md#use-keyboard-shortcuts-in-activity-feeds)
 
 [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 

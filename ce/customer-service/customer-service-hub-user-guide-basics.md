@@ -115,7 +115,7 @@ Any record types that are enabled for mobile are also available for use in the C
     - **Queues** keep a track of cases waiting for you to work on.
     - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
 
-2. Select **Training** to go to **Help Center**, the documentation site. 
+2. Select **Training** to go to the documentation site, known as **Help Center**. 
 3. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
 For a mobile device, the sitemap is displayed as illustrated in the following image:
@@ -252,17 +252,22 @@ The Timeline is available on the **Summary** tab for account, contact, case reco
 <a name="bkmk_RelatedPane"></a>   
 
 ### **Related section**  
-In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record, or search for knowledge articles. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for custom entities that are enabled for interactive experience.
-  
-![reference-panel](media/reference-panel.png)
+In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience.
+
+For example:
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you’re working on. 
+  
+![reference-panel](media/reference-panel.png)
 
 The second tab in the Related section of a case record is the **Knowledge Base search**. Knowledge Base search lets you search for the knowledge articles related to a specific record. It also lets you view automatic suggestions. You can filter the search results to display articles that are Published, Draft, or Approved. For more information, see [Search for Knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles). 
   
 ![knowledge-article-search](media/case-form-search-rp.png)
- 
-The third tab in Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options.
+
+The third tab in the Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options. 
+
+> [!NOTE]
+> You can configure rules that help you view similar cases based on automatic suggestions. These rules can be created using either the Cognitive Services Text Analytics or a built-in similarities matching engine in Dynamics 365. For more information, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create-similar-record-suggestion-rules).
 
 ![similar-cases](media/similar-cases.png)
 
@@ -273,7 +278,7 @@ Similarly,
 - For **Knowledge articles** records, select an article and go to the **Summary** tab to view the **Related Information** panel. Here you can view Related versions, Related translations, Related categories, Related articles, and Related products for an article.
 
 > [!NOTE]
-> Your system administrator or customizer can choose what related data to show in this section for each form.
+> Your system administrator or customizer can choose if Related section should be included in a form or not. They can also decide on what related data should be displayed in the section for each form.
 
 #### Reference Panel reflow
 The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
@@ -309,11 +314,18 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 ![activities-email](media/activities-csh-email.png)
 
+- Select ![quick-create-activity](media/quick-create-button.png) in the nav bar to go to **Activities** to quickly add a new activity.
+
 - Select the **My Activities** drop-down to switch between activity views.
 
 - Select the  **Due** drop-down to see the list of activities that are due in coming time or are already overdue.
-- Explore the command bar options to create a new activity, show a chart, or directly open the activity dashboard. 
-- Select ![quick-create-activity](media/quick-create-button.png) in the nav bar to go to **Activities** to quickly add a new activity.
+
+- Explore the command bar options to create a new activity like new **Task**, **Email**, **Appointment**, or **Phone call**.
+  
+  For example: To create a new email, select **Email** from the command bar.  The New Email activity form is displayed.
+  
+- Select **...** in the command bar and go to **Open Dashboards** to directly open activity dashboard.
+
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
 <a name="bkmk_queues"></a>   

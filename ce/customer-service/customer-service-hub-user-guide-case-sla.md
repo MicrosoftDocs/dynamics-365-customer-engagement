@@ -87,7 +87,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
         > [!NOTE]
         >  By default, a timer for enhanced SLA is already added to your case form. If an enhanced SLA applies to the case you're working on, you will see a timer that shows the countdown to meet the SLA KPIs.    
 
-   - The **Related** tab shows the common associated entities like **Knowledge Base Records**, **Activities**, and **Connections**. 
+   - The **Related** tab shows the common associated entities like **Knowledge Base Records**, **Activities**, **Connections**, and **Work Orders**. 
       
       Select on any one of the common associated entities and they open in a new tab, aligned horizontally.   
 
