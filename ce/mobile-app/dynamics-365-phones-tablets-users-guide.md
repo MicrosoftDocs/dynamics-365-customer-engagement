@@ -495,5 +495,5 @@ Here's how to do it:
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]
 
 ### See Also  
- [What's supported](support-phones-tablets.md)
+ [What's supported](support-phones-tablets.md) </br>
  [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)   
