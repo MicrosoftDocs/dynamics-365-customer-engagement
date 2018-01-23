@@ -24,16 +24,8 @@ There are two types of grids in Customer Engagement:
 <a name="bkmk_gridcontext"></a>
 ## Getting the grid context
 
-Grid context is the grid or subgrid instance on a form against which you want to run your code. You can use the execution context to get the form context, and then use the form context to get the grid context. For example:
+Grid context is the grid or subgrid instance on a form against which you want to run your code. For more information about getting the grid context to execute your JavaScript code, see [Client API grid context](../clientapi-grid-context.md)
 
-```JavaScript
-function doSomething(executionContext) {
-    var formContext = executionContext.getFormContext(); // get the form context
-    var gridContext = formContext.getControl("<Grid_Name>"); // get the grid context
-    gridContext.getEntityName(); // excecute methods using the grid context
-    // perform other operations on grids
-}
-```
 ## Events
 
 |Name|Description|Applicable for|

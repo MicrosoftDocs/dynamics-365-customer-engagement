@@ -1,14 +1,3 @@
----
-title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 01/12/2018
-ms.service: "crm-online"
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
----
-
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
 =========================================================
 
@@ -57,7 +46,7 @@ Transport Layer Security (TLS) Requirements
 -------------------------------------------
 
 Starting with Dynamics 365 (online), version 9.0, connections to Customer
-Engagement applications are required to use TLS 1.2 (or better) security
+Engagement applications are required to use TLS 1.2 (or later) security
 protocols. This aligns with updated Microsoft and industry security policies and
 best practices. To prevent any disruption to your organization, you might be
 required to take actions to maintain the connectivity to Dynamics 365 Customer
@@ -340,7 +329,8 @@ Field controls and mobile application in Unified Interface
 -   The Phone Call activity quick-create form isn't opened when the call action
     is initiated on the mobile app.
 
--   Date fields can't be set in Internet Explorer 11, Firefox, or Edge.
+-   Date fields can't be set in Internet Explorer 11, Firefox, or Microsoft
+    Edge.
 
 -   The date-time control uses browser locale as opposed to user locale for
     editing.
