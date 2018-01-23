@@ -2,7 +2,7 @@
 title: "Walkthrough: Register a plug-in using the plug-in registration tool (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This article tells how to register a plug-in by using the Plug-in Registration tool that is provided in the SDK."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 01/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -61,7 +61,7 @@ The application’s main window
   
 3.  In the **Register New Assembly** dialog box, click the ellipses [**…**] button to the right of the **Step#1** field.  
   
-4.  In the **Open** dialog box, navigate to the location of the compiled SamplePlugin.dll assembly. The default location is SDK\SampleCode\CS\Plug-ins\bin\Debug. Select the assembly, and then click **Open**.  
+4.  In the **Open** dialog box, navigate to the location of the compiled SamplePlugin.dll assembly. You will find this assembly in the [Sample directory]/bin/Debug folder once you have run the sample [Work with Plug-ins](https://code.msdn.microsoft.com/Sample-Create-a-basic-plug-64d86ade). Select the assembly, and then click **Open**.  
   
 5.  In the **Step#2** section, expand the **SamplePlugins** assembly to view all plug-ins in that assembly. Select (check) only the **Microsoft.Crm.Sdk.Samples.FollowupPlugin** plug-in.  
   

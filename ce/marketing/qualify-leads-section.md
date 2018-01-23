@@ -4,6 +4,7 @@ description: "How to generate, collect information about, and qualify leads in D
 keywords: "leads; score; qualify; redirect URL; LinkedIn; sales ready"
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)
