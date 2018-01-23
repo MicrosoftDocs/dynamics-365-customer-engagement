@@ -378,7 +378,7 @@ We recommend that when you create a survey you specify a redirect URL to display
 
 ## Delete a survey
 
-You can delete a survey if it is not required anymore. When a survey is deleted, all its dependent entities  are also deleted.
+You can delete a survey if it is not required anymore. When a survey is deleted, all its dependent entities are also deleted.
 
 To delete a survey:
 1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
