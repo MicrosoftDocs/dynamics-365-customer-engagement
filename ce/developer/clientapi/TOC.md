@@ -193,6 +193,7 @@
 ##### [getEntityName](reference/formContext-data-process/stage/getEntityName.md)
 ##### [getId](reference/formContext-data-process/stage/getId.md)
 ##### [getName](reference/formContext-data-process/stage/getName.md)
+##### [getNavigationBehavior](reference/formContext-data-process/stage/getNavigationBehavior.md)
 ##### [getStatus](reference/formContext-data-process/stage/getStatus.md)
 ##### [getSteps](reference/formContext-data-process/stage/getSteps.md)
 
