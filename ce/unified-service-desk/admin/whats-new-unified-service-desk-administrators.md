@@ -33,19 +33,16 @@ Internet Explorer pooling creates a dynamic pool of Internet Explorer process in
 
 By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the **InternetExplorerPooling** option on the **Active UII Options** page and set it to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance enhancement of CRM entity page loading and faster inline navigation](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loading-faster-inline-navigation.md).
 
-### Recover an Internet Explorer process instance
+### [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps to recover an Internet Explorer process instance
 
-With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can recover an Internet Explorer process instance in the following scenarios:
+With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help you to recover an Internet Explorer process instance in the following scenarios:
 
 - When Internet Explorer closes abruptly.
-
-- When an Internet Explorer webpage is unresponsive.
 
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
 
 - When a script on the hosted control that uses an `IE process` browser control takes time more than the timeout period for page navigation.
 
-- When you use a keyboard shortcut to manually terminate an Internet Explorer webpage.
 
 Internet Explorer process (IEWebPageRecovery) recovery enables you to recover any Internet Explorer process instance (which may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application.
 
