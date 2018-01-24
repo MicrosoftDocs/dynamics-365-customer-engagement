@@ -2,7 +2,7 @@
 title: "Acquire data from Facebook pages with Social Engagement | Microsoft Docs"
 description: "Learn how the data acquisition for posts from Facebook pages works in Social Engagement."
 keywords: "facebook pages, interaction token, data acquisition, unknown author"
-ms.date: 01/10/2018
+ms.date: 01/23/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -26,7 +26,7 @@ Currently all you need is an [active acquisition token](manage-access-tokens.md#
 
 ## How will it work starting February 6, 2018?
 
-You will still need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user token to acquire any data from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)]. In addition, you’ll also need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page access token to pull the author information for posts on that page. All posts on pages that you haven’t added to [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will appear without author information starting February 6, 2018. However, the content of all posts and comments as well as enrichments, such as sentiment, are continuing to be available.
+Your solution still needs an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user token to acquire any data from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)]. In addition, you’ll also need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page access token to pull the author information for posts on that page. All posts on pages that you haven’t added to [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] will appear without author information starting February 6, 2018. However, the content of all posts and comments as well as enrichments, such as sentiment, are continuing to be available.
 
 
 > [!TIP]
@@ -34,7 +34,7 @@ You will still need an active [!INCLUDE[tn-facebook](../includes/tn-facebook.md)
 
 ## How do I continue to get author information?
 
-1. Allow interactions for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages by authenticating a social profile for every page your organization owns.    
+1. A page admin needs to allow interactions for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages by authenticating a social profile for every page your organization owns. Only one admin needs to authenticate the profile to enable all users of the solution to see the author information.      
    ![Valid interaction token for a Facebook page in Social Engagement](media/allow-interactions.png "Valid interaction token for a Facebook page in Social Engagement")
  
 2. Make sure at least one social profile for a [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] user is added to your solution to keep the data acquisition running.   
