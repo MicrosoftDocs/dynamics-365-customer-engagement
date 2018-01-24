@@ -26,7 +26,7 @@ With this release of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unifie
 
 > [!Note]
 > - The Internet Explorer pooling feature supports only CRM page hosted control.
-> - When you enable the pooling feature and open a CRM page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a pool of Internet Explorer instances for hosted controls to use. 
+> - When you enable the pooling feature and open a CRM page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a number of Internet Explorer instances for hosted controls to use. 
 > - The performance of the Internet Explorer pooling feature is dependent on the resources available on the client computer.
 
 ## Enable Internet Explorer pooling
