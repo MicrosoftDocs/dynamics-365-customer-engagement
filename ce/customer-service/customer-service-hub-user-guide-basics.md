@@ -273,8 +273,8 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 Similarly,
 
-- For **Account** records, you can view Contacts, Recent Opportunities, Recent Cases, and Entitlements in the Related section.
-- For **Contact** records, the Related section displays Recent Opportunities, Recent Cases, and Entitlements. 
+- For **Accounts** records, you can view Contacts, Recent Opportunities, Recent Cases, and Entitlements in the Related section.
+- For **Contacts** records, the Related section displays Recent Opportunities, Recent Cases, and Entitlements. 
 - For **Knowledge articles** records, select an article and go to the **Summary** tab to view the **Related Information** panel. Here you can view Related versions, Related translations, Related categories, Related articles, and Related products for an article.
 
 > [!NOTE]
