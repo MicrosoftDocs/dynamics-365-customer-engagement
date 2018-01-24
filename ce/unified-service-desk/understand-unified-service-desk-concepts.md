@@ -41,9 +41,9 @@ A system administrator must configure the option on **Active UII Options** page 
 
 To change the **TotalRecordCountLimit** timeout value:
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
 
-2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 
 3. Choose **Options**.  
 
@@ -56,6 +56,8 @@ To change the **TotalRecordCountLimit** timeout value:
 7. Type **5000** for the **Value** field.
 
 8. Click **Save**.
+
+![Configure TotalRecordCountLimit](../unified-service-desk/media/crm-itpro-usd-total-record-count-limit.PNG "Configure TotalRecordCountLimit")
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
