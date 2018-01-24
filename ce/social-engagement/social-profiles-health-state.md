@@ -1,8 +1,8 @@
 ---
-title: "Check the health state of your social profiles in Scial Engagement | Microsoft Docs"
+title: "Check the health state of your social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to keep the tokens of your social profiles in a healthy state."
 keywords: "token, health state"
-ms.date: 11/15/2017
+ms.date: 01/04/2018
 ms.service: mse
 ms.topic: article
 applies_to:

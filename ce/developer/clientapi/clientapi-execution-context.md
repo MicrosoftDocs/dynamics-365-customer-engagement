@@ -28,7 +28,7 @@ The execution context object provides a number of methods to further work with t
 
 ### Related topics
 
-[Client API form context](clientapi-form-context.md) 
-
-[Client API grid context](clientapi-grid-context.md)
+ [Client API form context](clientapi-form-context.md)<br>
+ [Client API grid context](clientapi-grid-context.md)<br>
+ [Form and grid context in ribbon actions](../customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md#form-and-grid-context-in-ribbon-actions)
 

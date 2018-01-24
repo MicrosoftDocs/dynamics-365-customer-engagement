@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 01/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -490,6 +490,10 @@ Here's how to do it:
 ## Privacy notices  
 [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]
   
-[!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)]
+<!-- [!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)] -->
   
 [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]
+
+### See Also  
+ [What's supported](support-phones-tablets.md) </br>
+ [Troubleshooting](troubleshooting-things-know-about-phones-tablets.md)   
