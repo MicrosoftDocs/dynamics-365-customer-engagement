@@ -2,7 +2,7 @@
 title: "Videos & e-books | Microsoft Docs"
 description: "Collection of videos and e-books for Microsoft Social Engagement"
 keywords: "e-book, video"
-ms.date: 01/23/2018
+ms.date: 01/24/2018
 ms.service: mse
 ms.topic: article
 applies_to:
