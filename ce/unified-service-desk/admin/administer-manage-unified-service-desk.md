@@ -36,6 +36,8 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
  [Migrate your Unified Service Desk configuration to another Dynamics 365 server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
 
  [Performance enhancement of CRM entity page loading and faster inline navigation](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loading-faster-inline-navigation.md)
+
+ [Recover Internet Explorer process instance](../admin/recover-internet-explorer-process-instance.md)
     
  
 ## See also  
@@ -43,4 +45,4 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
  
 [Configure your agent application using Unified Service Desk](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
- [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
+[Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
