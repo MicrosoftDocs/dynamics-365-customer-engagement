@@ -27,11 +27,11 @@ This topic contains information about changes in [!INCLUDE[pn_unified_service_de
 
 ### Performance enhancements: Internet Explorer Pooling
 
-In [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can experience enhanced performance with Internet Explorer pooling.
+In [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], you can experience enhanced performance of CRM entity page loading and faster inline navigation in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature.
 
 Internet Explorer pooling creates a dynamic pool of Internet Explorer process instances whenever you open a hosted control (entity type) in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. The hosted control that you are opening uses an Internet Explorer instance from the pool to perform inline navigation. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for the hosted controls to use.
 
-By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the **InternetExplorerPooling** option on the **Active UII Options** page and set it to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Pool Internet Explorer process instance](../../unified-service-desk/admin/pool-internet-explorer-process-instance.md).
+By default, Internet Explorer pooling is disabled. To enable pooling, a System Administrator must configure the **InternetExplorerPooling** option on the **Active UII Options** page and set it to **true**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance enhancement of CRM entity page loading and faster inline navigation](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loading-faster-inline-navigation.md).
 
 ### Recover an Internet Explorer process instance
 

@@ -35,7 +35,7 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
   
  [Migrate your Unified Service Desk configuration to another Dynamics 365 server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
 
- [Pool Internet Explorer process instance](../../unified-service-desk/admin/pool-internet-explorer-process-instance.md)
+ [Performance enhancement of CRM entity page loading and faster inline navigation](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loading-faster-inline-navigation.md)
     
  
 ## See also  

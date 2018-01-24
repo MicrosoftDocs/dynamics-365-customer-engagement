@@ -50,7 +50,7 @@
 ## [Migrate your Unified Service Desk configuration to another Customer Engagement instance](admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
 ### [Import Unified Service Desk configuration data](admin/import-unified-service-desk-configuration-data.md)
 ### [Export Unified Service Desk configuration data](admin/export-unified-service-desk-configuration-data.md)
-## [Pool Internet Explorer process instance](admin/pool-internet-explorer-process-instance.md)
+## [Performance enhancement of CRM entity page loading and faster inline navigation](admin/performance-enhancement-CRM-entity-page-loading-faster-inline-navigation.md)
 ## [Recover Internet Explorer process instance](admin/recover-internet-explorer-process-instance.md)
 # [Configure your agent application using Unified Service Desk](configure-agent-application-unified-service-desk.md)
 ## [Learn to use Unified Service Desk](learn-to-use-unified-service-desk.md)
