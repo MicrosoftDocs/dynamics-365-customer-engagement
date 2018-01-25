@@ -35,14 +35,15 @@ By default, Internet Explorer pooling is disabled. To enable pooling, a System A
 
 ### [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] helps to recover an Internet Explorer process instance
 
-With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover an Internet Explorer process instance in the following scenarios:
+With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] 
+
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the webpages in the following scenarios:
 
 - When Internet Explorer closes abruptly.
 
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
 
-- When a script on the hosted control that uses an `IE process` browser control takes time more than the timeout period for page navigation.
-
+- When a script on the hosted control that uses an `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](../admin/recover-internet-explorer-process-instance.md#Change-iewebpageinactivitytimeout-option)) for page navigation.
 
 Internet Explorer process recovery enables you to recover any Internet Explorer process instance (which may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application.
 
@@ -52,9 +53,9 @@ By default, Internet Explorer process instance recovery is enabled. To disable r
 
 #### Collect performance data using keyboard shortcut 
 
-Using keyboard shortcuts, agents can start and stop collecting data about operational events, errors, and performance in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. You can collect data in log files, which can be used to identify and troubleshoot performance issues or errors. If you encounter a technical issue that is related to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance, Customer Support Service personal may ask you to send the log file to help troubleshoot the issue. 
+Using keyboard shortcuts, agents can start and stop collecting data about operational events in a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application. You can collect data in log files, which can be used to identify and troubleshoot performance issues. If you encounter performance issues, customer support may ask you to collect the performance data and send the log file to help troubleshoot the issue.
 
-When agents start collecting the performance data using keyboard shortcut, the log files are maintained with a unique performance session ID (GUID) on the client computer.
+When agents start collecting the performance data using keyboard shortcut, the log files are generated with a unique performance session ID (GUID) on the client computer.
 
 Agents working on the client computer can use **Ctrl+Alt+Q** to start and **Ctrl+Alt+P** to stop collecting the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data. To change the default keyboard shortcut, a System Administrator must configure the new keyboard shortcut to start and stop collecting performance data. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance data collection](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md).
 

@@ -20,7 +20,7 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Recover an Internet Explorer process instance
-[!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+Starting with [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Internet Explorer process instance recovery is enabled. To disable the feature, a system administrator must configure the `IEWebPageRecovery` option on the **Active UII Options** page, and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
 
@@ -45,11 +45,11 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 <a name="BKMK_When_Unified_Service_Desk_can_help_recover_the_Internet_Explorer_process_instances"></a>
 ## When [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help recover Internet Explorer process instances
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help recover an Internet Explorer process instance in the following scenarios:
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover an Internet Explorer process instance in the following scenarios:
 
 - When Internet Explorer closes abruptly.
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
-- When a script on the hosted control that uses `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](#Change-IEWebPageInactivityTimeOut-option)) for page navigation.
+- When a script on the hosted control that uses `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](#Change-iewebpageinactivitytimeout-option)) for page navigation.
 
 <a name="BKMK_recover_unresponsive_Internet_Explorer_process_instance"></a>
 ## Recover an unresponsive Internet Explorer process instance
@@ -67,7 +67,7 @@ If you do not want to recover, select **Cancel**. If you cancel, the [!INCLUDE[p
 <a name="BKMK_recover_when_using_RunScript_on_a_hosted_control"></a>
 ## Recover when script executed on the webpage causes the webpage to run slowly
 
-If a script running on a Internet Explorer causes the Internet Explorer webpage to run slowly, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period ([IEWebPageInactivityTimeOut](#Change-IEWebPageInactivityTimeOut-option)) to display the message - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**.
+If a script running on a Internet Explorer causes the Internet Explorer webpage to run slowly, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period ([IEWebPageInactivityTimeOut](#Change-iewebpageinactivitytimeout-option)) to display the message - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**.
 
 To recover the webpage, select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL.
 
