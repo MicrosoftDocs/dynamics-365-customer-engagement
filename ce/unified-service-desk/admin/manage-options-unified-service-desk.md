@@ -64,7 +64,7 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
     |`TotalRecordCountLimit`|This is the total number of records that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application loads for any [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] entities that you have configured and deployed in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. The default value is 5000.<br>[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure Unified Service Desk entities](../understand-unified-service-desk-concepts.md)</br>**Note:** <br> **1.** This value must be equal to the value in MSCRM\_CONFIG database.<br>**2.** You must not change the default value unless the MSCRM\_CONFIG database administrator changes the value.|
     |**Others**|This option allows you to type one of the global options listed in this table that does not appear in the **Global Options** list.|
   
-6.  Click **Save**.  
+6.  Click **Save**.
   
 > [!NOTE]
 >  Apart from these, the **Options** setting is also used to configure auditing and client caching in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure auditing and diagnostics in Unified Service Desk](../../unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk.md) and [Configure client caching in Unified Service Desk](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)
