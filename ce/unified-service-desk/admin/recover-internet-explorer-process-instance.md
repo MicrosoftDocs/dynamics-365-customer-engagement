@@ -20,9 +20,27 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Recover an Internet Explorer process instance
-With this release of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], agents recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+With this release, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Internet Explorer process instance recovery is enabled. To disable the feature, a system administrator must configure the `IEWebPageRecovery` option on the **Active UII Options** page, and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
+
+### Disable IEWebPageRecovery option
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+
+3. Choose **Options**.  
+
+4. click **New** on the **Active UII Options** page.
+
+5. Choose **Others** for the **Global Option** field.
+
+6. Type **IEWebPageRecovery** for the **Name** field.
+
+7. Type **false** for the **Value** field.
+
+8. Click **Save**.
 
 <a name="BKMK_When_Unified_Service_Desk_can_help_recover_the_Internet_Explorer_process_instances"></a>
 ## When [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help recover Internet Explorer process instances
@@ -107,7 +125,7 @@ The [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md
 
 ![Keyboard shortcut to terminate and not to recover Internet Explorer webpage](../../unified-service-desk/media/usd-ie-terminate-shortcutkey.PNG "Keyboard shortcut to terminate and not to recover Internet Explorer webpage")
 
-Select **Yes** to end the Internet Explorer process instance. Select **No** to cancel the operation.
+Select **Yes** to terminate the Internet Explorer process instance. Select **No** to cancel the operation.
 
 After you end the Internet Explorer process instance, the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application displays a message, **Internet Explorer closed abruptly**. Select **Reload** to recover the closed Internet Explorer process instance. If you do not want to recover, select **Cancel**.
 
@@ -145,19 +163,19 @@ To change the keyboard shortcut:
 
 - When you recover an Internet Explorer webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers again all the events that associate with the webpage. </br>
 For example: </br> **TaskUpdated** is a event configured for the **Agent Scripting** hosted control (webpage) and has **Action Call for Reminder** and **Action Call for Resolve Case** as Action Calls. 
-If you recover **Agent Scripting** webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers again the **TaskUpdated** event and the **Action Calls**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Events](../events.md).
+If you recover **Agent Scripting** webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] triggers again the **TaskUpdated** event and the **Action Calls**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Events](../events.md)
 
-- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover inline navigation of an Internet Explorer webpage, and you may lose an unsaved work. </br>
+- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover inline navigation of an Internet Explorer webpage.</br>
 For example: </br>
   You open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage and not the **Case** webpage.
 
-- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover an unsaved work. </br>
+- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not recover unsaved work. </br>
 For example: </br>
-  You open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage, and entering details on the **case** webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage and not the **Case** webpage. You may lose any unsaved data that you had entered in the **Case** webpage.
+  You open an **Account** Internet Explorer webpage and navigate inline to a **Case** Internet Explorer webpage, and enter details on the **case** webpage. If the **Case** webpage becomes unresponsive, the recovery feature reloads only the **Account** webpage and not the **Case** webpage. You may lose any unsaved data that you had entered in the **Case** webpage.
 
 - If the web browser runs slowly while executing a script, and you choose **Stop** to terminate and not to recover the Internet Explorer webpage, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] may terminate other Internet Explorer webpages.
 
-- Using **Ctrl+Alt+K** keyboard shortcut may terminate any responsive Internet Explorer webpage, causing you to lose any unsaved work.
+- Using **Ctrl+Alt+K** keyboard shortcut may terminate other Internet Explorer webpage, causing you to lose any unsaved work.
 
 ## See also
 
