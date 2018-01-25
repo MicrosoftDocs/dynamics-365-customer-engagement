@@ -65,7 +65,7 @@ If you experience performance issues when starting [!INCLUDE[pn_unified_service_
 
 ### System administrator configurable UII options
 
-With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], new UII options are introduced that a system administrator can configure. 
+With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], new UII options are introduced that a system administrator can configure on the **Active UII Options** page. 
 
 New UII options introduced in [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]:
 
