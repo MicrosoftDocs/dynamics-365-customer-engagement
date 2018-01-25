@@ -23,16 +23,16 @@ manager: "sakudes"
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] performance data collection enables you to collect data about operational events in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application to log files, which is used to identify and troubleshoot performance issues.
 
 > [!Note]
-> If you encounter performance issues with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], customer support may ask you collect the performance data send the log file to help troubleshoot the issue.
+> If you encounter performance issues with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], customer support may ask you to collect the performance data and send the log file to help troubleshoot the issue.
 
-When you start collecting performance data, log files are maintained with a unique performance session ID (GUID) on the client computer. 
+When you start collecting performance data, log files are generated with a unique performance session ID (GUID) on the client computer. 
 
-The path where the log files are maintained on the client computer:
+The default path where the log files are maintained on the client computer:
 
 ```%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\USDPerformanceData_<hhmmssfff>_<yyyy-mm-dd>```
 
 > [!Note]
-> Each time you start and stop collecting performance data, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a new file with a performance session ID, which it maintains on the client computer.
+> Each time you start collecting performance data, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a new file with a performance session ID, which it maintains on the client computer.
 
 
 <a name="BKMK_Configure_performance_data_collection_keyboard_shortcut"></a>

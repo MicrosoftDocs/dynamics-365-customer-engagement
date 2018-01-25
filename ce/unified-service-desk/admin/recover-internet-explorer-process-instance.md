@@ -20,7 +20,7 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Recover an Internet Explorer process instance
-With this release, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+[!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can help agents to recover the terminated (crashed) webpages hosted in Internet Explorer process in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 By default, Internet Explorer process instance recovery is enabled. To disable the feature, a system administrator must configure the `IEWebPageRecovery` option on the **Active UII Options** page, and set it to **false**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage a Unified Service Desk option](../admin/manage-options-unified-service-desk.md)
 
@@ -49,7 +49,7 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 - When Internet Explorer closes abruptly.
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
-- When a script on the hosted control that uses `IE process` browser control takes time more than the timeout period for page navigation.
+- When a script on the hosted control that uses `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](#Change-IEWebPageInactivityTimeOut-option)) for page navigation.
 
 <a name="BKMK_recover_unresponsive_Internet_Explorer_process_instance"></a>
 ## Recover an unresponsive Internet Explorer process instance
@@ -67,7 +67,7 @@ If you do not want to recover, select **Cancel**. If you cancel, the [!INCLUDE[p
 <a name="BKMK_recover_when_using_RunScript_on_a_hosted_control"></a>
 ## Recover when script executed on the webpage causes the webpage to run slowly
 
-If a script running on a Internet Explorer causes the Internet Explorer webpage to run slowly, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period to display the message - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**.
+If a script running on a Internet Explorer causes the Internet Explorer webpage to run slowly, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period ([IEWebPageInactivityTimeOut](#Change-IEWebPageInactivityTimeOut-option)) to display the message - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**.
 
 To recover the webpage, select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL.
 
@@ -83,6 +83,11 @@ The following list shows the options and descriptions to select when you see the
 |Continue|Waits until the Internet Explorer webpage to respond. If the webpage does not respond, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the window again after the timeout period.| 
 
 ![Script causing Internet Explorer webpage to run slowly](../../unified-service-desk/media/usd-ie-runscript.PNG "Script causing Internet Explorer webpage to run slowly")
+
+> [!Note]
+> If there are other webpages that are unresponsive, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the message - **Internet Explorer closed abruptly.** <br><br>
+Select **Reload** to recover the webpage to the last known URL. Or, select **Cancel** to not to recover the webpage.
+> ![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly.PNG "Internet Explorer closed abruptly")
 
 ### Change IEWebPageInactivityTimeOut option
 
@@ -109,13 +114,7 @@ To change the **IEWebPageInactivityTimeOut** timeout value:
 7. Type the value in milliseconds for the **Value** field.
 
 8. Click **Save**.
-
-> [!Note]
-> If there are other webpages that are unresponsive, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] displays the message - **Internet Explorer closed abruptly.** <br><br>
-Select **Reload** to recover the webpage to the last known URL. Or, select **Cancel** to not to recover the webpage.
-> ![Internet Explorer closed abruptly](../../unified-service-desk/media/usd-ie-closed-abruptly.PNG "Internet Explorer closed abruptly")
  
-
 <a name="Terminate_recover_unresponsive_Internet_Explorer_process_instance using_keyboard_shortcut"></a>
 ## Terminate and recover unresponsive Internet Explorer process instances using a keyboard shortcut
 

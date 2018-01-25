@@ -1,5 +1,5 @@
 ---
-title: "Performance enhancement of CRM entity page loading and faster inline navigation | MicrosoftDocs"
+title: "Performance enhancement for CRM entity page loads | MicrosoftDocs"
 description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
 ms.custom: ""
 ms.date: 01/25/2018
@@ -19,13 +19,13 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Performance enhancement of CRM entity page loading and faster inline navigation
-With this release of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you can experience enhanced performance of CRM entity page loading and faster inline navigation in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
+# Performance enhancement for CRM entity page loads
+With this release of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you can experience enhanced performance of CRM entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the Internet Explorer Pooling feature. 
   
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control using a pooled Internet Explorer instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
 > [!Note]
-> - The Internet Explorer pooling feature supports only CRM page hosted control.
+> - The Internet Explorer pooling feature supports only CRM entity pages hosted in CRM page hosted control.
 > - When you enable the pooling feature and open a CRM page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a number of Internet Explorer process instances for hosted controls to use. 
 > - The performance of the Internet Explorer pooling feature is dependent on the resources available on the client computer.
 
