@@ -40,7 +40,7 @@ You can change the default path of the log files from the application configurat
 
 The default XML node in tha application configuration file:
 
-`<\add name="RollingPerfTraceListener" type="Microsoft.Crm.UnifiedServiceDesk.Dynamics.Utilities.Performance.RollingPerfTraceListener, Microsoft.Crm.UnifiedServiceDesk.Dynamics" BaseFileName="USDPerformanceData" Location="LocalUserApplicationDirectory" MaxFileSize ="52428800" MaxFileCount="10"/>`
+`<add name="RollingPerfTraceListener" type="Microsoft.Crm.UnifiedServiceDesk.Dynamics.Utilities.Performance.RollingPerfTraceListener, Microsoft.Crm.UnifiedServiceDesk.Dynamics" BaseFileName="USDPerformanceData" Location="LocalUserApplicationDirectory" MaxFileSize ="52428800" MaxFileCount="10"/>`
 
 Example of setting new path in the application configuration file:
 
