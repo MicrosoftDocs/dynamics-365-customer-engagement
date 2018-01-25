@@ -34,12 +34,14 @@ Use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pro
 > If you are on [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] or lower versions, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads a maximum of 5000 records for any [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities that you have configured and deployed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.<br><br>
 Example: You have configured 5105 answer records in **Agent Scripts** entity type. When you want to view these answer records, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads a maximum of 5000 record answers. The client application does not load the remaining 105 answer records even though you have configured answer records. 
 
-Starting [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)], `TotalRecordCountLimit` is introduced for system administrator to configure the total number of records that
-[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application to load for any [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities that you have configured and deployed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. The default value is 5000.
+`TotalRecordCountLimit` is a UII option introduced in [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]. This value is for [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to determine the batch size while fetching entity records from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. The default value of the `TotalRecordCountLimit` in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] and in MSCRM\_CONFIG database is 5000. The `TotalRecordCountLimit` value must be always same as the value in MSCRM\_CONFIG database. You can change the default value in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] only when CRM server administrator modifies the value in MSCRM\_CONFIG database.
 
 > [!Note]
+> - It is highly recommended that you do not change the default `TotalRecordCountLimit` value in UII option of Unified Service Desk unless there is a change of value in MSCRM_CONFIG database.
 > - `TotalRecordCountLimit` value must be equal to the value in MSCRM\_CONFIG database.
-> - You must not change the default value unless the MSCRM\_CONFIG database administrator changes the value.
+
+> [!Warning]
+> If you change the default UII option value to any value other than MSCRM\_CONFIG database value, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application may not fetch the actual entity records.
 
 A system administrator must configure the option on **Active UII Options** page and set the value.
 
