@@ -75,7 +75,7 @@ New UII options introduced in [!INCLUDE [pn-unified-service-desk-3-2](../../incl
 4. InternetExplorerPooling
 5. TotalRecordCountLimit
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
 
 <a name="NewIn310"></a>  
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
