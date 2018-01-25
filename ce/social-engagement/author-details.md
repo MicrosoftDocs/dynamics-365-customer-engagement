@@ -28,7 +28,7 @@ To see author details in the Authors widget, go to **Analytics**, and in the aut
 ## Author details  
 The author name, user name, profile picture, location, website, and bio is displayed at the top of the panel if it is provided by the author. (The author must have been active in the last 30 days.) The following list includes the details that are provided.  
  
-![Image of the author details view.](media/author-details.png "Image of the author details view.")
+![Image of the author details view](media/author-details.png "Image of the author details view")
  
 1. **Reach**: The influencer score of the author.  
   
