@@ -31,8 +31,34 @@ The default path where the log files are maintained on the client computer:
 
 ```%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<version>\USDPerformanceData_<hhmmssfff>_<yyyy-mm-dd>```
 
+You can change the default path of the log files from the application configuration file. In the XML node of the application configuration file, change the value of the following attributes. 
+
+|Attribute|Default Value|New Value|
+|:------|:------|:------|
+|**Location**|**LocalUserApplicationDirectory**|**Custom**|
+|**CustomLocation**|**-**|**<\New folder path in client computer>**<br> Example: C:\UnifiedServiceDesk\Logs|
+
+The default XML node in tha application configuration file:
+
+```
+<\add name="RollingPerfTraceListener" type="Microsoft.Crm.UnifiedServiceDesk.Dynamics.Utilities.Performance.RollingPerfTraceListener, Microsoft.Crm.UnifiedServiceDesk.Dynamics" BaseFileName="USDPerformanceData"                  Location="LocalUserApplicationDirectory" MaxFileSize ="52428800" MaxFileCount="10"/>
+```
+Example of setting new path in the application configuration file:
+
+```
+<add name="RollingPerfTraceListener" type="Microsoft.Uii.Common.Performance.RollingPerfTraceListener, Microsoft.Uii.Common" BaseFileName="USDPerformanceData" Location="Custom" CustomLocation="C:\UnifiedServiceDesk\Logs" MaxFileSize ="52428800" MaxFileCount="10"/>
+```
+**MaxFileSize** is the size (in bytes) of each performance log file maintained at the default or configured path in the client computer. When the **MaxFileSize** size is limit attained, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] generates a new file in the deafult or configured path.
+
+Example: You configure **MaxFileSize="52000000"**. When the file size of the performance log file attains 52000000 bytes (52 MB), a new performance log file is generated in the default or configure path.
+
+**MaxFileCount** is the number of files that are maintained in the default or configured path in the client computer. When the **MaxFileCount** number is attained, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] deletes the oldest performance log file to generate the new performance log file in the default or configured path.
+
+Example: You configure **MaxFileCount="10"** and generate 10 performance log files in the deafult or configured path. To generate another new performance log file, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] deletes the oldest performance log file and generates the new perofrmance log file. At all times, the number of performance files generated cannot exceed the **MaxFileCount**.
+
+
 > [!Note]
-> Each time you start collecting performance data, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a new file with a performance session ID, which it maintains on the client computer.
+> Each time you start collecting performance data, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a new file with a performance session ID, which it maintains on the client computer.<br><br>
 
 
 <a name="BKMK_Configure_performance_data_collection_keyboard_shortcut"></a>
