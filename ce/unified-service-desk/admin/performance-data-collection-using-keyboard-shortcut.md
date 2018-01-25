@@ -60,8 +60,8 @@ To configure a new performance data collection keyboard shortcut:
 
 7. Click **Save & Close**.
 
-<a name="BKMK_performance_data_collection_using_keyboard_shortcut"></a>
-## Performance data collection using a keyboard shortcut
+<a name="BKMK_collect_performance_data_using_keyboard_shortcut"></a>
+## Collect performance data using a keyboard shortcut
 
 
 ### Start performance data collection using a keyboard shortcut
