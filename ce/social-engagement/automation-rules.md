@@ -32,7 +32,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
 ## Elements of an automation rule  
 For each automation rule, there are several navigation elements and values to define. The following screenshot  shows more about what an automation rule consists of.  
   
-![Elements of an automation rule in Social Engagement.](media/automation-rules-callout.png "Elements of an automation rule in Social Engagement.")  
+![Elements of an automation rule in Social Engagement](media/automation-rules-callout.png "Elements of an automation rule in Social Engagement")  
   
 1.  Button to create new automation rules.  
   
