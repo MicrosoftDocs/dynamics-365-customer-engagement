@@ -63,6 +63,20 @@ Agents working on the client computer can use **Ctrl+Alt+Q** to start and **Ctrl
 
 If you experience performance issues when starting [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you can manually modify the application configuration file (UnifiedServiceDesk.exe.config) to start collecting the performance data to log files. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Performance data collection](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md).
 
+### System administrator configurable UII options
+
+With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], new UII options are introduced that a system administrator can configure. 
+
+New UII options introduced in [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]:
+
+1. IEWebPageRecovery
+2. IEWebPageInactivityTimeOut
+3. On-DemandIETerminationShortcut
+4. InternetExplorerPooling
+5. TotalRecordCountLimit
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](../admin/manage-options-unified-service-desk.md)
+
 <a name="NewIn310"></a>  
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]
 
