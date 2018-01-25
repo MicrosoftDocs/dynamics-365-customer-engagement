@@ -30,11 +30,11 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_3_2"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)], January 2018
-For information about this release see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md).
+For information about this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md).
 
 <a name="Release_3_1"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)], November 2017
-For information about this release see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md).
+For information about this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md).
  
 <a name="Release_3_0"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)], August 2017  
