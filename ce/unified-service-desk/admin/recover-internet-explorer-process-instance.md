@@ -49,7 +49,7 @@ By default, Internet Explorer process instance recovery is enabled. To disable t
 
 - When Internet Explorer closes abruptly.
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
-- When a script on the hosted control that uses `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](#Change-iewebpageinactivitytimeout-option)) for page navigation.
+- When a script on the hosted control that uses `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](#change-iewebpageinactivitytimeout-option)) for page navigation.
 
 <a name="BKMK_recover_unresponsive_Internet_Explorer_process_instance"></a>
 ## Recover an unresponsive Internet Explorer process instance
@@ -67,7 +67,7 @@ If you do not want to recover, select **Cancel**. If you cancel, the [!INCLUDE[p
 <a name="BKMK_recover_when_using_RunScript_on_a_hosted_control"></a>
 ## Recover when script executed on the webpage causes the webpage to run slowly
 
-If a script running on a Internet Explorer causes the Internet Explorer webpage to run slowly, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period ([IEWebPageInactivityTimeOut](#Change-iewebpageinactivitytimeout-option)) to display the message - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**.
+If a script running on a Internet Explorer causes the Internet Explorer webpage to run slowly, then [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] waits until the timeout period ([IEWebPageInactivityTimeOut](#change-iewebpageinactivitytimeout-option)) to display the message - **A script on \<Hosted Control Name> is causing the Internet Explorer webpage to run slowly**.
 
 To recover the webpage, select **Reload**. After you select **Reload**, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] reloads the webpage to the last known URL.
 

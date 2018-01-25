@@ -43,7 +43,7 @@ With [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-d
 
 - When you manually end an unresponsive Internet Explorer process instance from Task Manager.
 
-- When a script on the hosted control that uses an `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](../admin/recover-internet-explorer-process-instance.md#Change-iewebpageinactivitytimeout-option)) for page navigation.
+- When a script on the hosted control that uses an `IE process` browser control takes time more than the timeout period ([IEWebPageInactivityTimeOut](../admin/recover-internet-explorer-process-instance.md#change-iewebpageinactivitytimeout-option)) for page navigation.
 
 Internet Explorer process recovery enables you to recover any Internet Explorer process instance (which may have more than one webpage) that is unresponsive in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application.
 
