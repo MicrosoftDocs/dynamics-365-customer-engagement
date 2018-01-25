@@ -34,7 +34,7 @@ Use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[pro
 > If you are on [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] or lower versions, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads a maximum of 5000 records for any [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities that you have configured and deployed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.<br><br>
 Example: You have configured 5105 answer records in **Agent Scripts** entity type. When you want to view these answer records, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads a maximum of 5000 record answers. The client application does not load the remaining 105 answer records even though you have configured answer records. 
 
-Starting [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)], `TotalRecordCountLimit` is introduced for system administrator to configure the total number of records that
+Starting [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)], `TotalRecordCountLimit` is introduced for system administrator to configure the total number of records that
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application to load for any [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities that you have configured and deployed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. The default value is 5000.
 
 > [!Note]
