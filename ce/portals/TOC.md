@@ -7,6 +7,8 @@
 
 ## [Manage a portal](manage-portal.md)
 ### [Supported browsers](supported-browsers.md)
+### [Connect with Dynamics 365 online organization](connect-with-dynamics.md)
+### [View portal error logs](view-portal-error-log.md)
 
 ## [Configure a portal](configure-portal.md)
 ### [Behavior and format of the date and time field](behavior-format-date-time-field.md)
