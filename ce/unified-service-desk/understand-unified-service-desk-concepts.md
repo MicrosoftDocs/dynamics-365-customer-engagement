@@ -30,7 +30,7 @@ manager: "jdaly"
 
 Use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] or [!INCLUDE[proc_crm_for_outlook](../includes/proc-crm-for-outlook.md)] to configure the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities that are created in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance when you deploy [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] provides a highly configurable interface that can be used to dynamically display controls and information based on the context of the active operation, which eventually defines the user interface and functionalities in your agent application. Creating or developing agent applications by configuring the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] doesn’t require you to write code, which reduces the lead time to develop a highly customized agent application per your organization requirements. This is the preferred way if you have to primarily deal with customer data available in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
 
-`TotalRecordCountLimit`is the total number of records that
+`TotalRecordCountLimit` is the total number of records that
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application loads for any [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] entities that you have configured and deployed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. The default value is 5000.
 
 > [!Note]
