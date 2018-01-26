@@ -2,7 +2,7 @@
 title: "Connect a portal with Dynamics 365 online organization | MicrosoftDocs"
 description: "Learn about how a portal is connected with Dynamics 365 online organization and how to renew the authentication key."
 keywords: "portal authentication key, connect with Dynamics 365"
-ms.date: 01/25/2018
+ms.date: 01/26/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -73,7 +73,8 @@ Email notifications are sent at the following intervals:
 - 1 day 
 - 12 hrs 
 - 6 hrs 
-- 3 hrs 
+- 3 hrs
+
 After expiry (once every day till 1 week after key expires)
 
 > [!NOTE]
