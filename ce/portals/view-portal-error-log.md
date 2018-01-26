@@ -136,11 +136,7 @@ When diagnostic logging is enabled successfully for a portal, the following acti
 
 4.	In the Update diagnostic logging configuration window, enter the following values:
   - **Do you want to update the Connection string of the Azure Blob Storage service?**: Allows you to specify whether to update the connection string of Azure Blob Storage service. By default, No is selected.
-  - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message is displayed.
-  
-    This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected.
-  
-    More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+  - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message is displayed. This field is displayed only if the **Do you want to update the Connection string of the Azure Blob Storage service?** check box is selected. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
   - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
      - 1 day
      - 7 days
