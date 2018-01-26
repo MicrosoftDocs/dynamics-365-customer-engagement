@@ -1,6 +1,6 @@
 ---
 title: "getGlobalContext (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 01/23/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -15,6 +15,9 @@ manager: "amyla"
 
 [!INCLUDE[./includes/getGlobalContext-description.md](./includes/getGlobalContext-description.md)]
 The method provides access to the global context without going through the form context. It contains an equivalent of all the methods available for the **Xrm.Page.context** object (now deprecated) to retrieve information specific to the client, organization or user.
+
+> [!IMPORTANT]
+> To access the global context information in a standalone HTML Web resource, you should include a reference to **ClientGlobalContext.js.aspx** in the web resource, and then use the **GetGlobalContext** function. More information: [GetGlobalContext function and ClientGlobalContext.js.aspx](../GetGlobalContext-ClientGlobalContext.js.aspx.md) 
 
 ## Properties of Global Context (getGlobalContext)
 
