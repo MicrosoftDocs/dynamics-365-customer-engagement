@@ -36,8 +36,6 @@ The identification of minor varies by country. A minor can access the portal wit
 
     ![Identify minor portal users and obtain parental consent](media/identify-minor-in-portal.png "Identify minor portal users and obtain parental consent")
 
-### Related site settings
-
 The following site settings control the use of portals by minors and minors without parental consent:
 
 | Name  | Description   |
@@ -53,8 +51,6 @@ If a portal user is determined to be a minor and the portal is configured to blo
 If a portal user is determined to be a minor without parental consent and the portal is configured to block minors without parental consent, an appropriate message is displayed, and the content is not displayed.
 
 ![Parental consent message](media/gdpr-parental-consent.png "Parental consent message")
-
-### Related content snippets
 
 The following content snippets control the display of appropriate message on the screen when the portal is used by minors and minors without parental consent. You can change the message as per your requirement.
 
@@ -74,8 +70,6 @@ As per GDPR, a portal user must agree to the terms and conditions to implement m
 
 ![Portal terms and conditions](media/gdpr-terms-agreement.png "Portal terms and conditions")
 
-### Related content snippets
-
 The following content snippets control the display of terms and conditions on the screen. You can change the text as per your requirement.
 
 | Name                                           | Type | Value                                 |
@@ -88,14 +82,12 @@ The following content snippets control the display of terms and conditions on th
 
 The `Account/Signin/TermsAndConditionsCopy` content snippet is empty by default. A portal administrator must enter the terms and conditions in this content snippet.
 
-### Related site settings
-
 The following site settings control the terms publication date and whether the terms should be displayed on the portal:
 
-| Name                                              | Description                                                                                                                                                                                                                                                                                                                                                                                            |
-|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name  | Description |
+|------------|---------------|
 | Authentication/Registration/TermsPublicationDate  | A date/time value in GMT format to represent the effective date of the current published terms and conditions. If the terms agreement is enabled, portal users that have not accepted the terms after this date will be asked to accept them the next time they sign in. If the date is not provided, and the terms agreement is enabled, the terms will be presented every time portal users sign in. <br> **Note**: If you want a portal user to agree to the terms and conditions every time they sign in, do not provide a value for this site setting.|
-| Authentication/Registration/TermsAgreementEnabled | A true or false value. If set to true, the portal will display the terms and conditions of the site. Users must agree to the terms and conditions before they are considered authenticated and can use the site. By default, it is set to false.                                                                                                                                                       |
+| Authentication/Registration/TermsAgreementEnabled | A true or false value. If set to true, the portal will display the terms and conditions of the site. Users must agree to the terms and conditions before they are considered authenticated and can use the site. By default, it is set to false.        |
 |||
 
 The following field is added in the portal contact record to store the date and time a portal user agreed to the terms and conditions:
@@ -127,9 +119,9 @@ You can configure your portal to mark other identity providers as deprecated and
 
 The following site settings are used to control the deprecation of identity providers:
 
-| Name                                             | Description                                                                                                                                                                                        |
-|--------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Authentication/Registration/LocalLoginDeprecated | A true or false value. If set to true, the local account will be marked as deprecated. The portal user will be required to migrate to a non-deprecated account. By default, it is set to false.    |
+| Name  | Description  |
+|--------|--------|
+| Authentication/Registration/LocalLoginDeprecated | A true or false value. If set to true, the local account will be marked as deprecated. The portal user will be required to migrate to a non-deprecated account. By default, it is set to false. |
 | Authentication/[protocol]/[provider]/Deprecated  | A true or false value. If set to true, the specific account will be marked as deprecated. The portal user will be required to migrate to a non-deprecated account. By default, it is set to false. |
 |||
 
