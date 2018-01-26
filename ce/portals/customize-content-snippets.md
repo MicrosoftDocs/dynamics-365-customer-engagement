@@ -1,18 +1,21 @@
 ---
 title: "Customize content by using content snippets on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to customize content by using content snippets."
-ms.custom: ""
-ms.date: 09/28/2017
+keywords: ""
+ms.date: 01/26/2018
 ms.service: crm-online
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom: 
 ms.topic: article
 ms.assetid: 64f9ec14-c22a-4337-af29-fc8b512cea63
-ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+topic-status: Drafting
 ---
+
 # Customize content by using content snippets
 Content snippets are small chunks of editable content that can be placed by a developer on a page template, allowing for customizable content to populate any portion of a page's layout easily. Snippet controls, which are responsible for rendering the content of snippets on the web-facing portal, are placed on .aspx pages by developers.
 
@@ -28,7 +31,7 @@ To edit through the front side, point to the snippet element and select **Edit**
 
 When editing a snippet, either a simple text box will appear, allowing you to quickly edit the content, or the full editor appears, as it does when editing a page's copy. Which of these two interfaces appears is determined by the edit type of the snippet, which also determines the type of content the snippet can hold (full, stylized HTML content versus plain text). A snippet can be assigned an edit type of either text or HTML when a developer adds the Content Snippet control to the page template in the portal's [!INCLUDE[pn-visual-studio-short](../includes/pn-visual-studio-short.md)] project.
 
-## Edit using [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Edit using Dynamics 365
 
 1.  Go to **Portals** > **Content Snippets**.
 2.  To create a new snippet: Select **New**.
