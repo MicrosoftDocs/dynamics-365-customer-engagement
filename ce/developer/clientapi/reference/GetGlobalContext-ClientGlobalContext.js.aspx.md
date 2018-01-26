@@ -20,7 +20,7 @@ To get access to the **GetGlobalContext** function in your HTML web resource, in
 
 ## GetGlobalContext function
 
-The **GetGlobalContext** function returns the same context object as returned by the **Xrm.Utility.getGlobalContext** method, which implies that the context object will have the same properties and methods as **Xrm.Utility.getGlobalContext**. More information: Xrm.Utility.[getGlobalContext](Xrm-Utility/getGlobalContext.md)
+The **GetGlobalContext** function returns the same context object as returned by the **Xrm.Utility.getGlobalContext** method, which implies that the context object will have the same properties and methods as available for **Xrm.Utility.getGlobalContext**. More information: Xrm.Utility.[getGlobalContext](Xrm-Utility/getGlobalContext.md)
 
 ## ClientGlobalContext.js.aspx
 
