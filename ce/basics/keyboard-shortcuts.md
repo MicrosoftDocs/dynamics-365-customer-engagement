@@ -17,8 +17,6 @@ ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
 
 Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface.
 
-> [!NOTE]
-> Dynamics 365 apps based on Unified Interface are yet to be tested fully for Accessibility compliance and standards.  
 
 ## Keyboard shortcuts applicable to all Dynamics 365 applications
 
