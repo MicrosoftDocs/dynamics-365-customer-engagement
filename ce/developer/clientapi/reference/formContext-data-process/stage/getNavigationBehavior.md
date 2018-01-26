@@ -22,7 +22,7 @@ manager: "amyla"
 
 ```
 stageObj.getNavigationBehavior().allowCreateNew = function () {
-    return true | false;
+    return true|false;
 }
 ```
 
@@ -30,7 +30,9 @@ stageObj.getNavigationBehavior().allowCreateNew = function () {
 
 **Type**: Object 
 
-**Description**: An object with the `allowCreateNew` property that lets you define whether the **Create** button will be available in a stage so that user can create an instance of entityB from the entityA form in a cross-entity business process flow navigation scenario. For example, here is the **Create** button in the **Qualify** stage of the **Lead to Opportunity Sales Process** business process flow that lets you create an Opportunity record from the Lead form.
+**Description**: An object with the `allowCreateNew` property that lets you define whether the **Create** button will be available in a stage so that user can create an instance of entityB from the entityA form in a cross-entity business process flow navigation scenario. 
+
+For example, here is the **Create** button in the **Develop** stage of the **AccountToContactProcess** sample business process flow that lets you create a Contact record from the Account form.
 
 ![](../../../../media/clientapi_getNavigationBehavior.png)
 
