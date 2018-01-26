@@ -2,7 +2,7 @@
 title: "Distribute a survey by using Voice of the Customer | MicrosoftDocs"
 description: "After creating a survey, learn how to distribute it to your respondents."
 keywords: "send survey; distribute survey; distribute voice of the customer survey; track survey invite"
-ms.date: 11/13/2017
+ms.date: 01/26/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -68,7 +68,9 @@ For non-anonymous surveys, the link you send to respondents is specific and uniq
 
 6.  Save the changes.
 
-**Note**: If the **Restrict Multiple Completions** field is set to **Yes** when you create the survey, the respondent can't take the survey again.
+> [!NOTE]
+> - If the **Restrict Multiple Completions** field is set to **Yes** when you create the survey, the respondent can't take the survey again.
+> - You can translate the invitation link text to a different locale. More information: [Translate survey invitation link text](#translate-survey-invitation-link-text)
 
 For example: You create an email and paste the survey snippet in the email body.
 
@@ -142,21 +144,15 @@ If you want to personalize your survey invitation in a [!INCLUDE[pn-crm-2016-sho
 
 The available piped data names are:
 
--   User
-
--   Customer
-
--   Product
-
--   Service
-
--   Datetime
-
--   Location
-
--   Other1
-
--   Other2
+- user
+- customer
+- product
+- service
+- datetime
+- location
+- other1
+- other2
+- lang
 
 For example, this survey snippet contains piped data for Customer, User, and Other\_1 (used for the case number):
 
@@ -169,6 +165,22 @@ In the email invitation, add the piped data field, followed by an equal sign (=)
 would look like this to the customer:
 
 > Thank you, Marie! Your feedback will help us improve the service we deliver to you. Please take the time to answer a few questions regarding case number 298724 and Customer Service Representative Nancy.
+
+### Translate survey invitation link text
+
+You can also translate the survey invitation link text to a different locale by using the **lang** pipe. This allows you to personalize the invitation link text as per the respondent’s locale.
+
+For example: You create an email and paste the survey snippet along with the **lang** pipe in the email body. In this example, French locale is specified in the pipe.
+
+![Survey snippet with lang pipe](media/survey-snippet-lang-pipe.png "Survey snippet with lang pipe")
+
+When you save the email, the snippet changes to the invitation link text in the language you specified.
+
+![Translated survey invitation link text](media/survey-snippet-lang-pipe-translated.png "Translated survey invitation link text")
+
+> [!NOTE]
+> - If the **lang** pipe is not specified, the invitation link text is displayed in the default language.
+> - If the translation is not available for the language code specified in the **lang** pipe, an error message is displayed.
 
 ## Automatically send survey invitations
 

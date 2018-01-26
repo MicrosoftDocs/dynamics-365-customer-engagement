@@ -2,7 +2,7 @@
 title: "Design a basic survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to create a basic survey by using Voice of the Customer and add questions to it."
 keywords: "survey design;  survey theme; share survey; clone survey"
-ms.date: 01/23/2017
+ms.date: 01/26/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -367,6 +367,7 @@ After creating a survey, you can translate it into other languages as required b
 > -   If you add or change a question after adding your edited translations file, you need to add the translation for that question. To get an updated version of the translation file, select **Export translations** on the survey page and repeat the steps to add your new translations.
 > -   We recommend that you preview the survey with the latest translation file to detect any translation errors.
 > -   [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] automatically detects the language at runtime based on the respondent's browser preferences. If no translation exists for that language, the survey will use the base language strings instead. Users can change the language of the survey by selecting the language they want from the drop-down list.
+> - When you preview or publish a survey, the translation file is validated for missing string translations and incorrect HTML format. The appropriate error message is displayed with a link to download the log file to view details.
 
 ## Close or stop a survey
 
