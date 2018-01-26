@@ -2,7 +2,7 @@
 title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
 description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 for Field Service."
 ms.custom: ""
-ms.date: 01/10/2018
+ms.date: 01/26/2018
 searchScope:  
   - Field Service
   - Project Service   
@@ -386,6 +386,10 @@ namespace Microsoft.Crm.Sdk.Samples
     }
 }
 ```
+
+## Privacy notice disclaimer
+
+You may use sample code to interact with third party services whose privacy and security practices may differ from those of Microsoft Dynamics 365. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 is not covered by your Microsoft Dynamics 365 agreement(s) or the Microsoft Dynamics 365 Trust Center. We encourage you to review these other privacy statements.
 
 ### See also
 
