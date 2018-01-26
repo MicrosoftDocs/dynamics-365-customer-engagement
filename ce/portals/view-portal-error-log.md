@@ -102,7 +102,7 @@ After developing the portal and publishing it live, you still need to be able to
   ![Enable diagnostic logging](media/enable-diagnostic-logging.png "Enable diagnostic logging")
 
 4.	In the Enable diagnostic logging window, enter the following values:
-  - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message is displayed. More information on connection string: Configure Azure Storage connection strings
+  - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message is displayed. More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
   - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
      - 1 day
      - 7 days
@@ -142,13 +142,13 @@ When diagnostic logging is enabled successfully for a portal, the following acti
   
     More information on connection string: [Configure Azure Storage connection strings](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
   - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
-    - 1 day
-    - 7 days
-    - 30 days
-    - 60 days
-    - 90 days
-    - 180 days
-    - Always
+     - 1 day
+     - 7 days
+     - 30 days
+     - 60 days
+     - 90 days
+     - 180 days
+     - Always
 
   By default, retention period is 30 days.
 
