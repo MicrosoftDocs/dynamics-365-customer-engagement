@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Implement General Data Protection Regulation in portals
 
-General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within EU. With GDPR, the portal users can control the use of their personal data in Dynamics 365.
+General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within EU. With GDPR, the portal users can control the use of their personal data in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
 As an administrator, you can configure your portal to meet the GDPR standards. You can also provide certain terms and conditions for the portal users to use a portal. If a portal user is a minor, the user must have parental consent to use the portal. As a portal user, you must agree to the terms and conditions to use the portal.
 
@@ -26,7 +26,7 @@ Implementing GDPR allows obtaining consent from portal users regarding use of th
 
 ## Audit logging
 
-A field **Last logon** is added to the portal contact record for the evidence of when the portal user has last logged in. This date is picked-up by Dynamics 365 audit of the contact record and make that evidence available in the standard audit stream. This benefits the administrator to see the inactive community members and delete their records.
+A field **Last logon** is added to the portal contact record for the evidence of when the portal user has last logged in. This date is picked-up by [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] audit of the contact record and make that evidence available in the standard audit stream. This benefits the administrator to see the inactive community members and delete their records.
 
 ## Identify minor portal users and obtain parental consent
 
@@ -97,7 +97,7 @@ The following field is added in the portal contact record to store the date and 
 
 ## Integration with Dynamics 365 for Customer Insights
 
-Dynamics 365 for Customer Insights (DCI) is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers.
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for Customer Insights (DCI) is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers.
 
 As a portal administrator, you can enable a portal to send data from a user’s activity to your DCI instance. More information: [View activity of a user on a portal](view-user-activity.md)
 
