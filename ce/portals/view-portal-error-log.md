@@ -28,7 +28,7 @@ However, it is better to see the ASP.NET detailed error page, also known as Yell
 
 ![Yellow Screen of Death](media/ysod.png "Yellow Screen of Death")
 
-To enable YSOD, you need to [disable custom errors](#display-custom-error-message) on your portal.
+To enable YSOD, you need to [disable custom errors](#disable-custom-error) on your portal.
 
 > [!NOTE]
 > It is advisable to only disable custom errors when you are in the development phase and enable custom errors once you go live.
@@ -104,13 +104,13 @@ After developing the portal and publishing it live, you still need to be able to
 4.	In the Enable diagnostic logging window, enter the following values:
   - **Connection String of Azure Blob Storage service**: URL of the Azure Blob Storage service to store the portal error logs. The maximum length of the URL can be 2048 characters. If the URL is longer than 2048 characters, an error message is displayed. More information on connection string: Configure Azure Storage connection strings
   - **Select retention period**: Duration to keep the portal error logs in blob storage. The error logs are deleted after the selected duration. You can select one of the following values:
-    - 1 day
-    - 7 days
-    - 30 days
-    - 60 days
-    - 90 days
-    - 180 days
-    - Always
+     - 1 day
+     - 7 days
+     - 30 days
+     - 60 days
+     - 90 days
+     - 180 days
+     - Always
 
   By default, retention period is 30 days.
   
