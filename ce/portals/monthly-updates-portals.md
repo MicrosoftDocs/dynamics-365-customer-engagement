@@ -1,21 +1,31 @@
 ---
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
-ms.custom: ""
-ms.date: 12/05/2017
+keywords: ""
+ms.date: 01/26/2018
 ms.service: crm-online
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom: 
 ms.topic: article
 ms.assetid: 873dffa1-e598-4548-b494-7b67f2b01bb1
-ms.reviewer: ""
 author: sbmjais
 ms.author: shjais
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+topic-status: Drafting
 ---
-# What’s new in portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+
+# What’s new in portal capabilities for Dynamics 365
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about the updates that have been made to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, along with additional details about those updates, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
+
+## Portals capabilities for version 8.4.0.261 for Dynamics 365
+
+Portals capabilities for version 8.4.0.261 for Dynamics 365 has brought the following latest updates and features:
+- **Access portal error logs**: As a portal developer, you can now access detailed error logs for any issues on your portal. This helps you to debug the issues while developing the portal. Once your portal is live, you can configure the portal to send all application errors to an Azure Blob storage account owned by you. This will help you to debug the issues reported by your customers.
+- **Renew portal authentication key**: For a Portal to connect to Dynamics 365 using Azure Active Directory application, it requires an authentication key connected to the Azure Active Directory application. You must renew the key every two years to ensure that your portal is able to connect to the Dynamics 365 organization. You can renew the key from the Portal Admin Center.
+- **Implement General Data Protection Regulation in portals**: As a portal administrator, you can now configure your portal to meet the GDPR standards. You can also provide certain terms and conditions that must be agreed by the portal users to use a portal. You can also setup checks such as, if a portal is accessed by a minor user, the user must have parental consent to access the portal. Implementing GDPR allows obtaining consent from portal users regarding use of their personal data, identifying minor users, and obtaining parental consent for minor users.
 
 ## Portal capabilities version 8.3 for Dynamics 365
 

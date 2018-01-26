@@ -34,7 +34,7 @@ The identification of minor varies by country. A minor can access the portal wit
 - **Is Minor**: Indicates that the contact is considered a minor in their jurisdiction. By default, **No** is selected.
 - **Is Minor with Parental Consent**: Indicates that the contact is considered a minor in their jurisdiction and has parental consent. By default, **No** is selected.
 
-![Identify minor portal users and obtain parental consent](media/identify-minor-in-portal.png "Identify minor portal users and obtain parental consent")
+    ![Identify minor portal users and obtain parental consent](media/identify-minor-in-portal.png "Identify minor portal users and obtain parental consent")
 
 ### Related site settings
 

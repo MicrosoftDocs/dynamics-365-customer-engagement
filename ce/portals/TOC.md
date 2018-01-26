@@ -57,10 +57,12 @@
 ### [Gather feedback by using polls](gather-feedback-poll.md)
 ### [Rate a webpage or blog article](rate-webpage-blog-post.md)
 ### [Add a redirect URL](add-redirect-url.md)
+### [Implement GDPR in portals](implement-gdpr.md)
 ### [Clear the server-side cache](clear-server-side-cache.md)
 ### [Walkthrough: Get data on the portal](walkthrough-get-data-on-portal.md)
 ### [Integrate Project Service Automation](integrate-project-service-automation.md)
 ### [Integrate Field Service](integrate-field-service.md)
+
 ## [Manage portal content](manage-portal-content.md)
 ### [Get started with the portal content editor](get-started-portal-content-editor.md)
 ### [Publish content by using the editing engine](publish-content-editing-engine.md)
@@ -72,6 +74,7 @@
 ### [Create an opportunity](create-edit-and-distribute-opportunities-in-dynamics-365.md)
 ### [Manage web links](manage-web-links.md)
 ### [Invite contacts](invite-contacts.md)
+
 ## [Customize content](customize-content-snippets.md)
 ### [Add geolocation](add-geolocation.md)
 ### [Add chart on a web page in portal](add-chart.md)
