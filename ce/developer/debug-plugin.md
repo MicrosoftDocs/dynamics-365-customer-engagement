@@ -2,7 +2,7 @@
 title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about debuggin a plug-in by logging and tracing."
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 01/19/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -92,7 +92,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSCRM\SandboxDebugPlugins
  An alternative method to troubleshoot a plug-in or custom workflow activity (custom code), compared to debugging in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)], is to use tracing. Tracing assists developers by recording run-time custom information as an aid in diagnosing the cause of code failures. Tracing is especially useful to troubleshoot [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] registered custom code as it is the only supported troubleshooting method for that scenario. Tracing is supported for sandboxed (partial trust) and full trust registered custom code and during synchronous or asynchronous execution. Tracing isn’t supported for custom code that executes in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or other mobile client.  
   
  Recording of run-time tracing information for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] is provided by a service named <xref:Microsoft.Xrm.Sdk.ITracingService>. Information provided to this service by custom code can be recorded in three different places as identified here.  
-  
+
+> [!NOTE]
+> Trace logging using `ITracingService` interface works only when the Plug-in is registered in Sandbox mode.
+
 - **Trace log**  
   
      Trace log records of type **PluginTraceLog** can be found in the web application by navigating to **Settings** and choosing the **Plug-in Trace Log** tile. The tile is only visible if you have access to the trace log entity records in your assigned security role. Writing of these records is controlled by the trace settings mentioned in the next section.

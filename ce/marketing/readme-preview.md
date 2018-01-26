@@ -1,8 +1,9 @@
 ---
 title: "Dynamics 365 for Marketing Preview Readme (Known Issues) | MicrosoftDocs"
-ms.date: 12/18/2017
+ms.date: 01/15/2018
 ms.service: "crm-online"
 ms.topic: "article"
+ROBOTS: NOINDEX,NOFOLLOW
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -17,19 +18,29 @@ and possible workarounds for Dynamics 365 for Marketing Public Preview.
 
 #### Dynamics 365 for Marketing Public Preview is subject to [these limits and restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 
-## Dynamics 365 for Marketing Public Preview sign-up Issues
+## Dynamics 365 for Marketing Public Preview Sign-up Issues
 
 -   For users signing up from languages/regions that are not yet supported, you
     must **change your browser language to English** to proceed further. Refer
     to “To change your browser language” later in this readme.
 
+-   Dynamics 365 for Marketing is currently only supported for following
+    browsers: **Microsoft Edge, Chrome, and Safari on Mac**.
+
 -   On the **Your colleagues are also trying Dynamics 365** page, the **Learn
-    more** link goes to the incorrect FAQ
+    more** link goes to the incorrect FAQ.
 
 -   In the **Organization Selector**, the **Invite user** command doesn't work.
 
--   If the email address you chose for signup does not already have a tenant
+-   If the email address you chose during sign up does not already have a tenant
     associated with Microsoft, subsequent setup will fail. Please contact
+    support for alternatives.
+
+-   You cannot sign up using an \@microsoft.com email address. Please set up a
+    trial tenant first as described in this <a href="https://experience.dynamics.com/insider/news/CMP-01064-T5N2S4/a6b3b39c-d4ec-e711-8185-e0071b6ac181/" target="_blank">blog post</a>.
+
+-   You sign up for the preview, but the process doesn’t navigate to the
+    first-run experience to continue setting up the application. Please contact
     support for alternatives.
 
 -   The first-run experience link in the Welcome email leads to the Marketing
@@ -41,14 +52,14 @@ and possible workarounds for Dynamics 365 for Marketing Public Preview.
     and sign-up screen, might be displayed in English rather than in the
     selected language.
 
-#### *To change your browser language*
+#### _To change your browser language_
 
 Follow the steps for the browser you are using:
 
--   **Edge:** In the Windows Search bar, open Control Panel. Select **Clock** \>
-    **Language** \> and **Region**. Click **Add a language** and select
-    **English (United States)**. Move it to the top of the list. Close Control
-    Panel. Restart your computer.
+-   **Microsoft Edge:** In the Windows Search bar, open Control Panel. Select
+    **Clock** \> **Language** \> and **Region**. Select **Add a language** and
+    select **English (United States)**. Move it to the top of the list. Close
+    Control Panel. Restart your computer.
 
     -   **Important:** This will change the language of your user interface, not
         just your browser language preferences.
@@ -58,11 +69,6 @@ Follow the steps for the browser you are using:
     add **English (United States)**. Order the resulting list so that it is in
     descending order of preference. Also select **Display Google Chrome in this
     Language**. You don't need to restart Chrome.
-
--   **Firefox:** On the **Open** menu, select **Options**. Go to the
-    **Language** section and select **Choose**. Select **Language to Add** on
-    the **Content** tab. Under **Languages** , choose **English (US)**. Then
-    move **English (US)** to the top.
 
 -   **Safari:** On OS X the language sent is that specified in the OS X system
     language preferences. To change those preferences, go to **System
@@ -78,44 +84,41 @@ Follow the steps for the browser you are using:
 -   ### Configuration, installation, and first-run experience
 
     -   Lifecycle operations for Dynamics 365 production and sandbox instances,
-        like switch an instance, copy an instance, and deletion, aren't yet
-        fully supported for Dynamics 365 for Marketing.
+        like switch an instance, reset an instance, backup and restore an
+        instance, copy an instance, and deletion, aren't yet fully supported for
+        Dynamics 365 for Marketing.
 
     -   The first-run experience to fully deploy the Marketing app might take up
         to two hours.
 
     -   Your organization must be the marketing preview organization that the
-        signup process creates and that is already the default. Using any other
+        sign-up process creates and that is already the default. Using any other
         organization will lead to a failure after a long time (up to 12 hours).
         If you need the organization name, please refer to the welcome email.
 
-    -   For some organizations, the **Advanced Settings** pages may not show up
-        even after setup has been completed, which would affect the steps <a href="https://docs.microsoft.com/dynamics365/customer-engagement/marketing/open-advanced-settings" target="_blank">here</a>. For help, please contact the support team.
-
-    -   In Firefox, the **Give consent** button needed for surveys might not be
-        displayed in a pop-up window during the first-run-experience. You may
-        use a different browser.
+    -   For some organizations, the **Advanced Settings** pages might not show
+        up even after setup has been completed, which would affect the <a href="https://docs.microsoft.com/dynamics365/customer-engagement/marketing/open-advanced-settings" target="_blank">advanced
+        setting steps</a>. For help, please contact the support team.
 
     -   The **Physical sender address** field on the setup screen might take
         some time to load; the workaround is to wait a few minutes.
 
     -   First-run experience Success and Failure emails sometimes aren't
-        delivered. Viewing the first-run-experience link would show you the
+        delivered. Viewing the first-run experience link would show you the
         actual status.
 
     -   Even though surveys show up in the app (such as for emails, journeys,
         and events) this feature is not yet functional. To try out surveys, you
-        would need to reach out to the support team to install this app
-        manually.
+        should contact support team to install this app manually.
 
-    -   **Add user** in Advanced Settings doesn't work as intended.The
+    -   **Add user** in **Advanced Settings** doesn't work as intended. The
         workaround is to add them via the Dynamic 365 legacy Settings.
 
-    -   Sample data isn't installed by **Sample Data Management** in Advanced
-        Settings.
+    -   Sample data isn't installed by **Sample Data Management** in **Advanced
+        Settings**.
 
-    -   **Go To Installation Setup** doesn't go to the first-run experience page
-        from the Welcome screen or Advanced Settings.
+    -   **Go to Installation Setup** doesn't go to the first-run experience page
+        from the Welcome screen or **Advanced Settings**.
 
 -   ### Customer journeys and segmentation
 
@@ -175,7 +178,7 @@ Follow the steps for the browser you are using:
         different journeys) yields incorrect performance results, as shown on
         the **Insights** pages.
 
--   ### Marketing pages and forms
+-  ### Marketing pages and forms
 
     -   When configuring a form on a page, we recommend that you enter a
         confirmation message or a redirect URL so users can see that they
@@ -206,7 +209,7 @@ Follow the steps for the browser you are using:
     -   New lead scoring models might default to text view, so the toolbar right
         panel is inactive.
 
--  ### Event management
+-   ### Event management
 
     -   When an onsite event is added to an email, the call to action points to
         the (blank) webinar URL field.
@@ -224,7 +227,7 @@ Follow the steps for the browser you are using:
         custom questions are displayed on the portal is determined by the order
         in which they were added to the event.
 
--  ### General
+-   ### General
 
     -   Please note that if different sessions are open in other browser windows
         or tabs, opening the marketing app in the browser automatically signs up

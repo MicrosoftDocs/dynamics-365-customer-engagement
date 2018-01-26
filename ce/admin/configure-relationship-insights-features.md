@@ -12,9 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: f2ba3ad4-96a0-47a9-a54a-71265f4d8053
 caps.latest.revision: 28
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
 # Preview feature: Configure Relationship Insights features to better understand customer interactions
 
