@@ -140,25 +140,25 @@
 #        href: reference/externalcontext/getexternalcontextproperty.md 
 #      - name: invokeExternalContextAction
 #        href: reference/externalcontext/invokeexternalcontextaction.md                 
-    - name: Factory
-      href: reference/factory.md
-      items:
-      - name: bindDOMComponent
-        href: reference/factory/binddomcomponent.md
-      - name: createComponent
-        href: reference/factory/createcomponent.md
-      - name: createElement
-        href: reference/factory/createelement.md
-      - name: fireEvent
-        href: reference/factory/fireevent.md
-      - name: getControlDefaultMapping
-        href: reference/factory/getcontroldefaultmapping.md
-      - name: requestRender
-        href: reference/factory/requestrender.md
-      - name: unbindDOMComponent
-        href: reference/factory/unbinddomcomponent.md
-      - name: updateComponent
-        href: reference/factory/updatecomponent.md
+#    - name: Factory
+#      href: reference/factory.md
+#      items:
+#      - name: bindDOMComponent
+#        href: reference/factory/binddomcomponent.md
+#      - name: createComponent
+#        href: reference/factory/createcomponent.md
+#      - name: createElement
+#        href: reference/factory/createelement.md
+#      - name: fireEvent
+#        href: reference/factory/fireevent.md
+#      - name: getControlDefaultMapping
+#        href: reference/factory/getcontroldefaultmapping.md
+#      - name: requestRender
+#        href: reference/factory/requestrender.md
+#      - name: unbindDOMComponent
+#        href: reference/factory/unbinddomcomponent.md
+#      - name: updateComponent
+#        href: reference/factory/updatecomponent.md
     - name: FilterExpression
       href: reference/filterexpression.md
     - name: Filtering
