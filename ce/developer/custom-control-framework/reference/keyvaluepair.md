@@ -1,8 +1,8 @@
-# Dictionary
+# KeyValuePair
 <!-- 
 The System.Dictionary from MicrosoftAjax.d.ts 
 -->
-[!INCLUDE [dictionary-description](includes/dictionary-description.md)]
+[!INCLUDE [keyvaluepair-description](includes/dictionary-description.md)]
 
 
 ### Related topics

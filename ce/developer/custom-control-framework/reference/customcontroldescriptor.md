@@ -70,7 +70,7 @@ Placeholder description CustomControlDescriptor.Name
 
 Placeholder description CustomControlDescriptor.Parameters
 
-**Type**: [Dictionary](dictionary.md)<br />
+**Type**: [KeyValuePair](keyvaluepair.md)<br />
 **Optional**
 
 ## Relationship

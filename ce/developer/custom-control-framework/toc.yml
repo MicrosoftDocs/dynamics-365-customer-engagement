@@ -119,8 +119,7 @@
 #        href: reference/diagnostics/traceinfo.md
 #      - name: traceWarning
 #        href: reference/diagnostics/tracewarning.md
-    - name: Dictionary
-      href: reference/dictionary.md
+
     - name: Entity
       href: reference/entity.md
       items:
@@ -197,7 +196,9 @@
       - name: getWeekOfYear
         href: reference/formatting/getweekofyear.md 
     - name: FormProps
-      href: reference/formprops.md               
+      href: reference/formprops.md
+    - name: KeyValuePair
+      href: reference/keyvaluepair.md      
     - name: LinkEntity
       href: reference/linkentity.md
     - name: Linking

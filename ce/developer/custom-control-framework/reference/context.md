@@ -52,7 +52,7 @@ IDecorators seems to be no more than a dictionary
 
  -->
 
-**Type**: `[Dictionary](dictionary.md)`<br />
+**Type**: `[KeyValuePair](keyvaluepair.md)`<br />
 **Optional**
 
 ## diagnostics

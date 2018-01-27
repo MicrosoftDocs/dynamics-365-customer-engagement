@@ -25,17 +25,15 @@ This section contains reference documentation for creating custom controls using
 |[ConditionExpression](conditionexpression.md)|[!INCLUDE [conditionexpression-description](includes/conditionexpression-description.md)]|
 |[Context](context.md)|[!INCLUDE [context-description](includes/context-description.md)]|
 |[Control](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
-|[CustomControlConfiguration](customcontrolconfiguration.md)|[!INCLUDE [customcontrolconfiguration-description](includes/customcontrolconfiguration-description.md)]|
-|[CustomControlDescriptor](customcontroldescriptor.md)|[!INCLUDE [customcontroldescriptor-description](includes/customcontroldescriptor-description.md)]|
 |[DataSet](dataset.md)|[!INCLUDE [dataset-description](includes/dataset-description.md)]|
 |[DateFormattingInfo](dateformattinginfo.md)|[!INCLUDE [dateformattinginfo-description](includes/dateformattinginfo-description.md)]|
 |[Device](device.md)|[!INCLUDE [device-description](includes/device-description.md)]|
 |[Diagnostics](diagnostics.md)|[!INCLUDE [diagnostics-description](includes/diagnostics-description.md)]|
-|[Dictionary](dictionary.md)|[!INCLUDE [dictionary-description](includes/dictionary-description.md)]|
 |[Entity](entity.md)|[!INCLUDE [entity-description](includes/entity-description.md)]|
 |[EntityReference](entityreference.md)|[!INCLUDE [entityreference-description](includes/entityreference-description.md)]|
 |[ExternalContext](externalcontext.md)|[!INCLUDE [externalcontext-description](includes/externalcontext-description.md)]|
 |[Factory](factory.md)|[!INCLUDE [factory-description](includes/factory-description.md)]|
+|[KeyValuePair](keyvaluepair.md)|[!INCLUDE [dictionary-description](includes/dictionary-description.md)]|
 |[LinkEntity](linkentity.md)|[!INCLUDE [linkentity-description](includes/linkentity-description.md)]|
 |[Linking](linking.md)|[!INCLUDE [linking-description](includes/linking-description.md)]|
 |[Formatting](formatting.md)|[!INCLUDE [formatting-description](includes/formatting-description.md)]|
@@ -50,9 +48,6 @@ This section contains reference documentation for creating custom controls using
 |[ParameterDefinitionMap](parameterdefinitionmap.md)|[!INCLUDE [parameterdefinitionmap-description](includes/parameterdefinitionmap-description.md)]|
 |[Popup](popup.md)|[!INCLUDE [popup-description](includes/popup-description.md)]|
 |[PopupService](popupservice.md)|[!INCLUDE [popupservice-description](includes/popupservice-description.md)]|
-<!-- 
-|[Reporting](reporting.md)|[!INCLUDE [reporting-description](includes/reporting-description.md)]| 
--->
 |[Resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 |[Sort](sort.md)|[!INCLUDE [sort-description](includes/sort-description.md)]|
 |[Style](style.md)|[!INCLUDE [style-description](includes/style-description.md)]|
