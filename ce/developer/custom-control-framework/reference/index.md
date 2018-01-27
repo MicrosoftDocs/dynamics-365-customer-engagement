@@ -27,11 +27,8 @@ This section contains reference documentation for creating custom controls using
 |[Control](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
 |[DataSet](dataset.md)|[!INCLUDE [dataset-description](includes/dataset-description.md)]|
 |[DateFormattingInfo](dateformattinginfo.md)|[!INCLUDE [dateformattinginfo-description](includes/dateformattinginfo-description.md)]|
-|[Device](device.md)|[!INCLUDE [device-description](includes/device-description.md)]|
-|[Diagnostics](diagnostics.md)|[!INCLUDE [diagnostics-description](includes/diagnostics-description.md)]|
 |[Entity](entity.md)|[!INCLUDE [entity-description](includes/entity-description.md)]|
 |[EntityReference](entityreference.md)|[!INCLUDE [entityreference-description](includes/entityreference-description.md)]|
-|[ExternalContext](externalcontext.md)|[!INCLUDE [externalcontext-description](includes/externalcontext-description.md)]|
 |[Factory](factory.md)|[!INCLUDE [factory-description](includes/factory-description.md)]|
 |[KeyValuePair](keyvaluepair.md)|[!INCLUDE [dictionary-description](includes/dictionary-description.md)]|
 |[LinkEntity](linkentity.md)|[!INCLUDE [linkentity-description](includes/linkentity-description.md)]|

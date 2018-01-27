@@ -132,14 +132,14 @@
     - name: EntityReference
       href: reference/entityreference.md          
     - name: ExternalContext
-      href: reference/externalcontext.md
-      items:
-      - name: getAvailableExternalContexts
-        href: reference/externalcontext/getavailableexternalcontexts.md
-      - name: getExternalContextProperty
-        href: reference/externalcontext/getexternalcontextproperty.md 
-      - name: invokeExternalContextAction
-        href: reference/externalcontext/invokeexternalcontextaction.md                 
+#      href: reference/externalcontext.md
+#      items:
+#      - name: getAvailableExternalContexts
+#        href: reference/externalcontext/getavailableexternalcontexts.md
+#      - name: getExternalContextProperty
+#        href: reference/externalcontext/getexternalcontextproperty.md 
+#      - name: invokeExternalContextAction
+#        href: reference/externalcontext/invokeexternalcontextaction.md                 
     - name: Factory
       href: reference/factory.md
       items:
