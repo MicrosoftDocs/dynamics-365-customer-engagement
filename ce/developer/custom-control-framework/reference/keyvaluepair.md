@@ -2,7 +2,7 @@
 <!-- 
 The System.Dictionary from MicrosoftAjax.d.ts 
 -->
-[!INCLUDE [keyvaluepair-description](includes/dictionary-description.md)]
+[!INCLUDE [keyvaluepair-description](includes/keyvaluepair-description.md)]
 
 
 ### Related topics

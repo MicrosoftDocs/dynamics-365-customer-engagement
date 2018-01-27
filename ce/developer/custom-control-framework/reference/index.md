@@ -30,7 +30,7 @@ This section contains reference documentation for creating custom controls using
 |[Entity](entity.md)|[!INCLUDE [entity-description](includes/entity-description.md)]|
 |[EntityReference](entityreference.md)|[!INCLUDE [entityreference-description](includes/entityreference-description.md)]|
 |[Factory](factory.md)|[!INCLUDE [factory-description](includes/factory-description.md)]|
-|[KeyValuePair](keyvaluepair.md)|[!INCLUDE [dictionary-description](includes/dictionary-description.md)]|
+|[KeyValuePair](keyvaluepair.md)|[!INCLUDE [keyvaluepair-description](includes/keyvaluepair-description.md)]|
 |[LinkEntity](linkentity.md)|[!INCLUDE [linkentity-description](includes/linkentity-description.md)]|
 |[Linking](linking.md)|[!INCLUDE [linking-description](includes/linking-description.md)]|
 |[Formatting](formatting.md)|[!INCLUDE [formatting-description](includes/formatting-description.md)]|
