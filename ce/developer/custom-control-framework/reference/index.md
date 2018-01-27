@@ -24,7 +24,7 @@ This section contains reference documentation for creating custom controls using
 |[Client](client.md)|[!INCLUDE [client-description](includes/client-description.md)]|
 |[ConditionExpression](conditionexpression.md)|[!INCLUDE [conditionexpression-description](includes/conditionexpression-description.md)]|
 |[Context](context.md)|[!INCLUDE [context-description](includes/context-description.md)]|
-|[Control](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
+|[Control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
 |[DataSet](dataset.md)|[!INCLUDE [dataset-description](includes/dataset-description.md)]|
 |[DateFormattingInfo](dateformattinginfo.md)|[!INCLUDE [dateformattinginfo-description](includes/dateformattinginfo-description.md)]|
 |[Entity](entity.md)|[!INCLUDE [entity-description](includes/entity-description.md)]|

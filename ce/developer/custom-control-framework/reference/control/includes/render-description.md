@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\render-description.md
+Placeholder description: ce\developer\custom-control-framework\reference\control\includes\render-description.md

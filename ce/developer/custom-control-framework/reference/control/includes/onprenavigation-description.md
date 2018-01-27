@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\reference\customcontrol\includes\onprenavigation-description.md
+Placeholder description: ce\developer\custom-control-framework\reference\control\includes\onprenavigation-description.md
