@@ -43,7 +43,7 @@
       href: reference/conditionexpression.md
     - name: Context
       href: reference/context.md      
-    - name: CustomControl
+    - name: Control
       href: reference/control.md
       items:
       - name: destroy
@@ -58,10 +58,10 @@
         href: reference/control/render.md
       - name: updateView
         href: reference/control/updateview.md
-    - name: CustomControlConfiguration
-      href: reference/customcontrolconfiguration.md        
-    - name: CustomControlDescriptor
-      href: reference/customcontroldescriptor.md              
+#    - name: CustomControlConfiguration
+#      href: reference/customcontrolconfiguration.md        
+#    - name: CustomControlDescriptor
+#      href: reference/customcontroldescriptor.md              
     - name: DataSet
       href: reference/dataset.md
       items:
@@ -85,40 +85,40 @@
         href: reference/dataset/setselectedrecordids.md                                                                
     - name: DateFormattingInfo
       href: reference/dateformattinginfo.md
-    - name: Device
-      href: reference/device.md
-      items:
-      - name: captureAudio
-        href: reference/device/captureaudio.md
-      - name: captureImage
-        href: reference/device/captureimage.md
-      - name: captureVideo
-        href: reference/device/capturevideo.md 
-      - name: getBarcodeValue
-        href: reference/device/getbarcodevalue.md 
-      - name: getCurrentPosition
-        href: reference/device/getcurrentposition.md 
-      - name: isCaptureAudioOperationAvailable
-        href: reference/device/iscaptureaudiooperationavailable.md 
-      - name: isCaptureVideoOperationAvailable
-        href: reference/device/iscapturevideooperationavailable.md                                         
-      - name: isGetBarcodeValueOperationAvailable
-        href: reference/device/isgetbarcodevalueoperationavailable.md    
-      - name: isTakePictureOperationAvailable
-        href: reference/device/istakepictureoperationavailable.md  
-      - name: pickFile
-        href: reference/device/pickfile.md        
-    - name: Diagnostics
-      href: reference/diagnostics.md
-      items:
-      - name: traceDebug
-        href: reference/diagnostics/tracedebug.md
-      - name: traceError
-        href: reference/diagnostics/traceerror.md
-      - name: traceInfo
-        href: reference/diagnostics/traceinfo.md
-      - name: traceWarning
-        href: reference/diagnostics/tracewarning.md
+#    - name: Device
+#      href: reference/device.md
+#      items:
+#      - name: captureAudio
+#        href: reference/device/captureaudio.md
+#      - name: captureImage
+#        href: reference/device/captureimage.md
+#      - name: captureVideo
+#        href: reference/device/capturevideo.md 
+#      - name: getBarcodeValue
+#        href: reference/device/getbarcodevalue.md 
+#      - name: getCurrentPosition
+#        href: reference/device/getcurrentposition.md 
+#      - name: isCaptureAudioOperationAvailable
+#        href: reference/device/iscaptureaudiooperationavailable.md 
+#      - name: isCaptureVideoOperationAvailable
+#        href: reference/device/iscapturevideooperationavailable.md                                         
+#      - name: isGetBarcodeValueOperationAvailable
+#        href: reference/device/isgetbarcodevalueoperationavailable.md    
+#      - name: isTakePictureOperationAvailable
+#        href: reference/device/istakepictureoperationavailable.md  
+#      - name: pickFile
+#        href: reference/device/pickfile.md        
+#    - name: Diagnostics
+#      href: reference/diagnostics.md
+#      items:
+#      - name: traceDebug
+#        href: reference/diagnostics/tracedebug.md
+#      - name: traceError
+#        href: reference/diagnostics/traceerror.md
+#      - name: traceInfo
+#        href: reference/diagnostics/traceinfo.md
+#      - name: traceWarning
+#        href: reference/diagnostics/tracewarning.md
     - name: Dictionary
       href: reference/dictionary.md
     - name: Entity
