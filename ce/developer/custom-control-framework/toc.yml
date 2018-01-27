@@ -195,8 +195,8 @@
         href: reference/formatting/formattime.md 
       - name: getWeekOfYear
         href: reference/formatting/getweekofyear.md 
-    - name: FormProps
-      href: reference/formprops.md
+#    - name: FormProps
+#      href: reference/formprops.md
     - name: KeyValuePair
       href: reference/keyvaluepair.md      
     - name: LinkEntity
