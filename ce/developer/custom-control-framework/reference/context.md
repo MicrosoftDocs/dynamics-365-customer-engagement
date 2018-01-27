@@ -7,11 +7,11 @@
 [!INCLUDE [context-description](includes/context-description.md)]
 
 
-## accessibility
+<!-- ## accessibility
 
 Placeholder description: PropBag.accessibility
 
-**Type**: [Accessibility](accessibility.md)
+**Type**: [Accessibility](accessibility.md) -->
 
 
 
@@ -29,12 +29,12 @@ Placeholder description: PropBag.client
 **Type**: [Client](client.md)
 
 
-
+<!-- 
 ## communicationChannel
 
 Placeholder description: PropBag.communicationChannel
 
-**Type**: [CommunicationChannel](communicationchannel.md)
+**Type**: [CommunicationChannel](communicationchannel.md) -->
 
 
 

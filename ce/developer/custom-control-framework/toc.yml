@@ -4,17 +4,17 @@
   - name: Reference
     href: reference/index.md
     items:
-    - name: Accessibility
-      href: reference/accessibility.md
-      items:
-      - name: blurElementById
-        href: reference/accessibility/blurelementbyid.md
-      - name: focusElementById
-        href: reference/accessibility/focuselementbyid.md
-      - name: getUniqueId
-        href: reference/accessibility/getuniqueid.md
-      - name: registerShortcut
-        href: reference/accessibility/registershortcut.md
+#    - name: Accessibility
+#      href: reference/accessibility.md
+#      items:
+#      - name: blurElementById
+#        href: reference/accessibility/blurelementbyid.md
+#      - name: focusElementById
+#        href: reference/accessibility/focuselementbyid.md
+#      - name: getUniqueId
+#        href: reference/accessibility/getuniqueid.md
+#      - name: registerShortcut
+#        href: reference/accessibility/registershortcut.md
     - name: Client
       href: reference/client.md
       items:
@@ -32,32 +32,32 @@
         href: reference/client/setfullscreen.md                                              
     - name: Column
       href: reference/column.md    
-    - name: CommunicationChannel
-      href: reference/communicationchannel.md
-      items:
-      - name: getPresenceMappedField
-        href: reference/communicationchannel/getpresencemappedfield.md
-      - name: isPresenceEnabled
-        href: reference/communicationchannel/ispresenceenabled.md
+#    - name: CommunicationChannel
+#      href: reference/communicationchannel.md
+#      items:
+#      - name: getPresenceMappedField
+#        href: reference/communicationchannel/getpresencemappedfield.md
+#      - name: isPresenceEnabled
+#        href: reference/communicationchannel/ispresenceenabled.md
     - name: ConditionExpression	
       href: reference/conditionexpression.md
     - name: Context
       href: reference/context.md      
     - name: CustomControl
-      href: reference/customcontrol.md
+      href: reference/control.md
       items:
       - name: destroy
-        href: reference/customcontrol/destroy.md
+        href: reference/control/destroy.md
       - name: getOutputs
-        href: reference/customcontrol/getoutputs.md
+        href: reference/control/getoutputs.md
       - name: init
-        href: reference/customcontrol/init.md
+        href: reference/control/init.md
       - name: onPreNavigation
-        href: reference/customcontrol/onprenavigation.md
+        href: reference/control/onprenavigation.md
       - name: render
-        href: reference/customcontrol/render.md
+        href: reference/control/render.md
       - name: updateView
-        href: reference/customcontrol/updateview.md
+        href: reference/control/updateview.md
     - name: CustomControlConfiguration
       href: reference/customcontrolconfiguration.md        
     - name: CustomControlDescriptor

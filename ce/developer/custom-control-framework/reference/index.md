@@ -20,13 +20,11 @@ This section contains reference documentation for creating custom controls using
 
 |Name|Description|
 |----|-----------|
-|[Accessibility](accessibility.md)|[!INCLUDE [accessibility-description](includes/accessibility-description.md)]|
 |[Column](column.md)|[!INCLUDE [column-description](includes/column-description.md)]|
 |[Client](client.md)|[!INCLUDE [client-description](includes/client-description.md)]|
-|[CommunicationChannel](communicationchannel.md)|[!INCLUDE [communicationchannel-description](includes/communicationchannel-description.md)]|
 |[ConditionExpression](conditionexpression.md)|[!INCLUDE [conditionexpression-description](includes/conditionexpression-description.md)]|
 |[Context](context.md)|[!INCLUDE [context-description](includes/context-description.md)]|
-|[CustomControl](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
+|[Control](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
 |[CustomControlConfiguration](customcontrolconfiguration.md)|[!INCLUDE [customcontrolconfiguration-description](includes/customcontrolconfiguration-description.md)]|
 |[CustomControlDescriptor](customcontroldescriptor.md)|[!INCLUDE [customcontroldescriptor-description](includes/customcontroldescriptor-description.md)]|
 |[DataSet](dataset.md)|[!INCLUDE [dataset-description](includes/dataset-description.md)]|
