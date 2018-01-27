@@ -1,1 +1,0 @@
-This method will re-render the control with the updated values after the function you set in the  [Control](../../control.md).[init](../init.md)*`NotifyOutputChanged`* parameter.
