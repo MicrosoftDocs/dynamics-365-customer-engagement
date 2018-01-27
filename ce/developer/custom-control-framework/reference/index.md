@@ -34,7 +34,6 @@ This section contains reference documentation for creating custom controls using
 |[LinkEntity](linkentity.md)|[!INCLUDE [linkentity-description](includes/linkentity-description.md)]|
 |[Linking](linking.md)|[!INCLUDE [linking-description](includes/linking-description.md)]|
 |[Formatting](formatting.md)|[!INCLUDE [formatting-description](includes/formatting-description.md)]|
-|[FormProps](formprops.md)|[!INCLUDE [formprops-description](includes/formprops-description.md)]|
 |[Mode](mode.md)|[!INCLUDE [mode-description](includes/mode-description.md)]|
 |[Navigation](navigation.md)|[!INCLUDE [navigation-description](includes/navigation-description.md)]|
 |[NumberFormattingInfo](numberformattinginfo.md)|[!INCLUDE [numberformattinginfo-description](includes/numberformattinginfo-description.md)]|
