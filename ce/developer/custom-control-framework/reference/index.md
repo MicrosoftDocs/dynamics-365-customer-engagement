@@ -37,25 +37,17 @@ This section contains reference documentation for creating custom controls using
 |[Mode](mode.md)|[!INCLUDE [mode-description](includes/mode-description.md)]|
 |[Navigation](navigation.md)|[!INCLUDE [navigation-description](includes/navigation-description.md)]|
 |[NumberFormattingInfo](numberformattinginfo.md)|[!INCLUDE [numberformattinginfo-description](includes/numberformattinginfo-description.md)]|
-|[Offline](offline.md)|[!INCLUDE [offline-description](includes/offline-description.md)]|
 |[OrgSettings](orgsettings.md)|[!INCLUDE [orgsettings-description](includes/orgsettings-description.md)]|
 |[Page](page.md)|[!INCLUDE [page-description](includes/page-description.md)]|
 |[Paging](paging.md)|[!INCLUDE [paging-description](includes/paging-description.md)]|
-|[ParameterDefinitionMap](parameterdefinitionmap.md)|[!INCLUDE [parameterdefinitionmap-description](includes/parameterdefinitionmap-description.md)]|
 |[Popup](popup.md)|[!INCLUDE [popup-description](includes/popup-description.md)]|
 |[PopupService](popupservice.md)|[!INCLUDE [popupservice-description](includes/popupservice-description.md)]|
 |[Resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 |[Sort](sort.md)|[!INCLUDE [sort-description](includes/sort-description.md)]|
-|[Style](style.md)|[!INCLUDE [style-description](includes/style-description.md)]|
 |[Theming](theming.md)|[!INCLUDE [theming-description](includes/theming-description.md)]|
 |[ThemingColors](themingcolors.md)|[!INCLUDE [themingcolors-description](includes/themingcolors-description.md)]|
 |[UserSettings](usersettings.md)|[!INCLUDE [usersettings-description](includes/usersettings-description.md)]|
 |[Utility](utility.md)|[!INCLUDE [utility-description](includes/utility-description.md)]|
-|[VirtualComponent](virtualcomponent.md)|[!INCLUDE [virtualcomponent-description](includes/virtualcomponent-description.md)]|
-|[VirtualComponentControlStates](virtualcomponentcontrolstates.md)|[!INCLUDE [virtualcomponentcontrolstates-description](includes/virtualcomponentcontrolstates-description.md)]|
-|[VirtualComponentEventHandlerPair](virtualcomponenteventhandlerpair.md)|[!INCLUDE [virtualcomponenteventhandlerpair-description](includes/virtualcomponenteventhandlerpair-description.md)]|
-|[VirtualComponentProps](virtualcomponentprops.md)|[!INCLUDE [virtualcomponentprops-description](includes/virtualcomponentprops-description.md)]|
-|[WebApi](webapi.md)|[!INCLUDE [webapi-description](includes/webapi-description.md)]|
 
 ### Related topics
 

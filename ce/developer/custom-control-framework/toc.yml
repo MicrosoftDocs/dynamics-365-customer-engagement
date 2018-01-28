@@ -273,8 +273,8 @@
         href: reference/paging/reset.md   
       - name: setPageSize
         href: reference/paging/setpagesize.md                           
-    - name: ParameterDefinitionMap
-      href: reference/parameterdefinitionmap.md      
+#    - name: ParameterDefinitionMap
+#      href: reference/parameterdefinitionmap.md      
     - name: Popup
       href: reference/popup.md
     - name: PopupService
@@ -314,8 +314,8 @@
         href: reference/resources/getstring.md
     - name: Sort
       href: reference/sort.md
-    - name: Style
-      href: reference/style.md         
+#    - name: Style
+#      href: reference/style.md         
     - name: Theming
       href: reference/theming.md
       items:
@@ -369,38 +369,38 @@
         href: reference/utility/retrieverecordcommand.md  
       - name: triggerOfflineMetadataSync
         href: reference/utility/triggerofflinemetadatasync.md 
-    - name: VirtualComponent
-      href: reference/virtualcomponent.md
-      items:
-      - name: getChildren
-        href: reference/virtualcomponent/getchildren.md
-      - name: getComponentId
-        href: reference/virtualcomponent/getcomponentid.md
-      - name: getProperties
-        href: reference/virtualcomponent/getproperties.md
-      - name: getType
-        href: reference/virtualcomponent/gettype.md
-      - name: getVirtualRepresentation
-        href: reference/virtualcomponent/getvirtualrepresentation.md                                
-    - name: VirtualComponentControlStates
-      href: reference/virtualcomponentcontrolstates.md  
-    - name: VirtualComponentEventHandlerPair
-      href: reference/virtualcomponenteventhandlerpair.md  
-    - name: VirtualComponentProps
-      href: reference/virtualcomponentprops.md                    
-    - name: WebApi
-      href: reference/webapi.md
-      items:
-      - name: createRecord
-        href: reference/webapi/createrecord.md     
-      - name: deleteRecord
-        href: reference/webapi/deleterecord.md 
-      - name: executeMultiple
-        href: reference/webapi/executemultiple.md 
-      - name: retrieveMultipleRecords
-        href: reference/webapi/retrievemultiplerecords.md 
-      - name: retrieveRecord
-        href: reference/webapi/retrieverecord.md 
-      - name: updateRecord
-        href: reference/webapi/updaterecord.md   
+#    - name: VirtualComponent
+#      href: reference/virtualcomponent.md
+#      items:
+#      - name: getChildren
+#        href: reference/virtualcomponent/getchildren.md
+#      - name: getComponentId
+#        href: reference/virtualcomponent/getcomponentid.md
+#      - name: getProperties
+#        href: reference/virtualcomponent/getproperties.md
+#      - name: getType
+#        href: reference/virtualcomponent/gettype.md
+#      - name: getVirtualRepresentation
+#        href: reference/virtualcomponent/getvirtualrepresentation.md                                
+#    - name: VirtualComponentControlStates
+#      href: reference/virtualcomponentcontrolstates.md  
+#    - name: VirtualComponentEventHandlerPair
+#      href: reference/virtualcomponenteventhandlerpair.md  
+#    - name: VirtualComponentProps
+#      href: reference/virtualcomponentprops.md                    
+#    - name: WebApi
+#      href: reference/webapi.md
+#      items:
+#      - name: createRecord
+#        href: reference/webapi/createrecord.md     
+#      - name: deleteRecord
+#        href: reference/webapi/deleterecord.md 
+#      - name: executeMultiple
+#        href: reference/webapi/executemultiple.md 
+#      - name: retrieveMultipleRecords
+#        href: reference/webapi/retrievemultiplerecords.md 
+#      - name: retrieveRecord
+#        href: reference/webapi/retrieverecord.md 
+#      - name: updateRecord
+#        href: reference/webapi/updaterecord.md   
     
