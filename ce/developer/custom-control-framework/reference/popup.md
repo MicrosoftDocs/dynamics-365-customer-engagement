@@ -59,7 +59,7 @@ User-defined styles for the popups shadow.
 **Optional**
 
 ## type
-
+<!-- PopupType -->
 The type of Popup
 
 **Type**: `enum`
