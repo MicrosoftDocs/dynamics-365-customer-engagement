@@ -4,6 +4,8 @@
   - name: Reference
     href: reference/index.md
     items:
+    - name: ActionCollection
+      href: reference/actioncollection.md
 #    - name: Accessibility
 #      href: reference/accessibility.md
 #      items:
@@ -131,7 +133,7 @@
         href: reference/entity/getvalue.md                
     - name: EntityReference
       href: reference/entityreference.md          
-    - name: ExternalContext
+#    - name: ExternalContext
 #      href: reference/externalcontext.md
 #      items:
 #      - name: getAvailableExternalContexts
