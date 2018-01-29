@@ -48,7 +48,7 @@ This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress*
 
 This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**.
 
-1. Download and extract the .zip file.
+1. [Download](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452) the sample, and extract the .zip file.
 2. Navigate to the extracted folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
 3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
