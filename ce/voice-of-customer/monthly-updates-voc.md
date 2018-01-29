@@ -23,5 +23,5 @@ Welcome to Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes
 ## Voice of the Customer version 9.0.1027.16
 
 Following are the new and updated features in this release:
-- **Cascade delete of survey**: The reliability and experience of survey delete operation are improved. All the dependent entities of a survey are deleted when the survey is deleted. The pre-requisite user actions, if required, for deleting the survey are displayed on the screen.
-- **Reconfigure Voice of the Customer**: You can now repair or restore the Voice of the Customer configuration if it is accidentally deleted or misconfigured at any point of time.
+- **Cascade delete of survey**: The reliability and experience of survey delete operation are improved. All the dependent entities of a survey are deleted when the survey is deleted. The prerequisite user actions, if required, for deleting the survey are displayed on the screen.
+- **Reconfigure Voice of the Customer**: You can now repair or restore the Voice of the Customer configuration if it is accidentally deleted or misconfigured.
