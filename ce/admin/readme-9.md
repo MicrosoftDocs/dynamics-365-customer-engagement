@@ -661,15 +661,15 @@ Mobile Offline
 
 -   **Limitations for mobile offline JavaScript client SDK Retrieve**.
 
-    -   OData query options should start with \$ similar to URL query
+    -   OData query options should start with `\$` similar to URL query
         parameters.
 
-    -   \$select only retrieves the attribute of the base entity and not of the
+    -   `\$select` only retrieves the attribute of the base entity and not of the
         related entity.
 
-    -   \$expand only uses navigation property names.
+    -   `\$expand` only uses navigation property names.
 
-    -   Only \$select can be specified inside \$expand.
+    -   Only `\$select` can be specified inside `\$expand`.
 
     -   Only 5,000 related records can be retrieved.
 
@@ -677,35 +677,35 @@ Mobile Offline
 
 -   **Limitations for mobile offline JavaScript client SDK Retrieve Multiple**
 
-    -   \$select only retrieves the attribute of the base entity and not of the
+    -   `\$select` only retrieves the attribute of the base entity and not of the
         related entity.
 
-    -   \$expand only uses navigation property names.
+    -   `\$expand` only uses navigation property names.
 
-    -   Only \$select can be specified inside \$expand.
+    -   Only `\$select` can be specified inside `\$expand`.
 
     -   You can use a navigation property only when both participating entities
         are offline-enabled.
 
     -   MaxPageSize is optional and should be greater than zero.
 
-    -   \$filter does not function. These conditional operators are supported:
+    -   `\$filter` does not function. These conditional operators are supported:
         =, !=, \< \>, \<=, \>=.
 
     -   Only AND, OR, NOT logical operators are supported.
 
-    -   \$filter can be applied on base entity attributes, but not on related
+    -   `\$filter` can be applied on base entity attributes, but not on related
         attributes.
 
-    -   \$expand returns next links for N:1 relationships.
+    -   `\$expand` returns next links for N:1 relationships.
 
     -   Next link is JSON formatted and users must construct the next Retrieve
         call using the next link.
 
-    -   \$skiptoken, \$getOnlyRelatedEntity is for internal use only, and should
+    -   `\$skiptoken`, `\$getOnlyRelatedEntity` is for internal use only, and should
         not be changed by users.
 
-    -   \$skip is not supported.
+    -   `\$skip` is not supported.
 
     -   FetchXml only retrieves base entity attributes.
 
