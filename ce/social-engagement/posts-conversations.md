@@ -83,7 +83,7 @@ To build custom [!INCLUDE[pn_microsoft_power_bi](../includes/pn-microsoft-power-
 
 When you engage in a private conversation or reply on Twitter by using a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], these posts allow you to see the full conversation.  
   
-![Conversation view of a post with several replies and direct messages.](media/conversation-view-callouts.png "Conversation view of a post with several replies and direct messages.")  
+![Conversation view of a post with several replies and direct messages](media/conversation-view-callouts.png "Conversation view of a post with several replies and direct messages")  
   
 1.  Addressee of the conversation. In many cases, this is a customer requesting information or help.  
   
@@ -115,7 +115,7 @@ You'll find additional metadata and controls for the posts:
   
 - **Remove post**: Deletes the post from your solution's database.  
   
-- **Copy internal URL (![Copy button.](media/copy-url-icon.png "Copy button."))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to point them to a specific post.  
+- **Copy internal URL (![Copy button](media/copy-url-icon.png "Copy button"))**: Generates an internal link to this post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Copy this URL to your clipboard and share it with other users of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to point them to a specific post.  
   
 - **Reach**: This indicates the potential size of an author's network and connections on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or the influence of a news source. The higher the number of an author's reach, the more likely that this is an influential author. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get relevant data using filters](use-filters.md)  
   

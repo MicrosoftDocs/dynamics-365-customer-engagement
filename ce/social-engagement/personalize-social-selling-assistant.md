@@ -20,7 +20,7 @@ When using the Social Selling Assistant for the first time, users will get recom
 ## Access the Social Selling Assistant dashboard  
  To access the Social Selling Assistant in [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)], go to **Sales** > **Dashboards** and select the **Social Selling Assistant dashboard**.  
   
- ![Screenshot of Dynamics 365 for Sales with the Social Selling Assistant dashboard selected.](media/dashboard-social-selling-assistant.png "Screenshot of Dynamics 365 for Sales with the Social Selling Assistant dashboard selected.")  
+ ![Screenshot of Dynamics 365 for Sales with the Social Selling Assistant dashboard selected](media/dashboard-social-selling-assistant.png "Screenshot of Dynamics 365 for Sales with the Social Selling Assistant dashboard selected")  
   
  If you don't see the Social Selling Assistant dashboard, contact your [!INCLUDE[pn_ms_dyn_365](../includes/pn-ms-dyn-365.md)] administrator.  
   
@@ -37,11 +37,11 @@ When using the Social Selling Assistant for the first time, users will get recom
   
 3.  Click **Share Content**, select the search topics that are relevant for you, and click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
- ![Screenshot of five selected search topics for the Social Selling Assistant personalization settings.](media/select-search-topics-social-selling-assistant.png "Screenshot of five selected search topics for the Social Selling Assistant personalization settings.")  
+ ![Screenshot of five selected search topics for the Social Selling Assistant personalization settings](media/select-search-topics-social-selling-assistant.png "Screenshot of five selected search topics for the Social Selling Assistant personalization settings")  
   
 4.  Click **Get Insights** and manage the topics you want insights for. For example, you might create a new insight group for your business partners and add search topics relating to your partners to get insights so you can stay on top of what your partners are saying on social media. Click **Save** ![Save button](media/save-icon.png "Save button") to apply your changes.  
   
- ![Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them.](media/insight-groups-social-selling-assistant.png "Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them.")  
+ ![Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them](media/insight-groups-social-selling-assistant.png "Overview of the "Get Insights" configuration, showing the default insight groups along with controls to add, edit, or delete them")  
   
      By default, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] creates Insight Groups for **Customers**, **Competitors**, and **My brands**. You can edit (![Edit button](media/edit-icon.png "Edit button")), or remove (![Delete button](media/trashbin-icon.png "Delete button")) them, and create (![Add button](media/add-icon.png "Add button")) additional insight groups.  
   
