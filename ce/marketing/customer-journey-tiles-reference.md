@@ -127,6 +127,8 @@ Workflow tiles provide the following settings in the **Properties** pane while s
 
 Target tiles establish the segment of contacts that will be targeted by your customer journey.
 
+<a name="segment"></a>
+
 ### Segment
 
 A segment is a collection of contacts grouped according to some common attribute or explicit assignment. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)

@@ -176,7 +176,11 @@ If you have more than one set of content settings, exactly one of them will be t
 
 ### Add a suppression segment
 
-A journey's suppression segment contains a list of contacts that the journey will never send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey. You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its General tab and then choose a segment in the **Suppression segment** lookup field.
+A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey or in a recurring journey. 
+
+Suppression segments are especially important for journeys that run for a long time (such as more than a few days), including recurring journeys or journeys with triggers that introduce long delays. That's because once a contact starts the journey, only a suppression segment can remove that contact again&mdash;even if the contact unsubscribes in the meantime.
+
+You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its General tab and then choose a segment in the **Suppression segment** lookup field.
 
 ## Go live to start running the journey and processing contacts
 
