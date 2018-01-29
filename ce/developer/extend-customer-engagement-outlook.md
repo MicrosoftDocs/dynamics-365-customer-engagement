@@ -2,7 +2,7 @@
 title: "Extend Dynamics 365 Customer Engagement for Outlook (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Dynamics 365 for Outlook lets users interact with data while they’re offline and not connected to a server. Dynamics 365 Customer Engagement includes features that let you extend your solutions to offline scenarios by calling the web services offline from your custom code. In addition, the Sdk assembly provides programmatic support for basic Outlook actions such as synchronization, going offline or online, and Dynamics 365 for Outlook state verification. Offline programming uses the ASP.NET Development Server."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 01/29/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -22,8 +22,8 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-> [!NOTE]
-> Dynamics 365 for Outlook (Outlook client) is deprecated with the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] release and will be removed in a future major release. Dynamics 365 App for Outlook, introduced with Dynamics CRM 2016 (version 8.0), is our most up-to-date offering for pairing Dynamics 365 with Microsoft Outlook.
+> [!IMPORTANT]
+> As of 1/29/2018, based on overwhelming customer feedback and our desire to continue supporting our customers, we have **decided not to deprecate [!INCLUDE[pn-crm-2016-outlook-shortest](../includes/pn-crm-2016-outlook-shortest.md)]** ([!INCLUDE[pn-outlook](../includes/pn-outlook.md)] add-in). Please read [this blog post](https://blogs.msdn.microsoft.com/crm/2018/01/29/continued-support-for-outlook-add-in-dynamics-365-for-outlook/) for more details.
 
 [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] lets users interact with data while they’re offline and not connected to a server. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement includes features that let you extend your solutions to offline scenarios by calling the web services offline from your custom code. In addition, the <xref:Microsoft.Crm.Outlook.Sdk> assembly provides programmatic support for basic [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] actions such as synchronization, going offline or online, and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] state verification. Offline programming uses the [!INCLUDE[pn_ms_asp_net_development_server](../includes/pn-ms-asp-net-development-server.md)].  
   
