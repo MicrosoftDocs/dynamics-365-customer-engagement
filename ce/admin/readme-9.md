@@ -159,6 +159,7 @@ Sales and Customer Service web client apps
     occurs while trying to assign a security role to a newly created user.
 
 Sales Hub and Customer Service Hub apps
+---------------------------------------
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
@@ -244,18 +245,18 @@ in the browser or on mobile devices for each scenario. 
 
 -   Other
 
--   User and team queues aren't available in the Add to Queue lookup.
+    -   User and team queues aren't available in the Add to Queue lookup.
 
--   Fallback forms are shown for the main forms for Category, Feedback, and
+    -   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
     the forms manually. This issue will be fixed in the upcoming release, but
     orgs upgrading from Potassium Preview will need to manually activate the
     forms.
 
--   Invalid commands are visible for custom activities from the site map.
+    -   Invalid commands are visible for custom activities from the site map.
 
--   Activities are opened in the Main form layout instead of a Quick Create form
+    -   Activities are opened in the Main form layout instead of a Quick Create form
     when creating a record from a bound dashboard.
 
 App modules and the App Designer
@@ -502,6 +503,7 @@ Dynamics 365 App for Outlook
     Edge in Outlook Web Access causes the browser to be unresponsive.
 
 Dynamics 365 for Outlook
+------------------------
 
 Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update. This
 update includes support for Transport Layer Security (TLS) 1.2, which is
