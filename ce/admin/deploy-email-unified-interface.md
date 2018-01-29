@@ -1,5 +1,5 @@
 ---
-title: "Deploy the Email for Unified Interface app for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Enable accessible email for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 01/30/2018
 ms.reviewer: ""
@@ -16,31 +16,33 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Deploy email for Unified Interface
+# Deploy the Email in Unified Interface app to improve accessibility
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-To improve the accessibility of reading and editing email in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], we're introducing the Email for United Interface app. This topic provides information for admins to install the app and how end users can access it.
+To improve accessibility when reading and editing email in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
 
 ## For admins: Installing the app
 
-Admins, follow these steps to deploy the Email for Unified Interface app.
+Follow these steps to deploy the solution and enable users to use the accessible flow.
 
 **Install the app**
 
-1.  [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
+1.  [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator or delegated admin security roles.  
   
 2.  Select **Admin centers** > **Dynamics 365**.  
 
 3.  Select the **Instances** tab, select the instance to add the app to, and then select **Manage your solutions** ![Manage your solutions](media/manage-solution.png "Manage your solutions").
 
-4.  Select the **Email for United Interface** app, and then select **Install**.  
+4.  Select the **Email in Unified Interface** app, and then select **Install**.  
 
-You can now see the app in the list of published apps. Go to **Settings** > **My Apps**.
+You can now see the app in the list of published apps. Go to **Settings** > **My Apps**. [comment]: <> (This last instruction--to do what? Do they need to do that before they can see the app in the list of published apps? If yes, then the instruction should come first. So should it be step #5?)
 
 ![Email Unified Interface app published](media/email-unified-interface-app-published.png "Email Unified Interface app published")
 
-**Assign users access to the app**
+**Provide users accessible email access**
+
+For users who want to have accessible email access, follow these steps.
 
 1.  Go to **Settings** > **Security** > **Users**.  
   
@@ -48,19 +50,20 @@ You can now see the app in the list of published apps. Go to **Settings** > **My
   
 3.  Select **Manage Roles**.  
   
-    Only the security roles available for that user's business unit are displayed.  
+    Only the security roles available for a user's business unit are displayed.  
   
 4.  In the **Manage User Roles** dialog box, select the **Email app access role** security role, and then select **OK**.  
 
-## For end users: Accessing the app
+## For end users: Use the accessible email flow
 
-End users, here's how you access the Email for Unified Interface app.
+Users with the **Email app access role**, go to **Sales**, **Service**, or **Marketing**. Select **Email Messages** to open emails.
 
-Go to **Sales**, **Service**, or **Marketing**, and then select **Email Messages**.
+> [!NOTE]
+> If you don't see **Sales**, **Service**, or **Marketing**, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been customized. Talk to your administrator or customizer.
 
 ![Select Email Messages](media/select-email-messages75.png "Select Email Messages")
 
-Here you can read and manage your emails in the Email for Unified Interface app.
+Here, you can read and manage your emails in the Email in Unified Interface app.
 
 ![Email for Unified Interface](media/email-for-unified-interface.png "Email for Unified Interface")
 
