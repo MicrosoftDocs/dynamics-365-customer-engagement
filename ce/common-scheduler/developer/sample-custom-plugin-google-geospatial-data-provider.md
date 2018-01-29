@@ -2,7 +2,7 @@
 title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
 description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 for Field Service."
 ms.custom: ""
-ms.date: 01/26/2018
+ms.date: 01/29/2018
 searchScope:  
   - Field Service
   - Project Service   
@@ -27,7 +27,7 @@ manager: "amyla"
 
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
-Download the sample: [TODO: Add the download location from https://code.msdn.microsoft.com]
+Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)
 
 ## Prerequisites
 
@@ -42,7 +42,15 @@ Internet connection is required to download the sample project and to restore th
 
 ## Demonstrates
 
-This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Field Service to use Google Maps API for geospatial data instead of using the default Bing Maps API.
+This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default Bing Maps API.
+
+## Run the sample
+
+This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**.
+
+1. Download and extract the .zip file.
+2. Navigate to the extracted folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
+3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
 ## After running the sample
 
