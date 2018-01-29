@@ -705,12 +705,12 @@ Unified Service Desk
 
 -   Apps built using Unified Interface are not supported with Unified Service
     Desk. More information: [Unified Interface framework for new
-    apps](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)
+    apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
     release, Interactive Service Hub has been rebuilt as a Unified Interface
     app, and is called Customer Service Hub. This implies
-    that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
+    that [support](/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
     the Interactive Service Hub in Unified Service Desk is available only if you
     are running Dynamics 365, version 8.2 or an earlier supported version of
     Microsoft Dynamics CRM.
@@ -718,14 +718,14 @@ Unified Service Desk
 -   **Relationship Insights**: Although you can view information from the
     relationship assistant in the Unified Service Desk client, you cannot
     interact with the information in the client. More information: [Relationship
-    Insights](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/relationship-insights)
+    Insights](/dynamics365/customer-engagement/admin/relationship-insights)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
     not supported.
 
 -   **Multi-select option sets**: Although multi-select option sets display fine
     when hosted in Unified Service Desk (using [CRM
-    Page](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
+    Page](/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
     of hosted control), you cannot change selections in multi-select option sets
     using the Unified Service Desk APIs.
 
@@ -736,7 +736,7 @@ Unified Service Desk
     Unified Service Desk does not support the usage of appid values in URLs to
     refer to a resource. More information: [Design custom business apps by using
     the app
-    designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+    designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------
