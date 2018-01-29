@@ -47,7 +47,6 @@ Next you must set up the segment that you can use as a suppression segment. This
     ```clean
     https://<YourMarketingDomain>/api/data/v9.0/lists?$filter=listname%20eq%20%27<YourListName>%27&$select=listid
     ```
-
      Where:  
     - &lt;YourMarketingDomain&gt; is the domain of your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance (such as contoso.crm10.dynamics.com)
     - &lt;YourListName&gt; is the name of your subscription list. Be sure to apply URL encoding if your list name includes spaces or other special characters.
@@ -56,7 +55,6 @@ Next you must set up the segment that you can use as a suppression segment. This
     ```clean
     {"@odata.context":"https://contoso.crm10.dynamics.com/api/data/v9.0/$metadata#lists(listid)","value":[{"@odata.etag":"W/\"1884167\"","listid":"e5ef57ea-0505-e811-a95a-000d3a135be0"}]}
     ```
-
     The unique ID is the value shown for "listid" in that text ("e5ef57ea-0505-e811-a95a-000d3a135be0" in this example, not including the quotes). Keep the page open in your browser so you can copy this ID later.
 
 1. Open [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and go to **Marketing > Customers > Segments**.
