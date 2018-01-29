@@ -2,8 +2,8 @@
 title: "Create custom plug-in to use your preferred geospatial data provider | MicrosoftDocs"
 description: "Provides information on how to create a custom plug-in to use geospatial data provider other than the default Bing Maps in Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation."
 ms.custom: ""
-ms.date: 01/05/2018
-searchScope:
+ms.date: 01/29/2018
+searchScope:  
   - Field Service
   - Project Service
 ms.reviewer: ""
@@ -53,9 +53,17 @@ The following code in each sample plug-in uses data from the Google API:
 ### ExecuteGeocodeAddress method in the msdyn_GeocodeAddress.cs plug-in file
 
 ```csharp
-public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+public void ExecuteGeocodeAddress(IPluginExecutionContext pluginExecutionContext, IOrganizationService organizationService, ITracingService tracingService)
 {
-    localContext.Trace($"{nameof(msdyn_GeocodeAddress)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+    //Contains 5 fields (string) for individual parts of an address
+    ParameterCollection InputParameters = pluginExecutionContext.InputParameters;
+    // Contains 2 fields (double) for resultant geolocation
+    ParameterCollection OutputParameters = pluginExecutionContext.OutputParameters;
+    //Contains 1 field (int) for status of previous and this plugin
+    ParameterCollection SharedVariables = pluginExecutionContext.SharedVariables;
+
+    tracingService.Trace("ExecuteGeocodeAddress started. InputParameters = {0}, OutputParameters = {1}", InputParameters.Count().ToString(), OutputParameters.Count().ToString());
+
 
     try
     {
@@ -69,40 +77,44 @@ public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterColl
         {
             var userSettingsQuery = new QueryExpression("usersettings");
             userSettingsQuery.ColumnSet.AddColumns("uilanguageid", "systemuserid");
-            userSettingsQuery.Criteria.AddCondition("systemuserid", ConditionOperator.Equal, localContext.PluginExecutionContext.InitiatingUserId);
-            var userSettings = localContext.OrganizationService.RetrieveMultiple(userSettingsQuery);
+            userSettingsQuery.Criteria.AddCondition("systemuserid", ConditionOperator.Equal, pluginExecutionContext.InitiatingUserId);
+            var userSettings = organizationService.RetrieveMultiple(userSettingsQuery);
             if (userSettings.Entities.Count > 0)
                 Lcid = (int)userSettings.Entities[0]["uilanguageid"];
         }
 
         // Arrange the address components in a single comma-separated string, according to LCID
         _address = GisUtility.FormatInternationalAddress(Lcid,
-            (string)InputParameters[Address1Key], (string)InputParameters[PostalCodeKey], (string)InputParameters[CityKey], (string)InputParameters[StateKey], (string)InputParameters[CountryKey]);
+            (string)InputParameters[Address1Key],
+            (string)InputParameters[PostalCodeKey],
+            (string)InputParameters[CityKey],
+            (string)InputParameters[StateKey],
+            (string)InputParameters[CountryKey]);
 
         // Make Geocoding call to Google API
         WebClient client = new WebClient();
         var url = $"https://{GoogleConstants.GoogleApiServer}{GoogleConstants.GoogleGeocodePath}/json?address={_address}&key={GoogleConstants.GoogleApiKey}";
-        localContext.Trace($"Calling {url}\n");
+        tracingService.Trace($"Calling {url}\n");
         string response = client.DownloadString(url);   // Post ...
 
-        localContext.Trace("Parsing response ...\n");
+        tracingService.Trace("Parsing response ...\n");
         DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(GeocodeResponse));    // Deserialize response json
         object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
         GeocodeResponse geocodeResponse = objResponse as GeocodeResponse;       // Unbox into our data contracted class for response
 
-        localContext.Trace("Response Status = " + geocodeResponse.Status + "\n");
+        tracingService.Trace("Response Status = " + geocodeResponse.Status + "\n");
         if (geocodeResponse.Status != "OK")
             throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (Status {geocodeResponse.Status}).");
 
-        localContext.Trace("Checking geocodeResponse.Result...\n");
+        tracingService.Trace("Checking geocodeResponse.Result...\n");
         if (geocodeResponse.Results != null)
         {
             if (geocodeResponse.Results.Count() == 1)
             {
-                localContext.Trace("Checking geocodeResponse.Result.Geometry.Location...\n");
+                tracingService.Trace("Checking geocodeResponse.Result.Geometry.Location...\n");
                 if (geocodeResponse.Results.First()?.Geometry?.Location != null)
                 {
-                    localContext.Trace("Setting Latitude, Longitude in OutputParameters...\n");
+                    tracingService.Trace("Setting Latitude, Longitude in OutputParameters...\n");
 
                     // update output parameters
                     OutputParameters[LatitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lat;
@@ -126,17 +138,22 @@ public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterColl
             , GoogleConstants.GoogleApiServer, ex.GetType().ToString(), ex.Message), ex);
     }
 
-    // For debugging purposes, throw an exception to see the details of the parameters
-    //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
 }
 ```
 
 ### ExecuteDistanceMatrix method in the msdyn_RetrieveDistanceMatrix.cs plug-in file
 
 ```csharp
-public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+public void ExecuteDistanceMatrix(IPluginExecutionContext pluginExecutionContext, IOrganizationService organizationService, ITracingService tracingService)
 {
-    localContext.Trace($"{nameof(msdyn_RetrieveDistanceMatrix)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+    //Contains 2 fields (EntityCollection) for sources and targets
+    ParameterCollection InputParameters = pluginExecutionContext.InputParameters;
+    // Contains 1 field (EntityCollection) for results
+    ParameterCollection OutputParameters = pluginExecutionContext.OutputParameters;
+    //Contains 1 field (int) for status of previous and this plugin
+    ParameterCollection SharedVariables = pluginExecutionContext.SharedVariables;
+
+    tracingService.Trace("ExecuteDistanceMatrix started.  InputParameters = {0},OutputParameters = {1}", InputParameters.Count().ToString(), OutputParameters.Count().ToString());
 
     try
     {
@@ -152,22 +169,22 @@ public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterColl
             + $"&origins={string.Join("|", ((EntityCollection)InputParameters[SourcesKey]).Entities.Select(e => e.GetAttributeValue<double?>("latitude") + "," + e.GetAttributeValue<double?>("longitude")))}"
             + $"&destinations={string.Join("|", ((EntityCollection)InputParameters[TargetsKey]).Entities.Select(e => e.GetAttributeValue<double?>("latitude") + "," + e.GetAttributeValue<double?>("longitude")))}"
             + $"&key={GoogleConstants.GoogleApiKey}");
-        localContext.Trace($"Calling {url}\n");
+        tracingService.Trace($"Calling {url}\n");
         string response = client.DownloadString(url);   // Post ...
 
-        localContext.Trace("Parsing response ...\n");
+        tracingService.Trace("Parsing response ...\n");
         DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(DistanceMatrixResponse));    // Deserialize response json
         object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
         DistanceMatrixResponse distancematrixResponse = objResponse as DistanceMatrixResponse;       // Unbox as our data contracted class for response
 
-        localContext.Trace("Response Status = " + distancematrixResponse.Status + "\n");
+        tracingService.Trace("Response Status = " + distancematrixResponse.Status + "\n");
         if (distancematrixResponse.Status != "OK")
             throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (Status={distancematrixResponse.Status}). {distancematrixResponse.ErrorMessage}");
 
-        localContext.Trace("Checking distancematrixResponse.Results...\n");
+        tracingService.Trace("Checking distancematrixResponse.Results...\n");
         if (distancematrixResponse.Rows != null)
         {
-            localContext.Trace("Parsing distancematrixResponse.Results.Elements...\n");
+            tracingService.Trace("Parsing distancematrixResponse.Results.Elements...\n");
 
             // build and update output parameter
             var result = new EntityCollection();
@@ -188,7 +205,7 @@ public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterColl
     }
 
     // For debugging purposes, throw an exception to see the details of the parameters
-    //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
+    CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
 }
 ```
 
