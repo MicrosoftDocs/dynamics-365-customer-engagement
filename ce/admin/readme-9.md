@@ -1,3 +1,14 @@
+---
+title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
+ms.date: 01/29/2018
+ms.service: "crm-online"
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
+---
+
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
 =========================================================
 
@@ -49,10 +60,32 @@ Starting with Dynamics 365 (online), version 9.0, connections to Customer
 Engagement applications are required to use TLS 1.2 (or later) security
 protocols. This aligns with updated Microsoft and industry security policies and
 best practices. To prevent any disruption to your organization, you might be
-required to take actions to maintain the connectivity to Dynamics 365 Customer
-Engagement applications.
+required to take the following actions to maintain the connectivity to Dynamics
+365 Customer Engagement applications.
 
-Please refer to the following information to help you identify if you are
+1.  Use [supported
+    browsers](https://technet.microsoft.com/library/hh699710.aspx#Anchor_2) to
+    access the Microsoft Dynamics 365 web application. For help identifying if a
+    browser supports the TLS 1.2 requirement, go to this [validation test
+    page](https://tls1-2validationtest.crm10.dynamics.com/TLSvalidation.html).
+
+2.  Recompile your custom Windows clients that were built using the .NET
+    Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
+
+3.  Download and update your Dynamics 365 for Outlook to [version
+    8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
+
+4.  Download [latest version of developer
+    tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
+    from NuGet.
+
+5.  Download and update your Unified Service Desk to [version
+    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
+    want to continue to use older versions of Unified Service Desk, you must
+    [update the client desktop’s registry
+    entries](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/).
+
+Please refer to the following information to help identify whether you are
 impacted and what steps you might need to take:
 
 1.  [Blog announcement on connection security
@@ -134,7 +167,7 @@ in the browser or on mobile devices for each scenario. 
 |---------------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|
 | Sales                                             | –                                      | Sales Hub                           | Sales                       |
 | Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                | –                           |
-| Customer Service - Case management scenarios      | –                                      | Customer Service Hub                | Customer Service            |
+| Customer Service - Case management scenarios      | Customer Service Hub                   | Customer Service Hub                | Customer Service            |
 
  
 
@@ -158,7 +191,7 @@ in the browser or on mobile devices for each scenario. 
     sliding dialog box.
 
 -   A few activity-specific commands aren't available from activity entity
-    grids. They're available in all other places (forms, and so on).
+    grids. They're available in all other places, such as forms.
 
 -   On mobile devices, email is read-only on the Sales Hub.
 
@@ -182,20 +215,11 @@ in the browser or on mobile devices for each scenario. 
         Numbering** \> **Knowledge Articles**) or update the article sequence
         number by using an API.
 
-    -   The Case business process flow isn't available when a new case is being
-        created. It's available after the Case form is saved.
+    -   When assigning a record to a user with insufficient privileges the
+        assignment fails as expected, but no error message is shown.
 
     -   Phone to case process: The Find Case option on the Identify stage isn't
         available for update for an existing case.
-
-    -   The SLA lookup, when added via case entity form customization renders as
-        read-only and the user will not be able to use the look-up to associate
-        an on-demand SLA with the case record. This impacts only those set of
-        customers who are on 9.0 version already and receiving an interim 9.0
-        update. This issue does not impact new users signing for Dynamics 365
-        trial.
-
-    -   The Similar Cases sub-grid isn't available on the Case form.
 
     -   On mobile devices, email is read-only on the Customer Service Hub.
 
@@ -209,9 +233,19 @@ in the browser or on mobile devices for each scenario. 
 
     -   Anchor links aren't working in the Knowledge Search control.
 
+    -   Knowledge Base Search control causes an error when the auto-suggestion
+        feature is used without adding the auto-suggest field to the form.
+
 -   Other
 
 -   User and team queues aren't available in the Add to Queue lookup.
+
+-   Access team template definition, is currently not supported.
+
+-   When associating a large number of case records in a Parent-child
+    relationship at one go, using the Associate Child Cases action on the cases
+    grid, a maximum of 25 case records is shown in the Set Parent Child
+    Relationship dialog.
 
 -   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
@@ -272,7 +306,14 @@ Data visualization
 
 -   When an activity grid is configured to be rendered as a calendar control,
     the **Open Dashboards** command opens the Activity Pointer dashboard instead
-    of the actual activity dashboard.
+    of the activity dashboard.
+
+-   The ribbon context for any entity of Activity type defaults to
+    Activitypointer, and hence the stream quick actions show commands relevant
+    for all activities, rather than honoring the entity’s ribbon context.
+
+-   Custom interactive dashboards of any Activity entity other than the
+    Activitypointer are known to result in an error
 
 -   Filtering by using multi-select option sets in global filters isn't
     supported.
@@ -287,10 +328,6 @@ Data visualization
 
 -   On iOS devices, a chart in expand mode might look blurred.
 
--   Filters on a chart aren't preserved. If you select **Hide Chart** and then
-    **Show Chart**, the chart filter is lost and all the data in the entire view
-    is reloaded.
-
 -   On phone devices, the chart overlaps the records available in a grid after
     you close the expanded view for the grid page.
 
@@ -302,6 +339,12 @@ Data visualization
 
 -   When you select **Show Chart** on a grid while in offline mode, no chart
     will be displayed.
+
+Subject tree control
+
+-   To select a value for the subject attribute on a form or on the Convert-to
+    dialogs, click on the space that displays the subject value. Clicking on the
+    down arrow of the Subject tree control does not launch the subject flyout.
 
 Timeline control
 
@@ -320,6 +363,9 @@ Timeline control
 
 Field controls and mobile application in Unified Interface
 ----------------------------------------------------------
+
+-   The Lookup control shows two vertical scrollbars. There is no functional
+    impact due to this.
 
 -   Visual controls aren't fully functional.
 
@@ -360,6 +406,15 @@ Field controls and mobile application in Unified Interface
 Grids and lists in Unified Interface
 ------------------------------------
 
+-   In grids, when viewing records available from 2nd to Nth page, any command
+    bar action performed will take you back to the 1st page of the grid. The
+    command bar action is successfully completed and there is no functional
+    impact due to this.
+
+-   If the Quick find view definition is customized to include any Date-time
+    attributes as find columns, then the Quick find search for Date-time fields
+    returns incorrect results. The records retuned are for searched date -1.
+
 -   On tablets, in some languages, the index (character) filters might be
     displayed too close to each other. The workaround is to use the Search
     command to find records that begin with a certain character.
@@ -397,7 +452,8 @@ Activities in Unified Interface
 -   Task, Phone Call, Appointment, and Custom activities don't honor the
     **read-only in mobile** flag on Unified Interface.
 
--   The Save button still shows after the user saves an appointment task.
+-   The bBsingthe user esingan and focusing on fieldThe Save button still shows
+    after the user saves an appointment task.
 
 -   Scrolling in the body of an email stops working after the user opens an
     attachment twice on the device.
@@ -412,10 +468,9 @@ Activities in Unified Interface
 
 -   Related campaign field is not present in convert to opportunity dialog.
 
--   Converting a custom activity to opportunity results in an error.
-
--   Social Activities views are not displayed in My Activities views. The
-    workaround is viewing Social activities in All Activities view.
+-   Converting a custom activity to opportunity results in an error. Social
+    Activities views are not displayed in My Activities views. The workaround is
+    viewing Social activities in All Activities view.
 
 Dynamics 365 App for Outlook
 ----------------------------
@@ -444,8 +499,8 @@ Dynamics 365 App for Outlook
 
 -   When entering text in the **Look for Records** field when you set regarding,
     in Outlook 2013 and Outlook 2016, some of the characters disappear. On
-    Chrome, Internet Explorer 11, and Edge the lookup sometimes stays in the
-    "Loading…" state forever.
+    Chrome, Internet Explorer 11, and Microsoft Edge the lookup sometimes stays
+    in the "Loading…" state forever.
 
 -   The Back button doesn't work on Outlook 2016 and Outlook 2013. On browsers,
     selecting the back icon navigates to the previous webpage (this is the same
@@ -458,12 +513,23 @@ Dynamics 365 App for Outlook
 
 -   The app is currently not supported on Outlook for Mac.
 
--   While scrolling in the app, the action might be delayed or the app might
+-   While scrolling in the app, the action might be delayed, or the app might
     become unresponsive for few seconds.
 
 -   When tracking / set regarding to an email, and selecting **View email in
     Dynamics 365**, one of sections in the email entity might display an error
     "You are not a member of this organization."
+
+-   Opening and closing the app a few times repeatedly on Internet Explorer and
+    Microsoft Edge in Outlook Web Access causes the browser to be unresponsive.
+
+Dynamics 365 for Outlook
+
+Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update. This
+update includes support for Transport Layer Security (TLS) 1.2, which is
+required for connecting Dynamics 365 for Outlook with Dynamics 365 (online),
+version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
+Outlook](https://www.microsoft.com/en-us/download/details.aspx?id=56327).
 
 Inactivity timeout
 ------------------
@@ -475,8 +541,6 @@ Inactivity timeout
     -   Dynamics 365 for tablets
 
     -   Dynamics 365 for phones
-
-    -   Unified Service Desk using the WPF browser
 
     -   Unified Interface
 
@@ -495,9 +559,14 @@ This feature is in Public Preview and can be activated under System Settings.
 When activated, users should observe the following behaviors:
 
 -   Action steps within business process flows cannot use process actions that
-    contain any of the following: any input or output arguments of type Entity,
-    EntityCollection, or Option Set (picklist); more than one output argument of
-    type EntityReference; or any input arguments of type EntityReference.
+    contain any of the following:
+
+    -   Any input or output arguments of the type Entity, EntityCollection, or
+        Option Set (picklist).
+
+    -   More than one output argument of the type EntityReference.
+
+    -   Any input arguments of the type EntityReference.
 
 -   Action steps on business process flows cannot be exported or imported as
     part of a solution.
@@ -549,7 +618,7 @@ Web client visual refresh
 
     -   Doesn't change dynamically when the height of a field or component
         changes and might leave an empty space. However, this empty space will
-        disappear on refresh
+        disappear on refresh.
 
 Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 version 9.0, or later 
 -------------------------------------------------------------------------------------------------------------------------------
@@ -573,80 +642,256 @@ Cortana integration with Dynamics 365
 Mobile Offline
 --------------
 
--   Any BPF which will update the entity will throw conflict errors on upsync of
-    any offline changes, where the entity records have been created or updated.
-    Work around is to disable conflict detection from Mobile Offline settings
-    for the org.
+-   **Offline web resources are not available on Windows tablets**. Web
+    resources are not available in offline mode on Windows tablets.
 
--   Change of organization URL leads to disabling of mobile offline feature
+-   **Background synchronization frequency is not defined.** The background
+    synchronization frequency is determined by the operating system; not by the
+    mobile app.
+
+-   **Limitation for mobile offline JavaScript client SDK for Create Record and
+    Update Record**. The client SDK can't be used to create or update intersect
+    entity records, offline disabled entity records, or activity party entity
+    records. Data input validation does not occur. All data-related validations
+    occur during the sync to Dynamics 365.
+
+-   **Limitation for mobile offline JavaScript client SDK Delete**. The client
+    APIs can't be used to delete the intersect entity, offline disabled entity,
+    or activity party entities.
+
+-   **Limitations for mobile offline JavaScript client SDK Retrieve**.
+
+    -   OData query options should start with \$ similar to URL query
+        parameters.
+
+    -   \$select only retrieves the attribute of the base entity and not of the
+        related entity.
+
+    -   \$expand only uses navigation property names.
+
+    -   Only \$select can be specified inside \$expand.
+
+    -   Only 5,000 related records can be retrieved.
+
+    -   A next link is not provided.
+
+-   **Limitations for mobile offline JavaScript client SDK Retrieve Multiple**
+
+    -   \$select only retrieves the attribute of the base entity and not of the
+        related entity.
+
+    -   \$expand only uses navigation property names.
+
+    -   Only \$select can be specified inside \$expand.
+
+    -   You can use a navigation property only when both participating entities
+        are offline-enabled.
+
+    -   MaxPageSize is optional and should be greater than zero.
+
+    -   \$filter does not function. These conditional operators are supported:
+        =, !=, \< \>, \<=, \>=.
+
+    -   Only AND, OR, NOT logical operators are supported.
+
+    -   \$filter can be applied on base entity attributes, but not on related
+        attributes.
+
+    -   \$expand returns next links for N:1 relationships.
+
+    -   Next link is JSON formatted and users must construct the next Retrieve
+        call using the next link.
+
+    -   \$skiptoken, \$getOnlyRelatedEntity is for internal use only, and should
+        not be changed by users.
+
+    -   \$skip is not supported.
+
+    -   FetchXml only retrieves base entity attributes.
+
+-   **Limitations on views in mobile offline**
+
+    -   Entity views that have a date hierarchy-based parameter used as filter
+        criteria, are not available in mobile offline.
+
+    -   Only system views are supported in mobile offline.
+
+    -   If a view has attributes from any other offline-disabled entity, data
+        will not be shown in that view in mobile offline.
+
+-   **Limitation on mobile offline security**
+
+    -   Field level security attribute sharing is not supported in offline mode.
+
+-   Any Business Process Flow that updates the entity will throw conflict errors
+    when syncing offline changes, where the entity records have been created or
+    updated. The work around is to disable conflict detection from Mobile
+    Offline settings for the organization.
+
+    -   With Business Process Flow enabled, lead to opportunity qualify fails in
+        offline mode.
+
+    -   With Business Process Flow enabled, opportunity creation fails in
+        offline mode.
+
+-   When you change the organization URL, the mobile offline feature is
+    disabled.
 
 -   When you delete an entity field and immediately create another entity field
-    with the same name and a different data type, you might see an Offline Sync
+    with the same name, but a different data type, you might see an offline sync
     failure. The workaround is to do one of the following:
 
-    -   Don't give the same name to columns that have different data types.
+    -   Don't give columns the same name if they have different data types.
 
-    -   If it is necessary to give the same name to columns that have different
-        data types, wait at least 10 minutes after you delete the field before
-        you re-create a field with the same name and a different data type.
+    -   If it’s necessary to give the columns that have different data types the
+        same name, wait at least 10 minutes after you delete the field before
+        you re-create it.
 
--   Multi-select option set on a form isn't supported in offline.
-
--   Activity Entity views like All Appointments, All Tasks, and All Phone calls
-    aren't supported in offline. Only the full activity views like All
-    Activities and My Activities are supported in offline.
+-   Activity Entity views, such as All Appointments, All Tasks, and All Phone
+    calls, aren't supported in offline mode. Only the full activity views, such
+    as All Activities and My Activities, are supported in offline mode.
 
 -   Only the Lead to Opportunity Sales Process Cross Entity business process
-    flow is supported in offline. Other cross-entity business process flows
-    aren't supported in offline
+    flow is supported in offline mode. Other cross-entity business process flows
+    aren't supported in offline mode.
 
 -   Multiple instances of business process flows on a single record aren't
-    supported in offline.
+    supported in offline mode.
 
--   Activity Grid fails to load in offline unless email is added to the Mobile
-    Offline profile
+-   Activity Grid fails to load in offline mode unless email is added to the
+    Mobile Offline profile.
 
--   User is not notified of any unsaved changes during sign-out or reconfigure
+-   Users are not notified of any unsaved changes during sign-out or
+    reconfiguration.
 
--   Email body is rendered blank in offline mode
+-   The Email body is rendered blank in offline mode.
 
--   Calendar view is not supported in offline, and there could be some
-    inconsistencies in the data in this view in offline.
+-   Calendar view is not supported in offline mode. There might be some
+    inconsistencies in the Calendar view data in offline mode.
 
--   IFrames are not supported in offline mode
+-   IFrames are not supported in offline mode.
 
--   Updates to a BU for a user role when the user is offline are not synced
-    properly on reconnecting
+-   Updates to a business unit for a user role when the user is offline are not
+    synced properly upon reconnection.
 
 -   Attachment records created in online mode on the client are not immediately
-    available in offlineDB. They are available after the next sync from server.
+    available in the offline database. They are available after the next sync
+    from the server.
 
--   In Offline mode, parent records are not pre-populated on create of child
-    entities from subgrid of parent entity
+-   When you create child entities from the parent entity subgrid in offline
+    mode, parent records are not pre-populated
 
--   Grid does not auto-refresh on closing of opportunity from grid
+-   When you close an opportunity from the gird, the grid does not auto-refresh.
 
--   Profile Analyze Report does not include activity views.
+-   The Profile Analyze Report does not include activity views.
 
--   Profile Analyze Report does gives wrong indication for activity entity views
-    like My Appointment etc.
+-   The Profile Analyze Report incorrectly indicates offline availability for
+    activity entity views, such as My Appointment.
 
--   Client sync may take up to 11 minutes when app is re-launched in online Mode
+-   Client sync might take up to eleven minutes when the app is re-launched in
+    online mode.
 
--   Records with a BPF associated need to have sufficient privileges configured
-    on BPF entity also.
+-   Records with an associated Business Process Flow must have sufficient
+    permissions configured on the Business Process Flow entity.
 
--   Opportunity products subgrid in opportunity record is in loading state in
+-   In the Opportunity entity form, the Opportunity Product subgrid does not
+    load successfully in offline mode. It remains in a 'loading' state.
+
+-   Next Stage intermittently fails to respond in offline mode.
+
+-   The option to switch between view modes is intermittently unavailable in
+    offline mode.
+
+-   Mobile offline does not support virtual entities. If a virtual entity is
+    enabled for mobile offline, the associated profile metadata will result in
+    an error.
+
+-   Any form with the multiselect option set, will not be supported for mobile
     offline.
 
--   With BPF enabled, lead to opportunity qualify fails in offline mode
+-   The Timeline control is not supported in offline mode.
 
--   With BPF enabled, opportunity creation fails in offline mode
+-   Attachments are not immediately available for offline synchronization.
 
--   Next Stage does not respond in offline mode intermittently
+Unified Service Desk
+--------------------
 
--   On activities show as option to switch between view modes is not available
-    in offline intermittently
+-   Case form does not load completely on IE11 browser
+
+-   Download and update your Unified Service Desk to [version
+    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
+    want to continue to use older versions of Unified Service Desk, you will
+    need to update the client desktop’s registry entries[. Read the blog about
+    Unified Service Desk and TLS 1.2
+    mandate](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/)
+    to update these registry entries. . Read the blog about Unified Service Desk
+    and TLS 1.2 mandate￼￼￼￼ to update these registry entries. . Read the blog
+    about Unified Service Desk and TLS 1.2 mandate￼￼￼￼ to update these registry
+    entries. . Read the blog about Unified Service Desk and TLS 1.2 mandate￼￼￼￼
+    to update these registry entries. . Read the blog about Unified Service Desk
+    and TLS 1.2 mandate￼￼￼￼ to update these registry entries. . Read the blog
+    about Unified Service Desk and TLS 1.2 mandate￼￼￼￼ to update these registry
+    entries. . Read the blog about Unified Service Desk and TLS 1.2 mandate￼￼￼￼
+    to update these registry entries. . Read the blog about Unified Service Desk
+    and TLS 1.2 mandate￼￼￼￼ to update these registry entries. . Read the blog
+    about Unified Service Desk and TLS 1.2 mandate￼￼￼￼ to update these registry
+    entries. . Read the blog about Unified Service Desk and TLS 1.2 mandate￼￼￼￼
+    to update these registry entries. . Read the blog about Unified Service Desk
+    and TLS 1.2 mandate￼￼￼ to update these registry entries. . Read the blog
+    about Unified Service Desk and TLS 1.2 mandate￼ to update these registry
+    entries. . Read the blog about Unified Service Desk and TLS 1.2 mandate to
+    update these registry entries.
+
+-   Apps built using Unified Interface are not supported with Unified Service
+    Desk. More information: [Unified Interface framework for new
+    apps](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)Unified
+    Interface framework for new appsUnified Interface framework for new
+    appsUnified Interface framework for new apps
+
+-   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
+    release, Interactive Service Hub has been rebuilt as a Unified Interface
+    app, and is called Customer Service Hub. This implies
+    that [support](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
+    the Interactive Service Hub in Unified Service Desk is available only if you
+    are running Dynamics 365, version 8.2 or an earlier supported version of
+    Microsoft Dynamics CRM.support for the Interactive Service Hub in Unified
+    Service Desk is available only if you are running Dynamics 365, version 8.2
+    or an earlier supported version of Microsoft Dynamics CRM.support for the
+    Interactive Service Hub in Unified Service Desk is available only if you are
+    running Dynamics 365, version 8.2 or an earlier supported version of
+    Microsoft Dynamics CRM.support for the Interactive Service Hub in Unified
+    Service Desk is available only if you are running Dynamics 365, version 8.2
+    or an earlier supported version of Microsoft Dynamics CRM.
+
+-   **Relationship Insights**: Although you can view information from the
+    relationship assistant in the Unified Service Desk client, you cannot
+    interact with the information. More information: [Relationship
+    Insights](https://docs.microsoft.com/dynamics365/customer-engagement/admin/relationship-insights)Relationship
+    InsightsRelationship InsightsRelationship Insights
+
+-   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
+    not supported.
+
+-   **Multi-select option sets**: Although multi-select option sets display fine
+    when hosted in Unified Service Desk (using [CRM
+    Page](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
+    of hosted control), you cannot change selections in multi-select option sets
+    using the Unified Service Desk APIs.CRM Page type of hosted control), you
+    cannot change selections in multi-select option sets using the Unified
+    Service Desk APIs.CRM Page type of hosted control), you cannot change
+    selections in multi-select option sets using the Unified Service Desk
+    APIs.CRM Page type of hosted control), you cannot change selections in
+    multi-select option sets using the Unified Service Desk APIs.
+
+-   **URL addressability in business apps**: Business apps (app modules) use the
+    appid value in the URLs to refer to resources displayed in an app. For
+    example:
+    “https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.”
+    Unified Service Desk does not support the use of appid values in URLs to
+    refer to a resource. More information: [Design custom business apps by using
+    the app
+    designer](https://docs.microsoft.com/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)Design
+    custom business apps by using the app designer
 
 Third-party notice 
 -------------------
