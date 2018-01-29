@@ -1,6 +1,6 @@
 ---
-title: "Design a basic survey by using Voice of the Customer | MicrosoftDocs"
-description: "Learn how to create a basic survey by using Voice of the Customer and add questions to it."
+title: "Design a basic survey using Voice of the Customer | MicrosoftDocs"
+description: "Learn how to create a basic survey using Voice of the Customer and add questions to it."
 keywords: "survey design;  survey theme; share survey; clone survey"
 ms.date: 01/26/2018
 ms.service: crm-online
@@ -18,10 +18,10 @@ topic-status: Drafting
 
 # Design a basic survey
 
-After deciding the types of questions you want to include in your survey, you must now create the survey. This chapter provides information about the basics of survey designing, for example, creating a survey theme, adding questions to the survey, and so on. More information about advanced survey design: [Design an advanced survey](design-advanced-survey.md)  
+After deciding the types of questions you want to include in your survey, you must now create the survey. This article provides information about the basics of designing a survey, creating a survey theme, and adding questions to the survey. More information about advanced survey design: [Design an advanced survey](design-advanced-survey.md)  
 
 > [!NOTE]
-> You must be assigned the Survey Administrator or Survey Designer role to perform the actions described in this chapter. The Survey Administrator role has access at the organization level, whereas the Survey Designer role has access at the business-unit level.
+> You must be a survey administrator or survey designer to perform the actions described in this chapter. A survey administrator has access at the organization level, whereas the Survey Designer role has access at the business-unit level.
 
 ## Create a survey theme
 
@@ -77,7 +77,7 @@ After creating a theme for your survey and uploading the images to [!INCLUDE[pn-
 
 4.  To edit an existing survey, select the name of the survey.
 
-5.  Enter information in the **Summary** area, and then select **Save** to create the survey record so you can continue creating your survey.
+5.  Enter information in the **Summary** area, and then select **Save** to create the survey record so you can continue working on your survey.
 
 6.  In the **Survey Runtime** area, specify the theme and logo image you want to use. Also, set the values for header and footer text, navigation, and other options.
 
@@ -105,7 +105,7 @@ You can add more pages as required by your survey.
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to add or edit a page.
+3.  Select the name of the survey that you want to add a page to or edit.
 
 4.  From the **Survey** box, select **Designer**.
 
@@ -123,13 +123,13 @@ You can add more pages as required by your survey.
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey to which you want to add questions.
+3.  Select the name of the survey that you want to add questions to.
 
 4.  From the **Survey** box, select **Designer**.
 
     ![Select survey designer](media/survey-designer.png "Select survey designer")  
 
-5.  Select the page on which you want to add a question.
+5.  Select the page thath you want to add a question to.
 
 6.  To add a question, drag the type of question you want from the **Survey parts** pane to the location you want on the survey page. If you need help, point to a survey part to read the tooltip. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide the best question type](#decide-the-question-type)  
 
@@ -138,12 +138,12 @@ You can add more pages as required by your survey.
 8.  To add a new page or edit an existing page, see [Add or edit a page](#add-or-edit-a-survey-page).  
 
     > [!NOTE]
-    > - Drag-and-drop editing only works with a mouse or other pointing device. It's not supported through touch on devices with touch screens, like tablets.
+    > - Drag-and-drop editing only works with a mouse or other pointing device. It's not supported through devices with touch screens, like tablets.
     > - Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
 
 9. To personalize your survey with fields like the customer's name or service case number, use piped data. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize a survey](#personalize-a-survey)  
 
-10. To take different actions based on a customer's response in the survey, like showing additional questions or sending a request for contact to a user within your organization, use response routing. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design interactive surveys](#design-interactive-surveys)  
+10. To take different actions based on a customer's response in the survey, like showing additional questions or sending a contact request to someone within your organization, use response routing. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design interactive surveys](#design-interactive-surveys)  
 
 11. To save your work, select **Save** in the lower-right corner of the screen. 
 
@@ -155,11 +155,11 @@ You can import a section (along with its questions) from another survey into you
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey into which you want to import a section.
+3.  Select the name of the survey that you want to import a section into.
 
 4.  From the **Survey** box, select **Designer**.
 
-5.  Edit the page into which you want to import the section.
+5.  Edit the page that you want to import the section into.
 
 6.  In the **Section To Copy And Import** field, browse to the section to be imported.
 
@@ -167,13 +167,13 @@ You can import a section (along with its questions) from another survey into you
 
     ![Select a section to import in a survey](media/import-section.png "Select a section to import in a survey")  
 
-8.  Select **Save** in the lower-right corner of the screen. The section is imported, and the word **- Imported** is appended to the section name.
+8.  Select **Save** in the lower-right corner of the screen. The section is imported, and **- Imported** is appended to the section name. [comment]: <> (I changed this from "The section is imported, and the word.." because there is a dash before the word Imported. It appends more than the word, correct?)
 
     ![Imported section in a survey](media/imported-section.png "Imported section in a survey")  
 
 ### Share questions between surveys by using linked questions
 
-You can easily share questions between surveys for reporting purposes by using linked questions. For example, you might have a common question about customer satisfaction that you ask all respondents at the end of each survey and you want to report on that question from all surveys. Another example where linking questions is recommended is for multilingual surveys: you might have cloned the survey for five different languages but want to report on the results across all languages. Linked questions are also used by response routing rules to create actions from a survey response.
+You can easily share questions between surveys for reporting purposes by using linked questions. For example, you might have a common question about customer satisfaction that you ask all respondents at the end of each survey and you want to report on that question from all surveys. Another example where linking questions is recommended is for multilingual surveys; you might have cloned the survey for five different languages but want to report on the results across all languages. Linked questions are also used by response routing rules to create actions from a survey response.
 
 To create a linked question:
 
@@ -181,7 +181,7 @@ To create a linked question:
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey in which you want to create a linked question.
+3.  Select the name of the survey that you want to create a linked question in.
 
 4.  From the **Survey** box, select **Designer**.
 
@@ -219,11 +219,11 @@ You can add the following data as placeholders:
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey to which you want to add piped data.
+3.  Select the name of the survey that you want to add piped data to.
 
 4.  From the **Survey** box, select **Designer**.
 
-5.  Select **Edit** on the question or element to which you want to add piped data.
+5.  Select **Edit** on the question or element that you want to add piped data to.
 
 6.  Place the cursor at the location where you want to add the piped data field.
 
@@ -260,7 +260,7 @@ The **Preview**, **Publish**, and **Test** commands are available on the toolbar
 
 -   To step through your survey as it will look to respondents, select **Test**. You can't test a survey until after you publish it.
 
-For example, if you add two questions to a published survey, you preview it first to see whether the survey is working fine. After previewing the survey, you publish it to the cloud, and then you can test the survey to see how it will look to respondents. If you test the survey before you publish it, you will not see your recent changes.
+For example, if you add two questions to a published survey, preview it first to see if the survey is working. After previewing the survey, you publish it to the cloud and then you can test the survey to see how it will look to respondents. If you test the survey before you publish it, you will not see your recent changes.
 
 > [!NOTE]
 > Survey responses are not stored in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] when you preview or test a survey.
@@ -277,7 +277,7 @@ You can reuse existing questions and sections to avoid creating the same questio
 
 ### Clone a survey
 
-Cloning a survey means creating an exact duplicate survey where only the name is different. The new survey is created with an integer appended to the survey name. The cloned survey will be in Draft status. The questions are separate from the first survey, and any changes to either survey is not reflected in the other survey.
+Cloning a survey means creating an exact duplicate survey where only the name is different. The new survey is created with an integer appended to the survey name. The cloned survey will be in Draft status. The questions are separate from the first survey, and any changes to one survey are not reflected in the other survey.
 
 > [!NOTE]
 > To clone a survey, it must be in Published status. You cannot clone a survey that is in Draft status.
