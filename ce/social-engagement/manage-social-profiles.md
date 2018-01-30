@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 12/12/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -158,7 +158,8 @@ If you know the credentials to a social profile, you can claim ownership for it.
 
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
-### See also  
+### See also 
+ 
  [Engage on social networks](engage-on-social-networks.md)   
  [Check the health state of your social profiles](social-profiles-health-state.md)   
  [Manage access tokens](manage-access-tokens.md)   
