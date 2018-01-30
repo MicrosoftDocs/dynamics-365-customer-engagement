@@ -2,7 +2,7 @@
 title: "Create a record from a post in Social Engagement | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 to create new lead or case records."
 keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social activity, entity, entities"
-ms.date: 09/27/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -119,7 +119,7 @@ The JSON payload of this feature is described in the following table.
 
 A typical JSON payload sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is given here.  
   
-```  
+```json  
 {
   "postmessagetype": 0,
   "community": 2,
