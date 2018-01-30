@@ -30,7 +30,7 @@ See this video to know more about dashboards in the Customer Service Hub:
 The interactive dashboards come in two flavors: 
 
 - Multi-stream dashboards 
-- Single-stream dahsboards  
+- Single-stream dashboards  
   
 When you sign in to the Customer Service Hub, you’re looking at the Tier 1 multi-stream default dashboard. A multi-stream dashboard displays data in real time over multiple data streams. The data in a stream is based on an entity’s view or a queue, such as My Activities, My Cases, or Cases in the Banking Queue. While a stream always contains information only about one entity, each stream on the dashboard may contain information about a different entity. For example, you may be tracking cases in one stream and accounts in the other stream, but, you can’t track cases and accounts in the same stream. In a multi-stream dashboard all streams may be displaying data based on the same entity.  
   

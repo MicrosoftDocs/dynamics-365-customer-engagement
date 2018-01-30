@@ -7,7 +7,7 @@
   },
   "host": "{ServiceUrl}",
   "schemes": [
-    "https"
+    ""
   ],
   "paths": {
     "/api/v1/Currencies": {

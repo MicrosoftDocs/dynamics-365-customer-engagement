@@ -1,14 +1,12 @@
 ﻿# [Overview](overview.md)
 # [What's new](whats-new-field-service-project-service.md)
+
 # Administrator Guide
 ## [Install](install-field-service.md)
 ## [Experiment with demo data](use-demo-data.md)
 ## [View user accounts and security roles](view-user-accounts-security-roles.md)
 ## [Configure default settings](configure-default-settings.md)
 ## [Turn on auto geocoding](turn-on-auto-geocoding.md)
-## [Connected Field Service (IoT)](connected-field-service.md)
-## [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-## [Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
 ## [Mobile app installation](install-the-mobile-app.md)
 ## Resource setup
 ### [Bookable resources](set-up-bookable-resources.md)
@@ -40,14 +38,22 @@
 ### [Agreement sub-statuses](set-up-agreement-sub-statuses.md)
 ### [Payment terms](set-up-payment-terms.md)
 ### [Tax codes](set-up-tax-codes.md)
+
+# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+
+# [Connected Field Service (IoT)](connected-field-service.md)
+## [Extend Connected Field Service to develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
+### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+### [Extend Connected Field Service solutions](developer/extend-connected-field-service-solutions.md)
+#### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
+
 # [User Guide](user-guide.md)
 ## Scheduling
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Create a work order](create-work-order.md)
 ### [Schedule a work order](schedule-work-order.md)
 ### [Submit and approve time-off requests](submit-approve-time-off-requests.md)
-### [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-### [Resource Scheduling Optimization](../common-scheduler/resource-scheduling-optimization.md)
+
 ## Inventory management
 ### [Set up customer assets](configure-set-up-customer-assets.md)
 ### [Create a purchase order](create-purchase-order.md)
@@ -56,8 +62,14 @@
 ### [Process a return](process-return.md)
 ### [Return product to vendor](create-return-vendor.md)
 ### [View product inventory](view-product-inventory.md)
+
 ## [Mobile App User Guide](field-service-mobile-app-user-guide.md)
-# [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
+
+## [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
+
+
+
+
 
 
 

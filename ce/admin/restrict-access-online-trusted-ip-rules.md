@@ -46,11 +46,11 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
   
 3.  Click **Groups** > **Add Group**, and then fill in the settings to create a new group.  
   
-  ![](media/CreateGroup65HL.png "Create a security group")
+  ![Create a security group](media/CreateGroup65HL.png "Create a security group")
   
 4.  Click the group you created and add members.  
  
-  ![](media/RestrictIPGroup65.png "Add members to a restricted group")
+  ![Add members to a restricted group](media/RestrictIPGroup65.png "Add members to a restricted group")
   
 <a name="BKMK_CreateTrustedIPRule"></a>   
 ## Create a location based access rule  
@@ -65,11 +65,11 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
   
 3.  Click **Applications**, and then click  the **Dynamics 365 Online** web application.  
  
-  ![](media/SelectCRMApp65HL.png "Select the Dynamics 365 (online) web app") 
+  ![Select the Dynamics 365 (online) web app](media/SelectCRMApp65HL.png "Select the Dynamics 365 (online) web app") 
   
 4.  Click **Configure**.  
  
-  ![](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 (online) instance")
+  ![Configure Active Directory properties for Dynamics 365 (online) instance](media/ConfigureAD65HL.png "Configure Active Directory properties for Dynamics 365 (online) instance")
 
 5.  Set the following on the Properties page:  
   
@@ -81,17 +81,17 @@ You can limit access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-onl
   
     4.  Set **Rules** to **Block access when not at work**.  
   
-      ![](media/IPRulesProperties65HL.png "Set rule to Block access when not at work")
+      ![Set rule to Block access when not at work](media/IPRulesProperties65HL.png "Set rule to Block access when not at work")
   
     5.  Click **Save** > **OK**.  
   
     6.  Click **Click here to define/edit your work network location**.  
   
-      ![](media/DefineNetworkLoc85HL.png "Define or edit you work network location")
+      ![Define or edit you work network location](media/DefineNetworkLoc85HL.png "Define or edit you work network location")
 
 6.  Enter  trusted IP addresses (using [CIDR notation](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)).  
   
-  ![](media/EnterTrustedIPs75.png "Enter trusted IP addresses")
+  ![Enter trusted IP addresses](media/EnterTrustedIPs75.png "Enter trusted IP addresses")
   
 7.  Click **Save**.  
   

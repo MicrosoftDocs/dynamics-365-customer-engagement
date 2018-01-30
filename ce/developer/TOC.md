@@ -177,6 +177,7 @@
 #### [Set field values using parameters passed to a form](set-field-values-using-parameters-passed-form.md)
 #### [Configure a form to accept custom querystring parameters](configure-form-accept-custom-querystring-parameters.md)
 ### [Open forms, views, and dashboards in Dynamics 365 mobile client with a URL](open-forms-views-dashboards-mobile-client-url.md)
+### [Client scripting using JavaScript](clientapi/client-scripting.md)
 ### [Web resources for Dynamics 365 Customer Engagement](web-resources.md)
 #### [Create accessible web resources](create-accessible-web-resources.md)
 #### [Create web resources and IFrame content for use with the Dynamics 365 for mobile clients](create-web-resources-iframe-mobile.md)
@@ -514,12 +515,11 @@
 
 # [Online Management API](online-management-api/)
 
-# [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)
+<!--# [Connected Field Service Developer Guide](connected-field-service-developer-guide.md)
 ## [Connected Field Service architecture](connected-field-service-architecture.md)
 ## [Extend Connected Field Service solutions](extend-connected-field-service-solutions.md)
-### [IoT - Parent IoT Alerts workflow](iot-parent-iot-alerts-workflow.md)
+### [IoT - Parent IoT Alerts workflow](iot-parent-iot-alerts-workflow.md)-->
 
-# [Marketing Developer Guide](../marketing/developer/marketing-developer-guide.md)
 
 # [Programming reference](programming-reference.md)
 ## [Entity Reference](entities/TOC.yml)
@@ -535,3 +535,7 @@
 ## [Client API Reference](clientapi/reference.md)
 ## [Schemas used in Dynamics 365](schemas-used-dynamics-365.md)
 ## [Customization XML reference](customization-xml-reference.md)
+
+# [Developer Guide for Connected Field Service](../field-service/developer/connected-field-service-developer-guide.md)
+
+<!--# [Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)-->

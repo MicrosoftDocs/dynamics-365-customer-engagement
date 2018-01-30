@@ -12,6 +12,7 @@ applies_to:
 ms.assetid: 6f965196-49f2-463c-8722-f9db3d732e6f
 author: "KumarVivek"
 ms.author: "kvivek"
+robots: noindex,nofollow
 manager: "amyla"
 ---
 # Step 1: Create required entities and forms for custom channel

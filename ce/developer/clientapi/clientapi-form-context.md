@@ -16,10 +16,10 @@ manager: "amyla"
 
 The Client API form context (**formContext**) provides a reference to the form or to an item on the form, such as, a quick view control or a row in an editable grid, against which the current code is executed.
 
-Earlier, the global **Xrm.Page** object was used to represent a form or an item on the form. With [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], the **Xrm.Page** object is [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated), and you should now use the [getFormContext](reference/executioncontext/getFormContext.md) method of the passed in execution context object to return reference to the appropriate form or an item on the form.
+Earlier, the global **Xrm.Page** object was used to represent a form or an item on the form. With [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)], the **Xrm.Page** object is [deprecated](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated), and for you should use the [getFormContext](reference/executioncontext/getFormContext.md) method of the passed in execution context object to return reference to the appropriate form or an item on the form.
 
 > [!IMPORTANT]
-> *Deprecated* means that we intend to remove a feature or capability from a future major release of Dynamics 365; the feature or capability will continue to work and is fully supported until it is officially removed.<br/><br/>Use of the **Xrm.Page** object as a static access to the primary form entity context is *still* supported to maintain backward compatibility with the existing scripts. However, we recommend that you use the new **formContext** object instead of the **Xrm.Page** object in your code targeting version 9.0 or later to ensure that your code continues to work when the **Xrm.Page** object support is dropped in a future major release. Another advantage of using the **formContext** object is that it enables you to create common event handlers that can operate either on a form or in an editable grid depending on where its called. More information: [getFormContext (Client API reference)](reference/executioncontext/getFormContext.md).
+> *Deprecated* means that we intend to remove a feature or capability from a future major release of Dynamics 365; the feature or capability will continue to work and is fully supported until it is officially removed.<br/><br/>Use of the **Xrm.Page** object as a static access to the primary form entity context is *still* supported to maintain backward compatibility with the existing scripts. However, we recommend that you use the new **formContext** object instead of the **Xrm.Page** object in your code targeting version 9.0 or later to ensure that your code continues to work when the **Xrm.Page** object support is dropped in a future major release. Another advantage of using the **formContext** object is that it enables you to create common event handlers that can operate either on a form or in an editable grid depending on where its called. More information: [getFormContext (Client API reference)](reference/executioncontext/getFormContext.md).<br><br>Getting the **formContext** object for JavaScript functions for ribbon actions is different from how you get it in form scripting. More information: [Form and grid context in ribbon actions](../customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md#form-and-grid-context-in-ribbon-actions).
 
 ## Using the formContext object instead of the Xrm.Page object 
 
@@ -50,8 +50,6 @@ function displayName(executionContext)
 
 >[!IMPORTANT]
 >You must remember to select the **Pass execution context as first parameter** option in the **Handler Properties** dialog while defining your event handlers to use the **formContext** object. More information: [Client API execution context](clientapi-execution-context.md)
-
-For information about using form context with ribbons, see [Pass Microsoft Dynamics 365 data from a page as a parameter to Ribbon Actions](../customize-dev/pass-dynamics-365-data-page-parameter-ribbon-actions.md)
 
 ## formContext object model
 

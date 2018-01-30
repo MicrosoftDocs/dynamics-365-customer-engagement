@@ -1,14 +1,14 @@
 ---
-title: "Use the event portal to promote your event and accept registrations (Dynamics 365 for Marketing) | Microsoft Docs  "
-description: "Details about the event portal, including site map, information sources, and how to publish your events in Dynamics 365 for Marketing"
-keywords: "events; event management; portal; event portal; registration"
+title: "Register link clicks and website visits (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
+keywords: "website;redirect URL;behavioral analysis;behavior;tracking"
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: fb12fb67-69b7-4a23-a574-9d6f53d3c8b6
+ms.assetid: bde3efc9-6ef1-4705-a925-34670c823f40
 author: kamaybac
 ms.author: kamaybac
 manager: sakudes

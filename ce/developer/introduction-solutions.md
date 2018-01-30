@@ -10,25 +10,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "introduction to solutions, creating; packaging; distributing; and maintaining units of software that extend CRM"
-  - "solution publisher for managed solutions, solution publisher record"
-  - "extensibility choices, determining whether an installer is required"
-  - "introduction to solutions, conflict resolution: how CRM resolves conflicting solution strategies"
-  - "managed and unmanaged solutions, about"
-  - "introduction to solutions, solution components: diagram of in CRM"
-  - "solution components, diagram of in CRM"
-  - "solutions in Microsoft Dynamics CRM, about"
-  - "introduction to solutions, support for multiple languages"
-  - "introduction to solutions, unmanaged and managed solutions"
-  - "introduction to solutions, overview of"
-  - "introduction to solutions, installing and uninstalling business functionality as defined by solutions"
-  - "introduction to solutions, managed properties"
-  - "introduction to solutions, system solution"
-  - "introduction to solutions, extensibility choices"
-  - "introduction to solutions, dependency tracking and enforced behavior"
-  - "extensibility choices, design of; importing; and installing"
-  - "system solutions, definition"
 ms.assetid: e41e1785-7dcd-46b9-a2eb-e4e848c3154c
 caps.latest.revision: 59
 author: "JimDaly"
@@ -57,14 +38,17 @@ manager: "amyla"
 ## Version compatibility  
  Solutions exported from an earlier version of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] can be imported into later versions as shown in the following chart.  
   
- ![Solution version compatibility](media/solution-compatibility-chart.png "Solution version compatibility")  
+ ![Solution version compatiblity](media/crm_v9.0_solution_compatibility_chart.png) 
   
  Generally, solutions can be imported into organizations less than two versions higher than the version the solution was exported from. Service pack releases will provide the option to either export a solution with compatibility for that service pack, or just with capabilities included in the base version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Maintain managed solutions: Version compatibility](maintain-managed-solutions.md#BKMK_VersionCompatibilty).  
   
- For [!INCLUDE[pn_crm_2013_sp](../includes/pn-crm-2013-sp.md)], enhanced service capabilities were included for new [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations and existing [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organizations had the option to install these capabilities. Solutions exported from organizations with the enhanced service capabilities can’t be installed into a [!INCLUDE[pn_crm_2013_sp_shortest](../includes/pn-crm-2013-sp-shortest.md)] organization without the enhanced service capabilities enabled unless the solution is exported using the option to select compatibility for the base version. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Detect enhanced service capabilities available with product updates](https://msdn.microsoft.com/library/dn689050.aspx)  
+> [!NOTE]
+> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Introduction to solutions > Version compatiblity](https://msdn.microsoft.com/library/gg334576.aspx#BKMK_VersionCompat)
   
-<a name="BKMK_SolutionComponents"></a>   
-## Solution components  
+<a name="BKMK_SolutionComponents"></a>
+
+## Solution components
+
  Solution components are created by using the customization tools or APIs included in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and are fully hosted in the application. The following diagram shows the types of solution components.  
   
  ![Solution Components](media/solution-components.png "Solution Components")  

@@ -2,7 +2,7 @@
 title: "Configure OpenID Connect provider settings for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to add and configure OpenID Connect provider settings for a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 01/08/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -53,7 +53,7 @@ To get the service configuration URL, replace the FederationMetadata/2007-06/Fed
 
 This corresponds to the **MetadataAddress** site setting value.
 
-## Create site settings using OpenID
+### Related site settings
 
 Apply portal site settings referencing the above application.
 
@@ -101,6 +101,26 @@ Multiple identity providers can be configured by substituting a label for the \[
 | Authentication/OpenIdConnect/\[provider\]/ValidateLifetime           | A Boolean to control if the lifetime will be validated during token validation.                                                                                                                                                                                                                                                                                                                                                                    |
 | Authentication/OpenIdConnect/\[provider\]/ValidateIssuerSigningKey   | A Boolean that controls if validation of the System.IdentityModel.Tokens.SecurityKey that signed the securityToken xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" is called.                                                                                                                                                                                                                                                           |
 ||
+
+## Enable authentication using a multi-tenant Azure Active Directory application
+
+You can configure your portal to accept [!include[](../includes/pn-azure-active-directory.md)] users from any tenant in [!include[](../includes/pn-azure-shortest.md)] and not just a specific tenant by using the multi-tenant application registered in [!include[](../includes/pn-azure-active-directory.md)]. To enable multi-tenancy, set the **Multi-tenanted** switch to **Yes** in the [!include[](../includes/pn-azure-active-directory.md)] application.
+
+![Enable multi tenancy in Azure Active Directory application](media/enable-multi-tenancy.png "Enable multi tenancy in Azure Active Directory application")
+
+### Related site settings
+
+Multiple identity providers can be configured by substituting a label for the [provider] tag. Each unique label forms a group of settings related to an identity provider. You can create or configure the following site settings in portals to support authentication against [!include[](../includes/pn-azure-active-directory.md)] using a multi-tenanted application:
+
+|Site Setting Name    |Description   |
+|---|---|
+|Authentication/OpenIdConnect/[provider]/Authority   |The Authority to use when making OpenIdConnect calls. For example: `https://login.windows.net/common`   |
+|Authentication/OpenIdConnect/[provider]/ClientId   |The client ID value from the provider application. It may also be referred to as an "App ID" or "Consumer Key".   |
+|Authentication/OpenIdConnect/[provider]/ExternalLogoutEnabled   |Enables or disables external account sign-out and registration. Set this value as True.   |
+|Authentication/OpenIdConnect/[provider]/IssuerFilter   |A wildcard-based filter that matches on all issuers across all tenants. In most cases, use the value: `https://sts.windows.net/*/`   |
+|Authentication/OpenIdConnect/[provider]/RedirectUri  |The reply URL location where the provider sends the authentication response.For example: `https://portal.contoso.com/signin-oidc` |
+|Authentication/OpenIdConnect/[provider]/ValidateIssuer   |A Boolean to control if the issuer will be validated during token validation. Set this value as False.   |
+|||
 
 ### See also
 [Configure Dynamics 365 portal authentication](configure-portal-authentication.md)  
