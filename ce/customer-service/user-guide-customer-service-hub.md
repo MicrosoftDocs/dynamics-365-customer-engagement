@@ -16,16 +16,16 @@ ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Empower your agents  to work smarter and faster with a modern, interactive experience tailored to their role.
+Empower your agents to work smarter and faster with a modern, interactive experience tailored to their role.
 
 The Customer Service Hub in Microsoft Dynamics 365 is optimized for the Customer service module. It is a focused, interactive interface, designed to simplify your day-to-day job. It shows you all your vital information in one place, and lets you focus on the key activities that require your attention.
 
-Customer Service Hub is based on Unified Interface. Some of the key highlights are:
+Customer Service Hub is based on the Unified Interface framework. Some of the key highlights are:
 
 - Seamless and intuitive user interface
 - UI reflow and adaptivity across devices and form factors
 
-See this video to know more about the Customer Service Hub:
+Watch this video to learn more about the Customer Service Hub:
 
 <td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/OEn_FN5azq0" frameborder="0" allowfullscreen></iframe></td>
   
