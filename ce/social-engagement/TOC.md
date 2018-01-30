@@ -1,5 +1,6 @@
 # [Welcome to Social Engagement](overview.md)
 ## [What's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md)
+### [Social Engagement Update 2017](what-s-new-archive-2017.md)
 ### [Social Engagement Update 2016](what-s-new-archive-2016.md)
 ### [Social Engagement Update 2015](what-s-new-archive-2015.md)
 ## Business scenarios and use cases
