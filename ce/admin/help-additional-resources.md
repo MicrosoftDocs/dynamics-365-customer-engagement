@@ -20,65 +20,17 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-> [!NOTE]
-> ![This page is under construction.](../media/under_construction.png "Coming soon")  [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
-
 There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
-<a name="new_support_center"></a>  
- 
-## Preview feature: Dynamics 365 new support center 
-
-We're introducing a new process for admins to request assistance for [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] that will allow us more speedily help you by getting your information to our support staff quickly and accurately.
-
-### Prerequisites
-
--  This is a Preview feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback.
-
--  For [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].
-
--  Currently for organizations in North America (NAM) region.
-
--  For non-Premium subscriptions. 
-   [JimHoltz: what plans are non-premium? https://dynamics.microsoft.com/en-us/pricing/]
-
--  You must be an Office 365 or Dynamics 365 (online) admin to enter service requests.
-
-### Enter a service request through the new support center
-
-> [!NOTE]
-> The user interface is currently a work in progress so expect procedural and graphic changes. We'll do our best to keep these steps current.
-
-1. Go to [https://admin.dynamics.com](https://admin.dynamics.com).
-
-   -OR- 
-
-   Select the support link from the Dynamics 365 Administration Center
-
-   ![helplink](media/temp/HelpLinkAdminCenter.PNG)
-
-2. Select New. ![New](media/temp/New.png)
-
-3. Fill in your information, and then select **Submit**.
-
-   ![CreateNewTicket](media/temp/CreateNewTicketSample.png)
-
-Your ticket will appear in the list of Support Tickets.
-
-![TicketList](media/temp/TicketInList.png)
-
-You can go back to this list and check the status of your service request and make changes.
-
 <a name="help_for_admins"></a>  
  
-## Help for administrators, non-preview
+## Help for administrators
 
  The following are useful resources for administering [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]:    
   
 -   [Administer Dynamics 365 Customer Engagement](admin-guide.md)  
   
 -   [What's new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
-
 
 <a name="More_help"></a>   
 
