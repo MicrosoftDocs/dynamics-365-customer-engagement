@@ -25,7 +25,8 @@ There are several resources available to you covering planning, operating, and u
 > [!NOTE]
 > To contact technical support, see:
 > - [Enter a support request through the new support center](contact-technical-support.md#enter-a-support-request-through-the-new-support-center)
-> - [Contacting support for regions other than North America (NAM)](contact-technical-support.md#contacting-support-for-regions-other-than-north-america-nam)
+<!--
+> - [Contacting support for regions other than North America (NAM)](contact-technical-support.md#contacting-support-for-regions-other-than-north-america-nam) -->
   
 <a name="help_for_admins"></a>  
  
