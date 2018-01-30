@@ -2,7 +2,7 @@
 title: "Connect Dynamics 365 and Social Engagement | Microsoft Docs"
 description: "Learn how to connect Social Engagement and Dynamics 365 to link social posts and create new cases or leads."
 keywords: "connections, social engagement, dynamics 365, edit, delete"
-ms.date: 11/22/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -15,8 +15,6 @@ topic-status: Drafting
 ---
 
 # Manage the connection between Dynamics 365 and Social Engagement
-
-[comment]: <> (Consider to update the images so they have a border around the image)
 
 Understand how to change the settings for your connections between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and the consequences of doing so.    
 You must already have a working connection between [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] established and you need to be have an Administrator role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to perform the following tasks.
@@ -149,4 +147,3 @@ If you don’t want new records created in a [!INCLUDE[pn_crm_shortest](../inclu
 [Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
 [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)   
 [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
- 
