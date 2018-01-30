@@ -2,7 +2,7 @@
 title: "Get the Social Engagement content pack | Microsoft Docs"
 description: "Download the use the Social Engagement content pack for Power BI."
 keywords: "Power BI, content pack, engagement details"
-ms.date: 12/05/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 ms.assetid: c82b4063-c86c-4922-99dd-1f5ddd18cb00
@@ -70,7 +70,7 @@ Engaging on social media by responding to posts is a core capability of [!INCLUD
   
 ### What's next?  
   
--   Try [asking a question in the Q & A box](https://powerbi.microsoft.com/documentation/powerbi-service-q-and-a/) at the top of the dashboard.  
+-   Try [asking a question in the Q & A box](https://docs.microsoft.com/power-bi/power-bi-tutorial-q-and-a) at the top of the dashboard.  
   
 -   [Change the tiles](https://powerbi.microsoft.com/documentation/powerbi-service-edit-a-tile-in-a-dashboard/) in the dashboard.  
   
