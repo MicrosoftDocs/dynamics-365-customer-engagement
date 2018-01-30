@@ -47,25 +47,23 @@ We're introducing a new process for admins to request assistance for [!INCLUDE [
 > [!NOTE]
 > The user interface is currently a work in progress so expect procedural and graphic changes. We'll do our best to keep these steps current.
 
-1. Go to [https://admin.dynamics.com](https://admin.dynamics.com). <image>
+1. Go to [https://admin.dynamics.com](https://admin.dynamics.com).
 
    -OR- 
 
    Select the support link from the Dynamics 365 Administration Center
 
-   <image>
+   ![helplink](media/temp/HelpLinkAdminCenter.PNG)
 
-2. Select New. 
-
-   <image>
+2. Select New. ![New](media/temp/New.png)
 
 3. Fill in your information, and then select **Submit**.
 
-   <image>
+   ![CreateNewTicket](media/temp/CreateNewTicketSample.png)
 
 Your ticket will appear in the list of Support Tickets.
 
-<image>
+![TicketList](media/temp/TicketInList.png)
 
 You can go back to this list and check the status of your service request and make changes.
 
