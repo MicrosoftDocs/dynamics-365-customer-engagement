@@ -17,6 +17,11 @@ topic-status: Drafting
 ---
 
 # Keep Marketing up to date
+
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] is continuously developing and improving our online services. Through we roll out updates as soon as they're ready, we don't apply them automatically to customers' system because most customers prefer to manage this process themselves (for example by applying and testing updates on a sandbox instance before applying them to a production system).
 
 Read this topic to get an overview of how to update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and its related solutions.

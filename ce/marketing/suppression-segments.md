@@ -18,6 +18,10 @@ topic-status: Drafting
 
 # Use suppression segments to ensure running customer journeys will respect unsubscribe requests
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Most customer journeys start with a target segment, which produces a list of contacts to be processed by that journey. The minute the journey starts, all contacts in the target segment proceed to the first tile in the workflow and then continue until they reach the end of the workflow or until the journey end date arrives. Once a contact has started on a journey (including a recurring journey), that contact remains on that journey even if he or she leaves the segment in the meantime, such as by unsubscribing from a relevant mailing list. This can sometimes be a problem because, in many countries/regions, local regulations demand that marketers respect unsubscribe requests in a timely manner. 
 
 > [!NOTE]

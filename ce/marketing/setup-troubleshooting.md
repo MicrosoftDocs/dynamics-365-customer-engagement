@@ -18,6 +18,10 @@ topic-status: Drafting
 
 # First time setup FAQ and troubleshooting
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
+[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+
 Read this topic to find answers to common questions, and solutions to known issues that can sometimes occur during the initial setup of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 ## How can I sign up for a trial?
@@ -43,7 +47,7 @@ Even if you already have a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcr
 1. Continue by following the instructions on your screen and providing the information requested. The last page of the setup asks you to choose a scenario. Be sure to choose **All of these** (which makes sure your new [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user account gets created with system admin privileges) and then select **Complete Setup**.
     ![Choose to enable all the apps](media/trial-signup3.png "Choose to enable all the apps")
 
-1. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] organization will be ready and it opens in your browser. Be sure to make a note of your org's URL and your other account details (such as user name, password, and email address).
+1. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] organization will be ready and open in your browser. Be sure to make a note of your org's URL and your other account details (such as the user name, password, and email address you chose while setting it up).
 
 ### Step 2: Add an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3 trial to your new trial org
 
@@ -51,11 +55,11 @@ This step is optional, but it can be useful to set up an [!INCLUDE[pn-ms-office-
 
 1. Open a new browser tab and go to [portal.office.com/adminportal/home?rc=1#/catalog](https://portal.office.com/adminportal/home?rc=1#/catalog). This is where you can add new apps to your new org.
 
-1. Scroll down to the **Office 365 Enterprise E3** box. Hover your mouse over this box (to open a flyout) and then select**Start free trial** on the flyout.
+1. Scroll down to the **Office 365 Enterprise E3** box. Hover your mouse over this box (to open a flyout) and then select **Start free trial** on the flyout.
 
 1. Follow the instructions on your screen to add the trial to your account.
 
-1. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] to your user account and then setup an Exchange mailbox for yourself. See the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] online help for assistance with these tasks. It may take several minutes for your mailbox to come online.
+1. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] license to your user account and then setup an Exchange mailbox for yourself. You could also set up exchange to forward all messages to your usual work address. See the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] online help for assistance with these tasks. It may take several minutes for your mailbox to come online.
 
 ### Step 3: Sign up for the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial
 
