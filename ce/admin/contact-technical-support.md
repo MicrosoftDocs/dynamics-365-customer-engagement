@@ -1,7 +1,7 @@
 ---
 title: "Contact Dynamics 365 Customer Engagement Technical Support | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/30/2018
+ms.date: 01/31/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -42,13 +42,10 @@ As of February 2018, we're introducing a new process for admins to request assis
    - Enhanced Support
    - Professional Direct Support
 
-   Premier Support plan members can go to [My Premier Online](https://support.microsoft.com/en-us/premier).
+   Premier Support plan members can go to [My Premier Online](https://support.microsoft.com/en-us/premier). </br>
    Microsoft Partners or delegated admins can go to [Partner Center](https://partnercenter.microsoft.com/en-us/partner/home).
 
-### Enter a service request through the new support center
-
-> [!NOTE]
-> The user interface is currently a work in progress so expect procedural and graphic changes. Check back for updated content.
+### Enter a support request through the new support center
 
 1. Go to [https://admin.dynamics.com](https://admin.dynamics.com).
 <!--
@@ -68,6 +65,7 @@ Your ticket will appear in the list of Support Tickets.
 
 ![List of support tickets](media/support-ticket-list.png "List of support tickets")
 
+You can check the status and edit your ticket on this page.
 
 ## Contacting support for regions other than North America (NAM)
 
@@ -75,3 +73,5 @@ Your ticket will appear in the list of Support Tickets.
 
 For contact information, see [Self-Help Resources](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport)
   
+### See also
+ [Help and additional resources](help-additional-resources.md)

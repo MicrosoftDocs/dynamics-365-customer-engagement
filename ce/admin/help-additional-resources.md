@@ -21,6 +21,11 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
+
+> [!NOTE]
+> To contact technical support, see:
+> - 
+> - 
   
 <a name="help_for_admins"></a>  
  
@@ -68,3 +73,4 @@ There are several resources available to you covering planning, operating, and u
    
   
 ### See also  
+ [Contact Technical Support](contact-technical-support.md)
