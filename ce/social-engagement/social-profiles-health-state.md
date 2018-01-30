@@ -2,7 +2,7 @@
 title: "Check the health state of your social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to keep the tokens of your social profiles in a healthy state."
 keywords: "token, health state"
-ms.date: 01/04/2018
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -63,7 +63,7 @@ topic-status: Drafting
 |**State**|**Symbol**|**Condition**|  
 |Running|![Indicates that data acquisition and private messages are running for this social profile](media/valid-token-icon.png "Indicates that data acquisition and private messages are running for this social profile")|At least one token is valid and used for acquisition.|  
 |Allowed|![Acquisition Allowed symbol](media/acquition-allowed-icon.png "Acquisition Allowed symbol")|The social profile allows acquisition but no search rule has been added.|  
-|Expired|![No valid token symbol](media/token-missing-icon.png "No valid token symbol")|The social profile token is expired. You need to re-authenticate your token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Re-authenticate a token](manage-access-tokens.md#reauth_token)|  
+|Expired|![No valid token symbol](media/token-missing-icon.png "No valid token symbol")|The social profile token is expired. You need to re-authenticate your token. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Re-authenticate a token](manage-access-tokens.md#reauthenticate-a-token)|  
   
 ### See Also  
  [Manage social profiles](manage-social-profiles.md)   
