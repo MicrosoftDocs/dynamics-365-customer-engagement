@@ -26,6 +26,8 @@ topic-status: Drafting
 
 <h2>Set up and get started</h2>
 <li>[First time setup](purchase-setup.md)</li>
+<li>[Troubleshoot first time setup](setup-troubleshooting.md)</li>
+<li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
