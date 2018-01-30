@@ -12,9 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
 caps.latest.revision: 22
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
 # Preview feature: Use relationship assistant to guide customer communications
 

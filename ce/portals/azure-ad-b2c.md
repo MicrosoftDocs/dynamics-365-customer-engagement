@@ -2,7 +2,7 @@
 title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: ""
-ms.date: 12/05/2017
+ms.date: 01/08/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -93,7 +93,8 @@ The following site settings are required if you want to support password reset w
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Authentication/OpenIdConnect/[Federation-Name/PasswordResetPolicyId | ID of the password reset policy.                                                                                     |
 | Authentication/OpenIdConnect/[Federation-Name]/ValidIssuers         | A comma-delimited list of issuers that includes the [Policy-Signin-URL] and the issuer of the password reset policy. |
-| |
+|Authentication/OpenIdConnect/[Federation-Name]/DefaultPolicyId | ID of the sign-in or sign-up policy.|
+|||
 
 ### Related site settings
 

@@ -137,7 +137,7 @@ The following steps show the creation of a compound segment of high credit card 
 
 2. Exclude the customers who do not want to be contacted.
 
-    ![](../media/SegmentExcludeDoNotCall720.png "Exclude do not call")
+    ![Exclude do not call](../media/SegmentExcludeDoNotCall720.png "Exclude do not call")
 
     There are four customers who will be excluded.
 

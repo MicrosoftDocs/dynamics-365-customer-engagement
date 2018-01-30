@@ -1,5 +1,5 @@
 ---
-title: "Security enhancements: User session and access management for Dynamics 365 for Government | MicrosoftDocs"
+title: "Security enhancements: User session and access management with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/27/2017
 ms.reviewer: ""
@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Security enhancements: User session and access management
+# Security enhancements: User session and access management 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 

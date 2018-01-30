@@ -4,6 +4,7 @@ description: "How to register sponsors and sponsorable articles in Dynamics 365 
 keywords: "events; event management; sponsor; sponsorship; tchotchke"
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)

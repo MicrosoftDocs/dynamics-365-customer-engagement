@@ -76,7 +76,7 @@
       tocHref: /dynamics365/customer-engagement/developer/online-management-api/
       topicHref: /dynamics365/customer-engagement/developer/online-management-api
     - name: Extend Outlook Client
-      tocHref: /outlook-client/
+      tocHref: /dynamics365/customer-engagement/developer/outlook-client/
       topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
   - name: Unified Service Desk
     tocHref: /dynamics365/customer-engagement/unified-service-desk/

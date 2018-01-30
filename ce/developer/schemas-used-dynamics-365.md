@@ -2,7 +2,7 @@
 title: "Schemas used in Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic contains links to all the schemas needed for features described in the SDK documentation. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/22/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +23,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic contains links to all the schemas needed for features described in the SDK documentation. [Download the schemas](http://download.microsoft.com/download/B/9/7/B97655A4-4E46-4E51-BA0A-C669106D563F/Schemas.zip).
+This topic contains links to all the schemas needed for features described in the Developer guide. [!INCLUDE[schema_download](../includes/schema-download.md)].
   
  [Customization Solutions File Schema](customize-dev/customization-solutions-file-schema.md)  
   

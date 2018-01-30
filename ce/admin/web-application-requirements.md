@@ -1,21 +1,25 @@
 ---
 title: "Web application requirements for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: ""
+keywords: ""
+ms.date: 01/09/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 6404db68-f66b-4128-ac2f-84258503bc82
+author: Mattp123
+ms.author: matp
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 123
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Web application requirements
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -77,14 +81,16 @@ Notice that the suggested network requirements include the metadata download nee
   
 - [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)] (latest publicly-released version) running on [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)], [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows8](../includes/pn-windows8.md)], or [!INCLUDE[pn_Windows_7](../includes/pn-windows-7.md)]  
   
-- [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] (latest publicly-released version) running on [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)], [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows8](../includes/pn-windows8.md)], [!INCLUDE[pn_Windows_7](../includes/pn-windows-7.md)], or [Google Nexus](../mobile-app/support-phones-tablets.md#BKMK_Nexus) 10 tablet  
+- [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]
+    - [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] (latest publicly-released version) running on [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)], [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows8](../includes/pn-windows8.md)], [!INCLUDE[pn_Windows_7](../includes/pn-windows-7.md)], or [Google Nexus](../mobile-app/support-phones-tablets.md#BKMK_Nexus) 10 tablet 
+    - Google Chrome (latest publicly-released version) running on [!INCLUDE[tn_Mac_OS_X](../includes/tn-mac-os-x.md)] 10.8 (Mountain Lion), 10.9 (Mavericks), or 10.10 (Yosemite) 
   
 - [!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)] (latest publicly-released version) running on [!INCLUDE[tn_Mac_OS_X](../includes/tn-mac-os-x.md)] 10.8 (Mountain Lion), 10.9 (Mavericks), 10.10 (Yosemite), or [Apple iPad](../mobile-app/support-phones-tablets.md#BKMK_iPad)  
   
 To find the latest release for these web browsers, visit the software manufacturer’s website.  
   
 > [!IMPORTANT]
->  -   Using plug-ins or other third-party extensions in your browser can increase load times on pages with lists of data.  
+> - Using plug-ins or other third-party extensions in your browser can increase load times on pages with lists of data.  
 > - [!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)] ESR (Extended Support Release) versions aren’t supported.  
   
 <a name="SupportedMSOffice"></a>   

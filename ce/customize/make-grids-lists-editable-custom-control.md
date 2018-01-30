@@ -27,9 +27,9 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
  When editable grids are enabled through the Editable Grids custom control, users can edit most types of fields, including basic Lookup fields and option sets.  
   
 > [!NOTE]
->  The following data types aren’t editable in editable grids: Customer and Partylist Lookup fields; Composite (address) fields; State/Status fields; Lookup entity-related fields (for example, the Account entity includes a contact lookup, where the Contact field is editable but the EmailAdress(Contact) field is not editable).  
-  
- Editable grids support:  
+> The following data types aren’t editable in editable grids: Customer and Partylist Lookup fields; Composite (address) fields; State/Status fields; Lookup entity-related fields (for example, the Account entity includes a contact lookup, where the Contact field is editable but the EmailAdress(Contact) field is not editable).  
+
+**Editable grids support:**
   
 -   In-line editing of records at the entity or subgrid level (includes custom entities)  
   
@@ -110,7 +110,10 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
   
 11. To test your changes, go to the view you specified in step 5, and then make some in-line editing changes.  
   
-## Make a subgrid on a form editable  
+## Make a subgrid on a form editable
+
+> [!NOTE] 
+> If you are using legacy forms (versions prior to Dynamics CRM 2016) and enable an editable grid on a subgrid, the editable subgrid will not be rendered. System administrators can turn off legacy forms in system settings, if needed.
   
 1.  Go to **Settings>Customization>Customize the System**.  
   

@@ -92,3 +92,4 @@
 ##### [Step 4: Test your custom channel tile](developer/test-custom-channel-tile.md)
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
+#### [Remove custom channel](developer/remove-custom-channel.md)

@@ -9,19 +9,6 @@ ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
-helpviewer_keywords: 
-  - "maintaining managed solutions, releasing a new version of your managed solution"
-  - "requiring a minimum version of Microsoft Dynamics CRM for your solution"
-  - "managed solutions, creating managed solution updates"
-  - "maintaining managed solutions, creating managed solution updates"
-  - "creating managed solution updates"
-  - "releasing a new version of your managed solution"
-  - "managed solutions"
-  - "releasing an update of your managed solution"
-  - "managed solutions, releasing an update or new version of your managed solution"
-  - "maintaining managed solutions, requiring a minimum version"
-  - "managed solutions, requiring a minimum version of Microsoft Dynamics CRM for your solution"
-  - "maintaining managed solutions, releasing an update of your managed solution"
 ms.assetid: 25aab712-8e0e-465e-8295-b0f0664c1d0b
 caps.latest.revision: 40
 author: "JimDaly"
@@ -38,11 +25,11 @@ Before you release your managed solution you should consider how you will mainta
 ## Version compatibility  
  Any solution exported from a newer version of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement cannot be imported into an older version of Dynamics 365. This includes major and minor versions. Solutions exported from an earlier version of Dynamics 365 can be imported into later versions as shown in the following chart.  
   
- ![Solution version compatibility](media/solution-compatibility-chart.png "Solution version compatibility")  
-  
- Solutions exported from [!INCLUDE[pn_CRM_2011](../includes/pn-crm-2011.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] versions 5 or earlier cannot be imported into [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Only solutions exported from the most recent previous major version can be imported.  
-  
- You can install solutions exported from [!INCLUDE[pn_crmv6](../includes/pn-crmv6.md)] (on-premises) and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] version 6 into [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]. Solutions exported from [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] cannot be imported into earlier versions.  
+![Solution version compatiblity](media/crm_v9.0_solution_compatibility_chart.png)
+
+
+> [!NOTE]
+> For information about solutions created before [!INCLUDE [pn-crm-2015](../includes/pn-crm-2015.md)] see [Dynamics CRM 2016 Maintain managed solutions > Version compatiblity](https://msdn.microsoft.com/library/gg328109.aspx#BKMK_VersionCompatibilty)
   
  As additional update rollups or service updates are applied to [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], solutions exported from organizations with those updates cannot be imported into organizations which do not have those updates. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Introduction to Solutions: Version compatibility](introduction-solutions.md#BKMK_VersionCompat).  
   

@@ -161,13 +161,13 @@ Removing for new D365 online connector approach.
      >1. A file mapping and attribute mapping for branch data <br>
      > <br>
      >**New File Mapping** <br>
-     >![](../media/FileMappingBranch.png "File mapping for branch data") <br>  
+     >![File mapping for branch data](../media/FileMappingBranch.png "File mapping for branch data") <br>  
      >Source folder: `<your Azure storage account container>` <br>
      >Filename Pattern: Branch* <br>
      >Target Interactions: `<select the interaction you created for branch>` <br>
      >Leave the remaining values as default. <br>
      >**Attribute Mappings** <br>
-     >![](../media/AttributeMappingBranch.png "Type a letter to autofill with expression choices") <br>  
+     >![Type a letter to autofill with expression choices](../media/AttributeMappingBranch.png "Type a letter to autofill with expression choices") <br>  
      >Select a Sample File: Branch.csv <br>
      >Column Delimiter: Filled in for you. <br>
      >Leave the remaining values as default. <br>
@@ -198,11 +198,11 @@ Removing for new D365 online connector approach.
 
 21. Add your data files to the Blob storage container you created earlier. Open your Azure storage account and click **Blobs**.
 
-     ![](../media/SelectStorageAccountBlob.png "Storage account Blob") 
+     ![Storage account Blob](../media/SelectStorageAccountBlob.png "Storage account Blob") 
 
 22. Select the Blob container, click Upload, and then click the file folder. Upload your data files.
 
-     ![](../media/UploadDataFiles.png "Upload data files") 
+     ![Upload data files](../media/UploadDataFiles.png "Upload data files") 
 
 >[!NOTE]
 >**TRY IT!** <br>

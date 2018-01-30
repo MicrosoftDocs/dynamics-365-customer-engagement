@@ -1,8 +1,8 @@
 ---
-title: "Introduction to and overview of Social Engagement and related scenarios | Microsoft Docs"
-description: "Learn about Social Engagement and get started using the service."
+title: "Overview of Social Engagement, pricing, and related scenarios | Microsoft Docs"
+description: "Learn about features and pricing of Social Engagement and get started using the service."
 keywords: "social engagement, overview, quick start, scenarios"
-ms.date: 12/07/2017
+ms.date: 01/23/2018
 ms.service: mse
 ms.topic: article
 applies_to:

@@ -184,17 +184,11 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
  People can choose the default image to upload a picture from their computer. Images must be less than 5120 KB and must one of the following formats:  
   
 -   jpg  
-  
 -   jpeg  
-  
 -   gif  
-  
 -   tif  
-  
 -   tiff  
-  
 -   bmp  
-  
 -   png  
   
  When the image is uploaded, it will be converted to a .jpg format and all downloaded images will also use this format. If an animated .gif is uploaded, only the first frame is saved.  
