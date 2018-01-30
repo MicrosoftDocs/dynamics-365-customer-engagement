@@ -24,13 +24,13 @@ manager: "brycho"
 
 ## Preview feature: Dynamics 365 new support center 
 
-As of February 2018, we're introducing a new process for admins to request assistance for [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] that will allow us to more speedily help you by getting your information to the right support staff quickly and accurately.
+In February 2018, we're introducing a new Help + Support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). The new process will help us improve your overall support experience and drive faster issue resolution. 
 
 ### Prerequisites
 
 -  This is a Preview feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback.
-
--  For [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].
+<!--
+-  For [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].-->
 
 -  Currently for organizations in North America (NAM) region. Other regions should see the [section below](#contacting-support-for-regions-other-than-north-america-nam). 
 
@@ -55,7 +55,9 @@ As of February 2018, we're introducing a new process for admins to request assis
 
    ![helplink](media/temp/HelpLinkAdminCenter.PNG) -->
 
-2. Select + New.
+2. Select **+ New support request**.
+
+   ![New support request](media/new-support-request.png "New support request")
 
 3. Fill in your information, and then select **Submit**.
 
@@ -66,12 +68,12 @@ Your ticket will appear in the list of Support Tickets.
 ![List of support tickets](media/support-ticket-list.png "List of support tickets")
 
 You can check the status and edit your ticket on this page.
-
+<!--
 ## Contacting support for regions other than North America (NAM)
 
 <a name="lFull3"></a> You have to be a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] administrator to contact technical support. If you are not an administrator, contact your local administrator.  
 
-For contact information, see [Self-Help Resources](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport)
+For contact information, see [Self-Help Resources](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport) -->
   
 ### See also
  [Help and additional resources](help-additional-resources.md)
