@@ -1,8 +1,8 @@
 ---
-title: "Configure the automatic record creation for social activity entities from Social Engagement | Microsoft Docs"
+title: "Set up record creation for social activity entities from Social Engagement | Microsoft Docs"
 description: "Learn how to configure rules in Dynamics 365 to automatically turn social activities into records."
 keywords: "rule framework, update rules, create record, entity mapping"
-ms.date: 12/07/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -14,7 +14,7 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# Configure Automatic Record Creation and Update Rules in Dynamics 365 to process Social Actity entities from Social Engagement
+# Configure Automatic Record Creation and Update Rules in Dynamics 365 to process Social Activity entities from Social Engagement
 
 To automatically create an entity record (such as a Case or a Lead) from a Social Activity record in [!include[](../includes/pn-dynamics-crm.md)], an administrator or customizer must configure Automatic Record Creation and Update Rules in [!include[](../includes/pn-dynamics-crm.md)].
 
@@ -26,7 +26,7 @@ In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link 
 
 ![Open drop-down menu with Case and Lead option for creating a record in Dynamics 365 from within Social Engagement.](media/select-entity-mse.png "Open drop-down menu with Case and Lead options for creating a record in Dynamics 365 from within Social Engagement")
 
-## Create a rule to automatically turn social actitivites into Lead or Case records
+## Create a rule to automatically turn social activities into Lead or Case records
 
 1. Sign in to [!include[](../includes/pn-dynamics-crm.md)] with your system administrator or customizer credentials.
 
@@ -44,7 +44,7 @@ In [!INCLUDE[MSE](../includes/pn-social-engagement-short.md)], when users [link 
 
 6. Click **Save** to create the record.
 
-  ![Higlighted areas for Name, Source Type, and Save control.](media/create-record-creation-update-rule.png "Location of areas for Name, Source Type, and the Save command")
+  ![Highlighted areas for Name, Source Type, and Save control.](media/create-record-creation-update-rule.png "Location of areas for Name, Source Type, and the Save command")
 
 7. Under **Channel Properties**, select **Additional Properties**.
 
