@@ -20,10 +20,12 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-[!INCLUDE [cc-under-construction](../includes/cc-under-construction.md)]
+> [!NOTE]
+> ![This page is under construction.](../media/under_construction.png "Coming soon")  [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
+
 There are several resources available to you covering planning, operating, and using [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)].  
   
-<a name="new_support_center></a>  
+<a name="new_support_center"></a>  
  
 ## Preview feature: Dynamics 365 new support center 
 
