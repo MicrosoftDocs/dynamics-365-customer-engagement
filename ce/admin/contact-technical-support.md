@@ -29,8 +29,6 @@ In February 2018, we're introducing a new Help + Support experience for admins t
 ### Prerequisites
 
 -  This is a Preview feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback.
-<!--
--  For [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].-->
 
 -  Currently for organizations in North America (NAM) region. Other regions should see the [section below](#contacting-support-for-regions-other-than-north-america-nam). 
 
