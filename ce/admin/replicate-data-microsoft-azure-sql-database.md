@@ -382,16 +382,16 @@ Factors that influence the duration of synchronization include the following:
   - SQL connection setup time. 
   - SQL statement execution time. 
 
-Based on our monitoring of the service we have observed that most on-going delta synchronization finishes within 15 minutes when the service operates under the following conditions:
+Based on our monitoring of the service it's been observed that most on-going delta synchronization finishes in 15 minutes when the service operates under the following conditions:
 
-- The synchronization that occurs is a delta synchronization and not the initial export profile synchronization. Delta synchronization is only for data change operations, which include record create, update, and delete transactions. Note that delta synchronization begins once the initial synchronization has finished.
+- The synchronization that occurs is a delta synchronization and not the initial synchronization. Delta synchronization is only for data change operations, which include record create, update, and delete transactions. Note that delta synchronization begins once the initial synchronization has finished.
 - The maximum data change rate in Dynamics 365 for all the entities in the export profile is less than 3000 records per hour. Any sudden increase in the data change rate due to bulk change of records exceeding the maximum change rate will cause additional latency.
 - Each entity added to an export profile has less than 150 attributes.
 - Database connection or SQL statement execution finishes in less than 10 seconds. If this limit is exceeded it will result in additional latency. 
 - No destination database connection or SQL execution errors occur during synchronization.
 
 
-When the above conditions are met, 15 minutes is a typical synchronization duration. Microsoft provides no service level agreement (SLA) for the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] and makes no guarantees or commitments regarding synchronization latency times.
+When the above conditions are met, 15 minutes is a typical synchronization latency. Microsoft provides no service level agreement (SLA) for the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] and makes no guarantees or commitments regarding synchronization latency times.
 
 <a name="SetupAzureKV"></a>   
 ## How to set up Azure Key Vault  
