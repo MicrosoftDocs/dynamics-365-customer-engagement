@@ -34,15 +34,16 @@ As of February 2018, we're introducing a new process for admins to request assis
 
 -  Currently for organizations in North America (NAM) region. Other regions should see the [section below](#contacting-support-for-regions-other-than-north-america-nam). 
 
+-  You must be an Office 365 admin to enter service requests.
+
 -  For the following [support plans](https://www.microsoft.com/en-us/dynamics365/support).
    
    - Subscription Support
    - Enhanced Support
    - Professional Direct Support
 
-   Premier Support plan members can use the contact method provided for their plan.
-
--  You must be an Office 365 or Dynamics 365 (online) admin to enter service requests.
+   Premier Support plan members can go to [My Premier Online](https://support.microsoft.com/en-us/premier).
+   Microsoft Partners or delegated admins can go to [Partner Center](https://partnercenter.microsoft.com/en-us/partner/home).
 
 ### Enter a service request through the new support center
 
@@ -57,13 +58,16 @@ As of February 2018, we're introducing a new process for admins to request assis
 
    ![helplink](media/temp/HelpLinkAdminCenter.PNG) -->
 
-2. Select New. ![New](media/temp/New.png)
+2. Select + New.
 
 3. Fill in your information, and then select **Submit**.
 
-   ![CreateNewTicket](media/temp/CreateNewTicketSample.png)
+   ![Create a new support request](media/create-support-ticket.png "Create a new support request")
 
 Your ticket will appear in the list of Support Tickets.
+
+![List of support tickets](media/support-ticket-list.png "List of support tickets")
+
 
 ## Contacting support for regions other than North America (NAM)
 
