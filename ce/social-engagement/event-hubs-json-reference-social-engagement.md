@@ -2,7 +2,7 @@
 title: "JSON objects reference from Social Engagement | Microsoft Docs"
 description: "Review the full list of properties and object in the Social Engagement payload for Event Hubs."
 keywords: "JSON, payload, metadata, event hubs, reference"
-ms.date: 12/20/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -1235,7 +1235,7 @@ Array of JSON objects representing tags on a post that were added through [!INCL
 |[post.tags.type](#document.tags.type)|Describes how  the tag was assigned to a post.|  
 |[post.tags.tag](#document.tags.tag)|JSON object describing the tag.|  
 |[post.tags.tag.id](#document.tags.tag.id)|Internal ID of the tag.|  
-|[post.tags.tag.name](#document.tags.tag.name)|Name of the tag. Intention tags are localized in the locale chosen in Global Settings.|  
+|[post.tags.tag.name](#document.tags.tag.name)|Name of the tag. Intentions are localized in the locale chosen in Global Settings.|  
 |[post.tags.tag.parentId](#document.tags.tag.parentId)|ID of the group containing the tag.|  
   
  Parent: *post*  
@@ -1317,7 +1317,7 @@ Internal ID of the tag.
   
 <a name="document.tags.tag.name"></a>   
 ##### post.tags.tag.name  
-Name of the tag. Intention tags are localized in the locale chosen in Global Settings. More information: [Understand an author's intent using intention analysis](tags.md)  
+Name of the tag. Intentions are localized in the locale chosen in Global Settings. More information: [Understand an author's intent using intention analysis](tags.md)  
   
  Property Value Type: string  
   
