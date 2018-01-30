@@ -22,7 +22,7 @@ ms.assetid: df25e314-069c-4361-abbc-e7d0dde2a596
 
 See this video to know more about dashboards in the Customer Service Hub:
 
-<td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/5zK0nb-ACnM" frameborder="0" allowfullscreen></iframe></td>
+<td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/cDN-gv0Yylg" frameborder="0" allowfullscreen></iframe></td>
   
 <a name="BKMK_Streams"></a>  
 
