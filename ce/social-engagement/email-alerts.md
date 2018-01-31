@@ -2,7 +2,7 @@
 title: "Stay up to date with alerts in Social Engagement | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
 keywords: "alerts, notification, emails"
-ms.date: 01/30/2018
+ms.date: 01/31/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -100,7 +100,9 @@ In an administrator role, you can look up email addresses and remove them from a
 
 2. Enter the email address you want to search for.
 
-3. Select **Remove recipient** to remove the email address from the matching alerts. Optionally, you can select **Export** to download a list of the alerts that contain this recipient.
+3. Select **Remove recipient** to remove the email address from the matching alerts. If you remove the last recipient from an alert, the alert state is set to inactive and the owner of the alert receives an email notification.    
+Optionally, you can select **Export** to download a list of the alerts that contain this recipient.
+ 
 
 ## Set a trend alert's sensitivity
 
