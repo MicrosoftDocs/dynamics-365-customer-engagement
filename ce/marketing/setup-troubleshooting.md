@@ -24,13 +24,13 @@ topic-status: Drafting
 
 Read this topic to find answers to common questions, and solutions to known issues that can sometimes occur during the initial setup of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-## Get all prerequisites in place to install a preview
+## Get all prerequisites in place to set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview
 
 You can install and use a preview version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free. Prerequisites for the preview are the same as those for the production version of the product, but you can install it on a trial (or production) [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, and you must use it with a trial version of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
-- _If you already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant_, then you can install the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview there simply by requesting the preview. The preview setup installs a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] trial at the same time and configures the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview to run on that trial. (You can't install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview on a production version of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].) See [Sign up for the Dynamics 365 for Marketing preview](#marketing-preview-signup) for instructions.
+- _If you already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant_, then you can install the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview there simply by requesting the preview. The [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview setup installs a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] trial at the same time and configures the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview to run on that trial. (You can't install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview on a production version of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].) See [Sign up for the Dynamics 365 for Marketing preview](#marketing-preview-signup) for instructions.
 
-- _If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant_, or if you want to set up a temporary one especially for running the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview, then you can set up a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] trial, which creates its own [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant trial at the same time. Then you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview on that tenant. See [Sign up for a Dynamics 365 trial that includes a trial Office 365 tenant](#D365-preview-signup) for instructions.
+- _If you don't already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant_, or if you want to set up a temporary one especially for running the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview, then you can set up a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] trial, which creates its own [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant trial at the same time. Then you can install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview on that tenant. See [Sign up for a Dynamics 365 trial that includes a trial Office 365 tenant](#D365-preview-signup) for instructions.
 
 <a name="marketing-preview-signup"></a>
 
@@ -40,7 +40,7 @@ Once you have a trial or production [!INCLUDE[pn-ms-office-365](../includes/pn-m
 
 1. Open a web browser and go to [trials.dynamics.com/Dynamics365/Preview/Marketing](https://trials.dynamics.com/Dynamics365/Preview/Marketing).
 
-1. A form opens asking for your email address and phone number. Use the email address that you use to sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant (or the one you created when setting up a trial tenant.)
+1. A form opens asking for your email address and phone number. Use the email address that you use to sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant (or the one you created when setting up a trial tenant).
 
 1. Follow the instructions on your screen.
 
@@ -77,7 +77,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 
     1. Follow the instructions on your screen to add the trial to your account.
 
-    1. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] license to your user account and then setup an Exchange mailbox for yourself. You could also set up exchange to forward all messages to your usual work address. See the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] online help for assistance with these tasks. It may take several minutes for your mailbox to come online.
+    1. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] license to your user account and then setup an [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] mailbox for yourself. You could also set up [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] to forward all messages to your usual work address. See the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] online help for assistance with these tasks. It may take several minutes for your mailbox to come online.
 
 1. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Sign up for the Dynamics 365 for Marketing preview](#marketing-preview-signup).
 
