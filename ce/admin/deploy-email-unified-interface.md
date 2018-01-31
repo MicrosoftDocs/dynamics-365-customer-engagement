@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Deploy the Email in Unified Interface app to improve accessibility
+# Enable accessible email flow
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -36,11 +36,11 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 4.  Select the **Email in Unified Interface** app, and then select **Install**.  
 
-You can now see the app in the list of published apps. Go to **Settings** > **My Apps**. [comment]: <> (This last instruction--to do what? Do they need to do that before they can see the app in the list of published apps? If yes, then the instruction should come first. So should it be step #5?)
+You can now see the app in the list of published apps. Go to **Settings** > **My Apps** to see it.
 
 ![Email Unified Interface app published](media/email-unified-interface-app-published.png "Email Unified Interface app published")
 
-**Provide users accessible email access**
+**Provide users with permissions for the accessible email access flow**
 
 For users who want to have accessible email access, follow these steps.
 
