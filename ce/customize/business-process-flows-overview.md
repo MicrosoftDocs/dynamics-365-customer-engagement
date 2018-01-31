@@ -25,7 +25,7 @@ You can help ensure that people enter data consistently and follow the same step
   
 <a name="BKMK_Why"></a>   
 ## Why use business process flows?  
- Business process flows provide a guide for people to get work done. They provide a streamlined user experience that leads people through the processes their organization has defined for interactions that need to be advanced to a conclusion of some kind. This user experience can be tailored so that people with different security roles can have an experience that best suites the work they do by using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+Business process flows provide a guide for people to get work done. They provide a streamlined user experience that leads people through the processes their organization has defined for interactions that need to be advanced to a conclusion of some kind. This user experience can be tailored so that people with different security roles can have an experience that best suites the work they do by using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
  Use business process flows to define a set of steps for people to follow to take them to a desired outcome. These steps provide a visual indicator that tells people where they are in the business process. Business process flows reduce the need for training because new users don’t have to focus on which entity they should be using. They can let the process guide them. You can configure business process flows to support common sales methodologies that can help your sales groups achieve better results. For service groups, business process flows can help new staff get up-to-speed more quickly and avoid mistakes that could result in unsatisfied customers.  
   
@@ -142,9 +142,9 @@ You can help ensure that people enter data consistently and follow the same step
   
 -   Multi-entity processes can contain no more than five entities.
   
-## Preview Feature: Business Process Flow entity customization support 
+## Preview feature: Business process flow entity customization support 
 
-With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update, business process flow entities can appear in the system so that the related entity record data can be made available in grids, views, charts, and dashboards. 
+With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update, business process flow entities can appear in the system so that entity record data can be made available in grids, views, charts, and dashboards. 
 
 > [!IMPORTANT]
 > [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
@@ -162,7 +162,7 @@ With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] up
 
 ### Use business process flow entity records with grids, views, charts, and dashboards
 
-With business processes flows available as an entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can now use advanced finds, views, charts, and dashboards sourced with business process flow data for a given entity, such as a lead or opportunity. System Administrators and Customizers can create custom business process flow grids, views, charts, and dashboards similar to how they can be created with any other entity.
+With business processes flows available as an entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can now use advanced finds,[comment]: <> (What are finds? I ask because everywhere else in this section it says "grids, views, charts, etc.") views, charts, and dashboards sourced from business process flow data for a given entity, such as a lead or opportunity. System administrators and customizers can create custom business process flow grids, views, charts, and dashboards similar to those created with any other entity.
 
 Business process flows, such as **Lead To Opportunity Sales Process**, appear as a customizable entity in Solution Explorer.
 
@@ -176,7 +176,7 @@ Several default views are available that you can view as a chart, such as the **
 
 ![Active Opportunity Sales Process view](media/bpf-default-view.png)
 
-### Limitation with using business process flow entities
+### Limitations of using business process flow entities
 
 Currently, you can’t create custom forms for entities based on a business process flow.
 
