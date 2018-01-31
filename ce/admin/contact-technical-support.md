@@ -32,7 +32,7 @@ On February 1, 2018, we introduced a new Help + support experience for admins to
 
 -  Currently for organizations in North America (NAM) region. Other regions should see the [section below](#contacting-support-for-regions-other-than-north-america-nam). 
 
--  You must have one of the following Office 365 admin roles to enter support requests:
+-  You have one of the following Office 365 admin roles to enter support requests:
  
    - Global
    - Tenant
