@@ -1,12 +1,15 @@
-- name: Guidance for client customizations
+- name: Guidance overview
+  href: index.md
   items:
-  - name: Interact with HTTP(S) resources asynchronously
-    href: client/prefer-async-server-interactions.md
-  - name: Avoid usage of window.top
-    href: client/avoid-window-top.md
-- name: Guidance for server extensions
-  items:
-  - name: Avoid usage of batch request
-    href: server/avoid-batch-requests-plugin.md
-  - name: Use InvalidPluginExecutionException
-    href: server/Use-InvalidPluginExecutionException-plugin.md
+  - name: Guidance for client customizations
+    items:
+    - name: Interact with HTTP(S) resources asynchronously
+      href: client/prefer-async-server-interactions.md
+    - name: Avoid usage of window.top
+      href: client/avoid-window-top.md
+  - name: Guidance for server extensions
+    items:
+    - name: Avoid usage of batch request
+      href: server/avoid-batch-requests-plugin.md
+    - name: Use InvalidPluginExecutionException
+      href: server/Use-InvalidPluginExecutionException-plugin.md

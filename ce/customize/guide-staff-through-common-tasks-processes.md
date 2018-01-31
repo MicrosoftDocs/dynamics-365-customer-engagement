@@ -1,7 +1,7 @@
 ---
 title: "Create custom business logic through processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 12/28/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -123,7 +123,7 @@ Defining and enforcing consistent business processes is one of the main reasons 
 |**Stop Workflow**|Workflow, Action|Stops the current workflow or action. You can set a status of either **Succeeded** or **Canceled** and specify a status message.|  
 |**Custom Step**|Workflow, Action|Provides extensions to the logical elements available by default in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Steps can include conditions, actions, other steps, or a combination of these elements. Developers can create custom workflow steps. By default, there are no custom steps available in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|
 
-For more information for developers, see the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] topic [Custom workflow activities (workflow assemblies)](../developer/custom-workflow-activities-workflow-assemblies.md).
+For more information for developers, see the Developer Guide topic [Automate your business processes in Customer Engagement](../developer/automate-business-processes-customer-engagement.md).
   
 ### See also  
  [Business process flows overview](../customize/business-process-flows-overview.md)   

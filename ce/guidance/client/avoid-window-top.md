@@ -23,29 +23,29 @@ manager: "austinj"
 
 ## Symptoms
 
-- The user will see the following script error or it will be in your logs: `Error: Blocked a frame with origin "https://<yourinstance>.dynamics.com" from accessing a cross-origin frame.`
-- Customizations may not behave correctly when in the context of [!include[](../../includes/pn-dyn-365-app-outlook.md)], [!include[](../../includes/pn-dynamics-crm.md)] for phones and tablets or an external application hosting [!include[](../../includes/pn-dynamics-crm.md)] within an `iframe`.
+- The following script error will be displayed to users or included in your error logs: `Error: Blocked a frame with origin "https://<yourinstance>.dynamics.com" from accessing a cross-origin frame.`
+- Customizations might not behave correctly in the context of [!include[](../../includes/pn-dyn-365-app-outlook.md)], [!include[](../../includes/pn-dynamics-crm.md)] for phones and tablets, or an external application that hosts [!include[](../../includes/pn-dynamics-crm.md)] within an iframe.
 
  > [!NOTE]
- > There may be error handling that swallows the error and continues script processing, causing unexpected behavior.
+ > There might be some scenarios where error handling masks the error and continues script processing, causing unexpected behavior.
 
 <a name='guidance'></a>
 
 ## Guidance
 
-Avoid usage of `window.top`. Using `window.top` in scripts running within the context of [!include[](../../includes/pn-dyn-365-app-outlook.md)], [!include[](../../includes/pn-dynamics-crm.md)] for phones and tablets or an external application hosting [!include[](../../includes/pn-dynamics-crm.md)] within an `iframe`. Even if these scenarios do not currently apply to your organization, you should avoid using `window.top` or guard against this issue.
+Avoid using `window.top` in scripts running within the context of [!include[](../../includes/pn-dyn-365-app-outlook.md)], [!include[](../../includes/pn-dynamics-crm.md)] for phones and tablets, or an external application that hosts [!include[](../../includes/pn-dynamics-crm.md)] within an iframe. Even if these scenarios don't currently apply to your organization, you should avoid using `window.top` or guard against this issue.
 
- > [!WARNING]
- > Usage of `window.parent` or variations of the parent hierarchy (e.g.-`window.parent.parent`, etc.) can experience the same symptom.
+ > [!IMPORTANT]
+ > Usage of `window.parent` or variations of the parent hierarchy (for example,`window.parent.parent`) can cause the same symptoms.
 
 The following are the recommended approaches:
 
 - Avoid usage of the window.top object altogether.
 
-- If using `window.top` is the only available option, then test for access first to determine if `window.top` is accessible. If not available, then provide alternate logic or a fallback user experience.
+- If using `window.top` is the only available option, first test to determine whether `window.top` is accessible by using the script below. If it's not available, provide alternate logic or a fallback user experience.
 
   > [!NOTE]
-  > The recommendation is to avoid `window.top`. This is only included for those edge cases where this may be the only option available.
+  > Although we recommend that you avoid using `window.top`, this script is included for those edge cases where it might be the only option available.
 
     ```javascript
     function isTopAccessible() {
@@ -67,7 +67,7 @@ The following are the recommended approaches:
 
 ## Problematic patterns
 
-Any usage of `window.top` should be avoided. The following are examples of commonly seen patterns.
+Any usage of `window.top` should be avoided, if possible. The following are examples of commonly seen patterns.
 
 ```javascript
 // Getting or setting variables at the top level
@@ -81,4 +81,4 @@ myValue = window.top.Xrm.Page.getAttribute("field1");
 
 ## Additional information
 
-In the scenarios mentioned, `window.top` refers to the window owned by an application context external to [!include[](../../includes/pn-dynamics-crm.md)]. Due to the differing origins, the browser will present the user with a cross-origin security error.
+In the scenarios mentioned, `window.top` refers to the window owned by an application context external to [!include[](../../includes/pn-dynamics-crm.md)]. Due to the differing origins, the browser presents the user with a cross-origin security error.

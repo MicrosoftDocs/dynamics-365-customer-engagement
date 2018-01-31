@@ -87,7 +87,7 @@
       topicHref: /dynamics365/customer-engagement/unified-service-desk/admin/sample-unified-service-desk-applications
   - name: Guidance
     tocHref: /dynamics365/customer-engagement/guidance/
-    topicHref: /dynamics365/customer-engagement/guidance/client/prefer-async-server-interactions
+    topicHref: /dynamics365/customer-engagement/guidance/
     items:
     - name: Client
       tocHref: /dynamics365/customer-engagement/guidance/client/
