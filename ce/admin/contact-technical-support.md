@@ -24,7 +24,7 @@ manager: "brycho"
 
 ## Preview feature: Dynamics 365 new support center 
 
-In February 1, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). This will help us improve your overall support experience and drive faster issue resolution. 
+On February 1, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). This will help us improve your overall support experience and drive faster issue resolution. 
 
 ### Prerequisites
 
