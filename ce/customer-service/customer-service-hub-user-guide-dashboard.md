@@ -18,11 +18,11 @@ ms.assetid: df25e314-069c-4361-abbc-e7d0dde2a596
 
 <a name="bkmk_UseDashboards"></a>   
  
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive experience dashboards are a one-stop workplace where you review your workload and take actions. The information in the interactive dashboard is shown in real time, coming from views and queues. The interactive dashboards with their modern and intuitive interface are optimized for the customer service experience. For example, instead of paging through the application looking for a case, you’ll be able to open and update the case right from the dashboard. This will save you time, help to focus on tasks at hand, and get more work done. You’ll need sufficient permissions to use the interactive dashboards. The permissions will be assigned to you by an administrator.  
+ [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive experience dashboards are a one-stop workplace where you review your workload and take actions. The information in the interactive dashboard is shown in real time, coming from various views and queues. The interactive dashboards with their modern and intuitive interface are optimized for the customer service experience. For example, instead of paging through the application looking for a case, you’ll be able to open and update the case right from the dashboard. This will save you time, help to focus on tasks at hand, and get more work done. You’ll need sufficient permissions to use the interactive dashboards. The permissions will be assigned to you by an administrator.  
 
-Watch this video to learn more about dashboards in the Customer Service Hub:
+See this video to know more about dashboards in the Customer Service Hub:
 
-<td colspan="2"><iframe width="1280" height="720" src="https://www.youtube.com/embed/cDN-gv0Yylg?rel=0" frameborder="0" allowfullscreen></iframe></td>
+<td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/5zK0nb-ACnM" frameborder="0" allowfullscreen></iframe></td>
   
 <a name="BKMK_Streams"></a>  
 
@@ -85,9 +85,9 @@ The illustrations given below show multi-stream and single-stream dashboards wit
   
   
  If you have five streams in the multi-stream dashboard in the standard view, after you switch to tiles, you’ll see five tiles. If a view that tracks your active cases contains 32 items, the corresponding **My Active Cases** tile will display a numerical number 32 in the center of the tile. To drill down to a particular case, do one of the following:
-- Select the tile anywhere
-- Select **View**
-- Select  **(…)** in the top right corner
+- Click the tile anywhere
+- Click **View**
+- Click  **(…)** in the top right corner
 
 A flyout window will open. If there are too many cases to show, the window will have a scrollbar. You can navigate and select a particular case in the list, which will take you straight to the case form. The illustration shows the tiles and underlined cases in the list.  
   
@@ -96,7 +96,7 @@ A flyout window will open. If there are too many cases to show, the window will 
   
 <a name="BKMK_VisualFilters"></a>   
 
-## Visual Filter  
+## Visual filters  
 Visual filters provide a visual snapshot of key metrics, such as cases by priority or by origin. They also help removing clutter from the screen and display information that interests you most. For example, if you select the **High Priority** circle in the **Cases by Priority** chart, the dashboard will refresh and you’ll see only high priority cases in your data streams. You can find different types of charts on your dashboard, such as pie, bar, doughnut, or tag chart. Visual filters and tiles help you see the changes and patterns in data, and act quickly to address the most important issues. 
 
 To display the charts on the dashboard, select the visual filter button in the dashboard header, as shown below. The clickable button acts as a toggle switch, to show or hide the visual filters on the dashboard. On the single-stream dashboard, the visual filters are always shown and can’t be hidden from the view.  
@@ -113,7 +113,7 @@ To display the charts on the dashboard, select the visual filter button in the d
   
 <a name="BKMK_GlobalFilter"></a>  
 
-## Global Filter  
+## Global filter  
  To add granularity to filtering data, you can use the Global filter. For example, you can apply the Global filter to show only escalated cases and the cases that are marked as “Request.”  
   
 Select the **Show Global Filter** button in the command bar to view and apply global filters.  
@@ -127,8 +127,7 @@ Select the **Show Global Filter** button in the command bar to view and apply gl
  After you apply Global filters, the dashboard refreshes to show you only the cases in charts, streams, and tiles that are based on the filter entity (the filter entity is the entity that is used in the charts). To clear the Global filter, select **Clear** in the flyout window.
 
 By using a combination of Visual and Global filters, you can drill down from a long list of cases to a more focused list.
-
-
+  
 <a name="BKMK_ClearFilters"></a> 
 
 ## Clear the filters  
@@ -170,7 +169,7 @@ For example, you can choose to view cases created in **This Quarter**, or  **Las
 
 Benefit from the Bulk Select option, where you can select multiple records at one time and perform specific actions.
 
-Select the Bulk Select icon and select multiple records by selecting the check box. Then select **(...)** to view the actions that can be performed on the selected records.
+Select the Bulk Select icon and select multiple records by selecting the check box. Then click **(...)** to view the actions that can be performed on the selected records.
 
 ![bulk-select](media/bulk-select-csh.png "bulk select")
 

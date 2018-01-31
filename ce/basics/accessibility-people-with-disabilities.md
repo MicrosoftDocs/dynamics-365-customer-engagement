@@ -14,6 +14,8 @@ ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
 ---
 # Accessibility for people with disabilities
 
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)  
   
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement apps 

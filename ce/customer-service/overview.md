@@ -39,7 +39,7 @@ There are two flavors of [!include[](.../includes/pn-ms-dyn-365-for-customer-ser
 
 - The Customer Service app is available on a desktop browser for case management, but not for managing knowledge articles. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 
-- The Customer Service Hub app is available to use on a desktop browser for managing knowledge articles, and on mobile devices for case management. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
+- The Customer Service Hub app is available to use on both, a desktop browser for managing knowledge articles and on mobile devices for case management. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
 
     The Customer Service Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Using Customer Service Hub on a desktop browser for tasks other than managing knowledge articles is not recommended. 
 
