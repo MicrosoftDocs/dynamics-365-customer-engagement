@@ -2,7 +2,7 @@
 title: "Create a record from a post in Social Engagement | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 to create new lead or case records."
 keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social activity, entity, entities"
-ms.date: 09/27/2017
+ms.date: 01/31/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,7 +23,8 @@ Learn about the [prerequisites to establish a connection with Dynamics 365](conn
 
 You can define the information to show in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record details when a record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is created from a social post. Depending on your selection, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] fields shows the information about the connected instance and selected entity. To familiarize yourself with the social activity record type or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record creation and update rules feature, see [MSDN: SocialActivity entity messages and methods](https://msdn.microsoft.com/library/dn689062.aspx), [CRM Help & Training: Set up rules to automatically create or update records in CRM](http://go.microsoft.com/fwlink/p/?LinkID=624394).  
   
-Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity that you want to display in **Dynamics 365 Record Details** in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] when a record of the same entity is created from a post. Add the fields you want to see in the **Dynamics 365 Record Details** when you define the entity details in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+Define the fields of a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity that you want to display in **Dynamics 365 Record Details** in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] when a record of the same entity is created from a post. Add the fields you want to see in the **Dynamics 365 Record Details** when you define the entity details in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].    
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you select the record type to create when linking a new post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Depending on the settings in **Entity Details**, you can see the current values of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] when you load the record details for a post that was linked before.   
 
 > [!NOTE]
 > Only the custom entities in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] which are in relationship with the Social Activity entity are visible in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. For more information, see [TechNet: Create and edit entity relationships](https://technet.microsoft.com/library/dn531171.aspx).
