@@ -24,7 +24,7 @@ manager: "brycho"
 
 ## Preview feature: Dynamics 365 new support center 
 
-In February 2018, we're introducing a new Help + Support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). The new process will help us improve your overall support experience and drive faster issue resolution. 
+In February 1, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). This will help us improve your overall support experience and drive faster issue resolution. 
 
 ### Prerequisites
 
@@ -32,7 +32,13 @@ In February 2018, we're introducing a new Help + Support experience for admins t
 
 -  Currently for organizations in North America (NAM) region. Other regions should see the [section below](#contacting-support-for-regions-other-than-north-america-nam). 
 
--  You must be an Office 365 admin to enter service requests.
+-  You must have one of the following Office 365 admin roles to enter service requests:
+ 
+   - Global
+   - Tenant
+   - Service
+   - Support
+   - Billing
 
 -  For the following [support plans](https://www.microsoft.com/en-us/dynamics365/support).
    
@@ -61,17 +67,17 @@ In February 2018, we're introducing a new Help + Support experience for admins t
 
    ![Create a new support request](media/create-support-ticket.png "Create a new support request")
 
-Your ticket will appear in the list of Support Tickets.
+Your request will appear in the list of support requests.
 
-![List of support tickets](media/support-ticket-list.png "List of support tickets")
+![List of support requests](media/support-ticket-list.png "List of support requests")
 
-You can check the status and edit your ticket on this page.
-<!--
+You can check the status and edit your request on this page.
+
 ## Contacting support for regions other than North America (NAM)
 
 <a name="lFull3"></a> You have to be a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] administrator to contact technical support. If you are not an administrator, contact your local administrator.  
 
-For contact information, see [Self-Help Resources](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport) -->
+For contact information, see [Self-Help Resources](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport)
   
 ### See also
  [Help and additional resources](help-additional-resources.md)
