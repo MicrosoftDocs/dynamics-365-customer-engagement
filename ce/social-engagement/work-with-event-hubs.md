@@ -2,7 +2,7 @@
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
 description: "Learn how to work with events in Event Hubs."
 keywords: ""
-ms.date: 01/30/2018
+ms.date: 01/31/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -106,7 +106,7 @@ topic-status: Drafting
   
     1.  Example 1: In this simple “Hello World” example, we count all new posts over time and push them every 30 seconds to the output sink.  
   
-        ```sql  
+        ```  
         SELECT  
             count (*) AS count,  
             System.TimeStamp AS Time  
@@ -121,7 +121,7 @@ topic-status: Drafting
   
     2.  Example 2: In this example, we select unique publishers and their country/region information. The results will get pushed to the output sink every 30 seconds.  
   
-        ```sql  
+        ```  
         WITH current_window AS  
         (  
             SELECT  
