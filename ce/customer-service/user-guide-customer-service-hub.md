@@ -27,7 +27,7 @@ Customer Service Hub is based on the Unified Interface framework. Some of the ke
 
 Watch this video to learn more about the Customer Service Hub:
 
-<td colspan="2"><iframe width="1280" height="720" src="https://www.youtube.com/embed/OEn_FN5azq0" frameborder="0" allowfullscreen></iframe></td>
+<td colspan="2"><iframe width="1280" height="720" src="https://www.youtube.com/embed/OEn_FN5azq0?rel=0" frameborder="0" allowfullscreen></iframe></td>
   
 The Customer Service Hub app is available to use on a desktop browser for managing knowledge articles, and on mobile devices for case management.
 
