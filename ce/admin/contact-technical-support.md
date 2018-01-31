@@ -22,7 +22,7 @@ manager: "brycho"
 > [!NOTE]
 > ![This page is under construction.](../media/under_construction.png "Coming soon") This topic is under construction. We’re updating content based on changes to the feature, so check back soon!
 
-## Preview feature: Dynamics 365 new support center 
+## Preview feature: new Dynamics 365 support center 
 
 On February 1, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). This will help us improve your overall support experience and drive faster issue resolution. 
 
