@@ -113,6 +113,7 @@ To create a customer journey that executes a one-time email blast:
 
 ### See also
 
+[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  

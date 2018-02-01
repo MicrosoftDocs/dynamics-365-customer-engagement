@@ -12,7 +12,6 @@ applies_to:
 ms.assetid: 1f1a8244-2dc5-4de2-b7f8-719a46c82861
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -25,6 +24,7 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Set up and get started</h2>
+<li>[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)</li>
 <li>[First time setup](purchase-setup.md)</li>
 <li>[First time setup FAQ and troubleshooting](setup-troubleshooting.md)</li>
 <li>[Keep Marketing up to date](apply-updates.md)</li>

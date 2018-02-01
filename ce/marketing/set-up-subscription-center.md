@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -219,6 +218,7 @@ To set up a segment based on a subscription list:
 
 ### See also
 
+[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)
 [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
 [Create a segment](create-segment.md)  
 [Find your way around](navigation.md)  
