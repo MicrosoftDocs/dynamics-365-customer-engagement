@@ -200,7 +200,7 @@ When you've finished designing your customer journey, do the following to verify
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)
+[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  

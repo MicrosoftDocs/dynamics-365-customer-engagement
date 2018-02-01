@@ -34,7 +34,7 @@ Though messaging and promotion strategies are typically quite different for an i
 ### See also
 
 [Create a simple customer journey](create-simple-customer-journey.md)  
-[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)
+[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  

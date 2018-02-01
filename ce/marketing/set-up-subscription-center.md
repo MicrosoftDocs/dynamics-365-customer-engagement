@@ -223,7 +223,7 @@ To set up a segment based on a subscription list:
 
 ### See also
 
-[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)
+[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)  
 [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
 [Create a segment](create-segment.md)  
 [Find your way around](navigation.md)  
