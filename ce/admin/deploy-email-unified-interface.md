@@ -22,7 +22,7 @@ manager: "brycho"
 
 To improve accessibility when reading and editing email in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], we're introducing an app that provides an accessible email flow. This topic explains how admins can enable this flow and how end users can access it.
 
-## For admins: Installing the app
+## For admins: Install the app
 
 Follow these steps to deploy the solution and enable users to use the accessible flow.
 
