@@ -40,7 +40,7 @@ A default subscription center is provided with [!INCLUDE[pn-marketing-business-a
 > [!IMPORTANT]
 > Normally, all contacts that start on a customer journey will remain on that journey until they reach the end&mdash;even if they unsubscribe while the journey is running. For journeys that take more than a few days to traverse, this can mean that contacts may continue to receive marketing messages even long after they have unsubscribed. Failure to respect unsubscribe requests in a timely manner may expose your organization to litigation and penalties. It is your responsibility to familiarize yourself with and conform to all applicable regulations in the countries/regions targeted by your marketing campaigns.
 > 
-> To create a customer journey that respects unsubscribe requests received mid-run, add a suppression segment to the journey as described in [Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md).
+> To create a customer journey that respects unsubscribe requests received mid-run, add a suppression segment to the journey as described in [Use suppression segments to respect unsubscribe requests](suppression-segments.md).
 
 ## Create a subscription list
 
@@ -223,7 +223,7 @@ To set up a segment based on a subscription list:
 
 ### See also
 
-[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)  
+[Use suppression segments to respect unsubscribe requests](suppression-segments.md)  
 [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
 [Create a segment](create-segment.md)  
 [Find your way around](navigation.md)  

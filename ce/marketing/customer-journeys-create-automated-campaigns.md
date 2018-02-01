@@ -183,7 +183,7 @@ Suppression segments are especially important for journeys that run for a long t
 
 You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its General tab and then choose a segment in the **Suppression segment** lookup field.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use suppression segments to respect unsubscribe requests](suppression-segments.md)
 
 ## Go live to start running the journey and processing contacts
 
@@ -200,7 +200,7 @@ When you've finished designing your customer journey, do the following to verify
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)  
+[Use suppression segments to respect unsubscribe requests](suppression-segments.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  

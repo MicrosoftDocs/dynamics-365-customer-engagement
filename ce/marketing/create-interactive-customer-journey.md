@@ -110,7 +110,7 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 ### See also
 
 [Create a simple customer journey](create-simple-customer-journey.md)  
-[Use suppression segments to ensure running customer journeys will respect unsubscribe requests](suppression-segments.md)  
+[Use suppression segments to respect unsubscribe requests](suppression-segments.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
