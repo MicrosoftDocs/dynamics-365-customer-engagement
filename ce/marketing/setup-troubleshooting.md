@@ -24,6 +24,8 @@ topic-status: Drafting
 
 Read this topic to find answers to common questions, and solutions to known issues that can sometimes occur during the initial setup of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
+<a name="preview-prerequisites"></a>
+
 ## Get all prerequisites in place to set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview
 
 You can install and use a preview version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free. Prerequisites for the preview are the same as those for the production version of the product, but you can install it on a trial (or production) [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, and you must use it with a trial version of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
@@ -87,4 +89,6 @@ In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../inc
 
 ![Unmanaged org error](media/setup-ts-unmanaged-aad.png "Unmanaged org error")
 
-To fix this, you must convert your unmanaged org into a managed one and then run the setup wizard again. For instructions about how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).
+To fix this, do one of the following:
+- If you are just setting up a preview or trial of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], then consider creating a new trial tenant and then set up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview there, as described earlier under [Get all prerequisites in place to set up a Marketing preview](#preview-prerequisites).
+- If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard again. For instructions about how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).
