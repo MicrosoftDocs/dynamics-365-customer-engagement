@@ -32,7 +32,7 @@ manager: "amyla"
 |2|Update|
 |3|Read Only|
 |4|Disabled|
-|5|Bulk Edit|
+|6|Bulk Edit|
 
 >[!NOTE]
 >Quick Create forms return 1.
