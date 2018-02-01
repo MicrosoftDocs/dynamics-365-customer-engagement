@@ -1,7 +1,7 @@
 ---
 title: "Backup and restore instances of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 02/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
