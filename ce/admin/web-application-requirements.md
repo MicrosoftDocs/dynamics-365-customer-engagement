@@ -61,7 +61,7 @@ Notice that the suggested network requirements include the metadata download nee
 ## Supported versions of Internet Explorer and Edge  
  The following table describes the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] and [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] versions supported for use with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application.  
   
-|[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] version|[!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)]|[!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)]|[!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]|  
+|[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] version|[!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)]|[!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)]<sup>2</sup>|[!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]|  
 |---------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------|  
 |[!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)]|Not supported<sup>1</sup>|Supported|Supported|  
 |[!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)]|Not supported<sup>1</sup>|Supported|Not supported|  
@@ -69,6 +69,7 @@ Notice that the suggested network requirements include the metadata download nee
 |[!INCLUDE[pn_Windows_7](../includes/pn-windows-7.md)]|Supported|Supported|Not supported|  
   
  <sup>1</sup> This version of [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] doesn’t support the version of [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Internet Explorer 11 – FAQ for IT Pros](https://technet.microsoft.com/library/dn268945.aspx)  
+ <sup>2</sup> Check requirements for individual apps, such as [Customer Service Hub application requirements](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/customer-service-hub-user-guide-basics).
   
 > [!IMPORTANT]
 >  Although you may be able to use [!INCLUDE[pn_IE_8](../includes/pn-ie-8.md)], [!INCLUDE[pn_IE_9](../includes/pn-ie-9.md)], or an [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] and [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] combination that is not supported in the previous table, those web browsers are not recommended and are not supported with this version of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  

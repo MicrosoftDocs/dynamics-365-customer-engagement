@@ -39,6 +39,7 @@
     },
     "fileMetadata": {
       "breadcrumb_path": {
+        "**.*": "bc/toc.yml",
         "admin/**.*": "bc/toc.yml",
         "analytics/**.*": "bc/toc.yml",
         "basics/**.*": "bc/toc.yml",
