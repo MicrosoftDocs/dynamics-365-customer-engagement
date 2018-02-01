@@ -104,6 +104,8 @@ To create a landing page and go live:
 
     As people interact with your page, information will become available in the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view, including lists of contacts who visited and submitted the form on the page and analytics about its performance. You should be able to see your test submission on the **Submissions** tab here.
 
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
+
 ### See also
 
 [Design your digital content](design-digital-content.md)  

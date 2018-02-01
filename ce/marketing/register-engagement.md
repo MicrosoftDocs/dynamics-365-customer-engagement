@@ -28,6 +28,8 @@ You can measure customer engagement with your marketing initiatives in several w
 - Adding a script to the pages of your website that enables [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to record how people use your website and to connect browsing records to anonymous and known contacts.
 - Setting up a redirect URL, which logs clicks on links that you post to social-media sites, ad banners, and other places online. You'll be able to see how often a link was used, where it was used, and who used it (when the user is a known contact).
 
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
+
 ## Monitor how visitors use your website
 
 When people come to your website, they are expressing an interest in your organization and its products. And where they go on your site tells you even more about what they are interested in. Frequent or extended browsing sessions with your site, especially in the products or purchasing areas, can be a strong indicator of a contact who is ready to buy.
