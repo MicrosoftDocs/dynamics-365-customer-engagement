@@ -36,8 +36,8 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 |Topic  |Updates  |
 |---------|---------|
 |[Download Unified Service Desk](../unified-service-desk/download-unified-service-desk.md)|Download link for [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]|
-|[Understand Unified Service Desk concepts](../unified-service-desk/understand-unified-service-desk-concepts.md)|Added information about TotalRecordCountLimit UII option|
-|[Manage Options for Unified Service Desk](../unified-service-desk/admin/manage-options-unified-service-desk.md)| Added information about new UII options|
+|[Understand Unified Service Desk concepts](../unified-service-desk/understand-unified-service-desk-concepts.md)|Information about TotalRecordCountLimit UII option|
+|[Manage Options for Unified Service Desk](../unified-service-desk/admin/manage-options-unified-service-desk.md)| Information about new UII options|
 |[Performance data collection using keyboard shortcut](../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md)|New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md)|
 |[Recover Internet Explorer process instance](admin/recover-internet-explorer-process-instance.md)|New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md)|
 |[Performance enhancement for CRM entity page loads](admin/performance-enhancement-CRM-entity-page-loads.md)|New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md)|
