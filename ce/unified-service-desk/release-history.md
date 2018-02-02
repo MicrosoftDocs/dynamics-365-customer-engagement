@@ -30,6 +30,17 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 <a name="Release_3_2"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)], January 2018
+ 
+The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)].
+
+|Topic  |Updates  |
+|---------|---------|
+|[Understand Unified Service Desk concepts](../unified-service-desk/understand-unified-service-desk-concepts.md)|Added information about TotalRecordCountLimit UII option|
+|[Manage Options for Unified Service Desk](../unified-service-desk/admin/manage-options-unified-service-desk.md)| Added information about new UII options|
+|[Performance data collection using keyboard shortcut](../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md)|New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md)|
+|[Recover Internet Explorer process instance](admin/recover-internet-explorer-process-instance.md)|New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md)|
+|[Performance enhancement for CRM entity page loads](admin/performance-enhancement-CRM-entity-page-loads.md)|New topic under [Administer and manage Unified Service Desk](admin/administer-manage-unified-service-desk.md)|
+
 For information about this release, see [New feature information for administrators](admin/whats-new-unified-service-desk-administrators.md).
 
 <a name="Release_3_1"></a>   

@@ -72,7 +72,11 @@ The **Options** setting in [!INCLUDE[pn_unified_service_desk](../../includes/pn-
 ## See also  
  [Configure client caching in Unified Service Desk](../../unified-service-desk/admin/configure-client-caching-unified-service-desk.md)  
   
- [Help improve Unified Service Desk by sending usage data](../../unified-service-desk/admin/help-improve-unified-service-desk.md)  
+ [Help improve Unified Service Desk by sending usage data](../../unified-service-desk/admin/help-improve-unified-service-desk.md)
+
+ [Understand Unified Service Desk concepts](../../unified-service-desk/understand-unified-service-desk-concepts.md)
+ 
+ [Performance data collection using keyboard shortcut](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md) 
 
  [Recover Internet Explorer process instance](../admin/recover-internet-explorer-process-instance.md)
 
