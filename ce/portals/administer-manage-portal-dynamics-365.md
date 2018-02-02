@@ -22,7 +22,7 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
 <table style="width:auto">
    <tr>
     <td>    
-    <iframe src="https://www.youtube.com/embed/9SLUlU_gv0E" width="480" height="360" allowFullScreen="true" frameBorder="0"></iframe>
+    <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/9SLUlU_gv0E" allowFullScreen="true" frameBorder="0"></iframe></div>
     </td>
    <td><ul>
    <li>[Review the updates](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases) that have been made to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, along with other information pertinent to those updates.</li>
