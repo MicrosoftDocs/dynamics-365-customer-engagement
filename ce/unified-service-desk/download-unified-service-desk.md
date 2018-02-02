@@ -26,7 +26,7 @@ This topic provides information about the location from where you can download v
 
 |Version|Download Location|
 |--|--|
-|[!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]|Download|
+|[!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]|[Download](https://go.microsoft.com/fwlink/p/?linkid=867343)|
 |[!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)]|[Download](https://go.microsoft.com/fwlink/p/?linkid=862012)|
 |[!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)]|[Download](http://go.microsoft.com/fwlink/p/?LinkId=854761)|
   
