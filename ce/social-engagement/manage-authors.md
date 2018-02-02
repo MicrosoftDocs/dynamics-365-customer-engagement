@@ -2,7 +2,7 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete and export information about authors of posts."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 01/31/2018
+ms.date: 02/02/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -20,10 +20,40 @@ Most posts in Social Engagement are linked to an author, a user on a social netw
 
 ## Delete all author information
 
+To remove all available information about an author in Social Engagement, you can delete them. However, once you delete an author, there's no way to undo this. Data about and from this author will be lost, including any future posts. To delete and author in Social Engagement, you need to have a Power Analyst or Administrator [configuration role](user-roles.md). 
+
+Deleting an author has the following impact:
+
+- Search rules that are configured to gather posts from the author's profile are deleted.
+
+- All posts from the author are removed from the database.
+
+- No new posts from the author will be acquired in the future.
+
+### Find and delete an author
+
+1. In **Social Engagement > Analytics**, set the time frame to include the past two years. 
+
+2. In the filter menu, select the **Author** filter. 
+
+3. Search for the author name and apply the filter to see all posts of this author. 
+
+4. In **Analytics > Overview**, open the **Authors** widget to full-view.
+
+5. In the expanded view, select the trashbin icon. 
+
+All posts from the author are deleted from the database and no new posts from the author will be acquired in the future. 
+
 ## Export author information
 
 ## Stop processing specific authors
 
 ## Rectification of author information
 
+Administrators in Social Engagement can't change author names manually.    
+However, if an author decides to change the name on a social network, this change will be reflected in Social Engagement when the next post of this author is acquired. 
+
 ### See also
+[Get an overview about the data](analytics-overview.md)    
+[Get started with Social Engagement](get-started.md)    
+[Set up searches in Social Engagement](set-up-searches.md)
