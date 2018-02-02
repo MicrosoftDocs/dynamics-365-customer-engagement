@@ -177,7 +177,7 @@ A compound segment combines one or more existing segments into a single new segm
 1. Continue to compose your segment by adding more segments as needed and choosing an operation for each. As with the **Flow** view for dynamic, segments, you'll build a Sankey diagram of how your segments are combined, and how contacts flow into and out of the segment as a result of each operation.  
     ![Sankey diagram for a compound segment](media/segment-compound-step4.png "Sankey diagram for a compound segment")
     > [!TIP]
-    > To edit or remove a segment already shown in the diagram, hover your mouse pointer over the upper-right corner of a displayed tile to reveal edit and delete buttons, which you can select to edit or delete that tile.
+    > To edit or remove a segment already shown in the diagram, hover over the upper-right corner of a displayed tile to reveal edit and delete buttons, which you can select to edit or delete that tile.
 
 ## Set up marketing lists for use with subscription centers
 
