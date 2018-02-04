@@ -1,0 +1,67 @@
+- name: Manifest Schema Reference
+  href: index.md
+  items:
+  - name: AvailableOn
+    href: availableon.md
+  - name: child
+    href: child.md
+  - name: code
+    href: code.md
+  - name: container
+    href: container.md
+  - name: control
+    href: control.md
+  - name: customcontrol
+    href: customcontrol.md
+  - name: data-set
+    href: data-set.md
+  - name: default-binding
+    href: default-binding.md
+  - name: dependencies
+    href: dependencies.md
+  - name: dependency
+    href: dependency.md
+  - name: doc
+    href: doc.md
+  - name: edit
+    href: edit.md
+  - name: group
+    href: group.md
+  - name: groups
+    href: groups.md
+  - name: html
+    href: html.md
+  - name: img
+    href: img.md
+  - name: library
+    href: library.md
+  - name: manifest
+    href: manifest.md
+  - name: modes
+    href: modes.md
+  - name: packaged_library
+    href: packaged_library.md
+  - name: phone
+    href: phone.md
+  - name: property-set
+    href: property-set.md
+  - name: property
+    href: property.md
+  - name: read
+    href: read.md
+  - name: resources
+    href: resources.md
+  - name: resx
+    href: resx.md
+  - name: tablet
+    href: tablet.md
+  - name: type-group
+    href: type-group.md
+  - name: type
+    href: type.md
+  - name: types
+    href: types.md
+  - name: value
+    href: value.md
+  - name: web
+    href: web.md                                                                                                                                                                                                     

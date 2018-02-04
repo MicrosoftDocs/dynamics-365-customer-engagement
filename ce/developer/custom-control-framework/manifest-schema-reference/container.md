@@ -18,7 +18,7 @@ This element may contain a `string` with one of the following values:
 |--|--|
 |`true`|Placeholder description for container.true|
 |`false`|Placeholder description for container.false|
-|``|Placeholder description for container.empty|
+|`""`|Placeholder description for container.empty|
 
 This element may also be closed instead of containing no value.
 

@@ -1,1 +1,1 @@
-Placeholder description for AlphaNumericType
+Only letters or numbers
