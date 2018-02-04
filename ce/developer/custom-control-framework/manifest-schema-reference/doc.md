@@ -8,21 +8,19 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`description-key`|Placeholder description doc.description-key|`string`|yes|
+|`languagecode`|Placeholder description doc.languagecode|`string`|yes|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[property](property.md)|[!INCLUDE [property-description](includes/property-description.md)]|
+|[data-set](data-set.md)|[!INCLUDE [data-set-description](includes/data-set-description.md)]|
+|[group](group.md)|[!INCLUDE [group-description](includes/group-description.md)]|
 
-## Child Elements
-
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
 ### Related topics
 
 [Custom Control Framework Manifest Schema Reference](index.md)<br />
-[Custom Control Framework API Reference](../reference/index.md)
+[Custom Control Framework API Reference](../reference/index.md)<br />
 [Custom Control Framework Overview](../custom-control-framework-overview.md)

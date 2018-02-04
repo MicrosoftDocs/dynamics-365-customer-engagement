@@ -26,5 +26,5 @@
 ### Related topics
 
 [Custom Control Framework Manifest Schema Reference](index.md)<br />
-[Custom Control Framework API Reference](../reference/index.md)
+[Custom Control Framework API Reference](../reference/index.md)<br />
 [Custom Control Framework Overview](../custom-control-framework-overview.md)

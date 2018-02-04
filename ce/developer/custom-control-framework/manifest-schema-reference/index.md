@@ -36,3 +36,8 @@
 |[types](types.md)|[!INCLUDE [types-description](includes/types-description.md)]|
 |[value](value.md)|[!INCLUDE [value-description](includes/value-description.md)]|
 |[web](web.md)|[!INCLUDE [web-description](includes/web-description.md)]|
+
+### Related topics
+
+[Custom Control Framework API Reference](../reference/index.md)<br />
+[Custom Control Framework Overview](../custom-control-framework-overview.md)
