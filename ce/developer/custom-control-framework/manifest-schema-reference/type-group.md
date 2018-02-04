@@ -8,7 +8,7 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|name|Placeholder description type-group.name|`string`|yes|
+|`name`|Placeholder description type-group.name|`string`|yes|
 
 ## Parent Elements
 

@@ -4,23 +4,17 @@
 
 [!INCLUDE [types-description](includes/types-description.md)]
 
-## Attributes
-
-|Name|Description|Type|Required|
-|--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
-
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[property](property.md)|[!INCLUDE [property-description](includes/property-description.md)]|
 
 ## Child Elements
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[type](type.md)|[!INCLUDE [type-description](includes/type-description.md)]|0 or more|
 
 ### Related topics
 

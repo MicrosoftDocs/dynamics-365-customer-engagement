@@ -12,7 +12,7 @@
 
 ## Value
 
-This element contains a `string` with one of the following enum values:
+This element contains a `string` with one of the following values:
 
 [!INCLUDE [type-table](includes/type-table.md)]
 

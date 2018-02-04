@@ -4,23 +4,22 @@
 
 [!INCLUDE [resources-description](includes/resources-description.md)]
 
-## Attributes
-
-|Name|Description|Type|Required|
-|--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
-
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
 
 ## Child Elements
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[library](library.md)|[!INCLUDE [library-description](includes/library-description.md)]|0 or more|
+|[code](code.md)|[!INCLUDE [code-description](includes/code-description.md)]|1 or more|
+|[css](css.md)|[!INCLUDE [css-description](includes/css-description.md)]|0 or more|
+|[img](img.md)|[!INCLUDE [img-description](includes/img-description.md)]|0 or more|
+|[html](html.md)|[!INCLUDE [html-description](includes/html-description.md)]|0 or more|
+|[resx](resx.md)|[!INCLUDE [resx-description](includes/resx-description.md)]|0 or more|
 
 ### Related topics
 
