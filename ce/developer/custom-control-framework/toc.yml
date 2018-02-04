@@ -1,7 +1,74 @@
 - name: Custom Control Framework
   href: custom-control-framework-overview.md
   items:
-  - name: Reference
+  - name: Manifest Schema Reference
+    href: manifest-schema-reference/index.md
+    items:
+    - name: AvailableOn element
+      href: manifest-schema-reference/availableon.md
+    - name: child element
+      href: manifest-schema-reference/child.md
+    - name: code element
+      href: manifest-schema-reference/code.md
+    - name: container element
+      href: manifest-schema-reference/container.md
+    - name: control element
+      href: manifest-schema-reference/control.md
+    - name: customcontrol element
+      href: manifest-schema-reference/customcontrol.md
+    - name: data-set element
+      href: manifest-schema-reference/data-set.md
+    - name: default-binding element
+      href: manifest-schema-reference/default-binding.md
+    - name: dependencies element
+      href: manifest-schema-reference/dependencies.md
+    - name: dependency element
+      href: manifest-schema-reference/dependency.md
+    - name: doc element
+      href: manifest-schema-reference/doc.md
+    - name: edit element
+      href: manifest-schema-reference/edit.md
+    - name: group element
+      href: manifest-schema-reference/group.md
+    - name: groups element
+      href: manifest-schema-reference/groups.md
+    - name: html element
+      href: manifest-schema-reference/html.md
+    - name: img element
+      href: manifest-schema-reference/img.md
+    - name: library element
+      href: manifest-schema-reference/library.md
+    - name: manifest element
+      href: manifest-schema-reference/manifest.md
+    - name: modes element
+      href: manifest-schema-reference/modes.md
+    - name: packaged_library element
+      href: manifest-schema-reference/packaged_library.md
+    - name: phone element
+      href: manifest-schema-reference/phone.md
+    - name: property-set element
+      href: manifest-schema-reference/property-set.md
+    - name: property element
+      href: manifest-schema-reference/property.md
+    - name: read element
+      href: manifest-schema-reference/read.md
+    - name: resources element
+      href: manifest-schema-reference/resources.md
+    - name: resx element
+      href: manifest-schema-reference/resx.md
+    - name: tablet element
+      href: manifest-schema-reference/tablet.md
+    - name: type-group element
+      href: manifest-schema-reference/type-group.md
+    - name: type element
+      href: manifest-schema-reference/type.md
+    - name: types element
+      href: manifest-schema-reference/types.md
+    - name: value element
+      href: manifest-schema-reference/value.md
+    - name: web element
+      href: manifest-schema-reference/web.md                                                                                                                                                                                                     
+  - name: API Reference
     href: reference/index.md
     items:
     - name: ActionCollection
