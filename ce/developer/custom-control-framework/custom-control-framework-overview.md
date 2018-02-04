@@ -26,5 +26,5 @@ This section contains documentation for creating custom controls using the custo
 
 ### Related topics
 
-[Custom Control Framework API Reference](reference/index.md)
+[Custom Control Framework API Reference](reference/index.md)<br />
 [Custom Control Framework Manifest Schema Reference](manifest-schema-reference/index.md)

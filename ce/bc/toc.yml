@@ -79,6 +79,16 @@
       - name: Online Management API
         tocHref: /dynamics365/customer-engagement/developer/online-management-api/
         topicHref: /dynamics365/customer-engagement/developer/online-management-api
+      - name: Custom Control Framework
+        tocHref: /dynamics365/customer-engagement/developer/custom-control-framework/
+        topicHref: /dynamics365/customer-engagement/developer/custom-control-framework
+        items:
+        - name: Manifest Schema Reference
+          tocHref: /dynamics365/customer-engagement/developer/custom-control-framework/manifest-schema-reference/
+          topicHref: /dynamics365/customer-engagement/developer/custom-control-framework/manifest-schema-reference
+        - name: API Reference
+          tocHref: /dynamics365/customer-engagement/developer/custom-control-framework/reference/
+          topicHref: /dynamics365/customer-engagement/developer/custom-control-framework/reference          
       - name: Extend Outlook Client
         tocHref: /dynamics365/customer-engagement/developer/outlook-client/
         topicHref: /dynamics365/customer-engagement/developer/extend-customer-engagement-outlook
