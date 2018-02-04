@@ -2,7 +2,7 @@
   href: custom-control-framework-overview.md
   items:
   - name: Manifest Schema Reference
-    href: manifest-schema-reference/                                                                                                                                                                                                   
+    href: manifest-schema-reference/index.md
   - name: API Reference
     href: reference/index.md
     items:
