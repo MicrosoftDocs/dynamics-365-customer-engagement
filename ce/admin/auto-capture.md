@@ -12,9 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 caps.latest.revision: 13
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
 # Preview feature: Auto capture of related emails
 

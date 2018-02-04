@@ -12,7 +12,9 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: a32e9a04-7bc1-41dd-b9af-bb4f21a613c6
 caps.latest.revision: 15
-ms.author: "v-cavo"
+author: "JimDaly"
+ms.author: "jdaly"
+manager: "amyla"
 ---
 # Web API Samples (Client-side JavaScript)
 

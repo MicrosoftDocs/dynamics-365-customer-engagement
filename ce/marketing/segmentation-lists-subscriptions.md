@@ -11,6 +11,7 @@ applies_to:
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -28,22 +29,29 @@ You can define your various target groups by setting up segments and lists. Each
 
 A market segment is the collection of contacts that you target in a marketing campaign. In some cases, you'll simply target all the contacts you have, but in most cases, you'll choose who you want to target based on demographic or firmographic data and other considerations. For example, if you're opening a new store in San Francisco, you'll probably promote the opening-day event at that store only to contacts who live near San Francisco. Or if you're running a sale on dresses, you might only send related marketing email messages to your contacts who are female. Decisions like these will typically also affect the way you communicate with the segment in terms of which channels you'll choose, what kind of graphics you'll pick, which kinds of arguments you make, and more.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses segments in two important ways:
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses segments to target customer journeys. Most customer journeys start with a segment tile, which establishes the collection of contacts who will experience that journey. You can combine multiple segments here.
 
-- **Customer journeys**: Most customer journeys start with a segment tile, which establishes the collection of contacts who will experience that journey. You can combine multiple segments here.
-- **Subscription lists**: Subscription lists are static lists that contacts can add themselves to (or remove themselves from) by using a subscription center.
+### Types of segments
 
 Segments can be dynamic, static, or compound.
 
 - *Dynamic segments* are set up by using logical expressions, such as "all contacts from New York" or "all contacts who like The Mets." Membership in dynamic segments changes constantly to reflect new or removed contacts and updated contact information.
-- *Static segments* establish a static list of contacts who are selected on a per-contact basis rather than created logically based on field values. Marketers and salespeople might create and populate a static list based on private knowledge or offline interactions. Contacts can add or remove themselves from static segments by using a subscription center, which provides a list of available mailing lists (each of which is a static segment). In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll base your static segments on lists created by using the marketing lists feature; more on this later.
-- *Compound segments* combine static and dynamic criteria. They contain all contacts who match the dynamic criteria, plus all contacts added explicitly (as to a static list).
+- *Static segments* establish a static list of contacts who are selected on a per-contact basis rather than created logically based on field values. Marketers and salespeople might create and populate a static list based on private knowledge or offline interactions.
+- *Compound segments* combine existing (live) segments using logical operators.
+
+### Segments are synced with Customer Insights
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with another product called *[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]* to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] apply its powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] records and information from other systems. You can also access [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] directly to make use of its additional analytical tools and other features. [!include[](../includes/proc-more-information.md)] [Customer Insights online help](https://go.microsoft.com/fwlink/p/?linkid=863946)
 
+### Segments must be live before you can use them
+
+When you first create a new segment, it is in a _draft_ state, which means that it is unlocked, so you can work with its definition and other settings, but you won't be able to use it in customer journeys or compound segments. When you are ready to use your segment, you must open it and select **Go Live** from the command bar, which enables it and moves to the _live_ state.
+
+If you need to edit a segment after it has gone live, open it and then select **Stop** from the command bar to put it back into the draft state.
+
 ## View, create, and manage your segments
 
-To work with your segments, go to **Marketing** &gt; **Customers** &gt; **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details.
+To work with your segments, go to **Marketing** &gt; **Customers** &gt; **Segments**. This opens a standard list view, which you can use to search, sort, filter, create, and delete your segments. Open any segment to view its details, or select **New** to create a new one.
 
 ![The General tab for segments](media/segment-general.png "The General tab for segments")
 
@@ -54,8 +62,8 @@ Segment records provide several tabs for describing, defining, and reviewing the
 The **General** tab provides general information about the segment, including:
 
 - **Name**: Enter a name that will make the segment easy for you and others to identify while working in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
-- **Segment Type**: Set the segment to dynamic, marketing list, or compound. Dynamic segments are populated logically, based on a query you create on the **Definition** tab. Marketing lists (also called *static lists*) are populated by choosing individual members and are also used to create subscription lists on subscription centers, where contacts can add or remove themselves. Compound segments combine static and dynamic criteria.
-- **Activation Status**: Enable or disable the segment. Only enabled segments are available for use elsewhere in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. You might disable a segment if you don't need it anymore, or to keep people from using it before you've finished developing it.
+- **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for pupulating the list on the **Definition** tab.
+- **Status reason**: Shows whether the segment is draft or live. Only live segments are available for use in customer journeys and compound segments.
 
 ### The Definition tab
 
@@ -67,17 +75,20 @@ The settings on this tab are described in more detail later in this topic.
 
 This is actually a drop-down list that you can use to find other types of records (such as customer journeys) that use or reference the current segment. When you choose an entity name here, a new tab named for that entity opens, showing a list of all found records. The **Related** tab remains available, and you can still use it to find other types of records that reference the current segment.
 
-## Set up marketing lists for use with static segments and subscription centers
+## Define a static segment
 
-As mentioned earlier in this topic, static segments are populated by adding contacts explicitly, one at a time, rather than by establishing logical rules (such as "all contacts from North Carolina"). This is especially important for creating lists for use in subscription centers, where contacts can add or remove themselves from each subscription list, but you can also create and populate static lists for other uses.
+To create a static segment, set its **Segment type** to **Static** on the **General** tab. Then use the **Definition** tab to find and add contacts to it, one at a time.
 
-Use the marketing lists feature to set up a static list, which the system will automatically synchronize with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. After you've set up the marketing list, you'll be able to use it to create your static or compound segments for use in customer journeys.
+When you are working with a static segment, the **Definition** tab lists all of the contacts from your database, with a check box shown for each. Select the check box for each contact you want to include in the segment, and clear the check box for all other contacts.
 
-For details about how to create marketing lists and use them in subscription centers and segments, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
+Because your database probably includes a large number of contacts, the **Definition** tab can't show all of them at once. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
 
-## Build a segment definition
+> [!TIP]
+> Each time you adjust the filter settings, you must select the **Apply** button to update the list. 
 
-Use the **Definition** tab to build your segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
+## Define a dynamic a segment
+
+To create a dynamic segment, set its **Segment type** to **Dynamic** on the **General** tab. Then use the **Definition** tab to build your dynamic segment by combing _groups_ of _logical expressions_, each of which results in a set of contacts. Each group establishes a _path_ through one or more entities that must end at the **Contact** entity (the order matters).
 
 ### Define a segment group
 
@@ -140,6 +151,41 @@ The **Flow** tab provides another view of how your groups are combined. Here, yo
 ![Sankey diagram on the Flow tab](media/segment-sankey-example.png "Sankey diagram on the Flow tab")
 
 You can also add new groups while working on the **Flow** tab, which provides the same **Explore** view described previously for defining the group.
+
+## Define a compound segment
+
+A compound segment combines one or more existing segments into a single new segment. To create a compound segment:
+
+1. Create or edit a segment and, on the **General** tab, set its **Segment type** to **Compound segment**.
+
+1. Go to the **Definition** tab, which shows a drop-down list for selecting your first member segment. Choose an existing segment and then select the submit button next to the list.  
+    ![Choose the first segment](media/segment-compound-step1.png "Choose the first segment")
+    > [!TIP]
+    > Only existing, live segments are shown in the list. If you don't see a segment here that you are expecting, check to make sure it's live (not draft).
+
+1. Your chosen segment is added, and a new **Add Operation** block is shown. If you want to combine another segment with the current result, then choose an operation here.  
+    ![Choose an operation for combining a new segment with the current result](media/segment-compound-step2.png "Choose an operation for combining a new segment with the current result")
+
+    The operations work as follows:
+    - **Union**: will combine all members of the next segment with the results so far.
+    - **Exclude**: removes members of the next segment from the results so far.
+    - **Intersect**: removes all members from the results so far that are not also members of the next segment.
+
+1. A new block is added, which once again asks you to choose a segment. As before, choose a segment and select the submit button to apply it.  
+    ![Choose a segment to apply using the selected operation](media/segment-compound-step3.png "Choose a segment to apply using the selected operation")
+
+1. Continue to compose your segment by adding more segments as needed and choosing an operation for each. As with the **Flow** view for dynamic, segments, you'll build a Sankey diagram of how your segments are combined, and how contacts flow into and out of the segment as a result of each operation.  
+    ![Sankey diagram for a compound segment](media/segment-compound-step4.png "Sankey diagram for a compound segment")
+    > [!TIP]
+    > To edit or remove a segment already shown in the diagram, hover your mouse pointer over the upper-right corner of a displayed tile to reveal edit and delete buttons, which you can select to edit or delete that tile.
+
+## Set up marketing lists for use with subscription centers
+
+Subscription lists enable contacts to add or remove themselves from a static marketing list, which you can then use to create a segment that targets members of that list, for example to deliver a monthly newsletter.
+
+To set up a subscription list, you must use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app to create the static marketing list and mark it as a subscription list. Then you'll be able to create a dynamic segment in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] that loads that list from  [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. Lists marked as subscription lists are also available for use on your subscription centers, but static segments are not.
+
+For details about how to create marketing lists and use them in subscription centers and segments, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
 
 ## Create segments based on opportunities
 

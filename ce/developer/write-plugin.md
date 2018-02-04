@@ -169,7 +169,8 @@ context.InputParameters["Target"] = new Account() { Name = "MyAccount" }; // WRO
  There can be one or more plug-in types in an assembly. After the plug-in assembly is registered and deployed, plug-ins can perform their intended operation in response to a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] run-time event.  
   
 > [!IMPORTANT]
->  In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], plug-in assemblies must be readable by everyone to work correctly. Therefore, it is a security best practice to develop plug-in code that does not contain any system logon information, confidential information, or company trade secrets.  
+>  - Plug-in assemblies must be no larger that 16 MB.
+>  - In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], plug-in assemblies must be readable by everyone to work correctly. Therefore, it is a security best practice to develop plug-in code that does not contain any system logon information, confidential information, or company trade secrets.  
   
  Each plug-in assembly must be signed, either by using the **Signing** tab of the project's properties sheet in [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] or the Strong Name tool, before being registered and deployed to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For more information about the Strong Name tool, run the sn.exe program, without any arguments, from a [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] Command Prompt window.  
   

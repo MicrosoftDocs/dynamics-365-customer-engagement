@@ -11,6 +11,7 @@ applies_to:
 ms.assetid: a8fe7492-44d8-4715-9815-19e1e01aafb5
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -102,6 +103,8 @@ To create a landing page and go live:
     ![Location of the view selector](media/page-view-selector.png "Location of the view selector")
 
     As people interact with your page, information will become available in the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view, including lists of contacts who visited and submitted the form on the page and analytics about its performance. You should be able to see your test submission on the **Submissions** tab here.
+
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
 
 ### See also
 

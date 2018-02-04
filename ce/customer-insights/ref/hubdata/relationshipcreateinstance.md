@@ -23,7 +23,7 @@ The request is constructed as follows:
 
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
-|POST|`<hub-endpoint>/data/Relationship?api-version=2017-04-26`|
+|POST|`<hub-endpoint>/data/Relationships?api-version=2017-04-26`|
 | | |
 
 ### URI Parameters

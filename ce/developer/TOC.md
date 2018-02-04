@@ -540,4 +540,4 @@
 
 # [Developer Guide for Connected Field Service](../field-service/developer/connected-field-service-developer-guide.md)
 
-# [Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)
+<!--# [Developer Guide for Dynamics 365 for Marketing](../marketing/developer/marketing-developer-guide.md)-->

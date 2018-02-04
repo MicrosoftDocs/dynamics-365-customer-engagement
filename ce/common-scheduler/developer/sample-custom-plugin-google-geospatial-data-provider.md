@@ -1,11 +1,11 @@
 ---
 title: "Sample: Custom plug-in to use Google Maps API as geospatial data provider | MicrosoftDocs"
-description: "Provides information on how to create a  geospatial data providers other than the default Bing Maps in Dynamics 365 for Field Service and Dynamics 365 for Project Service."
+description: "A sample that demonstrates how to use a custom plug-in use Google Maps API for geospatial operations in Dynamics 365 for Field Service."
 ms.custom: ""
-ms.date: 01/05/2018
-searchScope:
+ms.date: 01/29/2018
+searchScope:  
   - Field Service
-  - Project Service
+  - Project Service   
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -27,7 +27,7 @@ manager: "amyla"
 
 You can use a custom plug-in to use geospatial data from a data provider of your choice instead of using the default Bing Maps API in Field Service and Project Service.
 
-Download the sample: [TODO: Add the download location from https://code.msdn.microsoft.com]
+Download the sample: [Custom plug-in to use Google Maps API as geospatial data provider (Dynamics 365)](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452)
 
 ## Prerequisites
 
@@ -42,7 +42,15 @@ Internet connection is required to download the sample project and to restore th
 
 ## Demonstrates
 
-This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Field Service to use Google Maps API for geospatial data instead of using the default Bing Maps API.
+This sample shows how to create a custom plug-in for the **msdyn_GeocodeAddress** and **msdyn_RetrieveDistanceMatrix** actions in Universal Resource Scheduling to use Google Maps API for geospatial data instead of using the default Bing Maps API.
+
+## Run the sample
+
+This sample generates a plug-in assembly file: **CustomPlugin-FS-Geospatial.dll**.
+
+1. [Download](https://code.msdn.microsoft.com/Custom-plug-in-to-use-d244f452) the sample, and extract the .zip file.
+2. Navigate to the extracted folder, and double-click the **CustomPlugin-FS-Geospatial.sln** file to open the solution in Visual Studio.
+3. In Visual Studio, select **Build** > **Build Solution**. The NuGet packages used in the solution will download automatically if the option to restore NuGet packages automatically on building a project is enabled in Visual Studio. More information: [Enabling and disabling package restore](https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore#enabling-and-disabling-package-restore) 
 
 ## After running the sample
 
@@ -66,8 +74,8 @@ namespace Microsoft.Crm.Sdk.Samples
 
     /// <summary>
     /// msdyn_GeocodeAddress Plugin.
-    /// </summary>    
-    public class msdyn_GeocodeAddress : PluginBase
+    /// </summary>  
+    public class msdyn_GeocodeAddress : IPlugin
     {
         const string PluginStatusCodeKey = "PluginStatus";
         const string Address1Key = "Line1";
@@ -79,53 +87,48 @@ namespace Microsoft.Crm.Sdk.Samples
         const string LongitudeKey = "Longitude";
         const string LcidKey = "Lcid";
 
-        /// <summary>
-        /// Initializes a new instance of the <see cref="msdyn_GeocodeAddress"/> class.
-        /// </summary>
-        /// <param name="unsecure">Contains public (unsecured) configuration information.</param>
-        /// <param name="secure">Contains non-public (secured) configuration information. 
-        /// When using Microsoft Dynamics 365 for Outlook with Offline Access, 
-        /// the secure string is not passed to a plug-in that executes while the client is offline.</param>
-        public msdyn_GeocodeAddress(string unsecure, string secure)
-            : base(typeof(msdyn_GeocodeAddress))
+        public void Execute(IServiceProvider serviceProvider)
         {
+            if (serviceProvider == null)
+            {
+                throw new InvalidPluginExecutionException("serviceProvider");
+            }
 
-            // TODO: Implement your custom configuration handling.
+            // Obtain the execution context service from the service provider.
+            IPluginExecutionContext PluginExecutionContext = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
+
+            // Obtain the organization factory service from the service provider.
+            IOrganizationServiceFactory factory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
+
+            // Use the factory to generate the organization service.
+            IOrganizationService OrganizationService = factory.CreateOrganizationService(PluginExecutionContext.UserId);
+
+            // Obtain the tracing service from the service provider.
+            ITracingService TracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+
+            ExecuteGeocodeAddress(PluginExecutionContext, OrganizationService, TracingService);
+
         }
 
-
-        /// <summary>
-        /// Main entry point: Google Geocoding plugin for Field Service
-        /// </summary>
-        /// <param name="localContext">The <see cref="LocalPluginContext"/> which contains the
-        /// <see cref="IPluginExecutionContext"/>,
-        /// <see cref="IOrganizationService"/>
-        /// and <see cref="ITracingService"/>
-        /// </param>
-        /// <remarks>
-        /// For improved performance, Microsoft Dynamics 365 caches plug-in instances.
-        /// The plug-in's Execute method should be written to be stateless as the constructor
-        /// is not called for every invocation of the plug-in. Also, multiple system threads
-        /// could execute the plug-in at the same time. All per invocation state information
-        /// is stored in the context. This means that you should not use global variables in plug-ins.
-        /// </remarks>
-        protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
-        {
-            // This is the CRM runtime entrypoint
-            if (localContext == null) throw new InvalidPluginExecutionException("localContext");
-            // Call the common entry point that also works for testing outside of CRM
-            ExecuteGeocodeAddress(localContext, localContext.PluginExecutionContext.InputParameters, localContext.PluginExecutionContext.OutputParameters, localContext.PluginExecutionContext.SharedVariables);
-        }
 
         /// <summary>
         /// Retrieve geocode address using Google Api
         /// </summary>
-        /// <param name="InputParameters">Contains 5 fields (string) for individual parts of an address</param>
-        /// <param name="OutputParameters">Contains 2 fields (double) for resultant geolocation</param>
-        /// <param name="SharedVariables">Contains 1 field (int) for status of previous and this plugin</param>
-        public void ExecuteGeocodeAddress(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+        /// <param name="pluginExecutionContext">Execution context</param>
+        /// <param name="organizationService">Organization service</param>
+        /// <param name="tracingService">Tracing service</param>
+        /// <param name="notificationService">Notification service</param>
+        public void ExecuteGeocodeAddress(IPluginExecutionContext pluginExecutionContext, IOrganizationService organizationService,  ITracingService tracingService)
         {
-            localContext.Trace($"{nameof(msdyn_GeocodeAddress)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+            //Contains 5 fields (string) for individual parts of an address
+            ParameterCollection InputParameters = pluginExecutionContext.InputParameters;
+            // Contains 2 fields (double) for resultant geolocation
+            ParameterCollection OutputParameters = pluginExecutionContext.OutputParameters;
+            //Contains 1 field (int) for status of previous and this plugin
+            ParameterCollection SharedVariables = pluginExecutionContext.SharedVariables;
+
+            tracingService.Trace("ExecuteGeocodeAddress started. InputParameters = {0}, OutputParameters = {1}", InputParameters.Count().ToString(), OutputParameters.Count().ToString());
+            
 
             try
             {
@@ -139,40 +142,44 @@ namespace Microsoft.Crm.Sdk.Samples
                 {
                     var userSettingsQuery = new QueryExpression("usersettings");
                     userSettingsQuery.ColumnSet.AddColumns("uilanguageid", "systemuserid");
-                    userSettingsQuery.Criteria.AddCondition("systemuserid", ConditionOperator.Equal, localContext.PluginExecutionContext.InitiatingUserId);
-                    var userSettings = localContext.OrganizationService.RetrieveMultiple(userSettingsQuery);
+                    userSettingsQuery.Criteria.AddCondition("systemuserid", ConditionOperator.Equal, pluginExecutionContext.InitiatingUserId);
+                    var userSettings = organizationService.RetrieveMultiple(userSettingsQuery);
                     if (userSettings.Entities.Count > 0)
                         Lcid = (int)userSettings.Entities[0]["uilanguageid"];
                 }
 
                 // Arrange the address components in a single comma-separated string, according to LCID
                 _address = GisUtility.FormatInternationalAddress(Lcid,
-                    (string)InputParameters[Address1Key], (string)InputParameters[PostalCodeKey], (string)InputParameters[CityKey], (string)InputParameters[StateKey], (string)InputParameters[CountryKey]);
+                    (string)InputParameters[Address1Key], 
+                    (string)InputParameters[PostalCodeKey], 
+                    (string)InputParameters[CityKey], 
+                    (string)InputParameters[StateKey], 
+                    (string)InputParameters[CountryKey]);
 
                 // Make Geocoding call to Google API
                 WebClient client = new WebClient();
                 var url = $"https://{GoogleConstants.GoogleApiServer}{GoogleConstants.GoogleGeocodePath}/json?address={_address}&key={GoogleConstants.GoogleApiKey}";
-                localContext.Trace($"Calling {url}\n");
+                tracingService.Trace($"Calling {url}\n");
                 string response = client.DownloadString(url);   // Post ...
 
-                localContext.Trace("Parsing response ...\n");
+                tracingService.Trace("Parsing response ...\n");
                 DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(GeocodeResponse));    // Deserialize response json
                 object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
                 GeocodeResponse geocodeResponse = objResponse as GeocodeResponse;       // Unbox into our data contracted class for response
 
-                localContext.Trace("Response Status = " + geocodeResponse.Status + "\n");
+                tracingService.Trace("Response Status = " + geocodeResponse.Status + "\n");
                 if (geocodeResponse.Status != "OK")
                     throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (Status {geocodeResponse.Status}).");
 
-                localContext.Trace("Checking geocodeResponse.Result...\n");
+                tracingService.Trace("Checking geocodeResponse.Result...\n");
                 if (geocodeResponse.Results != null)
                 {
                     if (geocodeResponse.Results.Count() == 1)
                     {
-                        localContext.Trace("Checking geocodeResponse.Result.Geometry.Location...\n");
+                        tracingService.Trace("Checking geocodeResponse.Result.Geometry.Location...\n");
                         if (geocodeResponse.Results.First()?.Geometry?.Location != null)
                         {
-                            localContext.Trace("Setting Latitude, Longitude in OutputParameters...\n");
+                            tracingService.Trace("Setting Latitude, Longitude in OutputParameters...\n");
 
                             // update output parameters
                             OutputParameters[LatitudeKey] = geocodeResponse.Results.First().Geometry.Location.Lat;
@@ -196,20 +203,6 @@ namespace Microsoft.Crm.Sdk.Samples
                     , GoogleConstants.GoogleApiServer, ex.GetType().ToString(), ex.Message), ex);
             }
 
-            // For debugging purposes, throw an exception to see the details of the parameters
-            //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
-        }
-
-        private void CreateExceptionWithDetails(string message, ParameterCollection inputs, ParameterCollection outputs, ParameterCollection shareds)
-        {
-            StringBuilder sb = new StringBuilder(message + "\n");
-            sb.AppendLine("InputParameters -- ");
-            foreach (var item in inputs) sb.AppendLine(item.Key + " : '" + item.Value + "' ");
-            sb.AppendLine("OutputParameters -- ");
-            foreach (var item in outputs) sb.AppendLine(item.Key + " : '" + item.Value + "' ");
-            sb.AppendLine("SharedVariables -- ");
-            foreach (var item in shareds) sb.AppendLine(item.Key + " : '" + item.Value + "' ");
-            throw new InvalidPluginExecutionException(sb.ToString());
         }
     }
 }
@@ -233,8 +226,8 @@ namespace Microsoft.Crm.Sdk.Samples
 
     /// <summary>
     /// msdyn_RetrieveDistanceMatrix Plugin.
-    /// </summary>    
-    public class msdyn_RetrieveDistanceMatrix : PluginBase
+    /// </summary>
+    public class msdyn_RetrieveDistance : IPlugin
     {
         const string PluginStatusCodeKey = "PluginStatus";
         const string SourcesKey = "Sources";
@@ -242,51 +235,52 @@ namespace Microsoft.Crm.Sdk.Samples
         const string MatrixKey = "Result";
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="msdyn_RetrieveDistanceMatrix"/> class.
+        /// Initializes a new instance of the msdyn_RetrieveDistance class
         /// </summary>
-        /// <param name="unsecure">Contains public (unsecured) configuration information.</param>
-        /// <param name="secure">Contains non-public (secured) configuration information. 
-        /// When using Microsoft Dynamics 365 for Outlook with Offline Access, 
-        /// the secure string is not passed to a plug-in that executes while the client is offline.</param>
-        public msdyn_RetrieveDistanceMatrix(string unsecure, string secure)
-            : base(typeof(msdyn_RetrieveDistanceMatrix))
+        /// <param name="unsecure"></param>
+        /// <param name="secure"></param>
+        public msdyn_RetrieveDistance(string unsecure, string secure)
         {
             // TODO: Implement your custom configuration handling.
         }
 
-
         /// <summary>
-        /// Main entry point: Customer-implemented Google Distance Matrix plugin for Field Service
+        /// Execute the plugin
         /// </summary>
-        /// <param name="localContext">The <see cref="LocalPluginContext"/> which contains the
-        /// <see cref="IPluginExecutionContext"/>,
-        /// <see cref="IOrganizationService"/>
-        /// and <see cref="ITracingService"/>
-        /// </param>
-        /// <remarks>
-        /// For improved performance, Microsoft Dynamics 365 caches plug-in instances.
-        /// The plug-in's Execute method should be written to be stateless as the constructor
-        /// is not called for every invocation of the plug-in. Also, multiple system threads
-        /// could execute the plug-in at the same time. All per invocation state information
-        /// is stored in the context. This means that you should not use global variables in plug-ins.
-        /// </remarks>
-        protected override void ExecuteCrmPlugin(LocalPluginContext localContext)
+        /// <param name="serviceProvider"></param>
+        public void Execute(IServiceProvider serviceProvider)
         {
-            // This is the CRM runtime entrypoint
-            if (localContext == null) throw new InvalidPluginExecutionException("localContext");
-            // Call the common entry point that also works for testing outside of CRM
-            ExecuteDistanceMatrix(localContext, localContext.PluginExecutionContext.InputParameters, localContext.PluginExecutionContext.OutputParameters, localContext.PluginExecutionContext.SharedVariables);
+            if (serviceProvider == null)
+            {
+                throw new InvalidPluginExecutionException("serviceProvider");
+            }
+
+            // Obtain the execution context service from the service provider.
+            IPluginExecutionContext PluginExecutionContext = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
+
+            // Obtain the organization factory service from the service provider.
+            IOrganizationServiceFactory factory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
+
+            // Use the factory to generate the organization service.
+            IOrganizationService OrganizationService = factory.CreateOrganizationService(PluginExecutionContext.UserId);
+
+            // Obtain the tracing service from the service provider.
+            ITracingService TracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
+
+            ExecuteDistanceMatrix(PluginExecutionContext, OrganizationService, TracingService);
+
         }
 
-        /// <summary>
-        /// Retrieve distance matrix using Google Api
-        /// </summary>
-        /// <param name="InputParameters">Contains 2 fields (EntityCollection) for sources and targets</param>
-        /// <param name="OutputParameters">Contains 1 field (EntityCollection) for results</param>
-        /// <param name="SharedVariables">Contains 1 field (int) for status of previous and this plugin</param>
-        public void ExecuteDistanceMatrix(LocalPluginContext localContext, ParameterCollection InputParameters, ParameterCollection OutputParameters, ParameterCollection SharedVariables)
+        public void ExecuteDistanceMatrix(IPluginExecutionContext pluginExecutionContext, IOrganizationService organizationService, ITracingService tracingService)
         {
-            localContext.Trace($"{nameof(msdyn_RetrieveDistanceMatrix)} started. InputParameters = {InputParameters.Count().ToString()}, OutputParameters = {OutputParameters.Count().ToString()}");
+            //Contains 2 fields (EntityCollection) for sources and targets
+            ParameterCollection InputParameters = pluginExecutionContext.InputParameters;
+            // Contains 1 field (EntityCollection) for results
+            ParameterCollection OutputParameters = pluginExecutionContext.OutputParameters;
+            //Contains 1 field (int) for status of previous and this plugin
+            ParameterCollection SharedVariables = pluginExecutionContext.SharedVariables;
+
+            tracingService.Trace("ExecuteDistanceMatrix started.  InputParameters = {0},OutputParameters = {1}", InputParameters.Count().ToString(), OutputParameters.Count().ToString());
 
             try
             {
@@ -302,22 +296,22 @@ namespace Microsoft.Crm.Sdk.Samples
                     + $"&origins={string.Join("|", ((EntityCollection)InputParameters[SourcesKey]).Entities.Select(e => e.GetAttributeValue<double?>("latitude") + "," + e.GetAttributeValue<double?>("longitude")))}"
                     + $"&destinations={string.Join("|", ((EntityCollection)InputParameters[TargetsKey]).Entities.Select(e => e.GetAttributeValue<double?>("latitude") + "," + e.GetAttributeValue<double?>("longitude")))}"
                     + $"&key={GoogleConstants.GoogleApiKey}");
-                localContext.Trace($"Calling {url}\n");
+                tracingService.Trace($"Calling {url}\n");
                 string response = client.DownloadString(url);   // Post ...
 
-                localContext.Trace("Parsing response ...\n");
+                tracingService.Trace("Parsing response ...\n");
                 DataContractJsonSerializer jsonSerializer = new DataContractJsonSerializer(typeof(DistanceMatrixResponse));    // Deserialize response json
                 object objResponse = jsonSerializer.ReadObject(new MemoryStream(Encoding.UTF8.GetBytes(response)));     // Get response as an object
                 DistanceMatrixResponse distancematrixResponse = objResponse as DistanceMatrixResponse;       // Unbox as our data contracted class for response
 
-                localContext.Trace("Response Status = " + distancematrixResponse.Status + "\n");
+                tracingService.Trace("Response Status = " + distancematrixResponse.Status + "\n");
                 if (distancematrixResponse.Status != "OK")
                     throw new ApplicationException($"Server {GoogleConstants.GoogleApiServer} application error (Status={distancematrixResponse.Status}). {distancematrixResponse.ErrorMessage}");
 
-                localContext.Trace("Checking distancematrixResponse.Results...\n");
+                tracingService.Trace("Checking distancematrixResponse.Results...\n");
                 if (distancematrixResponse.Rows != null)
                 {
-                    localContext.Trace("Parsing distancematrixResponse.Results.Elements...\n");
+                    tracingService.Trace("Parsing distancematrixResponse.Results.Elements...\n");
 
                     // build and update output parameter
                     var result = new EntityCollection();
@@ -338,7 +332,7 @@ namespace Microsoft.Crm.Sdk.Samples
             }
 
             // For debugging purposes, throw an exception to see the details of the parameters
-            //CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
+            CreateExceptionWithDetails("Debugging...", InputParameters, OutputParameters, SharedVariables);
         }
 
         private Entity ToEntity(string status, CProperty duration, CProperty meters)
@@ -400,6 +394,10 @@ namespace Microsoft.Crm.Sdk.Samples
     }
 }
 ```
+
+## Privacy notice disclaimer
+
+You may use sample code to interact with third party services whose privacy and security practices may differ from those of Microsoft Dynamics 365. IF YOU SUBMIT DATA TO THIRD PARTY SERVICES, SUCH DATA IS GOVERNED BY THEIR RESPECTIVE PRIVACY STATEMENTS. For the avoidance of doubt, data shared outside of Microsoft Dynamics 365 is not covered by your Microsoft Dynamics 365 agreement(s) or the Microsoft Dynamics 365 Trust Center. We encourage you to review these other privacy statements.
 
 ### See also
 

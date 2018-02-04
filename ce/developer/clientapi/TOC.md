@@ -35,6 +35,8 @@
 #### [get](reference/collections/get.md)
 #### [getLength](reference/collections/getLength.md)
 
+### [GetGlobalContext function and ClientGlobalContext.js.aspx](reference/GetGlobalContext-ClientGlobalContext.js.aspx.md)
+
 ### [Execution context](reference/execution-context.md)
 #### [getDepth](reference/executioncontext/getDepth.md)
 #### [getEventArgs](reference/executioncontext/getEventArgs.md)
@@ -193,6 +195,7 @@
 ##### [getEntityName](reference/formContext-data-process/stage/getEntityName.md)
 ##### [getId](reference/formContext-data-process/stage/getId.md)
 ##### [getName](reference/formContext-data-process/stage/getName.md)
+##### [getNavigationBehavior](reference/formContext-data-process/stage/getNavigationBehavior.md)
 ##### [getStatus](reference/formContext-data-process/stage/getStatus.md)
 ##### [getSteps](reference/formContext-data-process/stage/getSteps.md)
 
