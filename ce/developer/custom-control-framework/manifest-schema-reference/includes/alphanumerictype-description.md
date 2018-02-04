@@ -1,0 +1,1 @@
+Placeholder description for AlphaNumericType
