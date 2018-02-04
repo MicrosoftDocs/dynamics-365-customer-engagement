@@ -4,23 +4,12 @@
 
 [!INCLUDE [phone-description](includes/phone-description.md)]
 
-## Attributes
-
-|Name|Description|Type|Required|
-|--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
-
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[AvailableOn](availableon.md)|[!INCLUDE [availableon-description](includes/availableon-description.md)]|
 
-## Child Elements
-
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
 
 ### Related topics
 

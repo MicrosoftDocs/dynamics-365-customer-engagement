@@ -8,19 +8,22 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`name`|Placeholder description groups.name|`string`|yes|
+|`display-name-key`|Placeholder description groups.display-name-key|`string`|yes|
+|`description-key`|Placeholder description groups.description-key|`string`|no|
+|`required`|Placeholder description groups.required|`boolean`|no|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
 
 ## Child Elements
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[group](group.md)|[!INCLUDE [group-description](includes/group-description.md)]|2 or more|
 
 ### Related topics
 
