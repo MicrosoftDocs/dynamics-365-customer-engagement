@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\manifest-schema-reference\includes\library-description.md
+Placeholder description: ce\developer\custom-control-framework\manifest-schema-reference\includes\manifest-description.md

@@ -4,69 +4,69 @@
   - name: Manifest Schema Reference
     href: manifest-schema-reference/index.md
     items:
-    - name: AvailableOn element
+    - name: AvailableOn
       href: manifest-schema-reference/availableon.md
-    - name: child element
+    - name: child
       href: manifest-schema-reference/child.md
-    - name: code element
+    - name: code
       href: manifest-schema-reference/code.md
-    - name: container element
+    - name: container
       href: manifest-schema-reference/container.md
-    - name: control element
+    - name: control
       href: manifest-schema-reference/control.md
-    - name: customcontrol element
+    - name: customcontrol
       href: manifest-schema-reference/customcontrol.md
-    - name: data-set element
+    - name: data-set
       href: manifest-schema-reference/data-set.md
-    - name: default-binding element
+    - name: default-binding
       href: manifest-schema-reference/default-binding.md
-    - name: dependencies element
+    - name: dependencies
       href: manifest-schema-reference/dependencies.md
-    - name: dependency element
+    - name: dependency
       href: manifest-schema-reference/dependency.md
-    - name: doc element
+    - name: doc
       href: manifest-schema-reference/doc.md
-    - name: edit element
+    - name: edit
       href: manifest-schema-reference/edit.md
-    - name: group element
+    - name: group
       href: manifest-schema-reference/group.md
-    - name: groups element
+    - name: groups
       href: manifest-schema-reference/groups.md
-    - name: html element
+    - name: html
       href: manifest-schema-reference/html.md
-    - name: img element
+    - name: img
       href: manifest-schema-reference/img.md
-    - name: library element
+    - name: library
       href: manifest-schema-reference/library.md
-    - name: manifest element
+    - name: manifest
       href: manifest-schema-reference/manifest.md
-    - name: modes element
+    - name: modes
       href: manifest-schema-reference/modes.md
-    - name: packaged_library element
+    - name: packaged_library
       href: manifest-schema-reference/packaged_library.md
-    - name: phone element
+    - name: phone
       href: manifest-schema-reference/phone.md
-    - name: property-set element
+    - name: property-set
       href: manifest-schema-reference/property-set.md
-    - name: property element
+    - name: property
       href: manifest-schema-reference/property.md
-    - name: read element
+    - name: read
       href: manifest-schema-reference/read.md
-    - name: resources element
+    - name: resources
       href: manifest-schema-reference/resources.md
-    - name: resx element
+    - name: resx
       href: manifest-schema-reference/resx.md
-    - name: tablet element
+    - name: tablet
       href: manifest-schema-reference/tablet.md
-    - name: type-group element
+    - name: type-group
       href: manifest-schema-reference/type-group.md
-    - name: type element
+    - name: type
       href: manifest-schema-reference/type.md
-    - name: types element
+    - name: types
       href: manifest-schema-reference/types.md
-    - name: value element
+    - name: value
       href: manifest-schema-reference/value.md
-    - name: web element
+    - name: web
       href: manifest-schema-reference/web.md                                                                                                                                                                                                     
   - name: API Reference
     href: reference/index.md

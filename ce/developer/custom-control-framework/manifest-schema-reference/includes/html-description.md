@@ -1,1 +1,1 @@
-Placeholder description: ce\developer\custom-control-framework\manifest-schema-reference\includes\groups-description.md
+Placeholder description: ce\developer\custom-control-framework\manifest-schema-reference\includes\html-description.md
