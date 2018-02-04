@@ -4,23 +4,23 @@
 
 [!INCLUDE [container-description](includes/container-description.md)]
 
-## Attributes
-
-|Name|Description|Type|Required|
-|--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
-
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[modes](modes.md)|[!INCLUDE [modes-description](includes/modes-description.md)]|
 
-## Child Elements
+## Value
 
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+This element may contain a `string` with one of the following values:
+
+|Value|Description|
+|--|--|
+|`true`|Placeholder description for container.true|
+|`false`|Placeholder description for container.false|
+|``|Placeholder description for container.empty|
+
+This element may also be closed instead of containing no value.
 
 ### Related topics
 

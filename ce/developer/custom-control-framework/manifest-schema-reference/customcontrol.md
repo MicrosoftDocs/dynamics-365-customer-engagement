@@ -8,19 +8,14 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|name|Placeholder description customcontrol.name|`string`|yes|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[child](child.md)|[!INCLUDE [child-description](includes/child-description.md)]|
 
-## Child Elements
-
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
 
 ### Related topics
 

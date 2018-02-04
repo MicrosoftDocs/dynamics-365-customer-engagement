@@ -8,19 +8,15 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`path`|Placeholder description code.path|`string`|yes|
+|`order`|Placeholder description code.order|Positive integer|yes|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 
-## Child Elements
-
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
 
 ### Related topics
 

@@ -4,24 +4,19 @@
 
 [!INCLUDE [availableon-description](includes/availableon-description.md)]
 
-
-## Attributes
-
-|Name|Description|Type|Required|
-|--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
-
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
 
 ## Child Elements
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[web](web.md)|[!INCLUDE [web-description](includes/web-description.md)]|0 or 1|
+|[phone](phone.md)|[!INCLUDE [phone-description](includes/phone-description.md)]|0 or 1|
+|[tablet](tablet.md)|[!INCLUDE [tablet-description](includes/tablet-description.md)]|0 or 1|
 
 ### Related topics
 

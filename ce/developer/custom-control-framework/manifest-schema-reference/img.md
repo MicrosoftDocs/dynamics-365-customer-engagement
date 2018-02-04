@@ -8,19 +8,13 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`path`|Placeholder description img.path|`string`|yes|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
-
-## Child Elements
-
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 
 ### Related topics
 

@@ -8,14 +8,14 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|constructor|Placeholder description control.constructor|[!INCLUDE [alphanumerictype-description](includes/alphanumerictype-description.md)]|yes|
-|control-type|Placeholder description control.control-type|[!INCLUDE [controltype-description](includes/controltype-description.md)]|no|
-|description-key|Placeholder description control.description-key|`string`|no|
-|display-name-key|Placeholder description control.display-name-key|`string`|yes|
-|hidden|Placeholder description control.hidden|[!INCLUDE [booleantype-description](includes/booleantype-description.md)]|no|
-|namespace|Placeholder description control.namespace|[!INCLUDE [alphanumerictype-description](includes/alphanumerictype-description.md)]|yes|
-|preview-image|Placeholder description control.preview-image|`string`|no|
-|version|Placeholder description control.version|`string`|yes|
+|`constructor`|Placeholder description control.constructor|[!INCLUDE [alphanumerictype-description](includes/alphanumerictype-description.md)]|yes|
+|`control-type`|Placeholder description control.control-type|[!INCLUDE [controltype-description](includes/controltype-description.md)]|no|
+|`description-key`|Placeholder description control.description-key|`string`|no|
+|`display-name-key`|Placeholder description control.display-name-key|`string`|yes|
+|`hidden`|Placeholder description control.hidden|[!INCLUDE [booleantype-description](includes/booleantype-description.md)]|no|
+|`namespace`|Placeholder description control.namespace|[!INCLUDE [alphanumerictype-description](includes/alphanumerictype-description.md)]|yes|
+|`preview-image`|Placeholder description control.preview-image|`string`|no|
+|`version`|Placeholder description control.version|`string`|yes|
 
 ## Parent Elements
 

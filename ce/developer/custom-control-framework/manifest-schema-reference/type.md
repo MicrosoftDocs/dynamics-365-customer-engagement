@@ -11,6 +11,7 @@
 |[type-group](type-group.md)|[!INCLUDE [type-group-description](includes/type-group-description.md)]|
 
 ## Value
+
 This element contains a `string` with one of the following enum values:
 
 |Value|Description|

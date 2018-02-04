@@ -8,19 +8,17 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`of-attribute`|Placeholder description default-binding.of-attribute|`string`|no|
+|`parameter`|Placeholder description default-binding.parameter|`string`|no|
+|`of-column`|Placeholder description default-binding.of-column|`string`|no|
+|`of-theme-parameter`|Placeholder description default-binding.of-theme-parameter|`string`|no|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[property](property.md)|[!INCLUDE [property-description](includes/property-description.md)]|
 
-## Child Elements
-
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
 
 ### Related topics
 

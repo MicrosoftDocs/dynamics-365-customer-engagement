@@ -8,19 +8,14 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`name`|Placeholder description packaged_library.name|`string`|yes|
+|`version`|Placeholder description packaged_library.version|`string`|yes|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
-
-## Child Elements
-
-|Element|Description|Occurrences|
-|--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[library](library.md)|[!INCLUDE [library-description](includes/library-description.md)]|
 
 ### Related topics
 

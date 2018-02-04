@@ -8,19 +8,21 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`name`|Placeholder description library.name|`string`|yes|
+|`version`|Placeholder description library.version|Positive integer|yes|
+|`order`|Placeholder description library.order|Positive integer|yes|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 
 ## Child Elements
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[packaged_library](packaged_library.md)|[!INCLUDE [packaged_library-description](includes/packaged_library-description.md)]|0 or more|
 
 ### Related topics
 

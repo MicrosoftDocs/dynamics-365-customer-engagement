@@ -8,19 +8,25 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|Name|Placeholder description name.name|TODO|yes|
+|`description-key`|Placeholder description data-set.description-key|`string`|no|
+|`display-name-key`|Placeholder description data-set.display-name-key|`string`|yes|
+|`editable`|Placeholder description data-set.editable|`boolean`|no|
+|`max-occurs`|Placeholder description data-set.max-occurs|`string`|no|
+|`name`|Placeholder description data-set.name|`string`|yes|
 
 ## Parent Elements
 
 |Element|Description|
 |--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
+|[control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
+|[group](group.md)|[!INCLUDE [group-description](includes/group-description.md)]|
 
 ## Child Elements
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
+|[doc](manifest.md)|[!INCLUDE [doc-description](includes/doc-description.md)]|0 or more|
+|[property-set](property-set.md)|[!INCLUDE [property-set-description](includes/property-set-description.md)]|0 or more|
 
 ### Related topics
 
