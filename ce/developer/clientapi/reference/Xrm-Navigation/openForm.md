@@ -96,16 +96,13 @@ manager: "amyla"
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>The function executes as follows:
-<ul><li>When opening an entity form to display an existing record, the function executes when the entity form is displayed.</li>
-<li>When opening an entity form for new record or opening a quick create form, the function executes when you save data in the form to create new record.</li></ul>
-This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> property with the following properties to identify the record displayed or created:
+<td>A function to execute when the entity form or quick create form is displayed. This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> property with the following properties to identify the record displayed or created:
 <ul>
 <li><b>entityType</b>: The logical name of the entity.</li>
 <li><b>id</b>: A string representation of a GUID value for the record.</li>
 <li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
 
-<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>successCallback</b> function will be executed only if you are opening a quick create form or opening an entity form in a new window.
+<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>successCallback</b> function will be executed only if you are opening a quick create form.
 </td>
 </tr>
 <tr>
@@ -114,14 +111,13 @@ This function is passed an object as a parameter. The object has a <b>savedEntit
 <td>No</td>
 <td>A function to execute when the operation fails.
 
-<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>errorCallback</b> function will be executed only if you are opening a quick create form or opening an entity form in a new window.</td>
+<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>errorCallback</b> function will be executed only if you are opening a quick create form.</td>
 </tr>
 </table>
 
 ## Remarks
 
 You must use this method to open entity or quick create forms instead of the deprecated  [Xrm.Utility.openEntityForm](https://msdn.microsoft.com/library/jj602956.aspx#openEntityForm) and  [Xrm.Utility.openQuickCreate](https://msdn.microsoft.com/library/jj602956.aspx#openQuickCreate) methods.
-
  
 
 ## Examples
