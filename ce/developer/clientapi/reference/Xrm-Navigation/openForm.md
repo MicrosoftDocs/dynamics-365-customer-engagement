@@ -109,7 +109,7 @@ manager: "amyla"
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when the operation fails.
+<td>A function to execute when the operation fails.<br>
 
 <b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>errorCallback</b> function will be executed only if you are opening a quick create form.</td>
 </tr>
