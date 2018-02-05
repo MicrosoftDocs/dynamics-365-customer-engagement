@@ -19,13 +19,12 @@ topic-status: Drafting
 # Connect to a Dynamics 365 online organization using a portal
 
 A portal connects to a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] online organization using an Azure Active Directory application. The application is created in the same tenant where the portal is provisioned. The application is registered with the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization during the portal provisioning process.
-[comment]: <> (Should we be using the token for "Dynamics 365 online" in some places? We say "online" in the title and the Heading 1. We have "online" appended to the name in some places in this doc. We should be consistent.)
+
 ![Connecting a portal with Dynamics 365 organization](media/connect-with-dynamics.png "Connecting a portal with Dynamics 365 organization")
 
-Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authentication is enforced by web roles assigned to the user accessing the portal.
-[comment]: <> (The second sentence in the above paragraph needs to be simplified. I attempted to simplify it, but please make sure I did not change the meaning of the sentence. Please contact me if you want to talk about how to make the sentence simpler. Also, in the last sentence, should it be "authentication" instead of "authorization?" If this is incorrect, undo my edit.)
+Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authorization is enforced by web roles assigned to the user accessing the portal.
 
-You can see the portal application in Azure Active Directory. The name of this application will be Microsoft CRM Portals, and the portal ID is in the **App ID URI** field. The person who provisions the portal owns this application. You should not delete or modify this application, or you might break the portal functionality. You must be the application owner to manage a portal from the Portal Admin Center.
+You can see the associated portal application in Azure Active Directory. The name of this application will be Microsoft CRM Portals, and the portal ID is in the **App ID URI** field. The person who provisions the portal owns this application. You should not delete or modify this application, or you might break the portal functionality. You must be the application owner to manage a portal from the Portal Admin Center.
 
 ## Authentication key
 
@@ -34,7 +33,7 @@ For a Portal to connect to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-cr
 > [!IMPORTANT]
 > The authentication key will expire in two years. It must be renewed every two years to ensure that your portal will continue to connect to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization. If you do not update the key, the portal will stop working.  
 
-You can see the details of an authentication key online by going to:
+The details of an authentication key is displayed on Portal Admin Center and portal.
 
 **Portal Admin Center**
 
@@ -48,17 +47,17 @@ You can see the details of an authentication key online by going to:
 
 1.	Sign in to the portal as administrator.
 2.	Navigate to the URL <portal_path>/_services/about. The authentication key expiration date is displayed. 
-[comment]: <> (It doesn't look like the URL is formatted correctly.)
+
   ![Portal service page](media/portal-services-page.png "Portal service page")
 
 > [!NOTE]
 > To view authentication key information, you must sign in to the portal in the same browser session and you must have all website access permission.
 
-Before the authentication key expires, you will be notified by:
+Before the authentication key expires, you will be notified by emails, Portal Admin Center, and portal.
 
 **Email**
 
-Email will be sent to people who have signed up for email notification in the organization connected to their portal. More information about signing up for email notification: [Manage email notifications to admins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-email-notifications)
+Email will be sent to people who have signed up for email notification for the organization connected to their portal. More information about signing up for email notification: [Manage email notifications to admins](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-email-notifications)
 
 Email notifications are sent at the following intervals: 
 - 90 days 
@@ -91,7 +90,7 @@ A message about key expiration is displayed at the top of the page.
 **Portal**
 
 When you navigate to the URL <portal_path>/_services/about, a notification about key expiration is displayed at the bottom of the page.
-[comment]: <> (It doesn't look like the URL is formatted correctly.)
+
 > [!NOTE]
 > You must sign in to your portal in the same browser session, and you must be assigned all website access permission.
 
@@ -105,7 +104,7 @@ You must renew the key every two years to ensure that your portal can connect to
 > To renew the key, you must have permissions to [Manage your Portal](manage-portal.md).
 
 1.	Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration Center page and select the **Applications** tab.
-2.	Select the name of the portal key you want to update, and then select **Manage**.
+2.	Select the name of the portal you want to update the key, and then select **Manage**.
 3.	Select **Manage portal authentication key**. The authentication key is displayed along with its expiration date and thumbprint.
 
   ![Manage portal authentication key](media/manage-portal-auth-key.png "Manage portal authentication key")

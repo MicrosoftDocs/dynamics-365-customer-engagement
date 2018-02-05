@@ -1,6 +1,6 @@
 ---
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
-description: "Learn about what's new in portal capabilities for the latest release of Dynamics 365."
+description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: ""
 ms.date: 01/26/2018
 ms.service: crm-online
@@ -20,9 +20,9 @@ topic-status: Drafting
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
 
-## Portal capabilities for Dynamics 365 version 8.4.0.261
+## Portal capabilities version 8.4.0.262 for Dynamics 365
 
-Dynamics 365 version 8.4.0.261 has added these updates and features:
+Dynamics 365 version 8.4.0.262 has added these updates and features:
 - **Access portal error logs**: As a portal developer, you can now access detailed error logs for any issues on your portal. This helps you to debug issues while developing the portal. Once your portal is live, you can configure the portal to send all application errors to an Azure Blob storage account that you own. This helps you debug the issues reported by your customers.
 - **Renew portal authentication key**: For a portal to connect to Dynamics 365 using an Azure Active Directory application, it requires an authentication key for the Azure Active Directory application. You must renew the key every two years to ensure that your portal can connect to the Dynamics 365 organization. You can renew the key from the Portal Admin Center.
 - **Implement General Data Protection Regulation in portals**: As a portal administrator, you can now configure your portal to meet GDPR standards. You can also provide terms and conditions that portal users must agree to. You can also set up checks, for example, to make sure that a minor has parental consent to access the portal. Implementing GDPR allows you to obtain consent from portal users about the use of their personal data, identify minor users, and get parental consent for minors.

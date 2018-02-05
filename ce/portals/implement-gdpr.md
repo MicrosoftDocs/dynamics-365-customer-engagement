@@ -74,7 +74,7 @@ The following content snippets control the display of terms and conditions on th
 
 | Name                                           | Type | Value                                 |
 |------------------------------------------------|------|---------------------------------------|
-| Account/Signin/TermsAndConditionsHeading       | Text | Terms and conditions                  |
+| Account/Signin/TermsAndConditionsHeading       | Text | Terms and Conditions                  |
 | Account/Signin/TermsAndConditionsCopy          | HTML |                                       |
 | Account/Signin/TermsAndConditionsAgreementText | Text | I agree to these terms and conditions |
 | Account/Signin/TermsAndConditionsButtonText    | Text | Continue                              |
@@ -101,7 +101,7 @@ The following field is added in the portal contact record to store the date and 
 
 As a portal administrator, you can enable a portal to send a user's activity data to your DCI instance. More information: [View activity of a user on a portal](view-user-activity.md)
 
-If a portal user is determined to be a minor or a minor with [comment]: <> (Should this be "without?") parental consent, the user’s activity is not sent to DCI. As an administrator, you can configure your portal to send the user’s activity to DCI using the following field in the portal contact record:
+If a portal user is determined to be a minor or a minor with parental consent, the user’s activity is not sent to DCI. As an administrator, you can configure your portal to send the user’s activity to DCI using the following field in the portal contact record:
 - **Disable Web Tracking**: Indicates that the contact has opted out of web tracking. By default, **No** is selected.
 
     ![Image alt text](media/portal-disable-web-tracking.png "Image hover text")
@@ -156,7 +156,7 @@ The message on the screen for account migration can be changed using the followi
 
 The portal allows multiple identities to be associated with a single contact record. When multiple providers are deprecated, a portal user must consent to the terms and conditions multiple times. Whenever a user signs in with a deprecated identity provider, the account migration process is initiated for each deprecated provider and the contact record is associated with the non-deprecated provider after account migration.
 
-For example:  The portal supports Microsoft account (MSA), Google, and Facebook as identity providers for authentication. If you mark Google and Facebook as deprecated providers, and a portal user only has Google and Facebook as identity providers for authentication, the user will receive the account migration message when they try to sign in using either of these two providers. When the user signs in using MSA, MSA is added to the user’s contact record. The user now has only MSA as the supported authentication identity provider. [comment]: <> (I tried to streamline this paragraph significantly. Please make sure I've preserved your intended meaning.)
+For example:  The portal supports Microsoft account (MSA), Google, and Facebook as identity providers for authentication. If you mark Google and Facebook as deprecated providers, and a portal user only has Google and Facebook as identity providers for authentication, the user will receive the account migration message when they try to sign in using either of these two providers. When the user signs in using MSA, MSA is added to the user’s contact record. The user now has only MSA as the supported authentication identity provider.
 
 When a portal user selects a new identity provider and the identity is already associated with another contact record, an error message appears. You can configure the error message using the following content snippets:
 
