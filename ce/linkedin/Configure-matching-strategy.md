@@ -1,17 +1,20 @@
 ---
 title: "Matching strategy for Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to specify which leads in Dynamics 365 get updated by configuring the matching strategy for newly synced LinkedIn leads."
-ms.topic: article
-ms.date: 09/26/2017
+keywords: "lead matching, field mapping, linkedin leads, lead record"
+ms.date: 02/05/2018
 ms.service: crm-online
 ms.topic: article
-applies_to: "Dynamics 365 (online)"
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 7ceb9c1e-c044-4d4c-8710-9fe0b79aeb68
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
-# Configure a matching strategy to update leads from [!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen ads
+
+# Configure a matching strategy to update leads from [!include[LinkedIn](../includes/pn-linkedin.md)] ads
 
 [!include[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
@@ -37,14 +40,14 @@ You need a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Con
 
 ## Create a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
 
-1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 2. To create the matching strategy, select **New** ![New](media/Add-icon.png "New"), enter a **Name**, and then select **Save**.
 3. To add a [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../includes/pn-linkedin.md)] member field.
 4. Select the **[!include[LinkedIn](../includes/pn-linkedin.md)] Field Mapping** record to add it to this matching strategy.
 
 ## Activate a different [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
 
-1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 2. In the list, select the matching strategy that you want to activate.
 3. In the **Activate** menu in the matching strategy details, select **Yes**.
 
@@ -55,19 +58,29 @@ If another matching strategy is active, it will become deactivated.
 
 ## Edit a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
 
-1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 2. In the list, select the matching strategy that you want to edit.
 3. To add an additional [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../includes/pn-linkedin.md)] member field.
 4. To remove a [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Delete**![Delete](media/Delete-icon.png "Delete").
 
 ## Delete a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
 
-1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Matching Strategies**.
+1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 2. Select the check box for the lead matching strategy you want to delete.
 3. Select **Delete**![Delete](media/Delete-icon.png "Delete"), and then confirm your deletion.
 
 > [!NOTE]
 > You can’t delete the activated lead matching strategy.
+
+## Edit the LinkedIn field mapping
+
+By default, Dynamics 365 maps fields from LinkedIn leads to corresponding fields of a lead record. As a system administrator or customizer, you can change the field mapping or create new mappings. 
+
+1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Field Mappings**.
+
+2. Select the field mapping that you want to change and select **Edit**.
+
+3. Change the mapping or rename the field mapping and select **Save** to apply your changes.
 
 ### See also
 
