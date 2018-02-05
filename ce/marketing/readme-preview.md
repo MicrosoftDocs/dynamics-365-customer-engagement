@@ -18,8 +18,8 @@ Dynamics 365 for Marketing<br/>Public Preview Readme (Known Issues)
 This document provides important, late-breaking information about known issues
 and possible workarounds for Dynamics 365 for Marketing Public Preview.
 
-Dynamics 365 for Marketing Public Preview is subject to these limits and
-restrictions*.*
+Dynamics 365 for Marketing Public Preview is subject to [these limits and
+restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 
 ### Dynamics 365 for Marketing Public Preview Sign-up Issues
 
@@ -193,4 +193,4 @@ agreement.
 Microsoft and Microsoft Dynamics are trademarks of the Microsoft group of
 companies. All other trademarks are property of their respective owners.
 
-*Third Party Notices*
+[Third Party Notices](https://go.microsoft.com/fwlink/p/?linkid=853765)
