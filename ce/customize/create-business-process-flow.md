@@ -199,39 +199,21 @@ The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update 
 > [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
 
 ### Enable Action Step support for business process flows 
-<<<<<<< HEAD
 
 1.	Go to **Settings** > **Administration** > **System Settings**.
 2.	Select the **Preview** tab.
 3.	Review, and if you agree, accept the license terms.
 4.	Select **Enable Action Step Support for Business Process Flows Preview**, and then select **OK**.
-=======
-[comment]: <> (Shouldn't step 4 be "Select Enable Action Step Support for Business Process Flows Preview"? The radio button is beside this text, not the heading.)
-1.	Go to **Settings** > **Administration** > **System Settings**.
-2.	Select the **Preview** tab.
-3.	Review, and if you agree, accept the license terms.
-4.	Select **Action Step Support for Business Process Flows Preview**, and then select **OK**.
->>>>>>> 6bab2b912d3a1aa6ca2698dca6ba845ab0177262
 
     ![Enable business process flow preview feature](media/enable-bpf-actionstep.png)
 
 ### Add on-demand workflows or actions using an Action Step
-<<<<<<< HEAD
 Suppose that, as part of the opportunity qualification process, the Contoso organization requires all opportunities to be reviewed by a designated reviewer. Subsequently, the Contoso organization created an action that: 
 
-=======
-Suppose that, as part of the opportunity qualification process, the Contoso organization requires all opportunities to be reviewed by a designated reviewer. Subsequently, the Contoso organization has an action that: 
-[comment]: <> (I don't understand "Subsequently,..."  Did they create the action later? Or does it already exist, as implied by "has?" We should remove "Subsequently," and say that they created the action--or just delete "Subsequently," if the action already exists. Also, we can put the colon right after "that:" we don't need "the following two tasks." The tasks complete the sentence.)
->>>>>>> 6bab2b912d3a1aa6ca2698dca6ba845ab0177262
 - Creates a task record that is assigned to the opportunity reviewer. 
 - Appends “Ready for review” to the opportunity topic. 
 
 Additionally, Contoso needs to be able to run these actions on demand. To integrate these tasks into the opportunity qualification process, the actions must appear on the opportunity business process flow. To enable this functionality, select **As a Business Process Flow action step**.
-<<<<<<< HEAD
-
-=======
-[comment]: <> (I moved the sentence that talks about running the actions on demand so that it follows the actions we are talking about.)
->>>>>>> 6bab2b912d3a1aa6ca2698dca6ba845ab0177262
 ![Available to run as a business process flow.](../customize/media/action-available-to-run.png)
 
 Next, the Action Step is added to Contoso’s opportunity business process flow. Then the process flow is validated and updated.
