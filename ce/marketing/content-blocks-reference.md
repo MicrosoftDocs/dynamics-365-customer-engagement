@@ -126,7 +126,7 @@ When you add or select a field in your form, you can read and set the following 
 
 ### Subscription-list blocks
 
-Each subscription-list block creates a check box that a visitor can select to subscribe to, or unsubscribe from, one of your mailing lists. For each static marketing list that you've configured as a subscription list, you'll find a unique block named after that list under the **Subscription Lists** heading of the designer's **Toolbox** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up marketing lists for use with static segments and subscription centers](segmentation-lists-subscriptions.md#set-up-marketing-lists-for-use-with-static-segments-and-subscription-centers)
+Each subscription-list block creates a check box that a visitor can select to subscribe to, or unsubscribe from, one of your mailing lists. For each static marketing list that you've configured as a subscription list, you'll find a unique block named after that list under the **Subscription Lists** heading of the designer's **Toolbox** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
 Subscription list blocks are only available when you are working with a subscription center or landing page form, and their behavior is slightly different in each case:
 

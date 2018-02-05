@@ -27,6 +27,8 @@ A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../in
 
 Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
 
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
+
 ## Overview: How to create a new marketing page and go live
 
 The overall process of creating a new marketing page and making it available on the web goes through the following stages:
