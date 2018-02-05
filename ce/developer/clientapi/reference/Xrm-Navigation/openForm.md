@@ -1,6 +1,6 @@
 ---
 title: "openForm (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 12/04/2017
+ms.date: 01/17/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -82,7 +82,7 @@ manager: "amyla"
 </table>
 </li>
 <li><b>selectedStageId</b>: (Optional) String. ID of the selected stage in business process instance.</li>
-<li><b>useQuickCreateForm</b>: (Optional) Boolean. Indicates whether to open a quick create form.</li>
+<li><b>useQuickCreateForm</b>: (Optional) Boolean. Indicates whether to open a quick create form. If you do not specify this, by default <b>false</b> is passed.</li>
 <li><b>width</b>: (Optional) Number. Width of the form window to be displayed in pixels.</li>
 </ul>
 </tr>
@@ -96,34 +96,92 @@ manager: "amyla"
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when the entity form or quick create form is displayed. For an existing entity or when the entity form is opened, it passed a single lookup value to the function. For the quick create, it will return as many items as were created and in the order they were created.
+<td>A function to execute when the entity form or quick create form is displayed. This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> property with the following properties to identify the record displayed or created:
+<ul>
+<li><b>entityType</b>: The logical name of the entity.</li>
+<li><b>id</b>: A string representation of a GUID value for the record.</li>
+<li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
+
+<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>successCallback</b> function will be executed only if you are opening a quick create form.
 </td>
 </tr>
 <tr>
 <td>errorCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when the operation fails.</td>
+<td>A function to execute when the operation fails.<br>
+
+<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>errorCallback</b> function will be executed only if you are opening a quick create form.</td>
 </tr>
 </table>
 
 ## Remarks
 
 You must use this method to open entity or quick create forms instead of the deprecated  [Xrm.Utility.openEntityForm](https://msdn.microsoft.com/library/jj602956.aspx#openEntityForm) and  [Xrm.Utility.openQuickCreate](https://msdn.microsoft.com/library/jj602956.aspx#openQuickCreate) methods.
+ 
 
-On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the callback functions (**successCallback** and **errorCallback**) in the **openForm** method will be executed only if you are opening a quick create form or opening a form in a new window. 
+## Examples
 
-## Example
+### Example 1: Open an entity form for existing record
 
-The following sample code opens a contact form with some pre-populated values:
+The following sample code opens a contact form to display an existing contact record:
 
 ```JavaScript
-// Set entity form options to open a Contact form
+var entityFormOptions = {};
+entityFormOptions["entityName"] = "contact";
+entityFormOptions["entityId"] = "8DA6E5B9-88DF-E311-B8E5-6C3BE5A8B200"
+
+// Open the form.
+Xrm.Navigation.openForm(entityFormOptions).then(
+    function (success) {
+        console.log(success);
+    },
+    function (error) {
+        console.log(error);
+    });
+```
+
+### Example 2: Open an entity form for new record
+
+The following sample code opens a contact form with some pre-populated values to create a new record:
+
+```JavaScript
 var entityFormOptions = {};
 entityFormOptions["entityName"] = "contact";
 
 // Set default values for the Contact form
 var formParameters = {};
+formParameters["firstname"] = "Sample";
+formParameters["lastname"] = "Contact";
+formParameters["fullname"] = "Sample Contact";
+formParameters["emailaddress1"] = "contact@adventure-works.com";
+formParameters["jobtitle"] = "Sr. Marketing Manager";
+formParameters["donotemail"] = "1";
+formParameters["description"] = "Default values for this record were set programmatically.";
+
+// Open the form.
+Xrm.Navigation.openForm(entityFormOptions, formParameters).then(
+    function (success) {
+        console.log(success);
+    },
+    function (error) {
+        console.log(error);
+    });
+```
+
+### Example 3: Open a quick create form
+
+The following sample code opens a quick create contact form with some pre-populated values:
+
+```JavaScript
+var entityFormOptions = {};
+entityFormOptions["entityName"] = "contact";
+entityFormOptions["useQuickCreateForm"] = true;
+
+// Set default values for the Contact form
+var formParameters = {};
+formParameters["firstname"] = "Sample";
+formParameters["lastname"] = "Contact";
 formParameters["fullname"] = "Sample Contact";
 formParameters["emailaddress1"] = "contact@adventure-works.com";
 formParameters["jobtitle"] = "Sr. Marketing Manager";
