@@ -70,4 +70,5 @@ With Dynamics 365 for [!INCLUDE[pn_field_service](../includes/pn-field-service.m
  [Install](../field-service/install-field-service.md)   
  [Configure default settings](../field-service/configure-default-settings.md)   
  [View user accounts and security roles](../field-service/view-user-accounts-security-roles.md)<br>
- [User's Guide](../field-service/user-guide.md)
+ [User's Guide](../field-service/user-guide.md)<br>
+ [Extend Universal Resource Scheduling actions to use your preferred geospatial data provider](../common-scheduler/developer/use-preferred-geospatial-data-provider.md)
