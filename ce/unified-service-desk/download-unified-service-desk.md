@@ -2,7 +2,7 @@
 title: "Download Unified Service Desk for Dynamics 365 | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
 ms.custom: ""
-ms.date: 01/25/2018
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

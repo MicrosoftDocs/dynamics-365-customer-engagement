@@ -2,7 +2,7 @@
 title: "Recovering an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering an Internet Explorer process instance"
 ms.custom: ""
-ms.date: 01/25/2018
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "Performance data collection using keyboard shortcuts | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
 ms.custom: ""
-ms.date: 01/25/2018
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

@@ -2,7 +2,7 @@
 title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics." 
 ms.custom: ""
-ms.date: 01/25/2018
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

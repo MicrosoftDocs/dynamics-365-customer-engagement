@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 ms.custom: ""
-ms.date: 01/25/2018
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
