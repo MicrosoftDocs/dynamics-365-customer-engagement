@@ -10,7 +10,7 @@
 |--|--|
 |[type-group](type-group.md)|[!INCLUDE [type-group-description](includes/type-group-description.md)]|
 
-## Value
+## Value element
 
 This element contains a `string` with one of the following values:
 
