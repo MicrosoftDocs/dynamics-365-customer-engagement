@@ -10,7 +10,7 @@ applies_to:
 ms.assetid: 28dc5957-cf1d-4e82-ace7-9e71763e7510
 ---
 
-Dynamics 365 for Marketing<br/>Public Preview Readme (Known Issues)
+Dynamics 365 for Marketing Public Preview Readme (Known Issues)
 ===============================================================
 
 This document provides important, late-breaking information about known issues
