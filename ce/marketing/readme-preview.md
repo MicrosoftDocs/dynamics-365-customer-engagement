@@ -1,8 +1,10 @@
 ---
 title: "Dynamics 365 for Marketing Preview Readme (Known Issues) | MicrosoftDocs"
-ms.date: 01/15/2018
+ms.date: 02/05/2018
 ms.service: "crm-online"
 ms.topic: "article"
+author: kamaybac
+ms.author: kamaybac
 ROBOTS: NOINDEX,NOFOLLOW
 applies_to: 
   - "Dynamics 365 (online)"
@@ -16,14 +18,10 @@ Dynamics 365 for Marketing<br/>Public Preview Readme (Known Issues)
 This document provides important, late-breaking information about known issues
 and possible workarounds for Dynamics 365 for Marketing Public Preview.
 
-Dynamics 365 for Marketing Public Preview is subject to [these limits and
-restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735)*.*
+Dynamics 365 for Marketing Public Preview is subject to these limits and
+restrictions*.*
 
 ### Dynamics 365 for Marketing Public Preview Sign-up Issues
-
--   For users signing up from languages/regions that are not yet supported, you
-    must **change your browser language to English** to proceed further. Refer
-    to “Change your browser language” later in this readme.
 
 -   Up to 5 users are permitted to sign up or join a single Marketing preview
     instance per tenant
@@ -35,71 +33,8 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735)*.*
     more** link goes to the incorrect FAQ.
 
 -   You cannot sign up using an \@microsoft.com email address. Please set up a
-    trial first as described in this
+    trial instance first as described in this
     [FAQ](https://go.microsoft.com/fwlink/p/?linkid=866753).
-
-#### Change your browser language
-
-Follow the steps below for the browser you are using.
-
-**Microsoft Edge**
-
-1.  In Windows, open the Control Panel.
-
-2.  Select **Clock**, **Language**, **and Region**.
-
-3.  Under **Language**, select **Add a language**.
-
-4.  Select **English (United States**), and then move it to the top of the list.
-
-5.  Close the Control Panel, and then restart your computer.
-
->   **Important:** This will change your user interface language, not just your
->   browser language preferences.
-
-**Chrome**
-
-1.  Select the **Customize and control Google Chrome** (3 dots) button in the
-    upper-right corner of the screen, and then select **Settings**.
-
-2.  Scroll down, open the **Advanced** section, and then scroll down to
-    **Languages**.
-
-3.  Under **Order languages based on your preference**, choose **Add
-    languages**, and then select **English (United States)**.
-
-4.  Select **English (United States)**, select the **More actions** button (3
-    dots), move it to the top, and then select **Display Google Chrome in this
-    Language**.  
-    You don't need to restart Chrome.
-
-**Safari**
-
-On OS X, the language used is specified in the OS X system language preferences.
-To change those preferences:
-
-1.  Go to **System Preferences** \> **Language & Region** \> **Preferred
-    Language**.
-
-2.  Click the plus sign (**+**), select **English**, and then drag it to the top
-    of the list.
-
-3.  Close **System Preferences**, close the Safari browser, and restart it.
-
->   **Important:** This will change the language of your user interface, not
->   just your browser language preferences.
-
-**Firefox**
-
-1.  Select the **OpenMenu** button (top right corner of the browser window), and
-    then choose **Options**.
-
-2.  Scroll down to the **Language** section, and then select **Choose**.
-
-3.  In the **Languages** dialog box, select **English/United States**.
-
-4.  If **English/United States** isn't already at the top of the list, choose
-    the **Move Up** button to move it there. 
 
 ### Dynamics 365 for Marketing Known Issues
 
@@ -210,10 +145,10 @@ To change those preferences:
     -   New lead scoring models might default to text view for smaller devices,
         so the toolbar right panel is inactive.
 
-    -   Lead scoring cannot be saved if the canvas is blank without any tiles. Add
+-   Lead scoring cannot be saved if the canvas is blank without any tiles. Add
     any tile to save successfully.
 
-    -   The Scoring model can't be activated if using any enum fields that start
+-   The Scoring model can't be activated if using any enum fields that start
     with a value of 0 (zero).
 
 -   Event management
