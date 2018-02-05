@@ -21,7 +21,7 @@ topic-status: Drafting
 After deciding the types of questions you want to include in your survey, you must now create the survey. This article provides information about the basics of designing a survey, creating a survey theme, and adding questions to the survey. More information about advanced survey design: [Design an advanced survey](design-advanced-survey.md)  
 
 > [!NOTE]
-> You must be a survey administrator or survey designer to perform the actions described in this chapter. A survey administrator has access at the organization level, whereas the Survey Designer role has access at the business-unit level.
+> You must be a survey administrator or survey designer to perform the actions described in this chapter. A survey administrator has access at the organization level, whereas the survey designer has access at the business-unit level.
 
 ## Create a survey theme
 
@@ -129,7 +129,7 @@ You can add more pages as required by your survey.
 
     ![Select survey designer](media/survey-designer.png "Select survey designer")  
 
-5.  Select the page thath you want to add a question to.
+5.  Select the page that you want to add a question to.
 
 6.  To add a question, drag the type of question you want from the **Survey parts** pane to the location you want on the survey page. If you need help, point to a survey part to read the tooltip. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide the best question type](#decide-the-question-type)  
 
@@ -167,7 +167,7 @@ You can import a section (along with its questions) from another survey into you
 
     ![Select a section to import in a survey](media/import-section.png "Select a section to import in a survey")  
 
-8.  Select **Save** in the lower-right corner of the screen. The section is imported, and **- Imported** is appended to the section name. [comment]: <> (I changed this from "The section is imported, and the word.." because there is a dash before the word Imported. It appends more than the word, correct?)
+8.  Select **Save** in the lower-right corner of the screen. The section is imported, and **- Imported** is appended to the section name.
 
     ![Imported section in a survey](media/imported-section.png "Imported section in a survey")  
 
