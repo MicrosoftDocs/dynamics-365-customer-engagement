@@ -24,13 +24,15 @@ manager: "brycho"
 
 ## Preview feature: new Dynamics 365 support center 
 
-On February 1, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). This will help us improve your overall support experience and drive faster issue resolution. 
+On February x, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). The new process will help us improve your overall support experience and drive faster issue resolution. 
 
 ### Prerequisites
 
 -  This is a Preview feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback.
 
--  Currently for organizations in North America (NAM) region. Other regions should see the [section below](#contacting-support-for-regions-other-than-north-america-nam). 
+-  Currently provided in English. We’re working to provide other languages soon. 
+
+[comment]: <> (-  Currently for organizations in North America (NAM) region. Other regions should see the [section below](#contacting-support-for-regions-other-than-north-america-nam). )
 
 -  You have one of the following Office 365 admin roles to enter support requests:
  
@@ -73,11 +75,12 @@ Your request will appear in the list of support requests.
 
 You can check the status and edit your request on this page.
 
+<!--
 ## Contacting support for regions other than North America (NAM)
 
 <a name="lFull3"></a> You have to be a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] administrator to contact technical support. If you are not an administrator, contact your local administrator.  
 
-For contact information, see [Self-Help Resources](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport)
+For contact information, see [Self-Help Resources](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport) -->
   
 ### See also
  [Help and additional resources](help-additional-resources.md)
