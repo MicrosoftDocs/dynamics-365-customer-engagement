@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/27/2017
+ms.date: 01/29/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -369,6 +369,30 @@ The statement has been terminated.
   
 -   Set the [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)] to use read committed snapshot isolation (RCSI) for workloads running concurrently on the destination database that execute long running read queries, such as reporting and ETL jobs. This reduces the occurrence of timeout errors that can occur with the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] due to read\write conflicts.  
   
+## About data synchronization latency
+
+The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] is architected to synchronize data changes to the destination database using a push mechanism by listening to changes as they happen in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The service strives to push data within a few minutes, but there are number of factors that can influence end-to-end synchronization latency. 
+
+Factors that influence the duration of synchronization include the following: 
+
+- The current work load on [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. 
+- The data change rate in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. 
+- The number of entities added to each export profile and their attributes. 
+- SQL Server performance. For example:
+  - SQL connection setup time. 
+  - SQL statement execution time. 
+
+Based on our monitoring of the service it's been observed that most on-going delta synchronization finishes in 15 minutes when the service operates under the following conditions:
+
+- The synchronization that occurs is a delta synchronization and not the initial synchronization. Delta synchronization is only for data change operations, which include record create, update, and delete transactions. Note that delta synchronization begins once the initial synchronization has finished.
+- The maximum data change rate in Dynamics 365 for all the entities in the export profile is less than 3000 records per hour. Any sudden increase in the data change rate due to bulk change of records exceeding the maximum change rate will cause additional latency.
+- Each entity added to an export profile has less than 150 attributes.
+- Database connection or SQL statement execution finishes in less than 10 seconds. If this limit is exceeded it will result in additional latency. 
+- No destination database connection or SQL execution errors occur during synchronization.
+
+
+When the above conditions are met, 15 minutes is a typical synchronization latency. Microsoft provides no service level agreement (SLA) for the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] and makes no guarantees or commitments regarding synchronization latency times.
+
 <a name="SetupAzureKV"></a>   
 ## How to set up Azure Key Vault  
  Run the [!INCLUDE[pn_PowerShell](../includes/pn-powershell.md)] script described here as an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] account administrator to give permission to the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] feature so it may access your Azure Key Vault. This script displays the key vault URL required for creating the Export Profile that is used to access the connection string.  

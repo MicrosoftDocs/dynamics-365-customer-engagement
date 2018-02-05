@@ -80,6 +80,8 @@ To create a redirecting URL:
 
 To see usage statistics about one of your redirect URLs, go to **Marketing** &gt; **Internet Marketing** &gt; **Redirect URLs** and open the link you want to learn about. These interactions are also shown on the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** pages for leads.
 
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
+
 ### See also
 
 [Register contacts' engagement](register-engagement.md)  

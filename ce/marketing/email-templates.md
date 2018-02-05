@@ -24,7 +24,7 @@ topic-status: Drafting
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed email templates. Most templates include a column layout, color scheme, sample content, and sample images, while others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed email templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
 
 The templates included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] provide:
 
@@ -39,7 +39,7 @@ The first thing you do each time you create a new message is choose a template. 
 
 When you create a new message, the selected template's content is copied into it. The message and template aren't linked, so when you edit the message, the template won't change; likewise, any future changes that you make to a template won't affect any existing messages that were created using it.
 
-You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message as a template, or work directly in the templates area to create them. You'd typically start with a message based on an existing template, customize the message as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find using filters in the **Select an email template** dialog shown to users each time they create a new email message.
+You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message as a template, or work directly in the templates area to create them. You'd typically start with a message based on an existing template, customize the message as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select an email template** dialog box shown to users each time they create a new email message.
 
 For more information about creating and editing marketing email messages, see [Prepare marketing email messages](prepare-marketing-emails.md). For more information about how to work with the designer tool, see [Design your digital content](design-digital-content.md).
 

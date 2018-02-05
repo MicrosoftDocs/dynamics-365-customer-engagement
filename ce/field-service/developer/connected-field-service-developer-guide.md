@@ -14,7 +14,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: b210b88e-3447-43a7-845e-23d6e7a94331
 caps.latest.revision: 8
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
 ---
 # Develop customized IoT solutions in Connected Field Service
 
