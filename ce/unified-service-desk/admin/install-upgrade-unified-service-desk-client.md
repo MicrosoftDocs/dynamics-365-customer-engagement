@@ -83,19 +83,20 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 >  -   When the [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)] is installed as part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client setup, a restart may be required for setup to continue.  
   
 ### Command line syntax  
- SetupUnifiedServiceDesk.exe [destination] [Shortcut = [y &#124; n]] [/S &#124; /M] [install/uninstall/help] [optin = [y &#124; n]]  
+ SetupUnifiedServiceDesk.exe [destination] [Shortcut = [y &#124; n]] [/S] [install/uninstall/help] [optin = [y &#124; n]]
   
 ### Parameters  
   
 |Parameter|Description|  
 |---------------|-----------------|  
 |install<br /><br /> uninstall<br /><br /> help|Required parameter that performs one of the following functions depending on which parameter you choose:<br /><br /> -   Install. Installs or, if a previous version exists, upgrades the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.<br />-   Uninstall. Uninstalls the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. This is a maintenance mode option that is only available when the application is already installed.<br />-   Help. Shows information about setup, such as supported parameters and usage.|  
-|/S|Silent mode. No setup UI is displayed. You cannot specify both /S and /M.|  
-|/M|Manual mode. Minimal UI is displayed for information to be entered only as needed. If setup has enough information to complete the install, no UI will be displayed when using this parameter. You cannot specify both /S and /M.|  
+|/S|Silent mode. No setup UI is displayed.| 
 |destination|The folder where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client files will be installed. By default, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is installed in the c:\program files\Microsoft Dynamics 365 USD\ folder.|  
-|Shortcut = [y &#124; n]|Shortcut=y creates a shortcut to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the user’s desktop. If you don’t set this parameter, or when you specify Shortcut=n, a shortcut is not created.|  
-|optin = [y &#124; n]|optin = y uses Windows Update to automatically apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. If not specified the default is no, which does not use Windows Update for the computer that is not already set to do so. This option was first introduced in 2.1 Update for Unified Service Desk.|  
-|help|Shows a list of valid parameters.|  
+|Shortcut = [y &#124; n]|Shortcut=y creates a shortcut to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the user’s desktop. If you don’t set this parameter, the shortcut is defaulted to y. When you specify Shortcut=n, a shortcut is not created.|
+|optin = [y &#124; n]|optin = y uses Windows Update to automatically apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. If not specified the default is no, which does not use Windows Update for the computer that is not already set to do so.|  
+|help|Shows a list of valid parameters.|
+
+<!-- |/M|Manual mode. Minimal UI is displayed for information to be entered only as needed. If setup has enough information to complete the install, no UI will be displayed when using this parameter. You cannot specify both /S and /M.| removed the content for 3.2.0 (kabala)-->
   
 ### Examples  
  This example installs or upgrades the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client in silent mode, creates a shortcut on the desktop, and uses Windows Update to apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
