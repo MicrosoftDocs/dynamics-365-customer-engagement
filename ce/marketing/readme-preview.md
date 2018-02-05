@@ -145,10 +145,10 @@ restrictions*.*
     -   New lead scoring models might default to text view for smaller devices,
         so the toolbar right panel is inactive.
 
--   Lead scoring cannot be saved if the canvas is blank without any tiles. Add
+    -   Lead scoring cannot be saved if the canvas is blank without any tiles. Add
     any tile to save successfully.
 
--   The Scoring model can't be activated if using any enum fields that start
+    -   The Scoring model can't be activated if using any enum fields that start
     with a value of 0 (zero).
 
 -   Event management
