@@ -29,14 +29,14 @@ The following pages are available in the **Advanced Settings** > **Business Mana
 
 Bring your customer and sales data quickly into your app by importing it. You can import data into most record types.
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] processes imports in the background. After an import is completed, you can review which records were successfully imported, failed to be imported, or were partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by deleting all records associated with the previous import).
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] processes imports in the background. After an import is completed, you can review which records were successfully imported, failed to be imported, or were partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by deleting all records associated with the previous import).
 
 ### Supported file types
 
 You can import data from the following file types:
 
 - Comma-separated value (.csv) file
-- [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates provided by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]  
+- [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates provided by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]  
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data or template](#export-data-or-templates)
 
 ### Prepare your file for import
@@ -56,15 +56,15 @@ Here are some guidelines to help make sure that your file will be imported succe
     > [!NOTE]
     > Make sure that the .csv file does not contain:
     > - Multiple lines in the first line (header row).
-    > - Quotation marks in the first line. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] uses quotation marks as data delimiters.
-    > - Data separated with a semicolon (;) or comma (,). [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] uses semicolons and commas as field delimiters.
+    > - Quotation marks in the first line. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] uses quotation marks as data delimiters.
+    > - Data separated with a semicolon (;) or comma (,). [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] uses semicolons and commas as field delimiters.
 
     > [!IMPORTANT]
-    > Data can be imported more quickly if it can be automatically mapped during the import process. It helps to have your column headings match the display name of fields in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. The display name is the label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** for each attribute can be changed in the **Customization** area by a user who has an appropriate security role.
+    > Data can be imported more quickly if it can be automatically mapped during the import process. It helps to have your column headings match the display name of fields in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. The display name is the label that is used by default when an attribute is displayed on a form, in a list, or in a report. The **Display Name** for each attribute can be changed in the **Customization** area by a user who has an appropriate security role.
 
 1. Make sure data exists for all required fields.
 
-    A record will only be imported if all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] required fields are mapped, and if data exists in each of the source columns that are mapped to the required fields. A required field is an attribute that is required before a record can be saved. You can either determine the required fields in advance, or identify missing required mappings during the import. In either case, make sure you have required data in each record. To determine which fields are required, open the form for the record type as if you were creating a new record, and identify fields that are marked with a red asterisk (\*).
+    A record will only be imported if all [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] required fields are mapped, and if data exists in each of the source columns that are mapped to the required fields. A required field is an attribute that is required before a record can be saved. You can either determine the required fields in advance, or identify missing required mappings during the import. In either case, make sure you have required data in each record. To determine which fields are required, open the form for the record type as if you were creating a new record, and identify fields that are marked with a red asterisk (\*).
 
     The following list shows default required fields for commonly imported record types.
 
@@ -113,20 +113,20 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
 1. Select **Review Mapping**.
 
-1. On the **Review Mapping** page, review how your column headings are mapped to the fields in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. On the **Review Mapping** page, review how your column headings are mapped to the fields in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
     ![The Review Mapping page](media/import-csv-mapping.png "The Review Mapping page")
 
     - On the left side, by default the **Primary Fields** section of the **Review Mapping** page shows all the required fields for the entity that must be mapped for the data to be imported successfully.
     - If you've selected an alternate key, all the fields of the alternate key also become required fields and must be mapped.
     - If the column headings of your source file match the field display names, these fields will be automatically mapped. All the mapped fields will be shown with a green check mark.
-    - If the column headings don't match, the unmapped fields will be shown with a red exclamation point. Select a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] field to map to the unmapped column heading of your file.
+    - If the column headings don't match, the unmapped fields will be shown with a red exclamation point. Select a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] field to map to the unmapped column heading of your file.
     - To quickly filter on only the unmapped fields, select **Unmapped** from the **Map Attributes** drop-down list.
 
 1. In the **Optional Fields** section of the **Review Mapping** page, the left side shows the column headings in your source file. If the column headings match the field display names, the fields will be automatically selected in the corresponding drop-down lists.
 
     - If the column headings don't match, the unmapped fields will be shown with a red exclamation point.
-    - Select a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] field to map to the unmapped column heading of your file.
+    - Select a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] field to map to the unmapped column heading of your file.
     - You can also choose **Ignore** from the drop-down list for one or more optional fields. Data from ignored columns won't be imported into [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].  
 ![A field set to be ignored during import](media/import-csv-ignore.png "A field set to be ignored during import")
 
@@ -134,15 +134,15 @@ Company,Last Name,First Name,Topic,Email,Mobile Phone
 
     ![The option-set value mapping menu](media/import-option-set-values.png "The option-set value mapping menu")
 
-    - For each **Source Option Values** item, click an item from the **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Option Values** list to map it, and then click OK.
-    - The **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Option Values** drop-down list combines the values available in the incoming file with those already in the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database. For example:
+    - For each **Source Option Values** item, click an item from the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Option Values** list to map it, and then click OK.
+    - The **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Option Values** drop-down list combines the values available in the incoming file with those already in the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database. For example:
       - **Values in import file**: Low, High
-      - **Values already in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]**: Cold, Warm, Hot
+      - **Values already in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]**: Cold, Warm, Hot
       - **Resulting target values**: Cold, Warm, Hot, Low, High
-    - After import, the import wizard will add all mapped values to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], but will drop unmapped values from the import file that aren't yet in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For example, you could map the "Low" source value to the "Cold" target value, but map the "High" source value to the (new) "High" target value. Based on these mappings, the import wizard creates "High" as a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] target value. It does not create "Low" as a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] target value because you didn't map any source to this target value.
+    - After import, the import wizard will add all mapped values to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but will drop unmapped values from the import file that aren't yet in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For example, you could map the "Low" source value to the "Cold" target value, but map the "High" source value to the (new) "High" target value. Based on these mappings, the import wizard creates "High" as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] target value. It does not create "Low" as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] target value because you didn't map any source to this target value.
 
     > [!NOTE]
-    > You can also map a column in your source file to a field of type "Two Options" and "Multiselect Option Set" (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] Option Values** list. When mapping to a field of type "Multiselect Option Set," if your source file includes values that aren't available in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], new values won't be created in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+    > You can also map a column in your source file to a field of type "Two Options" and "Multiselect Option Set" (where a field can have multiple values). You must map each **Source Option Values** to the items in the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Option Values** list. When mapping to a field of type "Multiselect Option Set," if your source file includes values that aren't available in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], new values won't be created in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 1. If some data in your source file references other existing records in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you must map the column in the source file to a lookup field of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
@@ -202,9 +202,9 @@ You must wait for an import job to be completed before you can repair failures.
 
 ## Export data or templates
 
-Present information to people who don't have access to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] by exporting the data to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook. You can export just the data from a list, or you can export a template.
+Present information to people who don't have access to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] by exporting the data to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook. You can export just the data from a list, or you can export a template.
 
-When you export a template, a ready-made workbook with column headings matching the fields of the record is created for you. Templates are already formatted as expected by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], so they are easy to edit and reimport later.
+When you export a template, a ready-made workbook with column headings matching the fields of the record is created for you. Templates are already formatted as expected by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], so they are easy to edit and reimport later.
 
 Data and templates can be exported from:
 
@@ -219,7 +219,7 @@ To maintain the integrity of your data, it's a good idea to set up duplicate det
 
 ### Duplicate detection rules
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes duplicate detection rules for accounts and contacts. The rules are automatically published when duplicate detection is enabled.
 
 - Accounts with the same account name are found
 - Contacts with the same first name and last name are found

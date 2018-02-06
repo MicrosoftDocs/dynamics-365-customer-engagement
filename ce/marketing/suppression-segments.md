@@ -38,7 +38,7 @@ By applying the techniques described in this topic, all unsubscribe requests sho
 
 ## Step 1: Prepare a subscription segment
 
-A subscription segment draws its contacts from a static list set up as a subscription list in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Contacts use your subscription center pages to add or remove themselves from your subscription lists.
+A subscription segment draws its contacts from a static list set up as a subscription list in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Contacts use your subscription center pages to add or remove themselves from your subscription lists.
 
 To continue with the other steps in this topic, you must first set up:
 

@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
+[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] provides powerful ways to analyze and present your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data. With [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates, you can easily create and share your customized analysis with others in your organization.
 
 You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates for:
 
@@ -33,7 +33,7 @@ You can use [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates 
 - Territory planning
 - And much more…
 
-Try out the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to get a quick view of what kind of analysis is possible. The Pipeline Management template is shown here:
+Try out the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates included with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to get a quick view of what kind of analysis is possible. The Pipeline Management template is shown here:
 
 ![An example of an Excel template](media/excel-template.png "An example of an Excel template")
 
@@ -43,7 +43,7 @@ Templates display information from the view defined for a record type (entity). 
 
 ## Step 1: Create a new template from existing data
 
-1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with the System Administrator role.
+1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] as a user with the System Administrator role.
 
 1. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **+ New Template**.
 
@@ -69,7 +69,7 @@ Open the newly created template in [!INCLUDE[pn-excel-short](../includes/pn-exce
 
 ![A newly created Excel template](media/excel-new-template.png "A newly created Excel template")
 
-Let's walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template by using [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] sample data:
+Let's walk through a simple example of customizing an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template by using [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] sample data:
 
 1. Select **Enable Editing** to allow customization of the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook.
 
@@ -83,22 +83,22 @@ Let's walk through a simple example of customizing an [!INCLUDE[pn-excel-short](
 
 1. Create a pivot table and chart.
 
-1. Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices and considerations for using Excel templates](#best-practices-and-considerations-for-using-excel-templates)
+1. Place user-added content above or to the right of the existing data table. This prevents the content from being overwritten if you add new data in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] later and you create a new [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices and considerations for using Excel templates](#best-practices-and-considerations-for-using-excel-templates)
 
     ![A customized Excel template](media/excel-graph.png "A customized Excel template")
 
 1. Save the workbook.
 
-You're now ready to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+You're now ready to upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 ## Step 3: Upload the template and share with others
 
-When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+When you have your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template customized the way you want, you can upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 > [!NOTE]
 > Users in your organization can see the templates available to them by selecting **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] Templates** on the command bar in the list of records.
 
-To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]:
+To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
 
 1. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **Upload Template**.
 
@@ -116,7 +116,7 @@ To upload the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template
 
 ## Best practices and considerations for using [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates
 
-Here are some things you need to be aware of to create and make the best use of [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]:
+Here are some things you need to be aware of to create and make the best use of [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
 
 - **Test your [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates**  
 [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] has lots of features. It's a good idea to test your customizations to see that all [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] features work as expected in your templates.

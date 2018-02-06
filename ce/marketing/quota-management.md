@@ -23,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota Management** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota Management** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
 
 To find this information, go to **Settings** >**Advanced Settings** > **Others** > **Quota Limits**.
 

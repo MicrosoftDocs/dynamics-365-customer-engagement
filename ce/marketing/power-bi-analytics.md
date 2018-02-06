@@ -21,7 +21,7 @@ ms.reviewer: renwe
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], includes several prebuilt content packs for [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)], which provide insights and add analytics capabilities to the end-to-end sales and marketing process. Each content pack is preconfigured to consume data directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, and to create targeted and informative infographics based on that data. The content packs are built by using standard [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] tools, so you can easily customize them to fit your needs.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], includes several prebuilt content packs for [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)], which provide insights and add analytics capabilities to the end-to-end sales and marketing process. Each content pack is preconfigured to consume data directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database, and to create targeted and informative infographics based on that data. The content packs are built by using standard [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] tools, so you can easily customize them to fit your needs.
 
 The following content packs are provided to support [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]:
 
@@ -32,9 +32,9 @@ The following content packs are provided to support [!INCLUDE[pn-marketing-busin
 
 ## Add a content pack to [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)]
 
-To use a content pack, you must add it to your [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] account and connect it to your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance as follows:
+To use a content pack, you must add it to your [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] account and connect it to your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance as follows:
 
-1. Sign in to [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] by using the same account that you use in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. Sign in to [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] by using the same account that you use in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 1. Select **Get Data** at the bottom of the leftmost navigation pane (select the **Show navigation pane** ![Show navigation pane button](media/power-bi-show-nav-button.png "Show navigation pane button") button at the left side of the page if you don't see the **Get Data** button).
 
@@ -46,7 +46,7 @@ To use a content pack, you must add it to your [!INCLUDE[pn-microsoft-power-bi](
 
     ![The AppSource dialog in Power BI](media/power-bi-appsource.png "The AppSource dialog box in Power BI)]")
 
-1. In the **Connect to** dialog box, enter the base domain name of your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance in the field provided (for example, **contoso.crm.dynamics.com**; don't include **https://** or any path information).
+1. In the **Connect to** dialog box, enter the base domain name of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance in the field provided (for example, **contoso.crm.dynamics.com**; don't include **https://** or any path information).
 
     ![The Power BI Connect wizard, page 1](media/power-bi-connect-1.png "The Power BI Connect wizard, page 1")
 
@@ -54,7 +54,7 @@ To use a content pack, you must add it to your [!INCLUDE[pn-microsoft-power-bi](
 
     ![The Power BI Connect wizard, page 2](media/power-bi-connect-2.png "The Power BI Connect wizard, page 2")
 
-1. If an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] sign-in window opens, use the credentials you normally use to sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. After you are signed in, you'll return to [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] and your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data will begin to be loaded, which might take a few minutes.
+1. If an [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] sign-in window opens, use the credentials you normally use to sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. After you are signed in, you'll return to [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] and your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data will begin to be loaded, which might take a few minutes.
 
 1. When the data is loaded, your [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] navigation pane will be updated to show a new **Dataset**, **Report**, and **Dashboard** in the leftmost navigation pane, each named after the Process Analyzer Content Pack.
 
