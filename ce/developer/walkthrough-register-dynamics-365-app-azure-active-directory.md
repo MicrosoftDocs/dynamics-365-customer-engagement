@@ -89,9 +89,9 @@ This walkthrough applies to both [!INCLUDE[pn_crm_2016_and_online_full](../inclu
 
     ![Create app registration](media/Azure-create-reg-app.png "Create app registration")
   
-7. Select **Create** in the lower part of the page to continue. The newly registered app appears on the page. Click the app to open the information page for the app.
+7. Select **Create** in the lower part of the page to continue. The newly registered app appears on the page. Click the app to open the app information page.
 
-1. On the app info page, hover over **Application ID** (earlier known as **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
+1. On the app information page, hover over **Application ID** (earlier known as **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
 
     ![Copy application ID](media/Azure-copy-app-id.png "Copy application ID")
   
