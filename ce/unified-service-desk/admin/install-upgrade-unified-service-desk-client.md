@@ -48,7 +48,7 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
   
     - **Create a desktop shortcut for Unified Service Desk**. By default, a shortcut will be created for easy launching of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client from the desktop.  
   
-    - **Keep Unified Service Desk up to date with Windows Update**.   We recommend that you select this option to use Windows Update to automatically apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. This option was first introduced in [!INCLUDE[pn_unified_service_desk_2_1](../../includes/pn-unified-service-desk-2-1.md)] and  you'll see it when the computer where you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is not already using Windows Update.   For more information about Windows Update, see [Keep your PC up to date](http://go.microsoft.com/fwlink/p/?LinkId=784862). For information about how to fully manage the distribution of updates released through Microsoft Update, see [Windows Server Update Services](https://technet.microsoft.com/library/bb332157.aspx).  
+    <!--**Keep Unified Service Desk up to date with Windows Update**.   We recommend that you select this option to use Windows Update to automatically apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. This option was first introduced in [!INCLUDE[pn_unified_service_desk_2_1](../../includes/pn-unified-service-desk-2-1.md)] and  you'll see it when the computer where you install the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client is not already using Windows Update.   For more information about Windows Update, see [Keep your PC up to date](http://go.microsoft.com/fwlink/p/?LinkId=784862). For information about how to fully manage the distribution of updates released through Microsoft Update, see [Windows Server Update Services](https://technet.microsoft.com/library/bb332157.aspx).-->  
   
 5.  Click **Install**.  
   
@@ -67,7 +67,8 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
   
 3.  Click **Next**.  
   
-4.  On the Unified Service Desk Upgrade screen, decide if you want to create a shortcut for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. Use Windows Update if the computer is not already set to do so, and then click **Upgrade**.  
+4.  On the Unified Service Desk Upgrade screen, decide if you want to create a shortcut for the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. 
+<!--Use Windows Update if the computer is not already set to do so, and then click **Upgrade**.-->
   
 5.  The next screen shows the installation status of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.  
   
@@ -82,7 +83,8 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 >  -   When the [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)] is installed as part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client setup, a restart may be required for setup to continue.  
   
 ### Command line syntax  
- SetupUnifiedServiceDesk.exe [destination] [Shortcut = [y &#124; n]] [/S] [install/uninstall/help] [optin = [y &#124; n]]
+ SetupUnifiedServiceDesk.exe [destination] [Shortcut = [y &#124; n]] [/S] [install/uninstall/help] 
+ <!--[optin = [y &#124; n]]-->
   
 ### Parameters  
   
@@ -91,19 +93,20 @@ Make sure your computer meets all requirements before you install the [!INCLUDE[
 |install<br /><br /> uninstall<br /><br /> help|Required parameter that performs one of the following functions depending on which parameter you choose:<br /><br /> -   Install. Installs or, if a previous version exists, upgrades the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.<br />-   Uninstall. Uninstalls the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. This is a maintenance mode option that is only available when the application is already installed.<br />-   Help. Shows information about setup, such as supported parameters and usage.|  
 |/S|Silent mode. No setup UI is displayed.| 
 |destination|The folder where the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client files will be installed. By default, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is installed in the c:\program files\Microsoft Dynamics 365 USD\ folder.|  
-|Shortcut = [y &#124; n]|Shortcut=y creates a shortcut to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the user’s desktop. If you don’t set this parameter, the shortcut is defaulted to y. When you specify Shortcut=n, a shortcut is not created.|
-|optin = [y &#124; n]|optin = y uses Windows Update to automatically apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. If not specified the default is no, which does not use Windows Update for the computer that is not already set to do so.|  
+|Shortcut = [y &#124; n]|Shortcut=y creates a shortcut to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application on the user’s desktop. If you don’t set this parameter, the shortcut is defaulted to y. When you specify Shortcut=n, a shortcut is not created.|  
 |help|Shows a list of valid parameters.|
 
-<!-- |/M|Manual mode. Minimal UI is displayed for information to be entered only as needed. If setup has enough information to complete the install, no UI will be displayed when using this parameter. You cannot specify both /S and /M.| removed the content for 3.2.0 (kabala)-->
+<!-- |/M|Manual mode. Minimal UI is displayed for information to be entered only as needed. If setup has enough information to complete the install, no UI will be displayed when using this parameter. You cannot specify both /S and /M.| removed the content for 3.2.0 (kabala)
+|optin = [y &#124; n]|optin = y uses Windows Update to automatically apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. If not specified the default is no, which does not use Windows Update for the computer that is not already set to do so.|-->
   
 ### Examples  
- This example installs or upgrades the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client in silent mode, creates a shortcut on the desktop, and uses Windows Update to apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].  
+ This example installs or upgrades the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client in silent mode, creates a shortcut on the desktop.
+ <!--uses Windows Update to apply updates to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].-->
   
 ```  
-SetupUnifiedServiceDesk.exe install Shortcut=y  optin=y /S  
+SetupUnifiedServiceDesk.exe install Shortcut=y /S  
 ```  
-  
+  <!--optin=y-->
  This example uninstalls the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client. Note that no UI displays, even when the /S parameter is not used.  
   
 ```  
