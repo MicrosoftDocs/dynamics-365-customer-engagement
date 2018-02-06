@@ -1,6 +1,6 @@
 ---
-title: "Use suppression segments to manage unsubscribe requests (Dynamics 365 for Marketing) | Microsoft Docs "
-description: "How to set and assign a suppression segment to manage unsubscribe requests in Dynamics 365 for Marketing "
+title: "Use suppression segments to implement unsubscribe requests in running journeys (Dynamics 365 for Marketing) | Microsoft Docs "
+description: "How to set and assign a suppression segment to ensure customer journeys in Dynamics 365 for Marketing implement unsubscribe requests"
 keywords: "customer journey; suppression segment; segment; subscriptions; unsubscribe"
 ms.date: 02/01/2018
 ms.service: crm-online
@@ -16,8 +16,8 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Use suppression segments to manage unsubscribe requests in customer journeys
-[comment]: <> (I don't know if "managing" or "implementing" are the right verbs to use, but I think if we talk about "honoring" or "respecting" unsubscribe requests, we could have problems in translation. What do you think? What about "processing" unsubscribe requests?)
+# Use suppression segments to ensure running journeys will implement unsubscribe requests
+
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
@@ -29,7 +29,7 @@ Once a contact has started on a journey (including a recurring journey), that co
 > [!NOTE]
 > Once a contact has unsubscribed from a list, that contact won't be sent on any new journeys that target that list. The issue addressed in this topic only applies for contacts already on one or more journeys when they submit the unsubscribe request.
 
-If you create a journey that lasts more than a few days (depending on local regulations), then you should set up a suppression segment to process unsubscribe requests. Neglecting to do so risks not only annoying your contacts, but could expose your organization to litigation and penalties. In particular, customer journeys that include schedulers or triggers with long delays should almost always include a suppression segment.
+If you create a journey that lasts more than a few days (depending on local regulations), then you should set up a suppression segment to implement unsubscribe requests while the journey is running. Neglecting to do so risks not only annoying your contacts, but could expose your organization to litigation and penalties. In particular, customer journeys that include schedulers or triggers with long delays should almost always include a suppression segment.
 
 By applying the techniques described in this topic, all unsubscribe requests should be processed within a day or so of receiving the request--even in running journeys. Most local laws specify a maximum response time for processing unsubscribe requests, so any journey that runs longer than that maximum time should include a suppression segment. It is your responsibility to familiarize yourself with and conform to all applicable regulations in the countries/regions where you run marketing campaigns.
 

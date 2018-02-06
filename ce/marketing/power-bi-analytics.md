@@ -4,7 +4,6 @@ description: "How to download, customize, and use Power BI content packs to anal
 keywords: "analytics; Power BI"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)

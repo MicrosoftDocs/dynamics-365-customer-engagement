@@ -4,7 +4,6 @@ description: "Choose a standard theme or create your own to customize the genera
 keywords: "administration; organization settings; theme; logo"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)

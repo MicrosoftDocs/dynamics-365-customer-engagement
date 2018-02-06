@@ -4,7 +4,6 @@ description: "An overview of event-management features (including planning, logi
 keywords: "events; event management"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)

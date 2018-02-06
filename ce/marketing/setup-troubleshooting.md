@@ -75,7 +75,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 
     1. Open a new browser tab and go to [portal.office.com/adminportal/home?rc=1#/catalog](https://portal.office.com/adminportal/home?rc=1#/catalog). This is where you can add new apps to your new org.
 
-    1. Scroll down to the **Office 365 Enterprise E3** box. Hover your mouse over this box to open a flyout and then select **Start free trial** on the flyout. [comment]: <> (Flyout can be used as an adjective to describe a menu or message, but not as a noun. Please insert the correct term after "flyout." Thanks!)
+    1. Scroll down to the **Office 365 Enterprise E3** box. Hover your mouse over this box to open a flyout message and then select **Start free trial** on the message.
 
     1. Follow the instructions on your screen to add the trial to your account.
 

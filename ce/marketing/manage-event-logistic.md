@@ -4,7 +4,6 @@ description: "How to manage event logistics (including vendors, hotels, room all
 keywords: "events; event management; logistics; hotel; reservation"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)

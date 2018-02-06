@@ -4,7 +4,6 @@ description: "Learn what you can do to optimize the benefits gained from your ev
 keywords: "events; event management; survey; attendance"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)

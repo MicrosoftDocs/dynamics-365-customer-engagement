@@ -51,7 +51,7 @@ Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.m
 
 1. The **Home** dashboard for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] opens.
 
-1. In the navigation column on the left, expand the **Admin centers** entry and then select **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]**.  [comment]: <> (I didn't see "pn-microsoftcrm" in tokenizer? I'm just learning to use it, so I'm not sure if it is comprehensive/all inclusive or if you use other tokens that aren't in the Excel file. Thanks!)
+1. In the navigation column on the left, expand the **Admin centers** entry and then select **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]**.  
     ![Open the Dynamics 365 admin center](media/update-open-d365-admin.png "Open the Dynamics 365 admin center")
 
 1. The [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] opens.
@@ -93,7 +93,7 @@ To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
 1. The column next to the instance list shows information about your selected instance, including a list of solutions installed there. Select the **Manage your solutions** button ![The Manage your solutions button](media/update-manage-button.png "The Manage your solutions button") next to the **Solutions** heading here.  
     ![Select the Manage your solutions button](media/update-open-manage-solutions.png "Select the Manage your solutions button")
 
-1. A list of solutions installed on your selected instance is shown. Look in the **Status** column for any solutions that show a value of "Upgrade available." [comment]: <> (Since "Upgrade available" isn't a link or code, the punctuation should go inside the quotation marks.) The solutions that are relevant for Marketing are "[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-portals](../includes/pn-portals.md)] – Base Portal" and "[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]". If you have many solutions installed, then use the paging controls at the bottom to check each page for available updates.  
+1. A list of solutions installed on your selected instance is shown. Look in the **Status** column for any solutions that show a value of "Upgrade available." The solutions that are relevant for Marketing are "[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-portals](../includes/pn-portals.md)] – Base Portal" and "[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]". If you have many solutions installed, then use the paging controls at the bottom to check each page for available updates.  
     ![Select a solution to update](media/update-select-solution.png "Select a solution to update")
 
     > [!NOTE]

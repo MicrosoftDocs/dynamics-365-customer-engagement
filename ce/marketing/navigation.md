@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: ca44ebc8-7f92-4ad8-b6f3-c7c1d73c7472
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
