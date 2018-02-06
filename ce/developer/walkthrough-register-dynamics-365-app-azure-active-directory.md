@@ -100,7 +100,7 @@ This walkthrough applies to both [!INCLUDE[pn_crm_2016_and_online_full](../inclu
     ![Add app permission](media/Azure-add-app-permission.png "Add app permission")
   
 10. On the **Add API access** page:
-    - Select **Select an API** > **Microsoft Dynamics CRM**, and then click **Select**.
+    - Select **Select an API** > **Dynamics CRM Online**, and then click **Select**.
 
       ![Add app permission](media/Azure-add-api-access.png "Add app permission")  
    
