@@ -73,7 +73,7 @@ This topic provides information about the system requirements for installing the
 ## Software requirements for the Package Deployer tool  
  The [!INCLUDE[pn_package_deployer_tool](../../includes/pn-package-deployer-tool.md)] is used for deploying [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample applications. The tool supports and requires the following technologies:  
   
--   For running the tool, use one of these [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] versions: [!INCLUDE[pn_windows_server_2012_r2](../../includes/pn-windows-server-2012-r2.md)], [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)], [!INCLUDE[pn_Windows_Server_2008_R2](../../includes/pn-windows-server-2008-r2.md)].  
+<!--For running the tool, use one of these [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] versions: [!INCLUDE[pn_windows_server_2012_r2](../../includes/pn-windows-server-2012-r2.md)], [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)], [!INCLUDE[pn_Windows_Server_2008_R2](../../includes/pn-windows-server-2008-r2.md)].-->
   
 -   An instance of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] (online or on-premises), [!INCLUDE[pn_crm_2015](../../includes/pn-crm-2015.md)], or [!INCLUDE[pn_crm_2013_sp](../../includes/pn-crm-2013-sp.md)].  
   
