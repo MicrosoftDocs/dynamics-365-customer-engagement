@@ -87,25 +87,25 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 #### Register an application with Microsoft Azure  
   
-1.  [Sign in](http://manage.windowsazure.com) to the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] management portal by using an account with administrator permission. You must use an account in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription (tenant) as you intend to register the app with. You can also access the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] portal through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin center by expanding the **ADMIN** item in the left navigation pane and selecting **Azure AD**.  
+1.  [Sign in](http://manage.windowsazure.com) to the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] management portal by using an account with administrator permission. You must use an account in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription (tenant) as you intend to register the app with.<br><br> You can also access the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] management portal through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] [Admin center](https://portal.office.com/adminportal) by expanding the **Admin centers** item in the left navigation pane, and selecting **Azure AD**.  
   
-     If you don’t have an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] tenant (account) or you do have one but your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is not available in your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment) to associate the two accounts.  
+    > [!NOTE]
+    > If you don’t have an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] tenant (account) or you do have one but your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is not available in your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment) to associate the two accounts.<br><br> If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/)  
   
-     If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/)  
+2.  In the Azure management portal, select **Azure Active Directory** in the left column of the page. You may need to scroll the left column to see the **Azure Active Directory** icon and label.  
   
-2.  Click **Active Directory** in the left column of the page. You may need to scroll the left column to see the **Active Directory** icon and label.  
+3.  If you have multiple tenant directories, select Switch directory to select the desired tenant directory.  
   
-3.  Click the desired tenant directory in the directory list.  
+    ![List of available Active Directory entries](media/Azure-select-directory.png "List of available Active Directory entries")     
   
- ![List of available Active Directory entries](media/azure-active-directory.PNG "List of available Active Directory entries")  
+4.  For a tenant directory, select **App registrations** > **New application registration**. 
+
+    ![New app registration](media/Azure-app-registration.png "New app registration")
   
-     If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tenant directory isn’t shown in the directory list, click **Add**, and then select **Use existing directory** in the dialog box. Follow the prompts and instructions provided, and then go back to step 1.  
-  
-4.  With the target directory selected, click **Applications** (near the top of the page), and then click **Add**.  
-  
-5.  In the **What do you want to do?** dialog box, click **Add an application my organization is developing**.  
-  
-6.  When prompted, enter a name for your application, pick a type: **Web Application** or **Native Client Application**, and then click the right arrow to continue. Click a question mark **?** for more information on the appropriate values for each input field.  
+5.  On the **Create** page, enter a **Name** for your application, select an **Application type** enter a **Redirect URI** value, and then select **Create** in the lower part of the page to continue.
+
+    > [!TIP]
+    > Click exclamation mark **!** for more information on the appropriate values for each input field.
   
 7.  Continue providing the requested information and complete the app registration process by choosing the check mark icon.  
   
