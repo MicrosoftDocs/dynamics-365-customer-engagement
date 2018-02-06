@@ -94,43 +94,51 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
 2.  In the Azure management portal, select **Azure Active Directory** in the left column of the page. You may need to scroll the left column to see the **Azure Active Directory** icon and label.  
   
-3.  If you have multiple tenant directories, select Switch directory to select the desired tenant directory.  
+3.  If you have multiple tenant directories, select **Switch directory** to select the desired tenant directory.  
   
     ![List of available Active Directory entries](media/Azure-select-directory.png "List of available Active Directory entries")     
   
-4.  For a tenant directory, select **App registrations** > **New application registration**. 
+4.  For the selected tenant directory, select **App registrations** > **New application registration**. 
 
     ![New app registration](media/Azure-app-registration.png "New app registration")
   
-5.  On the **Create** page, enter a **Name** for your application, select an **Application type** enter a **Redirect URI** value, and then select **Create** in the lower part of the page to continue.
+5.  On the **Create** page, enter a **Name** for your application, select  **Application type** as **Native**, and enter a **Redirect URI** value. Copy the **Redirect URI** value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
 
     > [!TIP]
-    > Click exclamation mark **!** for more information on the appropriate values for each input field.
+    > Click exclamation mark **!** for more information on the appropriate values for each input field.<br>Copy the **Redirect URI** value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
+
+    ![Create app registration](media/Azure-create-reg-app.png "Create app registration")
   
-7.  Continue providing the requested information and complete the app registration process by choosing the check mark icon.  
+7. Select **Create** in the lower part of the page to continue. The newly registered app appears on the page. Click the app to open the information page for the app.
+
+1. On the app info page, hover over **Application ID** (earlier known as **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
+
+    ![Copy application ID](media/Azure-copy-app-id.png "Copy application ID")
   
-8.  With the tab of the newly registered app selected, click **Update Your Code**. Copy the provided redirect URI and client ID. You’ll need to insert these values into your application’s authentication code or app.config file where appropriate. <!--For some example code, see the topic [Sample: Windows 8 desktop modern OData app](sample-windows-8-desktop-modern-odata-app.md).  -->
+9. Select **Settings** in the app info page, and then select **Required permissions** > **Add** to add permissions for the registered app.
+
+    ![Add app permission](media/Azure-add-app-permission.png "Add app permission")
   
- ![Generated client ID in Dynamics 365](media/azure-client-id.PNG "Generated client ID in Dynamics 365")  
+10. On the **Add API access** page:
+    - Select **Select an API** > **Microsoft Dynamics CRM**, and then click **Select**.
+
+      ![Add app permission](media/Azure-add-api-access.png "Add app permission")  
+   
+    - Select **Select permissions** > **Access CRM Online as organization users**, and then click **Select**.
   
-9. With the tab of the newly registered app selected, click **Configure** or **Configure access to web APIs in other applications**.  
-  
-10. Click **Add application** and then set the app permissions as shown in the following figure. Select the **+** icon on the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] line item and then select the check mark to exit the dialog.  
-  
- ![Set permissions to the Dynamics 365 (online) application](media/azure-add-permission-2.PNG "Set permissions to the Dynamics 365 (online) application")  
-  
-11. In the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]**Delegated Permissions** drop down list, check **Access Dynamics 365 (online) as organization users**.  
-  
- ![Add application permission in Dynamics 365](media/azure-add-permission.PNG "Add application permission in Dynamics 365")  
-  
-     For more information about registering an app with [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] see [Adding an Application](https://msdn.microsoft.com/library/dn132599.aspx).  
-  
-12. Select **SAVE**.  
+      ![Add application permission in Dynamics 365](media/azure-add-permission.PNG "Add application permission in Dynamics 365")  
+
+    - Select **Done** to add the delegated permission to the registered app.
+
+This completes the registration of your application with Azure Active Directory.
+     
+> [!NOTE]
+> For detailed information about registering an app with [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)], see [Application registration](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications).  
   
 #### Register an application with AD FS  
   
 -   If you’re federating users between an [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] server and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and you want to use the app with either server, you must register the application with both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] on the [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] server. Follow the steps provided in this topic. Your [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] server must be running [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)].  
   
 ### See also  
- [Adding, Updating, and Removing an Application](https://msdn.microsoft.com/library/dn132599.aspx)    
+ [Application registration in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)    
  [Authenticate Users with Dynamics 365 Web Services](authenticate-users.md)
