@@ -2,7 +2,7 @@
 title: "Walkthrough: Register a Dynamics 365 app with Azure Active Directory (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Customer Engagement server, authenticate using OAuth, and access the web services"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -35,35 +35,13 @@ This walkthrough describes how to register an application with [!INCLUDE[pn_micr
   
 -   A [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
   
- For either deployment type, you must know the redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URL](walkthrough-register-app-active-directory.md#bkmk_redirect).  
-  
-<a name="bkmk_redirect"></a>   
-## Obtain the redirect URI  
- One method to obtain the redirect URI for a native client [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] application is to execute the following line of code in a debug session of your application and examine the returned URI value. In a WinJS debug session, select the `RawUri` property.  
-  
-```csharp  
-string redirectUri = WebAuthenticationBroker.GetCurrentApplicationCallbackUri().ToString();  
-```  
-  
-```vb  
-Dim redirectUri As String = WebAuthenticationBroker.GetCurrentApplicationCallbackUri().ToString()  
-```  
-  
-```javascript  
-Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicationCallbackUri()  
-```  
-  
- The `WebAuthenticationBroker` class can be found in the `Windows.Security.Authentication.Web` namespace. Use the string value returned from the method call when you register the app. 
- 
- <!--The C# line of code is shown in the topic [Sample: Windows 8 desktop modern OData app](sample-windows-8-desktop-modern-odata-app.md).  -->
-  
- For a non-[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] native client application such as a console application, use any valid URI value. In this case, the URI doesn’t need to actually exist but it must be unique in the tenant.  
-  
+ For either deployment type, you must know the redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URI](walkthrough-register-app-active-directory.md#bkmk_redirect).  
+    
 <a name="bkmk_online"></a>   
 ## App registration for OAuth authentication  
  **Scenario**: A person with a Dynamics 365 system user account accesses organization data through a desktop client or mobile application.  
   
-#### The end user or application developer performs the following tasks:  
+### Tasks performed by end user or application developer  
   
 1.  Registers the external application in [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] and provides a redirect URI during the registration process. The URI can be any valid and appropriate URI. The [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] app registration process results in the generation of a client ID string.  
   
@@ -71,11 +49,11 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
  **Scenario**: An ISV creates and registers an app that is later published in the app store. The ISV’s customers download the app from the store and use it to connect to their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or Internet-facing deployment (IFD) organization.  
   
-#### The ISV performs the following tasks:  
+### Tasks performed by ISV  
   
 1.  Registers the app in the ISV’s tenant using the steps provided in the previous scenario (above).  
   
-#### Each customer that downloads the app performs the following tasks:  
+### Tasks performed by each customer who downloads the app  
   
 1.  When accessing a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization in the customer’s tenant, the customer will be presented with a consent form.  
   
@@ -85,7 +63,7 @@ Windows.Security.Authentication.Web.WebAuthenticationBroker.getCurrentApplicatio
   
  For native apps, the customer has to consent each time he or she is prompted to authenticate again. For web apps, the customer is only asked to consent one time. The workaround to bypass the   consent form is for the customer to register the app in the customer’s tenant.  
   
-#### Register an application with Microsoft Azure  
+### How to: Register an application with Microsoft Azure  
   
 1.  [Sign in](http://manage.windowsazure.com) to the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] management portal by using an account with administrator permission. You must use an account in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription (tenant) as you intend to register the app with.<br><br> You can also access the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] management portal through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] [Admin center](https://portal.office.com/adminportal) by expanding the **Admin centers** item in the left navigation pane, and selecting **Azure AD**.  
   
