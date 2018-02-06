@@ -55,7 +55,7 @@ To enable Internet Explorer pooling:
 
 ## Known issues
 
-Closing a single CRM entity page (one CRM entity page is opened) when **InternetExplorerPooling** is enabled causes the CRM entity page to load continuously. In this case, you need to open the CRM entity page again to continue working.
+Closing a CRM entity page when **InternetExplorerPooling** is enabled may cause the CRM entity page to load continuously. In this case, you need to open the CRM entity page again to continue working.
 
 ## See also
 
