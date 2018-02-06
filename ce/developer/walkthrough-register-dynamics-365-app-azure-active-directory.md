@@ -19,21 +19,23 @@ ms.author: "jdaly"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This walkthrough describes how to register an application with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)] so that it can connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement server, authenticate using OAuth, and access the web services. Once registered, an application can access the web services using HTTP requests with the Web API or the web client proxy classes of the Organization Service. This walkthrough applies to both [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] when using OAuth authentication in your application.  
+This walkthrough describes how to register an application with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)] so that it can connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement server, authenticate using OAuth, and access the web services. Once registered, an application can access the web services using HTTP requests with the Web API or the web client proxy classes of the Organization Service. 
+
+This walkthrough applies to both [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] when using OAuth authentication in your application.  
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 ## Prerequisites  
- For an on-premises or Internet-facing deployment (IFD):  
+- **For an on-premises or Internet-facing deployment (IFD)**:  
   
--   The server must be configured to use claims authentication and have OAuth authentication enabled.  
+    -   The server must be configured to use claims authentication and have OAuth authentication enabled.  
   
--   A [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
+    -   An [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
   
- For a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] deployment:  
+- **For a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] deployment**:  
   
--   The user must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system user account with administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] subscription.  
+    -   The user must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system user account with administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] subscription.  
   
--   A [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
+    -   An [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
   
  For either deployment type, you must know the redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URI](walkthrough-register-app-active-directory.md#bkmk_redirect).  
     
@@ -113,7 +115,7 @@ This completes the registration of your application with Azure Active Directory.
 > [!NOTE]
 > For detailed information about registering an app with [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)], see [Application registration](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications).  
   
-#### Register an application with AD FS  
+### Register an application with AD FS  
   
 -   If you’re federating users between an [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] server and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], and you want to use the app with either server, you must register the application with both [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../includes/pn-active-dir-fed-svcs-ad-fs.md)] on the [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] server. Follow the steps provided in this topic. Your [!INCLUDE[pn_ifd_short](../includes/pn-ifd-short.md)] server must be running [!INCLUDE[pn_windows_server_2012_r2](../includes/pn-windows-server-2012-r2.md)].  
   
