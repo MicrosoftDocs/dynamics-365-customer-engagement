@@ -37,7 +37,7 @@ This walkthrough applies to both [!INCLUDE[pn_crm_2016_and_online_full](../inclu
   
     -   An [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
   
- For either deployment type, you must know the redirect URI of your application, which you specify while registering your application with Azure Active Directory. This is covered later in this topic.  
+ For either deployment type, you must know the redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URI](walkthrough-register-app-active-directory.md#bkmk_redirect).  
     
 <a name="bkmk_online"></a>   
 ## App registration for OAuth authentication  
