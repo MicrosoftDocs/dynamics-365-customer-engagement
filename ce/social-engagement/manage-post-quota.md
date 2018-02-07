@@ -101,7 +101,7 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your Dynamics 365 plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
 For more information, see [Pricing and licensing for Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
-![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions.")
+![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
 
 1. Go to https://portal.office.com and sign in as a global administrator or billing administrator.
 

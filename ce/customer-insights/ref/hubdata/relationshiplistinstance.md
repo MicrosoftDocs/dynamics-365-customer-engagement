@@ -23,24 +23,13 @@ List instances of a custom [Relationship](../types/relationship.md) type within 
 There are several different formulations of this request.
 
 
-### Get a Relationship Instance by ID
-
-Gets the specified relationship instance for the specified hub.
-
-|**HTTP Verb**|**Request URI**|
-|-------------|---------------|
-|GET|`<hub-endpoint>/data/relationships('relationshipId')?api-version=2017-04-26`|
-| | |
-
-<br>
-
 ### List All Relationship Instances
 
 Lists all the relationship instances for the specified hub.
 
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
-|GET|`<hub-endpoint>/data/relationships?api-version=2017-04-26`|
+|GET|`<hub-endpoint>/data/Relationships?api-version=2017-04-26`|
 | | |
 
 <br>
@@ -51,7 +40,7 @@ Lists all the relationship instances of the specified custom type for the specif
 
 |**HTTP Verb**|**Request URI**|
 |-------------|---------------|
-|GET|`<hub-endpoint>/data/relationships?$filter=RelationshipType eq '<typeName>'&api-version=2017-04-26`|
+|GET|`<hub-endpoint>/data/Relationships?$filter=RelationshipType eq '<typeName>'&api-version=2017-04-26`|
 | | |
 
 <br>

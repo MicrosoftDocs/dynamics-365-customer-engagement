@@ -1,3 +1,17 @@
+---
+title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
+ms.date: 01/29/2018
+ms.service: "crm-online"
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
+author: "jimholtz"
+ms.author: "jimholtz"
+manager: "brycho"
+---
+
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
 =========================================================
 
@@ -24,7 +38,7 @@ Services and apps availability
 | Connected Field Service                                                                     | X  |                |                 |
 | (Internet of Things)                                                                        |    |                |                 |
 | Machine Learning                                                                            | X  |                |                 |
-| Office 365 Group                                                                            | X  |                |                 |
+| Office 365 Groups                                                                           | X  |                |                 |
 | Gamification                                                                                | X  |                |                 |
 | Organizational Insights                                                                     | X  |                |                 |
 | CaféX Live Assist                                                                           | X  |                |                 |
@@ -49,10 +63,32 @@ Starting with Dynamics 365 (online), version 9.0, connections to Customer
 Engagement applications are required to use TLS 1.2 (or later) security
 protocols. This aligns with updated Microsoft and industry security policies and
 best practices. To prevent any disruption to your organization, you might be
-required to take actions to maintain the connectivity to Dynamics 365 Customer
-Engagement applications.
+required to take the following actions to maintain the connectivity to Dynamics
+365 Customer Engagement applications:
 
-Please refer to the following information to help you identify if you are
+1.  Use [supported
+    browsers](https://technet.microsoft.com/library/hh699710.aspx#Anchor_2) to
+    access the Dynamics 365 web application. For help identifying if a browser
+    supports the TLS 1.2 requirement, go to this [validation test
+    page](https://tls1-2validationtest.crm10.dynamics.com/TLSvalidation.html).
+
+2.  Recompile your custom Windows clients that were built using the .NET
+    Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
+
+3.  Download and update your Dynamics 365 for Outlook to [version
+    8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
+
+4.  Download the [latest version of developer
+    tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
+    from NuGet.
+
+5.  Download and update your Unified Service Desk to [version
+    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
+    want to continue to use older versions of Unified Service Desk, you must
+    [update the client desktop’s registry
+    entries](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/).
+
+Please refer to the following information to help identify whether you are
 impacted and what steps you might need to take:
 
 1.  [Blog announcement on connection security
@@ -64,7 +100,7 @@ impacted and what steps you might need to take:
 3.  Product documentation:
 
     1.  [Supported
-        Extensions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/supported-extensions)
+        extensions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/supported-extensions)
 
     2.  [Web application
         requirements](https://docs.microsoft.com/dynamics365/customer-engagement/admin/web-application-requirements)
@@ -126,6 +162,7 @@ Sales and Customer Service web client apps
     occurs while trying to assign a security role to a newly created user.
 
 Sales Hub and Customer Service Hub apps
+---------------------------------------
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
@@ -211,18 +248,18 @@ in the browser or on mobile devices for each scenario. 
 
 -   Other
 
--   User and team queues aren't available in the Add to Queue lookup.
+    -   User and team queues aren't available in the Add to Queue lookup.
 
--   Fallback forms are shown for the main forms for Category, Feedback, and
+    -   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
     the forms manually. This issue will be fixed in the upcoming release, but
     orgs upgrading from Potassium Preview will need to manually activate the
     forms.
 
--   Invalid commands are visible for custom activities from the site map.
+    -   Invalid commands are visible for custom activities from the site map.
 
--   Activities are opened in the Main form layout instead of a Quick Create form
+    -   Activities are opened in the Main form layout instead of a Quick Create form
     when creating a record from a bound dashboard.
 
 App modules and the App Designer
@@ -465,6 +502,18 @@ Dynamics 365 App for Outlook
     Dynamics 365**, one of sections in the email entity might display an error
     "You are not a member of this organization."
 
+-   Opening and closing the app a few times repeatedly on Internet Explorer and
+    Edge in Outlook Web Access causes the browser to be unresponsive.
+
+Dynamics 365 for Outlook
+------------------------
+
+Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update. This
+update includes support for Transport Layer Security (TLS) 1.2, which is
+required for connecting Dynamics 365 for Outlook with Dynamics 365 (online),
+version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
+Outlook](https://www.microsoft.com/en-us/download/details.aspx?id=56327).
+
 Inactivity timeout
 ------------------
 
@@ -475,8 +524,6 @@ Inactivity timeout
     -   Dynamics 365 for tablets
 
     -   Dynamics 365 for phones
-
-    -   Unified Service Desk using the WPF browser
 
     -   Unified Interface
 
@@ -647,6 +694,52 @@ Mobile Offline
 
 -   On activities show as option to switch between view modes is not available
     in offline intermittently
+
+Unified Service Desk
+--------------------
+
+-   Download and update your Unified Service Desk to [version
+    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
+    want to continue to use older versions of Unified Service Desk, you will
+    need to update the client desktop’s registry entries. Read the
+    [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/)
+    about Unified Service Desk and TLS 1.2 Mandate to update these registry
+    entries.
+
+-   Apps built using Unified Interface are not supported with Unified Service
+    Desk. More information: [Unified Interface framework for new
+    apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps)
+
+-   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
+    release, Interactive Service Hub has been rebuilt as a Unified Interface
+    app, and is called Customer Service Hub. This implies
+    that [support](/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
+    the Interactive Service Hub in Unified Service Desk is available only if you
+    are running Dynamics 365, version 8.2 or an earlier supported version of
+    Microsoft Dynamics CRM.
+
+-   **Relationship Insights**: Although you can view information from the
+    relationship assistant in the Unified Service Desk client, you cannot
+    interact with the information in the client. More information: [Relationship
+    Insights](/dynamics365/customer-engagement/admin/relationship-insights)
+
+-   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
+    not supported.
+
+-   **Multi-select option sets**: Although multi-select option sets display fine
+    when hosted in Unified Service Desk (using [CRM
+    Page](/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
+    of hosted control), you cannot change selections in multi-select option sets
+    using the Unified Service Desk APIs.
+
+-   **URL addressability in business apps**: Business apps (app modules) use the
+    appid value in the URLs to refer to resources displayed in an app. For
+    example:
+    “https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.”
+    Unified Service Desk does not support the usage of appid values in URLs to
+    refer to a resource. More information: [Design custom business apps by using
+    the app
+    designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------

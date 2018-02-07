@@ -1,7 +1,7 @@
 ---
 title: "Display custom icons instead of values in list views (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 01/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -98,7 +98,7 @@ function displayIconTooltip(rowData, userLCID) {
     var coldata = str.opportunityratingcode_Value;  
     var imgName = "";  
     var tooltip = "";  
-    switch (coldata) {  
+    switch (parseInt(coldata,10)) { 
         case 1:  
             imgName = "new_Hot";  
             switch (userLCID) {  

@@ -2,7 +2,7 @@
 title: "Route posts using automation rules in Social Engagement | Microsoft Docs"
 description: "Learn how to set up automation rules in Social Engagement to automatically handle subsets of incoming posts."
 keywords: "automation rule, automated task"
-ms.date: 01/23/2018
+ms.date: 01/24/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -32,7 +32,7 @@ Do you ever feel overwhelmed by how much noise you need to cut through on social
 ## Elements of an automation rule  
 For each automation rule, there are several navigation elements and values to define. The following screenshot  shows more about what an automation rule consists of.  
   
-![Elements of an automation rule in Social Engagement.](media/automation-rules-callout.png "Elements of an automation rule in Social Engagement.")  
+![Elements of an automation rule in Social Engagement](media/automation-rules-callout.png "Elements of an automation rule in Social Engagement")  
   
 1.  Button to create new automation rules.  
   
@@ -94,30 +94,30 @@ Either the connection to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
 **Address the issue**  
   
-1.  Review the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection that was used in the failing automation rule. Make sure the provided connection details are still active. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)  
+1. Review the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] connection that was used in the failing automation rule. Make sure the provided connection details are still active. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Connect Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)  
   
-2.  Open the automation rule and review its estimated number of matching posts. Keep in mind that these estimations might change quickly if trends on social channels change, unexpected events occur, or search topics or filters are updated. Keep the number of linked posts reasonable. Creating hundreds of leads or cases per day is a rather uncommon scenario.  
+2. Open the automation rule and review its estimated number of matching posts. Keep in mind that these estimations might change quickly if trends on social channels change, unexpected events occur, or search topics or filters are updated. Keep the number of linked posts reasonable. Creating hundreds of leads or cases per day is a rather uncommon scenario.  
   
- **Recover missed posts**  
+**Recover missed posts**  
   
- You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the Analytics area in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+You can manually link missed posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] from the Analytics area in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
-1.  Open the automation rule with the failed Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
+1. Open the automation rule with the failed Link to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] actions and click **View in Analytics** ![View in Analytics button in Social Engagement](media/view-in-analytics-icon.png "View in Analytics button in Social Engagement") to see the posts  that match your defined filters.  
   
-2.  Set a custom timeframe for the period you want to review for missed posts.  
+2. Set a custom timeframe for the period you want to review for missed posts.  
   
-3.  Click the filter icon and add a **Link to Dynamics 365** filter. Set its value to **Not linked to a Dynamics 365 record**.  
+3. Click the filter icon and add a **Link to Dynamics 365** filter. Set its value to **Not linked to a Dynamics 365 record**.  
   
-All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instanceand you can manually link them.  
+   All posts that remain in your data set were missed by the automation rule and weren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instanceand you can manually link them.  
   
-4.  Open the post list and click **Link to Dynamics 365** ![Link to Dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
+4. Open the post list and click **Link to Dynamics 365** ![Link to Dynamics 365 action](media/automation-rule-action-link-to-crm-social-engagement.png "Link to Dynamics 365 action") to create records for the missed posts in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a Dynamics 365 record from a social post](create-dynamics-365-record-from-social-post.md)  
   
 ### Stream to Event Hubs action fails  
- **Possible causes**  
+**Possible causes**  
   
 Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_azure_event_hubs](../includes/pn-azure-event-hubs.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. An event hub might have been renamed, or its keys have changed and thus the connection string for that event hub is no longer valid.  
   
- **Address the issue**  
+**Address the issue**  
   
 1.  Find the name of the event hub connection to review in the failure notification.  
   
@@ -125,7 +125,7 @@ Commonly, the failure is caused by a broken connection between the [!INCLUDE[pn_
   
 3.  In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], go to **Settings** > **Global Settings** > **Connections** > **Azure Event Hubs**.  Check the connection string and the name of the event hub and make sure they match exactly. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Work with events from Social Engagement in Azure Event Hubs](work-with-event-hubs.md)  
   
- **Identify missed psots**  
+**Identify missed psots**  
   
 Event hubs are built to handle high volumes of events in real time. Although you can’t manually send posts to an event hub from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can quickly find how many posts were missed.  
   

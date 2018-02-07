@@ -32,7 +32,7 @@ If you configured a search rule for posts from social profiles owned by your org
 
 3. Select the search rule that contains the social profiles or create a new rule.
 
-   ![Screenshot of the Summary page in the Search Setup area.](media/owned-social-profile-social-selling-assistant.png "Screenshot of the Summary page in the Search Setup area.")
+   ![Screenshot of the Summary page in the Search Setup area](media/owned-social-profile-social-selling-assistant.png "Screenshot of the Summary page in the Search Setup area")
 
 4. In the social profiles list, set **Owned** to **Yes** if your organization owns the profile.
 
@@ -58,7 +58,7 @@ Enable your organization to amplify specific messages on social media. Build on 
 
 All posts that have the one or more of these tags will be promoted automatically to Social Selling Assistant. To promote a specific post to Social Selling Assistant, apply any of the tags that you marked here to that post. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Promote a post to the Social Selling Assistant](work-with-social-selling-assistant.md#promote-a-post-to-the-social-selling-assistant)
 
-![Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.](media/promote-tags-setting-social-selling-assistant.png "Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on.")
+![Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on](media/promote-tags-setting-social-selling-assistant.png "Screenshot of the Custom Tags page in the Global Settings area. Promoted to Social Selling Assistant is turned on")
 
 ### See Also
 

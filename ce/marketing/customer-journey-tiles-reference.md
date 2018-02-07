@@ -128,17 +128,15 @@ Workflow tiles provide the following settings in the **Properties** pane while s
 
 Target tiles establish the segment of contacts that will be targeted by your customer journey.
 
+<a name="segment"></a>
+
 ### Segment
 
-A segment is a collection of contacts grouped according to some common attribute or explicit assignment. A segment could be static (where members are added or removed manually) or dynamic (where members are established logically by defining a search query).
-
-One common example of a static segment is a newsletter subscription list, where contacts can add or remove themselves using a subscription center. Another, internal-only, static segment might be set up by a marketing manager to collect all the contacts whose business cards she collected at a recent conference.
-
-A dynamic segment is established logically, often along demographic lines. For example, a dynamic segment might be programmed to include all contacts where "state = 'New York'". [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides a sophisticated query builder that enables you to establish segments according to a wide variety of complex, detailed criteria.
+A segment is a collection of contacts grouped according to some common attribute or explicit assignment. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)
 
 Usually, each of your customer journeys starts with a segment tile, which establishes the collection of contacts who you'll be working with for that journey. When your customer journey starts running, it immediately processes all the contacts found in its target segments at that time. As time goes on, any new contacts that join the target segments will also start their journey here for as long as the customer journey is active.
 
-Each segment tile is always either the parent or child of another segment tile, so at minimum you'll have a parent segment with a single child segment. The parent tile displays a name for the stack and shows information about the total number of contacts it includes, and it establishes the logic for combining its various child tiles (intersection or union). Each child tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+Each segment tile is always either the parent or child of another segment tile, so at minimum you'll have a parent segment with a single child segment. The parent tile identifies it self as a _segment group_; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various child tiles (intersection or union). Each child tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
 
 ![A segment tile with two child segments](media/cj-segment-stack.png "A segment tile with two child segments")
 

@@ -42,12 +42,12 @@ For example, here is a sample ribbon definition where we pass in the **PrimaryCo
 </CommandDefinition>
 ```
 
-Next, in the **new_mySampleScript.js** web resource file referenced in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the form or grid context depending on where the ribbon command is executed:
+Next, in the **new_mySampleScript.js** web resource file referenced in the example above, define your JavaScript function with the **primaryControl** variable as an argument. This argument provides the *form* or *grid* context depending on where the ribbon command is executed:
 
 ```JavaScript
 function mySampleFunction(primaryControl) {
-    var executionContext = primaryControl;
-    // Perform operations using the executionContext object
+    var formContext = primaryControl;
+    // Perform operations using the formContext object
 }
 ```
 
@@ -64,12 +64,12 @@ For example, the following sample code shows how to retrieve the account name fi
 
 ```JavaScript
 function mySampleFunction(primaryControl) {
-    var executionContext = primaryControl;    
-    var accountName = executionContext.getControl("name").getAttribute().getValue();    
+    var formContext = primaryControl;    
+    var accountName = formContext.getControl("name").getAttribute().getValue();    
 
     // Set the WebSiteURL field if account name contains "Contoso"
     if (accountName.toLowerCase().search("contoso") != -1) {
-        executionContext.getAttribute("websiteurl").setValue("http://www.contoso.com");
+        formContext.getAttribute("websiteurl").setValue("http://www.contoso.com");
     }
     else {
         Xrm.Navigation.openAlertDialog({ text: "Account name does not contain 'Contoso'." });
@@ -77,35 +77,6 @@ function mySampleFunction(primaryControl) {
 }
 ```
 
-
-
-<!--
-However, if you want to pass the value of a selected form field, you’ll have to do more scripting to get the value. You can use the **PrimaryControlId** parameter to get the Id value for the control that has focus when the ribbon control received focus. This Id is the Document Object Model (DOM) Id value. 
-
-Here is a sample ribbon definition where we pass in the **PrimaryControlId** parameter:
-
-```xml
-<CommandDefinition Id="SampleCommand">
-  <EnableRules/>
-  <DisplayRules/>
-  <Actions>
-    <JavaScriptFunction Library="$webresource:new_mySampleScript.js" FunctionName="mySampleFunction">
-      <CrmParameter Value="PrimaryControl" />
-      <CrmParameter Value="PrimaryControlId" />
-    </JavaScriptFunction>
-  </Actions>
-</CommandDefinition>
-```
-
-To get the data value, you will have to try using that value by using code such as that in the following example:  
-  
-```javascript  
-function mySampleFunction(primaryControl, primaryControlId) {
-    var executionContext = primaryControl;
-    var focusFieldValue = executionContext.ui.controls.get(primaryControlId).getAttribute().getValue();
-}  
-```
--->
   
 ## Grid values  
  The majority of the values available for the `<CrmParameter>` element are related to working with data displayed in a grid or hierarchy chart. By using the `Value` attribute enumeration options, you can easily isolate items by:  

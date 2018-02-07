@@ -14,8 +14,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: d29a9353-73cf-4b49-b74f-d9050dc96bd7
 caps.latest.revision: 7
-author: "Milar1"
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
 manager: "amyla"
 ---
 

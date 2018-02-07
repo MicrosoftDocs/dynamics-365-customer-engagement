@@ -14,7 +14,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 66ed4cef-33f3-4a15-b865-f8b9e8934b68
 caps.latest.revision: 7
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
 ---
 # IoT - Parent IoT Alerts workflow
 

@@ -12,7 +12,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: a80ea2c1-c8f6-4edf-8841-18707e83059b
 caps.latest.revision: 15
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
 ---
 # Data Export Service
 
