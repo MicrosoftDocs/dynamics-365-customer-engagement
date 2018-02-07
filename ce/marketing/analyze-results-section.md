@@ -4,7 +4,6 @@ description: "How to generate, collect information about, and qualify leads in D
 keywords: "analytics; marketing results; ROMI; Power BI"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)
