@@ -81,6 +81,7 @@ When the configuration is complete, you can start using the Voice of the Custome
 > -   Maximum number of surveys you can publish: **200**
 > -   Maximum number of questions on a survey: **250**. If you've enabled feedback for a survey, the maximum is 40 questions.
 > -   Maximum number of pages per survey: **25**
+> -   Maximum number of sections per page: **10**
 > -   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
 
 
