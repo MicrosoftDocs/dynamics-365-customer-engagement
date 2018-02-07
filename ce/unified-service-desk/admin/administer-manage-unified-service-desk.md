@@ -2,7 +2,7 @@
 title: "Administer and manage Unified Service Desk for Dynamics 365 Customer Enagagement | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
 ms.custom: ""
-ms.date: 08/23/2017
+ms.date: 01/25/2017
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -15,10 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: c9f6c25c-4e52-4958-a166-9c0943767768
-caps.latest.revision: 7
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 tags: 
  - "NoHandoff"
  - "LinksOnlyTopic"
@@ -33,7 +32,11 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
   
  [Distribute custom host controls using Customization Files](../../unified-service-desk/admin/distribute-custom-hosted-controls-using-customization-files.md)  
   
- [Migrate your Unified Service Desk configuration to another Dynamics 365 server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)  
+ [Migrate your Unified Service Desk configuration to another Dynamics 365 server](../../unified-service-desk/admin/migrate-unified-service-desk-configuration-dynamics-365-server.md)
+
+ [Performance enhancement for CRM entity page loads](../../unified-service-desk/admin/performance-enhancement-CRM-entity-page-loads.md)
+
+ [Recover Internet Explorer process instance](../admin/recover-internet-explorer-process-instance.md)
     
  
 ## See also  
@@ -41,4 +44,4 @@ This section provides information about [!INCLUDE[pn_unified_service_desk](../..
  
 [Configure your agent application using Unified Service Desk](../../unified-service-desk/configure-agent-application-unified-service-desk.md)  
   
- [Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
+[Extend Unified Service Desk](../../unified-service-desk/extend-unified-service-desk.md)
