@@ -2,7 +2,7 @@
 title: "Publish request schema | MicrosoftDocs"
 description: "The following is the schema definition for the PublishXmlRequest message."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/22/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The following is the schema definition for the <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> message. For more information, see [Publish Customizations](publish-customizations.md). You can find this schema in the SDK\Schemas\ParameterXml.xsd file in the SDK package. [!INCLUDE[sdk_download](../../includes/sdk-download.md)]  
+The following is the schema definition for the <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> message. For more information, see [Publish Customizations](publish-customizations.md). [!INCLUDE[schema_download](../../includes/schema-download.md)].  
   
 ## Schema  
   

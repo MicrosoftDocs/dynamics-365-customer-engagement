@@ -54,7 +54,7 @@ To upload your package to Azure Blob storage:
 
 7. Start Azure Storage Explorer on your computer, and connect to your Azure Storage account by signing in using the same account with which you created your Azure Storage account.
 
-8. In Azure Storage Explorer, select the newly created container, and then select **Upload** > **Upload Files** to upload the app source package that you created in [Step 3: Create an AppSource package for your app](create-package-app-appsource.md). 
+8. In Azure Storage Explorer, select the newly created container, and then select **Upload** > **Upload Files** to upload the app source package that you created in [Step 4: Create an AppSource package for your app](create-package-app-appsource.md). 
 
    ![](media/appsource-storageaccount-pic5.png)
 

@@ -144,6 +144,7 @@
 # [Work with templates](work-with-templates.md)
 ## [Articles](create-templates-articles.md)
 ## [Email](create-templates-email.md)
+## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
 ## [Entitlements](../customer-service/set-up-entitlements-quickly-templates.md)
 ## [Excel](analyze-your-data-with-excel-templates.md)
@@ -209,7 +210,7 @@
 ### [Deploy packages using Dynamics CRM Package Deployer and Windows PowerShell](deploy-packages-using-package-deployer-windows-powershell.md)
 ### [Use Power BI with Dynamics 365](use-power-bi.md)
 ### [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)
-### [Install or remove a preferred solution](install-remove-preferred-solution.md)
+### [Install, update, or remove a preferred solution](install-remove-preferred-solution.md)
 
 ### [Add Office 365 Online services](add-office-365-online-services.md)
 #### [Connect Dynamics 365 (online) to Exchange Online](connect-exchange-online.md)

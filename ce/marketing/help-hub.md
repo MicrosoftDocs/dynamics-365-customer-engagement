@@ -22,7 +22,10 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Administer the system</h2>
+<li>[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)</li>
 <li>[First time setup](purchase-setup.md)</li>
+<li>[Troubleshoot first time setup](setup-troubleshooting.md)</li>
+<li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Open the Settings work area](open-advanced-settings.md)</li>
 <li>[Organization settings](organization-settings.md)</li>
 <li>[Business Management settings](business-management-settings.md)</li>

@@ -11,6 +11,7 @@ applies_to:
 ms.assetid: 4b69ec65-17f9-4a51-a1f2-abdeca4533aa
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -27,6 +28,8 @@ The **Marketing** section contains pages that let you configure the core marketi
 To find these settings, open **Settings** > **Advanced Settings** and choose one of the pages under the **Marketing** heading in the leftmost column. You can also access these same settings by finding the **Marketing** section in the rightmost column and choosing the icons there.
 
 See the remaining sections of this topic for information about how to work with each page in the **Marketing** section.
+
+<a name="config-mkt-pages"></a>
 
 ## Configure marketing pages
 
@@ -123,6 +126,8 @@ Describe your strategy by entering a **Name** and **Description**. Set the **Tar
 The input field under the **Target** setting specifies which contact or lead fields to consider when looking for a match. The matching record must have identical values for *all* the fields shown here, so the more fields you use, the narrower your search will be. Often the email address alone is enough to use as a unique identifier, but you might use additional fields (such as first and last name) if you think some of your contacts might share an email address, or if you want tighter control (at the risk of creating extra contact or lead records that refer to the same person). Enter a comma-separated list of fields to consider, and include square brackets around the list and quotes around each field name, such as:
 
 > `["emailaddress1", "msdyncrm_marketingpageid"]`
+
+<a name="default-marketing-settings"></a>
 
 ## Default marketing settings
 

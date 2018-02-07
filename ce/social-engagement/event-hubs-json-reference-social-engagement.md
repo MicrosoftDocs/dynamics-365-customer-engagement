@@ -2,7 +2,7 @@
 title: "JSON objects reference from Social Engagement | Microsoft Docs"
 description: "Review the full list of properties and object in the Social Engagement payload for Event Hubs."
 keywords: "JSON, payload, metadata, event hubs, reference"
-ms.date: 12/08/2017
+ms.date: 12/20/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -134,7 +134,7 @@ This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter
     "modificationDate": "2016-01-23T12:34:56.789+0000",  
     "profile": {  
       "name": "Display Name @chosenUserName",  
-      "id": "41890771",
+      "id": "mse-tw://#12345678",
       "uri": "mse-tw://#12345678",  
       "profileIcon": "https://path/to/the/profileIcon.png",  
       "externalHandle": "chosenUserName",  
@@ -212,7 +212,7 @@ This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter
     "modificationDate": "2016-01-23T12:34:56-07:00",  
     "profile": {  
       "name": "Display Name @chosenUserName",  
-      "id": "3464522345",
+      "id": "mse-tw://#12345678",
       "uri": "mse-tw://#12345678",  
       "profileIcon": "https://path/to/the/profileIcon.png",  
       "externalHandle": "chosenUserName",  
@@ -292,7 +292,7 @@ This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebo
     "modificationDate": "2016-01-23T12:34:56-07:00",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "43214321",
+      "id": "mse-fb://#109826384650057",
       "uri": "mse-fb://#109826384650057",  
       "profileIcon": "http://graph.facebook.com/123456789/picture?type=square",  
       "externalId": "123456789"  
@@ -353,7 +353,7 @@ This is a sample post payload for a video post acquired through [!INCLUDE[pn_net
     "modificationDate": "2016-01-23T12:34:56-07:00",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "1234567", 
+      "id": "mse-vd://#UUFSerfsZZt-sdER", 
       "uri": "mse-vd://#UUFSerfsZZt-sdER", 
       "externalId": "98765abc4321"  
     },  
@@ -412,7 +412,7 @@ This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netb
     "publicationDate": "2016-01-23T12:34:56.789+0000",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "1234567", 
+      "id": "mse-bl://contoso-blog.tumblr.com#1234567", 
       "uri": "mse-bl://contoso-blog.tumblr.com#1234567", 
       "externalId": "987654321"  
     },  
@@ -464,7 +464,7 @@ This is a sample post payload for a forum post acquired through [!INCLUDE[pn_net
     "modificationDate": "2016-01-23T12:34:56.789+0000",  
     "profile": {  
       "name": "Name of the profile",  
-      "id": "1234567", 
+      "id": "mse-bd://forumdomain.tld#someuser", 
       "uri": "mse-bd://forumdomain.tld#someuser", 
       "displayName": "Name of the profile",  
       "externalHandle": "Name of the profile",  
@@ -724,7 +724,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
   
 |JSON element|Description|  
 |------------------|-----------------|  
-|[post.profile.id](#document.profile.id)|Unique ID of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
+|[post.profile.id](#document.profile.id)|Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
 |[post.profile.uri](#document.profile.uri)|Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.|  
 |[post.profile.profileIcon](#document.profile.profileIcon)|URI to public profile picture.|  
 |[post.profile.profileLocation](#document.profile.profileLocation)|JSON object describing the author's location information as specified by the author.|  
@@ -740,7 +740,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 ```  
 "profile": {  
   "name": "Display Name @externalHandle",  
-  "id": "41890771",  
+  "id": "mse-tw://#12345678",  
   "uri": "mse-tw://#12345678",
   "profileIcon": "https://path/to/the/profileIcon.png" ,  
   "profileLocation": {  
@@ -763,7 +763,7 @@ Back to [top](#overview)
   
 <a name="document.profile.id"></a>   
 #### post.profile.id  
-Unique ID of the author profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
+Unique URI of the profile in the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution database.  
   
  Property Value Type: string  
   

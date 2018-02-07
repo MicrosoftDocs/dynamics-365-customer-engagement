@@ -1,15 +1,19 @@
 ---
-title: "Dynamics 365 Customer Engagement General Availability Readme (Known Issues) | MicrosoftDocs"
-ms.date: 12/15/2017
+title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
+ms.date: 01/29/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
+author: "jimholtz"
+ms.author: "jimholtz"
+manager: "brycho"
 ---
-Dynamics 365 Customer Engagement<br>General Availability Readme (Known Issues)
-==============================================================================
+
+Dynamics 365 Customer Engagement<br>Readme / Known Issues
+=========================================================
 
 This document provides important, late-breaking information about this product
 version:
@@ -29,11 +33,12 @@ Services and apps availability
 | Portal capabilities for Dynamics 365                                                        | X  |                |                 |
 | Relevance Search Enhancements                                                               | X  |                |                 |
 | Learning Path                                                                               | X  |                |                 |
-| Resource Scheduling Optimizer                                                               | X  |                |                 |
+| Resource Scheduling Optimization                                                            | X  |                |                 |
 | Glympse                                                                                     | X  |                |                 |
-| Connected Field Service (Internet of Things)                                                | X  |                |                 |
+| Connected Field Service                                                                     | X  |                |                 |
+| (Internet of Things)                                                                        |    |                |                 |
 | Machine Learning                                                                            | X  |                |                 |
-| Office 365 Group                                                                            | X  |                |                 |
+| Office 365 Groups                                                                           | X  |                |                 |
 | Gamification                                                                                | X  |                |                 |
 | Organizational Insights                                                                     | X  |                |                 |
 | CaféX Live Assist                                                                           | X  |                |                 |
@@ -48,9 +53,61 @@ Services and apps availability
 | Customer Insights                                                                           |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                                                              |    | X              |                 |
 | Cortana                                                                                     |    | X              |                 |
-| Mobile offline (Dynamics 365 for tablets and phones)                                        |    |                | X               |
+| Mobile offline (Dynamics 365 for tablets and phones)                                        | X  |                |                 |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
 
+Transport Layer Security (TLS) Requirements
+-------------------------------------------
+
+Starting with Dynamics 365 (online), version 9.0, connections to Customer
+Engagement applications are required to use TLS 1.2 (or later) security
+protocols. This aligns with updated Microsoft and industry security policies and
+best practices. To prevent any disruption to your organization, you might be
+required to take the following actions to maintain the connectivity to Dynamics
+365 Customer Engagement applications:
+
+1.  Use [supported
+    browsers](https://technet.microsoft.com/library/hh699710.aspx#Anchor_2) to
+    access the Dynamics 365 web application. For help identifying if a browser
+    supports the TLS 1.2 requirement, go to this [validation test
+    page](https://tls1-2validationtest.crm10.dynamics.com/TLSvalidation.html).
+
+2.  Recompile your custom Windows clients that were built using the .NET
+    Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
+
+3.  Download and update your Dynamics 365 for Outlook to [version
+    8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
+
+4.  Download the [latest version of developer
+    tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
+    from NuGet.
+
+5.  Download and update your Unified Service Desk to [version
+    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
+    want to continue to use older versions of Unified Service Desk, you must
+    [update the client desktop’s registry
+    entries](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/).
+
+Please refer to the following information to help identify whether you are
+impacted and what steps you might need to take:
+
+1.  [Blog announcement on connection security
+    requirement](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+
+2.  [Technical support documentation with additional
+    information](https://support.microsoft.com/help/4051700)
+
+3.  Product documentation:
+
+    1.  [Supported
+        extensions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/supported-extensions)
+
+    2.  [Web application
+        requirements](https://docs.microsoft.com/dynamics365/customer-engagement/admin/web-application-requirements)
+
+**If your organization is impacted by this requirement, you must take the
+necessary steps to upgrade to TLS 1.2 prior to scheduling your instance
+update.**
 
 Sales and Customer Service web client apps
 ------------------------------------------
@@ -101,10 +158,11 @@ Sales and Customer Service web client apps
 -   The **Save & Close** command for a Price List Item displays an error and
     doesn't close the window properly.
 
--   An unexpected error is thrown while trying to assign a security role to a
-    newly created user in non-English orgs.
+-   In organizations using languages other than English, an unexpected error
+    occurs while trying to assign a security role to a newly created user.
 
 Sales Hub and Customer Service Hub apps
+---------------------------------------
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
@@ -128,7 +186,7 @@ in the browser or on mobile devices for each scenario. 
 
 -   Web resources aren't rendered on the dashboards.
 
--   Web resources and iframe tags aren't displayed with the height and width
+-   Web resources and IFrame tags aren't displayed with the height and width
     they're allocated in the mobile app configuration.
 
 -   The Quote command bar is missing icons.
@@ -167,6 +225,13 @@ in the browser or on mobile devices for each scenario. 
     -   Phone to case process: The Find Case option on the Identify stage isn't
         available for update for an existing case.
 
+    -   The SLA lookup, when added via case entity form customization renders as
+        read-only and the user will not be able to use the look-up to associate
+        an on-demand SLA with the case record. This impacts only those set of
+        customers who are on 9.0 version already and receiving an interim 9.0
+        update. This issue does not impact new users signing for Dynamics 365
+        trial.
+
     -   The Similar Cases sub-grid isn't available on the Case form.
 
     -   On mobile devices, email is read-only on the Customer Service Hub.
@@ -183,18 +248,18 @@ in the browser or on mobile devices for each scenario. 
 
 -   Other
 
--   User and team queues aren't available in the Add to Queue lookup.
+    -   User and team queues aren't available in the Add to Queue lookup.
 
--   Fallback forms are shown for the main forms for Category, Feedback, and
+    -   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
     the forms manually. This issue will be fixed in the upcoming release, but
     orgs upgrading from Potassium Preview will need to manually activate the
     forms.
 
--   Invalid commands are visible for custom activities from the site map.
+    -   Invalid commands are visible for custom activities from the site map.
 
--   Activities are opened in the Main form layout instead of a Quick Create form
+    -   Activities are opened in the Main form layout instead of a Quick Create form
     when creating a record from a bound dashboard.
 
 App modules and the App Designer
@@ -301,7 +366,8 @@ Field controls and mobile application in Unified Interface
 -   The Phone Call activity quick-create form isn't opened when the call action
     is initiated on the mobile app.
 
--   Date fields can't be set in Internet Explorer 11, Firefox, or Edge.
+-   Date fields can't be set in Internet Explorer 11, Firefox, or Microsoft
+    Edge.
 
 -   The date-time control uses browser locale as opposed to user locale for
     editing.
@@ -316,7 +382,7 @@ Field controls and mobile application in Unified Interface
 -   The Lookup most recently used list doesn't take into account the lookup
     view.
 
--   Unable to enable web resources for offline through an imported solution.
+-   Can’t enable web resources for offline through an imported solution.
 
 -   For related grids, command flyouts don't open in See More mode.
 
@@ -376,10 +442,17 @@ Activities in Unified Interface
 -   The Regarding field is not populated when the user replies to an email from
     the Activity pane.
 
--   When multiple records are set for the **Call To** field and the direction is
-    changed to **Incoming**, an error occurs.
+-   An error occurs when multiple records are set for the **Call To** field and
+    the direction is changed to **Incoming**.
 
 -   Unable to open activities from a record set.
+
+-   Related campaign field is not present in convert to opportunity dialog.
+
+-   Converting a custom activity to opportunity results in an error.
+
+-   Social Activities views are not displayed in My Activities views. The
+    workaround is viewing Social activities in All Activities view.
 
 Dynamics 365 App for Outlook
 ----------------------------
@@ -392,23 +465,24 @@ Dynamics 365 App for Outlook
 -   Initial loading might take some time.
 
 -   When selecting **See more** to see more entities, Outlook 2013 and Outlook
-    2016 display an add-in error, Chrome and Internet Explorer 11 display a "long running
-    script" error message, and Edge displays a blank screen for a while and then
-    navigates to the previous page.
+    2016 display an add-in error, Chrome and Internet Explorer 11 display a
+    "long running script" error message, and Edge displays a blank screen for a
+    while and then navigates to the previous page.
 
 -   On Outlook 2013 and Outlook 2016, Outlook frequently displays "add-in
     error."
 
--   On Internet Explorer 11, Internet Explorer frequently displays a "long running script" error message.
+-   On Internet Explorer 11, Internet Explorer frequently displays a "long
+    running script" error message.
 
 -   When navigating to a record's main form, Outlook 2013 and Outlook 2016
-    display an add-in error; in Chrome and Internet Explorer 11 the app displays a "Script
-    Error" message.
+    display an add-in error; in Chrome and Internet Explorer 11 the app displays
+    a "Script Error" message.
 
 -   When entering text in the **Look for Records** field when you set regarding,
     in Outlook 2013 and Outlook 2016, some of the characters disappear. On
-    Chrome, Internet Explorer 11, and Edge the lookup sometimes stays in the "Loading…" state
-    forever.
+    Chrome, Internet Explorer 11, and Edge the lookup sometimes stays in the
+    "Loading…" state forever.
 
 -   The Back button doesn't work on Outlook 2016 and Outlook 2013. On browsers,
     selecting the back icon navigates to the previous webpage (this is the same
@@ -428,6 +502,18 @@ Dynamics 365 App for Outlook
     Dynamics 365**, one of sections in the email entity might display an error
     "You are not a member of this organization."
 
+-   Opening and closing the app a few times repeatedly on Internet Explorer and
+    Edge in Outlook Web Access causes the browser to be unresponsive.
+
+Dynamics 365 for Outlook
+------------------------
+
+Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update. This
+update includes support for Transport Layer Security (TLS) 1.2, which is
+required for connecting Dynamics 365 for Outlook with Dynamics 365 (online),
+version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
+Outlook](https://www.microsoft.com/en-us/download/details.aspx?id=56327).
+
 Inactivity timeout
 ------------------
 
@@ -438,8 +524,6 @@ Inactivity timeout
     -   Dynamics 365 for tablets
 
     -   Dynamics 365 for phones
-
-    -   Unified Service Desk using the WPF browser
 
     -   Unified Interface
 
@@ -514,43 +598,13 @@ Web client visual refresh
         changes and might leave an empty space. However, this empty space will
         disappear on refresh
 
-Project Service Automation 
----------------------------
+Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 version 9.0, or later 
+-------------------------------------------------------------------------------------------------------------------------------
 
--   Product bundles don't work correctly on project-based opportunities, quotes,
-    and orders.
-
--   The Contract Performance tab doesn't work correctly for project contracts in
-    the amounts for actual costs and actual effort.
-
--   The project estimated cost and actual cost fields only show labor cost
-    amounts and not expense cost amounts.
-
--   When there are multiple project price lists with overlapping date ranges,
-    the price defaulted to for roles and expense categories might be
-    indeterministic.
-
--   Taxes of Fixed Price Milestones don't generate separate tax actuals.
-    Transactions representing taxes collected/paid are typically recorded as
-    actuals along with the main transaction. However, taxes for milestones
-    aren't recorded as a separate actual entry. The tax amount gets combined
-    with the milestone amount, and the actual is recorded for the entire amount.
-
--   When a project is linked to a contract and the customer field on the project
-    gets updated in the process, the change isn't propagated to actuals.
-
--   Project Opportunity isn't shown on the Sales tab of the project in the
-    Opportunities section.
-
--   In languages other than English, the Invoice Line page doesn't show actions
-    under the New ribbon action.
-
--   The Confirm button and the + button to add new lines aren't disabled on the
-    journal details page for journals that are already confirmed.
-
--   Contract confirmation doesn't correctly process unbilled actuals that came
-    from journals. Unbilled sales actuals are cancelled and reversed by contract
-    confirmation.
+When you update to version 9.0, or later, you must also update the Project
+Service Automation and Field Service Solutions. After updating to version 9.0,
+or later, go to the Dynamics 365 Administration Center, Manage Solutions page to
+update the preferred solution.
 
 Cortana integration with Dynamics 365
 -------------------------------------
@@ -566,7 +620,12 @@ Cortana integration with Dynamics 365
 Mobile Offline
 --------------
 
--   Change of organization url leads to disabling of mobile offline feature
+-   Any BPF which will update the entity will throw conflict errors on upsync of
+    any offline changes, where the entity records have been created or updated.
+    Work around is to disable conflict detection from Mobile Offline settings
+    for the org.
+
+-   Change of organization URL leads to disabling of mobile offline feature
 
 -   When you delete an entity field and immediately create another entity field
     with the same name and a different data type, you might see an Offline Sync
@@ -601,7 +660,7 @@ Mobile Offline
 -   Calendar view is not supported in offline, and there could be some
     inconsistencies in the data in this view in offline.
 
--   Iframes are not supported in offline mode
+-   IFrames are not supported in offline mode
 
 -   Updates to a BU for a user role when the user is offline are not synced
     properly on reconnecting
@@ -629,12 +688,58 @@ Mobile Offline
 
 -   With BPF enabled, lead to opportunity qualify fails in offline mode
 
--   With BPF enabled, opportunity creation failes in offline mode
+-   With BPF enabled, opportunity creation fails in offline mode
 
 -   Next Stage does not respond in offline mode intermittently
 
 -   On activities show as option to switch between view modes is not available
     in offline intermittently
+
+Unified Service Desk
+--------------------
+
+-   Download and update your Unified Service Desk to [version
+    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
+    want to continue to use older versions of Unified Service Desk, you will
+    need to update the client desktop’s registry entries. Read the
+    [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/)
+    about Unified Service Desk and TLS 1.2 Mandate to update these registry
+    entries.
+
+-   Apps built using Unified Interface are not supported with Unified Service
+    Desk. More information: [Unified Interface framework for new
+    apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps)
+
+-   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
+    release, Interactive Service Hub has been rebuilt as a Unified Interface
+    app, and is called Customer Service Hub. This implies
+    that [support](/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
+    the Interactive Service Hub in Unified Service Desk is available only if you
+    are running Dynamics 365, version 8.2 or an earlier supported version of
+    Microsoft Dynamics CRM.
+
+-   **Relationship Insights**: Although you can view information from the
+    relationship assistant in the Unified Service Desk client, you cannot
+    interact with the information in the client. More information: [Relationship
+    Insights](/dynamics365/customer-engagement/admin/relationship-insights)
+
+-   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
+    not supported.
+
+-   **Multi-select option sets**: Although multi-select option sets display fine
+    when hosted in Unified Service Desk (using [CRM
+    Page](/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
+    of hosted control), you cannot change selections in multi-select option sets
+    using the Unified Service Desk APIs.
+
+-   **URL addressability in business apps**: Business apps (app modules) use the
+    appid value in the URLs to refer to resources displayed in an app. For
+    example:
+    “https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.”
+    Unified Service Desk does not support the usage of appid values in URLs to
+    refer to a resource. More information: [Design custom business apps by using
+    the app
+    designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------

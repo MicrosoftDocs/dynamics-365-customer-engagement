@@ -49,7 +49,7 @@ ms.author: "jimholtz"
 ## Dynamics 365 (online) service overview  
   
 ### Will multi-geo instances be available to customers in Canada?  
- Yes, multi-geo instances will be supported for Canada. Multi-geo instances are designed for companies with offices in multiple countries who want to keep core customer data within those countries. Availability of multi-geo instance support will be limited in the initial rollout to a fixed number of eligible customers. We'll continue to expand this capacity over time.  [Read more on how to create and edit multi-geo instances](../../admin/add-edit-multiregional-instances.md).  
+ Yes, multi-geo instances will be supported for Canada. Multi-geo instances are designed for companies with offices in multiple countries or regions who want to keep core customer data within those countries or regions. Availability of multi-geo instance support will be limited in the initial rollout to a fixed number of eligible customers. We'll continue to expand this capacity over time.  [Read more on how to create and edit multi-geo instances](../../admin/add-edit-multiregional-instances.md).  
   
 ### Will the standard Dynamics 365 Online service level agreements be offered?  
  Yes, the standard [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] service level agreements (SLAs) will apply to the Canada regions, just as they do in our other regions around the world.  

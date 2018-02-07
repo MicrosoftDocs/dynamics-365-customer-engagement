@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2017 Update 1.11 Readme"
+title: "Social Engagement 2018 Update 1.1 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 12/08/2017
+ms.date: 01/24/2017
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -11,20 +11,20 @@ ms.assetid: e32849dd-2e8d-4cf0-8561-e3c865120d57
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
+topic-status: Ready to Publish
 ---
 
-Social Engagement 2017 Update 1.11 Readme
-=========================================
+Social Engagement 2018 Update 1.1 Readme
+========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2017 Update 1.11. It was published in December 2017.
+Social Engagement 2018 Update 1.1. It was published in January 2018.
 
 Resources
 ---------
 
 [Social Engagement Help Center](http://go.microsoft.com/fwlink/?LinkID=394325) -
-info central for product users and admins
+info for product users and admins.
 
 General known issues
 --------------------
@@ -47,9 +47,11 @@ tablets, the following restrictions apply:
 ### Microsoft Dynamics 365 domains must be added to Allowed Domains to enable integration
 
 For integration between Microsoft Dynamics 365 and Microsoft Social Engagement,
-your Microsoft Dynamics 365 domains must be added as allowed domains in
-Microsoft Social Engagement. This will ensure that only the Dynamics 365 domains
-you own can make requests to your data.
+your [Microsoft Dynamics 365 domains must be added as allowed domains in
+Microsoft Social
+Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/connect-other-domains).
+This will ensure that only the Dynamics 365 domains you own can make requests to
+your data.
 
 If you are a Social Engagement administrator, you can do this by going to
 **Settings** \> **Allowed Domains**. Add only your owned Dynamics 365 domains as
@@ -61,7 +63,7 @@ This is no longer supported.
 
 ### Blog content delivered in some cases in JSON format
 
-For some blogs coming through WordPress the format of the text is not delivered
+For some blogs coming through WordPress, the format of the text is not delivered
 in the usual format, but instead in JSON format which diminishes the readability
 of the content considerably.
 
@@ -82,7 +84,7 @@ displayed in the respective tweet.
 
 Due to changes from Facebook, some videos provided in Microsoft Social
 Engagement are not playing anymore in Microsoft Social Engagement. This is due
-to an expiration of the video URL. There is no work around available to change
+to an expiration of the video URL. There is no workaround available to change
 the expiration. You can view the video directly from the Facebook post.
 
 ### A News post might not contain an original URL
@@ -111,11 +113,13 @@ To resolve this, manually refresh your browser after adding a social profile.
 
 ### Deleted searches are counted in the quota total
 
-If you delete a search topic, the referred topic will not be displayed in your
-search topics page or on the **Quota Manager** page. However, posts that are
-already acquired for this topic are still counted toward your quota for the
-current month. The total number of posts on the **Quota Manager** page might be
-higher than the sum of all search topics.
+If you [delete a search
+topic](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/create-delete-search-topic),
+the referred topic will not be displayed in your search topics page or on the
+**Quota Manager** page. However, posts that are already acquired for this topic
+are still counted toward your quota for the current month. The total number of
+posts on the **Quota Manager** page might be higher than the sum of all search
+topics.
 
 ### Post Preview on Search Setup contains only Twitter data
 
@@ -162,14 +166,16 @@ your social profiles by using a desktop environment.
 ### The Private Messages search rule requires Twitter account authentication in Search Setup
 
 A social profile added for **Private Messages** acquisition shows up in **Search
-Setup** under **Private Messages** only if a user has authenticated a Twitter
-account in the Twitter rule in **Search Setup**.
+Setup** under **Private Messages** only if a user has [authenticated a Twitter
+account in the Twitter
+rule](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/add-rules-search-topic#add-a-private-messages-rule)
+in **Search Setup**.
 
 ### Sharing with all users for social profiles and streams has high-visibility consequences
 
 Owners of social profiles and streams have the option to choose **Shared** and
 share content and publish actions with all users. These are the implications of
-this taking this action:
+taking this action:
 
 -   For a social profile: Every user with the Interaction role "Manager" or
     "Responder" will be able to use the social profile in the publish actions
@@ -206,20 +212,14 @@ take action as needed.
 The Bing Maps embedded in Social Engagement does not support localization of map
 labels for Greek.
 
-### Firefox browser: Limited text navigation when you compose messages 
+### NAV integration and Microsoft Edge browser cause IFrame to stop loading
 
-When you work in Firefox, the ability to place your cursor anywhere within the
-text box you are typing in is limited. Try using a different web browser. Or, as
-a workaround if you cannot switch browsers, type your content in a text editor
-and then paste it into the text box in Firefox.
-
-### NAV integration and Edge browser cause iFrame to stop loading
-
-When you use the Edge browser with Dynamics NAV, there's an unsolved issue with
-the Microsoft Social Engagement widget. When looking for a non-existing ID the
-widget will stop loading. As a work around, we suggest that you reload the whole
-page and make sure you have a valid Search topic ID. To do that, look for the
-Search topic in the Microsoft Social Engagement Analytics page's URL.
+When you use the Microsoft Edge browser with Dynamics NAV, there's an unsolved
+issue with the Microsoft Social Engagement widget. When looking for a
+non-existing ID, the widget will stop loading. As a work around, we suggest that
+you reload the page and make sure you have a valid Search topic ID. To do that,
+look for the Search topic in the Microsoft Social Engagement Analytics page's
+URL.
 
 ### Parts of Author details for Twitter can be blocked by AdBlock
 
@@ -238,9 +238,9 @@ Analytics notification.
 
 ### Some Disqus posts are not acquired due to a missing URL in the post
 
-In some cases, Disqus posts are missing an URL. This can happen if posts are
+In some cases, Disqus posts are missing a URL. This can happen if posts are
 created through an API or through private channels. Social Engagement cannot
-acquire messages that are missing an URL.
+acquire messages that are missing a URL.
 
 ### Private messages and public messages from Facebook Pages and Twitter not always acquired
 
@@ -281,7 +281,21 @@ session with Social Engagement.
 
 **Social Engagement stops responding after you select the Include button**
 
-In Edge or Internet Explorer, if you select too many authors and then select
-**Include**, the Authors widget in Full view mode might stop responding. The
-workaround is to refresh your browser, select fewer authors, and select
+In Microsoft Edge or Internet Explorer, if you select too many authors and then
+select **Include**, the Authors widget in Full view mode might stop responding.
+The workaround is to refresh your browser, select fewer authors, and select
 **Include** again.
+
+**No author details for authors of Twitter Retweets and Facebook Shares**
+
+Even though there is an author detail icon next to the name of an author whose
+post has been retweeted or shared, there is no Author detail available for such
+an author. The UI will show the message: “No author details are available”.
+
+**Unknown Facebook Authors**
+
+Due to a change in the Facebook API, author information is no longer shared from
+pages you don't own. You can still get author information for posts on Facebook
+pages you own by adding them as social profiles. [Learn more about unknown
+Facebook
+authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/facebook-pages-data-acquisition)

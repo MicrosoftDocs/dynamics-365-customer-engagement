@@ -2,7 +2,7 @@
 title: "Visualization data description schema (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. "
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 12/22/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. For more information, see [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md). You can find this schema in the `SDK\Schemas\VisualizationDataDescription.xsd` file in the SDK [!INCLUDE[sdk_download](../../includes/sdk-download.md)] package.  
+The following is the schema for the data description XML string for charts in visualization. This can be used to validate the contents of the data description XML string while creating a chart. For more information, see [Understanding Charts: Underlying Data and Chart Representation](understand-charts-underlying-data-chart-representation.md). [!INCLUDE[schema_download](../../includes/schema-download.md)] and see the file `VisualizationDataDescription.xsd` in the folder.  
   
 ## Schema  
   

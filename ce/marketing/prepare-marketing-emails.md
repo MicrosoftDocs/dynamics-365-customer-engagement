@@ -11,6 +11,7 @@ applies_to:
 ms.assetid: 021f45f6-ed70-4979-a227-0631540b2516
 author: kamaybac
 ms.author: kamaybac
+robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -22,7 +23,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863168" frameborder="0" allowfullscreen></iframe>
+<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863168" frameborder="0" allowfullscreen></iframe></div>
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
@@ -77,7 +78,7 @@ When you create a new message from a template, the template content is copied in
 
 You can also create your own custom templates, which can help both you and others in your organization to create new messages more quickly in the future. Design your templates so that they reflect your organization's graphical identity and fit closely with the types of campaigns you run most regularly. You can save any existing message as a template, or work directly in the templates area to design new templates based on existing ones. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)][Work with email templates](email-templates.md)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Work with email templates](email-templates.md)
 
 ## Design your content
 
@@ -106,6 +107,8 @@ Marketing messages are delivered as HTML and therefore support hyperlinks. Some 
 ## Add dynamic content
 
 Dynamic content is content that gets resolved just before a message is sent to a specific individual. You'll typically use dynamic content to merge information from the recipient's contact record (such as first and last name), to place special links, and to place information and links from the content settings. If you're comfortable working in code, you can also create custom logic that includes conditional statements, while loops, and more. You can use dynamic content in your message body and in the message header fields (subject, from address, and from name).
+
+<a name="content-settings"></a>
 
 ### Use content settings to set up repositories of standard and required values for email messages
 
@@ -157,12 +160,12 @@ Places a link to the subscription center page identified in the active content s
 Places a link to the forwarding page identified in the active content settings.
 - `{{ Message.OpenAsWebPage }}`  
 Places a link that opens the current message in a web browser.
-- `{{msevtmgt_event(123).msevtmgt_webinarurl}}`  
+- `{{ msevtmgt_event(123).msevtmgt_webinarurl }}`  
 Places the web URL for the event identified by the specified event ID (123 in the example).
-- `{{msdyn_survey(321).msdyn_name}}`  
+- `{{ msdyn_survey(321).msdyn_name }}`  
 Places the name of the survey identified by the specified survey ID (321 in the example).
 - `{{ Contact.Account.OwnerUser.PrimaryEmail }}`  
-This is a useful expression for setting up the **From Email** address for a message. It resolves to the email address of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user who owns the account associated with the mail recipient. This person is typically the account manager, who the recipient knows personally. Contacts are much more likely to open a message when it comes from somebody they know.
+This is a useful expression for setting up the **From Email** address for a message. It resolves to the email address of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user who owns the account associated with the mail recipient. This person is typically the account manager, who the recipient may know personally. Contacts are much more likely to open a message when it comes from somebody they know.
 - `{{ Contact.Account.OwnerUser.FullName }}`  
 This is similar to the previous example, but this time the expression resolves to the account manager's full name (useful for use in the **From Name** field).
 
@@ -183,8 +186,8 @@ The following table provides a few examples of how you might use Handlebars to a
 | **Feature type** | **Description** | **Examples** |
 |------------------|-----------------|--------------|
 | Properties       | Inserts a database value|`{Contact.FirstName}}`<br />`{{ContentSettings.SenderAddress}}`|                      |
-| If/Else          | Creates a conditional statement that decides at send time which content to include for each recipient. |`{{\#if Contact.Deleted}}`<br />`Deleted`<br />`{{/if}}`<br /><br />`{{\#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{/if}}`<br /><br />`{{\#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{else if (eq Contact.Country 'UK')}}`<br />`Hi`<br />`{{/if}}`<br /><br />`{{\#if (eq Contact.Country Contact.DeliveryCountry)}}`<br />`Hej`<br />`{{/if}}`<br /><br />`{{\#if (gt Contact.Age 18)}}`<br />`Hej`<br />`{{/if}}`<br /><br />`{{\#if (lte Contact.Age 70)}}`<br />`Hej`<br />`{{/if}}`|
-| For each         | Creates a for-each loop | `{{\#each Contact.Addresses}}`<br />`{{this.StreetName}}`<br />`{{/each}}` |
+| If/Else          | Creates a conditional statement that decides at send time which content to include for each recipient. |`{{#if Contact.Deleted}}`<br />`Deleted`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{else if (eq Contact.Country 'UK')}}`<br />`Hi`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country Contact.DeliveryCountry)}}`<br />`Delivered to you`<br />`{{/if}}`<br /><br />`{{#if (gt Contact.Age 18)}}`<br />`Apply now`<br />`{{/if}}`<br /><br />`{{#if (lte Contact.Age 70)}}`<br />`Apply now`<br />`{{/if}}`|
+| For each         | Creates a for-each loop | `{{#each Contact.Addresses}}`<br />`{{this.StreetName}}`<br />`{{/each}}` |
 |Relationships    | Finds database field values from a related record. | `{{Contact.Phone.PrimaryPhone}}`<br />`{{Contact.SalesPerson.Address.StreetName}}` |
 | Custom entities  | Finds a value from a specific record, identified by an ID value. | `{{LandingPage(123).Url}}` |
 

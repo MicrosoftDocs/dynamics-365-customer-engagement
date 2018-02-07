@@ -44,63 +44,14 @@ manager: "amyla"
   
  To obtain support or help to use these programs, contact the program publisher.  
   
-## In This Section  
- [Ribbons Available in Microsoft Dynamics 365](ribbons-available-microsoft-dynamics-365.md)  
   
- [Export Ribbon Definitions](export-ribbon-definitions.md)  
-  
- [Exporting, Preparing to Edit, and Importing the Ribbon](export-prepare-edit-import-ribbon.md)  
-  
- [Use Localized Labels with Ribbons](use-localized-labels-ribbons.md)  
-  
- [Define Ribbon Commands](define-ribbon-commands.md)  
-  
- [Define Ribbon Enable Rules](define-ribbon-enable-rules.md)  
-  
- [Define Ribbon Display Rules](define-ribbon-display-rules.md)  
-  
- [Define Ribbon Actions](define-ribbon-actions.md)  
-  
- [Pass Microsoft Dynamics 365 data from a page as a parameter to Ribbon Actions](pass-dynamics-365-data-page-parameter-ribbon-actions.md)  
-  
- [Define Custom Actions to Modify the Ribbon](define-custom-actions-modify-ribbon.md)  
-  
- [Define how Ribbon Elements are Re-sized Based on the Space Available](define-scaling-ribbon-elements.md)  
-  
- [Define Ribbon Tab Display Rules](define-ribbon-tab-display-rules.md)  
-  
- [Passing Parameters to a URL By Using the Ribbon](pass-parameters-url-by-using-ribbon.md)  
-  
- [Sample: Export Ribbon Definitions](sample-export-ribbon-definitions.md)  
-  
-  
+## See also  
  [Ribbon Core Schema](ribbon-core-schema.md)  
   
  [Ribbon Types Schema](ribbon-types-schema.md)  
   
- [Ribbon WSS Schema](ribbon-wss-schema.md)  
+ [Ribbon WSS Schema](ribbon-wss-schema.md) 
+
+ [Sample: Export Ribbon Definitions](sample-export-ribbon-definitions.md) 
   
-## Related Sections  
- [Extend the metadata model](../org-service/use-organization-service-metadata.md)  
-  
- [Customize visualizations and dashboards](customize-visualizations-dashboards.md)  
-  
- [Customize Entity Views](customize-entity-views.md)  
-  
- [Customize global option sets](../org-service/customize-global-option-sets.md)  
-  
- [Service Calendar Appearance Configuration for Microsoft Dynamics 365](service-calendar-appearance-configuration.md)  
-  
- [Publish customizations](publish-customizations.md)  
-  
- [When to edit the customizations file](when-edit-customization-file.md)  
-  
- [Customize Microsoft Dynamics 365 applications](customize-applications.md)  
-  
- [Change Application Navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
-  
- [Customize Forms in Microsoft Dynamics 365](customize-entity-forms.md)  
-  
- [Web Resources for Microsoft Dynamics 365](../web-resources.md)  
-  
- [Client scripting in Customer Engagement using JavaScript](../clientapi/client-scripting.md)
+ [Client scripting using JavaScript](../clientapi/client-scripting.md)

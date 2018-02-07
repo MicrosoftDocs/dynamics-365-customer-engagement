@@ -1,19 +1,21 @@
 ---
-title: "Use the event portal to promote your event and accept registrations (Dynamics 365 for Marketing) | Microsoft Docs  "
-description: "Details about the event portal, including site map, information sources, and how to publish your events in Dynamics 365 for Marketing"
-keywords: "events; event management; portal; event portal; registration"
-author: kamaybac
-ms.author: kamaybac
-manager: sakudes
-applies_to: 
-- Dynamics 365 (online)
-- Dynamics 365 Version 9.x
+title: "Register link clicks and website visits (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Set up your website to record visits from known and unknown contacts, and create redirect links that register clicks from anywhere in Dynamics 365 for Marketing"
+keywords: "website;redirect URL;behavioral analysis;behavior;tracking"
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
-ms.assetid: fb12fb67-69b7-4a23-a574-9d6f53d3c8b6
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: bde3efc9-6ef1-4705-a925-34670c823f40
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
 ms.reviewer: renwe
+topic-status: Drafting
 ---
+
 # Set up the event portal
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -40,6 +42,8 @@ The following table summarizes which types of information are publish to the por
 | Session Tracks | Published external tracks are listed on the **Session Tracks** page for the event they belong to. Each session track shows its name and a list of sessions that belong to it (with links).<p>You can only publish external tracks (not internal ones).</p>|**Name**<p>**Audience**</p>|
 | Passes         | All passes associated with a published session track are listed on the **Pass Information** page for the event the track belongs to. The system tracks the number of passes available and the number assigned, and indicates when passes are sold out.|**Name**<p>Track **Name** from the related track record</p><p>**Pass Price**</p><p>Sold out status, indicated when the **Passes Remaining** field for a pass reaches zero</p>|
 | Sponsors       | Sponsors associated with published events are displayed at the bottom of most pages of the portal for those events.|**Event Sponsor** (the **Account Name** of the related account record)</p><p>**Logo** (taken from the related account record for each sponsor)</p>|
+
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
 
 ### See also
 

@@ -23,9 +23,10 @@ Application publishers and ISVs can use the Online Management API to:
 
 Using the Online Management API, you can perform various tasks on your online instance such as create, retrieve, delete, backup and restore instances, and other instance-related tasks. 
 
-If you are an administrator, you can manage Customer Engagement online instances using either of the following:
-- [Dynamics 365 Admin Center](../admin/manage-online-instances.md)
-- [PowerShell cmdlets](/powershell/module/microsoft.xrm.onlinemanagementapi) 
+>[!NOTE]
+>Administrators can manage Customer Engagement online instances using either of the following:
+>- [Dynamics 365 Admin Center](../admin/manage-online-instances.md)
+>- [PowerShell cmdlets](/powershell/dynamics365/customer-engagement/overview#get-started-using-the-microsoftxrmonlinemanagementapi-module) 
   
 ### Related Sections  
 [Online Management REST API Reference](/rest/api/admin.services.crm.dynamics.com)

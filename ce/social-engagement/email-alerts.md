@@ -16,19 +16,23 @@ topic-status: Drafting
 
 # Stay up to date with alerts
 
-Create email notifications that are automatically sent to a group of recipients when triggered. There are two types of alerts, both based on a set of filters and search topics. Alerts are user-specific, and every user role can create them. Manage your existing alerts in the **Message Center**. You can choose from two alert types:
+[comment]: <> (Made first sentence active voice. Also moved the info about managing alerts to a later paragraph where it flows and fits the topic better.) 
+You can create email notifications to automatically send to a group of recipients when triggered. Alerts are user-specific, and every user role can create them. There are two types of alerts, which are based on filters and search topics:
 
-- **Post alert:** An email notification is delivered to all specified email addresses within a few hours if any new posts match the selected filters. A summary email is delivered directly to your email account. 
+- **Post alert:** An email notification is delivered to all specified email addresses within a few hours if any new posts match the selected filters. A summary email is delivered to your email account. 
 
 - **Trend alert:** An email notification is delivered to all specified email addresses within a few hours if the volume of posts for any source exceeds the statistical expectation. A trend alert notifies you only if there are significant changes in post volumes that match the filters that you defined for an alert.
 
-The configuration of alerts that you create is visible only to you. Other recipients of the alert that you add to the alert configuration won't be able to see or edit your alert configuration. Alert emails contain a link to the data set that matches the posts that triggered the alert email. Choose this link to open and review the content in [!include[](../includes/pn-social-engagement-short.md)].
+[comment]: <> (Moved the bit about the message center here.) 
+Configure and manage your alerts in the **Message Center**. Your alerts configuration is visible only to you. Recipients of the alert won't be able to see or edit your alert configuration. However, an admin can remove email addresses from all alerts they are mapped to. 
+
+Alert emails contain a link to the data set that matches the posts that triggered the alert. Choose this link to open and review the content in [!include[](../includes/pn-social-engagement-short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/lQKzwulgnmM]
 
-## View the list of your alerts
+## View your alerts list
 
-To review the alerts that you created, go to **Message Center**.  The information that you'll see about each alert is explained in the following table.
+To review your alerts, go to **Message Center** > **Alert Configuration**.  The information that you'll see about each alert is explained in the following table.
 
 |List entry / symbol|What it means|
 |--------------------------|-------------------|
@@ -39,15 +43,15 @@ To review the alerts that you created, go to **Message Center**.  The informatio
 
 ## Create an alert
 
-A simple way to create an alert is directly from within your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section on Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)
+A simple way to create an alert is directly from your analysis. Filters and parameters that you defined for the current view will be filled in for you. You can create an alert from every section in Analytics. You can also go to the **Message Center** and create an alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)
 
-1.  Go to the **Message Center**.
+1.  Go to **Message Center** > **Alert Configuration**.
 
 2.  In the **Alerts** pane, click the **Add** button ![Add button](media/add-icon.png "Add button").
 
 3.  In the alert configuration dialog box, enter a name (up to 128 characters) for your alert.
 
-4.  Select the status of your alert. If you want to get notified right away, select **Active**. If you prepare the alert for a specific event in the future and plan to activate it later, select **Inactive**.
+4.  Select the status of your alert. If you want to be notified right away, select **Active**. If you prepare the alert for a specific event in the future and plan to activate it later, select **Inactive**.
 
 5.  Select the alert type to create:
 
@@ -55,7 +59,7 @@ A simple way to create an alert is directly from within your analysis. Filters a
 
     - **Trend Alert** to receive an alert if the post volume exceeds the statistical expectation for your filters. For [trend alerts](#set-a-trend-alerts-sensitivity), select the **sensitivity** of your alert by selecting from the options.
 
-6.  Optionally, edit the data set or add more recipients for your alert.
+6.  Or, edit the data set or add more recipients for your alert.
 
 7.  Click **Save**.
 
@@ -66,13 +70,13 @@ You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that y
 > [!TIP]
 > You can't change the alert type after you create a new alert. However, you can always edit and update the data set, recipients, and name for an existing alert.
 >
-> You can set an alert's status to **inactive** or **reactivate** an inactive alert at any time. Recipients of an inactive or deleted alert will no longer receive the notification from this alert.
+> You can set an alert status to **inactive**, or you can **reactivate** an inactive alert at any time. Recipients of an inactive or deleted alert will no longer receive the notification from this alert.
 > 
 > If the alert configuration gets updated after an alert email was sent, all links in the alert email will match the updated configuration.
 
 ### Change an alert
 
-1.  Go to the **Message Center**.
+1.  Go to **Message Center** > **Alert Configuration**.
 
 2.  Select the alert that you want to edit.
 
@@ -83,24 +87,32 @@ You can [edit](#change-an-alert) or [delete](#delete-an-alert) any alerts that y
 
 ### Delete an alert
 
-1.  Go to the **Message Center**.
+1.  Go to **Message Center** > **Alert Configuration**.
 
 2.  In the **Alerts** pane, find the alert that you want to delete, and then click the **Delete** button ![Delete button](media/trashbin-icon.png "Delete button").
 
 3.  Confirm the deletion.
 
-
 > [!NOTE]
 > If an alert has been deleted, links in the alert email will redirect to **Analytics** > **Overview** with your default time frame selected. 
 
+## Manage alert recipients as administrator
+
+In an administrator role, you can look up email addresses and remove them from alerts that were configured by other users in your organization. You can also export the list of alerts that go to a specific email address. 
+
+1. Go to **Message Center** > **Manage Recipients**.
+
+2. Enter the email address you want to search for.
+
+3. Select **Remove recipient** to remove the email address from the matching alerts. Optionally, you can select **Export** to download a list of the alerts that contain this recipient.
+
 ## Set a trend alert's sensitivity
 
-After you create a trend alert, you may find that you're receiving too many (or too few) notifications. You can adjust the sensitivity to more precisely trigger the level of alerts.
+After you create a trend alert, you may find that you receive too many (or too few) notifications. You can adjust the sensitivity to trigger the level of alerts more precisely.
 
-Trend alert triggers are based on the number of posts and the average number of posts from the past five similar time frames. The average number of posts has a standard deviation.  
-Sensitivity defines how many times the standard deviation is stacked on top of the average number of posts to trigger an alert.
+Trend alert triggers are based on the number of posts and the average number of posts from the past five similar time frames. The average number of posts has a standard deviation. Sensitivity defines how many times the standard deviation is stacked on top of the average number of posts to trigger an alert.
 
-When you work with a trend alert, you can select from five sensitivity settings.
+When you work with a trend alert, you can select from five sensitivity settings:
 
 |Sensitivity|Condition to trigger a trend alert|
 |-----------------|----------------------------------------|

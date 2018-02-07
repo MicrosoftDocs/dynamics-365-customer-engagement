@@ -22,7 +22,7 @@ topic-status: Drafting
 
 <table>
 <tr>
-  <td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/5jVRFpV4xIs" frameborder="0" allowfullscreen></iframe></td>
+  <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/5jVRFpV4xIs" frameborder="0" allowfullscreen></iframe></div>
   <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>

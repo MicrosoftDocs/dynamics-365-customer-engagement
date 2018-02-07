@@ -7,6 +7,8 @@
 ## [Administrator Guide](admin-guide.md)
 
 ### [First time setup](purchase-setup.md)
+### [First time setup FAQ and troubleshooting](setup-troubleshooting.md)
+### [Keep Marketing up to date](apply-updates.md)
 ### [Open the administration settings](open-advanced-settings.md)
 ### [Organization settings](organization-settings.md)
 #### [Manage users](manage-users.md)
@@ -55,7 +57,8 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Upload and use images and files](upload-images-files.md)
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
-#### [Create automated campaigns](customer-journeys-create-automated-campaigns.md)
+#### [Use suppression segments to respect unsubscribe requests](suppression-segments.md)
+#### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
@@ -89,3 +92,4 @@
 ##### [Step 4: Test your custom channel tile](developer/test-custom-channel-tile.md)
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
+#### [Remove custom channel](developer/remove-custom-channel.md)

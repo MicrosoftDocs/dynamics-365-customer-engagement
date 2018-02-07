@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: "quota, post quota, contingent"
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -59,7 +59,7 @@ Keep track of the number of posts that result from your search topics and count 
   
  Your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] admin can upgrade your subscription and purchase additional post quotas for your solution at any time in the [Office 365 admin center](http://go.microsoft.com/fwlink/p/?LinkId=390650).  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics CRM pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=401462)  
   
 ## Keep the post quota healthy  
  Keeping the post quota healthy is crucial to make sure data acquisition isn't interrupted and you don't miss any relevant information.  
@@ -94,14 +94,14 @@ Three types of quota add-on subscriptions are available. They are billed on a mo
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (no minimum): 10,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (10-unit minimum): 100,000 posts per month.
 - [!include[](../includes/pn-social-engagement-long.md)] Additional 10,000 posts (100-unit minimum): 1,000,000 posts per month.
-[Learn more about pricing and licensing for Dynamics 365.](https://www.microsoft.com/dynamics365/pricing)
+[Learn more about pricing and licensing for Dynamics 365.](http://go.microsoft.com/fwlink/p/?LinkID=401462)
 
 ### To buy add-on subscriptions for Social Engagement
 
 An Office 365 admin can buy additional post quota from the Office 365 admin center. You will only see the [!include[](../includes/pn-social-engagement-short.md)] add-on subscriptions if your Dynamics 365 plan includes [!include[](../includes/pn-social-engagement-short.md)]. Trials aren't eligible for [!include[](../includes/pn-social-engagement-short.md)]. 
-For more information, see [Pricing and licensing for Dynamics 365](https://www.microsoft.com/dynamics365/pricing).
+For more information, see [Pricing and licensing for Dynamics 365](http://go.microsoft.com/fwlink/p/?LinkID=401462).
 
-![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions.")
+![Image of the clickpath to find add-on subscriptions.](media/purchase-additional-quota.png "Find add-on subscriptions")
 
 1. Go to https://portal.office.com and sign in as a global administrator or billing administrator.
 
