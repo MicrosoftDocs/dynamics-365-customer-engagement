@@ -5,7 +5,6 @@ ms.service: "crm-online"
 ms.topic: "article"
 author: kamaybac
 ms.author: kamaybac
-ROBOTS: NOINDEX,NOFOLLOW
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"

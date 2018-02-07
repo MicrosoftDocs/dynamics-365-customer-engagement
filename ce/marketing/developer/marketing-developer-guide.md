@@ -12,7 +12,6 @@ applies_to:
 ms.assetid: c2228386-9755-47e2-b8ce-2585053b121f
 author: "KumarVivek"
 ms.author: "kvivek"
-robots: noindex,nofollow
 manager: "amyla"
 ---
 # Developer Guide (Marketing)

@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 9db7c881-4ba5-4b8d-a241-1f6ff3f5de73
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -23,13 +22,13 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] provides powerful ways to present your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data in a standardized and well-formatted document. With [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] templates, you can easily create and share your template with others, so all the documents that go out to your customers have a consistent look that matches your organization's branding.
+[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] provides powerful ways to present your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data in a standardized and well-formatted document. With [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] templates, you can easily create and share your template with others, so all the documents that go out to your customers have a consistent look that matches your organization's branding.
 
-When the templates are ready, users can generate standardized documents that are automatically populated with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data with just one click.
+When the templates are ready, users can generate standardized documents that are automatically populated with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data with just one click.
 
 ## Step 1: Create a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template
 
-1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a user with the System Administrator role.
+1. Sign in to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] as a user with the System Administrator role.
 
 1. Go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** and choose **New Template**.
 
@@ -43,7 +42,7 @@ When the templates are ready, users can generate standardized documents that are
 
 1. To select the fields that you want to be included in the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, select **Choose Related Entities**.
 
-1. The **Choose Related Entity** dialog box opens. The relationships you select on this screen determine what entities and fields are available later when you define the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Only select the relationships you need to add [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] data to the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Here are some example relationships for the account entity:
+1. The **Choose Related Entity** dialog box opens. The relationships you select on this screen determine what entities and fields are available later when you define the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Only select the relationships you need to add [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data to the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template. Here are some example relationships for the account entity:
 
     - 1:N Relationship. An account can have multiple contacts.
     - N:1 Relationship. A lead, account, or contact can have multiple accounts.
@@ -68,7 +67,7 @@ Open the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template 
 
 ![A new Word template](media/word-blank.png "A new Word template")
 
-To see and add [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] XML data, you need to enable the **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Developer** tab.
+To see and add [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] XML data, you need to enable the **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Developer** tab.
 
 1. Go to **File** &gt; **Options** &gt; **Customize Ribbon**, and then select the **Developer** check box.
 
@@ -82,7 +81,7 @@ The **Developer** tab now appears in the [!INCLUDE[pn-ms-word-short](../includes
 
 ## Step 3: Define the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template
 
-Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template by using [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] entity fields.
+Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template by using [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] entity fields.
 
 1. In your [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template, select **Developer** &gt; **XML Mapping Pane**.
 
@@ -92,7 +91,7 @@ Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includ
 
     ![The XML Mapping pane in Word](media/word-XML-mapping-pane.png "The XML Mapping pane in Word")
 
-1. Select the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] XML schema. It will begin with "urn:microsoft-crm/document-template/".
+1. Select the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] XML schema. It will begin with "urn:microsoft-crm/document-template/".
 
     ![Select the Dynamics 365 XML schema](media/ill-word-d365-schema.png "Select the Dynamics 365 XML schema")
 
@@ -103,7 +102,7 @@ Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includ
 
     ![Insert Content Control menu](media/ill-word-add-field.png "Select a field to add as plain text")
 
-    The field from [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is added to the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template.
+    The field from [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is added to the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template.
 
     ![A Word template with one field added](media/word-field-added.png "A Word template with one field added")
 
@@ -123,22 +122,22 @@ Use the **XML Mapping Pane** to define the [!INCLUDE[pn-ms-word-short](../includ
 
         ![Set a field to repeating in the XML Mapping pane](media/word-template-repeating.png "Set a field to repeating in the XML Mapping pane")
 
-    When you use the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to create a document, the table will be populated with multiple rows of data.
+    When you use the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to create a document, the table will be populated with multiple rows of data.
 
-1. When the template has the fields and formatting you want, save it and upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+1. When the template has the fields and formatting you want, save it and upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 <a name="step-4-upload-the-word-template-back-into-dynamics-365"></a>
 
-## Step 4: Upload the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
+## Step 4: Upload the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
-When you have your [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template built the way you want, save it so you can upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+When you have your [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template built the way you want, save it so you can upload it into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
-An administrator can use the **Settings** page to upload the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+An administrator can use the **Settings** page to upload the [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] template into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 > [!NOTE]
 > Users in your organization can see the templates available to them by selecting **[!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates** on the command bar in the list of records.
 
-1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**.
+1. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Settings** > **Advanced Settings** > **Organization** > **[!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] & [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] Templates**.
 
 1. Select **Upload Template**.
 

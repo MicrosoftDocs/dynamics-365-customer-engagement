@@ -4,7 +4,6 @@ description: "Choose a standard theme or create your own to customize the genera
 keywords: "administration; organization settings; theme; logo"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)
@@ -21,7 +20,7 @@ ms.reviewer: renwe
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Change the color scheme of the user interface based on your preferences, or create your own branding by changing the color scheme or logo in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. You can create a theme&mdash;a custom look and feel&mdash;for your app by creating new themes with  colors and visual elements you choose.
+Change the color scheme of the user interface based on your preferences, or create your own branding by changing the color scheme or logo in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. You can create a theme&mdash;a custom look and feel&mdash;for your app by creating new themes with  colors and visual elements you choose.
 
 The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements:
 
@@ -32,7 +31,7 @@ The theme colors are applied globally throughout the application. For example, y
 
 ## Apply a new theme
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] includes three default themes. You can choose one of these default themes, or pick any custom theme that you created.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes three default themes. You can choose one of these default themes, or pick any custom theme that you created.
 
 To apply a theme, select the theme in the **Select Theme** drop-down list, and select **Save and Apply Theme**.
 

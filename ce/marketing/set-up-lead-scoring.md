@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: e892a409-1e68-491f-8992-1b281ba4a5a3
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -28,7 +27,7 @@ topic-status: Drafting
 A big part of marketing has to do with finding new leads, qualifying them, and then sending sales-ready leads to salespeople. To help you identify the hottest leads, [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] scores each one based on criteria that includes each lead's demographic details and interaction record. A lead who meets your target demographic profile and has interacted with your marketing materials (for example, by opening emails, registering for downloads, browsing your website, or attending an event) will probably get a high score, provided you've set up your scoring model correctly.
 
 > [!TIP]
-> You can create any number of lead-scoring models, with each lead being scored according to each model. That means that if you have several models, each lead will also have several scores. A lead becomes sales-ready only after all models produce a sales-ready score for that lead.
+> You can create any number of lead-scoring models, with each lead being scored according to each model. That means that if you have several models, each lead will also have several scores. A lead becomes sales-ready as soon as at least one model produces a sales-ready score for that lead.
 
 To create a lead scoring model:
 
