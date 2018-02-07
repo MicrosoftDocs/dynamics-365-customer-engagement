@@ -1060,7 +1060,7 @@
   href: programming-reference.md
   items:
   - name: Entity Reference
-    href: entities/TOC.yml
+    href: entities/toc.yml
   - name: Web API Reference
     href: /dynamics365/customer-engagement/web-api/about
   - name: Organization Service 9.0

@@ -4,7 +4,6 @@ description: "How to register sponsors and sponsorable articles in Dynamics 365 
 keywords: "events; event management; sponsor; sponsorship; tchotchke"
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 applies_to: 
 - Dynamics 365 (online)
@@ -23,6 +22,6 @@ ms.reviewer: renwe
 
 Sponsors are people or organizations who contribute funds, equipment, or services in return for having their logos and messages placed in your event materials (including the event portal) or at the event itself.
 
-Go to **Events** &gt; **Sponsorship Management** &gt; **Sponsorships** to view, edit, and create sponsorship records. Each record here must be associated with an event record, and the sponsoring company (account record) must also be stored in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Each record can also include information about the sponsorship deal itself, including the sponsorship type (money, services, or equipment), sponsorship value, and other details. If any sponsored articles are associated with this sponsorship, they are also listed here.
+Go to **Events** &gt; **Sponsorship Management** &gt; **Sponsorships** to view, edit, and create sponsorship records. Each record here must be associated with an event record, and the sponsoring company (account record) must also be stored in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Each record can also include information about the sponsorship deal itself, including the sponsorship type (money, services, or equipment), sponsorship value, and other details. If any sponsored articles are associated with this sponsorship, they are also listed here.
 
 *Sponsorable articles* are items that are visibly present at the event, and feature a sponsor's logo or message. These typically include small freebies given away to event attendees, but could also be some type of infrastructure or facility provided to event-goers. Go to **Events** &gt; **Sponsorship Management** &gt; **Sponsorable articles** to view, edit, and create these records. Each sponsorable article record must relate to a parent sponsorship record (which identifies the sponsoring company and the event) and include price and quantity information.

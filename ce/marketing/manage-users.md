@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 095057aa-5a0f-4e9e-a434-c7ff7f4fad21
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -90,7 +89,7 @@ Assign a manager or change an existing manager. The manager is responsible for a
 
 ## Use privileges to grant access to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] and [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] features
 
-Each security role established in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
+Each security role established in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is created by assigning various levels of access to each of a wide selection of privileges. Administrators can customize each role as needed by modifying the set of privileges it contains.
 
 > [!NOTE]
 > To customize security roles, you must work in the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app. For details about how to open this app, see [Move between apps](navigation.md#move-between-apps). For more information about how to customize security roles, see [Create or edit a security role](../admin/create-edit-security-role.md)
@@ -101,7 +100,7 @@ You can control access to [!INCLUDE[pn-customer-insights-full](../includes/pn-cu
 
 ## Security roles added by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-Security roles enable administrators to control which users have access to which features of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Several security roles are common to almost all [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] applications, while others are more specialized. This topic describes the specialized roles added specifically by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+Security roles enable administrators to control which users have access to which features of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Several security roles are common to almost all [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications, while others are more specialized. This topic describes the specialized roles added specifically by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 ### Event Management security roles
 
@@ -131,7 +130,7 @@ The lead-management solution adds the following security roles:
 The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen package adds the following security roles:
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Administrator**: Users with this role can configure lead matching strategies, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping, and solution settings for [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)].
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson**: These users can authorize [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], and view details about the synced submissions.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson**: These users can authorize [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and view details about the synced submissions.
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound**: an internal security role used by the solution to sync data
 
 ### Surveys security roles

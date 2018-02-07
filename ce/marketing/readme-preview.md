@@ -5,7 +5,6 @@ ms.service: "crm-online"
 ms.topic: "article"
 author: kamaybac
 ms.author: kamaybac
-ROBOTS: NOINDEX,NOFOLLOW
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -86,7 +85,7 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
     -   Dynamic segments based on subscription marketing lists don't remove
         unsubscribed contacts from running journeys. The unsubscribe will be
         honored for future journeys. [Learn how to use suppression segments to
-        ensure running customer journeys will respect unsubscribe
+        ensure running customer journeys will apply unsubscribe
         requests.](https://go.microsoft.com/fwlink/p/?linkid=867008)
 
     -   Customer journeys cannot be saved if the canvas is blank without any
