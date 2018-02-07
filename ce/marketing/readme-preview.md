@@ -85,7 +85,7 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
     -   Dynamic segments based on subscription marketing lists don't remove
         unsubscribed contacts from running journeys. The unsubscribe will be
         honored for future journeys. [Learn how to use suppression segments to
-        ensure running customer journeys will respect unsubscribe
+        ensure running customer journeys will apply unsubscribe
         requests.](https://go.microsoft.com/fwlink/p/?linkid=867008)
 
     -   Customer journeys cannot be saved if the canvas is blank without any
