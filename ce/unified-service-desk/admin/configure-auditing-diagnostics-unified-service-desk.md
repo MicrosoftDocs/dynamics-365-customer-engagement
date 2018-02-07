@@ -2,7 +2,7 @@
 title: "Configure auditing and diagnostics in Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to set auditing and diagnostics." 
 ms.custom: ""
-ms.date: 08/23/2017
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -15,7 +15,6 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 27b03f6a-2297-425e-be79-d4e6c960890b
-caps.latest.revision: 17
 author: "Mattp123"
 ms.author: "matp"
 manager: "amyla"
@@ -194,3 +193,4 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
  [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)   
  [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)   
  [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
+ [Performance data collection using keyboard shortcut](../../unified-service-desk\admin\performance-data-collection-using-keyboard-shortcut.md)
