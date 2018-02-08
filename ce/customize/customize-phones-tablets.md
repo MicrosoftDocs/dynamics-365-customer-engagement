@@ -11,7 +11,7 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: a3e6a322-18f7-48bd-aaea-bff7675d1378
 caps.latest.revision: 35
-ms.author: "rdubois"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Customize Dynamics 365 for phones and tablets to work for your business
@@ -87,7 +87,7 @@ That way, if you think phone users need to focus only on the primary information
 |Appointment|Modifiable|Modifiable|  
 |Case|Modifiable|Modifiable|  
 |Competitor|Modifiable|Modifiable|  
-|Connection|Not modifiable|Modifiable|  
+|Connection*|Not modifiable|Modifiable|  
 |Contact|Modifiable|Modifiable|  
 |Lead|Modifiable|Modifiable|  
 |Note|Not modifiable|Not modifiable|  
@@ -99,6 +99,8 @@ That way, if you think phone users need to focus only on the primary information
 |Social Profile|Modifiable|Modifiable|  
 |Task|Modifiable|Modifiable|  
   
+*For [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we support basic connections. For earlier versions, we only support connections for Sales Team and Stakeholders on the Opportunity form.
+
  **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]**  
   
 |Entity Name|[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Visibility Property|[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] Read-only Property|  
