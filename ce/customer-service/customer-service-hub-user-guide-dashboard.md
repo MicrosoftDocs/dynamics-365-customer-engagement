@@ -34,6 +34,9 @@ The interactive dashboards come in two flavors:
 When you sign in to the Customer Service Hub, you’re looking at the Tier 1 multi-stream default dashboard. A multi-stream dashboard displays data in real time over multiple data streams. The data in a stream is based on an entity’s view or a queue, such as My Activities, My Cases, or Cases in the Banking Queue. While a stream always contains information only about one entity, each stream on the dashboard may contain information about a different entity. For example, you may be tracking cases in one stream and accounts in the other stream, but, you can’t track cases and accounts in the same stream. In a multi-stream dashboard all streams may be displaying data based on the same entity.  
   
 You could also be using a multi-stream entity-specific dashboard, such as the Cases dashboard. To open a dashboard like this, navigate to **Service** and down to a specific entity, such as **Cases**. The default **Cases** grid is displayed. To directly open the **Cases** dashboard from the cases grid, select ![open-dashboards](media/open-dashboards-from-case.png) from the command bar.
+
+> [!NOTE]
+> You can access entity dashboards from the command bar on home page grids via **Open Dashboards** command.
   
 Multi-stream dashboards target Tier 1 support, where customer service representatives handle many support cases at the same time. An entity-specific dashboard can be useful for Tier 1 representatives or Tier 2 customer representatives that look at fewer, but, more complex cases. In the multi-stream dashboard, you can easily switch from a standard view to the tile view. The interactive tiles show an aggregated view of the data across the queues or views. You can also select the tile to drill down to the underlying records. The interactive dashboard application opens with the Tier 1 interactive dashboard. However, you can make another selection from the available dashboards, as shown here:  
   
@@ -162,6 +165,9 @@ For example, you can choose to view cases created in **This Quarter**, or  **Las
  Select the quick action menu **(...)** in the top right corner of the work item to open the quick actions menu. From this menu, you can directly resolve or cancel the work item, or assign the work item to another owner, as shown here:  
   
  ![Show quick actions bar](../customer-service/media/interactive-dashboards-show-quick-actions-csh.png "Show quick actions bar")  
+
+> [!NOTE]
+> The Quick action commands on the streams feature the full set of grid commands. These are configurable and are shared between dashboards and grids.
 
 <a name="BKMK_Bulkselect"></a>  
 
