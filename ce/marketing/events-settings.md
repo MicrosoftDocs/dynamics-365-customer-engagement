@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 04813c0e-cbfd-45da-a316-76d23aae759e
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -31,11 +30,11 @@ See the remaining sections of this topic for information about how to work with 
 
 ## Webinar configuration
 
-To run a webinar, your organization must first set up one or more accounts with a webinar provider, and then configure [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to work together with each account so that it can sign in, register attendees, and fetch the URLs that attendees can use to join the webinar itself.
+To run a webinar, your organization must first set up one or more accounts with a webinar provider, and then configure [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to work together with each account so that it can sign in, register attendees, and fetch the URLs that attendees can use to join the webinar itself.
 
-[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] has partnered with a webinar provider called [On24](https://www.on24.com/), so [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is prepared to work with On24 right out of the box. This is the only provider currently supported for use with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].  
+[!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] has partnered with a webinar provider called [On24](https://www.on24.com/), so [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is prepared to work with On24 right out of the box. This is the only provider currently supported for use with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].  
 
-For each On24 account that you want to use with [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], you must set up a dedicated webinar configuration, which identifies the provider and account and stores your sign-in credentials.
+For each On24 account that you want to use with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], you must set up a dedicated webinar configuration, which identifies the provider and account and stores your sign-in credentials.
 
 To set up your webinar provider:
 
