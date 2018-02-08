@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 keywords: "install, solution, manage, uninstall"
-ms.date: 10/19/2017
+ms.date: 02/08/2018
 ms.service: gamification
 ms.topic: get-started-article
 applies_to:
@@ -57,7 +57,7 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
 
 
 > [!TIP]
-> Starting with Gamification solution update 17.10, you can connect multiple organizations (business units) of the same Office 365 tenant to a shared Gamification web portal. Repeat the activation for every organization you want to connect to your shared Gamification portal. Users with the Game Manager securtiy role in Organization A can create games for Organization A in Gamification. If they are regular users in Organization B, they can participate as players or fans in games in Organization B. [Learn how to set up and run games.](run-games.md)
+> Starting with Gamification solution update 17.10, you can connect multiple organizations (business units) of the same Office 365 tenant to a shared Gamification web portal. Repeat the [installation](manage-gamification-in-dynamics-365-online.md#install-dynamics-365---gamification) and [activation](manage-gamification-in-dynamics-365-online.md#activate-gamification-in-dynamics-365-online) for every organization you want to connect to your shared Gamification portal. Users with the Game Manager security role in Organization A can create games for Organization A in Gamification. If they are regular users in Organization B, they can participate as players or fans in games in Organization B. [Learn how to set up and run games.](run-games.md)
   
 ### Activate the Gamification portal for your organization  
   
