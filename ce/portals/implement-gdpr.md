@@ -26,7 +26,7 @@ GDPR allows you to obtain consent from portal users about the use of their perso
 
 ## Audit logging
 
-The **Last logon** field is added to the portal contact record to show when a portal user last logged in. This date is picked up by a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] audit of the contact record and makes that information available in the standard audit stream. This allows the administrator to see inactive community members and delete their records.
+The **Last Successful Sign-in** field in the portal contact record shows when a portal user has last logged in. This date is picked up by a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] audit of the contact record and makes that information available in the standard audit stream. This allows the administrator to see inactive community members and delete their records.
 
 ## Identifying minor portal users and obtaining parental consent
 
