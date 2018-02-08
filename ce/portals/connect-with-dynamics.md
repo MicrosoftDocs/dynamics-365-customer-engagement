@@ -24,7 +24,7 @@ A portal connects to a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md
 
 Each portal has a separate Azure Active Directory application associated with it, whether it is connected to the same [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization or not. The default Azure Active Directory authentication provider created for a portal uses the same Azure Active Directory application to authenticate the portal. Authorization is enforced by web roles assigned to the user accessing the portal.
 
-You can see the associated portal application in Azure Active Directory. The name of this application will be Microsoft CRM Portals, and the portal ID is in the **App ID URI** field. The person who provisions the portal owns this application. You should not delete or modify this application, or you might break the portal functionality. You must be the application owner to manage a portal from the Portal Admin Center.
+You can see the associated portal application in Azure Active Directory. The name of this application will be Microsoft CRM Portals, and the portal ID is in the **App ID URI** field in the Azure Active Directory application. The person who provisions the portal owns this application. You should not delete or modify this application, or you might break the portal functionality. You must be the application owner to manage a portal from the Portal Admin Center.
 
 ## Authentication key
 
@@ -121,3 +121,5 @@ You must renew the key every two years to ensure that your portal can connect to
 
 If the key update fails, an error message is displayed along with the following action:
 - **Retry Authentication Key Update**. This action allows you to restart the portal authentication key update process. If the update fails multiple times, contact Microsoft support.
+
+  ![Retry portal authentication key update](media/retry-auth-key-update.png "Retry portal authentication key update")
