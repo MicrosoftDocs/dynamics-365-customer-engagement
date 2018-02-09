@@ -434,7 +434,7 @@ Admins can choose what information to sync to user's devices. This can help mini
  |like|  
  |not-like|  
  |in|  
- not-in|  
+ |not-in|  
  |null|  
  |not-null|  
  |eq-userid|  
@@ -446,9 +446,9 @@ Admins can choose what information to sync to user's devices. This can help mini
  |eq-businessid|  
  |ne-businessid|  
  |eq-userlanguage|  
- begins-with|  
+ |begins-with|  
  |not-begin-with|  
- ends-with|  
+ |ends-with|  
  |not-end-with|
 
  
