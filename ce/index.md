@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Product documentation for Dynamics 365 Customer Engagement apps and services. Formerly known as Dynamics CRM."
-ms.date: 01/08/2018
+ms.date: 02/09/2018
 ms.service: "crm-online"
 ms.topic: "index-page"
 ms.custom: "dyn365-core"
@@ -29,7 +29,6 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 <li>[Administrator Guide](admin/index.md)</li>
 <li>[Customization Guide ](customize/index.md)</li>
 <li>[Reporting and Analytics Guide](analytics/index.md)</li>
-<li>[Portals Guide](portals/index.md)</li>
 <li>[Developer Guide ](developer/index.md)</li>
 </td>
 <td>
@@ -52,6 +51,7 @@ These guides provide in-depth information about specific apps, solutions and rel
 <!-- <li>[Marketing](marketing/index.md)</li> -->
 <li>[Field Service](field-service/index.md)</li>
 <li>[Project Service Automation](project-service/index.md)</li>
+<li>[Portals](portals/index.md)</li>
 </td>
 <td>
 <li>[Voice of the Customer](voice-of-customer/index.md)</li>
