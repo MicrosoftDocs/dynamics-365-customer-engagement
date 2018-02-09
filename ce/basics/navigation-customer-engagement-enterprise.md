@@ -203,7 +203,7 @@ With [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engage
   
  [Dynamics 365 for Field Service - User Guide](../field-service/user-guide.md)  
   
- [Dynamics 365 for Project Service Automation - User Guide](../field-service/user-guide.md)  
+ [Dynamics 365 for Project Service Automation - Overview and guides(../project-service-automation/overview.md)  
   
  [Administrator's Guide to Dynamics 365](../admin/admin-guide.md)  
   
