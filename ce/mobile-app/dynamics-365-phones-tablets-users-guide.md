@@ -423,8 +423,8 @@ Admins can choose what information to sync to user's devices. This can help mini
   
  Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
- ||  
- |-|  
+ |    |  
+ |----|  
  |equal|  
  |not equal|  
  |gt – greater than|  
@@ -451,7 +451,6 @@ Admins can choose what information to sync to user's devices. This can help mini
  |ends-with|  
  |not-end-with|
 
- 
  <!-- (Temp change: cutting this section out for now since no one can verify that Cortana voice commands work in Potassium. It has not been tested and there is no PM/test owner for this feature)
 ## Use Cortana voice commands
 You can use the following [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] voice commands with Cortana if you’re using Cortana on Windows 8.1 phones or later. Cortana voice commands for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are only available in English at this time.
