@@ -34,20 +34,19 @@ Deleting an author has the following impact:
 
 1. In **Social Engagement** go to **Analytics** > **Overview**
 
-2. Extend the time frame to include the past two years. This ensures that you review all available data in Social Engagement. 
+2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past two years.    
+   Since posts are stored for two years, this ensures that you review all available data in Social Engagement and find the author if they published a post that we acquired some time ago. 
 
-3. In the filter menu, select the **Author** filter. 
+3. Select the **Author** filter [using the filter menu](use-filters.md#add-edit-or-remove-a-filter). 
 
 4. Search for the author name and apply the filter to see all posts of this author. 
    > [!NOTE]
    > If you are requested to remove information about a specific author, we recommend that you confirm the identity of that author first to validate the request. To confirm the identity, you can ask for a direct message from the author. If they have access to the social media profile, they are likely to own it and have a valid request.
 
-5. In **Analytics > Overview**, select **Widget actions** ![Widget actions symbol](media/more-options-icon.png "Widget actions symbol") and select **Expand to full view** ![Expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
+5. Go to **Analytics > Overview**. In the **Authors** widget, select **Widget actions** ![Widget actions symbol](media/more-options-icon.png "Widget actions symbol") and select **Expand to full view** ![Expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
 
 6. In the expanded view, select the **Remove Author** ![Remove author symbol](media/trashbin-icon.png "Remove author symbol")symbol and confirm your deletion.    
 ![Remove author control in full view of Authors widget](media/remove-author-full-view.png "Remove author control in full view of Authors widget")
-
-All posts from the author are deleted from the database and no new posts from the author will be acquired in the future. 
 
 <!-- ## Export author information
 
