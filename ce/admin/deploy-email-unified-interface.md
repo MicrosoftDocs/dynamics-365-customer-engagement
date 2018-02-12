@@ -74,5 +74,5 @@ Here, you can read and manage your emails in the Email in Unified Interface app.
 
 ### See also
 
-[Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
+[Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)<br/>
 [Find your way around [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Customer Engagement apps](../basics/navigation-customer-engagement-enterprise.md)
