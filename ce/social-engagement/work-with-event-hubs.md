@@ -2,7 +2,7 @@
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
 description: "Learn how to work with events in Event Hubs."
 keywords: "event hubs, stream analytics, authomation rule"
-ms.date: 02/07/2018
+ms.date: 02/12/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -148,7 +148,7 @@ topic-status: Drafting
     3.  Example 3: In this example, we select the name of a matching search topic in addition to the id, title, acquisition date and time, source name, and the content excerpt of posts. We're using the [GetArrayElement function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelement-azure-stream-analytics) to select the first object of the [post.matchingSearchTopic](event-hubs-json-reference-social-engagement.md#document.matchingSeachTopics) array. To select all objects of the array, you can use the [GetArrayElements function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelements-azure-stream-analytics).
 
         ```
-        WITH current_window AS
+        WITH sub_query AS
         (
             SELECT
                 post.id,
@@ -174,7 +174,7 @@ topic-status: Drafting
         INTO
             [your-output-sink-alias]
         FROM
-            current_window
+            sub_query
         ```
 
   
