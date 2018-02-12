@@ -54,12 +54,17 @@ For users who want to have accessible email access, follow these steps.
   
 4.  In the **Manage User Roles** dialog box, select the **Email app access role** security role, and then select **OK**.  
 
+**Notify users**
+
+Once the app is installed, notify users that they need to reload the web application to see and use the accessible email flow.
+
 ## For end users: Use the accessible email flow
 
 Users with the **Email app access role**, go to **Sales**, **Service**, or **Marketing**. Select **Email Messages** to open emails.
 
 > [!NOTE]
-> If you don't see **Sales**, **Service**, or **Marketing**, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been customized. Talk to your administrator or customizer.
+> - If you don't see **Sales**, **Service**, or **Marketing**, your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has been customized. Talk to your administrator or customizer.
+> - **Email Messages** will not appear if **Activities** has been customized to not be included in the sitemap.
 
 ![Select Email Messages](media/select-email-messages75.png "Select Email Messages")
 
