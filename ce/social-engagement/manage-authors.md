@@ -44,7 +44,8 @@ Deleting an author has the following impact:
 
 5. In **Analytics > Overview**, select **Widget actions** ![Widget actions symbol](media/more-options-icon.png "Widget actions symbol") and select **Expand to full view** ![Expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
 
-6. In the expanded view, select the **Remove Author** ![Remove author symbol](media/trashbin-icon.png "Remove author symbol")symbol and confirm your deletion.
+6. In the expanded view, select the **Remove Author** ![Remove author symbol](media/trashbin-icon.png "Remove author symbol")symbol and confirm your deletion.    
+![Remove author control in full view of Authors widget](media/remove-author-full-view.png "Remove author control in full view of Authors widget")
 
 All posts from the author are deleted from the database and no new posts from the author will be acquired in the future. 
 
