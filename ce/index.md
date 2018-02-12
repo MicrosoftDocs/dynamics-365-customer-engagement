@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Product documentation for Dynamics 365 Customer Engagement apps and services. Formerly known as Dynamics CRM."
-ms.date: 02/09/2018
+ms.date: 02/12/2018
 ms.service: "crm-online"
 ms.topic: "index-page"
 ms.custom: "dyn365-core"
