@@ -2,7 +2,7 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete and export information about authors of posts."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 02/07/2018
+ms.date: 02/12/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -36,15 +36,15 @@ Deleting an author has the following impact:
 
 2. Extend the time frame to include the past two years. This ensures that you review all available data in Social Engagement. 
 
-2. In the filter menu, select the **Author** filter. 
+3. In the filter menu, select the **Author** filter. 
 
-3. Search for the author name and apply the filter to see all posts of this author. 
+4. Search for the author name and apply the filter to see all posts of this author. 
    > [!NOTE]
    > If you are requested to remove information about a specific author, we recommend that you confirm the identity of that author first to validate the request. To confirm the identity, you can ask for a direct message from the author. If they have access to the social media profile, they are likely to own it and have a valid request.
 
-4. In **Analytics > Overview**, open the **Authors** widget to full-view.
+5. In **Analytics > Overview**, select **Widget actions** ![Widget actions symbol](media/more-options-icon.png "Widget actions symbol") and select **Expand to full view** ![Expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
 
-5. In the expanded view, select the trashbin icon.
+6. In the expanded view, select the **Remove Author** ![Remove author symbol](media/trashbin-icon.png "Remove author symbol")symbol and confirm your deletion.
 
 All posts from the author are deleted from the database and no new posts from the author will be acquired in the future. 
 
