@@ -127,7 +127,7 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 -   A virtual entity can't be an activity type of entity.  
   
--   Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 web portal solutions, and N:N relationships.  
+-   Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 web portal solutions, and N:N relationships between virtual entities.  
   
 -   Virtual entities are organization owned and don't support the row-level [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] security concepts. We recommend that you implement your own security model for the external data source.  
   
