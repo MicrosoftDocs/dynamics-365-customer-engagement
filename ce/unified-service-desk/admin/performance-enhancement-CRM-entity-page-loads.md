@@ -55,7 +55,23 @@ To enable Internet Explorer pooling:
 
 ## Known issues
 
-Closing a CRM entity page when **InternetExplorerPooling** is enabled may cause the CRM entity page to load continuously. In this case, you need to open the CRM entity page again to continue working.
+### Closing CRM entity page starts loading but never completes loading
+
+When **InternetExplorerPooling** is enabled, and if you close a CRM entity page hosted in Unified Service Desk using the close (x) button (see Image 1), the CRM entity page to starts loading but never completes loading (see Image 2). 
+
+  _Image 1: Closing CRM entity page hosted in Unified Service Desk using close (x) button_
+  ![Closing CRM entity page hosted in Unified Service Desk using close button](../../unified-service-desk/media/usd-crm-page-hosted-close-button.PNG "Closing CRM entity page hosted in Unified Service Desk using close button")
+  
+  _Image 2: CRM entity page start loading but never completes loading_
+  ![CRM entity page start loading but never completes loading](../../unified-service-desk/media/usd-crm-page-hosted-never-completes-loading.PNG "CRM entity page start loading but never completes loading")
+
+#### **Workaround**
+
+When the CRM entity page starts loading but never completes loading, you need to close the CRM entity page and open the page again to continue working (see Image 3).
+
+_Image 3: Close CRM entity to continue working_
+![Close CRM entity to continue working](../../unified-service-desk/media/usd-crm-page-hosted-close-crm-page.PNG "Close CRM entity to continue working")
+
 
 ## See also
 
