@@ -35,38 +35,45 @@ Once registered, an application can access the web services using HTTP requests 
   
 - **For a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] deployment**:-->  
   
--   The user must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] system user account with administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] subscription.  
+-   The user must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user account with System Administrator security role and the global administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] subscription.  
   
 -   An [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
   
  <!--For either deployment type, you must know the redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URI](walkthrough-register-app-active-directory.md#bkmk_redirect).-->  
     
 <a name="bkmk_online"></a>   
-## App registration for OAuth authentication  
- **Scenario**: A person with a Dynamics 365 system user account accesses organization data through a desktop client or mobile application.  
-  
-### Tasks performed by end user or application developer  
-  
-1.  Registers the external application in [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] and provides a **redirect URI** during the registration process. The URI can be any valid and appropriate URI. The [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] app registration process results in the generation of an **application ID** (previously called **client ID**) string.  
-  
-2.  Configures the application by entering the **application ID** and **redirect URI** in the app’s authentication code or configuration file when instructed on the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] app registration page.  
-  
- **Scenario**: An ISV creates and registers an app that is later published in the app store. The ISV’s customers download the app from the store and use it to connect to their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or Internet-facing deployment (IFD) organization.  
-  
-### Tasks performed by ISV  
-  
-1.  Registers the app in the ISV’s tenant using the steps provided in the previous scenario (above).  
-  
-### Tasks performed by each customer who downloads the app  
-  
-1.  When accessing a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization in the customer’s tenant, the customer will be presented with a consent form.  
-  
-2.  The customer reads the information on the form and clicks **OK** to consent.
+## App registration for OAuth authentication
 
-    -  For *native apps*, the customer has to consent each time he or she is prompted to authenticate again.
-    -  For *web apps*, the customer is only asked to consent one time. The workaround to bypass the consent form is for the customer to register the app in the customer’s tenant
+Here are two scenarios where you register an app with Azure Active Directory to use the credentials of a user who is accessing the client application to connect to Dynamics 365 Customer Engagement online instance using OAuth authentication.
+
+To know about using Server-to-Server (S2S) authentication to connect to Dynamics 365 Customer Engagement online instance using an application user, see [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md). 
+
+- **Scenario A**: A person with a Dynamics 365 system user account accesses organization data through a desktop client or mobile application.
+
+    > [!IMPORTANT]
+    > For information about using Server-to-Server (S2S) authentication to connect to your Dynamics 365 customer engagement instance, see . 
   
-3.  (Optional) The customer register’s the app in the customer’s tenant.  
+    ### Tasks performed by user or application developer  
+  
+    1.  Registers an app in the same tenant in Azure Active Directory as the Dynamics 365 Customer Engagement Online instance. While registering the app, provides a **redirect URI**. The URI can be any valid and appropriate URI. The Azure Active Directory app registration process results in the generation of an **application ID** (previously called **client ID**) string.
+
+    1.  Uses the **redirect URI** and **application ID** obtained from the previous step in the desktop or mobile app’s authentication code or configuration file.
+
+    1. On running the desktop or mobile app for this first time, a consent form is displayed where the user needs to provide the authentication details to connect to their Dynamics 365 Customer Engagement Online instance.
+  
+- **Scenario B**: An ISV creates and registers an app that is later published in the app store. The ISV’s customers download the app from the store and use it to connect to their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance by using their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] credentials.
+  
+    ### Tasks performed by ISV  
+  
+    1. Registers an app in the ISV tenant in Azure Active Directory. While registering the app, provides a **redirect URI**. The URI can be any valid and appropriate URI. The Azure Active Directory app registration process results in the generation of an **application ID** (previously called **client ID**) string.
+
+    1. Creates an app that uses the **redirect URI** and **application ID** values from the previous step to authenticate to Dynamics 365 Customer Engagement Online instance. The ISV later publishes the app to the AppStore.  
+  
+    ### Tasks performed by each customer who downloads the app  
+  
+    1.  Customer downloads and runs the app to connect to his/her Dynamics 365 Customer Engagement Online instance.
+     
+    3. On running the app for the first time, the customer will be presented with a consent form. The customer has to approve the consent form, and then provide his/her Dynamics 365 Customer Engagement credentials to connect to their instance.
   
   
 ### How to: Register an application with Microsoft Azure  
@@ -76,7 +83,9 @@ Once registered, an application can access the web services using HTTP requests 
     > [!NOTE]
     > If you don’t have an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] tenant (account) or you do have one but your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is not available in your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment) to associate the two accounts.<br><br> If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/)  
   
-2.  In the Azure management portal, select **Azure Active Directory** in the left column of the page. You may need to scroll the left column to see the **Azure Active Directory** icon and label.  
+2. In the Azure management portal, follow the steps as described in the [Adding an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#adding-an-application) section in the Azure Active Directory developers guide to create an app.  
+
+<!--In the Azure management portal, select **Azure Active Directory** in the left column of the page. You may need to scroll the left column to see the **Azure Active Directory** icon and label.
   
 3.  If you have multiple tenant directories, select **Switch directory** to select the desired tenant directory.  
   
@@ -96,20 +105,19 @@ Once registered, an application can access the web services using HTTP requests 
     Both the **Redirect URI** and **Sign-On URL** values act as the redirect or reply URI that is used by Azure AD to return token responses. Copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate. You can also copy it later from the application settings page, and even change or add additional URIs to the app. See step 8.
 
     > [!TIP]
-    > Click exclamation mark **!** for more information on the appropriate values for each input field. You can also find detailed information about these fields here: [Adding an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#adding-an-application) 
+    > Click exclamation mark **!** for more information on the appropriate values for each input field. You can also find detailed information about these fields here: [Adding an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#adding-an-application)--> 
   
-7. Select **Create** in the lower part of the page to continue. Azure AD assigns a unique Application ID (previously called Client ID) to your application, and the newly registered app appears on the registered apps page. Click the app to open the app information page.
+3. On creating an app in Azure Active Directory, a unique Application ID (previously called Client ID) is generated for your application, and the newly registered app appears on the registered apps page. Click the app to open the app information page.
 
 1. On the app information page, hover over **Application ID** (previously called **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
 
     ![Copy application ID](media/Azure-copy-app-id.png "Copy application ID")
   
-9. Select **Settings** in the app info page, and then select **Required permissions** > **Add** to add permissions for the registered app.
+9. Select **Settings** in the app info page, and use the **Redirect URIs** option on the **Settings** page to copy the redirect URI value for your app. You can also change and add additional URIs if required. For an app of **Web app / API** application type, you will see **Reply URLs** option instead of the **Redirect URIs** option.
+
+1. On the **Settings** page, select **Required permissions** > **Add** to add permissions for the registered app.
 
     ![Add app permission](media/Azure-add-app-permission.png "Add app permission")
-
-    > [!IMPORTANT]
-    > The **Redirect URIs** option on the **Settings** page lets you change the redirect URI that you specified while creating an app (of **Native** application type), and add additional URIs if required. For an app of **Web app / API** application type, you will see **Reply URLs** option instead of the **Redirect URIs**.
   
 10. On the **Add API access** page:
     - Select **Select an API** > **Dynamics CRM Online**, and then click **Select**.
