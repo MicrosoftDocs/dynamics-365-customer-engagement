@@ -31,6 +31,8 @@
   items:    
   - name: Voice of the Customer
     href: voice-of-customer/index.md
+  - name: Portals
+    href: portals/index.md
   - name: LinkedIn
     href: linkedin/index.md
   - name: Live Assist, powered by Café X
