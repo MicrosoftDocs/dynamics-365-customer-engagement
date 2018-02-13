@@ -12,9 +12,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5ec1a73d-06cb-4d40-adab-8bb293bcedbb
 caps.latest.revision: 62
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
 # Configure Relevance Search to improve search results and performance 
 
