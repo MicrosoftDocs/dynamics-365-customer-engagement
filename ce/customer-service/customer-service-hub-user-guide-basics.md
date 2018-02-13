@@ -270,6 +270,7 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
  Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
+
 <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/ruAPEKY5vNc?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
 > [!NOTE]
