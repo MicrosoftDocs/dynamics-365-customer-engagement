@@ -80,43 +80,21 @@ To know about using Server-to-Server (S2S) authentication to connect to Dynamics
     > [!NOTE]
     > If you don’t have an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] tenant (account) or you do have one but your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] is not available in your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription, following the instructions in the topic [Set up Azure Active Directory access for your Developer Site](https://msdn.microsoft.com/office/office365/HowTo/setup-development-environment) to associate the two accounts.<br><br> If you don’t have an account, you can sign up for one by using a credit card. However, the account is free for application registration and your credit card won’t be charged if you only follow the procedures called out in this topic to register one or more apps. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Active Directory Pricing Details](http://azure.microsoft.com/pricing/details/active-directory/)  
   
-2. In the Azure management portal, follow the steps as described in the [Adding an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#adding-an-application) section in the Azure Active Directory developers guide to create an app.  
-
-<!--In the Azure management portal, select **Azure Active Directory** in the left column of the page. You may need to scroll the left column to see the **Azure Active Directory** icon and label.
+1. In the Azure management portal, follow the steps as described in the [Adding an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#adding-an-application) section in the Azure Active Directory developers guide to create an app. 
   
-3.  If you have multiple tenant directories, select **Switch directory** to select the desired tenant directory.  
-  
-    ![List of available Active Directory entries](media/Azure-select-directory.png "List of available Active Directory entries")     
-  
-4.  For the selected tenant directory, select **App registrations** > **New application registration**. 
+1. On creating an app in Azure Active Directory, a unique **Application ID** (previously called **Client ID**) is generated for your application, and the newly registered app appears on the registered apps page. Click the app to open the app information page.
 
-    ![New app registration](media/Azure-app-registration.png "New app registration")
-  
-5.  On the **Create** page, type an appropriate **Name** for your application and select an **Application type**.
-    - If you select **Native** as the application type, you have to specify a **Redirect URI** value.
-    ![Create native app registration](media/Azure-create-reg-app.png "Create native app registration")
-
-    - If you select **Web app / API** as the application type, you have to specify a **Sign-On URL** value.
-    ![Create web app registration](media/Azure-create-reg-app1.png "Create web app registration")
-
-    Both the **Redirect URI** and **Sign-On URL** values act as the redirect or reply URI that is used by Azure AD to return token responses. Copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate. You can also copy it later from the application settings page, and even change or add additional URIs to the app. See step 8.
-
-    > [!TIP]
-    > Click exclamation mark **!** for more information on the appropriate values for each input field. You can also find detailed information about these fields here: [Adding an application](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-integrating-applications#adding-an-application)--> 
-  
-3. On creating an app in Azure Active Directory, a unique Application ID (previously called Client ID) is generated for your application, and the newly registered app appears on the registered apps page. Click the app to open the app information page.
-
-4. On the app information page, hover over **Application ID** (previously called **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
+1. On the app information page, hover over **Application ID** (previously called **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
 
     ![Copy application ID](media/Azure-copy-app-id.png "Copy application ID")
   
-5. Select **Settings** in the app info page, and use the **Redirect URIs** option on the **Settings** page to copy the redirect URI value for your app. You can also change and add additional URIs if required. For an app of **Web app / API** application type, you will see **Reply URLs** option instead of the **Redirect URIs** option.
+1. Select **Settings** in the app info page, and use the **Redirect URIs** option on the **Settings** page to copy the redirect URI value for your app. You can also change and add additional URIs if required. For an app of **Web app / API** application type, you will see **Reply URLs** option instead of the **Redirect URIs** option.
 
-6. On the **Settings** page, select **Required permissions** > **Add** to add permissions for the registered app.
+1. On the **Settings** page, select **Required permissions** > **Add** to add permissions for the registered app.
 
     ![Add app permission](media/Azure-add-app-permission.png "Add app permission")
   
-7. On the **Add API access** page:
+1. On the **Add API access** page:
     - Select **Select an API** > **Dynamics CRM Online**, and then click **Select**.
 
       ![Add app permission](media/Azure-add-api-access.png "Add app permission")  
@@ -128,9 +106,7 @@ To know about using Server-to-Server (S2S) authentication to connect to Dynamics
     - Select **Done** to add the delegated permission to the registered app.
 
 This completes the registration of your application in Azure Active Directory.
-     
-> [!NOTE]
-> For detailed information about registering an app in [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)], see [Application registration](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications).  
+       
   
 <!--### Register an application with AD FS  
   
