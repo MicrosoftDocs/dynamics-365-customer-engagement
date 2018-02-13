@@ -160,7 +160,7 @@ Sales and Customer Service web client apps
     occurs while trying to assign a security role to a newly created user.
 
 Sales Hub and Customer Service Hub apps 
-========================================
+---------------------------------------
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
