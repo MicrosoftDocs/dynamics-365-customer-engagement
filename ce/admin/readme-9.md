@@ -249,12 +249,12 @@ in the browser or on mobile devices for each scenario. 
 
  -   Access team template definition is currently not supported.
 
--   When you use the Associate Child Cases action on the cases grid and try to
+ -   When you use the Associate Child Cases action on the cases grid and try to
     associate a large number of case records in a Parent-child relationship, a
     maximum of 25 case records is shown in the **Set Parent Child Relationship**
     dialog.
 
--   Fallback forms are shown for the main forms for Category, Feedback, and
+ -   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
     the forms manually.
