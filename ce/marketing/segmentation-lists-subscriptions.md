@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 2ff81085-af7a-455b-857a-0aa0ade61416
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -41,7 +40,7 @@ Segments can be dynamic, static, or compound.
 
 ### Segments are synced with Customer Insights
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with another product called *[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]* to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] apply its powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] records and information from other systems. You can also access [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] directly to make use of its additional analytical tools and other features. [!include[](../includes/proc-more-information.md)] [Customer Insights online help](https://go.microsoft.com/fwlink/p/?linkid=863946)
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with another product called *[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]* to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] apply its powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] records and information from other systems. You can also access [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] directly to make use of its additional analytical tools and other features. [!include[](../includes/proc-more-information.md)] [Customer Insights online help](https://go.microsoft.com/fwlink/p/?linkid=863946)
 
 ### Segments must be live before you can use them
 
@@ -61,13 +60,13 @@ Segment records provide several tabs for describing, defining, and reviewing the
 
 The **General** tab provides general information about the segment, including:
 
-- **Name**: Enter a name that will make the segment easy for you and others to identify while working in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+- **Name**: Enter a name that will make the segment easy for you and others to identify while working in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 - **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for pupulating the list on the **Definition** tab.
 - **Status reason**: Shows whether the segment is draft or live. Only live segments are available for use in customer journeys and compound segments.
 
 ### The Definition tab
 
-Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For marketing lists, you'll be able to choose from lists created in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and synchronized to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
+Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For marketing lists, you'll be able to choose from lists created in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and synchronized to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
 
 The settings on this tab are described in more detail later in this topic.
 
@@ -177,7 +176,7 @@ A compound segment combines one or more existing segments into a single new segm
 1. Continue to compose your segment by adding more segments as needed and choosing an operation for each. As with the **Flow** view for dynamic, segments, you'll build a Sankey diagram of how your segments are combined, and how contacts flow into and out of the segment as a result of each operation.  
     ![Sankey diagram for a compound segment](media/segment-compound-step4.png "Sankey diagram for a compound segment")
     > [!TIP]
-    > To edit or remove a segment already shown in the diagram, hover your mouse pointer over the upper-right corner of a displayed tile to reveal edit and delete buttons, which you can select to edit or delete that tile.
+    > To edit or remove a segment already shown in the diagram, hover over the upper-right corner of a displayed tile to reveal edit and delete buttons, which you can select to edit or delete that tile.
 
 ## Set up marketing lists for use with subscription centers
 

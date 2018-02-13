@@ -57,7 +57,7 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Upload and use images and files](upload-images-files.md)
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
-#### [Use suppression segments to respect unsubscribe requests](suppression-segments.md)
+#### [Use suppression segments to apply unsubscribe requests](suppression-segments.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Engage customers online with portals](portals.md)
