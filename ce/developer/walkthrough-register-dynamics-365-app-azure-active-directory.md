@@ -64,13 +64,13 @@ To know about using Server-to-Server (S2S) authentication to connect to Dynamics
   
     1. Registers an app in the ISV tenant in Azure Active Directory. While registering the app, provides a **redirect URI**. The URI can be any valid and appropriate URI. The Azure Active Directory app registration process results in the generation of an **application ID** (previously called **client ID**) string.
 
-    1. Creates an app that uses the **redirect URI** and **application ID** values from the previous step to authenticate to Dynamics 365 Customer Engagement Online instance. The ISV later publishes the app to the AppStore.  
+    2. Creates an app that uses the **redirect URI** and **application ID** values from the previous step to authenticate to Dynamics 365 Customer Engagement Online instance. The ISV later publishes the app to the AppStore.  
   
     ### Tasks performed by each customer who downloads the app  
   
     1.  Customer downloads and runs the app to connect to his/her Dynamics 365 Customer Engagement Online instance.
      
-    3. On running the app for the first time, the customer will be presented with a consent form. The customer has to approve the consent form, and then provide his/her Dynamics 365 Customer Engagement credentials to connect to their instance.
+    2. On running the app for the first time, the customer will be presented with a consent form. The customer has to approve the consent form, and then provide his/her Dynamics 365 Customer Engagement credentials to connect to their instance.
   
   
 ### How to: Register an application with Microsoft Azure  
@@ -106,17 +106,17 @@ To know about using Server-to-Server (S2S) authentication to connect to Dynamics
   
 3. On creating an app in Azure Active Directory, a unique Application ID (previously called Client ID) is generated for your application, and the newly registered app appears on the registered apps page. Click the app to open the app information page.
 
-1. On the app information page, hover over **Application ID** (previously called **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
+4. On the app information page, hover over **Application ID** (previously called **Client ID**) value, and select the **Click to copy** icon to copy the value as you’ll need to specify this in your application’s authentication code or app.config file where appropriate.
 
     ![Copy application ID](media/Azure-copy-app-id.png "Copy application ID")
   
-9. Select **Settings** in the app info page, and use the **Redirect URIs** option on the **Settings** page to copy the redirect URI value for your app. You can also change and add additional URIs if required. For an app of **Web app / API** application type, you will see **Reply URLs** option instead of the **Redirect URIs** option.
+5. Select **Settings** in the app info page, and use the **Redirect URIs** option on the **Settings** page to copy the redirect URI value for your app. You can also change and add additional URIs if required. For an app of **Web app / API** application type, you will see **Reply URLs** option instead of the **Redirect URIs** option.
 
-1. On the **Settings** page, select **Required permissions** > **Add** to add permissions for the registered app.
+6. On the **Settings** page, select **Required permissions** > **Add** to add permissions for the registered app.
 
     ![Add app permission](media/Azure-add-app-permission.png "Add app permission")
   
-10. On the **Add API access** page:
+7. On the **Add API access** page:
     - Select **Select an API** > **Dynamics CRM Online**, and then click **Select**.
 
       ![Add app permission](media/Azure-add-api-access.png "Add app permission")  
