@@ -10,7 +10,7 @@ By enabling Relevance Search, data in participating entities and attributes in y
   
  [Azure Search Services](https://azure.microsoft.com/services/search/)  
   
- An [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Search index is used to provide high-quality search results with quick response times.  [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Search adds powerful and sophisticated next-generation search capabilities to [!INCLUDE[pn_dynamics_crm_online](pn-dynamics-crm-online.md)].  This is a dedicated search service external to [!INCLUDE[pn_dynamics_crm_online](pn-dynamics-crm-online.md)] provided by [!INCLUDE[pn_Windows_Azure](pn-windows-azure.md)]. Data in the [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Search index is not encrypted at rest, but is only accessible by the Relevance Search infrastructure.  
+ An [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Search index is used to provide high-quality search results with quick response times.  [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Search adds powerful and sophisticated next-generation search capabilities to [!INCLUDE[pn_dynamics_crm_online](pn-dynamics-crm-online.md)].  This is a dedicated search service external to [!INCLUDE[pn_dynamics_crm_online](pn-dynamics-crm-online.md)] provided by [!INCLUDE[pn_Windows_Azure](pn-windows-azure.md)]. All new [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Search indexes are encrypted at rest.  If you opted in before January 24, 2018, you'll need to reindex your data by opting out of Relevance Search, waiting an hour, and opting back in.  
   
  [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)  
   
