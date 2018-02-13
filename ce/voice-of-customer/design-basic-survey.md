@@ -275,6 +275,9 @@ You can reuse existing questions and sections to avoid creating the same questio
 
 -   If you want to move a survey from one environment to another, you can import the survey.
 
+> [!NOTE]
+> Importing or cloning a survey more than 1 MB is not supported.
+
 ### Clone a survey
 
 Cloning a survey means creating an exact duplicate survey where only the name is different. The new survey is created with an integer appended to the survey name. The cloned survey will be in Draft status. The questions are separate from the first survey, and any changes to one survey are not reflected in the other survey.
