@@ -245,9 +245,9 @@ in the browser or on mobile devices for each scenario. 
 
 -   Other
 
--   User and team queues aren't available in the Add to Queue lookup.
+ -   User and team queues aren't available in the Add to Queue lookup.
 
--   Access team template definition is currently not supported.
+ -   Access team template definition is currently not supported.
 
 -   When you use the Associate Child Cases action on the cases grid and try to
     associate a large number of case records in a Parent-child relationship, a
