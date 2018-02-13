@@ -44,15 +44,12 @@ Once registered, an application can access the web services using HTTP requests 
 <a name="bkmk_online"></a>   
 ## App registration for OAuth authentication
 
-Here are two scenarios where you register an app with Azure Active Directory to use the credentials of a user who is accessing the client application to connect to Dynamics 365 Customer Engagement online instance using OAuth authentication.
+Here are two scenarios where you register an app with Azure Active Directory to use the credentials of a user who is using an application to connect to Dynamics 365 Customer Engagement online instance using OAuth authentication.
 
 To know about using Server-to-Server (S2S) authentication to connect to Dynamics 365 Customer Engagement online instance using an application user, see [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md). 
 
 - **Scenario A**: A person with a Dynamics 365 system user account accesses organization data through a desktop client or mobile application.
 
-    > [!IMPORTANT]
-    > For information about using Server-to-Server (S2S) authentication to connect to your Dynamics 365 customer engagement instance, see . 
-  
     ### Tasks performed by user or application developer  
   
     1.  Registers an app in the same tenant in Azure Active Directory as the Dynamics 365 Customer Engagement Online instance. While registering the app, provides a **redirect URI**. The URI can be any valid and appropriate URI. The Azure Active Directory app registration process results in the generation of an **application ID** (previously called **client ID**) string.
