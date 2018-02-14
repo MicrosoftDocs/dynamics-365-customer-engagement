@@ -14,7 +14,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: d4729c71-35d1-4286-ac83-f421904685f7
 caps.latest.revision: 9
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
 ---
 # Connected Field Service architecture
 

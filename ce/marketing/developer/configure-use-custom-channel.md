@@ -12,7 +12,6 @@ applies_to:
 ms.assetid: 9dacec8b-7b41-4cc2-be2d-d30929627bfc
 author: "KumarVivek"
 ms.author: "kvivek"
-robots: noindex,nofollow
 manager: "amyla"
 ---
 # Configure and use custom channel

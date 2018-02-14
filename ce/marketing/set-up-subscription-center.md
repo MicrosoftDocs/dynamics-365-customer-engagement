@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 21159fd7-50cc-4879-884c-888bc0d6b457
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -37,6 +36,11 @@ Each subscription list exists as a static marketing list in [!INCLUDE[pn-crm-201
 The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register with your site.
 
 A default subscription center is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but it is very simple: it includes the minimum contact fields and the required **do not bulk email** check box. In this exercise, we'll walk through the process of creating a subscription list and adding it to a subscription form. We'll also point out how to choose a subscription center in content settings and how to assign content settings to a customer journey.
+
+> [!IMPORTANT]
+> Normally, all contacts that start on a customer journey will remain on that journey until they reach the end&mdash;even if they unsubscribe while the journey is running. For journeys that take more than a few days to traverse, this can mean that contacts may continue to receive marketing messages even long after they have unsubscribed. Failure to implement unsubscribe requests in a timely manner may expose your organization to litigation and penalties. It is your responsibility to familiarize yourself with and conform to all applicable regulations in the countries/regions targeted by your marketing campaigns.
+> 
+> To create a customer journey that applies unsubscribe requests received mid-run, add a suppression segment to the journey as described in [Use suppression segments to apply unsubscribe requests](suppression-segments.md).
 
 ## Create a subscription list
 
@@ -219,6 +223,7 @@ To set up a segment based on a subscription list:
 
 ### See also
 
+[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
 [Create a segment](create-segment.md)  
 [Find your way around](navigation.md)  

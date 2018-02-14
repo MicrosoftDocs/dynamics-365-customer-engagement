@@ -22,9 +22,9 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
  You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
- See this video to know more about case management in the Customer Service Hub:
+ Watch this video to learn more about case management in the Customer Service Hub:
 
-<td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/x36_Sn5u4Es" frameborder="0" allowfullscreen></iframe></td>
+<div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/Y_eV4HeIm04?rel=0" frameborder="0" allowfullscreen></iframe></div>
   
 <a name="bkmk_Create"></a>   
 
@@ -34,19 +34,19 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
 2.  In the Customer Service Hub sitemap, go to **Service** > **Cases**.
 
-    - The **My Active Cases** view is displayed. You can switch between various case views using the drop-down.
-    - Click **Show Chart** in the command bar to see the chart view.
-    - Click **Open Dashboards** in the command bar to directly open the entity dashboard. To switch back to views, click **Open Views**.
+    - The **My Active Cases** view is displayed. You can switch between case views using the drop-down.
+    - Select **Show Chart** in the command bar to see the chart view.
+    - Select **Open Dashboards** in the command bar to directly open the entity dashboard. To switch back to views, select **Open Views**.
 
     If you select a case record from the case view, you see these additional options in the command bar:
 
-    - Click **Apply Routing Rule** to apply a routing rule on a selected case.
-    - Click **Assign** to assign a case to another owner.
-    - Click **Add to Queue** to add a case to a queue.  
+    - Select **Apply Routing Rule** to apply a routing rule on a selected case.
+    - Select **Assign** to assign a case to another owner.
+    - Select **Add to Queue** to add a case to a queue.  
  
     ![active-case-view](media/active-case-view.png)
   
-3.  On the command bar, click **New Case**.  Alternatively, you can quickly create a new case by clicking ![quick-create-case](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
+3.  On the command bar, select **New Case**.  Alternatively, you can quickly create a new case by selecting ![quick-create-case](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
     
     View and update the **Priority**, **Status**, and **Owner** of the case. The **Created On** date is picked up as soon as you save the case. 
   
@@ -56,7 +56,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
   
 6.  Find the customer:  
   
-    1.  Click the **Customer** lookup button. By default, this field shows all customer records, accounts, and contact records. Or, type a few letters and press **Enter** to search for records that contain the letters. After you select an existing customer, the **General Information** section  will show the contact card for the customer, along with recent cases in the Related section.  
+    1.  Select the **Customer** lookup button. By default, this field shows all customer records, accounts, and contact records. Or, type a few letters and select **Enter** to search for records that contain the letters. After you select an existing customer, the **General Information** section  will show the contact card for the customer, along with recent cases in the Related section.  
   
     2.  If a customer record doesn’t exist, you can a add new customer record using the entity tab.
  
@@ -64,21 +64,21 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 7.  In the **Origin** field, select the channel through which this case was initiated.  
   
 8. In the **Product** field, select the product this case is for. You can’t select a product family, a draft product, or a draft product bundle.  
-9. To see what kind of support you should provide the customer, click the **Entitlements** lookup button and select an active entitlement. The **Entitlements** section in the case record lists all the active entitlements for the customer.
+9. To see what kind of support you should provide the customer, select the **Entitlements** lookup button and select an active entitlement. The **Entitlements** section in the case record lists all the active entitlements for the customer.
 
     > [!IMPORTANT]
     > If an SLA is associated with an entitlement and the same entitlement is applied to a case, then the associated SLA becomes applicable for the case. 
   
    > [!NOTE]
-   > When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar click **Do not decrement entitlement terms**.  
+   > When a case is created and an entitlement is applied to it (or when the case gets resolved), the entitlement terms from the associated entitlement are decremented. However, if you don’t want the entitlement terms to be decremented for a case, on the command bar select **Do not decrement entitlement terms**.  
   
-10. Click in the **Description** field to enter to add a detailed description about the case.
+10. Select in the **Description** field to enter to add a detailed description about the case.
 
 11. Navigate to other tabs to provide or view more information about the case. 
   
    -   The **Details** tab tracks **Case Details**, **Additional Details**, **Social Details**, **Description**, and **Applicable SLA** of the case.  
   
-    -   The **Case Relationships**  tab shows a **Merged Cases** and **Child Cases** list. You can add an existing child case to the current case from the **Child Cases** list. If you want to create a new child case for the current case, click **Create Child Case** on the command bar.  
+    -   The **Case Relationships**  tab shows a **Merged Cases** and **Child Cases** list. You can add an existing child case to the current case from the **Child Cases** list. If you want to create a new child case for the current case, select **Create Child Case** on the command bar.  
   
         The **Case Relationships** tab also shows a list of knowledge articles associated with the case, in the Associated Knowledge Records sub-grid.  
   
@@ -87,12 +87,12 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
         > [!NOTE]
         >  By default, a timer for enhanced SLA is already added to your case form. If an enhanced SLA applies to the case you're working on, you will see a timer that shows the countdown to meet the SLA KPIs.    
 
-   - The **Related** tab shows the common associated entities like **Knowledge Base Records**, **Activities**, and **Connections**. 
+   - The **Related** tab shows the common associated entities like **Knowledge Base Records**, **Activities**, **Connections**, and **Work Orders**. 
       
-      Click on any one of the common associated entities and they open in a new tab, aligned horizontally.   
+      Select on any one of the common associated entities and they open in a new tab, aligned horizontally.   
 
 
-12. When you’re done, click **Save**.
+12. When you’re done, select **Save**.
   - After you save the case, the Timeline section appears and displays the post about case creation.
   - The Business Process flow bar appears and displays the process stages to guide your case towards completion. For more information, see [**Business processes**](customer-service-hub-user-guide-basics.md#business-processes).
   - On the command bar: 
@@ -147,16 +147,16 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 ||||  
 |-|-|-|  
 |**To**|**Do this**|| 
-|Enter a note |  Enter a note by clicking the **Enter a note** box. You can also add attachments to your notes.|
+|Enter a note |  Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.|
 |View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png) |
-|Create a new interaction|In the **Timeline** section, click **+**, and then select an interaction type: Activity, Appointement, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To create an email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). **Note**: Create and edit emails feature is in preview mode if you are using the app on a desktop browser.|
-|Filter activities|1.  In the **Timeline** section, click  **(...)**  and click **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
-|Take actions on an activity|For an activity, click the **Quick Actions** button ![Click the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Click the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
+|Create a new interaction|In the **Timeline** section, select **+**, and then select an interaction type: Activity, Appointment, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To draft an email in the email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
+|Filter activities|1.  In the **Timeline** section, select  **(...)**  and select **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
+|Take actions on an activity|For an activity, select the **Quick Actions** button ![Select the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Select the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
   
 <a name="bkmk_ManageRelatedRecords"></a>
    
 ## See and manage related records in the Related section  
- The **Related** section in a case record provides you quick access to important information related to the primary case that would help you in solving the case.   
+ The **Related** section (also known as Reference panel) in a case record provides you quick access to important information related to the selected case that would help you in solving the case. For more information, see [Related section](customer-service-hub-user-guide-basics.md#related-section).
   
 ### See recent cases and entitlements  
  See **Recent Cases and Entitlement** to view:  
@@ -166,36 +166,38 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 -   A list of entitlements for the customer associated with the current case.  
  
   
-### Search for Knowledge Articles  
- The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Click the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
+### Search for knowledge articles  
+ The Knowledge Base Search lets you search for relevant knowledge articles to resolve a case. Select the **Knowledge Base Search** search box to see search results automatically populated based on a field your administrator configured in the **Knowledge Base search** control properties. For a case, this is the title of the case record.  
 
 **Knowledge Base Search** in the Customer Service Hub comes with an improved search functionality. Knowledge Base is enabled for relevance search in the Global search UI. Relevance search functionality utilizes Azure search service to index and search records.  Relevance search provides improved search functionality like better relevance, highlighted search keyword text, and search within attachments and notes.
   
 > [!IMPORTANT]
 >  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
   
-   ![Find knowledge articles from a case record](../customer-service/media/v9-case-form-search-kb-records.png "Find knowledge articles from a case record")  
+  ![knowledge-article-search](media/case-form-search-rp.png) 
   
 -   Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
   
 -   To see knowledge articles in specific states, use the filters. You can filter search results to see all draft, published, or approved articles.    
   
--   To choose how you want to sort your search results, click **Sort by**. You can sort the knowledge articles on relevance, number of views, newest first, or oldest first.  
+-   To choose how you want to sort your search results, select **Sort by**. You can sort the knowledge articles on relevance, number of views, newest first, or oldest first.  
   
--   Click the article title to see its full content. The article opens inline and you can scroll to read the complete article. Click the back arrow ![back-arrow](media/back-arrow.PNG) to come back to the list view. 
+-   Select the article title to see its full content. The article opens inline and you can scroll to read the complete article. Select the back arrow to come back to the list view. 
   
--   To associate the knowledge article to the current case, click the  **Link the KB Article** button ![Click to link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Click to link the knowledge article to the case").  
+-   To associate the knowledge article to the current case, select the  **Link the KB Article** button ![Select link the knowledge article to the case](../customer-service/media/v8-link-kb-article.png "Select to link the knowledge article to the case").  
   
      You can also dissociate the article from the case by choosing the **Unlink the knowledge article from the current record** button ![Unlink knowledge article from current record button in Dynamics 365](../customer-service/media/unlink-article.png "Unlink knowledge article from current record button in Dynamics 365").  
+
+-  	To email the article directly, select the **Email** button. 
   
--   To send an email with a link to the knowledge article on a portal in an email, click the **Quick Actions** button ![Send link to the knowledge article in email](../customer-service/media/v8-email-link.png "Send link to the knowledge article in email"), and then click **Email Link**. An email form opens with the link to the article populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, click **Send**. 
+-   To send a link of the knowledge article in an email, select the **Quick Actions** button ![Send link to the knowledge article in email](../customer-service/media/v8-email-link.png "Send link to the knowledge article in email"), and then select **Email Link**. An email form opens with the link to the article populated in the email body. The fields are automatically populated based on the case and customer details. Add other information as needed, and then on the command bar, select **Send**. 
   
      If the article is published, an external link is copied to the email body.  
   
     > [!NOTE]
     >  This action is available only for Published and Expired articles.  
   
--   To copy the external URL of the article so you can share it with your customers over channels like chat or email, click the **Copy Link** button ![Copy knowledge article link button Dynamics 365](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365").  
+-   To copy the external URL of the article so you can share it with your customers over channels like chat or email, select the **Copy Link** button ![Copy knowledge article link button Dynamics 365](../customer-service/media/copy-link-button.png "Copy knowledge article link button Dynamics 365").  
   
     > [!NOTE]
     >  This option is available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available.  
@@ -211,13 +213,13 @@ Similarly, the status of the SLA KPI instance is updated when the first response
   
 2.  In the list of active cases, open the one that has the information that you want to convert to a knowledge article.  
   
-3.  On the command bar, click the ellipsis **(...)** and go to **Convert To** > **To Knowledge Article**.  
+3.  On the command bar, select the ellipsis **(...)** and go to **Convert To** > **To Knowledge Article**.  
   
      The **Convert to Knowledge Article** dialog box opens. The title, owner, and subject of the article are populated based on the title, owner, and subject of the case. The content of the article is automatically populated with the description of the case. If the case is resolved, the content field shows the case description, case resolution, and case resolution description.  
   
-4.  If you want to open the newly-created article, click the **Open the new knowledge article** field to set it to **Yes**, and then click **Convert**. Otherwise, set it to **No**.  
+4.  If you want to open the newly-created article, select the **Open the new knowledge article** field to set it to **Yes**, and then select **Convert**. Otherwise, set it to **No**.  
   
-5.  If you set **Open the new knowledge article** to **Yes**, a knowledge article form opens. Fill in the necessary information for the knowledge article, and then click the **Save** button.  
+5.  If you set **Open the new knowledge article** to **Yes**, a knowledge article form opens. Fill in the necessary information for the knowledge article, and then select the **Save** button.  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a knowledge article](customer-service-hub-user-guide-knowledge-article.md#create-a-knowledge-article)  
   
@@ -240,28 +242,28 @@ The knowledge article is created regardless of whether you set **Open the new kn
   
 #### Merge cases from dashboard streams  
   
-1.  On the sitemap, click **Service** > **Dashboards**.  
+1.  On the sitemap, select **Service** > **Dashboards**.  
   
 2.  Open the dashboard you want to look at.  
   
 3.  Select at least two active case records that you want to merge using the **Bulk select** button ![bulk-select](media/bulk-select.png).
-4. Click the **More Actions** button ![More Actions button](../customer-service/media/v8-1-more-actions--button.png "More Actions button"), and then click **Merge Cases**.  
+4.  Select the **More Actions** button ![More Actions button](../customer-service/media/v8-1-more-actions--button.png "More Actions button"), and then select **Merge Cases**.  
   
      You can select and merge up to 10 cases at a time.  
   
-4.  In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then click **Merge**.  
+4.  In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.  
   
 5.  To see the merged case, open the case it was merged into. You'll find the merged case listed in the **Merged Cases** section on the **Case Relationships** tab.  
   
 #### Merge cases from a list of case records  
   
-1.  On the sitemap, click **Service** > **Cases**.  
+1.  On the sitemap, select **Service** > **Cases**.  
   
-2.  Select  at least two active case records that you want to merge, and then on the command bar, click **Merge Cases**.  
+2.  Select  at least two active case records that you want to merge, and then on the command bar, select **Merge Cases**.  
   
      You can select and merge up to 10 cases at a time.  
   
-3.  In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then click **Merge**.  
+3.  In the **Merge Cases** dialog box, from the list of cases, select the case the other cases will be merged into, and then select **Merge**.  
   
 4.  To see the merged case, open the case it was merged into. You'll find the merged case listed in the **Merged Cases** section on the **Case Relationships** tab.  
   
@@ -280,13 +282,13 @@ The knowledge article is created regardless of whether you set **Open the new kn
 1. [!INCLUDE[proc_service_cases](../includes/proc-service-cases.md)]  
   
 2.  When the case form is open, do one of the following:
-    - On the command bar at the top, click **Create Child Case**.
-    - Go to the **Case Relationships** tab, and in the **Child Case** section, click **Add New Case**.
+    - On the command bar at the top, select **Create Child Case**.
+    - Go to the **Case Relationships** tab, and in the **Child Case** section, select **Add New Case**.
 
     > [!NOTE]
-    > If you wish to add an existing case as a child case, go to the **Case Relationships** tab, in the **Child Case** section, click **(...)** and select **Add Existing Case**. A flyout appears on the right side of the screen. Use Lookup Records to look for a case that you want to add as child case.
+    > If you wish to add an existing case as a child case, go to the **Case Relationships** tab, in the **Child Case** section, select **(...)** and select **Add Existing Case**. A flyout appears on the right side of the screen. Use Lookup Records to look for a case that you want to add as child case.
   
-3.  Next, fill in the necessary case information for the child case, and then click **Save**.  
+3.  Next, fill in the necessary case information for the child case, and then select **Save**.  
   
 ### Associate cases as parent and child
 You can set a parent child relationship between cases where you can set one case as parent and set other cases as its child cases. 
@@ -302,16 +304,16 @@ You can set a parent child relationship between cases where you can set one case
   
     1.  Select the cases that you want to associate as parent and child case(s). You must select at least two cases.  
   
-    2.  On the command bar, click **Associate Child Cases**.  
+    2.  On the command bar, select **Associate Child Cases**.  
   
-    3.  In the **Set Parent Child Relationship** pane, from the list of cases, select the case that you want to make the parent case, and then click **Set**.  
+    3.  In the **Set Parent Child Relationship** pane, from the list of cases, select the case that you want to make the parent case, and then select **Set**.  
   
     From an open case, do this:  
   
-    1.  Click the **Case Relationships** tab, and in the **Child Case** section, click **Add New Case**. The open case automatically becomes the parent case.
+    1.  Select the **Case Relationships** tab, and in the **Child Case** section, select **Add New Case**. The open case automatically becomes the parent case.
 
         > [!NOTE]
-        > If you wish to add an existing case as a child case, go to the **Case Relationships** tab, in the **Child Case** section, click **(...)** and select **Add Existing Case**. A flyout appears on the right side of the screen. Use Lookup Records to look for a case that you want to add as child case.
+        > If you wish to add an existing case as a child case, go to the **Case Relationships** tab, in the **Child Case** section, select **(...)** and select **Add Existing Case**. A flyout appears on the right side of the screen. Use Lookup Records to look for a case that you want to add as child case.
 
   
 ### Resolve a case with a parent and child relationship  
@@ -336,9 +338,9 @@ You can set a parent child relationship between cases where you can set one case
   
 1.  In the list of active cases, open the one you want to resolve.  
   
-2.  On the command bar, click **Resolve case**.  
+2.  On the command bar, select **Resolve case**.  
   
-     Make sure you close all the case activities. If there are open activities associated with the case, you’ll see a message saying that the open activities will be canceled if you resolve this case. To continue, click **Confirm**.  
+     Make sure you close all the case activities. If there are open activities associated with the case, you’ll see a message saying that the open activities will be canceled if you resolve this case. To continue, select **Confirm**.  
   
 3.  In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved.  
   
@@ -350,14 +352,14 @@ You can set a parent child relationship between cases where you can set one case
   
      If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
   
-6.  Click **Resolve**.  
+6.  Select **Resolve**.  
   
 <a name="bkmk_Cancel"></a>  
  
 ## Cancel a case  
  All case activities must be closed before you can cancel a case.  
   
-1.  In the list of active cases, open the case you want to cancel, and then on the command bar, click **Cancel Case**.  
+1.  In the list of active cases, open the case you want to cancel, and then on the command bar, select **Cancel Case**.  
   
 2.  In the **Confirm Cancellation** dialog box, select the case status:  
   
@@ -365,18 +367,18 @@ You can set a parent child relationship between cases where you can set one case
   
     - **Merged**: This means the case is merged with another case. When the case is merged, the case activities will be moved to the case it was merged with.  
   
-3.  Click **Confirm**.  
+3.  Select **Confirm**.  
   
 <a name="bkmk_Reassign"></a>  
  
 ## Reassign a case  
  If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
   
-1.  In the list of cases, select the case that you want to reassign, and on the command bar, click **Assign**.  
+1.  In the list of cases, select the case that you want to reassign, and on the command bar, select **Assign**.  
   
 2.  In the **Assign to Team or User** dialog box, in the **Assign To** field, select **User or Team**, and then in the **User or team** field, select who you want to assign the case to.  
   
-3.  Click **Assign**.  
+3.  Select **Assign**.  
   
 <a name="bkmk_AddtoQueue"></a>   
 
@@ -387,22 +389,22 @@ You can set a parent child relationship between cases where you can set one case
   
 2.  In the list of cases, select the case that you want to add to a queue.  
   
-3.  On the command bar, click **Add to Queue**.  
+3.  On the command bar, select **Add to Queue**.  
   
-4.  In the **Queue** field, select the queue that you want to add the case to, and then click **Add**.  
+4.  In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.  
 
 To know more about Queues, see [Manage Queues](customer-service-hub-user-guide-basics.md#manage-queues).
   
 <a name="bkmk_SaveAndRoute"></a>   
 
 ## Save and route a case  
- To save a case record and route it to a queue in a single click, use the **Save & Route** button.  
+ To save a case record and route it to a queue in a single select, use the **Save & Route** button.  
   
 1.  From the list of cases, open a case record.  
   
-2.  Make the changes as required, and on the command bar, click **Save & Route**.  
+2.  Make the changes as required, and on the command bar, select **Save & Route**.  
   
-3.  In the **Route Case** dialog box, click **Route**.  
+3.  In the **Route Case** dialog box, select **Route**.  
   
      The case will be routed based on the active routing rule set.  
   

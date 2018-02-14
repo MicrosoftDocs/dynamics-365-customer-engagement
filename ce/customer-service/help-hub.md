@@ -19,7 +19,7 @@ topic-status: Completed
 
 <table>
 <tr>
-  <td colspan="2"><iframe width="560" height="315" src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></td>
+  <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></div>
   <td><h2>Get started</h2>
   <ul>
   <li>[Explore Customer Service Hub and Customer Service](overview.md)</li>

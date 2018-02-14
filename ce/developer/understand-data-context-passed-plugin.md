@@ -22,11 +22,11 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-When a plug-in is run in response to an execution pipeline event for which it is registered, the plug-in’s <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider> method is called. That method passes an [IServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.uii.csr.browser.web.iserviceprovider?view=dynamics-usd-3) object as a parameter, which contains a number of useful objects. The following sections describe some of the information that is passed to a plug-in when executed.  
+When a plug-in is run in response to an execution pipeline event for which it is registered, the plug-in’s <xref:Microsoft.Xrm.Sdk.IPlugin.Execute*> method is called. That method passes an [System.IServiceProvider](https://docs.microsoft.com/dotnet/api/system.iserviceprovider) object as a parameter, which contains a number of useful objects. The following sections describe some of the information that is passed to a plug-in when executed.  
   
 <a name="bkmk_context"></a>   
 ## Access the plug-in execution context  
- <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider> parameter that is passed at run time to a plug-in through its <xref:Microsoft.Xrm.Sdk.IPlugin.Execute*> method.  
+ <xref:Microsoft.Xrm.Sdk.IPluginExecutionContext> contains information that describes the run-time environment that the plug-in executes, information related to the execution pipeline, and entity business information. The context is contained in the [System.IServiceProvider](https://docs.microsoft.com/dotnet/api/system.iserviceprovider) parameter that is passed at run time to a plug-in through its <xref:Microsoft.Xrm.Sdk.IPlugin.Execute*> method.  
   
  [!code-csharp[Plug-ins#FollowupPlugin1](../snippets/csharp/CRMV8/plug-ins/cs/followupplugin1.cs#followupplugin1)]  
   
@@ -36,7 +36,7 @@ When a plug-in is run in response to an execution pipeline event for which it is
   
 <a name="bkmk_access"></a>   
 ## Access the Organization service  
- To access the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organization service, it is required that plug-in code create an instance of the service through the [ServiceProvider.GetService](https://msdn.microsoft.com/library/bb138962\(VS.80\).aspx) method.  
+ To access the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement organization service, it is required that plug-in code create an instance of the service through the [IServiceProvider.GetService(Type)](https://docs.microsoft.com/dotnet/api/system.iserviceprovider.getservice) method.  
   
  [!code-csharp[Plug-ins#FollowupPlugin4](../snippets/csharp/CRMV8/plug-ins/cs/followupplugin4.cs#followupplugin4)]  
   
