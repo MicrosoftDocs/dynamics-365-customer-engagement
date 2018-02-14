@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 01/30/2018
+ms.date: 02/14/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,16 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.2
+
+### Let us know what you think about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+With this update, we introduce a feedback dialog which is presented to a sample of users when they sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We encourage everyone to provide feedback that will help us shape the service and align our priorities for future updates.
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.1
 
