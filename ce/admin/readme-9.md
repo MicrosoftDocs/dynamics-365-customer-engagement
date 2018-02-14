@@ -15,8 +15,7 @@ manager: "brycho"
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
 =========================================================
 
-This document provides important, late-breaking information about this product
-version:
+This document provides important information about this product version:
 
 -   Dynamics 365 (online), Enterprise edition, version 9.0
 
@@ -160,7 +159,7 @@ Sales and Customer Service web client apps
     occurs while trying to assign a security role to a newly created user.
 
 Sales Hub and Customer Service Hub apps 
----------------------------------------
+----------------------------------------
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
