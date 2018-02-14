@@ -2,7 +2,7 @@
 title: "Walkthrough: Register a Dynamics 365 app with Azure Active Directory (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Customer Engagement server, authenticate using OAuth, and access the web services"
 ms.custom: ""
-ms.date: 02/06/2018
+ms.date: 02/13/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,11 +19,15 @@ ms.author: "jdaly"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This walkthrough describes how to register an application with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)] so that it can connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Online Customer Engagement instance, authenticate using OAuth, and access the web services. 
+This walkthrough describes how to register an application with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)], which enables a user with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user account to connect to their [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Online Customer Engagement instance from *external* client applications using OAuth authentication.
 
-Once registered, an application can access the web services using HTTP requests with the Web API or the web client proxy classes of the Organization Service. 
+App registration in Azure Active Directory is typically done by ISVs who provide external client applications to read and write data in Customer Engagement. Registering an app in Azure Active Directory provides you with **Application ID** and **Redirect URI** values that you can use in your client application's authentication code. This enables Customer Engagement users to connect to their instances by using their Customer Engagement credentials from client application using OAuth authentication. Apps registered in Azure Active Directory are multi-tenant, which implies that users can connect to Customer Engagement instance in any tenant if they have access. A consent form is presented *first time* to the end user when he/she uses the ISV client application to connect to his/her Customer Engagement instance. 
 
-<!--This walkthrough applies to both [!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] when using OAuth authentication in your application.-->  
+If you are an application developer building a client application to conect to and read/write data in Customer Engagement, you can also register an app with Azure Active Directory, and then use the **Application ID** and **Redirect URI** values from your registered app in your client application authentication code to test your client application. If the app is registered in the same tenant as your Customer Engagement instance, you won't be presented with a consent form when connecting from your client application to your Customer Engagement instance.
+
+> [!IMPORTANT]
+> This topic provides information about registering an app that uses your Customer Engagement credentials to connect from an external client application to your Customer Engagement instance. To know about using Server-to-Server (S2S) authentication to connect to Dynamics 365 Customer Engagement instance using an application user, see [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md)
+ 
   
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 ## Prerequisites  
@@ -35,45 +39,14 @@ Once registered, an application can access the web services using HTTP requests 
   
 - **For a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] deployment**:-->  
   
--   The user must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user account with System Administrator security role and the global administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] subscription.  
+-   The user who is registering the application must have a [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] user account with System Administrator security role and the global administrator role for the [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)] subscription.  
   
 -   An [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] subscription for application registration. A trial account will also work.  
   
  <!--For either deployment type, you must know the redirect URL for your application. Instructions for finding that URL are provided in the section named [Obtain the redirect URI](walkthrough-register-app-active-directory.md#bkmk_redirect).-->  
     
 <a name="bkmk_online"></a>   
-## App registration for OAuth authentication
-
-Here are two scenarios where you register an app with Azure Active Directory to use the credentials of a user who is using an application to connect to Dynamics 365 Customer Engagement online instance using OAuth authentication.
-
-To know about using Server-to-Server (S2S) authentication to connect to Dynamics 365 Customer Engagement online instance using an application user, see [Build web applications using Server-to-Server (S2S) authentication](build-web-applications-server-server-s2s-authentication.md). 
-
-- **Scenario A**: A person with a Dynamics 365 system user account accesses organization data through a desktop client or mobile application.
-
-    ### Tasks performed by user or application developer  
-  
-    1.  Registers an app in the same tenant in Azure Active Directory as the Dynamics 365 Customer Engagement Online instance. While registering the app, provides a **redirect URI**. The URI can be any valid and appropriate URI. The Azure Active Directory app registration process results in the generation of an **application ID** (previously called **client ID**) string.
-
-    1.  Uses the **redirect URI** and **application ID** obtained from the previous step in the desktop or mobile app’s authentication code or configuration file.
-
-    1. On running the desktop or mobile app for this first time, a consent form is displayed where the user needs to provide the authentication details to connect to their Dynamics 365 Customer Engagement Online instance.
-  
-- **Scenario B**: An ISV creates and registers an app that is later published in the app store. The ISV’s customers download the app from the store and use it to connect to their [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance by using their individual [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] credentials.
-  
-    ### Tasks performed by ISV  
-  
-    1. Registers an app in the ISV tenant in Azure Active Directory. While registering the app, provides a **redirect URI**. The URI can be any valid and appropriate URI. The Azure Active Directory app registration process results in the generation of an **application ID** (previously called **client ID**) string.
-
-    2. Creates an app that uses the **redirect URI** and **application ID** values from the previous step to authenticate to Dynamics 365 Customer Engagement Online instance. The ISV later publishes the app to the AppStore.  
-  
-    ### Tasks performed by each customer who downloads the app  
-  
-    1.  Customer downloads and runs the app to connect to his/her Dynamics 365 Customer Engagement Online instance.
-     
-    2. On running the app for the first time, the customer will be presented with a consent form. The customer has to approve the consent form, and then provide his/her Dynamics 365 Customer Engagement credentials to connect to their instance.
-  
-  
-### How to: Register an application with Microsoft Azure  
+## How to: Register an application with Microsoft Azure Active Directory  
   
 1.  [Sign in](http://manage.windowsazure.com) to the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] management portal by using an account with administrator permission. You must use an account in the same [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription (tenant) as you intend to register the app with.<br><br> You can also access the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] management portal through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] [Admin center](https://portal.office.com/adminportal) by expanding the **Admin centers** item in the left navigation pane, and selecting **Azure AD**.  
   
