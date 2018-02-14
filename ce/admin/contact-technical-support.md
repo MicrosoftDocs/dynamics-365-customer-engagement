@@ -18,9 +18,9 @@ manager: "brycho"
 # Contact Technical Support 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
+<!--
 > [!NOTE]
-> ![This page is under construction.](../media/under_construction.png "Coming soon") This topic is under construction. We’re updating content based on changes to the feature, so check back soon!
+> ![This page is under construction.](../media/under_construction.png "Coming soon") This topic is under construction. We’re updating content based on changes to the feature, so check back soon! -->
 
 ## Preview feature: new Dynamics 365 support center 
 
