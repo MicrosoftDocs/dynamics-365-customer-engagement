@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 02/13/2018
+ms.date: 02/14/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -109,8 +109,6 @@ necessary steps to upgrade to TLS 1.2 prior to scheduling your instance update.
 Sales and Customer Service web client apps
 ------------------------------------------
 
--   Sample data doesn't get installed under **Settings** \> **Data Management**.
-
 -   Core Marketing:
 
     -   Activities aren't created after the campaign activity is distributed.
@@ -126,7 +124,7 @@ Sales and Customer Service web client apps
     -   Occasionally unable to unsubscribe an account, contact, or lead from the
         campaign activity.
 
--   Suggestions aren't available on the Product subgrid in Quote, Order, or
+-   Suggestions aren't available on the Product sub grid in Quote, Order, or
     Invoice forms.
 
 -   Unable to create a new data source entity when there are spaces in the
@@ -141,10 +139,6 @@ Sales and Customer Service web client apps
 
 -   Unable to add a custom view as a subcomponent for the Account entity in a
     solution.
-
--   Using the Customer Service Representative role, the user is unable to save a
-    case for a customer with the Entitlement setting for Decrease Remaining On
-    upon Case Creation. There is no issue in saving a case record otherwise.
 
 -   Pricing error notifications aren't displayed on the Quote Order Invoice
     detail forms.
@@ -177,7 +171,7 @@ in the browser or on mobile devices for each scenario. 
 -   An error is displayed on iPads whenever a user tries to add a product to an
     opportunity. The workaround is to dismiss the error.
 
--   The command bar action of a subgrid that has no title (Opportunity product,
+-   The command bar action of a sub grid that has no title (Opportunity product,
     Opportunity Quotes) appears as an ellipsis above the grid but isn't aligned
     correctly.
 
@@ -210,14 +204,7 @@ in the browser or on mobile devices for each scenario. 
         customizations**.
 
     -   To view the latest Entitlement details displayed within the Entitlement
-        subgrid of the case form, use the **Refresh** command bar action.
-
-    -   In certain Trial organizations, saving knowledge articles causes a
-        duplicate record error due to an issue with the knowledge article
-        sequence number. The workaround is to update the prefix of the knowledge
-        article public number (**Settings** \> **Administration** \> **Auto
-        Numbering** \> **Knowledge Articles**) or update the article sequence
-        number by using an API.
+        sub grid of the case form, use the **Refresh** command bar action.
 
     -   When assigning a record to a user with insufficient privileges, the
         assignment fails as expected, but no error message is shown.
@@ -229,7 +216,7 @@ in the browser or on mobile devices for each scenario. 
 
     -   Links in the body of an email aren't selectable.
 
-    -   The Knowledge Articles Related Translations subgrid is hidden when the
+    -   The Knowledge Articles Related Translations sub grid is hidden when the
         user zooms in.
 
     -   Anchor links aren't working in the Knowledge Search control.
@@ -241,6 +228,15 @@ in the browser or on mobile devices for each scenario. 
     -   When you have too many sub grids on your form, Customer Service Hub has
         performance issues in Internet Explorer 11. As a work around, you can
         reduce the number of sub grids on the first page/tab.
+
+    -   Quick forms with multiple lines of text occupy a large amount of
+        vertical space on the Reference Panel section in forms. Scroll downwards
+        to see more fields.
+
+    -   When you change a User entity form from the default User form to the
+        Application User form, a script error dialog appears with the message
+        “One of the scripts for this record caused an error”. There is no
+        functional loss due to the script error.
 
 -   Other
 
@@ -436,12 +432,6 @@ The date time control in unified interface relies on browser support. It has
 known issues in browsers such as Internet Explorer 11 and Firefox. It also has
 localization and format issues.
 
-Timer control in Unified Interface
-----------------------------------
-
--   SLA Timer doesn't pause or resume when a case is put on hold or resumed. The
-    workaround is to refresh the form.
-
 Activities in Unified Interface
 -------------------------------
 
@@ -460,6 +450,11 @@ Activities in Unified Interface
 
     -   Deleting a resolved case, closed opportunity, closed order, or closed
         quote will also result in failure.
+
+-   When performing the **Convert to case** action from the activity command
+    bar, the owner of the activity is set as the owner of the case, instead of
+    the user who performs the action. The workaround is to change the owner of
+    the case manually.
 
 Dynamics 365 App for Outlook
 ----------------------------
@@ -587,7 +582,7 @@ Web client visual refresh
 -   Some empty areas can occasionally be seen on certain forms, for example a
     marketing list. Select Ctrl+F5 to remove these.
 
--   Empty subgrids show a message with the entity schema name instead of the
+-   Empty sub grids show a message with the entity schema name instead of the
     display name.
 
 -   Star symbols for fields secured via field-level security, might be
@@ -632,11 +627,9 @@ for initial deployment and onboarding of these capabilities.
 Unified Service Desk
 --------------------
 
--   Case form does not load completely on the Internet Explorer 11 browser.
-
 -   Download and update your Unified Service Desk to [version
-    3.1.](https://www.microsoft.com/download/details.aspx?id=56144) If you want
-    to continue to use older versions of Unified Service desk, you will need to
+    3.2](https://go.microsoft.com/fwlink/p/?linkid=867343). If you want to
+    continue to use older versions of Unified Service desk, you will need to
     update the client desktop’s registry entries. Read the
     [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/)
     about Unified Service Desk and TLS 1.2 mandate to update these registry
