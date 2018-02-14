@@ -105,8 +105,9 @@
       href: admin/export-unified-service-desk-configuration-data.md
   - name: Performance enhancement for CRM entity page loads
     href: admin/performance-enhancement-CRM-entity-page-loads.md
+    items:
     - name: Known-issues-performance-enhancement-CRM-entity-page-loads
-    href: admin/known-issues-performance-enhancement-CRM-entity-page-loads.md
+      href: admin/known-issues-performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
 - name: Configure your agent application using Unified Service Desk
