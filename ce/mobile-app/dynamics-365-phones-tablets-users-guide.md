@@ -22,11 +22,9 @@ manager: "brycho"
 
 Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
 
-> [!IMPORTANT]
-> On February 14th, the Windows Phone app will be deprecated for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On March xxth, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for [!INCLUDE [pn-crm-8-2-0](../includes/pn-crm-8-2-0.md)] (version 8.2) and supported earlier versions. The app will require phones with a minimum of 2GB of RAM. For more information, see the blog [Update on supported mobile platforms for Dynamics 365](https://community.dynamics.com/enterprise/b/365teamblog).
-  
-> [!TIP]
-> [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
+> [!NOTE]
+> - On February xxth, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On March xxth, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for [!INCLUDE [pn-crm-8-2-0](../includes/pn-crm-8-2-0.md)] (version 8.2) and earlier supported versions. 
+> - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phone and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
@@ -54,13 +52,14 @@ Here's how to sign out in case someone else needs to use your device.
 
 You can sign in again as the same or a different user, or you can sign in to a different organization.
 
-<!-- (Temp change: cutting this section out temp since Mobile Offline is not supported in GA, 9/30-->
+<!-- 
 ## Continuum support for Windows Phone
 Use your phone like a PC with Continuum support. You can connect a Windows 10 mobile device to a larger screen, allowing you to utilize your phone as a PC. Use a dock or adapter to connect to a monitor, keyboard, and mouse, and then use the mobile app on your Windows 10 phone and see your content on a larger screen.
 
 When your phone is connected to another screen, the mobile app reflows to fit the larger screen size. You can also continue to use your phone the way you normally would without interrupting what’s playing on the larger screen. This offers a natural, no compromise, and familiar method to seamlessly switch between a smaller device to a bigger device, without impacting your productivity. [Learn more about
 Continuum](https://www.microsoft.com/en-us/windows/Continuum).
- 
+-->
+
 ## Basic navigation
 
 1. When you sign in, you’ll see the MyApps page with all your apps listed. 
