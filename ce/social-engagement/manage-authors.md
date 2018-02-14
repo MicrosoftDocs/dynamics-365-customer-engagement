@@ -2,7 +2,7 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete and export information about authors of posts."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 02/12/2018
+ms.date: 02/14/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -16,11 +16,11 @@ topic-status: Drafting
 
 # Manage the personal data of authors
 
-Most posts in Social Engagement are linked to an author, a user on a social network. With sufficient permissions, you can remove authors from Social Engagement and block all future data acquisition for posts by the removed author. It's critical to understand the implications of deleting all author information by removing an author since this can't be undone and potentially can have a significant impact on data acquisition of your solution. 
+Most posts in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] are linked to an author, a user on a social network. With sufficient permissions, you can remove authors from [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and block all future data acquisition for posts by the removed author. It's critical to understand the implications of deleting all author information by removing an author since this can't be undone and potentially can have a significant impact on data acquisition of your solution. 
 
 ## Delete all author information
 
-To remove all available information about an author in Social Engagement, you can delete them. However, once you delete an author, there's no way to undo this. Data about and from this author will be lost, including any future posts. To delete and author in Social Engagement, you need to have a Power Analyst or Administrator [configuration role](user-roles.md). 
+To remove all available information about an author in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you can delete them. However, once you delete an author, there's no way to undo this. Data about and from this author will be lost, including any future posts. To delete and author in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you need to have a Power Analyst or Administrator [configuration role](user-roles.md). 
 
 Deleting an author has the following impact:
 
@@ -32,10 +32,10 @@ Deleting an author has the following impact:
 
 ### Find and delete an author
 
-1. In **Social Engagement** go to **Analytics** > **Overview**
+1. In **[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]** go to **Analytics** > **Overview**
 
 2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past two years.    
-   Since posts are stored for two years, this ensures that you review all available data in Social Engagement and find the author if they published a post that we acquired some time ago. 
+   Since posts are stored for two years, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post that we acquired some time ago. 
 
 3. Select the **Author** filter [using the filter menu](use-filters.md#add-edit-or-remove-a-filter). 
 
@@ -54,8 +54,8 @@ Deleting an author has the following impact:
 
 ## Rectification of author information
 
-Administrators in Social Engagement can't change author names manually.    
-However, if an author decides to change the name on a social network, this change will be reflected in Social Engagement when the next post of this author is acquired. -->
+Administrators in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can't change author names manually.    
+However, if an author decides to change the name on a social network, this change will be reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] when the next post of this author is acquired. -->
 
 ### See also
 [Get an overview about the data](analytics-overview.md)    
