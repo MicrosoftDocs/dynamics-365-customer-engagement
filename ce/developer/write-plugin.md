@@ -34,7 +34,7 @@ Plug-ins are custom classes that implement the <xref:Microsoft.Xrm.Sdk.IPlugin> 
    
 ## Writing a Basic Plug-in
 
- The following sample shows some of the common code found in a plug-in. For this sample, the code omits any custom business logic that would perform the intended task of the plug-in. However, the code does show a plug-in class that implements the <xref:Microsoft.Xrm.Sdk.IPlugin> interface and the required <xref:Microsoft.Uii.Csr.Browser.Web.IServiceProvider> method.  
+ The following sample shows some of the common code found in a plug-in. For this sample, the code omits any custom business logic that would perform the intended task of the plug-in. However, the code does show a plug-in class that implements the <xref:Microsoft.Xrm.Sdk.IPlugin> interface and the required <xref:Microsoft.Xrm.Sdk.IPlugin.Execute*> method.  
   
 ```csharp  
   
@@ -94,7 +94,7 @@ public class MyPlugin: IPlugin
 }  
 ```  
   
- The [IServiceProvider](https://docs.microsoft.com/en-us/dotnet/api/microsoft.uii.csr.browser.web.iserviceprovider?view=dynamics-usd-3) parameter of the <xref:Microsoft.Xrm.Sdk.IPlugin.Execute(System.IServiceProvider)> method is a container for several service useful objects that can be accessed within a plug-in. The service provider contains instance references to the execution context, <xref:Microsoft.Xrm.Sdk.IOrganizationServiceFactory>, <xref:Microsoft.Xrm.Sdk.ITracingService>, and more. The sample code demonstrates how to obtain references to the execution context,<xref:Microsoft.Xrm.Sdk.IOrganizationService>, and <xref:Microsoft.Xrm.Sdk.ITracingService> from the service provider parameter. For more information about the tracing service, refer to [Debug a Plug-in](debug-plugin.md).  
+ The [System.IServiceProvider](https://docs.microsoft.com/dotnet/api/system.iserviceprovider) parameter of the <xref:Microsoft.Xrm.Sdk.IPlugin.Execute(System.IServiceProvider)> method is a container for several service useful objects that can be accessed within a plug-in. The service provider contains instance references to the execution context, <xref:Microsoft.Xrm.Sdk.IOrganizationServiceFactory>, <xref:Microsoft.Xrm.Sdk.ITracingService>, and more. The sample code demonstrates how to obtain references to the execution context,<xref:Microsoft.Xrm.Sdk.IOrganizationService>, and <xref:Microsoft.Xrm.Sdk.ITracingService> from the service provider parameter. For more information about the tracing service, refer to [Debug a Plug-in](debug-plugin.md).  
   
  The execution context contains a wealth of information about the event that caused the plug-in to execute and the data contained in the message that is currently being processed by the pipeline. For more information about the data context, see [Understand the Data Context Passed to a Plug-in](understand-data-context-passed-plugin.md).  
   

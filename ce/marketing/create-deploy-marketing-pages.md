@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: a05ddbad-a57a-403a-aee9-2e91e2f5161f
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -23,9 +22,11 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and usually includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and applied immediately to your customer database.
+A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and usually includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and applied immediately to your customer database.
 
-Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
+Marketing pages integrate with&mdash;and provide expanded functionality for&mdash;many other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] features, including email marketing, customer journeys, behavior analysis, lead scoring, and result analytics.
+
+[!INCLUDE[cc-marketing-cookies](../includes/cc-marketing-cookies.md)]
 
 ## Overview: How to create a new marketing page and go live
 
@@ -39,7 +40,7 @@ The overall process of creating a new marketing page and making it available on 
 
 1. When you are satisfied with the design, check it for required content and technical errors by selecting **Check for Errors** in the command bar. If a problem is found, read the description, address the issue, and try again until the page passes the error check.
 
-1. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it by using the portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
+1. Select **Save** in the command bar. Your page is now verified and saved in your system, but is still not available on the web. Select **Go Live** to publish it by using the portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], where it will be made available at a public URL. You are now ready to start promoting it by including links to it in your marketing email messages, banners, social-media posts, and other marketing initiatives.
 
 The remainder of this topic provides more information about these steps, including how to work with forms and form fields, how to integrate marketing pages into emails and customer journeys, and how to read and interpret results.
 
@@ -48,13 +49,13 @@ The remainder of this topic provides more information about these steps, includi
 There are three basic types of marketing pages:
 
 - **Landing pages**  
-    Landing pages provide a webpage with an input form that visitors can use to sign up for a download, discount, mailing list, or other perk by entering their contact details. When a visitor submits a form, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] automatically stores the submitted values in your database, creating new records or updating existing ones as needed.
+    Landing pages provide a webpage with an input form that visitors can use to sign up for a download, discount, mailing list, or other perk by entering their contact details. When a visitor submits a form, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically stores the submitted values in your database, creating new records or updating existing ones as needed.
 - **Subscription centers**  
     All marketing email messages must include a link to a subscription center, where mail recipients can go to unsubscribe, choose other lists to subscribe to, or update their contact information. You can choose which mailing lists to include in each subscription center, but all subscription centers will also include a check box the visitor can use to opt out of all marketing emails.
 - **Forward to a friend**  
     If you'd like to enable recipients of your marketing email messages to forward those messages to friends who might also be interested in your offers, create a forward-to-a-friend marketing page and include links to it in your marketing email messages. By encouraging contacts to use the forwarding form rather than forward a message by using their email client, you'll collect more email addresses of people who might be interested in your products and improve the accuracy of your email analytics. Forward-to-a-friend recipients won't see any personalized information that was intended for the original recipient.
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] also includes both Voice of the Customer (for running online surveys) and Event Management (which includes a full-featured event portal that provides event information and registration). Like marketing pages, these provide interactive webpages that run as [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] portals, and work similarly to marketing pages under the hood, but they are more specialized so you'll work with them differently in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up the event portal](set-up-event-portal.md), and [Create and run online surveys](surveys.md)
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] also includes both Voice of the Customer (for running online surveys) and Event Management (which includes a full-featured event portal that provides event information and registration). Like marketing pages, these provide interactive webpages that run as [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals, and work similarly to marketing pages under the hood, but they are more specialized so you'll work with them differently in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up the event portal](set-up-event-portal.md), and [Create and run online surveys](surveys.md)
 
 ## Create, view, and manage marketing pages
 
@@ -68,7 +69,7 @@ To create a new marketing page, do one of the following:
 
 ### Design your content
 
-After choosing a template, you'll be in the page content designer, which resembles the other digital content designers provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Work with it as follows:
+After choosing a template, you'll be in the page content designer, which resembles the other digital content designers provided in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Work with it as follows:
 
 - The **Content** &gt; **Designer** tab provides a graphical tool that you use to design your content by using drag-and-drop, point-and-click operations. Add new elements to your design by dragging blocks from the **Content** &gt; **Designer** &gt; **Toolbox** tab to the content canvas. Choose a block that already exists in your design, and then use the **Content** &gt; **Designer** &gt; **Properties** tab to configure and style it.
 
@@ -82,7 +83,7 @@ After choosing a template, you'll be in the page content designer, which resembl
 
 ### Establish marketing page templates
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] comes with a collection of sample templates to help get you started quickly. You can also save your own templates, which you might do to establish your own visual identity and quickly create new pages that conform to it.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] comes with a collection of sample templates to help get you started quickly. You can also save your own templates, which you might do to establish your own visual identity and quickly create new pages that conform to it.
 
 You can view, edit, and create all marketing page templates by going to **Marketing** &gt; **Lead Management** &gt; **Marketing Page Templates**. The process for creating a new template is similar to creating a new page, but you'll start from a blank slate rather than choose a template at the beginning.
 
@@ -108,13 +109,13 @@ To view form submissions and analytics about page usage and performance:
 
 A marketing form defines a set of input fields arranged into a form layout. You'll probably build a small library of reusable forms that you can place on all your various marketing pages as needed. To add a marketing form to a specific marketing page, use a form block to position the form and choose local settings for it, which apply to that page only.
 
-Each marketing form is made from a collection of marketing form fields, plus form buttons, graphical elements, and a few configuration settings. Each field included in your form must be set up in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] as a marketing form field, which establishes options for how that field is presented in forms where it appears, and which lead or contact fields it maps to. Some features of a marketing form depend on which type of form it is—for example, a subscription center form can include subscription lists.
+Each marketing form is made from a collection of marketing form fields, plus form buttons, graphical elements, and a few configuration settings. Each field included in your form must be set up in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] as a marketing form field, which establishes options for how that field is presented in forms where it appears, and which lead or contact fields it maps to. Some features of a marketing form depend on which type of form it is—for example, a subscription center form can include subscription lists.
 
 ### Marketing form types
 
 As with marketing pages, each marketing form has a type, which maps directly to the page type where you can use that form. Though you can include more than one form on a marketing page, all forms on the page must be of the same type, and that type must match the type of the page itself. The available types are:
 
-- **Landing page form**: This is a general-purpose form for collecting contact information on marketing pages that are neither subscription centers nor forwarding forms. Landing page forms can also offer mailing-list subscriptions for opt-in, but they can't show the visitor their current subscriptions or allow them to opt out of any lists (for this, they must use a subscription form). When the form is submitted, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] tries to match the incoming data to an existing contact; if a match is found, the matching record is updated, otherwise a new record is created. The new or updated contact will also be subscribed to each mailing list where the check box is selected, but will not change their subscription status for any mailing list where the check box is cleared.
+- **Landing page form**: This is a general-purpose form for collecting contact information on marketing pages that are neither subscription centers nor forwarding forms. Landing page forms can also offer mailing-list subscriptions for opt-in, but they can't show the visitor their current subscriptions or allow them to opt out of any lists (for this, they must use a subscription form). When the form is submitted, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] tries to match the incoming data to an existing contact; if a match is found, the matching record is updated, otherwise a new record is created. The new or updated contact will also be subscribed to each mailing list where the check box is selected, but will not change their subscription status for any mailing list where the check box is cleared.
 
 - **Subscription form**: Provides fields where contacts can view and edit their contact details, and shows a collection of mailing lists (with check boxes) where the contact can add or remove subscriptions. When the form is submitted, all contact fields are updated to match the submission, and the contact is removed from all lists where the check box is cleared and added to all lists where the check box is selected. A subscription form only modifies existing contacts, and never creates new ones.
 
@@ -128,7 +129,7 @@ To create a new marketing form, do one of the following:
 
 - While working on an existing marketing page design, add a form block to your design, and then select **+New** on the **Properties** tab instead of choosing an existing form. A quick-create flyout slides in from the side of the page, where you must enter values for all required fields, and then select **OK**. A new form is created with your selected settings, and applied to your new form block. However, you'll still need to finish the form later by adding content to it as needed. You can do that now by opening it from the **Properties** tab of the page designer while the form block is selected, or you can do it later either from here or from the forms list at **Lead Management** &gt; **Marketing Forms**.
 
-Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], but only provides blocks and settings that are appropriate for marketing forms.
+Either way, after you've selected a template, you'll go to the form designer, which is similar to other types of digital content designers in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but only provides blocks and settings that are appropriate for marketing forms.
 
 To edit an existing form, do one of the following:
 
@@ -138,7 +139,7 @@ To edit an existing form, do one of the following:
 
 ### Design and validate your form content
 
-When creating or editing a form, you'll be in the form designer, which is an example of the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] digital-content designer that offers content blocks for working with forms.
+When creating or editing a form, you'll be in the form designer, which is an example of the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] digital-content designer that offers content blocks for working with forms.
 
 ![The form designer](media/designer-forms.png "The form designer")
 
@@ -166,13 +167,13 @@ Content block availability and requirements vary by form type, as outlined in th
 
 You can also view and edit the raw HTML code for the form by going to the **Designer** &gt; **HTML** tab. There, you can paste code you've copied from other applications and add features that aren't available in the graphical designer (such as custom scripts for validating form input).
 
-When you're done designing your form, select **Check for errors** and to make sure you've included all the required content and settings. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] checks your form and displays the results. If it reports any errors, read the error text, try to correct the issue, and then check for errors again until the form passes validation.
+When you're done designing your form, select **Check for errors** and to make sure you've included all the required content and settings. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] checks your form and displays the results. If it reports any errors, read the error text, try to correct the issue, and then check for errors again until the form passes validation.
 
 ### Establish marketing-form templates
 
 As with marketing pages themselves, marketing forms are also based on templates, so when you need to create a new form, you are provided with a collection of form templates to help get you started more quickly.
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] comes with a collection of sample form templates, and you can also save your own templates, which you might do to establish your own visual identity and quickly create new forms that conform to it.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] comes with a collection of sample form templates, and you can also save your own templates, which you might do to establish your own visual identity and quickly create new forms that conform to it.
 
 You can view, edit, and create form templates by going to **Templates** &gt; **Marketing Form Templates**. The process for creating a new template is nearly the same as creating a new form.
 
@@ -186,7 +187,7 @@ When you're choosing which form the block will show, you can only choose forms w
 
 ## Create and manage input fields for use in forms
 
-Each field that appears in a marketing form must map unambiguously to a contact or lead field in your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] database, where values submitted for that field will be stored. When you're designing a form, you'll see a block for each field that is already set up, so all you need to do to add that field is drag the matching field block to your form. The most commonly used fields (such as name, address, and email) are set up by default; if you want to use additional fields, you must set them up first.
+Each field that appears in a marketing form must map unambiguously to a contact or lead field in your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database, where values submitted for that field will be stored. When you're designing a form, you'll see a block for each field that is already set up, so all you need to do to add that field is drag the matching field block to your form. The most commonly used fields (such as name, address, and email) are set up by default; if you want to use additional fields, you must set them up first.
 
 ### Create or edit a marketing-form field
 
@@ -236,11 +237,11 @@ The following table describes all configuration settings that are available for 
 
 ## Deploy your marketing pages
 
-While you are building a marketing page it remains in draft status, and is therefore editable in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] but is unavailable to customers on the internet. When your page is ready for use, you must publish it by selecting **Go Live**.
+While you are building a marketing page it remains in draft status, and is therefore editable in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] but is unavailable to customers on the internet. When your page is ready for use, you must publish it by selecting **Go Live**.
 
-While the page is live, you can't edit it in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], but you can stop (unpublish) a live page at any time by opening its record and selecting **Stop** in the command bar. Then you can edit it and republish as needed.
+While the page is live, you can't edit it in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], but you can stop (unpublish) a live page at any time by opening its record and selecting **Stop** in the command bar. Then you can edit it and republish as needed.
 
-When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] hosts it by using its portals* feature at a public URL that you can share with prospects. When you first create the page, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] automatically creates a new website record for it, where you can go to analyze its traffic and performance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register contacts' engagement with your Internet marketing initiatives](register-engagement.md)
+When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] hosts it by using its portals* feature at a public URL that you can share with prospects. When you first create the page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically creates a new website record for it, where you can go to analyze its traffic and performance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register contacts' engagement with your Internet marketing initiatives](register-engagement.md)
 
 ## Configure marketing page defaults and matching strategies
 

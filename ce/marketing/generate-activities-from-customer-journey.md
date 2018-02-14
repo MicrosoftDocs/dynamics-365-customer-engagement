@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: e44cf736-a3d5-4f33-b561-1b47c6b093ed
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -23,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe>
+<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
 
 In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the trigger that creates a phone-call task associated with each contact who submits the registration form.  
 
@@ -91,5 +90,6 @@ For this exercise, you'll set up a template to create task activities, and then 
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
+[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)

@@ -2,7 +2,7 @@
 title: "Upgrade a Unified Service Desk for Dynamics 365 Customer Engagement solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk for Dynamics 365 Customer Engagement." 
 ms.custom: ""
-ms.date: 08/23/2017
+ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -15,18 +15,17 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 46250912-52bc-45dc-914b-a77b32fc27c4
-caps.latest.revision: 7
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 ---
 # Upgrading the solution
-You can upgrade a Unified Service Desk 1.x or [!INCLUDE[pn_unified_service_desk_20](../../includes/pn-unified-service-desk-20.md)] sample application package to [!INCLUDE[pn_unified_service_desk_2_1](../../includes/pn-unified-service-desk-2-1.md)] by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  
+You can upgrade a Unified Service Desk 1.x or [!INCLUDE[pn_unified_service_desk_20](../../includes/pn-unified-service-desk-20.md)] sample application package to [!INCLUDE[pn_unified_service_desk_3_2](../../includes/pn-unified-service-desk-3-2.md)] by importing the Upgrade sample application package. The upgrade will not affect the configuration data associated with the existing solution.  
   
 ## Upgrade procedure  
  To upgrade a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution, follow these steps.  
   
-1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=854761) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application packages and [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)] tool.  
+1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=867343) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sample application packages and [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)] tool.  
   
 2.  Start [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)], that will be used  to import the Upgrade sample application package. Alternatively, you can use [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] commands. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Import-CrmPackage](https://technet.microsoft.com/library/dn756301.aspx)  
   

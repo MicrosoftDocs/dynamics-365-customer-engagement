@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: dd5579ea-7fea-41fa-81ab-a83d67943c7e
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -23,27 +22,27 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe>
+<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
 
-Use [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] tasks (such as a scheduled follow-up phone call), and trigger business workflows.
+Use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] provides a graphical, drag-and-drop, journey modeler that works something like a simple board game. Each contact starts on the first square (by becoming part of a target segment), and then progresses through one square at a time, with each square representing a marketing initiative, decision point, or internal action item.
 
 ![An example of a customer journey](media/customer-journey.png "An example of a customer journey")
 
-The previous figure shows how a simple customer journey might look in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. A somewhat more complex example could work like this:
+The previous figure shows how a simple customer journey might look in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A somewhat more complex example could work like this:
 
 1. A new contact from New York wants to subscribe to your newsletter, and fills out a marketing page on your site. This results in a new contact record in your database.
 
 1. You have a dynamic segment that finds all newsletter subscribers from New York, so the new contact automatically joins that list.
 
-1. You've created a customer journey in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
+1. You've created a customer journey in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] that starts with the New York subscribers' segment as tile one, so the contact starts there and moves directly to the next tile.
 
 1. The next tile in the journey is an email tile, so the system automatically sends a marketing email to the new contact, and the contact moves on to the next tile. The email message offers a free white paper for download.
 
 1. The next tile is a trigger (set to trigger on the email). It keeps the contact here until either a week goes by, or they click the download link. The trigger branches the path, so if the contact clicks to download the paper, they'll take the "true" path immediately; but if a week goes by without a click, they'll go down the "false" path.
 
-1. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as surveys or event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
+1. The top ("true") path continues with more tiles designed to nurture the lead further. Because the contact clicked the link, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generated a lead for that contact, which represents their expression of interest in the product promoted in that white paper. Some tiles along this path might initiate or evaluate lead interactions (such as surveys or event invitations), while others might generate internal events (like assigning a task or launching a workflow in the CRM system). As the contact interacts with your initiatives, the lead builds up its score until it's ready to forward to sales.
 
 1. The bottom ("false") path starts with another email tile, which sends a reminder with a second chance to get the download, after which the contact might continue down the same type of nurturing path if they respond, or get dropped for now if they don't.
 
@@ -59,7 +58,11 @@ You can also choose to start from scratch instead of using a template. The pipel
 
 When creating or editing a customer journey, you'll be working on the customer-journey form page. At the top of this page, you'll see the canvas, where you'll build up your campaign pipeline by adding, arranging, and configuring the tiles that represent each step in the journey. General settings and fields for metadata are available further down on the page, below the canvas.
 
-## Working with tiles and the pipeline
+## Design your journey
+
+Use the **Design** tab to design your campaign by arranging tiles into a logical flow, and then configure each tile.
+
+### Working with tiles and the pipeline
 
 You can add tiles to the pipeline by dragging tiles from the **Toolbox** tab on the right side of the canvas to the appropriate position on the canvas. You can also add tiles by using the command bar and arrow keys, as described in the next section.
 
@@ -81,7 +84,7 @@ Legend:
 
 To configure a tile or child tile, select it in the pipeline and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected.
 
-## Add tiles by using the command bar and arrow keys
+### Add tiles by using the command bar and arrow keys
 
 Though most people add and arrange tiles by dragging them to the canvas, you can also do it by using the toolbar above the canvas, and you can even build up a pipeline without using the mouse at all. This makes the solution more adaptable to your working preferences while also making it more accessible for people who have trouble working with a mouse.
 
@@ -95,13 +98,13 @@ Though most people add and arrange tiles by dragging them to the canvas, you can
 
     ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
 
-## Configure tile settings
+### Configure tile settings
 
-Each tile represents a step in the customer journey, and you'll make configuration settings to establish what happens at each of these steps. Most types of tiles interact with some other type of record in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like schedulers, triggers, and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
+Each tile represents a step in the customer journey, and you'll make configuration settings to establish what happens at each of these steps. Most types of tiles interact with some other type of record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like schedulers, triggers, and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
 
 To configure a tile, select it in the pipeline, and then go to the **Properties** tab to the right of the canvas, where you'll find all the settings that apply to the type of tile you've selected. When you add a new tile, its **Properties** tab is automatically activated so you can start configuring that tile right away.
 
-For tiles that must refer to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], like emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with that tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
+For tiles that must refer to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], like emails or events, you can choose to leave the record unspecified, choose an existing record, or create a new record to use with that tile. All tiles of this type include the **Properties** settings highlighted in the following figure.
 
 ![An example of common tile settings](media/cj-tile-details-ill.png "An example of common tile settings")
 
@@ -114,9 +117,9 @@ Legend:
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customer journey tiles reference](customer-journey-tiles-reference.md)
 
-## Create activity marketing templates for activity tiles
+### Create activity marketing templates for activity tiles
 
-The activity tile enables a customer journey to generate [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] an activity record (such as a phone call, task, or appointment), associate the activity with each contact who enters the tile, and assign each activity to a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user for follow-up. Each activity tile uses an activity marketing template to define the type and details of the activities it generates.
+The activity tile enables a customer journey to generate [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] an activity record (such as a phone call, task, or appointment), associate the activity with each contact who enters the tile, and assign each activity to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user for follow-up. Each activity tile uses an activity marketing template to define the type and details of the activities it generates.
 
 To view, edit, and create an activity marketing template, go to one of the following areas, depending on which type of activity you are setting up:
 
@@ -132,12 +135,54 @@ In each case, you'll go to a list showing templates of your selected type. The l
 All types of activity marketing templates have the following required settings:
 
 - **Name**: This is the name you'll see when assigning the template to an activity tile.
-- **Owner**: This is the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user who will be assigned the new activity.
+- **Owner**: This is the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user who owns the template. Note that the user the activity gets assigned to is established by the settings for the tile that uses the template.
 - **Subject**: This is the subject shown on each activity record generated by using this template.
 
 Other settings for activity marketing templates vary by activity type and, like the **Subject**, are saved with each activity generated by using the template. These other settings map to those used by the activity records themselves.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Action tiles](customer-journey-tiles-reference.md#action-tiles)
+
+## Set general options, including execution schedule and content settings
+
+Use the **General** tab to give your journey a name, assign ownership, set its execution schedule, choose content settings, view its timeline history, and more.
+
+### Set the execution schedule
+
+All customer journeys are active for a limited time. During this time, the journey processes all contacts that are part of its target segments, stepping them through each tile according to its settings. The journey starts by processing all contacts that are already in its segments, and it will continue to process new contacts that are added to the segment during the time it is active. At the end of the schedule, it stops processing all contacts, regardless of where they are in the journey. Use the **Start date and time** and **End date and time** settings on the **General** tab to set up the start and end dates, and use the **Time zone** setting to establish the time zone to use when interpreting these values.
+
+### Set up a recurring journey
+
+Usually, the journey takes each contact through its pipeline exactly once. Even if you use several segments, and a given contact appears in more than one of them, each contact is processed at most once. However, you can also set up a recurring journey in which all contacts are reprocessed at a regular interval during the active period. To set up a recurring journey:
+
+1. Open your journey and go to the **General** tab.
+1. Set **Is recurring** to **Yes**. This opens two additional settings here.
+1. Set the **Recurrence interval** to the number of days each iteration should last.
+1. Set the **Recurrence count** to the maximum number of recurrences each contact can experience.
+
+
+> [!NOTE]
+> Your recurrence schedule must fit within your start and end dates, such that:  
+**interval * count &le; end date &ndash; start date**.
+
+### Choose your content settings
+
+Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the assist-edit feature. You'll set up each customer journey to use a specific content-settings record, which means that all messages sent by that journey will use the same content settings. However, each journey can use a different content-settings record, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. 
+
+To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
+
+For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](prepare-marketing-emails.md#content-settings)
+
+If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
+
+### Add a suppression segment
+
+A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey. 
+
+Suppression segments are especially important for journeys that run for a long time (such as more than a few days), including journeys with triggers that introduce long delays. That's because once a contact starts the journey, only a suppression segment can remove that contact again&mdash;even if the contact unsubscribes in the meantime.
+
+You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its General tab and then choose a segment in the **Suppression segment** lookup field.
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use suppression segments to apply unsubscribe requests](suppression-segments.md)
 
 ## Go live to start running the journey and processing contacts
 
@@ -145,15 +190,16 @@ When you first create a new customer journey, and while you're working on it, th
 
 When you've finished designing your customer journey, do the following to verify and publish it:
 
-1. Double-check the **Start Date** and **End Date**. The customer journey won't do anything until the **Start Date** arrives and it will stop processing all contacts, no matter which tile they're on, as soon as the **End Date** arrives. Remember also that any contact who joins the target segment while a journey is running will also be processed by that journey, starting at the first tile.
+1. Double-check the **Start Date** and **End Date** on the **General** tab. The customer journey won't do anything until the **Start Date** arrives and it will stop processing all contacts, no matter which tile they're on, as soon as the **End Date** arrives. Remember also that any contact who joins the target segment while a journey is running will also be processed by that journey, starting at the first tile.
 
 1. Select **Check for Errors** in the command bar to verify your campaign setup and check it for errors. This step makes sure that all required marketing emails and pages are assigned and published, and also checks for other prerequisites and common errors. If problems are found, you'll see an error message with advice for how to fix it. Continue to check, fix reported errors, and check again until your journey passes the test.
 
-1. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] server, which also hosts your published marketing email messages and marketing pages.
+1. Now you're ready to publish: select **Go Live** in the command bar. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] runs the error check one last time. If your journey passes, it is published to the active area of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] server, which also hosts your published marketing email messages and marketing pages.
 
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
