@@ -23,7 +23,7 @@ manager: "sakudes"
 
 ## Closing CRM entity page starts loading but never completes loading
 
-When **InternetExplorerPooling** is enabled, and if you close a CRM entity page hosted in Unified Service Desk using the close (x) button (see Image 1), the CRM entity page to starts loading but never completes loading (see Image 2). 
+When **InternetExplorerPooling** is enabled, and if you close a CRM entity page hosted in Unified Service Desk using the close (**x**) button (_see Image 1_), the CRM entity page to starts loading but never completes loading (_see Image 2_). 
 
   ![Closing CRM entity page hosted in Unified Service Desk using close button](../../unified-service-desk/media/usd-crm-page-hosted-close-button.PNG "Closing CRM entity page hosted in Unified Service Desk using close button")
     _Image 1: Closing CRM entity page hosted in Unified Service Desk using close (x) button_
@@ -33,9 +33,10 @@ When **InternetExplorerPooling** is enabled, and if you close a CRM entity page 
 
 #### **Workaround**
 
-When the CRM entity page starts loading but never completes loading, you need to close the CRM entity page and open the page again to continue working (see Image 1).
+When the CRM entity page starts loading but never completes loading, you need to close the CRM entity page and open the page again to continue working (_see Image 1_).
 
 ![Close CRM entity to continue working](../../unified-service-desk/media/usd-crm-page-hosted-close-crm-page.PNG "Close CRM entity to continue working")
+
 _Image 1: Close CRM entity to continue working_
 
 
