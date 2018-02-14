@@ -1,5 +1,5 @@
 ---
-title: "Accessibility in Unified Service Desk for Microsoft Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Accessibility in Unified Service Desk for Dynamics 365 | MicrosoftDocs"
 description: "Learn about accessiblity features such as keyboard access and screen reader support."
 ms.custom: ""
 ms.date: 08/23/2017
@@ -11,7 +11,6 @@ ms.topic: "article"
 applies_to: 
   - "Unified Service Desk 3.x"
 ms.assetid: f43d9d0d-50fa-4ffa-908a-e592b40371b4
-caps.latest.revision: 19
 author: "Mattp123"
 ms.author: "matp"
 tags: 
@@ -25,7 +24,7 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Keyboard  access in the Unified Service Desk client  
  [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] offers keyboard navigation to help address issues faced by people with disabilities. Also, people who don’t use a mouse can use their keyboard to navigate in some areas of the [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] client.  
   
-|To|Press|  
+|To|Select|  
 |--------|-----------|  
 |Move from left to right and top to bottom towards the next control, option, option group, or field.|Tab|  
 |Move from right to left and bottom to top towards the next control, option, option group, or field.|Shift + Tab|  

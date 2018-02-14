@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: d1975d36-2383-4b88-ab84-e66930ec2dd0
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -43,7 +42,7 @@ Select a text block and use the settings provided on the **Properties** tabs to 
 
 ### Image blocks
 
-Image blocks add an image to a column, outside a text block. Image blocks interact with the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] image gallery, which helps you store, categorize, find, and share your image files.
+Image blocks add an image to a column, outside a text block. Image blocks interact with the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] image gallery, which helps you store, categorize, find, and share your image files.
 
 When you first add an image block, an image placeholder appears at the location where you dropped the block. Select the image placeholder and open the **Properties** tab, where you choose or upload the image file to be placed by the block.
 
@@ -83,7 +82,7 @@ Use the **Properties** tab to establish the appearance of your new or selected b
 
 ### Survey blocks
 
-Survey blocks create a colorful button in a column, outside a text block, that links to one of your online surveys also created in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. The button is created by using pure HTML text and styling only (no image files), and acts as a link to the survey you define for it.
+Survey blocks create a colorful button in a column, outside a text block, that links to one of your online surveys also created in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. The button is created by using pure HTML text and styling only (no image files), and acts as a link to the survey you define for it.
 
 Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the survey it should link to.
 
@@ -109,7 +108,7 @@ The designer provides many blocks that are unique to marketing forms. They are a
 
 ### Field blocks
 
-Each field block creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For each marketing-form field that you've set up, you'll find a unique component named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have a block called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
+Each field block creates a single form control (such as an input field, check box, or radio button set) that is mapped to the contact and/or lead entity in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each marketing-form field that you've set up, you'll find a unique component named after the field under the **Fields** heading of the designer's **Toolbox** tab. So, for example, if you've mapped the **First Name** field of the contact entity to a marketing-form field called "First Name", you'll also have a block called **First Name** under the **Fields** heading of the form designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 
 ![Field-block settings](media/field-block-details.png "Field-block settings")
 
@@ -126,7 +125,7 @@ When you add or select a field in your form, you can read and set the following 
 
 ### Subscription-list blocks
 
-Each subscription-list block creates a check box that a visitor can select to subscribe to, or unsubscribe from, one of your mailing lists. For each static marketing list that you've configured as a subscription list, you'll find a unique block named after that list under the **Subscription Lists** heading of the designer's **Toolbox** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up marketing lists for use with static segments and subscription centers](segmentation-lists-subscriptions.md#set-up-marketing-lists-for-use-with-static-segments-and-subscription-centers)
+Each subscription-list block creates a check box that a visitor can select to subscribe to, or unsubscribe from, one of your mailing lists. For each static marketing list that you've configured as a subscription list, you'll find a unique block named after that list under the **Subscription Lists** heading of the designer's **Toolbox** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
 Subscription list blocks are only available when you are working with a subscription center or landing page form, and their behavior is slightly different in each case:
 
@@ -161,7 +160,7 @@ The do-not-bulk-email block is a standard form-field block that is permanently c
 
 ### Remember-me blocks
 
-Remember-me blocks add a remember-me feature to your form. If a visitor submits a form with the remember-me box selected, the form will be prefilled with known values the next time they open one of your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] forms (while using that same computer and browser). Only the fields specifically configured to allow prefilling will be filled the next time. You should always include a block of this type on marketing pages that are enabled for prefilling. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Field blocks](#field-blocks)
+Remember-me blocks add a remember-me feature to your form. If a visitor submits a form with the remember-me box selected, the form will be prefilled with known values the next time they open one of your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] forms (while using that same computer and browser). Only the fields specifically configured to allow prefilling will be filled the next time. You should always include a block of this type on marketing pages that are enabled for prefilling. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Field blocks](#field-blocks)
 
 The remember-me block is a standard form-field block that is permanently configured to map to the "Allow form prefill" field of the contact entity. Other than this, all its properties are the same as those for standard form fields, as described in [Field blocks](#field-blocks).
 
@@ -169,7 +168,7 @@ The remember-me block is a standard form-field block that is permanently configu
 
 Submit-button blocks create a submit button for the form. All forms must include exactly one of these. Its only property is the button text, which establishes the text shown on the button.
 
-[!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] automatically adds a submit-button block to each new form you create. This type of block is not otherwise available in the **Toolbox**, so you should take care not to delete it from your forms because there is no way to add it again (other than immediate undo).
+[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically adds a submit-button block to each new form you create. This type of block is not otherwise available in the **Toolbox**, so you should take care not to delete it from your forms because there is no way to add it again (other than immediate undo).
 
 ### Reset-button blocks
 

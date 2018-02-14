@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 45c4c442-2662-41a0-83c9-8e3149ed71ec
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -113,6 +112,7 @@ To create a customer journey that executes a one-time email blast:
 
 ### See also
 
+[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  

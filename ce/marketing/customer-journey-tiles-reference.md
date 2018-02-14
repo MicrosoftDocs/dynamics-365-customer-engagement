@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 57e1c0f7-a12e-49ff-9110-0dcaae176855
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -37,7 +36,7 @@ The email tile sends a marketing email message to each contact that enters it. I
 - **Email**: Identify the marketing email message that the tile will send. Before you can publish your customer journey, all the marketing emails it references must also be finalized and published.
 - **Description**: Add a description or other notes here (optional).
 
-Your marketing email messages might contain special links to other [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] features such as marketing pages, event portals, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a child tile for each specific link that you want to trigger on. Add a landing-page, event, or survey tile as a child to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
+Your marketing email messages might contain special links to other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] features such as marketing pages, event portals, or voice-of-the-customer surveys, and you can set up customer-journey trigger tiles that react to customer interactions regarding each or any of these specifically. But even though you've selected a marketing email message that includes elements such as these, the customer journey won't know about them unless you also add a child tile for each specific link that you want to trigger on. Add a landing-page, event, or survey tile as a child to an email tile to expose these elements and make them selectable in your trigger-tile configurations. (Triggers can also react to message opens and unspecified link clicks, but you don't need to do anything special to enable this.)
 
 You can add a child tile to an email even if the associated message doesn't yet include the link represented by the child tile. This lets you plan your customer journey first and then finish your email designs later.
 
@@ -93,15 +92,15 @@ Survey tiles provide the following settings in the **Properties** pane while sel
 
 ## Action tiles
 
-Action tiles launch workflows or create new action records within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. You'd typically use these to generate to-do assignments for internal personnel to follow-up on things that happen during a customer journey.
+Action tiles launch workflows or create new action records within [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. You'd typically use these to generate to-do assignments for internal personnel to follow-up on things that happen during a customer journey.
 
 ### Activity
 
-An *activity* is a record of a planned or completed real-world activity, such as an appointment, task, or phone call, that relates to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. Most forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] include an activity wall that shows all the activities that various users planned or completed in relation to that record, such as phone conversations with a specific contact, or meetings related to planning a particular event. Records for planned activities can function as a to-do list for the users they are assigned to, and records for completed acStivities can contain details about what happened or what the outcome was.
+An *activity* is a record of a planned or completed real-world activity, such as an appointment, task, or phone call, that relates to some other record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Most forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] include an activity wall that shows all the activities that various users planned or completed in relation to that record, such as phone conversations with a specific contact, or meetings related to planning a particular event. Records for planned activities can function as a to-do list for the users they are assigned to, and records for completed acStivities can contain details about what happened or what the outcome was.
 
 Activity tiles are stand-alone, so they never have any parent or child tiles.
 
-When a contact enters an activity tile, the tile generates a new [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] activity related to that contact, and then the contact proceeds immediately to the next step in their customer journey.
+When a contact enters an activity tile, the tile generates a new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] activity related to that contact, and then the contact proceeds immediately to the next step in their customer journey.
 
 Activity tiles provide the following settings in the **Properties** pane while selected:
 
@@ -109,7 +108,7 @@ Activity tiles provide the following settings in the **Properties** pane while s
 - **Activity Type**: The type of activity (such as appointment, task, or phone call) the tile creates.
 - **Activity Template**: The template to use when creating the activity. The templates defines which type activity it is, who it should be assigned to, and other details. You can choose an existing template or create a new one from here, but you can only assign or create templates that have the same **Activity Type** as the tile. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create activity marketing templates for activity tiles](customer-journeys-create-automated-campaigns.md#create-activity-marketing-templates-for-activity-tiles)
 - **Properties**: After you've selected a template, a summary of its settings is shown here.
-- **Assigned To:** The tile assigns all of the activities it generates to the [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] user identified here.
+- **Assigned To:** The tile assigns all of the activities it generates to the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user identified here.
 - **Description**: Add a description or other notes here (optional).
 
 ### Invoke workflow
@@ -128,17 +127,15 @@ Workflow tiles provide the following settings in the **Properties** pane while s
 
 Target tiles establish the segment of contacts that will be targeted by your customer journey.
 
+<a name="segment"></a>
+
 ### Segment
 
-A segment is a collection of contacts grouped according to some common attribute or explicit assignment. A segment could be static (where members are added or removed manually) or dynamic (where members are established logically by defining a search query).
-
-One common example of a static segment is a newsletter subscription list, where contacts can add or remove themselves using a subscription center. Another, internal-only, static segment might be set up by a marketing manager to collect all the contacts whose business cards she collected at a recent conference.
-
-A dynamic segment is established logically, often along demographic lines. For example, a dynamic segment might be programmed to include all contacts where "state = 'New York'". [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] provides a sophisticated query builder that enables you to establish segments according to a wide variety of complex, detailed criteria.
+A segment is a collection of contacts grouped according to some common attribute or explicit assignment. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)
 
 Usually, each of your customer journeys starts with a segment tile, which establishes the collection of contacts who you'll be working with for that journey. When your customer journey starts running, it immediately processes all the contacts found in its target segments at that time. As time goes on, any new contacts that join the target segments will also start their journey here for as long as the customer journey is active.
 
-Each segment tile is always either the parent or child of another segment tile, so at minimum you'll have a parent segment with a single child segment. The parent tile displays a name for the stack and shows information about the total number of contacts it includes, and it establishes the logic for combining its various child tiles (intersection or union). Each child tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+Each segment tile is always either the parent or child of another segment tile, so at minimum you'll have a parent segment with a single child segment. The parent tile identifies it self as a _segment group_; it displays a name for the group and shows information about the total number of contacts it includes, and it establishes the logic for combining its various child tiles (intersection or union). Each child tile identifies an actual segment configured in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 ![A segment tile with two child segments](media/cj-segment-stack.png "A segment tile with two child segments")
 
@@ -238,9 +235,9 @@ Splitter-branch tiles provide the following settings in the **Properties** pane 
 
 ## Custom content tiles
 
-Custom content tiles provide similar capabilities as the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] instance. 
+Custom content tiles provide similar capabilities as the standard tiles described earlier (such as sending communication, tracking customer interactions, and adding triggers) but are created by partners and third-party developers to extend the marketing capabilities in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These custom tiles will appear in the designer if you have installed a partner-developed custom channel for customer journeys or have created and deployed your own custom channel for your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance. 
 
-Custom channels take advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
+Custom channels take advantage of the existing extensibility infrastructure and tooling in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], such as custom entities, workflows, and plug-ins, which allow developers and partners to leverage their knowledge of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
 
 ### See also
 
