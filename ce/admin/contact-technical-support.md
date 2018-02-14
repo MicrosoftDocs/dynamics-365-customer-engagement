@@ -1,7 +1,7 @@
 ---
 title: "Contact Dynamics 365 Customer Engagement Technical Support | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/31/2018
+ms.date: 02/14/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -24,7 +24,7 @@ manager: "brycho"
 
 ## Preview feature: new Dynamics 365 support center 
 
-On February x, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). The new process will help us improve your overall support experience and drive faster issue resolution. 
+On February 14, 2018, we introduced a new Help + support experience for admins to contact a Microsoft support representative for Dynamics 365 (online). The new process will help us improve your overall support experience and drive faster issue resolution. 
 
 ### Prerequisites
 
