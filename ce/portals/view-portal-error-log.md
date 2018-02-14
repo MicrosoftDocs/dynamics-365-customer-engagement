@@ -22,7 +22,7 @@ As a portal administrator or developer, you can use portal capabilities for Dyna
 
 ## Custom error
 
-If any server-side exception occurs in your portal, a customized error page with a user-friendly error message is shown by default. To configure the error message, see [Display custom error message](#display-custom-error-message).
+If any server-side exception occurs in your portal, a customized error page with a user-friendly error message is shown by default. To configure the error message, see [Display a custom error message](#display-a-custom-error-message).
 
 However, it is better to see the ASP.NET detailed error page, also known as Yellow Screen of Death (YSOD), for debugging purposes. The detailed error page helps you to get the full stack of server errors.
 
