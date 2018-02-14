@@ -37,7 +37,7 @@ When the CRM entity page starts loading but never completes loading, you need to
 
 ![Close CRM entity to continue working](../../unified-service-desk/media/usd-crm-page-hosted-close-crm-page.PNG "Close CRM entity to continue working")
 
-_Image 1: Close CRM entity to continue working_
+_Image 1: Close CRM entity page to continue working_
 
 
 ## See also
