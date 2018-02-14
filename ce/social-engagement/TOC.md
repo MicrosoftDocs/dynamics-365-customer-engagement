@@ -19,6 +19,7 @@
 ### [Manage licenses for Social Engagement](manage-licenses.md)
 ### [Understand user roles](user-roles.md)
 ### [Assign permissions and user roles](assign-user-roles.md)
+### [Manage authors](manage-authors.md)
 ### [Route posts by using automation rules](automation-rules.md)
 ### [Enable a partner as a delegated admin](delegated-admin.md)
 ### [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md)
