@@ -33,12 +33,18 @@ When **InternetExplorerPooling** is enabled, and if you close a CRM entity page 
 
 #### **Workaround**
 
-When the CRM entity page starts loading but never completes loading, you need to close the CRM entity page and open the page again to continue working (_see Image 1_).
+If you intentionally close the CRM entity page after completing your work, the page starts loading but never completes the loading. In this case, if you have work in-progress in other CRM pages, you can ignore the page loading seen on the particular CRM page, and continue working on other CRM pages.
+
+If you unintentionally close the CRM entity page, the page starts loading but never completes loading. In this case, you need to close the CRM entity page and reopen the page to continue working.
+
+It is possible that there is not close button on the CRM page tab, in this case, you can close the session tab and reopen the session and CRM entity page to continue working.
+ (_see Image 1_).
 
 ![Close CRM entity to continue working](../../unified-service-desk/media/usd-crm-page-hosted-close-crm-page.PNG "Close CRM entity to continue working")
 
-_Image 1: Close CRM entity page to continue working_
+_Image 1: The CRM entity page does not have close button. To continue working close the session and reopen_
 
+If the session tab does not have the close button, you must close the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and relaunch the client application, session, and CRM entity page to continue working. 
 
 ## See also
 
