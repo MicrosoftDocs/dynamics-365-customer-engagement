@@ -10,10 +10,7 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-helpviewer_keywords: 
-  - "unified interface"
-  - "interface"
- ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
+ms.assetid: 64987a8b-21e4-4c2a-9366-39dabef90bb1
 caps.latest.revision: 21
 author: "jimholtz"
 ms.author: "jimholtz"
@@ -31,7 +28,7 @@ Unified Interface includes the following changes.
 
 ## What apps have Unified Interface
 
-The following table describes what each app is used for, whether it's designed for web or mobile, and where to go for more information.
+The following table describes what each app is used for, whether it's built on the Unified Interface.
 
 |App|Description|Unified Interface|
 |---------|---------|---------|
