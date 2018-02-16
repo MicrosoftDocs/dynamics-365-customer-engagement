@@ -2,7 +2,7 @@
 title: "Walkthrough: Register a Dynamics 365 app with Azure Active Directory (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This walkthrough describes how to register an application with Azure Active Directory so that it can connect to the Dynamics 365 Customer Engagement server, authenticate using OAuth, and access the web services"
 ms.custom: ""
-ms.date: 02/13/2018
+ms.date: 02/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 8fb9f7e2-8002-427e-bc66-a7c0d6e32ac8
 caps.latest.revision: 10
-author: "JimDaly"
-ms.author: "jdaly"
+author: "KumarVivek    "
+ms.author: "kvivek"
 ---
 # Walkthrough: Register a Dynamics 365 app with Azure Active Directory
 
@@ -23,7 +23,7 @@ This walkthrough describes how to register an application with [!INCLUDE[pn_micr
 
 [!INCLUDE[cc_sdk_onpremises_note](../includes/cc-sdk-onpremises-note.md)]
 
-App registration in Azure Active Directory is typically done by ISVs who provide external client applications to read and write data in Customer Engagement. Registering an app in Azure Active Directory provides you with **Application ID** and **Redirect URI** values that ISVs can use in their client application's authentication code. When end users use the ISV's application for the *first time* to connect to their Customer Engagement instance by providing their Customer Engagement credentials, a consent form is presented to the end user. After consenting to use their Customer Engagement account with the ISV's application, end users can connect to Customer Engagement instance from external application. The consent form is not displayed again for a user who has already consented to use the ISV's app. Apps registered in Azure Active Directory are multi-tenant, which implies that Customer Engagement users from any tenant can connect to their instance using the ISV's app. 
+App registration in Azure Active Directory is typically done by ISVs who want to develop external client applications to read and write data in Customer Engagement. Registering an app in Azure Active Directory provides you with **Application ID** and **Redirect URI** values that ISVs can use in their client application's authentication code. When end users use the ISV's application for the *first time* to connect to their Customer Engagement instance by providing their Customer Engagement credentials, a consent form is presented to the end user. After consenting to use their Customer Engagement account with the ISV's application, end users can connect to Customer Engagement instance from external application. The consent form is not displayed again to other users after the first user who has already consented to use the ISV's app. Apps registered in Azure Active Directory are multi-tenant, which implies that other Customer Engagement users from other tenant can connect to their instance using the ISV's app. 
 
 App registration can also be done by an application developer or individual user who is building a client application to connect to and read/write data in Customer Engagement. Use the **Application ID** and **Redirect URI** values from your registered app in your client application's authentication code to be able to connect to Customer Engagement instance from your client application, and perform the required operations. Note that if the app is registered in the same tenant as your Customer Engagement instance, you won't be presented with a consent form when connecting from your client application to your Customer Engagement instance.
 
