@@ -74,7 +74,7 @@ App registration can also be done by an application developer or individual user
    
     - Select **Select permissions** > **Access CRM Online as organization users**, and then click **Select**.
   
-      ![Add application permission in Dynamics 365](media/azure-add-permission.PNG "Add application permission in Dynamics 365")  
+      ![Add delegated permission](media/azure-add-permission.PNG "Add delegated permission")  
 
     - Select **Done** to add the delegated permission to the registered app.
 
