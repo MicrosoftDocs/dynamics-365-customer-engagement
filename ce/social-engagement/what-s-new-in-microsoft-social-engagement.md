@@ -28,7 +28,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Let us know what you think about [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-With this update, we introduce a feedback dialog which is presented to a sample of users when they sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We encourage everyone to provide feedback that will help us shape the service and align our priorities for future updates.
+With this update, we introduce a feedback dialog that is presented to a sample of users when they sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We encourage everyone to provide feedback that will help us shape the service and align our priorities for future updates.
 
 ### Service and product improvements
 
