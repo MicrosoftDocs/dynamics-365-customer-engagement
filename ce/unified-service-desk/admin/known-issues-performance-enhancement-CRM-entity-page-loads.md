@@ -23,7 +23,7 @@ manager: "sakudes"
 
 ## Closing CRM entity page starts loading but never completes loading
 
-When **InternetExplorerPooling** is enabled, and if you close a CRM entity page hosted in Unified Service Desk using the close (**x**) button (_see Image 1_), the CRM entity page to starts loading but never completes loading (_see Image 2_). 
+When **InternetExplorerPooling** is enabled, and if you close a CRM entity page hosted in Unified Service Desk using the close (**x**) button (_see Image 1_), the CRM entity page to starts loading but never completes loading (_see Image 2_).
 
   ![Closing CRM entity page hosted in Unified Service Desk using close button](../../unified-service-desk/media/usd-crm-page-hosted-close-button.PNG "Closing CRM entity page hosted in Unified Service Desk using close button")
     _Image 1: Closing CRM entity page hosted in Unified Service Desk using close (x) button_
@@ -33,18 +33,20 @@ When **InternetExplorerPooling** is enabled, and if you close a CRM entity page 
 
 #### **Workaround**
 
-If you intentionally close the CRM entity page after completing your work, the page starts loading but never completes the loading. In this case, if you have work in-progress in other CRM pages, you can ignore the page loading seen on the particular CRM page, and continue working on other CRM pages.
+If you close the CRM entity page, the page starts loading but never completes the loading. In this case, to restore the CRM entity page, right-click on CRM entity page and select **Forward** from the context menu (_see Image 1_).
 
-If you unintentionally close the CRM entity page, the page starts loading but never completes loading. In this case, you need to close the CRM entity page and reopen the page to continue working.
+![Right-click on the CRM entity page and select Forward from the context menu](../../unified-service-desk/media/usd-crm-page-right-click-CRM-entity-page-select-forward.PNG "Right-click on the CRM entity page and select Forward from the context menu")
+
+_Image 1: Right-click on the CRM entity page and select Forward from the context menu_
+
+> [!Note]
+> The session that you are working is fine and there is no data lost.
+
+<!--If you  close the CRM entity page, the page starts loading but never completes loading. In this case, you need to close the CRM entity page and reopen the page to continue working.
 
 It is possible that there is not close button on the CRM page tab, in this case, you can close the session tab and reopen the session and CRM entity page to continue working.
- (_see Image 1_).
 
-![Close CRM entity to continue working](../../unified-service-desk/media/usd-crm-page-hosted-close-crm-page.PNG "Close CRM entity to continue working")
-
-_Image 1: The CRM entity page does not have close button. To continue working close the session and reopen_
-
-If the session tab does not have the close button, you must close the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and relaunch the client application, session, and CRM entity page to continue working. 
+If the session tab does not have the close button, you must close the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application and relaunch the client application, session, and CRM entity page to continue working.-->
 
 ## See also
 
