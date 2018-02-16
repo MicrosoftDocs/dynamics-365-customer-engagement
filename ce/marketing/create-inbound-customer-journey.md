@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: 5b3164e5-3a2a-4254-9085-c3e512c14867
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -23,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe>
+<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
 
 An outbound customer journey is one that starts with a segment made up of contacts that are already included in your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] database, so an outbound journey usually starts by sending out marketing emails to the members of a segment. An inbound journey seeks to attract new, unknown contacts, so an inbound journey typically starts with a landing page that new contacts use to register for a newsletter, download, or some other perk. You'd typically promote your inbound campaign by running ads and posting links on social media.
 
@@ -34,7 +33,7 @@ Though messaging and promotion strategies are typically quite different for an i
 ### See also
 
 [Create a simple customer journey](create-simple-customer-journey.md)  
-[Use suppression segments to respect unsubscribe requests](suppression-segments.md)  
+[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  

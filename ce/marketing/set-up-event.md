@@ -11,7 +11,6 @@ applies_to:
 ms.assetid: a3d1dc05-8a69-43dd-94ee-a36ea4de650e
 author: kamaybac
 ms.author: kamaybac
-robots: noindex,nofollow
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
@@ -27,7 +26,7 @@ To get started planning an event with [!INCLUDE[pn-marketing-business-app-module
 
 ## Create the root event record
 
-The first thing you'll do when setting up your event in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] is to set up an event record. Everything that you do related to a given event will either be stored directly in the event record itself, or stored in other records that are linked to that event.
+The first thing you'll do when setting up your event in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is to set up an event record. Everything that you do related to a given event will either be stored directly in the event record itself, or stored in other records that are linked to that event.
 
 Though the solution offers many different views into other record types, you'll probably do most of your work directly in the relevant event record because you'll be able to view and create most types of related recordS from here, and everything that you do will automatically be related to that event.
 
@@ -35,7 +34,7 @@ You can see a list of all your event records by going to **Events** &gt; **Event
 
 ![Example of an event record](media/event-record.png "An example of an event record")
 
-As with many other forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)], the event form provides a summary of its most important settings at the top, where you'll also find the business workflow timeline, which helps organize your work at each stage of the event-management process. A standard business workflow for events is provided out of the box, but you can customize it to match the process in place at your organization.
+As with many other forms in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], the event form provides a summary of its most important settings at the top, where you'll also find the business workflow timeline, which helps organize your work at each stage of the event-management process. A standard business workflow for events is provided out of the box, but you can customize it to match the process in place at your organization.
 
 The first time you create a new event, you must specify values for each of the required fields (marked with a red asterisk), and we recommend that you fill out the business-critical fields too (marked with a blue plus sign). All required and business-critical fields are available at the top of the page in the business workflow, where you can fill them out quickly and easily. All settings that you enter in the business workflow will also be visible among the other event details further down the page. You'll still be able to see and edit these settings even after you move forward to the next stage in the workflow.
 
@@ -61,8 +60,8 @@ Your event team includes coworkers and external contacts who are helping you org
 
 Each team member record can be associated with a contact or user record.
 
-- *Users* are people who work for your organization and have a [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] license.
-- *Contacts* come from your contact database, which will include customers, potential customers, vendors, partners, and other external people (or internal people who don't use [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]).
+- *Users* are people who work for your organization and have a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] license.
+- *Contacts* come from your contact database, which will include customers, potential customers, vendors, partners, and other external people (or internal people who don't use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]).
 
 When you create a new team member record, you'll be able to choose whether to associate it either with a user or a contact. If you choose to associate the record with a contact, the team-member record will display relevant information from that contact record. User records don't include any contact information, so if you associate the record with a user, the association will be shown but no additional information will be loaded. The team-member record also provides information about that member's role and which events he or she has worked on. You can create team members from either the **Event Team Members** list page or directly from a specific **Event** record.
 
@@ -82,8 +81,8 @@ There are two types of tracks: *internal* and *external*. Use internal tracks du
 
 Use the following pages to manage your sessions and tracks:
 
-- **Events** &gt; **Sessions** &gt; **Sessions**: Lists all sessions from all events that you have managed or are managing in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. You can edit any session from here and add new sessions as needed. Each session is associated with a specific event and speaker, and includes scheduling details.
-- **Events** &gt; **Sessions** &gt; **Session Tracks**: Lists all tracks from all events that you have managed or are managing in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]. For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
+- **Events** &gt; **Sessions** &gt; **Sessions**: Lists all sessions from all events that you have managed or are managing in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. You can edit any session from here and add new sessions as needed. Each session is associated with a specific event and speaker, and includes scheduling details.
+- **Events** &gt; **Sessions** &gt; **Session Tracks**: Lists all tracks from all events that you have managed or are managing in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
 - **Events** &gt; **Event** &gt; **Events**: In addition to the dedicated pages, you can also view and set up sessions and tracks while working directly in an **Event** record, which is often more convenient because each new record is automatically associated with the current event, and each list is filtered to show only those items that relate to the current event.
 
 ### Set up and assign session speakers
@@ -106,7 +105,7 @@ If the speaker, event, or session record that you need doesn't exist yet, you ca
 
 ## Set up event passes
 
-Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event portal, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
+Event passes are essentially tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks. Passes are optional, but if you want to use them, you'll start by setting up the basic types of passes that you need for an event. Later, you'll assign a pass of the appropriate type to each attendee by mapping each event registration to one or more pass types. Passes can also be shown on the event portal, so attendees can register for the passes they want while registering for the event itself; in this case, the registration/pass mapping is made automatically. For each assigned pass, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] generates a unique QR code, which you can print onto a physical badge that event personnel can quickly scan on entrance to confirm eligibility and record attendance.
 
 For each pass type, you'll set the event where it applies and then assign a category (attendee, speaker, sponsor, journalist, and so on), a price, an allocation (the number available), and other details. You can also assign a session track for the pass, which grants access to all the sessions in that track, but not necessarily to all sessions at the event. To create a pass that applies to a single session, you must create a track that includes just that session.
 

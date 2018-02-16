@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 01/29/2018
+ms.date: 02/14/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -15,8 +15,7 @@ manager: "brycho"
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
 =========================================================
 
-This document provides important, late-breaking information about this product
-version:
+This document provides important information about this product version:
 
 -   Dynamics 365 (online), Enterprise edition, version 9.0
 
@@ -38,7 +37,7 @@ Services and apps availability
 | Connected Field Service                                                                     | X  |                |                 |
 | (Internet of Things)                                                                        |    |                |                 |
 | Machine Learning                                                                            | X  |                |                 |
-| Office 365 Groups                                                                           | X  |                |                 |
+| Office 365 Group                                                                            | X  |                |                 |
 | Gamification                                                                                | X  |                |                 |
 | Organizational Insights                                                                     | X  |                |                 |
 | CaféX Live Assist                                                                           | X  |                |                 |
@@ -52,7 +51,6 @@ Services and apps availability
 | Relationship Insights - Email Engagement                                                    |    | X              |                 |
 | Customer Insights                                                                           |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                                                              |    | X              |                 |
-| Cortana                                                                                     |    | X              |                 |
 | Mobile offline (Dynamics 365 for tablets and phones)                                        | X  |                |                 |
 | Relationship Insights - Relationship Analytics                                              |    |                | X               |
 
@@ -64,12 +62,12 @@ Engagement applications are required to use TLS 1.2 (or later) security
 protocols. This aligns with updated Microsoft and industry security policies and
 best practices. To prevent any disruption to your organization, you might be
 required to take the following actions to maintain the connectivity to Dynamics
-365 Customer Engagement applications:
+365 Customer Engagement applications.
 
 1.  Use [supported
     browsers](https://technet.microsoft.com/library/hh699710.aspx#Anchor_2) to
-    access the Dynamics 365 web application. For help identifying if a browser
-    supports the TLS 1.2 requirement, go to this [validation test
+    access the Microsoft Dynamics 365 web application. For help identifying if a
+    browser supports the TLS 1.2 requirement, go to this [validation test
     page](https://tls1-2validationtest.crm10.dynamics.com/TLSvalidation.html).
 
 2.  Recompile your custom Windows clients that were built using the .NET
@@ -78,7 +76,7 @@ required to take the following actions to maintain the connectivity to Dynamics
 3.  Download and update your Dynamics 365 for Outlook to [version
     8.2.2.137](https://www.microsoft.com/download/details.aspx?id=56327).
 
-4.  Download the [latest version of developer
+4.  Download [latest version of developer
     tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
     from NuGet.
 
@@ -100,19 +98,16 @@ impacted and what steps you might need to take:
 3.  Product documentation:
 
     1.  [Supported
-        extensions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/supported-extensions)
+        Extensions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/supported-extensions)
 
     2.  [Web application
         requirements](https://docs.microsoft.com/dynamics365/customer-engagement/admin/web-application-requirements)
 
-**If your organization is impacted by this requirement, you must take the
-necessary steps to upgrade to TLS 1.2 prior to scheduling your instance
-update.**
+**Note** If your organization is impacted by this requirement, you must take the
+necessary steps to upgrade to TLS 1.2 prior to scheduling your instance update.
 
 Sales and Customer Service web client apps
 ------------------------------------------
-
--   Sample data doesn't get installed under **Settings** \> **Data Management**.
 
 -   Core Marketing:
 
@@ -129,7 +124,7 @@ Sales and Customer Service web client apps
     -   Occasionally unable to unsubscribe an account, contact, or lead from the
         campaign activity.
 
--   Suggestions aren't available on the Product sub-grid in Quote, Order, or
+-   Suggestions aren't available on the Product sub grid in Quote, Order, or
     Invoice forms.
 
 -   Unable to create a new data source entity when there are spaces in the
@@ -145,10 +140,6 @@ Sales and Customer Service web client apps
 -   Unable to add a custom view as a subcomponent for the Account entity in a
     solution.
 
--   Using the Customer Service Representative role, the user is unable to save a
-    case for a customer with Entitlement setting for Decrease Remaining On
-    upon Case Creation. There is no issue in saving a case record otherwise.
-
 -   Pricing error notifications aren't displayed on the Quote Order Invoice
     detail forms.
 
@@ -161,8 +152,8 @@ Sales and Customer Service web client apps
 -   In organizations using languages other than English, an unexpected error
     occurs while trying to assign a security role to a newly created user.
 
-Sales Hub and Customer Service Hub apps
----------------------------------------
+Sales Hub and Customer Service Hub apps 
+----------------------------------------
 
 For best performance, the following table shows the **recommended app** to use
 in the browser or on mobile devices for each scenario. 
@@ -171,7 +162,7 @@ in the browser or on mobile devices for each scenario. 
 |---------------------------------------------------|----------------------------------------|-------------------------------------|-----------------------------|
 | Sales                                             | –                                      | Sales Hub                           | Sales                       |
 | Customer Service – Knowledge management scenarios | Customer Service Hub                   | Customer Service Hub                | –                           |
-| Customer Service - Case management scenarios      | –                                      | Customer Service Hub                | Customer Service            |
+| Customer Service - Case management scenarios      | Customer Service Hub                   | Customer Service Hub                | –                           |
 
  
 
@@ -180,7 +171,7 @@ in the browser or on mobile devices for each scenario. 
 -   An error is displayed on iPads whenever a user tries to add a product to an
     opportunity. The workaround is to dismiss the error.
 
--   The command bar action of a sub-grid that has no title (Opportunity product,
+-   The command bar action of a sub grid that has no title (Opportunity product,
     Opportunity Quotes) appears as an ellipsis above the grid but isn't aligned
     correctly.
 
@@ -194,8 +185,8 @@ in the browser or on mobile devices for each scenario. 
 -   Opportunity Product Quick Create opens in a new window instead of through a
     sliding dialog box.
 
--   A few activity-specific commands aren't available from activity entity
-    grids. They're available in all other places (forms, and so on).
+-   A few activity-specific commands aren't available from the activity entity
+    grids. They're available in all other places, such as forms.
 
 -   On mobile devices, email is read-only on the Sales Hub.
 
@@ -208,61 +199,62 @@ in the browser or on mobile devices for each scenario. 
     -   When you install the Community portal, the Read-only in Mobile metadata
         flag is enabled for the Case entity. This results in the Case entity
         being read-only in the Customer Service Hub. The workaround is to go to
-        entity customizations, and for the Case entity metadata, clear the
-        **Read-only in mobile** check box. Then, select **Save** and **Publish
-        all customizations**.
+        entity customizations and clear the **Read-only in mobile** check box in
+        the Case entity metadata. Then, select **Save** and **Publish all
+        customizations**.
 
-    -   In certain Trial organizations, saving knowledge articles causes a
-        duplicate record error due to an issue with the knowledge article
-        sequence number. The workaround is to update the prefix of the knowledge
-        article public number (**Settings** \> **Administration** \> **Auto
-        Numbering** \> **Knowledge Articles**) or update the article sequence
-        number by using an API.
+    -   To view the latest Entitlement details displayed within the Entitlement
+        sub grid of the case form, use the **Refresh** command bar action.
 
-    -   The Case business process flow isn't available when a new case is being
-        created. It's available after the Case form is saved.
+    -   When assigning a record to a user with insufficient privileges, the
+        assignment fails as expected, but no error message is shown.
 
     -   Phone to case process: The Find Case option on the Identify stage isn't
         available for update for an existing case.
-
-    -   The SLA lookup, when added via case entity form customization renders as
-        read-only and the user will not be able to use the look-up to associate
-        an on-demand SLA with the case record. This impacts only those set of
-        customers who are on 9.0 version already and receiving an interim 9.0
-        update. This issue does not impact new users signing for Dynamics 365
-        trial.
-
-    -   The Similar Cases sub-grid isn't available on the Case form.
 
     -   On mobile devices, email is read-only on the Customer Service Hub.
 
     -   Links in the body of an email aren't selectable.
 
-    -   Scrolling in the body of an email stops working after the user opens any
-        attachment. The workaround is to refresh the form.
-
-    -   The Knowledge Articles Related Translations sub-grid is hidden when the
+    -   The Knowledge Articles Related Translations sub grid is hidden when the
         user zooms in.
 
     -   Anchor links aren't working in the Knowledge Search control.
 
+    -   The Knowledge Base Search control causes an error when the
+        auto-suggestion feature is used without adding the auto-suggest field to
+        the form.
+
+    -   When you have too many sub grids on your form, Customer Service Hub has
+        performance issues in Internet Explorer 11. As a work around, you can
+        reduce the number of sub grids on the first page/tab.
+
+    -   Quick forms with multiple lines of text occupy a large amount of
+        vertical space on the Reference Panel section in forms. Scroll downwards
+        to see more fields.
+
+    -   When you change a User entity form from the default User form to the
+        Application User form, a script error dialog appears with the message
+        “One of the scripts for this record caused an error”. There is no
+        functional loss due to the script error.
+
 -   Other
 
-    -   User and team queues aren't available in the Add to Queue lookup.
+ -   User and team queues aren't available in the Add to Queue lookup.
 
-    -   Fallback forms are shown for the main forms for Category, Feedback, and
+ -   Access team template definition is currently not supported.
+
+ -   When you use the Associate Child Cases action on the cases grid and try to
+    associate a large number of case records in a Parent-child relationship, a
+    maximum of 25 case records is shown in the **Set Parent Child Relationship**
+    dialog.
+
+ -   Fallback forms are shown for the main forms for Category, Feedback, and
     Knowledge Article View entities, because their intended main forms (called
     *interactive forms*) are inactive by default. The workaround is to activate
-    the forms manually. This issue will be fixed in the upcoming release, but
-    orgs upgrading from Potassium Preview will need to manually activate the
-    forms.
+    the forms manually.
 
-    -   Invalid commands are visible for custom activities from the site map.
-
-    -   Activities are opened in the Main form layout instead of a Quick Create form
-    when creating a record from a bound dashboard.
-
-App modules and the App Designer
+App modules and the app designer
 --------------------------------
 
 -   The app module URL suffix provides a friendly URL for the app module in the
@@ -274,8 +266,8 @@ App modules and the App Designer
     page in the app designer don't appear.
 
 -   Any change in the name of a chart or dashboard made through corresponding
-    editors launched from the app designer will be reflected in the app designer
-    for the app module only after refresh.
+    editors launched from the app designer, will be reflected in the app
+    designer only after refresh.
 
 -   The Custom Business Process Flow entity that is created for a custom
     business process flow might not get automatically added to the app designer
@@ -304,35 +296,29 @@ Data visualization
 
 -   Interactive dashboards aren't supported in offline mode.
 
--   Any metadata settings in option sets to configure visual filter colors have
-    no effect, and charts won't be rendered in customized colors.
+-   The ribbon context for any entity of an Activity type defaults to
+    ActivityPointer. As a result, the stream quick actions show commands
+    relevant for all activities, rather than honoring the entity’s ribbon
+    context.
 
--   When an activity grid is configured to be rendered as a calendar control,
-    the **Open Dashboards** command opens the Activity Pointer dashboard instead
-    of the actual activity dashboard.
-
--   Filtering by using multi-select option sets in global filters isn't
-    supported.
+-   Custom interactive dashboards of any Activity entity other than the
+    ActivityPointer might result in an error.
 
 ### Charts in Unified Interface
 
--   Charts show the message "Loading" when the user doesn't have the read
-    privilege for the chart's underlying entity.
+-   Charts show the message "Loading" when the user doesn't have Read
+    permissions for the chart's underlying entity.
 
 -   On devices, a pie chart with too many slices might not show all data
     indexes.
 
--   On iOS devices, a chart in expand mode might look blurred.
-
--   Filters on a chart aren't preserved. If you select **Hide Chart** and then
-    **Show Chart**, the chart filter is lost and all the data in the entire view
-    is reloaded.
+-   On iOS devices, a chart might look blurred in expand mode.
 
 -   On phone devices, the chart overlaps the records available in a grid after
     you close the expanded view for the grid page.
 
--   On some grids, the Show Chart button shows an empty chart selector because
-    no chart exists for the underlying entity.
+-   On some grids, the **Show Chart** button shows an empty chart selector
+    because no chart exists for the underlying entity.
 
 -   Users will experience some right-to-left issues on charts, such as tooltips
     not showing up.
@@ -340,7 +326,16 @@ Data visualization
 -   When you select **Show Chart** on a grid while in offline mode, no chart
     will be displayed.
 
+Subject tree control
+--------------------
+
+-   To select a value for the subject attribute on a form or on the Convert-to
+    dialogs, select the space that displays the subject value. Selecting the
+    down arrow of the **Subject tree** control does not launch the subject
+    flyout.
+
 Timeline control
+----------------
 
 -   Trying to enable **Show Filter Pane** in the configuration property of the
     Timeline control in a dashboard shows the message "An unexpected error
@@ -358,6 +353,9 @@ Timeline control
 Field controls and mobile application in Unified Interface
 ----------------------------------------------------------
 
+-   The Lookup control shows two vertical scrollbars. There is no functional
+    impact.
+
 -   Visual controls aren't fully functional.
 
 -   Selecting a location card doesn't open the map in the native app of the
@@ -369,14 +367,14 @@ Field controls and mobile application in Unified Interface
 -   Date fields can't be set in Internet Explorer 11, Firefox, or Microsoft
     Edge.
 
--   The date-time control uses browser locale as opposed to user locale for
+-   The date time control uses the browser locale instead of the user locale for
     editing.
 
--   In text controls, long strings aren't getting wrapped in read mode.
+-   In text controls, long strings don’t get wrapped in read mode.
 
 -   Unable to add an unresolved email ID to a party list.
 
--   Incorrect quick-create forms are rendered when a new record is created by
+-   Incorrect quick create forms are rendered when a new record is created by
     using **+New** in the Regarding lookup field.
 
 -   The Lookup most recently used list doesn't take into account the lookup
@@ -392,18 +390,23 @@ Field controls and mobile application in Unified Interface
 -   Device settings aren't preserved across app restarts for an online org with
     no cache.
 
--   Cache mode doesn't work for disconnected mode.
+-   Cache mode doesn't work in disconnected mode.
 
 Grids and lists in Unified Interface
 ------------------------------------
 
+-   In grids, when viewing records available from the second to Nth page, any
+    command bar action performed will take you back to the first page of the
+    grid. The command bar action is successfully completed and there is no
+    functional impact.
+
+-   If the Quick find view definition is customized to include any date time
+    attributes as find columns, then the Quick find search for date time fields
+    returns incorrect results. The records retuned are for searched date -1.
+
 -   On tablets, in some languages, the index (character) filters might be
     displayed too close to each other. The workaround is to use the Search
     command to find records that begin with a certain character.
-
--   The due date filter on an activities grid might not work as expected in
-    conjunction with other filters on the page, such as the view selector and
-    index (character) filters.
 
 -   On tablets, resizing column width on grids can be harder because of the
     smaller dragging touch target. The workaround is to change the column width
@@ -411,6 +414,8 @@ Grids and lists in Unified Interface
 
 Multi-select option set in Unified Interface
 --------------------------------------------
+
+-   The multi-select option set has known issues in Unified Interface.
 
 -   The multi-select option set control always appears in edit mode.
 
@@ -420,39 +425,36 @@ Multi-select option set in Unified Interface
 
 -   The control UI isn't displayed correctly on Android 5.
 
-Timer control in Unified Interface
-----------------------------------
+Date time control in Unified Interface
+--------------------------------------
 
--   SLA Timer doesn't pause or resume when a case is put on hold or resumed. The
-    workaround is to refresh the form.
+The date time control in unified interface relies on browser support. It has
+known issues in browsers such as Internet Explorer 11 and Firefox. It also has
+localization and format issues.
 
 Activities in Unified Interface
 -------------------------------
 
 -   Unable to resolve the email address of a contact for received email.
 
--   Task, Phone Call, Appointment, and Custom activities don't honor the
-    **read-only in mobile** flag on Unified Interface.
+-   From the timeline wall, the main form is opened for activities instead of a
+    quick create form.
 
--   The Save button still shows after the user saves an appointment task.
+-   When you change the view to an activity entity specific view, specific
+    records aren’t filtered on the grid. The workaround is to refresh the grid.
 
--   Scrolling in the body of an email stops working after the user opens an
-    attachment twice on the device.
+-   With sample data, the call to and call from fields on a phone call form are
+    empty.
 
--   The Regarding field is not populated when the user replies to an email from
-    the Activity pane.
+-   You cannot delete an entity record if it has an activity associated with it.
 
--   An error occurs when multiple records are set for the **Call To** field and
-    the direction is changed to **Incoming**.
+    -   Deleting a resolved case, closed opportunity, closed order, or closed
+        quote will also result in failure.
 
--   Unable to open activities from a record set.
-
--   Related campaign field is not present in convert to opportunity dialog.
-
--   Converting a custom activity to opportunity results in an error.
-
--   Social Activities views are not displayed in My Activities views. The
-    workaround is viewing Social activities in All Activities view.
+-   When performing the **Convert to case** action from the activity command
+    bar, the owner of the activity is set as the owner of the case, instead of
+    the user who performs the action. The workaround is to change the owner of
+    the case manually.
 
 Dynamics 365 App for Outlook
 ----------------------------
@@ -466,8 +468,8 @@ Dynamics 365 App for Outlook
 
 -   When selecting **See more** to see more entities, Outlook 2013 and Outlook
     2016 display an add-in error, Chrome and Internet Explorer 11 display a
-    "long running script" error message, and Edge displays a blank screen for a
-    while and then navigates to the previous page.
+    "long running script" error message, and Microsoft Edge displays a blank
+    screen for a while and then navigates to the previous page.
 
 -   On Outlook 2013 and Outlook 2016, Outlook frequently displays "add-in
     error."
@@ -479,31 +481,32 @@ Dynamics 365 App for Outlook
     display an add-in error; in Chrome and Internet Explorer 11 the app displays
     a "Script Error" message.
 
--   When entering text in the **Look for Records** field when you set regarding,
-    in Outlook 2013 and Outlook 2016, some of the characters disappear. On
-    Chrome, Internet Explorer 11, and Edge the lookup sometimes stays in the
-    "Loading…" state forever.
+-   In Outlook 2013 and Outlook 2016, when entering text in the **Look for
+    Records** field when you set regarding, some of the characters disappear. On
+    Chrome, Internet Explorer 11, and Microsoft Edge the lookup sometimes stays
+    in the "Loading…" state.
 
 -   The Back button doesn't work on Outlook 2016 and Outlook 2013. On browsers,
     selecting the back icon navigates to the previous webpage (this is the same
     action as selecting the browser Back button).
 
--   The ability to follow and email while composing isn't available.
+-   The ability to follow an email while composing isn't available.
 
 -   The app isn't supported while accessing it from Outlook Web Application from
     Safari or Firefox.
 
 -   The app is currently not supported on Outlook for Mac.
 
--   While scrolling in the app, the action might be delayed or the app might
+-   While scrolling in the app, the action might be delayed, or the app might
     become unresponsive for few seconds.
 
--   When tracking / set regarding to an email, and selecting **View email in
+-   When tracking / set regarding for an email, if you select **View email in
     Dynamics 365**, one of sections in the email entity might display an error
     "You are not a member of this organization."
 
 -   Opening and closing the app a few times repeatedly on Internet Explorer and
-    Edge in Outlook Web Access causes the browser to be unresponsive.
+    Microsoft Edge in Outlook Web Access causes the browser to become
+    unresponsive.
 
 Dynamics 365 for Outlook
 ------------------------
@@ -542,9 +545,14 @@ This feature is in Public Preview and can be activated under System Settings.
 When activated, users should observe the following behaviors:
 
 -   Action steps within business process flows cannot use process actions that
-    contain any of the following: any input or output arguments of type Entity,
-    EntityCollection, or Option Set (picklist); more than one output argument of
-    type EntityReference; or any input arguments of type EntityReference.
+    contain any of the following:
+
+    -   Any input or output arguments of the type Entity, EntityCollection, or
+        Option Set (picklist).
+
+    -   More than one output argument of the type EntityReference.
+
+    -   Any input arguments of the type EntityReference.
 
 -   Action steps on business process flows cannot be exported or imported as
     part of a solution.
@@ -574,7 +582,7 @@ Web client visual refresh
 -   Some empty areas can occasionally be seen on certain forms, for example a
     marketing list. Select Ctrl+F5 to remove these.
 
--   Empty sub-grids show a message with the entity schema name instead of the
+-   Empty sub grids show a message with the entity schema name instead of the
     display name.
 
 -   Star symbols for fields secured via field-level security, might be
@@ -585,7 +593,7 @@ Web client visual refresh
     incorrectly.
 
 -   Sort and filter icons are incorrectly positioned on the activity wall on
-    iPad.
+    iPads.
 
 -   The calculator icon might be incorrectly positioned in certain rollup fields
     and calculated fields.
@@ -596,7 +604,7 @@ Web client visual refresh
 
     -   Doesn't change dynamically when the height of a field or component
         changes and might leave an empty space. However, this empty space will
-        disappear on refresh
+        disappear on refresh.
 
 Important note for Field Service or Project Service Automation organizations that update to Dynamics 365 version 9.0, or later 
 -------------------------------------------------------------------------------------------------------------------------------
@@ -606,114 +614,35 @@ Service Automation and Field Service Solutions. After updating to version 9.0,
 or later, go to the Dynamics 365 Administration Center, Manage Solutions page to
 update the preferred solution.
 
-Cortana integration with Dynamics 365
--------------------------------------
-
--   The Cortana integration with Dynamics 365 provides access to sales
-    activities, accounts, and tasks through Cortana. However, reactive Cortana
-    commands using voice or text aren't available currently. Voice or text
-    commands such as "Dynamics 365 open account called Contoso" or "CRM find
-    account called Contoso" will be redirected to open as a web search in Bing.
-    Although the rest of the capabilities are still available, we are working on
-    these reactive commands and plan to release them in a future update.
-
 Mobile Offline
 --------------
 
--   Any BPF which will update the entity will throw conflict errors on upsync of
-    any offline changes, where the entity records have been created or updated.
-    Work around is to disable conflict detection from Mobile Offline settings
-    for the org.
-
--   Change of organization URL leads to disabling of mobile offline feature
-
--   When you delete an entity field and immediately create another entity field
-    with the same name and a different data type, you might see an Offline Sync
-    failure. The workaround is to do one of the following:
-
-    -   Don't give the same name to columns that have different data types.
-
-    -   If it is necessary to give the same name to columns that have different
-        data types, wait at least 10 minutes after you delete the field before
-        you re-create a field with the same name and a different data type.
-
--   Multi-select option set on a form isn't supported in offline.
-
--   Activity Entity views like All Appointments, All Tasks, and All Phone calls
-    aren't supported in offline. Only the full activity views like All
-    Activities and My Activities are supported in offline.
-
--   Only the Lead to Opportunity Sales Process Cross Entity business process
-    flow is supported in offline. Other cross-entity business process flows
-    aren't supported in offline
-
--   Multiple instances of business process flows on a single record aren't
-    supported in offline.
-
--   Activity Grid fails to load in offline unless email is added to the Mobile
-    Offline profile
-
--   User is not notified of any unsaved changes during sign-out or reconfigure
-
--   Email body is rendered blank in offline mode
-
--   Calendar view is not supported in offline, and there could be some
-    inconsistencies in the data in this view in offline.
-
--   IFrames are not supported in offline mode
-
--   Updates to a BU for a user role when the user is offline are not synced
-    properly on reconnecting
-
--   Attachment records created in online mode on the client are not immediately
-    available in offlineDB. They are available after the next sync from server.
-
--   In Offline mode, parent records are not pre-populated on create of child
-    entities from subgrid of parent entity
-
--   Grid does not auto-refresh on closing of opportunity from grid
-
--   Profile Analyze Report does not include activity views.
-
--   Profile Analyze Report does gives wrong indication for activity entity views
-    like My Appointment etc.
-
--   Client sync may take up to 11 minutes when app is re-launched in online Mode
-
--   Records with a BPF associated need to have sufficient privileges configured
-    on BPF entity also.
-
--   Opportunity products subgrid in opportunity record is in loading state in
-    offline.
-
--   With BPF enabled, lead to opportunity qualify fails in offline mode
-
--   With BPF enabled, opportunity creation fails in offline mode
-
--   Next Stage does not respond in offline mode intermittently
-
--   On activities show as option to switch between view modes is not available
-    in offline intermittently
+Mobile offline capabilities are now generally available for customers of
+Dynamics 365 (online), version 9.0. Customers interested in enabling mobile
+offline for their organization should work with their assigned FastTrack
+engineer or solution architect (or contact
+[support](https://support.office.com/en-us/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&rs=en-US&ad=US#BKMK_call_support&ID0EAAEAAA=Phone_support_))
+for initial deployment and onboarding of these capabilities.
 
 Unified Service Desk
 --------------------
 
 -   Download and update your Unified Service Desk to [version
-    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
-    want to continue to use older versions of Unified Service Desk, you will
-    need to update the client desktop’s registry entries. Read the
+    3.2](https://go.microsoft.com/fwlink/p/?linkid=867343). If you want to
+    continue to use older versions of Unified Service desk, you will need to
+    update the client desktop’s registry entries. Read the
     [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/)
-    about Unified Service Desk and TLS 1.2 Mandate to update these registry
+    about Unified Service Desk and TLS 1.2 mandate to update these registry
     entries.
 
 -   Apps built using Unified Interface are not supported with Unified Service
     Desk. More information: [Unified Interface framework for new
-    apps](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps)
+    apps](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
     release, Interactive Service Hub has been rebuilt as a Unified Interface
     app, and is called Customer Service Hub. This implies
-    that [support](/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
+    that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
     the Interactive Service Hub in Unified Service Desk is available only if you
     are running Dynamics 365, version 8.2 or an earlier supported version of
     Microsoft Dynamics CRM.
@@ -721,14 +650,14 @@ Unified Service Desk
 -   **Relationship Insights**: Although you can view information from the
     relationship assistant in the Unified Service Desk client, you cannot
     interact with the information in the client. More information: [Relationship
-    Insights](/dynamics365/customer-engagement/admin/relationship-insights)
+    Insights](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/relationship-insights)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
     not supported.
 
 -   **Multi-select option sets**: Although multi-select option sets display fine
     when hosted in Unified Service Desk (using [CRM
-    Page](/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
+    Page](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control) type
     of hosted control), you cannot change selections in multi-select option sets
     using the Unified Service Desk APIs.
 
@@ -739,7 +668,7 @@ Unified Service Desk
     Unified Service Desk does not support the usage of appid values in URLs to
     refer to a resource. More information: [Design custom business apps by using
     the app
-    designer](/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
+    designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 
 -------------------
