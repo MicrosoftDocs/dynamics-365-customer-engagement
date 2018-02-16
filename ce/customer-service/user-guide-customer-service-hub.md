@@ -54,3 +54,5 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 ### See also
   
 [Overview of Customer Service and Customer Service Hub ](overview.md)
+
+[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)

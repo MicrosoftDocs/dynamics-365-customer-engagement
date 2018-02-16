@@ -55,6 +55,9 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 
 ![csh-mobile](media/ChooseAnApp_1.png "customer service hub on mobile")
 
+> [!NOTE]
+> Looking forward to upgrade to the Customer Service Hub app? See the blog [Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
+
 ## Set up Customer Service or Customer Service Hub
 
 Easily set up the Customer Service app and the Customer Service Hub app by using the [Service Manager Guide](service-manager-guide.md).  
