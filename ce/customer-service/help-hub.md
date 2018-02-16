@@ -20,22 +20,25 @@ topic-status: Completed
 <table>
 <tr>
   <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></div>
-  <td><h2>Get started</h2>
+ <td></td>
+ 
+</tr>
+<tr>
+
+<td><h2>Get started</h2>
   <ul>
   <li>[Explore Customer Service Hub and Customer Service](overview.md)</li>
   <li>[Learn the basics](customer-service-hub-user-guide-basics.md)</li>
   <li>[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
   </ul>
   </td>
- <td></td>
- 
-</tr>
-<tr>
+
+
   <td><h2>Setup</h2>
   <ul>
   <li>[Service Manager](service-manager-guide.md)</li>
   <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
-  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)]</li> 
+  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)</li> 
   </ul>
  </td>
  
