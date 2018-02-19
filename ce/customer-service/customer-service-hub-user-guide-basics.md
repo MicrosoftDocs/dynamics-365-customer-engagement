@@ -42,7 +42,7 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 <a name="bkmk_Access"></a>
 
 ## Open the Customer Service Hub
-The Customer Service Hub app is available to use on a desktop browser for managing knowledge articles, and on mobile devices for case management.  You can open the Customer Service Hub in the following ways:  
+The Customer Service Hub app is available to use on a desktop browser and on a mobile device.   You can open the Customer Service Hub in the following ways:  
 
 > [!NOTE]
 >  These options are available only to users with the Customer Service app access role , System Administrator role, or System Customizer role. 
