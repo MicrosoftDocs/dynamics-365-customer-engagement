@@ -29,7 +29,7 @@ Watch this video to learn more about the Customer Service Hub:
 
 <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/OEn_FN5azq0?rel=0" frameborder="0" allowfullscreen></iframe></div>
   
-The Customer Service Hub app is available to use on a desktop browser and on a mobile device. 
+The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. 
 
 
 > [!NOTE]
