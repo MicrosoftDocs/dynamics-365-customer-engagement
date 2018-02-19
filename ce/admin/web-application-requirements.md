@@ -58,7 +58,7 @@ Notice that these values are recommendations and don’t guarantee satisfactory 
 Notice that the suggested network requirements include the metadata download needed for first run or newly published customizations. The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] interactive service hub typically requires more bandwidth when metadata has to be downloaded. These values are recommendations and don’t guarantee satisfactory performance. The values are based on systems using uncustomized, out-of-the box forms. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs.  
   
 <a name="SupportedOS"></a>   
-## Supported versions of Internet Explorer and Edge  
+## Supported versions of Internet Explorer and Microsoft Edge  
  The following table describes the [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] and [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] versions supported for use with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application.  
   
 |[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] version|[!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)]|[!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)]<sup>2</sup>|[!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]|  
