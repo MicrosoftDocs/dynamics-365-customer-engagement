@@ -146,7 +146,9 @@ To add an answer tag:
 3.	Select the name of the survey to which you want to add an answer tag.
 4.	Add the questions to the survey, if required. If the questions are already added, go to the question editor.
 5.	Under **Advanced**, enter a value in the **Answer Tag** field.
-    ![Answer tag](media/answer-tag.png "Answer tag")  
+    
+    ![Answer tag](media/answer-tag.png "Answer tag")
+
 6.	Save the question and publish the survey.
 
 ## Add the unsubscribe option to a survey
