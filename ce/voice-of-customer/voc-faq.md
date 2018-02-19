@@ -1,7 +1,7 @@
 ---
-title: "Voice of the Customer FAQs | MicrosoftDocs"
+title: "Voice of the Customer FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Voice of the Customer"
-keywords: "voice of the customer faqs; voice of the customer frequently asked questions"
+keywords: "voice of the customer FAQ; voice of the customer frequently asked questions"
 ms.date: 02/19/2018
 ms.service: crm-online
 ms.topic: article
@@ -16,7 +16,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Voice of the Customer FAQs
+# Voice of the Customer FAQ
 
 We have compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.
 

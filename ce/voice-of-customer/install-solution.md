@@ -59,7 +59,7 @@ This section provides you the steps to install the Voice of the Customer for [!I
 > -   Maximum number of pages per survey: **25**
 > -   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
 
-> If you want to install Voice of the Customer version earlier than 9.0, see [here](voc-faq.md#how-to-install-voice-of-the-customer-solution-earlier-than-9.0-?)
+> If you want to install Voice of the Customer version earlier than 9.0, see [here](voc-faq.md#how-to-install-voice-of-the-customer-solution-earlier-than-9.0-?).
 
 
 
