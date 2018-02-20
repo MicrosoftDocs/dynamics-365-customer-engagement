@@ -63,4 +63,4 @@ The following keyboard shortcuts can be used to select a date from a date picker
 
 The VOC Push Service user runs only with minimum required privileges to communicate to Voice of the Customer Azure service, and if your organization deploys a custom plugin that runs on the Survey Response entity, you are advised to do either of following:
 - Run the custom plugin in ‘System User Context’.
-- Create a custom role with privileges required by custom plugin operations and assign the security role to Voice of the Customer Application user.
+- Create a custom role with privileges required by custom plugin operations and assign the security role to Voice of the Customer application user.
