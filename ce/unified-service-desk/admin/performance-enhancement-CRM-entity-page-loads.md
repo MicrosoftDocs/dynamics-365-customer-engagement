@@ -53,10 +53,6 @@ To enable Internet Explorer pooling:
 
   ![Enable InternetExplorerPooling option](../../unified-service-desk/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
-## Known issues
-
-Closing a CRM entity page when **InternetExplorerPooling** is enabled may cause the CRM entity page to load continuously. In this case, you need to open the CRM entity page again to continue working.
-
 ## See also
 
 [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)

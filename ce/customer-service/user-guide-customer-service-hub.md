@@ -29,7 +29,7 @@ Watch this video to learn more about the Customer Service Hub:
 
 <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/OEn_FN5azq0?rel=0" frameborder="0" allowfullscreen></iframe></div>
   
-The Customer Service Hub app is available to use on a desktop browser for managing knowledge articles, and on mobile devices for case management.
+The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. 
 
 
 > [!NOTE]
@@ -54,3 +54,5 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 ### See also
   
 [Overview of Customer Service and Customer Service Hub ](overview.md)
+
+[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
