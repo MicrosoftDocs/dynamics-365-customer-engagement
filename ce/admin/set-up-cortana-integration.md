@@ -29,14 +29,14 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
   
  [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
   
-> [!IMPORTANT]
+> [!NOTE]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
   
- Eventually, Cortana integration will be fully included in the product.  
+ <!-- Eventually, Cortana integration will be fully included in the product.  -->
   
  For more information about how to enable Preview features, see [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md).  
   
-> [!IMPORTANT]
+> [!NOTE]
 > [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is a Preview feature. [!INCLUDE[cc_preview_feature](../includes/cc-preview-feature.md)]  
 >   
 > [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  

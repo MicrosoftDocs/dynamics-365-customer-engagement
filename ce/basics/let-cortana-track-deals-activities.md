@@ -29,10 +29,10 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
   
 [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]
   
-> [!IMPORTANT]
+> [!NOTE]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
   
- Eventually, Cortana integration will be fully included in the product.  
+ <!-- Eventually, Cortana integration will be fully included in the product. --> 
   
 ## Enable Cortana integration with Dynamics 365 on your device  
  If your admin has enabled [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system, [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] will prompt you to connect with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Just follow the prompts to connect.  
