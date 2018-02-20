@@ -44,7 +44,7 @@ When the configuration is complete, you can start using the Voice of the Custome
 > [!IMPORTANT]
 > The Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] preferred solution connects to an external service that isn't completely within the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] compliance boundary.
 
-## What happens if I open a survey using developer tools in a web browser?
+## What happens if I open a survey by using developer tools in a web browser?
 
 If you open a survey by using developer tools in a web browser, the survey might not work properly.
 
