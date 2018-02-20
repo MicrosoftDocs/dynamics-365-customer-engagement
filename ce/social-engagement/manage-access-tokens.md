@@ -61,7 +61,7 @@ You need [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] acquisition profile
 2.  Select the appropriate social profile ([!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account) and in the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account details panel, select **Reauthenticate your token** ![Reauthenticate tokens button in Social Engagement](media/reatuthenticate-icon.png "Reauthenticate tokens button in Social Engagement") and enter your log-in credentials.
 
     > [!NOTE]
-    > If your organization owns multiple instances of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], please add a unique [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile for every instance. We can't acquire data if an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile is used in a different [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance.
+    > If your organization owns multiple instances of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], please add a unique [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile for every instance. We can't acquire data if an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile is used in another [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance.
   
   
 3.  Under **Use for search acquisition**, select the drop-down arrow next to the search acquisition symbol ![Keywords symbol](media/keywords-search-rule-icon.png "Keywords symbol") and select the check box next to **Allow** to acquire data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. The token will become active after you select the check box.  
