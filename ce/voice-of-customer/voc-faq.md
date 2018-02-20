@@ -58,3 +58,9 @@ The following keyboard shortcuts can be used to select a date from a date picker
 | Select a month | Alt + Left Arrow or Alt + Right Arrow                                           |
 | Select a year  | Ctrl + Shift + Page Up or Ctrl + Shift + Page Down                              |
 |||
+
+## What should I do if survey responses are not received after creating a custom plugin on the Survey Response entity?
+
+The VOC Push Service user runs only with minimum required privileges to communicate to Voice of the Customer Azure service, and if your organization deploys a custom plugin that runs on the Survey Response entity, you are advised to do either of following:
+- Run the custom plugin in ‘System User Context’.
+- Create a custom role with privileges required by custom plugin operations and assign the security role to Voice of the Customer Application user.
