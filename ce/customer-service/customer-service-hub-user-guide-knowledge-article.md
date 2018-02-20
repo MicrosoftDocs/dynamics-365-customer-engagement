@@ -430,6 +430,5 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
-
 ### See also
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
