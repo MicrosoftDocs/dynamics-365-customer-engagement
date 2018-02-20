@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
-ms.date: 11/13/2017
+ms.date: 02/20/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Install the Voice of the Customer solution
 
-This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions earlier than 9.0, and also the latest version. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
+This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
 > [!NOTE] 
 > Surveys aren't supported on legacy forms.
@@ -60,7 +60,6 @@ This section provides you the steps to install the Voice of the Customer for [!I
 > -   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
 
 > If you want to install Voice of the Customer solution version earlier than 9.0, see [here](voc-faq.md#how-to-install-voice-of-the-customer-solution-earlier-than-9.0-?).
-
 
 
 ### See also

@@ -2,7 +2,7 @@
 title: "Voice of the Customer FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Voice of the Customer"
 keywords: "voice of the customer FAQ; voice of the customer frequently asked questions"
-ms.date: 02/19/2018
+ms.date: 02/20/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -43,6 +43,10 @@ When the configuration is complete, you can start using the Voice of the Custome
 
 > [!IMPORTANT]
 > The Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] preferred solution connects to an external service that isn't completely within the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] compliance boundary.
+
+## What happens if I open a survey using developer tools in a web browser?
+
+If you open a survey by using developer tools in a web browser, the survey might not work properly.
 
 ## How to select a date from a date picker in a survey by using keyboard?
 
