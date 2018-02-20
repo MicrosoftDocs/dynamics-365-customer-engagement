@@ -2,7 +2,7 @@
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
 description: "Learn how to work with events in Event Hubs."
 keywords: "event hubs, stream analytics, authomation rule"
-ms.date: 02/12/2018
+ms.date: 02/20/2018
 ms.service: mse
 ms.topic: article
 applies_to:

@@ -48,7 +48,7 @@ Back to [top](#overview)
 <a name="metadata_sample_payload"></a>   
 #### metadata sample payload  
   
-```  
+```json  
 {  
   "metadata": {  
     "matchedRules": [  
@@ -123,7 +123,7 @@ Back to [top](#overview)
 ##### Sample Twitter reply  
 This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
-```  
+```json  
   "post": {  
     "id": "1234567",  
     "contentType": "POST",  
@@ -201,7 +201,7 @@ Back to [top](#overview)
 ##### Sample Twitter retweet  
 This is a sample post payload for a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] retweet acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
-```  
+```json  
   "post": {  
     "id": "5786261",  
     "contentType": "POST",  
@@ -281,7 +281,7 @@ Back to [top](#overview)
 ##### Sample Facebook reply  
 This is a sample post payload for a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] reply acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
-```  
+```json  
   "post": {  
     "id": "1234567",  
     "contentType": "POST",  
@@ -341,7 +341,7 @@ Back to [top](#overview)
 ##### Sample video post  
 This is a sample post payload for a video post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
-```  
+```json  
   "post": {  
     "id": "1234567",  
     "contentType": "VIDEO",  
@@ -400,7 +400,7 @@ Back to [top](#overview)
 ##### Sample blog post  
 This is a sample post payload for a blog post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
-```  
+```json  
   "post": {  
     "id": "1234567",  
     "contentType": "POST",  
@@ -453,7 +453,7 @@ Back to [top](#overview)
 ##### Sample forum post  
 This is a sample post payload for a forum post acquired through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We've made up some values to anonymize the sample.  
   
-```  
+```json  
   "post": {  
     "id": "1234567",  
     "contentType": "POST",  
@@ -737,7 +737,7 @@ In the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
   
  Sample:  
   
-```  
+```json  
 "profile": {  
   "name": "Display Name @externalHandle",  
   "id": "mse-tw://#12345678",  
@@ -816,7 +816,7 @@ For some sources, profile owners can provide their location information. This is
   
  Sample:  
   
-```  
+```json  
 "profileLocation": {  
   "locality": "Boston",  
   "adminDistrict": "Massachusetts",  
@@ -865,7 +865,7 @@ JSON object describing the coordinates of a social profile with latitude and lon
   
  Sample:  
   
-```  
+```json  
 "coordinates": {  
   "latitude": 42.156028747558594,  
   "longitude": -71.56590270996094  
@@ -948,7 +948,7 @@ JSON object describing on which source a post was found.
   
  Sample:  
   
-```  
+```json  
 "source": {  
   "name": "Microblogs",  
   "id": "18",  
@@ -1007,7 +1007,7 @@ JSON object describing the text content of a post.
   
  Sample:  
   
-```  
+```json  
 {  
     “post” {  
         "content": {  
@@ -1055,7 +1055,7 @@ JSON object describing the language of a post.
   
  Sample:  
   
-```  
+```json  
 {  
     “post” {  
         "language": {  
@@ -1110,7 +1110,7 @@ JSON object describing the source-specific score of the post or score of the aut
   
  Sample:  
   
-```  
+```json  
 "score": {  
   "normalScore": 3,  
   "providerScore": 29.0,  
@@ -1159,7 +1159,7 @@ Information about the post that this post is a reply to, or a share of. referenc
   
  Sample:  
   
-```  
+```json  
 {  
     “post” {  
         "referencedPost": {  
@@ -1186,7 +1186,7 @@ JSON object describing the sentiment of a post.
   
  Sample:  
   
-```  
+```json  
 "sentiment": {  
   "polarity": "negative",  
   "value": -0.46005836  
@@ -1242,7 +1242,7 @@ Array of JSON objects representing tags on a post that were added through [!INCL
   
  Sample:  
   
-```  
+```json  
 "tags": [ {  
   "probability": 0.7554345,  
   "type": "system",  
@@ -1297,7 +1297,7 @@ JSON object describing the tag.
   
  Sample:  
   
-```  
+```json  
 "tag": {  
   "id": "12345",  
   "name": "Support request",  
@@ -1367,7 +1367,7 @@ JSON object describing the location from which a post was published.
   
  Sample:  
   
-```  
+```json  
 "postLocation": {  
   "adminDistrict": "Massachusetts",  
   "countryRegion": "United States",  
@@ -1421,7 +1421,7 @@ JSON object describing the coordinates of a post as defined by the author with l
   
  Sample:  
   
-```  
+```json  
 "coordinates": {  
   "latitude": 42.156028747558594,  
   "longitude": -71.56590270996094  
@@ -1482,7 +1482,7 @@ JSON object describing the origin of the post on the source. This is different f
   
  Sample:  
   
-```  
+```json  
 "origin": {  
   "id": "12345",  
   "externalId": "54321",  
@@ -1532,7 +1532,7 @@ Array of JSON objects describing the list of search topics a post matches.
   
  Sample:  
   
-```  
+```json  
         "matchingSearchTopics": [{  
           "name": "Contoso Brand Mentions",  
           "id": "12345",  
@@ -1618,7 +1618,7 @@ Array of JSON objects describing the media in a post.
   
  Sample:  
   
-```  
+```json  
 "media": {  
   "type": "VIDEO",  
   "embedUrl": "http://www.youtube.com/embed/1dWKf8d8zfg"  

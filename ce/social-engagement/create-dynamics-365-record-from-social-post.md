@@ -120,7 +120,7 @@ The JSON payload of this feature is described in the following table.
 
 A typical JSON payload sent to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is given here.  
   
-```  
+```json  
 {
   "postmessagetype": 0,
   "community": 2,
