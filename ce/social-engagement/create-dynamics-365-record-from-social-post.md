@@ -2,7 +2,7 @@
 title: "Create a record from a post in Social Engagement | Microsoft Docs"
 description: "Learn how to send posts found in Social Engagement to Dynamics 365 to create new lead or case records."
 keywords: "Link to Dynamics 365, Link to CRM, link post, record details, social activity, entity, entities"
-ms.date: 01/31/2018
+ms.date: 02/20/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -212,4 +212,3 @@ You can remove a linked [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.m
  [Set up the connection between Dynamics 365 and Social Engagement](connect-dynamics-365-social-engagement.md)   
  [Link posts from Social Engagement to Dynamics 365](link-posts-to-dynamics-365.md)   
  [Administer Microsoft Social Engagement](administer-microsoft-social-engagement.md)
- 

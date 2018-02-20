@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 02/15/2018
+ms.date: 02/20/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -352,4 +352,3 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
 [Create or delete a search topic](create-delete-search-topic.md)   
 [Manage your post quota](manage-post-quota.md)   
 [Get started with Social Engagement](get-started.md)
- 
