@@ -2,7 +2,7 @@
 title: "Microsoft Social Engagement Privacy Notices | Microsoft Docs"
 description: "Additional privacy notices for Social Engagement."
 keywords: "privacy notice, privacy statement addition"
-ms.date: 12/08/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
