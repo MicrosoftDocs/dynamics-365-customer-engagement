@@ -2,7 +2,7 @@
 title: "Connect Social Engagement to Dynamics 365 | Microsoft Docs"
 description: "Learn how to set up the connection between Social Engagement and Dynamics 365."
 keywords: "connect, connection, integration, dynamice 365"
-ms.date: 11/22/2017
+ms.date: 01/30/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -15,6 +15,7 @@ topic-status: Drafting
 ---
 
 # Connect Dynamics 365 and Social Engagement
+
 Set up the connection between [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] so you can link social posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Linking posts to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] lets you create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from social posts that were found in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] by using the **Automatic Record Creation and Update Rules** feature in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 ## Prerequisites to establish a connection with Dynamics 365 
