@@ -2,7 +2,7 @@
 title: "Create patches to simplify solution updates (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Patches help you manage entities and all of its related assets when you add an entity to a solution and export that solution"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 02/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
