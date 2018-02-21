@@ -28,33 +28,14 @@ You interact with the Web API by composing and sending HTTP requests. You need t
 
 To access the Web API you must compose a URL using the parts in the following table.
 
+|Part|Description|
+|--|--|
+|Protocol|The appropriate protocol, either `https://` or `http://`.|
+|Base URL|<div>This is the URL you normally use to open the web application.<ul><li>For Dynamics 365 (online): use <code class="x-hidden-focus">&lt;tenant name&gt;.crm.dynamics.com</code>.</li><li>For Internet-facing deployment (IFD): Use the appropriate URL for your instance. This will be: <code class="x-hidden-focus">&lt;organization name&gt;.&lt;domain name&gt;</code>.</li><li>For Dynamics 365 (on-premises): use <code class="x-hidden-focus">&lt;server name&gt;/&lt;organization name&gt;</code>.</li></ul></div>|
+|Web API path|The path to the web API is `/api/data/`.|
+|Version|	The version is expressed this way: `v[Major_version].[Minor_version][PatchVersion]/`. The valid version for this release is <code class="x-hidden-focus">v9.0</code>.|
+|Resource|The name of the entity, function, or action you want to use.|
 
-<table>
-<thead></thead>
-<tr><td>Part</td><td>Description</td></tr>
-<tbody>
-<tr><td>Protocol</td><td>
-The appropriate protocol, either <span style="font-family:courier new, courier, monospace;">https://</span> or <span style="font-family:courier new, courier, monospace;">http://</span>.
-</td></tr>
-<tr><td>Base URL</td><td>
-This is the URL you normally use to open the web application.
-<ul>
-<li>For Dynamics 365 (online): use <span style="font-family:courier new, courier, monospace;">&lt;tenant name&gt;.crm.dynamics.com</span>.</li>
-<li>For Internet-facing deployment (IFD): use the appropriate URL for your instance. This will be: <span style="font-family:courier new, courier, monospace;">&lt;organization name&gt;.&lt;domain name&gt;</span>.</li>
-<li>For Dynamics 365 (on-premises): use <span style="font-family:courier new, courier, monospace;">&lt;server name&gt;/&lt;organization name&gt;</span>.</li>
-</ul>
-</td></tr>
-<tr><td>Web API path</td><td>
-The path to the web API is <span style="font-family:courier new, courier, monospace;">/api/data/</spanpre>.
-</td></tr>
-<tr><td>Version</td><td>
-The version is expressed this way: <span style="font-family:courier new, courier, monospace;">v[Major_version].[Minor_version][PatchVersion]/</span>. Valid version for this release is <span style="font-family:courier new, courier, monospace;">v9.0</span>.
-</td></tr>
-<tr><td>Resource</td><td>
-The name of the entity, function, or action you want to use.
-</td></tr>
-</tbody>
-</table>
 
 The URL you will use will be composed with these parts: Protocol + Base URL + Web API path + Version + Resource.
 
@@ -139,7 +120,7 @@ Content-Type: application/json
 |Code|Description|Type|  
 |----------|-----------------|----------|  
 |200 OK|Expect this when your operation will return data in the response body.|Success|  
-|201 Created|Expect this when your entity POST operation succeeds and you have specified the `return=representation` preference in your request. **Note:**  This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].|Success|  
+|201 Created|Expect this when your entity POST operation succeeds and you have specified the `return=representation` preference in your request. <br />**Note:**  This capability was added with [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].|Success|  
 |204 No Content|Expect this when your operation succeeds but does not return data in the response body.|Success|  
 |304 Not Modified|Expect this when testing whether an entity has been modified since it was last retrieved. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Conditional retrievals](perform-conditional-operations-using-web-api.md#bkmk_DetectIfChanged)|Redirection|  
 |403 Forbidden|Expect this for the following types of errors:<br /><br /> -   AccessDenied<br />-   AttributePermissionReadIsMissing<br />-   AttributePermissionUpdateIsMissingDuringUpdate<br />-   AttributePrivilegeCreateIsMissing<br />-   CannotActOnBehalfOfAnotherUser<br />-   CannotAddOrActonBehalfAnotherUserPrivilege<br />-   CrmSecurityError<br />-   InvalidAccessRights<br />-   PrincipalPrivilegeDenied<br />-   PrivilegeCreateIsDisabledForOrganization<br />-   PrivilegeDenied<br />-   unManagedinvalidprincipal<br />-   unManagedinvalidprivilegeedepth|Client Error|  
@@ -149,6 +130,7 @@ Content-Type: application/json
 |404 Not Found|Expect this when the resource doesn’t exist.|Client Error|  
 |405 Method Not Allowed|This error occurs for incorrect method and resource combinations. For example, you can’t use DELETE or PATCH on a collection of entities.<br /><br /> Expect this for the following types of errors:<br /><br /> -   CannotDeleteDueToAssociation<br />-   InvalidOperation<br />-   NotSupported|Client Error|  
 |412 Precondition Failed|Expect this for the following types of errors:<br /><br /> -   ConcurrencyVersionMismatch<br />-   DuplicateRecord|Client Error|  
+|429 Too Many Requests|Expect this when API limits are exceeded. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [API Limits](../api-limits.md)|Client Error|  
 |501 Not Implemented|Expect this when some requested operation isnt implemented.|Server Error|  
 |503 Service Unavailable|Expect this when the web API service isn’t available.|Server Error|  
   
