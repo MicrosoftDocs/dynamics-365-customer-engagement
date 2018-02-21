@@ -22,7 +22,7 @@ Beginning March 19, 2018 we will limit the number of API requests made by each u
 
 The limit will help ensure that users running applications that make extraordinarily large demands on servers will not affect other users. The limit will not affect normal users of the platform. Only applications that perform a very large number of API requests will be affected. Based on telemetry data analysis, this limit is well within the bounds of most applications that perform a large number of API requests. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
 
-If your application has the potential to exceed the limit, please consider the guidance given in the [What should I do if my application exeeds the limit?](#what-should-i-do-if-my-application-exceeds-the-limit) section below.
+If your application has the potential to exceed the limit, please consider the guidance given in the [What should I do if my application exceeds the limit?](#what-should-i-do-if-my-application-exceeds-the-limit) section below.
 
 ## What is the limit?
 
