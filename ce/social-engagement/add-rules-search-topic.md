@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 12/08/2017
+ms.date: 02/20/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -249,8 +249,10 @@ To see the details of private messages that [!INCLUDE[pn_netbreeze_short](../inc
   
 > [!IMPORTANT]
 > If you add a private messages rule, all private messages (except where the message is an image only) that were sent to the selected profile are visible in your organization's [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. All users of the solution will be able to see the private messages and their replies if they are sent through [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
-> When you add a new private messages rule, all private messages from the past 14 days get acquired by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and thus count toward your monthly post quota. 
-  
+> When you add a new private messages rule, posts from the past days get acquired once by [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and thus count toward your monthly post quota. 
+> - [!INCLUDE[tn-facebook](../includes/tn-facebook.md)]: Private messages from the past 3 days.
+> - [!INCLUDE[tn-twitter](../includes/tn-twitter.md)]: Up to 600 direct messages from the past 12 days.
+
 ### Add a new private messages rule  
   
 1.  Go to **Search Setup**.  
@@ -352,4 +354,3 @@ Gather posts and comments from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md
 [Create or delete a search topic](create-delete-search-topic.md)   
 [Manage your post quota](manage-post-quota.md)   
 [Get started with Social Engagement](get-started.md)
- 

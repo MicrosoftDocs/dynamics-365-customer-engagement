@@ -27,7 +27,7 @@ When **InternetExplorerPooling** is enabled, and if you close a CRM entity page 
 
   ![Closing CRM entity page hosted in Unified Service Desk using close button](../../unified-service-desk/media/usd-crm-page-hosted-close-button.PNG "Closing CRM entity page hosted in Unified Service Desk using close button")
     
-    _Image 1: Closing CRM entity page hosted in Unified Service Desk using close (x) button_
+  _Image 1: Closing CRM entity page hosted in Unified Service Desk using close (x) button_
   
   ![CRM entity page start loading but never completes loading](../../unified-service-desk/media/usd-crm-page-hosted-never-completes-loading.PNG "CRM entity page start loading but never completes loading")
   

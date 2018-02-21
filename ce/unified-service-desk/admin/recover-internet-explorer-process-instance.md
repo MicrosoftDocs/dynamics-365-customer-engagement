@@ -109,7 +109,7 @@ To change the **IEWebPageInactivityTimeOut** timeout value:
 
 5. Choose **Others** for the **Global Option** field.
 
-6. Type **On-DemandIETerminationShortcut** for the **Name** field.
+6. Type **IEWebPageInactivityTimeOut** for the **Name** field.
 
 7. Type the value in milliseconds for the **Value** field.
 

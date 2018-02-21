@@ -2,7 +2,7 @@
 title: "Publish and react to posts in Social Engagement | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: "publish, post, like, favorite, share, private message, Social Engagement"
-ms.date: 11/29/2017
+ms.date: 01/31/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -149,7 +149,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement").  
   
- To learn more about the how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
+ To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
   
 <a name="PostLink"></a>   
 ### Post a link to another post  
