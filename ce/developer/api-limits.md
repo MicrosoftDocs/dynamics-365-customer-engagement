@@ -16,6 +16,7 @@ manager: "faisalmo"
 # API Limits
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
  
 Beginning March 19, 2018 we will limit the number of API requests made by each user within five minutes. When this limit is exceeded, an exception will be thrown by the platform.
 
