@@ -20,7 +20,7 @@ manager: sakudes
 
 You must create a storage account with **Resource manager** as the deployment model. [!include[More information](../includes/proc-more-information.md)] [Create an Azure storage account](https://docs.microsoft.com/en-us/azure/storage/storage-create-storage-account#create-a-storage-account).
 
-After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Portal Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
+After the storage account is running, portals require certain global settings that tell the application how to locate your storage account. From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Settings**, and add a new setting named **FileStorage/CloudStorageAccount**.
 
 To locate the value for FileStorage/CloudStorageAccount, you must get a connection string from your [!include[Azure portal](../includes/pn-azure-portal.md)].
 
@@ -42,7 +42,7 @@ To locate the value for FileStorage/CloudStorageAccount, you must get a connecti
 
 If you do not already have an [!include[Azure](../includes/pn-azure-shortest.md)] Blob container in your storage account, you must add one by using your [!include[Azure portal](../includes/pn-azure-portal.md)].
 
-From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Portal Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
+From [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Settings**, and add a new setting named FileStorage/CloudStorageContainerName, using the name of your container as the value.
 
 ![Portal setting for cloud storage container](media/portal-site-setting-cloud-storage-container.png "Portal setting for your cloud storage container")
 
@@ -60,7 +60,7 @@ You must add cross-origin resource sharing (CORS) rule on your [!include[Azure](
 
 ## Add site settings
 
-Add the following site settings from **Portals** > **Site Settings**. [!include[More information:](../includes/proc-more-information.md)]: [Manage portal site settings](configure-site-settings.md#manage-portal-site-settings)
+Add the following site settings from **Portals** > **Site Settings**. [!include[More information:](../includes/proc-more-information.md)] [Manage portal site settings](configure-site-settings.md#manage-portal-site-settings).
 
 |Name|Value|
 |-----|-----|
