@@ -48,6 +48,9 @@ The following are topics for features that were delivered out of band since the 
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
+|[User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)|Updated topic.|
+|[What's supported](../mobile-app/support-phones-tablets.md)|Updated topic.|
+|[Enable accessible email flow](deploy-email-unified-interface.md)|Added new topic.|
 |[Contact Technical Support](contact-technical-support.md)|Updated topic for new ticket process.|
 |[Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|Updated topic.|
 |[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)|Updated topic for version 1.3.0.1|
