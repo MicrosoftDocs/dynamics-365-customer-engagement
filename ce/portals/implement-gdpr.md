@@ -2,7 +2,7 @@
 title: "Implement General Data Protection Regulations in Dynamics 365 portals  | MicrosoftDocs"
 description: "Learn how to implement General Data Protection Regulations in Microsoft Dynamics 365 portals."
 keywords: "portal GDPR, implement GDPR in portal" 
-ms.date: 01/26/2018
+ms.date: 02/21/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

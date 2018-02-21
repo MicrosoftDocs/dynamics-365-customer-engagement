@@ -2,7 +2,7 @@
 title: "Enable Azure storage for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure storage for portals to take advantage of the greater file storage capability of Azure."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 02/21/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -58,4 +58,20 @@ You must add cross-origin resource sharing (CORS) rule on your [!include[Azure](
  
 [!include[More information:](../includes/proc-more-information.md)] [CORS support for the Azure Storage Services](https://docs.microsoft.com/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services)
 
-With these settings, your portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
+## Add site settings
+
+Add the following site settings from **Portals** > **Site Settings**. [!include[More information:](../includes/proc-more-information.md)]: [Manage portal site settings](configure-site-settings.md#manage-portal-site-settings)
+
+|Name|Value|
+|-----|-----|
+|WebFiles/CloudStorageAccount|Provide the same connection string as provided for CloudStorageAccount.|
+|WebFiles/StorageLocation|AzureBlobStorage|
+|||
+
+You can now create a child file in portal and mention fully qualified name (along with container) in Azure Blob address URL. With these settings, your portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] application is ready to begin uploading and downloading files to and from [!include[Azure](../includes/pn-azure-shortest.md)] Storage. However, you cannot take full advantage of this feature until you [add a web resource to enable uploading attachments to Azure Storage](add-web-resource.md), and configure [entity forms](configure-notes.md#notes-configuration-for-entity-forms) or [web forms](configure-notes.md#notes-configuration-for-web-forms) to use it.
+
+### See also
+
+[Add web resource](add-web-resource.md)
+
+[Configure notes](configure-notes.md)

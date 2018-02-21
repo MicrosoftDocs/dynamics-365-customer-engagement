@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: ""
-ms.date: 01/26/2018
+ms.date: 02/21/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -20,16 +20,16 @@ topic-status: Drafting
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
 
-## Portal capabilities version 8.4.0.273 for Dynamics 365
+## Portal capabilities version 8.4.0.275 for Dynamics 365
 
-Portal capabilities version 8.4.0.273 for Dynamics 365 brings in bunch of bug fixes, as well as performance improvements, along with the following features:
+Portal capabilities version 8.4.0.275 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in bunch of bug fixes, as well as performance improvements, along with the following features:
 - **Access portal error logs**: As a portal developer, you can now access detailed error logs for any issues on your portal. This helps you to debug the issues while developing the portal. Once your portal is live, you can configure the portal to send all application errors to an Azure Blob storage account owned by you. This will help you to debug the issues reported by your customers.
-- **Renew portal authentication key**: A portal connects to Dynamics 365 organization using Azure active directory application. To do this, it requires an authentication key connected to Azure Active Directory application. This key is added when you provision your portal and it must be renewed every two years. This version of portal brings in the capability for administrators to be notified about key expiration and renew this key from Portal Admin Center.
+- **Renew portal authentication key**: A portal connects to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization using Azure active directory application. To do this, it requires an authentication key connected to Azure Active Directory application. This key is added when you provision your portal and it must be renewed every two years. This version of portal brings in the capability for administrators to be notified about key expiration and renew this key from Portal Admin Center.
 - **Implement General Data Protection Regulation in portals**: As a portal administrator, you can now configure your portal to meet the GDPR standards. You can also provide certain terms and conditions that must be agreed by the portal users to use a portal. You can also setup checks such as, if a portal is accessed by a minor user, the user must have parental consent to access the portal. Implementing GDPR allows obtaining consent from portal users regarding use of their personal data, identifying minor users, and obtaining parental consent for minor users.
 
 ## Portal capabilities version 8.3 for Dynamics 365
 
-Portal capabilities version 8.3 for Dynamics 365 has many new updates and features:
+Portal capabilities version 8.3 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] has many new updates and features:
 - **Ability to include attachments with knowledge articles**: You can display note attachments along with knowledge articles. To enable this feature, you create the site setting KnowledgeManagement/DisplayNotes and set the value to **true**. Portal users can also search for these attachments.
 
   > [!Note]
