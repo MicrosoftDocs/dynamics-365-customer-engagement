@@ -4,7 +4,7 @@ description: Accessibility keyboard shortcuts for people with disabilities
 keywords: Accessibility; keyboard shortcuts; Accessibility in customer enagagement
 applies_to: 
   - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+  - Dynamics 365 Version 8.x
 ms.author: anjgup
 manager: brycho
 ms.date: 12/15/2017
@@ -14,8 +14,6 @@ ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
 ---
 # Accessibility for people with disabilities
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)  
   
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement apps 
@@ -24,7 +22,6 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Accessibility info for browsers  
  For accessibility information about your browser, visit the following websites:  
    
-  
 -   [Windows accessibility features](http://www.microsoft.com/enable/products/ie9/default.aspx)  
   
 -   [Firefox accessibility features](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=Accessibility)  
