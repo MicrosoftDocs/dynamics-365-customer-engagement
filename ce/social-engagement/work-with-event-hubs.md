@@ -1,8 +1,8 @@
 ---
 title: "Work with events from Social Engagement in Azure Event Hubs | Microsoft Docs"
 description: "Learn how to work with events in Event Hubs."
-keywords: ""
-ms.date: 09/12/2017
+keywords: "event hubs, stream analytics, authomation rule"
+ms.date: 02/20/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -143,7 +143,40 @@ topic-status: Drafting
         FROM   
             current_window  
   
-        ```  
+        ``` 
+
+    3.  Example 3: In this example, we select the name of a matching search topic in addition to the id, title, acquisition date and time, source name, and the content excerpt of posts. We're using the [GetArrayElement function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelement-azure-stream-analytics) to select the first object of the [post.matchingSearchTopic](event-hubs-json-reference-social-engagement.md#document.matchingSeachTopics) array. To select all objects of the array, you can use the [GetArrayElements function](https://msdn.microsoft.com/azure/stream-analytics/reference/getarrayelements-azure-stream-analytics).
+
+        ```
+        WITH sub_query AS
+        (
+            SELECT
+                post.id,
+                post.title,
+                post.acquisitionDate,
+                post.source.param,
+                post.sentiment.polarity,
+                System.TimeStamp AS time,
+                GetArrayElement(post.matchingSearchTopics, 0) AS SearchTopic,
+                post.content.text
+            FROM
+                [your-stream-input-alias]
+        )
+        SELECT
+            id,
+            title,
+            acquisitionDate,
+            param AS source,
+            polarity,
+            time,
+            SearchTopic.name AS topic,
+            text
+        INTO
+            [your-output-sink-alias]
+        FROM
+            sub_query
+        ```
+
   
 <a name="step5_create_powerBI_dashboard"></a>   
 ### Step 5: Create a dashboard in Power BI  
