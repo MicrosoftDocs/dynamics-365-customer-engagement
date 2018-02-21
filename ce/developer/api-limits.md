@@ -22,7 +22,7 @@ Beginning March 19, 2018 we will limit the number of API requests made by each u
 
 The limit will help ensure that users running applications that make extraordinarily large demands on servers will not affect other users. The limit will not affect normal users of the platform. Only applications that perform a very large number of API requests will be affected. Based on telemetry data analysis, this limit is well within the bounds of most applications that perform a large number of API requests. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
 
-If your application has the potential to exceed the limit, please consider the guidance given in the [What should I do if my application exeeds the limit?](#what-should-i-do-if-my-application-exeeds-the-limit) section below.
+If your application has the potential to exceed the limit, please consider the guidance given in the [What should I do if my application exeeds the limit?](#what-should-i-do-if-my-application-exceeds-the-limit) section below.
 
 ## What is the limit?
 
@@ -55,7 +55,7 @@ As an organization, API requests made by each of your licensed users (including 
 > [!NOTE]
 > Requests that perform multiple API requests like <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> or <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest> using the .NET SDK assemblies, or `$batch` using the Web API, count as a single request to calculate this limit. However, these API requests must follow the [Run-time limitations](org-service/use-executemultiple-improve-performance-bulk-data-load.md#run-time-limitations) for these types of operations.
 
-## What should I do if my application exeeds the limit?
+## What should I do if my application exceeds the limit?
 
 When your application exceeds the limit, the error response from the server specifies the amount of time you should wait before sending more requests. The response object is slightly different if you are using SDK assemblies or HTTP requests.
 
