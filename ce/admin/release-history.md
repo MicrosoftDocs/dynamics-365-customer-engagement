@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Release history  
+# Release history for Administrator Guide
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -48,6 +48,8 @@ The following are topics for features that were delivered out of band since the 
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
+|[Contact Technical Support](contact-technical-support.md)|Updated topic for new ticket process.|
+|[Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|Updated topic.|
 |[Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)|Updated topic for version 1.3.0.1|
 |[Invite users to Dynamics 365 with Azure Active Directory B2B collaboration](invite-users-azure-active-directory-b2b-collaboration.md)|Added new topic.|
 |[About the Microsoft Cloud Germany datacenter](datacenter/about-microsoft-cloud-germany.md)|Added new topic.|
