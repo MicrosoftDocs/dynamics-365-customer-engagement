@@ -15,9 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 27b03f6a-2297-425e-be79-d4e6c960890b
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 tags: 
  - "MigrationHO"
 ---
@@ -148,10 +148,10 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
   
     - **Diagnostics Logs Directory.** Specifies the full path to the folder where diagnostics files for exceptions are kept. If the path is invalid or inaccessible, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] will use the default folder. By default, the folder is `%APPDATA%\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<version\>\Diagnostics\\`.  
   
-    - **On Demand Diagnostics Shortcut.** Specifies the shortcut key used to invoke the manual creation of a  dump file. The default key combination is CTRL+ALT+A. To change the default, use the form *key1*+*key2*+*key3*.
+    - **On-Demand Diagnostics Shortcut.** Specifies the shortcut key used to invoke the manual creation of a  dump file. The default key combination is CTRL+ALT+A. To change the default, use the form *key1*+*key2*+*key3*.
 
         > [!Note]
-        > You can start the manual creation of a dump file using the **On Demand Diagnostics Shortcut** key only when **Enable Exit Monitoring** or **Enable Crash Dump Generation**, or both options are enabled.
+        > You can start the manual creation of a dump file using the **On-Demand Diagnostics Shortcut** key only when **Enable Exit Monitoring** or **Enable Crash Dump Generation**, or both options are enabled.
   
     - **Diagnostics Verbosity Level.** Determines the type of events that will be recorded during diagnostics. The default value is error level.  
   
