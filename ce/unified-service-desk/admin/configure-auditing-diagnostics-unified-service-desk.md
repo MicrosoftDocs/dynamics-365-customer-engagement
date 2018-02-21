@@ -193,4 +193,4 @@ The **Audit & Diagnostics Settings** area provides centralized management for ag
  [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)   
  [Global Manager (Hosted Control)](../../unified-service-desk/global-manager-hosted-control.md)   
  [Administer and manage Unified Service Desk](../../unified-service-desk/admin/administer-manage-unified-service-desk.md)
- [Performance data collection using keyboard shortcut](../../unified-service-desk\admin\performance-data-collection-using-keyboard-shortcut.md)
+ [Performance data collection using keyboard shortcut](../../unified-service-desk/admin/performance-data-collection-using-keyboard-shortcut.md)
