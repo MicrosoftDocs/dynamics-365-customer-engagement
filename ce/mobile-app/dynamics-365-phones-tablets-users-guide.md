@@ -416,6 +416,8 @@ If multiple entries are made in the same field by offline users (for example, tw
   
 If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes.
 
+<!-- Commenting out this content per request from Ankit Saraf. Safe to delete later if no request to bring it back. It also exits in configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md
+
 **Enhanced sync filters**
 
 Admins can choose what information to sync to user's devices. This can help minimize impact to user's device's memory.  
@@ -451,26 +453,7 @@ Admins can choose what information to sync to user's devices. This can help mini
  |begins-with|  
  |not-begin-with|  
  |ends-with|  
- |not-end-with|
-
- <!-- (Temp change: cutting this section out for now since no one can verify that Cortana voice commands work in Potassium. It has not been tested and there is no PM/test owner for this feature)
-## Use Cortana voice commands
-You can use the following [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] voice commands with Cortana if you’re using Cortana on Windows 8.1 phones or later. Cortana voice commands for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are only available in English at this time.
-
-To do this in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]|Say this|  
-|--------------------------------|--------------|  
-|Open an item|**Dynamics 365 open *\<item>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM open account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM open account *named* Contoso.”|  
-|Show a view|**Dynamics 365 show *\<view name>*.**<br /><br /> *Example:*<br /><br /> “CRM show my active accounts.”<br /><br /> *Variation:*<br /><br /> “CRM *show me* my active accounts.”|  
-|Search for an item|**Dynamics 365 find *\<item>* called *\<name>*.**<br /><br /> *Example:*<br /><br /> “CRM find account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM find account *named* Contoso.”|  
-|Create a new item|**Dynamics 365 create *\<item type>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM create contact called Maria Campbell.”<br /><br /> *Variation:*<br /><br /> “CRM *a
-new* contact *named* Maria Campbell.”|  
-|Create a phone call activity|**Dynamics 365 remind me to call *\<call name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to call Maria Campbell to set up appointment.”|  
-|Create an appointment|**Dynamics 365 schedule meeting to *\<subject>*.**<br /><br /> *Example:*<br /><br /> “CRM schedule meeting to discuss quote with Maria Campbell.”|  
-|Create a task|**Dynamics 365 remind me to *\<task name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to email Maria Campbell.”<br /><br /> *Variations:*<br /><br /> “CRM *follow up* Maria Campbell.”<br /><br /> “CRM *follow up with* Maria Campbell.”<br /><br /> “CRM *follow up on* Contoso.”|  
-|Open task list|**Dynamics 365 what should I do next?**<br /><br /> *Example:*<br /><br /> “CRM what should I do next?”|  
-
- For more information about using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)], see [Meet Cortana](http://go.microsoft.com/fwlink/p/?LinkID=401573).
- -->
+ |not-end-with| -->
  
 ## Reconfigure the app
 
