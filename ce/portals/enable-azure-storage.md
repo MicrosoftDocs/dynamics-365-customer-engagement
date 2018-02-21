@@ -64,7 +64,7 @@ Add the following site settings from **Portals** > **Site Settings**. [!include[
 
 |Name|Value|
 |-----|-----|
-|WebFiles/CloudStorageAccount|Provide the same connection string as provided for CloudStorageAccount.|
+|WebFiles/CloudStorageAccount|Provide the same connection string as provided for the FileStorage/CloudStorageAccount setting.|
 |WebFiles/StorageLocation|AzureBlobStorage|
 |||
 
