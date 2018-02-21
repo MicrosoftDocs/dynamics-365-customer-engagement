@@ -61,11 +61,11 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
 5.  In the **Content** section, add the content for your knowledge article.  
   
     > [!NOTE]
-    >  As soon as you click inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
+    >  As soon as you select inside the editor space, the rich text editor command bar appears. Use the rich text editor command bar options to format and style your content. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the rich text editor to create knowledge articles and emails](#use-the-rich-text-editor-to-create-knowledge-articles-and-emails)
   
 6. Select **Save**. 
    
-   As the article is saved, the Business Process flow bar appears for the article. The various stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article towards completeness. You can customize the stages in the Business Process flow to suit your  requirements.
+   As the article is saved, the Business Process flow bar appears for the article. The stages are **New Process**, **Author**, **Review**, and **Publish**. The Business Process flow bar guides you to drive the article towards completeness. You can customize the stages in the Business Process flow to suit your  requirements.
 
 7. On the Business process bar, select **Author**.  
 8. In the **Set Keywords** text box, add keywords for your article.
@@ -74,10 +74,10 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 9.  In the **Assign Primary Author** drop-down list, choose a person who is responsible for maintaining the article content. By default, the user who creates the article is the primary author.  
  
-    You can  mark the article complete by clicking the checkbox at this stage.
+    You can  mark the article complete by selecting the checkbox at this stage.
 
 > [!TIP]
-> Click the icon ![flyout](media/flyout.png)  to pin the stage flyout vertically.
+> Select the icon ![flyout](media/flyout.png)  to pin the stage flyout vertically.
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
   
@@ -90,7 +90,7 @@ The **Content** editor panel consists of three tabs:
 
 - **Designer**. Author and edit the article here. Benefit from the enhanced and rich text editing capabilities.
 - **HTML**. View the HTML preview of the content here. You can author or edit the article in the HTML tab also.
-- **Preview**. See how your content would look like on various devices like Desktop, Tablet, or Mobile.
+- **Preview**. See how your content would look like on devices like Desktop, Tablet, or Mobile.
 
 Additionally, you can perform **Undo**, **Redo**, and **Full Screen** in the Content editor panel. 
   
@@ -103,7 +103,7 @@ You can choose a specific format or style for the content you’re writing.
 |Command|Use|  
 |-------------|---------|  
 |**1**. Formatting Styles|Apply predefined sets of formatting features to make it easier to keep the presentation of the text consistent. To make the choice easier, the style names are displayed in a style that they represent, giving you a preview of what the text will look like. **Note:**  This option is available in the expanded mode only.|  
-|**2**. Paragraph Format|Apply predefined block-level combinations of various formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only.|  
+|**2**. Paragraph Format|Apply predefined block-level combinations of formatting options. A paragraph format can only be applied to a block-level element, like a `paragraph` or a `div` element. **Note:**  This option is available in the expanded mode only.|  
 |**3**. Font Name|Choose a font for the selected text.|  
 |**4**. Font size|Choose a font size for the selected text.|  
 |**5**. Bold|Apply bold formatting to the selected text.|  
@@ -122,11 +122,11 @@ You can choose a specific format or style for the content you’re writing.
 |**18**. Paste as Plain Text|Paste the clipboard data as plain text, without the source formatting and styling.|  
 |**19**. Paste From Word|Paste content from [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)] with the original content formatting.  This will retain:<br /><br /> -   Spacing and line breaks<br />-   Ordered and unordered lists<br />-   Tables<br />-   Font styles and colors **Note:**  Images won’t be copied from [!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] [!INCLUDE[pn_MS_Word_Full](../includes/pn-ms-word-full.md)].|  
 |**20**. Insert Table|Insert a table, and specify the table properties.|  
-|**21**. Image| Insert an image.<br /><br /> <ol><li>Choose Insert Image.</li><li>In the **Image Info** tab, specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path.</li><li>If you want the image to be a clickable link, in the **Link** tab, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>To configure additional image options, use the **Advanced** tab. This is meant for advanced users with knowledge of HTML and CSS, and lets you change the presentation of the image.<br /><br /> <ul><li>**ID**. Type a unique identifier for an image element in the document (`id` attribute).</li><li>**Language Direction**. Choose the direction of the text.</li><li>**Language Code.** Type the language of the image element specified.</li><li>**Long Description URL**. Type the web address of an HTML page containing a longer description of the image.</li><li>**Stylesheet Classes**. Enter the class of the image element (class attribute). Note that an image element might be assigned more than one class. If this is the case, separate class names with spaces.</li><li>**Advisory Title**. Enter the text of the tooltip that is shown when the mouse cursor hovers over the image.</li><li>**Style**. Enter the CSS style definitions. Note that each value must end with a semicolon and individual properties should be separated with spaces.</li></ul></li></ol>|  
-|**22**. Link|Add clickable hyperlinks or email addresses to your documents. In the **Link** dialog box choose the type of link you’d like to insert.<br /><br /> The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br /> The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it.|  
+|**21**. Image| Insert an image.<br /><br /> <ol><li>Choose Insert Image.</li><li>In the **Image Info** tab, specify the web address of the image, and also specify properties to define how the image will appear in the email or article. **Note:**      If the image is located on the external server, use the full absolute path. If the image is located on a local server, you can use a relative path.</li><li>If you want the image to be a selectable link, in the **Link** tab, add a URL for the image. You can also specify if you want the targeted page to open in a new window, topmost window, same window, or parent window.</li><li>To configure additional image options, use the **Advanced** tab. This is meant for advanced users with knowledge of HTML and CSS, and lets you change the presentation of the image.<br /><br /> <ul><li>**ID**. Type a unique identifier for an image element in the document (`id` attribute).</li><li>**Language Direction**. Choose the direction of the text.</li><li>**Language Code.** Type the language of the image element specified.</li><li>**Long Description URL**. Type the web address of an HTML page containing a longer description of the image.</li><li>**Stylesheet Classes**. Enter the class of the image element (class attribute). Note that an image element might be assigned more than one class. If this is the case, separate class names with spaces.</li><li>**Advisory Title**. Enter the text of the tooltip that is shown when the mouse cursor hovers over the image.</li><li>**Style**. Enter the CSS style definitions. Note that each value must end with a semicolon and individual properties should be separated with spaces.</li></ul></li></ol>|  
+|**22**. Link|Add selectable hyperlinks or email addresses to your documents. In the **Link** dialog box choose the type of link you’d like to insert.<br /><br /> The **Link Info** tab allows you to choose the link type as well as set the link protocol and URL.<br /><br /> The **Target** tab is only available for the URL link type. It specifies the location where the link will open after you select it.|  
 |**23**. Unlink|When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text.|  
-|**24**. Anchor|You can add anchors in document text. After you add anchors, you can link to these anchors for easier navigation.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Ente a name for the anchor, and then click **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor.|  
-|**25.** Embed Media|To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, click the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then click **OK**.|  
+|**24**. Anchor|You can add anchors in document text. After you add anchors, you can link to these anchors for easier navigation.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button.<br />     The **Anchor Properties** dialog box opens.<br />2.  Ente a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../customer-service/media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor.|  
+|**25.** Embed Media|To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button.<br />     The **Embed Video** dialog box opens.<br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**.|  
 |**26**. Create Div Container|Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure additional `div` element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties. **Note:**  This option is available in the expanded mode only.| 
  
   
@@ -195,9 +195,9 @@ You can preview the content to view its compatibility on multiple devices, like 
   
 3.  Update the article based on the feedback.  
   
-4.  Click **Save**.  
+4.  Select **Save**.  
   
-5.  To assign the article back to the reviewer for approval or publishing, on the command bar, click **Assign**, and then select a user or a team  
+5.  To assign the article back to the reviewer for approval or publishing, on the command bar, select **Assign**, and then select a user or a team  
   
 ## Update published knowledge articles  
  When a knowledge article is in the Published (or Scheduled) state, only the users who have the Publish privilege can update it.  
@@ -206,16 +206,16 @@ You can preview the content to view its compatibility on multiple devices, like 
   
 2.  Select the published article you want to edit.  
   
-3.  On the command bar, click **Update**.  
+3.  On the command bar, select **Update**.  
   
 4.  Update the article based on the feedback.  
   
   
 <a name="bkmk_AssociateArticle"></a> If the article has information that complements an existing knowledge article, associate the existing article with the current knowledge article.  
   
-1.  In the knowledge article, on the command bar, click **More** > **Relate Article**.  
+1.  In the knowledge article, on the command bar, select **More** > **Relate Article**.  
   
-2.  In the **Select Article to Associate** field, click the **Lookup** button, select an existing article, and then, click **Associate**.  
+2.  In the **Select Article to Associate** field, select the **Lookup** button, select an existing article, and then, select **Associate**.  
   
      The associated article appears in the **Related Articles** list in the **Related Information** section of the **Summary** tab.  
   
@@ -226,11 +226,11 @@ You can preview the content to view its compatibility on multiple devices, like 
   
  This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.  
   
-1.  In the Customer Service Hub, click **Services** and choose **Knowledge Articles**.  
+1.  In the Customer Service Hub, select **Services** and choose **Knowledge Articles**.  
   
 2.  Open the article you want to create a new version for.  
   
-3.  In the knowledge article, click **Create Major Version** or **Create Minor Version**.  
+3.  In the knowledge article, select **Create Major Version** or **Create Minor Version**.  
   
      An example of a major version would be when your documentation changes to detail a new feature or functionality,  while a minor version might be a change to the user interface with no change to functionality.  
   
@@ -242,7 +242,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 4.  After you have reviewed the article, make any changes that you want to the new version. You can update the article title, content, keywords, and description to reflect any changes to your products, features, or services.  
   
 ### Review and publish your new version  
- When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, click **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article) 
+ When you are done making changes, you can push the new version of your article through your standard article workflow. When you are finished reviewing and are ready to publish, on the command bar, select **More** > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article) 
   
 ### Manage article versions  
  Managing your article versions means publishing and archiving different versions of each article to provide the most accurate information to your customers and internal employees. Keep in mind that only one version of an article can be published at a time; it’s important to keep track of the changes that are made to each version and publish them when it is appropriate.  
@@ -264,7 +264,7 @@ You can preview the content to view its compatibility on multiple devices, like 
 ## Translate a knowledge article in multiple languages  
  Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
   
-1.  Open the article you want to translate, and on the command bar, click **Translate**.  
+1.  Open the article you want to translate, and on the command bar, select **Translate**.  
   
 2.  In the **Create new translation** dialog box, in the **Pick a language** drop-down list, choose the language you want.  
   
@@ -272,7 +272,7 @@ You can preview the content to view its compatibility on multiple devices, like 
   
      You can translate articles into any language that’s supported by the Customer Service Hub.  
   
-4.  Click **Create**.  
+4.  Select **Create**.  
   
 5.  Enter your translated text in the appropriate fields. You can enter translated text for the following fields:  
   
@@ -284,14 +284,14 @@ You can preview the content to view its compatibility on multiple devices, like 
   
     -   Content  
   
-6.  When you are finished reviewing and are ready to publish, click **More** > **Publish**. Choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
+6.  When you are finished reviewing and are ready to publish, select **More** > **Publish**. Choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Schedule or publish an article](#schedule-or-publish-an-article)
   
 ### Manage article translations  
- After you have published a translation for an article, you can manage it and any other translations by clicking the **Summary** tab of the knowledge article.  
+ After you have published a translation for an article, you can manage it and any other translations by selecting the **Summary** tab of the knowledge article.  
   
-1.  In the **Related Information** section, click **Related Translations**.  
+1.  In the **Related Information** section, select **Related Translations**.  
   
-2.  Open the translation you want to view. Keep in mind that there may be multiple versions for each language. You can sort the translations by clicking the column headers of the **Related Translations** section.  
+2.  Open the translation you want to view. Keep in mind that there may be multiple versions for each language. You can sort the translations by selecting the column headers of the **Related Translations** section.  
   
      From here, you can:  
   
@@ -317,19 +317,19 @@ You can preview the content to view its compatibility on multiple devices, like 
   
 4.  To make it easy to find knowledge articles related to specific products, associate the knowledge article with a product.  
   
-    1.  On the command bar, click **More** > **Relate Product**.  
+    1.  On the command bar, select **More** > **Relate Product**.  
   
-    2.  In the **Select Product to Associate with** field, click the **Lookup** button, elect a product this article is about, and then, click **Associate**.  
+    2.  In the **Select Product to Associate with** field, select the **Lookup** button, elect a product this article is about, and then, select **Associate**.  
   
          The associated article appears in the **Related Products** list in the **Related Information** section of the **Summary** tab.  
   
-5.  On the Business process bar, click the **Publish** stage.  
+5.  On the Business process bar, select the **Publish** stage.  
   
-6.  In **the Set Product Associations** field, click **Mark as Complete**.  
+6.  In **the Set Product Associations** field, select **Mark as Complete**.  
   
 7.  If you want to schedule the article to publish on a later date, on the **Summary** tab, in the **Publish On** field, select a date and time to publish the article.  
   
-8.  On the command bar, click **More** > **Publish**.  
+8.  On the command bar, select **More** > **Publish**.  
   
     -   In the **Publish** field, select whether you want to publish the knowledge article right away or in the future. To publish the article in the future, in the **Publishing Date Time** field, select a date and time.  
   
@@ -378,7 +378,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
 #### Add feedback to an article  
   
-1.  In the **Feedback** subgrid, select **Create Feedback**. You can also click ![Add a record button](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
+1.  In the **Feedback** subgrid, select **Create Feedback**. You can also select ![Add a record button](../customer-service/media/add-recordbutton.gif "Add a record button") in the nav bar and then go to **Feedback** to create a feedback.  
   
 3.  In the **Create Feedback** flyout, fill in the information:  
   
@@ -399,7 +399,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
   
     - [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] automatically calculates the normalized rating based on the following formula: (Rating - Minimum Rating)/ (Maximum Rating - Minimum Rating).  
   
-4.  Click **Save**.
+4.  Select **Save**.
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
@@ -429,7 +429,6 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
  ![Dashboard for knowledge managers](../customer-service/media/v9-knowledge-manager-dashboard.png "Dashboard for knowledge managers")  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
-
 
 ### See also
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
