@@ -1,5 +1,6 @@
 # [Welcome to Social Engagement](overview.md)
 ## [What's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md)
+### [Social Engagement Update 2017](what-s-new-archive-2017.md)
 ### [Social Engagement Update 2016](what-s-new-archive-2016.md)
 ### [Social Engagement Update 2015](what-s-new-archive-2015.md)
 ## Business scenarios and use cases
@@ -18,6 +19,7 @@
 ### [Manage licenses for Social Engagement](manage-licenses.md)
 ### [Understand user roles](user-roles.md)
 ### [Assign permissions and user roles](assign-user-roles.md)
+### [Manage authors](manage-authors.md)
 ### [Route posts by using automation rules](automation-rules.md)
 ### [Enable a partner as a delegated admin](delegated-admin.md)
 ### [Work with Office 365 Groups in Social Engagement](office-365-groups-social-engagement.md)

@@ -154,6 +154,7 @@
 # [Extend Dynamics 365 Customer Engagement](extend.md)
 ## [Integrate (synchronize) your email system](integrate-synchronize-your-email-system.md)
 ### [Deploy Dynamics 365 App for Outlook](../outlook-app/deploy-dynamics-365-app-for-outlook.md)
+### [Deploy email for Unified Interface](deploy-email-unified-interface.md)
 ### [Server-side sync overview](server-side-synchronization.md)
 #### [Supported email service configurations](supported-email-service-configurations-server-side-synchronization.md)
 ### [Set up server-side sync](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

@@ -8,7 +8,7 @@
 ## [Use the solution explorer](use-solution-explorer.md)
 ## [Create a solution](create-solution.md)
 ## [Import, update, and export solutions](import-update-export-solutions.md)
-## [Disbribute solutions and patches](use-segmented-solutions-patches-simplify-updates.md)
+## [Distribute solutions and patches](use-segmented-solutions-patches-simplify-updates.md)
 
 # [Customize or create applications](customize-create-applications.md)  
 ## [Create a theme](change-color-scheme-add-logo-match-organizations-brand.md)

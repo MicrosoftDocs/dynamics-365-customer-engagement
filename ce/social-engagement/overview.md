@@ -2,7 +2,7 @@
 title: "Overview of Social Engagement, pricing, and related scenarios | Microsoft Docs"
 description: "Learn about features and pricing of Social Engagement and get started using the service."
 keywords: "social engagement, overview, quick start, scenarios"
-ms.date: 01/23/2018
+ms.date: 02/15/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -36,7 +36,6 @@ See how some of our customers are using [!INCLUDE[Social Engagement](../includes
 
 -   [The Liebherr Group harnesses social media to stay ahead with Microsoft Dynamics CRM and Social Engagement](https://customers.microsoft.com/story/the-liebherr-group-harnesses-social-media-to-stay-ahea)&mdash;brand reputation and social sentiment.
 
--   [Marston's delivers personalized service in real time with Dynamics 365](https://customers.microsoft.com/story/marstons-delivers-personalized-service-in-real-time-wi)&mdash;merging social data with customer data for personalized experiences and marketing.
 
 ## Pricing information
 
