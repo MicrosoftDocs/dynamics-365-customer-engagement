@@ -1,8 +1,8 @@
 ---
-title: Pointers for Customer Service for Dynamics 365 | MicrosoftDocs
-description: Your starting point for help of Customer Service for Dynamics 365
-keywords: Quick help for Customer Service; Customer Service Hub help
-ms.date: 12/15/2017
+title: Pointers for Customer Service Hub for Dynamics 365 | MicrosoftDocs
+description: Your starting point for help of Customer Service Hub for Dynamics 365
+keywords: Quick help for Customer Service Hub; Customer Service Hub help
+ms.date: 02/20/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -14,8 +14,7 @@ ms.author: anjgup
 manager: sakudes
 topic-status: Completed
 ---
-# Customer Service Help & Training
-
+# Customer Service Hub Help & Training
 
 <table>
 <tr>
@@ -47,8 +46,6 @@ topic-status: Completed
    <li>[Create and manage cases](customer-service-hub-user-guide-case-sla.md)</li>
   <li>[Work with dashboards](customer-service-hub-user-guide-dashboard.md)</li>
   <li>[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)</li>
-  <li>[Find your assignments in a queue](user-guide-customer-service.md#find-whats-assigned-to-you-in-a-queue)</li>
-  <li>[Define parent child case settings](define-settings-parent-child-cases.md)</li>
   </ul>
  </td>
 
@@ -57,9 +54,14 @@ topic-status: Completed
   <li>[Customer Service Hub](user-guide-customer-service-hub.md)</li>
    <li>[Customer Service](user-guide-customer-service.md)</li>
   <li>[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
-  <li>[Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md)</li>
-  <li>[Project Service](../project-service/overview.md)</li>
-  <li>[Field Service](../field-service/user-guide.md)</li>
+  </ul>  
+ </td>
+
+ <td><h2>Videos</h2>
+   <ul>
+  <li></li>
+   <li></li>
+  <li></li>
   </ul>  
  </td>
  </tr>
