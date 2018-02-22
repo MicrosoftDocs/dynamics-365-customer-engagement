@@ -2,7 +2,7 @@
 title: "Stay up to date with alerts in Social Engagement | Microsoft Docs"
 description: "Learn how to set up post alerts and trend alerts to stay on top of what's happening in social media."
 keywords: "alerts, notification, emails"
-ms.date: 11/01/2017
+ms.date: 01/31/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -16,19 +16,15 @@ topic-status: Drafting
 
 # Stay up to date with alerts
 
-[comment]: <> (Made first sentence active voice. Also moved the info about managing alerts to a later paragraph where it flows and fits the topic better.) 
 You can create email notifications to automatically send to a group of recipients when triggered. Alerts are user-specific, and every user role can create them. There are two types of alerts, which are based on filters and search topics:
 
 - **Post alert:** An email notification is delivered to all specified email addresses within a few hours if any new posts match the selected filters. A summary email is delivered to your email account. 
 
 - **Trend alert:** An email notification is delivered to all specified email addresses within a few hours if the volume of posts for any source exceeds the statistical expectation. A trend alert notifies you only if there are significant changes in post volumes that match the filters that you defined for an alert.
 
-[comment]: <> (Moved the bit about the message center here.) 
 Configure and manage your alerts in the **Message Center**. Your alerts configuration is visible only to you. Recipients of the alert won't be able to see or edit your alert configuration. However, an admin can remove email addresses from all alerts they are mapped to. 
 
 Alert emails contain a link to the data set that matches the posts that triggered the alert. Choose this link to open and review the content in [!include[](../includes/pn-social-engagement-short.md)].
-
-> [!VIDEO https://www.youtube.com/embed/lQKzwulgnmM]
 
 ## View your alerts list
 
@@ -104,7 +100,9 @@ In an administrator role, you can look up email addresses and remove them from a
 
 2. Enter the email address you want to search for.
 
-3. Select **Remove recipient** to remove the email address from the matching alerts. Optionally, you can select **Export** to download a list of the alerts that contain this recipient.
+3. Select **Remove recipient** to remove the email address from the matching alerts. If you remove the last recipient from an alert, the alert state is set to inactive and the owner of the alert receives an email notification.    
+Optionally, you can select **Export** to download a list of the alerts that contain this recipient.
+ 
 
 ## Set a trend alert's sensitivity
 

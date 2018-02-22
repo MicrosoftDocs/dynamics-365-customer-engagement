@@ -22,13 +22,7 @@ Keyboard shortcuts give you an alternate way to do common tasks, instead of usin
 
 ## Keyboard shortcuts applicable to all Dynamics 365 applications
 
-The keyboard shortcuts in this topic apply to all Dynamics 365 applications. 
-
-[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
-
-[App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
-
-Additional shortcut keys for specific apps, are listed below:
+The keyboard shortcuts in this topic apply to all Dynamics 365 applications:
 
 ### Forms
 The following keyboard shortcuts are included in Dynamics 365 forms: 
@@ -83,6 +77,12 @@ If editable grids (views) have been enabled by your administrator, you can edit 
 |Sort by column when the focus is on the column header|Spacebar|
 |Move to Save button when the focus is on the column header (if any unsaved data)| Tab|
 |Move to Refresh button when the focus is on the column header| Tab|
+
+Additional shortcut keys for specific apps, are listed below:
+
+[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
+
+[App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
 
 ### Navigating submenus
 If you use a screen reader, follow the steps given below to access any of the submenus that are displayed when you hover the mouse over a navigation link.
