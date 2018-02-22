@@ -97,7 +97,7 @@ The user account that you used to set it up is now:
 - The global administrator for the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
 - A system administrator for the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org
 
-If needed, you can add now add more users to the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview. To add a new user:
+To add a new user to your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview:
 1. Open a web browser and go to [portal.office.com](http://portal.office.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
 1. Once you are signed in, go to [portal.office.com/adminportal/home#/users](http://portal.office.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
 1. Select **Add a user** to open the **New user** fly-out panel.
