@@ -41,6 +41,8 @@ manager: "brycho"
  A solution component represents something that you can potentially customize. Anything that can be included in a solution is a solution component. The following is a list of solution components that you can view in a solution:  
   
 -   Application Ribbon  
+
+-   App 
   
 -   Article Template  
   
@@ -51,6 +53,8 @@ manager: "brycho"
 -   Connection Role  
   
 -   Contract Template  
+ 
+-   Custom Control
   
 -   Dashboard  
   
@@ -83,6 +87,10 @@ manager: "brycho"
 -   Service Endpoint  
   
 -   Site Map  
+
+-   Virtual Entity Data Provider
+
+-   Virtual Entity Data Source
   
 -   Web Resource  
   
