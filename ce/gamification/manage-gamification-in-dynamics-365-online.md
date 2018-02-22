@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 keywords: "install, solution, manage, uninstall"
-ms.date: 02/21/2018
+ms.date: 02/22/2018
 ms.service: gamification
 ms.topic: get-started-article
 applies_to:
@@ -40,7 +40,7 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
   
 > [!NOTE]
 > To avoid timeout issues when syncing the data of more than 2000 users, you need to change the number of users sent per page in the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] settings.    
-> In Dynamics 365, select **Advanced Find**. Look for **Gamification Settings** and select **Results**. Open the **Gamification Settings** and set the **Users sent per page** value to **5**.
+> In Dynamics 365, select **Advanced Find**. Look for **Gamification Settings** and select **Results**. Open the **Gamification Settings** and lower the value of **Users sent per page**.
 
 ### Install the solution from AppSource  
   
