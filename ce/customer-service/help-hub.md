@@ -20,7 +20,6 @@ topic-status: Completed
 <tr>
   <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></div>
  <td></td>
- 
 </tr>
 <tr>
 
@@ -31,7 +30,6 @@ topic-status: Completed
   <li>[Navigate app on mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
   </ul>
   </td>
-
 
   <td><h2>Setup</h2>
   <ul>
@@ -57,10 +55,7 @@ topic-status: Completed
   </ul>  
  </td>
 
-<table>
-<tr>
-</div>
-<td></td>
+<td>
  
 </tr>
 <tr>
