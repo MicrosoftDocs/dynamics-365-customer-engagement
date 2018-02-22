@@ -41,6 +41,8 @@ manager: "brycho"
  A solution component represents something that you can potentially customize. Anything that can be included in a solution is a solution component. The following is a list of solution components that you can view in a solution:  
   
 -   Application Ribbon  
+
+-   App 
   
 -   Article Template  
   
