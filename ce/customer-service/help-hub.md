@@ -57,11 +57,20 @@ topic-status: Completed
   </ul>  
  </td>
 
+<table>
+<tr>
+</div>
+<td></td>
+ 
+</tr>
+<tr>
  <td><h2>Videos</h2>
    <ul>
   <li></li>
-   <li></li>
   <li></li>
+  <li></li>
+  <li></li>
+  <li></li> 
   </ul>  
  </td>
  </tr>
