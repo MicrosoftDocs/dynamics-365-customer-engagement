@@ -232,7 +232,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
 |Top Tables by Row Count - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows top 10 largest tables by their row count in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|BE23542E-2E03-42A5-BDF4-70A53DFCB519|  
 |Common Tables by Size - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows the size of some common tasks of tables in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|8614E00B-28D8-4C41-92E3-9F27AFD28AE7|
 |Row Count of Common Tables - Current [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] Instance|This chart shows the number of rows of some common tasks of tables in the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance database.|BE5127CC-1919-4AB4-A582-C5C3B601D456|  
-|Storage by Instance|Storage used by each [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance (refreshed daily)|AEEE328E-8E4F-4E98-B5A5-1509E7A610A4|
+|Storage by Instance|Storage used by each [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] instance (refreshed daily)|5BE3A49A-90EF-43EB-8FFB-FD0FD449F196|
 |Storage by Tenant|Storage used by the tenant (refreshed daily)|AEEE328E-8E4F-4E98-B5A5-1509E7A610A4|
   
 ### Update frequency  
