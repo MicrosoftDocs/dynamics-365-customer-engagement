@@ -40,7 +40,7 @@ We recommend to adhere to the following limits when working with [!INCLUDE[pn_ga
   
 > [!NOTE]
 > To avoid timeout issues when syncing the data of more than 2000 users, you need to change the number of users sent per page in the [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] settings.    
-> In Dynamics 365, select **Advanced Find**. Look for **Gamification Settings** and select **Results**. Open the **Gamification Settings** and lower the value of **Users sent per page**.
+> In Dynamics 365, select **Advanced Find**. Look for **Gamification Settings** and select **Results**. Open the **Gamification Settings** and lower the value for **Users sent per page**.
 
 ### Install the solution from AppSource  
   
