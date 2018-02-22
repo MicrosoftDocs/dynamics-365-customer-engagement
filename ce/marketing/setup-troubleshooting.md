@@ -26,7 +26,7 @@ Read this topic to find answers to common questions and solutions to known issue
 
 <a name="preview-prerequisites"></a>
 
-## Get all prerequisites in place to set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview
+## How can I set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview?
 
 You can install and use a preview version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free. Prerequisites for the preview are the same as those for the production version of the product, but you can install it on a trial (or production) [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, and you must use it with a trial version of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
@@ -72,16 +72,62 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 1. After a few minutes, your new [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization will be ready and will open in your browser. Be sure to make a note of your org's URL and your other account details, such as the user name, password, and email address you chose while setting it up.
 
 1. This step is optional, but it can be useful to set up an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] trial so you can set up email accounts to use with your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] trial. 
-
     1. Open a new browser tab and go to [portal.office.com/adminportal/home?rc=1#/catalog](https://portal.office.com/adminportal/home?rc=1#/catalog). This is where you can add new apps to your new org.
-
-    1. Scroll down to the **Office 365 Enterprise E3** box. Hover your mouse over this box to open a flyout message and then select **Start free trial** on the message.
-
+    1. Scroll down to the **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** box. Hover your mouse over this box to open a flyout message and then select **Start free trial** on the message.
     1. Follow the instructions on your screen to add the trial to your account.
-
-    1. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] license to your user account and then set up an [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] mailbox for yourself. You could also set up [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] to forward all messages to your usual work address. See the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] online help for assistance with these tasks. It may take several minutes for your mailbox to come online.
+    1. You can now go to the [!INCLUDE[pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)] to assign an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] license to your user account and then set up an [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] mailbox for yourself. It may take several minutes for your mailbox to come online, but when it's ready you should consider setting [!INCLUDE[pn-exchange](../includes/pn-exchange.md)] to forward all messages to your usual work address.  To set up forwarding:
+        1. Select your new user account. A fly-out panel opens.
+        1. Expand the **Mail Settings** heading on the fly-out panel. (If you see a message that the mailbox is still being set up, then wait for the setup to complete.)
+        1. Select the **Edit** link for **Email forwarding**.
+        1. Turn forwarding on and specify the target email address. Then select **Save**.
+        1. Close the fly-out panel.
 
 1. Install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview on your new trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as described in [Sign up for the Dynamics 365 for Marketing preview](#marketing-preview-signup).
+
+## How can I add more users to my [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview?
+Once you have a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview set up you'll have:
+
+- A trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
+- A trial [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization installed on the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
+- A trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3 organization installed on the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
+- A preview [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app installed on the trial [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org
+
+The user account that you used to set it up is now:
+
+- The global administrator for the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant
+- A system administrator for the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org
+
+If needed, you can add now add more users to the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview. To add a new user:
+1. Open a web browser and go to [portal.office.com](http://portal.office.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
+1. Once you are signed in, go to [portal.office.com/adminportal/home#/users](http://portal.office.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
+1. Select **Add a user** to open the **New user** fly-out panel.
+1. Enter the new user's name and other details in the fly-out panel. 
+    - Make sure the **Domain** is the same as the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
+    - Choose to create a non-random password and make a note of the password you choose.
+    - Under **Product licenses**, enable licenses for both **[!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3** and **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Customer Engagement Plan Enterprise Edition**.
+1. Select **Add** to create the new user, and then select **Send email and close** to close the fly-out panel.
+1. The new user account is now available on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, where it is also assigned trial licenses to [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] Enterprise E3 and [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. The user also has an email address at your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] domain. You should consider setting up mail forwarding to make sure the new user will receive sign-up messages. To set up forwarding:
+    1. On the **Active users** page, select the name of the new user account. A fly-out panel opens showing details about the selected user.
+    1. Expand the **Mail Settings** heading on the fly-out panel. (If you see a message that the mailbox is still being set up, then wait for the setup to complete.)
+    1. Select the **Edit** link for **Email forwarding**.
+    1. Turn forwarding on and specify the target email address. Then select **Save**.
+    1. Close the fly-out panel.
+1. Sign out of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and quit your browser.
+1. Now the new user needs to sign up for the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You can either set this up for them or ask them to do it themselves. Either way, you'll need to approve the new user afterwards. The procedure is as follows:
+    1. Open a web browser and go to [trials.dynamics.com/Dynamics365/Preview/Marketing](http://trials.dynamics.com/Dynamics365/Preview/Marketing).
+    1. A form opens asking for your email address and phone number. Use the email address for the new user that you just set up in [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)].
+    1. A page opens to tell you that you already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] account, so just select **Sign in**.
+    1. Sign in using the [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] email address and password that you created for the new user.
+    1. A page opens to tell you that you already have a license for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Select **OK, got it**.
+    1. You now see a list of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organizations that are available on your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant (there is probably just one). Select the organization that you want to add the new user to and then select **Join**.
+    1. A pop-up dialog asks you to choose an app. **[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]** is probably already shown and selected, so just select **Continue**.
+    1. A thank-you page opens telling you that a request has been sent to the preview owner (this is the global admin account created when you first set up the trial org).
+    1. Sign out of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and quit your browser.
+1. Check the email inbox for the trial global admin. You should find a message telling you that you have a request to join your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] preview. Select the **Approve** link included in the email.
+1. The link opens in your browser, which should now be asking you to sign into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. Sign in using the global admin account.
+1. You should now see an **Approved!** message. The system sends the new user an email that includes a link they can use to sign into the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] preview using the password you chose for them.
+1. The new user is granted most user roles (including admin) in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. If you'd like to restrict access, then see [Assign a security role to a user](manage-users.md#assign-role) for instructions.
+
 
 ## Authorization fails due to unmanaged organization state
 
