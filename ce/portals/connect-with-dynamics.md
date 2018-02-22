@@ -2,7 +2,7 @@
 title: "Connect a portal to a Dynamics 365 online organization | MicrosoftDocs"
 description: "Learn how to connect a portal to a Dynamics 365 online organization and how to renew the authentication key."
 keywords: "portal authentication key, connect with Dynamics 365"
-ms.date: 02/21/2018
+ms.date: 02/22/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
