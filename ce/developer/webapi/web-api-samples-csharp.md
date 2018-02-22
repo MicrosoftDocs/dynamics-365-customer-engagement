@@ -12,7 +12,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 66e26684-819e-45f7-bec4-c250be4d6fed
 caps.latest.revision: 14
-ms.author: "v-milaro"
+author: "JimDaly"
+ms.author: "jdaly"
 ---
 # Web API Samples (C#)
 

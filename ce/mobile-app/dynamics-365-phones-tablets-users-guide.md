@@ -21,9 +21,10 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
-  
-> [!TIP]
-> [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
+
+> [!NOTE]
+> - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
+> - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phone and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
@@ -51,13 +52,14 @@ Here's how to sign out in case someone else needs to use your device.
 
 You can sign in again as the same or a different user, or you can sign in to a different organization.
 
-<!-- (Temp change: cutting this section out temp since Mobile Offline is not supported in GA, 9/30-->
+<!-- 
 ## Continuum support for Windows Phone
 Use your phone like a PC with Continuum support. You can connect a Windows 10 mobile device to a larger screen, allowing you to utilize your phone as a PC. Use a dock or adapter to connect to a monitor, keyboard, and mouse, and then use the mobile app on your Windows 10 phone and see your content on a larger screen.
 
 When your phone is connected to another screen, the mobile app reflows to fit the larger screen size. You can also continue to use your phone the way you normally would without interrupting what’s playing on the larger screen. This offers a natural, no compromise, and familiar method to seamlessly switch between a smaller device to a bigger device, without impacting your productivity. [Learn more about
 Continuum](https://www.microsoft.com/en-us/windows/Continuum).
- 
+-->
+
 ## Basic navigation
 
 1. When you sign in, you’ll see the MyApps page with all your apps listed. 
@@ -414,6 +416,8 @@ If multiple entries are made in the same field by offline users (for example, tw
   
 If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes.
 
+<!-- Commenting out this content per request from Ankit Saraf. Safe to delete later if no request to bring it back. It also exits in configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md
+
 **Enhanced sync filters**
 
 Admins can choose what information to sync to user's devices. This can help minimize impact to user's device's memory.  
@@ -423,8 +427,8 @@ Admins can choose what information to sync to user's devices. This can help mini
   
  Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
 
- ||  
- |-|  
+ |    |  
+ |----|  
  |equal|  
  |not equal|  
  |gt – greater than|  
@@ -434,7 +438,7 @@ Admins can choose what information to sync to user's devices. This can help mini
  |like|  
  |not-like|  
  |in|  
- not-in|  
+ |not-in|  
  |null|  
  |not-null|  
  |eq-userid|  
@@ -446,30 +450,10 @@ Admins can choose what information to sync to user's devices. This can help mini
  |eq-businessid|  
  |ne-businessid|  
  |eq-userlanguage|  
- begins-with|  
+ |begins-with|  
  |not-begin-with|  
- ends-with|  
- |not-end-with|
-
- 
- <!-- (Temp change: cutting this section out for now since no one can verify that Cortana voice commands work in Potassium. It has not been tested and there is no PM/test owner for this feature)
-## Use Cortana voice commands
-You can use the following [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] voice commands with Cortana if you’re using Cortana on Windows 8.1 phones or later. Cortana voice commands for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are only available in English at this time.
-
-To do this in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]|Say this|  
-|--------------------------------|--------------|  
-|Open an item|**Dynamics 365 open *\<item>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM open account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM open account *named* Contoso.”|  
-|Show a view|**Dynamics 365 show *\<view name>*.**<br /><br /> *Example:*<br /><br /> “CRM show my active accounts.”<br /><br /> *Variation:*<br /><br /> “CRM *show me* my active accounts.”|  
-|Search for an item|**Dynamics 365 find *\<item>* called *\<name>*.**<br /><br /> *Example:*<br /><br /> “CRM find account called Contoso.”<br /><br /> *Variation:*<br /><br /> “CRM find account *named* Contoso.”|  
-|Create a new item|**Dynamics 365 create *\<item type>* called *\<item name>*.**<br /><br /> *Example:*<br /><br /> “CRM create contact called Maria Campbell.”<br /><br /> *Variation:*<br /><br /> “CRM *a
-new* contact *named* Maria Campbell.”|  
-|Create a phone call activity|**Dynamics 365 remind me to call *\<call name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to call Maria Campbell to set up appointment.”|  
-|Create an appointment|**Dynamics 365 schedule meeting to *\<subject>*.**<br /><br /> *Example:*<br /><br /> “CRM schedule meeting to discuss quote with Maria Campbell.”|  
-|Create a task|**Dynamics 365 remind me to *\<task name>*.**<br /><br /> *Example:*<br /><br /> “CRM remind me to email Maria Campbell.”<br /><br /> *Variations:*<br /><br /> “CRM *follow up* Maria Campbell.”<br /><br /> “CRM *follow up with* Maria Campbell.”<br /><br /> “CRM *follow up on* Contoso.”|  
-|Open task list|**Dynamics 365 what should I do next?**<br /><br /> *Example:*<br /><br /> “CRM what should I do next?”|  
-
- For more information about using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)], see [Meet Cortana](http://go.microsoft.com/fwlink/p/?LinkID=401573).
- -->
+ |ends-with|  
+ |not-end-with| -->
  
 ## Reconfigure the app
 

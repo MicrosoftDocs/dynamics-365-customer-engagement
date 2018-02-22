@@ -1,0 +1,439 @@
+- name: Unified Service Desk Guide
+  href: unified-service-desk.md
+  items:
+  - name: Release history
+    href: release-history.md
+  - name: What's new for Administrators
+    href: admin/whats-new-unified-service-desk-administrators.md
+  - name: What's new for Developers
+    href: what-s-new-in-unified-service-desk.md
+  - name: Download Unified Service Desk
+    href: download-unified-service-desk.md
+- name: Overview of Unified Service Desk
+  href: admin/overview-unified-service-desk.md
+  items:
+  - name: Call center challenges and how Unified Service Desk can help
+    href: admin/call-center-challenges-how-unified-service-desk-can-help.md
+  - name: Sample Unified Service desk applications
+    href: admin/sample-unified-service-desk-applications.md
+    items:
+    - name: Unified Service Desk New Environment sample package
+      href: admin/unified-service-desk-new-environment-package.md
+    - name: Unified Service Desk Interactive Service Hub sample package
+      href: admin/unified-service-desk-interactive-service-hub-package.md
+    - name: Unified Service Desk Web Client sample package
+      href: admin/unified-service-desk-dynamics-365-web-client-package.md
+    - name: Unified Service Desk Upgrade sample package
+      href: admin/unified-service-desk-upgrade-package.md
+- name: Install, deploy, and upgrade Unified Service Desk
+  href: admin/install-upgrade-deploy-unified-service-desk.md
+  items:
+  - name: Unified Service Desk system requirements
+    href: admin/unified-service-desk-system-requirements.md
+  - name: Install the Unified Service Desk client
+    href: admin/install-upgrade-unified-service-desk-client.md
+  - name: Deploy sample Unified Service Desk applications using Package Deployer
+    href: admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md
+  - name: Upgrade Unified Service Desk
+    href: admin/upgrade-unified-service-desk-solution.md
+- name: Connect to a Dynamics 365 instance using the Unified Service Desk client
+  href: admin/connect-dynamics-365-instance-using-unified-service-desk-client.md
+- name: Update Unified Service Desk solution
+  href: admin/update-unified-service-desk-solution.md
+- name: Understand Unified Service Desk Concepts
+  href: understand-unified-service-desk-concepts.md
+  items:
+  - name: Core concepts for configuring Unified Service Desk
+    href: core-concepts-for-configuring-unified-service-desk.md
+    items:
+    - name: Unified Service Desk hosted controls
+      href: unified-service-desk-hosted-controls.md
+    - name: Events
+      href: events.md
+    - name: UII actions
+      href: uii-actions.md
+    - name: Action calls
+      href: action-calls.md
+    - name: Replacement parameters
+      href: replacement-parameters.md
+  - name: Unified Service Desk and the UII framework
+    href: unified-service-desk-uii-framework.md
+    items:
+    - name: UII Application Integration Framework
+      href: uii-application-integration-framework.md
+    - name: UII hosted applications
+      href: uii-hosted-applications.md
+    - name: UII adapters
+      href: uii-adapters.md
+    - name: UII data driven adapters
+      href: uii-data-driven-adapters.md
+    - name: UII Hosted Application Toolkit (HAT)
+      href: uii-hosted-application-toolkit-hat.md
+    - name: UI Shell Framework
+      href: ui-shell-framework.md
+    - name: UII computer telephony integration (CTI) framework
+      href: uii-computer-telephony-integration-cti-framework.md
+- name: Administer and manage Unified Service Desk
+  href: admin/administer-manage-unified-service-desk.md
+  items:
+  - name: Manage Options for Unified Service Desk
+    href: admin/manage-options-unified-service-desk.md
+    items:
+    - name: Configure client caching in Unified Service Desk
+      href: admin/configure-client-caching-unified-service-desk.md
+    - name: Help improve Unified Service Desk
+      href: admin/help-improve-unified-service-desk.md
+  - name: Configure auditing and diagnostics in Unified Service Desk
+    href: admin/configure-auditing-diagnostics-unified-service-desk.md
+  - name: Performance data collection using keyboard shortcut
+    href: admin/performance-data-collection-using-keyboard-shortcut.md
+  - name: Distribute custom hosted controls using Customization Files
+    href: admin/distribute-custom-hosted-controls-using-customization-files.md
+  - name: Access management in Unified Service Desk
+    href: admin/security-unified-service-desk.md
+    items:
+    - name: Manage access using Unified Service Desk security roles
+      href: admin/manage-access-using-unified-service-desk-security-roles.md
+    - name: Manage access using Unified Service Desk configuration
+      href: admin/manage-access-using-unified-service-desk-configuration.md
+  - name: Migrate your Unified Service Desk configuration to another Customer Engagement instance
+    href: admin/migrate-unified-service-desk-configuration-dynamics-365-server.md
+    items:
+    - name: Import Unified Service Desk configuration data
+      href: admin/import-unified-service-desk-configuration-data.md
+    - name: Export Unified Service Desk configuration data
+      href: admin/export-unified-service-desk-configuration-data.md
+  - name: Performance enhancement for CRM entity page loads
+    href: admin/performance-enhancement-CRM-entity-page-loads.md
+    items:
+    - name: Known issues of performance enhancement for CRM entity page loads
+      href: admin/known-issues-performance-enhancement-CRM-entity-page-loads.md
+  - name: Recover Internet Explorer process instance
+    href: admin/recover-internet-explorer-process-instance.md
+- name: Configure your agent application using Unified Service Desk
+  href: configure-agent-application-unified-service-desk.md
+  items:
+  - name: Learn to use Unified Service Desk
+    href: learn-to-use-unified-service-desk.md
+    items:
+    - name: Hosted control types, actions, and events
+      href: hosted-control-types-actions-events.md
+    - name: View predefined actions and events for a hosted control
+      href: view-predefined-actions-events-hosted-control.md
+    - name: View embedded help for actions and events
+      href: view-embedded-help-for-actions-and-events.md
+    - name: Use replacement parameters to configure Unified Service Desk
+      href: use-replacement-parameters-configure-unified-service-desk.md
+    - name: Panels, panel types, and panel layouts in Unified Service Desk
+      href: panels-panel-types-panel-layouts.md
+    - name: Toolbars in Unified Service Desk
+      href: toolbars-unified-service-desk.md
+    - name: Use window navigation rules in Unified Service Desk
+      href: use-window-navigation-rules-unified-service-desk.md
+    - name: Session management in Unified Service Desk
+      href: session-management-unified-service-desk.md
+    - name: Guide customer interactions with agent scripts
+      href: guide-customer-interactions-agent-scripts.md
+    - name: Execute scripts using scriptlets in Unified Service Desk
+      href: execute-scripts-using-scriptlets-unified-service-desk.md
+    - name: Search data using entity searches in Unified Service Desk
+      href: search-data-entity-searches.md
+    - name: Use Dynamics 365 knowledge for effective customer engagement
+      href: use-dynamics-365-knowledge-effective-customer-engagement.md
+  - name: Get started with configuring your agent application
+    href: get-started-configuring-agent-application.md
+    items:
+    - name: Manage hosted controls, actions, and events
+      href: manage-hosted-controls-actions-events.md
+      items:
+      - name: 'Select a hosting method for your controls '
+        href: select-a-hosting-method-for-your-controls.md
+      - name: Create or edit a hosted control
+        href: create-edit-hosted-control.md
+      - name: Add a UII action to a hosted control
+        href: add-uii-action-hosted-control.md
+      - name: Create an action call for a UII action
+        href: create-action-call-uii-action.md
+      - name: Add action calls to an event
+        href: add-action-calls-event.md
+      - name: Create a user-defined event
+        href: create-user-defined-event.md
+    - name: Configure toolbars in your application
+      href: configure-toolbars-application.md
+    - name: Configure JAWS screen reader support
+      href: configure-jaws-screen-reader-support.md
+    - name: Configure session information
+      href: configure-session-information.md
+    - name: Configure and manage agent scripts
+      href: configure-manage-agent-scripts.md
+    - name: Customize the appearance of your application
+      href: customize-appearance-application.md
+      items:
+      - name: Customize login and splash screens in Unified Service Desk
+        href: customize-login-and-splash-screens-in-unified-service-desk.md
+      - name: Customize themes in Unified Service Desk
+        href: customize-themes-in-unified-service-desk.md
+    - name: Add multilanguage support for your agent applications
+      href: add-multilanguage-support-agent-applications.md
+    - name: Configure Unified Service Desk to use Dynamics 365 knowledge
+      href: configure-unified-service-desk-use-dynamics-365-knowledge.md
+    - name: Configure notifications in Unified Service Desk
+      href: configure-notifications-unified-service-desk.md
+  - name: Unified Service Desk configuration walkthroughs
+    href: unified-service-desk-configuration-walkthroughs.md
+    items:
+    - name: 'Walkthrough 1: Build a simple agent application'
+      href: walkthrough-1-build-a-simple-agent-application.md
+    - name: 'Walkthrough 2: Display an external webpage in your agent application'
+      href: walkthrough-2-display-an-external-webpage-in-your-agent-application.md
+    - name: 'Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application'
+      href: walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md
+    - name: 'Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application'
+      href: walkthrough-display-dynamics-365-record-session-agent-application.md
+    - name: 'Walkthrough 5: Display enhanced session information by displaying session name and overview data'
+      href: walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md
+    - name: 'Walkthrough 6: Configure the Debugger hosted control in your agent application'
+      href: walkthrough-configure-debugger-hosted-control-agent-application.md
+    - name: 'Walkthrough 7: Configure agent scripting in your agent application'
+      href: walkthrough-configure-agent-scripting-agent-application.md
+    - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
+      href: walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md
+- name: Extend Unified Service Desk
+  href: extend-unified-service-desk.md
+  items:
+  - name: Integrate with external applications and web applications
+    href: integrate-external-applications-web-applications.md
+    items:
+    - name: Create and manage UII hosted applications
+      href: create-manage-uii-hosted-applications.md
+    - name: Use UII adapters to interact with external and web applications
+      href: use-uii-adapters-interact-external-web-applications.md
+    - name: Use UII automation adapter to interact with external and web applications
+      href: use-uii-automation-adapter-interact-external-web-applications.md
+      items:
+      - name: Hosted Application Toolkit (HAT) architecture
+        href: hosted-application-toolkit-hat-architecture.md
+      - name: Work with the HAT Software Factory
+        href: work-with-hat-software-factory.md
+        items:
+        - name: Use HAT Software Factory to create a hosted application
+          href: use-hat-software-factory-create-hosted-application.md
+        - name: Use UII inspector to create bindings for the hosted application
+          href: use-uii-inspector-create-bindings-hosted-application.md
+        - name: Configure the hosted application
+          href: configure-hosted-application.md
+        - name: Configure an action for the hosted application
+          href: configure-action-hosted-application.md
+        - name: Deploy the hosted application to Unified Service Desk
+          href: deploy-hosted-application-unified-service-desk.md
+        - name: Import the hosted application from Unified Service Desk
+          href: import-hosted-application-from-unified-service-desk.md
+        - name: Automate hosted applications using HAT automation activities
+          href: automate-hosted-applications-using-hat-automation-activities.md
+          items:
+          - name: Use HAT automation activities
+            href: use-hat-automation-activities.md
+          - name: Types of HAT automation activities
+            href: types-of-hat-automation-activities.md
+          - name: Create HAT automation
+            href: create-hat-automation.md
+      - name: Use data driven adapters (DDAs)
+        href: use-data-driven-adapters-ddas.md
+        items:
+        - name: WinDDA
+          href: windda.md
+          items:
+          - name: AccControl Tag
+            href: acccontrol-tag.md
+          - name: ACCSelector Tag
+            href: acc-selector-tag.md
+          - name: Next Tag
+            href: next-tag-windda.md
+          - name: FindWindow Tag
+            href: find-window-tag.md
+          - name: WinDDA events
+            href: win-dda-events.md
+        - name: WebDDA
+          href: web-dda.md
+          items:
+          - name: AnchorElement
+            href: anchor-element.md
+          - name: ButtonElement
+            href: button-element.md
+          - name: InputElement
+            href: input-element.md
+          - name: SelectElement
+            href: select-element.md
+          - name: TextAreaElement
+            href: text-area-element.md
+          - name: HtmlElement
+            href: html-element.md
+          - name: HyperLink
+            href: hyperlink.md
+          - name: Search Path Elements
+            href: search-path-elements.md
+          - name: AttributeMatchPath
+            href: attribute-match-path.md
+          - name: ElementMatchPath
+            href: element-match-path.md
+          - name: FindIEFrame
+            href: find-ie-frame.md
+          - name: WebDDA Events
+            href: web-dda-events.md
+        - name: UIADDA
+          href: uiadda.md
+          items:
+          - name: UI Automation Inspector
+            href: ui-automation-inspector.md
+          - name: FindControl Operation
+            href: find-control-operation.md
+          - name: Control Operations (Get/Set/Execute)
+            href: control-operations-get-set-execute.md
+          - name: Register/Unregister Action for Event
+            href: register-and-unregister-action-for-event.md
+          - name: Condition Algorithm
+            href: condition-algorithm.md
+          - name: Sample bindings
+            href: sample-bindings.md
+          - name: UIA Extensibility
+            href: uia-extensibility.md
+          - name: UIA property list
+            href: uia-property-list.md
+          - name: UIA Pattern List
+            href: uia-pattern-list.md
+        - name: JavaDDA
+          href: javadda.md
+          items:
+          - name: JAccControl Tag
+            href: jacc-control-tag.md
+          - name: JAccSelector Tag
+            href: jacc-selector-tag.md
+          - name: JAccTree Tag
+            href: jacc-tree-tag.md
+          - name: Search Path Node Tag
+            href: search-path-node-tag.md
+          - name: Next Tag
+            href: next-tag-javadda.md
+          - name: NextRole Tag
+            href: nextrole-tag.md
+          - name: FindWindow search path tag
+            href: find-window-search-path-tag.md
+          - name: JavaDDA Events
+            href: java-dda-events.md
+        - name: Composite DDA
+          href: composite-dda.md
+    - name: Use UII hosted controls with Unified Service Desk
+      href: use-uii-hosted-controls-unified-service-desk.md
+    - name: 'Walkthrough: Create a UII Application Adapter'
+      href: walkthrough-create-uii-application-adapter.md
+    - name: 'Walkthrough: Create a UII Web Application Adapter'
+      href: walkthrough-create-uii-web-application-adapter.md
+    - name: 'Walkthrough: Create a UII Windows Forms Hosted Control'
+      href: walkthrough-create-uii-windows-forms-hosted-control.md
+    - name: 'Walkthrough: Create a UII WPF Hosted Control'
+      href: walkthrough-create-uii-wpf-hosted-control.md
+  - name: Integrate with CTI systems using CTI adapters
+    href: integrate-cti-systems-cti-adapters.md
+    items:
+    - name: Use the generic listener adapter in Unified Service Desk
+      href: use-generic-listener-adapter-unified-service-desk.md
+    - name: Build a custom CTI adapter for Unified Service Desk
+      href: build-custom-cti-adapter-unified-service-desk.md
+    - name: Create a CTI Connector
+      href: create-cti-connector.md
+    - name: Create a CTI Desktop Manager
+      href: create-cti-desktop-manager.md
+    - name: Create a CTI Control
+      href: create-cti-control.md
+    - name: Considerations for creating a CTI adapter for Unified Service Desk
+      href: consideration-creating-cti-adapter-unified-service-desk.md
+    - name: 'Walkthrough: Use the generic listener adapter for CTI event routing'
+      href: walkthrough-use-the-generic-listener-adapter-for-cti-event-routing.md
+  - name: Integrate with Citrix applications
+    href: integrate-citrix-applications.md
+  - name: Use custom hosted control in Unified Service Desk
+    href: use-custom-hosted-control-unified-service-desk.md
+    items:
+    - name: 'Walkthrough: Create custom hosted control for Unified Service Desk'
+      href: walkthrough-create-custom-hosted-control-for-unified-service-desk.md
+    - name: Use SafeDispatcher for custom hosted controls in Unified Service Desk
+      href: use-safedispatcher-custom-hosted-controls-unified-service-desk.md
+    - name: Configure enhanced diagnostic logging for custom hosted controls
+      href: configure-enhanced-diagnostic-logging-custom-hosted-controls.md
+  - name: Create custom listeners for auditing, diagnostics and traces
+    href: create-custom-listeners-auditing-diagnostics-traces.md
+  - name: Use custom panel types and panel layouts in Unified Service Desk
+    href: use-custom-panel-types-panel-layouts-unified-service-desk.md
+    items:
+    - name: Create a custom panel type
+      href: create-custom-panel-type.md
+    - name: Create a custom panel layout
+      href: create-custom-panel-layout.md
+    - name: Keyboard shortcuts for panels
+      href: keyboard-shortcuts-panels.md
+    - name: Display hosted controls in the custom panel layout
+      href: display-hosted-controls-custom-panel-layout.md
+    - name: Move hosted controls between panels at runtime
+      href: move-hosted-controls-between-panels-runtime.md
+  - name: Reuse Entity Search definition in your custom code
+    href: reuse-entity-search-definition-custom-code.md
+- name: Troubleshoot Unified Service Desk
+  href: admin/troubleshoot-unified-service-desk.md
+  items:
+  - name: Configure client diagnostic logging in Unified Service Desk
+    href: admin/configure-client-diagnostic-logging-unified-service-desk.md
+    items:
+    - name: How Unified Service Desk handles application and system errors
+      href: admin/how-unified-service-desk-handles-application-system-errors.md
+  - name: Debug issues in Unified Service Desk
+    href: debug-issues-unified-service-desk.md
+    items:
+    - name: Use the Debugger control in Unified Service Desk
+      href: use-debugger-control-unified-service-desk.md
+    - name: Debug your custom code for Unified Service Desk
+      href: debug-custom-code-unified-service-desk.md
+- name: Hosted control types and action/event reference
+  href: hosted-control-types-action-event-reference.md
+  items:
+  - name: Connection Manager (Hosted Control)
+    href: connection-manager-hosted-control.md
+  - name: Global Manager (Hosted Control)
+    href: global-manager-hosted-control.md
+  - name: Agent Scripting (Hosted Control)
+    href: agent-scripting-hosted-control.md
+  - name: CRM Dialog (Hosted Control)
+    href: crm-dialog-hosted-control.md
+  - name: CRM Page (Hosted Control)
+    href: crm-page-hosted-control.md
+  - name: CTI Desktop Manager (Hosted Control)
+    href: cti-desktop-manager-hosted-control.md
+  - name: Debugger (Hosted Control)
+    href: debugger-hosted-control.md
+  - name: Interactive Service Hub Page (Hosted Control)
+    href: interactive-service-hub-page-hosted-control.md
+  - name: KM Control (Hosted Control)
+    href: km-control-hosted-control.md
+  - name: Listener Hosted Control (Hosted Control)
+    href: listener-hosted-control-hosted-control.md
+  - name: Panel Layout (Hosted Control)
+    href: panel-layout-hosted-control.md
+  - name: Popup Notification (Hosted Control)
+    href: popup-notification-hosted-control.md
+  - name: Session Lines (Hosted Control)
+    href: session-lines-hosted-control.md
+  - name: Session Tabs (Hosted Control)
+    href: session-tabs-hosted-control.md
+  - name: Standard Web Application (Hosted Control)
+    href: standard-web-application-hosted-control.md
+  - name: Toolbar Container (Hosted Control)
+    href: toolbar-container-hosted-control.md
+  - name: User Notes (Hosted Control)
+    href: user-notes-hosted-control.md
+  - name: USD Hosted Control (Hosted Control)
+    href: usd-hosted-control-hosted-control.md
+  - name: CCA Hosted Application (Hosted Control)
+    href: cca-hosted-application-hosted-control.md
+  - name: Session Timer (Custom Hosted Control)
+    href: session-timer-custom-hosted-control.md
+- name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
+  href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md

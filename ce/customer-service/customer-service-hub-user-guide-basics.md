@@ -42,7 +42,7 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 <a name="bkmk_Access"></a>
 
 ## Open the Customer Service Hub
-The Customer Service Hub app is available to use on a desktop browser for managing knowledge articles, and on mobile devices for case management.  You can open the Customer Service Hub in the following ways:  
+The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in the following ways:  
 
 > [!NOTE]
 >  These options are available only to users with the Customer Service app access role , System Administrator role, or System Customizer role. 
@@ -268,6 +268,11 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 ![similar-cases](media/similar-cases.png)
 
+ Watch this video to learn more about the Reference Panel in the Customer Service Hub:
+
+
+<div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/ruAPEKY5vNc?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
 > [!NOTE]
 > You can configure rules that help you view similar cases based on automatic suggestions. These rules can be created using either the Cognitive Services Text Analytics or a built-in similarities matching engine in Dynamics 365. For more information, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create-similar-record-suggestion-rules).
 
@@ -278,7 +283,7 @@ Similarly,
 - For **Knowledge articles** records, select an article and go to the **Summary** tab to view the **Related Information** panel. Here you can view Related versions, Related translations, Related categories, Related articles, and Related products for an article.
 
 > [!NOTE]
-> Your system administrator or customizer can choose if Related section should be included in a form or not. They can also decide on what related data should be displayed in the section for each form.
+> Your system administrator or customizer can choose if Related section should be included in a form. They can also decide on what related data should be displayed in the section for each form.
 
 #### Reference Panel reflow
 The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.

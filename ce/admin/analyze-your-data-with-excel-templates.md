@@ -295,7 +295,7 @@ manager: "brycho"
   
 4.  Select the personal document template to delete, and then click Delete (![Delete button](../admin/media/nb-ua-r1-trashbin.png "Delete button")).  
   
-### Excel template does not upload in Edge  
+### Excel template does not upload in Microsoft Edge  
  If your [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)] template does upload in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when using [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] as your browser, update [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)] and try again.  
   
 ## Privacy notice  
