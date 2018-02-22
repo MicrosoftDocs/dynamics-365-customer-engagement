@@ -96,6 +96,8 @@
     href: org-service/
   - name: Use Discovery services
     href: use-discovery-service.md
+  - name: API Limits
+    href: api-limits.md
 - name: Build Windows client applications using the XRM tools
   href: xrm-tooling/
 - name: Write mobile and modern apps

@@ -8,3 +8,4 @@
 ## [Design an advanced survey](design-advanced-survey.md)
 ## [Analyze survey data](analyze-survey-data.md)
 ## [Troubleshoot Voice of the Customer](troubleshoot.md)
+## [Voice of the Customer FAQ](voc-faq.md)
