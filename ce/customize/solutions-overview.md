@@ -53,6 +53,8 @@ manager: "brycho"
 -   Connection Role  
   
 -   Contract Template  
+ 
+-   Custom Control
   
 -   Dashboard  
   
@@ -85,6 +87,10 @@ manager: "brycho"
 -   Service Endpoint  
   
 -   Site Map  
+
+-   Virtual Entity Data Provider
+
+-   Virtual Entity Data Source
   
 -   Web Resource  
   
