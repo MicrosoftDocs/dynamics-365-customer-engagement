@@ -69,13 +69,13 @@ The following table shows what apps are built on the Unified Interface.
 
 |App|Description|Unified Interface|
 |---------|---------|---------|
-|Sales|Full-featured desktop-optimized app for sales scenarios | |
+|Sales|Full-featured desktop-optimized app for sales scenarios |coming soon |
 |Sales Hub|Mobile-optimized app for sales scenarios |X|
-|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)| |
+|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)| coming soon|
 |Customer Service Hub|Desktop (recommended for knowledge management only) and mobile-optimized app (recommended for case management)|X|
-|Field Service|Full-featured desktop-optimized app for field service scenarios| |
+|Field Service|Full-featured desktop-optimized app for field service scenarios|coming soon |
 |Field Resource Hub|Mobile-optimized app for field service scenarios |X|
-|Project Service Automation|Full-featured desktop-optimized app for project service scenarios | |
+|Project Service Automation|Full-featured desktop-optimized app for project service scenarios |coming soon |
 |Project Resource Hub|Mobile-optimized app for project service scenarios |X|
 |App for Outlook| Access Dynamics 365 in Outlook on the desktop, web, or phone|X|
 |Dynamics 365 for phones and tablets|Access Dynamics 365 on your mobile device|X|
