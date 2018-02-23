@@ -1,7 +1,7 @@
 ---
 title: "Use the Organization Insights solution to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 02/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
