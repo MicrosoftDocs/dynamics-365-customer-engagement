@@ -55,7 +55,7 @@ topic-status: Completed
   </ul>  
  </td>
 
-<td>
+<td><td>
  
 </tr>
 <tr>
