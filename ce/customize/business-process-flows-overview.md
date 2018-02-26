@@ -180,7 +180,6 @@ Several default views are available that you can view as a chart, such as the **
 
 Currently, you can’t create custom forms for entities based on a business process flow.
 
-
 ### See also  
  [Watch a short video (4:49) about business process flows](https://go.microsoft.com/fwlink/p/?linkid=842226)   
  [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
