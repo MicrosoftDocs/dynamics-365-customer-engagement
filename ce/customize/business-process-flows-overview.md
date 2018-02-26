@@ -162,7 +162,7 @@ With the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] up
 
 ### Use business process flow entity records with grids, views, charts, and dashboards
 
-With business processes flows available as an entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can now use advanced finds,[comment]: <> (What are finds? I ask because everywhere else in this section it says "grids, views, charts, etc.") views, charts, and dashboards sourced from business process flow data for a given entity, such as a lead or opportunity. System administrators and customizers can create custom business process flow grids, views, charts, and dashboards similar to those created with any other entity.
+With business processes flows available as an entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you can now use advanced finds, views, charts, and dashboards sourced from business process flow data for a given entity, such as a lead or opportunity. System administrators and customizers can create custom business process flow grids, views, charts, and dashboards similar to those created with any other entity.
 
 Business process flows, such as **Lead To Opportunity Sales Process**, appear as a customizable entity in Solution Explorer.
 
@@ -179,7 +179,6 @@ Several default views are available that you can view as a chart, such as the **
 ### Limitations of using business process flow entities
 
 Currently, you can’t create custom forms for entities based on a business process flow.
-
 
 ### See also  
  [Watch a short video (4:49) about business process flows](https://go.microsoft.com/fwlink/p/?linkid=842226)   
