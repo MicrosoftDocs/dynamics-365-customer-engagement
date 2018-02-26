@@ -34,7 +34,7 @@ topic-status: Completed
   <ul>
   <li>[Service Manager](service-manager-guide.md)</li>
   <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
-  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)</li> 
+  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365 - Blog](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)</li> 
   </ul>
   </td>
 </tr>
@@ -63,7 +63,7 @@ topic-status: Completed
   <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
 </ul>
 </td>
-<td>
+<td><h2></h2>
 <ul>
   <li>[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)</li>
   <li>[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)</li>
