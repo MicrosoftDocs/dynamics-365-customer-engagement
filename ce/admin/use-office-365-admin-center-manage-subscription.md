@@ -75,7 +75,7 @@ manager: "brycho"
 ## Request support  
  Having a problem with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? You can create a support request to get the issue resolved.  
   
-See [Contact Technical Support](contact-technical-support.md).
+More information: [Contact Technical Support](contact-technical-support.md)
 
 <a name="BKMK_ManageUsers"></a>   
 ## Manage users  
