@@ -18,8 +18,9 @@ topic-status: Completed
 
 <table>
 <tr>
-  <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></div>
- <td></td>
+   > [!VIDEO https://www.youtube.com/embed/fzaEa0SPWRo]
+
+<td></td>
 </tr>
 <tr>
 <td><h2>Get started</h2>
@@ -63,7 +64,8 @@ topic-status: Completed
   <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
 </ul>
 </td>
-<td><h2></h2>
+<td><h2></h2> 
+<h2></h2>
 <ul>
   <li>[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)</li>
   <li>[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)</li>
