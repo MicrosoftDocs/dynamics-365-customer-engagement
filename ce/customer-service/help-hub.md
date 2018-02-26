@@ -22,7 +22,6 @@ topic-status: Completed
  <td></td>
 </tr>
 <tr>
-
 <td><h2>Get started</h2>
   <ul>
   <li>[Explore Customer Service Hub and Customer Service](overview.md)</li>
@@ -37,15 +36,16 @@ topic-status: Completed
   <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
   <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)</li> 
   </ul>
- </td>
- 
+  </td>
+</tr>
+<tr> 
  <td><h2>Manage</h2>
    <ul>
    <li>[Create and manage cases](customer-service-hub-user-guide-case-sla.md)</li>
   <li>[Work with dashboards](customer-service-hub-user-guide-dashboard.md)</li>
   <li>[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)</li>
   </ul>
- </td>
+  </td>
 
  <td><h2>User Guide</h2>
    <ul>
@@ -53,13 +53,12 @@ topic-status: Completed
    <li>[Customer Service](user-guide-customer-service.md)</li>
   <li>[Dynamics 365 for mobile devices](use-customer-service-hub-on-dynamics-365-mobile.md)</li>
   </ul>  
- </td>
-</table>
+  </td>
+</tr>
 
-
- </tr>
- <tr>
- <td><h2>Videos</h2>
+<tr>
+<td></td>
+  <td><h2>Videos</h2>
   <ul>
   <li>[Meet the Customer Service Hub in Dynamics 365](https://www.youtube.com/watch?v=OEn_FN5azq0)]</li>
   <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
@@ -68,5 +67,11 @@ topic-status: Completed
   </ul>  
  </td>
  </tr>
+
+</table>
+
+
+
+ 
 
 
