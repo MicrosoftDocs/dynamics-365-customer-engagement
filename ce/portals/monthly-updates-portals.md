@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: ""
-ms.date: 02/21/2018
+ms.date: 02/27/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -23,9 +23,9 @@ Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dyn
 ## Portal capabilities version 8.4.0.275 for Dynamics 365
 
 Portal capabilities version 8.4.0.275 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in bunch of bug fixes, as well as performance improvements, along with the following features:
-- **Access portal error logs**: As a portal developer, you can now access detailed error logs for any issues on your portal. This helps you to debug the issues while developing the portal. Once your portal is live, you can configure the portal to send all application errors to an Azure Blob storage account owned by you. This will help you to debug the issues reported by your customers.
-- **Renew portal authentication key**: A portal connects to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization using Azure active directory application. To do this, it requires an authentication key connected to Azure Active Directory application. This key is added when you provision your portal and it must be renewed every two years. This version of portal brings in the capability for administrators to be notified about key expiration and renew this key from Portal Admin Center.
-- **Implement General Data Protection Regulation in portals**: As a portal administrator, you can now configure your portal to meet the GDPR standards. You can also provide certain terms and conditions that must be agreed by the portal users to use a portal. You can also setup checks such as, if a portal is accessed by a minor user, the user must have parental consent to access the portal. Implementing GDPR allows obtaining consent from portal users regarding use of their personal data, identifying minor users, and obtaining parental consent for minor users.
+- **Access portal error logs**: As a portal developer, you can now access detailed error logs for any issues on your portal. This helps you to debug the issues while developing the portal. Once your portal is live, you can configure the portal to send all application errors to an Azure Blob storage account owned by you. This will help you to debug the issues reported by your customers. [More information:] (view-portal-error-log.md)
+- **Renew portal authentication key**: A portal connects to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization using Azure active directory application. To do this, it requires an authentication key connected to Azure Active Directory application. This key is added when you provision your portal and it must be renewed every two years. This version of portal brings in the capability for administrators to be notified about key expiration and renew this key from Portal Admin Center. [More information:] (connect-with-dynamics.md)
+- **Implement General Data Protection Regulation in portals**: As a portal administrator, you can now configure your portal to meet the GDPR standards. You can also provide certain terms and conditions that must be agreed by the portal users to use a portal. You can also setup checks such as, if a portal is accessed by a minor user, the user must have parental consent to access the portal. Implementing GDPR allows obtaining consent from portal users regarding use of their personal data, identifying minor users, and obtaining parental consent for minor users. [More information:] (implement-gdpr.md)
 
 ## Portal capabilities version 8.3 for Dynamics 365
 
@@ -35,7 +35,7 @@ Portal capabilities version 8.3 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dy
   > [!Note]
   > Search for attachments can only be performed on the note's description and file attachment name. The content of the attached file is not searchable.
   
-- **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and makes a subset of it available to your portal customers, based on the security and permission model you choose. 
+- **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and makes a subset of it available to your portal customers, based on the security and permission model you choose.
 - **Portal interaction tracking (preview)**: Use this preview feature to track a customer's interaction with your portal and funnel it to [!include[](../includes/pn-customerinsight-full.md)]. This will be helpful for plotting a 360-degree view of the user’s journey on your portal before and after a case is created. This also helps you to understand the real issue, avoid asking the user for the same information over again, and enable you to respond with relevant information.
 - **Import metadata translation**: Use this feature to import the metadata translation of newly activated languages after you install a portal.
 - **Source code availability for portals**: A one-time release of portal capabilities code is released to the Microsoft Download Center under MIT license for developers to download. This feature enables portals to be deployed to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on-premises or online environments, and allows developers to customize the code to suit their specific business needs.
