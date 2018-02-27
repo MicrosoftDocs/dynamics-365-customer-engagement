@@ -186,7 +186,7 @@ Check back later for updates on supported platforms.
 |Outlook on the web (OWA)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Mobile Outlook app<sup>4</sup>|O||||
 
-(O)nline: Dynamics 365 online, Exchange online
+(O)nline: Dynamics 365 online, Exchange online <br />
 (M)ixed: Dynamics 365 online, Exchange Server 2013/2016
 
 Note: Dynamics 365 Version 9 is not available on-premises.
