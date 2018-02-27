@@ -27,6 +27,7 @@
 ## [User Guide](user-guide.md)
 
 ### [Learn the basics](get-started-section.md)
+#### [Browser and system requirements](browser-requirements.md)
 #### [Find your way around](navigation.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)

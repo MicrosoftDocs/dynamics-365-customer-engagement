@@ -24,6 +24,7 @@ topic-status: Drafting
 
 <h2>Learn the basics</h2>
 <li>[Dynamics 365 for Marketing overview](overview.md)</li>
+<li>[Browser and system requirements](browser-requirements.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
