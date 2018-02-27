@@ -58,6 +58,8 @@ To create a user:
 > [!NOTE]
 > If there's a single license type for your organization, a license will be automatically assigned to the user. If there are no licenses left, the user will be created but no license will be assigned.
 
+<a name="assign-role"></a>
+
 ## Assign a security role to a user
 
 Security roles control a user's access to data through a set of access levels and privileges. The combination of access levels and privileges that are included in a specific security role sets limits on the user's view of data and on what actions the user can perform with that data.
