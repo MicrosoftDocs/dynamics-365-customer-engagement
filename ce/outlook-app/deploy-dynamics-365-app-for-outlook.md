@@ -179,7 +179,7 @@ Check back later for updates on supported platforms.
 
 ||||||
 |-|-|-|-|-|
-| |Received email<br />(view information and track)|Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales articles|Appointments and meetings <br />(view information and track|Contacts<br />(view information and track)|
+| |Received email<br />(view information and track)|Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales literature|Appointments and meetings <br />(view information and track|Contacts<br />(view information and track)|
 |Outlook 2016 (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> |O<sup>3</sup>  and M<sup>2</sup> |
 |Outlook 2013 (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Outlook for Mac (desktop client)|O and M||||
