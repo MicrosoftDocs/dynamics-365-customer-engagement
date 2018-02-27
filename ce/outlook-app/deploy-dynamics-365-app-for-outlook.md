@@ -177,7 +177,9 @@ Check back later for updates on supported platforms.
 
 ### Feature support per client
 
-||Received email<br />(view information and track)|Compose email<br />(view information, track, and add templates, knowledge base articles, and sales articles|Appointments and meetings <br />(view information and track|Contacts<br />(view information and track)|
+||||||
+|-|-|-|-|-|
+| |Received email<br />(view information and track)|Compose email<br />(view information, track, and add templates, knowledge base articles, and sales articles|Appointments and meetings <br />(view information and track|Contacts<br />(view information and track)|
 |Outlook 2016 (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> |O<sup>3</sup>  and M<sup>2</sup> |
 |Outlook 2013 (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Outlook for Mac (desktop client)|O and M||||
@@ -187,7 +189,7 @@ Check back later for updates on supported platforms.
 (O)nline: Dynamics 365 online, Exchange online
 (M)ixed: Dynamics 365 online, Exchange Server 2013/2016
 
-Note: Dynamics 365 version 9 is not available on-premises.
+Note: Dynamics 365 Version 9 is not available on-premises.
 
 (1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or Exchange Server 2016.
 (2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 or later.
