@@ -1,7 +1,7 @@
 ---
-title: "Avoid usage of window.top | MicrosoftDocs"
-description: "Avoid usage of window.top"
-ms.date: 11/30/2017
+title: "Avoid using window.top | MicrosoftDocs"
+description: "Describes how to avoid script errors and incorrect application behavior associated with using window.top in JavaScript customizations within Dynamics 365 Customer engagement applications."
+ms.date: 02/05/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -11,11 +11,11 @@ author: "mhuguet"
 ms.author: "michu"
 manager: "austinj"
 ---
-# Avoid usage of window.top
+# Avoid using window.top
 
 **Applies to**: [!include[](../../includes/pn-crm-9-0-0-online.md)]
 
-**Category**: Supportability, upgrade readiness, online migration
+**Category**: Supportability, Upgrade Readiness, Online Migration
 
 **Impact potential**: High
 
@@ -40,7 +40,7 @@ Avoid using `window.top` in scripts running within the context of [!include[](..
 
 The following are the recommended approaches:
 
-- Avoid usage of the window.top object altogether.
+- Avoid usage of the `window.top` object altogether.
 
 - If using `window.top` is the only available option, first test to determine whether `window.top` is accessible by using the script below. If it's not available, provide alternate logic or a fallback user experience.
 
@@ -69,6 +69,9 @@ The following are the recommended approaches:
 
 Any usage of `window.top` should be avoided, if possible. The following are examples of commonly seen patterns.
 
+> [!WARNING]
+> These scenarios should be avoided.
+
 ```javascript
 // Getting or setting variables at the top level
 var myValue = window.top.myGlobalVariable;
@@ -82,3 +85,8 @@ myValue = window.top.Xrm.Page.getAttribute("field1");
 ## Additional information
 
 In the scenarios mentioned, `window.top` refers to the window owned by an application context external to [!include[](../../includes/pn-dynamics-crm.md)]. Due to the differing origins, the browser presents the user with a cross-origin security error.
+
+### See also
+[Client scripting in Customer Engagement using JavaScript](../../developer/clientapi/client-scripting.md) <br />
+[Events in forms and grids in Customer Engagement](../../developer/clientapi/events-forms-grids.md)<br />
+[Best practices: Client scripting in Customer Engagement](../../developer/clientapi/client-scripting-best-practices.md)<br />
