@@ -181,7 +181,7 @@ Check back later for updates on supported platforms.
 |-|-|-|-|-|
 | |Received email<br />(view information and track)|Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales literature|Appointments and meetings <br />(view information and track|Contacts<br />(view information and track)|
 |[!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> |O<sup>3</sup>  and M<sup>2</sup> |
-|[!INCLUDE [pn-outlook-2013-short](../includes/pn-outlook-2013-short.md)]  (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
+|[!INCLUDE [pn-ms-outlook-2013-short](../includes/pn-ms-outlook-2013-short.md)]  (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Outlook for Mac (desktop client)|O and M||||
 |[!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Mobile Outlook app<sup>4</sup>|O||||
