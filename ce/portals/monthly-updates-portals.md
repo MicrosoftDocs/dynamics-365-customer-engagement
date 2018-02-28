@@ -47,7 +47,7 @@ Portal capabilities version 8.3 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dy
   - Support Azure AD B2C for customer authentication.
   - Manage your portal security in Azure.
 
-More information: [Azure AD B2C provider settings for portals](azure-ad-b2c.md)
+  More information: [Azure AD B2C provider settings for portals](azure-ad-b2c.md)
 - **Support time zone&ndash;independent date formats in portals forms**: This feature adds support for **Date Only** and **Timezone Independent** behaviors for date/time fields. More information: [Behavior and format of the date and time field](behavior-format-date-time-field.md)
 - **Allowing non-global administrators to provision a portal**: You can now provision a portal if you are assigned to the System Administrator role of the CRM organization selected for the portal. You can now also manage an existing portal, if you have any of the following roles:
   - [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Service Administrator
