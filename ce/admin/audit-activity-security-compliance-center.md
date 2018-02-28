@@ -37,10 +37,7 @@ Consider the following scenarios you, as the admin, will likely encounter and th
 
 |Scenario |  |Feature  |
 |---------|---------|---------|
-|Must be able to record and analyze unauthorized data access   |         | Must be able to clearly identify all the creates and read actions done by the user        |
-|Must be able to record and analyze alteration of data     |         |Must be able to clearly identify all the update actions done by the user         |
-|Must be able to record and analyze accidental or unlawful destruction of data     |         |Must be able to clearly identify any accidental delete action done by the admin         |
-|     |         |Must be able to clearly identify the request origin          |
+|Must be able to record and analyze unauthorized data access<br />Must be able to record and analyze alteration of data<br />Must be able to record and analyze accidental or unlawful destruction of data     |         | Must be able to clearly identify all the creates and read actions done by the user<br />Must be able to clearly identify all the update actions done by the user<br />Must be able to clearly identify any accidental delete action done by the admin<br />Must be able to clearly identify the request origin            |
 
 
 ## Activity across Office and Dynamics
