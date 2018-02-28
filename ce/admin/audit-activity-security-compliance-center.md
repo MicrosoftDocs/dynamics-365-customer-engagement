@@ -25,18 +25,23 @@ manager: "brycho"
 -  dpia
 -  uses Azure Auditing <req 1>
 
+No doubt, of highest priority to your business is protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx). This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review activity reports.  
+
+
+
+
+
 ## Scenarios to features
-<scenarios translated into features>
-<make this a table>
--  As a Dynamics admin, I must be able to record and analyze unauthorized data access.
--  As a Dynamics admin, I must be able to record and analyze alteration of data.
--  ​As a Dynamics admin, I must be able to record and analyze accidental or unlawful destruction of data.
 
+Consider the following scenarios you, as the admin, will likely encounter and the features needed to address them.
 
--  Must be able to clearly identify all the creates & read actions done by the user
--  Must be able to clearly identify all the update actions done by the user
--  Must be able to clearly identify any accidental delete action done by the admin
--  Must be able to clearly identify the request origin 
+|Scenario |  |Feature  |
+|---------|---------|---------|
+|Must be able to record and analyze unauthorized data access   |         | Must be able to clearly identify all the creates and read actions done by the user        |
+|Must be able to record and analyze alteration of data     |         |Must be able to clearly identify all the update actions done by the user         |
+|Must be able to record and analyze accidental or unlawful destruction of data     |         |Must be able to clearly identify any accidental delete action done by the admin         |
+|     |         |Must be able to clearly identify the request origin          |
+
 
 ## Activity across Office and Dynamics
 
