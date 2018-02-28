@@ -180,16 +180,16 @@ Check back later for updates on supported platforms.
 ||||||
 |-|-|-|-|-|
 | |Received email<br />(view information and track)|Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales literature|Appointments and meetings <br />(view information and track|Contacts<br />(view information and track)|
-|Outlook 2016 (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> |O<sup>3</sup>  and M<sup>2</sup> |
-|Outlook 2013 (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
+|[!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> |O<sup>3</sup>  and M<sup>2</sup> |
+|[!INCLUDE [pn-outlook-2013-short](../includes/pn-outlook-2013-short.md)]  (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Outlook for Mac (desktop client)|O and M||||
-|Outlook on the web (OWA)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
+|[!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Mobile Outlook app<sup>4</sup>|O||||
 
-(O)nline: Dynamics 365 online, Exchange online <br />
-(M)ixed: Dynamics 365 online, Exchange Server 2013/2016
+(O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] <br />
+(M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
 
-Note: Dynamics 365 Version 9 is not available on-premises.
+Note: Dynamics 365, version 9 is not available on-premises.
 
 (1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or Exchange Server 2016. <br />
 (2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 or later. <br />
