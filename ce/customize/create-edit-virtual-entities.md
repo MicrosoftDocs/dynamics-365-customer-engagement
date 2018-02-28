@@ -120,11 +120,15 @@ You create fields for a Data Source in the same way as any other entity. For dat
 -   All virtual entitites are read-only.  
 
 -   Existing entities cannot be converted to virtual entities.  
-  
+
+-   By default, virtual entities contain only a Name and Id field.  No other system managed fields, such as Status or Created On/Modified On are supported.
+
+-   Virtual entities don't support custom fields with the Currency, Image, or Customer data types.
+  
 -   Virtual entities don't support auditing.  
-   
--   Virtual entity fields can't be used in rollups or calculated fields.  
-  
+
+-   Virtual entity fields can't be used in rollups or calculated fields.
+  
 -   A virtual entity can't be an activity type of entity.  
   
 -   Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 web portal solutions, and N:N relationships between virtual entities.  
