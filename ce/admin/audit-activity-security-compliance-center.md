@@ -19,9 +19,6 @@ manager: "brycho"
 ---
 # Enable Security Compliance Center auditing
 
-<intro slide 3-5, slide 44-45>
--  mention Azure Auditing? <req 1>
-
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches.  
 
 A user can have many interactions with various Office and Dynamics applications. You need to capture all these actions to sort through and find the relevant data.
@@ -41,19 +38,34 @@ Consider the following scenarios you, the admin, will likely encounter and the f
 We'll show you how to set up the features needed to capture and review the data in these scenarios.
 
 ## What events are audited
-<intro>
-
+The following are the admin and user events you can audit.
 
 ### Admin-related events
-<table - slide 9>
-### User-related events
-<table - slide 10>
 
-## What an audit log looks like
-<slide 12>
+|Event  |Description  |
+|---------|---------|
+|Publishing customizations  |An admin publishes a new customization which overrides a change done by the previous one. The action requires auditing for analysis.    |
+|Attribute deletes     |Admin accidentally deletes an attribute. This action also deletes the data. |
+|Team, user management     |Who was added, who was deleted, what access rights a user/team had is important for analyzing impact.|
+|Configure instance     |Adding solutions to an instance.|
+|Backup and restore     |Backup and restore actions at the tenant.|
+|Manage applications     |New instance added, existing instance deleted, trials converted to paid, etc.|
+
+### User and support-related events
+
+|Event  |Description  |
+|---------|---------|
+|Create, read, update, delete (CRUD)     |Logging all CRUD activities essential for understanding the impact of a problem and being compliant with data protection impact assessments (DPIA). |
+|Multiple record view     |Users of Dynamics view information in bulk, like grid views, reports etc. Critical customer content information is part of these views.|
+|Export to Excel     |Exporting data to Excel moves the data outside of the secure environment and is vulnerable to threats.|
+|SDK calls via surround or custom apps     |Actions taken via the core platform or surround apps calling into the SDK to perform an action needs to be logged.|
+|All support CRUD activities     |Microsoft support engineer activities on customer environment.|
+|Admin activities     |Admin activities on customer tenant.|
+|Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
 
 ## Enable auditing in Dynamics 365
 <slide 17-18, req 5-9>
+
 
 ## Set up auditing in Office 365
 <on by default>
@@ -67,6 +79,7 @@ We'll show you how to set up the features needed to capture and review the data 
 ## Note the following
 - data goes back 90 days?
 - further back? use SIEM tool?
+- mention Azure Auditing? <req 1>
 
 ### See also
  [Audit data and user activity for security and compliance](audit-data-user-activity.md)
