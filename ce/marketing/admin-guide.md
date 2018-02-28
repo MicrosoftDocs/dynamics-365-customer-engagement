@@ -56,7 +56,7 @@ topic-status: Drafting
 <li>[Configure marketing pages](marketing-settings.md#configure-marketing-pages)</li>
 <li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
 <li>[Choose entities for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
-<li>[Set up events and webinars](events-settings.md)</li>
+<li>[Event management settings](events-settings.md)</li>
 <li>[Manage quotas](quota-management.md)</li>
 
 </td></tr>

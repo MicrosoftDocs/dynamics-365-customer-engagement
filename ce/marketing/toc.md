@@ -19,7 +19,7 @@
 ### [Business Management settings](business-management-settings.md)
 ### [Customize](customize.md)
 ### [Marketing settings](marketing-settings.md)
-### [Events settings](events-settings.md)
+### [Event management settings](events-settings.md)
 ### [Manage sample data](additional-settings.md)
 ### [Quota management](quota-management.md)
 

@@ -29,7 +29,7 @@ A *webinar* (short for "web seminar") is a live event that one or more people ca
 Before you can set up a webinar, the following must be in place:
 
 - Your organization must have an account with a webinar provider, and you must have sign-in credentials to access your organization's account with them.
-- [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] must be configured to use your organization's webinar account. Your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] administrator might already have done this for you. If you are the admin, see [Events settings](events-settings.md) for instructions.
+- [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] must be configured to use your organization's webinar account. Your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] administrator might already have done this for you. If you are the admin, see [Event management settings](events-settings.md) for instructions.
 
 During the webinar itself, you must set up a camera, microphone, projector, and other equipment as required to capture and broadcast the session through your webinar provider. Check with your webinar provider for information about how to do this, and always test the system end-to-end before your webinar begins.
 
@@ -43,7 +43,7 @@ To configure an event or session for broadcast as a webinar:
 
 1. Open the event's **Organize** tab, which now includes a **Webinar Set-up** section. Make the following settings:
 
-    - **Webinar Configuration**: Identify the webinar-configuration record you will use for this event or session. This configuration record establishes the webinar provider and account that you'll use to run the webinar. Select the magnifying glass icon for this field, and then select a configuration. Your admin must create a configuration entry for each webinar provider that your organization uses; typically, you'll just have one. Talk to your admin if you're not sure which to choose (if you are the admin, see [event settings](events-settings.md) for more information).
+    - **Webinar Configuration**: Identify the webinar-configuration record you will use for this event or session. This configuration record establishes the webinar provider and account that you'll use to run the webinar. Select the magnifying glass icon for this field, and then select a configuration. Your admin must create a configuration entry for each webinar provider that your organization uses; typically, you'll just have one. Talk to your admin if you're not sure which to choose (if you are the admin, see [Event management settings](events-settings.md) for more information).
     - **Webinar Type**: Choose the webinar type.
     - **Language**: Choose the language the webinar will be presented in.
     - **Producer**: Choose the event team member that is responsible for managing the webinar during the event here. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up your event team](set-up-event.md#set-up-your-event-team)
@@ -57,4 +57,4 @@ Attendees who register for the webinar by using a valid email address will recei
 
 ### See also
 
-[Events settings](events-settings.md)
+[Event management settings](events-settings.md)

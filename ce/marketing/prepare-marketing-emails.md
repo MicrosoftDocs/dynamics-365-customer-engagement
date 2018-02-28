@@ -269,7 +269,7 @@ The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-micros
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
 
 > [!NOTE]
-> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use marketing configurations to enable Litmus previews](marketing-settings.md#marketing-configuration)
+> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable Litmus inbox previews](marketing-settings.md#marketing-configuration)
 
 ## Required elements: How to pass the error check
 

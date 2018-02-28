@@ -30,7 +30,7 @@ topic-status: Drafting
 <li>[Organization settings](organization-settings.md)</li>
 <li>[Business Management settings](business-management-settings.md)</li>
 <li>[Marketing settings](marketing-settings.md)</li>
-<li>[Events settings](events-settings.md)</li>
+<li>[Event management settings](events-settings.md)</li>
 <li>[Additional settings](additional-settings.md)</li>
 <li>[Manage your quotas](quota-management.md)</li>
 <li>[Customize Dynamics 365 for Marketing](customize.md)</li>

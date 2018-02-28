@@ -113,7 +113,7 @@ restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
     -   If you want to see a true inbox preview for your emails, you must enable
         Litmus preview via **Advanced Settings**. Please refer to the
         [Administrator
-        Guide](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings#use-marketing-configurations-to-enable-litmus-previews)
+        Guide](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/marketing-settings#marketing-configuration)
         for details.
 
     -   Reusing the same email multiple times (within the same journey or in

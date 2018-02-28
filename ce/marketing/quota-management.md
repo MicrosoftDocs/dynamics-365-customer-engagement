@@ -16,15 +16,23 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Quota limits
+# Other settings
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
+Pages under the **Other settings** heading provide access a few miscellaneous settings that don't fall under any other category.
+
+## Quota limits
+
 [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] is a subscription service that is billed monthly and sets organization-level quotas for the maximum number of contact records, Litmus previews, and monthly marketing email messages you can send. Other quotas may also apply. You can always upgrade your subscription if you need higher quotas. The **Quota Management** page shows the total quota levels you have purchased and how much of each quota your organization has already used.
 
-To find this information, go to **Settings** >**Advanced Settings** > **Others** > **Quota Limits**.
+To find this information, go to **Settings** >**Advanced Settings** > **Others** > **Quota Limits**. The following quotas are tracked here:
+
+- **Email**: Shows the total number of email messages you can still send this month, and the total number you have sent.
+- **Litmus**: Shows the total number of Litmus email previews (inbox previews) to can still request this month, and the total number you have used. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
+- **Contact**: Shows the total number of contacts that you can use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] at your current subscription level, and how many you have used. The number of used contacts (and your allocation) includes all contacts on all [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organizations where you have installed [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
 > [!Note]
 > To read more about the specific quotas and other limits that apply, download the [Usage Restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735) document for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
