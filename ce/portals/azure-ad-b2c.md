@@ -2,7 +2,7 @@
 title: "Azure AD B2C provider settings for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable Azure AD B2C provider settings for portals."
 ms.custom: ""
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,7 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 
-# [!include[Azure](../includes/pn-azure-shortest.md)] AD B2C provider settings for portals
+# Azure AD B2C provider settings for portals
 
 [!include[Azure](../includes/pn-azure-shortest.md)] Active Directory (Azure AD) powers Office 365 and [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] services for employee or internal authentication. [!include[Azure](../includes/pn-azure-shortest.md)] Active Directory B2C is an extension to that authentication model that enables external customer sign-ins through local credentials and federation with various common social identity providers.
 
