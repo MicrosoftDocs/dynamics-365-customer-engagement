@@ -20,18 +20,15 @@ manager: "brycho"
 # Enable Security Compliance Center auditing
 
 <intro slide 3-5, slide 44-45>
--  companies are required to audit data
--  gdpr
--  dpia
--  uses Azure Auditing <req 1>
+-  mention Azure Auditing? <req 1>
 
-No doubt, of highest priority to your business is protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx). This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review activity reports.  
+No doubt, of highest priority to your business is protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx). It's critical that you get that you audit the entirety of actions taking place with your data to be able to analyze for security incidences.  
 
 A typical user will have many interactions with various Office and Dynamics applications. You need to capture all these actions to sort through and find the relevant data.
 
 ![Activities across apps](media/activities-across-apps.png "Activities across apps")
 
-Gopi who is an employee of Contoso performs multiple activities across different Microsoft services to get his daily job done.
+This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review activity reports.
 
 ## Scenarios to features
 
