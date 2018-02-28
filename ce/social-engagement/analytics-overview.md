@@ -33,13 +33,9 @@ To add a filter for multiple authors at once, select the check boxes on the left
 > Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
 
-Static widget.
-
 ## Languages
 
 Lists the five most-found languages based on the volume of posts and their trend indicator.
-
-Static widget.
 
 ## Location insights
 
@@ -51,8 +47,6 @@ Dynamic widget. Shows only if posts with location information are available in t
 
 Lists often mentioned phrases, based on the posts of your current data set. The larger a phrase shows, the more posts contain this phrase.
 
-Static widget.
-
 ## Post types
 
 Shows the volume of posts and comments on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages, separated by page and by authors.
@@ -62,8 +56,6 @@ Dynamic widget. Shows only if the data set contains at least one search topic wi
 ## Search topics
 
 Shows the top five categories (if you include all search topics in your data set) or search topics (if you include a category in your data set), based on their volume and their trend indicator.
-
-Static widget.
 
 ## Sentiment
 
@@ -87,8 +79,6 @@ Click the **Full view** button ![Full view button](media/open-full-view-icon.png
 ## Volume
 
 Shows the total volume(number) of posts and the average number of posts for the selected data set over time.
-
-Static widget.
   
 ### See Also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
