@@ -51,7 +51,7 @@ The following are the admin and user events you can audit.
 |Backup and restore     |Backup and restore actions at the tenant.|
 |Manage applications     |New instance added, existing instance deleted, trials converted to paid, etc.|
 
-### User and support-related events
+### User and support-related events 
 
 |Event  |Description  |
 |---------|---------|
