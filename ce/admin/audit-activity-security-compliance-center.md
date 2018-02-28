@@ -82,4 +82,5 @@ The following are the admin and user events you can audit.
 - mention Azure Auditing? <req 1>
 
 ### See also
- [Audit data and user activity for security and compliance](audit-data-user-activity.md)
+ [Audit data and user activity for security and compliance](audit-data-user-activity.md)<br />
+ [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/article/search-the-audit-log-in-the-office-365-security-compliance-center-0d4d0f35-390b-4518-800e-0c7ec95e946c)
