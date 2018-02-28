@@ -2,7 +2,7 @@
 title: "Analytics for sentiment in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on sentiments and tonality in Social Engagement."
 keywords: "sentiment, natural language processing, tonality, analytics, sentiment analysis"
-ms.date: 10/17/2017
+ms.date: 02/28/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -39,7 +39,7 @@ You can calculate the sentiment index with the following formula:
   
 `Sentiment index = (Positive posts – Negative posts)/(Positive posts + Negative posts) * 10`  
   
-You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](analyze-social-data-using-widgets.md#trend)  
+You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](analyze-social-data-using-widgets.md)  
   
 ## Static widgets on the Sentiments page  
   
