@@ -39,7 +39,7 @@ Lists the five most-found languages based on the volume of posts and their trend
 
 ## Location insights
 
-Visualizes the posts with location information on a map to find out where the posts are coming from.
+Visualizes the posts with location information on a map to find out where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
 
 Dynamic widget. Shows only if posts with location information are available in the selected data set.
 
