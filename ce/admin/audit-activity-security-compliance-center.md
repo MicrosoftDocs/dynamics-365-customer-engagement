@@ -36,7 +36,7 @@ Consider the following scenarios you, as the admin, will likely encounter and th
 
 |Scenario |  |Feature  |
 |---------|---------|---------|
-|<ul><li>Must be able to record and analyze unauthorized data access</li><br /><li>Must be able to record and analyze alteration of data</li><br /><li>Must be able to record and analyze accidental or unlawful destruction of data</li>     |         |<li>Must be able to clearly identify all the creates and read actions done by the user</li><br /><li>Must be able to clearly identify all the update actions done by the user</li><br /><li>Must be able to clearly identify any accidental delete action done by the admin</li><br /><li>Must be able to clearly identify the request origin</li></ul> |
+|Must be able to:<br /><ul><li>Record and analyze unauthorized data access</li><br /><li>Record and analyze alteration of data</li><br /><li>Record and analyze accidental or unlawful destruction of data</li>     |         |Must be able to:<br /><li>Clearly identify all the creates and read actions done by the user</li><br /><li>Clearly identify all the update actions done by the user</li><br /><li>Clearly identify any accidental delete action done by the admin</li><br /><li>Clearly identify the request origin</li></ul> |
 
 ## What events are audited
 <intro>
