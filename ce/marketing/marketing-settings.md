@@ -82,6 +82,8 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 - **Page language**: Sets the default language to use in the portal.
 - **Container page**: Sets the container page used for marketing pages.
 
+<a name="dci-sync"></a>
+
 ## Choose entities to sync with Customer Insights
 
 [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] is an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]-based service that provides analytical tools for working with customer records. It helps you to better understand your customers, and enables you to set up subscription lists and target segments for use in email-marketing campaigns.
@@ -148,7 +150,7 @@ Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data p
 
 ## Enable Litmus inbox previews
 
-The inbox preview feature provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. To use the feature, you must enable it for your site. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the advanced inbox preview feature](prepare-marketing-emails.md#inbox-preview)
+The  [inbox preview feature](prepare-marketing-emails.md#inbox-preview) provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. To use the feature, you must enable it for your site as described in this section.
 
 In a future version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], we expect to provide settings to enable Litmus previews somewhere under **Settings** > **Advanced Settings** > **Marketing settings**, but for the current version you must use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app to enable the feature.
 
@@ -159,7 +161,8 @@ To enable Litmus previews:
 
 1. The custom app opens. Select the **Advanced find** button ![The Advanced find button](media/advanced-find-button.png "The Advanced find button") in the navigation bar at the top of the page.
 
-1. The **Advanced find** window opens. Open the **Look for** drop-down list and select **Marketing configurations**. Then select the **Results** button.       ![The advanced find window](media/find-marketing-configurations.png "The advanced find window")
+1. The **Advanced find** window opens. Open the **Look for** drop-down list and select **Marketing configurations**. Then select the **Results** button.  
+    ![The advanced find window](media/find-marketing-configurations.png "The advanced find window")
 
 1. The **Advanced find** window updates to show your marketing configurations. There should be just one, called **Default Marketing Configuration**. Select it from the list.
 
