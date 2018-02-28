@@ -86,7 +86,7 @@ The exported data included the following values:
 
 5. Go to **Analytics > Overview**. In the **Authors** widget, select the **View author details** ![View author details symbol](media/author-details-icon.png "View author details symbol") symbol.
 
-6. In the author details view, select the **Export personal data for this author** ![Export symbol](media/export-data-icon.png "Export symbol") symbol and confirm your deletion.    
+6. In the author details view, select the **Export personal data for this author** ![Export symbol](media/export-data-icon.png "Export symbol") symbol and download the [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file.    
 ![Control to export personal data for this author](media/export-author-details.png "Control to export personal data for this author")  
 
 ## Stop processing specific authors
