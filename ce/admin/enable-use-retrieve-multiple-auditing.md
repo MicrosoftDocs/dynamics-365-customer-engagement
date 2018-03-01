@@ -1,5 +1,5 @@
 ---
-title: "Enable Security Compliance Center auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Enable and use retrieve multiple auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
 ms.date: 03/01/2018
@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Enable Security Compliance Center auditing
+# Enable and use retrieve multiple auditing
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches.  
 
@@ -27,9 +27,17 @@ A user can have many interactions with various Office and Dynamics applications.
 
 This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit a broad range of data processing activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review the data in activity reports.
 
+## How this differs from past audit logging
+Audit logging as described in [Audit data and user activity for security and compliance](audit-data-user-activity.md) covers enabling and viewing logging for specific entities and attributes which you select. What is logged is largely based on the context of the activity. Open a record and activities such as who created the record, what values were entered and changed, who updated it, etc, are logged for that particular record.
+
+The content below describes a process to enable logging and reviewing multiple activities across multiple apps- a much broader audit.
+
+After configuring auditing as described below, when a user opens a view in Dynamics 365, all the records in that view are logged as seen by the user not just the record they opened. In addition, activities in other Office products such as Exchange or Excel are logged to give a broad picture of user actions.
+
+
 ## Scenarios to features
 
-Consider the following scenarios you, the admin, will likely encounter and the features needed to address them.
+Consider the following scenarios an admin will likely encounter and the features needed to address them.
 
 |Scenario |  |Feature  |
 |---------|---------|---------|
@@ -73,13 +81,14 @@ The following are the admin and user events you can audit.
 3. Under **Enable Auditing in the following areas**, enable the check boxes for the areas you want to audit and then choose **OK**.
    ![System Settings Auditing](media/system-settings-auditing.png "System Settings Auditing")
 4. Go to **Settings** > **Customizations** > **Customize the System**
-5. Select an entity to audit, such as **Account**.
+5. Under **Components**, expand **Entities** and select an entity to audit, such as **Account**.
 6. Scroll down and under **Data Services** enable **Auditing**.
 7. Under **Auditing**, enable the following check boxes:
    - **Retrieve Record Auditing**
    - **Retrieve Multiple Auditing**
 8. Choose **Save**.
-9. Repeat steps 5 - 8 for other entities you want to audit.
+9. Choose **Publish** to publish the customization.
+10. Repeat steps 5 - 9 for other entities you want to audit.
    ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
 
 Next, you need to make sure audit logging is turned on in Office 365. See [Turn Office 365 audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
