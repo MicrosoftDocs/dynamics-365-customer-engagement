@@ -71,8 +71,8 @@ The following are the admin and user events you can audit.
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
 
 ## Enable auditing in Dynamics 365
-<slide 17-18, req 5-9>
-1. In Dynamics 365 (online), choose Settings > Administration > System Settings > Auditing tab.
+
+1. In Dynamics 365 (online), choose **Settings** > **Administration** > **System Settings** > **Auditing tab**.
 2. Under **Audit Settings**, enable the following check boxes:
    - **Start Auditing**
    - **Audit user access**
@@ -93,14 +93,14 @@ The following are the admin and user events you can audit.
 Next, you need to make sure audit logging is turned on in Office 365. See [Turn Office 365 audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 ## Review your audit data using reports in Office 365 Security and Compliance Center
-<req 56>
+
 You can review your audit data in the Office 365 Security and Compliance Center. See [Search the audit log for user and admin activity in Office 365](https://support.office.com/article/search-the-audit-log-for-user-and-admin-activity-in-office-365-57ca5138-0ae0-4d34-bd40-240441ef2fb6).
 
 To use the preconfigured Dynamics 365 reports, go to https://protection.office.com > **Search & investigation** > **Audit log search** and select the **Dynamics 365 activities** tab.
 
 ![Dynamics 365 audit log reports](media/D365-audit-log-reports.png "Dynamics 365 audit log reports")
 
-The following are the Dynamics 365 preconfigured reports:
+The following are the preconfigured Dynamics 365 reports:
 
 |  |  |   |
 |---------|---------|---------|
