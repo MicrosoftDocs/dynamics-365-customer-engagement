@@ -85,7 +85,9 @@ Do the following:
 
 1. Type the full physical street address for your organization in the field provided.
 
-1. Select **Setup** to start setting up the app. A page opens that tracks the setup progress, which typically takes about half an hour.
+1. Select **Setup** to start setting up the app. 
+
+A page now opens that tracks the setup progress, which typically takes about half an hour.
 
 
 
