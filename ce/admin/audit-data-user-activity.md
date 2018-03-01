@@ -23,7 +23,7 @@ manager: "brycho"
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
   
 > [!NOTE]
-> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at broader, entity level with multiple records, consider using auditing with the Office 365 Security and Compliance Center. See [Enable Security Compliance Center auditing](enable-use-comprehensive-auditing.md).
+> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using auditing with the Office 365. See [Enable and use comprehensive auditing](enable-use-comprehensive-auditing.md).
 
  The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Administrator answer questions such as:  
   
