@@ -85,9 +85,7 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 
 ## Authorization fails due to unmanaged organization state
 
-In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an _unmanaged_ state, which means, (among other things) that you can't get permission to install third-party solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see the following error message when you run the setup form for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
-
-![Unmanaged org error](media/setup-ts-unmanaged-aad.png "Unmanaged org error")
+In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an _unmanaged_ state, which means, (among other things) that you can't get permission to install third-party solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see and error message when you run the setup form for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
 To fix this, do one of the following:
 - If you are just setting up a preview or trial of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], then consider creating a new trial tenant and then set up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] preview there, as described earlier under [Get all prerequisites in place to set up a Marketing preview](#preview-prerequisites).
