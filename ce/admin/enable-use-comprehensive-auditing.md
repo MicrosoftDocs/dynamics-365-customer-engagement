@@ -100,6 +100,8 @@ To use the preconfigured Dynamics 365 reports, go to https://protection.office.c
 
 ![Dynamics 365 audit log reports](media/D365-audit-log-reports.png "Dynamics 365 audit log reports")
 
+![Audit log search results](media/audit-log-search-results.png "Audit log search results")
+
 The following are the preconfigured Dynamics 365 reports:
 
 |  |  |   |
