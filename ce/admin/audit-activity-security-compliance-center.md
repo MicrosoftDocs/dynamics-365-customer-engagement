@@ -86,6 +86,18 @@ The following are the admin and user events you can audit.
 <req 56>
 You can review your audit data in the Office 365 Security and Compliance Center. See [Search the audit log](https://support.office.com/article/search-the-audit-log-for-user-and-admin-activity-in-office-365-57ca5138-0ae0-4d34-bd40-240441ef2fb6)
 
+To use the preconfigured Dynamics 365 reports, go to https://protection.office.com > Search & investigation > Audit log search and select the Dynamics 365 activities tab.
+![Dynamics 365 audit log reports](media/D365-audit-log-reports.png "Dynamics 365 audit log reports")
+
+The following are the D365 preconfigured reports:
+
+|  |  |   |
+|---------|---------|---------|
+|Accessed out-of-box entity     |Accessed custom entity |Accessed admin entity  |
+|Performed bulk actions (such as delete and import)  |Accessed other entity type   |Accessed Dynamics 365 admin center  |
+|Accessed internal management tool |Signed in or out  |Activated process or plug-in  |
+
+
 
 ## Create reports
 <See: https://support.office.com/en-us/article/search-the-audit-log-in-the-office-365-security-compliance-center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#run&PickTab=BYB>
