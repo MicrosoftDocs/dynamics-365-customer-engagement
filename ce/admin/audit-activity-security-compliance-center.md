@@ -1,7 +1,7 @@
 ---
 title: "Enable Security Compliance Center auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-description: Learn xxxxx
+description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
 ms.date: 03/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -65,6 +65,22 @@ The following are the admin and user events you can audit.
 
 ## Enable auditing in Dynamics 365
 <slide 17-18, req 5-9>
+1. In Dynamics 365 (online), choose Settings > Administration > System Settings > Auditing tab.
+2. Under **Audit Settings**, enable the following check boxes:
+   - **Start Auditing**
+   - **Audit user access**
+   - **Start Read Auditing** (Note: this only appears if you enable **Start Auditing**.)
+3. Under **Enable Auditing in the following areas**, enable the check boxes for the areas you want to audit and then choose **OK**.
+   ![System Settings Auditing](media/system-settings-auditing.png "System Settings Auditing")
+4. Go to **Settings** > **Customizations** > **Customize the System**
+5. Select an entity to audit, such as **Account**.
+6. Scroll down and under **Data Services** enable **Auditing**.
+7. Under **Auditing**, enable the following check boxes:
+   - **Retrieve Record Auditing**
+   - **Retrieve Multiple Auditing**
+8. Choose **Save**.
+9. Repeat steps 5 - 8 for other entities you want to audit.
+   ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
 
 
 ## Set up auditing in Office 365
