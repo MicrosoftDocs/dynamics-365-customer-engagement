@@ -1,15 +1,37 @@
 - name: Guidance overview
   href: index.md
   items:
-  - name: Guidance for client customizations
+  - name: Client customizations
     items:
-    - name: Interact with HTTP(S) resources asynchronously
-      href: client/prefer-async-server-interactions.md
-    - name: Avoid usage of window.top
+    - name: Avoid using window.top
       href: client/avoid-window-top.md
-  - name: Guidance for server extensions
+    - name: Interact with HTTP(S) resources asynchronously
+      href: client/interact-http-https-resources-asynchronously.md
+  - name: Working with data
     items:
-    - name: Avoid usage of batch request
+    - name: Retrieve published metadata
+      href: data/retrieve-published-metadata.md
+    - name: Retrieve specific columns for an entity via query APIs
+      href: data/retrieve-specific-columns-entity-via-query-apis.md
+  - name: Server extensions
+    items:
+    - name: Avoid using batch request
       href: server/avoid-batch-requests-plugin.md
-    - name: Use InvalidPluginExecutionException
-      href: server/Use-InvalidPluginExecutionException-plugin.md
+    - name: Develop IPlugin implementations as stateless
+      href: server/develop-iplugin-implementations-stateless.md
+    - name: Do not duplicate plug-in step registration
+      href: server/do-not-duplicate-plugin-step-registration.md
+    - name: Include filtering attributes with plugin registration
+      href: server/include-filtering-attributes-plugin-registration.md
+    - name: Limit the registration of plug-ins for Retrieve and RetrieveMultiple messages
+      href: server/limit-registration-plugins-retrieve-retrievemultiple.md
+    - name: Optimize assembly development
+      href: server/optimize-assembly-development.md
+    - name: Remove deactivated or disabled customizations
+      href: server/remove-deactivated-disabled-configurations.md
+    - name: Set KeepAlive to False within Plugins
+      href: server/set-keepalive-false-interacting-external-hosts-plugin.md
+    - name: Use ITracingService in Plug-ins
+      href: server/use-itracingservice-plugins.md
+    - name: Use InvalidPluginExecutionException in plug-ins and workflow activities
+      href: server/use-invalidpluginexecutionexception-plugin-workflow-activities.md
