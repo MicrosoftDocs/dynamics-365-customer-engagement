@@ -82,17 +82,15 @@ The following are the admin and user events you can audit.
 9. Repeat steps 5 - 8 for other entities you want to audit.
    ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
 
-
-## Set up auditing in Office 365
-<on by default>
-
-## Use reports in Office 365 Security and Compliance Center
+## Review your audit data using reports in Office 365 Security and Compliance Center
 <req 56>
+You can review your audit data in the Office 365 Security and Compliance Center. See [Search the audit log](https://support.office.com/article/search-the-audit-log-for-user-and-admin-activity-in-office-365-57ca5138-0ae0-4d34-bd40-240441ef2fb6)
+
 
 ## Create reports
 <See: https://support.office.com/en-us/article/search-the-audit-log-in-the-office-365-security-compliance-center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#run&PickTab=BYB>
 
-## Note the following
+## Additional considerations
 - data goes back 90 days?
 - further back? use SIEM tool?
 - mention Azure Auditing? <req 1>
