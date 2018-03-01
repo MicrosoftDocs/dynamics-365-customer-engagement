@@ -2,7 +2,7 @@
 title: "Start analyzing data in Social Engagement | Microsoft Docs"
 description: "Learn how to get an overview about your data in Social Engagement."
 keywords: "analytics, overview"
-ms.date: 02/28/2018
+ms.date: 03/01/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -20,7 +20,7 @@ Start you analysis with an overview about the data that your solution acquired s
   
 In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics > Overview** to access the overview page.  
 
-![Screenshot of the overview page in the Analytics are of Social Engagement](media/analytics-overview.png "Screenshot of the overview page in the Analytics are of Social Engagement")
+![Screenshot of the overview page in the Analytics area of Social Engagement](media/analytics-overview.png "Screenshot of the overview page in the Analytics area of Social Engagement")
   
 > [!NOTE]
 > **Overview** is the default page when you go to the Analytics area, or when you choose **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** on the nav bar.  
