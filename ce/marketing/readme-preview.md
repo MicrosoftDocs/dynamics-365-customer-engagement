@@ -99,7 +99,7 @@ restrictions.
         unsubscribed contacts from running journeys. The unsubscribe request
         will be honored in future journeys. [Learn how to use suppression
         segments to ensure running journeys will implement unsubscribe
-        requests.](https://go.microsoft.com/fwlink/p/?linkid=867008)
+        requests](https://go.microsoft.com/fwlink/p/?linkid=867008).
 
 -   Email marketing
 
