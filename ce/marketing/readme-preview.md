@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing Preview Readme (Known Issues) | MicrosoftDocs"
-ms.date: 02/05/2018
+ms.date: 03/02/2018
 ms.service: "crm-online"
 ms.topic: "article"
 author: kamaybac
