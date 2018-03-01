@@ -68,7 +68,6 @@ topic-status: Drafting
 <h2>Create marketing segments and customer journeys</h2>
 <li>[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)</li>
 <li>[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)</li>
-<li>[Use suppression segments to apply unsubscribe requests](suppression-segments.md)</li>
 <li>[Customer journey tiles reference](customer-journey-tiles-reference.md)</li>
 
 </td><td>

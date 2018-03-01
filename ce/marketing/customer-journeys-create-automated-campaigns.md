@@ -178,11 +178,7 @@ If you have more than one set of content settings, exactly one of them will be t
 
 A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey. 
 
-Suppression segments are especially important for journeys that run for a long time (such as more than a few days), including journeys with triggers that introduce long delays. That's because once a contact starts the journey, only a suppression segment can remove that contact again&mdash;even if the contact unsubscribes in the meantime.
-
-You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its General tab and then choose a segment in the **Suppression segment** lookup field.
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use suppression segments to apply unsubscribe requests](suppression-segments.md)
+You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its **General** tab and then choose a segment in the **Suppression segment** lookup field.
 
 ## Go live to start running the journey and processing contacts
 
@@ -199,7 +195,6 @@ When you've finished designing your customer journey, do the following to verify
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
