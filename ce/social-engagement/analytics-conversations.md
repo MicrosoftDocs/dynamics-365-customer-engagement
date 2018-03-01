@@ -56,10 +56,10 @@ Lists significant phrases on the source with the most posts. The size is based o
 
 ## Sentiment
 
-Visualizes the sentiment index based across all posts with sentiment value in the selected data set. Additionally, you find the change in sentiment index compared to the last similar time frame and its trend indicator.    
+Visualizes the sentiment index across all posts with sentiment value in the selected data set. Additionally, you find the change in sentiment index compared to the last similar time frame and its trend indicator.    
 You can [manually change the sentiment values](analytics-sentiment.md) if you find a post's sentiment incorrectly analyzed. 
 
-Dynamic widget. Shows only if the data set contains posts in at least one of the available search languages.
+Dynamic widget. Shows only if the data set contains posts with sentiment value.
 
 ## Sources
 
