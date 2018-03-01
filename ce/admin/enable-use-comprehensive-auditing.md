@@ -1,5 +1,5 @@
 ---
-title: "Enable and use retrieve multiple auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Enable and use comprehensive auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
 ms.date: 03/01/2018
@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Enable and use retrieve multiple auditing
+# Enable and use comprehensive auditing
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches.  
 
@@ -33,7 +33,6 @@ Audit logging as described in [Audit data and user activity for security and com
 The content below describes a process to enable logging and reviewing multiple activities across multiple apps- a much broader audit.
 
 After configuring auditing as described below, when a user opens a view in Dynamics 365, all the records in that view are logged as seen by the user not just the record they opened. In addition, activities in other Office products such as Exchange or Excel are logged to give a broad picture of user actions.
-
 
 ## Scenarios to features
 
@@ -112,11 +111,57 @@ The following are the Dynamics 365 preconfigured reports:
 ## Create reports
 You can create your own reports to review your audit data. See [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/article/search-the-audit-log-in-the-office-365-security-compliance-center-0d4d0f35-390b-4518-800e-0c7ec95e946c).
 
+## What's logged
+
+For a list of what's logged with retrieve multiple auditing, see [Microsoft.Crm.Sdk.Messages Namespace](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages?view=dynamics-general-ce-9).
+
+## What's not logged
+The following are not logged with comprehensive auditing:
+- WhoAmI
+-	RetrieveFilteredForms
+-	TriggerServiceEndpointCheck
+-	QueryExpressionToFetchXml
+-	FetchXmlToQueryExpression
+-	FireNotificationEvent
+-	RetrieveMetadataChanges
+-	RetrieveEntityChanges
+-	RetrieveProvisionedLanguagePackVersion
+-	RetrieveInstalledLanguagePackVersion
+-	RetrieveProvisionedLanguages
+-	RetrieveAvailableLanguages
+-	RetrieveDeprovisionedLanguages
+-	RetrieveInstalledLanguagePacks
+-	GetAllTimeZonesWithDisplayName
+-	GetTimeZoneCodeByLocalizedName
+-	IsReportingDataConnectorInstalled
+-	LocalTimeFromUtcTime
+-	IsBackOfficeInstalled
+-	FormatAddress
+-	IsSupportUserRole
+-	IsComponentCustomizable
+-	ConfigureReportingDataConnector
+-	CheckClientCompatibility
+-	RetrieveAttribute
+
+## How we categorize read and readmultiple
+
+We use the prefix to categorize.
+
+|If the request starts with:  |We characterize as:  |
+|---------|---------|
+|RetrieveMultiple     |ReadMultiple  |
+|ExportToExcel     |ReadMultiple |
+|Retrieve      |Read  |
+|Search     |Read |
+|Get     |Read |
+|Export     |Read |
+
 ## Additional considerations
 
-- When audit log search in the Office 365 Security & Compliance Center is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days. However, your organization might not want to record and retain audit log data. Or you might be using a third-party security information and event management (SIEM) application to access your auditing data. In those cases, a global admin can turn off audit log search in Office 365.
-- [JimHoltz: should we mention anything about Azure Auditing?]
+- When audit log search in the Office 365 Security and Compliance Center is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days. However, your organization might not want to record and retain audit log data. Or you might be using a third-party security information and event management (SIEM) application to access your auditing data. In those cases, a global admin can turn off audit log search in Office 365.
+- [JimHoltz: I'll need your description for Record level discussion, guids not values]
+- [JimHoltz: I'll need your example scenario and what's logged for SDK layer discussion]
 
 ### See also
  [Audit data and user activity for security and compliance](audit-data-user-activity.md)<br />
- [Search the audit log in the Office 365 Security & Compliance Center](https://support.office.com/article/search-the-audit-log-in-the-office-365-security-compliance-center-0d4d0f35-390b-4518-800e-0c7ec95e946c)
+ [Search the audit log for user and admin activity in Office 365](https://support.office.com/article/search-the-audit-log-for-user-and-admin-activity-in-office-365-57ca5138-0ae0-4d34-bd40-240441ef2fb6)
