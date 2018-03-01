@@ -1,8 +1,6 @@
 # [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
-
-## [About the Preview](about-preview.md)
  
 ## [Administrator Guide](admin-guide.md)
 
