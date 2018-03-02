@@ -18,7 +18,7 @@ topic-status: Drafting
 
 Most posts in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] are linked to an author on a social network. With sufficient permissions, you can remove an author from [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and block all future posts by that author. Whenever [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] acquires new posts, it checks if the author was deleted earlier and discards posts from deleted authors. It's critical to understand the implications of deleting all author information by removing an author, because it can't be undone and can have a significant impact on data acquisition for your solution.
 
-Since your search topics gather data about the authors of the posts, you might get contacted by authors to inform them about the data you stored about them, and eventually, get requests to remove that data per the laws in the European Union. You can find the procedures below how you can remove or correct personal data of authors in Social Engagement.
+Since your search topics gather data about the authors of the posts, you might get contacted by authors to inform them about the data you stored about them, and eventually, get requests to remove that data per the laws in the European Union. To minimize your efforts to respond to such requests from social media users, you can find the procedures below how you can remove or correct personal data of authors in Social Engagement.
 
 ## General Data Protection Regulation (GDPR)
 
