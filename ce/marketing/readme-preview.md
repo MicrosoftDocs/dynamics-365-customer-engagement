@@ -147,11 +147,11 @@ restrictions.
     -   New lead scoring models might default to text view for smaller devices,
         so the toolbar right panel is inactive.
 
--   Lead scoring cannot be saved if the canvas doesn’t have any tiles. Add any
-    tile to save successfully.
+    -   Lead scoring cannot be saved if the canvas doesn’t have any tiles. Add any
+        tile to save successfully.
 
--   While creating lead scoring rules, dropdowns may not be localized for
-    non-English languages.
+    -   While creating lead scoring rules, dropdowns may not be localized for
+        non-English languages.
 
 -   Event management
 
