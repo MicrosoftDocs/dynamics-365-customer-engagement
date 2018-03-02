@@ -2,7 +2,7 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete posts and export information about authors."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 02/28/2018
+ms.date: 03/02/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -17,6 +17,8 @@ topic-status: Drafting
 # Manage an author's data
 
 Most posts in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] are linked to an author on a social network. With sufficient permissions, you can remove an author from [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and block all future posts by that author. Whenever [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] acquires new posts, it checks if the author was deleted earlier and discards posts from deleted authors. It's critical to understand the implications of deleting all author information by removing an author, because it can't be undone and can have a significant impact on data acquisition for your solution.
+
+Since your search topics gather data about the authors of the posts, you might get contacted by authors to inform them about the data you stored about them, and eventually, get requests to remove that data per the laws in the European Union. You can find the procedures below how you can remove or correct personal data of authors in Social Engagement.
 
 ## General Data Protection Regulation (GDPR)
 
@@ -34,7 +36,7 @@ Here are some resources where you can learn more about how to bring your Dynamic
 
 ## Delete an author
 
-To remove all available information about an author in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you can delete them. However, once you delete an author, there's no way to undo it. Data about and from this author will be lost, including the ability to post in the future. To delete an author in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you need to have a Power Analyst or Administrator [configuration role](user-roles.md). 
+To remove all available information about an author (for example, if you need to respond to a deletion request in GDPR context) in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you can delete them. However, once you delete an author, there's no way to undo it. Data about and from this author will be lost, including the ability to post in the future. To delete an author in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you need to have a Power Analyst or Administrator [configuration role](user-roles.md). 
 
 Deleting an author will result in:
 
@@ -66,13 +68,6 @@ Deleting an author will result in:
 
 To inform the owner of a social profile about the personal data that is stored in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you can export the author's data to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file. 
 
-The exported data included the following values: 
-- author name
-- display name
-- profile pictures
-- author tags
-- date of export
-
 ### Export details about an author
 
 1. In **[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]** go to **Analytics** > **Overview**
@@ -98,7 +93,7 @@ To stop processing data of authors, you need to [delete the author](#delete-an-a
 Administrators in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can't change author names.    
 However, if an author decides to change their name on a social network, this change will be reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] when their next post is acquired. 
 
-If an author decides to remove a public post on a social network, this deletion gets reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and the post is removed from the user interface too.
+If an author decides to remove a public post on Twitter, Tumblr, or WordPress, this deletion gets reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and the post is removed from the user interface too.
 
 ### See also
 [Get an overview about the data](analytics-overview.md)    
