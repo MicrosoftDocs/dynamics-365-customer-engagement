@@ -1,8 +1,3 @@
-FS_SettingsOnBSM-2.gif - screenshot of the max resources field 
-FS_NoOtherRow_5.gif - screenshot of the other row (which has been removed)
-FS_DragSummary.gif - screenshot of the 3 selected rows after being drag-selected
-FS_DetailsPanelTake2Final.gif - screenshot of popped-out details pane
-FS_Zoom.gif - screenshot of the ZOOM OUT menu on right-click---
 title: "What's new in Universal Resource Scheduling for Dynamics 365 | MicrosoftDocs"
 description: "Learn how the latest release makes optimizing resource scheduling and management even more powerful. The new capabilities apply to Universal Resource Scheduling version 2.2.0.49, Field Service version 7.2.0.43, and Project Service Automation version 2.2.0.74 for Dynamics 365."    
 ms.custom: ""
