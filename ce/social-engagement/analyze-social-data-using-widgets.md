@@ -2,7 +2,7 @@
 title: "Analyze social data with widgets in Social Engagement | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
 keywords: "widgets, analytics, get started"
-ms.date: 02/28/2018
+ms.date: 03/02/2018
 ms.service: mse
 ms.topic: get-started-article
 applies_to:
@@ -20,7 +20,8 @@ Use widgets to visualize your organization’s data analytics. The easy-to-under
 > [!TIP]
 >  This topic is part of a walkthrough about how you can set up searches and get started with analyzing the resulting data. More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
   
-The **Analytics** area helps you to analyze social data and displays widgets based on the posts that result from your search topics. Widgets then display the analysis in easy-to-understand formats such as bar charts, simple curves, or percentages. [Learn how to navigate the Analytics area.](get-started.md#get-around-in-the-analytics-area)     
+The **Analytics** area helps you to analyze social data and displays widgets based on the posts that result from your search topics. Widgets then display the analysis in easy-to-understand formats such as bar charts, simple curves, or percentages. 
+[Learn how to navigate the Analytics area.](get-started.md#get-around-in-the-analytics-area)     
 You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis. If no posts are available or match your filters, widgets display no metrics and an error message.
   
 Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provide you with [drill-down functionality to narrow your data set](visual-filtering-widgets.md). Click a data point to get a more detailed view of the data.  
@@ -43,7 +44,7 @@ Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 
 Widgets display based on the [data set that you define](use-filters.md) by selecting a search topic or category and by using the filters. These filters include the locations, keywords, sentiment values, and so on that you select based on your business requirements.     
 Every user of your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution can create data sets. However, only Administrators and Power Analysts can [create new search topics](set-up-searches.md).
-  
+
 ## View the trend values
 
  Many widgets support the display of **Trend** values. The trend value gives you a quick grasp of the trends for the posts across different social dimensions. The trend symbol will be upward, downward, or straight – to indicate rising, falling, or steady trend values, respectively.  
@@ -63,18 +64,46 @@ Every user of your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn
 
 ## Export data from widgets and lists
 
-Create your own visualizations and process the data the way that suits you best by exporting data points from widgets and lists to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] workbook.  
-  
-- To export data from a _widget_, click the **Download the data into Excel** button ![Download the data into Excel](media/export-data-icon.png "Download the data into Excel"). You’ll find the resulting [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file in your browser’s specified downloads folder.  
-  
-- To export data from a _list_, select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
-  
-The exported Excel file contains two sheets:  
+Create your own visualizations and process the data the way that suits you best by exporting data points from widgets and lists to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] workbook. You’ll find the resulting [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file in your browser’s specified downloads folder 
+
+The exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file contains two sheets:  
   
 - **Information sheet**: Lists the current configuration at the point in time when you exported the data.  
   
 - **Data sheet**: Contains the data points and the metrics that are used on the exported data.  
   
+### To export data from widgets
+
+1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
+
+2. In the list of actions, select **Export** ![Download the data into Excel](media/export-data-icon.png "Download the data into Excel").    
+> [!NOTE]
+> To export data from a list in full view, you need to select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
+  
+
+## Expand a widget to full view
+
+Some widgets (for example the authors widget) show a limited number of items by default. If available, you can expand these widgets to full view to see more items in the list. 
+
+### To expand a widget
+
+1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
+
+2. In the list of actions, select **Expand to full view** ![Expand to full view symbol](media/open-full-view-icon.png "Expand to full view symbol").
+
+## Switch a widget to table view
+
+All widgets can render in a table mode. You can also set the table view as your default for all widgets by [updating the Your Preferences settings](user-preferences.md).
+
+### To switch a widget to table view
+
+1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
+
+2. In the list of actions, select **Switch to table view**.
+
+[comment]: <> (Get table view icon from design with solid white background)
+
+
 ### See Also  
 [Get to know your filters](use-filters.md)    
 [Perform visual filtering on widgets](visual-filtering-widgets.md)   
