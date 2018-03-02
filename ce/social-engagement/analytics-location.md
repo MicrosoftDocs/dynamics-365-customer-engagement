@@ -73,13 +73,14 @@ Lists the cities where most posts are coming from and their trend indicator.
 Lists the five most-found languages based on the volume of posts and their trend indicator.
 
 ##Locations
+
 Lists the countries/regions where most posts are coming from and their trend indicator.
 
 ## Location coverage
 
 Shows the percentage of posts and authors based on their location details, combined with posts without location information.
 
-## Location Groups
+## Location groups
 
 Lists the location groups where most posts are coming from and their trend indicator.  
 

@@ -2,7 +2,7 @@
 title: "Analytics for sentiment in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on sentiments and tonality in Social Engagement."
 keywords: "sentiment, natural language processing, tonality, analytics, sentiment analysis"
-ms.date: 03/01/2018
+ms.date: 03/02/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -44,17 +44,17 @@ To add a filter for multiple authors at once, select the check boxes on the left
 > Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
 >  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
 
-## Location Insights
+## Location insights
 
 Visualizes the posts with location information on a map to find out where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
 
 Dynamic widget. Shows only if posts with location information are available in the selected data set.
 
-## Negative Phrases
+## Negative phrases
 
 Lists often mentioned negative phrases, based on the posts of your current data set. The larger a phrase shows, the more posts contain this phrase.
 
-## Positive Phrases
+## Positive phrases
 
 Lists often mentioned positive phrases, based on the posts of your current data set. The larger a phrase shows, the more posts contain this phrase.
 
@@ -63,11 +63,11 @@ Lists often mentioned positive phrases, based on the posts of your current data 
 Visualizes the sentiment index across all posts with sentiment value in the selected data set. Additionally, you find the change in sentiment index compared to the last similar time frame and its trend indicator.    
 You can [manually change the sentiment values](analytics-sentiment.md) if you find a post's sentiment incorrectly analyzed. 
 
-## Sentiment Coverage
+## Sentiment coverage
 
 Shows the relative distribution of system-rated and manually edited sentiment values. 
 
-## Sentiment History
+## Sentiment history
 
 Visualizes the number of posts with sentiment value, the sentiment index, and it's average in the selected time frame.
 
@@ -75,11 +75,11 @@ Visualizes the number of posts with sentiment value, the sentiment index, and it
 
 Lists the sentiment index for the top five sources and their trend indicator.
 
-##Top Critics
+##Top critics
 
 Lists the authors who published the most posts with a negative sentiment value.
 
-##Top Fans
+##Top fans
 
 Lists the authors who published the most posts with a positive sentiment value.
   

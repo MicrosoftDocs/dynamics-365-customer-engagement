@@ -2,7 +2,7 @@
 title: "Analytics for sources in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on the various data sources in Social Engagement."
 keywords: "sources, analytics, twitter, reddit, facebook, news, blogs, youtube, forums, rss"
-ms.date: 03/01/2018
+ms.date: 03/02/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -22,25 +22,35 @@ In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.
 
 ![Screenshot of the sources page in the Analytics area of Social Engagement](media/analytics-sources.png "Screenshot of the sources page in the Analytics area of Social Engagement")
     
-## Sources history
-
-Visualizes the volume of posts from the different sources in the selected time frame. 
-
 ## Activities
 
 Shows the type activity (post, reply, share, retweet) of posts based on the volume.
 
-## Phrases by sources
+## Authors
 
-Lists top phrases for the top five sources based on the volume.
+The normal view of this widget shows the top five authors and the sources, based on the volume of their posts and their trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find additional details such as reach, source, and location about the 100 most active authors and their posts.    
+To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the authors filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
+> [!NOTE]
+> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
+>  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
+  
+## Authors by source
+
+Authors by Source not only shows the most active sources, but also summarizes how many authors posted in the other sources.
 
 ## Languages
 
 Lists the five most-found languages based on the volume of posts and their trend indicator.
 
-##Volume change by source
+##Location insights
 
-Shows the change in post volume for the top five sources, compared to previous periods, and their trend indicator.
+Visualizes the posts with location information on a map to find out where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
+
+Dynamic widget. Shows only if posts with location information are available in the selected data set.
+
+## Phrases by sources
+
+Lists top phrases for the top five sources based on the volume.
 
 ##Sources
 
@@ -51,25 +61,14 @@ Click the **Full view** button ![Full view button](media/open-full-view-icon.png
 
 Lists the top five sources along with their sentiment index and trend indicator.  
 
-##Location insights
+## Sources history
 
-Visualizes the posts with location information on a map to find out where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
+Visualizes the volume of posts from the different sources in the selected time frame. 
 
-Dynamic widget. Shows only if posts with location information are available in the selected data set.
+##Volume change by source
 
-## Authors by source
+Shows the change in post volume for the top five sources, compared to previous periods, and their trend indicator.
 
-Authors by Source not only shows the most active sources, but also summarizes how many authors posted in the other sources.
-
-## Authors
-
-The normal view of this widget shows the top five authors and the sources, based on the volume of their posts and their trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find additional details such as reach, source, and location about the 100 most active authors and their posts.    
-To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the authors filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
-> [!NOTE]
-> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
->  When you delete an author, none of the author’s previous posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
-
-  
 ### See Also  
 
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
