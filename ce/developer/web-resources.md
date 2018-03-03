@@ -164,3 +164,4 @@ http://myServer/MyOrganization/WebResources/new_/test/test.htm
  [Sample: Web Resource Utility](sample-web-resource-utility.md)<br />
  [Sample: Importing Files as Web Resources](sample-import-files-web-resources.md)<br />
  [Use Web Service Data in Web Resources (REST and SOAP Endpoint)](work-data-using-web-resources.md)<br />
+ [Streamline web resource development using Fiddler AutoResponder](streamline-javascript-development-fiddler-autoresponder.md)
