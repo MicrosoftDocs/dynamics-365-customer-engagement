@@ -2,7 +2,7 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete posts and export information about authors."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 03/02/2018
+ms.date: 03/05/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -36,7 +36,7 @@ Here are some resources where you can learn more about how to bring your Dynamic
 
 ## Delete an author
 
-To remove all available information about an author (for example, if you need to respond to a deletion request in GDPR context) in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you can delete them. However, once you delete an author, there's no way to undo it. Data about and from this author will be lost, including the ability to post in the future. To delete an author in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you need to have a Power Analyst or Administrator [configuration role](user-roles.md). 
+To remove all available information about an author (for example, if you need to respond to a deletion request in GDPR context, or want to remove posts from a spam account) in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you can delete them. However, once you delete an author, there's no way to undo it. Data about and from this author will be lost, including the ability to post in the future. To delete an author in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you need to have a Power Analyst or Administrator [configuration role](user-roles.md). 
 
 Deleting an author will result in:
 
@@ -66,7 +66,7 @@ Deleting an author will result in:
 
 ## Export author information
 
-To inform the owner of a social profile about the personal data that is stored in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], you can export the author's data to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file. 
+To inform the owner of a social profile about the personal data that is stored in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] (for example if you need to respond to a GDPR request), Administrators can export the author's data to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] file. 
 
 ### Export details about an author
 
@@ -86,11 +86,11 @@ To inform the owner of a social profile about the personal data that is stored i
 
 ## Stop processing specific authors
 
-To stop processing data of authors, you need to [delete the author](#delete-an-author). This will remove all search rules that are based on the author's profile and no new posts from this author will be acquired in the future.  
+To stop processing data of authors, you need to [delete the author](#delete-an-author). This will remove all search rules that are based on the author's profile and no new posts from this author will be acquired in the future. 
 
 ## Correcting author information
 
-Administrators in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can't change author names.    
+From a GDPR request, you might get requested update a name or remove a post that was deleted on a social network directly. Administrators in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can't change author names.    
 However, if an author decides to change their name on a social network, this change will be reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] when their next post is acquired. 
 
 If an author decides to remove a public post on Twitter, Tumblr, or WordPress, this deletion gets reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and the post is removed from the user interface too.
