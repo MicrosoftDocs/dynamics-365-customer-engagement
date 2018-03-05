@@ -22,6 +22,7 @@ topic-status: Completed
 
 <td></td>
 </tr>
+
 <tr>
 <td><h2>Get started</h2>
   <ul>
@@ -57,17 +58,14 @@ topic-status: Completed
   </td>
 </tr>
 
-<tr>
+
 <h2>Videos</h2>
 <ul>
 <li>[Meet the Customer Service Hub in Dynamics 365](https://www.youtube.com/watch?v=OEn_FN5azq0)</li>
 <li>[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)</li>
 <li>[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)</li>
 <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
-
-  </ul>  
- </td>
- </tr>
+</ul>  
 
 </table>
 
