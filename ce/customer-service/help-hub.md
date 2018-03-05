@@ -19,7 +19,6 @@ topic-status: Completed
 <table>
 <tr>
      <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></div>
-
 <td></td>
 </tr>
 
@@ -57,7 +56,7 @@ topic-status: Completed
   </ul>  
   </td>
 </tr>
-
+</table>
 
 <h2>Videos</h2>
 <ul>
@@ -67,7 +66,7 @@ topic-status: Completed
 <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
 </ul>  
 
-</table>
+
 
 
 
