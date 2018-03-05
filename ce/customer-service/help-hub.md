@@ -16,14 +16,13 @@ topic-status: Completed
 ---
 # Customer Service Hub Help & Training
 
-<table>
 <tr>
      <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></div>
 <td></td>
 </tr>
 
 ## Help 
-
+<table>
 <tr>
 <td><h2>Get started</h2>
   <ul>
