@@ -76,6 +76,7 @@
 #### [Set up the event portal](set-up-event-portal.md)
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 #### [Follow up after the event](followup-after-event.md)
+#### [Record and view financial information for events](event-financials.md)
 
 ### [Export data](export-data-Word-Excel.md)
 ### [Explore results with Power BI](Power-BI-analytics.md)
