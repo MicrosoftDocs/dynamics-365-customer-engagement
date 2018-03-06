@@ -160,3 +160,4 @@ We use the prefix to categorize.
 ### See also
  [Audit data and user activity for security and compliance](audit-data-user-activity.md)<br />
  [Search the audit log for user and admin activity in Office 365](https://support.office.com/article/search-the-audit-log-for-user-and-admin-activity-in-office-365-57ca5138-0ae0-4d34-bd40-240441ef2fb6)
+ [Office 365 Management APIs overview](https://msdn.microsoft.com/office-365/office-365-managment-apis-overview)
