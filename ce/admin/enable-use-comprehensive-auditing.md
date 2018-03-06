@@ -19,7 +19,7 @@ manager: "brycho"
 ---
 # Enable and use comprehensive auditing
 
-Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches.  
+Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from comprehensive auditing can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365.  
 
 A user can have many interactions with various Office and Dynamics applications. You need to capture all these actions to sort through and find the relevant data.
 
@@ -27,22 +27,15 @@ A user can have many interactions with various Office and Dynamics applications.
 
 This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit a broad range of data processing activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review the data in activity reports.
 
+## Requirements
+An Office 365 Enterprise [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) or [E5](https://products.office.com/business/office-365-enterprise-e5-business-software) subscription is required to do comprehensive auditing.
+
 ## How this differs from past audit logging
 Audit logging as described in [Audit data and user activity for security and compliance](audit-data-user-activity.md) covers enabling and viewing logging for specific entities and attributes which you select. What is logged is largely based on the context of the activity. Open a record and activities such as who created the record, what values were entered and changed, who updated it, etc, are logged for that particular record.
 
 The content below describes a process to enable logging and reviewing multiple activities across multiple apps- a much broader audit.
 
 After configuring auditing as described below, when a user opens a view in Dynamics 365, all the records in that view are logged as seen by the user not just the record they opened. In addition, activities in other Office products such as Exchange or Excel are logged to give a broad picture of user actions.
-
-## Scenarios to features
-
-Consider the following scenarios an admin will likely encounter and the features needed to address them.
-
-|Scenario |  |Feature  |
-|---------|---------|---------|
-|Must be able to:<br /><ul><li>Record and analyze unauthorized data access</li><br /><li>Record and analyze alteration of data</li><br /><li>Record and analyze accidental or unlawful destruction of data</li>     |         |Must be able to:<br /><br /><li>Clearly identify all the creates and read actions done by the user</li><br /><li>Clearly identify all the update actions done by the user</li><br /><li>Clearly identify any accidental delete action done by the admin</li><br /><li>Clearly identify the request origin</li></ul> |
-
-We'll show you how to set up the features needed to capture and review the data in these scenarios.
 
 ## What events are audited
 The following are the admin and user events you can audit.
@@ -89,8 +82,8 @@ The following are the admin and user events you can audit.
 9. Choose **Publish** to publish the customization.
 10. Repeat steps 5 - 9 for other entities you want to audit.
    ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
+11. Turn on audit logging in Office 365. See [Turn Office 365 audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
-Next, you need to make sure audit logging is turned on in Office 365. See [Turn Office 365 audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 ## Review your audit data using reports in Office 365 Security and Compliance Center
 
