@@ -2,13 +2,13 @@
 title: "View and record financial information for events (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Learn how and where to record values for various budgets, expenses, and revenue for events in Dynamics 365 for Marketing"
 keywords: "designer; email; preview; template; Litmus"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 0f661fed-315f-4932-9a06-a8de363ea42c
+ms.assetid: 81db7e88-22fb-498c-b4aa-909c844886c3
 author: kamaybac
 ms.author: kamaybac
 manager: sakudes
