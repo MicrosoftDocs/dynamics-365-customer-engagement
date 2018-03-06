@@ -65,8 +65,6 @@
 #### [Register contacts' engagement](register-engagement.md)
 #### [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
 
-### [Data protection and GDPR](gdpr.md)
-
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
 #### [Event management dashboard](event-management-dashboard.md)
@@ -80,6 +78,7 @@
 
 ### [Export data](export-data-Word-Excel.md)
 ### [Explore results with Power BI](Power-BI-analytics.md)
+### [Data protection and GDPR](gdpr.md)
 ### [How the app uses cookies](cookies.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
