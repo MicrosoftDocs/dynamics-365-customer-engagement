@@ -245,7 +245,7 @@ When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dyn
 
 ## Configure marketing page defaults and matching strategies
 
-Administrators can choose settings that control several aspects of the way all marketing pages function on your site and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure marketing pages](marketing-settings.md#configure-marketing-pages)
+Administrators can choose settings that control several aspects of the way all marketing pages function on your site and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure marketing pages](marketing-settings.md#config-mkt-pages)
 
 ### See also
 

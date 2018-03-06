@@ -144,7 +144,7 @@ Use the **Customer journey** tab to choose the default timezone that you will us
 
 ## Data protection tools
 
-Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These currently focus on helping organizations comply with the GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR ](data-protection.md).
+Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These currently focus on helping organizations comply with the GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
 
 <a name="marketing-configuration"></a>
 
