@@ -56,7 +56,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
 
 ## Author tags
 
-Filter posts by [author tags](author-tags.md). Author tags are a convenient way to quickly create groups of authors to see what they are discussing.
+Filter posts by [author tags](author-tags.md). Author tags are a convenient way to quickly create groups of authors to see what they are discussing. You can also exclude authors from this filter. This is a convenient way to create data sets which exclude a tagged group of authors For example, if there are regulations that don't allow the processing of data for minors, you can tag authors that are minors and exclude them in the data set that you analyze or process in other ways. 
 
 ## Authors  
  Filter posts by author names. Any author name is available for filtering if the author published at least one post. Start typing the author name to see suggested author names from your solution's database. When you filter by author, only posts from the selected authors remain in your data set and widgets display.  
