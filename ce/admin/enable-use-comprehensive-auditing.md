@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Enable and use comprehensive auditing
+# Enable and use comprehensive auditing 
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from comprehensive auditing can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365.  
 
@@ -32,6 +32,8 @@ An Office 365 Enterprise [E3](https://products.office.com/business/office-365-en
 
 ## How this differs from past audit logging
 Audit logging as described in [Audit data and user activity for security and compliance](audit-data-user-activity.md) covers enabling and viewing logging for specific entities and attributes which you select. What is logged is largely based on the context of the activity. Open a record and activities such as who created the record, what values were entered and changed, who updated it, etc, are logged for that particular record.
+
+Comprehensive auditing 
 
 The content below describes a process to enable logging and reviewing multiple activities across multiple apps- a much broader audit.
 
