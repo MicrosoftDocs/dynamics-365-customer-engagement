@@ -59,29 +59,15 @@ topic-status: Completed
 </table>
 
 ## Videos
-<tr>
-<td>
-<h4>Meet the Customer Service Hub in Dynamics 365</h4>
 
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/watch?v=OEn_FN5azq0" frameborder="0" allowfullscreen></iframe></div>
+<table>
 
-<h4>Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</h4>
+ <li>[Meet the Customer Service Hub in Dynamics 365](https://www.youtube.com/watch?v=OEn_FN5azq0)</li>
+ <li>[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)</li>
+ <li>[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)</li>
+ <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
 
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/watch?v=cDN-gv0Yylg" frameborder="0" allowfullscreen></iframe></div>
-</td>
-
-<td>
-<h4>How to use the Reference panel in the Customer Service Hub</h4>
-
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/watch?v=ruAPEKY5vNc" frameborder="0" allowfullscreen></iframe></div>
-
-<h4>Expertly manage your cases in the Customer Service Hub for Customer Engagement</h4>
-
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/watch?v=Y_eV4HeIm04" frameborder="0" allowfullscreen></iframe></div>
-</td>
-</tr>
-
-
+</table>
 
 
 
