@@ -100,10 +100,12 @@ When a customer requests a copy of all data your organization has about them, do
 When GDPR is enabled, then deleting a contact should have the following effects:
 
 - The contact record is permanently (hard) deleted.
-- Related interaction records may be retained in [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], but all personal information must be removed from them.
+- All related interaction records stored in [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] are deleted.
 - All custom entities are de-linked from the contact record and all personal information is removed from them. 
 
 Note that some of this functionality requires that your system be customized by a developer or partner, especially when it comes to clearing information from custom entities and fields.
+
+Note also that all data entered into a forward-to-a-friend form is automatically deleted after 30 days, so no new contact or lead records are created unless a recipient of the forward chooses to register with your organization using a landing page.
 
 ## Set the default consent for marketing pages
 
