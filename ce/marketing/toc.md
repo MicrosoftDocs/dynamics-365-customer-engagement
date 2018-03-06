@@ -65,6 +65,8 @@
 #### [Register contacts' engagement](register-engagement.md)
 #### [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
 
+### [Data protection and GDPR](gdpr.md)
+
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
 #### [Event management dashboard](event-management-dashboard.md)
