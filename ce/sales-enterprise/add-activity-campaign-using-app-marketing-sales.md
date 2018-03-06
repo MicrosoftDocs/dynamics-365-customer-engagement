@@ -1,21 +1,25 @@
 ---
 title: "Add an activity to a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
+description: "Add planning and campaign activities to a campaign to make it successful."
+keywords: "Campaign Activities, Campaign, Quick Campaign, Distribute"
 ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8b0e36fe-695d-44bb-9fe3-de3819bc894d
+author: kamaybac
+ms.author: kamaybac
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 51
-author: "kamaybac"
-ms.author: "kamaybac"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Add an activity to a campaign using in-app marketing (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -68,7 +72,8 @@ Make your marketing campaigns successful by creating, distributing, and assignin
 8.  Choose who will own the activities, and click **Distribute**.  
   
     > [!NOTE]
-    >  You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type.  
+    > 1.  You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type. 
+    > 2.  When you distribute a campaign activity or run a quick campaign, and if a contact, account, or lead in the target audience (typically specified in a marketing list) doesn't have data in the Email, Fax, Address, or Primary Phone fields, respective activities like Email, Phone, Letter, and Fax won't be created for that contact, account or lead. 
   
 9. After all the distributed activities are closed, you can close the campaign activity. To close the campaign activity, open the campaign activity record, and on the command bar, click **Close Campaign Activity**. Set an appropriate status for the activity, and click **OK**.  
   

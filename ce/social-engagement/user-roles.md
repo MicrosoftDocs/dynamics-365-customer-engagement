@@ -2,7 +2,7 @@
 title: "Understand user roles in Social Engagement | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Social Engagement."
 keywords: "permissions, user roles, interaction role, configuration role"
-ms.date: 12/14/2017
+ms.date: 02/14/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -40,7 +40,7 @@ The following table shows the Analyst, Power Analyst, and Administrator configur
 |[View all analysis](analyze-social-data-using-widgets.md)|Yes|Yes|Yes|  
 |[Edit sentiment value](work-with-posts.md)|Yes|Yes|Yes|  
 |[Delete posts](work-with-posts.md)|No|Yes|Yes|  
-|[Exclude/delete authors](analytics-overview.md)|No|Yes|Yes|  
+|[Exclude/delete authors](manage-authors.md)|No|Yes|Yes|  
 |[Create and edit search topics](set-up-searches.md)|No|Yes. Can only edit search topics created by himself|Yes|  
 |[Create and manage categories](search-topic-categories.md)|No|Can only edit owned categories|Yes|  
 |[Manage custom sources](custom-sources.md)|No|No|Yes|  
