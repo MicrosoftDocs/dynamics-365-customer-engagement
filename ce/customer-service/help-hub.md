@@ -56,9 +56,9 @@ topic-status: Completed
   </ul>  
   </td>
 </tr>
-</table>
 
-## Videos
+
+<tr><td><h2>Videos</h2>
 
 <ul>
  <li>[Meet the Customer Service Hub in Dynamics 365](https://www.youtube.com/watch?v=OEn_FN5azq0)</li>
@@ -66,7 +66,9 @@ topic-status: Completed
  <li>[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)</li>
  <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
 </ul>
-
+</td>
+</tr>
+</table>
 
 
 
