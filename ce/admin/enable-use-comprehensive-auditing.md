@@ -29,10 +29,6 @@ manager: "brycho"
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from comprehensive auditing can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365.  
 
-A user can have many interactions with various Office and Dynamics applications. You need to capture all these actions to sort through and find the relevant data.
-
-![Activities across apps](media/activities-across-apps.png "Activities across apps")
-
 This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit a broad range of data processing activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review the data in activity reports.
 
 ## Requirements
@@ -47,7 +43,7 @@ Comprehensive auditing has two significant differences with prior [!INCLUDE [pn-
 
    ![Activities across apps](media/activities-across-apps.png "Activities across apps")
 
-2. Auditing occurs at the API layer of Dynamics 365 which means much more data is logged than just activities. Consider the following example.
+2. Auditing occurs at the SDK layer of Dynamics 365 which means much more data is logged than just activities. Consider the following example.
 
 [JimHoltz: I need example from Varun. Lead to Opportunity conversion. One User action results in 10 different platform actions which are logged.]
 
