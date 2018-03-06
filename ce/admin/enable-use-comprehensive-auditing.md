@@ -1,5 +1,5 @@
 ---
-title: "Enable and use comprehensive auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Preview feature: Enable and use comprehensive auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
 ms.date: 03/01/2018
@@ -17,7 +17,15 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Enable and use comprehensive auditing 
+# Preview feature: Enable and use comprehensive auditing
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> - This feature currently has limited availability.
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
+> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from comprehensive auditing can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365.  
 
@@ -33,11 +41,16 @@ An Office 365 Enterprise [E3](https://products.office.com/business/office-365-en
 ## How this differs from past audit logging
 Audit logging as described in [Audit data and user activity for security and compliance](audit-data-user-activity.md) covers enabling and viewing logging for specific entities and attributes which you select. What is logged is largely based on the context of the activity. Open a record and activities such as who created the record, what values were entered and changed, who updated it, etc, are logged for that particular record.
 
-Comprehensive auditing 
+Comprehensive auditing has two significant differences with prior [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] auditing:
 
-The content below describes a process to enable logging and reviewing multiple activities across multiple apps- a much broader audit.
+1. User and admin activities across Office and Dynamics 365 apps are logged.
 
-After configuring auditing as described below, when a user opens a view in Dynamics 365, all the records in that view are logged as seen by the user not just the record they opened. In addition, activities in other Office products such as Exchange or Excel are logged to give a broad picture of user actions.
+   ![Activities across apps](media/activities-across-apps.png "Activities across apps")
+
+2. Auditing occurs at the API layer of Dynamics 365 which means much more data is logged than just activities. Consider the following example.
+
+[JimHoltz: I need example from Varun. Lead to Opportunity conversion. One User action results in 10 different platform actions which are logged.]
+
 
 ## What events are audited
 The following are the admin and user events you can audit.
@@ -110,7 +123,7 @@ You can create your own reports to review your audit data. See [Search the audit
 
 ## What's logged
 
-For a list of what's logged with retrieve multiple auditing, see [Microsoft.Crm.Sdk.Messages Namespace](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages?view=dynamics-general-ce-9).
+For a list of what's logged with comprehensive auditing, see [Microsoft.Crm.Sdk.Messages Namespace](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages?view=dynamics-general-ce-9).
 
 ## What's not logged
 The following are not logged with comprehensive auditing:
