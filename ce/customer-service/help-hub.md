@@ -67,6 +67,7 @@ topic-status: Completed
  <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
 </ul>
 </td>
+<td>&#160;</td>
 </tr>
 </table>
 
