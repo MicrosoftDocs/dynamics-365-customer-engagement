@@ -61,10 +61,14 @@ topic-status: Completed
 ## Videos
 <table>
 <tr>
-<td><h2> </h2>
-<ul>
-<li>[Meet the Customer Service Hub in Dynamics 365](https://www.youtube.com/watch?v=OEn_FN5azq0)</li>
-<li>[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)</li>
+<td><h3>Meet the Customer Service Hub in Dynamics 365</h3>
+
+<div class="embeddedvideo"><iframe src="https://www.youtube.com/watch?v=OEn_FN5azq0" frameborder="0" allowfullscreen></iframe></div>
+
+<h3>Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement</h3>
+
+<div class="embeddedvideo"><iframe src="https://www.youtube.com/watch?v=cDN-gv0Yylg" frameborder="0" allowfullscreen></iframe></div>
+
 
 </ul>  
 </td>
