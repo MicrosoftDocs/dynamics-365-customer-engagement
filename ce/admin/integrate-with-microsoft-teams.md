@@ -26,13 +26,21 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 Follow these steps to add Dynamics 365 to your Microsoft Teams app.
 
 1. In Microsoft Teams, select **Store**.
+
    ![Select Store](media/select-store.png "Select Store")
+
 2. Search for **Dynamics 365** and select the **Dynamics 365** tile.
-   ![Search for and select Dynamics 365](media/search-select-dynamics-365.png "Search for and select Dynamics 365")
+
+    ![Search for and select Dynamics 365](media/search-select-dynamics-365.png "Search for and select Dynamics 365")
+
 4. Select **Install**.
-   ![Select Install](media/select-install.png "Select Install")
+
+    ![Select Install](media/select-install.png "Select Install")
+
 5. Select **Open**.
-   ![Select Open](media/select-open.png "Select Open")
+
+    ![Select Open](media/select-open.png "Select Open")
+
 6. Select **Login** and sign in with your **Dynamics 365** credentials.
 7. Select the **Settings** tab.​
 8. Under **Org Name**, select an organization. ​
