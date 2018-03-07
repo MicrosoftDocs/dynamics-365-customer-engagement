@@ -48,7 +48,7 @@ Organizations often need to be in compliance with various regulations to ensure 
  The following lists what cannot be audited for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]:  
   
 * Audit of read operations
-* Audit of metadata changes
+* Audit of metadata changes 
   
 ## Key concepts  
  The following bullets identify some key auditing concepts:  
