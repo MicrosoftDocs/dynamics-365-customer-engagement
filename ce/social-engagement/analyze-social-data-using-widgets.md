@@ -2,7 +2,7 @@
 title: "Analyze social data with widgets in Social Engagement | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
 keywords: "widgets, analytics, get started"
-ms.date: 03/02/2018
+ms.date: 03/07/2018
 ms.service: mse
 ms.topic: get-started-article
 applies_to:
@@ -99,9 +99,7 @@ All widgets can render in a table mode. You can also set the table view as your 
 
 1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
 
-2. In the list of actions, select **Switch to table view**.
-
-[comment]: <> (Get table view icon from design with solid white background)
+2. In the list of actions, select **Switch to table view** ![Table view symbol](media/table-view-icon.jpg "Table view symbol").
 
 
 ### See Also  
