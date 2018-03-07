@@ -49,7 +49,6 @@ Organizations often need to be in compliance with various regulations to ensure 
   
 * Audit of read operations
 * Audit of metadata changes 
-* Audit of text blobs, notes, and attachments  
   
 ## Key concepts  
  The following bullets identify some key auditing concepts:  
