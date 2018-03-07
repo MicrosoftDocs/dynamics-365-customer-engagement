@@ -123,22 +123,21 @@ The answer tag can be consumed in:
 
 The following example illustrates the use of answer tag.
 
-You create a survey to find out tea and coffee drinking habit of your colleagues.
+You create a survey to find out tea and coffee drinking habit of your colleagues. You create the questions as follows:
 
-**Question 1**: Which of the following beverages do you drink during your day?
-- Tea
-- Coffee
+![Survey question designer page 1](media/survey-ques-design-1.png "Survey question designer page 1")
 
-**Question 2**: How often do you drink \_beverage\_?
-- Once a day
-- Twice a day
-- More than twice a day
+![Survey question designer page 2](media/survey-ques-design-2.png "Survey question designer page 2")
 
-**Question 3**: Are you satisfied with the \_beverage\_ vending machine?
-- Yes
-- No
+In the above question, you have entered \_beverage\_ in the **Answer Tag** field of question 1. The answer tag \_beverage\_ stores the response to question 1. 
 
-In the above example, you have entered \_beverage\_ in the Answer Tag field of question 1. The answer tag \_beverage\_ stores the response to question 1. Based on the response, the answer tag in subsequent questions is replaced accordingly at run time.
+![Answer tag](media/answer-tag.png "Answer tag")
+
+When you view the survey at run time, the \_beverage\_ in the subsequent questions is replaced with the answer of the question 1.
+
+![Answer tag stored for the first question at survey run time](media/survey-runtime-1.png "Answer tag stored for the first question at survey run time")
+
+![Answer tag replaced at survey run time](media/survey-runtime-2.png "Answer tag replaced at survey run time")
 
 To add an answer tag:
 1.	Sign in to Dynamics 365.

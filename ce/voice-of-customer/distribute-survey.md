@@ -88,6 +88,9 @@ You can [send direct email](https://docs.microsoft.com/en-us/dynamics365/custome
 
 ![Send direct email to a contact](media/direct-email.png "Send direct email to a contact")  
 
+> [!NOTE]
+> You can add multiple survey snippets to an email and send them your respondents.
+
 You can also select an email template when you create an email in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]:
 
 1.  Select **Insert Template** from the toolbar.
@@ -168,7 +171,7 @@ would look like this to the customer:
 
 ### Translate survey invitation link text
 
-You can also translate the survey invitation link text to a different locale by using the **lang** pipe. This allows you to personalize the invitation link text as per the respondent’s locale.
+You can translate the survey invitation link text to a different locale by using the **lang** pipe. This allows you to personalize the invitation link text as per the respondent's locale.
 
 For example: You create an email and paste the survey snippet along with the **lang** pipe in the email body. In this example, French locale is specified in the pipe.
 
