@@ -6,7 +6,7 @@ author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
 manager: sakudes
-ms.date: 02/20/2018
+ms.date: 09/30/2017
 ms.topic: get-started-article
 ms.service: crm-online
 ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
