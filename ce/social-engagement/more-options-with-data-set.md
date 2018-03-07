@@ -58,5 +58,4 @@ Your search topics usually gather more data than you want to analyze at a given 
 ### See Also  
  [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
  [Get relevant data using filters](use-filters.md)   
- [Perform visual filtering on widgets](visual-filtering-widgets.md)
  

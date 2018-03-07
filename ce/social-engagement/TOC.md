@@ -36,7 +36,6 @@
 ## [Analyze social data](analyze-social-data-using-widgets.md)
 ### [Use filters to see relevant data](use-filters.md)
 ### [Get to know your filters](understand-filters.md)
-### [Perform visual filtering on widgets](visual-filtering-widgets.md)
 ### [Explore more options with your data set](more-options-with-data-set.md)
 ### [Understand widgets on the Overview page](analytics-overview.md)
 ### [Gain insights from public conversations](analytics-conversations.md)

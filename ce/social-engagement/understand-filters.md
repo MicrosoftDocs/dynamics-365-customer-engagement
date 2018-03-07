@@ -91,4 +91,3 @@ Filter posts by [author tags](author-tags.md). Author tags are a convenient way 
 ### See also  
  [Use filters to see relevant data](use-filters.md)   
  [Analyze social data using widgets](analyze-social-data-using-widgets.md)    
- [Perform visual filtering on widgets](visual-filtering-widgets.md)

@@ -24,7 +24,7 @@ The **Analytics** area helps you to analyze social data and displays widgets bas
 [Learn how to navigate the Analytics area.](get-started.md#get-around-in-the-analytics-area)     
 You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis. If no posts are available or match your filters, widgets display no metrics and an error message.
   
-Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provide you with [drill-down functionality to narrow your data set](visual-filtering-widgets.md). Click a data point to get a more detailed view of the data.  
+Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provide you with [drill-down functionality to narrow your data set](use-filters.md#drill-down-into-data-and-apply-filters-from-widgets). Click a data point to get a more detailed view of the data.  
   
 > [!VIDEO https://www.youtube.com/embed/pcxVyYz-zps]
   
@@ -106,5 +106,5 @@ All widgets can render in a table mode. You can also set the table view as your 
 
 ### See Also  
 [Get to know your filters](use-filters.md)    
-[Perform visual filtering on widgets](visual-filtering-widgets.md)   
+[Analyze social data using widgets](analyze-social-data-using-widgets.md)   
 [Understand widgets on the Overview page](analytics-overview.md)
