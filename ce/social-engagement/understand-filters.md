@@ -2,7 +2,7 @@
 title: "Get to know your Social Engagement filters | Microsoft Docs"
 description: "See the list of filters and what they do."
 keywords: "filter, filtering, Social Engagement"
-ms.date: 12/14/2017
+ms.date: 03/07/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -56,7 +56,7 @@ You can edit or remove filters from your analysis at any time, and the charts, l
 
 ## Author tags
 
-Filter posts by [author tags](author-tags.md). Author tags are a convenient way to quickly create groups of authors to see what they are discussing. You can also exclude authors from this filter. This is a convenient way to create data sets which exclude a tagged group of authors For example, if there are regulations that don't allow the processing of data for minors, you can tag authors that are minors and exclude them in the data set that you analyze or process in other ways. 
+Filter posts by [author tags](author-tags.md). Author tags are a convenient way to quickly create groups of authors to see what they are discussing. You can also exclude author tags from this filter. This is a convenient way to create data sets which exclude a tagged group of authors. For example, if there are regulations that don't allow the processing of data for minors, you can tag authors that are minors and exclude them in the data set that you analyze or process in other ways. 
 
 ## Authors  
  Filter posts by author names. Any author name is available for filtering if the author published at least one post. Start typing the author name to see suggested author names from your solution's database. When you filter by author, only posts from the selected authors remain in your data set and widgets display.  
@@ -70,7 +70,7 @@ Filter posts by [author tags](author-tags.md). Author tags are a convenient way 
   
  **Share**: All posts in your data set that are shares on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] or retweets on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)].  
   
- **Private message**: All posts that are direct messages sent to a social profile. Additionally, the acquisition of private messages must be allowed in the social profile and a private messages rule must be set up to capture them.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a private messages rule](add-rules-search-topic.md#privateMessagesRule)  
+ **Private message**: All posts that are direct messages sent to a social profile. Additionally, the acquisition of private messages must be allowed in the social profile and a [private messages rule](add-rules-search-topic.md#privateMessagesRule) must be set up to capture them.
   
 ## Contributor  
  Narrow your data set to show posts that are coming from either the owner or audience of a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page. You can choose to see posts from [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages that were either published by the owner of a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page or from other people posting on this [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.  
@@ -86,8 +86,9 @@ Filter posts by [author tags](author-tags.md). Author tags are a convenient way 
  Find posts that either are or aren't linked to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record.  
   
 ## Post Tags and Intentions  
- Find posts that match one of the available intention tags or custom tags. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Tag posts with intention tags and custom tags](tags.md)  
+ Find posts that match one of the available [intention tags or custom tags](tags.md).
   
 ### See also  
  [Use filters to see relevant data](use-filters.md)   
+ [Analyze social data using widgets](analyze-social-data-using-widgets.md)    
  [Perform visual filtering on widgets](visual-filtering-widgets.md)
