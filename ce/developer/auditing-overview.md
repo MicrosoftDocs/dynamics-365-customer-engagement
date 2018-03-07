@@ -3,7 +3,7 @@ title: "Auditing overview (Developer Guide for Dynamics 365 Customer Engagement)
 description: "Overview of the audit capabilities, supported on all custom and most customizable entities and attributes, but not supported on metadata changes, 
 retrieve operations, export operations, or during authentication."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 03/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -48,8 +48,7 @@ Organizations often need to be in compliance with various regulations to ensure 
  The following lists what cannot be audited for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)]:  
   
 * Audit of read operations
-* Audit of metadata changes 
-* Audit of text blobs, notes, and attachments  
+* Audit of metadata changes
   
 ## Key concepts  
  The following bullets identify some key auditing concepts:  
