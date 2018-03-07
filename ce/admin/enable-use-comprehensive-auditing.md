@@ -39,7 +39,7 @@ Audit logging as described in [Audit data and user activity for security and com
 
 Comprehensive auditing has two significant differences with prior [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] auditing:
 
-1. User and admin activities across Office and Dynamics 365 apps are logged.
+1. You can log user and admin activities across Office and Dynamics 365 apps.
 
    ![Activities across apps](media/activities-across-apps.png "Activities across apps")
 
@@ -49,7 +49,7 @@ Comprehensive auditing has two significant differences with prior [!INCLUDE [pn-
 
 
 ## What events are audited
-The following are the admin and user events you can audit.
+Logging takes place at the SDK layer which means a single action can trigger multiple events that are logged. The following are a sample of admin and user events you can audit.
 
 ### Admin-related events
 
@@ -165,8 +165,14 @@ We use the prefix to categorize.
 ## Additional considerations
 
 - When audit log search in the Office 365 Security and Compliance Center is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days. However, your organization might not want to record and retain audit log data. Or you might be using a third-party security information and event management (SIEM) application to access your auditing data. In those cases, a global admin can turn off audit log search in Office 365.
-- [JimHoltz: I'll need your description for Record level discussion, guids not values]
-- [JimHoltz: I'll need your example scenario and what's logged for SDK layer discussion]
+
+## Known issues
+
+- Consider turning off logging of logged events to cut down on the amount of logged data. Do the following:
+  1. step 1
+  2. step 2
+  3. step 3
+- [JimHoltz: I'll need content.]
 
 ### See also
  [Audit data and user activity for security and compliance](audit-data-user-activity.md)<br />
