@@ -3,7 +3,7 @@ title: "Auditing overview (Developer Guide for Dynamics 365 Customer Engagement)
 description: "Overview of the audit capabilities, supported on all custom and most customizable entities and attributes, but not supported on metadata changes, 
 retrieve operations, export operations, or during authentication."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 03/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
