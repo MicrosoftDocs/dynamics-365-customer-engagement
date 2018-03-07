@@ -35,5 +35,10 @@ To find this information, go to **Settings** >**Advanced Settings** > **Others**
 - **Contact**: Shows the total number of contacts that you can use with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] at your current subscription level, and how many you have used. The number of used contacts (and your allocation) includes all contacts on all [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organizations where you have installed [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
 > [!Note]
-> To read more about the specific quotas and other limits that apply, download the [Usage Restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735) document for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
+> Quotas and other limits are different based on whether you are running a trial, preview, or subscribed version of the product. 
+>
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](http://download.microsoft.com/documents/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf).
+> - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
+> 
+> See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
