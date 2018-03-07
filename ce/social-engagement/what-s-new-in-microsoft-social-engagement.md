@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 02/14/2018
+ms.date: 03/07/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,24 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.3
+
+### Exclude option for author tags filter
+
+The [author tags filter](understand-filters.md#author-tags) now lets you exclude specific author tags from your data set. 
+
+### Usability improvements extended tweet length
+
+Twitter extended its support for longer messages in November. For most languages, the same limits were in place. This update adds support for Korean, Thai, and Simplified Chinese language. 
+
+### Introducing compliance stream for Twitter, Tumblr, and WordPress
+
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now supports retroactive deletion of posts that were acquired, and deleted on the source afterwards. Posts from Twitter, Tumblr, and WordPress are now removed from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] when the author removes them from the source.
+
+### Service and product improvements
+
+For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.2
 
