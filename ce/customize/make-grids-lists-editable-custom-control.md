@@ -110,7 +110,7 @@ In previous releases of Dynamics CRM, users couldn’t enter data directly in gr
 ## Make a subgrid on a form editable
 
 > [!NOTE] 
->  - To save an editable grid change within a subgrid, the user must explicitly save before navigating out of the form.
+> - To save an editable grid change within a subgrid, the user must explicitly save before navigating out of the form.
 > - If you are using legacy forms (versions prior to Dynamics CRM 2016) and enable an editable grid on a subgrid, the editable subgrid will not be rendered. System administrators can turn off legacy forms in system settings, if needed.
   
 1.  Go to **Settings>Customization>Customize the System**.  
