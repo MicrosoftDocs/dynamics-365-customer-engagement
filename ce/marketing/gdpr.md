@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Data protection and GDPR
 
-The General Data Protection Regulation (GDPR) is a European Unction (EU) directive that requires organizations operating within the EU to respect the privacy of EU citizens and obtain explicit consent to contact them or use their personal information in any data automation or storage system. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is prepared to help organizations work in compliance with the GDPR when using the system, but some development work, consultancy assistance, or both, is still necessary. As part of a comprehensive, organization-wide effort, most organizations need to review and update all their information systems to come into complete compliance.
+The General Data Protection Regulation (GDPR) is a European Union (EU) directive that requires organizations operating within the EU to respect the privacy of EU citizens and obtain explicit consent to contact them or use their personal information in any data automation or storage system. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is prepared to help organizations work in compliance with the GDPR when using the system, but some development work, consultancy assistance, or both, is still necessary. As part of a comprehensive, organization-wide effort, most organizations need to review and update all their information systems to come into complete compliance.
 
 ## Learn more about GDPR
 
@@ -86,7 +86,7 @@ If you change the consent level of a running customer journey, the journey stops
 
 You can set the minimal consent level for any lead-scoring model. When set, the model scores only leads that are associated with contacts who have granted that consent level or higher.
 
-To do this, open the lead scoring model, go to the **Summary** tab and choose the minimal consent level from the **Required consent** drop-down list.
+To do this, open the lead scoring model, go to the **Summary** tab, and choose the minimal consent level from the **Required consent** drop-down list.
 
 ## Respond to get-my-data requests
 
