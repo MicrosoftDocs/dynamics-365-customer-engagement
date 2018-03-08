@@ -24,7 +24,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], custom business apps are comprised of components such as entities, dashboards, forms, views, charts, and business processes.  
+With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], custom business apps are comprised of components such as entities, dashboards, forms, views, charts, and business processes.  
   
  The app designer helps you bring together all these components quickly. Its tile-based information structure and simplified interface make the process of building an app much easier, and you can create apps that are specific to your business roles and functions without having to write any code.  
   
