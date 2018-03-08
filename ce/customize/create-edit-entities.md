@@ -20,7 +20,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-Entities define the types of records people can use in a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] or a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], you can edit customizable system entities and create, edit, and delete custom entities.  
+Entities define the types of records people can use in a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] app or a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] organization. In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], you can edit customizable system entities and create, edit, and delete custom entities.  
   
 ### See also    
  [Entities and metadata overview](../customize/create-edit-metadata.md)   
