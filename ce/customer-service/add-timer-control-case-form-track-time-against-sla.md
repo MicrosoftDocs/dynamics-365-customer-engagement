@@ -7,10 +7,7 @@ ms.author: anjgup
 manager: sakudes
 ms.date: 03/09/2018
 ms.topic: article
-ms.reviewer: ""
 ms.service: crm-online
-ms.suite: ""
-ms.tgt_pltfrm: "
 applies_to: 
   - Dynamics 365 (online)
   - Dynamics 365 Version 9.x
