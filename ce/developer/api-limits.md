@@ -2,7 +2,7 @@
 title: "API Limits | MicrosoftDocs"
 description: "Understand the limits for API requests."
 ms.custom: ""
-ms.date: 02/18/2018
+ms.date: 03/08/2018
 ms.reviewer: "sriknair"
 ms.service: "crm-online"
 ms.topic: "article"
@@ -18,7 +18,7 @@ manager: "faisalmo"
 - [!INCLUDE [cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 - [!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
  
-Beginning March 19, 2018 we will limit the number of API requests made by each user within five minutes. When this limit is exceeded, an exception will be thrown by the platform.
+Beginning March 19, 2018 we will limit the number of API requests made by each user, per organization instance, within a five minute interval. When this limit is exceeded, an exception will be thrown by the platform.
 
 The limit will help ensure that users running applications that make extraordinarily large demands on servers will not affect other users. The limit will not affect normal users of the platform. Only applications that perform a very large number of API requests will be affected. Based on telemetry data analysis, this limit is well within the bounds of most applications that perform a large number of API requests. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
 
@@ -26,7 +26,7 @@ If your application has the potential to exceed the limit, please consider the g
 
 ## What is the limit?
 
-Each user will be allowed up to 60,000 API requests within five minutes.
+Each user will be allowed up to 60,000 API requests, per organization instance, within five minute sliding interval.
 
 ## What happens when the limit is exceeded?
 
@@ -42,7 +42,7 @@ All requests will return these error responses until the volume of API requests 
 
 ## How is this limit calculated?
 
-As an organization, API requests made by each of your licensed users (including the licensed identity used for running automation) will be measured against this limit. The platform will measure the number of API requests made in five minutes, which keeps sliding by a definite period. During each measurement interval, at the end of five minutes, the number of API requests by the user is counted. In the figure below, three users are making API call requests over a six-minute period.  
+Within an organization instance, API requests made by each of your licensed users (including the licensed identity used for running automation) will be measured against this limit. The platform will measure the number of API requests made in five minutes, which keeps sliding by a definite period. During each measurement interval, at the end of five minutes, the number of API requests by the user is counted. In the figure below, three users are making API call requests over a six-minute period.  
 
 ![api-limit-implementation](media/api-limit-implementation-1.png)
 
