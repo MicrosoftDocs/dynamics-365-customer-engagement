@@ -16,12 +16,15 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Audit data and user activity for security and compliance 
+# Audit data and user activity for security and compliance
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] auditing feature logs changes that are made to customer records and user access so you can review the activity later. The auditing feature is designed to meet the auditing, compliance, security, and governance policies of many regulated enterprises.  
   
+> [!NOTE]
+> This topic describes the process for enabling and viewing activities for a specific set of entities and attributes. For a auditing at a broader entity level with multiple records, consider using auditing with the Office 365. See [Enable and use comprehensive auditing](enable-use-comprehensive-auditing.md).
+
  The audit logs help the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] Administrator answer questions such as:  
   
 -   Which user was accessing the system and when?  

@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/28/2017
+ms.date: 02/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -179,7 +179,7 @@ Check back later for updates on supported platforms.
 
 ||||||
 |-|-|-|-|-|
-| |Received email<br />(view information and track)|Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales literature|Appointments and meetings <br />(view information and track|Contacts<br />(view information and track)|
+| |Received email<br />(view information and track)|Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales literature)|Appointments and meetings <br />(view information and track)|Contacts<br />(view information and track)|
 |[!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> |O<sup>3</sup>  and M<sup>2</sup> |
 |[!INCLUDE [pn-ms-outlook-2013-short](../includes/pn-ms-outlook-2013-short.md)]  (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
 |Outlook for Mac (desktop client)|O and M||||
@@ -191,7 +191,7 @@ Check back later for updates on supported platforms.
 
 Note: Dynamics 365, version 9 is not available on-premises.
 
-(1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or Exchange Server 2016. <br />
+(1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
 (2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 or later. <br />
 (3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
 (4) Supported on iPhones 6S or higher, with iOS 8 or higher.

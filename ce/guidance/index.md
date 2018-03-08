@@ -1,7 +1,7 @@
 ---
 title: "Overview of guidance content | MicrosoftDocs"
 description: "Technical guidance for developers created by the Microsoft Dynamics 365 Customer Engagement team based on common issues and problems reported by customers. The guidance in these topics includes guidance regarding usage, design, performance, security, upgrade readiness, online migration, maintainability, and supportability. This content describes common symptoms, problematic patterns, and the potential impact of common problems as well as guidance about how to avoid them."
-ms.date: 12/15/2017
+ms.date: 02/05/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -16,13 +16,13 @@ manager: "austinj"
 **Applies to**:
 
 - [!include[](../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../includes/pn-crm-8-2-0-online.md)]
-- [!include[](../includes/pn-crm-2016-onprem.md)]
+- [!include[](../includes/pn-crm-2016.md)]
+- [!include[](../includes/pn-crm-8-1-0-both.md)]
 - [!include[](../includes/pn-crm-2015.md)]
 - [!include[](../includes/pn-crmv6.md)]
 - [!include[](../includes/pn-crm-2011.md)]
 
-[!include[](../includes/pn-dynamics-crm.md)] provides a flexible platform which you can customize and extend to more closely fit your organization’s industry, nomenclature, and unique business processes. With any flexible platform, comes great power, and from the shared knowledge and experiences of the product development, service, and support teams within Microsoft, we have identified common issues that can occur if best practices are not followed when you are customizing, extending, or integrating with the platform. This section provides you a centralized location to learn about the issues we have identified, their impact, and understand the guidance to resolve them. You will have some background about why things should be done in a certain way and avoid potential problems in the future. This can benefit the usability, supportability, and performance of your environment.  The guidance documentation supports the existing information within the SDK and the Developer and Administration guides.
+We have identified common issues that can occur if best practices are not followed when you are customizing, extending, or integrating with the platform. This section provides you a centralized location to learn about the issues we have identified, their impact, and understand the guidance to resolve them. You will have some background about why things should be done in a certain way and avoid potential problems in the future. This can benefit the usability, supportability, and performance of your environment.  The guidance documentation supports the existing information within the SDK and the Developer and Administration guides.
 
 <a name='custtypes'></a>
 
@@ -59,7 +59,7 @@ Each guidance article is classified with one or more of the following categories
 - *Design* – design flaws in a customization
 - *Performance* – customization or pattern that may produce a negative effect on performance in areas such as memory management, CPU utilization, network traffic, or user experience
 - *Security* – potential vulnerabilities in a customization that could be exploited in a runtime environment
-- *Upgrade readiness* - customization or pattern that may increase risk of having an unsuccessful version upgrade
-- *Online migration* - customization or pattern that may increase risk of having an unsuccessful online migration
+- *Upgrade Readiness* - customization or pattern that may increase risk of having an unsuccessful version upgrade
+- *Online Migration* - customization or pattern that may increase risk of having an unsuccessful online migration
 - *Maintainability* – customization that unnecessarily increases the amount of developer effort required to make changes, the frequency of required changes, or the chance of introducing regressions
 - *Supportability* – customization or pattern that falls outside the boundaries of published supportability statements, including usage of removed APIs or implementation of forbidden techniques
