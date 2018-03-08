@@ -1,22 +1,20 @@
 ---
 title: Timer control in the Case form to track time against an SLA | Microsoft Docs
 description: Know how to add Timer control in the Case form to track time against an SLA in Microsoft Dynamics 365
-keywords: Timer control; Interactive Service hub, Customer Service Hub, Microsoft Dynamics 365; Customer Service
+keywords: Timer control; Customer Service Hub; Microsoft Dynamics 365; Customer Service
 author: anjgupta
 ms.author: anjgup
 manager: sakudes
-ms.custom: ""
-ms.date: 09/15/2017
+ms.date: 03/09/2018
+ms.topic: article
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: crm-online
 ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.tgt_pltfrm: "
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 134d9bde-67cc-418e-9c7b-802c46fd0a9c
-caps.latest.revision: 36
 ---
 
 # Add a timer control to the Case form to track time against an SLA
@@ -37,12 +35,16 @@ Add a timer control to an entity form to help users gauge the amount of time the
   
 -   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
   
- ![Timer control in progress in Dynamics 365](../customer-service/media/crm-ua-timer-control-progress.png "Timer control in progress in Dynamics 365")  
+![Timer control state in Customer Service Hub](media/timer-sla-csh.png)
+
+![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png)
   
 > [!IMPORTANT]
 > - The instructions in this topic apply  if you're adding a timer to track time for  the date/time field of any entity, or for tracking time against standard  SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
-  
+ 
+For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
+ 
 ## Add a timer control to the Case form  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
@@ -55,15 +57,15 @@ Add a timer control to an entity form to help users gauge the amount of time the
   
 3.  Click **Customize the System**.  
   
-4.  In the solution explorer, in the left nav pane, expand **Entities**, expand the **Case** entity, click **Forms**, and then open the **Case** form of type **Main**.  
+4.  In the solution explorer, in the left nav pane, expand **Entities**, expand the **Case** entity, and click **Forms**.
   
-     To add the timer to the interactive experience form so the customer service representatives can use it in the interactive service hub, open the case form of type **Main – Interactive experience**.  
+     To add the timer to the form so the customer service representatives can use it in the Customer Service Hub, open the case form of type **Main**.  
   
 5.  Click on the form where you want to place the control. You can add it anywhere except the form header or footer.  
   
 6.  On the **Insert** tab, in the **Control** group, click **Timer**.  
-  
- ![Timer control button on Insert tab in Dynamics 365](../customer-service/media/crm-ua-timercontrol-button.PNG "Timer control button on Insert tab in Dynamics 365")  
+
+    ![Timer control button on Insert tab in Customer Service Hub](media/insert-timer-control.png)
   
 7.  In the **Timer Control** dialog box:  
   
@@ -81,7 +83,7 @@ Add a timer control to an entity form to help users gauge the amount of time the
   
     7.  Next to **Pause Condition**, enter the condition that will cause the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to “On-hold”. For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
   
-    ![Timer control dialog box in Dynamics 365](../customer-service/media/crm-ua-timer-control-dialog-box.png "Timer control dialog box in Dynamics 365")  
+       ![Timer control in Customer Service Hub](media/timer-control-box-csh.png)
   
 8.  Click **OK** to add the control to the form.  
   
