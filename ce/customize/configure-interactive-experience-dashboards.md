@@ -20,12 +20,12 @@ ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 
 ## Dashboards overview
 
-Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. The dashboards are fully configurable, security-role based,and deliver workload information across multiple streams in real time. 
+Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams in real time. 
 
 For more information about dashboards, see [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../customer-service/customer-service-hub-user-guide-dashboard.md)
 
 > [!NOTE]
->  The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues have to be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
+>  The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues must be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
   
  The illustrations in this topic show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
 
@@ -89,7 +89,7 @@ The interactive dashboards come in two flavors:
 > All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 web application.
   
 ### Configure fields  
- For a field to appear in the global filter and to be included in the data stream sort, you have to set two flags: 
+ For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
 
 - Appears in global filter in interactive experience
 - Sortable in interactive experience dashboard
@@ -99,7 +99,7 @@ Refer the screen below to see the 2 flags enabled in the **Case** entity for the
 ![Enable a field for global filter and sort](media/enable-filter-sort.png)
   
 ### Configure global filter fields  
- For a field to appear in the global filter, you have to set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is selected the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity.  
+ For a field to appear in the global filter, you must set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is selected the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity.  
 
  The global filter flyout window is shown here:  
   
@@ -123,7 +123,7 @@ Refer the screen below to see the 2 flags enabled in the **Case** entity for the
 6.  Select **Publish All Customizations** for your changes to take effect.  
   
 ### Configure sortable fields  
- For a field to be used in sorting stream data, you have to set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear when you select the drop-down list on the stream header. 
+ For a field to be used in sorting stream data, you must set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear when you select the drop-down list on the stream header. 
 
 The following illustration shows the flyout dialog with the list of the available fields for sorting, in the drop-down list. The default sort is always set on the **Modified On** field.  
   
@@ -213,7 +213,7 @@ The following illustration shows the flyout dialog with the list of the availabl
 > [!NOTE]
 >  The **Queue** option is available in the dialog box only for queue-enabled entities. For entity dashboards, if the entity is not queue enabled, you won't see the **Queue** option in the dialog box. You can only use the **View option** in the stream of dashboards for entities that are not queue enabled.  
   
-The following illustration is an example of a fully confifured chart panel, and stream panel:
+The following illustration is an example of a fully configured chart panel, and stream panel:
   
 ![All interactive charts](media/example-stream-visual.png)
 

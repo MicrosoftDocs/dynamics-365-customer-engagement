@@ -52,15 +52,15 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
 2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-3.  Click **Customize the System**.  
+3.  Select **Customize the System**.  
   
-4.  In the solution explorer, in the left nav pane, expand **Entities**, expand the **Case** entity, and click **Forms**.
+4.  In the solution explorer, in the left nav pane, expand **Entities**, expand the **Case** entity, and select **Forms**.
   
      To add the timer to the form so the customer service representatives can use it in the Customer Service Hub, open the case form of type **Main**.  
   
-5.  Click on the form where you want to place the control. You can add it anywhere except the form header or footer.  
+5.  Select on the form where you want to place the control. You can add it anywhere except the form header or footer.  
   
-6.  On the **Insert** tab, in the **Control** group, click **Timer**.  
+6.  On the **Insert** tab, in the **Control** group, select **Timer**.  
 
     ![Timer control button on Insert tab in Customer Service Hub](media/insert-timer-control.png)
   
@@ -82,7 +82,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
        ![Timer control in Customer Service Hub](media/timer-control-box-csh.png)
   
-8.  Click **OK** to add the control to the form.  
+8.  Select **OK** to add the control to the form.  
   
  **Notes**  
   
@@ -95,6 +95,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
 -   You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)].  
   
 ### See also  
+
  [Define service level agreements](../customer-service/define-service-level-agreements.md)   
  [Common field properties](../customize/common-field-properties-legacy.md)   
  [Special field properties](../customize/special-field-properties-legacy.md)
