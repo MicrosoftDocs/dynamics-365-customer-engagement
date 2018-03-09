@@ -74,6 +74,17 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Admin activities     |Admin activities on customer tenant.|
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
 
+## Schema for Office
+[JimHoltz: I'll need a lot of help with this section. I know very little about this.]
+
+
+|Field name  |Type  |Mandatory  |Description  |
+|---------|---------|---------|---------|
+|Row1     |         |         |         |
+|Row2     |         |         |         |
+|Row3     |         |         |         |
+
+
 ## Enable auditing in Dynamics 365
 
 1. In Dynamics 365 (online), choose **Settings** > **Administration** > **System Settings** > **Auditing tab**.
