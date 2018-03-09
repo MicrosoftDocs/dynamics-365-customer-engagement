@@ -1,5 +1,5 @@
 ---
-title: "Solutions in Dynamics 365 for Marketing (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Dynamics 365 for Marketing solutions (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
 ms.custom: ""
 ms.date: 04/01/2017
@@ -14,7 +14,7 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Solutions in Dynamics 365 for Marketing
+# Dynamics 365 for Marketing solutions
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -34,3 +34,5 @@ Dynamics 365 for Marketing adds the following solutions to your Dynamics 365 ins
 |MicrosoftDynamics_MktPageTemplates|Page Templates for Marketing|Part of Dynamics 365 for Marketing. Provides templates for designing marketing pages.|
 |MicrosoftDynamics_MktPortalsLink|Portals - Marketing Integration|Part of Dynamics 365 for Marketing. Integrates the portal capabilities for Dynamics 365 solution with Marketing to provide marketing-page features.|
 |MicrosoftDynamics_MktVocLink|Voice of the Customer - Marketing Integration|Part of Dynamics 365 for Marketing. Integrates the Voice of the Customer solution with Marketing to provide customer-survey features.|
+
+Each solution provides entities and actions that you can use to customize and extend your app.
