@@ -18,9 +18,11 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-All the entities that are installed as part of the Dynamics 365 for Marketing solutions adhere to the standard extensibility model in Dynamics 365. This implies that developers/ISVs can perform standard create, retrieve, update, and delete (CRUD) operations on entities if their user account has the appropriate privileges. This section provides entity reference for only those entities in Dynamics 365 for Marketing that has a specif developer use case scenario.
+All the entities that are installed as part of the Dynamics 365 for Marketing solutions support the [standard programming model](../../developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so. 
 
-If you want to view information about all the entities and their properties, attributes, and relationships, use the Entity Metadata Browser tool. Entity Metadata Browser is a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
+This section provides detailed entity reference for only those entities in Dynamics 365 for Marketing that have a specific developer scenario.
+
+To view information about all the entities and their properties, attributes, and relationships in your Dynamics 365 for Marketing instance, use the **Entity Metadata Browser** tool. Entity Metadata Browser is a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
 
 ## Install Entity Metadata Browser
 
