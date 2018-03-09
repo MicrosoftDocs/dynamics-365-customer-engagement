@@ -2,7 +2,7 @@
 title: "Work with email templates (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to work with email templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
 keywords: "designer; email; preview; template; Litmus"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

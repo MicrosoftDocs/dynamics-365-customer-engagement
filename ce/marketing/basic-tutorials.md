@@ -2,7 +2,7 @@
 title: "Basic tutorials (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Step-by-step tutorials for learning how to work with core user scenarios in Dynamics 365 for Marketing"
 keywords: "tutorial; basic; overview"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

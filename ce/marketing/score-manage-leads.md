@@ -2,7 +2,7 @@
 title: "Generate, score, and qualify leads (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to work with leads, set up automatic scoring rules, and identify sales-ready prospects in Dynamics 365 for Marketing"
 keywords: "lead; lead-scoring rule; grade; qualify; sales ready"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

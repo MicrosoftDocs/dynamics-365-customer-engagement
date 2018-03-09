@@ -2,7 +2,7 @@
 title: "First time setup troubleshooting and FAQ (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Solutions to common questions and issues that can occur during the initial setup of Dynamics 365 for Marketing"
 keywords: "troubleshooting;setup"
-ms.date: 01/31/2018
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

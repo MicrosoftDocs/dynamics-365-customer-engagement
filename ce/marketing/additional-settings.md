@@ -2,7 +2,7 @@
 title: "Manage sample data (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "For administrators: Add or remove sample data for Dynamics 365 for Marketing."
 keywords: "administration; sample data"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: marketing
 ms.topic: article

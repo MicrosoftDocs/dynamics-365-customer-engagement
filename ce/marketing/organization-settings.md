@@ -2,7 +2,7 @@
 title: "Administer users, teams, templates, and themes (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Make settings that relate to your organization, including: add new user accounts, set user permissions, add Word and Excel templates for exports, set the fiscal year, and change the general appearance in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; user; team; role; permission; fiscal year"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

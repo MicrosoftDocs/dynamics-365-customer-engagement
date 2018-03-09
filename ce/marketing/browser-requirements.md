@@ -2,7 +2,7 @@
 title: "Browser requirements for Dynamics 365 for Marketing | Microsoft Docs"
 description: "Learn about the browser requirements for Dynamics 365 for Marketing"
 keywords: "browser;requirements"
-ms.date: 02/26/2018
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

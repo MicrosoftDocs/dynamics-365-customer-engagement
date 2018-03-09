@@ -2,7 +2,7 @@
 title: "Create segments and lists to establish target markets (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
 keywords: "segment; marketing list; subscription; Customer Insights"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

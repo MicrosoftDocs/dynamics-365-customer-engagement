@@ -2,7 +2,7 @@
 title: "Inbound marketing with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 for Marketing"
 keywords: "tutorial; inbound marketing; landing page; page"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
