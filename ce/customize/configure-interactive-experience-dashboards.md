@@ -18,6 +18,8 @@ ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+## Dashboards overview
+
 Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. The dashboards are fully configurable, security-role based,and deliver workload information across multiple streams in real time. 
 
 For more information about dashboards, see [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../customer-service/customer-service-hub-user-guide-dashboard.md)
@@ -97,7 +99,7 @@ Refer the screen below to see the 2 flags enabled in the **Case** entity for the
 ![Enable a field for global filter and sort](media/enable-filter-sort.png)
   
 ### Configure global filter fields  
- For a field to appear in the global filter, you have to set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is clicked on the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity.  
+ For a field to appear in the global filter, you have to set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is selected the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity.  
 
  The global filter flyout window is shown here:  
   
@@ -110,18 +112,18 @@ Refer the screen below to see the 2 flags enabled in the **Case** entity for the
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2.  Select **Customize the System**.  
   
 3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-4.  In the navigation pane, click **Fields** and in the grid, double-click the field you want to enable.  
+4.  In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
   
-5.  In the **General** tab, select the **Appears in global filter in interactive experience** check box. Click **Save and Close**.  
+5.  In the **General** tab, select the **Appears in global filter in interactive experience** check box. Select **Save and Close**.  
   
-6.  Click **Publish All Customizations** for your changes to take effect.  
+6.  Select **Publish All Customizations** for your changes to take effect.  
   
 ### Configure sortable fields  
- For a field to be used in sorting stream data, you have to set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear when you click the drop-down list on the stream header. 
+ For a field to be used in sorting stream data, you have to set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear when you select the drop-down list on the stream header. 
 
 The following illustration shows the flyout dialog with the list of the available fields for sorting, in the drop-down list. The default sort is always set on the **Modified On** field.  
   
@@ -131,15 +133,15 @@ The following illustration shows the flyout dialog with the list of the availabl
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2.  Select **Customize the System**.  
   
 3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-4.  In the navigation pane, click **Fields** and in the grid, double-click the field you want to enable.  
+4.  In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
   
-5.  In the **General** tab, select the **Sortable in interactive experience dashboard** check box. Click **Save and Close**.  
+5.  In the **General** tab, select the **Sortable in interactive experience dashboard** check box. Select **Save and Close**.  
   
-6.  Click **Publish All Customizations** for your changes to take effect. 
+6.  Select **Publish All Customizations** for your changes to take effect. 
   
 ### Enable security roles  
  Select and enable security roles that will be able to view the interactive dashboards.  
@@ -148,15 +150,15 @@ The following illustration shows the flyout dialog with the list of the availabl
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2.  Select **Customize the System**.  
   
-3.  Under **Components**, click **Dashboards**.  
+3.  Under **Components**, select **Dashboards**.  
   
-4.  In the grid, select the interactive dashboard you want and click **Enable Security Roles** on the task bar.  
+4.  In the grid, select the interactive dashboard you want and select **Enable Security Roles** on the task bar.  
   
-5.  In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Click **OK**.  
+5.  In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Select **OK**.  
   
-6.  Click **Publish All Customizations** for your changes to take effect.  
+6.  Select **Publish All Customizations** for your changes to take effect.  
 
 ![Enable security roles](media/security-roles.png)
 
@@ -168,137 +170,135 @@ The following illustration shows the flyout dialog with the list of the availabl
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2.  Select **Customize the System**.  
   
-3.  Under **Components**, click **Dashboards**.  
+3.  Under **Components**, select **Dashboards**.  
   
-4.  In the grid, click **New**, and select **Interactive experience dashboard** in the drop-down list, as shown here.  
+4.  In the grid, select **New**, and select **Interactive experience dashboard** in the drop-down list, as shown below:  
   
- ![Select interactive experience dashboard](../customize/media/interactive-dashboards-choose-interactive.PNG "Select interactive experience dashboard")  
+    ![Select interactive experience dashboard](media/configure-dashboard.png)
   
-5.  Choose the layout and click **Create**.  
+5.  Choose the layout and select **Create**.  
   
 6.  When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
   
- ![Add visual filters](../customize/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
+    ![Add visual filters](../customize/media/interactive-dashboards-add-visual-filters.png "Add visual filters")  
   
-    - **Filter Entity**: The visual filters (interactive charts) and global filter attributes are based on this entity.  
+    - **Filter Entity**: The visual filters and global filter attributes are based on this entity.  
       
-    - **Entity View**: The visual filters (interactive charts) are based on this view.  
+    - **Entity View**: The visual filters are based on this view.  
       
     - **Filter By**: The field that the time frame filter applies to.  
       
     - **Time Frame**: The default time frame filter value for the **Filter By** field.  
       
- After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply click on the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
+ After you  have specified the filtering information, start adding components for the charts and the data streams in the **Visual filters** section . To add a component, simply select the element in the center of the chart or stream, and when the dialog appears, select the required information from the drop-down, as shown in the following illustrations.  
   
  The following shows adding the **Cases By Priority** doughnut chart.  
   
- ![Add a doughnut chart component.](../customize/media/interactive-dashboards-add-chart-circle.png "Add a doughnut chart component.")  
+ ![Add a doughnut chart component](media/add-stream.png)
   
  Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
   
 > [!NOTE]
->  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts.  
+>  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts. 
+![Creating charts for visual filters](media/interactive-dashboard-visual-charts-x-y-axes.png) 
+
   
- ![Creating charts for visual filters](../customize/media/interactive-dashboard-visual-charts-x-y-axes.PNG "Creating charts for visual filters")  
-  
- Next, configure the streams. Just like with adding components in the charts, click the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustrations.  
+ Next, configure the **Streams**. Just like with adding components in the charts, select the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustration.  
+
+![Add a stream of my active cases](media/add-stream-dashboard.png)
   
 > [!NOTE]
 >  The **Queue** option is available in the dialog box only for queue-enabled entities. For entity dashboards, if the entity is not queue enabled, you won't see the **Queue** option in the dialog box. You can only use the **View option** in the stream of dashboards for entities that are not queue enabled.  
   
- Configure the stream for the **Items available to work on** as shown here:  
+The following illustration is an example of the chart panel, and the stream panel:
   
- ![Add a stream of my active cases.](../customize/media/interactive-dashboards-add-stream-case.png "Add a stream of my active cases.")  
-  
- The following illustration is an example of the chart panel, left to right: doughnut chart, tag chart, and bar chart:  
-  
- ![All interactive charts](../customize/media/interactive-dashboards-add-all-charts.png "All interactive charts")  
-  
- This illustration is an example of the stream panel with several streams:  
-  
- ![Add all streams](../customize/media/interactive-dashboards-add-all-streams.png "Add all streams")  
-  
- After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect. Also, make sure to click **Prepare Client Customizations**.  
+![All interactive charts](media/example-stream-visual.png)
+
+After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect.
   
 #### Edit or delete individual streams of an existing dashboard  
- In previous releases, if you wanted to change one of the streams of an existing dashboard, you had to delete all the streams from the dashboard, and add the ones you wanted. With CRM Online Update 1, you can edit individual streams of an existing dashboard.  
+
+Follow the steps given below to edit individual streams of an existing dashboard: 
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2.  Select **Customize the System**.  
   
-3.  Under **Components**, click **Dashboards**.  
+3.  Under **Components**, select **Dashboards**.  
   
      -OR-  
   
-     If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and click the entity you want. Click **Dashboards** under the entity, in the navigation pane.  
+     If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
   
-4.  In the grid, click the name of the interactive dashboard that you want to edit to open it.  
+4.  In the grid, double-click the interactive dashboard that you want to edit, to open it.  
   
-5.  Click the stream that you want to edit to select it, and then click **Edit Component**.  
+5.  Select the stream that you want to edit, and then select **Edit Component**.  
   
-6.  Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then click **Set**.  
+6.  Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then select **Set**.  
   
-7.  Click **Save**.  
+7.  Select **Save**.  
   
- You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, click **Delete**.  
+ You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
   
 ### Configure an entity-specific dashboard  
- An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences. For example, instead of selecting an entity, some fields in the entity-specific dashboard are preset to the entity for which you are creating the dashboard.  
+ An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences. 
+
+For example, instead of selecting an entity, some fields in the entity-specific dashboard are preset to the entity for which you are creating the dashboard.  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2.  Select **Customize the System**.  
   
-3.  Under **Components**, expand **Entities** and click the entity you want. Click **Dashboards** under the entity, in the navigation pane.  
+3.  Under **Components**, expand **Entities** and select the entity you want. Select **Dashboards** under the entity, in the navigation pane.  
   
-4.  In the grid, click **New**, and select **Interactive experience dashboard** in the drop-down list.  
+4.  In the grid, select **New**, and select **Interactive experience dashboard** in the drop-down list.  
   
-5.  Choose the layout and click **Create**.  
+5.  Choose the layout and select **Create**.  
   
 6.  When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
   
  The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
   
 ### Configure a single-stream dashboard  
- Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. If the tiles are included, they are always displayed on the dashboard. To configure a tile, you click on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
+ Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. 
+
+ If the tiles are included, they are always displayed on the dashboard. To configure a tile, you select on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
- ![Add a tile to the single&#45;stream dashboard](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
+![addtile](media/add-tile.png)
   
-<a name="BKMK_ConfigureColors"></a>   
 ## Configure dashboard colors  
- For all **Option Set** and **Two Options** type fields, such as the **Case Type**, **IsEscalated** or **Priority** of the `Case` entity, you can configure a particular color that will appear in the charts and streams for specific field values. For example, high priority cases can be shown in red, medium priority cases in blue, and low priority cases in green in the interactive charts. In the streams, there will be a thin vertical line in color next to the work item description.  
+ For all **Option Set** and **Two Options** type fields, such as the **Case Type**, **IsEscalated** or **Priority** of the **Case** entity, you can configure a particular color that will appear in the charts and streams for specific field values. For example, high priority cases can be shown in red, medium priority cases in blue, and low priority cases in green in the interactive charts. In the streams, there will be a thin vertical line in color next to the work item description.  
   
 > [!NOTE]
 >  The color coding isn’t available for the tag charts and doughnut charts. These charts appear on the dashboard in white, gray, and black shades.  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2.  Click **Customize the System**.  
+2.  Select **Customize the System**.  
   
 3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-4.  In the navigation pane, click **Fields**. In the grid, double-click the field that you want to configure the color for.  
+4.  In the navigation pane, select **Fields**. In the grid, double-click the field that you want to configure the color for.  
   
-5.  In the **General** tab, in the **Type** sub-area, select **Yes** and click **Edit**.  
+5.  In the **General** tab, in the **Type** sub-area, select **Yes** and select **Edit**.  
   
-6.  When the **Modify List Value** dialog appears, set the new value in the **Color** text box. Click **OK**.  
+6.  When the **Modify List Value** dialog appears, set the new value in the **Color** text box. Select **OK**.  
   
-     Click **Save and Close**.  
+     Select **Save and Close**.  
   
-7.  Click **Publish** for your changes to take effect.  
+7.  Select **Publish** for your changes to take effect.  
   
 In the following example, we’re changing the color for the **IsEscalated** field. Use the **Edit** button to open the **Modify List Value** dialog box:  
   
- ![Change color in the dashboard](../customize/media/interactive-dashboards-change-color-edit-button.PNG "Change color in the dashboard")  
+![Change color in the dashboard](media/edit-color.png)
   
 When the **Modify List Value** dialog box opens, choose the color as shown here:  
-  
- ![Modify the dashboard color](../customize/media/interactive-dashboards-modify-color-value.png "Modify the dashboard color")  
+
+![Modify the dashboard color](media/modify-color.png)  
+
   
 ### See also  
- [Interactive experience for customer service](../customer-service/user-guide-customer-service.md)   
  [Create and edit dashboards](../customize/create-edit-dashboards.md)   
  [Create or edit a chart](../basics/create-edit-chart.md)  
