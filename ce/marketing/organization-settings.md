@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 This following pages are available in the **Settings** > **Advanced Settings** > **Organization** section:
 
 - **User Management**: Manage user accounts and assign security roles. [!INCLUDE [proc-more-information](../includes/proc-more-information.md)] [Manage users](manage-users.md)

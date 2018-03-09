@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes a Surveys app, which you can use to design and publish online surveys that can be integrated with your events, marketing emails, and customer journeys.
 
 In the current version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], Surveys is provided as a separate application, but it still operates on the same database as your other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] applications, so it has access to the same records (such as contacts and accounts), and the surveys you design will be available to other [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] features.

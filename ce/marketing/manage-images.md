@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message. You can use similar techniques to add images to your marketing page designs too. But you can also establish a library of images (and other files) that users can include in their designs. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
 
 Here are some best practices for working with images for your marketing materials:

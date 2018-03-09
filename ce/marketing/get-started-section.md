@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Learn how to get around in the system, and how to work with basic records, how to work with email marketing, including how to maximize deliverability and guidelines for how to conform to common email-marketing regulations.
 
 - [Dynamics 365 for Marketing Overview](overview.md)

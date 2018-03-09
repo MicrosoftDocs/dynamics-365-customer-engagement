@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 You can use common features of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to organize your daily work, including using dashboards to get an overview of your most important information, planning and recording activities (such as appointments, tasks, and phone calls), creating new records quickly, and assigning records (including activities) to a user or a team.
 
 ## Get the big picture with dashboards

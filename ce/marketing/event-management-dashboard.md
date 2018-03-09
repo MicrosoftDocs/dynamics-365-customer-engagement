@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 The event-management feature provides a preconfigured dashboard that gives a broad overview of your event-planning activities and the overall results for all your events. It also provides a wall feed that tracks all activities that are linked to the primary event-related records. Use the dashboard to get a quick overview of all the events you're planning and to see how successful your previous events have been.
 
 You can see the event-management dashboard on any dashboard page in any area of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. To view it, choose **Event Management Dashboard** from the view selector at the top of any dashboard page.

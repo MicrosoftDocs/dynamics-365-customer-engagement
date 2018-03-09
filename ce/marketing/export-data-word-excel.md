@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 You can export [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data to a [!INCLUDE[pn-ms-word-short](../includes/pn-ms-word-short.md)] or [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] template to create standardized documents that you can share with people who don't use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
 
 > [!TIP]
