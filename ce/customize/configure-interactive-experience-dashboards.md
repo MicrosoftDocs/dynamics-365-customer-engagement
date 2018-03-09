@@ -201,7 +201,8 @@ The following illustration shows the flyout dialog with the list of the availabl
  Some charts, such as bar charts or pie charts, render showing the data stored in the system. The doughnut charts and tag charts load as static images and don’t show the preview of the actual data.  
   
 > [!NOTE]
->  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts. 
+>  The charts configured for the visual filters can use the fields of the **Filter** entity as well as related entities. When you use charts based on related entity fields, the customer service representatives can filter charts using these related entity fields. The fields that are based on the related entity usually have the following format in the chart configuration window: “field name (entity name)”, such as the **Modified By (Delegate)** field. To create multi-entity charts, you must add  fields of a related entity to any of the views, and then use these fields while creating charts.
+ 
 ![Creating charts for visual filters](media/interactive-dashboard-visual-charts-x-y-axes.png) 
 
   
@@ -212,7 +213,7 @@ The following illustration shows the flyout dialog with the list of the availabl
 > [!NOTE]
 >  The **Queue** option is available in the dialog box only for queue-enabled entities. For entity dashboards, if the entity is not queue enabled, you won't see the **Queue** option in the dialog box. You can only use the **View option** in the stream of dashboards for entities that are not queue enabled.  
   
-The following illustration is an example of the chart panel, and the stream panel:
+The following illustration is an example of a fully confifured chart panel, and stream panel:
   
 ![All interactive charts](media/example-stream-visual.png)
 
