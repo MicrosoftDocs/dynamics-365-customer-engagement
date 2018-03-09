@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing solutions (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
-description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
+description: "Know about the installed solutions in your marketing organization."
 ms.custom: ""
 ms.date: 04/01/2017
 ms.service: "crm-online"
@@ -36,3 +36,8 @@ Dynamics 365 for Marketing adds the following solutions to your Dynamics 365 ins
 |MicrosoftDynamics_MktVocLink|Voice of the Customer - Marketing Integration|Part of Dynamics 365 for Marketing. Integrates the Voice of the Customer solution with Marketing to provide customer-survey features.|
 
 Each solution provides entities and actions that you can use to customize and extend your app.
+
+
+### See also
+
+[Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)<br>

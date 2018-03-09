@@ -24,17 +24,5 @@ This section provides you information about the solutions, entities, and actions
 
 ### In this section
 
-
-
-
-
-More information:
-- [Create or edit entities (record types)](../../customize/create-edit-entities.md)
-- [Create and design forms](../../customize/create-design-forms.md)
-- [Create or edit dashboards](../../customize/create-edit-dashboards.md)
-
-> [!NOTE]
-> You can browse the metadata for your Dynamics 365 instance using the [Entity Metadata Browser](../../developer/browse-your-metadata.md) or a community-developed [Metadata Browser tool](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser/).
-
-> [!div class="nextstepaction"]
-> [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)
+[Dynamics 365 for Marketing solutions](marketing-solutions.md)<br>
+[Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)<br>

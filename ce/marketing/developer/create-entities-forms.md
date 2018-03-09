@@ -28,7 +28,7 @@ More information:
 - [Create or edit dashboards](../../customize/create-edit-dashboards.md)
 
 > [!NOTE]
-> You can browse the metadata for your Dynamics 365 instance using the [Entity Metadata Browser](../../developer/browse-your-metadata.md) or a community-developed [Metadata Browser tool](https://www.xrmtoolbox.com/plugins/MsCrmTools.MetadataBrowser/).
+> You can view all the entities and their properties, attributes, and relationships by using the Entity Metadata Browser tool. More information: [Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)
 
 > [!div class="nextstepaction"]
 > [Step 2: Create a workflow or plug-in to implement your custom logic](create-workflow-plugin-custom-channel.md)

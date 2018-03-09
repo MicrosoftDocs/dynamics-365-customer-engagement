@@ -18,7 +18,9 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Use the Entity Metadata Browser tool to view entities and their properties in Dynamics 365 for Marketing. Entity Metadata Browser is a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
+All the entities that are installed as part of the Dynamics 365 for Marketing solutions adhere to the standard extensibility model in Dynamics 365. This implies that developers/ISVs can perform standard create, retrieve, update, and delete (CRUD) operations on entities if their user account has the appropriate privileges. This section provides entity reference for only those entities in Dynamics 365 for Marketing that has a specif developer use case scenario.
+
+If you want to view information about all the entities and their properties, attributes, and relationships, use the Entity Metadata Browser tool. Entity Metadata Browser is a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
 
 ## Install Entity Metadata Browser
 
