@@ -1,7 +1,7 @@
 ---
 title: "View and record financial information for events in Dynamics 365 for Marketing | Microsoft Docs "
 description: "Learn how to record values for event budgets, expenses, and revenue in Dynamics 365 for Marketing"
-keywords: "designer; email; preview; template; Litmus"
+keywords: "events;financials;budget;costs;revenue"
 ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
@@ -15,7 +15,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-[comment]: <> (Should we add some relevant keywords above?)
+
 # Record and view financial information for events
 
 You can record financial information for your events with Dynamics 365 for Marketing. For example, you can:
@@ -79,7 +79,7 @@ To view or record the total sponsorship revenue for an event:
 
 ## Record the cost of sponsored articles
 
-Typically, sponsored articles are event facilities or giveaways that are sponsored by an external company. If your organization pays for the articles, you can record the cost in the relevant sponsored article record. [comment]: <> (It's not clear who "their cost to you" is referring to. The sponsor or your organization? Does it make sense as edited?) Each sponsored article record is associated with a parent sponsorship record, where you can record revenue for the sponsored articles.
+Typically, sponsored articles are event facilities or giveaways that are sponsored by an external company. If your organization pays for the articles, you can record the cost in the relevant sponsored article record. Each sponsored article record is associated with a parent sponsorship record, where you can record revenue for the sponsored articles.
 
 To record the cost of a sponsored article:
 

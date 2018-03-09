@@ -46,7 +46,7 @@ Read this topic to learn how to set up Dynamics 365 for Marketing for the first 
 > See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
 
-## Launching the setup form [comment]: <> (I changed this wording because it was identical to the H1)
+## Fill out the setup form
 
 After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll get the URL you need to access the app. The first time you open the link, you'll launch a setup form that guides you through the setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the form will help you review all the relevant privacy policies and set up and integrate these various elements.
 

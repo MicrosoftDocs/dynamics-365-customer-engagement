@@ -50,7 +50,6 @@ We recommend that you include a privacy banner on all your landing pages. This w
 - **Privacy banner text**. Enter a summary of your privacy policy here.
 - **Privacy policy link URL**. We recommend that you provide a detailed privacy policy somewhere on your own organization's website. If you have such a page, enter its full URL here.
 - **Privacy policy link text**. This text is placed under the **Privacy banner text**, and creates a link to the **Privacy policy link URL** you specified. Enter a short string of text that tells users what to expect, such as "Click here to read our complete privacy policy."
-[comment]: <> (Hi Karl, I usually put a period after a bold run-in heading, especially when the entire section is introduced with a colon. So we don't have one level of colon introduction inside another.)
 
 ### Configure how incoming form data is matched to existing records
 
@@ -60,7 +59,7 @@ The **Contact creation context capture** and **Lead creation context capture** s
 
 Use the **Default matching strategy** section to set defaults for which types of entities your landing pages will create and update (leads and/or contacts), and how incoming values are matched against existing records to decide whether to create a new record or update an existing one. These defaults will be applied to each new landing page that you create and they are saved with the page, so you can override them at the page level by changing them there. Changing these settings won't affect any existing pages. The following settings are available:
 
-- **Update contacts/leads**. When a landing page submission is received, this setting establishes which types of records it can create or update--leads, contacts, or both. [comment]: <> (Karl, I don't know how to make an em dash in markdown. We need one here, I put two hyphens.)
+- **Update contacts/leads**. When a landing page submission is received, this setting establishes which types of records it can create or update&mdash;leads, contacts, or both.
 - **Default contact matching strategy**. Shows the name of the field-matching strategy that you have set up to match incoming data against existing contact records. If a match is found according to this strategy, it will update that record. If no match is found, it will create a new contact. You can choose from among existing strategies here or select **New** to create a new one. See the next section for information about how to set up your field-matching strategies.
 - **Default lead matching strategy**. Same as the **Default contact matching strategy** setting, but for lead records.
 
