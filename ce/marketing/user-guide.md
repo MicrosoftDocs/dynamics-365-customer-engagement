@@ -76,7 +76,6 @@ topic-status: Drafting
 <li>[Score and manage leads](score-manage-leads.md)</li>
 <li>[Register contacts' engagement](register-engagement.md)</li>
 <li>[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)</li>
-<li>[Analyze results with Power BI](power-bi-analytics.md)</li>
 
 </td></tr>
 <tr><td>

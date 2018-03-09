@@ -78,7 +78,6 @@ topic-status: Drafting
 <li>[Engage customers online with portals](portals.md)</li>
 <li>[Create and run online surveys](surveys.md)</li>
 <li>[Integrate with LinkedIn Lead Gen](linkedin-lead-gen-integration.md)</li>
-<li>[Analyze results with Power BI](power-bi-analytics.md)</li>
 </td><td>
 
 <h2>Extend the system</h2>

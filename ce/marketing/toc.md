@@ -77,7 +77,6 @@
 #### [Record and view financial information for events](event-financials.md)
 
 ### [Export data](export-data-Word-Excel.md)
-### [Explore results with Power BI](Power-BI-analytics.md)
 ### [Data protection and GDPR](gdpr.md)
 ### [How the app uses cookies](cookies.md)
 
