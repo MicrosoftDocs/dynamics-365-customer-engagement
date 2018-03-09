@@ -74,9 +74,8 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Admin activities     |Admin activities on customer tenant.|
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
 
-## Schema for Office
+## Base schema
 [JimHoltz: I'll need a lot of help with this section. I know very little about this.]
-
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
@@ -84,6 +83,14 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Row2     |         |         |         |
 |Row3     |         |         |         |
 
+## Dynamics 365 schema
+[JimHoltz: I'll need a lot of help with this section. I know very little about this.]
+
+|Field name  |Type  |Mandatory  |Description  |
+|---------|---------|---------|---------|
+|Row1     |         |         |         |
+|Row2     |         |         |         |
+|Row3     |         |         |         |
 
 ## Enable auditing in Dynamics 365
 
