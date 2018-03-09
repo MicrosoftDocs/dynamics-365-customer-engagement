@@ -2,7 +2,7 @@
 title: "Analyze social data with widgets in Social Engagement | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
 keywords: "widgets, analytics, get started"
-ms.date: 03/07/2018
+ms.date: 03/09/2018
 ms.service: mse
 ms.topic: get-started-article
 applies_to:
@@ -15,14 +15,14 @@ topic-status: Drafting
 ---
 
 # Analyze social data using widgets
-Use widgets to visualize your organization’s data analytics. The easy-to-understand, visual metrics that are displayed on these widgets show you what your customers or prospects are saying about your product and services. Identify any issues or compliments that are mentioned about your products or services on social media sources. Using this analysis, you can also understand how your team is working toward the social strategies of your organization.  
+Use widgets to visualize your organization’s data analytics. The easy-to-understand metrics on these widgets provide quantitative insights and help you understand your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media sources. Using this analysis, you can also understand how your team is working toward the social strategies of your organization.  
   
 > [!TIP]
 >  This topic is part of a walkthrough about how you can set up searches and get started with analyzing the resulting data. More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
   
 The **Analytics** area helps you to analyze social data and displays widgets based on the posts that result from your search topics. Widgets then display the analysis in easy-to-understand formats such as bar charts, simple curves, or percentages. 
 [Learn how to navigate the Analytics area.](get-started.md#get-around-in-the-analytics-area)     
-You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis. If no posts are available or match your filters, widgets display no metrics and an error message.
+You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis or [use the data set for other areas of Social Engagement](more-options-with-data-set.md). If no posts are available or match your filters, widgets display no metrics and an error message.
   
 Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provide you with [drill-down functionality to narrow your data set](use-filters.md#drill-down-into-data-and-apply-filters-from-widgets). Click a data point to get a more detailed view of the data.  
   
@@ -62,7 +62,7 @@ Every user of your organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn
 > [!NOTE]
 >  If not enough historical data is available for a trend value to display, the trend symbol is grayed out.  
 
-## Export data from widgets and lists
+## Export data from widgets
 
 Create your own visualizations and process the data the way that suits you best by exporting data points from widgets and lists to an [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] workbook. You’ll find the resulting [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file in your browser’s specified downloads folder 
 

@@ -2,7 +2,7 @@
 title: "Start analyzing data in Social Engagement | Microsoft Docs"
 description: "Learn how to get an overview about your data in Social Engagement."
 keywords: "analytics, overview"
-ms.date: 03/01/2018
+ms.date: 03/09/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -78,7 +78,7 @@ Click the **Full view** button ![Full view button](media/open-full-view-icon.png
 
 ## Volume
 
-Shows the total volume(number) of posts and the average number of posts for the selected data set over time.
+Shows the total volume (number) of posts and the average number of posts for the selected data set over time.
   
 ### See Also  
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   

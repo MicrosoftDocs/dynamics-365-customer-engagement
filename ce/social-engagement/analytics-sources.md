@@ -2,7 +2,7 @@
 title: "Analytics for sources in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on the various data sources in Social Engagement."
 keywords: "sources, analytics, twitter, reddit, facebook, news, blogs, youtube, forums, rss"
-ms.date: 03/02/2018
+ms.date: 03/09/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -24,7 +24,7 @@ In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.
     
 ## Activities
 
-Shows the type activity (post, reply, share, retweet) of posts based on the volume.
+Shows the post type (post, reply, share, retweet) based on the volume.
 
 ## Authors
 
@@ -36,13 +36,13 @@ To add a filter for multiple authors at once, select the check boxes on the left
   
 ## Authors by source
 
-Authors by Source not only shows the most active sources, but also summarizes how many authors posted in the other sources.
+Authors by source not only shows the most active sources, but also summarizes how many authors posted in the other sources.
 
 ## Languages
 
 Lists the five most-found languages based on the volume of posts and their trend indicator.
 
-##Location insights
+## Location insights
 
 Visualizes the posts with location information on a map to find out where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
 
@@ -52,7 +52,7 @@ Dynamic widget. Shows only if posts with location information are available in t
 
 Lists top phrases for the top five sources based on the volume.
 
-##Sources
+## Sources
 
 Shows the number of posts in the most active sources, and summarizes how many posts were found in other sources.    
 Click the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for additional details.  

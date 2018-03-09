@@ -2,7 +2,7 @@
 title: "Analytics for locations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Social Engagement."
 keywords: "analytics, locations, maps, location analysis"
-ms.date: 03/02/2018
+ms.date: 03/09/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -32,7 +32,7 @@ In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], tw
   
 Both types of location data are available under the [**Location Type** filter](use-filters.md) when defining a data set. 
   
-For some locations, for example the United States, you can choose between two ways of grouping the visualized data. To see how many posts with location data are available in each subregion, apply a filter for post location and select **Subregions**. To see posts with precise geographical information (post location data) on the map, select **Posts**.
+For the United States, you can choose between two ways of grouping the visualized data. To see how many posts with location data are available in each subregion, apply a filter for post location and select **Subregions**. To see posts with precise geographical information (post location data) on the map, select **Posts**.
 
 [comment]: <> (Confirm with PM and in UI)
   
@@ -66,7 +66,7 @@ To add a filter for multiple authors at once, select the check boxes on the left
 
 ## Cities
 
-Lists the cities where most posts are coming from and their trend indicator.
+Lists the cities where most posts are coming from and their trend indicator. You can't drill down into more details from this list. 
 
 ## Languages
 
