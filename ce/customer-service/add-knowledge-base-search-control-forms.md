@@ -69,7 +69,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
     ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png) 
   
     
-    |Tab  |Property  |Description  |
+    |Tab  |Property  |Description|
     |---------|---------|---------|
     |Display     |    Name     |       **Required**: The unique name for the tab that is used when referencing it in scripts. The name can contain only alphanumeric characters and underscores.   |
     |    |  Label        |     **Required**: The localizable label for the tab visible to users.    |
@@ -80,7 +80,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
     |  |   Number of results      |      Select how many articles to show in the search results at first.    |
     |    |  Actions       |   Select whether you want to make all the default actions available to CSRs or only selected ones. If you choose Show Selected Actions, select the actions you want to show. <br> </br> The following actions are available: <br> </br>•	Link the KB article. Let’s users link the knowledge article to the record they're viewing the knowledge article search results in. <br> </br>•	Unlink. Let’s users unlink the knowledge article from the primary record. <br> </br>•	Copy link. Let’s users copy the external URL of the article, so they can share it over channels like chat or email. If you're using the native Dynamics 365 knowledge management solution, the Copy Link option is available only for published articles.<br> </br> •	Link KB article and email link. Let’s users associate an article with the primary record and share the article link with the customer through email. <br> </br>•	Link article and email content. Let’s users associate an article with a case and share the article content through email. <br> </br>•	Pop out. Let’s users open the article in a new window.  |
     |Formatting     |      Layout   |    Choose the type of layout to determine the number of columns the control should occupy.     |
-    |    |    Row Layout     |  Select the maximum number of rows per page.       |
+    |    |    Row Layout  |  Select the maximum number of rows per page.|
 
   
 9. Choose **Set**.  
