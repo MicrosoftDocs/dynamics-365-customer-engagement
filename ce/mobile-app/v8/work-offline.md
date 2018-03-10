@@ -21,6 +21,14 @@ manager: "brycho"
 
 [Intro text]
 
+
+
+
+
+
+
+
+
 ## Mobile offline overview
 
 ### Dynamics 365 Mobile Offline Capabilities for an administrator
@@ -56,4 +64,17 @@ manager: "brycho"
 ### Background sync
 
 ## Support matrix
+
+
+
+
+
+
+
+
+
+
+
+
+
 

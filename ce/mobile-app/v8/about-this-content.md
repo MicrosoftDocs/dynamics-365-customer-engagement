@@ -10,11 +10,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 8.x"
-ms.assetid: cffee53c-601f-4620-b86c-593791935488
+ms.assetid: da282f05-9188-40ec-b835-d4e991609edc
 caps.latest.revision: 7
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# About this content for Dynamics 365 for phones and tablets
+# About this content
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
