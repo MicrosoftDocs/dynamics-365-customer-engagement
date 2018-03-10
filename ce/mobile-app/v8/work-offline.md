@@ -18,3 +18,42 @@ manager: "brycho"
 # Work offline with Dynamics 365 for phones and tablets
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+
+[Intro text]
+
+## Mobile offline overview
+
+### Dynamics 365 Mobile Offline Capabilities for an administrator
+
+### Dynamics 365 Mobile Offline capabilities for end user 
+
+### Other offline capabilities
+
+## Work in disconnected mode with Dynamics 365 for phones and tablets 
+
+### Download App Updates for offline 
+
+### Offline Sync Status 
+
+#### Status on footer
+
+#### Status flyout 
+
+#### Last Sync Time 
+
+#### Status on sitemap 
+
+### Offline data
+
+### Offline indicator
+
+### Working in offline mode
+
+### Automatic playback
+
+### Conflict resolution
+
+### Background sync
+
+## Support matrix
+

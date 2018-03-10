@@ -11,4 +11,4 @@
 # [Install the mobile app (users)](install-dynamics-365-for-phones-and-tablets.md)
 # [User Guide](dynamics-365-phones-tablets-users-guide.md)
 # [Version 8.x](../mobile-app/v8/about-this-content.md)
-
+## [Work offline](../mobile-app/v8/work-offline.md)
