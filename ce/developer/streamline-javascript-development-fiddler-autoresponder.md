@@ -70,7 +70,7 @@ By following the above steps, Fiddler is configured to listen to the requests an
 ## Update and test your code
 
 1. Apply changes to your local file.
-2. Start Fiddler trace capture again and go back to your browser reload the page.
+2. Start Fiddler trace capture again and go back to your browser and hard reload the page with empty cache.
 3. In the browser developer tools you can see that the file that is now received will be the the local one.
 4. Continue repeating this process while updating your code until you get the results you require.
 
