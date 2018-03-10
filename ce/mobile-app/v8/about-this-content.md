@@ -17,4 +17,4 @@ manager: "brycho"
 ---
 # About this content for Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-0-0](../../includes/cc_applies_to_update_8_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
