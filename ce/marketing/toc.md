@@ -1,8 +1,6 @@
 # [Dynamics 365 for Marketing](help-hub.md)
 
 ## [Overview](overview.md)
-
-## [About the Preview](about-preview.md)
  
 ## [Administrator Guide](admin-guide.md)
 
@@ -16,17 +14,17 @@
 #### [Define fiscal year settings](fiscal-year-settings.md)
 #### [Manage Excel templates](manage-excel-templates.md)
 #### [Manage Word templates](manage-word-templates.md)
-#### [Manage themes](manage-themes.md)
 ### [Business Management settings](business-management-settings.md)
 ### [Customize](customize.md)
 ### [Marketing settings](marketing-settings.md)
-### [Events settings](events-settings.md)
+### [Event management settings](events-settings.md)
 ### [Manage sample data](additional-settings.md)
 ### [Quota management](quota-management.md)
 
 ## [User Guide](user-guide.md)
 
 ### [Learn the basics](get-started-section.md)
+#### [Browser and system requirements](browser-requirements.md)
 #### [Find your way around](navigation.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
@@ -57,7 +55,6 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Upload and use images and files](upload-images-files.md)
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
-#### [Use suppression segments to apply unsubscribe requests](suppression-segments.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Engage customers online with portals](portals.md)
@@ -77,9 +74,10 @@
 #### [Set up the event portal](set-up-event-portal.md)
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 #### [Follow up after the event](followup-after-event.md)
+#### [Record and view financial information for events](event-financials.md)
 
 ### [Export data](export-data-Word-Excel.md)
-### [Explore results with Power BI](Power-BI-analytics.md)
+### [Data protection and GDPR](gdpr.md)
 ### [How the app uses cookies](cookies.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)

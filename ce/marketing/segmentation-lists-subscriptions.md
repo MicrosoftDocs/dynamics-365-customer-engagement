@@ -2,7 +2,7 @@
 title: "Create segments and lists to establish target markets (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
 keywords: "segment; marketing list; subscription; Customer Insights"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Market segmentation, marketing lists, and subscription lists
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can define your various target groups by setting up segments and lists. Each list or segment represents a collection of contacts that you can use to target a customer journey. You'll also use marketing lists in your subscription center to enable contacts to manually opt-in or opt-out of various types of newsletters and other marketing communications.
 
@@ -182,9 +180,9 @@ A compound segment combines one or more existing segments into a single new segm
 
 Subscription lists enable contacts to add or remove themselves from a static marketing list, which you can then use to create a segment that targets members of that list, for example to deliver a monthly newsletter.
 
-To set up a subscription list, you must use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app to create the static marketing list and mark it as a subscription list. Then you'll be able to create a dynamic segment in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] that loads that list from  [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. Lists marked as subscription lists are also available for use on your subscription centers, but static segments are not.
+To set up a subscription list, you must use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app to create the static marketing list and mark it as a subscription list. Then you'll be able to set up a segment tile in a customer journey to use that list as a target segment. Lists marked as subscription lists are also available for use on your subscription centers, but static segments are not.
 
-For details about how to create marketing lists and use them in subscription centers and segments, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
+For details about how to create marketing lists and use them in subscription centers and segment tiles, see [Set up subscription lists and subscription centers](set-up-subscription-center.md).
 
 ## Create segments based on opportunities
 

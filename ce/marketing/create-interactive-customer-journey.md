@@ -2,7 +2,7 @@
 title: "Create an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to create an interactive customer journey featuring signups and triggers in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; trigger; landing page; signup; page"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Create an interactive customer journey with triggers and signup
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 <div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
 
@@ -109,7 +107,6 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 ### See also
 
 [Create a simple customer journey](create-simple-customer-journey.md)  
-[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
