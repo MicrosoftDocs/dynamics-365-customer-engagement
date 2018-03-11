@@ -1,19 +1,17 @@
 ---
-title: "Configure event handlers (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Configure event handlers for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
+description: Understand how to configure event handlers in Dynamics 365 for Customer Engagement
+Keywords: Main form; Configure event handlers; Dynamics 365
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 03/09/2018
+ms.service: crm-online
+ms.topic: article
 ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0
-caps.latest.revision: 63
-ms.author: "rdubois"
-manager: "brycho"
 ---
 # Configure event handlers
 
@@ -100,3 +98,7 @@ manager: "brycho"
   
 > [!NOTE]
 >  While the user interface (UI) lets you adjust the order in which the scripts are loaded by using the up and down green arrows, the scripts are actually not loaded sequentially.   
+
+## See also
+
+[Use the Main form and its components](../customer-service/use-main-form-and-components.md)

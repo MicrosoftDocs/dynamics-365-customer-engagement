@@ -1,19 +1,17 @@
 ---
-title: "Section properties (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Section properties for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
+description: Understand the Section properties for Main form in Dynamics 365 for Customer Engagement
+Keywords: Main form; Section properties; Dynamics 365
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 03/09/2018
+ms.service: crm-online
+ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
-caps.latest.revision: 63
-ms.author: "rdubois"
-manager: "brycho"
 ---
 # Section properties
 
@@ -33,7 +31,20 @@ manager: "brycho"
 ||**Show a line at top of the section**|A line at the top of a section can help break up the form layout.|  
 ||**Field Label Width**|**Required**: Set a value between 50 and 250 to specify the space allowed for field labels.<br /><br /> Header and footer elements also have this property.|  
 ||**Visibility**|Showing the section is optional and can be controlled using scripts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visibility options](../customize/visibility-options-legacy.md)|  
+||**Availability**|Choose if you want the tab to be available on the phone.|  
 ||**Lock the section on the form**|This will prevent the section from accidentally being removed and prevents people from removing the contents.<br /><br /> Removing a section will not only remove the section, but also any fields within it.<br /><br /> Someone wanting to remove this section would need to change this setting before removing it.|  
 |**Formatting**<br /><br /> Header and footer components also have this property.|**Layout**|Specify up to four columns to be in the section.|  
 ||**Field Label Alignment**|Labels for fields within the section can be aligned left, right, or center.|  
 ||**Field Label Position**|Labels for fields within the section can be positions on the side or on top of the fields.|  
+
+
+A new type of section called **Reference panel** can also be added. A Reference panel is a single column section. You can insert sub grids, Quick view control, or a Knowledge Base Search control inside a Reference panel section. Each control that you added in the Reference panel appears as a vertical tab within the panel at the runtime. You can drag and drop the various controls within the Reference panel section. The default tab at the runtime is the first control added in the reference panel. The other tabs appear in the order in which they are added in the form editor. To delete a tab, use the Delete key on your keyboard.  
+  
+When you insert a reference panel, by default it’s added as a last section in the tab. You can add only one reference panel per form.  
+  
+> [!IMPORTANT]
+>  By default, the Reference panel section is locked in the out-of-the-box forms: Cases, Accounts, and Contacts. To remove it or change it, you must unlock it. 
+
+## See also
+
+[Use the Main form and its components](../customer-service/use-main-form-and-components.md)
