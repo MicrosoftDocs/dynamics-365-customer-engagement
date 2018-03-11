@@ -107,7 +107,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
 5.  Follow steps 8 and 9 as described in the previous procedure [Add the Knowledge Base Search control to Main forms](#add-the-knowledge-base-search-control-to-main-forms).  
   
 > [!TIP]
->  You can set up the Knowledge Base Search tab as the default tab so whenever users open the form, the Knowledge Base tab is open on the activity wall. To do this, in the **Activity Tab Properties** dialog box,go to **Web Client Properties** > **Display**, and in the **Default**, select **Knowledge Base Search** from the **Tab** drop-down list. 
+>  You can set up the Knowledge Base Search tab as the default tab so whenever users open the form, the Knowledge Base tab is open on the activity wall. To do this, in the **Activity Tab Properties** dialog box, go to **Web Client Properties** > **Display**, and in the **Default**, select **Knowledge Base Search** from the **Tab** drop-down list. 
   
   
 ### See also  
