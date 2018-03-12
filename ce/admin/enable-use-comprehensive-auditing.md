@@ -140,8 +140,8 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 5. Under **Components**, expand **Entities** and select an entity to audit, such as **Account**.
 6. Scroll down and under **Data Services** enable **Auditing**.
 7. Under **Auditing**, enable the following check boxes:
-   - **Retrieve Record Auditing**
-   - **Retrieve Multiple Auditing**
+   - **Single record auditing. Log a record when opened.**
+   - **Multiple record auditing. Log all records displayed on an opened page.**
 8. Choose **Save**.
 9. Choose **Publish** to publish the customization.
 10. Repeat steps 5 - 9 for other entities you want to audit.
