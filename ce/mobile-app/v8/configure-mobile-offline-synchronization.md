@@ -19,36 +19,36 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-You can provide an enhanced offline experience for mobile users if your organization is using [!INCLUDE[pn-crm-8-1-0-online](../includes/pn-crm-8-1-0-online.md)]and meets one or both of the following licensing requirements:  
+You can provide an enhanced offline experience for mobile users if your organization is using [!INCLUDE[pn-crm-8-1-0-online](../../includes/pn-crm-8-1-0-online.md)]and meets one or both of the following licensing requirements:  
   
--   At least 5 Professional [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] licenses OR  
+-   At least 5 Professional [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] licenses OR  
   
--   At least 1 Enterprise [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] license  
+-   At least 1 Enterprise [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] license  
   
 > [!NOTE]
 >  Keep the following in mind when enabling mobile offline synchronization:  
 >   
->  -   You need to make sure the licenses are assigned to a user before you can enable mobile offline synchronization. [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] won’t recognize the licenses if they’re not in use.  
-> -   Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] organizations.  
+>  -   You need to make sure the licenses are assigned to a user before you can enable mobile offline synchronization. [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] won’t recognize the licenses if they’re not in use.  
+> -   Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] organizations.  
 > -   Offline drafts mode (the existing offline experience) will continue to be available for all users if they aren’t using the new offline capabilities.  
   
- This offline experience uses [!INCLUDE[pn-windows-azure](../Token/pn-windows-azure.md)]  services to periodically synchronize entities with the [!INCLUDE[pn-microsoftcrm](../Token/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization in an eligible organization, you need to do the following:  
+ This offline experience uses [!INCLUDE[pn-windows-azure](../../includes/pn-windows-azure.md)]  services to periodically synchronize entities with the [!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization in an eligible organization, you need to do the following:  
   
-1.  [Enable mobile offline synchronization](../mobile-app/v8/enable-mobile-offline-synchronization.md)  
+1.  [Enable mobile offline synchronization](../../mobile-app/v8/enable-mobile-offline-synchronization.md)  
   
-2.  [Enable entities for mobile offline synchronization](../mobile-app/v8/enable-entities-mobile-offline-synchronization.md)  
+2.  [Enable entities for mobile offline synchronization](../../mobile-app/v8/enable-entities-mobile-offline-synchronization.md)  
   
-3.  [Create a mobile offline profile](../mobile-app/v8/create-mobile-offline-profile.md)  
+3.  [Create a mobile offline profile](../../mobile-app/v8/create-mobile-offline-profile.md)  
   
-4.  [Add users to a mobile offline profile](../mobile-app/v8/add-users-mobile-offline-synchronization.md)  
+4.  [Add users to a mobile offline profile](../../mobile-app/v8/add-users-mobile-offline-synchronization.md)  
   
-5.  [Publish a mobile offline profile]../mobile-app/v8/publish-mobile-offline-profile.md)  
+5.  [Publish a mobile offline profile](../../mobile-app/v8/publish-mobile-offline-profile.md)  
   
  Here are a few things to keep in mind about mobile offline synchronization:  
   
--   Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on [!INCLUDE[!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)] network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
+-   Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on [!INCLUDE[!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
   
--   Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can still continue accessing data according to their previous security privileges, but any changes they make will be validated during the synchronization to the [!INCLUDE[pn-crm-shortest](../includes/pn-crm-shortest.md)] server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.  
+-   Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can still continue accessing data according to their previous security privileges, but any changes they make will be validated during the synchronization to the [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.  
   
 -   Any changes to a user’s privilege to view a record won’t take effect on the mobile device until the next synchronization cycle.  
   
@@ -56,4 +56,4 @@ You can provide an enhanced offline experience for mobile users if your organiza
 >  Once you’ve enabled mobile offline synchronization, metadata changes are pushed to the mobile apps when the changes are published, not just on app start-up. To keep mobile offline synchronization up-to-date, users should always accept the prompt to download metadata changes.  
   
 ## Privacy notice  
- [!INCLUDE[cc-privacy-crm-mobile-offline](../includes/[!INCLUDE[cc_privacy_crm_mobile_offline](../Token/cc_privacy_crm_mobile_offline.md)]
+ [!INCLUDE[cc-privacy-crm-mobile-offline](../../includes/[!INCLUDE[cc_privacy_crm_mobile_offline](../Token/cc_privacy_crm_mobile_offline.md)]
