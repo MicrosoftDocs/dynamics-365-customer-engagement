@@ -22,7 +22,7 @@ Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve 
 
 ## Action parameters
 
-Parameters allow for data to be passed to the action.
+The **msdyncrm_LoadInteractionsPublic** action expects the following input parameters:
 
 <table>
 <tr>
@@ -106,19 +106,18 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 <th>Type</th>
 <th>Description</th>
 <tr>
-<td>ContactId</td>
+<td>Data</td>
 <td>Edm.String</td>
-<td>ID of the contact record to retrieve the interactions for</td>
+<td>List of interactions as an escaped JSON array.</td>
 </tr>
-</tr>
-</table>
 <tr>
-<td valign="top">InteractionType</td>
-<td valign="top">Edm.String</td>
-<td>Type of interaction to be retrieved. You can specify one of the following values:
-</td>
+<td>NextSkiptToken</td>
+<td>Edm.String</td>
+<td>TODO: Add description.</td>
 </tr>
 </table>
+</table>
 
+## Example
 
-
+TODO: Add request and response examples
