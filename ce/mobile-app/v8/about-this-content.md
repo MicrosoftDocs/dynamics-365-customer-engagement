@@ -18,3 +18,12 @@ manager: "brycho"
 # About this content
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+
+The topics **in this folder** apply to Dynamics 365 (online), version 8.x. Other topics apply to Dynamics 365 (online), version 9.x or both 9.x and 8.x. Review the **Applies to** at the top of each topic.
+
+> [!TIP]
+>  To determine your revision of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], in the upper-right corner of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] screen, choose the **Settings** gear (![User settings button](../admin/media/user-settings-button.png "User settings button")) > **About**.  
+
+### See also
+[Microsoft Dynamics 365 Online releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) 
+ 

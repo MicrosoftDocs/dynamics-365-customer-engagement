@@ -17,11 +17,11 @@ manager: "brycho"
 ---
 
 # Overview of Dynamics 365 for phones and tablets 
-<!--
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon")  [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
--->
+
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!NOTE]
+> Most of the topics in this guide apply to Dynamics 365 (online), version 9.x. Some apply to both 9.x and 8.x. Review the **Applies to** at the top of each topic. Topics in the **Version 8.x** folder, apply to 8.x only. To determine your revision of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], in the upper-right corner of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] screen, choose the **Settings** gear (![User settings button](../admin/media/user-settings-button.png "User settings button")) > **About**. 
 
 Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE[pn_dyn-365_tablets](../includes/pn-dyn-365-tablets.md)] apps for your sales, customer service, field service, and other tasks when you're on the go. With one download from your app store, you’ll automatically have access to all the apps you need for your role. You will see apps with the new Unified Interface on your mobile device.  
   
