@@ -40,13 +40,13 @@ You can provide an enhanced offline experience for mobile users if your organiza
   
 3.  [Create a mobile offline profile](../../mobile-app/v8/create-mobile-offline-profile.md)  
   
-4.  [Add users to a mobile offline profile](../../mobile-app/v8/add-users-mobile-offline-synchronization.md)  
+4.  [Add users to a mobile offline profile](../../mobile-app/v8/add-users-mobile-offline-profile.md)  
   
 5.  [Publish a mobile offline profile](../../mobile-app/v8/publish-mobile-offline-profile.md)  
   
  Here are a few things to keep in mind about mobile offline synchronization:  
   
--   Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on [!INCLUDE[!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
+-   Mobile offline synchronization with mobile devices occurs periodically. A synchronization cycle could last for several minutes, depending on [!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] network latency, the volume of data that’s set for synchronization, and mobile network speed. Users can still use the mobile apps during synchronization.  
   
 -   Changes to a user’s security privileges are updated during the next synchronization cycle. Until that time, users can still continue accessing data according to their previous security privileges, but any changes they make will be validated during the synchronization to the [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] server. If they no longer have privileges to make changes for a record, they will receive an error and the record won’t be created, updated, or deleted.  
   
@@ -56,4 +56,4 @@ You can provide an enhanced offline experience for mobile users if your organiza
 >  Once you’ve enabled mobile offline synchronization, metadata changes are pushed to the mobile apps when the changes are published, not just on app start-up. To keep mobile offline synchronization up-to-date, users should always accept the prompt to download metadata changes.  
   
 ## Privacy notice  
- [!INCLUDE[cc-privacy-crm-mobile-offline](../../includes/[!INCLUDE[cc_privacy_crm_mobile_offline](../Token/cc_privacy_crm_mobile_offline.md)]
+ [!INCLUDE [cc-privacy-crm-mobile-offline](../../includes/cc-privacy-crm-mobile-offline.md)]

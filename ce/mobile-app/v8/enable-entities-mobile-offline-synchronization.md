@@ -68,7 +68,7 @@ You can enable any entity for mobile offline that is enabled for mobile. By defa
 >   
 >  -   The number of entities you enable for mobile offline  
 > -   The number of days you specify since records were last modified  
-> -   The filters you set while creating mobile offline profiles in [Create a mobile offline profile](../Topic/Create%20a%20mobile%20offline%20profile.md)  
+> -   The filters you set while creating mobile offline profiles in [Create a mobile offline profile](create-mobile-offline-profile.md)  
   
 1.  Go to **Settings > Customizations**.  
   
