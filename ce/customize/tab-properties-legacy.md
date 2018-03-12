@@ -20,6 +20,10 @@ ms.assetid: e0790865-c5a4-4e86-bce2-584af2b8ed93
  In the body of a Dynamics 365 Customer Engagement form, tabs provide horizontal separation. Tabs have a label that can be displayed. If the label is displayed, tabs can be expanded or collapsed to show or hide their content by choosing the label.  
   
  Tabs contain up to three columns and the width of each column can be set to a percentage of the total width. When you create a new tab, each column is pre-populated with a section.  
+
+You can access **Tab properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the tabs to view Tab properties.
+
+![tab-properties](media/tab-properties.png)
   
  The following table shows properties that may be set for tabs in the form:
   

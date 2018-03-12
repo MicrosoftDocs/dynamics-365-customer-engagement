@@ -21,7 +21,11 @@ ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
   
  Sections can have up to 4 columns and includes options for displaying how labels for fields in the section are displayed.  
   
- Headers and footers are similar to sections but cannot be removed. If they don’t contain anything they will not be shown.  
+ Headers and footers are similar to sections but cannot be removed. If they don’t contain anything they will not be shown. 
+
+You can access **Section properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the sections to see Section properties. 
+
+![section-properties](media/section-properties.png)
   
 |Tab|Property|Description|  
 |---------|--------------|-----------------|  

@@ -1,7 +1,7 @@
 ---
-title: Sub-grid properties for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
-description: Understand the Sub-grid properties for Main forms in Dynamics 365 for Customer Engagement
-Keywords: Main form; Sub-grid properties; Dynamics 365
+title: Sub-Grid properties for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
+description: Understand the Sub-Grid properties for Main forms in Dynamics 365 for Customer Engagement
+Keywords: Main form; Sub-Grid properties; Dynamics 365
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
@@ -16,11 +16,15 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 82892cd3-3436-4677-b96b-f2ccd0a4f078
 ---
-# Sub-grid properties
+# Sub-Grid properties
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
- You can configure a sub-grid on a Dynamics 365 Customer Engagement form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
+You can configure a sub-grid on a Dynamics 365 Customer Engagement form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
+
+You can access **Sub-Grid properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select Sub-Grid to view Sub-Grid properties.
+
+![sub-grid properties](media/sub-grid-properties.png)
   
 |Tab|Property|Description|  
 |---------|--------------|-----------------|  

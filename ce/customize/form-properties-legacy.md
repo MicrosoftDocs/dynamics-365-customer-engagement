@@ -18,7 +18,11 @@ ms.assetid: 4ed30bb7-dca1-4de8-80f3-842152ea921a
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
- The following table lists the form properties for Dynamics 365 Customer Engagement forms:  
+You can access **Form properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Home** tab, select Form properties.
+
+![form-properties](media/form-properties.png)
+
+The following table lists the form properties for Dynamics 365 Customer Engagement forms:  
   
 |Tab|Property|Description|  
 |---------|--------------|-----------------|  

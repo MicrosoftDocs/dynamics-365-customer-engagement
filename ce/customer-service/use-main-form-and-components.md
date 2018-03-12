@@ -95,7 +95,7 @@ Located on the right side, the content of the explorer area depends on the conte
 
    - When you select **Body**, **Header**, or **Footer** in the **Select** group of the **Home** tab, you’ll see the **Field Explorer**. Use the **Field Explorer** to drag fields you want to display into a section in the form or within the header or footer. You can include the same field multiple times in a form. Use the **New Field** button as a shortcut to create a new field.
 
-   - When you select **Navigation** in the **Select** group of the **Home** tab you’ll see the **Relationship Explorer**. Drag any of the relationships into one of the groups within the navigation area. You cannot add the same relationship twice. Relationships are available based on how they are configured. If you configure a relationship to not display, it won’t display in the **Relationship Explorer**. For information about how to configure default display options for relationships, see [Navigation Pane Item for Primary Entity](../customize/use-the-form-editor-legacy.md).  
+   - When you select **Navigation** in the **Select** group of the **Home** tab you’ll see the **Relationship Explorer**. Drag any of the relationships into one of the groups within the navigation area. You cannot add the same relationship twice. Relationships are available based on how they are configured. If you configure a relationship to not display, it won’t display in the **Relationship Explorer**. For information about how to configure default display options for relationships, see [Navigation Pane Item for Primary Entity](../customize/create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)
 
 You can use the **New 1:N** and **New N:N** buttons as a shortcut to add new entity relationships.
 
@@ -130,7 +130,7 @@ The **Home** tab displays the commands listed in the following table:
 ||**Save As**|Create a copy of this form with a different name.|
 ||**Save and Close**|Save the form and close the form editor.|
 ||**Publish**|Publish the form. More information: Publishing customizations|
-|**Edit**|**Change properties**|Change properties of the selected item in the body.<br /><br /> See the following sections depending on the selected item:<br /><br /> -   [Tab Properties](../customize/tab-properties-legacy.md)<br />-   [Section properties](../customize/section-properties-legacy.md)<br />-   [Common Field properties](../customize/section-properties-legacy.md)<br />-   [Special field properties](../customize/special-field-properties-legacy.md)<br />-  [Sub-grid properties](../customize/sub-grid-properties-legacy.md)<br />-   [Quick view control properties](../customize/quick-view-control-properties-legacy.md)|
+|**Edit**|**Change properties**|Change properties of the selected item in the body.<br /><br /> See the following sections depending on the selected item:<br /><br /> -   [Tab Properties](../customize/tab-properties-legacy.md)<br />-   [Section properties](../customize/section-properties-legacy.md)<br />-   [Common Field properties](../customize/common-field-properties-legacy.md)<br />-   [Special field properties](../customize/special-field-properties-legacy.md)<br />-  [Sub-grid properties](../customize/sub-grid-properties-legacy.md)<br />-   [Quick view control properties](../customize/quick-view-control-properties-legacy.md)|
 ||**Remove**|Remove the selected item.|
 ||**Undo** **(Ctrl+Z)**|Undo the previous action.|
 ||**Redo** **(Ctrl+Y)**|Redo the previous action.|
@@ -143,7 +143,7 @@ The **Home** tab displays the commands listed in the following table:
 ||**Preview**|Use this to see how form looks after it is published. Ypu can also ue preview to test scripts associated with from events.|         
 ||**Enable Security Roles**|Use this to set which security roles will have access to the forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Control access to forms](../customize/control-access-forms.md) **Important:**  If you create a new form, only the System Administrator and System Customizer security roles will have access to the form. You must assign access to other security roles before people in your organization can use it.|  
 ||**Show Dependencies**|See which solution components depend on this form and which solution components are required by this form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution dependencies](../customize/overview.md)|  
-||**Managed Properties**|Managed properties command has two properties **Customizable** and **Can be Deleted**. Setting these properties to false means the form won’t be customizable and cannot be deleted after you included it in a solution, export that solution as a managed solution, and import that managed solution into a different organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Managed properties](../customize/overview.md#BKMK_ManagedProperties)| 
+||**Managed Properties**|Managed properties command has two properties **Customizable** and **Can be Deleted**. Setting these properties to false means the form won’t be customizable and cannot be deleted after you included it in a solution, export that solution as a managed solution, and import that managed solution into a different organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Managed properties](../customize/managed-properties.md)| 
 |**Upgrade**|**Merge forms**|If applicable, this option lets you merge this form with a form from a previous version of Dynamics 365 form|
 
 ### Insert tab
@@ -227,22 +227,22 @@ To know in detail about the sub-grid properties, see [Sub-grid properties](../cu
 
 ## Quick view control properties  
 
-To know in detail about the Quick view control properties, see [Quick view control properties](../customize/quick-view-control-properties-legacy.md).
+To explore the Quick view control properties, see [Quick view control properties](../customize/quick-view-control-properties-legacy.md).
   
 ## Web resource properties  
 
-To know in detail about the Web resource properties, see [Web resource properties](../customize/web-resource-properties-legacy.md). 
+Know in detail about the Web resource properties. Go to [Web resource properties](../customize/web-resource-properties-legacy.md). 
   
 ## IFRAME properties  
 
-To know in detail about the IFRAME properties, see [IFRAME properties](../customize/iframe-properties-legacy.md). 
+To know more about the IFRAME properties, see [IFRAME properties](../customize/iframe-properties-legacy.md). 
   
 ## Edit Navigation  
- Navigation within the form allows people to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation Pane Item for Primary Entity](../customize/use-the-form-editor-legacy.md)  
+ Navigation within the form allows people to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation Pane Item for Primary Entity ](../customize/create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)
   
  Any entity relationships that are configured to be displayed can be overridden within the form editor.  
   
- For step-by-step instructions, see [Add or edit form navigation for related entities](http://go.microsoft.com/fwlink/p/?LinkId=317998)  
+ For step-by-step instructions, see [Add form navigation for related entities](../customize/add-edit-form-navigation-related-entities.md).
   
  To enable editing navigation you must first select **Navigation** from the **Select** group on the **Home** tab.  
   
@@ -253,88 +253,10 @@ To know in detail about the IFRAME properties, see [IFRAME properties](../custom
  There are five groups in the navigation area. You can drag them to reposition them and double-click them to change the label, but you can’t remove them. These groups are displayed only when there is something in them. If you don’t want a group to appear, just don’t add anything to it.  
   
 ## Configure event handlers  
- Form event handlers can be configured for the following areas in a form.  
-  
-|Element|Event|Description|  
-|-------------|-----------|-----------------|  
-|Form|`OnLoad`|Occurs when the form loads.|  
-|`OnSave`|Occurs when data is saved.|  
-|Tab|`TabStateChange`|Occurs when the tab is expanded or collapsed.|  
-|Field|`OnChange`|Occurs when data in the field changes and the control loses focus.|  
-  
- An event handler consists of a reference to a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource and a function defined within that web resource that will execute when the event occurs. Each element can have up to 50 separate event handlers configured.  
-  
-> [!IMPORTANT]
->  Configuring an event handler incorrectly can result in script errors that may cause the form to fail to load or function correctly. If you are not the developer of the script, make sure you understand exactly what configuration options the script requires.  
->   
->  Be sure to only configure a script event handler using a library that comes from a source you trust. Scripts can be used to perform any action a user might perform and a poorly written script can significantly damage the performance of a form.  
->   
->  After you configure an event handler, always test it to verify it’s working correctly.  
-  
-### To configure an event handler  
-  
-1.  In the form editor, select the element with the event you want to configure a handler for.  
-  
-2.  On the **Home** tab, in the **Edit** group, click **Change Properties** or simply double-click the element.  
-  
-3.  In the element properties dialog box, select the **Events** tab.  
-  
-4.  Expand the **Form Libraries** area. If the library containing the function you want to set as the event handler isn’t already listed, add the library.  
 
-    #### To add a form library to an event handler
-    a. In the **Form Libraries** section of the **Event List**, click **Add**.
-
-    b. Locate the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource in the list of available web resources. Select it and click **Add**.
-  
-      If the [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] web resource you need doesn’t exist, click **New** to create a new web resource form.  
-  
-    ##### To create a JavaScript web resource
-     1.  In the web resource form set the properties as listed in the following table.
-  
-            |Property|Value|  
-            |--------------|-----------|  
-            |Name|**Required**. Type the name of the web resource.|  
-            |Display Name|**Required**. Type the name to be displayed in the list of web resources.|  
-            |Description|Optional. Type a description of the web resource.|  
-            |Type|**Required**. Select **Script (JScript)**.|  
-            |Language|Optional. Click one of the languages available for your organization.|  
-  
-        2.  If you have been provided with a script, we highly recommend that you use the **Browse** button to locate the file and upload it.  
-  
-             Alternatively, you can click the **Text Editor** button and paste or type the contents of the script in the **Edit Content** dialog box.  
-  
-            > [!NOTE]
-            >  Because this simple text editor doesn’t provide any features to check the correctness of the script, we recommend that you use a separate application like [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] to edit scripts and then upload them.  
-  
-        3.  Click **Save** and close the web resource dialog box. The web resource you created is now selected in the **Look Up Record** dialog box.  
-  
-        4.  Click **Add** to close the dialog box.  
-7.  In the **Event Handlers** section, select the event you want to set an event handler for.  
-  
-8.  Click **Add** to open the **Handler Properties** dialog box.  
-  
-9. On the **Details** tab, click the appropriate library and type the name of the function that should be executed for the event.  
-  
-10. By default, the event handler is enabled. Clear the **Enabled** check box if you don’t want to enable this event.  
-  
-     Some functions require an execution context to be passed to the function. If this is required, select **Pass execution context as the first parameter**.  
-  
-     Some functions can accept a set of parameters to control the behavior of a function. If these are required, enter them in the **Comma separated list of parameters that will be passed to the function**.  
-  
-11. On the **Dependencies** tab, add any fields that the script depends on into the **Dependent Fields** area.  
-  
-12. Click **OK** to close the **Handler Properties** dialog.  
-  
-13. When the event handler is entered you may adjust the order in which the function will be executed relative to any other functions by using the green arrows to move it up or down.  
-  
-14. Click **OK** to close the element properties dialog.  
-  
-15. Click **Save** to save your changes. Click **Publish** to publish the form.  
-  
-> [!NOTE]
->  While the user interface (UI) lets you adjust the order in which the scripts are loaded by using the up and down green arrows, the scripts are actually not loaded sequentially. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [MSDN: Manage library dependencies](https://msdn.microsoft.com/library/gg328261.aspx)  
+To know more about configuring event handlers, see [Configure event handlers](../customize/configure-event-handlers-legacy.md). 
   
 ## See Also  
- [Create and design interactive forms](../customize/create-design-forms.md)   
+ [Create and design forms](../customize/create-design-forms.md)   
  [Create and edit quick create forms](../customize/create-edit-quick-view-forms.md)   
  [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)
