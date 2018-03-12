@@ -75,22 +75,57 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
 
 ## Base schema
-[JimHoltz: I'll need a lot of help with this section. I know very little about this.]
+[JimHoltz: I'll need help with intro text.]
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
-|Row1     |         |         |         |
-|Row2     |         |         |         |
-|Row3     |         |         |         |
+|Date     |Edm.Date|         |         |
+|IP address     |Edm.String         |         |         |
+|Id     |Edm.Guid         |         |         |
+|Result Status     |Edm.String         |         |         |
+|Organization Id     |Edm.Guid         |         |         |
+|ClientIP     |Edm.String         |         |         |
+|CreationTime     |Edm.Date         |         |         |
+|CrmOrganizationUniqueName     |Edm.Date         |         |         |
+|Message     |Edm.String         |         |         |
+|Operation     |Edm.Date         |         |         |
+|OrganizationId     |Edm.Date         |         |         |
+|UserKey     |Edm.String         |         |         |
+|UserType     |Self.UserType         |         |         |
+
 
 ## Dynamics 365 schema
-[JimHoltz: I'll need a lot of help with this section. I know very little about this.]
+[JimHoltz: I'll need help with intro text.]
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
-|Row1     |         |         |         |
-|Row2     |         |         |         |
-|Row3     |         |         |         |
+|User     |Edm.String        |         |         |
+|User Id     |Edm.String         |         |         |
+|Crm Organization Unique Name     |Edm.String         |         |         |
+|Instance Url     |Edm.String         |         |         |
+|Item Url     |Edm.String         |         |         |
+|Item Type     |Edm.String         |         |         |
+|User Agent     |Edm.String         |         |         |
+|CorrelationId     |Edm.Guid         |         |         |
+|EntityId     |Edm.Guid        |         |         |
+|EntityName     |Edm.String         |         |         |
+|Fields     |Edm.String          |         |         |
+|Id     |Edm.String          |         |         |
+|InstanceUrl     |Edm.String          |         |         |
+|ItemType     |Edm.String          |         |         |
+|ItemUrl     |Edm.String          |         |         |
+|PrimaryFieldValue     |Edm.String         |         |         |
+|Query     |Edm.String         |         |         |
+|QueryResults     |Edm.String         |         |         |
+|ServiceContextId     |Edm.Guid         |         |         |
+|ServiceContextIdType     |Edm.String         |         |         |
+|ServiceName     |Edm.String         |         |         |
+|SystemUserId     |Edm.Guid         |         |         |
+|UserAgent     |Edm.Guid          |        |         |
+|UserId     |Edm.Guid          |         |         |
+|UserUpn     |Edm.String         |         |         |
+
+
 
 ## Enable auditing in Dynamics 365
 
