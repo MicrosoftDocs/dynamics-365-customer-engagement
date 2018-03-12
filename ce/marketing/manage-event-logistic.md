@@ -8,7 +8,7 @@ manager: sakudes
 applies_to: 
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 84b8206a-4e9e-40fe-8a9e-d9a502990027
@@ -17,8 +17,6 @@ ms.reviewer: renwe
 # Manage attendee logistics and accommodation availability
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Use the entities in the **Logistics** area to provide information that can help attendees from farther away to plan accommodation for their trip. Register local hotels, record their contact information, allocate sets of rooms that will be made available to attendees, and take reservations for the allocated rooms. You can also register various other types of attendee-facing vendors here, such as airlines, car rentals, food caterers, and more.
 

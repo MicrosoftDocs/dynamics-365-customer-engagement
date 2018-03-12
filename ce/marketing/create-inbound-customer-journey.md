@@ -2,7 +2,7 @@
 title: "Inbound marketing with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to set up a customer journey to implement inbound marketing that attracts new contacts to register with your organization in Dynamics 365 for Marketing"
 keywords: "tutorial; inbound marketing; landing page; page"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 <div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
 
 An outbound customer journey is one that starts with a segment made up of contacts that are already included in your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] database, so an outbound journey usually starts by sending out marketing emails to the members of a segment. An inbound journey seeks to attract new, unknown contacts, so an inbound journey typically starts with a landing page that new contacts use to register for a newsletter, download, or some other perk. You'd typically promote your inbound campaign by running ads and posting links on social media.
@@ -33,7 +31,6 @@ Though messaging and promotion strategies are typically quite different for an i
 ### See also
 
 [Create a simple customer journey](create-simple-customer-journey.md)  
-[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  

@@ -2,7 +2,7 @@
 title: "Event invitations, registrations, and hotel bookings (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "After your event is set up, learn how to invite attendees, register attendees, and enter hotel bookings in Dynamics 365 for Marketing"
 keywords: "events; event management"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 After your event is fully modelled in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], you're ready to start promoting it. The system provides many tools to help you do this.
 
 ## Register attendees for events, sessions, and passes
@@ -34,11 +32,12 @@ After an attendee is registered for an event, they can then sign up for individu
 
 You can register attendees manually, by creating or importing new event registrations, session registrations, and pass assignments directly in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], or attendees can register themselves by using your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data](business-management-settings.md#import-data)
 
-To view all current registrations and pass assignments, and to create them manually in the system, work in the following areas of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
+To view all current registrations and pass assignments, and to create them manually in the system, work in either of the following areas:
 
-- **Events** &gt; **Event** &gt; **Event Registrations**: You can view and create registrations for all events here. Each event registration connects a contact to an event and shows related information including contact details, passes assigned, sessions registered for, and more. Each record has a unique event-registration ID, which is also provided as a QR code.
-- **Events** &gt; **Sessions** &gt; **Session Registrations**: You can view and create registrations for sessions from all events here. Each session registration connects an attendee event registration to a session and shows related information. Each record has a unique session-registration ID, which is generated automatically when you save the registration and is also provided as a QR code. The event associated with each registration is established when you create the record, and can't be changed later.
-- **Events &gt; Passes &gt; Attendee Passes**: View and create pass assignments for all events here. Each attendee-pass record links an attendee event registration to a pass type. Each attendee pass has a unique ID, which is also provided as a QR code.
+- **Events** &gt; **Event** &gt; **Event Registrations**: You can view and create registrations for all events here. 
+- **Events** &gt; **Event** &gt; **Events**: Open an event record here and go to the **Registration & Attendance** tab to view and create registrations for the selected event. 
+
+Each event registration record connects a contact to an event and shows related information including contact details, passes assigned, sessions registered for, session check-ins, and more. Each record has a unique event-registration ID, which is also provided as a QR code.
 
 ## Invite contacts to your events
 
