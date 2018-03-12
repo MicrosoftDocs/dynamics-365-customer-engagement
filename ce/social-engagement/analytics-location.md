@@ -2,7 +2,7 @@
 title: "Analytics for locations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Social Engagement."
 keywords: "analytics, locations, maps, location analysis"
-ms.date: 03/09/2018
+ms.date: 03/12/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -34,8 +34,6 @@ Both types of location data are available under the [**Location Type** filter](u
   
 For the United States, you can choose between two ways of grouping the visualized data. To see how many posts with location data are available in each subregion, apply a filter for post location and select **Subregions**. To see posts with precise geographical information (post location data) on the map, select **Posts**.
 
-[comment]: <> (Confirm with PM and in UI)
-  
 > [!NOTE]
 >  Some posts may have both post and author location. In these cases, the post location information is taken into account (and not the author location).  
   
@@ -43,7 +41,6 @@ For the United States, you can choose between two ways of grouping the visualize
 
 A subset of the available sources provide location data. Authors need to share their location information so it can be processed by [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)].  
 
-[comment]: <> (Review list with PM and Acq Dev for completeness. Move to sources-coverage.)
   
 ||Author location|Post location|  
 |-|---------------------|-------------------|  
