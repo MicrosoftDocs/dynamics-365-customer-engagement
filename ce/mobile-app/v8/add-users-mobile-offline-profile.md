@@ -32,5 +32,3 @@ Now that you've created a mobile offline profile, it's time to add users to it.
   
 4.  When you’re done adding users, click the **Save** button on the bottom right corner of the **Mobile Offline Profile** window.  
   
-## See Also  
- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../Topic/Configure%20mobile%20offline%20synchronization%20for%20Dynamics%20365%20for%20phones%20and%20tablets.md)

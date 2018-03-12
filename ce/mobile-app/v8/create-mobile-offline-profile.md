@@ -87,5 +87,3 @@ You need to create mobile offline profiles for users to configure filters that d
   
 13. When you’re done adding mobile offline profile item details to the mobile offline profile item, click the **Save** button at the bottom right corner of the **Mobile Offline Profile** window.  
   
-## See Also  
- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../Topic/Configure%20mobile%20offline%20synchronization%20for%20Dynamics%20365%20for%20phones%20and%20tablets.md)

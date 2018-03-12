@@ -32,5 +32,3 @@ To make the mobile offline profile available to users so they can get the mobile
 >   
 >  After importing the solution into the target organization, publish all mobile offline profiles.  
   
-## See Also  
- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../Topic/Configure%20mobile%20offline%20synchronization%20for%20Dynamics%20365%20for%20phones%20and%20tablets.md)

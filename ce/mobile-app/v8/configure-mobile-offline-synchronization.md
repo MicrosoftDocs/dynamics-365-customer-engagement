@@ -15,7 +15,7 @@ caps.latest.revision: 7
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Configure mobile offline synchronization
+# Configure mobile offline synchronization 
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 

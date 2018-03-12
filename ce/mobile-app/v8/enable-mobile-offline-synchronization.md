@@ -91,5 +91,3 @@ You can enable any entity for mobile offline that is enabled for mobile. By defa
 > [!NOTE]
 >  Publishing customizations prompts the mobile apps to download changes when users next start their app, which can adversely affect their experience over slow connections.  
   
-## See Also  
- [Configure mobile offline synchronization for Dynamics 365 for phones and tablets](../Topic/Configure%20mobile%20offline%20synchronization%20for%20Dynamics%20365%20for%20phones%20and%20tablets.md)
