@@ -28,7 +28,7 @@ You can provide an enhanced offline experience for mobile users if your organiza
 > [!NOTE]
 >  Keep the following in mind when enabling mobile offline synchronization:  
 >   
->  -   You need to make sure the licenses are assigned to a user before you can enable mobile offline synchronization. [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] won’t recognize the licenses if they’re not in use.  
+> -   You need to make sure the licenses are assigned to a user before you can enable mobile offline synchronization. [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] won’t recognize the licenses if they’re not in use.  
 > -   Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] organizations.  
 > -   Offline drafts mode (the existing offline experience) will continue to be available for all users if they aren’t using the new offline capabilities.  
   
@@ -58,5 +58,3 @@ You can provide an enhanced offline experience for mobile users if your organiza
 > [!NOTE]
 >  Once you’ve enabled mobile offline synchronization, metadata changes are pushed to the mobile apps when the changes are published, not just on app start-up. To keep mobile offline synchronization up-to-date, users should always accept the prompt to download metadata changes.  
   
-## Privacy notice  
- [!INCLUDE [cc-privacy-crm-mobile-offline](../../includes/cc-privacy-crm-mobile-offline.md)]
