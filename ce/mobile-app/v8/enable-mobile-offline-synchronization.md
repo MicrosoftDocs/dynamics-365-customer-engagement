@@ -19,75 +19,37 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-You can enable any entity for mobile offline that is enabled for mobile. By default, no entities are enabled for mobile offline , so you need to follow these steps for each entity you want to make available for users when they’re offline. You can find a list of entities available for mobile in [Entities and Dynamics 365 for phones and tablets](https://technet.microsoft.com/en-us/library/dn531159.aspx#BKMK_CustomEntity).  
+You can provide an enhanced offline experience for mobile users if your organization is using [!INCLUDE[pn_crm-8-1-0-online](../../inclues/pn-crm-8-1-0-online.md)] or later and meets one or both of the following licensing requirements:  
   
- The following entities are enabled for mobile by default:  
+-   At least 5 Professional [!INCLUDE[pn-crm-online](../../includes/pn-crm-online.md)] licenses OR  
   
--   Account  
-  
--   Appointment  
-  
--   Attachment  
-  
--   Competitor  
-  
--   Competitor Address  
-  
--   Contact  
-  
--   Email  
-  
--   Lead  
-  
--   Note  
-  
--   Opportunity  
-  
--   Opportunity Product  
-  
--   Product  
-  
--   Task  
-  
--   Case  
-  
--   Queue  
-  
--   Queue Item  
-  
--   SLA KPI Instance  
-  
--   Entitlement  
-  
--   Team  
-  
--   User  
-  
-> [!WARNING]
->  Keep in mind that the amount of data you make available to users while they’re offline can affect the data usage rates for devices on cellular networks. The amount of data depends on:  
->   
->  -   The number of entities you enable for mobile offline  
-> -   The number of days you specify since records were last modified  
-> -   The filters you set while creating mobile offline profiles in [Create a mobile offline profile](create-mobile-offline-profile.md)  
-  
-1.  Go to **Settings > Customizations**.  
-  
-2.  Click **Customize the System**.  
-  
-3.  Expand **Entities** in the left pane.  
-  
-4.  Select the entity you want to enable for mobile offline (for example, **Account**).  
-  
-5.  Under **Outlook & Mobile**, select **Enable for mobile offline**.  
-  
-6.  Click **Organization data download filter** to filter the data and set the freshness of the data you want to make available offline. You can set up to three criteria when you define a filter. Select the field to filter by, select an operator, then set a value.  
-  
-     The entities that are enabled for mobile offline by default have **Modified On** set for **Last X Days** = 10, so the data modified or created in the last 10 days will be available for downloading to mobile devices.  
-  
-7.  Click **Save**.  
-  
-8.  When you’re done enabling entities for mobile offline, click **Publish** so your changes take effect.  
+-   At least 1 Enterprise [!INCLUDE[pn-crm-online](../../includes/pn-crm-online.md)] license  
   
 > [!NOTE]
->  Publishing customizations prompts the mobile apps to download changes when users next start their app, which can adversely affect their experience over slow connections.  
+>  -   You need to make sure the licenses are assigned to users before you can enable mobile offline synchronization. [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] won’t recognize the licenses if they’re not in use.  
+> -   Mobile offline synchronization isn’t available for Trial, Preview, or sandbox [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] organizations.  
+> -   Offline drafts mode (the existing offline experience) will continue to be available for all users if they aren’t using the new offline capabilities.  
+  
+#### To enable mobile offline sync  
+  
+1.  In the web app, go to **Settings > Mobile Offline**. If you don’t see this option, your organization might not meet the requirements for enabling mobile offline synchronization.  
+  
+2.  Click **Mobile Offline Configuration**.  
+  
+3.  Click **Continue** to accept the terms of the disclaimer and allow data to be shared with an external system on [!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] services.  
+  
+4.  Select **Enable** and click **Save**. This starts the provisioning process for mobile offline. When it completes, your mobile users will automatically experience the new mobile offline capabilities. Users can opt out by choosing **Settings > Disable Sync** in their mobile app.  
+  
+> [!WARNING]
+>  If your user count falls below 1 Enterprise or 5 Professional licenses, mobile offline synchronization will be disabled for your organization.  
+  
+> [!IMPORTANT]
+>  **Recommendation for changing data centers or geo locations**  
+>   
+>  If you decide to move your org to a different data center or geo location, you need to disable and then enable mobile offline synchronization for your org after the move is complete:  
+>   
+>  1.  Go to **Settings > Mobile Offline.**  
+> 2.  Click **Mobile Offline Configuration**.  
+> 3.  Click **Continue**.  
+> 4.  Select **Disable**, click **Save**, and then click **OK**. This starts the de-provisioning process. If this option isn’t available, mobile offline synchronization was disabled during the move to a different data center or geo location, and you can continue to the next step. When the de-provisioning is complete, select **Enable**, and then click **Save**.  
   
