@@ -28,6 +28,14 @@ For more information on how to launch the form editor, see [Open the form editor
 > [!NOTE]
 > If you create any new solution components in the process of editing the form, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, open the form editor through that unmanaged solution.
 
+### Access the form editor through App designer
+
+1. Go to **Settings > My Apps**.
+2. Select **...** on an app and select **Open in App designer**.
+3. Select the down arrow on the Forms header to view the form and open it in Form designer.
+
+   ![app-designer](media/app-designer-forms.png)
+
 ### Access the form editor through the default solution
 
 1. Go to **Settings > Customizations**.
@@ -56,7 +64,7 @@ Certain customizations that make changes to the user interface require that they
 
 ## Form editor user interface
 
-The form editor displays commands in three tabs:**File**, **Home**, and **Insert**.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
+The form editor displays commands in three tabs: **File**, **Home**, and **Insert**.[!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
 - [File tab](#file-tab)
 - [Home tab](#home-tab) 
 - [Insert tab](#insert-tab) 
