@@ -35,9 +35,17 @@ Dynamics 365 for Marketing adds the following solutions to your Dynamics 365 ins
 |MicrosoftDynamics_MktPortalsLink|Portals - Marketing Integration|Part of Dynamics 365 for Marketing. Integrates the portal capabilities for Dynamics 365 solution with Marketing to provide marketing-page features.|
 |MicrosoftDynamics_MktVocLink|Voice of the Customer - Marketing Integration|Part of Dynamics 365 for Marketing. Integrates the Voice of the Customer solution with Marketing to provide customer-survey features.|
 
-Each solution provides entities and actions that you can use to customize and extend your app.
+## View entity and other components in a solution
 
+To view entities and other components in a solution, use the solution browser in your Dynamics 365 for Marketing instance.
 
-### See also
+1. Select **Settings** > **Solutions**.
 
-[Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)<br>
+    ![](../media/dev-browse-solutions.png)
+
+2. From the list of solution, select the **Display Name** of the solution that you want to view the information for.
+3. In the solution explorer, select **Components** in the left pane to view entities and other solution components in the solution. You can select each component in the left pane to view just the selected component.
+
+    ![](../media/dev-marketing-solution-browser.png)
+
+For detailed information about entities and their properties, attributes, and relationships, see [Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)

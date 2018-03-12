@@ -20,7 +20,7 @@ manager: "amyla"
 
 Your Dynamics 365 for Marketing instance (organization) contains a collection of solutions that provide business functionality for marketing features. A solution provides a framework for packaging, installing, and uninstalling *components* that provide specific business functionality. Some examples of a solution component are entities, apps, business rules, charts, dashboards, and so on. For information about all the solution components, see [Solution components](../../customize/solutions-overview#solution-components).
 
-This section provides you information about the solutions, entities, and actions in a Dynamics 365 for Marketing instance (organization); you might find these information helpful as while customizing and extending your apps.
+This section provides information about the solutions and entities in a Dynamics 365 for Marketing instance (organization). This information might be helpful as you customize and extend your app.
 
 ### In this section
 
