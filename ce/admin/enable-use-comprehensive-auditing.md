@@ -135,6 +135,7 @@ Logging takes place at the SDK layer which means a single action can trigger mul
    - **Audit user access**
    - **Start Read Auditing** (Note: this only appears if you enable **Start Auditing**.)
 3. Under **Enable Auditing in the following areas**, enable the check boxes for the areas you want to audit and then choose **OK**.
+   
    ![System Settings Auditing](media/system-settings-auditing.png "System Settings Auditing")
 4. Go to **Settings** > **Customizations** > **Customize the System**
 5. Under **Components**, expand **Entities** and select an entity to audit, such as **Account**.
@@ -142,10 +143,11 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 7. Under **Auditing**, enable the following check boxes:
    - **Single record auditing. Log a record when opened.**
    - **Multiple record auditing. Log all records displayed on an opened page.**
+
+   ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
 8. Choose **Save**.
 9. Choose **Publish** to publish the customization.
 10. Repeat steps 5 - 9 for other entities you want to audit.
-   ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
 11. Turn on audit logging in Office 365. See [Turn Office 365 audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 
