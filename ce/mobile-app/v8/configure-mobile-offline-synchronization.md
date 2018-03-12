@@ -34,6 +34,9 @@ You can provide an enhanced offline experience for mobile users if your organiza
   
  This offline experience uses [!INCLUDE[pn-windows-azure](../../includes/pn-windows-azure.md)]  services to periodically synchronize entities with the [!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization in an eligible organization, you need to do the following:  
   
+> [!NOTE]
+> A user must have a security role that has Read permissions on the mobile offline profile to be able to use their mobile device in offline mode.
+
 1.  [Enable mobile offline synchronization](../../mobile-app/v8/enable-mobile-offline-synchronization.md)  
   
 2.  [Enable entities for mobile offline synchronization](../../mobile-app/v8/enable-entities-mobile-offline-synchronization.md)  
