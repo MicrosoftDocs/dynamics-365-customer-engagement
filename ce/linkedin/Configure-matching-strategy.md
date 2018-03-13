@@ -2,7 +2,7 @@
 title: "Matching strategy for Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to specify which leads in Dynamics 365 get updated by configuring the matching strategy for newly synced LinkedIn leads."
 keywords: "lead matching, field mapping, linkedin leads, lead record"
-ms.date: 02/06/2018
+ms.date: 03/13/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -74,7 +74,7 @@ If another matching strategy is active, it will become deactivated.
 
 ## Edit the LinkedIn field mapping
 
-By default, Dynamics 365 maps fields from LinkedIn leads to corresponding fields of a lead record. As a system administrator or customizer, you can change the field mapping or create new mappings. 
+By default, Dynamics 365 maps fields from [!include[LinkedIn](../includes/pn-linkedin.md)] leads to corresponding fields of a lead record. As a system administrator or customizer, you can change the field mapping or create new mappings to support fields from custom questions on [!include[LinkedIn](../includes/pn-linkedin.md)] lead gen forms. 
 
 1. In [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Field Mappings**.
 
