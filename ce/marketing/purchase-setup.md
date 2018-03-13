@@ -25,8 +25,9 @@ Read this topic to learn how to set up Dynamics 365 for Marketing for the first 
 ## Prerequisites and requirements
 
 > [!IMPORTANT]
-> A setup form is provided to help you set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time. Before opening the form, you must meet all the following requirements:
+> To install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], you must meet all the following requirements:
 > - You must already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
+> - You must be running [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] 9.0 or higher.
 > - You must already have a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] license assigned to you on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 > - You must run the setup form as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user with admin privileges on the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org where you are installing [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 > - Close all other browser windows and tabs before starting.
