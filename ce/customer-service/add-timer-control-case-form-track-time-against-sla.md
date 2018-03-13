@@ -32,9 +32,9 @@ Add a timer control to an entity form to help users gauge the amount of time the
   
 -   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
   
-![Timer control state in Customer Service Hub](media/timer-sla-csh.png)
+    ![Timer control state in Customer Service Hub](media/timer-sla-csh.png)
 
-![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png)
+    ![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png)
   
 > [!IMPORTANT]
 > - The instructions in this topic apply  if you're adding a timer to track time for  the date/time field of any entity, or for tracking time against standard  SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
@@ -80,7 +80,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
     7.  Next to **Pause Condition**, enter the condition that will cause the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to “On-hold”. For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
   
-       ![Timer control in Customer Service Hub](media/timer-control-box-csh.png)
+        ![Timer control in Customer Service Hub](media/timer-control-box-csh.png)
   
 8.  Select **OK** to add the control to the form.  
   
@@ -97,5 +97,4 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
 ### See also  
 
  [Define service level agreements](../customer-service/define-service-level-agreements.md)   
- [Common field properties](../customize/common-field-properties-legacy.md)   
- [Special field properties](../customize/special-field-properties-legacy.md)
+

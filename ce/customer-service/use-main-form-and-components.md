@@ -15,7 +15,7 @@ ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
 ---
 # Use the Main form and its components
  
-Forms in the Customer Service Hub have a new experience that saves users some clicks and helps them maintain context while working on related records. You can see the forms listed in the list of other forms in the solution explorer in the Customization area. The form type of the new forms is **Main**.
+Forms in the Customer Service Hub have a new experience that saves users some clicks and helps them maintain context while working on related records. You can see the forms enlisted in the solution explorer in the **Customization** area. The form type of the new forms is **Main**.
 
 This topic explains how to edit a Main form, and add or change various elements of the form.
 
@@ -148,7 +148,7 @@ The **Home** tab displays the commands listed in the following table:
 ||**Navigation**|Edit the form navigation.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Edit Navigation](../customize/use-the-form-editor-legacy.md)
 |**Form**|**Business Rules**|View, edit, or create new business rules with the Business Rules explorer. **Note:**  For the interactive forms, only the “Entity” and “All Forms” scope is supported.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit business rules](../customize/create-business-rules-recommendations-apply-logic-form.md)|
 ||**Form Properties**|[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Form Properties](../customize/form-properties-legacy.md)|  
-||**Preview**|Use this to see how form looks after it is published. Ypu can also ue preview to test scripts associated with from events.|         
+||**Preview**|Use this to see how form looks after it is published. You can also preview to test scripts associated with from events.|         
 ||**Enable Security Roles**|Use this to set which security roles will have access to the forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Control access to forms](../customize/control-access-forms.md) **Important:**  If you create a new form, only the System Administrator and System Customizer security roles will have access to the form. You must assign access to other security roles before people in your organization can use it.|  
 ||**Show Dependencies**|See which solution components depend on this form and which solution components are required by this form. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Solution dependencies](../customize/overview.md)|  
 ||**Managed Properties**|Managed properties command has two properties **Customizable** and **Can be Deleted**. Setting these properties to false means the form won’t be customizable and cannot be deleted after you included it in a solution, export that solution as a managed solution, and import that managed solution into a different organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Managed properties](../customize/managed-properties.md)| 
@@ -215,7 +215,7 @@ To know in detail about the section properties, see [Section properties](../cust
   
  The following types of activities are supported: Task, appointment, phone call, email, social activity, custom activity.  
   
- The Timeline also shows notes and system posts. It shows those activities that have their **Regarding** field set to the entity you’re viewing. For notes, the **Regarding** field isn’t shown to the user; It is implicit when created from the Timeline.  
+ The Timeline also shows notes and system posts. It shows those activities that have **Regarding** field set to the entity you’re viewing. For notes, the **Regarding** field isn’t shown to the user; It is implicit when created from the Timeline.  
   
  Each activity that’s shown in the Timeline, will have the same quick actions that are available on the activity’s command bar.  
 

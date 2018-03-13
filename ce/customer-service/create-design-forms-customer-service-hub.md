@@ -18,6 +18,8 @@ ms.assetid: d1efcf5e-988b-4e0c-bf11-2dcde1ea739f
 Improve user's productivity with the new forms in the Customer Service Hub. 
 
 The **Main** forms have an improved user experience that saves some clicks and helps maintain context while working on related records. 
+
+For more information about supported forms and converting interactive experience forms to Main forms, see the blog:[ Upgrade from Interactive Service Hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
   
 ## Supported entities  
 By default, the following Customer Service Hub entities have the **Main** forms created out-of-the box: 
@@ -37,13 +39,20 @@ By default, the following Customer Service Hub entities have the **Main** forms 
 - Knowledge Articles  
   
 > [!NOTE]
->  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive experience dashboards](../customize/configure-interactive-experience-dashboards.md)  
+>  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive dashboards](../customize/configure-interactive-experience-dashboards.md)
   
 You can see the forms for each entity in their list of forms in the solution explorer in the **Customization** area. You can identify the form by the form type and display name. 
 
 ![form-type](media/form-type-csh.png)
 
 Both the **Main** type forms are available to use in the Customer Service Hub (based on Unified Interface).
+
+### Enable custom entities in the Customer Service Hub
+You can enable any new custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity, ensure that the following flag is checked in the **Outlook & Mobile** section in the entity metadata:
+
+![enable-custom-entity](media/enable-custom-entity.png)
+
+Check the flag **Read-only in mobile** if you want the custom entity to be read-only on a mobile device.
 
 As a customizer, you can customize these forms in a way that it is easier for the users in your organization to find or enter information efficiently. You can create more forms for these entities.  
 
@@ -64,6 +73,6 @@ As a customizer, you can customize these forms in a way that it is easier for th
  When you have multiple main, quick create, or mobile forms for an entity you can assign a form order. The form order determines which of the available forms will be shown by default. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Assign form order for forms](../customize/assign-form-order.md)  
   
 ## See Also  
- [Create and design forms](../customize/create-design-forms.md)   
- [Create and edit quick create forms](../customize/create-edit-quick-view-forms.md)   
- [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)
+[Create and design forms](../customize/create-design-forms.md)   
+ 
+[Use the Main form and its components](use-main-form-and-components.md)

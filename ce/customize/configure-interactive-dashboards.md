@@ -9,8 +9,8 @@ ms.date: 03/09/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 ---
 
@@ -22,16 +22,14 @@ ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 
 Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. 
 
-Dashboards pull together key information, so customer service representatives can focus on what’s important to them and get things done faster.
-
-The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams. 
+Dashboards pull together key information, so customer service representatives can focus on what’s important to them and get things done faster. The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams. 
 
 For more information about dashboards, see [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../customer-service/customer-service-hub-user-guide-dashboard.md)
 
 > [!NOTE]
 >  The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues must be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
   
- The illustrations in this topic show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
+The illustrations in this topic show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
 
 The interactive dashboards come in two flavors:
 
@@ -69,12 +67,12 @@ The interactive dashboards come in two flavors:
  ![Single&#45;stream dashboard layouts.](../customize/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts.")  
   
 ## Configure entities, fields, and security roles for the interactive dashboards  
- When you configure interactive dashboards, your first task is to enable entities, fields, and security roles for the interactive experience.  
+ When you configure interactive dashboards, your first task is to enable entities, fields, and security roles, so that interactive dashboards can be configured  for them.  
   
 ### Enable entities  
- You can create interactive dashboards for all entities. You can also enable custom entities and custom activities for the interactive dashboards.  
+ You can create interactive dashboards for all entities in the Customer Service Hub. You can also enable custom entities and custom activities for interactive dashboards. To know more about how to enable custom entities, see [Enable custom entities in the Customer Service Hub](../customer-service/create-design-forms-customer-service-hub.md#enable-custom-entities-in-the-customer-service-hub).
   
- Out of the box, the following system entities are enabled for interactive dashboards for the Customer Service Hub:  
+ Out of the box, the following entities are enabled for interactive dashboards in the Customer Service Hub:  
   
 -   Cases
 -   Contacts
@@ -98,7 +96,7 @@ The interactive dashboards come in two flavors:
 - Appears in global filter in interactive experience
 - Sortable in interactive experience dashboard
 
-Refer the screen below to see the 2 flags enabled in the **Case** entity for the **IsEscalated** field:
+Refer the screen below to see the two flags enabled in the **Case** entity for the **IsEscalated** field:
   
 ![Enable a field for global filter and sort](media/enable-filter-sort.png)
 
@@ -148,7 +146,7 @@ The following illustration shows the flyout dialog with the list of the availabl
 ### Enable security roles  
  Select and enable security roles that will be able to view the interactive dashboards.  
   
- #### To enable the security roles for the interactive experience  
+ #### To enable the security roles  
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -165,7 +163,7 @@ The following illustration shows the flyout dialog with the list of the availabl
 ![Enable security roles](media/security-roles.png)
 
   
-## Configure interactive experience dashboards  
+## Configure interactive dashboards  
  The following sections describe how to configure various types of interactive dashboards.  
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout
@@ -210,7 +208,9 @@ The following illustration shows the flyout dialog with the list of the availabl
   
  Next, configure the **Streams**. Just like with adding components in the charts, select the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustration.  
 
-![Add a stream of my active cases](media/add-stream-dashboard.png)
+Configure the stream for the **Items available to work on** as shown here:
+
+![Add-streams-dashboards](media/add-stream-dashboard.png)
   
 > [!NOTE]
 >  The **Queue** option is available in the dialog box only for queue-enabled entities. For entity dashboards, if the entity is not queue enabled, you won't see the **Queue** option in the dialog box. You can only use the **View option** in the stream of dashboards for entities that are not queue enabled.  
