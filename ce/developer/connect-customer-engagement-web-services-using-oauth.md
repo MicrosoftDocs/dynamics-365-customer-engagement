@@ -2,7 +2,7 @@
 title: "Connect to Dynamics 365 Customer Engagement web services using OAuth (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to connect to Dynamics 365 Customer Engagement web services using OAuth and how the ADAL API manages OAuth 2.0 authentication with the Dynamics 365 web service identity provider"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,8 +25,12 @@ OAuth is the authentication method supported by the [!INCLUDE[pn_dynamics_crm](.
  Method calls to the web services must be authorized with the identity provider for that service endpoint. Authorization is approved when a valid              OAuth 2.0 (user) access token, issued by [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)], is provided in the headers of the message requests.  
   
  The recommended authentication API for use with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web API is [Azure Active Directory Authentication Library (ADAL)](https://azure.microsoft.com/en-us/documentation/articles/active-directory-authentication-libraries/), which is available for a wide variety of platforms and programming languages. The ADAL API manages OAuth 2.0 authentication with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web service identity provider. For more details on the actual OAuth protocol used, see [Use OAuth to Authenticate with the CRM Service](http://blogs.msdn.com/b/crm/archive/2013/12/12/use-oauth-to-authenticate-with-the-crm-service.aspx).  
-  
- Before you can use OAuth authentication to connect with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services, your application must first be registered with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)]. [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] is used to verify that your application is permitted access to the business data stored in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tenant.  
+ 
+> [!NOTE]
+> You must use the ADAL 2.0 libraries. All Dynamics 365 Customer Engagement tools, assemblies, and utilities require the patterns supported by ADAL 2.0.
+> The ADAL 3.0 libraries require a sign-in screen to capture user account information and do not provide for passing this account information in a headless fashion as required by Dynamics 365 Customer Engagement. 
+
+Before you can use OAuth authentication to connect with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services, your application must first be registered with [!INCLUDE[pn_microsoft_azure_active_directory](../includes/pn-microsoft-azure-active-directory.md)]. [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] is used to verify that your application is permitted access to the business data stored in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] tenant.  
   
 ## Authenticate using ADAL  
  Basic OAuth web service authentication using ADAL is done using just a few lines of code.  
