@@ -20,7 +20,7 @@ Improve user's productivity with the new forms in the Customer Service Hub.
 The **Main** forms have an improved user experience that saves some clicks and helps maintain context while working on related records. 
   
 ## Supported entities  
-By default, the following entities are enabled in the Customer Service Hub and have the **Main** forms created out-of-the box: 
+By default, the following Customer Service Hub entities have the **Main** forms created out-of-the box: 
   
 - Accounts  
   
@@ -43,7 +43,7 @@ You can see the forms for each entity in their list of forms in the solution exp
 
 ![form-type](media/form-type-csh.png)
 
-Both the **Main** type forms are available to use in the Customer Service Hub (based on Unified Interface). They are also available if you are using Interactive service hub (based on web-client).
+Both the **Main** type forms are available to use in the Customer Service Hub (based on Unified Interface).
 
 As a customizer, you can customize these forms in a way that it is easier for the users in your organization to find or enter information efficiently. You can create more forms for these entities.  
 
