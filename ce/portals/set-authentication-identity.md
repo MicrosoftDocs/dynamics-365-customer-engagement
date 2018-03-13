@@ -2,7 +2,7 @@
 title: "Set authentication identity for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to set authentication identity for a portal."
 keywords: ""
-ms.date: 03/12/2018
+ms.date: 03/13/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -207,7 +207,7 @@ The following describes the settings for enabling and disabling user registratio
 | Authentication/Registration/Enabled                 | Enables or disables all forms of user registration. Registration must be enabled for the other settings in this section to take effect. Default: true                                   |
 | Authentication/Registration/OpenRegistrationEnabled | Enables or disables the sign-up registration form for creating new local users. The sign-up form allows any anonymous visitor to the portal to create a new user account. Default: true |
 | Authentication/Registration/InvitationEnabled       | Enables or disables the invitation code redemption form for registering users who possess invitation codes. Default: true                                                               |
-|Authentication/Registration/CaptchaEnabled|Enables or disables captcha on the user registration page. Default: true |
+|Authentication/Registration/CaptchaEnabled|Enables or disables captcha on the user registration page. Default: false<br>**Note**: This site setting might not be available by default. To enable captcha, you must create the site setting and set its value to true. |
 ||
 
 > [!NOTE]
