@@ -1,6 +1,6 @@
 ---
-title: Configure interactive experience dashboards in Microsoft Dynamics 365 | Microsoft Docs
-description: Know how to configure interactive experience dashboards in Microsoft Dynamics 365
+title: Configure interactive dashboards in Microsoft Dynamics 365 | Microsoft Docs
+description: Know how to configure interactive dashboards in Microsoft Dynamics 365
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Customer Service Hub
 author: anjgupta
 ms.author: anjgup
@@ -14,13 +14,17 @@ applies_to:
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 ---
 
-# Configure interactive experience dashboards
+# Configure interactive dashboards
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 ## Dashboards overview
 
-Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams in real time. 
+Customer Service Hub provides a modern, intuitive, and interactive experience for managing your customer service operations. For service reps, the interactive dashboards are a one-stop workplace to see what's important and take actions. 
+
+Dashboards pull together key information, so customer service representatives can focus on what’s important to them and get things done faster.
+
+The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams. 
 
 For more information about dashboards, see [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../customer-service/customer-service-hub-user-guide-dashboard.md)
 
@@ -70,13 +74,13 @@ The interactive dashboards come in two flavors:
 ### Enable entities  
  You can create interactive dashboards for all entities. You can also enable custom entities and custom activities for the interactive dashboards.  
   
- Out of the box, the following system entities are enabled for interactive dashboards:  
+ Out of the box, the following system entities are enabled for interactive dashboards for the Customer Service Hub:  
   
 -   Cases
 -   Contacts
 -   Accounts 
 -   Social Profiles  
--   Queues
+-   Queue items
 -   Knowledge Articles  
 -   Activities: 
     - Email
@@ -88,28 +92,18 @@ The interactive dashboards come in two flavors:
 > [!NOTE]
 > All customization tasks for the Customer Service Hub must be done in the Microsoft Dynamics 365 web application.
   
-### Configure fields  
+### Configure filter fields  
  For a field to appear in the global filter and to be included in the data stream sort, you must set two flags: 
 
 - Appears in global filter in interactive experience
 - Sortable in interactive experience dashboard
 
-Refer the screen below to see the 2 flags enabled in the **Case** entity for the **IsEscalated** field.
+Refer the screen below to see the 2 flags enabled in the **Case** entity for the **IsEscalated** field:
   
 ![Enable a field for global filter and sort](media/enable-filter-sort.png)
-  
-### Configure global filter fields  
- For a field to appear in the global filter, you must set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is selected the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity.  
 
- The global filter flyout window is shown here:  
-  
-![Add two global filter fields](media/global-filter-escalated.png)
-  
-> [!TIP]
->  When you configure a visual filter based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
-  
- #### To set the global filter flag  
-  
+#### Configure the flag 'Appears in global filter in interactive experience'
+
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
 2.  Select **Customize the System**.  
@@ -120,17 +114,19 @@ Refer the screen below to see the 2 flags enabled in the **Case** entity for the
   
 5.  In the **General** tab, select the **Appears in global filter in interactive experience** check box. Select **Save and Close**.  
   
-6.  Select **Publish All Customizations** for your changes to take effect.  
+6.  Select **Publish All Customizations** for your changes to take effect.
   
-### Configure sortable fields  
- For a field to be used in sorting stream data, you must set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear when you select the drop-down list on the stream header. 
+The fields that you configure will appear in the global filter flyout window when the global filter icon is selected from the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity.  
 
-The following illustration shows the flyout dialog with the list of the available fields for sorting, in the drop-down list. The default sort is always set on the **Modified On** field.  
+The global filter flyout window is shown here:  
   
-![Sort by dropdown list](media/sort-field.png)
+![Add two global filter fields](media/global-filter-escalated.png)
   
- #### To set the sort flag  
-  
+> [!TIP]
+>  When you configure a visual filter based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
+     
+#### Configure the flag 'Sortable in interactive experience dashboard'
+
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
 2.  Select **Customize the System**.  
@@ -141,7 +137,13 @@ The following illustration shows the flyout dialog with the list of the availabl
   
 5.  In the **General** tab, select the **Sortable in interactive experience dashboard** check box. Select **Save and Close**.  
   
-6.  Select **Publish All Customizations** for your changes to take effect. 
+6.  Select **Publish All Customizations** for your changes to take effect.
+
+The fields that you configure for sorting will appear when you select the drop-down list on the stream header. 
+
+The following illustration shows the flyout dialog with the list of the available fields for sorting, in the drop-down list. The default sort is always set on the **Modified On** field.  
+  
+![Sort by dropdown list](media/sort-field.png) 
   
 ### Enable security roles  
  Select and enable security roles that will be able to view the interactive dashboards.  
