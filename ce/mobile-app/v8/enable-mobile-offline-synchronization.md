@@ -19,18 +19,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-You can provide an enhanced offline experience for mobile users if your organization is using [!INCLUDE[pn_crm-8-1-0-online](../../includes/pn-crm-8-1-0-online.md)] or later and meets one or both of the following licensing requirements:  
-  
--   At least 5 Professional [!INCLUDE[pn-crm-online](../../includes/pn-crm-online.md)] licenses OR  
-  
--   At least 1 Enterprise [!INCLUDE[pn-crm-online](../../includes/pn-crm-online.md)] license  
-  
-> [!NOTE]
-> -   You need to make sure the licenses are assigned to users before you can enable mobile offline synchronization. [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] won’t recognize the licenses if they’re not in use.  
-> -   Mobile offline synchronization isn’t available for Trial, Preview, or sandbox [!INCLUDE[pn-crm-shortest](../../includes/pn-crm-shortest.md)] organizations.  
-> -   Offline drafts mode (the existing offline experience) will continue to be available for all users if they aren’t using the new offline capabilities.  
-  
-## To enable mobile offline sync  
+Enable mobile offline synchronization so users can stay productive wherever they are.
   
 1.  In the web app, go to **Settings > Mobile Offline**. If you don’t see this option, your organization might not meet the requirements for enabling mobile offline synchronization.  
   
