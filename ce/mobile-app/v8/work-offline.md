@@ -51,13 +51,13 @@ manager: "brycho"
   
 -   While offline, you can’t set the value for lookup fields. If you create a record that is associated with another record, such as adding a phone call to a contact, some lookup fields might populate automatically (in this case, the To and From fields might pre-populate). You need to fill these fields in once you re-connect while you review and save your drafts.  
   
-### About cached data  
+## About cached data  
  The records you’ve recently used are kept on your mobile device, and are also known as cached data. Cached data is specific to your device, so if you use both the phone and tablet apps, the cached data on each device will be different, depending on the records you’ve viewed on each one.  
   
 > [!WARNING]
 > Cached data is not encrypted. You can use BitLocker to encrypt the entire hard drive on a [!INCLUDE [pn-windows8](../../includes/pn-windows8.md)] or [!INCLUDE [pn-windows-10](../../includes/pn-windows-10.md)] device.  
   
-### If you’re prompted to sign in while you’re disconnected  
+## If you’re prompted to sign in while you’re disconnected  
  If you’re prompted to sign in while you’re offline, tap the **Back** button on the sign-in page and you’ll still be able to work in offline mode on [!INCLUDE [tn-ipad](../../includes/tn-ipad.md)] and [!INCLUDE [pn-windows8](../../includes/pn-windows8.md)] tablets until you can reconnect. On all other phones and [!INCLUDE [tn-android](../../includes/tn-android.md)] tablets, however, you can no longer work in offline mode and will be redirected to the **Let’s get started** page until you can reconnect and sign in again.  
   
 ## Working offline with on-premises  deployments  
@@ -65,7 +65,7 @@ manager: "brycho"
   
  Note that offline synchronization is not supported by on-premises deployments.  
   
-### Background sync  
+## Background sync  
  Background sync is enabled even when the app is minimized so long as a network connection is detected. But when the app is in the background, metadata changes will not be accepted automatically. When you bring the app to the foreground, you will be prompted to accept the metadata changes.  
   
  **About background sync:**  
@@ -96,12 +96,12 @@ manager: "brycho"
   
  Background sync is available on all supported devices. See [Support for Dynamics 365 for phones and Dynamics 365 for tablets](https://technet.microsoft.com/library/dn531131.aspx).  
   
-### Sync conflict resolution  
+## Sync conflict resolution  
  If multiple entries are made in the same field by offline users (for example, two or more “close by” dates), the conflict is clearly marked and you can choose the correct entry.  
   
  If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark ("!”) by the relevant field, and will need to resubmit your  updated changes.  
   
-### Enhanced sync filters  
+## Enhanced sync filters  
  Admins  can choose what information to sync to user's devices. This can help minimize impact to user's device's memory.  
   
 > [!NOTE]
