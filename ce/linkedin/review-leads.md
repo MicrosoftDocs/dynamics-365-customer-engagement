@@ -2,7 +2,7 @@
 title: "Review leads updated by Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to see the details of the updated leads and review the aggregated lead performance by using Dynamics 365 Connector for LinkedIn Lead Gen Forms."
 keywords: "lead, lead gen form, sponsored content, linkedin, dashboard"
-ms.date: 02/05/2018
+ms.date: 03/13/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -51,7 +51,7 @@ To see all form submissions in [!include[Dynamics 365 (online)](../includes/pn-c
 
 ## Establish and grow relationships with [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator
 
-The [LinkedIn Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/en-us/product/dynamics-365/linkedin.acdbc404-e99f-4c3e-927f-52fa28a6a682) is a useful addition if your organization is already using [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator.
+The [LinkedIn Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/en-us/product/dynamics-365/linkedin.acdbc404-e99f-4c3e-927f-52fa28a6a682) is an additional integration with separate requirements which might be a useful addition if your organization is already using [!include[LinkedIn](../includes/pn-linkedin.md)] Sales Navigator.
 
 To find out more about the capabilities or request a demo, head over to [Sales Navigator from LinkedIn Sales Solutions](https://business.linkedin.com/sales-solutions/sales-navigator). 
 
