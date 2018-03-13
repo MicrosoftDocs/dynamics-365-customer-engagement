@@ -24,7 +24,7 @@ topic-status: Drafting
 
 Read this topic to get an overview of how to update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and its related solutions.
 
-# Solutions included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
+## Solutions included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is implemented using several different [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] _solutions_, where a _solution_ is a type of software package that adds functionality to your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] platform. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes several solutions that are unique to the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, plus a few more that are available as separate apps or in other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] app bundles.
 
@@ -34,11 +34,11 @@ When you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn
 - **[!INCLUDE[pn-voice-of-the-customer-full](../includes/pn-voice-of-the-customer-full.md)]**: This solution enables [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to host surveys and collect responses. It's also available as an add-on or bundle for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] apps. You must update this solution separately from the other solutions included with Marketing, using its own update program.
 - **[!INCLUDE[pn-portals](../includes/pn-portals.md)] capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]**: This solution enables [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to host interactive portals that display and collect [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] data, including the events portal and marketing pages. Like [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)], you must update this solution using its own update program.
 
-# Find out when new updates are available
+## Find out when new updates are available
 
 To find out when an update is available, regularly check the status of your apps and solutions in the Dynamics 365 Administration Center. It's also a good idea to participate in forums and follow blogs about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], where updates are likely to be announced and discussed.
 
-# Open the Dynamics 365 admin center
+## Open the Dynamics 365 admin center
 
 Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to review the status of your apps and solutions and to apply updates. To open the admin center:
 
@@ -57,7 +57,7 @@ Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.m
 
 See the remaining sections of this topic for details about how to use this page to find and apply relevant updates.
 
-# Find and apply updates for core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions
+## Find and apply updates for core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions
 
 To find and apply available updates to all core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions, including the [!INCLUDE[pn-linkedin-solution-shortest](../includes/pn-linkedin-solution-shortest.md)]:
 
@@ -75,7 +75,7 @@ To find and apply available updates to all core [!INCLUDE[pn-marketing-app-modul
 
 1. Repeat this procedure for each [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] organization that you have.
 
-# Find and apply updates for shared [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions
+## Find and apply updates for shared [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions
 
 
 > [!IMPORTANT]
