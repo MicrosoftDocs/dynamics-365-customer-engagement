@@ -39,7 +39,7 @@ By default, the following Customer Service Hub entities have the **Main** forms 
 - Knowledge Articles  
   
 > [!NOTE]
->  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive dashboards](../customize/configure-interactive-experience-dashboards.md)
+>  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive dashboards](../customize/configure-interactive-dashboards.md)
   
 You can see the forms for each entity in their list of forms in the solution explorer in the **Customization** area. You can identify the form by the form type and display name. 
 
