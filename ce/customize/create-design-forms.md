@@ -20,7 +20,7 @@ tags:
 ---
 # Create and design forms 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], forms provide the user interface that people use to interact with the data they need to do their work. It's important that the forms people use are designed to allow them to find or enter the information they need efficiently. 
 
@@ -34,7 +34,7 @@ If you’re viewing a managed solution, you can’t create new forms or edit exi
 There are several types of forms:  
 |Form type|Description|More information|  
 |---------------|-----------------|-----------------|  
-|**Main**|Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.|[Design considerations for main forms](../customize/design-considerations-main-forms.md)|  
+|**Main**|Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> These forms provide the main user interface for interacting with entity data.|[Design considerations for main forms](../customize/design-considerations-main-forms.md)|  
 |**Mobile**|Used for the [!INCLUDE[pn-dyn-365-phones](../includes/pn-dyn-365-phones.md)] pages. This simplified form is designed to be used for mobile devices.|[Customize the mobile app](../customize/customize-phones-tablets.md)  |  
 |**Quick Create**|Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms provide a basic form optimized for creating new records.|[Create and edit quick create forms](../customize/create-edit-quick-view-forms.md) |  
 |**Quick View**|Used in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)].<br /><br /> For updated entities, these forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form.|[Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)|  
