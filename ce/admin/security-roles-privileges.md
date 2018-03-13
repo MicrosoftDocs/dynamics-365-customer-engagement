@@ -1,7 +1,7 @@
 ---
-title: "Security roles and privileges for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Security roles and privileges | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,6 +10,7 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "PowerApps"
 ms.assetid: 460766f2-4b19-4406-8fd0-fff46d4cbb5e
 caps.latest.revision: 21
 author: "Mattp123"
@@ -18,7 +19,7 @@ manager: "brycho"
 ---
 # Security roles and privileges
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] <br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 To control data access, you must set up an organizational structure that both protects sensitive data and enables collaboration. You do this by setting up business units, security roles, and field security profiles.  
   
@@ -33,7 +34,7 @@ To control data access, you must set up an organizational structure that both pr
   
  *Task-based privileges*, at the bottom of the form, give a user privileges to perform specific tasks, such as publish articles.  
   
- The colored circles on the security role settings page define the access level for that privilege. Access levels determine how deep or high in the organizational business unit hierarchy the user can perform the specified privilege. The following table lists the levels of access in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], starting with the level that gives users the most access.  
+ The colored circles on the security role settings page define the access level for that privilege. Access levels determine how deep or high in the organizational business unit hierarchy the user can perform the specified privilege. The following table lists the levels of access in the app, starting with the level that gives users the most access.  
   
 |||  
 |-|-|  
@@ -48,7 +49,7 @@ To control data access, you must set up an organizational structure that both pr
   
 <a name="BKMK_privileges"></a>   
 ### Record-level privileges  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] has eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
+ [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] use eight different record-level privileges that determine the level of access a user has to a specific record or record type.  
   
 |Privilege|Description|  
 |---------------|-----------------|  
