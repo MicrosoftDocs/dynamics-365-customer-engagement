@@ -2,7 +2,7 @@
 title: "Connect LinkedIn to Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: " Learn how to connect Dynamics 365 Connector for LinkedIn Lead Gen Forms with the LinkedIn service to sync lead gen data to Dynamics 365 (online)."
 keywords: "LinkedIn Lead Gen Connector, connection, Dynamics 365, Customer Engagement"
-ms.date: 02/05/2018
+ms.date: 03/13/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -48,7 +48,7 @@ After successful authorization, the [!include[LinkedIn](../includes/pn-linkedin.
 
 When you go to **Sales** > **LinkedIn Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all LinkedIn user profiles to Dynamics 365. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated in total.
 
-If you want synchronize the LinkedIn data retroactively after migrating to a to a newly created Dynamics 365 organization, you can trigger an optional, on-demand sync of all data from [!include[LinkedIn](../includes/pn-linkedin.md)] by selecting **Reset Synchronization**. This will pull all lead data from LinkedIn again. We don't recommend this action if you already have a working synchronization set up because the matching will fail for all leads that were matched earlier. 
+If you want synchronize the LinkedIn data retroactively after migrating to a to a newly created Dynamics 365 organization, you can trigger an optional, on-demand sync of all data from [!include[LinkedIn](../includes/pn-linkedin.md)] by selecting **Reset Synchronization**. This will pull all lead data from LinkedIn again. We don't recommend this action if you already have a working synchronization set up because the matching will fail for all leads that were matched earlier. Additionally, it can take a long time to complete as it's syncing all leads again and thus shouldn't be used frequently.  
 
 ### See also
 
