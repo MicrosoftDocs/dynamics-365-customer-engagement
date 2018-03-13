@@ -2,7 +2,7 @@
 title: "Guide your prospects through an interactive customer journey (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to create a customer journey by assembling a pipeline of automated communications, activities, and conditional pathways in Dynamics 365 for Marketing"
 keywords: "customer journey; campaign; email; segment; go live; pipeline"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Use customer journeys to create automated campaigns
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 <div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
 
@@ -178,11 +176,7 @@ If you have more than one set of content settings, exactly one of them will be t
 
 A journey's suppression segment contains a list of contacts that the journey won't send any messages to, even if those contacts are also included among the segments explicitly targeted by the journey, and even if those contacts are already partly through the journey. 
 
-Suppression segments are especially important for journeys that run for a long time (such as more than a few days), including journeys with triggers that introduce long delays. That's because once a contact starts the journey, only a suppression segment can remove that contact again&mdash;even if the contact unsubscribes in the meantime.
-
-You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its General tab and then choose a segment in the **Suppression segment** lookup field.
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use suppression segments to apply unsubscribe requests](suppression-segments.md)
+You can use any existing segment as a suppression segment. To choose a suppression segment for your journey, open its **General** tab and then choose a segment in the **Suppression segment** lookup field.
 
 ## Go live to start running the journey and processing contacts
 
@@ -199,7 +193,6 @@ When you've finished designing your customer journey, do the following to verify
 ### See also
 
 [Customer journey tiles reference](customer-journey-tiles-reference.md)  
-[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  

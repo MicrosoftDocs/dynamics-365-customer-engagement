@@ -74,6 +74,59 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Admin activities     |Admin activities on customer tenant.|
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
 
+## Base schema
+[JimHoltz: I'll need help with intro text.]
+
+|Field name  |Type  |Mandatory  |Description  |
+|---------|---------|---------|---------|
+|Date     |Edm.Date|         |         |
+|IP address     |Edm.String         |         |         |
+|Id     |Edm.Guid         |         |         |
+|Result Status     |Edm.String         |         |         |
+|Organization Id     |Edm.Guid         |         |         |
+|ClientIP     |Edm.String         |         |         |
+|CreationTime     |Edm.Date         |         |         |
+|CrmOrganizationUniqueName     |Edm.Date         |         |         |
+|Message     |Edm.String         |         |         |
+|Operation     |Edm.Date         |         |         |
+|OrganizationId     |Edm.Date         |         |         |
+|UserKey     |Edm.String         |         |         |
+|UserType     |Self.UserType         |         |         |
+
+
+## Dynamics 365 schema
+[JimHoltz: I'll need help with intro text.]
+
+|Field name  |Type  |Mandatory  |Description  |
+|---------|---------|---------|---------|
+|User     |Edm.String        |         |         |
+|User Id     |Edm.String         |         |         |
+|Crm Organization Unique Name     |Edm.String         |         |         |
+|Instance Url     |Edm.String         |         |         |
+|Item Url     |Edm.String         |         |         |
+|Item Type     |Edm.String         |         |         |
+|User Agent     |Edm.String         |         |         |
+|CorrelationId     |Edm.Guid         |         |         |
+|EntityId     |Edm.Guid        |         |         |
+|EntityName     |Edm.String         |         |         |
+|Fields     |Edm.String          |         |         |
+|Id     |Edm.String          |         |         |
+|InstanceUrl     |Edm.String          |         |         |
+|ItemType     |Edm.String          |         |         |
+|ItemUrl     |Edm.String          |         |         |
+|PrimaryFieldValue     |Edm.String         |         |         |
+|Query     |Edm.String         |         |         |
+|QueryResults     |Edm.String         |         |         |
+|ServiceContextId     |Edm.Guid         |         |         |
+|ServiceContextIdType     |Edm.String         |         |         |
+|ServiceName     |Edm.String         |         |         |
+|SystemUserId     |Edm.Guid         |         |         |
+|UserAgent     |Edm.Guid          |        |         |
+|UserId     |Edm.Guid          |         |         |
+|UserUpn     |Edm.String         |         |         |
+
+
+
 ## Enable auditing in Dynamics 365
 
 1. In Dynamics 365 (online), choose **Settings** > **Administration** > **System Settings** > **Auditing tab**.
@@ -82,17 +135,19 @@ Logging takes place at the SDK layer which means a single action can trigger mul
    - **Audit user access**
    - **Start Read Auditing** (Note: this only appears if you enable **Start Auditing**.)
 3. Under **Enable Auditing in the following areas**, enable the check boxes for the areas you want to audit and then choose **OK**.
+   
    ![System Settings Auditing](media/system-settings-auditing.png "System Settings Auditing")
 4. Go to **Settings** > **Customizations** > **Customize the System**
 5. Under **Components**, expand **Entities** and select an entity to audit, such as **Account**.
 6. Scroll down and under **Data Services** enable **Auditing**.
 7. Under **Auditing**, enable the following check boxes:
-   - **Retrieve Record Auditing**
-   - **Retrieve Multiple Auditing**
+   - **Single record auditing. Log a record when opened.**
+   - **Multiple record auditing. Log all records displayed on an opened page.**
+
+   ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
 8. Choose **Save**.
 9. Choose **Publish** to publish the customization.
 10. Repeat steps 5 - 9 for other entities you want to audit.
-   ![Retrieve Auditing](media/retrieve-auditing.png "Retrieve Auditing")
 11. Turn on audit logging in Office 365. See [Turn Office 365 audit log search on or off](https://support.office.com/article/turn-office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
 
 

@@ -1,8 +1,8 @@
 ---
-title: "Set up your webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Set up the connections to your webinar provider accounts in Dynamics 365 for Marketing"
+title: "Set up event administration options and webinar provider accounts (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Set options for event administration and configure connections to your webinar provider accounts in Dynamics 365 for Marketing"
 keywords: "administration; webinar; webinar provider"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -16,17 +16,15 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Events settings
+# Event management settings
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+The **Event management** settings let you set up the connections to your webinar provider accounts. You must set up at least one webinar configuration to enable the webinar feature.
 
-The **Events** settings let you set up the connections to your webinar provider accounts. You must set up at least one webinar configuration to enable the webinar feature.
+To find these settings, open **Settings** > **Advanced settings** and then choose one of the pages under the **Event management** heading in the leftmost column. You can also access these same settings by finding the **Event management** section in the rightmost column and choosing from the icons there.
 
-To find these settings, open **Settings** > **Advanced settings** and then choose one of the pages under the **Events** heading in the leftmost column. You can also access these same settings by finding the **Events** section in the rightmost column and choosing from the icons there.
-
-See the remaining sections of this topic for information about how to work with each page in the **Events** section.
+See the remaining sections of this topic for information about how to work with each page in the **Event management** section.
 
 ## Webinar configuration
 
@@ -38,16 +36,16 @@ For each On24 account that you want to use with [!INCLUDE[pn-microsoftcrm](../in
 
 To set up your webinar provider:
 
-1. Go to **Settings** > **Advanced settings** > **Events** > **Webinar Configurations**. Here you'll see a list of existing configurations (if any), and tools for adding new ones. No configurations are provided out of the box.
+1. Go to **Settings** > **Advanced settings** > **Event management** > **Webinar configurations**. Here you'll see a list of existing configurations (if any), and tools for adding new ones. No configurations are provided out of the box.
 1. To edit an existing configuration, select it from the list; to create a new configuration, select **New**.
 1. Make the following settings:
     - **Name**: Enter a name that you and others will recognize.
-    - **Webinar Provider**: Select **On24**.
+    - **Webinar provider**: Select **On24**.
 1. If you're setting up a new configuration, or if you need to update your account credentials for an existing configuration, open the **Credentials** tab and set **Update credentials?** to **Yes** and then enter your sign-in credentials for the account.
 
-## Event management settings
+## Event administration
 
-You can find event management settings by going to **Settings** > **Advanced settings** > **Events** >  **Event Management Settings**. Use these settings to set up email options and templates for event registrants.
+You can find event administration settings by going to **Settings** > **Advanced settings** > **Event management** >  **Event administration**. Use these settings to set up email options and templates for event registrants.
 
 ## Privacy notice
 

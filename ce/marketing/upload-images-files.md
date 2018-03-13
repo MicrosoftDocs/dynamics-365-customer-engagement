@@ -2,7 +2,7 @@
 title: "Work with images and other files (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to upload, tag, and find images and other files for use in emails and marketing pages in Dynamics 365 for Marketing"
 keywords: "image, file, keyword"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -18,8 +18,6 @@ topic-status: Drafting
 # Upload and use images and files in online content
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], which also hosts the images and delivers them when contacts open an email or marketing page. You can also upload other types of files, such as PDFs, to make them available for download or to share them with other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users.
 

@@ -10,4 +10,11 @@
 ## [Problems and solutions](troubleshooting-things-know-about-phones-tablets.md)
 # [Install the mobile app (users)](install-dynamics-365-for-phones-and-tablets.md)
 # [User Guide](dynamics-365-phones-tablets-users-guide.md)
-
+# [Version 8.x](../mobile-app/v8/about-this-content.md)
+## [Configure mobile offline synchronization](v8/configure-mobile-offline-synchronization.md)
+## [Enable mobile offline synchronization](v8/enable-mobile-offline-synchronization.md)
+## [Enable entities for mobile offline synchronization](v8/enable-entities-mobile-offline-synchronization.md)
+## [Create a mobile offline profile](v8/create-mobile-offline-profile.md)
+## [Add users to a mobile offline profile](v8/add-users-mobile-offline-profile.md)
+## [Publish a mobile offline profile](v8/publish-mobile-offline-profile.md)
+## [Work offline](../mobile-app/v8/work-offline.md)
