@@ -2,7 +2,7 @@
 title: "Install Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn about the prerequisites and how you can install the LinkedIn Connector for your Dynamics 365 (online) organization."
 keywords: "AppSource, LinkedIn Lead Gen Connector, Installation, Setup"
-ms.date: 02/05/2018
+ms.date: 03/13/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -21,7 +21,7 @@ topic-status: Drafting
 To enable the synchronization of lead data from [!include[LinkedIn](../includes/pn-linkedin.md)] to [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], a system administrator needs to install [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=850928).
 
 > [!IMPORTANT]
-> You can only benefit from this connector when you use [Sponsored Content](https://business.linkedin.com/marketing-solutions/native-advertising/), [Sponsored InMail](https://business.linkedin.com/marketing-solutions/sponsored-inmail), or [Dynamic Ads](https://business.linkedin.com/marketing-solutions/dynamic-ads) in your advertising campaigns on [!include[LinkedIn](../includes/pn-linkedin.md)].
+> You can benefit from this connector when you use [!include[LinkedIn](../includes/pn-linkedin.md)] advertising campaigns that generate leads, such as [Sponsored Content](https://business.linkedin.com/marketing-solutions/native-advertising/), [Sponsored InMail](https://business.linkedin.com/marketing-solutions/sponsored-inmail), or [Dynamic Ads](https://business.linkedin.com/marketing-solutions/dynamic-ads).
 
 ## Prerequisites
 
