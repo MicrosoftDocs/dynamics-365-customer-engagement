@@ -37,7 +37,7 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
   
  Here's a matrix of what's available with the various [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] roles.  
   
-|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Dynamics 365 licenses|Approve Dynamics 365 emails<sup>1</sup>|Access support requests|Access Service health|Access Message center|  
+|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Dynamics 365 licenses|Approve Dynamics 365 emails<sup>2</sup>|Access support requests|Access Service health|Access Message center|  
 |--------------------------------|----------------------|------------------|-----------------------------|------------------------|-------------------------------|---------------------------------|-----------------------------|---------------------------|---------------------------|  
 |Office 365 global admin|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
 |Exchange admin|n/a|n/a|n/a|n/a|n/a|No|n/a|Yes|Yes|  
@@ -47,7 +47,7 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
   
 <sup>1</sup>To access the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Administration Center with these roles, you'll need to sign in directly. See [Direct sign in to the Dynamics 365 Administration Center](../admin/sign-in-office-365-apps.md#BKMK_DirectAdminCenter).  
 
-<sup>2</sup>You can manually assign the right to approve emails. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Security** > **Security Roles**. Select a security role, and then select the **Business Management** tab. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses or Users or Queues** to a level other than **None Selected**.
+<sup>2</sup>You can manually assign the right to approve emails. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Security** > **Security Roles**. Select a security role, and then select the **Business Management** tab. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses or Users or Queues**.
   
 ### See also  
  [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
