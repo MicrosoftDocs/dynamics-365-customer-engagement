@@ -37,15 +37,17 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
   
  Here's a matrix of what's available with the various [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] roles.  
   
-|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Dynamics 365 licenses|Approve Dynamics 365 emails|Access support requests|Access Service health|Access Message center|  
+|Office 365 role / feature|Backup & restore|Sandbox copy|Configure new instances|Manage an instance|Add Dynamics 365 licenses|Approve Dynamics 365 emails<sup>1</sup>|Access support requests|Access Service health|Access Message center|  
 |--------------------------------|----------------------|------------------|-----------------------------|------------------------|-------------------------------|---------------------------------|-----------------------------|---------------------------|---------------------------|  
 |Office 365 global admin|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|  
 |Exchange admin|n/a|n/a|n/a|n/a|n/a|No|n/a|Yes|Yes|  
 |Office 365 service admin|No|No|No|No|No|No|Yes|Yes|Yes|  
-|Office 365 user with Dynamics 365 system admin role*|Yes|No|No|Yes|No|No|No|Only in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] admin center|No|  
-|Dynamics 365 service admin with Dynamics 365 system admin role|Yes|Yes|Yes|Yes|No|No|Yes|Yes|Yes|  
+|Office 365 user with Dynamics 365 system admin role<sup>1</sup>|Yes|No|No|Yes|No|Yes|No|Only in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] admin center|No|  
+|Dynamics 365 service admin with Dynamics 365 system admin role|Yes|Yes|Yes|Yes|No|Yes|Yes|Yes|Yes|  
   
- *To access the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Administration Center with these roles, you'll need to sign in directly. See [Direct sign in to the Dynamics 365 Administration Center](../admin/sign-in-office-365-apps.md#BKMK_DirectAdminCenter).  
+<sup>1</sup>To access the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Administration Center with these roles, you'll need to sign in directly. See [Direct sign in to the Dynamics 365 Administration Center](../admin/sign-in-office-365-apps.md#BKMK_DirectAdminCenter).  
+
+<sup>2</sup>You can manually assign the right to approve emails. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Security** > **Security Roles**. Select a security role, and then select the **Business Management** tab. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses or Users or Queues** to a level other than **None Selected**.
   
 ### See also  
  [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
