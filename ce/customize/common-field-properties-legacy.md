@@ -20,6 +20,8 @@ ms.assetid: 2b91ee28-7f09-435e-9fae-5225aa698e22
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and is subject to change]
+
  Fields in Dynamics 365 Customer Engagement forms display controls people use to view or edit data in an entity record. Fields can be formatted to occupy up to four columns within a section.  
 
 You can access **Common field properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click one of the fields to view Common field properties.

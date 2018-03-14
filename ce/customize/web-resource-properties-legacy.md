@@ -20,6 +20,8 @@ ms.assetid: 82cd41ea-95b0-4606-9e7d-43eb5ce9ecd6
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and is subject to change]
+
  You can add or edit web resources on a Dynamics 365 Customer Engagement form to make it more appealing or useful to users. Form enabled web resources are images, HTML files, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] controls.  
 
 You can access **Form properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select Web Resource to view Web Resource properties.

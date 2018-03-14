@@ -17,6 +17,8 @@ ms.assetid: 1b7e6a0c-18a9-47e2-aa7d-0cffb8c93b19
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and is subject to change]
+
 You can add iFrames to a Dynamics 365 Customer Engagement form to integrate content from another website within a form. 
 
 You can access **Form properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select IFRAME to view IFRAME properties.

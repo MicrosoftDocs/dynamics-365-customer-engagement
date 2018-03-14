@@ -20,6 +20,8 @@ ms.assetid: 82892cd3-3436-4677-b96b-f2ccd0a4f078
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and is subject to change]
+
 You can configure a sub-grid on a Dynamics 365 Customer Engagement form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
 
 You can access **Sub-Grid properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select Sub-Grid to view Sub-Grid properties.

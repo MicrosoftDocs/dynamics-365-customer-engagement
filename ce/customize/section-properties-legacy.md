@@ -17,6 +17,8 @@ ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and is subject to change]
+
  A section in a Dyanmics 365 Customer Engagement form occupies the space available in a tab column. Sections have a label that can be displayed and a line may be shown below the label.  
   
  Sections can have up to 4 columns and includes options for displaying how labels for fields in the section are displayed.  

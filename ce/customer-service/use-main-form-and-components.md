@@ -23,8 +23,6 @@ This topic explains how to edit a Main form, and add or change various elements 
 
 To edit a form or to add or change elements, use the form editor. 
 
-For more information on how to launch the form editor, see [Open the form editor](../customize/open-form-editor.md).
-
 > [!NOTE]
 > If you create any new solution components in the process of editing the form, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, open the form editor through that unmanaged solution.
 
@@ -32,9 +30,20 @@ For more information on how to launch the form editor, see [Open the form editor
 
 1. Go to **Settings > My Apps**.
 2. Select **...** on an app and select **Open in App designer**.
-3. Select the down arrow on the Forms header to view the form and open it in Form designer.
+3. Select the down arrow ![Down arrow for app designer](media/down-arrow-app-designer.png)  to expand the tile and see a list of forms. 
+4. Select the site map designer button ![sitemap designer](media/site-map-designer.png)corresponding to the form to edit the form in the Form designer.
 
-   ![app-designer](media/app-designer-forms.png)
+   ![Form editor in app designer](media/app-designer-forms.png)
+ 
+5. Select **Save** to save the changes and **Save and close** to close the form designer. 
+6. Select **Save** and then select **Publish** in the app designer to publish the changes for use in the Customer Service Hub app.
+
+> [!NOTE]
+> If you have made any changes to the app, publish them using the app level publish option. See [Publish an app using the app designer](../customize/publish-an-app.md) for more information.
+
+> [!NOTE]
+> The web-client Main form is also compatible with the Customer Service Hub and is available to be edited using the App designer.
+
 
 ### Access the form editor through the default solution
 
@@ -58,7 +67,7 @@ For more information on how to launch the form editor, see [Open the form editor
 5. In the solution explorer expand the entity with the form you want to edit and select **Forms**.
 6. In the list of forms, open the form of type **Main**.
 
-### Publish the changes for use in the Customer Service Hub
+#### Publish the changes for use in the Customer Service Hub
 
 Certain customizations that make changes to the user interface require that they be published before people can use them in the application. To publish your customization, in the solution explorer, click **Publish All Customizations**.
 

@@ -20,6 +20,8 @@ ms.assetid: 6ad7e43c-b6a1-48c4-9dfb-ed830142a841
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and is subject to change]
+
  All fields have the properties listed in [Common field properties](../customize/common-field-properties-legacy.md), but certain fields have additional properties.  
 
 ![special-properties-dialog](media/special-properties.png)
