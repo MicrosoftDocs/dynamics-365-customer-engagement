@@ -104,5 +104,5 @@ The following known issues apply to the out-of-the-box templates and custom mess
 
 [Prepare marketing email messages](prepare-marketing-emails.md)  
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  

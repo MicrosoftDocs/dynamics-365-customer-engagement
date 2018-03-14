@@ -96,6 +96,8 @@ Though most people add and arrange tiles by dragging them to the canvas, you can
 
     ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
 
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Accessibility and keyboard shortcuts](designer-shortcuts.md)
+
 ### Configure tile settings
 
 Each tile represents a step in the customer journey, and you'll make configuration settings to establish what happens at each of these steps. Most types of tiles interact with some other type of record in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], such as a target segment, marketing email message, landing page, event, or action. Other types of tiles&mdash;like schedulers, triggers, and splitters&mdash;react to things that happen during the journey itself and control the path that each contact takes when these things happen.
@@ -197,4 +199,5 @@ When you've finished designing your customer journey, do the following to verify
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)

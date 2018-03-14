@@ -301,7 +301,7 @@ To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm]
 [Create a marketing email](create-marketing-email.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)
 [Content blocks reference](content-blocks-reference.md)  
 [Work with email templates](email-templates.md)  
 [Upload and use images and files](upload-images-files.md)

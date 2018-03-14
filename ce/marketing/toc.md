@@ -48,7 +48,6 @@
 
 ### [Create, target, and deliver online marketing content](marketing-execution-section.md)
 #### [Design your digital content](design-digital-content.md)
-#### [Designer keyboard shortcuts](designer-shortcuts.md)
 #### [Content blocks reference](content-blocks-reference.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
 #### [Work with email templates](email-templates.md)
@@ -59,6 +58,7 @@
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
+#### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### [Manage, score, and qualify leads](qualify-leads-section.md)
 #### [Score and manage leads](score-manage-leads.md)

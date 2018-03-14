@@ -189,7 +189,7 @@ Captcha blocks are only available when you are working with a landing-page form.
 ### See also
 
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
 [Work with email templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)
