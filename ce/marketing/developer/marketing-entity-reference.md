@@ -35,13 +35,13 @@ In your Dynamics 365 instance, select **Dynamics 365** >  **Metadata Tools** to 
 
 ![](../media/dev-metadata-browser-app.png)
 
-The app provides entity reference data in two views:
+The app provides entity reference data under two views:
 
 - **Entities** is the default view when you open the app. More information: [Entities view in Entity Metadata Browser](#entities-view-in-entity-metadata-browser) 
 
     ![](../media/dev-metadata-browser-tool.png)
 
-- Select **Tools** > **Entity Metadata** for the entity metadata view to inspect individual entities. More information: [Entity Metadata view in Entity Metadata Browser](#entity-metadata-view-in-entity-metadata-browser)
+- Select **Tools** > **Entity Metadata** for the **Entity Metadata** view to inspect individual entities. More information: [Entity Metadata view in Entity Metadata Browser](#entity-metadata-view-in-entity-metadata-browser)
 
     ![](../media/dev-metadata-browser-tool-EM.png)
 
