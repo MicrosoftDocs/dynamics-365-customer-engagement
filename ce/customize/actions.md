@@ -22,7 +22,7 @@ manager: "brycho"
 
 Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
   
- Actions can also be invoked by running custom code that uses the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Web services.  
+ Actions can also be invoked by running custom code that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Web services.  
   
  You can call actions:  
   
@@ -34,7 +34,7 @@ Actions are a type of process. You can invoke actions, including custom actions,
   
 -   From a custom client application that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
   
-Developers can learn more in this [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] topic: [Create your own actions](../developer/create-own-actions.md). 
+Developers can learn more in this topic: [Create your own actions](../developer/create-own-actions.md). 
   
 <a name="BKMK_WhyActions"></a>   
 ## Why use actions?  
