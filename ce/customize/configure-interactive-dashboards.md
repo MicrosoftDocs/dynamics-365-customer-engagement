@@ -5,7 +5,7 @@ keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Cust
 author: anjgupta
 ms.author: anjgup
 manager: sakudes
-ms.date: 03/09/2018
+ms.date: 03/014/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -39,32 +39,32 @@ The interactive dashboards come in two flavors:
 ### Multi-stream dashboard standard view  
  In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
   
- ![Multi&#45;stream interactive dashboard](../customize/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
+ ![Multistream interactive dashboard](../customize/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
   
 ### Multi-stream dashboard tile view  
  Multi-stream dashboard in tile view:  
   
- ![Multi&#45;stream dashboard tile view](../customize/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
+ ![Multistream dashboard tile view](../customize/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
   
 ### Multi-stream dashboard layouts  
  For multi-stream dashboards, you can choose from four different layouts.  
   
- ![Multi&#45;stream dashboard layouts](../customize/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
+ ![Multistream dashboard layouts](../customize/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
   
 ### Multi-stream entity-specific dashboard  
  The entity-specific dashboard for the **Case** entity is shown here.  
   
-![Multistream-cases-dashboard](../customize/media/interactive-dashboard-cases-entity-specific.png)
+![Multistream cases dashboard](../customize/media/interactive-dashboard-cases-entity-specific.png)
   
 ### Single-stream dashboard  
  The single-stream dashboard contains the data stream on the left and visual filters and tiles on the right.  
   
-![single-stream-dashboard](media/interactive-dashboards-single-stream-csh.png)
+![single stream dashboard](media/interactive-dashboards-single-stream-csh.png)
   
 ### Single-stream dashboard layouts  
  For single-stream dashboards, you can choose from four different layouts.  
   
- ![Single&#45;stream dashboard layouts.](../customize/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts.")  
+ ![Single stream dashboard layouts](../customize/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts.")  
   
 ## Configure entities, fields, and security roles for the interactive dashboards  
  When you configure interactive dashboards, your first task is to enable entities, fields, and security roles, so that interactive dashboards can be configured  for them.  
@@ -78,7 +78,7 @@ The interactive dashboards come in two flavors:
 -   Contacts
 -   Accounts 
 -   Social Profiles  
--   Queue items
+-   Queues
 -   Knowledge Articles  
 -   Activities: 
     - Email
@@ -118,7 +118,7 @@ The fields that you configure will appear in the global filter flyout window whe
 
 The global filter flyout window is shown here:  
   
-![Add two global filter fields](media/global-filter-escalated.png)
+![Add global filter fields](media/global-filter-escalated.png)
   
 > [!TIP]
 >  When you configure a visual filter based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
@@ -158,9 +158,11 @@ The following illustration shows the flyout dialog with the list of the availabl
   
 5.  In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Select **OK**.  
   
-6.  Select **Publish All Customizations** for your changes to take effect.  
+6.  Select **Publish All Customizations** for your changes to take effect. 
 
-![Enable security roles](media/security-roles.png)
+    ![Choose to enable security role](media/choose-enable-security-role.png)
+
+    ![Enable security roles](media/security-roles.png)
 
   
 ## Configure interactive dashboards  
@@ -210,14 +212,14 @@ The following illustration shows the flyout dialog with the list of the availabl
 
 Configure the stream for the **Items available to work on** as shown here:
 
-![Add-streams-dashboards](media/add-stream-dashboard.png)
+![Add a stream component](media/add-stream-dashboard.png)
   
 > [!NOTE]
 >  The **Queue** option is available in the dialog box only for queue-enabled entities. For entity dashboards, if the entity is not queue enabled, you won't see the **Queue** option in the dialog box. You can only use the **View option** in the stream of dashboards for entities that are not queue enabled.  
   
 The following illustration is an example of a fully configured chart panel, and stream panel:
   
-![All interactive charts](media/example-stream-visual.png)
+![Fully configured dashboard](media/example-stream-visual.png)
 
 After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect.
   
@@ -301,6 +303,9 @@ When the **Modify List Value** dialog box opens, choose the color as shown here:
 
 ![Modify the dashboard color](media/modify-color.png)  
 
+Similarly, if you go to the **Priority** field to modify the colors of the case priority options, choose the color in the **Options** sub-area of the **General** tab, as shown below:
+
+![Change dashboard color for case priority](media/priority-color-modify.png)
   
 ### See also  
  [Create and edit dashboards](../customize/create-edit-dashboards.md)   

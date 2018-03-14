@@ -5,7 +5,7 @@ keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365
 author: NavaKiran
 ms.author: Nabuthuk
 manager: shellyha
-ms.date: 03/09/2018
+ms.date: 03/14/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -20,9 +20,12 @@ Improve user's productivity with the new forms in the Customer Service Hub.
 The **Main** forms have an improved user experience that saves some clicks and helps maintain context while working on related records. 
 
 For more information about supported forms and converting interactive experience forms to Main forms, see the blog:[ Upgrade from Interactive Service Hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
+
+For information about how to use **Main** form, and add or edit components, see [Use the Main form and its components](use-main-form-and-components.md)
+
+## Main form supported entities
   
-## Supported entities  
-By default, the following Customer Service Hub entities have the **Main** forms created out-of-the box: 
+The following Customer Service Hub entities have the **Main** forms created out-of-the box for them: 
   
 - Accounts  
   
@@ -41,14 +44,14 @@ By default, the following Customer Service Hub entities have the **Main** forms 
 > [!NOTE]
 >  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive dashboards](../customize/configure-interactive-dashboards.md)
   
-You can see the forms for each entity in their list of forms in the solution explorer in the **Customization** area. You can identify the form by the form type and display name. 
+You can see the forms for each entity in their list of forms in the solution explorer in the **Customization** area. The default form type for the Unified interface based Customer Service Hub is **Main - Case for Interactive experience**. For more information on the types of forms available, see [Types of forms](#types-of-forms).
 
 ![form-type](media/form-type-csh.png)
 
-Both the **Main** type forms are available to use in the Customer Service Hub (based on Unified Interface).
+Both the **Main** type forms are available to use in the Customer Service Hub.
 
 ### Enable custom entities in the Customer Service Hub
-You can enable any new custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity, ensure that the following flag is checked in the **Outlook & Mobile** section in the entity metadata:
+You can enable any new custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
 
 ![enable-custom-entity](media/enable-custom-entity.png)
 
@@ -75,4 +78,3 @@ As a customizer, you can customize these forms in a way that it is easier for th
 ## See Also  
 [Create and design forms](../customize/create-design-forms.md)   
  
-[Use the Main form and its components](use-main-form-and-components.md)
