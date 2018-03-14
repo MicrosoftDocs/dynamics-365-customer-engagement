@@ -18,3 +18,4 @@
 ## [Add users to a mobile offline profile](v8/add-users-mobile-offline-profile.md)
 ## [Publish a mobile offline profile](v8/publish-mobile-offline-profile.md)
 ## [Work offline](../mobile-app/v8/work-offline.md)
+## [Work offline - additional information](../mobile-app/v8/work-offline-additional-information.md)
