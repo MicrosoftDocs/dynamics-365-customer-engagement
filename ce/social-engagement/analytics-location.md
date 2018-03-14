@@ -60,7 +60,7 @@ A subset of the available sources that provide location data. Authors need to sh
 ## Dynamic widgets on the Location page  
 
 
-|Name of the widget|What it displays|Metrics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Display conditions|  
+|Name of the widget|What it displays|Metrics &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Display conditions|  
 |------------------------|----------------------|-------------|------------------------|  
 |Location Groups|Top five location groups.|-   Location group name<br />     Volume of posts<br />-   Trend|Displays only if the location groups include the country/region of the post location or author location of your current data set.|  
 |Sentiment|Sentiment index based on the type of sentiment:  positive, negative, or neutral.<br /><br /> You can manually change the sentiment values in case you think any posts are incorrectly analyzed for the sentiment index. More information: [Understand the public perception using Sentiment Analysis](analytics-sentiment.md)|-   Sentiment index on the scale of -10  to +10<br />-   Volume<br />-   Trend|-   The current filter is a search topic, not **All Search Topics**, or a category.<br />-   The rules in the current search topic contain at least one of the six sentiment languages.|  
