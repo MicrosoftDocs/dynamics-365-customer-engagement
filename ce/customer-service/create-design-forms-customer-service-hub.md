@@ -51,7 +51,7 @@ You can see the forms for each entity in their list of forms given in the soluti
 Both the **Main** type forms are available to use in the Customer Service Hub.
 
 ### Enable custom entities in the Customer Service Hub
-You can enable any new custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable any custom entity for unified experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
+You can enable any new custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable any custom entity for unified interface experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
 
 ![enable-custom-entity](media/enable-custom-entity.png)
 
