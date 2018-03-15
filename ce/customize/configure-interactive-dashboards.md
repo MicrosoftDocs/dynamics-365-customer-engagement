@@ -5,7 +5,7 @@ keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Cust
 author: anjgupta
 ms.author: anjgup
 manager: sakudes
-ms.date: 03/014/2018
+ms.date: 03/15/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
