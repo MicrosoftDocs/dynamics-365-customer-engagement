@@ -135,7 +135,9 @@ Similarly, the status of the SLA KPI instance is updated when the first response
 
   ![sla-succeeded](media/sla-succeeded.png "timer control succeeded")
   
- You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
+You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Apply SLA on demand](define-service-level-agreements.md#apply-sla-on-demand)
+
+To know more about adding a timer control to a case form, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md). 
   
 <a name="bkmk_ManageActivities"></a>   
 
