@@ -43,7 +43,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
   
 ## User profile information
 
-Some user profile information is maintained and managed in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].  After you create or update a user in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)], these user profile fields are automatically updated and synchronized in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.
+Some user profile information is maintained and managed in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].  After you create or update a user, these user profile fields are automatically updated and synchronized in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.
 
 The following table shows the fields that are managed in the **Users** section of the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].
 
@@ -62,7 +62,7 @@ The following table shows the fields that are managed in the **Users** section o
 |Address     |State or province         |
 |Address     |Country or region         |
 
-![Office 365 user contact info](media/office-365-contact-info.png "Office 365 user contact info")
+![Office 365 user contact info](media/office-365-contact-info.png "Office 365 user contact info")</br>
 Office 365 user contact fields
 
 <a name="BKMK_addlicense"></a>   
