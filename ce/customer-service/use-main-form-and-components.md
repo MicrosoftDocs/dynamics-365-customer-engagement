@@ -38,8 +38,7 @@ Follow the procedures given below to access the form editor:
 
    ![Form editor in app designer](media/app-designer-forms.png)
  
-5. Select **Save** to save the changes and **Save and close** to close the form designer. 
-6. Select **Save** and then select **Publish** in the app designer to publish the changes for use in the Customer Service Hub app.
+5. Select **Save** to save the changes and select **Publish** to publish them for use in the app. 
 
 > [!NOTE]
 > If you have made any changes to the app, publish them using the app level publish option. See [Publish an app using the app designer](../customize/publish-an-app.md) for more information.
