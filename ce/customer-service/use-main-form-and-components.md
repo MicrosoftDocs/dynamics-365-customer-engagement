@@ -21,10 +21,13 @@ This topic explains how to edit a Main form, and add or change various elements 
 
 ## Open the form editor
 
-To edit a form or to add or change elements, use the form editor. 
+To edit a form or to add or change elements, use the form editor. The form editor lets you edit forms for all unified interface based apps, like the Customer Service Hub app. 
+
+Follow the procedures given below to access the form editor: 
 
 > [!NOTE]
 > If you create any new solution components in the process of editing the form, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, open the form editor through that unmanaged solution.
+
 
 ### Access the form editor through App designer
 
@@ -42,7 +45,7 @@ To edit a form or to add or change elements, use the form editor.
 > If you have made any changes to the app, publish them using the app level publish option. See [Publish an app using the app designer](../customize/publish-an-app.md) for more information.
 
 > [!NOTE]
-> The web-client Main form is also compatible with the Customer Service Hub and is available to be edited using the App designer.
+> The webclient Main form is also compatible with the Customer Service Hub and is available to be edited using the App designer.
 
 
 ### Access the form editor through the default solution
@@ -80,7 +83,7 @@ The form editor displays commands in three tabs: **File**, **Home**, and **Inser
  
 The form editor is divided into three areas: **Navigation**, **Body**, and **Explorer**.
 
-![form user interface](media/form-user-interface.png)
+![Main form user interface](media/form-user-interface.png)
 
 **Navigation**
 Located on the left side, use the navigation area to control access to related entities or to add links to URLs to be displayed in the main pane of the form. To edit navigation, you must first select the **Navigation** command in the **Select** group of the **Home** tab.
@@ -184,12 +187,9 @@ The Insert tab displays the commands in the following table:
 ||**Web Resource**|Insert a web resource to embed content from other locations in one page.<br /><br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Web Resource properties](../customize/web-resource-properties-legacy.md)|  
 ||**IFRAME**|You can add IFRAME to a form to integrate content from another website within a form.| 
 ||**Timeline**|Insert a timeline control in the form. This control shows the timeline of activities related to the entity on a form.|  
-||**Bing Maps**|You can add a Bing map control to a form.|
 ||**Navigation Link**|Using this option, you can insert a link into a form navigation.|  
-||**Social Insights**|You can add a frame from Microsoft Social engagement using this option.| 
 ||**Timer**|Insert a timer control to an entity form to track time against an SLA. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer control](../customer-service/add-timer-control-case-form-track-time-against-sla.md)|
 ||**Knowledge Base Search**|Insert a search control that users can use to search knowledge articles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Knowledge Article Search control](../customer-service/add-knowledge-base-search-control-forms.md)|  
-||**ACI Control**|Insert and ACI control in the form|
 ||**Relationship Assistant**|Using this option, you can insert a relationship assistant control in the form.|
 
 
@@ -224,7 +224,7 @@ To know in detail about the section properties, see [Section properties](../cust
   
  The following types of activities are supported: Task, appointment, phone call, email, social activity, custom activity.  
   
- The Timeline also shows notes and system posts. It shows those activities that have **Regarding** field set to the entity you’re viewing. For notes, the **Regarding** field isn’t shown to the user; It is implicit when created from the Timeline.  
+ The Timeline also shows notes and, system and user posts. It shows those activities that have **Regarding** field set to the entity you’re viewing. For notes, the **Regarding** field isn’t shown to the user; It is implicit when created from the Timeline.  
   
  Each activity that’s shown in the Timeline, will have the same quick actions that are available on the activity’s command bar.  
 
