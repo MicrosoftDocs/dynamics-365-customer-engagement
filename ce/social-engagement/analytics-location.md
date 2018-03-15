@@ -69,7 +69,7 @@ Lists the cities where most posts are coming from and their trend indicator. You
 
 Lists the five most-used languages based on the volume of posts and their trend indicator.
 
-##Locations
+## Locations
 
 Lists the countries/regions where most posts are coming from and their trend indicator.
 
@@ -83,7 +83,7 @@ Lists the location groups where most posts are coming from and their trend indic
 
 Dynamic widget. Shows only if posts from a country/region in the [configured location groups](manage-global-settings.md#create-and-manage-location-groups) are available. 
 
-##Location insights
+## Location insights
 
 Visualizes the posts with location information on a map to find out where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
 
