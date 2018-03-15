@@ -45,9 +45,9 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 |Office 365 user|No|No|No|No|No|No|No|No|No|  
 |Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|Yes|Yes|Yes|Yes|  
 
-<sup>1</sup>You can manually assign the right to approve emails. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Security** > **Security Roles**. Select a security role, and then select the **Business Management** tab. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses or Users or Queues**.
+<sup>1</sup>You can manually assign the right to approve emails. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], go to **Settings** > **Security** > **Security Roles**. Select a security role, and then select the **Business Management** tab. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses for Users or Queues**.
 
-Users with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system admin role or with the **Approve Email Addresses or Users or Queues** privilege can approve [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] email addresses.
+Users with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system admin role or with the **Approve Email Addresses for Users or Queues** privilege can approve [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] email addresses.
   
 ### See also  
  [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
