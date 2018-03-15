@@ -17,6 +17,8 @@ ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and subject to change]
+
  Form event handlers for Dynamics 365 Customer Engagement forms can be configured for the following areas in a form:  
   
 |Element|Event|Description|  
