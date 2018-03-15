@@ -1,25 +1,32 @@
 ---
-title: "Web resource properties (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Web resource properties for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
+description: Understand the Web resource properties for Main forms in Dynamics 365 for Customer Engagement
+Keywords: Main form; Web resource properties; Dynamics 365
+author: anjgupta
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 03/15/2018
+ms.service: crm-online
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 82cd41ea-95b0-4606-9e7d-43eb5ce9ecd6
-caps.latest.revision: 63
-ms.author: "rdubois"
-manager: "brycho"
 ---
 # Web resource properties
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+[This topic is under revision and is subject to change]
+
  You can add or edit web resources on a Dynamics 365 Customer Engagement form to make it more appealing or useful to users. Form enabled web resources are images, HTML files, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] controls.  
+
+You can access **Form properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select Web Resource to view Web Resource properties.
+
+![web-resource-properties](media/web-resource-properties.png)
   
  For step-by-step instructions, see [Create and edit web resources](create-edit-web-resources.md).  
   
@@ -29,10 +36,7 @@ manager: "brycho"
 ||**Name**|**Required**: A unique name for the field. The name can contain only alphanumeric characters and underscores.|  
 ||**Label**|**Required**: A label to display for the web resource.|  
 ||**Visible by default**|Showing the web resource is optional and can be controlled using scripts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visibility options](../customize/visibility-options-legacy.md)|  
-||**Custom Parameter**|A custom value to pass as the `data` query string parameter. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Pass parameters to web resources](../customize/web-resource-properties-legacy.md#BKMK_PassingParametersToWebResource)|  
-||**Alternative Text**|When an image web resource is displayed, this value will provide tooltip text for people using screen readers.|  
-||**Restrict cross-frame scripting, where supported**.|When pages exist on different domains you may want to prevent them from accessing the content of your form pages. Web resources are always in the same domain, so this should not be an issue with web resources.|  
-||**Pass record object-type code and unique identifiers as parameters**|Data about the organization, user, and the record can be passed to the web resource so it can adapt to organization settings. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  [Pass parameters to web resources](../customize/web-resource-properties-legacy.md#BKMK_PassingParametersToWebResource)|  
+||**Enable for mobile**|Click the checkbox to enable the iFrame for mobile.|  
 |**Formatting**|**Select the number of columns the control occupies**|When the section containing the web resource has more than one column you can set the field to occupy up to the number of columns that the section has.|  
 ||**Select the number of rows the control occupies**|You can control the height of the web resource by specifying a number of rows.|  
 ||**Automatically expand to use available space**|You can allow the web resource height to expand to available space.|  
@@ -57,3 +61,7 @@ manager: "brycho"
 |`id`|The id value of the record. This parameter has no value until the entity record is saved.|  
   
  Any other parameters are not allowed and the web resource will not open if other parameters are used. If you need to pass multiple values, the data parameter can be overloaded to include more parameters within it.   
+
+## See also
+
+[Use the Main form and its components](../customer-service/use-main-form-and-components.md)
