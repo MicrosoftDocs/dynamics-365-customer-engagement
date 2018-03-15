@@ -32,14 +32,14 @@ In [Create a simple customer journey with email messaging](create-simple-custome
 1. This message will invite recipients to pick up a free download from your website. To get the free download, they'll need to visit the landing page, submit a form, and then wait for a follow-up email that contains the download link. (The message content would normally explain all of this, but for this exercise it's not necessary.) With your new email message still open, drag a **Marketing Page** block from the **Toolbox** onto the design canvas.  
     ![Add a marketing-page block to a message](media/email-add-page-block.png "Add a Marketing Page block to a message")
 
-1. When you drop the **Marketing Page** block in place, it's automatically selected and the **Details** tab opens to show its settings.  
+1. When you drop the **Marketing Page** block in place, it's automatically selected and the **Properties** tab opens to show its settings.  
     ![Assign a page to the page block](media/email-page-block-properties.png "Assign a page to the page block")
 
     Set the **Marketing Page** field to the name of the landing page you made in [Create a landing page with a form](create-landing-page.md) (or any valid landing page).  
 
 1. Continue to style and format your button as follows:
     - Edit and style the button text by working directly on the canvas and using the floating toolbar, just as you would with a **Text** block. You might enter text such as **Click here to register for your download**.
-    - Working on the **Details** tab, choose a background color, text color, height, and width for the button.
+    - Working on the **Properties** tab, choose a background color, text color, height, and width for the button.
 
     ![A page block with styles applied](media/email-page-block-styled.png "A page block with styles applied")
 

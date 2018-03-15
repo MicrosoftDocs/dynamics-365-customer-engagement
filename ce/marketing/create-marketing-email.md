@@ -95,10 +95,10 @@ To create a marketing email and go live:
     > 
     > You can have as many Content Settings records as you like, but many organizations use just one. When you set up a customer journey, you'll also pick the Content Settings record used by all messages sent by that journey. This means that you can reuse the same marketing email in different customer journeys, but dynamic values taken from the Content Settings record can vary based on which customer journey sends the message.  
 
-1. You should usually include at least one visible image in your design because this will invite recipients to load images, which is required for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] to log the message-open event. Drag an **Image** block from the **Toolbox** onto the canvas. This time, when you drop the block, you'll see an image placeholder and the **Details** tab, which shows configuration settings for the selected block.  
+1. You should usually include at least one visible image in your design because this will invite recipients to load images, which is required for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] to log the message-open event. Drag an **Image** block from the **Toolbox** onto the canvas. This time, when you drop the block, you'll see an image placeholder and the **Properties** tab, which shows configuration settings for the selected block.  
     ![Where to set the Source for an image](media/email-image-source.png "Where to set the source for an image")
 
-1. On the **Details** tab, select the **Image Gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field . The **Select an Image** dialog box opens.  
+1. On the **Properties** tab, select the **Image Gallery** button ![The browse button](media/email-browse-button.png "The browse button") at the right side of the **Source** field . The **Select an Image** dialog box opens.  
     ![The image library browser](media/image-library.png "The image library browser")  
 Here you can see all the images that have already been uploaded to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] server. Select an image, and then choose **Select** to place it in your message design. (If you don't see any images, choose **Upload a Picture** to add a new one.)
 
