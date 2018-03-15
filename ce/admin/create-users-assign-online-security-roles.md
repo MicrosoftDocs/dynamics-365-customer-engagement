@@ -47,7 +47,6 @@ Some user profile information is maintained and managed in the [!INCLUDE [pn-off
 
 The following table shows the fields that are managed in the **Users** section of the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].
 
-
 |Dynamics 365 user form  |Office 365 / Azure Active Directory user  |
 |---------|---------|
 |User Name     |Username         |
@@ -62,8 +61,9 @@ The following table shows the fields that are managed in the **Users** section o
 |Address     |State or province         |
 |Address     |Country or region         |
 
+The following are Office 365 user contact fields.
+
 ![Office 365 user contact info](media/office-365-contact-info.png "Office 365 user contact info")</br>
-Office 365 user contact fields
 
 <a name="BKMK_addlicense"></a>   
 
