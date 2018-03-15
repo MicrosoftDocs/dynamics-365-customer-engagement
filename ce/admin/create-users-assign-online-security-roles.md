@@ -23,6 +23,7 @@ manager: "brycho"
 You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] to create user accounts for every user who needs access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. The user account registers the user with [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)]. In addition to registration with the online service, the user account must be assigned a license in order for the user to have access to the service. Note that when you assign a user the global administrator or the service administrator role in the [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)], it automatically assigns the user the System Administrator security role in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 (online) security roles](../admin/grant-users-access.md#BKMK_O365CRMroles)  
   
 <a name="BKMK_create_users"></a>   
+
 ## Create a user account  
  When you create a user account in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)], the system generates a user ID and temporary password for the user. You have the option to let the service send an email message to the user as clear text. Although the password is temporary, you may consider copying the information to send to the user through a more secure channel, such as from an email service that can digitally encrypt the contents. For step-by-step instructions for creating a [!INCLUDE[pn_MS_Online_Services](../includes/pn-ms-online-services.md)] user account, see [Create or edit users in Office 365](http://go.microsoft.com/fwlink/p/?LinkId=255286).  
   
@@ -40,7 +41,32 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 > -   Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
+## User profile information
+
+Some user profile information is maintained and managed in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].  After you create or update a user in the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)], these user profile fields are automatically updated and synchronized in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.
+
+The following table shows the fields that are managed in the **Users** section of the [!INCLUDE [pn-office-365-admin-center](../includes/pn-office-365-admin-center.md)].
+
+
+|Dynamics 365 user form  |Office 365 / Azure Active Directory user  |
+|---------|---------|
+|User Name     |Username         |
+|Full Name     |First name + Last name         |
+|Title     |Job title         |
+|Primary Email     |Email         |
+|Main Phone     |Office phone         |
+|Mobile Phone     |Mobile phone         |
+|Fax     |Fax number         |
+|Address     |Street address         |
+|Address     |City         |
+|Address     |State or province         |
+|Address     |Country or region         |
+
+![Office 365 user contact info](media/office-365-contact-info.png "Office 365 user contact info")
+Office 365 user contact fields
+
 <a name="BKMK_addlicense"></a>   
+
 ## Add a license to a user account  
  You can license the user when you create the user account, or you can license the user later. You must assign a license to every user account that you want to access the online service.  
   
@@ -89,6 +115,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 4.  In the **Manage User Roles** dialog box, select the security role or roles you want for the user or users, and then click **OK**.  
   
 <a name="BKMK_assign_admin"></a>   
+
 ## (Optional) Assign an administrator role  
  You can share [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administration tasks among several people by assigning [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator roles to users you select to fill each role. You might decide to assign the global administrator role to a second person in your organization for times when you are not available.  
   
@@ -98,6 +125,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 > [!INCLUDE[pn_ms_online_services_environment](../includes/pn-ms-online-services-environment.md)] administrator roles are valid only for managing aspects of the online service subscription. These roles don’t affect permissions within the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service.  
   
 <a name="BKMK_enableuser"></a>   
+
 ## Enable or disable users  
  To enable a user, assign a license to the user and add a user to the security group that is associated with an instance of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. If you enable a user that was disabled, you must send a new invitation for the user to access the system.  
   
@@ -162,6 +190,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 > -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 <a name="BKMK_noninteractiveuser"></a>   
+
 ## Create a non-interactive user account  
  The non-interactive user is not a ‘user’ in the typical sense – it is not a person but an access mode that is created with a user account. It is used for programmatic access to and from Dynamics 365 between applications. A non-interactive user account lets these applications or tools, such as a Dynamics 365 to ERP connector, authenticate and access Dynamics 365 (online), without requiring a Dynamics 365 (online) license. For each instance of Dynamics 365 (online), you can create up to five non-interactive user accounts.  
   
@@ -192,6 +221,7 @@ You use the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admi
 10. Go back to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and confirm that the non-interactive user account **Access Mode** is still set for **Non-interactive**.  
   
 <a name="BKMK_ApplicationUser"></a>   
+
 ## Create an application user  
  Introduced in [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can use server-to-server (S2S) authentication to securely and seamlessly communicate with [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] with your web applications and services. S2S authentication is the common way that apps registered on [!INCLUDE[pn_microsoft_appsource](../includes/pn-microsoft-appsource.md)] use to access the [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] data of their subscribers. All operations performed by your application or service using S2S will be performed as the application user you provide rather than as the user who is accessing your application.  
   
