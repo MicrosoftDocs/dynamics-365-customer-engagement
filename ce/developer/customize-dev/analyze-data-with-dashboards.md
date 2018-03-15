@@ -41,7 +41,7 @@ A user-owned dashboard is represented by the `UserForm` entity, can be assigned 
   
 > [!NOTE]
 > You can’t programmatically create or manage the new interactive dashboards introduced in [!INCLUDE[pn-crm-2016-shortest](../../includes/pn-crm-2016-shortest.md)]. 
-> For information about working with interactive dashboards using the web client, see [Configure interactive experience dashboards](../../customize/configure-interactive-experience-dashboards.md).  
+> For information about working with interactive dashboards using the web client, see [Configure interactive experience dashboards](../../customize/configure-interactive-dashboards.md).  
   
 ### See also  
  [Using FormXML for Dashboards](understand-dashboards-dashboard-components-formxml.md)   
