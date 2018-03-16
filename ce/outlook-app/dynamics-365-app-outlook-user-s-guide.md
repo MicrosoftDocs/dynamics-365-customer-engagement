@@ -457,23 +457,23 @@ Follow these steps to enable a custom entity to appear in Quick create.
 ![Custom entity in Quick create](media/custom-entity-quick-create.png) 
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Select the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
+2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
 
    ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")
-3. Verify the custom entity has a quick create form. Select **Forms** and browse for form type **Quick Create**. Create a quick create form if needed.
+3. Verify the custom entity has a quick create form. Chose **Forms** and browse for form type **Quick Create**. Create a quick create form if needed.
 
    ![Quick create form](media/quick-create-form.png "Quick create form")
-4. Verify the custom entity is added to the app designer. Select **Apps**, and then open **App for Outlook**.
+4. Verify the custom entity is added to the app designer. Choose **Apps**, and then open **App for Outlook**.
 
    ![Apps for Outlook in Apps](media/apps-for-outlook-in-apps.png)
-6. In the app designer, select **Entities** and browse to find your custom entity.
+6. In the app designer, choose **Entities** and browse to find your custom entity.
 
    ![Custom entity in app designer](media/custom-entity-app-designer.png)
 
 ## Enable a custom entity to appear in the Regarding lookup
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Select the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then click **Save**.
+2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
 
    ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
 
@@ -482,13 +482,15 @@ Follow these steps to enable a custom entity to appear in Quick create.
 To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
-2. Select an entity, then select **Views**.
+2. Choose an entity, then choose **Views**.
 3. Open **Account Lookup View**.
 
    ![Account lookup view](media/account-lookup-view.png)
-4. Enable the custom field, and then select **OK**.
+4. Enable the custom field, and then choose **OK**.
 
    ![Enable custom field](media/add-custom-field.png)
+5. Choose **Save** > **Publish** on the **Home** tab.
+
 
 <!--  
 ### Filter contacts by column (field)  
