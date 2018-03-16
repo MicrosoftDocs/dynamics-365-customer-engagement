@@ -471,7 +471,7 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Select the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then click **Save**.
 
-   ![Communication and collaboration activity enabled](media/communication-elaboration-activites.png "Communication and collaboration activity enabled")
+   ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
 
 ## Search on custom field in Regarding lookup
 
