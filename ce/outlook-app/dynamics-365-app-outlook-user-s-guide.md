@@ -250,9 +250,9 @@ To change the fields that appear, follow these steps:
    ![Prepare client customizations](media/prepare-client-customizations.png "Prepare client customizations")
 7. Close the solutions page.
 
-After completing the above, right-click in the track regarding card, and then select Reload. It might take some time for the synchronization to complete and the change to appear.
+After completing the above, right-click in the track regarding card, and then choose **Reload**. It might take some time for the synchronization to complete and the change to appear.
 
-![After customizing card](media/after-customizing-card.png "After customizing card")
+![After customizing card](media/after-customizing-card.png "After customizing card")</br>
 The business phone number replaces job title in the Contact card.
 
 ## Compose an email message and link it to a Dynamics 365 record  
