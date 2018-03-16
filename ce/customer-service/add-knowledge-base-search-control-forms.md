@@ -73,7 +73,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
     ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png) 
 
-9. Choose **Set**.   
+9. Select **Set** to apply the settings.   
     
 |Tab  |Property  |Description|
 |---------|---------|---------|
