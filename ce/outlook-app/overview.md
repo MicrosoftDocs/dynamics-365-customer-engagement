@@ -37,20 +37,21 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
 ## Known issues
 
-For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md).
+- Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
+- Delegated users cannot track emails using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. Try using folder-level tracking or automatic tracking for delegated users.  
+
+For other known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md). 
 
 ## What's new in Dynamics 365 App for Outlook
-  The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
+
+The [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] has been significantly redesigned and includes enhancements such as:
 
 - Unified Interface. [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Much of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] functionality is now included.
-
 - Global search or multi-entity search. Use global search to search for a keyword in multiple entities at the same time. Global search uses the quick find view for the various entities to search for records.
-
 - Forms. View and edit forms the same as what you see in the mobile experience. 
-
 - Dashboards. View and edit dashboards the same as what you see in the mobile experience.
-
 - Insights. Use Relationship assistant to get insights into your customers.
+
 
 <a name="Overview"></a>   
 

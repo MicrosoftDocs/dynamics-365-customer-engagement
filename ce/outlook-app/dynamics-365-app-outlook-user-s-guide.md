@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Dynamics 365 App for Outlook User Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/19/2017
 ms.reviewer: ""
@@ -21,11 +21,7 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)], a preview feature, works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. For a prior release that works with earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
->
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
->
-> Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446). 
+> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)], works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. For a prior release that works with earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
 
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
   
@@ -453,6 +449,22 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 2.  Select the view you want.  
   
  ![Dynamics 365 App for Outlook with contract tracking filter drop-down](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
+
+## Add a custom entity to show up in Quick create
+
+Follow these steps:
+
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+2. Select the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
+
+   ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")
+3. Verify the custom entity has a quick create form. Select **Forms** and browse for form type **Quick Create**. Create a quick create form if needed.
+
+   ![Quick create form](media/quick-create-form.png "Quick create form")
+4. Verify the custom entity is added to the app designer. Select **Apps**, and then open **App for Outlook**.
+
+   ![Apps for Outlook in Apps](media/apps-for-outlook-in-apps.png)
+6. In the app designer, select **Entities** and browse to find your custom entity.
 
 <!--  
 ### Filter contacts by column (field)  
