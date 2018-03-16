@@ -466,6 +466,10 @@ Follow these steps:
    ![Apps for Outlook in Apps](media/apps-for-outlook-in-apps.png)
 6. In the app designer, select **Entities** and browse to find your custom entity.
 
+   ![Custom entity in app designer](media/custom-entity-app-designer.png)
+
+
+
 <!--  
 ### Filter contacts by column (field)  
 [Reviewer note: I don't think this info is very useful and plan to delete.]
