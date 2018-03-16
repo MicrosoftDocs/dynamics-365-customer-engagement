@@ -452,8 +452,6 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 
 ## Add a custom entity to show up in Quick create
 
-Follow these steps:
-
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Select the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
 
@@ -468,7 +466,25 @@ Follow these steps:
 
    ![Custom entity in app designer](media/custom-entity-app-designer.png)
 
+## Enable a custom entity to appear in the Regarding lookup
 
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+2. Select the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then click **Save**.
+
+   ![Communication and collaboration activity enabled](media/communication-elaboration-activites.png "Communication and collaboration activity enabled")
+
+## Search on custom field in Regarding lookup
+
+To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
+
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+2. Select an entity, then select **Views**.
+3. Open **Account Lookup View**.
+
+   ![Account lookup view](media/account-lookup-view.png)
+4. Enable the custom field, and then click **Save**.
+
+   ![Enable custom field](media/add-custom-field.png)
 
 <!--  
 ### Filter contacts by column (field)  
