@@ -117,7 +117,7 @@ When you’re viewing the list of records for a specific record type, select **O
 
 To return to the list of records, select **Open Views** in the command bar.
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md#bkmk_UseDashboards)
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
   
  
 ## Navigate through records and pages  
