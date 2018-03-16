@@ -450,7 +450,11 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
   
  ![Dynamics 365 App for Outlook with contract tracking filter drop-down](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
 
-## Add a custom entity to show up in Quick create
+## Add a custom entity to Quick create
+
+Follow these steps to enable a custom entity to appear in Quick create.
+
+![Custom entity in Quick create](media/custom-entity-quick-create.png) 
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Select the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
@@ -482,7 +486,7 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 3. Open **Account Lookup View**.
 
    ![Account lookup view](media/account-lookup-view.png)
-4. Enable the custom field, and then click **Save**.
+4. Enable the custom field, and then select **OK**.
 
    ![Enable custom field](media/add-custom-field.png)
 
