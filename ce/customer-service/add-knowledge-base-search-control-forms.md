@@ -5,7 +5,7 @@ keywords: Knowledge base forms; Customer service; Customer Service Hub; Dynamics
 author: anjgupta
 ms.author: anjgup
 manager: sakudes
-ms.date: 03/09/2018
+ms.date: 03/16/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
@@ -18,7 +18,7 @@ ms.assetid: 2f43c2cb-684a-4388-a22b-6d891e4b8a19
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] records, without having to switch to a different application.  
+Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.  
   
  You can configure the Knowledge Base Search control to:  
   
@@ -31,7 +31,7 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../include
 -   Add the control on any section of any entity that is enabled for knowledge management, including the Timeline, and also in custom entities. The control is added by default to the Case form of type **Main**. The control can be added to other Main forms also.  
   
     > [!NOTE]
-    >  The Knowledge Base Search control can be used on [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] and [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)]. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
+    >  The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
   
 ## Prerequisites  
  Before you add the Knowledge Base Search control, make sure to:  
