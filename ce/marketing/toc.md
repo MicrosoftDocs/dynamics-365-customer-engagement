@@ -29,6 +29,7 @@
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### [Basic tutorials](basic-tutorials.md)
 #### [Create a segment](create-segment.md)
@@ -58,7 +59,6 @@
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Engage customers online with portals](portals.md)
 #### [Create and run online surveys](surveys.md)
-#### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### [Manage, score, and qualify leads](qualify-leads-section.md)
 #### [Score and manage leads](score-manage-leads.md)

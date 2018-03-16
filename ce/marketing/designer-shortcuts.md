@@ -163,7 +163,7 @@ The canvas includes a side panel with tabs that provide a **Toolbox** of availab
 1. Press tab until you've selected the **Add** button in the canvas toolbar.
 1. Press space to open the **Add** menu.
 1. Use the arrow keys to select a tile type from the **Add** menu.
-1. Press space to choose the tile type currently selected in the **Add** menu. 
+1. Press space to choose the tile type currently selected in the **Add** menu.  
     ![Add a tile from the toolbar](media/cj-add-menu-ill.png "Choose the type of tile you want to add")
 1. Use the arrow keys to select where you want to insert the new tile in the pipeline. Select a new-tile position to place the tile in a new position, or select an existing tile to place the tile as a child of that tile.  
     ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
