@@ -16,15 +16,15 @@ topic-status: Drafting
 
 # Gain insights from public conversations
 
-Get detailed content analytics and understand data like the most-used phrases, their volume, sources these conversations are coming from, and sentiment involved.  
+Get detailed content analytics and understand data about most-used phrases, their volume, sources of these conversations, and sentiment.  
   
-In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics > Conversations** to access the conversations page.  
+In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Conversations** to access the conversations page.  
 
 ![Screenshot of the conversations page in the Analytics area of Social Engagement](media/analytics-conversations.png "Screenshot of the conversations page in the Analytics area of Social Engagement")
 
 ## Hashtags
 
-Lists the most popular hashtags in the content of the posts in your current data set. 
+Lists the most popular hashtags in the content of posts in your current data set. 
 
 Dynamic widget. Shows only if hashtags are found in posts. Hashtags are available for Twitter, Instagram, and YouTube.
 
@@ -34,37 +34,37 @@ Lists the number and distribution of intentions (or intention tags) that were as
 
 ## Languages
 
-Lists the five most-found languages based on the volume of posts and their trend indicator.
+Lists the five most-used languages based on the volume of posts and the trend indicator.
 
 ## Mentions
 
-Shows the mentioned authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] that were found most often in the posts of your current data set. 
+Shows mentioned authors on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] that were found most often in posts in your current data set. 
 
 Dynamic widget. Shows only if the current data set contains [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] posts that mention an author in the post contents. 
 
 ## Phrases
 
-Lists often mentioned phrases, based on the posts of your current data set. The larger a phrase shows, the more posts contain this phrase.
+Lists frequently mentioned phrases, based on the posts of your current data set. A phrase appears larger if it is mentioned often.
 
 ## Phrases history
 
-Visualizes the most mentioned phrases in the current data set by volume over time.  
+Visualizes the most-mentioned phrases in the current data set by volume over time.  
 
 ## Phrases on [top source]
 
-Lists significant phrases on the source with the most posts. The size is based on the volume of the phrases on the source.
+Lists significant phrases in the source with the most posts. The size is based on the volume of the phrases in the source.
 
 ## Sentiment
 
-Visualizes the sentiment index across all posts with sentiment value in the selected data set. Additionally, you find the change in sentiment index compared to the last similar time frame and its trend indicator.    
-You can [manually change the sentiment values](analytics-sentiment.md) if you find a post's sentiment incorrectly analyzed. 
+Visualizes the sentiment index across all posts with a sentiment value in the selected data set. It also shows the change in sentiment index compared to the last similar time frame, along with a trend indicator.    
+You can [manually change the sentiment values](analytics-sentiment.md) if a post sentiment is analyzed incorrectly. 
 
-Dynamic widget. Shows only if the data set contains posts with sentiment value.
+Dynamic widget. Shows only if the data set contains posts with a sentiment value.
 
 ## Sources
 
 Shows the number of posts in the most active sources, and summarizes how many posts were found in other sources.    
-Click the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for additional details.  
+Click the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget for more details.  
 
 ## Tags
 Shows the distribution of custom tags in your current data set. The Full view mode offers the top 100 tags.
