@@ -59,10 +59,11 @@ As a survey administrator, you can validate if a survey has created any issues.
 3.	Select the name of the survey you want to validate.
 4.	Select **Validate Survey** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start with or without publishing the survey.
 5.	Select one of the following buttons in the confirmation message:
-  - **Validate with Publish**: All the validation tests are performed.
-  - **Validate without Publish**: Only the validation tests that do not require publishing the survey are performed.
-  - **Cancel**: Cancels the operation.
-6.	Select the .txt file under **Survey Validation Result** in the **Notes** section and save it to the location you want.
+  - **Publish**: All the validation tests are performed.
+  - **Skip Publish**: Only the validation tests that do not require publishing the survey are performed.
+  
+  The results are displayed under the **Survey Validation Results** area.
+6.	Select **Download Log File** to download the detailed report.
 
 ### See also
 [Plan a survey](plan-survey.md)   
