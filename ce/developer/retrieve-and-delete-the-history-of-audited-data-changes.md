@@ -2,7 +2,7 @@
 title: "Retrieve and delete the history of audited data changes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Programmatically retrieve the audit change history or delete audit records."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 03/19/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -31,13 +31,15 @@ manager: "amyla"
 
 After auditing is enabled and data changes are made to those entities and attributes being audited, you can proceed to obtain the data change history. Optionally, you can delete the audit records after you review the change history. Follow the sample code link at the end of this topic for more information.  
   
-## Retrieve the change history  
+## Retrieve the change history 
+ 
  There are several messages requests that can be used to retrieve the audit change history. These requests are differentiated by the nature of what they retrieve. 
 <!-- Bug 696490 should make the Audit entity public again: Refer to the topic  [Audit Entity](entities/audit.md) for a list of message requests related to auditing. -->
 Refer to the sample link at the end of this topic for sample code that demonstrates some of these change history message requests.
 
-## Delete the change history  
- Use the <xref:Microsoft.Crm.Sdk.Messages.DeleteRecordChangeHistoryRequest> to delete all the audit change history records for a record. This lets you delete the audit change history for a record instead of deleting all the audit records, which is covered in the next section. To delete the audit change history for a record, you must have the **prvDeleteRecordChangeHistory** privilege.
+## Delete the change history 
+ 
+ Use the <xref:Microsoft.Crm.Sdk.Messages.DeleteRecordChangeHistoryRequest> message to delete all the audit change history records for a record. This lets you delete the audit change history for a record instead of deleting all the audit records, which is covered in the next section. To delete the audit change history for a record, you must have the **prvDeleteRecordChangeHistory** privilege.
 
 ## Delete audit records
 
