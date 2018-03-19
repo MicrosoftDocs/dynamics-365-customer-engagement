@@ -29,7 +29,8 @@ As of March 21, 2018, it's now possible to view and do some management of your C
 1. In the Dynamics 365 admin center, select the **Instances** tab.
 2. Select an instance and look for **Common Data Service** in the description details. 
 
-![Identify Common Data Service instances](media/identify-cds-instance.png "Identify Common Data Service instances")
+<!--
+![Identify Common Data Service instances](media/identify-cds-instance.png "Identify Common Data Service instances") -->
 
 ## Manage Common Data Service instances
 
