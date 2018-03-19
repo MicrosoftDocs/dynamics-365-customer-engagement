@@ -23,5 +23,4 @@ When you first sign in to Dynamics 365 for phones and tablets, a pane slides in.
  ![Workspace for mobile](../../../media/workspace-mobile.png "Workspace for mobile")  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)   
- [Preview feature: Relationship Insights](../admin/relationship-insights.md)
+  [Preview feature: Relationship Insights](../../../../admin/relationship-insights.md)

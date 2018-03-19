@@ -49,7 +49,5 @@ manager: "brycho"
   
  ![Home screen in the Dynamics 365 mobile app](../../../media/mobile-home-cent.png "Home screen in the Dynamics 365 mobile app")  
   
- To create new dashboards in [!INCLUDE[pn_crm_shortest](../../../../../../../includes/pn-crm-shortest.md)] and enable them for use in [!INCLUDE[pn_crm_shortest](../../../../../../../includes/pn-crm-shortest.md)] for phones and tablets, see [Create or customize dashboards](../../../../customize/create-edit-dashboards.md).  
+ To create new dashboards in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] and enable them for use in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets, see [Create or customize dashboards](../../../../customize/create-edit-dashboards.md).  
   
-## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../../../../dynamics-365-phones-tablets-users-guide.md)

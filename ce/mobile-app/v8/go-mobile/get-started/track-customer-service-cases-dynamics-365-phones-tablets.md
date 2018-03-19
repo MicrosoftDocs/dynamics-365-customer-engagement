@@ -50,6 +50,5 @@ As a Customer Service Manager or Customer Service Rep, use the [!INCLUDE[pn_crm_
 3.  Sign in to the web application when it appears. The web app goes right to the case you had open in the mobile app.  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)   
- [Manage activities in Dynamics 365 for phones and tablets](../../../manage-activities-dynamics-365-phones-tablets.md)   
- [Use Cortana voice commands in Dynamics 365 for phones](../../../use-cortana-voice-commands-dynamics-365-phones.md)
+ [Manage activities in Dynamics 365 for phones and tablets](manage-activities-dynamics-365-phones-tablets.md)   
+ [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands-dynamics-365-phones.md)

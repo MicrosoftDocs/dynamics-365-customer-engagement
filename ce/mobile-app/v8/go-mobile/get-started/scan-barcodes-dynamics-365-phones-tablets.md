@@ -22,5 +22,4 @@ Rather than manually typing a barcode number into a field, you can scan barcodes
  ![Barcode scanning in Dynamics 365 for phones and tablets](../../../media/barcode-icon-mobile.PNG "Barcode scanning in Dynamics 365 for phones and tablets")  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)   
- [Field Service Mobile App User’s Guide](../field-service/field-service-mobile-app-user-guide.md)
+ [Field Service Mobile App User’s Guide](../../../../field-service/field-service-mobile-app-user-guide.md)
