@@ -23,11 +23,11 @@ The form editor displays commands in three tabs: **File**, **Home**, and **Inser
 - [Home tab](#home-tab)
 - [Insert tab](#insert-tab)
   
- The form editor is divided into three areas: **Navigation**, **Body**, and **Explorer**.  
+The form editor is divided into three areas: **Navigation**, **Body**, and **Explorer**.  
 
 ![Form editor user interface](media/form-user-interface.png)
   
- **Navigation**  
+**Navigation**  
 Located on the left side, use the navigation area to control access to related entities or to add links to URLs to be displayed in the main pane of the form. To edit navigation, you must first select the **Navigation** command in the **Select** group of the **Home** tab.
 
 Main forms provide navigation options through the navigation bar, but use the same data in the navigation area to control what navigation options are available. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Edit Navigation](../customize/use-the-form-editor-legacy.md)  
@@ -47,20 +47,20 @@ By default, for the Case, Contact, and Account Main forms, the first section und
  
 -   To add a field, select it from the **Field Explorer** and drag it into a section.  
   
--   To add an element that is not a field, select where you want to place it and use the appropriate command from the **Insert** tab add it.  
+    -   To add an element that is not a field, select where you want to place it and use the appropriate command from the **Insert** tab add it.  
   
--   To remove an element, select it and use the **Remove** command in the **Edit** group of the **Home** tab.  
+    -   To remove an element, select it and use the **Remove** command in the **Edit** group of the **Home** tab.  
   
--   To edit the **Header** or **Footer** for the form you must first select the corresponding command in the **Select** group of the **Home** tab.  
+    -   To edit the **Header** or **Footer** for the form you must first select the corresponding command in the **Select** group of the **Home** tab.  
   
- **Explorer**  
- Located on the right side, the content of the explorer area depends on the context.  
+**Explorer**  
+Located on the right side, the content of the explorer area depends on the context.  
   
- When you select **Body**, **Header**, or **Footer** in the **Select** group of the **Home** tab, you’ll see the **Field Explorer**. Use the **Field Explorer** to drag fields you want to display into a section in the form or within the header or footer. You can include the same field multiple times in a form. Use the **New Field** button as a shortcut to create a new field.  
+When you select **Body**, **Header**, or **Footer** in the **Select** group of the **Home** tab, you’ll see the **Field Explorer**. Use the **Field Explorer** to drag fields you want to display into a section in the form or within the header or footer. You can include the same field multiple times in a form. Use the **New Field** button as a shortcut to create a new field.  
   
- When you select **Navigation** in the **Select** group of the **Home** tab you’ll see the **Relationship Explorer**. Drag any of the relationships into one of the groups within the navigation area. You cannot add the same relationship twice. Relationships are available based on how they are configured. If you configure a relationship to not display, it won’t display in the **Relationship Explorer**. For information about how to configure default display options for relationships, see [Navigation pane item for primary entity](create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity).
+When you select **Navigation** in the **Select** group of the **Home** tab you’ll see the **Relationship Explorer**. Drag any of the relationships into one of the groups within the navigation area. You cannot add the same relationship twice. Relationships are available based on how they are configured. If you configure a relationship to not display, it won’t display in the **Relationship Explorer**. For information about how to configure default display options for relationships, see [Navigation pane item for primary entity](create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity).
   
- You can use the **New 1:N** and **New N:N buttons** as a shortcut to add new entity relationships.  
+You can use the **New 1:N** and **New N:N buttons** as a shortcut to add new entity relationships.  
 
 ## File tab
 
