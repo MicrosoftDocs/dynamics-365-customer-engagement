@@ -52,7 +52,7 @@
 #### [Reconfigure](../mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure-dynamics-365-phones-tablets.md)
 #### [Secure your mobile data with Microsoft Dynamics 365 for Good](../mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md)
 #### [iFrame and web resource support](../mobile-app/v8/go-mobile/admin-troubleshoot/iframe-web-resource-support-dynamics-365-phones-tablets.md)
-#### [Troubleshoot a startup error](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-dynamics-365-windows-start-up-error.md)
+#### [Troubleshoot a startup error](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)
 #### [Troubleshoot error code 800c0019 on Windows Phones](../mobile-app/v8/go-mobile/admin-troubleshoot/troubleshoot-error-code-800c0019-windows-phones.md)
 
 

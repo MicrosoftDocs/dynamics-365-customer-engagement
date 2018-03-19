@@ -40,9 +40,7 @@ You can use the following [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm
   
  For more information about using [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)], see [Meet Cortana](http://go.microsoft.com/fwlink/p/?LinkID=401573).  
   
- [![Left arrow icon](../../../media/left-arrow-blue-circle.png "Left arrow icon")] [Track customer service cases](track-customer-service-cases-in-crm-for-phones-and-tablets.aspx)  
-  
- [Get help](get-help-for-crm-for-phones-and-tablets.aspx) [![Right arrow icon](../../../media/right-arrow-blue-circle.png "Right arrow icon")] 
+ [![Left arrow icon](../../../media/left-arrow-blue-circle.png "Left arrow icon")] [Track customer service cases](track-customer-service-cases-dynamics-365-phones-tablets.aspx)  
   
 #### Privacy notice  
  [!INCLUDE[cc_privacy_crm_cortana](../../../../includes/cc-privacy-crm-cortana.md)]  

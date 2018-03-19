@@ -37,7 +37,7 @@ manager: "brycho"
   
  [TechNet: Troubleshoot problems with CRM for phones express](https://technet.microsoft.com/library/dn660977.aspx)  
   
- [Troubleshoot a Dynamics 365 for Windows app start-up error](troubleshoot-dynamics-365-windows-app-start-up-error.md)  
+ [Troubleshoot a Dynamics 365 for Windows app start-up error](../admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)  
   
 ## See Also  
  [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands-dynamics-365-phones.md)
