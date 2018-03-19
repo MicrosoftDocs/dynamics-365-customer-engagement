@@ -2,7 +2,7 @@
 title: "Work with a data set in Social Engagement | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
 keywords: "data set, filter, time frame"
-ms.date: 10/17/2017
+ms.date: 03/19/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Explore more options with your data set
-Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], data sets are often key to an accurate and detailed analysis. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set a baseline for your analysis with a data set](use-filters.md#data_set)  
+Your search topics usually gather more data than you want to analyze at a given moment. When narrowing the data for the most relevant posts in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)], [data sets](use-filters.md#data_set) are often key to an accurate and detailed analysis.
   
  In some areas of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can copy a given data set over to a different area to save time. For example, you can have a stream in **Social Center** that shows an overwhelming amount of posts. You decide to analyze those posts in the **Analytics** area to drill down into the information using the filtering functionality. You find a set of important posts and choose to get informed of any similar new posts. By passing your data set over to the **Message Center**, you can create an alert with a single click.  
   
@@ -42,15 +42,15 @@ Your search topics usually gather more data than you want to analyze at a given 
   
 2.  You can choose from the following options, depending on the area you work in:  
   
-    -   Create activity map. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define activity maps to view real-time data](activity-maps.md)  
+    -   [Create activity map](activity-maps.md).
   
-    -   Create alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Stay up to date with alerts](email-alerts.md)  
+    -   [Create alert](email-alerts.md).
+
+    -   [Create stream](social-center.md).
   
-    -   Create stream. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep track of live data streams with Social Center](social-center.md)  
+    -   [View/Open in Analytics](analyze-social-data-using-widgets.md).
   
-    -   View/Open in Analytics. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Analyze social data using widgets](analyze-social-data-using-widgets.md)  
-  
-    -   Create an automation rule. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Route posts using automation rules](automation-rules.md)  
+    -   [Create an automation rule](automation-rules.md).
   
 > [!NOTE]
 >  If you use the nav bar to switch to a different area of the application, your filters are reset. To persist the filters, pass your data set to a different area per the instructions and availability above.  
