@@ -22,9 +22,8 @@ You can capture important information about customers, interactions you’ve had
 
 Watch this video to learn more about case management in the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/Y_eV4HeIm04?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
   
-
 ## Create a case  
   
 1.  Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.  
