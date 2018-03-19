@@ -39,8 +39,9 @@ You can manage the following with Common Data Service in the Dynamics 365 Admin 
 1. [Open an instance](use-office-365-admin-center-manage-subscription.md)
 2. [Edit an instance](edit-properties-instance.md)
 3. [Copy an instance](copy-instance.md)
-4. [Change notifications](manage-email-notifications.md)
-5. Install solutions
+4. [Delete an instance](delete-instance.md)
+5. [Change notifications](manage-email-notifications.md)
+6. Install solutions
 
 For complete management of Common Data Service instances such as managing users, permissions, and environment roles, use the [PowerApps Admin Center](https://admin.powerapps.com).
 
