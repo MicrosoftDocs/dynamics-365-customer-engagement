@@ -37,13 +37,13 @@ After auditing is enabled and data changes are made to those entities and attrib
 <!-- Bug 696490 should make the Audit entity public again: Refer to the topic  [Audit Entity](entities/audit.md) for a list of message requests related to auditing. -->
 Refer to the sample link at the end of this topic for sample code that demonstrates some of these change history message requests.
 
-## Delete the change history 
+## Delete the change history for a record
  
- Use the <xref:Microsoft.Crm.Sdk.Messages.DeleteRecordChangeHistoryRequest> message to delete all the audit change history records for a record. This lets you delete the audit change history for a record instead of deleting all the audit records, which is covered in the next section. To delete the audit change history for a record, you must have the **prvDeleteRecordChangeHistory** privilege.
+ Use the <xref:Microsoft.Crm.Sdk.Messages.DeleteRecordChangeHistoryRequest> message to delete all the audit change history records for a particular record. This lets you delete the audit change history for a record instead of deleting all the audit records for a date range, which is covered in the next section. To delete the audit change history for a record, you must have a security role with the **prvDeleteRecordChangeHistory** privilege or be a System Administrator.
 
-## Delete audit records
+## Delete the change history for a date range
 
- You can delete `audit` records using the <xref:Microsoft.Crm.Sdk.Messages.DeleteAuditDataRequest> request. Audit data records are deleted sequentially from the oldest to the newest. The functionality of this request is slightly different based on the edition of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] being used by your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] uses an enterprise edition of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].
+ You can delete `audit` records for a date range using the <xref:Microsoft.Crm.Sdk.Messages.DeleteAuditDataRequest> request. Audit data records are deleted sequentially from the oldest to the newest. The functionality of this request is slightly different based on the edition of [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] being used by your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] uses an enterprise edition of [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)].
 
  If your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server uses [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] standard edition, which does not support the database partitioning feature, the <xref:Microsoft.Crm.Sdk.Messages.DeleteAuditDataRequest> request deletes all audit records created up to the end date specified in the <xref:Microsoft.Crm.Sdk.Messages.DeleteAuditDataRequest.EndDate> property.
 
