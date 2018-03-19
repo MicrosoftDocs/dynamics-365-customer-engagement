@@ -17,7 +17,7 @@ manager: "brycho"
 ---
 # Enable mobile offline synchronization
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Enable mobile offline synchronization so users can stay productive wherever they are.
   
@@ -25,7 +25,7 @@ Enable mobile offline synchronization so users can stay productive wherever they
   
 2.  Click **Mobile Offline Configuration**.  
   
-3.  Click **Continue** to accept the terms of the disclaimer and allow data to be shared with an external system on [!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] services.  
+3.  Click **Continue** to accept the terms of the disclaimer and allow data to be shared with an external system on [!INCLUDE[pn-azure-shortest](../../../includes/pn-azure-shortest.md)] services.  
   
 4.  Select **Enable** and click **Save**. This starts the provisioning process for mobile offline. When it completes, your mobile users will automatically experience the new mobile offline capabilities. Users can opt out by choosing **Settings > Disable Sync** in their mobile app.  
   

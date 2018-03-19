@@ -17,12 +17,12 @@ manager: "brycho"
 ---
 # Work offline with Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
   
 ## Offline synchronization vs. Offline drafts  
  You’ll have one of two possible offline experiences, depending on which one your admin set up:  
   
--   **Seamless mobile offline synchronization**. You can view, edit, and create records while you're disconnected from the Internet. Once you're back online, changes you've made are synchronized with [[!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+-   **Seamless mobile offline synchronization**. You can view, edit, and create records while you're disconnected from the Internet. Once you're back online, changes you've made are synchronized with [[!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)].  
   
      \- OR -  
   
@@ -39,7 +39,7 @@ manager: "brycho"
   
 1.  From the menu, tap **Draft Records**.  
 
-    ![Dynamics 365 for phones save offline drafts](../media/crm-ua-moca-offline-save-drafts.png "Dynamics 365 for phones save offline drafts")
+    ![Dynamics 365 for phones save offline drafts](../../media/crm-ua-moca-offline-save-drafts.png "Dynamics 365 for phones save offline drafts")
   
 2.  Select each record individually and tap **Save**.  
   
@@ -55,13 +55,13 @@ manager: "brycho"
  The records you’ve recently used are kept on your mobile device, and are also known as cached data. Cached data is specific to your device, so if you use both the phone and tablet apps, the cached data on each device will be different, depending on the records you’ve viewed on each one.  
   
 > [!WARNING]
-> Cached data is not encrypted. You can use BitLocker to encrypt the entire hard drive on a [!INCLUDE [pn-windows8](../../includes/pn-windows8.md)] or [!INCLUDE [pn-windows-10](../../includes/pn-windows-10.md)] device.  
+> Cached data is not encrypted. You can use BitLocker to encrypt the entire hard drive on a [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] or [!INCLUDE [pn-windows-10](../../../includes/pn-windows-10.md)] device.  
   
 ## If you’re prompted to sign in while you’re disconnected  
- If you’re prompted to sign in while you’re offline, tap the **Back** button on the sign-in page and you’ll still be able to work in offline mode on [!INCLUDE [tn-ipad](../../includes/tn-ipad.md)] and [!INCLUDE [pn-windows8](../../includes/pn-windows8.md)] tablets until you can reconnect. On all other phones and [!INCLUDE [tn-android](../../includes/tn-android.md)] tablets, however, you can no longer work in offline mode and will be redirected to the **Let’s get started** page until you can reconnect and sign in again.  
+ If you’re prompted to sign in while you’re offline, tap the **Back** button on the sign-in page and you’ll still be able to work in offline mode on [!INCLUDE [tn-ipad](../../../includes/tn-ipad.md)] and [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] tablets until you can reconnect. On all other phones and [!INCLUDE [tn-android](../../../includes/tn-android.md)] tablets, however, you can no longer work in offline mode and will be redirected to the **Let’s get started** page until you can reconnect and sign in again.  
   
 ## Working offline with on-premises  deployments  
- If you’re using the mobile app with [!INCLUDE [pn-crm-2015](../../includes/pn-crm-2015.md)] (on-premises) or later, you can continue to use [!INCLUDE [pn-moca-short](../../includes/pn-moca-short.md)] while disconnected. However, with the [!INCLUDE [pn-windows8](../../includes/pn-windows8.md)] app, once you close the app (like when you start another app), you can’t use it until you can connect to the Internet. With the [!INCLUDE [pn-windows-8-1](../../includes/pn-windows-8-1.md)] app, you can continue to access your data even if you close the app. If you’re not sure whether your organization has an on-premises deployment, contact your Dynamics 365 admin to find out.  
+ If you’re using the mobile app with [!INCLUDE [pn-crm-2015](../../../includes/pn-crm-2015.md)] (on-premises) or later, you can continue to use [!INCLUDE [pn-moca-short](../../includes/pn-moca-short.md)] while disconnected. However, with the [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] app, once you close the app (like when you start another app), you can’t use it until you can connect to the Internet. With the [!INCLUDE [pn-windows-8-1](../../../includes/pn-windows-8-1.md)] app, you can continue to access your data even if you close the app. If you’re not sure whether your organization has an on-premises deployment, contact your Dynamics 365 admin to find out.  
   
  Note that offline synchronization is not supported by on-premises deployments.  
   
@@ -140,9 +140,9 @@ manager: "brycho"
 ## Reconnect to go back online  
  Once you have phone service or Internet again, tap the offline indicator on your device to reconnect.  
   
-![Offline indicator: tap to reconnect](../media/crm-ua-moca-offline-indicator.png "Offline indicator: tap to reconnect") 
+![Offline indicator: tap to reconnect](../../media/crm-ua-moca-offline-indicator.png "Offline indicator: tap to reconnect") 
   
- You’ll need to save your drafts to make them available in [[!INCLUDE[pn-microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+ You’ll need to save your drafts to make them available in [[!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)].  
   
 ## For admins: Enhanced sync status for provisioning  
  **About enhanced sync status:**  

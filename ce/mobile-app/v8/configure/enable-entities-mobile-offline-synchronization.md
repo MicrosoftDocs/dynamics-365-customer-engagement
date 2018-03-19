@@ -17,7 +17,7 @@ manager: "brycho"
 ---
 # Enable entities for mobile offline synchronization
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can enable any entity for mobile offline that is enabled for mobile. By default, no entities are enabled for mobile offline , so you need to follow these steps for each entity you want to make available for users when they’re offline. You can find a list of entities available for mobile in [Entities and Dynamics 365 for phones and tablets](https://technet.microsoft.com/en-us/library/dn531159.aspx#BKMK_CustomEntity).  
   
