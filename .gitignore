@@ -5,6 +5,5 @@ _site/
 _themes*/
 .vs/
 .vscode/
-CODEOWNERS
 
 .openpublishing.buildcore.ps1
