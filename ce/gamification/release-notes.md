@@ -36,7 +36,7 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 #### Solution
 
-- Newly assigned Game Manager roles in Dynamics 365 now sync automatically with the Gamification web portal. Administrators don't need to manually trigger an update of the user data after updating the solution to at least version 2018.2.9.
+- Newly assigned Game Manager roles in Dynamics 365 now [sync automatically](understand-security-roles.md#available-securtiy-roles) with the Gamification web portal. Administrators don't need to manually trigger an update of the user data after updating the solution to at least version 2018.2.9.
 
 ## Update 2018.2.9
 
