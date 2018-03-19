@@ -1,16 +1,23 @@
 # [Overview](overview.md)
+
 # Administration Guide 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Configure mobile offline synchronization](configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
 ## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md)
+
 # [Company News Timeline](../company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets.md)
+
 # Troubleshooting
 ## [Problems and solutions](troubleshooting-things-know-about-phones-tablets.md)
+
 # [Install the mobile app (users)](install-dynamics-365-for-phones-and-tablets.md)
+
 # [User Guide](dynamics-365-phones-tablets-users-guide.md)
-# [Version 8.x](../mobile-app/v8/about-this-content.md)
+
+# Version 8.x
+## [About this content](../mobile-app/v8/about-this-content.md)
 ## [Configure and use mobile offline synchronization](../mobile-app/v8/configure/configure-mobile-offline-synchronization.md)
 ### [Enable mobile offline synchronization](../mobile-app/v8/configure/enable-mobile-offline-synchronization.md)
 ### [Enable entities for mobile offline synchronization](../mobile-app/v8/configure/enable-entities-mobile-offline-synchronization.md)
@@ -19,7 +26,7 @@
 ### [Publish a mobile offline profile](../mobile-app/v8/configure/publish-mobile-offline-profile.md)
 ### [Work offline](../mobile-app/v8/configure/work-offline.md)
 ### [Work offline - additional information](../mobile-app/v8/configure/work-offline-additional-information.md)
-## Setup and managed phones and tablets
+## Setup and managed phones and tablets - content coming
 ## Go mobile
 ### Get started
 #### [Install](../mobile-app/v8/go-mobile/get-started/install-dynamics-365-phones-tablets.md)
