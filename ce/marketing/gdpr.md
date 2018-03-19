@@ -36,7 +36,7 @@ Here are some resources where you can learn more about how to bring your [!INCLU
 Most [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] installations are customized to meet the specific needs of each organization that uses it. Some organizations have in-house developers, and some organizations work with external partners or consultants to implement their customizations. Either way, you must customize your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] system to enable its built-in GDPR compliance tools to function correctly.
 
 Among other things, you must be able to identify all data structures (including tables, entities, and fields) that contain personal information. You should establish mechanics that allow you to easily discover, deliver, update, and/or delete this data when requested by your customer. 
-- For more information on how Dynamic 365 helps you on essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter).
+- For more information on how Dynamic 365 helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance see the guide [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/en-us/trustcenter).
 - For details about how to use the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] API implement custom GDPR related functionality for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] system, see the [Developer Guide (Marketing)](developer/marketing-developer-guide.md).
 - If you're looking for a partner to help you come into compliance, try searching in our [Microsoft Solution Providers database](https://www.microsoft.com/en-us/solution-providers/search).
 
@@ -66,7 +66,7 @@ The consent levels provided out of the box are just recommendations. It is up to
 | Level | Consent level name | Description |
 |-------|--------------------|-------------|
 | 0 | (none) | No consent has been given by the contact. The organization should not reach out to the individual or perform data processing or automated decision making until consent is given. Regardless of the given consent, individuals can submit information using an online form (landing page) provided by the organization.    |
-| 1 | Consent | The individual allows the organization to reach out only in order to confirm consent or obtain a higher level of consent. A typical example is a re-consenting customer journey that sends an email containing a link to a subscription center page where the individual can provide consent.    |
+| 1 | Consent | The individual allows the organization to reach out only to confirm consent or obtain a higher level of consent. A typical example is a re-consenting customer journey that sends an email containing a link to a subscription center page where the individual can provide consent.    |
 | 2 | Transactional | The individual consents to be sent transactional messages that relate to specific, existing business between the two parties. These messages can't include marketing or promotional content. Examples include bank statements, order receipts, and membership status messages.  |
 | 3 | Subscriptions | The individual consents to receive messages that include offers to sign up for mailing lists or other subscribed content.   |
 | 4 | Marketing | The individual agrees to receive marketing messages and promotional content. |
@@ -98,14 +98,14 @@ You can set the minimal consent level for any lead-scoring model. When set, the 
 
 To do this, open the lead scoring model, go to the **Summary** tab, and choose the minimal consent level from the **Required consent** drop-down list.
 
-## Include a consent selector into a subscription center
+## Include a consent selector in a subscription center
 A subscription center is probably the best place to enable contacts to confirm and modify their consent level. To set this up:
 
 - Set up a marketing form field that maps to the GDPR consent field of the contact entity.
 - Create a marketing form of type subscription-center that includes the GDPR consent field.
 - Create a marketing page of type subscription-center that includes that form.
 
-You can now create a marketing email messages that includes a link to your subscription-center page. Make sure your page explains why granting consent is important and how it provides value to the individual.
+You can now create a marketing email message that includes a link to your subscription-center page. Make sure your page explains why granting consent is important and how it provides value to the individual.
 
 ## An example of how to support data requests from your marketing audience
 Under GDPR, individuals have the right to submit several types of data requests to your organization. These include requests to access, correct, erase, and transmit (in a readable format) their personal data. A user-friendly way to support this could be to create a marketing page that provides a request form, and then set up a customer journey that reacts to page submissions by generating tasks for your privacy officer. You could proceed as follows:
@@ -130,7 +130,7 @@ When a customer requests to be forgotten, you must identify the relevant data an
 
 - Identify the contact and relevant related data.
 - Consider deleting the record permanently (a so-called _hard delete_).
-- On deleting the contact record, all related interaction data stored in [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] wll automatically be unlinked and removed.
+- On deleting the contact record, all related interaction data stored in [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] will automatically be unlinked and removed.
 - If you have any custom entities, then you must also delete all related personal data from them and/or unlink them from the contact record such that all personal information is removed.
 
 Note that some of this functionality requires that your system be customized by a developer or partner, especially when it comes to clearing information from custom entities and fields.
