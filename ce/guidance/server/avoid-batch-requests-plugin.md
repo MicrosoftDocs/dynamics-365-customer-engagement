@@ -1,7 +1,7 @@
 ---
 title: "Avoid usage of batch request types in plug-ins and workflow activities | MicrosoftDocs"
 description: "You shouldn't use ExecuteMultipleRequest or ExecuteTransactionRequest message request classes within the context of a Dynamics 365 Customer Engagement plug-in or workflow activity."
-ms.date: 11/30/2017
+ms.date: 1/26/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -14,14 +14,15 @@ manager: "austinj"
 # Avoid usage of batch request types in plug-ins and workflow activities
 
 **Applies to**:
+
 - [!include[](../../includes/pn-crm-9-0-0-online.md)]
-- [!include[](../../includes/pn-crm-8-2-0-online.md)]
-- [!include[](../../includes/pn-crm-2016-onprem.md)]
+- [!include[](../../includes/pn-crm-2016.md)]
+- [!include[](../../includes/pn-crm-8-1-0-both.md)]
 - [!include[](../../includes/pn-crm-2015.md)]
 - [!include[](../../includes/pn-crmv6.md)]
 - [!include[](../../includes/pn-crm-2011.md)]
 
-**Category**: Usage, reliability, performance
+**Category**: Usage, Reliability, Performance
 
 **Impact potential**: Medium
 
@@ -29,14 +30,14 @@ manager: "austinj"
 
 ## Symptoms
 
-You shouldn't use <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> or <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest> message request classes within the context of a plug-in or workflow activity. The following are possible effects:
+The following are possible effects when using <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> or <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest> message request classes within the context of a plug-in or workflow activity:
 
 - Due to their long-running nature, batch request messages expose sandbox-isolated plug-in types to the two-minute (2000-ms) channel timeout exception and can degrade the user experience for synchronous registrations.
 
 - Batch requests are subject to concurrency throttling, which can cause unnecessary server busy exceptions when the plug-in is executed by multiple threads. There is a limit of two concurrent `ExecuteMultiple` operations per online instance.
 
     > [!NOTE]
-    > For on-premises deployments, the `ExecuteAsyncPerOrMaxConnectionsPerServer` setting enables the same throttling because it isn't enabled by default.
+    > For on-premises deployments, the [ExecuteAsyncPerOrMaxConnectionsPerServer](/dotnet/api/microsoft.xrm.sdk.deployment.throttlesettings.executeasyncmaxconnectionsperserver) setting enables the same throttling.  By default, it is not defined for on-premises.
 
 <a name='guidance'></a>
 

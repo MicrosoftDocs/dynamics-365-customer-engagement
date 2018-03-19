@@ -2,7 +2,7 @@
 title: "User Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Contains topics that describe how to do common marketing tasks in Dynamics 365 for Marketing"
 keywords: "user guide"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -24,6 +24,7 @@ topic-status: Drafting
 
 <h2>Learn the basics</h2>
 <li>[Dynamics 365 for Marketing overview](overview.md)</li>
+<li>[Browser and system requirements](browser-requirements.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
@@ -67,7 +68,6 @@ topic-status: Drafting
 <h2>Create marketing segments and customer journeys</h2>
 <li>[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)</li>
 <li>[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)</li>
-<li>[Use suppression segments to apply unsubscribe requests](suppression-segments.md)</li>
 <li>[Customer journey tiles reference](customer-journey-tiles-reference.md)</li>
 
 </td><td>
@@ -76,7 +76,6 @@ topic-status: Drafting
 <li>[Score and manage leads](score-manage-leads.md)</li>
 <li>[Register contacts' engagement](register-engagement.md)</li>
 <li>[Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)</li>
-<li>[Analyze results with Power BI](power-bi-analytics.md)</li>
 
 </td></tr>
 <tr><td>

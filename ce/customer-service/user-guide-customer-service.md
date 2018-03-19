@@ -1,16 +1,15 @@
 ---
-title: "User Guide (Dyanmics 365 for Customer Service) | MicrosoftDocs"
+title: User Guide (Dyanmics 365 for Customer Service) | MicrosoftDocs
+description: Understand Customer Service in Microsoft Dynamics 365
+keywords: Customer Service;  Microsoft Dynamics 365
+author: brycho
+applies_to: Dynamics 365 (online) 
+ms.author: brycho
 ms.custom: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
+ms.topic: get-started-article
+ms.service: crm-online
 ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
-caps.latest.revision: 4
-author: "brycho"
-ms.author: "brycho"
 ---
 # User Guide (Customer Service)
 

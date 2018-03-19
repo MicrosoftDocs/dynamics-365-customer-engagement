@@ -12,7 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: f9729664-561c-4758-86ce-7216d68075d9
 caps.latest.revision: 63
-ms.author: "rdubois"
+ms.author: "matp"
+author: "Mattp123"
 manager: "brycho"
 ---
 # Configure Bing maps

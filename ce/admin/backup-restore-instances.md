@@ -1,7 +1,7 @@
 ---
 title: "Backup and restore instances of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 02/01/2018
+ms.date: 02/26/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,9 +19,6 @@ manager: "brycho"
 # Backup and restore instances
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
-> [!NOTE]
-> On-demand backups are currently unavailable for Dynamics 365 (online), version 9.x. We're in the final phase of development and striving to make this feature available again in the next few weeks. Check back here for updated information. In the meantime, on-demand backups can be obtained by reaching out to the [support team](contact-technical-support.md). 
 
 Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data and providing continuous availability of service is important for you and for us. You have multiple options for backing up and restoring your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances.   
   
