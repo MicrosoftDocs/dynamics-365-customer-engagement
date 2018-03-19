@@ -42,6 +42,8 @@ Add a timer control to an entity form to help users gauge the amount of time the
  
 For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
  
+Adding a timer control on a web-client based app? See the article here: [Add a timer control to the Case form](https://technet.microsoft.com/library/mt812450.aspx).
+
 ## Add a timer control to the Case form  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  

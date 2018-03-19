@@ -15,11 +15,11 @@ ms.assetid: d1efcf5e-988b-4e0c-bf11-2dcde1ea739f
 ---
 
 # Create and design forms for Customer Service Hub
-Improve user's productivity with the new forms in the Customer Service Hub. 
+Improve user's productivity with the new forms in the Customer Service Hub. The form type of the new forms is **Main**. 
 
-The **Main** forms have an improved user experience that saves some clicks and helps maintain context while working on related records. 
+The **Main** forms come with an improved user experience optimized for agent productivity, helping to maintain context while working on related records. Main forms provide the primary interface where the agents can view and interact with their data in Microsoft Dynamics 365.
 
-For more information about supported forms and converting interactive experience forms to Main forms, see the blog:[ Upgrade from Interactive Service Hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
+Upgrading to the Customer Service Hub? See the blog to know some key upgrade-specific changes as well as general customization and user experience changes :[ Upgrade from Interactive Service Hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
 
 For information about how to use **Main** form, and add or edit components, see [Use the Main form and its components](use-main-form-and-components.md).
 
@@ -51,7 +51,7 @@ You can see the forms for each entity in their list of forms given in the soluti
 Both the **Main** type forms are available to use in the Customer Service Hub.
 
 ### Enable custom entities in the Customer Service Hub
-You can enable any new custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable any custom entity for unified interface experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
+You can enable any custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity for Unified interface experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
 
 ![enable-custom-entity](media/enable-custom-entity.png)
 
