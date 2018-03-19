@@ -2,7 +2,7 @@
 title: "Analytics for locations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on location data in Social Engagement."
 keywords: "analytics, locations, maps, location analysis"
-ms.date: 03/12/2018
+ms.date: 03/19/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -30,7 +30,7 @@ In [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], tw
   
 - **Post location:** Location data that shows where (latitude/longitude) a post was published. The location can differ greatly between posts from the same author, depending on the settings that are applied when publishing the post. It is an exact value because geographical coordinates are provided with the post.  
   
-Both types of location data are available under the [**Location Type** filter](use-filters.md) when defining a data set. 
+Both types of location data are available under the [**Location Type** filter](understand-filters.md#location-type) when defining a data set. 
   
 For the United States, you can choose between two ways of grouping visualized data. To see how many posts with location data are available in each subregion, apply a filter for post location and select **Subregions**. To see posts with precise geographical information (post location data) on the map, select **Posts**.
 
