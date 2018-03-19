@@ -1,7 +1,7 @@
 ---
 title: "What's new for instance management (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,6 +29,7 @@ You might have noticed some changes to the Dynamics 365 admin center. On March 2
 3. **Common Data Service instance**. Instances created in the PowerApps admin center are now displayed in the Dynamics 365 admin center as Common Data Service. 
 
 ## Filter by region
+Organizations with [multiregional instances](add-edit-multiregional-instances.md) can now filter for instances from a specific geographical region.
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
@@ -36,9 +37,19 @@ You might have noticed some changes to the Dynamics 365 admin center. On March 2
 4. Select a region to display instances for that region only.
 
 ## Filter by instance type
+If you're a large organization, you might have numerous instances of various types such as production and sandbox. You can now filter for instance type to show only the type you're interested in.
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
 3. Choose the **Instances** tab.  
 4. Select an instance type to display instances for that type only.
 
+## Common Data Service instance
+[Environments](https://docs.microsoft.com/powerapps/environments-overview) created in PowerApps will now show up as Common Data Service instances in your Dynamics 365 admin center.
+
+![Identify Common Data Service instance](media/identify-cds-instance.png "Identify Common Data Service instance")
+
+For more information, see [Manage Common Data Service instances](manage-common-data-service-instances.md).
+
+###See also
+[Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)
