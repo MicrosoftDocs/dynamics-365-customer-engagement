@@ -137,9 +137,9 @@ The Insert tab displays the commands in the following table:
 ||**Relationship Assistant**|Using this option, you can insert a relationship assistant control in the form.|
 
 >[!Note] 
->The following components aren’t supported in the Main forms:<br>
-• Yammer <br>
-• Activity Feeds
+>The following components aren’t supported in the Main forms:<br> <ul> <li>Bing maps <br><li>Yammer <br><li>Activity Feeds <br> </li> </ul>
+
+
 
 ## See also
 
