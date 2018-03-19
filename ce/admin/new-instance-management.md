@@ -1,0 +1,44 @@
+---
+title: "What's new for instance management (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+ms.custom: ""
+ms.date: 09/30/2017
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 9fd837d9-3551-4df3-a448-4b9f4161308d
+caps.latest.revision: 4
+author: "jimholtz"
+ms.author: "jimholtz"
+manager: "brycho"
+---
+# What's new for instance management
+
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+
+You might have noticed some changes to the Dynamics 365 admin center. On March 21, 2018, we introduced the following:
+
+![March 2018 changes to admin center](media/march2018-changes-admin-center.png "March 2018 changes to admin center")
+
+1. **Region picker**. Filter on the instances' region.
+2. **Instance type picker**. Filter on the type of instance: Trial, Production, Sandbox.
+3. **Common Data Service instance**. Instances created in the PowerApps admin center are now displayed in the Dynamics 365 admin center as Common Data Service. 
+
+## Filter by region
+
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+3. Choose the **Instances** tab.  
+4. Select a region to display instances for that region only.
+
+## Filter by instance type
+
+1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+3. Choose the **Instances** tab.  
+4. Select an instance type to display instances for that type only.
+
