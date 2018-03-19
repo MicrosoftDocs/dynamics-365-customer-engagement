@@ -20,8 +20,8 @@ When you first sign in to Dynamics 365 for phones and tablets, a pane slides in.
   
  From the workspace, you can instantly create new activities, records, and notes. It features a list of suggested priorities (“intelligent cards”) in the left column. These may include upcoming meetings, info relevant to that day’s activities, and other things that require attention, and are part of a suite of new features collectively called [Relationship Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/preview-feature-relationship-insights.aspx). The workspace also has a list of favorite and recent items. Items that appear in the **Recent** feed can be added to **Favorites** by hitting the star icon. You can also click on your profile picture to upload or capture a new one.  
   
- ![Workspace for mobile](../mobile-imports/media/workspace-mobile.png "Workspace for mobile")  
+ ![Workspace for mobile](../../../media/workspace-mobile.png "Workspace for mobile")  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)   
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)   
  [Preview feature: Relationship Insights](../admin/relationship-insights.md)

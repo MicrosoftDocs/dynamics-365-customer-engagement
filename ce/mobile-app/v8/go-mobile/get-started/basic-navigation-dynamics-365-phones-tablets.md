@@ -26,16 +26,16 @@ manager: "brycho"
   
  Tap the menu icon on the top of the page, then select the type of record you want to work with.  
   
- ![Dynamics 365 for phones and tablets nav bar](../mobile-imports/media/mobile-phone-navigation-bar.png "Dynamics 365 for phones and tablets nav bar")  
+ ![Dynamics 365 for phones and tablets nav bar](../../../media/mobile-phone-navigation-bar.png "Dynamics 365 for phones and tablets nav bar")  
   
 ## The command bar  
  You can add a new record, change views, or do other tasks from the command bar.  
   
- Just tap ![Dynamics 365 ellipsis](../mobile-imports/media/mobile-ellipsis.png "Dynamics 365 ellipsis") on the bottom right-hand corner of the page.  
+ Just tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis") on the bottom right-hand corner of the page.  
   
  You can also press and hold an item to display the command bar.  
   
- ![Dynamics 365 for mobile command bar](../mobile-imports/media/mobile-command-bar-phone.PNG "Dynamics 365 for mobile command bar")  
+ ![Dynamics 365 for mobile command bar](../../../media/mobile-command-bar-phone.PNG "Dynamics 365 for mobile command bar")  
   
  The command bar is context-sensitive, and the available commands change depending on where you are in the app. When you display the command bar for a specific item (when you press and hold the item), the commands that appear are relevant to that item.  
   
@@ -47,9 +47,9 @@ manager: "brycho"
   
  When you want to go back to your Home screen, tap **Home**.  
   
- ![Home screen in the Dynamics 365 mobile app](../mobile-imports/media/mobile-home-cent.png "Home screen in the Dynamics 365 mobile app")  
+ ![Home screen in the Dynamics 365 mobile app](../../../media/mobile-home-cent.png "Home screen in the Dynamics 365 mobile app")  
   
- To create new dashboards in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and enable them for use in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets, see [Create or customize dashboards](../customize/create-edit-dashboards.md).  
+ To create new dashboards in [!INCLUDE[pn_crm_shortest](../../../../../../../includes/pn-crm-shortest.md)] and enable them for use in [!INCLUDE[pn_crm_shortest](../../../../../../../includes/pn-crm-shortest.md)] for phones and tablets, see [Create or customize dashboards](../../../../customize/create-edit-dashboards.md).  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../../../../dynamics-365-phones-tablets-users-guide.md)

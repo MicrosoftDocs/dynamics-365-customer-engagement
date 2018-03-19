@@ -23,11 +23,11 @@ manager: "brycho"
 # Pin your favorites in Dynamics 365 for phones and tablets
 horizontaltabbed  
   
- Pinned tiles provide quick access to your records, contacts, views, and dashboards. You can pin as many tiles as you want to the Pinned Tiles section of your Home screen or to the Start screen or menu of [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] and [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)] devices.  
+ Pinned tiles provide quick access to your records, contacts, views, and dashboards. You can pin as many tiles as you want to the Pinned Tiles section of your Home screen or to the Start screen or menu of [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] and [!INCLUDE[pn_windows_10](../../../../includes/pn-windows-10.md)] devices.  
   
  Press and hold the item you want to pin, or display the command bar while viewing a record, and then tap **Pin to Home**.  
   
- ![Dynamics 365 for mobile pin tile](../mobile-imports/media/mobile-pin-tile.png "Dynamics 365 for mobile pin tile")  
+ ![Dynamics 365 for mobile pin tile](../../../media/mobile-pin-tile.png "Dynamics 365 for mobile pin tile")  
   
 <a name="bkmk4"></a>   
 #### Create a communication card  
@@ -35,7 +35,7 @@ horizontaltabbed
   
  Press and hold a contact tile that’s pinned to the dashboard, and then tap **Larger** on the command bar.  
   
- ![Dynamics 365 for mobile create communication card](../mobile-imports/media/mobile-create-comm-card.png "Dynamics 365 for mobile create communication card")  
+ ![Dynamics 365 for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for mobile create communication card")  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -26,7 +26,7 @@ manager: "brycho"
   
  Here's how to do it:  
   
-1.  Tap ![Dynamics 365 ellipsis](../mobile-imports/media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
+1.  Tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
   
 2.  Tap **Settings**.  
   
@@ -35,4 +35,4 @@ manager: "brycho"
  You can now sign in to a different server or organization.  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -65,5 +65,5 @@ Field agents can use the mobile app to review work orders and get all the inform
 3.  Enter the required information, and  then tap **Save**.  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)   
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)   
  [Dynamics 365 for Field Service - User's Guide](../field-service/user-guide.md)

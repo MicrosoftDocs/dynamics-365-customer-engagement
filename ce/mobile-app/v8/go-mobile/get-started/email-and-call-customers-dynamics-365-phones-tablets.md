@@ -25,13 +25,13 @@ horizontaltabbed
   
  Call or send email to your customers easily from the mobile apps. Tap any phone number in a record to start a call, or on the communication card for a contact, tap the email button to send an email, or the phone button to start a call.  
   
- ![Dynamics 365 for phones and tablets communication card](../mobile-imports/media/mobile-communication-card.png "Dynamics 365 for phones and tablets communication card")  
+ ![Dynamics 365 for phones and tablets communication card](../../../media/mobile-communication-card.png "Dynamics 365 for phones and tablets communication card")  
   
- In [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)], tapping the phone button starts a [!INCLUDE[pn_skype](../includes/pn-skype.md)] call. In [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)], it starts a phone call.  
+ In [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)], tapping the phone button starts a [!INCLUDE[pn_skype](../../../../includes/pn-skype.md)] call. In [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], it starts a phone call.  
   
- When you’re finished with your call, the app prompts you to enter details about the call. If you’re using a [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] or later tablet, you can enter details while you’re on the call, because [!INCLUDE[pn_skype](../includes/pn-skype.md)] snaps to the screen next to the [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app.  
+ When you’re finished with your call, the app prompts you to enter details about the call. If you’re using a [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] or later tablet, you can enter details while you’re on the call, because [!INCLUDE[pn_skype](../../../../includes/pn-skype.md)] snaps to the screen next to the [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app.  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)   
- [Pin your favorites in Dynamics 365 for phones and tablets](../mobile-imports/pin-favorites-dynamics-365-phones-tablets.md)   
- [Search and sort in Dynamics 365 for phones and tablets](../mobile-imports/search-sort-dynamics-365-phones-tablets.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)   
+ [Pin your favorites in Dynamics 365 for phones and tablets](../../../pin-favorites-dynamics-365-phones-tablets.md)   
+ [Search and sort in Dynamics 365 for phones and tablets](../../../search-sort-dynamics-365-phones-tablets.md)

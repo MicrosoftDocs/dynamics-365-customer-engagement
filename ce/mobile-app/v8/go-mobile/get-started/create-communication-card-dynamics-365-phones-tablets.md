@@ -24,7 +24,7 @@ Insert introduction here.
   
  Press and hold a contact tile that’s pinned to the dashboard, and then tap **Larger** on the command bar.  
   
- ![Dynamics 365 for mobile create communication card](../mobile-imports/media/mobile-create-comm-card.png "Dynamics 365 for mobile create communication card")  
+ ![Dynamics 365 for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for mobile create communication card")  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

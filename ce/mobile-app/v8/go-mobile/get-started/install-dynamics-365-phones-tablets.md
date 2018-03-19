@@ -36,10 +36,10 @@ manager: "brycho"
   
 |||  
 |-|-|  
-|**[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] app**<br /><br /> [![Download app from Windows Store](../mobile-imports/media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../mobile-imports/media/mobile-istore-button.png "Download app from the Apple App Store")](http://go.microsoft.com/fwlink/p/?LinkID=519213)<br /><br /> [![Get the app on Google Play](../mobile-imports/media/mobile-google-play-button.png "Get the app on Google Play")](http://go.microsoft.com/fwlink/p/?LinkID=519214)|**[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app**<br /><br /> [![Download app from Windows Store](../mobile-imports/media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../mobile-imports/media/mobile-istore-button.png "Download app from the Apple App Store")](http://go.microsoft.com/fwlink/p/?LinkID=313645)<br /><br /> [![Get the app on Google Play](../mobile-imports/media/mobile-google-play-button.png "Get the app on Google Play")](http://go.microsoft.com/fwlink/p/?LinkID=392774)|  
+|**[!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] app**<br /><br /> [![Download app from Windows Store](../../../media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../../../media/mobile-istore-button.png "Download app from the Apple App Store")](http://go.microsoft.com/fwlink/p/?LinkID=519213)<br /><br /> [![Get the app on Google Play](../../../media/mobile-google-play-button.png "Get the app on Google Play")](http://go.microsoft.com/fwlink/p/?LinkID=519214)|**[!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app**<br /><br /> [![Download app from Windows Store](../../../media/mobile-windows-store-black.png "Download app from Windows Store")](https://go.microsoft.com/fwlink/?linkid=838618)<br /><br /> [![Download app from the Apple App Store](../../../media/mobile-istore-button.png "Download app from the Apple App Store")](http://go.microsoft.com/fwlink/p/?LinkID=313645)<br /><br /> [![Get the app on Google Play](../../../media/mobile-google-play-button.png "Get the app on Google Play")](http://go.microsoft.com/fwlink/p/?LinkID=392774)|  
   
 ## Looking for a different version of the Dynamics 365 for phones app?  
- If your organization isn’t ready to use the latest [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] app, you may be able to  use the earlier version called [!INCLUDE[pn_crm_for_phones_express](../includes/pn-crm-for-phones-express.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Get started with Dynamics CRM for phones express](../mobile-imports/get-started-dynamics-crm-phones-express.md)  
+ If your organization isn’t ready to use the latest [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] app, you may be able to  use the earlier version called [!INCLUDE[pn_crm_for_phones_express](../../../../includes/pn-crm-for-phones-express.md)]. [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)][Get started with Dynamics CRM for phones express](../../../get-started-dynamics-crm-phones-express.md)  
   
 <a name="bkmk4"></a>   
 ## Help and how-to from TechNet  
@@ -52,9 +52,9 @@ manager: "brycho"
   
 <a name="bkmk5"></a>   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_crm_for_tablets](../includes/cc-privacy-crm-for-tablets.md)]  
+ [!INCLUDE[cc_privacy_crm_for_tablets](../../../../includes/cc-privacy-crm-for-tablets.md)]  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)   
- [Signing in and signing out on Dynamics 365 for phones and tablets](../mobile-imports/sign-in-out-dynamics-365-phones-tablets.md)   
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)   
+ [Signing in and signing out on Dynamics 365 for phones and tablets](../../../sign-in-out-dynamics-365-phones-tablets.md)   
  [TechNet: Phone and tablet support](https://technet.microsoft.com/library/dn531131.aspx)

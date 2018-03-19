@@ -22,7 +22,7 @@ manager: "brycho"
 ---
 # Manage activities in Dynamics 365 for phones and tablets
 ## My Activities  
- Use activities to keep track of all your customer communications. For example, during the course of a sale, you might send emails, make phone calls, set up appointments, or assign tasks. All of these are considered activities, and the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app helps you track them so you don’t miss an important follow-up activity.  
+ Use activities to keep track of all your customer communications. For example, during the course of a sale, you might send emails, make phone calls, set up appointments, or assign tasks. All of these are considered activities, and the [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets app helps you track them so you don’t miss an important follow-up activity.  
   
  On your dashboard, **My Activities** shows activities that are past due or due today in a darker color than those that aren’t. You can do the following from your activity feed:  
   
@@ -38,7 +38,7 @@ manager: "brycho"
   
     -   On a phone, tap **Select View** on the command bar.  
   
- ![Dynamics 365 for phones and tablets activity feed](../mobile-imports/media/mobile-activity-feed.png "Dynamics 365 for phones and tablets activity feed")  
+ ![Dynamics 365 for phones and tablets activity feed](../../../media/mobile-activity-feed.png "Dynamics 365 for phones and tablets activity feed")  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

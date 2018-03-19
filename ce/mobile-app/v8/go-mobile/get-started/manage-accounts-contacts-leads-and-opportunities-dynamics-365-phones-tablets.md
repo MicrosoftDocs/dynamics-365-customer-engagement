@@ -42,10 +42,10 @@ manager: "brycho"
   
 4.  Select a role for the contact.  
   
-     ![Stakeholders and sales team lists](../mobile-imports/media/stakeholders-and-sales-team-lists.gif "Stakeholders and sales team lists")  
+     ![Stakeholders and sales team lists](../../../media/stakeholders-and-sales-team-lists.gif "Stakeholders and sales team lists")  
   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_moca_user_content_and_location](../includes/cc-privacy-moca-user-content-and-location.md)]  
+ [!INCLUDE[cc_privacy_moca_user_content_and_location](../../../../includes/cc-privacy-moca-user-content-and-location.md)]  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

@@ -20,9 +20,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Use Cortana voice commands in Dynamics 365 for phones
-You can use the following [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] voice commands with [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] if you’re using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] on [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] phones or later. [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] voice commands for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] are only available in English at this time.  
+You can use the following [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] voice commands with [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)] if you’re using [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)] on [!INCLUDE[pn_windows_8_1](../../../../includes/pn-windows-8-1.md)] phones or later. [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)] voice commands for [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] are only available in English at this time.  
   
- These commands work with either the [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] app or the previous phone app, [!INCLUDE[pn_crm_for_phones_express](../includes/pn-crm-for-phones-express.md)].  
+ These commands work with either the [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] app or the previous phone app, [!INCLUDE[pn_crm_for_phones_express](../../../../includes/pn-crm-for-phones-express.md)].  
   
 |To do this in Dynamics 365|Say this|  
 |--------------------------------|--------------|  
@@ -36,16 +36,16 @@ You can use the following [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest
 |Open task list|**Dynamics 365 what should I do next?**<br /><br /> *Example:*<br /><br /> “CRM what should I do next?”|  
   
 > [!NOTE]
->  The **create** commands work only with [!INCLUDE[pn_crm_2015_and_online_full](../includes/pn-crm-2015-and-online-full.md)] or later. The other commands work with [!INCLUDE[pn_crm2013_and_online](../includes/pn-crm2013-and-online.md)] as well as [!INCLUDE[pn_crm_2015_and_online_full](../includes/pn-crm-2015-and-online-full.md)] or later.  
+>  The **create** commands work only with [!INCLUDE[pn_crm_2015_and_online_full](../../../../includes/pn-crm-2015-and-online-full.md)] or later. The other commands work with [!INCLUDE[pn_crm2013_and_online](../../../../includes/pn-crm2013-and-online.md)] as well as [!INCLUDE[pn_crm_2015_and_online_full](../../../../includes/pn-crm-2015-and-online-full.md)] or later.  
   
- For more information about using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)], see [Meet Cortana](http://go.microsoft.com/fwlink/p/?LinkID=401573).  
+ For more information about using [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)], see [Meet Cortana](http://go.microsoft.com/fwlink/p/?LinkID=401573).  
   
- [![Left arrow icon](../mobile-imports/media/left-arrow-blue-circle.png "Left arrow icon")](track-customer-service-cases-in-crm-for-phones-and-tablets.aspx) [Track customer service cases](track-customer-service-cases-in-crm-for-phones-and-tablets.aspx)  
+ [![Left arrow icon](../../../media/left-arrow-blue-circle.png "Left arrow icon")](track-customer-service-cases-in-crm-for-phones-and-tablets.aspx) [Track customer service cases](track-customer-service-cases-in-crm-for-phones-and-tablets.aspx)  
   
- [Get help](get-help-for-crm-for-phones-and-tablets.aspx) [![Right arrow icon](../mobile-imports/media/right-arrow-blue-circle.png "Right arrow icon")](get-help-for-crm-for-phones-and-tablets.aspx)  
+ [Get help](get-help-for-crm-for-phones-and-tablets.aspx) [![Right arrow icon](../../../media/right-arrow-blue-circle.png "Right arrow icon")](get-help-for-crm-for-phones-and-tablets.aspx)  
   
 #### Privacy notice  
- [!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)]  
+ [!INCLUDE[cc_privacy_crm_cortana](../../../../includes/cc-privacy-crm-cortana.md)]  
   
 ## See Also  
  [Mobile User’s Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md)   

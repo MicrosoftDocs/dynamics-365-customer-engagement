@@ -22,11 +22,11 @@ manager: "brycho"
 ---
 # Signing in and signing out on Dynamics 365 for phones and tablets
 ### Signing in and signing out  
- To sign in, you’ll need your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web address, user name, and password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admin.  
+ To sign in, you’ll need your [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web address, user name, and password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] admin.  
   
-1.  Open your app, enter your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics Dynamics 365 for phones and tablets continue sign](../mobile-imports/media/mobile-signin-arrow.png "Dynamics Dynamics 365 for phones and tablets continue sign").  
+1.  Open your app, enter your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web address, and tap ![Dynamics Dynamics 365 for phones and tablets continue sign](../../../media/mobile-signin-arrow.png "Dynamics Dynamics 365 for phones and tablets continue sign").  
   
-     ![Enter URL to sign into Dynamics 365 for phones and tablets](../mobile-imports/media/mobile-signin-enter-url.png "Enter URL to sign into Dynamics 365 for phones and tablets")  
+     ![Enter URL to sign into Dynamics 365 for phones and tablets](../../../media/mobile-signin-enter-url.png "Enter URL to sign into Dynamics 365 for phones and tablets")  
   
 2.  On the next screen, enter your user name and password, and tap **Sign in**.  
   
@@ -34,7 +34,7 @@ manager: "brycho"
   
  Here's how to sign out in case someone else needs to use your device.  
   
-1.  From your Home page, tap ![Dynamics 365 ellipsis](../mobile-imports/media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
+1.  From your Home page, tap ![Dynamics 365 ellipsis](../../../media/mobile-ellipsis.png "Dynamics 365 ellipsis").  
   
 2.  Tap **Settings**.  
   
@@ -43,4 +43,4 @@ manager: "brycho"
  You can sign in again as the same or a different user, or you can sign in to a different organization.  
   
 ## See Also  
- [Dynamics 365 for Phones and Tablets User's Guide](../mobile-imports/dynamics-365-phones-tablets-users-guide.md)
+ [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
