@@ -2,7 +2,7 @@
 title: "Learn about what's new in Microsoft Dynamics 365 - Gamification and the issues addressed by the team. | Microsoft Docs"
 description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 - Gamification."
 keywords: "what's new, release notes, fixed issues, dynamics 365 gamification"
-ms.date: 10/12/2017
+ms.date: 03/19/2018
 ms.service: gamification
 ms.topic: article
 applies_to:
@@ -21,6 +21,36 @@ Welcome to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Here's a
 If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], see [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md).
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
+
+## Update 2018.2.11
+
+### New or improved features
+
+- The shortcut to help articles is now accessible when using a keyboard for navigation.
+
+- Images throughout the solution and web portal now have proper alt text.
+
+- Additional information about certain fields and controls are now accessible when using a keyboard for navigation.
+
+- Screen readers now read the label of a checkbox when selected.
+
+#### Solution
+
+- Newly assigned Game Manager roles in Dynamics 365 now sync automatically with the Gamification web portal. Administrators don't need to manually trigger an update of the user data after updating the solution to at least version 2018.2.9.
+
+## Update 2018.2.9
+
+### Resolved issues
+
+- Screen readers now read labels of radio buttons and checkboxes when configuring KPIs in a Unified Interface app. 
+
+- Screen readers now threat navigation elements consistently in all web applications.
+
+- Buttons in Gamification settings can no longer be selected when they're disabled.
+
+- Drop-down menus on the KPI form in Unified Interface apps now shows proper values to choose from.
+
+- To avoid server timeout, the user synchronization workflow now has more time to complete. 
 
 ## Update 2017.10
 
