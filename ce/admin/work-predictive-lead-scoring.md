@@ -32,9 +32,11 @@ The following screen displays a typical view with a list of lead that consist of
 ![My open leads scored view](../admin/media/my-open-lead-score-view.png "My open leads scored view")
 
 1.	**Lead Score:** Specifies the value that is representative of the likelihood of the lead to convert into an opportunity.  
-2.	**Lead Grade:** Specifies the grades of a lead that are categorized into A, B, C, and D with colors Green, Orange, Yellow, and Red respectively where Grade A (Green) is the lead with highest likelihood for conversion into an opportunity followed by Grade B (Orange), Grade C (Yellow), and Grade D (Red). <br>
+2.	**Lead Grade:** Specifies the grades of a lead that are categorized into A, B, C, and D with colors Green, Orange, Yellow, and Red respectively where Grade A (Green) is the lead with highest likelihood for conversion into an opportunity followed by Grade B (Orange), Grade C (Yellow), and Grade D (Red).
+
     >   [!NOTE]
     >   A system administrator can define lead score ranges for a grade depending on the organizational requirements. 
+
 3.	**Lead Score Trend:** Specifies the direction in which a lead is trending such as Increasing (up arrow), Decreasing (down arrow), Steady (right arrow), or Not enough info. These trends are displayed by comparing the present lead score with previous. For example, score of a lead was 65 and the present score is decreased to 45, a down arrow is displayed in the Lead Score Trend column specifying that the lead is losing traction and needs some action from you to improve the score.  
 
 ## Understand lead score widget in forms
