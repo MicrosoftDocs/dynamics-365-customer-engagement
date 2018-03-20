@@ -74,7 +74,7 @@
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 # [Manage instances](manage-online-instances.md)
-## [What's new](new-instance-management.md)
+## [What's new with instance management](new-instance-management.md)
 ## [Sandbox](manage-sandbox-instances.md)
 ## [Add instance](add-instance-subscription.md)
 ## [Switch instance](switch-instance.md)
