@@ -72,21 +72,11 @@ manager: "brycho"
  ![Office 365 Admin Center Message Center](../admin/media/office-365-admin-center-message-center.png "Office 365 Admin Center Message Center")  
   
 <a name="BKMK_ServiceRequest"></a>   
-## Request service  
- Having a problem with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? You can create a service request to get the issue resolved.  
+## Request support  
+ Having a problem with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? You can create a support request to get the issue resolved.  
   
-### Create a Dynamics 365 (online) service request  
-  
-1.  Sign in to the [Office 365 admin center](https://portal.office.com).  
-  
-2.  In the left-side menu, choose **Support** > **Service requests**, and then click **Add** (![Add properties button](../admin/media/add-properties.png "Add properties button")).  
-  
-3.  Under **Create a service request**, click **Dynamics 365**. You may need to expand the list by choosing **More**.  
-  
-4.  Fill in the information and submit your request.  
-  
- ![Office 365 admin center service request](../admin/media/o365-admin-center-request-service.PNG "Office 365 admin center service request")  
-  
+More information: [Contact Technical Support](contact-technical-support.md)
+
 <a name="BKMK_ManageUsers"></a>   
 ## Manage users  
  Each user signs in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID (more precisely, an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID, see the following Note). Access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is controlled through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID.  

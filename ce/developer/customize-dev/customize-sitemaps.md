@@ -31,7 +31,7 @@ The SiteMap provides the structure for navigation in [!INCLUDE[pn_dynamics_crm](
   
  You can use the `SiteMap.IsAppAware` attribute to distinguish between the two types of site maps: 0 indicates the default site map; 1 indicates the app-specific site map.  
   
- You can edit the default and app-specific site maps to change the application navigation, edit labels, add or change icons, or add or remove elements. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Change application navigation using the SiteMap](/developer/customize-dev/change-application-navigation-using-sitemap.md)  
+ You can edit the default and app-specific site maps to change the application navigation, edit labels, add or change icons, or add or remove elements. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Change application navigation using the SiteMap](change-application-navigation-using-sitemap.md)
   
  You can use a site map editor or programmatically update site map. 
   

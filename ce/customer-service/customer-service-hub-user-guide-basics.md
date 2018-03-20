@@ -6,7 +6,7 @@ author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/30/2017
+ms.date: 02/20/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
@@ -15,13 +15,8 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
 # Learn the basics of the Customer Service Hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
-
-<a name="bkmk_Basics"></a> 
   
- The Customer Service Hub’s intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
-
-  
-<a name="bkmk_support"></a>   
+The Customer Service Hub’s intuitive interface brings together vital information in one place, so you can focus on the things that matter.  
 
 ## Customer Service Hub application requirements  
  Here’s a list of operating systems and browsers that are supported by the Customer Service Hub:  
@@ -39,10 +34,8 @@ ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
     - Android - Tablet + Phone (Android 6 and 7)
     - Windows 10 
 
-<a name="bkmk_Access"></a>
-
 ## Open the Customer Service Hub
-The Customer Service Hub app is available to use on a desktop browser for managing knowledge articles, and on mobile devices for case management.  You can open the Customer Service Hub in the following ways:  
+The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in the following ways:  
 
 > [!NOTE]
 >  These options are available only to users with the Customer Service app access role , System Administrator role, or System Customizer role. 
@@ -69,8 +62,6 @@ To access the Customer Service Hub app on a mobile device:
 
    ![choose-on-mobile](media/ChooseAnApp_1.png)
 
-  
-<a name="bkmk_supportedEntities"></a>   
 
 ## Work with case management record types, dashboards, and tools  
  In the Customer Service Hub, you will find everything you need to easily manage customer service at your organization:  
@@ -91,8 +82,6 @@ Any record types that are enabled for mobile are also available for use in the C
 > [!NOTE]
 > The navigation bar for the Customer Service Hub is different from the navigation bar in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application.   
 
-  
-<a name="bkmk_understandsitemapnavigation"></a>   
 
 ## Understand the sitemap navigation
   
@@ -121,17 +110,15 @@ Any record types that are enabled for mobile are also available for use in the C
 For a mobile device, the sitemap is displayed as illustrated in the following image:
 
 ![mobile-sitemap](media/mobile-sitemap.png)
-  
-<a name="bkmk_SwitchToDashboard"></a>   
+
 
 ## Open the default dashboard for a record type
 When you’re viewing the list of records for a specific record type, select **Open Dashboards** in the command bar to switch to the default dashboard for that record type. 
 
 To return to the list of records, select **Open Views** in the command bar.
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md#bkmk_UseDashboards)
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
   
-<a name="bkmk_NextPreviousRecords"></a>  
  
 ## Navigate through records and pages  
   
@@ -144,8 +131,6 @@ To return to the list of records, select **Open Views** in the command bar.
   
 -   To go the previous page in the Customer Service Hub, click the browser’s **Back** button. 
    
-  
-<a name="bkmk_CreateOrFindRecords"></a>
    
 ## Quickly create new records
   
@@ -154,14 +139,9 @@ To return to the list of records, select **Open Views** in the command bar.
   > [!TIP]
   > On a mobile device, from the nav bar, tap ![ellipsis](media/ellipsis.png) and then tap **Quick Create Menu**.
 
-  
-<a name="bkmk_EmailLink"></a>   
 
 ## Email a link  
 You can email links to records so your colleagues can quickly find these records by selecting the links. To email links to records, select one or more records in the list, and then on the command bar, select **Email a link**. The default email client opens with the links to these records. The recipients will see all content in the records for which they have permission.  
-
-  
-<a name="bkmk_NewForms"></a>   
 
 ## Know your forms
 Forms are designed to help you quickly handle important customer service tasks and complete actions from a single place.
@@ -186,8 +166,6 @@ If there is more than one process to follow, you can switch between them by sele
 -   The **Switch Process** option only shows business process flows that are based on a single entity.  
   
 -   If there are only multi-entity business process flows for an entity, the **Switch Process** option isn't available.  
-  
-<a name="bkmk_Tabs"></a>
 
 ### **Tabs**  
  A tab is a group of sections on a page. Each case form is composed of one or more tabs. By default, the **Summary** tab shows information about the customer, interactions with the customer, and other related records. You can select different tabs to enter or see other miscellaneous details of a record.  
@@ -206,8 +184,6 @@ For example, here’s a view of how the tabs appear on the case form:
 |Activities|Activity forms shows a tab called Task for the respective activity and a Related tab for common entities. |  
 |Knowledge Articles|**Content**. Lets you write and edit the content for the article.<br />**Summary**. Tracks basic settings, Timeline, publishing settings, and related information.<br />**Analytics**. Shows the number of views, feedback, and a list of cases using the article.<br />**Related**. Shows related common entities.|  
 |Social Profiles|**Social Profile**. Captures general information, and social profile details along with related social profiles.<br />**Related**. Shows related common entities.|  
-  
-<a name="bkmk_ContactCard"></a> 
 
 ### **Contact card**  
  See a complete view of your customer’s touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
@@ -217,8 +193,6 @@ For example, here’s a view of how the tabs appear on the case form:
  You can add a picture to the account or contact record in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
  For account records, the card shows contact details for the primary contact associated with the account. For contact records, the card appears if the contact is the customer value on the case form.  
-  
-<a name="bkmk_Timeline"></a>  
 
 ### **Timeline**  
  See a combined view of your customer’s interactions across various channels, such as phone, email, or even social activities in the Timeline. The Timeline also shows any related notes or system posts.  The Timeline makes collaboration with other users easy and efficient.
@@ -248,8 +222,6 @@ The Timeline is available on the **Summary** tab for account, contact, case reco
   
 -   Take quick actions on an activity from the timeline, such as marking an activity complete, assigning it to others, adding it to a queue, converting it to a case, or deleting it.   
 -   Sort the entries by latest or oldest entry.
-  
-<a name="bkmk_RelatedPane"></a>   
 
 ### **Related section**  
 In the **Related** section (also known as Reference panel), use the tabs to see related records for the current record. This section is enabled by default for account, contact, case, and knowledge article records. Your customizer can add this section for all entities (including custom entities) that are enabled for interactive experience.
@@ -268,6 +240,10 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 ![similar-cases](media/similar-cases.png)
 
+ Watch this video to learn more about the Reference Panel in the Customer Service Hub:
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
+
 > [!NOTE]
 > You can configure rules that help you view similar cases based on automatic suggestions. These rules can be created using either the Cognitive Services Text Analytics or a built-in similarities matching engine in Dynamics 365. For more information, see [Create similar record suggestion rules](../admin/public-preview-microsoft-cognitive-services-integration.md#create-similar-record-suggestion-rules).
 
@@ -278,7 +254,7 @@ Similarly,
 - For **Knowledge articles** records, select an article and go to the **Summary** tab to view the **Related Information** panel. Here you can view Related versions, Related translations, Related categories, Related articles, and Related products for an article.
 
 > [!NOTE]
-> Your system administrator or customizer can choose if Related section should be included in a form or not. They can also decide on what related data should be displayed in the section for each form.
+> Your system administrator or customizer can choose if Related section should be included in a form. They can also decide on what related data should be displayed in the section for each form.
 
 #### Reference Panel reflow
 The Customer Service Hub is available to use on a desktop browser, and on a mobile device. Depending on the zoom level and the resolution of the system on which you are accessing the hub interface, the Reference panel adjusts the tabs and records for an optimum experience.
@@ -290,8 +266,6 @@ For example, on a browser, if you zoom in to about 100% or more, the tabs get do
 Similarly, if you zoom out to about 60-70%, the records appear in grid form.
 
 ![reference-panel-zoomout](media/rp-grid-zoomout.png)
-
-<a name="bkmk_activities"></a>   
 
 ## Understand Activities
 
@@ -327,8 +301,6 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 - Select **...** in the command bar and go to **Open Dashboards** to directly open activity dashboard.
 
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
-
-<a name="bkmk_queues"></a>   
 
 ## Manage Queues
 

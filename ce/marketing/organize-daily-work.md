@@ -2,7 +2,7 @@
 title: "Manage your everyday activates (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Stay on top of your daily workload with dashboards, activities, and teams in Dynamics 365 for Marketing"
 keywords: "activity; dashboard; task; phone call; appointment"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Organize your daily work
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 You can use common features of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to organize your daily work, including using dashboards to get an overview of your most important information, planning and recording activities (such as appointments, tasks, and phone calls), creating new records quickly, and assigning records (including activities) to a user or a team.
 

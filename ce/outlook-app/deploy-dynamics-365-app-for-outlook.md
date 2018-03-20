@@ -1,7 +1,7 @@
 ---
 title: "Preview feature: Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/28/2017
+ms.date: 02/28/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -75,7 +75,7 @@ For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](..
 
 There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
 
-<a name="BKMK_Requirements"></a>   
+
 
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
@@ -116,7 +116,7 @@ Customization tab:
   
 - **View**  
   
-##### Set the privileges for a security role  
+#### Set the privileges for a security role  
 
 For example, to set privileges for the Mailbox entity:
   
@@ -150,7 +150,7 @@ For example, to set privileges for the Mailbox entity:
 #### Windows desktop
 - Outlook 2013 (desktop client)*
 - Outlook 2016 (desktop client)
-- Outlook on the web on Internet Explorer 11, Edge, and Chrome
+- Outlook on the web on Internet Explorer 11, Microsoft Edge, and Chrome
 
 *[Support for 2013 versions of Office 365 ProPlus ended February 28, 2017.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28)
 
@@ -174,6 +174,27 @@ For example, to set privileges for the Mailbox entity:
 - Not supported
 
 Check back later for updates on supported platforms.
+
+### Feature support per client
+
+||||||
+|-|-|-|-|-|
+| |Received email<br />(view information and track)|Compose email<br />(view information, track, <br />and add templates, <br />knowledge base articles, <br />and sales literature)|Appointments and meetings <br />(view information and track)|Contacts<br />(view information and track)|
+|[!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> |O<sup>3</sup>  and M<sup>2</sup> |
+|[!INCLUDE [pn-ms-outlook-2013-short](../includes/pn-ms-outlook-2013-short.md)]  (desktop client)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
+|Outlook for Mac (desktop client)|O and M||||
+|[!INCLUDE [pn-outlook-web-app](../includes/pn-outlook-web-app.md)] (OWA)|O and M|O and M<sup>1</sup> |O and M<sup>1</sup> ||
+|Mobile Outlook app<sup>4</sup>|O||||
+
+(O)nline: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], [!INCLUDE [pn-exchange-online](../includes/pn-exchange-online.md)] <br />
+(M)ixed: [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)], Exchange Server 2013/2016
+
+Note: Dynamics 365, version 9 is not available on-premises.
+
+(1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
+(2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 or later. <br />
+(3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
+(4) Supported on iPhones 6S or higher, with iOS 8 or higher.
 
 <!--
 

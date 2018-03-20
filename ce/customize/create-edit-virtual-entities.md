@@ -120,18 +120,22 @@ You create fields for a Data Source in the same way as any other entity. For dat
 -   All virtual entitites are read-only.  
 
 -   Existing entities cannot be converted to virtual entities.  
-  
+
+-   By default, virtual entities contain only a Name and Id field.  No other system managed fields, such as Status or Created On/Modified On are supported.
+
+-   Virtual entities don't support custom fields with the Currency, Image, or Customer data types.
+  
 -   Virtual entities don't support auditing.  
-   
--   Virtual entity fields can't be used in rollups or calculated fields.  
-  
+
+-   Virtual entity fields can't be used in rollups or calculated fields.
+  
 -   A virtual entity can't be an activity type of entity.  
   
 -   Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 web portal solutions, and N:N relationships between virtual entities.  
   
 -   Virtual entities are organization owned and don't support the row-level [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] security concepts. We recommend that you implement your own security model for the external data source.  
   
--   We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, we don't recommend you create an  Advanced Find that ultimately creates a join between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] native data and the virtual entity external data.  
+-   We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] native data and the virtual entity external data isn't supported.  
    
 - Field metadata properties that validate on update don’t apply to virtual entities. For example, a Whole Number field on a virtual entity field may be set to have a minimum value of zero. However, since the value is coming from an external data source, a query will return values less than zero when retrieved from a virtual entity.  The minimum value property is not implied in the query.  You would still need to filter the values to be greater than 0 if that’s what is desired.
 

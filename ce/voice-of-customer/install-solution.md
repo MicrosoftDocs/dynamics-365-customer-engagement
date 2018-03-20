@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
-ms.date: 11/13/2017
+ms.date: 02/20/2017
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -18,34 +18,10 @@ topic-status: Drafting
 
 # Install the Voice of the Customer solution
 
-This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions earlier than 9.0, and also the latest version. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
+This section provides you the steps to install the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solutions. If you're an administrator, you can find the version by going to **Settings** &gt; **Solutions**.
 
 > [!NOTE] 
 > Surveys aren't supported on legacy forms.
-
-## Install the Voice of the Customer solution, versions earlier than 9.0
-
-Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] is a preferred solution that you install from [!INCLUDE[pn-ms-office](../includes/pn-ms-office.md)] 365. More information about how to install preferred solutions: [Install a preferred solution](https://technet.microsoft.com/en-us/library/dn878909)  
-
-> [!NOTE] 
-> If you're using Voice of the Customer version 9.0.781.3 or earlier, maximum number of survey responses you can pull per day is **2,400**.
-
-### Enable and configure Voice of the Customer
-
-After you've installed the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] preferred solution, you need to enable and configure it in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
-
-1.  Go to **Settings** &gt; **Customizations**.
-
-2.  Select **Solutions**.
-
-3.  In the list of available solutions, select **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
- 
-4.  In the **Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] Configuration** screen, select **I agree to the terms and conditions** and select **Enable Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]**.
-
-When the configuration is complete, you can start using the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] solution.
-
-> [!IMPORTANT]
-> The Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] preferred solution connects to an external service that isn't completely within the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] compliance boundary.
 
 ## Install the Voice of the Customer solution, version 9.0 and later
 
@@ -69,6 +45,14 @@ When the configuration is complete, you can start using the Voice of the Custome
 
 6.  Select **Install**.
 
+When you install Voice of the Customer, a VOC Push Service user is created automatically. This user is created to allow Voice of the Customer Azure service to authenticate with Dynamics 365 using Server-to-Server (S2S) authentication. The VOC Push Service user is an application user and does not consume any license. The user is assigned Survey Administrator role. More information on S2S authentication: [Server-to-Server (S2S) authentication](https://msdn.microsoft.com/en-us/library/mt790168.aspx).
+
+> [!NOTE]
+> The VOC Push Service user runs only with minimum required privileges to communicate to Voice of the Customer Azure service, and if your organization deploys a custom plugin that runs on the Survey Response entity, you are advised to do either of following:
+> - Run the Custom Plugin in System User Context.
+> - Create a custom role with privileges required by custom plugin operations and assign the security role to Voice of the Customer application user.
+
+
 ### Track the installation status 
 
 1.  Go to the [!INCLUDE[pn-crm-online-admin-center](../includes/pn-crm-online-admin-center.md)], and then select the **Instances** tab.
@@ -81,8 +65,10 @@ When the configuration is complete, you can start using the Voice of the Custome
 > -   Maximum number of surveys you can publish: **200**
 > -   Maximum number of questions on a survey: **250**. If you've enabled feedback for a survey, the maximum is 40 questions.
 > -   Maximum number of pages per survey: **25**
+> -   Maximum number of sections per page: **10**
 > -   Maximum number of email invitations that you can send that include piped data in a 24-hour period: **50,000**. If you create more email invitations than the specified limit, an error message is displayed.
 
+> If you want to install Voice of the Customer solution version earlier than 9.0, see [here](voc-faq.md#how-to-install-voice-of-the-customer-solution-earlier-than-90).
 
 
 ### See also
