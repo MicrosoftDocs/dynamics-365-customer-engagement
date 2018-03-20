@@ -42,11 +42,10 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
   
 -   How long does it take our team to respond?  
   
-Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and is only available in North American sites using US English (en-us). Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable this preview feature, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
+Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to install and enable this feature, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
 > [!IMPORTANT]
 > **Browser requirements during preview:** The preview version of relationship analytics requires  the latest version of either [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]. support for additional browsers is expected for the final release.  
-  
  A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
 > [!IMPORTANT]
@@ -54,18 +53,24 @@ Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_
   
  Relationship analytics is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](../admin/embedded-intelligence.md)  
   
-<a name="Feedback"></a>   
+<a name="Feedback"></a>
+
 ## Send us feedback  
+ 
  We are making this preview available so that you can try it and let us know what you think. Your feedback will help us prioritize work to include the capabilities you need most. We ask that you give us your suggestions and report problems by using our publicly available feedback site: [Microsoft Ideas](https://go.microsoft.com/fwlink/p/?LinkId=825778)  
   
 <a name="ListView"></a>   
+
 ## Get the big picture with relationship analytics in list views  
+
  Relationship analytics provides an activity history, KPIs, health score, and health trend for contact, opportunity, lead, and account records. The most important KPIs (including your team's previous and next activity related to each record) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
   
  ![Relationship health details in a grid view](../admin/media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
   
 <a name="BubbleChart"></a>   
+
 ## Identify critical opportunities with the relationship pipeline view  
+
  The relationship pipeline view provides a bubble chart that gives you a quick overview of the health, close date, and estimated revenue for your upcoming opportunities. To view it:  
   
 1.  Go to **Sales** > **Opportunities**.  
@@ -128,6 +133,7 @@ The figure highlights the following relationship analytics elements:
 <a name="Calculations"></a>   
 
 ## How relationship analytics values are calculated  
+
  Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and emails stored on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores  is summarized in the following figure.  
   
  ![How relationship analytics are calculated](../admin/media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")  
@@ -137,6 +143,7 @@ The figure highlights the following relationship analytics elements:
 <a name="Calc_FindContacts"></a>   
 
 ### Step 1: Find contacts of interest for the record  
+
  Relationship analytics is concerned with activities performed by the *people* associated with a given record. The first step in finding the relevant activities is to find out which contacts to include in the analysis. Relationship analytics also provides time-spent values for you, your team, and your customer's team, so the identify of who did what remains important throughout the process.  
   
  The following table shows how the system finds contacts that have an interest in each type of record. Later, the system will look for activities associated with each  identified contact and decide which of those activities should be included in KPI calculations for that record.  
@@ -151,6 +158,7 @@ The figure highlights the following relationship analytics elements:
 <a name="Calc_FindActivities"></a>   
 
 ### Step 2: Link activities to the record  
+
  Once the system has identified contacts of interest (as described in the previous section), it looks for activities associated with each of those contacts, and then identifies which of these activities to include in the relationship analytics for the record you are looking at. It identifies relevant activities as follows:  
   
 - **Regarding records**: Any activity that has its **Regarding** value set to the current record is explicitly assigned to it, and will always be included in its relationship analytics, even if that activity isn't also associated with a contact of interest.  
@@ -164,6 +172,7 @@ The figure highlights the following relationship analytics elements:
 <a name="Calc_Examples"></a>   
 
 ### Examples of how relevant activities are identified  
+
  Here are a few examples of how the rules outlined in the previous sections might be applied:  
   
 -   If you are assigned to a lead and register a phone-call activity with one of the stakeholders for that lead, then that phone call will be counted among the KPIs for that lead. Other users who call that same stakeholder, but who are not assigned to the lead, will not have their calls counted among the KPIs for that lead.  
@@ -175,6 +184,7 @@ The figure highlights the following relationship analytics elements:
 <a name="Calc_KPIs"></a>   
 
 ### Step 3: Compute relationship analytics KPIs  
+
  After the system has found all of the relevant activities, it's ready to calculate the KPIs  and other analytics for each record. The following table summarizes the KPIs that are available.  
   
 ||Initiated or completed by your team|Initiated or completed by the customer's team|  
@@ -208,6 +218,7 @@ The figure highlights the following relationship analytics elements:
 <a name="Calc_Health"></a>   
 
 ### Step 4: Compute the relationship health and health trend  
+
 The overall relationship health score is calculated by collecting the relevant activities, applying weightings by activity type (which enable your admin to set some types of activities to count more than others). The result is normalized to produce a health score between 0 and 100, and the health characterized as *good* (for a score of 60-100), *fair* (40-59) or *poor* (0-39).  
 
 Note the following:
@@ -230,4 +241,4 @@ In addition to the absolute health score, the system also reports the general tr
 [!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
   
 ### See also  
- [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)   
+ [What are Preview features?](what-are-preview-features-how-do-i-enable-them.md)   
