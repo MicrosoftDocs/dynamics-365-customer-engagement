@@ -229,14 +229,13 @@
 ## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
-# [Preview feature: Relationship Insights](relationship-insights.md)
-## [Preview feature: Overview](relationship-insights-overview.md)
-## [Preview feature: Configure](configure-relationship-insights-features.md)
+# [Embedded intelligence](embedded-intelligence.md)
+## [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
 ## [Preview feature: Relationship assistant](relationship-assistant.md)
 ## [Preview feature: Action cards reference](action-cards-reference.md)
 ## [Preview feature: Email engagement](email-engagement.md)
 ## [Preview feature: Auto capture](auto-capture.md)
-<!-- ## [Preview feature: Relationship analytics](relationship-analytics.md) -->
+## [Preview feature: Relationship analytics](relationship-analytics.md)
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)
 

@@ -31,12 +31,12 @@ A preview feature is a feature that is not complete, but is made available befor
 > [!IMPORTANT]
 >  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   
-Auto capture is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Relationship Insights overview](../admin/relationship-insights-overview.md)  
+Auto capture is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](../admin/embedded-intelligence.md)  
   
 <a name="GettingStarted"></a>   
 
 ## Getting started  
- The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+ The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
 <a name="ViewAndTrack"></a>   
 

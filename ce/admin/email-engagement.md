@@ -43,7 +43,7 @@ Email engagement lets you:
 > [!IMPORTANT]
 >  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   
- Email engagement is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Preview feature: Relationship Insights overview](../admin/relationship-insights-overview.md)  
+ Email engagement is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Embedded intelligence](../admin/embedded-intelligence.md)  
   
 > [!NOTE]
 >  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] even when the feature is turned off. These include:  
@@ -58,7 +58,7 @@ Email engagement lets you:
 <a name="GettingStarted"></a>   
 
 ## Getting started  
- The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+ The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
 <a name="HowTrackingWorks"></a>   
 
@@ -176,7 +176,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
 ### Add followed attachments  
   
 > [!NOTE]
->  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md)  
+>  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)  
   
  Followed attachments can tell you when a recipient opens an attachment. To add one or more followed attachments:  
   

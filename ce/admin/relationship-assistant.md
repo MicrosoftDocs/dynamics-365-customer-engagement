@@ -24,19 +24,19 @@ The relationship assistant is part of the new *Relationship Insights* suite of f
   
 [Watch a short video (2:25) about the Dynamics 365 Relationship Assistant](https://go.microsoft.com/fwlink/p/?linkid=839677).  
 
-The relationship assistant is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and is only available in North American sites that use US English (en-us). Some basic features of the relationship assistant are also available in the [!INCLUDE[pn_crm_8_2_0_op](../includes/pn-crm-8-2-0-op.md)]. Additional restrictions apply, depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running.  For complete details about how to enable this preview feature, plus version requirements, prerequisites, and any known issues, see [Preview feature: Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+The relationship assistant is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and is only available in North American sites that use US English (en-us). Some basic features of the relationship assistant are also available in the [!INCLUDE[pn_crm_8_2_0_op](../includes/pn-crm-8-2-0-op.md)]. Additional restrictions apply, depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running.  For complete details about how to enable this preview feature, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
 A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
 > [!IMPORTANT]
 >  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   
-The relationship assistant is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Relationship Insights overview](../admin/relationship-insights-overview.md)  
+The relationship assistant is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](../admin/embedded-intelligence.md)  
   
 <a name="GettingStarted"></a>   
 
 ## Getting started  
- The administrator must enable the relationship assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+ The administrator must enable the relationship assistant before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
  Before using relationship assistant, you must first activate it. Browse to a dashboard that supports relationship assistance such as the Sales Activity Social dashboard and click **Let's Go!**  
   

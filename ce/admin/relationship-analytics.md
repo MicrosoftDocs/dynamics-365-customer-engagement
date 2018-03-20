@@ -42,7 +42,7 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
   
 -   How long does it take our team to respond?  
   
-Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and is only available in North American sites using US English (en-us). Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable this preview feature, plus version requirements, prerequisites, and any known issues, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and is only available in North American sites using US English (en-us). Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable this preview feature, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
 > [!IMPORTANT]
 > **Browser requirements during preview:** The preview version of relationship analytics requires  the latest version of either [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]. support for additional browsers is expected for the final release.  
@@ -52,7 +52,7 @@ Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_
 > [!IMPORTANT]
 > Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
   
- Relationship analytics is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship Insights overview](../admin/relationship-insights-overview.md)  
+ Relationship analytics is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](../admin/embedded-intelligence.md)  
   
 <a name="Feedback"></a>   
 ## Send us feedback  
