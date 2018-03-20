@@ -1,5 +1,5 @@
 ---
-title: "Changes coming for legacy Adxstudio Portals v7 FAQ | MicrosoftDocs"
+title: "Frequently asked questions for legacy Adxstudio Portals v7 | MicrosoftDocs"
 description: "Frequently asked questions for legacy Adxstudio Portals v7"
 keywords: "legacy Adxstudio Portals FAQ; legacy Adxstudio Portals frequently asked questions"
 ms.date: 03/19/2018
