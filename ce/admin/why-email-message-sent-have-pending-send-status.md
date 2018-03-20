@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 98ee8425-c7dc-46e3-b721-7c3edca4bf0d
 caps.latest.revision: 6
-author: "brycho"
-ms.author: "brycho"
+author: "jimholtz"
+ms.author: "jimholtz"
 ---
 # Why does the email message I sent have a "Pending Send" status?
 

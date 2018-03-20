@@ -13,8 +13,8 @@ applies_to:
   - "CRM Online"
 ms.assetid: 53829c2b-77ad-4bf1-a9ae-32d8a9660abc
 caps.latest.revision: 22
-author: "brycho"
-ms.author: "brycho"
+author: "matp"
+ms.author: "matp"
 manager: "brycho"
 ---
 # Properties dialog box
