@@ -49,7 +49,7 @@ Once you create [Environments](https://docs.microsoft.com/powerapps/environments
 
 ![Identify Common Data Service instance](media/identify-cds-instance.png "Identify Common Data Service instance")
 
-For more information, see [Manage Common Data Service instances](manage-common-data-service-instances.md).
+For more information, see [Manage Common Data Service instances](common-data-service-instances.md).
 
 ###See also
 [Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)
