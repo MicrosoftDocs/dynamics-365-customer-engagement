@@ -66,7 +66,7 @@ To find and apply available updates to all core [!INCLUDE[pn-marketing-app-modul
 1. Select the **Applications** tab to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-1. Select the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] Application** item and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the right column.
+1. Select the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Marketing Application** item and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the right column.
 
 1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup form opens. Select an organization from the drop-down list and look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization. Use the drop-down list to check each of your organizations, and if none requires an update, you can just quit the form.  
     ![Select the Update packages button](media/update-fre-update-packages-button.png "Select the Update packages button")
