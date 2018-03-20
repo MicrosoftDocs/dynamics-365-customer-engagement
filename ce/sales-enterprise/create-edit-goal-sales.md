@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 161f9a27-3709-42c7-bca0-8538250e5de0
 caps.latest.revision: 40
-ms.author: "brycho"
+ms.author: "shujoshi"
 manager: "amyla"
 ---
 # Create or edit a goal (Sales)

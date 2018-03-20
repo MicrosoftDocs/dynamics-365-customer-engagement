@@ -16,8 +16,8 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 0c6df117-6f55-44e4-a751-3b3786cccb0a
 caps.latest.revision: 46
-author: "brycho"
-ms.author: "anbichse"
+author: "jimholtz"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Keep track of notes, tasks, calls, or email with activities
