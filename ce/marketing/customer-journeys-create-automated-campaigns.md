@@ -20,7 +20,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 Use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 

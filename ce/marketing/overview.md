@@ -20,7 +20,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=853872" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/c7dd31a4-7816-42f2-95d7-499401db5f9e" frameborder="0" allowfullscreen=""></iframe></div>
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a marketing-automation application that helps turn prospects into business relationships. The app is easy to use, works seamlessly with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], and has built-in business intelligence. Use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to:
 
