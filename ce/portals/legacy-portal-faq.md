@@ -16,7 +16,7 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Changes coming for legacy Adxstudio Portals v7
+# Legacy Adxstudio Portals v7 FAQ
 
 We have compiled a list of frequently asked questions about changes coming for legacy Adxstudio Portals v7 and provided brief answers to help you get to your information quickly.
 
