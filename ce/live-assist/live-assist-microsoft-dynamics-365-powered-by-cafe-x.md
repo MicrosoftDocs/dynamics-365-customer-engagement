@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 29da7794-d303-470e-ab62-3744a4d2877f
 caps.latest.revision: 9
-author: "brycho"
-ms.author: "brycho"
+author: "shellyha"
+ms.author: "shellyha"
 ---
 # Live Assist for Dynamics 365 powered by Café X
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

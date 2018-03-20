@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: c461cdf4-9e91-41c7-b34e-e95f1ff1e945
 caps.latest.revision: 65
-author: "brycho"
-ms.author: "brycho"
+author: "jimholtz"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # What are Preview features and how do I enable them? 

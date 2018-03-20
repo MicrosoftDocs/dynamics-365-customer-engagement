@@ -12,7 +12,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2c15d62a-5cfa-4229-afe2-8927d45edadc
 caps.latest.revision: 31
-ms.author: "brycho"
+ms.author: "shujoshi"
 manager: "amyla"
 ---
 # Create or edit a goal rollup query (Sales)
