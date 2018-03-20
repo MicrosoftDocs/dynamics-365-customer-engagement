@@ -289,7 +289,7 @@ Note: Dynamics 365, version 9 is not available on-premises.
 >  If you're on [!INCLUDE[pn_dyn_365_op](../includes/pn-dyn-365-op.md)], see the section below:  [To deploy to Dynamics 365 on-premises users](#BKMK_DeployOnprem)  
 --> 
 
-### Enable preview
+### Enable
 
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
@@ -305,7 +305,7 @@ Note: Dynamics 365, version 9 is not available on-premises.
 
 4. For **I have read and agree to the license terms**, select **Yes**.
 
-5. For **Enable Dynamics 365 App for Outlook Preview**, select **Yes**.
+5. For **Enable Dynamics 365 App for Outlook**, select **Yes**.
 
 #### To push the app to users  
   
@@ -349,7 +349,7 @@ Note: Dynamics 365, version 9 is not available on-premises.
 
 ## Troubleshooting installation problems  
 
-1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the preview feature. See [Enable preview](#enable-preview).
+1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature. See [Enable](#enable).
 
 <!--   > [!NOTE]
    > [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is not the same as [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is deprecated with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] and will be removed in a future major release. -->
