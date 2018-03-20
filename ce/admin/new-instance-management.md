@@ -26,7 +26,7 @@ You might have noticed some changes to the [!INCLUDE [pn-dyn-365-admin-center](.
 
 1. **Region picker**. Filter on geographical regions.
 2. **Instance type picker**. Filter on the type of instance: Trial, Production, Sandbox.
-3. **Common Data Service instance**. Instances created in the PowerApps admin center are now displayed in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] as Common Data Service. 
+3. **Common Data Service instance**. PowerApp [Environments](https://docs.microsoft.com/powerapps/environments-overview) provisioned with Common Data Service in the PowerApps admin center are now displayed in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] as Common Data Service instances. 
 
 ## Filter by region
 You can filter for instances from a specific geographical region.
@@ -45,11 +45,12 @@ If you're a large organization, you might have numerous instances of various typ
 4. Select an instance type to display instances for that type only.
 
 ## Common Data Service instance
-Once you create [Environments](https://docs.microsoft.com/powerapps/environments-overview) created in PowerApps will now show up as Common Data Service instances in your [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)].
+Once you create [Environments](https://docs.microsoft.com/powerapps/environments-overview) provisioned with Common Data Services in the PowerApps admin center, they will now show up as Common Data Service instances in your [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)].
 
 ![Identify Common Data Service instance](media/identify-cds-instance.png "Identify Common Data Service instance")
 
 For more information, see [Manage Common Data Service instances](common-data-service-instances.md).
 
 ###See also
+[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)
 [Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)

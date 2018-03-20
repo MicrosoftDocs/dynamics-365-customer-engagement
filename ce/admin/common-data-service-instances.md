@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-#Common Data Service instances
+# Common Data Service instances
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -35,7 +35,7 @@ Currently, Common Data Service instances are available as trial and production t
 
 The following table shows what management is done in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and in the PowerApps admin center. 
 
-###Management in the Dynamics 365 admin center
+### Management in the Dynamics 365 admin center
 
 You can manage the following with the Common Data Service instance in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]:
 
@@ -45,7 +45,7 @@ You can manage the following with the Common Data Service instance in the [!INCL
 > - [Delete an instance](delete-instance.md)
 > - [Change notifications](manage-email-notifications.md)
 
-###Management in the PowerApps admin center
+### Management in the PowerApps admin center
 
 You can manage the following with the Common Data Service instance in the PowerApps admin center:
 
@@ -60,6 +60,5 @@ You can do some management in the [!INCLUDE [pn-dyn-365-admin-center](../include
 For complete management of Common Data Service instances such as managing users, permissions, and environment roles, use the [PowerApps admin center](https://admin.powerapps.com).
 
 ## More information 
-
-[Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)
 [Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)
+[Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)
