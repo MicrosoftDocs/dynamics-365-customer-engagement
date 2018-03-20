@@ -82,7 +82,7 @@
 ## [Delete instance](delete-instance.md)
 ## [Backup and restore instances](backup-restore-instances.md)
 ## [Support instances](support-instance.md) 
-## [Manage Common Data Service instances](manage-common-data-service-instances.md)
+## [Common Data Service instances](common-data-service-instances.md)
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
