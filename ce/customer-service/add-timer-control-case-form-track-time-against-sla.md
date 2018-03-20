@@ -40,9 +40,12 @@ Add a timer control to an entity form to help users gauge the amount of time the
 > - The instructions in this topic apply  if you're adding a timer to track time for  the date/time field of any entity, or for tracking time against standard  SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
+> [!NOTE]
+> The above screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app](media/timer-control-webclient.png)
+
+
 For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
- 
-Adding a timer control on a web-client based app? See the article here: [Add a timer control to the Case form](https://technet.microsoft.com/library/mt812450.aspx).
+
 
 ## Add a timer control to the Case form  
   

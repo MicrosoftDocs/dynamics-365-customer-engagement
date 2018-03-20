@@ -21,7 +21,7 @@ This topic explains how to edit a Main form, and add or change various elements 
 
 ## Open the form editor
 
-To edit a form or to add or change elements, use the form editor. The form editor lets you edit forms for all Unified interface based apps, like the Customer Service Hub app. 
+To edit a form or to add or change elements, use the form editor. The form editor lets you edit forms for all Unified interface based apps, like the Customer Service Hub, or Sales app . 
 
 Follow the procedures given below to access the form editor: 
 
