@@ -1,7 +1,7 @@
 ---
-title: "Create and edit global option sets (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create and edit global option sets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,15 +10,15 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "PowerApps"
 ms.assetid: f06b8941-8dca-4601-b965-341cfb6fc3b2
 caps.latest.revision: 11
-ms.author: "rdubois"
+ms.author: "matp"
 manager: "brycho"
 ---
 # Create and edit global option sets (picklists)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 An option set is a type of field that can be included in an entity. It defines a set of options. When an option set is displayed in a form it uses a drop-down list control. When displayed in Advanced Find it uses a picklist control. Sometimes option sets are called picklists by developers.  
   
@@ -29,15 +29,13 @@ An option set is a type of field that can be included in an entity. It defines a
   
 #### Create a global option set  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1.  Choose **Customize the System**.  
   
-2.  Choose **Customize the System**.  
+2.  In the solution explorer, choose **Option Sets**.  
   
-3.  In the solution explorer, choose **Option Sets**.  
+3.  On the actions toolbar choose **New**.  
   
-4.  On the actions toolbar choose **New**.  
-  
-5.  Enter a **Display Name** and (optionally) a **Description**.  
+4.  Enter a **Display Name** and (optionally) a **Description**.  
   
      The **Name** field value will be generated based on the value of the **Display Name** you enter.  
   
@@ -45,21 +43,19 @@ An option set is a type of field that can be included in an entity. It defines a
   
      The **Name** field value must be unique. If the generated value is the same as an existing global option set, you will need to change it before you can save.  
   
-6.  Unlike the **Description** for fields, the **Description** value for a global option set is not displayed as a tooltip when the field is used in a form. This description is only visible in the list of global options. You can use the description to provide information about why you have created this global option set and what it should be used for.  
+5.  Unlike the **Description** for fields, the **Description** value for a global option set is not displayed as a tooltip when the field is used in a form. This description is only visible in the list of global options. You can use the description to provide information about why you have created this global option set and what it should be used for.  
   
-7.  In the toolbar choose **Save** to save the global option set. You can then edit the options in the option set using the instructions below.  
+6.  In the toolbar choose **Save** to save the global option set. You can then edit the options in the option set using the instructions below.  
   
 #### Edit a global option set  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1.  Choose **Customize the System**.  
   
-2.  Choose **Customize the System**.  
+2.  In the solution explorer, choose **Option Sets**.  
   
-3.  In the solution explorer, choose **Option Sets**.  
+3.  Double-click one of the existing option sets to open it.  
   
-4.  Double-click one of the existing option sets to open it.  
-  
-5.  You can edit the **Display Name** or **Description** fields, but editing the options is the most common reason to edit a global option set.  
+4.  You can edit the **Display Name** or **Description** fields, but editing the options is the most common reason to edit a global option set.  
   
 ##### Edit option set options  
 In the **Options** section you can create, edit, delete, and change the order in which options are presented.  
@@ -93,21 +89,19 @@ In the **Options** section you can create, edit, delete, and change the order in
 ## Use a global option set  
  To use a global option set, you create or edit a field in the field editor.  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1.  Choose **Customize the System**.  
+ 
+2.  In the solution explorer, select an entity and then choose **Fields**.  
   
-2.  Choose **Customize the System**.  
+3.  Select the field you want to edit or select **New** to create a new field.  
   
-3.  In the solution explorer, select an entity and then choose **Fields**.  
-  
-4.  Select the field you want to edit or select **New** to create a new field.  
-  
-5.  In the field editor, select **Yes** for **Use Existing Option Set**.  
+4.  In the field editor, select **Yes** for **Use Existing Option Set**.  
   
      If you are creating a new field you need to first select **Option Set** for the **Data Type**.  
   
-6.  Make a selection in the **Option Set** drop-down menu.  
+5.  Make a selection in the **Option Set** drop-down menu.  
   
-7.  When you have completed your entries, select **Save and Close**.  
+6.  When you have completed your entries, select **Save and Close**.  
   
 > [!NOTE]
 >  You can also get to the field editor through Forms. Select an entity and then choose **Forms**. Select a field and then choose **Change Properties**. In the dialog box select the **Details** tab and then choose **Edit**.  

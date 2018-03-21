@@ -1,18 +1,18 @@
 ---
-title: "Understand views (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Understand views | MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 09/30/2017
+ms.date: 03/21/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "udaykirang"
+  - "PowerApps"
 ms.assetid: 826fb059-a552-4db5-bf40-6a80cfa0fc0e
-ms.author: udag
-manager: sakudes
+ms.author: matp
+manager: brycho
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,9 +22,9 @@ topic-status: Drafting
 
 # Understand views (lists) 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
+With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps, use views to define how a list of records for a specific entity is displayed in the application. A view defines:  
 -  The columns to display    
 -  How wide each column should be    
 -  How the list of records should be sorted by default  
@@ -35,7 +35,7 @@ A drop-down list of views is frequently displayed in the application so that peo
 The records that are visible in individual views are displayed in a list, sometimes called a grid, which frequently provides options so that people can change the default sorting, column widths, and filters to more easily see the data that’s important to them. Views also define the data source for charts that are used in the application.
 
 ## Types of Views 
-There are three types of views in Dynamics 365 Customer Engagement: *personal*, *system*, and *public*.
+There are three types of views: *personal*, *system*, and *public*.
 
 This topic is about how system administrators and system customizers work with system and public views. For more information about personal views, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md).  
   
@@ -79,7 +79,7 @@ You can create or edit views in two ways:
 
 ## Customize views
 As a system administrator and system customizer, you can customize the views through controls by making grids (lists) editable and compatible for Unified Interface. The following controls are used:
-- **Editable Grid:** Allows users to do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
+- **Editable Grid:** Allows users to do rich in-line editing directly from grids and sub-grids whether they’re using a web app, tablet, or phone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Make grids (lists) editable using the Editable Grid custom control](../customize/make-grids-lists-editable-custom-control.md)
 - **Read Only Grid:** Provides users an optimal viewing and interaction experience for any screen size or orientation such as mobiles and tablets by using responsive design principles. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Specify properties for Unified Interface apps](../customize/specify-properties-for-unified-interface-apps.md)
 
 ### See also  

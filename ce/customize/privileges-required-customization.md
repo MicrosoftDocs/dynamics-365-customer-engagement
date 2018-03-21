@@ -1,7 +1,7 @@
 ---
-title: "Privileges required for customizing (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Privileges required for customizing | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,24 +10,24 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "PowerApps"
 ms.assetid: 43cf7f3a-7e26-4990-8b5a-c817ac6d51bb
 caps.latest.revision: 13
-ms.author: "rdubois"
+ms.author: "matp"
 manager: "brycho"
 ---
 # Privileges required for customization
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
 
-Individuals can personalize the system and even share some of their customizations with others, but only users with the correct privileges can apply changes for everyone using [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+App users can personalize the system and even share some of their customizations with others, but only users with the correct privileges can apply changes for everyone.  
   
 > [!NOTE]
 >  This section assumes you know how to work with security roles. For more information about working with security roles, see [Create users and assign security roles](../admin/create-users-assign-online-security-roles.md).  
   
 <a name="BKMK_SysAdminAndSysCustomizer"></a>   
 ## System Administrator and System Customizer security roles  
- Almost everyone who customizes [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will have the System Administrator or System Customizer security role associated with their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] account. These security roles give you the permissions you need to customize your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployment.  
+ Anyone who customizes will have the System Administrator or System Customizer security role associated with their account. These security roles give you the permissions you need to customize the app.  
   
 |System Administrator|System Customizer|  
 |--------------------------|-----------------------|  
