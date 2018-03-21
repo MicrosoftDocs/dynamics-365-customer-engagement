@@ -71,7 +71,7 @@ Activity auditing has two significant differences with prior [!INCLUDE [pn-ms-dy
 |Date     |3/2/2018 11:25:56 PM          |
 |EntityId     |N/A         |
 |EntityName     |Account          |
-|Query     |<filter type="and"><condition column="ownerid" operator="eq-userid" /><condition column="statecode" operator="eq" value="0" /></filter>         |
+|Query     |\<filter type="and">\<condition column="ownerid" operator="eq-userid" />\<condition column="statecode" operator="eq" value="0" />\</filter>         |
 |QueryResults     |0a0d8709-711e-e811-a952-000d3a732d76, dc136b61-6c1e-e811-a952-000d3a732d76        |
 |ItemURL     |N/A        |
 
