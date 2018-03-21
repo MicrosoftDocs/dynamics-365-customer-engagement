@@ -33,8 +33,6 @@ The Common Data Service allows you to securely store and manage data used in you
 
 Currently, Common Data Service instances are available as trial and production types. What management actions are available depends on which admin center you use.
 
-The following table shows what management is done in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and in the PowerApps admin center. 
-
 ### Management in the Dynamics 365 admin center
 
 You can manage the following with the Common Data Service instance in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)]:
@@ -54,10 +52,6 @@ You can manage the following with the Common Data Service instance in the PowerA
 > - Set Data Loss Prevention policies. For more information, see [Data loss prevention policies](https://docs.microsoft.com/powerapps/administrator/prevent-data-loss).
 > - Set database security policies (as open or restricted by database roles). For more information, see [Configure database security](https://docs.microsoft.com/powerapps/administrator/database-security).
 > - Members of the Azure AD tenant Global administrator role (includes Office 365 Global admins) can also manage all environments that have been created in their tenant and set tenant-wide policies from the PowerApps admin center.
-
-You can do some management in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] such as [editing](edit-properties-instance.md), [copying](copy-instance.md), and [deleting](delete-instance.md).  
-
-For complete management of Common Data Service instances such as managing users, permissions, and environment roles, use the [PowerApps admin center](https://admin.powerapps.com).
 
 ## More information 
 [Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)

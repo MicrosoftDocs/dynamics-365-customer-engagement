@@ -24,17 +24,17 @@ You might have noticed some changes to the [!INCLUDE [pn-dyn-365-admin-center](.
 
 ![March 2018 changes to admin center](media/march2018-changes-admin-center.png "March 2018 changes to admin center")
 
-1. **Region picker**. Filter on geographical regions.
-2. **Instance type picker**. Filter on the type of instance: Trial, Production, Sandbox.
-3. **Common Data Service instance**. PowerApp [Environments](https://docs.microsoft.com/powerapps/environments-overview) provisioned with Common Data Service in the PowerApps admin center are now displayed in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] as Common Data Service instances. 
+<!-- 1. **Region picker**. Filter on geographical regions.-->
+1. **Instance type picker**. Filter on the type of instance: Trial, Production, Sandbox.
+2. **Common Data Service instance**. PowerApp [Environments](https://docs.microsoft.com/powerapps/environments-overview) provisioned with Common Data Service in the PowerApps admin center are now displayed in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] as Common Data Service instances. 
 
-## Filter by region
+<!-- ## Filter by region
 You can filter for instances from a specific geographical region.
 
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
 3. Choose the **Instances** tab.  
-4. Select a region to display instances for that region only.
+4. Select a region to display instances for that region only. -->
 
 ## Filter by instance type
 If you're a large organization, you might have numerous instances of various types such as Production and Sandbox. You can now filter for instance type to show only the type you're interested in.
