@@ -52,5 +52,5 @@ Once you create [Environments](https://docs.microsoft.com/powerapps/environments
 For more information, see [Manage Common Data Service instances](common-data-service-instances.md).
 
 ###See also
-[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)
+[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)<br/>
 [Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)
