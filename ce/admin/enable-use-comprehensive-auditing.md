@@ -19,7 +19,7 @@ manager: "brycho"
 ---
 # Preview feature: Enable and use comprehensive auditing
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 > [!IMPORTANT]
 > - This feature currently has limited availability.
@@ -45,47 +45,6 @@ Activity auditing has two significant differences with prior [!INCLUDE [pn-ms-dy
 
 2. Auditing occurs at the SDK layer of Dynamics 365 which means much more data is logged than just activities. Consider the following examples.
 
-### Example 1 – Logs generated when user reads an Account record 
-
-|**Schema Name**  |**Value**  |
-|---------|---------|
-|ID     |50e01c88-2e43-4005-8be8-9ceb172e2e90          |
-|UserKey     |10033XXXA49AXXXX          |
-|ClientIP     |131.107.XXX.XX          |
-|Operation     |Retrieve          |
-|Date     |3/2/2018 11:25:56 PM          |
-|EntityId     |0a0d8709-711e-e811-a952-000d3a732d76          |
-|EntityName     |Account          |
-|Query     |N/A         |
-|QueryResults     |N/A         |
-|ItemURL     |https://orgname.onmicrosoft.com/main.aspx?etn=account&pagetype=entityrecord&id=0a0d8709-711e-e811-a952-000d3a732d76           |
-
-### Example 2 – Logs generated when user sees Account records in a Grid (Export to Microsoft Excel logs are like this) 
-
-|**Schema Name**  |**Value**  |
-|---------|---------|
-|ID     |ef83f463-b92f-455e-97a6-2060a47efe33          |
-|UserKey     |10033XXXA49AXXXX           |
-|ClientIP     |131.107.XXX.XX          |
-|Operation     |RetrieveMultiple           |
-|Date     |3/2/2018 11:25:56 PM          |
-|EntityId     |N/A         |
-|EntityName     |Account          |
-|Query     |\<filter type="and">\<condition column="ownerid" operator="eq-userid" />\<condition column="statecode" operator="eq" value="0" />\</filter>         |
-|QueryResults     |0a0d8709-711e-e811-a952-000d3a732d76, dc136b61-6c1e-e811-a952-000d3a732d76        |
-|ItemURL     |N/A        |
-
-### Example 3 – List of messages logged when user converts a lead to opportunity 
-
-|**ID**  |**EntityID**  |**EntityName**  |**Operation**  |
-|---------|---------|---------|---------|
-|53c98033-cca4-4420-97e4-4c1b4f81e062      |23ad069e-4d22-e811-a953-000d3a732d76          |Contact         |Create         |
-|5aca837c-a1f5-4801-b770-5c66183a58aa      |25ad069e-4d22-e811-a953-000d3a732d76          |Opportunity         |Create         |
-|c9585748-fdbf-4ff7-970c-bb37f6aa2c36      |25ad069e-4d22-e811-a953-000d3a732d76          |Opportunity         |Update         |
-|a0469f30-078b-419d-be61-b04c9a34121f      |1cad069e-4d22-e811-a953-000d3a732d76          |Lead         |Update         |
-|0975bceb-07c7-4dc2-b621-5a7b245c36a4      |1cad069e-4d22-e811-a953-000d3a732d76          |Lead         |Update         |
-
-
 ## What events are audited
 Logging takes place at the SDK layer which means a single action can trigger multiple events that are logged. The following are a sample of admin and user events you can audit.
 
@@ -105,7 +64,7 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Event  |Description  |
 |---------|---------|
 |Create, read, update, delete (CRUD)     |Logging all CRUD activities essential for understanding the impact of a problem and being compliant with data protection impact assessments (DPIA). |
-|Multiple record view     |Users of Dynamics view information in bulk, like grid views, reports etc. Critical customer content information is part of these views.|
+|Multiple record view     |Users of Dynamics view information in bulk, like grid views, Advanced Find search, etc. Critical customer content information is part of these views.|
 |Export to Excel     |Exporting data to Excel moves the data outside of the secure environment and is vulnerable to threats.|
 |SDK calls via surround or custom apps     |Actions taken via the core platform or surround apps calling into the SDK to perform an action needs to be logged.|
 |All support CRUD activities     |Microsoft support engineer activities on customer environment.|
@@ -162,8 +121,6 @@ The following are some fields specific to Dynamics 365.
 |UserId     |Edm.Guid          |         |         |
 |UserUpn     |Edm.String         |         |         |
 
-
-
 ## Enable auditing in Dynamics 365
 
 1. In Dynamics 365 (online), choose **Settings** > **Administration** > **System Settings** > **Auditing tab**.
@@ -213,7 +170,6 @@ You can create your own reports to review your audit data. See [Search the audit
 
 For a list of what's logged with comprehensive auditing, see [Microsoft.Crm.Sdk.Messages Namespace](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages?view=dynamics-general-ce-9).
 
-## What's not logged
 We log all SDK messages except the following:
 
 - WhoAmI
@@ -260,6 +216,50 @@ We use the prefix to categorize.
 |Get     |Read |
 |Export     |Read |
 
+## Example generated logs
+
+The following are some examples of logs created with comprehensive auditing.
+
+### Example 1 – Logs generated when user reads an Account record 
+
+|**Schema Name**  |**Value**  |
+|---------|---------|
+|ID     |50e01c88-2e43-4005-8be8-9ceb172e2e90          |
+|UserKey     |10033XXXA49AXXXX          |
+|ClientIP     |131.107.XXX.XX          |
+|Operation     |Retrieve          |
+|Date     |3/2/2018 11:25:56 PM          |
+|EntityId     |0a0d8709-711e-e811-a952-000d3a732d76          |
+|EntityName     |Account          |
+|Query     |N/A         |
+|QueryResults     |N/A         |
+|ItemURL     |https://orgname.onmicrosoft.com/main.aspx?etn=account&pagetype=entityrecord&id=0a0d8709-711e-e811-a952-000d3a732d76           |
+
+### Example 2 – Logs generated when user sees Account records in a Grid (Export to Microsoft Excel logs are like this) 
+
+|**Schema Name**  |**Value**  |
+|---------|---------|
+|ID     |ef83f463-b92f-455e-97a6-2060a47efe33          |
+|UserKey     |10033XXXA49AXXXX           |
+|ClientIP     |131.107.XXX.XX          |
+|Operation     |RetrieveMultiple           |
+|Date     |3/2/2018 11:25:56 PM          |
+|EntityId     |N/A         |
+|EntityName     |Account          |
+|Query     |\<filter type="and">\<condition column="ownerid" operator="eq-userid" />\<condition column="statecode" operator="eq" value="0" />\</filter>         |
+|QueryResults     |0a0d8709-711e-e811-a952-000d3a732d76, dc136b61-6c1e-e811-a952-000d3a732d76        |
+|ItemURL     |N/A        |
+
+### Example 3 – List of messages logged when user converts a lead to opportunity 
+
+|**ID**  |**EntityID**  |**EntityName**  |**Operation**  |
+|---------|---------|---------|---------|
+|53c98033-cca4-4420-97e4-4c1b4f81e062      |23ad069e-4d22-e811-a953-000d3a732d76          |Contact         |Create         |
+|5aca837c-a1f5-4801-b770-5c66183a58aa      |25ad069e-4d22-e811-a953-000d3a732d76          |Opportunity         |Create         |
+|c9585748-fdbf-4ff7-970c-bb37f6aa2c36      |25ad069e-4d22-e811-a953-000d3a732d76          |Opportunity         |Update         |
+|a0469f30-078b-419d-be61-b04c9a34121f      |1cad069e-4d22-e811-a953-000d3a732d76          |Lead         |Update         |
+|0975bceb-07c7-4dc2-b621-5a7b245c36a4      |1cad069e-4d22-e811-a953-000d3a732d76          |Lead         |Update         |
+
 ## Additional considerations
 
 When audit log search in the Office 365 Security and Compliance Center is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days. However, your organization might not want to record and retain audit log data. Or you might be using a third-party security information and event management (SIEM) application to access your auditing data. In those cases, a global admin can turn off audit log search in Office 365.
@@ -269,7 +269,7 @@ When audit log search in the Office 365 Security and Compliance Center is turned
 - Office has a 3KB limit for each audit record. Therefore, in some cases a single record from Dynamics 365 needs to be split into multiple records in Office. The CorrelationId field can be used to retrieve the set of split records for a given source record. Operations that are likely to require splitting include RetrieveMultiple and ExportToExcel.
 - Some operations need additional processing to retrieve all relevant data. For example, RetrieveMultiple and ExportToExcel are processed to extract the list of records that are retrieved or exported. However, not all relevant operations are yet processed. For example, ExportToWord is currently logged as single operation with no additional details about what was exported.
 - In the Office 365 Security and Compliance Center (protection.office.com), the Activities drop-down has a section called Dynamics 365 activities, with nine activities listed. However, the audit logs currently only use the Accessed other entity type activity. Selecting any of the others alone will filter out all results. The simplest option for now is to click on the Dynamics 365 activities header, which will select all activities.
-- Logging will be disabled for some operations will be removed to improve the relevance of the logged data.
+- In future releases, logging will disabled for operations that are determined to not be useful based on a review of the logs. For example, some operations result from automated system activity, not user activity.
 
 ### See also
  [Audit data and user activity for security and compliance](audit-data-user-activity.md)<br />
