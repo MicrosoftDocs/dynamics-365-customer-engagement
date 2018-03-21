@@ -21,34 +21,39 @@ manager: "sakudes"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-Predictive lead scoring helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher the more likely that you can convert it into an opportunity. These leads are displayed in a system view and when you select a lead, you can view reasons influences of a lead to further analyze and build a strategy and turn lead into an opportunity.
+Predictive lead scoring helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into an opportunity. These leads are displayed in a system view—and when you select a lead, you can view reasons influences of a lead to further analyze and build a strategy and turn lead into an opportunity.
 
 > [!IMPORTANT]
-> Contact your system administrator to enable Predictive lead scoring in your organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
+> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
 
 ## Understand leads in views
-When the Predictive lead scoring is enabled in your organization, the system view My Open Leads Scored is available for you. Open the view and a list of leads that can be converted into opportunities are displayed.<br>
-The following screen displays a typical view with a list of lead that consist of parameter that are used to analyze possible opportunities.<br>
+When the Predictive lead scoring is enabled in your organization, you can use the My Open Leads Scored system view. This view gives you a list of leads that can be converted into opportunities.<br>
+The following screen displays a typical view with a list of leads that consist of parameters that are used to analyze possible opportunities.<br>
 ![My open leads scored view](../admin/media/my-open-lead-score-view.png "My open leads scored view")
 
-1.	**Lead Score:** Specifies the value that is representative of the likelihood of the lead to convert into an opportunity.  
-2.	**Lead Grade:** Specifies the grades of a lead that are categorized into A, B, C, and D with colors Green, Orange, Yellow, and Red respectively where Grade A (Green) is the lead with highest likelihood for conversion into an opportunity followed by Grade B (Orange), Grade C (Yellow), and Grade D (Red).
+The numbered columns are:
+1.	**Lead Score.** Specifies the value that is representative of the likelihood of the lead to convert into an opportunity.  
+2.	**Lead Grade.** Specifies the grades of a lead that are categorized into A, B, C, and D with colors green, orange, yellow, and red, respectively, where Grade A (green) is the lead with highest likelihood for conversion into an opportunity followed by Grade B (orange), Grade C (yellow), and Grade D (red).
 
     >   [!NOTE]
-    >   A system administrator can define lead score ranges for a grade depending on the organizational requirements. 
+    >   A system administrator can define lead score ranges for a grade, depending on the organizational requirements. 
 
-3.	**Lead Score Trend:** Specifies the direction in which a lead is trending such as Increasing (up arrow), Decreasing (down arrow), Steady (right arrow), or Not enough info. These trends are displayed by comparing the present lead score with previous. For example, score of a lead was 65 and the present score is decreased to 45, a down arrow is displayed in the Lead Score Trend column specifying that the lead is losing traction and needs some action from you to improve the score.  
+3.	**Lead Score Trend.** Specifies the direction in which a lead is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present lead score with the previous score. For example, the score of a lead was 65 and the present score is decreased to 45, a down arrow is displayed in the **Lead Score Trend** column specifying that the lead is losing traction and needs some action from you to improve the score. 
+ 
+[v-tiburd]: <> (Above, I changed "Increasing" and "Decreasing" to match the UI of the screenshot. And below, I wasn't able to confirm the widget name and used my best guess that the name uses title-style capitalization. Please check against the UI and correct if needed. Thank you!)
 
-## Understand lead score widget in forms
+## Analyze and improve your lead score
 
-The lead score widget provides an insight into top ten reasons coming leads and related entities that are impacting the lead score. This helps you to analyze  and work on the lead to improve the score and convert into a possible opportunity. <br>
-The following screen displays a typical lead score widget with positives and negatives reasons that are used to analyze. <br>
+In forms, you can use the Lead Score widget to see the top ten reasons that affect how coming leads and related entities are impacting the lead score. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity. <br>
+The following screen displays a typical Lead Score widget with positive and negative reasons that are used to analyze. <br>
 ![Predective lead score widget](../admin/media/predictive-lead-scoring-widget.png "Predective lead score widget")
 
-1.	**Basic Information:** Displays the basic information of a lead such as lead score, lead grade, and lead score trend and helps you to in not to moving back to **My Open Leads Scored** view for basic information.
-2.	**Top Reasons:** Displays the list of reason that are affecting the lead score and helps you to analyze and take a decision to consider the lead for converting into an opportunity. further, you can take necessary action such as set up meetings and follow-ups to improve the lead score.  
-3.	**Feedback:** Displays feedback that is provided by user to a lead and you can change the feedback with appropriate lead score. 
-    To provide feedback, select the chat icon and enter the expected score and comments. Select Send to save the feedback.
+The numbered sections are:
+1.	**Basic Information.** Displays the basic information of a lead—such as lead score, lead grade, and lead score trend—to help you avoid going back to the My Open Leads Scored view to see basic information.
+2.	**Top Reasons.** Displays the list of reason that are affecting the lead score. This helps you to analyze and consider the lead for converting into an opportunity. You can also take necessary action to improve the lead score, such as set up meetings and follow-ups.  
+[v-tiburd]: <> (Please check the following for accuracy, particular "the user"--should it be "a user" or "you" instead?--and "an appropriate"...thanks)
+3.	**Feedback.** Displays feedback that's provided by the user to a lead. You can change the feedback with an appropriate lead score. 
+    To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
 
 ### See also 
