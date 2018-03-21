@@ -12,6 +12,7 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics CRM Online"
+author: "mduelae"
 ms.assetid: 1e2c7e79-0b04-4966-8829-02c16d62e45d
 caps.latest.revision: 13
 ms.author: "mkaur"

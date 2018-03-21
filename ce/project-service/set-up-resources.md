@@ -12,6 +12,7 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: "mduelae"
 ms.assetid: 7bd5b27a-330e-4168-946e-3bf832a06a79
 caps.latest.revision: 13
 ms.author: "mkaur"
