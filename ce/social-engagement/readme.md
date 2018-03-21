@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2018 Update 1.1 Readme"
+title: "Social Engagement 2018 Update 1.3 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 01/24/2017
+ms.date: 03/15/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -14,11 +14,11 @@ manager: sakudes
 topic-status: Ready to Publish
 ---
 
-Social Engagement 2018 Update 1.1 Readme
+Social Engagement 2018 Update 1.3 Readme
 ========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2018 Update 1.1. It was published in January 2018.
+Social Engagement 2018 Update 1.3. It was published in March 2018.
 
 Resources
 ---------
