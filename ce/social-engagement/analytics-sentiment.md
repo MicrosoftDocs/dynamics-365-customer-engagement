@@ -1,8 +1,8 @@
 ---
 title: "Analytics for sentiment in Social Engagement | Microsoft Docs"
-description: "Learn how to focus your analysis on sentiments and tonality in Social Engagement."
+description: "Learn how to focus your analysis on sentiment and tonality in Social Engagement."
 keywords: "sentiment, natural language processing, tonality, analytics, sentiment analysis"
-ms.date: 10/17/2017
+ms.date: 03/02/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -14,58 +14,77 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# Understand the public perception using sentiment analysis
-View and understand the sentiments in the social chat related to the posts that are found by your search topics. Using the **Sentiments** page, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] calculates the sentiment value of social posts with natural-language processing and machine learning techniques. From the details displayed on this page, you can understand the positive, negative, or neutral sentiments and also the volume and the sources they come from.  
-  
-Navigate to this page from **Analytics > Sentiments**.  
-  
-## See the perception of a post and its sentiment value  
-Each post that results from your defined searches is processed by the sentiment algorithm in the original language and annotated with a calculated sentiment value. For more information on the supported languages, you can download the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).  
-  
-The sentiment value results in a positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and still rates the post as neutral. This happens because the amount of a post’s text identified as positive or negative cancel each other out. A post is also classified as neutral if there are no positive or negative statements detected in it. Unknown sentiment value indicates that the post’s language isn’t supported by the sentiment algorithm.  
-  
-The sentiment values from posts with positive or negative sentiment that match your defined filters are normalized and result in the sentiment index for your search topic.  
-  
-## See the normalized perception of a data set and its sentiment index  
-The sentiment index is normalized to a value between -10 and 10. All your active filters and parameters are taken into account to define the data set that the sentiment index is calculated for.  
+# Understand public perception using sentiment analysis
+
+View and understand social sentiment in posts that are found by your search topics. Sentiment analysis in [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] calculates the sentiment value of social posts using natural-language processing and machine learning techniques. 
+
+In [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)], go to **Analytics** > **Sentiment** to learn more  about sentiment across posts in your data set.  
+
+![Screenshot of the sentiment page in the Analytics area of Social Engagement](media/analytics-sentiment.png "Screenshot of the sentiment page in the Analytics area of Social Engagement")
+
+**Sentiment value** is the positive, negative, neutral, or unknown sentiment for a post. Occasionally, the algorithm identifies positive and negative parts of a sentence and rates the post as neutral, because the amount of positive or negative text cancel each other out. You can [edit and confirm sentiment values](work-with-posts.md) for individual posts to benefit from [adaptive learning](adaptive-learning.md) for your organization's sentiment algorithm. An unknown sentiment value indicates that the language isn’t supported by the sentiment algorithm. For more information on supported languages, download the [Microsoft Social Engagement Translation Guide](http://go.microsoft.com/fwlink/p/?LinkID=391086).
+
+The **sentiment index** is calculated from the sentiment value of posts and normalized to a value between -10 and 10. All your active filters and parameters are considered to define the data set that the sentiment index calculates.  
   
 -   A sentiment index of 10 means that there are no negative posts in your data set.  
   
--   A sentiment index of 0 means that there is an equal amount of positive and negative posts in your data set.  
+-   A sentiment index of 0 means that there are equal amounts of positive and negative posts in your data set.  
   
 -   A sentiment index of -10 means that there are no positive posts in your data set.  
   
-You can calculate the sentiment index with the following formula:  
+Formula:  
   
-`Sentiment index = (Positive posts – Negative posts)/(Positive posts + Negative posts) * 10`  
+`Sentiment index = (Positive posts – Negative posts)/(Positive posts + Negative posts) * 10`    
+
+## Authors
+
+The normal view of this widget shows the top five authors and sources, based on the volume of posts and trend indicator. Select the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") to expand the widget and find more details such as reach, source, and location about the 100 most-active authors and their posts.    
+To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then select **INCLUDE** in the list header. To remove an author from the authors filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then select **EXCLUDE** in the list header.
+> [!NOTE]
+> Full view also has a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") that you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have a **Power Analyst** or **Administrator** user role to delete an author.
+>  When you delete an author, none of the author’s posts will be available in the solution’s database; they are permanently deleted. No new posts from this author will be acquired in the future.  
+
+## Location insights
+
+Posts that include location information display on a map to show where the posts are coming from. You can also [define an activity map](activity-maps.md) to see new posts in real-time, with additional functionality. 
+
+Dynamic widget. Shows only if posts with location information are available in the selected data set.
+
+## Negative phrases
+
+Lists often-mentioned negative phrases, based on the posts in your current data set. The larger that a phrase appears, the more posts contain this phrase.
+
+## Positive phrases
+
+Lists often-mentioned positive phrases, based on the posts in your current data set. The larger a phrase appears, the more posts contain this phrase.
+
+## Sentiment
+
+Visualizes the sentiment index across all posts that have a sentiment value in the selected data set. It also shows the change in sentiment index compared to the last similar time frame and trend indicator.    
+You can [manually change the sentiment values](analytics-sentiment.md) if you find that a post's sentiment is analyzed incorrectly. 
+
+## Sentiment coverage
+
+Shows the relative distribution of system-rated and manually edited sentiment values. 
+
+## Sentiment history
+
+Shows the number of posts with sentiment value, the sentiment index, and the average sentiment value for a selected time frame.
+
+## Sentiment by source
+
+Lists the sentiment index for the top five sources and trend indicators.
+
+## Top critics
+
+Lists the authors who published the most posts with a negative sentiment value.
+
+## Top fans
+
+Lists the authors who published the most posts with a positive sentiment value.
   
-You’ll find the change in trend next to the sentiment index. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] compares the sentiment index of previous time frames to the current value of the sentiment index in your time frame. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View the trend values](analyze-social-data-using-widgets.md#trend)  
-  
-## Static widgets on the Sentiments page  
-  
-|Name of the widget|What it displays|Metrics|  
-|------------------------|----------------------|-------------|  
-|Sentiment History|Sentiment changes over different time lines, sentiment index associated with these and the sentiment index for previous period|-   Positive<br />-   Negative<br />-   Steady|  
-|Sentiment Coverage|Sentiment coverage values for the current sentiments displayed on the widgets|-   System-rated sentiment<br />-   Edited sentiment<br />-   Unknown data, if a post’s language doesn’t support sentiment calculation|  
-|Sentiment|Sentiment index based on the type of sentiment - positive, negative, or neutral.|-   Index for positive, negative or neutral sentiments<br />-   Volume<br />-   Trend|  
-|Sources by Sentiment|Top five sources and the sentiment index for the sources|-   Sentiment index on the scale of +10 to -10 scale.<br />-   Trend.|  
-|Negative Phrases|Top phrases from posts with negative sentiment values|-   Phrases by volume<br />-   Sentiment index|  
-|Positive Phrases|Top phrases from posts with positive sentiment values|-   Phrases by volume<br />-   Sentiment index|  
-  
-## Dynamic widgets on the Sentiments page  
-  
-|Name of the widget|What it displays|Metrics|Display conditions|  
-|------------------------|----------------------|-------------|------------------------|  
-|Location Insights|Volume and trend displayed on a map|-   Volume of posts from different locations<br />-   Sentiment index for the posts on these locations|The rules in the current topic contains at least one of the sources that support location information and the authors shared the location information.|  
-|Top Fans|List of authors who published the most posts with a positive sentiment value.|-   Source<br />-   Author name<br />-   Volume of posts with positive sentiment value.|Your data set contains posts with positive sentiment value.|  
-|Top Critics|List of authors who published the most posts with a negative sentiment value.|-   Source<br />-   Author name<br />-   Volume of posts with negative sentiment value.|Your data set contains posts with negative sentiment value.|  
-|Authors|The normal view of this widget displays the top five authors and the sources, based on the volume of their posts.<br /><br /> Click the **Full view** button ![Full view button](media/open-full-view-icon.png "Full view button") at the top right to expand the widget to Full view mode.<br /><br /> Full view mode displays additional details about the 100 most active authors and their posts. Full view also displays a **Delete** button ![Delete button](media/trashbin-icon.png "Delete button") that you can use to [delete a selected author](manage-authors.md) and the author’s posts. You must have the **Power Analyst** or **Administrator** user role to delete an author.<br /><br /> To add a filter for multiple authors at once, select the check boxes on the left side of the list for all authors that you want to include. Then click **Include** in the list header.<br /><br /> To remove an author from the authors filter, select the check boxes on the left side of the list for all authors that you want to remove from the filter. Then click **Exclude** in the list header.|**Metrics in normal view**<br /><br /> -   Author name and profile picture (if available)<br />-   Source from where the author has posted<br />-   Trend value for the authors<br /><br /> **Metrics in Full view**<br /><br /> -   Author name and profile picture (if available)<br />-   Source<br />-   Number of posts<br />-   Trend<br />-   Sentiment<br />-   Reach<br />-   Location<br />-   Language<br />-   Time when the latest post was posted<br />-   Author details for Twitter ![View author details button in Social Engagement](media/author-details-icon.png "View author details button in Social Engagement")<br /> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [See author details](author-details.md)<br />-   Delete button ![Delete button](media/trashbin-icon.png "Delete button")|Your data set doesn’t contain posts with positive or negative sentiment value. You can hide them by applying a Sentiment filter for neutral sentiment.|  
-  
-> [!CAUTION]
->  Once you delete an author, none of the author’s previous posts will be available in the solution’s database any more, they will be permanently deleted. No new posts from this author will be acquired in the future.  
-  
-### See Also  
+### See Also
+
 [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
-[See the locations for the posts](analytics-location.md)   
-[Adaptive learning based on changes to organization’s sentiment values](adaptive-learning.md)
- 
+[Get to know your filters](use-filters.md)    
+[Explore more options with your data set](more-options-with-data-set.md)    
