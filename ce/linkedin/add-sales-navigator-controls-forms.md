@@ -34,33 +34,33 @@ For the steps below, we'll customize a first name field on a lead form. Customiz
 
 3. On the lead form, select **More options**. 
 
-![Image alt text](media/open-more-options.png "Image hover text")
+   ![Image alt text](media/open-more-options.png "Image hover text")
 
 4. In the menu, select **Form Editor**.
 
-![Image alt text](media/open-form-editor.png "Image hover text")
+   ![Image alt text](media/open-form-editor.png "Image hover text")
 
 5. Select the **First Name** field and then select **Change Properties**.
 
-![Image alt text](media/change-form-properties.png "Image hover text")
+   ![Image alt text](media/change-form-properties.png "Image hover text")
 
 6. In the **Field Properties** window, switch to the **Control** tab and select **Add control...**.
 
-![Image alt text](media/add-control.png "Image hover text")
+   ![Image alt text](media/add-control.png "Image hover text")
 
 7. Select the **LinkedIn Sales Navigator member profile** control and select **Add**.
 
-![Image alt text](media/add-control-to-form.png "Image hover text")
+   ![Image alt text](media/add-control-to-form.png "Image hover text")
 
 8. Now you need to configure the Sales Navigator control.    
 In the **Control** area, select **Web** for the LinkedIn control. Phone and tablet aren't supported as of April 1 2018.
 
-![Image alt text](media/configure-sales-navigator-control.png "Image hover text")
+   ![Image alt text](media/configure-sales-navigator-control.png "Image hover text")
 
 9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property.    
 Select the **Last Name** property and select the edit symbol. in the **Bind a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
 
-![Image alt text](media/configure-lastname-property.png "Image hover text")
+   ![Image alt text](media/configure-lastname-property.png "Image hover text")
 
 10. Select **Add** in the Field Properties window.
 
