@@ -18,4 +18,5 @@ topic-status: Drafting
 
 # Legacy Adxstudio Portals v7 FAQ
 
-We have compiled a list of frequently asked questions about changes coming for legacy Adxstudio Portals v7. Please [click here](https://aka.ms/gk1u9t) to download.
+We have compiled a list of frequently asked questions about changes coming for legacy Adxstudio Portals v7.
+Click [here](https://aka.ms/gk1u9t) to download FAQ.
