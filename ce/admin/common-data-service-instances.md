@@ -54,5 +54,5 @@ You can manage the following with the Common Data Service instance in the PowerA
 > - Members of the Azure AD tenant Global administrator role (includes Office 365 Global admins) can also manage all environments that have been created in their tenant and set tenant-wide policies from the PowerApps admin center.
 
 ## More information 
-[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)
+[Administer PowerApps overview](https://docs.microsoft.com/en-us/powerapps/administrator)<br/>
 [Introduction to the admin center for PowerApps](https://docs.microsoft.com/powerapps/introduction-to-the-admin-center)
