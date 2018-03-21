@@ -15,7 +15,7 @@ topic-status: Drafting
 ## Prerequisites
 
 - LinkedIn Sales Navigator for Microsoft Dynamics Version 2 is installed in Dynamics 365.
-- You have Customizer or System Administrator securtiy role in Dynamics 365. 
+- You have Customizer or System Administrator security role in Dynamics 365. 
 - Your organization uses Unified Interface apps.
 - To test the controls, you a LinkedIn Sales Navigator member seat.
 
