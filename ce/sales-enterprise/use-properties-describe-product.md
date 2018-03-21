@@ -1,20 +1,25 @@
 ---
 title: "Use properties to describe a product (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Simplify product management and classification by adding product properties in Dynamics 365 for Sales."
+keywords: "Properties, product properties, classification"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 3fd1c7a7-2f4d-48d5-9ae8-dbb5689c6d67
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 24
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Use properties to describe a product (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

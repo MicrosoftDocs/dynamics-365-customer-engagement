@@ -1,20 +1,25 @@
 ---
 title: "Create a product (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Use products in Dynamics 365 for Sales to define the products or services that your organization offers."
+keywords: "product, service"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8847977e-3768-4859-bce4-821c259aa79a
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 22
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Create a product (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -31,13 +36,13 @@ Products are the backbone of your business. They can be physical products or ser
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the **Product Catalog** area, click **Families & Products**.  
+3.  In the **Product Catalog** area, select **Families & Products**.  
   
-4.  If you want to create a child product to an existing product family, select the family in the list, and then click **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
+4.  If you want to create a child product to an existing product family, select the family in the list, and then select **Add Product**. The selected family becomes the parent family of the new product you're creating. You can't change the parent of a product after the product is created. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](../sales-enterprise/create-product-family.md)  
   
      -OR-  
   
-     If you want to create an independent product, simply click **Add Product**.  
+     If you want to create an independent product, simply select **Add Product**.  
   
 5.  Fill in your information:  
   
@@ -50,27 +55,27 @@ Products are the backbone of your business. They can be physical products or ser
     > [!NOTE]
     >  The **Valid From** and **Valid To** fields define how long a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
-6.  Click **Save**.  
+6.  Select **Save**.  
   
-7.  In the **Price List Items** section, click the **Add a Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
+7.  In the **Price List Items** section, select the **Add a Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and create a price list item for each unit the product is available in. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  
   
 8.  In the **Default price list** box, select a default price list. [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] uses this price list for calculations when the associated price list in the opportunity or order for the product does not contain a price definition of the product.  
   
     > [!NOTE]
     >  A price list will be available for selection only when the product you're creating is added to it as a price list item (as described in **Step 7**).  
   
-9. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the Product Properties section, open the property by clicking the name, and click **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+9. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the Product Properties section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
     > [!NOTE]
     >  You can't add properties to an independent product.  
   
-10. In the **Product Relationships** section, click the **Add a Record** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
+10. In the **Product Relationships** section, select the **Add a Record** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
   
-11. Click the **Save** button in the bottom-right corner.  
+11. Select the **Save** button in the bottom-right corner.  
   
-12. After you're done adding all the details, make sure to review everything and ensure it's correct. On the command bar, click **Preview**. The **Properties Preview** dialog box lets you verify how the product properties will appear to sales agents when they're selling the product or bundle.  
+12. After you're done adding all the details, make sure to review everything and ensure it's correct. On the command bar, select **Preview**. The **Properties Preview** dialog box lets you verify how the product properties will appear to sales agents when they're selling the product or bundle.  
   
-     After you're done verifying, click **Done**.  
+     After you're done verifying, select **Done**.  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  

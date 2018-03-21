@@ -1,20 +1,25 @@
 ---
 title: "Translate product names and properties into multiple languages (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 for Sales."
+keywords: "Translate, langaguge"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 6eb8263b-b8a0-4d8b-8383-956d380a203d
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 21
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Translate product names and properties into multiple languages (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

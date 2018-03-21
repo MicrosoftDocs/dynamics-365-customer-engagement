@@ -2,7 +2,7 @@
 title: "Create or edit a competitor record (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Track your competitors and their strengths to win sales against them."
 keywords: "competitor, sales, opportunity"
-ms.date: 09/22/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -36,15 +36,17 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 4.	On the command bar, select **Save**. 
 
+5. To associate a competitor with an opportunity, select the **Opportunities** tab, and select **Add Existing Opportunity**. In the **Search** box, select the Lookup icon, and then select an opportunity from the results. 
+
+6. To associate a competitor with a product, select the **Related** tab, and then select **Products**. Select **Add Existing Product** and use the Lookup icon to select a product.
+
 
 ## Create a competitor (Sales)
 [//]: # (In step 2, I realize that you're preparing the step so it will be easier to add a reference to Dyn 365 for Outlook later, but I don't think it's good to have just one bullet when you say "do one of the following." Also, I don't know which token to suggest for "Dynamics 365 application"--I'm not sure what it's referring to.)
 
 1. [!INCLUDE[proc_sales_competitors](../includes/proc-sales-competitors.md)]  
   
-2.  Do one of the following:  
-  
-    -   If you're using the Dynamics 365 application, select **New**.  
+2.  Select **New**.  
   
 <!--    -   If you're using Dynamics 365 for Outlook, in the **Records** tab, select **New**.  
 -->  

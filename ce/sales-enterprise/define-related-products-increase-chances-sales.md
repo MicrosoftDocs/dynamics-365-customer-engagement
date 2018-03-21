@@ -1,20 +1,25 @@
 ---
 title: "Define related products to increase sales (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Improve your opportunities to increase sales by adding related products as suggestions for up-sell, cross-sell, accessories, or substitutes in Dynamics 365 for Sales."
+keywords: "Related product"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: feff6902-ef54-47ff-a13f-e5edc213adb0
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 18
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Define related products to increase sales (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -25,11 +30,11 @@ Improve your opportunities to increase sales by adding related products as sugge
   
 1. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-2.  Click **Families & Product**.  
+2.  Select **Families & Product**.  
   
 3.  Open a product you want to define related products for. The product must be in the **Draft**, **Active** or **Under Revision** state.  
   
-4.  In the **Product Relationships** section, click the **Add Product Relationship** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
+4.  In the **Product Relationships** section, select the **Add Product Relationship** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   
 5.  In the quick form, enter the following details:  
   
@@ -39,7 +44,7 @@ Improve your opportunities to increase sales by adding related products as sugge
   
     - **Direction**. Select whether the relationship between the products will be uni-directional or bi-directional. When you select **Uni-Directional**, the product that you select in **Related Product** will be shown as a recommendation for the existing product but not vice-versa.  
   
-6.  Click **Save**.  
+6.  Select **Save**.  
   
  When you add a product to an opportunity, the sales agents can see the related product as suggestions for an opportunity. The **Suggestions** dialog box on the opportunity record suggests only those products that are related to the main product and have the same price list as the one associated with the opportunity.  
   

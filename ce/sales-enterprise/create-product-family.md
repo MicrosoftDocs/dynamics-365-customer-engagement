@@ -1,20 +1,25 @@
 ---
 title: "Create a product family (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 for Sales."
+keywords: "Product family"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: Make it easier for sales agents to find products and services in a product catalog by creating a product family and classifying similar products in it in Dynamics 365 for Sales.
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: c5844aaf-a77f-4097-bfb5-1022ad53dcea
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 25
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Create a product family (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -44,13 +49,13 @@ Make it easier for sales agents to find products and services in a product catal
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the **Product Catalog** area, click **Families & Products**.  
+3.  In the **Product Catalog** area, select **Families & Products**.  
   
-4.  To create a family, click **Add Family**.  
+4.  To create a family, select **Add Family**.  
   
      -OR-  
   
-     To create a child product family under an existing family, select the family, and click **Add Family**. The selected family becomes the parent family of the new family you're creating.  
+     To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
   
      If you want to see your current product family levels, see [View product hierarchy](../sales-enterprise/view-product-hierarchy.md).  
   
@@ -59,11 +64,11 @@ Make it easier for sales agents to find products and services in a product catal
     > [!NOTE]
     >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
   
-6.  Click **Save**.  
+6.  Select **Save**.  
   
 7.  In the list of products, families, and bundles, open the family that you just created.  
   
-8.  In the **Product Properties** section, click the **Add Properties** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+8.  In the **Product Properties** section, select the **Add Properties** button ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button"), and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
