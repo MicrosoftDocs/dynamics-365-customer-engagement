@@ -2,7 +2,7 @@
 title: "Retrieve and delete the history of audited data changes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Programmatically retrieve the audit change history or delete audit records."
 ms.custom: ""
-ms.date: 03/19/2017
+ms.date: 03/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
