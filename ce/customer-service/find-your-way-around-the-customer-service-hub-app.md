@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
+author: "mduelae"
 ms.assetid: 992b7301-d9a2-4323-9e81-ab0cee5ced1d
 caps.latest.revision: 1
 ms.author: "mkaur"
