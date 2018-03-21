@@ -238,10 +238,10 @@
 
 # [Embedded intelligence](embedded-intelligence.md)
 ## [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md)
-## [Preview feature: Relationship assistant](relationship-assistant.md)
-## [Preview feature: Action cards reference](action-cards-reference.md)
-## [Preview feature: Email engagement](email-engagement.md)
-## [Preview feature: Auto capture](auto-capture.md)
+## [Relationship assistant](relationship-assistant.md)
+## [Action cards reference](action-cards-reference.md)
+## [Email engagement](email-engagement.md)
+## [Auto capture](auto-capture.md)
 ## [Preview feature: Relationship analytics](relationship-analytics.md)
 ## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)
 
