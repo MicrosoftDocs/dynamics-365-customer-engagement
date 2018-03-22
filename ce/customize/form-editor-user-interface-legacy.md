@@ -6,11 +6,7 @@ author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.author: anjgup
-manager: sakudes
-ms.date: 03/15/2018
-ms.topic: article
-ms.service: crm-online
+author: "jimholtz"
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
 ---
 # Overview of the form editor user interface
