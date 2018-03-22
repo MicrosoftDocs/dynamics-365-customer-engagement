@@ -20,7 +20,7 @@ caps.latest.revision: 25
 topic-status: Drafting
 ---
 
-# Create a product family (Sales)
+# Set up a product family (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -38,6 +38,33 @@ Make it easier for sales agents to find products and services in a product catal
   
 > [!NOTE]
 >  The product family that you use for creating a product, bundle, or another product family becomes the parent family. You can't change the parent family for the child products, bundles, or families. In the preceding example, "Televisions" is the parent family for "LED TVs" and "Plasma TVs," and you can't change these to have a different parent family.  
+
+## Create a product family (Sales Hub app)
+
+1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
+  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.  
+  
+3.  To create a family, on the command bar, select **Add Family**.  
+  
+     -OR-  
+  
+     To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
+  
+     ![Add Family](media/add-family.png "Add Family")  
+  
+4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
+  
+    > [!NOTE]
+    >  The **Valid From** and **Valid To** fields define the duration that a product is valid for. There's no business logic associated with these fields except that the **Valid To** date must be later than the **Valid From** date. If required, you can implement your own business logic in these fields with a workflow, plug-in, or by using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)]. For example, you could run a scheduled job to automatically retire last season's products using the date selected in the **Valid To** field.  
+  
+5.  Select **Save**.  
+  
+6.  In the list of products, families, and bundles, open the family that you just created.  
+  
+7.  On the **Product Properties** tab, select the **Add New Property** button, and add the required properties. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+
+## Create a product family (Sales app)
   
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   

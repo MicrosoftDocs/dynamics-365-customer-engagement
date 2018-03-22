@@ -20,13 +20,13 @@ caps.latest.revision: 40
 topic-status: Drafting
 ---
 
-# Create or edit a goal (Sales)
+# Create or edit a goal (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use goals to keep track of your progress on achieving target revenue.  
   
-## Create a goal  (Sales Hub)
+## Create a goal (Sales Hub app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
   
@@ -34,7 +34,7 @@ Use goals to keep track of your progress on achieving target revenue.
   
 3. On the command bar, select **New**.  
 
-    ![Goal form](../../../goal "Goal form")
+    ![Goal form](media/goal-form.png "Goal form")
   
 4. Fill in your information. Use the handy tooltips as a guide.
 
@@ -43,6 +43,12 @@ Use goals to keep track of your progress on achieving target revenue.
     - Parent Goal. If this goal is a child goal of another goal, select that goal as a parent goal here.  
     
     - Goal Metric. Choose how the goal will be tracked by selecting a metric for the goal.
+
+     
+      > [!NOTE]
+
+      > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
+
     
     - Goal Owner. Select the user or team responsible for meeting the goal.
   
@@ -54,7 +60,11 @@ Use goals to keep track of your progress on achieving target revenue.
     
     - If **Goal Period** Type is **Custom Period**, select a date in the From and To fields to define a custom period for which the goal is tracked.
 
-     ![Time Period tab on Goal form](../../../Period "Time Period tab on Goal form")
+      ![Time Period tab on the Goal form](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
+
+    > [!NOTE]
+
+    > If this goal has a parent goal, you can't specify the time period for the goal. It is automatically populated from the parent goal.     
 
 7.	On the **Targets** tab, specify a target value against which the results of the goal rollup are measured. The target type depends on the **Amount Data Type** selected for the goal metric that you chose for this goal. You will see one of the following fields:
 
@@ -94,7 +104,7 @@ Use goals to keep track of your progress on achieving target revenue.
 
 13.	Select **Save** or **Save & Close**.
 
-## Create a goal  
+## Create a goal (Sales app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
     #### Check your security role  
@@ -113,26 +123,6 @@ Use goals to keep track of your progress on achieving target revenue.
   
 5.  Select or tap **Save** or **Save and Close**.  
   
-## Edit a goal  
-  
-1. [!INCLUDE[proc_permissions_mgr_vp_sys_admin_sys_cust](../includes/proc-permissions-mgr-vp-sys-admin-sys-cust.md)]  
-    #### Check your security role  
-  
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2. [!INCLUDE[proc_goals](../includes/proc-goals.md)]  
-  
-3.  Do one of the following:  
-  
-    -   If you are using the Sales app, select **Edit**.  
-  
-<!--    -   If you are using Dynamics 365 for Outlook, in the **Records** group, select **Edit**.  
--->  
-4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
-  
-5. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
   
 ### See also  
  [Create or edit a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)   

@@ -1,6 +1,6 @@
 ---
-title: "Create or edit a goal rollup query (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 for Sales"
+title: "Define a goal rollup query (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 for Sales."
 keywords: "goal, rollup query"
 ms.date: 04/01/2018
 ms.service: crm-online
@@ -20,11 +20,20 @@ caps.latest.revision: 31
 topic-status: Drafting
 ---
 
-# Create or edit a goal rollup query (Sales)
+# Define a goal rollup query (Sales & Sales Hub)
+
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the rollup query to gather data about a given goal, including all its related goals, in one view.  
+
+## Create a rollup query (Sales Hub app)
+
+> [!IMPORTANT]
+
+> Currently, you can't create a goal rollup query in the Sales Hub app. To create a goal rollup query, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
+
+## Create a rollup query (Sales app)
   
 [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
