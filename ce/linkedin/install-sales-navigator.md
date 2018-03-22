@@ -38,6 +38,6 @@ topic-status: Drafting
 
 ### See also
 
-[Learn how to install and configure the solution.](integrate-sales-navigator.md)     
+[Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Find out how to customize forms to see Sales Navigator controls.](add-sales-navigator-controls-forms.md)    
 [Sign in to your LinkedIn account to see Sales Navigator controls on form.](view-sales-navigator-forms.md)
