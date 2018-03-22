@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: ffa6c917-3ad1-48ee-9d8f-428fa3f97215
 caps.latest.revision: 12
-author: "brycho"
-ms.author: "brycho"
+author: "jimholtz"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Find your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or support person 

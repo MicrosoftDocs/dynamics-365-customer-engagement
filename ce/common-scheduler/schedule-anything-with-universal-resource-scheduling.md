@@ -43,7 +43,7 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 -   You will need to have either [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] or [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)].  
   
--   A license for Universal Resource Scheduling which includes an Azure subscription. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
+-   A license for Universal Resource Scheduling. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users to Dynamics 365 (online)](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md)  
   
 -   To manage the solution once it has been deployed you will need user credentials with Universal Resource Scheduling security role.  
   
