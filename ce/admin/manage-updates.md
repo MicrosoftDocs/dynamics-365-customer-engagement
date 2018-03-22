@@ -390,7 +390,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 > [!NOTE]
 >  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
 
-### Notice about Online Policies
+## Notice about Online Policies
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
   
 ### See also  
