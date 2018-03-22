@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
+author: "jimholtz"
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 135
 ms.author: "jimholtz"
