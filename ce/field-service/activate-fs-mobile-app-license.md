@@ -51,16 +51,16 @@ In the Tell us more about your issue box, enter the following information:
 		- As a Global Office 365 Administrator, open your Office 365 portal and navigate to the Admin Center.
 		- Expand the Billing tab, and click on Licenses.
 		- Take a screenshot showing the number of field service licenses in your tenant. 
-		![Screenshot showing an Excel spreadsheet with the number of Field Service licences in your tenant](../field-service/fs-lic-screenshot-example.png "Excel spreadsheet")  
+		![Screenshot showing an Excel spreadsheet with the number of Field Service licences in your tenant](../field-service/media/fs-lic-screenshot-example.png "Excel spreadsheet")  
 	- Enter your unique org ID. Here's how to find your org ID:
 		- As a system Administrator, open your Dynamics 365 instance. 
 		- Navigate to Settings > Customizations >Developer Resources.
 		- In the Instance Reference Information section of the page, locate the Org ID.
-		![Screenshot of the Instant Reference Information of the page, with Org ID highlighted](../field-service/fs-lic-instant-reference.png "Org ID in Instant Reference Information")  
+		![Screenshot of the Instant Reference Information of the page, with Org ID highlighted](../field-service/media/fs-lic-instant-reference.png "Org ID in Instant Reference Information")  
 
 > [!NOTE]
 >  You can enter the below information in the space provided, or in the space below enter “see attached” and save the information to an Excel document and upload it with the service request. For example, create a table in Excel as shown in the screenshot below.
-> ![Screenshot of the Excel table with the information below prepopulated](../field-service/fs-lic-excel-sheet.png "Excel spreadhseet example")
+> ![Screenshot of the Excel table with the information below prepopulated](../field-service/media/fs-lic-excel-sheet.png "Excel spreadhseet example")
 > If you have more than one instance that you need Resco mobile licenses for, make sure to include the org ID for each instance, including the number of mobile licenses needed for each instance. 
  
 
