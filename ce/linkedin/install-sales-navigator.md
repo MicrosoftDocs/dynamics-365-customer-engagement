@@ -29,12 +29,16 @@ topic-status: Drafting
 
 3. Review the terms of service and select **Get**.
 
-
 > [!TIP]
-> If you are working with an earlier version of Microsoft Dynamics CRM, review the installation steps for Version 1.
+> If you are working with an earlier version of Microsoft Dynamics CRM, [review the installation steps](https://www.linkedin.com/help/sales-navigator/topics/2052/2071/80081) for [Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/en-us/product/dynamics-365/linkedin.0cb76fe0-d453-4edb-a68c-65fb9119493a?src=retail&tab=Overview).
 
-[comment]: <> (Update link)
+## Remove the solution
 
+1. In Dynamics 365, go to Settings > Solutions.
+
+2. ...
+
+[comment]: <> (Add steps)
 
 ### See also
 
