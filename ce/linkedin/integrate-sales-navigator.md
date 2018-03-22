@@ -11,3 +11,29 @@ topic-status: Drafting
 ---
 
 # Integrate LinkedIn Sales Navigator for Dynamics 365
+
+Two versions: 
+
+- Sales Navigator V1 (Dynamics CRM 2016 and Dynamics 365 web apps, except Unified Interface)
+- Sales Navigator V2 (Dynamics 365 (online) Unified Interface apps)
+
+## Install Version 1
+
+Follow LI docs.
+- Set up V1 in Dynamics
+- Set up LinkedIn pieces
+- Add controls to forms
+
+
+## Install Version 2
+
+[Learn how to install and configure the solution.](install-sales-navigator.md)
+
+[Find out how to customize forms to see Sales Navigator controls.](add-sales-navigator-controls-forms.md)
+
+[Sign in to your LinkedIn account to see Sales Navigator controls on form.](view-sales-navigator-forms.md)
+
+### See also
+[Learn how to install and configure the solution.](install-sales-navigator.md)     
+[Find out how to customize forms to see Sales Navigator controls.](add-sales-navigator-controls-forms.md)    
+[Sign in to your LinkedIn account to see Sales Navigator controls on form.](view-sales-navigator-forms.md)
