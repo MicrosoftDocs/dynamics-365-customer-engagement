@@ -37,7 +37,7 @@ An Office 365 Enterprise [E3](https://products.office.com/business/office-365-en
 ## How this differs from past audit logging
 Audit logging as described in [Audit data and user activity for security and compliance](audit-data-user-activity.md) covers enabling and viewing logging for specific entities and attributes which you select. What is logged is largely based on the context of the activity. Open a record and activities such as who created the record, what values were entered and changed, who updated it, etc, are logged for that particular record.
 
-Activity auditing has two significant differences with prior [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] auditing:
+Activity logging has two significant differences with prior [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] auditing:
 
 1. You can log user and admin activities across Office and Dynamics 365 apps.
 
