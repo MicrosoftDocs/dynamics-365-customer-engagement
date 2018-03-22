@@ -11,6 +11,7 @@ applies_to:
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2016"
   - "Dynamics CRM Online"
+author: "JimDaly"
 ms.assetid: 00533626-2587-4bb2-ad82-98560024794e
 ms.author: jdaly
 manager: jdaly

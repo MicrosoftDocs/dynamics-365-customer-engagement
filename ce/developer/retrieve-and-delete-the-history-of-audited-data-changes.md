@@ -18,7 +18,7 @@ helpviewer_keywords:
   - "audit records and history, retrieving and deleting data for"
   - "deleting audit records, using Microsoft Dynamics CRM and SQL Server with auditing"
   - "changed-data history, obtaining"
-  - "deleting audit records, how to"
+  - "deleting change history (audit records), how to"
 ms.assetid: 53b9a1ac-f9c0-490f-a42f-2efc231b67ff
 caps.latest.revision: 20
 author: "JimDaly"

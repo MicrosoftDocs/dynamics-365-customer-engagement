@@ -1,7 +1,7 @@
 ---
-title: "Create and edit fields (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create and edit fields | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,16 +10,17 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "PowerApps"
 ms.assetid: d88677fa-2caf-47b0-aec6-10a25a7ec9c3
 caps.latest.revision: 55
-ms.author: "udag"
-manager: "sakudes"
+ms.author: "matp"
+manager: "brycho"
 ---
 # Create and edit fields (attributes)
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
+With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], fields define the individual data items that can be used to store data in an entity. Fields are sometimes called attributes by developers. You can use the customization tools in the solution explorer to edit system fields that allow customization, or to create, edit, or delete custom entities.  
   
 <a name="BKMK_CreatingAndEditngFields"></a>   
 ## Create and edit fields  
@@ -51,7 +52,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], fields define th
  Any of the fields that provide direct text input have an **IME Mode**. The input method editor (IME) is used for East Asian languages like Japanese. IMEs allow the user to enter the thousands of different characters used in East Asian written languages using a standard 101-key keyboard.  
   
 ### Create or edit entity fields  
- Create new fields to capture data when existing system entities don’t have fields that meet your requirements. After you create new fields, be sure to include them on the forms and views for the entity so that they are available from the relevant [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user interface. You can also add the new fields to reports, but be aware of the following restrictions:  
+ Create new fields to capture data when existing system entities don’t have fields that meet your requirements. After you create new fields, be sure to include them on the forms and views for the entity so that they are available from the relevant app user interface. You can also add the new fields to reports, but be aware of the following restrictions:  
   
 -   Some system entities or custom entities that are included in a managed solution might not allow you to add new fields.  
   
@@ -59,15 +60,13 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], fields define th
   
 -   The default solution is a special, unmanaged solution that shows you all solution components from any managed or unmanaged solutions. You can’t edit *anything* in the context of a managed solution; However, all the things you find there are in your default solution anyway, so you won’t need to.  
   
-1. [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
-2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+2.  Select **Customize the System**.  
   
-3.  Select **Customize the System**.  
+3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-4.  Under **Components**, expand **Entities**, and then expand the entity you want.  
-  
-5.  Select **Fields**.  
+4.  Select **Fields**.  
   
     -   To add a new field, on the Actions toolbar, select **New**, and enter a **Display Name** to generate the **Name**.  
   
@@ -86,20 +85,20 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], fields define th
     > [!NOTE]
     >  When you select multiple fields to edit, the **Edit Multiple Fields** dialog box appears. You can edit **Field Requirement**, **Searchable**, and **Auditing**.  
   
-6.  For new fields, under **Type**, enter the required information for the specified type. For existing fields, you cannot modify the type, but you can modify the settings for the type. More information: [types of fields](../customize/types-of-fields.md).  
+5.  For new fields, under **Type**, enter the required information for the specified type. For existing fields, you cannot modify the type, but you can modify the settings for the type. More information: [types of fields](../customize/types-of-fields.md).  
   
-7.  Select the **Field type**, **Format**, and **Maximum length** of the field.  
+6.  Select the **Field type**, **Format**, and **Maximum length** of the field.  
   
-8.  Select the **IME mode** for this attribute.  
+7.  Select the **IME mode** for this attribute.  
   
     > [!NOTE]
     >  This specifies whether the active state of an input method editor (IME) is enabled. An IME lets you enter and edit Chinese, Japanese, and Korean characters. IMEs can be in an active or inactive state. The active state accepts Chinese, Japanese, or Korean characters. The inactive state behaves like a regular keyboard and uses a limited set of characters.  
   
-9. For a new field, be sure to add a **Description** of the field – that provides instructions to your users about how to use the field.  
+8. For a new field, be sure to add a **Description** of the field – that provides instructions to your users about how to use the field.  
   
-10. Select **Save and Close**.  
+9. Select **Save and Close**.  
   
-11. Publish your customization.  
+10. Publish your customization.  
   
     -   To publish your changes for one entity, under **Components**, select **Entities**, and then select the entity that you made changes to. On the **Actions** toolbar, select **Publish**.  
   
