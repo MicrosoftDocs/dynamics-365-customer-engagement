@@ -2,8 +2,8 @@
 title: Use the Main form and its components | Microsoft Docs
 description: Know how to use the Main form and its components in the unified interface based apps
 keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365
-author: Navakiran
-ms.author: nabuthuk
+author: anjgupta
+ms.author: nabuthuk; anjgup
 manager: shellyha
 ms.date: 03/15/2018
 ms.service: crm-online
