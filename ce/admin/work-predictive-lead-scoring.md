@@ -51,8 +51,7 @@ The following screen displays a typical Lead Score widget with positive and nega
 The numbered sections are:
 1.	**Basic Information.** Displays the basic information of a lead—such as lead score, lead grade, and lead score trend—to help you avoid going back to the My Open Leads Scored view to see basic information.
 2.	**Top Reasons.** Displays the list of reason that are affecting the lead score. This helps you to analyze and consider the lead for converting into an opportunity. You can also take necessary action to improve the lead score, such as set up meetings and follow-ups.  
-[v-tiburd]: <> (Please check the following for accuracy, particular "the user"--should it be "a user" or "you" instead?--and "an appropriate"...thanks)
-3.	**Feedback.** Displays feedback that's provided by the user to a lead. You can change the feedback with an appropriate lead score. 
+3.	**Feedback.** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. 
     To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
 
