@@ -1,21 +1,19 @@
 ---
-title: "Create or change a service (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Create or change a service (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to create or change a service in Dynamics 365 for Customer Service
+keywords: Service management; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamiccs 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 93c16131-07ba-413b-a2e2-0f51ca1dfe07
-caps.latest.revision: 45
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Create or change a service (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -75,10 +73,10 @@ A service requires at least one selection rule and one or more resources, resour
   
    Resource groups are users, facilities, or equipment that can be scheduled interchangeably.  
   
-    > [!WARNING]
-    >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.  
-    >   
-    >  More information: [Create or edit a selection rule](create-simple-selection-rule.md)  
+   >[!WARNING]
+   >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.  
+   >   
+   >  More information: [Create or edit a selection rule](create-simple-selection-rule.md)  
   
 7.  When you’re ready to save your data, click **Save**.  
   

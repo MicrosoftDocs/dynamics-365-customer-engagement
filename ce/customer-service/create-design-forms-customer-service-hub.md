@@ -46,14 +46,14 @@ The following Customer Service Hub entities have the **Main** forms created out-
   
 You can see the forms for each entity in their list of forms given in the solution explorer in the **Customization** area. The default form type for the Unified interface based Customer Service Hub is **Case for Interactive experience - Main**. For more information on the types of forms available, see [Types of forms](#types-of-forms).
 
-![form-type](media/form-type-csh.png)
+![form-type](media/form-type-csh.png "See Form type")
 
 Both the **Main** type forms are available to use in the Customer Service Hub.
 
 ### Enable custom entities in the Customer Service Hub
 You can enable any custom entity or custom activity in the Customer Service Hub, and then create forms for it. To enable a custom entity for Unified interface experience, ensure that the flag **Enable for mobile** is checked in the **Outlook & Mobile** section in the entity metadata:
 
-![enable-custom-entity](media/enable-custom-entity.png)
+![enable-custom-entity](media/enable-custom-entity.png "Enable custom entity")
 
 Check the flag **Read-only in mobile** if you want the custom entity to be read-only on a mobile device.
 
