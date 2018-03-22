@@ -21,7 +21,7 @@ topic-status: Drafting
 - Your organization uses Unified Interface apps.
 - To test the controls, you need a LinkedIn Sales Navigator member seat.
 
-## Add Sales Navigator member or account controls to a form
+## Add Sales Navigator controls to a form
 
 You can customize lead, account, and contact forms by adding LinkedIn controls.
 You can [add two custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) available: 
