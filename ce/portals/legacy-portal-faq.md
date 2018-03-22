@@ -2,7 +2,7 @@
 title: "Frequently asked questions for legacy Adxstudio Portals v7 | MicrosoftDocs"
 description: "Frequently asked questions for legacy Adxstudio Portals v7"
 keywords: "legacy Adxstudio Portals FAQ; legacy Adxstudio Portals frequently asked questions"
-ms.date: 03/21/2018
+ms.date: 03/22/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -20,4 +20,4 @@ topic-status: Drafting
 
 We have compiled a list of frequently asked questions about changes coming for legacy Adxstudio Portals v7.
 
-Click [here](https://aka.ms/gk1u9t) to download FAQ.
+Click [here](https://aka.ms/gk1u9t) to download the FAQ.
