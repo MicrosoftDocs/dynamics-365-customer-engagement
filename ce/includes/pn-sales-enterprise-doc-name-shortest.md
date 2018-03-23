@@ -1,1 +1,1 @@
-Sales, Enterprise edition
+Sales
