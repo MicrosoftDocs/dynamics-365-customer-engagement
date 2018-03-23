@@ -83,3 +83,9 @@ To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
 1. Select a solution marked as having an upgrade available and read the information shown in the side panel. Select the **upgrade** button ![The Upgrade button](media/update-manage-button.png "The Upgrade button") in the side panel and then follow the instructions on your screen to apply it.
 
 1. Repeat this procedure for each solution that requires an update.
+
+### See also
+
+[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
+[Manage Marketing instances](manage-marketing-instances.md)  
+[Uninstall Marketing](uninstall-marketing.md)

@@ -22,7 +22,7 @@ You can remove [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-m
 
 To uninstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
 
-1. Open the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)].
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
 1. Select the **Applications** tab to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
@@ -31,9 +31,15 @@ To uninstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-mod
 
 1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to uninstall. Make sure you have chosen the right one.
+1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to uninstall. Make sure you have chosen the right one.  
     ![Choose the Uninstall Marketing link](media/uninstall-wizard.png "Choose the Uninstall Marketing link")
 
 1. Under **Other actions**, select **Uninstall Marketing from this org**.
 
 1. Follow the instructions on your screen to confirm and complete the uninstall.
+
+### See also
+
+[Open the Dynamics 365 admin center](dynamics-365-admin-center.md)  
+[Keep Marketing up to date](apply-updates.md)  
+[Manage Marketing instances](manage-marketing-instances.md)  
