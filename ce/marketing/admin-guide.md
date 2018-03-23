@@ -2,7 +2,7 @@
 title: "Administrator Guide (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Index page showing administration, system, user and app configuration for Dynamics 365 for Marketing."
 keywords: "administration; admin; user administration; system configuration"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: marketing
 ms.topic: get-started-article
@@ -53,10 +53,10 @@ topic-status: Drafting
 </td><td>
 
 <h2>Configure Marketing features</h2>
-<li>[Configure marketing pages](marketing-settings.md#configure-marketing-pages)</li>
+<li>[Configure landing pages](marketing-settings.md#config-mkt-pages)</li>
 <li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
-<li>[Choose entities for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
-<li>[Set up events and webinars](events-settings.md)</li>
+<li>[Choose entities for Customer Insights sync](marketing-settings.md#dci-sync)</li>
+<li>[Event management settings](events-settings.md)</li>
 <li>[Manage quotas](quota-management.md)</li>
 
 </td></tr>

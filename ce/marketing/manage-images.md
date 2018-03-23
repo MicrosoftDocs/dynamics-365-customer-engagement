@@ -2,7 +2,7 @@
 title: "Manage image files (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to manage keywords and upload images to the file library in Dynamics 365 for Marketing"
 keywords: "tutorial; keywords; images; files; upload; library"
-ms.date: 11/07/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Manage images for landing pages and email messages
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 In [Create a marketing email and go live](create-marketing-email.md), you saw how to upload an image while adding it to an email message. You can use similar techniques to add images to your marketing page designs too. But you can also establish a library of images (and other files) that users can include in their designs. Your library will typically include brand-identity graphics such as logos, product images, and clip art.
 

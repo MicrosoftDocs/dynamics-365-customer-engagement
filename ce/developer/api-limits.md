@@ -2,7 +2,7 @@
 title: "API Limits | MicrosoftDocs"
 description: "Understand the limits for API requests."
 ms.custom: ""
-ms.date: 02/18/2018
+ms.date: 03/08/2018
 ms.reviewer: "sriknair"
 ms.service: "crm-online"
 ms.topic: "article"
@@ -18,7 +18,7 @@ manager: "faisalmo"
 - [!INCLUDE [cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 - [!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
  
-Beginning March 19, 2018 we will limit the number of API requests made by each user within five minutes. When this limit is exceeded, an exception will be thrown by the platform.
+Beginning March 19, 2018 we will limit the number of API requests made by each user, per organization instance, within a five minute interval. When this limit is exceeded, an exception will be thrown by the platform.
 
 The limit will help ensure that users running applications that make extraordinarily large demands on servers will not affect other users. The limit will not affect normal users of the platform. Only applications that perform a very large number of API requests will be affected. Based on telemetry data analysis, this limit is well within the bounds of most applications that perform a large number of API requests. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
 
@@ -26,7 +26,7 @@ If your application has the potential to exceed the limit, please consider the g
 
 ## What is the limit?
 
-Each user will be allowed up to 60,000 API requests within five minutes.
+Each user will be allowed up to 60,000 API requests, per organization instance, within five minute sliding interval.
 
 ## What happens when the limit is exceeded?
 
@@ -42,7 +42,7 @@ All requests will return these error responses until the volume of API requests 
 
 ## How is this limit calculated?
 
-As an organization, API requests made by each of your licensed users (including the licensed identity used for running automation) will be measured against this limit. The platform will measure the number of API requests made in five minutes, which keeps sliding by a definite period. During each measurement interval, at the end of five minutes, the number of API requests by the user is counted. In the figure below, three users are making API call requests over a six-minute period.  
+Within an organization instance, API requests made by each of your licensed users (including the licensed identity used for running automation) will be measured against this limit. The platform will measure the number of API requests made in five minutes, which keeps sliding by a definite period. During each measurement interval, at the end of five minutes, the number of API requests by the user is counted. In the figure below, three users are making API call requests over a six-minute period.  
 
 ![api-limit-implementation](media/api-limit-implementation-1.png)
 
@@ -50,7 +50,7 @@ As an organization, API requests made by each of your licensed users (including 
 |--|--|
 |A|At the end of five minutes, the total number of API requests for user 1 is 6K, user 2 is 3K, and user 3 is 10K.|
 |B|At 5+X minutes, X being a constant slice of time (say, a few seconds), which is the sliding interval constant, the platform measures the total for each of these users who are still active. According to the diagram above, this would be user 1 = 7K, user 2 is 6K and user 3 is 25K. All the cumulative numbers are still below the 60,000 limit, so no change in behavior is expected for these users.|
-|C|As time passes and reaches 5+2X, user 3 makes about 40K API requests, while user 1 and user 2 make 8K and 9K calls, respectively. This results in user 3 reaching 75K API requests within five minutes, which causes 15K (75K-60K=15K) of his requests to be denied for the next (5-2X) minutes. |
+|C|As time passes and reaches 5+2X, user 3 makes about 40K API requests, while user 1 and user 2 make 8K and 9K calls, respectively. This results in user 3 reaching 65K API requests within five minutes, which causes 5K (65K-60K=5K) of his requests to be denied.|
 
 > [!NOTE]
 > Requests that perform multiple API requests like <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> or <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest> using the .NET SDK assemblies, or `$batch` using the Web API, count as a single request to calculate this limit. However, these API requests must follow the [Run-time limitations](org-service/use-executemultiple-improve-performance-bulk-data-load.md#run-time-limitations) for these types of operations.

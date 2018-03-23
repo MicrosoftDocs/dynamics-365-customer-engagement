@@ -10,6 +10,7 @@ manager: brycho
 ms.date: 12/15/2017
 ms.service: crm-online
 ms.topic: article
+author: "anjgupta"
 ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
 ---
 # Accessibility for people with disabilities

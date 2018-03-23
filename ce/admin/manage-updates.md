@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/10/2018
+ms.date: 03/07/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -337,7 +337,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
  [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
   
 ### Prepare your users  
- To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [Get ready for the next release](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update), where you will find videos, walkthroughs, and other information that you can use to familiarize yourself with the new experience.  
+ To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 (online), version 9](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
   
 <a name="BKMK_Checklist"></a>   
 ## Checklist for the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update  
@@ -389,6 +389,9 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 > [!NOTE]
 >  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
+
+## Notice about Online Policies
+Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
   
 ### See also  
  [Policies and Communications for Dynamics 365 (online)](../admin/policies-communications.md)    

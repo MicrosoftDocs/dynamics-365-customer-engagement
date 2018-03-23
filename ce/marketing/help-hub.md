@@ -2,7 +2,7 @@
 title: "Documentation resources for Dynamics 365 for Marketing | Microsoft Docs"
 description: "A starting point for browsing help content for Dynamics 365 for Marketing."
 keywords: "marketing;help"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -30,7 +30,7 @@ topic-status: Drafting
 <li>[Organization settings](organization-settings.md)</li>
 <li>[Business Management settings](business-management-settings.md)</li>
 <li>[Marketing settings](marketing-settings.md)</li>
-<li>[Events settings](events-settings.md)</li>
+<li>[Event management settings](events-settings.md)</li>
 <li>[Additional settings](additional-settings.md)</li>
 <li>[Manage your quotas](quota-management.md)</li>
 <li>[Customize Dynamics 365 for Marketing](customize.md)</li>
@@ -78,7 +78,6 @@ topic-status: Drafting
 <li>[Engage customers online with portals](portals.md)</li>
 <li>[Create and run online surveys](surveys.md)</li>
 <li>[Integrate with LinkedIn Lead Gen](linkedin-lead-gen-integration.md)</li>
-<li>[Analyze results with Power BI](power-bi-analytics.md)</li>
 </td><td>
 
 <h2>Extend the system</h2>

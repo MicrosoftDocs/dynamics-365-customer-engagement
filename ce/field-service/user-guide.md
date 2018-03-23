@@ -9,6 +9,7 @@ ms.technology:
   - "field-service"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
+author: "mduelae"
 ms.assetid: 8a311df9-3307-4524-85e5-76258d80ff86
 caps.latest.revision: 46
 ms.author: "mkaur"

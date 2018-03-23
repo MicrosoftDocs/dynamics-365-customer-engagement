@@ -6,7 +6,7 @@ author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/30/2017
+ms.date: 02/20/2018
 ms.topic: get-started-article
 ms.service: crm-online
 ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
@@ -27,7 +27,7 @@ Customer Service Hub is based on the Unified Interface framework. Some of the ke
 
 Watch this video to learn more about the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/OEn_FN5azq0?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
   
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. 
 

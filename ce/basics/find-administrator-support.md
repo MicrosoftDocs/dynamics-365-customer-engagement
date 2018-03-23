@@ -12,13 +12,13 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: ffa6c917-3ad1-48ee-9d8f-428fa3f97215
 caps.latest.revision: 12
-author: "brycho"
-ms.author: "brycho"
+author: "jimholtz"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Find your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or support person
+# Find your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator or support person 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 You may occasionally run across issues that require consultation with your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator. If you don’t know who your administrator is, you can use Advanced Find to find your administrator.  
   
