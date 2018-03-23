@@ -16,7 +16,7 @@ manager: "amyla"
 [!INCLUDE[./includes/execute-description.md](./includes/execute-description.md)]
 
 > [!NOTE]
-> This method is supported only for the online mode, which implies that you must use the **Xrm.WebApi.online** object to execute the method. Otherwise, it will fail.
+> This method is supported only for the online mode, which implies that you must use the [Xrm.WebApi.online](online.md) object to execute the method. Otherwise, it will fail.
 
 ## Syntax
 
