@@ -39,22 +39,22 @@ The interactive dashboards come in two flavors:
 ### Multi-stream dashboard standard view  
  In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them: 
   
- ![Multistream interactive dashboard](../customize/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
+ ![Multistream interactive dashboard](../customer-service/media/interactive-dashboards-multi-stream-csh.png "Multi-stream interactive dashboard")  
   
 ### Multi-stream dashboard tile view  
  Multi-stream dashboard in tile view:  
   
- ![Multistream dashboard tile view](../customize/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
+ ![Multistream dashboard tile view](../customer-service/media/interactive-dashboards-multi-stream-tiles-csh.png "Multi-stream dashboard tile view")  
   
 ### Multi-stream dashboard layouts  
  For multi-stream dashboards, you can choose from four different layouts.  
   
- ![Multistream dashboard layouts](../customize/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
+ ![Multistream dashboard layouts](../customer-service/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
   
 ### Multi-stream entity-specific dashboard  
  The entity-specific dashboard for the **Case** entity is shown here.  
   
-![Multistream cases dashboard](../customize/media/interactive-dashboard-cases-entity-specific.png)
+![Multistream cases dashboard](../customer-service/media/interactive-dashboard-cases-entity-specific.png)
   
 ### Single-stream dashboard  
  The single-stream dashboard contains the data stream on the left and visual filters and tiles on the right.  
@@ -64,7 +64,7 @@ The interactive dashboards come in two flavors:
 ### Single-stream dashboard layouts  
  For single-stream dashboards, you can choose from four different layouts.  
   
- ![Single stream dashboard layouts](../customize/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts.")  
+ ![Single stream dashboard layouts](../customer-service/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts.")  
   
 ## Configure entities, fields, and security roles for the interactive dashboards  
  When you configure interactive dashboards, your first task is to enable entities, fields, and security roles, so that interactive dashboards can be configured  for them.  
