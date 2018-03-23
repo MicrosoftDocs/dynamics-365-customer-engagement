@@ -2,7 +2,7 @@
 title: "Administer and manage portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Get started with administering and managing portals."
 keywords: "portals, portal capabilities for Dynamics 365, get started with portals"
-ms.date: 03/21/2018
+ms.date: 03/23/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
