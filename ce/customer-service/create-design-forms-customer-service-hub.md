@@ -21,7 +21,7 @@ The **Main** forms come with an improved user experience optimized for agent pro
 
 Upgrading to the Customer Service Hub? See the blog to know some key upgrade-specific changes as well as general customization and user experience changes :[ Upgrade from Interactive Service Hub to the Customer Service Hub in Microsoft Dynamics 365 (online) version 9.0](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
 
-For information about how to use **Main** form, and add or edit components, see [Use the Main form and its components](use-main-form-and-components.md).
+For information about how to use **Main** form, and add or edit components, see [Use the Main form and its components](../customize/use-main-form-and-components.md).
 
 ## Main form supported entities
   
