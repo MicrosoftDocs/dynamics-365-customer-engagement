@@ -16,7 +16,7 @@ manager: "amyla"
 [!INCLUDE[./includes/executeMultiple-description.md](./includes/executeMultiple-description.md)]
 
 > [!NOTE]
-> This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps). 
+> This method is supported for online mode only, which implies that you must use the **Xrm.WebApi.online** object to execute this method. Otherwise, it will fail. 
 
 If you want to execute multiple requests in a transaction, you must pass in a change set as a parameter to this method. [Change sets](../../../webapi/execute-batch-operations-using-web-api.md#bkmk_ChangeSets) represent a collection of operations that are executed in a transaction. You can also pass in individual requests and change sets together as parameters to this method.
 
@@ -29,7 +29,7 @@ If you want to execute multiple requests in a transaction, you must pass in a ch
 
 ```JavaScript
 var requests = [req1, req2, req3];
-Xrm.WebApi.executeMultiple(requests).then(successCallback, errorCallback);
+Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback);
 ```
 
 **Execute multiple requests in a transaction:**
@@ -39,7 +39,7 @@ In this case, `req1`, `req2`, and `req3` will be executed in transaction.
 ```JavaScript
 var changeSet = [req1, req2, req3];
 var requests = [changeSet];
-Xrm.WebApi.executeMultiple(requests).then(successCallback, errorCallback);
+Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback);
 ```
 
 
@@ -50,7 +50,7 @@ In this case, `req1`, `req2`, and `req3` will be executed in transaction, but `r
 ```JavaScript
 var changeSet = [req1, req2, req3];
 var requests = [req4, req5, changeset];
-Xrm.WebApi.executeMultiple(requests).then(successCallback, errorCallback);
+Xrm.WebApi.online.executeMultiple(requests).then(successCallback, errorCallback);
 ```
 
 ## Parameters
@@ -105,7 +105,4 @@ On success, returns a promise containing an array of objects with the attributes
 ### Related topics
 
 [Xrm.WebApi](../xrm-webapi.md)
-
-
-
 
