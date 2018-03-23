@@ -186,6 +186,9 @@ Major service incident emails can easily be identified by the orange banner.
  You can easily identify these communications by the dark-blue banner.  
   
  ![Post-purchase email banner](../admin/media/post-purchase-banner.png "Post-purchase email banner")  
-  
+
+## Notice about Online Policies
+Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
+
 ### See also  
  [Manage Microsoft Dynamics 365 (online) updates](../admin/manage-updates.md)   
