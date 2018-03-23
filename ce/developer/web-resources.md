@@ -84,7 +84,7 @@ $webresource:<name of Web Resource>
 > [!NOTE]
 >  When using the `$webresource` directive, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will create or update solution dependencies.  
   
-### Xrm.Utility.openWebResource  
+### Xrm.Navigation.openWebResource  
  The Xrm.Navigation.[openWebResource](clientapi/reference/Xrm-Navigation/openWebResource.md) function will open an HTML web resource in a new window with parameters to pass the name of the web resource, any query string data to be passed in the data parameter, and information about height and width of the window.  
   
  The URL generated includes the unique GUID token so that the cached web resource will be loaded.  

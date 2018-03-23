@@ -37,5 +37,5 @@ You can access **Quick view control properties** by selecting **Settings** > **C
 
 ## See also
 
-[Use the Main form and its components](../customer-service/use-main-form-and-components.md)
+[Use the Main form and its components](../customize/use-main-form-and-components.md)
  

@@ -2,10 +2,10 @@
 title: Use Customer Service Hub on mobile | Microsoft Docs
 description: Use Dynamics 365 Customer Service Hub on  phones and tablets
 keywords: Customer Service Hub on mobile; Customer Service;  Microsoft Dynamics 365;
-author: mkaur
+author: anjgupta
 applies_to: Dynamics 365 (online) 
-ms.author: mkaur
-manager: brycho
+ms.author: anjgup
+manager: sakudes
 ms.date: 09/13/2017
 ms.topic: article
 ms.service: crm-online

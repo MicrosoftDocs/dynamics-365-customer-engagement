@@ -1,21 +1,19 @@
 ---
-title: "Find knowledge articles from within a record (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Find knowledge articles from within a record (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to find knowledge articles from within a record in Dynamics 365 for Customer Service
+keywords: Find knowledge articles; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 8dc8e53f-984d-4c5c-98aa-4396786a16e3
-caps.latest.revision: 19
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Find knowledge articles from within a record
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -63,7 +61,7 @@ For any customer service team, it’s important to give customers the right info
   
  ![Option to filter knowledge article search results](../customer-service/media/filter-article-search-results.png "Option to filter knowledge article search results")  
   
-     If you’re using the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management solution, you can filter the search results to show all draft articles, all approved articles, or all published articles.  
+   If you’re using the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management solution, you can filter the search results to show all draft articles, all approved articles, or all published articles.  
   
 7.  To see the full content of the article, select the article name link.  
   
@@ -99,5 +97,5 @@ For any customer service team, it’s important to give customers the right info
     5.  To open the article in a new window, click the **Pop Out** button ![Pop out knowledge article in a new window button in Dynamics 365](../customer-service/media/pop-out-article.png "Pop out knowledge article in a new window button in Dynamics 365").  
   
 ### See also  
- [Create and manage a case (Customer Service Hub)](user-guide-customer-service-hub.md)
+ [Create and manage a case (Customer Service Hub)](user-guide-customer-service-hub.md) <br>
  [Create and manage a case (Customer Service)](user-guide-customer-service.md)
