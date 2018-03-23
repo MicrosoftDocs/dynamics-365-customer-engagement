@@ -1,6 +1,6 @@
 ---
 title: "executeMultiple (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 03/20/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -13,12 +13,15 @@ manager: "amyla"
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[./includes/executeMultiple-description.md](./includes/executeMultiple-description.md)] 
+[!INCLUDE[./includes/executeMultiple-description.md](./includes/executeMultiple-description.md)]
+
+> [!NOTE]
+> This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps). 
 
 If you want to execute multiple requests in a transaction, you must pass in a change set as a parameter to this method. [Change sets](../../../webapi/execute-batch-operations-using-web-api.md#bkmk_ChangeSets) represent a collection of operations that are executed in a transaction. You can also pass in individual requests and change sets together as parameters to this method.
 
->[!NOTE]
->You cannot include read operations (retrieve, retrieve multiple, and Web API functions) as part of a change set; this is as per the OData v4 specifications.
+> [!NOTE]
+> You cannot include read operations (retrieve, retrieve multiple, and Web API functions) as part of a change set; this is as per the OData v4 specifications.
 
 ## Syntax
 
