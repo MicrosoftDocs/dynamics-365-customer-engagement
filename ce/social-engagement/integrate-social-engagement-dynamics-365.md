@@ -67,21 +67,71 @@ To configure the connection, you need to have a subscription to Microsoft Social
 
 3. Follow the directions on the Microsoft Social Engagement Configuration page.
   
+## Add Social Engagement visuals to an entity form
+
+To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the iFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. More information: Use the form editor.
+
+[comment]: <> (scrub click/tap)
+
+1. Click **Settings** > **Customizations** > **Customize the System**.
+
+2. In the navigation pane, under **Components**, expand **Entities**.
+
+3. Expand the entity that you want to add the Social Insights control to. Choose **Forms**.
+
+4. In the grid view, choose the entity’s **Main form**.
+
+5. Select the **Insert** tab. At the top of the form, on the ribbon, click the **Social Insights** icon. In the setup dialog box, fill out the required fields, such as the unique name of the control and the label name.    
+Click to enable **Pass record object-type code and unique identifier as parameters**.
+
+6. Click **OK**. The Social Insights control is now added to the entity form. You can resize the control or move the control to another location on the form.
+
+7. Switch back to the **Home** tab. Choose **Save** and then choose **Publish** to publish the added customizations. The control called **Configure Social Insights** appears on all records based on this form. The search topics, search categories and visuals can be added to the control.  
+ 
+Download the eBook: [Microsoft Social Engagement for CRM](http://go.microsoft.com/fwlink/p/?LinkID=393642)  
+
+## Add Social Engagement visual to dashboards
+
+You can add the Social Insights controls to the existing system dashboards or to a new dashboard. Let’s create a new dashboard and add the Social Insights control to it. We’ll use the Set Up Social Insights wizard to lead us through the setup. Shortly after the setup is finished and customizations are published, the charts and graphs with social data will appear on your dashboard.
+
+1. Click Settings > Customizations > Customize the System.
+
+2. In the Navigation Pane, under Components, choose Dashboards.
+
+3. Choose New on the command bar. Choose a layout and choose Create.
+
+4. On the dashboard form, enter the name of the dashboard in the Name text box and choose Save.
+
+5. To add the control, choose Insert Social Insights icon in the center of the section on the dashboard form, or choose More Commands (More commands button) on the command bar and then choose Social Insights in the dropdown list. Set Up Social Insights wizard appears.
+
+6. In the Set Up Social Insights wizard, choose Advanced. The Add Social Insights dialog appears. Fill in the required fields and choose OK. You can also use the default values and choose OK or Cancel to close the dialog box.
+
+7. In the Set Up Social Insights wizard main window, choose Search topic or Search topic category, and then choose Next.
+
+8. To pick the search topic or the search topic category, in the dropdown list, choose the topic or the category, depending on what you chose in the previous step and then choose Next.
+
+    > [!NOTE]
+    > You can create a new search topic, instead of choosing a search topic in the dropdown list. Choose Create a new search topic, fill in the required fields and choose Next.
+
+9. In the visuals drop-down list, choose a graph or a chart you want, such as Analytics summary, Recent posts or Trends. You can add as many visuals as you want and move them up and down the list using the MOVE UP and MOVE DOWN arrows. You can also delete a visual by clicking or tapping the delete icon displayed to the right of the visual. Choose Finish.
+
+10. On the command bar, choose Save and then choose Close.
+
+11. To publish the customizations, choose Publish All Customizations on the command bar. After the customizations are published, you can see the social insights on your dashboard.
+
 ## Set up search topics from within Dynamics 365  
-  
+
+
+[comment]: <> (revise this section)
+
+
 > [!NOTE]
 >  Search topics are usually created by Administrators or Power Analysts directly in the settings of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. However, to get up and running quickly, users with Administrator or Power Analyst user roles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can set up searches from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
  To have the full set of options for creating a search topic available, it’s a good idea to work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up your own searches for Social Engagement](http://go.microsoft.com/fwlink/p/?LinkID=391710), [Marketing Help & Training: Maintain your Social Engagement search terms](http://go.microsoft.com/fwlink/p/?LinkId=526315)  
-  
-## Add Social Engagement visuals to Dynamics 365  
- [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] users can add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] charts and visuals to dashboards, or they can add them to account, contact, or competitor forms. You can also add [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] charts and visuals to other entity type forms.  
-  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Add Social Engagement visuals to a dashboard or account](http://go.microsoft.com/fwlink/p/?LinkID=391707)  
-  
- Download the eBook: [Microsoft Social Engagement for CRM](http://go.microsoft.com/fwlink/p/?LinkID=393642)  
+
 
 ## Reset Social Insights
 
