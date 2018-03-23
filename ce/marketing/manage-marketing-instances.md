@@ -91,7 +91,7 @@ To copy a production instance to a sandbox:
 
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and make sure that the [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] application and its related solutions are all up to date on your production instance, as described in [Keep Marketing up to date](apply-updates.md).
 
-1. As mentioned in [Prepare for copies and manual backups](#prepare-backup), move all your running live entities to a _stopped_ state.
+1. As mentioned in [Prepare for copies and manual backups](#prepare-backup), move all your running live entities to a _stopped_ state if you will make a full copy. You don't have to do this if you are planning to make a minimal copy because live entities aren't copied during a minimal copy.
 
 1. Return to the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and go to the **Instances** tab. Select your production instance (the instance you are copying from) and then choose **Copy** from the side panel.  
     ![Select the Copy button](media/copy-instance-start.png "Select the Copy button")
