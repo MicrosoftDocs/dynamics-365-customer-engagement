@@ -2,7 +2,7 @@
 title: "Frequently asked questions for legacy Adxstudio Portals v7 | MicrosoftDocs"
 description: "Frequently asked questions for legacy Adxstudio Portals v7"
 keywords: "legacy Adxstudio Portals FAQ; legacy Adxstudio Portals frequently asked questions"
-ms.date: 03/22/2018
+ms.date: 03/23/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
