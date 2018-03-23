@@ -2,18 +2,18 @@
 title: Pointers for Customer Service Hub for Dynamics 365 | MicrosoftDocs
 description: Your starting point for help of Customer Service Hub for Dynamics 365
 keywords: Quick help for Customer Service Hub; Customer Service Hub help
-ms.date: 02/20/2018
-ms.service: crm-online
-ms.topic: get-started-article
+author: anjgupta
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
-author: anjgupta
 ms.author: anjgup
 manager: sakudes
-topic-status: Completed
+ms.date: 02/20/2018
+ms.topic: get-started-article
+ms.service: crm-online
+ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 ---
+
 # Customer Service Hub Help & Training
 
 <tr>

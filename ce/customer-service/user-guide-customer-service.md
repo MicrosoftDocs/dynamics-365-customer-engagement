@@ -5,7 +5,6 @@ keywords: Customer Service;  Microsoft Dynamics 365
 author: brycho
 applies_to: Dynamics 365 (online) 
 ms.author: brycho
-ms.custom: ""
 ms.date: 09/30/2017
 ms.topic: get-started-article
 ms.service: crm-online
