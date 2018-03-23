@@ -20,7 +20,7 @@ caps.latest.revision: 19
 topic-status: Drafting
 ---
 
-# Publish a product or bundle to make it available for selling (Sales)
+# Publish a product, family, or bundle to make it available for selling (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -29,6 +29,24 @@ When you're ready to sell a product or bundle, publish it to make it available t
 > [!NOTE]
 >  You can only publish a product or bundle with a parent family if the parent product family is active.  
      
+## Publish a product, family, or bundle (Sales Hub app)
+
+1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
+  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**. 
+
+3. Open the product, bundle, or family you want to publish, and on the command bar, select **Publish**. 
+
+   ![Publish a product](media/publish-product.png "Publish a product")
+
+   This will change the product status to **Active** and make it available for selling.
+
+> [!TIP]
+
+> You can't publish multiple product records at the same time. To publish all child products and families of a parent family at once, open the family, and choose **Publish** > **Publish Hierarchy**. For product records that don't belong to a product family, publish them individually after creating or editing them to make them available to your sales agents.
+
+## Publish a product or bundle (Sales app)
+
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
     #### Check your security role  

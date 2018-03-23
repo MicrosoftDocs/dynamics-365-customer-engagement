@@ -1,5 +1,5 @@
 ---
-title: "Create product bundles to sell multiple items together (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Set up product bundles to sell multiple items together (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Combine products in a bundle in Dynamics 365 for Sales to sell multiple items together."
 keywords: "Bundle, Product Bundle"
 ms.date: 04/01/2018
@@ -20,7 +20,7 @@ caps.latest.revision: 28
 topic-status: Drafting
 ---
 
-# Create product bundles to sell multiple items together (Sales)
+# Set up product bundles to sell multiple items together (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -39,9 +39,84 @@ Encourage customers to buy more products instead of a single product by combinin
 -   Pairing a top-selling product with a less popular product  
   
 -   Grouping products in a way that customers get more benefit from the full line of products, for example Microsoft Office Suite or a digital camera with lenses  
+
+
+## Create a product bundle (Sales Hub app)
+
+1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
+  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**.  
+  
+3.  To add a standalone product bundle, select **Add Bundle**.  
+  
+     -OR-  
+  
+     To add product bundle to an existing family, select the family in the list, and then select **Add Bundle**.  
+
+     ![Add Bundle button on the Products grid](media/add-bundle.png "Add Bundle button on the Products grid")
+  
+4.  Fill in the information:
+
+    - **Name**. 
+
+    - **Product ID**.
+
+    - **Parent**. Select a parent product family for the product bundle. If you're creating a child product bundle in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
+
+    - **Valid From**/**Valid To**. Define the period the product bundle is valid for by selecting a **Valid From** and **Valid To** date.
+    
+    - **Unit Group**. Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you may have created a unit group called "Seeds," and defined its primary unit as "packet."  
+  
+    - **Default Unit**. Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit. 
+
+    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
+
+    - **Default Price List**. If this is a new product, this field is read-only. Before you can select a default price list, you must complete all the required fields, and then save the record. Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product. Then, if a customer record does not contain a price list, [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] can use the default price list for generating quotes, orders, and invoices.
+
+    - **Decimals Supported**. Enter a whole number between 0 and 5. If the product can't be divided into fractional quantities, enter 0. The precision of the Quantity field in the quote, order, or invoice product record is validated against the value in this field if the product does not have an associated price list.
+
+    - **Subject**. Associate this product with a subject. You can use subjects to categorize your products and to filter reports. 
+  
+5. Select Save.  
+  
+6.  On the **Bundle Products** tab, select **Add New Product Association**.  
+  
+     The **Product Association** page opens.  
+  
+7. Select products that you want to add to the bundle.  
+  
+    - **Bundle**. The bundle you're adding the products to is selected by default.  
+  
+    - **Product**. Select the **Lookup** button and select a product you want to add to the bundle. You can't add a family or a product bundle to a product bundle.
+  
+    - **Quantity**. Specify the quantity of product you want to add to the bundle.  
+  
+    - **Required**. Specify whether this product is required or optional. If you select a product as optional, you can sell the bundle without the product.  
+  
+    - **Unit**. Select the unit in which you want to sell the product.  
+  
+8. Select **Save and Close**.  
+  
+9. To change properties of an individual product in the bundle, select **Edit Properties** corresponding to the product, and change the values as required.  
+  
+10. If you've added this bundle to a family, the bundle will inherit the properties from its parent family. To change the bundle's property, open the property and select **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
+  
+11. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
+
+
+  > [!NOTE]
+
+  > Price lists and price list items are not supported in the apps built on Unified Interface framework. You can't create or add price list items in the Sales Hub app. To do this, use the Sales app instead. 
+
+## Pricing of bundles  (Sales Hub)
+ Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered as zero.  
+  
+> [!TIP]
+  
+> To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for the name and ID.  
+
    
-<a name="bkmk_CreateBundle"></a>   
-## Create a product bundle  
+## Create a product bundle  (Sales app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -94,8 +169,7 @@ Encourage customers to buy more products instead of a single product by combinin
   
 13. In the **Product Relationships** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
   
-<a name="bkmk_BundlePricing"></a>   
-## Pricing of bundles  
+## Pricing of bundles  (Sales)
  Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered as zero.  
   
 > [!TIP]

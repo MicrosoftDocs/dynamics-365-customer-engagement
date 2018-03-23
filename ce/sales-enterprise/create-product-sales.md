@@ -46,7 +46,7 @@ Products are the backbone of your business. They can be physical products or ser
 
     - **Product ID**.
 
-    - **Parent**. If you're creating a child product in a product family, the name of the parent product family is shown here. This can't be changed.
+    - **Parent**. Select a parent product family for the product. If you're creating a child product in a product family, the name of the parent product family is populated here. This can't be changed after the record is saved.
 
     - **Valid From**/**Valid To**. Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
     

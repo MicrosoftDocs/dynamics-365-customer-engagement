@@ -28,6 +28,42 @@ Improve your opportunities to increase sales by adding related products as sugge
   
  The related products are displayed as suggestions to your sales agents during opportunity or order management. These suggestions help your sales agents recommend related products and bundles/kits to the customers, and increase product sales. You can define the following relationships for a product: Accessory, cross-sell, substitute, and up-sell. For example, for a [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Pro product, you can add [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Book as an up-sell product so that when your sales agent is adding [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] Pro to any opportunity, quote, order, or invoice,  [!INCLUDE[pn_microsoft_surface](../includes/pn-microsoft-surface.md)] is suggested as the up-sell option.  
   
+## Add related products (Sales Hub app)
+
+1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
+  
+2. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Products**. 
+
+3. Open a product you want to define related products for. The product must be in the **Draft**, **Active** or **Under Revision** state. 
+
+4. Select the **Related** tab, and then select **Relationships**.
+
+    ![Relationships option on the Related tab](media/relationships-option-in-related-tab.png "Relationships option on the Related tab")
+
+    On the **Relationships** tab, you’ll see the list of products if the product has existing related products.
+
+5. Select **Add New Product Relationship**. 
+ 
+    ![Add New Product Relationship button on the Relationships tab](media/relationships-tab.png "Add New Product Relationship button on the Relationships tab")
+
+6.	In the **New Product Relationship** form, enter the following details: 
+
+    - **Related Product**. Select a product that you want to add as a related product to the existing product record you're working on. 
+    
+    - **Sales Relation Type**. Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product. 
+    
+    - **Direction**. Select whether the relationship between the products will be uni-directional or bi-directional. When you select Uni-Directional, the product that you select in Related Product will be shown as a recommendation for the existing product but not vice-versa. 
+
+7.	Select **Save** or **Save & Close**. 
+
+
+> [!NOTE]
+
+> Currently, product suggestions are not supported in the Sales Hub app. 
+
+
+## Add related products (Sales app)
+
 1. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
 2.  Select **Families & Product**.  
