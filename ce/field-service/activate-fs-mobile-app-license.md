@@ -28,33 +28,18 @@ If you’re the admin at an organization with the Resco (Woodford) solution
 installed to enable additional mobile capabilities for field technicians, there
 are a few important licensing differences to be aware of:
 
--   Resco (Woodford) is a third party that charges per user, per organization.
+- Resco (Woodford) is a third party that charges per user, per organization.
+- Each field service license you purchase from Microsoft allows you to assign one Resco license per user, with the total number of Resco users for all organizations you manage not to exceed the total number of field service licenses.
 
--   Each field service license you purchase from Microsoft allows you to assign
-    one Resco license per user, with the total number of Resco users for all
-    organizations you manage not to exceed the total number of field service
-    licenses.
+    For example, if you purchase 75 field service licenses and you manage three different organizations, you could assign Resco licenses to 25 users at each organization for a maximum total of 75 users (not 75 users at *each* organization for a total of 225).
 
->   For example, if you purchase 75 field service licenses and you manage three
->   different organizations, you could assign Resco licenses to 25 users at each
->   organization for a maximum total of 75 users (not 75 users at *each*
->   organization for a total of 225).
+    The maximum number of Resco users allowed includes trial, production, and sandbox organizations.
 
->   The maximum number of Resco users allowed includes trial, production, and
->   sandbox organizations.
+- Before you assign licenses to Resco users, you need to activate the licenses via the Resco (Woodford) website. More information: Woodford User Guide
 
--   Before you assign licenses to Resco users, you need to activate the licenses
-    via the Resco (Woodford) website. More information: Woodford User Guide
+    Note: A 30-day trial automatically starts when you install the Resco (Woodford) solution. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
 
->   Note: A 30-day trial automatically starts when you install the Resco
->   (Woodford) solution. Activate the licenses before the trial period ends, or
->   you won’t be able to access the Resco (Woodford) configuration tool until
->   paid licenses are allocated.
-
-Field service licenses purchased from Microsoft are allocated to one
-organization at a time, based on the organization ID. For example, if you
-purchase 100 field service licenses, you can assign 85 to users in a production
-organization, and assign the remaining 15 to users in the organization’s
+Field service licenses purchased from Microsoft are allocated to one organization at a time, based on the organization ID. For example, if you purchase 100 field service licenses, you can assign 85 to users in a production organization, and assign the remaining 15 to users in the organization’s
 sandbox.
 
 Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations
@@ -62,12 +47,9 @@ Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes
 
 1.  Go to the [Microsoft support
     page](https://go.microsoft.com/fwlink/?linkid=854120).
-
 2.  For Problem Type choose, FieldOne Licensing and for Category choose License
     Request, then click Start Request.
-
 3.  Enter your contact information and click Continue.
-
 4.  For Incident Title, enter Field Service App Mobile License Activation
     Request. In the Tell us more about your issue box, enter the following
     information:
