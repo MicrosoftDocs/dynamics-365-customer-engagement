@@ -418,3 +418,6 @@ Your system administrator can enable entities other than case for SLA. For the C
 ### See also
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
+
+
+[Use the Main form and its components](../customize/use-main-form-and-components.md)
