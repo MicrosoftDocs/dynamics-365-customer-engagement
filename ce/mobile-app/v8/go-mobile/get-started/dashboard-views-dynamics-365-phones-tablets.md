@@ -17,7 +17,7 @@ ms.author: "mkaur"
 ---
 # Dashboard views in Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Work with records on the dashboard  
  Where [The workspace, your personalized action hub in Dynamics 365 for phones and tablets](workspace-personalized-action-hub-dynamics-365-phones-tablets.md) shows you common tasks and daily priorities, dashboards give you an overview of important information. Click the home icon any time to get your dashboards. Here are some of the  ways you can work with them.  

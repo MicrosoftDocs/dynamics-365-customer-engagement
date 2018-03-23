@@ -22,7 +22,7 @@ manager: "brycho"
 ---
 # Work offline in Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]  
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]  
   
 ### Offline synchronization vs. Offline drafts  
  You’ll have one of two possible offline experiences, depending on which one your admin set up:  

@@ -22,7 +22,7 @@ manager: "brycho"
 ---
 # Troubleshoot error code 800c0019 on Windows Phones
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 If you get error code 800c0019 when you try to sign in to your [!INCLUDE[cc_Microsoft](../../../../includes/cc-microsoft.md)] account while using the [!INCLUDE[pn_Mobile_Express_long](../../../../includes/pn-mobile-express-long.md)] or [!INCLUDE[pn_crm_for_phones_express](../../../../includes/pn-crm-for-phones-express.md)] apps, chances are that you have the wrong date and time settings on your [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] phone. This can occur after updating your [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] phone, removing and replacing the battery, or after a time change.  
   

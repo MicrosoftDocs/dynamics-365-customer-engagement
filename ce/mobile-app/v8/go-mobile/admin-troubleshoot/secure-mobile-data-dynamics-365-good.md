@@ -21,7 +21,7 @@ manager: "brycho"
 ---
 # Secure your mobile data with Microsoft Dynamics 365 for Good
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)], integrated with [!INCLUDE[pn_good_dynamics](../../../../includes/pn-good-dynamics.md)], protects your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data even if you lose or leave your mobile device somewhere. For example, if you leave your device in a taxi cab and can’t get it back right away, your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data is protected by [!INCLUDE[pn_good_shortest](../../../../includes/pn-good-shortest.md)] encryption. If you lose your device entirely, just notify your admin, who can remotely wipe your [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../../includes/pn-microsoft-dynamics-crm-for-good.md)] data from your device.  
   

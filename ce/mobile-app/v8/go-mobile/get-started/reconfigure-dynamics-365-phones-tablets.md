@@ -20,7 +20,7 @@ manager: "brycho"
 ---
 # Reconfigure Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 ## Reconfigure the Dynamics 365 for tablets app  
  Reconfiguring deletes all data and metadata from the cache, though you shouldn't rely on this as a security measure.  

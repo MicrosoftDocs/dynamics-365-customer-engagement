@@ -22,7 +22,7 @@ manager: "brycho"
 ---
 # Search and sort in Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
   
  To search, tap ![Dynamics Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics Dynamics 365 for phones and tablets search") on the top of the page, type in the search box, and tap ![Dynamics Dynamics 365 for phones and tablets search](../../../media/mobile-search--button.png "Dynamics Dynamics 365 for phones and tablets search") next to the search box.  
   

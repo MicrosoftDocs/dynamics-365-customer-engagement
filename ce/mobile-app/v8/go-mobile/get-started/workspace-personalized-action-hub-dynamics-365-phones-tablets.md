@@ -17,7 +17,7 @@ ms.author: "mkaur"
 ---
 # The workspace, your personalized action hub in Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 When you first sign in to Dynamics 365 for phones and tablets, a pane slides in. This is your all-new workspace, a personalized action hub to help you get to common tasks more quickly.  
   

@@ -22,7 +22,7 @@ manager: "brycho"
 ---
 # Troubleshoot a Dynamics 365 for Windows app start-up error
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Did you receive this error?  
   

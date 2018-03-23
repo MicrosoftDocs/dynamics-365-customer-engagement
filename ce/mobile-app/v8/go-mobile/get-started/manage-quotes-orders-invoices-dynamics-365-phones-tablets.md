@@ -19,7 +19,7 @@ ms.author: "mkaur"
 ---
 # Manage quotes, orders, and invoices in Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 As a sales professional, you'll frequently work with the following types of records:  
   

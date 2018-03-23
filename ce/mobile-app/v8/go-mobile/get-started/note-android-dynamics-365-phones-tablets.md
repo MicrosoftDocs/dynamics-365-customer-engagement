@@ -17,7 +17,7 @@ ms.author: "mkaur"
 ---
 # A note for Android users of Dynamics 365 for phones and tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Navigation on [!INCLUDE[tn_android](../../../../includes/tn-android.md)] tablets is a little different than on [!INCLUDE[tn_ipad](../../../../includes/tn-ipad.md)] or [!INCLUDE[pn_ms_Windows_short](../../../../includes/pn-ms-windows-short.md)] tablets.  
   
