@@ -16,7 +16,7 @@ manager: "amyla"
 [!INCLUDE[./includes/executeMultiple-description.md](./includes/executeMultiple-description.md)]
 
 > [!NOTE]
-> This method is supported only for the online mode, which implies that you must use the [Xrm.WebApi.online](online.md) object to execute the method. Otherwise, it will fail. 
+> This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps). Also, this method is supported only for the online mode, which implies that you must use the [Xrm.WebApi.online](online.md) object to execute the method. Otherwise, it will fail. 
 
 If you want to execute multiple requests in a transaction, you must pass in a change set as a parameter to this method. [Change sets](../../../webapi/execute-batch-operations-using-web-api.md#bkmk_ChangeSets) represent a collection of operations that are executed in a transaction. You can also pass in individual requests and change sets together as parameters to this method.
 
