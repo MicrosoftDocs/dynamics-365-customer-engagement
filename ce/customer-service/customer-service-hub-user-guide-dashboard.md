@@ -190,8 +190,10 @@ In the streams, the color is depicted using the thin vertical line to the left o
  For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
   
 
-### See also
+## See also
+
+
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
   
-[Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
+
   

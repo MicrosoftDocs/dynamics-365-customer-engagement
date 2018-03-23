@@ -322,6 +322,8 @@ In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues
 To know how to add a case to a queues, see [Add a case to a queue](customer-service-hub-user-guide-case-sla.md#add-a-case-to-a-queue).
 
 
-### See also
+## See also
+
+[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)
 
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
