@@ -35,12 +35,11 @@ are a few important licensing differences to be aware of:
 
     The maximum number of Resco users allowed includes trial, production, and sandbox organizations.
 
-- Before you assign licenses to Resco users, you need to activate the licenses via the Resco (Woodford) website. More information: Woodford User Guide
+- Before you assign licenses to Resco users, you need to activate the licenses via the Resco (Woodford) website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
     Note: A 30-day trial automatically starts when you install the Resco (Woodford) solution. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
 
-Field service licenses purchased from Microsoft are allocated to one organization at a time, based on the organization ID. For example, if you purchase 100 field service licenses, you can assign 85 to users in a production organization, and assign the remaining 15 to users in the organization’s
-sandbox.
+Field service licenses purchased from Microsoft are allocated to one organization at a time, based on the organization ID. For example, if you purchase 100 field service licenses, you can assign 85 to users in a production organization, and assign the remaining 15 to users in the organization’s sandbox.
 
 Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations
 -------------------------------------------------------------------------------------------------------------------
