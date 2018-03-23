@@ -103,4 +103,4 @@ ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0
 
 ## See also
 
-[Use the Main form and its components](../customer-service/use-main-form-and-components.md)
+[Use the Main form and its components](../customize/use-main-form-and-components.md)
