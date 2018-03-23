@@ -1,6 +1,6 @@
 ---
 title: "execute (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 03/20/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -13,7 +13,10 @@ manager: "amyla"
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[./includes/execute-description.md](./includes/execute-description.md)] 
+[!INCLUDE[./includes/execute-description.md](./includes/execute-description.md)]
+
+> [!NOTE]
+> This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps). 
 
 ## Syntax
 
