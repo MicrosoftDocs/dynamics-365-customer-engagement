@@ -30,23 +30,23 @@ There are some feature restrictions depending on which versions of [!INCLUDE[pn_
 |[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)]|-   Relationship assistant<br />-   Email engagement<br />-   Auto capture|  
 |[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises)|-   Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])<br />-   Email engagement|  
 |[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]|-   Only the relationship assistant is available, and only its *base cards* are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../admin/action-cards-reference.md)<br />-   No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version is not important.|  
-  
+
 ## How to enable embedded intelligence 
 As a  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable embedded intelligence for your organization to:
 - Enable and configure features such as Relationship assistant, Email engagement, and Auto capture  
 - Install Sales insights add-on for preview 
 
 > [!IMPORTANT]
-> Embedded intelligence provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise, and enable the features only if you are certain that they do not violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts. For complete details, see Privacy notices, later in this topic.
+> Embedded intelligence provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise, and enable the features only if you are certain that they do not violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts. 
 
 To enable the Embedded Intelligence, follow these steps:
 
-1. Go to **Settings** > **Embedded Configuration**.
+1. Go to **Settings** > **Intelligence Configuration**.
  <!-- add image  -->
 2. Choose **I Accept** from **Sales embedded intelligence** in the **Overview tab**.
 <!-- add image  -->
 
-Embedded Intelligence is enabled for your organization and you can configure features such as Relationship Assistant, Email Engagement, and Auto Capture.
+Embedded intelligence is enabled for your organization and you can configure features such as Relationship Assistant, Email Engagement, and Auto Capture.
 
 >[!NOTE]
 > Once you accept privacy notes of all Embedded Intelligence features, they are available on a single settings page, which provides a tab for each feature.
@@ -142,37 +142,35 @@ Verify the following prerequisites before enabling auto capture for your organiz
 >[!NOTE]
 > For more information about auto capture and how this feature can help your users, see [Auto capture](../admin/auto-capture.md)
 
-## Preview: Install and configure Sales Insights add-ons
+## Preview feature: Install and configure Sales insights add-on
+<!--remove comments when the predictive lead scoring is going live.-->
 
-The Sales insights add-on contains relationship analytics and predictive lead scoring features. These features are not enabled by default. You need to enable each feature before you can use it. To enable a feature, you must be a Dynamics 365 administrator.
-To understand how relationship analytics and predictive lead scoring works, see <!--links to relationship analytics and predictive lead scoring end-users content -->
+The Sales insights add-on contains relationship analytics <!--and predictive lead scoring -->feature. <!--These--> This feature not available by default. You need to install this feature before you can use it. <br>
+> [!NOTE]
+> To install this feature, you must be a Dynamics 365 administrator.
+
+To understand how relationship analytics is used<!--and predictive lead scoring works-->, see [Relationship analytics](../admin/relationship-analytics.md)
+
 The following process defines the steps to install and configure relationship analytics and lead scoring.
-1.	Enable the features
-2.	Install the features
-3.	Configure relationship analytics and lead scoring
+1.	Install Sales insight add-on.
+2.	Configure relationship analytics.
 
-### Enable Sales Insights features
+### Install Sales insights add-on 
+1.	Go to **Settings** > **Embedded intelligence**.<br>
+     ![Embedded intelligence home screen](../admin/media/install-sales-insights-addon.png "Embedded intelligence home screen")  
+     <br>
+> [!NOTE]
+> If you are using Embedded Intelligence for the first time, enable the features. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to enable embedded intelligence](#How-to-enable-embedded-intelligence).
+2.  Choose **Install** from **Sales insights add-on** tile. <br>
+    ![Sales insights addon tile](../admin/media/install-sales-insights-addon-tile.png "Sales insights addon tile")  
+     <br>
+3.	Carefully read and accept the terms and conditions. Choose **Continue**, on the **Sales Insights** installation page. <br>
+    The installation takes few minutes to complete and the status is displayed in the status bar.<br>
+    Now, you are ready to configure Relationship Analytics and Predictive Lead Scoring.
 
+### Configure Sales insights add-on
 
+Once the sales insights add-on is installed, proceed through the steps below to configure relationship analytics <!-- and predictive lead scoring --> according to the requirements of your organization.
 
+1.	Choose Go to Configuration on the installation page of Sales Insights.
 
-
-
-
-
-
-
-
-
-
- 
-
- 
-<a name="privacy"></a>   
-## Privacy notices  
-[!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
-  
-[!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
-  
-[!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
-  
