@@ -21,6 +21,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Signing in and signing out on Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 ### Signing in and signing out  
  To sign in, you’ll need your [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] web address, user name, and password. If you don’t have any of these, contact your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] admin.  
   

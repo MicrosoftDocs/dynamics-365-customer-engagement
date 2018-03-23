@@ -16,7 +16,11 @@ caps.latest.revision: 7
 ms.author: "mkaur"
 ---
 # Use your browser for non-mobile features in Dynamics 365 for phones and tablets
-<a name="bkmk7"></a>   
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
+<a name="bkmk7"></a> 
+  
 ## Use your browser for features not in the app  
  The following features in the web application aren’t available in [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] for phones and tablets:  
   

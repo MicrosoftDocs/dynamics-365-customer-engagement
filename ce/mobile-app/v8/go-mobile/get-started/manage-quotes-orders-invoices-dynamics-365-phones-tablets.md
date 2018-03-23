@@ -18,6 +18,9 @@ caps.latest.revision: 24
 ms.author: "mkaur"
 ---
 # Manage quotes, orders, and invoices in Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 As a sales professional, you'll frequently work with the following types of records:  
   
 -   **Quotes**: Most sales begin with a price quote, which eventually leads to an order.  

@@ -21,6 +21,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # More help and how-to for users of Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 ## Get help while using the app  
  If you ever need help while you’re in the mobile app, just tap **Help** on the command bar.  
   

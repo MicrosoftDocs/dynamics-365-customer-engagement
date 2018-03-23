@@ -21,6 +21,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Troubleshoot a Dynamics 365 for Windows app start-up error
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 Did you receive this error?  
   
  **Additional steps may be needed to configure [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] for this organization. Please contact your system administrator**.  

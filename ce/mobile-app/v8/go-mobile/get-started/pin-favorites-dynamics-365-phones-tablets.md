@@ -21,8 +21,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Pin your favorites in Dynamics 365 for phones and tablets
-horizontaltabbed  
-  
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
  Pinned tiles provide quick access to your records, contacts, views, and dashboards. You can pin as many tiles as you want to the Pinned Tiles section of your Home screen or to the Start screen or menu of [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] and [!INCLUDE[pn_windows_10](../../../../includes/pn-windows-10.md)] devices.  
   
  Press and hold the item you want to pin, or display the command bar while viewing a record, and then tap **Pin to Home**.  

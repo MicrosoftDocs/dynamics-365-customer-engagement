@@ -20,6 +20,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Use Cortana voice commands in Dynamics 365 for phones
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 You can use the following [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] voice commands with [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)] if you’re using [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)] on [!INCLUDE[pn_windows_8_1](../../../../includes/pn-windows-8-1.md)] phones or later. [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)] voice commands for [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] are only available in English at this time.  
   
  These commands work with either the [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] app or the previous phone app, [!INCLUDE[pn_crm_for_phones_express](../../../../includes/pn-crm-for-phones-express.md)].  

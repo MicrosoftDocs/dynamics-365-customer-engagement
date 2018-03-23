@@ -21,7 +21,8 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Track your progress with charts in Dynamics 365 for phones and tablets
-horizontaltabbed  
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
   
  Charts give you a quick view of how you’re tracking to your goals. They’re interactive, so you can tap an area of a chart to see the data for that area, or you can tap the area outside the chart to see the data for the entire chart. In the phone app, swipe left and right to view the chart and its associated records.  
   

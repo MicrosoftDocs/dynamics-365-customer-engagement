@@ -21,8 +21,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Email and call customers in Dynamics 365 for phones and tablets
-horizontaltabbed  
-  
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
  Call or send email to your customers easily from the mobile apps. Tap any phone number in a record to start a call, or on the communication card for a contact, tap the email button to send an email, or the phone button to start a call.  
   
  ![Dynamics 365 for phones and tablets communication card](../../../media/mobile-communication-card.png "Dynamics 365 for phones and tablets communication card")  

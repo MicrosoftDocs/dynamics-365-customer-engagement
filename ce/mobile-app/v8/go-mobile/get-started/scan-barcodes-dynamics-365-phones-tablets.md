@@ -17,6 +17,9 @@ ms.author: "mkaur"
 robots: noindex
 ---
 # Scan barcodes  in Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 Rather than manually typing a barcode number into a field, you can scan barcodes by using your device's camera. Tap the icon to the right of the field to start the scanner. This makes it easy to capture info about inventory and other issues when you're out in the field. You'll need to ask your admin to set this feature up for you.  
   
  ![Barcode scanning in Dynamics 365 for phones and tablets](../../../media/barcode-icon-mobile.PNG "Barcode scanning in Dynamics 365 for phones and tablets")  

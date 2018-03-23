@@ -21,6 +21,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Nurture leads through the sales process in Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 ## Track leads through the sales process  
  Move customers through the sales process, from lead to close, with the process bar. Once you’ve completed the steps in one stage, you can move on to the next one. The process bar highlights the stage you’re in so you know where you are in the process, and shows you what to do next.  
   

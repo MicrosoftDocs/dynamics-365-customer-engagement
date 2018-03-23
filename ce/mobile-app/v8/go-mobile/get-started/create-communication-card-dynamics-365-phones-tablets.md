@@ -16,9 +16,11 @@ caps.latest.revision: 6
 ms.author: "mkaur"
 ---
 # Create a communication card in Dynamics 365 for phones and tablets
-Insert introduction here.  
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
   
 <a name="bkmk4"></a>   
+
 ## Create a communication card  
  Communication cards provide a quick way to email or call your contact just by tapping the email address or phone number on the card. Communication cards appear on contact forms, but you can also create a communication card from a contact in the Pinned Tiles section of your Home screen by expanding the pinned tile.  
   

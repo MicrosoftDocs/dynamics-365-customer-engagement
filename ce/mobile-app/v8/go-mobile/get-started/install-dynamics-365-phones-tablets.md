@@ -21,7 +21,11 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Install Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 <a name="bkmk1"></a>   
+
 ## First things first: Is your mobile device supported?  
  If you’re not sure if your device is supported, [check the list of supported devices on TechNet](https://technet.microsoft.com/library/dn531131.aspx)  
   

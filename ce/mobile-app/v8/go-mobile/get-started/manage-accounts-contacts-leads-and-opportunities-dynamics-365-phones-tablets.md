@@ -21,6 +21,9 @@ ms.author: "mkaur"
 manager: "brycho"
 ---
 # Manage accounts, contacts, leads, and opportunities in Dynamics 365 for phones and tablets
+
+[!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
+
 ## Types of records  
  As a sales professional, you’ll be working a lot with the following types of records:  
   
