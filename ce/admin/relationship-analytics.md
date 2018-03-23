@@ -122,7 +122,7 @@ The figure highlights the following relationship analytics elements:
   
 1. **Overall interaction summary**:  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type.  
   
-2. **Time spent**: Shows the relative amount of time spent on activities related to the current record, including time spent by you, your team, and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  
+2. **Time spent**: Shows the relative amount of time spent on activities related to the current record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  
   
 3. **Email engagement results**: Provides a summary of how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](../admin/email-engagement.md)  
   
@@ -190,14 +190,14 @@ The figure highlights the following relationship analytics elements:
 ||Initiated or completed by your team|Initiated or completed by the customer's team|  
 |-|-----------------------------------------|---------------------------------------------------|  
 |Emails|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies<br /><br /> Interaction results for followed emails (opens, attachment views, and link views)|  
-|Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /> Total time spent by you (not multiplied by the number of team members)<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
+|Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /><!-- Total time spent by you (not multiplied by the number of team members)<br />--><br /> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
 |Phone calls|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|  
 |Overall (all activities)|Total time spent|Total time spent|  
   
 > [!NOTE]
 > Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](../admin/email-engagement.md)  
   
- For KPIs that report time spent by you, your team, and your customer, the system finds durations by applying the rules outlined in the following table:  
+ For KPIs that report <!--time spent by you,--> your team and your customer, the system finds durations by applying the rules outlined in the following table:  
   
 |Activity type|Source of duration value|  
 |-------------------|------------------------------|  
@@ -211,7 +211,7 @@ The figure highlights the following relationship analytics elements:
 >   
 > If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:  
 >   
-> - **Time spent by me**: *30 minutes* (the appointment was 30 minutes)  
+<!-->> - **Time spent by me**: *30 minutes* (the appointment was 30 minutes) --> 
 > - **Time spent by my team**: *90 minutes* (30 min. × 3 team members present)  
 > - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)  
   
@@ -235,10 +235,6 @@ In addition to the absolute health score, the system also reports the general tr
 
 
   
-<a name="BKMK_Privacy"></a> 
-  
-## Privacy notice  
-[!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
   
 ### See also  
  [What are Preview features?](what-are-preview-features-how-do-i-enable-them.md)   
