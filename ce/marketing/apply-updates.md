@@ -1,7 +1,7 @@
 ---
 title: "Find and apply updates to core and shared solutions (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to find out when an update for one or more Dynamics 365 for Marketing solutions are available and then apply the updates"
-keywords: "update;solutions;administration"
+keywords: "update;solutions;administration;instances"
 ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
@@ -36,39 +36,22 @@ When you install [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn
 
 ## Find out when new updates are available
 
-To find out when an update is available, regularly check the status of your apps and solutions in the Dynamics 365 Administration Center. It's also a good idea to participate in forums and follow blogs about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], where updates are likely to be announced and discussed.
-
-## Open the Dynamics 365 admin center
-
-Use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to review the status of your apps and solutions and to apply updates. To open the admin center:
-
-1. Sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] portal.
-
-1. Open the app-selector menu and select the **Admin** app.  
-    ![Open the Office 365 admin center](media/update-admin-icon.png "Open the Office 365 admin center")
-
-1. The **Home** dashboard for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] opens.
-
-1. In the navigation column on the left, expand the **Admin centers** entry and then select **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]**.  
-    ![Open the Dynamics 365 admin center](media/update-open-d365-admin.png "Open the Dynamics 365 admin center")
-
-1. The [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] opens.
-    ![The Dynamics 365 admin center](media/update-d365-admin-center.png "The Dynamics 365 admin center")
-
-See the remaining sections of this topic for details about how to use this page to find and apply relevant updates.
+To find out when an update is available, regularly check the status of your apps and solutions in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in the following sections. It's also a good idea to participate in forums and follow blogs about [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], where updates are likely to be announced and discussed.
 
 ## Find and apply updates for core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions
 
 To find and apply available updates to all core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions, including the [!INCLUDE[pn-linkedin-solution-shortest](../includes/pn-linkedin-solution-shortest.md)]:
 
-1. Open the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)].
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
 1. Select the **Applications** tab to see a list of applications you have installed.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-1. Select the **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Marketing Application** item and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the right column.
+    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be updated) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens. Select an organization from the drop-down list and look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization. Use the drop-down list to check each of your organizations, and if none requires an update, you can just quit the wizard.  
+1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to update and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
+
+1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to update. Make sure you have chosen the right one. Look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization and you can just quit the wizard.  
     ![Select the Update packages button](media/update-fre-update-packages-button.png "Select the Update packages button")
 
 1. If the **Update packages** button is shown, then select it to start the update. The update starts right away, and a page opens to track the progress of the update and will tell you when it's finished.
@@ -83,7 +66,7 @@ To find and apply available updates to all core [!INCLUDE[pn-marketing-app-modul
 
 To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) solutions, including [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] and [!INCLUDE[pn-portals](../includes/pn-portals.md)]:
 
-1. Open the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] and go to the **Instances** tab.  
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Instances** tab.  
     ![Open the Instances tab](media/update-instances-tab.png "Open the Instances tab")
 
 1. If you have more than one [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instance, then each of them is listed here. Select the instance where you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed.
@@ -97,6 +80,6 @@ To update shared (non-core [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
     > [!NOTE]
     >  As mentioned at the start of this procedure, you shouldn't update core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions from here. Always run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] update wizard first, before you start looking for shared-solution updates, to ensure that all your core [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions are already shown as up-to-date in this list.
 
-1. Select a solution marked as having an upgrade available and read the information shown in the right column. Select the **upgrade** button ![The Upgrade button](media/update-manage-button.png "The Upgrade button") in the right column and then follow the instructions on your screen to apply it.
+1. Select a solution marked as having an upgrade available and read the information shown in the side panel. Select the **upgrade** button ![The Upgrade button](media/update-manage-button.png "The Upgrade button") in the side panel and then follow the instructions on your screen to apply it.
 
 1. Repeat this procedure for each solution that requires an update.

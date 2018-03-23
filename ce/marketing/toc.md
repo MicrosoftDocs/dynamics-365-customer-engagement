@@ -4,9 +4,13 @@
  
 ## [Administrator Guide](admin-guide.md)
 
-### [First time setup](purchase-setup.md)
-### [First time setup FAQ and troubleshooting](setup-troubleshooting.md)
-### [Keep Marketing up to date](apply-updates.md)
+### [Set up and manage Marketing instances](setup-manage-instances.md)
+#### [First time setup](purchase-setup.md)
+#### [First time setup FAQ and troubleshooting](setup-troubleshooting.md)
+#### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
+#### [Keep Marketing up to date](apply-updates.md)
+#### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Uninstall Marketing](uninstall-marketing.md)
 ### [Open the administration settings](open-advanced-settings.md)
 ### [Organization settings](organization-settings.md)
 #### [Manage users](manage-users.md)
