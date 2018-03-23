@@ -96,7 +96,7 @@ Watch this video to learn more about case management in the Customer Service Hub
        - Select **Create Child Case** to create a child case
        - Select **...** in the command bar to explore more options for the case.
 
-    ![completed-case](media/completed-case.png "completed case form")
+    ![completed-case](media/completed-case.png "Completed case form")
   
 
 ## Track SLA details with Timer Control  
