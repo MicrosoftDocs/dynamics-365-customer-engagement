@@ -1,7 +1,7 @@
 ---
-title: "Field Service Mobile App User’s Guide (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Managing user licenses for the Resco (Woodford) solution (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,55 +12,109 @@ ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: "shellyha"
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
 ms.author: "krbjoran"
 manager: "shellyha"
 ---
-# Activate Field Service mobile app license
+
+
+# Managing user licenses for the Resco (Woodford) solution
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This information is intended for customers who have a license for Microsoft Dynamics 365 for Field Service and need to activate the licenses for the Field Service mobile app. Customers who do not have Field Service installed will need to follow a different process to obtain Field Service mobile app trial licenses.
+If you’re the admin at an organization with the Resco (Woodford) solution
+installed to enable additional mobile capabilities for field technicians, there
+are a few important licensing differences to be aware of:
 
-When a customer purchases a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] licenses that include access to Field Service, receive corresponding licenses to the Field Service mobile app, at a one-to-one ratio, at no extra charge.
-The Field Service mobile app license is a restricted license that is primarily intended for Field Service functionality. See the EULA for details.
+-   Resco (Woodford) is a third party that charges per user, per organization.
 
-The available Field Service mobile app licenses needs to be applied to, or activated for, the customer’s Dynamics 365 instances, separately from assigning [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] licenses to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users.
-The Field Service mobile app can be configured and modified using the Woodford solution. More information:  [See instructions for installing the Woodford solution](https://go.microsoft.com/fwlink/?LinkId=789382).
+-   Each field service license you purchase from Microsoft allows you to assign
+    one Resco license per user, with the total number of Resco users for all
+    organizations you manage not to exceed the total number of field service
+    licenses.
 
-Once the Woodford solution is installed into a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] org, there is a 30-day trial period that begins. When that trial period expires, you will not be able to access the Woodford configuration tool for that org, until your paid licenses are allocated to it. So, it is recommended that you begin this activation process at least a few weeks before the trial period ends.
+>   For example, if you purchase 75 field service licenses and you manage three
+>   different organizations, you could assign Resco licenses to 25 users at each
+>   organization for a maximum total of 75 users (not 75 users at *each*
+>   organization for a total of 225).
 
-It is important to note that the Field Service mobile app licenses, that a customer is entitled to, are intended to be allocated, and spread out between, the various production and sandbox [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instances that the customer wants them in. Unlike Dynamics 365 web client licenses, a Field Service mobile app license can only be allocated to one [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] org at a time, based on the Org ID of the instance. For example, if a customer is entitled to 100 Field Service mobile app licenses, they may choose to assign 85 to their production org, and divide the remaining 15 between their dev and test orgs. 
+>   The maximum number of Resco users allowed includes trial, production, and
+>   sandbox organizations.
 
-Additionally, if an Org is restored or rebuilt, the Org ID may change, and the Field Service mobile licenses will need to be re-allocated to the new Org ID.
+-   Before you assign licenses to Resco users, you need to activate the licenses
+    via the Resco (Woodford) website. More information: Woodford User Guide
 
-## Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations
-1. Go to the [Microsoft support page](https://go.microsoft.com/fwlink/?linkid=854120).
-2. For Problem Type choose, FieldOne Licensing and for Category choose License Request, then click Start Request.
-3. Enter your contact information and click Continue.
-4. For Incident Title, enter Field Service App Mobile License Activation Request.
-In the Tell us more about your issue box, enter the following information:
-	- Customer company name
-	- Customer's public facing website
-	- Requesting person's full name
-	- Requesting Person's Email Address
-	- Requesting Person's phone Number
-	- Office 365 Admin Center License screenshot showing the number of Field Service licenses in your tenant. Here's how to get this info:
-		- As a Global Office 365 Administrator, open your Office 365 portal and navigate to the Admin Center.
-		- Expand the Billing tab, and click on Licenses.
-		- Take a screenshot showing the number of field service licenses in your tenant. 
-		![Screenshot showing an Excel spreadsheet with the number of Field Service licences in your tenant](../field-service/media/fs-lic-screenshot-example.png "Excel spreadsheet")  
-	- Enter your unique org ID. Here's how to find your org ID:
-		- As a system Administrator, open your Dynamics 365 instance. 
-		- Navigate to Settings > Customizations >Developer Resources.
-		- In the Instance Reference Information section of the page, locate the Org ID.
-		![Screenshot of the Instant Reference Information of the page, with Org ID highlighted](../field-service/media/fs-lic-instant-reference.png "Org ID in Instant Reference Information")  
+>   Note: A 30-day trial automatically starts when you install the Resco
+>   (Woodford) solution. Activate the licenses before the trial period ends, or
+>   you won’t be able to access the Resco (Woodford) configuration tool until
+>   paid licenses are allocated.
 
-> [!NOTE]
->  You can enter the below information in the space provided, or in the space below enter “see attached” and save the information to an Excel document and upload it with the service request. For example, create a table in Excel as shown in the screenshot below.
-> ![Screenshot of the Excel table with the information below prepopulated](../field-service/media/fs-lic-excel-sheet.png "Excel spreadhseet example")
-> If you have more than one instance that you need Resco mobile licenses for, make sure to include the org ID for each instance, including the number of mobile licenses needed for each instance. 
- 
+Field service licenses purchased from Microsoft are allocated to one
+organization at a time, based on the organization ID. For example, if you
+purchase 100 field service licenses, you can assign 85 to users in a production
+organization, and assign the remaining 15 to users in the organization’s
+sandbox.
 
+Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations
+-------------------------------------------------------------------------------------------------------------------
+
+1.  Go to the [Microsoft support
+    page](https://go.microsoft.com/fwlink/?linkid=854120).
+
+2.  For Problem Type choose, FieldOne Licensing and for Category choose License
+    Request, then click Start Request.
+
+3.  Enter your contact information and click Continue.
+
+4.  For Incident Title, enter Field Service App Mobile License Activation
+    Request. In the Tell us more about your issue box, enter the following
+    information:
+
+    -   Customer company name
+
+    -   Customer's public facing website
+
+    -   Requesting person's full name
+
+    -   Requesting Person's Email Address
+
+    -   Requesting Person's phone Number
+
+    -   Office 365 Admin Center License screenshot showing the number of Field
+        Service licenses in your tenant. Here's how to get this info:
+
+        -   As a Global Office 365 Administrator, open your Office 365 portal
+            and navigate to the Admin Center.
+
+        -   Expand the Billing tab, and click on Licenses.
+
+        -   Take a screenshot showing the number of field service licenses in
+            your tenant.
+
+        -   Write some descriptive alt text here
+
+            Write some descriptive alt text here
+
+    -   Enter your unique org ID. Here's how to find your org ID:
+
+        -   As a system Administrator, open your Dynamics 365 instance.
+
+        -   Navigate to Settings \> Customizations \>Developer Resources.
+
+        -   In the Instance Reference Information section of the page, locate
+            the Org ID.
+
+        -   Write some descriptive alt text here
+
+            Write some descriptive alt text here
+
+>   [!NOTE] You can enter the above information in the space provided, or in the
+>   space below enter “see attached” and save the information to an Excel
+>   document and upload it with the service request. For example, create a table
+>   in Excel using the information above.
+
+>   If you have more than one instance that you need Resco mobile licenses for,
+>   make sure to include the org ID for each instance, including the number of
+>   mobile licenses needed for each instance.
