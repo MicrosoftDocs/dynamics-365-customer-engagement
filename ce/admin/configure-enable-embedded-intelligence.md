@@ -25,7 +25,7 @@ manager: "sakudes"
 ## Requirements and prerequisites  
 There are some feature restrictions depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running, as detailed in the following table.  
   
-|Product version|Available Relationship Insights features|  
+|Product version|Available Embedded intelligence features|  
 |---------------------|----------------------------------------------|  
 |[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)]|-   Relationship assistant<br />-   Email engagement<br />-   Auto capture|  
 |[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises)|-   Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])<br />-   Email engagement|  
@@ -154,6 +154,7 @@ To understand how relationship analytics is used<!--and predictive lead scoring 
 The following process defines the steps to install and configure relationship analytics and lead scoring.
 1.	Install Sales insight add-on.
 2.	Configure relationship analytics.
+3.  (Optional) Uninstall Sales insight add-on.
 
 ### Install Sales insights add-on 
 1.	Go to **Settings** > **Embedded intelligence**.<br>
@@ -172,5 +173,36 @@ The following process defines the steps to install and configure relationship an
 
 Once the sales insights add-on is installed, proceed through the steps below to configure relationship analytics <!-- and predictive lead scoring --> according to the requirements of your organization.
 
-1.	Choose Go to Configuration on the installation page of Sales Insights.
+1.	Choose **Go to Configuration** on the installation page of Sales Insights.
+    > [!NOTE]
+    > you can also select **Configuration** in the Relationship analytics <!-- or Predective lead scoring--> tile, on the Embedded intellilgence **Overview** tab. This option will be available only after you install the sales insights add-on.<br>
+    
+    ![Relationship analytics configuration](../admin/media/relationship-analytics-configuration.png "Relationship analytics configuration") <br>
+     <!--Have to change the screen once Predective lead scoring is available-->
+    The relationship analytics configuring page opens.
+2.	Configure<!-- predictive lead scoring and--> relationship analytics as specified in the following steps.<br>
+    a. On the **Relationship analytics** page, configure the parameters as described in the following table.
+
+    |**Parameter**|**Description**|  
+    |---------------------|----------------------------------------------|  
+    |Data Sources|**CRM Activities:** All historical data from Dynamics 365 will be ingested for computation in Relationship Analytics.<br>**Exchange Data:** If Exchange data is enabled, 30 days of data from Exchange will be ingested for KPI and Health computation. Exchange connector will ingest three days of data per day until the last 30 days of data has been completed.|  
+    |Relationship Health Score|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|  
+    |Communications Frequency|Businesses have varying sales cycles and as a result, a different expected level of communications with the customer.  A longer expected communications frequency will reduce the expectation of more recent frequent communications in the health score.  A shorter expected communications frequency will increase the expectation of more recent frequent communications in the health score.|<br>
+       
+    ![Relationship analytics configuration settings page](../admin/media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page") <br>
+    b. Select **Save**.<br>
+       The relationship analytics is configured and ready to use in your organization.
+### (Optional) Uninstall Sales insight add-on.
+If you do not want to use Sales insights add-on for your organization, uninstall the feature.
+1.	Go to **Settings** > **Customization** > **Solutions**.
+    A list of solutions that are install in your organization is displayed.
+2. Select **SalesInsightsAddOn** and then select Delete.<br>
+   ![Sales insights add-on delete](../admin/media/sales-insights-addon-uninstall.png "Sales insights add-on delete") <br>
+3. A confirmation message is displayed. Select **OK**.<br>
+   The Sales insighs add-on feature is uninstalled from your organization. 
+
+
+
+
+
 
