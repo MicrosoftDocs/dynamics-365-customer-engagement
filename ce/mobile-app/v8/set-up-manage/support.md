@@ -17,7 +17,7 @@ manager: "brycho"
 ---
 # Support for Dynamics 365 for phones and Dynamics 365 for tablets
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](/../../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can access [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../../../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
 
@@ -60,7 +60,7 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
   
 |||  
 |-|-|  
-|Operating system|[!INCLUDE[pn_windows8](../Token/pn_windows8_md.md)] or later|  
+|Operating system|Windows 8 or later|  
 |Memory|2 GB*|  
 |Resolution|1366 x 768 resolution (720p)|  
 
