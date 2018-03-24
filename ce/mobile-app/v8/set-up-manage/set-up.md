@@ -19,20 +19,20 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
-Your users can access their [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
+Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
   
-- **[!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+- **[!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
   
-- **[!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
+- **[!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
     
 <a name="BKMK_GetStartedTablets"></a>   
 
-## Get started with [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
+## Get started with [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
   
 ### Requirements  
- For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support.md). 
+ For hardware and software requirements for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)], see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support.md). 
   
 Microsoft Dynamics 365 (online) organizations using Dynamics 365 for tablets require the Microsoft Dynamics CRM Online Fall ‘13 release or later.
 
@@ -42,11 +42,11 @@ Microsoft Dynamics 365 (online) organizations using Dynamics 365 for tablets req
 ![Dynamics 365 IFD settings](../../media/crm-ua-moca-claims.png "Dynamics 365 IFD settings")
 
 ### Required privileges  
- [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
  Follow these steps to check and assign the security privilege for a security role:  
   
-1. [!INCLUDE[proc_settings_security](../../../../includes/proc-settings-security.md)]  
+1. [!INCLUDE[proc_settings_security](../../../includes/proc-settings-security.md)]  
   
 2.  Click **Security Roles**.  
   
@@ -58,16 +58,16 @@ Microsoft Dynamics 365 (online) organizations using Dynamics 365 for tablets req
   
 6.  Send an email to tablet-enabled users to let them know they can download the mobile app from the app store. Include the organization URL and sign-in information in the email.  
   
- This applies to new installations of [!INCLUDE[pn_CRM_Online](../../../../includes/pn-crm-online.md)], [!INCLUDE[pn_crmv6](../../../../includes/pn-crmv6.md)] or later. You can add or remove this privilege from custom or default security roles to meet your business needs. Users who do not have this privilege will see the following error:  
+ This applies to new installations of [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)], [!INCLUDE[pn_crmv6](../../../includes/pn-crmv6.md)] or later. You can add or remove this privilege from custom or default security roles to meet your business needs. Users who do not have this privilege will see the following error:  
   
 > You haven't been authorized to use this app. Check with your system administrator to update your settings.  
   
 > [!NOTE]
-> [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] includes the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 organization through [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web Services**.  
+> [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] includes the ability to audit user access. Audit events are logged if a user accesses your Dynamics 365 organization through [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. However, there is not a new event type that indicates the access was through [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. The audit login events would appear as **User Access via Web Services**.  
   
  In addition, particularly if you have created a custom security role, validate that these entities have **Read** permission.  
   
-1. [!INCLUDE[proc_settings_security](../../../../includes/proc-settings-security.md)]  
+1. [!INCLUDE[proc_settings_security](../../../includes/proc-settings-security.md)]  
   
 2.  Click **Security Roles**.  
   
@@ -97,7 +97,7 @@ Microsoft Dynamics 365 (online) organizations using Dynamics 365 for tablets req
 
 ## What users need to do  
   
-### Install [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
+### Install [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  [Install Dynamics 365 for phones and tablets](../go-mobile/get-started/install-dynamics-365-phones-tablets.md) 
   
 > [!TIP]
@@ -108,12 +108,12 @@ Microsoft Dynamics 365 (online) organizations using Dynamics 365 for tablets req
 ## What admins need to do  
   
 ### Security privileges  
- [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
+ [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a security privilege, **Dynamics 365 for mobile**, to provide access to [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. This privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.  
   
 ### Enable dashboards for Dynamics 365 for phone and Dynamics 365 for tablet users  
- Multiple dashboards are available for [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
+ Multiple dashboards are available for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] users. After you set up standard or custom dashboards for mobile access, users can easily modify which dashboards appear and how they appear on their phones or tablets.  
   
-1. [!INCLUDE[proc_settings_customization](../../../../includes/proc-settings-customization.md)]  
+1. [!INCLUDE[proc_settings_customization](../../../includes/proc-settings-customization.md)]  
   
 2.  Click **Customize the System**.  
   
@@ -161,7 +161,7 @@ Before your users install the Windows 8.1 app, complete these steps:
 > [!CAUTION]
 >  This task contains steps that tell you how to modify the registry. However, because serious problems may occur if you modify the registry incorrectly, it’s important that you follow these steps carefully. For added protection, back up the registry before you modify it. Then, you can restore the registry if a problem occurs. For more information about how to back up and restore the registry, open the following link to view the article in the Microsoft Knowledge Base: [How to back up and restore the registry in Windows](http://support.microsoft.com/kb/322756).  
   
-1.  If you plan on using group policy to do a domain wide deployment of the registry change and your server is not running [!INCLUDE[pn_windows_server_2012_r2](../../../../includes/pn-windows-server-2012-r2.md)] or later, download and install the [Windows Server Administrative Templates](http://go.microsoft.com/fwlink/p/?LinkId=392790).  
+1.  If you plan on using group policy to do a domain wide deployment of the registry change and your server is not running [!INCLUDE[pn_windows_server_2012_r2](../../../includes/pn-windows-server-2012-r2.md)] or later, download and install the [Windows Server Administrative Templates](http://go.microsoft.com/fwlink/p/?LinkId=392790).  
   
 2.  Open the Group Policy Management Editor.  
   
@@ -173,10 +173,10 @@ Before your users install the Windows 8.1 app, complete these steps:
   
 6.  Close the group policy editor and save your changes.  
   
- [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](http://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
+ [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [How to update links to external web pages for an enterprise environment](http://go.microsoft.com/fwlink/p/?LinkId=392788) and [Group Policy](https://technet.microsoft.com/windowsserver/bb310732.aspx)  
   
 ### Update the registry on unmanaged mobile devices using a script  
- If your mobile devices are unmanaged, see the following sample [!INCLUDE[pn_PowerShell_short](../../../../includes/pn-powershell-short.md)] script that shows how to change the registry on each [!INCLUDE[pn_windows_8_1](../../../../includes/pn-windows-8-1.md)] or later device.  
+ If your mobile devices are unmanaged, see the following sample [!INCLUDE[pn_PowerShell_short](../../../includes/pn-powershell-short.md)] script that shows how to change the registry on each [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] or later device.  
   
 ```powershell  
   
@@ -229,7 +229,7 @@ else
 ```  
   
 ### Update the registry on unmanaged mobile devices using the Registry Editor  
- If your mobile devices are unmanaged, you can also change the registry on each [!INCLUDE[pn_windows_8_1](../../../../includes/pn-windows-8-1.md)] or later device like this:  
+ If your mobile devices are unmanaged, you can also change the registry on each [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] or later device like this:  
   
 1.  Start Registry Editor.  
   
@@ -263,20 +263,20 @@ else
   
 16. Right-click or tap **1**, and then click **Modify**.  
   
-17. Type your [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] organization’s URL in the **Value Data** box (for example, https://contoso.com), and then click **OK**.  
+17. Type your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] organization’s URL in the **Value Data** box (for example, https://contoso.com), and then click **OK**.  
   
 18. Exit Registry Editor.  
   
-     Now you can point your users to the [!INCLUDE[pn_windows_8_1](../../../../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)] [Install the Dynamics 365 for tablets app](dynamics-365-phones-tablets-users-guide.md)  
+     Now you can point your users to the [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Install the Dynamics 365 for tablets app](dynamics-365-phones-tablets-users-guide.md)  
   
 <a name="BKMK_Configure"></a>   
 
-## Configure [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
+## Configure [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
   
 ### Navigation bar  
- If an entity is enabled for **Dynamics 365 for mobile** and appears in the nav bar (sitemap) for the web application, it will also appear on the nav bar in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+ If an entity is enabled for **Dynamics 365 for mobile** and appears in the nav bar (sitemap) for the web application, it will also appear on the nav bar in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
- The [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] apps show the entities as a flat list in the same order as the sitemap in the web application. They ignore any groupings within web application areas. You can add an entity to multiple groups on the web application, but [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] display a flattened list and do not show any repeats. [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] apply your [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] security role, so you will not see an entity unless you have at least read access to that entity.  
+ The [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] apps show the entities as a flat list in the same order as the sitemap in the web application. They ignore any groupings within web application areas. You can add an entity to multiple groups on the web application, but [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] display a flattened list and do not show any repeats. [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] apply your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] security role, so you will not see an entity unless you have at least read access to that entity.  
   
  Custom entities use a fixed custom entity symbol.  
   
@@ -286,7 +286,7 @@ else
  The lists of records that appear on the Sales Dashboard and within a form appear as simple lists. These lists have a different appearance than the typical view of records. There are a few frequently used actions you can perform on a simple list.  
   
 > [!NOTE]
->  Simple lists are not available in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)]. Instead use the command bar **…** and click **Select View** to change your view.  
+>  Simple lists are not available in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]. Instead use the command bar **…** and click **Select View** to change your view.  
   
 -   Tap the list header to see the full list for the current view.  
   
@@ -298,9 +298,9 @@ else
   
  Some more things to note:  
   
--   You’ll see the **New Item** button +  to the right of the view name for any entity type that is read/write enabled for [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+-   You’ll see the **New Item** button +  to the right of the view name for any entity type that is read/write enabled for [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
--   Simple lists retrieve ten records at a time regardless of the **Records Per Page** setting in your **Personal Options** area of the web application. As you scroll to the bottom of the list, [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] displays additional records.  
+-   Simple lists retrieve ten records at a time regardless of the **Records Per Page** setting in your **Personal Options** area of the web application. As you scroll to the bottom of the list, [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] displays additional records.  
   
  **Fields Displayed**  
   
@@ -321,7 +321,7 @@ else
  The activities list shows activities that are due today and past due activities in a darker color. Activities that are not due today or past due appear in a lighter color. Activities with a due date include the date and time of when they are due.  
   
 > [!IMPORTANT]
-> [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] uses a composite Activity entity to store and retrieve data common between different activity types (like Task, Appointment, or Phone Call). The due date for activities is stored in the Actual End field for the composite Activity entity.  Appointment activities have a Start Date and End Date.  Because the due date for the activities list is retrieved from the Actual End field, the time that an appointment ends is displayed in the Activities list. This means an appointment that starts at 1pm and ends at 2pm will show a time of 2pm on the tile for the appointment in the activities simple list.  
+> [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a composite Activity entity to store and retrieve data common between different activity types (like Task, Appointment, or Phone Call). The due date for activities is stored in the Actual End field for the composite Activity entity.  Appointment activities have a Start Date and End Date.  Because the due date for the activities list is retrieved from the Actual End field, the time that an appointment ends is displayed in the Activities list. This means an appointment that starts at 1pm and ends at 2pm will show a time of 2pm on the tile for the appointment in the activities simple list.  
   
  ![Dynamics 365 for tablets simple activity list](../admin/media/y-microsoft-crm.png "Dynamics 365 for tablets simple activity list")  
   
@@ -343,10 +343,10 @@ else
   
  To change the view used to display a list of records, tap and hold the name of the list. The command bar appears, which includes the **Select View** button.  Tap the **Select View** button to select a different view.  
   
- Personal views are listed before system views.  You can’t create new views within [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)].  
+ Personal views are listed before system views.  You can’t create new views within [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)].  
   
 ### Charts  
- All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+ All the charts you can create in the Chart Designer, such as Bar, Line, Pie, and Funnel charts, are viewable in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
  Some more things to note:  
   
@@ -354,31 +354,31 @@ else
   
 -   Choose the chart sections to see the records filtered for that part of the chart.  
   
--   Charts are not available offline with [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+-   Charts are not available offline with [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
 -   You can add charts to dashboards and chart pages only.  
   
 ### Forms  
- Forms in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] are based on the development principle of “Design once and deploy across clients.” Entity behavior and business processes in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a tablet. In Microsoft Dynamics 365 online,  you can preview how forms look on tablets and phones when you customize them in the web app.  
+ Forms in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] are based on the development principle of “Design once and deploy across clients.” Entity behavior and business processes in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a tablet. In Microsoft Dynamics 365 online,  you can preview how forms look on tablets and phones when you customize them in the web app.  
   
 > [!NOTE]
->  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)]. See the section below [Things to know about Dynamics 365 for phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_PhonesThingsToKnow).  
+>  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]. See the section below [Things to know about Dynamics 365 for phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_PhonesThingsToKnow).  
   
 ||||  
 |-|-|-|  
-|![Sales form in Dynamics 365](../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365")<br /><br /> Sales Lead form in web application|>|![Sales form in Dynamics 365 for tablets](../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]|  
+|![Sales form in Dynamics 365](../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365")<br /><br /> Sales Lead form in web application|>|![Sales form in Dynamics 365 for tablets](../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]|  
   
  This diagram shows common parts of the updated entity forms in the web application.  
   
  ![Diagram shows Updated entity form structure in Dynamics 365](../admin/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365")  
   
- [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] takes many of the Main form elements and presents them in a way that is optimized for tablets, as shown in the following diagram.  
+ [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] takes many of the Main form elements and presents them in a way that is optimized for tablets, as shown in the following diagram.  
   
  ![Diagram of a form in Dynamics Dynamics 365 for tablets](../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics Dynamics 365 for tablets")  
   
  **Relationships**  
   
- The Relationships area of the form displays entity relationships that are configured in the Navigation area of a form.  If an entity relationship is configured to appear in the Navigation area within the form customization, and the entity is enabled for [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)], the entity relationship will appear in the Relationships section. The Connections relationship tile is not displayed in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+ The Relationships area of the form displays entity relationships that are configured in the Navigation area of a form.  If an entity relationship is configured to appear in the Navigation area within the form customization, and the entity is enabled for [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)], the entity relationship will appear in the Relationships section. The Connections relationship tile is not displayed in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
  The relationships section also has a tile that represents the owner of the record, which is a Lookup field.  In addition to the Owner tile, there are some other examples of hardcoded tiles that represent Lookup fields. For example, the Contact form has a tile for the parent account.  You cannot choose additional Lookup fields as tiles in this section.  
   
@@ -392,32 +392,32 @@ else
   
  Some more things to note:  
   
--   Forms in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] are limited to 5 tabs (or 75 fields and 10 lists). This limit includes hidden fields.  
+-   Forms in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] are limited to 5 tabs (or 75 fields and 10 lists). This limit includes hidden fields.  
   
--   Activity Feeds and [!INCLUDE[pn_yammer](../../../../includes/pn-yammer.md)] are not supported in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+-   Activity Feeds and [!INCLUDE[pn_yammer](../../../includes/pn-yammer.md)] are not supported in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
 <a name="BKMK_PhonesThingsToKnow"></a>   
-## Things to know about [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)]  
+## Things to know about [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]  
   
 ### Forms  
- Forms in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] use the Main form type. Entity behavior and business processes in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a phone.  
+ Forms in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] use the Main form type. Entity behavior and business processes in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a phone.  
   
  To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form, click **Settings** > **Customizations** > **Customize the System** > **Components** > expand **Entities** > expand the **Contact** entity > **Forms**. Select the **Contact** form, then scroll down and click **Details**. Click **Change Properties** and clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
   
  ![Hide the Detail tab on Dynamics  Dynamics 365 for phones](../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics  Dynamics 365 for phones")  
   
-### Other differences with [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
- There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]:  
+### Other differences with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
+ There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]:  
   
--   Simple lists are not available in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)]. Instead use the command bar **…** and click **Select View** to change your view.  
+-   Simple lists are not available in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]. Instead use the command bar **…** and click **Select View** to change your view.  
   
 -   Duplicate detection is not available.  
   
 -   The **Open in browser** feature is not available.  
   
 <a name="BKMK_PhoneLanguages"></a>   
-## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
- [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] support the following languages:  
+## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
+ [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] support the following languages:  
   
 -   Basque (Basque) - 1069  
   
@@ -503,19 +503,19 @@ else
   
 -   Ukrainian - 380  
   
- When the application first loads after installation, it will determine the device language and load the user interface in that language. If the device language is not one of the supported languages, the application will load in English. When the application has been configured in a [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] organization, the application will load in the language specified in the user’s personal options. If the user language is not one of the supported languages, the application will fall back to the base language of the Dynamics 365 organization, if it is in the supported language list. If the organization’s base language isn’t supported, English will be the final fallback if it is enabled on the server.  
+ When the application first loads after installation, it will determine the device language and load the user interface in that language. If the device language is not one of the supported languages, the application will load in English. When the application has been configured in a [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] organization, the application will load in the language specified in the user’s personal options. If the user language is not one of the supported languages, the application will fall back to the base language of the Dynamics 365 organization, if it is in the supported language list. If the organization’s base language isn’t supported, English will be the final fallback if it is enabled on the server.  
   
 <a name="BKMK_PhoneEntities"></a>   
-## Entities and [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
- You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and review the **Outlook & Mobile** settings.  
+## Entities and [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
+ You can enable a limited set of entities for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. To see if an entity is enabled or to enable an entity, click **Settings** > **Customizations** > **Customize the System** > **Entities**. Select an entity and review the **Outlook & Mobile** settings.  
   
  Some more things to note:  
   
--   All custom entities can be enabled for [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+-   All custom entities can be enabled for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
--   You can use the Lookup for entities that are not enabled for [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] from a record that is enabled and see the data. However, you won’t be able to edit the entity.  
+-   You can use the Lookup for entities that are not enabled for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] from a record that is enabled and see the data. However, you won’t be able to edit the entity.  
   
- **Entities that are visible and read/write in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]**  
+ **Entities that are visible and read/write in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]**  
   
 |Entity Name| Visibility Property| Read-only Property|  
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -537,7 +537,7 @@ else
 |Social Profile|Modifiable|Modifiable|  
 |Task|Modifiable|Modifiable|  
   
- **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]**  
+ **Entities that are visible and read-only in [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]**  
   
 |Entity Name| Visibility Property| Read-only Property|  
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
@@ -556,8 +556,8 @@ else
   
 <a name="BKMK_PhoneAuth"></a>   
 
-## Authentication and [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
- [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
+## Authentication and [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
+ [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] authenticate users with browser-based authentication, which means no credentials are stored on the phone.  
 
 ### Microsoft Dynamics 365 (online)
 Dynamics 365 for phones and Dynamics 365 for tablets users transitioned to Microsoft Dynamics 365 (online) on Microsoft Online Services environment will automatically renew their sign-in for **up to**30 days.
@@ -570,20 +570,20 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
     
 <a name="BKMK_SecuringData"></a>   
 
-## Considerations and best practices for securing Dynamics 365 data on [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]  
- Consider the following when planning security for [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)]:  
+## Considerations and best practices for securing Dynamics 365 data on [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
+ Consider the following when planning security for [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]:  
   
-- **Data transmission**. [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../../../../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] data with your online [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)], the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../../../../includes/pn-secure-sockets-layer.md)].  
+- **Data transmission**. [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../../../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] data with your online [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../../../includes/pn-secure-sockets-layer.md)].  
   
-- **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure. [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)] see “What’s the difference between sign out and reconfigure?” in [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
+- **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] see “What’s the difference between sign out and reconfigure?” in [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
   
-- **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](https://technet.microsoft.com/library/hh831713.aspx) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](http://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
+- **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](https://technet.microsoft.com/library/hh831713.aspx) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../../../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](http://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
   
 <a name="BKMK_OtherFeatures"></a>   
 ## Other features  
   
 ### Save  
- Records are saved in [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] based on how you configured autosave in your organization settings. To view your save settings, click **Settings** > **Administration** > **System Settings** > **General** tab. View the settings under **Select the default save option for forms**.  
+ Records are saved in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] based on how you configured autosave in your organization settings. To view your save settings, click **Settings** > **Administration** > **System Settings** > **General** tab. View the settings under **Select the default save option for forms**.  
   
  If autosave is:  
   
@@ -592,9 +592,9 @@ Dynamics 365 for tablets connections to Microsoft Dynamics CRM 2015 or later req
 -   Disabled for the organization, users must use the command bar and click **Save** to save form changes.  
   
 ### Images  
- Images, such as contact photos, are not stored in the browser cache. Images may not be displayed when users work offline with [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)].  
+ Images, such as contact photos, are not stored in the browser cache. Images may not be displayed when users work offline with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
 <a name="BKMK_Privacy"></a>   
 ## Privacy notice  
- [!INCLUDE[cc_privacy_crm_for_tablets](../../../../includes/cc-privacy-crm-for-tablets.md)]  
+ [!INCLUDE[cc_privacy_crm_for_tablets](../../../includes/cc-privacy-crm-for-tablets.md)]  
   

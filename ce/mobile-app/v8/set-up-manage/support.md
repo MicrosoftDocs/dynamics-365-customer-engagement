@@ -19,7 +19,7 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../../../../includes/cc_applies_to_update_8_2_0.md)]
 
-You can access [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../../../../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
+You can access [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] data from mobile devices in different ways. You can install and use the apps for Windows, iOS, and [!INCLUDE[tn_android](../../../includes/tn-android.md)] mobile devices, or you can run the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] web app on the device’s preferred browser for those devices described here. 
 
 CRM Online 2015 Update 1 introduced a new version of Dynamics 365 for phones that’s based on and shares many of the features of Dynamics 365 for tablets. To use this new version of Dynamics 365 for phones, you must be running CRM Online 2015 Update 1 or later or Dynamics CRM 2016 on-premises or later.
 
@@ -74,9 +74,9 @@ Dynamics CRM for phones express is deprecated and will not connect to releases *
 <a name="BKMK_iPad"></a>   
 
 ### Apple iPad  
-You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
+You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../includes/pn-crm-for-ipad-shortest.md)] app on devices that meet the following requirements:    
   
--   Device: [!INCLUDE[tn_ipad](../../../../includes/tn-ipad.md)] third generation or later  
+-   Device: [!INCLUDE[tn_ipad](../../../includes/tn-ipad.md)] third generation or later  
   
 -   Screen: 9-inch (diagonal) or larger  
  
@@ -87,14 +87,14 @@ You can run the [!INCLUDE[pn_crm_for_ipad_shortest](../../../../includes/pn-crm-
 > - For Microsoft Dynamics 365 (online & on-premises), this app is supported on iOS 7, 8, 9, and 10.
 > - For Microsoft Dynamics CRM Online 2016 Update 1 and Microsoft Dynamics CRM 2016 Service Pack 1, this app is supported on iOS 8.1 and above.
 
-#### How to find the version of your [!INCLUDE[pn_crm_for_ipad](../../../../includes/pn-crm-for-ipad.md)] app  
+#### How to find the version of your [!INCLUDE[pn_crm_for_ipad](../../../includes/pn-crm-for-ipad.md)] app  
   
-- In the [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app, go to the home screen, and then open the command bar. Tap **Settings**, and then tap **About**.  
+- In the [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] app, go to the home screen, and then open the command bar. Tap **Settings**, and then tap **About**.  
   
 <a name="BKMK_Nexus"></a>   
 
 ### Android  
-You can run the [!INCLUDE[pn_moca_CRM_Android](../../../../includes/pn-moca-crm-android.md)] app on devices that meet the following requirements:
+You can run the [!INCLUDE[pn_moca_CRM_Android](../../../includes/pn-moca-crm-android.md)] app on devices that meet the following requirements:
 
 - Android versions 4.4<sup>1</sup>, 5.0<sup>2</sup>, and 6.0<sup>3</sup> are supported for tablets with screens larger than 7 inches (optimized for 9 to 10 inches) using Microsoft Dynamics 365 for Android.
 
@@ -109,7 +109,7 @@ You can run the [!INCLUDE[pn_moca_CRM_Android](../../../../includes/pn-moca-crm-
 ## Web browser support for tablets  
 You can run Microsoft Dynamics 365 in the default web browser on any of the supported [Windows tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Windows8) listed earlier. For [Apple iPad tablets](https://technet.microsoft.com/library/dn531131.aspx#BKMK_iPad), iOS 7, iOS 8, and iOS 9 are supported. For [Android](https://technet.microsoft.com/library/dn531131.aspx#BKMK_Nexus), versions 4.2.2, 4.3, 4.4, 5.0, and 6.0 are supported for the tablets listed earlier.
   
- Using [!INCLUDE[pn_microsoftcrm](../../../../includes/pn-microsoftcrm.md)] on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
+ Using [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] on a web browser on an Apple or Android mobile device provides a similar experience to using it with a web browser on a desktop or laptop computer. However, some features are not available, including:  
   
 -   Pinch and zoom  
   
