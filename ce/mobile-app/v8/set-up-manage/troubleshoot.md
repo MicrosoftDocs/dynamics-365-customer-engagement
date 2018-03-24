@@ -67,10 +67,10 @@ If you receive this error:
 |||  
 |-|-|  
 |**Users:**|Notify your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] administrator that you received this error.|  
-|**Admins:**|To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909).|  
+|**Admins:**|To enable the [!INCLUDE[pn_microsoft_dynamics_crm_for_windows_81](../../../includes/pn-microsoft-dynamics-crm-for-windows-81.md)] app for on-premises [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] deployments, you need to make some configuration changes. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Set up Dynamics 365 for phones and tablets](setup.md) **Important:** [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] on-premises deployments require Windows 10 and the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909).|  
   
 ##### If you’re using a Windows phone  
- You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](../mobile-app/support-phones-tablets.md)  
+ You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Support for Dynamics 365 for phones and tablets](support.md)  
   
 
 #### Error message: “This record is unavailable.”  
@@ -121,7 +121,7 @@ If you receive this error:
   
  `“Dynamics CRM [Error] | Connection error: 404”`  
   
- **Cause 2**: Your Dynamics 365  version is not supported. See [What's supported](../mobile-app/support-phones-tablets.md) for version support information.  
+ **Cause 2**: Your Dynamics 365  version is not supported. See [What's supported](support.md) for version support information.  
   
  **Cause 4**: This error can also occur if you enter an invalid URL. Make sure the same URL you have provided works to access [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] in your browser on your device.  
   
@@ -131,7 +131,7 @@ If you receive this error:
  `“Dynamics CRM [Error] | Connection error: 0”`  
   
 #### Error message: "You haven't been authorized to use this app. Check with your system administrator to update your settings."  
- **Cause 1**: Verify that your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] security role includes the **Use [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
+ **Cause 1**: Verify that your [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] security role includes the **Use [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]** privilege. See "Required privileges" in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](set-up.md).  
   
  **Cause 3**: This error can occur if you have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organization and your user has not been assigned a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license. If you add a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] subscription to an existing [!INCLUDE[pn_MS_Office_365](../../../includes/pn-ms-office-365.md)] tenant, your user may not have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license assigned. If the user has the Global Administrator or Service Administrator role in the [Microsoft Online Service Portal](https://portal.microsoftonline.com/), you’re able to sign in to the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] web application to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. When you sign in to the web application, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
   
@@ -147,7 +147,7 @@ If you receive this error:
  **Cause 2**: Check if you are using a preview build of Windows 8.1. So far this issue has only been reported with the preview version of Windows 8.1.  
   
 #### Error message: "Sorry, something went wrong while initializing the app. Please try again, or restart the app."  
- **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Get started with Dynamics 365 for phones and Dynamics 365 for tablets](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_GetStartedTablets).  
+ **Cause 1**: Permissions might not be set properly. See "Required privileges" in [Set up Dynamics 365 for phones and Dynamics 365 for tablets](set-up.md).  
   
  **Cause 2**: See the following KB article:  
   
@@ -318,7 +318,7 @@ If you receive this error:
  If you enable Private Browsing on your iPad in your Safari browser, you will see the following error message when you attempt to connect to your [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] organization: “[!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] has encountered an error.” You will need to disable Private Browsing. Tap the address bar, and then tap **Private**.  
   
 #### Web app differences in mobile browsers  
- For differences you can expect to find in the web app when you’re accessing it from a mobile device, see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](../mobile-app/support-phones-tablets.md).  
+ For differences you can expect to find in the web app when you’re accessing it from a mobile device, see [Support for Dynamics 365 for phones and Dynamics 365 for tablets](support.md).  
   
 <a name="BKMK_Other"></a>   
 ### Other  

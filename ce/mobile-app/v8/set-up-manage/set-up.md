@@ -267,7 +267,7 @@ else
   
 18. Exit Registry Editor.  
   
-     Now you can point your users to the [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Install the Dynamics 365 for tablets app](dynamics-365-phones-tablets-users-guide.md)  
+     Now you can point your users to the [!INCLUDE[pn_windows_8_1](../../../includes/pn-windows-8-1.md)] app, so they can get the added functionality of the offline experience. [!INCLUDE[proc_more_information](../../../includes/proc-more-information.md)] [Install the Dynamics 365 for tablets app](../get-started/install-dynamics-365-phones-tablets.md)  
   
 <a name="BKMK_Configure"></a>   
 
@@ -362,7 +362,7 @@ else
  Forms in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] are based on the development principle of “Design once and deploy across clients.” Entity behavior and business processes in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] forms function similarly to forms in the web application, but with a flow tailored for a tablet. In Microsoft Dynamics 365 online,  you can preview how forms look on tablets and phones when you customize them in the web app.  
   
 > [!NOTE]
->  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]. See the section below [Things to know about Dynamics 365 for phones](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md#BKMK_PhonesThingsToKnow).  
+>  Forms work a bit differently for [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]. See the section below [Things to know about [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]](#things-to-know-about-includepnmobileexpressshortincludespn-mobile-express-shortmd).  
   
 ||||  
 |-|-|-|  
@@ -396,7 +396,8 @@ else
   
 -   Activity Feeds and [!INCLUDE[pn_yammer](../../../includes/pn-yammer.md)] are not supported in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
   
-<a name="BKMK_PhonesThingsToKnow"></a>   
+<a name="BKMK_PhonesThingsToKnow"></a>  
+ 
 ## Things to know about [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]  
   
 ### Forms  
