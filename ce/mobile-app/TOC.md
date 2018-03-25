@@ -55,7 +55,7 @@
 #### [Pin your favorites](../mobile-app/v8/go-mobile/get-started/pin-favorites.md)
 #### [Manage work orders, agreements, customer assets, and time off requests](../mobile-app/v8/go-mobile/get-started/manage-work-orders-agreements-customer-assets-time-off-requests.md)
 ### Admin and troubleshooting
-#### [Get the Company News Timeline](../mobile-app/v8/go-mobile/admin-troubleshoot/get-company-news-timeline.md)
+#### [Get the Company News Timeline](v8/go-mobile/admin-troubleshoot/get-company-news-timeline.md)
 #### [Reconfigure](../mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure.md)
 #### [Secure your mobile data with Microsoft Dynamics 365 for Good](../mobile-app/v8/go-mobile/admin-troubleshoot/secure-mobile-data-dynamics-365-good.md)
 #### [iFrame and web resource support](../mobile-app/v8/go-mobile/admin-troubleshoot/iframe-web-resource-support.md)
