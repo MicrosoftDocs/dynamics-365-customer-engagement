@@ -32,16 +32,21 @@ Add a timer control to an entity form to help users gauge the amount of time the
   
 -   If either of the required fields in the **Timer Control** dialog box do not have a value in the record, the control shows the words **Not Set**.  
   
-    ![Timer control state in Customer Service Hub](media/timer-sla-csh.png)
+    ![Timer control state in Customer Service Hub](media/timer-sla-csh.png "Timer control state in Customer Service Hub")
 
-    ![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png)
+    ![Timer control expired in Customer Service Hub](media/timer-sla-csh-expired.png "Timer control expired in Customer Service Hub")
   
 > [!IMPORTANT]
 > - The instructions in this topic apply  if you're adding a timer to track time for  the date/time field of any entity, or for tracking time against standard  SLAs on case records. If you are using enhanced SLAs and want to add a timer to your forms, see [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md).  
 > - The timer control is designed to visually show the current state or show the remaining or elapsed time relative to the date and time as specified in the **Failure Time** field of the SLA KPI Instance. It doesn’t calculate or keep track of the time for which the Pause condition is true.  
  
+> [!NOTE]
+> The above screens showcase the timer control on a Unified interface based app. On a webclient app, the timer control is displayed as follows: <br><br> ![Timer control in webclient app](media/timer-control-webclient.png)
+
+
 For more information, see: [Track SLA details with Timer Control](customer-service-hub-user-guide-case-sla.md#track-sla-details-with-timer-control)
- 
+
+
 ## Add a timer control to the Case form  
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
@@ -62,7 +67,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
 6.  On the **Insert** tab, in the **Control** group, select **Timer**.  
 
-    ![Timer control button on Insert tab in Customer Service Hub](media/insert-timer-control.png)
+    ![Timer control button on Insert tab in Customer Service Hub](media/insert-timer-control.png "Timer control button on Insert tab in Customer Service Hub")
   
 7.  In the **Timer Control** dialog box:  
   
@@ -80,7 +85,7 @@ For more information, see: [Track SLA details with Timer Control](customer-servi
   
     7.  Next to **Pause Condition**, enter the condition that will cause the timer to pause the count down. For example, you want the timer to pause the count down every time the case status is set to “On-hold”. For this, in the first drop-down list, select **Status**. In the second drop-down list, select **On-hold**.  
   
-        ![Timer control in Customer Service Hub](media/timer-control-box-csh.png)
+       ![Timer control in Customer Service Hub](media/timer-control-box-csh.png "Timer control in Customer Service Hub")
   
 8.  Select **OK** to add the control to the form.  
   

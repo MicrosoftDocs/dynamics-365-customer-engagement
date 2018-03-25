@@ -1,21 +1,19 @@
 ---
-title: "Restrict a resource from performing a service (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Restrict a resource from performing a service (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to restrict a resource from performing a service in Dynamics 365 for Customer Service
+keywords: Restrict a resource from performing a service; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 069d1768-3521-4407-8b1f-582706ecfcf6
-caps.latest.revision: 17
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Restrict a resource from performing a service (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

@@ -48,12 +48,12 @@ There are two flavors of [!include[](.../includes/pn-ms-dyn-365-for-customer-ser
 
 If you're using a desktop browser, you'll see the Customer Service app and the Customer Service Hub app in the app switcher as shown here:
 
-![open-sitemap](media/open-csh-sitemap-overview.png "customer service hub sitemap")
+![open-sitemap](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
 [//]: # (There's no token - yet? - for Dynamics 365 for phones and tablets, but there are two separate tokens for the two flavors. I'm not sure what to do here.)
 If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the Customer Service Hub app in the app switcher as shown here:
 
-![csh-mobile](media/ChooseAnApp_1.png "customer service hub on mobile")
+![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
 > Looking forward to upgrade to the Customer Service Hub app? See the blog [Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
