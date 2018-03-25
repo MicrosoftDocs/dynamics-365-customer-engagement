@@ -51,7 +51,6 @@
 #### [Manage activities.md](../mobile-app/v8/go-mobile/get-started/manage-activities.md)
 #### [Create a communication card](../mobile-app/v8/go-mobile/get-started/create-communication-card.md)
 #### [Email and call customers](../mobile-app/v8/go-mobile/get-started/email-and-call-customers.md)
-#### [Work offline](../mobile-app/v8/go-mobile/get-started/work-offline.md)
 #### [Search and sort](../mobile-app/v8/go-mobile/get-started/search-sort.md)
 #### [Dashboard views](../mobile-app/v8/go-mobile/get-started/dashboard-views.md)
 #### [Use Cortana voice commands](../mobile-app/v8/go-mobile/get-started/use-cortana-voice-commands.md)
