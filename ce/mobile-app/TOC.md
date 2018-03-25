@@ -3,7 +3,7 @@
 # Administration Guide 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
-## [Configure mobile offline synchronization](configure-mobile-offline-synchronization.md)
+## [Configure mobile offline synchronization](configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
 ## [Manage and secure devices](secure-manage-phones-tablets.md)
 ## [Dynamics 365 for Good device encryption](secure-mobile-data-dynamics-365-good.md)
 
@@ -48,7 +48,7 @@
 #### [Manage activities.md](../mobile-app/v8/go-mobile/get-started/manage-activities.md)
 #### [Create a communication card](../mobile-app/v8/go-mobile/get-started/create-communication-card.md)
 #### [Email and call customers](../mobile-app/v8/go-mobile/get-started/email-and-call-customers.md)
-#### [Work offline](../mobile-app/v8/go-mobile/get-started/work-offline-in.md)
+#### [Work offline](../mobile-app/v8/go-mobile/get-started/work-offline.md)
 #### [Search and sort](../mobile-app/v8/go-mobile/get-started/search-sort.md)
 #### [Dashboard views](../mobile-app/v8/go-mobile/get-started/dashboard-views.md)
 #### [Use Cortana voice commands](../mobile-app/v8/go-mobile/get-started/use-cortana-voice-commands.md)

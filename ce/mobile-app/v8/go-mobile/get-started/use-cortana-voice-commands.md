@@ -43,7 +43,7 @@ You can use the following [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm
   
  For more information about using [!INCLUDE[pn_cortana](../../../../includes/pn-cortana.md)], see [Meet Cortana](http://go.microsoft.com/fwlink/p/?LinkID=401573).  
   
- [![Left arrow icon](../../../media/left-arrow-blue-circle.png "Left arrow icon")] [Track customer service cases](track-customer-service-cases-dynamics-365-phones-tablets.md)  
+ [![Left arrow icon](../../../media/left-arrow-blue-circle.png "Left arrow icon")] [Track customer service cases](track-customer-service-cases.md)  
   
 #### Privacy notice  
  [!INCLUDE[cc_privacy_crm_cortana](../../../../includes/cc-privacy-crm-cortana.md)]  

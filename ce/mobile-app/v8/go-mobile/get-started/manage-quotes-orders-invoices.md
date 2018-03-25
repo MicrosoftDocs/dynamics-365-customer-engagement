@@ -165,4 +165,4 @@ As a sales professional, you'll frequently work with the following types of reco
      ![Create an invoice in Dynamics 365 on a tablet](../../../media/tablet-createinvoice.png "Create an invoice in Dynamics 365 on a tablet")  
   
 ## See Also  
- [Install Dynamics 365 for phones and tablets](install-dynamics-365-phones-tablets.md)
+ [Install Dynamics 365 for phones and tablets](install.md)

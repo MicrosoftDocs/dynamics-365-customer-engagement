@@ -43,4 +43,4 @@ manager: "brycho"
  [Troubleshoot a Dynamics 365 for Windows app start-up error](../admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)  
   
 ## See Also  
- [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands-dynamics-365-phones.md)
+ [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands.md)
