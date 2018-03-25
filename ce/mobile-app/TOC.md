@@ -36,7 +36,6 @@
 #### [Install](../mobile-app/v8/go-mobile/get-started/install.md)
 #### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
 #### [Reconfigure](../mobile-app/v8/go-mobile/get-started/reconfigure.md)
-#### [Work offline](../mobile-app/v8/go-mobile/get-started/work-offline.md)
 #### [Basic navigation](../mobile-app/v8/go-mobile/get-started/basic-navigation.md)
 #### [The workspace - your personalized action hub](../mobile-app/v8/go-mobile/get-started/workspace-personalized-action-hub.md)
 #### [Notes](../mobile-app/v8/go-mobile/get-started/notes.md)
