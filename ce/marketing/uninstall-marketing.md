@@ -68,23 +68,23 @@ To remove the services:
 1. Go to **Settings** > **Customizations** > **Solutions** in the custom app to view the list of solutions installed there.
 
 1. Find each of the following solutions and remove them, one at a time, in the order listed here. To remove a solution, select its check box and then choose **Delete** from the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
-    1. MicrosoftDynamics_MktEmailTemplates
-    1. MicrosoftDynamics_MktIntegration
-    1. MicrosoftDynamics_MktPageTemplates
-    1. MicrosoftDynamics_MktLeadGenLink
-    1. MicrosoftDynamics_MktConsentManagement
-    1. MicrosoftDynamics_MktQuotaInfo
-    1. MicrosoftDynamics_MktLeadManagement
-    1. MicrosoftDynamics_MktPortalsLink
-    1. MicrosoftDynamics_MktVocLink
-    1. MicrosoftDynamics_MktEvtMgmtLink
-    1. MicrosoftDynamics_Marketing
-    1. MicrosoftDynamics_MarketingAnchorSolution
-    1. MicrosoftDynamics_EvtMgmtVocLink
-    1. MicrosoftDynamics_EvtMgmtPortalsLink
-    1. MicrosoftDynamics_EventManagement
-    1. MicrosoftDynamics_EventManagementAnchorSolution
-    1. LinkedInLeadGenIntegration
+    - MicrosoftDynamics_MktEmailTemplates
+    -  MicrosoftDynamics_MktIntegration
+    -  MicrosoftDynamics_MktPageTemplates
+    -  MicrosoftDynamics_MktLeadGenLink
+    -  MicrosoftDynamics_MktConsentManagement
+    -  MicrosoftDynamics_MktQuotaInfo
+    -  MicrosoftDynamics_MktLeadManagement
+    -  MicrosoftDynamics_MktPortalsLink
+    -  MicrosoftDynamics_MktVocLink
+    -  MicrosoftDynamics_MktEvtMgmtLink
+    -  MicrosoftDynamics_Marketing
+    -  MicrosoftDynamics_MarketingAnchorSolution
+    -  MicrosoftDynamics_EvtMgmtVocLink
+    -  MicrosoftDynamics_EvtMgmtPortalsLink
+    -  MicrosoftDynamics_EventManagement
+    -  MicrosoftDynamics_EventManagementAnchorSolution
+    -  LinkedInLeadGenIntegration
 
 1. If you are no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, then you can delete their related solutions too.
 
