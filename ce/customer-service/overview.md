@@ -8,7 +8,7 @@ applies_to:
   - Dynamics 365 Version 9.x
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/30/2017
+ms.date: 02/20/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
@@ -39,7 +39,7 @@ There are two flavors of [!include[](.../includes/pn-ms-dyn-365-for-customer-ser
 
 - The Customer Service app is available on a desktop browser for case management, but not for managing knowledge articles. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service](user-guide-customer-service.md)
 
-- The Customer Service Hub app is available to use on a desktop browser for managing knowledge articles, and on mobile devices for case management. [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
+- The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management.  [!include[](../includes/proc-more-information.md)] [User guide for Customer Service Hub](user-guide-customer-service-hub.md)
 
     The Customer Service Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. Using Customer Service Hub on a desktop browser for tasks other than managing knowledge articles is not recommended. 
 
@@ -48,12 +48,15 @@ There are two flavors of [!include[](.../includes/pn-ms-dyn-365-for-customer-ser
 
 If you're using a desktop browser, you'll see the Customer Service app and the Customer Service Hub app in the app switcher as shown here:
 
-![open-sitemap](media/open-csh-sitemap-overview.png "customer service hub sitemap")
+![open-sitemap](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
 [//]: # (There's no token - yet? - for Dynamics 365 for phones and tablets, but there are two separate tokens for the two flavors. I'm not sure what to do here.)
 If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the Customer Service Hub app in the app switcher as shown here:
 
-![csh-mobile](media/ChooseAnApp_1.png "customer service hub on mobile")
+![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
+
+> [!NOTE]
+> Looking forward to upgrade to the Customer Service Hub app? See the blog [Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
 
 ## Set up Customer Service or Customer Service Hub
 

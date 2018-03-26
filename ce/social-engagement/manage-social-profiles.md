@@ -2,7 +2,7 @@
 title: "Manage social profiles in Social Engagement | Microsoft Docs"
 description: "Learn how to add, edit, share, or remove a social profile in Social Engagement."
 keywords: "social profile, tokens, shared profile"
-ms.date: 12/12/2017
+ms.date: 02/27/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -41,7 +41,7 @@ Currently, you can add the following social profiles:
 
 - **[!INCLUDE[tn-instagram](../includes/tn-instagram.md)] account**: Interact with posts on [!INCLUDE[tn-instagram](../includes/tn-instagram.md)]. At least one active social profile for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] is required to gather data from [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] feeds.
 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user**: Interact with posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user**: Share posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. 
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Page**: Reply to and like posts on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages with a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] organization page profile. To add this type of profile, you need to be an [Organization Page Administrator](https://www.linkedin.com/help/linkedin/answer/4783) on the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] page. At least one active social profile for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages is required to gather data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Organization Pages.
 
@@ -158,7 +158,8 @@ If you know the credentials to a social profile, you can claim ownership for it.
 
 [!include[cognitive services privacy token](../includes/cc-privacy-mse-ms-cognitive-services.md)]
 
-### See also  
+### See also 
+ 
  [Engage on social networks](engage-on-social-networks.md)   
  [Check the health state of your social profiles](social-profiles-health-state.md)   
  [Manage access tokens](manage-access-tokens.md)   

@@ -1,7 +1,7 @@
 ---
-title: "Preview feature: Dynamics 365 App for Outlook User Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Dynamics 365 App for Outlook User Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/19/2017
+ms.date: 03/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -21,20 +21,13 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
-> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)], a preview feature, works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. 
->
-> A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
->
-> Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446). 
+> The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)], works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. For a prior release that works with earlier versions of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], see [Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).
 
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.  
   
  For example, when you open an email message, view information from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record. When you link an email message or appointment to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
  <!--[Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
-  
-> [!NOTE]
-> This content is for the latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]. For prior releases, see [Dynamics 365 App for Outlook User Guide](https://www.microsoft.com/en-us/dynamics/crm-customer-center/dynamics-365-app-for-outlook-user-s-guide.aspx)
 
 <!--  
 > [!TIP]
@@ -229,6 +222,40 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
+
+<!-- Waiting to hear from Dev on how this works then I need to update some screenshots from v8 to v9.
+
+## Customize the track regarding card
+
+The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Job Title** with **Business Phone** in the Contact card.
+
+![Initial contact card](media/initial-contact-card.png "Initial contact card")
+
+To change the fields that appear, follow these steps:
+
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+2. Expand **Entities** and choose an entity such as **Contact**.
+3. Expand the entity and select **Forms**, then select the **Contact** form.
+
+   ![Contact entity form](media/contact-entity-form.png)
+4. Drag **Business Phone** below **Account Name**. Drag **Job Title** below **Mobile Phone**.
+
+   | | |  |
+   |---------|---------|---------|
+   |![Drag fields in form](media/drag-fields-in-form.png "Drag fields in form")     |         | ![After dragging fields](media/after-dragging-fields.png "After dragging fields")        |
+
+   > [!NOTE]
+   > The first four fields appear in the track regarding card.
+5. Choose **Save**, **Publish**, and then close the form editor.
+6. On the solution page, choose **Components** > **Prepare Client Customizations**. 
+
+   ![Prepare client customizations](media/prepare-client-customizations.png "Prepare client customizations")
+7. Close the solutions page.
+
+After completing the above, right-click in the track regarding card, and then choose **Reload**. It might take some time for the synchronization to complete and the change to appear.
+
+![After customizing card](media/after-customizing-card.png "After customizing card")</br>
+The business phone number replaces job title in the Contact card. -->
 
 ## Compose an email message and link it to a Dynamics 365 record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
@@ -456,6 +483,48 @@ In the lower-left corner of the [!INCLUDE[pn_Outlook_short](../includes/pn-outlo
 2.  Select the view you want.  
   
  ![Dynamics 365 App for Outlook with contract tracking filter drop-down](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
+
+## Add a custom entity to Quick create
+
+Follow these steps to enable a custom entity to appear in Quick create.
+
+![Custom entity in Quick create](media/custom-entity-quick-create.png) 
+
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+2. Choose the custom entity. Under **Data Services**, enable **Allow quick create**. Under **Outlook & Mobile**, enable **Enable for mobile**.
+
+   ![Enable entity settings for quick create display](media/settings-enabled.png "Enable entity settings for quick create display")
+3. Verify the custom entity has a quick create form. Chose **Forms** and browse for form type **Quick Create**. Create a quick create form if needed.
+
+   ![Quick create form](media/quick-create-form.png "Quick create form")
+4. Verify the custom entity is added to the app designer. Choose **Apps**, and then open **App for Outlook**.
+
+   ![Apps for Outlook in Apps](media/apps-for-outlook-in-apps.png)
+6. In the app designer, choose **Entities** and browse to find your custom entity.
+
+   ![Custom entity in app designer](media/custom-entity-app-designer.png)
+
+## Enable a custom entity to appear in the Regarding lookup
+
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+2. Choose the custom entity. Under **Communication & Collaboration**, enable **Activities**, and then choose **Save** > **Publish** on the **Home** tab.
+
+   ![Communication and collaboration activity enabled](media/communication-collaboration-activities.png "Communication and collaboration activity enabled")
+
+## Search on custom field in Regarding lookup
+
+To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] Regarding lookup search on custom fields, that field must be added to the entity’s lookup view view.
+
+1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
+2. Choose an entity, then choose **Views**.
+3. Open **Account Lookup View**.
+
+   ![Account lookup view](media/account-lookup-view.png)
+4. Enable the custom field, and then choose **OK**.
+
+   ![Enable custom field](media/add-custom-field.png)
+5. Choose **Save** > **Publish** on the **Home** tab.
+
 
 <!--  
 ### Filter contacts by column (field)  

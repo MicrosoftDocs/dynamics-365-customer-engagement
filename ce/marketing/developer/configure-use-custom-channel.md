@@ -2,7 +2,7 @@
 title: "Configure and use custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Provides information on how to install custom channel from AppSource to your Dynamics 365 instance."
 ms.custom: ""
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"

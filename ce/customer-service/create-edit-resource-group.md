@@ -1,20 +1,19 @@
 ---
-title: "Create or change a resource group (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Create or change a resource group (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Create or change a resource group in Dynamics 365 for Customer Service
+keywords: Resource group; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 5e461837-29ca-4d76-9231-cbf7423c5c7d
-caps.latest.revision: 34
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Create or change a resource group (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

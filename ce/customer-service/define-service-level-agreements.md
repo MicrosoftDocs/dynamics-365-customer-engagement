@@ -1,20 +1,19 @@
 ---
-title: "Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to define service level agreements in Dynamics 365 for Customer Service
+keywords: Service leve agreements; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
-caps.latest.revision: 65
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Define service level agreements (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -195,7 +194,7 @@ Define the level of service or support that your organization agrees to offer to
   
 6.  Fill in your information  
   
-    - **Applicable From**. Select the                     field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, the calculations for service level agreements will start from the time the                      record                     is created.  
+    - **Applicable From**. Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, the calculations for service level agreements will start from the time the record is created.  
   
         > [!NOTE]
         >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the Applicable From field value.  
@@ -221,9 +220,9 @@ Define the level of service or support that your organization agrees to offer to
          For example, select **First Response By KPI** in the **SLA KPI** field, and set **Failure After** to 2 hours from                      record                     creation. If the                      record                     is created at 09:00, the **Failure Time** field of the SLA KPI Instance record is set to 11:00 assuming the business hours are 24 x 7.  
   
         > [!TIP]
-        >  If you're creating an SLA for a Case entity,                         b                       y default, there are two options available in the drop-down list. If you want to track other KPIs                       for Case or if you're creating the SLA for entities other than Case                       ,                       ask your system customizer to create new                       fields (of type lookup) that refer to the SLA KPI Instance entity.  
+        >  If you're creating an SLA for a Case entity, by default, there are two options available in the drop-down list. If you want to track other KPIs      for Case or if you're creating the SLA for entities other than Case, ask your system customizer to create new fields (of type lookup) that refer to the SLA KPI Instance entity.  
   
-    -   In the **Applicable When** section, define the conditions under which the KPI will be applicable. The condition can be based on                      primary entity                     or related entity fields.  
+    -   In the **Applicable When** section, define the conditions under which the KPI will be applicable. The condition can be based on primary entity                     or related entity fields.  
   
          For example, the conditions could be as follows.  
   
@@ -269,7 +268,8 @@ Define the level of service or support that your organization agrees to offer to
   
 > [!IMPORTANT]
 > - We do not recommend creating or updating SLAs by using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. Use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application for this purpose.  
-> - Make sure that you don't have too many SLA Items in an SLA, because that can directly impact the create and update operations on the record on which the SLA is applied or re-evaluated. We recommend  you not have more than 15 SLA items in an SLA record for performance reasons.  
+> - Make sure that you don't have too many SLA Items in an SLA, because that can directly impact the create and update operations on the record on which the SLA is applied or re-evaluated. We recommend  you not have more than 15 SLA items in an SLA record for performance reasons. 
+> - The SLA business logic relies on SLA KPI Instance record values, so it is not recommended to create plugins or processes to directly update the SLA KPI Instance record values to avoid any conflict. 
   
 <a name="bkmk_SetAsDefault"></a>   
 ## Set the SLA as default  

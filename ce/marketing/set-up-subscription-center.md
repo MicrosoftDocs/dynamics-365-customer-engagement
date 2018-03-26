@@ -2,7 +2,7 @@
 title: "Set up a subscription center (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to create subscription lists and add them to a subscription center in Dynamics 365 for Marketing"
 keywords: "tutorial; subscription center; static list; subscription list; marketing page; page"
-ms.date: 11/07/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 A subscription center is a marketing page that known contacts can use to manage their communication preferences and contact details with your organization.
 
 All marketing email messages that you create by using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include a link to a subscription center, and they will fail the error check if you try to go live with a message that lacks this link. There are two good reasons for requiring a subscription center link in all marketing email messages:
@@ -36,11 +34,6 @@ Each subscription list exists as a static marketing list in [!INCLUDE[pn-crm-201
 The only way a contact can access a subscription center is by clicking a link sent to them in email. Email links are always personalized for the recipient, which means that [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] always knows which contact has requested the subscription center and therefore populates it with that contact's current details and subscriptions. Note that you can also add subscription lists to standard marketing pages, which enables inbound (previously unknown) contacts to sign up for one or more mailing lists at the same time they register with your site.
 
 A default subscription center is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but it is very simple: it includes the minimum contact fields and the required **do not bulk email** check box. In this exercise, we'll walk through the process of creating a subscription list and adding it to a subscription form. We'll also point out how to choose a subscription center in content settings and how to assign content settings to a customer journey.
-
-> [!IMPORTANT]
-> Normally, all contacts that start on a customer journey will remain on that journey until they reach the end&mdash;even if they unsubscribe while the journey is running. For journeys that take more than a few days to traverse, this can mean that contacts may continue to receive marketing messages even long after they have unsubscribed. Failure to implement unsubscribe requests in a timely manner may expose your organization to litigation and penalties. It is your responsibility to familiarize yourself with and conform to all applicable regulations in the countries/regions targeted by your marketing campaigns.
-> 
-> To create a customer journey that applies unsubscribe requests received mid-run, add a suppression segment to the journey as described in [Use suppression segments to apply unsubscribe requests](suppression-segments.md).
 
 ## Create a subscription list
 
@@ -191,41 +184,32 @@ To add a subscription center link to a marketing email:
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)
 
-## Create a segment based on a subscription list
+## Set up a customer journey that targets a subscription list
 
-After you've set up a subscription list, you'll probably want to send regular email messages to your subscribers. To do this, you need to set up a marketing segment that finds all the contacts on a subscription list, and then use that segment as the first tile in a customer journey that automates your email deliveries and other initiatives.
+After you've set up a subscription list, you'll probably want to send regular email messages to your subscribers. To do this, place a segment tile configured to load a subscription list as the first tile in a customer journey that automates your email deliveries and other initiatives.
 
-To set up a segment based on a subscription list:
+To set up a segment tile to target a subscription list:
 
-1. Go to **Marketing** > **Customers** > **Segments** and select **New** on the command bar.
+1. Set up a customer journey that starts with a segment group tile, as usual.
 
-1. The **New Segment** page opens, with the **General** tab shown. Fill out the information on the **General** tab to name and describe your new segment. Be sure to leave the **Segment type** set to **Dynamic segment**.  
-    ![The General tab for the segment entity](media/segment-general-settings.png "The General tab for the segment")
- 
-1. Open the **Definition** tab, and then go to the **Designer** sub tab.  
-    ![The Designer tab for the segment entity](media/segment-definition-designer-2.png "The Designer tab for the segment")
+1. Select a child segment tile and open the **Properties** tab.
 
-1. The new segment already has a default expression here, which is set to query the _Contacts_ entity. But we need to start with the _Marketing List_ entity instead, so remove the default expression by selecting its close button **(X)**.  
-    ![Choose the close button to remove the default clause](media/segment-designer-remove-clause.png "Select the close button to remove the default clause")
- 
-1. Now you have a blank expression with a single drop-down list marked **Select a profile or relationship**. Select **Marketing List** from this drop-down list, and then complete the expression so it will find your subscription list, for example: **Marketing List | Name | is | Newsletter**, which will find a marketing list by name. If more than one list has the same name, all lists with that name will be combined by this segment, so be careful.  
-    ![Select a profile or relationship](media/segment-select-first-profile.png "Select a profile or relationship")
+1. Set the **Segment source** to **Subscription Marketing List**, which activates the **Marketing List** field. Then set the **Marking List** to the name of the subscription list you want to use for this journey.  
+    ![Set a segment tile to load a subscription list](media/cj-target-subscription-list.png "Set a segment tile to load a subscription list")
 
-1. Now you've identified a list, but the segment needs to find contacts, so you need to combine the identified list with an expression that finds the contacts referenced by that list. Select the **+And** button under your new expression to add another clause.  
-    ![Add a new AND clause](media/segment-add-and-clause.png "Add a new AND clause")
 
-1. A new clause is added to your expression by using an AND operator. Set the new clause to find all the contacts in your list by setting it to **And | Contact | All&ast;**.  
-    ![The final subscription-list segment definition](media/segment-final-newsletter.png "The final subscription-list segment definition")
+> [!IMPORTANT]
+> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is always best to request all contacts to manage their own subscriptions using the subscription center.
 
-1. Save your work.
 
-1. Your segment now includes all contacts from the specified marketing list. If you want, you can add more clauses and groups to narrow or expand the segment.
 
 ### See also
 
-[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
-[Market segmentation, marketing lists, and subscription lists](segmentation-lists-subscriptions.md)  
-[Create a segment](create-segment.md)  
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)
+[Create a simple customer journey](create-simple-customer-journey.md)  
+[Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
+[Customer journey tiles reference](customer-journey-tiles-reference.md)  
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
 [Find your way around](navigation.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)
 

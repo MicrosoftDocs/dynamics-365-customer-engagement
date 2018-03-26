@@ -3,7 +3,7 @@ title: Keyboard shortcuts for the Customer Service Hub in Microsoft Dynamics 365
 description: Use the keyboard shortcuts to perform common tasks in Customer Service Hub in Microsoft Dynamics 365
 keywords: Customer Service Hub; Interactive Service hub; Keyboard shortcuts; Keyboard navigation support; Microsoft Dynamics 365
 author: anjgupta
-applies_to: Dynamics 365 (online); Dynamics 365 Version 9.x
+applies_to: Dynamics 365 (online); Dynamics 365 Version 8.x
 ms.author: anjgup
 manager: sakudes
 ms.date: 12/15/2017
@@ -14,7 +14,7 @@ ms.assetid: 97ac6ad4-92f0-4785-9186-31d3722e20a1
 
 # Keyboard navigation support for the Customer Service Hub
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft is committed to making its products and services easier for everyone to use.
 

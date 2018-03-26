@@ -1,20 +1,20 @@
 ---
-title: "Force an activity into a time slot (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Force an activity into a time slot (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to force an activity into a time slot in Dynamics 365 for Customer Service
+keywords: Force an activity; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.custom: article
+ms.service: crm-online
 ms.assetid: e2050e36-3e95-49b1-9f2b-f0025eb7022c
-caps.latest.revision: 30
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Force an activity into a time slot in the service schedule
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
