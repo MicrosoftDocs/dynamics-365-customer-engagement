@@ -46,21 +46,21 @@ When you are ready to move to a new plan—either now or during renewal—you’
 ## Compare your options for upgrading or switching plans  
  You can choose to maintain similar functionality you have with CRM Online or take advantage of new features and functionality from [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. The licensing changes are as follows.  
   
-|Existing CRM Online License|Recommended Dynamics 365 Enterprise edition License|  
+|Existing CRM Online License|Recommended Dynamics 365 License|  
 |---------------------------------|---------------------------------------------------------|  
-|Enterprise|Dynamics 365 Customer Engagement Plan Enterprise Edition|  
-|Professional|Dynamics 365 Customer Engagement Plan Enterprise Edition, [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)], or [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Customer Service|  
-|Basic|[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Team Members, [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)], [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], or Dynamics 365 Customer Engagement Plan Enterprise Edition|  
+|Enterprise|Dynamics 365 Customer Engagement Plan|  
+|Professional|Dynamics 365 Customer Engagement Plan, [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)], or [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Customer Service|  
+|Basic|[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Team Members, [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)], [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], or Dynamics 365 Customer Engagement Plan|  
 |Essential|[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Team Members|  
-|Field Service Add-on|Dynamics 365 Customer Engagement Plan Enterprise Edition, or [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Field Service|  
-|Project Service Automation Add-on|Dynamics 365 Customer Engagement Plan Enterprise Edition, or [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Project Service Automation|  
+|Field Service Add-on|Dynamics 365 Customer Engagement Plan, or [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Field Service|  
+|Project Service Automation Add-on|Dynamics 365 Customer Engagement Plan, or [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] for Project Service Automation|  
   
 > [!IMPORTANT]
 >  Existing customers must choose which [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] licenses meet the needs of their organization.  Simply transitioning existing licenses to the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] equivalent may not always be the best course of action.  Review the use rights below to determine the mix of user subscriptions that are suitable for your organization’s needs.  Based on the use rights changes with the launch of [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)], this may be different than what you have today.  Review the following information for assistance on how to make your best license choices.  
   
 <a name="BKMK_Option1"></a>   
-### Option 1:  For Enterprise, Professional, Field Service, Project Service Automation, or Basic Users, consider Dynamics 365 Customer Engagement Plan Enterprise Edition  
- This option is ideal if you want to take advantage of functionality in multiple Dynamics 365 applications, or the new functionality that Dynamics 365 Customer Engagement Plan Enterprise Edition has to offer. Dynamics 365 Customer Engagement Plan Enterprise Edition includes Customer Service, Sales, Project Service Automation, Field Service, and PowerApps.  
+### Option 1:  For Enterprise, Professional, Field Service, Project Service Automation, or Basic Users, consider Dynamics 365 Customer Engagement Plan 
+ This option is ideal if you want to take advantage of functionality in multiple Dynamics 365 applications, or the new functionality that Dynamics 365 Customer Engagement Plan has to offer. Dynamics 365 Customer Engagement Plan includes Customer Service, Sales, Project Service Automation, Field Service, and PowerApps.  
   
 <a name="BKMK_Option2"></a>   
 ### Option 2:  For Professional Users, consider [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)]  
@@ -78,23 +78,23 @@ When you are ready to move to a new plan—either now or during renewal—you’
 ### Option 5: For Basic Users, consider [!INCLUDE[pn_dyn_365_sales](../includes/pn-dyn-365-sales.md)]  
  Choose this option if you want to maintain access to full Sales functionality and require write access to Cases or Leads. This will get you access to what you have today in CRM Online (minus write access to cases), plus PowerApps, Social Engagement, Gamification, Mobile Offline, and Voice of Customer.  
   
-### Option 6: For Basic Users, consider Dynamics 365 for Team Members, Enterprise edition  
+### Option 6: For Basic Users, consider Dynamics 365 for Team Members 
  Choose this option if you do not need access to full functionality and do not require write access  to Leads. This will get you access to what you have today in CRM Online (minus leads) plus embedded PowerApps.  
   
 <a name="BKMK_Option7"></a>   
-### Option 7: For Essential Users, consider Dynamics 365 for Team Members, Enterprise edition  
+### Option 7: For Essential Users, consider Dynamics 365 for Team Members 
  Choose this option to get access to what you have today in CRM Online plus embedded PowerApps.  
   
 <a name="BKMK_Option8"></a>   
-### Option 8: For Project Service Automation Users, consider [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] or Dynamics 365 Customer Engagement Plan Enterprise Edition  
- Choose this option if you purchased a Basic User plus Project Service Automation plan. Project Service Automation includes all of the functionality of the Project Service Automation add-on, plus PowerApps, Social Engagement, Gamification, Mobile Offline, Project Online Premium, and Voice of Customer. This would not include write access to cases or leads – for this access the Project Service Automation user should license Dynamics 365 Customer Engagement Plan Enterprise Edition.  
+### Option 8: For Project Service Automation Users, consider [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)] or Dynamics 365 Customer Engagement Plan  
+ Choose this option if you purchased a Basic User plus Project Service Automation plan. Project Service Automation includes all of the functionality of the Project Service Automation add-on, plus PowerApps, Social Engagement, Gamification, Mobile Offline, Project Online Premium, and Voice of Customer. This would not include write access to cases or leads – for this access the Project Service Automation user should license Dynamics 365 Customer Engagement Plan.  
   
 <a name="BKMK_Option9"></a>   
-### Option 9: For Field Service Users, consider [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] or Dynamics 365 Customer Engagement Plan Enterprise Edition  
- Choose this option if you purchased a Basic User plus Field Service plan. Field Service is intended for users who will be engaging in any kind of field technician, scheduler, or dispatcher role. This license includes all of the functionality of the Field Service add-on, plus PowerApps, Social Engagement, Gamification, Mobile Offline, Project Online Premium, and Voice of Customer. This would not include write access to cases or leads – for this access the Project Service Automation user should license Dynamics 365 Customer Engagement Plan Enterprise Edition.  
+### Option 9: For Field Service Users, consider [!INCLUDE[pn_dyn_365_field_service](../includes/pn-dyn-365-field-service.md)] or Dynamics 365 Customer Engagement Plan   
+ Choose this option if you purchased a Basic User plus Field Service plan. Field Service is intended for users who will be engaging in any kind of field technician, scheduler, or dispatcher role. This license includes all of the functionality of the Field Service add-on, plus PowerApps, Social Engagement, Gamification, Mobile Offline, Project Online Premium, and Voice of Customer. This would not include write access to cases or leads – for this access the Project Service Automation user should license Dynamics 365 Customer Engagement Plan.  
   
 <a name="BKMK_HowToUpgrade"></a>   
-## How to upgrade to Dynamics 365 Customer Engagement Plan Enterprise Edition or switch to a Dynamics 365 Application  
+## How to upgrade to Dynamics 365 Customer Engagement Plan or switch to a Dynamics 365 Application  
  You can switch to [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] now, or wait until it’s time to renew, and then upgrade during the renewal process. Either way, you’ll work with your account representative or partner to make the switch, unless you bought your subscription directly from Microsoft, in which case you can switch in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  To learn more, see  [Switch from Dynamics CRM Online to Dynamics 365 (online)](../admin/switch-dynamics-crm-online-dynamics-365.md).  
   
 ### See also  
