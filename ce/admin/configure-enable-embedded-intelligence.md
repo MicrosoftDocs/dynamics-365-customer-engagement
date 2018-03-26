@@ -171,6 +171,7 @@ The following process defines the steps to install and configure relationship an
 Once the sales insights add-on is installed, proceed through the steps below to configure Relationship analytics <!-- and predictive lead scoring --> according to the requirements of your organization.
 
 1.	Choose **Go to Configuration** on the installation page of Sales Insights.
+
     > [!NOTE]
     > you can also select **Configuration** in the Relationship analytics <!-- or Predective lead scoring--> tile, on the Embedded intellilgence **Overview** tab. This option will be available only after you install the sales insights add-on.    
     ![Relationship analytics configuration](../admin/media/relationship-analytics-configuration.png "Relationship analytics configuration") <br>
