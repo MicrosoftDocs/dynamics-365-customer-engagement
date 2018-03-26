@@ -190,7 +190,7 @@ The list only shows changes made by the contact using the subscription center. I
  
 You can export this list from here, if needed, by selecting the **Export** button in the list command bar.
 
-## Enable auditing to log all record changes
+### Enable auditing to log all record changes
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] can keep a record of all database changes, who made them, and when. You can use this to show when GDPR consent was changed for each contact and by whom. The auditing system is usually disabled by default, so you'll need to set it up if you want to use it log your GDPR consent changes (and other information). When setting up the system, you'll be able to choose which types of events you want to audit on which type of records.
 

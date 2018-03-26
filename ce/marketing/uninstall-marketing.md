@@ -26,7 +26,7 @@ The uninstall process has three steps:
 1. Clean up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].
 
 ## Prepare to uninstall
-Before you start to uninstall any [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] components, start by removing any sample data and data dependencies from your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance by doing the following:
+Before you uninstall any [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] components, start by removing any sample data and data dependencies from your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance by doing the following:
 
 1. Remove the sample data if you have installed it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage sample data](additional-settings.md).
 1. Remove all customer journeys that include launch-workflow and/or record-updated tiles because these introduce data dependencies that can interfere with the uninstall. You might consider just deleting all your journeys if you don't need them anymore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
@@ -37,7 +37,7 @@ The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] 
 - Removes all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], event management, and [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] application server.
 - Removes your [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] hub and its data.
 - Turns off user syncing from [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]-only users.
-- Frees your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] entitlement (licesne) for use with another [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance if needed.
+- Frees your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] entitlement (license) for use with another [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance if needed.
 
 To run the uninstall wizard:
 
@@ -87,11 +87,6 @@ To remove the services:
     1. LinkedInLeadGenIntegration
 
 1. If you are no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, then you can delete their related solutions too.
-
-
-
-
-
 
 ### See also
 
