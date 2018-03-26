@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Marketing solutions (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know about the installed solutions in your marketing organization."
 ms.custom: ""
-ms.date: 04/01/2017
+ms.date: 04/01/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"

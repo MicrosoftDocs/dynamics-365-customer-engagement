@@ -122,7 +122,7 @@ Under GDPR, individuals have the right to submit several types of data requests 
 When a customer requests a copy of all data your organization has about them, you could do one of the following:
 - Open the relevant contact record and use out-of-the-box search functionality to identify relevant data. Then use the built-in export capabilities or build a custom reporting solution.
 - Create a new Power BI report that loads the relevant data from [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
-- Create a custom solution based on the dedicated API in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] that lets you load all the relevant interactions from the back-end system. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
+- Create a custom solution based on the dedicated API in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] that lets you load all the relevant interactions from the back-end system. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Retrieve interactions for a contact using code](developer/retrieve-interactions-contact.md)
 
 ## Respond to forget-me requests
 

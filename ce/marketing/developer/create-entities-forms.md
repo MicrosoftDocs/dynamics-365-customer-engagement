@@ -18,8 +18,6 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 You might want to create custom entities and forms to store and display information about your custom channel. You might also want to build a configuration page to help users connect to an external service that your custom channel interacts with. Finally, you could build some dashboards to display some analytics information.
 
 More information:

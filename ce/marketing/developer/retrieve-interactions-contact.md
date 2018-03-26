@@ -1,5 +1,5 @@
 ---
-title: "Retrieve interactions for a contact (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
+title: "Retrieve interactions for a contact using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
 ms.custom: ""
 ms.date: 04/01/2017
@@ -14,11 +14,11 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
-# Retrieve interactions for a contact
+# Retrieve interactions for a contact using code
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact.
+Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This can be useful to respond to get-my-data requests to fulfill the General Data Protection Regulation (GDPR) compliance. More information: [Data protection and the GDPR](../gdpr.md)
 
 ## Action parameters
 
@@ -33,12 +33,23 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <tr>
 <td>ContactId</td>
 <td>Edm.String</td>
-<td>ID of the contact record to retrieve the interactions for</td>
+<td>ID of the contact record to retrieve the interactions for. Required.</td>
+</tr>
+
+<tr>
+<td>DateFrom</td>
+<td>Edm.String</td>
+<td>Start date and time from which you want to retrieve the interactions. Optional.</td>
+</tr>
+<tr>
+<td>DateTo</td>
+<td>Edm.String</td>
+<td>End date and time until which you want to retrieve the interactions. Optional.</td>
 </tr>
 <tr>
 <td valign="top">InteractionType</td>
 <td valign="top">Edm.String</td>
-<td>Type of interaction to be retrieved. You can specify one of the following values:
+<td>Type of interaction to be retrieved. Required.<br/> You can specify one of the following values:
 <ul>
 <li>ActivityContactBlocked</li>
 <li>ActivityContactDispatched</li>
@@ -84,6 +95,19 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <li>WebsiteVisited</li>
 </ul></td>
 </tr>
+
+<tr>
+<td>Top</td>
+<td>Edm.Int32</td>
+<td>Optional. Non-negative integer that limits the number of interactions returned for a contact record. Optional.</td>
+</tr>
+
+<tr>
+<td>SkipToken</td>
+<td>Edm.String</td>
+<td>Identifies a starting point in the collection of interactions returned for a contact record. Optional.</td>
+</tr>
+
 </table>
 
 ## Action return type
@@ -113,11 +137,39 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 <tr>
 <td>NextSkiptToken</td>
 <td>Edm.String</td>
-<td>TODO: Add description.</td>
+<td>Identifies the next cursor or bookmark in the collection of interactions returned for a contact record.</td>
 </tr>
 </table>
 </table>
 
 ## Example
 
-TODO: Add request and response examples
+**Request**
+
+```http
+GET [Organization URI]/api/data/v9.0/msdyncrm_LoadInteractionsPublic  
+{
+    "InteractionType": "WebsiteClicked",
+    "ContactId" : "0dbe0fa3-8e18-e811-a951-000d3a37caec"
+}
+```
+
+**Response**
+
+The response contains a JSON object with a `Data` property containing the full list of interactions.
+
+```http
+HTTP/1.1 200 OK  
+Content-Type: application/json; odata.metadata=minimal  
+OData-Version: 4.0
+
+{
+    "@odata.context":"https://mkt21febsg421plain.crm2.crmlivetie.com/api/data/v8.2/$metadata#Microsoft.Dynamics.CRM.msdyncrm_LoadInteractionsPublicResponse",
+    "Data":"[{\"InteractionId\":\"172C1E59A3CD4D85B392316DD76651CE\",\"InteractionType\":\"EmailSent\",\"Timestamp\":\"2018-02-23T13:10:48Z\",\"OrganizationId\":\"e47e99c2-20e3-4ef3-bbd4-288258bd6bf9\",\"EmailDomain\":\"microsoft.com\",\"ActivityId\":\"b6aeb700-f1c1-4cb1-e8f8-e883eac6bfbc\",\"SendingId\":\"5a019802-f763-3b72-fc91-0a9c95b67c5f\",\"ContactId\":\"0dbe0fa3-8e18-e811-a951-000d3a37caec\",\"MessageId\":\"5a2f3e76-9518-e811-a951-000d3a38caec\",\"CustomerJourneyId\":\"4c3846a1-9618-e811-a951-000d3a37cafc\",\"CustomerJourneyIterationId\":\"538825cf-fe1c-4fee-a671-7984eabb62eb\",\"UsageType\":\"CustomerJourney\",\"EmailAddressUsed\":\"sample@adventure-works.com\"}]",
+    "NextSkipToken":null
+}
+```
+
+### See also
+
+[Data protection and the GDPR](../gdpr.md)
