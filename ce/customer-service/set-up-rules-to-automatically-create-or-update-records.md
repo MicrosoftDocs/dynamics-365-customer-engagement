@@ -1,21 +1,19 @@
 ---
-title: "Set up rules to automatically create or update records (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Set up rules to automatically create or update records (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to set up rules to automatically create or update records in Dynamics 365 for Customer Service
+keywords: Set up rules automatically; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
-caps.latest.revision: 44
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Set up rules to automatically create or update records (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -204,20 +202,20 @@ In the **Specify Record Creation and Update Details** section, click ![Add a rec
 
     b.  In the **Create** box, select the record type for the record you want to create from the incoming activity. For example, if you want to create a case from the social activity, select **Case**.  
 
-        > [!NOTE]
-        >  If the incoming activity has a regarding object set, and if the regarding object entity and the entity selected in the **Create Record** step aren’t the same, no workflow is applied and the actions defined in the rule are not executed.  
+      > [!NOTE]
+      >  If the incoming activity has a regarding object set, and if the regarding object entity and the entity selected in the **Create Record** step aren’t the same, no workflow is applied and the actions defined in the rule are not executed.  
 
     c.  Click **Set Properties**.  
 
-            The entity form is displayed. You can map the target entity fields to the social activity record data, including channel properties. Some of the mappings are available out of the box: Case title, Customer, and Origin (highlighted in yellow). The out-of-the-box mappings can be changed and new mappings can be added using the **Form Assistant** control.  
+       The entity form is displayed. You can map the target entity fields to the social activity record data, including channel properties. Some of the mappings are available out of the box: Case title, Customer, and Origin (highlighted in yellow). The out-of-the-box mappings can be changed and new mappings can be added using the **Form Assistant** control.  
 
-            ![Set properties of a record in case creation rule](../customer-service/media/crm-ua-set-properties-case.png "Set properties of a record in case creation rule")  
+       ![Set properties of a record in case creation rule](../customer-service/media/crm-ua-set-properties-case.png "Set properties of a record in case creation rule")  
 
-            The new record that is created will be automatically set as the regarding record of the incoming activity record. There is only one regarding object to the social activity, so, only one **Create** record action is possible in the **Actions** section.  
+       The new record that is created will be automatically set as the regarding record of the incoming activity record. There is only one regarding object to the social activity, so, only one **Create** record action is possible in the **Actions** section.  
 
     d.  To add more actions, under **Specify Other Actions**, click **Add Step** > \<Action>. The available actions are: Create Record, Update Record, Send Email, or Start Child Workflow.  
 
-            Learn more about each of these actions in [Configure workflow steps](../customize/configure-workflow-steps.md).  
+       Learn more about each of these actions in [Configure workflow steps](../customize/configure-workflow-steps.md).  
 
 4.  Click **Save and Close**.  
 
@@ -245,9 +243,9 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
  ![Add channel properties for record creation rule](../customer-service/media/crm-ua-record-creation-rule-additional-properties.png "Add channel properties for record creation rule")  
   
-    A channel property group form opens.  
+ A channel property group form opens.  
 
-    > [!IMPORTANT]
+ > [!IMPORTANT]
     >  A property group record contains multiple property items.  
     >   
     >  To fix this issue, first delete the properties from the conditions and steps that use the record, and then save or activate the rule.  
@@ -264,17 +262,17 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
     a. **Name**. Type the property name as it appears in the activity’s payload.  
   
-        > [!NOTE]
+      > [!NOTE]
         >  The name can contain only alphanumeric and underscore characters and shouldn’t be longer than 300 characters.  
   
-         To see properties received for an activity, go to **Sales** or **Service** or **Marketing** > **Activities**, and open the activity, and see the **Additional Parameters** field.  
+       To see properties received for an activity, go to **Sales** or **Service** or **Marketing** > **Activities**, and open the activity, and see the **Additional Parameters** field.  
   
-        > [!NOTE]
+      > [!NOTE]
         >  This field isn’t available on the activity form by default. A system customizer can add the field to the activity forms. The field will have the JSON payload only when the external application sends it for the activity.  
   
-        ![Tweet payload in the social activity record](../customer-service/media/crm-ua-tweet-payload-json.png "Tweet payload in the social activity record")  
+       ![Tweet payload in the social activity record](../customer-service/media/crm-ua-tweet-payload-json.png "Tweet payload in the social activity record")  
   
-        > [!IMPORTANT]
+       > [!IMPORTANT]
         > - Create a channel property for each name from the name-value pair that you want to use in your record creation and update rule. For example, you could use `influenceScore` as a property name.  
         > - The information in the JSON payload isn’t very easy to read. To make it more readable, you can use [online JSON parser](http://json.parser.online.fr/) that will provide a better output.  
         > - The property group doesn’t support adding nested values in a JSON payload as channel properties. The following sample shows the "FollowersCount" under the user node as a nested JSON key-value pair.  
@@ -283,11 +281,11 @@ Turn on the rule so that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.
   
     b. **Data Type**. Select a data type for the channel property. For example, if the property is influence score, use the data type as Whole Number because its value can’t be in decimals.  
   
-         The selected data type will determine the relational query operators when you use the property to define conditions in the record creation and update rule items. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating properties only of the following data types: Floating Point Number, Single Line of Text, and Whole Number.  
+       The selected data type will determine the relational query operators when you use the property to define conditions in the record creation and update rule items. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] supports creating properties only of the following data types: Floating Point Number, Single Line of Text, and Whole Number.  
   
-        > [!NOTE]
-        > - Option Set and Two option data types are supported in conditions of type string. You’ll have to type out the option set value in the conditions.  
-        > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
+      > [!NOTE]
+      > - Option Set and Two option data types are supported in conditions of type string. You’ll have to type out the option set value in the conditions.  
+      > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] sets a default value for property items for each of the supported data types. This is for scenarios when a channel property is used in a workflow but the incoming payload has no value provided from the external channel; the workflow conditions in which the property is referred use a least the following default value: String: “”, Whole Number: -2,147,483,648, Float: -1e+011.  
   
     c. **Application Source**. Type the name of the application that this property is related to, for example, [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
   

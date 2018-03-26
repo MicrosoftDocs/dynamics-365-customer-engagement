@@ -1,21 +1,19 @@
 ---
-title: "Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to define service level agreements in Dynamics 365 for Customer Service
+keywords: Service leve agreements; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
-caps.latest.revision: 65
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Define service level agreements (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

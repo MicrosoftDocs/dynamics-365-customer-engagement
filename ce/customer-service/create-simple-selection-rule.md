@@ -1,21 +1,19 @@
 ---
-title: "Create a simple selection rule (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Create a simple selection rule (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to create a simple selection rule in Dynamics 365 for Customer Service
+keywords: Create a selection rule; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 53a455a1-a107-4a70-9971-c6a5d59fda7a
-caps.latest.revision: 35
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Create a selection rule to determine how resources are selected for service activities (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
