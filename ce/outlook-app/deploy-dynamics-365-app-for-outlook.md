@@ -87,7 +87,7 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
   
-### Required privileges  
+### Required privileges 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
   
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
