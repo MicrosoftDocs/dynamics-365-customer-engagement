@@ -30,19 +30,21 @@ You can [add two custom controls](https://docs.microsoft.com/dynamics365/custome
 
 For the steps below, we'll customize a first name field on a lead form. Customizing fields on other forms is similar, starting from step 3.
 
-1. In the web client of Dynamics 365, go to Sales > Leads.
+1. In the web client of Dynamics 365, go to **Settings** > **Customizations**.
 
-2. Select any existing lead.
+   ![Image alt text](media/customizations-nav-bar.png "Image hover text")
 
-3. On the lead form, select **More options**. 
+2. Select **Customize the System**.
 
-   ![Image alt text](media/open-more-options.png "Image hover text")
+3. Expand the **Entities** node and select the entity you want to customize. You can use any entity, but for this example, we'll select the **Lead** entity and expand the node.
 
-4. In the menu, select **Form Editor**.
+4. Select **Forms** and then select the **Lead** form.
 
-   ![Image alt text](media/open-form-editor.png "Image hover text")
+   ![Image alt text](media/select-lead-form-sales-navigator.png "Image hover text")
 
-5. Select the **First Name** field and then select **Change Properties**.
+5. To add a custom control, begin by adding a new field to the form, which will be bound to the primary attribute of the control (last name for Lead control and company name for Account control). Simply drag the field from the Field Explorer on the right to the desired position. For this example, we will start by dragging the **Last Name** field to the form.
+
+6. Select the **Lsat Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
     > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, uncheck the **Display label** on the form checkbox on the **Display** tab.
 
@@ -57,7 +59,7 @@ For the steps below, we'll customize a first name field on a lead form. Customiz
    ![Image alt text](media/add-control-to-form.png "Image hover text")
 
 8. Now you need to configure the Sales Navigator control.    
-In the **Control** area, select **Web** for the LinkedIn control. 
+In the **Control** area, select **Web** form factor for the LinkedIn control. 
     > [!TIP]
     > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fallback to the default platform control. To hide the default controls from the forms on mobile scenarios, check the **Hide Default Control** checkbox.
 
