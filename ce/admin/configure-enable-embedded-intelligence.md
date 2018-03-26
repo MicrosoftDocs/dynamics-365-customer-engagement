@@ -153,8 +153,11 @@ The following process defines the steps to install and configure relationship an
 1.	Go to **Settings** > **Embedded intelligence**.<br>
      ![Embedded intelligence home screen](../admin/media/install-sales-insights-addon.png "Embedded intelligence home screen")  
      <br>
-> [!NOTE]
-> If you are using Embedded Intelligence for the first time, enable the features. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to enable embedded intelligence](#How-to-enable-embedded-intelligence).
+
+    > [!NOTE]
+    > If you are using Embedded Intelligence for the first time, enable the features. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to enable embedded intelligence](#How-to-enable-embedded-intelligence).
+
+
 2.  Choose **Install** from **Sales insights add-on** tile. <br>
     ![Sales insights addon tile](../admin/media/install-sales-insights-addon-tile.png "Sales insights addon tile")  
      <br>
