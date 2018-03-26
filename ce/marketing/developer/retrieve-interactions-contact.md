@@ -2,7 +2,7 @@
 title: "Retrieve interactions for a contact using code (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Know about the installed solutions, entities, and custom actions in your marketing organization."
 ms.custom: ""
-ms.date: 04/01/2017
+ms.date: 04/01/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"
