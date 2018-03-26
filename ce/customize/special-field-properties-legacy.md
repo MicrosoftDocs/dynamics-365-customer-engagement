@@ -72,4 +72,4 @@ ms.assetid: 6ad7e43c-b6a1-48c4-9dfb-ed830142a841
 
 ## See also
 
-[Use the Main form and its components](../customer-service/use-main-form-and-components.md)
+[Use the Main form and its components](../customize/use-main-form-and-components.md)

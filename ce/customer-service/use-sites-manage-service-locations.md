@@ -1,21 +1,19 @@
 ---
-title: "Use sites to manage your service locations (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Use sites to manage your service locations (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to use sites to manage your service locations in Dynamics 365 for Customer Service
+keywords: Use sites to manage your service locations; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 5af40bb8-be4e-419d-a69a-640236b36174
-caps.latest.revision: 14
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Use sites to manage your service locations (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
