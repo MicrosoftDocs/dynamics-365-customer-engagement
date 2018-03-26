@@ -2,7 +2,7 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365."
 keywords: "custom control, sales navigator, linkedin, integration, customization"
-ms.date: 03/22/2018
+ms.date: 03/26/2018
 ms.assetid: 41253990-3a7d-0829-8509-91273db68b82
 author: m-hartmann
 ms.author: mhart
@@ -10,16 +10,16 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# Add LinkedIn Sales Navigator controls to form
+# Add LinkedIn Sales Navigator controls to forms
 
 [comment]: <> (Todo: Tokens, Alt-text)
 
 ## Prerequisites
 
-- LinkedIn Sales Navigator for Microsoft Dynamics Version 2 is installed in Dynamics 365.
+- LinkedIn Sales Navigator Controls for Dynamics 365 Unified Interface  is installed in Dynamics 365.
 - You have Customizer or System Administrator security role in Dynamics 365. 
 - Your organization uses Unified Interface apps.
-- To test the controls, you need a LinkedIn Sales Navigator member seat.
+- To test the controls, you need to be a LinkedIn Sales Navigator seat holder.
 
 ## Add Sales Navigator controls to a form
 
@@ -43,6 +43,8 @@ For the steps below, we'll customize a first name field on a lead form. Customiz
    ![Image alt text](media/open-form-editor.png "Image hover text")
 
 5. Select the **First Name** field and then select **Change Properties**.
+    > [!TIP]
+    > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, uncheck the **Display label** on the form checkbox on the **Display** tab.
 
    ![Image alt text](media/change-form-properties.png "Image hover text")
 
@@ -55,11 +57,13 @@ For the steps below, we'll customize a first name field on a lead form. Customiz
    ![Image alt text](media/add-control-to-form.png "Image hover text")
 
 8. Now you need to configure the Sales Navigator control.    
-In the **Control** area, select **Web** for the LinkedIn control. Phone and tablet aren't supported as of April 1 2018.
+In the **Control** area, select **Web** for the LinkedIn control. 
+    > [!TIP]
+    > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fallback to the default platform control. To hide the default controls from the forms on mobile scenarios, check the **Hide Default Control** checkbox.
 
    ![Image alt text](media/configure-sales-navigator-control.png "Image hover text")
 
-9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property.    
+9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend to bind the remaining parameters (first name, e-mail, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the accuracy to find the right match.     
 Select the **Last Name** property and select the ![Image alt text](media/pencil-icon.png "Image hover text") pencil icon. in the **Bind a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
 
    ![Image alt text](media/configure-lastname-property.png "Image hover text")
@@ -71,45 +75,6 @@ Select the **Last Name** property and select the ![Image alt text](media/pencil-
 ![Image alt text](media/save-publish-customizations.png "Image hover text")
 
 12. Select **Publish** to make your customizations available to the organization.
-
-## Available properties and bindings
-
-### LinkedIn Sales Navigator Lead (member profile)
-
-Shows information about a LinkedIn member profile. A member profile and a record are matched based on the parameters provided in the binding. If you are using a [lookup field](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/set-field-values-using-parameters-passed-form#set-values-for-lookup-fields) for the contact on the lead form, you'll find the same options but need to specify the lookup to the record that matches the LinkedIn member profile.    
-This control has four modules, which can be enabled independently:
-   - Top Card: shows information about the person like name, headline, and more. Additionally, provides capabilities to message or save the person as a lead
-   - News (Icebreakers): shows the person’s highlights, activities, and more
-   - Connections (Get Introduced): shows the mutual connections and allows for an introduction to the person
-   - Related Leads: shows potential leads who are similar to the person
-
-
-### LinkedIn Sales Navigator Account (company profile)
-
-Shows information about a LinkedIn company profile. A company profile and a record are matched based on the parameters provided in the binding. If you are using a [lookup field](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/set-field-values-using-parameters-passed-form#set-values-for-lookup-fields) for the account on the lead form, you'll find the same options but need to specify the lookup to the record that matches the LinkedIn company profile.    
-This control has four modules, which can be enabled independently:
-   - Top Card: shows information about the company like company name, industry, location and more. Additionally, provides capabilities to view the related account and save as account
-   - News: shows the latest news of this company
-   - Connections: shows relevant connections for this company
-   - Recommended Leads: shows the recommended potential leads in this company
-
-### Available field values for binding
-
-- companyname (SingleLine.Text)
-- customeridname (SingleLine.Text)
-- customeridyominame (SingleLine.Text)
-- fax (SingleLine.Text)
-- firstname (SingleLine.Text)
-- fullname (SingleLine.Text)
-- jobtitle (SingleLine.Text)
-- lastname (SingleLine.Text)
-- middlename (SingleLine.Text)
-- pager (SingleLine.Text)
-- salutation (SingleLine.Text)
-- sic (SingleLine.Text)
-- subject (SingleLine.Text)
-- timespentbymeonemailandmeetings (SingleLine.Text)
-- traversedpath (SingleLine.Text)
 
 ### See also
 
