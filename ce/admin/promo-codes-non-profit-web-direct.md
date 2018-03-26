@@ -24,12 +24,12 @@ For current CRM Online customers, we are offering discounted pricing on [!INCLUD
   
 |Existing Dynamics CRM Online User|Application Transition Pricing|Promo Code|Comment|  
 |---------------------------------------|------------------------------------|----------------|-------------|  
-|Professional User Subscription License (USL)|$86 (for Dynamics 365 Customer Engagement Plan Enterprise Edition)|Dyn365PLAN1NFP|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
+|Professional User Subscription License (USL)|$86 (for Dynamics 365 Customer Engagement Plan)|Dyn365PLAN1NFP|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
 |Professional USL|$76 (for Sales or Customer Service)|Dyn365PRONFP|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
-|Professional USL Add-on to O365|$66 (for Dynamics 365 Customer Engagement Plan Enterprise Edition)|Dyn365O365PLAN1NFP|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
+|Professional USL Add-on to O365|$66 (for Dynamics 365 Customer Engagement Plan)|Dyn365O365PLAN1NFP|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
 |Professional USL Add-on to O365|$59 (for Sales or Customer Service)|Dyn365O365NFP|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
 |Basic USL + Field Service or Project Service Automation Add-on|$76 (for Field Service or Project Service)|Dyn365PRONFP|For customers as of October 31, 2016 this offer applies to all user licenses purchased before and after October 31, 2016 until renewal.|  
-|Basic USL|$57 (for Dynamics 365 Customer Engagement Plan Enterprise Edition)|Dyn365BASPLAN1NFP|Only applies for existing users as of October 31, 2016|  
+|Basic USL|$57 (for Dynamics 365 Customer Engagement Plan)|Dyn365BASPLAN1NFP|Only applies for existing users as of October 31, 2016|  
 |Basic USL|$50 (for Sales or Customer Service)|Dyn365BASICNFP|Only applies for existing users as of October 31, 2016|  
   
 ### See also  

@@ -24,33 +24,33 @@ In response to the unique and evolving requirements of the United States public 
 ## About [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans  
  [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans are available to qualified government and private entities, limited to (i) United States (US) federal, state, local, tribal, and territorial government entities; (ii) private entities using [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] to provide solutions to a government entity or a qualified member of the cloud community; and (iii) private entities with customer data subject to government regulations for which the use of [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] is the appropriate service to meet the regulatory requirements. Access to [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] plans is restricted to the offerings described below, each plan is offered as a monthly subscription and can be licensed to an unlimited number of users:  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Enterprise edition Plan 1 for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Plan 1 for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Sales, Enterprise Edition for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Sales, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Customer Service, Enterprise Edition for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Customer Service, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Field Service, Enterprise Edition for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Field Service, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Project Service Automation, Enterprise Edition for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Project Service Automation, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Case Management, Enterprise Edition for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Case Management, for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Team Members, Enterprise Edition for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] for Team Members, for Government  
   
 -   Enhance Support for Dynamics 365 Applications and Plan 1 for Government  
   
 -   Pro Direct Support for Dynamics 365 Applications and Plan 1 for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Enterprise Edition - Additional Portal for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Portal for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Enterprise Edition - Additional Portal Page Views for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Portal Page Views for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Enterprise Edition - Additional Production Instance for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Production Instance for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Enterprise Edition - Additional Non-Production Instance for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Non-Production Instance for Government  
   
-- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] Enterprise Edition - Additional Database Storage for Government  
+- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] - Additional Database Storage for Government  
   
 ### What is “customer data” and “customer content?”  
  This section describes [!INCLUDE[pn_CRM_Online_Government_shortest](../../includes/pn-crm-online-government-shortest.md)] commitments that apply to customer content and to customer data.  
