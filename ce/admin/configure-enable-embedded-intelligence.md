@@ -188,6 +188,7 @@ Once the sales insights add-on is installed, proceed through the steps below to 
     b. Select **Save**.<br>
        The relationship analytics is configured and ready to use in your organization.
 <br>
+
 ### (Optional) Uninstall Sales insights add-on
 
 If you do not want to use Sales insights add-on for your organization, uninstall the feature.
