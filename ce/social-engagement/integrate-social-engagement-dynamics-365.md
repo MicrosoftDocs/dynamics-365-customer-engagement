@@ -2,7 +2,7 @@
 title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: ""
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,7 +23,8 @@ With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you brin
 [comment]: <> (For Apr30: Create list of all widgets and replace ebook with web page.)
 
 When you look for [detailed analysis of your data](analyze-social-data-using-widgets.md), usually, you work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
-  
+
+<a name="add-social-engagement-visuals-to-dynamics-365">  
 ## Connect Dynamics 365 (online) to Microsoft Social Engagement for Social Insights
 
 To configure the connection, you need to have a subscription to Microsoft Social Engagement, be an authorized Microsoft Social Engagement user and have a Microsoft Social Engagement instance provisioned for this Dynamics 365 instance.
@@ -131,7 +132,6 @@ You can add the Social Insights controls to the existing system dashboards or to
  To have the full set of options for creating a search topic available, it’s a good idea to work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [CRM Help & Training: Set up your own searches for Social Engagement](http://go.microsoft.com/fwlink/p/?LinkID=391710), [Marketing Help & Training: Maintain your Social Engagement search terms](http://go.microsoft.com/fwlink/p/?LinkId=526315)  
-
 
 ## Reset Social Insights
 
