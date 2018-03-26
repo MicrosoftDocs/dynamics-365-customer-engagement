@@ -87,11 +87,9 @@ Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes
 
         -   Click on **Submit**. An incident ticket is then raised to Microsoft. You will be provided with the Support Request Number and also with Response time. 
         
-        -   You can track the incident request online at (https://support.microsoft.com/my/supportrequests).
-        
->   [!NOTE] You can see the Severity of your case, providing as much information as you can could increase the Severity level of the case.          
+        -   You can track the incident request online at (https://support.microsoft.com/my/supportrequests). You can see the Severity of your case, providing as much information as you can could increase the Severity level of the case.          
 
->   [!NOTE] You can enter the above information in the space provided, or in the
+>   [!NOTE] You can enter all of the above information in the space provided, or in the
 >   space below enter “see attached” and save the information to an Excel
 >   document and upload it with the service request. For example, create a table
 >   in Excel using the information above.
