@@ -110,7 +110,7 @@ Verify the following prerequisites before enabling email engagement for your org
     Email engagement is enabled and ready to use in your organization. <br>
 
     > [!NOTE]
-    > To enable or disable **Email engagement**, use **Enable** toggle button.
+    > To enable or disable **Email engagement**, use **Enable** toggle button.<br>
     >  ![Enable or disable Email engagement](../admin/media/email-engagement-enable-disable.png "Enable or disable Email engagement") 
 
 ## Enable auto capture
@@ -138,13 +138,13 @@ When you accept the privacy statement for **Embedded intelligence**, Auto captur
 ## Preview feature: Install and configure Sales insights add-on
 <!--remove comment tags when the predictive lead scoring is going live.-->
 
-The Sales insights add-on contains relationship analytics <!--and predictive lead scoring -->feature. <!--These--> This feature not available by default. You need to install this feature before you can use it. <br>
+The Sales insights add-on contains relationship analytics <!--and predictive lead scoring -->feature. <!--These--> This feature not available by default. You need to install Sales insights add-on to use this feature. <br>
 > [!NOTE]
 > To install this feature, you must be a Dynamics 365 administrator.
 
 To understand how relationship analytics is used<!--and predictive lead scoring works-->, see [Relationship analytics](../admin/relationship-analytics.md)
 
-The following process defines the steps to install and configure relationship analytics and lead scoring.
+The following process defines the steps to install and configure relationship analytics<!-- and lead scoring-->.
 1.	Install Sales insights add-on.
 2.	Configure relationship analytics.
 3.  (Optional) Uninstall Sales insights add-on.
@@ -187,7 +187,9 @@ Once the sales insights add-on is installed, proceed through the steps below to 
     ![Relationship analytics configuration settings page](../admin/media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page") <br>
     b. Select **Save**.<br>
        The relationship analytics is configured and ready to use in your organization.
+<br>
 ### (Optional) Uninstall Sales insights add-on
+
 If you do not want to use Sales insights add-on for your organization, uninstall the feature.
 1.	Go to **Settings** > **Customization** > **Solutions**.
     A list of solutions that are install in your organization is displayed.
@@ -195,9 +197,3 @@ If you do not want to use Sales insights add-on for your organization, uninstall
    ![Sales insights add-on delete](../admin/media/sales-insights-addon-uninstall.png "Sales insights add-on delete") <br>
 3. A confirmation message is displayed. Select **OK**.<br>
    The Sales insighs add-on feature is uninstalled from your organization. 
-
-
-
-
-
-
