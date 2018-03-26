@@ -1,3 +1,7 @@
+---
+author: brycho
+---
+
 **PLEASE NOTE:** Microsoft Corporation (or based on where you live, one of its
 affiliates) licenses this supplement to you. You may use it with each validly
 licensed subscription of Microsoft Dynamics 365 online services (the “online
