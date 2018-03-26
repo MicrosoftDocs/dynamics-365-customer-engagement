@@ -37,7 +37,7 @@ are a few important licensing differences to be aware of:
 
 - Before you assign licenses to Resco users, you need to activate the licenses via the Resco (Woodford) website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
->  [!NOTE] A 30-day trial automatically starts when you install the Resco (Woodford) solution. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
+>  Note: A 30-day trial automatically starts when you install the Resco (Woodford) solution. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
 
 Field service licenses purchased from Microsoft are allocated to one organization at a time, based on the **organization ID**. 
 
