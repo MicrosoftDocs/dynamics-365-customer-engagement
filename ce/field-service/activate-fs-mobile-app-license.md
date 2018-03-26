@@ -85,9 +85,9 @@ Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes
         -   In the Instance Reference Information section of the page, locate
             the Org ID.
 
-        -   Click on **Submit**, an incident ticket is raised to Microsoft. You will be provided with the Support Request Number and      also with Response time. 
+        -   Click on **Submit**. An incident ticket is then raised to Microsoft. You will be provided with the Support Request Number and also with Response time. 
         
-        -   You can track the incident request online at any time at (https://support.microsoft.com/my/supportrequests).
+        -   You can track the incident request online at (https://support.microsoft.com/my/supportrequests).
         
 >   [!NOTE] You can see the Severity of your case, providing as much information as you can could increase the Severity level of the case.          
 
