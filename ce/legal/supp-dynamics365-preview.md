@@ -1,3 +1,8 @@
+---
+title: Supplemental Terms of Use for Microsoft Dynamics 365 Online Previews
+author: Keika2
+---
+
 **Supplemental Terms of Use for**  
 **Microsoft Dynamics 365 Online Previews**
 

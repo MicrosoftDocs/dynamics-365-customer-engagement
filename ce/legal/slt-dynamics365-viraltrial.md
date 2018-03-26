@@ -1,3 +1,8 @@
+---
+title: MICROSOFT ONLINE SERVICES TRIAL AGREEMENT
+author: Keika2
+---
+
 MICROSOFT ONLINE SERVICES TRIAL AGREEMENT<br>Last Revised: November 2017
 ========================================================================
 
