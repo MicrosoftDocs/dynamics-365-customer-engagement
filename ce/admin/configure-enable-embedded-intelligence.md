@@ -39,27 +39,29 @@ As a  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator,
 > [!IMPORTANT]
 > Embedded intelligence provides features that track behavior and collect information about contacts. Make sure you understand the related privacy issues that these features raise, and enable the features only if you are certain that they do not violate any privacy policies already in place in your organization. Always take steps to protect the privacy of your contacts. 
 
-To enable the Embedded Intelligence, follow these steps:
+To enable the Embedded intelligence, follow these steps:
 
-1. Go to **Settings** > **Intelligence Configuration**.
- <!-- add image  -->
-2. Choose **I Accept** from **Sales embedded intelligence** in the **Overview tab**.
-<!-- add image  -->
+1. Go to **Settings** > **Intelligence Configuration**.<br>
+![Select Intelligence configuration](../admin/media/intelligence-configuration-option.png "Select Intelligence configuration") <br>
+2. Choose **I Accept** to accept privacy statement for **Embedded intelligence** in the **Overview tab**.<br>
+![Accept privacy statement of Embedded intelligence](../admin/media/accept-privacy-statement-embedded-intelligence.png "Accept privacy statement of Embedded intelligence") <br>
 
 Embedded intelligence is enabled for your organization and you can configure features such as Relationship Assistant, Email Engagement, and Auto Capture.
 
 >[!NOTE]
-> Once you accept privacy notes of all Embedded Intelligence features, they are available on a single settings page, which provides a tab for each feature.
+> Once you accept privacy notes of all Embedded intelligence features, they are available on a single settings page, which provides a tab for each feature.
 
 ## Enable and configure relationship assistant
 
 Configuring relationship assistant helps you to enable cards such as task due today, custom activity due today, and email due today to users in your organization. 
 <!--  Also, you can enable notes analysis that helps users to take actions on highlighted text on cards. -->
+> [!IMPORTANT]
+> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement
 
-For complete details about each available action card, including details about the configuration settings available for each of them and other details, see <!--Action cards reference. -->
+For complete details about each available action card, including details about the configuration settings available for each of them and other details, see [Action cards reference](action-cards-reference.md)  
 
 ### Prerequisites
-Assign user privileges to give access to relationship assistant features - The privileges required to access Embedded Intelligence features are automatically enabled for all out-of-the-box security roles, but are initially disabled for all custom roles. If you enable any Embedded Intelligence features, then you must check the settings listed in the following table to ensure that your users can access those features, and to ensure that other features don't stop working as a result of privilege cascades related to these features.
+Assign user privileges to give access to relationship assistant features - The privileges required to access Embedded intelligence features are automatically enabled for all out-of-the-box security roles, but are initially disabled for all custom roles. If you enable any Embedded intelligence features, then you must check the settings listed in the following table to ensure that your users can access those features, and to ensure that other features don't stop working as a result of privilege cascades related to these features.
 
 |Privilege|Security role tab|Description and requirements|  
 |---------------|-----------------------|----------------------------------|  
@@ -70,22 +72,17 @@ Assign user privileges to give access to relationship assistant features - The p
 
 ### How to configure relationship assistant
 
-> [!IMPORTANT]
-> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement. <!--For complete details, see Privacy notices, later in this topic.-->
-
 1.	Go to **Settings** > **Intelligence Configuration**.
-2.	If you are configuring relationship assistant for the first time, select **Accept privacy notice to use this featur**e and accept the privacy note. 
-3.	Choose **Configuration** on the **Relationship assistant** tile or select **Relationship assistant** tab to open **Relationship Assistant** configuration page.
-<!-- insert screen -->
-4.	Configure which cards to use in your organization and fine tune their behavior. Work with the settings here as follows:
+2.  Choose **Configuration** on the **Relationship assistant** tile or select **Relationship assistant** tab to open **Relationship assistant** configuration page.<br>
+![Select Relationship assistant configuration](../admin/media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
+3.	Configure which cards to use in your organization and fine tune their behavior. Work with the settings here as follows:
     - Cards are categorized by type such as Base and Advanced.
     - Enable or disable specific action cards as needed by using the check boxes provided for each card.
-    - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for the relevant cards only.
-<!--5.	To enable notes analysis, select **Turn on Notes Analysis for your organization** check box under **Notes Analysis** tile.
+    - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for the relevant cards only.<br>
+![Relationship assistant configuration page](../admin/media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
+<!--4.	To enable notes analysis, select **Turn on Notes Analysis for your organization** check box under **Notes Analysis** tile.
 <<add image>>   -->
-5.	Select **Save** on the top of the page to save your settings.
-    > [!NOTE]
-    > To enable or disable relationship assistant, use **Enable** toggle button under **Relationship assistant** tile in the **Overview** tab.
+4.	Select **Save** on the top of the page to save your settings.<br> 
 
 Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/relationship-assistant.md)
 
@@ -93,6 +90,10 @@ Users can also set their own personal preferences for their action cards. They c
 Enabling the email engagement helps the user in your organization to receive alerts and remainders which help in building customer relationships.
 > [!NOTE]
 > If you enable email engagement, then we strongly recommend that you also enable the relationship assistant, because email engagement relies on some of its features.
+
+> [!IMPORTANT]
+> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement.
+
 ### Prerequisites
 Verify the following prerequisites before enabling email engagement for your organization:
 - To use followed email attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Enable OneDrive for Business](enable-onedrive-for-business.md)  
@@ -101,22 +102,23 @@ Verify the following prerequisites before enabling email engagement for your org
 
 ### How to enable email engagement
 
-> [!IMPORTANT]
-> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement. For complete details, <!--For complete details, see Privacy notices, later in this topic.-->
-
 1.	Go to **Settings** > **Intelligence Configuration**.
-2.	If you are configuring Email Engagement for the first time, select **Accept privacy notice to use this feature** and accept the privacy note.
-<!--include image-->
-3.	Select **Grant Permissions**. 
-<!--include image-->
-Email engagement is enabled and ready to use in your organization.
-> [!NOTE]
-> To enable or disable **Email engagement**, use **Enable** toggle button.
-<!--include image-->
+2.	Select **Grant Permissions**. <br>
+    > [!NOTE]
+    > If Sales insights add-on is installed using Intelligence Configuration, you need not grant permissions to Email engagement and this step will be skipped.<br>
+
+    Email engagement is enabled and ready to use in your organization. <br>
+
+    > [!NOTE]
+    > To enable or disable **Email engagement**, use **Enable** toggle button.
+    >  ![Enable or disable Email engagement](../admin/media/email-engagement-enable-disable.png "Enable or disable Email engagement") 
 
 ## Enable auto capture
 
-Enabling the auto capture helps the user in your organization to automatically add relative activities of their customers to  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
+Enabling the auto capture helps the user in your organization to automatically add relative activities of their customers to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].
+
+> [!IMPORTANT]
+> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement.
 
 ### Prerequisites
 
@@ -127,23 +129,14 @@ Verify the following prerequisites before enabling auto capture for your organiz
 -   To track incoming email messages, you must set up server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
 
 ### How to enable auto capture
-
-> [!IMPORTANT]
-> By enabling this feature, you consent to share data about your customers' email activity with an external system. Data imported from external systems into  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] are subject to our privacy statement. For complete details, <!--For complete details, see Privacy notices, later in this topic.-->
-
-1.	Go to **Settings** > **Intelligence Configuration**.
-2.	If you are configuring auto capture for the first time, select **Accept privacy notice to use this feature** and accept the privacy note. <!--include image-->
-
-    Auto capture is enabled and ready to use in your organization.
-    > [!NOTE]
-    > To enable or disable auto capture, use Enable toggle button.
-<!--include image-->
+When you accept the privacy statement for **Embedded intelligence**, Auto capture feature is enabled by default. If not enabled, select the toggle button to enable Auto capture.<br>
+![Enable or disable Auto capture](../admin/media/auto-capture-enable-disable.png "Enable or disable Auto capture")
 
 >[!NOTE]
 > For more information about auto capture and how this feature can help your users, see [Auto capture](../admin/auto-capture.md)
 
 ## Preview feature: Install and configure Sales insights add-on
-<!--remove comments when the predictive lead scoring is going live.-->
+<!--remove comment tags when the predictive lead scoring is going live.-->
 
 The Sales insights add-on contains relationship analytics <!--and predictive lead scoring -->feature. <!--These--> This feature not available by default. You need to install this feature before you can use it. <br>
 > [!NOTE]
@@ -152,9 +145,9 @@ The Sales insights add-on contains relationship analytics <!--and predictive lea
 To understand how relationship analytics is used<!--and predictive lead scoring works-->, see [Relationship analytics](../admin/relationship-analytics.md)
 
 The following process defines the steps to install and configure relationship analytics and lead scoring.
-1.	Install Sales insight add-on.
+1.	Install Sales insights add-on.
 2.	Configure relationship analytics.
-3.  (Optional) Uninstall Sales insight add-on.
+3.  (Optional) Uninstall Sales insights add-on.
 
 ### Install Sales insights add-on 
 1.	Go to **Settings** > **Embedded intelligence**.<br>
@@ -165,22 +158,24 @@ The following process defines the steps to install and configure relationship an
 2.  Choose **Install** from **Sales insights add-on** tile. <br>
     ![Sales insights addon tile](../admin/media/install-sales-insights-addon-tile.png "Sales insights addon tile")  
      <br>
-3.	Carefully read and accept the terms and conditions. Choose **Continue**, on the **Sales Insights** installation page. <br>
+3.	Carefully read and select the terms and conditions. Choose **Continue**, on the **Sales Insights** installation page. <br>
     The installation takes few minutes to complete and the status is displayed in the status bar.<br>
-    Now, you are ready to configure Relationship Analytics and Predictive Lead Scoring.
+    ![Accept sales insights addon terms and conditions](../admin/media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions") <br>
+    Now, you are ready to configure Relationship analytics<!-- and Predictive Lead Scoring-->.
 
 ### Configure Sales insights add-on
 
-Once the sales insights add-on is installed, proceed through the steps below to configure relationship analytics <!-- and predictive lead scoring --> according to the requirements of your organization.
+Once the sales insights add-on is installed, proceed through the steps below to configure Relationship analytics <!-- and predictive lead scoring --> according to the requirements of your organization.
 
 1.	Choose **Go to Configuration** on the installation page of Sales Insights.
     > [!NOTE]
-    > you can also select **Configuration** in the Relationship analytics <!-- or Predective lead scoring--> tile, on the Embedded intellilgence **Overview** tab. This option will be available only after you install the sales insights add-on.<br>
-    
+    > you can also select **Configuration** in the Relationship analytics <!-- or Predective lead scoring--> tile, on the Embedded intellilgence **Overview** tab. This option will be available only after you install the sales insights add-on.    
     ![Relationship analytics configuration](../admin/media/relationship-analytics-configuration.png "Relationship analytics configuration") <br>
      <!--Have to change the screen once Predective lead scoring is available-->
     The relationship analytics configuring page opens.
-2.	Configure<!-- predictive lead scoring and--> relationship analytics as specified in the following steps.<br>
+2.  Read and accept the Relationship analytics terms and conditions and select **Begin Setup**. <br>
+    ![Accept terms and conditions for Relationship analytics](../admin/media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics") <br>
+3.	Configure<!-- predictive lead scoring and--> relationship analytics as specified in the following steps.<br>
     a. On the **Relationship analytics** page, configure the parameters as described in the following table.
 
     |**Parameter**|**Description**|  
@@ -192,7 +187,7 @@ Once the sales insights add-on is installed, proceed through the steps below to 
     ![Relationship analytics configuration settings page](../admin/media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page") <br>
     b. Select **Save**.<br>
        The relationship analytics is configured and ready to use in your organization.
-### (Optional) Uninstall Sales insight add-on.
+### (Optional) Uninstall Sales insights add-on
 If you do not want to use Sales insights add-on for your organization, uninstall the feature.
 1.	Go to **Settings** > **Customization** > **Solutions**.
     A list of solutions that are install in your organization is displayed.
