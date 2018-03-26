@@ -2,7 +2,7 @@
 title: "Install LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Install the LinkedIn Sales Navigator for Dynamics 365 capabilites from AppSource"
 keywords: "installation, setup, sales navigator, appsource"
-ms.date: 03/23/2018
+ms.date: 03/26/2018
 ms.assetid: 4b15aff2-3a7b-3488-260c-21611dee658a
 author: m-hartmann
 ms.author: mhart
@@ -21,16 +21,12 @@ topic-status: Drafting
 
 ## Install the solution
 
-1. Sign in to Dynamics 365 with your System Administrator account.
+1. Go to [AppSource](https://appsource.microsoft.com) and search for "LinkedIn". Select the **LinkedIn Sales Navigator Controls for Dynamics 365 Unified Interface**
 
-2. In Dynamics 365, go to Settings > Customizations > Dynamics Marketplace.    
-   --OR--    
-   Go to [AppSource](https://appsource.microsoft.com) and search for "Sales Navigator".
-
-3. Review the terms of service and select **Get**.
+2. Review the terms of service and select **Get**.
 
 > [!TIP]
-> If you are working with an earlier version of Microsoft Dynamics CRM, [review the installation steps](https://www.linkedin.com/help/sales-navigator/topics/2052/2071/80081) for [Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/en-us/product/dynamics-365/linkedin.0cb76fe0-d453-4edb-a68c-65fb9119493a?src=retail&tab=Overview).
+> If you aren't working with Unified Interface apps, [review the installation steps](https://www.linkedin.com/help/sales-navigator/topics/2052/2071/80081) for [Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/en-us/product/dynamics-365/linkedin.0cb76fe0-d453-4edb-a68c-65fb9119493a?src=retail&tab=Overview). This solution provides Sales Navigator widgets for Dynamics CRM 2016 and Dynamics 365.
 
 ## Update the solution
 
@@ -51,11 +47,13 @@ After installing the solution, you can visit the [Office 365 admin center](https
 
 ## Remove the solution
 
-1. In Dynamics 365 admin center, go to Instances > Solutions.
+1. Make sure you have a System Administraor or Customizer security role.
 
-2. ...
+2. Sign in to Dynamics 365. 
 
-[comment]: <> (Add steps)
+3. Go to **Settings** > **Solutions**. 
+
+4. Select the solution and choose **Delete**
 
 More information about installing or removing a solution: [TechNet: Install or remove a preferred solution](https://technet.microsoft.com/library/dn878909.aspx).
 
