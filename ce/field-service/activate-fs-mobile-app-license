@@ -37,9 +37,10 @@ are a few important licensing differences to be aware of:
 
 - Before you assign licenses to Resco users, you need to activate the licenses via the Resco (Woodford) website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
-  >  [!NOTE] A 30-day trial automatically starts when you install the Resco (Woodford) solution. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
+>  [!NOTE] A 30-day trial automatically starts when you install the Resco (Woodford) solution. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
 
 Field service licenses purchased from Microsoft are allocated to one organization at a time, based on the **organization ID**. 
+
 For example, if you purchase 100 field service licenses, you can assign 85 to users in a production organization, and assign the remaining 15 to users in the organization’s sandbox.
 
 Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations
@@ -87,8 +88,8 @@ Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes
         -   Click on **Submit**, an incident ticket is raised to Microsoft. You will be provided with the Support Request Number and      also with Response time. 
         
         -   You can track the incident request online at any time at (https://support.microsoft.com/my/supportrequests).
-
-   >   [!NOTE] You can see the Severity of your case, providing as much information as you can could increase the Severity level of the case.          
+        
+>   [!NOTE] You can see the Severity of your case, providing as much information as you can could increase the Severity level of the case.          
 
 >   [!NOTE] You can enter the above information in the space provided, or in the
 >   space below enter “see attached” and save the information to an Excel
