@@ -197,3 +197,10 @@ You can export this list from here, if needed, by selecting the **Export** butto
 You can access the auditing features by opening the **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** application and then going to **Settings** > **System** > **Auditing** to open the **Audit** page. From there, you can access the auditing settings and review the audit record.
 
 This feature is part of the standard functionality of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. For information about how auditing works, how to set it up, and and how to review the log, see [Audit data and user activity for security and compliance](../admin/audit-data-user-activity.md).
+
+### See also
+
+[Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)  
+[Manage customer information](manage-customer-information.md)  
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
+[Set up a subscription center](set-up-subscription-center.md)
