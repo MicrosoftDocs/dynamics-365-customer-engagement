@@ -44,7 +44,7 @@ For the steps below, we'll customize a first name field on a lead form. Customiz
 
 5. To add a custom control, begin by adding a new field to the form, which will be bound to the primary attribute of the control (last name for Lead control and company name for Account control). Simply drag the field from the Field Explorer on the right to the desired position. For this example, we will start by dragging the **Last Name** field to the form.
 
-6. Select the **Lsat Name** field and then select **Change Properties** in the ribbon.
+6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
     > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, uncheck the **Display label** on the form checkbox on the **Display** tab.
 
