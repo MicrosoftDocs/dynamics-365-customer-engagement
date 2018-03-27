@@ -1,7 +1,7 @@
 ---
 title: "Get started writing reports with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 7e593f9d-5003-4115-ab6f-a1f4ce188fab
 caps.latest.revision: 14
 author: "Mattp123"
 ms.author: "matp"
-manager: "amyla"
+manager: "kvivek"
 tags: 
  - "MigrationHO"
 ---
@@ -27,6 +27,9 @@ tags:
  To create or modify existing RDL reports that can be used with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], use FetchXML, which is then converted to RDL by using report authoring tools. .  
   
  If you want, you can use a third-party tool, SQL2FetchXML, to convert your SQL scripts to FetchXML, and then use the FetchXML query in your Fetch-based reports. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [SQL2FetchXML Help](http://www.sql2fetchxml.com/help.aspx)  
+
+> [!NOTE]
+> You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] for SQL Server Data Tools is used to author FetchXML reports.
  
   
 ### See also  

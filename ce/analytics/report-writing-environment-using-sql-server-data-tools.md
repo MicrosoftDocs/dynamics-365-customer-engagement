@@ -1,7 +1,7 @@
 ---
 title: "Report writing environment using SQL Server Data Tools (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/27/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 4c31abe1-7c07-4498-b69a-ddfed2686d08
 caps.latest.revision: 23
 author: "Mattp123"
 ms.author: "matp"
-manager: "amyla"
+manager: "kvivek"
 tags: 
  - "MigrationHO"
 ---
@@ -48,6 +48,8 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
 - **[!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)]** . This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] only supports Fetch-based reports. [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: CRM 2016 Report Authoring Extension](http://go.microsoft.com/fwlink/?LinkID=624672). For installation instructions, see [Install Microsoft Dynamics CRM Report Authoring Extension](https://technet.microsoft.com/library/hh699675.aspx).  
   
 > [!NOTE]
+> > [!NOTE]
+> You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] for SQL Server Data Tools is used to author FetchXML reports.
 > [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] is available only in a 32-bit version.  
   
 ## Required privileges  
