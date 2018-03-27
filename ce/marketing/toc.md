@@ -24,7 +24,7 @@
 ### [Event management settings](events-settings.md)
 ### [Manage sample data](additional-settings.md)
 ### [Quota management](quota-management.md)
-### [Manage LinkedIn Lead Gen integration](linkedin-configuration.md)
+### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 
 ## [User Guide](user-guide.md)
 
