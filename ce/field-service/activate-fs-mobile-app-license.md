@@ -35,7 +35,7 @@ If you’re the global admin at an organization with the [!INCLUDE[pn-resco-wood
 
 ## Activate [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses
 
-First, you need to activate the licenses via the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
+First, you need to activate the licenses via the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] website. More information: [Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
 > [!NOTE]
 > A 30-day trial automatically starts when you install the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] configuration tool until paid licenses are allocated by Microsoft support.
