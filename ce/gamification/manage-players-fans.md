@@ -23,7 +23,7 @@ When you set up a new game, you need to define which users will be players and w
 
 ## Change a user's security role in Dynamics 365 - Gamification
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/3ed19c05-ce49-4bc8-a11c-be527217c9ae" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cc1cf5fc-097d-4776-a348-2c79a0e8167f" frameborder="0" allowfullscreen=""></iframe></div>
 
 After users are imported, a commissioner can change the security role of the users.
 
