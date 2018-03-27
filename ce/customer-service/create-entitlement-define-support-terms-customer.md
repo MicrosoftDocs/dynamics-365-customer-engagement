@@ -164,7 +164,7 @@ Define what kind of support your customers are eligible for by creating entitlem
  The start date of this new entitlement is set to the current date and the end date is set to the current date plus the number of days between the end date and start date. The data in other fields is copied from the old entitlement.  
   
 ### See also  
- [Define service level agreements](../customer-service/define-service-level-agreements.md)   
- [Set up entitlements quickly with templates](set-up-entitlements-quickly-templates.md)
- [Create and manage a case (Customer Service Hub](../customer-service/user-guide-customer-service-hub.md)
+ [Define service level agreements](../customer-service/define-service-level-agreements.md)   <br>
+ [Set up entitlements quickly with templates](set-up-entitlements-quickly-templates.md) <br>
+ [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
  [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)
