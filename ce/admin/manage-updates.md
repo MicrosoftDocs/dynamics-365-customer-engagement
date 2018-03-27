@@ -60,6 +60,7 @@ Here are the recent versions.
 |n     |9.0         |Dynamics 365, version 9.0         |
 |n-1     |8.2         |Dynamics 365, version 8.2         |
 |n-2     |8.1         |Microsoft Dynamics CRM Online 2016 Update 1          |
+
 <a name="BKMK_Scenarios"></a>   
 
 ## Update scenarios  
