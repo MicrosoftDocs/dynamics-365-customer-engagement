@@ -1,5 +1,6 @@
 # [Dynamics 365 for Sales](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
+## [What's new](../sales-enterprise/whats-new.md)
 ## [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
 ### [Create a product](../sales-enterprise/create-product-sales.md)
 ### [Create a product family](../sales-enterprise/create-product-family.md)  
