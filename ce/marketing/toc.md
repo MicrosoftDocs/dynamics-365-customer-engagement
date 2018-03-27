@@ -22,9 +22,9 @@
 ### [Customize](customize.md)
 ### [Marketing settings](marketing-settings.md)
 ### [Event management settings](events-settings.md)
+### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 ### [Manage sample data](additional-settings.md)
 ### [Quota management](quota-management.md)
-### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 
 ## [User Guide](user-guide.md)
 
