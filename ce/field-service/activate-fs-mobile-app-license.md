@@ -37,7 +37,8 @@ If you’re the global admin at an organization with the [!INCLUDE[pn-resco-wood
 
 First, you need to activate the licenses via the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
-[!NOTE] A 30-day trial automatically starts when you install the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] configuration tool until paid licenses are allocated by Microsoft support.
+> [!NOTE] 
+> A 30-day trial automatically starts when you install the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] configuration tool until paid licenses are allocated by Microsoft support.
 
 ## Allocate [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses via a support ticket
 After you activate the [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses, you need to file a support ticket with the Microsoft support team, who then allocates your [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses across your organizations for you. 
@@ -82,4 +83,5 @@ You can track the incident request online at [support.microsoft.com/my/supportre
 
 After the request is completed, you can assign the licenses to users. More information: [Purchase and assign Dynamics 365 (online) licenses](https://docs.microsoft.com/dynamics365/customer-engagement/admin/purchase-assign-online-licenses)
 
-[!NOTE] We've provided a downloadable Excel spreadsheet with the required details which you can fill in and upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
+> [!NOTE] 
+> We've provided a downloadable Excel spreadsheet with the required details which you can fill in and upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
