@@ -388,7 +388,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Dynamics 365 for Project Service Automation - User's Guide](../project-service/admin-guide.md)
   
--   [Dynamics 365 for Finance and Operations, Enterprise edition](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
+-   [Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
   
 -   [Customer Service hub – User’s guide](../customer-service/user-guide-customer-service.md)
   
