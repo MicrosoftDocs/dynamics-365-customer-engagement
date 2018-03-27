@@ -29,7 +29,7 @@ If you’re the global admin at an organization with the Resco (Woodford) mobile
 - Resco (Woodford) is a third-party solution that charges per user, per organization.
 - Each field service license you purchase from Microsoft allows you to assign one Resco mobile license per user, with the total number of Resco mobile users allocated across all your production, sandbox, or trial organizations not to exceed the total number of field service licenses. 
 
-    For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign Resco mobile licenses to 50 users at each organization for a maximum total of 100 users (not 100 users at *each* organization for a total of 200).
+    For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign Resco mobile licenses to 50 users at both organizations for a maximum total of 100 users (not 100 users at *each* organization for a total of 200).
 
  - Resco mobile licenses purchased from Microsoft are allocated to one organization at a time, based on the organization ID.
 
@@ -37,7 +37,7 @@ If you’re the global admin at an organization with the Resco (Woodford) mobile
 
 First, you need to activate the licenses via the Resco (Woodford) website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
->  Note: A 30-day trial automatically starts when you install the Resco (Woodford) solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
+[!NOTE] A 30-day trial automatically starts when you install the Resco (Woodford) solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
 
 ## Allocate Resco mobile licenses across organizations
 After you activate the Resco mobile licenses, you need to file a support ticket with the Microsoft support team, who then allocates your Resco mobile licenses across your organizations for you. 
@@ -48,31 +48,28 @@ After you activate the Resco mobile licenses, you need to file a support ticket 
     request**. Then select **Start Request**.
 3.  On the contact information page, enter your details, and then select **Continue**.
 4.  On the issue description page, for **Incident title**, enter **Field Service App Mobile License Activation
-    Request**. In the **Tell us more about your issue** box, enter the following
-    information:
+    Request**. In the **Tell us more about your issue** box, enter the following:
 
     -   Company name for the organization
-   
     -   Company's public facing website
-
     -   Requestor's full name
-
     -   Requestor's email 
-
     -   Requestor's phone Number
-
     -   Office 365 Admin Center License screenshot showing the number of Field
-        Service licenses in your tenant. Here's how to get this info:
+        Service licenses in your tenant. 
+        >  Note: Here's how to get this info:
 
-        -   As a **Global Office 365 Administrator**, open your **Office 365** portal
+        -   As a **Global Office 365 Administrator**, open the **Office 365** portal
             and navigate to the **Admin Center**.
 
-        -   Expand the **Billing** tab, and click on **Licenses**.
+        -   Expand the **Billing** tab, and then select **Licenses**.
 
         -   Take a screenshot showing the number of field service licenses in
             your tenant.
 
-    -   Enter your **unique org ID**. Here's how to find your org ID:
+    -   Enter the **unique org ID**. 
+    
+        >  Note: Here's how to find your org ID:
 
         -   As a **System Administrator**, open your Dynamics 365 instance.
 
