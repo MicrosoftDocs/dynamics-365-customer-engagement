@@ -1,7 +1,7 @@
 --
-title: "Managing user licenses for the Resco (Woodford) solution (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Managing Resco mobile licenses (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 03/26/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,7 +20,7 @@ manager: "shellyha"
 ---
 
 
-# Managing user licenses for the Resco (Woodford) mobile solution
+# Managing Resco mobile licenses
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -82,11 +82,4 @@ After you activate the Resco mobile licenses, you need to file a support ticket 
         
 You can track the incident request online at (https://support.microsoft.com/my/supportrequests). 
 
->   [!NOTE] You can enter all of the above information in the space provided, or in the
->   space below enter “see attached” and save the information to an Excel
->   document and upload it with the service request. For example, create a table
->   in Excel using the information above.
-
->   If you have more than one instance that you need Resco mobile licenses for,
->   make sure to include the org ID for each instance, including the number of
->   mobile licenses needed for each instance.
+>   [!NOTE] We've provided a downloadable Excel spreadsheet with the required details which you can fill in and upload with the support ticket, if you prefer. If you have more than one instance that you need Resco mobile licenses for, include the org ID for each instance, and the number of mobile licenses to be allocated for each instance.
