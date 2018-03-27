@@ -67,7 +67,7 @@ For a list of entities supported in mobile offline, see [Entities displayed in D
 
 - Offline data is refreshed periodically. Duration of the refresh depends on the mobile offline profile and amount of data that is enabled for offline.
 - Automatic replay for offline actions. All the data created or modified by user in offline are replayed to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)]  automatically without user intervention. 
-- Actions are replayed from the offline sync in queue. The changes are played back in the same sequence as they were created/modified/ deleted. This ensure that the data state is maintained and there are no data mismatch on [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)]. 
+- Actions are replayed from the offline synchronization in queue. The changes are played back in the same sequence as they were created/modified/ deleted. This ensure that the data state is maintained and there are no data mismatch on [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)]. 
 - Mobile offline supports conflict detection and error resolution. Conflict error for any update and delete will be detected and users can resolve the error in the  [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] web client and on the mobile client. Any other errors created in offline will also be available for users to edit and resubmit. 
 - The org can enhance business functionality available in mobile offline using Xrm.Mobile.offline. For more information, see [Xrm.Mobile.offline (client-side reference)](https://msdn.microsoft.com/en-us/library/mt787123.aspx).
 
@@ -87,30 +87,41 @@ You can continue to work in the mobile apps when the device is disconnected from
 
 With mobile offline synchronization enabled, the app provides a rich offline experience. You can work with all the basic commands like create, read, update, delete in addition to certain business processes. Upon reconnecting, these offline changes will be automatically synchronize to Dynamics 365. The data is periodically synchronized from Dynamics 365 to your device for offline usage based on the sync profile configured by administrator.  
 
-### Download App Updates for offline 
+### Download app updates for offline 
 
 When you log onto the Dynamics 365 mobile app, you will see the list of app modules that you have access to. When you navigate to any app module that your admin has configured for offline, you'll receive a prompt to download these config updates to setup your app to work in offline mode.  
 
-### Offline Sync Status 
+### Offline synchronization status 
 
 #### Status on footer
 
-To verify offline synchronization is enabled on your app look at the Offline Sync Status in the footer of the app. The status also lets you know the entities that are available in offline and, for each of these available entities, when the data is last synchronized with Dynamics 365.  
+To verify offline synchronization is enabled on your app look at the offline synchronization status in the footer of the app. The status also lets you know the entities that are available in offline and, for each of these available entities, when the data is last synchronized with Dynamics 365.  
 
 ![Status on footer](../../media/offline-status.png "Status on footer")
 
-#### Status flyout 
-
 The following table lists the various status icons and what they mean.
 
-|Mobile offline sync status icon |Status |Description  |
+|Mobile offline synchronization status icon |Status |Description  |
 |---------|---------|---------|
-|![Available](../../media/green-icon.png "Available")     |Available         |Offline sync is available as the device database is available.         |
+|![Available](../../media/green-icon.png "Available")     |Available         |Offline synchronization is available as the device database is available.         |
 |![Available warning ](../../media/green-icon-exclamation.png "Available warning")     |Available          |Warning due to metadata mismatch. You can click on the link in the status to download the metadata if it's pending from Dynamics 365.|
 |![Not available](../../media/red-icon.png "Not available")     |Initializing         |Offline database is being setup.         |
-|![Not available](../../media/red-icon.png "Not available")      |Not available         |Offline sync is not available as the database is not created on your mobile device.        |
-|![Not available warning](../../media/red-icon-exclamation.png)     |Not available         |Offline sync is not available. A background fix is in process.          |
+|![Not available](../../media/red-icon.png "Not available")      |Not available         |Offline synchronization is not available as the database is not created on your mobile device.        |
+|![Not available warning](../../media/red-icon-exclamation.png)     |Not available         |Offline synchronization is not available. A background fix is in process.          |
 |![Not available](../../media/red-icon.png "Not available")      |Error         |The database is not available.         |
+
+> [!NOTE]
+> If there is no status in the footer, offline synchronization is not enabled for your app.
+> 
+> Offline synchronization can be enabled or disabled by:
+> - Contact your admin to have offline synchronization enabled 
+> Or
+> - If the admin has enabled offline synchronization for users, the users can choose to have synchronization disabled or enabled. On your mobile application, go to **Settings** -> **Offline Sync** / **Disable Sync** to enable or disable offline synchronization. This is enabled by default if the admin has configured users for offline synchronization.  
+
+#### Status flyout 
+
+You can check the reason of the Offline Sync Status by clicking on this status. This opens a flyout which gives you the number of entities enabled for offline along with status reason, if any.   
+
 
 #### Last Sync Time 
 
