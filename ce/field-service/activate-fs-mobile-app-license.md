@@ -84,4 +84,4 @@ You can track the incident request online at [support.microsoft.com/my/supportre
 
 After the request is completed, you can assign the licenses to users. More information: [Purchase and assign Dynamics 365 (online) licenses](https://docs.microsoft.com/dynamics365/customer-engagement/admin/purchase-assign-online-licenses)
 
->   [!NOTE] _We've provided a downloadable Excel spreadsheet_ with the required details which you can fill in and upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
+[!NOTE] _We've provided a downloadable Excel spreadsheet_ with the required details which you can fill in and upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
