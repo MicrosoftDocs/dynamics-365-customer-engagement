@@ -37,19 +37,21 @@ Global admins preparing to use the [!include[Dynamics 365 for Field Service](../
 Follow these steps to submit a service request to activate your field service mobile licenses:
 
 1. [Download and complete this Excel spreadsheet](http://download.microsoft.com/download/D/7/3/D73699AE-EB42-49DF-8E71-F741D2FB5B95/Field%20service%20mobile%20app%20license%20allocation%20form.xlsx) in preparation for completing the service request. 
+
 2. Go to the [Microsoft support page](https://go.microsoft.com/fwlink/?linkid=854120). 
+
 3. On the incident page, for **Problem type** choose **FieldOne Licensing**. For **Category** choose **License request**. Then select **Start Request**.
-4. On the contact information page, enter your details, and then select **Continue**. 
-5. On the issue description page, for **Incident title**, enter **Field Service App Mobile License Activation
-    Request**. In the **Tell us more about your issue** box, enter the following:
+
+4. On the contact information page, enter your details, and then select **Continue**.
+
+5. On the issue description page, for **Incident title**, enter **Field Service App Mobile License Activation Request**. In the **Tell us more about your issue** box, enter the following:
 
     -   Company name for the organization
     -   Company's public facing website
     -   Requestor's full name
     -   Requestor's email 
     -   Requestor's phone Number
-    -   Office 365 Admin Center License screenshot showing the number of field
-        service licenses in your tenant. 
+    -   Office 365 Admin Center License screenshot showing the number of field service licenses in your tenant. 
         > [!NOTE] 
         > Here's how to get the field service license info:
         >  - As an Office 365 global administrator, open the Office 365 portal and navigate to the Admin Center.
@@ -64,7 +66,9 @@ Follow these steps to submit a service request to activate your field service mo
         >  - In the Instance Reference Information section, locate the Org ID.
 
 6. Upload the Excel spreadsheet you completed.
+
 7. Select **Submit** to submit the support ticket to Microsoft. You'll receive a support request number and estimated response time.
+
 8. Once the service request is processed and closed, the field service mobile licenses will be available in your Dynamics 365 instances.
         
 You can track the status of the support ticket online at [support.microsoft.com/my/supportrequests](https://support.microsoft.com/my/supportrequests). 
