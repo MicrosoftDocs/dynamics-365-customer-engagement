@@ -40,7 +40,7 @@ First, you need to activate the licenses. More information: [Woodford User Guide
 ## Allocate [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses via a support ticket
 After you activate the mobile licenses, you need to file a support ticket with the Microsoft support team, who then allocates the mobile licenses across your organizations for you. 
 
-We've provided a downloadable Excel spreadsheet which you can fill in with the details, and then upload with the support ticket, if you prefer. Otherwise, follow these steps to fill in the fields and file the ticket. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
+We've provided a downloadable [Excel spreadsheet](http://download.microsoft.com/download/D/7/3/D73699AE-EB42-49DF-8E71-F741D2FB5B95/Field service mobile app license allocation form.xlsx) which you can fill in with the details, and then upload with the support ticket, if you prefer. Otherwise, follow these steps to fill in the fields and file the ticket. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
 
 1.  Go to the [Microsoft support
     page](https://go.microsoft.com/fwlink/?linkid=854120). 
