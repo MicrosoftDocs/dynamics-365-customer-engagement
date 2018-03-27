@@ -6,6 +6,7 @@
       "build_source_folder": "ce",
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
+      "xref_query_tags": [ "/dotnet" ],
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
