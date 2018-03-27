@@ -26,7 +26,7 @@ If you’re the global admin at an organization with the [!INCLUDE[pn-resco-wood
 
 - [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses are allocated to one organization at a time, based on the organization ID.
 
-- Each [!include[pn-field-service](../includes/pn-field-service.md)] license you purchase from Microsoft allows you to assign one mobile license per user, with the total number of mobile users allocated across all your production, sandbox, or trial organizations not to exceed the total number of [!include[field service](../includes/pn-field-service.md)] licenses you purchased. 
+- Each [!include[pn-field-service](../includes/pn-field-service.md)] license you purchase from Microsoft allows you to assign one mobile license per user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of [!include[field service](../includes/pn-field-service.md)] licenses you purchased. 
 
     For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
 
@@ -40,15 +40,13 @@ First, you need to activate the licenses. More information: [Woodford User Guide
 ## Allocate [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses via a support ticket
 After you activate the mobile licenses, you need to file a support ticket with the Microsoft support team, who then allocates the mobile licenses across your organizations for you. 
 
+We've provided a downloadable Excel spreadsheet which you can fill in with the details, and then upload with the support ticket, if you prefer. Otherwise, follow these steps to fill in the fields and file the ticket. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
+
 1.  Go to the [Microsoft support
     page](https://go.microsoft.com/fwlink/?linkid=854120). 
-    
-> [!NOTE]
-> We've provided a downloadable Excel spreadsheet which you can fill in with the details, and then upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
-
 2.  On the incident page, for **Problem type** choose **FieldOne Licensing**. For **Category** choose **License
     request**. Then select **Start Request**.
-3.  On the contact information page, enter your details, and then select **Continue**.
+3.  On the contact information page, enter your details, and then select **Continue**. 
 4.  On the issue description page, for **Incident title**, enter **Field Service App Mobile License Activation
     Request**. In the **Tell us more about your issue** box, enter the following:
 
@@ -61,23 +59,18 @@ After you activate the mobile licenses, you need to file a support ticket with t
         service licenses in your tenant. 
         > [!NOTE] 
         > Here's how to get the [!include[field service](../includes/pn-field-service.md)] license info:
-         - As an Office 365 global administrator, open the Office 365 portal
+        >  - As an Office 365 global administrator, open the Office 365 portal
             and navigate to the Admin Center.
-        >
-         - Expand the **Billing** tab, and then select **Licenses**.
-        >
-         - Take a screenshot showing the number of field service licenses in
+        >  - Expand the **Billing** tab, and then select **Licenses**.
+        >  - Take a screenshot showing the number of field service licenses in
             your tenant.
 
     -   Enter the **unique org ID**. 
         > [!NOTE]
         > Here's how to find your org ID:
-        >
-         - Open your Dynamics 365 instance.
-        >
-         - Navigate to **Settings \> Customizations \>Developer Resources**.
-        >
-         - In the Instance Reference Information section, locate
+        >  - Open your Dynamics 365 instance.
+        >  - Navigate to **Settings \> Customizations \>Developer Resources**.
+        >  - In the Instance Reference Information section, locate
             the Org ID.
 
 5.  Select **Submit** to submit the support ticket to Microsoft. You'll receive a support request number and estimated response time. 
