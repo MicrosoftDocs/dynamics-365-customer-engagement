@@ -18,29 +18,29 @@ ms.author: "krbjoran"
 ms.manager: "shellyhaverkamp"
 ---
 
-# Manage and assign [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses 
+# Manage and assign field service mobile licenses 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 If you’re the global admin at an organization with the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] mobile solution installed, there are a few important details to know before you assign [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
 
-- [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses are allocated to one organization at a time, based on the organization ID.
+- Field service mobile licenses are allocated to one organization at a time, based on the organization ID.
 
-- Each [!include[pn-field-service](../includes/pn-field-service.md)] license you purchase from Microsoft allows you to assign one mobile license per user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of [!include[field service](../includes/pn-field-service.md)] licenses you purchased. 
+- Each [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] license you purchase from Microsoft allows you to assign one mobile license per user, with the total number of mobile users allocated across all your production, sandbox, and trial organizations not to exceed the total number of licenses you purchased. 
 
     For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
 
-## Activate [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses
+## Activate field service mobile licenses
 
 First, you need to activate the licenses. More information: [Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
 > [!NOTE]
 > A 30-day trial automatically starts when you install the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] configuration tool until paid licenses are allocated by Microsoft support.
 
-## Allocate [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses via a support ticket
+## Allocate field service mobile licenses via a support ticket
 After you activate the mobile licenses, you need to file a support ticket with the Microsoft support team, who then allocates the mobile licenses across your organizations for you. 
 
-We've provided a downloadable [Excel spreadsheet](http://download.microsoft.com/download/D/7/3/D73699AE-EB42-49DF-8E71-F741D2FB5B95/Field service mobile app license allocation form.xlsx) which you can fill in with the details, and then upload with the support ticket, if you prefer. Otherwise, follow these steps to fill in the fields and file the ticket. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
+[We've provided a downloadable Excel spreadsheet](http://download.microsoft.com/download/D/7/3/D73699AE-EB42-49DF-8E71-F741D2FB5B95/Field service mobile app license allocation form.xlsx) which you can fill in with the details, and then upload with the support ticket, if you prefer. Otherwise, follow these steps to fill in the fields and file the ticket. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
 
 1.  Go to the [Microsoft support
     page](https://go.microsoft.com/fwlink/?linkid=854120). 
@@ -58,7 +58,7 @@ We've provided a downloadable [Excel spreadsheet](http://download.microsoft.com/
     -   Office 365 Admin Center License screenshot showing the number of field
         service licenses in your tenant. 
         > [!NOTE] 
-        > Here's how to get the [!include[field service](../includes/pn-field-service.md)] license info:
+        > Here's how to get the field service license info:
         >  - As an Office 365 global administrator, open the Office 365 portal
             and navigate to the Admin Center.
         >  - Expand the **Billing** tab, and then select **Licenses**.
@@ -77,5 +77,5 @@ We've provided a downloadable [Excel spreadsheet](http://download.microsoft.com/
         
 You can track the status of the support ticket online at [support.microsoft.com/my/supportrequests](https://support.microsoft.com/my/supportrequests). 
 
-## Assign [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses to users
+## Assign field service mobile licenses to users
 After the support request is completed, you can assign the licenses to users via the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] client. More information: [Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
