@@ -1,8 +1,8 @@
 ---
-title: "Set up LinkedIn field mappings and matching strategy (Dynamics 365 for Marketing) | Microsoft Docs "
+title: "Assign security roles, set up LinkedIn field mappings and matching strategy (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Map lead fields and match leads between LinkedIn to Dynamics 365 for Marketing"
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -16,11 +16,11 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Map lead fields to LinkedIn and define a lead matching strategy
+# Set up the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration and define a lead matching strategy
 
 ## Enable users to work with the connector and assign security roles to users
 
-LinkedIn Lead Gen provides dedicated security roles, which you assign to users so they can work with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] LinkedIn Ads that generate leads in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A third role, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound, is an internal security role used to sync data.
+LinkedIn Lead Gen provides dedicated security roles, which you assign to users so they can work with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Ads that generate leads in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. A third role, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen S2S Inbound, is an internal security role used to sync data.
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Administrator**: Users with this role can configure lead matching strategies, [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] field mapping, and solution settings for [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)].
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Salesperson**: These users can authorize [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to sync data to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and view details about the synced submissions.
@@ -74,9 +74,9 @@ A matching strategy applies to all [!INCLUDE[pn-linkedin](../includes/pn-linkedi
 
 1. Select **Delete**, and then confirm your deletion.
 
-## Configure LinkedIn Field Mapping
+## Configure [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Field Mapping
 
-The LinkedIn Lead Gen integration provides a set of field mappings out of the box. Field mappings define the name and the related field on the lead entity it maps to. As a system administrator or customizer, you can change the field mapping or create new mappings to support fields from custom questions on LinkedIn lead gen forms.
+The [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration provides a set of field mappings out of the box. Field mappings define the name and the related field on the lead entity it maps to. As a system administrator or customizer, you can change the field mapping or create new mappings to support fields from custom questions on LinkedIn lead gen forms.
 
 ### Create a new field mapping
 
