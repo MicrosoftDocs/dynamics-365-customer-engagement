@@ -1,5 +1,5 @@
 ---
-title: "Manage Resco mobile licenses (Dynamics 365 for Field Service) | MicrosoftDocs"
+title: "Manage and assign Resco mobile licenses (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 03/27/2018
 ms.reviewer: ""
@@ -19,7 +19,7 @@ ms.author: "krbjoran"
 ms.manager: "shellyha"
 ---
 
-# Manage Resco mobile licenses 
+# Manage and assign [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -85,5 +85,5 @@ You can track the incident request online at [support.microsoft.com/my/supportre
 
 After the request is completed, you can assign the licenses to users. More information: [Purchase and assign Dynamics 365 (online) licenses](https://docs.microsoft.com/dynamics365/customer-engagement/admin/purchase-assign-online-licenses)
 
-[!NOTE]
+> [!NOTE]
 > We've provided a downloadable Excel spreadsheet which you can fill in with the details and then upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
