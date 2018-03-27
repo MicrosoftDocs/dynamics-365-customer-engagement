@@ -138,7 +138,7 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 <td>List of interactions as an escaped JSON array.</td>
 </tr>
 <tr>
-<td>NextSkiptToken</td>
+<td>NextSkipToken</td>
 <td>Edm.String</td>
 <td>Identifies the next cursor or bookmark in the collection of interactions returned for a contact record.</td>
 </tr>
