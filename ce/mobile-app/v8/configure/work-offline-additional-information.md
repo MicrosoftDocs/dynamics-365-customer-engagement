@@ -83,13 +83,34 @@ For a list of entities supported in mobile offline, see [Entities displayed in D
 
 ## Work in disconnected mode with Dynamics 365 for phones and tablets 
 
+You can continue to work in the mobile apps when the device is disconnected from the internet when you've enabled mobile offline synchronization.
+
+With mobile offline synchronization enabled, the app provides a rich offline experience. You can work with all the basic commands like create, read, update, delete in addition to certain business processes. Upon reconnecting, these offline changes will be automatically synchronize to Dynamics 365. The data is periodically synchronized from Dynamics 365 to your device for offline usage based on the sync profile configured by administrator.  
+
 ### Download App Updates for offline 
+
+When you log onto the Dynamics 365 mobile app, you will see the list of app modules that you have access to. When you navigate to any app module that your admin has configured for offline, you'll receive a prompt to download these config updates to setup your app to work in offline mode.  
 
 ### Offline Sync Status 
 
 #### Status on footer
 
+To verify offline synchronization is enabled on your app look at the Offline Sync Status in the footer of the app. The status also lets you know the entities that are available in offline and, for each of these available entities, when the data is last synchronized with Dynamics 365.  
+
+![Status on footer](../../media/offline-status.png "Status on footer")
+
 #### Status flyout 
+
+The following table lists the various status icons and what they mean.
+
+|Mobile offline sync status icon |Status |Description  |
+|---------|---------|---------|
+|![Available](../../media/green-icon.png "Available")     |Available         |Offline sync is available as the device database is available.         |
+|![Available warning ](../../media/green-icon-exclamation.png "Available warning")     |Available          |Warning due to metadata mismatch. You can click on the link in the status to download the metadata if it's pending from Dynamics 365.|
+|![Not available](../../media/red-icon.png "Not available")     |Initializing         |Offline database is being setup.         |
+|![Not available](../../media/red-icon.png "Not available")      |Not available         |Offline sync is not available as the database is not created on your mobile device.        |
+|![Not available warning](../../media/red-icon-exclamation.png)     |Not available         |Offline sync is not available. A background fix is in process.          |
+|![Not available](../../media/red-icon.png "Not available")      |Error         |The database is not available.         |
 
 #### Last Sync Time 
 
