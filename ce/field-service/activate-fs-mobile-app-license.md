@@ -14,7 +14,6 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 author: "shellyha"
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
-caps.latest.revision: 24
 ms.author: "krbjoran"
 ms.manager: "shellyha"
 ---
