@@ -1,4 +1,4 @@
----
+--
 title: "Managing user licenses for the Resco (Woodford) solution (Dynamics 365 for Field Service) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 03/21/2018
@@ -24,24 +24,25 @@ manager: "shellyha"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you’re the global admin at an organization with the **Resco (Woodford)** solution
-installed, to enable additional mobile capabilities for field technicians, there
-are a few important licensing differences to be aware of:
+If you’re the global admin at an organization with the Resco (Woodford) mobile solution installed, there are a few important differences between Dynamics 365 licenses and Resco licenses for you to know before you assign licenses to users:
 
-- Resco (Woodford) is a third party solution that charges per user, per organization.
-- Each field service license you purchase from Microsoft allows you to assign one Resco license per user, with the total number of Resco users for all organizations you manage not to exceed the total number of field service licenses.
+- Resco (Woodford) is a third-party solution that charges per user, per organization.
+- Each field service license you purchase from Microsoft allows you to assign one Resco mobile license per user, with the total number of Resco mobile users allocated across all organizations not to exceed the total number of field service licenses. 
 
-    For example, if you purchase 75 field service licenses and you manage three different organizations, you could assign Resco licenses to 25 users at each organization for a maximum total of 75 users (not 75 users at *each* organization for a total of 225).
+    For example, if you purchase 75 field service licenses and you manage three different organizations, you could assign Resco mobile licenses to 25 users at each organization for a maximum total of 75 users (not 75 users at *each* organization for a total of 225).
 
-    The maximum number of Resco users allowed includes trial, production, and sandbox organizations.
+ - The maximum number of Resco mobile users allowed applies to all your trial, production, and sandbox organizations.
 
-- Before you assign licenses to Resco users, you need to activate the licenses via the Resco (Woodford) website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
+## Activate Resco mobile licenses
 
->  Note: A 30-day trial automatically starts when you install the Resco (Woodford) solution. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
+Before you assign any licenses to users, you need to activate the licenses via the Resco (Woodford) website. [More information: Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
 
-Field service licenses purchased from Microsoft are allocated to one organization at a time, based on the **organization ID**. 
+>  Note: A 30-day trial automatically starts when you install the Resco (Woodford) solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated.
 
-For example, if you purchase 100 field service licenses, you can assign 85 to users in a production organization, and assign the remaining 15 to users in the organization’s sandbox.
+## Allocate Resco mobile licenses across organizations
+The Microsoft support team allocates your Resco mobile licenses to your organizations for you via a support ticket. 
+
+Field service licenses purchased from Microsoft are allocated to one organization at a time, based on the organization ID. For example, if you purchase 100 field service licenses, you can assign 85 to users in a production organization, and assign the remaining 15 to users in the organization’s sandbox.
 
 Allocate Field Service mobile licenses to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations
 -------------------------------------------------------------------------------------------------------------------
