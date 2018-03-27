@@ -22,13 +22,13 @@ ms.manager: "shellyhaverkamp"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you’re the global admin at an organization with the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] mobile solution installed, there are a few important details to know before you assign [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] licenses:
+If you’re the global admin at an organization with the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] mobile solution installed, there are a few important details to know before you assign [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] mobile licenses:
 
 - [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses are allocated to one organization at a time, based on the organization ID.
 
-- Each [!include[Dynamics 365 for Field Service](../includes/pn-dyn-365-field-service.md)] license you purchase from Microsoft allows you to assign one mobile license per user, with the total number of mobile users allocated across all your production, sandbox, or trial organizations not to exceed the total number of [!include[field service](../includes/pn-field-service.md)] licenses you purchased. 
+- Each [!include[pn-field-service](../includes/pn-field-service.md)] license you purchase from Microsoft allows you to assign one mobile license per user, with the total number of mobile users allocated across all your production, sandbox, or trial organizations not to exceed the total number of [!include[field service](../includes/pn-field-service.md)] licenses you purchased. 
 
-    For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 users (not 100 users at *each* organization for a total of 200).
+    For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign mobile licenses to 50 users at both organizations for a maximum total of 100 mobile users (not 100 mobile users at *each* organization for a total of 200).
 
 ## Activate [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses
 
@@ -42,6 +42,10 @@ After you activate the mobile licenses, you need to file a support ticket with t
 
 1.  Go to the [Microsoft support
     page](https://go.microsoft.com/fwlink/?linkid=854120). 
+    
+> [!NOTE]
+> We've provided a downloadable Excel spreadsheet which you can fill in with the details, and then upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
+
 2.  On the incident page, for **Problem type** choose **FieldOne Licensing**. For **Category** choose **License
     request**. Then select **Start Request**.
 3.  On the contact information page, enter your details, and then select **Continue**.
@@ -76,12 +80,9 @@ After you activate the mobile licenses, you need to file a support ticket with t
          - In the Instance Reference Information section, locate
             the Org ID.
 
-> [!NOTE]
-> We've provided a downloadable Excel spreadsheet which you can fill in with the details and then upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
-
 5.  Select **Submit** to submit the support ticket to Microsoft. You'll receive a support request number and estimated response time. 
         
 You can track the status of the support ticket online at [support.microsoft.com/my/supportrequests](https://support.microsoft.com/my/supportrequests). 
 
-##Assign [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses to users
+## Assign [!INCLUDE[pn-field-service](../includes/pn-field-service.md)] mobile licenses to users
 After the support request is completed, you can assign the licenses to users via the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] client. More information: [Woodford User Guide](https://www.resco.net/woodford-user-guide/#__RefHeading__5781_1627906509)
