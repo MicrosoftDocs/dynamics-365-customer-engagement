@@ -18,7 +18,6 @@ manager: sakudes
 
  A few minutes per day is all you need to keep the conversations going and grow your network. Wherever you work, regardless of the device, you’ll always have the relevant information right at your fingertips. Harnessing the power of the machine learning, the Social Selling Assistant provides smart and personalized recommendations for shareable content based on social data gathered with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].
 
-> [!VIDEO https://www.youtube.com/embed/B0tcV0piZbI]
 
  Can’t wait to try it out? Make sure have a system administrator or customizer security role in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and take the fast-track to set up and configure the Social Selling Assistant.
   
