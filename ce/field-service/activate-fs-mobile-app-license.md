@@ -47,19 +47,19 @@ After you activate the Resco mobile licenses, you need to file a support ticket 
 2.  On the incident page, for **Problem type** choose **FieldOne Licensing**. For **Category** choose **License
     request**. Then select **Start Request**.
 3.  On the contact information page, enter your details, and then select **Continue**.
-4.  For **Incident Title**, enter **Field Service App Mobile License Activation
+4.  On the issue description page, for **Incident title**, enter **Field Service App Mobile License Activation
     Request**. In the **Tell us more about your issue** box, enter the following
     information:
 
-    -   Customer company name
+    -   Company name for the organization
    
-    -   Customer's public facing website
+    -   Company's public facing website
 
-    -   Requesting person's full name
+    -   Requestor's full name
 
-    -   Requesting Person's Email Address
+    -   Requestor's email 
 
-    -   Requesting Person's phone Number
+    -   Requestor's phone Number
 
     -   Office 365 Admin Center License screenshot showing the number of Field
         Service licenses in your tenant. Here's how to get this info:
@@ -74,16 +74,16 @@ After you activate the Resco mobile licenses, you need to file a support ticket 
 
     -   Enter your **unique org ID**. Here's how to find your org ID:
 
-        -   As a **system Administrator**, open your Dynamics 365 instance.
+        -   As a **System Administrator**, open your Dynamics 365 instance.
 
         -   Navigate to **Settings \> Customizations \>Developer Resources**.
 
-        -   In the Instance Reference Information section of the page, locate
+        -   In the Instance Reference Information section, locate
             the Org ID.
 
-        -   Click on **Submit**. An incident ticket is then raised to Microsoft. You will be provided with the Support Request Number and also with Response time. 
+5.  Select **Submit** to submit the support ticket to Microsoft. You'll receive a support request number and estimated response time. 
         
-        -   You can track the incident request online at (https://support.microsoft.com/my/supportrequests). You can see the Severity of your case, providing as much information as you can could increase the Severity level of the case.          
+You can track the incident request online at (https://support.microsoft.com/my/supportrequests). 
 
 >   [!NOTE] You can enter all of the above information in the space provided, or in the
 >   space below enter “see attached” and save the information to an Excel
