@@ -150,7 +150,7 @@ The following process defines the steps to install and configure relationship an
 3.  (Optional) Uninstall Sales insights add-on.
 
 ### Install Sales insights add-on 
-1.	Go to **Settings** > **Embedded intelligence**.<br>
+1.	Go to **Settings** > **Intelligence Configuration**.<br>
      ![Embedded intelligence home screen](../admin/media/install-sales-insights-addon.png "Embedded intelligence home screen")  
      <br>
 

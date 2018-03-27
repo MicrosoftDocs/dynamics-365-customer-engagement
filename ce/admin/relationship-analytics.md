@@ -18,7 +18,8 @@ manager: "sakudes"
 ---
 # Preview feature: Use Relationship analytics to gather KPIs 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+<!--[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]-->
+Applies to Dynamics 365 (online), version 9.0.2.x
 
 We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories related to any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
   
@@ -42,16 +43,9 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
   
 -   How long does it take our team to respond?  
   
-Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to install and enable this feature, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
+Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_9_0_2-online](../includes/pn-crm-9-0-2-online.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to install and enable this feature, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
-> [!IMPORTANT]
-> **Browser requirements during preview:** The preview version of relationship analytics requires  the latest version of either [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]. support for additional browsers is expected for the final release.  
- A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
-  
-> [!IMPORTANT]
-> Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
-  
- Relationship analytics is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](../admin/embedded-intelligence.md)  
+ Relationship analytics is part of the new *Sales insights add-on* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](../admin/embedded-intelligence.md)  
   
 <a name="Feedback"></a>
 
@@ -63,15 +57,15 @@ Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_
 
 ## Get the big picture with relationship analytics in list views  
 
- Relationship analytics provides an activity history, KPIs, health score, and health trend for contact, opportunity, lead, and account records. The most important KPIs (including your team's previous and next activity related to each record) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
+Relationship analytics provides an activity history, KPIs, health score, and health trend for contact, opportunity, lead, and account records. The most important KPIs (including your team's previous and next activity related to each record) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
   
- ![Relationship health details in a grid view](../admin/media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
+![Relationship health details in a grid view](../admin/media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
   
 <a name="BubbleChart"></a>   
 
 ## Identify critical opportunities with the relationship pipeline view  
 
- The relationship pipeline view provides a bubble chart that gives you a quick overview of the health, close date, and estimated revenue for your upcoming opportunities. To view it:  
+The relationship pipeline view provides a bubble chart that gives you a quick overview of the health, close date, and estimated revenue for your upcoming opportunities. To view it:  
   
 1.  Go to **Sales** > **Opportunities**.  
   
