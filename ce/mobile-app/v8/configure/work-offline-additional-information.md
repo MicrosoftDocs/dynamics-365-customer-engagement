@@ -104,36 +104,81 @@ The following table lists the various status icons and what they mean.
 |Mobile offline synchronization status icon |Status |Description  |
 |---------|---------|---------|
 |![Available](../../media/green-icon.png "Available")     |Available         |Offline synchronization is available as the device database is available.         |
-|![Available warning ](../../media/green-icon-exclamation.png "Available warning")     |Available          |Warning due to metadata mismatch. You can click on the link in the status to download the metadata if it's pending from Dynamics 365.|
+|![Available warning ](../../media/green-icon-exclamation.png "Available warning")     |Available          |Warning due to metadata mismatch. You can tap on the link in the status to download the metadata if it's pending from Dynamics 365.|
 |![Not available](../../media/red-icon.png "Not available")     |Initializing         |Offline database is being setup.         |
 |![Not available](../../media/red-icon.png "Not available")      |Not available         |Offline synchronization is not available as the database is not created on your mobile device.        |
 |![Not available warning](../../media/red-icon-exclamation.png)     |Not available         |Offline synchronization is not available. A background fix is in process.          |
 |![Not available](../../media/red-icon.png "Not available")      |Error         |The database is not available.         |
 
 > [!NOTE]
-> If there is no status in the footer, offline synchronization is not enabled for your app.
-> 
-> Offline synchronization can be enabled or disabled by:
-> - Contact your admin to have offline synchronization enabled 
-> Or
-> - If the admin has enabled offline synchronization for users, the users can choose to have synchronization disabled or enabled. On your mobile application, go to **Settings** -> **Offline Sync** / **Disable Sync** to enable or disable offline synchronization. This is enabled by default if the admin has configured users for offline synchronization.  
+> If there is no status in the footer, offline synchronization is not enabled for your app or the user has not been added to the mobile offline profile.
 
 #### Status flyout 
 
-You can check the reason of the Offline Sync Status by clicking on this status. This opens a flyout which gives you the number of entities enabled for offline along with status reason, if any.   
+You can check the reason for the offline synchronization status by clicking on this status. This opens a flyout which shows the number of entities enabled for offline along with status reasons, if any. 
 
+| |  |
+|---------|---------|
+|![Number of entities enabled](../../media/flyout-entities-enabled.png "[Number of entities enabled")     |![Status reasons](../../media/flyout-status-reasons.png "Status reasons")         |
 
 #### Last Sync Time 
 
+For offline available entities, when you navigate to the entities grid or form, you can check in the footer when data is last synchronized with Dynamics 365.
+
+![Last sync time](../../media/last-sync-time.png "Last sync time")
+
 #### Status on sitemap 
+
+You can also check the status of entities enabled for offline on the sitemap. A vertical rectangle on right side of the entity’s image represents the offline status.  
+
+- Green – entity is enabled for offline and is available to work in when offline 
+- Red – entity is enabled for offline but is not available to work in when offline due to an error
+- No rectangle – entity is not enabled for offline  
+
+![Status on sitemap](../../media/status-on-sitemap.png "Status on sitemap")
 
 ### Offline data
 
+Users will have the following data in offline mode:
+- Data of all available entities as per the filters defined by admin in the profile. 
+- Any records of offline available entities that you follow on Dynamics 365 will be available in when offline. 
+- Any records of offline available entities that you are working on when you lose the connectivity will be available when offline, and you can continue working on these records. The changes in these records will be synchronized to Dynamics 365 when you reconnect and will be available when offline again as per your filters.    
+
 ### Offline indicator
 
+As soon as the application is disconnected from the server you will see an indication on the application that it is offline. Once you have reconnected to your phone service or internet, tap this offline indicator to reconnect to Dynamics 365.
+
+| |  |
+|---------|---------|
+|![Tap offline](../../media/tap-offline.png "Tap offline")     |![Tap reconnect](../../media/tap-reconnect.png "Tap reconnect")         |
+  
 ### Working in offline mode
 
+You can seamlessly work in offline mode with all available entities. In offline mode you have support for:
+
+- Create, read, update, and delete (CRUD) actions
+- Business processes:
+  -  Next Stage 
+  - Previous Stage 
+  - Set Active
+- Commands 
+  - Lead – Qualify\Disqualify 
+  - Opportunity – Close as won\lost 
+  - Case – Resolve 
+  - Activity – Convert to opportunity  
+  - Close activity through Mark Complete command in Activity form and Activity grid.  
+- Entity Views 
+- Search 
+- Lookup for offline records 
+
+> [!NOTE]
+> See [Dynamics 365 Customer Engagement Readme / Known Issues](../../../admin/readme-9.md#mobile-offline) to understand limitations in offline mode.
+
+Watch a short [video](https://go.microsoft.com/fwlink/p/?linkid=837630) (3:06) about working offline with Dynamics 365. 
+
 ### Automatic playback
+
+On reconnecting to the Dynamics 365, all offline actions are automatically played back to the Dynamics 365. Any errors during this automatic play back are captured and stored in the Sync Error entity.  
 
 ### Conflict resolution
 
