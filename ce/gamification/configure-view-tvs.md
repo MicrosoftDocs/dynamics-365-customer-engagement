@@ -19,7 +19,7 @@ topic-status: Drafting
 Display a slide show for daily, weekly, and monthly KPIs on TVs and screens around your office. All other game models can also be displayed on TVs.
 To create a Stream TV from multiple active games, see [Stream results from active games](configure-view-tvs.md#stream-results-from-active-games).
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/18883a39-c003-4d2c-b2af-c5e4c2d93ed3" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cc1cf5fc-097d-4776-a348-2c79a0e8167f" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## Set up a Stream TV game
 
