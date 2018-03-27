@@ -50,7 +50,7 @@ This section describes how to integrate [!INCLUDE[pn_MicrosoftCognitiveServices_
     |----------|-----------------|  
     |Name (required)|A logical name for the connection.|  
     |Azure Service URL (required)|The service URL for the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service.|  
-    |Azure Account Key (required)|You will need to sign up for the Text Analytics API and obtain an API key. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Signing up for Text Analytics API](https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-signup).  A $0.00 account is available for trying out this feature.|  
+    |Azure Account Key (required)|You will need to sign up for the Text Analytics API and obtain an API key. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Signing up for Text Analytics API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-signup).  A $0.00 account is available for trying out this feature.|  
     |Description|A description of the connection.|  
   
 4.  Click **Test Connection** to validate your settings.  
