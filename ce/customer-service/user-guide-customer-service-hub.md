@@ -52,9 +52,9 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
 ## Accessibility and GDPR
-Customer Service Hub is committed to be an advocate of inclusive design and accessible products, and content that boost every user's productivity. 
+Customer Service Hub is committed to advocate inclusive design and accessible content. The app is designed around accessibility so that all user's can be effortlessly productive.
 
-Refer below to know the details about how the Customer Service Hub app complies to accessibility and GDPR guidelines:
+Refer below to know how the Customer Service Hub app complies to accessibility and GDPR guidelines:
 
 - [Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)
 - [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)

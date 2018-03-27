@@ -83,7 +83,7 @@ The Service Manager Guide helps you set up everything related to customer servic
    
    Learn more about [Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).
 
-## Accessibility and GDPR compliance
+## Accessibility and GDPR
 
 For more details about the app's accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
 
