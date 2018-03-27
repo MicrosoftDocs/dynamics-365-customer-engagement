@@ -9,14 +9,14 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.assetid: f2c2fd29-654d-4ccb-81e7-eb49f1ba74fc
+ms.assetid: a87d5f37-892f-43a8-97b2-151037132f72
 author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 16
+caps.latest.revision: 
 topic-status: Drafting
 ---
 
