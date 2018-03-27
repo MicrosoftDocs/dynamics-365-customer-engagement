@@ -1,9 +1,8 @@
 ---
 title: "Manage and assign Resco mobile licenses (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: "dyn365-fieldservice"
 ms.date: 03/27/2018
 ms.reviewer: ""
-ms.service: "crm-online"
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,18 +11,18 @@ ms.topic: "activate-fs-mobile-app-license"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shellyha"
+author: "shellyhaverkamp"
 ms.assetid: 49207db9-d1f0-46e0-ae2c-f4acf4593da9
 caps.latest.revision: 24
 ms.author: "krbjoran"
-ms.manager: "shellyha"
+ms.manager: "shellyhaverkamp"
 ---
 
 # Manage and assign [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you’re the global admin at an organization with the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] mobile solution installed, there are a few important differences between [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)] licenses and [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses for you to be aware of before you assign any licenses:
+If you’re the global admin at an organization with the [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] mobile solution installed, there are a few important differences between [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)] licenses and [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses for you to be aware of:
 
 - [!INCLUDE[pn-resco-woodford](../includes/pn-resco-woodford.md)] is a third-party solution that charges per user, per organization.
 
@@ -60,23 +59,23 @@ After you activate the [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile lice
         service licenses in your tenant. 
         > [!NOTE] 
         > Here's how to get the field service license info:
-        > - As a **Global Office 365 Administrator**, open the **Office 365** portal
+         - As a **Global Office 365 Administrator**, open the **Office 365** portal
             and navigate to the **Admin Center**.
         >
-        > - Expand the **Billing** tab, and then select **Licenses**.
+         - Expand the **Billing** tab, and then select **Licenses**.
         >
-        > - Take a screenshot showing the number of field service licenses in
+         - Take a screenshot showing the number of field service licenses in
             your tenant.
 
     -   Enter the **unique org ID**. 
         > [!NOTE]
         > Here's how to find your org ID:
         >
-        > - Open your Dynamics 365 instance.
+         - Open your Dynamics 365 instance.
         >
-        > - Navigate to **Settings \> Customizations \>Developer Resources**.
+         - Navigate to **Settings \> Customizations \>Developer Resources**.
         >
-        > - In the Instance Reference Information section, locate
+         - In the Instance Reference Information section, locate
             the Org ID.
 
 5.  Select **Submit** to submit the support ticket to Microsoft. You'll receive a support request number and estimated response time. 
