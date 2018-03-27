@@ -24,6 +24,7 @@
 ### [Event management settings](events-settings.md)
 ### [Manage sample data](additional-settings.md)
 ### [Quota management](quota-management.md)
+### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 
 ## [User Guide](user-guide.md)
 
@@ -67,7 +68,7 @@
 ### [Manage, score, and qualify leads](qualify-leads-section.md)
 #### [Score and manage leads](score-manage-leads.md)
 #### [Register contacts' engagement](register-engagement.md)
-#### [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
+#### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
