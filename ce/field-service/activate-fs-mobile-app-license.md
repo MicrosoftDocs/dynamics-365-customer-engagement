@@ -24,12 +24,12 @@ manager: "shellyha"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-If you’re the global admin at an organization with the Resco (Woodford) mobile solution installed, there are a few important differences between Dynamics 365 licenses and Resco licenses for you to be aware of before assign licenses to users:
+If you’re the global admin at an organization with the Resco (Woodford) mobile solution installed, there are a few important differences between Dynamics 365 licenses and Resco mobile licenses for you to be aware of before assigning any licenses:
 
 - Resco (Woodford) is a third-party solution that charges per user, per organization.
 - Each field service license you purchase from Microsoft allows you to assign one Resco mobile license per user, with the total number of Resco mobile users allocated across all your production, sandbox, or trial organizations not to exceed the total number of field service licenses. 
 
-    For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign Resco mobile licenses to 50 users at each organization for a maximum total of 100 users (not 100 users at *each* organization for a total of 200)..
+    For example, if you purchase 100 field service licenses and you manage one production organization and one sandbox, you could assign Resco mobile licenses to 50 users at each organization for a maximum total of 100 users (not 100 users at *each* organization for a total of 200).
 
  - Resco mobile licenses purchased from Microsoft are allocated to one organization at a time, based on the organization ID.
 
@@ -43,10 +43,10 @@ First, you need to activate the licenses via the Resco (Woodford) website. [More
 After you activate the Resco mobile licenses, you need to file a support ticket with the Microsoft support team, who then allocates your Resco mobile licenses across your organizations for you. 
 
 1.  Go to the [Microsoft support
-    page](https://go.microsoft.com/fwlink/?linkid=854120) and fill in the required details.
-2.  For **Problem Type** choose, **FieldOne Licensing** and for **Category** choose **License
-    Request**, then click **Start Request**.
-3.  Enter your **contact information** and click **Continue**.
+    page](https://go.microsoft.com/fwlink/?linkid=854120). 
+2.  On the incident page, for **Problem type** choose **FieldOne Licensing**. For **Category** choose **License
+    request**. Then select **Start Request**.
+3.  On the contact information page, enter your details, and then select **Continue**.
 4.  For **Incident Title**, enter **Field Service App Mobile License Activation
     Request**. In the **Tell us more about your issue** box, enter the following
     information:
