@@ -1,3 +1,8 @@
+---
+title: MICROSOFT PREVIEW OFFERING LICENSE TERMS MICROSOFT DYNAMICS 365 FOR MICROSOFT TEAMS TECHNOLOGY PREVIEW
+author: brycho
+---
+
 MICROSOFT PREVIEW OFFERING LICENSE TERMS<br>MICROSOFT DYNAMICS 365 FOR MICROSOFT TEAMS TECHNOLOGY PREVIEW.
 ==========================================================================================================
 
