@@ -39,7 +39,7 @@ First, you need to activate the licenses via the Resco (Woodford) website. [More
 
 [!NOTE] A 30-day trial automatically starts when you install the Resco (Woodford) solution for your field service organization. Activate the licenses before the trial period ends, or you won’t be able to access the Resco (Woodford) configuration tool until paid licenses are allocated by Microsoft support.
 
-## Allocate Resco mobile licenses across organizations
+## Allocate Resco mobile licenses via a support ticket
 After you activate the Resco mobile licenses, you need to file a support ticket with the Microsoft support team, who then allocates your Resco mobile licenses across your organizations for you. 
 
 1.  Go to the [Microsoft support
