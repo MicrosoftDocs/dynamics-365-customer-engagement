@@ -76,9 +76,9 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 8. Under **Step 2**: Define the rollup fields for this metric to track the target's actual and in-progress values. 
 
-   1. On the **Rollup Fields** tab, in the **Records** group, click **Add New Rollup Field**.
+   1. On the **Rollup Fields** tab, in the **Records** group, select **Add New Rollup Field**.
 
-   2. Under **Information**, click **General**. The **Rollup Field** dialog box opens.
+   2. Under **Information**, select **General**. The **Rollup Field** dialog box opens.
 
    3. Under **Step 1: Specify the rollup field to track against goals**, fill in the information:
 

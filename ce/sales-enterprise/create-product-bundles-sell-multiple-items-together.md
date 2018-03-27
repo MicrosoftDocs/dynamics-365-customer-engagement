@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: 1b15ac3d-9cce-4ad8-8014-5e89e0a709f4
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -77,7 +77,7 @@ Encourage customers to buy more products instead of a single product by combinin
 
     - **Subject**. Associate this product with a subject. You can use subjects to categorize your products and to filter reports. 
   
-5. Select Save.  
+5. Select **Save**.  
   
 6.  On the **Bundle Products** tab, select **Add New Product Association**.  
   
@@ -138,7 +138,7 @@ Encourage customers to buy more products instead of a single product by combinin
   
 5.  Enter information, noting any restrictions or requirements as needed.  
   
-6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
+6. Select **Save**.  
   
 7.  In the **Bundle Products** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and select products that you want to add to the bundle.  
   

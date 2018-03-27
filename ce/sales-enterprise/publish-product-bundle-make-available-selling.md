@@ -37,7 +37,7 @@ When you're ready to sell a product or bundle, publish it to make it available t
 
 3. Open the product, bundle, or family you want to publish, and on the command bar, select **Publish**. 
 
-   ![Publish a product](media/publish-product.png "Publish a product")
+   ![Product form with the Publish button](media/publish-product.png "Product form with the Publish button")
 
    This will change the product status to **Active** and make it available for selling.
 

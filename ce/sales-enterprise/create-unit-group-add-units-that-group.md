@@ -20,7 +20,7 @@ caps.latest.revision: 18
 topic-status: Drafting
 ---
 
-# Create a unit group and add units to that group (Sales)
+# Create a unit group and add units to that group (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -28,8 +28,12 @@ Units are the quantities or measurements that you sell your products or services
   
  In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
-<a name="bkmk_CreateUnitGroup"></a>   
-## Step 1: Create a unit group  
+## Create a unit group and add units (Sales Hub app)
+
+In [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], creating a unit group or adding units isn't supported in the Sales Hub app. To create or edit a unit group and unit, use the Sales app.
+
+
+## Step 1: Create a unit group (Sales app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -62,8 +66,7 @@ Units are the quantities or measurements that you sell your products or services
 > [!NOTE]
 >  You cannot delete the primary unit in a unit group.  
   
-<a name="bkmk_CreateUnitsInGroup"></a>   
-## Step 2: Create units in a unit group  
+## Step 2: Create units in a unit group  (Sales app)
   
 1.  In the unit group you want to add the units to, in the left pane, under **Common**, select **Units**, and then on the **Units** tab, in the **Records** group, select **Add New Unit**.  
   

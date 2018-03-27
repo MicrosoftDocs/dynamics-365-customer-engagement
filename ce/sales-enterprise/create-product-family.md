@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: c5844aaf-a77f-4097-bfb5-1022ad53dcea
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -51,7 +51,7 @@ Make it easier for sales agents to find products and services in a product catal
   
      To create a child product family under an existing family, select the family, and select **Add Family**. The selected family becomes the parent family of the new family you're creating.  
   
-     ![Add Family](media/add-family.png "Add Family")  
+     ![List of products with Add Family button](media/add-family.png "List of products with Add Family button")  
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   

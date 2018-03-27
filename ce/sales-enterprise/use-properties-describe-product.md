@@ -93,11 +93,11 @@ Repeat the steps to add multiple properties.
   
 1. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-2.  Click **Families & Products**.  
+2.  Select **Families & Products**.  
   
-3.  Click the product family you want to add properties for.  
+3.  Select the product family you want to add properties for.  
   
-4.  In the product form, in the **Product Properties** section, click ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button").  
+4.  In the product form, in the **Product Properties** section, select ![Add properties button](../sales-enterprise/media/add-properties-button.png "Add properties button").  
   
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -111,7 +111,7 @@ Repeat the steps to add multiple properties.
     |Color|Option Set|red, blue, yellow, green|  
     |Size|Option Set|small, medium, large|  
   
-6.  Click the **Save** button in the bottom right corner, and close the form.  
+6.  Select the **Save** button in the bottom right corner, and close the form.  
   
  Repeat the steps to add multiple properties.  
   
@@ -121,9 +121,9 @@ Repeat the steps to add multiple properties.
  
 1.  Open the product you want to override the property of.  
   
-2.  Click the property you want to override.  
+2.  Select the property you want to override.  
   
-3.  In the **Product Properties** form, on the command bar, click **Override**.  
+3.  In the **Product Properties** form, on the command bar, select **Override**.  
   
 4.  Change the details as required, and save the properties record.  
   

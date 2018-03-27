@@ -39,9 +39,9 @@ When you sell your products in different regions, it is important that you trans
   
 2.  [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Click **Export Field Translations**.  
+3.  Select **Export Field Translations**.  
   
-4.  In the **Export Field Translations** dialog box, click **OK**.  
+4.  In the **Export Field Translations** dialog box, select **OK**.  
   
      All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] Work with localizable attributes.  
   
@@ -67,13 +67,13 @@ When you sell your products in different regions, it is important that you trans
   
 2.  [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Click **Import Field Translations**.  
+3.  Select **Import Field Translations**.  
   
-4.  In the **Field Translation Import Jobs** page, on the Action toolbar, click **Import Field Translations**.  
+4.  In the **Field Translation Import Jobs** page, on the Action toolbar, select **Import Field Translations**.  
   
-5.  In the **Import Translated Text** dialog box, click **Browse**, and select the file that you've received from your translation agency.  
+5.  In the **Import Translated Text** dialog box, select **Browse**, and select the file that you've received from your translation agency.  
   
-6.  Click **Import**.  
+6.  Select **Import**.  
   
      This starts the import job. You can check the status to see if the import has succeeded or failed.  
   

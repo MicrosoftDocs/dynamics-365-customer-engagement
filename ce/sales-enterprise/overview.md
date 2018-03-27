@@ -2,7 +2,7 @@
 title: "Sales Overview (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Get an overview of the sales offerings from Dynamics 365."
 keywords: "Sales Hub, Sales, overview, lead, opportunity, mobile, mobile-optimized, desktop, deal, device, Dynamics 365, sales person, sales manager"
-ms.date: 09/30/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: get-started-article
@@ -20,7 +20,6 @@ caps.latest.revision: 9
 topic-status: Drafting
 ---
 
-[//]: # (Description and keywords are missing from metadata in this topic and some others in the docset. These fields are mandatory for our content, as far as I know.)
 # Overview of Sales and Sales Hub
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -39,7 +38,8 @@ There are two flavors of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sale
 
 - The Sales Hub is the current mobile-optimized app for sales scenarios. <!-- The Sales Hub can be accessed and used on the desktop, but it is currently optimized for the mobile experience; therefore, it only contains a subset of sales features. More sales capabilities will be available in the Sales Hub over the next releases so that it becomes your one-stop destination for the sales experience across all devices and browsers. -->
 
-    The Sales Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. We recommend that you only use the Sales Hub on mobile devices and not desktop browsers.
+       
+    The Sales Hub app is built on the Unified Interface framework, which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. With [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], the Sales Hub app is supported on the mobile devices as well as desktops.
 
 > [!NOTE]
 > For mobile devices, you'll also need to [install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md).

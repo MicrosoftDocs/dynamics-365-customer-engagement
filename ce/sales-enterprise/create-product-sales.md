@@ -38,7 +38,7 @@ Products are the backbone of your business. They can be physical products or ser
   
     If you want to create an independent product, simply select **Add Product**. 
 
-    ![List of Products](media/products-grid.png "Products grid") 
+    ![List of products](media/products-grid.png "Products grid") 
   
 4.  Fill in your information:  
   
@@ -140,3 +140,4 @@ Products are the backbone of your business. They can be physical products or ser
   
 ### See also  
  [Set up a product catalog: Walkthrough](../sales-enterprise/set-up-product-catalog-walkthrough.md)
+ [Manage sales literature](create-sales-literature.md)

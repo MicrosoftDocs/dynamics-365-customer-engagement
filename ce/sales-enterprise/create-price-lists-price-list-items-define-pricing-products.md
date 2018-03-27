@@ -20,16 +20,20 @@ caps.latest.revision: 44
 topic-status: Drafting
 ---
 
-# Create price lists and price list items to define pricing of products (Sales)
+# Create price lists and price list items to define pricing of products (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels.  
   
- Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
+Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
  
-<a name="bkmk_CreatePL"></a>   
-## Step 1: Create a price list  
+
+## Create a price list and add price list items (Sales Hub app)
+
+In [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], creating a price list and adding price list items isn't supported in the Sales Hub app. To create or edit a price list and price list item, use the Sales app.
+
+## Step 1: Create a price list  (Sales app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -56,9 +60,9 @@ Price lists tell your sales agents what to charge for your products or services.
 > [!NOTE]
 >  You must create at least one price list for each of the currencies that your organization does business in.  
   
-<a name="bkmk_AddPLItems"></a>   
-## Step 2: Add items to the price list  
- Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
+## Step 2: Add items to the price list (Sales app)
+
+Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
   
 1.  In the price list record, in the **Price List Items** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   
@@ -100,9 +104,9 @@ Price lists tell your sales agents what to charge for your products or services.
   
 3.  Select **Save**.  
   
-<a name="bkmk_DefineDefaultPL"></a>   
-## Step 3: Define default price list for territories  
- Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
+## Step 3: Define default price list for territories  (Sales app)
+
+Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
    
 1.  In the price list record, in the **Territory Relationships** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   

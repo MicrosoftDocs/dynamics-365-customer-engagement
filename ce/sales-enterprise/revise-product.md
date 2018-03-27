@@ -36,6 +36,10 @@ Keep the product inventory updated by quickly revising properties for the produc
 
     ![Revise Product button on the Product form](media/revise-product.png "Revise Product button on the Product form")
   
+4. In the **Confirm Revise** dialog box, select **Confirm**.
+
+   ![Confirm revision of product](media/confirm-revise.png "Confirm revision of product")
+
     This will change the product status to **Under Revision**.  
   
 5.  Change the product properties, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](../sales-enterprise/use-properties-describe-product.md)  
