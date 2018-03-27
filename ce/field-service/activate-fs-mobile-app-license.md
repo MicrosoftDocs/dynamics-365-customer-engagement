@@ -49,8 +49,8 @@ Follow these steps to submit a service request to activate your field service mo
     -   Company name for the organization
     -   Company's public facing website
     -   Requestor's full name
-    -   Requestor's email 
-    -   Requestor's phone Number
+    -   Requestor's email
+    -   Requestor's phone number
     -   Office 365 Admin Center License screenshot showing the number of field service licenses in your tenant. 
         > [!NOTE] 
         > Here's how to get the field service license info:
