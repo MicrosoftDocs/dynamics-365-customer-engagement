@@ -15,7 +15,7 @@ caps.latest.revision: 7
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Create a mobile offline profile
+# Create a mobile offline profile 
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -86,4 +86,53 @@ You need to create mobile offline profiles for users to configure filters that d
 12. When you’re done adding mobile offline profile item associations to the mobile offline profile item, click **Save & Close** at the top of the **Mobile Offline Profile Item** screen.  
   
 13. When you’re done adding mobile offline profile item details to the mobile offline profile item, click the **Save** button at the bottom right corner of the **Mobile Offline Profile** window.  
+  
+## Enhanced sync filters  
+ Admins can choose what information to sync to user's devices. This can help minimize impact to user's device's memory.  
+  
+> [!NOTE]
+> Make sure that you’re using the latest version of the mobile app For Advanced Filters to work offline.  
+  
+ Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
+  
+|      |  
+|------|  
+|equal|  
+|not equal|  
+|gt – greater than|  
+|ge – greater than or equal to|  
+|le – less than or equal to|  
+|lt – less than|  
+|like|  
+|not-like|  
+|in|  
+|not-in|  
+|null|  
+|not-null|  
+|eq-userid|  
+|ne-userid|  
+|eq-userteams|  
+|eq-useroruserteams|  
+|eq-useroruserhierarchy|  
+|eq-useroruserhierarchyandteams|  
+|eq-businessid|  
+|ne-businessid|  
+|eq-userlanguage|  
+|begins-with|  
+|not-begin-with|  
+|ends-with|  
+|not-end-with|  
+
+## For admins: Enhanced sync status for provisioning  
+
+**About enhanced sync status:**  
+  
+-   Admins can see the status of provisioning and de-provisioning.  
+-   The mobile offline configuration page is auto-refreshed at regular intervals to show updated status messages during provisioning and de-provisioning.  
+-   You can stop provisioning at any stage during provisioning.  
+-   You can de-provision your organization only when the provisioning is complete.  
+-   De-provisioning of an organization can't be stopped once initiated.  
+-   You can initiate provisioning again only when de-provisioning is complete.  
+-   In  case of a provisioning or de-provisioning failure, consider retrying your provisioning before contacting support.  
+-   All the provisioning and de-provisioning messages will be shown on the mobile offline configuration page along with the date and timestamp of when the status was last checked.  
   

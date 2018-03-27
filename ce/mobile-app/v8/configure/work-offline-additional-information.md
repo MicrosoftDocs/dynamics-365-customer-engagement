@@ -119,7 +119,7 @@ You can check the reason for the offline synchronization status by clicking on t
 
 | |  |
 |---------|---------|
-|![Number of entities enabled](../../media/flyout-entities-enabled.png "[Number of entities enabled")     |![Status reasons](../../media/flyout-status-reasons.png "Status reasons")         |
+|![Number of entities enabled](../../media/flyout-entities-enabled.png "Number of entities enabled")<br/>Number of entities enabled     |![Status reasons](../../media/flyout-status-reasons.png "Status reasons")<br/>Status reasons         |
 
 #### Last Sync Time 
 
@@ -150,7 +150,7 @@ As soon as the application is disconnected from the server you will see an indic
 
 | |  |
 |---------|---------|
-|![Tap offline](../../media/tap-offline.png "Tap offline")     |![Tap reconnect](../../media/tap-reconnect.png "Tap reconnect")         |
+|![Tap Offline](../../media/tap-offline.png "Tap Offline")<br/>Tap offline     |![Tap Reconnect](../../media/tap-reconnect.png "Tap Reconnect")<br/>Tap Reconnect         |
   
 ### Working in offline mode
 
@@ -180,9 +180,36 @@ Watch a short [video](https://go.microsoft.com/fwlink/p/?linkid=837630) (3:06) a
 
 On reconnecting to the Dynamics 365, all offline actions are automatically played back to the Dynamics 365. Any errors during this automatic play back are captured and stored in the Sync Error entity.  
 
-### Conflict resolution
+### Sync conflict resolution
+
+Changes done in offline mode on your device that create conflicts with Dynamics 365 are detected and captured in the Sync Error entity. You can view and resolve these errors either in Dynamics 365 or on the device. Sync Error conflict resolution gives you an option to either keep the offline changes on the device or reject them for the changes in Dynamics 365. 
+
+When resolving a sync error, an exclamation mark (!) highlights the conflict fields before you update them. If a record has changed Dynamics 365 between the time your device retrieved the record and when it tries to update or delete that record, you'll see an exclamation mark (!) by the relevant field and you'll need to resubmit your updated changes. 
+
+![Exclamation shows conflict field](../../media/exclamation-conflict-field.png "Exclamation shows conflict field")
 
 ### Background sync
+
+Background sync is enabled even when the app is minimized as long as a network connection is detected. But when the app is in the background, metadata changes will not be accepted automatically. When you bring the app to the foreground, you will be prompted to accept the metadata changes. 
+
+**About background sync**
+
+- Sync will run until you sign in to the mobile app. 
+- While the app is running in the background, sync is automatically enabled when a network is detected. 
+- While the app is running in the background, sync is automatically disabled when a network is disabled 
+- When you bring the app to the foreground, regular sync is detected and enabled. 
+- Background sync is disabled when the device is locked and enabled when the device is unlocked. 
+- While the app is running in the background, metadata changes will not be accepted automatically; the mobile app will stop the background sync. 
+- When you bring the app to the foreground, you are prompted to accept the metadata changes. 
+- While the app is running in the foreground, after metadata is updated, the app will switch to regular sync. 
+
+Background sync will be disabled if: 
+
+- Your user token expires in the background. 
+- The application closes for some reason. 
+- Your device locks. 
+
+ Background sync is available on all supported devices. See [Support for Dynamics 365 for phones and Dynamics 365 for tablets](../set-up-manage/support.md).
 
 ## Support matrix
 

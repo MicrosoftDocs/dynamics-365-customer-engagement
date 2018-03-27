@@ -60,82 +60,10 @@ manager: "brycho"
 ## If you’re prompted to sign in while you’re disconnected  
  If you’re prompted to sign in while you’re offline, tap the **Back** button on the sign-in page and you’ll still be able to work in offline mode on [!INCLUDE [tn-ipad](../../../includes/tn-ipad.md)] and [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] tablets until you can reconnect. On all other phones and [!INCLUDE [tn-android](../../../includes/tn-android.md)] tablets, however, you can no longer work in offline mode and will be redirected to the **Let’s get started** page until you can reconnect and sign in again.  
   
-## Working offline with on-premises  deployments  
- If you’re using the mobile app with [!INCLUDE [pn-crm-2015](../../../includes/pn-crm-2015.md)] (on-premises) or later, you can continue to use [!INCLUDE [pn-moca-short](../../../includes/pn-moca-short.md)] while disconnected. However, with the [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] app, once you close the app (like when you start another app), you can’t use it until you can connect to the Internet. With the [!INCLUDE [pn-windows-8-1](../../../includes/pn-windows-8-1.md)] app, you can continue to access your data even if you close the app. If you’re not sure whether your organization has an on-premises deployment, contact your Dynamics 365 admin to find out.  
+## Working offline with on-premises deployments  
+ If you’re using the mobile app with [!INCLUDE [pn-crm-2015](../../../includes/pn-crm-2015.md)] (on-premises) or later, you can continue to use [!INCLUDE [pn-moca-short](../../../includes/pn-moca-short.md)] while disconnected. However, with the [!INCLUDE [pn-windows8](../../../includes/pn-windows8.md)] app, once you close the app (like when you start another app), you can’t use it until you can connect to the internet. With the [!INCLUDE [pn-windows-8-1](../../../includes/pn-windows-8-1.md)] app, you can continue to access your data even if you close the app. If you’re not sure whether your organization has an on-premises deployment, contact your Dynamics 365 admin to find out.  
   
  Note that offline synchronization is not supported by on-premises deployments.  
-  
-## Background sync  
- Background sync is enabled even when the app is minimized so long as a network connection is detected. But when the app is in the background, metadata changes will not be accepted automatically. When you bring the app to the foreground, you will be prompted to accept the metadata changes.  
-  
- **About background sync:**  
-  
--   Sync will run until you  sign in to the mobile app.  
-  
--   While the app is running in the background, sync is automatically enabled   when a network is detected .  
-  
--   While the app is running in the background, sync is automatically disabled when a network is disabled  
-  
--   When you bring the app to the  foreground, regular sync is detected and enabled.  
-  
--   Background sync is disabled when the device is locked and enabled when the device is unlocked.  
-  
--   While the app is running in the background,  metadata changes will not be accepted automatically. The mobile app will stop the background sync.  
-  
--   When you bring the app to the  foreground, you are prompted to accept the metadata changes.  
-  
--   While the app is running in the foreground, after metadata is updated, the app will switch to regular sync.  
-  
- Background sync will be disabled if:  
-  
--   Your user token expires in the background.  
-  
--   The application closes for some reason.  
-  
--   Your device locks.  
-  
- Background sync is available on all supported devices. See [Support for Dynamics 365 for phones and Dynamics 365 for tablets](https://technet.microsoft.com/library/dn531131.aspx).  
-  
-## Sync conflict resolution  
- If multiple entries are made in the same field by offline users (for example, two or more “close by” dates), the conflict is clearly marked and you can choose the correct entry.  
-  
- If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark ("!”) by the relevant field, and will need to resubmit your  updated changes.  
-  
-## Enhanced sync filters  
- Admins  can choose what information to sync to user's devices. This can help minimize impact to user's device's memory.  
-  
-> [!NOTE]
-> Make sure that you’re using the latest version of the mobile app For Advanced Filters to work offline.  
-  
- Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
-  
-|      |  
-|------|  
-|equal|  
-|not equal|  
-|gt – greater than|  
-|ge – greater than or equal to|  
-|le – less than or equal to|  
-|lt – less than|  
-|like|  
-|not-like|  
-|in|  
-|not-in|  
-|null|  
-|not-null|  
-|eq-userid|  
-|ne-userid|  
-|eq-userteams|  
-|eq-useroruserteams|  
-|eq-useroruserhierarchy|  
-|eq-useroruserhierarchyandteams|  
-|eq-businessid|  
-|ne-businessid|  
-|eq-userlanguage|  
-|begins-with|  
-|not-begin-with|  
-|ends-with|  
-|not-end-with|  
   
 ## Reconnect to go back online  
  Once you have phone service or Internet again, tap the offline indicator on your device to reconnect.  
@@ -143,23 +71,4 @@ manager: "brycho"
 ![Offline indicator: tap to reconnect](../../media/crm-ua-moca-offline-indicator.png "Offline indicator: tap to reconnect") 
   
  You’ll need to save your drafts to make them available in [[!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)].  
-  
-## For admins: Enhanced sync status for provisioning  
- **About enhanced sync status:**  
-  
--   Admins can see the status of provisioning and de-provisioning.  
-  
--   The mobile offline configuration page is auto-refreshed at regular intervals to show updated status messages during provisioning and de-provisioning.  
-  
--   You can stop provisioning at any stage during provisioning.  
-  
--   You can de-provision your organization only when the provisioning is complete.  
-  
--   De-provisioning of an organization can't be stopped once initiated.  
-  
--   You can initiate provisioning again only when de-provisioning is complete.  
-  
--   In  case of a provisioning or de-provisioning failure, consider retrying your provisioning before contacting support.  
-  
--   All the provisioning and de-provisioning messages will be shown on the mobile offline configuration page along with the date and timestamp of when the status was last checked.  
   
