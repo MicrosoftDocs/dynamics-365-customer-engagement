@@ -2,7 +2,7 @@
 title: "Capture leads generated on LinkedIn (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to use the connector to LinkedIn Lead Gen Forms, which imports leads from LinkedIn to Dynamics 365 for Marketing"
 keywords: "LinkedIn; Lead Gen Forms; lead; connector"
-ms.date: 03/26/2018
+ms.date: 03/27/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -28,7 +28,8 @@ To sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] and run c
 
 ## Establish a connection between [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Connector for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms and [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
-Before we can sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign accounts to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization, a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member with access to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], this user requires at least a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.
+Before we can sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign accounts to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization, a a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** needs to [assign securtiy roles to users and set up the matching strategy](linkedin-configuration.md) for new leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].    
+Additionally, a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member with access to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], this user requires at least a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.
 
 More information about assigning security roles to users: [TechNet: Create users and assign Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx)
 
@@ -69,12 +70,12 @@ When you create your own dashboard, consider adding a chart for the record type 
 
 ### Analyze individual [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen forms and submissions
 
-To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members when they answered the underlying [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen form. LinkedIn Lead Gen Forms refer to the ad campaigns on LinkedIn that generate leads. Every campaign creates a new lead genform, while answers to the campaigns are captured as LinkedIn Form Submissions. 
+To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members when they answered the underlying [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen form. [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms refer to the ad campaigns on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] that generate leads. Every campaign creates a new lead genform, while answers to the campaigns are captured as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Form Submissions. 
 
-## See the sync status for LinkedIn data 
+## See the sync status for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 
-When you go to **Marketing** > **LinkedIn Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all LinkedIn user profiles to Dynamics 365. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated in total. 
+When you go to **Marketing** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** > **Sync Status**, you'll find an aggregated overview about the data that was pulled from all [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profiles to Dynamics 365. At a glance, you can see when the most recent synchronization took place and find out how many leads were created or updated in total. 
 
 ### See also
-
+[Configure LinkedIn Lead Gen](linkedin-configuration.md)
 [Manage customer information](manage-customer-information.md)
