@@ -81,9 +81,10 @@ After you activate the [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile lice
 
 5.  Select **Submit** to submit the support ticket to Microsoft. You'll receive a support request number and estimated response time. 
         
-You can track the incident request online at [support.microsoft.com/my/supportrequests](https://support.microsoft.com/my/supportrequests). 
+You can track the status of the support ticket online at [support.microsoft.com/my/supportrequests](https://support.microsoft.com/my/supportrequests). 
 
-After the request is completed, you can assign the licenses to users. More information: [Purchase and assign Dynamics 365 (online) licenses](https://docs.microsoft.com/dynamics365/customer-engagement/admin/purchase-assign-online-licenses)
+##Assign [!INCLUDE[pn-resco](../includes/pn-resco.md)] mobile licenses to users
+After the support request is completed, you can assign the licenses to users. More information: [Purchase and assign Dynamics 365 (online) licenses](https://docs.microsoft.com/dynamics365/customer-engagement/admin/purchase-assign-online-licenses)
 
 > [!NOTE]
 > We've provided a downloadable Excel spreadsheet which you can fill in with the details and then upload with the support ticket, if you prefer. If you have more than one instance, include the org ID and the number of mobile licenses to be allocated for each one.
