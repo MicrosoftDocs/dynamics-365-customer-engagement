@@ -1,22 +1,24 @@
 ---
 title: "Social Engagement scenarios for the marketing department | Microsoft Docs"
 description: "Review marketing scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
-ms.date: 09/12/2017
+keywords: ""
+ms.date: 03/27/2018
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: f19b9b6d-bb95-4c8d-bb3c-a4f98504e514
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
-ms.manager: sakudes
+manager: sakudes
+topic-status: Drafting
 ---
+
 # Manage your brand and reputation on social media
 
 To successfully manage the reputation of your brand, it's essential to monitor the conversations about it on social media. Find out how the public perception of your brand is evolving and how you can actively engage with your customers.
 
 This overview provides a step-by-step description of how you and your team can use [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to monitor your brand reputation, review the performance of social media campaigns, engage with prospects, and find new leads for your sales team.
-
-> [!VIDEO https://www.youtube.com/embed/Pq33FohGXEE]
 
 ## Prerequisites
 
@@ -47,8 +49,6 @@ Campaigns on social media often revolve around a specific term, for example a ha
 2. [Create an activity map](activity-maps.md) to see newly found posts on a map with location data in real time.
 
 3. Review the sentiment of posts that mention your brand on the [Sentiment page in Analytics](analytics-sentiment.md).
-
-> [!VIDEO https://www.youtube.com/embed/yoVW4izGGa8]
 
 ## Find leads for the sales team
 
