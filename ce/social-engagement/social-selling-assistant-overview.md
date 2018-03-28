@@ -1,15 +1,19 @@
 ---
 title: "Empower your salespeople with the Social Selling Assistant | Microsoft Docs"
 description: "Get an overview on the Social Selling Assistant."
-ms.date: 09/12/2017
+keywords: ""
+ms.date: 03/28/2018
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 98a20ce9-1374-4a52-a9a6-987fb75451e6
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Empower your salespeople with the Social Selling Assistant
 
 ## Meet Microsoft Dynamics 365 for Sales - Social Selling Assistant
@@ -18,6 +22,7 @@ manager: sakudes
 
  A few minutes per day is all you need to keep the conversations going and grow your network. Wherever you work, regardless of the device, you’ll always have the relevant information right at your fingertips. Harnessing the power of the machine learning, the Social Selling Assistant provides smart and personalized recommendations for shareable content based on social data gathered with [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].
 
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/5ba0f282-0d81-4144-9673-5f865d4a71df" frameborder="0" allowfullscreen=""></iframe></div>
 
  Can’t wait to try it out? Make sure have a system administrator or customizer security role in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and take the fast-track to set up and configure the Social Selling Assistant.
   
