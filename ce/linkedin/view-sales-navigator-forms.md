@@ -27,7 +27,7 @@ To use the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator c
 3. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to Lead forms, you'll find the controls embedded on the form.
 
 > [!NOTE] 
-> If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the Sign in button in the control and give the requested permissions to the app. 
+> If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** button in the control and give the requested permissions to the app. 
 > ![Sign in to LinkedIn Sales Navigator dialog box](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
 
 ## Work with the Sales Navigator controls
