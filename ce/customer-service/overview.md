@@ -50,7 +50,6 @@ If you're using a desktop browser, you'll see the Customer Service app and the C
 
 ![open-sitemap](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
-[//]: # (There's no token - yet? - for Dynamics 365 for phones and tablets, but there are two separate tokens for the two flavors. I'm not sure what to do here.)
 If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the Customer Service Hub app in the app switcher as shown here:
 
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
