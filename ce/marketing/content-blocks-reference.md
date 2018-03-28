@@ -73,6 +73,8 @@ When you select a button block, you can use an inline toolbar to style the butto
 
 This section describes content blocks that are only available when you are designing a marketing email message.
 
+<a name="event-blocks"></a>   
+
 ### Marketing-page, event, and survey blocks
 
 Each of these types of blocks creates a colorful button in a new row (outside a text block) that links to a page, event, or survey (depending on the block type). The button is created using pure HTML text and styling only (no image files), and acts as a link to the page, event, or survey you define for it.
