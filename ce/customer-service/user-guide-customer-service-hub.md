@@ -58,7 +58,7 @@ Refer below to know how the Customer Service Hub app complies to accessibility a
 
 - [Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)
 - [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
-- [Keyboard navigation support for the Customer Service Hub](../keyboard-shortcuts/keyboard-navigation-support-customer-service-hub.md)
+- [Keyboard navigation support for the Customer Service Hub](keyboard-navigation-support-customer-service-hub.md)
 
 ### See also
   
