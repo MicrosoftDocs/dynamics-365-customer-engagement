@@ -10,6 +10,7 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: "mduelae"
 ms.assetid: 02a2310b-efb1-4418-8af6-28dc8c243f6c
 caps.latest.revision: 17
 ms.author: "mkaur"

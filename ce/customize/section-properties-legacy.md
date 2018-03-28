@@ -53,4 +53,4 @@ When you insert a reference panel, by default it’s added as a last section in 
 
 ## See also
 
-[Use the Main form and its components](../customer-service/use-main-form-and-components.md)
+[Use the Main form and its components](../customize/use-main-form-and-components.md)

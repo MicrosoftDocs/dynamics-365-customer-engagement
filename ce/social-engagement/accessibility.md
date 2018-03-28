@@ -2,7 +2,7 @@
 title: "Accessibility for Social Engagement | Microsoft Docs"
 description: "Learn about accessibility features in general and specifically in Social Engagement."
 keywords: "ease of access, accessibility, a11y, screen reader, color patterns"
-ms.date: 01/18/2018
+ms.date: 02/27/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -92,7 +92,7 @@ To use the area filter with a keyboard, select Tab until you reach the **Area fi
 
 Commonly used screen readers are supported, empowering the blind, visually impaired, or people with learning disabilities. 
 
-- [Learn more about working with Microsoft Narrator](https://support.microsoft.com/en-us/help/22798)
+- [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
 - [Learn more about working with NVDA](https://www.nvaccess.org/help/)
 

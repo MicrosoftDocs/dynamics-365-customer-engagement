@@ -1,6 +1,6 @@
 ---
 title: "execute (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 03/20/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -13,11 +13,14 @@ manager: "amyla"
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[./includes/execute-description.md](./includes/execute-description.md)] 
+[!INCLUDE[./includes/execute-description.md](./includes/execute-description.md)]
+
+> [!NOTE]
+> This method isn't supported for [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps). Also, this method is supported only for the online mode, which implies that you must use the [Xrm.WebApi.online](online.md) object to execute the method. Otherwise, it will fail.
 
 ## Syntax
 
-`Xrm.WebApi.execute(request).then(successCallback, errorCallback);`
+`Xrm.WebApi.online.execute(request).then(successCallback, errorCallback);`
 
 ## Parameters
 
@@ -131,7 +134,7 @@ var opportunityClose = {
 var winOpportunityRequest = new Sdk.WinOpportunityRequest(opportunityClose, 3);
 
 // Use the request object to execute the function
-Xrm.WebApi.execute(winOpportunityRequest).then(
+Xrm.WebApi.online.execute(winOpportunityRequest).then(
     function (result) {
         if (result.ok) {
             console.log("Status: %s %s", result.status, result.statusText);
@@ -170,7 +173,7 @@ Sdk.WhoAmIRequest = function () {
 var whoAmIRequest = new Sdk.WhoAmIRequest();
 
 // Use the request object to execute the function
-Xrm.WebApi.execute(whoAmIRequest).then(
+Xrm.WebApi.online.execute(whoAmIRequest).then(
     function (result) {
         if (result.ok) {
             console.log("Status: %s %s", result.status, result.statusText);

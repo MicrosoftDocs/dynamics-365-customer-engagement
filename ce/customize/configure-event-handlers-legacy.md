@@ -42,7 +42,7 @@ ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0
   
 1.  In the form editor, select the element with the event you want to configure a handler for.  
   
-2.  On the [Home tab](../customize/form-editor-user-interface-legacy.md#BKMK_HOMETab), in the **Edit** group, click **Change Properties** or simply double-click the element.  
+2.  On the [Home tab](form-editor-user-interface-legacy.md#home-tab), in the **Edit** group, click **Change Properties** or simply double-click the element.  
   
 3.  In the element properties dialog, select the **Events** tab.  
   
@@ -103,4 +103,4 @@ ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0
 
 ## See also
 
-[Use the Main form and its components](../customer-service/use-main-form-and-components.md)
+[Use the Main form and its components](../customize/use-main-form-and-components.md)

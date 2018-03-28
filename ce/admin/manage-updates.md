@@ -51,8 +51,16 @@ You have options for when you update your Dynamics 365 Online organization to [!
   
  We enhanced the customer experience by giving customers the ability to provide consent prior to updating their organization. Customers today have a wide choice of days to choose from to best suit their business, and we will continue to provide that flexibility for service updates. Customers have the choice to take the two updates as they become available, or take only one update per year. If a customer chooses to take only one update per year, this update becomes mandatory and the customer will be required to take the update during the available dates for that release.  
   
- In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2) and chose not to take the available [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n-1), then you would need to take [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] (n) as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
-  
+ In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on **n-2** and chose not to take the available **n-1**, then you would need to take **n** as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
+
+Here are the recent versions.
+
+|  |Version  |Name  |
+|---------|---------|---------|
+|n     |9.0         |Dynamics 365, version 9.0         |
+|n-1     |8.2         |Dynamics 365, version 8.2         |
+|n-2     |8.1         |Microsoft Dynamics CRM Online 2016 Update 1          |
+
 <a name="BKMK_Scenarios"></a>   
 
 ## Update scenarios  
@@ -389,6 +397,9 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 > [!NOTE]
 >  “All Admins” includes [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrators and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Global administrators.  
+
+## Notice about Online Policies
+Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
   
 ### See also  
  [Policies and Communications for Dynamics 365 (online)](../admin/policies-communications.md)    

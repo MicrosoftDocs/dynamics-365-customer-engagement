@@ -14,6 +14,7 @@ caps.latest.revision: 15
 author: "m-hartmann"
 ms.author: mhart
 manager: sakudes
+redirect_url: https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters
 ---
 # Perform visual filtering on widgets
 In addition to viewing the analytics for the current data set, you can efficiently work with widgets by applying filters to see the data that matters most to you.  

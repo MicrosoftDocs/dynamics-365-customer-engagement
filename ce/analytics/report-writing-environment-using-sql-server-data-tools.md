@@ -47,8 +47,10 @@ This topic describes what’s needed to author [!INCLUDE[pn_dynamics_crm](../inc
   
 - **[!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)]** . This is required if you are writing custom Fetch-based reports. Notice that [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] only supports Fetch-based reports. [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] must be installed on the computer where [!INCLUDE[pn_Visual_Studio](../includes/pn-visual-studio.md)] and [!INCLUDE[pn_sql_server_data_tools](../includes/pn-sql-server-data-tools.md)] are installed. [Download: CRM 2016 Report Authoring Extension](http://go.microsoft.com/fwlink/?LinkID=624672). For installation instructions, see [Install Microsoft Dynamics CRM Report Authoring Extension](https://technet.microsoft.com/library/hh699675.aspx).  
   
+
 > [!NOTE]
-> [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] is available only in a 32-bit version.  
+> - You can’t use SQL Server Reporting Services Report Builder to author FetchXML reports. The Dynamics 365 Report Authoring Extension for SQL Server Data Tools is used to author FetchXML reports.
+> - [!INCLUDE[pn_crm_fetch_extension](../includes/pn-crm-fetch-extension.md)] is available only in a 32-bit version.  
   
 ## Required privileges  
  To deploy custom reports to [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you must have a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] account and a security role assigned to you that includes the **PublishReport** privilege. By default, the System Customizer and System Administrator security roles include these privileges.  

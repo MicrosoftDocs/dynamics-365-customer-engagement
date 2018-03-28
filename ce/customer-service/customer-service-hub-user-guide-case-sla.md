@@ -22,9 +22,8 @@ You can capture important information about customers, interactions you’ve had
 
 Watch this video to learn more about case management in the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/Y_eV4HeIm04?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
   
-
 ## Create a case  
   
 1.  Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.  
@@ -41,7 +40,7 @@ Watch this video to learn more about case management in the Customer Service Hub
     - Select **Assign** to assign a case to another owner.
     - Select **Add to Queue** to add a case to a queue.  
  
-    ![active-case-view](media/active-case-view.png)
+    ![active-case-view](media/active-case-view.png "Active case view")
   
 3.  On the command bar, select **New Case**.  Alternatively, you can quickly create a new case by selecting ![quick-create-case](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
     
@@ -97,7 +96,7 @@ Watch this video to learn more about case management in the Customer Service Hub
        - Select **Create Child Case** to create a child case
        - Select **...** in the command bar to explore more options for the case.
 
-    ![completed-case](media/completed-case.png "completed case form")
+    ![completed-case](media/completed-case.png "Completed case form")
   
 
 ## Track SLA details with Timer Control  
@@ -113,7 +112,7 @@ Only the failure time is tracked and saved on the case record. You can ask your 
 ### Case form with Enhanced SLA applied 
 When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record is created for each SLA KPI that is tracked for that case. On the **Summary** tab of the case record, you’ll see a timer that shows the time remaining to meet each SLA KPI.<br /><br /> ![Timer showing time left to achieve SLA KPI](../customer-service/media/v9-1-enhancedslatimer-case-form.png "Timer showing time left to achieve SLA KPI")<br /><br />When a service rep puts a case on hold, the status of the SLA KPI Instance is set to **Paused**. You can see the time for which a case was on hold and the last time the case was put on hold. These details are not available on the case form by default, but your system customizer can add these fields on the case form for you. 
 
-![sla-paused](media/sla-paused.png)
+![sla-paused](media/sla-paused.png "SLA paused")
 
 The on-hold time is the time for which the case was set to a status that you defined as an **On-Hold** status in the **System settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](../admin/system-settings-dialog-box-service-tab.md)<br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case is on hold<br /><br /> If the service rep puts the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
 
@@ -145,7 +144,7 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 |-|-|-|  
 |**To**|**Do this**|| 
 |Enter a note |  Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.|
-|View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png) |
+|View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png "What's new in Timeline") |
 |Create a new interaction|In the **Timeline** section, select **+**, and then select an interaction type: Activity, Appointment, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To draft an email in the email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
 |Filter activities|1.  In the **Timeline** section, select  **(...)**  and select **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
 |Take actions on an activity|For an activity, select the **Quick Actions** button ![Select the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Select the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
@@ -170,7 +169,7 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 > [!IMPORTANT]
 >  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
   
-  ![knowledge-article-search](media/case-form-search-rp.png) 
+  ![knowledge-article-search](media/case-form-search-rp.png "Knowledge article search") 
   
 -   Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
   
@@ -419,3 +418,6 @@ Your system administrator can enable entities other than case for SLA. For the C
 ### See also
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
+
+
+[Use the Main form and its components](../customize/use-main-form-and-components.md)
