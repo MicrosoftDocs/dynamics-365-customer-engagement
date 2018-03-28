@@ -69,9 +69,17 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
   
 1.  Go to **Sales** > **Opportunities**.  
   
-2.  Click on the **Charts** bar on the right side of the list to slide out the charts pane.  
+2.  Select **My Open Opportunities by Relationship** view from the view drop down.<br>
+    ![Select my open opportunities view](../admin/media/relationship-insights-my-open-opportunities-relationship.png "Select my open opportunities view") 
+
+3.  Select **Show Chart** from the command bar.<br>
+     ![Select show chart option](../admin/media/relationship-analytics-show-chart.png "Select show chart option") 
   
-3.  Open the drop-down list at the top of the charts pane and choose **Relationship Pipeline** to open the chart.  
+4.  Open the drop-down list at the top of the charts pane and choose **Relationship Pipeline**.  <br>
+    ![Select relationship pipeline chart](../admin/media/relationship-analytics-select-relationship-pipeline.png "Select relationship pipeline chart") <br>
+    The relationship pipeline chart is displayed as show below.<br>
+    ![Relationship pipeline chart](../admin/media/relationship-analytics-relationship-pipeline-chart.png "Relationship pipeline chart") 
+
   
 Each upcoming opportunity is plotted as a bubble on the chart. The size of each bubble indicates the estimated revenue of its opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. Therefore, the most critical opportunities are those with the largest bubbles located near the bottom-left corner, while the most promising opportunities are probably those near the top of the chart.  Hover your mouse cursor over a bubble to see the name of the opportunity and few other details. Click on a bubble to open its associated opportunity record. Relationship health is also indicated by the color of each bubble, with green for good, yellow for fair, red for poor, and gray for zero (which probably indicates that the results have not yet been calculated, or that there is not yet enough data for the calculation).  
   
@@ -90,39 +98,25 @@ The relationship pipeline chart relies on several values being available for eac
 <a name="AnalyzeHealth"></a>   
 
 ## Analyze the health and activity history of a customer or opportunity  
- Complete relationship analytics are provided when you view an individual record, including graphs, KPIs, email interaction history, full activity history, and relationship health. These details are provided in two expandable sections when you are viewing an individual record (such as a specific opportunity).  
+ Complete relationship analytics are provided when you view an individual record, including graphs, KPIs, email interaction history, full activity history, and relationship health. These details are provided in two expandable sections when you are viewing an individual record (such as a specific opportunity).  <br>
+ 
+ ![Activity analysis details](../admin/media/activity-analysis-details.png "Activity analysis details") 
+  <br>
+**Relationship health and trend:** Shows your overall relationship health with the customer associated with the current record, and includes the recent trend.  <br>
+- **Next interaction:** Shows the date and time for next activity that is scheduled for the current record. If you have access to that activity, then you'll also see it's name or subject. The next and last interactions are only shown for opportunity and lead entities.  <br>
+- **Last interaction:** Shows the date and time for the last activity that you completed for the current record.  If you have access to that activity, then you'll also see it's name or subject. The next and last interactions are only shown for opportunity and lead entities.  <br>
   
- The **Relationship Health** section provides information that is similar to that provided in the list view, as shown in the following figure.  
+**All interactions:**  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type such as emails, meetings, and phone calls.<br>  
   
- ![Relationship health details](../admin/media/relationship-health-detail.png "Relationship health details")  
+**Time spent:** Shows the relative amount of time spent on activities related to the current record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  <br>
   
- The figure highlights the following relationship analytics elements:  
+**Email engagement:** Provides a summary of how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](../admin/email-engagement.md)  <br>
   
-1. **Relationship Health heading**: Click here to expand or collapse the relationship health details.  
+**Most contacted:** Provides statistics about the external contacts who most contacted by internal contacts. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the external contacts even if they are not part of the record’s users. <br>
+
+**Most contacted by:** Provides statistics about the internal contacts who most contacted external contacts. These contacts may include external users who are heavily involved with the internal contacts even if they are not part of the record’s users. <br>
   
-2. **Relationship Analytics heading**: Click here to expand or collapse the activity analytics display (see the next figure for details).  
-  
-3. **Relationship health score and trend**: Shows your overall relationship health with the customer associated with the current record, and includes the recent trend.  
-  
-4. **Next interaction**: Shows the date and time for next activity that is scheduled for the current record. If you have access to that activity, then you'll also see it's name or subject. The next and last interactions are only shown for opportunity and lead entities.  
-  
-5. **Last interaction**: Shows the date and time for the last activity that you completed for the current record.  If you have access to that activity, then you'll also see it's name or subject. The next and last interactions are only shown for opportunity and lead entities.  
-  
-The **Relationship Analytics** section provides detailed analytics, many of which are not available elsewhere, as shown in the following figure:  
-  
-![Activity analysis details](../admin/media/activity-analysis-details.png "Activity analysis details")  
-  
-The figure highlights the following relationship analytics elements:  
-  
-1. **Overall interaction summary**:  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type.  
-  
-2. **Time spent**: Shows the relative amount of time spent on activities related to the current record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  
-  
-3. **Email engagement results**: Provides a summary of how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](../admin/email-engagement.md)  
-  
-4. **Principle actors**: Provides statistics about the people who have been most active working with the current record, including specific people on your team and on the customer side.  
-  
-5. **Activity timeline**: Provides a more detailed look of activities over time, broken down by activity type, date, who initiated them (your team or your customer).  
+**Relationship activities**: Provides a more detailed look of activities over time, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  
   
 <a name="Calculations"></a>   
 
