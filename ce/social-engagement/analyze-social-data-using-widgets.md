@@ -2,7 +2,7 @@
 title: "Analyze social data with widgets in Social Engagement | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
 keywords: "widgets, analytics, get started"
-ms.date: 03/09/2018
+ms.date: 03/27/2018
 ms.service: mse
 ms.topic: get-started-article
 applies_to:
@@ -25,8 +25,6 @@ The **Analytics** area helps you to analyze social data and displays widgets bas
 You can further [filter the displayed data](use-filters.md) to perform more detailed and focused analysis or [use the data set for other areas of Social Engagement](more-options-with-data-set.md). If no posts are available or match your filters, widgets display no metrics and an error message.
   
 Widgets in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provide you with [drill-down functionality to narrow your data set](use-filters.md#drill-down-into-data-and-apply-filters-from-widgets). Click a data point to get a more detailed view of the data.  
-  
-> [!VIDEO https://www.youtube.com/embed/pcxVyYz-zps]
   
 **Use Analytics widgets to**:  
 

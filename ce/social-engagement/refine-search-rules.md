@@ -20,8 +20,7 @@ Analyze your results and optimize your search queries regularly to make sure you
 > [!TIP]
 >  This topic is part of a walkthrough on how you can set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
   
-> [!VIDEO https://www.youtube.com/embed/3HoeVROsJZk]
-  
+ 
  Terms and sources change. New abbreviations may gain popularity, or news about your topic will be defined in a different way with different words. A recommended approach is to read carefully through new and important posts to identify emerging topics or changes in wording.  
   
 > [!NOTE]
