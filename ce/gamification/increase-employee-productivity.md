@@ -1,25 +1,29 @@
 ---
 title: "Increase employee productivity with Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn how to drive results and keep your employees engaged while having fun."
-ms.custom: ""
-ms.date: 05/31/2017
-ms.reviewer: ""
+keywords: ""
+ms.date: 03/27/2018
 ms.service: gamification
-ms.suite: ""
-ms.tgt_pltfrm: ""
+ms.custom: 
 ms.topic: home-page
-applies_to: Dynamics 365 (online)
+applies_to:
+  - "Dynamics 365 (online)"
 ms.assetid: 6a70c280-4e08-4382-bb53-af82d0bfa9fb
-caps.latest.revision: 26
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+caps.latest.revision: 26
+topic-status: Drafting
 ---
+
 # Keep your employees engaged and productive by using Gamification
 
 Driving results is a key factor for a successful business. [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] helps you to keep your employees engaged and motivated to deliver their best performance.
 
-> [!VIDEO https://www.youtube.com/embed/Nl3H4xl3e84]
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/2ab672e9-e374-4c76-b662-003fa68dfa59" frameborder="0" allowfullscreen=""></iframe></div>
 
 Everyone can participate in contests, regardless of their role in the company. Participants can win awards, prizes, and bragging rights, which are helpful external motivators to drive their impact on business results. When you make teams, you create healthy competition among colleagues and foster team spirit.  
 
