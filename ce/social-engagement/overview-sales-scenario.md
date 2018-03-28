@@ -30,8 +30,6 @@ This overview suggests ways you and your team can use [!INCLUDE[Social Engagemen
 
 Learn how to install, configure, and personalize the Social Selling Assistant to increase your presence on social media.
 
-> [!VIDEO https://www.youtube.com/embed/B0tcV0piZbI]
-
 1. [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md).
 
 2. [Add your social profiles](manage-social-profiles.md) to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
