@@ -17,7 +17,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Preview feature: Enable and use activity logging
+# Preview feature: Enable and use activity logging 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -70,6 +70,8 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |All support CRUD activities     |Microsoft support engineer activities on customer environment.|
 |Admin activities     |Admin activities on customer tenant.|
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
+
+### MSE entities
 
 ## Base schema
 Schemas define which Dynamics 365 fields are sent to the Office 365 Security and Compliance Center. The following are some fields common to all applications that send audit data to Office.
