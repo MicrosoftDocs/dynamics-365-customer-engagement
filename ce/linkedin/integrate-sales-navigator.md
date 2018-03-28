@@ -34,7 +34,7 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead**
 
 The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile. This control has four modules, which can be mixed and matched: 
 
-- **Top Card**: shows information about the company like company name, industry, location and more. Additionally, provides capabilities to view the related account and save it in Sales Navigator. 
+- **Top Card**: shows information about the company like company name, industry, location, and more. Additionally, provides capabilities to view the related account and save it in Sales Navigator. 
 
 - **News**: shows the latest news of this company. 
 
