@@ -89,7 +89,7 @@ To enable searches and collect posts, add one or more rules to a search topic.
 6.  Select **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
     > [!IMPORTANT]
-    >  The solution checks the quota availability for the new rule and prompts you accordingly. If your quota can't accommodate the new rule, you can't save it.  
+    >  The solution checks the quota availability for the new rule and prompts you accordingly. If your quota can't accommodate the new rule, you can't save it. Additionally, you'll find a preview of posts on [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] matching your rule.   
   
 7.  In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
   

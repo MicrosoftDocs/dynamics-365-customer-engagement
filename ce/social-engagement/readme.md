@@ -2,7 +2,7 @@
 title: "Social Engagement 2018 Update 1.3 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 03/15/2018
+ms.date: 03/28/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -99,11 +99,6 @@ Location data is supported on all **News** posts, and partially on **Twitter**
 and **Forums**. The **Location** page displays only posts that contain location
 information, which might cover a subset of your data.
 
-### Drill-down functionality isn’t available in the Top Cities widget
-
-You cannot drill down for more data in the **Top Cities** widget. Filtering on
-the city level is not supported.
-
 ### Analytics does not display social profiles added in the same session until you refresh your browser
 
 If you add a social profile and then go straight to **Analytics**, the social
@@ -120,19 +115,6 @@ the referred topic will not be displayed in your search topics page or on the
 are still counted toward your quota for the current month. The total number of
 posts on the **Quota Manager** page might be higher than the sum of all search
 topics.
-
-### Post Preview on Search Setup contains only Twitter data
-
-When you configure keywords rules for search topics, you get not only
-quantitative feedback on the number of posts that are expected to be found with
-the configured rule, but also qualitative feedback through a preview of posts
-that match the configured rule. The posts shown are exclusively from Twitter.
-All other sources will not show qualitative feedback. Qualitative feedback will
-be missing if you do not select Twitter as the source.
-
-Posts shown with qualitative feedback are not automatically downloaded and
-available in Social Engagement. Although it’s possible that the shown posts will
-be downloaded after the search topic has been saved, this is not guaranteed.
 
 ### When you authenticate to Dynamics 365, and to Twitter and Facebook, pop-up windows are blocked in the browser
 
@@ -185,21 +167,6 @@ taking this action:
     Because there is no way to hide a stream, we recommend that you use this
     option with restraint.
 
-### Some filter configurations return zero search results
-
-The Social Engagement filter set provides a variety of filters. It’s possible to
-apply filter combinations in the Social Engagement apps that will always result
-in zero search results, because the combination contains filters that
-contradict. For example, if you apply the sources filter *News* and then apply
-the post type filter *share*, this will always result in zero results, because
-post type filter *share* is applicable only to Twitter and Facebook posts, which
-are filtered out if you have an active *News* filter.
-
-You might configure other invalid combinations of acquisition filters during
-search topics setup and when you apply application filters. For example, if you
-set up a search topic that acquires only *English* rules and you apply a
-*French* language filter, the application will always return zero results.
-
 ### Notifications that trigger multiple actions might overlap
 
 When you perform multiple actions within a short timeframe, notification
@@ -220,11 +187,6 @@ non-existing ID, the widget will stop loading. As a work around, we suggest that
 you reload the page and make sure you have a valid Search topic ID. To do that,
 look for the Search topic in the Microsoft Social Engagement Analytics page's
 URL.
-
-### Parts of Author details for Twitter can be blocked by AdBlock
-
-When you use the Chrome browser with the AdBlock extension, the Author details
-view in Social Engagement will not show the Twitter timeline widget.
 
 ### Facebook Acquisition Notification in Analytics does not always disappear
 
