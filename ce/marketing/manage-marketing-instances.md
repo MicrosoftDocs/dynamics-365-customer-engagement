@@ -67,6 +67,12 @@ For details about how to copy a production instance to a sandbox and then run th
 
 For standard (non-[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must completely uninstall it first as described in [Uninstall Marketing from a Dynamics 365 instance](uninstall-marketing.md).
 
+## Change the URL for an instance
+
+For standard (non-[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, _you can't currently do this if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed_. 
+
+Do not attempt to change the URL for a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance.
+
 <a name="copy-to-sandbox"></a>
 
 ## Copy your current production instance to a sandbox
