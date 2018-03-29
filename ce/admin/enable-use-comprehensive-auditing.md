@@ -77,23 +77,30 @@ The following Microsoft Social Engagement (MSE) entities and actions are logged.
 
 |MSE entity  |MSE pages/panels/controls logged  |
 |---------|---------|
-|Search Topic Category      |Search Setup. Filter controls for Search Topics.          |
-|Search Topic      |Search Setup. Search Topic Details. Filter controls for Search Topics.          |
-|Custom Source      |Custom Sources. Filter controls for Sources.          |
-|Blocked Keyword      |Blocked Content -> Keywords panel.          |
-|Blocked Domain      |Blocked Content -> Domains panel.          |
-|Stream      |Stream Settings.          |
-|Activity Map      |Activity Maps. Activity Maps Details.          |
-|Alert      |Message Center. Alert Details.          |
-|Preference      |Personal Settings. User Roles. Your Preferences.          |
-|Social Profile      |Social Profiles. Profile Details.          |
-|User      |Users. Edit User Role.          |
-|Azure Event Hubs      |Connections. Azure Event Hubs Connections. Connection Details.          |
-|Dynamics 365      |Dynamics 365 Connections. Connection Details.          |
-|Allowed Domain      |Allowed Domains.          |
-|Automation Rule      |Automation Rules. Edit/View Rule. Edit/View Action. Rules History.          |
-|Tag      |Global Settings -> Auto Tags. Custom Tags. Tag Details.          |
-|Other Global Settings      |Default Preferences. Search Languages. Sentiment. Labels. Location Groups. Privacy.          |
+|Search Topic Category      |Create, Rename, Delete          |
+|Search Topic      |Create, Update, Delete          |
+|Custom Source      |Create, Update, Delete           |
+|Blocked Keyword      |Add, Delete          |
+|Blocked Domain      |Add, Delete          |
+|Stream      |Create, Update, Delete         |
+|Post (acquired)   |Internal & External Actions   |
+|Post (published)   |Send   |
+|Author   |Add (GDPR), Delete (GDPR), Delete   |
+|Activity Map   |Create, Update, Delete   |
+|Alert   |Create, Update, Delete   |
+|Preference   |Update   |
+|Social Profile   |Create, Update, Reauthenticate, Delete   |
+|User   |Edit Role, E-mail   |
+|Azure Event Hubs   |Create, Update, Delete   |
+|Dynamics 365   |Create, Update, Refresh, Delete   |
+|Allowed Domain   |Add, Delete   |
+|Automation Rule   |Create, Update, Delete   |
+|AR Notification   |Enable, Disable   |
+|Tag   |Add, Update, Delete   |
+|Label   |Add, Update Delete    |
+|Search Language   |Add, Delete   |
+|Adaptive Sentiment   |Enable, Disable, Reset   |
+|Other Global Settings   |Update   |
 
 ## Base schema
 Schemas define which Dynamics 365 fields are sent to the Office 365 Security and Compliance Center. The following are some fields common to all applications that send audit data to Office.
