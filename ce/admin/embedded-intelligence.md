@@ -39,8 +39,8 @@ For information about how to enable these features, see [Configure and enable em
     
 <a name="Assistant"></a>   
 
-## The relationship assistant automatically shows you the right information at the right time  
- The relationship assistant is constantly at work, keeping an eye on your activities, records, and communications with customers. It analyzes your daily actions and communications and uses them to drive insights that help you focus on what’s important today, and how to optimize your communications to help nurture healthy business relationships going forward.  
+## Get right information at the right time  
+The relationship assistant is constantly at work, keeping an eye on your activities, records, and communications with customers to automatically show you the right information at the right time. It analyzes your daily actions and communications and uses them to drive insights that help you focus on what’s important today, and how to optimize your communications to help nurture healthy business relationships going forward.  
   
  ![Relationship assistant](../admin/media/relationship-assistant.png "Relationship assistant")  
   
