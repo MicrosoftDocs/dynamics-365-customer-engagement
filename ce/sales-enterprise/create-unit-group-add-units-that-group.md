@@ -26,11 +26,11 @@ topic-status: Drafting
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
- In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
+ In [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
 ## Create a unit group and add units (Sales Hub app)
 
-In [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], creating a unit group or adding units isn't supported in the Sales Hub app. To create or edit a unit group and unit, use the Sales app.
+Currently, creating a unit group or adding units isn't supported in the Sales Hub app. To create or edit a unit group and unit, use the Sales app.
 
 
 ## Step 1: Create a unit group (Sales app)

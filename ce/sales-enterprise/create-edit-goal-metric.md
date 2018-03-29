@@ -32,7 +32,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 > Currently, you can't create a goal metric in the Sales Hub app. To create a goal metric, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
 
-## Create a goal metric query (Sales app)
+## Create a goal metric (Sales app)
   
 [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   

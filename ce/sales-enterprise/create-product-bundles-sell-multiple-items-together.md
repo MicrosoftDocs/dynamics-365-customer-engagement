@@ -69,7 +69,7 @@ Encourage customers to buy more products instead of a single product by combinin
   
     - **Default Unit**. Select the most common unit in which the product will be sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit. 
 
-    [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
+      [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a unit group and add units to that group](../sales-enterprise/create-unit-group-add-units-that-group.md)  
 
     - **Default Price List**. If this is a new product, this field is read-only. Before you can select a default price list, you must complete all the required fields, and then save the record. Although the default price list is not required, after you save the product record, it is a good idea to set a default price list for each product. Then, if a customer record does not contain a price list, [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] can use the default price list for generating quotes, orders, and invoices.
 
@@ -95,7 +95,7 @@ Encourage customers to buy more products instead of a single product by combinin
   
     - **Unit**. Select the unit in which you want to sell the product.  
   
-8. Select **Save and Close**.  
+8. Select **Save & Close**.  
   
 9. To change properties of an individual product in the bundle, select **Edit Properties** corresponding to the product, and change the values as required.  
   
@@ -108,7 +108,7 @@ Encourage customers to buy more products instead of a single product by combinin
 
   > Price lists and price list items are not supported in the apps built on Unified Interface framework. You can't create or add price list items in the Sales Hub app. To do this, use the Sales app instead. 
 
-## Pricing of bundles  (Sales Hub)
+## Pricing of bundles  (Sales Hub app)
  Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered as zero.  
   
 > [!TIP]
@@ -169,12 +169,12 @@ Encourage customers to buy more products instead of a single product by combinin
   
 13. In the **Product Relationships** section, select ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button"), and select a related product. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](../sales-enterprise/define-related-products-increase-chances-sales.md)  
   
-## Pricing of bundles  (Sales)
+## Pricing of bundles (Sales app)
  Typically, the pricing of products in bundles is different than the individual products. You can set a total and potentially discounted price for the bundle or if the bundle has optional products, add those products to the price list as price list items. Then the total for a bundle in an opportunity is calculated by adding up the prices for each price list item, including optional bundle products that your customer selects. If you don't add an optional product in the price list, its price will be considered as zero.  
   
 > [!TIP]
 >  -   After you're done adding all the details, select **Preview** on the command bar to look through the properties of the product bundle.  
-> -   To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for the name and ID.  
+>  -   To create a new product bundle based on an existing one, on the command bar, select **Clone**. This opens a new product bundle record with the same information as the original product bundle record, except for the name and ID.  
   
 ## Typical next steps:  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create price lists and price list items to define pricing of products](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md)  

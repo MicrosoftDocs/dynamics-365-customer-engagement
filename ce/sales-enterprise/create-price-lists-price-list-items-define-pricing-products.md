@@ -31,7 +31,7 @@ Price lists tie the unit, product, and pricing details together, so before you c
 
 ## Create a price list and add price list items (Sales Hub app)
 
-In [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], creating a price list and adding price list items isn't supported in the Sales Hub app. To create or edit a price list and price list item, use the Sales app.
+Currently, creating a price list and adding price list items isn't supported in the Sales Hub app. To create or edit a price list and price list item, use the Sales app.
 
 ## Step 1: Create a price list  (Sales app)
   

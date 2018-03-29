@@ -1,6 +1,7 @@
 # [Dynamics 365 for Sales](help-hub.md)
 ## [Overview](../sales-enterprise/overview.md)
 ## [What's new](../sales-enterprise/whats-new.md)
+## [Dynamics 365 for Sales and GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)
 ## [Set up product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)
 ### [Create a product](../sales-enterprise/create-product-sales.md)
 ### [Create a product family](../sales-enterprise/create-product-family.md)  
@@ -45,6 +46,15 @@
 ### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
+# [Analyze customer-interaction data](../admin/embedded-intelligence.md)
+## [Enable and configure embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
+## [Guide customer communications](../admin/relationship-assistant.md)
+## [Stay updated with Action cards](../admin/action-cards-reference.md)
+## [View message interactions](../admin/email-engagement.md)
+## [Display emails](../admin/auto-capture.md)
+## [View customer activity history](../admin/relationship-analytics.md)
+<!--## [Preview feature: Work with predictive lead scoring](../admin/work-predictive-lead-scoring.md)-->
+
 
 
 
