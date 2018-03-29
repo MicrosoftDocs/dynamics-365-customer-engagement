@@ -2,7 +2,7 @@
 title: "Review leads updated by Dynamics 365 Connector for LinkedIn Lead Gen Forms | Microsoft Docs"
 description: "Learn how to see the details of the updated leads and review the aggregated lead performance by using Dynamics 365 Connector for LinkedIn Lead Gen Forms."
 keywords: "lead, lead gen form, sponsored content, linkedin, dashboard"
-ms.date: 03/13/2018
+ms.date: 04/02/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
