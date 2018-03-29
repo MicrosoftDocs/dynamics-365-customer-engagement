@@ -16,8 +16,6 @@ topic-status: Drafting
 
 # Install [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] from AppSource
 
-[!include[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 To enable the synchronization of lead data from [!include[LinkedIn](../includes/pn-linkedin.md)] to [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], a system administrator needs to install [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=850928).
 
 > [!IMPORTANT]
