@@ -82,7 +82,9 @@ The Service Manager Guide helps you set up everything related to customer servic
    
    Learn more about [Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).
 
-## Accessibility and GDPR
+## Accessibility and GDPR in the Customer Service Hub 
+
+Customer Service Hub is committed towards inclusive design and accessible content. The app is designed around accessibility so that all users can be effortlessly productive.
 
 For more details about the app's accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
 
