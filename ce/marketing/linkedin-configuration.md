@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Set up the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen integration and define a lead matching strategy
 
-[v-tiburd]: <> (Can you add an intro here, before the first heading?)
+Administrators can use the settings pages under the **Settings** > **Advanced settings** > **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** heading to configure the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] feature. A few [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] security roles are also provided to let administrators control access to these features.
 
 ## Enable users to work with the connector and assign security roles to users
 

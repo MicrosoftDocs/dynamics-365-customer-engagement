@@ -28,16 +28,14 @@ To sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] and run c
 
 ## Enable lead sync from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-Before we can sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign accounts to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization, a a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** needs to [assign security roles to users and set up the matching strategy](linkedin-configuration.md) for new leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].    
+Before we can sync leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] campaign accounts to a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] organization, a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** needs to [assign security roles to users and set up the matching strategy](linkedin-configuration.md) for new leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)].    
 Additionally, a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member with access to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] accounts in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. In [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], this user requires at least a **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.
 
 For more information about assigning security roles to users, see [TechNet: Create users and assign Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx)
 
 ### Authorize [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to sync data from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Campaign Manager
 
-[v-tiburd]: <> (In step 5, if the name of the dialog box appears in the UI, make sure the capitalization matches the UI and apply bold formatting.)
-
-1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] User Profiles**.
+1. Go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **User Profiles**.
 
 1. To add a new [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] user profile record, select **New**, enter a **Name**, and then select **Save**.
 
@@ -72,7 +70,7 @@ When you create your own dashboard, consider adding a chart for the record type 
 
 ### Analyze individual [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen forms and submissions
 
-To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members when they answered the underlying [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen form. [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen forms refer to the ad campaigns on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] that generate leads. Every campaign creates a new Lead Gen form, and answers to the campaigns are captured as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submissions. 
+To see all form submissions in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], go to **Marketing** &gt; **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen** &gt; **Form Submissions**. You can drill down to individual submissions to see the details of the lead and the information provided by the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members when they answered the underlying [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen form. [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Gen forms refer to the ad campaigns on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] that generate leads. Every campaign creates a new Lead Gen form, and answers to the campaigns are captured as [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] form submissions. 
 
 ## See the sync status for [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data 
 

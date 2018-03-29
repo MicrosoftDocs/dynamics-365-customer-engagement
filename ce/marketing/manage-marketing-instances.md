@@ -20,8 +20,6 @@ topic-status: Drafting
 
 General instructions for how to manage [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances are available in [Manage instances](../admin/manage-online-instances.md) and its subtopics, but for instances where you also have [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installed, some exceptions and added procedures apply. This topic provides details about the exceptions&mdash;for all other management tasks, see [Manage instances](../admin/manage-online-instances.md), but read this topic first.
 
-[v-tiburd]: <> (In the next heading and throughout, it looks like the token resolves to "Marketing," not "Dynamics 365 for Marketing"--please confirm that it's intentional.)
-
 ## Elements in a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance
 
 Instance management operations are a standard feature of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. However, [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] adds significant complexity to the system, so there are several extra considerations to keep in mind when you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed. 
