@@ -31,7 +31,19 @@ Preview features are features that aren’t complete, but are made available on 
 -   Aren’t meant for production use.  
   
 -   May be available only in selected geographic areas.  
-  
+
+## What preview features are included in [!INCLUDE [pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)]
+<!-- change the version number token that will be provided by Kathleen-->
+The following table lists preview features as well as learning resources for each.
+
+|||  
+|-|-|  
+|**Preview feature**|**Learning resource**|  
+|Relationship analytics|[Preview feature: Relationship analytics](relationship-analytics.md)|  
+
+<!--|Predective lead scoring|[Preview feature: Work with Predictive lead scoring](work-predictive-lead-scoring.md)|-->
+
+
 ## What preview features are included in [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]?   
  The following table lists preview features as well as learning resources for each.  
   
@@ -39,7 +51,7 @@ Preview features are features that aren’t complete, but are made available on 
 |-|-|  
 |**Preview feature**|**Learning resource**|  
 |Microsoft Cognitive Services integration|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|
-|Relationship Insights|[Preview feature: Relationship Insights](relationship-insights.md)|  
+  
 
 ## What preview features are included in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]?  
  The following table lists preview features  as well as learning resources for each.  
@@ -47,7 +59,7 @@ Preview features are features that aren’t complete, but are made available on 
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Relationship Insights|[Preview feature: Relationship Insights](relationship-insights.md)|  
+|Relationship Insights|[Preview feature: Relationship Insights](embedded-intelligence.md)|  
 |Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|  
 |[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Insights service|[Dynamics 365 for Customer Insights](http://go.microsoft.com/fwlink/p/?LinkId=824625)  
   

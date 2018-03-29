@@ -52,6 +52,7 @@
 ## [Add Partner of Record](add-partner-record-subscription.md)
 ## [For partners: get credit when customers subscribe](partners-credit-when-customers-subscribe-dynamics-365.md)
 ## [For partners: Delegated Administrator](for-partners-delegated-administrator.md)
+
 # [Manage security, users, and teams](manage-security-users-and-teams.md)
 ## [Security concepts](security-concepts.md)
 ### [Security roles and privileges](security-roles-privileges.md)
@@ -73,6 +74,7 @@
 ## [Create or edit a business unit](create-edit-business-unit-control-access-records.md)
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
+
 # [Manage instances](manage-online-instances.md)
 ## [What's new with instance management](new-instance-management.md)
 ## [Sandbox](manage-sandbox-instances.md)
@@ -88,6 +90,7 @@
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
+
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
 ## [Canada](../admin/datacenter/about-microsoft-cloud-canada.md)
@@ -113,10 +116,12 @@
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
 ## [Configure Relevance Search](configure-relevance-search-organization.md)
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
+
 # [Performance tuning and optimization](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
 ## [Key preparation and configuration tasks](key-preparation-and-configuration-tasks.md)
 ## [Data query performance](analyze-improve-data-query-performance.md)
+
 # [Manage your data](manage-your-data.md)
 ## [Add or remove sample data](add-remove-sample-data.md)
 ## [Import data](import-data-all-record-types.md)
@@ -144,6 +149,7 @@
 ### [Configure date settings for demo data](configure-date-settings-for-demo-data.md)
 ### [Modify a configuration data schema](modify-configuration-data-schema.md)
 ### [Import configuration data](import-configuration-data.md)
+
 # [Work with templates](work-with-templates.md)
 ## [Articles](create-templates-articles.md)
 ## [Email](create-templates-email.md)
@@ -232,14 +238,16 @@
 ## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
-# [Preview feature: Relationship Insights](relationship-insights.md)
-## [Preview feature: Overview](relationship-insights-overview.md)
-## [Preview feature: Configure](configure-relationship-insights-features.md)
-## [Preview feature: Relationship assistant](relationship-assistant.md)
-## [Preview feature: Action cards reference](action-cards-reference.md)
-## [Preview feature: Email engagement](email-engagement.md)
-## [Preview feature: Auto capture](auto-capture.md)
-<!-- ## [Preview feature: Relationship analytics](relationship-analytics.md) -->
+
+# [Embedded intelligence](embedded-intelligence.md)
+## [Enable and configure embedded intelligence](configure-enable-embedded-intelligence.md)
+## [Guide customer communications](relationship-assistant.md)
+## [Stay updated with Action cards](action-cards-reference.md)
+## [View message interactions](email-engagement.md)
+## [Display emails](auto-capture.md)
+## [View customer activity history](relationship-analytics.md)
+<!--## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
+
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)
 

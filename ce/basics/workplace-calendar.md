@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 20ba9141-2816-4311-ade2-97dafd86e2bf
 caps.latest.revision: 28
-author: "kamaybac"
-ms.author: "kamaybac"
+author: "shubhadaj"
+ms.author: "shujoshi"
 manager: "sakudes"
 ---
 # Use the workplace calendar

@@ -111,6 +111,7 @@ The input field under the **Target** setting specifies which contact or lead fie
 > `["emailaddress1", "msdyncrm_marketingpageid"]`
 
 <a name="default-marketing-settings"></a>
+<a name="marketing-configuration"></a>
 
 ## Default marketing settings
 
@@ -128,10 +129,11 @@ Make the following settings here:
 
 ### The Marketing email tab
 
-Use the **Marketing email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. The following settings are available:
+Use the **Marketing email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. You can also enable or disable Litmus integration here for all users. The following settings are available:
 
 - **Default content settings**. Choose a default content-settings record to provide dynamic values for the preview feature of the marketing email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages)
 - **Default contact**. Choose a default contact record to provide dynamic values for the preview feature of the marketing email designer.
+- **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](prepare-marketing-emails.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](#check-your-work-with-previews-and-test-sends)
 
@@ -142,31 +144,6 @@ Use the **Customer journey** tab to choose the default time zone that you will u
 ## Data protection tools
 
 Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These currently focus on helping organizations comply with GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
-
-<a name="marketing-configuration"></a>
-
-## Enable Litmus inbox previews
-
-The  [inbox preview feature](prepare-marketing-emails.md#inbox-preview) provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. To use the feature, you must enable it for your site.
-
-In a future version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], we expect to provide settings to enable Litmus previews somewhere under **Settings** > **Advanced Settings** > **Marketing settings**, but for the current version you must use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app to enable the feature.
-
-To enable Litmus previews:
-
-1. Go to the custom app by choosing **[!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)]** from the app-selector menu.  
-    ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
-
-1. The custom app opens. Select the **Advanced find** button ![The Advanced find button](media/advanced-find-button.png "The Advanced find button") in the navigation bar at the top of the page.
-
-1. The **Advanced find** window opens. Open the **Look for** drop-down list and select **Marketing configurations**. Then select the **Results** button.  
-    ![The advanced find window](media/find-marketing-configurations.png "The advanced find window")
-
-1. The **Advanced find** window updates to show your marketing configurations. There should be just one, called **Default Marketing Configuration**. Select it from the list.
-
-1. Another pop-up window opens showing your default marketing configuration. Set **Enable Litmus integration** to **Yes** to enable the feature here. (Set it to **No** to disable it, if needed.)
-
-1. Select the save icon in the bottom-right corner of the window to save your setting (it should also auto-save after a few seconds).
-
 
 ### See also
 
