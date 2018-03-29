@@ -83,6 +83,10 @@
       href: admin/configure-client-caching-unified-service-desk.md
     - name: Help improve Unified Service Desk
       href: admin/help-improve-unified-service-desk.md
+    - name: Comply with General Data Protection Regulation (GDPR)
+      href: admin/comply-gdpr.md
+      - name: Data in Unified Service Desk
+      - href: admin/comply-unified-service-desk-data-gdpr.md
   - name: Configure auditing and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Performance data collection using keyboard shortcut
