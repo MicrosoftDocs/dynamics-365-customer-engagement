@@ -37,7 +37,7 @@ To create a landing page and go live:
 1. The **New Marketing Form** page opens with the **Select a Form Template** dialog box shown. This is similar to the template dialog box presented for marketing emails (as you saw in [Create a marketing email and go live](create-marketing-email.md)).  
     ![Select a form template dialog](media/form-template-dialog.png "Select a Form Template dialog box")
 
-    Find and select the **Newsletter subscription** template, and then choose **Select**. The template dialog box closes, and your selected template is copied to your new form.
+    Choose a template, and then choose **Select**. The template dialog box closes, and your selected template is copied to your new form.
 
 1. Now you are looking at the form designer, which works like the email designer but provides different tools in the **Toolbox**. As with the email designer, there are required fields at the top of the page.  
     ![Required fields for a new form](media/from-required-fields.png "Required fields for a new form")
@@ -50,7 +50,7 @@ To create a landing page and go live:
 1. We want the form to include four fields (first name, last name, email, and country), and we want the first name, last name, and email to be required (which means that contacts must supply values for these fields to submit the form). Thanks to the template, we're almost there.  
     ![Mark a field as required](media/form-field-required.png "Mark a field as required")
 
-    Each required field shows a red asterisk on the form. Select the **First Name** field on the canvas to open the **Details** tab for it. Make sure the **Required** check box is selected. Note that the red asterisk appears when the box is selected and goes away when it's cleared. Make sure that the first name, last name, and email fields are all marked as required.
+    Each required field shows a red asterisk on the form. Select the **First Name** field on the canvas to open the **Properties** tab for it. Make sure the **Required** check box is selected. Note that the red asterisk appears when the box is selected and goes away when it's cleared. Make sure that the first name, last name, and email fields are all marked as required.
 
 1. Go back to the **Toolbox** tab and find the **Country** block under the **Fields** heading. Drag the **Country** block to your form, but don't make it required.  
     ![Add a field to the form](media/form-add-field.png "Add a field to the form")
@@ -76,12 +76,12 @@ To create a landing page and go live:
     - **Type**: Make sure this is set to **Landing page**.
     - **Partial URL**: When you publish the page, this value becomes part of its URL. The page will be published on your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] portal server, so the final URL for the page will have the form: **https://*&lt;YourOrg&gt;*.microsoftcrmportals.com/*&lt;PartialURL&gt;***. Enter a suitable partial URL (note that contacts might notice this text when they load your page).
 
-    You are now in the page designer, which resembles the form and email designers. Your page already includes lots of content that came from the template you chose, including placeholder images, sample text, and more. Most of these are placed by using standard **Toolbox** items like **Text** blocks and **Image** blocks, though some layout features are hard-coded in HTML as part of the template. As with email messages, you can add new blocks, edit text directly on the canvas, and configure blocks by selecting them and using the **Details** tab. You can also set global page styles by using the **Styles** tab. In a real project, you would spend time now working with all these settings to create and style your content.
+    You are now in the page designer, which resembles the form and email designers. Your page already includes lots of content that came from the template you chose, including placeholder images, sample text, and more. Most of these are placed by using standard **Toolbox** items like **Text** blocks and **Image** blocks, though some layout features are hard-coded in HTML as part of the template. As with email messages, you can add new blocks, edit text directly on the canvas, and configure blocks by selecting them and using the **Properties** tab. You can also set global page styles by using the **Styles** tab. In a real project, you would spend time now working with all these settings to create and style your content.
 
 1. Most landing page templates already include an unconfigured **Form** block that shows a placeholder with the text **Select a form**. Find and select it on the page (or add a new **Form** block from the **Toolbox** tab if needed).  
     ![Assign a form to a form block](media/page-block-assign-form.png "Assign a form to a form block")  
 
-    The **Details** tab opens when you select the **Form** block. Set the **Marketing Form** field to the name of the form that you created earlier in this procedure. Your form design is loaded onto the page.
+    The **Properties** tab opens when you select the **Form** block. Set the **Marketing Form** field to the name of the form that you created earlier in this procedure. Your form design is loaded onto the page.
 
     > [!TIP]
     > Forms are imported by reference—they are not copied to your page. That means that if you go back and edit the form, any changes you make there will be seen on all existing pages that use that form, so be careful when editing forms!
