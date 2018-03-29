@@ -20,7 +20,6 @@ ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
      <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
 </tr>
 
-## Help 
 <table>
 <tr>
 <td><h2>Get started</h2>
