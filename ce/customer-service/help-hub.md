@@ -16,9 +16,8 @@ ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 
 # Customer Service Hub Help & Training
 
-<tr>
-     <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
-</tr>
+
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
 
 <table>
 <tr>
@@ -72,11 +71,7 @@ ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
  <li>[Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)</li>
  <li>[Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)</li>
 </ul>
-
 </td>
-
-
-
 <td>&#160;</td>
 </tr>
 </table>
