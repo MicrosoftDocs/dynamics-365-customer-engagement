@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: c461cdf4-9e91-41c7-b34e-e95f1ff1e945
 caps.latest.revision: 65
-author: "brycho"
-ms.author: "brycho"
+author: "jimholtz"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # What are Preview features and how do I enable them? 
@@ -71,7 +71,8 @@ The following table lists preview features as well as learning resources for eac
 |**Preview feature**|**Learning resource**|  
 |Data Loader for bulk importing|[Preview feature: Import bulk data](import-bulk-data-data-loader.md)|  
 |Get a quick overview of key Dynamics 365 (online) performance metrics|[Preview feature: View metrics about your instance with Organization Insights dashboard](use-organization-insights-dashboard-view-instance-metrics.md)|  
-|Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]|[Preview feature: Let Cortana help you track your Dynamics 365 deals and activities](../basics/let-cortana-track-deals-activities.md)<br /><br /> [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|  
+|Track your Dynamics 365 deals and activities using [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]|We are working to deliver a robust and scalable digital assistant experience across all of our Dynamics 365 offerings. This includes natural language integration for customers and partners across multiple channels including [!INCLUDE[pn_cortana](../includes/pn-cortana.md)]. To that end, we are discontinuing the current [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration preview feature that was made available for Dynamics 365 and we are focusing on building a new long term intelligent solution experience, which will include [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] digital assistant integration.|  
+
   
 > [!NOTE]
 >  The Data Loader preview feature does not have to be enabled through the **Previews** tab.  

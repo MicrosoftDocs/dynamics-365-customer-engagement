@@ -1,20 +1,19 @@
 ---
-title: "Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Service
+keywords: Create rules; Route cases; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
-caps.latest.revision: 25
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Create rules to automatically route cases (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

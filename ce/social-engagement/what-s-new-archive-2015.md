@@ -1,15 +1,19 @@
 ---
 title: "Archive - Social Engagement 2015 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2015."
-ms.date: 09/12/2017
+keywords: ""
+ms.date: 02/28/2018
 ms.service: mse
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: b431cba7-e614-40f3-bf68-139c78b941ab
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
 ---
+
 # Microsoft Social Engagement 2015 Updates
 
 ## Microsoft Social Engagement 2015 Update 1.2 
@@ -41,7 +45,7 @@ manager: sakudes
  All pages in the Settings area now adapt to the screen size of tablets. Additionally, Solution Defaults are now called Global Settings. 
  
 ### Download data to Excel 
- Widgets in the Analytics area of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now let you export data points to a downloadable Excel file. Along with the visualized data points, additional details regarding the configuration of the data set are shared. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export data from widgets and lists](analyze-social-data-using-widgets.md#export) 
+ Widgets in the Analytics area of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now let you export data points to a downloadable Excel file. Along with the visualized data points, additional details regarding the configuration of the data set are shared. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Export data from widgets and lists](analyze-social-data-using-widgets.md) 
  
 ### Expand the Authors widget to full view 
  You can now expand the Authors widget in the Analytics area to see, and work with, up to 100 records. You can remove authors in bulk from your solution’s data acquisition and add quick filters to include several authors at once. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand widgets on the Overview page](analytics-overview.md) 

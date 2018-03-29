@@ -1,20 +1,19 @@
 ---
-title: "Create a customer service schedule and define the work hours (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Create a customer service schedule and define the work hours (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to create a customer service schedule and define the work hours for Dynamics 365 for Customer Service
+keywords: Service schedule; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: ee605a89-4bd5-4b93-8d45-2ec9ca0a9b8a
-caps.latest.revision: 16
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Create a customer service schedule and define the work hours (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -50,9 +49,9 @@ To define when your service or support team is available for providing support t
   
 6.  In the **Weekly Schedule** dialog box, under **Set the recurring weekly schedule** section, follow these steps:  
   
- ![Schedule and hours settings](../customer-service/media/crm-ua-customer-holiday-schedule.png "Schedule and hours settings")  
+    ![Schedule and hours settings](../customer-service/media/crm-ua-customer-holiday-schedule.png "Schedule and hours settings")  
   
-    1.  For work hours, select one of these options:  
+   1.  For work hours, select one of these options:  
   
         - **Are the same each day**. The schedule is the same for every day of the week. After you select this option, to select the days of the week that the customer support is available, click **Set Work Hours**.  
   

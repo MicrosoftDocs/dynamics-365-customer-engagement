@@ -55,7 +55,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
 4.  In the solution explorer, choose the entity you want to add the search control to, and under **Communication & Collaboration**, make sure the **Knowledge Management** check box is selected.  
   
-    ![Setting to enable knowledge management](media/check-knowledge-management.png)
+    ![Setting to enable knowledge management](media/check-knowledge-management.png "Setting to enable knowledge management")
 
     Select **Save** icon to save the setting for the entity.
   
@@ -63,7 +63,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
 6.  Choose the entity form of type **Main**.  
   
-    ![Choose form type](media/choose-form-type-km.png)
+    ![Choose form type](media/choose-form-type-km.png "Choose form type")
   
 7.  Select the area where you want to place the search control, and on the **Insert** tab, select **Knowledge Base Search**.  
   
@@ -71,7 +71,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
 8.  In the **Set Properties** dialog box, on the **Display** tab, specify fields as given in the table below:
   
-    ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png) 
+    ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
 
 9. Select **Set** to apply the settings.   
     

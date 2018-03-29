@@ -181,9 +181,9 @@ To create a new interaction definition from the [!include[](../../includes/pn-az
 
 >[!NOTE]
 >**TRY IT!** <br>
->Create three more interactions by uploading the Contact.css, Deposit.csv, and Withdrawal sample files. Use default values, and do not add an image.
+>Create three more interactions by uploading the Contact.csv, Deposit.csv, and Withdrawal sample files. Use default values, and do not add an image.
 
-##Add a link
+##Add a link 
 
 ![About links](../media/ConceptLinks.png "About links") 
 

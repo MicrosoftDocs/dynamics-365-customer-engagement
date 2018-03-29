@@ -76,6 +76,7 @@
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
 
 # [Manage instances](manage-online-instances.md)
+## [What's new with instance management](new-instance-management.md)
 ## [Sandbox](manage-sandbox-instances.md)
 ## [Add instance](add-instance-subscription.md)
 ## [Switch instance](switch-instance.md)
@@ -83,6 +84,7 @@
 ## [Delete instance](delete-instance.md)
 ## [Backup and restore instances](backup-restore-instances.md)
 ## [Support instances](support-instance.md) 
+## [Common Data Service instances](common-data-service-instances.md)
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
@@ -133,6 +135,7 @@
 ## [View and take action on bulk deletion jobs](view-take-action-bulk-deletion-jobs.md)
 ## [Monitor and manage system jobs](monitor-manage-system-jobs.md)
 ## [Audit data and user activity](audit-data-user-activity.md)
+<!-- ### [Enable and use comprehensive auditing](enable-use-comprehensive-auditing.md) -->
 ## [Data encryption](data-encryption.md)
 ## [Manage storage](manage-storage.md)
 ## [Free storage space](free-storage-space.md)
