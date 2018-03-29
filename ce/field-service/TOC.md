@@ -1,4 +1,4 @@
-﻿# [Overview](overview.md)
+# [Overview](overview.md)
 # [What's new](whats-new-field-service-project-service.md)
 
 # Administrator Guide
@@ -8,6 +8,7 @@
 ## [Configure default settings](configure-default-settings.md)
 ## [Turn on auto geocoding](turn-on-auto-geocoding.md)
 ## [Mobile app installation](install-the-mobile-app.md)
+## [Activate Field Service mobile licences](activate-fs-mobile-app-license.md)
 ## Resource setup
 ### [Bookable resources](set-up-bookable-resources.md)
 ### [Bookable resource categories](set-up-bookable-resource-categories.md)
