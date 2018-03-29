@@ -16,8 +16,6 @@ topic-status: Drafting
 
 # How to sync [!include[LinkedIn](../includes/pn-linkedin.md)] leads by using [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)]
 
-[!include[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] enables seamless synchronization of [!include[LinkedIn](../includes/pn-linkedin.md)] leads to [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)]. [!include[LinkedIn](../includes/pn-linkedin.md)] members can drive leads from [Sponsored Content](https://business.linkedin.com/marketing-solutions/native-advertising) campaigns, based on a variety of calls to action. The [!include[LinkedIn Connector](../includes/pn-linkedin-solution-shortest.md)] lets campaign managers sync the leads from [LinkedIn's Lead Gen forms](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads) to a [!include[Dynamics 365 (online)](../includes/pn-crm-online-shortest.md)] instance for further nurturing. If a lead is already known in [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)], the data for that lead will be updated by using the information provided from [!include[LinkedIn](../includes/pn-linkedin.md)]; otherwise, a new lead record is created in [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)].
 
 > [!NOTE]
