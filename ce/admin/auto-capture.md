@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Auto capture for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Auto capture for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -16,7 +16,7 @@ author: "udag"
 ms.author: "udag"
 manager: "sakudes"
 ---
-# Preview feature: Auto capture of related emails
+# Auto capture of related emails
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
 
@@ -100,4 +100,6 @@ The following describes the support for viewing, opening, and tracking untracked
 ## Privacy notice  
 [!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
   
+### See also
 
+[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)

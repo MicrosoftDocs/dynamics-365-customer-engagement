@@ -90,3 +90,8 @@ Action cards are made up of the following elements, as labeled in the figure:
 
 [!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
 
+### See also  
+
+[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
+[Action cards reference](../admin/action-cards-reference.md)
+

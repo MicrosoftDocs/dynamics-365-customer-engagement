@@ -16,7 +16,7 @@ author: "udag"
 ms.author: "udag"
 manager: "sakudes"
 ---
-# Embedded intelligence 
+# Analyze customer-interaction data with Embedded intelligence 
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
 
@@ -24,11 +24,11 @@ Embedded intelligence is a suite of features which continuously analyze the vast
   
 Embedded intelligence includes the following features, which all work together to amplify their individual strengths:  
   
--   Relationship assistant  
--   Email engagement   
--   Auto capture  
+-   [Relationship assistant](../admin/relationship-assistant.md)  
+-   [Email engagement](../admin/email-engagement.md)   
+-   [Auto capture](../admin/auto-capture.md)  
   
-The features **Relationship Analytics** <!--and **Predictive Lead Scoring** are--> is available as preview feature in the Dynamics 365 (online), version 9.0.2. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).
+The feature [**Relationship Analytics**](../admin/relationship-analytics.md) <!--and **Predictive Lead Scoring** are--> is available as preview feature in the Dynamics 365 (online), version 9.0.2. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).
   
 A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
@@ -107,5 +107,7 @@ What opportunities should have priority? When was the customer last contacted? W
 
 [!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
   
-   
+### See also
+
+[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md) 
 

@@ -143,3 +143,6 @@ If you see an alert about having insufficient permissions to use an action card,
 ## Privacy notice  
 [!INCLUDE[cc_privacy_relationship_insights_relationship_assistant](../includes/cc-privacy-relationship-insights-relationship-assistant.md)]
 
+### See also
+
+[Use relationship assistant to guide customer communications](../admin/relationship-assistant.md)

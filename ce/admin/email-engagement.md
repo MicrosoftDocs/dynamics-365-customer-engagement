@@ -357,3 +357,5 @@ To view the tracking preferences for all of the recipients of a message, select 
 [!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
   
 ### See also  
+
+[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
