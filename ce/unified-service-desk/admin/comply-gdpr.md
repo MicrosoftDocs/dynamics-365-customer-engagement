@@ -27,14 +27,14 @@ The General Data Protection Regulation (GDPR) imposes new rules on organizations
 The GDPR is fundamentally about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements governing how you manage and protect personal data while respecting individual choice—no matter where data is sent, processed, or stored.
 
 ## Shared responsibility model
-As you read this document, keep in mind that your compliance with the GDPR is an on-going process and involves your role as a controller and, in some cases, Microsoft as a processor. 
+As you read this document, keep in mind that your compliance with the GDPR is an on-going process and involves your role as a **controller** and, in some cases, Microsoft as a **processor**. 
 Depending upon which of the Dynamics applications your organization uses, you may find that you are both controller and processor or have a shared responsibility with Microsoft.
 
-Since, Unified Service Desk Client application runs on-premises where you hold both the controller and processor roles.
+Since, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application runs on-premises where you hold both the controller and processor roles.
 
-- Controller –  The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data. Within the context of the GDPR, a controller does not have to be located within the EU for the GDPR to apply.
+- **Controller** –  The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of personal data. Within the context of the GDPR, a controller does not have to be located within the EU for the GDPR to apply.
 
-- Processor – The natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller.
+- **Processor** – The natural or legal person, public authority, agency or other body which processes personal data on behalf of the controller.
 Data definitions
 The GDPR considers personal data to be any information related to an identified or identifiable natural person. That can include both direct identification (i.e., your legal name) and indirect identification (i.e., specific information that makes it clear it is you the data references).
 The GDPR makes clear that the concept of personal data includes online identifiers (e.g., IP addresses, mobile device IDs) and location data.
