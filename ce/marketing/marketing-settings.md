@@ -127,6 +127,7 @@ The input field under the **Target** setting specifies which contact or lead fie
 > `["emailaddress1", "msdyncrm_marketingpageid"]`
 
 <a name="default-marketing-settings"></a>
+<a name="marketing-configuration"></a>
 
 ## Default marketing settings
 
@@ -144,16 +145,21 @@ Make the following settings here:
 
 ### The Marketing Email tab
 
-Use the **Marketing Email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. The following settings are available:
+Use the **Marketing email** tab to set defaults that apply to your marketing email messages. You will always be able to override these defaults for individual messages, but it will be more convenient for users if you set the defaults to their most-used values. You can also enable or disable Litmus integration here for all users. The following settings are available:
 
-- **Default Content Settings**: Choose a default content-settings record for providing dynamic values for the preview feature of the marketing-email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages)
-- **Default Contact**: Choose a default contact record for providing dynamic values for the preview feature of the marketing-email designer.
+- **Default content settings**. Choose a default content-settings record to provide dynamic values for the preview feature of the marketing email designer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](#use-content-settings-to-set-up-repositories-of-standard-and-required-values-for-email-messages)
+- **Default contact**. Choose a default contact record to provide dynamic values for the preview feature of the marketing email designer.
+- **Enable Litmus integration**: Set this to **Yes** to enable the  [inbox preview feature](prepare-marketing-emails.md#inbox-preview), which provides pixel-perfect renderings of how your email messages will look on specific client and platform combinations. The feature is provided by a [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] partner called Litmus Software, Inc. ([litmus.com](https://litmus.com/)), and is optional. 
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Check your work with previews and test sends](#check-your-work-with-previews-and-test-sends)
 
-### The Customer Journey tab
+### The Customer journey tab
 
-Use the **Customer Journey** tab to choose the default timezone that you will use when starting and stopping your customer journeys
+Use the **Customer journey** tab to choose the default time zone that you will use when starting and stopping your customer journeys.
+
+## Data protection tools
+
+Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Data protection tools** page to enable data-privacy features of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. These currently focus on helping organizations comply with GDPR regulations in the European Union. For more information about GDPR, including how to use the settings here, see [Data protection and GDPR](gdpr.md).
 
 ### See also
 

@@ -20,9 +20,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 Use [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to visualize and automate the journey that customers will take while interacting with your marketing initiatives on their way to making a purchase. A simple customer journey might include just a short interaction, such as a single email campaign. A complex journey could include the full process from discovery, through nurturing, and on to marketing-qualified leads. Customer journeys can also generate and assign [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] tasks (such as a scheduled follow-up phone call), and trigger business workflows.
 
@@ -97,6 +95,8 @@ Though most people add and arrange tiles by dragging them to the canvas, you can
 1. The pipeline is now updated to show all the available insertion points where you can drop your new tile. Use your mouse, or arrow keys and Return key, to choose the location and drop the tile there.
 
     ![Choose where to add the new tile](media/cj-add-location-ill.png "Choose where to add the new tile")
+
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### Configure tile settings
 
@@ -204,4 +204,5 @@ When you've finished designing your customer journey, do the following to verify
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Create an inbound customer journey](create-inbound-customer-journey.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
-[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+[Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)

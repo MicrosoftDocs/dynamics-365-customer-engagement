@@ -24,39 +24,11 @@ topic-status: Drafting
 
 Create an account for each user that requires access to [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
-## Create a user account
+## Create a user account and assign licenses
 
-To create a user:
+User accounts and licensing in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] work the same way as they do for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] customer engagement apps. Use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center to create a new user and then purchase and assign licenses for [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] to the user as needed. Once you have done this, you'll see the new user listed on the **Settings** > **Advanced Settings** > **Organization** > **User Management** page.
 
-1. Make sure you have the global administrator role in [!INCLUDE[pn-office-365](../includes/pn-office-365.md)] and the System Administrator role in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
-
-1. Go to **Settings** > **Advanced Settings** > **Organization** > **User Management**.
-
-1. Select **Add Users**.
-
-1. Follow the instructions in the **Confirm user account creation** dialog box.
-
-1. The **Add New User** pane appears. Enter the following details:
-
-    - First name
-    - Last name
-    - Display name: This is automatically populated based on the first name and last name, and can be changed.
-    - Username: This must be a unique name. A domain name, which is usually the organization name, is appended to the username (for example, xyz@contoso.com).
-    - User email address
-
-1. In the **Role** drop-down list, select a role that you want to assign to the user. You must assign at least one role.
-
-    > [!IMPORTANT]
-    > Assign a role with only the privileges the user needs.
-
-1. Under **Password**, select the **Make this user change the password when they first sign in** check box to have the user enter a new password when they sign in.
-
-1. Select **Contact information** to provide more details about the user.
-
-1. Select **Add**.
-
-> [!NOTE]
-> If there's a single license type for your organization, a license will be automatically assigned to the user. If there are no licenses left, the user will be created but no license will be assigned.
+ [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Purchase and assign Dynamics 365 (online) licenses](../admin/purchase-assign-online-licenses.md).
 
 <a name="assign-role"></a>
 
