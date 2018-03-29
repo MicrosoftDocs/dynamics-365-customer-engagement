@@ -44,11 +44,9 @@ Use goals to keep track of your progress on achieving target revenue.
     
     - Goal Metric. Choose how the goal will be tracked by selecting a metric for the goal.
 
-     
-      > [!NOTE]
-
-      > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
-
+         > [!NOTE]
+        
+         > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
     
     - Goal Owner. Select the user or team responsible for meeting the goal.
   
@@ -115,13 +113,11 @@ Use goals to keep track of your progress on achieving target revenue.
   
 2. [!INCLUDE[proc_goals](../includes/proc-goals.md)]  
   
-3.  If you are using the Sales app, select **New**.  
+3. If you are using the Sales app, select **New**.  
   
-<!--    -   If you are using Dynamics 365 for Outlook, in the **Records** tab, select **New**.  
--->  
-4.  On the **New Goal** form, enter information or observe any noted restrictions or requirements as needed. Use the handy tooltips as a guide.  
+4. On the **New Goal** form, enter information or observe any noted restrictions or requirements as needed. Use the handy tooltips as a guide.  
   
-5.  Select or tap **Save** or **Save and Close**.  
+5. Select or tap **Save** or **Save & Close**.  
   
   
 ### See also  

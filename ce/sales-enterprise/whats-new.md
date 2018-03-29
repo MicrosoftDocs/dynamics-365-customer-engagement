@@ -24,6 +24,6 @@ topic-status: Drafting
 
 Welcome to [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)]! Visit this page to see what’s added or updated recently. 
 
-## Dynamics 365 for Sales, Spring 2018 (Dynamics 365 (online), version 9.0.2)
+## Dynamics 365 for Sales, Spring 2018 ([!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)])
 
 -  **Sales app is built on the Unified Interface framework for consistent user experience**: The new Sales Hub app delivers a consistent, uniform, user interface, and follows responsive design principles for optimal viewing on any screen size or device. Entities used in the sales process, including products, goals, and sales literature, run on this responsive platform and conform to common data model standards. 

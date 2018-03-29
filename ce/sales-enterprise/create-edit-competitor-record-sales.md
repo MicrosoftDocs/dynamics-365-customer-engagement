@@ -48,8 +48,6 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
   
 2.  Select **New**.  
   
-<!--    -   If you're using Dynamics 365 for Outlook, in the **Records** tab, select **New**.  
--->  
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
 4.  Select **Save**.  

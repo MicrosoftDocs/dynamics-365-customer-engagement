@@ -43,10 +43,9 @@ Simplify product management and classification by adding properties that help di
 
 4. In the **Property** form, on the **Summary** tab, enter the name of the property and set other fields as required.
 
+   > [!NOTE]
 
-     > [!NOTE]
-
-     > You can hide a property by setting **Hidden** to **Yes**. When you hide a property, you block the child families or products from inheriting that property. 
+   > You can hide a property by setting **Hidden** to **Yes**. When you hide a property, you block the child families or products from inheriting that property. 
 
 5. On the **Properties** tab, select a data type for the property you’re adding.
 

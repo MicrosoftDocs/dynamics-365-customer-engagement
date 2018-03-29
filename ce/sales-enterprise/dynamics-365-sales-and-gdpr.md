@@ -46,7 +46,7 @@ It is also possible to update the read-only records programmatically with the SD
 
 4.  In the file that you exported, make the necessary changes.
 
-5.  To import the updated records back into [pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)
+5.  To import the updated records back into [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)
 
 
 ## Important points
