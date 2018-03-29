@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 7811de7f-af81-4d3c-a365-700730290471
 caps.latest.revision: 44
-author: "kamaybac"
-ms.author: "kamaybac"
+author: "shubhadaj"
+ms.author: "shujoshi"
 manager: "sakudes"
 ---
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing (Sales)

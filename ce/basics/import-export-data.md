@@ -9,8 +9,8 @@ ms.tgt_pltfrm: ""
 ms.topic: "index-page "
 ms.assetid: fe4feb5a-abd2-47d6-a210-0d31791c1e98
 caps.latest.revision: 4
-author: "brycho"
-ms.author: "brycho"
+author: "jimholtz"
+ms.author: "jimholtz"
 ---
 # Import and export data
 

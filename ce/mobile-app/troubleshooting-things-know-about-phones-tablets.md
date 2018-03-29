@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: "error-reference"
 applies_to: 
   - "Dynamics 365 (online)"
+author: "jimholtz"
 ms.assetid: 55e7ba52-2f18-4eaf-8281-70cd639887f8
 caps.latest.revision: 33
 ms.author: "jimholtz"

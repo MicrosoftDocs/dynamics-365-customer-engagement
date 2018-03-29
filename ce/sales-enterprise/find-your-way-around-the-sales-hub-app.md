@@ -8,6 +8,7 @@ ms.custom:
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
+author: "mduelae"
 ms.assetid: 792b7301-d9a1-4323-9e81-ab0dee5ced2d
 author: shubhadaj
 ms.author: shujoshi

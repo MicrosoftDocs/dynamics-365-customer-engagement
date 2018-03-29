@@ -39,7 +39,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
 >   
 >  To keep your data set available in other applications, use the **More options with the current filters** button ![More options with current filters](media/more-options-with-current-filters-icon.png "More options with current filters"). [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Explore more options with your data set](more-options-with-data-set.md)  
   
- There are many more entry points to drill down into your data. Click the data points to use the drill-down functionality. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](visual-filtering-widgets.md)  
+ There are many more entry points to drill down into your data. To identify the filter-enabled area, hover over or click the widget’s display area. For the areas that support visual filtering, the cursor changes to a hand pointer. Click the data point to apply the filter.
 
  For the list of available filters, see [Get to know your filters](understand-filters.md).
   
@@ -55,7 +55,7 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
   
 ### Add a filter  
   
-1.  Select a data point on a widget to drill down and apply the corresponding filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Perform visual filtering on widgets](visual-filtering-widgets.md)  
+1.  Select a data point on a widget to drill down and apply the corresponding filters.    
   
      --OR--  
   
@@ -94,7 +94,6 @@ You can use [filters](understand-filters.md) to slice and dice your data to narr
   
 ### See Also  
  [Analyze social data using widgets](analyze-social-data-using-widgets.md)   
- [Perform visual filtering on widgets](visual-filtering-widgets.md)   
  [Stay up to date with alerts](email-alerts.md)   
  [Keep track of live data streams with Social Center](social-center.md)  
  [Get to know your filters](understand-filters.md)

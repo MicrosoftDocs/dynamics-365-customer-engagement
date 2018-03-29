@@ -7,6 +7,7 @@ ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
+author: "mduelae"
 ms.assetid: cf2feda4-7286-4d0e-aee2-790a7982a847
 caps.latest.revision: 33
 ms.author: "mkaur"

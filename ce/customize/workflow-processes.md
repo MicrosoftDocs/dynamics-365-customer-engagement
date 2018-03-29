@@ -1,7 +1,7 @@
 ---
-title: "Workflow processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Workflow processes | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,14 +10,15 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "PowerApps"
 ms.assetid: 1f3c9780-26ad-49ec-a3fb-fc226def19c5
 caps.latest.revision: 20
-ms.author: "rdubois"
+ms.author: "matp"
 manager: "brycho"
 ---
 # Use Workflow processes to automate processes that don't require user interaction
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
 
 Workflows automate business processes without a user interface. People usually use workflow processes to initiate automation that doesn’t require any user interaction.  
   
@@ -39,7 +40,7 @@ Workflows automate business processes without a user interface. People usually u
   
  ![Processes filtered by workflow in Dynamics 365](../customize/media/workflow-processes-filtered.PNG "Processes filtered by workflow in Dynamics 365")  
   
- You can create or modify workflows using the web application. 
+ Depending on how the app is built, users can create or modify their workflows in the app. 
  
 Developers can create workflows using information in the [Dynamics 365 Customer Engagement Developer Guide](../developer/developer-guide.md) and solutions you purchase may include workflows that you may modify.  
   

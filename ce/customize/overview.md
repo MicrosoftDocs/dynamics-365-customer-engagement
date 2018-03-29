@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: e9810433-224b-4bde-851a-e581cf5fb8a4
 caps.latest.revision: 21
-author: "brycho"
-ms.author: "brycho"
+author: "matp"
+ms.author: "matp"
 manager: "amyla"
 ---
 

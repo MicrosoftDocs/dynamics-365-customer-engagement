@@ -37,6 +37,9 @@ When you create a new message, the selected template's content is copied into it
 
 You can easily create custom templates to match your organization's communication needs and visual identity. You can save any existing message as a template, or work directly in the templates area to create them. You'd typically start with a message based on an existing template, customize the message as needed, and then save the result as a new template. When setting up a template, you can add various types of metadata (such as purpose, style, market type, and optimized for) which make each template easier to identify and easier to find by using filters in the **Select an email template** dialog box shown to users each time they create a new email message.
 
+> [!IMPORTANT]
+> The default templates are maintained as part of the solution and might be overwritten when [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is updated. Therefore, if you want to customize a default template then you should always save the result using a new name rather than saving it under its default name&nbsp;otherwise your customizations could be overwritten during the next update.
+
 For more information about creating and editing marketing email messages, see [Prepare marketing email messages](prepare-marketing-emails.md). For more information about how to work with the designer tool, see [Design your digital content](design-digital-content.md).
 
 ## Style a template
@@ -104,5 +107,5 @@ The following known issues apply to the out-of-the-box templates and custom mess
 
 [Prepare marketing email messages](prepare-marketing-emails.md)  
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  
