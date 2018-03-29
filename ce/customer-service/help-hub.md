@@ -68,6 +68,7 @@ ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 
 <td><h2>Accessibility & GDPR</h2>
 <ul>
+ <li> [Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr) </li> 
  <li>[Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)</li>
  <li>[Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)</li>
 </ul>
