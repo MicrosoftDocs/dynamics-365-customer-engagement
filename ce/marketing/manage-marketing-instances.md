@@ -65,14 +65,15 @@ Each time you set up a new [!INCLUDE[pn-marketing-app-module](../includes/pn-mar
 
 For details about how to copy a production instance to a sandbox and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard on the sandbox, see  [Copy your current production instance to a sandbox](#copy-to-sandbox). The process is similar when you restore a backup to a new instance.
 
-## Reset an instance
+## Reset or delete an instance
 
-[v-tiburd]: <> (Please check the tokens in the first line for accuracy. I think they read "non-Marketing Dynamics 365"...)
+For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset or delete an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must completely uninstall it first as described in [Uninstall Marketing from a Dynamics 365 instance](uninstall-marketing.md).
 
-For standard (non-[!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances, you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to reset an instance. However, if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed, you must contact [!INCLUDE[pn-microsoft-support](../includes/pn-microsoft-support.md)] for assistance with this operation because some extra cleanup is required that isn't available to end users.
+## Change the URL for an instance
 
-> [!NOTE]
-> You can change the URL for an instance without contacting Microsoft Support because no additional cleanup is needed for this operation.
+For standard [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] instances (without [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]) installed) you can use the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] to change the URL of an instance. However, _you can't currently do this if you have [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] installed_. 
+
+Do not attempt to change the URL for a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance. If you require a different URL, then you must set up a new [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance at the new URL and then reinstall [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] there.
 
 <a name="copy-to-sandbox"></a>
 
