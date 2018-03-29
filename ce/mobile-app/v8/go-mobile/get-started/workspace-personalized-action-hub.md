@@ -26,4 +26,4 @@ When you first sign in to Dynamics 365 for phones and tablets, a pane slides in.
  ![Workspace for mobile](../../../media/workspace-mobile.png "Workspace for mobile")  
   
 ## See Also  
-  [Preview feature: Relationship Insights](../../../../admin/relationship-insights.md)
+[Analyze customer-interaction data with Embedded intelligence](../../../../admin/embedded-intelligence.md)  
