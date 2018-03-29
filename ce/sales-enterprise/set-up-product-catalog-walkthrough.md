@@ -1,20 +1,26 @@
 ---
 title: "Set up a product catalog: Walkthrough (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
+description: "Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 for Sales."
+keywords: "Product catalog, collection, products"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: get-started-article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: "shubhadaj"
 ms.assetid: d1677843-906a-49ec-a8c1-d2733870020e
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 28
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Set up a product catalog (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

@@ -46,14 +46,15 @@ manager: "brycho"
   
  ![Dynamics 365 Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 Sales Plan buy now")  
   
-<a name="BKMK_AssignLicense"></a>   
+<a name="BKMK_AssignLicense"></a>  
+ 
 ## Assign a license to a user  
   
 1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
   
 2.  Click **Users** > **Active users**.  
   
-3.  Select multiple users, a then click **Edit product licenses**.  
+3.  Select multiple users, and then click **Edit product licenses**.  
   
  ![Edit product licenses for multiple users](../admin/media/edit-product-licenses-multiple-users.png "Edit product licenses for multiple users")  
   

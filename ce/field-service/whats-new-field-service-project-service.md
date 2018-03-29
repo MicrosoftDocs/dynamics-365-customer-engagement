@@ -65,7 +65,6 @@ However, let's say instead that you're scheduling a project requirement for a Pr
 
 To set the threshold by entity, navigate to **Resource Scheduling** &gt; **Administration** &gt; **Schedulable Entities,** double-click the entity name, and then set the value in **Max Resources** field. Note that if you leave the value field blank, the system assumes it to be the default 100-resource limit.
 
-![Moving image demonstrating how to set the max resource threshold](../field-service/media/FS_SettingsOnBSM-2.gif "Max Resource Threshold Adjustment")
 
 ### More screen real estate
 
@@ -76,10 +75,10 @@ Resource managers and dispatchers need to view as many resources as possible at 
 When users expand the booking requirements grid, the screen used to include an extra row of padding to display a label for the grid. That extra row has now been removed so there's room to show more resources.
 
 **Before:**
-![Image showing what the "Booking Requirements Grid" looked like before the update](../field-service/media/FS_Real_Estate_3.png "Expanding booking requirements before update")
+![Screenshot of the "Booking Requirements Grid" before the update, which includes of lot of padding and white space on the grid.](../field-service/media/FS_Real_Estate_3.png "Expanding booking requirements before update")
 
 **After:**
-![Image showing how the "Booking Requirements Grid" padding was reduced](../field-service/media/FS_Real_Estate_4.png  "Expanding booking requirements after update")
+![Screenshot of the "Booking Requirements Grid" demonstrating how padding was reduced, resulting in less white space on the screen.](../field-service/media/FS_Real_Estate_4.png  "Expanding booking requirements after update")
 
 #### Removed the &quot;Other&quot; row when no bookings to display
 
@@ -89,21 +88,15 @@ Now, the system only shows the rows if there are bookings to display. If there a
 
 Plus, if there are bookings only for work orders, then only the work order row is displayed.
 
-In the example, notice that resources 00001 and 00002 have &quot;Other&quot; rows because there are bookings for individual requirements. However, resource 00003 only has a project row because there are only bookings for projects. Also, notice that resource 00004 doesn't have an expand icon at all, because there are no bookings for that resource within the schedule board time range.
-
-![Moving image showing an expanded resource row with no bookings](../field-service/media/FS_NoOtherRow_5.gif "Expanded resource booking row")
 
 ### Drag-and-drop across resource summary cells to book
 
 On the schedule board, whether users are searching for availability or just creating ad-hoc bookings, they can now drag their mouse across a resource's summary cells to select those cells and display the booking panel. This drag-and-drop action works for the Schedule Assistant as well as on the standard schedule board.
 
-![Moving image demonstrating a resource being dragged](../field-service/media/FS_DragSummary.gif "Drag-and-drop resources")
-
 ### Schedule board detail panel is now available with the pop-out schedule board
 
 When a user accesses the Schedule Assistant from the schedule board, the pane containing alerts, details, and a custom tab becomes available. Now, when a user clicks **Book** on a requirement or a schedulable entity, and the pop-up schedule board is displayed, the pane is now also available.
 
-![Moving image demonstrating the detail panel on the schedule board](../field-service/media/FS_DetailsPanelTake2Final.gif  "Schedule Board detail panel")
 
 ### Improved zoom on the schedule board
 
@@ -111,7 +104,6 @@ In a previous release, we launched a productivity feature that allows schedule b
 
 Now, the click count is reduced even further. If a user has a resource expanded and zooms between the daily, weekly, and monthly schedule board views, the resource remains expanded. The hourly view doesn't have expanded resources, so this feature does not apply.
 
-![Moving image zooming in and out on the schedule board](../field-service/media/FS_Zoom.gif "Zoom on schedule board")
 
 ### New sort option by total available time
 
@@ -120,8 +112,6 @@ Previously, the system included two out-of-the-box options for sorting results w
 For example, let's say a user wants to find the resources that are most underutilized or most overutilized. The user can select the total availability sort option, and then select choose ascending or descending order.
 
 Note that certain resources are considered eligible for work. So, assuming a resource is eligible, and is returned as a possible candidate presented on the schedule board, the sort option shows the resource with the most or least total hours available within the date range.
-
-![Moving image demonstrating how to sort resources by available time](../field-service/media/FS_Image_of_total_sort.png "Sort by available resource time")
 
 [For more details about this new sort option, visit our blog post on the topic](https://go.microsoft.com/fwlink/p/?linkid=865112).
 

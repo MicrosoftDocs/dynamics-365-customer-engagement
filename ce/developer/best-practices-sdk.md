@@ -66,7 +66,7 @@ Always write a plug-in that takes the least time to perform its intended task. F
 <xref:Microsoft.Xrm.Sdk.IOrganizationService.Execute*> method is frequently processed in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. 
 If you register a plug-in on that message, your plug-in can have a significant performance impact on the system because it executes every time that the `Execute` method is processed, which frequently occurs.  
 
-If you intend to register your plug-ins for synchronous execution, we recommend that you design them to complete their operation in less than 10 seconds. 
+If you intend to register your plug-ins for synchronous execution, we recommend that you design them to complete their operation in less than 2 seconds. 
 It’s best to minimize processing time in plug-ins to maintain interactivity of the client applications that are connected to the same organization service that executes the plug-in.  
 
 <a name="limitdata"></a>

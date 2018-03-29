@@ -1,8 +1,8 @@
 ---
-title: "Preview feature: Enable and use comprehensive auditing (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Preview feature: Enable and use activity logging (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
-ms.date: 03/01/2018
+ms.date: 03/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,9 +17,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Preview feature: Enable and use comprehensive auditing
+# Preview feature: Enable and use activity logging 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 > [!IMPORTANT]
 > - This feature currently has limited availability.
@@ -27,26 +27,23 @@ manager: "brycho"
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
-Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from comprehensive auditing can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365.  
+Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from activity logging can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365.  
 
 This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit a broad range of data processing activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review the data in activity reports.
 
 ## Requirements
-An Office 365 Enterprise [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) or [E5](https://products.office.com/business/office-365-enterprise-e5-business-software) subscription is required to do comprehensive auditing.
+An Office 365 Enterprise [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) or [E5](https://products.office.com/business/office-365-enterprise-e5-business-software) subscription is required to do activity logging.
 
 ## How this differs from past audit logging
 Audit logging as described in [Audit data and user activity for security and compliance](audit-data-user-activity.md) covers enabling and viewing logging for specific entities and attributes which you select. What is logged is largely based on the context of the activity. Open a record and activities such as who created the record, what values were entered and changed, who updated it, etc, are logged for that particular record.
 
-Comprehensive auditing has two significant differences with prior [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] auditing:
+Activity logging has two significant differences with prior [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] auditing:
 
 1. You can log user and admin activities across Office and Dynamics 365 apps.
 
    ![Activities across apps](media/activities-across-apps.png "Activities across apps")
 
-2. Auditing occurs at the SDK layer of Dynamics 365 which means much more data is logged than just activities. Consider the following example.
-
-[JimHoltz: I need example from Varun. Lead to Opportunity conversion. One User action results in 10 different platform actions which are logged.]
-
+2. Auditing occurs at the SDK layer of Dynamics 365 which means much more data is logged than just activities. Consider the following examples.
 
 ## What events are audited
 Logging takes place at the SDK layer which means a single action can trigger multiple events that are logged. The following are a sample of admin and user events you can audit.
@@ -67,65 +64,93 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |Event  |Description  |
 |---------|---------|
 |Create, read, update, delete (CRUD)     |Logging all CRUD activities essential for understanding the impact of a problem and being compliant with data protection impact assessments (DPIA). |
-|Multiple record view     |Users of Dynamics view information in bulk, like grid views, reports etc. Critical customer content information is part of these views.|
+|Multiple record view     |Users of Dynamics view information in bulk, like grid views, Advanced Find search, etc. Critical customer content information is part of these views.|
 |Export to Excel     |Exporting data to Excel moves the data outside of the secure environment and is vulnerable to threats.|
 |SDK calls via surround or custom apps     |Actions taken via the core platform or surround apps calling into the SDK to perform an action needs to be logged.|
 |All support CRUD activities     |Microsoft support engineer activities on customer environment.|
 |Admin activities     |Admin activities on customer tenant.|
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
 
+### Microsoft Social Engagement logging   
+
+The following Microsoft Social Engagement (MSE) entities and actions are logged.
+
+|MSE entity  |MSE pages/panels/controls logged  |
+|---------|---------|
+|Search Topic Category      |Create, Rename, Delete          |
+|Search Topic      |Create, Update, Delete          |
+|Custom Source      |Create, Update, Delete           |
+|Blocked Keyword      |Add, Delete          |
+|Blocked Domain      |Add, Delete          |
+|Stream      |Create, Update, Delete         |
+|Post (acquired)   |Internal & External Actions   |
+|Post (published)   |Send   |
+|Author   |Add (GDPR), Delete (GDPR), Delete   |
+|Activity Map   |Create, Update, Delete   |
+|Alert   |Create, Update, Delete   |
+|Preference   |Update   |
+|Social Profile   |Create, Update, Reauthenticate, Delete   |
+|User   |Edit Role, E-mail   |
+|Azure Event Hubs   |Create, Update, Delete   |
+|Dynamics 365   |Create, Update, Refresh, Delete   |
+|Allowed Domain   |Add, Delete   |
+|Automation Rule   |Create, Update, Delete   |
+|AR Notification   |Enable, Disable   |
+|Tag   |Add, Update, Delete   |
+|Label   |Add, Update Delete    |
+|Search Language   |Add, Delete   |
+|Adaptive Sentiment   |Enable, Disable, Reset   |
+|Other Global Settings   |Update   |
+
 ## Base schema
-[JimHoltz: I'll need help with intro text.]
+Schemas define which Dynamics 365 fields are sent to the Office 365 Security and Compliance Center. The following are some fields common to all applications that send audit data to Office.
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
-|Date     |Edm.Date|         |         |
-|IP address     |Edm.String         |         |         |
-|Id     |Edm.Guid         |         |         |
-|Result Status     |Edm.String         |         |         |
-|Organization Id     |Edm.Guid         |         |         |
+|Date     |Edm.Date|         |         |Date and time of when the log was generated in UTC 
+|IP address     |Edm.String         |         |IP address of the user or corporate gateway          |
+|Id     |Edm.Guid         |         |         |Unique GUID for every row logged 
+|Result Status     |Edm.String         |         |Status of the row logged. Success in most cases          |
+|Organization Id     |Edm.Guid         |         |Unique identifier of the organization from which the log was generated. You can find this ID under Dynamics Developer Resources.          |
 |ClientIP     |Edm.String         |         |         |
-|CreationTime     |Edm.Date         |         |         |
-|CrmOrganizationUniqueName     |Edm.Date         |         |         |
-|Message     |Edm.String         |         |         |
-|Operation     |Edm.Date         |         |         |
-|OrganizationId     |Edm.Date         |         |         |
+|CreationTime     |Edm.Date         |         |Date and time of when the log was generated in UTC          |
+|CrmOrganizationUniqueName     |Edm.Date         |         |Unique Name of the CRM organization          |
+|Message     |Edm.String         |         |Name of the message called in Dynamics 365 SDK          |
+|Operation     |Edm.Date         |         |Name of the message called in Dynamics 365 SDK          |
+|OrganizationId     |Edm.Date         |         |Unique Identifier of the user in Azure Active Directory. Also know as user PUID.          |
 |UserKey     |Edm.String         |         |         |
 |UserType     |Self.UserType         |         |         |
 
-
 ## Dynamics 365 schema
-[JimHoltz: I'll need help with intro text.]
+The following are some fields specific to Dynamics 365. 
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
-|User     |Edm.String        |         |         |
-|User Id     |Edm.String         |         |         |
-|Crm Organization Unique Name     |Edm.String         |         |         |
-|Instance Url     |Edm.String         |         |         |
-|Item Url     |Edm.String         |         |         |
-|Item Type     |Edm.String         |         |         |
-|User Agent     |Edm.String         |         |         |
+|User     |Edm.String        |         |UPN of the user          |
+|User Id     |Edm.String         |         |Unique identifier of the user GUID in the Dynamics 365 organization          |
+|Crm Organization Unique Name     |Edm.String         |         |Unique name of the Dynamics 365 organization          |
+|Instance Url     |Edm.String         |         |URL to the instance          |
+|Item Url     |Edm.String         |         |URL to the record emitting the log          |
+|Item Type     |Edm.String         |         |Name of the entity          |
+|User Agent     |Edm.String         |         |Unique identifier of the user GUID in the Dynamics 365 organization          |
 |CorrelationId     |Edm.Guid         |         |         |
-|EntityId     |Edm.Guid        |         |         |
-|EntityName     |Edm.String         |         |         |
-|Fields     |Edm.String          |         |         |
-|Id     |Edm.String          |         |         |
+|EntityId     |Edm.Guid        |         |Unique identifier of the entity          |
+|EntityName     |Edm.String         |         |Name of the entity in the Dynamics 365 organization          |
+|Fields     |Edm.String          |         |JSON of Key Value pair reflecting the values that were created or updated         |
+|Id     |Edm.String          |         |Entity name in Dynamics 365          |
 |InstanceUrl     |Edm.String          |         |         |
 |ItemType     |Edm.String          |         |         |
 |ItemUrl     |Edm.String          |         |         |
 |PrimaryFieldValue     |Edm.String         |         |         |
-|Query     |Edm.String         |         |         |
-|QueryResults     |Edm.String         |         |         |
+|Query     |Edm.String         |         |The Filter query parameters used while executing the FetchXML          |
+|QueryResults     |Edm.String         |         |One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call          |
 |ServiceContextId     |Edm.Guid         |         |         |
 |ServiceContextIdType     |Edm.String         |         |         |
-|ServiceName     |Edm.String         |         |         |
-|SystemUserId     |Edm.Guid         |         |         |
-|UserAgent     |Edm.Guid          |        |         |
+|ServiceName     |Edm.String         |         |Name of the Service generating the log          |
+|SystemUserId     |Edm.Guid         |         |Unique identifier of the user GUID in the Dynamics 365 organization          |
+|UserAgent     |Edm.Guid          |        |Browser used to execute the request          |
 |UserId     |Edm.Guid          |         |         |
 |UserUpn     |Edm.String         |         |         |
-
-
 
 ## Enable auditing in Dynamics 365
 
@@ -174,10 +199,10 @@ You can create your own reports to review your audit data. See [Search the audit
 
 ## What's logged
 
-For a list of what's logged with comprehensive auditing, see [Microsoft.Crm.Sdk.Messages Namespace](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages?view=dynamics-general-ce-9).
+For a list of what's logged with activity logging, see [Microsoft.Crm.Sdk.Messages Namespace](https://docs.microsoft.com/dotnet/api/microsoft.crm.sdk.messages?view=dynamics-general-ce-9).
 
-## What's not logged
-The following are not logged with comprehensive auditing:
+We log all SDK messages except the following:
+
 - WhoAmI
 -	RetrieveFilteredForms
 -	TriggerServiceEndpointCheck
@@ -212,22 +237,70 @@ We use the prefix to categorize.
 |---------|---------|
 |RetrieveMultiple     |ReadMultiple  |
 |ExportToExcel     |ReadMultiple |
+|RollUp |ReadMultiple |
+|RetrieveEntitiesForAggregateQuery |ReadMultiple | 
+|RetrieveRecordWall  |ReadMultiple | 
+|RetrievePersonalWall  |ReadMultiple | 
+|ExecuteFetch  |ReadMultiple | 
 |Retrieve      |Read  |
 |Search     |Read |
 |Get     |Read |
 |Export     |Read |
 
+## Example generated logs
+
+The following are some examples of logs created with activity logging.
+
+### Example 1 – Logs generated when user reads an Account record 
+
+|**Schema Name**  |**Value**  |
+|---------|---------|
+|ID     |50e01c88-2e43-4005-8be8-9ceb172e2e90          |
+|UserKey     |10033XXXA49AXXXX          |
+|ClientIP     |131.107.XXX.XX          |
+|Operation     |Retrieve          |
+|Date     |3/2/2018 11:25:56 PM          |
+|EntityId     |0a0d8709-711e-e811-a952-000d3a732d76          |
+|EntityName     |Account          |
+|Query     |N/A         |
+|QueryResults     |N/A         |
+|ItemURL     |https://orgname.onmicrosoft.com/main.aspx?etn=account&pagetype=entityrecord&id=0a0d8709-711e-e811-a952-000d3a732d76           |
+
+### Example 2 – Logs generated when user sees Account records in a Grid (Export to Microsoft Excel logs are like this) 
+
+|**Schema Name**  |**Value**  |
+|---------|---------|
+|ID     |ef83f463-b92f-455e-97a6-2060a47efe33          |
+|UserKey     |10033XXXA49AXXXX           |
+|ClientIP     |131.107.XXX.XX          |
+|Operation     |RetrieveMultiple           |
+|Date     |3/2/2018 11:25:56 PM          |
+|EntityId     |N/A         |
+|EntityName     |Account          |
+|Query     |\<filter type="and">\<condition column="ownerid" operator="eq-userid" />\<condition column="statecode" operator="eq" value="0" />\</filter>         |
+|QueryResults     |0a0d8709-711e-e811-a952-000d3a732d76, dc136b61-6c1e-e811-a952-000d3a732d76        |
+|ItemURL     |N/A        |
+
+### Example 3 – List of messages logged when user converts a lead to opportunity 
+
+|**ID**  |**EntityID**  |**EntityName**  |**Operation**  |
+|---------|---------|---------|---------|
+|53c98033-cca4-4420-97e4-4c1b4f81e062      |23ad069e-4d22-e811-a953-000d3a732d76          |Contact         |Create         |
+|5aca837c-a1f5-4801-b770-5c66183a58aa      |25ad069e-4d22-e811-a953-000d3a732d76          |Opportunity         |Create         |
+|c9585748-fdbf-4ff7-970c-bb37f6aa2c36      |25ad069e-4d22-e811-a953-000d3a732d76          |Opportunity         |Update         |
+|a0469f30-078b-419d-be61-b04c9a34121f      |1cad069e-4d22-e811-a953-000d3a732d76          |Lead         |Update         |
+|0975bceb-07c7-4dc2-b621-5a7b245c36a4      |1cad069e-4d22-e811-a953-000d3a732d76          |Lead         |Update         |
+
 ## Additional considerations
 
-- When audit log search in the Office 365 Security and Compliance Center is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days. However, your organization might not want to record and retain audit log data. Or you might be using a third-party security information and event management (SIEM) application to access your auditing data. In those cases, a global admin can turn off audit log search in Office 365.
+When audit log search in the Office 365 Security and Compliance Center is turned on, user and admin activity from your organization is recorded in the audit log and retained for 90 days. However, your organization might not want to record and retain audit log data. Or you might be using a third-party security information and event management (SIEM) application to access your auditing data. In those cases, a global admin can turn off audit log search in Office 365.
 
 ## Known issues
 
-- Consider turning off logging of logged events to cut down on the amount of logged data. Do the following:
-  1. step 1
-  2. step 2
-  3. step 3
-- [JimHoltz: I'll need content.]
+- Office has a 3KB limit for each audit record. Therefore, in some cases a single record from Dynamics 365 needs to be split into multiple records in Office. The CorrelationId field can be used to retrieve the set of split records for a given source record. Operations that are likely to require splitting include RetrieveMultiple and ExportToExcel.
+- Some operations need additional processing to retrieve all relevant data. For example, RetrieveMultiple and ExportToExcel are processed to extract the list of records that are retrieved or exported. However, not all relevant operations are yet processed. For example, ExportToWord is currently logged as single operation with no additional details about what was exported.
+- In the Office 365 Security and Compliance Center (protection.office.com), the Activities drop-down has a section called Dynamics 365 activities, with nine activities listed. However, the audit logs currently only use the Accessed other entity type activity. Selecting any of the others alone will filter out all results. The simplest option for now is to click on the Dynamics 365 activities header, which will select all activities.
+- In future releases, logging will disabled for operations that are determined to not be useful based on a review of the logs. For example, some operations result from automated system activity, not user activity.
 
 ### See also
  [Audit data and user activity for security and compliance](audit-data-user-activity.md)<br />

@@ -1,5 +1,5 @@
 ---
-title: "Integrate Dynamics 365 Customer Engagement with Microsoft Teams| MicrosoftDocs"
+title: "Preview feature: Integrate Dynamics 365 Customer Engagement with Microsoft Teams| MicrosoftDocs"
 ms.custom: ""
 description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams. 
 ms.date: 03/30/2018
@@ -17,9 +17,15 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Integrate Dynamics 365 Customer Engagement with Microsoft Teams
+# Preview feature: Integrate Dynamics 365 Customer Engagement with Microsoft Teams 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+
+> [!IMPORTANT]
+> - This feature currently has limited availability.
+> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
+> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
+> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
 
 If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, PowerBI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].
 

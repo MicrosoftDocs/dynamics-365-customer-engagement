@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 509b776a-6932-4c87-881a-353782c95beb
 caps.latest.revision: 48
-author: "kamaybac"
-ms.author: "kamaybac"
+author: "shubhadaj"
+ms.author: "shujoshi"
 manager: "sakudes"
 ---
 # Create a marketing list using in-app marketing (Sales)

@@ -39,7 +39,7 @@ On any of the above pages, scroll down and click **Get Started** to start a 30-d
  If you already have a [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] subscription, there are a couple ways to see the latest version in action.  
   
 ### Start a trial  
- You can start a 30-day trial of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and try out one or all of the customer engagement applications. This trial uses the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] Customer Engagement Plan Enterprise Edition license.  
+ You can start a 30-day trial of [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)] and try out one or all of the customer engagement applications. This trial uses the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] Customer Engagement Plan license.  
   
 <!-- ![Trial experience for Dynamics 365](../admin/media/trial-experience-dynamics-365.png "Trial experience for Dynamics 365")  -->
   

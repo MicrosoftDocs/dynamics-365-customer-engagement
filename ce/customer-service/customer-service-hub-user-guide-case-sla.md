@@ -16,18 +16,14 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<a name="bkmk_CaseMgmt"></a>   
-
- Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub, you can do all your important tasks and actions without navigating to different parts of the application.  
+Creating and managing a case can’t be any simpler. With the intuitive case form in the Customer Service Hub, you can do all your important tasks and actions without navigating to different parts of the application.  
   
- You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
+You can capture important information about customers, interactions you’ve had with them, and all related records of the current case in once single place.  
 
- Watch this video to learn more about case management in the Customer Service Hub:
+Watch this video to learn more about case management in the Customer Service Hub:
 
-<div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/Y_eV4HeIm04?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9" frameborder="0" allowfullscreen=""></iframe></div>
   
-<a name="bkmk_Create"></a>   
-
 ## Create a case  
   
 1.  Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.  
@@ -44,7 +40,7 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
     - Select **Assign** to assign a case to another owner.
     - Select **Add to Queue** to add a case to a queue.  
  
-    ![active-case-view](media/active-case-view.png)
+    ![active-case-view](media/active-case-view.png "Active case view")
   
 3.  On the command bar, select **New Case**.  Alternatively, you can quickly create a new case by selecting ![quick-create-case](media/quick-create-icon.png) in the nav bar and selecting **Case**. This opens a vertical flyout towards the right side of the screen.
     
@@ -100,9 +96,8 @@ ms.assetid: 38adb801-c03b-468a-b5ce-ff083bdab360
        - Select **Create Child Case** to create a child case
        - Select **...** in the command bar to explore more options for the case.
 
-    ![completed-case](media/completed-case.png "completed case form")
+    ![completed-case](media/completed-case.png "Completed case form")
   
-<a name="bkmk_TrackSLADetails"></a>   
 
 ## Track SLA details with Timer Control  
  You or the CSR working on the case can see the SLA details right on the case form.   The following table explains what happens when an enhanced SLA applies to a case form. 
@@ -117,7 +112,7 @@ Only the failure time is tracked and saved on the case record. You can ask your 
 ### Case form with Enhanced SLA applied 
 When an enhanced SLA is applied to a case, a related **SLA KPI Instance** record is created for each SLA KPI that is tracked for that case. On the **Summary** tab of the case record, you’ll see a timer that shows the time remaining to meet each SLA KPI.<br /><br /> ![Timer showing time left to achieve SLA KPI](../customer-service/media/v9-1-enhancedslatimer-case-form.png "Timer showing time left to achieve SLA KPI")<br /><br />When a service rep puts a case on hold, the status of the SLA KPI Instance is set to **Paused**. You can see the time for which a case was on hold and the last time the case was put on hold. These details are not available on the case form by default, but your system customizer can add these fields on the case form for you. 
 
-![sla-paused](media/sla-paused.png)
+![sla-paused](media/sla-paused.png "SLA paused")
 
 The on-hold time is the time for which the case was set to a status that you defined as an **On-Hold** status in the **System settings** dialog box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Service tab.](../admin/system-settings-dialog-box-service-tab.md)<br /> When the service rep resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn’t violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case is on hold<br /><br /> If the service rep puts the case on hold after the warning time, then the warning time isn’t updated when the case is resumed.
 
@@ -139,7 +134,6 @@ You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../inclu
 
 To know more about adding a timer control to a case form, see [Add a timer control to the Case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md). 
   
-<a name="bkmk_ManageActivities"></a>   
 
 ## Manage activities from the Timeline  
  Capture all interactions and communications you’ve had with your customer by adding them as activities in the Timeline section. The Timeline section gives you a unified view of everything that's happening on a case, like email received, a follow-up task that you created, system posts that are automatically generated when the cases is created, or any notes you take while talking to the customer.  
@@ -150,12 +144,11 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 |-|-|-|  
 |**To**|**Do this**|| 
 |Enter a note |  Enter a note by selecting the **Enter a note** box. You can also add attachments to your notes.|
-|View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png) |
+|View what you have missed | See any interaction missed from the previous day or week at the top of the Timeline![whats-new](media/whats-new.png "What's new in Timeline") |
 |Create a new interaction|In the **Timeline** section, select **+**, and then select an interaction type: Activity, Appointment, Email, Phone call, Task, Note or a Post.<br /> ![Create an activity from the timeline](../customer-service/media/v9-timeline-new-activity.png "Create an activity from the timeline")<br />To draft an email in the email activity, you can use the rich text editor, which has several formatting options. More information: [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
 |Filter activities|1.  In the **Timeline** section, select  **(...)**  and select **Open Filter Pane**.<br />2. Filter the timeline for a specific activity type or by date. You can filter on the basis of Activity status or record type. |  
 |Take actions on an activity|For an activity, select the **Quick Actions** button ![Select the icon to take actions on the activity](../customer-service/media/v8-quick-actions.png "Select the icon to take actions on the activity")  and select the action you want to take. For example, for a Phone Call activity, you will see actions like Close Activity, Add to Queue, and Open Entity Record.<br />|  
   
-<a name="bkmk_ManageRelatedRecords"></a>
    
 ## See and manage related records in the Related section  
  The **Related** section (also known as Reference panel) in a case record provides you quick access to important information related to the selected case that would help you in solving the case. For more information, see [Related section](customer-service-hub-user-guide-basics.md#related-section).
@@ -176,7 +169,7 @@ To know more about adding a timer control to a case form, see [Add a timer contr
 > [!IMPORTANT]
 >  The knowledge base search in the Customer Service Hub shows relevant knowledge articles only when your organization is set up to use the native [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management capability. For more information, talk to your administrator.  
   
-  ![knowledge-article-search](media/case-form-search-rp.png) 
+  ![knowledge-article-search](media/case-form-search-rp.png "Knowledge article search") 
   
 -   Type a different keyword to search for other knowledge articles. The following fields of a knowledge article are searched for the keywords that you type: **Title**, **Content**, **Keywords**, **Description**, and **Article Public Number**.  
   
@@ -205,8 +198,6 @@ To know more about adding a timer control to a case form, see [Add a timer contr
     >  This option is available only if your organization is using an external portal to publish the knowledge articles and your administrator has selected the **Use an external portal** check box in the **Embedded Knowledge search** setup. If you use a browser other than [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], this option isn’t available.  
   
   
-<a name="bkmk_ConvertToCase"></a> 
-  
 ## Convert a case to a Knowledge Article  
  There are times when existing knowledge articles do not contain relevant information for resolving a case. You, as a CSR, can now contribute to the knowledge base by turning all information that has been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
@@ -227,7 +218,6 @@ To know more about adding a timer control to a case form, see [Add a timer contr
   
 The knowledge article is created regardless of whether you set **Open the new knowledge article** to **Yes** or **No**.  
   
-<a name="bkmk_MergeCases"></a> 
   
 ## Merge cases  
  When a customer opens multiple cases about the same issue (through different support channels), or when multiple customers from the same account call in about the same issue, you can merge those cases into one case to eliminate redundancy.  
@@ -269,7 +259,6 @@ The knowledge article is created regardless of whether you set **Open the new kn
   
 4.  To see the merged case, open the case it was merged into. You'll find the merged case listed in the **Merged Cases** section on the **Case Relationships** tab.  
   
-<a name="bkmk_ParentChildCases"></a> 
   
 ## Create and manage parent and child cases  
  You can manage multiple cases more efficiently if you use parent and child cases in the Customer Service Hub. When you want to track a case where work needs to be done by other departments, or when you need to track the same issue for multiple customers,  open a primary, or "parent" case, and then create secondary, "child" cases.  For example, if you get a service request to install new electrical and gas connections, this requires work to be done separately by the gas and electric departments. In this situation, you can open two child cases, one for the gas department and the other for the electric department. The original case is marked as the parent case. Once the child cases are resolved, you can then close the parent case.  
@@ -334,7 +323,6 @@ You can set a parent child relationship between cases where you can set one case
 > [!IMPORTANT]
 >  Before you resolve a parent case with active child cases, make sure that all the case activities are closed. Otherwise, you’ll get a warning stating that you need to manually close the open activities or the system will automatically cancel the open activities when the case is resolved. Also, performance may be slow when you close a parent case with lots of active child case associated with it.  
   
-<a name="bkmk_ResolveCase"></a>   
 
 ## Resolve a case  
   
@@ -356,7 +344,6 @@ You can set a parent child relationship between cases where you can set one case
   
 6.  Select **Resolve**.  
   
-<a name="bkmk_Cancel"></a>  
  
 ## Cancel a case  
  All case activities must be closed before you can cancel a case.  
@@ -371,7 +358,6 @@ You can set a parent child relationship between cases where you can set one case
   
 3.  Select **Confirm**.  
   
-<a name="bkmk_Reassign"></a>  
  
 ## Reassign a case  
  If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
@@ -382,7 +368,6 @@ You can set a parent child relationship between cases where you can set one case
   
 3.  Select **Assign**.  
   
-<a name="bkmk_AddtoQueue"></a>   
 
 ## Add a case to a queue  
  If you think another group in your team has expertise on the subject, you can move the case to a queue so that someone else can pick it up.  
@@ -397,7 +382,6 @@ You can set a parent child relationship between cases where you can set one case
 
 To know more about Queues, see [Manage Queues](customer-service-hub-user-guide-basics.md#manage-queues).
   
-<a name="bkmk_SaveAndRoute"></a>   
 
 ## Save and route a case  
  To save a case record and route it to a queue in a single select, use the **Save & Route** button.  
@@ -413,7 +397,6 @@ To know more about Queues, see [Manage Queues](customer-service-hub-user-guide-b
     > [!IMPORTANT]
     >  The **Save & Route** button is available only on active cases.  
   
-<a name="bkmk_SLA"></a> 
   
 ## Use SLA on the Customer Service Hub records 
  
@@ -435,3 +418,6 @@ Your system administrator can enable entities other than case for SLA. For the C
 ### See also
 
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
+
+
+[Use the Main form and its components](../customize/use-main-form-and-components.md)

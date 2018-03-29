@@ -25,10 +25,11 @@ Read this topic to learn how to set up Dynamics 365 for Marketing for the first 
 ## Prerequisites and requirements
 
 > [!IMPORTANT]
-> A setup form is provided to help you set up [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for the first time. Before opening the form, you must meet all the following requirements:
+> To install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], you must meet all the following requirements:
+> - **You must be running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher**.
 > - You must already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 > - You must already have a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] license assigned to you on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
-> - You must run the setup form as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user with admin privileges on the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org where you are installing [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+> - You must run the setup wizard as a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user with admin privileges on the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org where you are installing [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 > - Close all other browser windows and tabs before starting.
 > - Clear your browser cache before starting.
 >
@@ -50,14 +51,14 @@ Read this topic to learn how to set up Dynamics 365 for Marketing for the first 
 > See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
 
-## Fill out the setup form
+## Fill out the setup wizard
 
-After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll get the URL you need to access the app. The first time you open the link, you'll launch a setup form that guides you through the setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the form will help you review all the relevant privacy policies and set up and integrate these various elements.
+After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you'll get the URL you need to access the app. The first time you open the link, you'll launch a setup wizard that guides you through the setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the form will help you review all the relevant privacy policies and set up and integrate these various elements.
 
 > [!IMPORTANT]
-> Most of the settings you make while running the setup form will be *permanent* for your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance, so take care while filling it out.
+> Most of the settings you make while running the setup wizard will be *permanent* for your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance, so take care while filling it out.
 
-The remaining sections of this topic describe each step of the setup form.
+The remaining sections of this topic describe each step of the setup wizard.
 
 ### Step 1: Choose an organization and name your portal
 
@@ -105,7 +106,7 @@ All your portals are hosted on your [!INCLUDE[pn-microsoftcrm](../includes/pn-dy
 ### Step 2: Give consent and enter your postal address
 >>>>>>> 0eea78dad1aefd278081e5af13d8dbd51fafde37
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes several services, solutions, and apps, some of which require you to consider and accept various license agreements and privacy statements. The second page of the setup form lists each of these and provides links for more information. 
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes several services, solutions, and apps, some of which require you to consider and accept various license agreements and privacy statements. The second page of the setup wizard lists each of these and provides links for more information. 
 
 All marketing email messages sent by [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] must include the physical street address of your organization, and several other required elements. These requirements help maximize email deliverability while also helping make sure you conform to common legal requirements for marketing email. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Best practices for email marketing](get-ready-email-marketing.md)
 

@@ -12,12 +12,14 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 41b89fd8-bfaf-40bb-8428-2013b5271230
 caps.latest.revision: 30
-author: "brycho"
-ms.author: "brycho"
+author: "jimholtz"
+ms.author: "jimholtz"
 ---
 # Onboard your organization and users
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+
+<!-- Bryce suggests killing this topic -->
 
 New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]? We've put together step-by-step guidance whether you’re still evaluating [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ready to make a purchase, or ready to onboard your organization and users.  
   
@@ -386,7 +388,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Dynamics 365 for Project Service Automation - User's Guide](../project-service/admin-guide.md)
   
--   [Dynamics 365 for Finance and Operations, Enterprise edition](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
+-   [Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
   
 -   [Customer Service hub – User’s guide](../customer-service/user-guide-customer-service.md)
   
