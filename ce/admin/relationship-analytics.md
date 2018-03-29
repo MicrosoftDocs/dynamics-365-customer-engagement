@@ -19,7 +19,7 @@ manager: "sakudes"
 # Preview feature: Use Relationship analytics to gather KPIs 
 
 <!--[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]-->
-Applies to Dynamics 365 (online), version 9.0.2.x
+Applies to Dynamics 365 (online), version 9.0.2<br>
 
 We're introducing a feature called *Relationship analytics*. It enables [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] to assemble relevant information from throughout its database to create a graphical display of key performance indicators (KPIs) and  activity histories related to any contact, opportunity, lead or account. The feature also calculates the overall health and trend of each of your business relationships.  
   
@@ -116,7 +116,7 @@ The relationship pipeline chart relies on several values being available for eac
 
 **Most contacted by:** Provides statistics about the internal contacts who most contacted external contacts. These contacts may include external users who are heavily involved with the internal contacts even if they are not part of the record’s users. <br>
   
-**Relationship activities**: Provides a more detailed look of activities over time, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  
+**Relationship activities**: Provides a more detailed look of activities over fixed time of 90 days, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  
   
 <a name="Calculations"></a>   
 
@@ -199,7 +199,7 @@ The relationship pipeline chart relies on several values being available for eac
 >   
 > If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:  
 >   
-<!-->> - **Time spent by me**: *30 minutes* (the appointment was 30 minutes) --> 
+<!--> - **Time spent by me**: *30 minutes* (the appointment was 30 minutes) --> 
 > - **Time spent by my team**: *90 minutes* (30 min. × 3 team members present)  
 > - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)  
   

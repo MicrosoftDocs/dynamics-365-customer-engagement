@@ -18,7 +18,7 @@ manager: "sakudes"
 ---
 # Embedded intelligence 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+Applies to Dynamics 365 (online), version 9.0.2<br>
 
 Embedded intelligence is a suite of features which continuously analyze the vast collection of customer-interaction data already stored in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] databases, to help you better understand your business relationships, evaluate your activities in relation to previous successes, and choose the best path forward.  
   
@@ -28,7 +28,7 @@ Embedded intelligence includes the following features, which all work together t
 -   Email engagement   
 -   Auto capture  
   
-The features **Relationship Analytics** and **Predictive Lead Scoring** are available as preview features in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).
+The features **Relationship Analytics** <!--and **Predictive Lead Scoring** are--> is available as preview feature in the Dynamics 365 (online), version 9.0.2. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).
   
 A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
@@ -104,6 +104,8 @@ What opportunities should have priority? When was the customer last contacted? W
 [!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
   
 [!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
+
+[!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
   
-### See also   
+   
 

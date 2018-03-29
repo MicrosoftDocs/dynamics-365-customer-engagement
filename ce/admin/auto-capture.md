@@ -18,7 +18,7 @@ manager: "sakudes"
 ---
 # Preview feature: Auto capture of related emails
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+Applies to Dynamics 365 (online), version 9.0.2<br>
 
 Auto capture enables [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to access your email in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find and display messages that are related to your work in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This makes it easy to see your relevant email messages together with all of the other activities that are related to a given record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Each message remains private and visible only to you unless you choose to convert it to a *tracked email*, which you can do with just one click to make that email visible to the rest of your team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   

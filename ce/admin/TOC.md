@@ -246,7 +246,7 @@
 ## [Email engagement](email-engagement.md)
 ## [Auto capture](auto-capture.md)
 ## [Preview feature: Relationship analytics](relationship-analytics.md)
-## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)
+<!--## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
 
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)

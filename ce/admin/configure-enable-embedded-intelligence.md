@@ -18,7 +18,7 @@ manager: "sakudes"
 ---
 # Configure and enable embedded intelligence
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+Applies to Dynamics 365 (online), version 9.0.2
 
 <a name="Prerequisites"></a>   
 
