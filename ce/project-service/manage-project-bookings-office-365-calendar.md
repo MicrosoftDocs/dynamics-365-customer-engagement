@@ -15,6 +15,7 @@ applies_to:
 ms.assetid: 6c8b7914-7ee4-49a5-8b75-4f3131cd1fb4
 caps.latest.revision: 11
 ms.author: "mkaur"
+author: "mduelae"
 manager: "brycho"
 ---
 # Manage projects and bookings in your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar (Project Service Automation)

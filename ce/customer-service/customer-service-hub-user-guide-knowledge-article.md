@@ -16,24 +16,20 @@ ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<a name="BKMK_KnowledgeMgmt"></a> 
   
- With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
+With the new [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] knowledge management module, you can create and manage knowledge articles that your users may be looking for. 
 
- Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of Knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content or embed videos and images.  
+Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of Knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQs), product briefs, and more. Use the rich text editor to create knowledge articles, format your content or embed videos and images.  
   
 > [!IMPORTANT]
 > Knowledge management is available out-of-the-box through the Customer Service Hub app module, and it can work with other customer apps as well. The articles that are created in the Customer Service Hub will be available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application as read-only records.  
 
-  
-<a name="bkmk_KMProcessinCRM"></a>   
 
 ## Knowledge management process  
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub.  
   
  ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365")  
   
-<a name="bkmk_CreateKnowledgeArticle"></a> 
   
 ## Create a knowledge article  
 Turn your customer questions, issues, and feedback into knowledge articles, so other service reps can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging.  You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub. 
@@ -46,7 +42,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
      You’ll be on the **Content** tab of the knowledge article.  
   
-     ![Content tab in the new knowledge article](../customer-service/media/v9-new-article-content-tab.png "Cotnent tab in the new knowledge article")  
+     ![Content tab in the new knowledge article](../customer-service/media/v9-new-article-content-tab.png "Content tab in the new knowledge article")  
   
 4.  In the **Article Content** section, fill in the following details:  
   
@@ -81,7 +77,6 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
 Posts about knowledge article-related activities will begin appearing in the **Timeline** section.  
   
-<a name="bkmk_RTE"></a>   
 
 ## Use the rich text editor to create knowledge articles and emails
  Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the Customer Service Hub. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
@@ -142,7 +137,6 @@ You can author and edit the article in the HTML tab of the Content editor panel,
 
 ![html-panel](media/html-panel.png "HTML pane in content editor for knowledge article")
 
-<a name="bkmk_MarkForReview"></a> 
 
 **Preview**
 
@@ -168,7 +162,6 @@ You can preview the content to view its compatibility on multiple devices, like 
   
 5.  To add the article to a queue so reviewers can pick it from there, on the command bar, select **Add to Queue**, and then select the queue.  
   
-<a name="bkmk_Review"></a>  
  
 ## Review and reject or approve a knowledge article  
  It’s important to review articles for accuracy before they’re published or made available to others.  
@@ -182,7 +175,6 @@ You can preview the content to view its compatibility on multiple devices, like 
 |To suggest review feedback|1.  On the Business process bar, in the **Review** stage, in the **Review** field, select **Reject**. Give the reason for rejection in the **Reject Knowledge Article** flyout. <br />2.  To add details about the changes you want in the knowledge article, go to **Summary** tab and in the **Timeline** section, select **+** to add a note.<br /><br /> The rejected article is  assigned back to the primary author of the knowledge article.|  
 |Approve the content of the article|When you approve the content of an article, it means that the content is ready to be consumed by other customer service reps, and also ready to be published.<br /><br /> On the Business process bar, in the **Review** stage, in the **Review** field, select **Approve**.<br /><br /> The article is now ready to be published.|  
   
-<a name="bkmk_Update"></a>  
  
 ## Update knowledge articles to capture feedback  
  Make sure that your articles are up to date and accurate at all times by updating them based on feedback you receive.  
@@ -210,8 +202,7 @@ You can preview the content to view its compatibility on multiple devices, like 
   
 4.  Update the article based on the feedback.  
   
-  
-<a name="bkmk_AssociateArticle"></a> If the article has information that complements an existing knowledge article, associate the existing article with the current knowledge article.  
+If the article has information that complements an existing knowledge article, associate the existing article with the current knowledge article.  
   
 1.  In the knowledge article, on the command bar, select **More** > **Relate Article**.  
   
@@ -219,7 +210,6 @@ You can preview the content to view its compatibility on multiple devices, like 
   
      The associated article appears in the **Related Articles** list in the **Related Information** section of the **Summary** tab.  
   
-<a name="bkmk_ArticleVersions"></a>  
  
 ## Create and manage article versions  
  Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services.  
@@ -259,7 +249,6 @@ You can preview the content to view its compatibility on multiple devices, like 
   
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
   
-<a name="bkmk_Translate"></a> 
   
 ## Translate a knowledge article in multiple languages  
  Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
@@ -301,7 +290,6 @@ You can preview the content to view its compatibility on multiple devices, like 
   
     -   Delete a translation or version of a translation  
   
-<a name="bkmk_Publish"></a>   
 
 ## Schedule or publish an article  
  After the content in the article is complete and reviewed, you can publish the article to the portal to make it available to your customers. You can publish the article immediately or schedule it for a later time. 
@@ -344,8 +332,6 @@ You can preview the content to view its compatibility on multiple devices, like 
     -   Select **Publish**.  
 
 
-<a name="bkmk_Summary"></a>
-
 ## Track basic details of an article  
 
 Use the **Summary** tab to track some basic details of the article. In the **Summary** tab, you can:
@@ -355,8 +341,6 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 - See the **Timeline**. Add notes, or view what you have missed.
 - View related information about the article in the **Related Information** section. These include related versions, translations, categories, articles, and products
 
-  
-<a name="bkmk_ArticleViews"></a> 
   
 ### Track knowledge article analytics  
  Tracking your content helps you and your authoring team assess its value to your organization and your customers. Knowing and understanding when, where, and how many times an article was viewed tells you how much your customers and team members rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
@@ -403,8 +387,7 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
 > [!NOTE]
 > You can also update the owner of the feedback in the flyout.
-  
-<a name="bkmk_Dashboards"></a>  
+
  
 ## Monitor knowledge articles with dashboards  
  Knowledge managers and authors can now monitor the status of knowledge articles using the two  default dashboards available in the Customer Service Hub.  
@@ -432,3 +415,5 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 
 ### See also
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
+
+[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)

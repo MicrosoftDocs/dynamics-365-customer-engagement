@@ -9,6 +9,7 @@ ms.technology:
   - "project-service-automation"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
+author: "mduelae"
 ms.assetid: 36c9c3e5-5358-4aef-8d88-5953974b70df
 caps.latest.revision: 36
 ms.author: "mkaur"

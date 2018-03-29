@@ -2,7 +2,7 @@
 title: "Manage the post quota for Social Engagement | Microsoft Docs"
 description: "Learn how you can get the most out of your Social Engagement post quota."
 keywords: "quota, post quota, contingent"
-ms.date: 02/01/2018
+ms.date: 03/27/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -64,8 +64,7 @@ Keep track of the number of posts that result from your search topics and count 
 ## Keep the post quota healthy  
  Keeping the post quota healthy is crucial to make sure data acquisition isn't interrupted and you don't miss any relevant information.  
   
-> [!VIDEO https://www.youtube.com/embed/nBwNFQ-xEsw]
-  
+
 ### Impact of exceeding limits  
  All [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Administrators receive email notifications about the monthly post quota. To reduce the number of posts found by your solution, you can narrow your search topics by removing rules that you don’t need any more. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage the quality of your search results](search-results-quality.md)  
   
