@@ -87,7 +87,7 @@
       href: admin/comply-gdpr.md
       items:
       - name: Comply Unified Service Desk data
-      - href: admin/comply-unified-service-desk-data-gdpr.md
+        href: admin/comply-unified-service-desk-data-gdpr.md
   - name: Configure auditing and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Performance data collection using keyboard shortcut
