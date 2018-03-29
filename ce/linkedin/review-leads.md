@@ -16,8 +16,6 @@ topic-status: Drafting
 
 # Analyze leads and lead performance
 
-[!include[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 When a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matches a lead record in [!include[Dynamics 365 (online)](../includes/pn-crm-online-shortest.md)], the lead record is updated with additional information. In addition to the updates of individual lead records, charts on dashboards can represent the performance of a marketing campaign on [!include[LinkedIn](../includes/pn-linkedin.md)].
 
 ## See the details of a lead
