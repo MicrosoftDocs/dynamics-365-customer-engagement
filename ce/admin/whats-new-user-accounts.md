@@ -1,7 +1,7 @@
 ---
 title: "What's new for user account management (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/29/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
