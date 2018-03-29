@@ -9,7 +9,6 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
 ms.assetid: 3fd1c7a7-2f4d-48d5-9ae8-dbb5689c6d67
 author: shubhadaj
 ms.author: shujoshi
@@ -21,7 +20,7 @@ caps.latest.revision: 24
 topic-status: Drafting
 ---
 
-# Use properties to describe a product (Sales)
+# Use properties to describe a product (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

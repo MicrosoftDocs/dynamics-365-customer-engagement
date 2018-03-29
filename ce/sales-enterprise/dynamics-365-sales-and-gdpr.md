@@ -55,8 +55,8 @@ It is also possible to update the read-only records programmatically with the SD
 
 -  If configured, Plugins, Business processes and workflows will run on fields getting updated or becoming editable. 
 
--  In case of (../includes/pn-dynamics-365.md)] Customer Engagement integration with any third-party system, there is a chance of GDPR requested changes to be overwritten if correct sequence of updates is not followed. It is the (../includes/pn-dynamics-365.md)] Customer Engagement system administrator's liability to follow the correct order. 
+-  In case of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement integration with any third-party system, there is a chance of GDPR requested changes to be overwritten if correct sequence of updates is not followed. It is the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement system administrator's liability to follow the correct order. 
 
--  The (../includes/pn-dynamics-365.md)] Customer Engagement system administrator may end up updating fields on the Order entity, which may be required for audit purposes or the administrator may end up altering the order record in a way that changes the original order scope. The responsibility and liability of such an event is entirely on the (../includes/pn-dynamics-365.md)] Customer Engagement system administrator. 
+-  The [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement system administrator may end up updating fields on the Order entity, which may be required for audit purposes or the administrator may end up altering the order record in a way that changes the original order scope. The responsibility and liability of such an event is entirely on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement system administrator. 
 
 To know more about GDPR compliance, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index).

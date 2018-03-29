@@ -100,7 +100,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
       - **Date Field**. Select a date field. The options available in the list are from the entity you selected in the **Record Type** field.
 
 
-   6. Select **Save and Close**.
+   6. Select **Save & Close**.
 
 
 9. Under **Information**, select **Description**, and then enter a description for the goal metric to enable other users to understand what metrics are being tracked. 
