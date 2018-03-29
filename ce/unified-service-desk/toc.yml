@@ -85,6 +85,7 @@
       href: admin/help-improve-unified-service-desk.md
     - name: Comply with General Data Protection Regulation (GDPR)
       href: admin/comply-gdpr.md
+      items:
       - name: Comply Unified Service Desk data
       - href: admin/comply-unified-service-desk-data-gdpr.md
   - name: Configure auditing and diagnostics in Unified Service Desk
