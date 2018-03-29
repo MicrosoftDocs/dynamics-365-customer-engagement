@@ -28,11 +28,11 @@ The uninstall process has three steps:
 ## Prepare to uninstall
 Before you uninstall any [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] components, start by removing any sample data and data dependencies from your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance by doing the following:
 
-1. Remove the sample data if you have installed it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage sample data](additional-settings.md).
-1. Remove all customer journeys that include launch-workflow and/or record-updated tiles because these introduce data dependencies that can interfere with the uninstall. You might consider just deleting all your journeys if you don't need them anymore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
+1. If you have sample data installed, remove it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage sample data](additional-settings.md).
+1. Remove all customer journeys that include launch-workflow and/or record-updated tiles because these introduce data dependencies that can interfere with the uninstall. You might consider deleting all your journeys if you don't need them anymore. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 
 ## Uninstall the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services
-The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uninstall wizard manages most of the uninstall process by doing the following:
+The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uninstall wizard manages most of the uninstall process. It:
 
 - Removes all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], event management, and [!INCLUDE[cc-linkedin-solution](../includes/cc-linkedin-solution.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] application server.
 - Removes your [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] hub and its data.
@@ -43,14 +43,14 @@ To run the uninstall wizard:
 
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md).
 
-1. Select the **Applications** tab to see a list of applications you have installed.  
+1. To see a list of applications you have installed, select the **Applications** tab.  
     ![Open the Applications tab](media/update-app-tab.png "Open the Applications tab")
 
-    The list shows a row marked **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be uninstalled) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
+    The list shows a row named **Dynamics 365 Marketing Application** for each entitlement (license) you have for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. Free entitlements (which can't be uninstalled) show a **Status** of **Not configured**. Installed entitlements show a **Status** of **Configured** and include the name of the instance where they are installed as part of their application name.
 
-1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
+1. Select the configured [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] entitlement that you want to uninstall, and then select the **Manage** button ![The Manage button](media/update-manage-button.png "The Manage button") in the side panel. 
 
-1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to uninstall. Make sure you have chosen the right one.  
+1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to uninstall. Confirm that you selected the right one.  
     ![Choose the Uninstall Marketing link](media/uninstall-wizard.png "Choose the Uninstall Marketing link")
 
 1. Under **Other actions**, select **Uninstall Marketing from this org**.
@@ -58,16 +58,16 @@ To run the uninstall wizard:
 1. Follow the instructions on your screen to confirm and complete the uninstall.
 
 ## Remove [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] solutions in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]
-The uninstall wizard removes the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server, but leaves behind several solutions on your instance. You should clean these up to help keep your instance lean and running smoothly.
+The uninstall wizard removes the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] services from your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server, but it leaves several solutions on your instance. You should clean these up to help keep your instance lean and running smoothly.
 
 To remove the services:
 
 1. Use the app selector to go to the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.  
     ![The app-selector menu](media/nav-apps-custom-ill.png "The app-selector menu")
 
-1. Go to **Settings** > **Customizations** > **Solutions** in the custom app to view the list of solutions installed there.
+1. To view the list of solutions installed in the custom app, go to **Settings** > **Customizations** > **Solutions**.
 
-1. Find each of the following solutions and remove them, one at a time, in the order listed here. To remove a solution, select its check box and then choose **Delete** from the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
+1. Find each of the following solutions and remove them, one at a time, in the order listed here. To remove a solution, select its check box, and then select **Delete** on the command bar. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Install, update, or remove a preferred solution](../admin/install-remove-preferred-solution.md)
     - MicrosoftDynamics_MktEmailTemplates
     -  MicrosoftDynamics_MktIntegration
     -  MicrosoftDynamics_MktPageTemplates
@@ -86,7 +86,7 @@ To remove the services:
     -  MicrosoftDynamics_EventManagementAnchorSolution
     -  LinkedInLeadGenIntegration
 
-1. If you are no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, then you can delete their related solutions too.
+1. If you're no longer using portal or [!INCLUDE[pn-voice-of-the-customer](../includes/pn-voice-of-the-customer.md)] functionality, you can also delete their related solutions.
 
 ### See also
 
