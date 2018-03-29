@@ -16,8 +16,6 @@ topic-status: Drafting
 
 # Establish a connection between [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] and LinkedIn
 
-[!include[Pre-release disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 Before we can sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] campaign accounts to a [!include[Dynamics 365](../includes/pn-crm-2016-shortest.md)] organization, a [!include[LinkedIn](../includes/pn-linkedin.md)] member with access to [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in [!include[Dynamics 365 (online)](../includes/pn-crm-online-shortest.md)]. In [!include[Dynamics 365 (online)](../includes/pn-crm-online-shortest.md)], this user requires at least a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.  
 More information about assigning security roles to users: [TechNet: Create users and assign Microsoft Dynamics 365 (online) security roles](https://technet.microsoft.com/library/jj191623.aspx).
 
