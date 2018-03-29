@@ -239,7 +239,7 @@
 ## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
-# [Analyze customer-interaction data](embedded-intelligence.md)
+# [Embedded intelligence](embedded-intelligence.md)
 ## [Enable and configure embedded intelligence](configure-enable-embedded-intelligence.md)
 ## [Guide customer communications](relationship-assistant.md)
 ## [Stay updated with Action cards](action-cards-reference.md)
