@@ -24,7 +24,9 @@ The relationship assistant is part of the new *Embedded intelligence* suite of f
 
 The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).
 
-[Watch a short video (2:25) about the Dynamics 365 Relationship assistant](https://go.microsoft.com/fwlink/p/?linkid=839677).  
+Watch this short video about the Dynamics 365 Relationship assistant<br>
+<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=839677" frameborder="0" allowfullscreen=""></iframe></div>
+ 
 
 ## How and where the relationship assistant can help you  
 
