@@ -46,9 +46,6 @@ When you create a custom entity, it is automatically assigned a default icon, an
   
     -   No larger than 10 kilobytes.  
   
-<!--Topic referenced not migrated
-> [!IMPORTANT]
->  Before you begin this task, be sure that you have uploaded as web resources any custom icons that you intend to assign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit a form web resource](add-edit-form-web-resource.md)   -->
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   

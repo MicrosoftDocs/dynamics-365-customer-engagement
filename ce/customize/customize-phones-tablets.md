@@ -21,9 +21,7 @@ manager: "brycho"
 With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can design once and deploy everywhere. Customizations you make to your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system appear in the Dynamics 365 for phones and tablets apps as well as in the web app. Your changes are optimized in the mobile apps so they display properly. Choose one of the following or scroll down to see the types of changes you can make, and how they might display differently in the mobile apps than the web app.  
   
  The latest version of the phone app, [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], provides the same full-featured experience as the [!INCLUDE[pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] app. It has the same intuitive user interface (adapted for phones), as well as offline capabilities. 
-<!-- THIS IS DEPRECATED. Not needed on docs.>
-For information about customizing the previous version of the app, see [Create and edit mobile forms for CRM for phones express](../customize/create-edit-mobile-forms-phones-express.md).  
--->  
+
  After you’ve made customizations to a form, users will see a prompt to download updates the next time they open their mobile app.  
   
  [Watch a short video (1:51) about customizing the Dynamics 365 mobile app](https://go.microsoft.com/fwlink/p/?linkid=836829).  
@@ -150,7 +148,7 @@ See [Change application navigation using the SiteMap](../developer/customize-dev
 ```javascript  
 if (Xrm.Page.context.client.getClient() != "Mobile")  
 {  
-    // Add code that should not run in CRM for phones and tablets here  
+    // Add code that should not run in Dynamics 365 for phones and tablets here  
   
 }  
 ```  
@@ -160,7 +158,7 @@ if (Xrm.Page.context.client.getClient() != "Mobile")
 ```javascript  
 if (Xrm.Page.context.client.getClient() == "Mobile" && Xrm.Page.context.client.getFormFactor() == 3)  
 {  
-// Add code that should only run in CRM for phones here  
+// Add code that should only run in Dynamics 365 for phones here  
 }  
 ```  
   
@@ -186,10 +184,7 @@ if (Xrm.Page.context.client.getClient() == "Mobile" && Xrm.Page.context.client.g
 ## Business rules in Dynamics 365 for phones and tablets  
  Business rule definitions are downloaded and cached when Dynamics 365 for phones and tablets opens. Changes made to business rules aren’t applied until the user closes and re-opens the mobile app.  
 
-<!-- (removing link for now since this feature isn’t supported yet)
-> [!NOTE]
-> To add visual controls to the mobile app, see [Add visual controls](add-visual-controls-mobile-app.md). 
- -->
+
  
 ### See also  
 

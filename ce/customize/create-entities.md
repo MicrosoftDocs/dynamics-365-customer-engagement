@@ -25,7 +25,6 @@ manager: "brycho"
   
  Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. For information about how to change the customization prefix, see [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
   
- <!-- MISSING TOPIC For step-by-step instructions to create an entity, see [Create a new entity](http://go.microsoft.com/fwlink/p/?LinkId=316859).  -->
   
 > [!NOTE]
 >  If you are using [!INCLUDE[tn_Safari](../includes/tn-safari.md)] as your browser, you may receive a timeout error when trying to save or publish a new custom entity. If this occurs we recommend you use a different browser to create entities.  

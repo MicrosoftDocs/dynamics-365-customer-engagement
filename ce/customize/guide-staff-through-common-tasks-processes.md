@@ -43,7 +43,6 @@ Defining and enforcing consistent business processes is one of the main reasons 
   
 -   [Create a business process flow](../customize/create-business-process-flow.md)  
   
-<!-- MISSING TOPIC NOT MIGRATED -   [Activate a business process flow or a task flow](../customize/activate-business-process-flow-task-flow.md)  -->
   
 -   [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)    
   
@@ -63,7 +62,7 @@ Defining and enforcing consistent business processes is one of the main reasons 
   
 <a name="useMSFlow"></a>   
 ## When to use Microsoft Flow  
- Use Microsoft Flow when you need to create automated workflows that perform actions between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and your favorite apps and services, such as [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Microsoft Flow to automate processes across services](../basics/use-flow-automate-processes-across-services.md)  <!-- This topic needs to be migrated --> 
+ Use Microsoft Flow when you need to create automated workflows that perform actions between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and your favorite apps and services, such as [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Microsoft Flow to automate processes across services](../basics/use-flow-automate-processes-across-services.md)  
   
 <a name="BKMK_Where"></a>   
 ## Where do I go to create processes?  

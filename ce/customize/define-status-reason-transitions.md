@@ -40,7 +40,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can specify s
 |**Resolved**|<li>**Problem Solved**</li><li>**Information Provided**</li>|
 |**Canceled**|<li>**Canceled**</li><li>**Merged**</li>|
   
- <!-- See [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) for a list of all the default status and status reason values.  -->
   
 <a name="BKMK_EditStatusReasonTransitions"></a>   
 ## Edit status reason transitions  

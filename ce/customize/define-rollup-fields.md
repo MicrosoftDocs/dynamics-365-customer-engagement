@@ -39,10 +39,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *rollup* fields 
   
 -   If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure rollup fields to use custom controls.  
   
- <!-- (removing link for now since this feature isn’t supported yet.)
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../customize/add-visual-controls-mobile-app.md#BKMK_VisualControls)  
- -->
-  
  Some examples of rollup fields include:  
   
 -   Total estimated revenue of open opportunities of an account  

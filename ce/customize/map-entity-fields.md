@@ -28,13 +28,10 @@ tags:
   
  The easier way is to start with the account entity and, using the **Contacts** subgrid on the form, click **+** to add a contact. It will first guide you to look up any existing related contacts so you don’t accidentally create a duplicate record. If you don’t find an existing record, you can click **New** and create a new contact record. The difference is that certain items of data from the account record will be copied into the new contact form to set certain default values that you can edit before saving. This can save a lot of time when you are entering data, and help reduce errors.  
  
-<!-- 
- [Entity and Attribute mappings](../customize/default-entity-attribute-mappings.md) shows all the default mappings set for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  -->
   
 > [!NOTE]
->  These mappings aren’t applied to related records created using a workflow or dialog process. They aren’t automatically applied to new records created using code, although developers can use a special message called InitializeFromt <!-- (../developer/webapireference/functions/descriptions/initializefrom.md) --> to create a new record using available mappings.  
-<!-- Vivek says: This will eventually be https://docs.microsoft.com/en-us/dotnet/api/microsoft.crm.sdk.messages.initializefromrequest when we publish the MREF content live on docs. 
-From Amy: After discussing with Vivek, we decided to go with the new style, not the old .net style. Link is now fixed.-->
+>  These mappings aren’t applied to related records created using a workflow or dialog process. They aren’t automatically applied to new records created using code, although developers can use a special message called InitializeFromt to create a new record using available mappings.  
+
 >   
 >  These mappings only set default values to a record before it is saved. People can edit the values before saving. The data that is transferred is the data at that point in time. It isn’t synchronized. If the information in the primary entity record changes, the related entity record data that was transferred when it was created won’t change.  
   

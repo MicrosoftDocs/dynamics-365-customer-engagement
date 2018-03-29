@@ -21,9 +21,6 @@ manager: "brycho"
 
  You can use a rich set of additional controls to create a more touch-friendly experience on Dynamics 365 for phones and tablets. These include sliders, switches, multimedia player, input masks, calendar, and other controls.  
 
-<!-- (removing link for now since this feature isn’t supported yet.)
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../customize/add-visual-controls-mobile-app.md)
- -->
  
 > [!NOTE]
 >  You can use these additional controls only with the mobile apps. They aren’t supported in the web app.  
