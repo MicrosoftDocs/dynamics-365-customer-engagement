@@ -18,8 +18,6 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 This step is typically performed by administrators of your Dynamics 365 instance.
 
 To remove a custom channel app from your Dynamics 365 instance, you will first have to ensure that none of the components of the custom channel app are in use. This implies that before removing a custom channel app, you will have to remove the custom tile from your customer journeys, or delete the customer journeys containing the custom tile altogether. This includes journeys in any state: draft, live or even past journeys in stopped/expired state. 
@@ -33,9 +31,7 @@ If there are any customer journeys that still use one or more components of the 
 ![](../media/error-delete-solution.png)
 
 Review your customer journey records to identify the ones still using the custom tile, remove the custom tile from the customer journey or the customer journey record itself, and then retry deleting the custom channel app solution.
-<!--
-> [!NOTE]
-> Any insights on customer journeys with a custom channel and custom messages will no longer be available after the custom channel is removed. Any interactions related to custom channel would still remain on contact’s timelines, and scores would remain unchanged. If a lead scoring model was based on custom channel interactions, the model can’t be edited further.-->
+
 
 ### See also 
 
