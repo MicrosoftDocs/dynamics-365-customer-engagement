@@ -94,9 +94,6 @@ Use the settings on this page to change general system-level settings like prefe
 |**Set Azure Content Delivery Network options**||
 |Load default static content from Content Delivery Network|Default is **Yes** and [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will load out-of-the-box static content from the [!INCLUDE [pn-azure-content-delivery-network](../includes/pn-azure-content-delivery-network.md)] (CDN) service. For firewall restrictions and IP whitelisting related issues, system administrators can select **No** to disable the Azure [!INCLUDE [pn-azure-content-delivery-network](../includes/pn-azure-content-delivery-network.md)] feature.|
 
-<!-- |Enable in-app support|Uday to provide text. Not live yet.| -->
-  
 ### See also  
  [Manage auto-save](../customize/manage-auto-save.md)   
  [Customize the Help experience](../customize/manage-auto-save.md)   
-
