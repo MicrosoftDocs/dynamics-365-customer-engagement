@@ -22,7 +22,8 @@ Your Dynamics 365 for Marketing instance (organization) contains a collection of
 
 This section provides information about the solutions and entities in a Dynamics 365 for Marketing instance (organization). This information might be helpful as you customize and extend your app.
 
-### In this section
+### In This Section
 
-[Dynamics 365 for Marketing solutions](marketing-solutions.md)<br>
-[Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)<br>
+[Dynamics 365 for Marketing solutions](marketing-solutions.md)
+
+[Dynamics 365 for Marketing entity reference](marketing-entity-reference.md)

@@ -9,7 +9,7 @@ ms.technology:
 ms.topic: "conceptual"
 applies_to: 
   - "Dynamics 365 (online)"
-ms.assetid: 36cebc83-203f-4afc-9070-efebd8b592ec
+ms.assetid: f0a910ca-fd62-4190-b75f-d61d2db76ca2
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
@@ -20,7 +20,7 @@ manager: "amyla"
 
 Use the **msdyncrm_LoadInteractionsPublic** action to programmatically retrieve interactions for a contact. This action is useful for responding to [get-my-data requests](../gdpr.md#respond-to-get-my-data-requests) in order to fulfill the General Data Protection Regulation (GDPR) compliance.
 
-> TIP
+> [!TIP]
 > You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](../../developer/create-own-actions#generate-early-bound-types-for-an-action)
 
 ## Action parameters
@@ -34,18 +34,18 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <th>Description</th>
 </tr>
 <tr>
-<td>ContactId</td>
+<td><code>ContactId</code></td>
 <td>Edm.String</td>
 <td>ID of the contact record to retrieve the interactions for. Required.</td>
 </tr>
 
 <tr>
-<td>DateFrom</td>
+<td><code>DateFrom</code></td>
 <td>Edm.String</td>
 <td>Start date and time from which you want to retrieve the interactions. Optional.</td>
 </tr>
 <tr>
-<td>DateTo</td>
+<td><code>DateTo</code></td>
 <td>Edm.String</td>
 <td>End date and time until which you want to retrieve the interactions. Optional.</td>
 </tr>
@@ -100,13 +100,13 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 </tr>
 
 <tr>
-<td>Top</td>
+<td><code>Top</code></td>
 <td>Edm.Int32</td>
 <td>Optional. Non-negative integer that limits the number of interactions returned for a contact record. Optional.</td>
 </tr>
 
 <tr>
-<td>SkipToken</td>
+<td><code>SkipToken</code></td>
 <td>Edm.String</td>
 <td>Identifies a starting point in the collection of interactions returned for a contact record. Optional.</td>
 </tr>
@@ -124,7 +124,7 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 <th>Description</th>
 </tr>
 <tr>
-<td>msdyncrm_LoadInteractionsPublicResponse</td>
+<td><code>msdyncrm_LoadInteractionsPublicResponse</code></td>
 <td><a href="/dynamics365/customer-engagement/developer/webapi/web-api-types-operations#complex-types">ComplexType</a> </td>
 <td>Contains the response from msdyncrm_LoadInteractionsPublic action. It contains the following properties that contain the structured data of the type:
 <table>
@@ -133,12 +133,12 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 <th>Type</th>
 <th>Description</th>
 <tr>
-<td>Data</td>
+<td><code>Data</code></td>
 <td>Edm.String</td>
 <td>List of interactions as an escaped JSON array.</td>
 </tr>
 <tr>
-<td>NextSkipToken</td>
+<td><code>NextSkipToken</code></td>
 <td>Edm.String</td>
 <td>Identifies the next cursor or bookmark in the collection of interactions returned for a contact record.</td>
 </tr>

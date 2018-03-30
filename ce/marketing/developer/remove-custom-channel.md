@@ -31,9 +31,7 @@ If there are any customer journeys that still use one or more components of the 
 ![](../media/error-delete-solution.png)
 
 Review your customer journey records to identify the ones still using the custom tile, remove the custom tile from the customer journey or the customer journey record itself, and then retry deleting the custom channel app solution.
-<!--
-> [!NOTE]
-> Any insights on customer journeys with a custom channel and custom messages will no longer be available after the custom channel is removed. Any interactions related to custom channel would still remain on contact’s timelines, and scores would remain unchanged. If a lead scoring model was based on custom channel interactions, the model can’t be edited further.-->
+
 
 ### See also 
 

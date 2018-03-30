@@ -9,7 +9,7 @@ ms.technology:
 ms.topic: "conceptual"
 applies_to: 
   - "Dynamics 365 (online)"
-ms.assetid: 36cebc83-203f-4afc-9070-efebd8b592ec
+ms.assetid: 1550af17-6bb8-47dd-a096-1060213faf1c
 author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
@@ -18,9 +18,7 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-All the entities that are installed as part of the Dynamics 365 for Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so. 
-
-This section provides detailed entity reference for only those entities in Dynamics 365 for Marketing that have a specific developer scenario.
+All the entities that are installed as part of the Dynamics 365 for Marketing solutions support the [standard extensibility/programming model](../../developer/programming-models.md) in Dynamics 365 to perform operations on entities using the **Web API** or **Organization Service**. For example, developers can programmatically create, retrieve, update, and delete (CRUD) entity records provided they have the required privileges to do so.
 
 To view information about all the entities and their properties, attributes, and relationships in your Dynamics 365 for Marketing instance, use the **Entity Metadata Browser** app. It is available as a managed solution that you need to install in your Dynamics 365 for Marketing instance to view the entity reference.
 
