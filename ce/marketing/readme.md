@@ -124,7 +124,7 @@ and possible workarounds for Dynamics 365 for Marketing.
 
     -   Lead scoring results might take up to one hour to be calculated.
 
--   While creating lead scoring rules, dropdowns might not be localized for
+    -   While creating lead scoring rules, dropdowns might not be localized for
     non-English languages.
 
 -   Event management
