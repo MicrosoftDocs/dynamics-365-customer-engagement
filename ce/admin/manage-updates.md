@@ -205,15 +205,6 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-on
 
 For recent versions, see [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
 
-<!--  
-|Version|Availability|Information|  
-|-------------|------------------|-----------------|
-|[!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]|December 2015|[What's new in CRM Online 2016](https://technet.microsoft.com/library/dn531078.aspx)|  
-|[!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]|November 2016|[What's new for administrators and customizers in Dynamics 365 2016 and Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index) |     
-|March Dynamics 365 (online)|March 2016|[What's new in March for Dynamics 365 (online)](https://technet.microsoft.com/library/dn531078.aspx#What's new in March for Dynamics 365 (online))
-|[!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]|October 2017|[Get ready for the next release](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update)
--->  
-
 <a name="BKMK_howtoknow"></a> 
   
 ## How will I know my organization is ready to update?  

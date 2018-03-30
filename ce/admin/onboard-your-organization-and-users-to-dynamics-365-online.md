@@ -19,8 +19,6 @@ ms.author: "jimholtz"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-<!-- Bryce suggests killing this topic -->
-
 New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]? We've put together step-by-step guidance whether you’re still evaluating [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ready to make a purchase, or ready to onboard your organization and users.  
   
 > [!NOTE]
@@ -393,8 +391,6 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 -   [Customer Service hub – User’s guide](../customer-service/user-guide-customer-service.md)
   
 -   [Watch videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
-  
- <!--We also provide a training & Adoption Kit that includes eBooks you can download and customize for your business needs. For example, add your company’s brand and create your own customized training. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training & Adoption Kit for Dynamics 365](training%20&%20Adoption%20Kit%20for%20Microsoft%20Dynamics%20365.md)  -->
   
 <a name="InstallMoCA"></a>   
 ### Install Dynamics 365 for phones or Dynamics 365 for tablets  
