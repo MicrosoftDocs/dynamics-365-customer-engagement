@@ -38,9 +38,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *calculated* fie
   
 -   If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure calculated fields to use custom controls.  
   
- <!-- (removing link for now since this feature isn’t supported yet.)
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../customize/add-visual-controls-mobile-app.md#BKMK_VisualControls)  
- -->
   
  **A few examples of the calculated fields**  
   

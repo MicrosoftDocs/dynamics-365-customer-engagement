@@ -52,12 +52,6 @@ To monitor and manage processes, you must locate the process, evaluate the statu
   
  If you want a view of all the errors for any process, go to **Advanced Find** and create a view showing errors on the process session entity.  
   
-<!-- 
-<a name="BKMK_MonitorDialogs"></a>   
-## Monitoring dialogs  
- Every dialog that is run will create a Process Session record. This record provides a summary of the interaction within the dialog. You can view the Process Sessions for a specific dialog by using the Process Sessions area for that dialog, or you can use **Advanced Find** to create a query where the related **Process** **Category** is **Dialog**.  
--->
-  
 <a name="BKMK_StatusOfWorkflowProcesses"></a>   
 ## Status of workflow processes  
  When you view a list of workflow processes, any individual process can have one of the following **State** and **Status Reason** values:  
