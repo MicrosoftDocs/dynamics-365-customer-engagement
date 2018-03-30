@@ -32,7 +32,7 @@ tags:
   
  However, when you create a 1:N relationship by creating a lookup field, certain default values are set for you. If you want to edit some of the options available in the relationship, you must locate the relationship and edit it.  
   
- Custom 1:N relationships can’t be created for all entities. When this is true there is no option to create a new custom entity relationship using the solution explorer. If you use the metadata browser, you can filter the list of entities according to the `CanBePrimaryEntityInRelationship` and `CanBeRelatedEntityInRelationship` properties.  <!-- See [Use the metadata browser](../customize/create-edit-metadata.md#BKMK_MetadataBrowser) for more information.  -->
+ Custom 1:N relationships can’t be created for all entities. When this is true there is no option to create a new custom entity relationship using the solution explorer. If you use the metadata browser, you can filter the list of entities according to the `CanBePrimaryEntityInRelationship` and `CanBeRelatedEntityInRelationship` properties.  
   
  The definition for the 1:N relationship has four parts: **Relationship Definition**, **Lookup Field**, **Navigation Pane Item for Primary Entity**, and **Relationship Behavior**.  
   
@@ -145,7 +145,7 @@ tags:
 |**Assign**|What should happen when the primary entity record changes ownership?|-   Cascade Active<br />-   Cascade All<br />-   Cascade None<br />-   Cascade User Owned|  
 |**Share**|What should happen when the primary entity record is shared?|-   Cascade Active<br />-   Cascade All<br />-   Cascade None<br />-   Cascade User Owned|  
 |**Unshare**|What should happen when sharing of the primary entity record stops?|-   Cascade Active<br />-   Cascade All<br />-   Cascade None<br />-   Cascade User Owned|  
-|**Reparent**|What should happen when a lookup field value for a parental type relationship in the primary entity record is changed?<br /><br /> A parental type relationship is one that uses **Cascade All** for all actions. <!-- [Customizable Parental Entity Relationships](../customize/customizable-parental-entity-relationships.md) lists the customizable parental system relationships. -->|-   Cascade Active<br />-   Cascade All<br />-   Cascade None<br />-   Cascade User Owned|  
+|**Reparent**|What should happen when a lookup field value for a parental type relationship in the primary entity record is changed?<br /><br /> A parental type relationship is one that uses **Cascade All** for all actions. -   Cascade Active<br />-   Cascade All<br />-   Cascade None<br />-   Cascade User Owned|  
 |**Delete**|What should happen when the primary entity record is deleted?|-   Cascade All<br />-   Remove Link<br />-   Restrict Delete|  
 |**Merge**|What should happen when the primary entity record is merged with another record?|-   Cascade All<br />-   Cascade None|  
   
@@ -164,7 +164,7 @@ tags:
   
 |Field value|Description|  
 |-----------------|-----------------|  
-|**Parental**|All actions use the **Cascade All** behavior.<br /><br /> <!-- [Customizable Parental Entity Relationships](../customize/customizable-parental-entity-relationships.md) lists all of the customizable system entity relationships that use the parental behavior. -->|  
+|**Parental**|All actions use the **Cascade All** behavior.<br /><br /> |  
 |**Referential**|**Assign**, **Share**, **Unshare**, and **Reparent** use the **Cascade None** behavior.<br /><br /> **Delete** uses the **Remove Link** behavior.<br /><br /> **Merge** uses the **Cascade All** behavior.|  
 |**Referential, Restrict Delete**|The same as **Referential**, except that **Delete** uses the **Restrict Delete** behavior.|  
 |**Configurable Cascading**|Individual behaviors can be assigned for each action. If the choices match any of the other **Type of Behavior** categories, the value will change to that **Type of Behavior** value.|  

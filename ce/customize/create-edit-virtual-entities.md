@@ -26,7 +26,7 @@ A virtual entity is a custom entity in [!INCLUDE[pn_crm_shortest](../includes/pn
 
 Virtual entities are made up of three main components, a *data provider*, a *data source* record, and a *virtual entity*. The data provider consists of plug-ins and a data source entity. The data source is an entity record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which includes metadata that represents the schema of the connection parameters. Each virtual entity references a data source in the entity definition.  
   
-[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] includes an OData Data Provider that you can use to connect with an OData v4 web service that accesses the external data. <!-- ADD BACK WHEN AVAILABLE  An Azure Cosmos DB data provider is also available from [AppSource](https://appsource.microsoft.com/).  -->
+[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] includes an OData Data Provider that you can use to connect with an OData v4 web service that accesses the external data. 
   
 Alternatively, developers can build their own data providers. Data providers are installed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
   
@@ -43,7 +43,7 @@ Alternatively, developers can build their own data providers. Data providers are
   
 <a name="AddDataSource"></a>   
 ## Add a data source to use for virtual entities  
- Developers create a custom plug-in to use as the data provider for a virtual entity. <!--[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales).--> Alternatively, you can use the provided OData v4 Data Provider. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)  
+ Developers create a custom plug-in to use as the data provider for a virtual entity. Alternatively, you can use the provided OData v4 Data Provider. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)  
   
 1.  Go to **Settings** > **Administration** > **Virtual Entity Data Sources**.  
   

@@ -101,11 +101,6 @@ manager: "brycho"
   
  The exact behavior for downloading files varies between browsers.  
 
-<!--
-> [!NOTE]
->  You can "Export As" solutions from [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] into [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)] and from [!INCLUDE[pn_crm_8_2_0_op](../includes/pn-crm-8-2-0-op.md)] into [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)]. 
--->
-  
 <a name="BKMK_SettingsOptionsOnSolutionExport"></a>  
  
 ## Settings options for solution export  
