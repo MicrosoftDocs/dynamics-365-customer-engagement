@@ -1,5 +1,5 @@
 ---
-title: "Configure JAWS screen reader support | MicrosoftDocs"
+title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
 description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Microsoft Dynamics 365 Web Client package  are JAWS compliant."
 ms.custom: ""
 keywords: "Dynamics 365 Unified Service Desk; Unified Service Desk; JAWS Screen Reader; Windows Screen Reader"

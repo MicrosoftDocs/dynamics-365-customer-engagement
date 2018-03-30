@@ -165,7 +165,7 @@
         href: create-user-defined-event.md
     - name: Configure toolbars in your application
       href: configure-toolbars-application.md
-    - name: Configure JAWS screen reader support
+    - name: Configure JAWS screen reader for Unified Service Desk
       href: configure-jaws-screen-reader-support.md
     - name: Configure session information
       href: configure-session-information.md
