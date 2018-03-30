@@ -18,7 +18,7 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-Your Dynamics 365 for Marketing instance (organization) contains a collection of solutions that provide business functionality for marketing features. A solution provides a framework for packaging, installing, and uninstalling *components* that provide specific business functionality. Some examples of a solution component are entities, apps, business rules, charts, dashboards, and so on. For information about all the solution components, see [Solution components](../../customize/solutions-overview#solution-components).
+Your Dynamics 365 for Marketing instance (organization) contains a collection of solutions that provide business functionality for marketing features. A solution provides a framework for packaging, installing, and uninstalling *components* that provide specific business functionality. Some examples of a solution component are entities, apps, business rules, charts, dashboards, and so on. For information about all the solution components, see [Solution components](../../customize/solutions-overview.md#solution-components).
 
 This section provides information about the solutions and entities in a Dynamics 365 for Marketing instance (organization). This information might be helpful as you customize and extend your app.
 
