@@ -1,7 +1,8 @@
 ---
-title: "Access a view definition (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Quickstart to access a view definition | MicrosoftDocs"
+description: In this quickstart you learn how to access entity views
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 03/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,19 +11,20 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "PowerApps"
+author: "Mattp123"
 ms.assetid: 034c8bef-0d1c-4ef9-8da7-f81343c4553a
 caps.latest.revision: 25
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
-# Access a view definition
+# Access a view definition in a PowerApps app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_AccessingViewDefinitions"></a>   
 
- There are several ways you can access view definitions in Dynamics 365 Customer Engagement if you are a system administrator or customizer. On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
+ There are several ways you can access view definitions in [pn-powerapps](../includes/pn-powerapps.md)]. On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
   
 - **View**: Opens the definition of the current view in the default solution.  
   
@@ -36,15 +38,13 @@ manager: "brycho"
   
 ## Open a view  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1.  Open solution explorer.  
   
-2.  Click **Customize the System**.  
+2.  Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+3.  Click **Views**.  
   
-4.  Click **Views**.  
-  
-5.  Double-click the view you want to open.  
+4.  Double-click the view you want to open.  
   
  This list of views has four filters you can use to find the views you want more easily:  
   
