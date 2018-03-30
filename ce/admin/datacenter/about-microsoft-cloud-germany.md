@@ -91,10 +91,6 @@ Customer Engagement Plan is a user subscription that includes [!INCLUDE[pn_ms_dy
   
 - [!INCLUDE[pn_bing_maps](../../includes/pn-bing-maps.md)] integration  
 
-<!-- safe to delete after PM go ahead
-- [!INCLUDE[pn_cortana](../../includes/pn-cortana.md)] integration  
--->
-
 - [!INCLUDE[pn_office_365_groups](../../includes/pn-office-365-groups.md)] integration  
   
 - [!INCLUDE[pn_power_bi](../../includes/pn-power-bi.md)] integration  

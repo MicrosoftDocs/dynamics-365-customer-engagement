@@ -32,8 +32,6 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
 > [!NOTE]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
   
- <!-- Eventually, Cortana integration will be fully included in the product.  -->
-  
  For more information about how to enable Preview features, see [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md).  
   
 > [!NOTE]
