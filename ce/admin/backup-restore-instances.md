@@ -71,7 +71,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 - **You can only restore to a Sandbox instance**. To restore to a Production instance, first switch it to a Sandbox instance. See [Switch an instance](../admin/switch-instance.md).  
   
--   Only [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] or later versions are supported for backup.  <!-- At present, you cannot create on-demand backups for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. -->
+-   Only [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] or later versions are supported for backup.  
   
 -   On-demand backups are retained for up to three days. Check your expiration date.  
   
@@ -184,108 +184,5 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
   
 7.  Click **Confirm**.  
  
-<!-- 
-<a name="BKMK_ODBAzureManaged"></a>   
-
-## On-demand backup: Azure managed  
- Using [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] to store and manage your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] backup provides some benefits you should consider.  
-  
- About [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] managed on demand backups:  
-  
--   You must have an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] account to use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage.  
-  
-    > [!TIP]
-    >  If you don't have an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage account and need to create one, see [About Azure storage accounts](https://docs.microsoft.com/azure/storage/storage-create-storage-account).  
-  
--   You can create multiple [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] backups for each instance.  
-  
--   You can back up Production and Sandbox instances.  
-  
-- **You can only restore to a Sandbox instance**. To restore to a Production instance, first switch it to a Sandbox instance. See [Switch an instance](../admin/switch-instance.md).  
-  
-- [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] backups do not count against your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] storage limit.  
-  
-- [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] backups are retained until you delete them.  
-  
-    > [!IMPORTANT]
-    >  We support restoring [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] backups that are supported online and not more than three years old.  
-  
-- [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] backups are identified as **Azure Storage** in the details section.  
-  
- ![How to identify Azure storage.](../admin/media/on-demand-azure-backup-identification.png "How to identify Azure storage.")  
-  
-<a name="BKMK_CreateAzureBackupConfigStorage"></a>   
-
-### Create an Azure on-demand backup  
- Follow these steps to configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage and do a backup.  
-  
-> [!TIP]
->  If you don't have an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage account and need to create one, see [About Azure storage accounts](https://docs.microsoft.com/azure/storage/storage-create-storage-account).  
-  
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
-  
-2.  Click **Admin centers** > **Dynamics 365**.  
-  
-3.  Click the **Backup & Restore** tab.  
-  
-4.  Choose an instance from the **Backups for** drop-down list.  
-  
-5.  If you've already configured Azure storage, you can skip to step 9.  
-  
-6.  Click **Configure Azure Storage**.  
-  
- ![Click Configure Azure storage](../admin/media/click-configure-azure-storage.png "Click Configure Azure storage")  
-  
-7.  Enter the following settings from your [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage account.  
-  
-    |Settings|Example|  
-    |--------------|-------------|  
-    |Storage account name|myazureaccount|  
-    |Secondary access key|XrmGWqu############V5Bc0nFIGjGWiWhHTdMxkA5Mb4WjJ0rDV+3USWW/6fAWCrszrkr############q4nw==|  
-    |Container name|myazurecontainer|  
-  
-     For guidance on how to get these settings, see [Get the information you need from your Azure storage account](#BKMK_GetAzureInfo) further down in this topic.  
-  
-8.  Click **Validate**, and then click **Configure**.  
-  
- ![Configure Azure storage.](../admin/media/configure-azure-storage.png "Configure Azure storage.")  
-  
-9. Click **New Backup**.  
-  
-10. Type a label and any notes to help identify this backup for future restoration.  
-  
- ![Enter backup settings.](../admin/media/on-demand-backup-enter-settings.png "Enter backup settings.")  
-  
-11. Verify that **Azure Storage** is selected as the storage type, and then click **Create**.  
-  
-<a name="BKMK_GetAzureInfo"></a>   
-
-### Get the information you need from your Azure storage account  
- To use [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage for your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance backups, you need to set up a connection between [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Here's how you get the settings from [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] to make the connection. You'll enter these settings in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] when you configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage.  
-  
-1.  Sign in to the [Azure portal](https://portal.azure.com/).  
-  
-2.  Click **More services** > **Storage accounts**, and choose your storage account. Make note of the storage account name. This is used for the first field in **Configure Azure storage**.  
-  
- ![Note the Azure storage account name.](../admin/media/azure-storage-account-name-dialog.png "Note the Azure storage account name.")  
-  
-3.  Click Access keys, and then for **key 2** click **Copy**. Paste this into the second field in **Configure Azure storage**.  
-  
- ![Copy the Azure storage access key.](../admin/media/azure-storage-access-key.png "Copy the Azure storage access key.")  
-  
-4.  Scroll down and click **Containers**. Make note of the storage container name. This is used for the third field in **Configure Azure storage**.  
-  
- ![Note the Azure storage container name.](../admin/media/azure-storage-container-name.png "Note the Azure storage container name.")  
-  
-<a name="BKMK_EditRestoreDeleteAzurebackup"></a>   
-
-### Edit, Restore, or Delete an Azure on-demand backup  
- The process for editing, restoring, or deleting an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] on-demand backup is mostly the same process as  for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] on-demand backup.  See the related [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] sections above.  
-  
- Note the following:  
-  
--   When you delete an [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] on-demand backup, the backup is not removed from [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] storage. Use the [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] portal to remove the backup.  
-  
--->
 ### See also  
  [Switch an instance](../admin/switch-instance.md)   
