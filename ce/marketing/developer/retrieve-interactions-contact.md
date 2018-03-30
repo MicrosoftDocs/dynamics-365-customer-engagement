@@ -50,7 +50,7 @@ The **msdyncrm_LoadInteractionsPublic** action expects the following input param
 <td>End date and time until which you want to retrieve the interactions. Optional.</td>
 </tr>
 <tr>
-<td valign="top">InteractionType</td>
+<td valign="top"><code>InteractionType</code></td>
 <td valign="top">Edm.String</td>
 <td>Type of interaction to be retrieved. Required.<br/> You can specify one of the following values:
 <ul>
