@@ -71,9 +71,9 @@ When you delete a customer record, survey responses are disassociated from the c
 
 **Take this action for survey activity**
 
-When you delete a customer record, and the customer record is included in the **Regarding** field, the corresponding survey activities are deleted.
+When you delete a customer record, and the customer record is included in the **Regarding** field in the survey activity, the corresponding survey activities are deleted.
 
-When you delete a customer record, and the customer record is not included in the **Regarding** field, the corresponding survey activities are disassociated from the customer record. You must delete the associated survey activities before deleting the customer record.
+When you delete a customer record, and the customer record is not included in the **Regarding** field in the survey activity, the corresponding survey activities are disassociated from the customer record. You must delete the associated survey activities before deleting the customer record.
 
 **Scenario 4**: Customer requests to delete a survey response
 
