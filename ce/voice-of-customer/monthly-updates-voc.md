@@ -2,7 +2,7 @@
 title: "Monthly updates in Voice of the Customer for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Voice of the Customer for Dynamics 365."
 keywords: "what's new in voice of the customer"
-ms.date: 03/30/2018
+ms.date: 03/31/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
