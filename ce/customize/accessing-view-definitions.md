@@ -24,7 +24,7 @@ manager: "kvivek"
 
 <a name="BKMK_AccessingViewDefinitions"></a>   
 
- There are several ways you can access view definitions in [pn-powerapps](../includes/pn-powerapps.md)]. On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
+ There are several ways you can access view definitions in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
   
 - **View**: Opens the definition of the current view in the default solution.  
   
