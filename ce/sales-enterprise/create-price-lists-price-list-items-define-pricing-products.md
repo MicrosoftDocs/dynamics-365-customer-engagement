@@ -1,31 +1,40 @@
 ---
 title: "Create price lists and price list items to define pricing of products (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
+description: "Define what to charge for your products or services in Dynamics 365 for Sales."
+keywords: "Price list, price list items"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: get-started-article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shubhadaj"
 ms.assetid: dd53d178-2cd2-4aeb-beb5-be538585d297
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 44
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
-# Create price lists and price list items to define pricing of products (Sales)
+
+# Create price lists and price list items to define pricing of products (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels.  
   
- Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
+Price lists tie the unit, product, and pricing details together, so before you create a price list, make sure the units and products are in place.  
  
-<a name="bkmk_CreatePL"></a>   
-## Step 1: Create a price list  
+
+## Create a price list and add price list items (Sales Hub app)
+
+Currently, creating a price list and adding price list items isn't supported in the Sales Hub app. To create or edit a price list and price list item, use the Sales app.
+
+## Step 1: Create a price list  (Sales app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -37,9 +46,9 @@ Price lists tell your sales agents what to charge for your products or services.
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  In the **Product Catalog** area, click **Price Lists**.  
+3.  In the **Product Catalog** area, select **Price Lists**.  
   
-4.  To create a new price list, click **New**.  
+4.  To create a new price list, select **New**.  
   
      -OR-  
   
@@ -47,16 +56,16 @@ Price lists tell your sales agents what to charge for your products or services.
   
 5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
-6.  Click **Save**.  
+6.  Select **Save**.  
   
 > [!NOTE]
 >  You must create at least one price list for each of the currencies that your organization does business in.  
   
-<a name="bkmk_AddPLItems"></a>   
-## Step 2: Add items to the price list  
- Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
+## Step 2: Add items to the price list (Sales app)
+
+Create a price list item for each unit in which the product is available. For example, if the product is available as a single item (each), in a dozen, and in a gross, create three list items. This lets you order the product in any quantity you want, using the same price list. You can add price list items from the product form also.  
   
-1.  In the price list record, in the **Price List Items** section, click the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
+1.  In the price list record, in the **Price List Items** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   
 2. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -94,19 +103,19 @@ Price lists tell your sales agents what to charge for your products or services.
   
     -   In the **Rounding Amount** box, enter the amount.  
   
-3.  Click **Save**.  
+3.  Select **Save**.  
   
-<a name="bkmk_DefineDefaultPL"></a>   
-## Step 3: Define default price list for territories  
- Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
+## Step 3: Define default price list for territories  (Sales app)
+
+Make sales agents' job easier by adding default pricelists for territories or customer segments the agents are managing. When sales agents are working on opportunities, they see the default price list. Sales agents can later select other price list that they've permission on. You can have one price list as the default for multiple territories.  
    
-1.  In the price list record, in the **Territory Relationships** section, click the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
+1.  In the price list record, in the **Territory Relationships** section, select the **Add Record** button ![Add a record button](../sales-enterprise/media/add-recordbutton.gif "Add a record button").  
   
-2.  In the **Connection** form, in **Name**, click the **Lookup** button, and select a territory.  
+2.  In the **Connection** form, in **Name**, select the **Lookup** button, and select a territory.  
   
-3.  Click **Save & Close**.  
+3.  Select **Save & Close**.  
   
-4.  In the price list form, click the **Auto Save** button ![Auto save button](../sales-enterprise/media/auto-save-button.png "Auto save button").  
+4.  In the price list form, select the **Auto Save** button ![Auto save button](../sales-enterprise/media/auto-save-button.png "Auto save button").  
   
      When the sales agents set or change the customer for an opportunity, if a default price list is added to their territory (customer segment), it is shown.  
   

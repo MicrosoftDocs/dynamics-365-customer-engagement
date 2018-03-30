@@ -24,7 +24,7 @@ This is the release history page for the [Administrator Guide for Dynamics 365 C
 
 Check out the following for more "What's new" and release history information:
 
-- [What's coming for Customer Engagement, Enterprise edition, in the next update for Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update)
+- [What's coming for Customer Engagement in the next update for Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update)
 - [Release History for Dynamics CRM 2016 (online)](https://technet.microsoft.com/library/dn467370.aspx)
 - [What's new for administrators and customizers in Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531078.aspx)
   

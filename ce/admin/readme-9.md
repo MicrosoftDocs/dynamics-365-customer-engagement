@@ -17,7 +17,7 @@ Dynamics 365 Customer Engagement<br>Readme / Known Issues
 
 This document provides important information about this product version:
 
--   Dynamics 365 (online), Enterprise edition, version 9.0
+-   Dynamics 365 (online), version 9.0
 
 You'll also find information about known issues and possible workarounds.
 
@@ -26,7 +26,7 @@ Services and apps availability
 
 | Services and Apps                                                                           | GA | Public Preview | Private Preview |
 |---------------------------------------------------------------------------------------------|----|----------------|-----------------|
-| Dynamics 365 for Sales, Enterprise edition and Dynamics 365 for Service, Enterprise edition | X  |                |                 |
+| Dynamics 365 for Sales and Dynamics 365 for Service | X  |                |                 |
 | Dynamics 365 for Field Service                                                              | X  |                |                 |
 | Dynamics 365 for Project Service                                                            | X  |                |                 |
 | Portal capabilities for Dynamics 365                                                        | X  |                |                 |

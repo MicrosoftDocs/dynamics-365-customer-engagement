@@ -95,6 +95,61 @@ When you [design an interactive survey](#design-interactive-surveys) and select 
 
 Additional fields are displayed based on the selected action. If you need help, point to any field to read the tooltips.
 
+## Design interactive surveys by using answer tag
+
+If you want to personalize a question based on the answer to the previous question, you must use an answer tag. This allows you to insert dynamic text based on the response to the previous question in subsequent questions and answers in the survey at run time.
+
+The answer tag must meet the following requirements:
+- The answer tag must start and end with an underscore and must contain only alphanumeric characters (0-9, A-Z, and a-z).
+- The answer tag must not exceed 100 characters.
+- Each answer tag must be unique in a survey.
+
+The following question types can be used to capture response in the answer tag:
+- Short answer
+- Long answer
+- Single response
+- Net Promoter Score®
+- Customer Effort Score
+- CSAT
+- Rating
+- Numerical response
+- Smilies rating
+- List of ratings 
+- Single rating in columns
+
+The answer tag can be consumed in:
+- Question text of all question types
+- Option text of single and multiple responses questions
+
+The following example illustrates the use of answer tag.
+
+You create a survey to find out tea and coffee drinking habit of your colleagues. You create the questions as follows:
+
+![Survey question designer page 1](media/survey-ques-design-1.png "Survey question designer page 1")
+
+![Survey question designer page 2](media/survey-ques-design-2.png "Survey question designer page 2")
+
+In the above question, you have entered \_beverage\_ in the **Answer Tag** field of question 1. The answer tag \_beverage\_ stores the response to question 1. 
+
+![Answer tag](media/answer-tag.png "Answer tag")
+
+When you view the survey at run time, the \_beverage\_ in the subsequent questions is replaced with the answer of the question 1.
+
+![Answer tag stored for the first question at survey run time](media/survey-runtime-1.png "Answer tag stored for the first question at survey run time")
+
+![Answer tag replaced at survey run time](media/survey-runtime-2.png "Answer tag replaced at survey run time")
+
+To add an answer tag:
+1.	Sign in to Dynamics 365.
+2.	Go to **Voice of the Customer** > **Surveys**.
+3.	Select the name of the survey to which you want to add an answer tag.
+4.	Add the questions to the survey, if required. If the questions are already added, go to the question editor.
+5.	Under **Advanced**, enter a value in the **Answer Tag** field.
+    
+    ![Answer tag](media/answer-tag.png "Answer tag")
+
+6.	Save the question and publish the survey.
+
 ## Add the unsubscribe option to a survey
 
 You can configure your survey to include a link that allows a respondent to unsubscribe from the survey. If this option is configured, the respondent is redirected to another survey to capture reasons for unsubscribing. When the response is received in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], the respondent's contact preferences can be updated to prevent further surveys being sent.

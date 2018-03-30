@@ -2,7 +2,7 @@
 title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
-ms.date: 09/22/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -24,7 +24,6 @@ topic-status: Tech Reviewing
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[//]: # ("After" instead of "once" is from the Writing Style Guide.)
 Does your lead have what you're looking for&mdash;and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. Qualifying a lead in the Sales app converts it to an opportunity.  
   
 Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the timeframe they need it.  

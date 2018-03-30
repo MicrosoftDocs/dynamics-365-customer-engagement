@@ -38,11 +38,18 @@ You can edit the text of any new or existing text block by working directly in t
 
 Select a text block and use the settings provided on the **Properties** tabs to stylize the block itself by using colors, fonts, margins, borders, and backgrounds. Many of the settings on the **Style** tab (which apply to the overall page, form, or message design) also affect the styling of text-block content unless overruled locally.
 
+For email messages, the text toolbar includes an assist-edit button, which is marked with **</>**. Use this to place dynamic text, including field values such as the recipient's name. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content](prepare-marketing-emails.md#dynamic-content)
+
 ### Image blocks
 
 Image blocks add an image to a column, outside a text block. Image blocks interact with the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] image gallery, which helps you store, categorize, find, and share your image files.
 
-When you first add an image block, an image placeholder appears at the location where you dropped the block. Select the image placeholder and open the **Properties** tab, where you choose or upload the image file to be placed by the block.
+When you first add an image block, an image placeholder appears at the location where you dropped the block. Select the image placeholder and open the **Properties** tab, where you can set the following options.
+
+- **Source**: Select the **Image Gallery** button next to this field to select an existing image from the gallery, or to upload a new one. When an image is selected, its file name is shown here.
+- **Alt text**: Enter a short description of the image. This text will be read aloud to contacts that are using a screen reader, and will also be shown to contacts that have images disabled in their browser or email client. 
+- **Link**: Enter a URL here if you'd like the image to function as a link.
+- **Alignment**: Choose how the image should be aligned relative to its column (left, right, or center).
 
 When you select an image block, you can use an inline toolbar to delete, clone, or move the block.
 
@@ -66,23 +73,13 @@ When you select a button block, you can use an inline toolbar to style the butto
 
 This section describes content blocks that are only available when you are designing a marketing email message.
 
-### Marketing page blocks
+<a name="event-blocks"></a>   
 
-Marketing-page blocks create a colorful button in a column, outside a text block, that links to one of your marketing pages. The button is created by using pure HTML text and styling only (no image files), and acts as a link to the marketing page you define for it.
+### Marketing-page, event, and survey blocks
 
-Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the marketing page it should link to.
+Each of these types of blocks creates a colorful button in a new row (outside a text block) that links to a page, event, or survey (depending on the block type). The button is created using pure HTML text and styling only (no image files), and acts as a link to the page, event, or survey you define for it.
 
-### Event blocks
-
-Event blocks create a colorful button in a column, outside a text block, that links to the event portal for one of your events. The button is created by using pure HTML text and styling only (no image files), and acts as a link to the event you define for it.
-
-Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the event it should link to.
-
-### Survey blocks
-
-Survey blocks create a colorful button in a column, outside a text block, that links to one of your online surveys also created in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. The button is created by using pure HTML text and styling only (no image files), and acts as a link to the survey you define for it.
-
-Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the survey it should link to.
+Use the **Properties** tab to establish the appearance of your new or selected button, and to choose the page, event, or survey it links to.
 
 ## The form block for marketing pages
 
@@ -94,11 +91,12 @@ After it is configured, each form block places a *marketing form*, which defines
 
 To configure a form block, select it in your layout, open the **Properties** tab, and make the following settings:
 
-- **Marketing form**: Choose the marketing form to be placed by the form block. Usually, you'll just use an existing form, but you can also create a new one from here if needed. You can only select or create a marketing form that matches the page type that you selected when picking a template.
-- **Update Contacts and Leads:** This is a read-only field that shows whether the selected marketing form is set to update contacts and/or leads in response to form submissions.
-- **Confirmation Message**: Enter a message to show to visitors right after they submit the form. Use this to thank the submitter and confirm their submission.
+- **Marketing form**: Choose the marketing form to be placed by the form block. Usually, you'll just use an existing form, but you can also create a new one from here if needed. You can only select or create a marketing form that matches the current page type.
+- **Update contacts/leads:** This is a read-only field that shows whether the selected marketing form is set to update contacts and/or leads in response to form submissions.
+- **Confirmation message**: Enter a message to show to visitors right after they submit the form. Use this to thank the submitter and confirm their submission.
+- **Error message**: Enter a short message that tells the user that a temporary error has prevented the system from accepting the form submission. For example, "We can't accept your form submission right now. Please try again later."
+- **Limit exceeded message**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
 - **Redirect URL**: Enter a URL to send the submitter to immediately after they submit the form. This typically would be a page on your own website that thanks the submitter and confirms their submission, or some other message related to the purpose of your marketing page.
-- **Limit Exceeded Message**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
 
 ## Form content blocks
 
@@ -189,7 +187,7 @@ Captcha blocks are only available when you are working with a landing-page form.
 ### See also
 
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
 [Work with email templates](email-templates.md)  
 [Create and deploy marketing pages](create-deploy-marketing-pages.md)
