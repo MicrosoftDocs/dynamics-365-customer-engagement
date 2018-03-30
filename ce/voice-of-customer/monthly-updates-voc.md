@@ -2,7 +2,7 @@
 title: "Monthly updates in Voice of the Customer for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Voice of the Customer for Dynamics 365."
 keywords: "what's new in voice of the customer"
-ms.date: 01/23/2017
+ms.date: 03/30/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -20,7 +20,7 @@ topic-status: Drafting
 
 Welcome to Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. Here's a list of features we added and updated recently. For more information about the updates that have been made to Voice of the Customer for Dynamics 365 to date, along with additional details about those updates, see [here](https://blogs.msdn.microsoft.com/crm/tag/voice-of-the-customer/).
 
-## Voice of the Customer version <<version_number>>
+## Voice of the Customer version 9.0.1113.10
 
 Following are the new and updated features in this release:
 
