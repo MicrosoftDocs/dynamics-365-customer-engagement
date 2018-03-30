@@ -34,7 +34,7 @@ Synchronous requests block the execution of other scripts, which can cause the f
 
 - Unresponsive client pages
 - Slow client interactions
-- The browser "hanging" in an unresponsive state
+- The browser stops responding
 
 <a name='guidance'></a>
 
