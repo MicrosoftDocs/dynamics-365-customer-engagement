@@ -40,7 +40,8 @@ For example:
 By default, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader does not support reading toolbar button tooltip text. However, you can create [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] custom scripts to enable [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to read tooltip text.
 
 Here is a sample script for checking button name and tooltip text (help text). 
-In [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], if you do not configure the tooltip text explicitly, the system applies the button name to the tooltip text. In such case, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] read both the button name and the tooltip text. To avoid reading the button name and tooltip text, you can create a custom script to  whether the button name and tooltip text is same.
+In [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], if you do not configure the tooltip text explicitly, the system applies the button name to the tooltip text. In such case, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] read both the button name and the tooltip text. To avoid reading the button name and tooltip text, you can create a custom script to check whether the button name and tooltip text is same.
+
 In the sample script, if the help text is not the same as button name, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader reads the tooltip (help text).
 
 ```
