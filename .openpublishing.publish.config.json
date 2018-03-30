@@ -7,10 +7,11 @@
       "build_output_subfolder": "customer-engagement",
       "locale": "en-us",
       "monikers": [],
+      "moniker_ranges": [],
       "xref_query_tags": [
         "/dotnet"
       ],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
@@ -107,8 +108,8 @@
   },
   "need_generate_pdf_url_template": true,
   "targets": {
-     "Pdf": {	
-      "template_folder": "_themes.pdf"	
+    "Pdf": {
+      "template_folder": "_themes.pdf"
     }
   },
   "dependent_packages": [
