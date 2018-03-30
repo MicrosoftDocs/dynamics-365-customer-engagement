@@ -83,4 +83,4 @@ However, if the customer has submitted the response anonymously, use must use [A
 
 ## Feedback entity
 
-If you have enabled Feedback entity for a survey, you must take appropriate actions to view/export/update/delete it.
+If you have enabled Feedback entity for a survey, you must take appropriate actions to view, export, update, or delete it.
