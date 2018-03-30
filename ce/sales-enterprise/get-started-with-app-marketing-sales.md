@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: aa14c110-056b-4edd-b8df-b1eae71a1ccb
 caps.latest.revision: 46
-author: "kamaybac"
-ms.author: "kamaybac"
+author: "shubhadaj"
+ms.author: "shujoshi"
 manager: "sakudes"
 ---
 # Get started with in-app marketing (Sales)

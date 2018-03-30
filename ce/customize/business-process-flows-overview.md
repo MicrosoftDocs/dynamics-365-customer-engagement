@@ -79,7 +79,6 @@ Business process flows provide a guide for people to get work done. They provide
   
  To make sure a business process is loaded by default for all user (behavior equivalent to “pinning” the process), a custom Client API script (web resource) can be added on form load that specifically loads an existing business process instance based on the business process definition ID. 
  
-<!--For reference on SetActiveProcessInstance and GetProcessInstances functions, refer to the following article: [Xrm.contextObj.data.process (client-side reference)](../developer/clientapi/reference/xrm-contextobj-data-process.md)-->  
   
 <a name="BKMK_Considerations"></a>   
 ## Business process flow considerations  

@@ -1,3 +1,8 @@
+---
+title: Supplemental Terms of Use for Microsoft Dynamics 365 Online Previews
+author: brycho
+---
+
 **Supplemental Terms of Use for**  
 **Microsoft Dynamics 365 Online Previews**
 

@@ -29,6 +29,7 @@ topic-status: Drafting
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
+<li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 
 </td><td>
 
@@ -55,7 +56,6 @@ topic-status: Drafting
 
 <h2>Design marketing emails and landing pages</h2>
 <li>[Design your digital content](design-digital-content.md)</li>
-<li>[Designer keyboard shortcuts](designer-shortcuts.md)</li>
 <li>[Content blocks reference](content-blocks-reference.md)</li>
 <li>[Prepare marketing email messages](prepare-marketing-emails.md)</li>
 <li>[Work with email templates](email-templates.md)</li>

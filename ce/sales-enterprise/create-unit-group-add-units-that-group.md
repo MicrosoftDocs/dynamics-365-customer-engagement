@@ -1,31 +1,40 @@
 ---
 title: "Create a unit group and add units to that group (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 for Sales."
+keywords: "unit, unit group, measurement, quantity"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 author: "shubhadaj"
 ms.assetid: af99268c-9dc3-4037-b3cc-3d2a0eb2b296
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 18
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
-# Create a unit group and add units to that group (Sales)
+
+# Create a unit group and add units to that group (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
- In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
+ In [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
-<a name="bkmk_CreateUnitGroup"></a>   
-## Step 1: Create a unit group  
+## Create a unit group and add units (Sales Hub app)
+
+Currently, creating a unit group or adding units isn't supported in the Sales Hub app. To create or edit a unit group and unit, use the Sales app.
+
+
+## Step 1: Create a unit group (Sales app)
   
 1. [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -37,9 +46,9 @@ Units are the quantities or measurements that you sell your products or services
   
 2. [!INCLUDE[proc_settings_prod_catalog](../includes/proc-settings-prod-catalog.md)]  
   
-3.  Choose **Unit Groups**.  
+3.  Select **Unit Groups**.  
   
-4.  To create a new unit group, choose **New**.  
+4.  To create a new unit group, select **New**.  
   
      -OR-  
   
@@ -53,15 +62,14 @@ Units are the quantities or measurements that you sell your products or services
   
  ![Shows how to create a unit group in Dynamics 365](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 for Sales")  
   
-6.  Choose **OK**.  
+6.  Select **OK**.  
   
 > [!NOTE]
 >  You cannot delete the primary unit in a unit group.  
   
-<a name="bkmk_CreateUnitsInGroup"></a>   
-## Step 2: Create units in a unit group  
+## Step 2: Create units in a unit group  (Sales app)
   
-1.  In the unit group you want to add the units to, in the left pane, under **Common**, choose **Units**, and then on the **Units** tab, in the **Records** group, choose **Add New Unit**.  
+1.  In the unit group you want to add the units to, in the left pane, under **Common**, select **Units**, and then on the **Units** tab, in the **Records** group, select **Add New Unit**.  
   
      The unit that you specified as the primary unit earlier is already in the list of units.  
   
@@ -81,7 +89,7 @@ Units are the quantities or measurements that you sell your products or services
   
  ![Creating a unit with a base unit in Dynamics 365](../sales-enterprise/media/v7-unit-box.png "Creating a unit with a base unit in Dynamics 365 for Sales")  
   
-3.  Choose **Save** or **Save and Close**.  
+3.  Select **Save** or **Save and Close**.  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a product](../sales-enterprise/create-product-sales.md)  

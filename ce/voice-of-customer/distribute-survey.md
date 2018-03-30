@@ -1,8 +1,8 @@
 ---
-title: "Distribute a survey by using Voice of the Customer | MicrosoftDocs"
+title: "Distributing a survey using Voice of the Customer | MicrosoftDocs"
 description: "After creating a survey, learn how to distribute it to your respondents."
 keywords: "send survey; distribute survey; distribute voice of the customer survey; track survey invite"
-ms.date: 11/13/2017
+ms.date: 01/26/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -18,11 +18,11 @@ topic-status: Drafting
 
 # Distribute a survey
 
-After your survey is ready, you can distribute the survey and invite respondents to take part in it. You can distribute surveys in either of the following ways:
+After your survey is ready, you can distribute the survey and invite respondents to take part in it. You can distribute surveys in one of two ways:
 
-- **Anonymous**: For these surveys, [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] doesn't know who the respondents are. You can distribute a link to the survey by using email, the social sites [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], or other webpages. These types of surveys are best suited for lead creation or information-gathering where the identity of the respondent is not important.
+- **Anonymous**: For these surveys, [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] doesn't know who the respondents are. You can distribute a link to the survey using email, the social sites [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], or other webpages. These types of surveys are best suited for lead creation or information-gathering where the identity of the respondent is not important.
 
-- **Non-anonymous**: You send survey invitation links to specific contacts, accounts, or leads in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. You can personalize the invitation links by using the customer name, product name, agent name, and so on.
+- **Non-anonymous**: You send survey invitation links to specific contacts, accounts, or leads in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. You can personalize the invitation links using the customer name, product name, agent name, and so on.
 
 ## Distribute a survey to anonymous respondents
 
@@ -32,7 +32,7 @@ If you configure your survey to allow anonymous respondents, you can copy the su
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to receive anonymous responses.
+3.  Select the name of the survey that you want to receive anonymous responses to.
 
 4.  Under **Summary**, select **Yes** for the **Anonymous Responses** field.
 
@@ -68,7 +68,9 @@ For non-anonymous surveys, the link you send to respondents is specific and uniq
 
 6.  Save the changes.
 
-**Note**: If the **Restrict Multiple Completions** field is set to **Yes** when you create the survey, the respondent can't take the survey again.
+> [!NOTE]
+> - If the **Restrict Multiple Completions** field is set to **Yes** when you create the survey, the respondent can't take the survey again.
+> - You can translate the invitation link text to a different locale. More information: [Translate survey invitation link text](#translate-survey-invitation-link-text)
 
 For example: You create an email and paste the survey snippet in the email body.
 
@@ -78,13 +80,16 @@ When you save the email, the snippet changes to the invitation link text you spe
 
 ![Converted survey snippet in an email](media/email-snippet-save.png "Converted survey snippet in an email")  
 
-### Send an invitation by using an email template
+### Send an invitation using an email template
 
 You can [create an email template](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email) with the survey snippet and use it to send emails to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] contacts.  
 
 You can [send direct email](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/send-bulk-email-customers) to a contact in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] by selecting the survey email template from the email template list.  
 
 ![Send direct email to a contact](media/direct-email.png "Send direct email to a contact")  
+
+> [!NOTE]
+> You can add multiple survey snippets to an email and send them your respondents.
 
 You can also select an email template when you create an email in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]:
 
@@ -94,9 +99,9 @@ You can also select an email template when you create an email in [!INCLUDE[pn-c
 
 3.  Select **Select**. The email body and subject are populated as specified in the template.
 
-### Create survey invitation or survey activity
+### Create a survey invitation or survey activity
 
-You can create a survey activity or survey invitation to create personalized invitation links to be distributed by using a non&ndash;[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email program. These personalized invitation links have the following advantages:
+You can create a survey activity or survey invitation to create personalized invitation links that are distributed by using a non&ndash;[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] email program. These personalized invitation links have the following advantages:
 
 -   You can add piped data to the survey.
 
@@ -116,7 +121,7 @@ To create a survey invitation or survey activity:
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to create a survey invitation or survey activity.
+3.  Select the name of the survey that you want to create a survey invitation or survey activity for.
 
 4.  Select the down arrow next to your survey name at the top of the screen, and then select **Survey Invitations**.
 
@@ -142,21 +147,15 @@ If you want to personalize your survey invitation in a [!INCLUDE[pn-crm-2016-sho
 
 The available piped data names are:
 
--   User
-
--   Customer
-
--   Product
-
--   Service
-
--   Datetime
-
--   Location
-
--   Other1
-
--   Other2
+- user
+- customer
+- product
+- service
+- datetime
+- location
+- other1
+- other2
+- lang
 
 For example, this survey snippet contains piped data for Customer, User, and Other\_1 (used for the case number):
 
@@ -169,6 +168,22 @@ In the email invitation, add the piped data field, followed by an equal sign (=)
 would look like this to the customer:
 
 > Thank you, Marie! Your feedback will help us improve the service we deliver to you. Please take the time to answer a few questions regarding case number 298724 and Customer Service Representative Nancy.
+
+### Translate survey invitation link text
+
+You can translate the survey invitation link text to a different locale by using the **lang** pipe. This allows you to personalize the invitation link text as per the respondent's locale.
+
+For example: You create an email and paste the survey snippet along with the **lang** pipe in the email body. In this example, French locale is specified in the pipe.
+
+![Survey snippet with lang pipe](media/survey-snippet-lang-pipe.png "Survey snippet with lang pipe")
+
+When you save the email, the snippet changes to the invitation link text in the language you specified.
+
+![Translated survey invitation link text](media/survey-snippet-lang-pipe-translated.png "Translated survey invitation link text")
+
+> [!NOTE]
+> - If the **lang** pipe is not specified, the invitation link text is displayed in the default language.
+> - If the translation is not available for the language code specified in the **lang** pipe, an error message is displayed.
 
 ## Automatically send survey invitations
 

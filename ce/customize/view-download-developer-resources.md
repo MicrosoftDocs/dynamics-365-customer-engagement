@@ -35,7 +35,7 @@ This page is designed for developers who want to link to the [!INCLUDE[pn_dynami
  This is the public certificate that is required to configure [!INCLUDE[pn_windows_azure_acs](../includes/pn-windows-azure-acs.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] integration.  
   
  **Developer Center** 
-  <!-- TODO - this is no longer correct. Fix for DOCS-->
+
  The [Dynamics 365 Developer Center](http://www.crmdevelopercenter.com) on MSDN contains a wealth of information to help developers. Here you will find the SDK, which includes documentation, samples, and tools, as well as technical articles, ramp-up kits, videos, blogs, forums, and more. 
  
 For more information about using each item on the developer resources page, see [Download the endpoints using the Dynamics 365 Developer resources page](../developer/developer-resources-page.md).   
