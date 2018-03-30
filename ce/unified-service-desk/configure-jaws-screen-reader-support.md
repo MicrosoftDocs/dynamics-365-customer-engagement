@@ -20,7 +20,7 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Configure JAWS Screen Reader in Unified Service Desk
+# Configure JAWS Screen Reader for Unified Service Desk
 
 [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] (Job Access With Speech) is a computer screen reader program for Microsoft Windows that allows blind and visually impaired users to read the screen either with a text-to-speech output or by a refreshable Braille display.
 
