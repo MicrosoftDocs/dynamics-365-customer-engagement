@@ -43,7 +43,7 @@ Activity logging has two significant differences with prior [!INCLUDE [pn-ms-dyn
 
    ![Activities across apps](media/activities-across-apps.png "Activities across apps")
 
-2. Auditing occurs at the SDK layer of Dynamics 365 which means much more data is logged than just activities. Consider the following examples.
+2. Auditing occurs at the SDK layer of Dynamics 365 which means much more data is logged than just activities. 
 
 ## What events are audited
 Logging takes place at the SDK layer which means a single action can trigger multiple events that are logged. The following are a sample of admin and user events you can audit.
@@ -103,54 +103,48 @@ The following Microsoft Social Engagement (MSE) entities and actions are logged.
 |Other Global Settings   |Update   |
 
 ## Base schema
-Schemas define which Dynamics 365 fields are sent to the Office 365 Security and Compliance Center. The following are some fields common to all applications that send audit data to Office.
+Schemas define which Dynamics 365 fields are sent to the Office 365 Security and Compliance Center.  Some fields are common to all applications that send audit data to Office 365, while others are specific to Dynamics 365. The Base schema contains the common fields. 
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
-|Date     |Edm.Date|         |         |Date and time of when the log was generated in UTC 
-|IP address     |Edm.String         |         |IP address of the user or corporate gateway          |
-|Id     |Edm.Guid         |         |         |Unique GUID for every row logged 
-|Result Status     |Edm.String         |         |Status of the row logged. Success in most cases          |
-|Organization Id     |Edm.Guid         |         |Unique identifier of the organization from which the log was generated. You can find this ID under Dynamics Developer Resources.          |
-|ClientIP     |Edm.String         |         |         |
-|CreationTime     |Edm.Date         |         |Date and time of when the log was generated in UTC          |
-|CrmOrganizationUniqueName     |Edm.Date         |         |Unique Name of the CRM organization          |
-|Message     |Edm.String         |         |Name of the message called in Dynamics 365 SDK          |
-|Operation     |Edm.Date         |         |Name of the message called in Dynamics 365 SDK          |
-|OrganizationId     |Edm.Date         |         |Unique Identifier of the user in Azure Active Directory. Also know as user PUID.          |
-|UserKey     |Edm.String         |         |         |
-|UserType     |Self.UserType         |         |         |
+|Date     |Edm.Date|         |No         |Date and time of when the log was generated in UTC 
+|IP address     |Edm.String         |No         |IP address of the user or corporate gateway          |
+|Id     |Edm.Guid         |No         |         |Unique GUID for every row logged 
+|Result Status     |Edm.String         |No         |Status of the row logged. Success in most cases          |
+|Organization Id     |Edm.Guid         |Yes        |Unique identifier of the organization from which the log was generated. You can find this ID under Dynamics Developer Resources.          |
+|ClientIP     |Edm.String         |No         |         |
+|CorrelationId     |Edm.Guid         |No         |A unique value used to associate related rows (e.g., when a large row is split)          |
+|CreationTime     |Edm.Date         |No         |Date and time of when the log was generated in UTC          |
+|Operation     |Edm.Date         |No         |Name of the message called in Dynamics 365 SDK          |
+|UserKey     |Edm.String         |No         |         |
+|UserType     |Self.UserType         |No         |         |
+|User     |Edm.String        |No         |UPN of the user          |
 
 ## Dynamics 365 schema
-The following are some fields specific to Dynamics 365. 
+The Dynamics 365 schema contains fields specific to Dynamics 365 and partner teams. 
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
-|User     |Edm.String        |         |UPN of the user          |
-|User Id     |Edm.String         |         |Unique identifier of the user GUID in the Dynamics 365 organization          |
-|Crm Organization Unique Name     |Edm.String         |         |Unique name of the Dynamics 365 organization          |
-|Instance Url     |Edm.String         |         |URL to the instance          |
-|Item Url     |Edm.String         |         |URL to the record emitting the log          |
-|Item Type     |Edm.String         |         |Name of the entity          |
-|User Agent     |Edm.String         |         |Unique identifier of the user GUID in the Dynamics 365 organization          |
-|CorrelationId     |Edm.Guid         |         |         |
-|EntityId     |Edm.Guid        |         |Unique identifier of the entity          |
-|EntityName     |Edm.String         |         |Name of the entity in the Dynamics 365 organization          |
-|Fields     |Edm.String          |         |JSON of Key Value pair reflecting the values that were created or updated         |
-|Id     |Edm.String          |         |Entity name in Dynamics 365          |
-|InstanceUrl     |Edm.String          |         |         |
-|ItemType     |Edm.String          |         |         |
-|ItemUrl     |Edm.String          |         |         |
-|PrimaryFieldValue     |Edm.String         |         |         |
-|Query     |Edm.String         |         |The Filter query parameters used while executing the FetchXML          |
-|QueryResults     |Edm.String         |         |One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call          |
-|ServiceContextId     |Edm.Guid         |         |         |
-|ServiceContextIdType     |Edm.String         |         |         |
-|ServiceName     |Edm.String         |         |Name of the Service generating the log          |
-|SystemUserId     |Edm.Guid         |         |Unique identifier of the user GUID in the Dynamics 365 organization          |
-|UserAgent     |Edm.Guid          |        |Browser used to execute the request          |
-|UserId     |Edm.Guid          |         |         |
-|UserUpn     |Edm.String         |         |         |
+|User Id     |Edm.String         |No         |Unique identifier of the user GUID in the Dynamics 365 organization          |
+|Crm Organization Unique Name     |Edm.String         |No         |Unique name of the Dynamics 365 organization          |
+|Instance Url     |Edm.String         |No         |URL to the instance          |
+|Item Url     |Edm.String         |No         |URL to the record emitting the log          |
+|Item Type     |Edm.String         |No         |Name of the entity          |
+|Message     |Edm.String         |No         |Name of the message called in Dynamics 365 SDK          |
+|User Agent     |Edm.String         |No         |Unique identifier of the user GUID in the Dynamics 365 organization          |
+|EntityId     |Edm.Guid        |No         |Unique identifier of the entity          |
+|EntityName     |Edm.String         |No         |Name of the entity in the Dynamics 365 organization          |
+|Fields     |Edm.String          |No         |JSON of Key Value pair reflecting the values that were created or updated         |
+|Id     |Edm.String          |No         |Entity name in Dynamics 365          |
+|Query     |Edm.String         |No         |The Filter query parameters used while executing the FetchXML          |
+|QueryResults     |Edm.String         |No         |One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call          |
+|ServiceContextId     |Edm.Guid         |No         |         |
+|ServiceContextIdType     |Edm.String         |No         |         |
+|ServiceName     |Edm.String         |No         |Name of the Service generating the log          |
+|SystemUserId     |Edm.Guid         |No         |Unique identifier of the user GUID in the Dynamics 365 organization          |
+|UserAgent     |Edm.Guid          |No        |Browser used to execute the request          |
+|UserId     |Edm.Guid          |No         |         |
+|UserUpn     |Edm.String         |No         |         |
 
 ## Enable auditing in Dynamics 365
 
