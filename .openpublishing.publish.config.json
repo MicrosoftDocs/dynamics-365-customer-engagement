@@ -8,7 +8,8 @@
       "locale": "en-us",
       "monikers": [],
       "xref_query_tags": [
-        "/dotnet"
+        "/dotnet",
+        "/dynamics365/customer-engagement/web-api"
       ],
       "open_to_public_contributors": false,
       "type_mapping": {
