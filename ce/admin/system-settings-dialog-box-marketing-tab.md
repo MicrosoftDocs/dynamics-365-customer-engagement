@@ -1,21 +1,25 @@
 ---
 title: "System Settings dialog box - Marketing tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 873c4108-7757-4b38-b734-8b1d5ceddc58
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 11
-author: "kamaybac"
-ms.author: "kamaybac"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # System Settings dialog box - Marketing tab
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]

@@ -109,8 +109,9 @@ Use the buttons in the left column of the **Preview** tab to see how your design
 
 ### See also
 
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  
 [Prepare marketing email messages](prepare-marketing-emails.md)  
 [Work with email templates](email-templates.md)  
-[Create and deploy marketing pages](create-deploy-marketing-pages.md)
+[Create and deploy marketing pages](create-deploy-marketing-pages.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)

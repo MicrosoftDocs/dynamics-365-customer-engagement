@@ -28,6 +28,7 @@ topic-status: Drafting
 <li>[First time setup](purchase-setup.md)</li>
 <li>[First time setup FAQ and troubleshooting](setup-troubleshooting.md)</li>
 <li>[Keep Marketing up to date](apply-updates.md)</li>
+<li>[Manage Marketing instances](manage-marketing-instances.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
@@ -53,10 +54,11 @@ topic-status: Drafting
 </td><td>
 
 <h2>Configure Marketing features</h2>
-<li>[Configure marketing pages](marketing-settings.md#configure-marketing-pages)</li>
+<li>[Configure landing pages](marketing-settings.md#config-mkt-pages)</li>
 <li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
-<li>[Choose entities for Customer Insights sync](marketing-settings.md#customer-insights-sync)</li>
-<li>[Set up events and webinars](events-settings.md)</li>
+<li>[Choose entities for Customer Insights sync](marketing-settings.md#dci-sync)</li>
+<li>[Event management settings](events-settings.md)</li>
+<li>[Manage LinkedIn Lead Gen](linkedin-configuration.md)</li>
 <li>[Manage quotas](quota-management.md)</li>
 
 </td></tr>

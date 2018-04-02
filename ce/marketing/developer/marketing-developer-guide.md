@@ -2,7 +2,7 @@
 title: "Dynamics 365 for Marketing Developer Guide | MicrosoftDocs"
 description: "Provides information about how you can extend the customer journeys feature using *custom channels*."
 ms.custom: ""
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"
@@ -20,11 +20,11 @@ manager: "amyla"
 
 <tr><td>
 
-<h2>Extend customer journeys</h2>
+<h2>Extend Dynamics 365 for Marketing</h2>
 <li>[Extend customer journeys using custom channels](extend-customer-journeys-custom-channels.md)</li>
 <li>[Create a custom channel](create-custom-channel.md)</li>
-<li>[Publish custom channel on AppSource](publish-custom-channel-appsource.md)</li>
-<li>[Configure and use custom channel](configure-use-custom-channel.md)</li>
+<li>[Retrieve interactions for a contact](retrieve-interactions-contact.md)</li>
+<li>[Metadata reference for your organization](marketing-organization-metadata.md)</li>
 
 </td><td>
 

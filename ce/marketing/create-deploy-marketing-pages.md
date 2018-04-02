@@ -2,7 +2,7 @@
 title: "Design, check, and publish marketing pages (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing"
 keywords: "landing page; subscription center; forward to a friend; form; field; matching"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Create and deploy marketing pages
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 A marketing page is a webpage that is hosted by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and usually includes a form where people can register for an offer, update their contact information, manage mailing list subscriptions, and more. All the information submitted through a marketing page is automatically captured by [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and applied immediately to your customer database.
 
@@ -53,7 +51,7 @@ There are three basic types of marketing pages:
 - **Subscription centers**  
     All marketing email messages must include a link to a subscription center, where mail recipients can go to unsubscribe, choose other lists to subscribe to, or update their contact information. You can choose which mailing lists to include in each subscription center, but all subscription centers will also include a check box the visitor can use to opt out of all marketing emails.
 - **Forward to a friend**  
-    If you'd like to enable recipients of your marketing email messages to forward those messages to friends who might also be interested in your offers, create a forward-to-a-friend marketing page and include links to it in your marketing email messages. By encouraging contacts to use the forwarding form rather than forward a message by using their email client, you'll collect more email addresses of people who might be interested in your products and improve the accuracy of your email analytics. Forward-to-a-friend recipients won't see any personalized information that was intended for the original recipient.
+    If you'd like to enable recipients of your marketing email messages to forward those messages to friends who might also be interested in your offers, create a forward-to-a-friend marketing page and include links to it in your marketing email messages. By encouraging contacts to use the forwarding form rather than forward a message by using their email client, you'll improve the accuracy of your email analytics. Forward-to-a-friend recipients won't see any personalized information that was intended for the original recipient. For reasons of data privacy, all data entered into a forward-to-a-friend form is deleted after 30 days, so no new contact or lead records are created unless a recipient of the forward chooses to register with your organization using a landing page.
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] also includes both Voice of the Customer (for running online surveys) and Event Management (which includes a full-featured event portal that provides event information and registration). Like marketing pages, these provide interactive webpages that run as [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals, and work similarly to marketing pages under the hood, but they are more specialized so you'll work with them differently in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up the event portal](set-up-event-portal.md), and [Create and run online surveys](surveys.md)
 
@@ -245,13 +243,13 @@ When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dyn
 
 ## Configure marketing page defaults and matching strategies
 
-Administrators can choose settings that control several aspects of the way all marketing pages function on your site and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure marketing pages](marketing-settings.md#configure-marketing-pages)
+Administrators can choose settings that control several aspects of the way all marketing pages function on your site and the way they match incoming page submissions to existing contacts and leads. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Configure marketing pages](marketing-settings.md#config-mkt-pages)
 
 ### See also
 
 [Create a landing page](create-landing-page.md)  
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)
 [Content blocks reference](content-blocks-reference.md)  
 [Upload and use images and files](upload-images-files.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)

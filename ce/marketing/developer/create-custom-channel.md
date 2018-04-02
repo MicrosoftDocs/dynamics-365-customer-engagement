@@ -2,7 +2,7 @@
 title: "Create a custom channel for customer journey (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Creating a custom channel for customer journeys involves using the extensibility infrastructure in Dynamics 365 Customer Engagement such as custom entities, workflows, plugins, and web resources, which allows developers and partners to leverage their existing knowledge of Customer Engagement."
 ms.custom: ""
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: "crm-online"
 ms.technology: 
   - "marketing"
@@ -17,8 +17,6 @@ manager: "amyla"
 # Create a custom channel for customer journey
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 Creating a custom channel for customer journeys involves using the extensibility infrastructure in Dynamics 365 Customer Engagement such as custom entities, workflows, plugins, and web resources, which allows developers and partners to leverage their existing knowledge of Customer Engagement. For detailed information about these concepts in Customer Engagement, see [Developer Guide for Dynamics 365 Customer Engagement](../../developer/developer-guide.md). 
 

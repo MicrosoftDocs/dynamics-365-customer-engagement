@@ -20,9 +20,7 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863168" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
@@ -102,6 +100,8 @@ Marketing messages are delivered as HTML and therefore support hyperlinks. Some 
 - **Subscription center (required)**: All marketing email messages must include a link to a subscription center. A subscription center includes mailing lists available from your organization, including an option for contacts to opt out of all marketing emails. Contacts might also be able to update their contact details here. [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] includes a standard subscription center, which you can edit to contain your subscription lists and to reflect your graphical identity (you can also create additional pages to support multiple subscription options, languages, or brands). You'll add a subscription center link to your page by using the assist-edit feature, which places code that creates a link to the subscription center identified in the content settings.
 - **Forward to a friend**: This type of link opens a form that contacts can use to forward a marketing email to their own friends or colleagues by entering recipients' email addresses. It's a good idea to include this type of service for your contacts because messages forwarded by using the forward form are counted correctly in your email results and analytics (messages forwarded by using a contact's local email client forward feature won't be registered in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and all message opens and clicks performed by the recipients who were forwarded the message will be credited to the original recipient). A forward-to-a-friend page ID can be included in each set of content settings, but none is provided out of the box, so you must create a forwarding page and add it to your content settings to use this feature. You add a forward-to-a-friend link to your page by using the dynamic-content feature, which creates the link based on the page identified in the content settings.
 - **View as a web page**: This link opens the marketing email message in a web browser. Some recipients will find this useful if their standard email client is having trouble rendering the message. You add this link to your page by using the assist-edit feature, which creates the link by using the message object itself.
+
+<a name="dynamic-content"></a>
 
 ## Add dynamic content
 
@@ -255,7 +255,7 @@ The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-micros
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
 
 > [!NOTE]
-> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use marketing configurations to enable Litmus previews](marketing-settings.md#marketing-configuration)
+> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
 
 ## Required elements: How to pass the error check
 
@@ -289,7 +289,7 @@ To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm]
 [Create a marketing email](create-marketing-email.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)
 [Content blocks reference](content-blocks-reference.md)  
 [Work with email templates](email-templates.md)  
 [Upload and use images and files](upload-images-files.md)
