@@ -204,7 +204,7 @@ After the system has found all the relevant activities, it's ready to calculate 
 >   
 > If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:  
 >   
-<!--> - **Time spent by me**: *30 minutes* (the appointment was 30 minutes) --> 
+<!-- - **Time spent by me**: *30 minutes* (the appointment was 30 minutes) --> 
 > - **Time spent by my team**: *90 minutes* (30 min. × 3 team members present)  
 > - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)  
   
