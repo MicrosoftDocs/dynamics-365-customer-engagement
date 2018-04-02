@@ -34,9 +34,23 @@ When licenses are assigned to users in the Office 365 admin center, Dynamics 365
 
 |License  |Security role |
 |---------|---------|
-|Row1     |         |
-|Row2     |         |
-|Row3     |         |
+|ENTERPRISE_RELATIONSHIP_SALES    |SalesAppAccess         |
+|Dynamics 365 for Marketing    |Marketing Professional - Business,Marketing Manager – Business,Lead Score Modeler,Marketing Services User,Demand Generator,Event Administrator,Event Planner,LinkedIn LeadGen S2SInbound,LinkedIn Lead Gen Forms Connector Administrator,LinkedIn Lead Gen Forms Connector Salesperson,Survey Administrator,Survey Designer,Survey Service,Survey User         |
+|D365_Business_P1     |Salesperson - Business,Sales Manager - Business,Marketing Professional - Business,Marketing Manager – Business,Lead Score Modeler,Marketing Services User,Demand Generator,Event Administrator,Event Planner,LinkedIn LeadGen S2SInbound,LinkedIn Lead Gen Forms Connector Administrator,LinkedIn Lead Gen Forms Connector Salesperson,Survey Administrator,Survey Designer,Survey Service,Survey User         |
+|D365_Business_Sales  |Salesperson - Business,Sales Manager - Business   |
+|D365_Business_Team  |Salesperson - Business,Sales Manager - Business,Marketing Professional - Business,Marketing Manager – Business,Lead Score Modeler,Marketing Services User,Demand Generator,Event Administrator,Event Planner,LinkedIn LeadGen S2SInbound,LinkedIn Lead Gen Forms Connector Administrator,LinkedIn Lead Gen Forms Connector Salesperson,Survey Administrator,Survey Designer,Survey Service,Survey User   |
+|Dynamics 365 for Customer Service  |ServiceAppAccess   |
+|Dynamics 365 for Field Service |FieldServiceAppAccess   |
+|D365_ENTERPRISE_P1  |SalesAppAccess,SalesEnterpriseAppAccess,ServiceAppAccess,FieldServiceAppAccess,ProjectServiceAppAccess   |
+|D365_ENTERPRISE_P2  |SalesAppAccess,SalesEnterpriseAppAccess,ServiceAppAccess,FieldServiceAppAccess,ProjectServiceAppAccess   |
+|Dynamics 365 for Project Service Automation |ProjectServiceAppAccess   |
+|Dynamics 365 for Sales   |SalesAppAccess,SalesEnterpriseAppAccess   |
+|Dynamics 365 for Team Members  |SalesAppAccess,SalesEnterpriseAppAccess,ServiceAppAccess,FieldServiceAppAccess,ProjectServiceAppAccess   |
+
+
+
+
+
 
 
 ### See also
