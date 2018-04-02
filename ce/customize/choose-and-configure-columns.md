@@ -28,7 +28,7 @@ topic-status: Drafting
   
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 
- Along with the filter criteria, the columns visible in a [pn-powerapps](../includes/pn-powerapps.md)] view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
+ Along with the filter criteria, the columns visible in a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
   
 -   [Add columns](../customize/choose-and-configure-columns.md#BKMK_AddColumns)  
   
