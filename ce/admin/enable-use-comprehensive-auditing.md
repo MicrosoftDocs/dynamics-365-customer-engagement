@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Enable and use activity logging (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Enable and use activity logging (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
 ms.date: 03/21/2018
@@ -17,15 +17,13 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Preview feature: Enable and use activity logging 
+# Enable and use activity logging 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 > [!IMPORTANT]
 > - This feature currently has limited availability.
-> - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
-> - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
-> - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+> - We expect some changes to this feature.
 
 Protecting data, preserving privacy, and complying with regulations such as the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) are certainly some of the highest priorities for your business. It's critical that you audit the entirety of data processing actions taking place to be able to analyze for possible security breaches. This information from activity logging can be used when you perform a Data Protection Impact Assessment (DPIA) addressing the use of Office and Dynamics 365.  
 
@@ -107,17 +105,17 @@ Schemas define which Dynamics 365 fields are sent to the Office 365 Security and
 
 |Field name  |Type  |Mandatory  |Description  |
 |---------|---------|---------|---------|
-|Date     |Edm.Date|         |No         |Date and time of when the log was generated in UTC 
+|Date     |Edm.Date|No         |Date and time of when the log was generated in UTC          |
 |IP address     |Edm.String         |No         |IP address of the user or corporate gateway          |
-|Id     |Edm.Guid         |No         |         |Unique GUID for every row logged 
+|Id     |Edm.Guid         |No         |Unique GUID for every row logged          |
 |Result Status     |Edm.String         |No         |Status of the row logged. Success in most cases          |
 |Organization Id     |Edm.Guid         |Yes        |Unique identifier of the organization from which the log was generated. You can find this ID under Dynamics Developer Resources.          |
-|ClientIP     |Edm.String         |No         |         |
+|ClientIP     |Edm.String         |No         |IP Address of the user or corporate gateway          |
 |CorrelationId     |Edm.Guid         |No         |A unique value used to associate related rows (e.g., when a large row is split)          |
 |CreationTime     |Edm.Date         |No         |Date and time of when the log was generated in UTC          |
 |Operation     |Edm.Date         |No         |Name of the message called in Dynamics 365 SDK          |
-|UserKey     |Edm.String         |No         |         |
-|UserType     |Self.UserType         |No         |         |
+|UserKey     |Edm.String         |No         |Unique Identifier of the User in AAD. AKA User PUID          |
+|UserType     |Self.UserType         |No         |The Office 365 audit type (Admin, Regular, System)          |
 |User     |Edm.String        |No         |UPN of the user          |
 
 ## Dynamics 365 schema
@@ -138,13 +136,13 @@ The Dynamics 365 schema contains fields specific to Dynamics 365 and partner tea
 |Id     |Edm.String          |No         |Entity name in Dynamics 365          |
 |Query     |Edm.String         |No         |The Filter query parameters used while executing the FetchXML          |
 |QueryResults     |Edm.String         |No         |One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call          |
-|ServiceContextId     |Edm.Guid         |No         |         |
-|ServiceContextIdType     |Edm.String         |No         |         |
+|ServiceContextId     |Edm.Guid         |No         |The unique id associated with service context          |
+|ServiceContextIdType     |Edm.String         |No         |Application defined token to define context use          |
 |ServiceName     |Edm.String         |No         |Name of the Service generating the log          |
 |SystemUserId     |Edm.Guid         |No         |Unique identifier of the user GUID in the Dynamics 365 organization          |
 |UserAgent     |Edm.Guid          |No        |Browser used to execute the request          |
-|UserId     |Edm.Guid          |No         |         |
-|UserUpn     |Edm.String         |No         |         |
+|UserId     |Edm.Guid          |No         |The unique id of the Dynamics system user associated with this activity          |
+|UserUpn     |Edm.String         |No         |User principal name of the user associated with this activity          |
 
 ## Enable auditing in Dynamics 365
 
@@ -295,6 +293,7 @@ When audit log search in the Office 365 Security and Compliance Center is turned
 - Some operations need additional processing to retrieve all relevant data. For example, RetrieveMultiple and ExportToExcel are processed to extract the list of records that are retrieved or exported. However, not all relevant operations are yet processed. For example, ExportToWord is currently logged as single operation with no additional details about what was exported.
 - In the Office 365 Security and Compliance Center (protection.office.com), the Activities drop-down has a section called Dynamics 365 activities, with nine activities listed. However, the audit logs currently only use the Accessed other entity type activity. Selecting any of the others alone will filter out all results. The simplest option for now is to click on the Dynamics 365 activities header, which will select all activities.
 - In future releases, logging will disabled for operations that are determined to not be useful based on a review of the logs. For example, some operations result from automated system activity, not user activity.
+- The new flags for enabling Read Auditing in the Organization settings and Entity Settings are not solution aware in version 8.2. Exporting a solution from an 8.2 instance to any other instance will not export these flags. 
 
 ### See also
  [Audit data and user activity for security and compliance](audit-data-user-activity.md)<br />

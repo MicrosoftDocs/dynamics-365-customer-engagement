@@ -24,9 +24,34 @@ manager: "brycho"
 
 On March 21, 2018, we introduced PowerApp integration with Dynamics 365 for Customer Engagement. See the blogs [PowerApps Spring Update](https://powerapps.microsoft.com/blog/powerapps-spring-announce/) and [What’s new in the Dynamics 365 admin center](https://blogs.msdn.microsoft.com/crm/2018/03/21/whats-new-in-the-dynamics-365-admin-center/).
 
-Dynamics 365 and PowerApps are now based on the same platform that powers Dynamics 365. PowerApps users will now appear as users in Dynamics 365 via **Settings** > **Security** > **Users**. What users can do and the security role assigned to them is scoped to PowerApps and Flow applications managed by environment administrators. See [Administer PowerApps overview](https://docs.microsoft.com/powerapps/administrator/index).
+Dynamics 365 and PowerApps are now based on the same platform that powers Dynamics 365. PowerApps users will now appear as users in Dynamics 365 via **Settings** > **Security** > **Users**. What users can do and the security role assigned to them is scoped to PowerApps and Flow applications managed by environment administrators. See [Configure environment security](https://docs.microsoft.com/powerapps/administrator/database-security).
 
 PowerApps users can be licensed in multiple ways. They can be assigned a license by a Global administrator of PowerApps, Flow or many of the Office 365 user licenses (almost all Office 365 user license types) that include PowerApps capabilities.  PowerApps users can also be licensed via self-serve sign-up. See [Manage licenses in my org](https://docs.microsoft.com/powerapps/administrator/signup-question-and-answer).
+
+## Auto-assigned security roles
+
+When licenses are assigned to users in the Office 365 admin center, Dynamics 365 security roles are automatically assigned as follows:
+
+|License  |Security role |
+|---------|---------|
+|ENTERPRISE_RELATIONSHIP_SALES    |SalesAppAccess         |
+|Dynamics 365 for Marketing    |Marketing Professional - Business,Marketing Manager – Business,Lead Score Modeler,Marketing Services User,Demand Generator,Event Administrator,Event Planner,LinkedIn LeadGen S2SInbound,LinkedIn Lead Gen Forms Connector Administrator,LinkedIn Lead Gen Forms Connector Salesperson,Survey Administrator,Survey Designer,Survey Service,Survey User         |
+|D365_Business_P1     |Salesperson - Business,Sales Manager - Business,Marketing Professional - Business,Marketing Manager – Business,Lead Score Modeler,Marketing Services User,Demand Generator,Event Administrator,Event Planner,LinkedIn LeadGen S2SInbound,LinkedIn Lead Gen Forms Connector Administrator,LinkedIn Lead Gen Forms Connector Salesperson,Survey Administrator,Survey Designer,Survey Service,Survey User         |
+|D365_Business_Sales  |Salesperson - Business,Sales Manager - Business   |
+|D365_Business_Team  |Salesperson - Business,Sales Manager - Business,Marketing Professional - Business,Marketing Manager – Business,Lead Score Modeler,Marketing Services User,Demand Generator,Event Administrator,Event Planner,LinkedIn LeadGen S2SInbound,LinkedIn Lead Gen Forms Connector Administrator,LinkedIn Lead Gen Forms Connector Salesperson,Survey Administrator,Survey Designer,Survey Service,Survey User   |
+|Dynamics 365 for Customer Service  |ServiceAppAccess   |
+|Dynamics 365 for Field Service |FieldServiceAppAccess   |
+|D365_ENTERPRISE_P1  |SalesAppAccess,SalesEnterpriseAppAccess,ServiceAppAccess,FieldServiceAppAccess,ProjectServiceAppAccess   |
+|D365_ENTERPRISE_P2  |SalesAppAccess,SalesEnterpriseAppAccess,ServiceAppAccess,FieldServiceAppAccess,ProjectServiceAppAccess   |
+|Dynamics 365 for Project Service Automation |ProjectServiceAppAccess   |
+|Dynamics 365 for Sales   |SalesAppAccess,SalesEnterpriseAppAccess   |
+|Dynamics 365 for Team Members  |SalesAppAccess,SalesEnterpriseAppAccess,ServiceAppAccess,FieldServiceAppAccess,ProjectServiceAppAccess   |
+
+
+
+
+
+
 
 ### See also
 [What's new for instance management](new-instance-management.md)<br/>
