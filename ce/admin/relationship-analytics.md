@@ -1,10 +1,9 @@
 ---
 title: "Preview feature: Relationship analytics for Dynamics 365 Customer Engagement | MicrosoftDocs"
-[comment]: <> (Uday, please add a description line here. It is the description that will appear in search results. If you need guidelines for how to complete this metadata section, I can email it to you.)
-[comment]: <> (Please add keywords.)
+description: "Learn how to analyze customer interaction data with Dynamics 365 (online)."
+keywords: "relationship analytics, customer interaction data, My Open Opportunities by Relationship, relationship activities"
 ms.custom: ""
 ms.date: 04/01/2018
-[comment]: <> (I updated the date)
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -117,10 +116,10 @@ You can view complete relationship analytics for an individual record, including
   
 **Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](../admin/email-engagement.md)  <br>
   
-[comment]: <> (Below, in "most contacted," what do we mean by "external contacts?" Do we mean customer? Who are "internal contacts?" Do we mean "your team?" The wording is inconsistent with other items in this list, so I need to confirm. Same issue in the "Most contacted by" list item, below.)
-**Most contacted.** Provides statistics about the external contacts who are most contacted by internal contacts. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the external contacts even if they are not part of the record’s users. <br>
 
-**Most contacted by.** Provides statistics about the internal contacts who most contacted external contacts. These contacts may include external users who are heavily involved with the internal contacts even if they are not part of the record’s users. <br>
+**Most contacted.** Provides statistics about the customer who are most contacted by your team. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users. <br>
+
+**Most contacted by.** Provides statistics about the your team who most contacted customers. These contacts may include customers who are heavily involved with the your team even if they are not part of the record’s users. <br>
   
 **Relationship activities.** Provides a detailed look at activities over 90 days, broken down by date and activity type such as emails sent, email received, meetings sent, meetings received, phone calls made, and phone calls received.  
   
@@ -184,10 +183,9 @@ After the system has found all the relevant activities, it's ready to calculate 
 ||Initiated or completed by your team|Initiated or completed by the customer's team|  
 |-|-----------------------------------------|---------------------------------------------------|  
 |Emails|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies<br /><br /> Interaction results for followed emails (opens, attachment views, and link views)|  
-|Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /><!-- Total time spent by you (not multiplied by the number of team members)<br />--><br /> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
+|Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /><!-- Total time spent by you (not multiplied by the number of team members)<br />--> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
 |Phone calls|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|  
 |Overall (all activities)|Total time spent|Total time spent|  
-[comment]: <> (In the table above, there is an extra return/space in the middle column, "Appointments" row. Before "Time line (number per week).)
   
 > [!NOTE]
 > Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](../admin/email-engagement.md)  
