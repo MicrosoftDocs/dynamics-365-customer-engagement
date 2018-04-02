@@ -107,7 +107,7 @@ Schemas define which Dynamics 365 fields are sent to the Office 365 Security and
 |---------|---------|---------|---------|
 |Date     |Edm.Date|No         |Date and time of when the log was generated in UTC          |
 |IP address     |Edm.String         |No         |IP address of the user or corporate gateway          |
-|Id     |Edm.Guid         |No         |         |Unique GUID for every row logged 
+|Id     |Edm.Guid         |No         |Unique GUID for every row logged          |
 |Result Status     |Edm.String         |No         |Status of the row logged. Success in most cases          |
 |Organization Id     |Edm.Guid         |Yes        |Unique identifier of the organization from which the log was generated. You can find this ID under Dynamics Developer Resources.          |
 |ClientIP     |Edm.String         |No         |IP Address of the user or corporate gateway          |
