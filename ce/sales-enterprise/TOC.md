@@ -46,6 +46,14 @@
 ### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
+# [Embedded Intelligence](embedded-intelligence.md)
+## [Enable and configure embedded intelligence](configure-enable-embedded-intelligence.md)
+## [Guide customer communications](relationship-assistant.md)
+## [Stay updated with Action cards](action-cards-reference.md)
+## [View message interactions](email-engagement.md)
+## [Display emails](auto-capture.md)
+## [View customer activity history](relationship-analytics.md)
+<!--## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
 
 
 
