@@ -21,7 +21,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)][pn-powerapps](../includes/pn-powerapps.md)], the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign or the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose several different field behaviors: **User Local**, **Date Only** or **Time-Zone Independent**.  
+In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign or the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose several different field behaviors: **User Local**, **Date Only** or **Time-Zone Independent**.  
   
 <a name="Behavior"></a>   
 ## Date and time field behavior and format  
