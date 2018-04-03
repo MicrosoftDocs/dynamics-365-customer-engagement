@@ -2,7 +2,7 @@
 title: "Reopen a lead (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Make changes to a disqualified lead by activating it."
 keywords: "reactivate, disqualified lead, reopen, re-open"
-ms.date: 09/21/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article

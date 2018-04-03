@@ -2,7 +2,7 @@
 title: "What if you're no longer working a lead? (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Learn more how and when to disqualify a lead."
 keywords: "disqualify, delete, lead"
-ms.date: 09/22/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -10,8 +10,8 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 6e9d73ba-ee3b-4115-b875-c939bfe42512
-author: brycho
-ms.author: brycho
+author: shubhadaj
+ms.author: shujoshi
 manager: amyla
 ms.reviewer: 
 ms.suite: 
