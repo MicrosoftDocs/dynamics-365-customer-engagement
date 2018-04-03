@@ -1,12 +1,12 @@
 ---
-title: Configure interactive experience dashboards in Microsoft Dynamics 365 | Microsoft Docs
-description: Know how to configure interactive experience dashboards in Microsoft Dynamics 365
+title: Configure interactive experience dashboards in PowerApps | Microsoft Docs
+description: Know how to configure interactive experience dashboards in PowerApps
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub; Customer Service Hub
-author: anjgupta
-ms.author: anjgup
-manager: sakudes
+author: Mattp123
+ms.author: matp
+manager: kvivek
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -15,12 +15,13 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 ---
 
 # Configure interactive experience dashboards
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer Service hub provides a modern, intuitive, and interactive experience for managing your customer service operations. This was formerly called Interactive Service hub. This hub is loaded with capabilities, interactive dashboards, and redesigned forms that pull together key information, so customer service representatives can focus on what’s important to them and get things done faster. For service reps, the interactive experience dashboards are a one-stop workplace to see their workload information and take actions. The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams in real time. Customer service reps will no longer need to page through the application looking for particular cases; they’ll be able to act on a case right from the dashboard. While end users will access these dashboards using the Customer Servie hub or Interactive Service hub URL, as an administrator or customizer, you’ll do all of your configuration work in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application user interface. You won’t have to write code.  
   
