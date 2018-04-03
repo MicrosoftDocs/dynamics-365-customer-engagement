@@ -90,5 +90,5 @@ The following image shows the Sales Hub screen on a tablet.
 ### See also
 [User Guide (Sales and Sales Hub)](../sales-enterprise/user-guide.md)  
 [Business process flows overview](../customize/business-process-flows-overview.md)  
-[Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) (applies to the Sales app only)    
+[Set up a product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md)    
 [Set up sales territories](../admin/add-remove-territory-members.md) (applies to the Sales app only)
