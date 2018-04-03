@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Auto capture for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Auto capture for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -12,35 +12,24 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 caps.latest.revision: 13
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
-# Preview feature: Auto capture of related emails
+# Auto capture of related emails
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+Applies to Dynamics 365 (online), version 9.0.2<br>
 
 Auto capture enables [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to access your email in [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] to find and display messages that are related to your work in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. This makes it easy to see your relevant email messages together with all of the other activities that are related to a given record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Each message remains private and visible only to you unless you choose to convert it to a *tracked email*, which you can do with just one click to make that email visible to the rest of your team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
-Auto capture is part of the *Relationship Insights* suite of features. 
+Auto capture is part of the *Embedded intelligence* suite of features. 
   
 [Watch a short video (1:43) about Dynamics 365 Auto Capture](https://go.microsoft.com/fwlink/p/?linkid=841309).  
 
-A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
+The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
-> [!IMPORTANT]
->  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
-  
-Auto capture is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Preview feature: Relationship Insights overview](../admin/relationship-insights-overview.md)  
-  
-<a name="GettingStarted"></a>   
-
-## Getting started  
- The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
-  
-<a name="ViewAndTrack"></a>   
-
 ## View auto-captured messages and convert them into tracked messages  
+
  Messages found by auto capture are merged with other relevant [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities and shown in the **Activities** column for the record they apply to. You can see them on Contact, Opportunity, Lead, Account, Case, and Custom entities. So, for example, if you are looking at an opportunity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], then the **Activities** column shows all of the activities you have logged for that opportunity, plus up to 50 recent email messages in your [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] account that were sent to or from the primary contact for that opportunity or  its stakeholders.  
   
  ![Auto capture messages in the Activities column](../admin/media/auto-capture-messages-the-activities-column.png "Auto capture messages in the Activities column")  
@@ -51,19 +40,17 @@ Auto capture is part of the new *Relationship Insights* suite of features, all o
   
 2. **Auto capture messages**: These messages were found by the auto capture feature. They have been identified as possibly being relevant to the current record, but they are still private so only you can see them. Compared to tracked messages, these messages show a gray symbol and a dotted border, and include a **Track** link and a private email label.  
   
-3. **Track link**: Click here to convert a private message found by auto capture to a tracked message in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+3. **Track link**: Select the link to convert a private message found by auto capture to a tracked message in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
   
 4. **Private email label**: Private messages found by auto capture but not yet tracked in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] include this label to indicate their status.  
   
- Initially, the messages that auto capture finds are private for you, so other members of your sales team will not be able to see them in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Click the **Track** link to turn any auto capture message into a *tracked email message*, which copies the message into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database and makes it visible to other members of your team. Auto capture messages that don't include a **Track** link are already being tracked. It may take a few minutes for a message to go from untracked to tracked, during which time it will show a **Tracking pending** message.  
+ Initially, the messages that auto capture finds are private for you, so other members of your sales team will not be able to see them in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Select the **Track** link to turn any auto capture message into a *tracked email message*, which copies the message into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] database and makes it visible to other members of your team. Auto capture messages that don't include a **Track** link are already being tracked. It may take a few minutes for a message to go from untracked to tracked, during which time it will show a **Tracking pending** message.  
   
  As with other types of email message tiles shown in the **Activities** list, click the tile to expand or collapse the message content.  
   
 > [!NOTE]
 >  Untracked messages do not indicate the send direction (in or out) or if they include an attachment. But once a message is tracked, both the direction and any attachments are indicated.  
   
-<a name="WhichMessages"></a>   
-
 ## Which messages are captured?  
  Auto capture works by querying your [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] account each time you open the **Activities** column for a record  in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. The query looks for messages that relate to the record you are looking at. The following table summarizes  how auto capture identifies a related message.  
   
@@ -81,17 +68,17 @@ Auto capture is part of the new *Relationship Insights* suite of features, all o
 ## Set your auto capture options  
  When auto capture is enabled for your site, it will also be enabled for you by default. If you prefer not to see the messages, then you can turn this feature off. You can turn it back on at any time. When the feature is turned off for your site, you won't see the setting in your personal options. To set your auto capture options:  
   
-1.  Click the gear button on the nav bar, and then choose **Options** from the menu.  
+1.  Select the gear button on the nav bar, and then choose **Options** from the menu.  
   
  ![Options menu](../admin/media/options-menu.png "Options menu")  
   
-2.  The **Set Personal Options** dialog opens. Click the **Email** tab.  
+2.  The **Set Personal Options** dialog opens. Select the **Email** tab.  
   
  ![Auto capture personal options](../admin/media/auto-capture-personal-options.png "Auto capture personal options")  
   
 3.  Set the **Show email not tracked in Dynamics 365 in the Activities list** option to **Yes** or **No**, as needed.  
   
-4.  Click **OK**.  
+4.  Select **OK**.  
 
 ## Incoming untracked email support
 
@@ -113,4 +100,6 @@ The following describes the support for viewing, opening, and tracking untracked
 ## Privacy notice  
 [!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
   
+### See also
 
+[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)

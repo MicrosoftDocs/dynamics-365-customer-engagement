@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Email engagement for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Email engagement for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -12,15 +12,16 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 caps.latest.revision: 25
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
-# Preview feature: Use email engagement to view message interactions
+# Use email engagement to view message interactions
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+Applies to Dynamics 365 (online), version 9.0.2 <br>
 
-Email engagement lets you:  
+ Email engagement is part of the new *Embedded intelligence* suite of features. 
+ Email engagement lets you:  
   
 -   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.  
   
@@ -34,16 +35,10 @@ Email engagement lets you:
   
 -   Review the full interaction history of a single message, or review  KPIs.  
   
-[Watch a short video (3:01) about email engagement](https://go.microsoft.com/fwlink/p/?linkid=839817).  
-  
- Email engagement is part of the new *Relationship Insights* suite of features.  
+The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).
 
- A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
-  
-> [!IMPORTANT]
->  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).  
-  
- Email engagement is part of the new *Relationship Insights* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Preview feature: Relationship Insights overview](../admin/relationship-insights-overview.md)  
+[Watch a short video (3:01) about email engagement](https://go.microsoft.com/fwlink/p/?linkid=839817).  
+ 
   
 > [!NOTE]
 >  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] even when the feature is turned off. These include:  
@@ -55,13 +50,8 @@ Email engagement lets you:
 >   
 > While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.  
   
-<a name="GettingStarted"></a>   
-
-## Getting started  
- The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
   
-<a name="HowTrackingWorks"></a>   
-
+  
 ## How email open, click, and attachment following work  
  Usually when you send an email, you'll never know if it was opened or read unless the recipient chooses to write back to you. That's because the email system was created to simulate traditional mail, and was  not designed with response tracking in mind. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses special techniques to work around this limitation and provide the following message-following features:  
   
@@ -99,7 +89,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 4. **Follow-up reminder controls**: Here you can view and set a follow-up reminder, which might display an alert if the message remains unopened for three days.  
   
-5. **Insert Template button**: Click here to insert standard text for any of several general purposes (such as a meeting follow-up). You can select from a variety of available templates, and email engagement provides advice on which template to choose based on previous performance.  
+5. **Insert Template button**: Select the button to insert standard text for any of several general purposes (such as a meeting follow-up). You can select from a variety of available templates, and email engagement provides advice on which template to choose based on previous performance.  
   
  See the remainder of this topic for complete details about how to use these controls.  
   
@@ -115,11 +105,11 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 1.  Open the record you want to add the activity to (typically a contact, opportunity, lead, or account).  
   
-2.  In the middle of the page, click **Activities** > **More Commands**![More Commands button in Appointment Activity](../admin/media/morecommands.gif "More Commands button in Appointment Activity") > **Email**.  
+2.  In the middle of the page, select **Activities** > **More Commands**![More Commands button in Appointment Activity](../admin/media/morecommands.gif "More Commands button in Appointment Activity") > **Email**.  
   
 3.  Add recipients, a message subject, and body text as usual. Speed up your writing by using a template if it's appropriate, and use the handy tooltips for help with other settings. See also the other subsections in this section for details about setting up the various engagement features.  
   
-4.  When you are ready to send the message, click **Send** (or click **Save** if you want to save a draft and finish it later).  
+4.  When you are ready to send the message, select **Send** (or select **Save** if you want to save a draft and finish it later).  
 
 
 <a name="EmailTemplates"></a>   
@@ -133,7 +123,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 1.  Create a new message as described previously in [Create a new message](#NewMessage).  
   
-2.  Click the **Insert Template** button ![Insert Template button](../admin/media/insert-template-button.png "Insert Template button") on the toolbar. When you use a template, you'll  usually choose it right away, immediately after creating the message and before you do anything else.  
+2.  Select **Insert Template** button ![Insert Template button](../admin/media/insert-template-button.png "Insert Template button") on the toolbar. When you use a template, you'll  usually choose it right away, immediately after creating the message and before you do anything else.  
   
 3.  A pop-up window opens, and shows the available and recommended templates.  
   
@@ -145,11 +135,11 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
     -   Choose any listed template to see more information about it in the right-hand column, including live statistics for its reply rate, open rate, and number sent.  
   
-4.  Choose a template and click **Select**. Template content is loaded into your message.  
+4.  Choose a template and select **Select**. Template content is loaded into your message.  
   
 5.  Customize the template content as needed and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-6.  When you are ready to send the message, click **Send** (or click **Save** if you want to save a draft and finish it later).  
+6.  When you are ready to send the message, seelct **Send** (or seelct **Save** if you want to save a draft and finish it later).  
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create templates for email](../admin/create-templates-email.md)  
   
@@ -164,9 +154,9 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 |Follow state|Description|  
 |------------------|-----------------|  
-|![Email follow state on](../admin/media/email-follow-state-on.png "Email follow state on")|Indicates that the current email will be followed. All links will be followed, and followed attachments are enabled (but still optional). This is the default status for all new email messages when email engagement is enabled for your site and all of the recipients allow following. Click the **Don't Follow** link to disable following for this message.|  
-|![Email follow state set to Off](../admin/media/email-follow-state-off.png "Email follow state set to Off")|Indicates that the current email won't be followed. No links will be followed and followed attachments are also disabled. Click the **Follow** link to enable following (if permitted).|  
-|![Email follow state blocked](../admin/media/email-follow-state-blocked.png "Email follow state blocked")|Indicates that one or more of the current email's recipients have following set to Do Not Allow, which means that you can't follow this message unless you remove the recipients that don't allow following (or change their settings). You now have the following options:<br /><br /> -   Click the **View Preferences** link to open a pop-up window that shows the name and following  preference for each recipient. From here you can open any recipient's record by clicking their name in the list.<br />-   If you have attempted to fix the issue by removing recipients or changing settings, then click **Retry Follow** to try again.<br />-   Click **Don't Follow** to stop attempting to follow this message.|  
+|![Email follow state on](../admin/media/email-follow-state-on.png "Email follow state on")|Indicates that the current email will be followed. All links will be followed, and followed attachments are enabled (but still optional). This is the default status for all new email messages when email engagement is enabled for your site and all of the recipients allow following. Select the **Don't Follow** link to disable following for this message.|  
+|![Email follow state set to Off](../admin/media/email-follow-state-off.png "Email follow state set to Off")|Indicates that the current email won't be followed. No links will be followed and followed attachments are also disabled. Select the **Follow** link to enable following (if permitted).|  
+|![Email follow state blocked](../admin/media/email-follow-state-blocked.png "Email follow state blocked")|Indicates that one or more of the current email's recipients have following set to Do Not Allow, which means that you can't follow this message unless you remove the recipients that don't allow following (or change their settings). You now have the following options:<br /><br /> -   Select the **View Preferences** link to open a pop-up window that shows the name and following  preference for each recipient. From here you can open any recipient's record by clicking their name in the list.<br />-   If you have attempted to fix the issue by removing recipients or changing settings, then select **Retry Follow** to try again.<br />-   Select **Don't Follow** to stop attempting to follow this message.|  
   
 > [!NOTE]
 >  Within about 15 minutes of the first time a followed message is registered as opened, the system notifies you by creating a new action card for the relationship assistant. The card provides links to the message, related records, and action buttons to generate a call activity, snooze the alert, or dismiss it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/relationship-assistant.md)  
@@ -176,7 +166,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
 ### Add followed attachments  
   
 > [!NOTE]
->  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md)  
+>  To follow attachments, [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] must be available to your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and Document Management for Email must be enabled. Talk to your administrator if you think these features are missing from your server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)  
   
  Followed attachments can tell you when a recipient opens an attachment. To add one or more followed attachments:  
   
@@ -184,9 +174,9 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 2.  Make sure that following is enabled for the message as described previously in [Enable or disable following for individual messages](#EnableTrackingOnMessages). You can't add followed attachments if the message recipients are set to not allow following, but you can still add unfollowed attachments. You can also mix followed and unfollowed attachments in any message that is enabled for following.  
   
-3.  Click **Save** on the toolbar to save your message. This enables the attachment feature for this message.  
+3.  Select **Save** on the toolbar to save your message. This enables the attachment feature for this message.  
   
-4.  Click the **Add Attachment** button at the top of **Attachment** area.  
+4.  Select **Add Attachment** button at the top of **Attachment** area.  
   
  ![Add attachment button](../admin/media/add-attachment-button.png "Add attachment button")  
   
@@ -194,15 +184,15 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
  ![Manage Attachment window](../admin/media/manage-attachment-window.png "Manage Attachment window")  
   
-6.  Click the **Choose File** button to open a file-browser window, then locate and select the file.  
+6.  Select **Choose File** button to open a file-browser window, then locate and select the file.  
   
-7.  Your selected file name is now shown in the **Manage Attachment** window. Click **Attach** to upload the file, which may take several seconds, depending on its size.  
+7.  Your selected file name is now shown in the **Manage Attachment** window. Select **Attach** to upload the file, which may take several seconds, depending on its size.  
   
  ![Manage Attachment window with document and follow button](../admin/media/manage-attachment-window-document-follow-button.png "Manage Attachment window with document and follow button")  
   
-8.  Click the **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (click here again to stop following the attachment).  
+8.  Select **Follow** button to enable tracking of the attachment. The button text changes to **Do Not Follow**, which indicates that the attachment is now being followed (select again to stop following the attachment).  
   
-9. Click **Close** to close the pop-up window.  
+9. Select **Close** to close the pop-up window.  
   
 10. Your file is now listed in the **Attachment** area. Note that each attachment listed here indicates its size and follow status.  
   
@@ -213,7 +203,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 11. Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-12. When you are ready to send the message, click **Send** (or click **Save** if you want to save a draft and finish it later).  
+12. When you are ready to send the message, select **Send** (or select **Save** if you want to save a draft and finish it later).  
   
 <a name="DeliveryTime"></a>   
 
@@ -242,11 +232,11 @@ You can use this feature both with followed and unfollowed messages.
   
  ![Send Later control](../admin/media/send-later-control.png "Send Later control")  
   
-4.  To delay the message, click the **Send Later** link to open the **Send Later** pop-up window.  
+4.  To delay the message, select the **Send Later** link to open the **Send Later** pop-up window.  
   
  ![Send Later window](../admin/media/send-later-window.png "Send Later window")  
   
-     If the system recommended a time or date, then that information is pre-filled, otherwise it shows a blank date and time. In either case, it uses *your local time* (not the recipients'). Use the **Set at** controls here to set your preferred delivery time and date, and then click **OK** to save your setting and close the window.  
+     If the system recommended a time or date, then that information is pre-filled, otherwise it shows a blank date and time. In either case, it uses *your local time* (not the recipients'). Use the **Set at** controls here to set your preferred delivery time and date, and then select **OK** to save your setting and close the window.  
   
 5.  The **Delay Send**  button now turns green, and links for **Change Schedule** and **Remove Delay** are provided in case you need to change the delay or send right away. You can change the schedule any time from now until it gets sent.  
   
@@ -254,12 +244,12 @@ You can use this feature both with followed and unfollowed messages.
   
 6.  Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-7.  When you are ready to send the message, click **Send**.  
+7.  When you are ready to send the message, select **Send**.  
   
  To specify a delayed send time for a message:  
   
 > [!NOTE]
->  Scheduled messages are listed as such in the **Activities** list for the **Regarding** record. Until the scheduled time arrives, you can still delete or reschedule the message from there. You can also edit the follow-up reminder date or time, but all other settings are read-only once you click **Send**.  
+>  Scheduled messages are listed as such in the **Activities** list for the **Regarding** record. Until the scheduled time arrives, you can still delete or reschedule the message from there. You can also edit the follow-up reminder date or time, but all other settings are read-only once you select **Send**.  
   
 <a name="FollowUpAlert"></a>   
 ### Set a message follow-up reminder  
@@ -269,7 +259,7 @@ You can use this feature both with followed and unfollowed messages.
   
 2.  Finish authoring your message, and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-3.  Click the **Set Reminder** link under the **Email Engagement** heading.  
+3.  Select **Set Reminder** link under the **Email Engagement** heading.  
   
  ![Set reminder control](../admin/media/set-reminder-control.png "Set reminder control")  
   
@@ -289,15 +279,15 @@ You can use this feature both with followed and unfollowed messages.
   
 7.  Use the **Remind by** setting to establish the date and time you would like the reminder to be shown, provided the **Condition** is met.  
   
-8.  Click **OK** to save the reminder.  
+8.  Select **OK** to save the reminder.  
   
-9. The **Set Reminder** button now turns blue, and a short summary of your reminder settings is shown (once the reminder time passes, this text updates to indicate this). The link text next to the button now reads **Change Reminder**, and a **Remove Reminder** link is also added. As the names suggests, you can click here to edit or remove the reminder.  
+9. The **Set Reminder** button now turns blue, and a short summary of your reminder settings is shown (once the reminder time passes, this text updates to indicate this). The link text next to the button now reads **Change Reminder**, and a **Remove Reminder** link is also added. As the names suggests, you can select here to edit or remove the reminder.  
   
  ![Set Reminder for scheduled activity](../admin/media/set-reminder-scheduled.png "Set Reminder for scheduled activity")  
   
 10. Finish authoring your message and enable any other email engagement features that you want to use, as described in the other sections of this topic.  
   
-11. When you are ready to send the message, click **Send**.  
+11. When you are ready to send the message, select **Send**.  
   
  When the reminder gets triggered, the system notifies you by creating a new action card for the Relationship Assistant. The card will be given high priority, so you should see it right away. The card provides links to the message, related records, and action buttons to dismiss or snooze the alert. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/relationship-assistant.md)  
   
@@ -320,13 +310,13 @@ You can use this feature both with followed and unfollowed messages.
   
 2.  You now see the list of activities that you chose the last time you were here. To view a list of followed emails, open the drop-down list at the top of the page, and then choose **Email** > **All Followed Emails** (or some other email view that you find useful).  
   
-3.  You now see a list of emails of the type you selected. If the list includes followed emails, then you can read and sort by columns for open, attachment views, link clicks, and reply counts. You can also open the full details for any message by clicking its **Subject** in the list.  
+3.  You now see a list of emails of the type you selected. If the list includes followed emails, then you can read and sort by columns for open, attachment views, link clicks, and reply counts. You can also open the full details for any message by selecting its **Subject** in the list.  
   
  ![Email KPIs in an email list](../admin/media/email-kpi-email-list.png "Email KPIs in an email list")  
   
 <a name="MessageHistory"></a>   
 ### Message details  
- Open the details page for a delivered message by clicking its subject in an **Activities** or **Emails** list. This brings you to a read-only view of your complete message, with the **Email Engagement** section on the right side of the page that shows the message interaction history and key performance indicators (KPIs).  
+ Open the details page for a delivered message by selecting its subject in an **Activities** or **Emails** list. This brings you to a read-only view of your complete message, with the **Email Engagement** section on the right side of the page that shows the message interaction history and key performance indicators (KPIs).  
   
  ![Email message recipient activity](../admin/media/email-message-recipient-activity.png "Email message recipient activity")  
   
@@ -354,16 +344,18 @@ You can use this feature both with followed and unfollowed messages.
   
  ![Contact preferences for a contact](../admin/media/contact-preferences-contact.png "Contact preferences for a contact")  
   
-3.  Click the value shown for **Follow Email** to toggle the setting between **Do Not Allow** and **Allow**, as needed.  
+3.  Select the value shown for **Follow Email** to toggle the setting between **Do Not Allow** and **Allow**, as needed.  
   
-4.  Click **Save** to save your setting.  
+4.  Select **Save** to save your setting.  
   
 Any time you compose an email that includes one or more recipients that do  not allow following, the controls for enabling the various follow features are shown as disabled on the email authoring page. When following features are turned off, the message won't include a web beacon (clear GIF), all files will be attached directly rather than linked, and no links will redirect through [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. But you can still schedule delivery, and may still see template and delivery-time recommendations.  
   
-To view the tracking preferences for all of the recipients of a message, click the **View Recipients' Preferences** link shown above the body text. A pop-up window opens, showing the name and follow preference for each recipient. From here you can open any contact, account, or lead record by clicking their name in the list.  
+To view the tracking preferences for all of the recipients of a message, select the **View Recipients' Preferences** link shown above the body text. A pop-up window opens, showing the name and follow preference for each recipient. From here you can open any contact, account, or lead record by selecting their name in the list.  
   
 <a name="BKMK_Privacy"></a>   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_relationship_insights_email_engagement](../includes/cc-privacy-relationship-insights-email-engagement.md)]
   
 ### See also  
+
+[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)

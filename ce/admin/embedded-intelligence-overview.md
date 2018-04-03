@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Relationship Insights overview for Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Embedded intelligence overview for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
@@ -12,11 +12,11 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: e9f3a0d0-99fb-40bf-bd82-54995d05f128
 caps.latest.revision: 14
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "udag"
+ms.author: "udag"
+manager: "sakudes"
 ---
-# Preview feature: Relationship Insights overview
+# Embedded intelligence overview
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -30,7 +30,7 @@ Relationship Insights includes the following features, which all work together t
   
 -   Auto capture  
 
-All of these features are available as preview features in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and are only available in North American sites that use US English (en-us). Some basic features of the relationship assistant are also available in the [!INCLUDE[pn_crm_8_2_0_op](../includes/pn-crm-8-2-0-op.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Preview feature: Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+All of these features are available as preview features in the [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] and are only available in North American sites that use US English (en-us). Some basic features of the relationship assistant are also available in the [!INCLUDE[pn_crm_8_2_0_op](../includes/pn-crm-8-2-0-op.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
 A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
   
@@ -42,7 +42,7 @@ When fully included in the product, Relationship Insights will help salespeople 
 <a name="GettingStarted"></a>   
 
 ## Getting started  
- The administrator must enable each Relationship Insights feature before you can try it out. For complete details about prerequisites, how to enable each feature, and how to set them up, see [Configure Relationship Insights features](../admin/configure-relationship-insights-features.md).  
+ The administrator must enable each Relationship Insights feature before you can try it out. For complete details about prerequisites, how to enable each feature, and how to set them up, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
   
 <a name="Assistant"></a>   
 
