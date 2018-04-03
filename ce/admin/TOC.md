@@ -136,7 +136,7 @@
 ## [View and take action on bulk deletion jobs](view-take-action-bulk-deletion-jobs.md)
 ## [Monitor and manage system jobs](monitor-manage-system-jobs.md)
 ## [Audit data and user activity](audit-data-user-activity.md)
-<!-- ### [Enable and use comprehensive auditing](enable-use-activity-logging.md) -->
+<!-- ### [Enable and use Activity Logging](enable-use-comprehensive-auditing.md) -->
 ## [Data encryption](data-encryption.md)
 ## [Manage storage](manage-storage.md)
 ## [Free storage space](free-storage-space.md)
