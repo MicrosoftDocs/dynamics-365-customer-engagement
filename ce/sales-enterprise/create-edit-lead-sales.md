@@ -2,7 +2,7 @@
 title: "Create or edit a lead (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Use leads to track business prospects that you haven't yet qualified."
 keywords: "lead, qualify, sales process, activities"
-ms.date: 09/22/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: 8c65b7d5-b1bc-4dd7-bf10-c8bdc6334491
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -45,7 +45,7 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 
 6.  In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Click the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
   
 7.  In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
    
@@ -66,7 +66,7 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 
 6.  In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Click the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
+    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.
   
 7.  Select **Save** in the lower-right corner of the form.  
     
