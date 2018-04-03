@@ -1,7 +1,8 @@
 ---
-title: "Configure workflow steps (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Configure workflow steps in PowerApps | MicrosoftDocs"
+description: "Learn how to configure workflow steps"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,15 +11,16 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 0b47dfd5-76db-464f-90c0-c64a0173dcdd
 caps.latest.revision: 18
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Configure workflow steps
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 When configuring workflows you have four major areas to consider:  
   
@@ -55,12 +57,12 @@ When configuring workflows you have four major areas to consider:
 |**Start Child Workflow**|Starts a workflow process that has been configured as a child workflow.|  
 |**Change Status**|Changes the status of the record that the process is running on, any of the records linked to that record with an N:1 relationship, or any records created by earlier steps.|  
 |**Stop Workflow**|Stops the current workflow. You can set a status of either **Succeeded** or **Cancelled** and specify a status message.<br /><br /> When real-time workflows are configured for an event, stopping a workflow with a status of cancelled will prevent the event action from completing. See [Using real-time workflows](../customize/configure-workflow-steps.md#BKMK_SynchronousWorkflows) for more information.|  
-|**Custom Step**|Developers can create custom workflow steps that define actions. There are no custom steps available in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] by default.|  
+|**Custom Step**|Developers can create custom workflow steps that define actions. There are no custom steps available by default.|  
   
 ### Setting record values  
  When you create a record you can set values for the record. When you update a record you can set, append, increment, decrement, multiply, or clear values.  
   
- When you click **Set Properties**, a dialog opens showing you the default form for the entity.  
+ When you select **Set Properties**, a dialog opens showing you the default form for the entity.  
   
  At the bottom of the dialog you can see a list of additional fields not present in the form.  
   
@@ -83,7 +85,7 @@ When configuring workflows you have four major areas to consider:
 |**Default Action**|A logical "else" statement. the editor uses the text “Otherwise:”<br /><br /> Select a check condition, conditional branch, wait condition, or parallel wait branch that you have previously defined and you can use a default action to define steps for all cases that do not match the criteria defined in condition or branch elements.|  
 |**Wait Condition**|Enables a background workflow to pause itself until the criteria defined by the condition have been met. The workflow starts again automatically when the criteria in the wait condition have been met.<br /><br /> Real-time workflows cannot use wait conditions.|  
 |**Parallel Wait Branch**|Defines an alternative wait condition for a background workflow with a corresponding set of additional steps that are performed only when the initial criterion is met. You can use parallel wait branches to create time limits in your workflow logic. They help prevent the workflow from waiting indefinitely until the criteria defined in a wait condition have been met.|  
-|**Custom Step**|Developers can create custom workflow steps that define conditions. There are no custom steps available in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] by default.|  
+|**Custom Step**|Developers can create custom workflow steps that define conditions. There are no custom steps available by default.|  
   
  The following screenshot contains an example of the workflow process definition with the **Under** and **Not Under** hierarchical operators. In our example, we apply two different discounts to two groups of accounts. In **Add Step**, we selected the **Check Condition** to specify the **if-then** condition containing the **Under** or **Not Under** operators. The first **if-then** condition applies to all accounts that are **Under** the Alpine Ski House account. These accounts receive a 10% discount on purchased good and services. The second **if-then** condition applies to all accounts that are **Not Under** the Alpine Ski House account and they receive a 5% discount. Then, we selected **Update Record** to define the action to be performed based on the condition.  
   
@@ -91,7 +93,7 @@ When configuring workflows you have four major areas to consider:
   
 <a name="BKMK_SynchronousWorkflows"></a>   
 ## Using real-time workflows  
- With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can configure real-time workflows but you should use them with care. Background workflows are generally recommended because they allow the system to apply them as resources on the server are available. This helps smooth out the work the server has to do and help maintain the best performance for everyone using the system. The drawback is that actions defined by background workflows are not immediate. You can’t predict when they will be applied, but generally it will take a few minutes. For most automation of business processes this is fine because people using the system don’t need to be consciously aware that the process is running.  
+ You can configure real-time workflows but you should use them with care. Background workflows are generally recommended because they allow the system to apply them as resources on the server are available. This helps smooth out the work the server has to do and help maintain the best performance for everyone using the system. The drawback is that actions defined by background workflows are not immediate. You can’t predict when they will be applied, but generally it will take a few minutes. For most automation of business processes this is fine because people using the system don’t need to be consciously aware that the process is running.  
   
  Use real-time workflows when a business process requires someone to immediately see the results of the process or if you want the ability to cancel an operation. For example, you may want to set certain default values for a record the first time it’s saved, or you want to make sure that some records are not deleted.  
   
@@ -103,7 +105,7 @@ When configuring workflows you have four major areas to consider:
 ### Initiating real-time workflows before or after status changes  
  When you configure **Options for Automatic Processes** for real-time workflows, the **Start When** options for the status changes event let you select **After** or **Before** for when status changes. The default option is **After**.  
   
- When you select **Before** you are saying that you want the logic in the workflow to be applied before data changing the status is saved. This provides you with the ability to check the values before other logic has been applied after the operation and prevent further logic from being performed. For example, you may have additional logic in a plug-in or custom workflow action which could initiate actions on another system. By stopping further processing you can avoid cases where external systems are affected. Applying real-time workflows before this event also means that other workflow or plug-in actions in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] that may have saved data don’t need to be “rolled back” when the operation is canceled.  
+ When you select **Before** you are saying that you want the logic in the workflow to be applied before data changing the status is saved. This provides you with the ability to check the values before other logic has been applied after the operation and prevent further logic from being performed. For example, you may have additional logic in a plug-in or custom workflow action which could initiate actions on another system. By stopping further processing you can avoid cases where external systems are affected. Applying real-time workflows before this event also means that other workflow or plug-in actions that may have saved data don’t need to be “rolled back” when the operation is canceled.  
   
 ### Using the Stop Workflow action with real-time workflows  
  When you apply a **Stop Workflow** action in a workflow you have the option to specify a status condition that can be either **Succeeded** or **Canceled**. When you set the status to canceled, you prevent the operation. An error message containing the text from the stop action status message will be displayed to the user with the heading **Business Process Error**.  
