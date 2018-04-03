@@ -1,7 +1,8 @@
 ---
-title: "Control access to forms (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Control access to forms in PowerApps | MicrosoftDocs"
+description: "Learn how to control acces to main forms"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,18 +11,19 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 15d123e0-b604-45dd-ab34-0b37787a04bb
 caps.latest.revision: 33
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 tags: 
 ---
 # Control access to forms
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
- There are two ways you can control access to main forms in Dynamics 365:  
+ There are two ways you can control access to main forms:  
   
 - **Make a main form inactive**  
   
@@ -40,7 +42,7 @@ tags:
 > [!NOTE]
 >  Quick Create and Quick View forms cannot be assigned to security roles.  
   
- Within the Form editor or from the Forms grid you can assign security roles to a form. However, if there is only one form for the entity, you will not be able to clear the **Enabled for fallback** option in the **Assign Security Roles** dialog box. In this case, even though you have assigned security roles to the form, anyone associated with a security role you did not include will still be able to view the form because it is enabled for fallback.  
+ Within the form editor or from the forms grid you can assign security roles to a form. However, if there is only one form for the entity, you will not be able to clear the **Enabled for fallback** option in the **Assign Security Roles** dialog box. In this case, even though you have assigned security roles to the form, anyone associated with a security role you did not include will still be able to view the form because it is enabled for fallback.  
   
  After you create a second main or mobile form for the entity, you will be able to clear the **Enabled for fallback** option for one of them. The system will always make sure that at least one form is enabled for fallback.  
   
@@ -70,3 +72,7 @@ tags:
  Finally, in the web application it is possible, but not recommended, for a developer to use scripts in the form Onload event to use the [Xrm.Page.ui.formSelector.items collection](http://go.microsoft.com/fwlink/p/?LinkID=513300) to query available forms and use the navigate method to direct users to a specific form. Remember that the [navigate method](http://go.microsoft.com/fwlink/p/?LinkID=513301) will cause the form to load again (and the Onload event to occur again). Your logic in the event handler should always check some condition before you use the navigate method to avoid an endless loop or unnecessarily restrict users options to navigate between forms.  
   
  This approach will not work for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] because multiple forms are not available for selection.  
+
+### See also  
+
+[Assign security roles to forms](../admin/assign-security-roles-form.md)

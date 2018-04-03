@@ -1,7 +1,8 @@
 ---
-title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create 1:N (one-to-many) or N:1 (many-to-one) relationships in PowerApps | MicrosoftDocs"
+description: "Learn how to create one-to-many or many-to-one relationships"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 04/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,16 +11,17 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 52c00707-b2bc-4950-abec-89baefd94f6e
 caps.latest.revision: 33
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 tags: 
 ---
 # Create 1:N (one-to-many) or N:1 (many-to-one) relationships
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_CreateEditN1Relationships"></a>   
 
@@ -40,40 +42,38 @@ tags:
   
 ## Create or edit 1:N relationships between entities  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open solution explorer.
   
-2.  Click **Customize the System**.  
+2.  Under **Components**, expand **Entities**, and then expand the entity you want to work with.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want to work with.  
+3.  Select **1:N Relationships**.  
   
-4.  Click **1:N Relationships**.  
-  
-5.  To edit a relationship or view the details for a relationship, select the relationship, and on the Actions toolbar, click **More Actions**, and then click **Edit**.  
+4.  To edit a relationship or view the details for a relationship, select the relationship, and on the Actions toolbar, select **More Actions**, and then select **Edit**.  
   
      \-  OR -  
   
-     To add a new relationship, click **New 1-to-Many Relationship**.  
+     To add a new relationship, select **New 1-to-Many Relationship**.  
   
     > [!IMPORTANT]
     >  If **New 1-to-Many Relationship** does not appear on the Actions toolbar, you cannot create a 1:N relationship for that entity.  
   
-6.  For a new relationship, in the **Relationship Definition** section, in the **Related Entity** list, select the entity to be related.  
+5.  For a new relationship, in the **Relationship Definition** section, in the **Related Entity** list, select the entity to be related.  
   
     > [!NOTE]
     >  Specifying the related entity sets a default value for the **Name** field. If you change the related entity before you save, the value of the **Name** changes accordingly.  
   
-7.  Select whether this will be searchable to not.  
+6.  Select whether this will be searchable to not.  
   
-8.  In the **Lookup Field** section, specify a value for the **Display Name** field.  
+7.  In the **Lookup Field** section, specify a value for the **Display Name** field.  
   
     > [!IMPORTANT]
     >  Specifying the **Display Name** sets a default value for the **Name** field. If you change the **Display Name** of the lookup field before you save, the value in the **Name** field will not change. As a result, be sure the **Name** is meaningful before saving.  
   
-9. In the **Field Requirement** list, choose an option to specify data requirements for the field prior to saving a record.  
+8. In the **Field Requirement** list, choose an option to specify data requirements for the field prior to saving a record.  
   
-10. In the **Navigation Pane Item for Primary Entity** section, in the **Display Option** list, choose an option for displaying associated views or a custom label.  
+9. In the **Navigation Pane Item for Primary Entity** section, in the **Display Option** list, choose an option for displaying associated views or a custom label.  
   
-11. In the **Relationship Behavior** section, in the **Type of Behavior** list, choose one of the following options:  
+10. In the **Relationship Behavior** section, in the **Type of Behavior** list, choose one of the following options:  
   
     - **Parental**. In a parental relationship between two entities, any action taken on a record of the parent entity is also taken on any child entity records that are related to the primary (or parent) entity record.  
   
@@ -88,18 +88,18 @@ tags:
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure entity relationship behavior](../developer/entity-relationship-behavior.md#configure-entity-relationship-behavior)
   
-12. Click **Save and Close** to close the **Relationship** form.  
+11. Select **Save and Close** to close the **Relationship** form.  
   
-13. When your customizations are complete, publish them:  
+12. When your customizations are complete, publish them:  
   
-    -   To publish customizations for only the component that you are currently editing, on the Actions toolbar, click **Publish**.  
+    -   To publish customizations for only the component that you are currently editing, on the Actions toolbar, select **Publish**.  
   
-    -   To publish customizations for all unpublished components at one time, on the nav bar or in the Navigation Pane, click **Entities**, and then on the Actions toolbar, click **Publish All Customizations**.  
+    -   To publish customizations for all unpublished components at one time, on the nav bar or in the Navigation Pane, select **Entities**, and then on the Actions toolbar, select **Publish All Customizations**.  
   
 > [!NOTE]
 > - A custom entity cannot be the primary entity in a relationship with a related system entity that cascades. This means you cannot have a relationship with any action set to Cascade All, Cascade Active, or Cascade User-Owned between a primary custom entity and a related system entity.  
 > - No new relationship can have any action set to **Cascade All**, **Cascade Active**, or **Cascade User-Owned** if the related entity in that relationship already exists as a related entity in another relationship that has any action set to **Cascade All**, **Cascade Active**, or **Cascade User-Owned**. This prevents relationships that create a multi-parent relationship.  
-> - Any time you change user-interface elements or implement form scripts for an entity, you need to publish changes to apply them. Any customizations that change the data schema of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as custom entities, relationships, or fields are applied immediately.  
+> - Any time you change user-interface elements or implement form scripts for an entity, you need to publish changes to apply them. Any customizations that change the data schema of an app, such as custom entities, relationships, or fields are applied immediately.  
 > - If a relationship is part of a managed solution, the developer of the managed solution can restrict you from customizing the relationship.  
 > - [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
   
@@ -177,3 +177,7 @@ tags:
 -   A custom entity can’t be the primary entity in a relationship with a related system entity that cascades. This means you can’t have a relationship with any action set to **Cascade All**, **Cascade Active**, or **Cascade User-Owned** between a primary custom entity and a related system entity.  
   
 -   No new relationship can have any action set to **Cascade All**, **Cascade Active**, or **Cascade User-Owned** if the related entity in that relationship already exists as a related entity in another relationship that has any action set to **Cascade All**, **Cascade Active**, or **Cascade User-Owned**. This prevents relationships that create a multi-parent relationship.  
+
+### See also
+
+[Create N:N (many-to-many) relationships](../customize/create-and-edit-nn-many-to-many-relationships.md)
