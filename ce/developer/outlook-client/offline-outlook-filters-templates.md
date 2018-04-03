@@ -14,7 +14,7 @@ ms.assetid: 3711daa2-27e8-494a-8e3b-52ba7c12022e
 caps.latest.revision: 28
 author: "JimDaly"
 ms.author: "jdaly"
-manager: "amyla"
+manager: "kvivek"
 ---
 # Offline and Outlook filters and templates
 

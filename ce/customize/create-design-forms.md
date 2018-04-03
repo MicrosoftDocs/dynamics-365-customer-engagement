@@ -43,7 +43,7 @@ While each form type has specific needs, when working with forms you use the For
   
 <a name="BKMK_FormDifferencesByEntity"></a>   
 ## Updated versus classic entities  
-[!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] provides many options for designing forms. With Unified Interface, most entities were updated to better suit the responsive interface. Updated entities as well as your own custom entities include support for the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] client, business process flows, and business rules. When you use these entities, you can design once and deploy to all clients.  <!-- link to description of Unified Interface --> 
+[!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] provides many options for designing forms. With Unified Interface, most entities were updated to better suit the responsive interface. Updated entities as well as your own custom entities include support for the [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] client, business process flows, and business rules. When you use these entities, you can design once and deploy to all clients.  
   
 There are still a number of entities, referred to here as classic entities, that retain the appearance and capabilities from earlier versions. These entities are used less often. They are listed here:  
   

@@ -66,7 +66,7 @@ tags:
   
 <a name="BKMK_UseFormScripting"></a>   
 ## Use form scripting  
-<!-- TODO: These reference pages are still being created by Vivek -->
+
  Finally, in the web application it is possible, but not recommended, for a developer to use scripts in the form Onload event to use the [Xrm.Page.ui.formSelector.items collection](http://go.microsoft.com/fwlink/p/?LinkID=513300) to query available forms and use the navigate method to direct users to a specific form. Remember that the [navigate method](http://go.microsoft.com/fwlink/p/?LinkID=513301) will cause the form to load again (and the Onload event to occur again). Your logic in the event handler should always check some condition before you use the navigate method to avoid an endless loop or unnecessarily restrict users options to navigate between forms.  
   
  This approach will not work for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] because multiple forms are not available for selection.  

@@ -29,11 +29,6 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
   
  <!--[Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
 
-<!--  
-> [!TIP]
-> [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is a [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] add-in. As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] paired with [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] is the preferred way to use [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] together with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You may also be familiar with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], which provides complete [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] capabilities (including offline capabilities) from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] are used together by the same user. Choose one or the other.** 
- -->
-
 ## Known issues
 
 For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md).
@@ -223,7 +218,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
-<!-- Waiting to hear from Dev on how this works then I need to update some screenshots from v8 to v9.
+<!-- 
 
 ## Customize the track regarding card
 
@@ -279,7 +274,6 @@ To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-i
 
 <!--
 ## Monitor an email message after you send it  
-[Reviewer note: I did not see this in the new UI.]  
 
  You can monitor an email message after you send it to see the number of times that the message is viewed, opened, replied to, or forwarded. For a monitored email message, you can also see the last activity related to the email message, or view all activity related to the message.  
   
@@ -524,61 +518,6 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 
    ![Enable custom field](media/add-custom-field.png)
 5. Choose **Save** > **Publish** on the **Home** tab.
-
-
-<!--  
-### Filter contacts by column (field)  
-[Reviewer note: I don't think this info is very useful and plan to delete.]
-
-1.  Click the **Filter** button ![Dynamics 365 App for Outlook contract tracking filter button](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-button.png "Dynamics 365 App for Outlook contract tracking filter button").  
-  
-2.  Enter the text you want to filter on in the appropriate field(s).  
-  
- ![Dynamics 365 App for Outlook contact filter by field](../outlook-app/media/dynamics-365-app-outlook-contact-filter-by-field.png "Dynamics 365 App for Outlook contact filter by field")  
-  
-3.  Press Enter.  
-  
-4.  To clear the filter fields, click the **Filter** button again.  
-  
-    > [!NOTE]
-    >  You can filter on the **Full name**, **Title**, **Company**, **Department**, and **Business address** fields. You can’t filter on the **Tracking** status, **Business phone**, or **Email** fields.  
-  
-### Add or remove columns  
-[Reviewer note: I don't think this info is very useful and plan to delete.]  
-
-1.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../outlook-app/media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button").  
-  
-2.  Select or clear the check boxes for the columns you want to add or remove.  
-  
-    > [!NOTE]
-    >  You can’t remove the **Tracking** column.  
-  
-3.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../outlook-app/media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button") again to hide the list of columns.  
-  
-### Move columns  
-[Reviewer note: I don't think this info is very useful and plan to delete.]
--   Select the column you want to move, and then drag it to a new location.  
-  
-    > [!NOTE]
-    >  You can’t move the **Status** column.  
-  
-### Sort data  
-[Reviewer note: I don't think this info is very useful and plan to delete.] 
--   To sort the data in ascending order, click the column heading. To change the sort order to descending, click the column heading again.  
-  
-    > [!NOTE]
-    >  You can sort on the **Full name**, **Company**, **Department**, and **Business address** fields.  
- 
-### Show the latest data  
-  
--   Click the **Refresh** button ![Dynamics 365 App for Outlook Refresh button](../outlook-app/media/dynamics-365-app-outlook-refresh-button.png "Dynamics 365 App for Outlook Refresh button").  
-  
-### Set the number of records you see on the screen  
-[Reviewer note: I don't think this info is very useful and plan to delete.]  
--   Enter the number you want at the bottom of the screen.  
-  
- ![Dynamics 365 App for Outlook contact tracking, number of records to show](../outlook-app/media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 App for Outlook contact tracking, number of records to show")  
--->
  
 ### See also  
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   

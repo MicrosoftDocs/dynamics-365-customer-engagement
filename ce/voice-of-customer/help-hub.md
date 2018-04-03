@@ -18,11 +18,9 @@ topic-status: Drafting
 
 # Voice of the Customer help and training
 
-
-
+ <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/98c28273-0089-42d8-8817-f7349adcb93c" frameborder="0" allowfullscreen=""></iframe></div>
 <table>
 <tr>
-  <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/5jVRFpV4xIs" frameborder="0" allowfullscreen></iframe></div>
   <td><h2>Get started</h2>
   <ul>
   <li>[Overview](get-feedback-surveys.md)</li>
@@ -31,11 +29,7 @@ topic-status: Drafting
   <li>[Decide question type for your survey](plan-survey.md#decide-the-question-type)</li>
   </ul>
   </td>
- <td></td>
- 
-</tr>
-<tr>
- <td><h2>Design</h2>
+  <td><h2>Design</h2>
   <ul>
   <li>[Create a theme for the survey](design-basic-survey.md#create-a-survey-theme)</li>
   <li>[Create the survey](design-basic-survey.md#create-or-edit-a-survey) and [add questions](design-basic-survey.md#create-and-add-survey-questions)</li>
@@ -45,6 +39,8 @@ topic-status: Drafting
   <li>[Design an interactive survey](design-advanced-survey.md#design-interactive-surveys-by-using-response-routing)</li>
   </ul>
  </td>
+</tr>
+<tr>
  <td><h2>Distribute</h2>
   <ul>
   <li>[Personalize the survey invitation](distribute-survey.md#personalize-survey-invitations)</li>
@@ -52,8 +48,7 @@ topic-status: Drafting
   <li>[Track survey invitations](distribute-survey.md#track-survey-invitations)</li>
   </ul>
  </td>
-
- <td><h2>Analyze</h2>
+<td><h2>Analyze</h2>
   <ul>
   <li>[View survey responses](analyze-survey-data.md#survey-responses)</li>
   <li>[Run and export reports](analyze-survey-data.md#run-and-export-reports)</li>
