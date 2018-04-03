@@ -1,7 +1,8 @@
 ---
-title: "Change custom entity icons (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Change custom entity icons in PowerApps | MicrosoftDocs"
+definition: "Learn how to change the icon for a custom entity"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 477f9792-8207-49ef-8968-45274b5355a8
 caps.latest.revision: 19
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 tags: 
  - "Links to topic not migrated"
 ---
 # Change icons for custom entities
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 When you create a custom entity, it is automatically assigned a default icon, and all custom entities by default use the same icon. If your organization has several custom entities, it can be helpful to change the icon associated with one or more custom entities to help users differentiate them.  
   
@@ -48,31 +50,19 @@ When you create a custom entity, it is automatically assigned a default icon, an
     -   No larger than 10 kilobytes.  
   
   
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
+1.  Open solution explorer, expand **Entities** if necessary, select the custom entity you want to update the icon for, and then on the command bar, select **Update Icons**.  
   
-    ### Check your security role  
+2.  In the **Select New Icons** dialog box, under **Icon in Web application** or **Icon for Entity Forms**, to the right of **New Icon**, select the **Browse** button ![Lookup button](../customize/media/lookup-button-4.gif "Lookup button"), select the appropriate image file, and then select **OK**.  
   
-    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+3.  On the command bar, on the **File** menu, select **Save**.  
   
-    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+4.  When your customizations are complete, publish them:  
   
-2. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+    -   To publish customizations for only the component that you are currently editing, in the Navigation Pane, select the entity you have been working on, and then select **Publish**.  
   
-3.  Click **Customize the System**.  
+    -   To publish customizations for all unpublished components at one time, in the Navigation Pane, select **Entities**, and then on the command bar, select **Publish All Customizations**.  
   
-4.  Expand **Entities** if necessary, select the custom entity you want to update the icon for, and then on the command bar, click **Update Icons**.  
-  
-5.  In the **Select New Icons** dialog box, under **Icon in Web application** or **Icon for Entity Forms**, to the right of **New Icon**, click the **Browse** button ![Lookup button](../customize/media/lookup-button-4.gif "Lookup button"), select the appropriate image file, and then click **OK**.  
-  
-6.  On the command bar, on the **File** menu, click **Save**.  
-  
-7.  When your customizations are complete, publish them:  
-  
-    -   To publish customizations for only the component that you are currently editing, in the Navigation Pane, select the entity you have been working on, and then click **Publish**.  
-  
-    -   To publish customizations for all unpublished components at one time, in the Navigation Pane, click **Entities**, and then on the command bar, click **Publish All Customizations**.  
-  
-     New icons might not display in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] until you close and reopen the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] client.  
+     New icons might not display in the app until you close and reopen the it.  
   
 > [!NOTE]
 >  Publishing customizations can interfere with normal system operation. We recommend you schedule publishing when it’s least disruptive to users.  
