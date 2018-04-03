@@ -1,4 +1,4 @@
-﻿# [Improve productivity](increase-employee-productivity.md)
+# [Improve productivity](increase-employee-productivity.md)
 ## [Overview for commissioners and game managers](for-commissioners-game-managers.md)
 ### [Before you get started](get-started.md)
 ### [Understand security roles](understand-security-roles.md)
@@ -25,3 +25,4 @@
 ## [Browser settings](browser-system-requirements.md)
 ## [FAQ](frequently-asked-questions.md)
 ## [Privacy and legal information](legal-information.md)
+## [Dynamics 365 Gamification and GDPR](dynamics-365-gamification-gdpr.md) 
