@@ -1,49 +1,39 @@
 ---
-title: "Add a field to a form | MicrosoftDocs"
+title: "Add a field to a form in PowerApps | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 03/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "PowerApps"
+author: "Mattp123"
 ms.assetid: 29499887-6e7b-44a1-86a7-eaad33f3075d
 caps.latest.revision: 30
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Add a field to a form 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-If a [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] form doesn’t meet your organization’s business requirements, you can customize the form by changing existing fields or by adding new fields. While it might be simpler to edit the existing fields on a form, sometimes it’s better to add a field to address a specific business scenario.  
+If a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] form doesn’t meet your organization’s business requirements, you can customize the form by changing existing fields or by adding new fields. While it might be simpler to edit the existing fields on a form, sometimes it’s better to add a field to address a specific business scenario.  
   
-1.  [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
+1. Open solution explorer.
   
-   #### Check your security role  
+2.  Under **Components**, expand **Entities**, expand the entity you want to customize, and then click **Forms**.  
+3.  In the list, find an entry with the form type of Main, and then double-click or tap to edit it.  
   
-    -   [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-    -   [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2.  [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
-  
-3.  Click **Customize the System**.  
-  
-4.  Under **Components**, expand **Entities**, expand the entity you want to customize, and then click **Forms**.  
-  
-5.  In the list, find an entry with the form type of Main, and then double-click or tap to edit it.  
-  
-6.  In the form, click the section you want to add a field to, and then in the **Field Explorer** pane, double-click the field you want added to the form.  
+4.  In the form, click the section you want to add a field to, and then in the **Field Explorer** pane, double-click the field you want added to the form.  
   
     > [!TIP]
     >  When you add an option set field on the form, the drop-down list that contains the option set values can only display two values. Users must scroll to see more values in the list. If you want to show more than two values without users having to scroll, add one or more **Spacer** controls below the option set field on the form. Each **Spacer** control provides a space for one additional option set value. For example, if you want to display four values in the drop-down list without scrolling, add two **Spacer** controls below the option set field on the form.  
   
-7.  To preview how the form appears and how events function:  
+5.  To preview how the form appears and how events function:  
   
     1.  On the **Home** tab, click **Preview**, and then select **Create Form**, **Update Form**, or **Read-Only Form**.  
   
@@ -51,9 +41,9 @@ If a [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] form doesn’t 
   
     3.  To publish customizations for the form that you’re editing, with the form open, click **Publish**.  
   
-8.  When you’re done editing the form, click **Save and Close**.  
+6.  When you’re done editing the form, click **Save and Close**.  
   
-9. To publish customizations for all unpublished components at one time, click **File**, and then click **Publish All Customizations**.  
+7. To publish customizations for all unpublished components at one time, click **File**, and then click **Publish All Customizations**.  
   
 > [!NOTE]
 >  Publishing customizations can interfere with normal system operation. We recommend that you publish when it’s least disruptive to users.  

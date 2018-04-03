@@ -1,30 +1,30 @@
 ---
-title: Common field properties (Dynamics 365 Customer Engagement) | MicrosoftDocs
+title: Common field properties in PowerApps | MicrosoftDocs
 description: Understand the Common field properties for Main form in Dynamics 365 for Customer Engagement
 Keywords: Main form; Common field properties; Dynamics 365
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.author: anjgup
-manager: sakudes
-ms.date: 03/15/2018
+author: Mattp123
+ms.author: matp
+manager: kvivek
+ms.date: 04/02/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 2b91ee28-7f09-435e-9fae-5225aa698e22
 ---
 # Common field properties
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-[This topic is under revision and is subject to change]
+ Fields in a form display controls people use to view or edit data in an entity record. Fields can be formatted to occupy up to four columns within a section.  
 
- Fields in Dynamics 365 Customer Engagement forms display controls people use to view or edit data in an entity record. Fields can be formatted to occupy up to four columns within a section.  
-
-You can access **Common field properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click one of the fields to view Common field properties.
+You can access **Common field properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click one of the fields to view Common field properties.
 
 ![common-field-properties](media/common-field-properties.png)
   
