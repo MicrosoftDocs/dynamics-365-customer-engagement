@@ -59,5 +59,5 @@ If a [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] form doesn’t 
 >  Publishing customizations can interfere with normal system operation. We recommend that you publish when it’s least disruptive to users.  
   
 ### See Also  
- <!-- [Edit form field properties](../customize/edit-form-field-properties.md)   -->
+ 
  [Create and design forms](../customize/create-design-forms.md)

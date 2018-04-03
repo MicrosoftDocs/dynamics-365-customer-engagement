@@ -1,6 +1,6 @@
 ---
 title: "Sample: Use Dynamics 365 for Outlook methods (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+ms.custom: "dyn365-outlook-client"
 ms.date: 10/31/2017
 ms.reviewer: ""
 ms.service: "crm-online"

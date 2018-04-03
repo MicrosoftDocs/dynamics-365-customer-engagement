@@ -20,11 +20,11 @@ manager: "amyla"
 
 <tr><td>
 
-<h2>Extend customer journeys</h2>
+<h2>Extend Dynamics 365 for Marketing</h2>
 <li>[Extend customer journeys using custom channels](extend-customer-journeys-custom-channels.md)</li>
 <li>[Create a custom channel](create-custom-channel.md)</li>
-<li>[Publish custom channel on AppSource](publish-custom-channel-appsource.md)</li>
-<li>[Configure and use custom channel](configure-use-custom-channel.md)</li>
+<li>[Retrieve interactions for a contact](retrieve-interactions-contact.md)</li>
+<li>[Metadata reference for your organization](marketing-organization-metadata.md)</li>
 
 </td><td>
 
