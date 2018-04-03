@@ -10,7 +10,6 @@ ms.assetid: 3e57d011-15d1-ab74-7d82-0f9b45068606
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ---
 # Dynamics 365 Gamification and GDPR
 To access the information or manage data in accordance with GDPR requirements, please open a [support ticket](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-lifecycle/CRMSupport) with your tenant admin.
