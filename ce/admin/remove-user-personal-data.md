@@ -20,13 +20,20 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-After a user is deleted by the global admin from Office 365 Admin center, the user personal data can be removed from all the instances. A user can be deleted from the Office 365 Admin center in 1 of 2 ways. A user is deleted when the user leaves the company or is deleted when the user requests his/her personal data to be erased. In the first scenario, the user record remains in the tenant’s Active Directory for 30 days before the record is deleted. In the latter scenario, the user record is deleted immediately.
+> [!IMPORTANT]
+> - This feature currently has limited availability.
+> - We expect some changes to this feature.
 
-Once the user record is deleted from the Active Directory, Dynamics System administrators can remove the user personal data from all the instances
+After a user is deleted by the global admin from the Office 365 Admin center, the user's personal data can be removed from all tenant instances. A user is typically deleted from the Office 365 Admin center when the following happens:
+1. The user leaves the company. In this scenario, the user record remains in the tenant’s Active Directory for 30 days before the record is deleted.
+--Or--
+2. The user requests their personal data be deleted. The user record is deleted immediately
+
+Once the user record is deleted from Active Directory, Dynamics 365 system admins can remove the user's personal data from all instances.
 
 ## Remove user personal data via User form
 
-When the user record is deleted from the Active Directory, the following message is displayed on the User form.
+When the user record is deleted from Active Directory, the following message is displayed on the User form:
 
 "This user’s information is no longer managed by Office 365. You can update this record to comply with the GDPR by removing or replacing all personal data."
 
@@ -51,7 +58,7 @@ To remove personal data:
 
 ## Remove user personal data via Web service
 
-You can also update the disabled user personal data Web services – for SystemUser entity.
+You can also update the disabled user personal data Web services – for the SystemUser entity.
 
 For more information,
 - See the list of [writeable attributes](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/systemuser#writable-attributes) that you can update in the [SystemUser Entity Reference](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/entities/systemuser).
