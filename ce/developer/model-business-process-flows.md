@@ -1,6 +1,6 @@
 ---
 title: "Model business process flows (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Enagagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
+description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
 ms.custom: ""
 ms.date: 10/31/2017
 ms.reviewer: ""
@@ -89,9 +89,11 @@ GET [Organization URI]/api/data/v9.0/new_myuniquebpf1s
  A process instance can have one of the following states: `Active`, `Finished`, or `Aborted`. 
 
 > [!IMPORTANT]
-> This section provides information about programmatically managing various business process flow scenarios such as switching business processes, retrieving process instances for an entity record, retrieving active path and active stage for a process instance, and moving to next or previous stage. You must use the messages and appropriate business process flow entity/entities as described in this section to programmatically manage and automate your business process flows.<br/>Manipulating process related attributes (such as **ProcessId**, **StageId**, and **TraversedPath**) on entities enabled for business process flows does not guarantee consistency of the business process flow state, and is not a supported scenario. The only exception to this is programmatically modifying the **ProcessId** attribute while creating an entity record to override the default application of the business process flow to the new record. More information: [Apply business process flow while creating an entity record](#ApplyBPF).  
+> - This section provides information about programmatically managing various business process flow scenarios such as retrieving process instances for an entity record, retrieving active path and active stage for a process instance, and moving to next or previous stage. You must use the messages and appropriate business process flow entity/entities as described in this section to programmatically manage and automate your business process flows.
+> - Manipulating process related attributes (such as **ProcessId**, **StageId**, and **TraversedPath**) on entities enabled for business process flows does not guarantee consistency of the business process flow state, and is not a supported scenario. The only exception to this is programmatically modifying the **ProcessId** attribute while creating an entity record to override the default application of the business process flow to the new record. More information: [Apply business process flow while creating an entity record](#ApplyBPF).
+> - Switching to another process instance for an entity record is only supported through UI (client). Hence, you can no longer use the **SetProcess** message to programmatically set another business process flow as the active process instance for the target entity record.  
   
- Use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to set another business process flow as the active process instance for the target entity record. An active process instance is the one that is visible on the UI for the entity record. If there isn't any process instance of the specified business process flow definition,  a new business process flow instance  will be created, and set as active for the entity record. If there is already a process instance of the business process flow definition, the process instance will be set as the active process instance for the entity record. If you want to set a particular process instance as the active process instance for an entity record, you can use the <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest.NewProcessInstance> property to specify the instance.  
+ <!--Use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to set another business process flow as the active process instance for the target entity record. An active process instance is the one that is visible on the UI for the entity record. If there isn't any process instance of the specified business process flow definition,  a new business process flow instance  will be created, and set as active for the entity record. If there is already a process instance of the business process flow definition, the process instance will be set as the active process instance for the entity record. If you want to set a particular process instance as the active process instance for an entity record, you can use the <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest.NewProcessInstance> property to specify the instance.  
   
  Setting an active process programmatically is the same as switching to another process instance for the entity record in UI. Since each business process flow instance maintains its own stage and step progress information, switching to another business process instance does not cause you to lose the progress information, and you resume from the same point where you were last time.  
   
@@ -130,9 +132,9 @@ Workflow retrievedBPF = (Workflow)_serviceProxy.RetrieveMultiple(opportunityBpfQ
 _bpfId = retrievedBPF.Id;  
 ```  
   
- For the complete sample, see [Sample: Work with business process flows](sample-work-business-process-flows.md)  
+ For the complete sample, see [Sample: Work with business process flows](sample-work-business-process-flows.md) --> 
   
- Use the RetrieveProcessInstances message (<xref href="Microsoft.Dynamics.CRM.RetrieveProcessInstances?text=RetrieveProcessInstances Function" /> or <xref:Microsoft.Crm.Sdk.Messages.RetrieveProcessInstancesRequest>)  to retrieve all the business process flow instances for an entity record across all business process definitions. The business process flow instances returned for an entity are ordered based on the `modifiedon` attribute for the instance. For example, the most recently modified business process flow instance will be the *first*  record in the returned collection. The most recently modified business process flow instance is the one that is active on the UI  for an entity record.  
+ Use the <xref:Microsoft.Dynamics.CRM.RetrieveProcessInstances> function or <xref:Microsoft.Crm.Sdk.Messages.RetrieveProcessInstancesRequest> message to retrieve all the business process flow instances for an entity record across all business process definitions. The business process flow instances returned for an entity are ordered based on the `modifiedon` attribute for the instance. For example, the most recently modified business process flow instance will be the *first*  record in the returned collection. The most recently modified business process flow instance is the one that is active on the UI  for an entity record.  
   
  The following sample code demonstrates how to retrieve business process flow instances for an entity record, and then lists the process instances associated with the entity record:  
   
@@ -265,5 +267,5 @@ If you do not set a value for the **ProcessId** attribute while creating a new e
  [Assign a security role to a business process](http://go.microsoft.com/fwlink/p/?LinkId=512993)   
  [Guide staff through common tasks with processes](http://go.microsoft.com/fwlink/p/?LinkId=512994)   
  [Add ready-to-use business processes](http://go.microsoft.com/fwlink/p/?LinkID=323564)   
- [Business process flows](https://technet.microsoft.com/library/dn531164.aspx)   
+ [Business process flows](../customize/business-process-flows-overview.md)   
  [Write scripts for business process flows](clientapi/write-scripts-business-process-flows.md)
