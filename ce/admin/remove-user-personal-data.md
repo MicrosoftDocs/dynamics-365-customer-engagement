@@ -28,7 +28,7 @@ After a user is deleted by the global admin from the Office 365 Admin center, th
 
 1. The user leaves the company. In this scenario, the user record remains in the tenant’s Active Directory for 30 days before the record is deleted.
 
--Or-
+   -Or-
 
 2. The user requests their personal data be deleted. The user record is deleted immediately.
 
