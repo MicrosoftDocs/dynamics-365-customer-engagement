@@ -45,12 +45,12 @@ Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/
 
 -->
 
- By default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
- 
- Setting the value of the Global Option: `HelpImproveUSD` to `FALSE`, deactivating or deleting the option from the Global Options list disables data collection.
- 
+By default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+
+Setting the value of the Global Option: `HelpImproveUSD` to `FALSE` disables data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+
 > [!Note]
->  The checkbox in the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] section on About page reflects whether or not [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], and agent cannot select or clear the checkbox. However, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrators can control whether or not send data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+>  The checkbox in the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] section on **About** page reflects whether or not [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], and agent cannot select or clear the checkbox. However, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrators can control whether or not send data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
 <a name="Disable_ImproveUSD"></a>   
 ## Disable sending improvement program information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] anonymously
@@ -69,30 +69,32 @@ Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/
   
 7. Click **SAVE & CLOSE**.
   
-> [!NOTE]
-> Alternatively, you can disable the global option for sending improvement program information to Microsoft by performing the following.
-> 1. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**.
-> 2. Select **HelpImproveUSD** checkbox
-> 3. Click **Deactivate** in the toolbar.
-  
 <a name="Enable_ImproveUSD"></a>   
 ## Enable sending improvement program information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] anonymously  
 
-  
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] as a user with the System Administrator or [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator security role.  
   
-2. Go to **Settings** > **Unified Service Desk.**  
+2. Go to **Settings** > **Unified Service Desk**.
   
-3. Click **Options**.  
+3. Click **Options**.
   
 4. On the Active UII Options page,  select **HelpImproveUSD** from the **Global Options** list.
   
 5. In the Value box, type `TRUE`.
   
-6. Click **SAVE & CLOSE**. 
+6. Click **SAVE & CLOSE**.
+
+> [!NOTE]
+> Alternatively, you can enable the global option for sending improvement program information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] by performing the following.
+> 1. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**.
+> 2. Select **HelpImproveUSD** checkbox.
+> 3. Click **Deactivate** in the toolbar.
+
+> [!Note]
+> If you delete the global option from the UII options page, the data collection is enabled and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]
   
 ## Privacy notice  
 [!INCLUDE[cc_privacy_usd_telemetry](../../includes/cc-privacy-usd-telemetry.md)]
   
-## See also  
+## See also
  [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
