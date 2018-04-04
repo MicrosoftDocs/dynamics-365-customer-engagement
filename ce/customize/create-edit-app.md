@@ -27,7 +27,7 @@ topic-status: Drafting
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
   
-On web.powerapps.com, to edit and existing or create a new app in the app designer select **Model-driven** > **Advanced**. Then, in solution explorer select "Apps*. 
+On web.powerapps.com, to edit and existing or create a new app in the app designer select **Model-driven** > **Advanced**. Then, in solution explorer select **Apps**. 
 
 In Dynamics 365 customer enagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
 

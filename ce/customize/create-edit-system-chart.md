@@ -1,5 +1,6 @@
 ---
-title: "Create or edit a system chart | MicrosoftDocs"
+title: "Create or edit a system chart in PowerApps | MicrosoftDocs"
+description: "Learn how to create or edit a chart"
 ms.custom: ""
 ms.date: 03/21/2018
 ms.reviewer: ""
@@ -11,10 +12,11 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "PowerApps"
+author: "Mattp123"
 ms.assetid: e02d58f7-6b1c-4a51-b801-a4d9f24729c5
 caps.latest.revision: 29
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Create or edit a system chart
 
