@@ -51,7 +51,7 @@ These activities can be converted to any default (system) entity records or cust
   
  Here’s the correct format in which [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] should receive the JSON payload (data received as a name-value pair in JSON format) from the external application:  
   
-     {“PropertyName1”:”Propertyvalue1”; “PropertyName2”:”Propertyvalue2”}  
+{“PropertyName1”:”Propertyvalue1”; “PropertyName2”:”Propertyvalue2”}  
   
 > [!NOTE]
 >  Any configuration done in the channel properties is only valid if those name-value pairs exist in the JSON payload. Also, you must only use parameters received from the external application in the rule item conditions and as record properties.
