@@ -25,9 +25,9 @@ manager: "brycho"
 > - We expect some changes to this feature.
 
 After a user is deleted by the global admin from the Office 365 Admin center, the user's personal data can be removed from all tenant instances. A user is deleted from the Office 365 Admin center when:
-1. The user leaves the company. In this scenario, the user record remains in the tenant’s Active Directory for 30 days before the record is deleted.
---Or--
-1. The user requests their personal data be deleted. The user record is deleted immediately
+1. The user leaves the company. In this scenario, the user record remains in the tenant’s Active Directory for 30 days before the record is deleted.<br/>
+--Or--</br/>
+2. The user requests their personal data be deleted. The user record is deleted immediately
 
 Once the user record is deleted from Active Directory, Dynamics 365 system admins can remove the user's personal data from all instances.
 
