@@ -1,18 +1,19 @@
 ---
-title: "Choose and configure columns in views (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "Choose and configure columns in views in PowerApps | MicrosoftDocs"
+description: "Learn how to select and configure views for your app"
 keywords: ""
-ms.date: 09/30/2017
+ms.date: 04/02/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 31bfcf18-58c3-491c-91b5-f9b0f5424852
-author: kabala123
-ms.author: rdubois
-manager: brycho
+author: Mattp123
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,12 +23,12 @@ topic-status: Drafting
 
 # Choose and configure columns in views
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
   
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 
- Along with the filter criteria, the columns visible in a Dynamics 365 Customer Engagement view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
+ Along with the filter criteria, the columns visible in a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] view are very important to the value provided by the view. When you create or edit views, you can do any of the following:  
   
 -   [Add columns](../customize/choose-and-configure-columns.md#BKMK_AddColumns)  
   
@@ -51,13 +52,13 @@ topic-status: Drafting
   
 #### Add columns to views  
   
-1.  While creating and editing views, click **Add Columns** and the **Add Columns** dialog box appears.  
+1.  While creating and editing views, select **Add Columns** and the **Add Columns** dialog box appears.  
   
 2.  Select the **Record type** if you want to include fields from related entities.  
   
 3.  You can select multiple fields, even from related entities.  
   
-4.  When you have selected the fields you want, click **OK** to close the **Add Columns** dialog box.  
+4.  When you have selected the fields you want, select **OK** to close the **Add Columns** dialog box.  
   
  As you add columns, you will increase the width of the view. If the width of the view exceeds the space available to show it in the page, horizontal scrollbars will allow people to scroll and see the hidden columns.  
   
@@ -72,18 +73,18 @@ topic-status: Drafting
   
 1.  While creating and editing views, choose the column you want to remove.  
   
-2.  In the **Common Tasks** area, click **Remove**.  
+2.  In the **Common Tasks** area, select **Remove**.  
   
-3.  In the confirmation message, click **OK**.  
+3.  In the confirmation message, select **OK**.  
   
 <a name="BKMK_ChangeColumnWidth"></a>   
 ### Change column width  
   
 1.  While creating and editing views, choose the column you want to change.  
   
-2.  In the **Common Tasks** area, click **Change Properties**.  
+2.  In the **Common Tasks** area, select **Change Properties**.  
   
-3.  In the **Change Column Properties** dialog box, choose an option to set the column width, and then click **OK**.  
+3.  In the **Change Column Properties** dialog box, choose an option to set the column width, and then select **OK**.  
   
 <a name="BKMK_MoveAColumns"></a>   
 ### Move a column  
@@ -110,9 +111,9 @@ topic-status: Drafting
   
 1.  While creating and editing views, choose the column you want to change.  
   
-2.  In the **Common Tasks** area, click **Change Properties**.  
+2.  In the **Common Tasks** area, select **Change Properties**.  
   
-3.  In the **Change Column Properties** dialog box, select or deselect **Enable presence for this column**, and then click **OK**.  
+3.  In the **Change Column Properties** dialog box, select or deselect **Enable presence for this column**, and then select **OK**.  
   
 <a name="BKMK_AddFindColumns"></a>   
 ### Add find columns  
@@ -120,11 +121,11 @@ topic-status: Drafting
   
 1.  Open a **Quick Find** view. For information on quick find views, see [Types of views](../customize/types-of-views.md).  
   
-2.  Click **Add Find Columns** to open the dialog box.  
+2.  Select **Add Find Columns** to open the dialog box.  
   
 3.  Select the fields that contain the data that you want to search for.  
   
-4.  Click **OK** to close the **Add Find Columns** dialog box.  
+4.  Select **OK** to close the **Add Find Columns** dialog box.  
 
 ## Community tools
 
