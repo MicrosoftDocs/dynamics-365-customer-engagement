@@ -22,7 +22,7 @@ If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamificatio
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
 
-## Update 2018.03
+## Update 2018.03.29
 ### New and improved features
 The [Terms and Usage](https://go.microsoft.com/fwlink/?linkid=870920) has been modified. 
 
