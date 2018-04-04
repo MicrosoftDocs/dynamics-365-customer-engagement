@@ -81,7 +81,7 @@ You can [contact support](contact-technical-support.md) to request data deletion
 |``` (Get-MsolUser -UserPrincipalName "<user email>").ObjectId  ```       |Replace <user email> with the user’s email         |
 |``` (Get-MsolCompanyInformation).ObjectId ```        |         |
 
-Record this information to provide Dynamics 365 support.
+Record this information to provide to Dynamics 365 support.
 
 ### See also
  [Download and install Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)
