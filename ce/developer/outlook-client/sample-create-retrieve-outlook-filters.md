@@ -2,7 +2,7 @@
 title: "Sample: Create and retrieve Outlook filters (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 ms.date: 10/31/2017
-ms.reviewer: "kvivek"
+ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
