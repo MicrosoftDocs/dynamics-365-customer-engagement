@@ -50,7 +50,7 @@ To remove personal data:
 ## Remove user personal data via Excel Import/Export
 
 1. Click **Settings** > **Security** > **Users**.
-2. Select **Disabled Users**view.
+2. Select **Disabled Users** view.
 3. Create an [Excel template](analyze-your-data-with-excel-templates.md#create-a-new-excel-template) with all the user personal data columns that you want to update.  
 4. Click on **Download File**.
 5. Open the downloaded Excel file, make your updates, and then save the file.
