@@ -44,7 +44,7 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 - Screen readers now read labels of radio buttons and checkboxes when configuring KPIs in a Unified Interface app. 
 
-- Screen readers now threat navigation elements consistently in all web applications.
+- Screen readers now treat navigation elements consistently in all web applications.
 
 - Buttons in Gamification settings can no longer be selected when they're disabled.
 
