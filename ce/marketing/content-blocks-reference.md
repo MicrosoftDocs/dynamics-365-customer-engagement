@@ -2,7 +2,7 @@
 title: "Content-blocks reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each content block that is available for the design tool in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; reference; email; form;  page"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: reference
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Content blocks reference
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The following content blocks are available for use with the designer&mdash;some are available for all designers and some are specific to email, marketing pages, or forms.
 

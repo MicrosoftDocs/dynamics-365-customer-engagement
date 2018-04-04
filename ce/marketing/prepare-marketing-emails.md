@@ -2,7 +2,7 @@
 title: "Design, preview, check, and send marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -215,6 +215,20 @@ The following **Advanced Header** settings are available:
 * **To**: This should almost always be set to **{{ contact.emailaddress1 }}**, which sends the message to each contact included in the customer journey that sends the email. You might change this to use a different email address field (such as emailaddress2), or enter a dynamic expression that chooses the best of several available email fields.
 * **Reply-to email**: This should usually be blank, which means that replies to the message will be sent to the address of the **From** contact (or the **Email from address**, if it's different). If you set a value here, replies to your message will be sent to this address rather than the displayed from address. You can edit this to use a static value, or choose the assist-edit button to define an alternative dynamic value.
 
+## Create a transactional email message
+
+Most of the messages you send using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] will probably be marketing messages, but you can also use the solution to send transactional messages. Transactional messages must relate exclusively to a specific transaction between your organization and another individual or organization (such as a receipt, account statement, or consent request), and must not include advertisements or promotional messages. 
+
+Transactional messages are typically regulated differently from marketing messages. They are considered personal communications, not promotional communications, and therefore have different content and consent-level requirements. In [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], the main practical different between transactional and commercial messages is that different validation rules apply. Specifically, commercial messages require a subscription-center link while transactional messages do not.
+
+By default, all new messages that you create will be commercial messages. To change the legal designation of a message:
+
+1. Open the message.
+1. Go to the **Summary** tab.
+1. Set the **Legal Designation** to **Commercial** or **Transactional**, as required. 
+
+Take care not to send transactional messages that include promotional content. It is your responsibility to be familiar with, and conform to, all relevant laws that apply in the countries/regions where you deliver commercial and transactional messages.
+
 
 ## Check your work by using previews and test sends
 
@@ -263,7 +277,7 @@ Before you can send your message, it must pass an error check. You can run an er
 
 All messages must include the following:
 
-- Subscription center link, taken from the content settings as ContentSettings.SubscriptionCenter.
+- Subscription center link, taken from the content settings as ContentSettings.SubscriptionCenter (commercial messages only).
 - Sender's physical address, taken from the content settings as ContentSettings.SenderAddress.
 - A valid subject or a dynamic expression that resolves to valid text.
 - A valid From name and address, or a dynamic expression that resolves to a valid name and address.

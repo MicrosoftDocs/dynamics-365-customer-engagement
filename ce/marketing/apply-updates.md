@@ -20,8 +20,6 @@ topic-status: Drafting
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] is continuously developing and improving online services. Though we roll out updates as soon as they're ready, we don't apply them automatically to customers' systems because most customers prefer to manage this process themselves--for example, by applying and testing updates on a sandbox instance before applying them to a production system.
 
 Read this topic to get an overview of how to update [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and its related solutions.
@@ -56,7 +54,7 @@ To find and apply available updates to all core [!INCLUDE[pn-marketing-app-modul
 1. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard opens.  It shows the name of the Dynamics 365 instance you are about to update. Make sure you have chosen the right one. Look for the **Update packages** button. If the update button isn't shown, then no updates are available for the current organization and you can just quit the wizard.  
     ![Select the Update packages button](media/update-fre-update-packages-button.png "Select the Update packages button")
 
-1. If the **Update packages** button is shown, then select it to start the update. The wizard skips ahead to the **Summary** page, which tracks the progress of the update and will tell you when it's finished.
+1. If the **Update packages** button is shown, then select it to start the update. The update starts right away, and a page opens to track the progress of the update and will tell you when it's finished.
 
 1. Repeat this procedure for each [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] organization that you have.
 
