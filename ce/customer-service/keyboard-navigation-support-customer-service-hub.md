@@ -6,7 +6,7 @@ author: anjgupta
 applies_to: Dynamics 365 (online); Dynamics 365 Version 8.x
 ms.author: anjgup
 manager: sakudes
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 97ac6ad4-92f0-4785-9186-31d3722e20a1
@@ -21,7 +21,7 @@ Microsoft is committed to making its products and services easier for everyone t
 Dynamics 365 now supports moving around the Customer Service Hub (formerly known as Interactive Service hub) using the keyboard.
 
 
-|To do |Press|  
+|To do |Select|  
 |-------------|---------|  
 |Go to the next tab stop in the defined tab stop order. The tab order is from left to right and top to bottom.|	Tab|
 |Go to the previous tab in the tab order.|Shift + Tab|

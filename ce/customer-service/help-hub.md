@@ -16,11 +16,9 @@ ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 
 # Customer Service Hub Help & Training
 
-<tr>
-     <div class="embeddedvideo"><iframe src="https://www.youtube.com/embed/fzaEa0SPWRo" frameborder="0" allowfullscreen></iframe></div>
-</tr>
 
-## Help 
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077" frameborder="0" allowfullscreen=""></iframe></div>
+
 <table>
 <tr>
 <td><h2>Get started</h2>
@@ -61,10 +59,18 @@ ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
 <tr><td><h2>Videos</h2>
 
 <ul>
- <li>[Meet the Customer Service Hub in Dynamics 365](https://www.youtube.com/watch?v=OEn_FN5azq0)</li>
+
  <li>[Resolve open cases fast with Customer Service Hub dashboards for Customer Engagement](https://www.youtube.com/watch?v=cDN-gv0Yylg)</li>
  <li>[How to use the Reference panel in the Customer Service Hub](https://www.youtube.com/watch?v=ruAPEKY5vNc)</li>
  <li>[Expertly manage your cases in the Customer Service Hub for Customer Engagement](https://www.youtube.com/watch?v=Y_eV4HeIm04)</li>
+</ul>
+</td>
+
+<td><h2>Accessibility & GDPR</h2>
+<ul>
+ <li> [Accessibility and GDPR in the Customer Service Hub](user-guide-customer-service-hub.md#accessibility-and-gdpr) </li> 
+ <li>[Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)</li>
+ <li>[Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)</li>
 </ul>
 </td>
 <td>&#160;</td>
