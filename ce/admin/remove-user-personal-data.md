@@ -30,7 +30,7 @@ After a user is deleted by the global admin from the Office 365 Admin center, th
 
 -Or-
 
-2. The user requests their personal data be deleted. The user record is deleted immediately
+2. The user requests their personal data be deleted. The user record is deleted immediately.
 
 Once the user record is deleted from Active Directory, Dynamics 365 system admins can remove the user's personal data from all instances.
 
