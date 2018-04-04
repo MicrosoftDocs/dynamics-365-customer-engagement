@@ -2,7 +2,7 @@
 title: "Create a simple customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; send email; email blast"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -110,7 +110,6 @@ To create a customer journey that executes a one-time email blast:
 
 ### See also
 
-[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Generate activities from a customer journey](generate-activities-from-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  

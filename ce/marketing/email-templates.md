@@ -2,7 +2,7 @@
 title: "Work with email templates (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "Describes how to work with email templates and gives details about client support and known issues related to email designs in Dynamics 365 for Marketing"
 keywords: "designer; email; preview; template; Litmus"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,9 +19,6 @@ topic-status: Drafting
 # Work with email templates
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] comes with a wide variety of professionally designed email templates. Most templates include a column layout, color scheme, sample content, and sample images, whereas others provide just a basic column layout without sample content. There is also a blank template, which provides no sample content or structure.
 

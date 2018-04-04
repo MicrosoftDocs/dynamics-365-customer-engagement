@@ -2,7 +2,7 @@
 title: "Generate activities from a customer journey (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; activities"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -88,6 +88,5 @@ For this exercise, you'll set up a template to create task activities, and then 
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Create an interactive customer journey](create-interactive-customer-journey.md)  
 [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)  
-[Use suppression segments to apply unsubscribe requests](suppression-segments.md)  
 [Use customer journeys to create automated campaigns](customer-journeys-create-automated-campaigns.md)  
 [Customer journey tiles reference](customer-journey-tiles-reference.md)

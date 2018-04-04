@@ -2,7 +2,7 @@
 title: "Overview (Dynamics 365 for Marketing)"
 description: "Get a quick overview of the major capabilities, features, and benefits of Dynamics 365 for Marketing"
 keywords: "features; benefits; overview"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -240,15 +240,3 @@ Use the [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[cc-linke
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [LinkedIn Lead Gen integration](linkedin-lead-gen-integration.md)
 
-## Marketing analytics with [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)]
-
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] includes several prebuilt content packs for [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)], which provide insights and add analytics capabilities to the end-to-end sales and marketing process. Each content pack is preconfigured to consume data directly from your [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] database, and to create targeted and informative infographics based on that data. The content packs are built by using standard [!INCLUDE[pn-microsoft-power-bi](../includes/pn-microsoft-power-bi.md)] tools, so you can easily customize them to fit your specific needs.
-
-The following content packs are provided to support marketing on [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]:
-
-- The Demand Generation Analyzer looks at responses, inquiries, leads, submissions and other records of contact interactions with your campaigns, and tracks your changing audience of prospects.
-- The Marketing Audience Analyzer helps you to dig in and gain a better understanding of your audience.
-- The Lead Pipeline Analyzer is great for B2B scenarios, helping you understand your current lead pipeline. It helps you to identify bottlenecks, optimize filters, and manage handovers.
-- The Lead/Opportunity Influence Analyzer provides insights into which of your activities have contributed most to building up your current lead base, and helps you decide on the focus for future activities.
-
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [View and explore results with Power BI analytics](power-bi-analytics.md)

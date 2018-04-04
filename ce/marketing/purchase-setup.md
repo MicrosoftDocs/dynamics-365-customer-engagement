@@ -1,8 +1,8 @@
 ---
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to set up Dynamics 365 for Marketing for the first time"
-keywords: "setup; licensing; FRE; wizard; Azure; customer insights"
-ms.date: 12/15/2017
+keywords: "setup; licensing; FRE; Azure; customer insights"
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -16,13 +16,11 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# First time setup
+# First-time setup
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
-
-Read this topic to learn how to set up the system for the first time.
+Read this topic to learn how to set up Dynamics 365 for Marketing for the first time.
 
 ## Prerequisites and requirements
 
@@ -39,7 +37,12 @@ Read this topic to learn how to set up the system for the first time.
 
 
 > [!IMPORTANT]
-> Your system is constrained by certain limits and quotas that apply to the number contacts you can store, monthly email messages you can send, monthly Litmus previews you can view, and more. Please download the [Dynamics 365 for Marketing Limits](https://go.microsoft.com/fwlink/p/?linkid=864735) document to familiarize yourself with these before you begin working with the system. You can keep an eye on your usage levels by going to **Settings** >**Advanced Settings** > **Others** > **Quota Limits** in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
+> Your system is constrained by certain limits and quotas that apply to the number of contacts you can store, monthly email messages you can send, monthly Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product. 
+>
+> - For subscribed (paid) versions, please download the [Microsoft Dynamics 365 Licensing Guide](http://download.microsoft.com/documents/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf).
+> - For trial and previews, see [Dynamics 365 for Marketing limits for trials and previews](trial-preview-limits.md).
+> 
+> You can keep an eye on your usage levels by going to **Settings** > **Advanced Settings** > **Others** > **Quota Limits** in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Quota limits](quota-management.md)
 > 
 > See also the [Readme](https://go.microsoft.com/fwlink/p/?linkid=864736) document for the latest news and updates.
 
