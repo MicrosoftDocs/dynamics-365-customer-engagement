@@ -22,6 +22,14 @@ If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamificatio
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
 
+## Update 2018.03
+### New and improved features
+The [Terms and Usage](https://go.microsoft.com/fwlink/?linkid=870920) has been modified. 
+
+### Resolved issues
+Narrator now read out the page name and application name correctly when keyboard focus shifts to **Settings** tab of window.
+
+
 ## Update 2018.2.11
 
 ### New or improved features
@@ -48,7 +56,7 @@ The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-ga
 
 - Buttons in Gamification settings can no longer be selected when they're disabled.
 
-- Drop-down menus on the KPI form in Unified Interface apps now shows proper values to choose from.
+- Drop-down menus on the KPI form in Unified Interface apps now show proper values to choose from.
 
 - To avoid server timeout, the user synchronization workflow now has more time to complete. 
 
