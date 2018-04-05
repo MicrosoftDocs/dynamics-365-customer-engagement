@@ -22,7 +22,7 @@ manager: "kvivek"
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-Web resources are typically used by developers to extend the web application using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
+Web resources are typically used by developers to extend an app using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
 > [!TIP]
 
