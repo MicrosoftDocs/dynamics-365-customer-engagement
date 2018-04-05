@@ -36,16 +36,6 @@ For all the hosted controls of component type CRM page or Standard web applicati
 4. Select **IE Process** from the **Hosting Type** list.
 5. Click **Save**.
 
-## Hybrid Hosted Controls
-
-Best Practices Analyzer checks for Hybrid hosted controls that you configure in Unified Service Desk and displays a warning when one or more Hybrid hosted controls are configured.
-
-Hybrid hosted controls is a combination of Internet Explorer hosted controls and WPF hosted controls.
-
-### Mitigation
-
-Best Practices Analyzer recommends moving all Hybrid hosted control configurations to Internet Explorer hosted controls.
-
 ## Actions Calls in PageLoadComplete Event
 
 Best Practices Analyzer checks and displays a warning when you associate any action calls with PageLoadDocument event.
@@ -89,14 +79,6 @@ Unified Service Desk works best when 50 or less navigation rules are configured.
 ### Mitigation
 
 Best Practices Analyzer recommends optimizing the number of navigation rules in the range inclusive 0-50.
-
-## Duplication Action Calls
-
-Best Practices Analyzer checks for the duplicate action calls that perform the action and displays a warning and list of action calls that are duplicate.
-
-### Mitigation
-
-Best Practices Analyzer recommends optimizing the duplicate action calls configured in Unified Service Desk.
 
 ## Show Script Errors
 

@@ -108,13 +108,4 @@ Review and move any browser hosted controls in Internal WPF mode or Hybrid mode 
 ### Mitigation
 
 Install [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)] KB3092627 update on your computer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]
-[KB3092627](https://support.microsoft.com/en-us/help/3092627/september-2015-update-to-fix-windows-or-application-freezes-after-you)  
-
-## Round-Trip Time
-
-Best Practices Analyzes the network strength to analyze the Round-Trip Time (RTT). This is the time taken to connect from [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
-client application to Dynamics 365 CRM server and back to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.
-
-### Mitigation
-
-It is recommended that you contact your network administrator to improve the network strength.
+[KB3092627](https://support.microsoft.com/en-us/help/3092627/september-2015-update-to-fix-windows-or-application-freezes-after-you)
