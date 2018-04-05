@@ -20,7 +20,6 @@ ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 
 # Configure interactive experience dashboards
 
-
 The Microsoft Dynamics 365 interactive service hub brings you a modern, intuitive, and interactive experience for managing your customer service operations. It's loaded with capabilities, interactive dashboards, and redesigned forms that pull together key information, so customer service representatives can focus on what’s important to them and get things done faster. For service reps, the interactive experience dashboards are a one-stop workplace to see their workload information and take actions. The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams in real time. Customer service reps will no longer need to page through the application looking for particular cases; they’ll be able to act on a case right from the dashboard. While end users will access these dashboards using the interactive service hub URL, as an administrator or customizer, you’ll do all of your configuration work in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application user interface. You won’t have to write code.  
   
 > [!IMPORTANT]
