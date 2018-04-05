@@ -16,43 +16,41 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Analyze best practices in Unified Service Desk
+# Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-Best practices are the guidelines about System configurations, Unified Service Desk, Internet Explorer settings, and Unified Service Desk configurations in Dynamics 365 Customer Engagement. You need to consider these guidelines are a recommended way to use Unified Service Desk and serve your customers.
+Best practices are the guidelines about System configurations, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in Dynamics 365 Customer Engagement. You need to consider these guidelines are a recommended way to use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and serve your customers.
 
 Although deviating from best practices are not necessarily a break down, but they indicate crucial parameters that can result in poor performance, poor reliability, unexpected conflicts, increased security risks, or other potential problems.
 
-## What is Best Practices Analyzer (BPA) for Unified Service Desk
+## What is [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-Best Practices Analyzer (BPA) analyzes the compliance of Unified Service Desk with best practice rules in certain categories. The BPA displays the results of analysis in the form of report with severity levels, description of the parameter, and mitigation for the problematic areas.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The BPA displays the results of analysis in the form of report with severity levels, description of the parameter, and mitigation for the problematic areas.
 
-The categories against which BPA analyzes the compliance of best practice rules are as follows.
+The categories against which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of best practice rules are as follows.
 
-|Category Name| Description|
+| Category Name | Description |
 |--------------------------|-------------------------------|
-|Unified Service Desk Configurations | These are the configurations (Hosted controls, Actions, Events, and so on) that you configure for Unified Service Desk in Dynamics 365.|
-|System Configurations | System Configurations are the information about local computer hardware (RAM, Operating System and so on), Unified Service Desk version, and Network Statistics. |
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | These are the configurations (Hosted controls, Actions, Events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in Dynamics 365.|
+|System Configurations | System Configurations are the information about local computer hardware (RAM, Operating System and so on), [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version, and Network Statistics. |
 |Internet Explorer Settings|These are the settings (General, Security, Advanced, and so on) that you configure for the Internet Explorer browser.|
 
-Results of analysis can be any of the severity levels as show in the
-following table.
+Results of analysis can be any of the severity levels as show in the following table.
 
-|Severity Category|Description|
+| Severity Category | Description |
 |-------------------|-----------------|
 | Pass | The report displays pass result when a parameter satisfies the best practices rule.|
 | Error| The report displays error result when a parameter does not satisfy best practices rule.|
-| Warning| The report displays warning result when a parameter is non-compliant with the best practices rules and due to which Unified Service Desk can encounter potential issues. Setting the value of a parameter as per the recommendation helps Unified Service Desk to perform better.|
+| Warning| The report displays warning result when a parameter is non-compliant with the best practices rules and due to which [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can encounter potential issues. Setting the value of a parameter as per the recommendation helps [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to perform better.|
 
-## Best Practices Analyzer Support Matrix 
+## [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support matrix 
 
-The matrix provides information about how you can obtain and use Best
-Practices Analyzer based on Unified Service Desk existence.
+The matrix provides information about how you can obtain and use [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] based on [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] existence.
 
-|Scenario|Description|Unified Service Desk|
+| Scenario | Description | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] |
 |-----------------|------------------|----------------|
-|New installation|BPA is part of Unified Service Desk – Microsoft Dynamics 365 Web Client and Unified Service Desk – Microsoft Dynamics 365 Unified Client | Unified Service Desk 3.3 |
-|Existing installation|BPA is available as a download package.| Unified Service Desk 3.2 |
-|                       || Unified Service Desk 3.1 |
-|                       || Unified Service Desk 3.0 |
-|                       || Unified Service Desk 2.2 |
+| New installation |BPA is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Web Client and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Unified Client | [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] |
+|Existing installation|BPA is available as a download package.| [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] |
+|                       || [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] |
+|                       || [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] |
+|                       || [!INCLUDE[pn-unified-service-desk-2-2dot2](../includes/pn-pn-unified-service-desk-2-2dot2.md)] |
 

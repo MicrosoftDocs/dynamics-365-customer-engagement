@@ -18,5 +18,6 @@ manager: "sakudes"
 ---
 # Compliance categories and parameters
 
-The parameters under each category that Best Practices Analyzer analyzes and mitigation steps in case of warning or error is as follows.
+The parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
+ analyzes and mitigation steps in case of warning or error is as follows.
 

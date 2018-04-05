@@ -1,6 +1,6 @@
 ---
 title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
-description: "Learn about downloading and installting the Best Practices Analyzer."
+description: "Learn about downloading and installing the Best Practices Analyzer."
 ms.custom: ""
 ms.date: 04/15/2018
 ms.service: "usd"
@@ -16,23 +16,19 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Download Best Practices Analyzer (BPA)
+# Download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
-The table provides where you can download Best Practices Analyzer for
-various versions of Unified Service Desk.
+The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-| **Version**                                          | **Download Location** |
-|------------------------------------------------------|-----------------------|
-| Best Practices Analyzer for Unified Service Desk 3.3 | &lt;Download Link&gt; |
-| Best Practices Analyzer for Unified Service Desk 3.2 | &lt;Download Link&gt; |
-| Best Practices Analyzer for Unified Service Desk 3.1 | &lt;Download Link&gt; |
-| Best Practices Analyzer for Unified Service Desk 3.0 | &lt;Download Link&gt; |
-| Best Practices Analyzer for Unified Service Desk 2.2 | &lt;Download Link&gt; |
+| Version | Download Location |
+|---------|-------------------|
+| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] | Download Link |
+| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] | Download Link |
+| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] | Download Link |
+| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] | Download Link |
+| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-2-2dot2](../includes/pn-pn-unified-service-desk-2-2dot2.md)] | Download Link |
 
-## Install Best Practices Analyzer
+## Install [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
-Before you can install and deploy Best Practices Analyzer, you must
-download Best Practices Analyzer package specific to your Unified
-Service Desk version. More information: &lt;Download Best Practices
-Analyzer&gt;
+Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)], you must download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package specific to your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] Download Best Practices Analyzer
 
