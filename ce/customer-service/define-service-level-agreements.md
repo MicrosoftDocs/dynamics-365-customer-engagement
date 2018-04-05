@@ -320,9 +320,9 @@ Define the level of service or support that your organization agrees to offer to
 >  To track SLAs for entities other than case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md)  
   
 ### See also  
- [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   
- [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)   
- [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   
- [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
- [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)
+ [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   <br>
+ [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)   <br>
+ [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   <br>
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
+ [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
  [Create and manage a case (Customer Service](../customer-service/user-guide-customer-service.md)
