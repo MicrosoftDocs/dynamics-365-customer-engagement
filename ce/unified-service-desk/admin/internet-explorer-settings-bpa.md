@@ -18,18 +18,13 @@ manager: "sakudes"
 ---
 # Internet Explorer Settings
 
-In the context of Best Practices Analyzer and Unified Service Desk
-Client application, certain parameters of Internet Explorer settings are
-important for Unified Service Desk to work seamlessly.
+In the context of Best Practices Analyzer and Unified Service Desk Client application, certain parameters of Internet Explorer settings are important for Unified Service Desk to work seamlessly.
 
 ### Tab Process Growth (TabProcGrowth)
 
-Best Practices Analyzer checks for the TabProcGrowth key in the Regedit
-and displays an error when the value is not set to 16.
+Best Practices Analyzer checks for the TabProcGrowth key in the Regedit and displays an error when the value is not set to 16.
 
-Tab Process Growth (TabProcGrowth) is the rate at which Internet
-Explorer creates new tab processes. Unified Service Desk works best when
-the value is 16.
+Tab Process Growth (TabProcGrowth) is the rate at which Internet Explorer creates new tab processes. Unified Service Desk works best when the value is 16.
 
 #### Mitigation
 
@@ -37,17 +32,16 @@ Set TabProcGrowth (Tab Process Growth) value to 16.
 
  
 
-1.  Open **C:/** &gt; **Windows** &gt; **regedit**.
+1. Open C:/ > **Windows** > **regedit**.
 
-2.  Go to
-    > **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet
-    > Explorer**\\**Main.**
+2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main.**
 
-3.  Right-click on **TabProcGrowth** and select **Modify** option.
+3. Right-click on **TabProcGrowth** and select **Modify** option.
 
-> **Note:** If the key is not present, create the key.
+> [!Note]
+> If the key is not present, create the key.
 
-1.  Right-click on the blank area and select **New** &gt; **DWORD
+1. Right-click on the blank area and select **New** &gt; **DWORD
     > (32-bit) Value**. You can see new file.
 
 2.  Type **TabProcGrowth** as file name, and **Modify**.
