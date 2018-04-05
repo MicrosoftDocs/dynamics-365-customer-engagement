@@ -1,7 +1,7 @@
 ---
 title: "Search within file attachment content in Dynamics 365 portals  | MicrosoftDocs"
 description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 portals."
-keywords: "portal GDPR, implement GDPR in portal"
+keywords: "search within attachment,search in file attachment"
 ms.date: 04/05/2018
 ms.service: crm-online
 ms.topic: article
