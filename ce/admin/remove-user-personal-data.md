@@ -1,7 +1,7 @@
 ---
 title: "Remove user personal data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/03/2018
+ms.date: 04/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,9 +20,8 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-> [!IMPORTANT]
-> - This feature currently has limited availability.
-> - We expect some changes to this feature.
+> [!NOTE]
+> - This feature is coming soon.
 
 After a user is deleted by the global admin from the Office 365 Admin center, the user's personal data can be removed from all tenant instances. A user is deleted from the Office 365 Admin center when:
 
