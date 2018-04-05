@@ -1,7 +1,8 @@
 ---
-title: "Entities and metadata overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Entities and metadata overview in PowerApps | MicrosoftDocs"
+description: "Learn about entities and metadata" 
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,30 +11,32 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 88b18946-474c-4c94-8e4c-27532f930757
 caps.latest.revision: 28
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
+
 # Entities, metadata, and the metadata browser
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-This topic looks at metadata and how you can use it to customize your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] deployment.  
+This topic looks at metadata and how you can use it to create [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps or customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   
 <a name="BKMK_Metadata"></a>
 
 ## Metadata used with customization  
- *Metadata* means data about data. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] provides a flexible platform for your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] deployment because it is relatively easy to edit the definitions of the data that the deployment will use. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] the metadata is a collection of entities. Entities describe the kinds of data which is stored in the database.  Each entity corresponds to a database table and each field (also known as attribute) within an entity represents a column in that table. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. Using only the entity metadata and the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services a developer can write code to perform actions with data on your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. You have the ability to edit this metadata with the customization tools to create or edit entities, fields, and entity relationships.  
+ *Metadata* means data about data. [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] provides a flexible platform for you because it is relatively easy to edit the definitions of the data that the environment will use. In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] the metadata is a collection of entities. Entities describe the kinds of data which is stored in the database.  Each entity corresponds to a database table and each field (also known as attribute) within an entity represents a column in that table. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. Using only the entity metadata and web services a developer can write code to perform actions with data on your environment. You have the ability to edit this metadata with the customization tools to create or edit entities, fields, and entity relationships.  
   
- The web application or different clients people use to interact with the data in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization depend on the entity metadata and adapt as the entity metadata changes. But these clients also depend on other data to control what visual elements to display, any custom logic to apply, and how to apply security. This system data is also stored within entities but the entities themselves are not available for customization.  
+ The web application or different clients people use to interact with the data in your environment depend on the entity metadata and adapt as the entity metadata changes. But these clients also depend on other data to control what visual elements to display, any custom logic to apply, and how to apply security. This system data is also stored within entities but the entities themselves are not available for customization.  
   
 
 <a name="BKMK_MetadataBrowser"></a>
 
 ## Use the metadata browser  
- The solution explorer provides access to all the entities that you can customize, but this is just a fraction of all the entities that define the metadata used for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For most basic customization tasks the information presented within the solution explorer is going to be all you need. Developers frequently need more information and an easy way to see the metadata. If you need to have in-depth discussions with developers about metadata or if you just want to have a deeper understanding of the metadata, try installing the Metadata Browser solution. The Metadata browser is a managed solution containing only HTML web resources that you can install that will let you view all the metadata and filter entities and fields to gain a better understanding of what the metadata contains.  
+ The solution explorer provides access to all the entities that you can customize, but this is just a fraction of all the entities that define the metadata used in the system. For most basic customization tasks the information presented within the solution explorer is going to be all you need. Developers frequently need more information and an easy way to see the metadata. If you need to have in-depth discussions with developers about metadata or if you just want to have a deeper understanding of the metadata, try installing the Metadata Browser solution. The Metadata browser is a managed solution containing only HTML web resources that you can install that will let you view all the metadata and filter entities and fields to gain a better understanding of what the metadata contains.  
   
 ### Download and install the metadata browser 
 Use the appropriate link below to download the metadata browser solution so you can install it.
@@ -82,7 +85,7 @@ You can perform the following actions:
     - **Filter Attributes**: Filter attributes by any attribute property values.
     - **Filter Properties**: Filter the properties displayed for the selected attribute.
 
-- **Keys**: If alternate keys are enabled for an entity you can examine how they are configured.
+- **Keys**: If alternate keys are enabled for an entity you can examine how they are configured. More information: [Define alternate keys](../customize/define-alternate-keys-reference-records.md)
 
 - **Relationships**: View the three types of entity relationships: One-To-Many, Many-To-One, and Many-To-Many. With these views you can:  
     - **Edit Relationship**: Open the selected relationship form in the default organization, if the relationship supports this.  
@@ -101,9 +104,9 @@ You can perform the following actions:
 <a name="BKMK_CreateNewOrUseExistingMetadata"></a>
 
 ## Create new metadata or use existing metadata  
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] comes with a number of system entities that support core [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] capabilities. For example, data about your customers or potential customers is intended to be stored using the account or contact entities. The lead entity is where information about prospects or potential sales opportunities should be kept. The opportunity entity is intended to be used to track potential revenue generating events.  
+ [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] comes with a number of system entities that support core business application capabilities. For example, data about your customers or potential customers is intended to be stored using the account or contact entities. The lead entity is where information about prospects or potential sales opportunities should be kept. The opportunity entity is intended to be used to track potential revenue generating events.  
   
- Each of these entities also contain a number of fields that represent common data that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] systems may need to store for the respective entity.  
+ Each of these entities also contain a number of fields that represent common data that the system may need to store for the respective entity.  
   
  For most organizations it is to your advantage to use the system entities and attributes for the purposes they were provided. Even though you can create new custom entities, system entities may have special capabilities that you will not be able to easily replicate without writing code.  
   
@@ -121,13 +124,13 @@ You can perform the following actions:
   
 <a name="BKMK_LimitationsOnMetadata"></a>   
 ## Limitations on creating metadata items  
- With [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] there is a limit to the number of entities you can create. You can find information about the maximum number in the **Resources In Use** page for your deployment. If you need more custom entities, contact [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] technical support. This upper limit can be adjusted. .  
+ There is a limit to the number of entities you can create. You can find information about the maximum number in the **Resources In Use** page. If you need more custom entities, contact [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] technical support. This upper limit can be adjusted.  
   
  Within each entity there is an upper limit on the number of fields you can create. This limit is based on the technical limitations on the amount of data that can be stored in a row of a database table. It is difficult to provide a specific number because each type of field can use a different amount of space. The upper limit depends on the total space used by all the fields for the entity.  
   
- Most people do not create enough custom fields to reach the limit, but if you find yourself planning to add hundreds of custom fields to an entity, you should consider if this is the best design. Do all the fields you plan to add describe properties for a record for that entity? Do you really expect that people using your organization will be able to manage in a form that includes such a high number of fields? The number of fields you add to a form increase the amount of data that has to be transferred each time a record is edited and will affect the performance of the system. Take these factors into consideration when you are adding custom fields to an entity.  
+ Most people do not create enough custom fields to reach the limit, but if you find yourself planning to add hundreds of custom fields to an entity, you should consider if this is the best design. Do all the fields you plan to add describe properties for a record for that entity? Do you really expect that people using your organization will be able to manage a form that includes such a high number of fields? The number of fields you add to a form increase the amount of data that has to be transferred each time a record is edited and will affect the performance of the system. Take these factors into consideration when you are adding custom fields to an entity.  
   
- Option set fields provide a set of options that will be displayed in a drop-down control on a form or in picklist control when using advanced find. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] can support thousands of options within an Option set, but you shouldn’t consider this as the upper limit. Usability studies have shown that people have trouble using a system where a drop-down control provides large numbers of options. Use option set field to define categories for data. Don’t use option set fields to select categories that actually represent separate items of data. For example, rather than maintain an option set field that stores each of hundreds of possible manufacturers of a type of equipment, consider creating an entity that stores references to each manufacturer and use a lookup field instead of an option set.  
+ Option set fields provide a set of options that will be displayed in a drop-down control on a form or in picklist control when using advanced find. Your environment can support thousands of options within an Option set, but you shouldn’t consider this as the upper limit. Usability studies have shown that people have trouble using a system where a drop-down control provides large numbers of options. Use option set field to define categories for data. Don’t use option set fields to select categories that actually represent separate items of data. For example, rather than maintain an option set field that stores each of hundreds of possible manufacturers of a type of equipment, consider creating an entity that stores references to each manufacturer and use a lookup field instead of an option set.  
   
 ### See also  
  [Create and edit entities](../customize/create-edit-entities.md)   
