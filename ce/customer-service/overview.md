@@ -50,13 +50,18 @@ If you're using a desktop browser, you'll see the Customer Service app and the C
 
 ![open-sitemap](media/open-csh-sitemap-overview.png "Customer Service Hub sitemap")
 
-[//]: # (There's no token - yet? - for Dynamics 365 for phones and tablets, but there are two separate tokens for the two flavors. I'm not sure what to do here.)
 If you're using a mobile device with Dynamics 365 for phones and tablets installed, you'll see the Customer Service Hub app in the app switcher as shown here:
 
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
 > Looking forward to upgrade to the Customer Service Hub app? See the blog [Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
+
+## Accessibility and GDPR in the Customer Service Hub 
+
+Customer Service Hub is committed towards inclusive design and accessible content. The app is designed around accessibility so that all users can be effortlessly productive.
+
+For more details about the app's accessibility and GDPR compliance, see [Accessibility and GDPR](user-guide-customer-service-hub.md#accessibility-and-gdpr).
 
 ## Set up Customer Service or Customer Service Hub
 
@@ -82,8 +87,6 @@ The Service Manager Guide helps you set up everything related to customer servic
 - **[!include[](../includes/pn-unified-service-desk.md)]**: [!include[](../includes/pn-unified-service-desk-for-crm.md)] Customer Engagement provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in [!include[](../includes/pn-dynamics-crm.md)]. You can aggregate customer information from different areas in [!include[](../includes/pn-dynamics-crm.md)] into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business-critical information so they can quickly engage with customers and address queries and issues.
    
    Learn more about [Unified Service Desk](../unified-service-desk/admin/overview-unified-service-desk.md).
-
-
 
 ### See also  
 
