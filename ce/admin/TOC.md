@@ -54,7 +54,6 @@
 ## [For partners: Delegated Administrator](for-partners-delegated-administrator.md)
 
 # [Manage security, users, and teams](manage-security-users-and-teams.md)
-## [What's new for user account management](whats-new-user-accounts.md)
 ## [Security concepts](security-concepts.md)
 ### [Security roles and privileges](security-roles-privileges.md)
 #### [Create or edit a security role](create-edit-security-role.md)
