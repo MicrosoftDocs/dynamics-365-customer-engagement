@@ -28,6 +28,7 @@ The Customer Service Hub’s intuitive interface brings together vital informati
     - Google Chrome
     - Microsoft Edge (supported on Windows 10)
     - Apple Safari 11
+    - Internet Explorer 11
 
 - **Mobile**
     - iOS 10 - Tablet & Phone

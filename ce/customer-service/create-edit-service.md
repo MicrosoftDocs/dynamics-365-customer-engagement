@@ -73,9 +73,8 @@ A service requires at least one selection rule and one or more resources, resour
   
    Resource groups are users, facilities, or equipment that can be scheduled interchangeably.  
   
-   >[!WARNING]
-   >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.  
-   >   
+   > [!NOTE]
+   >  You can save a service without defining a selection rule, but you won’t be able to schedule that service.   
    >  More information: [Create or edit a selection rule](create-simple-selection-rule.md)  
   
 7.  When you’re ready to save your data, click **Save**.  
