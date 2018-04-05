@@ -22,7 +22,7 @@ Dynamics 365 allows knowledge base articles to include downloadable files by usi
 
 You can configure your portal to allow portal users to search within the attachment content (knowledge base articles and web files). This allows a user to find the relevant information.
 
-In case of knowledge base articles  , any notes attachment with the defined prefix will be indexed. In case of web files, the latest notes attachment will be indexed.
+In case of knowledge base articles, any notes attachment with the defined prefix will be indexed. In case of web files, the latest notes attachment will be indexed.
 
 To index the attachments, you must create the following site settings and set their value to true:
 
@@ -32,7 +32,7 @@ To index the attachments, you must create the following site settings and set th
 |KnowledgeManagement/DisplayNotes|Indicates whether to index attachments of knowledge articles.|
 |||
 
-The search results include attachments. If the search term matches a notes attachment, the link to the corresponding knowledge base article is also provided. To see downloadable attachments, select **Downloads** under **Record Type** in the left pane. To modify the **Downloads** label, edit the Search/Facet/Downloads content snippet. By default, the value is set to **Downloads**.
+When you search for a term, the search results include attachments also. If the search term matches a notes attachment, the link to the corresponding knowledge base article is also provided. To see downloadable attachments, select **Downloads** under **Record Type** in the left pane. To modify the **Downloads** label, edit the Search/Facet/Downloads content snippet. By default, the value is set to **Downloads**.
 
 ![Download attachment](media/search-attachment-content.png "Download attachment") 
 
