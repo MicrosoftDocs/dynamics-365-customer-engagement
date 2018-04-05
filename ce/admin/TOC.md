@@ -137,6 +137,7 @@
 ## [Audit data and user activity](audit-data-user-activity.md)
 <!-- ### [Enable and use Activity Logging](enable-use-comprehensive-auditing.md) -->
 ## [Data encryption](data-encryption.md)
+## [Remove user personal data](remove-user-personal-data.md)
 ## [Manage storage](manage-storage.md)
 ## [Free storage space](free-storage-space.md)
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
