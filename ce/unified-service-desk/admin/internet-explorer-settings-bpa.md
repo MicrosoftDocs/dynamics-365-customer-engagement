@@ -30,7 +30,7 @@ Tab Process Growth (TabProcGrowth) is the rate at which [!include[pn-internet-ex
 
 Set TabProcGrowth (Tab Process Growth) value to 16.
 
-1. Open C:/ > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
+1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main.**
 3. Right-click on **TabProcGrowth** and select **Modify** option.
     > [!Note]
@@ -53,10 +53,11 @@ Set TabShutdownDelay (Tab Shutdown Delay) value to zero.
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
-3.  Right-click on **TabShutdownDelay** and select **Modify** option.
-> Note: If the key is not present, create the key.<br>
-        1.  Right-click on the blank area and select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
-        2.  Type **TabShutdownDelay** as file name, and **Modify**.
+3.  Right-click on **TabShutdownDelay** and select **Modify** option.<br>
+       > [!NOTE]
+       > If the key is not present, create the key.<br>
+            1.  Right-click on the blank area and select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
+            2.  Type **TabShutdownDelay** as file name, and **Modify**.
 4. Specify **0** in the **Value data** field.
 5. Choose **Decimal** in the **Base** group box.
 6. Click **OK**.
@@ -80,9 +81,10 @@ Disable through Registry (Regedit)
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
 3.  Right-click **Isolation** and select **Modify** option.
-    > Note: If the key is not present, create the key.<br>
-    1.  Right-click on the blank area and select **New** > **String Value**. You can a see new file.<br>
-    2.  Type **Isolation** as file name, and **Modify**.
+    > [!Note]
+    > If the key is not present, create the key.<br>
+        1.  Right-click on the blank area and select **New** > **String Value**. You can a see new file.<br>
+        2.  Type **Isolation** as file name, and **Modify**.
 4.  Specify **PMEM** in the **Value data** field.
 5.  Click **OK**.
 
@@ -112,9 +114,10 @@ Disable through Registry (Regedit)
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Recovery`.
 3.  Right-click on **AutoRecover** and select **Modify** option.
-> [!Note] If the key is not present, create the key.<br>
-    1.  Right-click on the blank area and select **New** > **String Value**. You can a see new file.<br>
-    2.  Type **Isolation** as file name, and **Modify**.
+    > [!Note]
+    > If the key is not present, create the key.<br>
+        1.  Right-click on the blank area and select **New** > **String Value**. You can a see new file.<br>
+        2.  Type **Isolation** as file name, and **Modify**.
 4.  Specify **2** in the **Value data** field.
 5.  Click **OK**.
 
@@ -140,7 +143,7 @@ You can enable the option in the following ways:
 Enable through Registry (Regedit)
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>. <br>
+2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
 Numerically named folders are as follows:<br>
     - 1 (Intranet zone)
     - 2 (Trusted Sites zone)
@@ -148,8 +151,8 @@ Numerically named folders are as follows:<br>
     - 4 (Restricted Sites zone)
 3.  Right-click on **2500** file and select **Modify** option.
     > [!Note] If the key is not present, create the key.<br>
-    > 1. Right-click on the blank area and select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
-    > 2. Type **2500** as file name, and **Modify**.
+        1. Right-click on the blank area and select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
+        2. Type **2500** as file name, and **Modify**.
 6.  Specify **0** in the **Value data** field.
 7.  Click **OK**.
 
