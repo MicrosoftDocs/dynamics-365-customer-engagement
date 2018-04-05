@@ -30,7 +30,7 @@ Tab Process Growth (TabProcGrowth) is the rate at which [!include[pn-internet-ex
 
 Set TabProcGrowth (Tab Process Growth) value to 16.
 
-1. Open C:/ > **[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]** > **regedit**.
+1. Open C:/ > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main.**
 3. Right-click on **TabProcGrowth** and select **Modify** option.
     > [!Note]
@@ -51,7 +51,7 @@ TabShutdownDelay is a key which causes [!include[pn-internet-explorer](../../inc
 
 Set TabShutdownDelay (Tab Shutdown Delay) value to zero.
 
-1.  Open **C:/** &gt; **[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]** &gt; **regedit**.
+1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
 3.  Right-click on **TabShutdownDelay** and select **Modify** option.
 > Note: If the key is not present, create the key.<br>
@@ -77,7 +77,7 @@ You can disable the option in the following ways:
 
 Disable through Registry (Regedit)
 
-1.  Open **C:/** &gt; **[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]** &gt; **regedit**.
+1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
 3.  Right-click **Isolation** and select **Modify** option.
     > Note: If the key is not present, create the key.<br>
@@ -109,7 +109,7 @@ You can disable the option in the following ways:
 
 Disable through Registry (Regedit)
 
-1. Open **C:/** > **[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]** > **regedit**.
+1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Recovery`.
 3.  Right-click on **AutoRecover** and select **Modify** option.
 > [!Note] If the key is not present, create the key.<br>
@@ -139,7 +139,7 @@ You can enable the option in the following ways:
 
 Enable through Registry (Regedit)
 
-1.  Open **C:/** > **[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]** > **regedit**.
+1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>. <br>
 Numerically named folders are as follows:<br>
     - 1 (Intranet zone)
@@ -177,7 +177,7 @@ Set Cleanup HTCs option to Yes.
 
 Set cleanup HTCs through Registry (Regedit)
 
-1.  Go to **C:/** > **[!include[pn-ms-windows-short](../includes/pn-ms-windows-short.md)]** > **regedit**
+1.  Go to **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**
 2.  Double-click to open **regedit**
 3.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer`.
 4.  Right-click on **Cleanup HTCs** and select **Modify** option.
