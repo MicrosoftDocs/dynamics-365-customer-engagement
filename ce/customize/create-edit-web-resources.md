@@ -1,7 +1,8 @@
 ---
-title: "Create or edit web resources (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create or edit web resources in PowerApps | MicrosoftDocs"
+description: "Learn how to create or edit a web resource"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 04/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: ef4ba8df-9ba9-4066-b40d-def9761c7de2
 caps.latest.revision: 21
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
-# Create or edit web resources to extend a web application
+# Create or edit web resources to extend an app
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-Web resources are typically used by developers to extend the web application using files that are used in web development. As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] user you may need to manage web resources provided by a developer or designer.  
+Web resources are typically used by developers to extend the web application using files that are used in web development. App users may need to manage web resources provided by a developer or designer.  
 
 > [!TIP]
 
@@ -28,30 +30,28 @@ Web resources are typically used by developers to extend the web application usi
    
 <a name="BKMK_WhatAreWebResources"></a>   
 ## What are web resources?  
- Web resources are virtual files stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database. Each web resource has a unique name that can be used in a URL to retrieve the file. Think of them this way: If you had access to the actual web server running the web application, you could copy files over to that website. But with [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] you can’t do this.  Instead, you can use web resources to upload files to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database and then reference them by name just as though you had copied them as files to the web server.  
+ Web resources are virtual files stored in the system. Each web resource has a unique name that can be used in a URL to retrieve the file. Think of them this way: If you had access to the actual web server running the web app, you could copy files over to that website. But with most online services, you can’t do this.  Instead, you can use web resources to upload files to the system and then reference them by name just as though you had copied them as files to the web server.  
   
  For example, if you create an HTML page as a web resource named “new_myWebResource.htm”, you could open that page in a browser using a URL like this:  
  
 <Dynamics 365 URL>/WebResources/new_myWebResource.htm   
   
- where *\<Dynamics 365 URL>* is the URL you usually use to open [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
+ where *\<app URL>* is the URL you usually use to open the app. Because the web resource is data in the system, only licensed users for your organization can access them this way. Normally, web resources are included in forms rather than referenced directly. The most common usage is to provide [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] libraries for form scripts.  
     
  Because web resources are data in the system and are solution aware, you can move them to different organizations by exporting them as part of a solution and importing the solution into a different organization.  
   
 <a name="BKMK_CreateAndEditWebResources"></a>   
 ## Create and edit web resources  
 
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open solution explorer, and then select  **Web Resources**.  
   
-2.  Choose **Customize the System**.  
+2.  Under **Components**, choose **Web Resources**.  
   
-3.  Under **Components**, choose **Web Resources**.  
+3. To create a web resource select **New**.  
   
-4. **To create a web resource**: Choose **New**.  
+ To edit a web resource double-click the web resource you want to edit.  
   
- **To edit a web resource**: Double click the web resource you want to edit.  
-  
-5.  The web resource form has the following fields and capabilities:  
+4.  The web resource form has the following fields and capabilities:  
   
     |Label|Description|  
     |-----------|-----------------|  
@@ -59,12 +59,12 @@ Web resources are typically used by developers to extend the web application usi
     |**Display Name**|The name displayed if you view a list of web resources.|  
     |**Description**|A description of the web resource.|  
     |**Type**|**Required**. This is the type of web resource. You can’t change this after you save the web resource.|  
-    |**Text Editor**|When the type of web resource represents a kind of text file, click this button to open a page to edit the content using the text editor.|  
+    |**Text Editor**|When the type of web resource represents a kind of text file, select this button to open a page to edit the content using the text editor.|  
     |**Language**|Allows for a selection of a language. This option just tags the record that stores the web resource data. It doesn’t change the behavior of the web resource.|  
-    |**Upload File**|Press the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)|  
-    |**URL**|After you save the web resource, the URL to the web resource will be displayed here. Click this link to view the web resource in your browser.|  
+    |**Upload File**|Select the **Browse…** button to choose a file to upload as a web resource.<br /><br /> You can upload a file when creating a new web resource or to overwrite an existing web resource.<br /><br /> The file name extension of the file must match allowed extensions.<br /><br /> By default the maximum size file that can be uploaded as a web resource is 5MB. This value can be modified in Dynamics 365 customer engagement by using the **System Settings** > **Email** tab > **Set file size limit for attachments** setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](../admin/system-settings-dialog-box-email-tab.md)|  
+    |**URL**|After you save the web resource, the URL to the web resource will be displayed here. Select this link to view the web resource in your browser.|  
   
-6.  After you have added your changes, choose **Save** and then **Publish**.  
+5.  After you have added your changes, choose **Save** and then **Publish**.  
 
 > [!NOTE]
 >  Publishing customizations can interfere with normal system operations. We recommend you publish customizations when it’s least disruptive to users.
@@ -84,19 +84,17 @@ You can add or edit web resources on a form to make it more appealing or useful 
 > [!NOTE]
 >  You can’t include a web resource in a form header or footer.  
 
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]
+1. Open solution explorer.
 
-2. Choose **Customize the System**.
+2. Under **Components**, expand **Entities**, and then expand the entity you want to work with.
 
-3. Under **Components**, expand **Entities**, and then expand the entity you want to work with.
+3. Choose **Forms**, in the list locate a form of type Main, and then double-click or tap the entry to open and edit the form.
 
-4. Choose **Forms**, in the list locate a form of type Main, and then double-click or tap the entry to open and edit the form.
-
-5. To add a web resource, click the tab (for example, **General** or **Notes**) you would like to insert it on, and then on the **Insert** tab, click **Web Resource**.<br />
+4. To add a web resource, select the tab (for example, **General** or **Notes**) you would like to insert it on, and then on the **Insert** tab, select **Web Resource**.<br />
     \-OR-<br />
-    To edit a Web resource, select a form tab and the web resource that you want to edit, and then on the **Home** tab, click **Change Properties**.
+    To edit a Web resource, select a form tab and the web resource that you want to edit, and then on the **Home** tab, select **Change Properties**.
 
-6. In the **Add Web Resource** or **Web Resource Properties** dialog box, on the **General** tab, enter the appropriate information in the required fields.
+5. In the **Add Web Resource** or **Web Resource Properties** dialog box, on the **General** tab, enter the appropriate information in the required fields.
     In particular, note the following:
     - In the **Web resource** box, select the image, HTML, or [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] web resource that you want to use.
         > [!NOTE] 
@@ -104,37 +102,27 @@ You can add or edit web resources on a form to make it more appealing or useful 
             - In the **Name** box, enter a unique name for the field. The name can contain only alphanumeric characters and underscores.
     - The **Label** field is automatically populated with a variation of the name you specify, but ensure that the proposed label meets your needs or update it accordingly.
 
-7. On the **Formatting** tab, the options that display vary based on the type of web resource inserted. These options include specifying the number of columns and rows display, whether a border displays, and the scrolling behavior.
+6. On the **Formatting** tab, the options that display vary based on the type of web resource inserted. These options include specifying the number of columns and rows display, whether a border displays, and the scrolling behavior.
 
-8. If the **Dependencies** tab displays in the **Add Web Resource** or **Web Resource Properties** dialog box, from the **Available fields** list, select the fields that are required by the Web resource, click the **Add Selected Records** button to move the selected fields to the Dependent fields list, and then click **OK** to close the dialog box.
+7. If the **Dependencies** tab displays in the **Add Web Resource** or **Web Resource Properties** dialog box, from the **Available fields** list, select the fields that are required by the Web resource, select the **Add Selected Records** button to move the selected fields to the Dependent fields list, and then select **OK** to close the dialog box.
 
-9. When you finish editing the form, on the **Home** tab, click **Save and Close** to close the form. To preview how the main form will appear and how events will function:
-    - On the **Home** tab, click **Preview**, and then select **Create Form**, **Update Form**, or **Read-Only Form**.
-    - To close the Preview form, on the **File** menu, click **Close**.
+8. When you finish editing the form, on the **Home** tab, select **Save and Close** to close the form. To preview how the main form will appear and how events will function:
+    - On the **Home** tab, select **Preview**, and then select **Create Form**, **Update Form**, or **Read-Only Form**.
+    - To close the Preview form, on the **File** menu, select **Close**.
 
-10. When your customizations are complete, publish them:
-    - To publish customizations for only the component that you are currently editing, in the navigation pane, select the entity you have been working on, and then click **Publish**.
-    - To publish customizations for all unpublished components at one time, in the navigation pane, click **Entities**, and then on the **Actions** toolbar, click **Publish All Customizations**.
+9. When your customizations are complete, publish them:
+    - To publish customizations for only the component that you are currently editing, in the navigation pane, select the entity you have been working on, and then select **Publish**.
+    - To publish customizations for all unpublished components at one time, in the navigation pane, select **Entities**, and then on the **Actions** toolbar, select **Publish All Customizations**.
 
 <a name="BKMK_CreateAndEditImageWebResource"></a>    
 ## Add or edit an image web resource
-Web resources are virtual files in multiple formats, such as html files, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], and [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] applications, that are stored in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] database and can be retrieved by using a unique URL address.  
+Web resources are virtual files in multiple formats, such as html files, [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)], and [!INCLUDE[pn_Silverlight_short](../includes/pn-silverlight-short.md)] applications, that are stored in the system and can be retrieved by using a unique URL address.  
   
-1.  [!INCLUDE[proc_permissions_system_admin](../includes/proc-permissions-system-admin.md)]  
+1.  Open solution explorer.  
   
-    #### Check your security role  
+2.  To create a new web resource, choose **Components** > **Web Resources**, and then on the Actions toolbar, choose **New**.  
   
-    -   [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
-  
-    -   [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
-  
-2.  [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
-  
-3.  Choose **Customize the System**.  
-  
-4.  To create a new web resource, choose **Components** > **Web Resources**, and then on the Actions toolbar, choose **New**.  
-  
-5.  Type or modify information in the text boxes.  
+3.  Type or modify information in the text boxes.  
   
     -   The name entered in the **Name** text box, plus the file extension will become its file name.  
   
@@ -142,7 +130,7 @@ Web resources are virtual files in multiple formats, such as html files, [!INCLU
   
     -   In the **Type** drop-down box, select the file type you want.  
   
-6.  Choose **Browse** to select and upload the file from your local machine.  
+4.  Choose **Browse** to select and upload the file from your local machine.  
   
     -   To preview an uploaded image web resource: Choose **Web Resource**>**Preview**.  
   
@@ -150,9 +138,9 @@ Web resources are virtual files in multiple formats, such as html files, [!INCLU
   
     -   To preview a text web resource: Choose **Web Resource**> **Preview**.  
   
-7.  When you’re ready to save your data, choose **Save and Close**.  
+5.  When you’re ready to save your data, choose **Save and Close**.  
   
-8.  Publish your customization.  
+6.  Publish your customization.  
   
     -   For only the edited component: Choose **Save** > **Publish** on the **Home**.  
   
