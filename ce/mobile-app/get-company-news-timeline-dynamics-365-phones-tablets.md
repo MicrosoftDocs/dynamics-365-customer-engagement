@@ -1,6 +1,6 @@
 ---
 title: "Get the Company News Timeline for Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: "dyn365-mobile-app"
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
