@@ -20,71 +20,123 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-With the release of [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we're introducing a new user experience which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
+With the release of [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)], we've introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. 
 
-Unified Interface provides significant improvements in these areas.
+The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. Some examples: 
 
-### One interface for web, tablet, phone, and Outlook application
+> - Similar form experiences to update and view your records
+> - Interactive dashboards across all devices to view your information and drill into it 
+> - Reference Panel is now available to be used in any experience and not just cases 
+> - We now support right to left (RTL) languages
+> - All experiences on Unified Interface is completely accessible 
 
-> - Consistent and equivalent functionality on all surfaces
-> - Adaptable, responsive design, optimized for each surface
-> - Touch mobile-first design
-> - Native right-to-left support across all surfaces
+## Capabilities available on Unified Interface Runtime with Dynamics 365 9.0 
 
-### Enhanced productivity
+Moving users to Unified Interface will depend on the functions you do in your day to day life. You will need to evaluate the jobs done by your users and can move their experience to unified interface client that will provide a richer user experience. 
 
-> - Quick navigation bar with full site map
-> - Same navigation on mobile with full site map and app switching
-> - Relevance search
-> - Interactive dashboards across all apps and surfaces
-> - Dashboards designed for touch
-> - Improved form navigation and speed
-> - Consolidated activity timeline with visual filters
-> - Better Microsoft Office integration
+Most of the core functionalities of sales and customer service have moved to the unified interface client. 
 
-### Embedded intelligence
+### Dashboards and Charts
 
-> - Relationship Assistant
-> - Relationship health
-> - Document recommendations
+You can access all the system and user dashboards from within your unified interface apps. The interactive dashboards are now available for all record types so now you can have richer interactive dashboard capabilities across the board. 
 
-### Highly adaptable
+<insert image>
 
-> - Develop once, deploy everywhere
-> - Rich visualizations through custom controls
-> - Application Module across all from factors
-> - Improved performance
-> - Seamless upgrade
+### Enhanced User Experience
 
-We've also designed Unified Interface with accessibility in mind.
+If your users work on core record types like Activities, Accounts, Contacts, Leads, Opportunities and Cases, you will be able to move them to unified interface client. 
 
-> - People with screen readers can skip to content directly and navigate to sections that are important to them.
-> - People using reading plugins receive great results.
-> - People using browser plugins can jump to specific sections on a page.
-> - Keyboard users can save time and effort by using the tab key and keyboard shortcuts.
+They will have familiar capabilities on unified interface and will also discover productivity enhancements with the introduction of some enhanced capabilities. 
 
-## What apps have Unified Interface
+#### Timeline control 
+The timeline view helps you collaborate with your team by tracking customer communication in a record on a single page in an easy to read view. You can see everything from posts and voice attachments, to emails and notes. It provides a quick way to see the entire communication thread. 
 
-The following table shows what apps are built on the Unified Interface.
+#### Business Process Enhancement 
+The business process flow has been improved by the docking mechanism. You can dock the business process stage on your screen to help you stay focused on the task at hand in your business process flow. This is especially useful when the stage of the process has complex steps to complete. 
 
-|App|Description|Unified Interface|
-|---------|---------|---------|
-|Sales|Full-featured desktop-optimized app for sales scenarios |coming soon |
-|Sales Hub|Mobile-optimized app for sales scenarios |X|
-|Customer Service|Full-featured desktop-optimized app for service scenarios (does not include knowledge management capabilities)| coming soon|
-|Customer Service Hub|Desktop (recommended for knowledge management only) and mobile-optimized app (recommended for case management)|X|
-|Field Service|Full-featured desktop-optimized app for field service scenarios|coming soon |
-|Field Resource Hub|Mobile-optimized app for field service scenarios |X|
-|Project Service Automation|Full-featured desktop-optimized app for project service scenarios |coming soon |
-|Project Resource Hub|Mobile-optimized app for project service scenarios |X|
-|App for Outlook| Access Dynamics 365 in Outlook on the desktop, web, or phone|X|
-|Dynamics 365 for phones and tablets|Access Dynamics 365 on your mobile device|X|
+#### Reference Panel 
+Use the reference panel for apps built on unified interface like Dynamics 365 for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
 
-Stay tuned as we'll be adding to this list soon!
+#### Navigation
+The new menu options let you swiftly navigate the different apps in the system. It provides quick access to recently viewed records and pinned favorites. 
 
-## Requirements for Unified Interface
+#### Reflow 
+The app also scales by reflowing the components on the screen. The responsive design adapts to your environment based on screen size, so the more available space that you have the more information can be displayed. 
 
-See [Web application requirements](web-application-requirements.md)
+<insert image>
 
-### See also  
-https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/deploy-email-unified-interface?branch=JimHoltzNov6
+### Focused Experience
+Unified interface experiences are based on Model Driven Apps. You can contain the user experience based on the jobs they need to accomplish. Users can have single or multiple apps based on their requirements and can easily switch between apps as needed. 
+
+### Rich controls 
+Unified interface is a metadata driven experience and all its controls experiences are built on the control framework that is extensible and provides a uniform experience across clients and reflows to the viewport size the user is working on. 
+
+## Getting started with Unified Interface experience
+When you are provisioning a new Dynamics 365 CE org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options or an org with no customization, you will see the following Unified Interface apps in them. 
+
+|Choice while provisioning  |Unified Interface apps  |
+|---------|---------|
+|Sales     |Sales Hub         |
+|Customer service     |Customer Service Hub         |
+|Field service     |Field Resource Hub         |
+|Project service automation     |Project Resource Hub          |
+|None     |Dynamics 365 Hub         |
+|All      |All the above except Dynamics 365 Hub         |
+
+<insert image>
+
+### Accessing Unified Interface Apps on browsers
+Once provisioned, you can access the installed unified interface and web from multiple interfaces. On browsers you can see all the apps both unified interface and web from: 
+
+1. https://home.dynamics.com/
+
+   <insert image>
+
+2. In app navigation
+
+   <insert image>
+
+3. My Apps page under settings
+
+   <insert image>
+
+### Accessing Unified Interface Apps on Mobile and Tablets
+Unified interface apps are the only apps supported on mobile and tablets for Dynamics 365 CE 9.0. When user logs into the above org, they will only see the unified interface apps on their apps landing page. 
+
+<insert images>
+
+### Creating a new Unified Interface App
+In case you have requirements to create your own experience on unified interface, you can create a model driven app using the app designer. 
+
+<insert images>
+
+## Capabilities not yet on Unified Interface
+
+There are certain experiences that are currently not available on Unified Interface and you will see these experiences light up in future releases. 
+
+Following are the experiences currently not available with Unified Interface:
+
+- Advanced Find 
+- Bulk Edit 
+- Merge records
+- Record Sharing
+- All options under personal settings
+- Chart Drill Down 
+- Learning Path
+- Creating Personal Dashboards and Charts
+- Creating personal views
+- Charts as visualization for sub-grids on forms 
+- Activities roll-up view
+- Creating Email template with slugs 
+- Creating Duplicate Detection Jobs
+- Composite Address control 
+- Run Workflow
+- No filtering on read-only grids 
+- Run Report (SSRS)
+- Letter, Fax, Recurring appointments 
+- Campaign management – Campaigns, campaign activities and quick campaign
+- Marketing List 
+- Position Entity 
+- Global notifications
+- Admin Experiences 
+
