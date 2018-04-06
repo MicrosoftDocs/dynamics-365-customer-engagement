@@ -19,17 +19,16 @@ author: kabala123
 ms.author: kabala
 manager: sakudes
 ---
-# Comply with the General Data Protection Regulation (GDPR) (Dynamics 365 Customer Engagement)
+# Comply with the General Data Protection Regulation (GDPR) ([!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Customer Engagement)
 
 ## Introduction
 The General Data Protection Regulation (GDPR) imposes new rules on organizations in the European Union (EU) and those that offer goods and services to people in the EU, or those that collect and analyze data tied to EU residents, regardless of where they are located.
 
 Fundamentally, the GDPR is about protecting and enabling the privacy rights of individuals. The GDPR establishes strict privacy requirements that govern how you manage and protect personal data while respecting individual choice—regardless of where data is sent, processed, or stored.
 
-<!--Editing: In the following paragraph, should you use a token instead of spelling out "Dynamics"? -->
 ## Shared responsibility model
 Your compliance with the GDPR is an ongoing process and involves your role as a **controller** and, in some cases, Microsoft as a **processor**. 
-Depending on which Dynamics applications your organization uses, you may find that you are both controller and processor or that you have a shared responsibility with Microsoft.
+Depending on which [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] applications your organization uses, you may find that you are both controller and processor or that you have a shared responsibility with Microsoft.
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application runs on-premises, so you hold both the controller and processor roles:
 
@@ -47,7 +46,6 @@ The GDPR makes clear that the concept of personal data includes online identifie
 ![Four stages of GDPR](../../unified-service-desk/media/gdpr-four-stages-image.PNG "Four stages of GDPR")
 
 ![Four stages of GDPR](../../unified-service-desk/media/gdpr-four-stages-infographic.PNG "Four stages of GDPR infographic")
-<!--Editing: Above, the second graphic doesn't resolve correctly for me. -->
 
 ## See also
 
