@@ -2,7 +2,7 @@
 title: "Survey analytics using Power BI | MicrosoftDocs"
 description: "Learn how to connect Voice of the Customer instance to Power BI and get insights about the surveys."
 keywords: "voice of the customer analytics, voice of the customer analytics app for power BI"
-ms.date: 04/03/2018
+ms.date: 04/06/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -22,7 +22,22 @@ The Voice of the Customer Analytics for Dynamics 365 content pack for Power BI a
 
 ## Install and configure content pack for Voice of the Customer
 
+You must install the Voice of the Customer for Dynamics 365 app from Microsoft AppSource.
+
+1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+2. Select **Apps** from the left navigation pane.
+3. Select **Get apps**. 
+4. In AppSource, select the **Apps** tab.
+5. Search for the Voice of the Customer Analytics for Dynamics 365 app and select **Get it now**. A wizard opens to connect to the Dynamics 365 instance.
+6. Enter the service URL associated to your Dynamics 365 account and select oAuth2 as the authentication method.
+7. Enter the credentials and select **Sign in**.
+
 ## Uninstall content pack for Voice of the Customer
+
+1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+2. Select **Apps** from the left navigation pane.
+3. Point to the app and select **Delete**.
+4. Select **Delete** in the confirmation dialog box. The app and its related data are deleted.
 
 ## Dashboard
 
@@ -31,24 +46,25 @@ Dashboard is an intuitive user interface that graphically represents the survey 
 More information: [Dashboards in Power BI service](https://docs.microsoft.com/en-us/power-bi/service-dashboards)
 
 To open dashboard:
+
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
 2. Select **Apps** from the left navigation pane.
 3. Select the app.
 
 The dashboard contains the following tiles:
 
-- **Total Surveys**: Displays the total number of surveys created.
-- **Survey Invites Sent**: Displays the total number of survey invites sent.
-- **Non-anonymous Responses**: Displays the number of non-anonymous survey responses received.
-- **Anonymous Responses**: Displays the number of anonymous survey responses received.
-- **Average CSAT**: Displays the average CSAT score.
-- **Survey Score**: Displays the average survey score percentage.
-- **Average NPS**: Displays the average NPS score.
-- **NPS Type**: Displays the survey distribution of promotor, passive, and detractor NPS types. If you select a pie, data in other NPS tiles are refreshed accordingly.
-- **CSAT Trend**: Displays the trend of average CSAT score over a period of time. The x-axis displays the time period and y-axis displays the average CSAT score.
-- **NPS Trend**: Displays the trend of average Net Promoter Scores over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
-- **Survey Invite Trend**: Displays the number of survey invites sent over a period of time. The x-axis displays the time period and y-axis displays the count of survey invites sent. To view details, point to a data point on the line graph.
-- **Response Time (from Invite Sent to Response Submitted)**: Displays the turnaround time for survey responses in 50th, 95th, and 99th percentile. The x-axis displays the survey name and y-axis displays the percentile. The unit is in seconds.
+- **Total Surveys**: Displays the total number of surveys created. When you click this tile, the **Surveys** page in the report is opened.
+- **Survey Invites Sent**: Displays the total number of survey invites sent. When you click this tile, the **Survey Responses** page in the report is opened.
+- **Non-anonymous Responses**: Displays the number of non-anonymous survey responses received. When you click this tile, the **Survey Responses** page in the report is opened.
+- **Anonymous Responses**: Displays the number of anonymous survey responses received. When you click this tile, the **Survey Responses** page in the report is opened.
+- **Average CSAT**: Displays the average CSAT score. When you click this tile, the **Customer Satisfaction** page in the report is opened.
+- **Survey Score**: Displays the average survey score percentage. When you click this tile, the **Customer Satisfaction** page in the report is opened.
+- **Average NPS**: Displays the average NPS score. When you click this tile, the **Customer Satisfaction** page in the report is opened.
+- **NPS Type**: Displays the survey distribution of promotor, passive, and detractor NPS types. If you select a pie, data in other NPS tiles are refreshed accordingly. When you click this tile, the **Customer Satisfaction** page in the report is opened.
+- **CSAT Trend**: Displays the trend of average CSAT score over a period of time. The x-axis displays the time period and y-axis displays the average CSAT score. When you click this tile, the **Customer Satisfaction** page in the report is opened.
+- **NPS Trend**: Displays the trend of average Net Promoter Scores over a period of time. The x-axis displays the time period and y-axis displays the average NPS. When you click this tile, the **Customer Satisfaction** page in the report is opened.
+- **Survey Invite Trend**: Displays the number of survey invites sent over a period of time. The x-axis displays the time period and y-axis displays the count of survey invites sent. To view details, point to a data point on the line graph. When you click this tile, the **Survey Responses** page in the report is opened.
+- **Response Time (from Invite Sent to Response Submitted)**: Displays the turnaround time for survey responses in 50th, 95th, and 99th percentile. The x-axis displays the survey name and y-axis displays the percentile. The unit is in seconds. When you click this tile, the **Survey Responses** page in the report is opened.
 
 ![Voice of the Customer Analytics for Dynamics 365 dashboard](media/voc-analytics-dashboard.png "Voice of the Customer Analytics for Dynamics 365 dashboard") 
 
@@ -84,6 +100,8 @@ The data is displayed in the following tiles:
 - **Survey Invites Trend**: Displays the number of survey invites sent over a period of time. The x-axis displays the time period and y-axis displays the count of survey invites sent. To view details, point to a data point on the line graph.
 - **Response Time (from Invite Sent to Response Submitted)**: Displays the turnaround time for survey responses in 50th, 95th, and 99th percentile. The x-axis displays the survey name and y-axis displays the percentile. The unit is in seconds.
 
+![Survey Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-survey-responses.png "Survey Responses report in Voice of the Customer Analytics for Dynamics 365")
+
 ### Surveys
 
 The Survey page in the report displays insights of the surveys created in Dynamics 365. The data on the page is displayed in tiles. You can filter the data by using the following filters:
@@ -97,6 +115,8 @@ The data is displayed in the following tiles:
 - **Survey State**: Displays the distribution of surveys states: draft, published, inactive, stopped, and closed.
 - **Survey Efficacy by Questions and Page Count**: Displays page count, question count, and response ratio. It displays the variation of response ratio depending on page and question count.
 - **Question Types**: Displays the distribution of the number of times a question type has been used in a survey. The x-axis displays the question types and y-axis displays the number of times a question type has been used.
+
+![Surveys report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-surveys.png "Surveys report in Voice of the Customer Analytics for Dynamics 365")
 
 ### Customer Satisfaction
 
@@ -117,6 +137,8 @@ The data is displayed in the following tiles:
 - **NPS Type**: Displays the survey distribution of promotor, passive, and detractor NPS types. If you select a pie, data in other NPS tiles are refreshed accordingly.
 - **NPS Trend**: Displays the trend of average Net Promoter Scores over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
 - **NPS Score Distribution**: Displays the survey response distribution of the Net Promoter Scores. The x-axis displays the NPS score and y-axis displays the count of the survey responses.
+
+![Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-customer-satisfaction.png "Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365")
 
 ### Question Responses
 
@@ -143,6 +165,8 @@ The data is displayed in the following tiles:
   - **CES Trend**: Displays the trend of average CES score over a period of time. The x-axis displays the time period and y-axis displays the average CES score.
   - **CES Distribution**: Displays survey response distribution of the CES score. The x-axis displays the NPS and y-axis displays the count of the survey responses.
 
+![Question Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-question-responses.png "Question Responses report in Voice of the Customer Analytics for Dynamics 365")
+
 ### Grid Question Responses
 
 The Grid Question Responses page in the report displays insights of the grid questions created in a survey. The data on the page is displayed in tiles. You can filter the data by using the following filters:
@@ -160,3 +184,5 @@ The data is displayed in the following tiles:
   - **Average Numeric Response**: Displays the average numeric response.
   - **Numeric Response Distribution**: Displays the distribution of the score.
 - **List of Ratings**: Displays the distribution of the responses in a question of type list of ratings. Select a question from the drop-down list to view its details. You can also drill-down the pie chart to view more information.
+
+![Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-grid-question-responses.png "Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365")
