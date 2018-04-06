@@ -1,17 +1,19 @@
 ---
-title: "Create or edit an app using the app designer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "Create or edit a model-driven app using the app designer in PowerApps | MicrosoftDocs"
+description: "Learn how to create or edit apps using the app designer"
 keywords: ""
-ms.date: 09/30/2017
+ms.date: 04/04/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 2a44229e-44f0-4c4e-ba21-a476210d0a12
-ms.author: shujoshi
+ms.author: "matp"
+manager: "kvivek"
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -19,13 +21,15 @@ caps.latest.revision: 19
 topic-status: Drafting
 ---
 
-# Create or edit an app by using the app designer
+# Create or edit a model-driven app by using the app designer
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
   
-Open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
+On web.powerapps.com, to edit and existing or create a new app in the app designer select **Model-driven** > **Advanced**. Then, in solution explorer select **Apps**. 
+
+In Dynamics 365 customer enagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
 
 ## Prerequisites
 Verify the following prerequisites before you start creating an app:
@@ -37,17 +41,7 @@ Verify the following prerequisites before you start creating an app:
 <a name="createApp"></a>   
 ## Create an app  
 
-1.  Go to **Settings** > **My Apps**, and then select **Create New App**. The app designer opens in a new browser tab.  
-
-    ![Open app designer](../customize/media/app-designer-settings-apps.png "Open the app designer")
-  
-     or  
-  
-    Go to **Settings** > **Customizations** > **Customize the System**. In the **Solution** window, select **Apps**, and then select **New** on the toolbar.  
-
-    ![Create an app through sloutions window](../customize/media/app-designer-customize-system-settings.png "Create an app through the solution window")
-  
-2. On the **Create a New App** page, enter the following details:  
+1. In the **Apps** area of solution explorer select **New**, and then on the **Create a New App** page, enter the following details:  
   
     - **Name**: Enter a unique name for the app.  
   
@@ -62,15 +56,16 @@ Verify the following prerequisites before you start creating an app:
   
     - Select the client type that the app will be used for.  
   
+        - **Unified Interface**: This is the newer responsive web browser client that has a similar interface across PC and mobile devices.  
+
         - **Web**: This is the classic [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web browser client.  
   
-        - **Unified Interface**: This is the new [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web browser client that has a similar interface across PC and mobile devices.  
   
     - **App URL Suffix**: The app URL is automatically populated based on the app name that you specify. You'll see a preview of how the complete URL looks. The app URL must be unique.  
   
+         For example: https://\<org>.crm#.dynamics.com/Apps/\<App URL>
+
          For on-premises: http://\<server>/\<org name>/Apps/\<App URL> 
-  
-         For online organizations: https://\<server>. crm#.dynamics.com/Apps/\<App URL>  
   
       > [!NOTE]
       >  If you clear the **App URL Suffix** field and then save the app, the app URL will be automatically generated with the app ID.  
@@ -89,46 +84,23 @@ Verify the following prerequisites before you start creating an app:
      > [!NOTE]
      >  You can't change the unique name and app URL suffix on the **Properties** tab.  
   
-3. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
+2. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
   
     A new app is created and is shown in Draft status. You'll see the app designer canvas for the new app.  
   
-4. Add components to the app or edit existing components, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+3. Add components to the app or edit existing components, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
   
 <a name="editApp"></a>   
 ## Edit an app  
   
-1. Go to **Settings** > **My Apps**.  
+1. In the **Apps** area of solution explorer select an app that you want to edit.  
 
-   or
-  
-   Go to **Settings** > **Customizations** > **Customize the System**. In the solution window, select **Apps**, and then double-click to select the app you want to edit.  
-  
-2. From the **My Apps** page, you can search or filter to easily find an app.  
-  
-    -   To search on the app name, enter the name in the **search my apps** box.  
-  
-    -   To filter apps by client type, select **Filter**, and then select the client type that you want from the **Filter** pane.  
-  
-    ![My Apps search and filter](../customize/media/app-designer-myapps.png "My Apps search and filter")  
-  
-3. To edit a published app, in the **Published Apps** view in the lower-right corner of the app tile you want to edit, select **More options** (**...**), and then select **Open in App Designer**  
-  
-     or  
-  
-     To edit an app that's in Draft status, in the **Apps Being Edited** view, select the app tile.  
-  
-     The app designer opens in a new browser tab.  
-  
-    > [!NOTE]
-    >  Alternatively, you can go to **Settings** > **Customizations** > **Customize the System**. In the solution window, select **Apps**, and then double-click to select the app you want to edit.  
-  
-4.  Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+2. Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
  
 <a name="LaunchApp"></a>   
-## Run an app
+## Run a model-driven app
 
-To start an app, users go to **My Apps** and then select the app they want. If there are several apps available, they can search for the app by typing in the search box.
+Go to the [Dynamics 365 home page](https://home.dynamics.com/) and then select the app you want. If there are several apps available, search for the app by typing in the search box.
 
 From within an app, the following features include filtering by record type:
 - Categorized search and Relevance search results
@@ -138,4 +110,8 @@ From within an app, the following features include filtering by record type:
   
 ### See also  
  [Add or edit app components](../customize/add-edit-app-components.md)   
+
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
+
+ [Quickstart: Run a model-driven app on a mobile device](https://docs.microsoft.com/powerapps/user/run-app-client-model-driven)
+

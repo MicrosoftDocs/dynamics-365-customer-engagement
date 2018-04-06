@@ -1,18 +1,19 @@
 ---
-title: "Create and edit public or system views by using the app designer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "Create and edit public or system views by using the app designer with PowerApps | MicrosoftDocs"
+description: "Learn now to create or edit views by using the app designer"
 keywords: ""
-ms.date: 10/25/2017
+ms.date: 04/04/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "udaykirang"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 666ab3f3-abda-468c-b248-3a0b410286b0
-ms.author: udag
-manager: sakudes
+ms.author: "matp"
+manager: "kvivek"
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,21 +23,23 @@ topic-status: Drafting
 
 # Create and edit public or system views by using the app designer
 
-In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], views define how records for a specific entity are  displayed. A view defines the following:
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+
+In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], views define how records for a specific entity are  displayed. A view defines the following:
 -  The columns (attributes) to display
 -  The width of the columns
 -  How the records are sorted by default
 -  Which filters are applied to determine which records appear in the list by default
 
-Typically, views are classified into three types in Dynamics 365:
+Typically, views are classified into three types:
 - **Personal:** Individual users can create personal views according to their personal requirements. These views are visible only to the user who created them and anyone they choose to share them with. 
-- **Public:** As a system customizer, you can create and edit public views to fit your organizational requirements. These views are available in the view selector, and you can use them in subgrids in a form or as a list in a dashboard.
-- **System:** As a system customizer, you can also modify system views to meet the requirements of your organization. These are special views that the application depends on: they exist for system entities or are automatically created when you create custom entities. These views are available to some or all users, depending on their permissions.
+- **Public:** As an app maker, you can create and edit public views to fit your organizational requirements. These views are available in the view selector, and you can use them in subgrids in a form or as a list in a dashboard.
+- **System:** As an app maker, you can also modify system views to meet the requirements of your organization. These are special views that the application depends on: they exist for system entities or are automatically created when you create custom entities. These views are available to some or all users, depending on their permissions.
 
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Types of views](../customize/types-of-views.md)
 
 ## Create a public view 
-As a system customizer, you can create and edit public views by using the app designer.
+As an app maker, you can create and edit public views by using the app designer.
 1. [Open a view in the app designer](#open-and-add-a-view-in-the-app-designer).
 2. On the **Components** tab, select **Create New**.
 
@@ -70,18 +73,15 @@ As a system customizer, you can create and edit public views by using the app de
 ## Open and add a view in the app designer
 
 The following steps explain how to open and add a view in the app designer.
-1. Sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as an administrator, and go to **Settings** > **Application** > **My Apps**. 
-2. In the app you want to edit, select **More Options** (**…**), and then select **OPEN IN APP DESIGNER**.
-    
-    ![Open App Designer](../customize/media/ViewAppDesigner_OpenAppDesigner.png "Open app designer")
+1. In solution explorer select **Apps**, and then select the app you want to edit to open it in app designer. 
 
-3. In the **Entity View** section, select **Views**.
+2. In the **Entity View** section, select **Views**.
 
     In this example, we have selected **Views** from the **Account** entity.
 
     ![App Designer View](../customize/media/ViewAppDesigner_AccountAppDesignerView.png "App Designer view of Account entity")
 
-4. To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
+3. To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
 
     > [!NOTE]
     > Views are displayed based on the entity that you have selected. For example, when you select **Account**, views that are related to the Account entity are displayed.
@@ -92,7 +92,7 @@ More information about the app designer: [Design custom business apps by using t
 ## Add a column to your view
 Views display records in a table that contains rows and columns. Each row is a record, and the fields you display from the record are determined by the columns you add to the view.
 
-1. On the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
+1. In app designer, on the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
 
     ![Add a column](../customize/media/ViewAppDesigner_AddColumn.png "Add a column to view") 
 
@@ -104,7 +104,7 @@ As you add attributes, you can drag them to any position among existing column h
 
 ## Define filter criteria
 You can set filter criteria so that only a subset of the records is displayed in a view. When a user opens the view, only the records that meet the defined filter criteria are displayed. You can select fields from both the primary and related entities to filter on.
-1. In the designer, expand the **Filter Criteria** section.
+1. In the app designer, expand the **Filter Criteria** section.
    
     ![Set Filter Criteria](../customize/media/ViewAppDesigner_FilterCriteria.png "Set filter criteria") 
 
