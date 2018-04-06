@@ -22,8 +22,8 @@ manager: "brycho"
 Your users can access their [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] data while they're out in the field by using either of the following apps:  
   
 - **[!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]**: With [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], you can design your information architecture once and the customizations will automatically flow to all form factors. Much is shared with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)].  
-  
- ![Video symbol]((../../../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
+- 
+ ![Video symbol](../../../admin/media/video-thumbnail-4.png "Video symbol") [Video: Customize the Dynamics 365 mobile app (1:51)](http://go.microsoft.com/fwlink/p/?LinkID=836829)  
   
 - **[!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]**: With the same basic features as [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)], tablet users will appreciate the [!INCLUDE[pn_crm_shortest](../../../includes/pn-crm-shortest.md)] experience optimized for a larger screen.  
     
@@ -280,7 +280,7 @@ else
   
  Custom entities use a fixed custom entity symbol.  
   
- ![Dynamics 365 for tablets nav bar]((../../../admin/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for tablets nav bar")  
+ ![Dynamics 365 for tablets nav bar](../../../admin/media/dynamics-365-tablets-navigation-menu.png "Dynamics 365 for tablets nav bar")  
   
 ### Simple lists  
  The lists of records that appear on the Sales Dashboard and within a form appear as simple lists. These lists have a different appearance than the typical view of records. There are a few frequently used actions you can perform on a simple list.  
@@ -306,7 +306,7 @@ else
   
  A typical view of records displays all columns in the view definition. A simple list displays the first few columns from the selected view. Simple lists are also capable of displaying images for each record if the entity is enabled to display images.  
   
- ![Dynamics 365 for tablets simple list]((../../../admin/media/x-microsoft-crm.png "Dynamics 365 for tablets simple list")  
+ ![Dynamics 365 for tablets simple list](../../../admin/media/x-microsoft-crm.png "Dynamics 365 for tablets simple list")  
   
  The number of fields you’ll see in the list is different depending on whether or not the entity is enabled for images. If it is, the image is the first thing to appear. Next to the image the primary field for the entity is displayed first and wraps up to two lines. The primary field is followed by the first two columns in the view that are not the primary field. Those fields will each appear on one line.  
   
@@ -323,7 +323,7 @@ else
 > [!IMPORTANT]
 > [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] uses a composite Activity entity to store and retrieve data common between different activity types (like Task, Appointment, or Phone Call). The due date for activities is stored in the Actual End field for the composite Activity entity.  Appointment activities have a Start Date and End Date.  Because the due date for the activities list is retrieved from the Actual End field, the time that an appointment ends is displayed in the Activities list. This means an appointment that starts at 1pm and ends at 2pm will show a time of 2pm on the tile for the appointment in the activities simple list.  
   
- ![Dynamics 365 for tablets simple activity list]((../../../admin/media/y-microsoft-crm.png "Dynamics 365 for tablets simple activity list")  
+ ![Dynamics 365 for tablets simple activity list](../../../admin/media/y-microsoft-crm.png "Dynamics 365 for tablets simple activity list")  
   
  Some more things to note:  
   
@@ -335,7 +335,7 @@ else
   
  The Stakeholders and Sales Team lists that appear in an Opportunity display the primary field and role. These two entity lists have inline create and editing. When you tap the **New Item** button + on these lists, the existing list items move down, and a lookup and a drop-down list appear. Now you can select (or create) an entity to add to the list through the lookup, and assign a role through the drop-down list.  
   
- ![Stakeholders and sales team lists]((../../../admin/media/crm-ua-31463.gif "Stakeholders and sales team lists")  
+ ![Stakeholders and sales team lists](../../../admin/media/crm-ua-31463.gif "Stakeholders and sales team lists")  
   
  Editing is an inline experience as well.  If you tap the down arrow next to the role name, the drop-down list appears in edit mode and you can change roles.  
   
@@ -366,15 +366,15 @@ else
   
 ||||  
 |-|-|-|  
-|![Sales form in Dynamics 365]((../../../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365")<br /><br /> Sales Lead form in web application|>|![Sales form in Dynamics 365 for tablets]((../../../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]|  
+|![Sales form in Dynamics 365](../../../admin/media/e-microsoft-crm.png "Sales form in Dynamics 365")<br /><br /> Sales Lead form in web application|>|![Sales form in Dynamics 365 for tablets](../../../admin/media/g-microsoft-crm.png "Sales form in Dynamics 365 for tablets")<br /><br /> Sales Lead form in [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]|  
   
  This diagram shows common parts of the updated entity forms in the web application.  
   
- ![Diagram shows Updated entity form structure in Dynamics 365]((../../../admin/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365")  
+ ![Diagram shows Updated entity form structure in Dynamics 365](../../../admin/media/updated-form-diagram.png "Diagram shows Updated entity form structure in Dynamics 365")  
   
  [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] takes many of the Main form elements and presents them in a way that is optimized for tablets, as shown in the following diagram.  
   
- ![Diagram of a form in Dynamics Dynamics 365 for tablets]((../../../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics Dynamics 365 for tablets")  
+ ![Diagram of a form in Dynamics Dynamics 365 for tablets](../../../admin/media/crm-itpro-cust-mocaformdiagram.png "Diagram of a form in Dynamics Dynamics 365 for tablets")  
   
  **Relationships**  
   
@@ -382,11 +382,11 @@ else
   
  The relationships section also has a tile that represents the owner of the record, which is a Lookup field.  In addition to the Owner tile, there are some other examples of hardcoded tiles that represent Lookup fields. For example, the Contact form has a tile for the parent account.  You cannot choose additional Lookup fields as tiles in this section.  
   
- ![Form customization with navigation items]((../../../admin/media/crm-ua-arrow-down-blue.gif "Form customization with navigation items")  
+ ![Form customization with navigation items](../../../admin/media/crm-ua-arrow-down-blue.gif "Form customization with navigation items")  
   
  Form customization that shows navigation items on the left side of the screen  
   
- ![Relationships section within a form]((../../../admin/media/crm-ua-arrow-down-gray.gif "Relationships section within a form")  
+ ![Relationships section within a form](../../../admin/media/crm-ua-arrow-down-gray.gif "Relationships section within a form")  
   
  Relationships section within a form  
   
@@ -405,7 +405,7 @@ else
   
  To further simplify forms, you can hide components from appearing in the phone app. You can hide tabs, sections, subgrids, fields, and charts. For example, to hide the Details tab in the Contact form, click **Settings** > **Customizations** > **Customize the System** > **Components** > expand **Entities** > expand the **Contact** entity > **Forms**. Select the **Contact** form, then scroll down and click **Details**. Click **Change Properties** and clear the **Available on phone** check box to hide the Detail tab from appearing on the Contact form for phone users.  
   
- ![Hide the Detail tab on Dynamics  Dynamics 365 for phones]((../../../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics  Dynamics 365 for phones")  
+ ![Hide the Detail tab on Dynamics  Dynamics 365 for phones](../../../admin/media/crm-itpro-phonehidedetailtab.png "Hide the Detail tab on Dynamics  Dynamics 365 for phones")  
   
 ### Other differences with [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]  
  There are a few differences between [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]:  

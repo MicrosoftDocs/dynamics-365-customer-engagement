@@ -122,7 +122,7 @@ You can secure and manage [!INCLUDE[pn_Mobile_Express_long](../../../includes/pn
   
 -   Enable the **Prevent Data Leakage** setting in the **Security Policies** tab to cover other situations including using a secure app for email, and handling of copy/paste scenarios.  
   
- ![Enable to prevent data leakage in Dynamics 365]((../../../admin/media/good-prevent-data-leakage.png "Enable to prevent data leakage in Dynamics 365")  
+ ![Enable to prevent data leakage in Dynamics 365](../../../admin/media/good-prevent-data-leakage.png "Enable to prevent data leakage in Dynamics 365")  
   
 -   All data stored on the client when using [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] is encrypted using [!INCLUDE[pn_good_dynamics](../../../includes/pn-good-dynamics.md)] APIs.  
   

@@ -135,11 +135,11 @@ If you receive this error:
   
  **Cause 3**: This error can occur if you have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] organization and your user has not been assigned a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license. If you add a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] subscription to an existing [!INCLUDE[pn_MS_Office_365](../../../includes/pn-ms-office-365.md)] tenant, your user may not have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license assigned. If the user has the Global Administrator or Service Administrator role in the [Microsoft Online Service Portal](https://portal.microsoftonline.com/), you’re able to sign in to the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] web application to perform certain administrative actions, but you can’t perform end user tasks, such as creating records (for example, accounts, contacts, and leads) or configuring [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)]. When you sign in to the web application, you may notice that not all areas appear within the navigation (for example, Sales and Marketing are missing):  
   
- ![Sales and Marketing tabs missing]((../../../admin/media/mobile-app-sales-marketing-missing.png "Sales and Marketing tabs missing")  
+ ![Sales and Marketing tabs missing](../../../admin/media/mobile-app-sales-marketing-missing.png "Sales and Marketing tabs missing")  
   
  Access the **Users and Groups** section within the [Microsoft Online Service Portal](https://portal.microsoftonline.com/) and verify you have a [!INCLUDE[pn_CRM_Online](../../../includes/pn-crm-online.md)] license assigned to your user record.  
   
- ![Terry Adam's Dynamics 365 License]((../../../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 License")  
+ ![Terry Adam's Dynamics 365 License](../../../admin/media/mobile-app-social-engagement-icense.png "Terry Adam's Dynamics 365 License")  
   
 #### Error message: "You need an internet connection to use this app. Reconnect and try again."  
  **Cause 1**: This error can occur if you do not have an Internet connection. Verify you are connected to the Internet and can access the same URL in your web browser.  
@@ -183,17 +183,17 @@ If you receive this error:
   
 1.  Swipe from the right side of the screen to access the charms bar and then tap **Settings**.  
   
- ![Windows 8 charms bar]((../../../admin/media/mobile-app-bar.png "Windows 8 charms bar")  
+ ![Windows 8 charms bar](../../../admin/media/mobile-app-bar.png "Windows 8 charms bar")  
   
 2.  Tap **Change PC settings**.  
   
- ![Change PC settings]((../../../admin/media/mobile-app-change-pc-settngs.png "Change PC settings")  
+ ![Change PC settings](../../../admin/media/mobile-app-change-pc-settngs.png "Change PC settings")  
   
 3.  Tap **Users**.  
   
 4.  Check to see if under the **Your Account** section it says “This domain account is connected to *\<Your Microsoft account>*”  
   
- ![Your Account settings]((../../../admin/media/mobile-app-your-account.png "Your Account settings")  
+ ![Your Account settings](../../../admin/media/mobile-app-your-account.png "Your Account settings")  
   
  **Windows RT**  
   
@@ -205,7 +205,7 @@ If you receive this error:
   
  **Cause 2**: This error may occur if you previously authenticated to the app as a different Microsoft account and chose the option “Keep me signed in”. Even after uninstalling and reinstalling the app, the token for the previous credentials is still stored on your device. If you are trying to connect as a different user, you will need to remove the token. To completely clear the app, after you uninstall the app, you must clear the Indexed DB folder (Drive:\Users\\%USERNAME%\AppData\Local\Microsoft\Internet Explorer\Indexed DB). You may have to sign in as a different user and use the command prompt as an administrator to clear the Indexed DB folder. That is because some files in this folder can be held by the Host Process for Windows Tasks. Once the token is successfully removed, you should see the sign-in page after you enter your URL in the app.  
   
- ![Sign&#45;in page]((../../../admin/media/mobile-app-signin-page.png "Sign-in page")  
+ ![Sign&#45;in page](../../../admin/media/mobile-app-signin-page.png "Sign-in page")  
   
  The same error as Cause 1 may be found in the traces.  
   
@@ -249,7 +249,7 @@ If you receive this error:
 #### After providing credentials the app appears to load indefinitely and never completes  
  This can occur if the time on the device is not within a certain variance of the [!INCLUDE[pn_microsoftcrm](../../../includes/pn-microsoftcrm.md)] server. For example: you may encounter this issue if the time on the server is 2 PM on November 11th but the device is set to 2 PM on November 12th.  
   
- ![Welcome screen timeout]((../../../admin/media/mobile-app-welcometimeout.png "Welcome screen timeout")  
+ ![Welcome screen timeout](../../../admin/media/mobile-app-welcometimeout.png "Welcome screen timeout")  
   
  You may see events like the following logged multiple times in the trace files:  
   
@@ -268,11 +268,11 @@ If you receive this error:
 > [!NOTE]
 >  When the logon prompt appears, it is an [!INCLUDE[pn_Active_Directory](../../../includes/pn-active-directory.md)] logon prompt instead of the sign-in page of your Secure Token Service (STS) such as [!INCLUDE[pn_Active_Dir_Fed_Svcs_AD_FS](../../../includes/pn-active-dir-fed-svcs-ad-fs.md)]. The prompt looks like the one shown here.  
   
- ![Active Directory Sign in]((../../../admin/media/mobile-app-adfs-login.png "Active Directory Sign in")  
+ ![Active Directory Sign in]../../../admin/media/mobile-app-adfs-login.png "Active Directory Sign in")  
   
  After you tap **Cancel** or enter credentials 3 times, you see the correct sign-in prompt.  
   
- ![ADFS Sign&#45;in prompt]((../../../admin/media/mobile-app-adfs-login-2.png "ADFS Sign-in prompt")  
+ ![ADFS Sign&#45;in prompt](../../../admin/media/mobile-app-adfs-login-2.png "ADFS Sign-in prompt")  
   
 #### Redirected URLs do not work when you configure [!INCLUDE[pn_moca_short](../../../includes/pn-moca-short.md)] or [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)]  
  URLs that redirect, such as [!INCLUDE[pn_iis](../../../includes/pn-iis.md)] host headers or link-shortening websites such as tinyurl or bitly, do not work when you use the URL in the **Dynamics 365 web address** field with [!INCLUDE[pn_moca_full](../../../includes/pn-moca-full.md)] or [!INCLUDE[pn_Mobile_Express_short](../../../includes/pn-mobile-express-short.md)] during configuration.  
@@ -354,7 +354,7 @@ If you receive this error:
   
  To prevent click for mapping in version 1.0 (1.0.0), admins should enable the **Require a secure browser for opening URLs** setting in the [!INCLUDE[pn_good_shortest](../../../includes/pn-good-shortest.md)] Control server, as shown here.  
   
- ![Require a secure browser for opening URLs]((../../../admin/media/good-click-mapping.PNG "Require a secure browser for opening URLs")  
+ ![Require a secure browser for opening URLs](../../../admin/media/good-click-mapping.PNG "Require a secure browser for opening URLs")  
   
  The **Prevent click for mapping** setting works as expected in [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../../../includes/pn-microsoft-dynamics-crm-for-good.md)] app version 1.1 (1.1.0). We recommend updating to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../../../includes/pn-dynamics-crm-for-good.md)] app rather than applying this workaround.  
   
