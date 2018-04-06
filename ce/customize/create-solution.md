@@ -1,5 +1,6 @@
 ---
 title: "Create a solution | MicrosoftDocs"
+description: "Learn how to create a solution"
 ms.custom: ""
 ms.date: 03/21/2018
 ms.reviewer: ""
@@ -11,10 +12,11 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
   - "PowerApps" 
+author: "Mattp123"
 ms.assetid: e21a4876-08b4-417a-a644-c577a27c5cf1
 caps.latest.revision: 12
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Create a solution
 

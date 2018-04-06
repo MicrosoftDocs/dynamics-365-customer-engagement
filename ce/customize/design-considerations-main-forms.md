@@ -1,7 +1,8 @@
 ---
-title: "Design considerations for main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Design considerations for main forms with PowerApps | MicrosoftDocs"
+description: "Learn how to design main forms"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,19 +11,20 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: a83872f4-9e36-413b-8561-41a1e5ffe5dd
 caps.latest.revision: 17
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Design considerations for main forms
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-Main forms are the primary user interface where people view and interact with their data in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Main forms provide the widest range of options and are available for most clients, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
+Main forms are the primary user interface where people view and interact with their data. Main forms provide the widest range of options and are available for model-driven apps, the exception being [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)].  
   
- One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for the web application is also used in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The advantage to this approach is that you don’t have to integrate changes into three different forms. However there are several important factors to consider in designing these forms.  
+ One of the main design objectives for main forms is that you design them once and deploy them everywhere. The same main form you design for a model-driven app or the Dynamics 365 customer engagement web application, is also used in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)]. The advantage to this approach is that you don’t have to integrate changes into multiple forms. However there are several important factors to consider in designing these forms.  
   
 <a name="BKMK_CustomFormsForGroups"></a>   
 
