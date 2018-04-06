@@ -1,5 +1,5 @@
 ---
-title: "Preview feature: Dynamics 365 App for Outlook Overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Dynamics 365 App for Outlook Overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/19/2017
 ms.reviewer: ""
@@ -16,20 +16,31 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Overview of Dynamics 365 App for Outlook 
+# Overview of Dynamics 365 App for Outlook
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 > [!IMPORTANT]
 > The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. 
->
-
 
 To enable this feature, see [Enable](deploy-dynamics-365-app-for-outlook.md#enable).
 
 Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] while you’re using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or phone. When [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is installed, depending on which version of  the app you have installed, you'll see a **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane or window next to a selected [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message, or when you're composing an email message or setting up a meeting or appointment.   
 
  <!-- [Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
+
+## What's new
+
+
+|  | |
+|---------|---------|
+|March 30, 2018     |         |
+|     |Email tracked in compose mode from Outlook Web Access displays correct status in Dynamics 365.          |
+|     |Accessibility fixes          |
+|March 20, 2018     |        |
+|   |Fixed the issue of Track and Set Regarding commands not appearing for some users in App for Outlook.     |
+|   |Email that was followed from Outlook desktop will not have a visible pixel link.    |
+
 
 ## Known issues
 
