@@ -1,7 +1,8 @@
 ---
-title: "Define rollup fields (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Define rollup fields with PowerApps | MicrosoftDocs"
+description: "Learn how to define rollup fields"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 04/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,19 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: ff0504a1-01bd-4f9b-b884-7f84911d86c3
 caps.latest.revision: 58
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
+
 # Define rollup fields that aggregate values
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *rollup* fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the customization tools in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Web application, without needing a developer to write code.  
+Rollup fields are designed to help users obtain insights into data by monitoring key business metrics. A rollup field contains an aggregate value computed over the records related to a specified record, such as open opportunities of an account. Also, you’ll be able to aggregate data from the activities directly related to a record, such as emails and appointments, and activities indirectly related to a record via the Activity Party entity. In more complex scenarios, you can aggregate data over the hierarchy of records. As an administrator or customizer, you can define rollup fields by using the customization tools in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], without needing a developer to write code.  
   
 <a name="BKMK_benefitsandcapabilities"></a>   
 ## Rollup fields benefits and capabilities  
@@ -38,7 +41,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *rollup* fields 
   
 -   Rollup fields and the calculated fields are complementary to each other. You can use a rollup field as a part of the calculated field, and vice versa.  
   
--   If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure rollup fields to use custom controls.  
+-   For [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] and [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] subscribers, you can configure rollup fields to use custom controls.  
   
  Some examples of rollup fields include:  
   
@@ -92,7 +95,7 @@ Each Rollup field creates two accessory fields with `<fieldname`>_date and `<fie
   
 <a name="BKMK_businessscenarios"></a>   
 ## Rollup field business scenarios  
- Let’s take a look at several  rollup field scenarios. We’ll aggregate data for a record from the related records with and without using a hierarchy. We’ll also aggregate data for a record from related activities and activities indirectly related to a record via the Activitiy Party entity. In each example, we define the rollup field by using the Field Editor. To open the Field Editor, go to **Settings** > **Customizations** > **Customize the System** > **Components** > **Entities**. Select the entity you want and choose **Fields**. Choose **New**. In the editor, provide the required information for the field, including the **Field Type** and **Data Type**. In the **Field Type**, select **Rollup**, after you have selected the data type. The data types include decimal or whole numbers, currency, and date/time. Choose the **Edit** button next to the **Field Type**. This takes you to the rollup field definition editor. The rollup field definition consists of three sections: **Source entity**, **Related entity** and **Aggregation**.  
+ Let’s take a look at several  rollup field scenarios. We’ll aggregate data for a record from the related records with and without using a hierarchy. We’ll also aggregate data for a record from related activities and activities indirectly related to a record via the Activitiy Party entity. In each example, we define the rollup field by using the Field Editor. To open the Field Editor, open solution explorer and expand **Components** > **Entities**. Select the entity you want and select **Fields**. Choose **New**. In the editor, provide the required information for the field, including the **Field Type** and **Data Type**. In the **Field Type**, select **Rollup**, after you have selected the data type. The data types include decimal or whole numbers, currency, and date/time. Choose the **Edit** button next to the **Field Type**. This takes you to the rollup field definition editor. The rollup field definition consists of three sections: **Source entity**, **Related entity** and **Aggregation**.  
   
 -   In the **Source entity** section, you specify the entity for which the rollup field is defined and whether or not you aggregate over a hierarchy. You can add filters with multiple conditions to specify the records in the hierarchy you want to use for rollup.  
   
