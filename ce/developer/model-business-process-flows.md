@@ -1,8 +1,8 @@
 ---
 title: "Model business process flows (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Enagagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
+description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 04/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -89,9 +89,11 @@ GET [Organization URI]/api/data/v9.0/new_myuniquebpf1s
  A process instance can have one of the following states: `Active`, `Finished`, or `Aborted`. 
 
 > [!IMPORTANT]
-> This section provides information about programmatically managing various business process flow scenarios such as switching business processes, retrieving process instances for an entity record, retrieving active path and active stage for a process instance, and moving to next or previous stage. You must use the messages and appropriate business process flow entity/entities as described in this section to programmatically manage and automate your business process flows.<br/>Manipulating process related attributes (such as **ProcessId**, **StageId**, and **TraversedPath**) on entities enabled for business process flows does not guarantee consistency of the business process flow state, and is not a supported scenario. The only exception to this is programmatically modifying the **ProcessId** attribute while creating an entity record to override the default application of the business process flow to the new record. More information: [Apply business process flow while creating an entity record](#ApplyBPF).  
+> - This section provides information about programmatically managing various business process flow scenarios such as retrieving process instances for an entity record, retrieving active path and active stage for a process instance, and moving to next or previous stage. You must use the messages and appropriate business process flow entity/entities as described in this section to programmatically manage and automate your business process flows.
+> - Manipulating process related attributes (such as **ProcessId**, **StageId**, and **TraversedPath**) on entities enabled for business process flows does not guarantee consistency of the business process flow state, and is not a supported scenario. The only exception to this is programmatically modifying the **ProcessId** attribute while creating an entity record to override the default application of the business process flow to the new record. More information: [Apply business process flow while creating an entity record](#ApplyBPF).
+> - Switching to another process instance for an entity record is only supported through UI (client). Hence, you can no longer use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to programmatically switch processes (set another business process flow as the active process instance) for the target entity record.  
   
- Use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to set another business process flow as the active process instance for the target entity record. An active process instance is the one that is visible on the UI for the entity record. If there isn't any process instance of the specified business process flow definition,  a new business process flow instance  will be created, and set as active for the entity record. If there is already a process instance of the business process flow definition, the process instance will be set as the active process instance for the entity record. If you want to set a particular process instance as the active process instance for an entity record, you can use the <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest.NewProcessInstance> property to specify the instance.  
+ <!--Use the `SetProcess`  message (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> or <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) to set another business process flow as the active process instance for the target entity record. An active process instance is the one that is visible on the UI for the entity record. If there isn't any process instance of the specified business process flow definition,  a new business process flow instance  will be created, and set as active for the entity record. If there is already a process instance of the business process flow definition, the process instance will be set as the active process instance for the entity record. If you want to set a particular process instance as the active process instance for an entity record, you can use the <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest.NewProcessInstance> property to specify the instance.  
   
  Setting an active process programmatically is the same as switching to another process instance for the entity record in UI. Since each business process flow instance maintains its own stage and step progress information, switching to another business process instance does not cause you to lose the progress information, and you resume from the same point where you were last time.  
   
@@ -130,87 +132,85 @@ Workflow retrievedBPF = (Workflow)_serviceProxy.RetrieveMultiple(opportunityBpfQ
 _bpfId = retrievedBPF.Id;  
 ```  
   
- For the complete sample, see [Sample: Work with business process flows](sample-work-business-process-flows.md)  
+ For the complete sample, see [Sample: Work with business process flows](sample-work-business-process-flows.md) --> 
   
- Use the RetrieveProcessInstances message (<xref href="Microsoft.Dynamics.CRM.RetrieveProcessInstances?text=RetrieveProcessInstances Function" /> or <xref:Microsoft.Crm.Sdk.Messages.RetrieveProcessInstancesRequest>)  to retrieve all the business process flow instances for an entity record across all business process definitions. The business process flow instances returned for an entity are ordered based on the `modifiedon` attribute for the instance. For example, the most recently modified business process flow instance will be the *first*  record in the returned collection. The most recently modified business process flow instance is the one that is active on the UI  for an entity record.  
+ Use the `RetrieveProcessInstances` message (<xref href="Microsoft.Dynamics.CRM.RetrieveProcessInstances?text=RetrieveActivePath Function" /> or <xref:Microsoft.Crm.Sdk.Messages.RetrieveProcessInstancesRequest>) to retrieve all the business process flow instances for an entity record across all business process definitions. The business process flow instances returned for an entity are ordered based on the `modifiedon` attribute for the instance. For example, the most recently modified business process flow instance will be the *first*  record in the returned collection. The most recently modified business process flow instance is the one that is active on the UI  for an entity record.  
   
- The following sample code demonstrates how to retrieve business process flow instances for an entity record, and then lists the process instances associated with the entity record:  
+ The following sample code demonstrates how to retrieve business process flow instances for an entity record:  
   
 ```csharp  
-RetrieveProcessInstancesRequest procOpp2Req = new RetrieveProcessInstancesRequest  
-{  
-    EntityId = _opportunityId,  
-    EntityLogicalName = Opportunity.EntityLogicalName  
-};  
-  
-RetrieveProcessInstancesResponse procOpp2Resp = (RetrieveProcessInstancesResponse)_serviceProxy.Execute(procOpp2Req);  
-  
-// Declare variables to store values returned in response  
-int processCount = procOpp2Resp.Processes.Entities.Count;  
-var activeProcessInstance = procOpp2Resp.Processes.Entities[0]; // First record is the active process instance  
-_processOpp2Id = activeProcessInstance.Id; // Id of the active process instance, which will be used  
-                                           // later to retrieve the active path of the process instance  
-  
-if (processCount > 0)  
-{  
-    // Display the count of process instances concurrently associated with the opportunity record  
-    Console.WriteLine("\nCount of process instances for the opportunity record: {0}", processCount);  
-  
-    // Display all the process instances associated with the opportunity record  
-    // Demonstrates that multiple processes can run concurrently against the same record  
-    Console.WriteLine("\nProcess instances associated with the opportunity record:");  
-    for (int i = 0; i<processCount; i++)  
-    {  
-        Console.WriteLine("\t{0}", procOpp2Resp.Processes.Entities[i].Attributes["name"]);  
-    }  
+// Verify the currently active BPF instance for the qualified Opportunity record
+RetrieveProcessInstancesRequest procOpp1Req = new RetrieveProcessInstancesRequest
+{
+    EntityId = _opportunityId,
+    EntityLogicalName = Opportunity.EntityLogicalName
+};
+RetrieveProcessInstancesResponse procOpp1Resp = (RetrieveProcessInstancesResponse)_serviceProxy.Execute(procOpp1Req);
+
+// Declare variables to store values returned in response
+Entity activeProcessInstance = null;
+
+if (procOpp1Resp.Processes.Entities.Count > 0)
+{
+    activeProcessInstance = procOpp1Resp.Processes.Entities[0]; // First record is the active process instance
+    _processOpp1Id = activeProcessInstance.Id; // Id of the active process instance, which will be used
+                                               // later to retrieve the active path of the process instance
+                                                
+    Console.WriteLine("Current active process instance for the Opportunity record: '{0}'", activeProcessInstance["name"].ToString());
+    _procInstanceLogicalName = activeProcessInstance["name"].ToString().Replace(" ", string.Empty).ToLower();
+}
+else
+{
+    Console.WriteLine("No process instances found for the opportunity record; aborting the sample.");
+    Environment.Exit(1);
 }  
 ```  
   
- The returned business process flow instance records for an entity record also store the ID of the active stage in the `processstageid` attribute that can be used to find the active stage, and then move to the previous or next stage. To do so, you first need to find the active path of a business process flow instance and the stages available in the process flow instance using the `RetrieveActivePath` message (<xref href="Microsoft.Dynamics.CRM.RetrieveActivePath?text=RetrieveActivePath Function" /> or <xref:Microsoft.Crm.Sdk.Messages.RetrieveActivePathRequest>). The following sample code demonstrates how to retrieve the process stages in the active path for a business process flow instance and the active stage of the instance:  
+ The returned business process flow instance record for an entity record also stores the ID of the active stage in the `processstageid` attribute that can be used to find the active stage, and then move to the previous or next stage. To do so, you first need to find the active path of a business process flow instance and the stages available in the process flow instance using the `RetrieveActivePath` message (<xref href="Microsoft.Dynamics.CRM.RetrieveActivePath?text=RetrieveActivePath Function" /> or <xref:Microsoft.Crm.Sdk.Messages.RetrieveActivePathRequest>). The following sample code demonstrates how to retrieve the process stages in the active path for a business process flow instance and the active stage of the instance:  
   
 ```csharp  
-// Retrieve the active stage ID of in the active process instance  
-_activeStageId = new Guid(activeProcessInstance.Attributes["processstageid"].ToString());  
-  
-// Retrieve the process stages in the active path of the current process instance  
-RetrieveActivePathRequest pathReq = new RetrieveActivePathRequest  
-{  
-    ProcessInstanceId = _processOpp2Id  
-};  
-RetrieveActivePathResponse pathResp = (RetrieveActivePathResponse)_serviceProxy.Execute(pathReq);  
-  
-Console.WriteLine("\nRetrieved stages in the active path of the process instance:");  
-for (int i = 0; i <pathResp.ProcessStages.Entities.Count; i++)  
-{  
-    Console.WriteLine("\tStage {0}: {1} (StageId: {2})", i + 1,  
-                            pathResp.ProcessStages.Entities[i].Attributes["stagename"],   
-                            pathResp.ProcessStages.Entities[i].Attributes["processstageid"]);  
-  
-    // Retrieve the active stage name and active stage position based on the activeStageId for the process instance  
-    if (pathResp.ProcessStages.Entities[i].Attributes["processstageid"].ToString() == _activeStageId.ToString())  
-    {  
-        _activeStageName = pathResp.ProcessStages.Entities[i].Attributes["stagename"].ToString();  
-        _activeStagePosition = i;  
-    }  
-}  
-  
-// Display the active stage name and Id  
-Console.WriteLine("\nActive stage for the process instance: {0} (StageID: {1})", _activeStageName, _activeStageId);  
+// Retrieve the active stage ID of the active process instance
+                    _activeStageId = new Guid(activeProcessInstance.Attributes["processstageid"].ToString());
+
+// Retrieve the process stages in the active path of the current process instance
+RetrieveActivePathRequest pathReq = new RetrieveActivePathRequest
+{
+    ProcessInstanceId = _processOpp1Id
+};
+RetrieveActivePathResponse pathResp = (RetrieveActivePathResponse)_serviceProxy.Execute(pathReq);
+Console.WriteLine("\nRetrieved stages in the active path of the process instance:");
+
+for (int i = 0; i<pathResp.ProcessStages.Entities.Count; i++)
+{
+    Console.WriteLine("\tStage {0}: {1} (StageId: {2})", i + 1,
+    pathResp.ProcessStages.Entities[i].Attributes["stagename"], pathResp.ProcessStages.Entities[i].Attributes["processstageid"]);
+
+
+    // Retrieve the active stage name and active stage position based on the activeStageId for the process instance
+    if (pathResp.ProcessStages.Entities[i].Attributes["processstageid"].ToString() == _activeStageId.ToString())
+    {
+        _activeStageName = pathResp.ProcessStages.Entities[i].Attributes["stagename"].ToString();
+_activeStagePosition = i;
+    }
+}
+
+// Display the active stage name and Id
+Console.WriteLine("\nActive stage for the process instance: '{0}' (StageID: {1})", _activeStageName, _activeStageId);  
 ```  
   
  Once you have the active stage and the active path information for a business process flow instance, you can use the information to move to a previous or next stage in the active path. Forward navigation of stages must be done in sequence, that is, you should only move forward to the next stage in the active path. The following sample code demonstrates how to move to the next stage for a business process flow instance:  
   
 ```csharp  
-// Retrieve the stage ID of the next stage that you want to set as active  
-_activeStageId = (Guid)pathResp.ProcessStages.Entities[_activeStagePosition + 1].Attributes["processstageid"];  
-  
-// Retrieve the process instance record to update its active stage  
-ColumnSet cols1 = new ColumnSet();  
-cols1.AddColumn("activestageid");  
-Entity retrievedProcessInstance = _serviceProxy.Retrieve("opportunitysalesprocess", _processOpp2Id, cols1);  
-  
-// Set the next stage as the active stage  
-retrievedProcessInstance["activestageid"] = new EntityReference(ProcessStage.EntityLogicalName, _activeStageId);  
+// Retrieve the stage ID of the next stage that you want to set as active
+_activeStageId = (Guid) pathResp.ProcessStages.Entities[_activeStagePosition + 1].Attributes["processstageid"];
+
+// Retrieve the process instance record to update its active stage
+ColumnSet cols1 = new ColumnSet();
+cols1.AddColumn("activestageid");
+Entity retrievedProcessInstance = _serviceProxy.Retrieve(_procInstanceLogicalName, _processOpp1Id, cols1);
+
+// Update the active stage to the next stage
+retrievedProcessInstance["activestageid"] = new EntityReference(ProcessStage.EntityLogicalName, _activeStageId);
 _serviceProxy.Update(retrievedProcessInstance);  
 ```  
   
@@ -265,5 +265,5 @@ If you do not set a value for the **ProcessId** attribute while creating a new e
  [Assign a security role to a business process](http://go.microsoft.com/fwlink/p/?LinkId=512993)   
  [Guide staff through common tasks with processes](http://go.microsoft.com/fwlink/p/?LinkId=512994)   
  [Add ready-to-use business processes](http://go.microsoft.com/fwlink/p/?LinkID=323564)   
- [Business process flows](https://technet.microsoft.com/library/dn531164.aspx)   
+ [Business process flows](../customize/business-process-flows-overview.md)   
  [Write scripts for business process flows](clientapi/write-scripts-business-process-flows.md)
