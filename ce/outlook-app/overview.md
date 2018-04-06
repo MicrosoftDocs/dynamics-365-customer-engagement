@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 App for Outlook Overview (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 11/19/2017
+ms.date: 04/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
