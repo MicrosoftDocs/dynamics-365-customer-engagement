@@ -1,8 +1,8 @@
 ---
 title: "Sample: Work with business process flows (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "The sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, switching to another business process flow instance, retrieving active path for a business process flow instance and its process stages, and changing the active stage."
+description: "The sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, retrieving active path for a business process flow instance and its process stages, and changing the active stage."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 04/05/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,7 +19,7 @@ ms.author: "kvivek"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-This sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, switching to another business process flow instance, retrieving active path for a business process flow instance and its  process stages, and changing the active stage. For information about these concepts, see [Model business process flows](model-business-process-flows.md)  
+This sample demonstrates how to programmatically work with business process flows such as retrieving the business process flow instances for an entity record, retrieving active path for a business process flow instance and its process stages, and changing the active stage. For information about these concepts, see [Model business process flows](model-business-process-flows.md)  
   
  This sample is for [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)], and is available to download from [Sample: Work with business process flows](https://go.microsoft.com/fwlink/p/?LinkId=846108).  
   
@@ -31,7 +31,7 @@ This sample demonstrates how to programmatically work with business process flow
   
 2.  Have appropriate privileges on the Lead, Opportunity, and Workflow entities and business process  flow definition entity records used in this sample.  
   
-3. [!INCLUDE[pn_visual_studio_2013](../includes/pn-visual-studio-2013.md)], [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] or later to run the sample.  
+3. Have [!INCLUDE[pn_microsoft_visual_studio_2015](../includes/pn-microsoft-visual-studio-2015.md)] or later to run the sample.  
   
 4.  Have Internet connection to download the sample project and to restore the NuGet packages used in the sample project.  
   
@@ -42,19 +42,18 @@ This sample demonstrates how to programmatically work with business process flow
   
 2.  Converts the Lead record to an Opportunity record.  
   
-3.  Switches from "Lead To Opportunity Sales Process" to "Opportunity Sales Process" using the `SetProcess` message to make the latter as the active business process flow instance for the Opportunity record. An active business process flow  instance for an entity record is the one that is visible on the UI for the entity record.  
   
-4.  Retrieves the business process flow instances associated with the "Opportunity" record using the `RetrieveProcessInstances` message. The first record in the returned collection is the active business process flow  instance for the opportunity record, which is "Opportunity Sales Process" in this case.  
+4.  Retrieves the business process flow instances associated with the "Opportunity" record using the `RetrieveProcessInstances` message. The first record in the returned collection is the active business process flow  instance for the opportunity record, which is "Lead To Opportunity Sales Process" in this case.  
   
-5.  Retrieves the active path and the process stages for the "Opportunity Sales Process" instance using the `RetrieveActivePath` message.  
+5.  Retrieves the active path and the process stages for the "Lead To Opportunity Sales Process" instance using the `RetrieveActivePath` message.  
   
-6.  Retrieves the currently active stage for the "Opportunity Sales Process" instance, and prompts the user whether to move to the next stage. On confirmation to move, sets the next stage in the active path as the active stage for the "Opportunity Sales Process" instance.  
+6.  Retrieves the currently active stage for the "Lead To Opportunity Sales Process" instance, and prompts the user whether to move to the next stage. On confirmation to move, sets the next stage in the active path as the active stage for the "Lead To Opportunity Sales Process" instance.  
   
-7.  Finally, prompts the user whether to delete the "Lead To Opportunity Sales Process", "Opportunity Sales Process", and "Opportunity" records created during the sample run.  
+7.  Finally, prompts the user whether to delete the records created during the sample run.  
   
      Here is the output of the sample:  
   
- ![Sample output](media/work-with-bpf-sample-output.png "Sample output")  
+    ![Sample output](media/work-with-bpf-sample-output.png "Sample output")  
   
 <a name="BKMK_runSample"></a>   
 ## Run the sample  
