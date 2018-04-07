@@ -26,7 +26,7 @@
 ### [Publish a mobile offline profile](../mobile-app/v8/configure/publish-mobile-offline-profile.md)
 ### [Work offline](../mobile-app/v8/configure/work-offline.md)
 
-## Setup and managed phones and tablets
+## Setup and manage phones and tablets
 ### [Set up](v8/set-up-manage/set-up.md)
 ### [Support](v8/set-up-manage/support.md)
 ### [Secure and manage](v8/set-up-manage/secure-manage.md) 
