@@ -40,7 +40,7 @@ Most of the core functionalities of sales and customer service have moved to the
 
 You can access all the system and user dashboards from within your unified interface apps. The interactive dashboards are now available for all record types so now you can have richer interactive dashboard capabilities across the board. 
 
-<insert image>
+![Unified Interface dashboard](media/uci-interactive-dashboard.png "Unified Interface dashboard")
 
 ### Enhanced User Experience
 
@@ -48,22 +48,17 @@ If your users work on core record types like Activities, Accounts, Contacts, Lea
 
 They will have familiar capabilities on unified interface and will also discover productivity enhancements with the introduction of some enhanced capabilities. 
 
-#### Timeline control 
-The timeline view helps you collaborate with your team by tracking customer communication in a record on a single page in an easy to read view. You can see everything from posts and voice attachments, to emails and notes. It provides a quick way to see the entire communication thread. 
+**Timeline control** - The timeline view helps you collaborate with your team by tracking customer communication in a record on a single page in an easy to read view. You can see everything from posts and voice attachments, to emails and notes. It provides a quick way to see the entire communication thread. 
 
-#### Business Process Enhancement 
-The business process flow has been improved by the docking mechanism. You can dock the business process stage on your screen to help you stay focused on the task at hand in your business process flow. This is especially useful when the stage of the process has complex steps to complete. 
+**Business Process Enhancement** - The business process flow has been improved by the docking mechanism. You can dock the business process stage on your screen to help you stay focused on the task at hand in your business process flow. This is especially useful when the stage of the process has complex steps to complete. 
 
-#### Reference Panel 
-Use the reference panel for apps built on unified interface like Dynamics 365 for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
+**Reference Panel** - Use the reference panel for apps built on unified interface like Dynamics 365 for Customer Service. The reference panel is a great way to get work done without clicking away from the screen you are on. You can look up other things like knowledge base articles within the context of the record you are viewing. 
 
-#### Navigation
-The new menu options let you swiftly navigate the different apps in the system. It provides quick access to recently viewed records and pinned favorites. 
+**Navigation** - The new menu options let you swiftly navigate the different apps in the system. It provides quick access to recently viewed records and pinned favorites. 
 
-#### Reflow 
-The app also scales by reflowing the components on the screen. The responsive design adapts to your environment based on screen size, so the more available space that you have the more information can be displayed. 
+**Reflow** - The app also scales by reflowing the components on the screen. The responsive design adapts to your environment based on screen size, so the more available space that you have the more information can be displayed. 
 
-<insert image>
+![Unified Interface adapts to screen](media/uci-reflow.png "Unified Interface adapts to screen")
 
 ### Focused Experience
 Unified interface experiences are based on Model Driven Apps. You can contain the user experience based on the jobs they need to accomplish. Users can have single or multiple apps based on their requirements and can easily switch between apps as needed. 
@@ -72,7 +67,7 @@ Unified interface experiences are based on Model Driven Apps. You can contain th
 Unified interface is a metadata driven experience and all its controls experiences are built on the control framework that is extensible and provides a uniform experience across clients and reflows to the viewport size the user is working on. 
 
 ## Getting started with Unified Interface experience
-When you are provisioning a new Dynamics 365 CE org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options or an org with no customization, you will see the following Unified Interface apps in them. 
+When you are provisioning a new Dynamics 365 org, depending on whether you are provisioning for Sales, Customer service, Field service, Project service automation, all the options or an org with no customization, you will see the following Unified Interface apps in them. 
 
 |Choice while provisioning  |Unified Interface apps  |
 |---------|---------|
@@ -83,32 +78,36 @@ When you are provisioning a new Dynamics 365 CE org, depending on whether you ar
 |None     |Dynamics 365 Hub         |
 |All      |All the above except Dynamics 365 Hub         |
 
-<insert image>
+![Unified Interface apps](media/uci-apps.png "Unified Interface apps")
 
 ### Accessing Unified Interface Apps on browsers
 Once provisioned, you can access the installed unified interface and web from multiple interfaces. On browsers you can see all the apps both unified interface and web from: 
 
-1. https://home.dynamics.com/
+1. [https://home.dynamics.com/](https://home.dynamics.com/)
 
-   <insert image>
+   ![Dynamics 365 Home page](media/uci-home-dynamics.png "Dynamics 365 Home page")
 
 2. In app navigation
 
-   <insert image>
+   ![In app navigation](media/uci-in-app-navigation.png "In app navigation")
 
 3. My Apps page under settings
 
-   <insert image>
+   ![Unified Interface apps on My Apps page](media/uci-my-apps-page.png "Unified Interface apps on My Apps page")
 
 ### Accessing Unified Interface Apps on Mobile and Tablets
 Unified interface apps are the only apps supported on mobile and tablets for Dynamics 365 CE 9.0. When user logs into the above org, they will only see the unified interface apps on their apps landing page. 
 
-<insert images>
+|  | |  |
+|---------|---------|---------|
+|![Unified Interface phone app](media/uci-app-phone.png "Unified Interface phone app")     |    |![Unified Interface tablet app](media/uci-app-tablet.png "Unified Interface tablet app")    |
 
 ### Creating a new Unified Interface App
 In case you have requirements to create your own experience on unified interface, you can create a model driven app using the app designer. 
 
-<insert images>
+![Create new Unified Interface app](media/uci-model-driven-app.png "Create new Unified Interface app")
+
+![Unified Interface custom hub](media/uci-custom-hub.png "Unified Interface custom hub")
 
 ## Capabilities not yet on Unified Interface
 
