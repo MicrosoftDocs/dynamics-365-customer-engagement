@@ -79,17 +79,17 @@ When you are provisioning a new Dynamics 365 org, depending on whether you are p
 ![Unified Interface apps](media/uci-apps.png "Unified Interface apps")
 
 ### Accessing Unified Interface apps on browsers
-Once provisioned, you can access the installed Unified Interface and web apps from multiple interfaces. On browsers you can see all the apps both Unified Interface and web from: 
+Once provisioned, you can access the installed Unified Interface and web apps from multiple interfaces. On browsers you can see all the apps both Unified Interface and web: 
 
-1. [https://home.dynamics.com/](https://home.dynamics.com/)
+1. In [https://home.dynamics.com/](https://home.dynamics.com/)
 
    ![Dynamics 365 Home page](media/uci-home-dynamics.png "Dynamics 365 Home page")
 
-2. App navigation
+2. In app navigation
 
    ![In app navigation](media/uci-in-app-navigation.png "In app navigation")
 
-3. My Apps page under settings
+3. In My Apps page under Settings
 
    ![Unified Interface apps on My Apps page](media/uci-my-apps-page.png "Unified Interface apps on My Apps page")
 
@@ -98,7 +98,7 @@ Unified interface apps are the only apps supported on phones and tablets for Dyn
 
 |  | |  |
 |---------|---------|---------|
-|![Unified Interface phone app](media/uci-app-phone.png "Unified Interface phone app")     |    |![Unified Interface tablet app](media/uci-app-tablet.png "Unified Interface tablet app")    |
+|On phone <br/>![Unified Interface phone app](media/uci-app-phone.png "Unified Interface phone app")     |    |On tablet <br/>![Unified Interface tablet app](media/uci-app-tablet.png "Unified Interface tablet app")    |
 
 ### Creating a new Unified Interface app
 In case you have requirements to create your own experience on Unified Interface, you can create a model-driven app using the app designer. See [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview).
