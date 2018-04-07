@@ -211,19 +211,6 @@ Background sync will be disabled if:
 
  Background sync is available on all supported devices. See [Support for Dynamics 365 for phones and Dynamics 365 for tablets](../set-up-manage/support.md).
 
-## Support matrix
-
-## Limitations and recommendations
-
-Even though mobile devices have high data processing capabilities, large amounts of data for a mobile application can degrade overall end user experience and could cause business productivity loss. A good planned approach to enable mobile offline can help your organization use the offline capability most effectively.  
-
-Below are the recommendations for mobile offline configuration for your organization.
-
-
-
-
-
-
 
 
 
