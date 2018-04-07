@@ -210,11 +210,6 @@ Background sync will be disabled if:
 - Your device locks. 
 
  Background sync is available on all supported devices. See [Support for Dynamics 365 for phones and Dynamics 365 for tablets](../set-up-manage/support.md).
-
-
-
-
-
   
 ## Offline synchronization vs. Offline drafts  
  You’ll have one of two possible offline experiences, depending on which one your admin set up:  

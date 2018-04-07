@@ -25,13 +25,14 @@
 ### [Add users to a mobile offline profile](../mobile-app/v8/configure/add-users-mobile-offline-profile.md)
 ### [Publish a mobile offline profile](../mobile-app/v8/configure/publish-mobile-offline-profile.md)
 ### [Work offline](../mobile-app/v8/configure/work-offline.md)
-### [Work offline - additional information](../mobile-app/v8/configure/work-offline-additional-information.md)
+
 ## Setup and managed phones and tablets
 ### [Set up](v8/set-up-manage/set-up.md)
 ### [Support](v8/set-up-manage/support.md)
 ### [Secure and manage](v8/set-up-manage/secure-manage.md) 
 ### [Troubleshoot](v8/set-up-manage/troubleshoot.md)
-## Go mobile
+
+## User Guide
 ### Get started
 #### [Install](../mobile-app/v8/go-mobile/get-started/install.md)
 #### [Signing in and signing out](../mobile-app/v8/go-mobile/get-started/sign-in-out.md)
