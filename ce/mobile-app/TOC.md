@@ -56,7 +56,7 @@
 #### [Use Cortana voice commands](../mobile-app/v8/go-mobile/get-started/use-cortana-voice-commands.md)
 #### [Pin your favorites](../mobile-app/v8/go-mobile/get-started/pin-favorites.md)
 #### [Manage work orders, agreements, customer assets, and time off requests](../mobile-app/v8/go-mobile/get-started/manage-work-orders-agreements-customer-assets-time-off-requests.md)
-### [Work offline](../mobile-app/v8/configure/work-offline.md)
+### [Work offline](../mobile-app/v8/go-mobile/work-offline.md)
 ### Admin and troubleshooting
 #### [Get the Company News Timeline](v8/go-mobile/admin-troubleshoot/get-company-news-timeline.md)
 #### [Reconfigure](../mobile-app/v8/go-mobile/admin-troubleshoot/reconfigure.md)
