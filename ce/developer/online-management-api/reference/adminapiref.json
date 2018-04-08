@@ -966,7 +966,7 @@
         },
         "IsAzureBackup": {
           "type": "boolean",
-          "description": "Indicates whether you want to backup the instance to Azure Storage."
+          "description": "For internal use only."
         },
         "AzureStorageInformation": {
           "$ref": "#/definitions/AzureStorage"
@@ -983,15 +983,15 @@
       "properties": {
         "ContainerName": {
           "type": "string",
-          "description": "Container in Azure Storage where you want to back up the instance."
+          "description": "For internal use only."
         },
         "StorageAccountKey": {
           "type": "string",
-          "description": "Azure Storage account key to authenticate to the file share for backing up."
+          "description": "For internal use only."
         },
         "StorageAccountName": {
           "type": "string",
-          "description": "Azure Storage account name where want to back up the instance."
+          "description": "For internal use only."
         }
       }
     },
