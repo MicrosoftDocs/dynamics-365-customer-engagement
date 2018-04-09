@@ -26,7 +26,7 @@ You might have noticed some changes to the [!INCLUDE [pn-dyn-365-admin-center](.
 
 <!-- 1. **Region picker**. Filter on geographical regions.-->
 1. **Instance type picker**. Filter on the type of instance: Trial, Production, Sandbox.
-2. **Common Data Service instance**. PowerApp [Environments](https://docs.microsoft.com/powerapps/environments-overview) provisioned with Common Data Service in the PowerApps admin center are now displayed in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] as Common Data Service instances. 
+2. **Common Data Service instance**. PowerApps [Environments](https://docs.microsoft.com/powerapps/environments-overview) provisioned with Common Data Service in the PowerApps admin center are now displayed in the [!INCLUDE [pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] as Common Data Service instances. 
 
 <!-- ## Filter by region
 You can filter for instances from a specific geographical region.
