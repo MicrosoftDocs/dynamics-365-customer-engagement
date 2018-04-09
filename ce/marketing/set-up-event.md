@@ -2,7 +2,7 @@
 title: "Initial and ongoing event planning (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to plan an event (including: register basic info; set up your team; manage sessions and speakers; set the event schedule; issue passes;  and manage venues) in Dynamics 365 for Marketing"
 keywords: "events; event management"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Set up an event
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 To get started planning an event with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you start by creating an event record, which collects all of your planning details, gives links to related records, and provides a business-process timeline that helps guide you through each step of the event-planning process. Then you set up your event team, manage speakers and sessions, set up event passes, and set up a venue.
 
@@ -77,31 +75,27 @@ A session represents a subdivision of things that are happening at your event. E
 
 A large conference might have several sessions running concurrently, and might even feature several session *tracks*, which organize multiple related and non-conflicting sessions by audience so attendees can easily choose the best track for themselves without having to study the entire offering. Later, you'll be able up event and session passes to manage ticketing and enable attendees to choose a track.
 
-There are two types of tracks: *internal* and *external*. Use internal tracks during the planning phase to group sessions along organization lines, such as according to team resources or required equipment*.* Use external tracks to group sessions by content or audience, and to enable ticketing and registration. External tracks are published on customer-facing platforms such as event portals and mobile apps. As needed, you can set up a pass type for each relevant external track, but you wouldn't set up passes for internal tracks. Use the **Track Type** setting, at the top of the form to set the track to internal or external.
+There are two types of tracks: _internal_ and _external_. Use internal tracks during the planning phase to group sessions along organization lines, such as according to team resources or required equipment. Use external tracks to group sessions by content or audience, and to enable ticketing and registration. External tracks are published on customer-facing platforms such as event portals and mobile apps. As needed, you can set up a pass type for each relevant external track, but you wouldn't set up passes for internal tracks. Use the **Track Type** setting, at the top of the form to set the track to internal or external.
 
-Use the following pages to manage your sessions and tracks:
+Use the **Agenda** tab of an event record to view and set up sessions and sessions tracks for that event. 
 
-- **Events** &gt; **Sessions** &gt; **Sessions**: Lists all sessions from all events that you have managed or are managing in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. You can edit any session from here and add new sessions as needed. Each session is associated with a specific event and speaker, and includes scheduling details.
-- **Events** &gt; **Sessions** &gt; **Session Tracks**: Lists all tracks from all events that you have managed or are managing in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
-- **Events** &gt; **Event** &gt; **Events**: In addition to the dedicated pages, you can also view and set up sessions and tracks while working directly in an **Event** record, which is often more convenient because each new record is automatically associated with the current event, and each list is filtered to show only those items that relate to the current event.
+- Each session is associated with a specific event and speaker, and includes scheduling details.
+- For each track, you can assign an audience and a few other descriptive details and then add member sessions, one at a time. All sessions in a track must be from the same event.
+
 
 ### Set up and assign session speakers
 
 Use the following pages to manage your speakers and speaker engagements:
 
-- **Events** &gt; **Participants** &gt; **Speakers**: Lists all speakers who are available for previous, current, or future events.
-- **Events** &gt; **Participants** &gt; **Speaker Engagements**: Links specific speakers to specific sessions.
-- **Events** &gt; **Event** &gt; **Events**: In addition to the dedicated pages, you can also set up speakers and engagements while working directly in an event record, which is often more convenient because each new record is automatically associated with the current event, and each list is filtered to show only those items that relate to the current event. Use the dedicated pages to review histories or to set up a database of potential speakers for future events.
+- **Events** &gt; **Participants** &gt; **Speakers**: Lists all speakers who are available for previous, current, or future events, and lets you set up new speakers.
+- **Events** &gt; **Event** &gt; **Events**: Work on the **Agenda** tab of the appropriate event record to set up speaker engagements for that event. You can also create new speaker records here if needed while setting up speaker engagements.
 
 Each speaker record can include a photo, contact details, and biographical details that you can eventually publish to the event portal for attendees to review. It also includes a record of all speaking engagements and sessions where the speaker has presented or will present. You can choose to link a speaker to a contact record, but it's not required. The contact, photo, and biographical information in the speaker record is independent from the contact record, so you can safely keep private contact information (possibly stored in the contact record) away from the public speaker information (stored in the speaker record) that will be published to your event portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up the event portal](set-up-event-portal.md)
 
-When setting up a speaker engagement, you map a speaker to a specific session or event. To set up a speaker engagement:
+When setting up a speaker engagement, you map a speaker to a specific session for the event record you are working with. To set up a speaker engagement:
 
 - A speaker record must exist.
-- An event record must exist.
 - If you're assigning a session, a session record must exist. (For single-session events, you might not have a session record and instead will treat the event itself as a session.)
-
-If the speaker, event, or session record that you need doesn't exist yet, you can create a new one by choosing **New** from the drop-down list instead of choosing an existing record.
 
 ## Set up event passes
 
@@ -111,7 +105,7 @@ For each pass type, you'll set the event where it applies and then assign a cate
 
 For a simple event, you might set up just one pass type, which grants access to all sessions for all types of attendees. For a complex event, you might have passes for each of several session tracks, and might require specific pass types for accessing certain areas of the venue (such as a lounge just for journalists). Passes only make sense for physical attendees—you wouldn't set up passes for webinar-only attendees, events, or sessions.
 
-Use the **Events** &gt; **Passes** &gt; **Passes** page to create and inspect your pass types for all events. You can also view and create passes for a single, specific event by working directly with that event record.
+To view and create passes for an event, open the appropriate event record and go to its **Registration & Attendance** tab.
 
 When setting up a pass, pay attention to the **Passes Allocated** field, where you set the number of passes available, and its related fields: **Passes Sold** and **Passes Remaining**. Each time a pass is granted to an attendee, the **Passes Sold** number automatically increases and the **Passes Remaining** number decreases. When **Passes Remaining** reaches zero, that pass will be shown on the portal as "sold out" and will no longer be available for purchase by further attendees. If you set **Passes Allocated** to zero, that pass won't be shown on the portal at all; you might do this for VIP passes, or to keep a pass as a draft until you're ready to publish it by setting **Passes Allocated** to a positive value.
 
