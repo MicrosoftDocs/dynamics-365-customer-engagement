@@ -2,7 +2,7 @@
 title: "Track online behavior (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "A tutorial for how to enable online behavior analysis for website activity and external clicks in Dynamics 365 for Marketing"
 keywords: "tutorial; tracking; website; redirect URL; behavior analysis"
-ms.date: 11/07/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: get-started-article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Track website visits, social media clicks, and banner clicks
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provides several ways to help you get to know your potential customers and to see how they interact with your various marketing initiatives. We've already mentioned that you can see when email recipients open a message or select a message link—and when new or existing contacts submit a form from a marketing page. You've also seen that these actions can affect lead scores and the way contacts flow through your customer journeys.
 
