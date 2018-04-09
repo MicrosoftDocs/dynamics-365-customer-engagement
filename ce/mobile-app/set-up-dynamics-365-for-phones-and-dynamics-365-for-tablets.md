@@ -76,8 +76,10 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
     -   System Form  
   
     -   User Application Metadata  
-  
+ 
     -   View  
+ 
+    -   App
   
 4.  Choose a security role > **Business Management** tab. Verify that the **Read** permission is set for the following entity:  
   
