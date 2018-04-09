@@ -2,7 +2,7 @@
 title: "Use suppression segments to implement unsubscribe requests in running journeys (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to set and assign a suppression segment to ensure customer journeys in Dynamics 365 for Marketing implement unsubscribe requests"
 keywords: "customer journey; suppression segment; segment; subscriptions; unsubscribe"
-ms.date: 02/01/2018
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Use suppression segments to ensure running journeys will implement unsubscribe requests
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Most customer journeys start with a target segment, which produces a list of contacts to be processed by that journey. The minute the journey starts, all contacts in the target segment proceed to the first tile in the workflow and then continue until they reach the end of the workflow or the journey end date. 
 

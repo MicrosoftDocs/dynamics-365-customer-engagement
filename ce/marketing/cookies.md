@@ -2,7 +2,7 @@
 title: "Cookies set and read (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Describes how cookies are set and used in Dynamics 365 for Marketing"
 keywords: "cookies; privacy"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: reference
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # How [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses cookies
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] identifies website visitors by using a technology called _cookies_. A cookie is a small file that's sent by a server and saved by your browser. Each time you visit a server for which a cookie is set, your browser submits that cookie value back to the server. In this way the cookie can provide a unique visitor ID, which enables the server to return information that is unique to you. This is the technology that originally made the online shopping cart possible.
 

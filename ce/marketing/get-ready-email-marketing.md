@@ -2,7 +2,7 @@
 title: "Maximize email deliverability (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to design and send marketing email messages that avoid spam filters and get opened by customers in Dynamics 365 for Marketing"
 keywords: "administration; spam; deliverability; SPF; best practice"
-ms.date: 12/15/2017
+ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -19,8 +19,6 @@ topic-status: Drafting
 # Best practices for email marketing
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
-
-[!INCLUDE[cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Sending marketing email is not the same as sending personal email as most people know it. They might seem similar, but the difference is actually obvious: personal emails get delivered to just one or a few people, whereas marketing emails get delivered to many thousands or more every month.
 
