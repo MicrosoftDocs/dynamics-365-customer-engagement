@@ -72,7 +72,7 @@ manager: "brycho"
 
 ## PowerApps licensing
 
-On March 21, 2018, we introduced PowerApp integration with Dynamics 365 for Customer Engagement. See the blogs [PowerApps Spring Update](https://powerapps.microsoft.com/blog/powerapps-spring-announce/) and [What’s new in the Dynamics 365 admin center](https://blogs.msdn.microsoft.com/crm/2018/03/21/whats-new-in-the-dynamics-365-admin-center/).
+On March 21, 2018, we introduced PowerApps integration with Dynamics 365 for Customer Engagement. See the blogs [PowerApps Spring Update](https://powerapps.microsoft.com/blog/powerapps-spring-announce/) and [What’s new in the Dynamics 365 admin center](https://blogs.msdn.microsoft.com/crm/2018/03/21/whats-new-in-the-dynamics-365-admin-center/).
 
 Dynamics 365 and PowerApps are now based on the same platform that powers Dynamics 365. PowerApps users appear as users in Dynamics 365 via **Settings** > **Security** > **Users**. What users can do and the security role assigned to them is scoped to PowerApps and Flow applications managed by environment administrators. See [Configure environment security](https://docs.microsoft.com/powerapps/administrator/database-security).
 
