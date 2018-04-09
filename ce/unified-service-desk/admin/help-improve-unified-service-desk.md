@@ -47,7 +47,7 @@ Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/
 
 By default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
-Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FALSE` disables data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FALSE` disables data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
 > [!Note]
 >  The checkbox in the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] section on **About** page reflects whether or not [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], and agent cannot select or clear the checkbox. However, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrators can control whether or not send data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
