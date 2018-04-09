@@ -29,17 +29,6 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
 
  <!-- [Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
 
-## What's new
-
-|  | |
-|---------|---------|
-|March 30, 2018     |         |
-|     |Email tracked in compose mode from Outlook Web Access displays correct status in Dynamics 365.          |
-|     |Accessibility fixes.          |
-|March 20, 2018     |        |
-|   |Fixed the issue of Track and Set Regarding commands not appearing for some users in App for Outlook.     |
-|   |Email that was followed from Outlook desktop will not have a visible pixel link.    |
-
 ## Known issues
 
 - Users who are assigned a custom security role may not be able to access [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. We are working on a fix for this issue. In the meantime, for a workaround, see this [support article](https://support.microsoft.com/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t). 
