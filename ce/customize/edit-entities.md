@@ -1,7 +1,8 @@
 ---
-title: "Edit an entity (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Edit an entity in PowerApps | MicrosoftDocs"
+description: "Learn the different ways that an entity can be edited"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,21 +11,22 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 8b00780c-74f0-4e3a-b570-b9289d0d5383
 caps.latest.revision: 41
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Edit an entity
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_EditingEntities"></a>   
  
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, you can edit any custom entities that you create. System entities or managed custom entities may have limitations about changes you can make.  
+You can edit any custom entity that you create. System entities or managed custom entities may have limitations about changes you can make.  
   
- System entities are any entities that are included with [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Managed custom entities are entities that have been added to the system by importing a managed solution. The degree to which you can edit these entities is determined by the managed properties set for each entity. Any properties that can’t be edited will be disabled. To view the [Managed properties](../customize/set-managed-properties.md) for an entity selected in the solution explorer, click the **Managed Properties** button in the menu bar.  
+ System entities are any entities that are included with your environment. Managed custom entities are entities that have been added to the system by importing a managed solution. The degree to which you can edit these entities is determined by the managed properties set for each entity. Any properties that can’t be edited will be disabled. To view the [Managed properties](../customize/set-managed-properties.md) for an entity selected in the solution explorer, select **Managed Properties** on the menu bar.  
   
 > [!NOTE]
 >  You must publish customizations after you save changes to an existing entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Publishing Customizations](../customize/getting-started-customization.md#BKMK_PublishingCustomizations)  
