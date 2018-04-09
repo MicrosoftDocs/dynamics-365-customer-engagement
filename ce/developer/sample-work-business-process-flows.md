@@ -45,11 +45,11 @@ This sample demonstrates how to programmatically work with business process flow
   
 4.  Retrieves the business process flow instances associated with the "Opportunity" record using the `RetrieveProcessInstances` message. The first record in the returned collection is the active business process flow  instance for the opportunity record, which is "Lead To Opportunity Sales Process" in this case.  
   
-5.  Retrieves the active path and the process stages for the "Opportunity Sales Process" instance using the `RetrieveActivePath` message.  
+5.  Retrieves the active path and the process stages for the "Lead To Opportunity Sales Process" instance using the `RetrieveActivePath` message.  
   
 6.  Retrieves the currently active stage for the "Lead To Opportunity Sales Process" instance, and prompts the user whether to move to the next stage. On confirmation to move, sets the next stage in the active path as the active stage for the "Lead To Opportunity Sales Process" instance.  
   
-7.  Finally, prompts the user whether to delete the "Lead To Opportunity Sales Process", "Opportunity Sales Process", and "Opportunity" records created during the sample run.  
+7.  Finally, prompts the user whether to delete the records created during the sample run.  
   
      Here is the output of the sample:  
   
