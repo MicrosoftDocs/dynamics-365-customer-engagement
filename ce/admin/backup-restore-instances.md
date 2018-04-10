@@ -81,7 +81,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data
 
 -   On-demand backups do not count against your storage limits.  
 
--   On-demand backups are identified by having a label you created and by the presence of **Edit** &#124; **Delete** &#124; **Restore** in the details section. System backups have only **Restore**.  
+-   On-demand backups are identified by having a label you created and by the presence of **Edit** | **Delete** | **Restore** in the details section. System backups have only **Restore**.  
   
  ![Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
   
