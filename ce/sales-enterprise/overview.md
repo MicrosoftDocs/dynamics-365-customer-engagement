@@ -38,7 +38,7 @@ Here are the flavors [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md
 
 - The Sales Pro app is similar to the Sales app, but the entities included in the Sales Pro app are a subset of the entities included in the Sales app. 
 
-- The Sales Hub is built on the Unified Interface framework. <!-- The Sales Hub can be accessed and used on the desktop, but it is currently optimized for the mobile experience; therefore, it only contains a subset of sales features. More sales capabilities will be available in the Sales Hub over the next releases so that it becomes your one-stop destination for the sales experience across all devices and browsers. -->
+- The Sales Hub is built on the Unified Interface framework. 
 
   The Unified Interface framework uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation. With [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)], the Sales Hub app is optimized to work on mobile devices as well as desktops.
 
@@ -50,7 +50,6 @@ If you're using a desktop browser, you'll see the Sales app in the app switcher 
 
 ![Sales desktop app switcher](../sales-enterprise/media/sales_desktop_browser.png "Sales desktop app switcher")
 
-[//]: # (@Shubhada, I verified this use of a token combined with "for phones and tablets" with Amy. This will be in the writer-friendly token spreadsheet that Renee is going to publish soon.)
 If you're using a mobile device with [!include[](../includes/pn-dynamics-crm.md)] for phones and tablets installed, you'll see the Sales Hub in the app switcher as shown in the following image.
 
 ![Sales Hub app switcher](../sales-enterprise/media/sales_hub_app_switcher.png "Sales Hub app switcher")
@@ -60,7 +59,7 @@ The following image shows the Sales Hub screen on a tablet.
 ![Sales Hub example](../sales-enterprise/media/sales_hub_example.png "Sales Hub example")
 
 ## What Dynamics 365 for Sales offers
-[//]: # (Eventually maybe we'll use "smartphone" everywhere, but it isn't Microsoft style yet.)
+
 [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] offers great benefits, whether you're using a desktop, phone, or tablet.
 
 ### Benefits for sales people

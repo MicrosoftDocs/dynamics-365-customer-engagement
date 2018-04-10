@@ -30,9 +30,6 @@
 ### [No longer working a lead?](../sales-enterprise/what-if-no-longer-working-lead-sales.md)
 ### [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
 ### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
-<!--
-### [Work with quotes, orders, and invoices](../sales-enterprise/create-work-with-quotes-orders-invoices.md)
--->
 ### [Create or edit a competitor](../sales-enterprise/create-edit-competitor-record-sales.md)
 ### [Create sales literature](../sales-enterprise/create-sales-literature.md)
 ### [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)
@@ -53,7 +50,7 @@
 ### [View message interactions](../admin/email-engagement.md)
 ### [Display emails](../admin/auto-capture.md)
 ### [View customer activity history](../admin/relationship-analytics.md)
-<!--### [Preview feature: Work with predictive lead scoring](../admin/work-predictive-lead-scoring.md)-->
+
 
 
 
