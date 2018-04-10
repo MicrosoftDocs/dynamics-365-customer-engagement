@@ -25,7 +25,6 @@ Use Learning Path to give your users a custom, in-app Help experience that is ta
 
 <a name="CustomHelp"></a>   
 
-[//]: # (Editor's note: Via Writing Style Guide: No hyphen for an adverb ending in -ly, such as *completely*, when it precedes another modifier. Also, please note a change to the token for "on premises". Via Amy: "on-premises is only relevant for the 'CRM' apps, not for Dynamics 365 as a whole.")
 ## How is Learning Path different from customizable Help?  
  Customizable Help allows you to override the default [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Help and point users in your organization to a different URL for Help. Or you can override the Help for a highly customized entity so that you can better describe your workflow. Customizable Help is available for only for [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)] deployments.
   
@@ -36,7 +35,6 @@ Use Learning Path to give your users a custom, in-app Help experience that is ta
 <a name="Avail"></a>   
 ## Prerequisites  
 
-[//]: # (Edits okay? 2nd bullet: I thought "or later" was important to add. 3rd bullet: The icon is actually labeled "Settings" rather than "Options" in the builds I'm seeing.)
  To create Learning Path content, you must:  
   
 -   Be using [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
@@ -129,7 +127,6 @@ Use Learning Path to give your users a custom, in-app Help experience that is ta
 <a name="ConfigureRoles"></a>   
 #### Configure security roles  
 
-[//]: # (Edit to step 4 okay? "Your Dynamics 365" needs to modify something.)  
 1.  Sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] with an account that has Learning Path authoring permissions.  
   
 2.  Open the **Content Library**.  
@@ -256,7 +253,6 @@ Use Learning Path to give your users a custom, in-app Help experience that is ta
 <a name="CreateGT"></a>   
 ## Create a Guided Task  
 
-[//]: # (In the table in step 4, in the "Form Factor" row, note that I added the current "Dynamics 365 for phones" token.)
  There are two steps for creating a Guided Task:  
   
 1.  Define how the task is triggered, and assign the roles to which the content applies.  
@@ -351,7 +347,6 @@ Use Learning Path to give your users a custom, in-app Help experience that is ta
 <a name="CreateSidebar"></a>   
 ## Create a Sidebar  
 
-[//]: # (In the table in step 4, in the "Form Factor" row, what does "the Dynamics 365 mobile app" refer to?)
  There are two steps for creating a Sidebar:  
   
 1.  Set the Sidebar properties and assign the roles to which it applies.  
@@ -430,8 +425,7 @@ Use Learning Path to give your users a custom, in-app Help experience that is ta
 ## Use videos in your Learning Path controls  
  Only videos hosted on YouTube are supported in Learning Path controls. If you plan to use videos in your Learning Path controls, you'll need to have a YouTube account and channel to upload videos to. You cannot link to videos on a channel that is set to Private, but you can link to videos if your channel is set to Public or Unlisted. You can also set up your channel so that multiple people can manage the video content for your organization.  
   
- [//]: # (There's something missing from the first sentence--"either embed the video within the control or..."?)
- When you add videos to your controls, you can either embed the video within the control. If you want your users to view your videos in a new tab or browser window you can add a text section to your sidebar and then add a link to your video in the text section.  
+ When you add videos to your controls, you can embed the video within the control. If you want your users to view your videos in a new tab or browser window you can add a text section to your sidebar and then add a link to your video in the text section.  
   
  When you embed videos that are displayed within a Sidebar or Guided Task, you'll use the link that you get from YouTube. Learning Path will automatically update the link to embed the video and size it to fit in Sidebar or Guided Task tile. A user can select **Full screen** to view the video in full screen mode. If a user pauses the playback, or when the playback is finished, YouTube might automatically display links to other videos the user may be interested in. You can prevent this from happening by modifying the link in your control to include **?rel=0** at the end.  
   
