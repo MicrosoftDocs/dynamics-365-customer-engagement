@@ -2,7 +2,7 @@
 title: "Author tags in Social Engagement | Microsoft Docs"
 description: "Add, change, and remove author tags from authors in Social Engagement"
 keywords: "author tags, tags"
-ms.date: 12/19/2017
+ms.date: 04/10/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,10 @@ Every user can add or remove author tags when working with an author's details. 
 > To review all authors that have a certain tag added, go to **Social Engagement** > **Analytics** > **Overview** and apply an **Author Tags** [filter](use-filters.md). You’ll find the 100 most active authors with this tag in the **Authors** widget when you expand it to the full view. 
 
 ![Author details with highlighted buttons to add and remove an author tag](media/author-tags-in-author-details.png "Author details with highlighted buttons to add and remove an author tag")
+
+## View author tags
+
+To see the author tags added to a specific author, you need to open the **[Author Details](author-details.md)**. 
 
 ## Add or create author tags
 
