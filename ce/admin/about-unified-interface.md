@@ -26,7 +26,7 @@ The new Unified Interface brings all the rich experiences to any client that you
 
 > - Similar form experiences to update and view your records.
 > - Interactive dashboards across all devices to view your information and drill into it. 
-> - Reference Panel is now available to be used in any experience and not just cases. 
+> - Reference Panel is now available to be used with all entities supported in Unified Interface. 
 > - We now support right-to-left (RTL) languages.
 > - All experiences on Unified Interface are completely accessible. 
 
