@@ -1,7 +1,8 @@
 ---
-title: "Main form presentations (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Main form presentations in PowerApps | MicrosoftDocs"
+description: "Learn how main forms appear when displayed on different devices"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"  
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: da3ac59a-5413-46cb-b355-1987e42e3853
 caps.latest.revision: 35
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
-# How main forms appear in different clients
+# How main forms appear on different devices
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-The main form is used by every client. This form provides a consistent user experience whether someone is using the web application,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+The main form is used by all model-driven app clients. This form provides a consistent user experience whether someone is using a web browser,  [!INCLUDE[pn_Mobile_Express_long](../includes/pn-mobile-express-long.md)], [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)], or [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
 <a name="BKMK_MainFormPresentations"></a>   
 ## Main forms  
@@ -28,7 +30,7 @@ The main form is used by every client. This form provides a consistent user expe
   
 |Presentation|Description|  
 |------------------|-----------------|  
-|**Updated**|For the [Updated entities and classic entities](create-design-forms.md#updated-versus-classic-entities) and any custom entities, the updated form provides a new user experience in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)]. These forms have the newer command bar design, and enable additional features such as the command bar, auto-save, and business process flows.|  
+|**Updated**|For the [Updated entities and classic entities](create-design-forms.md#updated-versus-classic-entities) and any custom entities [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], the updated form provides a new user experience. These forms have the newer command bar design, and enable additional features such as the command bar, auto-save, and business process flows.|  
 |**Dynamics 365 for tablets**|[!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] presents the content of the main form in a manner optimized for a tablet.|  
 |**Dynamics 365 for phones**|[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] presents the content of the main form in a manner optimized for a phone.|  
 |**Classic**|These forms are for the entities that haven't been updated. They use the ribbon rather than the command bar and the navigation pane on the left side of the form.<br /><br /> These forms have a two-column layout.|  
@@ -51,7 +53,7 @@ The main form is used by every client. This form provides a consistent user expe
 |**Header**|Fields placed in the header remain visible when people scroll down through the body of the form.<br /><br /> Up to four fields can be placed in the header. Multiple lines of text, web resources, or iFrames aren’t allowed in the header. The header and footer share some properties with sections.|  
 |**Process Control**|When an entity has active business process flows, the process control displays below the header. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Business process flows](../customize/business-process-flows-overview.md)|  
 |**Body**|The body is the scrollable part of the form that contains the tabs.|  
-|**Tabs**|In the body of the form, tabs provide horizontal separation. Tabs have a label that can be displayed. If the label is displayed, tabs can be expanded or collapsed to show or hide their content by clicking the label.<br /><br /> Tabs contain up to three columns and the width of each column can be set to a percentage of the total width. When you create a new tab, each column is prepopulated with a section.|  
+|**Tabs**|In the body of the form, tabs provide horizontal separation. Tabs have a label that can be displayed. If the label is displayed, tabs can be expanded or collapsed to show or hide their content by selecting the label.<br /><br /> Tabs contain up to three columns and the width of each column can be set to a percentage of the total width. When you create a new tab, each column is prepopulated with a section.|  
 |**Sections**|A section occupies the space available in a tab column. Sections have a label that can be displayed and a line may be shown below the label.<br /><br /> Sections can have up to four columns and include options for displaying how labels for fields in the section are displayed.|  
 |**Fields**|Fields display controls people use to view or edit data in an entity record. Fields can be formatted to occupy up to four columns within a section.|  
 |**Spacer**|A spacer allows for an empty space to be added to a section column.|  
@@ -104,7 +106,7 @@ The main form is used by every client. This form provides a consistent user expe
  People can tap the search control to open the screen to search for records.  
   
  **Command Bar**  
- By default, some of the commands that appear in the web application do not appear in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets apps. Similar to the web application, the command bar is context-sensitive, so the available commands change depending on what is currently viewed or selected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change commands](../customize/customize-phones-tablets.md#BKMK_ChangeCommands)  
+ By default, some of the commands that appear in the app running in a web browser do not appear in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets apps. Similar to the web application, the command bar is context-sensitive, so the available commands change depending on what is currently viewed or selected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Change commands](../customize/customize-phones-tablets.md#BKMK_ChangeCommands)  
   
 ### Form elements  
  The form elements displayed are taken from the main form and presented as a series of panels that users see through the view port.  
