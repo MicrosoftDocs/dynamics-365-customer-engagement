@@ -1,7 +1,8 @@
 ---
-title: "Invoke custom actions from a workflow (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Invoke custom actions from a workflow with PowerApps | MicrosoftDocs"
+description: "Learn how to invoke a custom action from a workflow"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,24 +11,25 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 1fd5d39e-3dc8-4d1a-8b4b-ccaa303f4bbb
 caps.latest.revision: 12
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Invoke custom actions from a workflow
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], workflows have numerous capabilities supporting business scenarios. Calling basic SDK actions for a record, such as create, update, and delete, from within a workflow solves quite a few business scenarios. However, if you couple the capabilities of the workflows with the power of the custom actions invoked directly from within a workflow you add a whole new range of business scenarios to your application without needing to write code.  
+Workflows have numerous capabilities supporting business scenarios. Calling basic SDK actions for a record, such as create, update, and delete, from within a workflow solves quite a few business scenarios. However, if you couple the capabilities of the workflows with the power of the custom actions invoked directly from within a workflow you add a whole new range of business scenarios to your application without needing to write code.  
   
  Let’s look at the scenario in which a custom action is invoked from a workflow. We’ll invoke a custom action to request the manager’s approval when a discount for a particular opportunity exceeds 20%.  
   
 <a name="action"></a>   
 ## Create a custom action  
   
-1. [!INCLUDE[proc_settings_processes](../includes/proc-settings-processes.md)]  
+1. In solution explorer select **Processes**.  
   
 2.  On the Nav bar, choose **New**. Give the process a name and choose the **Action** category.  
   

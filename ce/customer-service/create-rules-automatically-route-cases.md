@@ -60,11 +60,12 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
   
        For example, to route all cases that have the **IsEscalated** field set to **Yes** to the **Tier 2 support** queue, specify the conditions as shown here:  
   
-       !["If Conditions" for a routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-if-conditions.png ""If Conditions" for a routing rule in Dynamics CRM")  
+       !["If Conditions" for a routing rule in Dynamics CRM](media/crm-ua-rule-criteria-if-conditions.png "If Conditions for a routing rule in Dynamics CRM")
  
     3. Under **Then Conditions**, specify the queue to which the cases will be routed or the user or team to which the cases will be assigned if the conditions in the **If Conditions** section are met.
-  
-       !["Then Conditions"  for routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-then-conditions.png ""Then Conditions"  for routing rule in Dynamics CRM")  
+      
+       !["Then Conditions" for routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-then-conditions.png "Then Conditions  for routing rule in Dynamics CRM")  
+      
   
     > [!TIP]
     >  To group conditions in the criteria, use the **Group And** or **Group Or** options.  
