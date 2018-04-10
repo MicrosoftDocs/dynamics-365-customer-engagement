@@ -24,6 +24,8 @@ With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you brin
 
 When you look for [detailed analysis of your data](analyze-social-data-using-widgets.md), usually, you work directly in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
 
+<a name="add-social-engagement-visuals-to-dynamics-365"></a>
+
 ## Connect Dynamics 365 (online) to Microsoft Social Engagement for Social Insights
 
 To configure the connection, you need to have a subscription to Microsoft Social Engagement, be an authorized Microsoft Social Engagement user and have a Microsoft Social Engagement instance provisioned for this Dynamics 365 instance.
