@@ -2,7 +2,7 @@
 title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: ""
-ms.date: 04/09/2018
+ms.date: 04/10/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -41,7 +41,8 @@ To configure the connection, you need to have a subscription to Microsoft Social
 2. Select **Continue** to accept the legal disclaimer.
 
 3. On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** dropdown box, choose the Microsoft Social Engagement instance to which you want to connect. Select the **Select** button next to the dropdown box. The **Select** button becomes grayed out to indicate that the selection is confirmed.
-  
+
+![Image alt text](media/social-insights-configuration-online.png "Image hover text")  
 
 > [!WARNING]
 > If you want to switch to a different Microsoft Social Engagement instance, you are asked to confirm it. Changing the Microsoft Social Engagement instance, may cause any existing Social Insights controls on forms and dashboards to display error messages, because the new instance may not have matching data. All existing Social Insights controls may need to be reconfigured. Also, the existing Social Insights data in Dynamics 365 may need to be [reset](integrate-social-engagement-dynamics-365.md#reset-social-insights) to remove references to the old instance data.
@@ -54,16 +55,15 @@ To configure the connection, you need to have a subscription to Microsoft Social
 
 - You must ensure that your Dynamics 365 domain is [added to the list of allowed domains](connect-other-domains.md) in Microsoft Social Engagement.
 
-[comment]: <> (IFD required for on-prem? really need to add domain?)
-
-
 ### Connect Dynamics 365 on-premises to Social Engagement
 
 1. In Dynamics 365, select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. Follow the directions on the Microsoft Social Engagement Configuration page.
+3. Follow the directions on the **Microsoft Social Engagement Configuration** page.
+
+![Image alt text](media/social-insights-configuration-on-premises.png "Image hover text")
   
 ## Add Social Engagement visuals to an entity form
 
@@ -83,10 +83,8 @@ Choose to enable **Pass record object-type code and unique identifier as paramet
 6. Select **OK**. The Social Insights control is now added to the entity form. You can resize the control or move the control to another location on the form.
 
 7. Switch back to the **Home** tab. Select **Save** and then select **Publish** to publish the added customizations. The control called **Configure Social Insights** appears on all records based on this form. The search topics, search categories and visuals can be added to the control.  
- 
-Download the eBook: [Microsoft Social Engagement for CRM](http://go.microsoft.com/fwlink/p/?LinkID=393642)  
 
-## Add Social Engagement visual to dashboards
+## Add Social Engagement visuals to dashboards
 
 You can add the Social Insights controls to the existing system dashboards or to a new dashboard. Let’s create a new dashboard and add the Social Insights control to it. We’ll use the Set Up Social Insights wizard to lead us through the setup. Shortly after the setup is finished and customizations are published, the charts and graphs with social data will appear on your dashboard.
 
@@ -100,7 +98,11 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 5. To add the control, select **Insert Social Insights** icon in the center of the section on the dashboard form, or select **More Commands** ... on the command bar and then select **Social Insights** in the dropdown list. **Set Up Social Insights** wizard appears.
 
+   ![Image alt text](media\social-insights-set-up-step1.jpeg "Image hover text")
+
 6. In the **Set Up Social Insights** wizard, select **Advanced**. The **Add Social Insights** dialog appears. Fill in the required fields and select **OK**. You can also use the default values and select **OK** or **Cancel** to close the dialog box.
+
+   ![Image alt text](media\social-insights-advanced-configuration.jpeg "Image hover text")
 
 7. In the **Set Up Social Insights** wizard main window, select **Search topic** or **Search topic category**, and then select **Next**.
 
@@ -109,13 +111,17 @@ You can add the Social Insights controls to the existing system dashboards or to
     > [!NOTE]
     > You can create a new search topic, instead of choosing a search topic in the dropdown list. Select **Create a new search topic**, fill in the required fields and select **Next**.
 
+   ![Image alt text](media\social-insights-set-up-step2.jpeg "Image hover text")
+
 9. In the visuals drop-down list, select a graph or a chart you want. You can add as many visuals as you want and move them up and down the list using the **MOVE UP** and **MOVE DOWN** arrows. You can also delete a visual by selecting the delete icon displayed to the right of the visual. Select **Finish**.
+
+   ![Image alt text](media\social-insights-set-up-step3.PNG "Image hover text")
 
 10. On the command bar, select **Save** and then select **Close**.
 
 11. To publish the customizations, select **Publish All Customizations** on the command bar. After the customizations are published, you can see the social insights on your dashboard.
 
-
+![Image alt text](./media/social-insights-example-visual.PNG "Image hover text")
 
 ## Set up search topics from within Dynamics 365  
 
@@ -135,6 +141,8 @@ This action deletes all existing data in Dynamics 365 for the search topics, sea
 1. Select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
 
 2. On the **Microsoft Social Engagement Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears, select **Confirm**, if you want to proceed, otherwise select **Cancel**.
+
+![Image alt text](./media/social-insights-confirm-reset.jpeg "Image hover text")
 
 ## Troubleshoot sign-in problems  
 
