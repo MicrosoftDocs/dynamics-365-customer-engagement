@@ -18,8 +18,6 @@ manager: "amyla"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[Pre-release disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 This step is typically performed by administrators of your Dynamics 365 instance.
 
 To configure a custom channel in your instance of Dynamics 365 for Marketing, administrators can:

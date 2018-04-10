@@ -24,6 +24,7 @@ Customer Service Hub is based on the Unified Interface framework. Some of the ke
 
 - Seamless and intuitive user interface
 - UI reflow and adaptivity across devices and form factors
+- Built with accessibility in mind
 
 Watch this video to learn more about the Customer Service Hub:
 
@@ -50,6 +51,19 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
   
 [Use interactive dashboards to effectively manage service cases](customer-service-hub-user-guide-dashboard.md)
 
+## Accessibility and GDPR
+
+Microsoft is committed towards making technology accessible to all and ensuring that its products and services are designed for everyone. Go to the [Trust Center](https://www.microsoft.com/en-us/trustcenter/compliance/accessibility) to learn about our industry-leading accessibility standards.
+
+General Data Protection Regulation (GDPR) is a major step forward for clarifying and enabling individual privacy rights. Go to the [Trust Center](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx), to find resources to help you manage cloud-data security and compliance for your organization.
+
+Customer Service Hub advocates inclusive design and accessible content. The app is designed around accessibility so that all users can be effortlessly productive.
+
+Refer below to know how the Customer Service Hub app complies to accessibility and GDPR guidelines:
+
+- [Accessibility features for Customer Engagement](https://docs.microsoft.com/en-us/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+- [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/index)
+- [Keyboard navigation support for the Customer Service Hub](keyboard-navigation-support-customer-service-hub.md)
 
 ### See also
   

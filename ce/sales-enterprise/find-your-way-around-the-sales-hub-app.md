@@ -1,20 +1,25 @@
 ---
 title: "Find your way around the Sales Hub app | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/21/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "get-started-article"
-applies_to: 
+description: "Learn how to get around and navigate through the Sales Hub app."
+keywords: "Navigate, Sales Hub"
+ms.date: 04/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: get-started-article
+applies_to:
   - "Dynamics 365 (online)"
 author: "mduelae"
 ms.assetid: 792b7301-d9a1-4323-9e81-ab0dee5ced2d
+author: shubhadaj
+ms.author: shujoshi
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 1
-ms.author: "mkaur"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Find your way around the Sales Hub app
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

@@ -51,8 +51,16 @@ You have options for when you update your Dynamics 365 Online organization to [!
   
  We enhanced the customer experience by giving customers the ability to provide consent prior to updating their organization. Customers today have a wide choice of days to choose from to best suit their business, and we will continue to provide that flexibility for service updates. Customers have the choice to take the two updates as they become available, or take only one update per year. If a customer chooses to take only one update per year, this update becomes mandatory and the customer will be required to take the update during the available dates for that release.  
   
- In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2) and chose not to take the available [!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)] (n-1), then you would need to take [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] (n) as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
-  
+ In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on **n-2** and chose not to take the available **n-1**, then you would need to take **n** as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
+
+Here are the recent versions.
+
+|  |Version  |Name  |
+|---------|---------|---------|
+|n     |9.0         |Dynamics 365, version 9.0         |
+|n-1     |8.2         |Dynamics 365, version 8.2         |
+|n-2     |8.1         |Microsoft Dynamics CRM Online 2016 Update 1          |
+
 <a name="BKMK_Scenarios"></a>   
 
 ## Update scenarios  
@@ -196,15 +204,6 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-on
  To determine your version, sign in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], and in the upper-right side of the screen, click the **Settings** button ![User profile Settings button](media/user-profile-settings-button.gif) > **About**.  
 
 For recent versions, see [Dynamics 365 (online) releases](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases)
-
-<!--  
-|Version|Availability|Information|  
-|-------------|------------------|-----------------|
-|[!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]|December 2015|[What's new in CRM Online 2016](https://technet.microsoft.com/library/dn531078.aspx)|  
-|[!INCLUDE[pn_crm_8_2_0_online_subsequent](../includes/pn-crm-8-2-0-online-subsequent.md)]|November 2016|[What's new for administrators and customizers in Dynamics 365 2016 and Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new/index) |     
-|March Dynamics 365 (online)|March 2016|[What's new in March for Dynamics 365 (online)](https://technet.microsoft.com/library/dn531078.aspx#What's new in March for Dynamics 365 (online))
-|[!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]|October 2017|[Get ready for the next release](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update)
--->  
 
 <a name="BKMK_howtoknow"></a> 
   

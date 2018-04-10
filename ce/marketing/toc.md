@@ -4,9 +4,13 @@
  
 ## [Administrator Guide](admin-guide.md)
 
-### [First time setup](purchase-setup.md)
-### [First time setup FAQ and troubleshooting](setup-troubleshooting.md)
-### [Keep Marketing up to date](apply-updates.md)
+### [Set up and manage Marketing instances](setup-manage-instances.md)
+#### [First time setup](purchase-setup.md)
+#### [First time setup FAQ and troubleshooting](setup-troubleshooting.md)
+#### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
+#### [Keep Marketing up to date](apply-updates.md)
+#### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Uninstall Marketing](uninstall-marketing.md)
 ### [Open the administration settings](open-advanced-settings.md)
 ### [Organization settings](organization-settings.md)
 #### [Manage users](manage-users.md)
@@ -18,6 +22,7 @@
 ### [Customize](customize.md)
 ### [Marketing settings](marketing-settings.md)
 ### [Event management settings](events-settings.md)
+### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
 ### [Manage sample data](additional-settings.md)
 ### [Quota management](quota-management.md)
 
@@ -29,6 +34,7 @@
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
+#### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### [Basic tutorials](basic-tutorials.md)
 #### [Create a segment](create-segment.md)
@@ -48,7 +54,6 @@
 
 ### [Create, target, and deliver online marketing content](marketing-execution-section.md)
 #### [Design your digital content](design-digital-content.md)
-#### [Designer keyboard shortcuts](designer-shortcuts.md)
 #### [Content blocks reference](content-blocks-reference.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
 #### [Work with email templates](email-templates.md)
@@ -63,7 +68,7 @@
 ### [Manage, score, and qualify leads](qualify-leads-section.md)
 #### [Score and manage leads](score-manage-leads.md)
 #### [Register contacts' engagement](register-engagement.md)
-#### [Integrate with LinkedIn Lead Gen](LinkedIn-Lead-Gen-integration.md)
+#### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
@@ -91,3 +96,7 @@
 #### [Publish custom channel on AppSource](developer/publish-custom-channel-appsource.md)
 #### [Configure and use custom channel](developer/configure-use-custom-channel.md)
 #### [Remove custom channel](developer/remove-custom-channel.md)
+### [Retrieve interactions for a contact](developer/retrieve-interactions-contact.md)
+### [Metadata reference for your organization](developer/marketing-organization-metadata.md)
+#### [Dynamics 365 for Marketing solutions](developer/marketing-solutions.md)
+#### [Dynamics 365 for Marketing entity reference](developer/marketing-entity-reference.md)

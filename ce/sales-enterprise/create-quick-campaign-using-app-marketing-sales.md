@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: ff906069-cba8-45cd-93e8-2b517c1d89d2
 caps.latest.revision: 43
-author: "kamaybac"
-ms.author: "kamaybac"
+author: "shubhadaj"
+ms.author: "shujoshi"
 manager: "sakudes"
 ---
 # Create a quick campaign using in-app marketing (Sales)

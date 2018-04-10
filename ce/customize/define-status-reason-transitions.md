@@ -1,7 +1,8 @@
 ---
-title: "Define status reason transitions (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Define status reason transitions with PowerApps | MicrosoftDocs"
+description: "Learn how to define status reason transitions"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,19 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: dbc4f436-0b23-42f9-8079-b0de482aaebe
 caps.latest.revision: 11
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
+
 # Define status reason transitions for the Case or custom entities
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can specify status reason transitions for the Incident (**Case**) entity or custom entities.  
+You can specify status reason transitions for the Incident (**Case**) entity or a custom entity.  
   
  Status reason transitions are an optional additional level of filtering to define what the status reason value can be changed to for each status reason. Defining a limited list of valid options can make it easier for people to choose the correct next status reason for a record when you have a large number of combinations for valid status reason values.  
   
@@ -41,7 +44,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can specify s
 |**Resolved**|<li>**Problem Solved**</li><li>**Information Provided**</li>|
 |**Canceled**|<li>**Canceled**</li><li>**Merged**</li>|
   
- <!-- See [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) for a list of all the default status and status reason values.  -->
   
 <a name="BKMK_EditStatusReasonTransitions"></a>   
 ## Edit status reason transitions  

@@ -1,21 +1,19 @@
 ---
-title: "Create an entitlement to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Create an entitlement to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to create an entitlement to define the support terms for a customer in Dynamics 365 for Customer Service
+keywords: Create an entitlement; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
-caps.latest.revision: 27
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Create an entitlement to define the support terms for a customer (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -166,7 +164,7 @@ Define what kind of support your customers are eligible for by creating entitlem
  The start date of this new entitlement is set to the current date and the end date is set to the current date plus the number of days between the end date and start date. The data in other fields is copied from the old entitlement.  
   
 ### See also  
- [Define service level agreements](../customer-service/define-service-level-agreements.md)   
- [Set up entitlements quickly with templates](set-up-entitlements-quickly-templates.md)
- [Create and manage a case (Customer Service Hub](../customer-service/user-guide-customer-service-hub.md)
+ [Define service level agreements](../customer-service/define-service-level-agreements.md)   <br>
+ [Set up entitlements quickly with templates](set-up-entitlements-quickly-templates.md) <br>
+ [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
  [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)

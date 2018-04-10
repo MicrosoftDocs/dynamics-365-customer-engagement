@@ -42,7 +42,7 @@ Turn your customer questions, issues, and feedback into knowledge articles, so o
   
      You’ll be on the **Content** tab of the knowledge article.  
   
-     ![Content tab in the new knowledge article](../customer-service/media/v9-new-article-content-tab.png "Cotnent tab in the new knowledge article")  
+     ![Content tab in the new knowledge article](../customer-service/media/v9-new-article-content-tab.png "Content tab in the new knowledge article")  
   
 4.  In the **Article Content** section, fill in the following details:  
   

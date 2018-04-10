@@ -79,7 +79,7 @@ However, if after 72 hours the key change is not rolled back, the [!INCLUDE[pn_d
 -   System Administrator security role for the instance of [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] that you want to manage the encryption key.  
   
 ### Subscription requirements  
- The ability to self-manage database encryption keys requires either Dynamics 365 Customer Engagement Plan Enterprise Edition or Dynamics 365 Plan.  
+ The ability to self-manage database encryption keys requires either Dynamics 365 Customer Engagement Plan or Dynamics 365 Plan.  
   
 ### Encryption key requirements  
  If you provide your own encryption key, your key must meet  these  requirements that are accepted by [!INCLUDE[pn_azure_key_vault](../includes/pn-azure-key-vault.md)].  

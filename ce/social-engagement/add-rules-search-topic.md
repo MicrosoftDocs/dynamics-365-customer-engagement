@@ -39,8 +39,6 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 > [!TIP]
 >  This topic is part of a walkthrough about how to set up searches. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up searches to listen to social media conversations](set-up-searches.md)  
   
-> [!VIDEO https://www.youtube.com/embed/3HoeVROsJZk]
-  
 ## Add a rule to a search topic  
 To enable searches and collect posts, add one or more rules to a search topic.  
 

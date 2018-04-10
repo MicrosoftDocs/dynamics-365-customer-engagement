@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1bf875ef-5d83-44f6-8b5c-67f7e3286e7c
 caps.latest.revision: 46
-author: "kamaybac"
-ms.author: "kamaybac"
+author: "shubhadaj"
+ms.author: "shujoshi"
 manager: "sakudes"
 ---
 # Track a marketing campaign response using in-app marketing (Sales)

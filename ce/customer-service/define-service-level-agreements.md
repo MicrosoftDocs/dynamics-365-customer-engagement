@@ -1,21 +1,19 @@
 ---
-title: "Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to define service level agreements in Dynamics 365 for Customer Service
+keywords: Service leve agreements; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+ms.author: anjgup
+manager: sakudes
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: crm-online
 ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
-caps.latest.revision: 65
-ms.author: "shujoshi"
-manager: "sakudes"
 ---
+
 # Define service level agreements (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -322,9 +320,9 @@ Define the level of service or support that your organization agrees to offer to
 >  To track SLAs for entities other than case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md)  
   
 ### See also  
- [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   
- [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)   
- [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   
- [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
- [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)
+ [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   <br>
+ [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)   <br>
+ [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   <br>
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
+ [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
  [Create and manage a case (Customer Service](../customer-service/user-guide-customer-service.md)

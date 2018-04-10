@@ -29,63 +29,27 @@ tags:
 
 People can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] to tap the power of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] while using [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] on the desktop, web, or tablet. For example, view information about email or appointment recipients, or link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email or appointment  to a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record such as an opportunity, account, or case. To learn more about what [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] offers, see the [Dynamics 365 App for Outlook User Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
 
-
-
-<!-- [!IMPORTANT]
- [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is deprecated with the [!INCLUDE[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] and will be removed in a future major release. This deprecation includes Offline mode and synchronization in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. For more information, see [Deprecation of Dynamics 365 for Outlook](https://blogs.msdn.microsoft.com/crm/2017/08/08/deprecation-of-dynamics-365-for-outlook/)
-> -->
-
-
-<!-- 
-## Comparing Dynamics 365 App for Outlook with Dynamics 365 for Outlook  
- The following table compares [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] features with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] (also known as the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] client or add-in) as of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)].  
-  
-||||  
-|-|-|-|  
-|**Feature**|**[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]**|**[!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]**|  
-|Track and set regarding for email|Yes|Yes|  
-|Track and set regarding for appointments|Yes|Yes|  
-|Track and set regarding for contacts|Yes|Yes|  
-|Track and set regarding for tasks|No|Yes|  
-|One click set regarding|Yes|No|  
-|Shows recipients' summary|Yes|No|  
-|Shows the regarding record summary in the email/appointment|Yes|No|  
-|Works with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)]|Yes|No|  
-|Works with [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] desktop|Yes|Yes|  
-|Works with [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for the Mac|Yes|No|  
-|Works with phones|Yes|No|  
-|Open and create [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] record directly|Yes|Yes|  
-|Apply custom forms and business logic|Yes|Yes|  
-|Work offline|No|Yes|  
-|Apply email templates|Yes|Yes|  
-|Apply sales literature|Yes|Yes|  
-|Apply knowledge articles|Yes|Yes|  
-|Ability to monitor emails after sending|Yes|No|  
-|Sort, filter, format, group, and categorize views|No|Yes|  
-|Create Word mail-merge documents|No|Yes|  
-|Control field synchronization|No|Yes|  
--->
 ## Known issues
 
 For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], see the [Dynamics 365 Customer Engagement Readme](../admin/readme-9.md).
 
 There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
 
-
-
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
   
 - [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later
   
--   Synchronization of incoming email through server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
+- Synchronization of incoming email through server-side synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)  
   
--   Required privileges as described below  
+- [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is an [!INCLUDE [pn-outlook](../includes/pn-outlook.md)] add-in that uses [!INCLUDE [pn-exchange-web-services-ews](../includes/pn-exchange-web-services-ews.md)] to interact with [!INCLUDE [pn-microsoft-exchange](../includes/pn-microsoft-exchange.md)]. This requires OAuth be enabled on [!INCLUDE [pn-microsoft-exchange](../includes/pn-microsoft-exchange.md)]. For more information regarding this dependency, see [Authentication and permission considerations for the makeEwsRequestAsync method](https://docs.microsoft.com/outlook/add-ins/web-services#authentication-and-permission-considerations-for-the-makeewsrequestasync-method).
+
+- Required privileges as described below  
   
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
   
-### Required privileges  
+### Required privileges 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
   
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
@@ -188,74 +152,7 @@ Note: Dynamics 365, version 9 is not available on-premises.
 (3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
 (4) Supported on iPhones 6S or higher, with iOS 8 or higher.
 
-<!--
 
-### Supported browsers for Outlook on the web  
- You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] on the following browsers:  
-  
-- [!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]  
-  
-     The following configuration is supported:  
-  
-    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
-  
-    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
-  
-    -   Your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
-  
-- [!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]  
-  
-- [!INCLUDE[tn_Firefox](../includes/tn-firefox.md)] (latest version) on [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)]  
-  
- - [!INCLUDE[tn_apple](../includes/tn-apple.md)] [!INCLUDE[tn_Safari](../includes/tn-safari.md)] (version 9 or version 10) on Mac or on OSX  
-  
-### Supported operating systems for Outlook on the desktop  
- You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] on these versions of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for the desktop:  
-  
-- [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 2013 and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 2016.  
- 
-[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] version 15.0.847.32 or greater is required.  
-
-- [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] for Mac*.  
-  
-     *[!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server 2013) or greater is required.  
-
-
-### Supported mobile devices  
- You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] in the mobile browser on any of the following phones and operating systems:  
-  
-[!INCLUDE[tn_apple](../includes/tn-apple.md)] [!INCLUDE[tn_iphone](../includes/tn-iphone.md)] devices running iOS version 10.  
-  
-- [!INCLUDE[tn_android](../includes/tn-android.md)] phones running [!INCLUDE[tn_android](../includes/tn-android.md)] 6 (Marshmallow), or 7 (Nougat).  
-  
-- [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] devices running [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)] or [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)].  
-
-### Supported clients per feature  
- The [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] features supported depend on the client you're running. The following table summarizes which features are supported for each client/configuration of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)].  
- 
-![Clients supported for each Dynamics 365 App for Outlook feature](media/clients-supported-for-each-dynamics-365-app-for-outlook-feature.png)
-  
- (1)  [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)], and latest [!INCLUDE[tn_chrome](../includes/tn-chrome.md)].  
-  
- (2)   Mobile [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] supports [!INCLUDE[pn_windows_8_1](../includes/pn-windows-8-1.md)], [!INCLUDE[pn_windows_10](../includes/pn-windows-10.md)], [!INCLUDE[tn_ios](../includes/tn-ios.md)] 8, [!INCLUDE[tn_ios](../includes/tn-ios.md)] 9, [!INCLUDE[tn_ios](../includes/tn-ios.md)] 10, [!INCLUDE[tn_android](../includes/tn-android.md)] KitKat (4.4), [!INCLUDE[tn_android](../includes/tn-android.md)] Lollipop, [!INCLUDE[tn_android](../includes/tn-android.md)] Marshmallow, and [!INCLUDE[tn_android](../includes/tn-android.md)] Nougat.  
-  
- (3)  Tracking email in compose mode and tracking appointments requires [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] 2013 CU14 or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] 2016.  
-  
- (4)  Tracking contacts is supported only on [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)]2016 CU3 and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 2016 16.0.6741.1000 and later.  
-  
- (5)  Adding email templates, Knowledge Management articles, and sales literature is not supported in Mobile [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)].  
-  
- (6)  Supported only on [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 2016 16.0.7426.1049 and later.  
-  
- (7)  Supported only on [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)]  16.0.6741.1000 and later.  
-
- (8)  Supported on iPhones 6S or higher, with iOS 8 or higher.
-  
-> [!NOTE]
->  Tablets are not supported at this time (coming CY2017).  
-  
- [Read more details about supported clients in this blog: Dynamics 365 App for Outlook Support Matrix](https://blogs.msdn.microsoft.com/crm/2016/12/13/dynamics-365-app-for-outlook-support-matrix/)  
---> 
  
 ### Supported servers  
  The [server requirements for using Office Add-ins](https://dev.office.com/docs/add-ins/overview/requirements-for-running-office-add-ins) are [!INCLUDE[pn_Exchange_Server_2013_short](../includes/pn-exchange-server-2013-short.md)], [!INCLUDE[pn_exchange_server_2016_short](../includes/pn-exchange-server-2016-short.md)], or [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)].  
