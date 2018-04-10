@@ -17,9 +17,8 @@ ms.assetid: 00f8a65f-f736-4e3d-9aea-e50de8b015b4
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Welcome to [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]!
+Welcome to Dynamics 365 for Customer Service.
 
-[//]: # (Style Guide says it's okay to use "with" when we're talking in a friendly way about what people can do with our products, so I suggest "with" instead of "by using" here.)
 Build great customer relationships by focusing on optimum customer satisfaction with the Customer Service apps. Customer Service provides many features and tools that organizations can use to manage the services they provide to customers.   
 
 Use [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)] to:
