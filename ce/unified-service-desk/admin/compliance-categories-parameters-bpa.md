@@ -1,6 +1,6 @@
 ---
-title: "Compliance categories and parameters | MicrosoftDocs"
-description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays the report."
+title: "Compliance categories and parameters (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
 ms.custom: ""
 ms.date: 04/15/2018
 ms.service: "usd"
@@ -11,13 +11,13 @@ applies_to:
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
-ms.assetid: "846EC46E-EC26-4048-9E32-2F5D39D9A95E"
+ms.assetid: 846EC46E-EC26-4048-9E32-2F5D39D9A95E
 author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
 # Compliance categories and parameters
 
-The parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
- analyzes and mitigation steps in case of warning or error is as follows.
+The following graphic shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
+ analyzes and mitigation steps in case of warning or error.
 
