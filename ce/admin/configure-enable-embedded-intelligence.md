@@ -138,7 +138,7 @@ After you accept the privacy statement for embedded intelligence, Auto capture i
 ## Preview feature: Install and configure the Sales insights add-on
 <!--remove comment tags when the predictive lead scoring is going live.-->
 
-The Sales insights add-on contains a Relationship analytics <!--and predictive lead scoring -->feature. <!--These--> This feature isn't available by default. To use this feature, you You need to install the Sales insights add-on. <br>
+The Sales insights add-on contains a Relationship analytics <!--and predictive lead scoring -->feature. <!--These--> This feature isn't available by default. To use this feature, you need to install the Sales insights add-on. <br>
 > [!NOTE]
 > To install this feature, you must be a Dynamics 365 administrator.
 
