@@ -33,7 +33,7 @@ The steps to [set up and configure Social Insights in Dynamics 365](integrate-so
 
 ### See which Facebook page a post is coming from and reply consistently
 
-Posts and comments on Facebook pages now show a reference to the Facebook page they were found on. Additionally, if you added a social profile for a Facebook page, it's selected automatically when you reply to a post or a comment on that Facebook page. 
+The post list in Social Engagement now shows on which Facebook page each post and comment was posted. Engaging on your Facebook page is now easier because the social profile matching this page will already be selected when you write a reply. 
 
 ### Instagram account rules are no longer possible
 
