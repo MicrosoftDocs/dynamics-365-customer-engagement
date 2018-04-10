@@ -1,6 +1,6 @@
 ---
-title: "Internet Explorer Settings | MicrosoftDocs"
-description: "Learn about the internet explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
+title: "Internet Explorer settings (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
 ms.custom: ""
 ms.date: 04/15/2018
 ms.service: "usd"
@@ -11,136 +11,136 @@ applies_to:
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
-ms.assetid: "104DE14D-F43E-4414-AC83-5C1157E79831"
+ms.assetid: 104DE14D-F43E-4414-AC83-5C1157E79831
 author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] Settings
+# [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings (Dynamics 365 Customer Engagement)
 
-In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
+In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
 
 ## Tab Process Growth (TabProcGrowth)
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the TabProcGrowth key in the Regedit and displays an error when the value is not set to 16.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **TabProcGrowth** registry key and displays an error message when the value isn't set to **16**.
 
-Tab Process Growth (TabProcGrowth) is the rate at which [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] creates new tab processes. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the value is 16.
+Tab Process Growth is the rate at which [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] creates new tab processes. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the value is **16**.
 
 ### Mitigation
 
-Set TabProcGrowth (Tab Process Growth) value to 16.
+Set the Tab Process Growth value to **16**:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
-2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main.**
-3. Right-click on **TabProcGrowth** and select **Modify** option.
+2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main**.
+3. Right-click **TabProcGrowth**, and then select **Modify**.
     > [!Note]
-    > If the key is not present, create the key.<br>
-        1. Right-click on the blank area and select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
-        2. Type **TabProcGrowth** as file name, and **Modify**.
+    > If the registry key isn't present, create it:<br>
+        1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
+        2. Type **TabProcGrowth** as the file name, and then select **Modify**.
 
-4. Specify **16** in the **Value data** field.
-5. Click **OK**.
+4. In the **Value data** field, enter **16**.
+5. Select **OK**.
 
 ## Tab Shutdown Delay (TabShutdownDelay)
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the TabShutdownDelay key in the Regedit and displays an error when the key is enabled (value set to zero).
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **TabShutdownDelay** registry key and displays an error message when the key is enabled (value set to **0**).
 
-TabShutdownDelay is a key which causes [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] processes to terminate on demand. Setting the value other than zero means the TabShutdownDelay is enabled. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when TabShutdownDelay is disabled (value is set to zero).
+Tab Shutdown Delay causes the [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] processes to terminate on demand. If the value isn't set to zero, Tab Shutdown Delay is enabled. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Tab Shutdown Delay is disabled (value set to **0**).
 
 ### Mitigation
 
-Set TabShutdownDelay (Tab Shutdown Delay) value to zero.
+Set the Tab Shutdown Delay value to **0**:
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
-3.  Right-click on **TabShutdownDelay** and select **Modify** option.<br>
+3.  Right-click **TabShutdownDelay**, and then select **Modify**.<br>
        > [!NOTE]
-       > If the key is not present, create the key.<br>
-            1.  Right-click on the blank area and select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
-            2.  Type **TabShutdownDelay** as file name, and **Modify**.
-4. Specify **0** in the **Value data** field.
-5. Choose **Decimal** in the **Base** group box.
-6. Click **OK**.
+       > If the registry key isn't present, create it:<br>
+            1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
+            2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
+4. In the **Value data** field, enter **0**.
+5. In the **Base** group box, select **Decimal**.
+6. Select **OK**.
 
 ## Enable Enhanced Protected Mode
+<!--Editing: Throughout this section, please check usage of "Enable Enhanced Protected Mode" and "Isolation," if that's the name of the registry key. Registry key names should be bold. -->
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Enhanced Protected Mode by checking for the **Isolation** registry key and displays an error message when the key is disabled (value set to **PMIL**).
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the Enable Enhanced Protected Mode key in the Regedit and displays an error when the key is disabled (value set to PMIL).
+Enable Enhanced Protected Mode is a security feature. When this feature is enabled, add-ons such as toolbars and extensions are loaded only if they're compatible with Enhanced Protected Mode.
 
-Enable Enhanced Protected Mode is a security feature. When this feature is enabled, add-ons such as toolbars, and extensions are loaded only if they are compatible with Enhanced Protected Mode.
-
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable Enhanced Protected Mode option is disabled (value is set to PMIL).
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable Enhanced Protected Mode is disabled (value set to **PMIL**).
 
 ### Mitigation
 
-Disable "Enable Enhanced Protected Mode" option.
+Disable Enable Enhanced Protected Mode.
 
-You can disable the option in the following ways:
+You can disable the option using the Registry Editor or Internet options.
 
-Disable through Registry (Regedit)
+To disable Enable Enhanced Protected Mode using the Registry Editor:
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
-3.  Right-click **Isolation** and select **Modify** option.
+3.  Right-click **Isolation**, and then select **Modify**.
     > [!Note]
-    > If the key is not present, create the key.<br>
-        1.  Right-click on the blank area and select **New** > **String Value**. You can a see new file.<br>
-        2.  Type **Isolation** as file name, and **Modify**.
-4.  Specify **PMEM** in the **Value data** field.
-5.  Click **OK**.
+    > If the registry key isn't present, create it:<br>
+        1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
+        2.  Type **Isolation** as the file name, and then select **Modify**.
+4.  In the **Value data** field, enter **PMEM**. 
+5.  Select **OK**.
 
-Enable through Internet Options
+To disable the option using Internet options:
 
 1.  Open **[!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)]**.
-2.  Click **Tools** > **Internet Options** > **Advanced** tab.
-3.  Clear the **Enable Enhanced Protected** Mode check box under **Security** section.
-4.  Click **Apply** and then click **OK**.
+2.  Select **Tools** > **Internet Options** > **Advanced** tab.
+3.  In the **Security** section, clear the **Enable Enhanced Protected Mode** check box.
+4.  Select **Apply**, and then select **OK**.
 
-## Enable Automatic Crash Recovery
+## Enable automatic crash recovery
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the Enable Automatic Crash Recovery key in the Regedit and displays an error when the key is enabled (value set to 0).
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable automatic crash recovery by checking for the **AutoRecover** registry key and displays an error message when the key is enabled (value set to 0).
 
 Enable automatic crash recovery is a feature that allows you to restore your previous browsing session in the event of crash.
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable automatic crash recovery option is disabled (value is set to 2).
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable automatic crash recovery is disabled (value is set to **2**).
 
 ### Mitigation
 
-Disable "Enable automatic crash recovery" option.
+Disable the Enable automatic crash recovery option.
 
-You can disable the option in the following ways:
+You can disable the option using the Registry Editor or Internet options.
 
-Disable through Registry (Regedit)
+To disable the option using the Registry Editor:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Recovery`.
-3.  Right-click on **AutoRecover** and select **Modify** option.
+3.  Right-click **AutoRecover**, and then select **Modify**.
     > [!Note]
-    > If the key is not present, create the key.<br>
-        1.  Right-click on the blank area and select **New** > **String Value**. You can a see new file.<br>
-        2.  Type **Isolation** as file name, and **Modify**.
-4.  Specify **2** in the **Value data** field.
-5.  Click **OK**.
+    > If the registry key isn't present, create it:<br>
+        1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
+        2.  Type **Isolation** as the file name, and then select **Modify**.
+4.  In the **Value data** field, enter **2**.
+5.  Select **OK**.
 
-Disable through Internet Options
+To disable the option using Internet options:
 
-1. Open **[!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)]**.
-2. Click **Tools** > **Internet Options** > **Advanced** tab.
-3. Clear the **Enable automatic crash recovery** Mode check box under **Security** section.
-4. Click **Apply** and then click **OK**.
+1. Open [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)].
+2. Select **Tools** > **Internet Options** > **Advanced** tab.
+3. In the **Security** section, clear the **Enable automatic crash recovery** check box.
+4. Select **Apply**, and then select **OK**.
 
 ## Enable Protected Mode
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the Enable Protected Mode key in the Regedit and displays an error when the key is disabled (value set to 3).
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Protected Mode by checking for the **2500** registry key and displays an error message when the key is disabled (value set to **3**).
 
-Enable Protected Mode option is a security feature where [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] provides multiple layers of defense from untrustworthy access to the [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] process. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable Protected Mode option is enabled (value is set to zero).
+Enable Protected Mode is a security feature where [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] provides multiple layers of defense from untrustworthy access to the [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] process. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable Protected Mode is enabled (value is set to **0**).
 
 ### Mitigation
 
-Enable "Enable Protected Mode" option.
+Enable the Enable Protected Mode option.
 
-You can enable the option in the following ways:
+You can enable the option using the Registry Editor or Internet options.
 
-Enable through Registry (Regedit)
+To enable the option using the Registry Editor:
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\\\<numerically named key folder>`. <br>
@@ -149,54 +149,52 @@ Numerically named folders are as follows:<br>
     - 2 (Trusted Sites zone)
     - 3 (Internet zone)
     - 4 (Restricted Sites zone)
-3.  Right-click on **2500** file and select **Modify** option.
-    > [!Note] If the key is not present, create the key.<br>
-        1. Right-click on the blank area and select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
-        2. Type **2500** as file name, and **Modify**.
-6.  Specify **0** in the **Value data** field.
-7.  Click **OK**.
+3.  Right-click the **2500** file, and then select **Modify**.
+    > [!Note] If the registry key isn't present, create it:<br>
+        1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
+        2. Type **2500** as the file name, and then select **Modify**.
+6.  In the **Value data** field, enter **0**..
+7.  Select **OK**.
 
-Enable through Internet Options
+To enable the option using Internet options:
 
 1. Open **[!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)]**.
-2. Click **Tools** > **Internet Options** > **Security** tab.
+2. Select **Tools** > **Internet Options** > **Security** tab.
 3. Select a zone to change the security settings. <br>Following are the zones:<br>
     -   Internet
     -   Local intranet
     -   Trusted sites
     -   Restricted sites
 4.  Select the **Enable Protected Mode** check box for the all the zones.
-5.  Click **Apply** and then click **OK**.
+5.  Select **Apply**, and then select **OK**.
 
 ## Cleanup HTCs
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the Cleanup HTCs key in the Regedit and displays an error when the key is disabled (value set to No).
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **Cleanup HTCs** registry key and displays an error message when the key is disabled (value set to **No**).
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Cleanup HTCs option is set to Yes.
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when the **Cleanup HTCs** option is set to **Yes**.
 
 ### Mitigation
 
-Set Cleanup HTCs option to Yes.
-
-Set cleanup HTCs through Registry (Regedit)
+Set the **Cleanup HTCs** option to **Yes**:
 
 1.  Go to **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**
-2.  Double-click to open **regedit**
+2.  Double-click to open **regedit**.
 3.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer`.
-4.  Right-click on **Cleanup HTCs** and select **Modify** option.
-5.  Specify **Yes** in the **Value data** field.
-6.  Click **OK**.
+4.  Right-click **Cleanup HTCs**, and then select **Modify**.
+5.  In the **Value data** field, select **Yes**.
+6.  Select **OK**.
 
 ## [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] version
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] version and recommends using latest version of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)].
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] version and recommends using the latest version of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)].
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best with latest version of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] 11. If you are running [!include[pn-windows-8-1](../../includes/pn-windows-8-1.md)] or [!include[pn-windows-10](../../includes/pn-windows-10.md)], you already have [!include[pn-ie-11](../../includes/pn-ie-11.md)].
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best with the latest version of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] 11. If you are running [!include[pn-windows-8-1](../../includes/pn-windows-8-1.md)] or [!include[pn-windows-10](../../includes/pn-windows-10.md)], you already have [!include[pn-ie-11](../../includes/pn-ie-11.md)].
 
 ### Mitigation
 
 Use the latest version of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)].
 
-If you are running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or lower version, visit the [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] Downloads to download [!include[pn-ie-11](../../includes/pn-ie-11.md)].
+If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or earlier, download [!include[pn-ie-11](../../includes/pn-ie-11.md)].
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads)
