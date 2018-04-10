@@ -1,6 +1,6 @@
 ---
 title: Configure interactive experience dashboards in PowerApps | Microsoft Docs
-description: Know how to configure interactive experience dashboards in PowerApps
+description: Understand how to configure interactive experience dashboards in PowerApps
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub; Customer Service Hub
 author: Mattp123
 ms.author: matp
