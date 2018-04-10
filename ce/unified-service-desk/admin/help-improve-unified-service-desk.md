@@ -31,19 +31,7 @@ Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/
   
 - Number of monitors used and screen resolution of the primary monitor.  
   
-- Device processor class and random-access memory (RAM) details.  
-  
-<!--There are two steps required to enable the send improvement information program. 
-  
-1. Set the global option. [Set global option for sending improvement program information to Microsoft](#SetGlobalUsage).>
-  
-2. After the global option is set, each service agent can enable. [Enable or disable sending improvement program information to Microsoft anonymously](#Enable_ImproveUSD)
-  
-> [!NOTE]
-> - By default, this feature is globally disabled in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and must be enabled to use it.  
-> - This feature was first introduced in [!INCLUDE[pn_unified_service_desk_2_1](../../includes/pn-unified-service-desk-2-1.md)] and is only available with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)].
-
--->
+- Device processor class and random-access memory (RAM) details.
 
 By default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
