@@ -18,7 +18,7 @@ author: "Mattp123"
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control
+# Make grids (lists) editable using the Editable Grid custom control
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
