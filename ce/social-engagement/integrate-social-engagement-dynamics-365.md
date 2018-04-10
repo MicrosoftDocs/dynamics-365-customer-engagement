@@ -100,11 +100,11 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 5. To add the control, select **Insert Social Insights** icon in the center of the section on the dashboard form, or select **More Commands** ... on the command bar and then select **Social Insights** in the dropdown list. **Set Up Social Insights** wizard appears.
 
-   ![Image alt text](media\social-insights-set-up-step1.JPEG "Image hover text")
+   ![Image alt text](media/social-insights-set-up-step1.JPEG "Image hover text")
 
 6. In the **Set Up Social Insights** wizard, select **Advanced**. The **Add Social Insights** dialog appears. Fill in the required fields and select **OK**. You can also use the default values and select **OK** or **Cancel** to close the dialog box.
 
-   ![Image alt text](media\social-insights-advanced-configuration.JPEG "Image hover text")
+   ![Image alt text](media/social-insights-advanced-configuration.JPEG "Image hover text")
 
 7. In the **Set Up Social Insights** wizard main window, select **Search topic** or **Search topic category**, and then select **Next**.
 
@@ -113,11 +113,11 @@ You can add the Social Insights controls to the existing system dashboards or to
     > [!NOTE]
     > You can create a new search topic, instead of choosing a search topic in the dropdown list. Select **Create a new search topic**, fill in the required fields and select **Next**.
 
-   ![Image alt text](media\social-insights-set-up-step2.JPEG "Image hover text")
+   ![Image alt text](media/social-insights-set-up-step2.JPEG "Image hover text")
 
 9. In the visuals drop-down list, select a graph or a chart you want. You can add as many visuals as you want and move them up and down the list using the **MOVE UP** and **MOVE DOWN** arrows. You can also delete a visual by selecting the delete icon displayed to the right of the visual. Select **Finish**.
 
-   ![Image alt text](media\social-insights-set-up-step3.PNG "Image hover text")
+   ![Image alt text](media/social-insights-set-up-step3.PNG "Image hover text")
 
 10. On the command bar, select **Save** and then select **Close**.
 
