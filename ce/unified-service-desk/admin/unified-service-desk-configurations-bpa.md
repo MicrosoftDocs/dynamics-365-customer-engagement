@@ -17,27 +17,27 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations (Dynamics 365 Customer Engagement)
+# [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations that you make in Dynamics 365.
 
-## Internal WPF hosting type
+## Internal WPF Hosting Type
  
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for internal WPF hosting type hosted controls that you configure in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and displays a warning when one or more Internal WPF hosting type hosted controls are configured.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for **Internal WPF** hosting type hosted controls that you configure in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and displays a warning when one or more Internal WPF hosting type hosted controls are configured.
 
-We recommend that you move the hosting type of all the hosted controls of component type CRM Page or Standard Web Application from Internal WPF to IE Process.
+We recommend that you move the **Hosting Type** of all the hosted controls of component type **CRM Page** or **Standard Web Application** from **Internal WPF** to **IE Process**.
 
 ### Mitigation
 
-For all the hosted controls of component type CRM Page or Standard Web Application, we recommend that you move the hosting type from Internal WPF to IE Process.
+For all the hosted controls of component type **CRM Page** or **Standard Web Application**, we recommend that you move the hosting type from **Internal WPF** to **IE Process**.
 
-1. Sign in to Dynamics 365.
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 2. Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Hosted Controls**.
 3. Select the applicable hosted controls from the list. </br>You can change the hosting type for only CRM Page and Standard Web Application hosted controls.
 4. In the **Hosting Type** list, select **IE Process**.
 5. Select **Save**.
 
-## Actions calls in the PageLoadComplete event
+## Actions Calls in PageLoadComplete Event
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks and displays a warning message when you associate any action calls with the **PageLoadComplete** event.
 <!--Editing: Above, I changed "PageLoadDocument" to "PageLoadComplete"; please correct if this is wrong. -->
@@ -54,7 +54,7 @@ Replace the **PageLoadComplete** event with a **BrowserDocumentComplete** event 
 > The **DataReady** event is available for use in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 3.0 or later.
 
-## Actions calls with events
+## Actions Calls with Events
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks and displays a warning when you associate 10 or more action calls with the events listed in the following table.
 
@@ -72,7 +72,7 @@ Replace the **PageLoadComplete** event with a **BrowserDocumentComplete** event 
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] recommends optimizing to associate 10 or fewers action calls with **DesktopReady**, **SessionNew** **SessionActivated**, **SessionDeactivated**, and **SessionClosed** events.
 
-## Number of navigation rules
+## Number of Navigation Rules
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the number of navigation rules that you configure in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and displays a warning message when the value is more than **50**.
 
@@ -92,9 +92,9 @@ To work without interruption, you can set the **ShowScriptErrors** value to **fa
 
 ### Mitigation
 
-Set `ShowScriptErrors` to **false**:
+Set **ShowScriptErrors** to **false**:
 
-1.  Sign in to Dynamics 365.
+1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3.  In the list of options, select **ShowScriptErrors**.
 4.  In the **Value** field, select **false**.
@@ -102,7 +102,7 @@ Set `ShowScriptErrors` to **false**:
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
 
-## Client caching
+## Client Caching
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the client caching option and displays a warning message when the field is blank.
 
@@ -112,11 +112,10 @@ You can use client caching to reduce the amount of bandwidth required during [!I
 
 Enable client caching:
 
-1.  Sign in to Dynamics 365.
+1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3.  To create a new option, select **New** on the command bar.
-4.  For the new option, enter **ClientCacheVersionNumber** in the **Name** box, and then enter an alphanumeric number in the **Value** box. <br/>The
-alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The alphanumeric value can be of any value but unique for each time you change.
+4.  For the new option, select **ClientCacheVersionNumber** in the **Name** box, and then type an alphanumeric number in the **Value** box. <br/>The alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. The alphanumeric value can be of any value but unique for each time you change.
 5.  Select **Save**.
 
 > [!Note] 
@@ -124,7 +123,7 @@ alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_des
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable client caching](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-client-caching-unified-service-desk)
 
-## Maximum number of sessions (maxNumberOfSessions)
+## Maximum Number of Sessions (maxNumberOfSessions)
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **maxNumberOfSessions** option and displays a warning message or an error message in accordance with the following table.
 
@@ -142,10 +141,10 @@ alphanumeric value is used as the cache key for [!INCLUDE[pn_unified_service_des
 
 Set the **maxNumberOfSesions** value to less than or equal to **3**: 
 
-1.  Sign in to Dynamics 365.
+1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3.  In the list of options, select **maxNumberOfSesions**.
-4.  In the **Value** filed, enter **3**.
+4.  In the **Value** filed, type **3**.
 5.  Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
@@ -210,7 +209,7 @@ Enable the **Activity Tracking Enabled** option:
 ## Diagnostic Tracking Enabled
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **Diagnostic Tracking Enabled** option and displays a warning message when the option is disabled.
-By using Diagnostic Tracking Enabled, you can record operational events and errors in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] log files.
+By using **Diagnostic Tracking Enabled**, you can record operational events and errors in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] log files.
 
 ### Mitigation
 
@@ -227,7 +226,7 @@ Enable the **Diagnostic Tracking Enabled** option:
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **Enable Exit Monitoring** option and displays a warning message when the option is disabled.
 
-Enable Exit Monitoring collects diagnostics logs and exit logs in the event of an exception in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
+**Enable Exit Monitoring** collects diagnostics logs and exit logs in the event of an exception in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client.
 
 ### Mitigation
 
@@ -257,7 +256,7 @@ Enable the **Enable Crash Dump Generation** option:
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [**Diagnostics**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/configure-auditing-diagnostics-unified-service-desk)  
 
-## Internet Explorer webpage recovery (IEWebPageRecovery)
+## Internet Explorer Webpage Recovery (IEWebPageRecovery)
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **IEWebPageRecovery** UII option and displays an error message when the option is set to **false**.
 
@@ -275,7 +274,7 @@ Set the `IEWebPageRecovery` option to **true**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
 
-## Process termination threshold (ProcessTerminationThreshold)
+## Process Termination Threshold (ProcessTerminationThreshold)
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for the **ProcessTerminationThreshold** UII option and displays an error message when the value is set to **0**.
 
@@ -289,7 +288,7 @@ Set the **ProcessTerminationThreshold** value between the range **0** and **3000
 1.  Sign in to Dynamics 365.
 2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3.  In the list of options, select **ProcessTerminationThreshold**.
-4.  In the **Value** field, enter a value between **0** and **30000**.
+4.  In the **Value** field, type a value between **0** and **30000**.
 5.  Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)

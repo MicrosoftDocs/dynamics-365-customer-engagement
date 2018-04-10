@@ -16,8 +16,8 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Compliance categories and parameters (Dynamics 365 Customer Engagement)
-<!--Editing: I edited the following to reflect the addition of a graphic. If it ends up being a table, please update the language here as needed. -->
+# Compliance categories and parameters
+
 The following graphic shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
  analyzes and mitigation steps in case of warning or error.
 

@@ -16,7 +16,7 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# System configurations (Dynamics 365 Customer Engagement)
+# System configurations
 
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, system configurations are categorized as the hardware and software requirements for the computer and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
@@ -32,11 +32,11 @@ In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-p
 
 Upgrade the memory (RAM) of your computer to 4 GB or more.
 
-## Available memory (RAM)
+## Available Memory (RAM)
 
-Available memory is the remaining memory (RAM) on your computer after memory consumed by the existing processes.
+**Available Memory** is the remaining memory (RAM) on your computer after memory consumed by the existing processes.
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks available memory (RAM) on your computer and displays the warning when the value is less than 1 GB. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when available memory (RAM) is 4 GB or more.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks available memory (RAM) on your computer and displays the warning when the value is less than 1 GB. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when **Available Memory (RAM)** is 4 GB or more.
 
 |              | Warning       |
 |--------------|---------------|
@@ -44,7 +44,7 @@ Available memory is the remaining memory (RAM) on your computer after memory con
 
 ### Mitigation
 
-Close other processes to help ensure that available memory (RAM) is 1 GB or more.
+Close other processes to help ensure that **Available Memory (RAM)** is 1 GB or more.
 
 ## Operating system version
 
@@ -58,7 +58,7 @@ The supported operating system version is [!include[pn-windows-10](../../include
 
 Upgrade your computer to latest operating system version.
 
-## Hard disk space
+## Hard Disk Space
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks the free hard disk space on your computer and displays a warning when the value is less than 12 GB. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when hard disk space is 12 GB or more.
 
@@ -75,7 +75,7 @@ Delete old or unnecessary files to free space for [!INCLUDE[pn_unified_service_d
 Download and upgrade to the latest version of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Download Unified Service Desk](../download-unified-service-desk.md)
 and [Upgrade the Unified Service Desk](../admin/install-upgrade-unified-service-desk-client.md)
 
-## [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] up time
+## [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Up time
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks the active operational time of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and displays a warning when [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] is active
 for more than eight hours.
@@ -89,14 +89,14 @@ To experience uninterrupted performance, we recommended that you restart [!INCLU
 ## Memory by [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] process
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for memory consumption by [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] processes and displays a warning when the value is more than 500 MB.
-<!--Editing: In the following paragraph, I spelled out IE, but it should probabaly be a token. -->
-The memory consumption of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] process increases when you host browser-hosted controls in internal WPF mode. Hosting browser-hosted controls in Internet Explorer processes significantly reduces the memory footprint of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] process.
+<!--Editing: In the following paragraph, I spelled out IE, but it should probabaly be a token.-->
+The memory consumption of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] process increases when you host browser hosted controls in **Internal WPF** mode. Hosting browser hosted controls in **IE process** significantly reduces the memory footprint of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] process.
 
-Therefore, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when you use an Internet Explorer process for hosting browser-hosted controls.
+Therefore, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when you use an **IE process** for hosting browser hosted controls.
 
 ### Mitigation
 <!--Editing: Below, if "IE" isn't used in the UI in this case, please spell it out. Also, if "Internal" isn't part of the mode name, please lowercase that. -->
-Review and move any browser-hosted controls in Internal WPF mode or Hybrid mode (IE and Internal WPF) to Internet Explorer mode.
+Review and move any browser hosted controls in **Internal WPF** mode or hybrid mode (IE process and Internal WPF) to **IE process** mode.
 
 ## [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)] KB updates
 

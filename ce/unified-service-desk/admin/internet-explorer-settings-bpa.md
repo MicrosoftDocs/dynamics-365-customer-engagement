@@ -16,7 +16,7 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings (Dynamics 365 Customer Engagement)
+# [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
 
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
 
@@ -28,7 +28,7 @@ Tab Process Growth is the rate at which [!include[pn-internet-explorer](../../in
 
 ### Mitigation
 
-Set the Tab Process Growth value to **16**:
+Set **TabProcGrowth** value to **16**:
 
 1. Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2. Go to **Computer**\\**HKEY\_CURRENT\_USER**\\**Software**\\**Microsoft**\\**Internet Explorer**\\**Main**.
@@ -38,7 +38,7 @@ Set the Tab Process Growth value to **16**:
         1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
         2. Type **TabProcGrowth** as the file name, and then select **Modify**.
 
-4. In the **Value data** field, enter **16**.
+4. In the **Value data** field, type **16**.
 5. Select **OK**.
 
 ## Tab Shutdown Delay (TabShutdownDelay)
@@ -49,7 +49,7 @@ Tab Shutdown Delay causes the [!include[pn-internet-explorer](../../includes/pn-
 
 ### Mitigation
 
-Set the Tab Shutdown Delay value to **0**:
+Set **TabShutdownDelay** value to **0**:
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
@@ -58,12 +58,12 @@ Set the Tab Shutdown Delay value to **0**:
        > If the registry key isn't present, create it:<br>
             1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
             2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
-4. In the **Value data** field, enter **0**.
+4. In the **Value data** field, type **0**.
 5. In the **Base** group box, select **Decimal**.
 6. Select **OK**.
 
 ## Enable Enhanced Protected Mode
-<!--Editing: Throughout this section, please check usage of "Enable Enhanced Protected Mode" and "Isolation," if that's the name of the registry key. Registry key names should be bold. -->
+
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Enhanced Protected Mode by checking for the **Isolation** registry key and displays an error message when the key is disabled (value set to **PMIL**).
 
 Enable Enhanced Protected Mode is a security feature. When this feature is enabled, add-ons such as toolbars and extensions are loaded only if they're compatible with Enhanced Protected Mode.
@@ -72,11 +72,11 @@ Enable Enhanced Protected Mode is a security feature. When this feature is enabl
 
 ### Mitigation
 
-Disable Enable Enhanced Protected Mode.
+Disable **Enable Enhanced Protected Mode**.
 
 You can disable the option using the Registry Editor or Internet options.
 
-To disable Enable Enhanced Protected Mode using the Registry Editor:
+To disable **Enable Enhanced Protected Mode** using the Registry Editor:
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
@@ -85,7 +85,7 @@ To disable Enable Enhanced Protected Mode using the Registry Editor:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
         2.  Type **Isolation** as the file name, and then select **Modify**.
-4.  In the **Value data** field, enter **PMEM**. 
+4.  In the **Value data** field, type **PMEM**. 
 5.  Select **OK**.
 
 To disable the option using Internet options:
@@ -95,17 +95,17 @@ To disable the option using Internet options:
 3.  In the **Security** section, clear the **Enable Enhanced Protected Mode** check box.
 4.  Select **Apply**, and then select **OK**.
 
-## Enable automatic crash recovery
+## Enable Automatic Crash Recovery
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable automatic crash recovery by checking for the **AutoRecover** registry key and displays an error message when the key is enabled (value set to 0).
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Automatic Crash Recovery by checking for the **AutoRecover** registry key and displays an error message when the key is enabled (value set to 0).
 
-Enable automatic crash recovery is a feature that allows you to restore your previous browsing session in the event of crash.
+Enable Automatic Crash Recovery is a feature that allows you to restore your previous browsing session in the event of crash.
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable automatic crash recovery is disabled (value is set to **2**).
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when Enable Automatic Crash Recovery is disabled (value is set to **2**).
 
 ### Mitigation
 
-Disable the Enable automatic crash recovery option.
+Disable the **Enable Automatic Crash Recovery** option.
 
 You can disable the option using the Registry Editor or Internet options.
 
@@ -118,7 +118,7 @@ To disable the option using the Registry Editor:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
         2.  Type **Isolation** as the file name, and then select **Modify**.
-4.  In the **Value data** field, enter **2**.
+4.  In the **Value data** field, type **2**.
 5.  Select **OK**.
 
 To disable the option using Internet options:
@@ -136,7 +136,7 @@ Enable Protected Mode is a security feature where [!include[pn-internet-explorer
 
 ### Mitigation
 
-Enable the Enable Protected Mode option.
+Enable the **Enable Protected Mode** option.
 
 You can enable the option using the Registry Editor or Internet options.
 
@@ -153,7 +153,7 @@ Numerically named folders are as follows:<br>
     > [!Note] If the registry key isn't present, create it:<br>
         1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
         2. Type **2500** as the file name, and then select **Modify**.
-6.  In the **Value data** field, enter **0**..
+6.  In the **Value data** field, type **0**..
 7.  Select **OK**.
 
 To enable the option using Internet options:

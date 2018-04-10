@@ -16,7 +16,7 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Work with [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] (Dynamics 365 Customer Engagement)
+# Work with [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is a hosted control that helps you analyze the various parameters of your local computer (system configurations and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]), [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in Dynamics
 365, and Internet Explorer settings in your local computer. After the analysis, [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays a report that recommends mitigation steps in case of a warning or error.
@@ -31,8 +31,7 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 
 2.  On the toolbar, select the **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** button.
 
-3.  To see the report, select **Start Analysis** in the leftmost pane.
-<!--Editing: Please check the changes in the following sentence for technical accuracy. -->
+3.  To see the report, select **Start Analysis** in the leftmost pane.<br>
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the report—it can help you determine your next steps.
 
 > [!Note]
@@ -65,8 +64,7 @@ You must expand a parameter to see the details, which illustrate the following:
 
 ## Locate Best Practices Analyzer report
 
-The Best Practices Analyzer reports that you generate are maintained at the following location on the client computer:
+The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] reports that you generate are maintained at the following location on the client computer:
 
-`C:\Users\\\<User>\AppData\Roaming\Microsoft\Microsoft
-Dynamics® 365 Unified Service Desk\\\<Version>\BPA\BPALogs\`
+`C:\Users\\\<User>\AppData\Roaming\Microsoft\Microsoft Dynamics® 365 Unified Service Desk\\\<Version>\BPA\BPALogs\`
 
