@@ -1,5 +1,6 @@
 ---
 title: "What's new with Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Updates to Dynamics 365 App for Outlook."
 ms.custom: ""
 ms.date: 04/09/2018
 ms.reviewer: ""
