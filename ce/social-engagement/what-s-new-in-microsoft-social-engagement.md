@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 03/07/2018
+ms.date: 04/10/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,23 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
+
+### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
+
+The integration of Social Insights in Dynamics 365 entities and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the user interface of Social Engagement and inherit several settings from Social Engagement. Due to this change, the former **Analytics Summary** widget isn't supported anymore. You can replace it with any of the other widgets at your convenience. 
+The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
+
+### See which Facebook page a post is coming from and reply consistently
+
+Posts and comments on Facebook pages now show a reference to the Facebook page they were found on. Additionally, if you added a social profile for a Facebook page, it's selected automatically when you reply to a post or a comment on that Facebook page. 
+
+### Instagram account rules are no longer possible
+
+Due to changes on the Instagram API, we are experiencing a downgrade on data acquisition for Instagram in Social Engagement. We are currently receiving lower volumes of Instagram posts for hashtag search rules, and no comments to Instagram posts at all. Additionally, we are not receiving posts or comments for Instagram account search rules. At this time, the search rules only return partial author information.
+
+Existing search rules for Instagram accounts don't return results anymore. Keyword search rules with Instagram hashtags continue to work as expected.
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.3
 
