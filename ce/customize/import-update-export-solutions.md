@@ -1,7 +1,8 @@
 ---
-title: "Import, update, and export solutions (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Import, update, and export solutions | MicrosoftDocs"
+description: "Learn how to import, update, and export a solution"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 04/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,15 +11,16 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 56363ea3-ea76-4311-9b7a-b71675e446fb
 caps.latest.revision: 57
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Import, update, and export solutions 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
  You can import solutions manually using the steps below. Only import solutions that you've obtained from a trusted source. Customizations might include code that can send data to external sources. You can import the default solution only to the organization from which you exported it, but not into a different organization.  
   
@@ -109,34 +111,34 @@ manager: "brycho"
 |Group|Setting|Description|  
 |-----------|-------------|-----------------|  
 |Auto-numbering|Campaign Prefix|Prefix used for campaign numbering.|  
-|Case Prefix|Prefix to use for all cases throughout [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].|  
-|Contract Prefix|Prefix to use for all contracts throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
-|Invoice Prefix|Prefix to use for all invoice numbers throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
-|Article Prefix|Prefix to use for all articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
-|Order Prefix|Prefix to use for all orders throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
+|Case Prefix|Prefix to use for all cases throughout the app.|  
+|Contract Prefix|Prefix to use for all contracts throughout the app.|  
+|Invoice Prefix|Prefix to use for all invoice numbers throughout the app.|  
+|Article Prefix|Prefix to use for all articles in the app.|  
+|Order Prefix|Prefix to use for all orders throughout the app.|  
 |Unique String Length|Number of characters appended to invoice, quote, and order numbers.|  
 |Calendar|Calendar Type|Calendar type for the system. Set to Gregorian US by default|  
 |Date Format Code|Information about how the date is displayed throughout Dynamics 365.|  
-|Date Separator|Character used to separate the month, the day, and the year in dates throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
+|Date Separator|Character used to separate the month, the day, and the year in dates throughout the app.|  
 |Max Appointment Duration|Maximum number of days an appointment can last.|  
-|Show Week Number|Information that specifies whether to display the week number in calendar displays throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
-|Time Format Code|Information that specifies how the time is displayed throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
-|Week Start Day Code|Designated first day of the week throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
+|Show Week Number|Information that specifies whether to display the week number in calendar displays throughout the app.|  
+|Time Format Code|Information that specifies how the time is displayed throughout the app.|  
+|Week Start Day Code|Designated first day of the week throughout the app.|  
 |Customization|Is Application Mode Enabled|Indicates whether loading of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] in a browser window that does not have address, tool, and menu bars is enabled.|  
 |Email-tracking|Allow Unresolved Address Email Send|Indicates whether users are allowed to send email to unresolved parties (parties must still have an email address).|  
-|Ignore Internal Email|Indicates whether incoming email sent by internal [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users or queues should be tracked.|  
+|Ignore Internal Email|Indicates whether incoming email sent by app users or queues should be tracked.|  
 |Max Tracking Number|Maximum tracking number before recycling takes place.|  
 |Render Secure Frame For Email|Flag to render the body of email in the webform in an IFRAME with the security='restricted' attribute set. This is additional security but can cause a credentials prompt.|  
 |Tracking Prefix|History list of tracking token prefixes.|  
 |Tracking Token Base|Base number used to provide separate tracking token identifiers to users belonging to different deployments.|  
 |Tracking Token Digits|Number of digits used to represent a tracking token identifier.|  
 |General|Block Attachments|Prevent upload or download of certain attachment types that are considered dangerous.|  
-|Currency Format Code|Information about how currency symbols are placed throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
+|Currency Format Code|Information about how currency symbols are placed throughout the app.|  
 |Currency Symbol|Currency Symbol|  
-|Full Name Display Order|Order in which names are to be displayed throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
+|Full Name Display Order|Order in which names are to be displayed throughout the app.|  
 |Presence Enabled|Information on whether IM presence is enabled.|  
-|Negative Format|Information that specifies how negative numbers are displayed throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
-|Number Format|Specification of how numbers are displayed throughout [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|  
+|Negative Format|Information that specifies how negative numbers are displayed throughout the app.|  
+|Number Format|Specification of how numbers are displayed throughout the app.|  
 |Pricing Decimal Precision|Number of decimal places that can be used for prices.|  
 |Share To Previous Owner On Assign|Information that specifies whether to share to previous owner on assign.|  
 |Marketing|Allow Automatic Response Creation|Indicates whether automatic response creation is allowed|  
@@ -157,3 +159,6 @@ manager: "brycho"
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Service Calendar Appearance Configuration](../developer/customize-dev/service-calendar-appearance-configuration.md)|
 
   
+### See also
+
+[Distribute solutions and patches](use-segmented-solutions-patches-simplify-updates.md)

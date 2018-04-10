@@ -1,33 +1,32 @@
 ---
-title: iFrame properties for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
-description: Understand the iFrame properties for Main forms in Dynamics 365 for Customer Engagement
+title: iFrame properties for Main forms in PowerApps | MicrosoftDocs
+description: Understand the iFrame properties for Main forms 
 Keywords: Main form; iFrame properties; Dynamics 365
-author: anjgupta
+author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.author: anjgup
-manager: sakudes
-ms.date: 03/15/2018
+  - "powerapps"
+ms.author: matp
+manager: kvivek
+ms.date: 04/10/2018
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 1b7e6a0c-18a9-47e2-aa7d-0cffb8c93b19
 ---
 # iFrame properties
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-[This topic is under revision and is subject to change]
+You can add iFrames to a form to integrate content from another website within a form. 
 
-You can add iFrames to a Dynamics 365 Customer Engagement form to integrate content from another website within a form. 
-
-You can access **Form properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select IFRAME to view IFRAME properties.
+You can access **Form properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select IFRAME to view IFRAME properties.
 
 ![iframe-properties](media/iframe-properties.png)
 
 
 > [!NOTE]
-> [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] forms are not designed to be displayed within iFrames.  
+> Forms are not designed to be displayed within an iFrame.  
   
 |Tab|Property|Description|  
 |---------|--------------|-----------------|  
@@ -37,8 +36,8 @@ You can access **Form properties** by selecting **Settings** > **Customizations*
 ||**Label**|**Required**: A label to display for the iFrame.|  
 ||**Display label on the Form**|Whether the label should be displayed.|  
 ||**Restrict cross-frame scripting, where supported**|It is considered a security risk to allow pages from a different web site to interact with the Dynamics 365 application using scripts. Use this option to restrict cross frame scripting for pages you do not have control over.<br /><br />|  
-||**Visible by default**|Showing the iFrame is optional and can be controlled using scripts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visibility options](../customize/visibility-options-legacy.md)|
-||**Enable for mobile**|Click the checkbox to enable the iFrame for mobile.|  
+||**Visible by default**|Showing the iFrame is optional and can be controlled using scripts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visibility options](../customize/visibility-options-legacy.md|
+||**Enable for mobile**|Select the checkbox to enable the iFrame for mobile.|  
 |**Formatting**|**Select the number of columns the control occupies**|When the section containing the iFrame has more than one column you can set the field to occupy up to the number of columns that the section has.|  
 ||**Select the number of rows the control occupies**|You can control the height of the iFrame by specifying a number of rows the control occupies.|  
 ||**Automatically expand to use available space**|Instead of setting the height by a number of rows, you can allow the iFrame height to expand to available space.|  
