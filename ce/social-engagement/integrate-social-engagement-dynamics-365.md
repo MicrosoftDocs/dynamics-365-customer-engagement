@@ -42,7 +42,7 @@ To configure the connection, you need to have a subscription to Microsoft Social
 
 3. On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** drop-down box, choose the Microsoft Social Engagement instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
 
-![Microsoft Social Engagement Configuration view](media/social-insights-configuration-online.png "Microsoft Social Engagement Configuration view")  
+  ![Microsoft Social Engagement Configuration view](media/social-insights-configuration-online.png "Microsoft Social Engagement Configuration view")  
 
 ## Connect Dynamics 365 on-premises to Microsoft Social Engagement for Social Insights
 
@@ -60,7 +60,7 @@ To configure the connection, you need to have a subscription to Microsoft Social
 
 3. Follow the directions on the **Microsoft Social Engagement Configuration** page.
 
-![Microsoft Social Engagement Configuration view](media/social-insights-configuration-on-premises.png "Microsoft Social Engagement Configuration view")
+  ![Microsoft Social Engagement Configuration view](media/social-insights-configuration-on-premises.png "Microsoft Social Engagement Configuration view")
   
 ## Add Social Engagement visuals to an entity form
 
@@ -118,7 +118,7 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 11. To publish the customizations, select **Publish All Customizations** on the command bar. After the customizations are published, you can see the Social Insights on your dashboard.
 
-![Social Insights example widget](media/social-insights-example-visual.PNG "Social Insights example widget")
+  ![Social Insights example widget](media/social-insights-example-visual.PNG "Social Insights example widget")
 
 ## Set up search topics from within Dynamics 365  
 
@@ -134,7 +134,7 @@ This action deletes all existing data in Dynamics 365 for the search topics, sea
 
 2. On the **Microsoft Social Engagement Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
 
-![Confirm screen to reset Social Insights](media/social-insights-confirm-reset.jpg "Confirm screen to reset Social Insights")
+  ![Confirm screen to reset Social Insights](media/social-insights-confirm-reset.jpg "Confirm screen to reset Social Insights")
 
 ## Troubleshoot sign-in problems  
 
