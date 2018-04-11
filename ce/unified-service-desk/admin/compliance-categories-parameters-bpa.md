@@ -21,7 +21,7 @@ manager: "sakudes"
 The list shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
  analyzes.
 
- ## System Configurations
+## System Configurations
 
  - Memory (RAM)
  - Available Memory (RAM)
@@ -34,7 +34,7 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
 
  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System configurations](../admin/system-configurations-bpa.md)
 
- ## Internet Explorer settings
+## Internet Explorer settings
 
  - Tab Process Growth (TabProcGrowth)
  - Tab Shutdown Delay (TabShutdownDelay)
@@ -46,7 +46,7 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
 
  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
- ## Unified Service Desk configurations
+## Unified Service Desk configurations
 
  - Internal WPF Hosting Type
  - Actions Calls in PageLoadComplete Event.
