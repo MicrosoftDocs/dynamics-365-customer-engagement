@@ -2,7 +2,7 @@
 title: "Survey analytics using Power BI | MicrosoftDocs"
 description: "Learn how to connect Voice of the Customer instance to Power BI and get insights about the surveys."
 keywords: "voice of the customer analytics, voice of the customer analytics app for power BI"
-ms.date: 04/06/2018
+ms.date: 04/11/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -22,11 +22,13 @@ The Voice of the Customer Analytics for Dynamics 365 content pack for Power BI a
 
 You can install Voice of the Customer Analytics for Dynamics 365 as an app or a content pack. If you install it as an app, you can only view data from your connected Voice of the Customer instance. The app is upgraded automatically and the data is refreshed from Dynamics 365 daily. If you install it as a content pack, it is installed in the selected workspace. You can also edit the data as per your requirement. The content pack is not upgraded automatically, and you must install the content pack again if a newer version is available. The data is refreshed from Dynamics 365 daily.
 
+Once you install Voice of the Customer Analytics for Dynamics 365 as a content pack, you can also customize it as per your requirement and publish it as an app. You can also share the app with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps)
+
 ## Install and configure Voice of the Customer Analytics for Dynamics 365
 
 You must install the Voice of the Customer Analytics for Dynamics 365 app or content pack from Microsoft AppSource.
 
-If you want to install as an app:
+To install as an app:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
 2. Select **Apps** from the left navigation pane.
@@ -36,23 +38,23 @@ If you want to install as an app:
 6. Enter the service root URL associated to your Dynamics 365 account and select oAuth2 as the authentication method, if required.
 7. Enter the credentials and select **Sign in**. After installation, the app is available under the **Apps** tab.
 
-If you want to install as a content pack:
+To install as a content pack:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
 2. Select or create the workspace in which you want to install the content pack.
 3. In the left navigation pane, select **Get Data**.
 4. Select **Service Content Packs**.
 
-![Get a content pack in Power BI](media/voc-analytics-service-content-pack.png "Get a content pack in Power BI")
+  ![Get a content pack in Power BI](media/voc-analytics-service-content-pack.png "Get a content pack in Power BI")
 
 5. In AppSource, select the **Apps** tab.
 6. Search for the Voice of the Customer Analytics for Dynamics 365 app and select **Get it now**. A wizard opens to connect to the Dynamics 365 instance.
 7. Enter the service root URL associated to your Dynamics 365 account and select oAuth2 as the authentication method, if required.
 8. Enter the credentials and select **Sign in**. After installation, the content pack is available under the selected workspace.
 
-## Uninstall Voice of the Customer Analytics for Dynamics 365
+## Delete Voice of the Customer Analytics for Dynamics 365
 
-If you have installed as an app:
+Delete an app:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
 2. Select **Apps** from the left navigation pane.
@@ -62,7 +64,7 @@ If you have installed as an app:
 
 4. Select **Delete** in the confirmation dialog box. The app and its related data are deleted.
 
-If you have installed as a content pack:
+Delete a content pack:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
 2. Select the workspace in which you have installed the content pack.
@@ -194,7 +196,7 @@ The data is displayed in the following tiles:
   - **Average NPS Score**: Displays the average NPS.
   - **NPS Trend**: Displays the trend of average NPS over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
   - **NPS Distribution**: Displays survey response distribution of the NPS. The x-axis displays the NPS and y-axis displays the count of the survey responses.
-- **Rating and CES**: Displays the average, distribution, and trend of a question of type Customer Effort Score and rating. When you select a question from the drop-down list, the following tiles are refreshed to display the corresponding data:
+- **Rating and CES**: Displays the average, distribution, and trend of questions of type Customer Effort Score and rating. When you select a question from the drop-down list, the following tiles are refreshed to display the corresponding data:
   - **Average CES**: Displays the average customer effort score or rating.
   - **CES Trend**: Displays the trend of average CES or rating over a period of time. The x-axis displays the time period and y-axis displays the average CES score.
   - **CES Distribution**: Displays survey response distribution of the CES or rating. The x-axis displays the NPS and y-axis displays the count of the survey responses.
