@@ -54,3 +54,16 @@ The matrix provides information about how you can obtain and use the [!INCLUDE[p
 |                       || [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] |
 |                       || [!INCLUDE[pn-unified-service-desk-2-2dot2](../../includes/pn-unified-service-desk-2-2dot2.md)] | 
 
+## See also
+
+[Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
+
+[Work with Best Practices Analyzer](../admin/work-best-practices-analyzer.md)
+
+[Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+
+[System configurations](../admin/system-configurations-bpa.md)
+
+[Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
+
+[Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)

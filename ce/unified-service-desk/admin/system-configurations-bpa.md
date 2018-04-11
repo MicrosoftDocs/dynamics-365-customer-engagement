@@ -108,3 +108,17 @@ Review and move any browser hosted controls in **Internal WPF** mode or hybrid m
 
 Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)] KB3092627 update on your computer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]
 [KB3092627](https://support.microsoft.com/en-us/help/3092627/september-2015-update-to-fix-windows-or-application-freezes-after-you)
+
+## See also
+
+[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+
+[Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
+
+[Work with Best Practices Analyzer](../admin/work-best-practices-analyzer.md)
+
+[Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+
+[Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
+
+[Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)

@@ -21,3 +21,16 @@ manager: "sakudes"
 The following graphic shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
  analyzes and mitigation steps in case of warning or error.
 
+## See also
+
+[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+
+[Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
+
+[Work with Best Practices Analyzer](../admin/work-best-practices-analyzer.md)
+
+[System configurations](../admin/system-configurations-bpa.md)
+
+[Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
+
+[Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)

@@ -198,3 +198,17 @@ Use the latest version of [!include[pn-internet-explorer](../../includes/pn-inte
 If you're running [!include[pn-windows-7](../../includes/pn-windows-7.md)] or earlier, download [!include[pn-ie-11](../../includes/pn-ie-11.md)].
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer Downloads](https://support.microsoft.com/en-us/help/17621/internet-explorer-downloads)
+
+## See also
+
+[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+
+[Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
+
+[Work with Best Practices Analyzer](../admin/work-best-practices-analyzer.md)
+
+[Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+
+[System configurations](../admin/system-configurations-bpa.md)
+
+[Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)

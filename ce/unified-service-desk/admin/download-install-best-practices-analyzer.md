@@ -32,3 +32,16 @@ The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](
 
 Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)], you must download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package specific to your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] Download Best Practices Analyzer
 
+## See also
+
+[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+
+[Work with Best Practices Analyzer](../admin/work-best-practices-analyzer.md)
+
+[Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+
+[System configurations](../admin/system-configurations-bpa.md)
+
+[Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
+
+[Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
