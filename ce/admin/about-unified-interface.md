@@ -1,7 +1,8 @@
 ---
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 02/20/2018
+ms.date: 04/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -132,6 +133,7 @@ The following are not currently available with Unified Interface:
 - Run report (SSRS)
 - Letter, Fax, Recurring Appointments 
 - Campaign management – campaigns, campaign activities and quick campaign
+- Goal management
 - Marketing list 
 - Position entity 
 - Global notifications
