@@ -90,14 +90,9 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 -   Social Profile  
 -   Queue Item  
 -   Knowledge Article  
--   Activities: 
-    - Email
-    - Phone Call
-    - Task
-    - Appointment
-    - Social Activity  
+-   Activities: Email, Phone Call, Task, Appointment, Social Activity  
   
-#### Enable a custom entity for the interactive experience:  
+The following procedure describes how to enable a custom entity for the interactive experience:
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -116,7 +111,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Configure fields  
  For a field to appear in the global filter and be included in the data stream sort, you have to set two flags, as shown in the example below for the **IsEscalated** field of the Case entity.  
   
- ![Enable a field for global filter and sort](../customize/media/interactive-dashboards-enable-global-filter-sort.png "Enable a field for global filter and sort")  
+ ![Enable a field for global filter and sort](../customize/media/global-filter-sort-8.png "Enable a field for global filter and sort")  
   
 ### Configure global filter fields  
  For a field to appear in the global filter, you have to set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is clicked on the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity. For more information about the filter entity see the “Configure multi-stream interactive dashboard” section later in this topic.  
@@ -128,7 +123,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 > [!NOTE]
 >  When you configure a visual filter (interactive chart) based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
   
- #### To set the global filter flag  
+The following procedure provides the steps for setting the global filter flag:
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -149,7 +144,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
  ![Sort by drop&#45;down list](../customize/media/interactive-dashboard-sortable-fields-dropdown.png "Sort by drop-down list")  
   
- #### To set the sort flag  
+The following procedure provides the steps for setting the sort flag:
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -168,7 +163,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Enable security roles  
  Select and enable security roles that will be able to view the interactive dashboards.  
   
- #### To enable the security roles for the interactive experience  
+The following procedure provides the steps to enable the security roles for the interactive experience:
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -220,7 +215,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
       
  After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply click on the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
   
- The following shows adding the **Cases By Priority** doughnut chart.  
+ Add the **Cases By Priority** doughnut chart.
   
  ![Add a doughnut chart component.](../customize/media/interactive-dashboards-add-chart-circle.png "Add a doughnut chart component.")  
   
@@ -251,7 +246,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
  After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect. Also, make sure to click **Prepare Client Customizations**.  
   
 #### Edit or delete individual streams of an existing dashboard  
- In previous releases, if you wanted to change one of the streams of an existing dashboard, you had to delete all the streams from the dashboard, and add the ones you wanted. With CRM Online Update 1, you can edit individual streams of an existing dashboard.  
+In previous releases, if you wanted to change one of the streams of an existing dashboard, you had to delete all the streams from the dashboard, and add the ones you wanted. With Microsoft Dynamics CRM 2016 Service Pack 1 and Microsoft Dynamics CRM Online 2016 Update 1, you can now edit individual streams of an existing dashboard. 
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
