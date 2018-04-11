@@ -89,9 +89,8 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
       - **Source Record Type**. Required. Select the record type to use as the source of the rollup data for the metric.
       
         > [!NOTE]
-
+        
         > A custom record type (entity) that is organization-owned isn't available in the **Source Record Type** drop-down list for     selection. For more information about entity ownership, see [Types of entities](../customize/types-of-entities.md).
-
 
       - **Source Record Type State**. Required. Select the record state you want to use as the source of the rollup data for the metric.
 
