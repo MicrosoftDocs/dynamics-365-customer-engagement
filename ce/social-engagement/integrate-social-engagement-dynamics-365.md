@@ -2,7 +2,7 @@
 title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: ""
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -18,15 +18,15 @@ topic-status: Drafting
 
 In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)], you can get powerful social insights by connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The easy-to-understand widgets provide insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
 
-With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to Microsoft Social Engagement and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy to follow information.
+With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to Microsoft Social Engagement and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy-to-follow information.
 
-The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards provide convenient access to social data right where you work. At any time, you can click on any widget to be taken into [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [drill-down and explore the data further](analyze-social-data-using-widgets.md).
+The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards provide convenient access to social data right where you work. At any time, you can click on any widget to be taken into [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [drill down and explore the data further](analyze-social-data-using-widgets.md).
 
 <a name="add-social-engagement-visuals-to-dynamics-365"></a>
 
 ## Connect Dynamics 365 (online) to Microsoft Social Engagement for Social Insights
 
-To configure the connection, you need to have a subscription to Microsoft Social Engagement, be an authorized Microsoft Social Engagement user and have a Microsoft Social Engagement instance provisioned for this Dynamics 365 instance.
+To configure the connection, you need to have a subscription to Microsoft Social Engagement, be an authorized Microsoft Social Engagement user, and have a Microsoft Social Engagement instance provisioned for this Dynamics 365 instance.
 
 ### Prerequisites
 
@@ -40,7 +40,7 @@ To configure the connection, you need to have a subscription to Microsoft Social
 
 2. Select **Continue** to accept the legal disclaimer.
 
-3. On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** dropdown box, choose the Microsoft Social Engagement instance to which you want to connect. Select the **Select** button next to the dropdown box. The **Select** button becomes grayed out to indicate that the selection is confirmed.
+3. On the **Microsoft Social Engagement Configuration** page, in the **Select the Microsoft Social Engagement solution to connect to** drop-down box, choose the Microsoft Social Engagement instance to which you want to connect. Select the **Select** button next to the drop-down box. The **Select** button becomes dim to indicate that the selection is confirmed.
 
 ![Microsoft Social Engagement Configuration view](media/social-insights-configuration-online.png "Microsoft Social Engagement Configuration view")  
 
@@ -93,20 +93,20 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 4. On the dashboard form, enter the name of the dashboard in the **Name** text box and select **Save**.
 
-5. To add the control, select **Insert Social Insights** icon in the center of the section on the dashboard form, or select **More Commands** ... on the command bar and then select **Social Insights** in the dropdown list. **Set Up Social Insights** wizard appears.
+5. To add the control, select **Insert Social Insights** icon in the center of the section on the dashboard form, or select **More Commands** ... on the command bar and then select **Social Insights** in the drop-down list. The **Set Up Social Insights** wizard appears.
 
    ![Configure Social Insights step 1](media/social-insights-set-up-step1.jpg "Configure Social Insights step 1")
 
 6. In the **Set Up Social Insights** wizard, select **Advanced**. The **Add Social Insights** dialog appears. Fill in the required fields and select **OK**. You can also use the default values and select **OK** or **Cancel** to close the dialog box.
 
-   ![Advanced configuraiton for Social Insights](media/social-insights-advanced-configuration.jpg "Advanced configuraiton for Social Insights")
+   ![Advanced configuration for Social Insights](media/social-insights-advanced-configuration.jpg "Advanced configuration for Social Insights")
 
 7. In the **Set Up Social Insights** wizard main window, select **Search topic** or **Search topic category**, and then select **Next**.
 
-8. To pick the search topic or the search topic category, in the dropdown list, select the topic or the category, depending on what you chose in the previous step and then select **Next**.
+8. To pick the search topic or the search topic category, in the drop-down list, select the topic or the category, depending on what you chose in the previous step and then select **Next**.
 
     > [!NOTE]
-    > You can create a new search topic, instead of choosing a search topic in the dropdown list. Select **Create a new search topic**, fill in the required fields and select **Next**.
+    > You can create a new search topic, instead of choosing a search topic in the drop-down list. Select **Create a new search topic**, fill in the required fields, and select **Next**.
 
    ![Configure Social Insights step 2](media/social-insights-set-up-step2.jpg "Configure Social Insights step 2")
 
@@ -116,7 +116,7 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 10. On the command bar, select **Save** and then select **Close**.
 
-11. To publish the customizations, select **Publish All Customizations** on the command bar. After the customizations are published, you can see the social insights on your dashboard.
+11. To publish the customizations, select **Publish All Customizations** on the command bar. After the customizations are published, you can see the Social Insights on your dashboard.
 
 ![Social Insights example widget](media/social-insights-example-visual.PNG "Social Insights example widget")
 
@@ -132,7 +132,7 @@ This action deletes all existing data in Dynamics 365 for the search topics, sea
 
 1. Select **Settings** > **Administration** > **Microsoft Social Engagement Configuration**.
 
-2. On the **Microsoft Social Engagement Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears, select **Confirm**, if you want to proceed, otherwise select **Cancel**.
+2. On the **Microsoft Social Engagement Configuration** page, select **Reset Social Insights**. The **Reset Social Insights Confirmation** message box appears. Select **Confirm**, if you want to proceed, otherwise select **Cancel**.
 
 ![Confirm screen to reset Social Insights](media/social-insights-confirm-reset.jpg "Confirm screen to reset Social Insights")
 
