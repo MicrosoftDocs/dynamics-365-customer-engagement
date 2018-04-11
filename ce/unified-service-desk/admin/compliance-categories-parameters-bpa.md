@@ -18,8 +18,54 @@ manager: "sakudes"
 ---
 # Compliance categories and parameters
 
-The following graphic shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
- analyzes and mitigation steps in case of warning or error.
+The list shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
+ analyzes.
+
+ ## System Configurations
+
+ - Memory (RAM)
+ - Available Memory (RAM)
+ - Operating system version
+ - Hard Dis Space
+ - Unified Service Desk version
+ - Unified Service Desk Up time
+ - Memory by Unified Service Desk process
+ - Windows KB updates
+
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System configurations](../admin/system-configurations-bpa.md)
+
+ ## Internet Explorer settings
+
+ - Tab Process Growth (TabProcGrowth)
+ - Tab Shutdown Delay (TabShutdownDelay)
+ - Enable Enhanced Protected Mode
+ - Enable Automatic Crash Recovery
+ - Enable Protected Mode
+ - Cleanup HTCs
+ - Internet Explorer version
+
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
+
+ ## Unified Service Desk configurations
+
+ - Internal WPF Hosting Type
+ - Actions Calls in PageLoadComplete Event.
+ - Actions Calls with Events
+ - Actions Calls with Events
+ - Number of Navigation Rules
+ - Show Script Errors (ShowScriptErrors)
+ - Client Caching
+ - Maximum Number of Sessions (maxNumberOfSessions)
+ - Help Improve Unified Service Desk (HelpImproveUSD)
+ - Internet Explorer Pooling (InternetExplorerPooling)
+ - Activity Tracking Enabled
+ - Diagnostic Tracking Enabled
+ - Enable Exit Monitoring
+ - Enable Crash Dump Generation
+ - Internet Explorer Webpage Recovery (IEWebPageRecovery)
+ - Process Termination Threshold (ProcessTerminationThreshold)
+ 
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
 
 ## See also
 
@@ -28,9 +74,3 @@ The following graphic shows the parameters under each category that [!INCLUDE[pn
 [Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
 
 [Work with Best Practices Analyzer](../admin/work-best-practices-analyzer.md)
-
-[System configurations](../admin/system-configurations-bpa.md)
-
-[Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
-
-[Unified Service Desk configurations](../admin/unified-service-desk-configurations-bpa.md)
