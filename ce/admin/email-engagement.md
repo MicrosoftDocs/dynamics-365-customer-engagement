@@ -52,7 +52,7 @@ The administrator must enable email engagement before you can try it out. Email 
   
   
   
-## How email open, click, and attachment following work  
+## Get interaction history for email  
  Usually when you send an email, you'll never know if it was opened or read unless the recipient chooses to write back to you. That's because the email system was created to simulate traditional mail, and was  not designed with response tracking in mind. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] uses special techniques to work around this limitation and provide the following message-following features:  
   
 - **Find out when your message was opened**: When you send a followed email message from [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], the system automatically generates  a uniquely named, transparent, one-pixel GIF and adds it as a linked image to the message. This invisible GIF, and all the other images that you add to the message, are stored on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server and are first loaded from the server when somebody opens the message (and chooses to download its images).  When a unique GIF is requested,[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] registers that the associated message was opened, and notes the device type. We recommend that you always include other images in your message because that will help motivate recipients to download the images (you won't know they open it if images aren't loaded).  
@@ -70,7 +70,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
   
 <a name="CreateAndSend"></a>   
 
-## Create and send a followed email message in Dynamics 365  
+## Create and send followed email message  
   
 > [!NOTE]
 >  This section describes how to work with email engagement features in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web interface. These features are also available for the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. The features and technologies for sending tracked email messages, links, and attachments, as described in this topic, work similarly in both interfaces, but the controls are slightly different.  If you are using [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], then see also: [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md).  
@@ -253,6 +253,7 @@ You can use this feature both with followed and unfollowed messages.
   
 <a name="FollowUpAlert"></a>   
 ### Set a message follow-up reminder  
+
  Do you want to be reminded to follow up on an important email for some reason? Then set a follow-up reminder.  
   
 1.  Create a new message as described previously in [Create a new message](#NewMessage).  
@@ -332,8 +333,9 @@ You can use this feature both with followed and unfollowed messages.
   
  ![Email template list](../admin/media/email-template-list.png "Email template list")  
   
-<a name="SetTrackingScopeOnContacts"></a>   
-## Set following to Do Not Allow to respect individuals' privacy and preferences  
+   
+## Set individuals' privacy and preferences  
+
  Some types of customers have special privacy or security concerns and may therefore request that you don't use any email following features when you communicate with them. You can easily disable these features for specific customers by setting email following options for their contact, lead, or account record. Email following is enabled by default for all records, so you must explicitly disable it when needed.  
   
  To enable or disable following for any contact, account or lead:  

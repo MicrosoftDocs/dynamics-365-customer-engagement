@@ -42,7 +42,7 @@ The following Customer Service Hub entities have the **Main** forms created out-
 - Knowledge Articles  
   
 > [!NOTE]
->  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive dashboards](../customize/configure-interactive-dashboards.md)
+>  Apart from these entities, you can also create or customize interactive dashboards. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure interactive dashboards](configure-interactive-dashboards-customer-service-hub.md)
   
 You can see the forms for each entity in their list of forms given in the solution explorer in the **Customization** area. The default form type for the Unified interface based Customer Service Hub is **Case for Interactive experience - Main**. For more information on the types of forms available, see [Types of forms](#types-of-forms).
 
