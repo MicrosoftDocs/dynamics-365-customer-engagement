@@ -14,11 +14,11 @@ manager: sakudes
 topic-status: Ready to Publish
 ---
 
-Social Engagement 2018 Update 1.3 Readme
+Social Engagement 2018 Update 1.4 Readme
 ========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2018 Update 1.3. It was published in March 2018.
+Social Engagement 2018 Update 1.4. It was published in April 2018.
 
 Resources
 ---------
@@ -211,21 +211,6 @@ Twitter are not acquired in Social Engagement. This can happen when a message
 was written in a non-supported language of Social Engagement or if the language
 was not detected at all.
 
-### Facebook comments cannot be shared through “Post link” action
-
-Due to a feature in the Facebook API, Social Engagement users can’t share the
-URL of a Facebook comment to Facebook. We stop showing Facebook social profiles
-when the **Post link** action is triggered on a post of the type **Facebook
-comment**.
-
-### Opening a post with the URL from Copy internal URL command
-
-When you use the URL from the **Copy internal URL** command to access a post in
-Social Engagement, filters for this specific document will not be removed by any
-action in Analytics. To remove this filter, reload the analytics. You can do
-this either through the navigation menu or by using your browser’s refresh
-functionality.
-
 **Several titles and tooltips are not localized**
 
 Currently several user interface (UI) strings and tooltips are not localized in
@@ -261,3 +246,7 @@ pages you don't own. You can still get author information for posts on Facebook
 pages you own by adding them as social profiles. [Learn more about unknown
 Facebook
 authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/facebook-pages-data-acquisition)
+
+**Facebook pages can’t be authenticated in Social Engagement**
+
+Authenticating and re-authenticating Facebook pages as social profiles in Social Engagement might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
