@@ -28,7 +28,6 @@ An opportunity is a lead who is now almost ready to buy&mdash;in other words, a 
   
  At this point in the sales process, you're most likely in either the **Develop** or **Propose** stage. [!include[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md) 
   
-<a name="bkmk1"></a>   
 ## Create an opportunity (Sales Hub)
 
 [//]: # (Adding italic in the introduction is suggested because you're defining--or at least, linking to a definition--of these terms. Using lowercase "or" between the alternative steps is something I've recently discovered in the Writing Style Guide. The "site map" wording is edited to be consistent with the content I've seen and I've edited myself, but I will explicitly verify this with Renee.)
@@ -95,10 +94,8 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 The next step is to create a quote and send it to your customer. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a quote and send it to your customer](../sales-enterprise/create-edit-quote-sales.md)
 
-<a name="bkmk2"></a>   
 ## Add products to an opportunity (Sales Hub)
 
-[//]: # (In step 6, substep 1, I'm not sure how to describe interacting with this control. The Writing Style Guide says to use "switch" in place of "toggle", but "switch the field" didn't seem right. I'll check this with Renee.)
 1. In the list of opportunities, open the opportunity to which you want to add products.
 
 2. Go to the **Product Line Items** tab.
@@ -125,7 +122,6 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 
 7. Select **Save**.
 
-<a name="bkmk3"></a>   
 ## Recalculate an opportunity (Sales Hub)
 
 To change the estimated revenue of an opportunity based on any changes you've made to the associated products or product quantities, recalculate the opportunity.
@@ -140,8 +136,6 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 
 5.	On the command bar, select **Recalculate Opportunity**.
 
-
-<a name="bkmk4"></a>   
 ## Create an opportunity  (Sales app)
  If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
 
@@ -171,8 +165,6 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 11. Select **Save** in the lower-right corner of the screen. 
   
-  
-<a name="bkmk5"></a>   
 ## Additional considerations  
   
 -   A way that might help you increase your sales is to add all products that your customer might need. You can add product bundles or product families to make it easier for you to choose products for upsell and cross-sell.  
@@ -181,7 +173,6 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 -   Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md) (applies to the Sales app only)
   
-<a name="bkmk6"></a>   
 ## Tips and tricks  
  Need a faster way to enter opportunities? Try one of these:  
   
@@ -189,7 +180,6 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
-<a name="bkmk7"></a>   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
   
