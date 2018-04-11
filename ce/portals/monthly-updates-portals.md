@@ -2,7 +2,7 @@
 title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: ""
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -19,6 +19,14 @@ topic-status: Drafting
 # What’s new in portal capabilities for Dynamics 365
 
 Welcome to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Here's a list of features we added recently. For more information about portal capability updates for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, see [portal capabilities for Microsoft Dynamics 365 Releases](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases).
+
+## Portals capabilities for version 8.4.1.80 for Dynamics 365
+
+Portals capabilities for version 8.4.1.80 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] brings in bunch of bug fixes, as well as performance improvements, along with the following features:
+
+- **Search within attachment content of knowledge articles and web files**: Attachment content of knowledge articles and web files are now searchable to increase the likelihood of relevant search results. More information: [Search within file attachment content](search-file-attachment.md)
+- **Accessibility**: The out-of-the-box portals (Community portal, Partner portal, Customer portal, Employee self-service portal) are now accessible. However, customizer should ensure that the portal remains accessible after any customization or changes.
+
 
 ## Portal capabilities version 8.4.0.275 for Dynamics 365
 

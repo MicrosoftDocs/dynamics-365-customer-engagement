@@ -2,7 +2,7 @@
 title: "Search within file attachment content in Dynamics 365 portals  | MicrosoftDocs"
 description: "Learn how to configure your portal to search within file attachment content in Microsoft Dynamics 365 portals."
 keywords: "search within attachment,search in file attachment"
-ms.date: 04/05/2018
+ms.date: 04/11/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -18,19 +18,18 @@ topic-status: Drafting
 
 # Search within file attachment content
 
-You can use the Dynamics 365 notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
+You can use the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] notes attachment to include downloadable files in knowledge base articles. You can also use web files to create an FAQ page with downloadable content.
 
 You can configure your portal to allow portal users to search within the attachment content (knowledge base articles and web files). This helps users to find the information that they're looking for.
 
 In knowledge base articles, any notes attachment with the defined prefix are indexed. In web files, the latest notes attachment are indexed.
 
-<!--Editing: In the following sentence and in the table, please check the capitalization of "true" and "false" in the UI and make sure the capitalization matches here. -->
 To index the attachments, you must create the following site settings and set their value to **True**:
 
 |Site setting|Description|
 |------------|-----------|
 |Search/IndexNotesAttachments|Indicates whether the content of notes attachments in  knowledge base articles and web files should be indexed. By default, it is set to **False**.|
-|KnowledgeManagement/DisplayNotes|Indicates whether to index attachments of knowledge base articles.|
+|KnowledgeManagement/DisplayNotes|Indicates whether to index attachments of knowledge base articles. By default, it is set to **False**.|
 |||
 
 When you search for a term, the search results also include attachments. If the search term matches a notes attachment, the link to the corresponding knowledge base article is also provided. To see downloadable attachments, select **Downloads** under **Record Type** in the left pane. To modify the **Downloads** label, edit the Search/Facet/Downloads content snippet. By default, the value is set to **Downloads**.
@@ -38,10 +37,12 @@ When you search for a term, the search results also include attachments. If the 
 ![Download attachment](media/search-attachment-content.png "Download attachment") 
 
 > [!NOTE]
-> - To use this functionality, you must [enable relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-relevance-search-organization) in Dynamics 365. More information: [Relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/relevance-search-results)
-> - For the search to function within attachments, the Dynamics 365 version must be 9.0.1.x or later.
+> - To use this functionality, you must [enable relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/configure-relevance-search-organization) in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. More information: [Relevance search](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/relevance-search-results)
+> - For the search to function within attachments, the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] version must be 9.0.1.x or later.
  
-To configure your portal to search within file attachment content, you must use the following settings.
+## Update portal configurations
+
+If you already have a portal before April 2018 and you have upgraded your portal to the latest version, you must use the following configurations to have the same user experience as a new portal installation.
 
 **Content Snippets**
 
@@ -118,7 +119,6 @@ You must add `\_logicalname:annotation~0.9^0.25` value to the Search/Query site 
 
 To configure the facets to group annotations associated with knowledge base articles and web files in a single facet, edit the Search/RecordTypeFacetsEntities site setting name and append `;Downloads:annotation,adx_webfile` to its value.
 
-<!--Editing: Like earlier, please check the capitalization of "True" in the following two paragraphs against the UI. -->
 To allow attachments associated with knowledge articles to appear in the portal and search results, edit the KnowledgeManagement/DisplayNotes site setting and set its value to **True**. The site setting KnowledgeManagement/NotesFilter contains a prefix value that must be prefixed to the note text field on notes; only notes with the specified prefix value will appear on the portal. By default, the value is \*WEB\*, but you can change it through the site setting.
 
 To enable the indexing of file attachments associated with notes, create the Search/IndexNotesAttachments site setting and set its value to **True**.
