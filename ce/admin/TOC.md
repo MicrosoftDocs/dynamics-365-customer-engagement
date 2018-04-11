@@ -3,6 +3,7 @@
 # [Getting started with your subscription](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 (online)](try-dynamics-365-online.md)
+## [About Unified Interface](about-unified-interface.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
