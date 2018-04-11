@@ -28,7 +28,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
 
-The integration of Social Insights in Dynamics 365 entities and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the user interface of Social Engagement and inherit several settings from Social Engagement. Due to this change, the former **Analytics Summary** widget isn't supported anymore. You can replace it with any of the other widgets at your convenience. 
+The integration of Social Insights in Dynamics 365 forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of Social Engagement and inherit several settings from Social Engagement. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
 The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
 
 ### See which Facebook page a post is coming from and reply consistently
