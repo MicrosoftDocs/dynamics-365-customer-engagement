@@ -243,7 +243,7 @@ To change the fields that appear, follow these steps:
    |![Drag fields in form](media/drag-fields-in-form.png "Drag fields in form")     |         | ![After dragging fields](media/after-dragging-fields.png "After dragging fields")        |
 
    > [!NOTE]
-   > The first four fields appear in the track regarding card.
+   > The first three fields appear in the track regarding card.
 5. Choose **Save**, **Publish**, and then close the form editor.
 6. On the solution page, choose **Components** > **Prepare Client Customizations**. 
 
