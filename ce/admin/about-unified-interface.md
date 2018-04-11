@@ -28,7 +28,7 @@ The new Unified Interface brings all the rich experiences to any client that you
 > - Interactive dashboards across all devices to view your information and drill into it. 
 > - Reference Panel is now available to be used with all entities supported in Unified Interface. 
 > - We now support right-to-left (RTL) languages.
-> - All experiences on Unified Interface are completely accessible. 
+> - All experiences on Unified Interface have accessibility improvements. 
 
 ## Capabilities available in Unified Interface with Dynamics 365, version 9.0 
 
