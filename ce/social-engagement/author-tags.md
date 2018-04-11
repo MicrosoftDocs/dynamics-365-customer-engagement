@@ -2,7 +2,7 @@
 title: "Author tags in Social Engagement | Microsoft Docs"
 description: "Add, change, and remove author tags from authors in Social Engagement"
 keywords: "author tags, tags"
-ms.date: 04/10/2018
+ms.date: 04/11/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -47,11 +47,11 @@ If a tag is no longer accurate, you can remove it from the author.
 
 ## Change author tags
 
-To edit the author tags that were assigned to an author, you can either [add](#add-or-create-author-tags) more author tags (up to 20 per author), or [remove](#remove-author-tags) those which don’t match anymore. 
+To edit the author tags that were assigned to an author, you can either [add](#add-or-create-author-tags) more author tags (up to 20 per author), or [remove](#remove-author-tags) those that don’t match anymore. 
 
 ## Export author tags data
 
-If you want to extract the author tags that were added to a specific author, you can copy the labels of the tags and paste it into a document.
+If you want to extract the author tags that were added to a specific author, you can copy the labels of the tags and paste them into a document.
 
 ### See also
 
