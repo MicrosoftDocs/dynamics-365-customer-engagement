@@ -1,12 +1,12 @@
 ---
-title: Configure interactive experience dashboards in PowerApps | Microsoft Docs
-description: Understand how to configure interactive experience dashboards in PowerApps
-keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub; Customer Service Hub
+title: Configure interactive experience dashboards in Microsoft Dynamics 365 | Microsoft Docs
+description: Know how to configure interactive experience dashboards in Microsoft Dynamics 365
+keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.custom: ""
-ms.date: 04/03/2018
+ms.date: 04/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -21,29 +21,22 @@ ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 
 # Configure interactive experience dashboards
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+Interactive experience dashboards can be a one-stop workplace for app users, such as service reps, to see workload information and take action. They're fully configurable, security-role based, and deliver workload information across multiple streams in real time. Interactive dashboard users don't need to page through the application looking for a particular record; they can act on a it directly from the dashboard. 
 
-The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer Service hub provides a modern, intuitive, and interactive experience for managing your customer service operations. This was formerly called Interactive Service hub. This hub is loaded with capabilities, interactive dashboards, and redesigned forms that pull together key information, so customer service representatives can focus on what’s important to them and get things done faster. For service reps, the interactive experience dashboards are a one-stop workplace to see their workload information and take actions. The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams in real time. Customer service reps will no longer need to page through the application looking for particular cases; they’ll be able to act on a case right from the dashboard. While end users will access these dashboards using the Customer Servie hub or Interactive Service hub URL, as an administrator or customizer, you’ll do all of your configuration work in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application user interface. You won’t have to write code.  
-  
-> [!IMPORTANT]
->  This feature was introduced in [!INCLUDE[pn_crm_online_2016_update.md](../includes/pn-crm-online-2016-update.md)].  
-  
-<a name="BKMK_DashboardsOverview"></a>   
-## Interactive experience dashboards overview  
  The interactive experience dashboards come in two forms: multi-stream and single-stream. In addition, multi-stream dashboards can be home page or entity-specific dashboards. The entity-specific dashboards are configured in a different part of the user interface and partially preloaded with the entity-specific configuration information.  
   
- The multi-stream dashboards display data in real time over multiple data streams. There’s no limit on how many streams you can configure on the dashboard. The data in a stream can be based only on one entity, but, each stream can be based on a different entity. In the entity-specific dashboards, all streams are based on the same entity. The data flows from various views or queues, such as **My Activities**, **My Cases**, or **Cases in the Banking Queue**. The multi-stream home page dashboards typically target Tier 1 customer support, where service representatives handle many support cases at the same time. However, entity-specific dashboards can be also suitable for Tier 2 support that focuses on more complex cases. In the multi-stream dashboard, you can easily switch from a standard view to the tile view. The interactive tiles are an aggregated view of the data across the views or queues. For example, you can configure a tile based on the **My Active Cases** view that currently contains ten active cases. The tile will display the number 10. A service representative can click a tile to drill down to see the actual records and navigate to a specific case.  
+ The multi-stream dashboards display data in real time over multiple data streams. There’s no limit on how many streams you can configure on the dashboard. The data in a stream can be based only on one entity, but, each stream can be based on a different entity. In the entity-specific dashboards, all streams are based on the same entity. The data flows from various views or queues, such as **My Activities**, **My Cases**, or **Cases in the Banking Queue**. 
   
  The single-stream dashboards display real-time data over one stream based on an entity view or queue. The tiles are positioned on the right side of the dashboards and are always shown. The single-stream dashboards are typically helpful to Tier 2 service leads or managers, who monitor fewer, but more complex or escalated cases.  
   
- Multi-stream and single-stream dashboards contain interactive charts that provide a count of relevant records, such as cases by priority or by status. These charts also act as visual filters. The visual filters (interactive charts) are based on multiple entities and in the single-stream dashboards, the entity in the data stream defines the visual filter entity. If you click the **High Priority Cases** circle in the **Cases by Priority** chart, the dashboard will refresh, to show you only high priority cases. With charts and tiles the service reps will be able to see the changes and patterns in data, and act quickly to address the issues that interest them most.  
+ Multi-stream and single-stream dashboards contain interactive charts that provide a count of relevant records, such as cases by priority or by status. These charts also act as visual filters. The visual filters (interactive charts) are based on multiple entities and in the single-stream dashboards, the entity in the data stream defines the visual filter entity.   
   
- Service reps can apply additional filtering with global filter and timeframe filter. The global filter works at a field level on all charts, and also on streams and tiles that are based on the filter entity (you specify the filter entity when you configure the visual filters). For example, the reps can apply a global filter to show them only escalated cases and the cases that are marked “Request”. The timeframe filter will allow service reps to display cases in a specified period of time. Filtering helps to remove the clutter on the screen and show only the work items that the user wants to focus on. However, if the service rep wants to see the entire unfiltered workload, they can easily clear a particular filter or all filters. You can configure specific colors in some charts and streams for the option set fields (not all charts can be shown in color). For example, you can show high priority cases in red and low priority cases in yellow. The reps will be able to sort the data in the streams based on different criteria tied to a particular entity field, such as the priority, status, or the date the record was created or modified. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure dashboard colors](#configure-dashboard-colors)
+ Users can apply additional filtering with global filter and timeframe filter. The global filter works at a field level on all charts, and also on streams and tiles that are based on the filter entity (you specify the filter entity when you configure the visual filters). 
   
 > [!NOTE]
 >  The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues have to be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
   
- The illustrations in this topic show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
+ The illustrations in this topic show multi-stream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and select-able icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
   
 ### Multi-stream dashboard standard view  
  In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them.  
@@ -82,7 +75,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Enable entities  
  You can create interactive dashboards for entities that are enabled for the interactive experience. You can also enable custom entities and custom activities for the interactive dashboards.  
   
- Out of the box, the following system entities are enabled for interactive dashboards:  
+ By default, the following system entities are enabled for interactive dashboards:  
   
 -   Case
 -   Contact
@@ -90,33 +83,26 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 -   Social Profile  
 -   Queue Item  
 -   Knowledge Article  
--   Activities: 
-    - Email
-    - Phone Call
-    - Task
-    - Appointment
-    - Social Activity  
+-   Activities: Email, Phone Call, Task, Appointment, Social Activity  
   
-#### Enable a custom entity for the interactive experience:  
+The following procedure describes how to enable a custom entity for the interactive experience:
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open solution explorer. 
   
-2.  Click **Customize the System**.  
+2. Under **Components**, expand **Entities**, and then expand the entity you want to enable.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want to enable.  
+3.  On the **General** tab, select the **Enable for interactive experience** check box. Select **Save and Close**.  
   
-4.  On the **General** tab, select the **Enable for interactive experience** check box. Click **Save and Close**.  
+4.  Select **Publish** for your changes to take effect.  
   
-5.  Click **Publish** for your changes to take effect.  
-  
-6.  Click **Prepare Client Customizations**.  
+5.  Click **Prepare Client Customizations**.  
   
  ![Enable entity for interactive dashboards.](../customize/media/interactive-dashboards-enable-entity-new.png "Enable entity for interactive dashboards.")  
   
 ### Configure fields  
  For a field to appear in the global filter and be included in the data stream sort, you have to set two flags, as shown in the example below for the **IsEscalated** field of the Case entity.  
   
- ![Enable a field for global filter and sort](../customize/media/interactive-dashboards-enable-global-filter-sort.png "Enable a field for global filter and sort")  
+ ![Enable a field for global filter and sort](../customize/media/global-filter-sort-8.png "Enable a field for global filter and sort")  
   
 ### Configure global filter fields  
  For a field to appear in the global filter, you have to set the **Appears in global filter in interactive experience** flag for this field. The fields that you configure will appear in the global filter flyout window when the global filter icon is clicked on the dashboard header. In the flyout window, the service reps can select the fields on which they want to filter globally, in charts, and also in streams and tiles that are based on the filter entity. For more information about the filter entity see the “Configure multi-stream interactive dashboard” section later in this topic.  
@@ -128,7 +114,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 > [!NOTE]
 >  When you configure a visual filter (interactive chart) based on the fields like priority or status, a best practice is to also enable these fields (priority, status) to appear in the global filter.  
   
- #### To set the global filter flag  
+The following procedure provides the steps for setting the global filter flag:
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -149,7 +135,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
   
  ![Sort by drop&#45;down list](../customize/media/interactive-dashboard-sortable-fields-dropdown.png "Sort by drop-down list")  
   
- #### To set the sort flag  
+The following procedure provides the steps for setting the sort flag:
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -168,7 +154,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
 ### Enable security roles  
  Select and enable security roles that will be able to view the interactive dashboards.  
   
- #### To enable the security roles for the interactive experience  
+The following procedure provides the steps to enable the security roles for the interactive experience:
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
@@ -220,7 +206,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
       
  After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply click on the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
   
- The following shows adding the **Cases By Priority** doughnut chart.  
+ Add the **Cases By Priority** doughnut chart.
   
  ![Add a doughnut chart component.](../customize/media/interactive-dashboards-add-chart-circle.png "Add a doughnut chart component.")  
   
@@ -251,7 +237,7 @@ The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer 
  After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect. Also, make sure to click **Prepare Client Customizations**.  
   
 #### Edit or delete individual streams of an existing dashboard  
- In previous releases, if you wanted to change one of the streams of an existing dashboard, you had to delete all the streams from the dashboard, and add the ones you wanted. With CRM Online Update 1, you can edit individual streams of an existing dashboard.  
+In previous releases, if you wanted to change one of the streams of an existing dashboard, you had to delete all the streams from the dashboard, and add the ones you wanted. With Microsoft Dynamics CRM 2016 Service Pack 1 and Microsoft Dynamics CRM Online 2016 Update 1, you can now edit individual streams of an existing dashboard. 
   
 1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
   
