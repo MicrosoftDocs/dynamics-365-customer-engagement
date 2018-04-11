@@ -1,7 +1,8 @@
 ---
 title: "About Unified Interface Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "Introducing the new Unified Interface."
 ms.custom: ""
-ms.date: 02/20/2018
+ms.date: 04/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -28,7 +29,7 @@ The new Unified Interface brings all the rich experiences to any client that you
 > - Interactive dashboards across all devices to view your information and drill into it. 
 > - Reference Panel is now available to be used with all entities supported in Unified Interface. 
 > - We now support right-to-left (RTL) languages.
-> - All experiences on Unified Interface are completely accessible. 
+> - All experiences on Unified Interface have accessibility improvements. 
 
 ## Capabilities available in Unified Interface with Dynamics 365, version 9.0 
 
@@ -132,6 +133,7 @@ The following are not currently available with Unified Interface:
 - Run report (SSRS)
 - Letter, Fax, Recurring Appointments 
 - Campaign management – campaigns, campaign activities and quick campaign
+- Goal management
 - Marketing list 
 - Position entity 
 - Global notifications
