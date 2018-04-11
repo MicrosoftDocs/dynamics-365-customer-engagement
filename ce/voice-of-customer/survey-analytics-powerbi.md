@@ -20,24 +20,58 @@ topic-status: Drafting
 
 The Voice of the Customer Analytics for Dynamics 365 content pack for Power BI allows you to connect to your Voice of the Customer for Dynamics 365 instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics, such as average NPS, average CSAT score, and response ratio and get visibility into the surveys. The dashboard and reports allow you to explore and analyze the survey data as you need.
 
-## Install and configure content pack for Voice of the Customer
+You can install Voice of the Customer Analytics for Dynamics 365 as an app or a content pack. If you install it as an app, you can only view data from your connected Voice of the Customer instance. The app is upgraded automatically and the data is refreshed from Dynamics 365 daily. If you install it as a content pack, it is installed in the selected workspace. You can also edit the data as per your requirement. The content pack is not upgraded automatically, and you must install the content pack again if a newer version is available. The data is refreshed from Dynamics 365 daily.
 
-You must install the Voice of the Customer for Dynamics 365 app from Microsoft AppSource.
+## Install and configure Voice of the Customer Analytics for Dynamics 365
+
+You must install the Voice of the Customer Analytics for Dynamics 365 app or content pack from Microsoft AppSource.
+
+If you want to install as an app:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
 2. Select **Apps** from the left navigation pane.
 3. Select **Get apps**. 
 4. In AppSource, select the **Apps** tab.
 5. Search for the Voice of the Customer Analytics for Dynamics 365 app and select **Get it now**. A wizard opens to connect to the Dynamics 365 instance.
-6. Enter the service URL associated to your Dynamics 365 account and select oAuth2 as the authentication method.
-7. Enter the credentials and select **Sign in**.
+6. Enter the service root URL associated to your Dynamics 365 account and select oAuth2 as the authentication method, if required.
+7. Enter the credentials and select **Sign in**. After installation, the app is available under the **Apps** tab.
 
-## Uninstall content pack for Voice of the Customer
+If you want to install as a content pack:
+
+1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+2. Select or create the workspace in which you want to install the content pack.
+3. In the left navigation pane, select **Get Data**.
+4. Select **Service Content Packs**.
+
+![Get a content pack in Power BI](media/voc-analytics-service-content-pack.png "Get a content pack in Power BI")
+
+5. In AppSource, select the **Apps** tab.
+6. Search for the Voice of the Customer Analytics for Dynamics 365 app and select **Get it now**. A wizard opens to connect to the Dynamics 365 instance.
+7. Enter the service root URL associated to your Dynamics 365 account and select oAuth2 as the authentication method, if required.
+8. Enter the credentials and select **Sign in**. After installation, the content pack is available under the selected workspace.
+
+## Uninstall Voice of the Customer Analytics for Dynamics 365
+
+If you have installed as an app:
 
 1. Sign in to [Power BI](https://powerbi.microsoft.com/).
 2. Select **Apps** from the left navigation pane.
 3. Point to the app and select **Delete**.
+
+  ![Delete an app in Power BI](media/voc-analytics-app-delete.png "Delete an app in Power BI")
+
 4. Select **Delete** in the confirmation dialog box. The app and its related data are deleted.
+
+If you have installed as a content pack:
+
+1. Sign in to [Power BI](https://powerbi.microsoft.com/).
+2. Select the workspace in which you have installed the content pack.
+3. Select **Delete** under **Actions**.
+
+  ![Delete a content pack in Power BI](media/voc-analytics-content-pack-delete.png "Delete a content pack in Power BI")
+
+4. Select **Delete** in the confirmation dialog box. The content pack and its related data are deleted.
+
 
 ## Dashboard
 
