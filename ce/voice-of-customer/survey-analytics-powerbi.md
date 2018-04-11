@@ -41,7 +41,7 @@ You must install the Voice of the Customer for Dynamics 365 app from Microsoft A
 
 ## Dashboard
 
-Dashboard is an intuitive user interface that graphically represents the survey insights. It consists of various tiles that provides an overview of the metrics, such as average NPS, average CSAT score, and response ratio and get visibility into the surveys. This allows you to explore and analyze the survey data as needed. When you click a tile on the dashboard, the corresponding report opens for further analysis.
+Dashboard is an intuitive user interface that graphically represents the survey insights. It consists of various tiles that provides an overview of the metrics, such as average NPS, average CSAT score, and response ratio and get visibility into the surveys. This allows you to explore and analyze the survey data as needed. When you click a tile on the dashboard, the corresponding report page opens for further analysis.
 
 More information: [Dashboards in Power BI service](https://docs.microsoft.com/en-us/power-bi/service-dashboards)
 
@@ -53,18 +53,18 @@ To open dashboard:
 
 The dashboard contains the following tiles:
 
-- **Total Surveys**: Displays the total number of surveys created. When you click this tile, the **Surveys** page in the report is opened.
-- **Survey Invites Sent**: Displays the total number of survey invites sent. When you click this tile, the **Survey Responses** page in the report is opened.
-- **Non-anonymous Responses**: Displays the number of non-anonymous survey responses received. When you click this tile, the **Survey Responses** page in the report is opened.
-- **Anonymous Responses**: Displays the number of anonymous survey responses received. When you click this tile, the **Survey Responses** page in the report is opened.
-- **Average CSAT**: Displays the average CSAT score. When you click this tile, the **Customer Satisfaction** page in the report is opened.
-- **Survey Score**: Displays the average survey score percentage. When you click this tile, the **Customer Satisfaction** page in the report is opened.
-- **Average NPS**: Displays the average NPS score. When you click this tile, the **Customer Satisfaction** page in the report is opened.
-- **NPS Type**: Displays the survey distribution of promotor, passive, and detractor NPS types. If you select a pie, data in other NPS tiles are refreshed accordingly. When you click this tile, the **Customer Satisfaction** page in the report is opened.
-- **CSAT Trend**: Displays the trend of average CSAT score over a period of time. The x-axis displays the time period and y-axis displays the average CSAT score. When you click this tile, the **Customer Satisfaction** page in the report is opened.
-- **NPS Trend**: Displays the trend of average Net Promoter Scores over a period of time. The x-axis displays the time period and y-axis displays the average NPS. When you click this tile, the **Customer Satisfaction** page in the report is opened.
-- **Survey Invite Trend**: Displays the number of survey invites sent over a period of time. The x-axis displays the time period and y-axis displays the count of survey invites sent. To view details, point to a data point on the line graph. When you click this tile, the **Survey Responses** page in the report is opened.
-- **Response Time (from Invite Sent to Response Submitted)**: Displays the turnaround time for survey responses in 50th, 95th, and 99th percentile. The x-axis displays the survey name and y-axis displays the percentile. The unit is in seconds. When you click this tile, the **Survey Responses** page in the report is opened.
+- **Total Surveys**: Displays the total number of surveys created.
+- **Survey Invites Sent**: Displays the total number of survey invites sent.
+- **Non-anonymous Responses**: Displays the number of non-anonymous survey responses received.
+- **Anonymous Responses**: Displays the number of anonymous survey responses received.
+- **Average CSAT**: Displays the average CSAT score.
+- **Survey Score**: Displays the average survey score percentage.
+- **Average NPS**: Displays the average NPS score.
+- **NPS Type**: Displays the survey distribution of promotor, passive, and detractor NPS types.
+- **CSAT Trend**: Displays the trend of average CSAT score over a period of time. The x-axis displays the time period and y-axis displays the average CSAT score.
+- **NPS Trend**: Displays the trend of average Net Promoter Scores over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
+- **Survey Invite Trend**: Displays the number of survey invites sent over a period of time. The x-axis displays the time period and y-axis displays the count of survey invites sent. To view details, point to a data point on the line graph.
+- **Response Time (from Invite Sent to Response Submitted)**: Displays the turnaround time for survey responses in 50th, 95th, and 99th percentile. The x-axis displays the survey name and y-axis displays the percentile. The unit is in seconds.
 
 ![Voice of the Customer Analytics for Dynamics 365 dashboard](media/voc-analytics-dashboard.png "Voice of the Customer Analytics for Dynamics 365 dashboard") 
 
@@ -84,13 +84,13 @@ More information: [Reports in Power BI](https://docs.microsoft.com/en-us/power-b
 The Survey Responses page in the report displays insights of the survey responses received. The data on the page is displayed in tiles. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
-- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the survey response.
+- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.
 
 The data is displayed in the following tiles:
 
 - **Survey Invites Sent**: Displays the total number of survey invites sent.
 - **Non-anonymous Responses**: Displays the number of non-anonymous survey responses received.
-- **Response Ratio**: Displays the ratio of the survey responses received and the survey invites sent. It is calculated as follows:
+- **Response Ratio**: Displays the ratio of the non-anonymous survey responses received and the survey invites sent. It is calculated as follows:
 
   `(Number of survey invites with a survey response) / (Total number of survey invites created)`
   
@@ -107,12 +107,12 @@ The data is displayed in the following tiles:
 The Survey page in the report displays insights of the surveys created in Dynamics 365. The data on the page is displayed in tiles. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
-- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the survey response.
+- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.
 
 The data is displayed in the following tiles:
 
 - **Total Surveys**: Displays the total number of surveys created.
-- **Survey State**: Displays the distribution of surveys states: draft, published, inactive, stopped, and closed.
+- **Survey State**: Displays the distribution of surveys states: draft, published, inactive, stopped, and completed.
 - **Survey Efficacy by Questions and Page Count**: Displays page count, question count, and response ratio. It displays the variation of response ratio depending on page and question count.
 - **Question Types**: Displays the distribution of the number of times a question type has been used in a survey. The x-axis displays the question types and y-axis displays the number of times a question type has been used.
 
@@ -123,7 +123,7 @@ The data is displayed in the following tiles:
 The Customer Satisfaction page in the report displays insights based on the NPS and CSAT scores received. The data on the page is displayed in tiles. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
-- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the survey response.
+- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.
 
 The data is displayed in the following tiles:
 
@@ -134,9 +134,9 @@ The data is displayed in the following tiles:
 - **Survey Score Trend**: Displays the trend of average survey score over a period of time. The x-axis displays the time period and y-axis displays the average score.
 - **CSAT Trend**: Displays the trend of average CSAT score over a period of time. The x-axis displays the time period and y-axis displays the average CSAT score.
 - **CSAT Score Distribution**: Displays the survey response distribution of the CSAT scores. The x-axis displays the CSAT score and y-axis displays the count of the survey responses.
-- **NPS Type**: Displays the survey distribution of promotor, passive, and detractor NPS types. If you select a pie, data in other NPS tiles are refreshed accordingly.
-- **NPS Trend**: Displays the trend of average Net Promoter Scores over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
-- **NPS Score Distribution**: Displays the survey response distribution of the Net Promoter Scores. The x-axis displays the NPS score and y-axis displays the count of the survey responses.
+- **NPS Type**: Displays the survey distribution of promotor, passive, and detractor NPS types.
+- **NPS Trend**: Displays the trend of average NPS over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
+- **NPS Score Distribution**: Displays the survey response distribution of the NPS. The x-axis displays the NPS score and y-axis displays the count of the survey responses.
 
 ![Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-customer-satisfaction.png "Customer Satisfaction report in Voice of the Customer Analytics for Dynamics 365")
 
@@ -145,7 +145,7 @@ The data is displayed in the following tiles:
 The Question Responses page in the report displays insights of the questions (other than the grid questions) created in a survey. The data on the page is grouped in tiles based on the question type. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
-- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the survey response.
+- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.
 
 The data is displayed in the following tiles:
 
@@ -158,12 +158,12 @@ The data is displayed in the following tiles:
   - **CSAT Distribution**: Displays survey response distribution of the CSAT score. The x-axis displays the CSAT score and y-axis displays the count of the survey responses.
 - **NPS**: Displays the average, distribution, and trend of an NPS question. When you select a question from the drop-down list, the following tiles are refreshed to display the corresponding data:
   - **Average NPS Score**: Displays the average NPS.
-  - **NPS Trend**: Displays the trend of average Net Promoter Scores over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
-  - **NPS Distribution**: Displays survey response distribution of the Net Promoter Scores. The x-axis displays the NPS and y-axis displays the count of the survey responses.
+  - **NPS Trend**: Displays the trend of average NPS over a period of time. The x-axis displays the time period and y-axis displays the average NPS.
+  - **NPS Distribution**: Displays survey response distribution of the NPS. The x-axis displays the NPS and y-axis displays the count of the survey responses.
 - **Rating and CES**: Displays the average, distribution, and trend of a question of type Customer Effort Score and rating. When you select a question from the drop-down list, the following tiles are refreshed to display the corresponding data:
-  - **Average CES**: Displays the average customer effort score.
-  - **CES Trend**: Displays the trend of average CES score over a period of time. The x-axis displays the time period and y-axis displays the average CES score.
-  - **CES Distribution**: Displays survey response distribution of the CES score. The x-axis displays the NPS and y-axis displays the count of the survey responses.
+  - **Average CES**: Displays the average customer effort score or rating.
+  - **CES Trend**: Displays the trend of average CES or rating over a period of time. The x-axis displays the time period and y-axis displays the average CES score.
+  - **CES Distribution**: Displays survey response distribution of the CES or rating. The x-axis displays the NPS and y-axis displays the count of the survey responses.
 
 ![Question Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-question-responses.png "Question Responses report in Voice of the Customer Analytics for Dynamics 365")
 
@@ -172,17 +172,17 @@ The data is displayed in the following tiles:
 The Grid Question Responses page in the report displays insights of the grid questions created in a survey. The data on the page is displayed in tiles. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
-- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the survey response.
+- **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.
 
 The data is displayed in the following tiles:
 
-- **Fixed Sum Question**: Displays the distribution of the average sum of each response in the question of type fixed sum. Select a question from the drop-down list to view its details. The x-axis displays the questions and the y-axis displays the average.
+- **Fixed Sum Question**: Displays the distribution of the average of each response in the question of type fixed sum. Select a question from the drop-down list to view its details. The x-axis displays the questions and the y-axis displays the average.
 - **Ranking**: Displays the distribution of the average rank of each response in the question of type ranking. Select a question from the drop-down list to view its details. The x-axis displays the answer options and the y-axis displays the average.
-- **Single Rating in Columns**: Displays the distribution of the responses in a question of type single rating in columns. Select a question from the drop-down list to view its details. You can also drill-down the pie chart to view more information.
-- **Multiple Ratings in Columns**: Displays the distribution of the responses in a question of type multiple ratings in columns. Select a question from the drop-down list to view its details. You can also drill-down the pie chart to view more information.
+- **Single Rating in Columns**: Displays the distribution of the responses in a question of type single rating in columns. Select a question from the drop-down list to view its details. By default, it displays the count distribution of the sub-questions. You can also drill-down the pie chart to view more information. When you drill down on a particular sub-question, it will show the distribution of responses for the selected sub-question.
+- **Multiple Ratings in Columns**: Displays the distribution of the responses in a question of type multiple ratings in columns. Select a question from the drop-down list to view its details. By default, it displays the count distribution of the sub-questions. You can also drill-down the pie chart to view more information. When you drill down on a particular sub-question, it will show the distribution of responses for the selected sub-question.
 - **Numeric Questions**: Displays the average and distribution of a question of type numerical response. When you select a question from the drop-down list, the following tiles are refreshed to display the corresponding data:
   - **Average Numeric Response**: Displays the average numeric response.
   - **Numeric Response Distribution**: Displays the distribution of the score.
-- **List of Ratings**: Displays the distribution of the responses in a question of type list of ratings. Select a question from the drop-down list to view its details. You can also drill-down the pie chart to view more information.
+- **List of Ratings**: Displays the distribution of the responses in a question of type list of ratings. Select a question from the drop-down list to view its details. The bar graph displays the average of sub-questions.
 
 ![Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365](media/voc-analytics-grid-question-responses.png "Grid Question Responses report in Voice of the Customer Analytics for Dynamics 365")
