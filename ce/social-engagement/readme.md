@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2018 Update 1.3 Readme"
+title: "Social Engagement 2018 Update 1.4 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 03/28/2018
+ms.date: 04/11/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -37,7 +37,7 @@ tablets, the following restrictions apply:
 
 -   Links contained in the social posts cannot be opened. As a workaround, use
     the **Copy to clipboard** action to copy the link to the post. Then paste
-    the link in any Internet browser on your device to view the original post
+    the link into any Internet browser on your device to view the original post
     from which the links can be opened.
 
 -   Copyright and Translation Guide links in the page footer cannot be opened.
@@ -64,7 +64,7 @@ This is no longer supported.
 ### Blog content delivered in some cases in JSON format
 
 For some blogs coming through WordPress, the format of the text is not delivered
-in the usual format, but instead in JSON format which diminishes the readability
+in the usual format, but instead in JSON format, which diminishes the readability
 of the content considerably.
 
 ### A YouTube author name might be replaced with a YouTube channel name
@@ -183,7 +183,7 @@ labels for Greek.
 
 When you use the Microsoft Edge browser with Dynamics NAV, there's an unsolved
 issue with the Microsoft Social Engagement widget. When looking for a
-non-existing ID, the widget will stop loading. As a work around, we suggest that
+non-existing ID, the widget will stop loading. As a workaround, we suggest that
 you reload the page and make sure you have a valid Search topic ID. To do that,
 look for the Search topic in the Microsoft Social Engagement Analytics page's
 URL.
@@ -194,7 +194,7 @@ In some cases, the notification in Analytics that tells Social Engagement users
 that they do not have a valid token for Facebook Pages acquisition is wrongly
 displayed.
 
-If you see this message, we recommend you go to Social Profiles and check if
+If you see this message, we recommend you go to Social Profiles and check whether
 your acquisition tokens are valid. If they are valid, you can ignore the
 Analytics notification.
 
@@ -211,14 +211,14 @@ Twitter are not acquired in Social Engagement. This can happen when a message
 was written in a non-supported language of Social Engagement or if the language
 was not detected at all.
 
-**Several titles and tooltips are not localized**
+### Several titles and tooltips are not localized
 
 Currently several user interface (UI) strings and tooltips are not localized in
 Social Engagement–supported languages, due to recent and ongoing work regarding
 accessibility. The non-localized UI strings and tooltips will be localized with
 the next release of Social Engagement.
 
-**Quota notification in Search Setup can be hidden and is hard to show again**
+### Quota notification in Search Setup can be hidden and is hard to show again
 
 When you go to the **Search Setup** area, you might see the quota warning
 notification that your solution might be or is already above quota. You can hide
@@ -226,20 +226,20 @@ this notification by selecting the **Close** (X) button in the upper right
 corner. Once it’s closed, you can only get it back by refreshing your browser’s
 session with Social Engagement.
 
-**Social Engagement stops responding after you select the Include button**
+### Social Engagement stops responding after you select the Include button
 
 In Microsoft Edge or Internet Explorer, if you select too many authors and then
 select **Include**, the Authors widget in Full view mode might stop responding.
 The workaround is to refresh your browser, select fewer authors, and select
 **Include** again.
 
-**No author details for authors of Twitter Retweets and Facebook Shares**
+### No author details for authors of Twitter Retweets and Facebook Shares
 
 Even though there is an author detail icon next to the name of an author whose
-post has been retweeted or shared, there is no Author detail available for such
+post has been retweeted or shared, there is no author detail available for such
 an author. The UI will show the message: “No author details are available”.
 
-**Unknown Facebook Authors**
+### Unknown Facebook Authors
 
 Due to a change in the Facebook API, author information is no longer shared from
 pages you don't own. You can still get author information for posts on Facebook
@@ -247,6 +247,6 @@ pages you own by adding them as social profiles. [Learn more about unknown
 Facebook
 authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/facebook-pages-data-acquisition)
 
-**Facebook pages can’t be authenticated in Social Engagement**
+### Facebook pages can’t be authenticated in Social Engagement
 
 Authenticating and re-authenticating Facebook pages as social profiles in Social Engagement might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
