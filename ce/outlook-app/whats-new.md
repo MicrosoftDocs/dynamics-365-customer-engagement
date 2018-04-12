@@ -23,11 +23,11 @@ manager: "brycho"
 
 ## What's new
 
-|  | |
-|---------|---------|
-|March 30, 2018     |         |
-|     |Email tracked in compose mode from Outlook Web Access displays correct status in Dynamics 365.          |
-|     |Accessibility fixes.          |
-|March 20, 2018     |        |
-|   |Fixed the issue of Track and Set Regarding commands not appearing for some users in App for Outlook.     |
-|   |Email that was followed from Outlook desktop will not have a visible pixel link.    |
+**March 30, 2018**
+
+- Email tracked in compose mode from Outlook Web Access displays correct status in Dynamics 365. 
+- Accessibility fixes.
+
+**March 20, 2018** 
+- Fixed the issue of Track and Set Regarding commands not appearing for some users in App for Outlook.
+- Email that was followed from Outlook desktop will not have a visible pixel link.  
