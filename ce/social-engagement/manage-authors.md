@@ -2,7 +2,7 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete posts and export information about authors."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 03/12/2018
+ms.date: 04/12/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -90,7 +90,7 @@ To stop processing author data, you need to [delete the author](#delete-an-autho
 
 ## Correcting author information
 
-<!--- From a GDPR request, you might be asked to update a name or remove a post that was deleted on a social network. ---> Administrators in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can't change author names.    
+Administrators in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] can't change author names.    
 However, if an author decides to change their name on a social network, this change will be reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] when their next post is acquired. 
 
 If an author decides to remove a public post on Twitter, Tumblr, or WordPress, this deletion is reflected in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and the post is removed from the user interface, too.

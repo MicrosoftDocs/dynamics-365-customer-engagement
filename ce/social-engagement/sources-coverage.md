@@ -2,7 +2,7 @@
 title: "Sources coverage in Social Engagement | Microsoft Docs"
 description: "Learn what's included in the sources available in Social Engagement."
 keywords: "sources, blogs, custom sources, Disqus, Facebook, Twitter, LinkedIn, Reddit, YouTube, forums, Instagram, news"
-ms.date: 04/10/2018
+ms.date: 04/12/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -50,8 +50,6 @@ After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account t
 
 > [!NOTE]
 > [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
-
-<!-- To add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] rule, see [Add an Instagram rule](add-rules-search-topic.md#instagram_rule). -->
 
 ## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
