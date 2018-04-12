@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: fb1a7bdd-0a49-4177-bc95-5837b8c79b60
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -42,7 +42,6 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 
 ## Create a competitor (Sales app)
-[//]: # (In step 2, I realize that you're preparing the step so it will be easier to add a reference to Dyn 365 for Outlook later, but I don't think it's good to have just one bullet when you say "do one of the following." Also, I don't know which token to suggest for "Dynamics 365 application"--I'm not sure what it's referring to.)
 
 1. [!INCLUDE[proc_sales_competitors](../includes/proc-sales-competitors.md)]  
   

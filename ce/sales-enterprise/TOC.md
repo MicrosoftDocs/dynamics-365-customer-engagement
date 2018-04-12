@@ -30,14 +30,11 @@
 ### [No longer working a lead?](../sales-enterprise/what-if-no-longer-working-lead-sales.md)
 ### [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)
 ### [Close an opportunity](../sales-enterprise/close-opportunity-won-lost-sales.md)
-<!--
-### [Work with quotes, orders, and invoices](../sales-enterprise/create-work-with-quotes-orders-invoices.md)
--->
-### [Create or edit a competitor](../sales-enterprise/create-edit-competitor-record-sales.md)
-### [Create sales literature](../sales-enterprise/create-sales-literature.md)
-### [Create or edit a goal](../sales-enterprise/create-edit-goal-sales.md)
-### [Create or edit a goal metric](../sales-enterprise/create-edit-goal-metric.md)
-### [Create or edit a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
+### [Create a competitor](../sales-enterprise/create-edit-competitor-record-sales.md)
+### [Manage sales literature](../sales-enterprise/create-sales-literature.md)
+### [Define a goal](../sales-enterprise/create-edit-goal-sales.md)
+### [Create a goal metric](../sales-enterprise/create-edit-goal-metric.md)
+### [Create a goal rollup query](../sales-enterprise/create-edit-goal-rollup-query-sales.md)
 ## [Use Sales Hub on mobile](../sales-enterprise/use-sales-hub-on-dynamics-365-mobile.md)
 ## [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)
 ### [Create a marketing list](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)  
@@ -53,7 +50,7 @@
 ### [View message interactions](../admin/email-engagement.md)
 ### [Display emails](../admin/auto-capture.md)
 ### [View customer activity history](../admin/relationship-analytics.md)
-<!--### [Preview feature: Work with predictive lead scoring](../admin/work-predictive-lead-scoring.md)-->
+
 
 
 
