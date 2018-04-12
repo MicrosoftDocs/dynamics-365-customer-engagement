@@ -1,7 +1,7 @@
 ---
-title: Search criteria in the Knowledge base | MicrosoftDocs
-description: Know how search works in the Knowledge base in Microsoft Dynamics 365
-keywords: Search the knowledge base; Dynamics 365; Full-text search; Relevance search
+title: Knowledge base search in Dynamics 365| MicrosoftDocs
+description: Know how the Knowledge base search works in Microsoft Dynamics 365
+keywords: Search the knowledge base; Dynamics 365; Full-text search; Relevance search; Categorized search; Customer Service Hub
 author: anjgupta
 applies_to:
   - "Dynamics 365 (online)"
@@ -15,31 +15,52 @@ ms.service: crm-online
 ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
 ---
 
-# Search the Knowledge base in Dynamics 365
+# Search the Knowledge base in Customer Service
 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)], [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Search the knowledge base to quickly look for related knowledge articles and utilize them with relevant records. You can perform knowledge base search using the following search mechanisms in Dynamics 365:
+Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. 
+A knowledge base is created to help the customer service reps with solutions to the most common issues, so that they can assist customers quickly.
 
-- **Quick find**: Go to **Service** > **Knowledge Articles**, and select the search box to quickly search the knowledge base. Articles with the status **Draft** or **Published** are displayed in the search results. 
+Search the knowledge base to look for related knowledge articles promptly and resolve customer issues in time. 
 
-- **Knowledge base search control**: Select a case by navigating to the case view in **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. To explore more options in the Knowledge Base search given in the Related section, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
+Refer the section below to know the various search methods available to search the knowledge base.
 
-- **Global search**: Select the search icon given on the nav bar to perform global search for knowledge base articles. Global search lets you search records using Categorized search or Relevance search.
+## Search methods
 
-- **Portals**: 
+- **Quick find** - In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
+
+   ![Quick find search](media/quick-find-search.png)
+
+
+   Articles with the status **Draft** or **Published** are displayed in the search results. 
+
+- **Knowledge base search control** - In the app, select a case by navigating to the case view in **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
+  
+  ![KB search control](media/kb-search-control.png)
+
+   To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
+
+- **Global search**: Select the search icon given on the nav bar to perform global search for knowledge base articles. Global search lets you search using **Categorized** search or **Relevance** search.
+
+  ![Global search](media/global-search.png)
+
+   To enable Relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search).
+
+> [!NOTE]
+> You can search the knowledge base using Portals also. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md) for more information.
 
 Based on the app and the version you are using, knowledge base search is available in the following combinations:
 
-|Client type  |Version  |Search mechanisms  | Search technology  |
+|App  |Version  |Search methods  | Search technology  |
 |---------|---------|---------|---------|
-|Interactive service hub (based on web client)    |     8.2    |       - Quick find <br> - KB search control <br> - Global search <br> - Portals|    Full-Text search     |
-|Customer Service app    |  9.0       |   - Quick find <br> - KB search control <br> - Global search <br> - Portals      |   Relevance search/ Full-Text search (based on what you configure)     |
+|Interactive service hub (based on web client)    |     8.2    |       - Quick find <br> - KB search control <br> - Global search |    Full-Text search     |
+|Customer Service app    |  9.0       |   - Quick find <br> - KB search control <br> - Global search     |   Relevance search/ Full-Text search (based on what you configure)     |
 |Customer Service Hub (based on Unified interface)    |       9.0  |     Quick find on Grids   |   Full-Text search      |
-|  |       |    - KB search control <br> - Global search <br> - Portals  |   Relevance search/ Full-Text search (based on what you configure)     |
+|  |       |    - KB search control <br> - Global search  |   Relevance search/ Full-Text search (based on what you configure)     |
 
-Search in the Knowledge base primarily uses either of the following search technologies: 
+The following section elaborates the search technologies: 
 
 - **Full-Text search**: Lets you run full-text queries against character-based data in SQL Server tables. Read more: 
 [Full-Text Search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search). 
@@ -47,7 +68,9 @@ Search in the Knowledge base primarily uses either of the following search techn
 - **Relevance search**:  Lets you search across multiple entities in a single list, sorted by relevance. It uses a dedicated search service external to Dynamics 365 (powered by Azure) to boost Dynamics 365 search performance. Read more: [Relevance Search](../basics/relevance-search-results.md).
 <br> <br> See [Configure Relevance Search](../admin/configure-relevance-search-organization.md) to know how to configure Relevance search to improve search results and performance.
 
+### See also
 
+[Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 
 
 
