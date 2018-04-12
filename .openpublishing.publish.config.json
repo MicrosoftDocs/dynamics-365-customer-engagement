@@ -69,6 +69,22 @@
           "ReferenceTOCUrl": "/dotnet/api/usd-3-dotnet/toc.json"
         }
       ]
+    },
+    {
+      "docset_name": "power-apps-admin",
+      "build_source_folder": "powerapps/admin",
+      "build_output_subfolder": "power-apps-admin",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
