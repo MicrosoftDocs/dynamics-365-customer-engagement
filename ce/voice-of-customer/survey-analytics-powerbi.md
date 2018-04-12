@@ -18,15 +18,15 @@ topic-status: Drafting
 
 # Survey analytics using Power BI
 
-Using the Voice of the Customer Analytics for Dynamics 365 content pack or app for Power BI, you can connect to your Voice of the Customer for Dynamics 365 instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
+Using the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] content pack or app for Power BI, you can connect to your Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance and get insights about the surveys and their responses. As a Survey Administrator or Survey Designer, you can track metrics—such as average Net Promoter Score (NPS), average customer satisfaction (CSAT) score, and response ratio—and get visibility into the surveys. You can use the dashboard and report to explore and analyze the survey data as you need.
 
 ## Install and configure Voice of the Customer Analytics for Dynamics 365
 
-You can install Voice of the Customer Analytics for Dynamics 365 as an app or a content pack. 
+You can install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as an app or a content pack. 
 
 If you install it as an app:
 - You can view data only from your connected Voice of the Customer instance. 
-- The app is automatically upgraded and the data is refreshed from Dynamics 365 periodically. 
+- The app is automatically upgraded and the data is refreshed from [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] periodically. 
 
 If you install it as a content pack:
 - It's installed in the selected workspace. 
@@ -34,7 +34,7 @@ If you install it as a content pack:
 - The content pack isn't automatically upgraded—when a newer version of the content pack is available, you must install it again. When you install the content pack again, a new instance is created in the workspace. If you have made customizations in the earlier version of the content pack, you must make those customizations again in the newer version.
 - You can configure the data refresh rate.
 
-After you install Voice of the Customer Analytics for Dynamics 365 as a content pack, you can also customize it to comply with your requirements and publish it as a content pack or an app. You can also share the customized content pack or app with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish)
+After you install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as a content pack, you can also customize it to comply with your requirements and publish it as a content pack or an app. You can also share the customized content pack or app with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish)
 
 To install as an app:
 
@@ -42,8 +42,8 @@ To install as an app:
 2. In the left navigation pane, select **Apps**.
 3. Select **Get apps**. 
 4. In AppSource, select the **Apps** tab.
-5. Search for the Voice of the Customer Analytics for Dynamics 365 app, and then select **Get it now**. A wizard opens to connect to the Dynamics 365 instance.
-6. Enter the service root URL associated to your Dynamics 365 account and select oAuth2 as the authentication method, if prompted.
+5. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
+6. Enter the service root URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select oAuth2 as the authentication method, if prompted.
 7. Enter the credentials, and then select **Sign in**. After installation, the app is available under the **Apps** tab.
 
 To install as a content pack:
@@ -56,8 +56,8 @@ To install as a content pack:
   ![Get a content pack in Power BI](media/voc-analytics-service-content-pack.png "Get a content pack in Power BI")
 
 5. In AppSource, select the **Apps** tab.
-6. Search for the Voice of the Customer Analytics for Dynamics 365 app, and then select **Get it now**. A wizard opens to connect to the Dynamics 365 instance.
-7. Enter the service root URL associated to your Dynamics 365 account and select oAuth2 as the authentication method, if prompted.
+6. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
+7. Enter the service root URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select oAuth2 as the authentication method, if prompted.
 8. Enter the credentials, and then select **Sign in**. After installation, the content pack is available under the selected workspace.
 
 ## Delete Voice of the Customer Analytics for Dynamics 365
@@ -143,7 +143,7 @@ The data is displayed in the following tiles:
 
 ### Surveys
 
-The Survey page in the report displays insights of the surveys created in Dynamics 365. The data on the page is displayed in tiles. You can filter the data by using the following filters:
+The Survey page in the report displays insights of the surveys created in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. The data on the page is displayed in tiles. You can filter the data by using the following filters:
 
 - **Select survey**: Select a survey to display data of the selected survey. By default, all surveys are selected.
 - **Date range**: Select a date range to display data in the selected date range. By default, the date range selected is from the earliest date to the latest date of the data available in the report page.
