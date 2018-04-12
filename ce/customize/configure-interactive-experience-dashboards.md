@@ -1,13 +1,7 @@
 ---
-<<<<<<< HEAD
-title: Configure interactive experience dashboards in PowerApps | Microsoft Docs
-description: Understand how to configure interactive experience dashboards in PowerApps
-keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub; Customer Service Hub
-=======
-title: Configure interactive experience dashboards in Microsoft Dynamics 365 | Microsoft Docs
-description: Know how to configure interactive experience dashboards in Microsoft Dynamics 365
+title: "Configure interactive experience dashboards in PowerApps | Microsoft Docs"
+description: "Know how to configure interactive experience dashboards in PowerApps"
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Interactive service hub
->>>>>>> 902009bf38fbd97d3fa26e6dde819b62a8369511
 author: Mattp123
 ms.author: matp
 manager: kvivek
@@ -27,20 +21,10 @@ ms.assetid: d1446a95-14bf-4b15-a905-72fce07f4c76
 
 # Configure interactive experience dashboards
 
-<<<<<<< HEAD
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-The [!INCLUDE[pn_dyn_365_service](../includes/pn-dyn-365-service.md)], Customer Service hub provides a modern, intuitive, and interactive experience for managing your customer service operations. This was formerly called Interactive Service hub. This hub is loaded with capabilities, interactive dashboards, and redesigned forms that pull together key information, so customer service representatives can focus on what’s important to them and get things done faster. For service reps, the interactive experience dashboards are a one-stop workplace to see their workload information and take actions. The dashboards are fully configurable, security-role based, and deliver workload information across multiple streams in real time. Customer service reps will no longer need to page through the application looking for particular cases; they’ll be able to act on a case right from the dashboard. While end users will access these dashboards using the Customer Servie hub or Interactive Service hub URL, as an administrator or customizer, you’ll do all of your configuration work in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application user interface. You won’t have to write code.  
-  
-> [!IMPORTANT]
->  This feature was introduced in [!INCLUDE[pn_crm_online_2016_update.md](../includes/pn-crm-online-2016-update.md)].  
-  
-<a name="BKMK_DashboardsOverview"></a>   
-## Interactive experience dashboards overview  
-=======
+
 Interactive experience dashboards can be a one-stop workplace for app users, such as service reps, to see workload information and take action. They're fully configurable, security-role based, and deliver workload information across multiple streams in real time. Interactive dashboard users don't need to page through the application looking for a particular record; they can act on a it directly from the dashboard. 
 
->>>>>>> 902009bf38fbd97d3fa26e6dde819b62a8369511
  The interactive experience dashboards come in two forms: multi-stream and single-stream. In addition, multi-stream dashboards can be home page or entity-specific dashboards. The entity-specific dashboards are configured in a different part of the user interface and partially preloaded with the entity-specific configuration information.  
   
  The multi-stream dashboards display data in real time over multiple data streams. There’s no limit on how many streams you can configure on the dashboard. The data in a stream can be based only on one entity, but, each stream can be based on a different entity. In the entity-specific dashboards, all streams are based on the same entity. The data flows from various views or queues, such as **My Activities**, **My Cases**, or **Cases in the Banking Queue**. 
