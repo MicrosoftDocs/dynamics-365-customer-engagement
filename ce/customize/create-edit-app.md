@@ -59,8 +59,7 @@ Verify the following prerequisites before you start creating an app:
         - **Unified Interface**: This is the newer responsive web browser client that has a similar interface across PC and mobile devices.  
 
         - **Web**: This is the classic [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web browser client.  
-  
-  
+    
     - **App URL Suffix**: The app URL is automatically populated based on the app name that you specify. You'll see a preview of how the complete URL looks. The app URL must be unique.  
   
          For example: https://\<org>.crm#.dynamics.com/Apps/\<App URL>
