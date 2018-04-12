@@ -18,8 +18,7 @@ ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
 # Search the Knowledge base in Dynamics 365
 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)] <br/>
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)], [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Search the knowledge base to quickly look for related knowledge articles and utilize them with relevant records. You can perform knowledge base search from the following points in Dynamics 365:
 
