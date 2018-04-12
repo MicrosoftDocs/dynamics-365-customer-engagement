@@ -110,7 +110,7 @@ In case you have requirements to create your own experience on Unified Interface
 
 ## Capabilities not yet on Unified Interface
 
-There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. We've added an option to switch to classic mode (Select (![Settings gear](../basics/media/settings-gear-icon.png "Settings gear"))), which enables easy access to missing experiences in the browser.
+There are certain experiences that are currently not available on Unified Interface. We are working to provide these in future releases. We've added an option to switch to classic mode (select ![Settings gear](../basics/media/settings-gear-icon.png "Settings gear")), which enables easy access to missing experiences in the browser.
 
 The following are not currently available with Unified Interface:
 
