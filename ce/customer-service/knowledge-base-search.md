@@ -34,7 +34,7 @@ Refer the section below to know the various search methods available to search t
    ![Quick find search](media/quick-find-search.png)
 
 
-    Articles with the status **Draft** or **Published** are displayed in the search results. 
+   Articles with the status **Draft** or **Published** are displayed in the search results. 
 
 - **Knowledge base search control** - In the app, select a case by navigating to **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
   
