@@ -2,7 +2,7 @@
 title: "Set authentication identity for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to set authentication identity for a portal."
 keywords: "portal aunthentication"
-ms.date: 03/13/2018
+ms.date: 04/12/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
