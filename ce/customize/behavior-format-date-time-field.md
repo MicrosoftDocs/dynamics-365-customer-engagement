@@ -51,7 +51,7 @@ In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], the Date and Time dat
   
  The following screenshot shows the date and time manager property.  
   
- ![Set managed property for Date&#47;Time field](../customize/media/datetime-set-managed-property.PNG "Set managed property for Date/Time field")  
+ ![Set managed property for Date/Time field](../customize/media/datetime-set-managed-property.PNG "Set managed property for Date/Time field")  
   
 <a name="DateOnly"></a>   
 ## Date Only example: birthdays and anniversaries  
