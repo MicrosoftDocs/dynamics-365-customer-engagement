@@ -2,7 +2,7 @@
 title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: ""
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -18,7 +18,7 @@ topic-status: Drafting
 
 In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)], you can get powerful social insights by connecting [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] puts social media at the fingertips of your sales teams, customer service agents, and everyone across the organization. The easy-to-understand widgets provide insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media. 
 
-With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to Microsoft Social Engagement and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy-to-follow information.
+With [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)], you bring social media data directly into [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] dashboards and entity forms. As an administrator, you configure the connection to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and add the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to the entity forms and system dashboards. You use the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls to specify what social data you want to see and in what form you want this data to be presented to you. When you set up the [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] controls, you choose a search topic or search topic category and visuals. After you choose the search topic or category, you pick the visuals. It can be a graph or chart, or some other visual representation of data. You can find a lot of interesting, useful, and easy-to-follow information.
 
 The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards provide convenient access to social data right where you work. At any time, you can click on any widget to be taken into [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] to [drill down and explore the data further](analyze-social-data-using-widgets.md).
 
@@ -26,13 +26,13 @@ The [!INCLUDE[pn_social_insights](../includes/pn-social-insights.md)] widgets in
 
 ## Connect Dynamics 365 (online) to Microsoft Social Engagement for Social Insights
 
-To configure the connection, you need to have a subscription to Microsoft Social Engagement, be an authorized Microsoft Social Engagement user, and have a Microsoft Social Engagement instance provisioned for this Dynamics 365 instance.
+To configure the connection, you need to have a subscription to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], be an authorized [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] user, and have a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] instance provisioned for this [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] instance.
 
 ### Prerequisites
 
 - You need to have a System Administrator security role or equivalent permissions in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].
 
-- You must ensure that your Dynamics 365 domain is [added to the list of allowed domains](connect-other-domains.md) in Microsoft Social Engagement. 
+- You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. 
 
 ### Connect Dynamics 365 (online) to Social Engagement
 
@@ -50,7 +50,7 @@ To configure the connection, you need to have a subscription to Microsoft Social
 
 - You need to have a System Administrator security role or equivalent permissions in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].
 
-- You must ensure that your Dynamics 365 domain is [added to the list of allowed domains](connect-other-domains.md) in Microsoft Social Engagement.
+- You must ensure that your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] domain is [added to the list of allowed domains](connect-other-domains.md) in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
 ### Connect Dynamics 365 on-premises to Social Engagement
 

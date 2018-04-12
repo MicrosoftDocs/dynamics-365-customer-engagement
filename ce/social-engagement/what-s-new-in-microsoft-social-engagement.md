@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 04/11/2018
+ms.date: 04/12/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -28,18 +28,18 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
 
-The integration of Social Insights in Dynamics 365 forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of Social Engagement and inherit several settings from Social Engagement. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
+The integration of Social Insights in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and inherit several settings from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
 The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
 
 ### See which Facebook page a post is coming from and reply consistently
 
-The post list in Social Engagement now shows on which Facebook page each post and comment was posted. Engaging on your Facebook page is now easier because the social profile matching this page will already be selected when you write a reply. 
+The post list in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now shows on which [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page each post and comment was posted. Engaging on your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page is now easier because the social profile matching this page will already be selected when you write a reply. 
 
 ### Instagram account rules are no longer possible
 
-Due to changes on the Instagram API, we are experiencing a downgrade on data acquisition for Instagram in Social Engagement. We are currently receiving lower volumes of Instagram posts for hashtag search rules, and no comments to Instagram posts at all. Additionally, we are not receiving posts or comments for Instagram account search rules. At this time, the search rules only return partial author information.
+Due to changes on the [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] API, we are experiencing a downgrade on data acquisition for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We are currently receiving lower volumes of [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] posts for hashtag search rules, and no comments to [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] posts at all. Additionally, we are not receiving posts or comments for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] account search rules. At this time, the search rules only return partial author information.
 
-Existing search rules for Instagram accounts don't return results anymore. Keyword search rules with Instagram hashtags continue to work as expected.
+Existing search rules for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] accounts don't return results anymore. Keyword search rules with [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] hashtags continue to work as expected.
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.3
 
