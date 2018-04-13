@@ -33,7 +33,7 @@ If you install it as a service content pack:
 - You can edit the data to comply with your requirements. 
 - The service content pack isn't automatically upgraded—when a newer version of the service content pack is available, you must install it again.
 
-After you install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as a service content pack, you can also customize it to comply with your requirements and publish it as a service content pack or an app. You can also share the customized service content pack or app with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish).
+After you install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as a service content pack, you can also customize it to comply with your requirements and publish it as a service content pack or an app. You can also share the customized service content pack with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish).
 
 To install as an app:
 
