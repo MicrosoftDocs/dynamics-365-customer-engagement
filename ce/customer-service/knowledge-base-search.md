@@ -63,8 +63,9 @@ With each of the above search methods, the search results might vary based on th
 | 9.0   |       Customer Service Hub (based on Unified interface)  |   - KB search control <br> - Quick find on Grids |   Full-Text search  |
 |  |       |      - Global search  |   Relevance search or Categorized search  |
 
+See the following section to learn about the search technologies.
 
-The following section elaborates the search technologies: 
+## Search technology 
 
 - **Full-Text search**: Lets you run full-text queries against character-based data in SQL Server tables. Read more: 
 [Full-Text Search](https://docs.microsoft.com/en-us/sql/relational-databases/search/full-text-search). 
