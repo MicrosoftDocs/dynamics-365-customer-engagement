@@ -61,6 +61,8 @@ A few best practices will enable you to create a meaningful survey and gather go
 
 Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] question types.
 
+**Web client**
+
 | **Question type**     | **[!INCLUDE[description](../includes/description.md)]**                                                                                                                              | **Preview**                                              |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | Short answer          | Question that has a one-line answer.                                                                                                         | ![Example of a short answer question](media/short-answer-ques.png "Example of a short answer question")   |  
@@ -87,6 +89,28 @@ The following table describes the question types to use when you need to address
 | List of ratings             | List of questions that ask a respondent to rate multiple items by using emoticons.           | ![Example of a list of ratings question](media/list-rating-ques.png "Example of a list of ratings question") |  
 | Single rating in columns    | List of questions that allow a respondent to select one answer from a column of choices.     | ![Example of a single rating in column question](media/single-rating-col-ques.png "Example of a single rating in column question") |  
 | Multiple ratings in columns | List of questions that ask a respondent to select multiple answers from a column of choices. | ![Example of a multiple ratings in column question](media/multi-rating-col-ques.png "Example of a multiple rating in column question") |  
+|||
+
+**Voice of the Customer app**
+
+| Question type       | Description       |
+|--------------------------------------|-----------------------------------------------|
+| Check box                                                                                       | Question that allows a respondent to choose multiple answers.<br>**Note**: You can change the layout of the answer options from the **Option layout** list.     |
+| CSAT                                                                                            | Question that captures the overall satisfaction of the respondent with the product or agent, on a five-point scale.                          |
+| Customer effort                                                                                 | Question that captures the satisfaction of the respondent based on the effort spent on doing business, on a five-point scale.                |
+| Date                                                                                            | Question that asks a respondent to select a date.                                                                                            |
+| Drop down                                                                                       | Question that allows a respondent to choose one answer from a drop-down list.                                                                |
+| Email                                                                                           | Question that asks a respondent to enter email address.                                                                                      |
+| Label                                                                                           | Use to describe elements on the survey page, for example labels.                                                                             |
+| Long answer                                                                                     | Question that has multiple lines in the answer, for example verbatim comments.                                                               |
+| NPS                                                                                             | Question that captures the satisfaction of the respondent based on the likelihood of their recommending the product or services to a friend. |
+| Numeric                                                                                         | Question that allows only numerical responses.                                                                                               |
+| Radio button                                                                                    | Question that allows a respondent to choose only one answer.<br>**Note**: You can change the layout of the answer options from the **Option layout** list. |
+| Short answer                                                                                    | Question that has a one-line answer.                                                                                                         |
+| Smilies rating                                                                                  | Question that asks a respondent to express their satisfaction by using emoticons ("smilies").                                                |
+| Star rating                                                                                     | Question that asks a respondent to provide ratings by using stars, emoticons, or flags.                                                      |
+| Upload file                                                                                     | Allow a respondent to upload a file.<br>Supported file types: .png, .jpg, .gif, .doc, .docx, .pdf, .xls, .xlsx, .zip, .txt, .ppt, .pptx<br>Maximum file size: 5 |
+| Website                                                                                         | Question that asks a respondent to enter a website URL.                                                                                      |
 |||
 
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  

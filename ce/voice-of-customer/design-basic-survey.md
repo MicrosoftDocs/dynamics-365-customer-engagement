@@ -27,6 +27,8 @@ After deciding the types of questions you want to include in your survey, you mu
 
 You can create a theme for your survey to match your company's style. Themes define the color scheme for your surveys. You can design multiple themes and use them in different surveys.
 
+**Web client**
+
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Themes**.
@@ -42,6 +44,10 @@ You can create a theme for your survey to match your company's style. Themes def
     ![Select element color in a theme](media/element-color-theme.png "Select element color in a theme")  
 
 7.  Select **Save**.
+
+**Voice of the Customer app**
+
+
 
 ## Upload image
 

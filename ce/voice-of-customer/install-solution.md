@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
-ms.date: 02/20/2017
+ms.date: 04/13/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -70,6 +70,17 @@ When you install Voice of the Customer, a VOC Push Service user is created autom
 
 > If you want to install Voice of the Customer solution version earlier than 9.0, see [here](voc-faq.md#how-to-install-voice-of-the-customer-solution-earlier-than-90).
 
+## Voice of the customer app
+
+The Voice of the Customer app provides a new survey and theme designing experience. The new survey designer provides a simple and intuitive experience for survey designers to add, remove, and modify pages, sections, question, and responses of a survey. The existing surveys and themes are also upgraded when you upgrade to the latest version of Voice of the Customer.
+
+When you install Voice of the Customer version <<Version_Number>>, the Voice of the Customer app, built on the Unified Interface framework is created by default.
+
+### Open Voice of the Customer app
+
+1. Sign in to Dynamics 365.
+2. Open the URL `<organization URL>/apps`.
+3. Select the Voice of Customer app.
 
 ### See also
 [Plan a survey](plan-survey.md)    
