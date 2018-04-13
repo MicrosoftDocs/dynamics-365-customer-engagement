@@ -249,6 +249,9 @@ If the article has information that complements an existing knowledge article, a
   
      Deleting an article version is permanent and can’t be undone. You won’t be able to go back to that version of the article, so make sure that you don’t need any of the information. It’s a good idea to create a local backup of any versions you delete.  
 
+#### Managing versions in alternate keys for Knowledge article entity
+If you are creating an alternate key for Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you are using translations, include the language code along with the version in the key to ensure a seamless translation experience. To know more about alternate keys, see [Define alternate keys for an entity](../developer/define-alternate-keys-entity.md).
+
   
 ## Translate a knowledge article in multiple languages  
  Your knowledge content needs to reach all of your customers, no matter what market or region they are from. The knowledge management capability in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] helps you translate your articles so that you can provide the same self-help content in multiple languages without having to manage multiple copies of the same article. By using the translation feature, you can quickly and efficiently provide 24-hour service to all of your customers.  
@@ -416,5 +419,3 @@ Use the **Summary** tab to track some basic details of the article. In the **Sum
 ### See also
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
-
-[Create alternate keys for Knowledge article entity](../developer/define-alternate-keys-entity.md#create-alternate-keys-for-knowledge-article-entity)

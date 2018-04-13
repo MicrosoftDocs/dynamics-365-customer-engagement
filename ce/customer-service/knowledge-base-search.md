@@ -1,7 +1,7 @@
 ---
 title: Knowledge base search in Dynamics 365| MicrosoftDocs
 description: Know how the Knowledge base search works in Microsoft Dynamics 365
-keywords: Search the knowledge base; Dynamics 365; Full-text search; Relevance search; Categorized search; Customer Service Hub
+keywords: Search the knowledge base; Dynamics 365; Full-text search; Relevance search; Categorized search; Customer Service Hub; Knowledge Article; Knowledge Management; Knowledge Base; Parature 
 author: anjgupta
 applies_to:
   - "Dynamics 365 (online)"
@@ -15,26 +15,18 @@ ms.service: crm-online
 ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
 ---
 
-# Search the Knowledge base in Customer Service
-
+# Search the Knowledge base in Dynamics 365
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. 
 A knowledge base is created to help the customer service reps with solutions to the most common issues, so that they can assist customers quickly.
 
-Search the knowledge base to look for related knowledge articles promptly and resolve customer issues in time. 
+Utilize this topic to understand how search works in a knowldege base, and how a customer service rep can view accurate search results based on the client, application, or search keyword they use to search the knowledge base.
 
-Refer the section below to know the various search methods available to search the knowledge base.
+Refer the section below to know the various search methods available.
 
 ## Search methods
-
-- **Quick find** - In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
-
-   ![Quick find search](media/quick-find-search.png)
-
-
-   Articles with the status **Draft** or **Published** are displayed in the search results. 
 
 - **Knowledge base search control** - In the app, select a case by navigating to **Service** > **Cases**. In the **Related** section (also known as Reference panel), select **Knowledge Base Search** and search for knowledge articles using keywords in the search box. 
   
@@ -42,20 +34,31 @@ Refer the section below to know the various search methods available to search t
 
    To explore more options in the knowledge base search given in the Related section, see [Search for knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles).
 
+   > [!NOTE]
+   > Knowledge base search control is available out-of-the-box in case entity. The above procedure describes how the control can be accessed in the Customer Service Hub app.
+
+- **Quick find in Grids** - In the app, go to **Service** > **Knowledge Articles**, and select the search box to search the knowledge base using keywords. 
+
+   ![Quick find search](media/quick-find-search.png)
+
+
+   Articles with the status **Draft** or **Published** are displayed in the search results. 
+
 - **Global search**: Select the search icon given on the nav bar to perform global search for knowledge base articles. Global search lets you search using **Categorized** search or **Relevance** search.
 
   ![Global search](media/global-search.png)
 
-   To enable Relevance search, see [Enable Relevance Search](../admin/configure-relevance-search-organization.md#enable-relevance-search).
 
 > [!NOTE]
 > You can search the knowledge base using Portals also. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md) for more information.
 
-Based on the app and the version you are using, knowledge base search is available in the following combinations:
+
+With each of the above search methods, the search results might vary based on the underlying search technology used. Refer the table below to know the search technology used for a search method: 
 
 |App  |Version  |Search methods  | Search technology  |
 |---------|---------|---------|---------|
-|Interactive service hub (based on web client)    |     8.2    |       - Quick find <br> - KB search control <br> - Global search |    Full-Text search     |
+|Any web client based app    |     8.2    |       - Quick find <br> - KB search control <br> - Global search |    Full-Text search     |
+|Interactive service hub     |     8.2    |       - Quick find <br> - KB search control <br> - Global search |    Full-Text search     |
 |Customer Service app    |  9.0       |   - Quick find <br> - KB search control <br> - Global search     |   Relevance search/ Full-Text search (based on what you configure)     |
 |Customer Service Hub (based on Unified interface)    |       9.0  |     Quick find on Grids   |   Full-Text search      |
 |  |       |    - KB search control <br> - Global search  |   Relevance search/ Full-Text search (based on what you configure)     |
