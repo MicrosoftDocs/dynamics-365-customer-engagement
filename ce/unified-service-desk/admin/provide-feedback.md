@@ -35,17 +35,17 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
 <a name="Top"></a>   
 ## In This Walkthrough  
- [Step 1: Create a toolbar container type of hosted control](../../unified-service-desk/provide-feedbackmd.md#Step1)
+ [Step 1: Create a toolbar container type of hosted control](../../unified-service-desk/provide-feedback.md#Step1)
   
- [Step 2: Add a toolbar and attach it to the toolbar container](../../unified-service-desk/provide-feedbackmd.md#Step2)
+ [Step 2: Add a toolbar and attach it to the toolbar container](../../unified-service-desk/provide-feedback.md#Step2)
 
- [Step 3: Step 3: Add toolbar button and action call to display the feedback window](../../unified-service-desk/provide-feedbackmd.md#Step3)
+ [Step 3: Step 3: Add toolbar button and action call to display the feedback window](../../unified-service-desk/provide-feedback.md#Step3)
 
- [Step 4: Add the controls to the configuration ](../../unified-service-desk/provide-feedbackmd.md#Step4)
+ [Step 4: Add the controls to the configuration ](../../unified-service-desk/provide-feedback.md#Step4)
 
- [Step 5: Test the provide feedback option in the application](../../unified-service-desk/provide-feedbackmd.md#Step5)
+ [Step 5: Test the provide feedback option in the application](../../unified-service-desk/provide-feedback.md#Step5)
   
- [Conclusion](../../unified-service-desk/provide-feedbackmd.md#Conclusion)
+ [Conclusion](../../unified-service-desk/provide-feedback.md#Conclusion)
 
 <a name="Step1"></a>   
 ## Step 1: Create a toolbar container type of hosted control  
