@@ -182,7 +182,7 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 <a name="Conclusion"></a> 
 ## Conclusion
 
- In this walkthrough, you learned how to set up provide feedback button in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
+ In this walkthrough, you learned how to set up provide feedback button in the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application.  
 
 > [!Note]
 > It is recommended that you do not submit any feedback containing personal or other data that is subject to legal or regulatory compliance requirements.
