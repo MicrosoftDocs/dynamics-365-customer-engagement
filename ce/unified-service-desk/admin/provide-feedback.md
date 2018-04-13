@@ -28,11 +28,10 @@ The walkthrough demonstrates how to set up provide feedback window in your agent
 
 ### Prerequisites
 
-You must know about the following in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:  
+You must know about the following in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]:<br>  
+    - The Toolbar Container type of hosted control. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
-    -   The Toolbar Container type of hosted control. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
-  
-    -   Action call and how to configure it. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Action calls](../../unified-service-desk/action-calls.md)
+    - Action call and how to configure it. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Action calls](../../unified-service-desk/action-calls.md)
 
 <a name="Step1"></a>   
 ## Step 1: Create a toolbar container type of hosted control  
@@ -79,7 +78,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 9. Click **Save**.
 
 <a name="Step3"></a>   
-## Step 3: Add toolbar buttons and action calls to display Dynamics 365 records
+## Step 3: Add toolbar buttons and action calls to display the feedbacke window
 
  In this step, you’ll add buttons on the toolbar and attach action calls to the buttons so that when the button is clicked, **Provide Feedback** window is displayed in the hosted controls that were created in step 1.
   
@@ -117,7 +116,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
 <a name="Step4"></a>   
 ## Step 4: Add the controls to the configuration  
- In this step, you’ll add the action calls, hosted controls, and toolbar that were created in this walkthrough to ** Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
+ In this step, you’ll add the action calls, hosted controls, and toolbar that were created in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
   
  Add the following to **Contoso Configuration**.
 
@@ -151,7 +150,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 <a name="Step5"></a> 
 ## Step 5: Test the provide feedback option
 
-Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration**. For information about connecting to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md). 
+Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration**. For information about connecting to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).
 
 Your agent application will now have a **Smiley** button in the toolbar area.
 
@@ -166,7 +165,9 @@ Your agent application will now have a **Smiley** button in the toolbar area.
     ![Provide feedback window](../media/provide-feedback-window.PNG "Provide feedback window")
 
 > [!Note]
-> It is recommended that you do not submit any feedback containing personal or other data that is subject to legal or regulatory compliance requirements.<br>
+> It is recommended that you do not submit any feedback containing personal or other data that is subject to legal or regulatory compliance requirements.
+
+> [!Note]
 > Setting the **HelpImproveUsd** global option to **False**, disables the data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] dose not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. If the data collection is disabled, then agent or system administrator cannot provide feedback due to insufficient permissions.<br>
 ![Insufficient Permissions](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
 
