@@ -22,11 +22,62 @@ Have a comment or suggestion about [!INCLUDE[pn_unified_service_desk](../../incl
 
 With [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], you can see **Provide Feedback** option as a smiley on the tool bar.
 
-To provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], you must configure the **HelpImproveUsd** global option and set it to true.
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable HelpImproveUsd](../admin/help-improve-unified-service-desk.md).
+## Walkthrough: Configure provide feedback window in your agent application
 
-> [!NOTE]
-> Enabling **HelpImproveUsd** enables data collections and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] to improve the product. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Help improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
+The walkthrough demonstrates how to set up provide feedback window in your agent application. In this walkthrough, you will learn to create **Provide Feedback** button on the **About Tool Bar** toolbar container and associate an Action Call to the button.
+
+### Prerequisites
+
+You must know about the following in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
+  
+    -   The Toolbar Container type of hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+  
+    -   Action call and how to configure it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action calls](../unified-service-desk/action-calls.md)
+
+<a name="Step1"></a>   
+## Step 1: Create a toolbar container type of hosted control  
+ 
+ Toolbar Container type of hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
+  
+1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+  
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+3.  Click **Hosted Controls**.  
+  
+4.  Click **New**.  
+  
+5.  On the **New Hosted Control** page, specify the following values  
+  
+    |Field|Value|  
+    |-----------|-----------|
+    |Name|About Toolbar Container|
+    |USD Component Type|Toolbar Container|
+    |Display Group|AboutPanel|
+  
+6.  Click **Save**.  
+
+<a name="Step2"></a>   
+## Step 2: Add a toolbar and attach it to the toolbar container  
+ In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
+  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+  
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
+  
+3. Click **Toolbars**.  
+  
+4. Click **New**.
+  
+5. On the **New Toolbar** page, type **About Toolbar** in the **Name** box, and then click **Save**.  
+  
+6. Attach the toolbar to the toolbar container hosted control created in step 1. On the nav bar, click the down arrow next to **About Toolbar**, and click **Hosted Controls**.  
+  
+7. On the next page, click **Add Existing Hosted Control**, type `About Toolbar Container` in the search bar, and then press **ENTER** or click the search icon.
+  
+8. From the search result, click **About Toolbar Container** to add.  
+  
+9. Click **Save**.
+
 
 ## How do I give feedback?
 
@@ -41,9 +92,7 @@ To provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-u
     ![Provide feedback window](../media/provide-feedback-window.PNG "Provide feedback window")
 
 > [!Note]
-> It is recommended that you do not submit any feedback containing personal or other data that is subject to legal or regulatory compliance requirements.
-
-> [!Note]
+> It is recommended that you do not submit any feedback containing personal or other data that is subject to legal or regulatory compliance requirements.<br>
 > Setting the **HelpImproveUsd** global option to **False**, disables the data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] dose not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. If the data collection is disabled, then agent or system administrator cannot provide feedback due to insufficient permissions.<br>
 ![Insufficient Permissions](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
 

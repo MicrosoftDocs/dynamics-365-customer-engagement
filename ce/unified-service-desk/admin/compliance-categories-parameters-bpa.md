@@ -18,8 +18,7 @@ manager: "sakudes"
 ---
 # Compliance categories and parameters
 
-The list shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
- analyzes.
+The list shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes.
 
 ## System Configurations
 
