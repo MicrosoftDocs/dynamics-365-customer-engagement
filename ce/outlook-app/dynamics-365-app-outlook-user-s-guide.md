@@ -223,7 +223,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 ## Customize the track regarding card
 
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Job Title** with **Business Phone** in the Contact card.
+The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
 
 ![Initial contact card](media/initial-contact-card.png "Initial contact card")
 
@@ -234,14 +234,16 @@ To change the fields that appear, follow these steps:
 3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
 
    ![Contact entity form](media/contact-entity-form.png)
+
 4. Drag **Company Name** above **Business Phone**. 
 
-   | | |  |
-   |---------|---------|---------|
-   |![Drag field in form](media/drag-fields-in-form.png "Drag field in form")     |         | ![After dragging field](media/after-dragging-fields.png "After dragging field")        |
+   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
+
+   ![After dragging field](media/after-dragging-fields.png "After dragging field")
 
    > [!NOTE]
    > The first three fields appear in the track regarding card.
+
 5. Select **Save**, **Publish**, and then close the form editor.
 6. On the solution page, **Publish All Customizations**. 
 7. Close the solutions page.
@@ -249,7 +251,7 @@ To change the fields that appear, follow these steps:
 After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
 
 ![After customizing card](media/after-customizing-card.png "After customizing card")</br>
-The business phone number replaces job title in the Contact card.
+The company name now appears after the contact name in the Contact card.
 
 ## Compose an email message and link it to a Dynamics 365 record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
