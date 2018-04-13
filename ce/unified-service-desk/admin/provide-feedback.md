@@ -36,7 +36,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 <a name="Step1"></a>   
 ## Step 1: Create a toolbar container type of hosted control  
  
- Toolbar Container type of hosted controls are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
+ Toolbar Container type of hosted control are used to hold and display the toolbars in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. In this section, you’ll create a **Toolbar Container** hosted control that will appear at the top of the client application.  
   
 1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
@@ -78,9 +78,9 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 9. Click **Save**.
 
 <a name="Step3"></a>   
-## Step 3: Add toolbar buttons and action calls to display the feedbacke window
+## Step 3: Add toolbar button and action call to display the feedbacke window
 
- In this step, you’ll add buttons on the toolbar and attach action calls to the buttons so that when the button is clicked, **Provide Feedback** window is displayed in the hosted controls that were created in step 1.
+ In this step, you’ll add button on the toolbar and attach action call to the button so that when the button is clicked, **Provide Feedback** window is displayed in the hosted control that were created in step 1.
   
 1. After you save the toolbar in step 2, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
   
@@ -116,7 +116,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
 <a name="Step4"></a>   
 ## Step 4: Add the controls to the configuration  
- In this step, you’ll add the action calls, hosted controls, and toolbar that were created in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
+ In this step, you’ll add the action call, hosted control, and toolbar that were created in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
   
  Add the following to **Contoso Configuration**.
 
@@ -140,11 +140,11 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
   
 6.  On the next page, click **Add Existing Action Call**, type `Show FeedBack Window` in the search bar, and then press ENTER or click the search icon.  
   
-7.  The action calls listed earlier are displayed in the search results. Add these action calls.  
+7.  The action call listed earlier are displayed in the search results. Add these action call.  
   
-8.  Similarly, add the hosted controls and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.  
+8.  Similarly, add the hosted control and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.  
   
-9. Click **Save**. 
+9. Click **Save**.
 
 
 <a name="Step5"></a> 
