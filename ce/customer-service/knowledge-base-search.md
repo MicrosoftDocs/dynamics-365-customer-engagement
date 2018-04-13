@@ -41,8 +41,7 @@ Refer the section below to know the various search methods available.
 
    ![Quick find search](media/quick-find-search.png)
 
-
-   Articles with the status **Draft** or **Published** are displayed in the search results. 
+   Knowledge articles with the status **Draft** or **Published** are displayed in the search results. 
 
 - **Global search**: Select the search icon given on the nav bar to perform global search for knowledge base articles. Global search lets you search using **Categorized** search or **Relevance** search.
 
