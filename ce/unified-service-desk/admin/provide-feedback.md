@@ -20,11 +20,11 @@ manager: "sakudes"
 
 Have a comment or suggestion about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]? We need your feedback to help us deliver a reliable product. Good or bad, the quickest route to get your comments to our team is right from within [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. 
 
-With [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], you can see **Provide Feedback** option as a smiley on the tool bar.
+With [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], you can see **Provide Feedback** option as a smiley on the toolbar.
 
 ## Walkthrough: Configure provide feedback window in your agent application
 
-The walkthrough demonstrates how to set up provide feedback window in your agent application. In this walkthrough, you will learn to create **Provide Feedback** button on the **About Tool Bar** toolbar container and associate an Action Call to the button.
+The walkthrough demonstrates how to set up provide feedback window in your agent application. In this walkthrough, you will learn to create **Provide Feedback** button on the **About Toolbar** toolbar container and associate an Action Call to the button.
 
 ### Prerequisites
 
@@ -32,6 +32,20 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
     - The Toolbar Container type of hosted control. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Hosted control types and action/event reference](../../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
     - Action call and how to configure it. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Action calls](../../unified-service-desk/action-calls.md)
+
+<a name="Top"></a>   
+## In This Walkthrough  
+ [Step 1: Create a toolbar container type of hosted control](../../unified-service-desk/provide-feedbackmd.md#Step1)
+  
+ [Step 2: Add a toolbar and attach it to the toolbar container](../../unified-service-desk/provide-feedbackmd.md#Step2)
+
+ [Step 3: Step 3: Add toolbar button and action call to display the feedback window](../../unified-service-desk/provide-feedbackmd.md#Step3)
+
+ [Step 4: Add the controls to the configuration ](../../unified-service-desk/provide-feedbackmd.md#Step4)
+
+ [Step 5: Test the provide feedback option in the application](../../unified-service-desk/provide-feedbackmd.md#Step5)
+  
+ [Conclusion](../../unified-service-desk/provide-feedbackmd.md#Conclusion)
 
 <a name="Step1"></a>   
 ## Step 1: Create a toolbar container type of hosted control  
@@ -78,7 +92,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 9. Click **Save**.
 
 <a name="Step3"></a>   
-## Step 3: Add toolbar button and action call to display the feedbacke window
+## Step 3: Add toolbar button and action call to display the feedback window
 
  In this step, you’ll add button on the toolbar and attach action call to the button so that when the button is clicked, **Provide Feedback** window is displayed in the hosted control that were created in step 1.
   
@@ -99,7 +113,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
     In the **Actions** area, click **+** on the right corner to add an action call.  
   
-5. In the search box in the **Actions** area, press ENTER or click the search icon.  
+5. In the search box in the **Actions** area, press **ENTER** or click the search icon.  
   
 6. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.
   
@@ -107,7 +121,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
   
     |Field|Value|  
     |-----------|-----------|  
-    |Name|Action Call: Show FeedBack Window|  
+    |Name|Show FeedBack Window|  
     |Order|1|  
     |Hosted Control|CRM Global Manager|  
     |Action|ShowFeedback|
@@ -116,7 +130,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
 <a name="Step4"></a>   
 ## Step 4: Add the controls to the configuration  
- In this step, you’ll add the action call, hosted control, and toolbar that were created in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
+ In this step, you’ll add the action call, hosted control, and toolbar that were created in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. If you have not created **Contoso Configuration**. Visit, [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).
   
  Add the following to **Contoso Configuration**.
 
@@ -138,7 +152,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
   
 5.  On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
   
-6.  On the next page, click **Add Existing Action Call**, type `Show FeedBack Window` in the search bar, and then press ENTER or click the search icon.  
+6.  On the next page, click **Add Existing Action Call**, type `Show FeedBack Window` in the search bar, and then press **ENTER** or click the search icon.  
   
 7.  The action call listed earlier are displayed in the search results. Add these action call.  
   
@@ -148,7 +162,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
 
 <a name="Step5"></a> 
-## Step 5: Test the provide feedback option
+## Step 5: Test the provide feedback option in the application
 
 Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration**. For information about connecting to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 instance using the Unified Service Desk client](../../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).
 
@@ -164,13 +178,18 @@ Your agent application will now have a **Smiley** button in the toolbar area.
 
     ![Provide feedback window](../media/provide-feedback-window.PNG "Provide feedback window")
 
+
+<a name="Conclusion"></a> 
+## Conclusion
+
+ In this walkthrough, you learned how to set up provide feedback button in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
+
 > [!Note]
 > It is recommended that you do not submit any feedback containing personal or other data that is subject to legal or regulatory compliance requirements.
 
 > [!Note]
 > Setting the **HelpImproveUsd** global option to **False**, disables the data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] dose not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. If the data collection is disabled, then agent or system administrator cannot provide feedback due to insufficient permissions.<br>
 ![Insufficient Permissions](../media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
-
 
 ## See also
 
