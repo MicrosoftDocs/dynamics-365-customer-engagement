@@ -57,7 +57,7 @@ With each of the above search methods, the search results might vary based on th
 
 |App  |Version  |Search methods  | Search technology  |
 |---------|---------|---------|---------|
-|Any web client based app    |     8.2    |       - Quick find <br> - KB search control <br> - Global search |    Full-Text search     |
+|Any web client based app    |       |      <br> - KB search  |        |
 |Interactive service hub     |     8.2    |       - Quick find <br> - KB search control <br> - Global search |    Full-Text search     |
 |Customer Service app    |  9.0       |   - Quick find <br> - KB search control <br> - Global search     |   Relevance search/ Full-Text search (based on what you configure)     |
 |Customer Service Hub (based on Unified interface)    |       9.0  |     Quick find on Grids   |   Full-Text search      |
