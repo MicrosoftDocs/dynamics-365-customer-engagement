@@ -52,7 +52,7 @@ Refer the section below to know the various search methods available.
 > You can search the knowledge base using Portals also. See [Use faceted search to improve portal search](../portals/improve-portal-search-faceted-search.md) for more information.
 
 
-With each of the above search methods, the search results might vary based on the underlying search technology used. Refer the table below to know the search technology used for a search method: 
+With each of the above search methods, the search results might vary based on the underlying search mechanism used. Refer the table below to know the search technology used for a search method: 
 
 |App  |Version  |Search methods  | Search technology  |
 |---------|---------|---------|---------|
