@@ -235,7 +235,7 @@ To change the fields that appear, follow these steps:
 
    ![Contact entity form](media/contact-entity-form.png)
 
-4. Drag **Company Name** above **Business Phone**. 
+4. Drag **Company Name** above **Business Phone**.
 
    ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
 
