@@ -41,7 +41,6 @@ Refer the section below to know the various search methods available.
 
    ![Quick find search](media/quick-find-search.png)
 
-   Knowledge articles with the status **Draft** or **Published** are displayed in the search results. 
 
 - **Global search**: Select the search icon given on the nav bar to perform global search for knowledge base articles. Global search lets you search using **Categorized** search or **Relevance** search.
 
@@ -54,13 +53,16 @@ Refer the section below to know the various search methods available.
 
 With each of the above search methods, the search results might vary based on the underlying search mechanism used. Refer the table below to know the search technology used for a search method: 
 
-|App  |Version  |Search methods  | Search technology  |
+|Version  | App |Search methods  | Search technology  |
 |---------|---------|---------|---------|
-|Any web client based app    |       |      <br> - KB search  |        |
-|Interactive service hub     |     8.2    |       - Quick find <br> - KB search control <br> - Global search |    Full-Text search     |
-|Customer Service app    |  9.0       |   - Quick find <br> - KB search control <br> - Global search     |   Relevance search/ Full-Text search (based on what you configure)     |
-|Customer Service Hub (based on Unified interface)    |       9.0  |     Quick find on Grids   |   Full-Text search      |
-|  |       |    - KB search control <br> - Global search  |   Relevance search/ Full-Text search (based on what you configure)     |
+| 8.2  |   Any app (based on any client)    |     - KB search control <br>  - Quick find in Grids   |   Full-Text search    |
+|   |     |      - Global search  |   Categorized search     |
+|9.0   |  Customer Service app (or any web app)     |  - KB search control      |   Relevance search/ Full-Text search (based on what you configure)     |
+|  |      |   - Quick find in Grids     |   Full-Text search |
+|  |      |   - Global search     |   Relevance search or Categorized search     |
+| 9.0   |       Customer Service Hub (based on Unified interface)  |   - KB search control <br> - Quick find on Grids |   Full-Text search  |
+|  |       |      - Global search  |   Relevance search or Categorized search  |
+
 
 The following section elaborates the search technologies: 
 
