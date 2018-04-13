@@ -225,7 +225,7 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 
 The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
 
-![Initial contact card](media/initial-contact-card2.png "Initial contact card")
+![Initial contact card](media/initial-contact-card.png "Initial contact card")
 
 To change the fields that appear, follow these steps:
 
@@ -233,13 +233,13 @@ To change the fields that appear, follow these steps:
 2. Expand **Entities** and choose an entity such as **Contact**.
 3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
 
-   ![Contact entity form](media/contact-entity-form2.png)
+   ![Contact entity form](media/contact-entity-form.png)
 
 4. Drag **Company Name** above **Business Phone**.
 
-   ![Drag field in form](media/drag-fields-in-form2.png "Drag field in form")
+   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
 
-   ![After dragging field](media/after-dragging-fields2.png "After dragging field")
+   ![After dragging field](media/after-dragging-fields.png "After dragging field")
 
    > [!NOTE]
    > The first three fields appear in the track regarding card.
@@ -250,7 +250,7 @@ To change the fields that appear, follow these steps:
 
 After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
 
-![After customizing card](media/after-customizing-card2.png "After customizing card")</br>
+![After customizing card](media/after-customizing-card.png "After customizing card")</br>
 The company name now appears after the contact name in the Contact card.
 
 ## Compose an email message and link it to a Dynamics 365 record  
