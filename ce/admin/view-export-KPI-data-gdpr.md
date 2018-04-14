@@ -9,7 +9,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
-author: kvivek
+author: KumarVivek
 ms.author: kvivek
 manager: kvivek
 ---
