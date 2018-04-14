@@ -249,7 +249,9 @@
 ## [Display emails](auto-capture.md)
 ## [View customer activity history](relationship-analytics.md)
 ## [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
+### [Opt out of data analytics (GDPR)](optout-data-analytics-gdpr.md)
 ### [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
+
 <!--## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
 
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
