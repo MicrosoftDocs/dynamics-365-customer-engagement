@@ -23,15 +23,15 @@ A new boolean field or attribute called **msdyn_gdproptout** (display name: **GD
 - Setting the **GDPR Optout** field to "yes/true" will prohibit any analytics to be performed on the entity record's data.
 - Setting the **GDPR Optout** field to "no/false" will allow analytics to be performed on the entity record's data.
 
-## Customizing entity forms to display GDPR Optout field
+## Updating the GDPR Optout field in entity forms
 
-By default, the **GDPR Optout** field is not available on the Contact, Lead and SystemUser forms. You can customize the form to display the **GDPR Optout** field on these entity forms so that one can easily set an appropriate value in this field for a record. By default, the value is set to **No** (false) for this field when you create a new record.
+By default, the **GDPR Optout** field is not available on the Contact, Lead and SystemUser forms. You can customize the form to display the **GDPR Optout** field for these entities so that one can easily set an appropriate value in this field for a record. By default, the value is set to **No** (false) for this field when you create a new record.
 
 ![](media/gdpr-optout-field.png)
 
 For information about adding field to a form, see [Add a field to a form](../customize/add-field-form.md)
 
-## Programmatically updating the **msdyn_gdproptout** field 
+## Programmatically updating the **msdyn_gdproptout** attribute 
 
 You can also programmatically update the value of the **msdyn_gdproptout** field by using Web API or Organization service. For information about updating using:
 - Web API, see [Update a single property value](../developer/webapi/update-delete-entities-using-web-api.md#update-a-single-property-value)
