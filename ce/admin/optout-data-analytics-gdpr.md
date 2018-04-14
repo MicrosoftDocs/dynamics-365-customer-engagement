@@ -31,7 +31,7 @@ By default, the **GDPR Optout** field is not available on the Contact, Lead and 
 
 For information about adding field to a form, see [Add a field to a form](../customize/add-field-form.md)
 
-## Programmatically updating the **msdyn_gdproptout** attribute 
+## Programmatically updating the msdyn_gdproptout attribute 
 
 You can also programmatically update the value of the **msdyn_gdproptout** field by using Web API or Organization service. For information about updating using:
 - Web API, see [Update a single property value](../developer/webapi/update-delete-entities-using-web-api.md#update-a-single-property-value)
