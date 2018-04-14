@@ -2,7 +2,7 @@
 title: "View and export KPI data (GDPR) (Dynamics 365 Customer Engagement) | Microsoft Docs  "
 description: "View KPI data for account, contact, lead, and opportunity using system views, and export the data to an Excel file."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
-ms.date: 04/08/2018
+ms.date: 04/18/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

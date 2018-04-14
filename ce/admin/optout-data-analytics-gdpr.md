@@ -2,7 +2,7 @@
 title: "Opt out of data analytics (GDPR) (Dynamics 365 Customer Engagement) | Microsoft Docs  "
 description: "Opt out to ensure that no analytics is performed on your data when using Embedded Intelligence."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
-ms.date: 04/08/2018
+ms.date: 04/18/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -31,8 +31,13 @@ By default, the **GDPR Optout** field is not available on the Contact, Lead and 
 
 For information about adding field to a form, see [Add a field to a form](../customize/add-field-form.md)
 
-#3 Programmatically updating the **msdyn_gdproptout** field 
+## Programmatically updating the **msdyn_gdproptout** field 
 
 You can also programmatically update the value of the **msdyn_gdproptout** field by using Web API or Organization service. For information about updating using:
 - Web API, see [Update a single property value](../developer/webapi/update-delete-entities-using-web-api.md#update-a-single-property-value)
 - Organization service, see [Use the early-bound entity classes for create, update, and delete](../developer/org-service/use-early-bound-entity-classes-create-update-delete.md) or [Use the Entity class for create, update and delete](../developer/org-service/use-entity-class-create-update-delete.md)
+
+
+### See also
+
+[Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)

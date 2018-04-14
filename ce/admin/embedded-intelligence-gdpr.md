@@ -2,7 +2,7 @@
 title: "Embedded Intelligence and GDPR (Dynamics 365 Customer Engagement) | Microsoft Docs  "
 description: "Protect customer privacy and remain compliant with GDPR regulations when using Embedded Intelligence in Dynamics 365 Customer Engagement"
 keywords: "GDPR; data protection; privacy; embedded intelligence"
-ms.date: 04/08/2018
+ms.date: 04/18/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
