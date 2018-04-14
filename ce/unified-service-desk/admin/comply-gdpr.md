@@ -2,7 +2,7 @@
 title: Comply with the General Data Protection Regulation (GDPR) (Dynamics 365 Customer Engagement) | MicrosoftDocs
 description: Learn about General Data Protection Regulation (GDPR) and how Unified Service Desk complies with GDPR.
 ms.custom: ""
-ms.date: 04/15/2018
+ms.date: 04/24/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""

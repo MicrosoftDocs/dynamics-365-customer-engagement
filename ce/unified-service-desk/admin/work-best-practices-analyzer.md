@@ -2,7 +2,7 @@
 title: "Work with Best Practices Analyzer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about how to work with Best Practices Analyzer and access and read the Best Practices Analyzer report."
 ms.custom: ""
-ms.date: 04/15/2018
+ms.date: 04/24/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 

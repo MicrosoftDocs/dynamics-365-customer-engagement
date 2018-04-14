@@ -2,7 +2,7 @@
 title: "Compliance categories and parameters (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
 ms.custom: ""
-ms.date: 04/15/2018
+ms.date: 04/24/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 

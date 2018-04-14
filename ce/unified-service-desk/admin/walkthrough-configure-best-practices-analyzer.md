@@ -1,20 +1,20 @@
 ---
-title: "Download and Install Best Practices Analyzer | MicrosoftDocs"
-description: "Learn about downloading and installing the Best Practices Analyzer."
+title: Download and Install Best Practices Analyzer (Dynamics 365 Customer Engagement) | MicrosoftDocs
+description: Learn about downloading and installing the Best Practices Analyzer.
 ms.custom: ""
 ms.date: 04/24/2018
-ms.service: "usd"
-ms.topic: "article"
+ms.service: usd
+ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 (on-premises)"
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
-ms.assetid: "B96D2870-9475-475B-B37B-221C3EC55D45"
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+ms.assetid: C1F329C3-2E00-40A5-8BA3-1B6BC16444EA
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
