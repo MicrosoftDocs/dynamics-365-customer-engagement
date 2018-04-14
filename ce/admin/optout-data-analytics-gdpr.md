@@ -21,7 +21,7 @@ Applies to Dynamics 365 (online), version 9.0.2
 A new boolean field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities that enables you to specify whether analytics will be performed on the entity record's data.
 
 - Setting the **GDPR Optout** field to "yes/true" will prohibit any analytics to be performed on the entity record's data.
-- Setting the **msdyn_gdproptout** field to "no/false" will allow analytics to be performed on the entity record's data.
+- Setting the **GDPR Optout** field to "no/false" will allow analytics to be performed on the entity record's data.
 
 ## Customizing entity forms to display GDPR Optout field
 
