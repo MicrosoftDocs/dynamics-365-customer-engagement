@@ -46,7 +46,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 </ul>
 
 <p>Depending on the specified entity type, you must specify <code>accountid</code>, 
-<code>contactid</code>, <code>leadid</code>, or <code>opportunityid</code> as the second key to identify the entity record you want to retrieve data for.</p></td>
+<code>contactid</code>, <code>leadid</code>, or <code>opportunityid</code> as the second key to identify the entity record you want to retrieve data for. See [Example](#example) later in this topic.</p></td>
 </tr>
 
 <tr>
@@ -72,7 +72,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 <th>Valid ResourceTypeName</th>
 </tr>
 <tr>
-<td valign="top"><code>1</code></td>
+<td valign="top">1</td>
 <td>
 <ul>
 <li>account</li>
@@ -82,7 +82,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 </ul></td>
 </tr>
 <tr>
-<td valign="top"><code>2</code></td>
+<td valign="top">2</td>
 <td>
 <ul>
 <li>email</li>
@@ -92,7 +92,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 </ul></td>
 </tr>
 <tr>
-<td valign="top"><code>3</code></td>
+<td valign="top">3</td>
 <td>
 <ul>
 <li>accountaveragefirstresponsetimebytheminminlifetime 
