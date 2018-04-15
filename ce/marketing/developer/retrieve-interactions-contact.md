@@ -150,7 +150,12 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 **Request**
 
 ```http
-POST [Organization URI]/api/data/v9.0/msdyncrm_LoadInteractionsPublic  
+POST [Organization URI]/api/data/v9.0/msdyncrm_LoadInteractionsPublic HTTP/1.1
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+OData-MaxVersion: 4.0
+OData-Version: 4.0
+  
 {
     "InteractionType": "WebsiteClicked",
     "ContactId" : "0dbe0fa3-8e18-e811-a951-000d3a37caec"
