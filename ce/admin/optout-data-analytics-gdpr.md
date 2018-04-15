@@ -33,7 +33,7 @@ For information about adding field to a form, see [Add a field to a form](../cus
 
 ## Setting the msdyn_gdproptout attribute value using code
 
-You can also programmatically set or update the value of the **msdyn_gdproptout** field by using Web API or Organization service.
+You can also programmatically set or update the value of the **msdyn_gdproptout** attribute by using Web API or Organization service.
 - **Web API**: When you want to update only a single attribute value for an entity record, use a PUT request with the property name appended to the Uri of the entity. The following example demonstrates how to update the `msdyn_gdproptout` attribute value to **true** of a contact record with the `contactid` value as 00000000-0000-0000-0000-000000000001.
 
     ```http
@@ -47,7 +47,7 @@ You can also programmatically set or update the value of the **msdyn_gdproptout*
 
     For more information about updating records using Web API, see [Update and delete entities using the Web API](../developer/webapi/update-delete-entities-using-web-api.md)
 
-- **Organization service**: You can use the early or late bound programming style to update an attribute. The following example demonstrates how to update the `msdyn_gdproptout` attribute value to **true**for a contact record using late bound programming style.
+- **Organization service**: You can use the early or late bound programming style to update an attribute. The following example demonstrates how to update the `msdyn_gdproptout` attribute value to **true** for a contact record using late bound programming style.
 
     ```csharp  
     Entity contact = new Entity("contact");  
@@ -56,7 +56,7 @@ You can also programmatically set or update the value of the **msdyn_gdproptout*
     ColumnSet attributes = new ColumnSet("msdyn_gdproptout");   
   
     // Retrieve the contact and its msdyn_gdproptout attribute.  
-    contact = _orgService.Retrieve("contact", _accountId, attributes);  
+    contact = _orgService.Retrieve("contact", _contactId, attributes);  
   
     // Update the msdyn_gdproptout attribute value.  
     contact["msdyn_gdproptout"] = true;  
