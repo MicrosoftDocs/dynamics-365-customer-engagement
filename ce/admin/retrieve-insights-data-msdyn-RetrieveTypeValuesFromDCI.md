@@ -1,6 +1,6 @@
 ---
 title: "Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action (Dynamics 365 Customer Engagement) | Microsoft Docs  "
-description: "Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored in Customer Insights for Dynamics 365"
+description: "Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored in Dynamics 365 for Customer Insights"
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 04/18/2018
 ms.service: crm-online
@@ -18,7 +18,7 @@ manager: kvivek
 
 Applies to Dynamics 365 (online), version 9.0.2
 
-Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs stored in Customer Insights for Dynamics 365 for an account, contact, lead or opportunity. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Embedded Intelligence.
+Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs stored in Dynamics 365 for Customer Insights for an account, contact, lead or opportunity. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Embedded Intelligence.
 
 > [!TIP]
 > You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](../../developer/create-own-actions.md#generate-early-bound-types-for-an-action)
@@ -419,7 +419,7 @@ POST [Organization URI]/api/data/v9.0/msdyn_RetrieveTypeValuesFromDCI
 
 **Response**
 
-The response contains a JSON object with a `ResponseValues` property containing the list of data stored in Customer Insights for Dynamics 365.
+The response contains a JSON object with a `ResponseValues` property containing the list of data stored in Dynamics 365 for Customer Insights.
 
 ```http
 HTTP/1.1 200 OK  
@@ -433,5 +433,7 @@ OData-Version: 4.0
 ```
 
 ### See also
+
+[Use Web API actions](../developer/webapi/use-web-api-actions)
 
 [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
