@@ -150,7 +150,7 @@ The **msdyncrm_LoadInteractionsPublic** action returns the following value:
 **Request**
 
 ```http
-GET [Organization URI]/api/data/v9.0/msdyncrm_LoadInteractionsPublic  
+POST [Organization URI]/api/data/v9.0/msdyncrm_LoadInteractionsPublic  
 {
     "InteractionType": "WebsiteClicked",
     "ContactId" : "0dbe0fa3-8e18-e811-a951-000d3a37caec"
