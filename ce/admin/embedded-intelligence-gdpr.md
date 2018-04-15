@@ -28,11 +28,14 @@ Here are some resources where you can learn more about how to bring your [!INCLU
 - [Microsoft Trust Center](https://www.microsoft.com/trustcenter). This webpage includes links to information about how new features in Microsoft help you secure personal data and meet strict GDPR privacy requirements.
 
 ## Prepare Embedded Intelligence for GDPR compliance
+\
+Perform one or more of the following tasks in your Dynamics 365 instance where Embedded Intelligence feature is enabled to ensure that you are in compliance with GDPR.
 
-Perform one or more of the following tasks in your in your Dynamics 365 instance where Embedded Intelligence feature is enabled to ensure that you are in compliance with GDPR:
-- Specify whether analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, no analytics is performed on the data.  More information: [Opt out of data analytics (GDPR)](optout-data-analytics-gdpr.md)
-- View KPI data stored for an account, contact, lead and opportunity by using system views, and and export it to Excel. More information: [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
-- Retrieve data for an account, contact, lead and opportunity from Dynamics 365 for Customer Insights by using a custom action
+|Task|See here|
+|--|--|
+|Specify whether analytics will be performed on the data for a contact, lead or system user by setting the **GDPR Optout** field. If the **GDPR Optout** field is set to true/yes, no analytics is performed on the data.|[Opt out of data analytics (GDPR)](optout-data-analytics-gdpr.md)|
+|View KPI data stored for an account, contact, lead and opportunity by using system views, and and export it to Excel.|[View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)|
+|Retrieve data for an account, contact, lead and opportunity from Dynamics 365 for Customer Insights by using a custom action.|  |
 
 ### See also
 
