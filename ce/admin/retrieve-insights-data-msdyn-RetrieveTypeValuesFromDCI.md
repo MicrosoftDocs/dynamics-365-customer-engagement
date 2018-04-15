@@ -404,7 +404,12 @@ The **msdyn_RetrieveTypeValuesFromDCI** action returns the following value:
 **Request**
 
 ```http
-POST [Organization URI]/api/data/v9.0/msdyn_RetrieveTypeValuesFromDCI  
+POST [Organization URI]/api/data/v9.0/msdyn_RetrieveTypeValuesFromDCI HTTP/1.1
+Accept: application/json
+Content-Type: application/json; charset=utf-8
+OData-MaxVersion: 4.0
+OData-Version: 4.0
+  
 {
   "CrmRecord": {
     "@odata.type": "Microsoft.Dynamics.CRM.account",
