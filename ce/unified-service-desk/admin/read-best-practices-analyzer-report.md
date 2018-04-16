@@ -54,6 +54,8 @@ The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analy
 
 [Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
 
+[Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-pratices-analyzer.md)
+
 [Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)

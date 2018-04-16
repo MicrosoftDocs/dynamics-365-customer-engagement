@@ -72,4 +72,6 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
 
 [Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
 
+[Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-pratices-analyzer.md)
+
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
