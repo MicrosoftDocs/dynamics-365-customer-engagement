@@ -33,6 +33,8 @@ Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/
   
 - Device processor class and random-access memory (RAM) details.
 
+- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application-specific information. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Telemetry data](../admin/comply-unified-service-desk-data-gdpr.md#Telemetry data)
+
 By default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
 Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FALSE` disables data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
