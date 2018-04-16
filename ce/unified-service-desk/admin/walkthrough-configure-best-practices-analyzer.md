@@ -25,9 +25,9 @@ This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-pract
 
 In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control.
 
-1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
   
-2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
   
 3. Click **Hosted Controls**.  
   
@@ -134,18 +134,20 @@ In this step, you'll add actions calls the **Best Practices Analyzer** toolbar b
     |Order|1|  
     |Hosted Control|CRM Global Manager|  
     |Action|CallDoAction|
+    |Data|action=default <br> application=Best Practices Analyzer|
   
 5. Click **Save**.
 
 6. In the **Actions** area, type `Action Call: Best Practices Analyzer` in the text box and Press **ENTER** or click on the search icon.
 
-7. Select the `Action Call: Best Practices Analyzer`. The action gets added to the **Settings** button.
+7. Select the `Action Call: Best Practices Analyzer`. <br>
+The new action call is added to the **Settings** button.
 
 7. You’ll add another action call to the button to set the focus on the hosted control that show the Best Practices Analyzer in the client application. In the **Actions** area, click **+** on the right corner to add an action call.  
   
 8. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
   
-9. On the **New Action Call** page, specify the following values.  
+9. On the **New Action Call** page, specify the following values.
   
     |Field|Value|  
     |-----------|-----------|  
@@ -155,8 +157,46 @@ In this step, you'll add actions calls the **Best Practices Analyzer** toolbar b
     |Action|ShowTab|  
     |Data|Best Practices Analyzer|
 
-10. Click **Save**. The new action call gets added to the **Settings** button.
+10. Click **Save**.
 
+11. In the **Actions** area, type `Focus: Best Practices Analyzer` in the text box and Press **ENTER** or click on the search icon.
+
+12. Select the `Focus: Best Practices Analyzer`.<br>
+The new action call is added to the **Settings** button.
+
+<a name="Step5"></a>   
+## Step 5: Add the controls to the configuration  
+ In this step, you’ll add the action call, hosted control, toolbar, toolbar buttons, and action calls that were created in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. If you have not created **Contoso Configuration**. Visit, [Walkthrough 1: Build a simple agent application](../../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).
+  
+ Add the following to **Contoso Configuration**.
+
+|Control name|Control type|  
+|------------------|------------------|  
+|Action Call: Best Practices Analyzer|Action Call|
+|Focus: Best Practices Analyzer|Action Call| 
+|About Toolbar Container|Hosted Control|
+|Best Practices Analyzer|Hosted Control|
+|About Toolbar|Toolbar|
+  
+ To add a control to the configuration:  
+  
+1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+  
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+  
+3.  Click **Configuration**.  
+  
+4.  Click **Contoso Configuration** to open the definition.  
+  
+5.  On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
+  
+6.  On the next page, click **Add Existing Action Call**, type `Action Call: Best Practices Analyzer` in the search bar, and then press **ENTER** or click the search icon.  
+  
+7.  The action call listed earlier are displayed in the search results. Add these action call.
+  
+8.  Similarly, add the hosted control and the toolbar by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls** and **Toolbars** respectively.
+  
+9. Click **Save**.
 
 ## See also
 

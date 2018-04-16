@@ -123,6 +123,8 @@
   items:
   - name: Download and install Best Practices Analyzer
     href: admin/download-install-best-practices-analyzer.md
+  - name: Walkthrough: Configure Best Practices Analyzer
+    href: admin/walkthrough-configure-best-practices-analyzer.md
   - name: Work with Best Practices Analyzer
     href: admin/work-best-practices-analyzer.md
   - name: Compliance categories and parameters
