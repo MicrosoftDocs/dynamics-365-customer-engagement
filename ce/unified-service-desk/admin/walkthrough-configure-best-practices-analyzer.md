@@ -1,5 +1,5 @@
 ---
-title: Download and Install Best Practices Analyzer (Dynamics 365 Customer Engagement) | MicrosoftDocs
+title: "Walkthrough: Configure Best Practices Analyzer in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
 ms.custom: ""
 ms.date: 04/24/2018
@@ -16,21 +16,147 @@ author: kabala123
 ms.author: kabala
 manager: sakudes
 ---
-# Download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
+# Walkthrough: Configure [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+This walkthrough demonstrates how to configure and setup [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application.
 
-| Version | Download Location |
-|---------|-------------------|
-| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)] | Download Link |
-| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] | Download Link |
-| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] | Download Link |
-| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] | Download Link |
-| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-2-2dot2](../../includes/pn-unified-service-desk-2-2dot2.md)] | Download Link |
+<a name="Step1"></a>   
+## Step 1: Create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control
 
-## Install [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
+In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and toolbar container hosted control.
 
-Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)], you must download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package specific to your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] Download Best Practices Analyzer
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
+  
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+  
+3. Click **Hosted Controls**.  
+  
+4. Click **New**.  
+  
+5. On the **New Hosted Control** page, specify the following values:  
+  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|Best Practices Analyzer|  
+    |Display Name|Best Practices Analyzer|  
+    |USD Component Type|USD Hosted Control|
+    |Application is Global|Checked|  
+    |Display Group|MainPanel|  
+    |Application is Dynamic|Checked|  
+    |User Can Close|Checked|
+    |Assembly URI|`Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`|
+    |Assembly Type|`Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl`| 
+  
+6. Click **Save**.
+  
+7. Click **New**.  
+  
+8.  On the **New Hosted Control** page, specify the following values  
+  
+    |Field|Value|  
+    |-----------|-----------|
+    |Name|About Toolbar Container|
+    |USD Component Type|Toolbar Container|
+    |Display Group|AboutPanel|
+  
+9.  Click **Save**.
+
+<a name="Step2"></a>   
+## Step 2: Add a toolbar and attach it to the toolbar container
+
+ In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1. This is done to display the toolbar in your agent application.  
+  
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
+  
+2. [!INCLUDE[proc_settings_usd](../../includes/proc-settings-usd.md)]
+  
+3. Click **Toolbars**.  
+  
+4. Click **New**.
+  
+5. On the **New Toolbar** page, type **About Toolbar** in the **Name** box, and then click **Save**.  
+  
+6. Attach the toolbar to the toolbar container hosted control created in step 1. On the nav bar, click the down arrow next to **About Toolbar**, and click **Hosted Controls**.  
+  
+7. On the next page, click **Add Existing Hosted Control**, type `About Toolbar Container` in the search bar, and then press **ENTER** or click the search icon.
+  
+8. From the search result, click **About Toolbar Container** to add.  
+  
+9. Click **Save**.
+
+<a name="Step3"></a>   
+## Step 3: Add toolbar button
+
+ In this step, you’ll add button on the toolbar and attach the button to the toolbar created in step 2.
+  
+1. After you save the toolbar in step 2, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
+  
+2. On the **New Toolbar Button** page, specify the following values:  
+  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|Settings|
+    |Image|msdyusd_settings_16|
+    |Tooltip|Settings|  
+    |Order|100|
+
+3. Click **Save**.
+
+4. After you save the **Settings** toolbar button, Click **New** to create another button called **Best Practices Analyzer**.
+
+5. On the **New Toolbar Button** page, specify the following values:  
+  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|Best Practices Analyzer|
+    |Button Text|[[$Resources.BestPracticesAnalyzer]]|
+    |Tooltip|SetBest Practices Analyzertings|  
+    |Order|4|
+
+6. Click **Save**.
+
+<a name="Step4"></a>   
+## Step 4: Add action calls to display the Best Practices Analyzer
+
+In this step, you'll add actions calls the **Best Practices Analyzer** toolbar button so that when you click on it **Best Practices Analyzer** tab is displayed in the hosted control that you created in step 1.
+
+1. In the **Actions** area of **Settings** toolbar button, click **+** on the right corner to add an action call.  
+  
+2. In the search box in the **Actions** area, press **ENTER** or click the search icon.  
+  
+3. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.
+  
+4. On the **New Action Call** page, specify the following values:
+  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|Action Call: Best Practices Analyzer|  
+    |Order|1|  
+    |Hosted Control|CRM Global Manager|  
+    |Action|CallDoAction|
+  
+5. Click **Save**.
+
+6. In the **Actions** area, type `Action Call: Best Practices Analyzer` in the text box and Press **ENTER** or click on the search icon.
+
+7. Select the `Action Call: Best Practices Analyzer`. The action gets added to the **Settings** button.
+
+7. You’ll add another action call to the button to set the focus on the hosted control that show the Best Practices Analyzer in the client application. In the **Actions** area, click **+** on the right corner to add an action call.  
+  
+8. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
+  
+9. On the **New Action Call** page, specify the following values.  
+  
+    |Field|Value|  
+    |-----------|-----------|  
+    |Name|Focus: Best Practices Analyzer|  
+    |Order|4|  
+    |Hosted Control|Contoso Global Manager|  
+    |Action|ShowTab|  
+    |Data|Best Practices Analyzer|
+
+10. Click **Save**. The new action call gets added to the **Settings** button.
+
 
 ## See also
 

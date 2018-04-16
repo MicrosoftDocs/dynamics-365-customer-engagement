@@ -72,7 +72,7 @@ You must know about the following in [!INCLUDE[pn_unified_service_desk](../../in
 
 <a name="Step2"></a>   
 ## Step 2: Add a toolbar and attach it to the toolbar container  
- In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 2. This is done to display the toolbar in your agent application.  
+ In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1. This is done to display the toolbar in your agent application.  
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
