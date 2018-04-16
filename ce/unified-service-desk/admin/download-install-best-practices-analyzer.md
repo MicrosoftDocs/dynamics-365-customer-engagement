@@ -37,7 +37,7 @@ Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../in
 
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)] is available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web Client sample package.
 
-You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer#deploy-a-sample-unified-service-desk-package-using-package-deployer)
+You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#deploy-a-sample-unified-service-desk-package-using-package-deployer)
 
 ### Best Practices Analyzer for Unified Service Desk 3.2
 
