@@ -64,7 +64,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 <a name="Step2"></a>   
 ## Step 2: Add a toolbar and attach it to the toolbar container
 
- In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1. This is done to display the toolbar in your agent application.  
+ In this step, you’ll create a toolbar, and attach the toolbar to the toolbar container hosted control created in step 1.
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
@@ -87,7 +87,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 <a name="Step3"></a>   
 ## Step 3: Add toolbar button
 
- In this step, you’ll add button on the toolbar and attach the button to the toolbar created in step 2.
+ In this step, you’ll create two buttons - **Settings** and **Best Practices Analyzer**.
   
 1. After you save the toolbar in step 2, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
   
@@ -118,7 +118,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 <a name="Step4"></a>   
 ## Step 4: Add action calls to display the Best Practices Analyzer
 
-In this step, you'll add actions calls the **Best Practices Analyzer** toolbar button so that when you click on it **Best Practices Analyzer** tab is displayed in the hosted control that you created in step 1.
+In this step, you'll add actions calls the **Best Practices Analyzer** toolbar button so that when you click on it, **Best Practices Analyzer** tab is displayed in the hosted control that you created in step 1.
 
 1. In the **Actions** area of **Settings** toolbar button, click **+** on the right corner to add an action call.  
   
@@ -218,7 +218,7 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the report—it can help you determine your next steps.
 
 > [!Note]
-> When you relaunch [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and select **BEST PRACTICES ANALYZER**, the last report that was generated appears in the report area.
+> When you relaunch [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and select **Best Practices Analyzer**, the last report that was generated appears in the report area.
 
 ## See also
 
