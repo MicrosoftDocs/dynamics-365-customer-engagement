@@ -26,12 +26,12 @@ You can install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shorte
 
 If you install it as an app:
 - You can view data only from your connected Voice of the Customer instance. 
-- The app is not automatically upgraded. 
+- The app is not automatically upgraded. You have to install the new version when it is available. The installation will create a new copy of the app instead of overwriting the existing one. Both copies of the app will be available under Apps section and can be distinguished by the date of installation.
 
 If you install it as a service content pack:
 - It's installed in the selected workspace. 
 - You can edit the data to comply with your requirements. 
-- The service content pack isn't automatically upgraded—when a newer version of the service content pack is available, you must install it again.
+- The service content pack isn't automatically upgraded—when a newer version of the service content pack is available, you must install it again. The new version will introduce copies of the dashboard, report, and dataset and won’t modify the already installed ones.
 
 After you install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] as a service content pack, you can also customize it to comply with your requirements and publish it as a service content pack or an app. You can also share the customized service content pack with other people in your organization. More information: [Create and publish apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) and [create and publish content pack](https://docs.microsoft.com/en-us/power-bi/service-organizational-content-pack-create-and-publish).
 
