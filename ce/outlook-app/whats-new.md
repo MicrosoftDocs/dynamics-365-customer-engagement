@@ -22,9 +22,9 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 ## March 30, 2018
-1. Email tracked in compose mode from Outlook Web Access displays correct status in Dynamics 365. 
-2. Accessibility fixes.
+1. Draft emails that are tracked in App for Outlook in compose mode from Outlook Web Access now display correct status in Dynamics 365. 
+2. Added accessibility enhancements to App for Outlook. 
 
 ## March 20, 2018 
-1. Fixed the issue of Track and Set Regarding commands not appearing for some users in App for Outlook.
-2. Email that was followed from Outlook desktop will not have a visible pixel link.  
+1. All Dynamics 365 version 9.x organizations can now access Track and Set Regarding commands in App for Outlook. 
+2. Follow emails using App for Outlook from Outlook desktop without seeing a visible pixel link in the email body. 
