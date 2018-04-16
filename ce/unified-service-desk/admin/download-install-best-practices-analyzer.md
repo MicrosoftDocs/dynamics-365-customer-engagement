@@ -36,7 +36,7 @@ Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../in
 
 [Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
 
-[Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-pratices-analyzer.md)
+[Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
