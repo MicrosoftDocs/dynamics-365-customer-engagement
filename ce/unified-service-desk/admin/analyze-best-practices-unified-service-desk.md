@@ -55,7 +55,7 @@ The matrix provides information about how you can obtain and use the [!INCLUDE[p
 
 [Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
 
-[Work with Best Practices Analyzer](../admin/work-best-practices-analyzer.md)
+[Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
 [Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Work with Best Practices Analyzer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about how to work with Best Practices Analyzer and access and read the Best Practices Analyzer report."
+title: "Read Best Practices Analyzer Report (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn about how to read Best Practices Analyzer report."
 ms.custom: ""
 ms.date: 04/24/2018
 ms.service: "usd"
@@ -16,28 +16,8 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Work with [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is a hosted control that helps you analyze the various parameters of your local computer (system configurations and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]), [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in Dynamics
-365, and Internet Explorer settings in your local computer. After the analysis, [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays a report that recommends mitigation steps in case of a warning or error.
-
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when you handle the warning and error as recommended—this helps you to serve your customers without interruption.
-
-## Start analysis
-
-To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations, and internet settings, against the best practices rules:
-
-1.  Sign in to the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Client application.
-
-2.  On the toolbar, select the **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** button.
-
-3.  To see the report, select **Start Analysis** in the leftmost pane.<br>
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the report—it can help you determine your next steps.
-
-> [!Note]
-> When you relaunch [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and select **BEST PRACTICES ANALYZER**, the last report that was generated appears in the report area.
-
-## Read [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] report
+# Read [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] report
 
 This section describes the layout of the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] report and provides information to help you understand the results of the analysis.
 
