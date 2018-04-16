@@ -37,8 +37,8 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
   
     |Field|Value|  
     |-----------|-----------|  
-    |Name|Best Practices Analyzer|  
-    |Display Name|Best Practices Analyzer|  
+    |Name|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|  
+    |Display Name|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|  
     |USD Component Type|USD Hosted Control|
     |Application is Global|Checked|  
     |Display Group|MainPanel|  
@@ -87,7 +87,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 <a name="Step3"></a>   
 ## Step 3: Add toolbar button
 
- In this step, you’ll create two buttons - **Settings** and **Best Practices Analyzer**.
+ In this step, you’ll create two buttons - **Settings** and **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.
   
 1. After you save the toolbar in step 2, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
   
@@ -102,23 +102,23 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
 
 3. Click **Save**.
 
-4. After you save the **Settings** toolbar button, Click **New** to create another button called **Best Practices Analyzer**.
+4. After you save the **Settings** toolbar button, Click **New** to create another button called **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.
 
 5. On the **New Toolbar Button** page, specify the following values:  
   
     |Field|Value|  
     |-----------|-----------|  
-    |Name|Best Practices Analyzer|
+    |Name|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|
     |Button Text|[[$Resources.BestPracticesAnalyzer]]|
-    |Tooltip|SetBest Practices Analyzertings|  
+    |Tooltip|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|  
     |Order|4|
 
 6. Click **Save**.
 
 <a name="Step4"></a>   
-## Step 4: Add action calls to display the Best Practices Analyzer
+## Step 4: Add action calls to display the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
-In this step, you'll add actions calls the **Best Practices Analyzer** toolbar button so that when you click on it, **Best Practices Analyzer** tab is displayed in the hosted control that you created in step 1.
+In this step, you'll add actions calls the **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** toolbar button so that when you click on it, **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** tab is displayed in the hosted control that you created in step 1.
 
 1. In the **Actions** area of **Settings** toolbar button, click **+** on the right corner to add an action call.  
   
@@ -130,20 +130,20 @@ In this step, you'll add actions calls the **Best Practices Analyzer** toolbar b
   
     |Field|Value|  
     |-----------|-----------|  
-    |Name|Action Call: Best Practices Analyzer|  
+    |Name|Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|  
     |Order|1|  
     |Hosted Control|CRM Global Manager|  
     |Action|CallDoAction|
-    |Data|action=default <br> application=Best Practices Analyzer|
+    |Data|action=default <br> application=[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|
   
 5. Click **Save**.
 
-6. In the **Actions** area, type `Action Call: Best Practices Analyzer` in the text box and Press **ENTER** or click on the search icon.
+6. In the **Actions** area, type `Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]` in the text box and Press **ENTER** or click on the search icon.
 
-7. Select the `Action Call: Best Practices Analyzer`. <br>
+7. Select the `Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]`. <br>
 The new action call is added to the **Settings** button.
 
-7. You’ll add another action call to the button to set the focus on the hosted control that show the Best Practices Analyzer in the client application. In the **Actions** area, click **+** on the right corner to add an action call.  
+7. You’ll add another action call to the button to set the focus on the hosted control that show the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in the client application. In the **Actions** area, click **+** on the right corner to add an action call.  
   
 8. In the search results box, click **New** in the lower right corner to create an action call for this toolbar button.  
   
@@ -151,17 +151,17 @@ The new action call is added to the **Settings** button.
   
     |Field|Value|  
     |-----------|-----------|  
-    |Name|Focus: Best Practices Analyzer|  
+    |Name|Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|  
     |Order|4|  
     |Hosted Control|Contoso Global Manager|  
     |Action|ShowTab|  
-    |Data|Best Practices Analyzer|
+    |Data|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|
 
 10. Click **Save**.
 
-11. In the **Actions** area, type `Focus: Best Practices Analyzer` in the text box and Press **ENTER** or click on the search icon.
+11. In the **Actions** area, type `Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]` in the text box and Press **ENTER** or click on the search icon.
 
-12. Select the `Focus: Best Practices Analyzer`.<br>
+12. Select the `Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]`.<br>
 The new action call is added to the **Settings** button.
 
 <a name="Step5"></a>   
@@ -172,10 +172,10 @@ The new action call is added to the **Settings** button.
 
 |Control name|Control type|  
 |------------------|------------------|  
-|Action Call: Best Practices Analyzer|Action Call|
-|Focus: Best Practices Analyzer|Action Call| 
+|Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|Action Call|
+|Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|Action Call| 
 |About Toolbar Container|Hosted Control|
-|Best Practices Analyzer|Hosted Control|
+|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|Hosted Control|
 |About Toolbar|Toolbar|
   
  To add a control to the configuration:  
@@ -190,7 +190,7 @@ The new action call is added to the **Settings** button.
   
 5.  On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
   
-6.  On the next page, click **Add Existing Action Call**, type `Action Call: Best Practices Analyzer` in the search bar, and then press **ENTER** or click the search icon.  
+6.  On the next page, click **Add Existing Action Call**, type `Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]` in the search bar, and then press **ENTER** or click the search icon.  
   
 7.  The action call listed earlier are displayed in the search results. Add these action call.
   
@@ -218,7 +218,7 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the report—it can help you determine your next steps.
 
 > [!Note]
-> When you relaunch [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and select **Best Practices Analyzer**, the last report that was generated appears in the report area.
+> When you relaunch [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and select **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**, the last report that was generated appears in the report area.
 
 ## See also
 
