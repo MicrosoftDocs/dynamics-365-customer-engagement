@@ -18,7 +18,7 @@ caps.latest.revision: 14
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Get started with customization
+# Get started with app making and customization
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
