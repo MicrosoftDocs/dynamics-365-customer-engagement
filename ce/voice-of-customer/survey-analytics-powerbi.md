@@ -26,7 +26,7 @@ You can install Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shorte
 
 If you install it as an app:
 - You can view data only from your connected Voice of the Customer instance. 
-- The app is automatically upgraded. 
+- The app is not automatically upgraded. 
 
 If you install it as a service content pack:
 - It's installed in the selected workspace. 
