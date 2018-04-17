@@ -1,7 +1,8 @@
 ---
-title: "Map entity fields (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Map entity fields in PowerApps | MicrosoftDocs"
+description: "Learn how to map entity fields"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/12/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,24 +11,25 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 7c5aa1c3-bde9-43f1-a369-fdcdbf14dec0
 caps.latest.revision: 33
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 tags: 
 ---
 # Map entity fields
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_mappingEntityFields"></a>   
  
  You can map attributes between entities that have an entity relationship. This lets you set default values for a record that is created in the context of another record. Let’s say that you want to add a new contact record for a person who is an employee for a specific account. You can do this in two different ways:  
   
- You could just navigate to **Sales** > **Contacts** and create a new contact record from scratch. But then you need to set the parent account and enter several items of information (such as address and phone information) which are probably the same as the parent account. This can be time consuming and introduces opportunities for errors.  
+ You could just navigate in the app to create a new contact record from scratch. But then you need to set the parent account and enter several items of information (such as address and phone information) which are probably the same as the parent account. This can be time consuming and introduces opportunities for errors.  
   
- The easier way is to start with the account entity and, using the **Contacts** subgrid on the form, click **+** to add a contact. It will first guide you to look up any existing related contacts so you don’t accidentally create a duplicate record. If you don’t find an existing record, you can click **New** and create a new contact record. The difference is that certain items of data from the account record will be copied into the new contact form to set certain default values that you can edit before saving. This can save a lot of time when you are entering data, and help reduce errors.  
+ The easier way is to start with the account entity and, using the **Contacts** subgrid on the form, select **+** to add a contact. It will first guide you to look up any existing related contacts so you don’t accidentally create a duplicate record. If you don’t find an existing record, you can select **New** and create a new contact record. The difference is that certain items of data from the account record will be copied into the new contact form to set certain default values that you can edit before saving. This can save a lot of time when you are entering data, and help reduce errors.  
  
   
 > [!NOTE]
@@ -59,29 +61,26 @@ tags:
   
 #### Create or edit mapping between fields  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open solution explorer. 
   
-2.  Click **Customize the System**.  
+2. Under **Components**, expand **Entities**, and then expand the entity you want.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+3.  Select either **1:N Relationships** or **N:1 Relationships**.  
   
-4.  Click either **1:N Relationships** or **N:1 Relationships**.  
+4.  In the main pane, in the **Type** list, select **Mappable**.  
   
-5.  In the main pane, in the **Type** list, select **Mappable**.  
+5.  Select a mappable relationship. Then, on the Actions toolbar, select **Actions**, and then select **Edit**.  
+6.  Under **Related**, select **Mappings**.  
   
-6.  Select a mappable relationship. Then, on the Actions toolbar, click **Actions**, and then click **Edit**.  
+7.  For each new mapping, on the **Actions** toolbar, select **New**.  
   
-7.  Under **Related**, click **Mappings**.  
+8. In the **Create Field Mapping** dialog box, select the source field from **Source Entity Fields**. Select the target field from **Target Entity Fields**.  
   
-8.  For each new mapping, on the **Actions** toolbar, click **New**.  
+9. Select **OK**.  
   
-9. In the **Create Field Mapping** dialog box, select the source field from **Source Entity Fields**. Select the target field from **Target Entity Fields**.  
+10. Select **Save and Close** to close the **Relationship** form.  
   
-10. Click **OK**.  
-  
-11. Click **Save and Close** to close the **Relationship** form.  
-  
-12. When your customizations are complete, publish them  
+11. When your customizations are complete, publish them  
   
 > [!NOTE]
 > - After publishing customizations, these mappings are available for all users. If you reset [!INCLUDE[pn_Internet_Information_Services](../includes/pn-internet-information-services.md)] before you publish customizations, these mappings are available for all users, even though other customizations won’t be available.  
