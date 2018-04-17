@@ -20,5 +20,4 @@ tags:
 ---
 # Deploy Dynamics 365 App for Outlook version 8.2 
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../../../../includes/cc_applies_to_update_8_2_0.md)]
-
+[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
