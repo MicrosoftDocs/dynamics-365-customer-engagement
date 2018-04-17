@@ -34,95 +34,140 @@ manager: "amyla"
 
 <table>
 <tr>
-<th>ActivityTypeMask</th>
+<th>Attribute Name</th>
 <th>Number</th>
 <th>Description</th>
 </tr>
 <tr>
-<td><code>AutoRouteToOwnerQueue</code></td>
+<td>ActivityTypeMask</td>
+<td>Number</td>
+<td>Whether a custom activity should appear in the activity menus in the Web application.</td>
+</tr>
+<tr>
+<td>AutoRouteToOwnerQueue</td>
 <td>Boolean</td>
 <td>Indicates whether to automatically move records to the owner’s default queue when a record of this type is created or assigned. </td>
 </tr>
 
 <tr>
-<td><code>CanEnableSyncToExternalSearchIndex</code></td>
+<td>CanEnableSyncToExternalSearchIndex</td>
 <td>Boolean</td>
 <td>For internal use only.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
-<td>String</td>
+<td>CanTriggerWorkflow</td>
+<td>Boolean</td>
 <td>Indicates whether the entity can trigger a workflow process.</td>
 </tr>
 <tr>
-<td><code>Description</code></td>
+<td>Description</td>
 <td>String</td>
 <td>Description for the entity.</td>
 </tr>
 <tr>
-<td><code>DisplayCollectionName</code></td>
+<td>DisplayCollectionName</td>
 <td>String</td>
 <td>Plural display name for the entity.</td>
 </tr>
 <tr>
-<td><code>DisplayName</code></td>
+<td>DisplayName</td>
 <td>String</td>
 <td>Display name for the entity.</td>
 </tr>
 <tr>
-<td><code>EnforceStateTransitions</code></td>
+<td>EnforceStateTransitions</td>
 <td>Boolean</td>
 <td>Indicates whether the entity will enforce custom state transitions.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
-<td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>EntityColor</td>
+<td>String</td>
+<td>The hexadecimal code to represent the color to be used for this entity in the application.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
-<td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>EntitySetName</td>
+<td>String</td>
+<td>The name of the Web API entity set for this entity.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>HasActivities</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether activities are associated with this entity.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>IsActivity</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether the entity is an activity.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>IsActivityParty</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether the email messages can be sent to an email address stored in a record of this type.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>IsBusinessProcessEnabled</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether the entity is enabled for business process flows.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>IsBPFEntity</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether the entity is a business process flow entity.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>IsChildEntity</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether the entity is a child entity.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>IsConnectionsEnabled</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether connections are enabled for this entity.</td>
 </tr>
 <tr>
-<td><code>CanTriggerWorkflow</code></td>
+<td>IsCustomEntity</td>
 <td>Boolean</td>
-<td>Indicates whether the entity can trigger a workflow process.</td>
+<td>Indicates whether the entity is a custom entity.</td>
+</tr>
+<tr>
+<td>IsCustomizable</td>
+<td>Boolean</td>
+<td>Indicates whether the entity is customizable.</td>
+</tr>
+<tr>
+<td>IsDocumentManagementEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether document management is enabled.</td>
+</tr>
+<tr>
+<td>IsDocumentRecommendationsEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether the documemt recommendations is enabled.</td>
+</tr>
+<tr>
+<td>IsDuplicateDetectionEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether duplicate detection is enabled.</td>
+</tr>
+<tr>
+<td>IsEnabledForCharts</td>
+<td>Boolean</td>
+<td>Indicates whether charts are enabled.</td>
+</tr>
+<tr>
+<td>IsImportable</td>
+<td>Boolean</td>
+<td>Indicates whether the entity can be imported using the Import Wizard.</td>
+</tr>
+<tr>
+<td>IsInteractionCentricEnabled</td>
+<td>Boolean</td>
+<td>Indicates the entity is enabled for interactive experience.</td>
+</tr>
+<tr>
+<td>IsKnowledgeManagementEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether knowledge management is enabled for the entity.</td>
 </tr>
 
 
