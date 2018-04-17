@@ -11,7 +11,7 @@ ms.assetid: 0742a7c8-2fe9-483b-baa6-1907edad0300
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
+topic-status: Editing
 ---
 
 # Accessibility for Microsoft Social Engagement
