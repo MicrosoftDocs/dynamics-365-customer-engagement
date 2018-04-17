@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/07/2018
+ms.date: 04/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
