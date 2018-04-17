@@ -131,7 +131,7 @@ The **msdyn_RetrieveTypeValuesFromDCI** action expects the following input param
 <li>accountmostcontactedbyviaemail 
 <li>accountmostcontactedbyviaphonecall 
 <li>accountmostcontactednumberofemails 
-<li>accountmostcontactednumberofmeetings", "none"}, 
+<li>accountmostcontactednumberofmeetings 
 <li>accountmostcontactednumberofphonecalls 
 <li>accountmostcontactedviaappointment 
 <li>accountmostcontactedviaemail 
