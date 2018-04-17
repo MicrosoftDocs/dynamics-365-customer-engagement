@@ -1,6 +1,6 @@
 ---
-title: "Opt out of data analytics (GDPR) (Dynamics 365 Customer Engagement) | Microsoft Docs  "
-description: "Opt out to ensure that no analytics is performed on your data when using Embedded Intelligence."
+title: "Opt out of relationship analytics (GDPR) (Dynamics 365 Customer Engagement) | Microsoft Docs  "
+description: "Opt out to ensure that no relationship analytics is performed on your data when using Embedded Intelligence."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 04/18/2018
 ms.service: crm-online
@@ -14,14 +14,17 @@ ms.author: kvivek
 manager: kvivek
 ---
 
-# Opt out of data analytics (GDPR)
+# Opt out of relationship analytics (GDPR)
 
 Applies to Dynamics 365 (online), version 9.0.2
 
-A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](configure-enable-embedded-intelligence.md) the Embedded Intelligence feature. The field lets you specify whether analytics will be performed on the entity record's data.
+A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optout**) is added to the Contact, Lead, and SystemUser entities when you [enable](configure-enable-embedded-intelligence.md) the Embedded Intelligence feature in your Dynamics 365 instance. The field lets you specify whether relationship analytics will be performed on the entity record's data.
 
-- Setting the **GDPR Optout** field to "yes/true" will prohibit any analytics to be performed on the entity record's data.
-- Setting the **GDPR Optout** field to "no/false" will allow analytics to be performed on the entity record's data.
+- Setting the **GDPR Optout** field to "yes/true" will prohibit any relationship analytics to be performed on the entity record's data.
+- Setting the **GDPR Optout** field to "no/false" will allow relationship analytics to be performed on the entity record's data.
+
+> [!NOTE]
+> For the [Auto Capture](../admin/auto-capture.md) feature, if you set the **GDPR Optout** field to "yes/true" for a Contact or Lead record, email data for such records won't be displayed in the respective Contact or Lead forms.
 
 ## Setting the GDPR Optout field using UI
 

@@ -25,6 +25,9 @@ View KPI data for account, contact, lead, and opportunity using system views, an
 - **Lead KPI Items**
 - **Opportunity KPI Items**
 
+> [!NOTE]
+> This topic is applicable only for the [Relationship Analytics](../admin/relationship-analytics.md) feature.
+
 You can use the system views for these entities or create your own views to view the data.
 
 1.  Go to **Advanced Find**.

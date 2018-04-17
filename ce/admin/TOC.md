@@ -249,7 +249,7 @@
 ## [Display emails](auto-capture.md)
 ## [View customer activity history](relationship-analytics.md)
 ## [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
-### [Opt out of data analytics (GDPR)](optout-data-analytics-gdpr.md)
+### [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
 ### [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
 ### [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 

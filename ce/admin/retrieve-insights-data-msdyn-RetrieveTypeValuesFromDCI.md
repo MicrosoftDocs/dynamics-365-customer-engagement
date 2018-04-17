@@ -1,6 +1,6 @@
 ---
 title: "Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action (Dynamics 365 Customer Engagement) | Microsoft Docs  "
-description: "Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored in Dynamics 365 for Customer Insights"
+description: "Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs for an account, contact, lead or opportunity that is stored Azure service that is used to compute and store data"
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 04/18/2018
 ms.service: crm-online
@@ -18,10 +18,11 @@ manager: kvivek
 
 Applies to Dynamics 365 (online), version 9.0.2
 
-Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs stored in Dynamics 365 for Customer Insights for an account, contact, lead or opportunity. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Embedded Intelligence.
+Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an account, contact, lead or opportunity. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Embedded Intelligence.
 
-> [!TIP]
-> You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](../../developer/create-own-actions.md#generate-early-bound-types-for-an-action)
+> [!NOTE]
+> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](../../developer/create-own-actions.md#generate-early-bound-types-for-an-action)
+> - This topic is applicable only for the [Relationship Analytics](../admin/relationship-analytics.md) feature.
 
 ## Action parameters
 
@@ -424,7 +425,7 @@ OData-Version: 4.0
 
 **Response**
 
-The response contains a JSON object with a `ResponseValues` property containing the list of data stored in Dynamics 365 for Customer Insights.
+The response contains a JSON object with a `ResponseValues` property containing the list of data stored in Azure service that is used to compute and store data.
 
 ```http
 HTTP/1.1 200 OK  
