@@ -1,7 +1,7 @@
 ---
 title: "Manage Dynamics 365 (online) updates | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/07/2018
+ms.date: 04/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,9 +29,11 @@ You have options for when you update your Dynamics 365 Online organization to [!
 2.  Approve the update.  
   
     > [!IMPORTANT]
-    >  Your instance will not be updated unless you approve it. This means your organization will go without the latest features and functionality until you explicitly give approval for the update to happen. Keep in mind, we do have an update policy that will make some updates mandatory, with no approval required. Please see [Update policy](../admin/manage-updates.md#BKMK_Policy) below for further details.  
+    > An update in this document refers to a major version release, such as upgrading from Dynamics 365 version 8.2 to version 9.0. [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases) do not require approval and are applied automatically to your instance.
+
+    > For major version updates, your instance will not be updated unless you approve it. This means your organization will go without the latest features and functionality until you explicitly give approval for the update to happen. Keep in mind, we do have an update policy that will make some updates mandatory, with no approval required. Please see [Update policy](../admin/manage-updates.md#BKMK_Policy) below for further details. 
   
- You’ll receive an email before the service update is available with a scheduled update date. This email will also include instructions about how to reschedule the update, if you choose. You’ll receive reminders 90, 30, 15, and 7 days before the update begins. The service update will happen during a 12-hour window, and during that time your organization might be unavailable for several hours. Most updates typically take 2-4 hours. We’ll let you know when your organization is updated and ready to use. For more information, see the [Schedule for update communications](../admin/manage-updates.md#BKMK_CommSchedule) later in this topic.  
+ You’ll receive an email before the update is available with a scheduled update date. This email will also include instructions about how to reschedule the update, if you choose. You’ll receive reminders 90, 30, 15, and 7 days before the update begins. The update will happen during a 12-hour window, and during that time your organization might be unavailable for several hours. Most updates typically take 2-4 hours. We’ll let you know when your organization is updated and ready to use. For more information, see the [Schedule for update communications](../admin/manage-updates.md#BKMK_CommSchedule) later in this topic.  
   
 <a name="BKMK_UpdateDynamics365"></a> 
   
@@ -332,13 +334,15 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
  ![Successful reschedule of Dynamics 365 (online) update](../admin/media/customer-driven-update-notice-5e.png "Successful reschedule of Dynamics 365 (online) update")  
   
 <a name="BKMK_PrepareforUpdate"></a>   
+
 ## Prepare your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization for the update  
- [!INCLUDE[pn_crm_online_2016_update](../includes/pn-crm-online-2016-update.md)] contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
+ Dynamics 365, version 9.0 contains a number of exciting changes. To take advantage of new features, you need to ensure any customizations are compatible with this update.  
   
 ### Prepare your users  
  To prepare your users for the changes to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], visit [What's new in Dynamics 365 (online), version 9](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9).  
   
 <a name="BKMK_Checklist"></a>   
+
 ## Checklist for the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] update  
  Most of the update process is handled by [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)]. However, there are a few things that you must do to prepare.  
   
