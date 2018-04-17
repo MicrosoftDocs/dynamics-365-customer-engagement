@@ -19,7 +19,7 @@ author: kabala123
 ms.author: kabala
 manager: sakudes
 ---
-# [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data compliance under GDPR (Dynamics 365 Customer Engagement)
+# [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] data compliance under GDPR
 
 Data definitions and stages are outlined in the GDPR. Let's look at the following data contained in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and see how they relate to those outlined in the GDPR:
 
@@ -87,4 +87,4 @@ The category of telemetry that [!INCLUDE[pn_unified_service_desk](../../includes
 
 ## See also
 
-[Comply with General Data Protection Regulation (GDPR) (Dynamics 365 Customer Engagement)](comply-gdpr.md)
+[Comply with General Data Protection Regulation (GDPR)](comply-gdpr.md)

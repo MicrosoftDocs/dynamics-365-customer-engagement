@@ -19,7 +19,7 @@ author: kabala123
 ms.author: kabala
 manager: sakudes
 ---
-# Comply with the General Data Protection Regulation (GDPR) ([!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Customer Engagement)
+# Comply with the General Data Protection Regulation (GDPR)
 
 ## Introduction
 The General Data Protection Regulation (GDPR) imposes new rules on organizations in the European Union (EU) and those that offer goods and services to people in the EU, or those that collect and analyze data tied to EU residents, regardless of where they are located.
@@ -49,4 +49,4 @@ The GDPR makes clear that the concept of personal data includes online identifie
 
 ## See also
 
-[Unified Service Desk data compliance under GDPR (Dynamics 365 Customer Engagement)](comply-unified-service-desk-data-gdpr.md)
+[Unified Service Desk data compliance under GDPR](comply-unified-service-desk-data-gdpr.md)
