@@ -54,7 +54,7 @@ Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phone
 - Offline search.
   - Available only for offline entities. User can search only one entity at a time. Only categorized search is supported in offline and not relevant search.
   - Date field isn't available for mobile offline search. 
-- **&Security modelling.**
+- Security modelling.
   - Mobile offline honors the [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] security model. It also supports the hierarchical security model.  
   - Field level security and attribute sharing aren't supported for offline. 
 - Offline save after network connection loss. If a user loses their network connection while working on a record, the updates on the record will be saved in the offline mode and will be synchronized to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] after the user goes back online. After the record is synchronized to [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)], it follows the filter rule for availability in offline mode. 
