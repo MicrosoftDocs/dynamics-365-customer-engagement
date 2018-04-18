@@ -41,18 +41,25 @@ A subscription confirmation-request message is sent to contacts each time they r
 To create a subscription confirmation-request message:
 
 1. Go to **Marketing execution** > **Marketing emails** to open the marketing email list view.
+
 1. Select **New** to create a new message.
+
 1. Choose the **Subscription confirmation-request message** template, which is already prepared with the following:
+
     - Default content that includes Handlebars expressions to place the recommended dynamic content
     - A confirmation button preconfigured with the required target URL (as a Handlebars expression)
     - The **Legal designation** set to **Transactional**
+    
+    See also the example given after this procedure.
 
-See also the example given after this procedure.
-
-**Note**: The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
+    > [!NOTE]
+    > The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
 
 1. Customize the message as required.
-2. Check for errors and go live.
+
+1. Check for errors and go live.
+
+![Dynamics elements in a subscription confirmation-request message](media/doi-subscription-confirm-message.png "Dynamics elements in a subscription confirmation-request message")
 
 The previous illustration highlights important elements provided by the **Subscription confirmation-request message** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. These are:
 
@@ -61,6 +68,8 @@ The previous illustration highlights important elements provided by the **Subscr
 - **{{ContentSettings.OptInURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
 The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription-list record with the **Name** and **Description** fields highlighted. These are the values that you can include in your subscription confirmation-request message.
+
+![Subscription list settings available to confirmation-request messages](media/doi-sub-list-settings.png "Subscription list settings available to confirmation-request messages")
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Prepare marketing email messages](prepare-marketing-emails.md), [Set up subscription lists and subscription centers](set-up-subscription-center.md)
 
@@ -73,19 +82,25 @@ The increase consent confirmation-request message is sent to contacts each time 
 To create an increase consent confirmation-request message:
 
 1. Go to **Marketing execution** > **Marketing emails** to open the marketing email list view.
-2. Select **New** to create a new message.
-3. Choose the **Consent confirmation-request message** template, which is already prepared with the following:
+
+1. Select **New** to create a new message.
+
+1. Choose the **Consent confirmation-request message** template, which is already prepared with the following:
+
     - Default content that includes Handlebars expressions to place the recommended dynamic content
     - A confirmation button preconfigured with the required target URL (as a Handlebars expression)
     - The **Legal designation** set to **Transactional**
 
-See also the example given after this procedure.
-
-**Note**: The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
+    See also the example given after this procedure.
+    
+    > [!NOTE]
+    > The show-as-webpage feature doesn't work with confirmation-consent messages, so it's not included in the template and you shouldn't try to add it.
 
 1. Customize the message as required.
-2. Check for errors and go live.
 
+1. Check for errors and go live.
+
+![Dynamics elements in an increase consent confirmation-request message](media/doi-consent-confirm-message.png "Dynamics elements in an increase consent confirmation-request message")
 
 The previous illustration highlights important elements provided by the **Consent confirmation-request message** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. These are:
 
@@ -94,6 +109,8 @@ The previous illustration highlights important elements provided by the **Consen
 - **{{ContentSettings.OptInURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
 The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. You must use the [Dynamics 365 – custom](navigation.md#move-between-apps) app to read and edit these values (see also [Create and edit global option sets](../customize/create-edit-global-option-sets.md)).
+
+![Consent option-set values available to confirmation-request messages](media/doi-consent-level-options.png "Consent option-set values available to confirmation-request messages")
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Data protection and the GDPR](gdpr.md)
 
@@ -127,12 +144,18 @@ Before you start to setup and enable double opt-in, make sure you have all the o
 To setup and enable the double opt-in system:
 
 1. Go to **Settings** > **Advanced Settings** > **Marketing Settings** > **Default marketing settings.**
+
 1. A list of default settings records opens. Usually there will be just one record here. Open the available record--or the one that is currently active (which as its **Default** field set to **Yes** ).
-1.Open the **Double opt-in** tab on the **Default marketing settings** page.
+
+1. Open the **Double opt-in** tab on the **Default marketing settings** page.  
+    ![The Double opt-in tab for Marketing settings](media/doi-marketing-settings.png "The Double opt-in tab for Marketing settings")
+
 1. Make the following settings:
+
     - **Enable double opt-in**: Set to **Yes** to enable double opt-in on your instance. Set to **No** to disable it.
     - **New subscription**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
     - **Increase consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
     - **Content settings**: Identify the content-settings record you chose to use for all double opt-in messages.
     - **Default thank-you page**: Enter the URL for the thank-you page you created to show to contacts after they confirm a request.
+
 5. Select the **Save** button in the bottom-right corner to save your settings.
