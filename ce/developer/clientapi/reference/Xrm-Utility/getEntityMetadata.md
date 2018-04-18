@@ -252,9 +252,14 @@ manager: "amyla"
 <tr>
 <td>Privileges</td>
 <td>Array of objects</td>
-<td>The privilege metadata for the entity where each object contains the following attributes to define the security privilege for access to an entity
-:
-<ul></td>
+<td>The privilege metadata for the entity where each object contains the following attributes to define the security privilege for access to an entity:
+<ul>
+<li><b>CanBeBasic</b>: Boolean. Whether the privilege can be basic access level.</li>
+<li><b>CanBeDeep</b>: Boolean. Whether the privilege can be deep access level.</li>
+<li><b>CanBeEntityReference</b>: Boolean. Whether the privilege for an external party can be basic access level.</li>
+<li><b>CanBeGlobal</b>: Boolean. Whether the privilege can be global access level.</li>
+<li><b>CanBeLocal</b>: Boolean. Whether the privilege can be local access level.</li>
+</ul></td>
 </tr>
 <tr>
 <td>Attributes</td>
