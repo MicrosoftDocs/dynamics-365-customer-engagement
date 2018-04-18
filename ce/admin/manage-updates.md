@@ -22,7 +22,7 @@ manager: "brycho"
 
 You have options for when you update your Dynamics 365 Online organization to [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. To prepare for a smooth process, use the information in this topic.
   
- You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
+ You, as a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system administrator, decide when to install [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] major updates for your organization. To update to the latest release of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], complete these two steps:  
   
 1.  Review the information in the Updates page in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Administration Center ([https://portal.office.com](https://portal.office.com) > **Admin centers** > **Dynamics 365** > **Updates** tab) to find out what instances are ready to update, and the schedule.  
   
@@ -49,9 +49,9 @@ You have options for when you update your Dynamics 365 Online organization to [!
 <a name="BKMK_Policy"></a>   
 
 ## Update policy  
- Microsoft delivers new features and improvements to the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service twice a year through service updates. To ensure our customers always get the best possible value, we advise customers to run the latest version of the service. However, we also realize that in certain circumstances, some customers are unable to update their solutions with the frequency of our service updates.  
+ Microsoft delivers new features and improvements to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] twice a year through updates. To ensure our customers always get the best possible value, we advise customers to run the latest version. However, we also realize that in certain circumstances, some customers are unable to update their solutions with the frequency of our updates.  
   
- We enhanced the customer experience by giving customers the ability to provide consent prior to updating their organization. Customers today have a wide choice of days to choose from to best suit their business, and we will continue to provide that flexibility for service updates. Customers have the choice to take the two updates as they become available, or take only one update per year. If a customer chooses to take only one update per year, this update becomes mandatory and the customer will be required to take the update during the available dates for that release.  
+ We enhanced the customer experience by giving customers the ability to provide consent prior to updating their organization. Customers today have a wide choice of days to choose from to best suit their business, and we will continue to provide that flexibility for updates. Customers have the choice to take the two updates as they become available, or take only one update per year. If a customer chooses to take only one update per year, this update becomes mandatory and the customer will be required to take the update during the available dates for that release.  
   
  In other words, at any given point a customer must be on the current version (n) or a version prior (n-1). For example, if you are on **n-2** and chose not to take the available **n-1**, then you would need to take **n** as a mandatory update. This policy is intended to provide the latest and greatest features and platform experience to our customers to ultimately suit their business needs.  
 
