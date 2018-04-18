@@ -33,13 +33,13 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
  ![Outlook email screen with Dynamics 365 App for Outlook pane](../media/outlook-email-screen-dynamics-365-app-outlook-pane.png "Outlook email screen with Dynamics 365 App for Outlook pane")  
   
- Go to [User's Guide for the latest version (Dynamics 365)](dynamics-365-app-outlook-user-s-guide.md#Latest)  
+ Go to [User's Guide for the latest version (Dynamics 365)](dynamics-365-app-outlook-user-s-guide-v8.md#Latest)  
   
  If your screen looks like the following, you're using the version included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)]:  
   
  ![Dynamics 365 App for Outlook screen showing inline data](../media/crm-app-outlook-preview-notrack.png "Dynamics 365 App for Outlook screen showing inline data")  
   
- Go to [User's Guide for the previous version (Dynamics CRM)](dynamics-365-app-outlook-user-s-guide.md#Previous)  
+ Go to [User's Guide for the previous version (Dynamics CRM)](dynamics-365-app-outlook-user-s-guide-v8.md#Previous)  
   
 <a name="Latest"></a>   
 ## User's Guide for the latest version (Dynamics 365)  
@@ -47,31 +47,31 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
  **In this section:**  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](dynamics-365-app-outlook-user-s-guide.md#Overview)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](dynamics-365-app-outlook-user-s-guide-v8.md#Overview)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites](dynamics-365-app-outlook-user-s-guide.md#Prerequisites)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites](dynamics-365-app-outlook-user-s-guide-v8.md#Prerequisites)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add the app to Outlook](dynamics-365-app-outlook-user-s-guide.md#Install)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add the app to Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Install)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Disable or remove the Outlook app](dynamics-365-app-outlook-user-s-guide.md#Disable)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Disable or remove the Outlook app](dynamics-365-app-outlook-user-s-guide-v8.md#Disable)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Use the app for the first time](dynamics-365-app-outlook-user-s-guide.md#Access)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Use the app for the first time](dynamics-365-app-outlook-user-s-guide-v8.md#Access)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an email message or meeting to a specific Dynamics 365 record](dynamics-365-app-outlook-user-s-guide.md#Track)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an email message or meeting to a specific Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#Track)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Compose an email message and link it to a Dynamics 365 record](dynamics-365-app-outlook-user-s-guide.md#ComposeEmail)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Compose an email message and link it to a Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#ComposeEmail)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Monitor an email message after you send it](dynamics-365-app-outlook-user-s-guide.md#EE)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Monitor an email message after you send it](dynamics-365-app-outlook-user-s-guide-v8.md#EE)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add an email template when you create an email message](dynamics-365-app-outlook-user-s-guide.md#Template)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add an email template when you create an email message](dynamics-365-app-outlook-user-s-guide-v8.md#Template)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add sales literature or a knowledge base article when you create an email message](dynamics-365-app-outlook-user-s-guide.md#KB)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add sales literature or a knowledge base article when you create an email message](dynamics-365-app-outlook-user-s-guide-v8.md#KB)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an appointment to a specific Dynamics 365 record](dynamics-365-app-outlook-user-s-guide.md#ComposeAppointment)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an appointment to a specific Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#ComposeAppointment)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add a phone call, appointment, or task activity to Dynamics 365](dynamics-365-app-outlook-user-s-guide.md#Activity)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add a phone call, appointment, or task activity to Dynamics 365](dynamics-365-app-outlook-user-s-guide-v8.md#Activity)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track Outlook contacts in Dynamics 365](dynamics-365-app-outlook-user-s-guide.md#Contacts)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track Outlook contacts in Dynamics 365](dynamics-365-app-outlook-user-s-guide-v8.md#Contacts)  
   
 <a name="Overview"></a>   
 ### What Dynamics 365 App for Outlook offers  
@@ -261,7 +261,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
      ![Select an email template in Dynamics 365 App for Outlook](../media/select-an-email-templatte-dynamics-365-app-outlook.png "Select an email template in Dynamics 365 App for Outlook")  
   
-     For information on creating email templates in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Create templates for email](../Topic/Create%20templates%20for%20email.md) .  
+     For information on creating email templates in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Create templates for email](../../admin/create-templates-email.md).  
   
 <a name="KB"></a>   
 ### Add sales literature or a knowledge base article when you create an email message  
@@ -477,23 +477,23 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
  **In this section:**  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](dynamics-365-app-outlook-user-s-guide.md#Overview2)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [What Dynamics 365 App for Outlook offers](dynamics-365-app-outlook-user-s-guide-v8.md#Overview2)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites for adding and using Dynamics Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide.md#Prerequisites2)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Prerequisites for adding and using Dynamics Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Prerequisites2)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add the app to Outlook](dynamics-365-app-outlook-user-s-guide.md#Install2)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add the app to Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#Install2)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Use the app for the first time](dynamics-365-app-outlook-user-s-guide.md#Access)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Use the app for the first time](dynamics-365-app-outlook-user-s-guide-v8.md#Access)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track an incoming email message from an unknown sender](dynamics-365-app-outlook-user-s-guide.md#Track2)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track an incoming email message from an unknown sender](dynamics-365-app-outlook-user-s-guide-v8.md#Track2)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Create an email message, and then track it](dynamics-365-app-outlook-user-s-guide.md#Compose)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Create an email message, and then track it](dynamics-365-app-outlook-user-s-guide-v8.md#Compose)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Preview information about a sender that’s already stored in Dynamics 365 as a lead or contact](dynamics-365-app-outlook-user-s-guide.md#Preview)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Preview information about a sender that’s already stored in Dynamics 365 as a lead or contact](dynamics-365-app-outlook-user-s-guide-v8.md#Preview)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Change the regarding record for a tracked email message](dynamics-365-app-outlook-user-s-guide.md#ChangeRegarding)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Change the regarding record for a tracked email message](dynamics-365-app-outlook-user-s-guide-v8.md#ChangeRegarding)  
   
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [Open a Dynamics 365 record from Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide.md#OpenRecord)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Open a Dynamics 365 record from Dynamics 365 App for Outlook](dynamics-365-app-outlook-user-s-guide-v8.md#OpenRecord)  
   
 <a name="Overview2"></a>   
 ### What Dynamics 365 App for Outlook offers  
