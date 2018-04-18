@@ -1,4 +1,4 @@
-# [PowerApps Developer Docs](../overview.md)
+# [PowerApps Developer Docs](/powerapps/developer/overview)
 # [Client scripting in model-driven apps using JavaScript](client-scripting.md)
 ## [Events in forms and grids](events-forms-grids.md)
 ## [Understand Client API object model](understand-clientapi-object-model.md)
