@@ -36,7 +36,9 @@ Read this topic to learn how to set up each element required for the double opt-
 
 A subscription confirmation-request message is sent to contacts each time they register for a new newsletter subscription while double opt-in is enabled for your site. This applies both to known contacts using a subscription center, and for new contacts registering on your site for the first time.
 
-**Note**: [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] sends a separate confirmation-request message for each subscription list a contact chooses to join, even if they enable several lists at once.
+
+> [!NOTE]
+> [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] sends a separate confirmation-request message for each subscription list a contact chooses to join, even if they enable several lists at once.
 
 To create a subscription confirmation-request message:
 
