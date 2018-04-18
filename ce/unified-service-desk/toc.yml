@@ -380,7 +380,7 @@
   - name: Use custom hosted control in Unified Service Desk
     href: use-custom-hosted-control-unified-service-desk.md
     items:
-    - name: 'Walkthrough: Create custom hosted control for Unified Service Desk'
+    - name: "Walkthrough: Create custom hosted control for Unified Service Desk"
       href: walkthrough-create-custom-hosted-control-for-unified-service-desk.md
     - name: Use SafeDispatcher for custom hosted controls in Unified Service Desk
       href: use-safedispatcher-custom-hosted-controls-unified-service-desk.md
@@ -468,19 +468,19 @@
 - name: Support for Unified Interface Apps
   href: Support-unified-interfaces-apps-usd.md
   items:
-    - name: 'Preview feature: Walkthrough 1'
+    - name: "Preview feature: Walkthrough 1"
       href: walkthrough1-unified-interface-build-a-simple-agent-application.md
-    - name: 'Preview feature: Walkthrough 2'
+    - name: "Preview feature: Walkthrough 2"
       href: walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md
-    - name: 'Preview feature: Walkthrough 3'
+    - name: "Preview feature: Walkthrough 3"
       href: walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md
-    - name: 'Preview feature: Walkthrough 4'
+    - name: "Preview feature: Walkthrough 4"
       href: walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md
-    - name: 'Preview feature: Walkthrough 5'
+    - name: "Preview feature: Walkthrough 5"
       href: walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md
-    - name: 'Preview feature: Walkthrough 6'
+    - name: "Preview feature: Walkthrough 6"
       href: walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md
-    - name: 'Preview feature: Walkthrough 7'
+    - name: "Preview feature: Walkthrough 7"
       href: walkthrough7-unified-interface-configure-agent-scripting-agent-application.md
-    - name: 'Preview feature: Walkthrough 8'
+    - name: "Preview feature: Walkthrough 8"
       href: walkthrough8-unified-interface-use-parature-knowledge-base-within-your-agent-application
