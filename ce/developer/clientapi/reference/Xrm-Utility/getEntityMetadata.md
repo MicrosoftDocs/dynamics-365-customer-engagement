@@ -41,7 +41,7 @@ manager: "amyla"
 <tr>
 <td>ActivityTypeMask</td>
 <td>Number</td>
-<td>Whether a custom activity should appear in the activity menus in the Web application.</td>
+<td>Whether a custom activity should appear in the activity menus in the Web application. 0 indicates that the custom activity doesn't appear; 1 indicates that it does appear.</td>
 </tr>
 <tr>
 <td>AutoRouteToOwnerQueue</td>
@@ -168,6 +168,98 @@ manager: "amyla"
 <td>IsKnowledgeManagementEnabled</td>
 <td>Boolean</td>
 <td>Indicates whether knowledge management is enabled for the entity.</td>
+</tr>
+<tr>
+<td>IsMailMergeEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether mail merge is enabled for this entity.</td>
+</tr>
+<tr>
+<td>IsManaged</td>
+<td>Boolean</td>
+<td>Indicates whether the entity is part of a managed solution.</td>
+</tr>
+<tr>
+<td>IsOneNoteIntegrationEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether OneNote integration is enabled for the entity.</td>
+</tr>
+<tr>
+<td>IsOptimisticConcurrencyEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether optimistic concurrency is enabled for the entity.</td>
+</tr>
+<tr>
+<td>IsQuickCreateEnabled</td>
+<td>Boolean</td>
+<td>Indicates whether the entity is enabled for quick create forms.</td>
+</tr>
+<tr>
+<td>IsStateModelAware</td>
+<td>Boolean</td>
+<td>Indicates whether the entity supports setting custom state transitions.</td>
+</tr>
+<tr>
+<td>IsValidForAdvancedFind</td>
+<td>Boolean</td>
+<td>Indicates whether the entity is will be shown in Advanced Find.</td>
+</tr>
+<tr>
+<td>IsVisibleInMobileClient</td>
+<td>Boolean</td>
+<td>Indicates whether Microsoft Dynamics 365 for tablets users can see data for this entity.</td>
+</tr>
+<tr>
+<td>IsEnabledInUnifiedInterface</td>
+<td>Boolean</td>
+<td>Indicates whether the entity is enabled for Unified Interface.</td>
+</tr>
+<tr>
+<td>LogicalCollectionName</td>
+<td>String</td>
+<td>The logical collection name.</td>
+</tr>
+<tr>
+<td>LogicalName</td>
+<td>String</td>
+<td>The logical name for the entity.</td>
+</tr>
+<tr>
+<td>ObjectTypeCode</td>
+<td>Number</td>
+<td>The entity type code.</td>
+</tr>
+<tr>
+<td>OwnershipType</td>
+<td>String</td>
+<td>The ownership type for the entity: "UserOwned" or "OrganizationOwned".</td>
+</tr>
+<tr>
+<td>PrimaryIdAttribute</td>
+<td>String</td>
+<td>The name of the attribute that is the primary id for the entity.</td>
+</tr>
+<tr>
+<td>PrimaryImageAttribute</td>
+<td>String</td>
+<td>The name of the primary image attribute for an entity.</td>
+</tr>
+<tr>
+<td>PrimaryNameAttribute</td>
+<td>String</td>
+<td>The name of the primary attribute for an entity.</td>
+</tr>
+<tr>
+<td>Privileges</td>
+<td>Array of objects</td>
+<td>The privilege metadata for the entity where each object contains the following attributes to define the security privilege for access to an entity
+:
+<ul></td>
+</tr>
+<tr>
+<td>Attributes</td>
+<td>Collection of attribute metadata objects</td>
+<td>The security privilege metadata for the entity that defines the access to an entity.</td>
 </tr>
 
 
