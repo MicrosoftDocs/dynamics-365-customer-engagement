@@ -2,7 +2,7 @@
 title: "Publish and react to posts in Social Engagement | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: "publish, post, like, favorite, share, private message, Social Engagement"
-ms.date: 01/31/2018
+ms.date: 04/10/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -245,7 +245,7 @@ Share a link to a public post along with your own comments as a new post directl
 3.  At the bottom of the post, click **Private Message**.  
   
     > [!NOTE]
-    >  When you reply to a private message, you can  reply to a single recipient only with the social profile that received the private message. Group conversations aren’t supported in private messages.  
+    >  When you reply to a private message, you can reply to a single recipient only with the social profile that received the private message. Group conversations aren’t supported in private messages.  
   
 4.  Type your message in the text entry field. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will show a counter so you can optimize the length of your content.  
   
