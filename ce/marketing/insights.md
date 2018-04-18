@@ -31,9 +31,9 @@ topic-status: Drafting
 - Websites
 - Redirect URLs
 
-## Open and use the analytical form views
+## Open and use the insights form views
 
-For nearly all entity types, you can view related results and analytics by opening a record and then switching to the **Insights** form view using the form-view selector above the record name. (Some entities, including redirect URL and websites, don't provide this drop-down list and instead show analytics on the same pages as the settings.)
+For nearly all entity types, you can view related results and analytics by opening a record and then switching to the **Insights** form view using the form-view selector above the record name. (Some entities, including redirect URLs and websites, don't provide this drop-down list and instead show analytics on the same form view as the settings.)
 
 ![Open the insights form view](media/insights-form-view-selector.png "Open the insights form view")
 
