@@ -1,1 +1,3 @@
-# Welcome to PowerApps Developer docs!
+---
+redirect_url: /powerapps/developer/overview
+---
