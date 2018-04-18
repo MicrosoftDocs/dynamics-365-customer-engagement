@@ -185,6 +185,8 @@ To add a subscription center link to a marketing email:
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)
 
+<a name="target-subscription-list"></a>   
+
 ## Set up a customer journey that targets a subscription list
 
 After you've set up a subscription list, you'll probably want to send regular email messages to your subscribers. To do this, place a segment tile configured to load a subscription list as the first tile in a customer journey that automates your email deliveries and other initiatives.
