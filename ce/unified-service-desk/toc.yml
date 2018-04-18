@@ -453,6 +453,8 @@
     href: standard-web-application-hosted-control.md
   - name: Toolbar Container (Hosted Control)
     href: toolbar-container-hosted-control.md
+  - name: 'Preview feature: Unified Interface Page (Hosted Control)'
+    href: unified-interface-page-hosted-control.md
   - name: User Notes (Hosted Control)
     href: user-notes-hosted-control.md
   - name: USD Hosted Control (Hosted Control)
@@ -463,3 +465,22 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
+- name: Support for Unified Interface Apps
+  href: Support-unified-interfaces-apps-usd.md
+  items:
+    - name: 'Preview feature: Walkthrough 1'
+      href: walkthrough1-unified-interface-build-a-simple-agent-application.md
+    - name: 'Preview feature: Walkthrough 2'
+      href: walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md
+    - name: 'Preview feature: Walkthrough 3'
+      href: walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md
+    - name: 'Preview feature: Walkthrough 4'
+      href: walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md
+    - name: 'Preview feature: Walkthrough 5'
+      href: walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md
+    - name: 'Preview feature: Walkthrough 6'
+      href: walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md
+    - name: 'Preview feature: Walkthrough 7'
+      href: walkthrough7-unified-interface-configure-agent-scripting-agent-application.md
+    - name: 'Preview feature: Walkthrough 8'
+      href: walkthrough8-unified-interface-use-parature-knowledge-base-within-your-agent-application
