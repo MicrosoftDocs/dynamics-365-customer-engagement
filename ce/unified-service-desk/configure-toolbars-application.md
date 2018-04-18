@@ -15,9 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 61cf4cb9-71ed-40c8-bbfa-c846c45cfb74
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: "kabala123"
+ms.author: "kabala"
+manager: "sakudes"
 ---
 # Configure toolbars in your application
 You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to create or manage buttons in an existing toolbar, or create new toolbars altogether. For an overview of toolbars, see [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md).  
