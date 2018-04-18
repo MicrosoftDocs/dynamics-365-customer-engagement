@@ -39,9 +39,9 @@ Before you can install and deploy [!INCLUDE[pn-best-practices-analyzer](../../in
 
 You can deploy a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deploy sample Unified Service Desk applications using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
 
-### Best Practices Analyzer for Unified Service Desk 3.2
+### Best Practices Analyzer for Unified Service Desk 3.2 or lower version
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] or lower versions is available as a seperate download package.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] or lower versions is available as a separate download package.
 
 Download the sample zip package for [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] or lower versions and extract the package. After extracting the zip package, you can see the following:
 
@@ -51,6 +51,9 @@ Download the sample zip package for [!INCLUDE[pn-unified-service-desk-3-2](../..
 Copy the folder and .dll file, and paste in your **PkgConfig** folder. After copying the folder and .dll file, deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] sample package using Package Deployer.
 
 After deploying the sample package using Package Deployer, perform the walkthrough to configure the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in your agent application. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
+
+> [!Note]
+> The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support is available until [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)]
 
 ## See also
 
