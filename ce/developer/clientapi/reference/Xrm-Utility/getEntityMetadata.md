@@ -259,6 +259,10 @@ manager: "amyla"
 <li><b>CanBeEntityReference</b>: Boolean. Whether the privilege for an external party can be basic access level.</li>
 <li><b>CanBeGlobal</b>: Boolean. Whether the privilege can be global access level.</li>
 <li><b>CanBeLocal</b>: Boolean. Whether the privilege can be local access level.</li>
+<li><b>CanBeParentEntityReference</b>: Boolean. Whether the privilege for an external party can be parent access level.</li>
+<li><b>Name</b>: String. The name of the privilege.</li>
+<li><b>PrivilegeId</b>: String. The ID of the privilege.</li>
+<li><b>PrivilegeType</b>: Number. The type of privilege, which is one of the following:</li>
 </ul></td>
 </tr>
 <tr>
