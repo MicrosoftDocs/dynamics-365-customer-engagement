@@ -465,7 +465,7 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
-- name: Support for Unified Interface Apps
+- name: "Preview feature: Support for Unified Interface Apps"
   href: Support-unified-interfaces-apps-usd.md
   items:
     - name: "Preview feature: Walkthrough 1"
