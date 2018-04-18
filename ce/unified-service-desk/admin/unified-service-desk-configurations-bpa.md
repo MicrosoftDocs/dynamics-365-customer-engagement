@@ -295,9 +295,9 @@ Set the **ProcessTerminationThreshold** value between the range **0** and **3000
 
 ## See also
 
-[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+[Analyze best practices in Unified Service Desk](../admin/analyze-best-practices-unified-service-desk.md)
 
-[Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
+[Download and install Best Practices Analyzer](../admin/download-install-best-practices-analyzer.md)
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 

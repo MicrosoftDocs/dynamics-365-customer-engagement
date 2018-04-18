@@ -54,7 +54,7 @@ After deploying the sample package using Package Deployer, perform the walkthrou
 
 ## See also
 
-[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+[Analyze best practices in Unified Service Desk](../admin/analyze-best-practices-unified-service-desk.md)
 
 [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 

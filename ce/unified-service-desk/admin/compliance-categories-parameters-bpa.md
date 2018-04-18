@@ -68,9 +68,9 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
 
 ## See also
 
-[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+[Analyze best practices in Unified Service Desk](../admin/analyze-best-practices-unified-service-desk.md)
 
-[Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
+[Download and install Best Practices Analyzer](../admin/download-install-best-practices-analyzer.md)
 
 [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 

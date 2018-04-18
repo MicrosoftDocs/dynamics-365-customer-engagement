@@ -24,14 +24,14 @@ Although deviating from best practices may not necessarily lead to a breakdown, 
 
 ## What is [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the problematic areas.
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant / problematic areas.
 
 The following table lists the categories against which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of best practice rules.
 
 | Category name | Description |
 |--------------------------|-------------------------------|
 |[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | These are the configurations (hosted controls, actions, events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in Dynamics 365.|
-|System configurations | System configurations are the information about local computer hardware (RAM, operating system, and so on), and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version. |
+|System configurations | System configurations are the information about local computer hardware (RAM, operating system, and so on), and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version.|
 |Internet Explorer settings|These are the settings (General, Security, Advanced, and so on) that you configure for Internet Explorer.|
 
 The following table lists the results of security level analysis.
@@ -53,7 +53,7 @@ The matrix provides information about how you can obtain and use the [!INCLUDE[p
 
 ## See also
 
-[Download and install Best Practices Analyzer](../admin/analyze-best-practices-unified-service-desk.md)
+[Download and install Best Practices Analyzer](../admin/download-install-best-practices-analyzer.md)
 
 [Walkthrough: Configure Best Practices Analyzer](../admin/walkthrough-configure-best-practices-analyzer.md)
 

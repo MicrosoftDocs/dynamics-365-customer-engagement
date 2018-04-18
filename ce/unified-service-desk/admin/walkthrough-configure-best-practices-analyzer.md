@@ -222,7 +222,9 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 
 ## See also
 
-[Analyze best practices in Unified Service Desk](../admin/download-install-best-practices-analyzer.md)
+[Analyze best practices in Unified Service Desk](../admin/analyze-best-practices-unified-service-desk.md)
+
+[Download and install Best Practices Analyzer](../admin/download-install-best-practices-analyzer.md)
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
