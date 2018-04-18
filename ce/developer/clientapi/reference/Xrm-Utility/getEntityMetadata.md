@@ -1,6 +1,6 @@
 ---
 title: "getEntityMetadata (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 04/17/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -252,7 +252,7 @@ manager: "amyla"
 <tr>
 <td>Privileges</td>
 <td>Array of objects</td>
-<td>The privilege metadata for the entity where each object contains the following attributes to define the security privilege for access to an entity:
+<td>The privilege metadata for the entity where *each* object contains the following attributes to define the security privilege for access to an entity:
 <ul>
 <li><b>CanBeBasic</b>: Boolean. Whether the privilege can be basic access level.</li>
 <li><b>CanBeDeep</b>: Boolean. Whether the privilege can be deep access level.</li>
@@ -263,12 +263,23 @@ manager: "amyla"
 <li><b>Name</b>: String. The name of the privilege.</li>
 <li><b>PrivilegeId</b>: String. The ID of the privilege.</li>
 <li><b>PrivilegeType</b>: Number. The type of privilege, which is one of the following:</li>
+<ul>
+<li>0: None</li>
+<li>1: Create</li>
+<li>2: Read</li>
+<li>3: Write</li>
+<li>4: Delete</li>
+<li>5: Assign</li>
+<li>6: Share</li>
+<li>7: Append</li>
+<li>8: AppendTo</li>
+</ul>
 </ul></td>
 </tr>
 <tr>
 <td>Attributes</td>
-<td>Collection of attribute metadata objects</td>
-<td>The security privilege metadata for the entity that defines the access to an entity.</td>
+<td>Collection</td>
+<td>A collection of attribute metadata objects.</td>
 </tr>
 
 
