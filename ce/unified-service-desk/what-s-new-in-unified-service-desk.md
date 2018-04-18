@@ -43,7 +43,7 @@ You can now customize the toolbar in Unified Service Desk using the custom style
  
 The resources in the dictionary refers to other resources that are available on Unified Service Desk client application. Loading and parsing the XAML string is performed at runtime to create <xref:System.Windows.ResourceDictionary> and merge the resources of the toolbar control with the <xref:System.Windows.ResourceDictionary>. In addition, the <xref:System.Windows.ResourceDictionary> can have styles for button types inside a toolbar. Using the styles, you can customize the toolbars and buttons.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md) and [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md) and [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
 <a name="WhatsNew32"></a>   
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] 

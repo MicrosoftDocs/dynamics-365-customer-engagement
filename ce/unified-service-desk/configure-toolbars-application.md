@@ -70,7 +70,7 @@ You can configure toolbars in [!INCLUDE[pn_unified_service_desk](../includes/pn-
   
 14. Click **Save**. 
 
-15. Under the **Styles** area, in the **Custom Styles** text box, write the XAML string to customize the toolbar and buttons. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Styles in toolbar](#styles-in-toolbar)
+15. Under the **Styles** area, in the **Custom Styles** text box, write the XAML string to customize the toolbar and buttons. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Styles in toolbar](#styles-in-toolbar)
 
 16. Click **Save**. 
   
