@@ -41,7 +41,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service changes and software updates  
   
--   Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year  
+-   Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
   
 **How do I find out about planned maintenance?**  
   
@@ -87,7 +87,7 @@ The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] te
   
 <a name="bkmk_ServiceUpdates"></a>   
 
-## Service updates  
+## Major service updates  
  Dynamics 365 (online) typically releases two major service updates per year. Service updates provide new features and functionality to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
  Improvements in the update process put the power in your hands for scheduling your organization’s service updates. You can choose from a list of available dates. Service updates are only applied after they are approved by the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin - please review the important note below outlining the Dynamics 365 online update policy. This helps you to plan well in advance for your upgrade path, while using your sandbox organization to properly test and evaluate the service updates with your existing production code.  
