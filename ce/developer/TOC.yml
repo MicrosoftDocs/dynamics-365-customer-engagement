@@ -373,6 +373,8 @@
         href: sample-web-resource-utility.md
       - name: Web resource development using Fiddler AutoResponder
         href: streamline-javascript-development-fiddler-autoresponder.md
+    - name: Use IFRAME and web resource controls on a form
+      href: use-iframe-and-web-resource-controls-on-a-form.md
   - name: Customize Customer Engagement applications
     href: customize-dev/customize-applications.md
     items:
