@@ -15,7 +15,7 @@ topic-status: Drafting
 ---
 
 # Analyze social data using widgets
-Use widgets to visualize your organization’s data analytics. The easy-to-understand metrics on these widgets provide quantitative insights and help you understand your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media sources. Using this analysis, you can also understand how your team is working toward the social strategies of your organization.  
+Use widgets to visualize your organization’s data analytics. The easy-to-understand metrics on these widgets provide quantitative insights and help you understand what your customers or prospects are saying about your products, brands, and services. Identify any issues or compliments that are mentioned about your products or services on social media sources. Using this analysis, you can also understand how your team is working toward the social strategies of your organization.  
   
 > [!TIP]
 >  This topic is part of a walkthrough about how you can set up searches and get started with analyzing the resulting data. More information: [Set up searches to listen to social media conversations](set-up-searches.md)  
