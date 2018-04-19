@@ -85,6 +85,12 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Use the app for the first time](dynamics-365-app-outlook-user-s-guide-v8.md#Access)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Link an email message or meeting to a specific Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#Track)  
+
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track signed S/MIME emails](dynamics-365-app-outlook-user-s-guide-v8.md#TrackSigned)  
+
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [TCustomize the track regarding card](dynamics-365-app-outlook-user-s-guide-v8.md#CustomizeCard)  
+
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add an email recipient as a contact or lead](dynamics-365-app-outlook-user-s-guide-v8.md#AddEmailRecipient)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Compose an email message and link it to a Dynamics 365 record](dynamics-365-app-outlook-user-s-guide-v8.md#ComposeEmail)  
   
@@ -225,9 +231,13 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 #### To untrack or change the regarding record:  
   
 -   Click **Change** at the top of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
-  
+
+<a name="TrackSigned"></a>    
+ 
 ### Track signed S/MIME emails
 Dynamics 365 App for Outlook can track [S/MIME signed emails](https://technet.microsoft.com/library/aa995740(v=exchg.65).aspx) in Outlook Desktop and Outlook Web App (OWA). This is enabled on [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx) Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
+
+<a name="CustomizeCard"></a>    
 
 ### Customize the track regarding card
 The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Job Title** with **Business Phone** in the Contact card.
@@ -261,8 +271,10 @@ To change the fields that appear, follow these steps:
 
 After completing the above, right-click in the track regarding card, and then select **Reload**. It might take some time for the synchronization to complete and the change to appear.
 
-![Contact card after customizing](../media/after-customizing-cardv8.png "Contact card after customizing")
+![Contact card after customizing](../media/after-customizing-cardv8.png "Contact card after customizing")<br/>
 The business phone number replaces job title in the Contact card.
+
+<a name="AddEmailRecipient"></a>   
 
 ### Add an email recipient as a contact or lead
 One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to Dynamics 365. In the Dynamics 365 pane, click (+) and then select **Contact** or **Lead**.
@@ -289,10 +301,11 @@ One of the first things you might want to do when you receive a customer email, 
 4.  If you select a different email message in your Inbox or add people to the **To**, **Cc**, or **Bcc** line, the list of recipients will be automatically refreshed in a few seconds.  
   
 <a name="EE"></a>   
+
 ### Monitor an email message after you send it  
  You can monitor an email message after you send it to see the number of times that the message is viewed, opened, replied to, or forwarded. For a monitored email message, you can also see the last activity related to the email message, or view all activity related to the message.  
   
-##### To monitor an email message  
+#### To monitor an email message  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
@@ -310,7 +323,7 @@ One of the first things you might want to do when you receive a customer email, 
     > [!IMPORTANT]
     >  Do not edit the email message or change the recipients after you follow it. If you edit an email message after it’s followed, you may inadvertently delete the monitoring information or you may inadvertently add recipients who shouldn’t be followed.  
   
-##### To remove the monitoring for an email message  
+#### To remove the monitoring for an email message  
   
 1.  Select the monitored email message.  
   
@@ -327,7 +340,7 @@ One of the first things you might want to do when you receive a customer email, 
 > [!NOTE]
 >  You must have the appropriate permissions to add email templates.  
   
-##### To add an email template:  
+#### To add an email template:  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
@@ -344,6 +357,7 @@ One of the first things you might want to do when you receive a customer email, 
      For information on creating email templates in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], see [Create templates for email](../../admin/create-templates-email.md).  
   
 <a name="KB"></a>   
+
 ### Add sales literature or a knowledge base article when you create an email message  
  When you're working with a customer, you may want to send them some sales literature or a knowledge base article.  
   
@@ -360,7 +374,8 @@ One of the first things you might want to do when you receive a customer email, 
   
 4.  Click **Add to Email**.  
   
-<a name="ComposeAppointment"></a>   
+<a name="ComposeAppointment"></a>  
+ 
 ### Link an appointment to a specific Dynamics 365 record  
   
 1.  Create the appointment as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
@@ -376,6 +391,7 @@ One of the first things you might want to do when you receive a customer email, 
      ![Link appointment in Dynamics 365 App for Outlook](../media/link-appointment-dynamics-365-app-outlook.png "Link appointment in Dynamics 365 App for Outlook")  
   
 <a name="Activity"></a>   
+
 ### Add a phone call, appointment, or task activity to Dynamics 365  
   
 -   Click the **Plus sign**, and then select the type of activity you want to create.  
