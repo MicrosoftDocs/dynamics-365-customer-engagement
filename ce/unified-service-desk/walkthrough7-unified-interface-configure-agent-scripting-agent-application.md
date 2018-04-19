@@ -92,7 +92,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 <a name="Step2"></a>   
 ## Step 2: Create hosted controls to display the new case form and existing cases  
- In this step, you’ll create two hosted controls of CRM Page type to display the new case creation form and existing cases for the current account.  
+ In this step, you’ll create two hosted controls of Unified Interface Page type to display the new case creation form and existing cases for the current account.  
   
 1.  On the hosted controls page, click **New**.  
   
@@ -102,13 +102,12 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |-----------|-----------|  
     |Name|Contoso new case form|  
     |Display Name|New Case|  
-    |USD Component Type|CRM Page|  
-    |Allow Multiple Pages|No|  
-    |Hosting Type|Internal WPF|  
+    |USD Component Type|Unified Interface Page|  
+    |Allow Multiple Pages|No|
     |Application is Global|Not checked|  
     |Display Group|MainPanel|  
   
- ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a CRM Page hosted control")  
+ ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a Unified Interface Page hosted control")  
   
 3.  Click **Save**.  
   
@@ -119,14 +118,13 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Field|Value|  
     |-----------|-----------|  
     |Name|Contoso existing cases for an account|  
-    |Display Name|Cases for [[$Context.name]] **Note:**  We are using the replacement parameter to dynamically display the name of the current account from the execution context as the hosted control display name.|  
-    |USD Component Type|CRM Page|  
-    |Allow Multiple Pages|No|  
-    |Hosting Type|Internal WPF|  
+    |Display Name|Cases for [[$Context.name]]<br> **Note:**  We are using the replacement parameter to dynamically display the name of the current account from the execution context as the hosted control display name.|  
+    |USD Component Type|Unified Interface Page|  
+    |Allow Multiple Pages|No|
     |Application is Global|Not checked|  
     |Display Group|MainPanel|  
   
- ![Create a CRM Page hosted control](../unified-service-desk/media/usd-create-agent-script-task.png "Create a CRM Page hosted control")  
+ ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-agent-script-task.png "Create a Unified Interface Page hosted control")  
   
 6.  Click **Save**.  
   
@@ -148,7 +146,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |-----------|-----------|  
     |Name|Contoso: Welcome to Account Session|  
     |Start Task|No|  
-    |ScriptText|Welcome [[$Context.name]]. My name is [[$User.firstname]]. Is this call regarding a new or an existing service request? **Note:**  We are using replacement parameters to dynamically display the account name and the current agent’s name to the agent at runtime.|  
+    |ScriptText|Welcome [[$Context.name]]. My name is [[$User.firstname]]. Is this call regarding a new or an existing service request?<br>**Note:**  We are using replacement parameters to dynamically display the account name and the current agent’s name to the agent at runtime.|  
     |Instructions|Based on the customer response, click one of the tasks below.|  
   
  ![Create an agent script task](../unified-service-desk/media/usd-create-agent-script-task-2.png "Create an agent script task")  
@@ -194,7 +192,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Order|1|  
     |Hosted Control|Contoso new case form|  
     |Action|New_CRM_Page|  
-    |Data|LogicalName=incident<br /> customerid=EntityReference([[$Context.InitialEntity]],[[$Context.Id]])  <br /> customeridname=[[$Context.name]] <br /> primarycontactid=[[$Context.primarycontactid.id]+]  <br /> primarycontactidname=[[$Context.primarycontactid.name]+] **Note:**  The new case form will be populated with the current account record data to help the agent quickly create a case for the customer.|  
+    |Data|LogicalName=incident<br /> customerid=EntityReference([[$Context.InitialEntity]],[[$Context.Id]])  <br /> customeridname=[[$Context.name]] <br /> primarycontactid=[[$Context.primarycontactid.id]+]  <br /> primarycontactidname=[[$Context.primarycontactid.name]+]<br>**Note:**  The new case form will be populated with the current account record data to help the agent quickly create a case for the customer.|  
   
  ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call in Unified Service Desk")  
   
@@ -309,7 +307,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Field|Value|  
     |-----------|-----------|  
     |Name|Contoso Action Call: Close Session|  
-    |Hosted Control|Contoso Session Tab **Note:**  The Contoso Session Tab hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).|  
+    |Hosted Control|Contoso Session Tab <br> **Note:**  The Contoso Session Tab hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).|  
     |Action|CloseSession|  
     |Data|sessionid=[[$Context.SessionId]]|  
   
@@ -344,7 +342,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 <a name="Step8"></a>   
 ## Step 8: Display the agent script when the account record is displayed in a session  
- In this step, add the action call created in the previous step to the **BrowserDocumentComplete** event on the **Contoso Account Session** hosted control so that after it’s loaded, the action call is executed to load the agent script. The **Contoso Account Session** hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).  
+ In this step, add the action call created in the previous step to the **PageReady** event on the **Contoso Account Session** hosted control so that after it’s loaded, the action call is executed to load the agent script. The **Contoso Account Session** hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).  
   
 1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -352,15 +350,15 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 3.  Click **Hosted Controls**.  
   
-4.  Search for the **Contoso Account Session** hosted control, and click it to open the hosted control definition.  
-  
+4.  Search for the **Contoso Account Session** hosted control, and click it to open the hosted control definition. 
+
 5.  On the nav bar, click the down arrow next to **Contoso Account Session**, and then click **Events**.  
   
  ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control.png "Configure events for a hosted control")  
   
-6.  On the events page, click **BrowserDocumentComplete**.  
+6.  On the events page, click **PageReady**.  
   
-7.  On the **BrowserDocumentComplete** page, click **+** in the **Active Actions** area to add an action call to the event.  
+7.  On the **PageReady** page, click **+** in the **Active Actions** area to add an action call to the event.  
   
 8.  In the search box, type “`Contoso Action Call: Load Agent Script`”, and press ENTER or click the search icon.  
   

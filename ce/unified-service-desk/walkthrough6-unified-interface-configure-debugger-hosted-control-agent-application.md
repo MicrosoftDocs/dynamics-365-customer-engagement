@@ -94,7 +94,7 @@ manager: "sakudes"
     |-----------|-----------|  
     |Name|Contoso Debugger Button|  
     |Button Text|DEBUGGER|  
-    |Order|3 **Note:**  The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
+    |Order|3 <br> **Note:** The **Order** field defines the position of buttons in the toolbar. Buttons are arranged from left to right or top to bottom in an ascending order.|  
   
 7.  Click **Save**.  
   
@@ -110,7 +110,7 @@ manager: "sakudes"
     |Order|1|  
     |Hosted Control|Contoso Global Manager|  
     |Action|CallDoAction|  
-    |Data|action=default<br />application=Contoso Debugger|  
+    |Data|action=default<br/>application=Contoso Debugger|  
   
  ![Create action call in Unified Service Desk](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
   
@@ -143,7 +143,7 @@ manager: "sakudes"
   
 7.  In the search results, click the action call name to add it.  
   
-8.  Similarly, add the hosted control by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls**.  
+8.  Similarly, add the hosted control by clicking the down arrow next to **Contoso Configuration**, and clicking **Hosted Controls**. 
   
 9. Click **Save**.  
   
@@ -155,8 +155,8 @@ manager: "sakudes"
   
  ![Debugger in your agent application](../unified-service-desk/media/usd-debugger-agent-application.png "Debugger in your agent application")  
   
-<a name="conclusion"></a>   
-## Conclusion  
+<a name="conclusion"></a>  
+## Conclusion 
  In this walkthrough, you saw how to configure the Debugger hosted control in your agent application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
   
 ### See also  

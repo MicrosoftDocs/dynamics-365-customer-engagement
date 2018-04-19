@@ -70,28 +70,27 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Field|Value|  
     |-----------|-----------|  
     |Name|Contoso Account Session|  
-    |Display Name|[[account.name]] **Note:**  We will use replacement parameter to dynamically display the name of the selected account as hosted control display name.|  
-    |USD Component Type|CRM Page|  
-    |Allow Multiple Pages|No|  
-    |Hosting Type|Internal WPF|  
-    |Application is Global|Not checked **Note:**  This ensures that the hosted control is session-scoped, that is, only displayed in a session.|  
+    |Display Name|[[account.name]] <br>**Note:**  We will use replacement parameter to dynamically display the name of the selected account as hosted control display name.|  
+    |USD Component Type|Unified Interface Page|  
+    |Allow Multiple Pages|No| 
+    |Application is Global|Not checked <br>**Note:**  This ensures that the hosted control is session-scoped, that is, only displayed in a session.|  
     |Display Group|MainPanel|  
   
- ![Create a session&#45;scoped hosted control](../unified-service-desk/media/usd-create-session-scoped-hosted-control.png "Create a session-scoped hosted control")  
+ ![Create a session scoped hosted control](../unified-service-desk/media/usd-create-session-scoped-hosted-control.png "Create a session-scoped hosted control")  
   
 6.  Click **Save**.  
   
 <a name="Step2"></a>   
 ## Step 2: Configure the event to close the hosted control from where the search originated  
- In this step, you’ll configure the **BrowserDocumentComplete** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user clicked to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
+ In this step, you’ll configure the **PageReady** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user clicked to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
   
 1.  On the nav bar, click the down arrow next to the **Contoso Account Session** hosted control, and click **Events**.  
   
  ![Configure events for a hosted control](../unified-service-desk/media/usd-configure-events-hosted-control2.png "Configure events for a hosted control")  
   
-2.  On the events page, click **BrowserDocumentComplete**.  
+2.  On the events page, click **PageReady**.  
   
-3.  On the **BrowserDocumentComplete** page, click **+** in the **Active Actions** area to add an action call to the event.  
+3.  On the **PageReady** page, click **+** in the **Active Actions** area to add an action call to the event.  
   
 4.  In the search box, click the search icon or press ENTER, and then click **New** in the lower-right corner of the search results box.  
   
@@ -107,7 +106,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
  ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call.png "Create an action call in Unified Service Desk")  
   
-6.  Click **Save** to add the action call to the **BrowserDocumentComplete** event.  
+6.  Click **Save** to add the action call to the **PageReady** event.  
   
 <a name="Step3"></a>   
 ## Step 3: Create a Session Tabs hosted control  
@@ -167,7 +166,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 |Control name|Control type|  
 |------------------|------------------|  
 |Contoso Action Call: Close Accounts Search|Action call|  
-|BrowserDocumentComplete|Event for the Contoso Account Session hosted control|  
+|PageReady|Event for the Contoso Account Session hosted control|  
 |Contoso Account Session|Hosted Control|  
 |Contoso Session Tab|Hosted Control|  
 |Contoso Account Session Rule|Window navigation rule|  

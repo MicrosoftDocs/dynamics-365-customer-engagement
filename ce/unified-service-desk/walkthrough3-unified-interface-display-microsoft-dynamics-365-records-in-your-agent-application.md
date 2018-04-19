@@ -1,6 +1,6 @@
 ---
-title: "Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application | MicrosoftDocs"
-description: "Demonstrates how to display Customer Engagement records in Unified Service Desk."
+title: "Walkthrough 3: Display Microsoft Dynamics 365 records of Unified Interface Apps in your agent application | MicrosoftDocs"
+description: "Demonstrates how to display Unified Interface Apps Customer Engagement records in Unified Service Desk."
 ms.custom: ""
 ms.date: 04/24/2018
 ms.reviewer: ""
@@ -19,8 +19,8 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application
-This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in your agent application. In this walkthrough, you’ll display all the account and contact records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
+# Walkthrough 3: Display Microsoft Dynamics 365 records of Unified Interface Apps in your agent application
+This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records of Unified Interface Apps in your agent application. In this walkthrough, you’ll display all the account and contact records in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance. You’ll also create a search button with drop-down menu items for displaying accounts and contacts in the agent application.  
   
 ## Prerequisites  
   
@@ -30,7 +30,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 -   You must know about the following in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
-    -   The following two types of hosted controls: CRM Page and Toolbar Container. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
+    -   The following two types of hosted controls: Unified Interface Page and Toolbar Container. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)  
   
     -   Action call and how to configure it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action calls](../unified-service-desk/action-calls.md)  
   
@@ -38,7 +38,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 <a name="Top"></a>   
 ## In This Walkthrough  
- [Step 1: Create CRM Page type of hosted controls to display account and contact records](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step1)  
+ [Step 1: Create Unified Interface Page type of hosted controls to display account and contact records](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step1)  
   
  [Step 2: Create a toolbar container type of hosted control](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Step2)  
   
@@ -53,8 +53,8 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
  [Conclusion](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md#Conclusion)  
   
 <a name="Step1"></a>   
-## Step 1: Create CRM Page type of hosted controls to display account and contact records  
- In this step, you’ll create two hosted controls of **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Page** type to display the account and contact records respectively.  
+## Step 1: Create Unified Interface Page type of hosted controls to display account and contact records  
+ In this step, you’ll create two hosted controls of **Unified Interface Page** type to display the account and contact records respectively.  
   
 1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -70,9 +70,8 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |-----------|-----------|  
     |Name|Contoso Accounts Search|  
     |Display Name|Contoso: Accounts|  
-    |USD Component Type|CRM Page|  
-    |Allow Multiple Pages|No|  
-    |Hosting Type|Internal WPF|  
+    |USD Component Type|Unified Interface Page|  
+    |Allow Multiple Pages|No| 
     |Application is Global|Checked|  
     |Display Group|MainPanel|  
   
@@ -88,9 +87,8 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |-----------|-----------|  
     |Name|Contoso Contacts Search|  
     |Display Name|Contoso: Contacts|  
-    |USD Component Type|CRM Page|  
-    |Allow Multiple Pages|No|  
-    |Hosting Type|Internal WPF|  
+    |USD Component Type|Unified Interface Page|  
+    |Allow Multiple Pages|No| 
     |Application is Global|Checked|  
     |Display Group|MainPanel|  
   
@@ -145,7 +143,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 9. Click **Save**.  
   
 <a name="Step4"></a>   
-## Step 4: Add toolbar buttons and action calls to display Dynamics 365 records  
+## Step 4: Add toolbar buttons and action calls to display Dynamics 365 records  from Unified Interface Apps
  In this step, you’ll add buttons on the toolbar and attach action calls to the buttons so that when the button is clicked, appropriate [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records are displayed in the hosted controls that were created in step 1. You’ll configure the search button so that clicking the button displays the account and contact submenu items, and clicking a button displays the respective [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records.  
   
 1.  After you save the toolbar in step 3, the **Buttons** area becomes available. In the **Buttons** area, click **+** on the right corner to add a button.  
@@ -156,21 +154,21 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |-----------|-----------|  
     |Name|Contoso Search Button|  
     |Button Text|SEARCH|  
-    |Tooltip|Search [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] accounts and contacts|  
+    |Tooltip|Search [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] accounts and contacts|
     |Order|1|  
   
  ![Create the Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-04.png "Create the Search toolbar button")  
   
-3.  Click **Save**.  
+3.  Click **Save**.
   
-4.  On the nav bar, click the down arrow next to Contoso Search Button, and click Toolbar Buttons.  
+4.  On the nav bar, click the down arrow next to Contoso Search Button, and click Toolbar Buttons.
   
     > [!NOTE]
-    >  You are now adding child toolbar buttons to an existing toolbar button to create a submenu structure.  
+    >  You are now adding child toolbar buttons to an existing toolbar button to create a submenu structure.
   
-5.  On the next page, click **Add New Toolbar Button**.  
+5.  On the next page, click **Add New Toolbar Button**.
   
-6.  On the **New Toolbar Button** page, specify the following values.  
+6.  On the **New Toolbar Button** page, specify the following values.
   
     |Field|Value|  
     |-----------|-----------|  
@@ -331,7 +329,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 <a name="Conclusion"></a>   
 ## Conclusion  
- In this walkthrough, you learned how to display [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
+ In this walkthrough, you learned how to display [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records from Unified Interface Apps in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.
   
 ### See also  
  [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)   
