@@ -42,7 +42,7 @@
 #### [Scan barcodes](../mobile-app/v8/go-mobile/get-started/scan-barcodes.md)
 #### [User your browser for non-mobile features](../mobile-app/v8/go-mobile/get-started/use-browser-non-mobile-features.md)
 #### [A note for Android users](../mobile-app/v8/go-mobile/get-started/note-android.md)
-#### [More help and how to information](../mobile-app/v8/go-mobile/get-started/more-help-how-users.md)
+#### [More help and how-to information](../mobile-app/v8/go-mobile/get-started/more-help-how-users.md)
 #### [Manage accounts, contacts, leads, and opportunities](../mobile-app/v8/go-mobile/get-started/manage-accounts-contacts-leads-and-opportunities.md)
 #### [Track your progress with charts](../mobile-app/v8/go-mobile/get-started/track-progress-charts.md)
 #### [Track customer service cases](../mobile-app/v8/go-mobile/get-started/track-customer-service-cases.md)
