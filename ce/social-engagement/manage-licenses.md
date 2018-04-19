@@ -51,7 +51,7 @@ Enable users to work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-en
 
 3. Set the toggle for **Dynamics 365 Customer Engagement Plan** or **[!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)]** to **On**.
 
-4. Select **Save** to confirm your change and update the user's product licenses.  
+4. Select _Save_ to confirm your change and update the user's product licenses.  
 
 ## Remove a license from a user
 
