@@ -24,12 +24,10 @@ This is the release history page for the [Administrator Guide for Dynamics 365 C
 
 Check out the following for more "What's new" and release history information:
 
-- [What's coming for Customer Engagement in the next update for Dynamics 365 (online)](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update)
-- [Release History for Dynamics CRM 2016 (online)](https://technet.microsoft.com/library/dn467370.aspx)
-- [What's new for administrators and customizers in Microsoft Dynamics 365](https://technet.microsoft.com/library/dn531078.aspx)
-  
+- [What's new in Dynamics 365](https://docs.microsoft.com/dynamics365/get-started/whats-new)
+ 
 > [!TIP]
->  To see the versions that apply to the dates below, see [Support: Dynamics 365 (online) releases](https://support.microsoft.com/kb/2925359)  
+>  To see the versions that apply to the updates below, see [Support: Dynamics 365 (online) releases](https://support.microsoft.com/kb/2925359)  
 
 <a name="BKMK_July2017"></a>
 
@@ -48,6 +46,7 @@ The following are topics for features that were delivered out of band since the 
 
 |New and updated topics|Description of changes|  
 |----------------------------|----------------------------|  
+|[Purchase and assign Dynamics 365 (online) licenses](purchase-assign-online-licenses.md)| Added information about PowerApps licensing.|
 |[What's new with instance management](new-instance-management.md)|New topic.|
 |[Common Data Service instances](common-data-service-instances.md)|New topic.|
 |[User Guide (Dynamics 365 for phones and tablets)](../mobile-app/dynamics-365-phones-tablets-users-guide.md)|Updated topic.|
