@@ -16,7 +16,7 @@ topic-status: Editing
 
 # Accessibility for Microsoft Social Engagement
 
-[Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.   
+[Microsoft is committed to building software that enables people with different abilities](http://go.microsoft.com/fwlink/p/?LinkId=526256) to be productive.    
 [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] enables all users to be productive by providing accessible software that can be used effortlessly, regardless of abilities. 
 
 ## Accessibility capabilities built into Social Engagement
