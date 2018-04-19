@@ -61,6 +61,8 @@ Users must also have read/write privileges for the following entities:
 - **Mailbox**  
   
 Customization tab:  
+
+- **App**
   
 - **Entity**  
   

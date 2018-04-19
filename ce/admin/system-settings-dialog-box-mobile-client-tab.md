@@ -1,7 +1,7 @@
 ---
 title: "System Settings dialog box - Mobile Client tab for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,12 +16,9 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# System Settings dialog box - Mobile Client tab
+# System Settings dialog box - Mobile tab
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
-
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Use the settings on this page to...
   
@@ -37,7 +34,7 @@ Use the settings on this page to...
   
 2. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-3.  Choose the **System Settings** > **Mobile Client** tab.  
+3.  Choose the **System Settings** > **Mobile** tab.  
   
 |Settings|Description|  
 |--------------|-----------------|  
