@@ -59,14 +59,6 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 7. Allow deletion of appointments if server-side synchronization auto detects changes that will result in change in ownership.
 8. Reliability improvements.
 
-
-
-
-
-
-
-
-
 <a name="Latest"></a>  
  
 ## User's Guide for the latest version (Dynamics 365)  
@@ -88,7 +80,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track signed S/MIME emails](dynamics-365-app-outlook-user-s-guide-v8.md#TrackSigned)  
 
- ![Down arrow button](../media/down-arrow.png "Down arrow button") [TCustomize the track regarding card](dynamics-365-app-outlook-user-s-guide-v8.md#CustomizeCard)  
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Customize the track regarding card](dynamics-365-app-outlook-user-s-guide-v8.md#CustomizeCard)  
 
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add an email recipient as a contact or lead](dynamics-365-app-outlook-user-s-guide-v8.md#AddEmailRecipient)  
   
