@@ -54,19 +54,19 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
   
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
   
-Users must have read/write privileges for the following entities:  
+Users must have **read/write** privileges for the following entities.  
   
- Business Management tab:  
+#### Business Management tab:  
   
 - **Mailbox**  
   
-Customization tab:
+#### Customization tab:
 
 - **User Application Metadata**
 
-Users must have read privileges for the following entities:  
+Users must have **read** privileges for the following entities.  
 
-Customization tab:  
+#### Customization tab:  
 
 - **App**
   
