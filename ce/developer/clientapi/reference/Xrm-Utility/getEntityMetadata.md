@@ -35,7 +35,7 @@ manager: "amyla"
 <table>
 <tr>
 <th>Attribute Name</th>
-<th>Number</th>
+<th>Type</th>
 <th>Description</th>
 </tr>
 <tr>
