@@ -41,7 +41,34 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
  Go to [User's Guide for the previous version (Dynamics CRM)](dynamics-365-app-outlook-user-s-guide-v8.md#Previous)  
   
-<a name="Latest"></a>   
+## What's new in version 8.2
+
+### March 27, 2018
+
+1. Fixes to contract tracking experience.
+2. Reliability improvements.
+
+### March 15, 2018
+
+1. Support for handling appointment conflicts in App for Outlook.
+2. Server-side synchronization’s automatic tracking now includes sent emails, BCC, distribution list and undeliverable reports.
+3. Fixes to improve contact tracking experience in App for Outlook, including fix for email address displayed in X.500 format.
+4. Fixes to improve appointment tracking experience in App for Outlook.
+5. Mitigated issue with App for Outlook not loading on Outlook for iOS and Outlook for Mac.
+6. Server-side synchronization can sync Dynamics 365 emails that have information rights property.
+7. Allow deletion of appointments if server-side synchronization auto detects changes that will result in change in ownership.
+8. Reliability improvements.
+
+
+
+
+
+
+
+
+
+<a name="Latest"></a>  
+ 
 ## User's Guide for the latest version (Dynamics 365)  
  This section of this topic describes how to use the latest version of the app, available in [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)].  
   
@@ -72,8 +99,11 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add a phone call, appointment, or task activity to Dynamics 365](dynamics-365-app-outlook-user-s-guide-v8.md#Activity)  
   
  ![Down arrow button](../media/down-arrow.png "Down arrow button") [Track Outlook contacts in Dynamics 365](dynamics-365-app-outlook-user-s-guide-v8.md#Contacts)  
+
+ ![Down arrow button](../media/down-arrow.png "Down arrow button") [Add a pinnable task pane](dynamics-365-app-outlook-user-s-guide-v8.md#PinnableTaskpane)  
   
 <a name="Overview"></a>   
+
 ### What Dynamics 365 App for Outlook offers  
  With [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], you can:  
   
@@ -95,6 +125,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 >  [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] is a [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] add-in. As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to use [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] together with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. You may also be familiar with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], which provides complete [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] capabilities (including offline capabilities) from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used together by the same user. Choose one or the other.** For more information about [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Dynamics 365 for Outlook User's Guide](https://technet.microsoft.com/library/mt843833.aspx).
   
 <a name="Prerequisites"></a>   
+
 ### Prerequisites  
  Your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] system administrator can make [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] available to your organization or you can add it yourself if:  
   
@@ -105,6 +136,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
  For more information, and for information on supported devices, browsers, and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] versions, see [Deploy Dynamics 365 App for Outlook (lightweight app)](https://technet.microsoft.com/library/dn946901.aspx).  
   
 <a name="Install"></a>   
+
 ### Add the app to Outlook  
  After the prerequisites have been met, you can add the app directly from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
@@ -116,6 +148,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
     >  If you have trouble installing  the app, see the troubleshooting section in [TechNet: Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx).  
   
 <a name="Disable"></a>   
+
 ### Disable or remove the Outlook app  
   
 1.  In [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], click **File**, and then click **Manage Add-ins**.  
@@ -131,6 +164,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
     -   To remove the app, select the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] row, and then click the Minus button.  
   
 <a name="Access"></a>   
+
 ### Use the app for the first time  
  To display [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data after you’ve added the app:  
   
@@ -153,12 +187,13 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
     -   If the recipient isn’t known to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can click **Add to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** to add them as a contact or lead.  
   
 <a name="Track"></a>   
+
 ### Link an email message or meeting to a specific Dynamics 365 record  
  You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record, such as an account, opportunity, or case, by clicking the **Set Regarding** button  ![Set regarding button in Dynamics 365 App for Outlook](../media/set-regarding-button-dynamics-365-app-outlook.PNG "Set regarding button in Dynamics 365 App for Outlook"). [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] automatically tracks the email or meeting, and links it to the record indicated in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
  ![Set regarding button in Dynamics 365 App for Outlook pane](../media/set-regarding-button-dynamics-365-app-outlook-pane.png "Set regarding button in Dynamics 365 App for Outlook pane")  
   
-##### To find a different record to link to:  
+#### To find a different record to link to:  
   
 1.  Click **Track this email** at the top of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
@@ -173,7 +208,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
     -   If you don’t see the record you’re looking for, enter a keyword in the search box, and then click the magnifying glass.  
   
-##### To create a new record and link it to a Dynamics 365 record:  
+#### To create a new record and link it to a Dynamics 365 record:  
   
 1.  Click **New**, and then select the type of record you want to create.  
   
@@ -187,11 +222,56 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
 4.  Click **Save**.  
   
-##### To untrack or change the regarding record:  
+#### To untrack or change the regarding record:  
   
 -   Click **Change** at the top of the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** pane.  
   
+### Track signed S/MIME emails
+Dynamics 365 App for Outlook can track [S/MIME signed emails](https://technet.microsoft.com/library/aa995740(v=exchg.65).aspx) in Outlook Desktop and Outlook Web App (OWA). This is enabled on [Click-to-Run](https://technet.microsoft.com/library/jj219427.aspx) Outlook 2016 build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
+
+### Customize the track regarding card
+The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Job Title** with **Business Phone** in the Contact card.
+
+![Before customizing Contact card](../media/initial-contact-cardv8.png "Before customizing Contact card")
+
+To change the fields that appear, follow these steps:
+
+1. In Microsoft Dynamics 365, go to **Settings** > **Customizations** > **Customize the System**.
+2. Expand **Entities** and choose an entity such as **Contact**.
+3. Expand the entity and select **Forms**, then select the **Contact** form.
+
+   ![Select Contact main form](../media/contact-entity-formv8.png "Select Contact main form")
+
+4. Drag **Business Phone** below **Account Name**. Drag **Job Title** below **Mobile Phone**.
+
+   ![Drag Contact form fields](../media/drag-fields-in-formv8.png "Drag Contact form fields")
+
+   ![After dragging Contact form fields](../media/after-dragging-fieldsv8.png "After dragging Contact form fields")
+
+   > [!NOTE]
+   > The first four fields appear in the track regarding card.
+
+5. Choose **Save**, **Publish**, and then close the form editor.
+
+6. On the solution page, choose **Components** > **Prepare Client Customizations**.   
+
+   ![Select Prepare Client Customizations](../media/prepare-client-customizationsv8.png "Select Prepare Client Customizations")
+
+7. Close the solutions page.
+
+After completing the above, right-click in the track regarding card, and then select **Reload**. It might take some time for the synchronization to complete and the change to appear.
+
+![Contact card after customizing](../media/after-customizing-cardv8.png "Contact card after customizing")
+The business phone number replaces job title in the Contact card.
+
+### Add an email recipient as a contact or lead
+One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to Dynamics 365. In the Dynamics 365 pane, click (+) and then select **Contact** or **Lead**.
+
+> [!NOTE]
+> If the sender of the email is unknown to Dynamics 365, when you add the contact or lead, the email is automatically tracked in Dynamics 365 and set regarding this contact or lead. To stop tracking, you can manually untrack the regarding email.
+
 <a name="ComposeEmail"></a>   
+
 ### Compose an email message and link it to a Dynamics 365 record  
   
 1.  Create an email message as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
@@ -311,6 +391,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 -   Click **Save**.  
   
 <a name="Contacts"></a>   
+
 ### Track Outlook contacts in Dynamics 365  
  You can track [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] by using the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] add-in, an [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] solution module.   The add-in is automatically installed when you install [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)]. You can access it as described below.  
   
@@ -344,7 +425,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
 > [!NOTE]
 >  To use the add-in your admin must enable your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] mailbox for appointments, contacts, and tasks.  
   
-##### Access the add-in  
+#### Access the add-in  
   
 1.  Click  the **More information** button (three dots) in the lower-left corner of the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] window.  
   
@@ -354,13 +435,13 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
 3.  Select the **Dynamics 365** add-in.  
   
-##### See the Dynamics 365 contact card for a contact  
+#### See the Dynamics 365 contact card for a contact  
   
 1.  In the contacts list, select the check box next to the contact. The contact details appear on the right side of the screen.  
   
      ![Dynamics 365 App for Outlook contact tracking contact card](../media/dynamics-365-app-outlook-contact-tracking-contact-card.png "Dynamics 365 App for Outlook contact tracking contact card")  
   
-##### Track or untrack a contact  
+#### Track or untrack a contact  
   
 1.  Click the **[!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Contacts** tab.  
   
@@ -373,7 +454,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
     > [!IMPORTANT]
     >  Do not navigate outside the page while tracking or untracking the contact. Otherwise, it won’t be tracked or untracked.  
   
-##### Link a contact to an account or change the account that a contact is linked to  
+#### Link a contact to an account or change the account that a contact is linked to  
   
 1.  Click the **[!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Contacts** tab.  
   
@@ -401,7 +482,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
     > [!NOTE]
     >  If the contact isn’t already tracked, the contact will be tracked immediately and will be linked to the account. If the contract isn’t already tracked, the account record will be synchronized in the next synchronization cycle.  
   
-##### Send email or schedule an appointment  
+#### Send email or schedule an appointment  
   
 1.  Click  the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Contacts** tab, or the **Outlook Contacts** tab, and then select the check box next to the appropriate contact(s).  
   
@@ -409,11 +490,11 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
      Regardless of which tab you selected in step 1, the email, task, or appointment will be sent from [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)], not [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
-##### Search for a contact  
+#### Search for a contact  
   
 -   Enter a value in the Search box. You can search for data stored in the **Full name**, **Company**, **Department**, and **Business address** fields. You can’t search for data stored in the **Tracking** status, **Business phone**, or **Email** fields.  
   
-##### Filter by all contacts, tracked contacts, or untracked contacts  
+#### Filter by all contacts, tracked contacts, or untracked contacts  
   
 1.  Click the arrow next to the view drop-down.  
   
@@ -421,7 +502,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
      ![Dynamics 365 App for Outlook with contract tracking filter drop&#45;down](../media/dynamics-365-app-outlook-contract-tracking-filter-drop-down.png "Dynamics 365 App for Outlook with contract tracking filter drop-down")  
   
-##### Filter contacts by column (field)  
+#### Filter contacts by column (field)  
   
 1.  Click the **Filter** button ![Dynamics 365 App for Outlook contract tracking filter button](../media/dynamics-365-app-outlook-contract-tracking-filter-button.png "Dynamics 365 App for Outlook contract tracking filter button").  
   
@@ -436,7 +517,7 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
     > [!NOTE]
     >  You can filter on the **Full name**, **Title**, **Company**, **Department**, and **Business address** fields. You can’t filter on the **Tracking** status, **Business phone**, or **Email** fields.  
   
-##### Add or remove columns  
+#### Add or remove columns  
   
 1.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button").  
   
@@ -447,30 +528,37 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
 3.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button") again to hide the list of columns.  
   
-##### Move columns  
+#### Move columns  
   
 -   Select the column you want to move, and then drag it to a new location.  
   
     > [!NOTE]
     >  You can’t move the **Status** column.  
   
-##### Sort data  
+#### Sort data  
   
 -   To sort the data in ascending order, click the column heading. To change the sort order to descending, click the column heading again.  
   
     > [!NOTE]
     >  You can sort on the **Full name**, **Company**, **Department**, and **Business address** fields.  
   
-##### Show the latest data  
+#### Show the latest data  
   
 -   Click the **Refresh** button ![Dynamics 365 App for Outlook Refresh button](../media/dynamics-365-app-outlook-refresh-button.png "Dynamics 365 App for Outlook Refresh button").  
   
-##### Set the number of records you see on the screen  
+#### Set the number of records you see on the screen  
   
 -   Enter the number you want at the bottom of the screen.  
   
      ![Dynamics 365 App for Outlook contact tracking, number of records to show](../media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 App for Outlook contact tracking, number of records to show")  
-  
+ 
+<a name="PinnableTaskpane"></a>   
+
+### Add a pinnable taskpane
+If you're running Outlook 2016 for Windows (build 7668.2000 or later), you can add a [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook) to Outlook to enhance the App for Outlook user experience. For more information, see Implement a [pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane).
+
+
+ 
 <a name="Previous"></a>   
 ## User's Guide for the previous version (Dynamics CRM)  
  This section of this topic describes how to use the version of the app provided in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../../includes/pn-crm-8-1-0-online-subsequent.md)] and [!INCLUDE[pn_crm_8_1_0_op](../../includes/pn-crm-8-1-0-op.md)].  
