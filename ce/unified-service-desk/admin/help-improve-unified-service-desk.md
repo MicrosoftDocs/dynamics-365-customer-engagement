@@ -37,10 +37,10 @@ Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/
 
 ## Help Improve Unified Service Desk enabled by default
 
-With the release of [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], by default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+With the release of [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], by default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] instance and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
 > [!Note]
-> For [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] and lower, you must enable the Help improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by configuring the **HelpImproveUSD** global option and setting the option to **True**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable sending improvement program information to Microsoft anonymously](#enable-sending-improvement-program-information-to-microsoft-anonymously)
+> If you are using [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] and lower with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] instance, you must enable the Help improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by configuring the **HelpImproveUSD** global option and setting the option to **True**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable sending improvement program information to Microsoft anonymously](#enable-sending-improvement-program-information-to-microsoft-anonymously)
 
 During new installation or upgrade scenario, the information about the transmitting the product usage and performance information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. This informaiton helps us to improve the product experience.
 
