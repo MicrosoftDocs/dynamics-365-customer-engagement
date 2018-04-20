@@ -43,4 +43,4 @@ Use the settings on this page to...
 |Settings|Description|  
 |--------------|-----------------|  
 |**Set conflict detection for mobile offline synchronization**||
-|Enable conflict for mobile offline synchronization|If Yes, sync conflict detection will be enabled during playback of actions after an offline device comes back online. If No, the default, no conflict detection is done while playing back actions after an offline device comes back online. The changes done offline will overwrite any changes done in Dynamics 365.|
+|Enable conflict for mobile offline synchronization|If Yes, sync conflict detection will be enabled during playback of actions after an offline device comes back online. If No, the default, no conflict detection is done while playing back actions after an offline device comes back online. The changes done offline will overwrite any changes done in Dynamics 365.<br/>For more information, see "Sync conflict resolution" in [Work offline with Dynamics 365 for phones and tablets](../mobile-app/v8/go-mobile/work-offline.md)|.
