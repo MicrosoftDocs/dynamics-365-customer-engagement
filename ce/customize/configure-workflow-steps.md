@@ -31,7 +31,9 @@ When configuring workflows you have four major areas to consider:
  The [Workflows processes overview](../customize/workflow-processes.md) topic shows how to find workflow processes, when to start them, and if they should run as real time or background. This topic shows which actions workflows can perform and conditions to perform those actions.  
   
 <a name="BKMK_WorkflowStagesAndSteps"></a>   
+
 ## Workflow stages and steps  
+
  When you design workflows you have the option to contain the logic you want to perform in stages and steps.  
   
  **Stages**  
@@ -40,8 +42,10 @@ When configuring workflows you have four major areas to consider:
  **Steps**  
  Steps are a unit of business logic within a workflow. Steps can include conditions, actions, other steps, or a combination of these elements.  
   
-<a name="BKMK_ActionsWorkflowProcessesCanPerform"></a>   
+<a name="BKMK_ActionsWorkflowProcessesCanPerform"></a>  
+ 
 ## Actions that workflow processes can perform  
+
  Workflow processes can perform the actions listed in the following table.  
   
 |Action|Description|  
@@ -56,6 +60,7 @@ When configuring workflows you have four major areas to consider:
 |**Custom Step**|Developers can create custom workflow steps that define actions. There are no custom steps available by default.|  
   
 ### Setting record values  
+
  When you create a record you can set values for the record. When you update a record you can set, append, increment, decrement, multiply, or clear values.  
   
  When you select **Set Properties**, a dialog opens showing you the default form for the entity.  
@@ -70,15 +75,15 @@ When configuring workflows you have four major areas to consider:
   
  With dynamic values you don’t know for certain that a field or related entity has the value you want to set. You can actually set a number of fields to try and set the value and sort them in order using the green arrows. If the first field doesn’t have data, the second field will be tried and so on. If none of the fields have data, you can specify a default value to be used.  
   
-<a name="BKMK_SettingConditionsForWorkflowActions"></a>  
- 
+<a name="BKMK_SettingConditionsForWorkflowActions"></a>   
+
 ## Setting conditions for workflow actions  
 
  The actions that you will apply often depend on conditions. Workflow processes provide several ways to set conditions and create branching logic to get the results you want. You can check values of the record that the workflow process is running against, any of the records linked to that record with an N:1 relationship, or values within the process itself  
   
 |Condition Type|Description|  
 |--------------------|-----------------|  
-|**Check Condition**|A logical "if-\<condition> then" statement.<br /><br /> You can check the current values for the record that the workflow is running on, any of the records linked to that record in an N:1 relationships, or any records created by earlier steps. Based on these values you can define additional steps when the condition is true.<br /><br /> In the "if-\<condition> then" statement, you can use the following operators: **Equals**, **Does Not Equal**, **Contains Data**, **Does Not Contain Data**, **Under** and **Not Under**. **Note:**  The **Under** and **Not Under** are hierarchical operators. They can only be used on the entities that have a hierarchical relationship defined. If you’re trying to use these operators on the entities that don’t have the hierarchical relationship defined, you’ll see the error message: “You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.”For more information about hierarchical relationships, see [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md). A screenshot that follows the table is an example of the definition of the workflow process that uses the **Under** and **Not Under** hierarchical operators.| 
+|**Check Condition**|A logical "if-\<condition> then" statement.<br /><br /> You can check the current values for the record that the workflow is running on, any of the records linked to that record in an N:1 relationships, or any records created by earlier steps. Based on these values you can define additional steps when the condition is true.<br /><br /> In the "if-\<condition> then" statement, you can use the following operators: **Equals**, **Does Not Equal**, **Contains Data**, **Does Not Contain Data**, **Under** and **Not Under**. **Note:**  The **Under** and **Not Under** are hierarchical operators. They can only be used on the entities that have a hierarchical relationship defined. If you’re trying to use these operators on the entities that don’t have the hierarchical relationship defined, you’ll see the error message: “You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.”For more information about hierarchical relationships, see [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md). A screenshot that follows the table is an example of the definition of the workflow process that uses the **Under** and **Not Under** hierarchical operators.|  
 |**Conditional Branch**|A logical "else-if-then" statement, the editor uses the text “Otherwise, if \<condition> then:”<br /><br /> Select a check condition you have previously defined and you can add a conditional branch to define additional steps when the check condition returns false.|  
 |**Default Action**|A logical "else" statement. the editor uses the text “Otherwise:”<br /><br /> Select a check condition, conditional branch, wait condition, or parallel wait branch that you have previously defined and you can use a default action to define steps for all cases that do not match the criteria defined in condition or branch elements.|  
 |**Wait Condition**|Enables a background workflow to pause itself until the criteria defined by the condition have been met. The workflow starts again automatically when the criteria in the wait condition have been met.<br /><br /> Real-time workflows cannot use wait conditions.|  
@@ -90,22 +95,27 @@ When configuring workflows you have four major areas to consider:
  ![Workflow process with Under&#47;Not Under operators](../customize/media/wfp-under-not-under.PNG "Workflow process with Under/Not Under operators")  
   
 <a name="BKMK_SynchronousWorkflows"></a>   
+
 ## Using real-time workflows  
+
  You can configure real-time workflows but you should use them with care. Background workflows are generally recommended because they allow the system to apply them as resources on the server are available. This helps smooth out the work the server has to do and help maintain the best performance for everyone using the system. The drawback is that actions defined by background workflows are not immediate. You can’t predict when they will be applied, but generally it will take a few minutes. For most automation of business processes this is fine because people using the system don’t need to be consciously aware that the process is running.  
   
  Use real-time workflows when a business process requires someone to immediately see the results of the process or if you want the ability to cancel an operation. For example, you may want to set certain default values for a record the first time it’s saved, or you want to make sure that some records are not deleted.  
   
 ### Converting between real-time and background workflows  
+
  You can change a real-time workflow into a background workflow by choosing **Convert to a background workflow** on the toolbar.  
   
  You can change a background workflow into a real-time workflow by choosing **Convert to a real-time workflow** on the toolbar. If the background workflow uses a wait conditions it will become invalid and you won’t be able to activate it until you remove the wait condition.  
   
 ### Initiating real-time workflows before or after status changes  
+
  When you configure **Options for Automatic Processes** for real-time workflows, the **Start When** options for the status changes event let you select **After** or **Before** for when status changes. The default option is **After**.  
   
  When you select **Before** you are saying that you want the logic in the workflow to be applied before data changing the status is saved. This provides you with the ability to check the values before other logic has been applied after the operation and prevent further logic from being performed. For example, you may have additional logic in a plug-in or custom workflow action which could initiate actions on another system. By stopping further processing you can avoid cases where external systems are affected. Applying real-time workflows before this event also means that other workflow or plug-in actions that may have saved data don’t need to be “rolled back” when the operation is canceled.  
   
 ### Using the Stop Workflow action with real-time workflows  
+
  When you apply a **Stop Workflow** action in a workflow you have the option to specify a status condition that can be either **Succeeded** or **Canceled**. When you set the status to canceled, you prevent the operation. An error message containing the text from the stop action status message will be displayed to the user with the heading **Business Process Error**.  
   
 ### See also  
