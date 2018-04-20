@@ -2,16 +2,12 @@
 title: "Configure workflow steps in PowerApps | MicrosoftDocs"
 description: "Learn how to configure workflow steps"
 ms.custom: ""
-ms.date: 04/03/2018
+ms.date: 04/20/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-  - "powerapps"
 author: "Mattp123"
 ms.assetid: 0b47dfd5-76db-464f-90c0-c64a0173dcdd
 caps.latest.revision: 18
@@ -74,13 +70,15 @@ When configuring workflows you have four major areas to consider:
   
  With dynamic values you don’t know for certain that a field or related entity has the value you want to set. You can actually set a number of fields to try and set the value and sort them in order using the green arrows. If the first field doesn’t have data, the second field will be tried and so on. If none of the fields have data, you can specify a default value to be used.  
   
-<a name="BKMK_SettingConditionsForWorkflowActions"></a>   
+<a name="BKMK_SettingConditionsForWorkflowActions"></a>  
+ 
 ## Setting conditions for workflow actions  
+
  The actions that you will apply often depend on conditions. Workflow processes provide several ways to set conditions and create branching logic to get the results you want. You can check values of the record that the workflow process is running against, any of the records linked to that record with an N:1 relationship, or values within the process itself  
   
 |Condition Type|Description|  
 |--------------------|-----------------|  
-|**Check Condition**|A logical "if-\<condition> then" statement.<br /><br /> You can check values for the record that the workflow is running on, any of the records linked to that record in an N:1 relationships, or any records created by earlier steps. Based on these values you can define additional steps when the condition is true.<br /><br /> In the "if-\<condition> then" statement, you can use the following operators: **Equals**, **Does Not Equal**, **Contains Data**, **Does Not Contain Data**, **Under** and **Not Under**. **Note:**  The **Under** and **Not Under** are hierarchical operators. They can only be used on the entities that have a hierarchical relationship defined. If you’re trying to use these operators on the entities that don’t have the hierarchical relationship defined, you’ll see the error message: “You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.”For more information about hierarchical relationships, see [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md). A screenshot that follows the table is an example of the definition of the workflow process that uses the **Under** and **Not Under** hierarchical operators.|  
+|**Check Condition**|A logical "if-\<condition> then" statement.<br /><br /> You can check the current values for the record that the workflow is running on, any of the records linked to that record in an N:1 relationships, or any records created by earlier steps. Based on these values you can define additional steps when the condition is true.<br /><br /> In the "if-\<condition> then" statement, you can use the following operators: **Equals**, **Does Not Equal**, **Contains Data**, **Does Not Contain Data**, **Under** and **Not Under**. **Note:**  The **Under** and **Not Under** are hierarchical operators. They can only be used on the entities that have a hierarchical relationship defined. If you’re trying to use these operators on the entities that don’t have the hierarchical relationship defined, you’ll see the error message: “You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.”For more information about hierarchical relationships, see [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md). A screenshot that follows the table is an example of the definition of the workflow process that uses the **Under** and **Not Under** hierarchical operators.| 
 |**Conditional Branch**|A logical "else-if-then" statement, the editor uses the text “Otherwise, if \<condition> then:”<br /><br /> Select a check condition you have previously defined and you can add a conditional branch to define additional steps when the check condition returns false.|  
 |**Default Action**|A logical "else" statement. the editor uses the text “Otherwise:”<br /><br /> Select a check condition, conditional branch, wait condition, or parallel wait branch that you have previously defined and you can use a default action to define steps for all cases that do not match the criteria defined in condition or branch elements.|  
 |**Wait Condition**|Enables a background workflow to pause itself until the criteria defined by the condition have been met. The workflow starts again automatically when the criteria in the wait condition have been met.<br /><br /> Real-time workflows cannot use wait conditions.|  
