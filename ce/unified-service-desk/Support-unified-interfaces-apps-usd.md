@@ -33,3 +33,5 @@ The new Unified Interface brings all the rich experiences to any client that you
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
+
+
