@@ -64,6 +64,7 @@ Users must have **read/write** privileges for the following entities.
 
 - **User Application Metadata**
 
+<br/>
 Users must have **read** privileges for the following entities.  
 
 #### Customization tab:  
