@@ -169,15 +169,15 @@ Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-d
 
 Your agent application will now have a **Smiley** button in the toolbar area.
 
-2. On the toolbar, select the **Provide Feedback** smiley. <br/>The **Feedback** window appears.
-3. Select a smiley from the list:
+1. On the toolbar, select the **Provide Feedback** smiley. <br/>The **Feedback** window appears.<br>
+2. Select a smiley from the list:
   - Good
   - Normal
   - Bad
-4.	Type your feedback or suggestion in the text box. 
-5.	Select **Submit** to send your feedback to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].<br>
+3.	Type your feedback or suggestion in the text box. 
+4.	Select **Submit** to send your feedback to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].<br>
 
-    ![Provide feedback window](../media/provide-feedback-window.PNG "Provide feedback window")
+    ![Provide feedback smiley and window](../media/provide-feedback-smiley-window.PNG "Provide feedback smiley and window")
 
 
 <a name="Conclusion"></a> 
