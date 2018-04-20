@@ -56,18 +56,17 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
   
 Users must have **read/write** privileges for the following entities.  
   
-#### Business Management tab:  
+Business Management tab:  
   
 - **Mailbox**  
   
-#### Customization tab:
+Customization tab:
 
 - **User Application Metadata**
 
-<br/>
 Users must have **read** privileges for the following entities.  
 
-#### Customization tab:  
+Customization tab:  
 
 - **App**
   
