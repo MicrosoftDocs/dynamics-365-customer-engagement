@@ -27,11 +27,18 @@ With the release of Dynamics 365 (online), version 9.0, we've introduced a new u
 
 The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: About Unified Interface
 
-# What is Unified Interface supportability in Unified Service Desk?
+## What is Unified Interface supportability in Unified Service Desk?
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from Dynamics 365 apps, which is built based on the Unified Interface framework.
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
+## Deploy the Unified Interface sample application
+
+[!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  
+  
+ The Unified Interface sample application is bundled as a package that you need to deploy on a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance before you can start working. The deployment of the Unified Interface sample application package is performed using [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)]. After the deployment, the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] become available in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.
+
+To deploy the Unified Interface sample application package, refer [Deploy a sample Unified Service Desk package using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
 
 

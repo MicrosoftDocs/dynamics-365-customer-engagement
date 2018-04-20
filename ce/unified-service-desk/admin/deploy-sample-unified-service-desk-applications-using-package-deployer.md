@@ -113,8 +113,8 @@ manager: "sakudes"
 - **ComplexImportDetail.log**: This provides detailed information about the data imported in the last deployment using the tool. Each time you deploy a package using this tool, the existing details from the log file are moved to a file called CompelxImportDetail._old.log in the same directory, and the ComplexImportDetail.log file displays information about the latest import done using the tool.  
   
 <a name="PostDeployment"></a>   
-## Post-deployment step for the Interactive Service Hub package  
- If you have deployed the **Interactive Service Hub** package, you must manually activate the following records in the **Service Management** area (**Settings** > **Service Management**) that are created by the package:  
+## Post-deployment step for the package  
+ If you have deployed the **Customer Service Hub** package, you must manually activate the following records in the **Service Management** area (**Settings** > **Service Management**) that are created by the package:  
   
 |Entity|Records to be activated|  
 |------------|-----------------------------|  
@@ -123,7 +123,7 @@ manager: "sakudes"
 |Routing Rule Sets|Routing Rule|  
 |Automatic Case Creation Rules|Email to Case Rule|  
   
- The **Interactive Service Hub** package also creates sample queue, customer service schedule, and holiday schedule records.  
+ The **Customer Service Hub** package also creates sample queue, customer service schedule, and holiday schedule records.  
     
   
 ## See also  
