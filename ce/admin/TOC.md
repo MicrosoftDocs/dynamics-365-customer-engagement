@@ -267,6 +267,6 @@
 ## [Sales tab](system-settings-dialog-box-sales-tab.md)
 ## [Service tab](system-settings-dialog-box-service-tab.md)
 ## [Synchronization tab](system-settings-dialog-box-synchronization-tab.md)
-<!-- ## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md) -->
+## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md) -->
 ## [Previews tab](system-settings-dialog-box-previews-tab.md)
 ## [On-off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md)
