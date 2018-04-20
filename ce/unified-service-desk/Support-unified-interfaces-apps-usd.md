@@ -29,7 +29,7 @@ The new Unified Interface brings all the rich experiences to any client that you
 
 # What is Unified Interface supportability in Unified Service Desk?
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from Dynamics 365 apps, which is built based on the Unified Interface framework.
+[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can host a Unified Interface Page to load a URL or page from Dynamics 365 apps, which is built based on the Unified Interface framework.
 
 The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
