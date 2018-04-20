@@ -138,9 +138,9 @@ In this step, you'll add actions calls the **[!INCLUDE[pn-best-practices-analyze
   
 5. Click **Save**.
 
-6. In the **Actions** area, type `Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]` in the text box and Press **ENTER** or click on the search icon.
+6. In the **Actions** area, type **Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** in the text box and Press **ENTER** or click on the search icon.
 
-7. Select the `Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]`. <br>
+7. Select the **Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**. <br>
 The new action call is added to the **Settings** button.
 
 7. You’ll add another action call to the button to set the focus on the hosted control that show the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] in the client application. In the **Actions** area, click **+** on the right corner to add an action call.  
@@ -159,9 +159,9 @@ The new action call is added to the **Settings** button.
 
 10. Click **Save**.
 
-11. In the **Actions** area, type `Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]` in the text box and Press **ENTER** or click on the search icon.
+11. In the **Actions** area, type **Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** in the text box and Press **ENTER** or click on the search icon.
 
-12. Select the `Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]`.<br>
+12. Select the **Focus: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.<br>
 The new action call is added to the **Settings** button.
 
 <a name="Step5"></a>   
@@ -190,7 +190,7 @@ The new action call is added to the **Settings** button.
   
 5.  On the nav bar, click the down arrow next to **Contoso Configuration**, and select **Action Calls**.  
   
-6.  On the next page, click **Add Existing Action Call**, type `Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]` in the search bar, and then press **ENTER** or click the search icon.  
+6.  On the next page, click **Add Existing Action Call**, type **Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]** in the search bar, and then press **ENTER** or click the search icon.  
   
 7.  The action call listed earlier are displayed in the search results. Add these action call.
   
