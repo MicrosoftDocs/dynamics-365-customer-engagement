@@ -53,34 +53,36 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
   
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
-  
-Users must have **read/write** privileges for the following entities.  
-  
-Business Management tab:  
-  
-- **Mailbox**  
-  
-Customization tab:
 
-- **User Application Metadata**
+In addition:
+  
+1. Users must have **read/write** privileges for the following entities.  
+  
+   Business Management tab:  
+  
+   - **Mailbox**  
+  
+   Customization tab:
 
-Users must have **read** privileges for the following entities.  
+   - **User Application Metadata**
 
-Customization tab:  
+2. Users must have **read** privileges for the following entities.  
 
-- **App**
+   Customization tab:  
+
+   - **App**
   
-- **Entity**  
+   - **Entity**  
   
-- **Field**  
+   - **Field**  
   
-- **Relationship**  
+   - **Relationship**  
   
-- **System Application Metadata**  
+   - **System Application Metadata**  
   
-- **System Form**  
+   - **System Form**  
   
-- **View**  
+   - **View**  
   
 #### Set the privileges for a security role  
 
