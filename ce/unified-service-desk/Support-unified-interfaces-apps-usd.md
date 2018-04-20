@@ -23,7 +23,7 @@ Now, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
 ## What is Unified Interface?
 
-With the release of Dynamics 365 (online), version 9.0, we've introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
+With the release of Dynamics 365 (online), version 9.0, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
 The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: About Unified Interface
 
@@ -41,4 +41,23 @@ The experience of the supportability is that the Unified Interface Page hosted c
 
 To deploy the Unified Interface sample application package, refer [Deploy a sample Unified Service Desk package using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
 
+## Configure application selection window in Unified Service Desk
+
+Since you have can have both Web and Unified Interface apps. A application selection is introduced to ensure that you can select Web or Unified Interface app as per your business requirement.
+
+The application selection window appears when you login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. To enable the application selection window, you must update a **SelectAppModule** key under the **\<appSettings>** section of the **UnifiedServiceDesk.exe.config** (application configuration) file and set it to **true**.
+
+### Add the application selection window key
+
+1. Go to `C:\Program Files\Microsoft Dynamics CRM USD\USD`.
+2. Select **UnifiedServiceDesk.exe.config** file.
+3. Under the **\<appSettings>** section, type the key.<br>
+`<add key="SelectAppModule" value="true"/>`
+4. Save the file.
+
+### Login to Unified Service Desk client application
+
+After you update the **SelectAppModule** key in the **UnifiedServiceDesk.exe.config** file, you need to login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to select an web or Unified Interface app.
+
+![Select App Module](media/select-app-module-new.PNG "Select App Module")
 
