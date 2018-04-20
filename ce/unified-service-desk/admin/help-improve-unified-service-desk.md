@@ -35,7 +35,18 @@ Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/
 
 - [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] application-specific information. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Telemetry data](../admin/comply-unified-service-desk-data-gdpr.md#telemetry-data)
 
-By default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+## Help Improve Unified Service Desk enabled by default
+
+With the release of [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], by default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled and Unified Service Desk sends information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
+
+> [!Note]
+> For [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] and lower, you must enable the Help improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] by configuring the **HelpImproveUSD** global option and setting the option to **True**. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Enable sending improvement program information to Microsoft anonymously](#enable-sending-improvement-program-information-to-microsoft-anonymously)
+
+During new installation or upgrade scenario, the information about the transmitting the product usage and performance information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. This informaiton helps us to improve the product experience.
+
+![Transmitting usage and performance information](../media/helpimprove-usd-install.PNG "Transmitting usage and performance information")
+
+![Transmitting usage and performance information](../media/helpimprove-usd-upgrade.PNG "Transmitting usage and performance information")
 
 Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FALSE` disables data collection and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] does not send information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)].
 
@@ -47,7 +58,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
   
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] as a user with the System Administrator or [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator security role.  
   
-2. Go to **Settings** > **Unified Service Desk.**  
+2. Go to **Settings** > **Unified Service Desk.**
   
 3. Click **Options**.  
   
@@ -60,7 +71,7 @@ Configuring and setting the value of the Global Option: `HelpImproveUSD` to `FAL
 7. Click **SAVE & CLOSE**.
   
 <a name="Enable_ImproveUSD"></a>   
-## Enable sending improvement program information to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] anonymously  
+## Enable sending improvement program information to Microsoft anonymously  
 
 1. Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] as a user with the System Administrator or [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Administrator security role.  
   
