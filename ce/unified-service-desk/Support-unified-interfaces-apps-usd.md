@@ -35,9 +35,9 @@ The experience of the supportability is that the Unified Interface Page hosted c
 
 ## Deploy the Unified Interface sample application
 
-[!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  
+[!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  
   
- The Unified Interface sample application is bundled as a package that you need to deploy on a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] instance before you can start working. The deployment of the Unified Interface sample application package is performed using [!INCLUDE[pn_package_deployer_long](../../includes/pn-package-deployer-long.md)]. After the deployment, the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] become available in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.
+ The Unified Interface sample application is bundled as a package that you need to deploy on a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance before you can start working. The deployment of the Unified Interface sample application package is performed using [!INCLUDE[pn_package_deployer_long](../includes/pn-package-deployer-long.md)]. After the deployment, the entities and custom code specific to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] become available in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.
 
 To deploy the Unified Interface sample application package, refer [Deploy a sample Unified Service Desk package using Package Deployer](admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md)
 
@@ -45,7 +45,7 @@ To deploy the Unified Interface sample application package, refer [Deploy a samp
 
 Since you have can have both Web and Unified Interface apps. A application selection is introduced to ensure that you can select Web or Unified Interface app as per your business requirement.
 
-The application selection window appears when you login to [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. To enable the application selection window, you must update a **SelectAppModule** key under the **\<appSettings>** section of the **UnifiedServiceDesk.exe.config** (application configuration) file and set it to **true**.
+The application selection window appears when you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. To enable the application selection window, you must update a **SelectAppModule** key under the **\<appSettings>** section of the **UnifiedServiceDesk.exe.config** (application configuration) file and set it to **true**.
 
 ### Add the application selection window key
 

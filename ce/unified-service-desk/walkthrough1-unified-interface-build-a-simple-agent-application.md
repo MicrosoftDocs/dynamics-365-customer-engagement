@@ -20,7 +20,7 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Walkthrough 1: Build a simple agent application
-This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that can connect to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.  
+This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that can connect to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.
   
 ## Prerequisites  
   
@@ -38,15 +38,15 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 <a name="Top"></a>   
 ## In This Walkthrough  
- [Step 1: Create the basic hosted controls](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md#Step1)  
+ [Step 1: Create the basic hosted controls](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md#Step1) 
   
- [Step 2: Add the hosted controls to a configuration](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md#Step2)  
+ [Step 2: Add the hosted controls to a configuration](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md#Step2)  
   
- [Step 3: Assign users to the configuration](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md#Step3)  
+ [Step 3: Assign users to the configuration](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md#Step3)  
   
- [Step 4: Test the application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md#Step4)  
+ [Step 4: Test the application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md#Step4)  
   
- [Conclusion](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md#Conclusion)  
+ [Conclusion](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md#Conclusion)  
   
 <a name="Step1"></a>   
 ## Step 1: Create the basic hosted controls  
@@ -159,10 +159,10 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 ### See also  
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
- [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
- [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
- [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
- [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
- [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
+ [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)   
+ [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)   
+ [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
  
