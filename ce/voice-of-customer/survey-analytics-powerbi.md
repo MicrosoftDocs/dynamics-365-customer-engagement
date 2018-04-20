@@ -13,7 +13,7 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ms.reviewer: 
-topic-status: Drafting
+
 ---
 
 # Survey analytics using Power BI
