@@ -786,9 +786,3 @@ If you're running Outlook 2016 for Windows (build 7668.2000 or later), you can a
   
 -   Any record or activity tile  
   
-## See Also  
-<!--
- [TechNet: Deploy Dynamics 365 App for Outlook](https://technet.microsoft.com/library/dn946901.aspx)   
- [TechNet: Set up server-side synchronization](https://technet.microsoft.com/library/dn531109.aspx)   
- [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)
--->
