@@ -43,7 +43,7 @@ Use the settings on this page to enable preview features in [!INCLUDE[pn_microso
 |**Action Step Support for Business Process Flows Preview**||
 |Enable Action Step Support for Business Process Flows Preview|More information: [Business process flows overview](../customize/business-process-flows-overview.md)|
 |**BPF Entity Customization Support**||
-|Enable BPF Entity Customization Support|<!-- need text from dev docs -->|
+|Enable BPF Entity Customization Support|If Yes, enables customization support for business process flow entities. Default is No.|
 |**Organization Insights Preview**||
 |Enable Organization Insights Preview|More information: [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md)|
 |**Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**||
