@@ -17,17 +17,22 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 
-# Create a Unified Interface Page hosted control
+# Unified Interface Page (Hosted Control)
+Use the **Unified Interface Page** hosted control type to load a URL or page from Unified Interface Apps in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
+  
+ This hosted control type exposes a number of predefined UII actions and events that are unique to handling of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page
+
+## Create a Unified Interface Page hosted control
 
 While creating a new hosted control, the fields in the New Hosted Control screen vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the Unified Interface Page hosted control type.
 
 In the New Hosted Control screen:
 
--   Under **Unified Service Desk** area, select **Unified Interface Page** from the **USD Component Type** drop-down list.
+-   Under **[!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]** area, select **Unified Interface Page** from the **USD Component Type** drop-down list.
 
--   Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the Unified Service Desk context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
+-   Select **Pre-fetch Data** to load related information for an entity record in the context along with the entity record page without having to wait for the full entity web page to load in the client application. The fetched entity information is populated in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context thus enabling any hosted control to quickly display relevant entity information on the client application. This could help agents instantly act or kick start discussion with customers, and save crucial interaction time.
 
--   From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the Dynamics 365 page that is currently displayed, and update the browser history when Unified Service Desk receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the Dynamics 365 pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
+-   From the **Allow Multiple Pages** drop-down list, select **No** (default) to replace the Dynamics 365 page that is currently displayed, and update the browser history when [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] receives a navigate action call or a page is routed to the tab. Select **Yes** to automatically create a drop-down list when a second URL is called or a window navigation rule directs a page to the tab. This allows the user to quickly search between the Dynamics 365 pages that are attached to this control. Also, when you select **Yes**, an additional field, **Maximum Browsers**, becomes available where you can specify the maximum number of pages to be displayed in the drop-down list.
 
 -   Under the **Common Properties** area, select the **Application is Global** check box to set the hosted control as global. Global hosted controls can be displayed outside of a customer session. Controls like the agents’ dashboard, wall or search are common uses for global hosted controls. Global hosted controls do not have session-specific state so when you change sessions, these same global hosted controls remain. If the check box is not selected, the hosted control becomes session based. Session-based controls exist in the context of the customer session. If the user changes to another session, all the session pages from the previous session are hidden.
 
@@ -210,7 +215,7 @@ This action is used to navigate to a Dynamics 365 url.
 </tr>
 <tr class="odd">
 <td>postdata</td>
-<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In Unified Service Desk, this data can be received from any event triggered using &quot;<a href="http://event/?" class="uri">http://event/?</a>&quot;. Example: [[postdata]+]<br />
+<td>Data that is sent to the server as part of an HTTPPOST transaction. A POST transaction is typically used to send data gathered by an HTML page. In [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], this data can be received from any event triggered using &quot;<a href="http://event/?" class="uri">http://event/?</a>&quot;. Example: [[postdata]+]<br />
 <br />
 Alternatively, the data can be passed as an encoded string with its header type in the intended format.</td>
 </tr>
@@ -218,7 +223,7 @@ Alternatively, the data can be passed as an encoded string with its header type 
 <td>header</td>
 <td>A string value that contains additional HTTP headers to send to the server. When the postdata parameter is used in the Navigate action, you should also specify an appropriate value for the header parameter. Example: Content-Type:application/x-www-form-urlencoded<br />
 <br />
-If a Unified Service DeskPOST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
+If a [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]POST event triggers the Navigate action, the default value of this parameter should be header=[[header]+]</td>
 </tr>
 </tbody>
 </table>
@@ -330,7 +335,7 @@ Occurs when the active hosted control is closed using the [CloseActive](https://
 
 ## DataReady
 
-Occurs as soon as the related information for an entity record is loaded in the Unified Service Desk context. This event occurs before the **PageReadyFor** event. If the **Pre-Fetch Data** option is selected for the control instance then this event occurs as soon as the entity data is fetched in a separate parallel call to the server and will not wait for the full page to finish loading. The entity data is pre-fetched and the **DataReady** event is fired for inline navigations as well.
+Occurs as soon as the related information for an entity record is loaded in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] context. This event occurs before the **PageReadyFor** event. If the **Pre-Fetch Data** option is selected for the control instance then this event occurs as soon as the entity data is fetched in a separate parallel call to the server and will not wait for the full page to finish loading. The entity data is pre-fetched and the **DataReady** event is fired for inline navigations as well.
 
 ## RefreshRequested
 
@@ -363,5 +368,3 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 | Parameter | Description                                    |
 |-----------|------------------------------------------------|
 | url       | The URL of the page that has finished loading. |
-
-

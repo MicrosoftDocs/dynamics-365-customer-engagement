@@ -65,11 +65,11 @@ manager: "sakudes"
   
 8.  The next screen displays detailed information about the selected package and the things that will be installed on your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. Review the information, and choose **Next**.  
   
-9. The **Ready to Install** screen displays the package selected for deployment and name of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization where it will be deployed to. Review the information, and choose **Next**.  
+9. The **Ready to Install** screen displays the package selected for deployment and name of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization where it will be deployed to. Review the information, and choose **Next**.
+
+ ![Package Ready](../../unified-service-desk/media/usd-package-deployer-2.png "Package Ready")
   
-10. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**.  
-  
- ![Package validation results](../../unified-service-desk/media/usd-package-deployer-3.png "Package validation results")  
+10. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**. 
   
 11. The next page displays the package deployment status. You can choose the log link at the bottom-left corner of the screen to view the package deployment log file, PackageDeployer.log. For more information about logging, see [Troubleshoot package deployment issues using log files](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#Logfiles) later in this topic. A confirmation message is displayed on successful deployment of the package. Click **Next**.  
   
@@ -79,7 +79,7 @@ manager: "sakudes"
   
 <a name="Remove"></a>   
 ## Remove a sample Unified Service Desk package  
- When you deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package in a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the following three managed solutions are created:  
+ When you deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package in a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the following three managed solutions are created:
   
 -   UiiforMicrosoftDynamicsCRM  
   
