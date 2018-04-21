@@ -20,13 +20,13 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 # Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application
-This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
+This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] records in a session in your agent application using window navigation rules and session controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. It also demonstrates the use of replacement parameters to dynamically display the name of the hosted control based on the currently displayed account record. This walkthrough is built on top of the previous walkthrough, [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md), to display an account record in a session when you click on one of the accounts in the **Account** search result window.  
   
 ## Prerequisites  
   
--   You must have completed [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md) and [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). The configurations that you completed in these walkthroughs are required in this walkthrough.  
+-   You must have completed [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) and [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md). The configurations that you completed in these walkthroughs are required in this walkthrough.  
   
--   This walkthrough assumes that you’ll be using the same user credential that you used in walkthrough 1 to sign in to the agent application at the end of the walkthrough to test the application. If a different user will be testing the application, you must assign the user to **Contoso Configuration**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)  
+-   This walkthrough assumes that you’ll be using the same user credential that you used in walkthrough 1 to sign in to the agent application at the end of the walkthrough to test the application. If a different user will be testing the application, you must assign the user to **Contoso Configuration**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)  
   
 -   You must know about the following in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
@@ -39,19 +39,19 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     -   Filter access using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
   
 ## In This Walkthrough  
- [Step 1: Create a session-scoped hosted control to display account record in a session](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md#Step1)  
+ [Step 1: Create a session-scoped hosted control to display account record in a session](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md#Step1)  
   
- [Step 2: Configure the event to close the hosted control from where the search originated](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md#Step2)  
+ [Step 2: Configure the event to close the hosted control from where the search originated](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md#Step2)  
   
- [Step 3: Create a Session Tabs hosted control](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md#Step3)  
+ [Step 3: Create a Session Tabs hosted control](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md#Step3)  
   
- [Step 4: Create a window navigation rule to display the account record in a session](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md#Step4)  
+ [Step 4: Create a window navigation rule to display the account record in a session](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md#Step4)  
   
- [Step 5: Add the controls to the configuration](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md#Step5)  
+ [Step 5: Add the controls to the configuration](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md#Step5)  
   
- [Step 6: Test the application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md#Step6)  
+ [Step 6: Test the application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md#Step6)  
   
- [Conclusion](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md#Conclusion)  
+ [Conclusion](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md#Conclusion)
   
 <a name="Step1"></a>   
 ## Step 1: Create a session-scoped hosted control to display account record in a session  
@@ -82,7 +82,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 <a name="Step2"></a>   
 ## Step 2: Configure the event to close the hosted control from where the search originated  
- In this step, you’ll configure the **PageReady** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user clicked to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
+ In this step, you’ll configure the **PageReady** event on the **Contoso Account Session** hosted control so that when it’s loaded, the parent hosted control from where the user clicked to open the account, **Contoso Accounts Search**, is closed. The **Contoso Accounts Search** hosted control was created in [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md). This is done to ensure that the user can’t open other account information in the same session tab.  
   
 1.  On the nav bar, click the down arrow next to the **Contoso Account Session** hosted control, and click **Events**.  
   
@@ -159,7 +159,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 <a name="Step5"></a>   
 ## Step 5: Add the controls to the configuration  
- In this step, you’ll add the action call, event, hosted controls, and window navigation rule configured in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
+ In this step, you’ll add the action call, event, hosted controls, and window navigation rule configured in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md).  
   
  Add the following to **Contoso Configuration**.  
   
@@ -194,7 +194,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
 <a name="Step6"></a>   
 ## Step 6: Test the application  
   
-1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
+1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured Unified Service Desk by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md).  
   
 2.  To display the account records from your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance, click the down arrow next to the **Search** button in the toolbar, and then click **Account**.  
   
@@ -211,7 +211,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
  In this walkthrough, you learned how to use the session hosted control and window navigation rules to display [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] records in a session in your agent application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
   
 > [!NOTE]
->  Try the next walkthrough to present enhanced session information in your agent application: [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md).  
+>  Try the next walkthrough to present enhanced session information in your agent application: [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md). 
   
 ### See also  
  [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)   
