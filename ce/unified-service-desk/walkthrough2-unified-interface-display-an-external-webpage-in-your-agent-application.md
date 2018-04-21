@@ -24,7 +24,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
   
 ## Prerequisites  
   
--   You must have completed [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). The configurations that you completed in the first walkthrough are required in this walkthrough.  
+-   You must have completed [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). The configurations that you completed in the first walkthrough are required in this walkthrough.  
   
 -   This walkthrough assumes that you will be using the same user credential that you used at the end of Walkthrough 1 to sign in to the agent application. If a different user will be testing the application, you must assign the user to **Contoso Configuration**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)  
   
@@ -38,19 +38,19 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
   
 <a name="Top"></a>   
 ## In This Walkthrough  
- [Step 1: Create a hosted control to display the webpage](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md#Step1)  
+ [Step 1: Create a hosted control to display the webpage](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md#Step1)  
   
- [Step 2: Create a toolbar container type of hosted control](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md#Step2)  
+ [Step 2: Create a toolbar container type of hosted control](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md#Step2)  
   
- [Step 3: Add a toolbar and attach it to the toolbar container](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md#Step3)  
+ [Step 3: Add a toolbar and attach it to the toolbar container](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md#Step3)  
   
- [Step 4: Add a toolbar button and action calls to display the webpage](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md#Step4)  
+ [Step 4: Add a toolbar button and action calls to display the webpage](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md#Step4)  
   
- [Step 5: Add the controls to the configuration](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md#Step5)  
+ [Step 5: Add the controls to the configuration](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md#Step5)  
   
- [Step 6: Test the application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md#Step6)  
+ [Step 6: Test the application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md#Step6)  
   
- [Conclusion](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md#Conclusion)  
+ [Conclusion](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md#Conclusion)  
   
 <a name="Step1"></a>   
 ## Step 1: Create a hosted control to display the webpage  
@@ -240,11 +240,11 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
  In this walkthrough, you learned how to display a webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
   
 ### See also  
- [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)   
- [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
- [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
- [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
- [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
- [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
- [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)   
+ [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
+ [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)   
+ [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-configure-agent-scripting-agent-application.md)   
+ [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough8-unified-interface-use-parature-knowledge-base-within-your-agent-application.md)   
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
