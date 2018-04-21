@@ -29,9 +29,9 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 ## Prerequisites  
   
--   You must have completed [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md) and [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md). The configurations that you completed in those walkthroughs are required in this walkthrough.  
+-   You must have completed [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) and [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md). The configurations that you completed in those walkthroughs are required in this walkthrough.  
   
--   This walkthrough assumes that you’ll be using the same user credential that you used in walkthrough 1 to sign in to the agent application. If a different user will be testing the application, you must assign the user to **Contoso Configuration**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)  
+-   This walkthrough assumes that you’ll be using the same user credential that you used in walkthrough 1 to sign in to the agent application. If a different user will be testing the application, you must assign the user to **Contoso Configuration**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)  
   
 -   You must know be familiar with the following concepts in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]:  
   
@@ -44,27 +44,27 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     -   Filter access using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage access using Unified Service Desk configuration](../unified-service-desk/admin/manage-access-using-unified-service-desk-configuration.md)  
   
 ## In This Walkthrough  
- [Step 1: Create an Agent Scripting type of hosted control](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step1)  
+ [Step 1: Create an Agent Scripting type of hosted control](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step1)  
   
- [Step 2: Create hosted controls to display the new case form and existing cases](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step2)  
+ [Step 2: Create hosted controls to display the new case form and existing cases](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step2)  
   
- [Step 3: Create an agent script task](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step3)  
+ [Step 3: Create an agent script task](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step3)  
   
- [Step 4: Add the answer, action call, and window navigation rule for creating a case from the agent script](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step4)  
+ [Step 4: Add the answer, action call, and window navigation rule for creating a case from the agent script](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step4)  
   
- [Step 5: Add the answer and action calls for displaying existing cases](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step5)  
+ [Step 5: Add the answer and action calls for displaying existing cases](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step5)  
   
- [Step 6: Add the answer and action calls for closing the session](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step6)  
+ [Step 6: Add the answer and action calls for closing the session](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step6)  
   
- [Step 7: Create an action call to display the agent script](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step7)  
+ [Step 7: Create an action call to display the agent script](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step7)  
   
- [Step 8: Display the agent script when the account record is displayed in a session](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step8)  
+ [Step 8: Display the agent script when the account record is displayed in a session](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step8)  
   
- [Step 9: Add the controls to the configuration](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step9)  
+ [Step 9: Add the controls to the configuration](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step9)  
   
- [Step 10: Test the application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Step10)  
+ [Step 10: Test the application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Step10)  
   
- [Conclusion](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md#Conclusion)  
+ [Conclusion](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md#Conclusion)  
   
 <a name="Step1"></a>   
 ## Step 1: Create an Agent Scripting type of hosted control  
@@ -307,7 +307,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Field|Value|  
     |-----------|-----------|  
     |Name|Contoso Action Call: Close Session|  
-    |Hosted Control|Contoso Session Tab <br> **Note:**  The Contoso Session Tab hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).|  
+    |Hosted Control|Contoso Session Tab <br> **Note:**  The Contoso Session Tab hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md).|  
     |Action|CloseSession|  
     |Data|sessionid=[[$Context.SessionId]]|  
   
@@ -342,7 +342,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 <a name="Step8"></a>   
 ## Step 8: Display the agent script when the account record is displayed in a session  
- In this step, add the action call created in the previous step to the **PageReady** event on the **Contoso Account Session** hosted control so that after it’s loaded, the action call is executed to load the agent script. The **Contoso Account Session** hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md).  
+ In this step, add the action call created in the previous step to the **PageReady** event on the **Contoso Account Session** hosted control so that after it’s loaded, the action call is executed to load the agent script. The **Contoso Account Session** hosted control was created in [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md).  
   
 1.  Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
@@ -368,7 +368,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 <a name="Step9"></a>   
 ## Step 9: Add the controls to the configuration  
- In this step, add the action calls, agent script, hosted controls, and window navigation rule that you configured in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md).  
+ In this step, add the action calls, agent script, hosted controls, and window navigation rule that you configured in this walkthrough to **Contoso Configuration** to display these controls to the user who is assigned to the configuration. **Contoso Configuration** was created in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md).  
   
  Add the following to **Contoso Configuration**.  
   
@@ -408,7 +408,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
 <a name="Step10"></a>   
 ## Step 10: Test the application  
   
-1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+1.  Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] by using the same user credentials that is assigned to Contoso Configuration in [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthroug1-unified-interface-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to CRM instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
   
 2.  Click the down arrow next to the **SEARCH** button in the toolbar, and then click **Account** to display the account records from your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
@@ -437,16 +437,16 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
  In this walkthrough, you learned how to configure a simple agent script to guide your call center agents. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] allows you to create more complex scripts with branching logic that contain child answers and actions. You also learned how to filter access to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] controls using configuration.  
   
 ### See also  
- [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough-1-build-a-simple-agent-application.md)   
+ [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)   
  
- [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
+ [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
  
- [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
  
- [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
  
- [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough-5-display-enhanced-session-information-displaying-session-name-overview-data.md)   
+ [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
  
- [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
+ [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)   
  
  [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
