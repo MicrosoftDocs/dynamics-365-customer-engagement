@@ -51,21 +51,21 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
   
 <a name="Top"></a>   
 ## In This Walkthrough  
- [Step 1: Create a hosted control of type KM Control](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step1)  
+ [Step 1: Create a hosted control of type KM Control](../unified-service-desk/walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md#Step1)  
   
- [Step 2: Configure an action call to display the knowledge base search](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step2)  
+ [Step 2: Configure an action call to display the knowledge base search](../unified-service-desk/walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md#Step2)  
   
- [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step3)  
+ [Step 3: Configure action calls to automatically display and hide the knowledge base search panel](../unified-service-desk/walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md#Step3)  
   
- [Step 4: Configure an action call to automatically search knowledge base using the incident (case) title](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step4)  
+ [Step 4: Configure an action call to automatically search knowledge base using the incident (case) title](../unified-service-desk/walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md#Step4)  
   
- [Step 5: Configure hosted controls and action calls to display an article in a tab](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step5)  
+ [Step 5: Configure hosted controls and action calls to display an article in a tab](../unified-service-desk/walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md#Step5)  
   
- [Step 6: Configure contextual actions for the knowledge base article in the tab](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step6)  
+ [Step 6: Configure contextual actions for the knowledge base article in the tab](../unified-service-desk/walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md#Step6)  
   
- [Step 7: Test the application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Step7)  
+ [Step 7: Test the application](../unified-service-desk/walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md#Step7)  
   
- [Conclusion](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Conclusion)  
+ [Conclusion](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md#Conclusion)
   
 <a name="Step1"></a>   
 ## Step 1: Create a hosted control of type KM Control  
@@ -213,7 +213,7 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
   
 <a name="Step4"></a>   
 ## Step 4: Configure an action call to automatically search the knowledge base using the incident (case) title  
- Create an action call to automatically populate the case title in the knowledge base search control to search based on the case title name. After creating the action, you’ll add it to the `BrowserDocumentComplete` event of the **Incident** hosted control to fire this action after the case records have loaded in the agent desktop.  
+ Create an action call to automatically populate the case title in the knowledge base search control to search based on the case title name. After creating the action, you’ll add it to the `PageRead` event of the **Incident** hosted control to fire this action after the case records have loaded in the agent desktop.  
   
 > [!NOTE]
 >  The **Incident** hosted control is created when you deploy the Base sample application in your [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] instance.  
@@ -248,11 +248,11 @@ This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_s
   
  ![View events for the Incident hosted control](../unified-service-desk/media/usd-addactiontoincidentevent.png "View events for the Incident hosted control")  
   
-9. In the events list for the **Incident** hosted control, click `BrowserDocumentComplete`.  
+9. In the events list for the **Incident** hosted control, click `PageRead`.  
   
-10. Click the **Add Action Call record** button to add the action call.  
+10. Click the **Add Action Call record** button to add the action call.
   
- ![Add action to BrowserDocumentComplete event](../unified-service-desk/media/usd-addactiontobrowserdocumentcomplete.png "Add action to BrowserDocumentComplete event")  
+ ![Add action to PageRead event](../unified-service-desk/media/usd-addactiontobrowserdocumentcomplete.png "Add action to PageRead event")  
   
 11. Type `Sample: Search KB with Incident (Case) Title Action` in the search box, and press ENTER or click the search button to add the action to the event. Click the **Save**![Auto save button](../unified-service-desk/media/crm-itpro-cust-autosaveicon.png "Auto save button") button in the lower-right corner.  
   
