@@ -23,6 +23,8 @@
       href: admin/unified-service-desk-interactive-service-hub-package.md
     - name: Unified Service Desk Web Client sample package
       href: admin/unified-service-desk-dynamics-365-web-client-package.md
+    - name: Unified Service Desk Unified Interface sample package
+      href: admin/unified-service-desk-dynamics-365-unified-interface-package.md
     - name: Unified Service Desk Upgrade sample package
       href: admin/unified-service-desk-upgrade-package.md
 - name: Install, deploy, and upgrade Unified Service Desk
