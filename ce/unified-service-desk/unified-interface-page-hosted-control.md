@@ -17,7 +17,7 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 
-# Unified Interface Page (Hosted Control)
+# Preview feature: Unified Interface Page (Hosted Control)
 Use the **Unified Interface Page** hosted control type to load a URL or page from Unified Interface Apps in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
   
  This hosted control type exposes a number of predefined UII actions and events that are unique to handling of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page
@@ -278,27 +278,53 @@ This action refreshes the current page.
 
 This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.
 
-## RunScript
+## RunScript  
+ This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
-This action injects JavaScript into the main frame of the application. Instead of using the **RunXrmCommand** action, you can use the API **getCurrentXrmStatus** to find the XRM context which in turn provide the following interface.
+  
+## RunXrmCommand  
+ This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Unified Interface Pages (entity forms and grids).  
 
-interface XrmStatus
+ You must configure the script as a function of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following:
 
+ - [FormContext](../developer/clientapi/clientapi-form-context.md) on entity form pages
+ - [GridContext](../developer/clientapi/clientapi-grid-context.md) on entity grid pages
+ - undefined on other pages
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+||The data parameter is the JavaScript that will be injected into the entity form or grid.<br> **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|
+| webResourceName | Name of the web resource in which the JavaScript function you want to execute is present. |
+| functionName | Name of the function. |
+
+This action accepts a list of optional parameters without values. The list of optional parameters are passed as arguments in the same order at runtime. 
+
+#### Example
+
+You want to execute **RunXrmCommand** action to fill the form attributes of a entity form, where the entity form is hosted by Unified Interface type of hosted control. The value you want to fill in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]'s perspective  is a replacement parameter - `[[$Context.Key1]]`.
+
+In order to execute the action, you need to write JavaScript type web resource, and then write a function in the web resource.
+
+```JavaScript
+function fillAttributeValue(context, attrValue)
 {
+context.getAttribute(<attributeName>).setValue(attrValue);
+}   
+```
 
-       mainForm?: XrmClientApi.Form;
+You need to configure the data in the action call as follows:
 
-       mainGrid?: XrmClientApi.Controls.GridControl;
-
-       pageType: string;
-
-}
-
-| Parameter | Description                                                                                                          |
-|-----------|----------------------------------------------------------------------------------------------------------------------|
-|           | The data parameter is the JavaScript that will be injected into the form.                                            
-                                                                                                                        
-  Note: The replacement parameters can be used in the script, and they will be replaced before the script is executed.  |
+```
+webResourceName = webResource1
+functionName = fillAttributeValue
+‘[[$Context.Key1]]’
+```
+> [!Note]
+> In the above example, observe the quotes around the replacement parameter - `[[$Context.Key1]]`. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] considers only the value of the parameter (not the data type) and passes the value to the JavaScript function. You must be cautious of the data type while configuring.
 
 ## SetSize
 
@@ -368,3 +394,15 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 | Parameter | Description                                    |
 |-----------|------------------------------------------------|
 | url       | The URL of the page that has finished loading. |
+
+## See also
+
+ [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
+ [Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
+ [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
+ [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
+ [Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+ [Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
+ [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
+ [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
+ [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)   

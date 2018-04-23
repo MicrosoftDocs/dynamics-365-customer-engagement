@@ -1,5 +1,5 @@
 ---
-title: "Compliance categories and parameters (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Best practice rule categories and parameters (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
 ms.custom: ""
 ms.date: 04/24/2018
@@ -16,7 +16,7 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Compliance categories and parameters
+# Best practice rule categories and parameters
 
 The list shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes.
 
@@ -25,7 +25,7 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
  - Memory (RAM)
  - Available Memory (RAM)
  - Operating system version
- - Hard Dis Space
+ - Hard Disk Space
  - Unified Service Desk version
  - Unified Service Desk Up time
  - Memory by Unified Service Desk process
@@ -49,7 +49,6 @@ The list shows the parameters under each category that [!INCLUDE[pn-best-practic
 
  - Internal WPF Hosting Type
  - Actions Calls in PageLoadComplete Event.
- - Actions Calls with Events
  - Actions Calls with Events
  - Number of Navigation Rules
  - Show Script Errors (ShowScriptErrors)
