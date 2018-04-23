@@ -72,11 +72,9 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Display Name|Contoso Help|  
     |USD Component Type|Standard Web Application|  
     |Allow Multiple Pages|No|  
-    |Hosting Type|Internal WPF|  
-    |Application is Global|Checked|  
-    |Display Group|MainPanel|  
+    |Hosting Type|IE Process|
   
- ![Standard Web Application hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-01.png "Standard Web Application hosted control")  
+ ![Standard Web Application hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-01-unified-interface.png "Standard Web Application hosted control") 
   
 6.  Click **Save**.  
   
@@ -98,9 +96,9 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |-----------|-----------|  
     |Name|Contoso About Toolbar Container|  
     |USD Component Type|Toolbar Container|  
-    |Display Group|AboutPanel|  
+    |Display Group|ToolbarPanel|
   
- ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-02.png "Toolbar Container hosted control")  
+ ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt02-02-unified-interface.png "Toolbar Container hosted control") 
   
 6.  Click **Save**.  
   
@@ -163,7 +161,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Action|Navigate|  
     |Data|url=http://go.microsoft.com/fwlink/?LinkID=856273|  
   
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-05.png "Create an action call in Unified Service Desk")  
+ ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-05-unified-interface.png "Create an action call in Unified Service Desk")  
   
 8.  Click **Save**. The new action call is added to the **Contoso Show Help** button.  
   
@@ -181,7 +179,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
     |Action|ShowTab|  
     |Data|Contoso Help|  
   
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06.png "Create an action call in Unified Service Desk")  
+ ![Create an action call in Unified Service Desk](../unified-service-desk/media/crm-itpro-usd-wt02-06-unified-interface.png "Create an action call in Unified Service Desk")  
   
 12. Click **Save**. The new action call gets added to the **Contoso Show Help** button. You can see both action calls added to the toolbar button.  
   
@@ -225,7 +223,7 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
   
 <a name="Step6"></a>   
 ## Step 6: Test the application  
- Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md)  
+ Start the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, and sign in to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance where you configured [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the same user credentials that you assigned to the **Contoso Configuration** in [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md). For information about connecting to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance using the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application, see [Connect to a Dynamics 365 instance using the Unified Service Desk client](../unified-service-desk/admin/connect-dynamics-365-instance-using-unified-service-desk-client.md) 
   
  Your agent application will now have a **Show Help** button at the top-right corner:  
   
