@@ -2,7 +2,7 @@
 title: "Design a basic survey using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to create a basic survey using Voice of the Customer and add questions to it."
 keywords: "survey design;  survey theme; share survey; clone survey"
-ms.date: 01/26/2018
+ms.date: 04/23/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
