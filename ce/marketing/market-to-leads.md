@@ -2,6 +2,7 @@
 title: "Market to leads (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Marketing"
 keywords: "lead;segments;landing pages"
+<!--Editing:  Update or confirm date-->
 ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
@@ -17,11 +18,11 @@ topic-status: Drafting
 ---
 
 # Market to leads with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
-<!--Editing:  Suggest changing "Manage customer information" to the title of the linked-to page, "Manage information about your current and prospective customers"-->
+
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses contact records to represent prospective customers and enables marketers to engage with those contacts through initiatives such as customer journeys, events, and landing pages. When a contact submits a lading page, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically auto-creates a lead for that contact, and marketers can manually add leads for contacts at any time. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] then nurtures and scores those leads through a qualification process, and hands off marketing-qualified leads to salespeople for further qualification into opportunities. In this way, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uses contacts to represent _people_ and leads to represent _specific expressions of interest_ made by those people. You can read more about this process in [Manage customer information](manage-customer-information.md) and [Score and manage leads](score-manage-leads.md).
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is a highly flexible and customizable system, where each organization can decide how to make use of the various types of records it contains. Some organizations may prefer, or already have in place, a more sales-driven process, where salespeople save new potential customers as lead records and only create a contact record based on a lead once that lead made a purchase or entered into an ongoing business relationship with the organization. So, does that mean you can't market to leads using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]&mdash;of course not!
-<!--Editing:  insert your comment here -->
+<!--Editing:  I'm still learning this team's style choices, but I think "Follow the steps on this page" would be clearer than "Read this document."-->
 Read this document to learn how to integrate sales-driven (lead-centered) and marketing-driven (contact-centered) processes using [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Techniques include:
 
 - Build marketing segments by querying lead records.
@@ -53,15 +54,19 @@ For example, to set up a segment that finds all the leads collected at a recent 
     ![Close the default query group](media/leads-segment-close-group.png "Close the default query group")
 
 1. Choose **Lead** from the **Select a profile or relationship** drop-down list.  
+    <br/>
     ![Create a lead query group](media/leads-segment-lead-group.png "Create a lead query group")
 
 1. Set up a query to find the leads you need. In this example, we'll look for leads collected at a recent conference; all were assigned a **Topic** of "Contoso Ltd Conference".  
+    <br/>
     ![An example lead query](media/leads-segment-lead-clause.png "An example lead query")
 
 1. All segments must end by making a connection to the contact entity, so choose **And** to add a new clause to your expression and set it to **lead\_contact\_parentcontactid\__&lt;ServerSuffix&gt;_**, which links from the lead record to the related contact record based on the lead's parent contact ID.  
+    <br/>
     ![Link to the related contact records](media/leads-segment-lead-relation.png "Link to the related contact records")
 
 1. Set the new relation to **All\*** to find all contacts that relate to the found leads.  
+    <br/>
     ![The final lead segment query](media/leads-segment-lead-final.png "The final lead segment query")
 
 1. Choose **Go Live** from the command bar to publish the segment.
