@@ -70,7 +70,7 @@ manager: "sakudes"
     |USD Component Type|Debugger|  
     |Display Group|MainPanel|  
   
- ![Create a Debugger hosted control](../unified-service-desk/media/usd-create-session-lines-hosted-control.png "Create a Debugger hosted control")  
+ ![Create a Debugger hosted control](../unified-service-desk/media/usd-create-debugger-hosted-control-unified-interface.png "Create a Debugger hosted control")  
   
 6.  Click **Save**.  
   
@@ -112,7 +112,7 @@ manager: "sakudes"
     |Action|CallDoAction|  
     |Data|action=default<br/>application=Contoso Debugger|  
   
- ![Create action call in Unified Service Desk](../unified-service-desk/media/usd-session-tab-name-format.png "Create action call in Unified Service Desk")  
+ ![Create action call in Unified Service Desk](../unified-service-desk/media/usd-session-tab-name-format-action-call-unified-interface.png "Create action call in Unified Service Desk")  
   
 11. Click **Save**.  
   
