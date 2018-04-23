@@ -411,7 +411,93 @@ When the above conditions are met, 15 minutes is a typical synchronization laten
   
 > [!IMPORTANT]
 >  An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription can have multiple [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Ids. Make sure that you select the correct [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Id that is associated with the instance of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that you will use for data export.  
-  
+
+<a name="Delete_DEP"></a>   
+## How to delete all Data Export Profile tables and stored procedures
+
+> [!IMPORTANT]
+>  Before you run this SQL statement make sure that you have correctly defined the @prefix and @schema values in the statement. 
+>  The Export Profile will need to be re-created after you run this SQL statement. 
+
+```
+-----------------------------------------------------------------
+-- Provide the value for the following parameters
+DECLARE @prefix nvarchar(32) =''
+DECLARE @schema nvarchar(32) ='dbo'
+-----------------------------------------------------------------
+
+DECLARE @sql nvarchar(max) = '';
+
+SELECT @sql += 'DROP TABLE ' + QUOTENAME([TABLE_SCHEMA]) + '.' + QUOTENAME([TABLE_NAME]) + ';'
+FROM [INFORMATION_SCHEMA].[TABLES]
+WHERE [TABLE_TYPE] = 'BASE TABLE' AND [TABLE_NAME] like @prefix + '_%' AND [TABLE_SCHEMA]= @schema;
+
+PRINT @sql
+EXEC SP_EXECUTESQL @sql;
+
+PRINT 'Finished dropping all tables. Starting to drop all stored procedures now.'
+
+SELECT @sql='';
+SELECT @sql += 'DROP PROCEDURE ' + QUOTENAME([ROUTINE_SCHEMA]) + '.' + QUOTENAME([ROUTINE_NAME]) + ';'
+FROM [INFORMATION_SCHEMA].[ROUTINES]
+WHERE [ROUTINE_TYPE] = 'PROCEDURE' AND [ROUTINE_NAME] like @prefix + '_%' AND [ROUTINE_SCHEMA]= @schema;
+PRINT @sql
+EXEC SP_EXECUTESQL @sql;
+
+PRINT 'Finished dropping all stored procedures. Starting to drop all types now.'
+
+SELECT @sql=''; 
+SELECT @sql += 'DROP TYPE ' + QUOTENAME(SCHEMA_NAME([SCHEMA_ID])) + '.' +  QUOTENAME([NAME]) + ';'
+FROM SYS.TYPES
+WHERE is_user_defined = 1 AND [NAME] LIKE @prefix + '_%' AND [SCHEMA_ID]=SCHEMA_ID(@schema);
+
+PRINT @sql
+EXEC SP_EXECUTESQL @sql;
+```
+
+<a name="drop_entity"></a> 
+## How to delete Data Export Profile tables and stored procedures for a specific entity
+
+> [!IMPORTANT]
+>  Before you run this SQL statement make sure that you have correctly defined the @prefix, @schema, and @entityName values in the statement. In this example, the leads entity table, types, and stored procedures are dropped. 
+
+```
+-----------------------------------------------------------------
+-- Provide the value for the following parameters
+DECLARE @prefix nvarchar(32) ='crm'
+DECLARE @schema nvarchar(32) ='dbo'
+DECLARE @entityName nvarchar(32) ='lead'
+-----------------------------------------------------------------
+DECLARE @sql nvarchar(max) = '';
+
+IF @prefix != '' 
+BEGIN
+       SET @prefix = @prefix + '_'
+END
+
+SELECT @sql += 'DROP TABLE ' + QUOTENAME([TABLE_SCHEMA]) + '.' + QUOTENAME([TABLE_NAME]) + ';'
+FROM [INFORMATION_SCHEMA].[TABLES]
+WHERE [TABLE_TYPE] = 'BASE TABLE' AND [TABLE_NAME] like @prefix + @entityName  AND [TABLE_SCHEMA]= @schema;
+PRINT @sql
+EXEC SP_EXECUTESQL @sql;
+PRINT 'Finished dropping the entity. Starting to drop the types associated with the entity'
+
+SELECT @sql='';
+SELECT @sql += 'DROP TYPE ' + QUOTENAME(SCHEMA_NAME([SCHEMA_ID])) + '.' + QUOTENAME([NAME]) + ';'
+FROM SYS.TYPES
+WHERE is_user_defined = 1 AND [NAME] LIKE @prefix + @entityName +'Type' 
+OR [NAME] LIKE @prefix + @entityName +'IdType'
+AND [SCHEMA_ID]=SCHEMA_ID(@schema);
+PRINT @sql
+EXEC SP_EXECUTESQL @sql;
+```
+
+## Find the Azure Active Directory tenant Id for your Dynamics 365 instances
+
+1. Sign in to the [Azure portal](https://portal.azure.com/).
+2. Go to **Azure Active Directory** > **App registrations** > **Endpoints**.
+3. The tenant id is displayed in the endpoint URLs listed with the Azure subscription.
+
 <a name="SQLDB_IP_addresses"></a>   
 ## Azure SQL database static IP addresses used by the Data Export Service  
  In [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)], click **Set server firewall**, turn **Allow access to Azure services** to **OFF**, click **Add client IP**, and then add the IP addresses appropriate for the region of your [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Azure: Configure an Azure SQL Database server-level firewall rule using the Azure Porta](https://azure.microsoft.com/documentation/articles/sql-database-configure-firewall-settings/)l  
