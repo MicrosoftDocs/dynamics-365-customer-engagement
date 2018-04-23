@@ -46,6 +46,8 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
     |User Can Close|Checked|
     |Assembly URI|`Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser`|
     |Assembly Type|`Microsoft.Crm.UnifiedServiceDesk.BestPracticesAnalyser.BestPracticesAnalyserControl`| 
+
+    ![Create Best Practices Analyzer hosted control](../media/usd-create-bpa-hosted-control.PNG "Create Best Practices Analyzer hosted control")
   
 6. Click **Save**.
   
@@ -58,6 +60,8 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
     |Name|About Toolbar Container|
     |USD Component Type|Toolbar Container|
     |Display Group|AboutPanel|
+
+     ![Create Toolbar Container hosted control](../media/usd-create-about-toolbar-container-hosted-control.PNG "Create Toolbar Container hosted control")
   
 9.  Click **Save**.
 
@@ -80,7 +84,9 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
   
 7. On the next page, click **Add Existing Hosted Control**, type `About Toolbar Container` in the search bar, and then press **ENTER** or click the search icon.
   
-8. From the search result, click **About Toolbar Container** to add.  
+8. From the search result, click **About Toolbar Container** to add.
+
+     ![Create toolbar and attach it to Toolbar Container hosted control](../media/usd-create-toolbar-attach-toolbar-container-hosted-control.PNG "Create toolbar and attach it to Toolbar Container hosted control")
   
 9. Click **Save**.
 
@@ -100,6 +106,8 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
     |Tooltip|Settings|  
     |Order|100|
 
+     ![Create Settings toolbar button](../media/usd-create-settings-toolbar-button.PNG "Create Settings toolbar button")
+
 3. Click **Save**.
 
 4. After you save the **Settings** toolbar button, Click **New** to create another button called **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.
@@ -112,6 +120,8 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
     |Button Text|[[$Resources.BestPracticesAnalyzer]]|
     |Tooltip|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|  
     |Order|4|
+
+    ![Create Best Practices Analyzer toolbar button](../media/usd-create-best-practices-analyzer-button.PNG "Create Best Practices Analyzer toolbar button")
 
 6. Click **Save**.
 
@@ -133,8 +143,10 @@ In this step, you'll add actions calls the **[!INCLUDE[pn-best-practices-analyze
     |Name|Action Call: [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|  
     |Order|1|  
     |Hosted Control|CRM Global Manager|  
-    |Action|CallDoAction|
+    |Action|default|
     |Data|action=default <br> application=[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|
+
+    ![Create action call for Best Practices Analyzer](../media/usd-create-action-call-best-practices-analyzer.PNG "Create action call for Best Practices Analyzer")
   
 5. Click **Save**.
 
@@ -156,6 +168,8 @@ The new action call is added to the **Settings** button.
     |Hosted Control|Contoso Global Manager|  
     |Action|ShowTab|  
     |Data|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]|
+
+    ![Create action call to focus on Best Practices Analyzer](../media/usd-create-action-call-focus-best-practices-analyzer.PNG "Create action call to focus on Best Practices Analyzer")    
 
 10. Click **Save**.
 
@@ -214,7 +228,9 @@ To analyze parameters on your computer, [!INCLUDE[pn_unified_service_desk](../..
 
 3. Select **[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]**.
 
-4. Select **Start Analysis** in the leftmost pane.<br>
+    ![Create action call to focus on Best Practices Analyzer](../media/best-practices-analyzer-button.PNG "Create action call to focus on Best Practices Analyzer")
+
+4. Select **Start Analysis**.<br>
 [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the report—it can help you determine your next steps.
 
 > [!Note]
