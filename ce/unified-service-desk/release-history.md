@@ -30,7 +30,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 |Version 3.0, August 2017  |  [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] update |
 
 <a name="Release_3_3"></a>   
-## Release history for [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)], April 2018
+## Release history for [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)], April 2018
  
 The list provides an overview of documentation updates made in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)].
 

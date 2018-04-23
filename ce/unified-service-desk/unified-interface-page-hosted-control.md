@@ -278,27 +278,53 @@ This action refreshes the current page.
 
 This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.
 
-## RunScript
+## RunScript  
+ This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client SDK calls with this action; instead, use the **RunXrmCommand** action.  
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
-This action injects JavaScript into the main frame of the application. Instead of using the **RunXrmCommand** action, you can use the API **getCurrentXrmStatus** to find the XRM context which in turn provide the following interface.
+  
+## RunXrmCommand  
+ This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Unified Interface Pages (entity forms and grids).  
 
-interface XrmStatus
+ You must configure the script as a function of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following:
 
+ - [FormContext](../developer/clientapi/clientapi-form-context.md) on entity form pages
+ - [GridContext](../developer/clientapi/clientapi-grid-context.md) on entity grid pages
+ - undefined on other pages
+  
+|Parameter|Description|  
+|---------------|-----------------|  
+||The data parameter is the JavaScript that will be injected into the entity form or grid.<br> **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|
+| webResourceName | Name of the web resource in which the JavaScript function you want to execute is present. |
+| functionName | Name of the function. |
+
+This action accepts a list of optional parameters without values. The list of optional parameters are passed as arguments in the same order at runtime. 
+
+#### Example
+
+You want to execute **RunXrmCommand** action to fill the form attributes of a entity form, where the entity form is hosted by Unified Interface type of hosted control. The value you want to fill in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]'s perspective  is a replacement parameter - `[[$Context.Key1]]`.
+
+In order to execute the action, you need to write JavaScript type web resource, and then write a function in the web resource.
+
+```JavaScript
+function fillAttributeValue(context, attrValue)
 {
+context.getAttribute(<attributeName>).setValue(attrValue);
+}   
+```
 
-       mainForm?: XrmClientApi.Form;
+You need to configure the data in the action call as follows:
 
-       mainGrid?: XrmClientApi.Controls.GridControl;
-
-       pageType: string;
-
-}
-
-| Parameter | Description                                                                                                          |
-|-----------|----------------------------------------------------------------------------------------------------------------------|
-|           | The data parameter is the JavaScript that will be injected into the form.                                            
-                                                                                                                        
-  Note: The replacement parameters can be used in the script, and they will be replaced before the script is executed.  |
+```
+webResourceName = webResource1
+functionName = fillAttributeValue
+‘[[$Context.Key1]]’
+```
+> [!Note]
+> In the above example, observe the quotes around the replacement parameter - `[[$Context.Key1]]`. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] considers only the value of the parameter (not the data type) and passes the value to the JavaScript function. You must be cautious of the data type while configuring.
 
 ## SetSize
 
