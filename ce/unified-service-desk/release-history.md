@@ -87,6 +87,4 @@ Content for earlier version of Unified Service Desk continues to be available on
 ### Related Topics
 [What's new for Administrators](../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md)
 
-[What's new for Developers](what-s-new-in-unified-service-desk.md) 
-
-   
+[What's new for Developers](what-s-new-in-unified-service-desk.md)

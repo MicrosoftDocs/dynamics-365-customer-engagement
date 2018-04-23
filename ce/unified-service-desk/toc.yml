@@ -229,7 +229,7 @@
   - name: "Preview feature: Support for Unified Interface Apps"
     href: Support-unified-interfaces-apps-usd.md
     items:
-    - name: Unified Service Desk and Unified Interface configuration walkthroughs
+    - name: "Preview feature: Unified Service Desk and Unified Interface configuration walkthroughs"
       href: unified-service-desk-unified-interface-configuration-walkthroughs.md
       items:
       - name: "Preview feature: Walkthrough 1: Build a simple agent application for Unified Interface Apps"
