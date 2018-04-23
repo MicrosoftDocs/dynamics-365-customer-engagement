@@ -86,7 +86,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |USD Component Type|Agent Scripting|  
     |Display Group|WorkflowPanel|  
   
- ![Create an Agent Scripting hosted control](../unified-service-desk/media/usd-create-agent-scripting-hosted-control.png "Create an Agent Scripting hosted control")  
+ ![Create an Agent Scripting hosted control](../unified-service-desk/media/usd-create-agent-scripting-hosted-control-unified-interface.png "Create an Agent Scripting hosted control") 
   
 6.  Click **Save**.  
   
@@ -107,7 +107,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Application is Global|Not checked|  
     |Display Group|MainPanel|  
   
- ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2.png "Create a Unified Interface Page hosted control")  
+ ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-page-hosted-control-2-case-form-unified-interface.png "Create a Unified Interface Page hosted control") 
   
 3.  Click **Save**.  
   
@@ -124,7 +124,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Application is Global|Not checked|  
     |Display Group|MainPanel|  
   
- ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-agent-script-task.png "Create a Unified Interface Page hosted control")  
+ ![Create a Unified Interface Page hosted control](../unified-service-desk/media/usd-create-agent-script-task-existing-case-form-account-unified-interface.png "Create a Unified Interface Page hosted control")  
   
 6.  Click **Save**.  
   
@@ -149,7 +149,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |ScriptText|Welcome [[$Context.name]]. My name is [[$User.firstname]]. Is this call regarding a new or an existing service request?<br>**Note:**  We are using replacement parameters to dynamically display the account name and the current agent’s name to the agent at runtime.|  
     |Instructions|Based on the customer response, click one of the tasks below.|  
   
- ![Create an agent script task](../unified-service-desk/media/usd-create-agent-script-task-2.png "Create an agent script task")  
+ ![Create an agent script task](../unified-service-desk/media/usd-create-new-agent-script-task-2-unified-interface.png "Create an agent script task")
   
 6.  Click **Save** to create the agent script.  
   
@@ -161,7 +161,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 2.  In the search box, press ENTER or click the search icon, and then click **New** in the search results box.  
   
- ![Create an answer for an agent script task](../unified-service-desk/media/usd-create-answer-agent-script-task.png "Create an answer for an agent script task")  
+ ![Create an answer for an agent script task](../unified-service-desk/media/usd-create-answer-agent-script-task-unified-interface.png "Create an answer for an agent script task")
   
 3.  On the **New Agent Script Answer** page, specify the following values:  
   
@@ -172,7 +172,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Linked Task|Contoso: Welcome to Account Session|  
     |Order|1|  
   
- ![Create an answer in Unified Service Desk](../unified-service-desk/media/usd-create-answer.png "Create an answer in Unified Service Desk")  
+ ![Create an answer in Unified Service Desk](../unified-service-desk/media/usd-create-new-case-agent-script-answer-unified-interface.png "Create an answer in Unified Service Desk")
   
 4.  Click **Save**.  
   
@@ -194,11 +194,11 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Action|New_CRM_Page|  
     |Data|LogicalName=incident<br /> customerid=EntityReference([[$Context.InitialEntity]],[[$Context.Id]])  <br /> customeridname=[[$Context.name]] <br /> primarycontactid=[[$Context.primarycontactid.id]+]  <br /> primarycontactidname=[[$Context.primarycontactid.name]+]<br>**Note:**  The new case form will be populated with the current account record data to help the agent quickly create a case for the customer.|  
   
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-answer.png "Create an action call in Unified Service Desk")  
+ ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-new-agent-script-answer-create-case-new-action-call-unified-interface.png "Create an action call in Unified Service Desk") 
   
 9. Click **Save**.  
   
-10. Next, create a window navigation rule to display the new case form. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]  
+10. Next, create a window navigation rule to display the new case form. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)] 
   
 11. Click **Window Navigation Rules**.  
   
@@ -212,15 +212,13 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Order|20|  
     |From|Contoso new case form|  
     |Entity|incident|  
-    |Route Type|Popup|  
+    |Route Type|In Place|  
     |Destination|Tab|  
-    |Action|Route Window|  
-    |Target Tab|Contoso new case form|  
-    |Show Tab|Contoso new case form|  
+    |Action|In Place|
     |Hide Command Bar|No|  
-    |Hide Navigation Bar|Yes|  
+    |Hide Navigation Bar|Yes|
   
- ![Create a window navigation rule](../unified-service-desk/media/usd-window-navigation-rule.png "Create a window navigation rule")  
+ ![Create a window navigation rule](../unified-service-desk/media/usd-new-navigation-rule-case-account-session-rule.png "Create a window navigation rule")  
   
 14. Click **Save**.  
   
@@ -257,9 +255,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Order|1|  
     |Hosted Control|Contoso existing cases for an account|  
     |Action|AssociatedView|  
-    |Data|navItemName=Cases<br />Id=[[$Context.Id]] <br />type=[[$Context.etc]] <br />tabset=areaService|  
-  
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call.png "Create an action call in Unified Service Desk")  
+    |Data|navItemName=Cases<br />Id=[[$Context.Id]] <br />type=[[$Context.etc]] <br />tabset=areaService|
   
 9. Click **Save**.  
   
@@ -273,7 +269,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Action|ShowTab|  
     |Data|Contoso existing cases for an account|  
   
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-2.png "Create an action call in Unified Service Desk")  
+ ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-set-focus-existing-cases.png "Create an action call in Unified Service Desk") 
   
 11. Click **Save**.  
   
@@ -311,7 +307,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Action|CloseSession|  
     |Data|sessionid=[[$Context.SessionId]]|  
   
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-3.png "Create an action call in Unified Service Desk")  
+ ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-close-session-action-call.png "Create an action call in Unified Service Desk") 
   
 9. Click **Save**.  
   
@@ -336,7 +332,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
     |Action|GoToTask|  
     |Data|Contoso: Welcome to Account Session|  
   
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-4.png "Create an action call in Unified Service Desk")  
+ ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-add-load-agent-script-action-call.png "Create an action call in Unified Service Desk")  
   
 6.  Click **Save**.  
   
@@ -403,7 +399,7 @@ Agent scripting in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-ser
   
 8.  Similarly, add the agent script, hosted controls, and window navigation rule by clicking the down arrow next to **Contoso Configuration**, and clicking **Agent Scripts** **Hosted Controls** and **Window navigation Rules** respectively.  
   
-9. Click **Save**.  
+9. Click **Save**. 
   
 <a name="Step10"></a>   
 ## Step 10: Test the application  
