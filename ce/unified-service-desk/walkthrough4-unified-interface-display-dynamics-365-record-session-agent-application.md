@@ -76,7 +76,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Application is Global|Not checked <br>**Note:**  This ensures that the hosted control is session-scoped, that is, only displayed in a session.|  
     |Display Group|MainPanel|  
   
- ![Create a session scoped hosted control](../unified-service-desk/media/usd-create-session-scoped-hosted-control.png "Create a session-scoped hosted control")  
+ ![Create a session scoped hosted control](../unified-service-desk/media/usd-create-session-scoped-hosted-control-unified-interface.png "Create a session-scoped hosted control") 
   
 6.  Click **Save**.
   
