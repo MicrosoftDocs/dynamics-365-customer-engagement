@@ -243,8 +243,7 @@
       href: walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md
     - name: "Preview feature: Walkthrough 7: Configure agent scripting in your agent application"
       href: walkthrough7-unified-interface-configure-agent-scripting-agent-application.md
-    - name: "Preview feature: Walkthrough 8: Use Customer Engagement knowledge base within your agent application"
-      href: walkthrough8-unified-interface-use-knowledge-base-within-your-agent-application.md
+
 - name: Extend Unified Service Desk
   href: extend-unified-service-desk.md
   items:
