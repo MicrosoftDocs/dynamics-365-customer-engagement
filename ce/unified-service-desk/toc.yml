@@ -231,7 +231,7 @@
     items:
     - name: Unified Service Desk and Unified Interface configuration walkthroughs
       href: unified-service-desk-unified-interface-configuration-walkthroughs.md
-    items:
+      items:
       - name: "Preview feature: Walkthrough 1: Build a simple agent application for Unified Interface Apps"
         href: walkthrough1-unified-interface-build-a-simple-agent-application.md
       - name: "Preview feature: Walkthrough 2: Display an external webpage in your agent application"
