@@ -2,7 +2,6 @@
 title: "Market to leads (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Marketing"
 keywords: "lead;segments;landing pages"
-<!--Editing:  Update or confirm date-->
 ms.date: 04/01/2018
 ms.service: crm-online
 ms.topic: article
