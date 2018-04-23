@@ -786,10 +786,6 @@ The sample XAML that defines defines <xref:System.Windows.ResourceDictionary> of
       </Style>
   </ResourceDictionary>
   ```
-
-  Customizing the toolbar using the **Sample 1** and **Sample 2** custom styles, the toolbar in your client application appears as shown in the image.
-
-![Custom styles in toolbar](media/custom-styles-toolbar.PNG "Custom styles in toolbar")
   
 ## See also  
  [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
