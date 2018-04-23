@@ -144,7 +144,7 @@ Set the **maxNumberOfSesions** value to less than or equal to **3**: 
 1.  Sign in to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 2.  Go to **Settings** > **[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]** > **Options**
 3.  In the list of options, select **maxNumberOfSesions**.
-4.  In the **Value** filed, type **3**.
+4.  In the **Value** field, type **3**.
 5.  Select **Save**.
 
 [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Options for Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/manage-options-unified-service-desk)
@@ -301,7 +301,7 @@ Set the **ProcessTerminationThreshold** value between the range **0** and **3000
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
-[Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [System configurations](../admin/system-configurations-bpa.md)
 

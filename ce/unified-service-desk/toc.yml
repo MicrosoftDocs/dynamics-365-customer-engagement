@@ -129,7 +129,7 @@
     href: admin/walkthrough-configure-best-practices-analyzer.md
   - name: Read Best Practices Analyzer report
     href: admin/read-best-practices-analyzer-report.md
-  - name: Compliance categories and parameters
+  - name: Best practice rule categories and parameters
     href: admin/compliance-categories-parameters-bpa.md
     items:
     - name: System configurations

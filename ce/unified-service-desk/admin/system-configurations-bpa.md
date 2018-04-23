@@ -117,7 +117,7 @@ Install the [!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md
 
 [Read Best Practices Analyzer report](../admin/read-best-practices-analyzer-report.md)
 
-[Compliance categories and parameters](../admin/compliance-categories-parameters-bpa.md)
+[Best practice rule categories and parameters](../admin/compliance-categories-parameters-bpa.md)
 
 [Internet Explorer settings](../admin/internet-explorer-settings-bpa.md)
 
