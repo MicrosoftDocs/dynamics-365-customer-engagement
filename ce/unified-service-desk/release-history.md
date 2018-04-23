@@ -53,6 +53,9 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Unified Service Desk and Unified Interface configuration walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md) | There are seven walkthroughs in this section, which covers an area or a combination of areas in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. These walkthroughs are arranged in increasing order of complexity so it may benefit you to do them in sequence. <br><br> New topic under [Preview feature: Support for Unified Interface Apps](../unified-service-desk/Support-unified-interfaces-apps-usd.md) |
 | [Preview feature: Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md) | The **Unified Interface Page** hosted control type is used to load a URL or page from Unified Interface Apps in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. <br><br> This is a new topic under [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)|
 
+For information about this release, see [What's new for Administrators](../unified-service-desk/admin/whats-new-unified-service-desk-administrators.md)
+
+For information about this release, see [What's new for Developers](what-s-new-in-unified-service-desk.md)
 
 <a name="Release_3_2"></a>   
 ## Release history for [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)], February 2018
