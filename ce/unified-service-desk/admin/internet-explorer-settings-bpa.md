@@ -125,7 +125,7 @@ To disable the option using Internet options:
 
 1. Open [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)].
 2. Select **Tools** > **Internet Options** > **Advanced** tab.
-3. In the **Security** section, clear the **Enable automatic crash recovery** check box.
+3. In the **Browsing** section, clear the **Enable automatic crash recovery** check box.
 4. Select **Apply**, and then select **OK**.
 
 ## Enable Protected Mode
