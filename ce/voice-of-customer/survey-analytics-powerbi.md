@@ -42,8 +42,10 @@ To install as an app:
 3. Select **Get apps**. 
 4. In AppSource, select the **Apps** tab.
 5. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
-6. Enter the URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select oAuth2 as the authentication method, if prompted.
-7. Enter the credentials, and then select **Sign in**. After installation, the app is available under the **Apps** tab.
+6. Enter the URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select **Next**.
+7. If prompted, select oAuth2 as the authentication method, select **Sign in**, and then enter the credentials.
+
+After installation, the app is available under the **Apps** tab.
 
 To install as a service content pack:
 
@@ -56,7 +58,7 @@ To install as a service content pack:
 
 5. In AppSource, select the **Apps** tab.
 6. Search for the Voice of the Customer Analytics for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] app, and then select **Get it now**. A wizard opens to connect to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] instance.
-7. Enter the service root URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select oAuth2 as the authentication method, if prompted.
+7. Enter the URL associated to your [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] account and select oAuth2 as the authentication method, if prompted.
 8. Enter the credentials, and then select **Sign in**. After installation, the service content pack is available under the selected workspace.
 
 ## Delete Voice of the Customer Analytics for Dynamics 365

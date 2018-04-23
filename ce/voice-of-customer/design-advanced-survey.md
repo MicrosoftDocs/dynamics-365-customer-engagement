@@ -118,8 +118,8 @@ The following question types can be used to capture response in the answer tag:
 - Single rating in columns
 
 The answer tag can be consumed in:
-- Question text of all question types
-- Option text of single and multiple responses questions
+- Question text of all question types.
+- Option text of single and multiple responses questions, except drop-down.
 
 The following example illustrates the use of answer tag.
 

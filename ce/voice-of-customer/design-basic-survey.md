@@ -47,6 +47,9 @@ You can create a theme for your survey to match your company's style. Themes def
 
 You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and add them to your surveys later. After an image is uploaded, you can reuse it in multiple surveys.
 
+> [!NOTE]
+> The maximum size of an uploaded image can be 102.4 KB.
+
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Images**.
