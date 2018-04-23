@@ -71,9 +71,9 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Un
     |USD Component Type|Session Lines|  
     |Display Group|SessionExplorerPanel|  
   
- ![Create a Session Lines hosted control](../unified-service-desk/media/crm-itpro-usd-wt05-01.png "Create a Session Lines hosted control")  
+ ![Create a Session Lines hosted control](../unified-service-desk/media/crm-itpro-usd-wt05-01-unified-interface.png "Create a Session Lines hosted control")  
   
-6.  Click **Save**.  
+6.  Click **Save**. 
   
 <a name="Step2"></a>   
 ## Step 2: Define session name information  
@@ -97,7 +97,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Un
     |Type|Session Name|  
     |Display|Session: [[account.name]]<br /><br /> We are using the replacement parameters to define the session tab name format. In this case the session name will be **Session:** followed by the name of the account record that is displayed in the session.|  
   
- ![Define session tab name text and format](../unified-service-desk/media/crm-itpro-usd-wt05-02.png "Define session tab name text and format")  
+ ![Define session tab name text and format](../unified-service-desk/media/crm-itpro-usd-wt05-02-unified-interface.png "Define session tab name text and format")  
   
 6.  Click **Save**.  
   
@@ -152,9 +152,9 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Un
         > [!NOTE]
         >  This sample uses XAML and replacement parameters to define the session overview information that displays the current account’s primary contact, address, and phone number in the session overview area.  
   
- ![Define session overview information](../unified-service-desk/media/crm-itpro-usd-wt05-03.png "Define session overview information")  
+ ![Define session overview information](../unified-service-desk/media/crm-itpro-usd-wt05-03-unified-interface.png "Define session overview information")  
   
-6.  Click **Save**.  
+6.  Click **Save**.
   
 <a name="Step4"></a>   
 ## Step 4: Add the controls to the configuration  
@@ -197,7 +197,7 @@ In the previous walkthrough, [Walkthrough 4: Display a Microsoft Dynamics 365 Un
   
 3.  Click the expander to display the left pane (SessionExplorerPanel).  
   
- ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander.png "Choose the expander in Unified Service Desk")  
+ ![Choose the expander in Unified Service Desk](../unified-service-desk/media/usd-choose-expander-unified-interface-left-pane.png "Choose the expander in Unified Service Desk") 
   
 4.  Click any of the account records to display the respective account information in a session in the agent application. Note that the name of the session tab automatically displays the word **Session:** followed by the current account name. The left pane displays the session overview information that was defined earlier.  
   

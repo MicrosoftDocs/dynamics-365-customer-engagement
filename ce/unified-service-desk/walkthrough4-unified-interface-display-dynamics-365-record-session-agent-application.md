@@ -78,7 +78,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
  ![Create a session scoped hosted control](../unified-service-desk/media/usd-create-session-scoped-hosted-control.png "Create a session-scoped hosted control")  
   
-6.  Click **Save**.  
+6.  Click **Save**.
   
 <a name="Step2"></a>   
 ## Step 2: Configure the event to close the hosted control from where the search originated  
@@ -94,7 +94,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 4.  In the search box, click the search icon or press ENTER, and then click **New** in the lower-right corner of the search results box.  
   
- ![Add an action call to an event](../unified-service-desk/media/usd-add-action-call-event.png "Add an action call to an event")  
+ ![Add an action call to an event](../unified-service-desk/media/usd-add-action-call-pageready-event.png "Add an action call to an event")  
   
 5.  On the **New Action Call** page, specify the following values.  
   
@@ -104,7 +104,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Hosted Control|Contoso Account Search|  
     |Action|Close|  
   
- ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call.png "Create an action call in Unified Service Desk")  
+ ![Create an action call in Unified Service Desk](../unified-service-desk/media/usd-create-action-call-pageready-close.png "Create an action call in Unified Service Desk")  
   
 6.  Click **Save** to add the action call to the **PageReady** event.  
   
@@ -121,7 +121,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Name|Contoso Session Tab|  
     |USD Component Type|Session Tabs|  
   
- ![Create a Session Tabs hosted control](../unified-service-desk/media/usd-create-session-tabs-hosted-control.png "Create a Session Tabs hosted control")  
+ ![Create a Session Tabs hosted control](../unified-service-desk/media/usd-create-sessiontabs-hosted-control.png "Create a Session Tabs hosted control")  
   
 3.  Click **Save**.  
   
@@ -153,7 +153,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Hide Command Bar|No|  
     |Hide Navigation Bar|Yes|  
   
- ![Create a window navigation rule](../unified-service-desk/media/usd-create-window-navigation-rule.png "Create a window navigation rule")  
+ ![Create a window navigation rule](../unified-service-desk/media/usd-create-window-navigation-rule-unified-interface.png "Create a window navigation rule")  
   
 6.  Click **Save**.  
   
@@ -200,11 +200,11 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 3.  Click any of the account records to display the respective account information in a session; the information is displayed under a session tab. Note that the name of the hosted control tab that contains the account record automatically displays the account name because earlier you used replacement parameters to dynamically display the current account name instead of a static value.  
   
- ![Account record displayed in a session](../unified-service-desk/media/usd-account-record-session.png "Account record displayed in a session")  
+ ![Account record displayed in a session](../unified-service-desk/media/usd-account-record-session-unified-interface.png "Account record displayed in a session")  
   
 4.  If you open another account record, it will be displayed in another session in your client application. To open another account, click the down arrow next to the **Search** button, click **Account**, and then click an account name to display the account information in another session.  
   
- ![Multiple sessions in Unified Service Desk](../unified-service-desk/media/usd-multiple-sessions.png "Multiple sessions in Unified Service Desk")  
+ ![Multiple sessions in Unified Service Desk](../unified-service-desk/media/usd-multiple-sessions-unified-interface.png "Multiple sessions in Unified Service Desk")  
   
 <a name="Conclusion"></a>   
 ## Conclusion  
