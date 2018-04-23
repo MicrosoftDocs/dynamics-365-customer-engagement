@@ -68,7 +68,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
     |Sort Order|1|  
     |USD Component Type|Connection Manager|  
   
- ![Connection Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")  
+ ![Connection Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-01.png "Connection Manager hosted control")
   
 6.  Click **Save**.  
   
@@ -82,7 +82,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
     |Sort Order|2|  
     |USD Component Type|Global Manager|  
   
- ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")  
+ ![Global Manager hosted control](../unified-service-desk/media/crm-itpro-usd-wt01-02.png "Global Manager hosted control")
   
 9. Click **Save**.  
   
@@ -103,7 +103,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
 12. Click **Save**.  
   
 > [!IMPORTANT]
->  If you don’t create a **Panel Layout** type of hosted control in your agent application, the default panel layout, **Standard Main Panel**, is created automatically when you run the client application.  
+>  If you don’t create a **Panel Layout** type of hosted control in your agent application, the default panel layout, **Standard Main Panel**, is created automatically when you run the client application. 
   
 <a name="Step2"></a>   
 ## Step 2: Add the hosted controls to a configuration  
@@ -141,7 +141,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
 3.  From the search result, click the user name that you want to be assigned to the configuration. The user is added to the configuration. In this case, assign **Randy Blythe** to the configuration. Click **Save**.  
   
- ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration")  
+ ![User added to the configuration](../unified-service-desk/media/crm-itpro-usd-wt01-05.png "User added to the configuration") 
   
 <a name="Step4"></a>   
 ## Step 4: Test the application  
@@ -151,7 +151,7 @@ This walkthrough demonstrates how to set up a basic agent application from scrat
   
  ![Basic agent application without any controls](../unified-service-desk/media/crm-itpro-usd-wt01-06.png "Basic agent application without any controls")  
   
- The desktop in the agent application is empty because no other controls were added to **Contoso Configuration** apart from the hosted controls required for setting up a basic agent application. In the rest of the walkthroughs, you’ll see controls appear in the agent application as you progressively configure and add controls to **Contoso Configuration**.  
+ The desktop in the agent application is empty because no other controls were added to **Contoso Configuration** apart from the hosted controls required for setting up a basic agent application. In the rest of the walkthroughs, you’ll see controls appear in the agent application as you progressively configure and add controls to **Contoso Configuration**. 
   
 <a name="Conclusion"></a>   
 ## Conclusion  
