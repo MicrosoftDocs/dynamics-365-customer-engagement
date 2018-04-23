@@ -1,8 +1,8 @@
 ---
-title: "Social Engagement 2018 Update 1.3 Readme"
+title: "Social Engagement 2018 Update 1.4 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
-ms.date: 03/15/2018
+ms.date: 04/11/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -14,11 +14,11 @@ manager: sakudes
 topic-status: Ready to Publish
 ---
 
-Social Engagement 2018 Update 1.3 Readme
+Social Engagement 2018 Update 1.4 Readme
 ========================================
 
 This document provides important, late-breaking information about Microsoft
-Social Engagement 2018 Update 1.3. It was published in March 2018.
+Social Engagement 2018 Update 1.4. It was published in April 2018.
 
 Resources
 ---------
@@ -37,7 +37,7 @@ tablets, the following restrictions apply:
 
 -   Links contained in the social posts cannot be opened. As a workaround, use
     the **Copy to clipboard** action to copy the link to the post. Then paste
-    the link in any Internet browser on your device to view the original post
+    the link into any Internet browser on your device to view the original post
     from which the links can be opened.
 
 -   Copyright and Translation Guide links in the page footer cannot be opened.
@@ -64,7 +64,7 @@ This is no longer supported.
 ### Blog content delivered in some cases in JSON format
 
 For some blogs coming through WordPress, the format of the text is not delivered
-in the usual format, but instead in JSON format which diminishes the readability
+in the usual format, but instead in JSON format, which diminishes the readability
 of the content considerably.
 
 ### A YouTube author name might be replaced with a YouTube channel name
@@ -99,11 +99,6 @@ Location data is supported on all **News** posts, and partially on **Twitter**
 and **Forums**. The **Location** page displays only posts that contain location
 information, which might cover a subset of your data.
 
-### Drill-down functionality isn’t available in the Top Cities widget
-
-You cannot drill down for more data in the **Top Cities** widget. Filtering on
-the city level is not supported.
-
 ### Analytics does not display social profiles added in the same session until you refresh your browser
 
 If you add a social profile and then go straight to **Analytics**, the social
@@ -120,19 +115,6 @@ the referred topic will not be displayed in your search topics page or on the
 are still counted toward your quota for the current month. The total number of
 posts on the **Quota Manager** page might be higher than the sum of all search
 topics.
-
-### Post Preview on Search Setup contains only Twitter data
-
-When you configure keywords rules for search topics, you get not only
-quantitative feedback on the number of posts that are expected to be found with
-the configured rule, but also qualitative feedback through a preview of posts
-that match the configured rule. The posts shown are exclusively from Twitter.
-All other sources will not show qualitative feedback. Qualitative feedback will
-be missing if you do not select Twitter as the source.
-
-Posts shown with qualitative feedback are not automatically downloaded and
-available in Social Engagement. Although it’s possible that the shown posts will
-be downloaded after the search topic has been saved, this is not guaranteed.
 
 ### When you authenticate to Dynamics 365, and to Twitter and Facebook, pop-up windows are blocked in the browser
 
@@ -185,21 +167,6 @@ taking this action:
     Because there is no way to hide a stream, we recommend that you use this
     option with restraint.
 
-### Some filter configurations return zero search results
-
-The Social Engagement filter set provides a variety of filters. It’s possible to
-apply filter combinations in the Social Engagement apps that will always result
-in zero search results, because the combination contains filters that
-contradict. For example, if you apply the sources filter *News* and then apply
-the post type filter *share*, this will always result in zero results, because
-post type filter *share* is applicable only to Twitter and Facebook posts, which
-are filtered out if you have an active *News* filter.
-
-You might configure other invalid combinations of acquisition filters during
-search topics setup and when you apply application filters. For example, if you
-set up a search topic that acquires only *English* rules and you apply a
-*French* language filter, the application will always return zero results.
-
 ### Notifications that trigger multiple actions might overlap
 
 When you perform multiple actions within a short timeframe, notification
@@ -216,15 +183,10 @@ labels for Greek.
 
 When you use the Microsoft Edge browser with Dynamics NAV, there's an unsolved
 issue with the Microsoft Social Engagement widget. When looking for a
-non-existing ID, the widget will stop loading. As a work around, we suggest that
+non-existing ID, the widget will stop loading. As a workaround, we suggest that
 you reload the page and make sure you have a valid Search topic ID. To do that,
 look for the Search topic in the Microsoft Social Engagement Analytics page's
 URL.
-
-### Parts of Author details for Twitter can be blocked by AdBlock
-
-When you use the Chrome browser with the AdBlock extension, the Author details
-view in Social Engagement will not show the Twitter timeline widget.
 
 ### Facebook Acquisition Notification in Analytics does not always disappear
 
@@ -232,7 +194,7 @@ In some cases, the notification in Analytics that tells Social Engagement users
 that they do not have a valid token for Facebook Pages acquisition is wrongly
 displayed.
 
-If you see this message, we recommend you go to Social Profiles and check if
+If you see this message, we recommend you go to Social Profiles and check whether
 your acquisition tokens are valid. If they are valid, you can ignore the
 Analytics notification.
 
@@ -249,29 +211,14 @@ Twitter are not acquired in Social Engagement. This can happen when a message
 was written in a non-supported language of Social Engagement or if the language
 was not detected at all.
 
-### Facebook comments cannot be shared through “Post link” action
-
-Due to a feature in the Facebook API, Social Engagement users can’t share the
-URL of a Facebook comment to Facebook. We stop showing Facebook social profiles
-when the **Post link** action is triggered on a post of the type **Facebook
-comment**.
-
-### Opening a post with the URL from Copy internal URL command
-
-When you use the URL from the **Copy internal URL** command to access a post in
-Social Engagement, filters for this specific document will not be removed by any
-action in Analytics. To remove this filter, reload the analytics. You can do
-this either through the navigation menu or by using your browser’s refresh
-functionality.
-
-**Several titles and tooltips are not localized**
+### Several titles and tooltips are not localized
 
 Currently several user interface (UI) strings and tooltips are not localized in
 Social Engagement–supported languages, due to recent and ongoing work regarding
 accessibility. The non-localized UI strings and tooltips will be localized with
 the next release of Social Engagement.
 
-**Quota notification in Search Setup can be hidden and is hard to show again**
+### Quota notification in Search Setup can be hidden and is hard to show again
 
 When you go to the **Search Setup** area, you might see the quota warning
 notification that your solution might be or is already above quota. You can hide
@@ -279,23 +226,27 @@ this notification by selecting the **Close** (X) button in the upper right
 corner. Once it’s closed, you can only get it back by refreshing your browser’s
 session with Social Engagement.
 
-**Social Engagement stops responding after you select the Include button**
+### Social Engagement stops responding after you select the Include button
 
 In Microsoft Edge or Internet Explorer, if you select too many authors and then
 select **Include**, the Authors widget in Full view mode might stop responding.
 The workaround is to refresh your browser, select fewer authors, and select
 **Include** again.
 
-**No author details for authors of Twitter Retweets and Facebook Shares**
+### No author details for authors of Twitter Retweets and Facebook Shares
 
 Even though there is an author detail icon next to the name of an author whose
-post has been retweeted or shared, there is no Author detail available for such
+post has been retweeted or shared, there is no author detail available for such
 an author. The UI will show the message: “No author details are available”.
 
-**Unknown Facebook Authors**
+### Unknown Facebook Authors
 
 Due to a change in the Facebook API, author information is no longer shared from
 pages you don't own. You can still get author information for posts on Facebook
 pages you own by adding them as social profiles. [Learn more about unknown
 Facebook
 authors.](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/facebook-pages-data-acquisition)
+
+### Facebook pages can’t be authenticated in Social Engagement
+
+Authenticating and re-authenticating Facebook pages as social profiles in Social Engagement might fail in some cases due to a Facebook authentication issue. Currently there is no workaround available for this issue. 
