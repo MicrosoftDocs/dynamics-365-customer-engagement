@@ -281,7 +281,7 @@ In previous releases, if you wanted to change one of the streams of an existing 
 ### Configure a single-stream dashboard  
  Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. If the tiles are included, they are always displayed on the dashboard. To configure a tile, you click on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
- ![Add a tile to the single&#45;stream dashboard](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
+ ![Add a tile to the single-stream dashboard](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
   
 <a name="BKMK_ConfigureColors"></a>   
 ## Configure dashboard colors  
