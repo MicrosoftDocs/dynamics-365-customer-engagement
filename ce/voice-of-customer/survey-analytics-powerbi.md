@@ -2,7 +2,7 @@
 title: "Survey analytics using Power BI (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn how to connect Voice of the Customer instance to Power BI and get insights about the surveys."
 keywords: "voice of the customer analytics, voice of the customer analytics app for power BI"
-ms.date: 04/13/2018
+ms.date: 04/23/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
