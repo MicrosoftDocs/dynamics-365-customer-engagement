@@ -30,17 +30,17 @@ The following table lists the categories against which [!INCLUDE[pn-best-practic
 
 | Category name | Description |
 |--------------------------|-------------------------------|
-|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | These are the configurations (hosted controls, actions, events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in Dynamics 365.|
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations are the configurations (hosted controls, actions, events, and so on) that you configure for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] in Dynamics 365.|
 |System configurations | System configurations are the information about local computer hardware (RAM, operating system, and so on), and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version.|
-|Internet Explorer settings|These are the settings (General, Security, Advanced, and so on) that you configure for Internet Explorer.|
+|Internet Explorer settings|Internet Explorer settings are the settings (General, Security, Advanced, and so on) that you configure for Internet Explorer.|
 
-The following table lists the results of security level analysis.
+The following table lists the results of Severity level analysis.
 
 | Severity category | Description |
 |-------------------|-----------------|
-| Pass | The report displays a pass result when a parameter satisfies the best practices rules.|
-| Error| The report displays an error result when a parameter doesn't satisfy the best practices rules.|
-| Warning| The report displays a warning result when a parameter is non-compliant with the best practices rules and due to which [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can encounter potential issues. Using recommended value settings for parameters helps [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to perform better.|
+| Pass | The report displays a pass result when a parameter satisfies the recommended criteria.|
+| Warning| The report displays a warning result when a parameter doesn't satisfy the recommended criteria and due to which [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] can encounter potential issues. Using recommended value settings for parameters helps [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to perform better.|
+| Error| The report displays an error result when a parameter doesn't satisfy the recommended criteria.|
 
 ## [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support matrix 
 
@@ -48,8 +48,8 @@ The matrix provides information about how you can obtain and use the [!INCLUDE[p
 
 | Scenario | Description | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] |
 |-----------------|------------------|----------------|
-| New installation |[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Web Client and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Unified Client | [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)] |
-|Existing installation|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available as a download package.| [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]<br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]<br>[!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br>[!INCLUDE[pn-unified-service-desk-2-2dot2](../../includes/pn-unified-service-desk-2-2dot2.md)] | 
+| New installation or Upgrade of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] |[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Web Client and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Unified Client | [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)] |
+|Existing installation of [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md) or lower version|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available as a download package.| [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]<br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]<br>[!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br>[!INCLUDE[pn-unified-service-desk-2-2dot2](../../includes/pn-unified-service-desk-2-2dot2.md)] | 
 
 ## See also
 
