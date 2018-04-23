@@ -75,7 +75,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Application is Global|Checked|  
     |Display Group|MainPanel|  
   
- ![Create a hosted control for displaying accounts](../unified-service-desk/media/crm-itpro-usd-wt03-01.png "Create a hosted control for displaying accounts")  
+ ![Create a hosted control for displaying accounts](../unified-service-desk/media/crm-itpro-usd-wt03-01-unified-interface.png "Create a hosted control for displaying accounts")  
   
 6.  Click **Save**.  
   
@@ -92,7 +92,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Application is Global|Checked|  
     |Display Group|MainPanel|  
   
- ![Create hosted control for displaying contacts](../unified-service-desk/media/crm-itpro-usd-wt03-02.png "Create hosted control for displaying contacts")  
+ ![Create hosted control for displaying contacts](../unified-service-desk/media/crm-itpro-usd-wt03-02-unified-interface.png "Create hosted control for displaying contacts")  
   
 9. Click **Save**.  
   
@@ -116,7 +116,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |USD Component Type|Toolbar Container|  
     |Display Group|ToolbarPanel|  
   
- ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt03-03.png "Toolbar Container hosted control")  
+ ![Toolbar Container hosted control](../unified-service-desk/media/crm-itpro-usd-wt03-03-unified-interface.png "Toolbar Container hosted control")
   
 6.  Click **Save**.  
   
@@ -157,7 +157,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Tooltip|Search [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] accounts and contacts|
     |Order|1|  
   
- ![Create the Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-04.png "Create the Search toolbar button")  
+ ![Create the Search toolbar button](../unified-service-desk/media/crm-itpro-usd-wt03-04.png "Create the Search toolbar button")
   
 3.  Click **Save**.
   
