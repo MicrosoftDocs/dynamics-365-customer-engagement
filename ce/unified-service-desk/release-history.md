@@ -24,7 +24,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
  
 |Release  |Information  |
 |---------|---------|
-|Version 3.3, April 2018| [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] update |
+|Version 3.3, April 2018| [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] update <br><br> **Note:** This is a English only release.|
 |Version 3.2, February 2018   | [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] update |
 |Version 3.1, November 2017   | [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)] update |
 |Version 3.0, August 2017  |  [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)] update |
