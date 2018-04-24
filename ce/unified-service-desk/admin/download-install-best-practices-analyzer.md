@@ -16,15 +16,17 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Download Best Practices Analyzer
+# Download and Install Best Practices Analyzer
+
+## [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] support matrix and download location
 
 The table provides where you can download [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for various versions of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-| Version | Download Location |
-|---------|-------------------|
-| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=872261) |
-| [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] for<br> [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] <br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] <br>  [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br> [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=872089) |
-
+| Scenario | Description | [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] | Download Location |
+|-----------------|------------------|----------------|-----------|
+| Available through sample application package |[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is part of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Web Client and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] – Microsoft Dynamics 365 Unified Client | [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=872261) |
+|Available through [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] package|[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available as a download package.| [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] <br> [!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)] <br> [!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)] <br> [!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)] | [Download](https://go.microsoft.com/fwlink/?linkid=872089) |
+ 
 
 ## Install [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]
 
