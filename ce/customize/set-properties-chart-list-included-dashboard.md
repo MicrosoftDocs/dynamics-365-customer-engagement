@@ -1,7 +1,8 @@
 ---
-title: "Set properties for a chart or list included in a dashboard (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Set properties for a chart or list included in a dashboard in PowerApps | MicrosoftDocs"
+description: "Learn how to set properties for  chart or list included in a dashboard"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/24/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,21 +11,22 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 50fb2ab0-5c1a-4a5e-8ebc-5603fecc4da0
 caps.latest.revision: 26
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Set properties for a chart or list included in a dashboard
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 To edit a chart or list component from the dashboard layout screen, double-click the chart or list. This opens the **Set Properties** dialog box.  
   
  You can set the following chart properties from the **Set Properties** dialog box:  
   
-- **Name**. Unique name for the chart. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] suggests a value, but you can change it.  
+- **Name**. Unique name for the chart. The system suggests a value, but you can change it.  
   
 - **Label**. The label that appears at the top of the chart.  
   
@@ -42,7 +44,7 @@ To edit a chart or list component from the dashboard layout screen, double-click
   
 You can set the following list properties from the **Set Properties** dialog box:  
   
-- **Name**. Unique name for the list. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] suggests a value, but you can change it.  
+- **Name**. Unique name for the list. The system suggests a value, but you can change it.  
   
 - **Label**. The label that appears at the top of the list.  
   
@@ -54,7 +56,7 @@ You can set the following list properties from the **Set Properties** dialog box
   
 - **Display Search Box**. Select this check box if you want to display a search box at the top of the list. If the search box is included, you or other users can search for records in the list at runtime.  
   
-- **Display Index**. Select this check box if you want to display the A to Z filters at the bottom of the list. When the A to Z filters are displayed, you or other users can click or tap a letter to jump to records that start with that letter.  
+- **Display Index**. Select this check box if you want to display the A to Z filters at the bottom of the list. When the A to Z filters are displayed, you or other users can select a letter to jump to records that start with that letter.  
   
 - **View Selector**. Select from the following values:  
   
@@ -62,7 +64,7 @@ You can set the following list properties from the **Set Properties** dialog box
   
     - **Show All Views**. Provide a full list of views associated with the value set in the Entity property.  
   
-    - **Show Selected Views**. Select this setting to limit the list of views available at runtime. To select the specific views to be displayed, hold down the Ctrl key and tap or click each view you want to include.  
+    - **Show Selected Views**. Select this setting to limit the list of views available at runtime. To select the specific views to be displayed, hold down the Ctrl key and tap or select each view you want to include.  
   
 ### See also  
  [Create or customize dashboards](../customize/create-edit-dashboards.md)
