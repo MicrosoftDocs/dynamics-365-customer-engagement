@@ -27,7 +27,7 @@ topic-status: Drafting
 
 Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
   
-On web.powerapps.com, to edit and existing or create a new app in the app designer select **Model-driven** > **Advanced**. Then, in solution explorer select **Apps**. 
+On web.powerapps.com, to edit an existing or create a new app in the app designer select **Model-driven** (lower left of the navigation pane), and then select **Apps**. 
 
 In Dynamics 365 customer enagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
 
@@ -59,8 +59,7 @@ Verify the following prerequisites before you start creating an app:
         - **Unified Interface**: This is the newer responsive web browser client that has a similar interface across PC and mobile devices.  
 
         - **Web**: This is the classic [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web browser client.  
-  
-  
+    
     - **App URL Suffix**: The app URL is automatically populated based on the app name that you specify. You'll see a preview of how the complete URL looks. The app URL must be unique.  
   
          For example: https://\<org>.crm#.dynamics.com/Apps/\<App URL>

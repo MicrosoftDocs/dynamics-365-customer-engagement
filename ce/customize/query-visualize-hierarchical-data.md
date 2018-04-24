@@ -1,7 +1,8 @@
 ---
-title: "Query and visualize hierarchical data (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Query and visualize hierarchical data with PowerApps | MicrosoftDocs"
+description: "Learn how to query and visualize heirarchical related data"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 0cf62817-5ff5-40bb-ad17-e1f6b0921720
 caps.latest.revision: 42
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Query and visualize hierarchically related data
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-You can get valuable business insights by visualizing hierarchically related data. The [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] hierarchical modelling and visualization capabilities give you a number of benefits:  
+You can get valuable business insights by visualizing hierarchically related data. The hierarchical modelling and visualization capabilities give you a number of benefits:  
   
 -   View and explore complex hierarchical information.  
   
@@ -28,11 +30,11 @@ You can get valuable business insights by visualizing hierarchically related dat
   
 -   Visually analyze key information across the web and the tablets.  
   
-For some entities, such as account and user, the visualizations are provided out-of-the-box. Other entities, including custom entities, can be enabled for a hierarchy and you can create the visualizations for them. Based on your needs, you can choose between using a tree view, which shows the entire hierarchy, or a tile view, which depicts a smaller portion of the hierarchy. Both views are shown side by side. You can explore a hierarchy by expanding and contracting a hierarchy tree. The same hierarchical settings for visualization are set once, but apply to both [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)]. In tablets, the visuals render in a modified format suitable for the smaller form factor. The customizable components required for hierarchical visualization are solution aware, therefore, they can be transported between organizations like any other customization. You can configure the attributes shown in the visualization by customizing a Quick Form using the form editor. There is no requirement to write code.  
+For some entities, such as account and user, the visualizations are provided out-of-the-box. Other entities, including custom entities, can be enabled for a hierarchy and you can create the visualizations for them. Based on your needs, you can choose between using a tree view, which shows the entire hierarchy, or a tile view, which depicts a smaller portion of the hierarchy. Both views are shown side by side. You can explore a hierarchy by expanding and contracting a hierarchy tree. The same hierarchical settings for visualization are set once, but apply to both web and mobile clients. In tablets, the visuals render in a modified format suitable for the smaller form factor. The customizable components required for hierarchical visualization are solution aware, therefore, they can be transported between organizations like any other customization. You can configure the attributes shown in the visualization by customizing a Quick Form using the form editor. There is no requirement to write code.  
   
 <a name="BKMK_Querydata"></a>   
 ## Query hierarchical data  
- In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
+ With [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], hierarchical data structures are supported by self-referential one-to-many (1:N) relationships of the related records. In the past, to view hierarchical data, you had to iteratively query for the related records. Presently, you can query the related data as a hierarchy, in one step. You’ll be able to query records using the **Under** and **Not Under** logic. The **Under** and **Not Under** hierarchical operators are exposed in Advanced Find and the workflow editor. For more information about how to use these operators, see [Configure workflow steps](../customize/configure-workflow-steps.md). For more information about Advanced Find, see [Create, edit, or save an Advanced Find search](../basics/save-advanced-find-search.md)  
   
  The following examples illustrate various scenarios for querying hierarchies:  
   
@@ -50,11 +52,11 @@ For some entities, such as account and user, the visualizations are provided out
   
  To query the data as a hierarchy, you must set one of the entity’s one-to-many (1:N) self-referential relationships as hierarchical. To turn the hierarchy on:  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1.  Open solution explorer. 
   
-2.  Choose **Customize your system** > **Components**.  
-  
-3.  Choose **Entity** > **1:N Relationships**, then choose a (1:N) relationship and in the **Relationship definition**, set **Hierarchical** to **Yes**.  
+2.  Select the entity you want, select **1:N Relationships**, and then select a (1:N) relationship. 
+
+3.  In the **Relationship definition**, set **Hierarchical** to **Yes**.  
   
 > [!NOTE]
 > - Some of the out-of the-box (1:N) relationships can’t be customized. This will prevent you from setting those relationships as hierarchical.  
@@ -68,15 +70,13 @@ For some entities, such as account and user, the visualizations are provided out
   
  If you select the hierarchy icon, you can view the hierarchy, with the tree view on the left and the tile view on the right, as shown below:  
   
- ![Account tree and tile view in Dynamics 365](../customize/media/hierachy-security-accounts-tile-view.png "Account tree and tile view in Dynamics 365")  
+ ![Account tree and tile view](../customize/media/hierachy-security-accounts-tile-view.png "Account tree and tile view")  
   
  A few other out-of the-box system entities can be enabled for a hierarchy. These entities include `Case`, `Contact`, `Opportunity`, `Order`, `Quote`, `Campaign`, and `Team`. All custom entities can be enabled for a hierarchy.  
   
 > [!TIP]
 >  If an entity can be enabled for a hierarchy:  
->   
->  1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
-> 2.  Choose **Customize your system** > **Components** > **Entity**. You will see the selection called **Hierarchy Settings**. The entities that can’t be enabled for a hierarchy don’t have this selection, with the exception of the Sales Territory entity. Although **Hierarchy Settings** appears for the Sales Territory entity, the entity can’t be enabled for a hierarchy.  
+>  In solution explorer, expand the entity that you want. You will see the entity component called **Hierarchy Settings**. The entities that can’t be enabled for a hierarchy don’t have this component, with the exception of the Dynamics 365 customer engagement Sales Territory entity. Although **Hierarchy Settings** appears for the Sales Territory entity, the entity can’t be enabled for a hierarchy.  
   
  Important things to remember when you create visualizations:  
   

@@ -18,6 +18,7 @@
 ### [Create web roles](create-web-roles.md)
 ### [Manage knowledge articles](manage-knowledge-articles-content-levels.md)
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
+### [Search within file attachments](search-file-attachment.md)
 ### [Engage with communities](engage-with-communities.md)
 ### [Display file attachments with knowledge articles](display-file-attachments-knowledge-article.md)
 ### [Set up and moderate forums](setup-moderate-forums.md)

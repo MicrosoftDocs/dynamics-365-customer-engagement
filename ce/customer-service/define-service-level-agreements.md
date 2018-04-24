@@ -290,7 +290,7 @@ Define the level of service or support that your organization agrees to offer to
 ## How is the SLA applied?  
  When a record is created, the SLA is applied (default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change, that is, when the fields that are added in the **Applicable When** conditions of the SLA change, the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.  
   
- When the SLA is applied again, all the SLA items are evaluated based on the updated record fields and the failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated. To avoid this, you can request that your system customizer add a custom field to the entity (to track if the failure/warning actions were already taken) and add it to the **Applicable When** condition so that the actions aren’t initiated multiple times.  
+ When the SLA is applied again, all the SLA items are evaluated based on the updated record fields and the failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.  
   
 > [!NOTE]
 >  You can only have one SLA running on one record. When an entity record is updated with a different SLA, the previously applied SLA is canceled.  

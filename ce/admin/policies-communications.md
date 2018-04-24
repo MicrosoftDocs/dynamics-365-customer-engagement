@@ -41,7 +41,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../includes/p
   
 - [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service changes and software updates  
   
--   Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year  
+-   Minor service updates to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] that occur about 10 times per year. See [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).  
   
 **How do I find out about planned maintenance?**  
   
@@ -87,15 +87,18 @@ The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] te
   
 <a name="bkmk_ServiceUpdates"></a>   
 
-## Service updates  
- Dynamics 365 (online) typically releases two major service updates per year. Service updates provide new features and functionality to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+## Major service updates  
+ Dynamics 365 (online) typically releases two major service updates per year. Major service updates provide new features and functionality to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+
+> [!NOTE]
+> For information about minor service updates, see [Service updates](https://support.microsoft.com/help/2925359/microsoft-dynamics-crm-online-releases).
   
  Improvements in the update process put the power in your hands for scheduling your organization’s service updates. You can choose from a list of available dates. Service updates are only applied after they are approved by the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admin - please review the important note below outlining the Dynamics 365 online update policy. This helps you to plan well in advance for your upgrade path, while using your sandbox organization to properly test and evaluate the service updates with your existing production code.  
   
 > [!IMPORTANT]
 >  Be sure to check out [Update policy](../admin/manage-updates.md#BKMK_Policy) for important information about updating to the latest version.  
   
- **How do I find out about service updates?**  
+ **How do I find out about major service updates?**  
   
  The [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] team preschedules customers for the service update and emails [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admins 90 days before the scheduled update. [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] admins receive additional emails at 90 days, 30 days, 15 days, 7 days, 0 or day of, and post update.  
   

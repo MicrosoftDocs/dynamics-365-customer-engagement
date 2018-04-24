@@ -341,7 +341,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
   
 <a name="BKMK_CustomizeDashboard"></a>   
 
-## Customize your Customer Insights dashboard  
+## Customize your Organization Insights dashboard  
  You can easily customize Organization Insights dashboards to meet your information requirements.  Look for these buttons in the upper-right corner of the [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] screen.  
   
 |Control|Description|  
