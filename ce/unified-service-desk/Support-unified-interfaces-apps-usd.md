@@ -25,7 +25,7 @@ With the release [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unifie
 
 With the release of Dynamics 365 (online), version 9.0, we have introduced a new user experience - Unified Interface - which uses responsive web design principles to provide an optimal viewing and interaction experience for any screen size, device, or orientation.
 
-The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: About Unified Interface
+The new Unified Interface brings all the rich experiences to any client that you are using. Whether you are on a browser, tablet, or phone, you will be able to consume similar experiences. More Information: [About Unified Interface](../admin/about-unified-interface.md)
 
 ## What is Unified Interface supportability in Unified Service Desk?
 
