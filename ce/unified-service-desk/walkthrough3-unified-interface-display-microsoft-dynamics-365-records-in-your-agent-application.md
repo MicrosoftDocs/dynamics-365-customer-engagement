@@ -325,7 +325,7 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
  Click **Account** or **Contact** under the **SEARCH** button to display the respective records from your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance in separate tabs in the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client application.  
   
- ![Dynamics 365 contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13.png "Dynamics 365 contact records displayed")  
+ ![Dynamics 365 contact records displayed](../unified-service-desk/media/crm-itpro-usd-wt03-13-unified-interface.png "Dynamics 365 contact records displayed")  
   
 <a name="Conclusion"></a>   
 ## Conclusion  
