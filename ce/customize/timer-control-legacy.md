@@ -50,4 +50,4 @@ To create a timer control, on the form select the **Insert** tab, on the toolbar
 
 ### See also
 
-[Overview of the form editor user interface](form-editor-user-interface-legacy)
+[Overview of the form editor user interface](../customize/form-editor-user-interface-legacy)

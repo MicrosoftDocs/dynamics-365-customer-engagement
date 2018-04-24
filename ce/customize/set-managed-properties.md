@@ -43,4 +43,4 @@ manager: "kvivek"
  Except for **Can Change Additional Properties**, these options should be self-explanatory. The **Can Change Additional Properties** property simply means anything not covered by the other options. If you set all the individual options to `False`, you might as well set **Can be customized** to `False`.  
 
  ### See also
- [Entities, metadata, and the metadata browser](create-edit-metadata)
+ [Entities, metadata, and the metadata browser](../customize/create-edit-metadata)
