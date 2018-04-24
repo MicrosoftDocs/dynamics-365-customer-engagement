@@ -1,5 +1,5 @@
 ---
-title: "Configure JAWS screen reader support | MicrosoftDocs"
+title: "Configure JAWS screen reader for Unified Service Desk | MicrosoftDocs"
 description: "Learn about JAWS screen reader for Windows screen reader for speech output in the Unified Service Desk client. All the Unified Service Desk controls and custom controls that are part of the Microsoft Dynamics 365 Web Client package  are JAWS compliant."
 ms.custom: ""
 keywords: "Dynamics 365 Unified Service Desk; Unified Service Desk; JAWS Screen Reader; Windows Screen Reader"
@@ -20,7 +20,7 @@ author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
-# Configure JAWS Screen Reader in Unified Service Desk
+# Configure JAWS Screen Reader for Unified Service Desk
 
 [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] (Job Access With Speech) is a computer screen reader program for Microsoft Windows that allows blind and visually impaired users to read the screen either with a text-to-speech output or by a refreshable Braille display.
 
@@ -40,7 +40,8 @@ For example:
 By default, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader does not support reading toolbar button tooltip text. However, you can create [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] custom scripts to enable [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader to read tooltip text.
 
 Here is a sample script for checking button name and tooltip text (help text). 
-In [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], if you do not configure the tooltip text explicitly, the system applies the button name to the tooltip text. In such case, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] read both the button name and the tooltip text. To avoid reading the button name and tooltip text, you can create a custom script to  whether the button name and tooltip text is same.
+In [!INCLUDE[pn-unified-service-desk](../includes/pn-unified-service-desk.md)], if you do not configure the tooltip text explicitly, the system applies the button name to the tooltip text. In such case, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] read both the button name and the tooltip text. To avoid reading the button name and tooltip text, you can create a custom script to check whether the button name and tooltip text is same.
+
 In the sample script, if the help text is not the same as button name, [!INCLUDE[pn-jaws](../includes/pn-jaws.md)] screen reader reads the tooltip (help text).
 
 ```
