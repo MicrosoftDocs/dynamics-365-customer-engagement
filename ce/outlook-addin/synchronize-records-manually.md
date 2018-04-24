@@ -35,6 +35,6 @@ By default, changes made in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftc
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
 ## See Also  
- [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)   
+ [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

@@ -21,4 +21,4 @@ robots: noindex,nofollow
   
  [Set up and configure Dynamics 365 for Outlook from Office 365](set-up-configure-dynamics-365-outlook-office-365.md)  
   
- [The Outlook email address should be the same as the Dynamics 365 email address](outlook-email-address-should-same-dynamics-365-email-address.md)
+ [The Outlook email address should be the same as the Dynamics 365 email address](outlook-email-address-should-same.md)

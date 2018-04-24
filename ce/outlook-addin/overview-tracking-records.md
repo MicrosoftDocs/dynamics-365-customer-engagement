@@ -26,7 +26,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
  Tracking records in Dynamics 365 for Outlook is a manual process. This gives you the ability to keep your personal Outlook records separate from your Dynamics 365 records.  
   
 > [!TIP]
->  -   If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email-dynamics-365-outlook.md)  
+>  -   If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
 > -   If your organization synchronizes records through server-side synchronization, you can track email messages through folder tracking. Folder tracking is a powerful and intuitive way to track email directly from virtually any device. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
   
  On this page:  
@@ -94,7 +94,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
   
 -   **Using multiple computers.** You can use multiple computers to track items using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. For example, you might use a desktop computer and a laptop. Only one computer can be the synchronizing computer, however. Changes or updates to synchronized records will not show up in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] if the synchronizing computer is not connected to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
--   **Choosing data to store locally.** The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data stored on your local computer is determined by online synchronization filters. You can edit, deactivate, or delete these filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
+-   **Choosing data to store locally.** The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data stored on your local computer is determined by online synchronization filters. You can edit, deactivate, or delete these filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)  
   
 -   **Deleting tracked records.** When records are tracked, special rules apply when deleting records. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)  
   
@@ -107,9 +107,9 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
   
 ## See Also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button-dynamics-365-outlook.md)   
- [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments-dynamics-365-outlook.md)   
- [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts-dynamics-365-outlook.md)   
+ [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
+ [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   
+ [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
  [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks-dynamics-365-outlook.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   

@@ -62,6 +62,6 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-mic
   
 ## See Also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button-dynamics-365-outlook.md)   
+ [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
