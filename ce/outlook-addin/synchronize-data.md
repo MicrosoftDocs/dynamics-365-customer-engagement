@@ -19,17 +19,17 @@ robots: noindex,nofollow
   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)  
   
- [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
+ [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)  
   
  [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)  
   
- [Synchronize records manually with Dynamics 365 for Outlook](synchronize-records-manually-dynamics-365-outlook.md)  
+ [Synchronize records manually with Dynamics 365 for Outlook](synchronize-records-manually.md)  
   
- [Control field synchronization between Dynamics 365 and Outlook or Exchange](control-field-synchronization-between-dynamics-365-outlook-exchange.md)  
+ [Control field synchronization between Dynamics 365 and Outlook or Exchange](control-field-synchronization-exchange.md)  
   
- [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized-between-dynamics-365-outlook.md)  
+ [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized.md)  
   
- [How security affects synchronization between Dynamics 365 and Outlook or Exchange](how-security-affects-synchronization-between-dynamics-365-outlook-exchange.md)  
+ [How security affects synchronization between Dynamics 365 and Outlook or Exchange](how-security-affects-synchronization-exchange.md)  
   
  [System Settings dialog box - Synchronization tab](system-settings-dialog-box-synchronization-tab.md)  
   

@@ -25,20 +25,20 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md
   
  ![Tracking buttons on Dynamics 365 for Outlook ribbon](media/outlook-email-button-tracking.png "Tracking buttons on Dynamics 365 for Outlook ribbon")  
   
- Tracking email in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal email separate from your customer email. You can also set an option to automatically track email messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email-dynamics-365-outlook.md)  
+ Tracking email in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal email separate from your customer email. You can also set an option to automatically track email messages. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
   
 > [!TIP]
 >  If your organization synchronizes email through server-side synchronization, you can track email automatically by dragging it to a tracked folder. Folder-level tracking is a powerful and intuitive way to track email messages directly from virtually any device. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
   
  [!INCLUDE[proc_on_this_page](../includes/proc-on-this-page.md)]  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Requirements for tracking email messages](track-outlook-email-by-choosing-button-dynamics-365-outlook.md#Requirements)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Requirements for tracking email messages](track-outlook-email-by-choosing-button.md#Requirements)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Which records are associated with the email activity?](track-outlook-email-by-choosing-button-dynamics-365-outlook.md#WhichRecords)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Which records are associated with the email activity?](track-outlook-email-by-choosing-button.md#WhichRecords)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Track an email message](track-outlook-email-by-choosing-button-dynamics-365-outlook.md#Track)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Track an email message](track-outlook-email-by-choosing-button.md#Track)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What else to I need to know about tracking email records?](track-outlook-email-by-choosing-button-dynamics-365-outlook.md#WhatElse)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [What else to I need to know about tracking email records?](track-outlook-email-by-choosing-button.md#WhatElse)  
   
 <a name="Requirements"></a>   
 ## Requirements for tracking email messages  
@@ -70,7 +70,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md
 <a name="WhatElse"></a>   
 ## What else to I need to know about tracking email records?  
   
--   **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] address book**. The address book is installed automatically when [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is installed. This makes it possible to search for a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact from the **To** field of an email message or appointment when you create it. By default, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] only searches for contacts you own. You can set a personal option to broaden this search. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set address book options in Dynamics 365 for Outlook](set-address-book-options-in-dynamics-365-outlook.md)  
+-   **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] address book**. The address book is installed automatically when [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is installed. This makes it possible to search for a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] contact from the **To** field of an email message or appointment when you create it. By default, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] only searches for contacts you own. You can set a personal option to broaden this search. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set address book options in Dynamics 365 for Outlook](set-address-book-options-in.md)  
   
 -   **Working offline**. Email messages you track when you’re offline are saved as activities when you go back online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
@@ -91,7 +91,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md
 ## See Also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)   
+ [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Create templates for email](../admin/create-templates-email.md) 
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

@@ -89,5 +89,5 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] d
 ## See Also  
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
  [Example of going offline with Dynamics 365 for Outlook](example-going-offline.md)   
- [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)   
+ [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

@@ -25,7 +25,7 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
   
 -   **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] dialog box**. This dialog box has three tabs:  
   
-    -   **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
+    -   **User Filters**. Use this tab to choose the records that are synchronized between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] when you’re online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)  
   
     -   **System Filters**. System administrators can programmatically modify online synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
   
@@ -38,7 +38,7 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
     -   **System Filters**. System administrators can programmatically modify offline synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
   
 ## See Also  
- [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)   
+ [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
  [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)   
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)

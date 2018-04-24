@@ -19,16 +19,16 @@ robots: noindex,nofollow
   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
   
- [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button-dynamics-365-outlook.md)  
+ [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)  
   
- [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email-dynamics-365-outlook.md)  
+ [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
   
- [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts-dynamics-365-outlook.md)  
+ [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)  
   
  [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)  
   
- [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks-dynamics-365-outlook.md)  
+ [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)  
   
- [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments-dynamics-365-outlook.md)  
+ [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)  
   
- [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)
+ [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)

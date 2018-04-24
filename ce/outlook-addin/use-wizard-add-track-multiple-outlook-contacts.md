@@ -86,7 +86,7 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.
 10. Review the Summary page and view any errors, if applicable. Then choose **Close**.  
   
 ## See Also  
- [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts-dynamics-365-outlook.md)   
+ [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)   
+ [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

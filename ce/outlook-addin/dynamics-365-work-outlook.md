@@ -45,7 +45,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../includes
   
 -   Access your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data on the go by working in offline mode. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] provides offline synchronization filters that you can modify before you go offline so you take just the data you need with you. When you’re offline, changes are stored to your local drive. When you go back online, [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] automatically synchronizes the data again with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
--   Create [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)][!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] mail-merge documents to send form letters or form email messages to contacts, accounts, or marketing mailing lists. You can also use mail merge to create faxes and quotes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document-dynamics-365-outlook.md)  
+-   Create [!INCLUDE[cc_Microsoft](../includes/cc-microsoft.md)][!INCLUDE[pn_ms_Word_short](../includes/pn-ms-word-short.md)] mail-merge documents to send form letters or form email messages to contacts, accounts, or marketing mailing lists. You can also use mail merge to create faxes and quotes. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document.md)  
   
 > [!NOTE]
 >  If people in your organization share the same computer by using different user accounts, each person can install and use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] for their own account.  
@@ -76,7 +76,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../includes
   
  ![List and reading pane in Dynamics 365 for Outlook](media/crm-outlook-list-and-reading-pane.png "List and reading pane in Dynamics 365 for Outlook")  
   
- You can change the location of the reading pane or turn it off or on. You can also customize what you see in the reading pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane-dynamics-365-outlook.md)  
+ You can change the location of the reading pane or turn it off or on. You can also customize what you see in the reading pane. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane.md)  
   
 <a name="UnavailableFeatures"></a>   
 ## What Outlook features are unavailable in Dynamics 365 for Outlook?  
@@ -100,7 +100,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../includes
 ## See Also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
- [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document-dynamics-365-outlook.md)   
- [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane-dynamics-365-outlook.md)   
+ [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document.md)   
+ [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [TechNet: Dynamics 365 for Outlook compatibility](https://technet.microsoft.com/library/dn832152.aspx)

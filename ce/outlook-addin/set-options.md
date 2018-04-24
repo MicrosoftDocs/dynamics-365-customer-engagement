@@ -14,10 +14,10 @@ manager: "brycho"
 robots: noindex,nofollow
 ---
 # Set options
-[Set address book options in Dynamics 365 for Outlook](set-address-book-options-in-dynamics-365-outlook.md)  
+[Set address book options in Dynamics 365 for Outlook](set-address-book-options-in.md)  
   
- [Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook](customize-regional-settings-dynamics-365-outlook.md)  
+ [Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook](customize-regional-settings.md)  
   
- [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email-dynamics-365-outlook.md)  
+ [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

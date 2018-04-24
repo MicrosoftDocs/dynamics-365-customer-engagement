@@ -19,6 +19,6 @@ robots: noindex,nofollow
   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
- [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane-dynamics-365-outlook.md)  
+ [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane.md)  
   
- [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document-dynamics-365-outlook.md)
+ [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document.md)
