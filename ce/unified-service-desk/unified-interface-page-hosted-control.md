@@ -192,7 +192,7 @@ Creates a page for creating a new Dynamics 365 record of the entity specified, a
 
 Note
 
-The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/walkthrough-configure-agent-scripting-agent-application).  
+The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. 
 
 ### Open\_CRM\_Page
 
