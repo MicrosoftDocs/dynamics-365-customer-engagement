@@ -52,7 +52,7 @@ This action loads a specific associated view of Dynamics 365. These views are ty
 |-------------------|-------------------------------------------------------------------------------------------------------------------------|
 | etn               | The name of the entity for which you want to load list of records of the associated entity.  This is a mandatory parameter|
 | Id                | The ID of the main entity record for which to display the associated entity records.                                    |
-| navItemId         | Id of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](../developer/clientapi/reference/formcontext-ui-navigation)      |
+| navItemId         | Id of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](../developer/clientapi/reference/formcontext-ui-navigation.md)      |
 | hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 command bar. |
 | hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 navigation bar.     |
 
