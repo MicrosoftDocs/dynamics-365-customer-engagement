@@ -85,6 +85,22 @@
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
+    },
+    {
+      "docset_name": "power-apps-maker",
+      "build_source_folder": "powerapps/maker",
+      "build_output_subfolder": "power-apps-maker",
+      "locale": "en-us",
+      "monikers": [],
+      "moniker_ranges": [],
+      "open_to_public_contributors": false,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
