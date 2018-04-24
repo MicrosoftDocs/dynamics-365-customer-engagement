@@ -248,4 +248,4 @@ This walkthrough demonstrates how to display a webpage or external URL in your a
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough-configure-debugger-hosted-control-agent-application.md)   
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)   
  [Walkthrough 8: Use Parature knowledge within your agent application](../unified-service-desk/walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md)   
- [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)
+ [Unified Service Desk Configuration Walkthroughs](../unified-service-desk/unified-service-desk-configuration-walkthroughs.md)  
