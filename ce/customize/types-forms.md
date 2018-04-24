@@ -34,4 +34,4 @@ tags:
 
 ### See also
 
-[Overview of the form editor user interface](../customize/form-editor-user-interface-legacy)
+[Overview of the form editor user interface](form-editor-user-interface-legacy.md)
