@@ -21,7 +21,6 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Set up Dynamics 365 for Outlook
-horizontaltabbed  
   
 ### Dynamics 365 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2016_outlook](../includes/pn-crm-2016-outlook.md)]. [!INCLUDE[pn_crm_2016_outlook_shortest](../includes/pn-crm-2016-outlook-shortest.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
