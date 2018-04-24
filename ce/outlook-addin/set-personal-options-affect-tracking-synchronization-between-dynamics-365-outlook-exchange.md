@@ -64,4 +64,4 @@ You can use the **Set Personal Options** dialog box in [!INCLUDE[pn_microsoft_dy
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button-dynamics-365-outlook.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)   
- [Set up email processing through server-side synchronization](../Topic/Set%20up%20email%20processing%20through%20server-side%20synchronization.md)
+[Set up email processing through server-side synchronization](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)

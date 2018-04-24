@@ -68,7 +68,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
 1.  In [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], open the list of records you want.  
   
     > [!TIP]
-    >  This list can be the results of an [Create, edit, or save an Advanced Find search](../Topic/Create,%20edit,%20or%20save%20an%20Advanced%20Find%20search.md).  
+    >  This list can be the results of an [Advanced Find search](../basics/save-advanced-find-search.md).  
   
 2.  In the list, select the record you want to add to the mail-merge recipient list.  
   
@@ -80,7 +80,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
   
 5.  Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button](media/lookup-button-4.gif "Lookup button") to select a template.  
   
-     New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work with mail merge templates](../Topic/Work%20with%20mail%20merge%20templates.md)  
+     New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work with mail merge templates](../admin/work-mail-merge-templates.md)
   
 6.  If necessary, you can add or delete data fields.  
   
@@ -113,5 +113,5 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
 ## See Also  
- [Work with templates](../Topic/Work%20with%20templates.md)   
+ [Work with templates](../admin/work-with-templates.md)
  [Send bulk email to customers](../Topic/Send%20bulk%20email%20to%20customers.md)

@@ -17,4 +17,4 @@ robots: noindex,nofollow
 # Use Outlook with Dynamics 365
 [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)  
   
- [Dynamics 365 App for Outlook User's Guide](dynamics-365-app-outlook-user-s-guide.md)
+[Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)
