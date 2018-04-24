@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 1cbbf33b-e194-4ff3-b840-64e60b094dc9
 ---
 
-# Set up rules to automatically create or update records (Customer Service)
+# Set up rules to automatically create or update records
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

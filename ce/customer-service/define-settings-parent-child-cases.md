@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: c919d10e-8881-4ba9-a609-40b11b555648
 ---
 
-# Define settings for parent and child cases (Customer Service)
+# Define settings for parent and child cases
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

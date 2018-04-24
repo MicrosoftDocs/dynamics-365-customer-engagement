@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 8e93491c-4321-4816-ad4c-4e095015b10e
 ---
 
-# Enable entities for service level agreements (Customer Service)
+# Enable entities for service level agreements
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

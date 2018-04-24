@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: ee605a89-4bd5-4b93-8d45-2ec9ca0a9b8a
 ---
 
-# Create a customer service schedule and define the work hours (Customer Service)
+# Create a customer service schedule and define the work hours
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: bdaec3df-f08e-4d2a-b2bc-f9706a853c69
 ---
 
-# Define status reason transitions for case management (Customer Service)
+# Define status reason transitions for case management
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

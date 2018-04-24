@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 62e46aaf-aa48-4074-a771-bcb345734d4d
 ---
 
-# View, block, or deactivate a social profile in social care sample application (Customer Service)
+# View, block, or deactivate a social profile in social care sample application
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

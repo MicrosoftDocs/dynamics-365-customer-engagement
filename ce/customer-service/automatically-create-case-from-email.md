@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 6331648f-e0f5-4e67-9a18-08fdb22ba879
 ---
 
-# Automatically create a case from an email (Customer Service)
+# Automatically create a case from an email
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

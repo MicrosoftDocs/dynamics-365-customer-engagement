@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
 ---
 
-# Create rules to automatically route cases (Customer Service)
+# Create rules to automatically route cases
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

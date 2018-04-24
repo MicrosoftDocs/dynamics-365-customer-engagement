@@ -64,6 +64,6 @@ Entitlement Templates
 > [!NOTE]
 > Service Scheduling settings on the **Service Management** and **Business Management** pages have been deprecated. For more information, see [Important changes coming](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming).
 
-## See also
+### See also
 
 [User Guide (Customer Service Hub)](user-guide-customer-service-hub.md)

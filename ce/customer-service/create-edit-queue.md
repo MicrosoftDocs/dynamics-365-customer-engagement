@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: c81b3c1b-3b83-409e-b569-a4b4c0a3245e
 ---
 
-# Create or change a queue (Customer Service)
+# Create or change a queue
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

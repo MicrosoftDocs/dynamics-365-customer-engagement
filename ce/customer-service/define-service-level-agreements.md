@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
 ---
 
-# Define service level agreements (Customer Service)
+# Define service level agreements
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

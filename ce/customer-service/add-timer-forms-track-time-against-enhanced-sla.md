@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: a120e3f0-ee22-4d16-8029-0362447bbbd9
 ---
 
-# Add a timer in forms to track time against enhanced SLAs (Customer Service)
+# Add a timer in forms to track time against enhanced SLAs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

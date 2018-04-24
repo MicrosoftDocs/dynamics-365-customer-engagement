@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 68356343-fdd5-4c0e-9c09-dbebf718c764
 ---
 
-# Set up knowledge management (Customer Service)
+# Set up knowledge management
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 

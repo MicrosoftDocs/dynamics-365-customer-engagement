@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: dadea8f7-c931-4cdc-8815-32f8c0f89b51
 ---
 
-# Set up entitlements quickly with templates (Customer Service)
+# Set up entitlements quickly with templates
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
