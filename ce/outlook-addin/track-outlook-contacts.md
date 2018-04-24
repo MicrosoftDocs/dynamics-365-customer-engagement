@@ -50,7 +50,7 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
   
 -   If the contact is linked to a parent record, you can open the parent record from the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contact record in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. In the contacts list,  open the record. In the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** group, choose **View Parent** (or select the link in the tracking pane).  
   
--   The **Company** field for an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contact is not automatically added to the parent account of the new [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] contact. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]. [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)  
+-   The **Company** field for an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] contact is not automatically added to the parent account of the new [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] contact. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]. [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 ## Avoiding duplicate contact records  
  When you track contacts, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] checks for duplicate records. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] also checks for duplicates when you synchronize records manually or go online if you’re been working offline.  
@@ -79,8 +79,8 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
 ## See Also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)   
  [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
+ [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

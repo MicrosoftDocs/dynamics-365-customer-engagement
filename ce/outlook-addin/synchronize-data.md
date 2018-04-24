@@ -15,13 +15,13 @@ manager: "brycho"
 robots: noindex,nofollow
 ---
 # Synchronize data
-[Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)  
+[Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)  
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)  
   
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
   
- [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized-dynamics-365-outlook.md)  
+ [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)  
   
  [Synchronize records manually with Dynamics 365 for Outlook](synchronize-records-manually-dynamics-365-outlook.md)  
   

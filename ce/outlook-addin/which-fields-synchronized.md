@@ -24,4 +24,4 @@ manager: "brycho"
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] administrators can control field synchronization between [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)]. For example, admins can control the synchronization direction between pairs of fields. For information about which fields can be synchronized between  [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], see [TechNet: Which fields can be synchronized between Dynamics 365 and Dynamics 365 for Outlook](https://technet.microsoft.com/library/dn832089.aspx).  
   
 ## See Also  
- [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized-dynamics-365-outlook.md)
+ [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)

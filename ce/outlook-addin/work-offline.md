@@ -17,6 +17,6 @@ robots: noindex,nofollow
 # Work offline
 [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
- [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline-dynamics-365-outlook.md)  
+ [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
   
- [Example of going offline with Dynamics 365 for Outlook](example-going-offline-dynamics-365-outlook.md)
+ [Example of going offline with Dynamics 365 for Outlook](example-going-offline.md)

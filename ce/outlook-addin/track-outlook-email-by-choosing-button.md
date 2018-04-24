@@ -61,7 +61,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md
   
     -   To track the email message and link it to a particular record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** group, click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, click **Add**.  
   
-     When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)  
+     When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
      You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365** symbol ![Tracked in Dynamics 365 icon](media/priv-biz-unit.gif "Tracked in Dynamics 365 icon") next to any tracked records.  
   
@@ -74,7 +74,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md
   
 -   **Working offline**. Email messages you track when you’re offline are saved as activities when you go back online. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
--   **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)  
+-   **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 -   **Editing tracked email messages**. After an email message has been sent, you can’t edit it, but you can set or change a regarding record for it.  
   
@@ -90,8 +90,8 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md
   
 ## See Also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)   
+ [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Create templates for email](../admin/create-templates-email.md) 
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
