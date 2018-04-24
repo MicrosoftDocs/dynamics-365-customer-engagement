@@ -50,12 +50,11 @@ This action loads a specific associated view of Dynamics 365. These views are ty
 
 | Parameter         | Description                                                                                                             |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------|
-| navItemName       | The associated entity that you want to display. Example: Cases                                                          |
+| etn               | The name of the entity for which you want to load list of records of the associated entity.  This is a mandatory parameter|
 | Id                | The ID of the main entity record for which to display the associated entity records.                                    |
-| navItemId         | The area in Dynamics 365. Examples: areaSales or areaService.                                                           |
-| etn               |                                                                                                                         |
-| hideCommandBar    | If this parameter is supplied and True, the inner frame will be displayed without loading the Dynamics 365 command bar. |
-| hideNavigationBar | If this parameter is supplied and True, the form will be displayed without loading the Dynamics 365 navigation bar.     |
+| navItemId         | Id of the navigation item corresponding to the associated entity. More information: [formContext.ui.navigation](../developer/clientapi/reference/formcontext-ui-navigation)      |
+| hideCommandBar    | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 command bar. |
+| hideNavigationBar | If this parameter is supplied and False, the page will be displayed along with the Dynamics 365 navigation bar.     |
 
 ## Close
 
@@ -142,7 +141,7 @@ This action moves a Unified Interface Page hosted control to a different panel a
 
 ## Navigate
 
-This action is used to navigate to a Dynamics 365 url.
+This action is used to navigate to a Dynamics 365 url. The App Id for the App that you select from **Select App Module** window is appended automatically.
 
 <table>
 <thead>
@@ -234,11 +233,12 @@ This action refreshes the current page.
   
 |Parameter|Description|  
 |---------------|-----------------|  
-||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
+||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|
+| Frame | When frames exist on the page, this parameter would specify the name of the frame to inject the JavaScript. |
 
   
 ### RunXrmCommand  
- This action is used to run JavaScript code that uses [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Client APIs into the Unified Interface Pages (entity forms and grids). 
+ This action is used to run JavaScript code that uses [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [Client API Reference](../developer/clientapi/reference.md) into the Unified Interface Pages (entity forms and grids). 
 
  You must configure the script as a function of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following values:
 
@@ -348,11 +348,3 @@ Occurs when the page has finished loading. On a Unified Interface Page type of h
 ## See also
 
  [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
- [Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md)
- [Walkthrough 1: Build a simple agent application for Unified Interface Apps](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md) 
- [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
- [Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
- [Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application](../unified-service-desk/walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md)   
- [Walkthrough 5: Display enhanced session information by displaying session name and overview data](../unified-service-desk/walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md)   
- [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
- [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)   
