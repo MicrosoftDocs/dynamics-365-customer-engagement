@@ -20,7 +20,7 @@ manager: "sakudes"
 # Preview feature: Unified Interface Page (Hosted Control)
 Use the **Unified Interface Page** hosted control type to load a URL or page from Unified Interface Apps in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters.
   
- This hosted control type exposes a number of predefined UII actions and events that are unique to handling of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page
+ This hosted control type exposes a number of predefined UII actions and events that are unique to handling of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] [!INCLUDE[pn-ms-windows-short](../includes/pn-ms-windows-short.md)] including list manipulation actions, and a find action for displaying a quick search or advanced search page.
 
 ## Create a Unified Interface Page hosted control
 
@@ -57,8 +57,6 @@ This action loads a specific associated view of Dynamics 365. These views are ty
 | hideCommandBar    | If this parameter is supplied and True, the inner frame will be displayed without loading the Dynamics 365 command bar. |
 | hideNavigationBar | If this parameter is supplied and True, the form will be displayed without loading the Dynamics 365 navigation bar.     |
 
-### 
-
 ## Close
 
 This action is used to close the hosted control. Unlike the **CloseActive** action, if this tab (hosted control) is displaying more than one page, it will close all the pages displayed in the tab in your agent application.
@@ -70,22 +68,6 @@ This action is used to close the active window within this hosted control. If th
 ## CloseAndPrompt
 
 This action closes the hosted control, but prompts the user to save or abandon the changes before closing.
-
-## DisableToolbarButton
-
-This action disables the specified toolbar button on the toolbar in your agent application.
-
-| Parameter | Description                            |
-|-----------|----------------------------------------|
-|           | Name of the toolbar button to disable. |
-
-## EnableToolbarButton
-
-This action enables the specified toolbar button on the toolbar in your agent application.
-
-| Parameter | Description                           |
-|-----------|---------------------------------------|
-|           | Name of the toolbar button to enable. |
 
 ## Find
 
@@ -103,7 +85,6 @@ Navigate to the quick find list view of the specified entity.
 <td></td>
 <td>The data parameter should specify the entity logical name of the quick find list view to display. There are some special case values:<br />
 - Use <strong>case</strong> or <strong>incident</strong> to display the quick find list view for cases.<br />
-- Use <strong>advfind</strong> to display the advanced find view.<br />
 - Use <strong>activities</strong> or <strong>activity</strong> to display the quick find list view for activities.</td>
 </tr>
 </tbody>
@@ -150,32 +131,6 @@ This action is equivalent to clicking the back button on the browser instance.
 ## GoForward
 
 This action is equivalent to clicking the forward button on the browser instance.
-
-## LoadArea
-
-This action loads a specific area from Dynamics 365. This is equivalent to selecting an area in the navigation pane (such as Sales, Service, and Marketing). The only parameter is the name of the area to click. For example: **areaService**.
-
-| ## Parameter | Description                                                                                                               |
-|--------------|---------------------------------------------------------------------------------------------------------------------------|
-| frame        | The name of the frame to affect. If no name is specified, it will automatically target the first frame found on the page. |
-
-## LookupInfo
-
-Displays a Dynamics 365 lookup information dialog box to allow you to select an entity from a list.
-
-| Parameter         | Description                                                                                                                  |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------|
-| AllowFilterOff    | “0” or “1” to allow the user to turn off the filtering                                                                       |
-| DefaultType       | The Logical Name of the default display. This should be one of the numeric values specified in the objecttypes parameter.    |
-| DefaultViewId     | “0” or “1” to show the default view                                                                                          |
-| DisableQuickFind  | “0” or “1” to show the quick find field                                                                                      |
-| DisableViewPicker | “0” or “1” to show the view selector                                                                                         |
-| LookupStyle       | Single or Multiple                                                                                                           |
-| ShowNewButton     | “0” or “1” to show new button                                                                                                |
-| ShowPropButton    | “0” or “1” to show properties button                                                                                         |
-| Browse            | “0” or “1” whether to use browsing mode. The following is with this set to “1”.                                              |
-| Currentid         | The Guid for the current value                                                                                               |
-| objecttypes       | List of object types to display. These are the etc types from Dynamics 365. Example: “1,2” to display accounts and contacts. |
 
 ## MoveToPanel
 
@@ -240,7 +195,7 @@ Note
 
 The rest of the parameters should consist of name=value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. For more information about using this action, see step 4 in [Walkthrough 7: Configure agent scripting in your agent application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/walkthrough-configure-agent-scripting-agent-application).  
 
-## Open\_CRM\_Page
+### Open\_CRM\_Page
 
 Opens an existing instance of the entity specified and identified by the ID, and treats the page as a popup from the specified hosted control. The window navigation rules are evaluated to determine the location where the popup should be displayed.
 
@@ -258,7 +213,7 @@ Pops up a URL from the hosted control and runs the window navigation rules again
 | url       | Routes a popup from this hosted control using this URL as if it were a popup requested from the displayed control. |
 | frame     | The frame from which this popup originated.                                                                        |
 
-## RealignWindow
+### RealignWindow
 
 Displays the hosted control at the specified location on a monitor. You can display hosted control on up to two monitors. This action is applicable for hosted control instances that are configured to be placed on a USDFloatingPanel or USDFloatingToolPanel panel type.
 
@@ -274,11 +229,7 @@ Displays the hosted control at the specified location on a monitor. You can disp
 
 This action refreshes the current page.
 
-## ReRoute
-
-This action takes the currently displayed URL, and sends it through the window navigation rules from the current hosted control as a popup.
-
-## RunScript  
+### RunScript  
  This action injects JavaScript into the main frame of the application. You should avoid using [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client SDK calls with this action; instead, use the **RunXrmCommand** action.  
   
 |Parameter|Description|  
@@ -286,33 +237,32 @@ This action takes the currently displayed URL, and sends it through the window n
 ||The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|  
 
   
-## RunXrmCommand  
- This action is used to inject [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript into the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Unified Interface Pages (entity forms and grids).  
+### RunXrmCommand  
+ This action is used to run JavaScript code that uses [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Client APIs into the Unified Interface Pages (entity forms and grids). 
 
- You must configure the script as a function of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] SDK JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following:
+ You must configure the script as a function of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] JavaScript webResource. The function's first parameter is a context parameter (reserved parameter) which may have one of the following values:
 
  - [FormContext](../developer/clientapi/clientapi-form-context.md) on entity form pages
  - [GridContext](../developer/clientapi/clientapi-grid-context.md) on entity grid pages
- - undefined on other pages
+ - **undefined** on other pages
   
 |Parameter|Description|  
-|---------------|-----------------|  
-||The data parameter is the JavaScript that will be injected into the entity form or grid.<br> **Note:**  The replacement parameters can be used in the script, and they will be replaced before the script is executed.|
+|---------------|-----------------|
 | webResourceName | Name of the web resource in which the JavaScript function you want to execute is present. |
 | functionName | Name of the function. |
 
-This action accepts a list of optional parameters without values. The list of optional parameters are passed as arguments in the same order at runtime. 
+The other parameters to the function are customer defined and can be used to pass Unified Service Desk’s replacement parameters at runtime. This action accepts a list of optional parameters without keys. The list of optional parameters are passed as arguments in the same order from second position after context replacement at runtime.
 
 #### Example
 
 You want to execute **RunXrmCommand** action to fill the form attributes of a entity form, where the entity form is hosted by Unified Interface type of hosted control. The value you want to fill in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]'s perspective  is a replacement parameter - `[[$Context.Key1]]`.
 
-In order to execute the action, you need to write JavaScript type web resource, and then write a function in the web resource.
+In order to execute the action, you need to write JavaScript type web resource (say webResource1), and then write a function in the web resource.
 
 ```JavaScript
 function fillAttributeValue(context, attrValue)
 {
-context.getAttribute(<attributeName>).setValue(attrValue);
+ context.getAttribute(<attributeName>).setValue(attrValue);
 }   
 ```
 
@@ -324,9 +274,9 @@ functionName = fillAttributeValue
 ‘[[$Context.Key1]]’
 ```
 > [!Note]
-> In the above example, observe the quotes around the replacement parameter - `[[$Context.Key1]]`. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] considers only the value of the parameter (not the data type) and passes the value to the JavaScript function. You must be cautious of the data type while configuring.
+> In the above example, observe the quotes around the replacement parameter - `[[$Context.Key1]]`. [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] considers only the value of the parameter (not the data type) and passes all the characters in context replaced value to the JavaScript function. You must be cautious of the data type while configuring.
 
-## SetSize
+### SetSize
 
 This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.
 
@@ -335,23 +285,23 @@ This action explicitly sets the width and height of the hosted control. This is 
 | width     | The width of the hosted control.  |
 | height    | The height of the hosted control. |
 
-## SaveAndClose
+### SaveAndClose
 
 This action saves the dirty data on the Dynamics 365 form, and closes the hosted control.
 
-## SaveAll
+### SaveAll
 
 This action saves all forms in hosted control that allows multiple pages to be displayed (**Allow Multiple Pages** = Yes). If the hosted control allows only a single page to be displayed (**Allow Multiple Pages** = No), this is equivalent to the **Save** action.
 
-## Save
+### Save
 
 This action saves the current Unified Interface Page.
 
-# Predefined events
+## Predefined events
 
 The following predefined events are associated with this hosted control type.
 
-## ActiveClosed
+### ActiveClosed
 
 Occurs when the active hosted control is closed using the [CloseActive](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/crm-page-hosted-control#CloseActive) action.  
 
