@@ -59,7 +59,7 @@ In this step, you will create a [!INCLUDE[pn-best-practices-analyzer](../../incl
     |-----------|-----------|
     |Name|About Toolbar Container|
     |USD Component Type|Toolbar Container|
-    |Display Group|ToolbarPanel|
+    |Display Group|AboutPanel|
 
      ![Create Toolbar Container hosted control](../media/usd-create-about-toolbar-container-hosted-control.PNG "Create Toolbar Container hosted control")
   
