@@ -114,4 +114,4 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
   
 ## See Also  
  [Work with templates](../admin/work-with-templates.md)
- [Send bulk email to customers](../Topic/Send%20bulk%20email%20to%20customers.md)
+ [Send bulk email to customers](../basics/send-bulk-email-customers.md)
