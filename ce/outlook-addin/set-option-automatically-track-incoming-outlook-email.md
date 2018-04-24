@@ -21,7 +21,7 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook
-When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track an email message, a copy of the email record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)  
+When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track an email message, a copy of the email record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
  By default, tracking email is a manual process—you have to choose the **Track** button or the **Set Regarding** button for each email message you want to track. Manual tracking provides a way for you to keep your personal email separate from your customer email. As an alternative, you can set an option to track email messages automatically.  
   
@@ -63,5 +63,5 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-mic
 ## See Also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button-dynamics-365-outlook.md)   
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

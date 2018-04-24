@@ -40,6 +40,6 @@ When you use [!INCLUDE[pn_crm_for_outlook_full](../includes/pn-crm-for-outlook-f
 7.  Click **OK**.  
   
 ## See Also  
- [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook-using-dynamics-365-outlook.md)   
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)   
+ [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [eBook: CRM for Outlook Basics](http://go.microsoft.com/fwlink/p/?LinkID=524512)

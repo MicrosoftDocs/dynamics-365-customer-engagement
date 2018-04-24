@@ -38,9 +38,9 @@ If you’re a system administrator, you can control synchronization of appointme
 >  [!INCLUDE[cc_feature_included_with_update_2015](../includes/cc-feature-included-with-update-2015.md)]  
   
 ## See Also  
- [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized-dynamics-365-outlook.md)   
+ [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)   
  [TechNet: Which fields can be synchronized between Dynamics 365 and Outlook?](https://technet.microsoft.com/library/dn832089.aspx)   
  [TechNet: How field security affects synchronization between Dynamics 365 and Outlook](https://technet.microsoft.com/library/dn832097.aspx)   
  [System Settings dialog box - Synchronization tab](system-settings-dialog-box-synchronization-tab.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)   
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)

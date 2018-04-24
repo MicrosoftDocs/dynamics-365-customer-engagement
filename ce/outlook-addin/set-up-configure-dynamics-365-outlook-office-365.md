@@ -43,7 +43,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
   
 ## Step 2: Install and configure Dynamics 365 for Outlook  
   
-1.  These steps apply only if you have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription in addition to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you don't have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, see [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md).  
+1.  These steps apply only if you have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription in addition to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. If you don't have an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscription, see [Set up Dynamics 365 for Outlook](set-up.md).  
   
      Sign in to the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] home page: [https://portal.office.com](https://portal.office.com).  
   

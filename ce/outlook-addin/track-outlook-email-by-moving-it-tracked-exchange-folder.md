@@ -141,7 +141,7 @@ horizontaltabbed
   
 ## See Also  
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button-dynamics-365-outlook.md)   
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [TechNet: Set up and manage email processing](https://technet.microsoft.com/library/dn832099.aspx)   
  [TechNet: Configure folder-level tracking](https://technet.microsoft.com/library/dn946907.aspx)

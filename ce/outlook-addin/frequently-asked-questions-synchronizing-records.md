@@ -54,7 +54,7 @@ manager: "brycho"
 >  This option only appears when you have multiple computers connected to the same organization.  
   
 ## Can I view or control the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook (legacy add-in)?  
- You can view the synchronizing fields and  whether fields are synced one way (from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]), two ways (back and forth between [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]), or not at all. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized-dynamics-365-outlook.md).  
+ You can view the synchronizing fields and  whether fields are synced one way (from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]), two ways (back and forth between [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]), or not at all. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md).  
   
  If you’re a system administrator, you can  control field synchronization and sync direction. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][TechNet: Control field synchronization between Dynamics 365 and Outlook or Exchange](https://technet.microsoft.com/library/dn832150.aspx)  
   
@@ -73,4 +73,4 @@ manager: "brycho"
  [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
  [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)
+ [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

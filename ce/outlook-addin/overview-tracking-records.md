@@ -31,13 +31,13 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
   
  On this page:  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Using the Track button vs. the Set Regarding button](overview-tracking-records-dynamics-365-outlook.md#TrackVSSetRegarding)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Using the Track button vs. the Set Regarding button](overview-tracking-records.md#TrackVSSetRegarding)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Using the tracking pane](overview-tracking-records-dynamics-365-outlook.md#TrackingPane)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Using the tracking pane](overview-tracking-records.md#TrackingPane)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What can you do after you track a record?](overview-tracking-records-dynamics-365-outlook.md#AfterTracking)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [What can you do after you track a record?](overview-tracking-records.md#AfterTracking)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Other things to know about tracking records](overview-tracking-records-dynamics-365-outlook.md#OtherThingsToKnow)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Other things to know about tracking records](overview-tracking-records.md#OtherThingsToKnow)  
   
 <a name="TrackVSSetRegarding"></a>   
 ## Using the Track button vs. the Set Regarding button  
@@ -92,7 +92,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
 <a name="OtherThingsToKnow"></a>   
 ## Other things to know about tracking records  
   
--   **Using multiple computers.** You can use multiple computers to track items using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. For example, you might use a desktop computer and a laptop. Only one computer can be the synchronizing computer, however. Changes or updates to synchronized records will not show up in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] if the synchronizing computer is not connected to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)  
+-   **Using multiple computers.** You can use multiple computers to track items using [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. For example, you might use a desktop computer and a laptop. Only one computer can be the synchronizing computer, however. Changes or updates to synchronized records will not show up in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] if the synchronizing computer is not connected to the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 -   **Choosing data to store locally.** The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data stored on your local computer is determined by online synchronization filters. You can edit, deactivate, or delete these filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)  
   
@@ -112,5 +112,5 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
  [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts-dynamics-365-outlook.md)   
  [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks-dynamics-365-outlook.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked-dynamics-365-outlook.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
+ [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

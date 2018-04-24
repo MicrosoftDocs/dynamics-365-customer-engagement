@@ -26,7 +26,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] d
  You can modify the existing filters or create new filters. You can also delete, deactivate, or activate filters. You can reset the filters every time you go offline.  
   
 > [!TIP]
->  To synchronize data and go online and offline more quickly, you can decrease the interval for automatic synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-between-dynamics-365-outlook-exchange.md)  
+>  To synchronize data and go online and offline more quickly, you can decrease the interval for automatic synchronization. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
   
 ## Create or modify offline synchronization filters  
   
@@ -88,6 +88,6 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] d
   
 ## See Also  
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
- [Example of going offline with Dynamics 365 for Outlook](example-going-offline-dynamics-365-outlook.md)   
+ [Example of going offline with Dynamics 365 for Outlook](example-going-offline.md)   
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

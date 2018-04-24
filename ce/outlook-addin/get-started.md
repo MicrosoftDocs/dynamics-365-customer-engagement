@@ -15,9 +15,9 @@ manager: "brycho"
 robots: noindex,nofollow
 ---
 # Get started with Dynamics 365 for Outlook
-[Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook-using-dynamics-365-outlook.md)  
+[Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
   
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)  
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
  [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane-dynamics-365-outlook.md)  
   

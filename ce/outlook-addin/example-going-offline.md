@@ -74,4 +74,4 @@ Salespeople can make critical customer information available and up-to-date on b
   
 ## See Also  
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
- [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline-dynamics-365-outlook.md)
+ [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)

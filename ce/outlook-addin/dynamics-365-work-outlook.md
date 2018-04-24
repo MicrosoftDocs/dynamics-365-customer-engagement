@@ -25,19 +25,19 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../includes
   
  On this page:  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What Dynamics 365 for Outlook offers](dynamics-365-work-outlook-using-dynamics-365-outlook.md#whatoutlookoffers)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [What Dynamics 365 for Outlook offers](dynamics-365-work-outlook.md#whatoutlookoffers)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Explore Dynamics 365 for Outlook](dynamics-365-work-outlook-using-dynamics-365-outlook.md#ExploringOutlook)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Explore Dynamics 365 for Outlook](dynamics-365-work-outlook.md#ExploringOutlook)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What Outlook features are unavailable in Dynamics 365 for Outlook?](dynamics-365-work-outlook-using-dynamics-365-outlook.md#UnavailableFeatures)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [What Outlook features are unavailable in Dynamics 365 for Outlook?](dynamics-365-work-outlook.md#UnavailableFeatures)  
   
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Privacy notices](dynamics-365-work-outlook-using-dynamics-365-outlook.md#Privacy)  
+ ![Down arrow button](media/down-arrow.png "Down arrow button") [Privacy notices](dynamics-365-work-outlook.md#Privacy)  
   
 <a name="whatoutlookoffers"></a>   
 ## What Dynamics 365 for Outlook offers  
  When you use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], you can access all the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] core functionality directly from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] also provides extra functionality that isn’t available in the web client. For example, you can:  
   
--   Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email, appointments, contacts, and tasks. When you track a record in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], a copy of that record is “pushed” to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the two records are synchronized. After a record is tracked, you can update it in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Tracking provides a great way to keep your personal information separate from your business information, because only the information you manually track is pushed to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] also automatically synchronizes records you own from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)  
+-   Track [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email, appointments, contacts, and tasks. When you track a record in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], a copy of that record is “pushed” to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and the two records are synchronized. After a record is tracked, you can update it in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Tracking provides a great way to keep your personal information separate from your business information, because only the information you manually track is pushed to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] also automatically synchronizes records you own from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
 -   Apply [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] email templates, or attach sales literature and Knowledge Base articles from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] when you are sending an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message to customers.  
   
@@ -98,9 +98,9 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../includes
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
 ## See Also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
  [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document-dynamics-365-outlook.md)   
  [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane-dynamics-365-outlook.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [TechNet: Dynamics 365 for Outlook compatibility](https://technet.microsoft.com/library/dn832152.aspx)

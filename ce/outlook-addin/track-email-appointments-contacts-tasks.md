@@ -15,7 +15,7 @@ manager: "brycho"
 robots: noindex,nofollow
 ---
 # Track email, appointments, contacts, and tasks
-[Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records-dynamics-365-outlook.md)  
+[Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
   
