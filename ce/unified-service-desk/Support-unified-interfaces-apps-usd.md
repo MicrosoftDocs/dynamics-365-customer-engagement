@@ -19,7 +19,7 @@ manager: sakudes
 
 # Support for Unified Interface Apps in Unified Service Desk
 
-Now, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the Apps built using Unified Interface framework.
+With the release [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)], [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the Apps built using Unified Interface framework.
 
 ## What is Unified Interface?
 
