@@ -71,4 +71,4 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   
  [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
- [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks-dynamics-365-outlook.md)
+ [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)

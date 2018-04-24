@@ -22,7 +22,7 @@ manager: "brycho"
 ## Setup and configuration  
  [Set up Dynamics 365 for Outlook](set-up.md)  
   
- [Configure another organization to use with Dynamics 365 for Outlook](configure-another-organization-use-dynamics-365-outlook.md)  
+ [Configure another organization to use with Dynamics 365 for Outlook](configure-another-organization.md)  
   
  [Set up and configure Dynamics 365 for Outlook from Office 365](set-up-configure-dynamics-365-outlook-office-365.md)  
   
@@ -46,7 +46,7 @@ manager: "brycho"
   
  [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)  
   
- [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks-dynamics-365-outlook.md)  
+ [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)  
   
 ## Synchronizing records  
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  

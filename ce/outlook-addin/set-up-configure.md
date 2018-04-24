@@ -17,7 +17,7 @@ robots: noindex,nofollow
 # Set up and configure
 [Set up Dynamics 365 for Outlook](set-up.md)  
   
- [Configure another organization to use with Dynamics 365 for Outlook](configure-another-organization-use-dynamics-365-outlook.md)  
+ [Configure another organization to use with Dynamics 365 for Outlook](configure-another-organization.md)  
   
  [Set up and configure Dynamics 365 for Outlook from Office 365](set-up-configure-dynamics-365-outlook-office-365.md)  
   
