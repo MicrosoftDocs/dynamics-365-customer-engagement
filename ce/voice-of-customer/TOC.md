@@ -10,3 +10,4 @@
 ## [Troubleshoot Voice of the Customer](troubleshoot.md)
 ## [Voice of the Customer FAQ](voc-faq.md)
 ## [Implement GDPR in Voice of the Customer](implement-gdpr.md)
+## [Survey analytics using Power BI](survey-analytics-powerbi.md)

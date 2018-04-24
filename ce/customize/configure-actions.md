@@ -94,8 +94,8 @@ Actions also have something that workflow processes don’t – input and output
  In this area, you’ll specify any data that the action expects to start and what data will be passed out of the action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define process arguments](../customize/configure-actions.md#BKMK_DefineProcessArgs)  
   
  **Add Stages, Conditions and Actions**  
- Like other processes, you specify what actions to perform and when to perform them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add stages, conditions and actions](../customize/configure-actions.md#BKMK_AddStagesConditionsAndActions)  
-  a
+ Like other processes, you specify what actions to perform and when to perform them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add stages, conditions and actions](../customize/configure-actions.md#BKMK_AddStagesConditionsAndActions)
+
 <a name="BKMK_DefineProcessArgs"></a>   
 ### Define process arguments  
  When a developer uses a message, they may begin with some data that they can pass into the message. For example, to create a new case record, there might be the case title value that is passed in as a the input argument.  
