@@ -25,7 +25,7 @@ topic-status: Drafting
 
 <tr><td>
 
-<h2>Product catalog settings and configuration </h2>
+<h2>Product catalog configuration </h2>
 <li>[Set up the product catalog](set-up-product-catalog-walkthrough.md)</li>
 <li>[Set up a discount list](set-up-discount-list.md)</li>
 <li>[Create unit and unit groups](create-unit-group-add-units-that-group.md)</li>
@@ -35,7 +35,7 @@ topic-status: Drafting
 
 </td><td>
 
-<h2>Manage sales</h2>
+<h2>Sales management</h2>
 <li>[Create or edit a goal](create-edit-goal-sales.md)</li>
 <li>[Create or edit a goal rollup query](create-edit-goal-rollup-query-sales.md)</li>
 <li>[Create or edit goal metric](create-edit-goal-metric.md)</li>
