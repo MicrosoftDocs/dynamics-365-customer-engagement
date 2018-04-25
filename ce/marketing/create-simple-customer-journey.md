@@ -100,13 +100,13 @@ To create a customer journey that executes a one-time email blast:
 
     [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
 
-1. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and see how your journey is going. Open your customer journey in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and switch to the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view by using the drop-down list above the journey-name headline.
+1. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and see how your journey is going. Open your customer journey in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and switch to the **Customer journey: Insights** form view by using the drop-down list above the journey-name headline.
     ![Location of the view selector](media/journey-view-selector.png "Location of the view selector")
 
     From here, use the **Designer** tab to see information and results for each tile from your pipeline. Open the **Dashboard** tab to see detailed analytics.
 
     > [!TIP]
-    > Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for analyzing the results of your marketing initiatives, including marketing emails. Try opening the record for the email message you sent with this customer journey and check its **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for even more information.
+    > Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **Insights** form view for analyzing the results of your marketing initiatives, including marketing emails. For example, try opening the record for the email message you sent with this customer journey and check its **Marketing email: Insights** form view for even more information.
 
 ### See also
 

@@ -86,6 +86,8 @@ All contact records include a **Data protection** section with a drop-down list 
 
 You can filter segments by consent level just like you can when filtering by other contact values.
 
+<a name="journey-consent-level"></a> 
+
 ## Set the minimum required consent level for a customer journey
 
 You can set the minimum consent level for any customer journey. When set, the journey will process only contacts of that level or higher. To do this, open the journey, go to its **General** tab, and set the **Minimum consent** field to the appropriate level.

@@ -33,6 +33,7 @@
 #### [Find your way around](navigation.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
+#### [Market to leads](market-to-leads.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
@@ -81,6 +82,7 @@
 #### [Follow up after the event](followup-after-event.md)
 #### [Record and view financial information for events](event-financials.md)
 
+### [Analyze results to gain insights](insights.md)
 ### [Export data](export-data-Word-Excel.md)
 ### [Data protection and GDPR](gdpr.md)
 ### [How the app uses cookies](cookies.md)
