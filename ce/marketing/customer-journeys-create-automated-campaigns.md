@@ -142,6 +142,8 @@ Other settings for activity marketing templates vary by activity type and, like 
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Action tiles](customer-journey-tiles-reference.md#action-tiles)
 
+<a name="general-options"></a> 
+
 ## Set general options, including execution schedule and content settings
 
 Use the **General** tab to give your journey a name, assign ownership, set its execution schedule, choose content settings, view its timeline history, and more.

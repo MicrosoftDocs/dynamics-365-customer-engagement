@@ -28,6 +28,8 @@ topic-status: Drafting
 <li>[Find your way around](navigation.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
+<li>[Market to leads](market-to-leads.md)</li>
+<li>[Analyze results to gain insights](insights.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
 <li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 
