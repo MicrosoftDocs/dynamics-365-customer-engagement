@@ -21,15 +21,15 @@ topic-status: Drafting
 
 # Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise
 
-[!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] Professional is targeted for businesses that have simpler sales needs, and that do not require the full sales capabilities. However, if at any point in time, you find your requirements growing, you can easily upgrade to [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] Enterprise. 
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional is targeted for businesses that have simpler sales needs, and that do not require the full sales capabilities. However, if at any point in time, you find your requirements growing, you can easily upgrade to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise. 
 
 The upgrade process involves three steps:
 
-1.  Purchasing [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] Enterprise subscription.
+1.  Purchasing [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise subscription.
 
-2.  Assigning Dynamics 365 for Sales[!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] Enterprise licenses to the users.
+2.  Assigning [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise licenses to the users.
 
-3.  Installing the [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] Enterprise edition solution.
+3.  Installing the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise edition solution.
 
 ## Purchase Dynamics 365 for Sales Enterprise Edition subscription
 
@@ -45,11 +45,11 @@ The upgrade process involves three steps:
 
 3.  Select **Add subscriptions**.
 
-    The **Purchase Services** page opens. You’ll see a tile for Dynamics 365 for Sales Enterprise Edition.
+    The **Purchase Services** page opens. You’ll see a tile for [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition.
 
     ![Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page](media/purchase-services-page.png "Dynamics 365 for Sales Enterprise Edition tile on Purchase Services page")
  
-4.	In the **[!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] Enterprise Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
+4.	In the **[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise Edition** tile, move your mouse over the Ellipses icon and select **Buy Now**, and then follow the steps to purchase new licenses. 
 
     ![Buy Dynamics 365 for Sales Enterprise Edition plan](media/buy-sales-enterprise.png "Buy Dynamics 365 for Sales Enterprise Edition plan")
 
@@ -91,9 +91,9 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 3.	On the **Manage your solutions** page, select **Dynamics 365 for Sales Application**, and on the tile, select **Install**.
 
-After you complete these steps, your organization will be effectively upgraded to Enterprise.
+After you complete these steps, your organization will be effectively upgraded to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise.
 
 
 > [!IMPORTANT]
 
-> As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: Microsoft Dynamics 365 Licensing Guide
+> As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)

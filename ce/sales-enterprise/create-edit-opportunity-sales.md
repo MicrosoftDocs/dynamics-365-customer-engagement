@@ -95,7 +95,7 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 
 ## Add products to an opportunity (Sales Hub)
 
-You can add a product or product bundle to an opportunity. The product can be an existing product in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to opportunity are automatically associated with quotes generated from the opportunity.
+You can add a product or product bundle to an opportunity. The product can be an existing product in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to opportunity are automatically associated with quotes generated from the opportunity.
 
 1. In the list of opportunities, open the opportunity to which you want to add products.
 

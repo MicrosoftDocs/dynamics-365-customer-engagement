@@ -22,7 +22,7 @@ topic-status: Drafting
 
 # Add products to a quote, order, or invoice (Sales Hub)
 
-You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] product catalog, or an ad hoc product that you add as a write-in product. 
+You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. 
 
 If you’ve created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
 
