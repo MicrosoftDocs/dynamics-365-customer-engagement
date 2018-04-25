@@ -15,10 +15,10 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-
+<!--Editing:  Is May 1 the day the update will be published? If sooner, please revise the ms.date. Also, put keywords into the description and remove the keywords entry.-->
 # Analyze results to gain insights from your marketing activities
 
-[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics and key performance indicators (KPIs) based on your marketing results:
+[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
 
 - Contacts
 - Leads
@@ -37,7 +37,6 @@ For nearly all entity types, you can view related results and analytics by openi
 
 ![Open the insights form view](media/insights-form-view-selector.png "Open the insights form view")
 
-
 ### Move between insight categories
 
 Once you have an **Insights** form view open, you can navigate between the available categories of analytics using the tabs below the record name.
@@ -46,7 +45,7 @@ Once you have an **Insights** form view open, you can navigate between the avail
 
 ### Filter insights by date range and usage
 
-At the top of most insights tabs you'll find settings that let you filter the information shown, for example by date ( **From** and **To** settings) or usage (such as which customer journey an email was used in).
+At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date ( **From** and **To** settings) or usage (such as which customer journey an email was used in).
 
 ![Filter insights by date range and usage](media/insights-filters.png "Filter insights by date range and usage")
 
@@ -54,32 +53,32 @@ At the top of most insights tabs you'll find settings that let you filter the in
 
 ## Contact insights
 
-To view contact insights, go to **Marketing** > **Customers** > **Contacts** , then select a contact record and open its **Contact: Insights** form view.
+To view contact insights, go to **Marketing** > **Customers** > **Contacts**, select a contact record, and then open its **Contact: Insights** form view.
 
-Here you can find a complete history of how your selected contact has interacted with your marketing initiatives. This can help you to understand what this specific contact is interested in and which types of messages they respond too. Marketers might use this information to get deeper knowledge about specific decision makers, so they can better target future initiatives, while salespeople might use this to find out how best to talk to this person should they choose to contact them directly.
+Here you can find a complete history of how your selected contact has interacted with your marketing initiatives. This can help you to understand what this specific contact is interested in and which types of messages they respond to. Marketers might use this information to get deeper knowledge about specific decision makers so they can better target future initiatives, while salespeople might use this to find out how best to talk to this person should they choose to contact them directly.
 
 Contacts provide the following insights tabs.
 
-- **Insights**: View a timeline of all interactions the contact has made, and a chart of interactions broken down by type.
+- **Insights**: View a timeline of all interactions the contact has made and a chart of interactions broken down by type.
 - **Email interactions**: View complete details of email results for the selected contact, including a list of all messages sent to them, plus counts of all sends, opens, clicks, bounces, and more.
 - **Web interactions**: See which pages and links from your websites the contact has selected. Only pages that include a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] tracking script are counted here (see also [Register contacts' engagement](register-engagement.md)).
 - **Event interactions**: See event registration and check-in records for the current contact.
 - **Survey interactions**: See how the contact responded to your surveys.
-- **Marketing form interactions**: See which marketing forms the contact has submitted, and the content of each submission.
+- **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
 
 ## Lead insights
 
-To view lead insights, go to **Marketing** > **Customers** > **Leads** , then select a lead record and open its **Lead: Insights** form view.
+To view lead insights, go to **Marketing** > **Customers** > **Leads**, select a lead record, and then open its **Lead: Insights** form view.
 
-Most of the insights displayed for a lead are the same as those shown for contacts, and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Insights** tab, which tracks lead-specific information, such as the lead's age (how long the record has been active) and its progress over time.
+Most of the insights displayed for a lead are the same as those shown for contacts and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Insights** tab, which tracks lead-specific information such as the lead's age (how long the record has been active) and its progress over time.
 
 ## Segment insights
-
-To view customer journey insights, go to **Marketing** > **Customers** > **Segments** , then select a segment record. Unlike most entities, segments provide insights as part of the main form view. Go to the **Insights** tab to see them.
+<!--Editing:  Changed "customer journey insights" to "segment insights" in the following sentence.-->
+To view segment insights, go to **Marketing** > **Customers** > **Segments** and then select a segment record. Unlike most entities, segments provide insights as part of the main form view. Go to the **Insights** tab to see them.
 
 ## Customer journey insights
 
-To view customer journey insights, go to **Marketing** > **Marketing execution** > **Customer journeys** , then select a journey and open its **Customer journey: Insights** form view. Insights are only available for customer journeys that are (or have been) live.
+To view customer journey insights, go to **Marketing** > **Marketing execution** > **Customer journeys**, select a journey, and then open its **Customer journey: Insights** form view. Insights are only available for customer journeys that are (or have been) live.
 
 Customer journeys provide two insights tabs: **Designer** and **Insights**. The **Insights** tab provides a few overall statistics about that journey, while the **Designer** view lets you explore what happened at each step.
 
@@ -97,7 +96,7 @@ For even more information about what happened on a tile, select it from the pipe
 
 ![Data panel showing tile results](media/insights-journey-data-panel.png "Data panel showing tile results")
 
-All types of tiles provide a **Volume** section on the **Data** panel with the following information.
+All types of tiles provide a **Volume** section on the **Data** panel with the following information:
 
 - **Volume** > **Inflow**: Counts how many contacts entered the tile. This value is also displayed as the first value shown above the tile in the pipeline.
 - **Volume** > **Processing**: Counts how many contacts are still waiting for that tile to finish processing them. For trigger tiles, for example, this value probably indicates the number of contacts that are waiting for the trigger condition to be met or for the timeout to arrive.
@@ -105,24 +104,24 @@ All types of tiles provide a **Volume** section on the **Data** panel with the f
 - **Volume** > **Failed**: Counts the number of contacts that failed to be processed by the tile, typically because of an internal error. This value is also displayed as the third value shown above the tile in the pipeline. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that failed at exactly this tile of this journey.
 - **Volume** > **Processed**: Counts the number of contacts that were successfully processed by this tile and passed on to the appropriate next tile. Some tile types provide a floppy-disk button here; select this button to generate a segment that includes all contacts that were successfully processed by exactly this tile of this journey.
 
-In addition to the **Volume** section, some tiles also show additional sections and links in the **Data** tab, depending on the tile type. These can include the following.
+In addition to the **Volume** section, some tiles also show additional sections and links in the **Data** tab, depending on the tile type. These can include the following:
 
-- **KPIs**: for tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For a complete list of KPIs available for email messages, see [Email insights](#email-insights) (the **Data** panel shows many, but not all, of these).
+- **KPIs**: For tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For a complete list of KPIs available for email messages, see [Email insights](#email-insights) (the **Data** panel shows many, but not all, of these).
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
-- **View Details**: this link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
+- **View Details**: This link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
 
 <a name="email-insights"></a>  
 
 ## Email insights
 
-To view email insights, go to **Marketing** > **Marketing execution** > **Marketing emails** , then select an email message and open its **Marketing email: Insights** form view. Insights are only available for email messages that are (or have been) live.
+To view email insights, go to **Marketing** > **Marketing execution** > **Marketing emails**, select an email message, and then open its **Marketing email: Insights** form view. Insights are only available for email messages that are (or have been) live.
 
-Here you can find a complete history of how various contacts have reacted to the selected message, which links they clicked, and where they were when interacting with the message. You can also see delivery details.
+Here you can find a complete history of how various contacts have reacted to the selected message, which links they selected, and where they were when interacting with the message. You can also see delivery details.
 
 Because you can reuse an email message in several different journeys, the filter controls for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
 
-Marketing email messages provide the following insights tabs.
-
+Marketing email messages provide the following insights tabs:
+<!--Editing:  In the Links part below, what if someone is not using a mouse? Same question for lines 172 and 185.-->
 - **Insights**: Provides a general overview that includes KPIs, top-10 links, responses over time, geographical data, and more.
 - **Delivery**: Provides details about your delivery results (such as processed, delivered, blocked, or bounced), plus a record of which contacts have received the message.
 - **Links**: Provides a full analysis of each link included in the message, including a graphical reproduction of the message that shows a heat map highlighting your links (hover the mouse pointer to view details for each highlighted link). For each link you can see the number of total clicks, unique clicks, and the click-through rate (total number of unique clicks for a given link divided by the total number of unique clicks overall).
@@ -132,7 +131,7 @@ Many different lists, statistics, and KPIs are provided to help you evaluate and
 
 <dl>
 <dt>Blocked</dt><dd>Messages that were blocked (not sent) due to a contact's preferences or a problem with their email address. This can happen if the segment included contacts marked as <b>Do not bulk email</b>, or because the contact's email address was missing, invalid, or blacklisted. Examples of blacklisted address include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
-<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard-bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>
+<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>  
 <dt>Bounced (other)</dt><dd>Messages that bounced for some reason other than a hard or soft bounce. This result is rare, and might indicated a <em>remote bounce</em>, which occurs when a server initially accepting a message, but then returns a bounce message sometime later. These are otherwise treated as soft bounces.</dd>
 <dt>Bounced (soft)</dt><dd>Messages that resulted in a soft bounce. A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but still rejects the message for some reason, such as because the recipient's mailbox is full, the mail server is temporarily unavailable, or the recipient no longer has an email account at that address. If five messages in a row sent to a given address result in a soft bounce, then that address is treated as a hard-bounce address.</dd>
 <dt>Clicked (total)</dt><dd>The total count of all the links clicked in all sent messages. Multiple clicks of the same link in a single message are counted multiple times, so the proportion of total clicks per total sent can sometimes be more than 100%.</dd>
@@ -155,19 +154,19 @@ Many different lists, statistics, and KPIs are provided to help you evaluate and
 
 ## Lead scoring model insights
 
-To view lead-scoring model insights, go to **Marketing** > **Lead management** > **Lead scoring models** , then select a model and open its **Lead scoring model: Insights** form view. Insights are only available for models that are (or have been) live.
+To view lead scoring model insights, go to **Marketing** > **Lead management** > **Lead scoring models**, select a model, and then open its **Lead scoring model: Insights** form view. Insights are only available for models that are (or have been) live.
 
 Here you can find a timeline showing the number of leads processed by the model.
 
 ## Marketing page insights
 
-To view marketing-page insights, go to **Marketing** > **Internet marketing** > **Marketing pages** , then select a marketing page and open its **Marketing page: Insights** form view. Insights are only available for pages that are (or have been) live.
+To view marketing page insights, go to **Marketing** > **Internet marketing** > **Marketing pages**, select a marketing page, and then open its **Marketing page: Insights** form view. Insights are only available for pages that are (or have been) live.
 
 Here you can find a complete history of how various contacts have interacted with the page and the submissions made using it.
 
 Because you can reuse each marketing page in several different journeys, the filter controls for page insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the page was used. As with most other entities, you can also filter marketing page insights by date range.
 
-Marketing pages provide the following insights tabs.
+Marketing pages provide the following insights tabs:
 
 - **Summary**: Provides a general overview that includes KPIs, responses over time, geographical data, and more.
 - **Submissions**: Provides a table that lists the full content of each submission made through the page. Metadata and several important field values are shown in the table columns for each submission; hover your mouse pointer over a value in the **Form submissions** column to open a tooltip that shows all values included in a given submission.
@@ -175,11 +174,11 @@ Marketing pages provide the following insights tabs.
 
 ## Marketing form insights
 
-To view marketing-form insights, go to **Marketing** > **Internet marketing** > **Marketing forms** , then select a form and open its **Marketing form: Insights** form view. Here you can find a complete history of how various contacts have interacted with the form and the submissions made using it.
+To view marketing form insights, go to **Marketing** > **Internet marketing** > **Marketing forms**, select a form, and then open its **Marketing form: Insights** form view. Here you can find a complete history of how various contacts have interacted with the form and the submissions made using it.
 
 Although you can use each form on multiple pages and in multiple journeys, all form insights combine data from all usages, though you can still filter results by date range.
 
-Marketing forms provide the following insights tabs.
+Marketing forms provide the following insights tabs:
 
 - **General info**: Provides basic information about the form (but no results).
 - **Setup**: Provides KPIs such as the total number of form submissions, contacts created or updated, and leads created or updated by the form.
@@ -187,14 +186,14 @@ Marketing forms provide the following insights tabs.
 
 ## Website insights
 
-To view website insights, go to **Marketing** > **Internet marketing** > **Websites** , then select a website record. Unlike most entities, websites provide insights as part of their main form view, which provides the following tabs.
+To view website insights, go to **Marketing** > **Internet marketing** > **Websites** and then select a website record. Unlike most entities, websites provide insights as part of their main form view, which provides the following tabs:
 
-- **General info**: Shows the settings you made when creating the website and the JavaScript code that you must include on each web page that you want to track with this website setup. You can also see a list of the most popular pages that include this script, and a map that shows where people were when opening those pages.
+- **General info**: Shows the settings you made when creating the website and the JavaScript code that you must include on each web page that you want to track with this website setup. You can also see a list of the most popular pages that include this script and a map that shows where people were when opening those pages.
 - **Timeline**: Shows a table that provides details about each time a page tracked as part of this website was loaded.
 
 ## Redirect URL insights
 
-To view redirect-URL insights, go to **Marketing** > **Internet marketing** > **Redirect URLs** , then select a redirect-URL record. Unlike most entities, redirect-URLs provide insights as part of their main form view, which provides the following tabs.
+To view redirect URL insights, go to **Marketing** > **Internet marketing** > **Redirect URLs** and then select a redirect URL record. Unlike most entities, redirect URLs provide insights as part of their main form view, which provides the following tabs:
 
-- **General info**: Shows the settings you made when creating the redirect URL and a map that shows where people were when the clicked the redirected link.
-- **Timeline**: Shows a table that provides details about each time the redirect URL was clicked.
+- **General info**: Shows the settings you made when creating the redirect URL and a map that shows where people were when they selected the redirected link.
+- **Timeline**: Shows a table that provides details about each time the redirect URL was selected.
