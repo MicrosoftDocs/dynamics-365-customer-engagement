@@ -25,16 +25,17 @@ topic-status: Drafting
 
 <tr><td>
 
-<h2>Build a Product Catalog</h2>
+<h2>Product catalog settings and configuration </h2>
 <li>[Set up the product catalog](set-up-product-catalog-walkthrough.md)</li>
 <li>[Set up a discount list](set-up-discount-list.md)</li>
 <li>[Create unit and unit groups](create-unit-group-add-units-that-group.md)</li>
 <li>[Create a product family](create-product-family.md)</li>
 <li>[Create price list and price list items](create-price-lists-price-list-items-define-pricing-products.md)</li>
+<li>[Editable Products grid on forms](editable-product-grid-opportunity-quote-order-invoice-forms.md)</li>
 
 </td><td>
 
-<h2>Goal Management</h2>
+<h2>Manage sales</h2>
 <li>[Create or edit a goal](create-edit-goal-sales.md)</li>
 <li>[Create or edit a goal rollup query](create-edit-goal-rollup-query-sales.md)</li>
 <li>[Create or edit goal metric](create-edit-goal-metric.md)</li>
