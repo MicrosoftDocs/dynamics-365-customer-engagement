@@ -165,6 +165,6 @@ Define what kind of support your customers are eligible for by creating entitlem
   
 ### See also  
  [Define service level agreements](../customer-service/define-service-level-agreements.md)   <br>
- [Set up entitlements quickly with templates](set-up-entitlements-quickly-templates.md) <br>
+ [Set up entitlements quickly with templates](set-up-entitlements-templates.md) <br>
  [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
  [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)

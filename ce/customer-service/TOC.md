@@ -21,13 +21,13 @@
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
 ### [Holiday schedule](set-up-holiday-schedule.md)
 ### [Customer Service schedule](create-customer-service-schedule-define-work-hours.md)
-### Service configuration schedule
+### Service configuration Settings
 ### [Knowledge management setup](set-up-knowledge-management.md)
 ### Embedded Knowledge search
 #### [Search in Knowledge base](knowledge-base-search.md)
 #### [Find Knowledge articles within records ](find-knowledge-articles-within-record-dynamics-365.md)
 ### Categories
-### [Entitlement Templates](set-up-entitlements-quickly-templates.md)
+### [Entitlement Templates](set-up-entitlements-templates.md)
 #### [Create templates for email](../admin/create-templates-email.md)
 #### [Create templates for articles](../admin/create-templates-articles.md)
 
