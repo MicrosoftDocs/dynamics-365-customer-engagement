@@ -71,41 +71,9 @@
       ]
     },
     {
-      "docset_name": "power-apps-admin",
-      "build_source_folder": "powerapps/admin",
-      "build_output_subfolder": "power-apps-admin",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "power-apps-developer",
-      "build_source_folder": "powerapps/developer",
-      "build_output_subfolder": "power-apps-developer",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "power-apps-maker",
-      "build_source_folder": "powerapps/maker",
-      "build_output_subfolder": "power-apps-maker",
+      "docset_name": "powerapps-cds-docs",
+      "build_source_folder": "powerapps-cds",
+      "build_output_subfolder": "powerapps-cds-docs",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
