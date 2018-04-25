@@ -54,7 +54,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Purchase Process**: Whether the purchase process involves an individual or a committee.
  
    - **Est. Close Date**: An estimated date by which the opportunity is expected to close. 
- 
+  
    - **Est. Revenue**: A field calculated for opportunities that have products added to them. Estimated revenue is calculated based on base price, volume discounts, manual discounts, taxes, and other pricing modifications. When opportunities are saved, [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] recalculates the estimated revenue based on any changes to the products or product quantities associated with the opportunity.
 
 4.	Select **Save** to enable other sections on the form.
@@ -95,7 +95,7 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 
 ## Add products to an opportunity (Sales Hub)
 
-You can add a product or product bundle to an opportunity. The product can be an existing product in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
+You can add a product or product bundle to an opportunity. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
 1. In the list of opportunities, open the opportunity to which you want to add products.
 
@@ -136,7 +136,7 @@ Here are the actions you can take on the products added to the Product Line Item
 |Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**.|
 |Delete a product associated with the opportunity |Select the product, and on the command bar, select **Delete Opportunity Product**. |
 |View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
-|See and add related products for cross selling or up selling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See and add related products for cross-selling or upselling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 
 
@@ -195,7 +195,7 @@ If you want to create an opportunity without first creating a lead, do the follo
 ## Tips and tricks  
 
 Need a faster way to enter opportunities? Try one of these:  
-  
+<!--Note to author: The page title is Quick create-Enter new records-fast! Do you want this link to match the page title?-->  
 -   [Quick create: enter new contacts (or other data)&mdash;fast!](../basics/quick-create-enter-data-fast.md)  
   
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
