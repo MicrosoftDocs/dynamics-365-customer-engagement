@@ -68,6 +68,6 @@ Here are the actions you can take on the products in the Products grid:
 
 
 ### See also  
- [Create or edit a quote](../sales-enterprise/create-edit-quote.md)
- [Create or edit an order](../sales-enterprise/create-edit-order.md)
- [Create or edit an invoice](../sales-enterprise/create-edit-invoice.md)
+ [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
+ [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
+ [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  
