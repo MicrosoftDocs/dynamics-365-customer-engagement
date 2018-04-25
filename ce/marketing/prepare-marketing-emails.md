@@ -2,7 +2,7 @@
 title: "Design, preview, check, and send marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-ms.date: 04/01/2018
+ms.date: 04/25/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

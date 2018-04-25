@@ -1,8 +1,7 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
-keywords: "insights;KPIs;results;analytics"
-ms.date: 05/01/2018
+ms.date: 04/25/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -15,7 +14,6 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-<!--Editing:  Is May 1 the day the update will be published? If sooner, please revise the ms.date. Also, put keywords into the description and remove the keywords entry.-->
 # Analyze results to gain insights from your marketing activities
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
@@ -61,7 +59,7 @@ Contacts provide the following insights tabs.
 
 - **Insights**: View a timeline of all interactions the contact has made and a chart of interactions broken down by type.
 - **Email interactions**: View complete details of email results for the selected contact, including a list of all messages sent to them, plus counts of all sends, opens, clicks, bounces, and more.
-- **Web interactions**: See which pages and links from your websites the contact has selected. Only pages that include a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] tracking script are counted here (see also [Register contacts' engagement](register-engagement.md)).
+- **Web interactions**: See which pages and links from your websites the contact has opened. Only pages that include a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] tracking script are counted here (see also [Register contacts' engagement](register-engagement.md)).
 - **Event interactions**: See event registration and check-in records for the current contact.
 - **Survey interactions**: See how the contact responded to your surveys.
 - **Marketing form interactions**: See which marketing forms the contact has submitted and the content of each submission.
@@ -73,7 +71,6 @@ To view lead insights, go to **Marketing** > **Customers** > **Leads**, select a
 Most of the insights displayed for a lead are the same as those shown for contacts and are taken from the contact record associated with the current lead, as previously described in [Contact insights](#contact-insights). One exception to this is the **Insights** tab, which tracks lead-specific information such as the lead's age (how long the record has been active) and its progress over time.
 
 ## Segment insights
-<!--Editing:  Changed "customer journey insights" to "segment insights" in the following sentence.-->
 To view segment insights, go to **Marketing** > **Customers** > **Segments** and then select a segment record. Unlike most entities, segments provide insights as part of the main form view. Go to the **Insights** tab to see them.
 
 ## Customer journey insights
@@ -121,7 +118,7 @@ Here you can find a complete history of how various contacts have reacted to the
 Because you can reuse an email message in several different journeys, the filter controls for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
 
 Marketing email messages provide the following insights tabs:
-<!--Editing:  In the Links part below, what if someone is not using a mouse? Same question for lines 172 and 185.-->
+
 - **Insights**: Provides a general overview that includes KPIs, top-10 links, responses over time, geographical data, and more.
 - **Delivery**: Provides details about your delivery results (such as processed, delivered, blocked, or bounced), plus a record of which contacts have received the message.
 - **Links**: Provides a full analysis of each link included in the message, including a graphical reproduction of the message that shows a heat map highlighting your links (hover the mouse pointer to view details for each highlighted link). For each link you can see the number of total clicks, unique clicks, and the click-through rate (total number of unique clicks for a given link divided by the total number of unique clicks overall).
