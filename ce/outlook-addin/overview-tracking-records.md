@@ -29,16 +29,6 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
 >  -   If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
 > -   If your organization synchronizes records through server-side synchronization, you can track email messages through folder tracking. Folder tracking is a powerful and intuitive way to track email directly from virtually any device. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
   
- On this page:  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Using the Track button vs. the Set Regarding button](overview-tracking-records.md#TrackVSSetRegarding)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Using the tracking pane](overview-tracking-records.md#TrackingPane)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What can you do after you track a record?](overview-tracking-records.md#AfterTracking)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Other things to know about tracking records](overview-tracking-records.md#OtherThingsToKnow)  
-  
 <a name="TrackVSSetRegarding"></a>   
 ## Using the Track button vs. the Set Regarding button  
  To track a record in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], you click or tap the **Track** button or the **Set Regarding** button for the record you want to track.  

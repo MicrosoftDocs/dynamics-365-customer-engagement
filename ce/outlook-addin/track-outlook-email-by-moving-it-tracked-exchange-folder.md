@@ -29,16 +29,6 @@ manager: "brycho"
 > [!TIP]
 >  Tracked folders work with [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] Inbox rules. This makes it easy to automatically route email messages to a particular folder. For example, set up an [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] rule that automatically routes email from a Contoso contact to a tracked Contoso folder, which is linked to a specific Contoso opportunity. [Tell me more about setting up rules](http://go.microsoft.com/fwlink/p/?LinkID=528086).  
   
- [!INCLUDE[proc_on_this_page](../includes/proc-on-this-page.md)]  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Requirements for using tracked folders](track-outlook-email-by-moving-it-tracked-exchange-folder.md#Requirements)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Set up a tracked folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md#Setup)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Best practices for folder tracking](track-outlook-email-by-moving-it-tracked-exchange-folder.md#BestPractices)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What happens when you untrack, move, delete, or rename folders, or change the regarding record?](track-outlook-email-by-moving-it-tracked-exchange-folder.md#WhatHappens)  
-  
 <a name="Requirements"></a>   
 #### Requirements for using tracked folders  
   

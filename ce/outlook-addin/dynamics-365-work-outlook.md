@@ -23,16 +23,6 @@ manager: "sakudes"
 # Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook
 If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../includes/pn-ms-outlook-short.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)], an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] client provided by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].  
   
- On this page:  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What Dynamics 365 for Outlook offers](dynamics-365-work-outlook.md#whatoutlookoffers)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Explore Dynamics 365 for Outlook](dynamics-365-work-outlook.md#ExploringOutlook)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What Outlook features are unavailable in Dynamics 365 for Outlook?](dynamics-365-work-outlook.md#UnavailableFeatures)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Privacy notices](dynamics-365-work-outlook.md#Privacy)  
-  
 <a name="whatoutlookoffers"></a>   
 ## What Dynamics 365 for Outlook offers  
  When you use [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], you can access all the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] core functionality directly from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] also provides extra functionality that isn’t available in the web client. For example, you can:  

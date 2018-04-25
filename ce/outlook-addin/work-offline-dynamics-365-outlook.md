@@ -25,18 +25,6 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-micr
   
  When you go offline with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], the software copies a subset of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data to your computer’s hard drive. Changes you make while you’re offline are stored locally. When you connect to the server again, the changes are automatically synchronized with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server.  
   
- On this page:  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Before you go offline](work-offline-dynamics-365-outlook.md#BeforeYouGoOffline)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Go offline](work-offline-dynamics-365-outlook.md#GoOffline)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Go back online](work-offline-dynamics-365-outlook.md#GoBackOnline)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What features are unavailable offline?](work-offline-dynamics-365-outlook.md#UnavailableFeatures)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Other things to know about going offline](work-offline-dynamics-365-outlook.md#OtherThingsToKnow)  
-  
 <a name="BeforeYouGoOffline"></a>   
 ## Before you go offline  
  [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] uses offline synchronization filters to determine the subset of data to copy to your local hard drive when you go offline. Before you go offline, you can modify these filters or create new filters to synchronize just the data you need. You can also delete, deactivate, or activate filters. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  

@@ -52,4 +52,4 @@
 ## Set options
 ### [Set address book options](set-address-book-options.md)
 ### [Customize your regional settings](customize-regional-settings.md)
-### [Set personal options that affe3ct tracking and synchronization](set-personal-options-affect-tracking-synchronization-exchange.md)
+### [Set personal options that affect tracking and synchronization](set-personal-options-affect-tracking-synchronization-exchange.md)

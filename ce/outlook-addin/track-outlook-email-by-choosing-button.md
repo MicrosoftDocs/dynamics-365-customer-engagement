@@ -30,16 +30,6 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md
 > [!TIP]
 >  If your organization synchronizes email through server-side synchronization, you can track email automatically by dragging it to a tracked folder. Folder-level tracking is a powerful and intuitive way to track email messages directly from virtually any device. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
   
- [!INCLUDE[proc_on_this_page](../includes/proc-on-this-page.md)]  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Requirements for tracking email messages](track-outlook-email-by-choosing-button.md#Requirements)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Which records are associated with the email activity?](track-outlook-email-by-choosing-button.md#WhichRecords)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [Track an email message](track-outlook-email-by-choosing-button.md#Track)  
-  
- ![Down arrow button](media/down-arrow.png "Down arrow button") [What else to I need to know about tracking email records?](track-outlook-email-by-choosing-button.md#WhatElse)  
-  
 <a name="Requirements"></a>   
 ## Requirements for tracking email messages  
  To track email in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], your [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email address must match your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] email address. You can’t synchronize to or from multiple email addresses.  
