@@ -83,7 +83,7 @@ manager: "brycho"
   
  [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
   
- [Set address book options in Dynamics 365 for Outlook](set-address-book-options-in.md)  
+ [Set address book options in Dynamics 365 for Outlook](set-address-book-options.md)  
   
  [Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook](customize-regional-settings.md)  
   

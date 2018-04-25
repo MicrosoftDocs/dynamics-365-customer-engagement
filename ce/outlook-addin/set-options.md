@@ -14,7 +14,7 @@ manager: "brycho"
 robots: noindex,nofollow
 ---
 # Set options
-[Set address book options in Dynamics 365 for Outlook](set-address-book-options-in.md)  
+[Set address book options in Dynamics 365 for Outlook](set-address-book-options.md)  
   
  [Customize your regional settings (number, currency, time, and date) in Dynamics 365 for Outlook](customize-regional-settings.md)  
   
