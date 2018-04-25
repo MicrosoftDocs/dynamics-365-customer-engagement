@@ -86,7 +86,7 @@ Any record types that are enabled for mobile are also available for use in the C
 
 ## Understand the sitemap navigation
   
-1.  On the sitemap, select **Service**, and then select an entity record type.  
+1.  On the sitemap icon ![Sitemap](media/sitemap-icon.png) , select **Service**, and then select an entity record type.  
   
     ![navigate recods](media/v9-navigate-records.png "Navigate records")
   
@@ -104,8 +104,9 @@ Any record types that are enabled for mobile are also available for use in the C
     - **Cases** help you create and track your customer requests and issues.
     - **Queues** keep a track of cases waiting for you to work on.
     - **Knowledge Articles** capture your customer’s questions, issues, feedback, and resolutions, so that other service reps can benefit from them.
+    - **Service Management** lets you perform all the service management tasks. To know more ways to access the Service Management, see [Access Service Management](service-manager-guide.md#access-service-management).
 
-2. Select **Training** to go to the documentation site, known as **Help Center**. 
+2. Select **...** to go to **Training** and access the documentation site to view the **Help Center**. 
 3. Select **Favorites and Recent** button ![recent-button](media/fav-and-recent.png)  to see recently viewed records, or to see views that have been pinned as favorites.
 
 For a mobile device, the sitemap is displayed as illustrated in the following image:
