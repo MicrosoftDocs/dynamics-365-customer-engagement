@@ -35,12 +35,12 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/powerapps/maker/breadcrumb/toc.json",
+      "breadcrumb_path": "/powerapps/breadcrumb/toc.json",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},
     "template": [],
-    "dest": "power-apps-maker",
+    "dest": "powerapps-cds-docs",
     "markdownEngineName": "markdig"
   }
 }

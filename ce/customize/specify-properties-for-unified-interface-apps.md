@@ -1,18 +1,19 @@
 ---
-title: "Specify properties for Unified Interface apps (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "Specify properties for Unified Interface apps in PowerApps | MicrosoftDocs"
+description: "Learn how to configure the grid control for your app"
 keywords: ""
-ms.date: 10/31/2017
+ms.date: 04/24/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "udaykirang"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 3ecea4a7-0d18-4ccd-9609-3a62179e9e1b
-ms.author: udag
-manager: sakudes
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -23,9 +24,11 @@ topic-status: Drafting
 
 # Specify properties for Unified Interface apps
 
-[!INCLUDE[cc-feature-included-with-update-9-0-0-admins](../includes/cc-feature-included-with-update-9-0-0-admins.md)] for the Unified Interface framework, which uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With Unified Interface applications, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-The Read Only Grid control Specifies how a grid should reflow to different screen sizes. As a system customizer, if you’re working with a Unified Interface application in [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] Customer Engagement, you can configure the Read Only Grid control and its properties for custom grids and lists.
+The Unified Interface framework uses responsive design principles to provide an optimal viewing and interaction experience for any screen size or orientation. With model-driven apps that use the Unified Interface framework, the grid (view) control is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the grid is transformed into a list. 
+
+The Read Only Grid control specifies how a grid should reflow to different screen sizes. As an app maker, if you’re working with a Unified Interface app, you can configure the Read Only Grid control and its properties for custom grids and lists.
 - **Card Form property:** Use a card form for lists instead of the default list template. Card forms provide more information for list items than the default list template.
 - **Reflow behavior property:** Use this parameter to specify a grid to reflow in to a list or not.
 
@@ -35,8 +38,8 @@ Adding the Read Only Grid control to your controls list allows you to  configure
 - Allow a grid to reflow into a list on small displays such as mobile.
 - Specify the rendering mode as grid-only or list-only.  
 
-1. Go to **Settings** > **Customizations** > **Customize the System**.
-2. In the **Entities** pane, select the appropriate entity (such as **Account** or **Contact**), and then on the **Controls** tab, select **Add Control**.
+1. Open solution explorer.
+2. In navigation pane expand **Entities**, select the appropriate entity (such as **Account** or **Contact**), and then on the **Controls** tab, select **Add Control**.
 
     ![Open add control](media/UnifiedInterface_ReadOnlyGrid_AddControl.png "Open Add Control")
 

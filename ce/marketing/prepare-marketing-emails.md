@@ -2,7 +2,7 @@
 title: "Design, preview, check, and send marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-ms.date: 04/01/2018
+ms.date: 04/25/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -151,22 +151,18 @@ Start by positioning your cursor in the field where you want to insert the dynam
 
 After you've selected a source, the **Assist Edit** drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as *{{ SourceName.FieldName }}* or *{{ SourceName(RecordID).FieldName }}*, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
 
-- `{{ Contact.FirstName }}`  
+- `{{ contact.firstname }}`  
 Places the recipient's first name.
-- `{{ ContentSettings.SubscriptionCenter }}`  
-Places a link to the subscription center page identified in the active content settings.
-- `{{ ContentSettings.ForwardToAFriend }}`  
+- `{{ msdyncrm_contentsettings.msdyncrm_subscriptioncenter }}`  
+Places the URL for the subscription center page identified in the active content settings.
+- `{{ msdyncrm_contentsettings.msdyncrm_forwardtoafriend }}`  
 Places a link to the forwarding page identified in the active content settings.
-- `{{ Message.OpenAsWebPage }}`  
-Places a link that opens the current message in a web browser.
+- `{{ Message.ViewAsWebpageURL }}`  
+Places the URL for opening the current message in a web browser.
 - `{{ msevtmgt_event(123).msevtmgt_webinarurl }}`  
-Places the web URL for the event identified by the specified event ID (123 in the example).
+Places the webinar URL for the event identified by the specified event ID (123 in the example).
 - `{{ msdyn_survey(321).msdyn_name }}`  
 Places the name of the survey identified by the specified survey ID (321 in the example).
-- `{{ Contact.Account.OwnerUser.PrimaryEmail }}`  
-This is a useful expression for setting up the **From Email** address for a message. It resolves to the email address of the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user who owns the account associated with the mail recipient. This person is typically the account manager, who the recipient may know personally. Contacts are much more likely to open a message when it comes from somebody they know.
-- `{{ Contact.Account.OwnerUser.FullName }}`  
-This is similar to the previous example, but this time the expression resolves to the account manager's full name (useful for use in the **From Name** field).
 
 ### Advanced dynamic content
 
@@ -179,16 +175,6 @@ You must write your dynamic logic by using Handlebars syntax, which you can read
 
 > [!NOTE]
 > The assist-edit feature provided by the graphical editor creates Handlebars syntax and inserts it into the code automatically. You can see this when you open the message in the HTML editor. You can use either editor to add dynamic features supported by both, but the code editor is more flexible.
-
-The following table provides a few examples of how you might use Handlebars to add custom, dynamic features to your marketing email messages.
-
-| **Feature type** | **Description** | **Examples** |
-|------------------|-----------------|--------------|
-| Properties       | Inserts a database value|`{Contact.FirstName}}`<br />`{{ContentSettings.SenderAddress}}`|                      |
-| If/Else          | Creates a conditional statement that decides at send time which content to include for each recipient. |`{{#if Contact.Deleted}}`<br />`Deleted`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{else if (eq Contact.Country 'UK')}}`<br />`Hi`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country Contact.DeliveryCountry)}}`<br />`Delivered to you`<br />`{{/if}}`<br /><br />`{{#if (gt Contact.Age 18)}}`<br />`Apply now`<br />`{{/if}}`<br /><br />`{{#if (lte Contact.Age 70)}}`<br />`Apply now`<br />`{{/if}}`|
-| For each         | Creates a for-each loop | `{{#each Contact.Addresses}}`<br />`{{this.StreetName}}`<br />`{{/each}}` |
-|Relationships    | Finds database field values from a related record. | `{{Contact.Phone.PrimaryPhone}}`<br />`{{Contact.SalesPerson.Address.StreetName}}` |
-| Custom entities  | Finds a value from a specific record, identified by an ID value. | `{{LandingPage(123).Url}}` |
 
 ## Inspect and edit the text-only version of your message
 
