@@ -71,9 +71,9 @@
       ]
     },
     {
-      "docset_name": "powerapps-d365-env",
-      "build_source_folder": "powerapps/admin",
-      "build_output_subfolder": "powerapps-d365-env",
+      "docset_name": "powerapps-cds-docs",
+      "build_source_folder": "powerapps-cds",
+      "build_output_subfolder": "powerapps-cds-docs",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],

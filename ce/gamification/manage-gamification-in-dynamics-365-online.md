@@ -2,7 +2,7 @@
 title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 keywords: "install, solution, manage, uninstall"
-ms.date: 02/22/2018
+ms.date: 04/18/2018
 ms.service: gamification
 ms.topic: get-started-article
 applies_to:
@@ -133,7 +133,6 @@ Before you can sync [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] 
 
 ## Uninstall the Gamification solution
 
-[//]: # (A cross-reference to another topic shouldn't be the only text in a section.)
 You need to remove **GamificationUpdate** _before_ you remove **Gamification**. More information about removing a preferred solution: [Delete a preferred solution](https://technet.microsoft.com/library/dn878909.aspx#Delete a preferred solution)
 
 ## Privacy notice  
