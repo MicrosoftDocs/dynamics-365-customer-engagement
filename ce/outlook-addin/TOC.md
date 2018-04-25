@@ -10,19 +10,20 @@
 ### [Recover from Exchange Server failure](dynamics-365-outlook-user-s-guide.md)
 
 # [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)
-## [Set up and configure](set-up-configure.md)
+
+## Set up and configure
 ### [Set up](set-up.md)
 ### [Configure another organization](configure-another-organization.md)
 ### [Set up and configure Dynamics 365 for Outlook from Office 365](set-up-configure-dynamics-365-outlook-office-365.md)
 ### [The Outlook email address should be the same as the Dynamics 365 email address](outlook-email-address-should-same.md)
 
-## [Get started](get-started.md)
+## Get started
 ### [Do your Dynamics 365 work in Outlook](dynamics-365-work-outlook.md)
 ### [Overview of tracking records](overview-tracking-records.md)
 ### [Customize the Reading Pane](customize-reading-pane.md)
 ### [Create a Microsoft Word mail-merge document](create-word-mail-merge-document.md)
 
-## [Track email, appointments, contacts, and tasks](track-email-appointments-contacts-tasks.md)
+## Track email, appointments, contacts, and tasks
 ### [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)
 ### [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)
 ### [Set an option to automatically track incoming Outlook email](set-option-automatically-track-incoming-outlook-email.md)
@@ -32,7 +33,7 @@
 ### [Track Outlook appointments](track-outlook-appointments.md)
 ### [Deleting records that have been tracked](delete-records-that-have-been-tracked.md)
 
-## [Synchronize data](synchronize-data.md)
+## Synchronize data
 ### [Frequently asked questions about synchronizing records](frequently-asked-questions-synchronizing-records.md)
 ### [Choose the records to synchronize](choose-records-synchronize-exchange.md)
 ### [View the fields that are synchronized](view-fields-synchronized.md)
@@ -43,12 +44,12 @@
 ### [System Settings dialog box - Synchronization tab](system-settings-dialog-box-synchronization-tab.md)
 ### [Create or modify synchronization filters or view synchronizing fields](create-modify-synchronization-filters-view-synchronizing-fields.md)
 
-## [Work offline](work-offline.md)
+## Work offline
 ### [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)
 ### [Choose records to work with offline](choose-records-work-offline.md)
 ### [Example of going offline](example-going-offline.md)
 
-## [Set options](set-options.md)
+## Set options
 ### [Set address book options](set-address-book-options.md)
 ### [Customize your regional settings](customize-regional-settings.md)
 ### [Set personal options that affe3ct tracking and synchronization](set-personal-options-affect-tracking-synchronization-exchange.md)
