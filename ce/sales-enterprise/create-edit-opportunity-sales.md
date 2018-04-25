@@ -103,7 +103,7 @@ You can add a product or product bundle to an opportunity. The product can be an
 
 3. Select a **Price List**. The price list determines the cost of the product. Selecting a price list is required to be able to add products to an opportunity. 
 
-4. If you want the estimated revenue of the opportunity to be calculated based on the total amount, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
+4. If you want the estimated revenue of the opportunity to be calculated based on the total amount of products, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 
 5. In the **Product Line Items** grid, select **Add New Opportunity Product**.
 
