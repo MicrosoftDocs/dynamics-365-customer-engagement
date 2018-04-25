@@ -1,6 +1,6 @@
 ---
-title: "Add products to a quote, order, or invoice (Dynamics 365 for Sales) | MicrosoftDocs"
-description: "Include details about the products that your customer is interested in purchasing in your quote, order or invoice in Dynamics 365 for Sales."
+title: "Add products to a quote, order, or invoice (Dynamics 365 for Sales) | Microsoft Docs"
+description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 for Sales."
 keywords: "product, quote, order, invoice"
 ms.date: 05/01/2018
 ms.service: crm-online
@@ -22,11 +22,11 @@ topic-status: Drafting
 
 # Add products to a quote, order, or invoice (Sales Hub)
 
-You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. 
+You can add products or product bundles to a quote, order, or invoice record. The product can be an existing product in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. 
 
 If you’ve created a quote from an opportunity, the products added to the opportunity are automatically added to the quote. You can add more products or remove the existing ones.
-
-The process for adding a product to a quote record is same as adding a product to an order or an invoice. This topic explains how to add products to a quote product
+<!--Note to author: This said "add products to a quote product." I changed it to "to a quote record."-->
+The process for adding a product to a quote record is the same as adding a product to an order or an invoice. This topic explains how to add products to a quote record.
 
 1. From the list of quotes, open the quote record you want to add the product to. 
 
@@ -42,7 +42,7 @@ The process for adding a product to a quote record is same as adding a product t
 
     2.	Fill in details in the **Pricing** section:
 
-        - **Price Overridden**. If you’re adding an existing product from the product catalog, select whether you want to use the default pricing that is listed in the product catalog or override the price. For write-in product, this field is set to **Override** Price. 
+        - **Price Overridden**. If you’re adding an existing product from the product catalog, select whether you want to use the default pricing that is listed in the product catalog or override the price. For a write-in product, this field is set to **Override** Price. 
 
         - **Price Per Unit**. If you’re adding a write-in product, enter the price to be charged per unit for the product.
 
@@ -63,7 +63,7 @@ Here are the actions you can take on the products in the Products grid:
 |Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**.|
 |Delete a product associated with the quote |Select the product, and on the command bar, select **Delete Quote Product**. |
 |View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
-|See and add related products for cross selling or up selling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See and add related products for cross-selling or upselling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
 
 
