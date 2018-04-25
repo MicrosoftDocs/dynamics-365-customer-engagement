@@ -1,7 +1,8 @@
 ---
-title: "Get started with customization (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Get started with model-driven app making in PowerApps | MicrosoftDocs"
+description: "Learn how you can get started building and customizing model-driven apps"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: d6bd269e-0000-44e9-b686-a6240a101ec7
 caps.latest.revision: 14
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
-# Get started with customization
+# Get started with app making and customization
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-You can tailor [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to more closely fit your organization’s industry, nomenclature, and unique business processes by customizing the service. You can implement many customizations without writing any code.  
+You can tailor a model-driven app to more closely fit your organization’s industry, nomenclature, and unique business processes. You can implement many customizations without writing any code.  
   
  The following table shows some examples of customizations:  
   

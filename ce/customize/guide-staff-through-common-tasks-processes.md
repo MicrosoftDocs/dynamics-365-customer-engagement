@@ -1,7 +1,8 @@
 ---
-title: "Create custom business logic through processes (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create custom business logic through processes with PowerApps | MicrosoftDocs"
+description: "Learn about the different types of business logic you can use in your app"
 ms.custom: ""
-ms.date: 12/28/2017
+ms.date: 04/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,19 +11,20 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 0b4e6602-5701-4859-81cc-6f6fe50901b2
 caps.latest.revision: 44
-author: "matp"
+author: "Mattp123"
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Create custom business logic through processes
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-Defining and enforcing consistent business processes is one of the main reasons people use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
+Defining and enforcing consistent business processes is one of the main reasons people use model-driven apps. Consistent processes help make sure people using the system can focus on their work and not on remembering to perform a set of manual steps. Processes can be simple or complex and can change over time.  
   
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes five  types of processes, each designed for a different purpose:  
+[!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] includes five  types of processes, each designed for a different purpose:  
   
 -   Business process flows  
   
@@ -39,7 +41,7 @@ Defining and enforcing consistent business processes is one of the main reasons 
 ## When to use business process flows  
  Use a business process flow when you want staff to move through the same stages and follow the same steps to interact with a customer. For example, use a business process flow if you want everyone to handle customer service requests the same way, or to require staff to gain approval for an invoice before submitting an order.  
   
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] includes several ready-to-use business process flows for common sales, service, and marketing tasks that you can use with little or no changes required. Or, you can create your own. See the following topics for more information on business process flows:  
+ Your environment includes several ready-to-use business process flows for common sales, service, and marketing tasks that you can use with little or no changes required. Or, you can create your own. See the following topics for more information on business process flows:  
   
 -   [Create a business process flow](../customize/create-business-process-flow.md)  
   
@@ -62,15 +64,15 @@ Defining and enforcing consistent business processes is one of the main reasons 
   
 <a name="useMSFlow"></a>   
 ## When to use Microsoft Flow  
- Use Microsoft Flow when you need to create automated workflows that perform actions between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and your favorite apps and services, such as [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Microsoft Flow to automate processes across services](../basics/use-flow-automate-processes-across-services.md)  
+ Use Microsoft Flow when you need to create automated workflows that perform actions between your environment and favorite app or service, such as [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], [!INCLUDE[tn_twitter](../includes/tn-twitter.md)], Dropbox, Google services, [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)], and [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)]. You can trigger a flow based on a specific action, or invoke from within your app. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Microsoft Flow to automate processes across services](../basics/use-flow-automate-processes-across-services.md)  
   
 <a name="BKMK_Where"></a>   
 ## Where do I go to create processes?  
- There are two paths to navigate to processes in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]:  
+ There are two paths to navigate to processes:  
   
-- **Settings>Processes.** This path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
+- **Settings>Processes.** in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] this path is easiest to access and allows you to use views defined for the Process entity, including any custom views.  
   
-- **Settings > Customizations > Customize the System > Components > Processes.** This path provides convenient access when you are doing other customization work in the customization tools.  
+- In solution explorer. **Components > Processes.** This path provides convenient access when you are doing other customization work in the customization tools.  
   
  Individual business process flows can also be edited using the **Edit Process** button in the command bar for the form where the business process flow is active.  
   
@@ -120,7 +122,7 @@ Defining and enforcing consistent business processes is one of the main reasons 
 |**Start Child Workflow**|Workflow, Action|Starts a workflow process that has been configured as a child workflow.|  
 |**Change Status**|Workflow, Action|Changes the status of the record that the process is running on, any of the records linked to that record with an N:1 relationship, or any records created by earlier steps.|  
 |**Stop Workflow**|Workflow, Action|Stops the current workflow or action. You can set a status of either **Succeeded** or **Canceled** and specify a status message.|  
-|**Custom Step**|Workflow, Action|Provides extensions to the logical elements available by default in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Steps can include conditions, actions, other steps, or a combination of these elements. Developers can create custom workflow steps. By default, there are no custom steps available in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].|
+|**Custom Step**|Workflow, Action|Provides extensions to the logical elements available by default. Steps can include conditions, actions, other steps, or a combination of these elements. Developers can create custom workflow steps. By default, there are no custom steps available.|
 
 For more information for developers, see the Developer Guide topic [Automate your business processes in Customer Engagement](../developer/automate-business-processes-customer-engagement.md).
   

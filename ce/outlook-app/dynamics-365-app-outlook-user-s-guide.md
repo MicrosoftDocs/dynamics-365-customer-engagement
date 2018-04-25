@@ -140,6 +140,9 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
 |![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message) and [Add sales literature or a knowledge base article when you create an email message](#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)|
 
+## Experience App for Outlook as a pinnable taskpane
+
+If you're running Outlook 2016 for Windows (build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane). 
 
 ## Add an email recipient as a contact or lead
 One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. In the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane, click (+) and then select **Add as contact** or **Add as lead**.
@@ -218,11 +221,9 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
-<!-- 
-
 ## Customize the track regarding card
 
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Job Title** with **Business Phone** in the Contact card.
+The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
 
 ![Initial contact card](media/initial-contact-card.png "Initial contact card")
 
@@ -230,27 +231,27 @@ To change the fields that appear, follow these steps:
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Expand **Entities** and choose an entity such as **Contact**.
-3. Expand the entity and select **Forms**, then select the **Contact** form.
+3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
 
    ![Contact entity form](media/contact-entity-form.png)
-4. Drag **Business Phone** below **Account Name**. Drag **Job Title** below **Mobile Phone**.
 
-   | | |  |
-   |---------|---------|---------|
-   |![Drag fields in form](media/drag-fields-in-form.png "Drag fields in form")     |         | ![After dragging fields](media/after-dragging-fields.png "After dragging fields")        |
+4. Drag **Company Name** above **Business Phone**.
+
+   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
+
+   ![After dragging field](media/after-dragging-fields.png "After dragging field")
 
    > [!NOTE]
-   > The first four fields appear in the track regarding card.
-5. Choose **Save**, **Publish**, and then close the form editor.
-6. On the solution page, choose **Components** > **Prepare Client Customizations**. 
+   > The first three fields appear in the track regarding card.
 
-   ![Prepare client customizations](media/prepare-client-customizations.png "Prepare client customizations")
+5. Select **Save**, **Publish**, and then close the form editor.
+6. On the solution page, **Publish All Customizations**. 
 7. Close the solutions page.
 
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It might take some time for the synchronization to complete and the change to appear.
+After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
 
 ![After customizing card](media/after-customizing-card.png "After customizing card")</br>
-The business phone number replaces job title in the Contact card. -->
+The company name now appears after the contact name in the Contact card.
 
 ## Compose an email message and link it to a Dynamics 365 record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).

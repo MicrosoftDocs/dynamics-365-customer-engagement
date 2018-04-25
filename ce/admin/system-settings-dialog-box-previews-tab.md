@@ -18,9 +18,6 @@ manager: "brycho"
 ---
 # System Settings dialog box - Previews tab
 
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../includes/cc-under-construction.md)]
-
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
 Use the settings on this page to enable preview features in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
@@ -46,28 +43,15 @@ Use the settings on this page to enable preview features in [!INCLUDE[pn_microso
 |**Action Step Support for Business Process Flows Preview**||
 |Enable Action Step Support for Business Process Flows Preview|More information: [Business process flows overview](../customize/business-process-flows-overview.md)|
 |**BPF Entity Customization Support**||
-|Enable BPF Entity Customization Support|<!-- need text from dev docs -->|
+|Enable BPF Entity Customization Support|If Yes, enables customization support for business process flow entities. Default is No.|
 |**Organization Insights Preview**||
 |Enable Organization Insights Preview|More information: [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md)|
-|**Cortana for Dynamics 365**||
-|Enable Cortana for Dynamics 365.|More information: [Preview feature: Set up Cortana integration](set-up-cortana-integration.md)|
 |**Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**||
 |Enable the Dynamics 365 Text Analytics Preview|More information: [Public Preview: Topic analysis](https://technet.microsoft.com/library/mt752501.aspx)|
 |**Relationship Insights**||
 |Enable Auto Capture|More information: [Preview feature: Auto capture of related emails](auto-capture.md)|
 |Enable Relationship Assistant|More information: [Preview feature: Use relationship assistant to guide customer communications](relationship-assistant.md)|
 |Enable Email Engagement|More information: [Preview feature: Use email engagement to view message interactions](email-engagement.md)|
-<!-- 
-|Enable Relationship Analytics|More information: [Preview feature: Use Relationship analytics to gather KPIs](relationship-analytics.md)| 
--->
-
-<!--
-
-|**Cross-sell Product Recommendations Preview**||
-|Enable the Dynamics 365 Cross-sell Product Recommendations Preview||
-|**MailApp Preview**||
-|Enable Dynamics 365 App for Outlook Preview|| 
--->
 
 ### See also
 [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)

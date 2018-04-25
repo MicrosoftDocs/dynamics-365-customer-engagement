@@ -3,6 +3,7 @@
 # [Getting started with your subscription](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 (online)](try-dynamics-365-online.md)
+## [About Unified Interface](about-unified-interface.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
@@ -266,6 +267,6 @@
 ## [Sales tab](system-settings-dialog-box-sales-tab.md)
 ## [Service tab](system-settings-dialog-box-service-tab.md)
 ## [Synchronization tab](system-settings-dialog-box-synchronization-tab.md)
-<!-- ## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md) -->
+## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md)
 ## [Previews tab](system-settings-dialog-box-previews-tab.md)
 ## [On-off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md)

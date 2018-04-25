@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/22/2018
+ms.date: 04/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -53,28 +53,36 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
   
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
+
+In addition:
   
-Users must also have read/write privileges for the following entities:  
+1. Users must have **read/write** privileges for the following entities.  
   
- Business Management tab:  
+   Business Management tab:  
   
-- **Mailbox**  
+   - **Mailbox**  
   
-Customization tab:  
+   Customization tab:
+
+   - **User Application Metadata**
+
+2. Users must have **read** privileges for the following entities.  
+
+   Customization tab:  
+
+   - **App**
   
-- **Entity**  
+   - **Entity**  
   
-- **Field**  
+   - **Field**  
   
-- **Relationship**  
+   - **Relationship**  
   
-- **System Application Metadata**  
+   - **System Application Metadata**  
   
-- **System Form**  
+   - **System Form**  
   
-- **User Application Metadata**  
-  
-- **View**  
+   - **View**  
   
 #### Set the privileges for a security role  
 
