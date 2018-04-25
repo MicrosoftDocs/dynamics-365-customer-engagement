@@ -26,7 +26,7 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Product catalog configuration </h2>
-<li>[Set up the product catalog](set-up-product-catalog-walkthrough.md)</li>
+<li>[Set up a product catalog](set-up-product-catalog-walkthrough.md)</li>
 <li>[Set up a discount list](set-up-discount-list.md)</li>
 <li>[Create unit and unit groups](create-unit-group-add-units-that-group.md)</li>
 <li>[Create a product family](create-product-family.md)</li>
