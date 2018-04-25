@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 04/12/2018
+ms.date: 04/25/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -23,6 +23,12 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
+
+### Attachments in private messages now show in the post list
+
+Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the posts details of a direct message that contains attachments. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 
