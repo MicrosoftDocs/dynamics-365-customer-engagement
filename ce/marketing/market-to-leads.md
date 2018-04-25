@@ -1,6 +1,7 @@
 ---
 title: "Market to leads (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Marketing"
+keywords: ""
 ms.date: 04/25/2018
 ms.service: crm-online
 ms.topic: article
@@ -14,13 +15,14 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+
 # Market to leads with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
 [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses contact records to represent prospective customers and enables marketers to engage with those contacts through initiatives such as customer journeys, events, and landing pages. When a contact submits a lading page, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] typically auto-creates a lead for that contact, and marketers can manually add leads for contacts at any time. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] then nurtures and scores those leads through a qualification process, and hands off marketing-qualified leads to salespeople for further qualification into opportunities. In this way, [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] uses contacts to represent _people_ and leads to represent _specific expressions of interest_ made by those people. You can read more about this process in [Manage customer information](manage-customer-information.md) and [Score and manage leads](score-manage-leads.md).
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is a highly flexible and customizable system, where each organization can decide how to make use of the various types of records it contains. Some organizations may prefer, or already have in place, a more sales-driven process, where salespeople save new potential customers as lead records and only create a contact record based on a lead once that lead made a purchase or entered into an ongoing business relationship with the organization. So, does that mean you can't market to leads using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]&mdash;of course not!
 
-Follow the steps on this page to learn how to integrate sales-driven (lead-centered) and marketing-driven (contact-centered) processes using [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Techniques include:
+Read this topic to learn how to integrate sales-driven (lead-centered) and marketing-driven (contact-centered) processes using [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Techniques include:
 
 - Build marketing segments by querying lead records.
 - Automatically generate contact records based on "orphaned" lead records and associate the two.
