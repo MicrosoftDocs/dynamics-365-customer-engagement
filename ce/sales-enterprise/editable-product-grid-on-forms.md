@@ -1,5 +1,5 @@
 ---
-title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Sales) | Microsoft Docs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 for Sales."
 keywords: "product, opportunity, editable grid, quote, order, invoice"
 ms.date: 05/01/2018
@@ -21,14 +21,15 @@ topic-status: Drafting
 
 # Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Sales Hub)
 
-Products grid on the Opportunity, quote, order or invoice forms is now made editable, so you don’t have to open individual product records to make changes to the product. 
+Products grid on the Opportunity, Quote, Order, or Invoice forms is now editable, so you don’t have to open individual product records to make changes to the product. 
 
-Currently, the preconfigured Products grid is only available on apps built on the Unified Interface framework and is optimized to work on Web.
-With Dynamics 365 (online), version 9.0.2, the product editable grid is added out-of-the-box to the **Product Line Items** section of the Opportunity form of type **Main**. For Quotes, Orders or Invoice, it is added to the Products section of the forms of type **Main**. 
+Currently, the preconfigured Products grid is available only on apps built on the Unified Interface framework and is optimized to work on the web.
 
-If you’re upgrading to [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)] and you’ve made customizations to the **Product Line Items** or **Products** sections of these forms, your customizations will prevail, and the product editable grid won’t be added to the forms by default. You must manually enable the product editable grid, though the product grid configurations for the editable grid will be already defined. If there are no customizations to these sections, the Products grid will be automatically configured and enabled after the upgrade. 
+With Dynamics 365 (online), version 9.0.2, the product editable grid is added out-of-the-box to the **Product Line Items** section of the Opportunity form of type **Main**. For Quote, Order, or Invoice, it is added to the Products section of the forms of type **Main**. 
 
-To enable editable products grid on the Opportunity, Quote, Order, or Invoice form
+If you’re upgrading to [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)] and you’ve made customizations to the **Product Line Items** or **Products** sections of these forms, your customizations will prevail, and the product editable grid won’t be added to the forms by default. You must manually enable the product editable grid, though the product grid configurations for the editable grid already will be defined. If there are no customizations to these sections, the Products grid will be automatically configured and enabled after the upgrade. 
+
+To enable the editable products grid on the Opportunity, Quote, Order, or Invoice form
 
 1. Go to **Settings** > **Customization**. 
 
