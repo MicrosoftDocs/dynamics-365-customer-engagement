@@ -42,7 +42,7 @@ To enable editable products grid on the Opportunity, Quote, Order, or Invoice fo
 
     ![Action Cards area in the Product Line Items section](media/action-cards-area-product-line-items-section.png "Action Cards area in the Product Line Items section")
     
-    - OR – 
+    **- OR –** 
     
     If you’re enabling the editable product grid in the Quote, Order, or Invoice form, select the **Products** area in the **Products** section, and in the **Edit** group, select **Change Properties**.
   

@@ -31,7 +31,7 @@ topic-status: Drafting
 <li>[Create unit and unit groups](create-unit-group-add-units-that-group.md)</li>
 <li>[Create a product family](create-product-family.md)</li>
 <li>[Create price list and price list items](create-price-lists-price-list-items-define-pricing-products.md)</li>
-<li>[Editable Products grid on forms](editable-product-grid-opportunity-quote-order-invoice-forms.md)</li>
+<li>[Editable Products grid on forms](editable-product-grid-on-forms.md)</li>
 
 </td><td>
 

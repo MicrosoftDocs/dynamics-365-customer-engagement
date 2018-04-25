@@ -18,7 +18,7 @@
 #### [Retire a product](../sales-enterprise/retire-product.md)
 #### [Delete family, product or bundle](../sales-enterprise/delete-family-product-bundle.md)
 #### [View product hierarchy](../sales-enterprise/view-product-hierarchy.md)
-### [Editable Products grid on forms](editable-product-grid-opportunity-quote-order-invoice-forms.md) 
+### [Editable Products grid on forms](editable-product-grid-on-forms.md) 
 ### [Create a goal](create-edit-goal-sales.md)
 ### [Create a goal metric](create-edit-goal-metric.md)
 ### [Create a rollup query](create-edit-goal-rollup-query-sales.md)
