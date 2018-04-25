@@ -1,5 +1,5 @@
 ---
-title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Create or edit an opportunity (Dynamics 365 for Sales) | Microsoft Docs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 04/01/2018
@@ -19,7 +19,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 58
 topic-status: Drafting
 ---
-
+<!--Note to author: Update ms.date to date of publication. Also, remove keywords entry from metadata.-->
 # Create or edit an opportunity (Sales and Sales Hub)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -48,7 +48,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Account**: The account associated with this opportunity.
  
    - **Purchase Timeframe**: The timeframe by when the account or contact is likely to make the purchase.
- 
+ <!--Note to author: Consider adding text for Budget Amount, since all of the other list items have descriptions.-->
    - **Budget Amount** 
  
    - **Purchase Process**: Whether the purchase process involves an individual or a committee.
@@ -61,7 +61,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
 
 5.	In the **Stakeholders** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you have entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
+    In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you have entered the name you want, select **Add**. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
 
 6.	In the **Sales Team** section, select the **More Commands** button ![More Commands button](media/more-button-stakeholders-grid.png "More Commands button"), and then select **+ New Connection** to add a member of the sales team (from your organization).
 
@@ -85,7 +85,7 @@ If you're following the sales process from start to finish, you *qualify* a lead
     
     - **Identify Sales Team**  
     
-    - **Develop Proposal** (this optional step indicates that you've included notes about how the account will be approached)  
+    - **Develop Proposal** (This optional step indicates that you've included notes about how the account will be approached.)  
     
     - **Complete Internal Review**  
     
@@ -95,7 +95,7 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 
 ## Add products to an opportunity (Sales Hub)
 
-You can add a product or product bundle to an opportunity. The product can be an existing product in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to opportunity are automatically associated with quotes generated from the opportunity.
+You can add a product or product bundle to an opportunity. The product can be an existing product in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
 
 1. In the list of opportunities, open the opportunity to which you want to add products.
 
@@ -127,7 +127,8 @@ You can add a product or product bundle to an opportunity. The product can be an
 
 The **Product Line Items** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Product Line Items** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
 
-The icon for each product line item show whether it is a product, product bundle, or a product family. 
+The icon for each product line item shows whether it is a product, product bundle, or a product family. 
+
 Here are the actions you can take on the products added to the Product Line Items grid:
 
 |To                                    |Do This                                                           |
@@ -153,10 +154,11 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 
 5.	On the command bar, select **Recalculate Opportunity**.
 
-## Create an opportunity  (Sales app)
- If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+## Create an opportunity (Sales app)
 
- If you want to create an opportunity without first creating a lead, do the following:  
+If you're following the sales process from start to finish, you qualify a lead to turn it into an opportunity. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
+
+If you want to create an opportunity without first creating a lead, do the following:  
   
 1. [!INCLUDE[proc_sales_opportunities](../includes/proc-sales-opportunities.md)]  
   
@@ -170,9 +172,9 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 6.  In the **Stakeholders** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button") to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
 
-    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the Role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.   
+    In the Lookup box, enter a name or select the Lookup icon to choose from a list of suggestions. To create a new contact, select **+ New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer.   
   
-7.  In the **Sales Team** section, select the**Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button"), and then select **+ New Connection** to add a member of the sales team (from your organization).  
+7.  In the **Sales Team** section, select the **Add Connection record** button ![Add Connection record button](media/add-connection-record-button.png "Add Connection record button"), and then select **+ New Connection** to add a member of the sales team (from your organization).  
   
 8.  To add competitors, in the **Competitors** area, select **+**.  
   
@@ -191,18 +193,21 @@ To change the estimated revenue of an opportunity based on any changes you've ma
 -   Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md) (applies to the Sales app only)
   
 ## Tips and tricks  
- Need a faster way to enter opportunities? Try one of these:  
+
+Need a faster way to enter opportunities? Try one of these:  
   
 -   [Quick create: enter new contacts (or other data)&mdash;fast!](../basics/quick-create-enter-data-fast.md)  
   
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
 ## Typical next steps  
+
  ![Right arrow button](../sales-enterprise/media/orange-right-arrow-button.png "Right arrow button") [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
   
  ![Home button](../sales-enterprise/media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)  
   
-### See also  
+### See also 
+
  [Run a report](../basics/run-report.md)   
  [Assign a record to a user or team](../basics/assign-record-user-team.md)      
  [Stay up-to-date with customer news with the activity feed](../basics/stay-up-date-with-customer-news-with-activity-feed.md)   
