@@ -28,7 +28,7 @@ After your survey is ready, you can distribute the survey and invite respondents
 
 If you configure your survey to allow anonymous respondents, you can copy the survey URL and paste it from the survey to the medium you want to use to send it. You can send it in email, post it on social media sites like [!INCLUDE[tn-twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn-facebook](../includes/tn-facebook.md)], or publish it on your website.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -47,13 +47,13 @@ If you configure your survey to allow anonymous respondents, you can copy the su
 
 8.  Save the changes.
 
-[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] doesn't associate responses with a customer record in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. If you want to create a lead from an anonymous response, set **Create Lead For Anonymous Responses** to **Yes**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a lead from a survey response](#create-a-lead-from-a-survey-response)  
+[!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] doesn't associate responses with a customer record in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. If you want to create a lead from an anonymous response, set **Create Lead For Anonymous Responses** to **Yes**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a lead from a survey response](design-advanced-survey.md#create-a-lead-from-a-survey-response)  
 
 ## Distribute a survey to non-anonymous respondents
 
 For non-anonymous surveys, the link you send to respondents is specific and unique for each customer. [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] generates the URLs for you to use when you create a survey invitation or embed the survey snippet in an email.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
@@ -117,6 +117,8 @@ You can create a survey activity or survey invitation to create personalized inv
 
 To create a survey invitation or survey activity:
 
+**Web client**
+
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
@@ -135,6 +137,24 @@ To create a survey invitation or survey activity:
 7.  Select **Save**. The invitation link is displayed in the **Invitation Link** field.
 
 8.  Copy the link and share it by using a third-party email provider.
+
+**Voice of the Customer app**
+
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+2. Go to **Voice of the Customer** > **Surveys**.
+3. Select the name of the survey for which you want to create a survey invitation or survey activity.
+4. Under **Related**, select **Survey Invitations**.
+
+    ![Select survey invitations](media/survey-invitations.png "Select survey invitations")  
+
+5. Select **Add New Survey Activity**.
+6. Under **General** and **Advanced**, enter the required information.
+
+    > [!NOTE]
+    > If you have used piped data in the survey, ensure that the data is entered in the appropriate piped data field under **Advanced**.
+
+7. Select **Save**. The invitation link is displayed in the **Invitation Link** field.
+8. Copy the link and share it by using a third-party email provider.
 
 > [!NOTE]
 > If you send email by using [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], a survey activity is created automatically for the respondent.

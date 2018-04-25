@@ -80,7 +80,7 @@ When you install Voice of the Customer version <<Version_Number>>, the Voice of 
 
 1. Sign in to Dynamics 365.
 2. Open the URL `<organization URL>/apps`.
-3. Select the Voice of Customer app.
+3. Select the Voice of the Customer app.
 
 ### See also
 [Plan a survey](plan-survey.md)    
