@@ -5,7 +5,7 @@ keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 04/01/2018
 ms.service: crm-online
 ms.custom: 
-ms.topic: get-started-article
+ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
@@ -30,7 +30,6 @@ An opportunity is a lead who is now almost ready to buy&mdash;in other words, a 
   
 ## Create an opportunity (Sales Hub)
 
-[//]: # (Adding italic in the introduction is suggested because you're defining--or at least, linking to a definition--of these terms. Using lowercase "or" between the alternative steps is something I've recently discovered in the Writing Style Guide. The "site map" wording is edited to be consistent with the content I've seen and I've edited myself, but I will explicitly verify this with Renee.)
 If you're following the sales process from start to finish, you *qualify* a lead to turn it into an *opportunity*. [!include[proc-more-information](../includes/proc-more-information.md)] [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)
 1. Select the site map ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Opportunities**.
 
@@ -96,31 +95,49 @@ The next step is to create a quote and send it to your customer. [!INCLUDE[proc-
 
 ## Add products to an opportunity (Sales Hub)
 
+You can add a product or product bundle to an opportunity. The product can be an existing product in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] product catalog, or an ad hoc product that you add as a write-in product. Any products added to opportunity are automatically associated with quotes generated from the opportunity.
+
 1. In the list of opportunities, open the opportunity to which you want to add products.
 
 2. Go to the **Product Line Items** tab.
 
-3. Select a **Price List**.
+3. Select a **Price List**. The price list determines the cost of the product. Selecting a price list is required to be able to add products to an opportunity. 
 
-4. If you want the pricing of the products to be automatically calculated based on the products and quantities you add, set **Revenue** to **System Calculated**. If you want to override the default pricing, set it to **User Provided**.
+4. If you want the estimated revenue of the opportunity to be calculated based on the total amount, set **Revenue** to **System Calculated**. If you want to use a custom estimated revenue, set it to **User Provided**.
 
 5. In the **Product Line Items** grid, select **Add New Opportunity Product**.
 
 6. In the **New Opportunity Product** form, do the following:  
 
-    1.  **Select Product**: Set the switch to choose whether you want to add an existing product or create a new one:<ul><li>To use an existing product, select **Lookup** to search for and add a product.</li><li> To create a product, select **Write-In**, and then enter the name of the product.</li></ul>  
+    1.  **Select Product**: Set the switch to choose whether you want to add an existing product or create a new one:
     
-    2.  **Pricing**. Select the pricing option. By default, this is the price that is listed in the product catalog. To override the catalog price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.  
+        -  To use an existing product, select **Lookup** to search for and add a product.
+         
+        -  To create a product, select **Write-In**, and then enter the name of the product.
+    
+    2.  **Pricing**. Select the pricing option. By default, this is the per unit price that is listed in the product catalog. To override the catalog price, select **Override Price**. When you override the price, you can specify a price that you want to charge for each unit of the product.   
 
     3.  **Quantity**. Enter the quantity of the product or service that will be included.  
 
     4.  **Manual Discount**. If you want to offer a discount to the product price, enter it here.  
     
     5.  **Tax**. If required, enter the appropriate tax amount.  
-
-    6.  On the command bar, select **Save**.  
-
+   
 7. Select **Save**.
+
+The **Product Line Items** grid shows all the products that are associated with the opportunity. If you added an existing product from the product catalog, you can change the quantity and discount of the product inline in the **Product Line Items** grid. If you added a write-in product, you can also change the price of the product in addition to the quantity and discount.
+
+The icon for each product line item show whether it is a product, product bundle, or a product family. 
+Here are the actions you can take on the products added to the Product Line Items grid:
+
+|To                                    |Do This                                                           |
+|--------------------------------------|------------------------------------------------------------------|
+|Edit properties of a product  |Select a product, and on the command bar, select **Edit Properties**.|
+|Delete a product associated with the opportunity |Select the product, and on the command bar, select **Delete Opportunity Product**. |
+|View products within a bundle | Select the **Chevron** icon ![Chevron icon](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
+|See and add related products for cross selling or up selling, or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The Suggestions pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Up** or **Down** button. |
+
 
 ## Recalculate an opportunity (Sales Hub)
 
@@ -171,7 +188,7 @@ To change the estimated revenue of an opportunity based on any changes you've ma
   
 -   If other people in your organization are working on this sale, be sure to add them as sales team members.  
   
--   Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md) (applies to the Sales app only)
+-   Nurture your opportunities through a marketing campaign. [!include[proc-more-information](../includes/proc-more-information.md)] [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md) (applies to the Sales app only)
   
 ## Tips and tricks  
  Need a faster way to enter opportunities? Try one of these:  

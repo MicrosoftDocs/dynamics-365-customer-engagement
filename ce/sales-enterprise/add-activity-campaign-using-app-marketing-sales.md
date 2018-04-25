@@ -81,7 +81,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
   
 ### See Also  
- [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
