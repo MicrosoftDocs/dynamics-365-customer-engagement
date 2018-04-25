@@ -35,11 +35,13 @@ The only way a contact can access a subscription center is by clicking a link se
 
 A default subscription center is provided with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], but it is very simple: it includes the minimum contact fields and the required **do not bulk email** check box. In this exercise, we'll walk through the process of creating a subscription list and adding it to a subscription form. We'll also point out how to choose a subscription center in content settings and how to assign content settings to a customer journey.
 
+<a name="create-subscription-list"></a>
+
 ## Create a subscription list
 
 Subscription lists are based on the standard (static) marketing lists feature of [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. To create one:
 
-1. In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], open the app selector, and then select the **Surveys** app module. (Marketing lists aren't included in the current version of the Marketing work area, so one place you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].)  
+1. In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], open the app selector, and then select the **Surveys** app module. (Marketing lists aren't included in the current version of the Marketing work area, so one place you can find them is in the Surveys app, which is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. You could also use the [!INCLUDE[pn-custom-app-module](../includes/pn-custom-app-module.md)] app.)  
     ![How to open the surveys app](media/app-selector-surveys.png "How to open the surveys app")
 
 1. The navigator for the Surveys app is a bit different from the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app: it's horizontal and displayed at the top of the screen. Use it to navigate to **Marketing** &gt; **Customers** &gt; **Marketing Lists**.  
@@ -53,6 +55,7 @@ Subscription lists are based on the standard (static) marketing lists feature of
     Make the following settings (at minimum):
     - **Name**: Enter a descriptive name
     - **Subscription**: Set to **True**.
+    - **Locked**: Set to **No**.
 
     > [!TIP]
     > When you set **Subscription** to **True**, the **List Type** is automatically set to **Static** and **Targeted At** is automatically set to **Contact**. Both of these settings are consistent with the requirements of a subscription list, and they remain locked unless you change the **Subscription** setting.
@@ -184,6 +187,8 @@ To add a subscription center link to a marketing email:
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create a marketing email and go live](create-marketing-email.md)
 
+<a name="target-subscription-list"></a>   
+
 ## Set up a customer journey that targets a subscription list
 
 After you've set up a subscription list, you'll probably want to send regular email messages to your subscribers. To do this, place a segment tile configured to load a subscription list as the first tile in a customer journey that automates your email deliveries and other initiatives.
@@ -199,7 +204,7 @@ To set up a segment tile to target a subscription list:
 
 
 > [!IMPORTANT]
-> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is always best to request all contacts to manage their own subscriptions using the subscription center.
+> When a customer journey targets a subscription list, then any contact that unsubscribes from that list using a subscription center will automatically be removed from that journey within about 24 hours, even if they are already partway through it. However, if a [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] users removes a contact from the list manually using the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] interface, that contact will continue to be processed by any journeys they already are on, and may continue to receive messages until all active journeys are complete. For this reason, it is usually best to request all contacts to manage their own subscriptions using the subscription center.
 
 
 
