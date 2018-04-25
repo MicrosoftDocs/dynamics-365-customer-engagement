@@ -70,13 +70,13 @@ You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016
 > [!NOTE]
 > The maximum size of an uploaded image can be 102.4 KB.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2.  Go to **Voice of the Customer** &gt; **Images**.
 
 3.  Select **New**.
 
-4.  Enter values in the **Name**, **Image Title**, and **Alternative Text** fields.
+4.  Under **General**, enter values in the **Name**, **Image Title**, and **Alternative Text** fields.
 
 5.  Select **Save** to save the record so you can upload an image and add other information.
 
