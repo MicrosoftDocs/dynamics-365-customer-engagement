@@ -70,7 +70,9 @@ You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016
 > [!NOTE]
 > The maximum size of an uploaded image can be 102.4 KB.
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+**Web client**
+
+1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Images**.
 
@@ -87,6 +89,17 @@ You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016
 8.  From the **Image Format** field, select the format of the image you uploaded to preview it. You can select from .gif, .jpg, and .png.
 
 9.  Select **Save** in the lower-right corner of the screen.
+
+**Voice of the Customer app**
+
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+2. Go to **Voice of the Customer** > **Images**.
+3. Select **New**.
+4. Under **General**, enter values in the **Name**, **Image Title**, and **Alternative Text** fields.
+5. Select **Save** to save the record so you can upload an image.
+6. Under **Custom Icon**, select **Edit** to browse and select an image. The image URL is displayed in the **Image URL** field.
+7. Select the icon in the **Image URL** field to preview the image.
+8. Select **Save** in the lower-right corner of the screen.
 
 ## Create or edit a survey
 
