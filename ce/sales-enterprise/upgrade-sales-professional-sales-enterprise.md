@@ -1,5 +1,5 @@
 ---
-title: "Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise (Dynamics 365 for Sales) | MicrosoftDocs"
+title: "Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise (Dynamics 365 for Sales) | Microsoft Docs"
 description: "Follow the steps in this topic to upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise."
 keywords: "Dynamics 365 for Sales, Professional, Enterprise, Upgrade"
 ms.date: 05/01/2018
@@ -21,11 +21,11 @@ topic-status: Drafting
 
 # Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise
 
-[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional is targeted for businesses that have simpler sales needs, and that do not require the full sales capabilities. However, if at any point in time, you find your requirements growing, you can easily upgrade to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise. 
+[!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional is targeted at businesses that have simpler sales needs and do not require the full sales capabilities. However, if at any point you find your requirements growing, you can easily upgrade to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise. 
 
 The upgrade process involves three steps:
 
-1.  Purchasing [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise subscription.
+1.  Purchasing a [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise subscription.
 
 2.  Assigning [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise licenses to the users.
 
@@ -70,7 +70,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
     ![Turn on your Dynamics 365 plan](media/turn-license-on.png "Turn on your Dynamics 365 plan")
 
-5.	Select **Replace**, and then Select **Close** twice. 
+5.	Select **Replace**, and then select **Close** twice. 
 
 6.	Review the license status on the **Active users** page and make other assignments as needed. 
 
