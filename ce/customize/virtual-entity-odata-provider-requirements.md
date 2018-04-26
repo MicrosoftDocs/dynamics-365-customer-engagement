@@ -37,7 +37,7 @@ This topic describes how to configure the OData v4 data provider as well as the 
 
 ## Data type mapping
 
-The following table lists the OData Entity Data Model (EDM) data type mappings with Dynamics 365 Customer Engagement data types. 
+The following table lists the OData Entity Data Model (EDM) data type mappings with [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] data types. 
 
 
 |OData Data Type  | [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Data Type  |
