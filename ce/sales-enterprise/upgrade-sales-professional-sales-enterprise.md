@@ -1,5 +1,5 @@
 ---
-title: "Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise (Dynamics 365 for Sales) | Microsoft Docs"
+title: "Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise."
 keywords: "Dynamics 365 for Sales, Professional, Enterprise, Upgrade"
 ms.date: 05/01/2018
@@ -37,7 +37,7 @@ The upgrade process involves three steps:
 
 2.  Select **Billing** > **Subscriptions**.
 
-    ![Select Subscription](media/subscription-office-365-admin-center.png "Select Subscription")
+    ![Select Subscriptions](media/subscription-office-365-admin-center.png "Select Subscriptions")
 
     You’ll see the active subscriptions. 
 

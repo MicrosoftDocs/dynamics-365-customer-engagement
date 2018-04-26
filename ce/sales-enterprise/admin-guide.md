@@ -1,5 +1,5 @@
 ---
-title: "Administrator & Sales Manager Guide (Dynamics 365 for Sales) | Microsoft Docs"
+title: "Administrator & Sales Manager Guide (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "A starting point for browsing admin and sales manager content for Dynamics 365 for Sales."
 keywords: "Sales Hub, Sales, Index, sales manager, admin, administrator"
 ms.date: 05/01/2018
@@ -26,31 +26,39 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Product catalog configuration </h2>
+<ul>
 <li>[Set up a product catalog](set-up-product-catalog-walkthrough.md)</li>
 <li>[Set up a discount list](set-up-discount-list.md)</li>
 <li>[Create unit and unit groups](create-unit-group-add-units-that-group.md)</li>
-<li>[Create a product family](create-product-family.md)</li>
+<li>[Set up a product family](create-product-family.md)</li>
 <li>[Create price list and price list items](create-price-lists-price-list-items-define-pricing-products.md)</li>
 <li>[Editable Products grid on forms](editable-product-grid-on-forms.md)</li>
+</ul>
 
 </td><td>
 
 <h2>Sales management</h2>
+<ul>
 <li>[Create or edit a goal](create-edit-goal-sales.md)</li>
 <li>[Create or edit a goal rollup query](create-edit-goal-rollup-query-sales.md)</li>
 <li>[Create or edit goal metric](create-edit-goal-metric.md)</li>
+</ul>
 
 </td></tr>
 
 <tr><td>
 
 <h2>GDPR Requirements</h2>
+<ul>
 <li>[Dynamics 365 for Sales and GDPR](dynamics-365-sales-GDPR.md)</li>
+</ul>
 
 </td><td>
 
 <h2>Upgrade</h2>
+<ul>
 <li>[Upgrade from Dynamics 365 for Sales Professional to Dynamics 365 for Sales Enterprise](upgrade-sales-professional-sales-enterprise.md) </li>
+</ul>
 
 </td></tr>
 </table>

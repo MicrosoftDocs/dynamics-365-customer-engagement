@@ -1,5 +1,5 @@
 ---
-title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Sales) | Microsoft Docs"
+title: "Editable Products grid on Opportunity, Quote, Order, and Invoice forms (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 for Sales."
 keywords: "product, opportunity, editable grid, quote, order, invoice"
 ms.date: 05/01/2018
@@ -34,7 +34,7 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 1. Go to **Settings** > **Customization**. 
 
 2. Select **Customize the System** to open the default solution. 
-<!--Note to author: please check rewording of the following step.-->
+
 3. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. 
 
 4. In the list of forms, open the form of type Main.

@@ -1,8 +1,8 @@
 ---
-title: "Create or edit an opportunity (Dynamics 365 for Sales) | Microsoft Docs"
+title: "Create or edit an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An opportunity is a deal you're ready to win. Create an opportunity record for a lead who's ready to buy."
 keywords: "opportunity, deal, develop, propose, nurture sales"
-ms.date: 04/01/2018
+ms.date: 05/01/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -19,6 +19,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 58
 topic-status: Drafting
 ---
+
 <!--Note to author: Update ms.date to date of publication. Also, remove keywords entry from metadata.-->
 # Create or edit an opportunity (Sales and Sales Hub)
 
@@ -48,8 +49,8 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Account**: The account associated with this opportunity.
  
    - **Purchase Timeframe**: The timeframe by when the account or contact is likely to make the purchase.
- <!--Note to author: Consider adding text for Budget Amount, since all of the other list items have descriptions.-->
-   - **Budget Amount** 
+ 
+   - **Budget Amount**: Enter a value to indicate the lead's potential available budget. 
  
    - **Purchase Process**: Whether the purchase process involves an individual or a committee.
  
@@ -129,7 +130,7 @@ The **Product Line Items** grid shows all the products that are associated with 
 
 The icon for each product line item shows whether it is a product, product bundle, or a product family. 
 
-Here are the actions you can take on the products added to the Product Line Items grid:
+Here are the actions you can take on the products added to the **Product Line Items** grid:
 
 |To                                    |Do This                                                           |
 |--------------------------------------|------------------------------------------------------------------|
@@ -196,7 +197,7 @@ If you want to create an opportunity without first creating a lead, do the follo
 
 Need a faster way to enter opportunities? Try one of these:  
 <!--Note to author: The page title is Quick create-Enter new records-fast! Do you want this link to match the page title?-->  
--   [Quick create: enter new contacts (or other data)&mdash;fast!](../basics/quick-create-enter-data-fast.md)  
+-   [Quick create-Enter new records-fast!](../basics/quick-create-enter-data-fast.md)  
   
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
