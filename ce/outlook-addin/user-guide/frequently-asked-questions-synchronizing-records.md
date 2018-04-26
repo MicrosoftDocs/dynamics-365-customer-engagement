@@ -70,7 +70,7 @@ manager: "brycho"
   
 ## See Also  
  [TechNet: Integrate your email system with Dynamics 365](https://technet.microsoft.com/library/dn832099.aspx)   
- [Dynamics 365 App for Outlook User's Guide](../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
+ [Dynamics 365 App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
  [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)
