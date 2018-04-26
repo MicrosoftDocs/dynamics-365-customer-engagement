@@ -1,15 +1,27 @@
-# [Dynamics 365 for Outlook Admin Guide](user-guide/dynamics-365-outlook-user-s-guide.md)
-## [Hardware requirements](user-guide/dynamics-365-outlook-user-s-guide.md)
-## [Software requirements](user-guide/dynamics-365-outlook-user-s-guide.md)
-## [Support](user-guide/dynamics-365-outlook-user-s-guide.md)
-## [Set up](user-guide/dynamics-365-outlook-user-s-guide.md)
-### [Set incoming and outgoing email synchronization](user-guide/dynamics-365-outlook-user-s-guide.md)
-### [Monitor email processing error](user-guide/dynamics-365-outlook-user-s-guide.md)
-### [Email message filtering and correlation](user-guide/dynamics-365-outlook-user-s-guide.md)
-### [Forward mailbox vs. individual mailboxes](user-guide/dynamics-365-outlook-user-s-guide.md)
-### [Recover from Exchange Server failure](user-guide/dynamics-365-outlook-user-s-guide.md)
+# Dynamics 365 for Outlook Admin Guide
 
-# [Dynamics 365 for Outlook User's Guide](user-guide/dynamics-365-outlook-user-s-guide.md)
+## Hardware requirements
+## Software requirements
+## Support
+
+## Set up
+### Permissions required for Dynamics 365 for Outlook tasks
+### Planning and installing
+#### Upgrade Microsoft Dynamics CRM for Outlook
+#### Install
+#### Advanced deployment options
+##### Deploy using Group Policy
+##### Install for desktop virtualization
+##### Install without an Internet connection
+##### Use SCCM to install
+### Uninstall or repair
+### Configure synchronization for appointments, contacts, and tasks
+### Install Microsoft Dynamics 365 for Outlook using a command prompt
+### Failure recovery
+### Control field synchronization
+### What fields can be syncrhonized
+### How field security affects synchronization
+### Troubleshooting and things to know
 
 ## Set up and configure
 ### [Set up](user-guide/set-up.md)
