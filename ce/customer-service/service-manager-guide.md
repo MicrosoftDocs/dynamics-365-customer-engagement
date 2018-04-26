@@ -28,7 +28,6 @@ Easily set up and manage your customer service tasks from one place by using Ser
 Use the Service manager to set up various service management tasks for customer service. You can access service management using either of the following ways:
 
 - In the Customer Service Hub sitemap, select **...** to go to Service Management. To know more about the Customer Service Hub sitemap, see [Understand the sitemap navigation](customer-service-hub-user-guide-basics.md#understand-the-sitemap-navigation).
-- Select the service management icon ![service-management-icon](media/service-management-icon.png) from the bottom of the sitemap to go to Service Management.
 
   ![Access service management](media/access-service-management-sitemap.png)
 
