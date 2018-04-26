@@ -35,7 +35,7 @@ The upgrade process involves three steps:
 
 1.  Sign in to Office 365 at portal.office.com with the Dynamics 365 account that has admin permissions.
 
-2.  Select **Billing** > **Subscription**.
+2.  Select **Billing** > **Subscriptions**.
 
     ![Select Subscription](media/subscription-office-365-admin-center.png "Select Subscription")
 
@@ -79,7 +79,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 ## Install Dynamics 365 for Sales Enterprise solution
 
-1.	In the Office 365 admin center, select **Admin Center** > **Dynamics 365**.
+1.	In the Office 365 admin center, select **Admin Centers** > **Dynamics 365**.
 
     ![Dynamics 365 admin center in Office 365 nav bar](media/select-admin-center.png "Dynamics 365 admin center in Office 365 nav bar")
     
