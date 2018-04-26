@@ -1,7 +1,8 @@
 ---
-title: "Use the Virtual Entity OData v4 Data Provider with Dynamics 365 Customer Engagement | MicrosoftDocs"
+title: "Use the virtual entity OData v4 data provider with PowerApps | MicrosoftDocs"
+description: "Learn how to use the Virtual entity OData v4 data provider"
 ms.custom: ""
-ms.date: "09/30/2017"
+ms.date: "04/26/2018"
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,24 +11,25 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 4cf0d6f6-870b-4ca6-80de-426494a8c2f5
 caps.latest.revision: 
 author: "Mattp123"
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 
 # OData v4 Data Provider configuration, requirements, and best practices
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-This topic describes how to configure the OData v4 Data Provider as well as the requirements and recommended best practices for using the OData v4 data provider to connect with an OData v4 web service. 
+This topic describes how to configure the OData v4 data provider as well as the requirements and recommended best practices for using the OData v4 data provider to connect with an OData v4 web service. 
 
 ## OData v4 data provider best practices
 
-- [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] requires that all entities have an ID attribute, this ID is known as a unique identifier and the value must be a guid.  You can only map ID fields to external fields with the EDM.Guid data type.  You can’t map an EDM.Int32 data type to a uniqueidentifer data type field in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].
+- Your [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] environment requires that all entities have an ID attribute, this ID is known as a unique identifier and the value must be a guid.  You can only map ID fields to external fields with the EDM.Guid data type.  You can’t map an EDM.Int32 data type to a uniqueidentifer data type field in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)].
 
--  OData entities with nullable properties must be set to match the mapped field in the virtual entity. For example, an OData entity property with Nullable=False must have the mapped field in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Field Requirement attribute set to **Business Required**. 
+-  OData entities with nullable properties must be set to match the mapped field in the virtual entity. For example, an OData entity property with Nullable=False must have the mapped field in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Field Requirement attribute set to **Business Required**. 
 
 - For retrieve multiple queries, such as when you load data in to a grid, control the size of the dataset returned from the external data source by using the select and filter query parameters.
 
@@ -38,7 +40,7 @@ This topic describes how to configure the OData v4 Data Provider as well as the 
 The following table lists the OData Entity Data Model (EDM) data type mappings with Dynamics 365 Customer Engagement data types. 
 
 
-|OData Data Type  |[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Data Type  |
+|OData Data Type  | [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Data Type  |
 |---------|---------|
 |Edm.Boolean   |    Two Options     |
 |Edm.DateTime     |    Date and Time     |
@@ -72,11 +74,11 @@ Edm.String    |    Single Line of Text or Multiple Lines of Text     |
   
 1.  Go to **Settings** > **Administration** > **Virtual Entity Data Sources**.  
   
-2.  On the actions toolbar, click **New**.  
+2.  On the actions toolbar, select **New**.  
   
-3.  On the Select  Data Provider dialog box, select from the following data sources, and then click **OK**.  
+3.  On the Select  Data Provider dialog box, select from the following data sources, and then select **OK**.  
   
-    - **OData v4 Data Provider**. [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] includes an Odata v4 data provider that can be used to connect to data sources that support the OData v4 open standard.  
+    - **OData v4 Data Provider**. Your environment includes an Odata v4 data provider that can be used to connect to data sources that support the OData v4 open standard.  
   
     -   *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
   
@@ -91,7 +93,7 @@ Edm.String    |    Single Line of Text or Multiple Lines of Text     |
     - **Pagination mode**. Select whether to use client-side or server-side paging to control how query results are paged. The default value is client-side paging. With server-side paging, the server controls how results are paged by using the $skiptoken parameter, which is added to the query string. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skip Token System Query Option ($skiptoken)](https://msdn.microsoft.com/library/dd942121.aspx)  
         -  **Return inline count**. Returns the total number records in the result set. This setting is used to enable next page functionality when you return data to a grid. Use a value of false if your OData endpoint doesn't support the OData $inclinecount parameter. The default value is false.
   
-    - **Request Parameters**. Optionally, you can add custom header or query string parameters used to connect to the OData web service, such as authentication parameters to the external service. Click **Query String** to toggle between header and query string parameter and value. Up to 10 header or query strings can be added.  
+    - **Request Parameters**. Optionally, you can add custom header or query string parameters used to connect to the OData web service, such as authentication parameters to the external service. Select **Query String** to toggle between header and query string parameter and value. Up to 10 header or query strings can be added.  
   
  ![Virtual entity data source record](../customize/media/virtual-entity-data-source.png "Virtual entity data source record") 
 
