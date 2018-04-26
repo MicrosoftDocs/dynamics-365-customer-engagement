@@ -1,7 +1,8 @@
 ---
-title: "Change navigation within a form (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Change navigation within a form in PowerApps | MicrosoftDocs"
+description: "Learn how to change the navigation within a form"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/24/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 4c379202-9f0e-4003-a49c-efff53e7f79f
 caps.latest.revision: 63
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Change navigation within a form
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
- Navigation within a Dynamics 365 Customer Engagement form allows people to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation pane item for primary entity](create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)  
+ Navigation within a form allows app users to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation pane item for primary entity](create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)  
   
  Any entity relationships that are configured to be displayed can be overridden within the form editor. You can also include navigation links to display web resources or other web sites via form navigation.  
   
