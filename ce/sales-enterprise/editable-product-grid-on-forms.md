@@ -29,13 +29,13 @@ With Dynamics 365 (online), version 9.0.2, the product editable grid is added ou
 
 If you’re upgrading to [!INCLUDE[pn-crm-9-0-2-online](../includes/pn-crm-9-0-2-online.md)] and you’ve made customizations to the **Product Line Items** or **Products** sections of these forms, your customizations will prevail, and the product editable grid won’t be added to the forms by default. You must manually enable the product editable grid, though the product grid configurations for the editable grid already will be defined. If there are no customizations to these sections, the Products grid will be automatically configured and enabled after the upgrade. 
 
-To enable the editable products grid on the Opportunity, Quote, Order, or Invoice form
+To enable the editable products grid on the Opportunity, Quote, Order, or Invoice form:
 
 1. Go to **Settings** > **Customization**. 
 
 2. Select **Customize the System** to open the default solution. 
-
-3. Under **Components**, expand **Entities**, and then the entity you want, and select **Forms**. 
+<!--Note to author: please check rewording of the following step.-->
+3. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. 
 
 4. In the list of forms, open the form of type Main.
 
@@ -43,15 +43,15 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
     ![Action Cards area in the Product Line Items section](media/action-cards-area-product-line-items-section.png "Action Cards area in the Product Line Items section")
     
-    **- OR –** 
+    **– OR –** 
     
     If you’re enabling the editable product grid in the Quote, Order, or Invoice form, select the **Products** area in the **Products** section, and in the **Edit** group, select **Change Properties**.
   
     ![Products area](media/products-area.png "Products area in the Products section")
 
-6.	In the **Set Properties** dialog box, select the devices on which you want the editable grid to be available by selecting the corresponding radio button. Currently, the editable grid is optimized to work on Web.
+6.	In the **Set Properties** dialog box, select the devices on which you want the editable grid to be available by selecting the corresponding radio button. Currently, the editable grid is optimized to work on the web.
 
-    ![Editable Grid control in the Set Properties dialog box](media/editable-grid-set-properties-dialog-box.png "Editable Grid control in the Set Properties dialog box")
+    ![Editable grid control in the Set Properties dialog box](media/editable-grid-set-properties-dialog-box.png "Editable grid control in the Set Properties dialog box")
 
     Notice that the properties of the editable grid such as Grid view or Nested grid view are preconfigured by default.
  
