@@ -9,7 +9,7 @@
 ### [Forward mailbox vs. individual mailboxes](dynamics-365-outlook-user-s-guide.md)
 ### [Recover from Exchange Server failure](dynamics-365-outlook-user-s-guide.md)
 
-# [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)
+# [Dynamics 365 for Outlook User's Guide](user-guide/dynamics-365-outlook-user-s-guide.md)
 
 ## Set up and configure
 ### [Set up](user-guide/set-up.md)
