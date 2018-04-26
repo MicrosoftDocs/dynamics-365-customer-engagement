@@ -16,7 +16,6 @@ manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 51
 topic-status: Drafting
 ---
 
