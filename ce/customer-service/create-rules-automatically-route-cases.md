@@ -89,6 +89,6 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
   
 ### See also 
  [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   
- [Create or change a queue](../customer-service/create-edit-queue.md)</br>
+ [Create and manage queues](create-manage-queues.md)</br>
  [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
  [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)   
