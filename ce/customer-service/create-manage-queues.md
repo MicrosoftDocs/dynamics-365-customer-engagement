@@ -70,9 +70,8 @@ Follow the procedure given below to create a queue:
   
 3.  To create a new queue, click **New**.  
   
-     -OR-  
-  
-     To edit a queue, double-click the queue in the queues list that you want to edit.
+    > [!NOTE]
+    > To edit a queue, double-click the queue in the queues list that you want to edit.
   
 4.  Type or change information in the text boxes.  
   
