@@ -1,25 +1,25 @@
 ---
-title: Create or change a queue (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Know how to create or change a queue for Dynamics 365 for Customer Service
-keywords: Create a queue; change a queue; Dynamics 365; Customer Service
+title: Set up queues to manage activities and cases (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to create and manage queues in Dynamics 365 for Customer Service 
+keywords: Dynamics 365; Customer Service; create queues; manage queues; route cases to queues
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/15/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: crm-online
-ms.assetid: c81b3c1b-3b83-409e-b569-a4b4c0a3245e
+ms.assetid: deef5606-bbd9-452a-bc0c-63abdd658a81
 ---
 
-# Create or change a queue
+# Create and manage queues
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Make sure that activities or unresolved cases are acted upon faster by using queues in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
-  
+Use queues to organize, prioritize, and monitor the progress of your work. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case.  
+
  Queues can be useful in:  
   
 -   Having a centralized list of pending work that needs attention  
@@ -41,8 +41,14 @@ Use queues to categorize and prioritize your activities and cases. You can categ
 >   
 >  See Blog: [CRM Queue with an Office 365 Shared Mailbox](http://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
   
-## Create or change a queue  
+## Create queues  
+ By default, a queue is created for each user and team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. For example, you could create separate queues for First tier and Second tier product support teams that reflect their differing levels of expertise, or Gold and Silver queues to reflect differing priorities based on service contracts that customers have with your organization.  
   
+ [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of queues: 
+
+- **Private queues**: Create private queues with limited sets of members to let only those members view the items in the queue.
+- **Public queues**: Create public queues to let everyone in the organization view the items in a queue.  
+
 1.  Make sure that you have the Sales or Marketing Manager, Customer Service Manager, System Administrator, or System Customizer security role or equivalent permissions.  
   
     #### Check your security role  
@@ -87,18 +93,24 @@ Use queues to categorize and prioritize your activities and cases. You can categ
  >  The **Record creation and update rules** section displays rules using the **Email Activity Conversation Setting**  or **Social Activity Conversation Setting** and that have the same queue ID as the queue.   
  >  Multiple rules with the same source type and same queue can exist. Therefore, when you click **Email Activity Conversion Settings** or **Social Activity Conversion Settings**, the rule with the latest **Last Modified On** date is applied.  
   
-6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
-  
+6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)] 
+
+
 ## View queue items  
- In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue will be listed here.  
+ In the **Queue Items** section, all activities that are either routed to this queue automatically by the routing rules or the activities that are manually assigned to this queue will be listed here.    
   
+## Route items to queues  
+ For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then assign the items in the queue to appropriate CSRs or users. Alternatively, you can manually add cases and activities to queues.  
+  
+## Assign items in the queue to work  
+ Queues share cases or activities as a group until these are taken out of the queue, or accepted, by a customer service representative (CSR) who assumes responsibility for handling them. CSRs can pick the items for themselves, or a customer service manager (CSM) can manually route these cases to the CSRs or to other queues, users, or teams.  
+
 ## Additional actions  
  To create records for this queue, on the command bar, click **Email Activity Conversation Settings** or **Social Activity Conversation Settings**.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up rules to automatically create or update records](../customer-service/set-up-rules-to-automatically-create-or-update-records.md) or [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)  
-  
 ### See also  
- [Queues overview](../customer-service/set-up-queues-manage-activities-cases.md)<br /> 
- [User Guide (Customer Service)](../customer-service/user-guide-customer-service.md)<br />   
- 
-   
+ [Create or change a queue](../customer-service/create-edit-queue.md)<br> 
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
+ [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)</br>
+ [Find what's assigned to you in a queue (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)</br>
+ [Find what's assigned to you in a queue (Customer Service)](../customer-service/user-guide-customer-service.md) 

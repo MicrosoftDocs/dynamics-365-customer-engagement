@@ -41,7 +41,7 @@ Use the following links to learn about Service Management tasks:
   
 ## Case settings  
 
-[Queues](set-up-queues-manage-activities-cases.md)
+[Create and manage queues](create-manage-queues.md)
 
 [Case Settings](define-settings-parent-child-cases.md)
 
