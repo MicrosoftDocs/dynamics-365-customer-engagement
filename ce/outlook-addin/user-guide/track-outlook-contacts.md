@@ -40,7 +40,7 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
   
          When you choose the **Track** button or the **Set Parent** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the contact record. This pane shows that the contact is tracked and provides links to related records. If you choose the **Set Parent** button, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] also provides a link to the parent record. [Tell me more about how tracking works](http://go.microsoft.com/fwlink/p/?LinkID=510100)  
   
-         In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the **Tracked in Dynamics 365** icon ![trackincrm](media/trackincrm.gif "trackincrm") is displayed next to any tracked contacts.  
+         In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the **Tracked in Dynamics 365** icon ![trackincrm](../media/trackincrm.gif "trackincrm") is displayed next to any tracked contacts.  
   
 3.  To add additional information about the contact to the Contact form in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], choose the contact, and then in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, choose **View in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**.  
   

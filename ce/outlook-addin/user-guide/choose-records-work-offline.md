@@ -48,7 +48,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
      [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] displays the **Go Offline Settings** dialog box with the **User Filters** tab selected. You can use this tab to create or edit a filter, or to delete, activate, or deactivate a filter.  
   
-     ![Go offline settings in Dynamics 365 for Outlook](media/crmforoutlook-offline-sync-filters.png "Go offline settings in Dynamics 365 for Outlook")  
+     ![Go offline settings in Dynamics 365 for Outlook](../media/crmforoutlook-offline-sync-filters.png "Go offline settings in Dynamics 365 for Outlook")  
   
     > [!NOTE]
     >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
@@ -62,7 +62,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
 ## Creating or modifying filter criteria  
  You use a criteria row to create or modify criteria in an offline synchronization filter. Each criteria row contains three values: the field to use in the filter (for example, **City**), an operator (for example, **Equals** or **Contains**), and the value to filter on (for example, **WA**).  
   
- ![Sync or offline filters criteria grid in Dynamics 365](media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
+ ![Sync or offline filters criteria grid in Dynamics 365](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
   
 #### Add a criteria row  
   
@@ -84,7 +84,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
  After creating a group, you can click the down arrow next to the **And** or **Or** to select from different options. You can select a group, ungroup the group, change a Group AND to a Group OR or vice versa, add a clause, or delete a group.  
   
- ![Sync filters dialog box showing grouped criteria](media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
+ ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
 ## See Also  
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   

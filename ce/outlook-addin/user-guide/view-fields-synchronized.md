@@ -37,11 +37,11 @@ In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or lat
   
 2.  On the **Synchronize** button, click the down arrow, and then click **Review Synchronization Settings**.  
   
-     ![Synchronize Filters button](media/synchronize-filters-button.png "Synchronize Filters button")  
+     ![Synchronize Filters button](../media/synchronize-filters-button.png "Synchronize Filters button")  
   
 3.  In the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]** dialog box, click the **Synchronization Fields** tab.  
   
-     ![Field&#45;level Sync tab in Dynamics 365](media/field-level-sync-tab.png "Field-level Sync tab in Dynamics 365")  
+     ![Field&#45;level Sync tab in Dynamics 365](../media/field-level-sync-tab.png "Field-level Sync tab in Dynamics 365")  
   
 4.  In the **Entity Type** list, select the record type you want to view.  
   
@@ -50,10 +50,10 @@ In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or lat
     |||  
     |-|-|  
     |**This indicator**|**Shows that the fields**|  
-    |![One&#45;way sync arrow &#40;right&#41; in Dynamics 365](media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365")|Are synced one way from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]|  
-    |![One&#45;way sync arrow &#40;left&#41; in Dynamics 365](media/one-way-sync-arrow-left.png "One-way sync arrow (left) in Dynamics 365")|Are synced one way from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|  
-    |![Two&#45;way sync arrow in Dynamics 365](media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365")|Are synced two way|  
-    |![No synchronization arrow for Dynamics 365](media/no-sync-arrow.png "No synchronization arrow for Dynamics 365")|Aren’t synced|  
+    |![One&#45;way sync arrow &#40;right&#41; in Dynamics 365](../media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365")|Are synced one way from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]|  
+    |![One&#45;way sync arrow &#40;left&#41; in Dynamics 365](../media/one-way-sync-arrow-left.png "One-way sync arrow (left) in Dynamics 365")|Are synced one way from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|  
+    |![Two&#45;way sync arrow in Dynamics 365](../media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365")|Are synced two way|  
+    |![No synchronization arrow for Dynamics 365](../media/no-sync-arrow.png "No synchronization arrow for Dynamics 365")|Aren’t synced|  
   
     > [!NOTE]
     >  Field synchronization direction can be impacted by security settings configured by your system administrator. For example, if you don’t have read privileges for a field, it won’t be synchronized in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] even if the field is configured for two-way synchronization. To determine whether you have read privileges for a field, click the **View in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** button to open the record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you see the **Lock** icon, you can’t access the field.  

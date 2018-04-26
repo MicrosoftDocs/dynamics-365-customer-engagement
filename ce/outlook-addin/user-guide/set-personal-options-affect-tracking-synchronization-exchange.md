@@ -29,7 +29,7 @@ You can use the **Set Personal Options** dialog box in [!INCLUDE[pn_microsoft_dy
   
      -Or-  
   
--   In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], click the **Settings** button ![Options button for Dynamics 365](media/optionsbutton.png "Options button for Dynamics 365") in the upper-right corner of the screen, and then click **Options**.  
+-   In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], click the **Settings** button ![Options button for Dynamics 365](../media/optionsbutton.png "Options button for Dynamics 365") in the upper-right corner of the screen, and then click **Options**.  
   
  The following table summarizes the tracking and synchronization options available in the **Set Personal Options** dialog box. The **Available** column indicates whether the option is available in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], or both. This column also indicates if the option is available for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization, server-side synchronization (also known as “[!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] synchronization”), or both. More information: [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)  
   

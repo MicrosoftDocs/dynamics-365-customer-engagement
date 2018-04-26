@@ -34,7 +34,7 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
   
      You’ll see the following (or similar) dialog box:  
   
-     ![Outlook Configuration Wizard dialog box in Dynamics 365](media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365")  
+     ![Outlook Configuration Wizard dialog box in Dynamics 365](../media/crm-outlook-configure.png "Outlook Configuration Wizard dialog box in Dynamics 365")  
   
 4.  Do one of the following:  
   

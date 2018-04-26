@@ -48,7 +48,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
   
  You’ll see a folder for your organization in the navigation pane on the left side of the screen. Under your organization name, you’ll see a list of Dynamics 365 folders. Use these folders to navigate to your area and open different record types.  
   
- ![Dynamics 365 for Outlook navigation pane](media/crm-outlook-navigation-pane.png "Dynamics 365 for Outlook navigation pane")  
+ ![Dynamics 365 for Outlook navigation pane](../media/crm-outlook-navigation-pane.png "Dynamics 365 for Outlook navigation pane")  
   
  If you connect to more than one organization, you’ll see a separate folder for each organization in the navigation pane.  
   
@@ -56,7 +56,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
   
  You access commands in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] through the ribbon. The ribbon displays different buttons and features depending on context. For example, if you view a list of opportunities, the ribbon displays buttons that apply to opportunities. For appointments, contacts, and tasks, you’ll see a special **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** section on the ribbon.  
   
- ![Dynamics 365 highlighted on ribbon in Dynamics 365 for Outlook](media/crm-outlook-ribbon.png "Dynamics 365 highlighted on ribbon in Dynamics 365 for Outlook")  
+ ![Dynamics 365 highlighted on ribbon in Dynamics 365 for Outlook](../media/crm-outlook-ribbon.png "Dynamics 365 highlighted on ribbon in Dynamics 365 for Outlook")  
   
  **Lists, views, and the reading pane**  
   
@@ -64,7 +64,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
   
  When you select a record in a list, the details for that record are displayed in the reading pane below the list. Data in the reading pane is read only—it’s a quick way to view the contents of a record. If you want to edit the data in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], just double-click the record in the list.  
   
- ![List and reading pane in Dynamics 365 for Outlook](media/crm-outlook-list-and-reading-pane.png "List and reading pane in Dynamics 365 for Outlook")  
+ ![List and reading pane in Dynamics 365 for Outlook](../media/crm-outlook-list-and-reading-pane.png "List and reading pane in Dynamics 365 for Outlook")  
   
  You can change the location of the reading pane or turn it off or on. You can also customize what you see in the reading pane. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane.md)  
   

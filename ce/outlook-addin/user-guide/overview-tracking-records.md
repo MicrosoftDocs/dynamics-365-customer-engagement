@@ -33,7 +33,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ## Using the Track button vs. the Set Regarding button  
  To track a record in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you click or tap the **Track** button or the **Set Regarding** button for the record you want to track.  
   
- ![Two Tracking and Set Regarding buttons in Dynamics 365](media/tracking-and-set-regarding-buttons.png "Two Tracking and Set Regarding buttons in Dynamics 365")  
+ ![Two Tracking and Set Regarding buttons in Dynamics 365](../media/tracking-and-set-regarding-buttons.png "Two Tracking and Set Regarding buttons in Dynamics 365")  
   
  You can use either button to track a record, but it’s almost always better to use the **Set Regarding** button. When you use the **Set Regarding** button, you can link an email message, appointment, or task to a specific [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record such as an account or opportunity, or even a custom record type (entity). Some organizations also use the **Set Regarding** button to track projects.  
   
@@ -55,7 +55,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
  For example, the following screen shot shows the tracking pane for a tracked task linked to the Adventure Works account:  
   
- ![Tracking Pane with Set Regarding record in Dynamics 365](media/tracking-pane.png "Tracking Pane with Set Regarding record in Dynamics 365")  
+ ![Tracking Pane with Set Regarding record in Dynamics 365](../media/tracking-pane.png "Tracking Pane with Set Regarding record in Dynamics 365")  
   
  You can open the regarding record, parent record for a contact, or related records directly from the tracking pane. The tracking pane also includes an **Options** button that provides quick access to personal tracking options.  
   
@@ -69,12 +69,12 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ||||  
 |-|-|-|  
 |**To do this task**|**Choose**|**Applies to**|  
-|Open the record directly in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]|![View in Dynamics 365 button image in Dynamics 365](media/view-crm-button.png "View in Dynamics 365 button image in Dynamics 365")|Email, appointments, contacts, and tasks|  
-|Add a connection between the record and any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record capable of tracking connections|![Add Connection button image in Dynamics 365](media/add-connection-button.png "Add Connection button image in Dynamics 365")|Email, appointments, contacts, and tasks|  
-|Convert the record into a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] opportunity, lead, or case|![Convert To button image in Dynamics 365](media/convert-button.png "Convert To button image in Dynamics 365")|Email, appointments, and tasks|  
-|Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] template|![Insert Template button](media/insert-template-button.png "Insert Template button")|Email|  
-|Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Knowledge base article|![Insert Article button image in Dynamics 365](media/insert-article-button.png "Insert Article button image in Dynamics 365")|Email|  
-|Attach [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] sales literature|![Attach Sales Literature button image in Dynamics 365](media/attach-sales-literature-button.png "Attach Sales Literature button image in Dynamics 365")|Email|  
+|Open the record directly in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]|![View in Dynamics 365 button image in Dynamics 365](../media/view-crm-button.png "View in Dynamics 365 button image in Dynamics 365")|Email, appointments, contacts, and tasks|  
+|Add a connection between the record and any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record capable of tracking connections|![Add Connection button image in Dynamics 365](../media/add-connection-button.png "Add Connection button image in Dynamics 365")|Email, appointments, contacts, and tasks|  
+|Convert the record into a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] opportunity, lead, or case|![Convert To button image in Dynamics 365](../media/convert-button.png "Convert To button image in Dynamics 365")|Email, appointments, and tasks|  
+|Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] template|![Insert Template button](../media/insert-template-button.png "Insert Template button")|Email|  
+|Insert a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Knowledge base article|![Insert Article button image in Dynamics 365](../media/insert-article-button.png "Insert Article button image in Dynamics 365")|Email|  
+|Attach [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] sales literature|![Attach Sales Literature button image in Dynamics 365](../media/attach-sales-literature-button.png "Attach Sales Literature button image in Dynamics 365")|Email|  
   
 > [!TIP]
 >  If these buttons aren’t available, it may be that the record marked to be tracked isn’t synchronized yet. This can happen if your organization uses server-side synchronization to synchronize email, appointments, contacts, and tasks, but the synchronization hasn’t happened yet. If the **View in Dynamics 365** button is enabled, the record has been synchronized. You can also use the tracking pane (as described previously) to determine whether the record has been synchronized.  

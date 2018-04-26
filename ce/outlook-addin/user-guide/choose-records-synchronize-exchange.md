@@ -32,7 +32,7 @@ manager: "brycho"
   
 1.  Go to **Options**:  
   
-    -   In the web app: In the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](media/priv-user.gif "User profile Settings button") > **Options**.  
+    -   In the web app: In the upper-right corner of the screen, click the **Settings** button ![User profile Settings button](../media/priv-user.gif "User profile Settings button") > **Options**.  
   
     -   In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]: Click **File** > **Dynamics 365** > **Options**.  
   
@@ -42,7 +42,7 @@ manager: "brycho"
   
      [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] displays the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]** dialog box with the **User Filters** tab selected. You can use this tab to create or edit a filter, or to delete, activate, or deactivate a filter.  
   
-     ![Online synchronization filters](media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
+     ![Online synchronization filters](../media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   
     > [!NOTE]
     >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
@@ -56,7 +56,7 @@ manager: "brycho"
 ## Create or modify filter criteria  
  You use a criteria row to create or modify criteria in an offline synchronization filter. Each criteria row contains three values: the field to use in the filter (for example, **City**), an operator (for example, **Equals** or **Contains**), and the value to filter on (for example, **WA**).  
   
- ![Sync or offline filters criteria grid in Dynamics 365](media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
+ ![Sync or offline filters criteria grid in Dynamics 365](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
   
 #### Add a criteria row  
   
@@ -78,7 +78,7 @@ manager: "brycho"
   
  After creating a group, you can click the down arrow next to the **And** or **Or** to select from different options. You can select a group, ungroup the group, change a Group AND to a Group OR or vice versa, add a clause, or delete a group.  
   
- ![Sync filters dialog box showing grouped criteria](media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
+ ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
 ## See Also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
