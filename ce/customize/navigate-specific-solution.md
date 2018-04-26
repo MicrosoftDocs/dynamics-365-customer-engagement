@@ -18,6 +18,7 @@ caps.latest.revision: 12
 ms.author: "matp"
 manager: "kvivek"
 ---
+
 # Navigate to a specific solution
 
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
@@ -35,5 +36,4 @@ If your organization already has a specific solution you should work in, this is
  When you’re in the solution, you’ll see solution components. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add Solution Components](../customize/solutions-overview.md)  
 
  ### See also
-
- [Solutions overview](solutions-overview)
+ [Solutions overview](solutions-overview.md)
