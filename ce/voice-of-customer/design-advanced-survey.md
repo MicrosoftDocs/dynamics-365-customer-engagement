@@ -264,7 +264,7 @@ You can configure your survey to create a lead automatically from a survey respo
 
 6.  From the **Survey** box, select **Designer**.
 
-7.  Edit the questions you want to configure to create the lead by selecting a lead attribute from the **Response Mapping** list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](#store-responses-in-a-custom-field-by-using-response-mapping)  
+7.  Edit the questions you want to configure to create the lead by selecting a lead attribute from the **Response Mapping** list. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](analyze-survey-data.md#store-responses-in-a-custom-field-by-using-response-mapping)  
 
     ![Response mapping to create lead](media/lead-response-mapping.png "Response mapping to create a lead")  
 
