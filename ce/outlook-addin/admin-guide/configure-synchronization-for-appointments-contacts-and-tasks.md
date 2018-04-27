@@ -28,7 +28,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
 ## Enable appointment attachment synchronization with Outlook or Exchange  
   
 > [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set up and manage email processing and Dynamics 365 for Outlook](../Topic/Integrate%20\(synchronize\)%20your%20email%20system%20with%20Microsoft%20Dynamics%20365.md)  
+>  This section applies to message synchronization done through [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Integrate your email system](../../admin/integrate-synchronize-your-email-system.md) 
   
  Users can attach documents, pictures, recordings, etc. to the appointments they create in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. By default, appointment attachment synchronization is disabled. To enable:  
   
@@ -51,7 +51,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
 ## Address synchronization for Contacts  
   
 > [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set up and manage email processing and Dynamics 365 for Outlook](../Topic/Integrate%20\(synchronize\)%20your%20email%20system%20with%20Microsoft%20Dynamics%20365.md)  
+>  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or server-side synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Integrate your email system](../../admin/integrate-synchronize-your-email-system.md)
   
  Admins have two options they can specify for how contact synchronization occurs.  
   
@@ -66,12 +66,12 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
 > [!WARNING]
 >  Enabling this option can cause data loss if you have existing data. This is due to the remapping of the attributes for existing tracked contacts. We recommend you test this option prior to deployment to understand how the re-mapping affects your environment and your data. In most cases, you should have the full data in one side (normally in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]) and have them sync to the other side (normally [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  
 >   
->  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [What fields can be synchronized between Dynamics 365 and Dynamics 365 for Outlook?](523462c5-8d29-49a6-9e05-e8b484f854dd.md)  
+>  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized-between-dynamics-365-outlook.md)
   
 ## Enable synchronization for tasks that are assigned in Outlook  
   
 > [!NOTE]
->  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set up and manage email processing and Dynamics 365 for Outlook](../Topic/Integrate%20\(synchronize\)%20your%20email%20system%20with%20Microsoft%20Dynamics%20365.md)  
+>  This section applies to message synchronization done through [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Integrate your email system](../../admin/integrate-synchronize-your-email-system.md)  
   
  By default, task synchronization is disabled. User created tasks in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are not synchronized with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application. To enable:  
   

@@ -181,5 +181,3 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 ## See Also  
  [Install Dynamics 365 for Outlook](install-dynamics-365-for-outlook.md)   
  [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)   
- [Install Microsoft Dynamics 365 Server by using a command prompt](../Topic/Install%20Microsoft%20Dynamics%20CRM%20Server%20by%20using%20a%20command%20prompt.md)   
- [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)

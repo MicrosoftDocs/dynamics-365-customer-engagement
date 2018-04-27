@@ -99,4 +99,4 @@ Securing a field in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md
   
 ## See Also  
  [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)   
- [Field level security](../Topic/Field%20level%20security.md)
+ [Field level security to control access](../../admin/field-level-security.md)

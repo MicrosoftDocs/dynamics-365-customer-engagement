@@ -91,4 +91,4 @@ Group Policy provides an infrastructure for centralized configuration management
 ## See Also  
  [Advanced deployment options for Microsoft Dynamics 365 for Outlook](advanced-deployment-options-for-microsoft-dynamics-365-for-outlook.md)   
  [Install Microsoft Dynamics CRM 2015 for Outlook with roaming user profiles using Windows Server Remote Desktop Services](install-microsoft-dynamics-365-for-outlook-for-desktop-virtualization.md)   
- [Install or upgrade Language Packs for Microsoft Dynamics 365](../Topic/Install%20or%20upgrade%20Language%20Packs.md)
+ [Install or upgrade Language Packs for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx)

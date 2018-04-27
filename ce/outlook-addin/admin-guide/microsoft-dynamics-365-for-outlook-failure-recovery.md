@@ -34,4 +34,3 @@ manager: "brycho"
   
 ## See Also  
  [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)   
- [Microsoft Dynamics 365 failure recovery](../Topic/Microsoft%20Dynamics%20365%20failure%20recovery.md)

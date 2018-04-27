@@ -40,7 +40,7 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
   
 5.  Choose **OK** > **OK** to close the open dialog boxes.  
   
- Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][What fields can be synchronized between Dynamics 365 and Dynamics 365 for Outlook?](523462c5-8d29-49a6-9e05-e8b484f854dd.md)  
+ Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized-between-dynamics-365-outlook.md)  
   
 ## Performance and synchronization  
  Configuring synchronization might have an impact on the time it takes to sync between [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. You should test your configuration before deploying to ensure satisfactory sync times.  
@@ -50,11 +50,11 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
   
  Best practice is to review the security settings for these security methods to ensure field synchronization is processes as desired. For more information see:  
   
--   Securing roles: [Create or edit a security role](../Topic/Create%20or%20edit%20a%20security%20role.md)  
+-   Securing roles: [Create or edit a security role to manage access](../../admin/create-edit-security-role.md)
   
--   Securing fields: [Help & Training: Add or remove security from a field](http://go.microsoft.com/fwlink/p/?LinkID=512921)  
+-   Securing fields: [Enable or disable security for a field](https://technet.microsoft.com/library/mt812240.aspx)  
   
- [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [How field security affects synchronization between Dynamics 365 and Dynamics 365 for Outlook](5df0b13a-846a-4822-83cc-8efaaf3395fb.md) and [Security concepts for Microsoft Dynamics 365](../Topic/Security%20concepts%20for%20Microsoft%20Dynamics%20365.md)  
-  
+ [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [How field security affects synchronization between Dynamics 365 and Dynamics 365 for Outlook](field-security-syncronization.md) and [Security concepts](../../admin/security-concepts.md)
+
 ## See Also  
  [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)
