@@ -1,18 +1,19 @@
 ---
-title: "Types of fields and field data types (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "Types of fields and field data types in PowerApps | MicrosoftDocs"
+description: "Understand the different field and data types available for your app"
 keywords: ""
-ms.date: 10/30/2017
+ms.date: 04/25/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "udaykirang"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
-ms.author: udag
-manager: sakudes
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,11 +23,11 @@ topic-status: Drafting
 
 # Types of fields and field data types
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_TypesOfFields"></a>   
 ## Types of fields  
- The following table contains information about the field types available in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+ The following table contains information about the field types available in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)].  
   
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  
@@ -89,7 +90,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 > [!NOTE]
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] and [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
   
- In previous releases, several out-of-the-box entities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
+ In previous releases of Dynamics 365 customer engagement, several out-of-the-box entities such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
   
  Let's look at the following business scenario. Your company is an insurance provider. You use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to manage your customer interactions and standardize business processes. It’s important for you to know if a recipient of policies or claims is an individual or a company. To address this business requirement, you can create two custom entities: Policies and Claims.  To get and track the customer information you want, add the Customer lookup field to the Policies entity and the Claims entity, by using the new Customer field capability.  
   
@@ -176,7 +177,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 |Publisher *|Queue|Resource *|  
 |Sales Literature|Territory|User*|  
   
- Even though an entity has an image field, displaying that image in the application requires an additional step. In the entity definition the **Primary Image** field values are either **[None]** or **Entity Image**. Click **Entity Image** to display the image in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing entities](../customize/create-edit-entities.md)  
+ Even though an entity has an image field, displaying that image in the application requires an additional step. In the entity definition the **Primary Image** field values are either **[None]** or **Entity Image**. Select **Entity Image** to display the image in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing entities](../customize/create-edit-entities.md)  
   
  When image display is enabled for an entity, any records that don’t have an image will display a placeholder image. For example, the Lead entity:  
   
