@@ -1,7 +1,8 @@
 ---
-title: "Create and edit virtual entities (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create and edit virtual entities with PowerApps | MicrosoftDocs"
+description: "Learn how to create virtual entities"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 04/26/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,25 +11,26 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 44834893-0bf6-4a64-8f06-7583fe08330d
 caps.latest.revision: 11
 author: "Mattp123"
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Create and edit virtual entities that contain data from an external data source
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-A virtual entity is a custom entity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] that has fields containing data from an external data source. Virtual entities appear in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to users as regular [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entity records, but contain data that is sourced from an external database, such as an [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. Records based on virtual entities are available in all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] clients including custom clients developed using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
+A virtual entity is a custom entity in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] that has fields containing data from an external data source. Virtual entities appear in your app to users as regular entity records, but contain data that is sourced from an external database, such as an [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)]. Records based on virtual entities are available in all clients including custom clients developed using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)].  
   
- In the past, to integrate the disparate data sources you would need to create a connector to move data or develop a custom plug-in, either client or server-side. However, with virtual entities you can connect directly with an external data source  at runtime so that specific data from the external data source is available in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], without the need for data replication.  
+ In the past, to integrate the disparate data sources you would need to create a connector to move data or develop a custom plug-in, either client or server-side. However, with virtual entities you can connect directly with an external data source  at runtime so that specific data from the external data source is available in an environmnent, without the need for data replication.  
 
-Virtual entities are made up of three main components, a *data provider*, a *data source* record, and a *virtual entity*. The data provider consists of plug-ins and a data source entity. The data source is an entity record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], which includes metadata that represents the schema of the connection parameters. Each virtual entity references a data source in the entity definition.  
+Virtual entities are made up of three main components, a *data provider*, a *data source* record, and a *virtual entity*. The data provider consists of plug-ins and a data source entity. The data source is an entity record in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], which includes metadata that represents the schema of the connection parameters. Each virtual entity references a data source in the entity definition.  
   
-[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] includes an OData Data Provider that you can use to connect with an OData v4 web service that accesses the external data. 
+[!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] includes an OData Data Provider that you can use to connect with an OData v4 web service that accesses the external data. 
   
-Alternatively, developers can build their own data providers. Data providers are installed in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
+Alternatively, developers can build their own data providers. Data providers are installed in an environment as a solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](../developer/virtual-entities/get-started-ve.md)
   
  ![Virtual entity diagram](../customize/media/virtual-entity-diagram.png "Virtual entity diagram")  
   
@@ -37,7 +39,7 @@ Alternatively, developers can build their own data providers. Data providers are
   
 -   Developers can implement plugins to read external data using the [!INCLUDE[pn_sdk](../includes/pn-sdk.md)] and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plug-in Registration tool.  
   
--   System customizers use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement app to configure the data source record and create virtual entities that are used to access external data without writing any code.  
+-   System customizers use [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] to configure the data source record and create virtual entities that are used to access external data without writing any code.  
   
 -   End users work with the records created by the virtual entity to view the data in fields, grids, search results, and Fetch XML-based reports and dashboards.  
   
@@ -47,13 +49,13 @@ Alternatively, developers can build their own data providers. Data providers are
   
 1.  Go to **Settings** > **Administration** > **Virtual Entity Data Sources**.  
   
-2.  On the actions toolbar, click **New**.  
+2.  On the actions toolbar, select **New**.  
   
-3.  On the Select  Data Provider dialog box, select from the following data sources, and then click **OK**.  
+3.  On the Select  Data Provider dialog box, select from the following data sources, and then select **OK**.  
     
     -   *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
     
-    -   **OData v4 Data Provider**. [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] includes an OData Data Provider that can be used with OData v4 web services. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
+    -   **OData v4 Data Provider**. [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] includes an OData Data Provider that can be used with OData v4 web services. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [OData v4 Data Provider configuration, requirements, and best practices](virtual-entity-odata-provider-requirements.md)
   
 ### Add a secured field to a Data Source
 You create fields for a Data Source in the same way as any other entity. For data that is encrypted or sensitive, enable the Data Source Secret attribute on the custom field of the Data Source. For example, to secure a field that contains a database connection string. 
@@ -72,9 +74,9 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 1.  Go to **Settings** > **Customizations** > **Customize the System**.  
   
-2.  In the solution explorer, create a new entity. To do this, click **Entities** in the left navigation pane, and then click **New**.  
+2.  In the solution explorer, create a new entity. To do this, select **Entities** in the left navigation pane, and then select **New**.  
   
-3.  On the **General** tab of the **Entity Definition**, click **Virtual Entity**, and then in the **Data Source** drop down list, select the data source that you want.  
+3.  On the **General** tab of the **Entity Definition**, select **Virtual Entity**, and then in the **Data Source** drop down list, select the data source that you want.  
   
  ![Virtual Entity option on entity definition](../customize/media/virtual-entity-click-option.png "Virtual Entity option on entity definition")  
   
@@ -101,15 +103,15 @@ You create fields for a Data Source in the same way as any other entity. For dat
     >  If the field type you create is OptionSet, the following additional fields are available.  
     >   
     > - **External Type Name**. This property maps to the external name of the set of values in the external service for the option set.  Typically, this can be an enum or name of a string value class. The External Type Name can be used when a fully qualified name is required.  For example, as the *Type Name* with OData where parameters in a query need the fully qualified name, such as [*Type Name*].[*Value*].  
-    > - **External Value**. This property maps to the corresponding value in the external data source for the option set item.  This value entered is used to determine which option set item to display in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+    > - **External Value**. This property maps to the corresponding value in the external data source for the option set item.  This value entered is used to determine which option set item to display in the app.  
   
      Complete the additional properties as necessary. For more information about these properties, see [Create and edit fields](../customize/create-edit-fields.md).  
   
-6.  Click **Save and Close** on the **Field** properties page.  
+6.  Select **Save and Close** on the **Field** properties page.  
   
-7.  On the solution explorer toolbar, click **Save**.  
+7.  On the solution explorer toolbar, select **Save**.  
   
-8.  On the solution explorer toolbar, click **Publish**.  
+8.  On the solution explorer toolbar, select **Publish**.  
   
 9. Close solution explorer.  
 
@@ -133,9 +135,9 @@ You create fields for a Data Source in the same way as any other entity. For dat
   
 -   Many features that affect entity table rows cannot be enabled with virtual entities.  Examples include queues, knowledge management, SLAs, duplicate detection, change tracking, mobile offline  capability, field security, Relevance Search, Portals for Dynamics 365 web portal solutions, and N:N relationships between virtual entities.  
   
--   Virtual entities are organization owned and don't support the row-level [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] security concepts. We recommend that you implement your own security model for the external data source.  
+-   Virtual entities are organization owned and don't support the row-level Commond Data Service for Apps security concepts. We recommend that you implement your own security model for the external data source.  
   
--   We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] native data and the virtual entity external data isn't supported.  
+-   We recommend that you target a single data source when you use virtual entities in Advanced Finds. For example, creating an  Advanced Find that ultimately creates a join between the Common Data Service for Apps native data and the virtual entity external data isn't supported.  
    
 - Field metadata properties that validate on update don’t apply to virtual entities. For example, a Whole Number field on a virtual entity field may be set to have a minimum value of zero. However, since the value is coming from an external data source, a query will return values less than zero when retrieved from a virtual entity.  The minimum value property is not implied in the query.  You would still need to filter the values to be greater than 0 if that’s what is desired.
 
