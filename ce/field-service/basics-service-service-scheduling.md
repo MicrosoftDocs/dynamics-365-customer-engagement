@@ -44,7 +44,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
   
  You can create a simple rule that selects resources from a list, or a compound rule that selects a combination of resources, or a complex tree of selection rules that selects from groups of equivalent resources.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a simple selection rule](../customer-service/create-simple-selection-rule.md)  
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a simple selection rule](../field-service/create-simple-selection-rule.md)  
   
 ## Capacity vs. effort—understand the difference  
  You can set up services and resources in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to take into account different-sized facilities or the experience levels of your users when a service is scheduled. This is known as capacity scheduling. Capacity is a relative unit that you define. For example, you could define capacity in a bicycle repair shop as the number of bikes the shop has room to accommodate at the same time. If a repair bay has room for four bike-repair stations, the repair bay can accept four bikes for repair or inspection at the same time.  
@@ -58,10 +58,10 @@ Avoid disruptions in service by making sure that your resources are scheduled op
  For example, the repair bay has a capacity of four. A bike repair requires an effort of one and a tandem bike repair requires an effort of two. The first time the repair bay is selected, its capacity is reduced to three for that time. The next service activity scheduled is for a tandem bike. This reduces the repair bay's capacity by two. The repair bay has the capacity of one left, which means it could accept another bike repair, but not a tandem bike repair.  
   
 ## Add resources to existing services  
- You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up or change a service](../customer-service/create-edit-service.md)  
+ You can add as many resources as you want, and they can be a mix of individual users, facilities, equipment, and teams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up or change a service](../field-service/create-edit-service.md)  
   
 ## Use resource groups  
- Use resource groups to group users, facilities, and equipment as part of the selection rules for a service. You can add resources to a resource group from the service record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a resource group](../customer-service/create-edit-resource-group.md)  
+ Use resource groups to group users, facilities, and equipment as part of the selection rules for a service. You can add resources to a resource group from the service record. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or edit a resource group](../field-service/create-edit-resource-group.md)  
   
 ## Test your service  
  Before you start using a service, test it. Create a service activity with no criteria other than the service. You can use the results to confirm that the service is selecting correctly. The message bar will also display any problems with the search.  

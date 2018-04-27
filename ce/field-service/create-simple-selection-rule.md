@@ -85,5 +85,5 @@ You can also add resources to existing selection rules.
 >  After you set up the selection rule, create a service activity for the service rule and check the search results to verify that the results are what you expect.  
   
 ### See also     
- [Schedule a service activity](schedule-service-activity.md)   
+ [Schedule a service activity](../customer-service/schedule-service-activity.md)  
  [Create or change a resource group](create-edit-resource-group.md)

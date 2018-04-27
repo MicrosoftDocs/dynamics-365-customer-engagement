@@ -44,6 +44,6 @@ Create sites to define the locations where you provide service to your customers
 10. Click **Save and Close**.  
   
 ### See also  
- [Create or change a service](../customer-service/create-edit-service.md)   
+ [Create or change a service](../field-service/create-edit-service.md)   
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts.md)   
  [Find the next available time before creating a service activity](../customer-service/find-next-available-time-before-create-service-activity.md)

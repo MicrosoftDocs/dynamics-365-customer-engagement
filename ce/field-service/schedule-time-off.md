@@ -62,4 +62,4 @@ More information on scheduling a resource for business closure or holiday: *Set 
      You can update your own working hours or time off, and add yourself to teams and resource groups. On the **Tools** menu, click **Options**. On the **General** tab, at the bottom of the page, click the **user information** link.  
   
 ### See also  
- [Set work hours for a resource](../customer-service/set-work-hours-resource.md)
+ [Set work hours for a resource](../field-service/set-work-hours-resource.md)

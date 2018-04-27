@@ -199,6 +199,6 @@ You can set the hours a user works or set the operating hours for a facility or 
 14. To close the **Weekly Schedule** dialog box, click **Save and Close**.  
   
 ### See also  
- [Set the capacity required for a service or resource](../customer-service/set-capacity-required-service-resource.md)   
- [Set when your business is closed](../customer-service/set-when-business-closed.md)   
+ [Set the capacity required for a service or resource](../field-service/set-capacity-required-service-resource.md)   
+ [Set when your business is closed](../field-service/set-when-business-closed.md)   
  

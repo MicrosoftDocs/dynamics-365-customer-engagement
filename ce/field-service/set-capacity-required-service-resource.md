@@ -80,7 +80,7 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 8.  In the **Weekly Schedule** dialog box, click the work hours link for the schedule you want to edit.  
   
-     If working hours have not been set previously, the link is displayed as "Set Working Hours." You must set up a schedule for a user, facility, or equipment before you can continue. More information: [Set work hours for a resource](../customer-service/set-work-hours-resource.md)  
+     If working hours have not been set previously, the link is displayed as "Set Working Hours." You must set up a schedule for a user, facility, or equipment before you can continue. More information: [Set work hours for a resource](../field-service/set-work-hours-resource.md)  
   
 9. In the **Set Work Hours and Service Restrictions** dialog box, click **Show Capacity**, and then in the **Capacity** column, enter the capacity.  
   
@@ -89,4 +89,4 @@ When you set capacity of a resource and service, the service calendar doesn’t 
 11. Click **Save & Close**.  
   
 ### See also  
- [Create or edit a selection rule](../customer-service/create-simple-selection-rule.md)
+ [Create or edit a selection rule](../field-service/create-simple-selection-rule.md)

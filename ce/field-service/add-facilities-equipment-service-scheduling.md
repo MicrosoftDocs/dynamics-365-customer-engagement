@@ -63,4 +63,4 @@ Facilities and equipment are resources you’d use to perform services for your 
 6.  When you’re done, choose **Save** or **Save and Close**.  
   
 ### See also  
- [Basics of service and service scheduling](../customer-service/basics-service-service-scheduling.md)
+ [Basics of service and service scheduling](../field-service/basics-service-service-scheduling.md)
