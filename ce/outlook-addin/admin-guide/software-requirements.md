@@ -31,9 +31,9 @@ manager: "brycho"
  *This feature is available only if your organization has updated to [!INCLUDE[pn_crm_online_2015_update_1_1](../../includes/pn-crm-online-2015-update-1-1.md)], [!INCLUDE[pn_crm_2015_update_0_2](../../includes/pn-crm-2015-update-0-2.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
   
 ## In this topic  
- [Microsoft Dynamics 365 for Outlook software feature prerequisites](microsoft-dynamics-365-for-outlook-software-requirements.md#BMK_OC_software_prereqs)  
+ [Microsoft Dynamics 365 for Outlook software feature prerequisites](software-requirements.md#BMK_OC_software_prereqs)  
   
- [Additional Microsoft Dynamics 365 for Outlook software requirements](microsoft-dynamics-365-for-outlook-software-requirements.md#BKMK_OC_additional_reqs)  
+ [Additional Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md#BKMK_OC_additional_reqs)  
   
 <a name="BMK_OC_software_prereqs"></a>   
 ## Microsoft Dynamics 365 for Outlook software feature prerequisites  
@@ -107,8 +107,7 @@ manager: "brycho"
 -   Reporting Services Microsoft ActiveX control. If not installed on the computer, the user will be prompted to install the software at first attempt to print a report. This installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
   
 ## See Also  
- [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)   
- [Dynamics 365 for Outlook support matrixes](dynamics-365-for-outlook-support.md)   
+ [Dynamics 365 for Outlook support matrixes](support.md)   
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   
  [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/en-us/kb/3018360)   
  [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/en-us/kb/3005167)

@@ -32,9 +32,9 @@ manager: "brycho"
 >   
 >  [Help & Training: Set address book options in Microsoft Dynamics 365 for Outlook](http://go.microsoft.com/fwlink/p/?LinkId=320534)  
 >   
->  For upgrade information, see [Upgrading Microsoft Dynamics 365 for Outlook](upgrade-microsoft-dynamics-crm-for-outlook.md).  
+>  For upgrade information, see [Upgrading Microsoft Dynamics 365 for Outlook](upgrade.md).  
 >   
->  To download and install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Install Dynamics 365 for Outlook](install-dynamics-365-for-outlook.md).  
+>  To download and install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Install Dynamics 365 for Outlook](install.md).  
   
  After you install and configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], an individual user can use it to access [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data. If a computer is shared by several users (that is, each user has a separate logon account and is a valid [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user), you must configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] by running [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] configuration for each user.  
   
@@ -52,7 +52,6 @@ manager: "brycho"
 >     >  [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx) with offline files is not supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If the Dynamics 365 data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
 ## See Also  
- [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)   
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   
  [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/en-us/kb/3018360)   
  [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/en-us/kb/3005167)

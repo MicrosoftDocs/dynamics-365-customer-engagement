@@ -128,4 +128,4 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
  Now that you have all the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation files and prerequisites downloaded and saved in the correct folders, you can run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Setup (SetupClient.exe) without an Internet connection.  
   
 ## See Also  
- [Advanced deployment options for Microsoft Dynamics 365 for Outlook](advanced-deployment-options-for-microsoft-dynamics-365-for-outlook.md)
+ [Advanced deployment options for Microsoft Dynamics 365 for Outlook](advanced-deployment-options.md)

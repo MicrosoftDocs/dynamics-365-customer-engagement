@@ -148,6 +148,5 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 6.  Click **OK** to close System Settings.  
   
 ## See Also  
- [Install CRM for Outlook for Microsoft Dynamics CRM 2015 and Dynamics CRM Online](0e6157ee-a9fc-4da2-8ade-9199a405db05.md)   
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
- [Troubleshooting server-side synchronization](../Topic/Troubleshooting%20and%20monitoring%20server-side%20synchronization.md)
+ [Troubleshooting and monitoring server-side synchronization](https://technet.microsoft.com/library/dn850386.aspx)

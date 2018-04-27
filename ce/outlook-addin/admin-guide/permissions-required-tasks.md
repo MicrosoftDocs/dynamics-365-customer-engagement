@@ -28,5 +28,3 @@ The following table shows the default security roles required to perform [!INCLU
 |Save and link [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]|Security roles:  Any<br /><br /> Privileges:  Contact record type: Write, Append To|Yes|  
 |Remove tracking in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] from a record|Security roles:  Any<br /><br /> Privileges:  Contact record type: Write, Append To<br /><br /> For the record type: Write, Append To|Yes|  
   
-## See Also  
- [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)

@@ -66,7 +66,7 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
 > [!WARNING]
 >  Enabling this option can cause data loss if you have existing data. This is due to the remapping of the attributes for existing tracked contacts. We recommend you test this option prior to deployment to understand how the re-mapping affects your environment and your data. In most cases, you should have the full data in one side (normally in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]) and have them sync to the other side (normally [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).  
 >   
->  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized-between-dynamics-365-outlook.md)
+>  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized.md)
   
 ## Enable synchronization for tasks that are assigned in Outlook  
   

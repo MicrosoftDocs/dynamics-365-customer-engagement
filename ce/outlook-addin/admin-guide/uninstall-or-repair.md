@@ -43,7 +43,3 @@ If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for
   
  *The default folder name is **Program Files** or **Program Files (x86)**.  
   
-## See Also  
- [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)   
- [Uninstall, repair, and change Microsoft Dynamics 365](../Topic/Uninstall,%20repair,%20and%20change%20Microsoft%20Dynamics%20365.md)   
- [Uninstall or repair a Microsoft Dynamics 365 Language Pack](../Topic/Uninstall%20or%20repair%20a%20Microsoft%20Dynamics%20365%20Language%20Pack.md)

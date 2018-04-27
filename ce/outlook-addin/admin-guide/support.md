@@ -32,12 +32,11 @@ This topic contains links to information about the supported software requiremen
   
 <a name="BKMK_Office"></a>   
 ## Microsoft Office  
- For versions of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](microsoft-dynamics-365-for-outlook-software-requirements.md).  
+ For versions of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   
 <a name="BKMK_Windows"></a>   
 ## Microsoft Windows  
- For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](microsoft-dynamics-365-for-outlook-software-requirements.md).  
+ For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   
 ## See Also  
- [Microsoft Dynamics 365 for Outlook hardware requirements](microsoft-dynamics-365-for-outlook-hardware-requirements.md)   
- [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)
+ [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md)   
