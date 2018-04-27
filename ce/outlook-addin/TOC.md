@@ -5,7 +5,7 @@
 ## [Support](admin-guide/support.md)
 
 ## [Set up](admin-guide/set-up.md)
-### [Permissions required for Dynamics 365 for Outlook tasks](admin-guide/permissions-required.md)
+### [Permissions required for Dynamics 365 for Outlook tasks](admin-guide/permissions-required-tasks.md)
 ### [Planning and installing](admin-guide/planning-installing.md)
 #### [Upgrade Microsoft Dynamics CRM for Outlook](admin-guide/upgrade.md)
 #### [Install](admin-guide/install.md)
