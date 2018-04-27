@@ -1,21 +1,25 @@
 ---
 title: "Create or edit a campaign template using in-app marketing (Sales) for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: ""
+keywords: ""
+ms.date: 05/01/2018
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 07423d4c-8546-48e6-878a-6d54ecc0901f
+author: jimholtz
+ms.author: jimholtz
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 42
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Create or edit a campaign template using in-app marketing (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -46,7 +50,7 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
 > [!INCLUDE[cc_CRM_Marketing_and_MDM](../includes/cc-crm-marketing-and-mdm.md)] 
   
 ### See also  
- [Get started with in-app marketing (Sales)](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Get started with in-app marketing (Sales)](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing (Sales)](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing (Sales)](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
