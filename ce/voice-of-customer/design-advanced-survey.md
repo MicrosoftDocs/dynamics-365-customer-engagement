@@ -78,16 +78,23 @@ For example, for the question **How likely is it that you would recommend us to 
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select the name of the survey to which you want to add a response routing rule.
+
 4. Under **Related**, select **Response Routings**.
 
    ![Survey response routing](media/response-routings-select.png "Survey response routing")
 
 5. Select **Add New Response Routing**.
+
 6.	Under **General**, enter a name for the response routing rule, and then click **Save** so you can continue editing your response routing.
+
 7.	Under **Conditions**, select **Add New Response Condition**.
+
 8.	In the **Question** field, browse to and select the question for which you want to create a rule. After you select a question, a few fields are enabled as defined by the selected question type.
+
 9.	Select values for **Operator**, **Comparison Value**, and **Answer** fields.
 
     > [!NOTE]
@@ -96,16 +103,26 @@ For example, for the question **How likely is it that you would recommend us to 
     ![Survey response routing condition](media/response-condition-uci.png "Survey response routing condition") 
 
 10.	Select **Save**.
+
 11.	Navigate to the response routing rule you created.
+
 12.	Under **Actions**, select **Add Existing Response Action**. A pane on the right-hand side of the screen appears.
-13.	Select New.
+
+13.	Select **New**.
+
 14.	Enter a name for the action, and then select one of the following scopes:
     - **Client**: Choose this if the action occurs within the survey (for example, show or hide a question). Under **Client**, select the survey and the action to take, and then select **Save**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Client-side routing](#client-side-routing)
+
     - **Server**: Choose this if the action occurs outside of the survey (for example, request contact or unsubscribe). Under **Server**, select the action type, and then select the users or queues to notify, if applicable. Select **Save**.
+
 15.	Navigate to the response routing rule you created.
+
 16.	Under **Actions**, select **Add Existing Response Action**. A pane on the right-hand side of the screen appears.
+
 17.	Browse to and select the action you created.
+
 18.	Select **Add**.
+
 19.	In the **Otherwise** section, create an action by following the steps you took to add a response action. This action is triggered when the above-mentioned response action does not meet the specified response condition.
 
     For example, you added an Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
@@ -181,9 +198,13 @@ To add an answer tag:
 **Web client**
 
 1.	Sign in to Dynamics 365.
+
 2.	Go to **Voice of the Customer** > **Surveys**.
+
 3.	Select the name of the survey to which you want to add an answer tag.
+
 4.	Add the questions to the survey, if required. If the questions are already added, go to the question editor.
+
 5.	Under **Advanced**, enter a value in the **Answer Tag** field.
     
     ![Answer tag](media/answer-tag.png "Answer tag")
@@ -193,9 +214,13 @@ To add an answer tag:
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select the name of the survey to which you want to add an answer tag.
+
 4. Add the questions to the survey, if required. If the questions are already added, select the question to which you want to add an answer tag.
+
 5. In the **Properties** pane, enter a value in the **Answer tag** field.
 
    ![Answer tag](media/answer-tag-uci.png "Answer tag")

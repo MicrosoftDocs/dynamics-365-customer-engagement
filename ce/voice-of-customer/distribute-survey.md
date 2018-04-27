@@ -141,19 +141,24 @@ To create a survey invitation or survey activity:
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select the name of the survey for which you want to create a survey invitation or survey activity.
+
 4. Under **Related**, select **Survey Invitations**.
 
     ![Select survey invitations](media/survey-invitations.png "Select survey invitations")  
 
 5. Select **Add New Survey Activity**.
+
 6. Under **General** and **Advanced**, enter the required information.
 
     > [!NOTE]
     > If you have used piped data in the survey, ensure that the data is entered in the appropriate piped data field under **Advanced**.
 
 7. Select **Save**. The invitation link is displayed in the **Invitation Link** field.
+
 8. Copy the link and share it by using a third-party email provider.
 
 > [!NOTE]

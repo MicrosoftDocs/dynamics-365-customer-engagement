@@ -31,7 +31,9 @@ If the Voice of the Customer solution is accidentally deleted or misconfigured, 
 **Web client**
 
 1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+
 2. Go to **Settings** > **Voice of the Customer Configurations**.
+
 3. Select **Configure** from the toolbar at the top of the screen.
 
   ![Configure Voice of the Customer](media/reconfigure-voc.png "Configure Voice of the Customer")  
@@ -39,7 +41,9 @@ If the Voice of the Customer solution is accidentally deleted or misconfigured, 
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Settings** > **Configurations**.
+
 3. Select **Configure** from the toolbar at the top of the screen.
 
   ![Configure Voice of the Customer](media/reconfigure-voc-uci.png "Configure Voice of the Customer")
@@ -56,33 +60,51 @@ To validate the Voice of the Customer solution:
 **Web client**
 
 1.	Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+
 2.	Go to **Settings** > **Voice of the Customer Configurations**.
+
 3.	Select **Voice of the Customer Configuration** from the list of active configurations.
+
 4.	Select **Validate** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start.
+
 5.	Select **OK** to start the validation process. The results are displayed under the **Voice of the Customer Validation Results** area.
+
 6.	Select **Download Log File** to download the detailed report.
 
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2.	Go to **Settings** > **Configurations**.
+
 3.	Select **Voice of the Customer Configuration** from the list of active configurations.
+
 4.	Select **Validate** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start.
+
 5.	Select **OK** to start the validation process. The results are displayed under **Voice of the Customer Validation Results**.
+
 6.	Select **Download Log File** to download the detailed report.
 
 ## Validating a survey
 
 As a survey administrator, you can validate if a survey has created any issues.
+
 1.	Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2.	Go to **Voice of the Customer** > **Surveys**.
+
 3.	Select the name of the survey you want to validate.
+
 4.	Select **Validate Survey** from the toolbar at the top of the screen. A confirmation message appears, asking your consent for the validation process to start with or without publishing the survey.
+
 5.	Select one of the following buttons in the confirmation message:
+
   - **Publish**: All the validation tests are performed.
+
   - **Skip Publish**: Only the validation tests that do not require publishing the survey are performed.
   
   The results are displayed under **Survey Validation Results**.
+  
 6.	Select **Download Log File** to download the detailed report.
 
 ### See also

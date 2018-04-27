@@ -48,10 +48,15 @@ You can create a theme for your survey to match your company's style. Themes def
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Themes**.
+
 3. To create a new theme, select **New**.
+
 4. To edit the default theme, select **Default** in the list of themes.
+
 5. Enter the name of the theme.
+
 6. Adjust the theme color and font properties from the **Properties** pane on the right-hand side of the screen.
 
     ![Select element color in a theme](media/survey-theme-color.png "Select element color in a theme")
@@ -93,12 +98,19 @@ You can upload images to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Images**.
+
 3. Select **New**.
+
 4. Under **General**, enter values in the **Name**, **Image Title**, and **Alternative Text** fields.
+
 5. Select **Save** to save the record so you can upload an image.
+
 6. Under **Custom Icon**, select **Edit** to browse and select an image. The image URL is displayed in the **Image URL** field.
+
 7. Select the icon in the **Image URL** field to preview the image.
+
 8. Select **Save** in the lower-right corner of the screen.
 
 ## Create or edit a survey
@@ -159,14 +171,19 @@ You can add more pages as required by your survey.
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select the name of the survey for which you want to add or edit a page.
+
 4. From the **Survey** box, select **Designer**.
 
     ![Select survey designer](media/survey-designer-select.png "Select survey designer")
 
 5. To add a new page, select **Add** from the page control toolbar at the bottom of the screen.
+
 6. To edit a page, select the page from the page control toolbar at the bottom of the screen and modify the properties in the **Properties** pane on the right-hand side of the screen.
+
 7. To delete a page, select **Delete** beside the page name on the page control toolbar.
 
 ### Add questions to a survey
@@ -197,22 +214,28 @@ You can add more pages as required by your survey.
 
 9. To personalize your survey with fields like the customer's name or service case number, use piped data. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize a survey](#personalize-a-survey)  
 
-10. To take different actions based on a customer's response in the survey, like showing additional questions or sending a contact request to someone within your organization, use response routing. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design interactive surveys](#design-interactive-surveys)  
+10. To take different actions based on a customer's response in the survey, like showing additional questions or sending a contact request to someone within your organization, use response routing. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design interactive surveys by using response routing](design-advanced-survey.md#design-interactive-surveys-by-using-response-routing)  
 
 11. To save your work, select **Save** in the lower-right corner of the screen. 
 
 **Voice of the Customer app**
 
 1.	[Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2.	Go to **Voice of the Customer** > **Surveys**.
+
 3.	Select the name of the survey for which you want to add or edit a page.
+
 4.	From the **Survey** box, select **Designer**.
 
     ![Select survey designer](media/survey-designer-select.png "Select survey designer")
 
-5.	Select the page on which you want to add a question  .
+5.	Select the page on which you want to add a question.
+
 6.	To add a question, drag the type of question you want from the **Questions** pane to the location you want on the survey page. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Decide the best question type](plan-survey.md#decide-the-question-type)  
+
 7.	To edit a question, click the question, and modify the properties in the **Properties** pane.
+
 8.	To add a new page or edit an existing page, see [Add or edit a page](#add-or-edit-a-survey-page).
 
     > [!NOTE]
@@ -220,7 +243,9 @@ You can add more pages as required by your survey.
     > - Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
 
 9. To personalize your survey with fields like the customer's name or service case number, use piped data. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize a survey](#personalize-a-survey)  
-10. To take different actions based on a customer's response in the survey, like showing additional questions or sending a contact request to someone within your organization, use response routing. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design interactive surveys](#design-interactive-surveys)  
+
+10. To take different actions based on a customer's response in the survey, like showing additional questions or sending a contact request to someone within your organization, use response routing. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design interactive surveys by using response routing](design-advanced-survey.md#design-interactive-surveys-by-using-response-routing) 
+
 11. To save your work, select **Save** in the lower-right corner of the screen. 
 
 ### Import a section into a page
@@ -252,13 +277,21 @@ You can import a section (along with its questions) from another survey into you
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select the name of the survey that you want to import a section into.
+
 4. From the **Survey** box, select **Designer**.
+
 5. Select the page that you want to import the section into.
+
 6. In the **Properties** pane, browse the section to be imported from the **Section to copy and import** field.
+
 7. From the **Automatically link questions** list, choose whether to link the questions.
+
 8. Click **Import** .
+
 9. Select **Save**. The section is imported, and - **Imported** is appended to the section name.
 
 ### Share questions between surveys by using linked questions
@@ -290,10 +323,15 @@ To create a linked question:
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select the name of the survey in which you want to create a linked question.
-4. From the **Survey** box, select **Designer**  .
+
+4. From the **Survey** box, select **Designer**.
+
 5. Select the question you want to link.
+
 6. In the **Properties** pane, select **Link** from the **Create linked question** list.
 7. From the **Linked Question** field, browse to and select the question to be linked.
 8. Select **Save** in the lower-right corner of the screen.
@@ -354,11 +392,17 @@ You can add the following data as placeholders:
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select the name of the survey to which you want to add piped data.
+
 4. From the **Survey** box, select **Designer**. 
+
 5. Select the question text to which you want to add piped data. The formatting toolbar appears.
+
 6. Place the cursor at the location where you want to add the piped data field.
+
 7. From the **(Pipe)** list in the formatting toolbar, select the field you want to add. For example, if you want to display the customer's name, select **Customer**. The **\_CUSTOMER\_PIPED\_DATA\_** field is inserted at the cursor location.
 
     ![Insert piped data in a survey](media/pipe-data-uci.png "Insert piped data in a survey")  
@@ -454,18 +498,27 @@ You can create a survey in one environment, test it, and then move it to the pro
 **Voice of the Customer app**
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** &gt; **Surveys**.
+
 3. Select the name of the survey you want to move to another environment.
+
 4. Select the survey XML file under the **Notes** section and save it to the location you want.
 
     ![Download XML file of a survey](media/import-survey-uci.png "Download the XML file of a survey")
 
 5. Sign in to the [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] environment to which you want to move the survey.
+
 6. Go to **Settings** &gt; **Imports**.
+
 7. Select **New**.
+
 8. Under **General**, enter the required information.
+
 9. To overwrite the existing survey, select **Yes** from the **Overwrite Survey** field. If you select **No**, a copy of the survey is created.
+
 10. In the **Survey Xml To Import** field, paste the survey XML.
+
 11. Select **Save** in the lower-right corner of the screen. The survey is imported and available at **Voice of the Customer** &gt; **Surveys**.
 
 ## Translate a survey
@@ -481,9 +534,11 @@ After creating a survey, you can translate it into other languages as required b
 4.  Select the Translations.xml file in the **Notes** section, and then save it to the location you want.
 
     **Web client**
+
     ![Translation file of a survey](media/translate-survey.png "Translation file of a survey")
 
     **Voice of the Customer app**
+
     ![Translation file of a survey](media/translate-survey-uci.png "Translation file of a survey")
 
     > [!NOTE]
@@ -538,8 +593,11 @@ You can delete a survey if it is not required anymore. When a survey is deleted,
 
 To delete a survey:
 1. Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
 2. Go to **Voice of the Customer** > **Surveys**.
+
 3. Select or open the survey you want to delete.
+
 4. Select **Delete** from the toolbar at the top of the screen.
 
 > [!Note]
