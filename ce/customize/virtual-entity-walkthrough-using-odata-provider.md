@@ -21,8 +21,11 @@ manager: "kvivek"
 
 # About this virtual entity walkthrough
 
+<<<<<<< HEAD
 [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
+=======
+>>>>>>> 292a413a96ba26ea5b9a8255de83fa5ea89e6650
 Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement. The data source containing the ticket data has an OData web service. In this simple walkthrough, you create an entity with fields mapped to the external data source.
 
 ## Data source details

@@ -59,7 +59,7 @@ topic-status: Drafting
   
  [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)  
   
- [What if you're no longer working a lead?](../sales-enterprise/what-if-no-longer-working-lead-sales.md)  
+ [What if you're no longer working a lead?](../sales-enterprise/no-longer-working-lead-sales.md)  
   
  [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)  
   

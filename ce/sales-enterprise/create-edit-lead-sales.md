@@ -73,7 +73,7 @@ In the Sales app, you use leads to keep track of business prospects that you hav
 <a name="bkmk3"></a>   
 ## Additional considerations  
   
--   Nurture your leads through a marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)  
+-   Nurture your leads through a marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  
 
 -   Research leads through social media channels like LinkedIn and Twitter. [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
 
