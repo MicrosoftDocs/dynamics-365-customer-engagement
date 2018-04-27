@@ -16,7 +16,7 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Microsoft Dynamics 365 for Outlook hardware requirements
-The following table lists the minimum recommended hardware requirements when you run [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../includes/pn-microsoft-dynamics-crm-for-outlook.md)] in either online only or go offline enabled modes.  
+The following table lists the minimum recommended hardware requirements when you run [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] in either online only or go offline enabled modes.  
   
 |Component|Online only mode|Go Offline enabled mode|  
 |---------------|----------------------|-----------------------------|  
@@ -26,22 +26,22 @@ The following table lists the minimum recommended hardware requirements when you
 |Display|Super VGA with a resolution of 1024 x 768|Super VGA with a resolution higher than 1024 x 768|  
   
 > [!NOTE]
->  [!INCLUDE[cc_Actual_requirements_and_product_functionality_may_vary](../includes/cc-actual-requirements-and-product-functionality-may-vary.md)]  
+>  [!INCLUDE[cc_Actual_requirements_and_product_functionality_may_vary](../../includes/cc-actual-requirements-and-product-functionality-may-vary.md)]  
 >   
->  Running [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] on a computer that has less than the minimum recommended requirements may result in inadequate performance. For the best performance, we recommend running 64-bit versions of [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)], and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+>  Running [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] on a computer that has less than the minimum recommended requirements may result in inadequate performance. For the best performance, we recommend running 64-bit versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)], [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)], and [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
  **Network requirements**  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] is designed to work best over networks that have the following elements:  
+ [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] is designed to work best over networks that have the following elements:  
   
 -   Bandwidth greater than 50 KBps (400 kbps)  
   
 -   Latency under 150 ms  
   
- These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)][Verify network capacity and throughput for Dynamics 365 clients](https://technet.microsoft.com/library/mt269872.aspx)  
+ These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Verify network capacity and throughput for Dynamics 365 clients](https://technet.microsoft.com/library/mt269872.aspx)  
   
 > [!NOTE]
->  Successful network installation of [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] requires a reliable and high-throughput network. Otherwise, installation might fail. The recommended minimum available bandwidth of the network connection is 300 Kbps.  
+>  Successful network installation of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] requires a reliable and high-throughput network. Otherwise, installation might fail. The recommended minimum available bandwidth of the network connection is 300 Kbps.  
   
 ## See Also  
  [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)   
