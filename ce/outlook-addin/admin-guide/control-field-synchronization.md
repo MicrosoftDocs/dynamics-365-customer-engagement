@@ -55,6 +55,3 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
 -   Securing fields: [Enable or disable security for a field](https://technet.microsoft.com/library/mt812240.aspx)  
   
  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [How field security affects synchronization between Dynamics 365 and Dynamics 365 for Outlook](field-security-syncronization.md) and [Security concepts](../../admin/security-concepts.md)
-
-## See Also  
- [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)

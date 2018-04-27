@@ -27,6 +27,3 @@ This section describes advanced deployment options that can be used for a large 
   
  [Use SCCM to install Dynamics 365 for Outlook](use-sccm-to-install-dynamics-365-for-outlook.md)  
   
-## See Also  
- [Install CRM for Outlook for Microsoft Dynamics CRM 2015 and Dynamics CRM Online](0e6157ee-a9fc-4da2-8ade-9199a405db05.md)   
- [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)

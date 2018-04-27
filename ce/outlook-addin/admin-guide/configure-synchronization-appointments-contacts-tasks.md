@@ -89,5 +89,3 @@ By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includ
   
 -   Tasks cannot be synchronized to multiple email addresses.  
   
-## See Also  
- [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)

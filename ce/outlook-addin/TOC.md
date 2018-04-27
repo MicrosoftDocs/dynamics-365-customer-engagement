@@ -1,27 +1,27 @@
 # Dynamics 365 for Outlook Admin Guide
 
-## Hardware requirements
-## Software requirements
-## Support
+## [Hardware requirements](hardware-requirements.md)
+## [Software requirements](software-requirements.md)
+## [Support](support.md)
 
-## Set up
-### Permissions required for Dynamics 365 for Outlook tasks
-### Planning and installing
-#### Upgrade Microsoft Dynamics CRM for Outlook
-#### Install
-#### Advanced deployment options
-##### Deploy using Group Policy
-##### Install for desktop virtualization
-##### Install without an Internet connection
-##### Use SCCM to install
-### Uninstall or repair
-### Configure synchronization for appointments, contacts, and tasks
-### Install Microsoft Dynamics 365 for Outlook using a command prompt
-### Failure recovery
-### Control field synchronization
-### What fields can be syncrhonized
-### How field security affects synchronization
-### Troubleshooting and things to know
+## [Set up](set-up.md)
+### [Permissions required for Dynamics 365 for Outlook tasks](permissions-required.md)
+### [Planning and installing](planning-installing.md)
+#### [Upgrade Microsoft Dynamics CRM for Outlook](upgrade.md)
+#### [Install](install.md)
+#### [Advanced deployment options](advanced-deployment-options.md)
+##### [Deploy using Group Policy](deploy-using-group-policy.md)
+##### [Install for desktop virtualization](install-desktop-virtualization.md)
+##### [Install without an Internet connection](install-without-internet-connection.md)
+##### [Use SCCM to install](Use-sccm.md)
+### [Uninstall or repair](uninstall-or-repair.md)
+### [Configure synchronization for appointments, contacts, and tasks](configure-synchronization-appointments-contacts-tasks.md)
+### [Install using a command prompt](install-using-command-prompt.md)
+### [Failure recovery](failure-recovery.md)
+### [Control field synchronization](control-field-synchronization.md)
+### [Which fields can be synchronized](which-fields-synchronized.md)
+### [How field security affects synchronization](field-security-synchronization.md)
+### [Troubleshooting and things to know](troubleshooting-things-to-know.md)
 
 ## Set up and configure
 ### [Set up](user-guide/set-up.md)
