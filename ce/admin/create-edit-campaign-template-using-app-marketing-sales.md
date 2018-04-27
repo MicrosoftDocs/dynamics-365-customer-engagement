@@ -46,7 +46,7 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
 > [!INCLUDE[cc_CRM_Marketing_and_MDM](../includes/cc-crm-marketing-and-mdm.md)] 
   
 ### See also  
- [Get started with in-app marketing (Sales)](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Get started with in-app marketing (Sales)](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing (Sales)](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing (Sales)](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing (Sales)](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
