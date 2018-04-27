@@ -55,7 +55,7 @@ manager: "amyla"
 |Deactivate booking  when canceled|Select whether the system should deactivate a resource booking when the status is changed to **Canceled**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up booking statuses](../field-service/set-up-booking-statuses.md)|  
 |**Resource  pay type**|Choose from pay types that you have created in the system to calculate timestamp-based labor cost on booking journals when a booking is marked as complete. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up resource pay types](../field-service/set-up-resource-pay-types.md)|  
 |Work pay type|Select the pay type that will be used in conjunction with work performed during the resource’s normal work hours.|  
-|Business closure pay type|Select the pay type that will be applied on days that have been marked with **Business Closures**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](../customer-service/set-when-business-closed.md)|  
+|Business closure pay type|Select the pay type that will be applied on days that have been marked with **Business Closures**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set when your business is closed](../field-service/set-when-business-closed.md)|  
 |Travel pay type|Select the pay type that will be applied to time that the resource is traveling to a service location to perform service work.|  
 |Overtime pay type|Select the pay type that will be applied to time that is outside of the resource’s scheduled work hours.|  
 |Break pay type|Select the pay type that will be applied to time that the resource is on break while performing service work.|  

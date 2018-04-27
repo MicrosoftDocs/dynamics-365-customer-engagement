@@ -157,7 +157,7 @@
 ## [Email](create-templates-email.md)
 ## [Work with mail merge templates](work-mail-merge-templates.md)
 ## [Campaign](create-edit-campaign-template-using-app-marketing-sales.md)
-## [Entitlements](../customer-service/set-up-entitlements-quickly-templates.md)
+## [Entitlements](../customer-service/set-up-entitlements-templates.md)
 ## [Excel](analyze-your-data-with-excel-templates.md)
 ## [Word](using-word-templates-dynamics-365.md)
 ## [Create signature for email or queue](../basics/create-signature-dynamics-365-email-queue.md)

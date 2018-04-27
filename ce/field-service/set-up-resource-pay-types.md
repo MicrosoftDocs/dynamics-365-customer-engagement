@@ -62,7 +62,7 @@ Resource pay types can be used to track your company's costs associated with a r
   
 ### See also    
  [Overview of Dynamics 365 for Field Service](../field-service/overview.md)   
- [Set when your business is closed)](../customer-service/set-when-business-closed.md)   
+ [Set when your business is closed](../field-service/set-when-business-closed.md)   
  [Set up bookable resources](../field-service/set-up-bookable-resources.md)   
  [Set up bookable resource categories](../field-service/set-up-bookable-resource-categories.md)   
  [Set up characteristics](../field-service/set-up-characteristics.md)
