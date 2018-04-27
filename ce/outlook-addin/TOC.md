@@ -1,4 +1,4 @@
-# [Dynamics 365 for Outlook Admin Guide](dynamics-365-for-outlook.md)
+# [Dynamics 365 for Outlook Admin Guide](admin-guide/dynamics-365-for-outlook.md)
 
 ## [Hardware requirements](admin-guide/hardware-requirements.md)
 ## [Software requirements](admin-guide/software-requirements.md)
