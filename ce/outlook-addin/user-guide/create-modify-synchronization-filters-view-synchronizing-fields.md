@@ -37,7 +37,7 @@ Looking for help on the **Synchronization Settings for Outlook or Exchange**  di
   
     -   **System Filters**. System administrators can programmatically modify offline synchronization filters for an entire organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Offline and Outlook filters and templates](https://msdn.microsoft.com/library/gg328205.aspx)  
   
-## See Also  
+### See Also  
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
  [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)   

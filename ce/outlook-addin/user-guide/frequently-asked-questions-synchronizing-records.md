@@ -68,7 +68,7 @@ manager: "brycho"
   
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
   
-## See Also  
+### See Also  
  [TechNet: Integrate your email system with Dynamics 365](https://technet.microsoft.com/library/dn832099.aspx)   
  [Dynamics 365 App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
  [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)   

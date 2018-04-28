@@ -59,7 +59,7 @@ With[!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
-## See Also  
+### See Also  
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   

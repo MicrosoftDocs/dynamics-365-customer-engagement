@@ -23,13 +23,13 @@
 ### [How field security affects synchronization](admin-guide/field-security-synchronization.md)
 ### [Troubleshooting and things to know](admin-guide/troubleshooting-things-to-know.md)
 
-## Set up and configure
+# Dynamics 365 for Outlook User Guide 
+
+## Set up and configure 
 ### [Set up](user-guide/set-up.md)
 ### [Configure another organization](user-guide/configure-another-organization.md)
 ### [Set up and configure Dynamics 365 for Outlook from Office 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)
 ### [The Outlook email address should be the same as the Dynamics 365 email address](user-guide/outlook-email-address-should-same.md)
-
-# Dynamics 365 for Outlook User Guide 
 
 ## Get started
 ### [Do your Dynamics 365 work in Outlook](user-guide/dynamics-365-work-outlook.md)

@@ -87,7 +87,7 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
-## See Also  
+### See Also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
  [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document.md)   

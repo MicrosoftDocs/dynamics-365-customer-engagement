@@ -32,7 +32,7 @@ manager: "brycho"
   
  When you select [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] as the messaging data synchronization method in the user mailbox record, email, contacts, appointments, and tasks created in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] are synchronized with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)].  
   
-### Dynamics 365 for Outlook synchronization concepts  
+## Dynamics 365 for Outlook synchronization concepts  
  Note the following concepts when you use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] as the synchronizing agent:  
   
 1.  **Synchronizing organization**. Only one organization can be designated as the synchronizing organization. If you have more than one [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] organization configured, you can view the synchronizing organization in the [!INCLUDE[pn_Configuration_Wizard_long](../../includes/pn-configuration-wizard-long.md)]. The [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] is an application included with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Notice that you can still connect to additional organizations by using [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. However, when an organization is not defined as the synchronizing organization in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], messaging data in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] does not synchronize with that organization.  

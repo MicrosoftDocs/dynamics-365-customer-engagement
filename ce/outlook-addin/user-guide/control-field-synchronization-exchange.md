@@ -37,7 +37,7 @@ If you’re a system administrator, you can control synchronization of appointme
 > [!NOTE]
 >  [!INCLUDE[cc_feature_included_with_update_2015](../../includes/cc-feature-included-with-update-2015.md)]  
   
-## See Also  
+### See Also  
  [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)   
  [TechNet: Which fields can be synchronized between Dynamics 365 and Outlook?](https://technet.microsoft.com/library/dn832089.aspx)   
  [TechNet: How field security affects synchronization between Dynamics 365 and Outlook](https://technet.microsoft.com/library/dn832097.aspx)   

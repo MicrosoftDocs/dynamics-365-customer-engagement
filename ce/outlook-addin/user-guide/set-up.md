@@ -306,7 +306,7 @@ manager: "brycho"
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
-## See Also  
+### See Also  
  [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
  [TechNet: Set up Dynamics 365 for Outlook](https://technet.microsoft.com/en-us/library/dn832060.aspx)   
  [TechNet: Upgrade to Microsoft Dynamics CRM 2016 for Outlook](https://technet.microsoft.com/en-us/library/hh699711.aspx)   

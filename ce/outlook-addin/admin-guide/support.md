@@ -38,5 +38,5 @@ This topic contains links to information about the supported software requiremen
 ## Microsoft Windows  
  For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
   
-## See Also  
+### See Also  
  [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md)   

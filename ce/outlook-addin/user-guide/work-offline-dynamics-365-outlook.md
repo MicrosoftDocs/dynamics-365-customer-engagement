@@ -142,7 +142,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
-## See Also  
+### See Also  
  [Set up Dynamics 365 for Outlook](set-up.md)   
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
  [Example of going offline with Dynamics 365 for Outlook](example-going-offline.md)

@@ -73,6 +73,6 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
-## See Also  
+### See Also  
  [TechNet: Software compatibility](https://technet.microsoft.com/library/dn832152.aspx)   
  [Do your Dynamics 365 work in Outlook](http://go.microsoft.com/fwlink/p/?LinkID=394774)

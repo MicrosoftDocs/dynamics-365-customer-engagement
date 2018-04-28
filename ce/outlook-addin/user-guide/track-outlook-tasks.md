@@ -164,7 +164,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
     2.  On the **Task** tab, in the **Show** group, click **Details**, and then review the names in the **Update list** box.  
   
-## See Also  
+### See Also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

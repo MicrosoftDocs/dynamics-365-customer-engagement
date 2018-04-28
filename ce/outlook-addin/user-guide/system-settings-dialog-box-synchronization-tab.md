@@ -53,7 +53,7 @@ Use the settings on this page to determine how data is synchronized between [!IN
 |**Tasks**||  
 |Synchronize tasks that are assigned in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|[!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] tasks are synchronized by default, but synchronization of assigned tasks is turned off by default. Most companies don’t require this feature because tasks would usually be assigned directly in Dynamics 365 by changing ownership in Dynamics 365.<br /><br /> You may want to enable this feature, however, if your company’s business processes involve creating and sending tasks in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] instead of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)|  
   
-## See Also  
+### See Also  
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
  [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)   

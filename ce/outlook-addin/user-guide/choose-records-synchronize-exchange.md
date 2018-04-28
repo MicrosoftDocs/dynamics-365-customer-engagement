@@ -80,6 +80,6 @@ manager: "brycho"
   
  ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
-## See Also  
+### See Also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

@@ -29,7 +29,7 @@ Group Policy provides an infrastructure for centralized configuration management
 ## Preparing Dynamics 365 for Outlook for a Group Policy deployment  
  Use this procedure to create the CRMClient_*bitversion*.msi file that is required for a [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Group Policy deployment.  
   
-#### Create the CRMClient_*bitversion*.msi file  
+### Create the CRMClient_*bitversion*.msi file  
   
 1.  Before you build the CRMClient_*bitversion*.msi file, you can edit the Default-Client_Config.xml file that is included with the installation files. This file is used by the [!INCLUDE[pn_Outlook_Config_Wiz_long](../../includes/pn-outlook-config-wiz-long.md)] to establish settings, such as the organization URL, after [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed on the user’s computer. Although this step is optional, it can simplify [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] configuration for [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] users. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Step 2: Configure Microsoft Dynamics 365 for Outlook by using an XML configuration file](install-using-command-prompt.md#BKMK_Step2Configure)  
   
@@ -88,7 +88,7 @@ Group Policy provides an infrastructure for centralized configuration management
 > [!NOTE]
 >  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] doesn’t support application assignment through GPO installation. For more information about publishing versus assigning software, see the Group Policy deployment documentation for your operating system.  
   
-## See Also  
+### See Also  
  [Advanced deployment options for Microsoft Dynamics 365 for Outlook](advanced-deployment-options.md)   
  [Install Microsoft Dynamics CRM 2015 for Outlook with roaming user profiles using Windows Server Remote Desktop Services](install-desktop-virtualization.md)   
  [Install or upgrade Language Packs for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx)

@@ -23,7 +23,7 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
 > [!TIP]
 >  ![Video symbol](../media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Configurability in Synchronizing Data with Outlook or Exchange in Microsoft Dynamics CRM 2015](http://youtu.be/BMZsVUuaklo?list=PLC3591A8FE4ADBE07)  
   
-### Set field synchronization between Dynamics 365 and Dynamics 365 for Outlook  
+## Set field synchronization between Dynamics 365 and Dynamics 365 for Outlook  
   
 1.  In Dynamics 365,  [!INCLUDE[proc_settings_email_config](../../includes/proc-settings-email-config.md)]  
   

@@ -133,7 +133,7 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 ## Disable the Dynamics 365 for Outlook notification bar on the Web application  
  By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 web application displays a **Get Dynamics 365 for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
   
-#### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 web application  
+### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 web application  
   
 1.  With a security role that has read and write permissions (for example, the System Administrator role), start the Microsoft Dynamics 365 web application.  
   
@@ -147,6 +147,6 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
   
 6.  Click **OK** to close System Settings.  
   
-## See Also  
+### See Also  
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
  [Troubleshooting and monitoring server-side synchronization](https://technet.microsoft.com/library/dn850386.aspx)

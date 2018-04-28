@@ -146,7 +146,7 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 > [!NOTE]
 >  The preceding example specifies two different organizations that the user has access to and configures [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to not display the “I want to join the Customer Experience Improvement Program” notification banner. The value in the `Organization` element can’t contain special characters or spaces. For [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)], you can find the organization unique name by running the Get-CrmOrganization [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlet or go to **Settings** > **Customizations** > **Developer Resources** and under **Instance Reference Information** copy the **Unique Name**.  
   
-#### Configure Dynamics 365 for Outlook by using a script  
+### Configure Dynamics 365 for Outlook by using a script  
   
 1.  Write a script that automatically updates the configuration settings for users of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. You could use lines such as the following to perform the basic configuration actions, based on a new configuration file that is stored on the computer indicated as <`servername`>.  
   
@@ -178,6 +178,6 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
   
 2.  Run the script on each client computer in the organization whose server has changed. You can run the script in various ways, including through the **Profile** tab of the user properties dialog box in [!INCLUDE[pn_Active_Directory_Users_Computers](../../includes/pn-active-directory-users-computers.md)] (ADUC), or through Group Policy Objects (GPO).  
   
-## See Also  
+### See Also  
  [Install Dynamics 365 for Outlook](install.md)   
 

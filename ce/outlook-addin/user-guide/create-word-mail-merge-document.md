@@ -112,6 +112,6 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
-## See Also  
+### See Also  
  [Work with templates](../../admin/work-with-templates.md)
  [Send bulk email to customers](../../basics/send-bulk-email-customers.md)

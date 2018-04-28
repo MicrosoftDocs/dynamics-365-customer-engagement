@@ -129,7 +129,7 @@ manager: "brycho"
   
  Folder-level tracking allows you to easily track and associate emails to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], manually from any device, or automatically by setting [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] rules.  
   
-## See Also  
+### See Also  
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   

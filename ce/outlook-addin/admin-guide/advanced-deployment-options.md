@@ -18,12 +18,3 @@ manager: "brycho"
 # Advanced deployment options for Microsoft Dynamics 365 for Outlook
 This section describes advanced deployment options that can be used for a large scale deployment of [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)].  
   
-## In This Section  
- [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-using-group-policy.md)  
-  
- [Install Microsoft Dynamics 365 2016 for Outlook for desktop virtualization](install-desktop-virtualization.md)  
-  
- [Install CRM 2015 for Outlook without an Internet connection](install-without-internet-connection.md)  
-  
- [Use SCCM to install Dynamics 365 for Outlook](use-sccm.md)  
-  

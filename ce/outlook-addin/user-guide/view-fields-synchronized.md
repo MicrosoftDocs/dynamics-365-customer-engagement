@@ -58,7 +58,7 @@ In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or lat
     > [!NOTE]
     >  Field synchronization direction can be impacted by security settings configured by your system administrator. For example, if you don’t have read privileges for a field, it won’t be synchronized in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] even if the field is configured for two-way synchronization. To determine whether you have read privileges for a field, click the **View in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** button to open the record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you see the **Lock** icon, you can’t access the field.  
   
-## See Also  
+### See Also  
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [TechNet: What fields can be synchronized between Dynamics 365 and Outlook or Exchange?](https://technet.microsoft.com/library/dn832089.aspx)   
  [TechNet: Control field synchronization between Dynamics 365 and Outlook or Exchange (admins)](https://technet.microsoft.com/library/dn832150.aspx)   

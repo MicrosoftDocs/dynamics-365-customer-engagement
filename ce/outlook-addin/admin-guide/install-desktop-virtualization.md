@@ -59,7 +59,7 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
   
  To disable the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)][!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] and the option to configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], follow these steps on the client computer.  
   
-##### Disable the Configuration Wizard  
+#### Disable the Configuration Wizard  
   
 1.  On the computer where [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] is installed, start [!INCLUDE[pn_ms_Registry_Editor](../../includes/pn-ms-registry-editor.md)] (regedit.exe).  
   
@@ -95,7 +95,7 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
   
 -   Cached Exchange Mode turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] is supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using server-side synchronization but not supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] synchronization. See: [Turn on Cached Exchange Mode](https://support.office.com/article/Turn-on-Cached-Exchange-Mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c?CorrelationId=90246111-3367-4702-a41b-62ab9b65f3f0).  
   
-## See Also  
+### See Also  
  [Advanced deployment options for Microsoft Dynamics 365 for Outlook](advanced-deployment-options.md)   
- [Install or upgrade language packs for Microsoft Dynamics 365](https://technet.microsoft.com//library/hh699674.aspx)   
+ [Install or upgrade language packs for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx)   
  [Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 and Dynamics 365 Online](planning-installing.md)
