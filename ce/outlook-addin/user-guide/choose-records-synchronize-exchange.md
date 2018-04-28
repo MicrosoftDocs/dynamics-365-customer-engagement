@@ -26,7 +26,7 @@ manager: "brycho"
  Email is not included in the synchronization filters because email is controlled by when the email is created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], whether the user is on the recipient list or not. This is true for all email processing methods: [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], or [!INCLUDE[pn_emailrouter](../../includes/pn-emailrouter.md)].  
   
 > [!TIP]
->  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] also includes offline synchronization filters that you can use to choose records to work with offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
+>  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] also includes offline synchronization filters that you can use to choose records to work with offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
   
 ## Create or modify online synchronization filters  
   
@@ -45,7 +45,7 @@ manager: "brycho"
      ![Online synchronization filters](../media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   
     > [!NOTE]
-    >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
+    >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
   
 4.  Do one of the following:  
   

@@ -35,7 +35,7 @@ With[!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft
   
 3.  For **Contacts**, select one of the following:  
   
-    -   **Match only against contacts synchronized to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**. This option is selected by default. Leave as is if you only want to be able to access the contacts that are synchronized through the online synchronization filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)  
+    -   **Match only against contacts synchronized to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**. This option is selected by default. Leave as is if you only want to be able to access the contacts that are synchronized through the online synchronization filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)  
   
     -   **Match all contacts in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]**. Select this option if you want all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts to be available in the address book.  
   

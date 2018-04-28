@@ -20,30 +20,19 @@ manager: "brycho"
   
 > [!IMPORTANT]
 >  Before you and your users install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], be sure to have completed your desired customizations. In particular, for best performance, you should ensure that you enable only the minimum required entities and views for offline use in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. For more information about customization, see [App making and customization overview](../../customize/overview.md). For more information about setting up entities for synchronization, see [Create or edit entities (record types)](../../customize/create-edit-entities.md).  
-  
-> [!IMPORTANT]
+>
 >  After you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you have to set some options so that users can send and receive email from [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and to specify what data is synchronized.  
 >   
 >  [!INCLUDE[cc_Outlook_Offline_LocalAccess](../../includes/cc-outlook-offline-localaccess.md)]  
->   
->  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]  
->   
->  [Help & Training: Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](http://go.microsoft.com/fwlink/p/?LinkId=320533)  
->   
->  [Help & Training: Set address book options in Microsoft Dynamics 365 for Outlook](http://go.microsoft.com/fwlink/p/?LinkId=320534)  
->   
->  For upgrade information, see [Upgrading Microsoft Dynamics 365 for Outlook](upgrade.md).  
->   
->  To download and install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Install Dynamics 365 for Outlook](install.md).  
   
  After you install and configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], an individual user can use it to access [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data. If a computer is shared by several users (that is, each user has a separate logon account and is a valid [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] user), you must configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] by running [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] configuration for each user.  
   
 > [!NOTE]
->  We do not guarantee synchronization will work as expected if Cached [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Mode is turned off in [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)]. For example, sometimes, tracking email from the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Search folder gives an error when Cached [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Mode is off when you set up your [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] email account in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. The best practice is to turn on Cached [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Mode when you set up your [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] email account in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Turn on Cached Exchange Mode](http://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
+>  We do not guarantee synchronization will work as expected if Cached [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Mode is turned off in [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)]. For example, sometimes, tracking email from the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Search folder gives an error when Cached [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Mode is off when you set up your [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] email account in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. The best practice is to turn on Cached [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Mode when you set up your [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] email account in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn on Cached Exchange Mode](http://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
 >   
 >  To install or upgrade [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must have administrator permissions on the computer where you perform the installation or upgrade steps. The exception to this is when you install an update from [Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705), in which case administrator privileges are not required. You can install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with offline capability. A user who has this capability installed can access [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data when they are not connected to the LAN. You can add offline capability at either of the following times:  
 >   
->  -   During installation of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
+> -   During installation of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 > -   After installation has completed. In this case, a user can add offline capability by clicking **Go Offline** in [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)]. This starts the installation of additional required components and stores a copy of the user’s [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data locally. Subsequent offline sessions require no additional installations, but may require updating the local copy of the user’s data.  
 >   
 >     > [!NOTE]
