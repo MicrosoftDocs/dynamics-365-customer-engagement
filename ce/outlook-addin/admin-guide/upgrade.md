@@ -1,7 +1,7 @@
 ---
 title: "Upgrade Microsoft Dynamics CRM for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-01-06"
+ms.date: 01/06/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

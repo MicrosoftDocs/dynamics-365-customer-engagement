@@ -1,7 +1,7 @@
 ---
 title: "Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 and Dynamics 365 Online | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-29"
+ms.date: 11/28/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

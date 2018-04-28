@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 01/11/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

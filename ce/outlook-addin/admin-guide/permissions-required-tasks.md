@@ -1,7 +1,7 @@
 ---
 title: "Permissions required for Dynamics 365 for Outlook tasks | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-28"
+ms.date: 11/28/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

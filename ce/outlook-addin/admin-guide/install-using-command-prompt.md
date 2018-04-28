@@ -1,7 +1,7 @@
 ---
 title: "Install Microsoft Dynamics 365 for Outlook using a command prompt | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-03-06"
+ms.date: 03/06/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

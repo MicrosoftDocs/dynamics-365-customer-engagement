@@ -1,7 +1,7 @@
 ---
 title: "Install Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-02-10"
+ms.date: 02/10/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

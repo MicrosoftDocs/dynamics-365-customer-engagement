@@ -1,7 +1,7 @@
 ---
 title: "Set up and configure Dynamics 365 for Outlook from Office 365 | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 01/11/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

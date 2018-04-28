@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-01-13"
+ms.date: 01/13/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -34,7 +34,7 @@ manager: "brycho"
 ## Microsoft Dynamics 365 for Outlook software feature prerequisites  
  The following software must be installed and running on the computer before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)]:  
   
- **Web Browser**. One of the following:  
+ **Web Browser**. One of the following: 
   
 -   [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)]  
   
@@ -43,9 +43,9 @@ manager: "brycho"
 > [!IMPORTANT]
 >  [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] or earlier versions are not supported for use with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 >   
->  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock URLs required for Dynamics 365 (online)](../DocSets/CRMIGv9_Admin/Toc/Troubleshooting:%20Unblock%20URLs%20required%20for%20Dynamics%20365%20\(online\).md).  
+>  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock required URLs](../../admin/troubleshooting-unblock-urls-required.md). 
   
- **[!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)]** . One of the following:  
+ **Microsoft Office**. One of the following:  
   
 -   [!INCLUDE[pn_microsoft_office_2016](../../includes/pn-microsoft-office-2016.md)]*  
   
@@ -66,7 +66,7 @@ manager: "brycho"
 >   
 >  The [!INCLUDE[pn_Indexing_Service](../../includes/pn-indexing-service.md)] (now known as the Windows Search Service, or WSS) is required by users who will set up and use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and its Help file in offline mode.  
   
- **[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** . One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
+ **Dynamics 365**. One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
   
 -   On-premises editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Server  
   

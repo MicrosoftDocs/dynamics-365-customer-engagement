@@ -1,7 +1,7 @@
 ---
 title: "Which fields can be synchronized between Dynamics 365 and Outlook? | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2016-11-01"
+ms.date: 11/28/2016
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
