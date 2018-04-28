@@ -37,9 +37,9 @@ If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for
 ## Files not removed during a Microsoft Dynamics 365 for Outlook uninstall  
  The following files aren’t removed when you uninstall [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
--   *Program Files\Microsoft Dynamics CRM\Client\ConfigWizard\CrmForOutlookInstaller.exe  
+-   <sup>*</sup>Program Files\Microsoft Dynamics CRM\Client\ConfigWizard\CrmForOutlookInstaller.exe  
   
 -   Windows\CrmClient.mif  
   
- *The default folder name is **Program Files** or **Program Files (x86)**.  
+ <sup>*</sup>The default folder name is **Program Files** or **Program Files (x86)**.  
   

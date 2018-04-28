@@ -93,7 +93,7 @@ Follow these steps for a smooth upgrade to [!INCLUDE[pn_crm_2016_outlook](../../
   
  If the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] doesn’t start automatically, you can start it as described in the following procedure.  
   
-#### To configure Microsoft Dynamics 365 for Outlook  
+### To configure Microsoft Dynamics 365 for Outlook  
   
 1.  Start the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)]: On the Start screen, click **Configuration Wizard** or on earlier versions of Windows click **Start** > **All Programs** > **Microsoft Dynamics 365** > **Configuration Wizard**. Alternatively, click **Configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]** on the **Dynamics 365** tab in Outlook.  
   

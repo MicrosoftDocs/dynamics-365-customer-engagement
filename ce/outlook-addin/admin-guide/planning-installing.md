@@ -35,10 +35,10 @@ manager: "brycho"
 > - During installation of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 > - After installation has completed. In this case, a user can add offline capability by clicking **Go Offline** in [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)]. This starts the installation of additional required components and stores a copy of the user’s [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] data locally. Subsequent offline sessions require no additional installations, but may require updating the local copy of the user’s data.  
 
-[!NOTE]
-Although multiple users can share a computer that uses [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], go offline capability is not supported in a shared computer environment, such as when you use remote desktop services (formerly Terminal Services).  
-
-[Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx) with offline files is not supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If the Dynamics 365 data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
+> [!NOTE]
+>  Although multiple users can share a computer that uses [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], go offline capability is not supported in a shared computer environment, such as when you use remote desktop services (formerly Terminal Services).  
+>
+>  [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx) with offline files is not supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If the Dynamics 365 data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
 ### See Also  
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   
