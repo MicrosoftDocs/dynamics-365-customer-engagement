@@ -23,7 +23,7 @@
 ### [How field security affects synchronization](admin-guide/field-security-synchronization.md)
 ### [Troubleshooting and things to know](admin-guide/troubleshooting-things-to-know.md)
 
-# Dynamics 365 for Outlook User Guide 
+# [Dynamics 365 for Outlook User Guide](dynamics-365-outlook-user-s-guide.md) 
 
 ## Set up and configure 
 ### [Set up](user-guide/set-up.md)
