@@ -22,46 +22,46 @@ manager: "brycho"
 ---
 # Set up Dynamics 365 for Outlook
   
-### Dynamics 365 for Outlook  
+## Dynamics 365 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)]. [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
   
 > [!IMPORTANT]
 >  To install and use [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)], your organization must be running [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../../includes/pn-microsoft-dynamics-crm-2016-server.md)].  
   
-#### Step 1: Review installation prerequisites  
+### Step 1: Review installation prerequisites  
   
-###### Sign in as a Local Administrator  
+#### Sign in as a Local Administrator  
   
 -   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must be able to sign in to your computer as a user with Local Administrator privileges.  
   
      In smaller companies, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is often installed manually, on a computer-by-computer basis. Administrators or individual users who have Local Administrator privileges and who possess a general familiarity with installing software can do these installations.  
   
-###### Review software requirements  
+#### Review software requirements  
   
--   [TechNet: Get information on software requirements](https://technet.microsoft.com/library/hh699818\(v=crm.8\).aspx)  
+-   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/software-requirements.md)
   
-###### Review hardware and network requirements  
+#### Review hardware and network requirements  
   
--   [TechNet: Get information on hardware and network requirements](https://technet.microsoft.com/en-us/library/hh699680\(v=crm.8\).aspx)  
-  
-###### Install updates  
+-   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/hardware-requirements.md)
+
+#### Install updates  
   
 -   Before you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], make sure you have all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
-###### Verify permissions  
+#### Verify permissions  
   
--   To install [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)], you must have the appropriate security permissions. [TechNet: Permissions required for Dynamics 365 for Outlook tasks](https://technet.microsoft.com/en-us/library/dn832110.aspx).  
+-   To install [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)], you must have the appropriate security permissions. [Permissions required for Dynamics 365 for Outlook tasks](../admin-guide/permissions-required-tasks.md)
   
-#### Step 2: Download the software  
+### Step 2: Download the software  
  Before you or your users install [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)], please note the following:  
   
--   Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [TechNet: Customize your Dynamics 365 system](https://technet.microsoft.com/library/dn531158\(v=crm.8\).aspx).  
+-   Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 Customer Engagement](../customize/overview.md).
   
--   Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
+-   Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
   
--   For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Office: Turn Cached Exchange mode on or off](https://support.office.microsoft.com/article/Turn-on-or-off-Cached-Exchange-Mode-e8966ca4-6ecd-4bdd-ade2-64993dda432b)  
+-   For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn Cached Exchange mode on or off](https://support.office.com/article/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
-###### Download the software  
+#### Download the software  
   
 1.  In [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], click the **Settings** icon ![Dynamics 365 web client Settings button](../media/mp-ua-r16-settings.png "Dynamics 365 web client Settings button"), and then click **Apps for Dynamics 365**.  
   
@@ -95,7 +95,7 @@ manager: "brycho"
   
 9. When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
-#### Step 3: Configure Dynamics 365 for Outlook  
+### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
  ![Add a Dyanmics Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dyanmics Dynamics 365 Organization dialog box")  
@@ -109,53 +109,53 @@ manager: "brycho"
     >   
     >  If you encounter an issue configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
   
-### CRM 2015 for Outlook  
+## CRM 2015 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)]. [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
   
  ![Video button](../media/video--button.PNG "Video button") [Watch a video on setup, configuration, and upgrading (5:19)](http://go.microsoft.com/fwlink/p/?LinkId=522526)  
   
 > [!IMPORTANT]
->  -   To install and use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], your organization must be running [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)].  
+> -   To install and use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], your organization must be running [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)].  
 > -   [!INCLUDE[pn_crm_2013_for_outlook_long](../../includes/pn-crm-2013-for-outlook-long.md)] is not compatible with [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)]. At a minimum, you must update [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] to UR1 to use it with [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: Upgrading from CRM 2013 for Outlook to CRM 2015 for Outlook](https://technet.microsoft.com/library/hh699711.aspx)  
   
-#### Step 1: Review installation prerequisites  
+### Step 1: Review installation prerequisites  
   
-###### Sign in as a Local Administrator  
+#### Sign in as a Local Administrator  
   
 -   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must be able to sign in to your computer as a user with Local Administrator privileges.  
   
      In smaller companies, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is often installed manually, on a computer-by-computer basis. Administrators or individual users who have Local Administrator privileges and who possess a general familiarity with installing software can do these installations.  
   
-###### Review software requirements  
+#### Review software requirements  
   
--   [TechNet: Get information on software requirements](https://technet.microsoft.com/library/hh699818.aspx)  
+-   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/software-requirements.md)
+
+#### Review hardware and network requirements  
   
-###### Review hardware and network requirements  
+-   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/hardware-requirements.md)
   
--   [TechNet: Get information on hardware and network requirements](https://technet.microsoft.com/library/hh699818.aspx)  
-  
-###### Install updates  
+#### Install updates  
   
 -   Before you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], make sure you have all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
-###### Verify permissions  
+#### Verify permissions  
   
--   To install [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], you must have the appropriate security permissions. [TechNet: Learn about permissions](https://technet.microsoft.com/library/dn832110.aspx).  
+-   To install [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], you must have the appropriate security permissions. [Permissions required for Dynamics 365 for Outlook tasks](../admin-guide/permissions-required-tasks.md)
   
-#### Step 2: Download the software  
+### Step 2: Download the software  
  Before you or your users install [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], please note the following:  
   
--   Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [TechNet: Customize your Dynamics 365 system](https://technet.microsoft.com/library/dn531158.aspx).  
+-   Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 Customer Engagement](../customize/overview.md).  
   
--   Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
+-   Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
   
--   For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Office: Turn Cached Exchange mode on or off](https://support.office.microsoft.com/article/Turn-on-or-off-Cached-Exchange-Mode-e8966ca4-6ecd-4bdd-ade2-64993dda432b)  
+-   For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn Cached Exchange mode on or off](https://support.office.com/article/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)    
   
-###### Download the software  
+#### Download the software  
   
 1.  In the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] user interface, click **Get Dynamics 365 for Outlook** on the message bar.  
   
-     ![Dynamics 365 message bar for installing Dynamics 365 for Outllook](../media/install-crm-outloook-message-bar.png "Dynamics 365 message bar for installing Dynamics 365 for Outllook")  
+     ![Dynamics 365 message bar for installing Dynamics 365 for Outllook](../media/install-crm-outloook-message-bar.png "Dynamics 365 message bar for installing Dynamics 365 for Outlook")  
   
     > [!TIP]
     >  If you prefer, you can [download the software from this page](http://go.microsoft.com/fwlink/p/?LinkID=403030).  
@@ -185,7 +185,7 @@ manager: "brycho"
   
 8.  When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
   
-#### Step 3: Configure Dynamics 365 for Outlook  
+### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
  ![Add a Dyanmics Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dyanmics Dynamics 365 Organization dialog box")  
@@ -197,7 +197,7 @@ manager: "brycho"
     > [!TIP]
     >  If you want to add another organization, you can run the Configuration Wizard again after you have successfully configured the first organization. To run the Configuration Wizard, in the [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)] Start screen, search for **Configuration Wizard** and run it. In earlier versions of [!INCLUDE[pn_ms_Windows_short](../../includes/pn-ms-windows-short.md)], click **Start > All Programs > Microsoft Dynamics 365**, and then click **Configuration Wizard**.  
   
-### CRM 2013 for Outlook  
+## CRM 2013 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)]. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
   
 > [!IMPORTANT]
@@ -205,36 +205,35 @@ manager: "brycho"
 >   
 >  If you’re using [!INCLUDE[pn_crm_2013_shortest](../../includes/pn-crm-2013-shortest.md)] (on-premises) or [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you can upgrade to [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] or you can use [!INCLUDE[pn_CRM_2011_for_Outlook](../../includes/pn-crm-2011-for-outlook.md)] if you’re not ready to upgrade yet. If you use [!INCLUDE[pn_CRM_2011_for_Outlook](../../includes/pn-crm-2011-for-outlook.md)] with [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] or [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you can’t use the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] client in offline mode, however. We recommend that you update to [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] at your earliest convenience.  
   
-#### Step 1: Review installation prerequisites  
+### Step 1: Review installation prerequisites  
   
-###### Sign in as a Local Administrator  
+#### Sign in as a Local Administrator  
   
 -   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must be able to sign in to your computer as a user with Local Administrator privileges.  
   
      In smaller companies, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is often installed manually, on a computer-by-computer basis. Administrators or individual users who have Local Administrator privileges and who possess a general familiarity with installing software can do these installations.  
   
-###### Review software requirements  
+#### Review software requirements  
   
--   [TechNet: Get information on software requirements](https://technet.microsoft.com/library/hh699818.aspx)  
+-   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/software-requirements.md)
+
+#### Review hardware and network requirements  
   
-###### Review hardware and network requirements  
-  
--   [TechNet: Get information on hardware and network requirements](https://technet.microsoft.com/library/hh699680.aspx)  
-  
-###### Install updates  
+-   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/hardware-requirements.md)
+#### Install updates  
   
 -   Before you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], make sure you have all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
-#### Step 2: Download the software  
+### Step 2: Download the software  
  Before you or your users install [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)], please note the following:  
   
--   Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [TechNet: Customize your Dynamics 365 system](https://technet.microsoft.com/library/dn531158.aspx).  
+-   Make sure you have completed your desired [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] customizations. If your users will use [!INCLUDE[pn_crm_2013_for_outlook_short](../../includes/pn-crm-2013-for-outlook-short.md)] in offline mode, for best performance, enable only the minimum required record types (entities) and views for offline use. For more information, see [Customize Dynamics 365 Customer Engagement](../customize/overview.md).  
   
--   Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
+-   Group Policy Folder Redirection with offline files is not supported in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. If your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data is stored with redirected offline files, users may be unable to use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Using Folder Redirection](https://technet.microsoft.com/library/cc753996.aspx)  
   
--   For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn Cached Exchange Mode on or off](http://go.microsoft.com/fwlink/p/?LinkID=512447)  
+-   For synchronization to work correctly, we recommend that you turn on Cached Exchange Mode in Outlook. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Turn Cached Exchange mode on or off](https://support.office.com/article/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
-###### Download the software  
+#### Download the software  
   
 1.  Run the [!INCLUDE[pn_crm_2013_for_outlook_setup](../../includes/pn-crm-2013-for-outlook-setup.md)] to download the software. You can start the Setup from any of the following places:  
   
@@ -263,7 +262,7 @@ manager: "brycho"
   
 5.  On the final page of the wizard, click **Close**.  
   
-#### Step 3: Configure Dynamics 365 for Outlook  
+### Step 3: Configure Dynamics 365 for Outlook  
  You must configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] after installing it. When you restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] after installing, the Configuration Wizard starts automatically.  
   
 > [!NOTE]
@@ -299,15 +298,6 @@ manager: "brycho"
     > [!TIP]
     >  If you have problems installing and configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], try [Configuration Troubleshooting Wizard](http://go.microsoft.com/fwlink/p/?LinkID=394362).  
   
-#### Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_go_offline_in_outlook](../../includes/cc-privacy-crm-go-offline-in-outlook.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
 ### See Also  
- [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
- [TechNet: Set up Dynamics 365 for Outlook](https://technet.microsoft.com/en-us/library/dn832060.aspx)   
- [TechNet: Upgrade to Microsoft Dynamics CRM 2016 for Outlook](https://technet.microsoft.com/en-us/library/hh699711.aspx)   
- [TechNet: Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](https://technet.microsoft.com/en-us/library/hh699813.aspx)
+ [Upgrade Microsoft Dynamics CRM for Outlook](../admin-guide/upgrade.md)
+ [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin-guide/troubleshooting-things-to-know.md)

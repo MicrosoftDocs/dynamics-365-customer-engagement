@@ -43,3 +43,9 @@ manager: "brycho"
   
 4.  **Go Offline data sync**. Go offline capability uses [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] as the local data store. When you go offline or come back online, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] synchronizes the records for the entity types you choose with the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)]. When you go offline or come back online, a separate synchronization process takes place that is not part of the messaging data synchronization described here. Go offline capability allows users to create, modify, or delete records offline that can be later synchronized to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] or [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)] when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] comes online again.  
   
+## Privacy notices  
+ [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
+  
+ [!INCLUDE[cc_privacy_crm_go_offline_in_outlook](../../includes/cc-privacy-crm-go-offline-in-outlook.md)]  
+  
+ [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
