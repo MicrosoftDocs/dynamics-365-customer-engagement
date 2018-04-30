@@ -42,11 +42,13 @@ Use the following links to learn about Service Management tasks:
 
 [Create and manage queues](create-manage-queues.md)
 
-[Case Settings](define-settings-parent-child-cases.md)
+[Parent and child case settings](define-settings-parent-child-cases.md)
 
 [Routing Rule sets](create-rules-automatically-route-cases.md)
 
 [Automatic Record Creation](set-up-rules-to-automatically-create-or-update-records.md)
+
+Subjects
   
 ## Service terms  
 
@@ -69,6 +71,12 @@ Categories
 ## Templates
 
 [Entitlement Templates](set-up-entitlements-templates.md)
+
+Email Templates
+
+Article Templates
+
+Contract Templates
 
 <br>
 

@@ -43,9 +43,7 @@ To define when your service or support team is available for providing support t
   
 4.  In the **Weekly Schedule** section, under **Set the recurring weekly schedule** section, follow these steps:  
   
-  
-  
-     a.  For **Set Work Hours**, select one of these options:  
+      a.  For **Set Work Hours**, select one of these options:  
   
        - **Are the same each day**. The schedule is the same for every day of the week. After you select this option, to select the days of the week that the customer support is available, click **Set Work Hours**.  
   
@@ -59,9 +57,9 @@ To define when your service or support team is available for providing support t
   
        c.  For **Holiday Schedule**, select **Observe** to specify when your service organization will be closed.  If you selected **Observe**, select a holiday schedule from the lookup box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md).  
   
-7.  Under **Select the time zone** section, in the **Time Zone** drop-down box, select the time zone in which your customer support resources will work.  
+5.  Under **Select the time zone** section, in the **Time Zone** drop-down box, select the time zone in which your customer support resources will work.  
   
-8. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
+6. [!INCLUDE[proc_click_or_tap_save_and_close](../includes/proc-click-or-tap-save-and-close.md)]  
   
 ## Define the work hours for the schedule  
  In the **Set Work Hours** dialog box, complete the following fields, and then click **OK**:  

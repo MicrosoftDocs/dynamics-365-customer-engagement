@@ -10,12 +10,13 @@
 ### [Customer Service](user-guide-customer-service.md)
 ## [Service Manager Guide](service-manager-guide.md)
 ### [Create and manage queues](create-manage-queues.md)
-### Case settings
-#### [Parent or child case settings ](define-settings-parent-child-cases.md)
+### Case Settings
+#### [Parent and child case settings ](define-settings-parent-child-cases.md)
 ### [Work with Routing Rule sets ](create-rules-automatically-route-cases.md)
 ### Automatic Record Creation
 #### [Automatically create case from email](automatically-create-case-from-email.md)
 #### [Automatically create/update records](set-up-rules-to-automatically-create-or-update-records.md)
+### Subjects
 ### [Service level agreements](define-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
 ### [Holiday schedule](set-up-holiday-schedule.md)
@@ -29,6 +30,7 @@
 ### [Entitlement Templates](set-up-entitlements-templates.md)
 #### [Create templates for email](../admin/create-templates-email.md)
 #### [Create templates for articles](../admin/create-templates-articles.md)
+#### Create templates for contracts
 
 
 
