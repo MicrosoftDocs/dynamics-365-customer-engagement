@@ -68,5 +68,4 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
   
 ### See also  
- [TechNet: Software compatibility](https://technet.microsoft.com/library/dn832152.aspx)   
- [Do your Dynamics 365 work in Outlook](http://go.microsoft.com/fwlink/p/?LinkID=394774)
+ [Dynamics 365 for Outlook support](../admin-guide/support.md)
