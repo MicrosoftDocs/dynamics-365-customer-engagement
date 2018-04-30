@@ -9,7 +9,6 @@ ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
 ms.assetid: d1677843-906a-49ec-a8c1-d2733870020e
 author: shubhadaj
 ms.author: shujoshi
@@ -43,5 +42,5 @@ Make it easier for your sales reps to increase their sales by creating a product
  ![Set up product catalog components in Dynamics 365](../sales-enterprise/media/v7-set-up-product-catalog.png "Set up product catalog components in Dynamics 365")
 
 ### See Also
- [Create a product family](../sales-enterprise/create-product-family.md)
+ [Create a product family](../sales-enterprise/create-product-family.md)  
  [Overview of Sales](../sales-enterprise/user-guide.md)
