@@ -290,7 +290,8 @@ You can import a section (along with its questions) from another survey into you
 
 7. From the **Automatically link questions** list, choose whether to link the questions.
 
-8. Click **Import** .
+8. Click **Import**.
+
 <!--Note to author: Should the hyphen in the following step be bold, the way it is in step 8 of the previous section?-->
 9. Select **Save**. The section is imported, and - **Imported** is appended to the section name.
 
