@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
-ms.date: 04/13/2018
+ms.date: 04/30/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -79,7 +79,9 @@ When you install Voice of the Customer version <<Version_Number>>, the Voice of 
 ### Open Voice of the Customer app
 
 1. Sign in to Dynamics 365.
+
 2. Open the URL `<organization URL>/apps`.
+
 3. Select the Voice of the Customer app.
 
 ### See also

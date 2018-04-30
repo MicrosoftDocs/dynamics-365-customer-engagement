@@ -2,7 +2,7 @@
 title: "Design an advanced survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to add advanced functionalities to the survey."
 keywords: "advanced survey design; interactive survey; response routing"
-ms.date: 04/23/2018
+ms.date: 04/30/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -252,6 +252,8 @@ You can configure your survey to include a link that allows a respondent to unsu
 
 You can configure your survey to create a lead automatically from a survey response that is given by an anonymous respondent.
 
+**Web client**
+
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
@@ -269,6 +271,26 @@ You can configure your survey to create a lead automatically from a survey respo
     ![Response mapping to create lead](media/lead-response-mapping.png "Response mapping to create a lead")  
 
 8.  Save the changes.
+
+**Voice of the Customer app**
+
+1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2. Go to **Voice of the Customer** > **Surveys**.
+
+3. Select the name of the survey for which you want to create a lead automatically for an anonymous respondent. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Store responses in a custom field by using response mapping](analyze-survey-data.md#store-responses-in-a-custom-field-by-using-response-mapping)
+
+4. Under **Invitations and Actions**, select **Yes** for the **Create Lead For Anonymous Responses** field.
+
+5. Save the changes.
+
+6. From the **Survey** box, select **Designer**.
+
+7. Select the question you want to configure to create the lead by selecting a lead attribute from the **Map response to** list.
+
+    ![Response mapping to create lead](media/lead-response-mapping-uci.png "Response mapping to create a lead")
+
+8. Save the changes.
 
 When a survey generates an anonymous response, and is configured to create a lead, the **Create Lead** workflow is invoked in the background for creating the lead. The lead entities are mapped to the survey response fields as described in the following table.
 
@@ -298,7 +320,12 @@ After a lead is created, the **Respondent** field in the survey response is upda
 
 ## Automatically send an email response
 
-You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type.
+You can configure your survey to automatically send an email response to the customer (account, contact, or lead) after the survey is completed. The email is sent by using a Global email template type. More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email)
+
+> [!NOTE]
+> The email is sent only for a non-anonymous response.
+
+**Web client**
 
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
@@ -312,10 +339,19 @@ You can configure your survey to automatically send an email response to the cus
 
 6.  Select **Save** in the lower-right corner of the screen.
 
-    > [!NOTE]
-    > The email is sent only for a non-anonymous response.
+**Voice of the Customer app**
 
-    More information about how to create a new email template of type Global: [Create templates for email ](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-templates-email)  
+1.  [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2.  Go to **Voice of the Customer** &gt; **Surveys**.
+
+3.  Select the name of the survey for which you want to send automatic response.
+
+4.  Under **Invitations and Actions**, select **Yes** for the **Automatically Send Email Response** field. The **Email Template** field is displayed.
+
+5.  From the **Email Template** list, select an email template.
+
+6.  Select **Save** in the lower-right corner of the screen.
 
 ### See also
 [Plan a survey](plan-survey.md)   

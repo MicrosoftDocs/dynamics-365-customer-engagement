@@ -2,7 +2,7 @@
 title: "Design a basic survey using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to create a basic survey using Voice of the Customer and add questions to it."
 keywords: "survey design;  survey theme; share survey; clone survey"
-ms.date: 04/23/2018
+ms.date: 04/30/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -333,7 +333,9 @@ To create a linked question:
 5. Select the question you want to link.
 
 6. In the **Properties** pane, select **Link** from the **Create linked question** list.
+
 7. From the **Linked Question** field, browse to and select the question to be linked.
+
 8. Select **Save** in the lower-right corner of the screen.
 
 ## Personalize a survey
