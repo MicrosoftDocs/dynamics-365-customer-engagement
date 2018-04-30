@@ -31,6 +31,9 @@ This walkthrough demonstrates how to register a plug-in by using the Plug-in Reg
 -   Obtain a system user account on a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] server.  
   
 -   Your user account must have the System Customizer or System Administrator role. See [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md).  
+
+> [!NOTE]
+>  Registering a plug-in against an entity can impact the license requirements for PowerApps and Flows using this entity. Please see [Premium Entities](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-premium-entities) for more information.
   
 ### Connect to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Server  
   
