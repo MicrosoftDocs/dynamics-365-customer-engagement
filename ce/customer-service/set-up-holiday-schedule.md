@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 7bb3b4c0-8ffb-42c3-aecc-c730bdad2e5e
 ---
 
-# Set up a holiday schedule
+# Create and manage a holiday schedule
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -36,25 +36,28 @@ Follow the procedure given below to create a new holiday schedule:
      - Select **Show Chart** in the command bar to see the chart view. <br>
   
   
-3.  Select **+** **New** and in the **Create Holiday Schedule** dialog box, enter a name and description for the holiday schedule, and then select **Create**.  
+3.  To create a new holiday schedule, select **New**. In the **Create Holiday Schedule** dialog box, enter **Name** and **Description** for the holiday schedule, and then select **Create**.  
   
 4.  In the list of holiday schedules, select the holiday schedule you created.  
   
 5.  When the holiday schedule is open, click **New** in the **Holidays** section to add a holiday to your customer service calendar.  
   
-6.  In the **Add a Holiday** dialog box, specify the name and select the following information and then select **OK**.  
+6.  In the **Add a Holiday** dialog box, complete the following information and then select **OK**.  
     - Holiday Name
     - Start Date 
     - End Date 
-    - Repeat till Year 
     - Duration 
-    - Created by 
+   
 
-
-  
  The holiday is created and associated with your customer service calendar. After the customer service schedule is associated to an SLA,  then your SLA during business hours is not affected. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define service level agreements](../customer-service/define-service-level-agreements.md)  
   
 ## Additional actions
+
+- To edit an existing holiday schedule, go to **Service Management** > **Holiday Schedule**. The **All Holiday Schedules** view is displayed. Select the holiday schedule you want to edit from the list of holiday schedules and select **Edit** in the command bar.
+    - You can edit the **Name** or **Description**, or add new holidays for the holiday schedule. 
+    - By default, all the holidays of the current year are displayed. To switch to a different year, click and type the year as shown below:
+    
+- To print a holiday schedule, select **Print Preview** in the **Holidays** section of the particular holiday schedule. You can also export or import a holiday schedule in Excel format.
 
 
 
