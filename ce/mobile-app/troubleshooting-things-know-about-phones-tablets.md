@@ -353,7 +353,7 @@ If you receive this error:
  The **Prevent click for mapping** setting works as expected in [!INCLUDE[pn_microsoft_dynamics_crm_for_good](../includes/pn-microsoft-dynamics-crm-for-good.md)] app version 1.1 (1.1.0). We recommend updating to the latest version of the [!INCLUDE[pn_dynamics_crm_for_good](../includes/pn-dynamics-crm-for-good.md)] app rather than applying this workaround.  
   
 ## Issue still not resolved?  
- If the information provided previously doesn’t resolve your issue, either [Post your issue in the Dynamics CRM Community](https://community.dynamics.com/crm/f/117/p/addpost.aspx?GroupToJoin=57) or [Contact Technical Support](http://go.microsoft.com/fwlink/p/?LinkID=321650). The following are some suggested details to provide:  
+ If the information provided previously doesn’t resolve your issue, either [Post your issue in the Dynamics CRM Community](https://community.dynamics.com/crm/f/117/p/addpost.aspx?GroupToJoin=57) or [Contact Technical Support](contact-technical-support.md). The following are some suggested details to provide:   
   
 -   What are the specific symptoms you encounter? For example, if you encounter an error, what is the exact error message?  
   
