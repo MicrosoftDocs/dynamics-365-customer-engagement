@@ -112,4 +112,4 @@ As a survey administrator, you can validate whether a survey has created any iss
 [Design a basic survey](design-basic-survey.md)   
 [Design an advanced survey](design-advanced-survey.md)   
 [Distribute a survey](distribute-survey.md)
-[Analyze survey data](analyze-survey-data.md)
+[Analyze survey data](analyze-survey-data.md) 
