@@ -182,7 +182,7 @@ You can add more pages as required by your survey.
 
 5. To add a new page, select **Add** from the page control toolbar at the bottom of the screen.
 
-6. To edit a page, select the page from the page control toolbar at the bottom of the screen and modify the properties in the **Properties** pane on the right-hand side of the screen.
+6. To edit a page, select the page from the page control toolbar at the bottom of the screen and modify the properties in the **Properties** pane on the right side of the screen.
 
 7. To delete a page, select **Delete** beside the page name on the page control toolbar.
 
@@ -291,7 +291,7 @@ You can import a section (along with its questions) from another survey into you
 7. From the **Automatically link questions** list, choose whether to link the questions.
 
 8. Click **Import** .
-
+<!--Note to author: Should the hyphen in the following step be bold, the way it is in step 8 of the previous section?-->
 9. Select **Save**. The section is imported, and - **Imported** is appended to the section name.
 
 ### Share questions between surveys by using linked questions
