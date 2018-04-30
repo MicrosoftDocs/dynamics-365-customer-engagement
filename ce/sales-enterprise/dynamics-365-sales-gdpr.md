@@ -22,9 +22,9 @@ topic-status: Drafting
 
 # Dynamics 365 for Sales and GDPR
 
-To comply with GDPR, we’ve made it possible to edit read-only records in [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)].
+To comply with GDPR, we’ve made it possible to edit read-only records in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].
 
-The following table shows the states in which the [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)] records become read-only. 
+The following table shows the states in which the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] records become read-only. 
 
 |  Entity  |  State  |
 |  ------  |  -----  |
@@ -32,7 +32,7 @@ The following table shows the states in which the [!INCLUDE[pn-sales-enterprise-
 |  Order   | Fulfilled/Canceled/Submitted/Invoiced |
 |  Invoice | Paid/Canceled/Closed | 
 
-In case of orders and invoices, a system administrator can export read-only records, update them, and import back to [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)]. In case of quotes, both, a system administrator and a user, can export read-only records and import the updated records back into the system. 
+In case of orders and invoices, a system administrator can export read-only records, update them, and import back to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. In case of quotes, both, a system administrator and a user, can export read-only records and import the updated records back into the system. 
 
 It is also possible to update the read-only records programmatically with the SDK for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Customer Engagement.
 
@@ -46,7 +46,7 @@ It is also possible to update the read-only records programmatically with the SD
 
 4.  In the file that you exported, make the necessary changes.
 
-5.  To import the updated records back into [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)
+5.  To import the updated records back into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], in your sales app, in the list of records, select **Import Data**. More information: [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)
 
 
 ## Important points
