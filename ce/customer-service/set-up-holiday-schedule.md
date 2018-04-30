@@ -30,7 +30,7 @@ Follow the procedure given below to create a new holiday schedule:
     - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)] <br>  
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. Go to **Service Management** > **Holiday Schedule**. <br>
+2. In the Customer Service Hub sitemap, go to **Service Management** > **Holiday Schedule**. <br>
 
      - The **All Holiday Schedules** view is displayed. You can switch between multiple views using the drop-down. 
      - Select **Show Chart** in the command bar to see the chart view. <br>

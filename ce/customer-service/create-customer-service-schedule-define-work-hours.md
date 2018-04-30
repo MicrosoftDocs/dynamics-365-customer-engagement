@@ -32,7 +32,7 @@ To define when your service or support team is available for providing support t
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. Go to **Service Management** > **Customer Service Schedule**. 
+2. In the Customer Service Hub sitemap, go to **Service Management** > **Customer Service Schedule**. 
     
    - The **All Customer Service Calendars** view is displayed. You can switch between multiple views using the drop-down. 
    - Select **Show Chart** in the command bar to see the chart view. <br>

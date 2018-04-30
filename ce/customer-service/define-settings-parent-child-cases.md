@@ -40,12 +40,11 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
     - **Don’t allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.  
   
     > [!NOTE]
-    >  If you don’t make a selection, parent and child cases are closed independently of each other. This is the default setting.  
+    >  If you choose **None**, parent and child cases are closed independently of each other. This is the default setting.  
   
 5.  When you’re done, select **Save**.  
   
-### See also  
-[Get started with service management](../customer-service/service-manager-guide.md)</br>
+### See also
 
 [Create and manage parent and child cases (Customer Service Hub)](customer-service-hub-user-guide-case-sla.md#create-and-manage-parent-and-child-cases)</br>
 

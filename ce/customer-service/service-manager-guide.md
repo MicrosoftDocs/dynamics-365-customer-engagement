@@ -38,7 +38,7 @@ Use the Service manager to set up various service management tasks for customer 
 
 Use the following links to learn about Service Management tasks:  
   
-## Case settings  
+## Case Settings  
 
 [Create and manage queues](create-manage-queues.md)
 
@@ -62,7 +62,7 @@ Subjects
 
 Service Configuration Settings
 
-## Knowledge Management Settings
+## Knowledge Base Management 
 
 Embedded Knowledge Search
 

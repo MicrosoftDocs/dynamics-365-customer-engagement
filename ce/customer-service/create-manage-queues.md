@@ -59,7 +59,7 @@ Follow the procedure given below to create a queue:
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2.  Go to **Service Management** > **Queues**. <br>
+2.  In the Customer Service Hub sitemap, go to **Service Management** > **Queues**. <br>
 
     - The **My Active Queues** view is displayed. You can switch between queues view using the drop-down. 
     - Select **Show Chart** in the command bar to see the chart view. <br>
