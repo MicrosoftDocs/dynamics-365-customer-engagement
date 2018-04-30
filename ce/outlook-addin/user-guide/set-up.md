@@ -38,7 +38,7 @@ manager: "brycho"
   
 #### Review software requirements  
   
--   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/software-requirements.md)
+-   [Microsoft Dynamics 365 for Outlook software requirements](../admin-guide/software-requirements.md)
   
 #### Review hardware and network requirements  
   
@@ -128,7 +128,7 @@ manager: "brycho"
   
 #### Review software requirements  
   
--   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/software-requirements.md)
+-   [Microsoft Dynamics 365 for Outlook software requirements](../admin-guide/software-requirements.md)
 
 #### Review hardware and network requirements  
   
@@ -215,7 +215,7 @@ manager: "brycho"
   
 #### Review software requirements  
   
--   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/software-requirements.md)
+-   [Microsoft Dynamics 365 for Outlook software requirements](../admin-guide/software-requirements.md)
 
 #### Review hardware and network requirements  
   
@@ -298,6 +298,6 @@ manager: "brycho"
     > [!TIP]
     >  If you have problems installing and configuring [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], try [Configuration Troubleshooting Wizard](http://go.microsoft.com/fwlink/p/?LinkID=394362).  
   
-### See Also  
+### See also  
  [Upgrade Microsoft Dynamics CRM for Outlook](../admin-guide/upgrade.md)
  [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin-guide/troubleshooting-things-to-know.md)

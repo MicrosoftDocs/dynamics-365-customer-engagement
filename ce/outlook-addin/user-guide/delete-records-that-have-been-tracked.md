@@ -66,9 +66,5 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 -   If you stop tracking the task, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the task in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
-### See Also  
+### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
- [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   
- [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
- [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)

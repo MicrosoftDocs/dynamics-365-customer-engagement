@@ -59,14 +59,7 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
   
 10. In the wizard, choose **Close**.  
   
-<a name="BMKM_MUprivacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
+### See also  
  [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
- [Set up Dynamics 365 for Outlook](set-up.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

@@ -58,7 +58,7 @@ manager: "brycho"
   
  ![Sync or offline filters criteria grid in Dynamics 365](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
   
-#### Add a criteria row  
+### Add a criteria row  
   
 1.  In the **Look for** list, select a record type.  
   
@@ -68,7 +68,7 @@ manager: "brycho"
   
 4.  Enter a value to filter on.  
   
-#### Group rows of criteria  
+### Group rows of criteria  
   
 1.  For each row you want to group, click the down arrow to the left of the field name, and then click **Select Row**.  
   
@@ -80,6 +80,5 @@ manager: "brycho"
   
  ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
-### See Also  
+### See also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

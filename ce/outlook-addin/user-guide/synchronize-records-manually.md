@@ -28,13 +28,5 @@ By default, changes made in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microso
     > [!NOTE]
     >  If you receive the error message "[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server Not Found", verify that you have Internet connectivity and that the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server is running. Then try synchronizing again.  
   
-<a name="BMKM_MUprivacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
- [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
+### See also  
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

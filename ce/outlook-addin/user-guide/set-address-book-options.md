@@ -21,7 +21,7 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Set address book options in Dynamics 365 for Outlook
-With[!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], when you compose an email message or set up a meeting, you can search for a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact directly from the **To** field of the email message or appointment. By default, only the contacts that are synchronized with Dynamics 365 for Outlook and other record types that you own (such as accounts and leads) appear in the address book. Use this process if you want to synchronize all Dynamics 365 contacts, including contacts that you don’t own or to synchronize additional record types that you don’t own.  
+With [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], when you compose an email message or set up a meeting, you can search for a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact directly from the **To** field of the email message or appointment. By default, only the contacts that are synchronized with Dynamics 365 for Outlook and other record types that you own (such as accounts and leads) appear in the address book. Use this process if you want to synchronize all Dynamics 365 contacts, including contacts that you don’t own or to synchronize additional record types that you don’t own.  
   
 > [!NOTE]
 >  The address book synchronizes with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] automatically when you start [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], and then once every 24 hours.  
@@ -53,14 +53,7 @@ With[!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft
   
 7.  To save your changes and close the dialog box, choose **OK**.  
   
-<a name="BMKM_MUprivacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
+### See also  
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
- [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

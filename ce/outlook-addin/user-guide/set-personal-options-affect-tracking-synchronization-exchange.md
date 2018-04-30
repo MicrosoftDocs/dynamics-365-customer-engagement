@@ -54,12 +54,6 @@ You can use the **Set Personal Options** dialog box in [!INCLUDE[pn_microsoft_dy
 |Set the synchronization interval for updating your local data when you go offline|Local Data|Set how often to update local data|Update local data every<br /><br /> Note: You may not be able to change the interval if your administrator has restricted changes.|From [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only|  
 |Select how duplicate records should be handled when going from offline to online|Local Data|Select how duplicate records should be handled during synchronization|Enable duplicate detection during offline to online synchronization|From [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only|  
   
-<a name="BMKM_MUprivacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
 ### See Also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   

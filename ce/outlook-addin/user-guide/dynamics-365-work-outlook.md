@@ -79,18 +79,11 @@ If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Short](../../inclu
 |Attach files during creation|Save an email activity before attaching files.|  
 |Move records by dragging and dropping.|There’s no workaround for dragging and dropping records. Dragging and dropping records causes data loss.|  
 |Reminders|After synchronization with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], 15-minute reminders are created for appointments and service activities created in the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] folders or in the web application.|  
-|[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Service calendar|The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Service calendar isn’t available by default, but you can ask your system administrator to add it.|  
+|[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Service calendar|The [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Service calendar isn’t available by default, but you can ask your system administrator to add it.|
   
-<a name="Privacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
+### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
  [Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook](create-word-mail-merge-document.md)   
  [Customize the Reading Pane in Dynamics 365 for Outlook](customize-reading-pane.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
- [TechNet: Dynamics 365 for Outlook compatibility](https://technet.microsoft.com/library/dn832152.aspx)

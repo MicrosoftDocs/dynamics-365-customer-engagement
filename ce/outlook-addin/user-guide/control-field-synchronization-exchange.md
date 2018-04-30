@@ -26,21 +26,19 @@ If you’re a system administrator, you can control synchronization of appointme
   
 -   Control whether a specific pair of fields is synchronized:  
   
-    -   In one direction - from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**or** from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]  
+    -   In one direction - from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] **or** from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]  
   
-    -   In both directions - from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]**and** from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]  
+    -   In both directions - from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] **and** from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]  
   
  You can also disable field synchronization between a pair of fields.  
   
- For more information about controlling field synchronization, see [TechNet: Control field synchronization between Dynamics 365 and Outlook or Exchange](https://technet.microsoft.com/library/dn832150.aspx)  
+ For more information about controlling field synchronization, see [Control field synchronization between Dynamics 365 and Dynamics 365 for Outlook](../admin-guide/control-field-synchronization.md)
   
 > [!NOTE]
 >  [!INCLUDE[cc_feature_included_with_update_2015](../../includes/cc-feature-included-with-update-2015.md)]  
   
-### See Also  
- [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md)   
- [TechNet: Which fields can be synchronized between Dynamics 365 and Outlook?](https://technet.microsoft.com/library/dn832089.aspx)   
- [TechNet: How field security affects synchronization between Dynamics 365 and Outlook](https://technet.microsoft.com/library/dn832097.aspx)   
+### See also  
+ [Which fields can be synchronized between Dynamics 365 and Outlook?](../admin-guide/which-fields-synchronized.md)
+ [How field security affects synchronization between Dynamics 365 and Dynamics 365 for Outlook](../admin-guide/field-security-synchronization.md)
  [System Settings dialog box - Synchronization tab](system-settings-dialog-box-synchronization-tab.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)

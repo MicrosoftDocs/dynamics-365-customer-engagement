@@ -26,7 +26,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
  Tracking records in Dynamics 365 for Outlook is a manual process. This gives you the ability to keep your personal Outlook records separate from your Dynamics 365 records.  
   
 > [!TIP]
->  -   If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
+> -   If you want, you can set an option to track email automatically. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
 > -   If your organization synchronizes records through server-side synchronization, you can track email messages through folder tracking. Folder tracking is a powerful and intuitive way to track email directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md).  
   
 <a name="TrackVSSetRegarding"></a>   
@@ -90,12 +90,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 -   **Delegating access.** If you’ve delegated access to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] account, the delegate can track items on your behalf. These items won’t synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] until you connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Allow someone else to manage your mail and calendar](http://go.microsoft.com/fwlink/p/?LinkId=201849)  
   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
+### See also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   

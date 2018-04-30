@@ -64,7 +64,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
  ![Sync or offline filters criteria grid in Dynamics 365](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
   
-#### Add a criteria row  
+### Add a criteria row  
   
 1.  In the **Look for** list, select a record type.  
   
@@ -74,7 +74,7 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
 4.  Enter a value to filter on.  
   
-#### Group rows of criteria  
+### Group rows of criteria  
   
 1.  For each row you want to group, choose the **down arrow** to the left of the field name, and then choose **Select Row**.  
   
@@ -86,8 +86,6 @@ Choose a subset of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)
   
  ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
-### See Also  
- [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
- [Example of going offline with Dynamics 365 for Outlook](example-going-offline.md)   
+### See also  
  [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

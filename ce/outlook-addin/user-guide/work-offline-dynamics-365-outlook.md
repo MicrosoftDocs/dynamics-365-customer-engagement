@@ -135,14 +135,5 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 -   **Adding a related record type using the Add  button (+).** If you’re offline, you can’t add a related record type by using the **Add** button (+). Add the related record type while you’re online, and then go offline.  
   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_go_offline_in_outlook](../../includes/cc-privacy-crm-go-offline-in-outlook.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
+### See also  
  [Set up Dynamics 365 for Outlook](set-up.md)   
- [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
- [Example of going offline with Dynamics 365 for Outlook](example-going-offline.md)

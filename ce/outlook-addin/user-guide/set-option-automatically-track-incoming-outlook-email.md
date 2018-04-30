@@ -55,13 +55,6 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
 > [!NOTE]
 >  More than one custom record type can contain the same email address. When this happens, [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages **received** from this email address to the custom record type created first. For example, let’s say a Patient record type created in January lists the email address someone@example.com. A Doctor record type created in February lists the same email address. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages received from someone@example.com to the Patient record type only. **Sending** an email message to someone@example.com links the email message to the Patient record type and the Doctor record type, however.  
   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
- [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
- [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
+### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

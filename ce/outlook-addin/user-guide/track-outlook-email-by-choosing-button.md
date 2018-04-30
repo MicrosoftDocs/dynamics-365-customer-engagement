@@ -72,14 +72,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
   
      Your administrator can block messages from being saved if they contain attachments of specific file types, such as .exe files. Any messages stored in locations other than the default [!INCLUDE[pn_Microsoft_Exchange](../../includes/pn-microsoft-exchange.md)] location can’t be linked.  
   
-<a name="BMKM_MUprivacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
- [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
+### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   

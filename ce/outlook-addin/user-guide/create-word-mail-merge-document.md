@@ -97,7 +97,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 9. To continue the mail merge, follow the instructions provided by the Mail Merge pane. For more information, see the [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] Help documentation for mail merge.  
   
     > [!TIP]
-    >  -   To display the information you want and select the format, in the Mail Merge wizard, click or tap **Address Block** and then **Greeting Line**.  
+    > -   To display the information you want and select the format, in the Mail Merge wizard, click or tap **Address Block** and then **Greeting Line**.  
     > -   To add data fields to display more information, click or tap **More Items**. You can use up to 62 data fields.  
   
 10. If you have either created a new template or updated an existing template, you can upload the template.  
@@ -106,12 +106,6 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 11. If you have saved the document as a template, you can go back and edit the template with **Settings** > **Business** > **Templates**. Click or tap your template to review and edit it.  
   
-<a name="BMKM_MUprivacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-### See Also  
- [Work with templates](../../admin/work-with-templates.md)
+### See also  
+ [Work with templates](../../admin/work-with-templates.md)<br />
  [Send bulk email to customers](../../basics/send-bulk-email-customers.md)
