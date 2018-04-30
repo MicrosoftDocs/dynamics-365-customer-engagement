@@ -70,11 +70,11 @@ When you install Voice of the Customer, a VOC Push Service user is created autom
 
 > If you want to install Voice of the Customer solution version earlier than 9.0, see [here](voc-faq.md#how-to-install-voice-of-the-customer-solution-earlier-than-90).
 
-## Voice of the customer app
+## Voice of the Customer app
 
-The Voice of the Customer app provides a new survey and theme designing experience. The new survey designer provides a simple and intuitive experience for survey designers to add, remove, and modify pages, sections, question, and responses of a survey. The existing surveys and themes are also upgraded when you upgrade to the latest version of Voice of the Customer.
+The Voice of the Customer app provides a new survey- and theme-designing experience. The new survey designer provides a simple and intuitive experience for survey designers to add, remove, and modify pages, sections, questions, and responses of a survey. The existing surveys and themes also are upgraded when you upgrade to the latest version of Voice of the Customer.
 
-When you install Voice of the Customer version <<Version_Number>>, the Voice of the Customer app, built on the Unified Interface framework is created by default.
+When you install Voice of the Customer version <<Version_Number>>, the Voice of the Customer app, built on the Unified Interface framework, is created by default.
 
 ### Open Voice of the Customer app
 
