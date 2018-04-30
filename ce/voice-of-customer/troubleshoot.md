@@ -15,14 +15,14 @@ manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
 ---
-
+<!--Note to author: Update ms.date to new publication date.-->
 # Troubleshooting the Voice of the Customer solution
 
 This article provides information about troubleshooting issues in the Voice of the Customer solution.
 
 ## Reconfiguring Voice of the Customer
 
-If the Voice of the Customer solution is accidentally deleted or misconfigured, it might not be able to receive survey responses. You can now repair or restore the Voice of the Customer configuration from the **Voice of the Customer Configurations** page.
+If the Voice of the Customer solution is accidentally deleted or misconfigured, it might not be able to receive survey responses. Now you can repair or restore the Voice of the Customer configuration from the **Voice of the Customer Configurations** page.
 
 > [!Note]
 > You must be a survey administrator to reconfigure the Voice of the Customer solution.
@@ -50,7 +50,7 @@ If the Voice of the Customer solution is accidentally deleted or misconfigured, 
 
 ## Validating the Voice of the Customer solution
 
-As a survey administrator, you can validate the status of your Voice of the Customer solution. Validation allows you to check if:
+As a survey administrator, you can validate the status of your Voice of the Customer solution. Validation allows you to check whether:
 - Voice of the Customer configuration and provisioning is in its proper state.
 - Survey lifecycle is working for the organization.
 - Survey responses are being received properly.
@@ -87,7 +87,7 @@ To validate the Voice of the Customer solution:
 
 ## Validating a survey
 
-As a survey administrator, you can validate if a survey has created any issues.
+As a survey administrator, you can validate whether a survey has created any issues.
 
 1.	Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
