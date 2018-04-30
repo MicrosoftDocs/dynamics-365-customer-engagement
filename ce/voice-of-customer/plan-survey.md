@@ -15,10 +15,10 @@ manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
 ---
-
+<!--Note to author: Update date to new publication date.-->
 # Plan a survey
 
-It's important to have a plan for configuring your Voice of the Customer surveys Here are a few things to think about to help you design the right questions for your survey:
+It's important to have a plan for configuring your Voice of the Customer surveys. Here are a few things to think about to help you design the right questions for your survey:
 
 -   What's the purpose of your survey? For example, you might want to interact with your customers, promote new products or services, or measure customer satisfaction. If your goal is to measure something, what and how do you want to measure it?
 
@@ -93,7 +93,7 @@ The following table describes the question types to use when you need to address
 
 **Voice of the Customer app**
 
-| Question type       | Description       |
+| **Question type**       | **Description**       |
 |--------------------------------------|-----------------------------------------------|
 | Check box                                                                                       | Question that allows a respondent to choose multiple answers.<br>**Note**: You can change the layout of the answer options from the **Option layout** list.     |
 | CSAT                                                                                            | Question that captures the overall satisfaction of the respondent with the product or agent, on a five-point scale.                          |
@@ -101,8 +101,8 @@ The following table describes the question types to use when you need to address
 | Date                                                                                            | Question that asks a respondent to select a date.                                                                                            |
 | Drop down                                                                                       | Question that allows a respondent to choose one answer from a drop-down list.                                                                |
 | Email                                                                                           | Question that asks a respondent to enter email address.                                                                                      |
-| Label                                                                                           | Use to describe elements on the survey page, for example labels.                                                                             |
-| Long answer                                                                                     | Question that has multiple lines in the answer, for example verbatim comments.                                                               |
+| Label                                                                                           | Use to describe elements on the survey page; for example, labels.                                                                             |
+| Long answer                                                                                     | Question that has multiple lines in the answer; for example, verbatim comments.                                                               |
 | NPS                                                                                             | Question that captures the satisfaction of the respondent based on the likelihood of their recommending the product or services to a friend. |
 | Numeric                                                                                         | Question that allows only numerical responses.                                                                                               |
 | Radio button                                                                                    | Question that allows a respondent to choose only one answer.<br>**Note**: You can change the layout of the answer options from the **Option layout** list. |
