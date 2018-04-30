@@ -72,7 +72,8 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
     |Name|Contoso Account Session|  
     |Display Name|[[account.name]] <br>**Note:**  We will use replacement parameter to dynamically display the name of the selected account as hosted control display name.|  
     |USD Component Type|Unified Interface Page|  
-    |Allow Multiple Pages|No| 
+    |Allow Multiple Pages|No|
+    |Pre-Fetch Data|Checked|
     |Application is Global|Not checked <br>**Note:**  This ensures that the hosted control is session-scoped, that is, only displayed in a session.|  
     |Display Group|MainPanel|  
   
@@ -215,10 +216,17 @@ This walkthrough demonstrates how to display [!INCLUDE[pn_microsoftcrm](../inclu
   
 ### See also
  [Support for Unified Interface Apps in Unified Service Desk](../unified-service-desk/Support-unified-interfaces-apps-usd.md)
+
  [Preview feature: Unified Interface Page (Hosted Control)](../unified-service-desk/unified-interface-page-hosted-control.md)
+
  [Preview feature: Unified Service Desk and Unified Interface Configuration Walkthroughs](../unified-service-desk/unified-service-desk-unified-interface-configuration-walkthroughs.md) 
- [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)   
+
+ [Walkthrough 1: Build a simple agent application](../unified-service-desk/walkthrough1-unified-interface-build-a-simple-agent-application.md)  
+
  [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md)   
+
  [Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application](../unified-service-desk/walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
+
  [Walkthrough 6: Configure the Debugger hosted control in your agent application](../unified-service-desk/walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md)
+ 
  [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough7-unified-interface-configure-agent-scripting-agent-application.md)
