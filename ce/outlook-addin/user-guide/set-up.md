@@ -98,7 +98,7 @@ manager: "brycho"
 ### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
- ![Add a Dyanmics Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dyanmics Dynamics 365 Organization dialog box")  
+ ![Add a Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 Organization dialog box")  
   
 1.  Press **Ctrl+V** to paste the URL you copied in the preceding **Download the software** step, and then click **Connect**. You can also enter a Server URL or a Discovery URL.  
   
@@ -188,7 +188,7 @@ manager: "brycho"
 ### Step 3: Configure Dynamics 365 for Outlook  
  After restarting [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], you’ll see the following dialog box:  
   
- ![Add a Dyanmics Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dyanmics Dynamics 365 Organization dialog box")  
+ ![Add a Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 Organization dialog box")  
   
 1.  Press **Ctrl+V** to paste the URL you copied in the preceding **Download the software** step, and then click **Connect**. You can also enter a Server URL or a Discovery URL.  
   
