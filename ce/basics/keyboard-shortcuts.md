@@ -10,6 +10,8 @@ ms.date: 05/15/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
+ms.custom:
+ - dyn365-a11y
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
 
