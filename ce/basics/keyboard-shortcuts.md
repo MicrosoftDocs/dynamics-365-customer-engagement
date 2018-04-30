@@ -2,11 +2,11 @@
 title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft Docs
 description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365
 keywords: Dynamics 365 Accessibility; Keyboard shortcuts; Keyboard navigation support
-author: anjgupta
+author: kathleenmcgrath
 applies_to: Dynamics 365 (online)
-ms.author: anjgup
-manager: sakudes
-ms.date: 12/15/2017
+ms.author: kmcgrath
+manager: renwe
+ms.date: 05/15/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
@@ -15,24 +15,16 @@ ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface.
+Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications.
 
 > [!NOTE]
-> The shortcut keys described in this section refer to the U.S. keyboard layout. Depending on your country/region and layout, you may not have the same keys. 
+> The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 
 
-## Keyboard shortcuts applicable to all Dynamics 365 applications
-
-The keyboard shortcuts in this topic apply to all Dynamics 365 applications:
-
-### Forms
-The following keyboard shortcuts are included in Dynamics 365 forms: 
+## Form shortcuts
 
 |To  |Select |
 |---------|---------|
-|Move to the next option, option group, or field|Tab|
-|Move to the previous option, option group, or field| Shift+Tab |
 |Complete the command for the active option or button| Enter|
-|Move between options in an open list, or between options in a group of options|Arrow keys|
 |Cancel a command, or close a selected list or dialog box| Esc|
 |Save| Ctrl+S or Shift+F12|
 |Save and Close| Alt+S|
@@ -45,15 +37,23 @@ The following keyboard shortcuts are included in Dynamics 365 forms:
 |Close a lookup drop-down list| Esc|
 |Open a record found in lookup with forms in Edit mode| Enter|
 |Add a step in the business process editor|Alt+Shift+N|
-|Tab to the Command Bar| Ctrl+[ or Ctrl+]|
 |Add an article to an email| Shift+Alt+A|
 |Apply an email template (when editing an email message)| Shift+Alt+T|
+
+## Form navigation shortcuts
+
+|To  |Select |
+|---------|---------|
+|Move to the next option, option group, or field|Tab|
+|Move to the previous option, option group, or field| Shift+Tab |
+|Move between options in an open list, or between options in a group of options|Arrow keys|
+|Tab to the Command Bar| Ctrl+[ or Ctrl+]|
 |Tab to the first section on a form or the first tab on a grid|  Ctrl+Shift+1|
 |Tab to a form's associated grid navigation button|Ctrl+Shift+2|
 |Tab to the Navigation bar|	Ctrl+Shift+3 |
 |Tab to the Main menu button on the Navigation bar| Ctrl+Shift+8|
 
-### Editable grids (views)
+## Editable grids (views)
 If editable grids (views) have been enabled by your administrator, you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
 
 |To              |Select  |
@@ -78,13 +78,16 @@ If editable grids (views) have been enabled by your administrator, you can edit 
 |Move to Save button when the focus is on the column header (if any unsaved data)| Tab|
 |Move to Refresh button when the focus is on the column header| Tab|
 
-Additional shortcut keys for specific apps, are listed below:
+##Keyboard shortcuts for specific apps
+[Keyboard shortcuts for the Customer Service Hub](../customer-service/keyboard-navigation-support-customer-service-hub)
+
+[Dynamics 365 for Marketing:Keyboard shortcuts and accessibility features for content designers](marketing/designer-shortcuts)
 
 [Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
 
 [App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
 
-### Navigating submenus
+## Navigating submenus
 If you use a screen reader, follow the steps given below to access any of the submenus that are displayed when you hover the mouse over a navigation link.
 1. Navigate between the menu options using standard link navigation.
 2. Activate the link by selecting Enter or the space key as you would usually do. A list of submenus will be displayed.
@@ -93,7 +96,7 @@ If you use a screen reader, follow the steps given below to access any of the su
 > [!IMPORTANT]
 > There are several areas in the user interface (UI) that have auto-collapse built in for menus. This  includes the Navigation Bar and Form Navigation. Both expand when selected, but after 30 seconds of inactivity, the items collapse.
 
-### Navigating through stages of a process
+## Navigating through stages of a process
 If you’re in a record, for example a lead, this section shows you the keyboard shortcuts to navigate through the different stages in the sales process to qualify the lead, and how to make selections in those stages. For example, if you want to move easily from the Qualify stage through to the Close stage, try these keyboard actions:
 - After you select a stage, get to the fields by selecting the down arrow.
 - If a stage is collapsed, just select Enter to expand it.
