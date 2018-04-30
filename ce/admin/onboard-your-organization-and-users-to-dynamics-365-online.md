@@ -61,7 +61,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="VL"></a>   
 ### Buy through volume licensing  
- If your organization has 250 or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users, you may be interested in [purchasing a Dynamics 365 enterprise licensing agreement](https://www.microsoft.com/licensing/default.aspx).  
+ If your organization has 250 or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users, you may be interested in [purchasing a Dynamics 365 enterprise licensing agreement](https://www.microsoft.com/licensing).  
   
 <a name="Partner"></a>   
 ### Buy through a cloud solution provider  
@@ -151,8 +151,6 @@ For more advanced scenarios, consider the following development tools: [Solution
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
 -   [Manage storage for Dynamics 365 (online)](manage-storage.md)  
-  
--   [Understanding storage and storage notifications](https://blogs.msdn.microsoft.com/crm/2013/07/24/understanding-storage-and-storage-notifications-in-microsoft-dynamics-crm-online/)  
   
 <a name="Sandbox"></a>   
 ### Create a sandbox (non-production instance)  
@@ -303,9 +301,6 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deliver web engagement experience with portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]](../portals/administer-manage-portal-dynamics-365.md)  
   
-#### Customer Insights Service  
- [!INCLUDE[pn_customerinsight_full](../includes/pn-customer-insights-full.md)] is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. Use [!INCLUDE[pn_customerinsight_short](../includes/pn-customer-insights-short.md)] to connect to transactional data sources and model profiles of customers and their interactions. The [!INCLUDE[pn_customerinsight_short](../includes/pn-customer-insights-short.md)] application transforms profile, interaction, and KPI’s into rich visuals that you can customize and organize to focus on what matters to you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customer Insights service](http://go.microsoft.com/fwlink/p/?LinkId=824625)  
-  
 #### Dynamics 365 - Gamification  
  [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] allows employees to participate in individual and team-based games which motivate employees to achieve certain pre-defined metrics by offering prizes, awards, privileges, and recognition. The gamification solution relies on fun, engaging activities that drive collaboration and competition to increase performance and participation. The solution uniquely encourages broader participation by getting more employees in the game through drafting teams. Organizations typically see increased productivity, engagement, and performance as well as user adoption of business applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep your employees engaged and productive by using Gamification](../gamification/increase-employee-productivity.md)
   
@@ -332,7 +327,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [What's new](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
     
--   [Dynamics 365 - Online vs on-premises features FAQ](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/dynamics-365-online-vs-on-premises-features-faq.md)  
+-   [Dynamics 365 - Online vs on-premises features](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
 <a name="Troubleshoot"></a>   
 ### Troubleshooting, FAQ, and support  
