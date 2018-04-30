@@ -34,5 +34,5 @@ ms.author: "mkaur"
   
 -   In [!INCLUDE[pn_Mobile_Express_short](../../../../includes/pn-mobile-express-short.md)], tap **…** and tap **Select View** on the command bar.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

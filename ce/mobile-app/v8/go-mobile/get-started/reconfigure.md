@@ -37,5 +37,5 @@ manager: "brycho"
   
  You can now sign in to a different server or organization.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
