@@ -2,7 +2,7 @@
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
 ms.custom: ""
-ms.date: 02/06/2018
+ms.date: 05/01/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
@@ -42,6 +42,8 @@ The list provides an overview of documentation updates made in [!INCLUDE [pn-uni
 | [Help improve Unified Service Desk](../unified-service-desk/admin/help-improve-unified-service-desk.md) | Updated information about the telemetry is enabled by default, how to enable or disable telemetry.|
 | [Provide feedback about Unified Service Desk](../unified-service-desk/admin/provide-feedback.md) | Have a comment or suggestion about [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]? We need your feedback to help us deliver a reliable product. Good or bad, the quickest route to get your comments to our team is right from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].<br><br> New topic under [Help improve Unified Service Desk](../unified-service-desk/admin/help-improve-unified-service-desk.md) |
 | [Analyze best practices in Unified Service Desk](../unified-service-desk/admin/analyze-best-practices-unified-service-desk.md) | Best practices are the guidelines about System Configurations, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configurations in Dynamics 365 Customer Engagement.<br><br> This is a new section.|
+| [Comply with General Data Protection Regulation (GDPR)](../unified-service-desk/admin/comply-gdpr.md) | The GDPR imposes new rules on organizations in the European Union (EU) and those that offer goods and services to people in the EU, or those that collect and analyze data tied to EU residents, regardless of where they are located. <br><br> This is a new section under [Manage Options for Unified Service Desk](../unified-service-desk/admin/manage-options-unified-service-desk.md) |
+| [Comply Unified Service Desk data](../unified-service-desk/admin/comply-unified-service-desk-data-gdpr.md) | Understand the data contained in Unified Service Desk and see how they relate to those outlined in the GDPR. <br><br> This is a new topic under [Comply Unified Service Desk data](../unified-service-desk/admin/comply-unified-service-desk-data-gdpr.md) |
 | [Download and install Best Practices Analyzer](../unified-service-desk/admin/download-install-best-practices-analyzer.md) | New topic under [Analyze best practices in Unified Service Desk](../unified-service-desk/admin/analyze-best-practices-unified-service-desk.md) |
 | [Walkthrough: Configure Best Practices Analyzer](../unified-service-desk/admin/walkthrough-configure-best-practices-analyzer.md) | New topic under [Analyze best practices in Unified Service Desk](../unified-service-desk/admin/analyze-best-practices-unified-service-desk.md) |
 | [Read Best Practices Analyzer report](../unified-service-desk/admin/read-best-practices-analyzer-report.md) | New topic under [Analyze best practices in Unified Service Desk](../unified-service-desk/admin/analyze-best-practices-unified-service-desk.md) |
