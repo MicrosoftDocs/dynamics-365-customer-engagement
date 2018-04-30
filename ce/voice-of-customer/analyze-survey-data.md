@@ -171,4 +171,4 @@ Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-
 [Plan a survey](plan-survey.md)   
 [Design a basic survey](design-basic-survey.md)   
 [Design an advanced survey](design-advanced-survey.md)   
-[Distribute a survey](distribute-survey.md)
+[Distribute a survey](distribute-survey.md) 
