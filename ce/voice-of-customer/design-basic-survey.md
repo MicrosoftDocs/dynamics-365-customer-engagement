@@ -57,7 +57,7 @@ You can create a theme for your survey to match your company's style. Themes def
 
 5. Enter the name of the theme.
 
-6. Adjust the theme color and font properties from the **Properties** pane on the right-hand side of the screen.
+6. Adjust the theme color and font properties from the **Properties** pane on the right side of the screen.
 
     ![Select element color in a theme](media/survey-theme-color.png "Select element color in a theme")
 
