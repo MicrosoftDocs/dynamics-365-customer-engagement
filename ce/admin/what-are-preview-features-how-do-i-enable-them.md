@@ -61,7 +61,6 @@ The following table lists preview features as well as learning resources for eac
 |**Preview feature**|**Learning resource**|  
 |Relationship Insights|[Preview feature: Relationship Insights](embedded-intelligence.md)|  
 |Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|  
-|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Insights service|[Dynamics 365 for Customer Insights](http://go.microsoft.com/fwlink/p/?LinkId=824625)  
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  
  The following table lists the features that are still in preview, as well as  learning resources for each.  
@@ -89,4 +88,4 @@ The following table lists preview features as well as learning resources for eac
 4.  For each preview feature you want to enable, click **Yes**.  
   
 ## How do I report an issue or provide other feedback?  
- If you’d like to provide feedback, offer suggestions, or report issues for a preview feature, please go to [Microsoft Dynamics Ideas](http://crmideas.dynamics.com/ideas/). This website provides a collaboration platform for gathering actionable feedback to build and improve products and services.
+ If you’d like to provide feedback, offer suggestions, or report issues for a preview feature, please go to [Microsoft Dynamics Ideas](https://experience.dynamics.com/ideas/). This website provides a collaboration platform for gathering actionable feedback to build and improve products and services.

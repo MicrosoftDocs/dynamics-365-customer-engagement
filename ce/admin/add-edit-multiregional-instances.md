@@ -58,7 +58,7 @@ For multinational companies with employees and customers distributed around the 
   
 <a name="BKMK_add_instance"></a>   
 ## Create a regional instance  
- The following steps apply to customers who do not purchase using volume licensing. Volume license customers should see: [Purchase Microsoft Dynamics 365 Through Volume Licensing](http://www.microsoft.com/licensing/online-services/how-to-buy.aspx).  
+ The following steps apply to customers who do not purchase using volume licensing. Volume license customers should see: [Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx).  
   
 ### Step 1: Purchase the additional instance  
   
