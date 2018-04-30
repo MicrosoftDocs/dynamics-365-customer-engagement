@@ -1,0 +1,135 @@
+- name: Common Data Service for Apps
+  href: index.md
+  items:
+  - name: Quickstarts
+    items:
+    - name: Create an entity
+      href: /powerapps/maker/common-data-service/data-platform-create-entity
+    - name: Create a custom entity from data
+      href: /powerapps/maker/common-data-service/data-platform-cds-newentity-pq
+    - name: Manage fields
+      href: /powerapps/maker/common-data-service/data-platform-manage-fields
+    - name: Create an option set
+      href: /powerapps/maker/common-data-service/custom-picklists
+    - name: Create a relationship
+      href: /powerapps/maker/common-data-service/data-platform-entity-lookup
+    - name: Create a business rule
+      href: /powerapps/maker/common-data-service/data-platform-create-business-rule
+    - name: Delete a custom entity
+      href: /powerapps/maker/common-data-service/data-platform-delete-entity
+  - name: Tutorials
+    items:
+    - name: Create a custom entity that has components
+      href: /powerapps/maker/common-data-service/create-custom-entity
+    - name: Manage system jobs
+      href: ../powerapps/maker/temp-maker-placeholder.md
+    - name: Monitor workflows
+      href: ../powerapps/maker/temp-maker-placeholder.md
+    - name: Manage localized strings
+      href: ../powerapps/maker/temp-maker-placeholder.md
+    - name: Pro Developer Tutorials
+      items: 
+      - name: Create a .NET console application
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Create a workflow process extension
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Create and deploy a plug-in
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Post data using web hooks
+        href: ../../developer/temp-developer-placeholder.md
+  - name: Samples
+    items:
+        - name: Organization service samples
+          href: ../../developer/temp-developer-placeholder.md
+        - name: Web API samples
+          items:
+          - name: Basic Operations
+            href: ../../developer/temp-developer-placeholder.md
+          - name: Query Data
+            href: ../../developer/temp-developer-placeholder.md
+          - name: Conditional Operations
+            href: ../../developer/temp-developer-placeholder.md
+          - name: Functions and actions
+            href: ../../developer/temp-developer-placeholder.md
+  - name: Concepts
+    items:
+      - name: Build a data model
+        href: ../powerapps/maker/temp-maker-placeholder.md
+      - name: Data access and security
+        href: ../powerapps/maker/temp-maker-placeholder.md
+      - name: Apply business logic
+        href: ../powerapps/maker/temp-maker-placeholder.md
+      - name: Solutions
+        href: ../powerapps/maker/temp-maker-placeholder.md
+      - name: Asynchronous service
+        href: ../powerapps/maker/temp-maker-placeholder.md
+      - name: Multiple language support
+        href: ../powerapps/maker/temp-maker-placeholder.md
+      - name: Pro Developer Concepts
+        items: 
+          - name: Apply business logic with code
+            href: ../../developer/temp-developer-placeholder.md
+          - name: Azure integration
+            href: ../../developer/temp-developer-placeholder.md
+          - name: Outlook client
+            href: ../../developer/temp-developer-placeholder.md
+          - name: Create custom clients
+            href: ../../developer/temp-developer-placeholder.md
+  - name: How-to guides
+    items:
+    - name: Configure Cascading relationships
+      href: ../powerapps/maker/temp-maker-placeholder.md
+    - name: Pro Developer How-to guides
+      items: 
+      - name: Use web services
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Distribute your app on AppSource
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Build Windows client applications using XRM tools
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Create custom workflow activities
+        href: ../../developer/temp-developer-placeholder.md
+  - name: Reference
+    items:
+    - name: Entity Reference
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Web API Reference
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Organization Service assemblies
+      href: ../../developer/temp-developer-placeholder.md
+    - name: XRM Tooling assemblies
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Virtual Entity assemblies
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Workflow assemblies
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Package Deployer assemblies
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Outlook Client assemblies
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Deployment Service assemblies
+      href: ../../developer/temp-developer-placeholder.md
+    - name: Online Management API
+      href: ../../developer/temp-developer-placeholder.md
+    - name: XML Schemas
+      href: ../../developer/temp-developer-placeholder.md
+  - name: Resources
+    items:
+    - name: Community tools
+      href: ../powerapps/maker/temp-maker-placeholder.md
+    - name: Pro Developer Resources
+      items: 
+      - name: .NET SDK Assemblies
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Code generation tool 
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Configuration Migration tool 
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Package Deployer 
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Plug-in Registration Tool 
+        href: ../../developer/temp-developer-placeholder.md
+      - name: SolutionPackager tool 
+        href: ../../developer/temp-developer-placeholder.md
+      - name: Community tools
+        href: ../../developer/temp-developer-placeholder.md
