@@ -21,9 +21,7 @@ ms.author: "mkaur"
 
 When you first sign in to Dynamics 365 for phones and tablets, a pane slides in. This is your all-new workspace, a personalized action hub to help you get to common tasks more quickly.  
   
- From the workspace, you can instantly create new activities, records, and notes. It features a list of suggested priorities (“intelligent cards”) in the left column. These may include upcoming meetings, info relevant to that day’s activities, and other things that require attention, and are part of a suite of new features collectively called [Relationship Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/preview-feature-relationship-insights.aspx). The workspace also has a list of favorite and recent items. Items that appear in the **Recent** feed can be added to **Favorites** by hitting the star icon. You can also click on your profile picture to upload or capture a new one.  
+ From the workspace, you can instantly create new activities, records, and notes. It features a list of suggested priorities (“intelligent cards”) in the left column. These may include upcoming meetings, info relevant to that day’s activities, and other things that require attention, and are part of a suite of new features collectively called [Embedded intelligence](../../../../admin/embedded-intelligence.md). The workspace also has a list of favorite and recent items. Items that appear in the **Recent** feed can be added to **Favorites** by hitting the star icon. You can also click on your profile picture to upload or capture a new one.  
   
  ![Workspace for mobile](../../../media/workspace-mobile.png "Workspace for mobile")  
   
-## See Also  
-[Analyze customer-interaction data with Embedded intelligence](../../../../admin/embedded-intelligence.md)  
