@@ -275,7 +275,7 @@ You can import a section (along with its questions) from another survey into you
     ![Imported section in a survey](media/imported-section.png "Imported section in a survey")
 
 **Voice of the Customer app**
-
+<!--Note to author: Should the hyphen in step 9 be bold, the way it is in step 8 of the previous section?-->
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** > **Surveys**.
@@ -292,7 +292,6 @@ You can import a section (along with its questions) from another survey into you
 
 8. Click **Import**.
 
-<!--Note to author: Should the hyphen in the following step be bold, the way it is in step 8 of the previous section?-->
 9. Select **Save**. The section is imported, and - **Imported** is appended to the section name.
 
 ### Share questions between surveys by using linked questions
