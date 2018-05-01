@@ -2,10 +2,14 @@
 title: "Example of going offline with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -77,9 +81,13 @@ Salespeople can make critical customer information available and up-to-date on b
  [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## See Also  
 =======
 ### See also  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See also  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)   
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)

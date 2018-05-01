@@ -2,10 +2,14 @@
 title: "Deleting records that have been tracked with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -26,10 +30,14 @@ manager: "brycho"
 ---
 # Deleting records that have been tracked with Dynamics 365 for Outlook
 <<<<<<< HEAD
+<<<<<<< HEAD
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track email messages, contacts, tasks, and appointments. When you track an item, a copy of that record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md).  
 =======
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track email messages, contacts, tasks, and appointments. When you track an item, a copy of that record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md).  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track email messages, contacts, tasks, and appointments. When you track an item, a copy of that record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md).  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
  The following rules apply whether you synchronize records with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)].  
   
@@ -75,6 +83,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 -   If you stop tracking the task, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] asks whether you want to delete the task in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## See Also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
@@ -85,3 +94,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See also  
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58

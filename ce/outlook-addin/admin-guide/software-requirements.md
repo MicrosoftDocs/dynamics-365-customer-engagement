@@ -2,10 +2,14 @@
 title: "Microsoft Dynamics 365 for Outlook software requirements | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2017-01-13"
 =======
 ms.date: 01/13/2017
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/13/2017
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -33,6 +37,7 @@ manager: "brycho"
 -   [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)] and [!INCLUDE[pn_windows_server_2012_r2](../../includes/pn-windows-server-2012-r2.md)] when running as a [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] application  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
  *This feature is available only if your organization has updated to [!INCLUDE[pn_crm_online_2015_update_1_1](../../includes/pn-crm-online-2015-update-1-1.md)], [!INCLUDE[pn_crm_2015_update_0_2](../../includes/pn-crm-2015-update-0-2.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
   
 ## In this topic  
@@ -42,16 +47,23 @@ manager: "brycho"
 =======
 *This feature is available only if your organization has updated to [!INCLUDE[pn_crm_online_2015_update_1_1](../../includes/pn-crm-online-2015-update-1-1.md)], [!INCLUDE[pn_crm_2015_update_0_2](../../includes/pn-crm-2015-update-0-2.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+*This feature is available only if your organization has updated to [!INCLUDE[pn_crm_online_2015_update_1_1](../../includes/pn-crm-online-2015-update-1-1.md)], [!INCLUDE[pn_crm_2015_update_0_2](../../includes/pn-crm-2015-update-0-2.md)] or [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 <a name="BMK_OC_software_prereqs"></a>   
 ## Microsoft Dynamics 365 for Outlook software feature prerequisites  
  The following software must be installed and running on the computer before you run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)]:  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
  **Web Browser**. One of the following:  
 =======
  **Web Browser**. One of the following: 
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ **Web Browser**. One of the following: 
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 -   [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)]  
   
@@ -61,6 +73,7 @@ manager: "brycho"
 >  [!INCLUDE[pn_IE_9](../../includes/pn-ie-9.md)] or earlier versions are not supported for use with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 >   
 <<<<<<< HEAD
+<<<<<<< HEAD
 >  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock URLs required for Dynamics 365 (online)](../DocSets/CRMIGv9_Admin/Toc/Troubleshooting:%20Unblock%20URLs%20required%20for%20Dynamics%20365%20\(online\).md).  
   
  **[!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)]** . One of the following:  
@@ -69,6 +82,11 @@ manager: "brycho"
   
  **Microsoft Office**. One of the following:  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>  You should add your [!INCLUDE[pn_crm_2016_shortest](../../includes/pn-crm-2016-shortest.md)] URL to Trusted sites in Internet Explorer. See [Troubleshooting: Unblock required URLs](../../admin/troubleshooting-unblock-urls-required.md). 
+  
+ **Microsoft Office**. One of the following:  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 -   [!INCLUDE[pn_microsoft_office_2016](../../includes/pn-microsoft-office-2016.md)]*  
   
@@ -90,10 +108,14 @@ manager: "brycho"
 >  The [!INCLUDE[pn_Indexing_Service](../../includes/pn-indexing-service.md)] (now known as the Windows Search Service, or WSS) is required by users who will set up and use [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and its Help file in offline mode.  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
  **[!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** . One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
 =======
  **Dynamics 365**. One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ **Dynamics 365**. One of the following editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] must be available so that [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can connect to it:  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 -   On-premises editions of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] Server  
   
@@ -129,6 +151,7 @@ manager: "brycho"
 -   Reporting Services Microsoft ActiveX control. If not installed on the computer, the user will be prompted to install the software at first attempt to print a report. This installer package is named RSClientPrint.cab and can found on the [!INCLUDE[pn_SQL_Server_Reporting](../../includes/pn-sql-server-reporting.md)] server at \<drive>:\Program files\Microsoft SQL Server\\<MSSQL\>\Reporting Services\ReportServer\bin.  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## See Also  
  [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)   
  [Dynamics 365 for Outlook support matrixes](dynamics-365-for-outlook-support.md)   
@@ -136,6 +159,10 @@ manager: "brycho"
 ### See Also  
  [Dynamics 365 for Outlook support matrixes](support.md)   
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See Also  
+ [Dynamics 365 for Outlook support matrixes](support.md)   
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Compatibility with Microsoft Dynamics CRM 2016](https://support.microsoft.com/en-us/kb/3124955)   
  [Compatibility with Microsoft Dynamics CRM 2015](https://support.microsoft.com/en-us/kb/3018360)   
  [Compatibility with Microsoft Dynamics CRM 2013](https://support.microsoft.com/en-us/kb/3005167)

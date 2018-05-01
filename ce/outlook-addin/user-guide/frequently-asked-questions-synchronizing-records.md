@@ -2,10 +2,14 @@
 title: "Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -35,20 +39,28 @@ manager: "brycho"
 -   [!INCLUDE[pn_Microsoft_Exchange](../../includes/pn-microsoft-exchange.md)] folder tracking  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
  As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to view  [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] data in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] and track [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] records in [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)]. You can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] together with [!INCLUDE[pn_microsoft_outlook_web_app](../../includes/pn-microsoft-outlook-web-app.md)],  the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] desktop application, or with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] mobile. With [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] information appears next to a user’s [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email messages or appointments. For example, people can preview information about contacts and leads stored in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and add [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts directly from an email message. They can also link email, appointment, and contact records  to new or existing [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records, such as  opportunity, account, or case records. To use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], you must synchronize email with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][TechNet: Integrate your email system with Dynamics 365](https://technet.microsoft.com/library/dn832099.aspx)  
 =======
  As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to view  [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] data in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] and track [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] records in [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)]. You can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] together with [!INCLUDE[pn_microsoft_outlook_web_app](../../includes/pn-microsoft-outlook-web-app.md)],  the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] desktop application, or with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] mobile. With [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] information appears next to a user’s [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email messages or appointments. For example, people can preview information about contacts and leads stored in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and add [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts directly from an email message. They can also link email, appointment, and contact records  to new or existing [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records, such as  opportunity, account, or case records. To use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], you must synchronize email with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate (synchronize) your email system](../../admin/integrate-synchronize-your-email-system.md)
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ As of the [!INCLUDE[pn_crm_8_2_0_both](../../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] paired with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] is the preferred way to view  [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] data in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] and track [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] records in [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)]. You can use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-for-outlook.md)] together with [!INCLUDE[pn_microsoft_outlook_web_app](../../includes/pn-microsoft-outlook-web-app.md)],  the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] desktop application, or with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] mobile. With [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] information appears next to a user’s [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email messages or appointments. For example, people can preview information about contacts and leads stored in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and add [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts directly from an email message. They can also link email, appointment, and contact records  to new or existing [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records, such as  opportunity, account, or case records. To use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)], you must synchronize email with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Integrate (synchronize) your email system](../../admin/integrate-synchronize-your-email-system.md)
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 ## How often are records synchronized through server-side sync?  
  If you synchronize records with [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], the process is dynamic and unique for each user’s mailbox. The synchronization algorithm ensures that mailboxes are synced according to dynamic parameters such as the number of email messages and the activity within the mailbox. Normally, email synchronization occurs every 5 minutes. When a mailbox has many email messages, the interval can be reduced dynamically to 2 minutes. If the mailbox is less active, the interval can be increased up to 12 minutes. Generally speaking, you can assume that a mailbox will be synced at least once every 12 minutes. Note that you can’t manually synchronize records through [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)] but when you track or link (set the regarding record) for email, appointments, or tasks, synchronization happens immediately.  
   
 ## Where can I find information on troubleshooting server-side synchronization issues?  
 <<<<<<< HEAD
+<<<<<<< HEAD
  You can find information on troubleshooting and known issues here: [TechNet: Troubleshooting and things to know about server-side synchronization](https://technet.microsoft.com/library/hh699813.aspx).  
 =======
  You can find information on troubleshooting and known issues here: [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin-guide/troubleshooting-things-to-know.md) 
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ You can find information on troubleshooting and known issues here: [Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook](../admin-guide/troubleshooting-things-to-know.md) 
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 ## Do security permissions affect synchronization?  
  Yes. If a system administrator has implemented security for particular fields or records, it can affect the data that’s synchronized.  
@@ -67,6 +79,7 @@ manager: "brycho"
   
 ## Can I view or control the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook (legacy add-in)?  
 <<<<<<< HEAD
+<<<<<<< HEAD
  You can view the synchronizing fields and  whether fields are synced one way (from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), two ways (back and forth between [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), or not at all. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md).  
   
  If you’re a system administrator, you can  control field synchronization and sync direction. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][TechNet: Control field synchronization between Dynamics 365 and Outlook or Exchange](https://technet.microsoft.com/library/dn832150.aspx)  
@@ -75,10 +88,16 @@ manager: "brycho"
   
  If you’re a system administrator, you can  control field synchronization and sync direction. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Control field synchronization between Dynamics 365 and Outlook or Exchange](control-field-synchronization-exchange.md)
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ You can view the synchronizing fields and  whether fields are synced one way (from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), two ways (back and forth between [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]), or not at all. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [View the fields that are synchronized between Dynamics 365 and Dynamics 365 for Outlook](view-fields-synchronized.md).  
+  
+ If you’re a system administrator, you can  control field synchronization and sync direction. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Control field synchronization between Dynamics 365 and Outlook or Exchange](control-field-synchronization-exchange.md)
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 > [!NOTE]
 >  [!INCLUDE[cc_feature_included_with_2015_update_1_admins](../../includes/cc-feature-included-with-2015-update-1-admins.md)]  
   
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_server_side_sync](../../includes/cc-privacy-crm-server-side-sync.md)]  
@@ -92,6 +111,9 @@ manager: "brycho"
 =======
 ### See also  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See also  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Dynamics 365 App for Outlook User's Guide](../../outlook-app/dynamics-365-app-outlook-user-s-guide.md)   
  [Dynamics 365 for Outlook User's Guide](dynamics-365-outlook-user-s-guide.md)   
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   

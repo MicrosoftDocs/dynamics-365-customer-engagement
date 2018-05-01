@@ -2,10 +2,14 @@
 title: "Track Outlook email by moving it to a tracked Exchange folder | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -26,10 +30,14 @@ manager: "brycho"
 
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### How to  
 =======
 ## How to  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+## How to  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  Track customer interactions wherever you are, and from virtually any device by using folder tracking. After you set up a tracked folder, you can drag or move email to that folder to track it automatically in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Additionally, if you set a regarding record (such as a specific account or opportunity record) for the folder, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] automatically links all email in that folder to that specific record. Tracked folders work in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[pn_Exchange_Online](../../includes/pn-exchange-online.md)], [!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)], or any other mobile app that supports [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)].  
   
  ![Exchange email folder tracking in Dynamics 365](../media/exchange-folder-tracking-dynamics-crm.png "Exchange email folder tracking in Dynamics 365")  
@@ -38,6 +46,7 @@ manager: "brycho"
 >  Tracked folders work with [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] Inbox rules. This makes it easy to automatically route email messages to a particular folder. For example, set up an [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] rule that automatically routes email from a Contoso contact to a tracked Contoso folder, which is linked to a specific Contoso opportunity. [Tell me more about setting up rules](http://go.microsoft.com/fwlink/p/?LinkID=528086).  
   
 <a name="Requirements"></a>   
+<<<<<<< HEAD
 <<<<<<< HEAD
 #### Requirements for using tracked folders  
   
@@ -54,6 +63,8 @@ manager: "brycho"
   
     -   In the web app: On the nav bar, click **Options**![Options button for Dynamics 365](../media/optionsbutton.png "Options button for Dynamics 365").  
 =======
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ### Requirements for using tracked folders  
   
 -   [!INCLUDE[cc_feature_included_with_2015_update_1](../../includes/cc-feature-included-with-2015-update-1.md)]  
@@ -68,7 +79,10 @@ manager: "brycho"
 1.  Go to **Options**:  
   
     -   In the web app: On the nav bar, click **Options** ![Options button for Dynamics 365](../media/optionsbutton.png "Options button for Dynamics 365").  
+<<<<<<< HEAD
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
     -   In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]: Click **File** > **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** > **Options**.  
   
@@ -89,10 +103,14 @@ manager: "brycho"
   
 <a name="BestPractices"></a>   
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### Best practices for folder tracking  
 =======
 ### Best practices for folder tracking  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### Best practices for folder tracking  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 -   Make sure to take advantage of folder tracking on your mobile devices. If your device supports [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] email, folder tracking will work automatically. You don’t need to install anything. Just drag or move email to a tracked folder to automatically track that email in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
@@ -112,10 +130,14 @@ manager: "brycho"
   
 <a name="WhatHappens"></a>   
 <<<<<<< HEAD
+<<<<<<< HEAD
 #### What happens when you untrack, move, delete, or rename folders, or change the regarding record?  
 =======
 ### What happens when you untrack, move, delete, or rename folders, or change the regarding record?  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### What happens when you untrack, move, delete, or rename folders, or change the regarding record?  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  The following table shows what happens when untrack, move, or delete folders, or change the regarding record linked to a tracked folder.  
   
 |||  
@@ -131,6 +153,7 @@ manager: "brycho"
 |Two users move the same email message to separate folders that have different regarding records|You can only set one regarding record for an email message. In this case, the record that’s processed first is linked to the regarding record.|  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Watch this video  
  Want to see folder tracking in action? This demo puts it all together for you.  
   
@@ -144,11 +167,16 @@ manager: "brycho"
   
 #### Video transcript  
 =======
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ## Watch this video  
  Want to see folder tracking in action? [This demo](https://www.youtube.com/embed/HiNpINvFKq8) puts it all together for you.  
   
 ### Video transcript  
+<<<<<<< HEAD
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  A big part of working in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] is creating and recording different types of activities that revolve around a sales or service process, such as sending emails, creating opportunities, and assigning tasks. If you want to associate an activity with a more specific record and opportunity for example, you can set the regarding record for that activity.  
   
  By using folder-level tracking, you can easily track and set the regarding record for an email by dragging or moving it into an [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder.  
@@ -170,6 +198,7 @@ manager: "brycho"
  Folder-level tracking allows you to easily track and associate emails to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], manually from any device, or automatically by setting [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] rules.  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## See Also  
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
@@ -177,9 +206,15 @@ manager: "brycho"
  [TechNet: Set up and manage email processing](https://technet.microsoft.com/library/dn832099.aspx)   
  [TechNet: Configure folder-level tracking](https://technet.microsoft.com/library/dn946907.aspx)
 =======
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ### See also  
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
+<<<<<<< HEAD
  [Configure Outlook or Exchange folder-level tracking](../../admin/configure-outlook-exchange-folder-level-tracking.md)
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ [Configure Outlook or Exchange folder-level tracking](../../admin/configure-outlook-exchange-folder-level-tracking.md)
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58

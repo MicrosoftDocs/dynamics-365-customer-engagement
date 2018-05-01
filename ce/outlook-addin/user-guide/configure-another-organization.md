@@ -2,10 +2,14 @@
 title: "Configure another organization to use with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -64,6 +68,7 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
 10. In the wizard, choose **Close**.  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 <a name="BMKM_MUprivacy"></a>   
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
@@ -77,5 +82,9 @@ If you’re a member of more than one [!INCLUDE[pn_microsoftcrm](../../includes/
 ### See also  
  [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See also  
+ [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)

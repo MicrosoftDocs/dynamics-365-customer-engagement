@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Dynamics 365 for Outlook Admin Guide
 
 ## [Hardware requirements](hardware-requirements.md)
@@ -26,6 +27,8 @@
 
 ## Set up and configure
 =======
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 # [Dynamics 365 for Outlook Administrator Guide](admin-guide/dynamics-365-for-outlook.md)
 
 ## [Hardware requirements](admin-guide/hardware-requirements.md)
@@ -54,7 +57,10 @@
 # [Dynamics 365 for Outlook User Guide](user-guide/dynamics-365-outlook-user-s-guide.md) 
 
 ## Set up and configure 
+<<<<<<< HEAD
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ### [Set up](user-guide/set-up.md)
 ### [Configure another organization](user-guide/configure-another-organization.md)
 ### [Set up and configure Dynamics 365 for Outlook from Office 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)

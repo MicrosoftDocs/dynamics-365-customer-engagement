@@ -2,10 +2,14 @@
 title: "Synchronize records manually with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -33,6 +37,7 @@ By default, changes made in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microso
     >  If you receive the error message "[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server Not Found", verify that you have Internet connectivity and that the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server is running. Then try synchronizing again.  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 <a name="BMKM_MUprivacy"></a>   
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
@@ -47,3 +52,7 @@ By default, changes made in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microso
 ### See also  
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See also  
+ [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58

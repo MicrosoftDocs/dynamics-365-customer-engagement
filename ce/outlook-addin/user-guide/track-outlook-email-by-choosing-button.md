@@ -2,10 +2,14 @@
 title: "Track Outlook email by choosing a button in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -30,16 +34,22 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
  ![Tracking buttons on Dynamics 365 for Outlook ribbon](../media/outlook-email-button-tracking.png "Tracking buttons on Dynamics 365 for Outlook ribbon")  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
  Tracking email in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal email separate from your customer email. You can also set an option to automatically track email messages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
   
 > [!TIP]
 >  If your organization synchronizes email through server-side synchronization, you can track email automatically by dragging it to a tracked folder. Folder-level tracking is a powerful and intuitive way to track email messages directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
 =======
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  Tracking email in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is a manual process. This gives you the ability to keep your personal email separate from your customer email. You can also set an option to automatically track email messages. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook](set-option-automatically-track-incoming-outlook-email.md)  
   
 > [!TIP]
 >  If your organization synchronizes email through server-side synchronization, you can track email automatically by dragging it to a tracked folder. Folder-level tracking is a powerful and intuitive way to track email messages directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
+<<<<<<< HEAD
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 <a name="Requirements"></a>   
 ## Requirements for tracking email messages  
@@ -63,10 +73,14 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
     -   To track the email message and link it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, click **Add**.  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
 =======
      When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+     When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
      You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365** symbol ![Tracked in Dynamics 365 icon](../media/priv-biz-unit.gif "Tracked in Dynamics 365 icon") next to any tracked records.  
   
@@ -76,18 +90,24 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
 ## What else to I need to know about tracking email records?  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
 -   **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] address book**. The address book is installed automatically when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. This makes it possible to search for a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact from the **To** field of an email message or appointment when you create it. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only searches for contacts you own. You can set a personal option to broaden this search. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set address book options in Dynamics 365 for Outlook](set-address-book-options.md)  
   
 -   **Working offline**. Email messages you track when you’re offline are saved as activities when you go back online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
 -   **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
 =======
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 -   **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] address book**. The address book is installed automatically when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. This makes it possible to search for a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contact from the **To** field of an email message or appointment when you create it. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only searches for contacts you own. You can set a personal option to broaden this search. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set address book options in Dynamics 365 for Outlook](set-address-book-options.md)  
   
 -   **Working offline**. Email messages you track when you’re offline are saved as activities when you go back online. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work offline with Dynamics 365 for Outlook](work-offline-dynamics-365-outlook.md)  
   
 -   **Replies to tracked messages**. You can set whether replies to tracked messages are also tracked. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
+<<<<<<< HEAD
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 -   **Editing tracked email messages**. After an email message has been sent, you can’t edit it, but you can set or change a regarding record for it.  
   
@@ -95,6 +115,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
   
      Your administrator can block messages from being saved if they contain attachments of specific file types, such as .exe files. Any messages stored in locations other than the default [!INCLUDE[pn_Microsoft_Exchange](../../includes/pn-microsoft-exchange.md)] location can’t be linked.  
   
+<<<<<<< HEAD
 <<<<<<< HEAD
 <a name="BMKM_MUprivacy"></a>   
 ## Privacy notices  
@@ -107,6 +128,9 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
 =======
 ### See also  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See also  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   

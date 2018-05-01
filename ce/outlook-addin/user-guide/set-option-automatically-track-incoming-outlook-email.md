@@ -2,10 +2,14 @@
 title: "Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-01"
 =======
 ms.date: 01/11/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 01/11/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -26,19 +30,27 @@ manager: "brycho"
 ---
 # Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook
 <<<<<<< HEAD
+<<<<<<< HEAD
 When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track an email message, a copy of the email record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
 =======
 When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track an email message, a copy of the email record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to track an email message, a copy of the email record is saved as an activity in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and synchronized with the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
  By default, tracking email is a manual process—you have to choose the **Track** button or the **Set Regarding** button for each email message you want to track. Manual tracking provides a way for you to keep your personal email separate from your customer email. As an alternative, you can set an option to track email messages automatically.  
   
 > [!TIP]
 <<<<<<< HEAD
+<<<<<<< HEAD
 >  You can use [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder tracking as an alternate method for tracking messages automatically. With folder tracking, you can track messages directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
 =======
 >  You can use [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder tracking as an alternate method for tracking messages automatically. With folder tracking, you can track messages directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>  You can use [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folder tracking as an alternate method for tracking messages automatically. With folder tracking, you can track messages directly from virtually any device. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 ## Automatically track email messages  
   
@@ -63,14 +75,19 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
   
     > [!NOTE]
 <<<<<<< HEAD
+<<<<<<< HEAD
     >  Contact and lead records won’t be created if you don’t have the appropriate security permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][TechNet: How security affects synchronization between Dynamics 365 and Outlook](https://technet.microsoft.com/library/dn832097.aspx)  
 =======
     >  Contact and lead records won’t be created if you don’t have the appropriate security permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: How security affects synchronization between Dynamics 365 and Outlook](https://technet.microsoft.com/library/dn832097.aspx)  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+    >  Contact and lead records won’t be created if you don’t have the appropriate security permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: How security affects synchronization between Dynamics 365 and Outlook](https://technet.microsoft.com/library/dn832097.aspx)  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 > [!NOTE]
 >  More than one custom record type can contain the same email address. When this happens, [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages **received** from this email address to the custom record type created first. For example, let’s say a Patient record type created in January lists the email address someone@example.com. A Doctor record type created in February lists the same email address. [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] links the email messages received from someone@example.com to the Patient record type only. **Sending** an email message to someone@example.com links the email message to the Patient record type and the Doctor record type, however.  
   
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
@@ -83,5 +100,8 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
 =======
 ### See also  
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See also  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

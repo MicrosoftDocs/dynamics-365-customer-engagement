@@ -2,10 +2,14 @@
 title: "Microsoft Dynamics 365 for Outlook hardware requirements | MicrosoftDocs"
 ms.custom: ""
 <<<<<<< HEAD
+<<<<<<< HEAD
 ms.date: "2016-11-28"
 =======
 ms.date: 11/28/2016
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 11/28/2016
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -43,6 +47,7 @@ The following table lists the minimum recommended hardware requirements when you
 -   Latency under 150 ms  
   
 <<<<<<< HEAD
+<<<<<<< HEAD
  These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc-more-information](../../includes/proc-more-information.md)][Verify network capacity and throughput for Dynamics 365 clients](https://technet.microsoft.com/library/mt269872.aspx)  
   
 > [!NOTE]
@@ -52,9 +57,15 @@ The following table lists the minimum recommended hardware requirements when you
  [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)   
  [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)
 =======
+=======
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  These values are recommendations and don’t guarantee satisfactory performance. The recommended values are based on systems using out-of-the box forms that aren’t customized. If you significantly customize the out-of-box forms, we recommend that you test the form response to understand bandwidth needs. [!INCLUDE[proc-more-information](../../includes/proc-more-information.md)] [Verify network capacity and throughput for Dynamics 365 clients](https://technet.microsoft.com/library/mt269872.aspx)  
   
 > [!NOTE]
 >  Successful network installation of [!INCLUDE[pn-crm-for-outlook-short](../../includes/pn-crm-for-outlook-short.md)] requires a reliable and high-throughput network. Otherwise, installation might fail. The recommended minimum available bandwidth of the network connection is 300 Kbps.  
+<<<<<<< HEAD
   
 >>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
