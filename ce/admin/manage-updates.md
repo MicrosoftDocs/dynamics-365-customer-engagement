@@ -229,7 +229,8 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
     -   Clicking **Schedule your update** lets the admin select a target release and then do the scheduling.  
   
  ![Manage Dynamics 365 Online instances](../admin/media/customer-driven-update-notice-1.png "Manage Dynamics 365 Online instances")  
-  
+
+<!-- This banner appears to not happen anymore - May 1 2018  
 ### A notification appears in your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application  
   
 1.  Sign in to your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance.  
@@ -237,7 +238,8 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 2.  If an update is available, admins will see a yellow [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] message bar notifying them of an available update.  
   
  ![Dynamics 365 Online update notice in banner bar](../admin/media/customer-driven-update-notice-2.png "Dynamics 365 Online update notice in banner bar")  
-  
+ -->
+
 ### Update notification emails are sent to admins  
  [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] system administrators will receive an email from the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] Team. You can use the links in the email to learn more about your update or reschedule it.  
   
