@@ -25,6 +25,8 @@ manager: "amyla"
 |---|---|---|---|
 |entityName|String|Yes|The logical name of the entity.|
 |attributes|array of strings|No|The attributes to get metadata for.|
+|successCallback|function|No|A function to call when the entity metadata is returned.|
+|errorCallback|function|No|A function to call when the operation fails.|
 
 ## Returns
 
@@ -35,7 +37,7 @@ manager: "amyla"
 <table>
 <tr>
 <th>Attribute Name</th>
-<th>Number</th>
+<th>Type</th>
 <th>Description</th>
 </tr>
 <tr>
@@ -279,10 +281,51 @@ manager: "amyla"
 <tr>
 <td>Attributes</td>
 <td>Collection</td>
-<td>A collection of attribute metadata objects.</td>
+<td>A collection of attribute metadata objects. The object returned depends on the type of attribute metadata.
+<p><b>Attribute metadata for the <i>base</i> type</b><br/>
+An object returned with the following properties:</p>
+<ul>
+<li><b>AttributeType</b>: Number. Type of an attribute. For a list of attribute type values, see <a href="https://docs.microsoft.com/dotnet/api/microsoft.xrm.sdk.metadata.attributetypecode">AttributeTypeCode</a></li>
+<li><b>DisplayName</b>: String. Display name for the attribute.</li>
+<li><b>EntityLogicalName</b>: String. Logical name of the entity that contains the attribute.</li>
+<li><b>LogicalName</b>: String. Logical name for the attribute.</li></ul>
+
+<p><b>Attribute metadata for the <i>boolean</i> type</b><br/>
+An object returned with the following properties in addition to the <i>base</i> attribute metadata type properties:</p>
+<ul>
+<li><b>DefaultFormValue</b>: Boolean. Default value for a Boolean option set.</li>
+<li><b>OptionSet</b>: Object. Options for the boolean attribute where each option is a key:value pair.</li></ul>
+
+<p><b>Attribute metadata for the <i>enum</i> type</b><br/>
+An object returned with the following properties in addition to the <i>base</i> attribute metadata type properties:</p>
+<ul>
+<li><b>OptionSet</b>: Object. Options for the attribute where each option is a key:value pair.</li></ul>
+
+<p><b>Attribute metadata for the <i>picklist</i> type</b><br/>
+An object returned with the following properties in addition to the <i>base</i> attribute metadata type properties:</p>
+<ul>
+<li><b>DefaultFormValue</b>: Number. Default form value for the attribute.</li>
+<li><b>OptionSet</b>: Object. Options for the attribute where each option is a key:value pair.</li></ul>
+
+<p><b>Attribute metadata for the <i>state</i> type</b><br/>
+An object returned with the following properties in addition to the <i>base</i> attribute metadata type properties:</p>
+<ul>
+<li><b>OptionSet</b>: Object. Options for the attribute where each option is a key:value pair.</li></ul>
+<p>The object also contains the following methods:</p>
+<ul>
+<li><b>getDefaultStatus(arg)</b>: Returns the default status (number) based on the passed in state value for an entity. For default state and status values for an entity, see <a href="https://technet.microsoft.com/library/dn531157.aspx">Default status and status reason values</a>.</li>
+<li><b>getStatusValuesForState(arg)</b>: Returns possible status values (array of numbers) for a specified state value. For state and status values for an entity, see <a href="https://technet.microsoft.com/library/dn531157.aspx">Default status and status reason values</a>.</li></ul>
+
+<p><b>Attribute metadata for the <i>status</i> type</b><br/>
+An object returned with the following properties in addition to the <i>base</i> attribute metadata type properties:</p>
+<ul>
+<li><b>OptionSet</b>: Object. Options for the attribute where each option is a key:value pair.</li></ul>
+<p>The object also contains the following method:</p>
+<ul>
+<li><b>getState(arg)</b>: Returns the state value (number) for the specified status value (number). For default state and status values for an entity, see <a href="https://technet.microsoft.com/library/dn531157.aspx">Default status and status reason values</a>.</li>
+</ul>
+</td>
 </tr>
-
-
 </table>
 
 ### Related topics
