@@ -1,15 +1,7 @@
 ---
 title: "Choose the records to synchronize between Dynamics 365 and Outlook or Exchange | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-01"
-=======
 ms.date: 01/11/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/11/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -34,15 +26,7 @@ manager: "brycho"
  Email is not included in the synchronization filters because email is controlled by when the email is created in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], whether the user is on the recipient list or not. This is true for all email processing methods: [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], or [!INCLUDE[pn_emailrouter](../../includes/pn-emailrouter.md)].  
   
 > [!TIP]
-<<<<<<< HEAD
-<<<<<<< HEAD
->  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] also includes offline synchronization filters that you can use to choose records to work with offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
-=======
 >  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] also includes offline synchronization filters that you can use to choose records to work with offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
->  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] also includes offline synchronization filters that you can use to choose records to work with offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 ## Create or modify online synchronization filters  
   
@@ -61,15 +45,7 @@ manager: "brycho"
      ![Online synchronization filters](../media/online-sync-filters-dialog-box.PNG "Online synchronization filters")  
   
     > [!NOTE]
-<<<<<<< HEAD
-<<<<<<< HEAD
-    >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
-=======
     >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-    >  If you’re a system administrator, you can create or modify organization-wide filters (system filters) through the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [MSDN: Tell me more about system filters](https://msdn.microsoft.com/library/gg328205.aspx)  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 4.  Do one of the following:  
   
@@ -82,15 +58,7 @@ manager: "brycho"
   
  ![Sync or offline filters criteria grid in Dynamics 365](../media/sync-filters-criteria-row.png "Sync or offline filters criteria grid in Dynamics 365")  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Add a criteria row  
-=======
 ### Add a criteria row  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### Add a criteria row  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 1.  In the **Look for** list, select a record type.  
   
@@ -100,15 +68,7 @@ manager: "brycho"
   
 4.  Enter a value to filter on.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Group rows of criteria  
-=======
 ### Group rows of criteria  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### Group rows of criteria  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 1.  For each row you want to group, click the down arrow to the left of the field name, and then click **Select Row**.  
   
@@ -120,16 +80,5 @@ manager: "brycho"
   
  ![Sync filters dialog box showing grouped criteria](../media/sync-filters-group-criteria.png "Sync filters dialog box showing grouped criteria")  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-## See Also  
- [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
- [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)
-=======
 ### See also  
  [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### See also  
- [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58

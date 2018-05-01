@@ -1,15 +1,7 @@
 ---
 title: "Track Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-01"
-=======
 ms.date: 01/11/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/11/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -36,15 +28,7 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
 1.  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], choose **People** in the navigation pane, and then select up to 20 contacts.  
   
     > [!TIP]
-<<<<<<< HEAD
-<<<<<<< HEAD
-    >  If you want to select more than 20 contacts, or if you want to track all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can use the **Add Contacts** wizard. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)  
-=======
     >  If you want to select more than 20 contacts, or if you want to track all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can use the **Add Contacts** wizard. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-    >  If you want to select more than 20 contacts, or if you want to track all your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], you can use the **Add Contacts** wizard. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 2.  To track the contact, do one of the following:  
   
@@ -88,25 +72,8 @@ When you track a contact in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../
 > [!IMPORTANT]
 >  Duplicate detection can take place only if duplicate detection is enabled and if at least one duplicate-detection rule exists for the record type.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-<a name="BMKM_MUprivacy"></a>   
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-## See Also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
-=======
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### See also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook](use-wizard-add-track-multiple-outlook-contacts.md)   
  [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

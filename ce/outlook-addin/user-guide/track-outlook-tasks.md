@@ -1,15 +1,7 @@
 ---
 title: "Track Outlook tasks in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-01"
-=======
 ms.date: 01/11/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/11/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -91,15 +83,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
 > -   You can’t track an assigned task if you go offline with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
 > -   You can’t track recurring tasks.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Assign a task  
-=======
 ### Assign a task  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### Assign a task  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 1.  Create a task or open an existing task as described in the previous procedure.  
   
@@ -128,15 +112,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
      When you click **Send**, ownership of the record passes to the person you’re assigning the task to. If the person you assign the task to declines the task, you’ll receive a declined task message. To reclaim ownership, open the message and click **Return to Task List**. After reclaiming ownership, you can reassign the task to someone else.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Accept, decline, or reassign a task assigned to you  
-=======
 ### Accept, decline, or reassign a task assigned to you  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### Accept, decline, or reassign a task assigned to you  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 1.  If someone assigns a task to you in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you have three options:  
   
@@ -156,15 +132,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
     > [!NOTE]
     >  With an assigned task, you must track the task specifically as a task. You can’t track the task record as a phone call, letter, or FAX by selecting the down arrow on the **Track** button.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Send a status report about a task assignment  
-=======
 ### Send a status report about a task assignment  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### Send a status report about a task assignment  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 1.  Open the task.  
   
@@ -178,15 +146,7 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
 6.  Click **Send**.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Follow the progress of tasks you assign  
-=======
 ### Follow the progress of tasks you assign  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### Follow the progress of tasks you assign  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 -   To follow the progress of tasks you assign, select either or both of the following check boxes when you assign the task:  
   
@@ -204,17 +164,6 @@ When you track a task in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../
   
     2.  On the **Task** tab, in the **Show** group, click **Details**, and then review the names in the **Update list** box.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-## See Also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
-=======
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### See also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

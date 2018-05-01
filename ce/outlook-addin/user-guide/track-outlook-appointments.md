@@ -1,15 +1,7 @@
 ---
 title: "Track Outlook appointments in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-01"
-=======
 ms.date: 01/11/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/11/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -38,19 +30,6 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
 > [!IMPORTANT]
 >  To synchronize appointments between [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] email address must match your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email address. You can’t synchronize to or from multiple email addresses.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Track an appointment 
-  
-1.  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], create an appointment as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
-  
-2.  If you want to insert an attachment, click the **Insert** tab, and then select an attachment. Note that some file extensions may be blocked by your system administrator. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][System Settings dialog box - General tab](../../admin/system-settings-dialog-box-general-tab.md)  
-  
-     [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] doesn’t support inline attachments (attachments included in the body of the message). [Tell me more about inline attachments and how to convert them.](http://go.microsoft.com/fwlink/p/?LinkID=510099)  
-  
-=======
-=======
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ## Track an appointment 
   
 1.  In [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], create an appointment as you normally would in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  
@@ -59,10 +38,6 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
   
      [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] doesn’t support inline attachments (attachments included in the body of the message). 
 
-<<<<<<< HEAD
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
     > [!NOTE]
     >  The maximum size for an attachment is 5MB, although this can be increased to 32 MB by a system administrator.  
   
@@ -86,17 +61,6 @@ You can track an appointment in [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook]
   
 -   You can’t synchronize attachments in recurring appointments or service appointments in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-## See Also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
-=======
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### See also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

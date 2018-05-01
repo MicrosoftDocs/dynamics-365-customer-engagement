@@ -1,15 +1,7 @@
 ---
 title: "Work offline with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-01"
-=======
 ms.date: 01/11/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/11/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -35,15 +27,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 <a name="BeforeYouGoOffline"></a>   
 ## Before you go offline  
-<<<<<<< HEAD
-<<<<<<< HEAD
- [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses offline synchronization filters to determine the subset of data to copy to your local hard drive when you go offline. Before you go offline, you can modify these filters or create new filters to synchronize just the data you need. You can also delete, deactivate, or activate filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
-=======
  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses offline synchronization filters to determine the subset of data to copy to your local hard drive when you go offline. Before you go offline, you can modify these filters or create new filters to synchronize just the data you need. You can also delete, deactivate, or activate filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
- [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses offline synchronization filters to determine the subset of data to copy to your local hard drive when you go offline. Before you go offline, you can modify these filters or create new filters to synchronize just the data you need. You can also delete, deactivate, or activate filters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 > [!TIP]
 >  The first time you go offline, it can take a significant amount of time to synchronize your local data with the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server if you have a lot of data. For example, in customer service situations, a parent case may have thousands of child cases. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] isn’t available when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is synchronizing. You can shorten the time by using the offline synchronization filters to limit the amount of synchronized data.  
@@ -141,15 +125,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 -   **Workflows.** When you work offline, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] disables workflow notifications. If the changes you make offline are set to trigger an automated workflow process or a system job, the process is automatically triggered when you go back online.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
--   **Duplicate detection.** [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] disables duplicate detection when you’re offline. Duplicate detection is automatically re-enabled when you go back online. You can set a personal option to determine how duplicate records are handled during synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
-=======
 -   **Duplicate detection.** [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] disables duplicate detection when you’re offline. Duplicate detection is automatically re-enabled when you go back online. You can set a personal option to determine how duplicate records are handled during synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
--   **Duplicate detection.** [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] disables duplicate detection when you’re offline. Duplicate detection is automatically re-enabled when you go back online. You can set a personal option to determine how duplicate records are handled during synchronization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange](set-personal-options-affect-tracking-synchronization-exchange.md)  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 -   **Undelivered messages.** Email messages can fail to be delivered if the mail server is down, or can be blocked if the recipient doesn’t want to receive the email. If this happens, [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] saves the email message to your **Drafts** folder, but [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] creates a closed activity. In [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)], use the **Pending E-mail** view to see unsent messages.  
   
@@ -159,24 +135,5 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 -   **Adding a related record type using the Add  button (+).** If you’re offline, you can’t add a related record type by using the **Add** button (+). Add the related record type while you’re online, and then go offline.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Privacy notices  
- [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
-  
- [!INCLUDE[cc_privacy_crm_go_offline_in_outlook](../../includes/cc-privacy-crm-go-offline-in-outlook.md)]  
-  
- [!INCLUDE[cc_privacy_crm_sync_to_outlook](../../includes/cc-privacy-crm-sync-to-outlook.md)]  
-  
-## See Also  
- [Set up Dynamics 365 for Outlook](set-up.md)   
- [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
- [Example of going offline with Dynamics 365 for Outlook](example-going-offline.md)
-=======
 ### See also  
  [Set up Dynamics 365 for Outlook](set-up.md)   
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### See also  
- [Set up Dynamics 365 for Outlook](set-up.md)   
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
