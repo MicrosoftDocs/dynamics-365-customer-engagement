@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dynamics 365 for Outlook Admin Guide
 
 ## [Hardware requirements](hardware-requirements.md)
@@ -24,6 +25,36 @@
 ### [Troubleshooting and things to know](troubleshooting-things-to-know.md)
 
 ## Set up and configure
+=======
+# [Dynamics 365 for Outlook Administrator Guide](admin-guide/dynamics-365-for-outlook.md)
+
+## [Hardware requirements](admin-guide/hardware-requirements.md)
+## [Software requirements](admin-guide/software-requirements.md)
+## [Support](admin-guide/support.md)
+
+## [Set up](admin-guide/set-up.md)
+### [Permissions required for Dynamics 365 for Outlook tasks](admin-guide/permissions-required-tasks.md)
+### [Planning and installing](admin-guide/planning-installing.md)
+#### [Upgrade Microsoft Dynamics CRM for Outlook](admin-guide/upgrade.md)
+#### [Install](admin-guide/install.md)
+#### [Advanced deployment options](admin-guide/advanced-deployment-options.md)
+##### [Deploy using Group Policy](admin-guide/deploy-using-group-policy.md)
+##### [Install for desktop virtualization](admin-guide/install-desktop-virtualization.md)
+##### [Install without an Internet connection](admin-guide/install-without-internet-connection.md)
+##### [Use SCCM to install](admin-guide/use-sccm.md)
+### [Uninstall or repair](admin-guide/uninstall-or-repair.md)
+### [Configure synchronization for appointments, contacts, and tasks](admin-guide/configure-synchronization-appointments-contacts-tasks.md)
+### [Install using a command prompt](admin-guide/install-using-command-prompt.md)
+### [Failure recovery](admin-guide/failure-recovery.md)
+### [Control field synchronization](admin-guide/control-field-synchronization.md)
+### [Which fields can be synchronized](admin-guide/which-fields-synchronized.md)
+### [How field security affects synchronization](admin-guide/field-security-synchronization.md)
+### [Troubleshooting and things to know](admin-guide/troubleshooting-things-to-know.md)
+
+# [Dynamics 365 for Outlook User Guide](user-guide/dynamics-365-outlook-user-s-guide.md) 
+
+## Set up and configure 
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ### [Set up](user-guide/set-up.md)
 ### [Configure another organization](user-guide/configure-another-organization.md)
 ### [Set up and configure Dynamics 365 for Outlook from Office 365](user-guide/set-up-configure-dynamics-365-outlook-office-365.md)

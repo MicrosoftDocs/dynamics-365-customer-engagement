@@ -1,7 +1,11 @@
 ---
 title: "Install Microsoft Dynamics 365 for Outlook for desktop virtualization | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-28"
+=======
+ms.date: 11/28/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -33,21 +37,35 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
 ### Deploy Dynamics 365 for Outlook to use as a Remote Desktop Services application  
  The following is the basic procedure required to deploy [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to use as a [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] application.  
   
+<<<<<<< HEAD
 1.  Provide at least one [!INCLUDE[pn_ms_Windows_Server_long](../../includes/pn-ms-windows-server-long.md)] that is running the [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] server role. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Remote Desktop Services](https://technet.microsoft.com/library/hh831447.aspx)  
   
 2.  Install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] using the /disableofflinecapability parameter on the [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] server. Go offline mode is not supported when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed for [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] use. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Install Microsoft Dynamics 365 for Outlook using a Command Prompt](install-microsoft-dynamics-365-for-outlook-using-a-command-prompt.md)  
+=======
+1.  Provide at least one [!INCLUDE[pn_ms_Windows_Server_long](../../includes/pn-ms-windows-server-long.md)] that is running the [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] server role. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Remote Desktop Services](https://technet.microsoft.com/library/hh831447.aspx)  
+  
+2.  Install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] using the /disableofflinecapability parameter on the [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] server. Go offline mode is not supported when [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed for [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] use. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Install Microsoft Dynamics 365 for Outlook using a Command Prompt](install-using-command-prompt.md)  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
     > [!IMPORTANT]
     >  The [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] offline database is not supported for roaming profile use.  
   
+<<<<<<< HEAD
 3.  Run the [!INCLUDE[pn_Configuration_Wizard_long](../../includes/pn-configuration-wizard-long.md)] on the [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] server. For instructions, see [Install Dynamics 365 for Outlook](install-dynamics-365-for-outlook.md).  
+=======
+3.  Run the [!INCLUDE[pn_Configuration_Wizard_long](../../includes/pn-configuration-wizard-long.md)] on the [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] server. For instructions, see [Install Dynamics 365 for Outlook](install.md).  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
 4.  Disable the [!INCLUDE[pn_Configuration_Wizard_long](../../includes/pn-configuration-wizard-long.md)] on all desktops that will be used to connect to [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] and run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. For details, see the section below.  
   
 ### Disable the Dynamics 365 for Outlook Configuration Wizard  
   
 > [!NOTE]
+<<<<<<< HEAD
 >  The information in this topic applies to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] deployments that use [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. To remove only the **Get Dynamics 365 for Outlook** button for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] deployments that don’t use [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)], see the “Set whether users see Dynamics 365 for Outlook message” setting in [Help & Training: System Settings dialog box – Outlook tab](http://go.microsoft.com/fwlink/p/?LinkID=512854).  
+=======
+>  The information in this topic applies to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] deployments that use [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. To remove only the **Get Dynamics 365 for Outlook** button for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] deployments that don’t use [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)], see the “Set whether users see Dynamics 365 for Outlook message” setting in [System Settings dialog box - Outlook tab](../../admin/system-settings-dialog-box-outlook-tab.md).
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
  The [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)][!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] starts every time a roaming user connects to a [!INCLUDE[pn_Windows_Server](../../includes/pn-windows-server.md)] that is running [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)]. In addition, users will see the option to configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] when they run [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)].  
   
@@ -59,7 +77,11 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
   
  To disable the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)][!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] and the option to configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], follow these steps on the client computer.  
   
+<<<<<<< HEAD
 ##### Disable the Configuration Wizard  
+=======
+#### Disable the Configuration Wizard  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
 1.  On the computer where [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] is installed, start [!INCLUDE[pn_ms_Registry_Editor](../../includes/pn-ms-registry-editor.md)] (regedit.exe).  
   
@@ -95,7 +117,12 @@ This topic describes how to install [!INCLUDE[pn_crm_for_outlook_short](../../in
   
 -   Cached Exchange Mode turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] is supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] using server-side synchronization but not supported if [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] syncs with [!INCLUDE[proc_crm_for_outlook](../../includes/proc-crm-for-outlook.md)] synchronization. See: [Turn on Cached Exchange Mode](https://support.office.com/article/Turn-on-Cached-Exchange-Mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c?CorrelationId=90246111-3367-4702-a41b-62ab9b65f3f0).  
   
+<<<<<<< HEAD
 ## See Also  
  [Advanced deployment options for Microsoft Dynamics 365 for Outlook](advanced-deployment-options-for-microsoft-dynamics-365-for-outlook.md)   
  [Install or upgrade language packs for Microsoft Dynamics 365](https://technet.microsoft.com//library/hh699674.aspx)   
+=======
+### See Also  
+ [Install or upgrade language packs for Microsoft Dynamics 365](https://technet.microsoft.com/library/hh699674.aspx)   
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
  [Planning and installing Dynamics 365 for Outlook for Microsoft Dynamics 365 and Dynamics 365 Online](planning-installing.md)

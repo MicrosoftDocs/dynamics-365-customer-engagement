@@ -1,7 +1,11 @@
 ---
 title: "Advanced deployment options for Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-28"
+=======
+ms.date: 11/28/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,6 +22,7 @@ manager: "brycho"
 # Advanced deployment options for Microsoft Dynamics 365 for Outlook
 This section describes advanced deployment options that can be used for a large scale deployment of [!INCLUDE[pn_crm_2016_outlook](../../includes/pn-crm-2016-outlook.md)].  
   
+<<<<<<< HEAD
 ## In This Section  
  [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-microsoft-dynamics-365-for-outlook-by-using-group-policy.md)  
   
@@ -27,3 +32,5 @@ This section describes advanced deployment options that can be used for a large 
   
  [Use SCCM to install Dynamics 365 for Outlook](use-sccm-to-install-dynamics-365-for-outlook.md)  
   
+=======
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

@@ -1,7 +1,11 @@
 ---
 title: "Permissions required for Dynamics 365 for Outlook tasks | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-28"
+=======
+ms.date: 11/28/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -27,6 +31,10 @@ The following table shows the default security roles required to perform [!INCLU
 |Save and link [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] tasks and appointments in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]|Security roles:  Any<br /><br /> Privileges:  For the record type: Write, Append To|Yes|  
 |Save and link [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contacts in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]|Security roles:  Any<br /><br /> Privileges:  Contact record type: Write, Append To|Yes|  
 |Remove tracking in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] from a record|Security roles:  Any<br /><br /> Privileges:  Contact record type: Write, Append To<br /><br /> For the record type: Write, Append To|Yes|  
+<<<<<<< HEAD
   
 ## See Also  
  [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)
+=======
+  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

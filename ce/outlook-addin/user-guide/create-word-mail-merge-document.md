@@ -1,7 +1,11 @@
 ---
 title: "Create a Microsoft Word mail-merge document with Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-01"
+=======
+ms.date: 01/11/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -80,7 +84,11 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 5.  Choose whether you want to start with a blank document or a template. If you select a template option, click or tap the **Lookup** button ![Lookup button](../media/lookup-button-4.gif "Lookup button") to select a template.  
   
+<<<<<<< HEAD
      New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Work with mail merge templates](../../admin/work-mail-merge-templates.md)
+=======
+     New mail merge templates are created in the Settings area. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Work with mail merge templates](../../admin/work-mail-merge-templates.md)
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
 6.  If necessary, you can add or delete data fields.  
   
@@ -97,7 +105,11 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 9. To continue the mail merge, follow the instructions provided by the Mail Merge pane. For more information, see the [!INCLUDE[pn_MS_Word_Full](../../includes/pn-ms-word-full.md)] Help documentation for mail merge.  
   
     > [!TIP]
+<<<<<<< HEAD
     >  -   To display the information you want and select the format, in the Mail Merge wizard, click or tap **Address Block** and then **Greeting Line**.  
+=======
+    > -   To display the information you want and select the format, in the Mail Merge wizard, click or tap **Address Block** and then **Greeting Line**.  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
     > -   To add data fields to display more information, click or tap **More Items**. You can use up to 62 data fields.  
   
 10. If you have either created a new template or updated an existing template, you can upload the template.  
@@ -106,6 +118,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 11. If you have saved the document as a template, you can go back and edit the template with **Settings** > **Business** > **Templates**. Click or tap your template to review and edit it.  
   
+<<<<<<< HEAD
 <a name="BMKM_MUprivacy"></a>   
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
@@ -114,4 +127,8 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 ## See Also  
  [Work with templates](../../admin/work-with-templates.md)
+=======
+### See also  
+ [Work with templates](../../admin/work-with-templates.md)<br />
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
  [Send bulk email to customers](../../basics/send-bulk-email-customers.md)

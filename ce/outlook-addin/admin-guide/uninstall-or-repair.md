@@ -1,7 +1,11 @@
 ---
 title: "Uninstall or repair Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-28"
+=======
+ms.date: 11/28/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -37,6 +41,7 @@ If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for
 ## Files not removed during a Microsoft Dynamics 365 for Outlook uninstall  
  The following files aren’t removed when you uninstall [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
+<<<<<<< HEAD
 -   *Program Files\Microsoft Dynamics CRM\Client\ConfigWizard\CrmForOutlookInstaller.exe  
   
 -   Windows\CrmClient.mif  
@@ -47,3 +52,11 @@ If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for
  [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)   
  [Uninstall, repair, and change Microsoft Dynamics 365](../Topic/Uninstall,%20repair,%20and%20change%20Microsoft%20Dynamics%20365.md)   
  [Uninstall or repair a Microsoft Dynamics 365 Language Pack](../Topic/Uninstall%20or%20repair%20a%20Microsoft%20Dynamics%20365%20Language%20Pack.md)
+=======
+-   <sup>1</sup>Program Files\Microsoft Dynamics CRM\Client\ConfigWizard\CrmForOutlookInstaller.exe  
+  
+-   Windows\CrmClient.mif  
+  
+ <sup>1</sup>The default folder name is **Program Files** or **Program Files (x86)**.  
+  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

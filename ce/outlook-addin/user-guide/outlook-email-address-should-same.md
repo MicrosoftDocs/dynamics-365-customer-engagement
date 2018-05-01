@@ -1,7 +1,11 @@
 ---
 title: "The Outlook email address should be the same as the Dynamics 365 email address | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-01"
+=======
+ms.date: 01/11/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

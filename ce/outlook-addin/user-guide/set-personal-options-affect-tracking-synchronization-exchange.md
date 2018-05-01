@@ -1,7 +1,11 @@
 ---
 title: "Set personal options that affect tracking and synchronization between Dynamics 365 and Outlook or Exchange | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-01"
+=======
+ms.date: 01/11/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -54,6 +58,7 @@ You can use the **Set Personal Options** dialog box in [!INCLUDE[pn_microsoft_dy
 |Set the synchronization interval for updating your local data when you go offline|Local Data|Set how often to update local data|Update local data every<br /><br /> Note: You may not be able to change the interval if your administrator has restricted changes.|From [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only|  
 |Select how duplicate records should be handled when going from offline to online|Local Data|Select how duplicate records should be handled during synchronization|Enable duplicate detection during offline to online synchronization|From [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] only|  
   
+<<<<<<< HEAD
 <a name="BMKM_MUprivacy"></a>   
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
@@ -65,3 +70,10 @@ You can use the **Set Personal Options** dialog box in [!INCLUDE[pn_microsoft_dy
  [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
 [Set up email processing through server-side synchronization](../../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
+=======
+### See Also  
+ [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   
+ [Track Outlook email by choosing a button in Dynamics 365 for Outlook](track-outlook-email-by-choosing-button.md)   
+ [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)   
+ [Set up email processing through server-side synchronization](../../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md)
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

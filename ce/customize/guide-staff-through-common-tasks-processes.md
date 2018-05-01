@@ -2,7 +2,7 @@
 title: "Create custom business logic through processes with PowerApps | MicrosoftDocs"
 description: "Learn about the different types of business logic you can use in your app"
 ms.custom: ""
-ms.date: 04/10/2018
+ms.date: 05/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -34,9 +34,12 @@ Defining and enforcing consistent business processes is one of the main reasons 
   
 -   Actions  
   
+ Similar to processes, you can also create  business rules and recommendations. For more information, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
+
 > [!NOTE]
->  For information on creating business rules and recommendations, see [Create business rules and recommendations to apply logic in a form](../customize/create-business-rules-recommendations-apply-logic-form.md)  
-    
+>  Using processes can impact the license requirements for PowerApps and flows. For more information, see [Entity license requirements](/powerapps/maker/common-data-service/data-platform-entity-licenses). 
+
+
 <a name="BKMK_BP"></a>   
 ## When to use business process flows  
  Use a business process flow when you want staff to move through the same stages and follow the same steps to interact with a customer. For example, use a business process flow if you want everyone to handle customer service requests the same way, or to require staff to gain approval for an invoice before submitting an order.  

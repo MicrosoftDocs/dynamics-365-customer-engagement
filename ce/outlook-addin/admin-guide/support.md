@@ -1,7 +1,11 @@
 ---
 title: "Dynamics 365 for Outlook support | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2017-04-04"
+=======
+ms.date: 04/04/2017
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -32,6 +36,7 @@ This topic contains links to information about the supported software requiremen
   
 <a name="BKMK_Office"></a>   
 ## Microsoft Office  
+<<<<<<< HEAD
  For versions of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](microsoft-dynamics-365-for-outlook-software-requirements.md).  
   
 <a name="BKMK_Windows"></a>   
@@ -41,3 +46,13 @@ This topic contains links to information about the supported software requiremen
 ## See Also  
  [Microsoft Dynamics 365 for Outlook hardware requirements](microsoft-dynamics-365-for-outlook-hardware-requirements.md)   
  [Dynamics 365 for Outlook](dynamics-365-for-outlook.md)
+=======
+ For versions of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
+  
+<a name="BKMK_Windows"></a>   
+## Microsoft Windows  
+ For versions of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)]that are supported for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], see [Microsoft Dynamics 365 for Outlook software requirements](software-requirements.md).  
+  
+### See Also  
+ [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md)   
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

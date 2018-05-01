@@ -1,7 +1,11 @@
 ---
 title: "Control field synchronization between Dynamics 365 and Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-28"
+=======
+ms.date: 11/28/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -23,7 +27,11 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
 > [!TIP]
 >  ![Video symbol](../media/video-thumbnail-4-crm.png "Video symbol") Check out the following video: [Configurability in Synchronizing Data with Outlook or Exchange in Microsoft Dynamics CRM 2015](http://youtu.be/BMZsVUuaklo?list=PLC3591A8FE4ADBE07)  
   
+<<<<<<< HEAD
 ### Set field synchronization between Dynamics 365 and Dynamics 365 for Outlook  
+=======
+## Set field synchronization between Dynamics 365 and Dynamics 365 for Outlook  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
 1.  In Dynamics 365,  [!INCLUDE[proc_settings_email_config](../../includes/proc-settings-email-config.md)]  
   
@@ -40,7 +48,11 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
   
 5.  Choose **OK** > **OK** to close the open dialog boxes.  
   
+<<<<<<< HEAD
  Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized-between-dynamics-365-outlook.md)  
+=======
+ Let your users know they can view (not change) the synchronization settings. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Which fields can be synchronized between Dynamics 365 and Outlook?](which-fields-synchronized.md)  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
 ## Performance and synchronization  
  Configuring synchronization might have an impact on the time it takes to sync between [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. You should test your configuration before deploying to ensure satisfactory sync times.  
@@ -54,4 +66,8 @@ With field synchronization, admins can set the sync direction between [!INCLUDE[
   
 -   Securing fields: [Enable or disable security for a field](https://technet.microsoft.com/library/mt812240.aspx)  
   
+<<<<<<< HEAD
  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [How field security affects synchronization between Dynamics 365 and Dynamics 365 for Outlook](field-security-syncronization.md) and [Security concepts](../../admin/security-concepts.md)
+=======
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Security concepts](../../admin/security-concepts.md)
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

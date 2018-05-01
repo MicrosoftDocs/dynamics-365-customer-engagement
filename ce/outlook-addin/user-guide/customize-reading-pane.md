@@ -1,7 +1,11 @@
 ---
 title: "Customize the Reading Pane in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-01"
+=======
+ms.date: 01/11/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -39,7 +43,13 @@ When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outloo
   
 7.  Click **OK**.  
   
+<<<<<<< HEAD
 ## See Also  
  [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
  [eBook: CRM for Outlook Basics](http://go.microsoft.com/fwlink/p/?LinkID=524512)
+=======
+### See also  
+ [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)   
+ [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

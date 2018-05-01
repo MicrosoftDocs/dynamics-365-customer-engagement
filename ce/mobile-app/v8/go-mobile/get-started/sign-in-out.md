@@ -45,5 +45,5 @@ manager: "brycho"
   
  You can sign in again as the same or a different user, or you can sign in to a different organization.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

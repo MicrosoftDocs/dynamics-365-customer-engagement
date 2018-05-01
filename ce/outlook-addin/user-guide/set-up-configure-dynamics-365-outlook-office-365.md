@@ -1,7 +1,11 @@
 ---
 title: "Set up and configure Dynamics 365 for Outlook from Office 365 | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2016-11-01"
+=======
+ms.date: 01/11/2016
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -17,12 +21,17 @@ ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Set up and configure Dynamics 365 for Outlook from Office 365
+<<<<<<< HEAD
 You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] together with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working within the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working offline. [Learn more about doing your Dynamics 365 work in Outlook](http://go.microsoft.com/fwlink/p/?LinkID=394774).  
+=======
+You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] together with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] access [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working within the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface. [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re working offline. [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md).  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
  If you have an Office 365 subscription, you can install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] directly from the **[!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)]** Home page, but before you install the add-in, review the following installation prerequisites and configuration instructions.  
   
 ## Step 1: Review installation prerequisites  
   
+<<<<<<< HEAD
 #### Logging on as a Local Administrator  
   
 -   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must be able to log on to your computer as a user with Local Administrator privileges.  
@@ -36,6 +45,21 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 -   [TechNet: Get information about hardware requirements](https://technet.microsoft.com/en-us/library/hh699680.aspx)  
   
 #### Installing updates  
+=======
+### Logging on as a Local Administrator  
+  
+-   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must be able to log on to your computer as a user with Local Administrator privileges.  
+  
+### Software requirements  
+  
+-   [Microsoft Dynamics 365 for Outlook software requirements](../admin-guide/software-requirements.md)
+  
+### Hardware and network requirements  
+  
+-   [Microsoft Dynamics 365 for Outlook hardware requirements](../admin-guide/hardware-requirements.md)
+  
+### Installing updates  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
 -   Install all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates, from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
@@ -57,7 +81,11 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 5.  When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. This will automatically start the Configuration Wizard and you’ll see the following dialog box:  
   
+<<<<<<< HEAD
      ![Add a Dyanmics Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dyanmics Dynamics 365 Organization dialog box")  
+=======
+     ![Add a Dynamics 365 Organization dialog box](../media/crm-outlook-add-organization.png "Add a Dynamics 365 Organization dialog box")  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
     > [!NOTE]
     >  If the Configuration Wizard doesn’t start automatically, in the Start screen, search for **Configuration Wizard** and run it.  
@@ -67,6 +95,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 > [!TIP]
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
   
+<<<<<<< HEAD
 <a name="BMKM_MUprivacy"></a>   
 ## Privacy notices  
  [!INCLUDE[cc_privacy_crm_outlook1](../../includes/cc-privacy-crm-outlook1.md)]  
@@ -76,3 +105,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ## See Also  
  [TechNet: Software compatibility](https://technet.microsoft.com/library/dn832152.aspx)   
  [Do your Dynamics 365 work in Outlook](http://go.microsoft.com/fwlink/p/?LinkID=394774)
+=======
+### See also  
+ [Dynamics 365 for Outlook support](../admin-guide/support.md)
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75

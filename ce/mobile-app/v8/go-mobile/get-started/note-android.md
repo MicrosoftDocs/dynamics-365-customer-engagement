@@ -27,5 +27,5 @@ Navigation on [!INCLUDE[tn_android](../../../../includes/tn-android.md)] tablets
   
  Depending on where you are in the app, the [!INCLUDE[tn_android](../../../../includes/tn-android.md)]**Back** button takes you to the previous form, cancels dialog boxes or error messages, closes the keyboard, or performs other actions depending on the context.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

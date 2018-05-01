@@ -1,7 +1,11 @@
 ---
 title: "Install Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
 ms.date: "2017-02-10"
+=======
+ms.date: 02/10/2017
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,12 +22,20 @@ manager: "brycho"
 # Install Dynamics 365 for Outlook
 To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)] on a user’s computer, you need to install the software, and then configure it. This topic describes how to set up and configure [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], and also how to enable multi-factor authentication (MFA) through OAuth. Using MFA can help make client authentication more secure, especially for mobile users.  
   
+<<<<<<< HEAD
  For information about installing [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] at a command prompt (silent installation), see [Install Microsoft Dynamics 365 for Outlook using a Command Prompt](install-microsoft-dynamics-365-for-outlook-using-a-command-prompt.md).  
+=======
+ For information about installing [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] at a command prompt (silent installation), see [Install Microsoft Dynamics 365 for Outlook using a Command Prompt](install-using-command-prompt.md).  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
  For information about installing [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] using System Center Configuration Manager (SCCM), see the download [Use SCCM to install Dynamics 365 for Outlook](http://download.microsoft.com/download/2/C/0/2C0AB67B-8B6F-4EF1-95C3-8DAEAD6E2FAE/Use_SCCM_to_install_Dynamics_365_for_Outlook.pdf).  
   
 > [!IMPORTANT]
+<<<<<<< HEAD
 >  -   You can’t install  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] on a computer running [!INCLUDE[pn_Exchange_Server_full](../../includes/pn-exchange-server-full.md)].  
+=======
+> -   You can’t install  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] on a computer running [!INCLUDE[pn_Exchange_Server_full](../../includes/pn-exchange-server-full.md)].  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 > -   Tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] are used together by the same user.  
   
 <a name="BKMK_Task1_Install_CRMForOutlook"></a>   
@@ -33,8 +45,12 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
 > [!TIP]
 >  If you encounter an issue installing, connecting, or enabling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization, use the [Microsoft Support and Recovery Assistant](http://aka.ms/crmocpub) to diagnose and fix the issue. You’ll need to sign in to the diagnostics tool with your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] credentials.  
   
+<<<<<<< HEAD
 1.  Meet the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] requirements specified in [Microsoft Dynamics 365 for Outlook hardware requirements](microsoft-dynamics-365-for-outlook-hardware-requirements.md) and [Dynamics 365 for Outlook support matrixes](dynamics-365-for-outlook-support.md).  
   
+=======
+1.  Meet the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] requirements specified in [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md) and [Dynamics 365 for Outlook support matrixes](support.md).  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
 2.  Log on to the computer as a local administrator.  
   
 3.  Make sure that the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates are installed, including all security updates. To verify, visit [Microsoft Update](http://go.microsoft.com/fwlink/p/?LinkId=165705).  
@@ -68,7 +84,11 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
   
 7.  Click **Install Now** or **Options**.  
   
+<<<<<<< HEAD
     -   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with offline capability, click **Options**, select **Offline Capability** on the **Customize Installation** page, and then click **Install Now**. Although offline capability lets you run [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] without a network or Internet connection, it does require the installation of additional technologies and places more demand on your computer’s processor and memory. For more information about the minimum recommended requirements, see [Microsoft Dynamics 365 for Outlook hardware requirements](microsoft-dynamics-365-for-outlook-hardware-requirements.md).  
+=======
+    -   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] with offline capability, click **Options**, select **Offline Capability** on the **Customize Installation** page, and then click **Install Now**. Although offline capability lets you run [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] without a network or Internet connection, it does require the installation of additional technologies and places more demand on your computer’s processor and memory. For more information about the minimum recommended requirements, see [Microsoft Dynamics 365 for Outlook hardware requirements](hardware-requirements.md).  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
   
     -   To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] without offline capability, click **Install Now**.  
   
@@ -130,7 +150,14 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
   
  For information on enabling an endpoint, see [Sign in to Office 365, Azure, or Intune fails after you change the federation service endpoint](https://support.microsoft.com/help/2712957/sign-in-to-office-365,-azure,-or-intune-fails-after-you-change-the-federation-service-endpoint).  
   
+<<<<<<< HEAD
 ## See Also  
  [Dynamics 365 for Outlook support](dynamics-365-for-outlook-support.md)   
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
  [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-microsoft-dynamics-365-for-outlook-by-using-group-policy.md)
+=======
+### See Also  
+ [Dynamics 365 for Outlook support](support.md)   
+ [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
+ [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-using-group-policy.md)
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
