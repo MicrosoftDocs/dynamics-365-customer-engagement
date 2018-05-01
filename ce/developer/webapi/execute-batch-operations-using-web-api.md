@@ -29,6 +29,9 @@ You can group multiple operations into a single HTTP request using a batch opera
  Remember that associated entities can be created in a single operation more easily than using a batch request. Batch requests are best used when performing operations on entities that aren’t associated with each other when all the operations must be performed in a single transactional operation.  
   
  Also, the responses returned are essentially text documents rather than objects that can easily be parsed into JSON. You’ll need to parse the text in the response or locate a helper library to access the data in the response.  
+ 
+> [!NOTE]
+>  Batch requests can contain up to 100 individual requests and cannot contain other batch requests.  
   
 <a name="bkmk_BatchRequests"></a>   
 ## Batch requests  

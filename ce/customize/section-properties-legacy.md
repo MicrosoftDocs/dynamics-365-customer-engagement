@@ -1,31 +1,30 @@
 ---
-title: Section properties for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
-description: Understand the Section properties for Main form in Dynamics 365 for Customer Engagement
+title: Section properties for Main forms in PowerApps | MicrosoftDocs
+description: Understand the section properties for a main form
 Keywords: Main form; Section properties; Dynamics 365
-author: anjgupta
+author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.author: anjgup
-manager: sakudes
-ms.date: 03/15/2018
+  - "powerapps"
+ms.author: matp
+manager: kvivek
+ms.date: 04/17/2018
 ms.service: crm-online
 ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 ---
 # Section properties
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-[This topic is under revision and is subject to change]
-
- A section in a Dyanmics 365 Customer Engagement form occupies the space available in a tab column. Sections have a label that can be displayed and a line may be shown below the label.  
+ A section in a form occupies the space available in a tab column. Sections have a label that can be displayed and a line may be shown below the label.  
   
  Sections can have up to 4 columns and includes options for displaying how labels for fields in the section are displayed.  
   
  Headers and footers are similar to sections but cannot be removed. If they don’t contain anything they will not be shown. 
 
-You can access **Section properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the sections to see Section properties. 
+You can access **Section properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then double-click inside one of the sections to see Section properties. 
 
 ![section-properties](media/section-properties.png)
   

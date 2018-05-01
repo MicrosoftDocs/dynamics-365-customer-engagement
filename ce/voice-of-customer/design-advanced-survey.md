@@ -2,7 +2,7 @@
 title: "Design an advanced survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to add advanced functionalities to the survey."
 keywords: "advanced survey design; interactive survey; response routing"
-ms.date: 11/13/2017
+ms.date: 04/23/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -118,8 +118,8 @@ The following question types can be used to capture response in the answer tag:
 - Single rating in columns
 
 The answer tag can be consumed in:
-- Question text of all question types
-- Option text of single and multiple responses questions
+- Question text of all question types.
+- Option text of single and multiple responses questions, except drop-down.
 
 The following example illustrates the use of answer tag.
 
