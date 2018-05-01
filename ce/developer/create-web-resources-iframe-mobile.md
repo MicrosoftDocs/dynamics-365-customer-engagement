@@ -79,6 +79,5 @@ When you add an IFrame or a web resource to a form or dashboard, you must select
 [WebResource entity messages and methods](webresource-entity-messages-methods.md)<br />
 [Sample: Pass multiple values to a  web resource through the data parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
 [Sample: Import files as web resources](sample-import-files-web-resources.md)<br />
-[Sample: Web resource utility](sample-web-resource-utility.md)<br />
-[Use an IFRAME and Web Resource controls on a Form](clientapi/use-iframe-web-resource-controls-on-form.md)  <br /> 
+[Sample: Web resource utility](sample-web-resource-utility.md)<br /> 
 [iFrame and web resource support in Dynamics 365 for tablets](../customize/iframe-web-resource-support-dynamics-365-phones-tablets.md)<br />
