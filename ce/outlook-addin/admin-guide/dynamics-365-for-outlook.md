@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 for Outlook | MicrosoftDocs"
+title: "Dynamics 365 for Outlook Administrator Guide | MicrosoftDocs"
 ms.custom: ""
 ms.date: 11/28/2016
 ms.reviewer: ""
@@ -15,7 +15,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Dynamics 365 for Outlook
+# Dynamics 365 for Outlook Administrator Guide
 
 <a name="BKMK_Outlooksync"></a> 
 
