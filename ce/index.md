@@ -34,6 +34,7 @@ These guides apply to every instance of [!INCLUDE [pn-dyn-365](includes/pn-dyn-3
 <td>
 <li>[Basics Guide ](basics/index.md)</li>
 <li>[App for Outlook](outlook-app/index.md)</li>
+<li>[Dynamics 365 for Outlook](outlook-addin/index.md)</li>
 <li>[Mobile app](mobile-app/index.md)</li>
 </td>
 </tr>

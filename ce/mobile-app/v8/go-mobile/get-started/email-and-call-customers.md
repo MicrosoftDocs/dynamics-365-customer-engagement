@@ -32,6 +32,6 @@ manager: "brycho"
   
  When you’re finished with your call, the app prompts you to enter details about the call. If you’re using a [!INCLUDE[pn_windows8](../../../../includes/pn-windows8.md)] or later tablet, you can enter details while you’re on the call, because [!INCLUDE[pn_skype](../../../../includes/pn-skype.md)] snaps to the screen next to the [!INCLUDE[pn_moca_short](../../../../includes/pn-moca-short.md)] app.  
   
-## See Also  
+### See also  
  [Pin your favorites in Dynamics 365 for phones and tablets](pin-favorites.md)   
  [Search and sort in Dynamics 365 for phones and tablets](search-sort.md)

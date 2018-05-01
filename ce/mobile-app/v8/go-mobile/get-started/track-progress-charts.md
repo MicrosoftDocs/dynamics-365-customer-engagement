@@ -48,5 +48,5 @@ manager: "brycho"
   
 2.  Select the chart you want to display.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

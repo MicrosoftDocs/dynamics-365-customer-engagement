@@ -23,5 +23,5 @@ Taking a cue from easy-to-use social media apps, the mobile app now lets you sta
   
  ![Device integration](../../../media/device-integration.PNG "Device integration")  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
