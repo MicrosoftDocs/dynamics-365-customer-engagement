@@ -1,7 +1,15 @@
 ---
 title: "Install Microsoft Dynamics 365 for Outlook using a command prompt | MicrosoftDocs"
 ms.custom: ""
+<<<<<<< HEAD
+<<<<<<< HEAD
+ms.date: "2017-03-06"
+=======
 ms.date: 03/06/2017
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+ms.date: 03/06/2017
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -25,7 +33,15 @@ Installing [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-mi
 ## Step 1: Install files  
   
 > [!NOTE]
+<<<<<<< HEAD
+<<<<<<< HEAD
+>  See [Install Dynamics 365 for Outlook](install-dynamics-365-for-outlook.md) for download instructions.  
+=======
 >  See [Install Dynamics 365 for Outlook](install.md) for download instructions.  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>  See [Install Dynamics 365 for Outlook](install.md) for download instructions.  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
  The following command displays the available options to run [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] at the command prompt:  
   
@@ -77,7 +93,15 @@ SetupClient /x /q
  After you install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must configure it. You can do this by running the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)][!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] at the command prompt. The [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] file is named **Microsoft.Crm.Application.Outlook.ConfigWizard.exe** and is located in the Client\ConfigWizard folder where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. By default, the folder is C:\Program Files\Microsoft Dynamics CRM.  
   
 > [!NOTE]
+<<<<<<< HEAD
+<<<<<<< HEAD
+>  The credentials of the user who will run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used to authenticate to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Therefore, to perform a silent configuration of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] under the user's context, such as by running a user-invoked batch file or as a one-time entry in a logon script. For more information, see [User credentials are required when you run the Configuration Wizard](install-microsoft-dynamics-365-for-outlook-using-a-command-prompt.md#BKMK_usercred_CW). To deploy [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] by using Microsoft Group Policy, see [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-microsoft-dynamics-365-for-outlook-by-using-group-policy.md).  
+=======
 >  The credentials of the user who will run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used to authenticate to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Therefore, to perform a silent configuration of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] under the user's context, such as by running a user-invoked batch file or as a one-time entry in a logon script. For more information, see [User credentials are required when you run the Configuration Wizard](install-using-command-prompt.md#BKMK_usercred_CW). To deploy [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] by using Microsoft Group Policy, see [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-using-group-policy.md).  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>  The credentials of the user who will run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] are used to authenticate to [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. Therefore, to perform a silent configuration of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] under the user's context, such as by running a user-invoked batch file or as a one-time entry in a logon script. For more information, see [User credentials are required when you run the Configuration Wizard](install-using-command-prompt.md#BKMK_usercred_CW). To deploy [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] by using Microsoft Group Policy, see [Deploy Microsoft Dynamics 365 for Outlook by using Group Policy](deploy-using-group-policy.md).  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 >   
 >  If a path to the configuration file isn’t specified, the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] looks for the default configuration file (**default_client_config.xml**) in the non-roaming profile folder (%localappdata%\Microsoft\MSCRM\\). If the file isn’t located in the non-roaming profile folder, the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] looks for the folder where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed. By default, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed in the C:\Program Files\Microsoft Dynamics CRM folder.  
 >   
@@ -94,7 +118,15 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
  The /**Q** quiet mode configuration parameter requires a configuration file in XML format. No dialog boxes or error messages will appear on the display screen. To capture error message information, include the log file parameter (/**L**) or verbose logging (/**LV**).  
   
 > [!IMPORTANT]
+<<<<<<< HEAD
+<<<<<<< HEAD
+>  Valid user credentials stored in the Windows Vault are required to run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] in quiet mode. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][User credentials are required when you run the Configuration Wizard](install-microsoft-dynamics-365-for-outlook-using-a-command-prompt.md#BKMK_usercred_CW)  
+=======
 >  Valid user credentials stored in the Windows Vault are required to run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] in quiet mode. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User credentials are required when you run the Configuration Wizard](install-using-command-prompt.md#BKMK_usercred_CW)  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+>  Valid user credentials stored in the Windows Vault are required to run the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] in quiet mode. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [User credentials are required when you run the Configuration Wizard](install-using-command-prompt.md#BKMK_usercred_CW)  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
  The `/i` [*drive*:] [[*path*] *configfilename.xml*]] command-line parameter provides [!INCLUDE[pn_Microsoft_Dynamics_CRM_for_Outlook_Setup](../../includes/pn-microsoft-dynamics-crm-for-outlook-setup.md)] with required information. It is the same information that each installation screen requires. The XML elements must be in English (US); special or extended characters can’t be used. An XML configuration file that has localized XML elements will not work correctly. An explanation of each XML element and a sample XML file follows:  
   
@@ -115,7 +147,15 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 |\<FederatedAuthentication>true/false\</FederatedAuthentication>|Specifies if federated ([!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)]) credentials are used for authentication in the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)]. If you specify `false`, you can use credentials such as user@contoso.onmicrosoft.com.|  
 |\<Organizations> \</Organizations>|This is the parent element for the following \<**Organization**> element.|  
 |\<Organization FriendlyName="*My Friendly Organization Name*" IsPrimary="true"/"false">OrganizationName\</Organization>|Specifies the name of the organization that the client will connect to.<br /><br /> **FriendlyName**. Specifies a different display name other than the organization name in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].<br /><br /> **IsPrimary**. Specifies the organization that will be configured as the synchronizing organization in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. **Note:**  *OrganizationName* is case-sensitive.|  
+<<<<<<< HEAD
+<<<<<<< HEAD
+|\<CEIPNotification>true/false\</CEIPNotification>|Specifies whether [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] will display the “I want to join the Customer Experience Improvement Program” notification banner. The default setting is `true` and the notification banner is displayed. If you specify `false`, the notification banner doesn’t appear in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Microsoft Customer Experience Improvement Program](http://go.microsoft.com/fwlink/p/?LinkId=199851)|  
+=======
 |\<CEIPNotification>true/false\</CEIPNotification>|Specifies whether [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] will display the “I want to join the Customer Experience Improvement Program” notification banner. The default setting is `true` and the notification banner is displayed. If you specify `false`, the notification banner doesn’t appear in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Customer Experience Improvement Program](http://go.microsoft.com/fwlink/p/?LinkId=199851)|  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+|\<CEIPNotification>true/false\</CEIPNotification>|Specifies whether [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] will display the “I want to join the Customer Experience Improvement Program” notification banner. The default setting is `true` and the notification banner is displayed. If you specify `false`, the notification banner doesn’t appear in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Microsoft Customer Experience Improvement Program](http://go.microsoft.com/fwlink/p/?LinkId=199851)|  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 <a name="BKMK_usercred_CW"></a>   
 ## User credentials are required when you run the Configuration Wizard  
@@ -146,7 +186,15 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
 > [!NOTE]
 >  The preceding example specifies two different organizations that the user has access to and configures [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to not display the “I want to join the Customer Experience Improvement Program” notification banner. The value in the `Organization` element can’t contain special characters or spaces. For [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-op-edition.md)], you can find the organization unique name by running the Get-CrmOrganization [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlet or go to **Settings** > **Customizations** > **Developer Resources** and under **Instance Reference Information** copy the **Unique Name**.  
   
+<<<<<<< HEAD
+<<<<<<< HEAD
+#### Configure Dynamics 365 for Outlook by using a script  
+=======
 ### Configure Dynamics 365 for Outlook by using a script  
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### Configure Dynamics 365 for Outlook by using a script  
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 1.  Write a script that automatically updates the configuration settings for users of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. You could use lines such as the following to perform the basic configuration actions, based on a new configuration file that is stored on the computer indicated as <`servername`>.  
   
@@ -178,6 +226,18 @@ Microsoft.Crm.Application.Outlook.ConfigWizard.exe /Q /i c:\config_client.xml /x
   
 2.  Run the script on each client computer in the organization whose server has changed. You can run the script in various ways, including through the **Profile** tab of the user properties dialog box in [!INCLUDE[pn_Active_Directory_Users_Computers](../../includes/pn-active-directory-users-computers.md)] (ADUC), or through Group Policy Objects (GPO).  
   
+<<<<<<< HEAD
+<<<<<<< HEAD
+## See Also  
+ [Install Dynamics 365 for Outlook](install-dynamics-365-for-outlook.md)   
+ [Set up Dynamics 365 for Outlook](set-up-dynamics-365-outlook.md)   
+=======
 ### See Also  
  [Install Dynamics 365 for Outlook](install.md)   
 
+>>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
+=======
+### See Also  
+ [Install Dynamics 365 for Outlook](install.md)   
+
+>>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
