@@ -112,7 +112,7 @@ manager: "brycho"
 ## CRM 2015 for Outlook  
  If you’re like many people, you use [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full.md)] as your communications, scheduling, and contact management hub for business. You can continue to use the familiar [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] interface and integrate [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] at the same time by using [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)]. [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)] can also provide access to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data while you’re offline. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Do your Dynamics 365 work in Outlook using Dynamics 365 for Outlook](dynamics-365-work-outlook.md)  
   
- ![Video button](../media/video--button.PNG "Video button") [Watch a video on setup, configuration, and upgrading (5:19)](http://go.microsoft.com/fwlink/p/?LinkId=522526)  
+ ![Video button](../media/video-button.png "Video button") [Watch a video on setup, configuration, and upgrading (5:19)](http://go.microsoft.com/fwlink/p/?LinkId=522526)  
   
 > [!IMPORTANT]
 > -   To install and use [!INCLUDE[pn_crm_2015_outlook_shortest](../../includes/pn-crm-2015-outlook-shortest.md)], your organization must be running [!INCLUDE[pn_crm_2015_server](../../includes/pn-crm-2015-server.md)].  
