@@ -1,7 +1,7 @@
 ---
 title: "Synchronize user information between Dynamics 365 Customer Engagement and Active Directory | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 05/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
