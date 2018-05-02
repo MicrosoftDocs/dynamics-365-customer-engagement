@@ -1,19 +1,17 @@
 ---
 title: "Connected Field Service (IoT) overview | MicrosoftDocs"
 ms.description "Connected Field Service 
-ms.custom: ""
-ms.date: 05/4/2018
-ms.reviewer: ""
-ms.service: "dynamics-365-customerservice"
-ms.technology: 
-  - "field-service"
-ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "shellyha"
+ - "Dynamics 365 (online)"
+ - "Dynamics 365 Version 9.x"
 ms.author: "shellyha"
 manager: "shellyha"
+ms.date: "05/04/2018"
+ms.topic: "article"
+ms.service: "dynamics-365-customerservice"
+ms.custom: 
+  - "dyn365-fieldservice"
+  - "dyn365-developer"
 ---
 # What is Connected Field Service (IoT)?
 
