@@ -49,13 +49,13 @@ To define when your service or support team is available for providing support t
   
          To set the work hours for the days, click **Set Work Hours**. For more information, see [Define the work hours for the schedule](#define-the-work-hours-for-the-schedule) in this topic.  
   
-        - If you uncheck the **Are the same each day** option, the new schedule is different for one or more days of the week. Select the days of the week that the customer support is available, and also specify the work hours for each day.  
+       - If you uncheck the **Are the same each day** option, the new schedule is different for one or more days of the week. Select the days of the week that the customer support is available, and also specify the work hours for each day.  
   
-        - **24 x 7 support**. The customer support is available 24 hours a day, and all days a week.  
+       - **24 x 7 support**. The customer support is available 24 hours a day, and all days a week.  
   
-       b.  To set **Work Days**, select the check box for each day that the customer support resources will be available and working.  
+      b.  To set **Work Days**, select the check box for each day that the customer support resources will be available and working.  
   
-       c.  For **Holiday Schedule**, select **Observe** to specify when your service organization will be closed.  If you selected **Observe**, select a holiday schedule from the lookup box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md).  
+      c.  For **Holiday Schedule**, select **Observe** to specify when your service organization will be closed.  If you selected **Observe**, select a holiday schedule from the lookup box. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md).  
   
 5.  Under **Select the time zone** section, in the **Time Zone** drop-down box, select the time zone in which your customer support resources will work.  
   

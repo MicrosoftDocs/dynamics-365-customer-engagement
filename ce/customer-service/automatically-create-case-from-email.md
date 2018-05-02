@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/30/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 6331648f-e0f5-4e67-9a18-08fdb22ba879
@@ -35,9 +35,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
-  
-3.  Click **Automatic Case Creation Rules**.  
+2. In the Customer Service Hub sitemap, go to **Service Management** > **Automatic Case Creation Rules**. 
   
 4.  To create a new case creation rule, click **New**.  
   
@@ -126,6 +124,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
  You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and on the command bar, click **Email to Case Settings**.  
   
 ### See also  
- [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
+
  [Create and manage queues](create-manage-queues.md)  
  
