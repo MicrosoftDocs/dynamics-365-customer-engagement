@@ -1,6 +1,6 @@
 ---
 title: "Connected Field Service (IoT) overview | MicrosoftDocs"
-ms.description "Connected Field Service 
+ms.description: "Provide pro-active field service with the Connected field service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and deliver predictive maintenance.   
 applies_to: 
  - "Dynamics 365 (online)"
  - "Dynamics 365 Version 9.x"
@@ -23,7 +23,7 @@ Do a 2-column table
 
 td tags with content in columns (2 equal columns
 
-> [!VIDEO <https://www.youtube.com/watch?time_continue=106&v=iMZpr5wVD_Q>]
+[!VIDEO <https://www.youtube.com/watch?time_continue=106&v=iMZpr5wVD_Q>]
 
 [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] ...  
 
