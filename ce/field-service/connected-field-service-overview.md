@@ -1,6 +1,6 @@
 ---
 title: "Connected Field Service (IoT) overview | MicrosoftDocs"
-ms.description: "Provide pro-active field service with the Connected field service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and deliver predictive maintenance.   
+ms.description: "Provide pro-active field service with the Connected field service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and deliver predictive maintenance."   
 applies_to: 
  - "Dynamics 365 (online)"
  - "Dynamics 365 Version 9.x"
