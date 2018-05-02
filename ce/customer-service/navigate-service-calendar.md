@@ -55,4 +55,4 @@ In the Service calendar, you can do the following tasks and activities:
  [Force an activity into a time slot](../customer-service/create-service-activity-without-checking-conflicts.md)   
  [Schedule a service activity](../customer-service/schedule-service-activity.md)   
  [Create or edit an appointment](../basics/create-edit-appointment.md)   
- [Overview of service and service scheduling](../customer-service/basics-service-service-scheduling.md)
+ [Overview of service and service scheduling](../field-service/basics-service-service-scheduling.md)
