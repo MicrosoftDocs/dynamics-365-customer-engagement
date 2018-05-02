@@ -47,7 +47,7 @@ manager: "sakudes"
 <a name="Deploy"></a>   
 ## Deploy a sample Unified Service Desk package using Package Deployer  
   
-1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=854761) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.  
+1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=872261) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.  
   
 2.  Run the downloaded file to extract the contents into a folder.  
   
