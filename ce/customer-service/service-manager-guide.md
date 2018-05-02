@@ -60,7 +60,7 @@ Use the following links to learn about Service Management tasks:
 
 [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
 
-Service Configuration Settings
+[Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
 
 ## Knowledge Base Management 
 

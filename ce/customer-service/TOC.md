@@ -21,7 +21,7 @@
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
 ### [Holiday schedule](set-up-holiday-schedule.md)
 ### [Customer Service schedule](create-customer-service-schedule-define-work-hours.md)
-### Service configuration Settings
+### [Service configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
 ### [Knowledge management setup](set-up-knowledge-management.md)
 ### Embedded Knowledge search
 #### [Search in Knowledge base](knowledge-base-search.md)
