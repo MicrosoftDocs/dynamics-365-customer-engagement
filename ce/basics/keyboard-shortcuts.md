@@ -1,16 +1,17 @@
 ---
 title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft Docs
 description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365
-keywords: Dynamics 365 Accessibility; Keyboard shortcuts; Keyboard navigation support
+keywords: 
 author: kathleenmcgrath
 applies_to: Dynamics 365 (online)
 ms.author: kmcgrath
 manager: renwe
 ms.date: 05/15/2018
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-cross-app
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
 ms.custom:
+ - dyn365-hub
  - dyn365-a11y
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
@@ -49,11 +50,11 @@ Keyboard shortcuts give you an alternate way to do common tasks, instead of usin
 |Move to the next option, option group, or field|Tab|
 |Move to the previous option, option group, or field| Shift+Tab |
 |Move between options in an open list, or between options in a group of options|Arrow keys|
-|Tab to the Command Bar| Ctrl+[ or Ctrl+]|
-|Tab to the first section on a form or the first tab on a grid|  Ctrl+Shift+1|
-|Tab to a form's associated grid navigation button|Ctrl+Shift+2|
-|Tab to the Navigation bar|	Ctrl+Shift+3 |
-|Tab to the Main menu button on the Navigation bar| Ctrl+Shift+8|
+|Go to the Command Bar| Ctrl+[ or Ctrl+]|
+|Go to the first section on a form or the first tab on a grid|  Ctrl+Shift+1|
+|Go to a form's associated grid navigation button|Ctrl+Shift+2|
+|Go to the Navigation bar|	Ctrl+Shift+3 |
+|Go to the Main menu button on the Navigation bar| Ctrl+Shift+8|
 
 ## Editable grids (views)
 If editable grids (views) have been enabled by your administrator, you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
@@ -79,6 +80,107 @@ If editable grids (views) have been enabled by your administrator, you can edit 
 |Sort by column when the focus is on the column header|Spacebar|
 |Move to Save button when the focus is on the column header (if any unsaved data)| Tab|
 |Move to Refresh button when the focus is on the column header| Tab|
+
+##Interactive dashboard shortcuts
+Interactive dashboards enable new functionality, such as filtering, sorting, quick actions. The following table lists the keyboard shortcuts:
+
+|To              |Select  |
+|---------|---------|
+|Activate a Dashboard element (simulate left-click)| Enter **Or** Space |
+|Move to the next element  | Tab | 
+|Move to the previous element  | Shift + Tab  | 
+|Move to the next item within a dashboard element  | Down arrow |
+|Move to the previous item within a dashboard element  | Up arrow | 
+|Close a menu | Escape |
+|Select a checkbox or radio button | Space |
+|Save | Ctrl + S **Or** Cmd + SS (Mac) | 
+|Save and close | Alt + S | 
+|Move to the first Quick Action of active stream | Ctrl + Alt + Q  | 
+|Move to the first command in the top-level command bar | Ctrl + Alt + A  |
+|Move to the first visual filter | Ctrl + Alt + V  |
+|Open the Date Range filter flyout and move to the first element | Ctrl + Alt + D  |
+
+##Date picker shortcuts
+
+|To              |Select  |
+|---------|---------|
+|Open the date picker flyout | Enter **Or** Space **Or** Down arrow |
+|Activate the option and close the flyout | Enter **Or** Space |
+|Move to next item | Down arrow |
+|Move to previous item | Up arrow |
+|Move to first item | Home |
+|Move to last item | End |
+|Close the date picker flyout | Escape |
+|Move to next element | Tab |
+|Move to previous element | Shift + Tab |
+|Select the calendar | Enter **Or** Space |
+|Activate a button | Enter **Or** Space
+
+##Global filter shortcuts
+|To              |Select  |
+|---------|---------|
+|Open a menu | Enter **Or** Space **Or** Down arrow |
+|Activate a button | Enter **Or** Space |
+|Move to next element | Tab |
+|Move to previous element | Shift + Tab |
+|Open a tree view control | Right arrow |
+|Close a tree view control | Left arrow |
+|Move to the next tree view node | Up arrow |
+|Move to the previous tree view node | Down arrow |
+|Move to the first tree view node | Home |
+|Move to the last tree view node | End |
+|Perform the default action for the tree view node | Enter |
+|Remove a filter | Delete |
+
+
+##Visual filter shortcuts
+|To              |Select  |
+|---------|---------|
+|Activate the carousel button and show the chart | Enter **Or** Space |
+|Move to the right carousel when focus is on left carousel | Tab |
+|Move to the left carousel when focus is on the right carousel | Shift + Tab |
+|Move to the next element when focus is on the right carousel | Tab | 
+|Move to to previous element when focus is on left carousel | Shift + Tab |
+
+##Tag chart shortcuts
+|To              |Select  |
+|---------|---------|
+|Activate a tag and filter the dashboard | Enter **Or** Space |
+|Move to the next tag | Left arrow |
+|Move to the previous tag | Right arrow |
+|Move to the first tag | Home |
+|Move to the last tag | End |
+|Move to the See All element if not already filtered | Tab |
+|Move from the See All element to tags | Shift-Tab |
+
+##Stream control shortcuts
+|To              |Select  |
+|---------|---------|
+|Move to next stream | Down arrow **Or** Right arrow|
+|Move to previous stream | Up arrow **Or** Left arrow  |
+|Move to next element | Tab |
+|Move to previous element | Shift + Tab |
+|Activate a button | Enter **Or** Space |
+|Activate the Sort by field button and open flyout | Enter **Or** Space **Or** Down arrow |
+|Move to next item item | Down arrow |
+|Move to previous item item | Up arrow |
+|Move to the first item | Home |
+|Move to the last item | End |
+|Close the menu | Escape |
+|Change the state of the checkbox | Space |
+
+##Tile control shortcuts
+|To              |Select  |
+|---------|---------|
+|Activate the Show Details button and open flyout | Enter **Or** Space |
+|Move to next item | Down arrow |
+|Move to previous item | Up arrow |
+|Move to first item | Home |
+|Move to last item | End|
+|Move to next element | Tab |
+|Move to previous element | Shift + Tab |
+
+
 
 ##Keyboard shortcuts for specific apps
 [Keyboard shortcuts for the Customer Service Hub](../customer-service/keyboard-navigation-support-customer-service-hub)
