@@ -1,15 +1,7 @@
 ---
 title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2017-01-13"
-=======
 ms.date: 01/13/2017
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/13/2017
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -141,15 +133,7 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 ## Disable the Dynamics 365 for Outlook notification bar on the Web application  
  By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 web application displays a **Get Dynamics 365 for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-#### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 web application  
-=======
 ### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 web application  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 web application  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
   
 1.  With a security role that has read and write permissions (for example, the System Administrator role), start the Microsoft Dynamics 365 web application.  
   
@@ -163,19 +147,6 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
   
 6.  Click **OK** to close System Settings.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-## See Also  
- [Install CRM for Outlook for Microsoft Dynamics CRM 2015 and Dynamics CRM Online](0e6157ee-a9fc-4da2-8ade-9199a405db05.md)   
- [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
- [Troubleshooting server-side synchronization](../Topic/Troubleshooting%20and%20monitoring%20server-side%20synchronization.md)
-=======
 ### See Also  
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
  [Troubleshooting and monitoring server-side synchronization](https://technet.microsoft.com/library/dn850386.aspx)
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### See Also  
- [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](http://go.microsoft.com/fwlink/p/?LinkID=717230)   
- [Troubleshooting and monitoring server-side synchronization](https://technet.microsoft.com/library/dn850386.aspx)
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58

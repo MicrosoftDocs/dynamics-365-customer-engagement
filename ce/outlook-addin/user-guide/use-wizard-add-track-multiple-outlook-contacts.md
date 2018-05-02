@@ -1,15 +1,7 @@
 ---
 title: "Use a wizard to add and track multiple Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-01"
-=======
 ms.date: 01/11/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/11/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -93,18 +85,6 @@ You can track your [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-fu
   
 10. Review the Summary page and view any errors, if applicable. Then choose **Close**.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-## See Also  
- [Track Outlook contacts in Dynamics 365 for Outlook](track-outlook-contacts.md)   
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
- [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)   
-=======
 ### See also  
  [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-### See also  
- [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)   
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
  [Frequently asked questions about synchronizing records between Microsoft Dynamics 365 and Microsoft Outlook](frequently-asked-questions-synchronizing-records.md)

@@ -1,15 +1,7 @@
 ---
 title: "Install Dynamics 365 for Outlook without an Internet connection | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-28"
-=======
 ms.date: 11/28/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 11/28/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -134,14 +126,4 @@ There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_sho
 <a name="BKMK_4RunSetup"></a>   
 ## Step 4: Run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Setup  
  Now that you have all the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installation files and prerequisites downloaded and saved in the correct folders, you can run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] Setup (SetupClient.exe) without an Internet connection.  
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-## See Also  
- [Advanced deployment options for Microsoft Dynamics 365 for Outlook](advanced-deployment-options-for-microsoft-dynamics-365-for-outlook.md)
-=======
-  
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-  
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58

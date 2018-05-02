@@ -1,15 +1,7 @@
 ---
 title: "System Settings dialog box - Synchronization tab | MicrosoftDocs"
 ms.custom: ""
-<<<<<<< HEAD
-<<<<<<< HEAD
-ms.date: "2016-11-01"
-=======
 ms.date: 01/11/2016
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
-ms.date: 01/11/2016
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -46,18 +38,6 @@ Use the settings on this page to determine how data is synchronized between [!IN
   
 3.  Choose the **System Settings** > **Synchronization** tab.  
   
-<<<<<<< HEAD
-<<<<<<< HEAD
-|Settings|Description|  
-|--------------|-----------------|  
-|**Synchronize [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] items with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]**||  
-|Manage **system filters** for your entire organization to determine the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] records that are synchronized to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] folders.|This setting provides access to the **User Filters** tab in the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]** dialog box. You may want to view this tab to see the default online synchronization filter settings for users in your organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)|  
-|Manage the **synchronized fields** of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] items including appointments, contacts, and tasks for your entire organization.|This setting provides access to the **Synchronization Fields** tab in the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]** dialog box. Use this tab to view how appointments, contacts, and tasks fields are mapped between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and to change the synchronization direction or restrict synchronization for contacts and tasks fields. For example, if you want the contents of the contacts Notes field to be private, you can keep that field from synchronizing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][TechNet: Control field synchronization between Dynamics 365 and Outlook or Exchange](https://technet.microsoft.com/library/dn832150.aspx)|  
-|**Manage your offline filters and take your information offline in Dynamics 365 for Outlook**||  
-|Manage system **offline filters** for your entire organization to determine what [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data users can take with them when they go offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].|This setting provides access to the **User Filters** tab in the **Go Offline Settings** dialog box. You may want to view this tab to see the default offline synchronization filter settings for users in your organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)|  
-=======
-=======
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 |Settings|Description| 
 |--------------|-----------------|  
 |**Synchronize [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] items with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]**||  
@@ -65,30 +45,12 @@ Use the settings on this page to determine how data is synchronized between [!IN
 |Manage the **synchronized fields** of [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)] items including appointments, contacts, and tasks for your entire organization.|This setting provides access to the **Synchronization Fields** tab in the **Synchronization Settings for [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]** dialog box. Use this tab to view how appointments, contacts, and tasks fields are mapped between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and to change the synchronization direction or restrict synchronization for contacts and tasks fields. For example, if you want the contents of the contacts Notes field to be private, you can keep that field from synchronizing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Control field synchronization with Outlook](../../admin/control-field-synchronization-outlook.md)|  
 |**Manage your offline filters and take your information offline in Dynamics 365 for Outlook**||  
 |Manage system **offline filters** for your entire organization to determine what [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data users can take with them when they go offline in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].|This setting provides access to the **User Filters** tab in the **Go Offline Settings** dialog box. You may want to view this tab to see the default offline synchronization filter settings for users in your organization. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)|  
-<<<<<<< HEAD
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 |**Configure general synchronization rules for your entire organization for appointments, contacts, and tasks**||  
 |**Appointments**||  
 |Synchronize appointment attachments with [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]|Attachments take up database space, so synchronization of appointment attachments is turned off by default. Choose the check box to turn on synchronization of attachments. **Important:**  Synchronization of appointment attachments is not supported for recurring appointments or service activities. <br /><br /> [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)|  
 |**Contacts**||  
 |Synchronize mailing address only in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contact<br /><br /> Synchronize all three addresses (Business, Home, Other) in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contact|By default, just one [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] mailing address field is synchronized between [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] and [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. This is sufficient for most organizations. If you want to synchronize all three Outlook mailing address fields (Business, Home, and Other fields) choose the **Synchronize all three addresses in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] contact** option. **Warning:**  Be cautious when enabling this option as it can cause data loss in some situations if you have existing data. This is due to the remapping of the attributes for existing tracked contacts. The best practice is to do in-house testing to understand how the re-mapping affects your environment and data. In most cases, you should have the full data in one side (normally in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]) and sync to the other side (normally [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] or [!INCLUDE[pn_Exchange](../../includes/pn-exchange.md)]).|  
 |**Tasks**||  
-<<<<<<< HEAD
-<<<<<<< HEAD
-|Synchronize tasks that are assigned in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|[!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] tasks are synchronized by default, but synchronization of assigned tasks is turned off by default. Most companies don’t require this feature because tasks would usually be assigned directly in Dynamics 365 by changing ownership in Dynamics 365.<br /><br /> You may want to enable this feature, however, if your company’s business processes involve creating and sending tasks in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] instead of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)|  
-  
-## See Also  
- [Choose the records to synchronize between Dynamics 365 and Outlook or Exchange](choose-records-synchronize-exchange.md)   
- [Choose records to work with offline in Dynamics 365 for Outlook](choose-records-work-offline.md)   
- [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)   
- [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   
- [TechNet: Control field synchronization between Dynamics 365 and Outlook or Exchange](https://technet.microsoft.com/library/dn832150.aspx)   
- [TechNet: Which fields can be synchronized between Dynamics 365 and Outlook?](https://technet.microsoft.com/library/dn832089.aspx)
-=======
-=======
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
 |Synchronize tasks that are assigned in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]|[!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] tasks are synchronized by default, but synchronization of assigned tasks is turned off by default. Most companies don’t require this feature because tasks would usually be assigned directly in Dynamics 365 by changing ownership in Dynamics 365.<br /><br /> You may want to enable this feature, however, if your company’s business processes involve creating and sending tasks in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] instead of [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Track Outlook tasks in Dynamics 365 for Outlook](track-outlook-tasks.md)|  
   
 ### See also  
@@ -97,7 +59,3 @@ Use the settings on this page to determine how data is synchronized between [!IN
  [Track Outlook appointments in Dynamics 365 for Outlook](track-outlook-appointments.md)   
  [Control field synchronization with Outlook](../../admin/control-field-synchronization-outlook.md)
  [Which fields can be synchronized between Dynamics 365 and Outlook?](../admin-guide/which-fields-synchronized.md) 
-<<<<<<< HEAD
->>>>>>> f8faf990a9715830d9203d1b7344a5e605dd4a75
-=======
->>>>>>> b8c8ae84da1c1d3e9ed11b8c976096ba907bfc58
