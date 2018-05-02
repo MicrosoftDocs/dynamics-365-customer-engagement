@@ -22,7 +22,7 @@ Do a 2-column table
 
 td tags with content in columns (2 equal columns
 
-[!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q?rel=0]
+> [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q?rel=0]
 
 [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] ...  
 
