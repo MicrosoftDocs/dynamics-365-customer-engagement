@@ -18,7 +18,7 @@ ms.assetid: 680117bf-42f8-4663-a4e2-8ef39fb6b14e
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, and products. By using the subject hierarchy,you can classify service cases to quickly provide service to your customer.
+[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] includes a subject organizational structure that lets you mark and categorize service cases, knowledge base articles, and products. By using the subject hierarchy, you can classify service cases to quickly provide service to your customer.
   
 ## Create or edit a subject  
   
