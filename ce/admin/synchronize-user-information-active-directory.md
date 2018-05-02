@@ -18,7 +18,7 @@ manager: "brycho"
 ---
 # Synchronize user information with Active Directory
 
-[!INCLUDE[pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
+Applies to [!INCLUDE[pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports two methods for authenticating users:  
   
