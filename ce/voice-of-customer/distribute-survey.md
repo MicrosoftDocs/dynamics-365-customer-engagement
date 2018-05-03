@@ -2,7 +2,7 @@
 title: "Distributing a survey using Voice of the Customer | MicrosoftDocs"
 description: "After creating a survey, learn how to distribute it to your respondents."
 keywords: "send survey; distribute survey; distribute voice of the customer survey; track survey invite"
-ms.date: 01/26/2018
+ms.date: 05/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -15,7 +15,7 @@ manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
 ---
-<!--Note to author: Update ms.date to new publication date.-->
+
 # Distribute a survey
 
 After your survey is ready, you can distribute the survey and invite respondents to take part in it. You can distribute surveys in one of two ways:
