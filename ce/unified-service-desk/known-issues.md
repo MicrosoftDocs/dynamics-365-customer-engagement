@@ -29,7 +29,7 @@ Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-d
 
 **Error for Enable Enhanced Protected mode in Windows 7 operating system**
 
--	If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
+If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
 
 ## RunScript
 
