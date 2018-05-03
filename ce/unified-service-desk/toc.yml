@@ -115,9 +115,6 @@
       href: admin/export-unified-service-desk-configuration-data.md
   - name: Performance enhancement for CRM entity page loads
     href: admin/performance-enhancement-CRM-entity-page-loads.md
-    items:
-    - name: Known issues of performance enhancement for CRM entity page loads
-      href: admin/known-issues-performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
 - name: Analyze best practices in Unified Service Desk
@@ -137,9 +134,7 @@
     - name: Internet Explorer settings
       href: admin/internet-explorer-settings-bpa.md
     - name: Unified Service Desk configurations
-      href: admin/unified-service-desk-configurations-bpa.md
-  - name: Known issues of Best Practices Analyzer
-    href: admin/known-issues-best-practices-analyzer.md   
+      href: admin/unified-service-desk-configurations-bpa.md   
 - name: Configure your agent application using Unified Service Desk
   href: configure-agent-application-unified-service-desk.md
   items:
@@ -489,3 +484,5 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
+- name: Known issues in Unified Service Desk
+  href: admin/known-issues.md
