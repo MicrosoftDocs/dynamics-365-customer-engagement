@@ -31,67 +31,36 @@ Here are the 3 things you need to get started:
 
 - **Dynamics 365 for Field Service with system administrator credentials** 
 
- + You'll need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it.  You'll build an IoT app within that Field Service tenant.  
+need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it. You'll build an IoT app within that Field Service tenant.  
 
- + New to Field Service and need a tenant? [No worries. Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
+New to Field Service and need a tenant? No worries. [Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
 )
 
 - **Azure subscription with admin credentials**     
 
- + The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
+ ^ The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
   
- + [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
+ ^ [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
   
- + [See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)
+ ^ [See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)
  
- + New to IoT and need an Azure subscription? [We've got you covered. Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
+^ New to IoT and need an Azure subscription? [We've got you covered. Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
- + [Check out these Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)
-
+^ [Check out these Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)
+ 
 - **Dynamics 365 Connected Field Service add-on**  
 
- + Get started quickly with sample data. The free Connected Field Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 for Field Service. The demo data enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
+^ Get started quickly with sample data. The free Connected Field Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 for Field Service. The demo data enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
  
- + Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
+ ^ Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
    
+## Watch a video
 
 > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q]
 
-[!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] ...  
-
-### EXAMPLE 1 Video on right
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Watch a video to see how one company moved from reactive to predictive and proactive field service.| > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q]  |
+[!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)]  
 
 
-### EXAMPLE 2 Video on left
-
-| > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q] | Watch a video to see how one company moved from reactive to predictive and proactive field service.|
-
-### EXAMPLE 3 Video just plain
-
-> [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q] 
- Watch a video to see how one company moved from reactive to predictive and proactive field service.
-
-
-TEST TEST TEST TEST
-
-![[alt text]](<folderPath>)
- 
-Link to external site
- [Microsoft](https://www.microsoft.com)
- 
-Next step button
- > [!div class="nextstepaction"]
-> [button text](link to topic)
-
-Alt text example:
-![alt text for image](../images/Introduction.png)
-
-
-  
 
 
 
