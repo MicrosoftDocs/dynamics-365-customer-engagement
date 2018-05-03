@@ -56,15 +56,15 @@ Set **TabShutdownDelay** value to **0**:
 3.  Right-click **TabShutdownDelay**, and then select **Modify**.<br>
        > [!NOTE]
        > If the registry key isn't present, create it:<br>
-            1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
-            2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
+        1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
+        2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
 4. In the **Value data** field, type **0**.
 5. In the **Base** group box, select **Decimal**.
 6. Select **OK**.
 
 ## Enable Enhanced Protected Mode
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Enhanced Protected Mode by checking for the **Isolation** registry key and displays an error message when the key is disabled (value set to **PMIL**).
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Enhanced Protected Mode by checking for the **Isolation** registry key and displays an error message when the key is enabled (value set to **PMEM**).
 
 Enable Enhanced Protected Mode is a security feature. When this feature is enabled, add-ons such as toolbars and extensions are loaded only if they're compatible with Enhanced Protected Mode.
 
@@ -85,7 +85,7 @@ To disable **Enable Enhanced Protected Mode** using the Registry Editor:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
         2.  Type **Isolation** as the file name, and then select **Modify**.
-4.  In the **Value data** field, type **PMEM**. 
+4.  In the **Value data** field, type **PMIL**. 
 5.  Select **OK**.
 
 To disable the option using Internet options:

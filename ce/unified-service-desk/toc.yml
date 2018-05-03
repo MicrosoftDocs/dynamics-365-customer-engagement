@@ -138,6 +138,8 @@
       href: admin/internet-explorer-settings-bpa.md
     - name: Unified Service Desk configurations
       href: admin/unified-service-desk-configurations-bpa.md
+  - name: Known issues of Best Practices Analyzer
+    href: admin/known-issues-best-practices-analyzer.md   
 - name: Configure your agent application using Unified Service Desk
   href: configure-agent-application-unified-service-desk.md
   items:
