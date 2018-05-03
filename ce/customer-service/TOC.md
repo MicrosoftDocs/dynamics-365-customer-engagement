@@ -28,9 +28,7 @@
 #### [Find Knowledge articles within records ](find-knowledge-articles-within-record-dynamics-365.md)
 ### Categories
 ### [Entitlement Templates](set-up-entitlements-templates.md)
-#### [Create templates for email](../admin/create-templates-email.md)
-#### [Create templates for articles](../admin/create-templates-articles.md)
-#### Create templates for contracts
+
 
 
 

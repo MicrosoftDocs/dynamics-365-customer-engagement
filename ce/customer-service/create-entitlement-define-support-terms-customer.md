@@ -1,6 +1,6 @@
 ---
-title: Create an entitlement to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to create an entitlement to define the support terms for a customer in Dynamics 365 for Customer Service
+title: Create entitlements to define the support terms for a customer (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to create entitlements to define the support terms for a customer in Dynamics 365 for Customer Service
 keywords: Create an entitlement; Dynamics 365; Customer Service
 author: anjgupta
 applies_to: 
@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/15/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
@@ -20,9 +20,6 @@ ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
 
 Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them. accordingly  
   
-> [!NOTE]
-> This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. 
-  
 ## Create an entitlement  
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
@@ -33,19 +30,18 @@ Define what kind of support your customers are eligible for by creating entitlem
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+2.  In the Customer Service Hub sitemap, go to **Service Management** > **Entitlements**.
+    
+    - The **All Entitlements** view is displayed. You can switch between multiple views using the drop-down. 
+    - Select **Show Chart** in the command bar to see the chart view. <br>
   
-3. [!INCLUDE[proc_click_or_tap_entitlements](../includes/proc-click-or-tap-entitlements.md)]  
+3. To create a new entitlement from scratch, select **New** > **Blank Entitlement**.   
+   
+   To create a new entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, click the entitlement template, and click **Select**. For more information about entitlement templates, see [Set up entitlements quickly with templates](set-up-entitlements-templates.md).
   
-4.  To create a new entitlement from a template, click **+ New** > **From Template**. In the **Select Template** dialog box, click the entitlement template, and click **Select**.  
-  
-     To create a new entitlement from scratch, click **+ New** > **Blank Entitlement**.  
-  
-     -OR-  
-  
-     To edit an entitlement, in the list of records, click the entitlement, and then on the command bar, click **Edit**.  
-  
-5. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
+4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]
+
+    Under the **Information** section, specify the details for the entitlement:
   
     - **Name**. Give the entitlement a meaningful name.  
   
@@ -57,9 +53,16 @@ Define what kind of support your customers are eligible for by creating entitlem
   
     - **Restrict based on entitlement terms**. To make sure no cases are created when the entitlement term is over, click **Yes**. When you choose **Yes**, a customer service agent won’t be able to create a case when **Remaining Terms** is fewer than zero OR when the term remaining for a channel is less than zero.  
   
-    - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement.  
+    - **SLA**. Choose a service level agreement (SLA) record to associate the service levels or key performance indicators for the support you’re providing with this entitlement. 
+ 
+    - **Owner**. Provide the owner information. You can also use lookup to search for owner.
+
+    - **Description**. Provide a description for the entitlement.
+
+    - **Is Default**. Select the box if you want to make this entitlement as the default entitlement.
+
   
-     Under **Entitlement Terms**, specify the term details for the entitlement:  
+    Under **Entitlement Terms** section, specify the term details for the entitlement:  
   
     - **Allocation Type**. Choose whether the entitlement is for number of hours or number of cases.  
   
@@ -81,7 +84,7 @@ Define what kind of support your customers are eligible for by creating entitlem
   
     - **Total Term**. Specify the total amount of support the customer is entitled for with respect to the allocation type. For example, if the allocation type is number of cases and you specify 100 in **Total Term**, the customer is entitled for support up to 100 cases.  
   
-    -   The **Remaining Term** shows the total number of hours or cases remaining for the customer’s entitlement. The value decrements every time a case is created or resolved (depending on what you select in **Decrease Remaining On**) against the entitlement.  
+    -  **Remaining Terms** shows the total number of hours or cases remaining for the customer’s entitlement. The value decrements every time a case is created or resolved (depending on what you select in **Decrease Remaining On**) against the entitlement.  
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
   
@@ -144,14 +147,13 @@ Define what kind of support your customers are eligible for by creating entitlem
   
 2.  In the **Confirm set default** dialog box, click **OK**.  
   
- Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the “Automatically apply entitlement” section in step 4 here, [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md).  
+ Now the default entitlement will automatically be applied when a case is created or when a case is updated depending on what you selected for default entitlements in the system settings area. For more information, see the **Automatically apply entitlement** section in  [System Settings dialog box - Service tab](../admin/system-settings-dialog-box-service-tab.md).  
   
 ## Associate entitlements to cases  
  In a case record, in the **Entitlement** field, click the **Lookup** button, and select an entitlement. The inline lookup shows only the active entitlement for the customer of the case.  
   
- The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]:
-  - [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)  
-  - [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)  
+ The Entitlements section in the case record lists all the active entitlements for the customer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]: [Create a case (Customer Service Hub)](customer-service-hub-user-guide-case-sla.md)
+
   
 ## Cancel an entitlement  
  If the entitlement is no longer valid, you can cancel it. To cancel an active or waiting entitlement, open the entitlement, and on the command bar, click **Cancel**.  
@@ -164,7 +166,9 @@ Define what kind of support your customers are eligible for by creating entitlem
  The start date of this new entitlement is set to the current date and the end date is set to the current date plus the number of days between the end date and start date. The data in other fields is copied from the old entitlement.  
   
 ### See also  
- [Define service level agreements](../customer-service/define-service-level-agreements.md)   <br>
+
  [Set up entitlements quickly with templates](set-up-entitlements-templates.md) <br>
- [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
- [Create and manage a case (Customer Service)](../customer-service/user-guide-customer-service.md)
+
+ [Define service level agreements](../customer-service/define-service-level-agreements.md)   <br>
+
+

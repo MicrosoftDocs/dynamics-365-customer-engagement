@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/15/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: dadea8f7-c931-4cdc-8815-32f8c0f89b51
@@ -19,9 +19,7 @@ ms.assetid: dadea8f7-c931-4cdc-8815-32f8c0f89b51
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Quickly create other entitlements prefilled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. For example, create a template for a standard entitlement, and then apply this template for every standard customer in your organization.  
-  
-> [!NOTE]
-> This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)].
+
   
 ## Create an entitlement template  
   
@@ -33,11 +31,12 @@ Quickly create other entitlements prefilled with the basic information like the 
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
+2. In the Customer Service Hub sitemap, go to **Service Management** >   **Entitlement Templates**.  
+   
+    - The **All Entitlement Templates** view is displayed. You can switch between multiple views using the drop-down. 
+    - Select **Show Chart** in the command bar to see the chart view. <br>
   
-3.  Choose **Entitlement Templates**.  
-  
-4.  To create a new entitlement template, choose **+ New**.  
+4.  To create a new entitlement template, select **New**.  
   
      -OR-  
   
@@ -46,6 +45,8 @@ Quickly create other entitlements prefilled with the basic information like the 
 5.  Type or modify information in the text boxes.  
   
      Hovertips provide hints about what to enter.  
+
+    In the **Information** section:
   
     - **Entitlement Template Name**  
   
@@ -57,7 +58,7 @@ Quickly create other entitlements prefilled with the basic information like the 
   
     - **SLA**. Select an SLA record to associate the service levels or key performance indicators for the support you are providing with this entitlement.  
   
-     Under **Entitlement Terms**, specify the term details for the entitlement.  
+     Under **Entitlement Terms**, specify the term details for the entitlement: 
   
     - **Allocation Type**. Select whether the entitlement is for number of hours or number of cases.  
   
@@ -67,7 +68,7 @@ Quickly create other entitlements prefilled with the basic information like the 
   
 6. [!INCLUDE[proc_click_or_tap_save](../includes/proc-click-or-tap-save.md)]  
   
-## Add entitlement channels  
+### Add entitlement channels  
  Use the **Entitlement Channels** section to define the channels your customers are entitled to, and track the customer support term for each channel separately. For example, to use phone and email as support channels, and restrict them to 80 and 20 hours respectively, create an entitlement channel for each of them.  
   
 > [!NOTE]
@@ -79,15 +80,16 @@ Quickly create other entitlements prefilled with the basic information like the 
   
      The remaining term is auto-calculated and shows the total number of hours or cases remaining for the customer’s entitlement.  
   
-## Associate a product with the entitlement template  
+### Associate a product with the entitlement template  
  If you want the entitlement template to be applicable to specific products for an individual customer, associate a product to the template.  
   
 1.  While in the template record, in the **Products** section, choose **+**.  
-  
 2.  In the **search** box, type the first few letters of the name of the product that you want to associate with the template.  
   
      If a product isn’t available, choose **New** to create a new product record.  
+
+> [!NOTE]
+> You can also choose to open the template form in the **Form Editor** in case you want to add additional sections to the form.
   
 ### See also  
- [Define service level agreements](define-service-level-agreements.md)   
  [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
