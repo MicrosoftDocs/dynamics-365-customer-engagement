@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 (on-premises)"
   - "Dynamics 365 Version 9.x"
 author: "jimholtz"
 ms.assetid: 137b4aa7-2c90-4584-a2bd-38c812788121
 caps.latest.revision: 23
-ms.author: "rdubois"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Synchronize user information with Active Directory
