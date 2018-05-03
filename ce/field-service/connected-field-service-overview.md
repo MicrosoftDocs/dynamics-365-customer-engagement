@@ -48,7 +48,7 @@ Here are the 3 things you need to get started building your own IoT solution:
  
     Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
    
-### Watch a 2-minute video
+## Watch a 2-minute video
 
 > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q]
 
