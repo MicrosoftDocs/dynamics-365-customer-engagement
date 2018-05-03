@@ -57,7 +57,7 @@ You can create a theme for your survey to match your company's style. Themes def
 
 5. Enter the name of the theme.
 
-6. Adjust the theme color and font properties from the **Properties** pane on the right-hand side of the screen.
+6. Adjust the theme color and font properties from the **Properties** pane on the right side of the screen.
 
     ![Select element color in a theme](media/survey-theme-color.png "Select element color in a theme")
 
@@ -182,7 +182,7 @@ You can add more pages as required by your survey.
 
 5. To add a new page, select **Add** from the page control toolbar at the bottom of the screen.
 
-6. To edit a page, select the page from the page control toolbar at the bottom of the screen and modify the properties in the **Properties** pane on the right-hand side of the screen.
+6. To edit a page, select the page from the page control toolbar at the bottom of the screen and modify the properties in the **Properties** pane on the right side of the screen.
 
 7. To delete a page, select **Delete** beside the page name on the page control toolbar.
 
@@ -290,9 +290,9 @@ You can import a section (along with its questions) from another survey into you
 
 7. From the **Automatically link questions** list, choose whether to link the questions.
 
-8. Click **Import** .
+8. Click **Import**.
 
-9. Select **Save**. The section is imported, and - **Imported** is appended to the section name.
+9. Select **Save**. The section is imported, and **- Imported** is appended to the section name.
 
 ### Share questions between surveys by using linked questions
 

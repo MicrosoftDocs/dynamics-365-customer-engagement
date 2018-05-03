@@ -18,7 +18,7 @@ topic-status: Drafting
 
 # Design an advanced survey
 
-This section provides information about advanced features for designing surveys, for example, response routing, scoring, piping, and so on.
+This section provides information about advanced features for designing surveys—for example, response routing, scoring, piping, and so on.
 
 ## Design interactive surveys by using response routing
 
@@ -89,7 +89,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 5. Select **Add New Response Routing**.
 
-6.	Under **General**, enter a name for the response routing rule, and then click **Save** so you can continue editing your response routing.
+6.	Under **General**, enter a name for the response routing rule, and then select **Save** so you can continue editing your response routing.
 
 7.	Under **Conditions**, select **Add New Response Condition**.
 
@@ -106,7 +106,7 @@ For example, for the question **How likely is it that you would recommend us to 
 
 11.	Navigate to the response routing rule you created.
 
-12.	Under **Actions**, select **Add Existing Response Action**. A pane on the right-hand side of the screen appears.
+12.	Under **Actions**, select **Add Existing Response Action**. A pane on the right side of the screen appears.
 
 13.	Select **New**.
 
@@ -117,15 +117,15 @@ For example, for the question **How likely is it that you would recommend us to 
 
 15.	Navigate to the response routing rule you created.
 
-16.	Under **Actions**, select **Add Existing Response Action**. A pane on the right-hand side of the screen appears.
+16.	Under **Actions**, select **Add Existing Response Action**. A pane on the right side of the screen appears.
 
 17.	Browse to and select the action you created.
 
 18.	Select **Add**.
 
-19.	In the **Otherwise** section, create an action by following the steps you took to add a response action. This action is triggered when the above-mentioned response action does not meet the specified response condition.
+19.	In the **Otherwise** section, create an action by following the steps you took to add a response action. This action is triggered when the previously mentioned response action does not meet the specified response condition.
 
-    For example, you added an Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
+    For example, you added a Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
 
 ### Client-side routing
 
@@ -288,7 +288,7 @@ You can configure your survey to create a lead automatically from a survey respo
 
 7. Select the question you want to configure to create the lead by selecting a lead attribute from the **Map response to** list.
 
-    ![Response mapping to create lead](media/lead-response-mapping-uci.png "Response mapping to create a lead")
+    ![Response mapping to create a lead](media/lead-response-mapping-uci.png "Response mapping to create a lead")
 
 8. Save the changes.
 
@@ -331,7 +331,7 @@ You can configure your survey to automatically send an email response to the cus
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to send automatic response.
+3.  Select the name of the survey for which you want to send an automatic response.
 
 4.  Under **Invitations and Actions**, select **Yes** for the **Automatically Send Email Response** field. The **Email** field is displayed.
 
@@ -345,7 +345,7 @@ You can configure your survey to automatically send an email response to the cus
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
-3.  Select the name of the survey for which you want to send automatic response.
+3.  Select the name of the survey for which you want to send an automatic response.
 
 4.  Under **Invitations and Actions**, select **Yes** for the **Automatically Send Email Response** field. The **Email Template** field is displayed.
 
