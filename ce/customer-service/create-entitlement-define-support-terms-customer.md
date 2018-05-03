@@ -41,7 +41,7 @@ Define what kind of support your customers are eligible for by creating entitlem
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]
 
-    Under the **Information** section, specify the details for the entitlement:
+   Under the **Information** section, specify the details for the entitlement:
   
     - **Name**. Give the entitlement a meaningful name.  
   
@@ -60,9 +60,8 @@ Define what kind of support your customers are eligible for by creating entitlem
     - **Description**. Provide a description for the entitlement.
 
     - **Is Default**. Select the box if you want to make this entitlement as the default entitlement.
-
   
-    Under **Entitlement Terms** section, specify the term details for the entitlement:  
+   Under **Entitlement Terms** section, specify the term details for the entitlement:  
   
     - **Allocation Type**. Choose whether the entitlement is for number of hours or number of cases.  
   
