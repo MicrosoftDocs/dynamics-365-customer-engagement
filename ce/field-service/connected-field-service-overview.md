@@ -31,16 +31,16 @@ Here are the 3 things you need to get started:
 
 - **Dynamics 365 for Field Service with system administrator credentials** 
 
-need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it. You'll build an IoT app within that Field Service tenant.  
+     You'll need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it. You'll build an IoT app      within that Field Service tenant.  
 
-New to Field Service and need a tenant? No worries. [Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
+     New to Field Service and need a tenant? No worries. [Sign up for a free trial for development purposes.]             (https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
 )
 
 - **Azure subscription with admin credentials**     
 
- ^ The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
+    The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
   
- ^ [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
+    [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
   
  ^ [See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)
  
