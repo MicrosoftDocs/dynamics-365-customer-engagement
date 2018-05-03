@@ -39,28 +39,24 @@ Here are the 3 things you need:
 - **Azure subscription with admin credentials**     
 
     The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
-  
-    [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
-  
-    [See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)
- 
+      
     New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
-    [Check out these Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)
- 
-- **Dynamics 365 Connected Field Service add-on**  
+ - **Dynamics 365 Connected Field Service add-on**  
 
     The free Connected Field Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 for Field Service. The add-on comes with demo data that enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
  
     Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
    
-## Watch a video
+## Watch a 2-minute video
 
 > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q]
 
+## Documentation resources
 
-
-
+[Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
+[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)
+[Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)
 
 
 
