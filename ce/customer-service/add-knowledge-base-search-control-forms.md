@@ -38,7 +38,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
 ## Prerequisites  
  Before you add the Knowledge Base Search control, make sure to:  
   
--   Set up knowledge management in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management](set-up-knowledge-management.md)
+-   Set up knowledge management in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
   
 -   Select the entity you want to enable knowledge management on while setting up knowledge management.  
 

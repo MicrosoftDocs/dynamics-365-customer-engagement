@@ -21,7 +21,6 @@
 ### [Holiday Schedule](set-up-holiday-schedule.md)
 ### [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
 ### [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
-### [Knowledge management setup](set-up-knowledge-management.md)
 ### [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Search in Knowledge base](knowledge-base-search.md)
 #### [Find Knowledge articles within records ](find-knowledge-articles-within-record-dynamics-365.md)
