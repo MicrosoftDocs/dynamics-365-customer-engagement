@@ -2,7 +2,7 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: "analyze survey responses; survey dashboard"
-ms.date: 04/30/2018
+ms.date: 05/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:

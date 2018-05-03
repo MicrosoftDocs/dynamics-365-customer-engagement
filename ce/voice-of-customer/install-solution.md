@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
-ms.date: 04/30/2018
+ms.date: 05/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
