@@ -1,6 +1,6 @@
 ---
 title: "openConfirmDialog (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 01/05/2018
+ms.date: 05/02/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
