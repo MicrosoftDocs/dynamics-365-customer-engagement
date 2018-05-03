@@ -2,7 +2,7 @@
 title: "Plan a survey to be created by using Voice of the Customer | MicrosoftDocs"
 description: "Plan to create a survey using Voice of the Customer."
 keywords: "plan a survey; survey best practices; survey question types"
-ms.date: 11/13/2017
+ms.date: 05/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -15,7 +15,7 @@ manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
 ---
-<!--Note to author: Update date to new publication date.-->
+
 # Plan a survey
 
 It's important to have a plan for configuring your Voice of the Customer surveys. Here are a few things to think about to help you design the right questions for your survey:
