@@ -1,6 +1,6 @@
 ---
 title: "Connected Field Service (IoT) overview | MicrosoftDocs"
-ms.description: "Provide pro-active field service with the Connected field service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and deliver predictive maintenance."   
+ms.description: "Provide pro-active field service with the Connected field service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance."   
 applies_to: 
  - "Dynamics 365 (online)"
  - "Dynamics 365 Version 9.x"
@@ -17,7 +17,7 @@ ms.custom:
 This article provides an overview how to get started integrating IoT data with Dynamics 365 for Field Service to build your own Connected Field Service solution.
 
 ## What is Connected Field Service?
-Connected Field Service harnesses data from an IoT platform into Dynamics 365 for Field Service so that you can proactively detect, troubleshoot, and resolve issues remotely, dispatching a technician only when necessary. This enables you to shift from costly scheduled maintenance plans to just-in-time predictive maintenance.   
+The Connected Field Service solution harnesses data from an IoT platform into the Dynamics 365 for Field Service app to help organizations proactively detect, troubleshoot, and resolve issues remotely, dispatching a technician only when necessary. This enables you to shift from costly scheduled maintenance plans to just-in-time predictive maintenance.   
 
 Connected Field Service helps you:  
 
