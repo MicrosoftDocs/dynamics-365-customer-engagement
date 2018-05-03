@@ -30,16 +30,24 @@ Connected Field Service helps you:
 Getting started requires three things:  
 - Dynamics 365 for Field Service with system administrator credentials 
 
-You'll need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it.  You'll build an IoT app within that Field Service tenant.  
+  You'll need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it.  You'll build an IoT app within that Field Service tenant.  
 
 New to Field Service and need a tenant? [No worries. Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
 )
 
+- Azure subscription with admin credentials     
 
-> Azure Subscription with Admin Credentials      
-Why? The Azure IoT services you will deploy have to be associated with an Azure subscription. Learn more about Azure IoT here.  For more on the Azure IoT resources you will deploy through the Connected Field Service Add-in, see the solution architecture here.  
+  The Azure IoT services you'll deploy must be associated with an Azure subscription. 
+  
+  [Learn more about Azure IoT.](https://azure.microsoft.com/product-categories/iot/)
+  
+  [See the solution architecture to learn about the Azure IoT resources you'll deploy through the Connected Field Service add-in.](https://msdn.microsoft.com/library/mt744253.aspx)
  
-New to IoT? Start an Azure Free Trial and get started using Azure IoT.  
+New to IoT and need an Azure subscription? [We've got you covered. Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
+
+[Check out these Azure documentation resources.]https://docs.microsoft.com/azure/iot-hub/
+
+KEEP GOING FROM HERE
  
 > Dynamics Connected Field Service Add-In  
 Why? Get started quickly with sample data. This free add-in automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 for Field Service. This enables you to quickly get started seeing the capabilities IoT data brings to Field Service, including: command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
