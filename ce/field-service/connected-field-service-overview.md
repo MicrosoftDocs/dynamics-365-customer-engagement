@@ -61,7 +61,7 @@ Where to Find it: Connected Field Service Add-on
 
 ### EXAMPLE 3 Video just plain
 
-> [!VIDEO www.youtube.com/embed/iMZpr5wVD_Q] 
+> [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q] 
  Watch a video to see how one company moved from reactive to predictive and proactive field service.
 
 
