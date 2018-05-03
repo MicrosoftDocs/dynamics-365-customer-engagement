@@ -1,3 +1,4 @@
+
 ---
 title: "Connected Field Service (IoT) overview | MicrosoftDocs"
 ms.description: "Provide pro-active field service with the Connected Field Service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance. Extend or customize the Connected Field Service solution to meet your service organization's business needs."   
@@ -12,9 +13,9 @@ ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-fieldservice
 ---
-# Build your own Connected Field Service (IoT) solution
+# Quickstart: Build your own Connected Field Service (IoT) solution
 
-This article provides an overview how to get started integrating IoT data with Dynamics 365 for Field Service to build your own Connected Field Service solution.
+This quick start shows you how to get started with integrating IoT data with Dynamics 365 for Field Service to build your own Connected Field Service solution.
 
 ## What is Connected Field Service?
 The Connected Field Service solution harnesses data from an IoT platform into the Dynamics 365 for Field Service app to help organizations proactively detect, troubleshoot, and resolve issues remotely, dispatching a technician only when necessary. This enables you to shift from costly scheduled maintenance plans to just-in-time predictive maintenance.   
@@ -25,9 +26,7 @@ Connected Field Service helps you:
 
 - Improve customer service by addressing issues as soon as they arise, before your customers become aware of the issues 
 
-## What you need to get started
-
-Here are the 3 things you need: 
+## 3 things you need to start building your own IoT solution
 
 - **Dynamics 365 for Field Service with system administrator credentials** 
 
@@ -42,21 +41,24 @@ Here are the 3 things you need:
       
     New to IoT and need an Azure subscription? We've got you covered. [Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
- - **Dynamics 365 Connected Field Service add-on**  
+- **Dynamics 365 Connected Field Service add-on**  
 
     The free Connected Field Service add-on automatically provisions a number of Azure IoT services with predefined demo data seamlessly on top of Dynamics 365 for Field Service. The add-on comes with demo data that enables you to see the capabilities IoT data brings to Field Service, including command modeling, customer asset to device mapping, IoT alert – to – workorder workflow, and more.  
  
     Wondering where to get it? [Go to AppSource to install the Connected Field Service add-on.](https://appsource.microsoft.com/product/dynamics-365/mscrm.58666c7d-65ee-452d-8708-70b4d471d4c0?tab=Overview)
    
-## Watch a 2-minute video
+### Watch a 2-minute video
 
 > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q]
 
 ## Documentation resources
 
-[Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
-[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)
-[Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)
+[Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)  
+ 
+[See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)  
+ 
+[Check out more Azure documentation resources](https://docs.microsoft.com/azure/iot-hub/)  
+
 
 
 
