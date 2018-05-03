@@ -2,7 +2,7 @@
 title: "Use Liquid objects for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about the available liquid objects in a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/03/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -304,7 +304,7 @@ The following table explains various attributes associated with blogpost Object.
 
 
 
-Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. If the entity exists, an entity object will be returned. If an entity with the given ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
+Allows you to load any [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity by ID. If the entity exists, an entity object will be returned. If an entity with the given ID is not found, [null](liquid-types.md#null) will be returned.  
 
 ```
 {% assign account = entities.account['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'] %}
@@ -1301,30 +1301,10 @@ In addition to having all of the attributes of an [*entities*](#entities), user 
 
 ## weblinks
 
-Refers to the portal [*website*](#website-1), allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal.  
+Allows you to load any weblinks by name or ID.  
 
-> [!Note]
-> [*entities*](#entities)  
+If the web link set exists, a [web link set object](#web-link-set-attributes) will be returned. If a web link set with the given name or ID is not found, [null](liquid-types.md#null) will be returned.
 
-**Code**
-
-```
-{{ website.adx_name }} ({{ website.id }})
-```
-
-**Output**
-
-```
-Community Portal (936DA01F-9ABD-4d9d-80C7-02AF85C822A8)
-```
-
-
-
-## website
-
-Allows you to load any [*weblinks*](#weblinks) by name or ID.  
-
-If the web link set exists, a web link set object will be returned. If a web link set with the given name or ID is not found, [*Liquid types*](liquid-types.md) will be returned.  
 
 ```
 <!-- Load web link set by ID -->
@@ -1372,7 +1352,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 ### **Web Link Set Attributes**
 
 > [!Note]
-> [entities](#entities)                                         
+> A web link set is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.                                         
 
 |Attribute   |Description   |
 |---|---|
@@ -1385,7 +1365,7 @@ If the web link set exists, a web link set object will be returned. If a web lin
 ### **Web Link Attributes**
 
 > [!Note]
-> [entities](#entities) 
+> A web link is an [entity](#entity) object, with all of the same attributes, in addition to those listed below.
 
 |Attribute   |Description   |
 |---|---|
@@ -1412,6 +1392,27 @@ If the web link set exists, a web link set object will be returned. If a web lin
 | url             | The URL of the image.                                                                                               |
 | Width           | Integer containing the specified width of the image. If no width value was provided, this attribute will be null.   |
 
+
+## website
+
+Refers to the portal website, allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal.  
+
+> [!Note]
+> Website is an [entity](#entity) object, with all of the same attributes.
+
+**Code**
+
+```
+{{ website.adx_name }} ({{ website.id }})
+```
+
+**Output**
+
+```
+Community Portal (936DA01F-9ABD-4d9d-80C7-02AF85C822A8)
+```
+
+
 ### See also
 
 [Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
@@ -1419,4 +1420,3 @@ If the web link set exists, a web link set object will be returned. If a web lin
 [Liquid Objects](#liquid-objects)  
 [Liquid Tags](liquid-tags.md)  
 [Liquid Filters](liquid-filters.md)  
-
