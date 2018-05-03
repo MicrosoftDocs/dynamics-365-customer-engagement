@@ -64,7 +64,7 @@ If you close the CRM entity page, the page starts loading but never completes th
 _Image 1: Right-click on the CRM entity page and select Forward from the context menu_
 
 > [!Note]
-> The session that you are working is fine and there is no data lost.
+> The session that you are working is fine and there is no data loss.
 
 ## See also
 
