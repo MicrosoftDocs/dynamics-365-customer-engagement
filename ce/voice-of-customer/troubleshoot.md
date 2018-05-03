@@ -2,7 +2,7 @@
 title: "Troubleshoot Voice of the Customer | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Voice of the Customer solution."
 keywords: "troubleshoot voice of the customer"
-ms.date: 01/26/2018
+ms.date: 05/03/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -15,7 +15,7 @@ manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
 ---
-<!--Note to author: Update ms.date to new publication date.-->
+
 # Troubleshooting the Voice of the Customer solution
 
 This article provides information about troubleshooting issues in the Voice of the Customer solution.
