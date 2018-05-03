@@ -153,8 +153,9 @@ Numerically named folders are as follows:<br>
     - 3 (Internet zone)
     - 4 (Restricted Sites zone)
 3.  Right-click the **2500** file, and then select **Modify**.
-    > [!Note] If the registry key isn't present, create it:<br>
-    >   1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
+    > [!Note] 
+    > If the registry key isn't present, create it:<br>
+        1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
         2. Type **2500** as the file name, and then select **Modify**.
 
 6.  In the **Value data** field, type **0**..
