@@ -1,20 +1,20 @@
 ---
-title: Set up knowledge management (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: See how to set up knowledge management in Dynamics 365 for Customer Service
-keywords: Set up knowledge management; Dynamics 365; Customer Service
+title: Set up knowledge management using embedded knowledge search (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to set up knowledge management using embedded knowledge search in Dynamics 365 for Customer Service
+keywords: Set up knowledge management; Dynamics 365; Customer Service; using Embedded knowledge search; service manager
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: sakudes
-ms.date: 09/15/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: crm-online
 ms.assetid: 68356343-fdd5-4c0e-9c09-dbebf718c764
 ---
 
-# Set up knowledge management
+# Set up knowledge management using embedded knowledge search
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -42,9 +42,7 @@ After knowledge management is set up, users will be able to:
   
 1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] You must also be the tenant administrator of [!INCLUDE[pn_MS_Office_365](../includes/pn-ms-office-365.md)].  
   
-2. [!INCLUDE[proc_settings_service_management](../includes/proc-settings-service-management.md)]  
-  
-3.  Under **Knowledge Base Management**, click **Embedded Knowledge Search**.  
+2. In the Customer Service Hub sitemap, go to **Service Management**. Under **Knowledge Base Management**, click **Embedded Knowledge Search**.
   
 4.  In the **Knowledge Base Management Settings** wizard, in **Record Types**, select the record types you want to turn on knowledge management for. The list will include all entities that are available for an N:N relationship. Knowledge management is enabled for case entity by default.  
   
