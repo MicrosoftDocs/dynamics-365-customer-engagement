@@ -12,7 +12,7 @@ ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-fieldservice
 ---
-# Quick start: Build your own Connected Field Service solution
+# Build your own Connected Field Service solution
 
 This article provides an overview how to get started integrating IoT data with Dynamics 365 for Field Service to build your own Connected Field Service solution.
 
@@ -48,13 +48,37 @@ Where to Find it: Connected Field Service Add-on
 
 [!INCLUDE[pn_connected_field_service_msdyn365](../includes/pn-connected-field-service-msdyn365.md)] ...  
 
+### EXAMPLE 1 Video on right
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Watch a video to see how one company moved from reactive to predictive and proactive field service.| > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q]  |
+
+
+### EXAMPLE 2 Video on left
+
+| > [!VIDEO https://www.youtube.com/embed/iMZpr5wVD_Q] | Watch a video to see how one company moved from reactive to predictive and proactive field service.|
+
+### EXAMPLE 3 Video just plain
+
+> [!VIDEO www.youtube.com/embed/iMZpr5wVD_Q] 
+ Watch a video to see how one company moved from reactive to predictive and proactive field service.
+
 
 TEST TEST TEST TEST
 
+![[alt text]](<folderPath>)
+ 
+Link to external site
+ [Microsoft](https://www.microsoft.com)
+ 
+Next step button
+ > [!div class="nextstepaction"]
+> [button text](link to topic)
 
+Alt text example:
+![alt text for image](../images/Introduction.png)
 
-| Move from reactive to predictive and proactive field service. Watch a video to see how one company does it. | > [!VIDEO www.youtube.com/embed/iMZpr5wVD_Q] |
-|---------------|------------------------------------------------------------|
 
   
 
