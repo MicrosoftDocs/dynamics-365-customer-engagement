@@ -1,5 +1,5 @@
 ---
-title: "Analyze best practices in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Unified Interface Page (Hosted Control) (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the the Unified Interface Page hosted control type to load a URL or page from Dynamics 365. When a Dynamics 365 page is loaded within a hosted control of this type, it will automatically scan the page for data from the entity, and automatically populate the replacement parameters."
 ms.custom: ""
 ms.date: 04/24/2018

@@ -2,7 +2,7 @@
 title: "Support for Unified Interface apps in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about downloading and installing the Best Practices Analyzer.
 ms.custom: ""
-ms.date: 04/24/2018
+ms.date: 05/07/2018
 ms.service: usd
 ms.topic: article
 applies_to: 

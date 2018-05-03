@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough 7: Configure agent scripting in your agent application | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/24/2018
+ms.date: 05/07/2018
 ms.reviewer: ""
 ms.service: "usd"
 ms.suite: ""
