@@ -12,7 +12,7 @@ manager: sakudes
 topic-status: Drafting
 ---
 
-# Import players and fans from Dynamics 365 (online) and manage their security roles
+# Manage users from Dynamics 365 (online) and their security roles
 
 When you set up a new game, you need to define which users will be players and which will be fans in your upcoming [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] game. Users from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] are available automatically in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)].
 
@@ -25,16 +25,8 @@ When you set up a new game, you need to define which users will be players and w
 
 <!-- <div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/cc1cf5fc-097d-4776-a348-2c79a0e8167f" frameborder="0" allowfullscreen=""></iframe></div> -->
 
-After users are imported, a commissioner can change the [security role](understand-security-roles.md) of the users.
+After users are imported, an administrator can [change the security role](understand-security-roles.md) of the users directly in the connected [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organization.
 
-1. In [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], go to **Users**.
-
-2. On the **Microsoft Dynamics 365 Users** page, search for the user whose role you want to change.
-
-3. Select **Change Role** for the selected user, and then choose the new security role.  
-   [!INCLUDE[proc_more_information](../includes/proc-more-information-md.md)] [Understand Gamification security roles](understand-security-roles.md)
-
-4. Select **Update Role** to apply your changes.
 
 ## Delete a user from Dynamics 365 - Gamification
 
