@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
 ---
 
-# Create an entitlement to define the support terms for a customer
+# Create entitlements to define the support terms for a customer
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -62,7 +62,7 @@ Define what kind of support your customers are eligible for by creating entitlem
     - **Is Default**. Select the box if you want to make this entitlement as the default entitlement.
 
   
-    Under **Entitlement Terms** section, specify the term details for the entitlement:  
+     Under **Entitlement Terms** section, specify the term details for the entitlement:  
   
     - **Allocation Type**. Choose whether the entitlement is for number of hours or number of cases.  
   

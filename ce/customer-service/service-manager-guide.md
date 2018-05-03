@@ -44,7 +44,7 @@ Use the following links to learn about Service Management tasks:
 
 [Parent and child case settings](define-settings-parent-child-cases.md)
 
-[Routing Rule sets](create-rules-automatically-route-cases.md)
+[Routing Rule Sets](create-rules-automatically-route-cases.md)
 
 [Automatic Record Creation](set-up-rules-to-automatically-create-or-update-records.md)
 

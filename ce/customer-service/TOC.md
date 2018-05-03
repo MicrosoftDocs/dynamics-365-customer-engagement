@@ -17,13 +17,13 @@
 #### [Automatically create/update records](set-up-rules-to-automatically-create-or-update-records.md)
 #### [Automatically create case from email](automatically-create-case-from-email.md)
 ### [Subjects](create-manage-subject-tree.md)
-### [Service level agreements](define-service-level-agreements.md)
+### [Service Level Agreements](define-service-level-agreements.md)
 ### [Entitlements](create-entitlement-define-support-terms-customer.md)
-### [Holiday schedule](set-up-holiday-schedule.md)
-### [Customer Service schedule](create-customer-service-schedule-define-work-hours.md)
-### [Service configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
+### [Holiday Schedule](set-up-holiday-schedule.md)
+### [Customer Service Schedule](create-customer-service-schedule-define-work-hours.md)
+### [Service Configuration Settings](../admin/system-settings-dialog-box-service-tab.md)
 ### [Knowledge management setup](set-up-knowledge-management.md)
-### Embedded Knowledge search
+### Embedded Knowledge Search
 #### [Search in Knowledge base](knowledge-base-search.md)
 #### [Find Knowledge articles within records ](find-knowledge-articles-within-record-dynamics-365.md)
 ### Categories
