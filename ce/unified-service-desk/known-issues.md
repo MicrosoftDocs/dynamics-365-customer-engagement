@@ -33,9 +33,9 @@ If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating
 
 ## RunScript
 
-**RunScript fails if the tab or page is not in focus**
+**RunScript action fails if the tab or page is not in focus**
 
-If you execute a RunScript on a tab or a page that is not in focus, the RunScript execute fails.
+If you execute a RunScript action on a tab or a page that is not in focus, the execution of RunScript action fails.
 
 **Example:**
 
