@@ -1,6 +1,6 @@
 ---
 title: "Known issues in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about the known issues about the read Best Practices Analyzer."
+description: "Learn about the known issues in Unified Service Desk."
 ms.custom: ""
 ms.date: 05/7/2018
 ms.service: "usd"
