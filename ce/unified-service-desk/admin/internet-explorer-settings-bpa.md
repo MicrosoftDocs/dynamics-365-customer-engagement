@@ -58,7 +58,7 @@ Set **TabShutdownDelay** value to **0**:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
         2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
-        
+
 4. In the **Value data** field, type **0**.
 5. In the **Base** group box, select **Decimal**.
 6. Select **OK**.
@@ -86,6 +86,7 @@ To disable **Enable Enhanced Protected Mode** using the Registry Editor:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
         2.  Type **Isolation** as the file name, and then select **Modify**.
+
 4.  In the **Value data** field, type **PMIL**. 
 5.  Select **OK**.
 
@@ -119,6 +120,7 @@ To disable the option using the Registry Editor:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
         2.  Type **Isolation** as the file name, and then select **Modify**.
+
 4.  In the **Value data** field, type **2**.
 5.  Select **OK**.
 
@@ -154,6 +156,7 @@ Numerically named folders are as follows:<br>
     > [!Note] If the registry key isn't present, create it:<br>
         1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
         2. Type **2500** as the file name, and then select **Modify**.
+        
 6.  In the **Value data** field, type **0**..
 7.  Select **OK**.
 
