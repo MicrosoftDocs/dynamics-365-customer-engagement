@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications.
+Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. Replace ctrl with command key for Mac.
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 
@@ -55,6 +55,11 @@ Keyboard shortcuts give you an alternate way to do common tasks, instead of usin
 |Go to a form's associated grid navigation button|Ctrl+Shift+2|
 |Go to the Navigation bar|	Ctrl+Shift+3 |
 |Go to the Main menu button on the Navigation bar| Ctrl+Shift+8|
+
+##Grids
+|To              |Select  |
+|---------|---------|
+|Move to sections of the grid page | Ctrl+F6 |
 
 ## Editable grids (views)
 If editable grids (views) have been enabled by your administrator, you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
@@ -100,11 +105,13 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Move to the first visual filter | Ctrl+Alt+V |
 |Open the Date Range filter flyout and move to the first element | Ctrl+Alt+D |
 
-##Date picker shortcuts
+##Interactive controls
+
+###Date picker shortcuts
 
 |To              |Select  |
 |---------|---------|
-|Open the date picker flyout | Enter **Or** Spacebarr **Or** Down (↓) arrow key |
+|Open the date picker flyout | Enter **Or** Spacebar **Or** Down (↓) arrow key |
 |Activate the option and close the flyout | Enter **Or** Spacebar |
 |Move to next item | Down (↓) arrow key |
 |Move to previous item | Up (↑) arrow key |
@@ -116,7 +123,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Select the calendar | Enter **Or** Spacebar |
 |Activate a button | Enter **Or** Spacebar
 
-##Global filter shortcuts
+###Global filter shortcuts
 |To              |Select  |
 |---------|---------|
 |Open a menu | Enter **Or** Space **Or** Down (↓) arrow key |
@@ -133,7 +140,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Remove a filter | Delete |
 
 
-##Visual filter shortcuts
+###Visual filter shortcuts
 |To              |Select  |
 |---------|---------|
 |Activate the carousel button and show the chart | Enter **Or** Space |
@@ -142,7 +149,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Move to the next element when focus is on the right carousel | Tab | 
 |Move to to previous element when focus is on left carousel | Shift+Tab |
 
-##Tag chart shortcuts
+###Tag chart shortcuts
 |To              |Select  |
 |---------|---------|
 |Activate a tag and filter the dashboard | Enter **Or** Spacebar |
@@ -153,7 +160,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Move to the See All element if not already filtered | Tab |
 |Move from the See All element to tags | Shift+Tab |
 
-##Stream control shortcuts
+###Stream control shortcuts
 |To              |Select  |
 |---------|---------|
 |Move to next stream | Down (↓) arrow key **Or** Right (→) arrow key |
@@ -169,7 +176,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Close the menu | Escape |
 |Change the state of the checkbox | Spacebar |
 
-##Tile control shortcuts
+###Tile control shortcuts
 |To              |Select  |
 |---------|---------|
 |Activate the Show Details button and open flyout | Enter **Or** Space |
@@ -181,12 +188,21 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Move to previous element | Shift+Tab |
 
 
-##Duplicate detection shortcuts
+###Duplicate detection shortcuts
 |To              |Select  |
 |---------|---------|
 |Save | Ctrl+S **Or** Cmd+SS (on Mac) |
 |Save and close | Alt+S |
 
+
+###Search results shortcuts
+|To              |Select  |
+|---------|---------|
+|Move to the next search result | Up (↑) arrow key |
+|Move to the previous search result | Down (↓) arrow key |
+|Move to List of available views | Right (→) arrow key |
+|Move from List of available views to search results | Left (←) arrow key |
+|Navigate between buttons | Tab |
 
 
 ##Keyboard shortcuts for specific apps
