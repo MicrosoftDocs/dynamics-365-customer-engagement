@@ -86,47 +86,47 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 
 |To              |Select  |
 |---------|---------|
-|Activate a Dashboard element (simulate left-click)| Enter **Or** Space |
+|Activate a Dashboard element (simulate left-click)| Enter **Or** Spacebar |
 |Move to the next element  | Tab | 
-|Move to the previous element  | Shift + Tab  | 
-|Move to the next item within a dashboard element  | Down arrow |
-|Move to the previous item within a dashboard element  | Up arrow | 
+|Move to the previous element  | Shift+Tab  | 
+|Move to the next item within a dashboard element  | Down (↓) arrow key |
+|Move to the previous item within a dashboard element  | Up (↑) arrow key | 
 |Close a menu | Escape |
-|Select a checkbox or radio button | Space |
-|Save | Ctrl + S **Or** Cmd + SS (Mac) | 
+|Select a checkbox or radio button | Spacebar |
+|Save | Ctrl+S **Or** Cmd+SS (Mac) | 
 |Save and close | Alt + S | 
-|Move to the first Quick Action of active stream | Ctrl + Alt + Q  | 
-|Move to the first command in the top-level command bar | Ctrl + Alt + A  |
-|Move to the first visual filter | Ctrl + Alt + V  |
-|Open the Date Range filter flyout and move to the first element | Ctrl + Alt + D  |
+|Move to the first command on the active stream's command bar | Ctrl+Alt+Q | 
+|Move to the first command in the top-level command bar | Ctrl+Alt+A |
+|Move to the first visual filter | Ctrl+Alt+V |
+|Open the Date Range filter flyout and move to the first element | Ctrl+Alt+D |
 
 ##Date picker shortcuts
 
 |To              |Select  |
 |---------|---------|
-|Open the date picker flyout | Enter **Or** Space **Or** Down arrow |
-|Activate the option and close the flyout | Enter **Or** Space |
-|Move to next item | Down arrow |
-|Move to previous item | Up arrow |
+|Open the date picker flyout | Enter **Or** Spacebarr **Or** Down (↓) arrow key |
+|Activate the option and close the flyout | Enter **Or** Spacebar |
+|Move to next item | Down (↓) arrow key |
+|Move to previous item | Up (↑) arrow key |
 |Move to first item | Home |
 |Move to last item | End |
 |Close the date picker flyout | Escape |
 |Move to next element | Tab |
 |Move to previous element | Shift + Tab |
-|Select the calendar | Enter **Or** Space |
-|Activate a button | Enter **Or** Space
+|Select the calendar | Enter **Or** Spacebar |
+|Activate a button | Enter **Or** Spacebar
 
 ##Global filter shortcuts
 |To              |Select  |
 |---------|---------|
-|Open a menu | Enter **Or** Space **Or** Down arrow |
-|Activate a button | Enter **Or** Space |
+|Open a menu | Enter **Or** Space **Or** Down (↓) arrow key |
+|Activate a button | Enter **Or** Spacebar |
 |Move to next element | Tab |
-|Move to previous element | Shift + Tab |
-|Open a tree view control | Right arrow |
-|Close a tree view control | Left arrow |
-|Move to the next tree view node | Up arrow |
-|Move to the previous tree view node | Down arrow |
+|Move to previous element | Shift+Tab |
+|Open a tree view control | Right (→) arrow key |
+|Close a tree view control | Left (←) arrow key |
+|Move to the next tree view node | Up (↑) arrow key |
+|Move to the previous tree view node | Down (↓) arrow key |
 |Move to the first tree view node | Home |
 |Move to the last tree view node | End |
 |Perform the default action for the tree view node | Enter |
@@ -138,47 +138,54 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |---------|---------|
 |Activate the carousel button and show the chart | Enter **Or** Space |
 |Move to the right carousel when focus is on left carousel | Tab |
-|Move to the left carousel when focus is on the right carousel | Shift + Tab |
+|Move to the left carousel when focus is on the right carousel | Shift+Tab |
 |Move to the next element when focus is on the right carousel | Tab | 
-|Move to to previous element when focus is on left carousel | Shift + Tab |
+|Move to to previous element when focus is on left carousel | Shift+Tab |
 
 ##Tag chart shortcuts
 |To              |Select  |
 |---------|---------|
-|Activate a tag and filter the dashboard | Enter **Or** Space |
-|Move to the next tag | Left arrow |
-|Move to the previous tag | Right arrow |
+|Activate a tag and filter the dashboard | Enter **Or** Spacebar |
+|Move to the next tag | Left (←) arrow key|
+|Move to the previous tag | Right (→) arrow key |
 |Move to the first tag | Home |
 |Move to the last tag | End |
 |Move to the See All element if not already filtered | Tab |
-|Move from the See All element to tags | Shift-Tab |
+|Move from the See All element to tags | Shift+Tab |
 
 ##Stream control shortcuts
 |To              |Select  |
 |---------|---------|
-|Move to next stream | Down arrow **Or** Right arrow|
-|Move to previous stream | Up arrow **Or** Left arrow  |
+|Move to next stream | Down (↓) arrow key **Or** Right (→) arrow key |
+|Move to previous stream | Up (↑) arrow key **Or** Left (←) arrow key |
 |Move to next element | Tab |
-|Move to previous element | Shift + Tab |
-|Activate a button | Enter **Or** Space |
-|Activate the Sort by field button and open flyout | Enter **Or** Space **Or** Down arrow |
-|Move to next item item | Down arrow |
-|Move to previous item item | Up arrow |
+|Move to previous element | Shift+Tab |
+|Activate a button | Enter **Or** Spacebar |
+|Activate the Sort by field button and open flyout | Enter **Or** Space **Or** Down (↓) arrow key |
+|Move to next item item | Down (↓) arrow key |
+|Move to previous item item | Up (↑) arrow key |
 |Move to the first item | Home |
 |Move to the last item | End |
 |Close the menu | Escape |
-|Change the state of the checkbox | Space |
+|Change the state of the checkbox | Spacebar |
 
 ##Tile control shortcuts
 |To              |Select  |
 |---------|---------|
 |Activate the Show Details button and open flyout | Enter **Or** Space |
-|Move to next item | Down arrow |
-|Move to previous item | Up arrow |
+|Move to next item | Down (↓) arrow key |
+|Move to previous item | Up (↑) arrow key |
 |Move to first item | Home |
 |Move to last item | End|
 |Move to next element | Tab |
-|Move to previous element | Shift + Tab |
+|Move to previous element | Shift+Tab |
+
+
+##Duplicate detection shortcuts
+|To              |Select  |
+|---------|---------|
+|Save | Ctrl+S **Or** Cmd+SS (on Mac) |
+|Save and close | Alt+S |
 
 
 
