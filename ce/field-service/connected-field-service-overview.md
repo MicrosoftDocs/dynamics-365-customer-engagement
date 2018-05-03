@@ -12,27 +12,29 @@ ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-fieldservice
 ---
-# Build your own Connected Field Service solution
+# Build your own Connected Field Service (IoT) solution
 
 This article provides an overview how to get started integrating IoT data with Dynamics 365 for Field Service to build your own Connected Field Service solution.
 
-## What is Connected Field Service (IoT)?
+## What is Connected Field Service?
 Connected Field Service harnesses data from an IoT platform into Dynamics 365 for Field Service so that you can proactively detect, troubleshoot, and resolve issues remotely, dispatching a technician only when necessary. This enables you to shift from costly scheduled maintenance plans to just-in-time predictive maintenance.   
 
 Connected Field Service helps you:  
 
-> Reduce downtime by automatically creating work orders and dispatching the right technician for the job based on anomalies flagged in your IoT data  
+- Reduce downtime by automatically creating work orders and dispatching the right technician for the job based on anomalies flagged in your IoT data  
 
-> Improve customer service by addressing issues as soon as they arise, before your customers become aware of the issues 
+- Improve customer service by addressing issues as soon as they arise, before your customers become aware of the issues 
 
-## What you need 
+## What you need to start building your own Connected Field Service solution
 
-Getting started with Connected Field Service requires three things:  
-> Dynamics 365 for Field Service with System Administrator Credentials 
+Getting started requires three things:  
+- Dynamics 365 for Field Service with system administrator credentials 
 
-Why? You'll need to provide a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it.  You will be creating an IoT app within that Field Service tenant.  
+You'll need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it.  You'll build an IoT app within that Field Service tenant.  
 
-New to Field Service? Get a Trial Subscription of Dynamics 365 for Field Service Here 
+New to Field Service and need a tenant? [No worries. Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
+)
+
 
 > Azure Subscription with Admin Credentials      
 Why? The Azure IoT services you will deploy have to be associated with an Azure subscription. Learn more about Azure IoT here.  For more on the Azure IoT resources you will deploy through the Connected Field Service Add-in, see the solution architecture here.  
