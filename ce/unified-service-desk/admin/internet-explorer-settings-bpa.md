@@ -2,7 +2,7 @@
 title: "Internet Explorer settings (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
 ms.custom: ""
-ms.date: 04/24/2018
+ms.date: 05/07/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 
@@ -156,7 +156,7 @@ Numerically named folders are as follows:<br>
     > [!Note] If the registry key isn't present, create it:<br>
         1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
         2. Type **2500** as the file name, and then select **Modify**.
-        
+
 6.  In the **Value data** field, type **0**..
 7.  Select **OK**.
 
