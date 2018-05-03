@@ -54,8 +54,8 @@ Set **TabShutdownDelay** value to **0**:
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
 3.  Right-click **TabShutdownDelay**, and then select **Modify**.<br>
-       > [!NOTE]
-       > If the registry key isn't present, create it:<br>
+    > [!NOTE]
+    > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
         2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
 4. In the **Value data** field, type **0**.
