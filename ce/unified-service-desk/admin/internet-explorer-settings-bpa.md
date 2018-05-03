@@ -58,6 +58,7 @@ Set **TabShutdownDelay** value to **0**:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
         2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
+        
 4. In the **Value data** field, type **0**.
 5. In the **Base** group box, select **Decimal**.
 6. Select **OK**.
