@@ -116,7 +116,7 @@ The new user account is now available on your [!INCLUDE[pn-ms-office-365](../inc
 1. Sign out of [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] and quit your browser.
 
 Now the new user needs to sign up for the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You can either set this up for them or ask them to do it themselves. Either way, you'll need to approve the new user afterwards. The procedure is as follows:
-1. Open a web browser and go to [trials.dynamics.com/Dynamics365/Preview/Marketing](http://trials.dynamics.com/Dynamics365/Preview/Marketing).
+1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com).
 1. A form opens asking for your email address and phone number. Use the email address for the new user that you just set up in [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)].
 1. A page opens to tell you that you already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] account, so just select **Sign in**.
 1. Sign in using the [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] email address and password that you created for the new user. 
