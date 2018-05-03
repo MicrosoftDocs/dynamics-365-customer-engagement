@@ -27,25 +27,26 @@ Connected Field Service helps you:
 
 ## What you need to start building your own Connected Field Service solution
 
-Getting started requires three things:  
-- Dynamics 365 for Field Service with system administrator credentials 
+Here are the 3 things you need before you start building your own solution: 
 
-  You'll need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it.  You'll build an IoT app within that Field Service tenant.  
+- **Dynamics 365 for Field Service with system administrator credentials** 
 
-New to Field Service and need a tenant? [No worries. Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
+ + You'll need a Dynamics 365 for Field Service tenant so that you can import your IoT solution on top of it.  You'll build an IoT app within that Field Service tenant.  
+
+ + New to Field Service and need a tenant? [No worries. Sign up for a free trial for development purposes.](https://appsource.microsoft.com/product/dynamics-365/mscrm.40fd37ef-dca4-4b0d-9f41-d16703b7d070
 )
 
-- Azure subscription with admin credentials     
+- **Azure subscription with admin credentials**     
 
-  The Azure IoT services you'll deploy must be associated with an Azure subscription. 
+ + The Azure IoT services you'll deploy need to be associated with an Azure subscription. 
   
-  [Learn more about Azure IoT.](https://azure.microsoft.com/product-categories/iot/)
+ + [Learn about Azure IoT extensibility, analytics, and more](https://azure.microsoft.com/product-categories/iot/)
   
-  [See the solution architecture to learn about the Azure IoT resources you'll deploy through the Connected Field Service add-in.](https://msdn.microsoft.com/library/mt744253.aspx)
+ + [See a component architecture diagram and learn which Azure IoT resources are included in a standard installation](https://msdn.microsoft.com/library/mt744253.aspx)
  
-New to IoT and need an Azure subscription? [We've got you covered. Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
+ + New to IoT and need an Azure subscription? [We've got you covered. Sign up for an Azure free trial.](https://azure.microsoft.com/free/)
 
-[Check out these Azure documentation resources.]https://docs.microsoft.com/azure/iot-hub/
+ + [Check out these Azure documentation resources.]https://docs.microsoft.com/azure/iot-hub/
 
 KEEP GOING FROM HERE
  
