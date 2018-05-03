@@ -1,6 +1,5 @@
-
 ---
-title: "Connected Field Service (IoT) overview | MicrosoftDocs"
+title: "Build your own Connected Field Service (IoT) solution | MicrosoftDocs"
 ms.description: "Provide pro-active field service with the Connected Field Service solution. Connect devices and equipment via the Internet of Things (IoT) and Microsoft cloud services to detect and diagnose problems and enable predictive maintenance. Extend or customize the Connected Field Service solution to meet your service organization's business needs."   
 applies_to: 
  - "Dynamics 365 (online)"
@@ -15,10 +14,10 @@ ms.custom:
 ---
 # Quickstart: Build your own Connected Field Service (IoT) solution
 
-This quick start shows you how to get started with integrating IoT data with Dynamics 365 for Field Service to build your own Connected Field Service solution.
+This article shows you how to get up and running quickly to build your own Connected Field Service solution that integrates IoT data with Dynamics 365 for Field Service.
 
 ## What is Connected Field Service?
-The Connected Field Service solution harnesses data from an IoT platform into the Dynamics 365 for Field Service app to help organizations proactively detect, troubleshoot, and resolve issues remotely, dispatching a technician only when necessary. This enables you to shift from costly scheduled maintenance plans to just-in-time predictive maintenance.   
+The Connected Field Service solution harnesses data from an IoT platform into the Dynamics 365 for Field Service app to help organizations proactively detect, troubleshoot, and resolve issues remotely, dispatching a technician only when necessary. The solution enables you to shift from costly scheduled maintenance plans to just-in-time predictive maintenance.   
 
 Connected Field Service helps you:  
 
@@ -26,7 +25,9 @@ Connected Field Service helps you:
 
 - Improve customer service by addressing issues as soon as they arise, before your customers become aware of the issues 
 
-## 3 things you need to start building your own IoT solution
+## What you need to get started
+
+Here are the 3 things you need to get started building your own IoT solution:
 
 - **Dynamics 365 for Field Service with system administrator credentials** 
 
