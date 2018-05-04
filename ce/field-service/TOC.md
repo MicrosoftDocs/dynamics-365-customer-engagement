@@ -60,8 +60,6 @@
 # [Mobile field service](field-service-mobile-app-user-guide.md)
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
 
-# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
 ## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
@@ -69,6 +67,7 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
+# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
 
 
