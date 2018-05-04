@@ -1,21 +1,25 @@
 ---
 title: "Action cards reference for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 7808da18-7d62-4a04-911d-f429ad87248e
+author: udag
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 22
-author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Action cards reference
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
@@ -145,4 +149,4 @@ If you see an alert about having insufficient permissions to use an action card,
 
 ### See also
 
-[Use relationship assistant to guide customer communications](../admin/relationship-assistant.md)
+[Use relationship assistant to guide customer communications](../sales-enterprise/relationship-assistant.md)

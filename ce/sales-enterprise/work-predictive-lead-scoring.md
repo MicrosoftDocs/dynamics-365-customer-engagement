@@ -1,35 +1,38 @@
 ---
 title: "Work with Predictive lead scoring feature for Dynamics 365 Customer Engagement  | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 04/01/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: f5f685e2-ea1b-4c1c-8a68-857160e22fb3
+author: udag
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 01
-author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
 
 # Work with Predictive lead scoring
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>
 
 Predictive lead scoring helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into an opportunity. These leads are displayed in a system view—and when you select a lead, you can view reasons influences of a lead to further analyze and build a strategy and turn lead into an opportunity.
 
 > [!IMPORTANT]
-> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../admin/configure-enable-../sales-enterprise/embedded-intelligence.md)
+> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../sales-enterprise/embedded-intelligence.md)
 
 ## Understand leads in views
 When the Predictive lead scoring is enabled in your organization, you can use the My Open Leads Scored system view. This view gives you a list of leads that can be converted into opportunities.<br>
 The following screen displays a typical view with a list of leads that consist of parameters that are used to analyze possible opportunities.<br>
-![My open leads scored view](../admin/media/my-open-lead-score-view.png "My open leads scored view")
+![My open leads scored view](media/my-open-lead-score-view.png "My open leads scored view")
 
 The numbered columns are:
 1.	**Lead Score.** Specifies the value that is representative of the likelihood of the lead to convert into an opportunity.  
@@ -40,20 +43,19 @@ The numbered columns are:
 
 3.	**Lead Score Trend.** Specifies the direction in which a lead is trending such as **Improving** (up arrow), **Declining** (down arrow), **Steady** (right arrow), or **Not enough info**. These trends are displayed by comparing the present lead score with the previous score. For example, the score of a lead was 65 and the present score is decreased to 45, a down arrow is displayed in the **Lead Score Trend** column specifying that the lead is losing traction and needs some action from you to improve the score. 
  
-[v-tiburd]: <> (Above, I changed "Increasing" and "Decreasing" to match the UI of the screenshot. And below, I wasn't able to confirm the widget name and used my best guess that the name uses title-style capitalization. Please check against the UI and correct if needed. Thank you!)
-
 ## Analyze and improve your lead score
 
 In forms, you can use the Lead Score widget to see the top ten reasons that affect how coming leads and related entities are impacting the lead score. This helps you to analyze and work on the lead to improve the score and convert it into a possible opportunity. <br>
 The following screen displays a typical Lead Score widget with positive and negative reasons that are used to analyze. <br>
-![Predective lead score widget](../admin/media/predictive-lead-scoring-widget.png "Predective lead score widget")
+![Predective lead score widget](media/predictive-lead-scoring-widget.png "Predective lead score widget")
 
 The numbered sections are:
 1.	**Basic Information.** Displays the basic information of a lead—such as lead score, lead grade, and lead score trend—to help you avoid going back to the My Open Leads Scored view to see basic information.
 2.	**Top Reasons.** Displays the list of reason that are affecting the lead score. This helps you to analyze and consider the lead for converting into an opportunity. You can also take necessary action to improve the lead score, such as set up meetings and follow-ups.  
-3.	**Feedback.** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. 
+3.	**Feedback.** Displays feedback that's provided by a user to a lead. You can change the feedback with an appropriate lead score. <br>
     To provide feedback, select the **Chat** icon and enter the expected score and comments. To save the feedback, select **Send**.
 
 
 ### See also 
-[Configure and enable embedded intelligence](../admin/action-cards-reference.md)    
+
+[Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)    

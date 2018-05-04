@@ -1,21 +1,25 @@
 ---
 title: "Auto capture for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
+author: udag
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 13
-author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Auto capture of related emails
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
@@ -70,11 +74,11 @@ The administrator must enable auto capture before you can try it out. For comple
   
 1.  Select the gear button on the nav bar, and then choose **Options** from the menu.  
   
- ![Options menu](../admin/media/options-menu.png "Options menu")  
+    ![Options menu](../admin/media/options-menu.png "Options menu")  
   
 2.  The **Set Personal Options** dialog opens. Select the **Email** tab.  
   
- ![Auto capture personal options](../admin/media/auto-capture-personal-options.png "Auto capture personal options")  
+    ![Auto capture personal options](../admin/media/auto-capture-personal-options.png "Auto capture personal options")  
   
 3.  Set the **Show email not tracked in Dynamics 365 in the Activities list** option to **Yes** or **No**, as needed.  
   
@@ -102,4 +106,4 @@ The following describes the support for viewing, opening, and tracking untracked
   
 ### See also
 
-[Configure and enable embedded intelligence](../admin/action-cards-reference.md)
+[Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)

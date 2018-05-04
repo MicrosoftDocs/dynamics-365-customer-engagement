@@ -1,21 +1,25 @@
 ---
 title: "Relationship assistant for Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
+author: udag
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 22
-author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Use relationship assistant to guide customer communications
 
 Applies to Dynamics 365 (online), version 9.0.2<br>
@@ -47,7 +51,7 @@ Watch this short video about the Dynamics 365 Relationship assistant<br>
   
 As you drill down into specific records, such as an opportunity or contact, the assistant displays only those cards that are related to the record you are working with. As on the front-page dashboard, the assistant typically opens by showing a carousel, and includes an **Assistant** tab in the center column, which you can open to scroll through all the available cards for the current record.  
   
-![Action card example](../admin/media/action-card-example.png "Action card example")  
+![Action card example](media/action-card-example.png "Action card example")  
   
 Action cards are made up of the following elements, as labeled in the figure:  
   
@@ -71,7 +75,7 @@ Action cards are made up of the following elements, as labeled in the figure:
   
 2.  The **Relationship assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
   
- ![Relationship assistant settings window](../admin/media/relationship-assistant-settings-window.png "Relationship assistant settings window")  
+    ![Relationship assistant settings window](../admin/media/relationship-assistant-settings-window.png "Relationship assistant settings window")  
   
      Work with these settings as follows:  
   
@@ -81,9 +85,9 @@ Action cards are made up of the following elements, as labeled in the figure:
   
     -   Some types of cards include additional settings, which are shown in to the right of the check box when available.  
   
-    -   If you are not sure what a listed card or its options do, then try hovering your mouse cursor over the preview button ![Action card preview button](../admin/media/action-card-preview-icon.png "Action card preview button") next to the card name see a short description of the card.  
+    -   If you are not sure what a listed card or its options do, then try hovering your mouse cursor over the preview button ![Action card preview button](media/action-card-preview-icon.png "Action card preview button") next to the card name see a short description of the card.  
   
-     For a complete description of all card types, including configuration settings where available, see [Action cards reference](../admin/action-cards-reference.md)  
+     For a complete description of all card types, including configuration settings where available, see [Action cards reference](../sales-enterprise/action-cards-reference.md)  
   
 3.  Select **Save** to save your settings and close the window.  
   
@@ -94,6 +98,5 @@ Action cards are made up of the following elements, as labeled in the figure:
 
 ### See also  
 
-[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
-[Action cards reference](../admin/action-cards-reference.md)
-
+- [Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)
+- [Action cards reference](../sales-enterprise/action-cards-reference.md)

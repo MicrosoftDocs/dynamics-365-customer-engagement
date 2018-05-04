@@ -2,22 +2,24 @@
 title: "Preview feature: Relationship analytics for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to analyze customer interaction data with Dynamics 365 (online)."
 keywords: "relationship analytics, customer interaction data, My Open Opportunities by Relationship, relationship activities"
-ms.custom: ""
 ms.date: 04/01/2018
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 9cf9f43a-2156-418c-be33-6f34027f3d79
+author: udag
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 20
-author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Preview feature: Use Relationship analytics to gather KPIs 
 
 <!--[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]-->
@@ -228,6 +230,5 @@ In addition to the absolute health score, the system also reports the general tr
 
 
   
-  
 ### See also  
- [What are Preview features?](what-are-preview-features-how-do-i-enable-them.md)   
+ [What are Preview features?](../admin/what-are-preview-features-how-do-i-enable-them.md)   
