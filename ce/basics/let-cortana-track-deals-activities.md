@@ -48,6 +48,6 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
 [!INCLUDE[cc_privacy_crm_cortana](../includes/cc-privacy-crm-cortana.md)]
 
 ### See also  
-[What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)   
+[What are Preview features and how do I enable them?](../sales-enterprise/what-are-preview-features-how-do-i-enable-them.md)   
 [Supplemental Terms of Use for Dynamics 365 Previews](http://go.microsoft.com/fwlink/p/?LinkId=511446)
 

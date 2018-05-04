@@ -129,5 +129,5 @@ You want your customer service reps to quickly resolve cases with high customer 
 4.  Click the **Similar Cases** button to find related cases.  
  
 ### See also  
- [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)   
+ [What are Preview features and how do I enable them?](../sales-enterprise/what-are-preview-features-how-do-i-enable-them.md)   
  [User's guide for the new interactive service hub](../customer-service/user-guide-customer-service.md)   

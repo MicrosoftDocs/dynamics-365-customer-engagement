@@ -24,7 +24,7 @@ manager: "sakudes"
 Predictive lead scoring helps you to focus on revenue generation efforts by providing score to prioritize efforts on quality leads. Using this score, you can identify best possible opportunities that are available for you to close deals and achieve your targets. When the score is higher, the more likely that you can convert it into an opportunity. These leads are displayed in a system view—and when you select a lead, you can view reasons influences of a lead to further analyze and build a strategy and turn lead into an opportunity.
 
 > [!IMPORTANT]
-> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
+> To enable Predictive lead scoring in your organization, contact your system administrator. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure and enable embedded intelligence](../admin/configure-enable-../sales-enterprise/embedded-intelligence.md)
 
 ## Understand leads in views
 When the Predictive lead scoring is enabled in your organization, you can use the My Open Leads Scored system view. This view gives you a list of leads that can be converted into opportunities.<br>
@@ -56,4 +56,4 @@ The numbered sections are:
 
 
 ### See also 
-[Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md)    
+[Configure and enable embedded intelligence](../admin/action-cards-reference.md)    

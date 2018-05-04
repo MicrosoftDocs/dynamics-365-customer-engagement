@@ -45,9 +45,9 @@ We're introducing a feature called *Relationship analytics*. It enables [!INCLUD
   
 -   How long does it take our team to respond?  
   
-Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_9_0_2-online](../includes/pn-crm-9-0-2-online.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to install and enable this feature, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).  
+Relationship analytics is provided as a preview feature in the [!INCLUDE[pn_crm_9_0_2-online](../includes/pn-crm-9-0-2-online.md)]. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to install and enable this feature, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).  
   
-Relationship analytics is part of the new *Sales insights add-on* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](../admin/embedded-intelligence.md)  
+Relationship analytics is part of the new *Sales insights add-on* suite of features, all of which are currently in preview. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Embedded intelligence](embedded-intelligence.md)  
   
 <a name="Feedback"></a>
 

@@ -49,9 +49,9 @@ Use the settings on this page to enable preview features in [!INCLUDE[pn_microso
 |**Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**||
 |Enable the Dynamics 365 Text Analytics Preview|More information: [Public Preview: Topic analysis](https://technet.microsoft.com/library/mt752501.aspx)|
 |**Relationship Insights**||
-|Enable Auto Capture|More information: [Preview feature: Auto capture of related emails](auto-capture.md)|
-|Enable Relationship Assistant|More information: [Preview feature: Use relationship assistant to guide customer communications](relationship-assistant.md)|
-|Enable Email Engagement|More information: [Preview feature: Use email engagement to view message interactions](email-engagement.md)|
+|Enable Auto Capture|More information: [Preview feature: Auto capture of related emails](what-are-preview-features-how-do-i-enable-them.md)|
+|Enable Relationship Assistant|More information: [Preview feature: Use relationship assistant to guide customer communications](../sales-enterprise/relationship-assistant.md)|
+|Enable Email Engagement|More information: [Preview feature: Use email engagement to view message interactions](../sales-enterprise/email-engagement.md)|
 
 ### See also
-[What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)
+[What are Preview features and how do I enable them?](../sales-enterprise/what-are-preview-features-how-do-i-enable-them.md)

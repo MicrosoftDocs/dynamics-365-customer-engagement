@@ -6,7 +6,7 @@
 ## [About Unified Interface](about-unified-interface.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
-## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
+## [Enabling preview features](../sales-enterprise/what-are-preview-features-how-do-i-enable-them.md)
 ## [Move between apps](quickly-navigate-office-365-app-launcher.md)
 ## [Sign in to apps](sign-in-office-365-apps.md)
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)
@@ -240,15 +240,6 @@
 ## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
-
-# [Embedded intelligence](embedded-intelligence.md)
-## [Enable and configure embedded intelligence](configure-enable-embedded-intelligence.md)
-## [Guide customer communications](relationship-assistant.md)
-## [Stay updated with Action cards](action-cards-reference.md)
-## [View message interactions](email-engagement.md)
-## [Display emails](auto-capture.md)
-## [View customer activity history](relationship-analytics.md)
-<!--## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
 
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)

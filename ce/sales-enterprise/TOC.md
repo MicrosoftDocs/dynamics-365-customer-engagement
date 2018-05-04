@@ -50,13 +50,15 @@
 ### [Create or edit a campaign](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
-## [Get started with Embedded Intelligence](../admin/embedded-intelligence.md)
-### [Enable and configure embedded intelligence](../admin/configure-enable-embedded-intelligence.md)
-### [Guide customer communications](../admin/relationship-assistant.md)
+## [Get started with Embedded Intelligence](embedded-intelligence.md)
+### [Enable and configure embedded intelligence](configure-enable-embedded-intelligence.md)
+### [Guide customer communications](relationship-assistant.md)
 ### [Stay updated with Action cards](../admin/action-cards-reference.md)
 ### [View message interactions](../admin/email-engagement.md)
 ### [Display emails](../admin/auto-capture.md)
+##[Sales insights add-on]()
 ### [View customer activity history](../admin/relationship-analytics.md)
+<!--### [Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
 
 
 

@@ -84,7 +84,7 @@ Assign user privileges to give access to the Relationship assistant features. Th
 <<add image>>   -->
 4.	On top of the page, select **Save** to save your settings.<br> 
 
-Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/relationship-assistant.md)
+Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/../sales-enterprise/relationship-assistant.md)
 
 ## Enable Email engagement
 Enabling the Email engagement helps the user in your organization to receive alerts and reminders that help build customer relationships.

@@ -35,7 +35,7 @@ Applies to Dynamics 365 (online), version 9.0.2 <br>
   
 -   Review the full interaction history of a single message, or review  KPIs.  
   
-The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Configure and enable embedded intelligence](../admin/configure-enable-embedded-intelligence.md).
+The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
 
 [Watch a short video (3:01) about email engagement](https://go.microsoft.com/fwlink/p/?linkid=839817).  
  
@@ -159,7 +159,7 @@ Using this information, [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.m
 |![Email follow state blocked](../admin/media/email-follow-state-blocked.png "Email follow state blocked")|Indicates that one or more of the current email's recipients have following set to Do Not Allow, which means that you can't follow this message unless you remove the recipients that don't allow following (or change their settings). You now have the following options:<br /><br /> -   Select the **View Preferences** link to open a pop-up window that shows the name and following  preference for each recipient. From here you can open any recipient's record by clicking their name in the list.<br />-   If you have attempted to fix the issue by removing recipients or changing settings, then select **Retry Follow** to try again.<br />-   Select **Don't Follow** to stop attempting to follow this message.|  
   
 > [!NOTE]
->  Within about 15 minutes of the first time a followed message is registered as opened, the system notifies you by creating a new action card for the relationship assistant. The card provides links to the message, related records, and action buttons to generate a call activity, snooze the alert, or dismiss it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/relationship-assistant.md)  
+>  Within about 15 minutes of the first time a followed message is registered as opened, the system notifies you by creating a new action card for the relationship assistant. The card provides links to the message, related records, and action buttons to generate a call activity, snooze the alert, or dismiss it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/../sales-enterprise/relationship-assistant.md)  
   
 <a name="FollowedAttachments"></a>   
 

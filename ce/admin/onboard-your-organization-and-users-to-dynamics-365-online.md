@@ -309,7 +309,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 <a name="Preview"></a>   
 ### Preview features in Dynamics 365 (online)  
- Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Find out what preview features are currently being offered: [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)  
+ Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Find out what preview features are currently being offered: [What are Preview features and how do I enable them?](../sales-enterprise/what-are-preview-features-how-do-i-enable-them.md)  
   
 <a name="Maintenance"></a>   
 ### On-going monitoring, maintenance, and administration  
