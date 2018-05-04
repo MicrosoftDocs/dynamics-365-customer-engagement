@@ -42,7 +42,7 @@ ID of the entity when opened in view editor.
 
 ## editable
 
-Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](#page), [snippets](#snippets), and [weblinks](#weblinks).  
+Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), and [weblinks](liquid-objects.md#weblinks).  
 
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
@@ -112,7 +112,7 @@ A string value indicating the type of editing interface to be presented, for edi
 
 ## entitylist
 
-Loads a given entity list, by name or ID. The properties of the entity list can then be accessed using an [*entitylist*](#entitylist) that will be available within the tag block. To render the actual result records of the entity list, use the entityview tag within the block.  
+Loads a given entity list, by name or ID. The properties of the entity list can then be accessed using an [entitylist object](liquid-objects.md#entitylist) that will be available within the tag block. To render the actual result records of the entity list, use the [entityview](#entityview) tag within the block.  
 
 If the entity list is loaded successfully, the content within the block will be rendered. If the entity list is not found, the block content will not be rendered.
 
@@ -135,11 +135,11 @@ Loaded entity list {{ my_list.adx_name }}.
 
 ### Parameters
 
-Provide**only one** of id, name, or key to select the Entity List to load.
+Provide **only one** of id, name, or key to select the Entity List to load.
 
 **id**
 
-Loads an entity list by [*GUID*](http://en.wikipedia.org/wiki/Globally_unique_identifier) ID. id must be a string that can be parsed as a *GUID*.  
+Loads an entity list by [GUID](http://en.wikipedia.org/wiki/Globally_unique_identifier) ID. id must be a string that can be parsed as a GUID.  
 
 ```
 {% entitylist id:"936DA01F-9ABD-4d9d-80C7-02AF85C822A8" %}
@@ -173,7 +173,8 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 **key**
 
-Loads an entity list by ID**or** name. If the provided key value can be parsed as a [*GUID*](http://en.wikipedia.org/wiki/Globally_unique_identifier), the entity list will be loaded by ID. Otherwise, it will be loaded by name.  
+Loads an entity list by ID **or** name. If the provided key value can be parsed as a [GUID](http://en.wikipedia.org/wiki/Globally_unique_identifier), the entity list will be loaded by ID. Otherwise, it will be loaded by name.
+
 ```
 <!-- key_variable can hold an ID or name -->
 
@@ -198,7 +199,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 ## entityview
 
-Loads a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [*entityview*](#entityview) that will be available within the tag block.  
+Loads a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [entityview object](liquid-objects.md#entityview) that will be available within the tag block.  
 
 If the view is loaded successfully, the content within the block will be rendered. If the view is not found, the block content will not be rendered.
 
@@ -236,7 +237,7 @@ Loaded default view of the entity list associated with the current page, with {{
 
 ### Parameters
 
-Provide**either** id**or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
+Provide **either** id **or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
 
 **id**
 
@@ -296,7 +297,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 {% endentityview %}
 ```
 
-A common use case is to set this parameter based on a [*request*](#request).  
+A common use case is to set this parameter based on a [request](liquid-objects.md#request).  
 
 ```
 {% entityview id:request.params.view, filter:request.params.filter %}
@@ -308,7 +309,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **metafilter**
 
-Specifies the Entity List metadata filter expression by which to filter view results. This parameter is only valid when entityview is used in combination with entitylist. In most cases, this parameter is set based on a [*request*](#request).  
+Specifies the Entity List metadata filter expression by which to filter view results. This parameter is only valid when entityview is used in combination with entitylist. In most cases, this parameter is set based on a [request](liquid-objects.md#request).  
 
 ```
 {% entitylist id:page.adx_entitylist.id %}
@@ -334,7 +335,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 {% endentityview %}
 ```
 
-A common use case is to set this parameter based on a [*request*](#request).  
+A common use case is to set this parameter based on a [request](liquid-objects.md#request).  
 
 ```
 {% entityview id:request.params.view, order:request.params.order %}
@@ -358,7 +359,7 @@ Loaded page {{ entityview.page }} of entity view with {{ entityview.total_record
 {% endentityview %}
 ```
 
-A common use case is to set this parameter based on a [*request*](#request).  
+A common use case is to set this parameter based on a [request](liquid-objects.md#request).  
 
 ```
 {% entityview id:request.params.view, page:request.params.page %}
@@ -370,7 +371,7 @@ Loaded page {{ entityview.page }} of entity view with {{ entityview.total_record
 
 **page\_size**
 
-Specifies the number of results to load for the current result page. If no value is provided for this parameter, and entityview is used within an entitylist block, the entity list page size will be used. If not within an entitylist block, a default value of 10 will be used.
+Specifies the number of results to load for the current result page. If no value is provided for this parameter, and entityview is used within an [entitylist](#entitylist) block, the entity list page size will be used. If not within an entitylist block, a default value of 10 will be used.
 
 This parameter must be passed either an integer value, or a string that can be parsed as an integer. If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as an integer, the default page size will be used.
 
@@ -382,7 +383,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 {% endentityview %}
 ```
 
-A common use case is to set this parameter based on a [*request*](#request).  
+A common use case is to set this parameter based on a [request](liquid-objects.md#request).  
 
 ```
 {% entityview id:request.params.view, page_size:request.params.pagesize %}
@@ -404,7 +405,7 @@ Loaded entity view with {{ entityview.total_records }} total matching records.
 {% endentityview %}
 ```
 
-A common use case is to set this parameter based on a [*request*](#request), so that the search filter can be set based on user input.  
+A common use case is to set this parameter based on a [request](liquid-objects.md#request), so that the search filter can be set based on user input.  
 ```
 {% entityview id:request.params.view, search:request.params.search %}
 
@@ -417,7 +418,7 @@ Loaded entity view with {{ entityview.total_records }} total matching records.
 
 Specifies whether to apply entity permission filtering on view results. This parameter is set to false by default. If entityview is used within an entitylist block, the value of this parameter will be inherited from the entity list configuration.
 
-This parameter must be passed either an [*Liquid types*](liquid-types.md) value, or a string that can be parsed as a Boolean ("true", "false"). If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as a Boolean, the default of false will be used.  
+This parameter must be passed either an [boolean](liquid-types.md#boolean) value, or a string that can be parsed as a Boolean ("true", "false"). If a value is provided for this parameter, but the value is null or otherwise cannot be parsed as a Boolean, the default of false will be used.  
 
 ```
 {% entityview id:request.params.view, enable_entity_permissions:true %}
@@ -443,7 +444,7 @@ Loaded entity view {{ entityview.name }}.
 
 ## searchindex
 
-Performs a query against the portal search index. The matching results can then be accessed using a [*searchindex*](#searchindex) that will be available within the tag block.  
+Performs a query against the portal search index. The matching results can then be accessed using a [searchindex](liquid-objects.md#searchindex) that will be available within the tag block.  
 
 ```
 {% searchindex query: 'support', page: params.page, page_size: 10 %}
@@ -507,7 +508,7 @@ The query used to match results. This parameter is intended to accept the user-s
 {% endsearchindex %}
 ```
 
-A common use case is to set this parameter based on a [*request*](#request).  
+A common use case is to set this parameter based on a [request](liquid-objects.md#request).  
 
 ```
 {% searchindex query: request.params.query %}
@@ -517,7 +518,7 @@ A common use case is to set this parameter based on a [*request*](#request).
 {% endsearchindex %}
 ```
 
-This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
+This parameter supports [the Lucene Query Parser syntax](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).
 
 **filter**
 
@@ -531,7 +532,7 @@ An additional query used to match results. This parameter is intended to accept 
 {% endsearchindex %}
 ```
 
-This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
+This parameter supports [the Lucene Query Parser syntax](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
 
 > [!Note]     
 > The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. So, in the case that parsing query according to this syntax fails, the entire query will be escaped and submitted as the query text. filter, on the other hand, will be parsed strictly and return an error if the case of invalid syntax.
@@ -559,7 +560,7 @@ The search result page to be returned. If not provided, the first page (1) will 
 {% endsearchindex %}
 ```
 
-A common use case is to set this parameter based on a [*request*](#request).  
+A common use case is to set this parameter based on a [request](liquid-objects.md#request).  
 
 ```
 {% searchindex query: request.params.query, page: request.params.page %}
@@ -597,7 +598,7 @@ Having multiple search providers is an advanced configuration that will not appl
 
 ## entityform
 
-Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the Dynamics 365 portal*](entity-forms-custom-logic.md), by name or ID.  
+Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [entity forms](entity-forms-custom-logic.md), by name or ID.  
 
 > [!Note]
 > The entityform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything.                                                                                                                                                                             You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.       

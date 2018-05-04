@@ -22,7 +22,7 @@ Variable tags are used to create new Liquid variables.
 
 ## assign
 
-Creates a new variable. Assignments can also use [*Liquid Filters*](liquid-filters.md) to modify the value.  
+Creates a new variable. Assignments can also use [filters](liquid-filters.md) to modify the value.  
 
 **Code**
 

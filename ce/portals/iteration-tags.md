@@ -24,7 +24,7 @@ Iteration tags are used to run/render a block of code repeatedly.
 
 Executes a block of code repeatedly. It is most commonly used to iterate over the items in an array or dictionary.
 
-Within the for tag block, the [forloop](#forloop) is available.  
+Within the for tag block, the [forloop object](liquid-objects.md#forloop) is available.  
 
 **Code**
 

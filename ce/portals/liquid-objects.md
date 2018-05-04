@@ -545,10 +545,10 @@ Represents a single event occurrence. The associated attributes are given below:
 
 ## forloop
 
-Contains properties useful within a [Iteration tags](#iteration-tags) loop block.  
+Contains properties useful within a [for](iteration-tags.md#for) loop block.  
 
->[!Note]
->forloop can only be used within a [Iteration tags](#iteration-tags) tag.
+> [!Note]
+> forloop can only be used within a [for](iteration-tags.md#for) tag.
 
 **Code**
 
@@ -1042,7 +1042,7 @@ Contains information about the current HTTP request.
 
 ## searchindex
 
-The searchindex object is used within the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags), and provides access to the results of a query.  
+The searchindex object is used within the [Dynamics 365 entity tags](#dynamics-entity-tags.md), and provides access to the results of a query.  
 
 ```
 {% searchindex query: 'support', page: params.page, page_size: 10 %}
