@@ -1,10 +1,10 @@
 ---
 title: "Hosted control types, action, and event reference in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "The section provides information about the various types of hosted controls in Unified Service Desk, and the predefined User Interface Integration (UII) actions and events available for each hosted control type."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 4b891311-28d7-4776-8414-c6d83bfe43bf
 caps.latest.revision: 12
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Hosted control types, action, and event reference in Unified Service Desk
 This section provides information about the various types of hosted controls in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and the predefined [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] actions and events available for each hosted control type. You can also view information about the predefined [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] actions and events for hosted controls in the embedded help in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [View embedded help for actions and events](../unified-service-desk/view-embedded-help-for-actions-and-events.md)  

@@ -1,19 +1,19 @@
 ---
 title: "Project Service Overview (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: dyn365-projectservice
 ms.date: 11/13/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 36c9c3e5-5358-4aef-8d88-5953974b70df
 caps.latest.revision: 36
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Overview of Project Service Automation
 

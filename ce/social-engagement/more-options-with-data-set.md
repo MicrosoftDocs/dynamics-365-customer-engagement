@@ -3,7 +3,7 @@ title: "Work with a data set in Social Engagement | Microsoft Docs"
 description: "Learn how to open a data set in other areas of Social Engagement."
 keywords: "data set, filter, time frame"
 ms.date: 03/19/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Explore more options with your data set

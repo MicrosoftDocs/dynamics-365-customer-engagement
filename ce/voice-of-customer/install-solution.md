@@ -3,7 +3,7 @@ title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
 ms.date: 02/20/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom: dyn365-VoC
 ---
 
 # Install the Voice of the Customer solution

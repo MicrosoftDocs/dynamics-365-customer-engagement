@@ -1,10 +1,10 @@
 ---
 title: "UII actions in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about UII actions in Unified Service Desk that define a specific operation that can be performed when called."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 145b3e99-2423-441e-88ac-ec99b1364ed6
 caps.latest.revision: 6
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # UII actions in Unified Service Desk
 UII action is a concept inherited from [!INCLUDE[pn_user_interface_integration](../includes/pn-user-interface-integration.md)] (UII). UII actions are the core of a hosted control, and define a specific operation that can be performed when called. UII action can be thought of as the public methods that can be called from external components, and are the subject of action calls in [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)]. A hosted control cannot interact with the rest of the application if no UII action is defined or available for the hosted control.  

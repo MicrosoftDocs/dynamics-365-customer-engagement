@@ -3,7 +3,7 @@ title: "Find more relevant content in Social Engagement | Microsoft Docs"
 description: "Learn how to improve search rules to find relevant posts."
 keywords: "search optimization, search topic, search rule"
 ms.date: 10/17/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Refine your search rules to find relevant content

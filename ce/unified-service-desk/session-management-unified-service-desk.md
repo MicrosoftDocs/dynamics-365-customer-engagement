@@ -1,10 +1,10 @@
 ---
 title: "Session management in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about session context and session management in Unified Service Desk."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 9430fbca-3c70-4a62-a259-2c9c00871057
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Session management in Unified Service Desk
 Whenever you search for customer information in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], the system fetches the information from [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)], and stores it in a session. The information about the session and the fetched customer record is stored in the session context. You can view information about the session and the session context in the **$Session** and **$Context** parameters in the **Debugger** hosted control.  

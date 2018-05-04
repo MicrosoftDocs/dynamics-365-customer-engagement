@@ -3,12 +3,12 @@ title: "Develop sales from lead to cash (Dynamics 365 for Sales, Preview) | Micr
 description: "Follow the business process flow of sales in Dynamics 365 for Sales, Preview to close more deals and achieve higher customer satisfaction."
 keywords: "Lead-to-cash; process flow; deals; stage; lead"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom: dyn365-sales
 ms.assetid: 6b003106-a478-4995-8ca7-67dbb59cde28
 author: shubhadaj
 ms.author: shujoshi

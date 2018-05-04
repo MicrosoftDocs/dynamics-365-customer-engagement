@@ -2,17 +2,17 @@
 title: "Administer Social Engagement | Microsoft Docs"
 description: "Learn about the main areas to administer Social Engagement"
 Description: 
-ms.custom: ""
+ms.custom: dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: get-started-article
 applies_to: "Social Engagement"
 ms.assetid: 48e49a2f-d4f8-4fc7-b88d-890c15bfb561
 caps.latest.revision: 33
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---

@@ -5,11 +5,12 @@ keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynami
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 02/20/2018
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
+ms.custom: dyn365-customerservice
 ---
 
 # Learn the basics of the Customer Service Hub

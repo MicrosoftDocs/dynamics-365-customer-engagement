@@ -1,10 +1,10 @@
 ---
 title: "Manage Options for Unified Service Desk for Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Learn how to change the global settings in Unified Service Desk for Dynamics 365 Customer Engagement."
-ms.custom: ""
+ms.custom: dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: be4effc4-a2a8-414b-87a1-a8b303160bac
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---

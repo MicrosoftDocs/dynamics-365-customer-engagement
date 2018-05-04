@@ -9,10 +9,11 @@ applies_to:
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 664c1421-735e-45b9-8c06-7f538cb452b2
 ms.reviewer: renwe
+ms.custom: dyn365-marketing
 ---
 # Analyze your marketing results
 
