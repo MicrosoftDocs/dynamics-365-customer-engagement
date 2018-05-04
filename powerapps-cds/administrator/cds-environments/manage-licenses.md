@@ -29,7 +29,7 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../../includes/pn-c
 > [!TIP]
 >  Get started with the following resources:  
 >   
-> -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
+> -   [Important information for CRM Online customers](important-information-customers.md)  
 > -   Download: [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
 > -   Download: [The Dynamics CRM Online pricing and licensing guide](http://aka.ms/gtn5wt)  
   
@@ -67,6 +67,6 @@ When you purchase a subscription to [!INCLUDE[pn_CRM_Online](../../includes/pn-c
 >  Save your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] data to a location where you can retrieve it later, if needed.  
   
 ### See also  
- [Important information for CRM Online customers](../admin/important-information-customers.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Create users and assign Microsoft Dynamics 365 (online) security roles](../admin/create-users-assign-online-security-roles.md)
+ [Important information for CRM Online customers](important-information-customers.md)   
+ [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)   
+ [Create users and assign Microsoft Dynamics 365 (online) security roles](create-users-assign-online-security-roles.md)

@@ -71,7 +71,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 -   You can back up Production and Sandbox instances.  
   
-- **You can only restore to a Sandbox instance**. To restore to a Production instance, first switch it to a Sandbox instance. See [Switch an instance](../admin/switch-instance.md).  
+- **You can only restore to a Sandbox instance**. To restore to a Production instance, first switch it to a Sandbox instance. See [Switch an instance](switch-instance.md).  
   
 -   Only [!INCLUDE[pn_crm_8_1_0_online_subsequent](../../includes/pn-crm-8-1-0-online-subsequent.md)] or later versions are supported for backup.  
   
@@ -138,7 +138,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
 <a name="BKMK_RestoreBackups"></a>   
 
 ### Restore a Dynamics 365 on-demand backup  
- You can only restore to Sandbox instances. To restore to a Production instance, first switch it to a Sandbox instance, restore to it, and then switch it back to a Production instance. See [Switch an instance](../admin/switch-instance.md).  
+ You can only restore to Sandbox instances. To restore to a Production instance, first switch it to a Sandbox instance, restore to it, and then switch it back to a Production instance. See [Switch an instance](switch-instance.md).  
   
 1. [!INCLUDE[proc_office365_signin](../../includes/proc-office365-signin.md)] You can also sign in with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrator or Delegated Admin security roles.  
   
@@ -187,4 +187,4 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
 7.  Click **Confirm**.  
  
 ### See also  
- [Switch an instance](../admin/switch-instance.md)   
+ [Switch an instance](switch-instance.md)   

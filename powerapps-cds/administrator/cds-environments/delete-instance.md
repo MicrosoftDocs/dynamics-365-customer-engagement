@@ -43,5 +43,5 @@ You can delete [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Sandbo
 Deleting an instance doesn’t change the number of your licenses purchased. For example, say you have two instances - one Sandbox and one production - and you decide to delete your Sandbox instance. After the delete has successfully completed, you’ll see one production instance and one instance to configure in the **Instance** tab of the **Manage your Dynamics 365 updates** page.  
   
 ### See also  
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Switch an instance](../admin/switch-instance.md)
+ [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)   
+ [Switch an instance](switch-instance.md)

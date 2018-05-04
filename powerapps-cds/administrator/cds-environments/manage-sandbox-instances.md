@@ -117,6 +117,6 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 ### See also  
  [Blog: Introducing Sandbox Instances in CRM Online](http://blogs.msdn.com/b/crm/archive/2014/03/20/introducing-sandbox-instances-in-crm-online.aspx)   
- [Switch an instance](../admin/switch-instance.md)   
- [Delete an instance](../admin/delete-instance.md)   
- [Copy an instance](../admin/copy-instance.md)   
+ [Switch an instance](switch-instance.md)   
+ [Delete an instance](delete-instance.md)   
+ [Copy an instance](copy-instance.md)   

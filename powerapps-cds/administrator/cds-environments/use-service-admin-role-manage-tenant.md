@@ -52,5 +52,5 @@ A [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] service admin c
 Users with the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] system admin role or with the **Approve Email Addresses for Users or Queues** privilege can approve [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] email addresses.
   
 ### See also  
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)
+ [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)   
+ [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)

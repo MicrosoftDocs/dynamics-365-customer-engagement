@@ -51,13 +51,13 @@ Switching an instance does not change the number of your purchased licenses. Rev
   
 |Scenario|Result|Notes|  
 |--------------|------------|-----------|  
-|Switch a Production instance to Sandbox. You have unused Sandbox licenses.|A Sandbox license is used.|Sandbox instances have special features such as Reset and Administration modes. See [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md).|  
-|Switch a Production instance to Sandbox. You do not have any unused Sandbox licenses. You have unused Production licenses.|A Production license is used.|Sandbox instances have special features such as Reset and Administration modes. See [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md).|  
-|Switch a Production instance to Sandbox. You do not have any unused Sandbox or Production licenses.|The Production instance is not changed. You need to purchase a Sandbox instance.|Sandbox instances have special features such as Reset and Administration modes. See [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md).|  
+|Switch a Production instance to Sandbox. You have unused Sandbox licenses.|A Sandbox license is used.|Sandbox instances have special features such as Reset and Administration modes. See [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md).|  
+|Switch a Production instance to Sandbox. You do not have any unused Sandbox licenses. You have unused Production licenses.|A Production license is used.|Sandbox instances have special features such as Reset and Administration modes. See [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md).|  
+|Switch a Production instance to Sandbox. You do not have any unused Sandbox or Production licenses.|The Production instance is not changed. You need to purchase a Sandbox instance.|Sandbox instances have special features such as Reset and Administration modes. See [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md).|  
 |Switch a Sandbox instance to Production. You have unused Production licenses.|A Production license is used. A Sandbox instance becomes available.||  
-|Switch a Sandbox instance to Production. You do not have any unused Production licenses.|You will need to purchase a Production license.|See [Add an instance to your subscription](../admin/add-instance-subscription.md).|  
+|Switch a Sandbox instance to Production. You do not have any unused Production licenses.|You will need to purchase a Production license.|See [Add an instance to your subscription](add-instance-subscription.md).|  
   
 ### See also  
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Add an instance to your subscription](../admin/add-instance-subscription.md)
+ [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)   
+ [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md)   
+ [Add an instance to your subscription](add-instance-subscription.md)

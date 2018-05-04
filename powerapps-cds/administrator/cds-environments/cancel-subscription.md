@@ -42,7 +42,7 @@ You should have also made the following decisions:
   
 <a name="BKMK_CancellingCRM"></a>   
 ## Canceling your Dynamics 365 subscription  
- If you have been using [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] for training, demonstrations, or testing and you don’t want to keep any of your data, you can simply contact billing support with the information in [Before you call](../admin/cancel-subscription.md#BKMK_BeforeYouCall). On the [Billing and subscription support](billing-support.md) page select [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. If you want to save your data, you need to also do the following:  
+ If you have been using [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] for training, demonstrations, or testing and you don’t want to keep any of your data, you can simply contact billing support with the information in [Before you call](cancel-subscription.md#BKMK_BeforeYouCall). On the [Billing and subscription support](billing-support.md) page select [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. If you want to save your data, you need to also do the following:  
   
 -   If you want to keep the data, you can export the data. For more information, see [Export Data to Excel](../basics/export-data-excel.md).  
   

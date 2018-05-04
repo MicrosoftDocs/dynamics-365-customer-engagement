@@ -26,7 +26,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../../include
   
  If you’re not sure who your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] admin is, see [Find your Dynamics 365 administrator or support person](../basics/find-administrator-support.md).  
   
- If you want to change who receives email communications, see [Manage email notifications](../admin/manage-email-notifications.md).  
+ If you want to change who receives email communications, see [Manage email notifications](manage-email-notifications.md).  
   
  If you’re a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] admin, you can also see the latest status of updates and incidents in the [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] service health page. To learn how to get to the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] service health page, see [View the status of your services](https://support.office.com/article/View-the-status-of-your-services-932ad3ad-533c-418a-b938-6e44e8bc33b0).  
   
@@ -95,7 +95,7 @@ The [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]
  Improvements in the update process put the power in your hands for scheduling your organization’s service updates. You can choose from a list of available dates. Service updates are only applied after they are approved by the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] admin - please review the important note below outlining the Dynamics 365 online update policy. This helps you to plan well in advance for your upgrade path, while using your sandbox organization to properly test and evaluate the service updates with your existing production code.  
   
 > [!IMPORTANT]
->  Be sure to check out [Update policy](../admin/manage-updates.md#BKMK_Policy) for important information about updating to the latest version.  
+>  Be sure to check out [Update policy](manage-updates.md#BKMK_Policy) for important information about updating to the latest version.  
   
  **How do I find out about service updates?**  
   
@@ -103,7 +103,7 @@ The [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]
   
  In the email, you have the opportunity to either approve the scheduled date or reschedule the update from a list of dates. All customers are updated during the defined service update release period, usually over a three-month window.  
   
- To find out more about rescheduling service updates, see [Manage Dynamics 365 (online) updates](../admin/manage-updates.md).  
+ To find out more about rescheduling service updates, see [Manage Dynamics 365 (online) updates](manage-updates.md).  
   
  To find out what’s new and how to prepare for the next release, check out the following resources:  
   
@@ -193,4 +193,4 @@ Major service incident emails can easily be identified by the orange banner.
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
 
 ### See also  
- [Manage Microsoft Dynamics 365 (online) updates](../admin/manage-updates.md)   
+ [Manage Microsoft Dynamics 365 (online) updates](manage-updates.md)   

@@ -27,7 +27,7 @@ ms.author: jimholtz
 > [!TIP]
 >  Get started with the following resources:  
 >   
-> -   [Important information for CRM Online customers](../admin/important-information-customers.md)  
+> -   [Important information for CRM Online customers](important-information-customers.md)  
 > -   Download: [Dynamics 365 Enterprise Edition Licensing Guide](http://download.microsoft.com/documents/en-us/dynamics/pricing/Dynamics_365_Enterprise_edition_Licensing_Guide.pdf)  
 > - ![Video symbol](../media/video-thumbnail-4.png "Video symbol") Video: [How to buy Dynamics 365](https://www.youtube.com/embed/WOacBzpHwGU?rel=0)  
 > -   [Dynamics 365 Pricing](https://www.microsoft.com/en-us/dynamics365/pricing)  
@@ -81,8 +81,8 @@ Dynamics 365 and PowerApps are now based on the same platform that powers Dynami
 PowerApps users can be licensed in multiple ways. They can be assigned a license by a Global administrator of PowerApps, Flow or many of the Office 365 user licenses (almost all Office 365 user license types) that include PowerApps capabilities.  PowerApps users can also be licensed via self-serve sign-up. See [Manage licenses in my org](https://docs.microsoft.com/powerapps/administrator/signup-question-and-answer).
   
 ### See also  
- [Important information for CRM Online customers](../admin/important-information-customers.md)   
- [Manage Microsoft Dynamics 365 (online) licenses](../admin/manage-licenses.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
+ [Important information for CRM Online customers](important-information-customers.md)   
+ [Manage Microsoft Dynamics 365 (online) licenses](manage-licenses.md)   
+ [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)   
  [Onboard your organization and users to Dynamics 365 (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)   
  [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)

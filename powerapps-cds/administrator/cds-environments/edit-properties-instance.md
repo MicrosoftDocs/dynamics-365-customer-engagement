@@ -63,7 +63,7 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../../includes/
   
     - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the **Manage all Dynamics 365 (online) instances** page, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments, you can enter *Contoso Sales and Marketing* or, if the instance is for development and testing, enter a relevant name such as *Contoso Development*.  
   
-    - **Security Group**. This value is used to determine the security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. Learn more: [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group)  
+    - **Security Group**. This value is used to determine the security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. Learn more: [Control user access to instances: security groups and licenses](add-instance-subscription.md#BKMK_man_sec_group)  
   
         > [!IMPORTANT]
         >  If you do not specify a security group, all users who have a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] license will be added to this instance.  
@@ -71,9 +71,9 @@ Administrators can edit properties of a [!INCLUDE[pn_CRM_Online](../../includes/
 6.  Click **Save**.  
   
 ### See also  
- [Add an instance to your subscription](../admin/add-instance-subscription.md)   
- [Switch an instance](../admin/switch-instance.md)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)   
- [Manage storage for Microsoft Dynamics 365 (online)](../admin/manage-storage.md)
+ [Add an instance to your subscription](add-instance-subscription.md)   
+ [Switch an instance](switch-instance.md)   
+ [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md)   
+ [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)   
+ [Manage storage for Microsoft Dynamics 365 (online)](manage-storage.md)
  [User session and access management](user-session-management.md)

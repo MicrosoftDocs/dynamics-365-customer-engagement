@@ -189,7 +189,7 @@ For more advanced scenarios, consider the following development tools: [Solution
   
 -   [Import accounts, leads, or other data](../basics/import-accounts-leads-other-data.md)  
   
--   [Download a template for data import](../admin/download-template-data-import.md)  
+-   [Download a template for data import](download-template-data-import.md)  
   
 -   [Best practices for migrating your data](https://mbs.microsoft.com/customersource/northamerica/CRM/learning/documentation/DataMigrationCRMOnlineOnboardingSuccess)  
   
@@ -340,7 +340,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
 <a name="Troubleshoot"></a>   
 ### Troubleshooting, FAQ, and support  
   
--   [Troubleshoot Dynamics 365 problems](../admin/troubleshoot-dynamics-365-problems.md)  
+-   [Troubleshoot Dynamics 365 problems](troubleshoot-dynamics-365-problems.md)  
   
 -   [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)  
   

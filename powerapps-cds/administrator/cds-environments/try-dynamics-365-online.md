@@ -125,5 +125,5 @@ The following table shows what’s installed for each choice, what you see in th
 ### See also  
  [Onboard your organization and users to Dynamics 365 (online)](onboard-your-organization-and-users-to-dynamics-365-online.md)   
  [Business apps in Dynamics 365](../basics/business-apps-dynamics-365.md)<br />
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)
+ [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)   
+ [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)

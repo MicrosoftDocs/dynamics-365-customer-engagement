@@ -120,7 +120,7 @@ After modifying and enabling some of the plug-ins, the developer Sandbox instanc
   
 6.  Click **yes** in the confirmation dialog box.  
   
-Once the copy process is complete, the target instance is placed in [Administration mode](../admin/manage-sandbox-instances.md#BKMK_AdminMode) and background operations are disabled. The next section describes recommended Administrator actions for the newly created copy (target) instance.  
+Once the copy process is complete, the target instance is placed in [Administration mode](manage-sandbox-instances.md#BKMK_AdminMode) and background operations are disabled. The next section describes recommended Administrator actions for the newly created copy (target) instance.  
   
 <a name="BKMK_NextSteps"></a>   
 
@@ -173,5 +173,5 @@ Once the copy process is complete, the target instance is placed in [Administrat
   
 ### See also  
  [Introducing Sandbox Instances in CRM Online](http://blogs.msdn.com/b/crm/archive/2014/03/20/introducing-sandbox-instances-in-crm-online.aspx)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)
+ [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md)   
+ [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)

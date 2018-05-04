@@ -49,7 +49,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
   
 - **OData support**: Expose Organization Insights entities through OData for extension by independent software vendors.  
   
-- **Original Organization Insights dashboard**: You can also view metrics using the Organization Insights dashboard released with [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)]. <!-- See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md).--> See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](https://technet.microsoft.com/library/mt703628.aspx). This dashboard does not have all the metrics available with the solution version.  
+- **Original Organization Insights dashboard**: You can also view metrics using the Organization Insights dashboard released with [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)]. <!-- See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md).--> See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](https://technet.microsoft.com/library/mt703628.aspx). This dashboard does not have all the metrics available with the solution version.  
   
 > [!TIP]
 > ![Video symbol](../media/video-thumbnail-4.png "Video symbol") Check out the following video: [Monitor your Dynamics 365 (online) instance with Organization Insights](https://go.microsoft.com/fwlink/p/?linkid=835917).  
@@ -440,5 +440,5 @@ The following is a sample result for the query:
 ```
 
 ### See also  
- [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md)   
+ [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](use-organization-insights-dashboard-view-instance-metrics.md)   
  [Developer Guide for Dynamics  365 Customer Engagement](../developer/developer-guide.md)

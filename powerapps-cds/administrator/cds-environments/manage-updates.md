@@ -31,20 +31,20 @@ You have options for when you update your Dynamics 365 Online organization to [!
 2.  Approve the update.  
   
     > [!IMPORTANT]
-    >  Your instance will not be updated unless you approve it. This means your organization will go without the latest features and functionality until you explicitly give approval for the update to happen. Keep in mind, we do have an update policy that will make some updates mandatory, with no approval required. Please see [Update policy](../admin/manage-updates.md#BKMK_Policy) below for further details.  
+    >  Your instance will not be updated unless you approve it. This means your organization will go without the latest features and functionality until you explicitly give approval for the update to happen. Keep in mind, we do have an update policy that will make some updates mandatory, with no approval required. Please see [Update policy](manage-updates.md#BKMK_Policy) below for further details.  
   
- You’ll receive an email before the service update is available with a scheduled update date. This email will also include instructions about how to reschedule the update, if you choose. You’ll receive reminders 90, 30, 15, and 7 days before the update begins. The service update will happen during a 12-hour window, and during that time your organization might be unavailable for several hours. Most updates typically take 2-4 hours. We’ll let you know when your organization is updated and ready to use. For more information, see the [Schedule for update communications](../admin/manage-updates.md#BKMK_CommSchedule) later in this topic.  
+ You’ll receive an email before the service update is available with a scheduled update date. This email will also include instructions about how to reschedule the update, if you choose. You’ll receive reminders 90, 30, 15, and 7 days before the update begins. The service update will happen during a 12-hour window, and during that time your organization might be unavailable for several hours. Most updates typically take 2-4 hours. We’ll let you know when your organization is updated and ready to use. For more information, see the [Schedule for update communications](manage-updates.md#BKMK_CommSchedule) later in this topic.  
   
 <a name="BKMK_UpdateDynamics365"></a> 
   
 ## Updating to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]  
  [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] is the next generation of intelligent business applications that enable your organization to grow, evolve and transform to meet the needs of your customers and capture new opportunities. Microsoft introduced new plans for customers effective November 1, 2016, that may be similar but not identical to your current plan.  You have some choices to make. Please review the following:  
   
--   [Important information for CRM Online customers](../admin/important-information-customers.md)  
+-   [Important information for CRM Online customers](important-information-customers.md)  
   
--   [Switch from Dynamics CRM Online to Dynamics 365 (online)](../admin/switch-dynamics-crm-online-dynamics-365.md)  
+-   [Switch from Dynamics CRM Online to Dynamics 365 (online)](switch-dynamics-crm-online-dynamics-365.md)  
   
--   [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](../admin/quickly-navigate-office-365-app-launcher.md)  
+-   [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md)  
   
 <a name="BKMK_Policy"></a>   
 
@@ -69,7 +69,7 @@ Here are the recent versions.
  Your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] update process depends on what version you have and how you’d like to update. Consider the following scenarios.  
   
 > [!NOTE]
-> For information on [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 (online) instances](../admin/manage-online-instances.md).  
+> For information on [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances, see [Manage Dynamics 365 (online) instances](manage-online-instances.md).  
   
 ### [!INCLUDE[pn_crm_8_1_0_online_subsequent](../../includes/pn-crm-8-1-0-online-subsequent.md)] – Approach One (recommended)  
  This scenario applies to those who have Production and Sandbox instances of [!INCLUDE[pn_crm_8_1_0_online_subsequent](../../includes/pn-crm-8-1-0-online-subsequent.md)] (n-2).  
@@ -280,7 +280,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 4.  If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you’ll see a page to select a target version. Select a version, and then click **Next**.  
   
     > [!NOTE]
-    >  Large companies with extensive and complex customizations to their [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available. Keep in mind, if you are two versions behind the current version you will have a mandatory update. See [Update policy](../admin/manage-updates.md#BKMK_Policy) for more information.  
+    >  Large companies with extensive and complex customizations to their [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available. Keep in mind, if you are two versions behind the current version you will have a mandatory update. See [Update policy](manage-updates.md#BKMK_Policy) for more information.  
   
 5.  Select new preferred and alternate dates and times for the update, and then click **Next**.  
   
@@ -346,7 +346,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 1. **Know when your update is scheduled.**  
   
-     You will be informed of a pending update in multiple ways. See [How will I know my organization is ready to update?](../admin/manage-updates.md#BKMK_howtoknow) in this topic.  
+     You will be informed of a pending update in multiple ways. See [How will I know my organization is ready to update?](manage-updates.md#BKMK_howtoknow) in this topic.  
   
 2. **Involve your [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] partner.**  
   
@@ -362,7 +362,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 5. **Create a non-production (Sandbox) instance in which you can test your customizations.**  
   
-     Ideally, you should test your customizations prior to update. This will also give you the opportunity to verify compatibility of any third-party customizations. If you identify any potential issues, please work with the solution provider to correct any issues that arise. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)  
+     Ideally, you should test your customizations prior to update. This will also give you the opportunity to verify compatibility of any third-party customizations. If you identify any potential issues, please work with the solution provider to correct any issues that arise. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md)  
   
 6. **Notify your users prior to the update of [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)].**  
   
@@ -395,5 +395,5 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).
   
 ### See also  
- [Policies and Communications for Dynamics 365 (online)](../admin/policies-communications.md)    
- [Manage email notifications](../admin/manage-email-notifications.md)
+ [Policies and Communications for Dynamics 365 (online)](policies-communications.md)    
+ [Manage email notifications](manage-email-notifications.md)

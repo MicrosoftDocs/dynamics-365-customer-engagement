@@ -25,5 +25,5 @@ ms.author: jimholtz
 As a [!INCLUDE[pn_ms_online_services_environment](../../includes/pn-ms-online-services-environment.md)] administrator, you manage the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] subscription, including billing and payments, user licenses, accounts and registration. You do these tasks in the [Office 365 admin center](https://portal.microsoftonline.com/).  
    
 ### See also  
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)<br />
+ [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)<br />
  [Terminology used in the product and documentation](online-terminology.md)

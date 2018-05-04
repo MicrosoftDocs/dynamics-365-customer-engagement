@@ -22,7 +22,7 @@ ms.author: jimholtz
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
+For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   
  Purchase the [!INCLUDE[pn_crm_online_subsequent](../../includes/pn-crm-online-subsequent.md)] instance on the [Purchase subscriptions](https://portal.office.com/Commerce/Catalog.aspx) page. You must have an active [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] account to complete the purchase. Additional storage and instances can be purchased by customers who have a paid [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Professional or [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Enterprise subscription.  
   
@@ -46,7 +46,7 @@ For multinational companies with employees and customers distributed around the 
   
 - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the instance picker. For example, if this instance is for exclusive use by your sales and marketing departments you can enter *Contoso Sales and Marketing* or if the instance is for development and for testing purposes enter a relevant name such as *Contoso Development*.  
   
-- **Instance Security Group**. This value is used to determine the [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. For more information, see [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group).  
+- **Instance Security Group**. This value is used to determine the [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] security group that includes the users who will have access to this instance of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. For more information, see [Control user access to instances: security groups and licenses](add-instance-subscription.md#BKMK_man_sec_group).  
   
     > [!IMPORTANT]
     >  If you do not specify a security group, all users associated with the subscription who have a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] license will be added to the new instance.  
@@ -131,9 +131,9 @@ For multinational companies with employees and customers distributed around the 
     > - Instances that are reset are reset to the current region.  
   
 ### See also  
- [Edit properties of an instance](../admin/edit-properties-instance.md)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Manage Microsoft Dynamics 365 (online) instances](../admin/manage-online-instances.md)   
+ [Edit properties of an instance](edit-properties-instance.md)   
+ [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md)   
+ [Manage Microsoft Dynamics 365 (online) instances](manage-online-instances.md)   
  [Differences between the Microsoft Online services environment administrative roles and Dynamics 365 (online) security roles](grant-users-access.md) <br />
- [Grant users access to Microsoft Dynamics 365 (online) as a Microsoft Online service](../admin/grant-users-access.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)
+ [Grant users access to Microsoft Dynamics 365 (online) as a Microsoft Online service](grant-users-access.md)   
+ [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)

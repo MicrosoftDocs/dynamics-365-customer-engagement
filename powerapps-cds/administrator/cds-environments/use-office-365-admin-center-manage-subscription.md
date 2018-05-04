@@ -45,11 +45,11 @@ ms.author: jimholtz
   
  ![Dynamics 365 option on the Office 365 Admin Center menu](../media/o365-admin-center-crm.png "Dynamics 365 option on the Office 365 Admin Center menu")  
   
- Choose the **Instances** tab to edit, copy, and reset, existing instances, configure new instances, manage preferred solutions, and more. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Dynamics 365 (online) instances](../admin/manage-online-instances.md)  
+ Choose the **Instances** tab to edit, copy, and reset, existing instances, configure new instances, manage preferred solutions, and more. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Dynamics 365 (online) instances](manage-online-instances.md)  
   
  ![Dynamics 365 Administration Center Instances tab](../media/crm-admin-center-instances.png "Dynamics 365 Administration Center Instances tab")  
   
- Choose the **Updates** tab to approve and schedule updates, change the update target version, and open [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Dynamics 365 (online) updates](../admin/manage-updates.md)  
+ Choose the **Updates** tab to approve and schedule updates, change the update target version, and open [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage Dynamics 365 (online) updates](manage-updates.md)  
   
  ![Dynamics 365 Administration Center - Updates tab](../media/crm-admin-center-updates.png "Dynamics 365 Administration Center - Updates tab")  
   
@@ -90,7 +90,7 @@ More information: [Contact Technical Support](contact-technical-support.md)
 > [!NOTE] 
 > [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] through an [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] user ID that is created and managed in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)]. For simplicity, we’ll refer to the [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] user ID in this documentation.  
   
- If your company uses on-premises [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] for user identity, you have options that can simplify user management such as providing a single sign-on experience for your users. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage user account synchronization](../admin/manage-user-account-synchronization.md)  
+ If your company uses on-premises [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] for user identity, you have options that can simplify user management such as providing a single sign-on experience for your users. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage user account synchronization](manage-user-account-synchronization.md)  
   
 <a name="BKMK_ManageLicensing"></a>   
 ## Manage subscriptions  

@@ -35,9 +35,9 @@ Each user signs in to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]
 > [!NOTE]
 > [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] through an [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] user ID that’s created and managed in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)]. For simplicity, we will refer to the [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] user ID in this documentation.  
   
- If you company uses on-premises [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] for user identity, you have options that can simplify user management such as providing a single sign-on experience for your users. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage user account synchronization](../admin/manage-user-account-synchronization.md)  
+ If you company uses on-premises [!INCLUDE[pn_Active_Directory](../../includes/pn-active-directory.md)] for user identity, you have options that can simplify user management such as providing a single sign-on experience for your users. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage user account synchronization](manage-user-account-synchronization.md)  
   
 ### See also  
  [What is my user ID and why do I need it for Office 365?](https://support.office.com/article/What-is-my-user-ID-and-why-do-I-need-it-for-Office-365-37da662b-5da6-4b56-a091-2731b2ecc8b4)   
- [Use the Office 365 admin center to manage your Dynamics 365 (online) subscription](../admin/use-office-365-admin-center-manage-subscription.md)   
+ [Use the Office 365 admin center to manage your Dynamics 365 (online) subscription](use-office-365-admin-center-manage-subscription.md)   
  [Create users and assign security roles](create-users-assign-online-security-roles.md)

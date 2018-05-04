@@ -42,7 +42,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 - **Purpose**. This value is used to associate the instance with a specific intent and is only displayed in the instance picker, which is accessed through the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)]. For example, if this instance is for exclusive use by your sales and marketing departments you can enter *Contoso Sales and Marketing* or if the instance is for development and for testing purposes enter a relevant name such as *Contoso Development*.  
   
-- **Security Group**. This value is used to determine the [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] security group that includes the users who will have access to this instance of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. For more information, see [Control user access to instances: security groups and licenses](../admin/add-instance-subscription.md#BKMK_man_sec_group).  
+- **Security Group**. This value is used to determine the [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] security group that includes the users who will have access to this instance of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. For more information, see [Control user access to instances: security groups and licenses](add-instance-subscription.md#BKMK_man_sec_group).  
   
     > [!IMPORTANT]
     >  If you do not specify a security group, all users associated with the subscription who have a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] license will be added to the new instance.  
@@ -140,7 +140,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 -   If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
 > [!NOTE]
->  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] security roles to access [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] security roles in the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 (online)](../admin/grant-users-access.md).  
+>  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] security roles to access [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] security roles in the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 (online)](grant-users-access.md).  
   
 ### Create a security group and add members to the security group  
   
@@ -185,7 +185,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
 > -   Sign back in to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] and the [!INCLUDE[pn_MS_Online_Services_Portal](../../includes/pn-ms-online-services-portal.md)].  
   
 ### See also  
- [Edit properties of an instance](../admin/edit-properties-instance.md)   
- [Manage Dynamics 365 (online) Sandbox instances](../admin/manage-sandbox-instances.md)   
- [Grant users access to Microsoft Dynamics 365 (online)](../admin/grant-users-access.md)   
- [Manage subscriptions, licenses, and user accounts](../admin/manage-subscriptions-licenses-user-accounts.md)
+ [Edit properties of an instance](edit-properties-instance.md)   
+ [Manage Dynamics 365 (online) Sandbox instances](manage-sandbox-instances.md)   
+ [Grant users access to Microsoft Dynamics 365 (online)](grant-users-access.md)   
+ [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
