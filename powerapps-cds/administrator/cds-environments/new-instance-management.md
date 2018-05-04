@@ -1,5 +1,5 @@
 ---
-title: Preview feature: What's new for instance management  | Microsoft Docs
+title:  What's new for instance management  | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Switch an instance | Microsoft Docs
+title:  Switch an instance | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

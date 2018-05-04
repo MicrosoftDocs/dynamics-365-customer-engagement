@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Add and edit multiregional instances | Microsoft Docs
+title:  Add and edit multiregional instances | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

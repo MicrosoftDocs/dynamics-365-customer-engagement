@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Manage licenses  | Microsoft Docs
+title:  Manage licenses  | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

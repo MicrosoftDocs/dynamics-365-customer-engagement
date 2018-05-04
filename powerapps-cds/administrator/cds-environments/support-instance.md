@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Manage Support instances | Microsoft Docs
+title:  Manage Support instances | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

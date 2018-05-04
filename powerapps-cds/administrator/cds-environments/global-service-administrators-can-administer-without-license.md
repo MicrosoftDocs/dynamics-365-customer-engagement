@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Global and Service administrators can administer without a license | Microsoft Docs
+title:  Global and Service administrators can administer without a license | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

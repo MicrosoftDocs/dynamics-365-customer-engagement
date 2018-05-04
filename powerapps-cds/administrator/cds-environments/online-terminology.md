@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Terminology used in the product and documentation  | Microsoft Docs
+title:  Terminology used in the product and documentation  | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

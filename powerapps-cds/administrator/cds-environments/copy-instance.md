@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Copy an instance to a Sandbox instance | Microsoft Docs
+title:  Copy an instance to a Sandbox instance | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

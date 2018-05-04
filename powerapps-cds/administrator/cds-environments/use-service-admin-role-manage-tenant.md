@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Use the service admin role to manage your tenant  | Microsoft Docs
+title:  Use the service admin role to manage your tenant  | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

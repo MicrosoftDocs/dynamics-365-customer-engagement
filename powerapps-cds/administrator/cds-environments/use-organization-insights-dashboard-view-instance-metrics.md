@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Use the Organization Insights dashboard to view metrics about your instance  | Microsoft Docs
+title:  Use the Organization Insights dashboard to view metrics about your instance  | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

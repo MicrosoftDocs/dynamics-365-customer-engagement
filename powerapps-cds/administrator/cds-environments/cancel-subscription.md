@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Cancel your subscription | Microsoft Docs
+title:  Cancel your subscription | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

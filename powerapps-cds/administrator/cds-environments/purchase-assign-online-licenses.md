@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Purchase and assign Dynamics 365 (online) licenses  | Microsoft Docs
+title:  Purchase and assign Dynamics 365 (online) licenses  | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps

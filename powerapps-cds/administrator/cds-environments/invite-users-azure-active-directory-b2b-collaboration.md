@@ -1,5 +1,5 @@
 ---
-title: Preview feature: Invite users with Azure Active Directory B2B collaboration | Microsoft Docs
+title:  Invite users with Azure Active Directory B2B collaboration | Microsoft Docs
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps
