@@ -484,5 +484,5 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
-- name: Known issues in Unified Service Desk
-  href: known-issues.md
+- name: Release notes of Unified Service Desk
+  href: release-notes.md
