@@ -14,7 +14,7 @@ ms.service: crm-online
 ms.assetid: 7bb3b4c0-8ffb-42c3-aecc-c730bdad2e5e
 ---
 
-# Create and manage a holiday schedule
+# Create and manage holiday schedules
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
