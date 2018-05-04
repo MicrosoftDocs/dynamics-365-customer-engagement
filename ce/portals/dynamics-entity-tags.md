@@ -1,586 +1,26 @@
 ---
-title: "Use tags for a portal in Dynamics 365 | MicrosoftDocs"
-description: "Learn about various liquid tags available in portal."
-ms.custom: ""
-ms.date: 09/28/2017
+title: "Use Dynamics 365 tags for a portal in Dynamics 365 | MicrosoftDocs"
+description: "Learn about Dynamics 365 tags available in portal"
+keywords: "Dynamics 365 tags; liquid tags"
+ms.date: 05/04/2018
 ms.service: crm-online
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
-ms.assetid: 18dc6cfa-101c-4104-86b9-59a130fdcbfd
-ms.reviewer: ""
-redirect_url: /dynamics365/customer-engagement/portals/liquid-tags
+applies_to:
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 2D37443F-6DF7-440C-8E7E-5197546B1C92
 author: sbmjais
 ms.author: shjais
 manager: sakudes
+ms.reviewer: 
+topic-status: Drafting
 ---
-# Available tags
 
-The following topics describe each type of tag:
-- [Control flow tags](#control-flow-tags)
-- [Iteration tags](#iteration-tags)
-- [Variable tags](#variable-tags)
-- [Template tags](#template-tags)
-- [Dynamic 365 entity tags](#dynamics-365-entity-tags)  
-
-## Control flow tags
-
-Control Flow tags determine which block of code should be executed and what content should be rendered based on given conditions. Conditions are built using the available [Liquid operators](liquid-operators.md), or just based on [Conditional](#conditional).  
-
-### **if**
-
-Executes a block of code if a given condition is met.
-
-```
-{% if user.fullname == 'Dave Bowman' %}
-
-Hello, Dave.
-
-{% endif %}
-```
-
-### **unless**
-
-Like if, except it executes a block of code if a given condition is**not** met.
-
-```
-{% unless page.title == 'Home' %}
-
-This is not the Home page.
-
-{% endunless %}
-```
-
-### **elsif/else**
-
-Adds more conditions to an if or unless block.
-
-```
-{% if user.fullname == 'Dave Bowman' %}
-
-Hello, Dave.
-
-{% elsif user.fullname == 'John Smith' %}
-
-Hello, Mr. Smith.
-
-{% else %}
-
-Hello, stranger.
-
-{% endif %}
-```
-
-### **case/when**
-
-A switch statement to compare a variable to different values, and execute a different block of code for each value.
-
-```
-{% case user.fullname %}
-
-{% when 'Dave Bowman' %}
-
-Hello, Dave.
-
-{% when 'John Smith' %}
-
-Hello, Mr. Smith.
-
-{% else %}
-
-Hello, stranger.
-
-{% endcase %}
-```
-
-## Iteration tags
-
-Iteration tags are used to run/render a block of code repeatedly.
-
-### **for**
-
-Executes a block of code repeatedly. It is most commonly used to iterate over the items in an array or dictionary.
-
-Within the for tag block, the [*forloop*](#forloop) is available.  
-
-**Code**
-
-```
-{% for child_page in page.children %}
-
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
-
-{% endfor %}
-```
-
-**Output**
-
-```
-<a href="/parent/child1/">Child 1</a>
-
-<a href="/parent/child2/">Child 2</a>
-
-<a href="/parent/child3/">Child 3</a>
-```
-
-### **Parameters**
-
-These parameters of for can be used alone, or in combination.
-
-**limit**
-
-Exits the loop after a given number of items.
-
-**Code**
-
-```
-{% for child_page in page.children limit:2 %}
-
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
-
-{% endfor %}
-```
-
-**Output**
-
-```
-<a href="/parent/child1/">Child 1</a>
-
-<a href="/parent/child2/">Child 2</a>
-```
-
-**offset**
-
-Starts the loop at given index.
-
-**Code**
-
-```
-{% for child_page in page.children offset:1 %}
-
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
-
-{% endfor %}
-```
-
-**Output**
-
-```
-<a href="/parent/child2/">Child 2</a>
-
-<a href="/parent/child3/">Child 3</a>
-```
-
-**range**
-
-Defines a range of numbers to loop through.
-
-**Code**
-
-```
-{% assign n = 4 %}
-
-{% for i in (2..n) %}
-
-{{ i }}
-
-{% endfor %}
-
-{% for i in (10..14) %}
-
-{{ i }}
-
-{% endfor }}
-```
-
-**Output**
-
-```
-2 3 4
-
-10 11 12 14
-```
-
-**reversed**
-
-Iterates through the loop in reverse order, starting from the last item.
-
-**Code**
-
-```
-{% for child_page in page.children reversed %}
-
-<a href="{{ child_page.url }}">{{ child_page.title }}</a>
-
-{% endfor %}
-```
-
-**Output**
-
-```
-<a href="/parent/child3/">Child 3</a>
-
-<a href="/parent/child2/">Child 2</a>
-
-<a href="/parent/child1/">Child 1</a>
-```
-
-### **cycle**
-
-Loops through a group of strings and outputs them in the order that they were passed as parameters. Each time cycle is called, the next string that was passed as a parameter is output.
-
-**Code**
-
-```
-{% for item in items %}
-
-<div class="{% cycle 'red', 'green', 'blue' %}"> {{ item }} </div>
-
-{% end %}
-```
-
-**Output**
-
-```
-<div class="red"> Item one </div>
-
-<div class="green"> Item two </div>
-
-<div class="blue"> Item three </div>
-
-<div class="red"> Item four </div>
-
-<div class="green"> Item five</div>
-```
-
-### **tablerow**
-
-Generates an HTML table. Must be wrapped in an opening &lt;table&gt; and closing &lt;/table&gt; HTML tags.
-
-Within the tablerow tag block, the [*tablerowloop*](#tablerowloop) is available.  
-
-**Code**
-
-```
-<table>
-
-{% tablerow child_page in page.children %}
-
-{{ child_page.title }}
-
-{% endtablerow %}
-
-</table>
-```
-
-**Output**
-
-```
-<table>
-
-<tr class="row1">
-
-<td class="col1">
-
-Child Page 1
-
-</td>
-
-<td class="col2">
-
-Child Page 2
-
-</td>
-
-<td class="col3">
-
-Child Page 3
-
-</td>
-
-<td class="col4">
-
-Child Page 4
-
-</td>
-
-</tr>
-
-</table>
-```
-
-### **Parameters**
-
-These parameters of tablerowcan be used alone, or in combination.
-
-**Output**
-
-```
-<table>
-
-<tr class="row1">
-
-<td class="col1">
-
-Child Page 1
-
-</td>
-
-<td class="col2">
-
-Child Page 2
-
-</td>
-
-</tr>
-
-<tr class="row2">
-
-<td class="col3">
-
-Child Page 3
-
-</td>
-
-<td class="col4">
-
-Child Page 4
-
-</td>
-
-</tr>
-
-</table>
-```
-
-**Code**
-
-```
-<table>
-
-{% tablerow child_page in page.children cols:2 %}
-
-{{ child_page.title }}
-
-{% endtablerow %}
-
-</table>
-```
-
-Dictates how many rows the generated table should have.
-
-**cols**
-
-**limit**
-
-Exits the loop after a given number of items.
-
-**Code**
-
-```
-<table>
-
-{% tablerow child_page in page.children limit:2 %}
-
-{{ child_page.title }}
-
-{% endtablerow %}
-
-</table>
-```
-
-**Output**
-
-```
-<table>
-
-<tr class="row1">
-
-<td class="col1">
-
-Child Page 1
-
-</td>
-
-<td class="col2">
-
-Child Page 2
-
-</td>
-
-</tr>
-
-</table>
-
-offset
-```
-
-Starts the loop at given index.
-
-**Code**
-
-```
-<table>
-
-{% tablerow child_page in page.children offset:2 %}
-
-{{ child_page.title }}
-
-{% endtablerow %}
-
-</table>
-```
-
-**Output**
-
-```
-<table>
-
-<tr class="row1">
-
-<td class="col1">
-
-Child Page 3
-
-</td>
-
-<td class="col2">
-
-Child Page 4
-
-</td>
-
-</tr>
-
-</table>
-```
-
-**range**
-
-Defines a range of numbers to loop through.
-
-**Code**
-
-```
-<table>
-
-{% tablerow i in (1..3) %}
-
-{{ i }}
-
-{% endtablerow %}
-
-</table>
-```
-## Variable tags
-
-Variable tags are used to create new Liquid variables.
-
-### **assign**
-
-Creates a new variable. Assignments can also use [*Liquid Filters*](liquid-filters.md) to modify the value.  
-
-**Code**
-
-```
-{% assign is_valid = true %}
-
-{% if is_valid %}
-
-It is valid.
-
-{% endif %}
-
-{% assign name = "dave bowman' | upcase %}
-
-{{ name }}
-```
-
-**Output**
-
-```
-It is valid.
-
-DAVE BOWMAN
-```
-
-### **capture**
-
-Captures the content within its block and assigns it to a variable. This content can then be rendered later by using output tags.
-
-**Code**
-
-```
-{% capture hello %}Hello, {{ user.fullname }}.{% endcapture %}
-
-{{ hello }}
-
-{{ hello }}
-```
-
-**Output**
-
-```
-Hello, DAVE BOWMAN.
-
-Hello, DAVE BOWMAN.
-```
-
-## Template tags
-
-Template tags control the output of a template in various ways, and allow the combination of multiple templates into a single output.
-
-### **include**
-
-Includes the contents of one template in another, by name. In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals, the source of this other template will generally be a [*web template*](store-content-web-templates.md). This allows for the reuse of common template fragments in multiple places.  
-
-When a template is included in another, the included template will have access to any variables defined in the parent template.
-
-`{% include 'My Template' %}`
-
-It's also possible to pass any number of named parameters to the include tag. These will then be defined as variables in the included template.
-
-`{% include 'My Template' a:x, b:y %}`
-
-### **block**
-
-Used in conjunction with extends to provide template inheritance. See extends for usage.
-
-### **extends**
-
-Used in conjunction with the block tag, provides template inheritance. This allows multiple templates to use a shared layout, while overriding specific areas of the parent layout.
-
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals, the parent template name provided to the tag will generally refer to the name of a [*web template*](store-content-web-templates.md).  
-
-When extends is used, it must be the first content in the template, and can only be followed by one or more block tags.
-
-If a block defined in the parent template is not overridden, its contents in the parent template (if any) will be rendered.
-
-### **comment**
-
-Allows you to leave un-rendered code inside a Liquid template. Any content within the block will not be rendered, and any Liquid code within will not be executed.
-
-**Code**
-
-`Hello{% comment %}, {{ user.fullname }}{% endcomment %}. My name is Charles.`
-
-**Output**
-
-`Hello. My name is Charles.`
-
-### **raw**
-
-Allows output of Liquid code on a page without having it parsed and executed.
-
-**Output**
-
-`Hello, {{ user.fullname }}. My name is Charles.`
-
-## Dynamics 365 entity tags
+# Dynamics 365 entity tags
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags are used to load and display [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] data, or use other [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals framework services. These tags are [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-specific extensions to the Liquid language.
 
-### chart
+## chart
 
 Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page. The chart tag can be added in the Copy field on a Web Page or in the Source field on a Web Template. For steps to add a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a web page, see [Add a Dynamics 365 chart to a web page in portal](add-chart.md).
 
@@ -588,7 +28,7 @@ Adds a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] chart to a we
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
 ```
 
-#### Parameters
+### Parameters
 
 There are two parameters to be provided with the chart tag: chart id and viewid.
 
@@ -600,7 +40,7 @@ Visualization ID of the chart. You can get this by exporting the chart.
 
 ID of the entity when opened in view editor. 
 
-### **editable**
+## editable
 
 Renders a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals CMS object as [Use the front-side editing engine to publish content](publish-content-editing-engine.md), for users with content editing permission for that object. Editable objects include [page](#page), [snippets](#snippets), and [weblinks](#weblinks).  
 
@@ -636,7 +76,7 @@ certain classes on the containing element, as demonstrated here.
 {% endif %}
 ```
 
-### **Parameters**
+### Parameters
 
 The first parameter provided to editable is the editable object. For example, this may be a web link set, snippets, or the current page. The optional second parameter is to specify an attribute name or key within that object that is to be rendered and edited. This may be the name of an entity attribute, or a snippet name, for example.
 
@@ -670,7 +110,7 @@ Specifies a label for this editable item within the content editing interface. I
 
 A string value indicating the type of editing interface to be presented, for editable text values. Valid values for this parameter are html or text. html is the default.
 
-### **entitylist**
+## entitylist
 
 Loads a given entity list, by name or ID. The properties of the entity list can then be accessed using an [*entitylist*](#entitylist) that will be available within the tag block. To render the actual result records of the entity list, use the entityview tag within the block.  
 
@@ -693,7 +133,7 @@ Loaded entity list {{ my_list.adx_name }}.
 {% endentitylist %}
 ```
 
-### **Parameters**
+### Parameters
 
 Provide**only one** of id, name, or key to select the Entity List to load.
 
@@ -756,7 +196,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 {% endentitylist %}
 ```
 
-### **entityview**
+## entityview
 
 Loads a given [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view, by name or ID. The properties of the view ߝ view column metadata, paginated result records, etc. can then be accessed using an [*entityview*](#entityview) that will be available within the tag block.  
 
@@ -794,7 +234,7 @@ Loaded default view of the entity list associated with the current page, with {{
 {% endentitylist %}
 ```
 
-### **Parameters**
+### Parameters
 
 Provide**either** id**or** logical\_name with name to select the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] view to load. If neither is provided, and the entityview tag is nested within an entitylist tag, the default view of the enclosing entitylist will be loaded.
 
@@ -1001,7 +441,7 @@ Loaded entity view {{ entityview.name }}.
 {% endentitylist %}
 ```
 
-### **searchindex**
+## searchindex
 
 Performs a query against the portal search index. The matching results can then be accessed using a [*searchindex*](#searchindex) that will be available within the tag block.  
 
@@ -1051,7 +491,7 @@ By default, the search index object will be given the variable name searchindex.
 {% endsearchindex %}
 ```
 
-### **Parameters**
+### Parameters
 
 The searchindex tag accepts the following parameters.
 
@@ -1094,7 +534,7 @@ An additional query used to match results. This parameter is intended to accept 
 This parameter supports [*the Lucene Query Parser syntax*](http://lucene.apache.org/core/2_9_4/queryparsersyntax.html).  
 
 > [!Note]     
- > The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. So, in the case that parsing query according to this syntax fails, the entire query will be escaped and submitted as the query text. filter, on the other hand, will be parsed strictly and return an error if the case of invalid syntax.
+> The difference between filter and query is that while both will accept the Lucene Query Parser syntax, query is intended to be more forgiving about how this syntax is parsed ߝ as it's expected that most end users will not be aware of this syntax. So, in the case that parsing query according to this syntax fails, the entire query will be escaped and submitted as the query text. filter, on the other hand, will be parsed strictly and return an error if the case of invalid syntax.
 
 **logical\_names**
 
@@ -1155,7 +595,7 @@ Having multiple search providers is an advanced configuration that will not appl
 {% endsearchindex %}
 ```
 
-### **entityform**
+## entityform
 
 Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured [*Define entity forms and custom logic within the Dynamics 365 portal*](entity-forms-custom-logic.md), by name or ID.  
 
@@ -1164,33 +604,30 @@ Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-conf
 
 `{% entityform name: 'My Entity Form' %}`
 
-### **Parameters**
+### Parameters
 
-### **name**
+**name**
 
 The name of the Entity Form you wish to load.
 
-```
-{% entityform name:"My Entity Form" %}
-
-{% webform name:"My Web Form" %}
-```
-
-The name of the Web Form you wish to load.
-
-### **name**
-
-### **Parameters**
+`{% entityform name:"My Entity Form" %}`
 
 ### **webform**
 
-Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a *[web template](store-content-web-templates.md)–*based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
+Fully renders a [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]-configured web form, by name or ID. The webform tag is only available for use in content rendered inside a [web template](store-content-web-templates.md) based page template. Attempting to use the tag inside a Rewrite-based Page Template will not render anything. You may only render a single entityform or webform tag per page. entityform or webform tags after the first will not be rendered.                
 `{% webform name: 'My Web Form' %}`
+
+### Parameters
+
+**name**
+
+The name of the Web Form you wish to load.
+
+`{% webform name:"My Web Form" %}`
 
 ### See also
 
-[Add dynamic content and create custom templates](custom-templates-dynamic-content.md)  
-[Liquid types](liquid-types.md)  
-[Liquid Objects](liquid-objects.md)  
-[Liquid Tags](liquid-tags.md)  
-[Liquid Filters](liquid-filters.md) 
+[Control flow tags](control-flow-tags.md)<br>
+[Iteration tags](iteration-tags.md)<br>
+[Variable tags](variable-tags.md)<br>
+[Template tags](template-tags.md)
