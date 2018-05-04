@@ -128,7 +128,7 @@ The following shows a sample app.config file. To use this, remove the comment ch
 
 ## Example
 
-[!code-csharp[QuickStartCS#SimplifiedConnection](../../snippets/csharp/CRMV8/quickstartcs/cs/simplifiedconnection.cs#simplifiedconnection)]  
+<!-- [!code-csharp[QuickStartCS#SimplifiedConnection](../../snippets/csharp/CRMV8/quickstartcs/cs/simplifiedconnection.cs#simplifiedconnection)]   -->
 
 ### See also
 [Use connection strings in XRM tooling to connect to Dynamics 365](use-connection-strings-xrm-tooling-connect.md)<br />
