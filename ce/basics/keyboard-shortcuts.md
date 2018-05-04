@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. 
+Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. 
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 
@@ -231,7 +231,7 @@ If you’re in a record—for example, a lead—this section shows you the keybo
 > The process name is an icon at the bottom of the page, not the top.
 
 - **Keyboard shortcuts in Windows**: If you are using the Windows operating system, select the following link and choose the version number from the drop-down. You can view all the shortcuts that are applicable to a Windows environment. See [Windows keyboard shortcuts](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts) 
-- **Keyboard shortcuts in Mac:** If you are using Mac operating system, select the following link to view all the shortcuts that are applicable to a Mac environment. See [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236).
+- **Keyboard shortcuts in Mac**: If you are using Mac operating system, select the following link to view all the shortcuts that are applicable to a Mac environment. See [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236).
 
 ## See also
 
