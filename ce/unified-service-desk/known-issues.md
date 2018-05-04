@@ -21,9 +21,6 @@ manager: "sakudes"
 
 This section describes the known issues in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-> [!IMPORTANT] 
-> Applies to [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] and [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
-
 ## Best Practices Analyzer
 
 **Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
