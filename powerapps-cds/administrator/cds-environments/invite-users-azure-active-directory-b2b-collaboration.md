@@ -18,7 +18,7 @@ ms.date: 03/21/2018
 ms.author: jimholtz
 
 ---
-# Invite users with Azure Active Directory B2B collaboration
+# Invite users with Azure Active Directory B2B collaboration 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 

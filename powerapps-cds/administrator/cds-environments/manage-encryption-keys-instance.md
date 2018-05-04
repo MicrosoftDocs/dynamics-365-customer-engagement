@@ -18,7 +18,7 @@ ms.date: 03/21/2018
 ms.author: jimholtz
 
 ---
-# Manage the encryption keys
+# Manage the encryption keys 
 
 [!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
