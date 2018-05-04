@@ -2,7 +2,7 @@
 # [Overview](overview.md)
 # [What's new](whats-new-field-service-project-service.md)
 
-# Administrator guide
+# Admin guide
 ## [Field service installation](install-field-service.md)
 ## [Sample data installation](use-demo-data.md)
 ## [Mobile solution installation](install-the-mobile-app.md)
@@ -61,9 +61,6 @@
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
 
 # [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-## [Resource scheduling optimization (../common-scheduler/resource-scheduling-optimization.md)
-## [Create custom geospatial data provider plugin (../common-scheduler/use-preferred-geospatial-data-provider.md)
-
 
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
