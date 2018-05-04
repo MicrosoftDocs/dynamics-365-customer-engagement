@@ -31,8 +31,10 @@ optionset, multiselectoptionset
 
 ### Related topics
 
+[addOption](addOption.md)
+
 [clearOptions](clearOptions.md)
 
-[removeOptions](removeOption.md) 
+ 
 
 
