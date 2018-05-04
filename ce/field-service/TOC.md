@@ -2,13 +2,13 @@
 # [What's new](whats-new-field-service-project-service.md)
 
 # Administrator guide
-## [Install](install-field-service.md)
-## [Experiment with demo data](use-demo-data.md)
-## [View user accounts and security roles](view-user-accounts-security-roles.md)
-## [Configure default settings](configure-default-settings.md)
-## [Turn on auto geocoding](turn-on-auto-geocoding.md)
-## [Mobile app installation](install-the-mobile-app.md)
+## [Field service installation](install-field-service.md)
+## [Sample data installation](use-demo-data.md)
+## [Mobile solution installation](install-the-mobile-app.md)
 ## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
+## [User security roles and accounts](view-user-accounts-security-roles.md)
+## [Org-wide default settings](configure-default-settings.md)
+## [Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
 ## Resource setup
 ### [Bookable resources](set-up-bookable-resources.md)
 ### [Bookable resource categories](set-up-bookable-resource-categories.md)
