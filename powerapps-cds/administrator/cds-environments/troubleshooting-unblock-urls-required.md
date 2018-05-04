@@ -1,5 +1,5 @@
 ---
-title:  Troubleshooting: Unblock required URLs | Microsoft Docs
+title:  "Troubleshooting: Unblock required URLs | Microsoft Docs"
 description: In this quickstart, you learn how to download a list of apps created in your environments
 services: 'powerapps'
 suite: powerapps
@@ -18,7 +18,7 @@ ms.date: 03/21/2018
 ms.author: jimholtz
 
 ---
-# Troubleshooting: Unblock required URLs
+# Troubleshooting: Unblock required URLs 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
