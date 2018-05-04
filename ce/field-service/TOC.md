@@ -1,4 +1,5 @@
- wor# [Overview](overview.md)
+
+wor# [Overview](overview.md)
 # [What's new](whats-new-field-service-project-service.md)
 
 # Administrator guide
@@ -17,7 +18,8 @@
 ## Booking setup
 ### [Booking statuses](set-up-booking-statuses.md)
 ### [Booking rules](set-up-booking-rules.md)
-### [Territories](set-up-territories.md)### [Postal codes](set-up-postal-codes.md)
+### [Territories](set-up-territories.md)
+### [Postal codes](set-up-postal-codes.md)
 ## Work order setup
 ### [Incident types](configure-incident-types.md)
 ### [Priorities](set-priorities.md)
