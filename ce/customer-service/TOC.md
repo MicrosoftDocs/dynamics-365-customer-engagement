@@ -24,7 +24,7 @@
 ### [Embedded Knowledge Search](set-up-knowledge-management-embedded-knowledge-search.md)
 #### [Search in Knowledge base](knowledge-base-search.md)
 #### [Find Knowledge articles within records ](find-knowledge-articles-within-record-dynamics-365.md)
-### Categories
+### [Categories](create-manage-categories.md)
 ### [Entitlement Templates](set-up-entitlements-templates.md)
 
 

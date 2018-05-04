@@ -66,7 +66,7 @@ Use the following links to learn about Service Management tasks:
 
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)
 
-Categories
+[Categories](create-manage-categories.md)
 
 ## Templates
 
