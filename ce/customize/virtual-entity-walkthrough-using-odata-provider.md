@@ -19,9 +19,13 @@ ms.author: "matp"
 manager: "kvivek"
 ---
 
-# About this virtual entity walkthrough
+# Virtual entity walkthrough using the OData v4 Data Provider
 
-Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement. The data source containing the ticket data has an OData web service. In this simple walkthrough, you create an entity with fields mapped to the external data source.
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+
+## About this virtual entity walkthrough
+
+Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Engagement. In this simple walkthrough, you'll model a virtual entity with fields mapped to the external schema that retrieves ticket data at runtime from an OData web service.
 
 ## Data source details
 
@@ -54,8 +58,8 @@ Select **NEW**, select **OData v4 Data Provider**, and then select **OK**.
 
 Enter or select the following information.
 
-- **Name**. Contoso Sample Data Source
-- **URL**. http://contosowebservice.azurewebsites.net/odata 
+- **Name**: Contoso Sample Data Source
+- **URL**: http://contosowebservice.azurewebsites.net/odata 
 - **Timeout**: 30
 - **Return Inline Count**: True
 

@@ -20,9 +20,6 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-> [!NOTE]
-> - This feature is coming soon.
-
 After a user is deleted by the global admin from the Office 365 Admin center, the user's personal data can be removed from all tenant instances. A user is deleted from the Office 365 Admin center when:
 
 1. The user leaves the company. In this scenario, the user record remains in the tenant’s Active Directory for 30 days before the record is deleted.

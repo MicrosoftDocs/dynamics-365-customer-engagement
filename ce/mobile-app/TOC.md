@@ -1,6 +1,6 @@
 # [Overview](overview.md)
 
-# Administration Guide 
+# Administrator Guide 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Configure mobile offline synchronization](configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)

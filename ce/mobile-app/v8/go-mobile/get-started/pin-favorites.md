@@ -38,5 +38,5 @@ manager: "brycho"
   
  ![Dynamics 365 for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for mobile create communication card")  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

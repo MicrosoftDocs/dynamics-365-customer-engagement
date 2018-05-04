@@ -43,5 +43,5 @@ manager: "brycho"
   
  ![Dynamics 365 for phones and tablets activity feed](../../../media/mobile-activity-feed.png "Dynamics 365 for phones and tablets activity feed")  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)
