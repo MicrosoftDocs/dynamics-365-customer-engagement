@@ -5,6 +5,7 @@ applies_to:
  - "Dynamics 365 (online)"
  - "Dynamics 365 Version 9.x"
 ms.author: shellyha
+author: shellyhaverkamp
 manager: shellyha
 ms.date: 05/04/2018
 ms.topic: article
