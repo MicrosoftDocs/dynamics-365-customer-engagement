@@ -23,6 +23,14 @@ This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../
 
 ## RunScript
 
+> [!IMPORTANT] 
+> Applies to: 
+> - [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+> - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
+> - [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)]
+> - [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)]
+> - [!INCLUDE[pn-unified-service-desk-2-2](../includes/pn-unified-service-desk-2-2.md)]
+
 **RunScript action does not execute if the tab or page is not in focus**
 
 If you execute a RunScript action on a tab or a page that is not in focus, the execution of RunScript action does not execute the script.
@@ -35,15 +43,12 @@ Accounts and Contacts tabs are open and focus is on Accounts tab. You execute `w
 
 If you open several tabs and want to execute a RunScript action on a tab that is not in focus, set the focus on the tab you want to work and then execute the RunScript action.
 
+## Performance enhancement for CRM entity page loads
+
 > [!IMPORTANT] 
 > Applies to: 
 > - [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
 > - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
-> - [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)]
-> - [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)]
-> - [!INCLUDE[pn-unified-service-desk-2-2](../includes/pn-unified-service-desk-2-2.md)]
-
-## Performance enhancement for CRM entity page loads
 
 **Closing CRM entity page starts loading but never completes loading**
 
@@ -67,11 +72,6 @@ _Image 1: Right-click on the CRM entity page and select Forward from the context
 
 > [!Note]
 > The session that you are working is fine and there is no data loss.
-
-> [!IMPORTANT] 
-> Applies to: 
-> - [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
-> - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
 
 ## See also
 
