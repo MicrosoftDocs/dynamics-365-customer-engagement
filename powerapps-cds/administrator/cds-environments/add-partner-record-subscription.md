@@ -30,17 +30,17 @@ You can choose to work with a designated Microsoft partner who can provide the s
   
 2.  Click **Billing** > **Purchase Services**.  
   
- ![Office 365 Purchase Services](../admin/media/office-365-purchase-services.png "Office 365 Purchase Services")  
+ ![Office 365 Purchase Services](../media/office-365-purchase-services.png "Office 365 Purchase Services")  
   
 3.  Select a subscription, click **Buy now**.  
   
- ![Dynamics 365 Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 Sales Plan buy now")  
+ ![Dynamics 365 Sales Plan buy now](../media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 Sales Plan buy now")  
   
 4.  Fill in the number of users and a promo code, if you have one, then click **Next**.  
   
 5.  Under Account, click **Add** and then fill in the partner information.  
   
- ![Click Add to add a partner](../admin/media/click-add-partner.png "Click Add to add a partner")  
+ ![Click Add to add a partner](../media/click-add-partner.png "Click Add to add a partner")  
   
 ## Add a partner to an existing subscription  
   
@@ -48,11 +48,11 @@ You can choose to work with a designated Microsoft partner who can provide the s
   
 2.  Go to **Billing** > **Subscriptions** and select a subscription.  
   
- ![Choose Billing &#62; Subscription](../admin/media/choose-billing-subscription.png "Choose Billing > Subscription")  
+ ![Choose Billing &#62; Subscription](../media/choose-billing-subscription.png "Choose Billing > Subscription")  
   
 3.  Under **Active**, click **More actions** > **Add partner of record**, and then fill in the partner information.  
   
- ![Add a partner of record](../admin/media/add-partner-record-short-menu.png "Add a partner of record")  
+ ![Add a partner of record](../media/add-partner-record-short-menu.png "Add a partner of record")  
   
 ### See also  
  [Add, change, or delete a subscription advisor partner](https://support.office.com/article/Add-change-or-delete-a-subscription-advisor-partner-f86e8177-936e-491e-9024-44dea2b296ff)   

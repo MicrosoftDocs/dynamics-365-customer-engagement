@@ -35,7 +35,7 @@ A [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] service admin c
 > [!NOTE]
 > The [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] service admin can manage instances of version 8.1 ([!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)]) or later.  
   
- ![Dynamics 365 service admin](../admin/media/dynamics-365-service-admin.png "Dynamics 365 service admin")  
+ ![Dynamics 365 service admin](../media/dynamics-365-service-admin.png "Dynamics 365 service admin")  
   
  Here's a matrix of what's available with the various [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] roles.  
   

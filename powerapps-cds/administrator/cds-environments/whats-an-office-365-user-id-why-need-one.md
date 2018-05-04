@@ -30,7 +30,7 @@ Each user signs in to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]
   
  To manage [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] user IDs, sign in to the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)] ([https://portal.office.com](https://portal.office.com)). Here, you can do all sorts of administrative tasks such as create users, assign licenses, and maintain passwords.  
   
- ![Office 365 user ID and Dynamics 365 (online)](../admin/media/o365-user-id.png "Office 365 user ID and Dynamics 365 (online)")  
+ ![Office 365 user ID and Dynamics 365 (online)](../media/o365-user-id.png "Office 365 user ID and Dynamics 365 (online)")  
   
 > [!NOTE]
 > [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] uses [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) as its identity provider. You access [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] through an [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] user ID that’s created and managed in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)]. For simplicity, we will refer to the [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] user ID as the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] user ID in this documentation.  

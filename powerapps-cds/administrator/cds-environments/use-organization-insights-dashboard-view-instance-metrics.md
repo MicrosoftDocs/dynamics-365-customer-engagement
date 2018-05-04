@@ -46,7 +46,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 -   If a chart has multiple elements such as Most Active Users, you can click the chart element to switch its display.  
   
 ## View the Organization Insights dashboard  
- To view the Organization Insights dashboard, go to any dashboard, click **Select** (![Drop-down button](../admin/media/dropdown-button.png "Drop-down button")) next to the dashboard title, and then click **Organization Insights Dashboard**. The following charts are provided.  
+ To view the Organization Insights dashboard, go to any dashboard, click **Select** (![Drop-down button](../media/dropdown-button.png "Drop-down button")) next to the dashboard title, and then click **Organization Insights Dashboard**. The following charts are provided.  
   
 <a name="BKMK_ActiveUsers"></a>   
 
@@ -63,7 +63,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
  This chart shows the adoption and usage of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance based on active users (unique users) with read, write, create, and update actions.  
   
 ## Most Active Users (Reads)  
- ![Organization Insights Most Active Users (Reads) chart](../admin/media/organization-insights-most-active-users-reads-chart.png "Organization Insights Most Active Users (Reads) chart")  
+ ![Organization Insights Most Active Users (Reads) chart](../media/organization-insights-most-active-users-reads-chart.png "Organization Insights Most Active Users (Reads) chart")  
   
 ### What's included in this chart  
   
@@ -75,7 +75,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
  This chart lists the top ten users who performed the most `Read` operations in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
 ## Most Active Users (Changes)  
- ![Organization Insights Most Active Users (Changes) chart](../admin/media/organization-insights-most-active-users-changes-chart.png "Organization Insights Most Active Users (Changes) chart")  
+ ![Organization Insights Most Active Users (Changes) chart](../media/organization-insights-most-active-users-changes-chart.png "Organization Insights Most Active Users (Changes) chart")  
   
 ### What's included in this chart  
   
@@ -90,7 +90,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 <a name="BKMK_SpecificOperations"></a>   
 ## Active Users Performing Specific Operations  
- ![Organization Insights Specific Operations chart](../admin/media/organization-insights-specific-operations-chart.png "Organization Insights Specific Operations chart")  
+ ![Organization Insights Specific Operations chart](../media/organization-insights-specific-operations-chart.png "Organization Insights Specific Operations chart")  
   
 ### What's included in this chart  
   
@@ -106,7 +106,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 <a name="BKMK_TotalOperations"></a>   
 ## Total Operations  
- ![Organization Insights Total Operations chart](../admin/media/organization-insights-total-operations-chart.png "Organization Insights Total Operations chart")  
+ ![Organization Insights Total Operations chart](../media/organization-insights-total-operations-chart.png "Organization Insights Total Operations chart")  
   
 ### What's included in this chart  
   
@@ -122,7 +122,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 <a name="BKMK_PageRequests"></a>   
 ## Total Page Requests  
- ![Organization Insights Total Page Requests chart](../admin/media/organization-insights-total-page-requests-chart.png "Organization Insights Total Page Requests chart")  
+ ![Organization Insights Total Page Requests chart](../media/organization-insights-total-page-requests-chart.png "Organization Insights Total Page Requests chart")  
   
 ### What's included in this chart  
   

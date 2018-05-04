@@ -43,7 +43,7 @@ On any of the above pages, scroll down and click **Get Started** to start a 30-d
 ### Start a trial  
  You can start a 30-day trial of [!INCLUDE [pn-crm-online](../../includes/pn-crm-online.md)] and try out one or all of the customer engagement applications. This trial uses the [!INCLUDE [pn-dyn-365](../../includes/pn-dyn-365.md)] Customer Engagement Plan license.  
   
-<!-- ![Trial experience for Dynamics 365](../admin/media/trial-experience-dynamics-365.png "Trial experience for Dynamics 365")  -->
+<!-- ![Trial experience for Dynamics 365](../media/trial-experience-dynamics-365.png "Trial experience for Dynamics 365")  -->
   
 > [!NOTE]
 >  You're allowed one trial per tenant. If you've already done a trial of [!INCLUDE[pn-crm-online-legacy](../../includes/pn-crm-online-legacy.md)] or [!INCLUDE[pn-crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you cannot do another trial. However, you can reset a Sandbox instance to the latest version or to one of the previous versions. See [Use a Sandbox instance](#use-a-sandbox-instance) below.  
@@ -52,7 +52,7 @@ __To start a trial__
 
 1. Go to [https://trials.dynamics.com/Dynamics365/Signup/](https://trials.dynamics.com/Dynamics365/Signup/)
 
-   ![Start trial](../admin/media/start-trial.png "Start trial for Dynamics 365")
+   ![Start trial](../media/start-trial.png "Start trial for Dynamics 365")
 
 2. Choose an app. You can add more apps later.
 
@@ -66,7 +66,7 @@ __To start a trial__
 For more information about the scenario choices, see the [Installation options](#installation-options) section below.
  
 > [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following videos:  
+> ![Video symbol](../media/video-thumbnail-4.png "Video symbol") Check out the following videos:  
 >   
 > -   [Get the most out of your free 30-day Dynamics 365 trial](https://go.microsoft.com/fwlink/p/?linkid=835893).  
 > -   [How to buy Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=835890).  
@@ -89,7 +89,7 @@ For more information about the scenario choices, see the [Installation options](
   
     Select a scenario. For more information about the scenario choices, see the [Installation options](#installation-options) section below.
   
-    ![Select a scenario to configure your instance](../admin/media/select-app-configure-instance.png "Select a scenario to configure your instance")  
+    ![Select a scenario to configure your instance](../media/select-app-configure-instance.png "Select a scenario to configure your instance")  
 
    > [!TIP]
    > Choose the "None" option to have a blank slate for building your own custom application.
@@ -99,7 +99,7 @@ For more information about the scenario choices, see the [Installation options](
 ## Installation options
 You can choose to start a trial for all Customer Engagement offerings, a mix of offerings, or none. Each choice installs a different set of apps, which are displayed in the app switcher.
 
-![Dynamics 365 app switcher](../admin/media/app-switcher75.png "Dynamics 365 app switcher")  
+![Dynamics 365 app switcher](../media/app-switcher75.png "Dynamics 365 app switcher")  
 
 The following table shows what’s installed for each choice, what you see in the app switcher, and where you can use it.
 

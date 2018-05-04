@@ -78,9 +78,9 @@ Here are the recent versions.
   
 |Version||Update to|  
 |-------------|-|---------------|  
-|Sandbox (n-2)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n-1)|  
-|Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
-|Production (n-2)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
+|Sandbox (n-2)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n-1)|  
+|Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
+|Production (n-2)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
 n = current version, [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)] 
   
@@ -126,10 +126,10 @@ For version information, see: [Dynamics 365 (online) releases](https://support.m
   
 |Version||Update to|  
 |-------------|-|---------------|  
-|Sandbox (n-2)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n-1)|  
-|Production (n-2)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n-1)|  
-|Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
-|Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
+|Sandbox (n-2)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n-1)|  
+|Production (n-2)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n-1)|  
+|Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
+|Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
 n = current version, [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]
   
@@ -174,8 +174,8 @@ n = current version, [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0
   
 |Version||Update to|  
 |-------------|-|---------------|  
-|Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
-|Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../admin/media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
+|Sandbox (n-1)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Sandbox (n)|  
+|Production (n-1)|![One-way sync arrow (right) in Dynamics 365](../media/one-way-sync-arrow-right-2.png "One-way sync arrow (right) in Dynamics 365")|Production (n)|  
   
 n = current version, [!INCLUDE [pn-crm-9-0-0-online](../../includes/pn-crm-9-0-0-online.md)]
   
@@ -218,7 +218,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 2.  In the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] admin center, click **Admin** > **Dynamics 365**.  
   
- ![Dynamics 365 option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 option in the Admin center drop-down list")  
+ ![Dynamics 365 option in the Admin center drop-down list](../media/click-admin-centers-dynamics-365.png "Dynamics 365 option in the Admin center drop-down list")  
   
 3.  On the Instances page, click **Updates**, and then review the update status for your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances.  
   
@@ -228,7 +228,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
     -   Clicking **Schedule your update** lets the admin select a target release and then do the scheduling.  
   
- ![Manage Dynamics 365 Online instances](../admin/media/customer-driven-update-notice-1.png "Manage Dynamics 365 Online instances")  
+ ![Manage Dynamics 365 Online instances](../media/customer-driven-update-notice-1.png "Manage Dynamics 365 Online instances")  
   
 ### A notification appears in your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] web application  
   
@@ -236,7 +236,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 2.  If an update is available, admins will see a yellow [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] message bar notifying them of an available update.  
   
- ![Dynamics 365 Online update notice in banner bar](../admin/media/customer-driven-update-notice-2.png "Dynamics 365 Online update notice in banner bar")  
+ ![Dynamics 365 Online update notice in banner bar](../media/customer-driven-update-notice-2.png "Dynamics 365 Online update notice in banner bar")  
   
 ### Update notification emails are sent to admins  
  [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] system administrators will receive an email from the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] Team. You can use the links in the email to learn more about your update or reschedule it.  
@@ -245,7 +245,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 ## Deciphering the update information  
  The “Manage your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] updates” page is your source for useful information and actions to take regarding your update.  
   
- ![Deciphering update details](../admin/media/deciphering-update-details.png "Deciphering update details")  
+ ![Deciphering update details](../media/deciphering-update-details.png "Deciphering update details")  
   
 > [!NOTE]
 >  If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you’ll see an option **Change target version**. Large companies with extensive and complex customizations to their [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] may choose to upgrade to a later release instead of the first available. So you get the most up-to-date features and fixes, we highly recommend you upgrade to the latest version when available.  
@@ -275,7 +275,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 3.  Choose the instance update to reschedule, and then click **Reschedule update**.  
   
- ![Click Reschedule to reschedule an update in Dynamics 365](../admin/media/cdu-notice.png "Click Reschedule to reschedule an update in Dynamics 365")  
+ ![Click Reschedule to reschedule an update in Dynamics 365](../media/cdu-notice.png "Click Reschedule to reschedule an update in Dynamics 365")  
   
 4.  If you are eligible to update to multiple versions of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you’ll see a page to select a target version. Select a version, and then click **Next**.  
   
@@ -284,11 +284,11 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 5.  Select new preferred and alternate dates and times for the update, and then click **Next**.  
   
- ![Select new preferred or alternate dates and times](../admin/media/customer-driven-update-notice-5a.png "Select new preferred or alternate dates and times")  
+ ![Select new preferred or alternate dates and times](../media/customer-driven-update-notice-5a.png "Select new preferred or alternate dates and times")  
   
 6.  Review the new dates and times, and then click **Approve Update**.  
   
- ![Approve the new schedule dates and times in Dynamics 365](../admin/media/customer-driven-update-notice-5b.png "Approve the new schedule dates and times in Dynamics 365")  
+ ![Approve the new schedule dates and times in Dynamics 365](../media/customer-driven-update-notice-5b.png "Approve the new schedule dates and times in Dynamics 365")  
   
 7.  The Status column will indicate your update is approved.  
   
@@ -296,7 +296,7 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
 ## Update status  
  To better track and manage your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] updates, we added more granular update status to the Updates page.  At the date and time of your update, the status for your instance will show **Updating instance**.  
   
- ![Update Now status](../admin/media/update-now-status.png "Update Now status")  
+ ![Update Now status](../media/update-now-status.png "Update Now status")  
   
  There are **four** stages of an update:  
   
@@ -317,21 +317,21 @@ For recent versions, see [Dynamics 365 (online) releases](https://support.micros
   
 3.  Choose an instance that has notifications you want to change, and then click **Notifications**.  
   
- ![Notifications button in Dynamics 365](../admin/media/customer-driven-update-notifications.png "Notifications button in Dynamics 365")  
+ ![Notifications button in Dynamics 365](../media/customer-driven-update-notifications.png "Notifications button in Dynamics 365")  
   
 4.  Enter the email addresses of people to receive update notifications for the selected instance, and then click **Save**.  
   
- ![Send Email Notifications in Dynamics 365](../admin/media/customer-driven-updatesendemailnotifications.PNG "Send Email Notifications in Dynamics 365")  
+ ![Send Email Notifications in Dynamics 365](../media/customer-driven-updatesendemailnotifications.PNG "Send Email Notifications in Dynamics 365")  
   
 <a name="BKMK_AfterUpdate"></a>   
 ## What happens after an update is approved?  
  When your update has started, you’ll see **Update in progress** under **Status**. The **Reschedule** option will no longer be available.  
   
- ![Reschedule Dynamics 365 Online update in progress](../admin/media/customer-driven-update-notice-5d.png "Reschedule Dynamics 365 Online update in progress")  
+ ![Reschedule Dynamics 365 Online update in progress](../media/customer-driven-update-notice-5d.png "Reschedule Dynamics 365 Online update in progress")  
   
  When your update is done, you’ll see **Updated successfully**.  
   
- ![Successful reschedule of Dynamics 365 (online) update](../admin/media/customer-driven-update-notice-5e.png "Successful reschedule of Dynamics 365 (online) update")  
+ ![Successful reschedule of Dynamics 365 (online) update](../media/customer-driven-update-notice-5e.png "Successful reschedule of Dynamics 365 (online) update")  
   
 <a name="BKMK_PrepareforUpdate"></a>   
 ## Prepare your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] organization for the update  

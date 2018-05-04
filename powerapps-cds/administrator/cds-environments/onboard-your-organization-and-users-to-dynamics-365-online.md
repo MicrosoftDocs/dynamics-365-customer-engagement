@@ -49,7 +49,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.m
 ### Convert from a trial  
  The simplest way to buy [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] is to click the **Buy Now** button from one of the sidebars in the free 30-day trial:  
   
- ![Trial Buy Now button on Learning Path sidebar](../admin/media/trial-buy-now-button-on-learning-path-sidebar.png "Trial Buy Now button on Learning Path sidebar")  
+ ![Trial Buy Now button on Learning Path sidebar](../media/trial-buy-now-button-on-learning-path-sidebar.png "Trial Buy Now button on Learning Path sidebar")  
   
 > [!NOTE]
 >  If your trial has expired, you’ll receive an email that includes a **Buy Today** button.  

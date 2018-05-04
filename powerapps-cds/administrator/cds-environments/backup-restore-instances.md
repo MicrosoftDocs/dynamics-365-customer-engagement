@@ -43,7 +43,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 -   System backups are identified as created by **System** on the **Manage backups** page.  
   
- ![Backup & Restore tab in the Dynamics 365 Administration Center](../admin/media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
+ ![Backup & Restore tab in the Dynamics 365 Administration Center](../media/backup-and-restore-tab.png "Backup & Restore tab in the Dynamics 365 Administration Center")  
   
 ### See your system backups  
   
@@ -57,7 +57,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
  System-created backups appear under **Created By** as **System**.  
   
- ![System-created backups appear under Created By as System.](../admin/media/backup-system-restore-point.png "System-created backups appear under Created By as System.")  
+ ![System-created backups appear under Created By as System.](../media/backup-system-restore-point.png "System-created backups appear under Created By as System.")  
   
 <a name="BKMK_ODBCRMManaged"></a>   
 
@@ -77,7 +77,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 -   On-demand backups are retained for up to three days. Check your expiration date.  
   
- ![On-demand backup expiration date](../admin/media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
+ ![On-demand backup expiration date](../media/on-demand-backup-expiration-date.png "On-demand backup expiration date")  
   
 -   You are not limited in the number of on-demand backups you can make.
 
@@ -85,7 +85,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
 
 -   On-demand backups are identified by having a label you created and by the presence of **Edit** | **Delete** | **Restore** in the details section. System backups have only **Restore**.  
   
- ![Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.](../admin/media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
+ ![Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.](../media/managed-backup.png "Edit, Delete, and Restore buttons for Dynamics 365 on-demand backups.")  
   
 <a name="BKMK_CreateCRMBackup"></a>   
 
@@ -101,13 +101,13 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 5.  Click **New backup**.  
   
- ![New backup button](../admin/media/new-backup-button.png "New backup button")  
+ ![New backup button](../media/new-backup-button.png "New backup button")  
   
 6.  Type a label and any notes to help identify this backup for future restoration.  
   
 7.  Click **Create**.  
   
- ![Form for creating a new Dynamics 365 (online) backup.](../admin/media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
+ ![Form for creating a new Dynamics 365 (online) backup.](../media/online-backup.png "Form for creating a new Dynamics 365 (online) backup.")  
   
  A notification will be displayed to confirm the backup is being created.  The status column in the list provides the status of the backup.  
   
@@ -131,7 +131,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 6.  Click **Edit**.  
   
- ![Edit backup button](../admin/media/edit-backup-button.png "Edit backup button")  
+ ![Edit backup button](../media/edit-backup-button.png "Edit backup button")  
   
 7.  Change the information as needed, and then click **Save**.  
   
@@ -152,13 +152,13 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 6.  Click **Restore**.  
   
- ![Restore button](../admin/media/restore-button.png "Restore button")  
+ ![Restore button](../media/restore-button.png "Restore button")  
   
 7.  Click **Select target**  to pick a target instance.  
   
 8.  Click **Next**. Verify the details, and then click **Restore**.  
   
- ![Restore an on-demand backup page](../admin/media/restore-backup-page.png "Restore an on-demand backup page")  
+ ![Restore an on-demand backup page](../media/restore-backup-page.png "Restore an on-demand backup page")  
   
  A notification will be displayed confirming that the backup is being restored.  It can take some time for the restoration to complete.  
   
@@ -182,7 +182,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 6.  Click **Delete**.  
   
- ![Delete backup button](../admin/media/delete-backup-button.png "Delete backup button")  
+ ![Delete backup button](../media/delete-backup-button.png "Delete backup button")  
   
 7.  Click **Confirm**.  
  

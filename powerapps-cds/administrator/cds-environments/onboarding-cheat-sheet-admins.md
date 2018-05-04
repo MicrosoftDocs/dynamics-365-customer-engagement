@@ -24,7 +24,7 @@ ms.author: jimholtz
 
 Here are the seven steps to getting your organization on board with Dynamics 365, and links to guides  to help you complete each step. And if you haven't already seen it, check out the video for an overview of these seven steps to onboarding success.  
   
-<a name="heroArea"></a> [![Thumbnail for admin onboarding video](../admin/media/thumbnail-admin-onboarding-video.png "Thumbnail for admin onboarding video")](https://go.microsoft.com/fwlink/?linkid=835697)  
+<a name="heroArea"></a> [![Thumbnail for admin onboarding video](../media/thumbnail-admin-onboarding-video.png "Thumbnail for admin onboarding video")](https://go.microsoft.com/fwlink/?linkid=835697)  
   
 ## Step one: Add your people 
   

@@ -32,7 +32,7 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../../includes/pn-crm-onli
 ### If you’re an administrator  
  If you forget your administrator password, you can reset it by going to the [sign-in page](https://portal.office.com), and choosing **Can’t access your account?** at the bottom of the page.  
   
- ![Reset your Dynamics 365 Online password](../admin/media/reset-crm-online-password.png "Reset your Dynamics 365 Online password")  
+ ![Reset your Dynamics 365 Online password](../media/reset-crm-online-password.png "Reset your Dynamics 365 Online password")  
   
 > [!TIP]
 >  To enable your users to be able to reset their passwords themselves, you’ll need to purchase an [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] subscription and configure it for password self-service. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Self-service password reset in Azure AD: how to enable, configure, and test self-service password reset](https://msdn.microsoft.com/library/azure/dn683881.aspx)  
@@ -48,17 +48,17 @@ Having trouble signing in to [!INCLUDE[pn_CRM_online](../../includes/pn-crm-onli
 ### For admins and end users: Sign in at https://portal.office.com  
  For admins and end users, when you sign in to https://portal.office.com, you will go to the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] Welcome page. The tiles that appear on the Welcome page depend on what licenses you have. For example, if you have licenses for [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] and [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you'll see tiles for [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] apps like [!INCLUDE[pn_ms_Word_short](../../includes/pn-ms-word-short.md)], [!INCLUDE[pn_onedrive](../../includes/pn-onedrive.md)], and [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], as well as a tile for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
- ![Office 365 welcome page](../admin/media/office-365-welcome-page.png "Office 365 welcome page")  
+ ![Office 365 welcome page](../media/office-365-welcome-page.png "Office 365 welcome page")  
   
  Click the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] tile to go to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Home page. See [For admins and end users: Select a Dynamics 365 app from the new app switcher](quickly-navigate-office-365-app-launcher.md).
 
  If you're a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] system administrator, you'll see an **Admin** tile. Click this tile to get to the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], where you can see your service health, manage users, manage licenses, and more for all the online services associated with your account.  
   
- ![Admin tile on the Office 365 welcome page](../admin/media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
+ ![Admin tile on the Office 365 welcome page](../media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
   
  From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365**.  
   
- ![Dynamics 365 option in the Admin center drop-down list](../admin/media/dynamics-365-option-admin-center.png "Dynamics 365 option in the Admin center drop-down list")  
+ ![Dynamics 365 option in the Admin center drop-down list](../media/dynamics-365-option-admin-center.png "Dynamics 365 option in the Admin center drop-down list")  
   
  For other ways to access Dynamics and [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] apps, see [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](quickly-navigate-office-365-app-launcher.md).
  

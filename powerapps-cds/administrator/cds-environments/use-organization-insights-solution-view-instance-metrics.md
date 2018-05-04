@@ -31,7 +31,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 >   
 >  If you have installed version 1.0.0.0, this is a preview feature in [!INCLUDE[pn_crm_8_2_0_online](../../includes/pn-crm-8-2-0-online.md)]. You can download the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview). A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
 >   
->  To provide feedback for this feature, use the Feedback button. ![Organizations Insights Feedback button](../admin/media/organizations-insights-feedback-button.png "Organizations Insights Feedback button")  
+>  To provide feedback for this feature, use the Feedback button. ![Organizations Insights Feedback button](../media/organizations-insights-feedback-button.png "Organizations Insights Feedback button")  
 >   
 > [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]  
   
@@ -52,7 +52,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 - **Original Organization Insights dashboard**: You can also view metrics using the Organization Insights dashboard released with [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)]. <!-- See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](../admin/use-organization-insights-dashboard-view-instance-metrics.md).--> See [Preview feature: Use the Organization Insights dashboard to view metrics about your instance](https://technet.microsoft.com/library/mt703628.aspx). This dashboard does not have all the metrics available with the solution version.  
   
 > [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Monitor your Dynamics 365 (online) instance with Organization Insights](https://go.microsoft.com/fwlink/p/?linkid=835917).  
+> ![Video symbol](../media/video-thumbnail-4.png "Video symbol") Check out the following video: [Monitor your Dynamics 365 (online) instance with Organization Insights](https://go.microsoft.com/fwlink/p/?linkid=835917).  
   
 <a name="BKMK_InstallSolution"></a>   
 
@@ -82,7 +82,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_Home"></a>   
 
 ## Home (default)  
- ![Organization Insights Home Section](../admin/media/organization-insights-home-section.png "Organization Insights Home Section")  
+ ![Organization Insights Home Section](../media/organization-insights-home-section.png "Organization Insights Home Section")  
   
 ### About this dashboard  
  This is the default dashboard that provides information on the number of active [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] users, storage usage, the most active workflows, and more.  
@@ -102,7 +102,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_ActiveUsage"></a>   
 
 ## Active Usage  
- ![Organization Insights Active Usage Section](../admin/media/organization-insights-active-usage-section.png "Organization Insights Active Usage Section")  
+ ![Organization Insights Active Usage Section](../media/organization-insights-active-usage-section.png "Organization Insights Active Usage Section")  
   
 ### About this dashboard  
  Use this dashboard to find out how many [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] users there are, how many licenses are in use, what custom entities are used most frequently, and more.  
@@ -159,7 +159,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_SystemJobs"></a>   
 
 ## System Jobs  
- ![Organization Insights System Jobs Section](../admin/media/organization-insights-system-jobs-section.png "Organization Insights System Jobs Section")  
+ ![Organization Insights System Jobs Section](../media/organization-insights-system-jobs-section.png "Organization Insights System Jobs Section")  
   
 ### About this dashboard  
  Use this dashboard to monitor and troubleshoot workflows.  
@@ -190,7 +190,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_Plugins"></a>   
 
 ## Plug-ins  
- ![Organization Insights Plugins Section](../admin/media/organization-insights-plugins-section.png "Organization Insights Plugins Section")  
+ ![Organization Insights Plugins Section](../media/organization-insights-plugins-section.png "Organization Insights Plugins Section")  
   
 ### About this dashboard  
  Use this dashboard to monitor and troubleshoot plug-ins.  
@@ -219,7 +219,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_Storage"></a>   
 
 ## Storage  
- ![Organization Insights Storage Section](../admin/media/organization-insights-storage-section.png "Organization Insights Storage Section")  
+ ![Organization Insights Storage Section](../media/organization-insights-storage-section.png "Organization Insights Storage Section")  
   
 ### About this dashboard  
  This dashboard provides a look at storage used by your tenant and instances.
@@ -250,7 +250,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_APICallStats"></a>   
 
 ## API Call Statistics  
- ![Organization Insights API Call Statistics Section](../admin/media/organization-insights-api-call-statistics-section.png "Organization Insights API Call Statistics Section")  
+ ![Organization Insights API Call Statistics Section](../media/organization-insights-api-call-statistics-section.png "Organization Insights API Call Statistics Section")  
   
 ### About this dashboard  
  Use this dashboard to monitor and troubleshoot API calls.  
@@ -279,7 +279,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_MailboxUsage"></a>   
 
 ## Mailbox Usage  
- ![Organization Insights Mailbox Usage Section](../admin/media/organization-insights-mailbox-usage-section.png "Organization Insights Mailbox Usage Section")  
+ ![Organization Insights Mailbox Usage Section](../media/organization-insights-mailbox-usage-section.png "Organization Insights Mailbox Usage Section")  
   
 ### About this dashboard  
  Use this dashboard to monitor email mailbox usage.  
@@ -314,7 +314,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
 <a name="BKMK_Download"></a>   
 
 ## Download  
- ![Organization Insights Download Section](../admin/media/organization-insights-download-section.png "Organization Insights Download Section")  
+ ![Organization Insights Download Section](../media/organization-insights-download-section.png "Organization Insights Download Section")  
   
 ### About this dashboard  
  Use this dashboard to download the data selected for the date range selected as an Excel spreadsheet.  
@@ -348,15 +348,15 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
   
 |Control|Description|  
 |-------------|-----------------|  
-|Edit<br /><br /> ![Organizations Insights Edit button](../admin/media/organizations-insights-edit-button.png "Organizations Insights Edit button")|Click to edit the dashboard. Once in edit mode, you can add, remove, resize, and reposition charts in the Home dashboard.<br /><br /> In other dashboards, you can reposition and resize charts. You cannot add or remove charts.|  
-|Save<br /><br /> ![Organizations Insights Save button](../admin/media/organizations-insights-save-button.png "Organizations Insights Save button")|Click **Save** to record all your dashboard changes.|  
-|Add<br /><br /> ![Organizations Insights Add button](../admin/media/organizations-insights-add-button.png "Organizations Insights Add button")|Click for a list of charts you can add to the dashboard. You cannot add multiple copies of the same chart in the Home dashboard.|  
-|Chart menu<br /><br /> ![Add an Organization Insights chart](../admin/media/organization-insights-add-chart-menu.png "Add an Organization Insights chart")|Charts you can add to a dashboard.|  
-|Close<br /><br /> ![Organizations Insights Close button](../admin/media/organizations-insights-close-button.png "Organizations Insights Close button")|Click to close the Chart menu.|  
-|Feedback<br /><br /> ![Organizations Insights Feedback button](../admin/media/organizations-insights-feedback-button.png "Organizations Insights Feedback button")|We want your feedback! Click **Feedback** to let us know how we're doing.|  
-|More options<br /><br /> ![Organizations Insights More button](../admin/media/organizations-insights-more-button.png "Organizations Insights More button")|Click **More options** > **Reset to default dashboard**  to revert all your dashboard changes.  This will reset all changes you've made to any dashboard to default values.|  
-|Remove and Resize<br /><br /> ![Organization Insights Custom Controls](../admin/media/organization-insights-custom-controls.png "Organization Insights Custom Controls")|When you click **Edit**, you can remove, resize, and move charts in the Home dashboard. In other dashboards, you can resize and move the charts but not remove them.|  
-|Export<br /><br /> ![Organization Insights Export Data to Excel](../admin/media/organization-insights-export-dataexcel.PNG "Organization Insights Export Data to Excel")|Click to export chart data to Excel. Not all charts can be exported.|  
+|Edit<br /><br /> ![Organizations Insights Edit button](../media/organizations-insights-edit-button.png "Organizations Insights Edit button")|Click to edit the dashboard. Once in edit mode, you can add, remove, resize, and reposition charts in the Home dashboard.<br /><br /> In other dashboards, you can reposition and resize charts. You cannot add or remove charts.|  
+|Save<br /><br /> ![Organizations Insights Save button](../media/organizations-insights-save-button.png "Organizations Insights Save button")|Click **Save** to record all your dashboard changes.|  
+|Add<br /><br /> ![Organizations Insights Add button](../media/organizations-insights-add-button.png "Organizations Insights Add button")|Click for a list of charts you can add to the dashboard. You cannot add multiple copies of the same chart in the Home dashboard.|  
+|Chart menu<br /><br /> ![Add an Organization Insights chart](../media/organization-insights-add-chart-menu.png "Add an Organization Insights chart")|Charts you can add to a dashboard.|  
+|Close<br /><br /> ![Organizations Insights Close button](../media/organizations-insights-close-button.png "Organizations Insights Close button")|Click to close the Chart menu.|  
+|Feedback<br /><br /> ![Organizations Insights Feedback button](../media/organizations-insights-feedback-button.png "Organizations Insights Feedback button")|We want your feedback! Click **Feedback** to let us know how we're doing.|  
+|More options<br /><br /> ![Organizations Insights More button](../media/organizations-insights-more-button.png "Organizations Insights More button")|Click **More options** > **Reset to default dashboard**  to revert all your dashboard changes.  This will reset all changes you've made to any dashboard to default values.|  
+|Remove and Resize<br /><br /> ![Organization Insights Custom Controls](../media/organization-insights-custom-controls.png "Organization Insights Custom Controls")|When you click **Edit**, you can remove, resize, and move charts in the Home dashboard. In other dashboards, you can resize and move the charts but not remove them.|  
+|Export<br /><br /> ![Organization Insights Export Data to Excel](../media/organization-insights-export-dataexcel.PNG "Organization Insights Export Data to Excel")|Click to export chart data to Excel. Not all charts can be exported.|  
   
 <a name="BKMK_GrantAccess"></a>   
 
@@ -371,7 +371,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
   
 4.  Click **Save and Close**.  
   
- ![Grant Read privilege to Salesperson security role](../admin/media/organization-insights-grant-read-privilege-sales-person-security-role.png "Grant Read privilege to Salesperson security role")  
+ ![Grant Read privilege to Salesperson security role](../media/organization-insights-grant-read-privilege-sales-person-security-role.png "Grant Read privilege to Salesperson security role")  
   
  To let other users make modifications to their dashboard layout, grant **Create**, **Read**, **Write**, and **Delete** privileges for the **OrgInsights User Dashboard Definition** custom entity.  
   
@@ -383,14 +383,14 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
   
 4.  Click **Save and Close**.  
   
- ![Organization Insights Custom entity](../admin/media/organization-insights-custom-entity.PNG "Organization Insights Custom entity")  
+ ![Organization Insights Custom entity](../media/organization-insights-custom-entity.PNG "Organization Insights Custom entity")  
   
 <a name="BKMK_ViewData"></a>   
 
 ## View data for different time ranges  
- You can adjust the time range for the data presented in the dashboards charts. After selecting the From and To range, click the **Play** button (![Organization Insights Calendar Play button](../admin/media/organization-insights-calendar-play-button.png "Organization Insights Calendar Play button")) to refresh your data.  
+ You can adjust the time range for the data presented in the dashboards charts. After selecting the From and To range, click the **Play** button (![Organization Insights Calendar Play button](../media/organization-insights-calendar-play-button.png "Organization Insights Calendar Play button")) to refresh your data.  
   
- ![Select the date range for your data](../admin/media/organization-insights-calendar-control.png "Select the date range for your data")  
+ ![Select the date range for your data](../media/organization-insights-calendar-control.png "Select the date range for your data")  
   
  Consider the following about the Organization Insights calendar:  
   
@@ -406,7 +406,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-onl
   
 -   The data shown for a hourly aggregation interval represents the whole hour. For example, if the number of active users at 2:00 PM is 5, there were 5 active users between 1:00 and 2:00 PM.  
   
- ![Organization Insights active users chart](../admin/media/organization-insights-active-users-chart.PNG "Organization Insights active users chart") 
+ ![Organization Insights active users chart](../media/organization-insights-active-users-chart.PNG "Organization Insights active users chart") 
  
 <a name="BKMK_ODataSupport"></a>   
 

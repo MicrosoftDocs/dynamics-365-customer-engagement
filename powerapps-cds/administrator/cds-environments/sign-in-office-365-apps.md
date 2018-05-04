@@ -33,17 +33,17 @@ There are multiple ways to sign in and access your Dynamics and [!INCLUDE[pn_Off
 ## Signing in to https://portal.office.com  
  For admins and end users, when you sign in to https://portal.office.com, you will go to the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] Welcome page. The tiles that appear on the Welcome page depend on what licenses you have. For example, if you have licenses for [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] and [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you'll see tiles for [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] apps like [!INCLUDE[pn_ms_Word_short](../../includes/pn-ms-word-short.md)], [!INCLUDE[pn_onedrive](../../includes/pn-onedrive.md)], and [!INCLUDE[pn_SharePoint_short](../../includes/pn-sharepoint-short.md)], as well as a tile for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
- ![Office 365 welcome page](../admin/media/office-365-welcome-page.png "Office 365 welcome page")  
+ ![Office 365 welcome page](../media/office-365-welcome-page.png "Office 365 welcome page")  
   
  Click the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] tile to go to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Home page. See [For admins and end users: Introducing the Dynamics 365 home page](../admin/quickly-navigate-office-365-app-launcher.md#BKMK_IntroD365HomePage).  
   
  If you're a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] system administrator, you'll see an **Admin** tile. Click this tile to get to the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], where you can see your service health, manage users, manage licenses, and more for all the online services associated with your account.  
   
- ![Admin tile on the Office 365 welcome page](../admin/media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
+ ![Admin tile on the Office 365 welcome page](../media/admin-tile-office-365-welcome-page.png "Admin tile on the Office 365 welcome page")  
   
  From there, you can get to the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)]. Click **Admin centers** > **Dynamics 365**.  
   
- ![Dynamics 365 option in the Admin center drop-down list](../admin/media/click-admin-centers-dynamics-365.png "Dynamics 365 option in the Admin center drop-down list")  
+ ![Dynamics 365 option in the Admin center drop-down list](../media/click-admin-centers-dynamics-365.png "Dynamics 365 option in the Admin center drop-down list")  
   
  For other ways to access Dynamics and [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] apps, see [Quickly navigate with the Office 365 app launcher and the Dynamics 365 home page](../admin/quickly-navigate-office-365-app-launcher.md).  
   

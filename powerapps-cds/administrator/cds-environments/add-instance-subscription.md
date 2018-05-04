@@ -34,7 +34,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 - **Select which scenario fits you best**. The apps you can choose depend on the licenses you've purchased. If you haven't purchased any [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] licenses, you'll only see **None of these (don't preinstall any apps)**.  
   
- ![Select an app to configure your instance](../admin/media/select-app-configure-instance.png "Select an app to configure your instance")  
+ ![Select an app to configure your instance](../media/select-app-configure-instance.png "Select an app to configure your instance")  
   
 - **Name**. This is typically the name of your organization and is displayed in the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] application.  
   

@@ -34,7 +34,7 @@ ms.author: jimholtz
   
  If you have an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] subscription, click  the app launcher to go to the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] apps and services available to you.  
   
- ![Office 365 app launcher](../admin/media/new-office-365-app-launcher.png "Office 365 app launcher")  
+ ![Office 365 app launcher](../media/new-office-365-app-launcher.png "Office 365 app launcher")  
   
  Check your email.  Create  a [!INCLUDE[pn_ms_Word_short](../../includes/pn-ms-word-short.md)] doc. Get files from your [!INCLUDE[pn_onedrive](../../includes/pn-onedrive.md)].  All while staying just two clicks away from getting back to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)].  
   
@@ -47,21 +47,21 @@ ms.author: jimholtz
 ## For admins: Get to the admin center through the Office 365 app launcher  
  If you're a [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] system administrator or an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] global administrator, click the app launcher to see the **Admin** tile.  
   
- ![Admin tile on the the Office 365 app launcher](../admin/media/select-admin-from-app-launcher.png "Admin tile on the the Office 365 app launcher")  
+ ![Admin tile on the the Office 365 app launcher](../media/select-admin-from-app-launcher.png "Admin tile on the the Office 365 app launcher")  
   
  Click the **Admin** tile to go to the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)], where you can add users and change passwords.  
   
- ![Office 365 admin center in Dynamics 365](../admin/media/office-365-admin-center.png "Office 365 admin center in Dynamics 365")  
+ ![Office 365 admin center in Dynamics 365](../media/office-365-admin-center.png "Office 365 admin center in Dynamics 365")  
   
 <a name="BKMK_IntroD365HomePage"></a>   
 ## For admins and end users: Introducing the Dynamics 365 home page  
  If you've transitioned to [!INCLUDE[pn_crm_8_2_0_online](../../includes/pn-crm-8-2-0-online.md)], we have a new page for you to manage and open [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] apps. Click **[!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)]**from the app launcher, to go to the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] home page ([home.dynamics.com](http://home.dynamics.com)).  
   
- ![Dynamics 365 tile on the Office 365 app launcher](../admin/media/select-dynamics-365-app-launcher.png "Dynamics 365 tile on the Office 365 app launcher")  
+ ![Dynamics 365 tile on the Office 365 app launcher](../media/select-dynamics-365-app-launcher.png "Dynamics 365 tile on the Office 365 app launcher")  
   
  The new [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] home page.  
   
- ![Dynamics 365 home page](../admin/media/dynamics-365-home-page.png "Dynamics 365 home page")  
+ ![Dynamics 365 home page](../media/dynamics-365-home-page.png "Dynamics 365 home page")  
   
 > [!NOTE]
 >  The [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] home page is not part of the [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] subscription. Clicking [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] takes [!INCLUDE[pn_CRM_Online_Government_Full](../../includes/pn-crm-online-government-full.md)] users to your instance of [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] or to the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)].  
@@ -77,7 +77,7 @@ ms.author: jimholtz
 > [!TIP]
 >  If you've just started a trial or upgraded to [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)], you might need to refresh or open a new browser session to see your apps. There might be a delay for your instance to fully provision.  
   
- ![Two instances of Dynamics 365 (online) on the home page](../admin/media/two-instances-of-dynamics-365-online-in-the-home-page.png "Two instances of Dynamics 365 (online) on the home page")  
+ ![Two instances of Dynamics 365 (online) on the home page](../media/two-instances-of-dynamics-365-online-in-the-home-page.png "Two instances of Dynamics 365 (online) on the home page")  
   
 > [!NOTE]
 > **What is "Dynamics 365 - custom"?**  
@@ -105,15 +105,15 @@ ms.author: jimholtz
   
 2.  Click the **ellipses** (...), and then click **Pin this app**.  
   
- ![Pin This App button in Dynamics 365](../admin/media/pin-dynamics-365-app.png "Pin This App button in Dynamics 365")  
+ ![Pin This App button in Dynamics 365](../media/pin-dynamics-365-app.png "Pin This App button in Dynamics 365")  
   
  The app will appear at the top of the home page and in the task pane.  
   
- ![Dynamics 365 app pinned to the home page](../admin/media/dynamics-365-app-pinned-onhome-page.png "Dynamics 365 app pinned to the home page")  
+ ![Dynamics 365 app pinned to the home page](../media/dynamics-365-app-pinned-onhome-page.png "Dynamics 365 app pinned to the home page")  
   
  Pinned in the home page.  
   
- ![App pinned in the task pane](../admin/media/app-pinned-in-task-pane.png "App pinned in the task pane")  
+ ![App pinned in the task pane](../media/app-pinned-in-task-pane.png "App pinned in the task pane")  
   
  Pinned in the task pane.  
   
@@ -121,13 +121,13 @@ ms.author: jimholtz
 ### Search your apps  
  If you have a lot of apps, you can search for specific ones.  
   
- ![Search for Dynamics 365 apps](../admin/media/search-dynamics-365-apps.png "Search for Dynamics 365 apps")  
+ ![Search for Dynamics 365 apps](../media/search-dynamics-365-apps.png "Search for Dynamics 365 apps")  
   
 <a name="BKMK_Dyn365AppSwitcher"></a>   
 ## For admins and end users: Select a Dynamics 365 app from the new app switcher  
  For customers who have upgraded to [!INCLUDE[pn_crm_8_2_0_online](../../includes/pn-crm-8-2-0-online.md)] or later, you can use the app switcher in [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] to quickly select other [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] apps for which you're licensed.  
   
- ![Dynamics 365 app switcher](../admin/media/useapp-switchergoother-dynamics-365-apps.png "Dynamics 365 app switcher")  
+ ![Dynamics 365 app switcher](../media/useapp-switchergoother-dynamics-365-apps.png "Dynamics 365 app switcher")  
   
  You can pin apps using the ellipses on this menu, which will pin to the menu and to the home page.  
   

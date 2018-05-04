@@ -27,27 +27,27 @@ Admins for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shorte
  You can see the new Delegated Admin user in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] revisions 2040 or greater or in [!INCLUDE[pn_crm_2015_update_0_2](../../includes/pn-crm-2015-update-0-2.md)]. This user won’t appear in standard provided views. You must create a custom view to see it.  
   
 > [!TIP]
->  To determine your revision of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], in the upper-right corner of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] screen, choose the **Settings** gear (![User settings button](../admin/media/user-settings-button.png "User settings button")) > **About**.  
+>  To determine your revision of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], in the upper-right corner of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] screen, choose the **Settings** gear (![User settings button](../media/user-settings-button.png "User settings button")) > **About**.  
 >   
 >  Your revision should be 2040 or above for both numbers highlighted.  
   
- ![Dynamics 365 (online) revision version](../admin/media/revision-version.png "Dynamics 365 (online) revision version")  
+ ![Dynamics 365 (online) revision version](../media/revision-version.png "Dynamics 365 (online) revision version")  
   
  To create a simple custom view to see the delegated admin user:  
   
 1.  Go to **Settings** > **Security** > **Users**.  
   
-2.  Choose **Select a view** (![Drop-down button](../admin/media/dropdown-button.png "Drop-down button")) and then choose **Create Personal View**.  
+2.  Choose **Select a view** (![Drop-down button](../media/dropdown-button.png "Drop-down button")) and then choose **Create Personal View**.  
   
 3.  Verify **Users** is selected in **Look for**.  
   
 4.  Choose **User** > **Contains Data**, and then choose **Results**.  
   
- ![Create a custom user view](../admin/media/user-custom-view.png "Create a custom user view")  
+ ![Create a custom user view](../media/user-custom-view.png "Create a custom user view")  
   
  Delegated Admin will appear in the list of users.  
   
- ![Delegated admin appears in user list](../admin/media/delegated-admin-user.png "Delegated admin appears in user list")  
+ ![Delegated admin appears in user list](../media/delegated-admin-user.png "Delegated admin appears in user list")  
   
 ## How to get authorized as a delegated admin  
  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] partners can be authorized to be delegated admins for a company in several ways:  

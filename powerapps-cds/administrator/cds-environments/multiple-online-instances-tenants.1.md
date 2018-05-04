@@ -43,7 +43,7 @@ ms.author: jimholtz
 ## Uses for multiple instances  
  [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances are similar in concept to a high-rise business complex with floors organized according to business functions. Consider each floor within the building as an application (Sales/Service/Marketing, Vendor management, Wealth management) and consider each unit within a floor as an instance for a specific purpose such as Production, Training, Testing, and Development.  
   
- ![Multiple Dynamics 365 instances as units in a building](../admin/media/multi-tenant-3.png "Multiple Dynamics 365 instances as units in a building")  
+ ![Multiple Dynamics 365 instances as units in a building](../media/multi-tenant-3.png "Multiple Dynamics 365 instances as units in a building")  
   
  Multiple instances are needed when segregation is required of plugins, workflows, or admin resources that cannot be easily isolated by using business units in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
@@ -51,7 +51,7 @@ ms.author: jimholtz
 ## A multi-instance deployment  
  A typical [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] deployment includes one tenant only. A tenant can include one or more [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances; however, a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instance is always associated with a single tenant.  
   
- ![Single tenant deployment in Dynamics 365 (online)](../admin/media/multi-tenant-1b.png "Single tenant deployment in Dynamics 365 (online)")  
+ ![Single tenant deployment in Dynamics 365 (online)](../media/multi-tenant-1b.png "Single tenant deployment in Dynamics 365 (online)")  
   
  This example uses two instances for three teams: Sales, Marketing, and Services.  
   
@@ -107,7 +107,7 @@ ms.author: jimholtz
 ## A multi-tenant deployment  
  Global businesses with regional or country models that differ can use tenants to account for variations in approach, market size, or compliance with legal and regulatory constraints.  
   
- ![Multi-tenant deployment in Dynamics 365 (online)](../admin/media/multi-tenant-2.png "Multi-tenant deployment in Dynamics 365 (online)")  
+ ![Multi-tenant deployment in Dynamics 365 (online)](../media/multi-tenant-2.png "Multi-tenant deployment in Dynamics 365 (online)")  
   
  This example includes a second tenant for Contoso Japan.  
   

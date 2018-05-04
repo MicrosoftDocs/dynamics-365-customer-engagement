@@ -28,7 +28,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 >  With [!INCLUDE[pn_crm_8_2_0_online](../../includes/pn-crm-8-2-0-online.md)], we no longer require a minimum purchase amount to receive a free Sandbox instance. If you've purchased a subscription and have not received a free Sandbox instance, you will be provided one when you purchase full Dynamics 365 Enterprise licenses. There is a limit of one free Sandbox instance per tenant. You can also purchase additional Sandbox instances. For more information, see [Dynamics 365 pricing and licensing](http://go.microsoft.com/fwlink/p/?LinkID=321102).  
   
 > [!TIP]
-> ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).  
+> ![Video symbol](../media/video-thumbnail-4.png "Video symbol") Check out the following video: [Sandbox instances for Dynamics 365 (3:18)](https://go.microsoft.com/fwlink/p/?linkid=838057).  
   
 <a name="BKMK_View"></a>   
 
@@ -57,7 +57,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
   
 > [!NOTE]
 > -  You can only reset Sandbox instances.  
-> -  ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Reset](http://youtu.be/nJDyuFdh0Nk).  
+> -  ![Video symbol](../media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Reset](http://youtu.be/nJDyuFdh0Nk).  
 >   
 >      This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../../includes/pn-crm-online-2016-update.md)].  
   
@@ -91,7 +91,7 @@ A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](..
 > [!NOTE]
 > - You can only place Sandbox instances in administration mode.  
 > - Processes that use code, such as plug-ins or custom workflow assemblies, continue to be processed by the [!INCLUDE [pn-crm-2016-shortest](../../includes/pn-crm-2016-shortest.md)] platform when administration mode is enabled and background operations are disabled.
-> - ![Video symbol](../admin/media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Admin Mode](http://youtu.be/aUgwT-GuKO8).  
+> - ![Video symbol](../media/video-thumbnail-4.png "Video symbol") Check out the following video: [Dynamics CRM 2013 Spring '14 Online New Features -Admin Mode](http://youtu.be/aUgwT-GuKO8).  
 >   
 >      This video also applies to [!INCLUDE[pn_crm_online_2015_update_1_shortest](../../includes/pn-crm-online-2015-update-1-shortest.md)] and [!INCLUDE[pn_crm_online_2016_update](../../includes/pn-crm-online-2016-update.md)].  
   

@@ -66,7 +66,7 @@ Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../../include
   
  Planned and unplanned maintenance emails can be identified by the light-orange banner.  
   
- ![Planned and unplanned maintenance banner](../admin/media/maintenance-banner.png "Planned and unplanned maintenance banner")  
+ ![Planned and unplanned maintenance banner](../media/maintenance-banner.png "Planned and unplanned maintenance banner")  
   
 <a name="bkmk_SecurityUpdates"></a>   
 
@@ -111,7 +111,7 @@ The [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]
   
 Emails regarding the scheduling or rescheduling of your update will be sent with a light-blue banner.  
   
- ![Banner in email for scheduling your update](../admin/media/scheduling-banner.png "Banner in email for scheduling your update")  
+ ![Banner in email for scheduling your update](../media/scheduling-banner.png "Banner in email for scheduling your update")  
   
 <a name="bkmk_ServiceIncidents"></a>   
 
@@ -158,27 +158,27 @@ If the service incident breaches your [Service Level Agreement](http://go.micros
   
 Major service incident emails can easily be identified by the orange banner.  
   
- ![Service incident email banner](../admin/media/service-incident-banner.png "Service incident email banner")  
+ ![Service incident email banner](../media/service-incident-banner.png "Service incident email banner")  
   
 <a name="BKMK_ServiceRestored"></a>   
 ## Service restored  
  [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will send you an email when normal system services have been restored. You can easily identify these emails by the light-green banner.  
   
- ![Service restored email banner](../admin/media/service-restored-banner.png "Service restored email banner")  
+ ![Service restored email banner](../media/service-restored-banner.png "Service restored email banner")  
   
 <a name="BKMK_GeneralAwareness"></a>   
 
 ## General awareness  
  These emails are specific to managing the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Service, including changes with the service or feature offerings. They can be informational in nature, drive specific actions, or both. The target audience for these communications are [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] System Administrators or individuals designated to running the service. You can easily identify these by the light-blue banner.  
   
- ![General awareness email banner](../admin/media/general-awareness-banner.png "General awareness email banner")  
+ ![General awareness email banner](../media/general-awareness-banner.png "General awareness email banner")  
   
 <a name="BKMK_LaunchReadiness"></a>   
 
 ## Launch and post launch readiness communications  
  These communications are used to inform [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] administrators about important information prior to a major service release. Our goal is to share information about tasks that administrators may need to perform before the release and to inform customers about new or enhanced capabilities that are coming in the release. You’ll see a green banner when receiving these types of communications.  
   
- ![Launch readiness email banner](../admin/media/readiness-banner.png "Launch readiness email banner")  
+ ![Launch readiness email banner](../media/readiness-banner.png "Launch readiness email banner")  
   
 <a name="BKMK_PostPurchase"></a>   
 
@@ -187,7 +187,7 @@ Major service incident emails can easily be identified by the orange banner.
   
  You can easily identify these communications by the dark-blue banner.  
   
- ![Post-purchase email banner](../admin/media/post-purchase-banner.png "Post-purchase email banner")  
+ ![Post-purchase email banner](../media/post-purchase-banner.png "Post-purchase email banner")  
 
 ## Notice about Online Policies
 Please review [Notice About Online Policies and Similar Documents](https://www.microsoft.com/en-us/legal/intellectualproperty/onlinedisclaimer.aspx).

@@ -56,11 +56,11 @@ The [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] service team regu
   
 4.  Click **Notifications**.  
   
- ![Notifications button in Dynamics 365](../admin/media/customer-driven-update-notifications.png "Notifications button in Dynamics 365")  
+ ![Notifications button in Dynamics 365](../media/customer-driven-update-notifications.png "Notifications button in Dynamics 365")  
   
 5.  Enter the email addresses of people to receive update notifications for the selected instance and click **Save**.  
   
- ![Send Email Notifications in Dynamics 365](../admin/media/customer-driven-updatesendemailnotifications.PNG "Send Email Notifications in Dynamics 365")  
+ ![Send Email Notifications in Dynamics 365](../media/customer-driven-updatesendemailnotifications.PNG "Send Email Notifications in Dynamics 365")  
   
 ### See also   
  [Blog: Managing Email notifications in Microsoft Dynamics CRM Online](http://blogs.msdn.com/b/crm/archive/2014/05/27/how-do-i-start-receiving-notification.aspx)   

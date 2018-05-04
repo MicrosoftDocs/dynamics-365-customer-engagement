@@ -105,13 +105,13 @@ For more information about the key types supported by Key Vault by uploading the
   
 4.  Under **database encryption settings**, click **manage key**.  
   
- ![Manage key button](../admin/media/key-manage.PNG "Manage key button")  
+ ![Manage key button](../media/key-manage.PNG "Manage key button")  
   
 5.  Review the message that appears and if you want to manage your own database encryption key for the instance, click **ok**.  
   
 6.  By default, the name for the key is *InstanceName Encryption Key*. Leave the key name or change it and then click either **new** or **upload**.  
   
- ![Create a new key or upload a key](../admin/media/key-management-new-upload.PNG "Create a new key or upload a key")  
+ ![Create a new key or upload a key](../media/key-management-new-upload.PNG "Create a new key or upload a key")  
   
 **new** <br />
  Click **new** to have a .PFX encryption key generated for you that will be used to encrypt the database.  
@@ -139,7 +139,7 @@ For more information about the key types supported by Key Vault by uploading the
   
 Notice that the key name you specified to manage database encryption settings now appears under **Current Encryption Key**.  
   
-![Indication of a managed key](../admin/media/keymgt-managed-key.PNG "Indication of a managed key")  
+![Indication of a managed key](../media/keymgt-managed-key.PNG "Indication of a managed key")  
   
 ### Revert a managed encryption key  
  Reverting a managed key configures the instance back to the default behavior where [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] manages the encryption key for you.  
@@ -187,7 +187,7 @@ Notice that the key name you specified to manage database encryption settings no
   
 3.  Click **unlock instance**.  
   
- ![Unlock an instance](../admin/media/key-unlock.PNG "Unlock an instance")  
+ ![Unlock an instance](../media/key-unlock.PNG "Unlock an instance")  
   
 4.  Browse for and select the encryption key that was used to encrypt the instance, and then click **Open**.  
   
