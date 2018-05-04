@@ -20,19 +20,19 @@ ms.author: jimholtz
 ---
 # How do I check my online service health?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. The dashboard on the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
+You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] services. The dashboard on the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
   
 <a name="BKMK_Snapshot"></a>   
 ## View a snapshot of service health  
- [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can see a quick snapshot of service health for some of your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. Click **Health** > **Service health** to get more information on all your services.  
+ [!INCLUDE[proc_office365_signin](../../includes/proc-office365-signin.md)] You can see a quick snapshot of service health for some of your [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] services. Click **Health** > **Service health** to get more information on all your services.  
   
  ![Office 365 Admin Center service health dashboard](../admin/media/office-365-admin-center-service-health-dashboard.png "Office 365 Admin Center service health dashboard")  
   
 <a name="BKMK_TenantHealth"></a>   
 ## View Dynamics 365 (online) service health  
- Click on an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] service, such as [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)],  to get detailed information on its service health status.  
+ Click on an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] service, such as [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)],  to get detailed information on its service health status.  
   
  ![Office 365 Admin Center service issue](../admin/media/office-365-admin-center-service-issue.png "Office 365 Admin Center service issue")  
   
@@ -48,11 +48,11 @@ You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest]
  ![Office 365 Admin Center Message Center](../admin/media/office-365-admin-center-message-center.png "Office 365 Admin Center Message Center")  
   
 ## View instance service health  
- If your company has multiple instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], you can see the health status for individual [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instances in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)].  
+ If your company has multiple instances of [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], you can see the health status for individual [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] instances in the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)].  
   
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
+1. [!INCLUDE[proc_office365_signin](../../includes/proc-office365-signin.md)]  
   
-2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
+2. [!INCLUDE[proc_office365_choose_admin_crm](../../includes/proc-office365-choose-admin-crm.md)]  
   
 3.  Choose the **Service Health** tab.  
   

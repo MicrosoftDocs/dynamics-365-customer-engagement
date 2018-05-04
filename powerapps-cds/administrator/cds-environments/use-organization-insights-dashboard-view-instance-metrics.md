@@ -20,12 +20,12 @@ ms.author: jimholtz
 ---
 # Preview feature: Use the Organization Insights dashboard to view metrics about your instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] metrics such as the number of active users and page requests.  
+Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] metrics such as the number of active users and page requests.  
   
 > [!IMPORTANT]
->  The Organization Insights dashboard is a preview feature in [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)]. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md) [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
+>  The Organization Insights dashboard is a preview feature in [!INCLUDE[pn_crm_8_1_0_online](../../includes/pn-crm-8-1-0-online.md)]. A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md) [!INCLUDE[cc_preview_features_no_MS_support](../../includes/cc-preview-features-no-ms-support.md)]  
 >   
 >  Consider using the new [Organization Insights solution](use-organization-insights-solution-view-instance-metrics.md) for a richer view of your instance metrics. Organization Insights dashboard will remain a preview feature and will be deprecated once the Organization Insights solution is fully available.  
   
@@ -60,7 +60,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Active Users|Total number of active users (unique users) who performed an operation that caused one of these SDK calls: `Retrieve`, `Retrieve Multiple`, `Delete`, `Create`, and `Update`.|  
   
 ### How to interpret this chart  
- This chart shows the adoption and usage of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance based on active users (unique users) with read, write, create, and update actions.  
+ This chart shows the adoption and usage of your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance based on active users (unique users) with read, write, create, and update actions.  
   
 ## Most Active Users (Reads)  
  ![Organization Insights Most Active Users (Reads) chart](../admin/media/organization-insights-most-active-users-reads-chart.png "Organization Insights Most Active Users (Reads) chart")  
@@ -69,10 +69,10 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 |Chart element|Description|  
 |-------------------|-----------------|  
-|Reads|List of most active users who performed an operation that caused a `Retrieve` or `Retrieve Multiple` SDK call in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
+|Reads|List of most active users who performed an operation that caused a `Retrieve` or `Retrieve Multiple` SDK call in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance over the selected time period.|  
   
 ### How to interpret this chart  
- This chart lists the top ten users who performed the most `Read` operations in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+ This chart lists the top ten users who performed the most `Read` operations in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
 ## Most Active Users (Changes)  
  ![Organization Insights Most Active Users (Changes) chart](../admin/media/organization-insights-most-active-users-changes-chart.png "Organization Insights Most Active Users (Changes) chart")  
@@ -81,12 +81,12 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
   
 |Chart element|Description|  
 |-------------------|-----------------|  
-|Creates|List of most active users who performed an operation that caused a `Create` SDK call in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
-|Updates|List of most active users who  performed an operation that caused an `Update` SDK call  in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
-|Deletes|List of most active users who  performed an operation that caused a `Delete` SDK call  in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the selected time period.|  
+|Creates|List of most active users who performed an operation that caused a `Create` SDK call in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance over the selected time period.|  
+|Updates|List of most active users who  performed an operation that caused an `Update` SDK call  in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance over the selected time period.|  
+|Deletes|List of most active users who  performed an operation that caused a `Delete` SDK call  in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance over the selected time period.|  
   
 ### How to interpret this chart  
- This chart lists the top ten users who  performed the most change  operations (creates, updates, deletes) in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+ This chart lists the top ten users who  performed the most change  operations (creates, updates, deletes) in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   
 <a name="BKMK_SpecificOperations"></a>   
 ## Active Users Performing Specific Operations  
@@ -102,7 +102,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Deletes|Total number of unique users who performed an operation that caused a `Delete` SDK call. Deletes for all entities are included.|  
   
 ### How to interpret this chart  
- This chart shows how many unique users are performing which types of operations (create, update, deletes, reads) in your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the specified time.  
+ This chart shows how many unique users are performing which types of operations (create, update, deletes, reads) in your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance over the specified time.  
   
 <a name="BKMK_TotalOperations"></a>   
 ## Total Operations  
@@ -118,7 +118,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Reads|Total number of **Retrieve** and **Retrieve Multiple** SDK calls. Reads for all entities are included.|  
   
 ### How to interpret this chart  
- This chart shows how many operations (create, update, deletes, reads) have occurred in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance over the specified time.  
+ This chart shows how many operations (create, update, deletes, reads) have occurred in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance over the specified time.  
   
 <a name="BKMK_PageRequests"></a>   
 ## Total Page Requests  
@@ -133,7 +133,7 @@ Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_
 |Reports|Number of requests for reports.|  
   
 ### How to interpret this chart  
- This chart shows the number of page load requests for forms, dashboards, and reports.    This is a count of requests received by the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] server. Pages that are cached while browsing won't be counted.  
+ This chart shows the number of page load requests for forms, dashboards, and reports.    This is a count of requests received by the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. Pages that are cached while browsing won't be counted.  
   
 ### See also  
 [Use the Organization Insights solution to view metrics about your instance](use-organization-insights-solution-view-instance-metrics.md)  

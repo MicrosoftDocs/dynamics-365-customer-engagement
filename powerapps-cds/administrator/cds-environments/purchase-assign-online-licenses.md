@@ -20,9 +20,9 @@ ms.author: jimholtz
 ---
 # Purchase and assign Dynamics 365 (online) licenses
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
 
-[!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] introduces a new licensing model with choices that extend to pricing with [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)]. Get monthly plans—with apps packaged for savings—or standalone applications. Opt for full or light use. And select the edition that meets the needs of your large or small business, now and down the road.  
+[!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] introduces a new licensing model with choices that extend to pricing with [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)]. Get monthly plans—with apps packaged for savings—or standalone applications. Opt for full or light use. And select the edition that meets the needs of your large or small business, now and down the road.  
   
 > [!TIP]
 >  Get started with the following resources:  
@@ -42,7 +42,7 @@ ms.author: jimholtz
   
  ![Office 365 Purchase Services](../admin/media/office-365-purchase-services.png "Office 365 Purchase Services")  
   
-3.  Select the subscription that best fits your company's [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] needs.  
+3.  Select the subscription that best fits your company's [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] needs.  
   
 4.  Click **Buy now** and then follow the steps to purchase a new license.  
   
@@ -62,7 +62,7 @@ ms.author: jimholtz
   
 4.  Click **Replace existing product license assignments**, and then click **Next**.  
   
-5.  Turn on the license for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] plan.  
+5.  Turn on the license for your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] plan.  
   
  ![Dynamics 365 Customer Engagement Plan Enterprise Edition license](../admin/media/dynamics-365-plan-1-enterprise-edition-license.png "Dynamics 365 Customer Engagement Plan Enterprise Edition license")  
   
