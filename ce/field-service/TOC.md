@@ -1,7 +1,7 @@
 # [Overview](overview.md)
 # [What's new](whats-new-field-service-project-service.md)
 
-# Administrator Guide
+# Administrator guide
 ## [Install](install-field-service.md)
 ## [Experiment with demo data](use-demo-data.md)
 ## [View user accounts and security roles](view-user-accounts-security-roles.md)
@@ -39,15 +39,7 @@
 ### [Payment terms](set-up-payment-terms.md)
 ### [Tax codes](set-up-tax-codes.md)
 
-# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-
-# [Connected Field Service (IoT)](connected-field-service.md)
-## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
-### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
-### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
-#### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-
-# [Field Service user guide](user-guide.md)
+# [Field service user guide](user-guide.md)
 ## Scheduling
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Create a work order](create-work-order.md)
@@ -67,6 +59,14 @@
 
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
 
+# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+
+# [Connected Field Service (IoT)](connected-field-service.md)
+## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
+### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
 
 
