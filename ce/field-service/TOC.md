@@ -6,7 +6,7 @@ wor# [Overview](overview.md)
 ## [Field service installation](install-field-service.md)
 ## [Sample data installation](use-demo-data.md)
 ## [Mobile solution installation](install-the-mobile-app.md)
-## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
+## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
 ## [User security roles and accounts](view-user-accounts-security-roles.md)
 ## [Org-wide default settings](configure-default-settings.md)
 ## [Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
@@ -58,10 +58,12 @@ wor# [Overview](overview.md)
 ### [View product inventory](view-product-inventory.md)
 
 # [Mobile field service](field-service-mobile-app-user-guide.md)
-
 ## [Field Resource Hub](field-resource-hub-users-guide.md)
 
 # [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+## [Resource scheduling optimization (../common-scheduler/resource-scheduling-optimization.md)
+## [Create custom geospatial data provider plugin (../common-scheduler/use-preferred-geospatial-data-provider.md)
+
 
 # [Connected Field Service (IoT)](connected-field-service.md)
 ## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
