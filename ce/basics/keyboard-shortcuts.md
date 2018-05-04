@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. Replace ctrl with command key for Mac.
+Keyboard shortcuts give you an alternate way to do common tasks, instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. 
 
 > [!NOTE]
 > The keyboard shortcuts described here refer to the United States keyboard layout. Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard. 
@@ -59,7 +59,7 @@ Keyboard shortcuts give you an alternate way to do common tasks, instead of usin
 ##Grids
 |To              |Select  |
 |---------|---------|
-|Move to sections of the grid page | Ctrl+F6 |
+|Move through sections of the grid page | Ctrl+F6 |
 
 ## Editable grids (views)
 If editable grids (views) have been enabled by your administrator, you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
@@ -87,7 +87,7 @@ If editable grids (views) have been enabled by your administrator, you can edit 
 |Move to Refresh button when the focus is on the column header| Tab|
 
 ##Interactive dashboard shortcuts
-Interactive dashboards enable new functionality, such as filtering, sorting, quick actions. The following table lists the keyboard shortcuts:
+Interactive dashboards enable new functionality, such as filtering, sorting, and quick actions. The following table lists the keyboard shortcuts:
 
 |To              |Select  |
 |---------|---------|
@@ -147,7 +147,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Move to the right carousel when focus is on left carousel | Tab |
 |Move to the left carousel when focus is on the right carousel | Shift+Tab |
 |Move to the next element when focus is on the right carousel | Tab | 
-|Move to to previous element when focus is on left carousel | Shift+Tab |
+|Move to the previous element when focus is on left carousel | Shift+Tab |
 
 ###Tag chart shortcuts
 |To              |Select  |
@@ -157,58 +157,50 @@ Interactive dashboards enable new functionality, such as filtering, sorting, qui
 |Move to the previous tag | Right (→) arrow key |
 |Move to the first tag | Home |
 |Move to the last tag | End |
-|Move to the See All element if not already filtered | Tab |
-|Move from the See All element to tags | Shift+Tab |
+|Move to the **See All element** section, if not already filtered | Tab |
+|Move from the **See All element** section to the tags | Shift+Tab |
 
 ###Stream control shortcuts
 |To              |Select  |
 |---------|---------|
-|Move to next stream | Down (↓) arrow key **Or** Right (→) arrow key |
-|Move to previous stream | Up (↑) arrow key **Or** Left (←) arrow key |
-|Move to next element | Tab |
-|Move to previous element | Shift+Tab |
+|Move to the next stream | Down (↓) arrow key **Or** Right (→) arrow key |
+|Move to the previous stream | Up (↑) arrow key **Or** Left (←) arrow key |
+|Move to the next element | Tab |
+|Move to the previous element | Shift+Tab |
 |Activate a button | Enter **Or** Spacebar |
-|Activate the Sort by field button and open flyout | Enter **Or** Space **Or** Down (↓) arrow key |
-|Move to next item item | Down (↓) arrow key |
-|Move to previous item item | Up (↑) arrow key |
+|Activate the **Sort by field** button and open flyout | Enter **Or** Space **Or** Down (↓) arrow key |
+|Move to the next item | Down (↓) arrow key |
+|Move to the previous item | Up (↑) arrow key |
 |Move to the first item | Home |
 |Move to the last item | End |
-|Close the menu | Escape |
-|Change the state of the checkbox | Spacebar |
+|Close a menu | Escape |
+|Change the state of a checkbox | Spacebar |
 
 ###Tile control shortcuts
 |To              |Select  |
 |---------|---------|
-|Activate the Show Details button and open flyout | Enter **Or** Space |
-|Move to next item | Down (↓) arrow key |
-|Move to previous item | Up (↑) arrow key |
-|Move to first item | Home |
-|Move to last item | End|
-|Move to next element | Tab |
-|Move to previous element | Shift+Tab |
-
-
-###Duplicate detection shortcuts
-|To              |Select  |
-|---------|---------|
-|Save | Ctrl+S **Or** Cmd+SS (on Mac) |
-|Save and close | Alt+S |
-
+|Activate the **Show Details** button and open flyout | Enter **Or** Space |
+|Move to the next item | Down (↓) arrow key |
+|Move to the previous item | Up (↑) arrow key |
+|Move to the first item | Home |
+|Move to the last item | End|
+|Move to the next element | Tab |
+|Move to the previous element | Shift+Tab |
 
 ###Search results shortcuts
 |To              |Select  |
 |---------|---------|
 |Move to the next search result | Up (↑) arrow key |
 |Move to the previous search result | Down (↓) arrow key |
-|Move to List of available views | Right (→) arrow key |
-|Move from List of available views to search results | Left (←) arrow key |
+|Move to the list of available views | Right (→) arrow key |
+|Move from the list of available views to search results | Left (←) arrow key |
 |Navigate between buttons | Tab |
 
 
 ##Keyboard shortcuts for specific apps
 [Keyboard shortcuts for the Customer Service Hub](../customer-service/keyboard-navigation-support-customer-service-hub)
 
-[Dynamics 365 for Marketing:Keyboard shortcuts and accessibility features for content designers](marketing/designer-shortcuts)
+[Dynamics 365 for Marketing: Keyboard shortcuts and accessibility features for content designers](marketing/designer-shortcuts)
 
 [Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
 
