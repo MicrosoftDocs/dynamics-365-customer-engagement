@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Add a Partner of Record (POR) to your subscription
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can choose to work with a designated Microsoft partner who can provide the sales and technical expertise you need to help set up, customize, deploy, and administer your [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] instances. You can find a designated Partner of Record (POR) on the [Microsoft Partner Center](https://partnercenter.microsoft.com/pcv/register/joinnow/enrollmentWelcome/valueaddedreseller) site. Once you find a partner, request their Microsoft Partner ID and designate them in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)].  
   

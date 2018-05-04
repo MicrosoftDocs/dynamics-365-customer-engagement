@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # How do I check my online service health?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] services. The dashboard on the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
   

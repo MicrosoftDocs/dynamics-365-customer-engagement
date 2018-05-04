@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Use the service admin role to manage your tenant
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 To help you administer [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)], you can assign users to manage [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] at the tenant level without having to assign the more powerful [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] global admin privileges.  
   

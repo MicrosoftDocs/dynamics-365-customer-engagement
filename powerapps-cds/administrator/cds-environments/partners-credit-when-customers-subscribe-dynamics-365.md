@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # For partners -- Get the credit when your customers subscribe
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 As a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] partner, you can help your customer sign up for a [!INCLUDE[pn_Online_Subscription](../../includes/pn-online-subscription.md)]. You can customize and set up their organization for them, and reduce their effort to get started. After signing up, you can designate your company as the customer’s partner of record. As the partner of record, you can help to ensure that your customer has a great trial experience and start them down the path toward success with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].  
   

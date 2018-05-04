@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Delete an instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can delete [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Sandbox instances to recover the licenses and storage space or to prevent them from being used by mistake. In order to delete a production instance, you must first switch to a Sandbox instance and then delete the Sandbox instance. You can delete a Support instance directly.
   

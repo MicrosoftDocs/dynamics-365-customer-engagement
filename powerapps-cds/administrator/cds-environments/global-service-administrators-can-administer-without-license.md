@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Global and Service administrators can administer without a license
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 By default, all [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] Global administrators and [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] Service administrators who do not have a [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] license are granted the following two levels of permission in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)].  
   

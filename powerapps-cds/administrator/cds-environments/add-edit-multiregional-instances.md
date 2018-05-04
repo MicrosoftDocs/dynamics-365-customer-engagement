@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Add and edit multiregional instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 For multinational companies with employees and customers distributed around the world, you can create and manage [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instances specific to your global regions. You can create an instance in a different region than where your [!INCLUDE[pn_crm_online_subsequent](../../includes/pn-crm-online-subsequent.md)] tenant resides. Local instances can provide quicker data access for users in that region. Be sure to read [A multi-instance deployment](../admin/multiple-online-instances-tenants.md#BKMK_Single) to understand the features of multiple instances.  
   

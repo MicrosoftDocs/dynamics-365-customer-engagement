@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Copy an instance to a Sandbox instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can use Copy instance in the [!INCLUDE[pn_dyn_365_admin_center](../../includes/pn-dyn-365-admin-center.md)] to copy the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] application and all data from any instance to a Sandbox instance. You can do either a full or minimal copy.  
   

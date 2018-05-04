@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Reset a user's password
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 If a user loses a password, you can reset it. To reset a user’s password, you must be a [!INCLUDE[pn_ms_online_services_environment](../../includes/pn-ms-online-services-environment.md)] global administrator, user management administrator, or password administrator.  
   

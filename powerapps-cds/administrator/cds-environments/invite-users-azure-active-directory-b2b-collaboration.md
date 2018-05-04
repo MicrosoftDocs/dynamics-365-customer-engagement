@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Invite users with Azure Active Directory B2B collaboration
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can invite other users to access your [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] instance. The [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] Global admin can do this through the [Azure portal](https://portal.azure.com). Invited users can access your [!INCLUDE[pn_dyn_365_online](../../includes/pn-crm-online.md)] instance using their own login credentials once a [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] license and a security role are assigned to them. You don’t need to create a new user account and temporary password for these invited users in your own [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] tenant.  
   

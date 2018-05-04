@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Manage Sandbox instances
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 A Sandbox instance is any non-production instance of [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)]. Isolated from production, a Sandbox instance is the place to safely develop and test application changes with low risk.  
   

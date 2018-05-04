@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Preview feature: Use the Organization Insights dashboard to view metrics about your instance
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 Use the Organization Insights dashboard to get a quick view of key [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] metrics such as the number of active users and page requests.  
   

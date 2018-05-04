@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Onboard your organization and users
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 New to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]? We've put together step-by-step guidance whether you’re still evaluating [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)], ready to make a purchase, or ready to onboard your organization and users.  
   

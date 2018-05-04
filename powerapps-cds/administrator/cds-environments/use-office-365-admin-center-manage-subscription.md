@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Use the Office 365 admin center to manage your subscription
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 [The Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23) is a portal site rich in features for the administrator. [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] takes advantage of the features on this site to simplify and consolidate management of user accounts, billing, licensing, and more.  
   

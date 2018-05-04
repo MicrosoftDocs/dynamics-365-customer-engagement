@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # What's an Office 365 user ID and why do users need one?
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 Each user signs in to [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] with an [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] user ID (more precisely, an [!INCLUDE[pn_azure_active_directory](../../includes/pn-azure-active-directory.md)] user ID, see the Note later in this topic). Access to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] is controlled through the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] user ID.  
   

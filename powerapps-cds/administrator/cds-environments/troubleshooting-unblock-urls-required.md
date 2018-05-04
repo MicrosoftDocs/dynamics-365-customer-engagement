@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Troubleshooting: Unblock required URLs
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] uses several Microsoft URLs to help provide security, services, and features. However, your computer or your organization’s computer network may block access to some of these URLs. Blocking any of the required URLs will cause [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] to operate incorrectly or not at all.  
   

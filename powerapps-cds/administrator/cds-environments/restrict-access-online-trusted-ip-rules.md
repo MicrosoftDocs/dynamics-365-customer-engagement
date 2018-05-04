@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Restrict access with trusted IP rules
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 You can limit access to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] to users with   trusted IP addresses to reduce unauthorized access. When trusted IP address restrictions are set in a user’s profile and the user tries to log in from an untrusted IP address, access to [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] is blocked.  
   

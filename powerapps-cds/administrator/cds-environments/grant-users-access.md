@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Grant users access
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 To have users up and running in [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)], you complete some administrative tasks in the [!INCLUDE[pn_office_365_admin_center](../../includes/pn-office-365-admin-center.md)]—which you generally do only once—followed by administrative tasks in [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)].  
   

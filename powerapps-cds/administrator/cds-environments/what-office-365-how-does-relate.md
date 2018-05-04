@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # What is Office 365 and how does it relate to Dynamics 365 (online)? 
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 [Office 365](https://products.office.com/business/enterprise-productivity-tools) is a collection of online services designed to work together to provide enterprise-grade, anywhere access to email, file sharing, and online meetings. [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] includes features that allow administrators to add users, manage passwords and licenses, and much more. [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] takes advantage of the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] administration features to simplify user management. [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] users are created and managed in the [Office 365 admin center](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23).  
   

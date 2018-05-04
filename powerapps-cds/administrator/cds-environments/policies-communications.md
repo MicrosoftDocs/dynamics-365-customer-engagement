@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Policies and Communications for service incidents
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 Microsoft regularly maintains and updates [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] to ensure security, performance, and availability, and to provide new features and functionality. From time to time, Microsoft also responds to service incidents. For each of these activities, the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] admin for your organization,  or recipients added to the notification list by the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] admin, receives email notifications. During a service incident, a [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] customer service representative may also call and follow up with an email.  
   

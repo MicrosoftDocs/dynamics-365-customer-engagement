@@ -20,7 +20,7 @@ ms.author: jimholtz
 ---
 # Cancel your subscription
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE [cc_applies_to_update_8_2_0](../../includes/cc_applies_to_update_8_2_0.md)]
 
 We are sorry that you are considering canceling your subscription with [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. This topic contains information you’ll need before you cancel your subscription. For additional details, see Section 4 of the [Microsoft Dynamics 365 Online Service Agreement](http://go.microsoft.com/fwlink/p/?LinkId=269924).  
   
