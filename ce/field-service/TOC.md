@@ -1,4 +1,4 @@
-# [Overview](overview.md)
+ wor# [Overview](overview.md)
 # [What's new](whats-new-field-service-project-service.md)
 
 # Administrator guide
@@ -39,7 +39,7 @@
 ### [Payment terms](set-up-payment-terms.md)
 ### [Tax codes](set-up-tax-codes.md)
 
-# [Field service user guide](user-guide.md)
+# [Scheduling and inventory management](user-guide.md)
 ## Scheduling
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Create a work order](create-work-order.md)
