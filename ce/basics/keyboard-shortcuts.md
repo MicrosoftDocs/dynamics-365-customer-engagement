@@ -127,7 +127,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 |To              |Select  |
 |---------|---------|
-|Open a menu | Enter **Or** Space **Or** Down (↓) arrow key |
+|Open a menu | Enter **Or** Spacebar **Or** Down (↓) arrow key |
 |Activate a button | Enter **Or** Spacebar |
 |Move to the next element | Tab |
 |Move to the previous element | Shift+Tab |
@@ -145,7 +145,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 |To              |Select  |
 |---------|---------|
-|Activate the carousel button and show the chart | Enter **Or** Space |
+|Activate the carousel button and show the chart | Enter **Or** Spacebar |
 |Move to the right carousel when focus is on the left carousel | Tab |
 |Move to the left carousel when focus is on the right carousel | Shift+Tab |
 |Move to the next element when focus is on the right carousel | Tab | 
@@ -172,7 +172,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the next element | Tab |
 |Move to the previous element | Shift+Tab |
 |Activate a button | Enter **Or** Spacebar |
-|Activate the **Sort by field** button and open flyout | Enter **Or** Space **Or** Down (↓) arrow key |
+|Activate the **Sort by field** button and open flyout | Enter **Or** Spacebar **Or** Down (↓) arrow key |
 |Move to the next item | Down (↓) arrow key |
 |Move to the previous item | Up (↑) arrow key |
 |Move to the first item | Home |
@@ -184,7 +184,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 |To              |Select  |
 |---------|---------|
-|Activate the **Show Details** button and open flyout | Enter **Or** Space |
+|Activate the **Show Details** button and open flyout | Enter **Or** Spacebar |
 |Move to the next item | Down (↓) arrow key |
 |Move to the previous item | Up (↑) arrow key |
 |Move to the first item | Home |
