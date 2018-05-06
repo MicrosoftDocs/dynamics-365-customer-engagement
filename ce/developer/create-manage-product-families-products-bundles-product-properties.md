@@ -2,7 +2,7 @@
 title: "Create and manage product families, products, bundles, and product properties (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family."
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 05/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -325,4 +325,4 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
  [Sample: Create and publish products](sample-create-publish-products.md)   
  [Sample: Clone product records](sample-clone-product-records.md)   
  [Sample: Add products to a bundle](sample-add-products-bundle.md)   
- [Product catalog entities (NOT READY FOR TECH REVIEW)](product-catalog-entities.md)
+ [Product catalog entities](product-catalog-entities.md)
