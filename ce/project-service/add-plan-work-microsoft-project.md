@@ -1,9 +1,9 @@
 ---
 title: "Use the Project Service Automation Add-in to plan your work in Microsoft Project | MicrosoftDocs"
-ms.custom: ""
+ms.custom: dyn365-projectservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -12,11 +12,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 7fa9a1af-106b-4fbc-85b8-1e5ab66108bd
 caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Use the Project Service Automation Add-in to plan your work in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]
 

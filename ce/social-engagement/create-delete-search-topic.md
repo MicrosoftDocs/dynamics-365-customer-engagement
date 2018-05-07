@@ -3,7 +3,7 @@ title: "Manage search topics in Social Engagement | Microsoft Docs"
 description: "Learn how to create a new search topic or delete an existing one in Social Engagement."
 keywords: "searches, search topic, search rules, gather data"
 ms.date: 10/17/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Create or delete a search topic

@@ -1,10 +1,10 @@
 ---
 title: "Install the Unified Service Desk for Dynamics 365 Customer Engagement client | MicrosoftDocs"
 description: "Learn how  to install the Unified Service Desk for Dynamics 365 Customer Engagement client."
-ms.custom: ""
+ms.custom: dyn365-USD, dyn365-admin
 ms.date: 01/25/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: d1ad62d9-a401-4941-828f-d3b13d80b38d
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---
