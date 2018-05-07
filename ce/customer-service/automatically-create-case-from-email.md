@@ -12,7 +12,8 @@ ms.date: 09/30/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 6331648f-e0f5-4e67-9a18-08fdb22ba879
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Automatically create a case from an email (Customer Service)

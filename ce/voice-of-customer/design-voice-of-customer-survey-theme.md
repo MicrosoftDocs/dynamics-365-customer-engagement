@@ -2,7 +2,8 @@
 title: "Design a theme for your Voice of the Customer for Dynamics 365 surveys | MicrosoftDocs"
 description: ""
 ms.assetid: 3baba341-40df-4ca1-afa5-d467ec568df6
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

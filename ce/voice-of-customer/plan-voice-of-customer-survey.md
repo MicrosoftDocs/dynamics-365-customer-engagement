@@ -3,7 +3,8 @@ title: "Plan your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
 description: ""
 ms.assetid: d715a38e-7d83-477e-9fa4-08f1130d7e59
 keywords: ""
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

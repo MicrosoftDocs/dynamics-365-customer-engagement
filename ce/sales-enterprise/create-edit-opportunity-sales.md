@@ -4,7 +4,8 @@ description: "An opportunity is a deal you're ready to win. Create an opportunit
 keywords: "opportunity, deal, develop, propose, nurture sales"
 ms.date: 05/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

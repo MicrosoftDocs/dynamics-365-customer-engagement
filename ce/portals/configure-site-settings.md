@@ -1,7 +1,8 @@
 ---
 title: "Configure site settings for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to add and configure site settings for a portal and global settings for all portals in your organization."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

@@ -4,7 +4,8 @@ description: "Make it easier for your sales reps to increase their sales by crea
 keywords: "Product catalog, collection, products"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

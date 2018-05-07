@@ -1,6 +1,7 @@
 ---
 title: "Use the Project Service Automation Add-in to plan your work in Microsoft Project | MicrosoftDocs"
-ms.custom: dyn365-projectservice
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

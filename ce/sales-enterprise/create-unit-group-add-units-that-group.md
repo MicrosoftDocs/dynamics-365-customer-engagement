@@ -4,7 +4,8 @@ description: "Define the quantities or measurements that you sell your products 
 keywords: "unit, unit group, measurement, quantity"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

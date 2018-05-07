@@ -4,7 +4,8 @@ description: "Quotes include the pricing details of the products your potential 
 keywords: "Quote, proposal, create quote, products, price"
 ms.date: 09/22/2017
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

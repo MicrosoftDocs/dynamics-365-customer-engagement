@@ -13,7 +13,8 @@ author: kamaybac
 ms.author: kamaybac
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Marketing help and training

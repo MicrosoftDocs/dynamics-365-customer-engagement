@@ -1,7 +1,8 @@
 ---
 title: "Legal information about Dynamics 365 - Gamification | MicrosoftDocs"
 description: "Learn about the license terms and additional privacy information about Dynamics 365 – Gamification."
-ms.custom: dyn365-gamification
+ms.custom:
+  - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
 ms.service: dynamics-365-sales

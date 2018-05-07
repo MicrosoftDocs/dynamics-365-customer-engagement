@@ -4,7 +4,8 @@ description: "Learn about what's new in the latest release of portal capabilitie
 keywords: ""
 ms.date: 04/14/2018
 ms.service: dynamics-365-customerservice
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 873dffa1-e598-4548-b494-7b67f2b01bb1
 author: sbmjais

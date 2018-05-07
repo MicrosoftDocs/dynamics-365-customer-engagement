@@ -9,7 +9,8 @@ ms.assetid: 2ad0f5dc-24c6-4cad-a8e2-f88361765607
 author: m-hartmann
 ms.author: mhart
 ms.manager: sakudes
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 manager: sakudes
 ---
 # Social selling - grow your network and boost sales

@@ -4,7 +4,8 @@ description: "If you're no longer selling a product, delete it from Dynamics 365
 keywords: "Delete product"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

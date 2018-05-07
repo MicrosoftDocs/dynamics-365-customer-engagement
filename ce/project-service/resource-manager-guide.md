@@ -1,6 +1,7 @@
 ---
 title: "Resource Manager Guide (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: dyn365-projectservice
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/15/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

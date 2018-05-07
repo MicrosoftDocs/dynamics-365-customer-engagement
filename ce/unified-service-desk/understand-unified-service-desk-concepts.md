@@ -1,7 +1,8 @@
 ---
 title: "Understand Unified Service Desk for Dynamics 365 Customer Engagement concepts | MicrosoftDocs"
 description: "Learn about basic concepts related to configuring and extending Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 01/25/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
