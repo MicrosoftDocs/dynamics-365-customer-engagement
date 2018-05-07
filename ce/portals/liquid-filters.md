@@ -2,7 +2,7 @@
 title: "Use Liquid filters for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about the available liquid filters in a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/07/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
