@@ -1,21 +1,25 @@
 ---
 title: "Preview feature: Automatically suggest knowledge articles with Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: ee417009-afaf-4a63-9d8b-ef756a37decf
+author: Mattp123
+ms.author: matp
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 10
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Preview feature: Automatically suggest knowledge articles
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -129,5 +133,5 @@ You want your customer service reps to quickly resolve cases with high customer 
 4.  Click the **Similar Cases** button to find related cases.  
  
 ### See also  
- [What are Preview features and how do I enable them?](../sales-enterprise/what-are-preview-features-how-do-i-enable-them.md)   
+ [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)   
  [User's guide for the new interactive service hub](../customer-service/user-guide-customer-service.md)   

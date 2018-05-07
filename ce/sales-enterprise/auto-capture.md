@@ -30,13 +30,13 @@ Auto capture is part of the *Embedded intelligence* suite of features.
   
 [Watch a short video (1:43) about Dynamics 365 Auto Capture](https://go.microsoft.com/fwlink/p/?linkid=841309).  
 
-The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../admin/configure-enable-../sales-enterprise/embedded-intelligence.md).  
+The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../sales-enterprise/configure-enable-../sales-enterprise/embedded-intelligence.md).  
   
 ## View auto-captured messages and convert them into tracked messages  
 
  Messages found by auto capture are merged with other relevant [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] activities and shown in the **Activities** column for the record they apply to. You can see them on Contact, Opportunity, Lead, Account, Case, and Custom entities. So, for example, if you are looking at an opportunity in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], then the **Activities** column shows all of the activities you have logged for that opportunity, plus up to 50 recent email messages in your [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] account that were sent to or from the primary contact for that opportunity or  its stakeholders.  
   
- ![Auto capture messages in the Activities column](../admin/media/auto-capture-messages-the-activities-column.png "Auto capture messages in the Activities column")  
+ ![Auto capture messages in the Activities column](../sales-enterprise/media/auto-capture-messages-the-activities-column.png "Auto capture messages in the Activities column")  
   
  The figure shows both tracked and auto-captured (not tracked) messages in the **Activities** column, and highlights the following:  
   
@@ -74,11 +74,11 @@ The administrator must enable auto capture before you can try it out. For comple
   
 1.  Select the gear button on the nav bar, and then choose **Options** from the menu.  
   
-    ![Options menu](../admin/media/options-menu.png "Options menu")  
+    ![Options menu](../sales-enterprise/media/options-menu.png "Options menu")  
   
 2.  The **Set Personal Options** dialog opens. Select the **Email** tab.  
   
-    ![Auto capture personal options](../admin/media/auto-capture-personal-options.png "Auto capture personal options")  
+    ![Auto capture personal options](../sales-enterprise/media/auto-capture-personal-options.png "Auto capture personal options")  
   
 3.  Set the **Show email not tracked in Dynamics 365 in the Activities list** option to **Yes** or **No**, as needed.  
   

@@ -12,6 +12,7 @@ ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
+topic-status: Drafting
 ---
 
 # Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action
@@ -22,7 +23,7 @@ Use the **msdyn_RetrieveTypeValuesFromDCI** action to programmatically retrieve 
 
 > [!NOTE]
 > - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](../../developer/create-own-actions.md#generate-early-bound-types-for-an-action)
-> - This topic is applicable only for the [Relationship Analytics](../admin/relationship-analytics.md) feature.
+> - This topic is applicable only for the [Relationship Analytics](../sales-enterprise/relationship-analytics.md) feature.
 
 ## Action parameters
 
@@ -440,6 +441,6 @@ OData-Version: 4.0
 
 ### See also
 
-[Use Web API actions](../developer/webapi/use-web-api-actions)
+[Use Web API actions](../developer/webapi/use-web-api-actions.md)
 
 [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)

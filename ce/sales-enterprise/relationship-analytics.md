@@ -63,7 +63,7 @@ We are making this preview available so that you can try it and let us know what
 
 Relationship analytics provides an activity history, KPIs, health score, and health trend for contact, opportunity, lead, and account records. The most important KPIs (including your team's previous and next activity) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
   
-![Relationship health details in a grid view](../admin/media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
+![Relationship health details in a grid view](../sales-enterprise/media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
   
 <a name="BubbleChart"></a>   
 
@@ -74,22 +74,22 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
 1.  Go to **Sales** > **Opportunities**.  
   
 2.  From the drop-down menu, select **My Open Opportunities by Relationship**.<br>
-    ![Select my open opportunities view](../admin/media/relationship-insights-my-open-opportunities-relationship.png "Select my open opportunities view") 
+    ![Select my open opportunities view](../sales-enterprise/media/relationship-insights-my-open-opportunities-relationship.png "Select my open opportunities view") 
 
 3.  From the command bar, select **Show Chart**.<br>
-     ![Select show chart option](../admin/media/relationship-analytics-show-chart.png "Select show chart option") 
+     ![Select show chart option](../sales-enterprise/media/relationship-analytics-show-chart.png "Select show chart option") 
   
 4.  At the top of the charts pane, open the drop-down list and select **Relationship Pipeline**.  <br>
-    ![Select relationship pipeline chart](../admin/media/relationship-analytics-select-relationship-pipeline.png "Select relationship pipeline chart") <br>
+    ![Select relationship pipeline chart](../sales-enterprise/media/relationship-analytics-select-relationship-pipeline.png "Select relationship pipeline chart") <br>
     The relationship pipeline chart appears.<br>
-    ![Relationship pipeline chart](../admin/media/relationship-analytics-relationship-pipeline-chart.png "Relationship pipeline chart") 
+    ![Relationship pipeline chart](../sales-enterprise/media/relationship-analytics-relationship-pipeline-chart.png "Relationship pipeline chart") 
 
   
 Each upcoming opportunity is plotted as a bubble on the relationship pipeline chart. The size of each bubble indicates the estimated revenue of the opportunity. Health is plotted on the y-axis, so the higher up the bubble appears on the chart, the higher its health.  Estimated close date is plotted on the x-axis, so opportunities on the left side of the chart may expire soon. Therefore, the most critical opportunities are those with the largest bubbles located near the bottom-left corner, while the most promising opportunities are near the top of the chart.  
 
 Hover over a bubble to see the name of the opportunity and other details. Select a bubble to open its opportunity record. The color of each bubble indicates relationship health: green for good, yellow for fair, red for poor, and gray for zero (which indicates that the results have not been calculated, or that there is not enough data).  
   
-![Relationship Insights opportunity health chart](../admin/media/relationship-insights-opportunity-health-chart.png "Relationship Insights opportunity health chart")  
+![Relationship Insights opportunity health chart](../sales-enterprise/media/relationship-insights-opportunity-health-chart.png "Relationship Insights opportunity health chart")  
   
 The relationship pipeline chart relies on several values being available for each opportunity record, but in some cases, these values may be missing for some or all opportunities. This could be due to an oversight, or it could be because you don't use these fields at your organization. The chart represents missing values as follows:  
   
@@ -106,7 +106,7 @@ The relationship pipeline chart relies on several values being available for eac
 ## Analyze the health and activity history of a customer or opportunity  
 You can view complete relationship analytics for an individual record, including graphs, KPIs, email interaction history, full activity history, and relationship health. These details are available in two expandable sections when you view an individual record, such as a specific opportunity.  <br>
  
-![Activity analysis details](../admin/media/activity-analysis-details.png "Activity analysis details") 
+![Activity analysis details](../sales-enterprise/media/activity-analysis-details.png "Activity analysis details") 
   <br>
 **Relationship health and trend.** Shows your overall relationship health with the customer and includes the recent trend.  <br>
 - **Next interaction.** Shows the date and time for the next activity that is scheduled for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.  <br>
@@ -116,7 +116,7 @@ You can view complete relationship analytics for an individual record, including
   
 **Time spent.** Shows the relative amount of time spent on activities related to the record, including <!--time spent by you,--> your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members that were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.  <br>
   
-**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](../admin/email-engagement.md)  <br>
+**Email engagement.** Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Email engagement](../sales-enterprise/email-engagement.md)  <br>
   
 
 **Most contacted.** Provides statistics about the customer who are most contacted by your team. These contacts may include  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users. <br>
@@ -131,7 +131,7 @@ You can view complete relationship analytics for an individual record, including
 
 Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and emails stored on your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. The process for finding and calculating the scores is summarized in the following flow chart.  
   
- ![How relationship analytics are calculated](../admin/media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")  
+ ![How relationship analytics are calculated](../sales-enterprise/media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")  
   
 The following sections describe the function of each block in the flow chart.  
   
@@ -190,7 +190,7 @@ After the system has found all the relevant activities, it's ready to calculate 
 |Overall (all activities)|Total time spent|Total time spent|  
   
 > [!NOTE]
-> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](../admin/email-engagement.md)  
+> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Email engagement](../sales-enterprise/email-engagement.md)  
   
  For KPIs that report <!--time spent by you,--> your team and your customer, the system finds durations by applying the rules outlined in the following table:  
   
@@ -224,7 +224,7 @@ Please note:
  
 Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same, but your admin can increase or decrease the contribution of each type by up to 50 percent. In addition, your admin can choose how often salespeople should contact a customer (such as once a week); this setting also affects the health score.  
   
-![Relationship health weightings and frequency settings](../admin/media/relationship-analytics-settings-bottom.png "Relationship health weightings and frequency settings")  
+![Relationship health weightings and frequency settings](../sales-enterprise/media/relationship-analytics-settings-bottom.png "Relationship health weightings and frequency settings")  
   
 In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
 

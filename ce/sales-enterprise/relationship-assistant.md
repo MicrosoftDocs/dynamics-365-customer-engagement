@@ -38,7 +38,7 @@ Watch this short video about the Dynamics 365 Relationship assistant<br>
   
  When you start your day by signing in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
   
- ![Relationship assistant carousel on a dashboard](../admin/media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
+ ![Relationship assistant carousel on a dashboard](../sales-enterprise/media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
   
  The figure shows a typical dashboard that includes the relationship assistant carousel. It highlights the following elements:  
   
@@ -57,7 +57,7 @@ Action cards are made up of the following elements, as labeled in the figure:
   
 1. **Main content area**: Shows the title of the record the card refers to, its summary, the card type, and other basic information. Click anywhere in this area (except for on the two buttons) to open the related item, which might be a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record or an email message .  
   
-2. **Actions area**: Provides convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../admin/action-cards-reference.md)  
+2. **Actions area**: Provides convenient links that will help you complete whatever type of action the card is recommending. The number (up to two) and types of links provided here vary by card type. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../sales-enterprise/action-cards-reference.md)  
   
 3. **Snooze button**: select the button to hide card temporarily. Snooze time varies by card type. Once the snooze time expires the card will again be visible.  
   
@@ -69,13 +69,13 @@ Action cards are made up of the following elements, as labeled in the figure:
   
 1.  Open the relationship assistant settings by doing *one* of the following:  
   
-    -   Go to any page in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where you can see action cards, and then select the **Customize** button ![Customize cards button in the relationship assistant](../admin/media/customize-cards-shown-relationship-assistant.png "Customize cards button in the relationship assistant") in the upper-right corner of the card container.  
+    -   Go to any page in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] where you can see action cards, and then select the **Customize** button ![Customize cards button in the relationship assistant](../sales-enterprise/media/customize-cards-shown-relationship-assistant.png "Customize cards button in the relationship assistant") in the upper-right corner of the card container.  
   
-    -   Select the **Settings** button ![Settings button on the nav bar](../admin/media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal relationship assistant settings** link.  
+    -   Select the **Settings** button ![Settings button on the nav bar](../sales-enterprise/media/settings--button-the-nav-bar.png "Settings button on the nav bar") on the nav bar, and then choose **Options** from the drop-down list. The **Set Personal Options** dialog opens, with its **General** tab active. Scroll to the bottom of the **General** tab, and then select on **Manage personal relationship assistant settings** link.  
   
 2.  The **Relationship assistant** settings pop-up window opens, showing a list of all the types of action cards that your administrator has made available on your site.  
   
-    ![Relationship assistant settings window](../admin/media/relationship-assistant-settings-window.png "Relationship assistant settings window")  
+    ![Relationship assistant settings window](../sales-enterprise/media/relationship-assistant-settings-window.png "Relationship assistant settings window")  
   
      Work with these settings as follows:  
   

@@ -12,6 +12,7 @@ ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
+topic-status: Drafting
 ---
 
 # View and export KPI data (GDPR)
@@ -26,7 +27,7 @@ View KPI data for account, contact, lead, and opportunity using system views, an
 - **Opportunity KPI Items**
 
 > [!NOTE]
-> This topic is applicable only for the [Relationship Analytics](../admin/relationship-analytics.md) feature.
+> This topic is applicable only for the [Relationship Analytics](../sales-enterprise/relationship-analytics.md) feature.
 
 You can use the system views for these entities or create your own views to view the data.
 

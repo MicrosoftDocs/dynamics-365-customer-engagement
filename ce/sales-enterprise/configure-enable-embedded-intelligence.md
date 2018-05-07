@@ -1,21 +1,25 @@
 ---
 title: "Configure and enable embedded intelligence features for Dynamics 365 Customer Engagement  | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: f2ba3ad4-96a0-47a9-a54a-71265f4d8053
+author: udag
+ms.author: udag
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 28
-author: "udag"
-ms.author: "udag"
-manager: "sakudes"
+topic-status: Drafting
 ---
+
 # Configure and enable embedded intelligence
 
 Applies to Dynamics 365 (online), version 9.0.2
@@ -29,7 +33,7 @@ There are some feature restrictions depending on which versions of [!INCLUDE[pn_
 |---------------------|----------------------------------------------|  
 |[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)]|<ul><li>Relationship assistant</li> <li>Email engagement</li> <li>Auto capture</li></ul>|  
 |[!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)] with [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] (on-premises)|<ul><li>Relationship assistant (not including cards for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)])</li> <li>Email engagement</li></ul>|  
-|[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]|<ul><li>Only Relationship assistant is available, and only its *base cards* are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../admin/action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul>|  
+|[!INCLUDE[pn_crm_8_2_0_op_subsequent](../includes/pn-crm-8-2-0-op-subsequent.md)]|<ul><li>Only Relationship assistant is available, and only its *base cards* are supported. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Action cards reference](../sales-enterprise/action-cards-reference.md)</li> <li>No features or action cards are available for [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)], so your [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] version isn't important.</li></ul>|  
 
 ## How to enable embedded intelligence 
 As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, you can enable embedded intelligence for your organization to:
@@ -42,9 +46,9 @@ As a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator, 
 To enable the embedded intelligence:
 
 1. Go to **Settings** > **Intelligence Configuration**.<br>
-![Select Intelligence configuration](../admin/media/intelligence-configuration-option.png "Select Intelligence configuration") <br>
+![Select Intelligence configuration](../sales-enterprise/media/intelligence-configuration-option.png "Select Intelligence configuration") <br>
 2. On the **Overview** tab, select **I Accept** to accept the privacy statement for **Embedded intelligence**.<br>
-![Accept privacy statement of Embedded intelligence](../admin/media/accept-privacy-statement-embedded-intelligence.png "Accept privacy statement of Embedded intelligence") <br>
+![Accept privacy statement of Embedded intelligence](../sales-enterprise/media/accept-privacy-statement-embedded-intelligence.png "Accept privacy statement of Embedded intelligence") <br>
 
 Embedded intelligence is enabled for your organization and you can configure features such as Relationship assistant, Email engagement, and Auto capture.
 
@@ -74,17 +78,17 @@ Assign user privileges to give access to the Relationship assistant features. Th
 
 1.	Go to **Settings** > **Intelligence Configuration**.
 2.  To open the Relationship assistant configuration page, select **Configure** on the **Relationship assistant** tile or select the **Relationship assistant** tab.<br>
-![Select Relationship assistant configuration](../admin/media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
+![Select Relationship assistant configuration](../sales-enterprise/media/relationship-assistant-configuration.png "Select Relationship assistant configuration") <br>    
 3.	Configure which cards to use in your organization and fine tune their behavior. Work with these settings as follows:
     - Cards are categorized by type, such as **Base** and **Advanced**.
     - Enable or disable specific action cards as needed by using the check boxes provided for each card.
     - Some cards have extra configuration settings that modify their behavior. These settings are provided to the right of the check box for only the relevant cards.<br>
-![Relationship assistant configuration page](../admin/media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
+![Relationship assistant configuration page](../sales-enterprise/media/relationship-assistant-configuration-page.png "Relationship assistant configuration page") <br>
 <!--4.	To enable notes analysis, select **Turn on Notes Analysis for your organization** check box under **Notes Analysis** tile.
 <<add image>>   -->
 4.	On top of the page, select **Save** to save your settings.<br> 
 
-Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../admin/../sales-enterprise/relationship-assistant.md)
+Users can also set their own personal preferences for their action cards. They can't add cards that you disable here, but they can disable cards that you have enabled if they don't find them useful. They can also change the configuration settings for those cards that have them, though your settings will be the defaults. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship assistant](../sales-enterprise/relationship-assistant.md)
 
 ## Enable Email engagement
 Enabling the Email engagement helps the user in your organization to receive alerts and reminders that help build customer relationships.
@@ -111,7 +115,7 @@ Verify the following prerequisites before enabling Email engagement for your org
 
     > [!NOTE]
     > To enable or disable **Email engagement**, use the **Enable** toggle key.<br>
-    >  ![Enable or disable Email engagement](../admin/media/email-engagement-enable-disable.png "Enable or disable Email engagement") 
+    >  ![Enable or disable Email engagement](../sales-enterprise/media/email-engagement-enable-disable.png "Enable or disable Email engagement") 
 
 ## Enable Auto capture
 
@@ -130,10 +134,10 @@ Verify the following prerequisites before enabling Auto capture for your organiz
 
 ### How to enable Auto capture
 After you accept the privacy statement for embedded intelligence, Auto capture is enabled by default. If it's not enabled, select the toggle button to enable Auto capture.<br>
-![Enable or disable Auto capture](../admin/media/auto-capture-enable-disable.png "Enable or disable Auto capture")
+![Enable or disable Auto capture](../sales-enterprise/media/auto-capture-enable-disable.png "Enable or disable Auto capture")
 
 >[!NOTE]
-> For more information about Auto capture and how it can help your users, see [Auto capture](../admin/auto-capture.md)
+> For more information about Auto capture and how it can help your users, see [Auto capture](../sales-enterprise/auto-capture.md)
 
 ## Preview feature: Install and configure the Sales insights add-on
 <!--remove comment tags when the predictive lead scoring is going live.-->
@@ -142,7 +146,7 @@ The Sales insights add-on contains a Relationship analytics <!--and predictive l
 > [!NOTE]
 > To install this feature, you must be a Dynamics 365 administrator.
 
-To understand how Relationship analytics is used<!--and predictive lead scoring works-->, see [Relationship analytics](../admin/relationship-analytics.md).
+To understand how Relationship analytics is used<!--and predictive lead scoring works-->, see [Relationship analytics](../sales-enterprise/relationship-analytics.md).
 
 To install and configure Relationship analytics<!-- and lead scoring-->:
 1.	Install the Sales insights add-on.
@@ -151,7 +155,7 @@ To install and configure Relationship analytics<!-- and lead scoring-->:
 
 ### Install the Sales insights add-on 
 1.	Go to **Settings** > **Intelligence Configuration**.<br>
-     ![Embedded intelligence home screen](../admin/media/install-sales-insights-addon.png "Embedded intelligence home screen")  
+     ![Embedded intelligence home screen](../sales-enterprise/media/install-sales-insights-addon.png "Embedded intelligence home screen")  
      <br>
 
     > [!NOTE]
@@ -159,11 +163,11 @@ To install and configure Relationship analytics<!-- and lead scoring-->:
 
 
 2.  On the **Sales insights add-on** tile, select **Install**. <br>
-    ![Sales insights addon tile](../admin/media/install-sales-insights-addon-tile.png "Sales insights addon tile")  
+    ![Sales insights addon tile](../sales-enterprise/media/install-sales-insights-addon-tile.png "Sales insights addon tile")  
      <br>
 3.	On the **Sales Insights** installation page, carefully read and select the terms and conditions, and then select **Continue**. <br>
     The installation takes a few minutes to complete, and then the status appears in the status bar.<br>
-    ![Accept sales insights addon terms and conditions](../admin/media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions") <br>
+    ![Accept sales insights addon terms and conditions](../sales-enterprise/media/sales-insights-addon-terms-conditions.png "Accept sales insights addon terms and conditions") <br>
 Now you're ready to configure Relationship analytics<!-- and Predictive Lead Scoring-->.
 
 ### Configure the Sales insights add-on
@@ -174,11 +178,11 @@ After you install the Sales insights add-on, perform the following steps to conf
 
     > [!NOTE]
     > You can also select **Configuration** on the **Relationship analytics** <!-- or Predective lead scoring--> tile, which is on the embedded intelligence **Overview** tab. This option is available only after you install the Sales insights add-on.    
-    ![Relationship analytics configuration](../admin/media/relationship-analytics-configuration.png "Relationship analytics configuration") <br>
+    ![Relationship analytics configuration](../sales-enterprise/media/relationship-analytics-configuration.png "Relationship analytics configuration") <br>
      <!--Have to change the screen once Predective lead scoring is available-->
     The **Relationship analytics** configuration page opens.
 2.  Read and accept the Relationship analytics terms and conditions, and then select **Begin Setup**. <br>
-    ![Accept terms and conditions for Relationship analytics](../admin/media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics") <br>
+    ![Accept terms and conditions for Relationship analytics](../sales-enterprise/media/relationship-analytics-terms-conditions.png "Accept terms and conditions for Relationship analytics") <br>
 3.	To configure<!-- predictive lead scoring and--> Relationship analytics, perform the following steps:<br>
     a. On the **Relationship analytics** page, configure the parameters as described in the following table.
 
@@ -188,7 +192,7 @@ After you install the Sales insights add-on, perform the following steps to conf
     |Relationship Health Score|Businesses place different emphasis on the type of communication used with customers. You can modify the importance of activities of different types as they contribute to the relationship health score.|  
     |Communications Frequency|Businesses have varying sales cycles and different expected levels of communications with customers. A longer expected communications frequency reduces the expectation of more recent frequent communications in the health score. A shorter expected communications frequency increases the expectation of more recent frequent communications in the health score.|<br>
        
-    ![Relationship analytics configuration settings page](../admin/media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page") <br>
+    ![Relationship analytics configuration settings page](../sales-enterprise/media/relationship-analytics-configuration-settings.png "Relationship analytics configuration settings page") <br>
     b. Select **Save**.<br>
        Relationship analytics is configured and ready to use in your organization.
 <br>
@@ -199,6 +203,6 @@ If you don't want to use the Sales insights add-on for your organization, you ca
 1.	Go to **Settings** > **Customization** > **Solutions**.
     A list of solutions that are installed in your organization is displayed.
 2. Select **SalesInsightsAddOn**, and then select **Delete**.<br>
-   ![Sales insights add-on delete](../admin/media/sales-insights-addon-uninstall.png "Sales insights add-on delete") <br>
+   ![Sales insights add-on delete](../sales-enterprise/media/sales-insights-addon-uninstall.png "Sales insights add-on delete") <br>
 3. A confirmation message is displayed. Select **OK**.<br>
    The Sales insights add-on feature is uninstalled from your organization. 
