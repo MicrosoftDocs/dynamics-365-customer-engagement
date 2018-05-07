@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Get feedback by using Voice of the Customer surveys

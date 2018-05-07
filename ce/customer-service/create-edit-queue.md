@@ -12,7 +12,8 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: c81b3c1b-3b83-409e-b569-a4b4c0a3245e
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Create or change a queue (Customer Service)

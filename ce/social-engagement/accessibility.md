@@ -12,7 +12,9 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-socialengagement; dyn365-a11y
+ms.custom:
+  - dyn365-a11y
+  - dyn365-socialengagement
 ---
 
 # Accessibility for Microsoft Social Engagement

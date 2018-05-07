@@ -13,7 +13,8 @@ ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
 ms.reviewer: renwe
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 # Follow up after the event
 

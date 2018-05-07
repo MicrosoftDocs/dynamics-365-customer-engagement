@@ -1,7 +1,8 @@
 ---
 title: "Subscribe browsers for portals capabilities for Dynamics 365 | MicrosoftDocs"
 description: "List of supported browsers for a portal."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

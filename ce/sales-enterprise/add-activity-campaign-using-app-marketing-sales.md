@@ -4,7 +4,8 @@ description: "Add planning and campaign activities to a campaign to make it succ
 keywords: "Campaign Activities, Campaign, Quick Campaign, Distribute"
 ms.date: 05/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

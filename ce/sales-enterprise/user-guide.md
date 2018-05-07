@@ -4,7 +4,8 @@ description: "Contains topics that describe how to do common sales tasks in Dyna
 keywords: "sales, User guide"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

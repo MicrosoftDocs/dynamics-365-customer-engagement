@@ -1,7 +1,8 @@
 ---
 title: "Use Liquid operators for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about the available liquid operators in a portal."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

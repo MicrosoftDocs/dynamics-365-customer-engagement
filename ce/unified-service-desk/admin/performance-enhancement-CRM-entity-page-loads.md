@@ -1,7 +1,8 @@
 ---
 title: "Performance enhancement for CRM entity page loads | MicrosoftDocs"
 description: "Learn about Internet Explorer pooling feature, which creates a dynamic pool of Internet Explorer process instances. The hosted control that you open uses an Internet Explorer instance from the pool to perform faster inline navigation."
-ms.custom: dyn365-USD, dyn365-admin
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

@@ -1,7 +1,8 @@
 ---
 title: "Work with the HAT Software Factory in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about the HAT Software factory in Unified Service Desk that is used for integrating application and Windows Workflow Foundation automation."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

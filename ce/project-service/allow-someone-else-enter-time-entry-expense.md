@@ -1,6 +1,7 @@
 ---
 title: "Allow someone else to enter your time entry or expense (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: dyn365-projectservice
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

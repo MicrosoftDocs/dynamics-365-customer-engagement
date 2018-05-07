@@ -12,7 +12,8 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 069d1768-3521-4407-8b1f-582706ecfcf6
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Restrict a resource from performing a service (Customer Service)

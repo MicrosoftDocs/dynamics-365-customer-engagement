@@ -1,6 +1,7 @@
 ---
 title: "Navigate the service calendar (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ms.date: 09/15/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

@@ -12,7 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-gamification
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Overview for commissioners and game managers in Gamification

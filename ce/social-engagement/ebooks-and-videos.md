@@ -13,7 +13,8 @@ ms.author: mhart
 manager: sakudes
 topic-status: Drafting
 redirect_url: https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/help-hub
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # eBooks and videos

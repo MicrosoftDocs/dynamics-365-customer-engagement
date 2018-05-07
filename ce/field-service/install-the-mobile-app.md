@@ -1,6 +1,7 @@
 ---
 title: "Install the Field Service mobile app (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: dyn365-fieldservice 
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
