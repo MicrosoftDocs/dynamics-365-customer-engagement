@@ -1,14 +1,15 @@
+
 # [Overview](overview.md)
 # [What's new](whats-new-field-service-project-service.md)
 
-# Administrator Guide
-## [Install](install-field-service.md)
-## [Experiment with demo data](use-demo-data.md)
-## [View user accounts and security roles](view-user-accounts-security-roles.md)
-## [Configure default settings](configure-default-settings.md)
-## [Turn on auto geocoding](turn-on-auto-geocoding.md)
-## [Mobile app installation](install-the-mobile-app.md)
-## [Activate Field Service mobile licenses](activate-fs-mobile-app-license.md)
+# Admin guide
+## [Field service installation](install-field-service.md)
+## [Sample data installation](use-demo-data.md)
+## [Mobile solution installation](install-the-mobile-app.md)
+## [Activate field service mobile licenses](activate-fs-mobile-app-license.md)
+## [User security roles and accounts](view-user-accounts-security-roles.md)
+## [Org-wide default settings](configure-default-settings.md)
+## [Travel time estimates with geocoding ](turn-on-auto-geocoding.md)
 ## Resource setup
 ### [Bookable resources](set-up-bookable-resources.md)
 ### [Bookable resource categories](set-up-bookable-resource-categories.md)
@@ -40,15 +41,7 @@
 ### [Payment terms](set-up-payment-terms.md)
 ### [Tax codes](set-up-tax-codes.md)
 
-# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-
-# [Connected Field Service (IoT)](connected-field-service.md)
-## [Extend Connected Field Service to develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
-### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
-### [Extend Connected Field Service solutions](developer/extend-connected-field-service-solutions.md)
-#### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
-
-# [User Guide](user-guide.md)
+# [Scheduling and inventory management](user-guide.md)
 ## Scheduling
 ### [Configure the schedule board](configure-schedule-board.md)
 ### [Create a work order](create-work-order.md)
@@ -64,11 +57,17 @@
 ### [Return product to vendor](create-return-vendor.md)
 ### [View product inventory](view-product-inventory.md)
 
-## [Mobile App User Guide](field-service-mobile-app-user-guide.md)
+# [Mobile field service](field-service-mobile-app-user-guide.md)
+## [Field Resource Hub](field-resource-hub-users-guide.md)
 
-## [Field Resource Hub User Guide](field-resource-hub-users-guide.md)
+# [Connected Field Service (IoT)](connected-field-service.md)
+## [Quickstart: Build your own IoT solution](connected-field-service-overview.md)
+## [Develop customized IoT solutions](developer/connected-field-service-developer-guide.md)
+### [Connected Field Service architecture](developer/connected-field-service-architecture.md)
+### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
+### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
-
+# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
 
 

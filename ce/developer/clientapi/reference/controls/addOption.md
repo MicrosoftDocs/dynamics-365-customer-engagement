@@ -34,8 +34,4 @@ OptionSet, MultiSelectOptionSet
 
 [clearOptions](clearOptions.md)
 
-[removeOptions](removeOption.md)
-
-
-
-
+[removeOption](removeOption.md)
