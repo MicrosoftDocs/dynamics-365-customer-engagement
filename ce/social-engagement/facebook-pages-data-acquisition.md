@@ -3,7 +3,7 @@ title: "Acquire data from Facebook pages with Social Engagement | Microsoft Docs
 description: "Learn how the data acquisition for posts from Facebook pages works in Social Engagement."
 keywords: "facebook pages, interaction token, data acquisition, unknown author"
 ms.date: 01/23/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Acquire data from Facebook pages

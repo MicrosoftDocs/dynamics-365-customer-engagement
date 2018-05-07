@@ -1,10 +1,10 @@
 ---
 title: "KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 or Parature in your agent application."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 02/15/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 8c4b9dd8-d37c-4256-b6c1-f2e42105c52b
 caps.latest.revision: 12
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # KM Control (Hosted Control)
 Use the **KM Control** type of hosted control to display knowledge base articles in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] or [!INCLUDE[pn_parature](../includes/pn-parature.md)] in your agent application. Using the new hosted control, your service agents can search for articles, associate or disassociate an article with a case, copy a link to an article, and send it through email or in chat without having to switch applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use Dynamics 365 knowledge base for effective customer engagement](../unified-service-desk/use-dynamics-365-knowledge-effective-customer-engagement.md) and [Configure Unified Service Desk to use Dynamics 365 knowledge](../unified-service-desk/configure-unified-service-desk-use-dynamics-365-knowledge.md)  
