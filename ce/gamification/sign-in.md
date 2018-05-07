@@ -3,7 +3,7 @@ title: "Sign in to Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to sign in to the Gamification web portal to participate in Games, view leaderboards and engage with fellow players."
 keywords: "sign in, sign-in, login, log in"
 ms.date: 10/19/2017
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-gamification
 ---
 
 # How to sign in to the Gamification portal

@@ -3,7 +3,7 @@ title: "Design a basic survey using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to create a basic survey using Voice of the Customer and add questions to it."
 keywords: "survey design;  survey theme; share survey; clone survey"
 ms.date: 04/23/2018
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom: dyn365-VoC
 ---
 
 # Design a basic survey
