@@ -26,7 +26,7 @@ Protecting your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] d
   
 <a name="BKMK_DailySystemBackup"></a>  
  
-## Daily system backups  
+## Daily system backups
  Good news! Some backups take place without you having to do anything.  
   
  About [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] **system backups**:  
