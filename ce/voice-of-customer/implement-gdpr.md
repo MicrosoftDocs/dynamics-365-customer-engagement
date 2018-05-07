@@ -22,8 +22,8 @@ The General Data Protection Regulation (GDPR) is a legal act of the European Uni
 
 > [!NOTE]
 > - The Voice of the Customer solution will be GDPR compliant if:
-  > - Dynamics 365 version is 8.2.x or higher and you have installed version 9.0.1113.10 and higher.
-  > - Dynamics 365 version is 8.1.x and you have installed version 8.3.1140.2 and higher.
+  >   - Dynamics 365 version is 8.2.x or higher and you have installed version 9.0.1113.10 and higher.
+  >   - Dynamics 365 version is 8.1.x and you have installed version 8.3.1140.2 and higher.
 > - Installing Voice of Customer version 8.3.1140.2 and higher or 9.0.1113.10 and higher does not guarantee GDPR compliance. Dynamics 365 should also be GDPR compliant.
 
 As an administrator, your customers can contact you with the following requests regarding their data stored in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]:
