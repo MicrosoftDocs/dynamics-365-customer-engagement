@@ -1,6 +1,6 @@
 ---
-title: "Limitations in Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: "Learn about the limitations in Unified Service Desk."
+title: "Release notes of Unified Service Desk 3.3 (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+description: "Learn about the known issues in Unified Service Desk."
 ms.custom: ""
 ms.date: 05/7/2018
 ms.service: "usd"
@@ -11,11 +11,29 @@ applies_to:
   - "Dynamics CRM 2013"
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
-ms.assetid: 9599D016-F5B9-4A5F-B41A-3115F4B16B35
+ms.assetid: FCB9B5AA-62A9-4CFA-9F84-E63735B879DF
 author: "kabala123"
 ms.author: "kabala"
 manager: "sakudes"
 ---
+
+# Release notes of Unified Service Desk 3.3
+
+This section describes the known issues and limitations in [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+
+## Best Practices Analyzer
+
+> [!IMPORTANT]
+> Applies to: 
+> - [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+
+**Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
+
+Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)], you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
+
+**Error for Enable Enhanced Protected mode in Windows 7 operating system**
+
+If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
 
 # Limitations in Unified Service Desk
 
@@ -74,5 +92,7 @@ _Image 1: Right-click on the CRM entity page and select Forward from the context
 > The session that you are working is fine and there is no data loss.
 
 ## See also
+
+[Analyze best practices in Unified Service Desk](admin/analyze-best-practices-unified-service-desk.md)
 
 [Performance enhancement for CRM entity page loads](admin/performance-enhancement-CRM-entity-page-loads.md)

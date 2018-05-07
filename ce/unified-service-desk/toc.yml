@@ -487,7 +487,5 @@
 - name: Release notes of Unified Service Desk
   href: release-notes.md
   items:
-  - name: Known issues in Unified Service Desk
-    href: known-issues.md
-  - name: Limitations in Unified Service Desk
-    href: limitations.md
+  - name: Release notes of Unified Service Desk 3.3
+    href: release-notes-unified-service-desk-33.md

@@ -24,6 +24,4 @@ This section describes the known issues and limitations in [!INCLUDE[pn_unified_
 
 ## In this section
 
-[Known issues in Unified Service Desk](known-issues.md)
-
-[Limitations in in Unified Service Desk](limitations.md)
+[Release notes of Unified Service Desk 3.3](release-notes-unified-service-desk-33.md)
