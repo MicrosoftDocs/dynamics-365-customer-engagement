@@ -9,10 +9,11 @@ applies_to:
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: c78d00cb-155d-494d-a62a-22777a43b430
 ms.reviewer: renwe
+ms.custom: dyn365-marketing
 ---
 # Manage, score, and qualify leads
 

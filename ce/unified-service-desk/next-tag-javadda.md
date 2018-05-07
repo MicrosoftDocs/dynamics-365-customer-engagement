@@ -1,10 +1,10 @@
 ---
 title: "Next Tag in Unified Service Desk for Dynamics 365 Customer Enagagement| MicrosoftDocs"
 description: "The topic describes the attributes of <Next> tag. You can use the <Next> element to set the search pointer to the next UI element with the matching caption. If you use <Next/>, the search navigates to the next node within the tree."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: a8eefb0b-4ad3-4d98-aed2-0373187fd2e0
 caps.latest.revision: 5
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Next Tag in Unified Service Desk
 You can use the `<Next>` element to set the search pointer to the next UI element with the matching caption. If you use `<Next/>`, the search navigates to the next node within the tree. The `<Next/>` tag navigates down the tree branches, not among siblings within one node of the tree. To navigate within the tree node, use the `match` and `offset` attributes. This topic describes the attributes of `<Next>` tag.  

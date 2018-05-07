@@ -3,7 +3,7 @@ title: "Create and deploy Excel templates (Dynamics 365 for Marketing) | Microso
 description: "Create Excel templates that you can use to export, format, and share data from multiple records in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; Excel; templates; export"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom: dyn365-marketing; dyn365-admin
 ---
 
 # Manage [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] templates

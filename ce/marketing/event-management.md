@@ -9,10 +9,11 @@ applies_to:
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 30bb10ad-0dc4-4fce-ae5a-8c1917c7da0c
 ms.reviewer: renwe
+ms.custom: dyn365-marketing
 ---
 # Event planning and management in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 

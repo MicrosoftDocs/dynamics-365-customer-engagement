@@ -3,7 +3,7 @@ title: "Accessibility features and keyboard shortcuts (Dynamics 365 for Marketin
 description: "Provides an overview of accessibility features and keyboard shortcuts in Dynamics 365 for Marketing"
 keywords: "accessibility; keyboard shortcuts"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom: dyn365-marketing; dyn365-a11y
 ---
 
 # Accessibility and keyboard shortcuts for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]

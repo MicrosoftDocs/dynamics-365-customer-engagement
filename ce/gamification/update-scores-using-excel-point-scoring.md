@@ -1,17 +1,17 @@
 ---
 title: "Score points using Excel in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how you can score KPIs using an Excel template to track KPIs outside of Dynamics 365 (online)."
-ms.custom: ""
+ms.custom: dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: Dynamics 365 (online)
 ms.assetid: 1c58f29f-95df-4b2d-b0c4-56cea45bf196
 caps.latest.revision: 15
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---

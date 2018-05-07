@@ -3,7 +3,7 @@ title: "Social Engagement 2018 Update 1.4 Readme"
 description: "Important and late-breaking information about Microsoft Social Engagement"
 keywords: "readme, known issues, information"
 ms.date: 04/11/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Ready to Publish
+ms.custom: dyn365-socialengagement
 ---
 
 Social Engagement 2018 Update 1.4 Readme

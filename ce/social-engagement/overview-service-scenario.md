@@ -3,7 +3,7 @@ title: "Customer service scenarios for Social Engagement | Microsoft Docs"
 description: "Review service scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
 keywords: "service scenario, overview, customer service, social customer service"
 ms.date: 03/27/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Address customer service scenarios on social media with Social Engagement

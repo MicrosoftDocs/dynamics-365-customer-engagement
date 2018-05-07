@@ -3,7 +3,7 @@ title: "Enable delegated administration for Social Engagement | Microsoft Docs"
 description: "Learn how to enable a partner to administer on your behalf and how to request delegated administration."
 keywords: "administrator, delegated admin, partner admin"
 ms.date: 10/17/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Enable a partner as a delegated admin

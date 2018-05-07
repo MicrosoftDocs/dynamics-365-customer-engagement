@@ -7,11 +7,12 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: a120e3f0-ee22-4d16-8029-0362447bbbd9
+ms.custom: dyn365-customerservice
 ---
 
 # Add a timer in forms to track time against enhanced SLAs (Customer Service)
