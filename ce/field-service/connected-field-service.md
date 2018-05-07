@@ -1,6 +1,7 @@
 ---
 title: "Use Connected Field Service to remotely monitor and service customer equipment (Dynamics 365 for Field service) | MicrosoftDocs"
-ms.custom: dyn365-fieldservice 
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

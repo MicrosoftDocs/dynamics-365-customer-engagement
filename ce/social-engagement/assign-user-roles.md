@@ -1,7 +1,8 @@
 ---
 title: "Permissions and user roles in Social Engagement | Microsoft Docs"
 description: "Learn how to work with user roles and their permissions."
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: dynamics-365-marketing

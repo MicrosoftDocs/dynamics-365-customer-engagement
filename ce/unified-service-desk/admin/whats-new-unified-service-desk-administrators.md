@@ -1,7 +1,8 @@
 ---
 title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement" 
-ms.custom: dyn365-USD, dyn365-admin
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 04/24/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

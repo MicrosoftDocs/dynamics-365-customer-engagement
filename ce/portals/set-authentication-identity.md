@@ -4,7 +4,8 @@ description: "Instructions to set authentication identity for a portal."
 keywords: "portal aunthentication"
 ms.date: 04/12/2018
 ms.service: dynamics-365-customerservice
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 8e985c89-1589-4e65-8b74-28b96217601e
 author: sbmjais

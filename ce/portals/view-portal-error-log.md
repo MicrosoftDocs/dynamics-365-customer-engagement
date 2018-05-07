@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ---
 
 # Viewing portal error logs

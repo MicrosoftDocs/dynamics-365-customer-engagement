@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ---
 
 # Implementing General Data Protection Regulations in your Dynamics 365 portals

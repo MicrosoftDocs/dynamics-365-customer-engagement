@@ -8,7 +8,8 @@ ms.topic: "work-with-views"
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom:
+  - Sales
 ms.assetid: 246e9700-7ebf-48fe-a855-5656f28fa7b7
 author: udag 
 ms.author: udag

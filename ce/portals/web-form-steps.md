@@ -1,7 +1,8 @@
 ---
 title: "Configure a web form steps for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create a web form step for a web form on a portal."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

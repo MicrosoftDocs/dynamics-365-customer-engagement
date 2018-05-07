@@ -14,7 +14,9 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom: dyn365-marketing; dyn365-cust
+ms.custom:
+  - dyn365-cust
+  - dyn365-marketing
 ---
 
 # Customize [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]

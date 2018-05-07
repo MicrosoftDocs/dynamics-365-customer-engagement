@@ -1,7 +1,8 @@
 ---
 title: "Popup Notification (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about using the Popup Notifaction hosted control type to display notifications in Unified Service Desk. The notification layout and content is defined as XAML in a Unified Service Desk form instance, and the Popup Notifaction hosted control is used to display and hide the form instance as required"
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

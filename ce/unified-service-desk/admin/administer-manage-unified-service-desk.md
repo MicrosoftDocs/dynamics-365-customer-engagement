@@ -1,7 +1,8 @@
 ---
 title: "Administer and manage Unified Service Desk for Dynamics 365 Customer Enagagement | MicrosoftDocs"
 description: "Unified Service Desk administrators can start here to learn how to manage the application."
-ms.custom: dyn365-USD, dyn365-admin
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 01/25/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

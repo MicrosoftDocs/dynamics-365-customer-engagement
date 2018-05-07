@@ -12,7 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Microsoft Social Engagement FAQ

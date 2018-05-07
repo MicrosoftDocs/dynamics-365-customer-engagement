@@ -10,7 +10,8 @@ ms.date: 09/30/2017
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 9036f912-b991-48ff-a701-8157e43400b6
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 manager: shellyha
 ---
 

@@ -4,7 +4,8 @@ description: "Define what to charge for your products or services in Dynamics 36
 keywords: "Price list, price list items"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

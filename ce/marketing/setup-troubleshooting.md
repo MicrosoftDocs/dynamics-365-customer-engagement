@@ -14,7 +14,9 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom: dyn365-marketing; dyn365-admin
+ms.custom:
+  - dyn365-admin
+  - dyn365-marketing
 ---
 
 # First time setup FAQ and troubleshooting

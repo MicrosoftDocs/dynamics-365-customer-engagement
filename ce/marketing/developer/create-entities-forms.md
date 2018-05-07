@@ -1,7 +1,9 @@
 ---
 title: "Step 1: Create required entities and forms for custom channel (Dynamics 365 for Marketing Developer Guide) | MicrosoftDocs"
 description: "Create required custom entities, forms, and dashboards to store and display information about your custom channel in Dynamics 365 for Marketing."
-ms.custom: dyn365-marketing; dyn365-developer
+ms.custom:
+  - dyn365-developer
+  - dyn365-marketing
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
 ms.technology: 

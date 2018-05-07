@@ -12,7 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-LinkedIn
+ms.custom:
+  - dyn365-LinkedIn
 ---
 
 # Install [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)] from AppSource

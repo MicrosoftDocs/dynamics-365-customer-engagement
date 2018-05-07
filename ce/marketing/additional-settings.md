@@ -4,7 +4,9 @@ description: "For administrators: Add or remove sample data for Dynamics 365 for
 keywords: "administration; sample data"
 ms.date: 04/01/2018
 ms.service: dynamics-365-marketing
-ms.custom: dyn365-marketing; dyn365-admin
+ms.custom:
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

@@ -2,7 +2,8 @@
 title: "Create a Voice of the Customer for Dynamics 365 survey to get customer feedback | MicrosoftDocs"
 description: ""
 ms.assetid: 495a4eba-454c-4ab6-a785-ff3bc6b9ecc8
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

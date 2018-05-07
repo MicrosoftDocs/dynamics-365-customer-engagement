@@ -14,7 +14,9 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom: dyn365-marketing; dyn365-a11y
+ms.custom:
+  - dyn365-a11y
+  - dyn365-marketing
 ---
 
 # Accessibility and keyboard shortcuts for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]

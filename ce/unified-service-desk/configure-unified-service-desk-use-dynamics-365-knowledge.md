@@ -1,7 +1,8 @@
 ---
 title: "Configure Unified Service Desk to use Dynamics 365 or Parature knowledge | MicrosoftDocs"
 description: "Learn about the knowledge management solution in Microsoft Dynamics 365 that guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
