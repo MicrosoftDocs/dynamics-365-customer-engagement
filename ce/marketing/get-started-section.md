@@ -14,7 +14,8 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Learn the basics of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]

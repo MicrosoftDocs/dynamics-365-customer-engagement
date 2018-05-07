@@ -10,7 +10,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-gamification
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Import players and fans from Dynamics 365 (online) and manage their security roles

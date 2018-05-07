@@ -1,7 +1,9 @@
 ---
 title: "Performance data collection using keyboard shortcuts | MicrosoftDocs"
 description: "Learn about Unified Service Desk performance data collection to collect data about the operational events, errors, and performance in a client application and to create log files using keyboard shortcuts"
-ms.custom: dyn365-USD, dyn365-admin; dyn365-a11y
+ms.custom:
+  - dyn365-a11y
+  - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

@@ -4,7 +4,8 @@ description: "Instructions to manage your portal."
 keywords: ""
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 265AE063-1D9C-40DD-AAAF-69EAB848F22F
 author: sbmjais

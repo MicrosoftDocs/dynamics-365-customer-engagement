@@ -12,7 +12,8 @@ author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ---
 
 # Use Sales Hub on the mobile app

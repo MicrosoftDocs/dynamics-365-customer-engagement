@@ -1,6 +1,7 @@
 ---
 title: "Versium Predict (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: dyn365-versium
+ms.custom:
+  - dyn365-versium
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: dynamics-365-sales

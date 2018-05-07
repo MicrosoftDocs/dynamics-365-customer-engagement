@@ -2,7 +2,8 @@
 title: "Design your Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
 description: ""
 ms.assetid: e5b40c86-a518-48d0-9bf5-88915e73bf5b
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

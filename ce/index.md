@@ -4,7 +4,10 @@ description: "Product documentation for Dynamics 365 Customer Engagement apps an
 ms.date: 02/12/2018
 ms.service: dynamics-365-crossapp
 ms.topic: "index-page"
-ms.custom: dyn365-Sales; dyn365-marketing; dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
+  - dyn365-marketing
+  - dyn365-Sales
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
