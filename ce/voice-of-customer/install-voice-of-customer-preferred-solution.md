@@ -2,7 +2,8 @@
 title: "Install the Voice of the Customer for Microsoft Dynamics 365 preferred solution | MicrosoftDocs"
 description: ""
 ms.assetid: 6ede301c-1061-4f13-887f-89dbde408c01
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

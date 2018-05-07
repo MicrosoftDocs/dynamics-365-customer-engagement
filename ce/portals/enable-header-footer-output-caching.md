@@ -1,7 +1,8 @@
 ---
 title: "Enable header and footer output caching on a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable header and footer output caching on a portal for existing users."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

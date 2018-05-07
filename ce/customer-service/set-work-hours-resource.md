@@ -12,7 +12,8 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 97634d1f-1e31-4f0e-a7f0-82b4940aeee9
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Set work hours for a resource (Customer Service)

@@ -1,7 +1,8 @@
 ---
 title: "Upgrade a Unified Service Desk for Dynamics 365 Customer Engagement solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk for Dynamics 365 Customer Engagement." 
-ms.custom: dyn365-USD, dyn365-admin
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

@@ -12,7 +12,8 @@ ms.date: 02/20/2018
 ms.topic: get-started-article
 ms.service: dynamics-365-customerservice
 ms.assetid: 67fbf2dd-28c6-415e-aa45-8247f97b3b19
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Customer Service Hub Help & Training

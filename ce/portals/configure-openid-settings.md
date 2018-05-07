@@ -1,7 +1,8 @@
 ---
 title: "Configure OpenID Connect provider settings for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to add and configure OpenID Connect provider settings for a portal."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 01/08/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""

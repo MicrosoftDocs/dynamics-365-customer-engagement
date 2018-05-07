@@ -1,7 +1,8 @@
 ---
 title: "UII Hosted Application Toolkit (HAT) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about the Hosted Application Toolkit (HAT) that facilitates the task of automating the user interface (UI) of a hosted application."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

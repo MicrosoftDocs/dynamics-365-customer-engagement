@@ -1,7 +1,8 @@
 ---
 title: "Get started with the portal content editor in Dynamics 365  | MicrosoftDocs"
 description: "Learn how to use the inline editor on a portal."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

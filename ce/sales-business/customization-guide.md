@@ -13,7 +13,8 @@ author: shubhadaj
 ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ---
 
 # Customization Guide (Sales, Preview)

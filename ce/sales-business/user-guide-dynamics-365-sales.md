@@ -4,7 +4,8 @@ description: "Learn how to ramp up quickly on Dynamics 365 for Sales, Preview."
 keywords: "ramp up, user guide"
 ms.date: 12/15/2017
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

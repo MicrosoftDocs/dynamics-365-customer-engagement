@@ -3,7 +3,8 @@ title: "View dashboards and reports for Voice of the Customer for Dynamics 365 s
 ms.assetid: 82b737e4-0523-4bc5-a9ca-dcc5abfc4238
 description: ""
 keywords: ""
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

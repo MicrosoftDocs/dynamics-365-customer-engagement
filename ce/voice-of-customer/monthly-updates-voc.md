@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ---
 
 # What's new in Voice of the Customer for Dynamics 365

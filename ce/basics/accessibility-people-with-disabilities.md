@@ -12,7 +12,8 @@ ms.service: dynamics-365-crossapp
 ms.topic: article
 author: kathleenmcgrath
 ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
-ms.custom: dyn365-a11y
+ms.custom:
+  - dyn365-a11y
 ---
 # Accessibility for people with disabilities
 

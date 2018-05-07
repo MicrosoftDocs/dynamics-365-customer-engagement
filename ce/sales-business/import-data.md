@@ -4,7 +4,8 @@ description: "Import your customer and sales data quickly into Dynamics 365 for 
 keywords: "Import; CSV; Excel"
 ms.date: 12/15/2017
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

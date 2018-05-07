@@ -4,7 +4,8 @@ description: "Learn how to drive results and keep your employees engaged while h
 keywords: ""
 ms.date: 03/27/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-gamification
+ms.custom:
+  - dyn365-gamification
 ms.topic: home-page
 applies_to:
   - "Dynamics 365 (online)"

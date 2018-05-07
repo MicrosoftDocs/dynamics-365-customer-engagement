@@ -1,6 +1,8 @@
 ---
 title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: dyn365-fieldservice; dyn365-projectservice
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 searchScope:
   - Customer Service

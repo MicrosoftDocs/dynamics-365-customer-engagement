@@ -4,7 +4,8 @@ description: "Make it easier for sales agents to find products and services in a
 keywords: "Product family"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
