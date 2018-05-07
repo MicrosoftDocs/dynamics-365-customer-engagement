@@ -3,7 +3,7 @@ title: "Get customer feedback by using Voice of the Customer surveys | Microsoft
 description: "Get started with Voice of the Customer surveys."
 keywords: "survey feedback; voice of the customer survey feedback"
 ms.date: 11/13/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom: dyn365-VoC
 ---
 
 # Get feedback by using Voice of the Customer surveys

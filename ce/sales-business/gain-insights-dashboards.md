@@ -3,12 +3,12 @@ title: "Gain insights with dashboards (Dynamics 365 for Sales, Preview) | Micros
 description: "Use dashboards to get an overview of business data in Dynamics 365 for Sales, Preview."
 keywords: "Dashboard; Insight; Overview; Analytics; sales"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom: dyn365-sales
 ms.assetid: b5544b39-e784-40dc-9232-60dd75f4dbd0
 author: shubhadaj
 ms.author: shujoshi

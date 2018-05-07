@@ -3,7 +3,7 @@ title: "Browser requirements for Dynamics 365 - Gamification | Microsoft Docs"
 description: "Required browser settings to enable a seamless experience in Dynamics 365 - Gamification"
 keywords: "browser settings, javascript, cookies"
 ms.date: 01/11/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-gamification
 ---
 
 # Browser requirements to enable a seamless experience in Gamification
