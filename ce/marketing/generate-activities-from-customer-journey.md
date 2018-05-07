@@ -3,7 +3,7 @@ title: "Generate activities from a customer journey (Dynamics 365 for Marketing)
 description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; activities"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom: dyn365-marketing
 ---
 
 # Generate activities from a customer journey

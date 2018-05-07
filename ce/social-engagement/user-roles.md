@@ -3,7 +3,7 @@ title: "Understand user roles in Social Engagement | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Social Engagement."
 keywords: "permissions, user roles, interaction role, configuration role"
 ms.date: 02/14/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Understand user roles

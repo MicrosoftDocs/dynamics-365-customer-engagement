@@ -3,7 +3,7 @@ title: "Security Roles in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the security roles used in Microsoft Dynamics 365 – Gamification."
 keywords: "security roles, game manager, commissioner, permissions"
 ms.date: 03/19/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-gamification
 ---
 
 # Understand security roles used in Gamification

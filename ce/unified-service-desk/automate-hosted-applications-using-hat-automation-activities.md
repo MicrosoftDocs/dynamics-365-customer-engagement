@@ -1,10 +1,10 @@
 ---
 title: "Automate hosted applications using HAT automation activities | MicrosoftDocs"
 description: "Learn about the Hosted Application Toolkit (HAT) Software Factory that provides a set of workflow activities to drive automations that help you to automate hosted applications."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: d6d724ee-b55b-4b2d-afe5-991a32ff1a3c
 caps.latest.revision: 6
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Automate hosted applications using HAT automation activities
 [!INCLUDE[pn_Windows_Workflow_Foundation](../includes/pn-windows-workflow-foundation.md)] (WF) allows you to implement business rules and procedures through a unique process of designing a workflow or automation model composed of multiple elements (called *activities*) that describe the business process. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Windows Workflow Foundation](http://msdn.microsoft.com/library/dd489441\(v=vs.100\).aspx)  

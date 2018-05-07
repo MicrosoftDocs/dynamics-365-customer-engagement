@@ -3,7 +3,7 @@ title: "Get a quick overview with the events dashboard (Dynamics 365 for Marketi
 description: "How to find and use the event dashboard in Dynamics 365 for Marketing"
 keywords: "events; event management; dashboard"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom: dyn365-marketing
 ---
 
 # The event management dashboard

@@ -10,11 +10,12 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
+ms.custom: dyn365-customerservice
 ---
 
 # Set when your business is closed (Customer Service)

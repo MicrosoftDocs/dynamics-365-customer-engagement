@@ -1,10 +1,10 @@
 ---
 title: "Download Unified Service Desk for Dynamics 365 | MicrosoftDocs"
 description: "This topic provides information about how to download Unified Service Desk."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 02/06/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +15,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 1f9169ce-cba3-4bb6-af20-f86140139cfe
-author: "kabala123"
-ms.author: "kabala  "
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Download Unified Service Desk
 This topic provides information about the location from where you can download various versions of Unified Service Desk solutions and the client application. For information about:

@@ -3,8 +3,8 @@ title: "Publish a product or bundle to make it available for selling (Dynamics 3
 description: "Publish a product or bundle in Dynamics 365 for Sales to make it available to the sales agents so they can build orders or create opportunities for customers."
 keywords: "Publish, product, make available"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
