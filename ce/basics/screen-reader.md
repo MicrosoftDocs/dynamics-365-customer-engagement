@@ -28,28 +28,42 @@ Screen readers make Dynamics 365 Custommer Engagement applications accessible to
 
 ## Basic tasks using a screen reader with Dynamics 365 for Sales
 
-###Open Dynamics 365 for Sales and sign in
-1. 
-
-###Creating a lead
+###Open the Sales app
 1.
 
-###Converting a lead to an opportunity
+###Use Quick create to enter new records fast
 1.
 
-###Adding products
+###Create or edit a lead
 1.
 
-###Creating a quote from an opportunity
+###Create or edit an opportunity
+1.
 
+###Createa or edit a quote
+1.
 
 
 
 ## Basic tasks using a screen reader with Dynamics 365 for Customer Service
 
+###Open the Customer Service Hub
+1.
+
+###Create new records
+1.
+
 
 ## Basic tasks using a screen reader with Dynamics 365 for Marketing
- 
+
+### Open Dynamics 365 for Marketing
+1.
+
+###Use Quick create to enter new records fast
+1.
+
+###Assign and record to a user or team
+1.
 
 
 
