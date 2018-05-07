@@ -1,5 +1,5 @@
 ---
-title: "Release notes of Unified Service Desk (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Unified Service Desk Release Notes | MicrosoftDocs"
 description: "Learn about the known issues and limitations in Unified Service Desk."
 ms.custom: ""
 ms.date: 05/7/2018
@@ -17,7 +17,7 @@ ms.author: "kabala"
 manager: "sakudes"
 ---
 
-# Release notes of Unified Service Desk
+# Unified Service Desk Release Notes
 
 This section describes the known issues and limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
