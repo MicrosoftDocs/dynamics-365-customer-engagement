@@ -231,4 +231,6 @@ In addition to the absolute health score, the system also reports the general tr
 
   
 ### See also  
- [What are Preview features?](../admin/what-are-preview-features-how-do-i-enable-them.md)   
+ [What are Preview features?](what-are-preview-features-how-do-i-enable-them.md) 
+
+ [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)  
