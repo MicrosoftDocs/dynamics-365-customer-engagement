@@ -26,16 +26,16 @@ Screen readers make Dynamics 365 Custommer Engagement applications accessible to
 > [!NOTE]
 > Narrator is a screen-reading app built into Windows 10. This topic assumes that you are using the built-in Windows screen reader, Narrator. 
 
-## Basic tasks using a screen reader with [!include[](../includes/pn-sales-enterprise-doc-name.md)]
+## Basic tasks using a screen reader with Dynamic 365 for Sales
 
-###Open [!include[](../includes/pn-sales-enterprise-doc-name.md) and sign in
+###Open Dynamics 365 for Sales and sign in
 1. 
 
 
-## Basic tasks using a screen reader with [!include[](../includes/pn-ms-dyn-365-for-customer-service.md)]
+## Basic tasks using a screen reader with Dynamics 365 for Customer Service
 
 
-## Basic tasks using a screen reader with [!include[](../includes/pn-marketing-doc-name.md)]
+## Basic tasks using a screen reader with Dynamics 365 for Marketing
  
 
 
