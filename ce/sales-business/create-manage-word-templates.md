@@ -4,7 +4,8 @@ description: "Create Word templates in Dynamics 365 for Sales, Preview to help y
 keywords: "Word template, Standardized data; Consistent look"
 ms.date: 12/15/2017
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

@@ -12,7 +12,8 @@ applies_to:
   - Dynamics 365 (online)
   - Dynamics 365 Version 9.x
 ms.assetid: 134d9bde-67cc-418e-9c7b-802c46fd0a9c
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Add a timer control to the Case form to track time against an SLA

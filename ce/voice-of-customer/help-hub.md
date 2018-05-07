@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Voice of the Customer help and training

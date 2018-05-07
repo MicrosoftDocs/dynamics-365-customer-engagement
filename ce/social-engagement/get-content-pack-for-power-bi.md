@@ -10,7 +10,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Get the Microsoft Social Engagement content pack for Power BI

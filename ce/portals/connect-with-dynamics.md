@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ---
 
 # Connect to a Dynamics 365 online organization using a portal

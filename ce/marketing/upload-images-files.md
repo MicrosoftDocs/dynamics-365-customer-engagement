@@ -13,7 +13,8 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Upload and use images and files in online content

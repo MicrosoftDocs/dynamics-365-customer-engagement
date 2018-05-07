@@ -1,6 +1,7 @@
 ---
 title: "Insights, powered by InsideView (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: dyn365-insightsinsideview
+ms.custom:
+  - dyn365-insightsinsideview
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: dynamics-365-sales

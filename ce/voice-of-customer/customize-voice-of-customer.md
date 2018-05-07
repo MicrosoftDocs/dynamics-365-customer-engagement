@@ -2,7 +2,8 @@
 title: "Customize Voice of the Customer for Dynamics 365 survey settings | MicrosoftDocs"
 description: ""
 ms.assetid: e58f937e-66ff-49c8-999a-ca1a6bfa61b6
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

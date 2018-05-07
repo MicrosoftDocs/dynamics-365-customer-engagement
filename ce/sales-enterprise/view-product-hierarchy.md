@@ -4,7 +4,8 @@ description: "Get a visual snapshot of the products your organization sells by l
 keywords: "Hierarchy, visual hierarchy"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

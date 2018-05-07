@@ -4,7 +4,8 @@ description: "Enable duplicate detection in Dynamics 365 for Sales, Preview to k
 keywords: "Duplicate; Enable; Disable"
 ms.date: 12/15/2017
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

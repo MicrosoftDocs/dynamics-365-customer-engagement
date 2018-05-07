@@ -1,7 +1,8 @@
 ---
 title: "Perform visual filtering on widgets | Microsoft Docs"
 description: "Learn how you can drill down into your data and apply filters on-the-fly."
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: dynamics-365-marketing

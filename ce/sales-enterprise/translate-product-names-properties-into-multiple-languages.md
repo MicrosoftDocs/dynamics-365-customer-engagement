@@ -4,7 +4,8 @@ description: "Make all the relevant information like cross-sell or upsell sugges
 keywords: "Translate, langaguge"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

@@ -13,7 +13,8 @@ ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: d90b2ee7-0b5b-48c7-a0f4-ae718af3e958
 ms.reviewer: renwe
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 # Manage event sponsorships
 

@@ -1,7 +1,8 @@
 ---
 title: "Copyright | Microsoft Docs"
 description: "Review the copyright for this documentation."
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
 ms.suite: ""

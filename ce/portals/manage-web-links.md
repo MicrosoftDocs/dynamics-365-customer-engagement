@@ -1,7 +1,8 @@
 ---
 title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage web links in Dynamics 365 or on portals."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

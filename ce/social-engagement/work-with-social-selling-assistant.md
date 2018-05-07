@@ -9,7 +9,8 @@ ms.assetid: 689020c7-0790-47a1-996c-040d052a81de
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ---
 # Work with the Social Selling Assistant
 

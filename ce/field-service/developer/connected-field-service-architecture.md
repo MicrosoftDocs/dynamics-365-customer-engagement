@@ -1,7 +1,9 @@
 ---
 title: "Connected Field Service architecture (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Connected Field Service is a distributed solution whose architecture reflects its dependence upon multiple components within both Dynamics 365 and Microsoft Azure services."
-ms.custom: dyn365-fieldservice; dyn365-developer
+ms.custom:
+  - dyn365-developer
+  - dyn365-fieldservice
 ms.date: 10/31/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice
