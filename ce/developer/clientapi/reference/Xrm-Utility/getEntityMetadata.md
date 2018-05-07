@@ -1,6 +1,6 @@
 ---
 title: "getEntityMetadata (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 04/17/2018
+ms.date: 05/02/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -313,8 +313,8 @@ An object returned with the following properties in addition to the <i>base</i> 
 <li><b>OptionSet</b>: Object. Options for the attribute where each option is a key:value pair.</li></ul>
 <p>The object also contains the following methods:</p>
 <ul>
-<li><b>getDefaultStatus(arg)</b>: Returns the default status (number) based on the passed in state value for an entity. For default state and status values for an entity, see <a href="https://technet.microsoft.com/library/dn531157.aspx">Default status and status reason values</a>.</li>
-<li><b>getStatusValuesForState(arg)</b>: Returns possible status values (array of numbers) for a specified state value. For state and status values for an entity, see <a href="https://technet.microsoft.com/library/dn531157.aspx">Default status and status reason values</a>.</li></ul>
+<li><b>getDefaultStatus(arg)</b>: Returns the default status (number) based on the passed in state value for an entity. For default state and status values for an entity, see entity metadata information of the entity in <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/about-entity-reference">entity reference</a>.</li>
+<li><b>getStatusValuesForState(arg)</b>: Returns possible status values (array of numbers) for a specified state value. For state and status values for an entity, see entity metadata information of the entity in <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/about-entity-reference">entity reference</a>.</li></ul>
 
 <p><b>Attribute metadata for the <i>status</i> type</b><br/>
 An object returned with the following properties in addition to the <i>base</i> attribute metadata type properties:</p>
@@ -322,7 +322,7 @@ An object returned with the following properties in addition to the <i>base</i> 
 <li><b>OptionSet</b>: Object. Options for the attribute where each option is a key:value pair.</li></ul>
 <p>The object also contains the following method:</p>
 <ul>
-<li><b>getState(arg)</b>: Returns the state value (number) for the specified status value (number). For default state and status values for an entity, see <a href="https://technet.microsoft.com/library/dn531157.aspx">Default status and status reason values</a>.</li>
+<li><b>getState(arg)</b>: Returns the state value (number) for the specified status value (number). For default state and status values for an entity, see entity metadata information of the entity in <a href="https://docs.microsoft.com/powerapps/developer/common-data-service/reference/about-entity-reference">entity reference</a>.</li>
 </ul>
 </td>
 </tr>
