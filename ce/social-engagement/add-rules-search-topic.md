@@ -2,7 +2,7 @@
 title: "Add rules to a Social Engagement search topic | Microsoft Docs"
 description: "Learn how to add more rules to a search topic to gather additional data."
 keywords: "search topic, search rule, Social Engagement"
-ms.date: 04/10/2018
+ms.date: 05/07/2018
 ms.service: mse
 ms.topic: article
 applies_to:
@@ -25,8 +25,6 @@ You need to be a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 - **[Facebook pages rule](#add-a-facebook-pages-rule)** ![Facebook symbol](media/facebook-source-icon.png "Facebook symbol"): Gather all public posts and comments from a specific [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page.
 
 - **[Twitter rule](#add-a-twitter-rule)** ![Twitter symbol](media/twitter-icon.png "Twitter symbol"): Capture mentions, replies, tweets, or retweets from a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] account.
-
-<!-- - **[Instagram rule](#add-an-instagram-rule)** ![Instagram symbol](media/instagram-icon.png "Instagram symbol"): Gather posts and comments from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts. -->
 
 - **[Private messages rule](#add-a-private-messages-rule)** ![Private messages symbol](media/private-message-icon.png "Private messages symbol"): Get private messages that were sent to a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page that has been authenticated in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and [allows private message acquisition](manage-access-tokens.md#tokens-for-data-acquisition).
 
@@ -220,25 +218,6 @@ Follow conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and ad
 8.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  
   
 9. In the search topic pane, click **Save** (![Save button](media/save-icon.png "Save button")) to activate your rule.  
-  
-<!-- <a name="instagram_rule"></a>   
-## Add an Instagram rule  
-Create rules to gather posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts.  
-  
-1.  Go to **Search Setup**.  
-  
-2.  Select the search topic you want to add the rule to, or create a new search topic.  
-  
-3.  Under **Rules**, click **Add new rule** (![Add button](media/add-icon.png "Add button")) to open the **Add Rule** page.  
-  
-4.  Click **Instagram rule**.  
-  
-5.  In the search field, enter the [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] @username that you want to track.  
-  
-    > [!NOTE]
-    >  You can also add multiple [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts to a rule in one step by clicking **Add** (![Add button](media/add-icon.png "Add button")) next to each profile.  
-  
-6.  Click **Continue** in the **Add Rule** pane to add the rule to the search topic.  -->
   
 <a name="privateMessagesRule"></a>   
 ## Add a private messages rule  
