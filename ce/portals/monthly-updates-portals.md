@@ -3,8 +3,8 @@ title: "Monthly updates in portal capabilities for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of portal capabilities for Dynamics 365."
 keywords: ""
 ms.date: 04/14/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-customerservice
+ms.custom: dyn365-portal
 ms.topic: article
 ms.assetid: 873dffa1-e598-4548-b494-7b67f2b01bb1
 author: sbmjais

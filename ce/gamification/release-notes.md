@@ -3,7 +3,7 @@ title: "Learn about what's new in Microsoft Dynamics 365 - Gamification and the 
 description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 - Gamification."
 keywords: "what's new, release notes, fixed issues, dynamics 365 gamification"
 ms.date: 04/25/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-gamification
 ---
 
 # What's new in Dynamics 365 - Gamification

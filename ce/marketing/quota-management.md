@@ -3,7 +3,7 @@ title: "Monitor your monthly quotas (Dynamics 365 for Marketing) | Microsoft Doc
 description: "View your remaining monthly credits for sending marketing email messages and other metered services in Dynamics 365 for Marketing"
 keywords: "administration; quota; email"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom: dyn365-marketing; dyn365-admin
 ---
 
 # Other settings

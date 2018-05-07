@@ -1,9 +1,9 @@
 ---
 title: "Set up resource pay types (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: dyn365-fieldservice 
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,11 +12,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 239b3f54-69dc-44c1-95be-154fc90df2e4
 caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Set up resource pay types to track costs associated with resource bookings (Field Service)
 
