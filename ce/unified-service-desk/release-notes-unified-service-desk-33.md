@@ -2,7 +2,7 @@
 title: "Release notes of Unified Service Desk 3.3 (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the known issues in Unified Service Desk."
 ms.custom: ""
-ms.date: 05/7/2018
+ms.date: 05/8/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 
@@ -21,11 +21,9 @@ manager: "sakudes"
 
 This section describes the known issues and limitations in [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
 
-## Best Practices Analyzer
+## Known issues in Unified Service Desk
 
-> [!IMPORTANT]
-> Applies to: 
-> - [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+### Best Practices Analyzer
 
 **Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
 
@@ -35,15 +33,14 @@ Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-d
 
 If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
 
-# Limitations in Unified Service Desk
+## Limitations in Unified Service Desk
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
 
-## RunScript
+### RunScript
 
 > [!IMPORTANT] 
-> Applies to: 
-> - [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+> This also applies to:
 > - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
 > - [!INCLUDE[pn-unified-service-desk-3-1](../includes/pn-unified-service-desk-3-1.md)]
 > - [!INCLUDE[pn-unified-service-desk-3-0](../includes/pn-unified-service-desk-3-0.md)]
@@ -61,11 +58,10 @@ Accounts and Contacts tabs are open and focus is on Accounts tab. You execute `w
 
 If you open several tabs and want to execute a RunScript action on a tab that is not in focus, set the focus on the tab you want to work and then execute the RunScript action.
 
-## Performance enhancement for CRM entity page loads
+### Performance enhancement for CRM entity page loads
 
 > [!IMPORTANT] 
-> Applies to: 
-> - [!INCLUDE[pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]
+> This also applies to:
 > - [!INCLUDE[pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)]
 
 **Closing CRM entity page starts loading but never completes loading**
