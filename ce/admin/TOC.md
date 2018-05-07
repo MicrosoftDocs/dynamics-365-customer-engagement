@@ -179,6 +179,7 @@
 #### [Best practices](best-practices-server-side-synchronization.md)
 #### [Forward mailboxes or edit mailboxes](create-forward-mailboxes-edit-mailboxes.md)
 ### [Configure Outlook or Exchange folder-level tracking](configure-outlook-exchange-folder-level-tracking.md)
+### [Use Outlook category to track appointments and emails](use-outlook-category-track-appointments-emails.md)
 ### [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)
 ### [Set incoming and outgoing email synchronization](set-incoming-outgoing-email-synchronization.md)
 ### [Choose records to synchronize with Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)
