@@ -58,7 +58,7 @@ Base cards relate to the core features of [!INCLUDE[pn_microsoftcrm](../includes
 
 > [!IMPORTANT]
 > - These cards only available if you are using [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] with [!INCLUDE[pn_Microsoft_Exchange_Online](../includes/pn-microsoft-exchange-online.md)] as your email server. 
-> - You will need to [set up server-side-sync](set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
+> - You will need to [set up server-side-sync](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
 |||  
 |-|-|  

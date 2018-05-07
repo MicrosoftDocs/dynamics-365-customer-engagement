@@ -30,7 +30,7 @@ Auto capture is part of the *Embedded intelligence* suite of features.
   
 [Watch a short video (1:43) about Dynamics 365 Auto Capture](https://go.microsoft.com/fwlink/p/?linkid=841309).  
 
-The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../sales-enterprise/configure-enable-../sales-enterprise/embedded-intelligence.md).  
+The administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Configure and enable embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md).  
   
 ## View auto-captured messages and convert them into tracked messages  
 
