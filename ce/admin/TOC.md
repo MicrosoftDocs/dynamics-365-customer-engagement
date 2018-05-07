@@ -6,7 +6,7 @@
 ## [About Unified Interface](about-unified-interface.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
-## [Enabling preview features](../sales-enterprise/what-are-preview-features-how-do-i-enable-them.md)
+## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
 ## [Move between apps](quickly-navigate-office-365-app-launcher.md)
 ## [Sign in to apps](sign-in-office-365-apps.md)
 ## [Troubleshoot sign-in problems](troubleshoot-sign-in-problems.md)

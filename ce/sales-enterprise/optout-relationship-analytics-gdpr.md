@@ -12,6 +12,7 @@ ms.assetid: 6f86a039-15cc-46aa-b6fb-8dd8260de0ba
 author: KumarVivek
 ms.author: kvivek
 manager: kvivek
+topic-status: Drafting
 ---
 
 # Opt out of relationship analytics (GDPR)
@@ -24,8 +25,8 @@ A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optou
 - Setting the **GDPR Optout** field to "no/false" will allow relationship analytics to be performed on the entity record's data.
 
 > [!NOTE]
-> - For the [Auto Capture](../admin/auto-capture.md) feature, if you set the **GDPR Optout** field to "yes/true" for a Contact or Lead record, email data for such records won't be displayed in the respective Contact or Lead forms, or any entity form which has these Contact/Lead records as their linked or related entity.
-> - This topic is applicable only for the [Relationship Analytics](../admin/relationship-analytics.md) and [Auto Capture](../admin/auto-capture.md) features.
+> - For the [Auto Capture](../sales-enterprise/auto-capture.md) feature, if you set the **GDPR Optout** field to "yes/true" for a Contact or Lead record, email data for such records won't be displayed in the respective Contact or Lead forms, or any entity form which has these Contact/Lead records as their linked or related entity.
+> - This topic is applicable only for the [Relationship Analytics](../sales-enterprise/relationship-analytics.md) and [Auto Capture](../sales-enterprise/auto-capture.md) features.
 
 ## Setting the GDPR Optout field using UI
 

@@ -56,13 +56,13 @@
 ### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
 ### [View message interactions](../sales-enterprise/email-engagement.md)
 ### [Display emails](../sales-enterprise/auto-capture.md)
-## [Embedded Intelligence and GDPR](embedded-intelligence-gdpr.md)
-### [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)
-### [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)
-### [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+## [Embedded Intelligence and GDPR](../sales-enterprise/embedded-intelligence-gdpr.md)
+### [Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)
+### [View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)
+### [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 ##[Sales insights add-on]()
 ### [View customer activity history](../sales-enterprise/relationship-analytics.md)
-<!--### [Work with predictive lead scoring](../sales-enterprisework-predictive-lead-scoring.md)-->
+<!--### [Work with predictive lead scoring](../sales-enterprise/work-predictive-lead-scoring.md)-->
 
 
 
