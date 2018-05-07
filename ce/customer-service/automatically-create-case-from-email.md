@@ -1,7 +1,7 @@
 ---
 title: Automatically create a case from an email (Dynamics 365 for Customer Service) | MicrosoftDocs
 description: Know how to create a case from an email in Dynamics 365 for Customer Service
-keywords: Case; Email;  Dynamics 365; Customer Service
+keywords: Automatically create a case from an email; Dynamics 365; Customer Service; Create cases automatically using rules; Activate or deactivate a case creation rule
 author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"

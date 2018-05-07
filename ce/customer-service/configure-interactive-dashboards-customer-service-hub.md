@@ -1,7 +1,7 @@
 ---
 title: Configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365 | Microsoft Docs
 description: Know how to configure interactive dashboards in the Customer Service Hub in Microsoft Dynamics 365
-keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365; Customer Service Hub
+keywords: Configure interactive dashboards; Customer Service; Microsoft Dynamics 365; Customer Service Hub; Configure entities, fields, and security roles for the interactive dashboards; Configure dashboard colors
 author: anjgupta
 ms.author: anjgup
 manager: sakudes

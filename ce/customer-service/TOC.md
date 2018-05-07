@@ -9,7 +9,7 @@
 #### [Use on mobile](use-customer-service-hub-on-dynamics-365-mobile.md)
 ### [Customer Service](user-guide-customer-service.md)
 ## [Service Manager Guide](service-manager-guide.md)
-### [Create and manage queues](create-manage-queues.md)
+### [Queues](create-manage-queues.md)
 ### [Parent and child case settings ](define-settings-parent-child-cases.md)
 ### [Work with Routing Rule sets ](create-rules-automatically-route-cases.md)
 ### Automatic Record Creation
