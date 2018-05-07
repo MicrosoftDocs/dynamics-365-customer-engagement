@@ -137,15 +137,15 @@ An ad placement is an entity object, with all of the same attributes, in additio
 
 |Attribute   |Description   |
 |---|---|
-| Ads            | Returns the collection of ad objects associated with the placement.        [*Iteration tags*](#iteration-tags) and [*Array filters*](#array-filters) may be used with this collection.  |  
+| Ads            | Returns the collection of ad objects associated with the placement.  [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) may be used with this collection.  |  
 | Name           | Returns the Name field for the ad placement.                                                                |
 | placement\_url | The URL that can be used to retrieve the ad placement fully rendered by a template.                         |
 | random\_url    | The URL that can be used to retrieve a random ad from the placement fully rendered by a template.           |
 
 ### Ad attributes
 
->[!Note]
->An ad is an entity object, with all of the same attributes in addition to those listed below.
+> [!Note]
+> An ad is an entity object, with all of the same attributes in addition to those listed below.
 
 |Attribute   |Description   |
 |---|---|
@@ -394,22 +394,22 @@ Attempts to load reflexive (that is, self-referential) relationships on entities
 
 ## entitylist
 
-The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags). It provides access to all the attributes of a given entity list.  
+The entitylist object is used within the [Dynamics 365 entity tags](dynamics-entity-tags.md). It provides access to all the attributes of a given entity list.  
 
->[!Note]                                                       
+> [!Note]                                                       
 > [Render the entity list associated with the current page](render-entity-list-current-page.md)
 
 ### Attributes
 
->[!Note]
-[entities](#entities)
+> [!Note]
+> [entities](#entities)
 
 |Attribute   |Description   |
 |---|---|
 | create\_enabled                       | Returns true if creation of new records is configured for the entity list. Returns false otherwise.                                     | create\_label                         | Returns the configured localized label for a creation link/button for the entity list. |
 | create\_url                           | Returns the configured URL path for a creation link/button for the entity list.                                                                                                                         |
 | detail\_enabled                       | Returns true if a detail view for individual records is configured for the entity list. Returns false otherwise.                                                                                        |
-| detail\_id\_parameter                 | Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [*URL filters*](#url-filters) for details on using Liquid filters to construct URLs. For example, id                                                                                                                                                                                                  |
+| detail\_id\_parameter                 | Returns the query string parameter name to use for the record ID when constructing a record detail view URL. See [URL filters](liquid-filters.md#url-filters) for details on using Liquid filters to construct URLs. For example, id                                                                                                                                                                                                  |
 | detail\_label                         | Returns the configured localized label for detail view links/buttons for the entity list.                                                                                                               |
 | detail\_url                           | Returns the configured URL path for a detail view links/buttons for the entity list.                                                                                                                    |
 | empty\_list\_text                     | Returns the configured localized text to be displayed when the entity list view returns no results.                                                                                                     |
@@ -417,7 +417,7 @@ The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../include
 | entity\_logical\_name                 | Returns the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name for records to be displayed by this entity list. For example, contact                                                                                                                                                                                             |
 | filter\_account\_attribute\_name      | Returns the attribute logical name for the lookup to account that will be used to filter result records by the current portal user's parent account. For example, accountid                                                                                                                                                                                           |
 | filter\_apply\_label                  | Returns the configured localized label to be used for the link/button that applies an advanced attribute filter to the entity list results.                                                             |
-| filter\_definition                    | Returns the JSON attribute filter definition for the entity list. See [*Entity List filters*](#entity-list-filters) for details on how to use the metafilters Liquid filter to process this definition. |  
+| filter\_definition                    | Returns the JSON attribute filter definition for the entity list. See [Entity List filters](liquid-filters.md#entity-list-filters) for details on how to use the metafilters Liquid filter to process this definition. |  
 | filter\_enabled                       | Returns true if advanced attribute filtering is enabled for the entity list. Returns false otherwise.                                                                                                   |
 | filter\_portal\_user\_attribute\_name | Returns the attribute logical name for the lookup to contact that will be used to filter result records by current portal user's contact. For example, contactid                                                                                                                                                                                           |
 | filter\_website\_attribute\_name      | Returns the attribute logical name for the lookup to adx\_website that will be used to filter result records by the current portal website. For example, adx\_websiteid                                                                                                                                                                                      |
@@ -428,7 +428,7 @@ The entitylist object is used within the [*[!INCLUDE[pn-dynamics-crm](../include
 | search\_placeholder                   | Returns the configured localized text for the entity list search field placeholder.                                                                                                                     |
 | search\_tooltip                       | Returns the configured localized text for the entity list search tooltip.                                                                                                                               |
 | views                                 | Returns the available views for the entity list, as entity list view objects.                                                                                                                           |
-| \[attribute logical name\]            | You can access any attribute of the entity list (adx\_entitylist) [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name, in the same manner as an [*entities*](#entities). For example, {{ entitylist.adx\_name }}                                                                                                                                                                          |
+| \[attribute logical name\]            | You can access any attribute of the entity list (adx\_entitylist) [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name, in the same manner as an [entity](liquid-objects.md#entity) object. For example, {{ entitylist.adx\_name }}                                                                                                                                                                          |
 
 ### Entity List View Attributes
 
@@ -463,7 +463,7 @@ The entityview object is used within the entityview tag, and provides access to 
 
 |Attribute   |Description   |
 |---|---|
-| columns                     | Returns the columns in the view, as [*entitylist*](#entitylist) view column objects.  |  
+| columns                     | Returns the columns in the view, as [entity view column objects](liquid-objects.md#entity-list-view-column-attributes).  |  
 | entity\_permission\_denied  | Returns true if access to view results was denied due to insufficient Entity Permissions for the current user. Returns false if read access to view results was granted. |
 | entity\_logical\_name       | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the view result records. For example, contact                                                                                    |
 | first\_page                 | The page number of the first page of view results. This will be 1 unless there were no results returned, in which case it will be null.                                  |
@@ -927,8 +927,7 @@ The page object provides access to things like the breadcrumbs for the current p
 | parent                             | Returns the parent site map node of the page. If the page is the Home page, parent will be null.                                                                                                                                                                                                                         |
 | title                              | The title of the page.                                                                                                                                                                                                                                                    |
 | url                                | The URL of the page.                                                                                                                                                                                                                                                      |
-| \[attribute or relationship name\] | You can access any attribute of the page's underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>The values of most entity attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Entity Reference) fields are returned as [entity reference objects](#entity-reference).</li><li>Option Set/Picklist fields are returned as [option set value objects](#option-set-value).</li> You can also load any related entities by relationship schema name. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>In the case that a relationship is reflexive (that is, self-referential), a [entities](#entities) object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, prefer use of the [*[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity tags*](#dynamics-365-entity-tags) to load collections of entities.|  
-
+| \[attribute or relationship name\] | You can access any attribute of the page's underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] record by logical name.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>The values of most entity attributes map directly to [Liquid types](liquid-types.md): Two Option fields map to Booleans, text fields to strings, numeric/currency fields to numbers, date/time fields to date objects. But some attribute types are returned as objects:<ul><li>Lookup (Entity Reference) fields are returned as [entity reference objects](#entity-reference).</li><li>Option Set/Picklist fields are returned as [option set value objects](#option-set-value).</li> You can also load any related entities by relationship schema name. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>In the case that a relationship is reflexive (that is, self-referential), a [entities](#entities) object will be returned. (Otherwise, the result would be ambiguous.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**Note**: Loading large numbers of related entities, or accessing large numbers of relationships in a single template, can have a negative impact on template rendering performance. Avoid loading related entities for each item in an array, within a loop. Where possible, prefer use of the [Dynamics 365 entity tags](dynamics-entity-tags.md) to load collections of entities.|  
  
 
 ## polls
@@ -977,13 +976,13 @@ The polls object allows you to select a specific poll or poll placement:
 ### Poll Placement Attributes
 
 > [!Note] 
-> [*entities*](#entities)                                       
+> [entities](#entities)                                       
 
 |Attribute   |Description   |
 |---|---|
 | Name           | Returns the Name field for the poll placement.                            
 | placement\_url | The URL that can be used to retrieve the poll placement fully rendered by a template.                       |
-| polls          | Returns the collection of poll objects associated with the placement. [*Iteration tags*](#iteration-tags) and [*Array filters*](#array-filters) may be used with this collection.  |  
+| polls          | Returns the collection of poll objects associated with the placement. [Iteration tags](iteration-tags.md) and [Array filters](liquid-filters.md#array-filters) may be used with this collection.  |  
 | random\_url    | The URL that can be used to retrieve a random poll from the placement fully rendered by a template.         |
 | submit\_url    | The URL to which a completed poll is submitted.                                                             |
 
@@ -996,7 +995,7 @@ The polls object allows you to select a specific poll or poll placement:
 |---|---|
 | has\_user\_voted       | Returns true if the current user (signed in or anonymous) has already voted in this poll.         |
 | Name                   | Returns the Name field for the poll.                                                              |
-| options                | Returns the collection of poll option objects associated with the poll. [Iteration tags](#iteration-tags) and [entities](#entities) may be used with this collection.  |  
+| options                | Returns the collection of poll option objects associated with the poll. [Iteration tags](iteration-tags.md) and [entities](#entities) may be used with this collection.  |  
 | poll\_url              | The URL that can be used to retrieve the poll fully rendered by a template.                       |
 | question               | Returns the Question field for the poll.                                                          |
 | submit\_button\_label  | Returns a string that can be used to override the submit button label for the poll.               |
@@ -1042,7 +1041,7 @@ Contains information about the current HTTP request.
 
 ## searchindex
 
-The searchindex object is used within the [Dynamics 365 entity tags](#dynamics-entity-tags.md), and provides access to the results of a query.  
+The searchindex object is used within the [Dynamics 365 entity tags](dynamics-entity-tags.md), and provides access to the results of a query.  
 
 ```
 {% searchindex query: 'support', page: params.page, page_size: 10 %}
@@ -1089,7 +1088,7 @@ The searchindex object is used within the [Dynamics 365 entity tags](#dynamics-e
 
 |Attribute   |Description   |
 |---|---|
-| entity        | The underlying [*entities*](#entities) for the result.                                         |  
+| entity        | The underlying [entities](#entities) for the result.                                         |  
 | fragment      | A relevant short text fragment for the result, with terms matching the specified query highlighted using the &lt;em&gt; HTML tag. Note that certain types of queries do not support highlighted fragments, such as fuzzy queries (~) and wildcard queries (\*). This property will be null in those cases.  |
 | Id            | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity ID of the underlying record for the result, as a string. For example, 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
 | logical\_name | The [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] entity logical name of the underlying record for the result. For example, adx\_webpage                                                                                                                                                         |
@@ -1127,7 +1126,7 @@ Page size is greater than 10.
 ```
 
 > [!Note]
-> [Render a website header and primary navigation bar](render-site-header-primary-navigation.md) |  
+> [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)
 
 
 ## sitemap
@@ -1184,7 +1183,7 @@ It's also possible to load a site map node by URL path:
 | Breadcrumbs           | Returns the breadcrumb site map node objects for the node, starting from the site map root node and ending at parent. |
 | Children              | Returns the child site map node objects of the node.                                                                  |
 | Description           | The description/summary content for the node. (This field may contain HTML.)                                          |
-| Entity                | Returns the underlying [*entities*](#entities) of the node. If the node has no underlying entity, this value will be null.                                                         |
+| Entity                | Returns the underlying [entities](#entities) of the node. If the node has no underlying entity, this value will be null.                                                         |
 | is\_sitemap\_ancestor | Returns true if the sitemap node is an ancestor of the current node, otherwise false.                                                                                                         |
 | is\_sitemap\_current  | Returns true if the sitemap node is the current node, otherwise false.                                                                                                         |
 | Parent                | Returns the parent site map node of the node. If the node is the root node, parent will be null.                                                                     |
@@ -1213,7 +1212,7 @@ Site marker "My Site Marker" does not exist.
 ```
 
 > [!Note]
-> [Render a website header and primary navigation bar](render-site-header-primary-navigation.md) |  
+> [Render a website header and primary navigation bar](render-site-header-primary-navigation.md)  
 
 ### Sitemarker Attributes
 
@@ -1225,7 +1224,7 @@ Site marker "My Site Marker" does not exist.
 
 ## snippets
 
-Allows you to load any content snippets by name. If a snippet with the given name is not found, [*Null*](#null) will be returned.  
+Allows you to load any content snippets by name. If a snippet with the given name is not found, [null](liquid-types.md#null) will be returned.  
 
 ```
 {{ snippets["Header"] }}
@@ -1246,10 +1245,10 @@ No footer snippet was found.
 
 ## tablerowloop
 
-Contains properties useful within a [*Iteration tags*](#iteration-tags) loop block.  
+Contains properties useful within a [Iteration tags](iteration-tags.md) loop block.  
 
 > [!Note] 
-> tablerowloop can only be used within a [*Iteration tags*](#iteration-tags) tag.
+> tablerowloop can only be used within a [Iteration tags](iteration-tags.md) tag.
 
 ### Attributes
 
@@ -1273,7 +1272,7 @@ Contains properties useful within a [*Iteration tags*](#iteration-tags) loop blo
 
 Refers to the current portal user, allowing access to all attributes of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact record. If no user is signed in, this variable will be [null](liquid-types.md#null).  
 
-user is an [entity](#entity).  
+user is an [entity](#entity) object.  
 
 ```
 {% if user %}
@@ -1289,7 +1288,7 @@ Hello, anonymous user!
 
 ### Attributes
 
-In addition to having all of the attributes of an [*entities*](#entities), user has the following attributes.  
+In addition to having all of the attributes of an [entities](#entities), user has the following attributes.  
 
 
 ## weblinks
