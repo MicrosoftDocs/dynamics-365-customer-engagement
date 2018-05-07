@@ -3,16 +3,17 @@ title: "Customize forms in Dynamics 365 for Sales | Microsoft Docs"
 description: "Modify the forms included in Dynamics 365 for Sales to fit the needs of your organization."
 keywords: "form; customize"
 ms.date: 12/15/2017
-ms.service: crm-online
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: e82c6918-fe81-4812-ad78-77d178111064
-author: brycho
-ms.author: brycho
-manager: amyla
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom: dyn365-sales
 ---
 
 # Customize forms (Sales, Preview)

@@ -3,7 +3,7 @@ title: "Set up record creation for social activity entities from Social Engageme
 description: "Learn how to configure rules in Dynamics 365 to automatically turn social activities into records."
 keywords: "rule framework, update rules, create record, entity mapping"
 ms.date: 01/30/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Configure Automatic Record Creation and Update Rules in Dynamics 365 to process Social Activity entities from Social Engagement

@@ -3,12 +3,12 @@ title: "Set personal options (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Personalize your workspace in Dynamics 365 for Sales, Preview. "
 keywords: "Personalize; Personal option; timezone; calendar; work hours"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom: dyn365-sales
 ms.assetid: c9cd136b-1c4e-4259-83b6-19b3c26ecb61
 author: shubhadaj
 ms.author: shujoshi

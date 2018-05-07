@@ -1,10 +1,10 @@
 ---
 title: "Unified Service Desk Guide for Dynamics 365 Customer Enagagement | MicrosoftDocs"
 description: "Unified Service Desk helps you configure call center agent applications that provide customer service agents with immediate and unified access to business critical customer information stored in your Dynamics 365 Customer Engagement instance."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 5a29a96e-4271-4e25-a42f-e36d7d707882
 caps.latest.revision: 24
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Unified Service Desk Guide
 

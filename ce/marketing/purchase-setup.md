@@ -3,7 +3,7 @@ title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to set up Dynamics 365 for Marketing for the first time"
 keywords: "setup; licensing; FRE; Azure; customer insights"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,7 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom: dyn365-marketing; dyn365-admin
 ---
 
 # First-time setup

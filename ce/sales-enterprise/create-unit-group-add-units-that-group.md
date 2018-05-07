@@ -3,8 +3,8 @@ title: "Create a unit group and add units to that group (Dynamics 365 for Sales)
 description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 for Sales."
 keywords: "unit, unit group, measurement, quantity"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,7 +12,7 @@ applies_to:
 ms.assetid: af99268c-9dc3-4037-b3cc-3d2a0eb2b296
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

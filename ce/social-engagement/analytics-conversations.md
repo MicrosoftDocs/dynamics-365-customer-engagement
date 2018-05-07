@@ -3,7 +3,7 @@ title: "Analytics for conversations in Social Engagement | Microsoft Docs"
 description: "Learn how to focus your analysis on conversations in Social Engagement."
 keywords: "analytics, conversation, phrases, fans, critics"
 ms.date: 03/01/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,7 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom: dyn365-socialengagement
 ---
 
 # Gain insights from public conversations

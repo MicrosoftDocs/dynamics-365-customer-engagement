@@ -7,11 +7,12 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: ee605a89-4bd5-4b93-8d45-2ec9ca0a9b8a
+ms.custom: dyn365-customerservice
 ---
 
 # Create a customer service schedule and define the work hours (Customer Service)

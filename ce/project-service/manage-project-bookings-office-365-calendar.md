@@ -1,9 +1,9 @@
 ---
 title: "Manage projects and bookings in your Office 365 calendar (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: dyn365-projectservice
 ms.date: 07/19/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -14,9 +14,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 6c8b7914-7ee4-49a5-8b75-4f3131cd1fb4
 caps.latest.revision: 11
-ms.author: "mkaur"
-author: "mduelae"
-manager: "brycho"
+ms.author: krbjoran
+author: krbjoran
+manager: shellyha
 ---
 # Manage projects and bookings in your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar (Project Service Automation)
 

@@ -3,8 +3,8 @@ title: "Create or edit a goal (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Keep track of your progress on achieving target revenue by using goals."
 keywords: "Goal, target"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom: dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
