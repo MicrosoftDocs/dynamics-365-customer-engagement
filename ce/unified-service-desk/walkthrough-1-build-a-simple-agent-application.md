@@ -1,10 +1,10 @@
 ---
 title: "Walkthrough 1: Build a simple agent application in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Demonstrates how to set up a basic agent application from scratch using Unified Service Desk that can connect to Customer Engagement."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 9e6470a9-329c-4152-bd14-d61555be1ee5
 caps.latest.revision: 7
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Walkthrough 1: Build a simple agent application
 This walkthrough demonstrates how to set up a basic agent application from scratch using [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] that can connect to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. This agent application provides you with an empty desktop without any functionality, and you can use it when you go through the rest of the walkthroughs in this section. In this walkthrough, you’ll use the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] configuration to filter out existing controls in the "New Environment" sample application package from appearing in your agent application.  

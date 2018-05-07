@@ -25,8 +25,8 @@ OptionSet, MultiSelectOptionSet
 
 ### Related topics
 
-[addOptions](addOption.md)
+[addOption](addOption.md)
 
-[removeOptions](removeOption.md) 
+[removeOption](removeOption.md) 
 
 

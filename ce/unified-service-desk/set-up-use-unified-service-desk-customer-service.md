@@ -1,10 +1,10 @@
 ---
 title: "Set up and use Unified Service Desk for Dynamics 365 Customer Engagement for customer service | MicrosoftDocs"
 description: "Learn about using Unified Service Desk-related entities to configure an agent application."
-ms.custom: ""
+ms.custom: dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -17,9 +17,9 @@ applies_to:
   - "Dynamics CRM Online"
 ms.assetid: 1a05c3e7-ec83-452b-be48-102d7354f849
 caps.latest.revision: 24
-author: "Mattp123"
-ms.author: "matp"
-manager: "brycho"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 tags: 
  - "MigrationHO"
 ---

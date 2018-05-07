@@ -1,10 +1,10 @@
 ---
 title: "Migrate your Unified Service Desk for Dynamics 365 Customer Engagement configuration to another Dynamics 365 Customer Engagement instance | MicrosoftDocs"
 description: "Learn how to move a Unified Service Desk for Dynamics 365 Customer Engagement configuration to another instance."
-ms.custom: ""
+ms.custom: dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: 49ebffe9-a55c-466a-a5ea-779510db2c4f
 caps.latest.revision: 7
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Migration of a Unified Service Desk configuration 
 After you have completed the development or configuration of your agent application, you might want to migrate your latest [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configuration data from your development or testing environment to your production environment. Migrating your data involves exporting your existing configuration data from the source [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance, and then importing it into the target [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  

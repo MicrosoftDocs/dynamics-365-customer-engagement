@@ -88,6 +88,7 @@
 #### [addOnPostSearch](reference/controls/addOnPostSearch.md)
 #### [addOnResultOpened](reference/controls/addOnResultOpened.md)
 #### [addOnSelection](reference/controls/addOnSelection.md)
+#### [addOption](reference/controls/addOption.md)
 #### [addPreSearch](reference/controls/addPreSearch.md)
 #### [clearNotification](reference/controls/clearNotification.md)
 #### [clearOptions](reference/controls/clearOptions.md)

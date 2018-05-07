@@ -1,9 +1,9 @@
 ---
 title: "Configure a contact for use on a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to add and configure a contact to be used in a portal."
-ms.custom: ""
+ms.custom: dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article

@@ -2,16 +2,17 @@
 title: Create and design forms for Customer Service Hub | Microsoft Docs
 description: 
 keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365
-author: NavaKiran
-ms.author: Nabuthuk
+author: Nkrb
+ms.author: nabuthuk
 manager: shellyha
 ms.date: 03/15/2018
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: d1efcf5e-988b-4e0c-bf11-2dcde1ea739f
+ms.custom: dyn365-customerservice
 ---
 
 # Create and design forms for Customer Service Hub
