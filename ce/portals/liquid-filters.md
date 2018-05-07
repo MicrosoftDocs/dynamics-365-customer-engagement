@@ -14,6 +14,7 @@ ms.author: shjais
 manager: sakudes
 ---
 # Available Liquid filters
+
 Liquid filters are used to modify the output of strings, numbers, variables, and objects. They are separated from the value to which they are being applied by a |.
 
 `{{ 'hal 9000' | upcase }} <!-- Output: HAL 9000 -->`
@@ -28,9 +29,10 @@ Some filters accept parameters. Filters can also be combined, and are applied in
 The below section describes various filters. 
 
 ## Array filters
-Array filters are used to work with [*Liquid types*](liquid-types.md).  
 
-### **batch**
+Array filters are used to work with [arrays](liquid-types.md#array).  
+
+### batch
 
 Divides an array into multiple arrays of a given size.
 
@@ -74,7 +76,7 @@ Divides an array into multiple arrays of a given size.
 </ul>
 ```
 
-### **concat**
+### concat
 
 Concatenates two arrays into a single new array.
 
@@ -104,7 +106,7 @@ Group #1 + Group #2: John, Pete, Hannah, Joan, Bill
 Group #1 + Leslie: John, Pete, Hannah, Leslie
 ```
 
-### **except**
+### except
 
 Select all the objects in an array where a given attribute does not have a given value. (This is the inverse of**where**.)
 
@@ -126,7 +128,7 @@ Select all the objects in an array where a given attribute does not have a given
 Jack Robinson
 ```
 
-### **first**
+### first
 
 Returns the first element of an array.
 
@@ -149,18 +151,12 @@ The first word is "This".
 **Output**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
-
-{{ words | first }}
-
-{% if words.first == "This" %}
+This
 
 The first word is "This".
-
-{% endif %}
 ```
 
-### **group_by**
+### group_by
 
 Group the items in an array by a given attribute.
 
@@ -198,7 +194,7 @@ New York:
 Jack Robinson
 ```
 
-### **join**
+### join
 
 Joins the elements of an array with the character passed as the parameter. The result is a single string.
 
@@ -213,12 +209,10 @@ Joins the elements of an array with the character passed as the parameter. The r
 **Output**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
-
-{{ words | join: ", " }}
+This, is, a, run, of, text
 ```
 
-### **last**
+### last
 
 Returns the last element of an array.
 
@@ -241,18 +235,12 @@ The last word is "text".
 **Output**
 
 ```
-{% assign words = "This is a run of text" | split: " " -%}
-
-{{ words | last }}
-
-{% if words.last == "text" -%}
+text
 
 The last word is "text".
-
-{% endif -%}
 ```
 
-### **order\_by**
+### order\_by
 
 Returns the elements of an array ordered by a given attribute of the elements of the array.
 
@@ -274,7 +262,7 @@ Dave Thomas, Jack Robinson, Jake Johnson, John Smith
 John Smith, Jake Johnson, Jack Robinson, Dave Thomas
 ```
 
-### **random**
+### random
 
 Returns a single randomly-selected item from the array.
 
@@ -294,7 +282,7 @@ John, Pete, Hannah
 Pete
 ```
 
-### **select**
+### select
 
 Selects the value of a given attribute for each item in an array, and returns these values as an array.
 
@@ -310,7 +298,7 @@ Selects the value of a given attribute for each item in an array, and returns th
 Redmond, New York
 ```
 
-### **shuffle**
+### shuffle
 
 Applied to an array, returns a new array with the same items, in randomized order.
 
@@ -330,7 +318,7 @@ John, Pete, Hannah
 Hannah, John, Pete
 ```
 
-### **size**
+### size
 
 Returns the number of items in an array.
 
@@ -353,18 +341,12 @@ The text contains 6 words.
 **Output**
 
 ```
-{% assign words = "This is a run of text" | split: " " -%}
-
-{{ words | size }}
-
-{% if words.size == 6 -%}
+6
 
 The text contains 6 words.
-
-{% endif -%}
 ```
 
-### **skip**
+### skip
 
 Skips a given number of items in an array, and returns the rest.
 
@@ -379,12 +361,10 @@ Skips a given number of items in an array, and returns the rest.
 **Output**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
-
-{{ words | skip: 3 | join: ', ' }}
+run, of, text
 ```
 
-### **take**
+### take
 
 Takes a given number of items from the array, returning the taken items.
 
@@ -398,12 +378,11 @@ Takes a given number of items from the array, returning the taken items.
 **Output**
 
 ```
-{% assign words = "This is a run of text" | split: " " %}
 
-{{ words | take: 3 | join: ', ' }}
+This, is, a
 ```
 
-### **then\_by**
+### then\_by
 
 Adds additional subsequent ordering to an array already ordered by**order\_by**.
 
@@ -425,7 +404,7 @@ Dave Thomas, Jack Robinson, Jake Johnson, John Smith
 John Smith, Jake Johnson, Jack Robinson, Dave Thomas
 ```
 
-### **where**
+### where
 
 Select all the objects in an array where a given attribute has a given value.
 
@@ -456,7 +435,7 @@ Jake Johnson
 
 Date filters can be used for date arithmetic or to convert DateTime values into various formats.
 
-### **date**
+### date
 
 Formats a DateTime value using a .NET format string.
 
@@ -475,12 +454,12 @@ Formats a DateTime value using a .NET format string.
 **Output**
 
 ```
-{{ now | date: 'g' }}
+5/7/2018 7:20 AM
 
-{{ now | date: 'MMMM dd, yyyy' }}
+May 07, 2018
 ```
 
-### **date\_add\_days**
+### date\_add\_days
 
 Adds the specified number of whole and fractional days to the DateTime value. The parameter can be positive or negative.
 
@@ -497,14 +476,14 @@ Adds the specified number of whole and fractional days to the DateTime value. Th
 **Output**
 
 ```
-{{ now }}
+5/7/2018 7:20:46 AM
 
-{{ now | date_add_days: 1 }}
+5/8/2018 7:20:46 AM
 
-{{ now | date_add_days: -2.5 }}
+5/4/2018 7:20:46 PM
 ```
 
-### **date\_add\_hours**
+### date\_add\_hours
 
 Adds the specified number of whole and fractional hours to the DateTime value. The parameter can be positive or negative.
 
@@ -521,14 +500,14 @@ Adds the specified number of whole and fractional hours to the DateTime value. T
 **Output**
 
 ```
-{{ now }}
+5/7/2018 7:20:46 AM
 
-{{ now | date_add_hours: 1 }}
+5/7/2018 8:20:46 AM
 
-{{ now | date_add_hours: -2.5 }}
+5/7/2018 4:50:46 AM
 ```
 
-### **date\_add\_minutes**
+### date\_add\_minutes
 
 Adds the specified number of whole and fractional minutes to the DateTime value. The parameter can be positive or negative.
 
@@ -546,14 +525,14 @@ Adds the specified number of whole and fractional minutes to the DateTime value.
 **Output**
 
 ```
-{{ now }}
+5/7/2018 7:20:46 AM
 
-{{ now | date_add_minutes: 10 }}
+5/7/2018 7:30:46 AM
 
-{{ now | date_add_minutes: -2.5 }}
+5/7/2018 7:18:16 AM
 ```
 
-### **date\_add\_months**
+### date\_add\_months
 
 Adds the specified number of whole months to the DateTime value. The parameter can be positive or negative.
 
@@ -570,14 +549,14 @@ Adds the specified number of whole months to the DateTime value. The parameter c
 **Output**
 
 ```
-{{ now }}
+5/7/2018 7:20:46 AM
 
-{{ now | date_add_months: 1 }}
+6/7/2018 7:20:46 AM
 
-{{ now | date_add_months: -2 }}
+3/7/2018 7:20:46 AM
 ```
 
-### **date\_add\_seconds**
+### date\_add\_seconds
 
 Adds the specified number of whole and fractional seconds to the DateTime value. The parameter can be positive or negative.
 
@@ -594,14 +573,14 @@ Adds the specified number of whole and fractional seconds to the DateTime value.
 **Output**
 
 ```
-{{ now }}
+5/7/2018 7:20:46 AM
 
-{{ now | date_add_seconds: 10 }}
+5/7/2018 7:20:56 AM
 
-{{ now | date_add_seconds: -1.25 }}
+5/7/2018 7:20:45 AM
 ```
 
-### **date\_add\_years**
+### date\_add\_years
 
 Adds the specified number of whole years to the DateTime value. The parameter can be positive or negative.
 
@@ -618,16 +597,16 @@ Adds the specified number of whole years to the DateTime value. The parameter ca
 **Output**
 
 ```
-{{ now }}
+5/7/2018 7:20:46 AM
 
-{{ now | date_add_years: 1 }}
+5/7/2019 7:20:46 AM
 
-{{ now | date_add_years: -2 }}
+5/7/2016 7:20:46 AM
 ```
 
-### **date\_to\_iso8601**
+### date\_to\_iso8601
 
-Formats a DateTime value according to the [*ISO 8601*](http://en.wikipedia.org/wiki/ISO_8601) standard. Useful when creating [*Atom feeds*](http://tools.ietf.org/html/rfc4287), or the HTML5 &lt;time&gt; element.  
+Formats a DateTime value according to the [ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) standard. Useful when creating [*Atom feeds*](http://tools.ietf.org/html/rfc4287), or the HTML5 &lt;time&gt; element.  
 
 **Code**
 
@@ -638,12 +617,12 @@ Formats a DateTime value according to the [*ISO 8601*](http://en.wikipedia.org/w
 **Output**
 
 ```
-{{ now | date_to_iso8601 }}
+2018-05-07T07:20:46Z
 ```
 
-### **date\_to\_rfc822**
+### date\_to\_rfc822
 
-Formats a DateTime value according to the [*RFC 822*](https://www.ietf.org/rfc/rfc0822.txt) standard. Useful when creating [*RSS feeds*](http://cyber.law.harvard.edu/rss/rss.html).  
+Formats a DateTime value according to the [RFC 822](https://www.ietf.org/rfc/rfc0822.txt) standard. Useful when creating [*RSS feeds*](http://cyber.law.harvard.edu/rss/rss.html).  
 
 **Code**
 
@@ -654,15 +633,15 @@ Formats a DateTime value according to the [*RFC 822*](https://www.ietf.org/rfc/r
 **Output**
 
 ```
-{{ now | date_to_rfc822 }}
+Mon, 07 May 2018 07:20:46 Z
 ```
 
 
 ## Entity list filters
 
-Entity List filters are used to work with certain [*entitylist*](#entitylist) attribute values, and to help create entity list views.  
+Entity List filters are used to work with certain [entitylist](liquid-objects.md#entitylist) attribute values, and to help create entity list views.  
 
-### **current\_sort**
+### current\_sort
 
 Given a sort expression, returns the current sort direction for a given attribute.
 
@@ -678,13 +657,13 @@ Given a sort expression, returns the current sort direction for a given attribut
 DESC
 ```
 
-### **metafilters**
+### metafilters
 
-Parses an *[entitylist](#entitylist)* filter\_definition JSON value into filter option group objects.  
+Parses an [entitylist](liquid-objects.md#entitylist) filter\_definition JSON value into filter option group objects.  
 
-metafilters can be optionally provided with a current attribute filter query and current [*entitylist*](#entitylist), allowing the returned filter objects to be flagged as either selected or unselected.  
+metafilters can be optionally provided with a current attribute filter query and current [entitylist](liquid-objects.md#entitylist), allowing the returned filter objects to be flagged as either selected or unselected.  
 
-### **reverse\_sort**
+### reverse\_sort
 
 Given a sort direction, returns the opposite sort direction.
 
@@ -709,7 +688,7 @@ ASC
 
 ## Math filters
 
-Math filters allow you to perform mathematical operations on [*Liquid types*](liquid-types.md).  
+Math filters allow you to perform mathematical operations on [numbers](liquid-types.md#number).  
 
 As with all filters, math filters can be chained, and are applied in order from left to right.
 
@@ -722,10 +701,10 @@ As with all filters, math filters can be chained, and are applied in order from 
 **Output**
 
 ```
-{{ 10 | times: 2 | minus: 5 | divided_by: 3 }}
+5
 ```
 
-### **ceil**
+### ceil
 
 Rounds a value up to the nearest integer.
 
@@ -745,7 +724,7 @@ Rounds a value up to the nearest integer.
 5
 ```
 
-### **divided\_by**
+### divided\_by
 
 Divides a number by another number.
 
@@ -762,14 +741,14 @@ Divides a number by another number.
 **Output**
 
 ```
-{{ 10 | divided_by: 2 }}
+5
 
-{{ 10 | divided_by: 3 }}
+3
 
-{{ 10.0 | divided_by: 3 }}
+3.333333
 ```
 
-### **floor**
+### floor
 
 Rounds a value down to the nearest integer.
 
@@ -789,7 +768,7 @@ Rounds a value down to the nearest integer.
 4
 ```
 
-### **minus**
+### minus
 
 Subtracts a number from another number.
 
@@ -810,12 +789,12 @@ Subtracts a number from another number.
 ```
 10
 
-{{ 10 | minus: 1.1 }}
+9
 
-{{ 10.1 | minus: 1 }}
+9.1
 ```
 
-### **modulo**
+### modulo
 
 Divides a number by another number and returns the remainder.
 
@@ -828,10 +807,10 @@ Divides a number by another number and returns the remainder.
 **Output**
 
 ```
-{{ 12 | modulo: 5 }}
+2
 ```
 
-### **plus**
+### plus
 
 Adds a number to another number.
 
@@ -852,12 +831,12 @@ Adds a number to another number.
 ```
 12
 
-{{ 10 | plus: 1.1 }}
+11
 
-{{ 10.1 | plus: 1 }}
+11.1
 ```
 
-### **round**
+### round
 
 Rounds a value to the nearest integer or specified number of decimals.
 
@@ -881,7 +860,7 @@ Rounds a value to the nearest integer or specified number of decimals.
 4.56
 ```
 
-### **times**
+### times
 
 Multiplies a number by another number.
 
@@ -898,19 +877,19 @@ Multiplies a number by another number.
 **Output**
 
 ```
-{{ 10 | times: 2 }}
+20
 
-{{ 10 | times: 2.2 }}
+20
 
-{{ 10.1 | times: 2 }}
+20.2
 ```
 
 
 ## String filters
 
-String filters manipulate [*Liquid types*](liquid-types.md).  
+String filters manipulate [strings](liquid-types.md#string).  
 
-### **append**
+### append
 
 Appends a string to the end of another string.
 
@@ -923,7 +902,7 @@ Appends a string to the end of another string.
 **Output**
 
 ```
-{{ 'filename' | append: '.js' }}
+filename.js
 ```
 
 ### **capitalize**
@@ -939,7 +918,7 @@ capitalizes the first word in a string.
 **Output**
 
 ```
-{{ 'capitalize me' | capitalize }}
+Capitalize Me
 ```
 
 ### **downcase**
@@ -955,7 +934,7 @@ Converts a string into lowercase.
 **Output**
 
 ```
-{{ 'MIxed Case TExt' | downcase }}
+mixed case text
 ```
 
 ### **escape**
@@ -971,7 +950,7 @@ HTML-escapes a string.
 **Output**
 
 ```
-<p>test</p>
+&lt;p&gt;test&lt;/p&gt;
 ```
 
 ### **newline\_to\_br**
@@ -1017,7 +996,7 @@ Prepends a string to the beginning of another string.
 **Output**
 
 ```
-{{ 'Jane Johnson' | prepend: 'Dr. ' }}
+Dr. Jane Johnson
 ```
 
 ### **remove**
@@ -1033,7 +1012,7 @@ Remove all occurrences of a substring from a string.
 **Output**
 
 ```
-{{ 'Hello, Dave. How are you, Dave?' | remove: 'Dave' }}
+Hello, . How are you, ?
 ```
 
 ### **remove\_first**
@@ -1049,7 +1028,7 @@ Removes the first occurrence of a substring from a string.
 **Output**
 
 ```
-{{ 'Hello, Dave. How are you, Dave?' | remove_first: 'Dave' }}
+Hello, . How are you, Dave?
 ```
 
 ### **replace**
@@ -1065,7 +1044,7 @@ Replaces all occurrences of a string with a substring.
 **Output**
 
 ```
-{{ 'Hello, Dave. How are you, Dave?' | replace: 'Dave', 'John' }}
+Hello, John. How are you, John?
 ```
 
 ### **replace\_first**
@@ -1081,7 +1060,7 @@ Replaces the first occurrence of a string with a substring.
 **Output**
 
 ```
-{{ 'Hello, Dave. How are you, Dave?' | replace_first: 'Dave', 'John' }}
+Hello, John. How are you, Dave?
 ```
 
 ### **split**
@@ -1107,17 +1086,15 @@ All words: {{ words | join: ', ' }}
 **Output**
 
 ```
-{% assign words = "This is a demo of the split filter" | split: ' ' %}
+First word: This
 
-First word: {{ words.first }}
+First word: This
 
-First word: {{ words[0] }}
+Second word: is
 
-Second word: {{ words[1] }}
+Last word: filter
 
-Last word: {{ words.last }}
-
-All words: {{ words | join: ', ' }}
+All words: This, is, a, demo, of, the, split, filter
 ```
 
 ### **strip\_html**
@@ -1193,7 +1170,7 @@ Truncates a string down to a given number of characters. An ellipsis (...) is ap
 **Output**
 
 ```
-{{ 'This is a long run of text.' | truncate: 10 }}
+This is...
 ```
 
 ### **truncate\_words**
@@ -1209,7 +1186,7 @@ Truncates a string down to a given number of words. An ellipsis (...) is appende
 **Output**
 
 ```
-{{ 'This is a long run of text.' | truncate_words: 3 }}
+This is a...
 ```
 
 ### **upcase**
@@ -1225,7 +1202,7 @@ Converts a string into uppercase.
 **Output**
 
 ```
-{{ 'MIxed Case TExt' | upcase }}
+MIXED CASE TEXT
 ```
 
 ### **url\_escape**
@@ -1257,7 +1234,7 @@ XML-escape a string, for inclusion in XML output.
 **Output**
 
 ```
-<p>test</p>
+&lt;p&gt;test&lt;/p&gt;
 ```
 
 
@@ -1286,11 +1263,11 @@ This filter will also accept "on", "enabled", or "yes" as true, and "off", "disa
 **Output**
 
 ```
-{{ true | boolean }}
+true
 
-{{ 'false' | boolean }}
+false
 
-{{ 'enabled' | boolean }}
+true
 
 false
 ```
@@ -1312,11 +1289,11 @@ Attempts to convert a string value into a decimal number. If the value is alread
 **Output**
 
 ```
-{{ 10.1 | decimal }}
+10.1
 
-{{ '3.14' | decimal }}
+3.14
 
-{{ 'text' | decimal | default: 3.14 }}
+3.14
 ```
 
 ### **integer**
@@ -1338,13 +1315,12 @@ Attempts to convert a string value into an integer. If the value is already an i
 **Output**
 
 ```
-{{ 10 | integer }}
+10
 
-{{ '10' | integer }}
+10
 
-{{ '10.1' | integer }}
 
-{{ 'text' | integer | default: 2 }}
+2
 ```
 
 ### **string**
@@ -1374,9 +1350,9 @@ If this filter is applied to a full absolute URL, an updated absolute URL will b
 **Output**
 
 ```
-{{ 'http://example.com/path?page=1' | add_query: 'foo', 'bar' }}
+http://example.com/path?page=1&foo=bar
 
-{{ '/path?page=1' | add_query: 'page', 2 }}
+/path?page=2
 ```
 
 ### **base**
@@ -1408,7 +1384,7 @@ Gets the host part of a URL.
 **Output**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | host }}
+example.com
 ```
 
 ### **path**
@@ -1426,9 +1402,9 @@ Gets the path part of a URL.
 **Output**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | path }}
+/path
 
-{{ '/path?foo=bar&page=2' | path }}
+/path
 ```
 
 ### **path\_and\_query**
@@ -1468,11 +1444,11 @@ Gets the port number of a URL.
 **Output**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | port }}
+80
 
-{{ 'https://example.com/path?foo=bar&page=2' | port }}
+443
 
-{{ 'https://example.com:9000/path?foo=bar&page=2' | port }}
+9000
 ```
 
 ### **remove\_query**
@@ -1492,9 +1468,9 @@ If this filter is applied to a full absolute URL, an updated absolute URL will b
 **Output**
 
 ```
-{{ 'http://example.com/path?page=1' | remove_query: 'page' }}
+http://example.com/path
 
-{{ '/path?page=1' | remove_query: 'page' }}
+/path
 ```
 
 ### **scheme**
@@ -1512,9 +1488,9 @@ Gets the scheme part of a URL.
 **Output**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | scheme }}
+http
 
-{{ 'https://example.com/path?foo=bar&page=2' | scheme }}
+https
 ```
 
 
