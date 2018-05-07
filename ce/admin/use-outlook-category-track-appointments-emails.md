@@ -87,22 +87,22 @@ You can disable category-based tracking for the Dynamics 365 organization by dis
 > If you disable OrgDBOrgSetting **TrackCategorizedItems**, the **Tracked to Dynamics 365** category is soft-deleted, with the category assignment retained in Outlook. If you delete the category from the master list, it will be deleted permanently.
 
 ## FAQ
-**Can I track my Outlook contacts by assigning the Tracked to Dynamics 365 category?**
+**Can I track my Outlook contacts by assigning the Tracked to Dynamics 365 category?**<br />
 No, category-based tracking is not supported for Outlook contacts.
 
-**What happens if I rename the Tracked to Dynamics 365 category?**
+**What happens if I rename the Tracked to Dynamics 365 category?**<br />
 If you rename the category, server-side synchronization will continue to identify the category by its ID and it will be used to track and untrack Outlook items.
 
-**What happens if I delete the Tracked to Dynamics 365 category?**
+**What happens if I delete the Tracked to Dynamics 365 category?**<br />
 If you delete the category, server-side synchronization will recreate it on the Exchange server in about 15 minutes.
 
-**When I turn on OrgDBOrgSetting TrackCategorizedItems for the first time, will my previously tracked items be assigned the Tracked to Dynamics 365 category?**
+**When I turn on OrgDBOrgSetting TrackCategorizedItems for the first time, will my previously tracked items be assigned the Tracked to Dynamics 365 category?**<br />
 No, server-side synchronization will not go back in time to assign the category to already tracked items.
 
-**If I assign the Tracked to Dynamics 365 category to an Outlook conversation thread, what happens?**
+**If I assign the Tracked to Dynamics 365 category to an Outlook conversation thread, what happens?**<br />
 If you categorize a conversation thread as **Tracked to Dynamics 365**, all the emails in that thread are assigned the category and hence will be tracked.
 
-**Can I assign Tracked to Dynamics 365 category to recurring appointments?**
+**Can I assign Tracked to Dynamics 365 category to recurring appointments?**<br />
 If you categorize a recurring appointment as **Tracked to Dynamics 365**, all the individual instances of the appointment are assigned the category and will be tracked.
 
 
