@@ -2,7 +2,7 @@
 title: "Set up and moderate forums for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to create and manage forums on a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/08/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -13,28 +13,39 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Set up and moderate forums
-Forums can be created, edited and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. To access forums, sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Community &gt; Forums**.
+# Set up and manage forums
 
-## Create a new forum
+A forum is an online discussion that allows users to hold conversations in the form of posted messages. A discussion forum is hierarchical or tree-like in structure: a forum can contain a number of topics, also known as threads, and can be replied to by many users.
 
-To create a new forum, select **New**.
+## Manage forums in Dynamics 365
 
-## Edit an existing forum
+Forums can be created, edited and deleted within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
 
-1. Select the **Form** listed in the grid.
-2. Specify values for the fields provided, and then select **Save & Close**.
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+
+2. Go to **Community** > **Forums**.
+
+3. To create a new forum, select **New**.
+
+4. To edit an existing forum, select the name of the forum.
+
+5. Enter appropriate values in the fields.
+
+6. Select **Save & Close**.
 
 ## Manage forums on a portal
 
 For portal users with content management permissions, a limited set of properties of forums can be managed by using the [front-side editing engine to publish content](publish-content-editing-engine.md). If your user account has been assigned the necessary permission set, the inline editing interface will appear automatically when you sign in to the portal.  
 
 1. Navigate to the forums parent page within the portal.
+
 2. On the portal inline editing toolbar, select **New**. 
+
 3. Select **Child forum**. 
+
 4. Specify values for the fields provided, and then select **Save**.
 
-![Create a new child forum](media/create-new-child-forum.png "Create a new child forum")  
+    ![Create a new child forum](media/create-new-child-forum.png "Create a new child forum")  
 
 ### Forum attributes used by portals
 
