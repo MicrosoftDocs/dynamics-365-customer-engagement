@@ -2,8 +2,8 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete posts and export information about authors."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 05/07/2018
-ms.service: mse
+ms.date: 05/08/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -11,7 +11,8 @@ ms.assetid: 9404a5d0-f5c8-48b4-b1c7-1ea56125fcdc
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Manage an author's data

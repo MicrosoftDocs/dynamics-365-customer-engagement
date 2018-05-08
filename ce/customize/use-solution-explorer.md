@@ -1,7 +1,8 @@
 ---
-title: "Use the solution explorer (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use the solution explorer in PowerApps | MicrosoftDocs"
+description: "Learn how to use solution explorer to create or customize apps"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,19 +11,20 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 72bacfbb-96a3-4daa-88ff-11bdaaac9a3d
 caps.latest.revision: 57
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Use the solution explorer
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
  Within the solution explorer you can navigate through a hierarchy of nodes using the navigation pane on the left side as shown in the following screenshot:  
   
- ![Default solution with entities collapsed in Dynamics 365](../customize/media/crm-itpro-cust-defaultsolutionentitiescollapsed.PNG "Default solution with entities collapsed in Dynamics 365")  
+ ![Default solution with entities collapsed](../customize/media/crm-itpro-cust-defaultsolutionentitiescollapsed.PNG "Default solution with entities collapsed")  
   
 > [!NOTE]
 >  Use your mouse and keyboard when working with customization tools in the solution explorer. This part of the application isn’t optimized for touch.  
@@ -31,7 +33,8 @@ manager: "brycho"
   
 With managed solutions there will be no commands available and you’ll see the message:  
   
-**You can’t directly edit the components within a managed solution. If the managed properties for solution components are set to allow customizations, you can edit them in the Customizations area or from another unmanaged solution**.          
+> [!NOTE]
+> You can’t directly edit the components within a managed solution. If the managed properties for solution components are set to allow customizations, you can edit them in the Customizations area or from another unmanaged solution.          
   
  You’ll need to locate the solution component in the default solution and try to edit it there or add it to another unmanaged solution that you’ve created. The solution component might not be customizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Managed properties](solutions-overview.md#managed-properties)
   

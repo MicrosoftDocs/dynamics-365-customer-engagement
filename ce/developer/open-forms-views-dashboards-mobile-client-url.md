@@ -58,6 +58,6 @@ ms-dynamicsxrm://?pagetype=<VALUE>&etn=<VALUE>&id=<VALUE>
   
 ### See also
 
- [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md)   
- [Write client scripts for Customer Engagement mobile clients](clientapi/write-scripts-mobile-clients.md)   
+ [Open Forms, Views, Dialogs and Reports with a URL](open-forms-views-dialogs-reports-url.md)  
+    
  [Extend Dynamics 365 on the client](extend-client.md)

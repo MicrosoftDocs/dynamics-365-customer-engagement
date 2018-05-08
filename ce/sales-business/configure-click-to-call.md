@@ -3,8 +3,9 @@ title: "Set up click-to-call (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Set up click-to-call to allow your users easily check on the availability of a contact and to make a call with one click from within the Dynamics 365 for Sales, Preview."
 keywords: "click-to-call; Skype; Skype for Business"
 ms.date: 12/15/2017
-ms.service: crm-online
-ms.custom: Sales
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

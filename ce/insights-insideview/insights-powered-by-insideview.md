@@ -1,17 +1,18 @@
 ---
 title: "Insights, powered by InsideView (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-insightsinsideview
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-author: "mduelae"
+author: saurabh-kudesia
 ms.assetid: cf2feda4-7286-4d0e-aee2-790a7982a847
 caps.latest.revision: 33
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: sakudes
+manager: sakudes
 ---
 # Insights, powered by InsideView
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

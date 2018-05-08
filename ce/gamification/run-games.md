@@ -3,7 +3,7 @@ title: "Run games in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn how to set up games in a few steps and how to keep them running smoothly."
 keywords: "game, gamification KPI, game setup"
 ms.date: 10/27/2017
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Set up and run games in Gamification

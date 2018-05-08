@@ -3,7 +3,7 @@ title: "Publish and react to posts in Social Engagement | Microsoft Docs"
 description: "Learn how you can react to posts or publish a new post in Social Engagement."
 keywords: "publish, post, like, favorite, share, private message, Social Engagement"
 ms.date: 05/08/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -11,7 +11,8 @@ ms.assetid: 232849dd-218d-4cf0-8561-03c865120657
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Publish and react to posts

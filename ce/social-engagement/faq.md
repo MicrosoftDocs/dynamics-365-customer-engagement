@@ -2,8 +2,8 @@
 title: "Frequently asked questions for Microsoft Social Engagement | Microsoft Docs"
 description: "Find answers to frequently asked questions about Social Engagement."
 keywords: "FAQ, questions, common issues, quota, search setup, search topics"
-ms.date: 08/05/2018
-ms.service: mse
+ms.date: 08/05/2017
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -11,6 +11,8 @@ ms.assetid: ac2d84b4-f7c6-9694-cf10-539e529f2e25
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Microsoft Social Engagement FAQ

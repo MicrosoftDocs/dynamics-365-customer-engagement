@@ -1,10 +1,11 @@
 ---
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 02/06/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,9 +16,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 1949915b-77a0-4489-addf-b3b3b37c3e89
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Release history for Unified Service Desk
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  

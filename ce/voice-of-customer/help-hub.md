@@ -3,7 +3,7 @@ title: "Pointers for Voice of the Customer | MicrosoftDocs"
 description: "Your starting point for help of Voice of the Customer."
 keywords: "voice of the customer help"
 ms.date: 11/08/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Voice of the Customer help and training

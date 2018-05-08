@@ -3,8 +3,9 @@ title: "Create a product catalog (Dynamics 365 for Sales, Preview) | Microsoft D
 description: "Understand how to create a product catalog in Dynamics 365 for Sales, Preview to make it easier for your sales rep to increase sales. "
 keywords: "Product; price; catalog"
 ms.date: 12/15/2017
-ms.service: crm-online
-ms.custom: Sales
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

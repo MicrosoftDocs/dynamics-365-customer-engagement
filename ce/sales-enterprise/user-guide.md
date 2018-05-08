@@ -3,8 +3,9 @@ title: "User Guide (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Contains topics that describe how to do common sales tasks in Dynamics 365 for Sales"
 keywords: "sales, User guide"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -59,7 +60,7 @@ topic-status: Drafting
   
  [Qualify a lead and convert it to an opportunity](../sales-enterprise/qualify-lead-convert-opportunity-sales.md)  
   
- [What if you're no longer working a lead?](../sales-enterprise/what-if-no-longer-working-lead-sales.md)  
+ [What if you're no longer working a lead?](../sales-enterprise/no-longer-working-lead-sales.md)  
   
  [Reopen a lead](../sales-enterprise/re-open-lead-sales.md)  
   

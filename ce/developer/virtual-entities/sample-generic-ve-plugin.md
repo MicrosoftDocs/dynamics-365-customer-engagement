@@ -2,7 +2,7 @@
 title: "Sample: Generic virtual entity data provider plug-in (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to implement a generic custom Dynamics 365 virtual entity plug-in."
 ms.custom: ""
-ms.date: 01/19/2018
+ms.date: 05/01/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,23 +18,26 @@ manager: "amyla"
 
 # Sample: Generic virtual entity data provider plug-in
 
-
-> [!NOTE]
-> ![This page is under construction. Check back soon!](../../media/under_construction.png "Coming soon") [!INCLUDE[cc-under-construction](../../includes/cc-under-construction.md)]
-
-<!-- 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample code is for [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. 
 
-  
 ## Demonstrates  
-This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] virtual entity data provider plug-in, **DropboxRetrieveMultiplePlugin**, for the [Dropbox](https://www.dropbox.com/) file-sharing service. It uses the "bare metal" approach, translating the [QueryExpression](https://msdn.microsoft.com/library/microsoft.xrm.sdk.query.queryexpression.aspx) through the creation of the custom visitor class, **DropBoxExpressionVisitor**. It returns a collection of the files that satisfy the search criteria as an [EntityCollection](https://msdn.microsoft.com/library/microsoft.xrm.sdk.entitycollection.aspx). 
+This sample shows a minimal implementation for a generic [!INCLUDE[pn-dynamics365](../../includes/pn-dynamics-365.md)] virtual entity data provider plug-in, **DropboxRetrieveMultiplePlugin**, for the [Dropbox](https://www.dropbox.com/) file-sharing service. It uses the "bare metal" approach, translating the <xref:Microsoft.Xrm.Sdk.Query.QueryExpression> through the creation of the custom visitor class, **DropBoxExpressionVisitor**. It returns a collection of the files that satisfy the search criteria as an <xref:Microsoft.Xrm.Sdk.EntityCollection>. 
 
+## Getting started
+In order to build this sample, you must first install the [Dropbox.Api](https://www.nuget.org/packages/Dropbox.Api/) and [Microsoft.CrmSdk.Data](https://www.nuget.org/packages/Microsoft.CrmSdk.Data/) NuGet packages in your solution.  You'll also need a DropBox account and pass a real access token when creating an instance of the **DropboxClient**.
 
- QUESTION: Does this satisfy both the Retrieve and RetrieveMultiple messages? 
-  
-## Example  
+Add the following using statements to your code:
+
+```csharp
+using Microsoft.Xrm.Sdk;
+using Microsoft.Xrm.Sdk.Query;
+using Dropbox.Api;
+using Dropbox.Api.Files;
+```
+
+## Sample code  
 
 ```csharp  
 
@@ -42,9 +45,10 @@ public class DropBoxExpressionVisitor : QueryExpressionVisitorBase
 {
     public string SearchKeyWords { get; private set; }
 
-    public override void Visit(FilterExpression filter)
+    public override QueryExpression Visit(QueryExpression query)
     {
         // Very simple visitor that extracts search keywords
+        var filter = query.Criteria;
         if (filter.Conditions.Count > 0)
         {
             foreach (ConditionExpression condition in filter.Conditions)
@@ -59,6 +63,7 @@ public class DropBoxExpressionVisitor : QueryExpressionVisitorBase
                     }
                 }
             }
+            return query;
         }
     }
 }
@@ -67,8 +72,8 @@ public class DropboxRetrieveMultiplePlugin : IPlugin
 {
     public void Execute(IServiceProvider serviceProvider)
     {
-        var context = serviceProvider.Get<IPluginExecutionContext>();
-        var qe = context.InputParameterOrDefault<QueryExpression>("Query");
+        var context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
+        var qe = (QueryExpression)context.InputParameters["Query"];
         if (qe != null)
         {
             var visitor = new DropBoxExpressionVisitor();
@@ -106,8 +111,7 @@ public class DropboxRetrieveMultiplePlugin : IPlugin
 }
 
 ``` 
--->
-  
+
 ### See also
 
 [Get started with virtual entities](get-started-ve.md)<br />

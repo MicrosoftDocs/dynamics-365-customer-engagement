@@ -97,13 +97,15 @@ A [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] s
 ### Where can I find more about [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] security, data privacy, and compliance?  
  The [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] Trust Center will be updated as needed when the Japan datacenters launch into general availability. To see the current version of the Trust Center, see: [Microsoft Dynamics 365 Trust Center](http://go.microsoft.com/fwlink/p/?LinkID=393409).  
   
+<!-- Out-of-date
 ### Where can I find out more about the physical infrastructure for [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]?  
  Microsoft Global Foundation Services (GFS) is the engine that powers the [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] cloud services. GFS focuses on smart growth, high reliability, operational excellence, cost-effectiveness, environmental sustainability, and a trustworthy online experience for customers and partners worldwide.  
   
  GFS delivers the core infrastructure and foundational technologies for Microsoft's 200+ online businesses including [!INCLUDE[pn_bing](../../includes/pn-bing.md)], [!INCLUDE[pn_outlook_com](../../includes/pn-outlook-com.md)], [!INCLUDE[pn_msn](../../includes/pn-msn.md)], [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)], [!INCLUDE[pn_xbox_live](../../includes/pn-xbox-live.md)], and [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]. The infrastructure is comprised of a large global portfolio of datacenters, servers, content distribution networks, edge computing nodes, and fiber optic networks. The portfolio is built and managed by a team of subject matter experts working 24x7x365 to support services for more than 1 billion customers and 20 million businesses in more than 140 countries/regions worldwide.  
   
  For information on [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] Global Foundation Services, see: [Microsoft global datacenters](http://www.microsoft.com/datacenter)  
-  
+-->  
+
 ### Will Microsoft Dynamics Marketing, Social Engagement, and Parature, from Microsoft be available in the Japan datacenters?  
  These services will be available for purchase in the local market but will be delivered outside of the Japan datacenters at this time. Note: [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] leverages [!INCLUDE[pn_microsoft_azure_active_directory](../../includes/pn-microsoft-azure-active-directory.md)] and Multi-Factor Authentication, which don’t offer a region choice to customers.  
   

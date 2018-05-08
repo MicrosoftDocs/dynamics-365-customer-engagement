@@ -1,13 +1,15 @@
 ---
 title: "Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 searchScope:
   - Customer Service
   - Field Service
   - Project Service
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -16,11 +18,11 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "mduelae"
+author: krbjoran
 ms.assetid: 5423740c-79b3-4c6d-9b7c-6fdcec791425
 caps.latest.revision: 22
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Use Resource Scheduling Optimization to schedule multiple bookings on a recurring basis (Field Service)
 

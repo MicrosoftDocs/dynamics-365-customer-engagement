@@ -3,12 +3,13 @@ title: "Create and manage activities (Dynamics 365 for Sales, Preview) | Microso
 description: "Use activities to keep track of all your customer communications in Dynamics 365 for Sales, Preview."
 keywords: "Task; Email; Phone; Appointment; sales"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom:
+  - dyn365-sales
 ms.assetid: 0019bfd9-bf51-4985-a230-1dd4317051bc
 author: shubhadaj
 ms.author: shujoshi

@@ -3,8 +3,9 @@ title: "Set up a discount list (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Set up discounts on products in Dynamics 365 for Sales to offer products to your customers on marked down rates."
 keywords: "Discount, Discounted, Discount list"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -13,7 +14,7 @@ author: "shubhadaj"
 ms.assetid: afdf269e-613e-4949-ab6a-d1e9c02d8370
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

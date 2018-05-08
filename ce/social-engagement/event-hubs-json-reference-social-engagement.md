@@ -3,7 +3,7 @@ title: "JSON objects reference from Social Engagement | Microsoft Docs"
 description: "Review the full list of properties and object in the Social Engagement payload for Event Hubs."
 keywords: "JSON, payload, metadata, event hubs, reference"
 ms.date: 01/30/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # JSON reference for events from Social Engagement
