@@ -8,12 +8,11 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shellyha
-ms.date: 09/15/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: bdaec3df-f08e-4d2a-b2bc-f9706a853c69
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Define status reason transitions for case management

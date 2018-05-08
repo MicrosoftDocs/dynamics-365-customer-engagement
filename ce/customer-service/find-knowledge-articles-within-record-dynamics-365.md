@@ -8,12 +8,11 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shellyha
-ms.date: 09/15/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 8dc8e53f-984d-4c5c-98aa-4396786a16e3
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Find knowledge articles from within a record

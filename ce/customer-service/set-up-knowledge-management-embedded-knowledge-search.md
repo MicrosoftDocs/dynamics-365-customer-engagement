@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
 manager: shellyha
-ms.date: 09/15/2017
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 68356343-fdd5-4c0e-9c09-dbebf718c764

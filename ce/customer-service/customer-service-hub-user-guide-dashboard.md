@@ -6,12 +6,11 @@ author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
 manager: shellyha
-ms.date: 02/20/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: df25e314-069c-4361-abbc-e7d0dde2a596
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Use interactive dashboards to effectively manage service cases in the Customer Service Hub

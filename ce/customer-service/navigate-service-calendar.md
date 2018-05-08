@@ -1,22 +1,19 @@
 ---
-title: "Navigate the service calendar (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom:
-  - dyn365-customerservice
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: dynamics-365-customerservice
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+title: Navigate the service calendar (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to navigate the service calendar for Customer Service
 author: anjgupta
-ms.assetid: 9b3b8279-47b2-47c6-b390-4af0289ceca1
-caps.latest.revision: 30
+applies_to: 
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.author: anjgup
 manager: shellyha
+ms.date: 06/01/2018
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.assetid: 9b3b8279-47b2-47c6-b390-4af0289ceca1
+ms.custom: dyn365-customerservice
 ---
+
 # Navigate the service calendar
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

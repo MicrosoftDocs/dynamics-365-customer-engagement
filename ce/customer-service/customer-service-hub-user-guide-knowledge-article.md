@@ -6,12 +6,11 @@ author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
 manager: shellyha
-ms.date: 02/20/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: ae39f0a0-1909-44b0-8625-ccee22f3ccd4
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Reduce call handling times with Knowledge articles in the Customer Service Hub

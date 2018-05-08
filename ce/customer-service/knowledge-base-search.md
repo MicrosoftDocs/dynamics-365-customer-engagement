@@ -8,11 +8,12 @@ applies_to:
   - "Dynamics 365 Version 9.x"
   - "Dynamics 365 Version 8.2"
 ms.author: anjgup
-manager: sakudes
-ms.date: 04/12/2018
+manager: shellyha
+ms.date: 06/01/2018
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 16e57ec7-e14e-4ffa-9ca7-54a4fa63b4a9
+ms.custom: dyn365-customerservice
 ---
 
 # Search the Knowledge base in Dynamics 365
