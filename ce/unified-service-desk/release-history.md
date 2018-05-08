@@ -1,7 +1,8 @@
 ---
 title: "Release history (Unified Service Desk for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "The topic provide release history information for the Unified Service Desk Guide."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

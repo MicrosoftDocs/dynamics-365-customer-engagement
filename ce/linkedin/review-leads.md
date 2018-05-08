@@ -12,7 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-LinkedIn
+ms.custom:
+  - dyn365-LinkedIn
 ---
 
 # Analyze leads and lead performance

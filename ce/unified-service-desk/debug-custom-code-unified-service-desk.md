@@ -1,7 +1,8 @@
 ---
 title: "Debug your custom code for Unified Service Desk | MicrosoftDocs"
 description: "Learn about debugging your custom code that you create for Unified Service Desk."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

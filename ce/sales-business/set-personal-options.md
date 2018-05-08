@@ -8,7 +8,8 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.assetid: c9cd136b-1c4e-4259-83b6-19b3c26ecb61
 author: shubhadaj
 ms.author: shujoshi

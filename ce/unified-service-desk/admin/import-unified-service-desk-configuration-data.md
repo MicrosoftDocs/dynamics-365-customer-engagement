@@ -1,7 +1,8 @@
 ---
 title: "Import Unified Service Desk for Dynamics 365 Customer Engagement configuration data | MicrosoftDocs"
 description: "Learn how configuration data can be imported in to a target Dynamics 365 Customer Engagement instance."
-ms.custom: dyn365-USD, dyn365-admin
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

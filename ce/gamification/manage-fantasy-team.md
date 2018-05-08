@@ -9,7 +9,8 @@ ms.assetid: ce3d8906-0c19-4aac-aba6-e9385a21f18d
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-ms.custom: dyn365-gamification
+ms.custom:
+  - dyn365-gamification
 ---
 # Draft and manage your fantasy teams in Gamification
 

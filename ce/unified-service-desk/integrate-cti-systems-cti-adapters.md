@@ -1,7 +1,8 @@
 ---
 title: "Integrate with CTI systems using CTI adapters| MicrosoftDocs"
 description: "Learn about the integration with CTI systems using CTI adapters."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

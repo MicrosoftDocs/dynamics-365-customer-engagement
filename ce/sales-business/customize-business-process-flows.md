@@ -13,7 +13,8 @@ ms.author: shujoshi
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ---
 
 # Customize business process flows (Sales, Preview)

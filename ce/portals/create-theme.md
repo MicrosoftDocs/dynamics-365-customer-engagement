@@ -1,7 +1,8 @@
 ---
 title: "Create a theme for your portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to create a theme for your portal quickly and easily brand these portals for your organization."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 12/05/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

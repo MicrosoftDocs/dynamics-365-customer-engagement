@@ -12,7 +12,8 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 8e93491c-4321-4816-ad4c-4e095015b10e
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Enable entities for service level agreements (Customer Service)

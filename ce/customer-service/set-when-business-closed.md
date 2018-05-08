@@ -15,7 +15,8 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 0b050a02-7654-4c0d-803b-1c2c74711230
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Set when your business is closed (Customer Service)

@@ -13,7 +13,8 @@ ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 6ec542e2-4b0c-4822-bb22-10474027262d
 ms.reviewer: renwe
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 # Create, target, and deliver online marketing content
 

@@ -12,7 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Address customer service scenarios on social media with Social Engagement

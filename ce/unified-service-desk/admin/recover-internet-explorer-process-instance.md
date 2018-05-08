@@ -1,7 +1,8 @@
 ---
 title: "Recovering an Internet Explorer process instance in Unified Service Desk | MicrosoftDocs"
 description: "Learn about recovering an Internet Explorer process instance"
-ms.custom: dyn365-USD, dyn365-admin
+ms.custom:
+  - dyn365-USD, dyn365-admin
 ms.date: 02/06/2018
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

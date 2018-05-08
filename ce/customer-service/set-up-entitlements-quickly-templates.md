@@ -12,7 +12,8 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: dadea8f7-c931-4cdc-8815-32f8c0f89b51
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Set up entitlements quickly with templates (Customer Service)

@@ -12,7 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
-ms.custom: dyn365-LinkedIn
+ms.custom:
+  - dyn365-LinkedIn
 ---
 
 # How to sync [!include[LinkedIn](../includes/pn-linkedin.md)] leads by using [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../includes/cc-linkedin-solution.md)]
