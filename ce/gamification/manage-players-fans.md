@@ -3,13 +3,15 @@ title: "Import and manage players and fans in Dynamics 365 – Gamification | Mi
 description: "Learn how to import players from your Azure Active Directory and how to assign them the appropriate security roles for the games."
 keywords: "gamification, player, fan, import, importing, azure active directory, user, license"
 ms.date: 05/03/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 ms.assetid: 4df5e61b-0d7b-4cef-b741-14bed0637756
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Manage users from Dynamics 365 (online) and their security roles

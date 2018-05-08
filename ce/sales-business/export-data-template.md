@@ -3,8 +3,9 @@ title: "Export data or template (Dynamics 365 for Sales, Preview) | Microsoft Do
 description: "Export data from Dynamics 365 for Sales, Preview to an Excel worksheet and share it with other."
 keywords: "Export; Export Template; View"
 ms.date: 12/15/2017
-ms.service: crm-online
-ms.custom: Sales
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

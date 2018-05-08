@@ -3,9 +3,10 @@ title: "Translate or localize your Voice of the Customer for Dynamics 365 survey
 description: ""
 ms.assetid: 3361111c-23c8-498b-ae2f-5cf401a48c89
 keywords: ""
-ms.custom: ""
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.topic: "article"
 applies_to: "Dynamics 365 (online)"
 redirect_url: /dynamics365/customer-engagement/voice-of-customer/design-basic-survey

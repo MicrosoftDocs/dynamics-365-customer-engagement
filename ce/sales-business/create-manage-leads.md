@@ -3,12 +3,13 @@ title: "Create and manage leads (Dynamics 365 for Sales, Preview) | Microsoft Do
 description: "Track your potential sales as leads in Dynamics 365 for Sales, Preview."
 keywords: "Lead; manage; potential sale; qualify; convert"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom:
+  - dyn365-sales
 ms.assetid: 6a90c7e7-4f42-4420-9969-85171faf31e5
 author: shubhadaj
 ms.author: shujoshi

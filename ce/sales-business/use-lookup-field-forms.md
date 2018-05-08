@@ -8,7 +8,8 @@ ms.topic: "use-lookup-field-forms"
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom:
+  - Sales
 ms.assetid: ef027076-0d9d-4ae4-b111-dfd176221d67
 author: udag 
 ms.author: udag

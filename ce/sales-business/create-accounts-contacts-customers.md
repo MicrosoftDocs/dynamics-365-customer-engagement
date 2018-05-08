@@ -3,12 +3,13 @@ title: "Manage accounts and contacts (Dynamics 365 for Sales, Preview) | Microso
 description: "Store information about your customers by using accounts and contacts in Dynamics 365 for Sales, Preview."
 keywords: "Account; Contact; Customers; Sales"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom:
+  - dyn365-sales
 ms.assetid: 24ec7a53-f455-416f-800a-bc37c381c2e6
 author: shubhadaj
 ms.author: shujoshi
