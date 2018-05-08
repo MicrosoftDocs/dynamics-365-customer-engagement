@@ -4,7 +4,7 @@
   - name: Overview
     items:
     - name: Introducing the new admin center
-      href: admin-guide.md
+      href: intro-new-admin-center.md
   - name: Quickstarts
     items:
     - name: Onboard your organization and users
