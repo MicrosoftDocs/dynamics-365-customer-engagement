@@ -3,7 +3,7 @@
   items:
   - name: Overview
     items:
-    - name: 'New topic: Introducing the new admin center'
+    - name: Introducing the new admin center
       href: admin-guide.md
   - name: Quickstarts
     items:
