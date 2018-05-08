@@ -3,8 +3,8 @@
   items:
   - name: Overview
     items:
-    - name: 'New topic: Introducing the new admin center'
-      href: admin-guide.md
+    - name: Introducing the new admin center
+      href: intro-new-admin-center.md
   - name: Quickstarts
     items:
     - name: Onboard your organization and users

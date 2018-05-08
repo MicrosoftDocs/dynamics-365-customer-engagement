@@ -18,5 +18,12 @@ ms.date: 03/21/2018
 ms.author: jimholtz
 
 ---
-# Overview: Introducing the new Commom Data Service admin center
+# Overview: Introducing the new Business Application Platform admin center
 If you're an Environment admin...
+
+Ideas for sections:
+
+1. a walk around the interface
+2. a work in progress - phased release
+3. d365 admin settings
+4. 
