@@ -48,5 +48,5 @@ You can use the following [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm
 #### Privacy notice  
  [!INCLUDE[cc_privacy_crm_cortana](../../../../includes/cc-privacy-crm-cortana.md)]  
   
-## See Also  
+### See also  
  [Meet Cortana](http://go.microsoft.com/fwlink/p/?LinkID=401573)

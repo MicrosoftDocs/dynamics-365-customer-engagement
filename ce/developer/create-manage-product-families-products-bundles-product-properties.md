@@ -325,4 +325,4 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
  [Sample: Create and publish products](sample-create-publish-products.md)   
  [Sample: Clone product records](sample-clone-product-records.md)   
  [Sample: Add products to a bundle](sample-add-products-bundle.md)   
- [Product catalog entities (NOT READY FOR TECH REVIEW)](product-catalog-entities.md)
+ [Product catalog entities](product-catalog-entities.md)

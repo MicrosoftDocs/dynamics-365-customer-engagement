@@ -3,7 +3,7 @@ title: "Overview of Social Engagement, pricing, and related scenarios | Microsof
 description: "Learn about features and pricing of Social Engagement and get started using the service."
 keywords: "social engagement, overview, quick start, scenarios"
 ms.date: 02/15/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Connect with customers. Empower your organization. Create real results.

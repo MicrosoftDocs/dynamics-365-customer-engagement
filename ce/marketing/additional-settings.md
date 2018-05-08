@@ -3,8 +3,10 @@ title: "Manage sample data (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "For administrators: Add or remove sample data for Dynamics 365 for Marketing."
 keywords: "administration; sample data"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: marketing
+ms.service: dynamics-365-marketing
+ms.custom:
+  - dyn365-admin
+  - dyn365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

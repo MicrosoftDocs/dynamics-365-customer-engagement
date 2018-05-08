@@ -3,7 +3,7 @@ title: "Player stats in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn about the stats of players and teams in Gamification."
 keywords: "player stats, team stats, statistics"
 ms.date: 01/11/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Get insights into stats from other players and teams

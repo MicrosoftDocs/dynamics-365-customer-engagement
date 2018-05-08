@@ -3,7 +3,7 @@ title: "Voice of the Customer FAQ | MicrosoftDocs"
 description: "Frequently asked questions in Voice of the Customer"
 keywords: "voice of the customer FAQ; voice of the customer frequently asked questions"
 ms.date: 02/20/2018
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Voice of the Customer FAQ

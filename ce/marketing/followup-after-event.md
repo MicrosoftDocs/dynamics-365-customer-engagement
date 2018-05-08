@@ -9,10 +9,12 @@ applies_to:
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: ebd5f931-44f3-409b-836a-1c00dd17883a
 ms.reviewer: renwe
+ms.custom:
+  - dyn365-marketing
 ---
 # Follow up after the event
 

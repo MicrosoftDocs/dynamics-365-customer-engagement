@@ -3,12 +3,13 @@ title: "Create and manage quotes i(Dynamics 365 for Sales, Preview) | Microsoft 
 description: "Use quotes to develop a formal offer for products with proposed prices and related payment terms in Dynamics 365 for Sales, Preview."
 keywords: "Quote; opportunity; create quote; email quote"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom:
+  - dyn365-sales
 ms.assetid: 28a6310c-74e9-44fa-b975-7885417b6a3a
 author: shubhadaj
 ms.author: shujoshi

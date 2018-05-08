@@ -21,6 +21,9 @@ manager: "brycho"
 
 Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phones and tablets users aren't always going to be connected to a network. Admins can enable and configure mobile offline so even when no network is available users can still be productive with up-to-date information at hand. 
 
+> [!NOTE]
+> We are not onboarding additional customers to mobile offline until further notice. We are currently improving this feature to make it more broadly available. We do not currently have a date for when onboarding will resume, but we will update our documentation when we have additional information. This does not affect existing customers who already use mobile offline.
+
 ## Mobile offline capabilities for administrators
 
 [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phones and tablets provides the following for administrators:

@@ -36,5 +36,5 @@ manager: "brycho"
 ### Qualify, Disqualify, or Reopen an opportunity  
  To change the status of an opportunity, tap **Qualify**, **Disqualify**, or **Reopen Opportunity** on the command bar.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

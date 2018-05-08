@@ -3,12 +3,13 @@ title: "Manage opportunities (Dynamics 365 for Sales, Preview) | Microsoft Docs"
 description: "Track a deal that you're ready to close by using the opportunity record in Dynamics 365 for Sales, Preview."
 keywords: "Deal; Opportunity; sales transaction"
 ms.date: 12/15/2017
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.custom: Sales
+ms.custom:
+  - dyn365-sales
 ms.assetid: e203546f-2215-485a-8c52-34e81b90794b
 author: shubhadaj
 ms.author: shujoshi
