@@ -2,7 +2,7 @@
 title: "Add dynamic content and create custom templates for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn how to use Liquid, an open-source template language, into your portals."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/08/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
