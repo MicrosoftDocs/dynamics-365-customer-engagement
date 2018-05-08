@@ -1,9 +1,10 @@
 ---
 title: "Subscribe browsers for portals capabilities for Dynamics 365 | MicrosoftDocs"
 description: "List of supported browsers for a portal."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 12/05/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article

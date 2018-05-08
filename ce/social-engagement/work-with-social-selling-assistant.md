@@ -2,13 +2,15 @@
 title: "Work with the Social Selling Assistant | Microsoft Docs"
 description: "Learn how to share posts and view insights from your personalized feed in Social Selling Assistant."
 ms.date: 09/12/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 689020c7-0790-47a1-996c-040d052a81de
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+ms.custom:
+  - dyn365-socialengagement
 ---
 # Work with the Social Selling Assistant
 

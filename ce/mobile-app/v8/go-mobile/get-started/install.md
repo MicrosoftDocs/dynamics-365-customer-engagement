@@ -58,6 +58,6 @@ manager: "brycho"
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_for_tablets](../../../../includes/cc-privacy-crm-for-tablets.md)]  
   
-## See Also  
+### See also  
  [Signing in and signing out on Dynamics 365 for phones and tablets](sign-in-out.md)   
  [TechNet: Phone and tablet support](https://technet.microsoft.com/library/dn531131.aspx)

@@ -2,9 +2,10 @@
 title: "Add an activity to a campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Add planning and campaign activities to a campaign to make it successful."
 keywords: "Campaign Activities, Campaign, Quick Campaign, Distribute"
-ms.date: 08/31/2017
-ms.service: crm-online
-ms.custom: 
+ms.date: 05/01/2018
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -16,7 +17,6 @@ manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 51
 topic-status: Drafting
 ---
 
@@ -74,6 +74,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
     > [!NOTE]
     > 1.  You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type. 
     > 2.  When you distribute a campaign activity or run a quick campaign, and if a contact, account, or lead in the target audience (typically specified in a marketing list) doesn't have data in the Email, Fax, Address, or Primary Phone fields, respective activities like Email, Phone, Letter, and Fax won't be created for that contact, account or lead. 
+    > 3. You can add a campaign activity to a campaign as well as a campaign template. However, only non-template campaigns allow distributing campaign activities to the marketing list contacts associated with the campaign.
   
 9. After all the distributed activities are closed, you can close the campaign activity. To close the campaign activity, open the campaign activity record, and on the command bar, click **Close Campaign Activity**. Set an appropriate status for the activity, and click **OK**.  
   
@@ -81,7 +82,7 @@ Make your marketing campaigns successful by creating, distributing, and assignin
   
   
 ### See Also  
- [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   

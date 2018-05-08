@@ -1,9 +1,10 @@
 ---
 title: "Enable multiple-language portal support in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to enable multiple languages for a portal and create content in multiple languages."
-ms.custom: ""
+ms.custom:
+  - dyn365-portal
 ms.date: 12/05/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article

@@ -3,8 +3,9 @@ title: "Administrator & Sales Manager Guide (Dynamics 365 for Sales, Preview) | 
 description: "Contains topics that describe how to do user administration and app configuration for Dynamics 365 for Sales, Preview"
 keywords: "User; Access; Role"
 ms.date: 12/15/2017
-ms.service: crm-online
-ms.custom: Sales
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"

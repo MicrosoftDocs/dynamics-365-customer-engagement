@@ -5,11 +5,13 @@ keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 02/20/2018
 ms.topic: get-started-article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: b7c2eb02-765a-4b9f-b8cd-d9f0285ea10b
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # User Guide (Customer Service Hub)
@@ -55,7 +57,7 @@ To learn how to install and use the Customer Service Hub app on a mobile device,
 
 Microsoft is committed towards making technology accessible to all and ensuring that its products and services are designed for everyone. Go to the [Trust Center](https://www.microsoft.com/en-us/trustcenter/compliance/accessibility) to learn about our industry-leading accessibility standards.
 
-General Data Protection Regulation (GDPR) is a major step forward for clarifying and enabling individual privacy rights. Go to the [Trust Center](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx), to find resources to help you manage cloud-data security and compliance for your organization.
+General Data Protection Regulation (GDPR) is a major step forward for clarifying and enabling individual privacy rights. Go to the [Trust Center](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) to find resources to help you manage cloud-data security and compliance for your organization.
 
 Customer Service Hub advocates inclusive design and accessible content. The app is designed around accessibility so that all users can be effortlessly productive.
 

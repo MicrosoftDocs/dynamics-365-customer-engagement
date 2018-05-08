@@ -7,11 +7,12 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
-ms.date: 06/01/2018
+manager: shellyha
+ms.date: 09/15/2017
 ms.topic: get-started-article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: fbf7f81b-5c92-40a5-8579-711027c4d8ad
+ms.custom: dyn365-customerservice
 ---
 
 # Service Manager Guide (Customer Service and Customer Service Hub)

@@ -1,10 +1,11 @@
 ---
-title: "What&#39;s new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
+title: "What's new in Unified Service Desk for Dynamics 365 Customer Engagement for administrators | MicrosoftDocs"
 description: "Learn about new Unified Service Desk features for Dynamics 365 Customer Engagement" 
-ms.custom: ""
-ms.date: 02/06/2018
+ms.custom:
+  - dyn365-USD, dyn365-admin
+ms.date: 04/24/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,12 +16,74 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 57f18bf9-1e28-481b-9d78-f2adaf281e16
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # New feature information for administrators
 This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] for system administrators available in this version.  
+
+<a name="NewIn330"></a>
+## What's new in [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]
+
+### Analyze best practices in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
+
+Best practices are the guidelines about System Configurations, [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)], Internet Explorer settings, and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] configurations in Dynamics 365 Customer Engagement. Consider these guidelines as our recommended way to use [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and serve your customers.
+
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant / problematic areas.
+
+The categories against which [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of best practice rules are as follows:
+
+- [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Configurations
+- System configurations
+- Internet Explorer settings
+
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] is available for the following [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] versions.
+
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] version|Availability|
+|------------|-----------|
+|[!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]|Available in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] Web client demo package. |
+|[!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]<br>[!INCLUDE[pn-unified-service-desk-3-1](../../includes/pn-unified-service-desk-3-1.md)]<br>[!INCLUDE[pn-unified-service-desk-3-0](../../includes/pn-unified-service-desk-3-0.md)]<br>[!INCLUDE[pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)]<br>|Available as a separate zip file for download, which you must copy and paste in your **PkgConfigs** folder and extract the package. Then execute the **Package Deployer** and configure the [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] hosted control and necessary actions.|
+
+After the analysis, [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays a report that recommends mitigation steps in case of a warning or an error and help you determine your next steps. [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] works best when you handle the warning and error as recommended—this helps you to serve your customers without interruption.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Analyze best practices in Unified Service Desk](../admin/analyze-best-practices-unified-service-desk.md)
+
+### Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
+
+From this release, by default, the Help Improve [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] feature is enabled.
+
+Improvement program data lets [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] send  application-specific information like product usage, health, and performance data to [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)]. We use the information that we collect from the program to analyze and improve the service and product experience for our customers.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Help improve Unified Service Desk](../admin/help-improve-unified-service-desk.md)
+
+### Provide feedback about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]
+
+Have a comment or suggestion about [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]? We need your feedback to help us deliver a reliable product. Good or bad, the quickest route to get your comments to our team is right from within [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+
+In this release, you can configure a button in the toolbar and associate an action call to display the **Provide Feedback** window through which you can provide your suggestion, comments, or feedback.
+
+The feedback window has smiley icons – Good, Normal, and Bad. You can select any one and type your feedback in the textbox and submit.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Provide feedback about Unified Service Desk](../admin/provide-feedback.md)
+
+### Comply with the General Data Protection Regulation (GDPR)
+
+The General Data Protection Regulation (GDPR) imposes new rules on organizations in the European Union (EU) and those that offer goods and services to people in the EU, or those that collect and analyze data tied to EU residents, regardless of where they are located.
+
+As per the data definitions and stages are outlined in the GDPR, the data contained in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] are as follows: 
+
+- **Audit log files.** The audit data log files are present in your local computer, or you can configure a path to store the file in your local computer or another computer in the network. In this case, you hold the responsibility to delete the Audit log files. 
+
+- **Diagnostic log files.** The diagnostic logging records operational events and errors in the client application. UTF-8 encoded text files that are named **UnifiedServiceDesk-.log** are maintained at the following location on the client computer: 
+
+`c:\Users\<UserName>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\<Version>`
+
+In this case, you hold the responsibility to delete the Diagnostic log files. 
+
+- **Telemetry data.** [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application collects telemetry data that is maintained in [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] [!include[pn-dynamics-crm](../../includes/pn-dynamics-crm.md)]. In these cases, the natural or legal person, public authority, agency, or other body which, alone or jointly with others, becomes the controller, and the processor is [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)], which processes the data on behalf of the controller.
+
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Comply with General Data Protection Regulation (GDPR)](../admin/comply-gdpr.md) and [Unified Service Desk data compliance under GDPR](../admin/comply-unified-service-desk-data-gdpr.md)
 
 <a name="NewIn320"></a>
 ## What's new in [!INCLUDE[pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)]

@@ -37,7 +37,7 @@ Adding synchronous plug-in logic to the Retrieve and RetrieveMultiple message ev
 
 - Unresponsive client pages
 - Slow client interactions
-- The browser "hanging" in an unresponsive state
+- The browser stops responding
 
 <a name='guidance'></a>
 

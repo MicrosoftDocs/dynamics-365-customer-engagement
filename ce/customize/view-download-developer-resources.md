@@ -1,18 +1,19 @@
 ---
-title: "View or download developer resources (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "View or download developer resources | MicrosoftDocs"
+description: "Find developer resources and service enpoint URLs"
 keywords: ""
-ms.date: 10/30/2017
+ms.date: 04/26/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: e200d242-ff3f-48e5-af32-aed050e02441
-author: kabala123
-ms.author: rdubois
-manager: brycho
+author: Mattp123
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,7 +23,7 @@ topic-status: Drafting
 
 # View or download developer resources
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 This page is designed for developers who want to link to the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] SDK, developer tools, or want to know the service endpoint URLs.  
   
@@ -32,7 +33,7 @@ This page is designed for developers who want to link to the [!INCLUDE[pn_dynami
   
  **[!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] Azure AppFabric Issuer Certificate**  
   
- This is the public certificate that is required to configure [!INCLUDE[pn_windows_azure_acs](../includes/pn-windows-azure-acs.md)] for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] integration.  
+ This is the public certificate that is required to configure [!INCLUDE[pn_windows_azure_acs](../includes/pn-windows-azure-acs.md)] for integration.  
   
  **Developer Center** 
 

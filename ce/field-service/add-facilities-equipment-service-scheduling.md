@@ -7,11 +7,13 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: f50d894b-1d7f-4305-9924-5957e78eed6c
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Add facilities and equipment for service scheduling (Customer Service)

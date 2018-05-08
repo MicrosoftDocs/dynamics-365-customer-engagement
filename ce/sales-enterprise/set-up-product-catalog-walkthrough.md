@@ -3,17 +3,17 @@ title: "Set up a product catalog: Walkthrough (Dynamics 365 for Sales) | Microso
 description: "Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 for Sales."
 keywords: "Product catalog, collection, products"
 ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
 ms.assetid: d1677843-906a-49ec-a8c1-d2733870020e
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -43,5 +43,5 @@ Make it easier for your sales reps to increase their sales by creating a product
  ![Set up product catalog components in Dynamics 365](../sales-enterprise/media/v7-set-up-product-catalog.png "Set up product catalog components in Dynamics 365")
 
 ### See Also
- [Create a product family](../sales-enterprise/create-product-family.md)
+ [Create a product family](../sales-enterprise/create-product-family.md)  
  [Overview of Sales](../sales-enterprise/user-guide.md)

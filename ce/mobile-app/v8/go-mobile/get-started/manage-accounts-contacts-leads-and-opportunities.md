@@ -50,5 +50,5 @@ manager: "brycho"
 ## Privacy notice  
  [!INCLUDE[cc_privacy_moca_user_content_and_location](../../../../includes/cc-privacy-moca-user-content-and-location.md)]  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

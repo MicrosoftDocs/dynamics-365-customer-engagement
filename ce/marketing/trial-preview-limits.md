@@ -3,7 +3,7 @@ title: "Limits for trials and previews (Dynamics 365 for Marketing) | Microsoft 
 description: "Limitations and conditions that apply to trials and previews of Dynamics 365 for Marketing"
 keywords: "trial;preview;limits"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,8 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] limits for trials and previews

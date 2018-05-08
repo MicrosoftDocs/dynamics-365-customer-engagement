@@ -1,17 +1,18 @@
 ---
 title: "Get help with Social Engagement | Microsoft Docs"
 description: "Learn where you can find helpful resources to get you started or troubleshoot an issue."
-ms.custom: ""
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: f191bbcd-1f93-42dc-8d6d-6aa8dae8c8f7
 caps.latest.revision: 38
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---

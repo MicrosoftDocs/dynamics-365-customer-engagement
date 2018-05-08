@@ -1,17 +1,18 @@
 ---
 title: "Data retention in Social Engagement | Microsoft Docs"
 description: "Find out how long data is stored when working with Social Engagement."
-ms.custom: ""
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: d3617d7f-29df-42e9-baff-4625ab4ee85a
 caps.latest.revision: 14
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---

@@ -4,14 +4,15 @@ description:
 keywords: Create and design forms main forms; Customer service; Customer Service Hub; Dynamics 365; Main form supported entities; Types of forms; Assign form order  
 author: anjgupta
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 03/15/2018
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: d1efcf5e-988b-4e0c-bf11-2dcde1ea739f
+ms.custom: dyn365-customerservice
 ---
 
 # Create and design forms for Customer Service Hub
