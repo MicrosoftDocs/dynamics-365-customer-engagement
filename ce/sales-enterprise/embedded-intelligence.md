@@ -32,13 +32,6 @@ Embedded intelligence includes the following features, which all work together t
 -   [Email engagement](../sales-enterprise/email-engagement.md)   
 -   [Auto capture](../sales-enterprise/auto-capture.md)  
   
-The feature [**Relationship Analytics**](../sales-enterprise/relationship-analytics.md) <!--and **Predictive Lead Scoring** are--> is available as preview feature in the Dynamics 365 (online), version 9.0.2. Additional restrictions apply depending on which versions of [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] you are running. For complete details about how to enable these preview features, plus version requirements, prerequisites, and any known issues, see [Configure and enable embedded intelligence](configure-enable-embedded-intelligence.md).
-  
-A preview feature is a feature that is not complete, but is made available before it’s officially in a release so customers can get early access and provide feedback. Preview features aren’t meant for production use and may have limited or restricted functionality.  
-  
-> [!IMPORTANT]
->  Microsoft doesn't provide support for this preview feature. [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] technical support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use for preview features](http://go.microsoft.com/fwlink/p/?LinkId=511446).
-  
 For information about how to enable these features, see [Configure and enable embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md).  
     
 <a name="Assistant"></a>   
@@ -90,15 +83,6 @@ The relationship assistant is constantly at work, keeping an eye on your activit
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Auto capture](../sales-enterprise/auto-capture.md)  
  
-<a name="SalesInsightsAddOns"></a>   
-
-## View key performance indicators of your business interactions
-
-What opportunities should have priority? When was the customer last contacted? Who on the team has been interacting with the customer? Use relationship analytics to get relevant data to answer these and other questions about your customer related activities.
-
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Relationship analytics](relationship-analytics.md)   
-
- 
 <a name="BKMK_Privacy"></a>   
 
 ## Privacy notices  
@@ -109,7 +93,6 @@ What opportunities should have priority? When was the customer last contacted? W
   
 [!INCLUDE[cc_privacy_relationship_insights_auto_capture](../includes/cc-privacy-relationship-insights-auto-capture.md)]
 
-[!INCLUDE[cc_privacy_relationship_insights_relationship_analytics](../includes/cc-privacy-relationship-insights-relationship-analytics.md)]
   
 ### See also
 
