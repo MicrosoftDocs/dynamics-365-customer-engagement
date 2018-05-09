@@ -1,15 +1,22 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
+description: "Known issues and other news for the latest version of Dynamics 365 for Marketing"
+keywords: "readme;known issues;issues"
 ms.date: 04/02/2018
-ms.service: "crm-online"
-ms.topic: "article"
-author: "kathleenmcgrath"
-ms.author: "kmcgrath"
-applies_to: 
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-marketing"
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
+author: kathleenmcgrath
+ms.author: kmcgrath
+manager: sakudes
 ---
+
 Dynamics 365 for Marketing<br>Readme (Known Issues)
 ===================================================
 

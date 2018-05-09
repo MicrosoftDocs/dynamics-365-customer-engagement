@@ -3,7 +3,10 @@ title: "Work with data protection and GDPR (Dynamics 365 for Marketing) | Micros
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 for Marketing"
 keywords: "GDPR; data protection; privacy"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Data protection and the GDPR

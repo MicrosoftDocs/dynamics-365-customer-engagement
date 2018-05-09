@@ -3,7 +3,11 @@ title: "First time setup troubleshooting and FAQ (Dynamics 365 for Marketing) | 
 description: "Solutions to common questions and issues that can occur during the initial setup of Dynamics 365 for Marketing"
 keywords: "troubleshooting;setup"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-admin"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,9 +18,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-admin
-  - dyn365-marketing
 ---
 
 # First time setup FAQ and troubleshooting

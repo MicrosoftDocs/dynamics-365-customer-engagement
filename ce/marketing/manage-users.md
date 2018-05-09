@@ -3,7 +3,11 @@ title: "Manage users (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Manage user accounts and assign security roles in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; users; roles; permissions"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-admin"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,9 +18,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-admin
-  - dyn365-marketing
 ---
 
 # Manage users

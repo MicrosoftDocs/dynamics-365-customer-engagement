@@ -3,7 +3,10 @@ title: "Content-blocks reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each content block that is available for the design tool in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; reference; email; form;  page"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: reference
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Content blocks reference

@@ -3,7 +3,11 @@ title: "Manage marketing instances (Dynamics 365 for Marketing) | Microsoft Docs
 description: "How to copy a production Dynamics 365 for Marketing instance to a sandbox instance for experiments and testing"
 keywords: "administration;admin center;copy;sandbox;instances;backup;recall"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-admin"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
