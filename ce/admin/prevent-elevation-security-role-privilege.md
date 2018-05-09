@@ -18,17 +18,24 @@ manager: "brycho"
 ---
 # Create an administrative user and prevent elevation of security role privilege
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]<br/>[!INCLUDE [pn-crm-8-2-0-op](../includes/pn-crm-8-2-0-op.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]<br/>[!INCLUDE [pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
 
-The copy security role method is a quick and easy way to create a new security role based on an existing set of privileges. However, security role privileges can change with product updates which could render the new security role out-of-date and not functioning as expected.
+The [copy security role method](copy-security-role.md) is a quick and easy way to create a new security role based on an existing set of privileges. However, security role privileges can change with product updates which could render the new security role out-of-date and not functioning as expected.
 
 The following steps describe a method to create a new custom security role with privileges that will change dynamically with updates and therefore will retain expected privileges.
 
 ### Create a new custom security role that only has access to "Security Role"
 
-1. Go to **Settings** > **Security** > **Security Roles**, and then choose **New**.
-2. Enter a role name, and then select the **Business Management** tab.
-3. Scroll down to the **Entity** list and set the **Security Role** entity privileges as follows:
+1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
+  
+    Check your security role  
+  
+    - [!INCLUDE[proc_check_your_security_role](../includes/proc-check-your-security-role.md)]  
+  
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+2. Go to **Settings** > **Security** > **Security Roles**, and then choose **New**.
+3. Enter a role name, and then select the **Business Management** tab.
+4. Scroll down to the **Entity** list and set the **Security Role** entity privileges as follows:
    
    |Privilege  |Setting  |
    |---------|---------|
