@@ -42,7 +42,7 @@ To install and configure Relationship analytics<!-- and lead scoring-->:
 
 ## Prerequisite
 
-verify that [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] has sufficient privillages to connect to exchange server to collect exchange data before installing the Sales insights add-on. To provide privillages to connect to exchange server:
+Verify that [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] has sufficient privillages to connect to exchange server to collect exchange data before installing the Sales insights add-on. To provide privillages to connect to exchange server:
 
 1.  Go to **Admin** center.
     
