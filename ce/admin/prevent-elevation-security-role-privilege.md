@@ -1,7 +1,7 @@
 ---
-title: "Prevent elevation of security role privilege (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Create an administrative user and prevent elevation of security role privilege (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: 05/08/2018
+ms.date: 05/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,12 +16,41 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Prevent elevation of security role privilege
+# Create an administrative user and prevent elevation of security role privilege
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]<br/>[!INCLUDE [pn-crm-8-2-0-op](../includes/pn-crm-8-2-0-op.md)]
 
 The copy security role method is a quick and easy way to create a new security role based on an existing set of privileges. However, security role privileges can change with product updates which could render the new security role out-of-date and not functioning as expected.
 
 The following steps describe a method to create a new custom security role with privileges that will change dynamically with updates and therefore will retain expected privileges.
 
-1. 
+### Create a new custom security role that only has access to "Security Role"
+
+1. Go to **Settings** > **Security** > **Security Roles**, and then choose **New**.
+2. Enter a role name, and then select the **Business Management** tab.
+3. Scroll down to the **Entity** list and set the **Security Role** entity privileges as follows:
+   
+   |Privilege  |Setting  |
+   |---------|---------|
+   |Create     |Business Unit         |
+   |Read     |Organization         |
+   |Write     |Business Unit         |
+   |Delete     |Business Unit         |
+   |Append     |Business Unit         |
+   |Append To     |Business Unit         |
+   |Assign     |Business Unit         |
+
+   ![Security Role](media/security-role.png)
+
+5. Choose **Save and Close**.
+
+### Assign the new security role to an administrative user
+
+1. Go to **Settings** > **Security** > **Users**.
+2. Select a user and then choose **Manage Roles**.
+3. Enable the new security role.
+4. Assign all the security roles that the administrative user can assign to other users.
+5. Choose **OK**.
+
+> [!NOTE]
+> Dynamics 365 is designed to prevent any elevation of security role privileges. Therefore, the administrative user **cannot** assign System Administrator, System Customizer, or any security roles that have a higher privilege.

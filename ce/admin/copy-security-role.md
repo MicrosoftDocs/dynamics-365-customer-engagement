@@ -1,7 +1,7 @@
 ---
 title: "Copy a security role for Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 05/09/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: b363c499-2b87-4227-93a8-6282c5bfc855
 caps.latest.revision: 25
-author: "Mattp123"
-ms.author: "matp"
+author: "jimholtz"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Save time creating a security role by copying one
@@ -50,3 +50,4 @@ If you want to create a security role that is similar to another security role, 
  [Security concepts for Microsoft Dynamics 365](../admin/security-concepts.md)   
  [Security roles](../admin/security-roles-privileges.md)   
  [Field level security](../admin/field-level-security.md)
+ [Prevent elevation of security role privilege](prevent-elevation-security-role-privilege.md)
