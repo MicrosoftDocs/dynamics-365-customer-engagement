@@ -150,7 +150,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
- To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
+To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
   
 <a name="PostLink"></a>   
 ### Post a link to another post  
@@ -178,6 +178,7 @@ Share a link to a public post along with your own comments as a new post directl
 5.  Optionally, type additional text in the text field.  
   
 6.  Click **Post**.  
+
 <!--Note to author: The "Publish a new post" heading doesn't map directly to the text in the table ("Start a new conversation"), unlike the other topics in the table.-->  
 <a name="PublishPost"></a>   
 ### Publish a new post  
@@ -251,6 +252,7 @@ Share a link to a public post along with your own comments as a new post directl
 4.  Type your message in the text entry field. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will show a counter so you can optimize the length of your content.  
   
 5.  Click **Send Private Message** to post on behalf of the selected social profile.  
+
 <!--Note to author: Do you want to add "Add media to posts" to the table near the top? The other headings at this level are included.-->  
 <a name="addMedia"></a>   
 ### Add media to posts  
