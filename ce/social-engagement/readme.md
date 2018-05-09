@@ -189,7 +189,7 @@ was not detected at all.
 
 ### Localization of map labels is not available for Greek
 
-The Bing Maps embedded in Social Engagement does not support localization of map
+The Bing Maps embedded in Social Engagement do not support localization of map
 labels for Greek.
 
 ## General known issues
@@ -231,7 +231,7 @@ taking this action:
 
 ### Notifications that trigger multiple actions might overlap
 
-When you perform multiple actions within a short timeframe, notification
+When you perform multiple actions within a short time frame, notification
 messages might overlap. Although notifications disappear automatically, we
 recommend that you close them manually so that you can see each notification and
 take action as needed.
