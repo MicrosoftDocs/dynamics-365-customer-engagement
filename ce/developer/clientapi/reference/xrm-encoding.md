@@ -1,5 +1,6 @@
 ---
 title: "Xrm.Encoding| MicrosoftDocs"
+description: "Xrm.Encoding provides Client API methods to encode and decode strings."
 ms.date: 05/09/2018
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -13,7 +14,7 @@ manager: "amyla"
 
 [!INCLUDE[](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-Provides methods to encode strings. 
+Provides methods to encode and decode strings. 
 
 |Method | Description | 
 | ------------- |-------------|
