@@ -48,7 +48,7 @@ verify that [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insight
     
     ![Admin center](../sales-enterprise/media/sales-insights-addon-admincenter.png "Admin center")
 
-3.  Select **Settings** > **Services & Add-ins** > **Customer Insights Preview**.
+3.  Select **Settings** > **Services & add-ins** > **Dynamics Customer Insights Preview**.
 
     ![Select customer insights preview option](../sales-enterprise/media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")
 
