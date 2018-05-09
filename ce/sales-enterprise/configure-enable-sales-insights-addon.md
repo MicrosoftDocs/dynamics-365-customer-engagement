@@ -28,15 +28,35 @@ Applies to Dynamics 365 (online), version 9.0.2
 
 The Sales insights add-on contains a Relationship analytics <!--and predictive lead scoring -->feature. <!--These--> This feature isn't available by default. To use this feature, you need to install the Sales insights add-on. <br>
 > [!NOTE]
-> To install this feature, you must be a Dynamics 365 administrator.
+> To install this feature, you must be a [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] administrator.
 
 To understand how Relationship analytics is used<!--and predictive lead scoring works-->, see [Relationship analytics](../sales-enterprise/relationship-analytics.md).<br>
 To know about Sales insights add-on related **General Data Protection Regulation (GDPR)**, see [Embedded Intelligence and GDPR](../sales-enterprise/embedded-intelligence-gdpr.md).  
 
+
 To install and configure Relationship analytics<!-- and lead scoring-->:
-1.	Install the Sales insights add-on.
-2.	Configure Relationship analytics.
-3.  (Optional) Uninstall the Sales insights add-on.
+1. 	Review prerequisites.
+2.  Install the Sales insights add-on.
+3.	Configure Relationship analytics.
+4.  (Optional) Uninstall the Sales insights add-on.
+
+## Prerequisite
+
+verify that [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] has sufficient privillages to connect to exchange server to collect exchange data before installing the Sales insights add-on. To provide privillages to connect to exchange server:
+
+1.  Go to **Admin** center.
+    
+    ![Admin center](../sales-enterprise/media/sales-insights-addon-admincenter.png "Admin center")
+
+3.  Select **Settings** > **Services & Add-ins** > **Customer Insights Preview**.
+
+    ![Select customer insights preview option](../sales-enterprise/media/sales-insights-addon-admincenter-customer-insights-preview.png "Select customer insights preview option")
+
+4.  Configure the Dynamics Customer Insights Preview to **on** and select **Save**.
+
+    ![Enable and save customer insights preview option](../sales-enterprise/media/sales-insights-addon-admincenter-customer-insights-preview-settings.png "Enable and save customer insights preview option")
+    
+    Now you can connect to exchange server to collect data.
 
 ## Install the Sales insights add-on 
 1.	Go to **Settings** > **Intelligence Configuration**.<br>

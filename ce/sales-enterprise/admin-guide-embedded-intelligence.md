@@ -23,18 +23,17 @@ topic-status: Drafting
 # Administration guide for Embedded intelligence
 
 <table>
-<tr><td>
+<tr>
 <h2>Enable and configuration</h2>
 <ul>
 <li>[Configure and enable embedded intelligence](../sales-enterprise/action-cards-reference.md)</li>
 </ul>
-</td>
-<td>
+
 <h2>General Data Protection Regulation (GDPR)</h2>
 <ul>
 <li>[Embedded Intelligence and GDPR](../sales-enterprise/embedded-intelligence-gdpr.md)</li>
 <li>[Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)</li>
 <li>[View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)</li>
 </ul>
-</td></tr>
+</tr>
 </table>
