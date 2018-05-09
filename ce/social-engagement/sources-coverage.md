@@ -14,14 +14,14 @@ manager: sakudes
 ms.custom:
   - dyn365-socialengagement
 ---
-
+<!--Note to author: I don't see Social Engagement as a selection for the applies_to entry (maybe it's new?). Also, please update the date field once you know the publication date.-->
 # Find out what&#39;s covered by sources
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.
 
 ## Blogs
 
-Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for full coverage for blog posts from Tumblr, broad coverage of blog posts from WordPress, and for blog posts from a third aggregated blog source, including a variety of blogs that range from blog aggregators like Blogger.com to small single-site blogs. If you want to update existing search topics to include the extended coverage of the blogs source, you can edit your existing keyword search rules.
+Create [keyword rules](add-rules-search-topic.md#addKeywordsRule) for full coverage for blog posts from Tumblr, broad coverage of blog posts from WordPress, and for blog posts from a third aggregated blog source, including a variety of blogs that range from blog aggregators like Blogger.com to small single-site blogs. If you want to update existing search topics to include the extended coverage of the blog's source, you can edit your existing keyword search rules.
 
 ## Custom sources
 
@@ -36,7 +36,7 @@ Posts and comments published on Disqus are available for [keyword searches](add-
 Monitor posts and comments on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages without age restriction or geographical restriction that are added to your [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rules. You can also gather private messages, including attachments, for [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages if you add a social profile and explicitly allow the acquisition of private messages.
 
 > [!NOTE]
-> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), ads, and status updates are not available for monitoring or engagement at this time. Starting February 6th 2018, author information for Facebook posts is only available if you add a Facebook page profile for every page you own and keep their interaction tokens valid. 
+> [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] groups, [unpublished page posts](https://www.facebook.com/business/help/835452799843730) (formerly known as dark posts), ads, and status updates are not available for monitoring or engagement at this time. As of February 6, 2018, author information for Facebook posts is only available if you add a Facebook page profile for every page you own and keep their interaction tokens valid. 
 
 To add a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page rule, see [Add a Facebook pages rule](add-rules-search-topic.md#addFacebookRule).
 
@@ -50,7 +50,7 @@ To add a private messages rule for [!INCLUDE[tn_facebook](../includes/tn-faceboo
 After you add an [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] account to a social profile in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you need to allow the data acquisition for that profile. After you allow the data acquisition, you can configure search topics that contain [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] as a source. You can create a keyword search rule for #hashtags to receive posts from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)]. 
 
 > [!NOTE]
-> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to  engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
+> [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] is a listening source only. You will not be able to engage on [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. #Hashtags are mandatory to search [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] accounts by using keyword rules. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage social profiles](manage-social-profiles.md)
 
 ## [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]
 
