@@ -69,6 +69,6 @@ For portal users with moderation permission, moderation controls will automatica
 [Setup and manage forums](setup-moderate-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  
 [Create forum posts on the portal](create-forum-posts.md)  
-[Subscribe to alerts](subscribe-alerts.md)
+[Subscribe to alerts](subscribe-alerts.md)<br>
 [Manage forum access permissions](forum-access-permission.md)
 
