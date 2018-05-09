@@ -31,7 +31,7 @@ To enable the special **Tracked to Dynamics 365** Outlook category, you need to 
 2. After extracting the tool, enable the OrgDBOrgSetting **TrackCategorizedItems**.
 3. Enabling the OrgDBOrgSetting will create the category **Tracked to Dynamics 365** on all Exchange mailboxes of the Dynamics 365 organization which have server-side synchronization enabled in about 15 minutes.
 
-You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/tag/v1.0.1805.0202) to edit the OrgDBOrgSetting **TrackCategorizedItems**.
+You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit the OrgDBOrgSetting **TrackCategorizedItems**.
 
 ### Known issue
 Category-based tracking is currently available for organizations on Dynamics 365 (online) version 8.2 and Exchange Online. We are aware of an issue with Exchange Server on-premises configuration. We are working on fixing this issue and support for configurations with Exchange Server on-premises will be available soon.
