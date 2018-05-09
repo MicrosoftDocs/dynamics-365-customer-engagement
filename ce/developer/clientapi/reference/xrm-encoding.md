@@ -1,6 +1,6 @@
 ---
 title: "Xrm.Encoding| MicrosoftDocs"
-ms.date: 10/31/2017
+ms.date: 05/09/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -16,7 +16,10 @@ manager: "amyla"
 Provides methods to encode strings. 
 
 |Method | Description | 
-| ------------- |-------------| 
+| ------------- |-------------|
+|[htmlAttributeEncode](xrm-encoding/htmlAttributeEncode.md) |[!INCLUDE[xrm-encoding/includes/htmlAttributeEncode-description.md](xrm-encoding/includes/htmlAttributeEncode-description.md)] | 
+|[htmlDecode](xrm-encoding/htmlDecode.md) |[!INCLUDE[xrm-encoding/includes/htmlDecode-description.md](xrm-encoding/includes/htmlDecode-description.md)] |
+|[htmlEncode](xrm-encoding/htmlEncode.md) |[!INCLUDE[xrm-encoding/includes/htmlEncode-description.md](xrm-encoding/includes/htmlEncode-description.md)] |
 |[xmlAttributeEncode](xrm-encoding/xmlAttributeEncode.md) |[!INCLUDE[xrm-encoding/includes/xmlAttributeEncode-description.md](xrm-encoding/includes/xmlAttributeEncode-description.md)] |
 |[xmlEncode](xrm-encoding/xmlEncode.md) |[!INCLUDE[xrm-encoding/includes/xmlEncode-description.md](xrm-encoding/includes/xmlEncode-description.md)] |
 
