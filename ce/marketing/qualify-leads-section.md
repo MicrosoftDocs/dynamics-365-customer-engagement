@@ -13,7 +13,8 @@ ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: c78d00cb-155d-494d-a62a-22777a43b430
 ms.reviewer: renwe
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 # Manage, score, and qualify leads
 

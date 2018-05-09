@@ -14,7 +14,8 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Track website visits, social media clicks, and banner clicks

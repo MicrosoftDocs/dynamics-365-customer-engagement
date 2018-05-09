@@ -4,7 +4,8 @@ description: "Set up discounts on products in Dynamics 365 for Sales to offer pr
 keywords: "Discount, Discounted, Discount list"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

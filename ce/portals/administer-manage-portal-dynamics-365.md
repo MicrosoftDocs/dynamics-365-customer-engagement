@@ -4,7 +4,8 @@ description: "Get started with administering and managing portals."
 keywords: "portals, portal capabilities for Dynamics 365, get started with portals"
 ms.date: 03/23/2018
 ms.service: dynamics-365-customerservice
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: f749a8f0-5284-430f-be6d-c3472c08a5a4
 author: sbmjais

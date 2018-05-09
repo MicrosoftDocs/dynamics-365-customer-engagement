@@ -12,7 +12,8 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2f43c2cb-684a-4388-a22b-6d891e4b8a19
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Add the Knowledge Base Search control to forms

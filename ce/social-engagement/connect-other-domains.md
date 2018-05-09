@@ -1,7 +1,8 @@
 ---
 title: "Allow requests from other domains with Social Engagement | Microsoft Docs"
 description: "Learn how to add URLs to the list of allowed domains so they can request data from Social Engagement."
-ms.custom: dyn365-socialengagement
+ms.custom:
+  - dyn365-socialengagement
 ms.date: 09/12/2017
 ms.reviewer: ""
 ms.service: dynamics-365-marketing

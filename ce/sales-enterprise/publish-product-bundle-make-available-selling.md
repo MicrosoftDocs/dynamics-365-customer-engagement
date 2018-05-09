@@ -4,7 +4,8 @@ description: "Publish a product or bundle in Dynamics 365 for Sales to make it a
 keywords: "Publish, product, make available"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

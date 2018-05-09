@@ -2,7 +2,8 @@
 title: "Distribute a Voice of the Customer for Dynamics 365 survey | MicrosoftDocs"
 description: ""
 ms.assetid: bdf1401d-1998-480b-ada2-38a2667eced6
-ms.custom: dyn365-VoC
+ms.custom:
+  - dyn365-VoC
 ms.date: 07/26/2017
 ms.service: dynamics-365-customerservice
 ms.topic: "article"

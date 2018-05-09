@@ -1,7 +1,8 @@
 ---
 title: "Configure a load form and load tab step type for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to define a load form and load tab step type in a portal."
-ms.custom: dyn365-portal
+ms.custom:
+  - dyn365-portal
 ms.date: 09/28/2017
 ms.service: dynamics-365-customerservice
 ms.suite: ""

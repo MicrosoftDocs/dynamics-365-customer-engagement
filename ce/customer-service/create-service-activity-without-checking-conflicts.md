@@ -10,7 +10,8 @@ ms.author: anjgup
 manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.custom: dyn365-customerservice
+ms.custom:
+  - dyn365-customerservice
 ms.service: dynamics-365-customerservice
 ms.assetid: e2050e36-3e95-49b1-9f2b-f0025eb7022c
 ---

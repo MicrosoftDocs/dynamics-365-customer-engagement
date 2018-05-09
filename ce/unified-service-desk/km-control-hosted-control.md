@@ -1,7 +1,8 @@
 ---
 title: "KM Control (Hosted Control) in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn using the KM Control type of hosted control to display knowledge base articles in Dynamics 365 or Parature in your agent application."
-ms.custom: dyn365-USD
+ms.custom:
+  - dyn365-USD
 ms.date: 02/15/2017
 ms.reviewer: ""
 ms.service: dynamics-365-customerservice

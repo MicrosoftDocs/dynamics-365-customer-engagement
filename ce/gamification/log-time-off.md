@@ -1,7 +1,8 @@
 ---
 title: "Let others know about your time off in Dynamics 365 - Gamification | Microsoft Docs"
 description: "Learn how to let other players know that you are out of the office."
-ms.custom: dyn365-gamification
+ms.custom:
+  - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
 ms.service: dynamics-365-sales

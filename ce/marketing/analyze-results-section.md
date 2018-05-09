@@ -13,7 +13,8 @@ ms.service: dynamics-365-marketing
 ms.topic: article
 ms.assetid: 664c1421-735e-45b9-8c06-7f538cb452b2
 ms.reviewer: renwe
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 # Analyze your marketing results
 

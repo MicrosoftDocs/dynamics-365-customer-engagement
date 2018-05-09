@@ -14,7 +14,8 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom: dyn365-marketing
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Engage with customers online with [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals

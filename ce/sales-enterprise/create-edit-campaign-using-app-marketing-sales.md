@@ -4,7 +4,8 @@ description: "Expand your reach to new customers and improve sales by using camp
 keywords: "Campaign, marketing information, campaign activity, marketing, planning task"
 ms.date: 04/01/2018
 ms.service: dynamics-365-sales
-ms.custom: dyn365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
