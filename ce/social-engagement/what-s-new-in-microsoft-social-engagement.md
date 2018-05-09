@@ -14,7 +14,7 @@ manager: sakudes
 ms.custom:
   - dyn365-socialengagement
 ---
-<!--Editing:  insert your comment here -->
+
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
 Welcome to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Here's a list of features we added recently.
@@ -98,7 +98,8 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 ### Changes for author information from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages
 <!--Note to author: I changed the verb tenses below because the date is now in the past. Please check.-->
-As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.    
+As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.   
+
 [Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
