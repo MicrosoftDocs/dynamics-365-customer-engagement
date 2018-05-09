@@ -28,7 +28,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |---------|---------|---------|
 |Complete the command for the active option or button| Enter|  Enter|
 |Cancel a command, or close a selected list or dialog box| Esc| Esc|
-|Save| Ctrl+S **Or ** Shift+F12|  Ctrl+S **Or** Shift+F12|
+|Save| Ctrl+S **Or** Shift+F12|  Ctrl+S **Or** Shift+F12|
 |Save and Close| Alt+S| N/A|
 |Cancel edits and close (Close) |Esc| Esc|
 |Open search |Spacebar| Spacebar|
@@ -49,7 +49,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Move to the next option, option group, or field|Tab| Tab|
 |Move to the previous option, option group, or field| Shift+Tab | Shift+Tab |
 |Move between options in an open list, or between options in a group of options|Arrow keys| Arrow keys|
-|Go to the Command Bar| Ctrl+[ **Or**|Ctrl+]| N/A |
+|Go to the Command Bar| Ctrl+[ **Or** Ctrl+]| N/A |
 |Go to the landmark section of a page | N/A | Ctrl+[ |
 |Go to the first section on a form or the first tab on a grid|  Ctrl+Shift+1|  Ctrl+Shift+1|
 |Go to a form's associated grid navigation button|Ctrl+Shift+2| Ctrl+Shift+2|
