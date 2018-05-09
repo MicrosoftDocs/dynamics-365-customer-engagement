@@ -57,6 +57,7 @@ The **ClientGlobalContext.js.aspx** page will include some global event handlers
 > HTML5 introduced a new feature "Content Editable", which allows to edit the content of an element just by clicking on it and typing.
 > Loading ClientGlobalContext onto your page may lead to issues when using HTML5 ContentEditable elements, where you can't properly select and edit the content. This is due to the context registering to global events, as described above.
 > Example: 
+> ```HTML
 > <html>
 >   <body>
 >     <!-- Uncomment below loading of ClientGlobalContext, the div content will not be editable anymore
@@ -65,6 +66,7 @@ The **ClientGlobalContext.js.aspx** page will include some global event handlers
 >     <div contenteditable />
 >   </body>
 > </html>
+> ```
 
 
 ### Related topics
