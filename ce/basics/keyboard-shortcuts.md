@@ -51,10 +51,10 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Move between options in an open list, or between options in a group of options|Arrow keys| Arrow keys|
 |Go to the Command Bar| Ctrl+[ **Or** Ctrl+]| N/A |
 |Go to the landmark section of a page | N/A | Ctrl+[ |
-|Go to the first section on a form or the first tab on a grid|  Ctrl+Shift+1|  Ctrl+Shift+1|
-|Go to a form's associated grid navigation button|Ctrl+Shift+2| Ctrl+Shift+2|
-|Go to the Navigation bar|	Ctrl+Shift+3 | Ctrl+Shift+3 |
-|Go to the Main menu button on the Navigation bar| Ctrl+Shift+8| Ctrl+Shift+8|
+|Go to the first section on a form or the first tab on a grid|  Ctrl+Shift+1|  N/A|
+|Go to a form's associated grid navigation button|Ctrl+Shift+2| N/A|
+|Go to the Navigation bar|	Ctrl+Shift+3 | N/A|
+|Go to the Main menu button on the Navigation bar| Ctrl+Shift+8| N/A|
 
 ## Editable grids (views)
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
