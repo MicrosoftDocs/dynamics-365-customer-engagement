@@ -114,7 +114,7 @@ Follow the procedure given below to create a queue:
 See [Work with Routing Rule sets ](create-rules-automatically-route-cases.md) for more information on routing rules.
   
 ## Assign items in the queue to work  
- Queues share cases or activities as a group until these are taken out of the queue, or accepted by a customer service representative (CSR) who assumes responsibility for handling them. CSRs can pick the items for themselves, or a customer service manager (CSM) can manually route these cases to the CSRs or to other queues, users, or teams.  
+ Queues share cases or activities as a group until these are taken out of the queue or accepted by a customer service representative (CSR) who assumes responsibility for handling them. CSRs can pick the items for themselves, or a customer service manager (CSM) can manually route these cases to the CSRs or to other queues, users, or teams.  
 
 
 ## Additional actions  

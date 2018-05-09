@@ -40,7 +40,7 @@ To define when your service or support team is available for providing support t
 
 3.  To create a new customer service schedule, select **New**. In the **Create Customer Service Schedule** dialog box, enter **Name** and **Description**, and then select **Create**.
   
-    A new Customer service schedule is created and the **Edit Customer Service Schedule** dialog box is displayed.
+    A new Customer service schedule is created, and the **Edit Customer Service Schedule** dialog box is displayed.
   
 4.  In the **Weekly Schedule** section, under **Set the recurring weekly schedule** section, follow these steps:  
   
@@ -78,7 +78,7 @@ To define when your service or support team is available for providing support t
 ## Additional actions
 
 - To edit an existing customer service schedule, go to **Service Management** > **Customer Service Schedule**. The **All Customer Service Calendars** view is displayed. Select the customer service schedule you want to edit from the list and select **Edit** in the command bar.
-- For a particular weekly schedule, you can delete the calendar. Select **Delete Calendar** under **Set the recurring weekly schedule** in the **Weekly Schedule** section.
+- For a weekly schedule, you can delete the calendar. Select **Delete Calendar** under **Set the recurring weekly schedule** in the **Weekly Schedule** section.
   
 ### See also  
  [Set up a holiday schedule](../customer-service/set-up-holiday-schedule.md)  

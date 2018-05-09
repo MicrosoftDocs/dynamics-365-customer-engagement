@@ -45,7 +45,7 @@ Follow the procedure given below to create a category:
 
 4. Type or change information in the text boxes.  
   
-   Hovertips provide hints about what to enter.  
+   Hover tips provide hints about what to enter.  
 
    In the **General** section, fill in the required details:
   

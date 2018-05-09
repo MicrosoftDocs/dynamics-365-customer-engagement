@@ -130,7 +130,7 @@ You can create enhanced SLAs for entities that are enabled for SLA. A system adm
     -   In the **Warning Actions** section, click **Add Step**, and then specify the actions to be taken when the KPI reaches the warning time. For example, to warn the case owner about the KPI nearing violation, click **Add Step** > **Send Email**. Then select **Create New Message** and click **Set Properties**. In the email record, specify the email details, and then close the email form.  
   
         > [!NOTE]
-        >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If a business hours record (customer service schedule) isn’t selected, the work hours are considered to be 24 x 7.  
+        >  The time for failure and warning is calculated after considering the business hours selected in the SLA record. If a business hours record (customer service schedule) isn’t selected, the work hours are 24 x 7.  
   
  To help you get started with creating SLAs for other entities, here are a couple of sample SLA KPIs for the lead entity.  
   

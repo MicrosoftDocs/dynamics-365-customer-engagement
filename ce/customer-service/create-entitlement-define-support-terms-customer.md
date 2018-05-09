@@ -91,14 +91,14 @@ Define what kind of support your customers are eligible for by creating entitlem
 ### Add an entitlement channel term  
  The **Entitlement Channel** section specifies the support channel through which the customer can reach the organization and seek support.  
   
- Use this section to define the channels your customers are entitled to, and track the customer support term for each channel. For example, you can add phone and email as the channels through which you’ll offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
+ Use this section to define the channels your customers are entitled to and track the customer support term for each channel. For example, you can add phone and email as the channels through which you’ll offer support. If you want to restrict support through the phone channel to 80 hours and email to 20 hours, create individual entitlement channel records and add their total terms.  
   
 > [!NOTE]
 >  You must save the entitlement record before you can add entitlement channels to an entitlement.  
   
 1.  In the **Entitlement Channel** section, click **+**.  
   
-2.  Specify the total terms that you want to allot to the particular channel.  
+2.  Specify the total terms that you want to allot to the channel.  
   
      The remaining term is auto-calculated and shows the total number of hours or cases remaining for the customer’s entitlement.  
   
