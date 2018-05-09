@@ -53,6 +53,20 @@ You must include a reference to the **ClientGlobalContext.js.aspx** page located
 
 The **ClientGlobalContext.js.aspx** page will include some global event handlers. These event handlers will cancel the [onselectstart](https://developer.mozilla.org/en-US/docs/Web/Events/selectstart), [contextmenu](https://developer.mozilla.org/en-US/docs/Web/Events/contextmenu), and [ondragstart](https://developer.mozilla.org/en-US/docs/Web/Events/dragstart) events. 
 
+> [!NOTE]
+> HTML5 introduced a new feature "Content Editable", which allows to edit the content of an element just by clicking on it and typing.
+> Loading ClientGlobalContext onto your page may lead to issues when using HTML5 ContentEditable elements, where you can't properly select and edit the content. This is due to the context registering to global events, as described above.
+> Example: 
+> <html>
+>   <body>
+>     <!-- Uncomment below loading of ClientGlobalContext, the div content will not be editable anymore
+>       <script src="ClientGlobalContext.js.aspx" type="text/javascript"></script>
+>     -->
+>     <div contenteditable />
+>   </body>
+> </html>
+
+
 ### Related topics
 
 [Xrm.Utility.getGlobalContext](Xrm-Utility/getGlobalContext.md)
