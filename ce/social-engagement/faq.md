@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Microsoft Social Engagement | Microsoft Docs"
 description: "Find answers to frequently asked questions about Social Engagement."
 keywords: "FAQ, questions, common issues, quota, search setup, search topics"
-ms.date: 08/05/2017
+ms.date: 05/09/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -14,7 +14,7 @@ manager: sakudes
 ms.custom:
   - dyn365-socialengagement
 ---
-
+<!--Note to author: I changed to today's date, but please correct it to whatever the publication date will be.-->
 # Microsoft Social Engagement FAQ
 
 Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  
@@ -39,7 +39,7 @@ As a rule of thumb, every post you can access in Analytics counts against your p
   
 -   You can add keywords and phrases to the list of blocked content to delete the posts that contain these terms, and free up some quota space.  
   
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md), [Manage the quality of your search results](search-results-quality.md)  
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage your post quota](manage-post-quota.md), [Manage the quality of your search results](search-results-quality.md)  
   
 ## What happens if I exceed my post quota?
   
@@ -47,10 +47,9 @@ Administrators start receiving email notifications when the estimated post volum
 
 ## Why does the number of posts in Search Setup Quota differ from Analytics?
 
-You might notice that there is a difference between the **Current number of posts** shown in the **Search Setup Quota** section and the **Analytics** dashboard when the time frame is set to the current month.  
-There are two common reasons for this:
-- The **Analytics** page honors the web browser's time zone so that the posts displayed there are the posts for the month in your time zone. The Quota section, however, uses [Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) to calculate the number of posts for the month.  
-For example, if your browser is set to the Hawaii–Aleutian time zone (UTC-10), your Quota section would include the posts from the last ten hours of the previous month _in your time zone_.
+You might notice that there is a difference between the **Current number of posts** shown in the **Search Setup Quota** section and the **Analytics** dashboard when the time frame is set to the current month. There are two common reasons for this:
+- The **Analytics** page honors the web browser's time zone so that the posts displayed there are the posts for the month in your time zone. The Quota section, however, uses [Coordinated Universal Time](https://en.wikipedia.org/wiki/Coordinated_Universal_Time) to calculate the number of posts for the month. For example, if your browser is set to the Hawaii–Aleutian time zone (UTC-10), your Quota section would include the posts from the last 10 hours of the previous month _in your time zone_.
+
 - You deleted search topics this month. Posts that were already acquired by the now-deleted search topic will still count against your monthly quota shown in the **Search Setup Quota** section. They will not appear in the Analytics posts number because they do not match any of your current search topics.
   
 ## Why is there no Facebook in keyword search?  
@@ -87,7 +86,7 @@ Although you can create an unlimited number of search rules per search topic, th
   
 ## Does your sentiment analysis accurately read emoticons or emoji?  
 
- There is a difference between *emoticons* (for example, **:)** or **:(**) and *emoji* (icons used mainly on mobile devices and IM). Our sentiment algorithm handles emoticons in addition to emoji, and assigns positive and negative values accordingly.  
+There is a difference between *emoticons* (for example, **:)** or **:(**) and *emoji* (icons used mainly on mobile devices and IM). Our sentiment algorithm handles emoticons in addition to emoji, and assigns positive and negative values accordingly.  
   
 ### See also
 

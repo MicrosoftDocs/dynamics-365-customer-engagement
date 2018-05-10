@@ -53,10 +53,10 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 <a name="favoriteLike"></a>   
 ### Let users know you appreciate a post they wrote  
- When you find a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] you appreciate, show it's author your support and like it. You can easily do this directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+ When you find a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that you appreciate, show its author your support and like it. You can easily do this directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 #### Like a post  
-  
+<!--Note to author: "click" is used many times here and in the next sections. Would it be just as accurate to use the preferred term "select"?-->  
 1.  Go to **Social Center**.  
   
      --OR--  
@@ -102,7 +102,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
 ### Reply to a conversation  
  Reply to questions, requests, and feedback on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] and on [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] pages directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
- Conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] usually start with public posts. Especially with support requests, additional information is often required (for example a billing number, or a real name confirmation). This additional information usually isn’t intended for the public and needs to be shared in a private way. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a link to start a private conversation to any public reply on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. This lets you turn any public conversation into a private one, without losing the context.  
+ Conversations on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] usually start with public posts. Especially with support requests, additional information is often required (for example, a billing number or a real name confirmation). This additional information usually isn’t intended for the public and needs to be shared in a private way. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a link to start a private conversation to any public reply on [!INCLUDE[tn_twitter](../includes/tn-twitter.md)]. This lets you turn any public conversation into a private one, without losing the context.  
   
 #### Comment or reply to a post  
   
@@ -124,7 +124,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to.  
   
-7.  To publish the message on behalf of the selected social profile, click **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement").  
+7.  To publish the message on behalf of the selected social profile, click **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
      You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
@@ -148,9 +148,9 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      A link to reply to this conversation in a private message is added to your reply.  
   
-7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement").  
+7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
- To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
+To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
   
 <a name="PostLink"></a>   
 ### Post a link to another post  
@@ -178,7 +178,8 @@ Share a link to a public post along with your own comments as a new post directl
 5.  Optionally, type additional text in the text field.  
   
 6.  Click **Post**.  
-  
+
+<!--Note to author: The "Publish a new post" heading doesn't map directly to the text in the table ("Start a new conversation"), unlike the other topics in the table.-->  
 <a name="PublishPost"></a>   
 ### Publish a new post  
  Start the conversation with your audience and publish new posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
@@ -230,7 +231,7 @@ Share a link to a public post along with your own comments as a new post directl
   
 4.  Type your message in the text field. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will show a counter so you can see if you need to revise your message to fit within the maximum character limit.  
   
-5.  To post on behalf of the selected social profile, click **Send Direct Message** .  
+5.  To post on behalf of the selected social profile, click **Send Direct Message**.  
   
 <a name="dmFacebook"></a>   
 #### Send a direct message on Facebook from Social Engagement  
@@ -251,18 +252,13 @@ Share a link to a public post along with your own comments as a new post directl
 4.  Type your message in the text entry field. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will show a counter so you can optimize the length of your content.  
   
 5.  Click **Send Private Message** to post on behalf of the selected social profile.  
-  
+
+<!--Note to author: Do you want to add "Add media to posts" to the table near the top? The other headings at this level are included.-->  
 <a name="addMedia"></a>   
 ### Add media to posts  
  [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a single photo to posts while publishing from within the application.  
   
- Supported file types:  
-  
--   png  
-  
--   jpg  
-  
--   gif  
+ Supported file types: .png, .jpg, .gif  
   
  Depending on the social network that media is posted to, different limitations in file sizes apply.  
   
