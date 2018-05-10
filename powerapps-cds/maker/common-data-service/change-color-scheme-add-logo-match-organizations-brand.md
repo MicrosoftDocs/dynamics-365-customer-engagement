@@ -1,8 +1,7 @@
 ---
-title: "Change the color scheme or add a logo  in PowerApps | MicrosoftDocs"
-description: "Learn how to change the color scheme or add a logo to match your organization’s brand" 
-s.custom: ""
-ms.date: 04/02/2018
+title: "Change the color scheme or add a logo to match your organization’s brand (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+ms.custom: ""
+ms.date: 10/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -11,22 +10,21 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-  - "powerapps"
-author: "Mattp123"
+author: "jimholtz"
 ms.assetid: 21a166a0-d25e-4260-a1e4-2ddc528787c2
 caps.latest.revision: 17
-ms.author: "matp"
-manager: "kvivek"
+ms.author: "rdubois"
+manager: "brycho"
 ---
 # Create a theme
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-You can create a custom look and feel (a theme), for your app by making changes to the default colors and visual elements provided in the uncustomized system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
+You can create a custom look and feel (a theme), for your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application by making changes to the default colors and visual elements provided in the uncustomized [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] system. For example, you can create your personal product branding by adding a company logo and providing entity-specific coloring. A theme is created by using the customization tools in the user interface, without requiring a developer to write code. You can create, change or delete themes that are used in your organization. The theme customization is supported in the Web forms in [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]. You can define multiple themes, but only one can be set and published as the default theme.  
   
 <a name="UseThemes"></a>   
 ## Use themes to enhance the user interface and create your product branding  
- Theming is used to enhance the app user interface, not drastically alter it. The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:  
+ Theming is used to enhance the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface, not drastically alter it. The theme colors are applied globally throughout the application. For example, you can enhance the following visual elements in the UI:  
   
 -   Change product logos and navigation colors to create product branding  
   
