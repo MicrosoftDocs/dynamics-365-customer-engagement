@@ -189,6 +189,20 @@ The following are Office 365 user contact fields.
 > -   Close all open browsers used for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
 > -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
+## Create an Administrative user account
+An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 (online) license.
+
+You need to have the System Administrator security role or equivalent permissions in Dynamics 365 to create an administrative user. First, you’ll create a user account in Office 365 and then in Dynamics 365 (online), select the **Administrative** access mode for the account.
+
+### Assign the new security role to an administrative user
+
+1. Go to **Settings** > **Security** > **Users**.
+2. Select a user and then choose **Manage Roles**.
+3. Select the new security role.
+4. Select all the security roles that the administrative user can assign to other users.
+5. Choose **OK**.
+6. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
+
 <a name="BKMK_noninteractiveuser"></a>   
 
 ## Create a non-interactive user account  
