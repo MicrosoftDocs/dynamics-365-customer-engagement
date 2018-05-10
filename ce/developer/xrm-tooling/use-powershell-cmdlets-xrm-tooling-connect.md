@@ -182,9 +182,7 @@ Get-Help “Crm”
   
         ```powershell  
         $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
-        ```  
-  
-     
+        ```     
   
     -   If you’re connecting to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server using the claims-based authentication against the specified Home realm:  
   
