@@ -7,11 +7,13 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Define service level agreements (Customer Service)

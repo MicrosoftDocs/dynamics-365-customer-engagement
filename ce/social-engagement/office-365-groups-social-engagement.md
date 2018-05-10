@@ -2,13 +2,15 @@
 title: "Work with groups of people in Social Engagement | Microsoft Docs"
 description: "Learn how to manage groups and how to work with them in Social Engagement."
 ms.date: 09/12/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: caf4691a-20d4-4abf-a471-29d13553c439
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+ms.custom:
+  - dyn365-socialengagement
 ---
 # Work with Office 365 Groups in Social Engagement
 

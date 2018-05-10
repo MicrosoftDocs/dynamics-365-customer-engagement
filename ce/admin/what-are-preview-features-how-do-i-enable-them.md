@@ -39,7 +39,7 @@ The following table lists preview features as well as learning resources for eac
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Relationship analytics|[Preview feature: Relationship analytics](relationship-analytics.md)|  
+|Relationship analytics|[Preview feature: Relationship analytics](../sales-enterprise/relationship-analytics.md)|  
 
 <!--|Predective lead scoring|[Preview feature: Work with Predictive lead scoring](work-predictive-lead-scoring.md)|-->
 
@@ -59,7 +59,7 @@ The following table lists preview features as well as learning resources for eac
 |||  
 |-|-|  
 |**Preview feature**|**Learning resource**|  
-|Relationship Insights|[Preview feature: Relationship Insights](embedded-intelligence.md)|  
+|Relationship Insights|[Preview feature: Relationship Insights](../sales-enterprise/embedded-intelligence.md)|  
 |Document recommendations, product recommendations, knowledge article suggestions, case suggestions, and topic analysis|[Preview feature: Microsoft Cognitive Services integration](public-preview-microsoft-cognitive-services-integration.md)|  
   
 ## What preview features were included in [!INCLUDE[pn_crm_8_1_0_online_subsequent](../includes/pn-crm-8-1-0-online-subsequent.md)]?  

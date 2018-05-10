@@ -3,7 +3,7 @@ title: "Install and configure Dynamics 365 – Gamification in Dynamics 365 (onl
 description: "Learn how to install the Gamification solution in Dynamics 365 (online) and  its associated web portal and security roles."
 keywords: "install, solution, manage, uninstall"
 ms.date: 04/18/2018
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Install and configure the Gamification solution in Dynamics 365 (online)

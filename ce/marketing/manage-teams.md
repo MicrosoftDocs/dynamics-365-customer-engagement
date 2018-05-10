@@ -3,7 +3,7 @@ title: "Administer teams of users (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Organize users into teams and apply roles to teams in Dynamics 365 for Marketing"
 keywords: "administration; organization settings; user; team; role; permission; fiscal year"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,9 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-admin
+  - dyn365-marketing
 ---
 
 # Manage teams
