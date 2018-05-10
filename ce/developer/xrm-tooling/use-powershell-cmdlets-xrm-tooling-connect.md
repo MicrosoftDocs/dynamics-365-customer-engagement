@@ -101,7 +101,14 @@ Get-Help “Crm”
     ```powershell  
     $Cred = Get-Credential  
     ```  
-  
+1. Use the following command to enforce usage of TLS 1.2 to connect to Customer Engagement instance:
+
+    ```powershell  
+    [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12 
+    ```
+
+    More information about TLS 1.2 requirement for Customer Engagement connection: [Blog Post: Updates coming to Dynamics 365 Customer Engagement connection security](https://blogs.msdn.microsoft.com/crm/2017/09/28/updates-coming-to-dynamics-365-customer-engagement-connection-security/)
+
 2.  Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable: 
 
     - If you’re connecting to the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance:  
