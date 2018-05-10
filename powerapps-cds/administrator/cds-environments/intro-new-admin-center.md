@@ -26,4 +26,5 @@ Ideas for sections:
 1. a walk around the interface
 2. a work in progress - phased release
 3. d365 admin settings
-4. 
+4. what's done where: 1) user and license, O365 2) environment and PA, new admin center. So D365 admin center moves. O365 admin center stays, for now.
+5. 
