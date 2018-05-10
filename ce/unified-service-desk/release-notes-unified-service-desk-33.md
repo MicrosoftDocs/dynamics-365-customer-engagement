@@ -125,7 +125,7 @@ In this step you will create a navigation rule and set the order before other de
 2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
 4. Click **Window Navigation Rules**.
 3. Click **+ New**.
-4. On the **New Window Navigation Rules** page, specify the following values.
+5. On the **New Window Navigation Rules** page, specify the following values.
 
 | Field | Value |
 |-------------|----------------|
@@ -136,12 +136,12 @@ In this step you will create a navigation rule and set the order before other de
 | Destination | Tab |
 |Action | None |
 
-  ![Show outside Window Navigation Rule](media/show-outside-navigation-rule.PNG "Show outside Window Navigation Rule")
+![Show outside Window Navigation Rule](media/show-outside-navigation-rule.PNG "Show outside Window Navigation Rule")
 
-5. Click **Save**.
-6. On the nav bar, click the down arrow next to **Show Outside Rule**, and click **Actions**.
-7. On the next page, click **ADD EXISTING ACTION CALL**, type **Show Outside** in the search bar, and then press **ENTER** or click the search icon.
-8. Click **Save**.
+6. Click **Save**.
+7. On the nav bar, click the down arrow next to **Show Outside Rule**, and click **Actions**.
+8. On the next page, click **ADD EXISTING ACTION CALL**, type **Show Outside** in the search bar, and then press **ENTER** or click the search icon.
+9. Click **Save**.
 
 The configuration of action call and window navigation rule is completed. If you now open a webpage, the webpage opens as a popup in a new window.
 
