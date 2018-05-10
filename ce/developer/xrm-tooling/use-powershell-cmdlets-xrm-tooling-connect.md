@@ -2,7 +2,7 @@
 title: "Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365 (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how to use Powershell cmdlets for XRM tooling like Get-CrmConnection and Get-CrmOrganizations to connect to Dynamics 365 Customer Engagement and retrieve organizations that the current user has access to"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 05/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -118,7 +118,7 @@ Get-Help “Crm”
         ```  
   
         > [!NOTE]
-        >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND`, and `NorthAmerica2`. For the `OnlineType` parameter, specify **Office365**.
+        >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND`, and `NorthAmerica2`. For the `OnlineType` parameter, specify `Office365`.
   
     -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
   
@@ -138,7 +138,7 @@ Get-Help “Crm”
     $CRMOrgs  
     ```  
   
-    ![](../media/xrmtooling-powershell-1.png)  
+    ![Dynamics 365 organization information](../media/xrmtooling-powershell-1.png)  
   
     > [!TIP]
     >  You can use the variable that was used to store the retrieved [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  
@@ -149,7 +149,11 @@ Get-Help “Crm”
    
 ## Use the cmdlet to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]  
 
- Use the `Get-CrmConnection` cmdlet to connect to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. The cmdlet lets you either use the XRM tooling common login control to specify your credentials and connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] or lets you specify your credentials as inline parameters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the XRM Tooling common login control](use-xrm-tooling-common-login-control-client-applications.md)  
+ Use the `Get-CrmConnection` cmdlet to connect to a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. The cmdlet lets you either use the XRM tooling common login control to specify your credentials and connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] or lets you specify your credentials as inline parameters. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the XRM Tooling common login control](use-xrm-tooling-common-login-control-client-applications.md)
+
+> [!IMPORTANT]
+> Before using the `Get-CrmConnection` cmdlet, ensure that you use the following command to enforce usage of TLS 1.2 by PowerShell to connect to your Customer Engagement instance:<br/>
+> `[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.SecurityProtocolType]::Tls12`   
   
 ### Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] by using the common login control  
   
@@ -195,7 +199,7 @@ Get-Help “Crm”
     $CRMConn  
     ```  
   
- ![Dynamics 365 connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 connection information and status")  
+    ![Dynamics 365 connection information and status](../media/xrm-tooling-powershell-2.png "Dynamics 365 connection information and status")  
   
 ### See also
   
