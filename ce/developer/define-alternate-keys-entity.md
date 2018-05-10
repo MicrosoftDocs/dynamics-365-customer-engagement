@@ -30,7 +30,7 @@ All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   
  You should be aware of the following constraints when creating alternate keys:  
   
-- **Valid attributes in key definitions**  
+  - **Valid attributes in key definitions**  
   
      Only attributes of the following types can be included in alternate key definitions:  
   
@@ -40,14 +40,14 @@ All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
     |IntegerAttributeMetadata|Whole Number|  
     |StringAttributeMetadata|Single line of text|  
   
-- **Valid key size**  
+  - **Valid key size**  
   
      When a key is created, the system validates that the key can be supported by the platform, including that the total key size does not violate SQL-based index constraints like 900 bytes per key and 16 columns per key. If the key size doesn’t meet the constraints, an error message will be displayed.  
   
-- **Maximum number of alternate key definitions for an entity**  
+  - **Maximum number of alternate key definitions for an entity**  
   
      There can be a maximum of 5 alternate key definitions for an entity in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
-  
+
 <a name="BKMK_crud"></a>   
 ## Retrieve and delete alternate keys  
  If you need to retrieve or delete alternate keys, you can use the customization UI to do this, without writing any code. However, the SDK provides the following two messages to programmatically retrieve and delete alternate keys.  
