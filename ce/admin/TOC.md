@@ -243,15 +243,6 @@
 ## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
-# [Embedded intelligence](embedded-intelligence.md)
-## [Enable and configure embedded intelligence](configure-enable-embedded-intelligence.md)
-## [Guide customer communications](relationship-assistant.md)
-## [Stay updated with Action cards](action-cards-reference.md)
-## [View message interactions](email-engagement.md)
-## [Display emails](auto-capture.md)
-## [View customer activity history](relationship-analytics.md)
-<!--## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
-
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)
 
