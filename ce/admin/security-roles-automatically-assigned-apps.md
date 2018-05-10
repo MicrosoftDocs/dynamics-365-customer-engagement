@@ -22,48 +22,48 @@ manager: "kvivek"
 
 When you license and install a Dynamics 365 app, such as Sales or Customer Service, a set of security roles are assigned to users. The following table describes what security roles are automatically assigned for each app.
 
-|App  |Security roles  |
-|---------|---------|
-|**Dynamics 365 for Sales**     |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**Dynamics 365 for Marketing**   |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**Dynamics 365 for Field Service**     |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**Dynamics 365 for Customer Service**    |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**Dynamics 365 for Project Service Automation**    |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**Dynamics 365 for Finance and Operation**    |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**Dynamics 365 for Retail**   |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**Dynamics 365 for Talent**    |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**PowerApps Plan 2**   |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
-|**PowerApps and Flow**  |         |
-|     | role1        |
-|     | role2        |
-|     | role3        |
+|App  |Security roles  |Description  |
+|---------|---------|---------|
+|**Dynamics 365 for Sales**     |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**Dynamics 365 for Marketing**   |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**Dynamics 365 for Field Service**     |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**Dynamics 365 for Customer Service**    |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**Dynamics 365 for Project Service Automation**    |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**Dynamics 365 for Finance and Operation**    |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**Dynamics 365 for Retail**   |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**Dynamics 365 for Talent**    |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**PowerApps Plan 2**   |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
+|**PowerApps and Flow**  |         |         |
+|     | role1        |         |
+|     | role2        |         |
+|     | role3        |         |
 
 You can remove security roles for users. Follow these steps.
 
