@@ -59,7 +59,7 @@
 ### [Security roles and privileges](security-roles-privileges.md)
 #### [Create or edit a security role](create-edit-security-role.md)
 #### [Copy a security role](copy-security-role.md)
-#### [Create administrative user and prevent privilege elevation](prevent-elevation-security-role-privilege.md)
+#### [Create an administrative user and prevent privilege elevation](prevent-elevation-security-role-privilege.md)
 #### [Assign security roles to a form](assign-security-roles-form.md)
 #### [View user profile](../basics/view-your-user-profile.md)
 ### [User session and access management](user-session-management.md)
