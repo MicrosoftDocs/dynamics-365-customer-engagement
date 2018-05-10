@@ -68,17 +68,17 @@ XRM tooling provides you with the following [!INCLUDE[pn_PowerShell](../../inclu
     ##
     Remove-Item nuget.exe
   
-2. Save the notepad file as batch file on your computer: **GetTools.bat**.
-3. Double-click the **GetTools.bat** file to run the script. This will create a Tools\XRMToolingPowerShell folder in the same location as your **GetTools.bat** file. The Tools\XRMToolingPowerShell folder contains the `RegisterXRMTooling.ps1` script to register the cmdlets, and other associated files.
+1. Save the notepad file as batch file on your computer: **GetTools.bat**.
+1. Navigate to the folder where you saved the file, for example C:\SDK, and Double-click the **GetTools.bat** file to run the script. This will create a Tools\XRMToolingPowerShell folder in the same location as your **GetTools.bat** file. The Tools\XRMToolingPowerShell folder contains the `RegisterXRMTooling.ps1` script to register the cmdlets, and other associated files.
 1. Start [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] on your computer with elevated privileges (run as administrator).  
   
-3.  At the prompt, change your directory to the folder that contains the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)]dll file and the script for registering the cmdlets. For example:  
+1.  At the prompt, change your directory to the folder that contains the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] script for registering the cmdlets. For example:  
   
     ```powershell  
     cd c:\SDK\Tools\XRMToolingPowerShell  
     ```  
   
-4.  Run the `RegisterXRMTooling.ps1` script to register the XRM tooling [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets. Type the following command, and press ENTER:  
+1.  Run the `RegisterXRMTooling.ps1` script to register the XRM tooling [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets. Type the following command, and press ENTER:  
   
     ```powershell
     .\RegisterXRMTooling.ps1  
@@ -167,14 +167,8 @@ Get-Help “Crm”
   
 ### Connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] by specifying credentials inline  
   
-1.  To connect to Dynamics 365, use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:  
-  
-    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
-  
-        ```powershell  
-        $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
-        ```  
-  
+1.  To connect to Dynamics 365, use the following commands. Note that these commands use the `$Cred` variable created earlier to store the credential while retrieving the organizations. The connection information is stored in the `$CRMConn` variable:
+
     -   If you’re connecting to the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance:  
   
         ```powershell  
@@ -182,7 +176,15 @@ Get-Help “Crm”
         ```  
   
         > [!NOTE]
-        >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND` and `NorthAmerica2`. For the `OnlineType` parameter, specify **Office365**.  
+        >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND` and `NorthAmerica2`. For the `OnlineType` parameter, specify `Office365`. 
+  
+    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
+  
+        ```powershell  
+        $CRMConn = Get-CrmConnection –ServerUrl http://<CRM_Server_Host> -Credential $Cred -OrganizationName <OrgName>  
+        ```  
+  
+     
   
     -   If you’re connecting to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server using the claims-based authentication against the specified Home realm:  
   
