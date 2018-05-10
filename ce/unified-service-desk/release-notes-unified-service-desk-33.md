@@ -87,6 +87,66 @@ _Image 1: Right-click on the CRM entity page and select Forward from the context
 > [!Note]
 > The session that you are working is fine and there is no data loss.
 
+### Clicking back button in a session does not perform navigation to original URL
+
+If you open any webpage in the browser with hosted controls using IE Process hosting method, the webpage opens in a new window within the same-hosted control overlaying the existing page/window. 
+
+Since the webpage is opened in the new window within the same hosted control overlaying the existing page or window, clicking the back button in the webpage does not perform the navigation back to the original page. This behavior is that the new window does not have any history to navigate back to the original page.
+
+**Workaround**
+
+Configure **Show Outside** action call to show the webpage in an **IE process** outside of the hosted control space in the popup window.
+
+#### Step 1: Configure ShowOutside action call
+
+In this step, you will create an action call to show the webpage.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
+3. Clikc **Action Calls**.
+4. Click **+ New**.
+5. On the **New Action Call** page, specify the following values.
+  
+  | Field | Value |
+  |----------|-----------|
+  |Name | Show Outside |
+  |Hosted Control | CRM Global Manager|
+  |Action| LaunchURL|
+  |Data| [[SUBJECTURL]]|
+
+  ![Show outside Action Call](media/show-outside-action-call.PNG "Show outside Action Call")
+6.	Click **Save**.
+
+#### Step 2: Configure Window Navigation Rules and add the Action Call
+
+In this step you will create a navigation rule and set the order before other default rules. After creating the navigation rule, add the **ShowOutside** action call that you created in Step 1 to the **Show Outside Rule** window navigation rule.
+
+1. Sign in to [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)].
+2. [!INCLUDE[proc_settings_usd](../includes/proc-settings-usd.md)]
+4. Click **Window Navigation Rules**.
+3. Click **+ New**.
+4. On the **New Window Navigation Rules** page, specify the following values.
+
+| Field | Value |
+|-------------|----------------|
+|Name| Show Outside Rule|
+|Order | 1 <br> **Note:** You can specify any order that is lesser than the default list of Window Navigation Rules. |
+| Url | https://www.bing.com <br> **Note:** You must to specify a URL to which you want to navigate.|
+|Route Type | Popup |
+| Destination | Tab |
+|Action | None |
+
+  ![Show outside Window Navigation Rule](media/show-outside-navigation-rule.PNG "Show outside Window Navigation Rule")
+
+5. Click **Save**.
+6. On the nav bar, click the down arrow next to **Show Outside Rule**, and click **Actions**.
+7. On the next page, click **ADD EXISTING ACTION CALL**, type **Show Outside** in the search bar, and then press **ENTER** or click the search icon.
+8. Click **Save**.
+
+The configuration of action call and window navigation rule is completed. If you now open a webpage, the webpage opens as a popup in a new window.
+
+For more information related to this limitation, refer the [Unified Service Desk Blogs](https://blogs.msdn.microsoft.com/usd/2017/09/27/unified-service-desk-best-practices-part-5-open-pdf-files-in-an-ie-process-hosted-control/)
+
 ## See also
 
 [Analyze best practices in Unified Service Desk](admin/analyze-best-practices-unified-service-desk.md)
