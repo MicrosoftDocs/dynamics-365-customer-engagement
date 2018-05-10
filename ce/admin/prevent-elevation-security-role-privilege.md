@@ -54,7 +54,7 @@ The following steps describe a method to create a new custom security role with 
 ### Assign the new security role to an administrative user
 
 1. Go to **Settings** > **Security** > **Users**.
-2. Select a user and then choose **Manage Roles**.
+2. Select an administrative user and then choose **Manage Roles**.
 3. Select the new security role.
 4. Select all the security roles that the administrative user can assign to other users.
 5. Choose **OK**.

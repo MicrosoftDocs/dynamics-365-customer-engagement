@@ -194,14 +194,17 @@ An Administrative user is a user who has access to the Settings and Administrati
 
 You need to have the System Administrator security role or equivalent permissions in Dynamics 365 to create an administrative user. First, you’ll create a user account in Office 365 and then in Dynamics 365 (online), select the **Administrative** access mode for the account.
 
-### Assign the new security role to an administrative user
-
-1. Go to **Settings** > **Security** > **Users**.
-2. Select a user and then choose **Manage Roles**.
-3. Select the new security role.
-4. Select all the security roles that the administrative user can assign to other users.
-5. Choose **OK**.
-6. In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
+1.  [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+  
+     Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account.  
+  
+2.  Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
+  
+3. [!INCLUDE[proc_settings_security](../includes/proc-settings-security.md)]  
+  
+4.  Choose **Users** > **Enabled Users**, and then click a user’s full name.  
+  
+5.  In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
 
 <a name="BKMK_noninteractiveuser"></a>   
 
