@@ -22,27 +22,27 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Get started</h2>
-<h4>Sales</h4>
+
 <li>[Dynamics 365 for Sales Overview](overview.md)</li>
 <li>[Learn the basics](user-guide-learn-basics.md)</li>
 <li>[Use Sales Hub on Dynamics 365 for phones and tablets](use-sales-hub-on-dynamics-365-mobile.md)</li>
-<h4>Embedded intelligence</h4>
+
 <li>[Embedded intelligence Overview](../sales-enterprise/embedded-intelligence.md)</li>
-<h4>Sales insights add-on</h4>
+
 <li>[Sales insights add-on overview](../sales-enterprise/sales-insights-addon.md)</li>
 
 </td><td>
 
 <h2>Administer the system</h2>
-<h4>Sales</h4>
+
 <li>[Set up the product catalog](set-up-product-catalog-walkthrough.md)</li>
 <li>[Set up a discount list](set-up-discount-list.md)</li>
 <li>[Create unit and unit groups](create-unit-group-add-units-that-group.md)</li>
 <li>[Create a product family](create-product-family.md)</li>
 <li>[Create price list and price list items](create-price-lists-price-list-items-define-pricing-products.md)</li>
-<h4>Embedded intelligence</h4>
+
 <li>[Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)</li>
-<h4>Sales insights add-on</h4>
+
 <li>[Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)</li>
 </td></tr>
 
@@ -72,19 +72,19 @@ topic-status: Drafting
 <tr><td>
 
 <h2>Analyze customer-interaction data</h2>
-<h4>Embedded intelligence</h4>
+
 <li>[Guide customer communications](../sales-enterprise/relationship-assistant.md)</li>
 <li>[View message interactions](../sales-enterprise/email-engagement.md)</li>
 <li>[Display emails](../sales-enterprise/auto-capture.md)</li>
-<h4>Sales insights add-on</h4>
+
 <li>[View customer activity history](../sales-enterprise/relationship-analytics.md)</li>
 </td>
 
 <td>
 <h2>GDPR</h2>
-<h4>Sales</h4>
+
 <li>[Dynamics 365 for Sales & GDPR](../sales-enterprise/dynamics-365-sales-gdpr.md)</li>
-<h4>Sales insights add-on</h4>
+
 <li>[GDPR for Sales insights add-on](../sales-enterprise/embedded-intelligence-gdpr.md)</li>
 <li>[Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)</li>
 <li>[View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)</li>
