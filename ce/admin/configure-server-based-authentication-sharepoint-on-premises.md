@@ -72,7 +72,7 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   
 - [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] configuration  
   
-    - If you use [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], for each [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] farm, only one [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can be configured for server-based integration. However, you can connect more than one [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization to a [!INCLUDE[pn_microsoft_sharepoint_2016](../includes/pn-microsoft-sharepoint-2016.md)] server farm.  
+    - If you use [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], for each [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] farm, only one [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can be configured for server-based integration.  
   
     - [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] website must be accessible via the Internet. A reverse proxy may also be required for [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] authentication. More information: [Configure a reverse proxy device for SharePoint Server 2013 hybrid](https://technet.microsoft.com/library/dn607304.aspx)  
   
