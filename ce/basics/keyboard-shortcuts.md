@@ -189,7 +189,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the next element | Tab |
 |Move to the previous element | Shift+Tab |
 
-### Search results shortcuts.
+### Search results shortcuts
 
 |Task             |Unified Interface  |
 |---------|---------|
