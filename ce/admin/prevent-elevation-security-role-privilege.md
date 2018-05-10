@@ -26,7 +26,7 @@ The following steps describe a method to create a new custom security role with 
 
 ### Create a new custom security role that only has access to "Security Role"
 
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
+1. Make sure that you have the System Administrator permissions.
   
     Check your security role  
   
