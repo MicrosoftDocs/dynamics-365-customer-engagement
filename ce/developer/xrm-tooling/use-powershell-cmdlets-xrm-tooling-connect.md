@@ -28,35 +28,61 @@ XRM tooling provides you with the following [!INCLUDE[pn_PowerShell](../../inclu
   
 -   To use the XRM tooling cmdlets, you need [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] version 3.0 or later. To check the version, open a [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] window and run the following command: `$Host`  
   
--   Set the execution policy to run the signed [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] scripts. To do so, open a [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] window as an administrator and run the following command: `Set-ExecutionPolicy -ExecutionPolicy AllSigned`  
+-   Set the execution policy to run the signed [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] scripts. To do so, open a [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] window as an administrator and run the following command: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned`  
   
 <a name="register"></a>   
 
 ## Register the cmdlets  
 
- Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets, you have to register them.  
+ Before you can use the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets, you have to register them. The XRM Tooling PowerShell cmdlets are available as a NuGet package here: [https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell](https://www.nuget.org/packages/Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell/). To download and register the cmdlets: 
   
-1. [!INCLUDE[sdk_download](../../includes/sdk-download.md)] Run the package file to extract the contents of the package. The [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] assembly (Microsoft.Xrm.Tooling.CrmConnector.Powershell.dll) and the script (RegisterXRMTooling.ps1) for registering the cmdlets are located in the \SDK\bin folder in the SDK.  
+1. Open notepad, and copy the following script:
+
+    ```powershell
+    @PowerShell.exe -ExecutionPolicy RemoteSigned -Command "Invoke-Expression -Command ((Get-Content -Path '%~f0' | Select-Object -Skip 2) -join [environment]::NewLine)"
+    @exit /b %Errorlevel%
+    $currentFolder = Get-Location
+    cd $currentFolder
+    $sourceNugetExe = "https://dist.nuget.org/win-x86-commandline/latest/nuget.exe"
+    $targetNugetExe = ".\nuget.exe"
+    Remove-Item .\Tools -Force -Recurse -ErrorAction Ignore
+    Invoke-WebRequest $sourceNugetExe -OutFile $targetNugetExe
+    Set-Alias nuget $targetNugetExe -Scope Global -Verbose
+
+    ##
+    ##Specify the NuGet package source
+    ##
+    $nugetPackageSource = "https://api.nuget.org/v3/index.json"
+
+    ##
+    ##Download XRM Tooling PowerShell cmdlets
+    ##
+    ./nuget install -source $nugetPackageSource Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell -O .\Tools
+    md .\Tools\XRMToolingPowerShell
+    $cmdletFolder = Get-ChildItem ./Tools | Where-Object {$_.Name -match 'Microsoft.CrmSdk.XrmTooling.CrmConnector.PowerShell.'}
+    move .\Tools\$cmdletFolder\tools\*.* .\Tools\XRMToolingPowerShell
+    Remove-Item .\Tools\$cmdletFolder -Force -Recurse
+
+    ##
+    ##Remove NuGet.exe
+    ##
+    Remove-Item nuget.exe
   
-2.  Start [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] on your computer with elevated privileges (run as administrator).  
+2. Save the notepad file as batch file on your computer: **GetTools.bat**.
+3. Double-click the **GetTools.bat** file to run the script. This will create a Tools\XRMToolingPowerShell folder in the same location as your **GetTools.bat** file. The Tools\XRMToolingPowerShell folder contains the `RegisterXRMTooling.ps1` script to register the cmdlets, and other associated files.
+1. Start [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] on your computer with elevated privileges (run as administrator).  
   
 3.  At the prompt, change your directory to the folder that contains the [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)]dll file and the script for registering the cmdlets. For example:  
   
-    ```  
-    cd c:\SDK\bin  
+    ```powershell  
+    cd c:\SDK\Tools\XRMToolingPowerShell  
     ```  
   
-4.  Run the `RegisterXRMTooling.ps1` script to register the XRM tooling [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] assembly, and install the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] snap-in. Type the following command, and press ENTER:  
+4.  Run the `RegisterXRMTooling.ps1` script to register the XRM tooling [!INCLUDE[pn_PowerShell_short](../../includes/pn-powershell-short.md)] cmdlets. Type the following command, and press ENTER:  
   
-    ```
+    ```powershell
     .\RegisterXRMTooling.ps1  
-    ```  
-  
-5.  Add the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] snap-in. This registers the Get-CrmConnection and Get-CrmOrganizations cmdlets.  
-  
-    ```  
-    Add-PSSnapin Microsoft.Xrm.Tooling.Connector  
-    ```  
+    ```
   
  You’re now ready to use these [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlets. To list the cmdlets that you registered, run the following command in the [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] window:  
   
@@ -76,22 +102,22 @@ Get-Help “Crm”
     $Cred = Get-Credential  
     ```  
   
-2.  Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable:  
-  
-    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
-  
-        ```powershell  
-        $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred  
-        ```  
-  
-    -   If you’re connecting to the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance:  
+2.  Use the following command to retrieve your organizations, and store the information in the `$CRMOrgs` variable: 
+
+    - If you’re connecting to the [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] instance:  
   
         ```powershell  
         $CRMOrgs = Get-CrmOrganizations -Credential $Cred -DeploymentRegion NorthAmerica –OnlineType Office365  
         ```  
   
         > [!NOTE]
-        >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND`, and `NorthAmerica2`. For the `OnlineType` parameter, specify **Office365**.  
+        >  For the `DeploymentRegion` parameter, valid values are `NorthAmerica`, `EMEA`, `APAC`, `SouthAmerica`, `Oceania`, `JPN`, `CAN`, `IND`, and `NorthAmerica2`. For the `OnlineType` parameter, specify **Office365**.
+  
+    -   If you’re connecting to the [!INCLUDE[pn_crm_op_edition](../../includes/pn-crm-onprem.md)] server:  
+  
+        ```powershell  
+        $CRMOrgs = Get-CrmOrganizations –ServerUrl http://<CRM_Server_Host> –Credential $Cred  
+        ```      
   
     -   If you’re connecting to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server using the claims-based authentication against the specified Home realm:  
   
@@ -105,12 +131,12 @@ Get-Help “Crm”
     $CRMOrgs  
     ```  
   
- ![List of organizations returned by the cmdlet](../media/xrmtooling-powershell-1.PNG "List of organizations returned by the cmdlet")  
+    ![](../media/xrmtooling-powershell-1.png)  
   
     > [!TIP]
     >  You can use the variable that was used to store the retrieved [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organizations (in this case `$CRMOrgs`) with the `Get-CrmConnection` cmdlet to connect to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. To specify the org name, use the following command: `$CRMOrgs.UniqueName`.  
     >   
-    >  If there is more than one organization value stored in the `$CRMOrgs` variable, you can refer to the `nth` organization using the following command: `$CRMOrgs[n-1]`. For example, to refer to the unique name of the second organization in the `$CRMOrgs` variable (”SampleOrg”), use the following command: `$CRMOrgs[1].UniqueName`. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessing Values in an Array](https://technet.microsoft.com/library/ee692791.aspx)  
+    >  If there is more than one organization value stored in the `$CRMOrgs` variable, you can refer to the `nth` organization using the following command: `$CRMOrgs[n-1]`. For example, to refer to the unique name of the second organization in the `$CRMOrgs` variable, use the following command: `$CRMOrgs[1].UniqueName`. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Accessing Values in an Array](https://technet.microsoft.com/library/ee692791.aspx)  
   
 <a name="ConnecttoCRM"></a>
    
