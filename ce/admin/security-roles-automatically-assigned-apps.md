@@ -16,8 +16,21 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "kvivek"
 ---
-# Security roles automatically assigned to users by apps
+# Security roles automatically assigned to users by apps 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
-When you license and install a Dynamics 365 app, such as Sales or Customer Service, 
+When you license and install a Dynamics 365 app, such as Sales or Customer Service, a set of security roles are assigned to users. The following table describes what security roles are automatically assigned for each app.
+
+|App  |Security roles  |
+|---------|---------|
+|App1     |         |
+|     | role1        |
+|     | role2        |
+|     | role3        |
+|App2     |         |
+|     |         |
+|     |         |
+|     |         |
+|     |         |
+|App3     |         |
