@@ -51,24 +51,23 @@
 ### [Add an activity to a campaign](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)
 ### [Track a marketing campaign response](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)
 
-## [Embedded intelligence overview](../sales-enterprise/embedded-intelligence.md)
-### [Administration guide for Embedded intelligence](../sales-enterprise/admin-guide-embedded-intelligence.md)
-#### [Enable and configure embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)
-#### [Embedded Intelligence and GDPR](../sales-enterprise/embedded-intelligence-gdpr.md)
-#### [Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)
-#### [View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)
-#### [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+# [Embedded intelligence](../sales-enterprise/embedded-intelligence.md)
+## [Overview](../sales-enterprise/embedded-intelligence.md)
+## [Administer Embedded intelligence](../sales-enterprise/configure-enable-embedded-intelligence.md)
+## [Guide customer communications](../sales-enterprise/relationship-assistant.md)
+## [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
+## [View message interactions](../sales-enterprise/email-engagement.md)
+## [Display emails](../sales-enterprise/auto-capture.md)
 
-### [User guide for Embedded intelligence](../sales-enterprise/user-guide-embedded-intelligence.md)
-#### [Guide customer communications](../sales-enterprise/relationship-assistant.md)
-#### [Stay updated with Action cards](../sales-enterprise/action-cards-reference.md)
-#### [View message interactions](../sales-enterprise/email-engagement.md)
-#### [Display emails](../sales-enterprise/auto-capture.md)
-
-## [Sales insights add-on](sales-insights-addon.md)
-### [Enable and configure sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)
-### [View customer activity history](../sales-enterprise/relationship-analytics.md)
-<!--### [Work with predictive lead scoring](../sales-enterprise/work-predictive-lead-scoring.md)-->
+# [Sales insights add-on](../sales-enterprise/sales-insights-addon.md)
+## [Overview](../sales-enterprise/sales-insights-addon.md)
+## [Administer Sales insights add-on](../sales-enterprise/configure-enable-sales-insights-addon.md)
+## [GDPR for Sales insights add-on](../sales-enterprise/embedded-intelligence-gdpr.md)
+## [Opt out of relationship analytics (GDPR)](../sales-enterprise/optout-relationship-analytics-gdpr.md)
+## [View and export KPI data (GDPR)](../sales-enterprise/view-export-KPI-data-gdpr.md)
+## [Retrieve insights data using msdyn_RetrieveTypeValuesFromDCI action](../sales-enterprise/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
+## [View customer activity history](../sales-enterprise/relationship-analytics.md)
+<!--## [Work with predictive lead scoring](../sales-enterprise/work-predictive-lead-scoring.md)-->
 
 
 
