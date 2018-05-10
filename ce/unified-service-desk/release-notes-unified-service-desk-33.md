@@ -127,16 +127,16 @@ In this step you will create a navigation rule and set the order before other de
 3. Click **+ New**.
 5. On the **New Window Navigation Rules** page, specify the following values.
 
-| Field | Value |
-|-------------|----------------|
-|Name| Show Outside Rule|
-|Order | 1 <br> **Note:** You can specify any order that is lesser than the default list of Window Navigation Rules. |
-| Url | https://www.bing.com <br> **Note:** You must to specify a URL to which you want to navigate.|
-|Route Type | Popup |
-| Destination | Tab |
-|Action | None |
+  | Field | Value |
+  |-------------|----------------|
+  |Name| Show Outside Rule|
+  |Order | 1 <br> **Note:** You can specify any order that is lesser than the default list of Window Navigation Rules. |
+  | Url | https://www.bing.com <br> **Note:** You must to specify a URL to which you want to navigate.|
+  |Route Type | Popup |
+  | Destination | Tab |
+  |Action | None |
 
-![Show outside Window Navigation Rule](media/show-outside-navigation-rule.PNG "Show outside Window Navigation Rule")
+  ![Show outside Window Navigation Rule](media/show-outside-navigation-rule.PNG "Show outside Window Navigation Rule")
 
 6. Click **Save**.
 7. On the nav bar, click the down arrow next to **Show Outside Rule**, and click **Actions**.
