@@ -24,7 +24,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 
 ## Form shortcuts
 
-|Task  |Legacy web app | Unified interface |
+|Task  |Web Client | Unified Interface |
 |---------|---------|---------|
 |Complete the command for the active option or button| Enter|  Enter|
 |Cancel a command, or close a selected list or dialog box| Esc| Esc|
@@ -44,7 +44,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 
 ## Form navigation shortcuts
 
-|Task  |Legacy web app | Unified interface |
+|Task  |Web Client | Unified Interface |
 |---------|---------|---------|
 |Move to the next option, option group, or field|Tab| Tab|
 |Move to the previous option, option group, or field| Shift+Tab | Shift+Tab |
@@ -59,7 +59,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 ## Editable grids (views)
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
 
-|Task  |Legacy web app | Unified interface |
+|Task  |Web Client | Unified Interface |
 |---------|---------|---------|
 |When the focus is on the cells, move to the next field | Tab **Or** Right arrow (→) key  | Right arrow (→) key  | 
 |When the focus is on the cells, move to the previous field   |  Shift+Tab **Or** Left arrow (←) key|  Left arrow (←) key|
