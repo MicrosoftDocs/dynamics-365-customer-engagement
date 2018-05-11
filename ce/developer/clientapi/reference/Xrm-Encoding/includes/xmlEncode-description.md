@@ -1,1 +1,1 @@
-Applies XML encoding to a string.
+Converts a string to an XML-encoded string.
