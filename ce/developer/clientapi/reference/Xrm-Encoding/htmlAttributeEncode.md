@@ -1,24 +1,23 @@
 ---
-title: "xmlEncode| MicrosoftDocs"
-description: "The Client API method converts a string to an XML-encoded string."
-ms.date: 09/15/2017
+title: "htmlAttributeEncode| MicrosoftDocs"
+ms.date: 05/09/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
-ms.assetid: 909443cd-12b5-4a73-9904-8ae623d22c81
+ms.assetid: 6f0b4d9b-d167-4481-970e-024411c0bef3
 author: "KumarVivek"
 ms.author: "kvivek"
-manager: "amyla"
+manager: "kvivek"
 ---
-# xmlEncode (Client API reference)
+# htmlAttributeEncode (Client API reference)
 
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[./includes/xmlEncode-description.md](./includes/xmlEncode-description.md)] 
+[!INCLUDE[./includes/htmlAttributeEncode-description.md](./includes/htmlAttributeEncode-description.md)] 
 
 ## Syntax
 
-`Xrm.Encoding.xmlEncode(arg)`
+`Xrm.Encoding.htmlAttributeEncode(arg)`
 
 ## Parameters
 
@@ -34,4 +33,4 @@ manager: "amyla"
 **Description**: Encoded string.
 
 ## Related topics
-[xmlAttributeEncode](xmlAttributeEncode.md)
+[htmEncode](htmlEncode.md)
