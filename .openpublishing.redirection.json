@@ -1,7 +1,7 @@
 {
     "redirections": [
       {
-         "source_path": "ce/admin/embedded-intelligence.md  ",
+         "source_path": "ce/admin/embedded-intelligence.md",
          "redirect_url": "../sales-enterprise/embedded-intelligence",
          "redirect_document_id": true
       }
