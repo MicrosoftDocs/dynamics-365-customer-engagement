@@ -61,9 +61,6 @@ We are making this preview available so that you can try it and let us know what
 
 ## Get the big picture with relationship analytics in list views  
 
-> [!NOTE]
-> The dashboard widget for Relationship analytics is available only on unified client interface (UCI), and appears blank on webclient. 
-
 Relationship analytics provides an activity history, KPIs, health score, and health trend for contact, opportunity, lead, and account records. The most important KPIs (including your team's previous and next activity) are shown in the list view for each of these record types, so you can get an overview and sort the list by them.  
   
 ![Relationship health details in a grid view](../sales-enterprise/media/relationship-health-details-grid-view.png "Relationship health details in a grid view")  
