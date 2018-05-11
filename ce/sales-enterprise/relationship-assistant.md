@@ -10,7 +10,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: cf444ca7-3ec1-4939-8710-655190701484
-author: udag
+author: udaykirang
 ms.author: udag
 manager: sakudes
 ms.reviewer: 
