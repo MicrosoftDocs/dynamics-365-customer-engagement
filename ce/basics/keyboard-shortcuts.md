@@ -59,31 +59,31 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 ## Editable grids (views)
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
 
-|Task  |Web Client (prior to v9.0) | Web Client and Unified Interface (v9.0 and later) |
-|---------|---------|---------|
-|When the focus is on a column header, sort by column | Spacebar | Enter key |
-|when the focus is on a column header, open filter dialog | N/A | Spacebar|
-|When the focus is on the cells, move to the next field | Tab **Or** Right arrow (→) key  | Right arrow (→) key  | 
-|When the focus is on the cells, move to the previous field   |  Shift+Tab **Or** Left arrow (←) key|  Left arrow (←) key|
-|When the focus is on the column header, move to the next column header | N/A | Tab   | 
-|When the focus is on the column header, move to the previous column header  |  N/A|  Shift+Tab |
-|Move to the cell above (or column header from the first row)|Up arrow (↑) key | Up arrow (↑) key |
-|Move to the cell below|  Down arrow (↓) key **Or** Enter, when cell is not in edit mode | Down arrow (↓) key **Or** Enter, when cell is not in edit mode |
-|Go to edit mode for Text, Number, and Simple fields when the focus is on a field   | Type the value directly to overwrite the existing value **Or** Spacebar to continue modifying the existing value **Or** F2 to select the existing value  |  Type the value directly to overwrite the existing value **Or** Spacebar to continue modifying the existing value **Or** F2 to select the existing value  |
-|Go to edit mode for Date and Time fields|Type the value directly **Or** F4 or Alt+↓ to display the date/time picker|  Type the value directly **Or** F4 or Alt+↓ to display the date/time picker |
-|Go to edit mode for drop-down (Lookup, Option Set) fields|Spacebar to drop down the list| Spacebar to drop down the list|
-|Go to edit mode for Two Options fields|Spacebar to switch between the two options **Or** F4 **Or** Alt+↓ to drop down the list| Spacebar to switch between the two options **Or** F4 **Or** Alt+↓ to drop down the list|
-|Move between entries in an open drop-down list|Up/Down (↑/↓) Arrow keys| Up/Down (↑/↓) Arrow keys|
-|Select an option in an open drop-down list| Enter| Enter|
-|Close an open drop-down list| Esc| Esc|
-|Cancel your edits|Esc | Esc |
-|Navigate to and open the lookup record|Spacebar when the focus is on (→) icon| Spacebar when the focus is on (→) icon|
-|Move to the next page (if any)|Page down key| Page down key|
-|Move to the previous page (if any)|Page up key| Page up key|
-|Move to the column header when the focus is in the grid| Up (↑) arrow key| Shift+Tab |
-|Sort by column when the focus is on the column header|Spacebar| Spacebar|
-|Move to the Save button when the focus is on the column header (if any unsaved data)| Tab| Tab|
-|Move to the Refresh button when the focus is on the column header| Tab| Tab|
+|Task  |Web Client and Unified Interface|
+|---------|---------|
+|When the focus is on a column header, sort by column | Enter key |
+|when the focus is on a column header, open filter dialog | Spacebar|
+|When the focus is on the cells, move to the next field |  Right arrow (→) key  | 
+|When the focus is on the cells, move to the previous field   |  Left arrow (←) key|
+|When the focus is on the column header, move to the next column header |  Tab  | 
+|When the focus is on the column header, move to the previous column header  |  Shift+Tab |
+|Move to the cell above (or column header from the first row) | Up arrow (↑) key |
+|Move to the cell below|  Down arrow (↓) key **Or** Enter, when cell is not in edit mode |
+|Go to edit mode for Text, Number, and Simple fields when the focus is on a field  |  Type the value directly to overwrite the existing value **Or** Spacebar to continue modifying the existing value **Or** F2 to select the existing value  |
+|Go to edit mode for Date and Time fields| Type the value directly **Or** F4 or Alt+↓ to display the date/time picker |
+|Go to edit mode for drop-down (Lookup, Option Set) fields|Spacebar to drop down the list|
+|Go to edit mode for Two Options fields| Spacebar to switch between the two options **Or** F4 **Or** Alt+↓ to drop down the list|
+|Move between entries in an open drop-down list| Up/Down (↑/↓) Arrow keys|
+|Select an option in an open drop-down list|  Enter|
+|Close an open drop-down list|Esc|
+|Cancel your edits|Esc | 
+|Navigate to and open the lookup record| Spacebar when the focus is on (→) icon|
+|Move to the next page (if any)| Page down key|
+|Move to the previous page (if any)|Page up key|
+|Move to the column header when the focus is in the grid|  Shift+Tab |
+|Sort by column when the focus is on the column header|Spacebar|
+|Move to the Save button when the focus is on the column header (if any unsaved data)| Tab|
+|Move to the Refresh button when the focus is on the column header| Tab|
 
 ## Interactive dashboard shortcuts
 Interactive dashboards enable new functionality, such as filtering, sorting, and quick actions. The following table lists the keyboard shortcuts that were added to unified interface-based apps.
