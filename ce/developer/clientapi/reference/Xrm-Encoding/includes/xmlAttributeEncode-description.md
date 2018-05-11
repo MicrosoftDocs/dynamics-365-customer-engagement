@@ -1,1 +1,1 @@
-Applies attribute encoding to a string.
+Encodes the specified string so that it can be used in an XML attribute.
