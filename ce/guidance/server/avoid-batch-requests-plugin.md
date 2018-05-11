@@ -32,7 +32,7 @@ manager: "austinj"
 
 The following are possible effects when using <xref:Microsoft.Xrm.Sdk.Messages.ExecuteMultipleRequest> or <xref:Microsoft.Xrm.Sdk.Messages.ExecuteTransactionRequest> message request classes within the context of a plug-in or workflow activity:
 
-- Due to their long-running nature, batch request messages expose sandbox-isolated plug-in types to the two-minute (2000-ms) channel timeout exception and can degrade the user experience for synchronous registrations.
+- Due to their long-running nature, batch request messages expose sandbox-isolated plug-in types to the two-minute (120*1000-ms) channel timeout exception and can degrade the user experience for synchronous registrations.
 
 - Batch requests are subject to concurrency throttling, which can cause unnecessary server busy exceptions when the plug-in is executed by multiple threads. There is a limit of two concurrent `ExecuteMultiple` operations per online instance.
 
