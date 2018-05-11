@@ -59,8 +59,10 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 ## Editable grids (views)
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
 
-|Task  |Web Client | Unified Interface |
+|Task  |Web Client (prior to v9.0) | Web Client and Unified Interface (v9.0 and later) |
 |---------|---------|---------|
+|When the focus is on a column header, sorrt by column | Enter key | Enter key |
+|when the focus is on a column header, open filter dialog | Spacebar | Spacebar|
 |When the focus is on the cells, move to the next field | Tab **Or** Right arrow (→) key  | Right arrow (→) key  | 
 |When the focus is on the cells, move to the previous field   |  Shift+Tab **Or** Left arrow (←) key|  Left arrow (←) key|
 |When the focus is on the column header, move to the next column header | N/A | Tab   | 
