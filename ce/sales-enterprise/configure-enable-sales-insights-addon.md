@@ -93,10 +93,9 @@ If you don't want to use the Sales insights add-on for your organization, you ca
 3. A confirmation message is displayed. Select **OK**.<br>
    The Sales insights add-on feature is uninstalled from your organization.
 
-## Troubleshooting   
+## Enable Exchange Data in Relationship analytics   
 
-**I am unable to connect to Exchange server while enabling Exchange Data in Relationship analytics**
-As an administrator, you must provide privillages to connect to exchange server in Admin center:
+As an administrator, you must provide privileges to connect to exchange server in Admin center:
 
 1.  Go to **Admin** center.
     
