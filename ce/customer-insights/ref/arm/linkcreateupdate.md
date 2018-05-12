@@ -42,25 +42,23 @@ A JSON object describing a [Link](../types/link.md), for example:
   
 ```{json}  
 {
-    "linkName": "linkTest4806",
-    "sourceInteractionType": "testInteraction1949",
-    "targetProfileType": "testProfile1446",
+    "type": "Microsoft.CustomerInsights/hubs/links",
+    "linkName": "linkTest4806", 
+        "sourceEntityType": 2,
+        "targetEntityType": 1,
+    "sourceEntityTypeName": "portal_viewknowledgearticle",
+    "targetEntityTypeName": "contact_sandboxtechhedzcrm4dynamicscom",
     "displayName": {
         "en-us": "Link DisplayName"
     },
     "description": {
         "en-us": "Link Description"
     },
-    "mappings": [{
-        "interactionTypePropertyName": "testInteraction1949",
-        "profileTypePropertyName": "testProfile1446",
-        "isProfileTypeId": true,
-        "linkType": "UpdateAlways"
-    }],
-    "participantPropertyReferences": [{
-        "interactionPropertyName": "testInteraction1949",
-        "profilePropertyName": "ProfileId"
-    }]
+    "mappings": [],
+    "participantPropertyReferences": [    {
+                "sourcePropertyName": "portal_contactid",
+                "targetPropertyName": "crmrecordid"
+            }]
 }
 ```
 
