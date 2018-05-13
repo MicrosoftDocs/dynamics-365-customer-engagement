@@ -2,7 +2,7 @@
 title: "Get started with the portal content editor in Dynamics 365  | MicrosoftDocs"
 description: "Learn how to use the inline editor on a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/13/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,7 +14,8 @@ ms.author: shjais
 manager: sakudes
 ---
 # Get started with the portal content editor
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals offers a powerful suite of editing tools. Users with suitable permissions can add, modify, or delete webpages and their content without having to directly access the databases and web servers that physically contain these entities. Editing can be performed in any modern browser and is accomplished through the use of two powerful yet intuitive tools. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control webpage access for portals](webpage-access-control.md).
+
+[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portals offers a powerful suite of editing tools. Users with suitable permissions can add, modify, or delete webpages and their content without having to directly access the databases and web servers that physically contain these entities. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Control webpage access for portals](webpage-access-control.md).
 
 This document assumes that you have permission to perform these tasks. If you do not, ask your portal administrator to arrange this for you. The permissions can be assigned to individual pages, so be sure to specify which pages you will need to edit.
 
@@ -23,7 +24,7 @@ This document assumes that you have permission to perform these tasks. If you do
 
 ## Use the content editor toolbar
 
-Sign in first. This will enable content editing for users with this permission. A toolbar on the right hand side allows you to edit the page properties. A blue edit button will appear when the mouse moves over any content that can be managed by the user.
+Sign in first. This will enable content editing for users with this permission. A toolbar on the right hand side allows you to edit the page properties. The edit button will appear when the mouse moves over any content that can be managed by the user.
 
 | Option         | Description                                                                                               |
 |----------------|-----------------------------------------------------------------------------------------------------------|
@@ -34,19 +35,23 @@ Sign in first. This will enable content editing for users with this permission. 
 | Children       | Opens a dialog containing child records for the current page where one can reorder, edit, or delete them. |
 ||
 
-## Edit the header
+## Edit the header and footer
 
-Point to the page header and select the blue edit button that appears. This will open a rich-text editor. Change the header text and select the disk icon to save the changes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md).  
+Point to the page header and select the edit button that appears. This will open a rich-text editor. Change the header text and select the disk icon to save the changes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md).  
 
 ## Add a new webpage
 
-To add a new webpage from the portal, select **New** in the toolbar, and then select **Child page** in the drop-down menu. Fill in the properties for the new child page. Select **Save** to create the new page. The new page is created as a child of the webpage you were on when you selected **New** &gt; **Child page**.
+1. In the content editor toolbar, select **New** > **Child page**. 
 
-![Add a new child page](media/add-new-child-page-dropdown.png "Add a new child page")  
+    ![Add a new child page](media/add-new-child-page-dropdown.png "Add a new child page")  
 
-![Create a new child page](media/create-new-child-page.png "Create a new child page")  
+2. In the **Create a new child page** dialog box, enter the properties for the new child page.
 
-After being redirected to the newly created page, point to the large rectangular box under the page title and select the blue edit button that appears. Add some content, and then select the disk icon to save the changes. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Get started with the portal content editor](get-started-portal-content-editor.md).  
+    ![Create a new child page](media/create-new-child-page.png "Create a new child page")  
+
+3. Select **Save** to create the new page. The new page is created as a child of the webpage you were on when you selected **New** > **Child page**.
+
+After being redirected to the newly created page, point to the large rectangular box under the page title and select the edit button that appears. Add some content, and then select the disk icon to save the changes.  
 
 Web pages can also be added in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Translating a webpage is done in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], so start by navigating to **Portals** &gt; **Web Pages** and selecting the **+New** button. Fill in the form, and then select **Save**. Change the **Publishing State** from **Draft** to **Published** when it is ready for use on the website. The **Localized Content** section can be filled in after the webpage is created to create the different translations needed.
 
@@ -56,16 +61,29 @@ Web pages can also be added in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamic
 
 Web link sets are groups of links used for navigation based on location on the webpage. Primary Navigation is the web link set that you see at the top of every webpage, and it can be edited in the portal with the system administrator web role.
 
-1.  Point to the primary navigation and select the **Edit** button that appears.
-    This will open a dialog box with a list of web links that can be reordered or removed, and an option to add new links.
-2.  Select the row with the green plus icon.
+1.  Point to the primary navigation and select the **Edit** button that appears. 
+
+    ![Edit primary navigation](media/edit-primary-nav.png "Edit primary navigation")
+
+    A dialog box appears with a list of web links that can be reordered or removed, and an option to add new links.
+
+    ![Edit primary navigation dialog box](media/edit-primary-nav-dialog.png "Edit primary navigation dialog box")
+
+2.  To add a new link to the primary navigation, select the row with the green plus icon.
+
+    ![Add new link to primary navigation](media/add-new-link.png "Add new link to primary navigation")
+
 3.  Enter the name for the page you just created.
-4.  Set a link to it by using the **Page** field drop-down menu.
-5.  Select **Save** for the new link dialog box and for the primary navigation dialog box.
+
+4.  From the **Page** list, choose the page you created.
+
+5.  Select **Save**.
 
 ## Manage child pages
 
-From the home page, select **Children** in the toolbar. This will open a dialog box with a list of all child pages for the page you were on when you selected **Children**. There should be some pages with an icon of an eye with a line through it. This icon indicates the page is not visible in the site map, but if published it can still be viewed if linked to directly. As with a web link set, one can reorder, edit, or delete the webpages listed.
+On the home page, select **Children** in the content editor toolbar. A dialog box appears with a list of all child pages for the page you were on when you selected **Children**. A few pages are displayed with an icon of an eye with a line through it. This icon indicates the page is not visible in the site map, but if published it can still be viewed if linked to directly. As with a web link set, one can reorder, edit or delete the webpages listed.
+
+![Manage children on the portals home page](media/edit-children.png "Manage children on the portals home page")
 
 ## Delete a page
 
@@ -73,8 +91,8 @@ Navigate to the page to be deleted, and select **Delete** in the toolbar. Select
 
 ![Delete a page confirmation](media/delete-page-confirm.png "Delete a page confirmation")  
 
->[!Note]
->Certain webpages are important to have for a properly functioning website, for instance, a sign-in page or 404 page. Be sure not to delete these pages, because doing so can cause a website to stop functioning properly.
+> [!Note]
+> Certain webpages are important to have for a properly functioning website, for instance, a sign-in page or 404 page. Be sure not to delete these pages, because doing so can cause a website to stop functioning properly.
 
 ### See also
 
