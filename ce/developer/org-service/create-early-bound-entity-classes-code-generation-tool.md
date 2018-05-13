@@ -2,14 +2,14 @@
 title: "Create early bound entity classes with the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: ""
 keywords: ""
-ms.date: 12/15/2017
+ms.date: 05/11/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 06abab26-40fc-4b85-9a2a-5e68903ea138
-author: kabala123
+author: JimDaly
 ms.author: jdaly
 manager: amyla
 ms.reviewer: 
@@ -22,7 +22,7 @@ topic-status: Drafting
 
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
-**rmSvcUtil.exe** is a command-line code generation tool for use with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. This tool generates early-bound [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)] classes that represent the entity data model used by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
+**CrmSvcUtil.exe** is a command-line code generation tool for use with [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)]. This tool generates early-bound [!INCLUDE[pn_NET_Framework](../../includes/pn-net-framework.md)] classes that represent the entity data model used by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)].
 
 The code generation tool (CrmSvcUtil.exe) is distributed as part of the [Microsoft.CrmSdk.CoreTools](https://www.nuget.org/packages/Microsoft.CrmSdk.CoreTools) NuGet package. For information about downloading the code generation tool (CrmSvcUtil.exe), see [Download tools from NuGet](../download-tools-NuGet.md).
 
