@@ -2,7 +2,7 @@
 title: "Manage blogs on a portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage blogs on a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/13/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -76,7 +76,7 @@ For portal users with blog author permissions, blog posts can be managed using t
 
 Go to the blog home page, and then select **New** &gt; **Blog post** on the edit toolbar. The blog post editor dialog will appear.
 
-![Edit a blog post](media/edit-blog-post.png "Edit a blog post")  
+![Create a blog post](media/create-blog-post.png "Create a blog post")  
 
 Make any edits that you want, and then select **Save**.
 
@@ -87,6 +87,8 @@ Go to the blog post's page, and select **Edit** on the edit toolbar. The blog po
 When creating or editing a blog post, if the **Partial URL** field is left blank, one will be generated automatically. The auto-generated Partial URL will have the format yyyy-mm-dd-post-title, where yyyy-mm-dd is the year, month, and day of the post's **Date**, and the remainder is the post **Title**, transformed into a URL-appropriate form.
 
 The **Tags** field of the post editor provides auto-complete of tag names, to associated posts with existing tags. It is also possible to simply type the name of a new tag. To end a tag name and start a new one, type Tab, Enter, or ,. To remove a tag, select the x beside the tag name, or select the Backspace key.
+
+![Edit a blog post](media/edit-blog-post.png "Edit a blog post") 
 
 **To delete the blog post**
 
