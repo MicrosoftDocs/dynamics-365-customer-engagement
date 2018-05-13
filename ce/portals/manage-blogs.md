@@ -17,7 +17,7 @@ manager: sakudes
 
 Learn how to manage blog comments and blog posts both within [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)] and in your portal.
 
-## Manage blogs in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Manage blogs in Dynamics 365
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Blog records under the Portals tab after your portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
 
@@ -27,14 +27,14 @@ Portal users who have blog author permissions can edit or delete blogs by using 
 
 To edit a blog, go to the blog's home page, and then select **Edit** on the edit toolbar.
 
-![Edit a blog post](media/edit-blog-post.png "Edit a blog post")  
+![Edit a blog](media/edit-blog.png "Edit a blog")  
 
 To delete the blog, select **Delete**, and then select **Yes** in the confirmation dialog box.
 
 > [!Note]
 > Deleting a blog will also delete all its associated posts and comments.
 
-## Security
+### Security
 
 **Read** access to a blog is inherited from read permissions on the blog's Parent Page. If a user can read the parent webpage, they can read the blog and all of its published posts. See [Control webpage access for portals](webpage-access-control.md).  
 
@@ -43,7 +43,7 @@ To delete the blog, select **Delete**, and then select **Yes** in the confirmati
 > [!Note]
 > Only the specific author of a blog post can edit or delete that post, through the front-side portal editing interface. The author of a post can also see their own unpublished posts, but not those of other authors.
 
-## Blog attributes and relationships
+### Blog attributes and relationships
 
 The table below explains the standard attributes and relationships of the Blog entity.
 
@@ -64,7 +64,7 @@ It is important to note that the way in which many of the content/display-orient
 | Author Roles     | Relationship specifying the Web Roles that grant authorship permission on the blog. Any portal users associated with any of these roles will be granted the permission to create new posts, edit and delete their own posts, and edit the attributes and settings of the blog itself.         |
 ||
 
-## Manage blog posts in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Manage blog posts in Dynamics 365
 
 For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, Blog Posts can be managed by launching the editor for the desired Blog and then navigating to its related Blog Posts.
 
@@ -98,7 +98,7 @@ Select **Delete**, and then select **Yes** in the confirmation dialog box.
 > - Deleting a blog post will also delete its associated comments.
 > - Only the author of a blog post can edit or delete that post, through the front-side portal editing interface. The author of a post can also see their own unpublished posts, but not those of other authors.
 
-## Blog post attributes and relationships
+### Blog post attributes and relationships
 
 The table below explains the standard attributes and relationships of the Blog Post entity.
 
@@ -126,7 +126,7 @@ For portal users with blog author permissions, blog comments can be managed usin
 
 The exact appearance of the user interface used to edit or delete a blog post comment is determined by the page template being used to render the post, but it will generally involve links or buttons positioned inline, alongside each comment. Selecting **Edit** will launch the comment editor, which allows comment moderators to edit comment content or toggle its approval status.
 
-## Blog post comment attributes and relationships
+### Blog post comment attributes and relationships
 
 The table below explains the standard attributes and relationships of the Blog Post Comment entity.
 
