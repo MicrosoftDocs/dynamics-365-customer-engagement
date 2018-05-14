@@ -1,6 +1,7 @@
 ---
 title: "xmlEncode| MicrosoftDocs"
-ms.date: "2017-09-15"
+description: "The Client API method converts a string to an XML-encoded string."
+ms.date: 09/15/2017
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"

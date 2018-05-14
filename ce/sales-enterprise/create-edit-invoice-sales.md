@@ -3,8 +3,9 @@ title: "Create or edit an invoice (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "An invoice is an order that has been billed to the customer."
 keywords: "Invoice, bill, sale"
 ms.date: 09/22/2017
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,7 +13,7 @@ applies_to:
 ms.assetid: b58780fa-4e39-4925-99ad-e2e1bbfb5fa4
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -43,6 +43,23 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
   
 ## What's new in version 8.2
 
+### May 5, 2018
+
+1. Fixed the issue of some known contacts appearing as Unknown Recipients in App for Outlook.
+2. Fixed the issue of server-side synchronization promoting some emails to Dynamics 365 multiple times.
+
+### April 28, 2018
+
+1. Appointment date is updated in Dynamics 365 when it is changed on a tracked meeting in Outlook Web App (OWA).
+2. Disabling the OrgDBOrgSetting will now soft delete the Outlook category for individual mailboxes.
+3. Fixes to contact tracking actions.
+
+### April 19, 2018
+
+1. [Support for tracking Outlook items by assigning Outlook category](https://blogs.msdn.microsoft.com/crm/2018/05/02/introducing-outlook-category-based-tracking-in-server-side-synchronization/).
+2. Reliability improvements.
+
+
 ### March 27, 2018
 
 1. Fixes to contract tracking experience.

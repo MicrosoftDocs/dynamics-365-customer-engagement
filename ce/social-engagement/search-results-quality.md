@@ -3,7 +3,7 @@ title: "Manage the quality of your search results in Social Engagement | Microso
 description: "Learn how to increase the quality of your search results."
 keywords: "block content, block authors"
 ms.date: 02/01/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Manage the quality of your search results
