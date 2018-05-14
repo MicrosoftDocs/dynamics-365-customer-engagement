@@ -305,7 +305,7 @@ In the Customer Service Hub sitemap, select **Service** > **Activities**. The **
 
 - To view the status of an activity, click the activity record and see bottom-left in the activity form. 
 
-## Manage Queues
+## Work with Queues
 
 Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 for Customer Service, queues are containers used to store anything that needs to be completed or requires an action, for example completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](create-manage-queues.md).
 
