@@ -17,19 +17,7 @@ applies_to:
 ms.assetid: d9c56128-497d-4789-9631-4cb34f04638e
 ---
 
-## UFX Quick Overview
-
-- [Overview]()
-- [A Simple UFX Bag]()
-- [UFX Supported Types]()
-- [Introduction to UFX Queries]()
-- [Keys, Values, and Metadata]()
-- [XPath over Dynamics 365 Data]()
-- [Appendix A: UFX Type Reference]()
-- [Appendix B: UFX Query Directives]()
-- [Appendix C: UFX XPath Functions]()
-- [Appendix D: UFX XPath Variables]()
-- [Appendix E: XPath Reference]()
+## Universal FetchXML
 
 #### Overview
 
@@ -38,7 +26,7 @@ This query language enables you to create custom queries to customize and extend
 
 UFX consists of two components UFX Bag and UFX Query. 
 
-#### A Simple UFX Bag
+#### Simple UFX Bag
 
 A UFX Bag contains static typed data. In memory, it's represented as a dictionary with keys and values. It can be serialized to JSON and XML. Having the data typed allows a **UFX Query** to query data from it, and client UI to bind to it.
 
@@ -376,7 +364,4 @@ $input | A `bag` available to the UFX Query with input values
 $null | A null constant
 $current | Reference to the current bag being processed by the UFX Query
 
-#### Appendix E: XPath Reference
 
-
-##### 
