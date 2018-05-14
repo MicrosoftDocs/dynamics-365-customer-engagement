@@ -56,26 +56,26 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
  When you find a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] that you appreciate, show its author your support and like it. You can easily do this directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 #### Like a post  
-<!--Note to author: "click" is used many times here and in the next sections. Would it be just as accurate to use the preferred term "select"?-->  
+
 1.  Go to **Social Center**.  
   
      --OR--  
   
-     When you're working in Analytics pages, click **Posts**.  
+     When you're working in Analytics pages, select **Posts**.  
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Like**.
+3.  At the bottom of the post, select **Like**.
     > [!NOTE]  
     > On [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], you can only like posts with a [!INCLUDE[tn_facebook](../includes/tn-facebook.md)] page profile.
   
-4.  Select the check box for the  social profile that you want to like this post with.  
+4.  Select the check box for the social profile that you want to like this post with.  
   
-5.  Click **Confirm**.  
+5.  Select **Confirm**.  
   
 <a name="retweetShare"></a>   
 ### Share a post with your audience  
- Some posts you find may be relevant to your audience, too. To spread the word, retweet or share them with a few clicks directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+ Some posts you find may be relevant to your audience, too. To spread the word, retweet or share them with a few selects directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
 #### Retweet or share a post  
   
@@ -83,11 +83,11 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      --OR--  
   
-     When you're working in Analytics pages, click **Posts**.  
+     When you're working in Analytics pages, select **Posts**.  
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+3.  At the bottom of the post, select **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
   
     > [!NOTE]
     >  You can retweet posts only from public [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profiles. If a [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] profile is protected, you might still be able to read its posts if you’re a confirmed follower, but you won’t be able to retweet.  
@@ -96,7 +96,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
 5.  Type your message in the text field.  
   
-6.  Click **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
+6.  Select **Retweet** ![Retweet button in Social Engagement](media/share-retweet-icon.png "Retweet button in Social Engagement") or **Share** ![Facebook share button in Social Engagement](media/share-on-facebook-icon.png "Facebook share button in Social Engagement").  
   
 <a name="commentReply"></a>   
 ### Reply to a conversation  
@@ -110,11 +110,11 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      --OR--  
   
-     When you're working in Analytics pages, click **Posts**.  
+     When you're working in Analytics pages, select **Posts**.  
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3.  At the bottom of the post, select **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
 4.  In the header of the text box, select the social profile that you want to post with.  
   
@@ -124,7 +124,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to.  
   
-7.  To publish the message on behalf of the selected social profile, click **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+7.  To publish the message on behalf of the selected social profile, select **Comment** ![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement") or **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
      You'll see a star symbol added to the Comment/Reply symbol (![Facebook comment button in Social Engagement](media/facebook-comment-icon.png "Facebook comment button in Social Engagement")) if another user has already replied to this post from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
@@ -134,11 +134,11 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      --OR--  
   
-     When you're working in Analytics pages, click **Posts**.  
+     When you're working in Analytics pages, select **Posts**.  
   
 2.  Select the [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] post that you want to interact with.  
   
-3.  At the bottom of the post, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+3.  At the bottom of the post, select **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
 4.  In the header of the text  field, select the social profile that you want to post with.  
   
@@ -148,7 +148,7 @@ The following table shows what [!INCLUDE[pn_netbreeze_short](../includes/pn-soci
   
      A link to reply to this conversation in a private message is added to your reply.  
   
-7.  To publish the message on behalf of the selected social profile, click **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
+7.  To publish the message on behalf of the selected social profile, select **Reply** ![Twitter reply button in Social Engagement](media/reply-icon.png "Twitter reply button in Social Engagement") .  
   
 To learn more about how [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] guides users from public to private conversations, see [Twitter Help: Public to private conversation](https://business.twitter.com/help/public-to-private-conversation).  
   
@@ -162,11 +162,11 @@ Share a link to a public post along with your own comments as a new post directl
   
      --OR--  
   
-     When you're working in Analytics pages, click **Posts**.  
+     When you're working in Analytics pages, select **Posts**.  
   
 2.  Select the post you want to interact with.  
   
-3.  At the bottom of the post, click the **Post Link** button ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement").  
+3.  At the bottom of the post, select the **Post Link** button ![Post a link button in Social Engagement](media/post-link-action-icon.png "Post a link button in Social Engagement").  
   
 4.  Select the check box for the social profile that you want to send this post with.  
   
@@ -177,11 +177,10 @@ Share a link to a public post along with your own comments as a new post directl
   
 5.  Optionally, type additional text in the text field.  
   
-6.  Click **Post**.  
+6.  Select **Post**.  
 
-<!--Note to author: The "Publish a new post" heading doesn't map directly to the text in the table ("Start a new conversation"), unlike the other topics in the table.-->  
 <a name="PublishPost"></a>   
-### Publish a new post  
+### Start a new conversation  
  Start the conversation with your audience and publish new posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  You must have at least one [owned or shared social profile](manage-social-profiles.md) to see the **Publish** button.  
@@ -190,10 +189,10 @@ Share a link to a public post along with your own comments as a new post directl
   
 1.  Go to **Social Center**.  
   
-2.  To show the compose form, click **Publish**.  
+2.  To show the compose form, select **Publish**.  
   
     > [!TIP]
-    >  If you want to publish the same content with a different social profile, in the **Publish** pane, click **Include the content from the previous post**. This prepares the same post for your convenience so you can easily edit it for your targeted audience.  
+    >  If you want to publish the same content with a different social profile, in the **Publish** pane, select **Include the content from the previous post**. This prepares the same post for your convenience so you can easily edit it for your targeted audience.  
   
 3.  Select the message type for this post.  
   
@@ -205,7 +204,7 @@ Share a link to a public post along with your own comments as a new post directl
   
      Photos need to be in .png, .jpg, or .gif format. Maximum file sizes apply, depending on which social network you want to post to. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add media to posts](publish-react-posts.md#addMedia)  
   
-7.  To publish the post on the corresponding social network, click **Send**.  
+7.  To publish the post on the corresponding social network, select **Send**.  
   
 <a name="DMs"></a>   
 ### Engage in private conversations  
@@ -220,18 +219,18 @@ Share a link to a public post along with your own comments as a new post directl
   
      --OR--  
   
-     When you're working in Analytics pages, click **Posts**.  
+     When you're working in Analytics pages, select **Posts**.  
   
 2.  Select a direct message that your search topics found.  
   
-3.  At the bottom of the post, click **Direct Message**.  
+3.  At the bottom of the post, select **Direct Message**.  
   
     > [!IMPORTANT]
     >  You can reply to a direct message only with the social profile that received the message. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [About Direct Messages](https://support.twitter.com/articles/14606-about-direct-messages)  
   
 4.  Type your message in the text field. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will show a counter so you can see if you need to revise your message to fit within the maximum character limit.  
   
-5.  To post on behalf of the selected social profile, click **Send Direct Message**.  
+5.  To post on behalf of the selected social profile, select **Send Direct Message**.  
   
 <a name="dmFacebook"></a>   
 #### Send a direct message on Facebook from Social Engagement  
@@ -240,20 +239,19 @@ Share a link to a public post along with your own comments as a new post directl
   
      --OR--  
   
-     When you're working in Analytics pages, click **Posts**.  
+     When you're working in Analytics pages, select **Posts**.  
   
 2.  Select a private message that your search topics found.  
   
-3.  At the bottom of the post, click **Private Message**.  
+3.  At the bottom of the post, select **Private Message**.  
   
     > [!NOTE]
     >  When you reply to a private message, you can reply to a single recipient only with the social profile that received the private message. Group conversations aren’t supported in private messages.  
   
 4.  Type your message in the text entry field. [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] limits direct  messages to 10,000 characters. When you get close to the character limit, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will show a counter so you can optimize the length of your content.  
   
-5.  Click **Send Private Message** to post on behalf of the selected social profile.  
+5.  Select **Send Private Message** to post on behalf of the selected social profile.  
 
-<!--Note to author: Do you want to add "Add media to posts" to the table near the top? The other headings at this level are included.-->  
 <a name="addMedia"></a>   
 ### Add media to posts  
  [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] lets you add a single photo to posts while publishing from within the application.  
