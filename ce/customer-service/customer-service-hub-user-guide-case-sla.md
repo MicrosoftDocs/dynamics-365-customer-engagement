@@ -381,7 +381,7 @@ You can set a parent child relationship between cases where you can set one case
   
 4.  In the **Queue** field, select the queue that you want to add the case to, and then select **Add**.  
 
-To know more about Queues, see [Manage Queues](customer-service-hub-user-guide-basics.md#manage-queues).
+To know more about Queues, see [Manage Queues](customer-service-hub-user-guide-basics.md#work-with-queues).
   
 
 ## Save and route a case  

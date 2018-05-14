@@ -123,4 +123,4 @@ See [Work with Routing Rule sets ](create-rules-automatically-route-cases.md) fo
   
 ### See also  
 
-[Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#manage-queues)
+[Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#work-with-queues)
