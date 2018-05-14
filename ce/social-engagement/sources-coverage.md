@@ -14,7 +14,7 @@ manager: sakudes
 ms.custom:
   - dyn365-socialengagement
 ---
-<!--Note to author: I don't see Social Engagement as a selection for the applies_to entry (maybe it's new?). Also, please update the date field once you know the publication date.-->
+
 # Find out what&#39;s covered by sources
 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] provides a number of sources so you can keep track of conversations on your social media. [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] covers multiple sources where you can [track public posts](set-up-searches.md), and publish messages and replies. All sources can be [filtered](use-filters.md) in Analytics for an up-close look at your data. Find out what is covered by using the following available sources.

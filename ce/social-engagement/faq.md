@@ -14,7 +14,7 @@ manager: sakudes
 ms.custom:
   - dyn365-socialengagement
 ---
-<!--Note to author: I changed to today's date, but please correct it to whatever the publication date will be.-->
+
 # Microsoft Social Engagement FAQ
 
 Are you new to [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] or looking for some help? We've compiled a list of frequently asked questions and provided brief answers to help you get to your information quickly.  

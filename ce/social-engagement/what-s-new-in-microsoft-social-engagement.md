@@ -28,8 +28,8 @@ For important, late-breaking information and a list of known issues, see the [So
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
 
 ### Attachments in private messages now show in the post list
-<!--Note to author: should this change to "open the post's details" or maybe "open the post details"?-->
-Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the posts details of a direct message that contains attachments. 
+
+Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 
@@ -97,7 +97,7 @@ To learn more, see our dedicated [documentation on accessibility for Microsoft S
 With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], you can now remove recipients from alerts that were configured by other users. You can search for a specific email address and then [remove the recipient from all alerts](email-alerts.md) that send email to that address. Additionally, you can export a list of alerts this recipient receives.
 
 ### Changes for author information from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages
-<!--Note to author: I changed the verb tenses below because the date is now in the past. Please check.-->
+
 As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.   
 
 [Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
