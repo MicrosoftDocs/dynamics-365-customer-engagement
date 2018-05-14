@@ -1,6 +1,6 @@
 ---
 title: User Guide (Dynamics 365 for Customer Service) | Microsoft Docs
-description: Understand Customer Service Hub for Customer Service in Microsoft Dynamics 365
+description: Guide to know and understand the Customer Service Hub for Customer Service in Microsoft Dynamics 365
 keywords: Customer Service Hub; Customer Service;  Microsoft Dynamics 365
 author: anjgupta
 applies_to: Dynamics 365 (online) 

@@ -1,6 +1,6 @@
 ---
 title: User Guide (Dynamics 365 for Customer Service) | MicrosoftDocs
-description: Understand Customer Service in Microsoft Dynamics 365
+description: Understand Customer Service app in Microsoft Dynamics 365
 keywords: Customer Service;  Microsoft Dynamics 365
 author: anjgupta
 applies_to: Dynamics 365 (online) 

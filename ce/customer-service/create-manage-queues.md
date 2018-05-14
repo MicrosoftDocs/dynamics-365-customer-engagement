@@ -42,7 +42,7 @@ Use queues to categorize and prioritize your activities and cases. You can categ
 >   
 >  See Blog: [CRM Queue with an Office 365 Shared Mailbox](http://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
   
-## Create queues  
+## Create a queue  
  By default, a queue is created for each user and team in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. You can use this default queue to track all your work items, or you can set up queues to reflect your organization's structure, business processes, or both. How you set up queues depends on how your business works. For example, you could create separate queues for First tier and Second tier product support teams that reflect their different levels of expertise, or Gold and Silver queues to reflect different priorities based on service contracts that customers have with your organization.  
   
  [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] lets you create two types of queues: 
@@ -123,4 +123,4 @@ See [Work with Routing Rule sets ](create-rules-automatically-route-cases.md) fo
   
 ### See also  
 
-[Manage Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#manage-queues)
+[Queues in the Customer Service Hub](customer-service-hub-user-guide-basics.md#manage-queues)
