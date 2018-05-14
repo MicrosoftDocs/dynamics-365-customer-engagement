@@ -3,7 +3,9 @@ title: Move around Customer Engagement apps using keyboard shortcuts | Microsoft
 description: Use the keyboard shortcuts to perform common tasks in Microsoft Dynamics 365
 keywords: 
 author: kathleenmcgrath
-applies_to: Dynamics 365 (online)
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ms.author: kmcgrath
 manager: renwe
 ms.date: 05/15/2018
@@ -15,7 +17,7 @@ ms.custom:
 ---
 # Use keyboard shortcuts in Dynamics 365 Customer Engagement applications
 
-[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Keyboard shortcuts give you an alternate way to do common tasks instead of using your mouse or tapping with your finger. They help in seamless navigation of the interface. The following keyboard shortcuts apply across Dynamics 365 Customer Engagement applications. 
 
@@ -67,7 +69,7 @@ If your administrator has enabled editable grids (views), you can edit data dire
 |When the focus is on the cells, move to the previous field   |  Left arrow (←) key|
 |When the focus is on the column header, move to the next column header |  Tab  | 
 |When the focus is on the column header, move to the previous column header  |  Shift+Tab |
-|Move to the cell above (or column header from the first row) | Up arrow (↑) key |
+|Move to the cell above | Up arrow (↑) key |
 |Move to the cell below|  Down arrow (↓) key **Or** Enter, when cell is not in edit mode |
 |Go to edit mode for Text, Number, and Simple fields when the focus is on a field  |  Type the value directly to overwrite the existing value **Or** Spacebar to continue modifying the existing value **Or** F2 to select the existing value  |
 |Go to edit mode for Date and Time fields| Type the value directly **Or** F4 or Alt+↓ to display the date/time picker |
@@ -81,7 +83,6 @@ If your administrator has enabled editable grids (views), you can edit data dire
 |Move to the next page (if any)| Page down key|
 |Move to the previous page (if any)|Page up key|
 |Move to the column header when the focus is in the grid|  Shift+Tab |
-|Sort by column when the focus is on the column header|Spacebar|
 |Move to the Save button when the focus is on the column header (if any unsaved data)| Tab|
 |Move to the Refresh button when the focus is on the column header| Tab|
 
@@ -97,12 +98,6 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the previous item within a dashboard element  | Up (↑) arrow key | 
 |Close a menu | Escape |
 |Select a checkbox or radio button | Spacebar |
-|Save | Ctrl+S **Or** Cmd+SS (Mac) | 
-|Save and close | Alt+S | 
-|Move to the first command on the active stream's command bar | Ctrl+Alt+Q | 
-|Move to the first command in the top-level command bar | Ctrl+Alt+A |
-|Move to the first visual filter | Ctrl+Alt+V |
-|Open the Date Range filter flyout and move to the first element | Ctrl+Alt+D |
 
 ## Interactive controls
 
@@ -166,8 +161,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 |Task             |Unified Interface  |
 |---------|---------|
-|Move to the next stream | Down (↓) arrow key **Or** Right (→) arrow key |
-|Move to the previous stream | Up (↑) arrow key **Or** Left (←) arrow key |
+|Move to the first command on the active stream's command bar | Ctrl+Alt+Q | 
 |Move to the next element | Tab |
 |Move to the previous element | Shift+Tab |
 |Activate a button | Enter **Or** Spacebar |
@@ -178,18 +172,6 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the last item | End |
 |Close a menu | Escape |
 |Change the state of a checkbox | Spacebar |
-
-### Tile control shortcuts
-
-|Task             |Unified Interface  |
-|---------|---------|
-|Activate the **Show Details** button and open flyout | Enter **Or** Spacebar |
-|Move to the next item | Down (↓) arrow key |
-|Move to the previous item | Up (↑) arrow key |
-|Move to the first item | Home |
-|Move to the last item | End|
-|Move to the next element | Tab |
-|Move to the previous element | Shift+Tab |
 
 ### Search results shortcuts
 
