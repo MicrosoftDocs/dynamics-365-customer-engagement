@@ -95,7 +95,7 @@ If you don't want to use the Sales insights add-on for your organization, you ca
 
 ## Enable Exchange Data   
 
-Enabling the Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect valuable information regarding communications, meetings, contacts, and activities for users in your organization from Exchange server. To collect this information, you must assign privileges to connect to exchange server through Admin center.
+Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange. To collect this information, you must provide privileges to connect to exchange server through Admin center.
 
 1.  Go to **Admin** center.
     
