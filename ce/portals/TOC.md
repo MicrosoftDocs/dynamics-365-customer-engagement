@@ -43,6 +43,7 @@
 ### [Configure SAML 2.0 provider settings](configure-saml2-settings.md)
 ### [Configure the Facebook App](authenticate-facebook-app.md)
 ### [Control webpage access](webpage-access-control.md)
+### [Create website access permissions](website-access-permission.md)
 ### [Assign entity permissions](assign-entity-permissions.md) 
 ### [Enable Azure storage](enable-azure-storage.md) 
 ### [Add the Azure Storage web resource to a form](add-web-resource.md)
