@@ -16,16 +16,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ce/customer-insights/preview-retire.md",
-      "redirect_url": "preview-retire",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "ce/customer-insights/toc.md",
-      "redirect_url": "preview-retire",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ce/customer-insights/deploy/aboutpreview.md",
       "redirect_url": "../preview-retire",
       "redirect_document_id": "false"
