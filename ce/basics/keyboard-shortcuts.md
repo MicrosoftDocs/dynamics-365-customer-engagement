@@ -79,7 +79,7 @@ If your administrator has enabled editable grids (views), you can edit data dire
 |Select an option in an open drop-down list|  Enter|
 |Close an open drop-down list|Esc|
 |Cancel your edits|Esc | 
-|Navigate to and open the lookup record| Spacebar when the focus is on (→) icon|
+|Navigate to and open the lookup record| Enter when the focus is on (→) icon|
 |Move to the next page (if any)| Page down key|
 |Move to the previous page (if any)|Page up key|
 |Move to the column header when the focus is in the grid|  Shift+Tab |
