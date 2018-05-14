@@ -24,7 +24,7 @@ ms.assetid: d9c56128-497d-4789-9631-4cb34f04638e
 - [UFX Supported Types]()
 - [Introduction to UFX Queries]()
 - [Keys, Values, and Metadata]()
-- [XPath over CRM Data]()
+- [XPath over Dynamics 365 Data]()
 - [Appendix A: UFX Type Reference]()
 - [Appendix B: UFX Query Directives]()
 - [Appendix C: UFX XPath Functions]()
@@ -378,6 +378,5 @@ $current | Reference to the current bag being processed by the UFX Query
 
 #### Appendix E: XPath Reference
 
-**XPath Functions**
 
 ##### 
