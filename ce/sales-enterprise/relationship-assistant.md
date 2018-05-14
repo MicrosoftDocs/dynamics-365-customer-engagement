@@ -35,7 +35,10 @@ Watch this short video about the Dynamics 365 Relationship assistant<br>
 ## How and where the relationship assistant can help you  
 
  The relationship assistant is designed to deliver the most important and relevant information in relation to what you are doing *right now*. The assistant works by analyzing all of the data at its disposal and generating a collection of action cards, each of which includes a message summarizing what the card is about, plus a set of links for taking action. The assistant sorts the cards by priority and filters them for your current context.  
-  
+
+ > [!NOTE]
+ > The Relationship assistant control is not supported for custom dashboards on web client. 
+
  When you start your day by signing in to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the assistant draws your attention to your most important items and tasks, drawn from all areas of the application.  
   
  ![Relationship assistant carousel on a dashboard](../sales-enterprise/media/relationship-assistant-carousel-on-dashboard.png "Relationship assistant carousel on a dashboard")  
