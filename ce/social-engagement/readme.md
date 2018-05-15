@@ -192,6 +192,10 @@ was not detected at all.
 The Bing Maps embedded in Social Engagement do not support localization of map
 labels for Greek.
 
+### Error messages for private messages aren't translated
+
+On private message attachments, the error messages for an attachment that couldn't be retrieved or if it was deleted, are not translated. These translations will be available with the next release. 
+
 ## General known issues
 
 ### Facebook video URL can expire
