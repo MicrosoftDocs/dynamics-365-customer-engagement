@@ -2,7 +2,7 @@
 title: "Create an entity with PowerApps | MicrosoftDocs"
 description: "Learn how to create an entity"
 ms.custom: ""
-ms.date: 04/05/2018
+ms.date: 05/11/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,38 +19,44 @@ manager: "kvivek"
 ---
 # Create an entity
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+Before you create a custom entity, evaluate whether using an existing entity will meet your requirements. More information: [Create new metadata or use existing metadata?](create-edit-metadata.md#create-new-metadata-or-use-existing-metadata)
 
-<a name="BKMK_CreatingEntities"></a>   
+There are two ways to create an entity using a designer:
 
- Before you create a custom entity, evaluate whether using an existing entity will meet your requirements. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create new metadata or use existing metadata](../customize/create-edit-metadata.md#BKMK_CreateNewOrUseExistingMetadata)  
-  
- Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution or the default solution where the customization prefix is the one you want for this entity. For information about how to change the customization prefix, see [Solution Publisher](../customize/change-solution-publisher-prefix.md#BKMK_SolutionPublisher).  
-  
-  
+|Designer| Description|
+|--|--|
+|PowerApps portal|Provides an easy streamlined experience, but some special settings are not available.  More information: [Tutorial: Create a custom entity that has components in PowerApps](/powerapps/maker/common-data-service/create-custom-entity)|
+|Solution explorer|Not as easy, but provides for more flexibility for less common requirements. More information [Tutorial: Create an entity in Solution Explorer](create-entity-solution-explorer.md)|
+
 > [!NOTE]
->  If you are using [!INCLUDE[tn_Safari](../includes/tn-safari.md)] as your browser, you may receive a timeout error when trying to save or publish a new custom entity. If this occurs we recommend you use a different browser to create entities.  
-  
- The minimum required fields to create a custom entity are:  
-  
-|Field|Description|  
-|-----------|-----------------|  
-|**Display Name**|This is the singular name for the entity that will be shown in the app.|  
-|**Plural Name**|This is the plural name for the entity that will be shown in the app.|  
-|**Name**|This field is pre-populated based on the display name you enter. It includes the solution publisher customization prefix.|  
-|**Ownership**|You can choose either user or team-owned or organization owned. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Entity ownership](../customize/types-of-entities.md#BKMK_EntityOwnership).|  
-  
- To create an activity entity, select **Define as an activity entity** before you save the entity. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Activity entities](../customize/types-of-entities.md#BKMK_ActivityEntities)  
-  
- Under **Areas that display this entity**, select which of the areas available in the navigation bar you want this entity to be available from. This isn’t required, but if you need people to be able to discover the entity easily, choose one of these. Making changes here updates the data that defines the navigation pane. You can’t change the settings for system entities. However, you can edit this data to modify where each entity is displayed and how it is displayed by editing the sitemap.  
-  
- There are a number of options that are set by default. If you’re not sure you want these for your custom entity, disable them before you save. You can always choose to enable them later, but certain options can’t be disabled after they are enabled. **Notes**, **Activities**, and **Connections** are enabled by default and can’t be disabled later. For more information about available options, see [Edit an entity](../customize/edit-entities.md).  
-  
- Each custom entity has a primary field. This is defined in the **Primary Field** tab. This field is used when records for the entity are displayed in a list. The primary field is typically a link that opens the record. This field must be a **Single Line of Text** field with the format of **Text**. When creating the entity the only value that can’t be changed later is the **Name**. By default the **Display Name** is “Name” and the **Name** is your solution publisher customizations prefix, an underscore, and “name”. If this isn’t what you want, change this before you create the entity. After you save the entity, you can’t edit the primary field values from the Primary Field tab for the entity. You must locate this field in the entity fields. You’ll be able to edit it there like any other single line of text field.  
-  
- People with the system administrator or system customizer security roles can see all new custom entities. This allows you to test your custom entities before showing them to people who will use the system. Before people with other security roles can see these entities, you need to edit the security roles and grant access to other users so that they can see them. When the custom entity is created it will be included on the Custom Entities tab for each security role. You must provide at least user-level read access to the custom entity before people will be able to see it in the application.  
-  
- When a new entity is created, a number of metadata and supporting system records are created for it. You continue editing the entity by working with these.  
+> You can also create entities in your environment using the following:
+> - Import a solution that contains the definition of the entity.
+> - Use Power Query to create new entities and fill them with data. More information: [Quickstart: Add data to an entity in the Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq).
+> - A developer can use [Metadata services](/powerapps/developer/common-data-service/use-web-services#metadata-services) to write a program.
+
+Information in this topic will help you choose which designer you can use. You can use the PowerApps portal to create the entity unless you need to address any of the following requirements:
+
+## Control the customization prefix
+
+Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution where the customization prefix is the one you want for this entity. More information [Change the solution publisher prefix](change-solution-publisher-prefix.md).
+
+## Control the name of the primary name entity
+
+By default, the Primary Name entity created in PowerApps portal will be `<customization prefix>_PrimaryName`. You can't change this after it is created, so if you want something else you should create the entity in the solution explorer.
+
+## Create organization-owned entity
+
+By default, the PowerApps portal will create **User or Team** owned entities. If you want to set ownership to **Organization**, you must create the entity using solution explorer. More information about ownership: [Entity ownership](types-of-entities.md#entity-ownership)
+
+## Create an activity entity
+
+An activity entity is a special kind of entity that tracks actions for which an entry can be made on a calendar. More information: [Activity entities](types-of-entities.md#activity-entities).
+
+The ability to create an activity entity can only be set if you create entity using the solution explorer.
+
 
 ### See also
-[Create or edit an entity](create-edit-entities.md)
+
+[Tutorial: Create an entity in Solution Explorer](create-entity-solution-explorer.md)<br />
+[Tutorial: Create a custom entity that has components in PowerApps](/powerapps/maker/common-data-service/create-custom-entity)<br />
+[Edit an entity](edit-entities.md)
