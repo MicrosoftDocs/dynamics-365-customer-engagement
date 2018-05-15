@@ -52,7 +52,8 @@ The application selection window appears when you login to [!INCLUDE[pn_unified_
 1. Go to `C:\Program Files\Microsoft Dynamics CRM USD\USD`.
 2. Select **UnifiedServiceDesk.exe.config** file.
 3. Under the **\<appSettings>** section, type the key.<br>
-`<add key="SelectAppModule" value="true"/>`
+`<add key="SelectAppModule" value="true"/>`<br>
+  ![Update SelectAppModule key in the UnifiedServiceDesk.exe.config file](media/selectappmodule-app-config-file.PNG "Update SelectAppModule key in the UnifiedServiceDesk.exe.config file")
 4. Save the file.
 
 ### Login to Unified Service Desk client application
