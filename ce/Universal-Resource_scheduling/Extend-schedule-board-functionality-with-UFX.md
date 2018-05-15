@@ -21,17 +21,19 @@ ms.assetid: 81362115-e91a-4c13-92ac-391765c55deb
 Applies to: Dynamics 365 for Field Service, Dynamics 365 for Project Service, Universal resource Scheduling, Dynamics 365 9.0.x
 ### Overview
 
-This topic provides you with sample code to implement common schedule board extensibility use cases, and to  customize the schedule board for field service organizations and other scenarios using **Universal FetchXML (UFX)**.
+This topic provides you with sample code to implement common schedule board extensibility use cases, and to  customize the schedule board and other scenarios using **Universal FetchXML (UFX)**.
 
 If you’re brand new to building queries in Dynamics 365, first check out the article Build a query with FetchXML for background. Universal FetchXML takes the capabilities of FetchXML and adds to them to enable schedule board extensibility.
 
-UFX is an advanced query language that allows you to query data using dynamic FetchXML, and then shape and prepare the resulting data for consumption by the Universal Resource Scheduling (URS) solution. 
+UFX is an advanced query language that allows you to query data using dynamic FetchXML, and then shape and prepare the resulting data for consumption by the **Universal Resource Scheduling(URS)** solution. 
 
 This query language enables you to create custom queries to customize and extend the schedule board and schedule assistant filters to meet the unique business needs of the organization. 
 
 To help you get a head start on building your own queries with UFX, we’ve given you access to the out-of-the-box queries for filtering resources or searching for availability on the schedule board, and allow you to modify the front-end filter control that resource managers and schedulers use to interact with the schedule board. 
 
-For example, Let's say we want to find out the total count of bookings scheduled during the date ranges. 
+Here are some of the examples that shows how users can extend schedule board functionality. 
+
+
 
 ### Find total bookings scheduled during a date range
 
