@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Create an entity in Solution Explorer | MicrosoftDocs"
+title: "Create an entity in Solution Explorer | MicrosoftDocs"
 description: "Learn how to create an entity in Solution Explorer"
 ms.custom: ""
 ms.date: 05/11/2018
@@ -16,7 +16,7 @@ ms.author: "matp"
 manager: "kvivek"
 ---
 
-# Tutorial: Create an entity in Solution Explorer
+# Create an entity in Solution Explorer
 
 You can easily create an entity using the PowerApps portal for most common situations, but not all capabilities are implemented there. When you need to meet the requirements described in [Create an entity](create-entities.md), you can achieve them by creating entities using the Solution Explorer.
 
