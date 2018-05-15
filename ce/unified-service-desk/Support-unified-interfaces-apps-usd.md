@@ -43,7 +43,7 @@ To deploy the Unified Interface sample application package, refer [Deploy a samp
 
 ## Configure application selection window in Unified Service Desk
 
-Since you have can have both Web and Unified Interface apps. A application selection is introduced to ensure that you can select Web or Unified Interface app as per your business requirement.
+A application selection is introduced to ensure that you can select Web or Unified Interface app as per your business requirement.
 
 The application selection window appears when you login to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]. To enable the application selection window, you must update a **SelectAppModule** key under the **\<appSettings>** section of the **UnifiedServiceDesk.exe.config** (application configuration) file and set it to **true**.
 
