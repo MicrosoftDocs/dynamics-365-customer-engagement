@@ -10,7 +10,7 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 93676b52-d168-497d-957f-ae2c8627645a
-author: udag
+author: udaykirang
 ms.author: udag
 manager: sakudes
 ms.reviewer: 
@@ -93,10 +93,9 @@ If you don't want to use the Sales insights add-on for your organization, you ca
 3. A confirmation message is displayed. Select **OK**.<br>
    The Sales insights add-on feature is uninstalled from your organization.
 
-## Troubleshooting   
+## Enable Exchange Data   
 
-**I am unable to connect to Exchange server while enabling Exchange Data in Relationship analytics**
-As an administrator, you must provide privillages to connect to exchange server in Admin center:
+Enabling Exchange Data allows [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to collect valuable information regarding communications, such as emails and meetings for users in your organization from Exchange. To collect this information, you must provide privileges to connect to exchange server through Admin center.
 
 1.  Go to **Admin** center.
     
