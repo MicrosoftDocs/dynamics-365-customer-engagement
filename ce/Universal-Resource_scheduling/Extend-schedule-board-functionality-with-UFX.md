@@ -42,13 +42,14 @@ There are two values available for the input bag of the retrieve resource query:
 The values are bound to the current schedule board’s visible data range and can be used in the UFX query condition to select data based on the visible dates.
 Follow the steps below to add the UFX block to the default Retrieve Resource Query.
 
--	Navigate to **Universal Resource Scheduling > Schedule Board**.
+-	Navigate to **Resource Scheduling > Schedule Board**.
 -	Click the **+** icon next to initial public view and click on **Open Default Settings**.
 
-![Result Showing on thre resource card](../Universal-Resource_scheduling/media/Result-showing-on-the-resource-card.png "Result showing on the Resource card")
+![Result Showing on the resource card](../Universal-Resource_scheduling/media/Result-showing-on-the-resource-card.png "Result showing on the Resource card")
                         
 -	Scroll down to **Retrieve Resource query** and click on **gear** icon.
 -	Add the sample code block shown below.
+
 ```xml
 <!-- Booking join -->
 <link-entity name="bookableresourcebooking" from="resource" to="bookableresourceid" link-type="outer">
@@ -65,5 +66,83 @@ Follow the steps below to add the UFX block to the default Retrieve Resource Que
 </link-entity>
 ```
 - Click on **Save as**, name the query and click **Save**
+
+### Create a custom Template for Resource cell
+
+Change the appearence of resource cell and visualize data specific to business in the resource cell on the schedule board using universal fetchXML
+
+To achieve this goal, follow the steps below.
+- Create a new entity called **Zone**, and create some sample data for the entity.
+-	Link the **Resource** entity to **Zone** entity, and then associate resources to zone.
+-	Navigate to **Resource Scheduling > Schedule Board**.
+-	Click **+** icon next to initial public view and click on **Open Default Settings**.
+        
+        ![Result Showing on thre resource card](../Universal-Resource_scheduling/media/Result-showing-on-the-resource-card.png "Result showing on the Resource card")
+        
+-	Scroll down to **Resource Cell Template** and **Retrieve Resource query** and click on **gear** icon to edit.
+-	Add new **Zone column** to each resource in the query.
+         
+         ```xml  
+          <?xml version="1.0" encoding="utf-8" ?>
+<bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
+  <Resources ufx:source="fetch">
+    <fetch mapping="logical" aggregate="true">
+      <entity name="bookableresource">
+        <attribute name="bookableresourceid" alias="bookableresourceid" groupby="true"/>
+        <attribute name="name" alias="name" groupby="true"/>
+        <attribute name="calendarid" alias="calendarid" groupby="true"/>
+        <attribute name="resourcetype" alias="resourcetype" groupby="true"/>
+        <attribute name="msdyn_startlocation" alias="startlocation" groupby="true"/>
+        <attribute name="new_zone" alias="new_zone" groupby="true"/>
+        <!-- Let the database sort by name, unless we have characteristics - in which case we'll sort by the count of characteristics -->
+```
+-	Update the HTML template used by the board to render each resource ad add the new Zone column to the resource.
+
+![New Zone Column](../Universal-Resource_scheduling/media/add-new-zone-column.png "New Zone Column")
+
+```html
+<div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
+    {{#if imagepath}}
+    <img class='resource-image' src='{{client-url}}{{imagepath}}' />
+    {{else}}
+    <div class='resource-image unknown-resource'></div>
+    {{/if}}
+    <div class='resource-info'>
+        <div class='resource-name primary-text ellipsis' title='{{name}}'>{{name}}</div>
+        <div class='secondary-text ellipsis'>
+// this is the ufx code line to add a new zone column to the template//
+            {{ [new_zone@ufx-formatvalue] }}
+            {{#if (eq (is-sa-grid-view) false) }}
+            <div class='booked-duration'>{{BookedDuration}}<div class='fo-sch-clock'></div></div>
+            <div class='booked-percentage'>{{BookedPercentage}}%</div>
+            {{/if}}
+        </div>
+        {{#if (eq (is-sa-grid-view) false) }}
+        <div class='matching-indicator'></div>
+        {{/if}}
+    </div>
+    {{#if (eq (is-sa-grid-view) false) }}
+    {{> resource-map-pin-template this }}
+    {{/if}}
+</div>
+```
+
+The schedule board now displays the new Zone column for each resource 
+![Schedule Baord Showing Zone column](../Universal-Resource_scheduling/media/schedule-board-showing-new-zone-column.png "Board Showing Zone Column")
+
+### Custom Resource Filtering
+Schedulers can filter resources on the schedule board based on the custom filters. Schedulers need to use the existing filter control to diaplay and apply their custom filters.
+To achieve this goal, followe the steps below, 
+- Navigate to ** Resource Scheduling > Schedule Board**.
+- Click **+** icon next to initial public view and click on **Open Default Settings**.
+- Scroll down to **Filter Layout** and click on **gear** icon to edit.
+- Update the filter layout to show the Zone entity as a filter as shown below. You can remove the default filters.  
+
+![Edit Filter Layout](../Universal-Resource_scheduling/media/edit-filter-layout.png "Edit Filter Layout")
+
+- Click on **Save as**, name the layout and click **Save**.
+- Now, edit the **Resource Query** as shown below to query resources.
+
+![Edit Resource Query](../Universal-Resource_scheduling/media/edit-resource-query.png "Edit Resource Query")
 
 
