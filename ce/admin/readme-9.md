@@ -171,6 +171,8 @@ Sales and Customer Service web client apps
 -   If a Knowledge Article is in read-only mode, links in the article will not
     work.
 
+-   The Relationship assistant control is not supported for custom dashboards.    
+
 Sales Hub and Customer Service Hub apps 
 ----------------------------------------
 
