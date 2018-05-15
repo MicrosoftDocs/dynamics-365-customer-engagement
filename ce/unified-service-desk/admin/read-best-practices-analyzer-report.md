@@ -2,7 +2,7 @@
 title: "Read Best Practices Analyzer Report (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about how to read Best Practices Analyzer report."
 ms.custom: ""
-ms.date: 04/24/2018
+ms.date: 05/15/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 
