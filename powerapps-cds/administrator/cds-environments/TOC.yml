@@ -66,53 +66,53 @@
       - name: add users
         href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles
       - name: Set up email
-        href: integrate-synchronize-your-email-system.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/integrate-synchronize-your-email-system
       - name: Import data
-        href: import-data-all-record-types.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/import-data-all-record-types
       - name: Customize
         href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/overview
   - name: Tutorials
     items:
     - name: Manage subscription with Office 365 admin center
-      href: use-office-365-admin-center-manage-subscription.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-office-365-admin-center-manage-subscription
     - name: Manage updates
-      href: manage-updates.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-updates
     - name: Plan for deployment
       href: plan-for-deployment-and-administration.md
   - name: Concepts
     items:
     - name: Multiple online instances or tenants
-      href: multiple-online-instances-tenants.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/multiple-online-instances-tenants
     - name: Policies and Communications
-      href: policies-communications.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/policies-communications
     - name: Office 365 user ID
-      href: whats-an-office-365-user-id-why-need-one.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/what-office-365-how-does-relate
     - name: What is Office 365?
-      href: what-office-365-how-does-relate.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/whats-an-office-365-user-id-why-need-one
   - name: How-to guides
     items:
     - name: Getting started with your subscription
       href: getting-started.md
       items:
       - name: Move between apps
-        href: quickly-navigate-office-365-app-launcher.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/quickly-navigate-office-365-app-launcher
       - name: Sign in to apps
-        href: sign-in-office-365-apps.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/sign-in-office-365-apps
       - name: Troubleshoot sign-in problems
-        href: troubleshoot-sign-in-problems.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/troubleshoot-sign-in-problems
       - name: Service health
-        href: check-online-service-health.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/check-online-service-health
       - name: Using Organization Insights solution
-        href: use-organization-insights-solution-view-instance-metrics.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-organization-insights-solution-view-instance-metrics
       - name: Using Organization Insights dashboard (preview feature)
-        href: use-organization-insights-dashboard-view-instance-metrics.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-organization-insights-dashboard-view-instance-metrics
     - name: Manage subscriptions, licenses, and user accounts
-      href: manage-subscriptions-licenses-user-accounts.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-subscriptions-licenses-user-accounts
       items:
       - name: View active users in your tenant
         href: https://docs.microsoft.com/en-us/powerapps/administrator/admin-view-user-licenses
       - name: Reset a user's password
-        href: reset-users-password.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/reset-users-password
       - name: Manage email notifications
         href: manage-email-notifications.md
       - name: Purchase and assign licenses
