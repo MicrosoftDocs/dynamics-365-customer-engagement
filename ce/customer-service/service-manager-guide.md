@@ -32,7 +32,7 @@ Use the Service manager to set up various service management tasks for customer 
 
   ![Access service management](media/access-service-management-sitemap.png)
 
-- You can also select **...** from the service sitemap, as given below, to access Service Management.  
+- You can also select **...** from the service sitemap to access Service Management.  
 
   ![Open service management](media/access-service-management.png)
  
