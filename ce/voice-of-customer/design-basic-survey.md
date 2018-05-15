@@ -2,7 +2,7 @@
 title: "Design a basic survey using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to create a basic survey using Voice of the Customer and add questions to it."
 keywords: "survey design;  survey theme; share survey; clone survey"
-ms.date: 05/03/2018
+ms.date: 05/15/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -35,7 +35,7 @@ You can create a theme for your survey to match your company's style. Themes def
 
 3.  To create a new theme, select **New**.
 
-4.  To edit the default theme, select **Default** in the list of themes.
+4.  To edit an existing theme, select the theme name.
 
 5.  Enter the name of the theme.
 
@@ -47,13 +47,15 @@ You can create a theme for your survey to match your company's style. Themes def
 
 **Voice of the Customer app**
 
+Voice of the Customer app provides a WYSIWYG theme designer. This allows you to see how a survey will look when the theme is applied to it. In addition to modifying theme colors, you can also modify the font, font, size, and font color of the elements in the theme.
+
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2. Go to **Voice of the Customer** > **Themes**.
 
 3. To create a new theme, select **New**.
 
-4. To edit the default theme, select **Default** in the list of themes.
+4. To edit an existing theme, select the theme name.
 
 5. Enter the name of the theme.
 
@@ -134,6 +136,9 @@ After creating a theme for your survey and uploading the images to [!INCLUDE[pn-
 8.  Edit the items under **Advanced** and **Feedback** as necessary.  
 
 9.  Select **Save**.
+
+> [!NOTE]
+> In the Voice of the Customer app, it is recommended that you review the changes in survey designer after making any logo or theme changes as the survey designer provides WYSIWYG experience.
 
 ## Create and add survey questions
 
@@ -252,8 +257,6 @@ You can add more pages as required by your survey.
 
 You can import a section (along with its questions) from another survey into your survey. In this way, you can reuse existing questions without having to re-create them. You can drag the section to a new position on the page.
 
-**Web client**
-
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
@@ -274,25 +277,6 @@ You can import a section (along with its questions) from another survey into you
 
     ![Imported section in a survey](media/imported-section.png "Imported section in a survey")
 
-**Voice of the Customer app**
-
-1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
-
-2. Go to **Voice of the Customer** > **Surveys**.
-
-3. Select the name of the survey that you want to import a section into.
-
-4. From the **Survey** box, select **Designer**.
-
-5. Select the page that you want to import the section into.
-
-6. In the **Properties** pane, browse the section to be imported from the **Section to copy and import** field.
-
-7. From the **Automatically link questions** list, choose whether to link the questions.
-
-8. Click **Import**.
-
-9. Select **Save**. The section is imported, and **- Imported** is appended to the section name.
 
 ### Share questions between surveys by using linked questions
 

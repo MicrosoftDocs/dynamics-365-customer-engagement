@@ -2,7 +2,7 @@
 title: "Plan a survey to be created by using Voice of the Customer | MicrosoftDocs"
 description: "Plan to create a survey using Voice of the Customer."
 keywords: "plan a survey; survey best practices; survey question types"
-ms.date: 05/03/2018
+ms.date: 05/15/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -107,7 +107,6 @@ The following table describes the question types to use when you need to address
 | Numeric                                                                                         | Question that allows only numerical responses.                                                                                               |
 | Radio button                                                                                    | Question that allows a respondent to choose only one answer.<br>**Note**: You can change the layout of the answer options from the **Option layout** list. |
 | Short answer                                                                                    | Question that has a one-line answer.                                                                                                         |
-| Smilies rating                                                                                  | Question that asks a respondent to express their satisfaction by using emoticons ("smilies").                                                |
 | Star rating                                                                                     | Question that asks a respondent to provide ratings by using stars, emoticons, or flags.                                                      |
 | Upload file                                                                                     | Allow a respondent to upload a file.<br>Supported file types: .png, .jpg, .gif, .doc, .docx, .pdf, .xls, .xlsx, .zip, .txt, .ppt, .pptx<br>Maximum file size: 5 |
 | Website                                                                                         | Question that asks a respondent to enter a website URL.                                                                                      |
