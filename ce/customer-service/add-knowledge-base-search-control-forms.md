@@ -89,8 +89,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
 |**Formatting**     |      Layout   |    Choose the type of layout to determine the number of columns the control should occupy.     |
 |    |    Row Layout  |  Select the maximum number of rows per page.|
 
-  
-  
+
 ### See also  
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](customer-service-hub-user-guide-knowledge-article.md)

@@ -1,7 +1,6 @@
 ---
-title: Pointers for Customer Service Hub for Dynamics 365 | MicrosoftDocs
+title: Quick help for Customer Service Hub for Dynamics 365 | MicrosoftDocs
 description: Your starting point for help of Customer Service Hub for Dynamics 365
-keywords: Quick help for Customer Service Hub; Customer Service Hub help
 author: anjgupta
 applies_to:
   - "Dynamics 365 (online)"
