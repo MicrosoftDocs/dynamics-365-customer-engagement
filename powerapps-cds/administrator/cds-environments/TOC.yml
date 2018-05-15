@@ -64,7 +64,7 @@
       - name: Create a trial environment
         href: try-dynamics-365-online.md
       - name: add users
-        href: create-users-assign-online-security-roles.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles
       - name: Set up email
         href: integrate-synchronize-your-email-system.md
       - name: Import data
