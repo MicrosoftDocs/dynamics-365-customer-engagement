@@ -47,7 +47,7 @@ You can create a theme for your survey to match your company's style. Themes def
 
 **Voice of the Customer app**
 
-Voice of the Customer app provides a WYSIWYG theme designer. This allows you to see how a survey will look when the theme is applied to it. In addition to modifying theme colors, you can also modify the font, font, size, and font color of the elements in the theme.
+Voice of the Customer app provides a WYSIWYG theme designer. This allows you to see how a survey will look when the theme is applied to it. In addition to modifying theme colors, you can also modify the font, font, size, and font color of the elements in the survey.
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
@@ -138,7 +138,7 @@ After creating a theme for your survey and uploading the images to [!INCLUDE[pn-
 9.  Select **Save**.
 
 > [!NOTE]
-> In the Voice of the Customer app, it is recommended that you review the changes in survey designer after making any logo or theme changes as the survey designer provides WYSIWYG experience.
+> In Voice of the Customer app, it is recommended that you review the changes in survey designer after making any logo or theme changes, as the survey designer provides WYSIWYG experience.
 
 ## Create and add survey questions
 
