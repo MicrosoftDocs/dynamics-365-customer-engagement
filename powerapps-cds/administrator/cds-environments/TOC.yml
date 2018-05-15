@@ -49,7 +49,7 @@
     - name: Introducing the new admin center
       href: intro-new-admin-center.md
     - name: Requirements
-      href: web-application-requirements.md
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/web-application-requirements
     - name: Environments overview
       href: https://docs.microsoft.com/en-us/powerapps/administrator/environments-overview  
   - name: Quickstarts
@@ -114,62 +114,62 @@
       - name: Reset a user's password
         href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/reset-users-password
       - name: Manage email notifications
-        href: manage-email-notifications.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-email-notifications
       - name: Purchase and assign licenses
-        href: purchase-assign-online-licenses.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/purchase-assign-online-licenses
       - name: Manage Microsoft licenses
-        href: manage-licenses.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-licenses
       - name: Manage user account synchronization
-        href: manage-user-account-synchronization.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-user-account-synchronization
       - name: Grant users access
-        href: grant-users-access.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/grant-users-access
       - name: Restrict access with trusted IP rules
-        href: restrict-access-online-trusted-ip-rules.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/restrict-access-online-trusted-ip-rules
       - name: Invite users with Azure Active Directory B2B collaboration
-        href: invite-users-azure-active-directory-b2b-collaboration.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/invite-users-azure-active-directory-b2b-collaboration
       - name: Administer without a license
-        href: global-service-administrators-can-administer-without-license.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/global-service-administrators-can-administer-without-license
       - name: Cancel subscription
-        href: cancel-subscription.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/cancel-subscription
       - name: Use the Service admin role to manage your tenant
-        href: use-service-admin-role-manage-tenant.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-service-admin-role-manage-tenant
       - name: Add Partner of Record
-        href: add-partner-record-subscription.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/add-partner-record-subscription
       - name: 'For partners: get credit when customers subscribe'
-        href: partners-credit-when-customers-subscribe-dynamics-365.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/partners-credit-when-customers-subscribe-dynamics-365
       - name: 'For partners: Delegated Administrator'
-        href: for-partners-delegated-administrator.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/for-partners-delegated-administrator
     - name: Manage environments
-      href: manage-online-instances.md
+      href: manage-online-environments.md
       items:
       - name: Administer environments
         href: https://docs.microsoft.com/en-us/powerapps/administrator/environments-administration
       - name: Create an environment
         href: https://docs.microsoft.com/en-us/powerapps/administrator/create-environment
       - name: About Sandbox environment
-        href: manage-sandbox-instances.md
+        href: manage-sandbox-environments.md
       - name: Add environment
-        href: add-instance-subscription.md
+        href: add-environment-subscription.md
       - name: Switch environment
-        href: switch-instance.md
+        href: switch-environment.md
       - name: Copy environment
-        href: copy-instance.md
+        href: copy-environment.md
       - name: Delete environment
-        href: delete-instance.md
+        href: delete-environment.md
       - name: Backup and restore environments
-        href: backup-restore-instances.md
+        href: backup-restore-environments.md
       - name: Support environments
-        href: support-instance.md
+        href: support-environment.md
       - name: Common Data Service environments
-        href: common-data-service-instances.md
+        href: common-data-service-environments.md
       - name: Edit properties of an environment
-        href: edit-properties-instance.md
+        href: edit-properties-environment.md
       - name: Multiple online environments or tenants
-        href: multiple-online-instances-tenants.md
+        href: multiple-online-environment-tenants.md
       - name: Add and edit multiregional environments
-        href: add-edit-multiregional-instances.md
+        href: add-edit-multiregional-environments.md
       - name: 'Troubleshooting: Unblock required URLs'
-        href: troubleshooting-unblock-urls-required.md
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/troubleshooting-unblock-urls-required
     - name: Configure environment security
       href: https://docs.microsoft.com/en-us/powerapps/administrator/database-security
       items:
@@ -178,7 +178,7 @@
       - name: Manage DLP policies
         href: https://docs.microsoft.com/en-us/powerapps/administrator/prevent-data-loss
       - name: Encryption keys for environment
-        href: manage-encryption-keys-instance.md
+        href: manage-encryption-keys-environment.md
   - name: Resources
     items:
     - name: Release history
@@ -190,13 +190,21 @@
   - name: System settings
     items:
     - name: General
+      href: system-settings-dialog-box-general-tab.md
     - name: Fiscal year + calendar
+      href: system-settings-dialog-box-calendar-tab.md
     - name: Business closures
+      href: set-when-business-closed.md
     - name: Currencies
+      href: customize-regional-options-admins.md
     - name: Languages
+      href: enable-languages.md
     - name: Formats
+      href: system-settings-dialog-box-formats-tab.md
     - name: Privacy preferences
+      href: set-privacy-preferences-organization.md
     - name: Manage subscriptions
+      href: manage-online-environments.md
   - name: Document management
     items:
     - name: Settings
