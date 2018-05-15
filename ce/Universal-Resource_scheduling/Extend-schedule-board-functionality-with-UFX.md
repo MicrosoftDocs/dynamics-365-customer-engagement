@@ -77,13 +77,13 @@ To achieve this goal, follow the steps below.
 -	Navigate to **Resource Scheduling > Schedule Board**.
 -	Click **+** icon next to initial public view and click on **Open Default Settings**.
         
-        ![Result Showing on thre resource card](../Universal-Resource_scheduling/media/Result-showing-on-the-resource-card.png "Result showing on the Resource card")
+  ![Result Showing on thre resource card](../Universal-Resource_scheduling/media/Result-showing-on-the-resource-card.png "Result showing on the Resource card")
         
 -	Scroll down to **Resource Cell Template** and **Retrieve Resource query** and click on **gear** icon to edit.
 -	Add new **Zone column** to each resource in the query.
          
-         ```xml  
-          <?xml version="1.0" encoding="utf-8" ?>
+```xml  
+<?xml version="1.0" encoding="utf-8" ?>
 <bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
   <Resources ufx:source="fetch">
     <fetch mapping="logical" aggregate="true">
@@ -127,7 +127,8 @@ To achieve this goal, follow the steps below.
 </div>
 ```
 
-The schedule board now displays the new Zone column for each resource 
+The schedule board now displays the new Zone column for each resource.
+
 ![Schedule Baord Showing Zone column](../Universal-Resource_scheduling/media/schedule-board-showing-new-zone-column.png "Board Showing Zone Column")
 
 ### Custom Resource Filtering
