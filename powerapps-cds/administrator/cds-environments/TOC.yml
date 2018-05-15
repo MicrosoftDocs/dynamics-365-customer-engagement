@@ -47,11 +47,11 @@
   - name: Overview
     items:
     - name: Introducing the new admin center
-      href: new-admin-center.md
+      href: intro-new-admin-center.md
     - name: Requirements
       href: web-application-requirements.md
     - name: Environments overview
-      href: https://docs.microsoft.com/en-us/powerapps/administrator/environments-overview
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/environments-overview  
   - name: Quickstarts
     items:
     - name: Try Dynamics 365 (online)
