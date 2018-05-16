@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 05/02/2018
+ms.date: 05/16/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -600,11 +600,7 @@ update the preferred solution.
 Mobile Offline
 --------------
 
-We are not onboarding additional customers to mobile offline until further
-notice. We are currently improving this feature to make it more broadly
-available. We do not currently have a date for when onboarding will resume, but
-we will update our documentation when we have additional information. This does
-not affect existing customers who already use mobile offline.
+We’re working to improve mobile offline capabilities for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline, we’ll let customers know. Existing customers who are already using mobile offline are not affected.
 
 Unified Service Desk
 --------------------
