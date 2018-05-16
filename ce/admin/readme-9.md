@@ -600,7 +600,7 @@ update the preferred solution.
 Mobile Offline
 --------------
 
-We’re working to improve mobile offline capabilities for release in early 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline, we’ll let customers know. Existing customers who are already using mobile offline are not affected.
+We’re working to improve mobile offline capabilities for release in the first quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline, we’ll let customers know. Existing customers who are already using mobile offline are not affected.
 
 Unified Service Desk
 --------------------
