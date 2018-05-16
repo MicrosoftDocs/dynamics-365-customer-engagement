@@ -18,7 +18,7 @@ manager: "amyla"
 ---
 # Sample: Simplified connection quick start using Dynamics 365 Customer Engagement
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 
 This sample shows you how to connect to the [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)] Customer Engagement web services using the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> and perform basic create, update, retrieve, and delete operations on an entity. For more information about the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient>, see [Use CrmServiceClient constructors to connect to Dynamics 365](use-crmserviceclient-constructors-connect.md).
 

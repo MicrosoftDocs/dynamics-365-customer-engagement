@@ -18,7 +18,7 @@ manager: "amyla"
 ---
 # Use PowerShell cmdlets for XRM tooling to connect to Dynamics 365
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 
 XRM tooling provides you with the following [!INCLUDE[pn_PowerShell](../../includes/pn-powershell.md)] cmdlets that you can use to connect to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement and retrieve organizations that the current user has access to: `Get-CrmConnection` and `Get-CrmOrganizations`.  
   
