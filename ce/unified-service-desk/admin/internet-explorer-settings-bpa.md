@@ -2,7 +2,7 @@
 title: "Internet Explorer settings (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings that best practices outlines and against which Best Practices Analyzer performs analysis."
 ms.custom: ""
-ms.date: 04/24/2018
+ms.date: 05/07/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 
@@ -53,18 +53,19 @@ Set **TabShutdownDelay** value to **0**:
 
 1.  Open **C:/** > **[!include[pn-ms-windows-short](../../includes/pn-ms-windows-short.md)]** > **regedit**.
 2.  Go to `Computer\HKEY\CURRENT\USER\Software\Microsoft\Internet Explorer\Main`.
-3.  Right-click **TabShutdownDelay**, and then select **Modify**.<br>
-       > [!NOTE]
-       > If the registry key isn't present, create it:<br>
-            1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
-            2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
+3.  Right-click **TabShutdownDelay**, and then select **Modify**.
+    > [!NOTE]
+    > If the registry key isn't present, create it:<br>
+        1.  Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can see new file.<br>
+        2.  Type **TabShutdownDelay** as the file name, and then select **Modify**.
+
 4. In the **Value data** field, type **0**.
 5. In the **Base** group box, select **Decimal**.
 6. Select **OK**.
 
 ## Enable Enhanced Protected Mode
 
-[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Enhanced Protected Mode by checking for the **Isolation** registry key and displays an error message when the key is disabled (value set to **PMIL**).
+[!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] checks for Enable Enhanced Protected Mode by checking for the **Isolation** registry key and displays an error message when the key is enabled (value set to **PMEM**).
 
 Enable Enhanced Protected Mode is a security feature. When this feature is enabled, add-ons such as toolbars and extensions are loaded only if they're compatible with Enhanced Protected Mode.
 
@@ -85,7 +86,8 @@ To disable **Enable Enhanced Protected Mode** using the Registry Editor:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
         2.  Type **Isolation** as the file name, and then select **Modify**.
-4.  In the **Value data** field, type **PMEM**. 
+
+4.  In the **Value data** field, type **PMIL**. 
 5.  Select **OK**.
 
 To disable the option using Internet options:
@@ -118,6 +120,7 @@ To disable the option using the Registry Editor:
     > If the registry key isn't present, create it:<br>
         1.  Right-click the blank area, and then select **New** > **String Value**. You can a see new file.<br>
         2.  Type **Isolation** as the file name, and then select **Modify**.
+
 4.  In the **Value data** field, type **2**.
 5.  Select **OK**.
 
@@ -150,9 +153,11 @@ Numerically named folders are as follows:<br>
     - 3 (Internet zone)
     - 4 (Restricted Sites zone)
 3.  Right-click the **2500** file, and then select **Modify**.
-    > [!Note] If the registry key isn't present, create it:<br>
+    > [!Note] 
+    > If the registry key isn't present, create it:<br>
         1. Right-click the blank area, and then select **New** > **DWORD (32-bit) Value**. You can a see new file. <br>
         2. Type **2500** as the file name, and then select **Modify**.
+
 6.  In the **Value data** field, type **0**..
 7.  Select **OK**.
 
