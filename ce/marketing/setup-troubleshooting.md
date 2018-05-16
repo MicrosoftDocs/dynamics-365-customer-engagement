@@ -44,7 +44,7 @@ Once you have a trial or production [!INCLUDE[pn-ms-office-365](../includes/pn-m
 
 1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com).
 
-1. A form opens asking for your email address and phone number. Use the email address that you use to sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant or the one you created when setting up a trial tenant.
+1. Select the **[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]** product tile and then enter your email address and phone number. Use the email address that you use to sign into your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant or the one you created when setting up a trial tenant.
 
 1. Follow the instructions on your screen.
 
