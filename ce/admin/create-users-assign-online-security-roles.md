@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: 05/02/2018
+ms.date: 05/15/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -190,13 +190,16 @@ The following are Office 365 user contact fields.
 > -   Sign back in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 ## Create an Administrative user account
-An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 (online) license.
+An Administrative user is a user who has access to the Settings and Administration features but has no access to any of the customer engagement functionality.  It is used to allow customers to assign administrative users to perform day-to-day maintenance functions (create user accounts, manage security roles, etc).  Since the administrative user does not have access to customer data and any of the customer engagement functionalities, it does not require a Dynamics 365 (online) license (after setup).
 
 You need to have the System Administrator security role or equivalent permissions in Dynamics 365 to create an administrative user. First, you’ll create a user account in Office 365 and then in Dynamics 365 (online), select the **Administrative** access mode for the account.
 
+> [!NOTE]
+> See [Create an administrative user and prevent elevation of security role privilege](prevent-elevation-security-role-privilege.md) for an example of how an Administrative user account can be used.
+
 1.  [Create a user account](../admin/create-users-assign-online-security-roles.md#BKMK_create_users) in the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
-     Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account.  
+     Be sure to assign a [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license to the account. You'll remove the license (step 6) once you've assigned the **Administrative** Access Mode.
   
 2.  Go to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
@@ -205,6 +208,16 @@ You need to have the System Administrator security role or equivalent permission
 4.  Choose **Users** > **Enabled Users**, and then click a user’s full name.  
   
 5.  In the user form, scroll down under **Administration**  to the **Client Access License (CAL) Information** section and select **Administrative** for Access Mode.  
+
+     You then need to remove the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license from the account.  
+  
+6.  Go to the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+  
+7.  Click **Users** > **Active Users**.  
+  
+8.  Choose the Administrative user account and under **Product licenses**, click **Edit**.  
+  
+9. Turn off the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] license,  and then click **Save** > **Close** multiple times.
 
 <a name="BKMK_noninteractiveuser"></a>   
 
