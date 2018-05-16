@@ -1,7 +1,7 @@
 ---
 title: "Frequently asked questions about synchronizing records between Microsoft Dynamics 365 Customer Engagement and Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/29/2018
+ms.date: 05/15/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
