@@ -20,6 +20,16 @@ manager: "kvivek"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
+Notes for topic under construction (accuracy is TBD):
+> - When a license is assigned to a user, a default security role is automatically assigned which gives the user access to the app licensed.
+> - With a mixed license environment, it's an honor system where the admin assigns the right level security role to match the license.
+> - JimH is backward engineering default security roles assigned based on app installed.
+> - JimH cannot backward engineer what security role is assigned based on license - no control over licenses. Tenant has full Customer Engagement license.
+> - JimH working with Paul and Imad on content.
+
+
+
+
 When you license and install a Dynamics 365 app, such as Sales or Customer Service, a set of security roles are assigned to users. The following table describes what security roles are automatically assigned for each app.
 
 |App  |Security roles  |Description  |
