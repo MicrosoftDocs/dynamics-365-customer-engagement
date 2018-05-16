@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 05/02/2018
+ms.date: 05/16/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
