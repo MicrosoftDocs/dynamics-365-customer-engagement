@@ -1,7 +1,7 @@
 ---
 title: "Create users in Dynamics 365 (online) and assign security roles | MicrosoftDocs"
 ms.custom: ""
-ms.date: 05/02/2018
+ms.date: 05/15/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
