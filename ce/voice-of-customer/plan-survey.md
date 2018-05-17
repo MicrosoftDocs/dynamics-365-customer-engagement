@@ -93,8 +93,8 @@ The following table describes the question types to use when you need to address
 
 **Voice of the Customer app**
 
-| **Question type**       | **Description**       |**Preview**|
-|--------------------------------------|-----------------------------------------------|-----------------------------|
+| **Question type**       | **[!INCLUDE[description](../includes/description.md)]**   |**Preview**|
+|-------------------------|-----------------------------------------------|-----------------------------|
 | Check box                                                                                       | Question that allows a respondent to choose multiple answers.<br>**Note**: You can change the layout of the answer options from the **Option layout** list.     |![Example of a check box question](media/checkbox.png "Example of a check box question")|
 | CSAT                                                                                            | Question that captures the overall satisfaction of the respondent with the product or agent, on a five-point scale.                          |![Example of a customer satisfaction question](media/csat.png "Example of a customer satisfaction question")|
 | Customer effort                                                                                 | Question that captures the satisfaction of the respondent based on the effort spent on doing business, on a five-point scale.                |![Example of a customer effort score question](media/ces.png "Example of a customer effort score question")|
@@ -109,8 +109,7 @@ The following table describes the question types to use when you need to address
 | Short answer                                                                                    | Question that has a one-line answer.                                                                                                         |![Example of a short answer question](media/short-answer.png "Example of a short answer question")   |  
 | Star rating                                                                                     | Question that asks a respondent to provide ratings by using stars, emoticons, or flags.                                                      |![Example of a star rating question](media/rating.png "Example of a star rating question")   |
 | Upload file                                                                                     | Allow a respondent to upload a file.<br>Supported file types: .png, .jpg, .gif, .doc, .docx, .pdf, .xls, .xlsx, .zip, .txt, .ppt, .pptx<br>Maximum file size: 5 |![Example of a upload file question](media/upload-file.png "Example of a upload file question")  |  
-| Website                                                                                         | Question that asks a respondent to enter a website URL.                                                                                      |![Example of a website question](media/website.png "Example of a website question")  |  
-|||
+| Website                                                                                         | Question that asks a respondent to enter a website URL.                                                                                      |![Example of a website question](media/website.png "Example of a website question")  |
 
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  
 
