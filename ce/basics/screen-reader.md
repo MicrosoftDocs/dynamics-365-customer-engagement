@@ -42,7 +42,9 @@ When you open a Unified Interface app, a vertical bar with subarea icons is disp
 We have made Dynamics 365 Customer Engagement apps that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows. 
 
 ####Grids
-Screen readers navigate grids more reliably and consistently, and announce row and column headings, as well as the position within the grid. When you first open a grid, the default tab stop is the view selector. Whenever you enter a cell within the grid from outside of the grid, Narrator announces the name of the table, the row and column counts, and the position of your cursor within the table.
+Screen readers navigate grids more reliably and consistently, and announce row and column headings, as well as the position within the grid. When you first open a grid, the default tab stop is the view selector. 
+
+Whenever you enter a cell within the grid from outside of the grid, Narrator announces the name of the table, the row and column counts, and the position of your cursor within the table.
 If your cursor is within the table header, quickly navigate between headers by using **Tab** or **Shift+Tab**. Narrator will announce the name of each header as you enter the header cell. It also announces the type of cell (for example, “column header”), the location of the column (for example, “column 1 of 6”), and whether the column is sorted or selected. If you press the **Enter** key in a table header, it will sort the table by that column. Narrator announces the sort order, and you can press **Enter** again to change the order.
 
 When you move out of the last column in the table, the cursor moves to the second row of the grid, and from this point, you must use the Up and Down arrow keys to navigate between the non-header cells. If you instead press the **Tab** key again, your cursor will move to the next interactive element, typically the table filter list. When moving between non-header row cells, Narrator announces the column name, the location of the column, and text within the cell.
@@ -58,8 +60,9 @@ You can also use the Tab key to quickly navigate to interactive elements on the 
 
 ####Dashboards/charts
 You can navigate through the dashboard charts using the Tab key and Caps lock + arrow keys. Press the **Tab** key to quickly go to the interactive elements and use Caps lock + an arrow key for navigation of non-interactive elements, such as headings, landmarks, and items.
-[!NOTE]
-You must have the latest Windows 10 Update installed to have all of the accessibility features available for charts.
+
+> [!NOTE]
+> You must have the latest Windows 10 Update installed to have all of the accessibility features available for charts.
 
 ####Streams
 You can use the Tab key or Shift+Tab keys to move between streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings,” then use the Tab key to quickly move between streams.
@@ -67,7 +70,7 @@ You can use the Tab key or Shift+Tab keys to move between streams, such as found
 To navigate through each element of a stream, use the Up/Down arrow keys. Narrator will read the type of control and the title of the control.
 
 ####Business process flows
-You can navigate a business process flow, such as the one found at the top of the Lead form, by pressing Tab to move forward, and Shift+Tab to move backward between the entities. Use the Enter key on the Move to the Left or Move to the Right buttons to display additional entities in the process flow. Narrator reads the entity type, stage, status, title, element number out of total elements, and whether it is currently selected.
+You can navigate a business process flow, such as the one found at the top of the Lead form, by pressing Tab to move forward, and Shift+Tab to move backward between the entities. Use the Enter key on the **Move to the Left** or **Move to the Right** buttons to display additional entities in the process flow. Narrator reads the entity type, stage, status, title, element number out of total elements, and whether it is currently selected.
 
 ## See also
 
