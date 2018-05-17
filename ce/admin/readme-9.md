@@ -311,6 +311,8 @@ App modules and the app designer
     business process flow might not get automatically added to the app designer
     canvas when the business process flow is added to the app module.
 
+-   In the app designer, the option to set **App for Outlook Dashboard** as your default dashboard is available for all Unified Interface apps, but the dashboard is only supported for Dynamics 365 App for Outlook. If you select this dashboard for another app the dashboard will not load, and users will see a blank screen or error message.
+
 View designer
 -------------
 
@@ -601,6 +603,9 @@ Mobile Offline
 --------------
 
 We’re working to improve mobile offline capabilities for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline, we’ll let customers know. Existing customers who are already using mobile offline are not affected.
+
+> [!NOTE]
+> The mobile app for Dynamics 365 for Field Service continues to support mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
