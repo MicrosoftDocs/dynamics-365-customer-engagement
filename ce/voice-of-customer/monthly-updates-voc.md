@@ -24,9 +24,9 @@ Welcome to Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes
 
 ## Voice of the Customer version <<version number>>
 
-- **Voice of the Customer app**: The Voice of the Customer app provides a new survey- and theme-designing experience. The new survey designer provides a simple and intuitive experience for survey designers to add, remove, and modify survey pages, sections, questions, and answers. When you install Voice of the Customer version <<Version_Number>> and higher, the Voice of the Customer app, built on the Unified Interface framework, is created by default.
-
 Following are the new and updated features in this release:
+
+- **Voice of the Customer app**: The Voice of the Customer app provides a new experience in survey designing as well as theme designing. The new survey designer provides a simple and intuitive experience for survey designers to add, remove, and modify survey pages, sections, questions, and answers. When you install Voice of the Customer version <<Version_Number>> and higher, the Voice of the Customer app, built on the Unified Interface framework, is created out-of-the-box.
 
 ## Voice of the Customer version 9.0.1113.10
 
