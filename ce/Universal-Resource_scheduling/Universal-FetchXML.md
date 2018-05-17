@@ -43,10 +43,10 @@ age | 36 | int
 
 In JSON:
 
-```js
+```json
 {
-    name: "John",
-    age: 36
+    "name": "John",
+    "age": 36
 }
 ```
 In XML:
@@ -60,32 +60,31 @@ In XML:
 
 #### UFX Supported Types
 
-A UFX Bag can contain values of many types. They are categorized in 3 classes:
+A UFX Bag can contain values of many types. They are categorized in 3 type classes:
 
 Category | Value
 ---  | ---
-Simple type  | `bool (Boolean)`, `int (Int32)`, `long (Int64)`, `double (Double)`, `decimal (Decimal)`, `datetime (DateTime)`, `guid (Guid)`, `string (String)`
+Simple types  | `bool (Boolean)`, `int (Int32)`, `long (Int64)`, `double (Double)`, `decimal (Decimal)`, `datetime (DateTime)`, `guid (Guid)`, `string (String)`<br />Dynamics 365 specific simple types: `money (Money)`, `option (OptionSet)`, `lookup (EntityReference)`
 Other Bags | `bag (Entity)`
-List of Bags | `list(EntityCollection)`
+List of Bags | `list (EntityCollection)`
 
-Dynamics 365 specific simple types: `money (Money)`, `option (OptionSet)`, `lookup (EntityReference)`
 
 Here's a sample JSON bag containing more types:
-```js
+```json
 {
-    citizen: true,          // implicit bool
+    "citizen": true,          // implicit bool
     
-    age: 36,                // explicit int
-    'age@ufx-type': 'int'
+    "age": 36,                // explicit int
+    "age@ufx-type": "int",
 
-    name: {                 // nested bag
-        first: 'John',
-        last: 'Doe'
+    "name": {                 // nested bag
+        "first": "John",
+        "last": "Doe"
     },
 
-    children: [             // list of bags
-        { name: 'Sam' },
-        { name: 'Judy' }
+    "children": [             // list of bags
+        { "name": "Sam" },
+        { "name": "Judy" }
     ]
 }
 ```
@@ -115,9 +114,9 @@ The same bag in XML:
 
 #### Introduction to UFX Queries
 
-UFX Queries are written as XML-based **UFX Bags** with **UFX directives** to query data dynamically. A UFX Query executes on in-memory objects, not XML. Only the directives are written in XML. It's output can be serialized to JSON or XML.
+UFX Queries are written as XML-based **UFX Bags**. Properties in the bag can contain **UFX directives** to query data dynamically. A UFX Query executes on in-memory objects, not XML. Only the directives are written in XML. It's output can be serialized to JSON or XML.
 
-The following UFX Query defines the `accounts` property in the bag with the `source` UFX directive. This results in the inline FetchXML to be executed by dynamics 365 and the `accounts` property to become a list of bags, or an `EntityCollection`, with each bag being an instance of an account record from Dynamics 365.
+The following UFX Query defines the `accounts` property in the bag with the `source` UFX directive. This results in the inline FetchXML to be executed by Dynamics 365 and the `accounts` property to become a list of bags, or an `EntityCollection`, with each bag being an instance of an account record from Dynamics 365.
 ```xml
 <bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
     <accounts ufx:source="fetch">
@@ -127,7 +126,7 @@ The following UFX Query defines the `accounts` property in the bag with the `sou
     </accounts>
 </bag>
 ```
-A UFX Query can contain many FetchXML queries.
+A UFX Query is processed sequentially and can contain many FetchXML queries.
 
 Here's a snippet of the result of the previous UFX Query serialized to XML. Observe some values have metadata further describing them.
 ```xml
@@ -179,7 +178,7 @@ The resulting bag in XML:
 ```
 Certainly the most powerful aspect of a UFX Query is its ability to dynamically generate FetchXML based on input data.
 
-In the sample below, we search for accounts by a value supplied by the user and available as a UFX Bag through the XPath `$input` variable.
+In the sample below, we search for accounts by a value supplied by the user and available as a UFX Bag through the XPath `$input` variable. Notice the UFX **if** and **value** directives on the `condition` element.
 
 ```xml
 <bag xmlns:ufx="http://schemas.microsoft.com/dynamics/2017/universalfetchxml">
@@ -206,9 +205,9 @@ A UFX Bag contains keys and values, with some values having additional metadata 
 An example might be a value of type `lookup (EntityReference)`. When queried from Dynamics 365 through FetchXML, it will return the logical name of the entity as well as the formatted display name of the record. The UFX Bag perserves these additional information as metadata attached to the primary value.
 
 Serialized to JSON, a `lookup` with metadata looks like this:
-```js
+```json
 {
-    primarycontactid: "7e6e39dd-34a1-e611-8111-00155d652f01",
+    "primarycontactid": "7e6e39dd-34a1-e611-8111-00155d652f01",
     "primarycontactid@ufx-type": "lookup",
     "primarycontactid@ufx-logicalname": "contact",
     "primarycontactid@ufx-formatvalue": "Susanna Stubberod (sample)"
@@ -222,7 +221,7 @@ In XML:
 #### XPath over Dynamics 365 Data
 Having the data in a UFX Bag typed, allows a UFX Query to see it in a structured format and use XPath to traverse over the data and select values from it.
 
-An XPath expression specified in a UFX directive sees the data in the bag very similar to the structure of the bag in XML-serialized form. However, the data is stored in in-memory .NET objects (in most cases in instances of `Entity` and `EntityCollection` types) and not in XML documents.
+An XPath expression specified in a UFX directive sees the data in the bag very similar to the structure of the bag in XML-serialized form. However, the data is stored in in-memory .NET objects (in instances of `Entity` and `EntityCollection` types) and not in XML documents.
 
 
 #### Appendix A: UFX Type Reference
@@ -251,117 +250,56 @@ UFX directives can be used on bag properties and on XML elements of a FetchXML q
 
 UFX Bag directives
 
-Name | Value | Description
+Attribute | Value | Description
 --- | --- | ---
-if | XPath | Tests the XPath expression and only processes the node if the tests returns true
-source | "fetch" | If "fetch" is specified, executes the inline `<fetch>` element and assigns the result to the property
-select | XPath | Executes the XPath expression and assigns the result to the property<br />When the result is a `bag` or `list` an optional child `bag` in XML form can be specified to transform the result
+`ufx:if` | XPath | Tests the XPath expression and only processes the property if the test returns true
+`ufx:source` | `fetch` | Executes the inline `<fetch>` XML element and assigns the result to the property
+`ufx:select` | XPath | Executes the XPath expression and assigns the result to the property<br />When querying for a `bag` or `list` an optional child `bag` in XML form can be specified to transform the result of the XPath expression
 
 UFX FetchXML directives
 
 Element | Attribute | Value | Description
 --- | --- | --- | ---
-`<*>` | if | XPath | Tests the XPath expression and only emits the FetchXML element if the tests succeeds
-apply | select | XPath | Loops over the nodeset returned by the XPath expression and outputs the child elements once for each node
-value | select | XPath | Executes the XPath expression and outputs the result
-value | attribute | string | Assigns the result to the specified attribute
-
+All elements | `ufx:if` | XPath | Tests the XPath expression and only emits the XML element if the tests succeeds
+`ufx:apply` | `select` | XPath | Loops over the nodeset returned by the XPath expression and outputs the child XML elements once for each node
+`ufx:value` | `select` | XPath | Executes the XPath expression and outputs the result in the current XML element
+`ufx:value` | `attribute` | attribute name | Assigns the XPath expression result to the specified attribute name on the current XML element
 
 
 #### Appendix C: UFX XPath Functions
-**Constructor functions**
 
-Constructor functions are used to dynamically create new values
-
-##### int()
-
-- int(number|string): Converts the first argument to an integer. Returns `null` if not successful.
-
-##### long()
-
-- long(number|string):
-
-##### decimal()
-
-- decimal(number|string):
-
-##### guid()
-
-- guid(): Returns a new random GUID.
-- guid(number|string):
-
-##### money()
-
-- money(number|string):
-
-##### option()
-
-- option(number|string):
-
-##### lookup()
-
-- lookup(string, guid|string):
+UFX adds a number of new functions in addition to the ones available natively in XPath.
 
 ##### datetime()
 
 - datetime(): Returns the current time in UTC
-- datetime(datetime|string):
 
 ##### list()
 
-- list(bag|list, [bag|list], ...): Takes an arbitrary number of `bag` or `list` values as input and flattens them into a single `list`
-
-##### bag()
-
-- bag(node, [node], ...): Takes an arbitrary number of named nodes and adds them to a new `bag`
-
-**Other functions**
+- list(bag | list, ...[bag | list]): Takes a number of `bag` or `list` values as input and flattens them into a single `list`
 
 ##### lookup-to-list()
 
-- lookup-to-list(lookup, [lookup], ...): Takes an arbitrary number of `lookup` values, converts each of them to a `bag` with the `ufx-id` and `ufx-logicalname` metadata set, and flattens them into a single `list`
-##### prop() 
+- lookup-to-list(lookup, ...[lookup]): Takes a number of `lookup` values, converts each of them to a `bag` with the `ufx-id` and `ufx-logicalname` metadata set, and flattens them into a single `list`
 
-- prop(string, any): Creates a named node usually for use with the `bag()` function
+##### option-to-list()
 
-##### group()
-
-- group(list, string): 
-
-##### find()
-
-- find(group, string)
+- option-to-list(option, ...[option]): Takes a number of `option` values, converts each of them to a `bag` with a single `option` property, and flattens them into a single `list`
 
 ##### order()
 
-- order(list, string, bool):
-- order(list, list): 
+- order(list, string, bool): Orders a list by a property in each bag. The property is specified in argument 2, descending is specified in argument 3.
+- order(list, list): Order a list by multiple sort orders specified as a list in argument 2. Each `bag` in the second list can have a `name` and `descending` property
 
 ##### iif()
 
-- iif(any, any): If argument 1 is true, returns argument 1, otherwise returns argument 2
 - iif(any, any, any): If argument 1 is true, returns argument 2, otherwise returns argument 3
-
-##### dateadd()
-
-- dateadd(string, datetime, int)
-
-##### datepart()
-
-- datepart(string, datetime)
-
-##### datediff()
-
-- datediff(string, datetime, datetime)
 
 
 #### Appendix D: UFX XPath Variables
 
-
 Name | Description
 --- | ---
 $input | A `bag` available to the UFX Query with input values
-$null | A null constant
+$null | A null constant. Selecting `$null` on a property removes the property from the bag
 $current | Reference to the current bag being processed by the UFX Query
-
-
