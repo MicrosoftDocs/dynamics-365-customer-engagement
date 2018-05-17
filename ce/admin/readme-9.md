@@ -51,7 +51,7 @@ Services and apps availability
 | Embedded intelligence - Email engagement             | X  |                |                 |
 | Customer Insights                                    |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                       |    | X              |                 |
-| Mobile offline (Dynamics 365 for tablets and phones) | X  |                |                 |
+| Mobile offline (Dynamics 365 for phones and tablets) | X  |                |                 |
 | Sales insights add-on – Relationship analytics       |    | X              |                 |
 
 Transport Layer Security (TLS) Requirements
@@ -310,6 +310,8 @@ App modules and the app designer
 -   The Custom Business Process Flow entity that is created for a custom
     business process flow might not get automatically added to the app designer
     canvas when the business process flow is added to the app module.
+
+-   In the app designer, the option to set **App for Outlook Dashboard** as your default dashboard is available for all Unified Interface apps, but the dashboard is only supported for Dynamics 365 App for Outlook. If you select this dashboard for another app the dashboard will not load, and users will see a blank screen or error message.
 
 View designer
 -------------
@@ -600,7 +602,10 @@ update the preferred solution.
 Mobile Offline
 --------------
 
-We’re working to improve mobile offline capabilities for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline, we’ll let customers know. Existing customers who are already using mobile offline are not affected.
+We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
+
+> [!NOTE]
+> The mobile app for Dynamics 365 for Field Service continues to support mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
