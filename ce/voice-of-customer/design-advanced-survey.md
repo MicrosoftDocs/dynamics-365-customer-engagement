@@ -429,7 +429,7 @@ To configure scoring:
     - **NPS**: Net Promoter Score scoring type. Used specifically for Net Promoter Score.
 
     > [!NOTE]
-    > The **Score Definition** field is visible for single response questions and ratings.
+    > The **Scoring** list is visible for single response questions and ratings.
 
 9.	Save the changes.
 
