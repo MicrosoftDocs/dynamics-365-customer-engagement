@@ -51,7 +51,7 @@ Services and apps availability
 | Embedded intelligence - Email engagement             | X  |                |                 |
 | Customer Insights                                    |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                       |    | X              |                 |
-| Mobile offline (Dynamics 365 for tablets and phones) | X  |                |                 |
+| Mobile offline (Dynamics 365 for phones and tablets) | X  |                |                 |
 | Sales insights add-on – Relationship analytics       |    | X              |                 |
 
 Transport Layer Security (TLS) Requirements
@@ -602,7 +602,7 @@ update the preferred solution.
 Mobile Offline
 --------------
 
-We’re working to improve mobile offline capabilities for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline, we’ll let customers know. Existing customers who are already using mobile offline are not affected.
+We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
 
 > [!NOTE]
 > The mobile app for Dynamics 365 for Field Service continues to support mobile offline capabilities for existing and new customers.
