@@ -41,7 +41,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
 6.  Using the Parent and Child case settings, specify the information that will be inherited from a parent case to the child case. You can also select a case closure setting that defines how parent and child cases are closed. Select one of the case closure preference for parent and child cases:  
   
-    - **Close all child cases when parent case is closed**: The parent case can’t be closed until all the child cases are closed.  
+    - **Close all child cases when parent case is closed**: The child case will be closed when  the parent case is closed.  
   
     - **Don’t allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.  
   
