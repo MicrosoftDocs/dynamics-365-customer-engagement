@@ -47,7 +47,7 @@ You can create a theme for your survey to match your company's style. Themes def
 
 **Voice of the Customer app**
 
-Voice of the Customer app provides a WYSIWYG theme designer. This allows you to see how a survey will look when the theme is applied to it. In addition to modifying theme colors, you can also modify the font, font, size, and font color of the elements in the survey.
+Voice of the Customer app provides a WYSIWYG theme designer. This allows you to see how a survey will look when the theme is applied to it. In addition to modifying theme colors, you can also modify the font type, font size, and font color of the elements in the survey.
 
 1. [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
@@ -244,8 +244,7 @@ You can add more pages as required by your survey.
 8.	To add a new page or edit an existing page, see [Add or edit a page](#add-or-edit-a-survey-page).
 
     > [!NOTE]
-    > - Drag-and-drop editing only works with a mouse or other pointing device. It's not supported through devices with touch screens, like tablets.
-    > - Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
+    > Do not copy and paste the question text from the question editor. You must copy and paste from [!INCLUDE[pn-notepad](../includes/pn-notepad.md)], and then format it by using the question editor.
 
 9. To personalize your survey with fields like the customer's name or service case number, use piped data. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Personalize a survey](#personalize-a-survey)  
 

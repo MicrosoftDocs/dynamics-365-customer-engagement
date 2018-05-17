@@ -115,6 +115,8 @@ For example, for the question **How likely is it that you would recommend us to 
 
     - **Server**: Choose this if the action occurs outside of the survey (for example, request contact or unsubscribe). Under **Server**, select the action type, and then select the users or queues to notify, if applicable. Select **Save**.
 
+    ![Survey response routing action](media/response-action-uci.png "Survey response routing action")
+
 15.	Navigate to the response routing rule you created.
 
 16.	Under **Actions**, select **Add Existing Response Action**. A pane on the right side of the screen appears.
@@ -126,6 +128,8 @@ For example, for the question **How likely is it that you would recommend us to 
 19.	In the **Otherwise** section, create an action by following the steps you took to add a response action. This action is triggered when the previously mentioned response action does not meet the specified response condition.
 
     For example, you added a Net Promoter Score question to the survey and you want to collect feedback when the rating is less than 5.
+
+    ![Survey response routing otherwise action](media/response-action-otherwise-uci.png "Survey response routing Otherwise action")
 
 ### Client-side routing
 
