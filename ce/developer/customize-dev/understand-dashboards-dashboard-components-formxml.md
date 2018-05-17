@@ -41,7 +41,7 @@ Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm]
   
 ### IFRAMEs  
  When you add an IFRAME to an organization-owned dashboard, you can specify whether to restrict or allow cross-frame scripting. 
- To do so, you have to use the `<Security>` parameter in the IFRAME control in the FormXML. However, for user-owned dashboards, cross-frame scripting for IFRAMEs is restricted, and you can’t change it. If you attempt to create a user-owned dashboard that contains an IFRAME with cross-frame scripting enabled, an error message will be displayed. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use an IFRAME and Web Resource controls on a form](../clientapi/use-iframe-web-resource-controls-on-form.md).  
+ To do so, you have to use the `<Security>` parameter in the IFRAME control in the FormXML. However, for user-owned dashboards, cross-frame scripting for IFRAMEs is restricted, and you can’t change it. If you attempt to create a user-owned dashboard that contains an IFRAME with cross-frame scripting enabled, an error message will be displayed.  
   
 ### Web resources  
  Only form-enabled web resources can be included in a dashboard. Although this restriction is applicable when you are adding a web resource using the Dashboard designer in the web application, there is no such restriction applied when adding a web resource to a dashboard using the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web Resources for Microsoft Dynamics 365](../web-resources.md)  

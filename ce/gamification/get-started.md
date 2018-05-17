@@ -1,17 +1,18 @@
 ---
 title: "Concepts used in Dynamics 365 – Gamification | Microsoft Docs"
 description: "Learn about the underlying concepts of Gamification before setting up the details for your games."
-ms.custom: ""
+ms.custom:
+  - dyn365-gamification
 ms.date: 05/31/2017
 ms.reviewer: ""
-ms.service: gamification
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: get-started-article
 applies_to: Dynamics 365 (online)
 ms.assetid: f37b3fc7-2c99-46ac-aa75-526baac4d434
 caps.latest.revision: 26
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
 ---

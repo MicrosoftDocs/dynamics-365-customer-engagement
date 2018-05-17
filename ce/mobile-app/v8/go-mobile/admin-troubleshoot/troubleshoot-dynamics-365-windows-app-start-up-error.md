@@ -38,7 +38,7 @@ Did you receive this error?
 ## If you’re using a Windows phone  
  You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)] [TechNet: Support for Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531131.aspx)  
   
-## See Also  
+### See also  
  [Install Dynamics 365 for phones and tablets](../get-started/install.md)   
  [TechNet: Support for Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531131.aspx)   
  [TechNet: Set up Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531128.aspx)   

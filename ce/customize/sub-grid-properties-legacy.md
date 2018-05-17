@@ -1,30 +1,26 @@
 ---
-title: Sub-Grid properties for Main forms (Dynamics 365 Customer Engagement) | MicrosoftDocs
-description: Understand the Sub-Grid properties for Main forms in Dynamics 365 for Customer Engagement
+title: Sub-Grid properties for main forms in PowerApps | MicrosoftDocs
+description: Understand the Sub-Grid properties for main forms
 Keywords: Main form; Sub-Grid properties; Dynamics 365
-author: anjgupta
+author: Mattp123
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-ms.author: anjgup
-manager: sakudes
-ms.date: 03/15/2018
+  - "powerapps"
+ms.author: matp
+manager: kvivek
+ms.date: 04/24/2018
 ms.service: crm-online
 ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 82892cd3-3436-4677-b96b-f2ccd0a4f078
 ---
-# Sub-Grid properties
+# Sub-Grid properties overview
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-[This topic is under revision and is subject to change]
+You can configure a sub-grid on a form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
 
-You can configure a sub-grid on a Dynamics 365 Customer Engagement form to display a list of records or a chart. Select **Show Chart Only** on the **Display** tab to show a chart instead of a list.  
-
-You can access **Sub-Grid properties** by selecting **Settings** > **Customizations** > **Customize the System**. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select Sub-Grid to view Sub-Grid properties.
+You can access **Sub-Grid properties** in solution explorer. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. In the list of forms, open the form of type **Main**. Then on the **Insert** tab, select **Sub-Grid** to view sub-grid properties.
 
 ![sub-grid properties](media/sub-grid-properties.png)
   
@@ -58,8 +54,6 @@ You can access **Sub-Grid properties** by selecting **Settings** > **Customizati
  When you select **Only Related Records** the view will open using one of the associated views in the same window. To return to the form, use the back button or choose the current record primary name value in the navigation bar.  
   
  When you select **All Record Types** the view will open in a new window.  
-  
-
 
 ## Add record behavior  
  When displaying a list in forms with the [Updated forms](main-form-presentations.md#updated-forms), each sub-grid displays the **Add record** button ![Add button](../customize/media/crm-itpro-cust-subgridadd.PNG "Add button") in the top right side of the sub-grid. Choosing this button will allow you to add a record. This behavior will change depending on the option chosen for the **Records** property and if the lookup is for activity records.  
@@ -70,8 +64,6 @@ You can access **Sub-Grid properties** by selecting **Settings** > **Customizati
   
  If the sub-grid displays activities, people will first need to choose the type of activity and then they will see the “add new record” behavior.  
   
-
-
 ## Delete record behavior  
  When you select a record in a sub-grid the **Delete** button ![Sublist delete icon](../customize/media/crm-itpro-cust-subgriddelete.PNG "Sublist delete icon") appears on the right side of the row. The behavior of this delete action is different depending on the type of relationship with the current entity.  
   

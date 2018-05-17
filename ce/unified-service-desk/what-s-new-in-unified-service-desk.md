@@ -1,10 +1,11 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features for developers and customizers in Unified Service Desk."
-ms.custom: ""
-ms.date: 02/06/2018
+ms.custom:
+  - dyn365-USD
+ms.date: 04/24/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,12 +16,35 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: 1c6da924-cfef-4cbf-a6d5-63af8f1a640d
-author: "kabala123"
-ms.author: "kabala"
-manager: "sakudes"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
-# What&#39;s new in Unified Service Desk for developers and customizers
-This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.  
+# What's new in Unified Service Desk for developers and customizers
+This topic contains information about changes in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] for developers and system customizers.
+
+<a name="WhatsNew33"></a>   
+## What's new in [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)]  
+ 
+Developers and customizers will be able to use the following new features in the [!INCLUDE [pn-unified-service-desk-3-3](../includes/pn-unified-service-desk-3-3.md)] release.
+
+### Public Preview Feature: Support for Unified Interface Apps in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
+
+With this release, [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] supports the apps built using Unified Interface framework. That is, you can load a URL or page from Dynamics 365, which is built based on the Unified Interface framework.
+
+The experience of the supportability is that the Unified Interface Page hosted control type exposes number of predefined UII actions and events that are unique to handling of Dynamics 365 windows built using Unified Interface framework including list manipulation actions, and a find action for displaying a quick search or advanced search page. 
+
+A new hosted control type called **Unified Interface Page** is introduced, which you need to set as **USD Component Type** while creating a hosted control to use URL or page from [!include[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. 
+
+When you sign in to [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you can see an app module selection window that is introduced as part of the Unified Interface supportability. You need to select a Unified Interface app from the list and experience the app in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].
+
+### Custom Styles field  in Toolbar
+
+You can now customize the toolbar in Unified Service Desk using the custom styles field in the Toolbar configuration window.  The Custom Styles field supports Extensible Application Markup Language (XAML) that defines <xref:System.Windows.ResourceDictionary> of <xref:System.Windows.Style> and <xref:System.Windows.Media.Brush> resources.
+ 
+The resources in the dictionary refers to other resources that are available on Unified Service Desk client application. Loading and parsing the XAML string is performed at runtime to create <xref:System.Windows.ResourceDictionary> and merge the resources of the toolbar control with the <xref:System.Windows.ResourceDictionary>. In addition, the <xref:System.Windows.ResourceDictionary> can have styles for button types inside a toolbar. Using the styles, you can customize the toolbars and buttons.
+
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md) and [Toolbars in Unified Service Desk](../unified-service-desk/toolbars-unified-service-desk.md)
 
 <a name="WhatsNew32"></a>   
 ## What's new in [!INCLUDE [pn-unified-service-desk-3-2](../includes/pn-unified-service-desk-3-2.md)] 

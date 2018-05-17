@@ -1,10 +1,11 @@
 ---
 title: "Deploy sample Unified Service Desk for Dynamics 365 Customer Engagement applications using Package Deployer | MicrosoftDocs"
 description: "Learn how to use Package Deployer to import a Unified Service desk sample application."
-ms.custom: ""
-ms.date: 08/23/2017
+ms.custom:
+  - dyn365-USD, dyn365-admin
+ms.date: 04/24/2018
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -15,10 +16,9 @@ applies_to:
   - "Dynamics CRM 2015"
   - "Dynamics CRM 2016"
 ms.assetid: fe906d8e-a06b-46e6-84c9-0c0710157b33
-caps.latest.revision: 18
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Overview of Package Deployer and the sample applications
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] comes with  sample applications that you can use as the base for starting with your configuration of your agent application.  
@@ -38,15 +38,17 @@ manager: "amyla"
   
 |Sample application|Description|  
 |------------------------|-----------------|  
-|Upgrade|This sample application package will upgrade an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution where:.<br /><br /> -   You want to upgrade an existing [!INCLUDE[pn_unified_service_desk_20](../../includes/pn-unified-service-desk-20.md)] solution without affecting the existing configuration data.<br />-   You want to install a new [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution that doesn't include a sample configuration in an environment where no [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution is currently installed. **Note:**  Because there are no sample configurations included with the Upgrade sample application, when you install this sample application in an environment that does not already have a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution configured, you must  provide a configuration to make it useful. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)|  
-|New Environment|This sample application package can be used to help accelerate setting up the new development environment for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Install this package in a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] non-production organization that does not have an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution configured or sample application installed. For more information about the scenarios supported in this sample application, see [Unified Service Desk New Environment sample package](../../unified-service-desk/admin/unified-service-desk-new-environment-package.md).|  
-|Interactive Service Hub|Interactive Service Hub provides an intuitive interface to simplify the day-to-day job for customer support agents. Interactive Service Hub displays all the vital information related to customers in one place and lets customer support agents focus on things that require attention. Interactive Service Hub is available with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] and [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] (on-premises) or later.      For more information about the scenarios supported in this sample application, see [Unified Service Desk Interactive Service Hub package](../../unified-service-desk/admin/unified-service-desk-interactive-service-hub-package.md ).<br /><br /> This sample application package contains the solutions and sample configuration data, which demonstrates how you can integrate Interactive Service Hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].|  
-|Dynamics 365 Web Client|The sample application package demonstrates customer service scenarios that can be delivered using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and Microsoft Dynamics CRM 2013 or later. This sample helps administrators and system customizers understand the configurability of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. For more information about the scenarios supported in this sample application, see [Unified Service Desk 365 Web Client package](../../unified-service-desk/admin/unified-service-desk-dynamics-365-web-client-package.md).|  
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Upgrade|This sample application package will upgrade an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution where:.<br /><br /> -   You want to upgrade an existing [!INCLUDE[pn_unified_service_desk_20](../../includes/pn-unified-service-desk-20.md)] solution without affecting the existing configuration data.<br />-   You want to install a new [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution that doesn't include a sample configuration in an environment where no [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution is currently installed. **Note:**  Because there are no sample configurations included with the Upgrade sample application, when you install this sample application in an environment that does not already have a [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution configured, you must  provide a configuration to make it useful. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Core concepts for configuring Unified Service Desk](../../unified-service-desk/core-concepts-for-configuring-unified-service-desk.md)|  
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - New Environment|This sample application package can be used to help accelerate setting up the new development environment for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. Install this package in a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] non-production organization that does not have an existing [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solution configured or sample application installed. For more information about the scenarios supported in this sample application, see [Unified Service Desk New Environment sample package](../../unified-service-desk/admin/unified-service-desk-new-environment-package.md).|  
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Interactive Service Hub|Interactive Service Hub provides an intuitive interface to simplify the day-to-day job for customer support agents. Interactive Service Hub displays all the vital information related to customers in one place and lets customer support agents focus on things that require attention. Interactive Service Hub is available with [!INCLUDE[pn_CRM_Online](../../includes/pn-crm-online.md)] and [!INCLUDE[pn_crm_2016](../../includes/pn-crm-2016.md)] (on-premises) or later.      For more information about the scenarios supported in this sample application, see [Unified Service Desk Interactive Service Hub package](../../unified-service-desk/admin/unified-service-desk-interactive-service-hub-package.md ).<br /><br /> This sample application package contains the solutions and sample configuration data, which demonstrates how you can integrate Interactive Service Hub with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].|  
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Web Client|The sample application package demonstrates customer service scenarios that can be delivered using [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] and Microsoft Dynamics CRM 2013 or later. This sample helps administrators and system customizers understand the configurability of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)]. For more information about the scenarios supported in this sample application, see [Unified Service Desk 365 Web Client package](../../unified-service-desk/admin/unified-service-desk-dynamics-365-web-client-package.md).|
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - Unified Interface| This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] solutions. It helps you to integrate Unified Interface apps with [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] environment.<br><br> **Note:** The Unified Interface sample application is available for use from [!INCLUDE[pn-unified-service-desk-3-3](../../includes/pn-unified-service-desk-3-3.md)]. |
+|[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)]| This sample package contains the core User Interface Integration (UII) and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] - [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] solutions. [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes the compliance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with best practice rules in certain categories. The [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] displays the results of analysis in the form of a report with severity levels, description of the parameter, and mitigation for the non-compliant rules.<br><br> **Note:** This package is available separately for [!INCLUDE [pn-unified-service-desk-3-2](../../includes/pn-unified-service-desk-3-2.md)] or lower versions until [!INCLUDE [pn-unified-service-desk-2-2](../../includes/pn-unified-service-desk-2-2.md)].|
   
 <a name="Deploy"></a>   
 ## Deploy a sample Unified Service Desk package using Package Deployer  
   
-1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=854761) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.  
+1.  [Download](http://go.microsoft.com/fwlink/p/?LinkID=872261) the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package file from the [!INCLUDE[pn_Microsoft_Download_Center](../../includes/pn-microsoft-download-center.md)], and save it on your computer.  
   
 2.  Run the downloaded file to extract the contents into a folder.  
   
@@ -64,11 +66,11 @@ manager: "amyla"
   
 8.  The next screen displays detailed information about the selected package and the things that will be installed on your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance. Review the information, and choose **Next**.  
   
-9. The **Ready to Install** screen displays the package selected for deployment and name of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization where it will be deployed to. Review the information, and choose **Next**.  
+9. The **Ready to Install** screen displays the package selected for deployment and name of the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization where it will be deployed to. Review the information, and choose **Next**.
+
+ ![Package Ready](../../unified-service-desk/media/usd-package-deployer-2.png "Package Ready")
   
-10. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**.  
-  
- ![Package validation results](../../unified-service-desk/media/usd-package-deployer-3.png "Package validation results")  
+10. The next screen displays the validation status of the package selected to be deployed. After the validation completes successfully, choose **Next**. 
   
 11. The next page displays the package deployment status. You can choose the log link at the bottom-left corner of the screen to view the package deployment log file, PackageDeployer.log. For more information about logging, see [Troubleshoot package deployment issues using log files](../../unified-service-desk/admin/deploy-sample-unified-service-desk-applications-using-package-deployer.md#Logfiles) later in this topic. A confirmation message is displayed on successful deployment of the package. Click **Next**.  
   
@@ -78,7 +80,7 @@ manager: "amyla"
   
 <a name="Remove"></a>   
 ## Remove a sample Unified Service Desk package  
- When you deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package in a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the following three managed solutions are created:  
+ When you deploy a sample [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package in a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the following three managed solutions are created:
   
 -   UiiforMicrosoftDynamicsCRM  
   
@@ -112,8 +114,8 @@ manager: "amyla"
 - **ComplexImportDetail.log**: This provides detailed information about the data imported in the last deployment using the tool. Each time you deploy a package using this tool, the existing details from the log file are moved to a file called CompelxImportDetail._old.log in the same directory, and the ComplexImportDetail.log file displays information about the latest import done using the tool.  
   
 <a name="PostDeployment"></a>   
-## Post-deployment step for the Interactive Service Hub package  
- If you have deployed the **Interactive Service Hub** package, you must manually activate the following records in the **Service Management** area (**Settings** > **Service Management**) that are created by the package:  
+## Post-deployment step for the package  
+ If you have deployed the **Customer Service Hub** package, you must manually activate the following records in the **Service Management** area (**Settings** > **Service Management**) that are created by the package:  
   
 |Entity|Records to be activated|  
 |------------|-----------------------------|  
@@ -122,7 +124,7 @@ manager: "amyla"
 |Routing Rule Sets|Routing Rule|  
 |Automatic Case Creation Rules|Email to Case Rule|  
   
- The **Interactive Service Hub** package also creates sample queue, customer service schedule, and holiday schedule records.  
+ The **Customer Service Hub** package also creates sample queue, customer service schedule, and holiday schedule records.  
     
   
 ## See also  

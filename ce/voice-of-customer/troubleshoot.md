@@ -2,8 +2,8 @@
 title: "Troubleshoot Voice of the Customer | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Voice of the Customer solution."
 keywords: "troubleshoot voice of the customer"
-ms.date: 05/03/2018
-ms.service: crm-online
+ms.date: 05/17/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,8 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Troubleshooting the Voice of the Customer solution

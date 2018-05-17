@@ -1,10 +1,11 @@
 ---
 title: "Configure Unified Service Desk to use Dynamics 365 or Parature knowledge | MicrosoftDocs"
 description: "Learn about the knowledge management solution in Microsoft Dynamics 365 that guides you through the process of creating and publishing rich knowledge articles with multimedia data like pictures and videos."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: c2e0f4b1-c09a-413c-b703-03ff851ffb9d
 caps.latest.revision: 9
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Configure Unified Service Desk to use Dynamics 365 or Parature knowledge
 The **KM Control** type of hosted control exposes a bunch of events and action calls to configure an integrated experience for your agents to easily search for knowledge base articles in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] or [!INCLUDE[pn_parature](../includes/pn-parature.md)] from within [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], and then perform various actions on the search result items.  

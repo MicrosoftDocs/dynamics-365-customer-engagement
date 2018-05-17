@@ -17,6 +17,11 @@ manager: "michu"
 
 - [!include[](../../includes/pn-crm-9-0-0-online.md)]
 - [!include[](../../includes/pn-crm-2016.md)]
+
+**Applies to**:
+
+- [!include[](../../includes/pn-crm-9-0-0-online.md)]
+- [!include[](../../includes/pn-crm-2016.md)]
 - [!include[](../../includes/pn-crm-8-1-0-both.md)]
 - [!include[](../../includes/pn-crm-2015.md)]
 - [!include[](../../includes/pn-crmv6.md)]
@@ -36,7 +41,7 @@ Duplicate plug-in step registration will cause the plug-in to fire multiple time
 - Degraded user performance experience when registered as a synchronous execution mode. Experiences include:
     - Unresponsive client pages
     - Slow client interactions
-    - The browser "hanging" in an unresponsive state
+    - The browser stops responding
 
 <a name='guidance'></a>
 

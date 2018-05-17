@@ -2,18 +2,19 @@
 title: "Create a unit group and add units to that group (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Define the quantities or measurements that you sell your products or services in by using units in Dynamics 365 for Sales."
 keywords: "unit, unit group, measurement, quantity"
-ms.date: 04/01/2018
-ms.service: crm-online
-ms.custom: 
+ms.date: 05/15/2018
+ms.service:
+  - "dynamics-365-sales"
+ms.custom:
+  - "dyn365-sales"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
 ms.assetid: af99268c-9dc3-4037-b3cc-3d2a0eb2b296
 author: shubhadaj
 ms.author: shujoshi
-manager: brycho
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -27,7 +28,7 @@ topic-status: Drafting
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.  
   
- In [!INCLUDE[pn-sales-enterprise-doc-name-shortest](../includes/pn-sales-enterprise-doc-name-shortest.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
+ In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you first create a unit group and then create units within that group. Let's look at both of these tasks, using seeds as our example.  
  
 ## Create a unit group and add units (Sales Hub app)
 
@@ -60,7 +61,7 @@ Currently, creating a unit group or adding units isn't supported in the Sales Hu
   
     - **Primary Unit**. Type the lowest common unit of measure that the product will be sold in. In our example, you would type "packet." Other examples could include ounces, hours, or tons, depending on your product or service.  
   
- ![Shows how to create a unit group in Dynamics 365](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 for Sales")  
+      ![Shows how to create a unit group in Dynamics 365](../sales-enterprise/media/v7-unit-group-mobile-single.png "Shows how to create a unit group in Dynamics 365 for Sales")  
   
 6.  Select **OK**.  
   
@@ -69,11 +70,17 @@ Currently, creating a unit group or adding units isn't supported in the Sales Hu
   
 ## Step 2: Create units in a unit group  (Sales app)
   
-1.  In the unit group you want to add the units to, in the left pane, under **Common**, select **Units**, and then on the **Units** tab, in the **Records** group, select **Add New Unit**.  
+1.  In the unit group record you want to add the units to, on the nav bar, select the arrow next to the record name, and then under **Common**, select **Units**.
+
+    ![Arrow in the Unit Group record](media/arrow-unit-group-record.png "Arrow in the Unit Group record")
+
+    ![Select Units in the Unit group record](media/add-units-in-unit-group-record.png "Select Units in the Unit group record")
+  
+2. Select **Add New Unit**.  
   
      The unit that you specified as the primary unit earlier is already in the list of units.  
   
-2.  Fill in your information:  
+3.  Fill in your information:  
   
     1. **Name**. Type a meaningful name for the unit. In our example, you would type "box."  
   
@@ -85,11 +92,11 @@ Currently, creating a unit group or adding units isn't supported in the Sales Hu
   
      Here's how:  
   
- ![Create a unit in the unit group in Dynamics 365](../sales-enterprise/media/v7-unit-pack.png "Create a unit in the unit group in Dynamics 365 for Sales")  
+    ![Create a unit in the unit group in Dynamics 365](../sales-enterprise/media/v7-unit-pack.png "Create a unit in the unit group in Dynamics 365 for Sales")  
   
- ![Creating a unit with a base unit in Dynamics 365](../sales-enterprise/media/v7-unit-box.png "Creating a unit with a base unit in Dynamics 365 for Sales")  
+    ![Creating a unit with a base unit in Dynamics 365](../sales-enterprise/media/v7-unit-box.png "Creating a unit with a base unit in Dynamics 365 for Sales")  
   
-3.  Select **Save** or **Save and Close**.  
+4.  Select **Save** or **Save and Close**.  
   
 ## Typical next steps  
  ![Right arrow button](../sales-enterprise/media/walkthrough-orange-right-arrow.png "Right arrow button") [Create a product](../sales-enterprise/create-product-sales.md)  

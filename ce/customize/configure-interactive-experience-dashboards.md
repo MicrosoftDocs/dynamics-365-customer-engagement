@@ -43,17 +43,17 @@ Interactive experience dashboards can be a one-stop workplace for app users, suc
 ### Multi-stream dashboard standard view  
  In the multi-stream dashboard, you see a row of visual filters at the top with the data streams below them.  
   
- ![Multi&#45;stream interactive dashboard](../customize/media/interactive-dashboards-multi-stream.png "Multi-stream interactive dashboard")  
+ ![Multi-stream interactive dashboard](../customize/media/interactive-dashboards-multi-stream.png "Multi-stream interactive dashboard")  
   
 ### Multi-stream dashboard tile view  
  The same dashboard, only in the tile view.  
   
- ![Multi&#45;stream dashboard tile view](../customize/media/interactive-dashboards-multi-stream-tiles.png "Multi-stream dashboard tile view")  
+ ![Multi-stream dashboard tile view](../customize/media/interactive-dashboards-multi-stream-tiles.png "Multi-stream dashboard tile view")  
   
 ### Multi-stream dashboard layouts  
  For multi-stream dashboards, you can choose from four different layouts.  
   
- ![Multi&#45;stream dashboard layouts](../customize/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
+ ![Multi-stream dashboard layouts](../customize/media/interactive-dashboards-multi-stream-layout.png "Multi-stream dashboard layouts")  
   
 ### Multi-stream entity-specific dashboard  
  The entity-specific dashboard for the `Case` entity is shown here.  
@@ -63,12 +63,12 @@ Interactive experience dashboards can be a one-stop workplace for app users, suc
 ### Single-stream dashboard  
  The single-stream dashboard contains the data stream on the left and visual filters and tiles on the right.  
   
- ![Single&#45;stream interactive service hub dashboard](../customize/media/interactive-dashboards-single-stream.png "Single-stream interactive service hub dashboard")  
+ ![Single-stream interactive service hub dashboard](../customize/media/interactive-dashboards-single-stream.png "Single-stream interactive service hub dashboard")  
   
 ### Single-stream dashboard layouts  
  For single-stream dashboards, you can choose from four different layouts.  
   
- ![Single&#45;stream dashboard layouts.](../customize/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts.")  
+ ![Single-stream dashboard layouts.](../customize/media/interactive-dashboards-single-stream-layout.png "Single-stream dashboard layouts.")  
   
 <a name="BKMK_Enable"></a>   
 ## Configure entities, fields, and security roles for the interactive dashboards  
@@ -135,7 +135,7 @@ The following procedure provides the steps for setting the global filter flag:
 ### Configure sortable fields  
  For a field to be used in sorting stream data, you have to set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear in the drop-down list in the **Edit Property** flyout dialog when the user clicks **More (…)** on the stream header. The following illustration shows the flyout dialog with the list of the available fields for sorting, in the **Sort By** drop-down list. The default sort is always set on the **Modified On** field.  
   
- ![Sort by drop&#45;down list](../customize/media/interactive-dashboard-sortable-fields-dropdown.png "Sort by drop-down list")  
+ ![Sort by drop-down list](../customize/media/interactive-dashboard-sortable-fields-dropdown.png "Sort by drop-down list")  
   
 The following procedure provides the steps for setting the sort flag:
   
@@ -281,7 +281,7 @@ In previous releases, if you wanted to change one of the streams of an existing 
 ### Configure a single-stream dashboard  
  Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. If the tiles are included, they are always displayed on the dashboard. To configure a tile, you click on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
- ![Add a tile to the single&#45;stream dashboard](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
+ ![Add a tile to the single-stream dashboard](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
   
 <a name="BKMK_ConfigureColors"></a>   
 ## Configure dashboard colors  

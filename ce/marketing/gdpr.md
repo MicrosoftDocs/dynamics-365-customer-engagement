@@ -3,7 +3,7 @@ title: "Work with data protection and GDPR (Dynamics 365 for Marketing) | Micros
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 for Marketing"
 keywords: "GDPR; data protection; privacy"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,8 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Data protection and the GDPR
@@ -85,6 +87,8 @@ All contact records include a **Data protection** section with a drop-down list 
 ## Filter segments by consent
 
 You can filter segments by consent level just like you can when filtering by other contact values.
+
+<a name="journey-consent-level"></a> 
 
 ## Set the minimum required consent level for a customer journey
 

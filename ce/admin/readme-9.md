@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 04/23/2018
+ms.date: 05/16/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -388,12 +388,6 @@ Field controls and mobile application in Unified Interface
 -   The Phone Call activity quick-create form isn't opened when the call action
     is initiated on the mobile app.
 
--   Date fields can't be set in Internet Explorer 11, Firefox, or Microsoft
-    Edge.
-
--   The date time control uses the browser locale instead of the user locale for
-    editing.
-
 -   In text controls, long strings don’t get wrapped in read mode.
 
 -   Unable to add an unresolved email ID to a party list.
@@ -448,26 +442,6 @@ Date time control in Unified Interface
 The date time control in Unified Interface relies on browser support. It has
 known issues in browsers such as Internet Explorer 11 and Firefox. It also has
 localization and format issues.
-
-Activities in Unified Interface
--------------------------------
-
--   Unable to resolve the email address of a contact for received email.
-
--   From the timeline wall, the main form is opened for activities instead of a
-    quick create form.
-
--   You cannot delete an entity record if it has an activity associated with it.
-
-    -   Deleting a resolved case, closed opportunity, closed order, or closed
-        quote will also result in failure.
-
--   In Customer Service Hub dashboard, an error is seen on Show Chart. The
-    workaround is either to refresh the page or to load another chart and then
-    navigate back to the chart which had the error.
-
--   In Customer Service Hub, Activities grid does not have Open Dashboard
-    command in Task/Phone Call/Email/Appointment view.
 
 Dynamics 365 App for Outlook
 ----------------------------
@@ -626,11 +600,7 @@ update the preferred solution.
 Mobile Offline
 --------------
 
-We are not onboarding additional customers to mobile offline until further
-notice. We are currently improving this feature to make it more broadly
-available. We do not currently have a date for when onboarding will resume, but
-we will update our documentation when we have additional information. This does
-not affect existing customers who already use mobile offline.
+We’re working to improve mobile offline capabilities for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline, we’ll let customers know. Existing customers who are already using mobile offline are not affected.
 
 Unified Service Desk
 --------------------
@@ -638,28 +608,29 @@ Unified Service Desk
 -   Download and update your Unified Service Desk to the [latest
     version](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk).
     If you want to continue to use versions of Unified Service Desk older than
-    3.1.0, you will need to update the client desktop’s registry entries. Read
-    the
+    3.1, you will need to update the client desktop’s registry entries. Read the
     [blog](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/)
     about Unified Service Desk and TLS 1.2 mandate to update these registry
     entries.
 
--   Apps built using Unified Interface are not supported with Unified Service
-    Desk. More information: [Unified Interface framework for new
-    apps](https://docs.microsoft.com/en-us/dynamics365/get-started/whats-new/customer-engagement/new-in-version-9#unified-interface-framework-for-new-apps)
+-   You can integrate apps built using Unified Interface in the Unified Service
+    Desk using the preview capabilities in [version
+    3.3](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/whats-new-unified-service-desk-administrators#whats-new-in-includepn-unified-service-desk-3-3includespn-unified-service-desk-3-3md).
+    This support is not available in earlier versions. More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
-    release, Interactive Service Hub has been rebuilt as a Unified Interface
-    app, and is called Customer Service Hub. This implies
+    release, Interactive Service Hub has been rebuilt as a Unified Interface app
+    and is called Customer Service Hub. This implies
     that [support](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/interactive-service-hub-page-hosted-control) for
     the Interactive Service Hub in Unified Service Desk is available only if you
     are running Dynamics 365, version 8.2 or an earlier supported version of
-    Microsoft Dynamics CRM.
+    Microsoft Dynamics CRM. You can integrate with Customer Service Hub in
+    Unified Service Desk in the same way as any other Unified Interface app.
+    More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
 
 -   **Relationship Insights**: Although you can view information from the
     relationship assistant in the Unified Service Desk client, you cannot
-    interact with the information in the client. More information: [Embedded
-    intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
+    interact with the information in the client. More information: [Embedded intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
     not supported.
@@ -674,9 +645,9 @@ Unified Service Desk
     appid value in the URLs to refer to resources displayed in an app. For
     example:
     “https://.crm.dynamics.com/main.aspx?appid=b0f40cd2-22a6-e711-a94e-000d3a1a7a9b&pagetype=entitylist&etn=bookableresourcebooking.”
-    Unified Service Desk does not support the usage of appid values in URLs to
-    refer to a resource. More information: [Design custom business apps by using
-    the app
+    Unified Service Desk has added support for the usage of appid values in URLs
+    to refer to a resource from version 3.3. More information: [Design custom
+    business apps by using the app
     designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/design-custom-business-apps-using-app-designer)
 
 Third-party notice 

@@ -1,9 +1,10 @@
 ---
 title: "Create a quick campaign using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-sales
 ms.date: 08/31/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: ff906069-cba8-45cd-93e8-2b517c1d89d2
 caps.latest.revision: 43
-author: "shubhadaj"
-ms.author: "shujoshi"
-manager: "sakudes"
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ---
 # Create a quick campaign using in-app marketing (Sales)
 
@@ -47,7 +48,7 @@ Send an e-mail blast to customers who fit a specific demographic, a mail campaig
  
   
 ### See also  
- [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   

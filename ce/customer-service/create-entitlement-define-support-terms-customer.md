@@ -7,18 +7,20 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Create an entitlement to define the support terms for a customer (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them. accordingly  
+Define what kind of support your customers are eligible for by creating entitlements in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
   
 > [!NOTE]
 > This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../includes/pn-crm-online-2016-update-shortest.md)]. 

@@ -21,6 +21,15 @@ manager: "brycho"
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
+## May 5, 2018
+
+1. Fixed the issue of some known contacts appearing as Unknown Recipients in App for Outlook.
+2. Fixed the issue of server-side synchronization promoting some emails to Dynamics 365 multiple times.
+
+## April 20, 2018
+1. Horizontal scroll issues in App for Outlook on Outlook for iOS are now fixed. 
+2. Reliability improvements. 
+
 ## March 30, 2018
 1. Draft emails that are tracked in App for Outlook in compose mode from Outlook Web Access now display correct status in Dynamics 365. 
 2. Added accessibility enhancements to App for Outlook. 
