@@ -116,7 +116,7 @@ The following table describes the question types to use when you need to address
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  
 
 > [!NOTE]
-> The remaining question types from web client will be added to the Voice of the Customer app in a future release.
+> Some of the question types are supported only in web client as of now. They will be added to the Voice of the Customer app in a future release. If you want to use any of those question types, you can continue to use them in web client.
 
 ## Available workflows in Voice of the Customer
 
