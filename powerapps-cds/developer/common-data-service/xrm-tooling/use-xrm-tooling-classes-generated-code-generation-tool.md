@@ -18,7 +18,7 @@ manager: "amyla"
 ---
 # Use XRM tooling with classes generated using the code-generation tool
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 
 The <xref:Microsoft.Xrm.Tooling.Connector> assembly doesn’t directly provide interfaces for the entity and data context classes generated using the code-generation tool. However, you can use the [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement connection created by the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class to set up your entity and data context classes by using the code-generation tool. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create Early Bound Entity Classes with the Code Generation Tool (CrmSvcUtil.exe)](../org-service/create-early-bound-entity-classes-code-generation-tool.md)
   

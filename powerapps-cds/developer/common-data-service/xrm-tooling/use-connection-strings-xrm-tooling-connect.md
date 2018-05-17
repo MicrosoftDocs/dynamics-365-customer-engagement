@@ -18,7 +18,7 @@ manager: "amyla"
 ---
 # Use connection strings in XRM tooling to connect to Dynamics 365
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 
 With [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, XRM tooling enables you to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance by using connection strings. This is similar to the concept of connection strings used with [!INCLUDE[pn_MS_SQL_Server](../../includes/pn-ms-sql-server.md)]. Connection strings have native support in configuration files, including the ability to encrypt the configuration sections for maximum security. This enables you to configure [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] connections at deployment time, and not hard code in your application to connect to your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] instance.  
   

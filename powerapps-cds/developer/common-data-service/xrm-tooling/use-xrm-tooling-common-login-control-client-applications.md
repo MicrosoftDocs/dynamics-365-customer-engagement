@@ -18,7 +18,7 @@ manager: "amyla"
 ---
 # Use the XRM tooling common login control in your client applications
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 
 There is a template for [!INCLUDE[pn_Visual_Studio](../../includes/pn-visual-studio.md)] that enables you to use the common login control in your client applications. The code for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] authentication, credential storage and retrieval, and diagnostic logging is built into the template so that you can quickly leverage these capabilities in your Windows client applications for [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. The common login control is an implementation of the <xref:Microsoft.Xrm.Tooling.CrmConnectControl>, and the control resembles the following image.  
   

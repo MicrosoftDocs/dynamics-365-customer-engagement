@@ -18,7 +18,7 @@ manager: "amyla"
 ---
 # Use XRM tooling to execute actions in Dynamics 365
 
-[!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
+
 
 After you are connected to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] Customer Engagement, you can use the <xref:Microsoft.Xrm.Tooling.Connector.CrmServiceClient> class object to perform actions on your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] data such as create, update, retrieve or delete data. This section provides some examples on how you can perform actions in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] using XRM tooling.  
   
