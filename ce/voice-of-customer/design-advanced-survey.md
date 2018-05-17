@@ -359,6 +359,80 @@ You can configure your survey to automatically send an email response to the cus
 
 6.  Select **Save** in the lower-right corner of the screen.
 
+## Survey scoring
+
+A great feature of Voice of the Customer surveys is the ability to score individual questions or a group of questions in a survey.  This can be used in the following applications:
+- Create a custom ‘index’ to measure loyalty, satisfaction, pain, happiness, or any aspect based on more than one question, or more than one methodology. For example, you may choose to use Net Promoter Score as one measure and compare its effectiveness against a combination of Customer Effort Score and a service rating.
+- Take actions based on the total score of the survey. Rather than taking actions based on individual questions, it is possible to act based on a total score. For example, a customer may answer that they are satisfied to one question, but not satisfied to many others. In this case, it is possible to schedule a follow up appointment if the satisfaction index is less than 50% irrespective of the response to a single satisfaction question.
+
+The score is calculated as two percentages on the survey response:
+- Score as a percentage – this is the score of the questions answered (note that logic on the client side may mean not all questions are presented to the respondent).
+- Score as a percentage all routes – this is score of the questions answered divided by all the total possible score (irrespective if they were presented to the respondent).
+
+To configure scoring:
+
+**Web client**
+
+1.	Sign-in to Dynamics 365.
+
+2.	Go to **Voice of the Customer** > **Surveys**.
+
+3.	Select the name of the survey you want to configure scoring. The survey page opens.
+
+4.	Under **Invitations and Actions**, select **Yes** for the **Calculate Score** field.
+
+5.	Save the changes.
+
+6.	From the **Survey** box, select **Designer**.
+
+7.	Edit the questions you want to configure for scoring by selecting one of the following options from the **Score Definition** field:
+    - **Ignore**: Do not score
+    - **Auto (0 -100)**: Minimum value is assigned 0 points, maximum 100 points.
+    - **Auto (100-0)**: Maximum value is assigned 100 points, minimum value 0 points.
+    - **User Specified Range/Weight**: The left most value is assigned the value of the **Score Min Value** field that you specify. The **Score Max Value** field is the right most value.
+    
+    > [!NOTE]
+    > By specifying 10 in the minimum value and 1 in the maximum value, the field scoring can be reversed.
+    
+    - **NPS**: Net Promoter Score scoring type. Used specifically for Net Promoter Score.
+
+    > [!NOTE]
+    > The **Score Definition** field is visible for single response questions and ratings.
+
+8.	Save the changes.
+
+**Voice of the Customer app**
+
+1.  [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2.  Go to **Voice of the Customer** > **Surveys**.
+
+3.	Select the name of the survey you want to configure scoring. The survey page opens.
+
+4.	Under **Invitations and Actions**, select **Yes** for the **Calculate Score** field.
+
+5.	Save the changes.
+
+6.	From the **Survey** box, select **Designer**.
+
+7. Select the question you want to configure for scoring.
+
+8. In the **Properties** pane, select one of the following options from the **Scoring** list:
+    - **None**: Do not score
+    - **Auto (0 -100)**: Minimum value is assigned 0 points, maximum 100 points.
+    - **Auto (100-0)**: Maximum value is assigned 100 points, minimum value 0 points.
+    - **User Specified**: The left most value is assigned the value of the **Minimum score value** field that you specify. The **Maximum score value** field is the right most value.
+    
+    > [!NOTE]
+    > By specifying 10 in the minimum value and 1 in the maximum value, the field scoring can be reversed.
+    
+    - **NPS**: Net Promoter Score scoring type. Used specifically for Net Promoter Score.
+
+    > [!NOTE]
+    > The **Score Definition** field is visible for single response questions and ratings.
+
+9.	Save the changes.
+
 ### See also
 [Plan a survey](plan-survey.md)   
 [Design a basic survey](design-basic-survey.md)   
