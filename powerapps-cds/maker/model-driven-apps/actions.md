@@ -14,15 +14,13 @@ applies_to:
 ms.assetid: 1475985f-d3c4-429d-beac-cb455965e792
 caps.latest.revision: 20
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Actions overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
-
-Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom action from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md)  
+Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! More information: [Invoke custom actions from a workflow](invoke-custom-actions-workflow-dialog.md)   
   
- Actions can also be invoked by running custom code that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Web services.  
+ Actions can also be invoked by running custom code that uses the PowerApps web services.  
   
  You can call actions:  
   
@@ -30,11 +28,11 @@ Actions are a type of process. You can invoke actions, including custom actions,
   
 -   From a command that is placed in the application and executes the operation using JavaScript code.  
   
--   From an integration with another system that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
+-   From an integration with another system that uses the PowerApps web services.  
   
--   From a custom client application that uses the [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services.  
+-   From a custom client application that uses the PowerApps web services.  
   
-Developers can learn more in this topic: [Create your own actions](../developer/create-own-actions.md). 
+Developers can learn more in this topic:  [Create your own actions](../developer/create-own-actions.md). 
   
 <a name="BKMK_WhyActions"></a>   
 ## Why use actions?  
@@ -54,7 +52,11 @@ Developers can learn more in this topic: [Create your own actions](../developer/
   
 ### See also  
 [Create your own actions](../developer/create-own-actions.md)
- [Configure actions](../customize/configure-actions.md)   
- [Invoke custom actions from a workflow or dialog](../customize/invoke-custom-actions-workflow-dialog.md) <br />
- [Workflow processes overview](../customize/workflow-processes.md)   
- [Business process flows overview](../customize/business-process-flows-overview.md)   
+
+[Configure custom actions from a workflow](configure-actions.md)
+
+[Invoke custom actions from a workflow or dialog](invoke-custom-actions-workflow-dialog.md) 
+
+[Workflow processes overview](workflow-processes.md)   
+
+[Business process flows overview](business-process-flows-overview.md)   
