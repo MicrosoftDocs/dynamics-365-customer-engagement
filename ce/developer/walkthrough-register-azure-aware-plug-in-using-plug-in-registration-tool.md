@@ -28,9 +28,8 @@ This walkthrough demonstrates how to register a service endpoint step using the 
   
 -   Your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] system user account must have the System Customizer or System Administrator role. For more information, see [How Role-Based Security Can Be Used to Control Access to Entities In Dynamics 365](security-dev/how-role-based-security-control-access-entities.md).  
   
--   Have access to a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform service namespace that is configured for ACS or SAS authorization, to which [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will post a message.  
+-   Have access to a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] platform service namespace that is configured for SAS authorization, to which [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] will post a message.  
   
--   If you are using [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], the server must be configured for [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] integration according to the instructions in the topic [Configure Azure Integration with Dynamics 365](configure-azure-integration.md).  
   
 -   If you plan to use any other [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] messaging entity other than a queue, for example a relay, there must be a listener application actively listening to the specified solution endpoint for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to successfully post to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. For more information, see [Write a Listener for an Azure Solution](write-listener-application-azure-solution.md).  
   

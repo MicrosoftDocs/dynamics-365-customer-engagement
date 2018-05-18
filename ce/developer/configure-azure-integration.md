@@ -2,7 +2,7 @@
 title: "Configure Azure integration with Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic describes configuring Azure integration with Dynamics 365 Customer Engagement."
 ms.custom: ""
-ms.date: 12/17/2017
+ms.date: 05/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,19 +20,23 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_crm_2016_and_online_full](../includes/pn-crm-2016-and-online-full.md)] are capable of posting the message request data for the current core operation to cloud hosted applications listening on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To enable this capability in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, perform the tasks detailed in this topic.  
-  
-<a name="bkmk_configuration"></a>
+You can post the message request data for the current core operation to cloud hosted applications listening on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. To enable this capability in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement, perform the tasks detailed in this topic.  
 
-## Configuration tasks for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and Azure integration  
+> [!NOTE]
+> These instructions apply to Online deployments only. For on-premises deployments, see documentation for the most recent on-premises release at [Dynamics CRM 2016 SDK: Configure Azure integration with Microsoft Dynamics 365](https://msdn.microsoft.com/library/gg309340.aspx)
   
-1. [Obtain a Public Certificate](configure-azure-integration.md#bkmk_obtain) from [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or from an issuing authority.  
+
+<a name="bkmk_configureappfabric"></a>
+   
+## Configure Azure For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] integration
+
+When you use SAS for authorization, you need to configure the rules and issuers of your [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution to allow a listener application to read the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] message posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. In addition, you must configure the service bus rules to accept the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] issuer claim. The recommended method to configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] is to use the Plug-in Registration Tool.  
   
-1. [Configure Dynamics 365 for Azure Integration](configure-azure-integration.md#bkmk_configurecrm).  
-  
-1. [Configure Azure for Dynamics 365 Integration](configure-azure-integration.md#bkmk_configureappfabric).  
-  
-These tasks are expanded upon in this topic. After configuring [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] and [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] integration, you will need to perform these additional tasks.  
+For instructions on configuring authorization see [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md).  
+
+## Test Configuration
+
+After configuring [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] integration, you will need to perform these additional tasks.  
   
 1. Write and register a listener application with a [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] solution endpoint. For more information, see the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] [documentation](https://azure.microsoft.com/en-us/documentation/articles/service-bus-fundamentals-hybrid-solutions/).  
   
@@ -41,9 +45,12 @@ These tasks are expanded upon in this topic. After configuring [!INCLUDE[pn_dyna
 1. Perform the necessary [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] operation that triggers the plug-in or custom workflow activity to run.  
   
 If all of the preceding steps were performed correctly, a message containing the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] data context should be sent to a [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] queue or topic and ultimately received by the listener application. You can navigate to the **System Jobs** grid in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web application and check the status of the related System Job to see if the post to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] succeeded. In case of errors, the message section of the System Job displays the error details.  
+ 
   
-For more information, see the [See also](#see-also) links at the end of this topic.  
-  
+<!-- 
+The following information is for on-premises only.
+TODO: Review and add back relevant content when a v9 on-premise release ships
+
 <a name="bkmk_obtain"></a>
 
 ## Get a public certificate
@@ -61,15 +68,9 @@ For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and 
 For [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] on-premises and IFD deployments, configuring the server for [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] integration involves storing the public certificate in the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] configuration database and setting the proper security access to the certificate so [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] can read it. [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] comes pre-configured to work with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)].
   
 > [!IMPORTANT]
->  For the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] integration feature to work, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] asynchronous service must have access to the Internet through the server’s firewall. The server where the Asynchronous Service role is installed must be exposed to the Internet, and the account that the service runs under must have Internet access. Only outbound connections on ports 80 and 443 are required. Inbound connection access is not required. Use the Windows Firewall control panel to enable outbound connections for the `CrmAsyncService.exe` application located on the server in the `%PROGRAMFILES%\Microsoft Dynamics CRM\Server\bin` folder.  
+>  For the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] integration feature to work, the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] asynchronous service must have access to the Internet through the server’s firewall. The server where the Asynchronous Service role is installed must be exposed to the Internet, and the account that the service runs under must have Internet access. Only outbound connections on ports 80 and 443 are required. Inbound connection access is not required. Use the Windows Firewall control panel to enable outbound connections for the `CrmAsyncService.exe` application located on the server in the `%PROGRAMFILES%\Microsoft Dynamics CRM\Server\bin` folder.   -->
   
-<a name="bkmk_configureappfabric"></a>
-   
-## Configure Azure For [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] integration
 
-When you use SAS for authorization, you need to configure the rules and issuers of your [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] solution to allow a listener application to read the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] message posted to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)]. In addition, you must configure the service bus rules to accept the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] issuer claim. The recommended method to configure [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] is to use the Plug-in Registration Tool.  
-  
-For instructions on configuring authorization see [Walkthrough: Configure Microsoft Azure (SAS) for integration with Dynamics 365](walkthrough-configure-azure-sas-integration.md).  
   
 ### See also
 

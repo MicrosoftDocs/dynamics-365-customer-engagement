@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 05/02/2018
+ms.date: 05/16/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -51,7 +51,7 @@ Services and apps availability
 | Embedded intelligence - Email engagement             | X  |                |                 |
 | Customer Insights                                    |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                       |    | X              |                 |
-| Mobile offline (Dynamics 365 for tablets and phones) | X  |                |                 |
+| Mobile offline (Dynamics 365 for phones and tablets) | X  |                |                 |
 | Sales insights add-on – Relationship analytics       |    | X              |                 |
 
 Transport Layer Security (TLS) Requirements
@@ -310,6 +310,8 @@ App modules and the app designer
 -   The Custom Business Process Flow entity that is created for a custom
     business process flow might not get automatically added to the app designer
     canvas when the business process flow is added to the app module.
+
+-   In the app designer, the option to set **App for Outlook Dashboard** as your default dashboard is available for all Unified Interface apps, but the dashboard is only supported for Dynamics 365 App for Outlook. If you select this dashboard for another app the dashboard will not load, and users will see a blank screen or error message.
 
 View designer
 -------------
@@ -600,11 +602,10 @@ update the preferred solution.
 Mobile Offline
 --------------
 
-We are not onboarding additional customers to mobile offline until further
-notice. We are currently improving this feature to make it more broadly
-available. We do not currently have a date for when onboarding will resume, but
-we will update our documentation when we have additional information. This does
-not affect existing customers who already use mobile offline.
+We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
+
+> [!NOTE]
+> The mobile app for Dynamics 365 for Field Service continues to support mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
@@ -620,8 +621,7 @@ Unified Service Desk
 -   You can integrate apps built using Unified Interface in the Unified Service
     Desk using the preview capabilities in [version
     3.3](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/whats-new-unified-service-desk-administrators#whats-new-in-includepn-unified-service-desk-3-3includespn-unified-service-desk-3-3md).
-    This support is not available in earlier versions. More information: Support
-    for Unified Interface Apps in Unified Service Desk
+    This support is not available in earlier versions. More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
     release, Interactive Service Hub has been rebuilt as a Unified Interface app
@@ -631,12 +631,11 @@ Unified Service Desk
     are running Dynamics 365, version 8.2 or an earlier supported version of
     Microsoft Dynamics CRM. You can integrate with Customer Service Hub in
     Unified Service Desk in the same way as any other Unified Interface app.
-    More information: Support for Unified Interface Apps in Unified Service Desk
+    More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
 
 -   **Relationship Insights**: Although you can view information from the
     relationship assistant in the Unified Service Desk client, you cannot
-    interact with the information in the client. More information: [Embedded
-    intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
+    interact with the information in the client. More information: [Embedded intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
     not supported.
