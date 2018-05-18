@@ -2,7 +2,7 @@
 title: "Delete custom entities in PowerApps | MicrosoftDocs"
 description: "Learn how to delete a custom entity"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 05/17/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -19,19 +19,69 @@ ms.author: "matp"
 manager: "kvivek"
 ---
 # Delete custom entities
-
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
-<a name="BKMK_DeleteCustomEntities"></a>   
   
- As someone with the system administrator security role, you can delete custom entities that aren’t part of a managed solution.  
+As someone with the system administrator security role, you can delete custom entities that aren’t part of a managed solution.  
   
 > [!IMPORTANT]
->  When you delete a custom entity, the database tables that store data for that entity are deleted and all data they contain is lost. Any associated records that have a parental relationship to the custom entity are also deleted. For more information about parental relationships, see [Create and edit entity relationships](../customize/create-edit-entity-relationships.md).  
+>  When you delete a custom entity, the database tables that store data for that entity are deleted and all data they contain is lost. Any associated records that have a parental relationship to the custom entity are also deleted. For more information about parental relationships, see [Create and edit relationships between entities](create-edit-entity-relationships.md).  
   
- Before you can delete a custom entity, you must remove any dependencies that exist in other solution components. For example, if another entity has a lookup field on a form that uses this custom entity, you must first remove that field from the form before you can delete the custom entity. This also applies to views defined for other entities that include a reference to this entity. If you try to delete the entity and any dependencies are discovered, the deletion won’t be allowed. Select **Show Dependencies** on the menu bar to help identify any dependencies that you have to remove before the entity can be deleted.  
-  
- The only way to recover data from an entity that was deleted is to restore the database from a point before the entity was deleted. 
+> [!NOTE]
+> The only way to recover data from an entity that was deleted is to restore the database from a point before the entity was deleted. More information: [Backup and restore instances](/dynamics365/customer-engagement/admin/backup-restore-instances)
+
+## Delete a custom entity using PowerApps portal
+
+Select the entity and select **Delete entity** from the context menu.
+
+![Delete an entity using the PowerApps portal](media/delete-entity-powerapps-portal.png)
+
+If the entity has dependencies that prevent it from being deleted you will see an error message. To identify and remove any dependencies, you will need to use the solution explorer. More information [Identify entity dependencies](#identify-entity-dependencies)
+
+## Delete a custom entity using Solution Explorer
+
+When deleting an entity using the solution explorer you need to find the unmanaged solution that contains it or just make your change to the *default solution*.
+
+The **Default Solution** is an unmanaged solution that contains all unmanaged customizations.
+
+1. From the PowerApps portal in **Model-driven** design mode click **Advanced** to open the solution explorer to the **Common Data Services Default** solution.
+2. Edit the URL, removing everything after `dynamics.com` and refresh the page.
+3. In the **Settings** area select **Customization** > **Solutions**.
+4. In the  view selector, choose **All Solutions-Internal**.
+5. Within this list you will find a solution named **Default Solution**. 
+
+ ![The default solution in the Solutions list](media/default-solution.PNG)
+
+ Open that solution to edit it.
+
+6. Locate the solution you want to delete in the Entities list, select it and click **Delete** in the command bar.
+ 
+ ![Delete custom entity in solution explorer](media/delete-custom-entity-solution-explorer.png)
+
+7. Confirm you want to delete the entity. 
+
+    > [!NOTE]
+    > If there are any entity dependencies you will get a **Cannot Delete Component** error with a **Details** link you can use to discover information about why the entity cannot be deleted. In most cases, this will be because of a dependency that has to be removed. 
+    >
+    > There may be more than one dependency blocking the deletion of an entity. This error message may only show the first one. For an alternate way to discover dependencies, see [Identify entity dependencies](#identify-entity-dependencies)
+
+## Identify entity dependencies
+
+You can identify dependencies that will prevent an entity from being deleted before you try to delete it. 
+
+1. In the solution explorer with the entity selected, click **Show Dependencies** in the command bar.
+
+![Show Dependencies command](media/entity-show-dependencies.png)
+
+2. In the dialog window that opens, scroll the list to the right to view the **Dependency Type** column.
+
+![Published Dependency Type](media/published-entity-dependency.png)
+
+**Published** dependencies will block deleting an entity. **Internal** dependencies should be resolved by the system.  
+
+3. Remove these published dependencies and you should be able to delete the entity.
+
+ > [!NOTE]
+ > A very common dependency is that another entity form has a lookup field for the entity you are deleting. Removing the lookup field from the form will resolve the dependency.
  
 ### See also
-[Create or edit an entity](create-edit-entities.md)
+[Create an entity](create-entities.md)<br />
+[Edit an entity](edit-entities.md)
