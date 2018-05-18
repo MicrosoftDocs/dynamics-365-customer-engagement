@@ -32,7 +32,7 @@ Actions are a type of process. You can invoke actions, including custom actions,
   
 -   From a custom client application that uses the PowerApps web services.  
   
-Developers can learn more in this topic:  [Create your own actions](../developer/create-own-actions.md). 
+Developers can learn more in this topic:  [Create your own actions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions). 
   
 <a name="BKMK_WhyActions"></a>   
 ## Why use actions?  
@@ -51,7 +51,7 @@ Developers can learn more in this topic:  [Create your own actions](../developer
  Unlike workflow processes or plug-ins, an action doesn’t have to be associated with a specific entity. You can define ”global” Actions that can be called on their own.  
   
 ### See also  
-[Create your own actions](../developer/create-own-actions.md)
+[Create your own actions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions)
 
 [Configure custom actions from a workflow](configure-actions.md)
 
