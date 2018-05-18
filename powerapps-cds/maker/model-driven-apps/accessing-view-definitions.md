@@ -45,11 +45,11 @@ manager: "kvivek"
  
 - [Sort records in a view](configure-sorting.md)
 - [Choose and configure columns in views](../common-data-service/choose-and-configure-columns.md)
-- [Use custom controls for data visualizations](../../../ce/customize/use-custom-controls-data-visualizations.md) 
+- [Use custom controls for data visualizations](use-custom-controls-data-visualizations.md) 
 
 ## Open a view from an app
 
-On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
+On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](media/more-commands.gif)) button:  
 - **View**: Opens the definition of the current view in the default solution.  
   
 - **New System View**: Opens a new window to create a new view for the current entity in the default solution.  
@@ -81,6 +81,6 @@ On any list view for an entity, in the command bar you will find the following c
  If the entity that the view is associated with is part of an unmanaged solution, you can still create or edit views for that entity in the default solution. System views are associated with an entity and are not available as separate solution components. Unlike fields, views do not use a customization prefix in a unique name that should be consistent in a solution, so you do not need to create views in the context of a solution. 
  
 ### Next steps
-[Create or edit views](create-edit-views.md)
+[Understand views (lists)](../common-data-service/create-edit-views.md)
 
 
