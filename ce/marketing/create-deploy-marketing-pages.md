@@ -148,7 +148,7 @@ Use the designer to add, configure, and arrange the various fields, buttons, and
 
 - Assemble your form by dragging fields and content blocks from the **Toolbox** tab to the canvas.
 
-- Configure each block by selecting it and going to the **Properties** tab.
+- Configure each block by selecting it and going to the **Properties** tab. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Content blocks reference](content-blocks-reference.md)
 
 The designer also provides the usual tools for editing the HTML code and viewing previews in various screen sizes and orientations. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Design your digital content](design-digital-content.md)
 
@@ -252,7 +252,7 @@ Administrators can choose settings that control several aspects of the way all m
 
 [Create a landing page](create-landing-page.md)  
 [Design your digital content](design-digital-content.md)  
-[Accessibility and keyboard shortcuts](designer-shortcuts.md)
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)  
 [Content blocks reference](content-blocks-reference.md)  
 [Upload and use images and files](upload-images-files.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)

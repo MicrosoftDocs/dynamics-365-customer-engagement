@@ -78,6 +78,7 @@
 #### [Manage event sponsorships](manage-event-sponsorships.md)
 #### [Manage attendee logistics and accommodation](manage-event-logistic.md)
 #### [Set up the event portal](set-up-event-portal.md)
+#### [Add custom fields to your event registration form](custom-registration-fields.md)
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 #### [Follow up after the event](followup-after-event.md)
 #### [Record and view financial information for events](event-financials.md)
