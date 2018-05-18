@@ -1,6 +1,7 @@
 ---
 title: "Troubleshoot Dynamics 365 Customer Engagement sign-in problems | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
