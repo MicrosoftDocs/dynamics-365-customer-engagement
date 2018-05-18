@@ -38,7 +38,7 @@ Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-
 
 When you open a Unified Interface app, a vertical bar with subarea icons is displayed at the left side of the application. You can either use the **Tab** key to move through these icons until you hear the name of the subarea you want, such as “Opportunities,” or you can use the site map control. For example, press the **Tab** key until you hear “Accounts” and then press **Enter** to open the Accounts view.
 
-## Use Scan Mode in Narrator
+### Use Scan Mode in Narrator
 You can use scan mode to quickly navigate Dynamics 365 apps using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls and tables in this mode. Turn scan more on and off by pressing **Caps lock + Spacebar**. More information: [Using scan mode](https://support.microsoft.com/en-us/help/22809/windows-10-narrator-using-scan-mode).
 
 ###Find your way around the Unified Interface apps
