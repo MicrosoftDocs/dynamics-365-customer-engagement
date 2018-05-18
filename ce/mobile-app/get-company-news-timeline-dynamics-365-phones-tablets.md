@@ -1,6 +1,6 @@
 ---
 title: "Get the Company News Timeline for Dynamics 365 for phones and tablets | MicrosoftDocs"
-ms.custom: ""
+ms.custom: "dyn365-mobile-app"
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 author: "mduelae"
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 8
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Stay on top of the latest news about your customers
 

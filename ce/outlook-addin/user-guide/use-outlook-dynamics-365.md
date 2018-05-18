@@ -9,9 +9,9 @@ ms.tgt_pltfrm: ""
 ms.topic: "index-page "
 ms.assetid: a3aece21-7cbd-418f-ab0e-a59c8bc8d350
 caps.latest.revision: 6
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 robots: noindex,nofollow
 ---
 # Use Outlook with Dynamics 365

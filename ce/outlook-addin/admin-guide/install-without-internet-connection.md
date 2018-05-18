@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 723e1196-cd04-4823-bb0d-2e050e2b4acd
 caps.latest.revision: 42
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Install Dynamics 365 for Outlook without an Internet connection
 There may be occasions when you have to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] where there is no Internet connection available. Common occasions are when you are creating virtual demonstration environments, such as when you use [!INCLUDE[pn_Hyper-V](../../includes/pn-hyper-v.md)], and environments that use firewalls or other security requirements that block Internet access.  
