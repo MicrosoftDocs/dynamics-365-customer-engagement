@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 6bf2bc59-9949-4afd-aee5-5b6101e90f75
 caps.latest.revision: 30
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Uninstall or repair Microsoft Dynamics 365 for Outlook
 If other users run [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] on the same device, those users should sign out of [!INCLUDE[pn_ms_Windows_long](../../includes/pn-ms-windows-long.md)] before uninstalling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This is especially true for [!INCLUDE[pn_citrix](../../includes/pn-citrix.md)] or Remote Desktop environments where additional sessions are common and should be closed before uninstalling [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
