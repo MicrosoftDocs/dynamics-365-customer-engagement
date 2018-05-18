@@ -49,7 +49,7 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 
 To manually assign the **Approve Email Addresses for Users or Queues** privilege to a security role: 
 1. In Dynamics 365, go to **Settings** > **Security** > **Security Roles**. 
-2. Select a security role, and then select the **Business Management**tab. 
+2. Select a security role, and then select the **Business Management** tab. 
 3. Under **Miscellaneous Privileges**, set the privilege level for **Approve Email Addresses for Users or Queues**.
 
 ### See also  
