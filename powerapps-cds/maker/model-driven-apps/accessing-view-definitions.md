@@ -20,10 +20,6 @@ manager: "kvivek"
 ---
 # Access a view definition in PowerApps
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
-<a name="BKMK_AccessingViewDefinitions"></a>   
-
  In this quickstart you open a view definition to display properties and options to configure the view. There are several ways you can access view definitions in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. 
   
   
