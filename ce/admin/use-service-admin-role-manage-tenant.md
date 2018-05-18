@@ -1,7 +1,7 @@
 ---
 title: "Use the Dynamics 365 (online) service admin role to manage your tenant | MicrosoftDocs"
 ms.custom: ""
-ms.date: 12/04/2017
+ms.date: 05/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
