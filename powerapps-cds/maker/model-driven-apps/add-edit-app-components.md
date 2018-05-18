@@ -20,7 +20,7 @@ caps.latest.revision: 17
 topic-status: Drafting
 ---
 
-# Add or edit app components in the PowerApps app designer
+# Tutorial: Add or edit app components in the PowerApps app designer
 
 In this tutorial you learn how to add components to and remove components from a model-driven app. 
 

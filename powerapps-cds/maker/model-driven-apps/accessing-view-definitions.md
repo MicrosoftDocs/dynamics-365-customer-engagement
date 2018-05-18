@@ -18,7 +18,7 @@ caps.latest.revision: 25
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Access a view definition in PowerApps
+# Quickstart: Access a view definition in PowerApps
 
  In this quickstart you open a view definition to display properties and options to configure the view. There are several ways you can access view definitions in PowerApps. 
   
