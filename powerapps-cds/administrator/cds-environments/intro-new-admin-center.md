@@ -25,7 +25,7 @@ If you've managed Dynamics 365 (online) tenants and instances, you've used the D
 
 With the merge of Common Data Service and the Dynamics 365 platform, we're launching a new admin center experience bringing PowerApps, Flow, and Dynamics 365 administration capabilities together on a single site - the Business Application Platform admin center.
 
-<image of OneAdmin center>
+image of OneAdmin center
 
 Benefits of the Business Application Platform admin center include:
 
@@ -40,7 +40,7 @@ Benefits of the Business Application Platform admin center include:
 > - **AppSource installation**: Acquire and install first and third-party applications from AppSource via the admin center.
 > - **Org Insights reports**: Admins no longer need to install the Org Insights solution into their environment. All of the org insights reports are available by default from the admin center.
 
-See <blog - press release> for more information about  the new admin center.
+See blog - press release for more information about  the new admin center.
 
 > [!NOTE]
 > We're rolling out the Business Application admin center in phases to ensure a stable and high performance environment. Check back here for documentation updates on new features as they become available.
@@ -48,7 +48,7 @@ See <blog - press release> for more information about  the new admin center.
 ## A tour of the interface
 Let's go through the various parts of the new admin center.
 
-<image of admin center with numbers by sections>
+image of admin center with numbers by sections
 
 
 |Element  |Description  |
@@ -69,13 +69,13 @@ Let's go through the various parts of the new admin center.
 ## Dynamics 365 Admin Settings
 We're moving Admin settings from the Dynamics 365 Customer Engagement product to the Business Application Platform admin center. 
 
-<image of environments d365 settings page>
+image of environments d365 settings page
 
 Use the links on this page to manage organization-wide settings.
 
 ## What about the Office 365 admin center?
 
-
+Link test: [Support and billing](../../../ce/admin/billing-support.md)
 
 Ideas for sections:
 
