@@ -77,7 +77,7 @@ To navigate through each element of a stream, use the Up/Down arrow keys. Narrat
 You can navigate a business process flow, such as the one found at the top of the Lead form, by pressing the **Tab** key to move forward, and **Shift+Tab** to move backward between the entities. Use the **Enter** key on the **Move to the Left** or **Move to the Right** buttons to display additional entities in the process flow. Narrator reads the entity type, stage, status, title, element number out of total elements, and whether it is currently selected.
 
 ####Dialog Boxes
-When a dialog box opens, Navigator announces the title and the **Close** button has the default focus, allowing you to close the dialog box by pressing the **Enter key**. You can navigate through the controls by using the **Tab** key. The cursor will loop through each element in the dialog box, and you can press the **Esc** key to close it.
+When a dialog box opens, Navigator announces the title. You can navigate through the controls by using the **Tab** key. The cursor will loop through each element in the dialog box, and you can press the **Esc** key to close it.
 
 
 ## See also
