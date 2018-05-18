@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Screen readers make Dynamics 365 Custommer Engagement applications accessible to users users with low or no vision. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
+Screen readers make Dynamics 365 Customer Engagement applications accessible to users with low or no vision. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
