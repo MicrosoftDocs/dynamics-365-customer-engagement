@@ -24,7 +24,7 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 - [Learn more about working with NVDA](https://www.nvaccess.org/help/)
 
 > [!NOTE]
-> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
+> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 
 ## Basic tasks using a screen reader with Dynamics 365
 
@@ -54,7 +54,7 @@ If your cursor is within the table header, quickly navigate between headers by u
 When you move out of the last column in the table, the cursor moves to the second row of the grid, and from this point, you must use the Up and Down arrow keys to navigate between the non-header cells. If you instead press the **Tab** key again, your cursor will move to the next interactive element, typically the table filter list. When moving between non-header row cells, Narrator announces the column name, the location of the column, and text within the cell.
 
 ####Forms
-Multiple navigation modes are available for navigating a form using Narrator, with the most common modes being landmarks, headings, and form fields. To change the navigation mode, press Caps lock+Up arrow. Hold the Caps lock key down while pressing the Up arrow key to cycle through the modes until you hear the mode you want to use. Then use Caps lock + the Left/Right arrows to navigate through the various items. For example, if you want to go to the Last Name field in the Contact Information section of a Contact, do the following:
+Multiple navigation modes are available for navigating a form using Narrator, with the most common modes being landmarks, headings, and form fields. To change the navigation mode, press **Caps lock+Up arrow**. Hold the Caps lock key down while pressing the Up arrow key to cycle through the modes until you hear the mode you want to use. Then use Caps lock + the Left/Right arrows to navigate through the various items. For example, if you want to go to the Last Name field in the Contact Information section of a Contact, do the following:
 1.	Press and hold the **Caps lock** key and press the **Up arrow** key until you hear “Landmarks.”
 2.	Press and hold the **Caps lock** key and press the **Right arrow** key until you hear “Contact information.”
 3.	Change the mode by pressing and holding the **Caps lock** key and pressing the **Up arrow** key until you hear “Form Fields.”
@@ -69,15 +69,15 @@ You can navigate through the dashboard charts using the Tab key and Caps lock + 
 > You must have the latest Windows 10 Update installed to have all of the accessibility features available for charts.
 
 ####Streams
-You can use the Tab key or Shift+Tab keys to move between streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings,” then use the Tab key to quickly move between streams.
+You can use the **Tab** key or **Shift+Tab** keys to move between streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings,” then use the Tab key to quickly move between streams.
 
 To navigate through each element of a stream, use the Up/Down arrow keys. Narrator will read the type of control and the title of the control.
 
 ####Business process flows
-You can navigate a business process flow, such as the one found at the top of the Lead form, by pressing Tab to move forward, and Shift+Tab to move backward between the entities. Use the Enter key on the **Move to the Left** or **Move to the Right** buttons to display additional entities in the process flow. Narrator reads the entity type, stage, status, title, element number out of total elements, and whether it is currently selected.
+You can navigate a business process flow, such as the one found at the top of the Lead form, by pressing the **Tab** key to move forward, and **Shift+Tab** to move backward between the entities. Use the **Enter** key on the **Move to the Left** or **Move to the Right** buttons to display additional entities in the process flow. Narrator reads the entity type, stage, status, title, element number out of total elements, and whether it is currently selected.
 
 ####Dialog Boxes
-When a dialog box opens, Navigator announces the title, and the **Close** button has the default focus, allowing you to close the dialog box by pressing the **Enter key**.  You can navigate through the controls by using the **Tab** key. The cursor will loop through each element in the dialog box. You can press the **Esc** key to close the dialog box.
+When a dialog box opens, Navigator announces the title and the **Close** button has the default focus, allowing you to close the dialog box by pressing the **Enter key**. You can navigate through the controls by using the **Tab** key. The cursor will loop through each element in the dialog box, and you can press the **Esc** key to close it.
 
 
 ## See also
