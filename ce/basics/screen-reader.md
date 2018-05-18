@@ -38,6 +38,9 @@ Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-
 
 When you open a Unified Interface app, a vertical bar with subarea icons is displayed at the left side of the application. You can either use the **Tab** key to move through these icons until you hear the name of the subarea you want, such as “Opportunities,” or you can use the site map control. For example, press the **Tab** key until you hear “Accounts” and then press **Enter** to open the Accounts view.
 
+## Use Scan Mode in Narrator
+You can use scan mode to quickly navigate Dynamics 365 apps using the arrow keys and common keyboard shortcuts. Quickly jump to headings, links, landmarks, form fields, controls and tables in this mode. Turn scan more on and off by pressing **Caps lock + Spacebar**. More information: [Using scan mode](https://support.microsoft.com/en-us/help/22809/windows-10-narrator-using-scan-mode).
+
 ###Find your way around the Unified Interface apps
 We have made Dynamics 365 Customer Engagement apps that are based on Unified Interface more consistent and reliable with screen readers. This includes working with screen readers on grids, forms, charts, streams, and business process flows. 
 
@@ -71,6 +74,7 @@ To navigate through each element of a stream, use the Up/Down arrow keys. Narrat
 
 ####Business process flows
 You can navigate a business process flow, such as the one found at the top of the Lead form, by pressing Tab to move forward, and Shift+Tab to move backward between the entities. Use the Enter key on the **Move to the Left** or **Move to the Right** buttons to display additional entities in the process flow. Narrator reads the entity type, stage, status, title, element number out of total elements, and whether it is currently selected.
+
 
 ## See also
 
