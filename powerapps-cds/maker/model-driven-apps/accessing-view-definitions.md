@@ -20,7 +20,7 @@ manager: "kvivek"
 ---
 # Access a view definition in PowerApps
 
- In this quickstart you open a view definition to display properties and options to configure the view. There are several ways you can access view definitions in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. 
+ In this quickstart you open a view definition to display properties and options to configure the view. There are several ways you can access view definitions in PowerApps. 
   
   
 ## Open a view in PowerApps
