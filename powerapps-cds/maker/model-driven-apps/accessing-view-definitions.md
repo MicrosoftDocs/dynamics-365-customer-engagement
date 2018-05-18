@@ -45,7 +45,7 @@ manager: "kvivek"
 
 ## Open a view from an app
 
-On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](media/more-commands.gif)) button:  
+On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (...) button:  
 - **View**: Opens the definition of the current view in the default solution.  
   
 - **New System View**: Opens a new window to create a new view for the current entity in the default solution.  
