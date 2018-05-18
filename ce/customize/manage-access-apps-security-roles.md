@@ -5,6 +5,7 @@ keywords: ""
 ms.date: 04/12/2018
 ms.service: crm-online
 ms.custom: 
+  - dyn365-deflc
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
