@@ -2,7 +2,7 @@
 title: "Quickstart to access a view definition | MicrosoftDocs"
 description: In this quickstart you learn how to access entity views
 ms.custom: ""
-ms.date: 03/30/2018
+ms.date: 05/18/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,14 +18,34 @@ caps.latest.revision: 25
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Access a view definition in a PowerApps app
+# Quickstart: Access a view definition in PowerApps
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
-<a name="BKMK_AccessingViewDefinitions"></a>   
-
- There are several ways you can access view definitions in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)]. On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (![More Commands button in Appointment Activity](../customize/media/more-commands.gif "More Commands button in Appointment Activity")) button:  
+ In this quickstart you open a view definition to display properties and options to configure the view. There are several ways you can access view definitions in PowerApps. 
   
+  
+## Open a view in PowerApps
+
+1. Sign in to [PowerApps](https://web.powerapps.com/). 
+
+2. Select **Model-driven** > **Data** > **Entities** > and then select the entity you want, such as the account entity. 
+
+3. Select the **Views** tab and then select **Remove filter**.
+
+![Account view definitions](media/account-view-definitions.png)
+
+4. Select the view you want to open, such as the account entity **All Accounts** view.
+
+![All Accounts view](media/all-accounts-view.png)
+
+5. From the view editor you can perform several tasks: 
+ 
+- [Sort records in a view](configure-sorting.md)
+- [Choose and configure columns in views](../common-data-service/choose-and-configure-columns.md)
+- [Use custom controls for data visualizations](use-custom-controls-data-visualizations.md) 
+
+## Open a view from an app
+
+On any list view for an entity, in the command bar you will find the following commands after you click or tap the ellipsis (...) button:  
 - **View**: Opens the definition of the current view in the default solution.  
   
 - **New System View**: Opens a new window to create a new view for the current entity in the default solution.  
@@ -33,10 +53,8 @@ manager: "kvivek"
 - **Customize Entity**: Takes you to the definition of the current entity in the default solution where you can then select **Views**.  
   
 - **System Views**: Opens the same window as **Customize Entity**, except with **Views** selected.  
-  
- Alternatively, you can navigate to the view definitions in the default solution by using the following steps:  
-  
-## Open a view  
+
+## Open a view in solution explorer 
   
 1.  Open solution explorer.  
   
@@ -58,5 +76,7 @@ manager: "kvivek"
   
  If the entity that the view is associated with is part of an unmanaged solution, you can still create or edit views for that entity in the default solution. System views are associated with an entity and are not available as separate solution components. Unlike fields, views do not use a customization prefix in a unique name that should be consistent in a solution, so you do not need to create views in the context of a solution. 
  
-### See also
-[Create or edit views](create-edit-views.md)
+### Next steps
+[Understand views (lists)](../common-data-service/create-edit-views.md)
+
+
