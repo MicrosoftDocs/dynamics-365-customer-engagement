@@ -50,18 +50,18 @@ Let's go through the various parts of the new admin center.
 
 ![Walkthrough of the new admin center](../media/new-admin-center-menu75.png)
 
-||Element  |Description  |
-||---------|---------|
-|![Walkthrough of the new admin center](../media/new-admin-center-menu75.png)|1: Help + support     |         |
-||2: Analytics     |         |
-||3: Privacy     |         |
-||4: Data integration     |         |
-||5: Common Data Service     |         |
-||6: Environments     |         |
-||7: Usage     |         |
-||8: Data policies     |         |
-||9: Applications     |         |
-||10: PowerBI platform  |         |
+|Element  |Description  |
+|---------|---------|
+|1: Help + support     |         |
+|2: Analytics     |         |
+|3: Privacy     |         |
+|4: Data integration     |         |
+|5: Common Data Service     |         |
+|6: Environments     |         |
+|7: Usage     |         |
+|8: Data policies     |         |
+|9: Applications     |         |
+|10: PowerBI platform  |         |
 
 ## Dynamics 365 Admin Settings
 We're moving Admin settings from the Dynamics 365 Customer Engagement product to the Business Application Platform admin center. 
