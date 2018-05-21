@@ -40,41 +40,6 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../../includes/pn-ms-dyn-crm-app-fo
  ![Dynamics 365 App for Outlook screen showing inline data](../media/crm-app-outlook-preview-notrack.png "Dynamics 365 App for Outlook screen showing inline data")  
   
  Go to [User's Guide for the previous version (Dynamics CRM)](dynamics-365-app-outlook-user-s-guide-v8.md#Previous)  
-  
-## What's new in version 8.2
-
-### May 5, 2018
-
-1. Fixed the issue of some known contacts appearing as Unknown Recipients in App for Outlook.
-2. Fixed the issue of server-side synchronization promoting some emails to Dynamics 365 multiple times.
-
-### April 28, 2018
-
-1. Appointment date is updated in Dynamics 365 when it is changed on a tracked meeting in Outlook Web App (OWA).
-2. Disabling the OrgDBOrgSetting will now soft delete the Outlook category for individual mailboxes.
-3. Fixes to contact tracking actions.
-
-### April 19, 2018
-
-1. [Support for tracking Outlook items by assigning Outlook category](https://blogs.msdn.microsoft.com/crm/2018/05/02/introducing-outlook-category-based-tracking-in-server-side-synchronization/).
-2. Reliability improvements.
-
-
-### March 27, 2018
-
-1. Fixes to contract tracking experience.
-2. Reliability improvements.
-
-### March 15, 2018
-
-1. Support for handling appointment conflicts in App for Outlook.
-2. Server-side synchronization’s automatic tracking now includes sent emails, BCC, distribution list and undeliverable reports.
-3. Fixes to improve contact tracking experience in App for Outlook, including fix for email address displayed in X.500 format.
-4. Fixes to improve appointment tracking experience in App for Outlook.
-5. Mitigated issue with App for Outlook not loading on Outlook for iOS and Outlook for Mac.
-6. Server-side synchronization can sync Dynamics 365 emails that have information rights property.
-7. Allow deletion of appointments if server-side synchronization auto detects changes that will result in change in ownership.
-8. Reliability improvements.
 
 <a name="Latest"></a>  
  
