@@ -18,9 +18,7 @@ manager: brycho
 ---
 # Business process flows overview
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
-You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes. To learn how to create or edit a business process flow, see [Create a business process flow](../customize/create-business-process-flow.md).  
+You can help ensure that people enter data consistently and follow the same steps every time they work with a customer by creating a business process flow. For example, you might want to create a business process flow to have everyone handle customer service requests the same way, or to require that people get approval for an invoice before submitting an order. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes. To learn how to create or edit a business process flow, see [Create a business process flow](create-business-process-flow.md).  
   
  [Watch a short video (4:49) about business process flows.](https://go.microsoft.com/fwlink/p/?linkid=842226)  
   
@@ -34,13 +32,13 @@ Business process flows provide a guide for people to get work done. They provide
 ## What can business process flows do?  
  With business process flows, you define a set of *stages* and *steps* that are then displayed in a control at the top of the form.  
   
- ![Business process with stages](../customize/media/business-process-stages.png "Business process with stages")  
+ ![Business process with stages](media/business-process-stages.png "Business process with stages")  
   
  Each stage contains a group of steps. Each step represents a field where data can be entered. People advance to the next stage by using the **Next Stage** button. You can make a step required so that people must enter data for the corresponding field before they can proceed to the next stage. This is commonly called ”stage-gating”.  
   
  Business process flows appear relatively simple compared to other types of processes because they do not provide any conditional business logic or automation beyond providing the streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving people time, reducing training costs, and increasing user adoption.  
 
- There are a number of ready-to-use business process flows available. More information: [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md).
+ There are a number of ready-to-use business process flows available. More information: [Add ready-to-use business processes](add-ready-use-business-processes.md).
   
 <a name="BKMK_BPFwithOtherCustomizations"></a>   
 ### Business process flows integrated with other customizations  
@@ -85,7 +83,7 @@ Business process flows provide a guide for people to get work done. They provide
  You can define business process flows only for those entities that support them. You also need to be aware of the limits for the number of processes, stages, and steps that can be added.  
   
 ### Business process flows that call a workflow  
- You can now call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
+ You can call on-demand workflows from inside a business process flow. You can configure this from the new business process flow designer by dragging a workflow component to a process stage or to the Global Workflows section. For more information about using workflows in business process flows, see [Blog: Business process flow automation in Dynamics 365](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/).  
   
  When you include a workflow that you want to trigger on Stage Exit of a stage in your business process flow, and that stage is  the last stage in the flow, the designer gives the impression that the workflow will be triggered when that stage is completed. However, the workflow will not be triggered because a stage transition does not take place. You will not receive a warning or error preventing you from including the workflow on the stage. When a user interacts with the business process flow, finishing or abandoning the process does not result in a stage transition, and therefore the workflow is not triggered. Consider the following examples:  
   
@@ -97,7 +95,7 @@ Business process flows provide a guide for people to get work done. They provide
   
 <a name="BKMK_Entities"></a>   
 ### Entities that can use business process flows  
- Only entities that use the updated forms can use business process flows. This includes custom entities and the following system entities:  
+ All custom entities can use business process flows. The following standard entities can also use business process flows:  
   
 -   Account  
 -   Appointment  
@@ -144,16 +142,16 @@ Business process flows provide a guide for people to get work done. They provide
   
 ## Preview feature: Business process flow entity customization support 
 
-Introduced in the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update, business process flow entities can appear in the system so that entity record data can be made available in grids, views, charts, and dashboards. 
+Introduced in the Dynamics 365 (online), version 9.0 update, business process flow entities can appear in the system so that entity record data can be made available in grids, views, charts, and dashboards. 
 
 > [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
-> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
+> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)] 
+>
+> [!INCLUDE [cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
 
 ### Enable customization support for business process flow entities
-1.	Go to **Settings** > **Administration** > **System Settings**.
+1.	Open **System Settings**. More information: [Navigate to advanced app making and customization areas](advanced-navigation.md#Solution-explorer)
 2.	Select the **Preview** tab.
 3.	Review, and if you agree, accept the license terms.
 4.	Select **Enable BPF Entity Customization Support**, and then select **OK**.
@@ -164,13 +162,11 @@ Introduced in the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-onlin
 
 With business processes flows available as an entity, you can now use advanced finds, views, charts, and dashboards sourced from business process flow data for a given entity, such as a lead or opportunity. System administrators and customizers can create custom business process flow grids, views, charts, and dashboards similar to those created with any other entity.
 
-Business process flows, such as **Lead To Opportunity Sales Process**, appear as a customizable entity in Solution Explorer.
+Business process flows, such as **Lead To Opportunity Sales Process**, appear as a customizable entity in solution explorer.
 
 ![Solution Explorer with lead-to-opportunity process entity](media/bpf-lead-solution-explorer.png)
 
 To access a default business process flow view, open solution explorer, expand **Entities** > expand the process that you want, such as **Lead To Opportunity Sales Process**, select **Views**, and then select the view that you want.
-
-![Access a business process flow entity view](media/bpf-entity-views.png)
 
 Several default views are available that you can view as a chart, such as the **Active Opportunity Sales Process** view. 
 
@@ -180,12 +176,12 @@ Several default views are available that you can view as a chart, such as the **
 
 Currently, you can’t create custom forms for entities based on a business process flow.
 
-### See also  
+### Next steps  
  [Watch a short video (4:49) about business process flows](https://go.microsoft.com/fwlink/p/?linkid=842226)   
- [Add ready-to-use business processes](../customize/add-ready-use-business-processes.md)   
- [Create a business process flow](../customize/create-business-process-flow.md)   
- [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md) <br/>
+ [Add ready-to-use business processes](add-ready-use-business-processes.md)   
+ [Create a business process flow](create-business-process-flow.md)   
+ [Enhance business process flows with branching](enhance-business-process-flows-branching.md) <br/>
  [Whitepaper: Process Enablement with Dynamics 365](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>
- [Create custom business logic through processes](../customize/guide-staff-through-common-tasks-processes.md)</br>
- [Workflow Processes](../customize/workflow-processes.md)   
- [Actions - Overview](../customize/actions.md)
+ [Create custom business logic through processes](guide-staff-through-common-tasks-processes.md)</br>
+ [Workflow Processes](../common-data-service/workflow-processes.md)   
+ [Actions - Overview](../common-data-service/customize/actions.md)
