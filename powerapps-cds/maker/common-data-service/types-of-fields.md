@@ -92,11 +92,12 @@ Multi-select option set is only available in read-only grids, editable grids, an
 Multi-select fields are supported in the following types of forms:
 
 |Form Type|Availability|
-|--------------|------------------------|
+|--|--|
 |**Turbo form**|Yes|
 |**Refresh form**|Read-only (field will available but cannot be edited)|
 |**Legacy form**|No|
 |**Bulk Edit form**|No|
+
 You can use global option sets that are defined in your organization to configure values for the multi-select option sets.
 
 
