@@ -127,7 +127,7 @@ The following procedure provides the steps for setting the sort flag:
   
 The following procedure provides the steps to enable the security roles for the interactive experience:
   
-1. Open [solution explorer](model-driven-apps/advanced-navigation.md#solution-explorer).  
+1. Open [solution explorer](advanced-navigation.md#solution-explorer).  
   
 2. Under **Components**, select **Dashboards**.  
   
