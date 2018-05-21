@@ -14,7 +14,7 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/21/2018
+ms.date: 07/21/2018
 ms.author: jimholtz
 
 ---
@@ -52,27 +52,41 @@ Let's go through the various parts of the new admin center.
 
 |Element  |Description  |
 |---------|---------|
-|1: Help + support     |         |
-|2: Analytics     |         |
-|3: Privacy     |         |
-|4: Data integration     |         |
+|1: Help + support     |Product documentation and information on contacting technical support.         |
+|2: Analytics     |Need information.         |
+|3: Privacy     |Need information.         |
+|4: Data integration     |Need information.         |
 |5: Common Data Service     |         |
-|6: Environments     |         |
-|7: Usage     |         |
-|8: Data policies     |         |
-|9: Applications     |         |
-|10: PowerBI platform  |         |
+|6: Environments     |Create, configure, and manage environments (previously called instances).         |
+|7: Usage     |Need information.         |
+|8: Data policies     |Need information.         |
+|9: Applications     |PowerApps licensed apps.         |
+|10: PowerBI platform  |PowerBI licensed apps.        |
 
 ## Dynamics 365 Admin Settings
 We're moving Admin settings from the Dynamics 365 Customer Engagement product to the Business Application Platform admin center. 
 
+Many of these settings...
+
+![Dynamics 365 Administration Settings](../media/settings-administration683.png)
+
+...are moving here.
 ![Dynamics 365 settings](../media/new-admin-center-settings.png)
 
-Use the links on this page to manage organization-wide settings.
+Use the links on this page to manage organization-wide settings. App-specific settings will remain in Dynamics 365 based on your licensing. 
 
 ## What about the Office 365 admin center?
+
+You'll continue to use the Office 365 admin center to manage settings like:
+
+> - users, licenses, roles, passwords
+> - subscriptions, billing, purchase services
+> - service health
+> - usage and security reports
+
+![Office 365 admin center](../media/o365-admin-center.png)
 
 
 
 Ideas for sections:
-1. what's done where: 1) user and license, O365 2) environment and PA, new admin center. So D365 admin center moves. O365 admin center stays, for now.
+1. what's done where: 1) user and license, O365 2) environment and PA, new admin center.
