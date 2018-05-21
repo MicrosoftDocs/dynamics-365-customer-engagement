@@ -49,7 +49,7 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
 
-### Supported browsers for Outlook on the web  
+### Supported browsers  
  You can use [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../../includes/pn-outlook-web-app.md)] on the following browsers:  
   
 -   [!INCLUDE[pn_IE_10](../../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../../includes/pn-microsoft-edge.md)]  
