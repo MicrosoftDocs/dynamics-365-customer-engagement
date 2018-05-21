@@ -116,13 +116,13 @@ For example, to set privileges for the Mailbox entity:
 If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
 
 1.	From the main menu navigate to **Settings** > **My Apps**.
-![Dynamics 365 My Apps page](../media/MyAppPage.png "Dynamics 365 My Apps page") 
+![Dynamics 365 My Apps page](media/MyAppPage.png "Dynamics 365 My Apps page") 
 
 2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
-![Dynamics 365 Manage Roles page](../media/ManageRolesPage.png "Dynamics 365 Manage Roles page") 
+![Dynamics 365 Manage Roles page](media/ManageRolesPage.png "Dynamics 365 Manage Roles page") 
 
 3.	In the flyout that appears on the right, select the security roles to have access to App for Outlook and choose **Save**.
-![Dynamics 365 select a Role](../media/ManageRolesPage2.png "Dynamics 365 select a role")
+![Dynamics 365 select a Role](media/ManageRolesPage2.png "Dynamics 365 select a role")
   
 ### Supported configurations with Microsoft Exchange  
  As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] you can use the app with any combination of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), including hybrid configurations. This means you can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] in any of the following configurations:  
