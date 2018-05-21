@@ -6,7 +6,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.custom: ""
-ms.date: 04/11/2018
+ms.date: 05/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -92,57 +92,52 @@ Interactive experience dashboards can be a one-stop workplace for app users, suc
   
 The following procedure provides the steps for setting the global filter flag:
   
-1. Open solution explorer.  
+1. Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).  
   
-2. Under **Components**, expand **Entities**, and then expand the entity you want.  
+2. Under **Components**, expand **Entities**, and then expand the entity you want. If the entity you want isn't displayed select **Add Existing** to add it.  
   
-3.  In the navigation pane, click **Fields** and in the grid, double-click the field you want to enable.  
+3.  In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
   
-4.  In the **General** tab, select the **Appears in global filter in interactive experience** check box. Click **Save and Close**.  
+4.  In the **General** tab, select the **Appears in global filter in interactive experience** check box. Select **Save and Close**.  
   
-5.  Click **Publish** for your changes to take effect.  
+5.  Select **Publish** for your changes to take effect.  
   
-6.  Click **Prepare Client Customizations**.  
+6.  Select **Prepare Client Customizations**.  
   
 ### Configure sortable fields  
- For a field to be used in sorting stream data, you have to set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear in the drop-down list in the **Edit Property** flyout dialog when the user clicks **More (…)** on the stream header. The following illustration shows the flyout dialog with the list of the available fields for sorting, in the **Sort By** drop-down list. The default sort is always set on the **Modified On** field.  
+ For a field to be used in sorting stream data, you have to set the **Sortable in interactive experience dashboard** flag for this field. The fields that you configure for sorting will appear in the drop-down list in the **Edit Property** flyout dialog when the user selects **More (…)** on the stream header. The following illustration shows the flyout dialog with the list of the available fields for sorting, in the **Sort By** drop-down list. The default sort is always set on the **Modified On** field.  
   
  ![Sort by drop-down list](../customize/media/interactive-dashboard-sortable-fields-dropdown.png "Sort by drop-down list")  
   
 The following procedure provides the steps for setting the sort flag:
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).   
+2. Under **Components**, expand **Entities**, and then expand the entity you want. If the standard entity you want isn't displayed select **Add Existing** to add it.  
   
-2.  Click **Customize the System**.  
+3.  In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+4.  In the **General** tab, select the **Sortable in interactive experience dashboard** check box. Select **Save and Close**.  
   
-4.  In the navigation pane, click **Fields** and in the grid, double-click the field you want to enable.  
+5.  Select **Publish** for your changes to take effect.  
   
-5.  In the **General** tab, select the **Sortable in interactive experience dashboard** check box. Click **Save and Close**.  
-  
-6.  Click **Publish** for your changes to take effect.  
-  
-7.  Click **Prepare Client Customizations**.  
+6.  Select **Prepare Client Customizations**.  
   
 ### Enable security roles  
  Select and enable security roles that will be able to view the interactive dashboards.  
   
 The following procedure provides the steps to enable the security roles for the interactive experience:
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).  
   
-2.  Click **Customize the System**.  
+2. Under **Components**, select **Dashboards**.  
   
-3.  Under **Components**, click **Dashboards**.  
+4.  In the grid, select the interactive dashboard you want and select **Enable Security Roles** on the task bar.  
   
-4.  In the grid, select the interactive dashboard you want and click **Enable Security Roles** on the task bar.  
+5.  In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Select **OK**.  
   
-5.  In the **Assign Security Roles** dialog, select the **Display only to these selected security roles** option and select the roles that you want to enable. Click **OK**.  
+6.  Select **Publish** for your changes to take effect.  
   
-6.  Click **Publish** for your changes to take effect.  
-  
-7.  Click **Prepare Client Customizations**.  
+7.  Select **Prepare Client Customizations**.  
   
  ![Enable security roles](../customize/media/interactive-dashboards-enable-security-roles.png "Enable security roles")  
   
@@ -153,18 +148,16 @@ The following procedure provides the steps to enable the security roles for the 
  The following sections describe how to configure various types of the interactive dashboards.  
   
 ### Configure a multi-stream interactive dashboard using the 4-column layout  
+ 
+1.	Sign in to [PowerApps](https://web.powerapps.com).
+
+2.	Select **Model-driven** (lower left).  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+3.  Select **Data** > **Entities** > select the entity you want. 
+
+4.  Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
   
-2.  Click **Customize the System**.  
-  
-3.  Under **Components**, click **Dashboards**.  
-  
-4.  In the grid, click **New**, and select **Interactive experience dashboard** in the drop-down list, as shown here.  
-  
- ![Select interactive experience dashboard](../customize/media/interactive-dashboards-choose-interactive.PNG "Select interactive experience dashboard")  
-  
-5.  Choose the layout and click **Create**.  
+5.  Choose the layout, either 2, 3, or 4 column width.  
   
 6.  When the dashboard form opens, fill in the filtering information at the top of form, as shown here.  
   
@@ -178,7 +171,7 @@ The following procedure provides the steps to enable the security roles for the 
       
     - **Time Frame**: The default time frame filter value for the **Filter By** field.  
       
- After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply click on the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
+ After you  have specified the filtering information, start adding components for the charts and the data streams. To add a component, simply select the element in the center of the chart or stream, and when the dialog appears, enter the required information, as shown in the following illustrations.  
   
  Add the **Cases By Priority** doughnut chart.
   
@@ -191,7 +184,7 @@ The following procedure provides the steps to enable the security roles for the 
   
  ![Creating charts for visual filters](../customize/media/interactive-dashboard-visual-charts-x-y-axes.PNG "Creating charts for visual filters")  
   
- Next, configure the streams. Just like with adding components in the charts, click the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustrations.  
+ Next, configure the streams. Just like with adding components in the charts, select the element inside the stream panel. When the dialog appears, select **View** or **Queue** depending on what element you want the stream to use. Enter the required information, as shown in the following illustrations.  
   
 > [!NOTE]
 >  The **Queue** option is available in the dialog box only for queue-enabled entities. For entity dashboards, if the entity is not queue enabled, you won't see the **Queue** option in the dialog box. You can only use the **View option** in the stream of dashboards for entities that are not queue enabled.  
@@ -208,50 +201,47 @@ The following procedure provides the steps to enable the security roles for the 
   
  ![Add all streams](../customize/media/interactive-dashboards-add-all-streams.png "Add all streams")  
   
- After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect. Also, make sure to click **Prepare Client Customizations**.  
+ After you have completed configuring the dashboard, save it and publish the customizations for your changes to take effect. Also, make sure to select **Prepare Client Customizations**.  
   
 #### Edit or delete individual streams of an existing dashboard  
-In previous releases, if you wanted to change one of the streams of an existing dashboard, you had to delete all the streams from the dashboard, and add the ones you wanted. With Microsoft Dynamics CRM 2016 Service Pack 1 and Microsoft Dynamics CRM Online 2016 Update 1, you can now edit individual streams of an existing dashboard. 
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Sign in to [PowerApps](https://web.powerapps.com).   
   
-2.  Click **Customize the System**.  
-  
-3.  Under **Components**, click **Dashboards**.  
+2. Select **Model-driven** (lower left), **Data** > **Entities** > select the entity you want. Select the **Dashboards** tab.  
   
      -OR-  
+   
+   Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer), and then under **Components** select **Dashboards**.
   
-     If you want to edit the stream of an entity dashboard, then under **Components**, expand **Entities** and click the entity you want. Click **Dashboards** under the entity, in the navigation pane.  
+3.  In the grid, select the interactive dashboard that you want to edit to open it.  
   
-4.  In the grid, click the name of the interactive dashboard that you want to edit to open it.  
+4.  Select the stream that you want to edit to select it, and then select **Edit Component**.  
   
-5.  Click the stream that you want to edit to select it, and then click **Edit Component**.  
+5.  Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then select **Set**.  
   
-6.  Depending on whether you want to add a view or queue to the stream, select the view or queue details for the stream, and then click **Set**.  
+6.  Select **Save**.  
   
-7.  Click **Save**.  
-  
- You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, click **Delete**.  
+ You can also delete an individual stream from a dashboard. To do this, select the stream, and then on the command bar, select **Delete**.  
   
 ### Configure an entity-specific dashboard  
  An entity-specific dashboard is a multi-stream dashboard. Configuring this dashboard is similar to configuring a home page multi-stream dashboard, but you do it in the different place in the UI and there are other minor differences. For example, instead of selecting an entity, some fields in the entity-specific dashboard are preset to the entity for which you are creating the dashboard.  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1.	Sign in to [PowerApps](https://web.powerapps.com).
+
+2.	Select **Model-driven** (lower left).  
   
-2.  Click **Customize the System**.  
+3.  Select **Data** > **Entities** > select the entity you want. 
+
+4.  Select the **Dashboards** tab, and then on the toolbar select **Add dashboard**.  
   
-3.  Under **Components**, expand **Entities** and click the entity you want. Click **Dashboards** under the entity, in the navigation pane.  
-  
-4.  In the grid, click **New**, and select **Interactive experience dashboard** in the drop-down list.  
-  
-5.  Choose the layout and click **Create**.  
+5.  Choose the layout, either 2, 3, or 4 column width.    
   
 6.  When the dashboard form opens, the **Filter Entity** is preset to the entity for which you are creating the dashboard. The **Entity View** drop-down list contains the available views for the entity. Select the view and fill in the rest of the required information on the page.  
   
  The rest of the setup is very similar to the home page multi-stream dashboard setup described in the previous section.  
   
 ### Configure a single-stream dashboard  
- Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. If the tiles are included, they are always displayed on the dashboard. To configure a tile, you click on the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
+ Configuring a single-stream dashboard is similar to the multi-stream dashboard. All UI navigation steps are the same as for the multi-stream dashboard. You can choose a layout that includes tiles or the layout that doesn’t include tiles. If the tiles are included, they are always displayed on the dashboard. To configure a tile, you select the icon in the center of the tile. When the **Add Tile** window opens, fill in the required data. The following illustration is an example of the tile setup.  
   
  ![Add a tile to the single-stream dashboard](../customize/media/interactive-dashboard-add-tile-single-stream.png "Add a tile to the single-stream dashboard")  
   
@@ -262,21 +252,18 @@ In previous releases, if you wanted to change one of the streams of an existing 
 > [!NOTE]
 >  The color coding isn’t available for the tag charts and doughnut charts. These charts appear on the dashboard in white, gray, and black shades.  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1.  Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).  
+2.  Under **Components**, expand **Entities**, and then expand the entity you want. If the entity you want isn't displayed select **Add Existing** to add it.  
   
-2.  Click **Customize the System**.  
+3.  In the navigation pane, select **Fields**. In the grid, double-click the field that you want to configure the color for.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want.  
+4.  In the **General** tab, in the **Type** sub-area, select **Yes** and then select **Edit**.  
   
-4.  In the navigation pane, click **Fields**. In the grid, double-click the field that you want to configure the color for.  
+5.  When the **Modify List Value** dialog appears, set the new value in the **Color** text box. Select **OK**.  
   
-5.  In the **General** tab, in the **Type** sub-area, select **Yes** and click **Edit**.  
+     Select **Save and Close**.  
   
-6.  When the **Modify List Value** dialog appears, set the new value in the **Color** text box. Click **OK**.  
-  
-     Click **Save and Close**.  
-  
-7.  Click **Publish** for your changes to take effect.  
+7.  Select **Publish** for your changes to take effect.  
   
 In the following example, we’re changing the color for the **IsEscalated** field. Use the **Edit** button to open the **Modify List Value** dialog box:  
   
@@ -286,6 +273,6 @@ When the **Modify List Value** dialog box opens, choose the color as shown here:
   
  ![Modify the dashboard color](../customize/media/interactive-dashboards-modify-color-value.png "Modify the dashboard color")  
   
-### See also  
+### Next steps  
  [Create and edit dashboards](../customize/create-edit-dashboards.md)   
  [Create or edit a chart](../basics/create-edit-chart.md)  
