@@ -99,24 +99,6 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Close a menu | Escape |
 |Select a checkbox or radio button | Spacebar |
 
-## Interactive controls
-
-### Date picker shortcuts
-
-|Task             |Unified Interface  |
-|---------|---------|
-|Open the date picker flyout | Enter **Or** Spacebar **Or** Down (↓) arrow key |
-|Activate the option and close the flyout | Enter **Or** Spacebar |
-|Move to the next item | Down (↓) arrow key |
-|Move to the previous item | Up (↑) arrow key |
-|Move to the first item | Home |
-|Move to the last item | End |
-|Close the date picker flyout | Escape |
-|Move to the next element | Tab |
-|Move to the previous element | Shift+Tab |
-|Select the calendar | Enter **Or** Spacebar |
-|Activate a button | Enter **Or** Spacebar
-
 ### Global filter shortcuts
 
 |Task             |Unified Interface  |
@@ -134,29 +116,6 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Perform the default action for the tree view node | Enter |
 |Remove a filter | Delete |
 
-
-### Visual filter shortcuts
-
-|Task             |Unified Interface  |
-|---------|---------|
-|Activate the carousel button and show the chart | Enter **Or** Spacebar |
-|Move to the right carousel when focus is on the left carousel | Tab |
-|Move to the left carousel when focus is on the right carousel | Shift+Tab |
-|Move to the next element when focus is on the right carousel | Tab | 
-|Move to the previous element when focus is on left carousel | Shift+Tab |
-
-### Tag chart shortcuts
-
-|Task             |Unified Interface  |
-|---------|---------|
-|Activate a tag and filter the dashboard | Enter **Or** Spacebar |
-|Move to the next tag | Left (←) arrow key|
-|Move to the previous tag | Right (→) arrow key |
-|Move to the first tag | Home |
-|Move to the last tag | End |
-|Move to the **See All element** section, if not already filtered | Tab |
-|Move from the **See All element** section to the tags | Shift+Tab |
-
 ### Stream control shortcuts
 
 |Task             |Unified Interface  |
@@ -172,6 +131,39 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the last item | End |
 |Close a menu | Escape |
 |Change the state of a checkbox | Spacebar |
+
+
+## Common controls
+
+### Chart shortcuts
+
+|Task             |Unified Interface  |
+|---------|---------|
+|Move to the first data point | Tab |
+|Move to the next data point | Right (→) arrow key **OR** Down (↓) arrow key|
+|Move to the previous data point | Left (←) arrow key **OR**  Up (↑) arrow key|
+|Move to the first data point | Home |
+|Move to the last data point | End |
+|Move to the **See More** button in a Tag chart | Tab |
+|Move back from the **See More** button to the tags in a Tag chart | Shift+Tab |
+|Filter the dashboard when the focus is on a data point in an interactive dashboard | Enter key or Spacebar |
+
+
+### Date Time control shortcuts
+
+|Task             |Unified Interface  |
+|---------|---------|
+|Open the date picker flyout | Enter **Or** Spacebar **Or** Down (↓) arrow key |
+|Activate the option and close the flyout | Enter **Or** Spacebar |
+|Move to the next item | Down (↓) arrow key |
+|Move to the previous item | Up (↑) arrow key |
+|Move to the first item | Home |
+|Move to the last item | End |
+|Close the date picker flyout | Escape |
+|Move to the next element | Tab |
+|Move to the previous element | Shift+Tab |
+|Select the calendar | Enter **Or** Spacebar |
+|Activate a button | Enter **Or** Spacebar
 
 ### Search results shortcuts
 
