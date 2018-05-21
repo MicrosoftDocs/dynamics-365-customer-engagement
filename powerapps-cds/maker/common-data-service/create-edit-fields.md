@@ -41,13 +41,16 @@ Information in this topic will help you choose which designer you can use.
 You should use the PowerApps portal to create and edit fields unless you need to address any of the following requirements:
 
 - Create a field in a solution other than the CDS Default solution
-- Create a Lookup or Customer field
+- Create a Customer Lookup field
 - Set a field Requirement Level as Business Recommended
 - Enable Field Level Security
 - Enable Auditing
 - Edit multiple fields at once
 - Select whether the field appears in global filter in interactive experience
 - Select whether the field is sortable in interactive experience dashboards
+
+> [!NOTE]
+> You can create a Lookup field in the PowerApps portal or in solution explorer by creating a One-to-many relationship on the entity. But only solution explorer offers the option to create this relationship while creating a field.
 
 ## Community tools
 
