@@ -38,21 +38,11 @@ If the entity has dependencies that prevent it from being deleted you will see a
 
 ## Delete a custom entity using Solution Explorer
 
-When deleting an entity using the solution explorer you need to find the unmanaged solution that contains it or just make your change to the *default solution*.
+When deleting an entity using the solution explorer you need to find the unmanaged solution that contains it.
 
-The **Default Solution** is an unmanaged solution that contains all unmanaged customizations.
+[!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
 
-1. From the PowerApps portal in **Model-driven** design mode click **Advanced** to open the solution explorer to the **Common Data Services Default** solution.
-2. Edit the URL, removing everything after `dynamics.com` and refresh the page.
-3. In the **Settings** area select **Customization** > **Solutions**.
-4. In the  view selector, choose **All Solutions-Internal**.
-5. Within this list you will find a solution named **Default Solution**. 
-
- ![The default solution in the Solutions list](media/default-solution.PNG)
-
- Open that solution to edit it.
-
-6. Locate the solution you want to delete in the Entities list, select it and click **Delete** in the command bar.
+Locate the entity you want to delete in the **Entities** list, select it and click **Delete** in the command bar.
  
  ![Delete custom entity in solution explorer](media/delete-custom-entity-solution-explorer.png)
 

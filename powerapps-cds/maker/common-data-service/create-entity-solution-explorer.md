@@ -24,11 +24,16 @@ You can easily create an entity using the PowerApps portal for most common situa
 
 When creating an entity using the solution explorer you need to find the unmanaged solution that you want to add it to.
 
-1. From the PowerApps portal in Model-driven design mode click **Advanced** to open the Common Data Services Default solution.
-2. Edit the URL, removing everything after `dynamics.com` and refresh the page.
-3. In the **Settings** area select **Customization** > **Solutions**.
-4. In the  view selector, choose **Unmanaged Solutions**.
-5. Open an existing unmanaged solution or create a new solution. More information: [Create a solution](create-solution.md).
+From the PowerApps portal in Model-driven design mode click **Advanced** to open the **Common Data Services Default Solution**. 
+
+You can create your entity and other metadata in this solution using the customization prefix set for the **CDS Default Publisher**. You can change this prefix or work in a different solution.
+
+### To work in a different solution
+
+1. While viewing the **Common Data Services Default Solution** edit the URL, removing everything after `dynamics.com` and refresh the page.
+2. In the **Settings** area select **Customization** > **Solutions**.
+3. In the  view selector, choose **Unmanaged Solutions**.
+4. Open an existing unmanaged solution or create a new solution. More information: [Create a solution](create-solution.md).
 
 ## Create an Entity
 
