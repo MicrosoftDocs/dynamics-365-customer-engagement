@@ -544,10 +544,15 @@ One of the first things you might want to do when you receive a customer email, 
  
 <a name="PinnableTaskpane"></a>   
 
-### Add a pinnable taskpane
-If you're running Outlook 2016 for Windows (build 7668.2000 or later), you can add a [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook) to Outlook to enhance the App for Outlook user experience. For more information, see Implement a [pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane).
+### Experience App for Outlook as a pinnable taskpane
+Dynamics 365 App for Outlook, version 8.2 is now available as a pinnable task pane in Outlook Desktop 2016 for Windows. If you're running Outlook 2016 for Windows (build 7668.2000 or later), Dynamics 365 App for Outlook will appear as a pinnable vertical task pane to the right of an open email message in Outlook.
 
+![Dynamics 365 App for Outlook pinnable taskpane](../media/pintaskpane.png "Dynamics 365 App for Outlook pinnable taskpane").  
 
+With Dynamics 365 App for Outlook in pinned mode, you can select an email message and view all the relevant Dynamics 365 details for the selected email, without having to choose the Dynamics 365 ribbon icon on every email. You can browse through your email list by selecting email messages to read and App for Outlook will always display the details related to the current selected email. This capability is available on Dynamics 365 Online, version 8.2.2.1458 or higher. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane).
+
+ > [!NOTE]
+ >  If you are version 8.2.2.1458 or higher and do not see the option to pin App in Outlook Desktop 2016 for Windows, you may need to redeploy the App. To redeploy the App, please navigate to Dynamics 365 App for Outlook under Settings. On this page, select **ADD APP FOR ALL ELIGIBLE USERS** option on top of the user grid. You can also choose to change the view to **Eligible Users with the App**, then select the users from the grid and choose **ADD APP TO OUTLOOK**. This will redeploy App for Outlook to the selected eligible users.
  
 <a name="Previous"></a>   
 ## User's Guide for the previous version (Dynamics CRM)  
