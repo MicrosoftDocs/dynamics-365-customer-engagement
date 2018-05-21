@@ -72,7 +72,7 @@ There are some fields used by the system that you cannot add using the designer.
 |Type|Description|
 |--|--|
 |**Big Integer** or **Time Stamp**|Used by the system to capture a version number manage updates to an entity.|
-|**Customer**|A lookup field that you can use to specify a customer, which can be an account or contact.|
+|**Customer**|A lookup field that you can use to specify a customer, which can be an account or contact. Note: This attribute can be added using solution explorer designer.|
 |**Owner**|A system lookup field that references the user or team that is assigned a user or team owned entity record.|
 |**Status Reason**|A system field that has options that provide additional detail about the Status field. Each option is associated with one of the available Status options. You can add and edit the options. |
 |**Status**|A system field that has options that generally correspond to active and inactive status. Some system attributes have additional options, but all custom attributes have only **Active** and **Inactive** status options. <br /><br /> You can also include custom state transitions to control which status options are available for certain entities. More information: [Define status reason transitions for custom entities](define-status-reason-transitions.md) |
@@ -125,7 +125,7 @@ Currency fields allow for an organization to configure multiple currencies that 
   
 - A decimal field called **Exchange Rate** that provides the exchange rate for a selected currency associated with the entity with respect to the base currency. If this field is added to the form, people can see the value, but they can’t edit it. The exchange rate is stored with the currency.  
   
-For each currency field you add, another currency field is added with the prefix “_Base” on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
+For each currency field you add, another currency field is added with the suffix `_Base` on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
   
 When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.  
   
