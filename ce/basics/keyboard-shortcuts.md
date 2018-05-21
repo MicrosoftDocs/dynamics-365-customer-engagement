@@ -30,19 +30,17 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |---------|---------|---------|
 |Complete the command for the active option or button| Enter|  Enter|
 |Cancel a command, or close a selected list or dialog box| Esc| Esc|
-|Save| Ctrl+S **Or** Shift+F12|  Ctrl+S **Or** Shift+F12|
+|Save| Ctrl+S |  Ctrl+S |
 |Save and Close| Alt+S| N/A|
 |Cancel edits and close (Close) |Esc| Esc|
-|Open search |Spacebar| Spacebar|
 |Delete the record (when forms are in edit mode)|Ctrl+D| N/A|
 |Save and then open a new form (Save and New) (when forms are in edit mode)| Ctrl+Shift+S| N/A|
-|Open the lookup menu with the most recently used items in alphabetical order|Alt+Down arrow| Alt+Down arrow|
+|Open the lookup menu with the most recently used items in alphabetical order|Down arrow| Down arrow|
 |Open a lookup drop-down list| Enter| Enter|
 |Close a lookup drop-down list| Esc| Esc|
 |Open a record found in lookup with forms in edit mode| Enter| Enter|
-|Add a step in the business process editor|Alt+Shift+N| Alt+Shift+N|
-|Add an article to an email| Shift+Alt+A| Shift+Alt+A|
-|Apply an email template (when editing an email message)| Shift+Alt+T| Shift+Alt+T|
+|Add an article to an email| Shift+Alt+A| N/A|
+|Apply an email template (when editing an email message)| Shift+Alt+T| N/A|
 
 ## Form navigation shortcuts
 
@@ -53,10 +51,6 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Move between options in an open list, or between options in a group of options|Arrow keys| Arrow keys|
 |Go to the Command Bar| Ctrl+[ **Or** Ctrl+]| N/A |
 |Go to the landmark section of a page | N/A | Ctrl+[ |
-|Go to the first section on a form or the first tab on a grid|  Ctrl+Shift+1|  N/A|
-|Go to a form's associated grid navigation button|Ctrl+Shift+2| N/A|
-|Go to the Navigation bar|	Ctrl+Shift+3 | N/A|
-|Go to the Main menu button on the Navigation bar| Ctrl+Shift+8| N/A|
 
 ## Editable grids (views)
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
@@ -132,14 +126,13 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Close a menu | Escape |
 |Change the state of a checkbox | Spacebar |
 
-
 ## Common controls
 
 ### Chart shortcuts
 
 |Task             |Unified Interface  |
 |---------|---------|
-|Move to the first data point | Tab |
+|Move to the first element in a chart | Tab |
 |Move to the next data point | Right (→) arrow key **OR** Down (↓) arrow key|
 |Move to the previous data point | Left (←) arrow key **OR**  Up (↑) arrow key|
 |Move to the first data point | Home |
@@ -147,7 +140,6 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the **See More** button in a Tag chart | Tab |
 |Move back from the **See More** button to the tags in a Tag chart | Shift+Tab |
 |Filter the dashboard when the focus is on a data point in an interactive dashboard | Enter key or Spacebar |
-
 
 ### Date Time control shortcuts
 
