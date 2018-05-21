@@ -5,6 +5,6 @@
 
 # Version 8.x
 ## [About this content](../outlook-app/v8/about-this-content.md)
-## [What's new with Dynamics 365 App for Outlook, version 8.2](Whats-new-v8.md)
+## [What's new with Dynamics 365 App for Outlook, version 8.2](..Whats-new-v8.md)
 ## [Deploy Dynamics 365 App for Outlook](../outlook-app/v8/deploy-dynamics-365-app-for-outlook.md)
 ## [Dynamics 365 App for Outlook User Guide, version 8.2](../outlook-app/v8/dynamics-365-app-outlook-user-s-guide-v8.md)
