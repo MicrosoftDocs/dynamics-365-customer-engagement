@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: 4469877e-bb95-481a-bc52-c9746f937ce5
 caps.latest.revision: 16
 ms.author: "matp"
-manager: brycho
+manager: "kvivek"
 ---
 # Business process flows overview
 
@@ -38,8 +38,6 @@ Business process flows provide a guide for people to get work done. They provide
   
  Business process flows appear relatively simple compared to other types of processes because they do not provide any conditional business logic or automation beyond providing the streamlined experience for data entry and controlling entry into stages. However, when you combine them with other processes and customizations, they can play an important role in saving people time, reducing training costs, and increasing user adoption.  
 
- There are a number of ready-to-use business process flows available. More information: [Add ready-to-use business processes](add-ready-use-business-processes.md).
-  
 <a name="BKMK_BPFwithOtherCustomizations"></a>   
 ### Business process flows integrated with other customizations  
  When you or your user enters data using business process flows, the data changes are also applied to form fields so that any automation provided by business rules or form scripts can be applied immediately. Steps can be added that set values for fields that are not present in the form and these fields will be added to the `Xrm.Page` object model used for form scripts. Any workflows that are initiated by changes to fields included in a business process flow will be applied when the data in the form is saved. If the automation is applied by a real-time workflow, the changes will be immediately visible to the user when the data in the form is refreshed after the record is saved.  
@@ -151,7 +149,7 @@ Introduced in the Dynamics 365 (online), version 9.0 update, business process fl
 
 
 ### Enable customization support for business process flow entities
-1.	Open **System Settings**. More information: [Navigate to advanced app making and customization areas](advanced-navigation.md#Solution-explorer)
+1.	Open **System Settings**. More information: [Navigate to advanced app making and customization areas](advanced-navigation.md#solution-explorer)
 2.	Select the **Preview** tab.
 3.	Review, and if you agree, accept the license terms.
 4.	Select **Enable BPF Entity Customization Support**, and then select **OK**.
@@ -178,7 +176,6 @@ Currently, you can’t create custom forms for entities based on a business proc
 
 ### Next steps  
  [Watch a short video (4:49) about business process flows](https://go.microsoft.com/fwlink/p/?linkid=842226)   
- [Add ready-to-use business processes](add-ready-use-business-processes.md)   
  [Create a business process flow](create-business-process-flow.md)   
  [Enhance business process flows with branching](enhance-business-process-flows-branching.md) <br/>
  [Whitepaper: Process Enablement with Dynamics 365](http://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>

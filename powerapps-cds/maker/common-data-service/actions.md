@@ -18,7 +18,7 @@ manager: "kvivek"
 ---
 # Actions overview
 
-Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! More information: [Invoke custom actions from a workflow](invoke-custom-actions-workflow-dialog.md)   
+Actions are a type of process. You can invoke actions, including custom actions, directly from a workflow or dialog without writing code! More information: [Invoke custom actions from a workflow](../model-driven-apps/invoke-custom-actions-workflow-dialog.md)   
   
  Actions can also be invoked by running custom code that uses the PowerApps web services.  
   
@@ -53,10 +53,10 @@ Developers can learn more in this topic:  [Create your own actions](https://docs
 ### See also  
 [Create your own actions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions)
 
-[Configure custom actions from a workflow](configure-actions.md)
+[Configure custom actions from a workflow](../model-driven-apps/configure-actions.md)
 
-[Invoke custom actions from a workflow or dialog](invoke-custom-actions-workflow-dialog.md) 
+[Invoke custom actions from a workflow or dialog](../model-driven-apps/invoke-custom-actions-workflow-dialog.md) 
 
 [Workflow processes overview](workflow-processes.md)   
 
-[Business process flows overview](business-process-flows-overview.md)   
+[Business process flows overview](../model-driven-apps/business-process-flows-overview.md)   
