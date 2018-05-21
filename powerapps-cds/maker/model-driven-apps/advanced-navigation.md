@@ -54,11 +54,12 @@ First, see if the setting you need is in the ![Settings icon](media/powerapps-ge
 
 To find settings not availabe from **Advanced customizations**:  
 1.	On the PowerApps site, select **Model-driven** > ![Settings icon](media/powerapps-gear.png)  > **Advanced customizations** > **Open solution explorer**.
-2.	In the browser address, remove everything after the “.com” and select ENTER. The URL should look similar to this: *https://org12345f67.crm.dynamics.com*
+2.	In the browser address, remove everything after the “.com” and select ENTER. The URL should look similar to *https://org12345f67.crm.dynamics.com*.
 
 ## Next steps
 
-[Create or edit a model-driven app by using the app designer](../../../ce/customize/create-edit-app.md)
+[Create or edit a model-driven app by using the app designer](create-edit-app.md)
+
 
 
 
