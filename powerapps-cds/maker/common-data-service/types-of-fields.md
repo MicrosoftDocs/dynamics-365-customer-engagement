@@ -90,6 +90,7 @@ Multi-select option set is only available in read-only grids, editable grids, an
 - Reports, SLA, and Routing Rule.
 
 Multi-select fields are supported in the following types of forms:
+
 |Form Type|Availability|
 |--------------|------------------------|
 |**Turbo form**|Yes|
