@@ -18,13 +18,6 @@ ms.reviewer:
 ms.suite: 
 ms.tgt_pltfrm: 
 ---
-<!-- [jdaly]
-Much of this has been added to the create-edit-field topics for portal and solution explorer respectively 
-This should remain with less details on fields that can be added via the designers but include information about important field types that cannot be added by designers and for more detailed issues that don't deserve a separate topic.
-
-Perhaps a table reconciling the nomenclature used in portals and solution explorer?
-
--->
 # Types of fields
 
 The names used for types depends on the designer used. [PowerApps portal](https://web.powerapps.com) uses a convention that includes the way the data is formatted. The solution explorer 'Classic' type uses a name based on the API type with a format modifier. The following table includes the corresponding `AttributeTypeDisplayName` API type.
