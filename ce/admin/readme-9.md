@@ -68,7 +68,7 @@ required to take the following actions to maintain the connectivity to Dynamics
     browsers](https://technet.microsoft.com/library/hh699710.aspx) to access the
     Microsoft Dynamics 365 web application. For help identifying if a browser
     supports the TLS 1.2 requirement, go to this [validation test
-    page](https://tls1-2validationtest.crm10.dynamics.com/TLSvalidation.html).
+    page](https://go.microsoft.com/fwlink/?linkid=874490).
 
 2.  Recompile your custom Windows clients that were built using the .NET
     Framework 4.5.2 to use the .NET Framework 4.6.2 or later.
