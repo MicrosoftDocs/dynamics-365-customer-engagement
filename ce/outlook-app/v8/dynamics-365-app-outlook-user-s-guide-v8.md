@@ -547,7 +547,7 @@ One of the first things you might want to do when you receive a customer email, 
 ### Experience App for Outlook as a pinnable taskpane
 Dynamics 365 App for Outlook, version 8.2 is now available as a pinnable task pane in Outlook Desktop 2016 for Windows. If you're running Outlook 2016 for Windows (build 7668.2000 or later), Dynamics 365 App for Outlook will appear as a pinnable vertical task pane to the right of an open email message in Outlook.
 
-![Dynamics 365 App for Outlook pinnable taskpane](../../media/pintaskpane.png "Dynamics 365 App for Outlook pinnable taskpane").  
+![Dynamics 365 App for Outlook pinnable taskpane](../media/pintaskpane.png "Dynamics 365 App for Outlook pinnable taskpane").  
 
 With Dynamics 365 App for Outlook in pinned mode, you can select an email message and view all the relevant Dynamics 365 details for the selected email, without having to choose the Dynamics 365 ribbon icon on every email. You can browse through your email list by selecting email messages to read and App for Outlook will always display the details related to the current selected email. This capability is available on Dynamics 365 Online, version 8.2.2.1458 or higher. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane).
 
