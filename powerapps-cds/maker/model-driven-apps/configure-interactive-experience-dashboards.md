@@ -92,7 +92,7 @@ Interactive experience dashboards can be a one-stop workplace for app users, suc
   
 The following procedure provides the steps for setting the global filter flag:
   
-1. Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).  
+1. Open [solution explorer](advanced-navigation.md#solution-explorer).  
   
 2. Under **Components**, expand **Entities**, and then expand the entity you want. If the entity you want isn't displayed select **Add Existing** to add it.  
   
@@ -111,7 +111,7 @@ The following procedure provides the steps for setting the global filter flag:
   
 The following procedure provides the steps for setting the sort flag:
   
-1. Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).   
+1. Open [solution explorer](advanced-navigation.md#solution-explorer).   
 2. Under **Components**, expand **Entities**, and then expand the entity you want. If the standard entity you want isn't displayed select **Add Existing** to add it.  
   
 3.  In the navigation pane, select **Fields** and in the grid, double-click the field you want to enable.  
@@ -127,7 +127,7 @@ The following procedure provides the steps for setting the sort flag:
   
 The following procedure provides the steps to enable the security roles for the interactive experience:
   
-1. Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).  
+1. Open [solution explorer](model-driven-apps/advanced-navigation.md#solution-explorer).  
   
 2. Under **Components**, select **Dashboards**.  
   
@@ -211,7 +211,7 @@ The following procedure provides the steps to enable the security roles for the 
   
      -OR-  
    
-   Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer), and then under **Components** select **Dashboards**.
+   Open [solution explorer](advanced-navigation.md#solution-explorer), and then under **Components** select **Dashboards**.
   
 3.  In the grid, select the interactive dashboard that you want to edit to open it.  
   
@@ -252,7 +252,7 @@ The following procedure provides the steps to enable the security roles for the 
 > [!NOTE]
 >  The color coding isn’t available for the tag charts and doughnut charts. These charts appear on the dashboard in white, gray, and black shades.  
   
-1.  Open [solution explorer](../../powerapps-cds/maker/model-driven-apps/advanced-navigation.md#solution-explorer).  
+1.  Open [solution explorer](advanced-navigation.md#solution-explorer).  
 2.  Under **Components**, expand **Entities**, and then expand the entity you want. If the entity you want isn't displayed select **Add Existing** to add it.  
   
 3.  In the navigation pane, select **Fields**. In the grid, double-click the field that you want to configure the color for.  
@@ -274,5 +274,7 @@ When the **Modify List Value** dialog box opens, choose the color as shown here:
  ![Modify the dashboard color](../model-driven-apps/media/interactive-dashboards-modify-color-value.png "Modify the dashboard color")  
   
 ### Next steps  
- [Create and edit dashboards](../customize/create-edit-dashboards.md)   
- [Create or edit a chart](../basics/create-edit-chart.md)  
+ 
+[Create or edit dashboards](create-edit-dashboards.md)
+ 
+

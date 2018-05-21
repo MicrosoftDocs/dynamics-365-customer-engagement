@@ -20,8 +20,6 @@ manager: "kvivek"
 ---
 # Best practices for workflow processes
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
 This topic contains best practices for creating and managing workflow processes.  
   
 <a name="BKMK_AvoidInfiniteLoops"></a>   
@@ -48,8 +46,8 @@ This topic contains best practices for creating and managing workflow processes.
 ## Use Notes to keep track of changes  
  When you edit workflows you should use the Notes tab and type what you did and why you did it. This allows someone else to understand the changes you made.  
   
-### See also  
- [Workflow processes overview](../customize/workflow-processes.md)   
- [Configure workflow processes](../customize/configure-workflow-steps.md)   
- [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)
+## Next steps  
+ [Workflow processes overview](workflow-processes.md)   
+ [Configure workflow processes](configure-workflow-steps.md)   
+ [Monitor and manage workflow processes](monitor-manage-processes.md)
    
