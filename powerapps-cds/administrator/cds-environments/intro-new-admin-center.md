@@ -68,9 +68,10 @@ We're moving Admin settings from the Dynamics 365 Customer Engagement product to
 
 Many of these settings...
 
-![Dynamics 365 Administration Settings](../media/settings-administration683.png)
+![Dynamics 365 Settings](../media/old-settings.png)
 
 ...are moving here.
+
 ![Dynamics 365 settings](../media/new-admin-center-settings.png)
 
 Use the links on this page to manage organization-wide settings. App-specific settings will remain in Dynamics 365 based on your licensing. 
