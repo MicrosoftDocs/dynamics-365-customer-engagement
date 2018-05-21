@@ -21,7 +21,11 @@ manager: "kvivek"
 # Edit system entity messages
 
 The default display name of some system entities is used in user interface text and error messages in Common Data Service for Apps. If you change the display name, you should also update any messages that use the default display name. For example, if you change the display name from *Account* to *Company*, you could still see an error message using the old name.  
-  
+
+You cannot edit system messages using the PowerApps portal you must use solution explorer.
+
+[!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
+
 In the solution explorer, below the entity, if you see a **Messages** node you can edit certain text that includes references to the original entity display name. Editing this text is straightforward. Open the message to see a form with three fields:  
   
 |Field|Description|  

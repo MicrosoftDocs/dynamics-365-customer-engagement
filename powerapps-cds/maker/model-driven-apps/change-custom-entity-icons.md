@@ -20,22 +20,22 @@ manager: "kvivek"
 tags: 
  - "Links to topic not migrated"
 ---
-# Change icons for custom entities
+# Change custom entity icons 
 
 When you create a custom entity, it is automatically assigned a default icon. All custom entities use the same icon by default. Use custom icons to differentiate how your custom entities look. You can’t modify the icons assigned to system entities.  
   
  You can upload three types of entity icons for each custom entity. 
 
-> [!NOTE]
-> The preferred type of file for all types is a scalable vector graphic (.svg) icon with transparency enabled. 
-> 
-> All icons must be no more than 10 kilobytes in size.
-
 |Icon Type  |Description  |
 |---------|---------|
 |**Unified Interface Icon**|Must be a scalable vector graphic (.svg) icon |
-|**Icon in Web application**|If not a scalable vector graphic (.svg) icon, it can be a .gif, .png, or .jpg format image, 16x16 pixels in size.|
-|**Icon for entity form**s|If not a scalable vector graphic (.svg) icon, it can be a .gif, .png, or .jpg format image, 32x32 pixels in size.|
+|**Icon in Web application**|An .svg, .gif, .png, or .jpg format image, 16x16 pixels in size.|
+|**Icon for entity forms**|An .svg, .gif, .png, or .jpg format image, 32x32 pixels in size.|
+
+> [!NOTE]
+> All image files must be no more than 10 kilobytes in size.
+>
+> When you use a scalable vector graphic (.svg) image as the **Icon in Web application** or **Icon for entity forms**, it must have the default size set. Since SVG is an XML document, you can edit the [svg](https://developer.mozilla.org/docs/Web/SVG/Element/svg) element [width](https://developer.mozilla.org/docs/Web/SVG/Attribute/width) and [height](https://developer.mozilla.org/docs/Web/SVG/Attribute/height) values with a text editor to define the default size for the image.
 
 Each type of icon is stored as a Web Resource. You can create the web resources first and then set the icons to use them, or you can create the new web resource within the **Lookup Record** dialog by selecting **New** while setting the value. More information: [Create or edit web resources to extend an app](create-edit-web-resources.md)
 
@@ -43,14 +43,7 @@ Each type of icon is stored as a Web Resource. You can create the web resources 
 
 You must use solution explorer to set entity icons.
 
-### Navigate to the solution
-
-1. From the PowerApps portal in Model-driven design mode select **Advanced** to open the **Common Data Services Default** solution.
-1. Edit the URL, removing everything after `dynamics.com` and refresh the page.
-1. In the **Settings** area select **Customization** > **Solutions**.
-1. In the  view selector, choose **Unmanaged Solutions**.
-1. Open the existing unmanaged solution that contains the entity you want to edit.
-1. Select the entity to edit it.
+[!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
 
 ### Set entity icons
 
@@ -65,7 +58,7 @@ You must use solution explorer to set entity icons.
   
 ## Community tools
 
-**Iconator** is a tool that XrmToolbox community developed for Dynamics 365 Customer Engagement. Please see the [Developer tools for Common Data Service for Apps](../../developer/common-data-service/developer-tools.md) topic for community developed tools.
+**[Iconator](https://www.xrmtoolbox.com/plugins/MscrmTools.Iconator/)** is a tool that XrmToolbox community developed for Dynamics 365 Customer Engagement. Please see the [Developer tools for Common Data Service for Apps](../../developer/common-data-service/developer-tools.md) topic for community developed tools.
 
 > [!NOTE]
 > The community tools are not a product of Microsoft and does not extend support to the community tools. 

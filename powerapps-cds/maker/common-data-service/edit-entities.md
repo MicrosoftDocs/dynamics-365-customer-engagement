@@ -29,7 +29,7 @@ There are two ways to edit an entity using a designer:
 
 |Designer|Description|
 |--|--|
-|PowerApps portal|Provides an easy streamlined experience, but some special settings are not available.|
+|[PowerApps portal](https://web.powerapps.com)|Provides an easy streamlined experience, but some special settings are not available.|
 |Solution explorer|Not as easy, but provides for more flexibility for less common requirements.|
 
 In both the PowerApps portal and solution explorer you can perform the following:
@@ -72,14 +72,7 @@ For any other changes to entity options, you must edit the entity using solution
 
 When editing an entity using the solution explorer you need to find the unmanaged solution that you want to add it to.
 
-### Navigate to the solution
-
-1. From the PowerApps portal in Model-driven design mode click **Advanced** to open the Common Data Services Default solution.
-2. Edit the URL, removing everything after `dynamics.com` and refresh the page.
-3. In the **Settings** area select **Customization** > **Solutions**.
-4. In the  view selector, choose **Unmanaged Solutions**.
-5. Open an existing unmanaged solution that contains the entity you want to edit.
-6. Click on the entity to edit it.
+[!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
   
 <a name="BKMK_ChangeEntityName"></a> 
   
@@ -94,16 +87,7 @@ Use the **Display Name** and **Plural Name** properties to change the name of th
 
 ###  Change the icons used for custom entities  
 
-By default, all custom entities in the web application have the same icons. You can create image web resources for the icons you want for your custom entities and set them using the **Update Icons** button on the toolbar. There are two sizes of icons:  
-  
-- **Icon in Web Application** This icon should be 16x16 pixels.  
-  
-- **Icon for Entity Forms** This icon should be 32x32 pixels.  
-  
-Both icons should be no larger than 10 KB. PNG format files with transparent backgrounds are recommended. More information:  [Change icons for custom entities](../model-driven-apps/change-custom-entity-icons.md).  
-  
-> [!NOTE]
-> Dynamics 365 for tablets and Dynamics 365 for phones don’t display custom icons for custom entities.  
+By default, all custom entities in the web application have the same icons. You can create image web resources for the icons you want for your custom entities. More information:  [Change icons for custom entities](../model-driven-apps/change-custom-entity-icons.md).  
   
 <a name="BKMK_EnableOptions"></a>  
  
