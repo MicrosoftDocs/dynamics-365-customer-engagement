@@ -19,9 +19,7 @@ manager: "kvivek"
 ---
 # Configure custom actions from a workflow
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
-You can enable a custom action from a workflow without writing code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md).  
+You can enable a custom action from a workflow without writing code. More information: [Invoke custom actions from a workflow](invoke-custom-actions-workflow-dialog.md).  
   
  You may also create an action so that a developer can use it in code or you may need to edit an action that was previously defined. Like workflow processes, consider the following:  
   
@@ -38,13 +36,13 @@ Unlike workflow processes, you don’t need to set the following options:
   
 - **Run in the background**: Actions are always real-time workflows.  
   
-Actions also have something that workflow processes don’t – input and output arguments. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define process arguments](../customize/configure-actions.md#BKMK_DefineProcessArgs)  
+Actions also have something that workflow processes don’t – input and output arguments. More information: [Define process arguments](configure-actions.md#BKMK_DefineProcessArgs)  
   
 <a name="create"></a>   
 ## Create an action  
   
 > [!IMPORTANT]
->  If you’re creating an action to include as part of a solution that will be distributed, create it in the context of the solution. Go to **Settings** > **Solutions** and locate the unmanaged solution that this action will be part of. Then, in the menu bar, select **New** > **Process**. This ensures that the customization prefix associated with the name of the action will be consistent with other components in the solution. After you create the action, you can’t change the prefix.  
+>  If you’re creating an action to include as part of a solution that will be distributed, create it in the context of the solution. Go to **[Settings](advanced-navigation.md#settings)** > **Solutions** and locate the unmanaged solution that this action will be part of. Then, in the menu bar, select **New** > **Process**. This ensures that the customization prefix associated with the name of the action will be consistent with other components in the solution. After you create the action, you can’t change the prefix.  
   
  Like workflow processes, actions have the following properties in the **Create Process** dialog box.  
   
@@ -85,16 +83,16 @@ Actions also have something that workflow processes don’t – input and output
  You should consult with the developer who will use this message to determine whether it must be in transaction or not. Generally, an action should be in transaction if the actions performed by the business process don’t make sense unless all of them are completed successfully. The classic example is transferring funds between two bank accounts. If you withdraw funds from one account you must deposit them in the other. If either fails, both must fail.  
   
 > [!NOTE]
->  You can’t enable rollback if a custom action is invoked directly from within a workflow. You can enable rollback if an action is triggered by a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services message.  
+>  You can’t enable rollback if a custom action is invoked directly from within a workflow. You can enable rollback if an action is triggered by a PowerApps web services message.  
   
  **Activate As**  
  Like all processes, you can activate the process as a template and use it as an advanced starting point for processes that follow a similar pattern.  
   
  **Define Process Arguments**  
- In this area, you’ll specify any data that the action expects to start and what data will be passed out of the action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define process arguments](../customize/configure-actions.md#BKMK_DefineProcessArgs)  
+ In this area, you’ll specify any data that the action expects to start and what data will be passed out of the action. More information: [Define process arguments](configure-actions.md#BKMK_DefineProcessArgs)  
   
  **Add Stages, Conditions and Actions**  
- Like other processes, you specify what actions to perform and when to perform them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add stages, conditions and actions](../customize/configure-actions.md#BKMK_AddStagesConditionsAndActions)
+ Like other processes, you specify what actions to perform and when to perform them. More information: [Add stages, conditions and actions](configure-actions.md#BKMK_AddStagesConditionsAndActions)
 
 <a name="BKMK_DefineProcessArgs"></a>   
 ### Define process arguments  
@@ -126,20 +124,19 @@ Actions also have something that workflow processes don’t – input and output
 |String|A text value.|  
   
 > [!NOTE]
-> **EntityCollection** argument values can’t be set in the user interface for conditions or actions. These are provided for use by developers in custom code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create your own actions](../developer/create-own-actions.md) 
+> **EntityCollection** argument values can’t be set in the user interface for conditions or actions. These are provided for use by developers in custom code. More information: [Create your own actions](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions) 
   
 <a name="BKMK_AddStagesConditionsAndActions"></a>   
 ### Add stages and steps  
- Actions are a type of process very similar to real-time workflows. All the steps that can be used in real-time workflows can be used in actions. For information about the steps that can be used for both real-time workflows and actions, see [Workflow stages and steps](../customize/configure-workflow-steps.md#BKMK_WorkflowStagesAndSteps).  
+ Actions are a type of process very similar to real-time workflows. All the steps that can be used in real-time workflows can be used in actions. For information about the steps that can be used for both real-time workflows and actions, see [Workflow stages and steps](configure-workflow-steps.md#BKMK_WorkflowStagesAndSteps).  
   
  In addition to the steps that can be used for real-time workflows, actions also have the **Assign Value** step.  In actions, these can be used only to set output arguments. You can use the form assistant to set output arguments to specific values or, more likely, to values from the record that the action is running against, records related to that record with a many-to-one relationship, records created in an earlier step, or values that are part of the process itself.  
   
-### See also  
- [Actions](../customize/actions.md)   
- [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md)   
- [Monitoring real-time workflows and actions](../customize/monitor-manage-processes.md#BKMK_MonitorSyncWorkflows)<br />
- [Workflow processes](../customize/workflow-processes.md)   
- [Business process flows overview](../customize/business-process-flows-overview.md)   
- [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
- [Create your own actions](../developer/create-own-actions.md)
+### Next steps  
+ [Actions](../common-data-service/actions.md)   
+ [Invoke custom actions from a workflow](invoke-custom-actions-workflow-dialog.md)   
+ [Monitoring real-time workflows and actions](monitor-manage-processes.md#BKMK_MonitorSyncWorkflows)<br />
+ [Workflow processes](../common-data-service/workflow-processes.md)   
+ [Business process flows overview](business-process-flows-overview.md)   
+ 
  
