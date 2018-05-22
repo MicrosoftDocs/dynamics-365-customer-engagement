@@ -233,4 +233,4 @@ Now, members of Contoso’s salesforce can kick-off the action from the **Opport
  [Enhance business process flows with branching ](enhance-business-process-flows-branching.md)</br> 
  [Create business rules and recommendations to apply logic in a form](create-business-rules-recommendations-apply-logic-form.md)   
  [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md)  
- [Workflow processes](../common-data-model/workflow-processes.md)
+ [Workflow processes](../common-data-service/workflow-processes.md)
