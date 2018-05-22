@@ -16,7 +16,7 @@ manager: "kvivek"
 ---
 # Configure workflow steps
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+In this tutorial, you learn how to design a workflow. 
 
 When configuring workflows you have four major areas to consider:  
   
@@ -28,7 +28,7 @@ When configuring workflows you have four major areas to consider:
   
 -   Under what conditions actions should be performed?  
   
- The [Workflows processes overview](../customize/workflow-processes.md) topic shows how to find workflow processes, when to start them, and if they should run as real time or background. This topic shows which actions workflows can perform and conditions to perform those actions.  
+ The [Workflows processes overview](../common-data-service/workflow-processes.md) topic shows how to find workflow processes, when to start them, and if they should run as real time or background. This topic shows which actions workflows can perform and conditions to perform those actions.  
   
 <a name="BKMK_WorkflowStagesAndSteps"></a>   
 
@@ -56,7 +56,7 @@ When configuring workflows you have four major areas to consider:
 |**Send Email**|Sends an email. You can choose to create a new email message or use an email template configured for the entity of the record that the workflow is running on or any entities that have an N:1 relationship with the entity, or the entity for any records created by earlier steps.|  
 |**Start Child Workflow**|Starts a workflow process that has been configured as a child workflow.|  
 |**Change Status**|Changes the status of the record that the process is running on, any of the records linked to that record with an N:1 relationship, or any records created by earlier steps.|  
-|**Stop Workflow**|Stops the current workflow. You can set a status of either **Succeeded** or **Cancelled** and specify a status message.<br /><br /> When real-time workflows are configured for an event, stopping a workflow with a status of cancelled will prevent the event action from completing. See [Using real-time workflows](../customize/configure-workflow-steps.md#BKMK_SynchronousWorkflows) for more information.|  
+|**Stop Workflow**|Stops the current workflow. You can set a status of either **Succeeded** or **Cancelled** and specify a status message.<br /><br /> When real-time workflows are configured for an event, stopping a workflow with a status of cancelled will prevent the event action from completing. See [Using real-time workflows](configure-workflow-steps.md#BKMK_SynchronousWorkflows) for more information.|  
 |**Custom Step**|Developers can create custom workflow steps that define actions. There are no custom steps available by default.|  
   
 ### Setting record values  
@@ -83,7 +83,7 @@ When configuring workflows you have four major areas to consider:
   
 |Condition Type|Description|  
 |--------------------|-----------------|  
-|**Check Condition**|A logical "if-\<condition> then" statement.<br /><br /> You can check the current values for the record that the workflow is running on, any of the records linked to that record in an N:1 relationships, or any records created by earlier steps. Based on these values you can define additional steps when the condition is true.<br /><br /> In the "if-\<condition> then" statement, you can use the following operators: **Equals**, **Does Not Equal**, **Contains Data**, **Does Not Contain Data**, **Under** and **Not Under**. **Note:**  The **Under** and **Not Under** are hierarchical operators. They can only be used on the entities that have a hierarchical relationship defined. If you’re trying to use these operators on the entities that don’t have the hierarchical relationship defined, you’ll see the error message: “You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.”For more information about hierarchical relationships, see [Query and visualize hierarchical data](../customize/query-visualize-hierarchical-data.md). A screenshot that follows the table is an example of the definition of the workflow process that uses the **Under** and **Not Under** hierarchical operators.|  
+|**Check Condition**|A logical "if-\<condition> then" statement.<br /><br /> You can check the current values for the record that the workflow is running on, any of the records linked to that record in an N:1 relationships, or any records created by earlier steps. Based on these values you can define additional steps when the condition is true.<br /><br /> In the "if-\<condition> then" statement, you can use the following operators: **Equals**, **Does Not Equal**, **Contains Data**, **Does Not Contain Data**, **Under** and **Not Under**. **Note:**  The **Under** and **Not Under** are hierarchical operators. They can only be used on the entities that have a hierarchical relationship defined. If you’re trying to use these operators on the entities that don’t have the hierarchical relationship defined, you’ll see the error message: “You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.”For more information about hierarchical relationships, see [Query and visualize hierarchical data](../common-data-service/query-visualize-hierarchical-data.md). A screenshot that follows the table is an example of the definition of the workflow process that uses the **Under** and **Not Under** hierarchical operators.|  
 |**Conditional Branch**|A logical "else-if-then" statement, the editor uses the text “Otherwise, if \<condition> then:”<br /><br /> Select a check condition you have previously defined and you can add a conditional branch to define additional steps when the check condition returns false.|  
 |**Default Action**|A logical "else" statement. the editor uses the text “Otherwise:”<br /><br /> Select a check condition, conditional branch, wait condition, or parallel wait branch that you have previously defined and you can use a default action to define steps for all cases that do not match the criteria defined in condition or branch elements.|  
 |**Wait Condition**|Enables a background workflow to pause itself until the criteria defined by the condition have been met. The workflow starts again automatically when the criteria in the wait condition have been met.<br /><br /> Real-time workflows cannot use wait conditions.|  
@@ -92,7 +92,7 @@ When configuring workflows you have four major areas to consider:
   
  The following screenshot contains an example of the workflow process definition with the **Under** and **Not Under** hierarchical operators. In our example, we apply two different discounts to two groups of accounts. In **Add Step**, we selected the **Check Condition** to specify the **if-then** condition containing the **Under** or **Not Under** operators. The first **if-then** condition applies to all accounts that are **Under** the Alpine Ski House account. These accounts receive a 10% discount on purchased good and services. The second **if-then** condition applies to all accounts that are **Not Under** the Alpine Ski House account and they receive a 5% discount. Then, we selected **Update Record** to define the action to be performed based on the condition.  
   
- ![Workflow process with Under&#47;Not Under operators](../customize/media/wfp-under-not-under.PNG "Workflow process with Under/Not Under operators")  
+ ![Workflow process with Under&#47;Not Under operators](media/wfp-under-not-under.PNG "Workflow process with Under/Not Under operators")  
   
 <a name="BKMK_SynchronousWorkflows"></a>   
 
@@ -118,8 +118,8 @@ When configuring workflows you have four major areas to consider:
 
  When you apply a **Stop Workflow** action in a workflow you have the option to specify a status condition that can be either **Succeeded** or **Canceled**. When you set the status to canceled, you prevent the operation. An error message containing the text from the stop action status message will be displayed to the user with the heading **Business Process Error**.  
   
-### See also  
- [Create custom business logic with processes](../customize/guide-staff-through-common-tasks-processes.md)   
- [Workflow processes overview](../customize/workflow-processes.md)   
- [Monitor and manage workflow processes](../customize/monitor-manage-processes.md)   
- [Best practices for workflow processes](../customize/best-practices-workflow-processes.md)
+### Next steps  
+ [Create custom business logic with processes](guide-staff-through-common-tasks-processes.md)   
+ [Workflow processes overview](../common-data-service/workflow-processes.md)   
+ [Monitor and manage workflow processes](monitor-manage-processes.md)   
+ [Best practices for workflow processes](best-practices-workflow-processes.md)
