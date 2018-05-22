@@ -19,15 +19,13 @@ manager: "kvivek"
 ---
 # Sort records in a view
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
-<a name="BKMK_ConfigureSorting"></a>    
+ When you create or edit a view you can configure the sort order for either ascending or descending.   
   
-1.  When you create or edit the view, select **Configure Sorting**.  
+1.   In the view designer, select **Configure Sorting**.  
   
 2.  In the **Configure Sort Order** dialog box, in the **Sort By** list, select the column you want to sort, then select **Ascending Order** or **Descending Order**.  
   
 3.  Select **OK** to close the **Configure Sort Order** dialog box.  
 
-### See also
+### Next steps
 [Create or edit a view](create-edit-views.md)
