@@ -2,7 +2,7 @@
 title: "Pointers for Voice of the Customer | MicrosoftDocs"
 description: "Your starting point for help of Voice of the Customer."
 keywords: "voice of the customer help"
-ms.date: 11/08/2017
+ms.date: 05/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
