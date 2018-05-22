@@ -2,7 +2,7 @@
 title: "Troubleshoot Voice of the Customer | MicrosoftDocs"
 description: "Learn how to troubleshoot issues in Voice of the Customer solution."
 keywords: "troubleshoot voice of the customer"
-ms.date: 05/17/2018
+ms.date: 05/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:

@@ -2,7 +2,7 @@
 title: "Design an advanced survey by using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to add advanced functionalities to the survey."
 keywords: "advanced survey design; interactive survey; response routing"
-ms.date: 05/17/2018
+ms.date: 05/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:

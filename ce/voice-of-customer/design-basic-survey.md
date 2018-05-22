@@ -2,7 +2,7 @@
 title: "Design a basic survey using Voice of the Customer | MicrosoftDocs"
 description: "Learn how to create a basic survey using Voice of the Customer and add questions to it."
 keywords: "survey design;  survey theme; share survey; clone survey"
-ms.date: 05/17/2018
+ms.date: 05/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -68,7 +68,7 @@ Voice of the Customer app provides a WYSIWYG theme designer. This allows you to 
     ![Select element font properties](media/survey-theme-font-prop.png "Select element font properties") 
 
     > [!NOTE]
-    > When you upgrade Voice of the Customer to version <<Version_Number>> and higher, there might be changes to the survey theme during the upgrade. You must preview a survey before publishing it.
+    > When you upgrade Voice of the Customer to version 9.0.1162 and higher, there might be changes to the survey theme during the upgrade. You must preview a survey before publishing it.
 
 7. Select **Save**.
 

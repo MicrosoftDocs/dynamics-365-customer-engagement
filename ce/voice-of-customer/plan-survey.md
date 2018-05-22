@@ -2,7 +2,7 @@
 title: "Plan a survey to be created by using Voice of the Customer | MicrosoftDocs"
 description: "Plan to create a survey using Voice of the Customer."
 keywords: "plan a survey; survey best practices; survey question types"
-ms.date: 05/17/2018
+ms.date: 05/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
