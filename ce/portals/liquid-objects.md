@@ -2,7 +2,7 @@
 title: "Use Liquid objects for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about the available liquid objects in a portal."
 ms.custom: ""
-ms.date: 05/03/2018
+ms.date: 05/22/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -48,51 +48,6 @@ The following objects can be used and accessed anywhere, in any template.
 | user        | Refers to the current portal user, allowing access to all attributes of the underlying [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] contact record. If no user is signed in, this variable will be [null](liquid-types.md#null). [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [user](#user)                       |  
 | weblinks    | Allows you to load any Web Link Set by name or ID. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [weblinks](#weblinks)                                                                                                                                                     |  
 | website     | Refers to the portal Website record, allowing access to all attributes of the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Website (adx\_website) record for the portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [website](#website)                                                               |  
-
-### All Liquid Objects
-
-[ads](#ads)  
-
-[blogs](#blogs)  
-
-[entities](#entities)  
-
-[entitylist](#entitylist)  
-
-[entityview](#entityview)  
-
-[events](#events)  
-
-[forloop](#forloop)  
-
-[forums](#forums)  
-
-[knowledge](#knowledge)
-
-[page](#page)  
-
-[polls](#polls)  
-
-[request](#request)  
-
-[searchindex](#searchindex)  
-
-[settings](#settings)  
-
-[sitemap](#sitemap)  
-
-[sitemarkers](#sitemarkers)  
-
-[snippets](#snippets)  
-
-[tablerowloop](#tablerowloop)  
-
-[user](#user)  
-
-[weblinks](#weblinks)  
-
-[website](#website)  
-
 
 ## ads
 

@@ -2,7 +2,7 @@
 title: "Use Liquid filters for a portal in Dynamics 365 | MicrosoftDocs"
 description: "Learn about the available liquid filters in a portal."
 ms.custom: ""
-ms.date: 05/07/2018
+ms.date: 05/22/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -661,7 +661,62 @@ DESC
 
 Parses an [entitylist](liquid-objects.md#entitylist) filter\_definition JSON value into filter option group objects.  
 
-metafilters can be optionally provided with a current attribute filter query and current [entitylist](liquid-objects.md#entitylist), allowing the returned filter objects to be flagged as either selected or unselected.  
+metafilters can be optionally provided with a current attribute filter query and current [entitylist](liquid-objects.md#entitylist), allowing the returned filter objects to be flagged as either selected or unselected.
+
+**Code**
+
+```
+{% assign filters = entitylist | metafilters: params.mf, entityview %}
+{% if filters.size > 0 %}
+  <ul id="entitylist-filters">
+    {% for filter in filters %}
+      <li class="entitylist-filter-option-group">
+        {% if filter.selection_mode == 'Single' %}
+          {% assign type = 'radio' %}
+        {% else %}
+          {% assign type = 'checkbox' %}
+        {% endif %}
+        <h4 class="entitylist-filter-option-group-label"
+          data-filter-id="{{ filter.id | h }}">
+          {{ filter.label | h }}
+        </h4>
+        <ul>
+          {% for option in filter.options %}
+            <li class="entitylist-filter-option">
+              {% if option.type == 'text' %}
+                <div class="input-group entitylist-filter-option-text">
+                  <span class="input-group-addon">
+                    <span class="fa fa-filter" aria-hidden="true"></span>
+                  </span>
+                  <input class="form-control"
+                    type="text"
+                    name="{{ filter.id | h }}"
+                    value="{{ option.text | h }}" />
+                </div>
+              {% else %}
+                <div class="{{ type | h }}">
+                  <label>
+                    <input
+                      type="{{ type | h }}"
+                      name="{{ filter.id | h }}"
+                      value="{{ option.id | h }}"
+                      {% if option.checked %}
+                        checked="checked"
+                        data-checked="true"{% endif %}
+                      />
+                    {{ option.label | h }}
+                  </label>
+                </div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% endfor %}
+  </ul>
+  <button class="btn btn-default" data-serialized-query="mf" data-target="#entitylist-filters">Apply Filters</button>
+{% endif %}
+```
 
 ### reverse\_sort
 
