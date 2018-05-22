@@ -37,7 +37,7 @@ There are several types of forms:
 |**Quick Create**|Used in PowerApps apps, the Dynamics 365 customer engagement web application, Dynamics 365 for tablets, and Dynamics 365 for Outlook.<br /><br /> For updated entities, these forms provide a basic form optimized for creating new records.|[Create and edit quick create forms](create-edit-quick-view-forms.md) |  
 |**Quick View**|Used in PowerApps apps, the Dynamics 365 customer engagement web application, Dynamics 365 for tablets, and Dynamics 365 for Outlook.<br /><br /> For updated entities, these forms appear within the main form to display additional data for a record that is referenced by a lookup field in the form.|[Create and edit quick view forms](create-edit-quick-view-forms.md)|  
 
-While each form type has specific needs, when working with forms you use the Form Editor. More information: [Work with the form editor](work-with-form-editor.md)
+While each form type has specific needs, when working with forms you use the Form Editor. More information: [Overview of the form editor user interface](form-editor-user-interface-legacy.md)
   
 <a name="BKMK_FormDifferencesByEntity"></a>   
 ## Updated versus classic entities  
@@ -59,4 +59,3 @@ There are still a number of entities, referred to here as classic entities, that
 [Assign form order](assign-form-order.md) <br />
 [Control access to forms](control-access-forms.md) <br />
 [How main forms appear in different clients](main-form-presentations.md) <br />
-[Work with the form editor](work-with-form-editor.md) <br />
