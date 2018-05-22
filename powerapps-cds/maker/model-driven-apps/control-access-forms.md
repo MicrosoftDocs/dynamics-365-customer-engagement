@@ -21,13 +21,11 @@ tags:
 ---
 # Control access to forms
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
  There are two ways you can control access to main forms:  
   
 - **Make a main form inactive**  
   
-     You can set an active or inactive state to main forms. This feature was included primarily to manage new forms included when organizations upgrade but you can use it to prevent people from being able to use any main form.   
+     You can set an active or inactive state to main forms. This feature was included primarily to manage new forms included when Dynamics 365 customer engagement organizations upgrade but you can use it to prevent users from being able to use any main form.   
   
 - **Assign security roles to the main form**  
   
@@ -35,7 +33,7 @@ tags:
   
  Different people in your organization may interact with the same data in different ways. Managers may depend on being able to quickly scan information in a record and service people may require a form that streamlines data entry. You can accommodate different requirements by assigning forms to the security roles that different groups of people belong to.  
   
- For step-by-step procedures, see [Assign security roles to forms](../admin/assign-security-roles-form.md).  
+ For step-by-step procedures, see [Assign security roles to forms](https://docs.microsoft.com/dynamics365/customer-engagement/admin/assign-security-roles-form).  
   
  When you have more than one main or mobile form defined for an entity, you can select which forms users will be able to use based on their security roles. Because each entity must be able to display a form for any user, at least one form must be designated as a ”fallback” form – a form visible to users whose security roles do not have any forms explicitly assigned to them.  
   
@@ -64,15 +62,15 @@ tags:
   
 <a name="BKMK_CreateGenericForm"></a>   
 ## Create a generic form  
- If you use role-based forms to provide a customized user experience based on a person’s role in the organization, you can set your least specialized form as the fallback form and configure it to display for everyone. Then, create customized forms for specific security roles and configure those forms to only display for security roles that require them. Do not enable these forms for fallback. Finally, in the **Forms** list use the **Form Order** dialog to specify which forms to display ranking them from most exclusive to least exclusive. Your fallback form will be at the bottom of the list. This strategy will cause people seeing the form that has been customized for their role as the default form, yet they can still use the form selector to select the most common form if they want. Whatever form they select will remain their default form until they select a different form.  
+ If you use role-based forms to provide a customized experience based on a user’s role, you can set your least specialized form as the fallback form and configure it to display for everyone. Then, create customized forms for specific security roles and configure those forms to only display for security roles that require them. Do not enable these forms for fallback. Finally, in the **Forms** list use the **Form Order** dialog to specify which forms to display ranking them from most exclusive to least exclusive. Your fallback form will be at the bottom of the list. This strategy will cause people seeing the form that has been customized for their role as the default form, yet they can still use the form selector to select the most common form if they want. Whatever form they select will remain their default form until they select a different form.  
   
 <a name="BKMK_UseFormScripting"></a>   
 ## Use form scripting  
 
  Finally, in the web application it is possible, but not recommended, for a developer to use scripts in the form Onload event to use the [Xrm.Page.ui.formSelector.items collection](http://go.microsoft.com/fwlink/p/?LinkID=513300) to query available forms and use the navigate method to direct users to a specific form. Remember that the [navigate method](http://go.microsoft.com/fwlink/p/?LinkID=513301) will cause the form to load again (and the Onload event to occur again). Your logic in the event handler should always check some condition before you use the navigate method to avoid an endless loop or unnecessarily restrict users options to navigate between forms.  
   
- This approach will not work for [!INCLUDE[pn_moca_full](../includes/pn-moca-full.md)] because multiple forms are not available for selection.  
+ This approach will not work for Dynamics 365 for tablets because multiple forms are not available for selection.  
 
-### See also  
+### Next steps  
 
-[Assign security roles to forms](../admin/assign-security-roles-form.md)
+[Assign security roles to forms](https://docs.microsoft.com/dynamics365/customer-engagement/admin/assign-security-roles-form)
