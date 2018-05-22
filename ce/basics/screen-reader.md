@@ -17,14 +17,14 @@ ms.custom:
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-Screen readers make Dynamics 365 Customer Engagement applications accessible to people who have low or no vision, or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
+Screen readers make Dynamics 365 Customer Engagement applications accessible to people who have low or no vision or may need some extra support for a temporary scenario, such as eye fatigue. Commonly used screen readers such as Narrator, JAWS, and NVDA are supported. 
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
 - [Learn more about working with NVDA](https://www.nvaccess.org/help/)
 
 > [!NOTE]
-> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
+> JAWS screen reader is supported on the latest Unified Client. Internet Explorer + JAWS is our recommended combination. Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 
 ## Basic tasks using a screen reader with Dynamics 365
 
