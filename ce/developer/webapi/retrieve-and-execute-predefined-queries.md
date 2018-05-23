@@ -212,6 +212,8 @@ OData-Version: 4.0
 --batchresponse_cbfd44cd-a322-484e-913b-49e18af44e34--
 ```
 
+[!INCLUDE[sdk_for_more_info_about](../../includes/sdk-for-more-info-about.md)] batch requests, see [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md).
+
 ## See also
 
  [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)<br />
