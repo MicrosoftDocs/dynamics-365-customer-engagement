@@ -18,7 +18,7 @@ caps.latest.revision: 29
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Create a system chart
+# Quickstart: Create a system chart
 
 In this quickstart you learn how to create a system chart. System charts are organization-owned charts, which makes them available to anyone with access to read the data running the app. System charts can’t be assigned or shared with specific app users.  
   

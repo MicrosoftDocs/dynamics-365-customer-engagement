@@ -18,7 +18,7 @@ caps.latest.revision: 18
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Create or edit a main form for an entity 
+# Quickstart: Create or edit a main form for an entity 
 
 In this quickstart you learn how to create or edit a main form for an entity.
 
