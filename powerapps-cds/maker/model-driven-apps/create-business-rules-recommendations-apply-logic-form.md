@@ -53,9 +53,9 @@ This tutorial shows you how to create business rules and recommendations to appl
   
  ![Business Rules design window](media/business-rules-design-window.png "Business Rules design window")  
   
-    > [!TIP]
-    >  If you want to modify an existing business rule, you must deactivate it before you can modify it.  
-  
+   > [!TIP]
+> If you want to modify an existing business rule, you must deactivate it before you can modify it.
+
 4.  Add a description, if you want, in the description box in the upper-left corner of the window.  
   
 5.  Set the scope, according to the following:  

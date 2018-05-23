@@ -23,21 +23,15 @@ topic-status: Drafting
 
 # Create or edit a model-driven app by using the app designer
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
-
-Create single-entity or multiple-entity apps quickly by using the tile-based app designer.  
+In this tutorial you learn the basics of how to create a model-driven app by using the tile-based app designer. Apps can be single-entity or multiple-entity.
   
 On web.powerapps.com, to edit an existing or create a new app in the app designer select **Model-driven** (lower left of the navigation pane), and then select **Apps**. 
 
-In Dynamics 365 customer enagement, open the app designer from the **My Apps** page or from the **Apps** area in the solution window.
-
 ## Prerequisites
 Verify the following prerequisites before you start creating an app:
-[!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)] Specifically, any user with the following privileges can also create  apps:  
--   Create, Read, and Write privileges for the App entity  
--   Read and Write privileges for the Customizations entity  
--   Read privileges for the Solution entity
-  
+- A PowerApps environment. More information: [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment)
+- System administrator or system customizer security role. More information: [About predefined security roles](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app#about-predefined-security-roles)
+ 
 <a name="createApp"></a>   
 ## Create an app  
 
@@ -58,7 +52,7 @@ Verify the following prerequisites before you start creating an app:
   
         - **Unified Interface**: This is the newer responsive web browser client that has a similar interface across PC and mobile devices.  
 
-        - **Web**: This is the classic [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web browser client.  
+        - **Web**: This is the classic Dynamics 365 customer engagement web browser client.  
     
     - **App URL Suffix**: The app URL is automatically populated based on the app name that you specify. You'll see a preview of how the complete URL looks. The app URL must be unique.  
   
@@ -74,11 +68,11 @@ Verify the following prerequisites before you start creating an app:
       > [!NOTE]
       > By selecting **Default Solution** when you add a site map, the components that are associated with that site map are automatically added to the app.  
 
-      ![Use existing solution to create the app page](../customize/media/use-existing-solution-to-create-the-app.png "Use an existing solution to create the app") 
+      ![Use existing solution to create the app page](media/use-existing-solution-to-create-the-app.png "Use an existing solution to create the app") 
 
     - **Choose a welcome page**: This option allows you to select from the web resources available in your organization. The welcome pages you create can contain information that's useful to users, such as links to videos, upgrade instructions, or getting started information. The welcome page is displayed when an app is opened. Users can select **Do not show this Welcome Screen next time** on the welcome page to disable the page so it doesn’t appear the next time the app starts. More information about how to create a web resource, such as an HTML file that you can use as a welcome page: [Create and edit web resources to extend the web application](create-edit-web-resources.md)  
       
-    To edit app properties later, go to the **Properties** tab in the app designer. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Manage app properties](../customize/manage-app-properties.md)  
+    To edit app properties later, go to the **Properties** tab in the app designer. More information: [Manage app properties](manage-app-properties.md)  
   
      > [!NOTE]
      >  You can't change the unique name and app URL suffix on the **Properties** tab.  
@@ -87,14 +81,14 @@ Verify the following prerequisites before you start creating an app:
   
     A new app is created and is shown in Draft status. You'll see the app designer canvas for the new app.  
   
-3. Add components to the app or edit existing components, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+3. Add components to the app or edit existing components, as required. More information: [Add or edit app components](add-edit-app-components.md)  
   
 <a name="editApp"></a>   
 ## Edit an app  
   
 1. In the **Apps** area of solution explorer select an app that you want to edit.  
 
-2. Add or edit components to the app, as required. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add or edit app components](../customize/add-edit-app-components.md)  
+2. Add or edit components to the app, as required. More information: [Add or edit app components](add-edit-app-components.md)  
  
 <a name="LaunchApp"></a>   
 ## Run a model-driven app
@@ -107,8 +101,8 @@ From within an app, the following features include filtering by record type:
 - Recent records grids
 
   
-### See also  
- [Add or edit app components](../customize/add-edit-app-components.md)   
+### Next steps  
+ [Add or edit app components](add-edit-app-components.md)   
 
  [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
 
