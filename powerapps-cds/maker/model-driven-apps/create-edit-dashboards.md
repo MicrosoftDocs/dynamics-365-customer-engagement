@@ -24,7 +24,8 @@ There are two types of dashboards, user dashboards and system dashboards. An app
 ## Create a new dashboard  
   
 1.  On the [PowerApps](https://web.powerapps.com) site select **Model-driven** (lower left of the navigation pane).
-![Model-driven design mode](media/model-driven-switch.png)
+
+    ![Model-driven design mode](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).   
@@ -55,7 +56,7 @@ There are two types of dashboards, user dashboards and system dashboards. An app
 
 3. Open a dashboard, select one of the component areas, and then on the toolbar select **Edit Component**.  
   
-4.  In the **Set Properties** dialog box, you can make changes to a chart or list such as change the entity, default view, add a chart selector, or make the phone available on the mobile apps. When you’re done, select **Set**.  
+4.  In the **Set Properties** dialog box, you can make changes to a chart or list such as change the entity, default view, add a chart selector, or make the dashboard available on the mobile apps. When you’re done, select **Set**.  
   
      For more information about setting dashboard component properties, see [Set properties for a chart or list included in a dashboard](set-properties-chart-list-included-dashboard.md).  
   
