@@ -151,6 +151,8 @@ With a request using FetchXML you can also request a paging cookie and include i
 
 A paging cookie must be requested as an annotation. Set the `odata.include-annotations` preference to use (or include) `Microsoft.Dynamics.CRM.fetchxmlpagingcookie` and a `@Microsoft.Dynamics.CRM.fetchxmlpagingcookie` property will be returned with the result.
 
+<a name="bkmk_FetchXMLwithinBatch"></a>
+
 ### Use FetchXML within a Batch request
 
 The URL of the Web API request has a length limit and executing a simple `GET` request with FetchXML can reach this limit, if using several query parameters. Use FetchXML query within a batch request to avoid reaching the URL length limit.
@@ -210,7 +212,7 @@ OData-Version: 4.0
 --batchresponse_cbfd44cd-a322-484e-913b-49e18af44e34--
 ```
 
-### See also
+## See also
 
  [Web API Query Data Sample (C#)](web-api-query-data-sample-csharp.md)<br />
  [Web API Query Data Sample (Client-side JavaScript)](web-api-query-data-sample-client-side-javascript.md)<br />
