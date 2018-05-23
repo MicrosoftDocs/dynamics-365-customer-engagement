@@ -23,7 +23,7 @@ topic-status: Drafting
 
 # Create a model-driven app by using the app designer
 
-In this tutorial you learn the basics of how to create a model-driven app by using the tile-based app designer. Apps can be single-entity or multiple-entity.
+In this tutorial you learn the basics of how to create and edit a model-driven app by using the tile-based app designer.
 
 ## Prerequisites
 Verify the following prerequisites before you start creating an app:
@@ -33,8 +33,13 @@ Verify the following prerequisites before you start creating an app:
 <a name="createApp"></a>   
 ## Create an app  
 
-1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane), select **Apps**, and then select **Create an app**. On the **Create a New App** page, enter the following details:  
-  
+1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane), select **Apps**, and then select **Create an app**.  
+
+> [!IMPORTANT]
+> “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment). 
+
+2. On the **Create a New App** page, enter the following details: 
+
     - **Name**: Enter a name for the app.  
   
     - **Unique Name**: The unique name is automatically populated based on the app name that you specify. It is prefixed with a publisher prefix. You can change the part of the unique name that's editable. The unique name can only contain English characters and numbers.  
@@ -75,12 +80,10 @@ Verify the following prerequisites before you start creating an app:
      > [!NOTE]
      >  You can't change the unique name and app URL suffix on the **Properties** tab.  
   
-2. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
+3. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
   
-    A new app is created and is shown in Draft status. You'll see the app designer canvas for the new app.  
-  
-3. Add components to the app or edit existing components, as required. More information: [Add or edit app components](add-edit-app-components.md)  
-  
+    A new app is created and is shown in Draft status. You'll see the app designer canvas for the new app. From there you can add components, such as entities, views, and dashboards to make your app useful. More information: [Add or edit app components](add-edit-app-components.md)  
+   
 <a name="editApp"></a>   
 ## Edit an app  
   
@@ -88,21 +91,8 @@ Verify the following prerequisites before you start creating an app:
 
 2. Add or edit components to the app, as required. More information: [Add or edit app components](add-edit-app-components.md)  
  
-<a name="LaunchApp"></a>   
-## Run a model-driven app
-
-Go to the [Dynamics 365 home page](https://home.dynamics.com/) and then select the app you want. If there are several apps available, search for the app by typing in the search box.
-
-From within an app, the following features include filtering by record type:
-- Categorized search and Relevance search results
-- Quick Create forms
-- Recent records grids
-
   
 ### Next steps  
  [Add or edit app components](add-edit-app-components.md)   
 
- [Design custom business apps by using the app designer](design-custom-business-apps-using-app-designer.md)
-
- [Quickstart: Run a model-driven app on a mobile device](https://docs.microsoft.com/powerapps/user/run-app-client-model-driven)
 
