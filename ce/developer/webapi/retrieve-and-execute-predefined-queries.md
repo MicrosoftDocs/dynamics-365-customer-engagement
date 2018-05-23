@@ -2,7 +2,7 @@
 title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
 ms.custom: ""
-ms.date: 05/22/2018
+ms.date: 05/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -155,6 +155,8 @@ A paging cookie must be requested as an annotation. Set the `odata.include-annot
 
 The URL of the Web API request has a length limit and executing a simple `GET` request with FetchXML can reach this limit, if using several query parameters. Use FetchXML query within a batch request to avoid reaching the URL length limit.
 
+**Request**
+
 ```http
 POST [Organization URI]/api/data/v9.0/$batch HTTP/1.1
 
@@ -173,6 +175,39 @@ OData-Version: 4.0
 OData-MaxVersion: 4.0
 
 --batch_AAA123--
+```
+
+**Response**
+
+```json
+--batchresponse_cbfd44cd-a322-484e-913b-49e18af44e34
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+HTTP/1.1 200 OK
+Content-Type: application/json; odata.metadata=minimal
+OData-Version: 4.0
+
+{  
+   "@odata.context":"[Organization URI]/api/data/v9.0/$metadata#accounts(accountid,name,telephone1,creditonhold)",
+   "value":[  
+      {  
+         "@odata.etag":"W/\"563737\"",
+         "accountid":"1f55c679-485e-e811-8151-000d3aa3c22a",
+         "name":"Fourth Coffee (sample)",
+         "telephone1":"+1-425-555-0121",
+         "creditonhold":false
+      },
+      {  
+         "@odata.etag":"W/\"563739\"",
+         "accountid":"2555c679-485e-e811-8151-000d3aa3c22a",
+         "name":"Litware, Inc. (sample)",
+         "telephone1":"+1-425-555-0120",
+         "creditonhold":false
+      }
+   ]
+}
+--batchresponse_cbfd44cd-a322-484e-913b-49e18af44e34--
 ```
 
 ### See also
