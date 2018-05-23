@@ -155,7 +155,9 @@ A paging cookie must be requested as an annotation. Set the `odata.include-annot
 
 ### Use FetchXML within a Batch request
 
-The URL of the Web API request has a length limit and executing a simple `GET` request with FetchXML can reach this limit, if using several query parameters. Use FetchXML query within a batch request to avoid reaching the URL length limit.
+The the length of a URL in a `GET` request is limited. Including FetchXML as a parameter in the URL can reach this limit.  You can execute a `$batch` operation using a POST request as a way to move the FetchXML out of the URL and into the body of the request where this limit will not apply. More information: [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md).
+
+#### Example
 
 **Request**
 
@@ -212,7 +214,7 @@ OData-Version: 4.0
 --batchresponse_cbfd44cd-a322-484e-913b-49e18af44e34--
 ```
 
-[!INCLUDE[sdk_for_more_info_about](../../includes/sdk-for-more-info-about.md)] batch requests, see [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md).
+
 
 ## See also
 
