@@ -31,27 +31,27 @@ A quick view form can be added to another form as a quick view control. It provi
 ## Create a quick view form  
  You create quick view forms using the form editor in a manner similar to the way you create other forms. Quick view forms are read-only. Use them to create forms that are for reading purposes only.  
   
-1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
+1. On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
 
      ![Model-driven design mode](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).     
   
-2.  Expand **Data**, select **Entities**, select the entity that you want, and then select the **Forms** tab. 
+2. Expand **Data**, select **Entities**, select the entity that you want, and then select the **Forms** tab. 
   
-3.  On the toolbar select **Add form** > **Quick View Form**.  
+3. On the toolbar, select **Add form** > **Quick View Form**.  
   
-4.  On the form editor toolbar, select **Form Properties**.  
+4. On the form editor toolbar, select **Form Properties**.  
   
-5.  In the **Form Properties** dialog box, enter a **Form Name** and **Description** to differentiate this quick view form from any others. Select **OK** to close the **Form Properties** dialog box.  
+5. In the **Form Properties** dialog box, enter a **Form Name** and **Description** to differentiate this quick view form from any others. Select **OK** to close the **Form Properties** dialog box.  
   
-6.  Edit the form to add the fields you want. 
+6. In the form designer drag any fields from the **Field Explorer** into the section on the form. 
   
     > [!IMPORTANT]
     >  If you add a field and choose **Field Requirement** > **Business Required** and then save it, you will not be able to delete the field.  
   
-7.  To save the form and close the form editor select **Save**.  
+7. To save the form and close the form editor select **Save**.  
 
 8. Select **Publish** to see the new form in the application.
   
