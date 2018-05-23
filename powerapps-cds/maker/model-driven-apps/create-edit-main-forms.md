@@ -2,7 +2,7 @@
 title: "Create or edit main forms in PowerApps | MicrosoftDocs"
 description: "Learn how to create or edit a main form"
 ms.custom: ""
-ms.date: 04/04/2018
+ms.date: 05/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

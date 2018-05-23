@@ -1,7 +1,7 @@
 ---
 title: "Create or edit dashboards | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 05/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
