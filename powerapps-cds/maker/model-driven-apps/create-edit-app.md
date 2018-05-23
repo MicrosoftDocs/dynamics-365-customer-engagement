@@ -33,9 +33,9 @@ Verify the following prerequisites before you start creating an app:
 <a name="createApp"></a>   
 ## Create an app  
 
-1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane), and then select **Apps**.   Select **New**, and then on the **Create a New App** page, enter the following details:  
+1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane), select **Apps**, and then select **Create an app**. On the **Create a New App** page, enter the following details:  
   
-    - **Name**: Enter a unique name for the app.  
+    - **Name**: Enter a name for the app.  
   
     - **Unique Name**: The unique name is automatically populated based on the app name that you specify. It is prefixed with a publisher prefix. You can change the part of the unique name that's editable. The unique name can only contain English characters and numbers.  
   
