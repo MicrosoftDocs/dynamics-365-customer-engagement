@@ -2,7 +2,7 @@
 title: "Retrieve and execute predefined queries (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement provides a way for administrators to create system views that are available to all users. Read how you can compose a predefined query and use FetchXML to create a query string to retrieve data"
 ms.custom: ""
-ms.date: 12/30/2017
+ms.date: 05/22/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -134,7 +134,7 @@ OData-Version: 4.0
 
 ### Paging with FetchXML
 
-With fetchXML you can apply paging by setting the `page` and `count` attributes of the `fetch` element. For example, to set a query for accounts and limit the number of entities to 2 and to return just the first page, the following fetchXML:
+With FetchXML you can apply paging by setting the `page` and `count` attributes of the `fetch` element. For example, to set a query for accounts and limit the number of entities to 2 and to return just the first page, the following fetchXML:
 
 ```xml
 <fetch mapping="logical" page="1" count="2">  
@@ -147,9 +147,33 @@ With fetchXML you can apply paging by setting the `page` and `count` attributes 
 </fetch>
 ```
 
-With a request using fetchXML you can also request a paging cookie and include it with your query. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Page large result sets with FetchXML](../org-service/page-large-result-sets-with-fetchxml.md)  
+With a request using FetchXML you can also request a paging cookie and include it with your query. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Page large result sets with FetchXML](../org-service/page-large-result-sets-with-fetchxml.md)  
 
 A paging cookie must be requested as an annotation. Set the `odata.include-annotations` preference to use (or include) `Microsoft.Dynamics.CRM.fetchxmlpagingcookie` and a `@Microsoft.Dynamics.CRM.fetchxmlpagingcookie` property will be returned with the result.
+
+### Use FetchXML within a Batch request
+
+The URL of the Web API request has a length limit and executing a simple `GET` request with FetchXML can reach this limit, if using several query parameters. Use FetchXML query within a batch request to avoid reaching the URL length limit.
+
+```http
+POST [Organization URI]/api/data/v9.0/$batch HTTP/1.1
+
+Content-Type:multipart/mixed;boundary=batch_AAA123
+Accept:application/json
+OData-MaxVersion:4.0
+OData-Version:4.0
+
+--batch_AAA123
+Content-Type: application/http
+Content-Transfer-Encoding: binary
+
+GET [Organization URI]/api/data/v9.0/accounts?fetchXml=%3Cfetch%20mapping='logical'%3E%3Centity%20name='account'%3E%3Cattribute%20name='accountid'/%3E%3Cattribute%20name='name'/%3E%3Cattribute%20name='telephone1'/%3E%3Cattribute%20name='accountid'/%3E%3Cattribute%20name='creditonhold'/%3E%3C/entity%3E%3C/fetch%3E HTTP/1.1
+Content-Type: application/json
+OData-Version: 4.0
+OData-MaxVersion: 4.0
+
+--batch_AAA123--
+```
 
 ### See also
 
