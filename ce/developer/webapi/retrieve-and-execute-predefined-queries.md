@@ -40,13 +40,13 @@ Records for both of these types of entities contain the FetchXML definition for 
 GET [Organization URI]/api/data/v9.0/savedqueries?$select=name,savedqueryid&$filter=name eq 'Active Accounts'
 ```
 
-You can then use the savedqueryid value and pass it as the value to the savedQuery parameter to the accounts entity set.
+You can then use the `savedqueryid` value and pass it as the value to the savedQuery parameter to the accounts entity set.
 
 ```http
 GET [Organization URI]/api/data/v9.0/accounts?savedQuery=00000000-0000-0000-00aa-000010001002
 ```
 
-Use the same approach to get the userqueryid and pass it as the value to the userQuery parameter to the entity set that matches the corresponding                  returnedtypecode of the saved query.
+Use the same approach to get the userqueryid and pass it as the value to the `userQuery` parameter to the entity set that matches the corresponding `returnedtypecode` of the saved query.
 
 ```http
 GET [Organization URI]/api/data/v9.0/accounts?userQuery=121c6fd8-1975-e511-80d4-00155d2a68d1
@@ -155,7 +155,7 @@ A paging cookie must be requested as an annotation. Set the `odata.include-annot
 
 ### Use FetchXML within a Batch request
 
-The the length of a URL in a `GET` request is limited. Including FetchXML as a parameter in the URL can reach this limit.  You can execute a `$batch` operation using a POST request as a way to move the FetchXML out of the URL and into the body of the request where this limit will not apply. More information: [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md).
+The the length of a URL in a GET request is limited. Including FetchXML as a parameter in the URL can reach this limit.  You can execute a `$batch` operation using a POST request as a way to move the FetchXML out of the URL and into the body of the request where this limit will not apply. More information: [Execute batch operations using the Web API](execute-batch-operations-using-web-api.md).
 
 #### Example
 
