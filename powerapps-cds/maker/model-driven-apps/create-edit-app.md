@@ -33,12 +33,15 @@ Verify the following prerequisites before you start creating an app:
 <a name="createApp"></a>   
 ## Create an app  
 
-1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane), select **Apps**, and then select **Create an app**.  
+1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
+![Model-driven design mode](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment). 
 
-2. On the **Create a New App** page, enter the following details: 
+2. Select **Apps**, and then select **Create an app**.
+
+3. On the **Create a New App** page, enter the following details: 
 
     - **Name**: Enter a name for the app.  
   
@@ -80,7 +83,7 @@ Verify the following prerequisites before you start creating an app:
      > [!NOTE]
      >  You can't change the unique name and app URL suffix on the **Properties** tab.  
   
-3. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
+4. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
   
     A new app is created and is shown in Draft status. You'll see the app designer canvas for the new app. From there you can add components, such as entities, views, and dashboards to make your app useful. More information: [Add or edit app components](add-edit-app-components.md)  
    
