@@ -92,7 +92,6 @@ Verify the following prerequisites before you start creating an app:
 ## Edit an app  
   
 1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
-![Model-driven design mode](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment). 
