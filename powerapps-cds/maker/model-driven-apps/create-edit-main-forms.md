@@ -28,18 +28,18 @@ Each main form is composed of one or more tabs. Each tab can have one or more se
 
 Make sure that you have the System Administrator or System Customizer security role or equivalent permissions to perform this task.
 
-## How to 
+## How to create or edit a main form
   
 1.   On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
 
-    ![Model-driven design mode](media/model-driven-switch.png)
+     ![Model-driven design mode](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).   
   
-2.  Select the entity that you want, and then select the **Forms** tab. 
+2.  Expand **Data**, select **Entities**, select the entity that you want, and then select the **Forms** tab. 
 
-3. To create a new form, on the toolbar select **Add form** > **Main Form**.  
+3. To create a new main form, on the toolbar select **Add form** > **Main Form**.  
     \-OR-
     To edit an existing main form, select any form with the **Type** of **Main**.
   
