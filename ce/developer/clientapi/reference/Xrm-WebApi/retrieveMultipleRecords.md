@@ -61,7 +61,7 @@ manager: "amyla"
 <td><p>A function to call when entity records are retrived. An object with the following attributes is passed to the function:</p>
 <ul>
 <li><b>entities</b>: An array of JSON objects, where each object represents the retrieved entity record containing attributes and their values as <code>key: value</code> pairs. The Id of the entity record is retrieved by default.</li>
-<li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <b>maxPageSize</b> paramter, this attribute returns the URL to return next set of records.</li>
+<li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <code>maxPageSize</code> parameter in the request, this attribute returns the URL to return next set of records.</li>
 </ul>
 </td>
 </tr>
@@ -75,7 +75,7 @@ manager: "amyla"
 
 ## Return Value
 
-On success, returns a promise that contains an array of JSON objects (**entities**) containing the retrieved entity records and the **nextLink** attribute (optional) with the URL pointing to next set of records in case paging (**maxPageSize**) is specified and the record count returned exceeds the paging value.
+On success, returns a promise that contains an array of JSON objects (**entities**) containing the retrieved entity records and the **nextLink** attribute (optional) with the URL pointing to next set of records in case paging (`maxPageSize`) is specified in the request, and the record count returned exceeds the paging value.
 
 ## Examples
 
@@ -102,7 +102,7 @@ Xrm.WebApi.retrieveMultipleRecords("account", "?$select=name&$top=3").then(
 
 ### Specify the number of entities to return in a page
 
-The following example demonstrates the use of the **maxPageSize** parameter to specify the number of records (3) to be displayed in a page.
+The following example demonstrates the use of the `maxPageSize` parameter to specify the number of records (3) to be displayed in a page.
 
 ```JavaScript
 Xrm.WebApi.retrieveMultipleRecords("account", "?$select=name", 3).then(
