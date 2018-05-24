@@ -1,4 +1,3 @@
-
 ---
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
