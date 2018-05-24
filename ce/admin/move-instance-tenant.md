@@ -17,7 +17,7 @@ manager: "kvivek"
 ---
 # Move an instance to a different tenant
 
-You can request to have an instance in one tenant moved to another tenant. To do [contact technical support](contact-technical-support.md) and submit a support request.
+You can request to have an instance in one tenant moved to another tenant. To do so, [contact technical support](contact-technical-support.md) and submit a support request.
 
 Once your request is received and acted on, expect some downtime while the instance is moved.
 
