@@ -1,7 +1,7 @@
 ---
 title: "Create and manage web pages in Dynamics 365 portals | MicrosoftDocs"
 description: "Learn how to create and manage web pages in a portal."
-ms.date: 05/23/2018
+ms.date: 05/24/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -47,10 +47,12 @@ For portal users with content management permissions, pages can be managed using
 
 3. On the portal inline editing toolbar, select **New** > **Child page**.
 
-4. Specify values for the fields provided, and then select **Save**.
+4. Enter appropriate values in the fields.
+
+5. Select **Save**.
 
 > [!NOTE]
-> When a Web Page is deleted through the portal front-side editing interface, its record is not deleted permanently from Dynamics 365. Instead, it is moved to the Inactive state. It will cease to be visible on the portal, but can be viewed or reactivated by a Dynamics 365 user.
+> When a web page is deleted through the portal front-side editing interface, its record is not deleted permanently from Dynamics 365. Instead, it is moved to the Inactive state. It will cease to be visible on the portal, but can be viewed or reactivated by a Dynamics 365 user.
 
 ### Web page attributes
 
@@ -78,4 +80,22 @@ The table below explains many of the standard web page attributes used by portal
 |Enable Tracking   |If enabled, every request for this page will be logged. A Web Page Log record will be created with the date & time, IP Address, and the contact record if the user is authenticated.   |
 |   |   |
 
+## Enable page comments
 
+Page comments provides users with the ability to view and post comments on a web page. By default this feature is disabled and can be enabled on a page by page basis within Dynamics 365.
+
+1. Sign in to Dynamics 365.
+
+2. Go to **Portals** > **Web Pages**.
+
+3. Select the web page on which you need to enable comments.
+
+4. From the **Comment Policy** list, select the required comment policy:
+  - **Inherit**: The comment policy of the parent page will be used. This is the default setting.
+  - **Open**: Submissions from all users, anonymous and authenticated, are allowed and displayed immediately.
+  - **Open to Authenticated Users**: Only submissions from authenticated users are allowed and they are displayed immediately.
+  - **Moderated**: Submissions from all users, anonymous or authenticated, are allowed. The submissions will not be displayed until a moderator approves them.
+  - **Closed**: Existing submissions are displayed, but no new submissions are allowed.
+  - **None**: User submissions are disabled. No submissions can be made or viewed.
+
+5. Save the changes.
