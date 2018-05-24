@@ -2,7 +2,7 @@
 title: "Sign in to LinkedIn Sales Navigator | Microsoft Docs"
 description: "Sign in to LinkedIn Sales Navigator in Dynamics 365 to see lead information on forms."
 keywords: "sign in, authenticate, sales navigator, customized form"
-ms.date: 03/28/2018
+ms.date: 05/24/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -16,7 +16,7 @@ topic-status: Drafting
 
 # View Sales Navigator controls on forms
 
-To use the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls, you need be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator) and [a customizer needs to add them to the form](add-sales-navigator-controls-forms.md). 
+To use the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls, you need be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator) and [a customizer needs to add them to a form](add-sales-navigator-controls-forms.md). 
 
 ## View controls on the form
 
@@ -24,7 +24,7 @@ To use the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator c
 
 2. Go to the **Lead** entity and open one of the lead forms.
 
-3. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to Lead forms, you'll find the controls embedded on the form.
+3. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to Lead forms, you'll find the controls embedded on the form. A customizer can also add the controls to other record types, such as Contact, Account, or Opportunity.
 
 > [!NOTE] 
 > If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** button in the control and give the requested permissions to the app. 
@@ -38,7 +38,7 @@ Both Lead and Account controls work by matching certain input parameters receive
 
 - [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website 
 
-Once a match is found, subsequent loads are done through the record GUID association. Optionally, you can save recommended leads as new leads Sales Navigator.
+Once a match is found, subsequent loads are done through the record GUID association. Optionally, you can save recommended leads as new leads in Sales Navigator.
 
 > [!TIP]
 > If the control does not load the correct profile on the first match, the user can fix the problem permanently by clicking on the “…” (more commands) menu, then on the **Not the right person** option and finding the correct match with the search interface. Additionally, you can send [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members a request to connect or message them using InMail in Sales Navigator.
