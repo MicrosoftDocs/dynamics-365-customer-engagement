@@ -1,3 +1,4 @@
+
 ---
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
@@ -19,10 +20,11 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+<!--Note to author: Be sure to update the date in the metadata-->
 
 # Run the setup wizard
 
-After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (or signing up for a trial) you'll get the link you need to access the app. The first time you open the link, you'll launch a setup wizard that guides you through the setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the form will help you review all the relevant privacy policies and set up and integrate these various elements. Proceed as described in the following subsections.
+After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] (or signing up for a trial), you'll get the link you need to access the app. The first time you open the link, you'll launch a setup wizard that guides you through the setup. [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] uses several other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] components, [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services, and apps; the form will help you review all the relevant privacy policies and set up and integrate these various elements. Proceed as described in the following subsections.
 
 > [!IMPORTANT]
 > Most of the settings you make while running the setup wizard will be _permanent_ for your [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installation, so take care while filling it out.
