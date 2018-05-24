@@ -1,5 +1,5 @@
 ---
-title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs  "
+title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Marketing"
 keywords: "double opt-in;gdpr;subscriptions;consent"
 ms.date: 05/01/2018
@@ -39,7 +39,6 @@ Read this topic to learn how to set up each element required for the double opt-
 
 A subscription confirmation-request message is sent to contacts each time they register for a new newsletter subscription while double opt-in is enabled for your site. This applies both to known contacts using a subscription center, and for new contacts registering on your site for the first time.
 
-
 > [!NOTE]
 > [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] sends a separate confirmation-request message for each subscription list a contact chooses to join, even if they enable several lists at once.
 
@@ -49,10 +48,13 @@ To create a subscription confirmation-request message:
 
 1. Select **New** to create a new message.
 
-1. Choose the **Subscription confirmation-request message** template, which is already prepared with the following:
+1. In the **Select an email template** window, go to the **Purpose** tab and choose **Double opt-in, email base confirmation** from the drop-down list there.
+
+1. Select the **diamante** template (or another template created by your organization for this purpose), which is already prepared with the following:
 
     - Default content that includes Handlebars expressions to place the recommended dynamic content
     - A confirmation button preconfigured with the required target URL (as a Handlebars expression)
+    - The **Content type** set to **Confirmation request**.
     - The **Legal designation** set to **Transactional**
     
     See also the example given after this procedure.
@@ -63,14 +65,18 @@ To create a subscription confirmation-request message:
 1. Customize the message as required.
 
 1. Check for errors and go live.
+    > [!NOTE]
+    > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and try to sign yourself up for a mailing list.
+
 
 ![Dynamics elements in a subscription confirmation-request message](media/doi-subscription-confirm-message.png "Dynamics elements in a subscription confirmation-request message")
 
-The previous illustration highlights important elements provided by the **Subscription confirmation-request message** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. These are:
+The previous illustration highlights important elements provided by the **diamante** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. The following Handlebars expressions are available:
 
-- **{{Message.OptInObjectName}}**: Resolves to the **Name** field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
-- **{{Message.OptInObjectDescription}}**: Resolves to the **Description** field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
-- **{{ContentSettings.OptInURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
+- **{{Message.ConfirmationRequestType}}**: Resolves to show the type of confirmation message this is (as established in the [Default marketing settings](#set-up-doi) when the message is sent). For subscription confirmations, this is "Marketing list subscribe" by default.
+- **{{Message.ConfirmationObjectName}}**: Resolves to the **Name** field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
+- **{{Message.ConfirmationObjectDescription}}**: Resolves to the Description field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
+- **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
 The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription-list record with the **Name** and **Description** fields highlighted. These are the values that you can include in your subscription confirmation-request message.
 
@@ -90,10 +96,13 @@ To create an increase consent confirmation-request message:
 
 1. Select **New** to create a new message.
 
-1. Choose the **Consent confirmation-request message** template, which is already prepared with the following:
+1. In the **Select an email template** window, go to the **Purpose** tab and chose **Double opt-in, email base confirmation** from the drop-down list there
+
+1. Select the **custonaci** template (or another template created by your organization for this purpose), which is already prepared with the following:
 
     - Default content that includes Handlebars expressions to place the recommended dynamic content
     - A confirmation button preconfigured with the required target URL (as a Handlebars expression)
+    - The **Content type** set to **Confirmation request**.
     - The **Legal designation** set to **Transactional**
 
     See also the example given after this procedure.
@@ -104,14 +113,18 @@ To create an increase consent confirmation-request message:
 1. Customize the message as required.
 
 1. Check for errors and go live.
+    > [!NOTE]
+    > You can't use the **Test Send** button to send yourself a test message when you are designing a confirmation-request message. To test your message design, set up a test subscription page and use it to increase your consent level.
 
 ![Dynamics elements in an increase consent confirmation-request message](media/doi-consent-confirm-message.png "Dynamics elements in an increase consent confirmation-request message")
 
-The previous illustration highlights important elements provided by the **Consent confirmation-request message** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. These are:
+The previous illustration highlights important elements provided by the **custonaci** template, with the **Properties** pane showing settings for the confirmation button. Note especially the Handlebars expressions, which are placeholders for dynamic value that will be resolved independently each time the message is sent. The following Handlebars expressions are available:
 
-- **{{Message.OptInObjectName}}**: Resolves to the **Options** value for the new consent level the contact has chosen.
-- **{{Message.OptInObjectDescription}}**: Resolves to the **Description** field for the new consent level the contact has chosen.
-- **{{ContentSettings.OptInURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
+- **{{Message.ConfirmationRequestType}}**: Resolves to show the type of confirmation message this is (as established in the [Default marketing settings](#set-up-doi) when the message is sent). For consent-level confirmations, this is "Raise consent" by default.
+- **{{Message.ConfirmationObjectName}}**: Resolves to the name of the consent-level field as defined on the contact entity (by default, "Consent given").
+- **{{Message.ConfirmationObjectValue}}**: Resolves to the **Options** value for the new consent level the contact has chosen (e.g., "(2) Transactional").
+- **{{Message.ConfirmationObjectDescription}}**: Resolves to the **Description** field for the new consent level the contact has chosen.
+- **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
 The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] **Option Set** setup with the **Options** and **Description** fields highlighted. These are the values that you can include in your consent confirmation-request message. Note that each entry in the **Options** list has its own **Description**. You must use the [Dynamics 365 – custom](navigation.md#move-between-apps) app to read and edit these values (see also [Create and edit global option sets](../customize/create-edit-global-option-sets.md)).
 
@@ -131,9 +144,11 @@ You will choose the content-settings record to use for all confirmation-request 
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content](prepare-marketing-emails.md#dynamic-content)
 
-## Create a thank-you page
+## Create a thank-you page for each type of confirmation
 
-When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the confirmation, apples the requested action, and redirects the contact's browser to a thank-you page. You must create this thank-you page on your website, or as a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] [marketing page](create-deploy-marketing-pages.md).
+When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the confirmation, apples the requested action, and redirects the contact's browser to a thank-you page. You must create your thank-you pages as [marketing pages](create-deploy-marketing-pages.md) in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Thank-you page templates are provided out-of-the-box to help get you started.
+
+<a name="set-up-doi"></a>
 
 ## Set up and enable double opt-in on your site
 
@@ -161,6 +176,7 @@ To setup and enable the double opt-in system:
     - **New subscription**: Identify the marketing email message you created to send to contacts when they add themselves to a subscription list.
     - **Increase consent**: Identify the marketing email message you created to send to contacts when they submit a request to increase their consent level.
     - **Content settings**: Identify the content-settings record you chose to use for all double opt-in messages.
-    - **Default thank-you page**: Enter the URL for the thank-you page you created to show to contacts after they confirm a request.
+    - **Thank-you page for subscriptions**: Select a marketing page to show to contacts after they confirm a new subscription.
+    - **Thank-you page for consent**: Select a marketing page to show to contacts after they confirm an increase of their consent level.
 
-5. Select the **Save** button in the bottom-right corner to save your settings.
+1. Select the **Save** button in the bottom-right corner to save your settings.
