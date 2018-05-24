@@ -2,7 +2,7 @@
 title: "Integrate LinkedIn Sales Navigator solutions for Dynamics 365 | Microsoft Docs"
 description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365."
 keywords: "integration, sales navigator, linkedin, versions"
-ms.date: 03/28/2018
+ms.date: 05/24/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -44,7 +44,7 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Accoun
 
 Both controls also provide an alternate version, which takes a lookup (entity reference) attribute instead of the attributes described above. 
 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead lookup** control: the name of the referenced entity is used as the member first name and last name. The string is separated by white spaces and the first component is considered the first name while the remaining components are considered last names.
+- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead lookup** control: the name of the referenced entity is used as the member's first name and last name. The string is separated by white spaces and the first component is considered the first name while the remaining components are considered last names.
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account lookup** control: the name of the referenced entity is used as the company name.
 
