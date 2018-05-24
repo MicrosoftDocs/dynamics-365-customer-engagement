@@ -34,11 +34,11 @@ Go to the **Custom registration fields** page to view and create all the custom 
 
 1. Make the following settings:
 
-    - **Owner** : the name of the user who owns this record.
-    - **Text** : the field label, exactly as it will be shown on the form.
-    - **Is Required** : Sets whether [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] should require registrants to specify a value for this field. Set this to **Yes** to mark the field as required.
-    - **Type** : Sets the type of input field created on the form. **Simple text** creates a text field where registrants can type a value. **Boolean** creates a check box (yes or no option); **Single choice** creates a drop-down list, where registrants can choose just one value; and **Multiple choice** creates a set of check boxes, where registrants can enable as many options as they want.
-    - **Choices** : This setting is only shown when the **Type** is set to **Single choice** or **Multiple choice**. Enter each available option here, with options separated by a carriage return.
+    - **Owner**: The name of the user who owns this record.
+    - **Text**: The field label, exactly as it will be shown on the form.
+    - **Is Required**: Sets whether [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] should require registrants to specify a value for this field. Set this to **Yes** to mark the field as required.
+    - **Type**: Sets the type of input field created on the form. **Simple text** creates a text field where registrants can type a value. **Boolean** creates a check box (yes or no option); **Single choice** creates a drop-down list, where registrants can choose just one value; and **Multiple choice** creates a set of check boxes, where registrants can enable as many options as they want.
+    - **Choices**: This setting is only shown when the **Type** is set to **Single choice** or **Multiple choice**. Enter each available option here, with options separated by a carriage return.
 
 1. Choose **Save** in the bottom-right corner of the window to save your settings.
 
@@ -57,9 +57,9 @@ Once you have set up the custom fields you require, you can assign them to event
 Make the following settings:  
      ![Set up the custom field for the current event](media/event-reg-field-add-to-event-2.png "Set up the custom field for the current event")
 
-    - **Custom registration field** : Select an existing custom field that is already set up for your site as described in the previous section.
-    - **Event** : This is the event where you will add this custom field. The current event should already be shown here.
-    - **Order** : Enter an integer to control the position of this field (relative to other custom fields). Lowest values are displayed first in the registration form.
+    - **Custom registration field**: Select an existing custom field that is already set up for your site as described in the previous section.
+    - **Event**: This is the event where you will add this custom field. The current event should already be shown here.
+    - **Order**: Enter an integer to control the position of this field (relative to other custom fields). Lowest values are displayed first in the registration form.
 
 1. Choose **Save** in the bottom-right corner of the window to save your settings.
 
