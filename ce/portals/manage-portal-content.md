@@ -19,7 +19,7 @@ Create, edit, and curate your portal content to provide information and illustra
 - Learn the tools you’ll need to manage your content effectively. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Get started with the portal content editor](get-started-portal-content-editor.md)  
 -   Edit a portal in real time and see your changes live. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use the front-side editing engine to publish content](publish-content-editing-engine.md)  
 -   Manage webpage data and attributes to organize the content on your portal. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and manage web pages](web-page.md)
--   Provide download files to add functionality and usability, or to supplement products, features, and services. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and manage web file](web-files.md)
+-   Provide download files to add functionality and usability, or to supplement products, features, and services. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create and manage web files](web-files.md)
 -   Create links to internal or external pages to help users find the right information. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage web links in Dynamics 365 or on portals](manage-web-links.md)  
 -   Use content snippets to create reusable content and update all relevant content at once. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Customize content by using content snippets](customize-content-snippets.md)  
 

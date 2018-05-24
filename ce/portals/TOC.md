@@ -16,7 +16,7 @@
 ### [View email records in portal timeline](view-email-in-timeline.md)
 ### [View activity of a user on a portal](view-user-activity.md)
 ### [Create and manage web pages](web-page.md)
-### [Create and manage web file](web-files.md)
+### [Create and manage web files](web-files.md)
 ### [Create web roles](create-web-roles.md)
 ### [Manage knowledge articles](manage-knowledge-articles-content-levels.md)
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
