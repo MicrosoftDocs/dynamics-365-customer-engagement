@@ -68,11 +68,8 @@ If you don't already have a [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office
 1. Open a web browser and go to [trials.dynamics.com](https://trials.dynamics.com/).
 
 1. Scroll down past the icons and then select the **Sign up here** link next to "Are you signing up on behalf of a customer or using this trial for development purposes?"  
-      
-    <br/>
     ![Location of the sign up here link](media/trial-signup1.png "Location of the sign up here link")
-    <br/>
-    
+        
 1. A dialog box opens. Choose the **No, continue signing up** link.  
     ![Select continue signing up](media/trial-signup2.png "Select continue signing up")
 
