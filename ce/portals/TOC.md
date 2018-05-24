@@ -24,7 +24,7 @@
 ### [Search within file attachments](search-file-attachment.md)
 ### [Engage with communities](engage-with-communities.md)
 ### [Display file attachments with knowledge articles](display-file-attachments-knowledge-article.md)
-### [Set up and manage forums](setup-moderate-forums.md)
+### [Set up and manage forums](setup-manage-forums.md)
 #### [Manage forum threads](manage-forum-threads.md)
 #### [Create forum posts](create-forum-posts.md)
 #### [Moderate forums](moderate-forums.md)
