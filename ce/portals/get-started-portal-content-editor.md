@@ -2,7 +2,7 @@
 title: "Get started with the portal content editor in Dynamics 365  | MicrosoftDocs"
 description: "Learn how to use the inline editor on a portal."
 ms.custom: ""
-ms.date: 05/13/2018
+ms.date: 05/24/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -49,13 +49,15 @@ Point to the page header and select the edit button that appears. This will open
 
     ![Create a new child page](media/create-new-child-page.png "Create a new child page")  
 
-3. Select **Save** to create the new page. The new page is created as a child of the webpage you were on when you selected **New** > **Child page**.
+3. Select **Save** to create the new page. The new page is created as a child of the web page you were on when you selected **New** > **Child page**.
 
-After being redirected to the newly created page, point to the large rectangular box under the page title and select the edit button that appears. Add some content, and then select the disk icon to save the changes.  
+More information: [Create and manage web pages](web-page.md)
 
-Web pages can also be added in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Translating a webpage is done in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], so start by navigating to **Portals** &gt; **Web Pages** and selecting the **+New** button. Fill in the form, and then select **Save**. Change the **Publishing State** from **Draft** to **Published** when it is ready for use on the website. The **Localized Content** section can be filled in after the webpage is created to create the different translations needed.
+After being redirected to the newly created page, point to the large rectangular box under the page title and select the edit button that appears. Add some content, and then select the disk icon to save the changes.
 
-![Create a new web page](media/create-new-web-page.png "Create a new web page")  
+You can also create a web page in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]. Translating a webpage is done in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)], so start by [creating a web page](web-page.md) and then change the **Publishing State** from **Draft** to **Published** when it is ready for use on the website. The **Localized Content** section can be filled in after the webpage is created to create the different translations needed.
+
+![Create a new web page](media/create-new-web-page.png "Create a new web page") 
 
 ## Edit the primary navigation
 
