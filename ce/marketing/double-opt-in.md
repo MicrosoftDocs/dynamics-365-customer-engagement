@@ -18,6 +18,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+<!--Note to author: Remember to update the release date in the metadata.-->
 
 # Set up double opt-in for new subscriptions and consent changes
 
@@ -52,10 +53,10 @@ To create a subscription confirmation-request message:
 
 1. Select the **diamante** template (or another template created by your organization for this purpose), which is already prepared with the following:
 
-    - Default content that includes Handlebars expressions to place the recommended dynamic content
-    - A confirmation button preconfigured with the required target URL (as a Handlebars expression)
+    - Default content that includes Handlebars expressions to place the recommended dynamic content.
+    - A confirmation button preconfigured with the required target URL (as a Handlebars expression).
     - The **Content type** set to **Confirmation request**.
-    - The **Legal designation** set to **Transactional**
+    - The **Legal designation** set to **Transactional**.
     
     See also the example given after this procedure.
 
@@ -75,7 +76,7 @@ The previous illustration highlights important elements provided by the **diaman
 
 - **{{Message.ConfirmationRequestType}}**: Resolves to show the type of confirmation message this is (as established in the [Default marketing settings](#set-up-doi) when the message is sent). For subscription confirmations, this is "Marketing list subscribe" by default.
 - **{{Message.ConfirmationObjectName}}**: Resolves to the **Name** field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
-- **{{Message.ConfirmationObjectDescription}}**: Resolves to the Description field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
+- **{{Message.ConfirmationObjectDescription}}**: Resolves to the **Description** field of the [subscription list](set-up-subscription-center.md#create-subscription-list) the contact has asked to join.
 - **{{Message.ConfirmationRedirectURL}}**: Resolves to a URL that targets the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] server and includes a code that uniquely identifies the contact the message was sent to and the message itself. All confirmation-request messages must include a button (or link) that targets this Handlebars expression (otherwise, contacts will not be able to confirm).
 
 The following screenshot shows a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription-list record with the **Name** and **Description** fields highlighted. These are the values that you can include in your subscription confirmation-request message.
@@ -96,14 +97,14 @@ To create an increase consent confirmation-request message:
 
 1. Select **New** to create a new message.
 
-1. In the **Select an email template** window, go to the **Purpose** tab and chose **Double opt-in, email base confirmation** from the drop-down list there
+1. In the **Select an email template** window, go to the **Purpose** tab and chose **Double opt-in, email base confirmation** from the drop-down list there.
 
 1. Select the **custonaci** template (or another template created by your organization for this purpose), which is already prepared with the following:
 
-    - Default content that includes Handlebars expressions to place the recommended dynamic content
-    - A confirmation button preconfigured with the required target URL (as a Handlebars expression)
+    - Default content that includes Handlebars expressions to place the recommended dynamic content.
+    - A confirmation button preconfigured with the required target URL (as a Handlebars expression).
     - The **Content type** set to **Confirmation request**.
-    - The **Legal designation** set to **Transactional**
+    - The **Legal designation** set to **Transactional**.
 
     See also the example given after this procedure.
     
@@ -146,7 +147,7 @@ You will choose the content-settings record to use for all confirmation-request 
 
 ## Create a thank-you page for each type of confirmation
 
-When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the confirmation, apples the requested action, and redirects the contact's browser to a thank-you page. You must create your thank-you pages as [marketing pages](create-deploy-marketing-pages.md) in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Thank-you page templates are provided out-of-the-box to help get you started.
+When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] registers the confirmation, applies the requested action, and redirects the contact's browser to a thank-you page. You must create your thank-you pages as [marketing pages](create-deploy-marketing-pages.md) in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Thank-you page templates are provided out-of-the-box to help get you started.
 
 <a name="set-up-doi"></a>
 
@@ -154,18 +155,18 @@ When a contact clicks the confirmation link in a confirmation email, [!INCLUDE[p
 
 The double opt-in feature is global for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance. When it's enabled, all new-subscription and increase-consent requests will require double opt-in and the same settings will apply everywhere.
 
-Before you start to setup and enable double opt-in, make sure you have all the other elements described previously in this topic available to your system, including:
+Before you start to set up and enable double opt-in, make sure you have all the other elements described previously in this topic available to your system, including:
 
-- A _subscription confirmation-request_ email message
-- An _increase consent confirmation-request_ email message
-- A _content-settings record_ for use with all confirmation-request messages
+- A _subscription confirmation-request_ email message.
+- An _increase consent confirmation-request_ email message.
+- A _content-settings record_ for use with all confirmation-request messages.
 - A _thank-you page_ to redirect to after a contact confirms the request.
 
-To setup and enable the double opt-in system:
+To set up and enable the double opt-in system:
 
 1. Go to **Settings** > **Advanced Settings** > **Marketing Settings** > **Default marketing settings.**
 
-1. A list of default settings records opens. Usually there will be just one record here. Open the available record--or the one that is currently active (which as its **Default** field set to **Yes** ).
+1. A list of default settings records opens. Usually there will be just one record here. Open the available record—or the one that is currently active (which has its **Default** field set to **Yes**).
 
 1. Open the **Double opt-in** tab on the **Default marketing settings** page.  
     ![The Double opt-in tab for Marketing settings](media/doi-marketing-settings.png "The Double opt-in tab for Marketing settings")
