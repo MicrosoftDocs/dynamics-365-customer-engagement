@@ -270,7 +270,7 @@ To set up a form for use on an external website:
 
 1. In the column on the left, select **Add new form page**. A quick-create flyout slides in. (A _form page_ is a virtual page where you can make a few extra configuration settings for forms that will be embedded externally.)
 
-1. Use the quick-create form to set up your form options. The settings here are the same as those for a [form block](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/content-blocks-reference#the-form-block-for-marketing-pages) placed on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
+1. Use the quick-create form to set up your form options. The settings here are the same as those for a [form block](content-blocks-reference.md#the-form-block-for-marketing-pages) placed on a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] marketing page.
 
 1. Select **Save** to create the new form page and go back to the **Form hosting** tab for your form.
 
