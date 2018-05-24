@@ -1,6 +1,6 @@
 ---
 title: "retrieveMultipleRecords (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 11/10/2017
+ms.date: 05/24/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -52,7 +52,7 @@ manager: "amyla"
 <td>Number</td>
 <td>No</td>
 <td><p>Specify a positive number that indicates the number of entity records to be returned per page. If you do not specify this parameter, the default value is passed as 5000.</p>
-<p>If the number of records being retrieved is more than the specified <b>maxPageSize</b> value, <code>nextLink</code> attribute in the returned promise object will contain a link to retrieve the next set of entities. </td>
+<p>If the number of records being retrieved is more than the specified <code>maxPageSize</code> value, <code>nextLink</code> attribute in the returned promise object will contain a link to retrieve the next set of entities. </td>
 </tr>
 <tr>
 <td>successCallback</td>
