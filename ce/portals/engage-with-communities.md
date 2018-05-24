@@ -17,7 +17,7 @@ manager: sakudes
 
 Keep your customer engagement strong by growing a community, publishing articles, gathering user feedback, and acting on user-provided ideas. With out-of-the-box solutions available with portals you can:
 
--   Allow your users to hold conversations by posting messages on a forum. A forum can contain a number of topics, also known as threads, and can be replied to by many users. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up and moderate forums](setup-moderate-forums.md)  
+-   Allow your users to hold conversations by posting messages on a forum. A forum can contain a number of topics, also known as threads, and can be replied to by many users. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up and moderate forums](setup-manage-forums.md)  
 
 -   Manage multiple corporate or community blogs on a single portal, with multiple authors per blog. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage blogs](manage-blogs.md)  
 

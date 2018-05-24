@@ -46,7 +46,7 @@ The table below explains many of the Forum Post attributes used by portals. It i
 
 ### See also
 
-[Setup and manage forums](setup-moderate-forums.md)  
+[Setup and manage forums](setup-manage-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  
 [Moderate forums](moderate-forums.md)  
 [Subscribe to alerts](subscribe-alerts.md)  

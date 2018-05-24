@@ -50,7 +50,7 @@ The table below explains many of the Forum Access Permission attributes used by 
 
 ### See also
 
-[Setup and manage forums](setup-moderate-forums.md)  
+[Setup and manage forums](setup-manage-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  
 [Create forum posts on the portal](create-forum-posts.md)  
 [Subscribe to alerts](subscribe-alerts.md)  
