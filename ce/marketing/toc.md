@@ -5,8 +5,10 @@
 ## [Administrator Guide](admin-guide.md)
 
 ### [Set up and manage Marketing instances](setup-manage-instances.md)
-#### [First time setup](purchase-setup.md)
-#### [First time setup FAQ and troubleshooting](setup-troubleshooting.md)
+#### [Sign up for a free trial](trial-signup.md)
+#### [Purchase a production version of Marketing](purchase-marketing.md)
+#### [Run the setup wizard](purchase-setup.md)
+#### [Setup FAQ and troubleshooting](setup-troubleshooting.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
