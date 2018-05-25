@@ -24,8 +24,8 @@ topic-status: Drafting
 
 You can install and use a trial version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free.
 
-> [!IMPORTANT]
-> Prerequisites for the trial are the same as those for the production version of the product, but you can only install a trial version of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] on a trial instance of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. However, your trial instance can run on either a production or trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
+> [!NOTE]
+> You will receive a trial [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance together with your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You must run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial instance, and can't install it on a production instance.
 
 > [!IMPORTANT]
 > You can install, at most, one [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
