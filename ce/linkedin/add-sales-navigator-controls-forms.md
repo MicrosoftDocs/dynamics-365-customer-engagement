@@ -2,7 +2,7 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365."
 keywords: "custom control, sales navigator, linkedin, integration, customization"
-ms.date: 05/24/2018
+ms.date: 05/25/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -25,21 +25,26 @@ topic-status: Drafting
 
 ## Add Sales Navigator controls to a form
 
-You can customize lead, account, opportunity, and contact forms by adding [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls.
-You can [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) for related to text on the form, or a lookup field.
-
-| Control type | LinkedIn member                               | LinkedIn account                                   |
-|--------------|-----------------------------------------------|----------------------------------------------------|
-| Text         | LinkedIn Sales Navigator Lead (member profile) | LinkedIn Sales Navigator Account (company profile) |
-| Lookup       | LinkedIn Lead Lookup Control                  | LinkedIn Account Lookup Control                    |
-
+You can [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) to any form or entity in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
+There are 4 different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls: 
  
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile): Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile.
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Lookup Control: Uses the referenced entity is as the member's first name and last name to show a member profile.
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account (company profile): Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile. 
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Account Lookup Control: Uses the referenced entity is as the company name to show a company profile.
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile): Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile using a specific lead or contact name.
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Lookup Control: Shows member profile information using the name of the primary contact related to the record.
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account (company profile): Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile using a specific account name. 
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Account Lookup Control: Shows company profile information using the account name related to the record.  
 
-In the procedure below, we'll customize a first name field on a lead form. Customizing fields on other forms such as Contact, Opportunity, or Account follow the same procedure, starting from step 3.
+The Sales Navigator controls can be added by modifying field on a form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Modify the following fields according to the control type.
+
+| Sales Navigator Control                            | Field name to modify | Field type |
+|----------------------------------------------------|----------------------|------------|
+| LinkedIn Sales Navigator Lead (member profile)      | Last Name            | Text       |
+| LinkedIn Lead Lookup Control                       | Primary Contact      | Lookup     |
+| LinkedIn Sales Navigator Account (company profile) | Account Name         | Text       |
+| LinkedIn Account Lookup Control                    | Account Name         | Lookup     |
+
+
+
+In the procedure below, show an example on how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying **Last Name** field. 
 
 1. In the web client of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], go to **Settings** > **Customizations**.
 
