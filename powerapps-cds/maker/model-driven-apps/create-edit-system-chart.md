@@ -2,7 +2,7 @@
 title: "Create or edit a system chart in PowerApps | MicrosoftDocs"
 description: "Learn how to create or edit a chart"
 ms.custom: ""
-ms.date: 03/21/2018
+ms.date: 05/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,33 +18,34 @@ caps.latest.revision: 29
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Create or edit a system chart
+# Quickstart: Create a system chart
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)] 
+In this quickstart you learn how to create a system chart. System charts are organization-owned charts, which makes them available to anyone with access to read the data running the app. System charts can’t be assigned or shared with specific app users.  
+  
+1. On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
 
-System charts are organization-owned charts and can’t be assigned or shared.  
-  
-1. Open solution explorer.  
-  
-2.  To create or edit a system chart, choose **Components** > **Entities**.  
-  
-3.  Expand the name of the entity, choose **Charts**, and then on the Actions toolbar, choose **New**.  
-  
-     -OR-  
-  
-     To edit a chart, choose **More Actions**, and then choose **Edit**.  
-  
-4.  Select a view to use for chart preview.  
-  
-5.  Specify the type of chart, and how the data is displayed in the chart.  
-  
-    -   Choose the chart name to edit it.  
-  
-    -   Select fields for the series and category axes.  
-  
-    -   Add a description to identify the purpose of the chart.  
-  
-6.  Choose **Save**.  
+     ![Model-driven design mode](media/model-driven-switch.png)
 
-### See also  
+> [!IMPORTANT]
+> “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).     
+  
+2. Expand **Data**, select **Entities**, select the entity that you want, and then select the **Charts** tab.  
+  
+3.  On the toolbar, select **Add chart**.  
+  
+4.  Specify the type of chart, and how the data is displayed in the chart.  
+  
+    -   Enter the chart name, such as *Number of employees by account*.  
+  
+    -   In the **Select Field** dropdowns: 
+        - In the **Select Field** **Series** axis dropdown select a field such as **Number of Employees**.  
+        - In the **Select Field** **Category** axis dropdown select a field such as **Account Name**.
+  
+    -   Add a description to identify the purpose of the chart, such as *This column chart displays the number of employees by account name*. 
+
+    ![Sample chart](media/sample-chart.png)
+  
+5.  Select **Save and Close**.  
+
+## Next steps  
 [Create or edit dashboards](create-edit-dashboards.md)

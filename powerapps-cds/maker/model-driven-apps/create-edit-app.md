@@ -2,7 +2,7 @@
 title: "Create or edit a model-driven app using the app designer in PowerApps | MicrosoftDocs"
 description: "Learn how to create or edit apps using the app designer"
 keywords: ""
-ms.date: 04/04/2018
+ms.date: 05/23/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
@@ -33,12 +33,16 @@ Verify the following prerequisites before you start creating an app:
 <a name="createApp"></a>   
 ## Create an app  
 
-1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane), select **Apps**, and then select **Create an app**.  
+1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
+
+    ![Model-driven design mode](media/model-driven-switch.png)
 
 > [!IMPORTANT]
 > “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment). 
 
-2. On the **Create a New App** page, enter the following details: 
+2. Select **Apps**, and then select **Create an app**.
+
+3. On the **Create a New App** page, enter the following details: 
 
     - **Name**: Enter a name for the app.  
   
@@ -80,16 +84,21 @@ Verify the following prerequisites before you start creating an app:
      > [!NOTE]
      >  You can't change the unique name and app URL suffix on the **Properties** tab.  
   
-3. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
+4. Select **Done** or&mdash;if you selected **Use an existing solution to create the App**&mdash;select **Next** to select from the available solutions that were imported in the organization.  
   
     A new app is created and is shown in Draft status. You'll see the app designer canvas for the new app. From there you can add components, such as entities, views, and dashboards to make your app useful. More information: [Add or edit app components](add-edit-app-components.md)  
    
 <a name="editApp"></a>   
 ## Edit an app  
   
-1. In the **Apps** area of solution explorer select an app that you want to edit.  
+1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
 
-2. Add or edit components to the app, as required. More information: [Add or edit app components](add-edit-app-components.md)  
+> [!IMPORTANT]
+> “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment). 
+
+2. On the left navigation pane select **Apps**, select an app, and then on the toolbar select **Edit**.   
+
+3. In the app designer add or edit components to the app, as required. More information: [Add or edit app components](add-edit-app-components.md)  
  
   
 ### Next steps  

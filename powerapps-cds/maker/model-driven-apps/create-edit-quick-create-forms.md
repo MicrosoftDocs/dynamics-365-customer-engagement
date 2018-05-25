@@ -2,7 +2,7 @@
 title: "Create or edit quick create forms in PowerApps | MicrosoftDocs"
 description: "Learn how to create or edit a quick create form"
 ms.custom: ""
-ms.date: 04/04/2018
+ms.date: 05/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,13 +18,13 @@ caps.latest.revision: 18
 ms.author: "matp"
 manager: "kvivek"
 ---
-# Create or edit quick create forms for a streamlined data entry experience
+# Quickstart: Create or edit quick create forms for a streamlined data entry experience
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+In this quickstart, you create and edit a quick create form.
 
- With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
+ With quick create forms, your app can have a streamlined data entry experience with full support for logic defined by form scripts and business rules. In a PowerApps model-driven app, quick create forms appear when you select the **Create** button in the navigation bar or when you choose **+ New** when creating a new record from a lookup or sub-grid.
   
- The [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] customer engagement mobile apps use quick create forms for creating new records. If an entity already has a quick create form configured for it, the mobile apps use that form. If an entity doesn't have a configured quick create form, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] generates a quick create form  for creating records in the mobile apps based on the main form definition.  
+ The Dynamics 365 customer engagement mobile apps use quick create forms for creating new records. If an entity already has a quick create form configured for it, the mobile apps use that form. If an entity doesn't have a configured quick create form, PowerApps generates a quick create form  for creating records in the mobile apps based on the main form definition.  
   
 <a name="BKMK_QuickCreateFormEntities"></a>   
 ## Entities with quick create forms  
@@ -35,7 +35,7 @@ manager: "kvivek"
 |Account|Campaign Response|Case|Competitor|  
 |Contact|Lead|Opportunity||  
   
- Although you can create quick create forms for System Activity entities, they do not support quick create forms. Any of the other [Updated entities](../customize/create-design-forms.md) and any custom entities can be enabled to support these forms by selecting **Allow Quick Create** in the entity definition and creating a quick create form for them.  
+ Although you can create quick create forms for System Activity entities, they do not support quick create forms. Any of the other [Updated entities](create-design-forms.md) and any custom entities can be enabled to support these forms by selecting **Allow Quick Create** in the entity definition and creating a quick create form for them.  
   
  You can enable custom activity entities to support quick create forms, and you can create quick create forms for those entities. However, the quick create form for custom activity entities will not be used when people select the **Create** button on the nav bar. These quick create forms can be used only when people add a new record for a subgrid that displays that specific custom activity entity.  
   
@@ -46,17 +46,24 @@ manager: "kvivek"
 > [!NOTE]
 >  The entity must have the **Allow Quick Create** option enabled for the quick create form to be displayed. 
   
-### To create a quick create form  
+### How to create a quick create form  
   
-1.  In the solutions explorer, expand the entity that you want and select **Forms**.  
+1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
+
+     ![Model-driven design mode](media/model-driven-switch.png)
+
+> [!IMPORTANT]
+> “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).     
   
-2.  Select **New** > **Quick Create Form** from the toolbar.  
+2.  Expand **Data**, select **Entities**, select the entity that you want, and then select the **Forms** tab.  
+
+3.  On the toolbar select **Add form** > **Quick Create Form**.  
   
-3.  Drag any fields from the **Field Explorer** into the sections in the form.  
+4.  In the form designer drag any fields from the **Field Explorer** into the sections on the form.  
   
-4.  When you are finished, select **Save and Close**.  
+5.  When you are finished, select **Save**.  
   
-5.  Publish customizations to see the new form in the application.  
+6.  Select **Publish** to see the new form in the application.  
   
 <a name="BKMK_EditQuickCreate"></a>   
 ## Edit a quick create form  
@@ -80,18 +87,22 @@ If you add a composite field to a quick create form, it will be displayed as sep
   
 ### To edit a quick create form  
   
-1.  In the solutions explorer, expand the entity that you want and select **Forms**.  
+1.  On the [PowerApps](https://web.powerapps.com) site, select **Model-driven** (lower left of the navigation pane).  
+
+> [!IMPORTANT]
+> “If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).    
   
-2.  In the form list, double-click a form where the **Form Type** is **Quick Create**.  
+2. Expand **Data**, select **Entities**, select the entity that you want, and then select the **Forms** tab.    
+
+3. In the form list, select a form where the form **Type** is **Quick Create**.  
   
 3.  Drag any fields from the **Field Explorer** into the sections in the form.  
   
-     See [Configure event handlers](../customize/configure-event-handlers-legacy.md) for information about editing event handlers for form scripts.  
+     See [Configure event handlers](configure-event-handlers-legacy.md) for information about editing event handlers for form scripts.  
   
-4.  When you are finished, select **Save and Close**.  
+4.  When you are finished, select **Save**.  
   
-5.  Publish customizations to see the modified form in the application.  
+5.  Select **Publish** to see the modified form in the application.  
   
-### See also  
- [Create and design forms](../customize/create-design-forms.md)</br>
- [Create and edit quick view forms](../customize/create-edit-quick-view-forms.md)
+### Next steps  
+[Overview of the form editor user interface](form-editor-user-interface-legacy.md)
