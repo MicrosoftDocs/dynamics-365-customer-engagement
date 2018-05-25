@@ -95,20 +95,6 @@ The following field is added in the portal contact record to store the date and 
 
     ![Portal Terms Agreement Date](media/portal-terms-agreement.png "Portal Terms Agreement Date")
 
-## Integrating with Dynamics 365 for Customer Insights
-
-[!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] for Customer Insights (DCI) is a cloud-based SaaS service that allows organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360-degree view of their customers.
-
-As a portal administrator, you can enable a portal to send a user's activity data to your DCI instance. More information: [View activity of a user on a portal](view-user-activity.md)
-
-If a portal user is determined to be a minor or a minor with parental consent, the user’s activity is not sent to DCI. As an administrator, you can configure your portal to send the user’s activity to DCI using the following field in the portal contact record:
-- **Disable Web Tracking**: Indicates that the contact has opted out of web tracking. By default, **No** is selected.
-
-    ![Image alt text](media/portal-disable-web-tracking.png "Image hover text")
-
-> [!NOTE]
-> You must configure DCI and enable [portal interaction tracking](view-user-activity.md) if the **Disable Web Tracking** field is set to **No**. You must also place this field on the profile form to use this feature.
-
 ## Migrating identity providers to Azure AD B2C
 
 The portal supports a configurable security system that lets our customers support multiple authentication systems. The portal includes its own local credentials in addition to federating with external identity providers using standard protocols such as OIDC, SAML, and WS-Federation. Going forward, we recommended that you use only Azure AD B2C identity provider for authentication and that you deprecate other identity providers.

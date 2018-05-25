@@ -270,4 +270,3 @@ Settings for modifying the default authentication cookie behavior. Defined by th
 [Open ID Connect provider settings for portals](configure-openid-settings.md)  
 [WS-Federation provider settings for portals](configure-ws-federation-settings.md)  
 [SAML 2.0 provider settings for portals](configure-saml2-settings.md)  
-[Facebook App (Page Tab) authentication for portals](authenticate-facebook-app.md)
