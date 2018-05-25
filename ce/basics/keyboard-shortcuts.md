@@ -81,17 +81,17 @@ If your administrator has enabled editable grids (views), you can edit data dire
 |Move to the Refresh button when the focus is on the column header| Tab|
 
 ## Interactive dashboard shortcuts
-Interactive dashboards enable new functionality, such as filtering, sorting, and quick actions. The following table lists the keyboard shortcuts that were added to unified interface-based apps.
+Interactive dashboards enable new functionality, such as filtering, sorting, and quick actions. The following table lists the keyboard shortcuts that were added to Unified Interface-based apps.
 
 |Task             |Unified Interface  |
 |---------|---------|
-|Activate a Dashboard element (simulate left-click)| Enter **Or** Spacebar |
+|Activate a dashboard element (simulate left-click)| Enter **Or** Spacebar |
 |Move to the next element  | Tab | 
 |Move to the previous element  | Shift+Tab  | 
 |Move to the next item within a dashboard element  | Down (↓) arrow key |
 |Move to the previous item within a dashboard element  | Up (↑) arrow key | 
 |Close a menu | Escape |
-|Select a checkbox or radio button | Spacebar |
+|Select a check box or radio button | Spacebar |
 
 ### Global filter shortcuts
 
@@ -124,7 +124,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the first item | Home |
 |Move to the last item | End |
 |Close a menu | Escape |
-|Change the state of a checkbox | Spacebar |
+|Change the state of a check box | Spacebar |
 
 ## Common controls
 
@@ -139,7 +139,7 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the last data point | End |
 |Move to the **See More** button in a Tag chart | Tab |
 |Move back from the **See More** button to the tags in a Tag chart | Shift+Tab |
-|Filter the dashboard when the focus is on a data point in an interactive dashboard | Enter key or Spacebar |
+|Filter the dashboard when the focus is on a data point in an interactive dashboard | Enter **Or** Spacebar |
 
 ### Date Time control shortcuts
 
@@ -195,7 +195,7 @@ If you’re in a record—for example, a lead—this section shows you the keybo
 > [!NOTE]
 > The process name is an icon at the bottom of the page, not the top.
 
-- **Keyboard shortcuts in Windows**: If you are using the Windows operating system, select the following link and choose the version number from the drop-down. You can view all the shortcuts that are applicable to a Windows environment. See [Windows keyboard shortcuts](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts) 
+- **Keyboard shortcuts in Windows**: If you are using the Windows operating system, select the following link and choose the version number from the drop-down. You can view all the shortcuts that are applicable to a Windows environment. See [Windows keyboard shortcuts](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts). 
 - **Keyboard shortcuts in Mac**: If you are using Mac operating system, select the following link to view all the shortcuts that are applicable to a Mac environment. See [Mac keyboard shortcuts](https://support.apple.com/en-us/HT201236).
 
 ## See also
