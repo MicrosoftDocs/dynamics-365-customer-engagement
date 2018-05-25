@@ -315,7 +315,7 @@ If you simply include the name of the navigation property, you’ll receive all 
   **Request**
 
   ```http 
-    GET [Organization URI]/api/data/v9.0/accounts(99390c24-9c72-e511-80d4-00155d2a68d1)?$select=accountid&$expand=parentaccountid($select%20=%20createdon,%20name),Account_Tasks($select%20=%20subject,%20scheduledstart) HTTP/1.1  
+    GET [Organization URI]/api/data/v9.0/accounts(99390c24-9c72-e511-80d4-00155d2a68d1)?$select=accountid&$expand=parentaccountid($select=createdon,name),Account_Tasks($select=subject,scheduledstart) HTTP/1.1  
     Accept: application/json  
     Content-Type: application/json; charset=utf-8  
     OData-MaxVersion: 4.0  
