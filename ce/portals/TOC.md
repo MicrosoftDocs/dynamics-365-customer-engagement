@@ -34,7 +34,6 @@
 ### [Create and expose portal content easily](create-expose-portal-content.md)
 ### [Create a portal theme](create-theme.md)
 ### [Configure site settings](configure-site-settings.md)
-### [CORS protocol support](cors-protocol-support.md)
 ### [Configure authentication](configure-portal-authentication.md)
 ### [Use shortcuts to place child nodes](place-child-nodes.md)
 ### [Configure contacts ](configure-contacts.md)

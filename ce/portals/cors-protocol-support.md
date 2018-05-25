@@ -9,6 +9,7 @@ ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: D2ADCFCE-F7FC-4297-868F-E02DAFDFD50E
 ms.reviewer: ""
+redirect_url: /dynamics365/customer-engagement/portals/administer-manage-portal-dynamics-365
 author: sbmjais
 ms.author: shjais
 manager: sakudes
