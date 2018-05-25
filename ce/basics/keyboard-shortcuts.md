@@ -51,6 +51,7 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Move between options in an open list, or between options in a group of options|Arrow keys| Arrow keys|
 |Go to the Command Bar| Ctrl+[ **Or** Ctrl+]| N/A |
 |Go to the landmark section of a page | N/A | Ctrl+[ |
+<!--Is the Go to the Command Bar entry, above, correct? It looks like it's formatted wrong.-->
 
 ## Editable grids (views)
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
