@@ -48,6 +48,7 @@ You should use the PowerApps portal to create and edit fields unless you need to
 - Edit multiple fields at once
 - Select whether the field appears in global filter in interactive experience
 - Select whether the field is sortable in interactive experience dashboards
+- Define status reason transitions
 
 > [!NOTE]
 > You can create a Lookup field in the PowerApps portal or in solution explorer by creating a One-to-many relationship on the entity. But only solution explorer offers the option to create this relationship while creating a field.
@@ -64,5 +65,6 @@ You should use the PowerApps portal to create and edit fields unless you need to
 [Create and edit fields using PowerApps portal](create-edit-field-portal.md)<br />
 [Create and edit fields using PowerApps solution explorer](create-edit-field-solution-explorer.md)<br />
 [Delete fields](delete-fields.md)<br />
-[Types of fields and field data types](types-of-fields.md)
+[Types of fields and field data types](types-of-fields.md)<br />
+[Developer Documentation: Work with attribute metadata](/dynamics365/customer-engagement/developer/org-service/work-attribute-metadata)
  
