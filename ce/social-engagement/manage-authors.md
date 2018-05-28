@@ -35,8 +35,8 @@ Deleting an author will result in:
 
 1. In **[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]** go to **Analytics** > **Overview**
 
-2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past 18 months.    
-   Since posts are stored for 18 months, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
+2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past 15 months.    
+   Since posts are stored for 15 months, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
 
 3. Select the **Author** filter [using the filter menu](use-filters.md#add-edit-or-remove-a-filter). 
 
@@ -57,8 +57,8 @@ To inform an author about personal social profile data that is stored in [!INCLU
 
 1. In **[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]** go to **Analytics** > **Overview**.
 
-2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past 18 months.    
-   Since posts are stored for 18 months, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
+2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past 15 months.   
+   Since posts are stored for 15 months, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
 
 3. Select the **Author** filter [using the filter menu](use-filters.md#add-edit-or-remove-a-filter). 
 

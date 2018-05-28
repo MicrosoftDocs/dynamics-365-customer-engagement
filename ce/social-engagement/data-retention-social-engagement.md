@@ -13,7 +13,7 @@ ms.author: mhart
 manager: sakudes
 ---
 # Data retention in Social Engagement
-Get to know which user data gets stored when you work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and how long this data persists. Whenever data is stored in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], either as acquired posts or user settings, it’s stored in a database. While posts end up in a central data store, all other data is stored in a solution-specific database. Posts acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] are available for analysis during 18 months before they are automatically removed from the database. If you need to keep track of older data for reporting purposes, you can [export the data](analyze-social-data-using-widgets.md#export-data-from-widgets) before reaches the retention time.     
+Get to know which user data gets stored when you work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and how long this data persists. Whenever data is stored in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], either as acquired posts or user settings, it’s stored in a database. While posts end up in a central data store, all other data is stored in a solution-specific database. Posts acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] are available for analysis during 15 months before they are automatically removed from the database. If you need to keep track of older data for reporting purposes, you can [export the data](analyze-social-data-using-widgets.md#export-data-from-widgets) before reaches the retention time.     
   
 ## Storage of private messages and direct messages as regular posts  
 If at least one user has added a social profile to an organization’s [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution and the acquisition is allowed for private messages of this social profile, private messages of this profile can be acquired.  
@@ -24,7 +24,7 @@ If at least one user has added a social profile to an organization’s [!INCLUDE
 ## Data retention when deleting a social profile  
 If a solution has acquired private messages from a social profile, and its owner removes the social profile, all private messages from this profile are hidden in the user interface immediately after removal.  
   
-However, the direct messages persist in the central database unless the solution is de-provisioned or the posts become older than 18 months.  
+However, the direct messages persist in the central database unless the solution is de-provisioned or the posts become older than 15 months.  
   
 ## Data retention when deleting a private message  
 If a solution has acquired private messages from a social profile and the owner of the social profile deletes one of these messages, the deleted message won’t show on the user interface anymore.  
