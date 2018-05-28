@@ -46,7 +46,7 @@ Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md
 
 ## Getting started
 
-Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn't take long. The following topics will help you get started quickly.
+Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] doesn't take long. You can also [request a trial](https://experience.dynamics.com/trials/) to try out your use cases. The following topics will help you get started quickly.
 
 -   [Get started with Social Engagement](get-started.md): Find important information to help you get around in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].
 
@@ -80,11 +80,9 @@ We frequently release updates to introduce new capabilities, improve existing fe
 
 -   Download the [Social Engagement translation guide](http://go.Microsoft.com/fwlink/p/?LinkID=391086) for a list of languages [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] is translated into, which languages you can search on, and which languages support sentiment analysis.
 
-## Videos and e-books
+## Request a trial
 
-Check out the [videos and e-books](videos-ebooks.md) page for the full collection of published content.
-
-Subscribe to the [Dynamics 365 YouTube channel](http://go.microsoft.com/fwlink/p/?LinkId=400720) and be the first to know when a new video is published.
+Customers and partners can request a trial and depending on the business case and capacity, we will email you the trial key. [Request a trial](https://experience.dynamics.com/trials/).
 
 ## Community contributions
 
