@@ -2,7 +2,7 @@
 title: "Pointers for Social Engagement | Microsoft Docs"
 description: "Find your starting point for help content."
 keywords: ""
-ms.date: 10/24/2017
+ms.date: 05/28/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
