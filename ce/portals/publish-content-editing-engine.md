@@ -2,7 +2,7 @@
 title: "Use the front-side editing engine to publish content for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Learn how to use the front-side editing engine to publish content for a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/28/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,14 +26,14 @@ To modify the content, select **open the content editor**, point to the content 
 The editor toolbar has a number of buttons to help with content editing. Move the mouse cursor over a button to see a tool tip for the buttons function. The table below also has more detail about the available buttons, listed in the order they appear in the toolbar.
 
 | Button                                       | Description                                                                                                                                                                                                                         |
-|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Save                                       | Saves the changes made to the content and closes the editor.                                                                                                                                                                        |
-| Cancel All Changes                         | Discards any changes made and closes the editor.                                                                                                                                                                                    |
-| Toggle Full Screen Mode                    | Resizes the editor to the size of the containing browser window.
-  | Bold, Italic, Underline, Strikethrough     | Makes selected text bold, italic, underline, or strikethrough as well as newly typed text.                                                                                                                                          |
-| Align Left, Center, Right, Full            | Aligns selected text to the left, center, right, or full as well as newly typed text.                                                                                                                                               |
-| Direction Left to Right, Right to Left     | Changes the direction of the written text to be left to right or right to left.                                                                                                                                                     |
-| Edit CSS Style                             | Opens a dialog to an interface that allows full control over the CSS styling of selected text as well as newly typed text. To set the style of a single word or selection of text, simply select the text, then in the Edit CSS Style dialog select the "Insert span at selection" option. Overusing custom styling can greatly reduce the consistency of the content's look and feel between pages. It is recommended to use this method only when absolutely necessary. |                                                   |
+|--------------------------------------------|------------------------------------------------------------|
+| Save                                       | Saves the changes made to the content and closes the editor. |
+| Cancel All Changes                         | Discards any changes made and closes the editor.          |
+| Toggle Full Screen Mode                    | Resizes the editor to the size of the containing browser window.|
+| Bold, Italic, Underline, Strikethrough     | Makes selected text bold, italic, underline, or strikethrough as well as newly typed text.   |
+| Align Left, Center, Right, Full            | Aligns selected text to the left, center, right, or full as well as newly typed text.    |
+| Direction Left to Right, Right to Left     | Changes the direction of the written text to be left to right or right to left.        |
+| Edit CSS Style                             | Opens a dialog to an interface that allows full control over the CSS styling of selected text as well as newly typed text. To set the style of a single word or selection of text, simply select the text, then in the Edit CSS Style dialog select the "Insert span at selection" option. Overusing custom styling can greatly reduce the consistency of the content's look and feel between pages. It is recommended to use this method only when absolutely necessary. |    
 | Format                                     | Changes the selected text as well as newly typed text to the pre-defined style selected.                                                                                                                                            |
 | Help                                       | Opens a dialog about TinyMCE.                                                                                                                                                                                                       |
 | Cut, Copy, Paste                           | Cuts, copies, or pastes the selected text to and from the clipboard.                                                                                                                                                                |
