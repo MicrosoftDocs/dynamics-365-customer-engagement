@@ -2,7 +2,7 @@
 title: "Set up double opt-in (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to set up the double opt-in system to let contacts confirm their new subscriptions and consent changes in Dynamics 365 for Marketing"
 keywords: "double opt-in;gdpr;subscriptions;consent"
-ms.date: 05/01/2018
+ms.date: 06/01/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -18,7 +18,6 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-<!--Note to author: Remember to update the release date in the metadata.-->
 
 # Set up double opt-in for new subscriptions and consent changes
 
@@ -160,7 +159,7 @@ Before you start to set up and enable double opt-in, make sure you have all the 
 - A _subscription confirmation-request_ email message.
 - An _increase consent confirmation-request_ email message.
 - A _content-settings record_ for use with all confirmation-request messages.
-- A _thank-you page_ to redirect to after a contact confirms the request.
+- A _thank-you page_ to redirect to after a contact confirms each type of request.
 
 To set up and enable the double opt-in system:
 

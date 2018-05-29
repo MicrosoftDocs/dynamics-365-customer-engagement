@@ -2,7 +2,7 @@
 title: "License a Marketing app and add it to your tenant (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to get started with Dynamics 365 for Marketing by purchasing a license and adding the app to your tenant"
 keywords: "purchase;setup"
-ms.date: 04/01/2018
+ms.date: 06/01/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -19,7 +19,6 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-<!--Note to author: Please update release date in metadata-->
 
 # Purchase a production version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 

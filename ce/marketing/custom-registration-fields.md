@@ -72,9 +72,6 @@ Each event record provides a list that shows all the custom-field values submitt
 1. Go to the **Registration &amp; attendance** tab for your selected event.
 
 1. Scroll down to the **Event registration** section. The **Registration responses** table here lists each value supplied by each registrant for each custom field.  
-
-<!--Note to author: Are the user and company names in the screenshot from the Msft fictitious names list?-->
-
      ![Custom field values submitted for an event](media/event-reg-field-all-event-responses.png "Custom field values submitted for an event")
 
 ## Read custom field values submitted for individual registrations

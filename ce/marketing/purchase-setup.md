@@ -2,7 +2,7 @@
 title: "Set up Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to run the setup wizard for Dynamics 365 for Marketing"
 keywords: "setup; licensing; FRE; Azure; customer insights"
-ms.date: 04/01/2018
+ms.date: 06/01/2018
 ms.service:
   - "dynamics-365-marketing"
 ms.custom:
@@ -19,7 +19,6 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
-<!--Note to author: Be sure to update the date in the metadata-->
 
 # Run the setup wizard
 
