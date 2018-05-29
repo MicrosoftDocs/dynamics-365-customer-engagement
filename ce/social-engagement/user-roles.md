@@ -22,7 +22,7 @@ Administrators can assign roles with appropriate permissions for your [!INCLUDE[
   
 Every invited user should be assigned both types of roles.  
   
-An administrator needs to confirm the automatically-assigned Analyst and Reader role for an invited user, or update the user role.  
+An administrator needs to confirm the automatically-assigned Power Analyst and Reader role for an invited user, or update the user role.  
   
 To assign and edit user roles, go to **Settings** > **User Management**.  
   
