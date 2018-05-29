@@ -27,13 +27,13 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 > JAWS screen reader is supported on the latest Unified Client. If choosing JAWS, we recommend using it with Internet Explorer. 
 
 > Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
-<!--Note to author: I reworded the JAWS part and separated it from the Narrator part, concerned that a reader might think we're recommending IE+JAWS as the best choice, but then get confused when the topic proceeds with Narrator+Edge.-->
+>
 
 ## Basic tasks using a screen reader with Dynamics 365
 
 ### Open a Unified Interface-based app
 Although you can use a screen reader anywhere in Dynamics 365 Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 Customer Engagement, visit [About Unified Interface in Dynamics 365](..admin/about-unified-interface.md).
-<!--Note to author: The above link doesn't work on the review page.-->
+
 
 Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-the-app-switcher.md) in Dynamics 365 to open a Unified Interface app.
 
@@ -74,8 +74,8 @@ You can navigate through the dashboard charts using the Tab key and Caps lock + 
 > [!NOTE]
 > You must have the latest Windows 10 Update installed to have all of the accessibility features available for charts.
 
-#### Streams
-You can use the **Tab** key or **Shift+Tab** keys to move between streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the Tab key to quickly move between streams.
+#### Interactive Dashboard Streams
+You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the Tab key to quickly move between dashboard streams.
 
 To navigate through each element of a stream, use the Up/Down arrow keys. Narrator will read the type of control and the title of the control.
 
@@ -84,8 +84,10 @@ You can navigate a business process flow, such as the one found at the top of th
 
 #### Dialog boxes
  
-Most dialogs with input fields have a default focus on the cancel button. For dialogs that need a user action (for example, Delete/OK dialogs), the default focus is on the primary action button (Delete/OK buttons).
-<!--Note to author: This previously said "When a dialog box opens, Navigator announces the title. You can navigate through the controls by using the **Tab** key. The cursor will loop through each element in the dialog box, and you can press the **Esc** key to close it." I removed it based on the feedback from Niranjan. I replaced it with Niranjan's suggested text, although I am unsure if "cancel button" is correct or if it means Esc key, and if "button" should instead be "key."-->
+When a dialog box opens, Navigator announces the title. For dialog boxes with input fields, the **Close** button has the default focus, allowing you to close the dialog box by pressing the **Enter** key. For dialog boxess that require user action, the focus is on the primary action button, such as **Delete** or **OK**.
+
+You can navigate through the controls by using the **Tab** key. The cursor will loop through each element in the dialog box, and you can press the **Esc** key to close it.
+
 
 ## See also
 

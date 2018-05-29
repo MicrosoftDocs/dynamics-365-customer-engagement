@@ -51,7 +51,6 @@ Keyboard shortcuts give you an alternate way to do common tasks instead of using
 |Move between options in an open list, or between options in a group of options|Arrow keys| Arrow keys|
 |Go to the Command Bar| Ctrl+[ **Or** Ctrl+]| N/A |
 |Go to the landmark section of a page | N/A | Ctrl+[ |
-<!--Is the Go to the Command Bar entry, above, correct? It looks like it's formatted wrong.-->
 
 ## Editable grids (views)
 If your administrator has enabled editable grids (views), you can edit data directly in a grid (view). The following table lists the keyboard shortcuts:
@@ -111,11 +110,11 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Perform the default action for the tree view node | Enter |
 |Remove a filter | Delete |
 
-### Stream control shortcuts
+### Dashboard stream control shortcuts
 
 |Task             |Unified Interface  |
 |---------|---------|
-|Move to the first command on the active stream's command bar | Ctrl+Alt+Q | 
+|Move to the first command on the active dashboard stream's command bar | Ctrl+Alt+Q | 
 |Move to the next element | Tab |
 |Move to the previous element | Shift+Tab |
 |Activate a button | Enter **Or** Spacebar |
