@@ -2,7 +2,7 @@
 title: "Create a site map for an app in PowerApps | MicrosoftDocs"
 description: "Learn how to create a site map for you app"
 keywords: ""
-ms.date: 04/05/2018
+ms.date: 05/29/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
