@@ -27,7 +27,7 @@ Manage user permissions by assigning user roles for newly licensed users and edi
   
 1.  Navigate to **Settings** > **User Management**.  
   
-2.  In the **Users** pane, select **Newly invited (Analyst/Responder)** from the **Configuration role** drop-down menu.  
+2.  In the **Users** pane, select **Newly invited (Power Analyst/Responder)** from the **Configuration role** drop-down menu.  
   
 3.  Select the check boxes for the users you want to assign a role to and click the **Edit** ![Edit button](media/edit-icon.png "Edit button") button.  
   

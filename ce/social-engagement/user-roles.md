@@ -29,7 +29,7 @@ To assign and edit user roles, go to **Settings** > **User Management**.
 > [!IMPORTANT]
 >  User roles set in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] don’t apply to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You’ll need to set roles in both [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user can have a different role in each solution.  
 >   
->  If there are **Newly invited (Analyst/Reader)** users in the solution, administrators will receive a notification when accessing the **Settings** area.  
+>  If there are **Newly invited (Power Analyst/Reader)** users in the solution, administrators will receive a notification when accessing the **Settings** area.  
   
 ## Configuration user roles  
 
