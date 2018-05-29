@@ -20,20 +20,11 @@ manager: "kvivek"
 
 You can easily create an entity using the PowerApps portal for most common situations, but not all capabilities are implemented there. When you need to meet the requirements described in [Create an entity](create-entities.md), you can achieve them by creating entities using the Solution Explorer.
 
-## Navigate to the solution
+## Open solution explorer
 
-When creating an entity using the solution explorer you need to find the unmanaged solution that you want to add it to.
+Part of the name of any entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution where the customization prefix is the one you want for this entity. More information: [Change the solution publisher prefix](change-solution-publisher-prefix.md) 
 
-From the PowerApps portal in Model-driven design mode click **Advanced** to open the **Common Data Services Default Solution**. 
-
-You can create your entity and other metadata in this solution using the customization prefix set for the **CDS Default Publisher**. You can change this prefix or work in a different solution.
-
-### To work in a different solution
-
-1. While viewing the **Common Data Services Default Solution** edit the URL, removing everything after `dynamics.com` and refresh the page.
-2. In the **Settings** area select **Customization** > **Solutions**.
-3. In the  view selector, choose **Unmanaged Solutions**.
-4. Open an existing unmanaged solution or create a new solution. More information: [Create a solution](create-solution.md).
+[!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
 
 ## Create an Entity
 

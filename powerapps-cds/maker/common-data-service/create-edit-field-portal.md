@@ -23,7 +23,7 @@ The portal enables configuring the most common options, but certain options can 
 ## View fields
 
 1. From the PowerApps portal, select either **Model-driven** or **Canvas** design mode.
-2. Select **Data** > **Entities** and select the entity that you want to create a field for or the entity that has the field you want to edit.
+2. Select **Data** > **Entities** and select the entity that has the fields you want to view.
 3. With the **Fields** tab selected, you can select the following views: 
 
  |View|Description|
@@ -190,6 +190,8 @@ If you want to create a local option set you must click **View more** and choose
 
 > [!NOTE]
 > If you define every option set as a global option set your list of global option sets will grow and could be difficult to manage. If you know that the set of options will only be used in one place, use a local option set.
+
+[!INCLUDE [cc_remove-option-warning](../../includes/cc_remove-option-warning.md)]
 
 ## IME Mode
 

@@ -20,9 +20,9 @@ ms.tgt_pltfrm:
 ---
 # Types of fields
 
-The names used for types depends on the designer used. [PowerApps portal](https://web.powerapps.com) uses a convention that includes the way the data is formatted. The solution explorer 'Classic' type uses a name based on the API type with a format modifier. The following table includes the corresponding `AttributeTypeDisplayName` API type.
+The names used for types depends on the designer used. [PowerApps portal](https://web.powerapps.com) uses a convention that includes the way the data is formatted. The solution explorer type uses a name aligned with the database data type with a format modifier. The following table includes the corresponding `AttributeTypeDisplayName` API type.
 
-|Portal Data type |'Classic' type| API type|
+|Portal Data type |Solution Explorer  type| API type|
 |--|--|--|
 |**Big Integer**|**Time Stamp**|`BigIntType`|
 |**Currency**|**Currency**|`MoneyType`|
@@ -43,7 +43,7 @@ The names used for types depends on the designer used. [PowerApps portal](https:
 |**Phone**|**Single Line of Text**<br />*Phone* Format|`StringType`|
 |**Status Reason**|**Status Reason**|`StatusType`|
 |**Status**|**Status**|`StateType`|
-|**Text Area**|**Single Line of Text**<br />T*ext Area* Format|`StringType`|
+|**Text Area**|**Single Line of Text**<br />*Text Area* Format|`StringType`|
 |**Text**|**Single Line of Text**<br />*Text* Format|`StringType`|
 |**Ticker Symbol**|**Single Line of Text**<br />Ticker Symbol Format|`StringType`|
 |**Timezone**|**Whole Number**<br />*Time Zone* Format|`IntegerType`|
@@ -65,10 +65,10 @@ There are some fields used by the system that you cannot add using the designer.
 |Type|Description|
 |--|--|
 |**Big Integer** or **Time Stamp**|Used by the system to capture a version number manage updates to an entity.|
-|**Customer**|A lookup field that you can use to specify a customer, which can be an account or contact. Note: This attribute can be added using solution explorer designer.|
+|**Customer**|A lookup field that you can use to specify a customer, which can be an account or contact.<br />**Note**: This attribute can be added using solution explorer designer.|
 |**Owner**|A system lookup field that references the user or team that is assigned a user or team owned entity record.|
-|**Status Reason**|A system field that has options that provide additional detail about the Status field. Each option is associated with one of the available Status options. You can add and edit the options. |
-|**Status**|A system field that has options that generally correspond to active and inactive status. Some system attributes have additional options, but all custom attributes have only **Active** and **Inactive** status options. <br /><br /> You can also include custom state transitions to control which status options are available for certain entities. More information: [Define status reason transitions for custom entities](define-status-reason-transitions.md) |
+|**Status Reason**|A system field that has options that provide additional detail about the Status field. Each option is associated with one of the available Status options. You can add and edit the options. <br /><br /> You can also include custom state transitions to control which status options are available for certain entities. More information: [Define status reason transitions for custom entities](define-status-reason-transitions.md)|
+|**Status**|A system field that has options that generally correspond to active and inactive status. Some system attributes have additional options, but all custom attributes have only **Active** and **Inactive** status options.  |
 |**Unique Identifier**|A system field stores a globally unique identifier (GUID) value for each record.|
 
   
@@ -98,13 +98,13 @@ You can use global option sets that are defined in your organization to configur
   
 ## Using the right type of number
 
- When choosing the correct type of number field to use, the choice to use a **Whole Number** or **Currency** type should be pretty straightforward. The choice between using **Floating Point** or **Decimal** numbers requires more thought.  
+When choosing the correct type of number field to use, the choice to use a **Whole Number** or **Currency** type should be pretty straightforward. The choice between using **Floating Point** or **Decimal** numbers requires more thought.  
   
- Decimal numbers are stored in the database exactly as specified. Floating point numbers store an extremely close approximation of the value. Why choose extremely close approximation when you can have the exact value? The answer is that you get different system performance.  
+Decimal numbers are stored in the database exactly as specified. Floating point numbers store an extremely close approximation of the value. Why choose extremely close approximation when you can have the exact value? The answer is that you get different system performance.  
   
- Use decimals when you need to provide reports that require very accurate calculations, or if you typically use queries that look for values that are equal or not equal to another value.  
+Use decimals when you need to provide reports that require very accurate calculations, or if you typically use queries that look for values that are equal or not equal to another value.  
   
- Use floating point numbers when you store data that represents fractions or values that you will typically query comparing to another value using greater than or less than operators. In most cases, the difference between decimal and float isn’t noticeable. Unless you require the most accurate possible calculations, floating point numbers should work for you.  
+Use floating point numbers when you store data that represents fractions or values that you will typically query comparing to another value using greater than or less than operators. In most cases, the difference between decimal and float isn’t noticeable. Unless you require the most accurate possible calculations, floating point numbers should work for you.  
   
 <a name="BKMK_UsingCurrencyFields"></a>
  
@@ -114,27 +114,27 @@ Currency fields allow for an organization to configure multiple currencies that 
   
 - A lookup field called **Currency** that you can set to any active currency configured for your organization. You can configure multiple active currencies for your organization in **Settings** > **Business Management** > **Currencies**. There you can specify the currency and an exchange rate with the base currency set for your organization. If you have multiple active currencies, you can add the currency field to the form and allow people to specify which currency should be applied to money values for this record. This will change the currency symbol that is shown for the currency fields in the form.  
   
- Individuals can also change their personal options to select a default currency for the records they create.  
+  Individuals can also change their personal options to select a default currency for the records they create.
   
 - A decimal field called **Exchange Rate** that provides the exchange rate for a selected currency associated with the entity with respect to the base currency. If this field is added to the form, people can see the value, but they can’t edit it. The exchange rate is stored with the currency.  
   
 For each currency field you add, another currency field is added with the suffix `_Base` on the name. This field stores the calculation of the value of the currency field you added and the base currency. Again, if this field is added to the form, it can’t be edited.  
   
-When you configure a currency field you can choose the precision value. There are essentially three options as shown in the following table.  
+When you configure a currency field you can choose the precision value. There are three options as shown in the following table.  
   
 |Option|Description|  
 |------------|-----------------|  
 |Pricing Decimal Precision|This is a single organization precision to be used for prices found in **Settings** > **Administration** > **System Settings** > **General Tab**.|  
 |Currency Precision|This option applies the precision defined for the currency in the record.|  
-|Specific precision values 0 – 4|These settings allow for defining a specific set precision.|  
+|Specific precision values|These settings allow for defining a specific set precision using values between  0 and 4.|  
   
 <a name="BKMK_DifferentTypesOfLookups"></a> 
   
 ## Different types of lookups  
 
- When you create a new lookup field you are creating a new Many-to-One (N:1) entity relationship between the entity you’re working with and the **Target Record Type** defined for the lookup. There are additional configuration options for this relationship that are described in [Create and edit relationships between entities](create-edit-entity-relationships.md). But all custom lookups can only allow for a reference to a single record for a single target record type.  
+When you create a new lookup field you are creating a new Many-to-One (N:1) entity relationship between the entity you’re working with and the **Target Record Type** defined for the lookup. There are additional configuration options for this relationship that are described in [Create and edit relationships between entities](create-edit-entity-relationships.md). But all custom lookups can only allow for a reference to a single record for a single target record type.  
   
- However, you should be aware that not every lookup behaves this way. There are several different types of system lookups as shown here.  
+However, you should be aware that not every lookup behaves this way. There are several different types of system lookups as shown here.  
   
 |Lookup type|Description|  
 |-----------------|-----------------|  
@@ -158,13 +158,13 @@ When image display is enabled for an entity, any records that don’t have an im
   
 People can choose the default image to upload a picture from their computer. Images must be less than 5120 KB and must one of the following formats:  
   
--   jpg  
--   jpeg  
--   gif  
--   tif  
--   tiff  
--   bmp  
--   png  
+- jpg
+- jpeg
+- gif
+- tif
+- tiff
+- bmp
+- png
   
 When the image is uploaded, it will be converted to a .jpg format and all downloaded images will also use this format. If an animated .gif is uploaded, only the first frame is saved.  
   

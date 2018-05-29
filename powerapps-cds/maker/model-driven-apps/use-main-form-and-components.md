@@ -135,7 +135,7 @@ Know in detail about the Web resource properties. Go to [Web resource properties
 To know more about the IFRAME properties, see [IFRAME properties](../customize/iframe-properties-legacy.md). 
   
 ## Edit Navigation  
- Navigation within the form allows people to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation Pane Item for Primary Entity ](../customize/create-and-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)
+ Navigation within the form allows people to view lists of related records. Each entity relationship has properties to control whether it should be shown. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation Pane Item for Primary Entity ](../customize/create-edit-1n-relationships.md#navigation-pane-item-for-primary-entity)
   
  Any entity relationships that are configured to be displayed can be overridden within the form editor.  
   

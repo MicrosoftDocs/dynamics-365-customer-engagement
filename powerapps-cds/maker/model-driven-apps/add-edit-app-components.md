@@ -131,7 +131,7 @@ The app designer refers to existing metadata in the default solution. You can us
   
      The form designer opens. More information: [Create and design forms](create-design-forms.md)  
   
-     When you're adding a view or a chart, the **Create New** option opens the corresponding designer. More information: [Understand views (lists)](../common-data-service/create-edit-views.md) and [Create or edit a system chart](create-edit-system-chart.md)  
+     When you're adding a view or a chart, the **Create New** option opens the corresponding designer. More information: [Understand views (lists)](../common-data-service/about-views.md) and [Create or edit a system chart](create-edit-system-chart.md)  
   
     > [!NOTE]
     >  When you're adding a view, you can reference only public views that are listed under the **Views** node in the solution explorer.  

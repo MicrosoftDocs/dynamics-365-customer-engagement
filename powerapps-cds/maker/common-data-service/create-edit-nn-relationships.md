@@ -29,7 +29,7 @@ tags:
   
  With N:N relationships a special entity is created called a Relationship (or Intersect) entity. This entity has a relationship with each of the related entities and only stores the necessary values to define the relationship. You can’t add custom fields to a relationship entity.  
   
- The procedure to create a N:N relationship is essentially choosing the two entities that you want to participate in the relationship, and then for each entity defining how you want the respective lists to be available within the navigation pane of the form for each entity. These are the same options used for the primary entity in 1:N entity relationships. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation Pane Item for Primary Entity](../customize/create-and-edit-1n-relationships.md#BKMK_NavigationPaneOptions)  
+ The procedure to create a N:N relationship is essentially choosing the two entities that you want to participate in the relationship, and then for each entity defining how you want the respective lists to be available within the navigation pane of the form for each entity. These are the same options used for the primary entity in 1:N entity relationships. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Navigation Pane Item for Primary Entity](../customize/create-edit-1n-relationships.md#BKMK_NavigationPaneOptions)  
   
  Not all entities can be used with N:N relationships. If the **New Many-to-Many Relationship** button isn’t present, you can’t create a new N:N relationship with this entity. If you use the metadata browser, you can filter on entities that have the `CanBeInManyToMany` value set to `true`. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use the metadata browser](../customize/create-edit-metadata.md#BKMK_MetadataBrowser)  
   
@@ -88,4 +88,4 @@ tags:
 
 ### See also
 
-[Create 1:N (one-to-many) relationships](../customize/create-and-edit-1n-relationships.md)
+[Create 1:N (one-to-many) relationships](../customize/create-edit-1n-relationships.md)

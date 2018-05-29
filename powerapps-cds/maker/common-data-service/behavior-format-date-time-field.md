@@ -48,7 +48,7 @@ When you import a solution that contains a Date field using the **User Local** b
 
 ### Prevent changing behavior
 
-If you are distributing a custom date field in a managed solution, you can prevent people using your solution from changing the behavior by setting the **CanChangeDateTimeBehavior** managed property to **False**. More information: [Set managed properties for fields](set-managed-properties-for-field.md)
+If you are distributing a custom date field in a managed solution, you can prevent people using your solution from changing the behavior by setting the **CanChangeDateTimeBehavior** managed property to **False**. More information: [Set managed properties for fields](set-managed-properties-field.md)
   
 ## Use cases
 
@@ -77,5 +77,6 @@ The following date and time related query operators are invalid for the **Date O
 
 [Create and edit fields](create-edit-fields.md)<br />
 [Define calculated fields to automate manual calculations](define-calculated-fields.md)<br />
-[Set managed properties for fields](set-managed-properties-for-field.md)
+[Set managed properties for fields](set-managed-properties-field.md)<br />
+[Managed properties](solutions-overview.md#managed-properties)
 
