@@ -131,7 +131,7 @@ You can filter data based on the attributes of related entities in addition to t
 
 2. Repeat steps 2 through 5 from the previous procedure.
 
-More information: [Create and edit relationships between entities](create-edit-entity-relationships.md)
+More information: [Create and edit relationships between entities](../common-data-service/create-edit-entity-relationships.md)
 
 ## Group multiple filters
 You can add multiple filters to your view if you want to filter records by using more than one field. 
