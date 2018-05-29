@@ -43,9 +43,11 @@ A [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] service admin cann
 |Exchange admin|n/a|n/a|n/a|n/a|n/a|n/a|n/a|Yes|Yes|  
 |Office 365 service admin|No|No|No|No|No|No|Yes|Yes|Yes|  
 |Office 365 user|No|No|No|No|No|No|No|No|No|  
-|Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|Yes|Yes|Yes|Yes|  
+|Dynamics 365 service admin|Yes|Yes|Yes|Yes|No|No|Yes|Yes|Yes|  
 
-<sup>1</sup>To approve Dynamics 365 emails a Dynamics user requires the **Approve Email Addresses for Users or Queues privilege**. The Office 365 global admin and the Dynamics 365 system admin roles automatically have this privilege and can approve emails by default.  However, a system admin can assign the **Approve Email Addresses for Users or Queues** privilege to any security role and assign the security role to any user. 
+<sup>1</sup>To approve emails for Dynamics 365 (online), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege and the **Office 365 global admin** role.
+
+To approve emails for Dynamics 365 (on-premises), a Dynamics user requires the **Approve Email Addresses for Users or Queues** privilege.  A system admin can assign the **Approve Email Addresses for Users or Queues** privilege to any security role and assign the security role to any user. 
 
 To manually assign the **Approve Email Addresses for Users or Queues** privilege to a security role: 
 1. In Dynamics 365, go to **Settings** > **Security** > **Security Roles**. 
