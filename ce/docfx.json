@@ -68,7 +68,7 @@
         "voice-of-customer/**.*": "bc/toc.yml"
       },
       "searchScope": {
-        "ce/**.*": ["Dynamics 365", "Customer Engagement" ],
+        "**.*": ["Dynamics 365", "Customer Engagement" ],
         "admin/**.*": ["Dynamics 365", "Customer Engagement" ],
         "analytics/**.*": ["Dynamics 365", "Customer Engagement" ],
         "basics/**.*": ["Dynamics 365", "Customer Engagement" ],
