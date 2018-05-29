@@ -24,7 +24,9 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 - [Learn more about working with NVDA](https://www.nvaccess.org/help/)
 
 > [!NOTE]
-> JAWS screen reader is supported on the latest Unified Client. Internet Explorer + JAWS is our recommended combination. Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
+> JAWS screen reader is supported on the latest Unified Client. Internet Explorer + JAWS is our recommended combination. 
+
+> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 <!--Note to author: A reader might think we're recommending IE+JAWS as the best choice, but then the topic proceeds with Narrator+Edge, which might be confusing. Maybe say, "If choosing JAWS, we recommend using it with Internet Explorer."-->
 
 ## Basic tasks using a screen reader with Dynamics 365
