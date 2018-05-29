@@ -2,7 +2,7 @@
 title: "Streams in Social Center of Microsoft Social Engagement | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
 keywords: "social center, streams, post list, social engagement, engagement"
-ms.date: 12/08/2017
+ms.date: 05/29/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
