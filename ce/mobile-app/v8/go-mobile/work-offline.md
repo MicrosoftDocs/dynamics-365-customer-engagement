@@ -1,7 +1,7 @@
 ---
 title: "Work offline with Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 04/07/2018
+ms.date: 05/24/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -20,6 +20,9 @@ manager: "brycho"
 [!INCLUDE[cc-applies-to-update-8-2-0](../../../includes/cc_applies_to_update_8_2_0.md)]
 
 Your [!INCLUDE[pn-microsoftcrm](../../../includes/pn-microsoftcrm.md)] for phones and tablets users aren't always going to be connected to a network. Admins can enable and configure mobile offline so even when no network is available users can still be productive with up-to-date information at hand. 
+
+> [!NOTE]
+> We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
 
 ## Mobile offline capabilities for administrators
 

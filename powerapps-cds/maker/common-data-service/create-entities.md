@@ -34,29 +34,31 @@ There are two designers you can use to create an entity:
 > - Use Power Query to create new entities and fill them with data. More information: [Quickstart: Add data to an entity in the Common Data Service by using Power Query](/powerapps/maker/common-data-service/data-platform-cds-newentity-pq).
 > - A developer can use [Metadata services](/powerapps/developer/common-data-service/use-web-services#metadata-services) to write a program.
 
-Information in this topic will help you choose which designer you can use. You can use the PowerApps portal to create the entity unless you need to address any of the following requirements:
 
-## Control the customization prefix
+## Solution explorer capabilities not available in the PowerApp portal
+
+Information in this topic will help you choose which designer you can use. You can use the PowerApps portal to create the entity unless you need to address any of the following requirements.
+
+### Control the customization prefix
 
 Part of the name of any custom entity you create is the customization prefix. This is set based on the solution publisher for the solution you’re working in. If you care about the customization prefix, make sure that you are working in an unmanaged solution where the customization prefix is the one you want for this entity. More information [Change the solution publisher prefix](change-solution-publisher-prefix.md).
 
-## Control the name of the primary name entity
+### Control the name of the primary name field
 
-By default, the Primary Name entity created in PowerApps portal will be `<customization prefix>_PrimaryName`. You can't change this after it is created, so if you want something else you should create the entity in the solution explorer.
+By default, the **Primary Name** field created in PowerApps portal will be *`<customization prefix>`*+`_PrimaryName`. You can't change this after it is created,
 
-## Create organization-owned entity
+### Create organization-owned entity
 
-By default, the PowerApps portal will create **User or Team** owned entities. If you want to set ownership to **Organization**, you must create the entity using solution explorer. More information about ownership: [Entity ownership](types-of-entities.md#entity-ownership)
+By default, the PowerApps portal will create **User or Team** owned entities. Use solution explorer to set ownership to **Organization**. More information: [Entity ownership](types-of-entities.md#entity-ownership)
 
-## Create an activity entity
+### Create an activity entity
 
 An activity entity is a special kind of entity that tracks actions for which an entry can be made on a calendar. More information: [Activity entities](types-of-entities.md#activity-entities).
-
-The ability to create an activity entity can only be set if you create entity using the solution explorer.
 
 
 ### See also
 
 [Tutorial: Create an entity in Solution Explorer](create-entity-solution-explorer.md)<br />
 [Tutorial: Create a custom entity that has components in PowerApps](/powerapps/maker/common-data-service/create-custom-entity)<br />
-[Edit an entity](edit-entities.md)
+[Edit an entity](edit-entities.md)<br />
+[Developer Documentation: Create a custom entity](/dynamics365/customer-engagement/developer/org-service/create-custom-entity)

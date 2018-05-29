@@ -1,6 +1,7 @@
 ---
 title: "Add an instance to your subscription of Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -57,7 +58,7 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 <a name="BKMK_add_instance"></a>   
 ## Add an additional instance  
- The following steps apply to customers who do not purchase using volume licensing. Volume license customers should see: [Volume Licensing: Online Services](http://www.microsoft.com/licensing/online-services/how-to-buy.aspx).  
+ The following steps apply to customers who do not purchase using volume licensing. Volume license customers should see: [Microsoft Volume Licensing Service Center](https://www.microsoft.com/Licensing/servicecenter/default.aspx).  
   
 ### Step 1: Purchase the additional instance  
   

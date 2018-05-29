@@ -3,7 +3,7 @@ title: "Set up searches to listen to social media conversations | Microsoft Docs
 description: "Review this guide to set up searches and find data in Social Engagement."
 keywords: ""
 ms.date: 03/27/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Set up searches to listen to social media conversations

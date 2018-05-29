@@ -36,7 +36,7 @@ If a plug-in makes external web requests and is trying to use `KeepAlive` on a c
 
     - Unresponsive client pages
     - Slow client interactions
-    - The browser "hanging" in an unresponsive state
+    - The browser stops responding
 
 - Asynchronously, plug-in executions may take an extended period of time before failing. 
 

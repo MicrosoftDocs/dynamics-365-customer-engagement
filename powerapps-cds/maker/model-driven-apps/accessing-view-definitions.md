@@ -77,6 +77,6 @@ On any list view for an entity, in the command bar you will find the following c
  If the entity that the view is associated with is part of an unmanaged solution, you can still create or edit views for that entity in the default solution. System views are associated with an entity and are not available as separate solution components. Unlike fields, views do not use a customization prefix in a unique name that should be consistent in a solution, so you do not need to create views in the context of a solution. 
  
 ### Next steps
-[Understand views (lists)](../common-data-service/create-edit-views.md)
+[Understand views (lists)](../common-data-service/about-views.md)
 
 

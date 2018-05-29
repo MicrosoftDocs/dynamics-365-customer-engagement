@@ -2,8 +2,8 @@
 title: "Learn about what's new in Microsoft Dynamics 365 - Gamification and the issues addressed by the team. | Microsoft Docs"
 description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 - Gamification."
 keywords: "what's new, release notes, fixed issues, dynamics 365 gamification"
-ms.date: 03/19/2018
-ms.service: gamification
+ms.date: 04/25/2018
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # What's new in Dynamics 365 - Gamification
@@ -22,12 +24,21 @@ If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamificatio
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
 
-## Update 2018.03.29
-### New and improved features
-The [Terms and Usage](https://go.microsoft.com/fwlink/?linkid=870920) has been modified. 
+## Update 2018.4.17 
 
 ### Resolved issues
-Narrator now read out the page name and application name correctly when keyboard focus shifts to **Settings** tab of window.
+
+- Users in child business units now get promoted to Game Managers when they get the Game Manager role assigned in [!INCLUDE[pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)].
+
+## Update 2018.3.29
+
+### New and improved features
+
+- The [Terms and Usage](https://go.microsoft.com/fwlink/?linkid=870920) has been modified. 
+
+### Resolved issues
+
+- Narrator now reads out the page name and application name correctly when keyboard focus shifts to **Settings** tab of window.
 
 
 ## Update 2018.2.11

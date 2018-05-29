@@ -7,4 +7,4 @@
 1. Within the **Advanced customizations** panel, choose one of the following options:
 
  - To work in your **Common Data Service default solution**, select **Open solution explorer** below **Customize**.
- - To select or create a different unmanaged solution to work in, select **All solutions** under **Solutions**.
+ - To select or create a different unmanaged solution to work in, select **All solutions** under **Solutions**. Then select the unmanaged solution you want to work in.

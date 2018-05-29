@@ -72,8 +72,10 @@ Interactive experience dashboards can be a one-stop workplace for app users, suc
 ## Configure entities, fields, and security roles for the interactive dashboards  
  When you configure interactive dashboards, your first task is to enable entities, fields, and security roles for the interactive experience.  
   
+
 ### Entities enabled for interactive experience
  All entities supported in the Unified Interface are enabled for the interactive experience dashboards.
+
   
 ### Configure fields  
  For a field to appear in the global filter and be included in the data stream sort, you have to set two flags, as shown in the example below for the **IsEscalated** field of the Case entity.  

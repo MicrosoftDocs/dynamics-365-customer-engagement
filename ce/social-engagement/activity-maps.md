@@ -3,7 +3,7 @@ title: "Define activity maps in Social Engagement | Microsoft Docs"
 description: "Learn how to configure activity maps in Social Engagement to view real-time data on a map."
 keywords: "activiy map, localtion analysis, live map"
 ms.date: 11/01/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Define activity maps to view real-time data

@@ -2,8 +2,8 @@
 title: "Plan a survey to be created by using Voice of the Customer | MicrosoftDocs"
 description: "Plan to create a survey using Voice of the Customer."
 keywords: "plan a survey; survey best practices; survey question types"
-ms.date: 11/13/2017
-ms.service: crm-online
+ms.date: 05/22/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,11 +14,13 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-VoC
 ---
 
 # Plan a survey
 
-It's important to have a plan for configuring your Voice of the Customer surveys Here are a few things to think about to help you design the right questions for your survey:
+It's important to have a plan for configuring your Voice of the Customer surveys. Here are a few things to think about to help you design the right questions for your survey:
 
 -   What's the purpose of your survey? For example, you might want to interact with your customers, promote new products or services, or measure customer satisfaction. If your goal is to measure something, what and how do you want to measure it?
 
@@ -61,6 +63,8 @@ A few best practices will enable you to create a meaningful survey and gather go
 
 Deciding the question types while planning a survey helps you to create an organized survey and maintain a flow between the questions. The following table describes the Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] question types.
 
+**Web client**
+
 | **Question type**     | **[!INCLUDE[description](../includes/description.md)]**                                                                                                                              | **Preview**                                              |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | Short answer          | Question that has a one-line answer.                                                                                                         | ![Example of a short answer question](media/short-answer-ques.png "Example of a short answer question")   |  
@@ -89,7 +93,30 @@ The following table describes the question types to use when you need to address
 | Multiple ratings in columns | List of questions that ask a respondent to select multiple answers from a column of choices. | ![Example of a multiple ratings in column question](media/multi-rating-col-ques.png "Example of a multiple rating in column question") |  
 |||
 
+**Voice of the Customer app**
+
+| **Question type**       | **[!INCLUDE[description](../includes/description.md)]**   |**Preview**|
+|-------------------------|-----------------------------------------------|-----------------------------|
+| Check box                                                                                       | Question that allows a respondent to choose multiple answers.<br>**Note**: You can change the layout of the answer options from the **Option layout** list.     |![Example of a check box question](media/checkbox.png "Example of a check box question")|
+| CSAT                                                                                            | Question that captures the overall satisfaction of the respondent with the product or agent, on a five-point scale.                          |![Example of a customer satisfaction question](media/csat.png "Example of a customer satisfaction question")|
+| Customer effort                                                                                 | Question that captures the satisfaction of the respondent based on the effort spent on doing business, on a five-point scale.                |![Example of a customer effort score question](media/ces.png "Example of a customer effort score question")|
+| Date                                                                                            | Question that asks a respondent to select a date.                                                                                            |![Example of a date question](media/date.png "Example of a date question")|
+| Drop down                                                                                       | Question that allows a respondent to choose one answer from a drop-down list.                                                                |![Example of a drop down list question](media/drop-down.png "Example of a drop down list question")|
+| Email                                                                                           | Question that asks a respondent to enter email address.                                                                                      |![Example of an email question](media/email.png "Example of an email question")|
+| Label                                                                                           | Use to describe elements on the survey page; for example, labels.                                                                             |![Example of a label question](media/label.png "Example of a label question")|
+| Long answer                                                                                     | Question that has multiple lines in the answer; for example, verbatim comments.                                                               |![Example of a long answer question](media/long-answer.png "Example of a long answer question")   |  
+| NPS                                                                                             | Question that captures the satisfaction of the respondent based on the likelihood of their recommending the product or services to a friend. |![Example of a Net Promoter Score question](media/nps.png "Example of a Net Promoter Score question")  | 
+| Numeric                                                                                         | Question that allows only numerical responses.                                                                                               |![Example of a numeric response question](media/numeric.png "Example of a numeric response question")  |  
+| Radio button                                                                                    | Question that allows a respondent to choose only one answer.<br>**Note**: You can change the layout of the answer options from the **Option layout** list. |![Example of a radio button question](media/radio-button.png "Example of a radio button question")|
+| Short answer                                                                                    | Question that has a one-line answer.                                                                                                         |![Example of a short answer question](media/short-answer.png "Example of a short answer question")   |  
+| Star rating                                                                                     | Question that asks a respondent to provide ratings by using stars, emoticons, or flags.                                                      |![Example of a star rating question](media/rating.png "Example of a star rating question")   |
+| Upload file                                                                                     | Allow a respondent to upload a file.<br>Supported file types: .png, .jpg, .gif, .doc, .docx, .pdf, .xls, .xlsx, .zip, .txt, .ppt, .pptx<br>Maximum file size: 5 |![Example of a upload file question](media/upload-file.png "Example of a upload file question")  |  
+| Website                                                                                         | Question that asks a respondent to enter a website URL.                                                                                      |![Example of a website question](media/website.png "Example of a website question")  |
+
 More information about how to add a question to your survey: [Create and add survey questions](design-basic-survey.md#create-and-add-survey-questions)  
+
+> [!NOTE]
+> Some of the question types are supported only in web client as of now. They will be added to the Voice of the Customer app in a future release. If you want to use any of those question types, you can continue to use them in web client.
 
 ## Available workflows in Voice of the Customer
 

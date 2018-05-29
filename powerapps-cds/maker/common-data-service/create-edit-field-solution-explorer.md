@@ -125,7 +125,13 @@ When you choose **Multi Select Option Set** or **Option Set** data type the solu
 
 ![Configure a local option set](media/local-option-set-solution-explorer.png)
 
-If you to choose **Use Existing Option Set** the designer will display a list of existing global option sets and include an **Edit** and **New** buttons to configure the global options that this field should use.
+#### Configure local options
+
+[!INCLUDE [cc_configure-option-set-options-solution-explorer](../../includes/cc_configure-option-set-options-solution-explorer.md)]
+
+#### Use Existing Option Set
+
+If you to choose **Use Existing Option Set** the designer will display a list of existing *global option sets* and include an **Edit** and **New** buttons to configure the global options that this field should use.
 
 ![Configure a global option set](media/global-option-set-solution-explorer.png)
 

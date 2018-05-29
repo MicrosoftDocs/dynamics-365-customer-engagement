@@ -2,7 +2,7 @@
 title: "Define status reason transitions with PowerApps | MicrosoftDocs"
 description: "Learn how to define status reason transitions"
 ms.custom: ""
-ms.date: 04/06/2018
+ms.date: 05/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -21,22 +21,25 @@ manager: "kvivek"
 
 # Define status reason transitions for the Case or custom entities
 
-[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+You can specify status reason transitions for the Incident (**Case**) entity or a custom entity.
 
-You can specify status reason transitions for the Incident (**Case**) entity or a custom entity.  
+> [!NOTE]
+> Although the Incident (Case) entity isn't included in a default Common Data Service for Apps environment, it is used by [Dynamics 365 for Customer Service](https://dynamics.microsoft.com/customer-service/) and defined within the [Common Data Model](https://github.com/Microsoft/CDM/blob/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Incident.cdm.json)
   
- Status reason transitions are an optional additional level of filtering to define what the status reason value can be changed to for each status reason. Defining a limited list of valid options can make it easier for people to choose the correct next status reason for a record when you have a large number of combinations for valid status reason values.  
+Status reason transitions are an optional additional level of filtering to define what the status reason value can be changed to for each status reason. Defining a limited list of valid options can make it easier for people to choose the correct next status reason for a record when you have a large number of combinations for valid status reason values.  
   
-<a name="BKMK_StatusAndStatusReasons"></a>   
+<a name="BKMK_StatusAndStatusReasons"></a>
+
 ## What is the connection between Status and Status Reason fields?  
- Entities that can have different status values have two fields that capture this data:  
+
+Entities that can have different status values have two fields that capture this data:  
   
 |Display Name|Description|  
 |------------------|-----------------|  
 |**Status**|Represents the state of the record. Typically **Active** or **Inactive**. You cannot add new status options.|  
 |**Status Reason**|Represents a reason that is linked to a specific status. Each status must have at least one possible status reason. You can add additional status reason options.|  
   
- The metadata for the field defines what status values are valid for a given state. For example, for the Incident (**Case**) entity, the default status and status reason options are:  
+The metadata for the field defines what status values are valid for a given state. For example, for the Incident (**Case**) entity, the default status and status reason options are:  
   
 |Status|Status Reason|  
 |------------|-------------------|  
@@ -46,26 +49,34 @@ You can specify status reason transitions for the Incident (**Case**) entity or 
   
   
 <a name="BKMK_EditStatusReasonTransitions"></a>   
-## Edit status reason transitions  
- You can modify the status reason field options for the Case entity and custom entities to define which other status reason options people can choose. The only restriction is that each status reason option for an active status must allow at least one path to an inactive status. Otherwise you could create a condition where it would not be possible to resolve or cancel the case.  
+
+## Edit status reason transitions
+ 
+You can modify the status reason field options for the Case entity and custom entities to define which other status reason options people can choose. The only restriction is that each status reason option for an active status must allow at least one path to an inactive status. Otherwise you could create a condition where it would not be possible to resolve or cancel the case.  
+
+> [!NOTE]
+> Editing the status reason transitions requires using solution explorer. See [Create and edit fields using PowerApps solution explorer](create-edit-field-solution-explorer.md) for information about how to edit fields.
   
- See [Create and edit fields](../customize/create-edit-fields.md) for information about how to edit fields. When you edit a status reason field the **Edit Status Reason Transitions** button is in the menu. When you click this button the Status Reason Transitions dialog provides the option to choose **Enable Status Reason Transitions**. When this option is selected you must define which status reason values are allowed for each status reason. To remove the filtering applied, remove the **Enable Status Reason Transitions** selection. The transitions you have defined will be kept but not applied.  
+ When you edit a status reason field the **Edit Status Reason Transitions** button is in the menu. 
+
+![Edit Status Reason Transitions command](media/status-reason-transitions-command.png)
+
+When you click this button the **Status Reason Transitions** dialog provides the option to choose **Enable Status Reason Transitions**. When this option is selected you must define which *other* status reason values are allowed for each status reason. To remove the filtering applied, remove the **Enable Status Reason Transitions** selection. The transitions you have defined will be kept but not applied.  
   
- The screenshot below provides an example that meets the following requirements:  
+The screenshot below provides an example that meets the following requirements: 
+ 
+- A case can be merged at any time. You will not be able to merge cases if a status reason transition does not allow for it.  
+- An active case can be canceled at any time.  
+- A resolved or canceled case cannot be reactivated.  
+- All cases must pass through the following stages: **In Progress** > **On Hold** > **Waiting for Details** > **Researching** before they can be resolved. With this configuration, a case could not be set to an earlier status.  
+  > [!NOTE]
+  >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
   
--   A case can be merged at any time. You will not be able to merge cases if a status reason transition does not allow for it.  
-  
--   An active case can be canceled at any time.  
-  
--   A resolved or canceled case cannot be reactivated.  
-  
--   All cases must pass through the following stages: **In Progress** > **On Hold** > **Waiting for Details** > **Researching** before they can be resolved. With this configuration, a case could not be set to an earlier status.  
-  
-    > [!NOTE]
-    >  This is not a good example for real work, but it demonstrates how stages of status can be enforced through status reason transitions.  
-  
- ![Example of status reason transitions for case](../customize/media/status-reason-transitions-example.PNG "Example of status reason transitions for case")  
+ ![Example of status reason transitions for case](media/status-reason-transitions-example.PNG)  
   
 ### See Also  
- [Create and edit fields](../customize/create-edit-fields.md)   
+
+[Create and edit fields using PowerApps solution explorer](create-edit-field-solution-explorer.md)<br />
+[Entity metadata > Entity states](/powerapps/developer/common-data-service/entity-metadata#entity-states)<br />
+[Define custom state model transitions](/dynamics365/customer-engagement/developer/define-custom-state-model-transitions)
 

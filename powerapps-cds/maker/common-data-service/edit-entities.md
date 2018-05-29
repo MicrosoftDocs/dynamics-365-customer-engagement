@@ -23,7 +23,7 @@ manager: "kvivek"
 You can edit any custom entity that you create. Standard entities or managed custom entities may have limitations about changes you can make.  
   
 > [!NOTE]
-> Standard entities are common entities that are included with your environment that are not System or Custom entities. Managed custom entities are entities that have been added to the system by importing a managed solution. The degree to which you can edit these entities is determined by the managed properties set for each entity. Any properties that can’t be edited will be disabled. 
+> **Standard** entities are common entities that are included with your environment that are not **System** or **Custom** entities. *Managed custom entities* are entities that have been added to the system by importing a managed solution. The degree to which you can edit these entities is determined by the managed properties set for each entity. Any properties that can’t be edited will be disabled. 
 
 There are two ways to edit an entity using a designer:
 
@@ -44,7 +44,7 @@ You can also make changes to records that support the entity:
 
 - **Business Rules**. More information: [Create business rules and recommendations to apply logic in a form](../model-driven-apps/create-business-rules-recommendations-apply-logic-form.md)
 
-- **Views**. More information:  [Create or edit a view](create-and-edit-views.md)
+- **Views**. More information:  [Create or edit a view](create-edit-views.md)
   
 - **Forms**. More information:  [Create and design forms](../model-driven-apps/create-design-forms.md)
 
