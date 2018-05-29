@@ -2,7 +2,7 @@
 title: "Engage with communities by using a community portal in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to engage with communities by using the community portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 05/29/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,6 +22,8 @@ Keep your customer engagement strong by growing a community, publishing articles
 -   Manage multiple corporate or community blogs on a single portal, with multiple authors per blog. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage blogs](manage-blogs.md)  
 
 -   Engage with and gather feedback from your community, including gather ideas, votes, and comments on suggestions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Crowdsource ideas](crowdsource-ideas.md)  
+
+- Engage with customer with a modern case management system. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage cases in portals](case-management.md)
 
 ### See also
 

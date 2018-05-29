@@ -23,6 +23,7 @@
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
 ### [Search within file attachments](search-file-attachment.md)
 ### [Engage with communities](engage-with-communities.md)
+### [Manage cases in portals](case-management.md)
 ### [Display file attachments with knowledge articles](display-file-attachments-knowledge-article.md)
 ### [Set up and manage forums](setup-manage-forums.md)
 #### [Manage forum threads](manage-forum-threads.md)
