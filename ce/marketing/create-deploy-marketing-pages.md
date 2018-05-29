@@ -18,6 +18,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+
 <!--Note to author: Please update date in metadata-->
 
 # Create and deploy marketing pages
@@ -245,7 +246,7 @@ While the page is live, you can't edit it in [!INCLUDE[pn-microsoftcrm](../inclu
 
 When you publish a marketing page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] hosts it by using its portals* feature at a public URL that you can share with prospects. When you first create the page, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] automatically creates a new website record for it, where you can go to analyze its traffic and performance. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Register contacts' engagement with your Internet marketing initiatives](register-engagement.md)
 
-## Embed a [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] form on your own website
+## Embed a marketing form on your own website
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] provides a complete solution for designing, publishing, and hosting your landing pages, but you can also embed [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] landing-page forms on your own website using your usual web-publishing tools. Marketing forms that you publish in this way function just as they would when embedded on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] landing page, so they will generate contacts and/or leads in your database when submitted.
 
@@ -261,9 +262,9 @@ To set up a form for use on an external website:
 
 1. Create the form and add the required fields to it as usual.
 
-    - Configure all [field blocks](content-blocks-reference.md#form-content-blocks) just as you can with standard marketing forms.
-    - Make [layout and style settings](design-digital-content.md#work-with-the-designer) just as you can with standard marketing forms.
-    - You can use CSS on your external page to further style the imported marketing form there. When you're done designing your form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], open its **Designer** > **HTML** tab to see the CSS class assigned to each element.
+    - Configure all [field blocks](content-blocks-reference.md#form-content-blocks) just as you would with standard marketing forms.
+    - Make [layout and style settings](design-digital-content.md#work-with-the-designer) just as you would with standard marketing forms.
+    - You can use CSS on your external page to further style the imported marketing form. When you're done designing your form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], open its **Designer** > **HTML** tab to see the CSS classes assigned to each element.
 
 1. Save the form.
 
