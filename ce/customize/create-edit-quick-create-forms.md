@@ -39,7 +39,6 @@ Although you can create quick create forms for system activity entities, with th
 
 You can enable custom activity entities to support quick create forms, and you can create quick create forms for those entities. However, the quick create form for custom activity entities will not be used when people select **Create** on the navigation bar. These quick create forms can be used only when people add a new record for a sub-grid that displays that specific custom activity entity. 
 
-  
 <a name="BKMK_CreateQuickCreate"></a>   
 ## Create a quick create form  
  Although you can define multiple quick create forms, only one quick create form can be used by everyone. The form everyone will use is set using the form order. Quick create forms cannot be assigned to security roles and they do not provide the capability for the user to switch forms.  
