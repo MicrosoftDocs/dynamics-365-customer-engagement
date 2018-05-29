@@ -1,23 +1,26 @@
 ---
-title: Use the Main form and its components | Microsoft Docs
-description: Know how to use the Main form and its components in the unified interface based apps
+title: Use the main form and its components in PowerApps | Microsoft Docs
+description: Know how to use the main form and its components in the unified interface based apps
 keywords: Main forms; Customer service; Customer Service Hub; Dynamics 365
-author: anjgupta
-ms.author: nabuthuk; anjgup
-manager: shellyha
-ms.date: 03/15/2018
+author: Mattp123
+ms.author: matp
+manager: kvivek
+ms.date: 04/24/2018
 ms.service: crm-online
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
 ---
-# Use the Main form and its components
- 
-Forms in the Unified interface based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer in the **Customization** area. The form type of the new forms is **Main**.
+# Use the main form and its components
 
-This topic explains how to edit a Main form, and add or change various elements of the form.
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+ 
+Forms in the Unified interface based apps provide improved user experience for optimum agent productivity and help maintain context while working on related records. You can see the forms enlisted in the solution explorer. The form type of the new forms is **Main**.
+
+This topic explains how to edit a main form, and add or change various elements of the form.
 
 ## Open the form editor
 
@@ -29,7 +32,7 @@ Follow the procedures given below to access the form editor:
 > If you create any new solution components in the process of editing the form, the names of the components will use the solution publisher customization prefix for the default solution and these components will only be included in the default solution. If you want any new solution components to be included in a specific unmanaged solution, open the form editor through that unmanaged solution.
 
 
-### Access the form editor through App designer
+### Access the form editor through App designer in Dynamics 365 customer engagement
 
 1. Go to **Settings > My Apps**.
 2. Select **...** on an app and select **Open in App designer**.
@@ -49,29 +52,27 @@ Follow the procedures given below to access the form editor:
 
 ### Access the form editor through the default solution
 
-1. Go to **Settings > Customizations**.
-2. Click **Customize the System** to open the default solution.
-3. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**.
-4. In the list of forms, open the form of type **Main**.
+1. Open solution explorer.
+2. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**.
+3. In the list of forms, open the form of type **Main**.
 
 ### Access the form editor for an unmanaged solution
 
-1. Go to **Settings > Customizations**.
-2. Click **Solutions**.
-3. Double-click the unmanaged solution you want to work with.
-4. Locate the entity with the form you want to edit. If the entity isn’t there, you’ll need to add it.
+1. Open solution explorer.
+2. Double-click the unmanaged solution you want to work with.
+3. Locate the entity with the form you want to edit. If the entity isn’t there, you’ll need to add it.
 
 #### Add an entity to an unmanaged solution
 
-1. Select the **Entities** node and, in the toolbar above the list, click **Add Existing**.
-2. In the **Select Solution Components** dialog box, with the **Component Type** selector set to **Entity**, select the entity you want to add and click **OK**.
-3. If the **Missing Required Components** dialog box appears, you can click **No, do not include required components** if you don’t intend to export this unmanaged solution to another organization. If you don’t want to include missing required components at this time, you can add them later. You’ll receive notification again if you export this solution in the future.
+1. Select the **Entities** node and, in the toolbar above the list, select **Add Existing**.
+2. In the **Select Solution Components** dialog box, with the **Component Type** selector set to **Entity**, select the entity you want to add and select **OK**.
+3. If the **Missing Required Components** dialog box appears, you can select **No, do not include required components** if you don’t intend to export this unmanaged solution to another organization. If you don’t want to include missing required components at this time, you can add them later. You’ll receive notification again if you export this solution in the future.
 5. In the solution explorer expand the entity with the form you want to edit and select **Forms**.
 6. In the list of forms, open the form of type **Main**.
 
 #### Publish the changes for use in the app
 
-Certain customizations that make changes to the user interface require that they be published before people can use them in the application. To publish your customization, in the solution explorer, click **Publish All Customizations**.
+Certain customizations that make changes to the user interface require that they be published before people can use them in the application. To publish your customization, in the solution explorer, select **Publish All Customizations**.
 
 ## Form editor user interface
 

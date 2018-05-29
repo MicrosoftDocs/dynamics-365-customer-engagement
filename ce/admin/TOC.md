@@ -59,6 +59,7 @@
 ### [Security roles and privileges](security-roles-privileges.md)
 #### [Create or edit a security role](create-edit-security-role.md)
 #### [Copy a security role](copy-security-role.md)
+#### [Create an administrative user and prevent privilege elevation](prevent-elevation-security-role-privilege.md)
 #### [Assign security roles to a form](assign-security-roles-form.md)
 #### [View user profile](../basics/view-your-user-profile.md)
 ### [User session and access management](user-session-management.md)
@@ -179,6 +180,7 @@
 #### [Best practices](best-practices-server-side-synchronization.md)
 #### [Forward mailboxes or edit mailboxes](create-forward-mailboxes-edit-mailboxes.md)
 ### [Configure Outlook or Exchange folder-level tracking](configure-outlook-exchange-folder-level-tracking.md)
+### [Use Outlook category to track appointments and emails](use-outlook-category-track-appointments-emails.md)
 ### [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)
 ### [Set incoming and outgoing email synchronization](set-incoming-outgoing-email-synchronization.md)
 ### [Choose records to synchronize with Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)
@@ -241,15 +243,6 @@
 ## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
 
-# [Embedded intelligence](embedded-intelligence.md)
-## [Enable and configure embedded intelligence](configure-enable-embedded-intelligence.md)
-## [Guide customer communications](relationship-assistant.md)
-## [Stay updated with Action cards](action-cards-reference.md)
-## [View message interactions](email-engagement.md)
-## [Display emails](auto-capture.md)
-## [View customer activity history](relationship-analytics.md)
-<!--## [Preview feature: Work with predictive lead scoring](work-predictive-lead-scoring.md)-->
-
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)
 
@@ -267,6 +260,6 @@
 ## [Sales tab](system-settings-dialog-box-sales-tab.md)
 ## [Service tab](system-settings-dialog-box-service-tab.md)
 ## [Synchronization tab](system-settings-dialog-box-synchronization-tab.md)
-<!-- ## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md) -->
+## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md)
 ## [Previews tab](system-settings-dialog-box-previews-tab.md)
 ## [On-off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md)

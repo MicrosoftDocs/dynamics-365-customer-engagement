@@ -7,11 +7,13 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Create rules to automatically route cases (Customer Service)

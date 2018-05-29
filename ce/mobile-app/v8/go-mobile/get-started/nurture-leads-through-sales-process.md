@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 16aefb72-8ff0-462e-8230-85cdedeac826
 caps.latest.revision: 30
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Nurture leads through the sales process in Dynamics 365 for phones and tablets
 
@@ -36,5 +36,5 @@ manager: "brycho"
 ### Qualify, Disqualify, or Reopen an opportunity  
  To change the status of an opportunity, tap **Qualify**, **Disqualify**, or **Reopen Opportunity** on the command bar.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

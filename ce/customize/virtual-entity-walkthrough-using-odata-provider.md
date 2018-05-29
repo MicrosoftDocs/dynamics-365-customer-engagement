@@ -1,7 +1,8 @@
 ---
-title: "Virtual entity walkthrough using the OData Data Provider (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Virtual entity walkthrough using the OData Data Provider in PowerApps | MicrosoftDocs"
+description: "Learn how to use the OData v4 data provider with a virtual entity"
 ms.custom: ""
-ms.date: 10/24/2017
+ms.date: 04/26/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,20 +11,25 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
 ms.assetid: 
 caps.latest.revision: 11
 author: "Mattp123"
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 
-# About this walkthrough
+# Virtual entity walkthrough using the OData v4 Data Provider
 
-Imagine that you want to access ticket information from an external data source within the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. The data source containing the ticket data has an OData web service. In this simple walkthrough, you create an entity with fields mapped to the external data source.
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
+
+## About this virtual entity walkthrough
+
+Imagine that you want to access ticket information from an external data source within your model-driven app or the Service area of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for Customer Engagement. In this simple walkthrough, you'll model a virtual entity with fields mapped to the external schema that retrieves ticket data at runtime from an OData web service.
 
 ## Data source details
 
-Because the data source used for this walkthrough has an OData v4 web service, we can use the OData v4 Data Provider included with the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)].
+Because the data source used for this walkthrough has an OData v4 web service, we can use the OData v4 Data Provider included with your environment.
 
 Web service url: http://contosowebservice.azurewebsites.net/odata/ 
 
@@ -52,8 +58,8 @@ Select **NEW**, select **OData v4 Data Provider**, and then select **OK**.
 
 Enter or select the following information.
 
-- **Name**. Contoso Sample Data Source
-- **URL**. http://contosowebservice.azurewebsites.net/odata 
+- **Name**: Contoso Sample Data Source
+- **URL**: http://contosowebservice.azurewebsites.net/odata 
 - **Timeout**: 30
 - **Return Inline Count**: True
 
@@ -80,7 +86,7 @@ On the **Entity: New** form, select the **Virtual Entity** option, and then ente
    - Notes (includes attachments)
    - Activities
 
-Next to **Areas that display this entity**, select **Service**, and then click **Save** (but don’t close the entity form).
+Next to **Areas that display this entity**, select **Service**, and then select **Save** (but don’t close the entity form).
 
 ![Ticket entity definition](media/ticket-entity.png)
 
@@ -146,7 +152,7 @@ In the **Common Tasks** pane select **Add Columns**.
 
 Select **Severity**, and then select **OK**.
 
-On the **View: All Tickets** window click **Save and Close**.
+On the **View: All Tickets** window select **Save and Close**.
 
 On the Solution Explorer window select **Publish All Customizations**.
 
@@ -154,7 +160,7 @@ On the Solution Explorer window select **Publish All Customizations**.
 
 After all customizations are published, close the Solution Explorer window.
 
-## View the virtual entity in action
+## View the virtual entity in action with Dynamics 365 customer engagement
 
 Go to **Service** > **Extensions** > **Tickets**.
 

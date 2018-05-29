@@ -1,22 +1,22 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 03/22/2018
+ms.date: 04/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
-tags:
- - "MigrationHO"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
+tags: 
+  - MigrationHO
 ---
 # Deploy Dynamics 365 App for Outlook  
 
@@ -48,33 +48,55 @@ There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.
   
 > [!NOTE]
 >  Supported configurations and requirements for [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] features are listed throughout our documentation. Specific configurations not documented should be  considered unsupported.  
+
+### Supported browsers  
+ You can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] with [!INCLUDE[pn_outlook_web_app](../includes/pn-outlook-web-app.md)] on the following browsers:  
+  
+-   [!INCLUDE[pn_IE_10](../includes/pn-ie-10.md)], [!INCLUDE[pn_ie_11](../includes/pn-ie-11.md)], or [!INCLUDE[pn_microsoft_edge](../includes/pn-microsoft-edge.md)]  
+  
+     The following configuration is supported:  
+  
+    -   Protected Mode is enabled for **Internet** security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Internet**.  
+  
+    -   Protected Mode is enabled for **Local intranet**  security zone. To enable Protected Mode: in IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local Internet**.  
+  
+    -   Your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] URL is in the **Local intranet** security zone list of trusted websites. In IE 10 or 11, go to **Tools** > **Internet options** > **Security tab** > **Local intranet** > **Sites** > **Advanced**.  
+ 
   
 ### Required privileges 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] provides access to [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] through the **Use Dynamics 365 App for Outlook** privilege. If a user doesn’t have this privilege, they’ll receive the following error:  
   
 “You haven't been authorized to use this app. Check with your system administrator to update your settings.”  
+
+In addition:
   
-Users must also have read/write privileges for the following entities:  
+1. Users must have **read/write** privileges for the following entities.  
   
- Business Management tab:  
+   Business Management tab:  
   
-- **Mailbox**  
+   - **Mailbox**  
   
-Customization tab:  
+   Customization tab:
+
+   - **User Application Metadata**
+
+2. Users must have **read** privileges for the following entities.  
+
+   Customization tab:  
+
+   - **App**
   
-- **Entity**  
+   - **Entity**  
   
-- **Field**  
+   - **Field**  
   
-- **Relationship**  
+   - **Relationship**  
   
-- **System Application Metadata**  
+   - **System Application Metadata**  
   
-- **System Form**  
+   - **System Form**  
   
-- **User Application Metadata**  
-  
-- **View**  
+   - **View**  
   
 #### Set the privileges for a security role  
 
@@ -89,6 +111,18 @@ For example, to set privileges for the Mailbox entity:
 4.  In the **Entity** section, review the **Mailbox** privileges settings. The security role should have User or higher settings.  
   
 5.  In the **Privacy Related Privileges** section, verify that **Use Dynamics 365 App for Outlook** is set to **Organization**. If not, click **Use Dynamics 365 App for Outlook**.  
+
+### Provide security role access 
+If you have custom security roles defined in Dynamics 365, users who have that security role assigned may not be able to access Dynamics 365 App for Outlook. In addition to the custom security role containing required privileges for App for Outlook, the security role needs to be bound to the App for Outlook App. In order to achieve this, follow the steps below:
+
+1.	From the main menu navigate to **Settings** > **My Apps**.
+![Dynamics 365 My Apps page](media/MyAppPage.png "Dynamics 365 My Apps page") 
+
+2.  On the **Dynamics 365 App for Outlook** tile click the ellipsis and then click **Manage Roles**.
+![Dynamics 365 Manage Roles page](media/ManageRolesPage.png "Dynamics 365 Manage Roles page") 
+
+3.	In the flyout that appears on the right, select the security roles to have access to App for Outlook and choose **Save**.
+![Dynamics 365 select a Role](media/ManageRolesPage2.png "Dynamics 365 select a role")
   
 ### Supported configurations with Microsoft Exchange  
  As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] you can use the app with any combination of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] or [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-onprem.md)] and [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] or [!INCLUDE[pn_Exchange_Server_short](../includes/pn-exchange-server-short.md)] (on-premises), including hybrid configurations. This means you can use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] in any of the following configurations:  

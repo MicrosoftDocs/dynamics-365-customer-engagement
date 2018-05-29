@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: c96bbb04-1609-4a34-83c0-8603928a6b31
 caps.latest.revision: 31
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # More help and how-to for users of Dynamics 365 for phones and tablets
 
@@ -42,5 +42,5 @@ manager: "brycho"
   
  [Troubleshoot a Dynamics 365 for Windows app start-up error](../admin-troubleshoot/troubleshoot-dynamics-365-windows-app-start-up-error.md)  
   
-## See Also  
+### See also  
  [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands.md)

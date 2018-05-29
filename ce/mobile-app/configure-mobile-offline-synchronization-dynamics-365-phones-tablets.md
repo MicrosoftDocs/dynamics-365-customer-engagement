@@ -1,19 +1,19 @@
 ---
 title: "Configure mobile offline synchronization in Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom: ""
-ms.date: 12/18/2017
+ms.date: 05/16/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+author: "mduelae"
 ms.assetid: 7f992770-8c7b-48ba-806a-63a3634d209c
 caps.latest.revision: 7
-ms.author: "jimholtz"
+ms.author: "mkaur"
 manager: "kvivek"
 ---
 # Configure mobile offline synchronization to allow users to work in offline mode on their mobile device 
@@ -22,8 +22,9 @@ Provide an enhanced offline experience for mobile users using Dynamics 365. Once
   
  This offline experience uses [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] services to periodically synchronize entities with the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for phones and tablets apps so synchronized records are available when users’ mobile devices are disconnected. To enable mobile offline synchronization, follow the steps below.
  
- > [!NOTE] 
+ > [!IMPORTANT] 
 > -   Mobile offline synchronization isn’t available for Trial, Preview  or sandbox [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organizations. 
+> -   We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
  
 ## Step 1: Enable entities for mobile offline synchronization 
  

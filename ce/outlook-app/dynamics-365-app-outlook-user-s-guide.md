@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"  
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Dynamics 365 App for Outlook User Guide  
 
@@ -221,11 +221,9 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
-<!-- 
-
 ## Customize the track regarding card
 
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Job Title** with **Business Phone** in the Contact card.
+The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
 
 ![Initial contact card](media/initial-contact-card.png "Initial contact card")
 
@@ -233,27 +231,27 @@ To change the fields that appear, follow these steps:
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Expand **Entities** and choose an entity such as **Contact**.
-3. Expand the entity and select **Forms**, then select the **Contact** form.
+3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
 
    ![Contact entity form](media/contact-entity-form.png)
-4. Drag **Business Phone** below **Account Name**. Drag **Job Title** below **Mobile Phone**.
 
-   | | |  |
-   |---------|---------|---------|
-   |![Drag fields in form](media/drag-fields-in-form.png "Drag fields in form")     |         | ![After dragging fields](media/after-dragging-fields.png "After dragging fields")        |
+4. Drag **Company Name** above **Business Phone**.
+
+   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
+
+   ![After dragging field](media/after-dragging-fields.png "After dragging field")
 
    > [!NOTE]
-   > The first four fields appear in the track regarding card.
-5. Choose **Save**, **Publish**, and then close the form editor.
-6. On the solution page, choose **Components** > **Prepare Client Customizations**. 
+   > The first three fields appear in the track regarding card.
 
-   ![Prepare client customizations](media/prepare-client-customizations.png "Prepare client customizations")
+5. Select **Save**, **Publish**, and then close the form editor.
+6. On the solution page, **Publish All Customizations**. 
 7. Close the solutions page.
 
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It might take some time for the synchronization to complete and the change to appear.
+After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
 
 ![After customizing card](media/after-customizing-card.png "After customizing card")</br>
-The business phone number replaces job title in the Contact card. -->
+The company name now appears after the contact name in the Contact card.
 
 ## Compose an email message and link it to a Dynamics 365 record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).

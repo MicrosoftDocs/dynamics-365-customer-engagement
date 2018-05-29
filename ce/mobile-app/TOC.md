@@ -1,6 +1,6 @@
 # [Overview](overview.md)
 
-# Administration Guide 
+# Administrator Guide 
 ## [What's supported](support-phones-tablets.md)
 ## [Set up mobile app](set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md)
 ## [Configure mobile offline synchronization](configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
@@ -42,7 +42,7 @@
 #### [Scan barcodes](../mobile-app/v8/go-mobile/get-started/scan-barcodes.md)
 #### [User your browser for non-mobile features](../mobile-app/v8/go-mobile/get-started/use-browser-non-mobile-features.md)
 #### [A note for Android users](../mobile-app/v8/go-mobile/get-started/note-android.md)
-#### [More help and how to information](../mobile-app/v8/go-mobile/get-started/more-help-how-users.md)
+#### [More help and how-to information](../mobile-app/v8/go-mobile/get-started/more-help-how-users.md)
 #### [Manage accounts, contacts, leads, and opportunities](../mobile-app/v8/go-mobile/get-started/manage-accounts-contacts-leads-and-opportunities.md)
 #### [Track your progress with charts](../mobile-app/v8/go-mobile/get-started/track-progress-charts.md)
 #### [Track customer service cases](../mobile-app/v8/go-mobile/get-started/track-customer-service-cases.md)

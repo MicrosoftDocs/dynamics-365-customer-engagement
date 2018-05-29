@@ -2,8 +2,8 @@
 title: "Monthly updates in Voice of the Customer for Dynamics 365 | MicrosoftDocs"
 description: "Learn about what's new in the latest release of Voice of the Customer for Dynamics 365."
 keywords: "what's new in voice of the customer"
-ms.date: 03/31/2018
-ms.service: crm-online
+ms.date: 05/22/2018
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,11 +14,19 @@ ms.author: shjais
 manager: sakudes
 ms.reviewer: 
 topic-status: Drafting
+ms.custom:
+  - dyn365-VoC
 ---
 
 # What's new in Voice of the Customer for Dynamics 365
 
 Welcome to Voice of the Customer for [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)]. Here's a list of features we added and updated recently. For more information about the updates that have been made to Voice of the Customer for Dynamics 365 to date, along with additional details about those updates, see [here](https://blogs.msdn.microsoft.com/crm/tag/voice-of-the-customer/).
+
+## Voice of the Customer version 9.0.1162
+
+Following are the new and updated features in this release:
+
+- **Voice of the Customer app**: The Voice of the Customer app provides a new experience in survey designing as well as theme designing. The new survey designer provides a simple and intuitive experience for survey designers to add, remove, and modify survey pages, sections, questions, and answers. When you install Voice of the Customer version 9.0.1162 and higher, the Voice of the Customer app, built on the Unified Interface framework, is created out-of-the-box.
 
 ## Voice of the Customer version 9.0.1113.10
 

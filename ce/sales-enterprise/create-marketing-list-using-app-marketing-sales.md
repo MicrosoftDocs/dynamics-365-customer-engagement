@@ -1,9 +1,10 @@
 ---
 title: "Create a marketing list using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-sales
 ms.date: 08/31/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
@@ -12,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 509b776a-6932-4c87-881a-353782c95beb
 caps.latest.revision: 48
-author: "shubhadaj"
-ms.author: "shujoshi"
-manager: "sakudes"
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ---
 # Create a marketing list using in-app marketing (Sales)
 
@@ -147,7 +148,7 @@ Your marketing list is the core of running a successful marketing campaign. It c
   
   
 ### See also  
- [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   

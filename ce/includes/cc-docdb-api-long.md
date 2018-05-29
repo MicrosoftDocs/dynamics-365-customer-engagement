@@ -1,1 +1,1 @@
-Azure Cosmos DB DocumentDB API
+Azure Cosmos DB SQL API

@@ -2,9 +2,10 @@
 title: "Set authentication identity for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to set authentication identity for a portal."
 keywords: "portal aunthentication"
-ms.date: 03/13/2018
-ms.service: crm-online
-ms.custom: 
+ms.date: 04/12/2018
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 8e985c89-1589-4e65-8b74-28b96217601e
 author: sbmjais
@@ -148,7 +149,7 @@ Changing an email address (or setting it for the first time) puts it into an unc
 
 The two-factor authentication feature increases user account security by requiring proof of ownership of a confirmed email in addition to the standard local or external account sign-in. A user trying to sign in to an account that has two-factor authentication enabled is sent a security code to the confirmed email associated with their account. The security code must be submitted to complete the sign-in process. A user can choose to remember the browser that successfully passed the verification, so that the security code will not be required for subsequent sign-ins from the same browser. Each user account enables this feature individually and requires a confirmed email.
 
-**Related Site Settings:**
+**Related site settings:**
 
 - `Authentication/Registration/TwoFactorEnabled`
 - `Authentication/Registration/RememberBrowserEnabled`
@@ -240,6 +241,28 @@ The following describes the settings that define how and when an account becomes
 | Authentication/UserManager/MaxFailedAccessAttemptsBeforeLockout | The maximum number of access attempts allowed before a user is locked out (if lockout is enabled). Default: 5. For more information: [UserManager<TUser, TKey>.MaxFailedAccessAttemptsBeforeLockout](https://msdn.microsoft.com/library/dn613202.aspx).                                                                        |  
 | Authentication/ApplicationCookie/ExpireTimeSpan                 | The default amount of time cookie authentication sessions are valid for. Default: 24:00:00 (1 day). For more information: [CookieAuthenticationOptions.ExpireTimeSpan](https://msdn.microsoft.com/library/microsoft.owin.security.cookies.cookieauthenticationoptions.expiretimespan(v=vs.113).aspx). |
 ||  
+
+## Cookie authentication site settings
+
+Settings for modifying the default authentication cookie behavior. Defined by the [CookieAuthenticationOptions](https://msdn.microsoft.com/en-us/library/microsoft.owin.security.cookies.cookieauthenticationoptions.aspx) class.
+
+| Site Setting Name   | Description       |
+|----------------------|------------------------------------------------|
+| Authentication/ApplicationCookie/AuthenticationType                      | The type of the application authentication cookie. Default: ApplicationCookie. For more information: [AuthenticationOptions::AuthenticationType](https://msdn.microsoft.com/en-us/library/dn300391.aspx).  |
+| Authentication/ApplicationCookie/CookieName                              | Determines the cookie name used to persist the identity. Default: .AspNet.Cookies. For more information: [CookieAuthenticationOptions::CookieName](https://msdn.microsoft.com/en-us/library/dn385537.aspx).  |
+| Authentication/ApplicationCookie/CookieDomain                            | Determines the domain used to create the cookie. For more information: [CookieAuthenticationOptions::CookieDomain](https://msdn.microsoft.com/en-us/library/dn385536.aspx).  |
+| Authentication/ApplicationCookie/CookiePath                              | Determines the path used to create the cookie. Default: /. For more information: [CookieAuthenticationOptions::CookiePath](https://msdn.microsoft.com/en-us/library/dn385539.aspx). |
+| Authentication/ApplicationCookie/CookieHttpOnly                          | Determines if the browser should allow the cookie to be accessed by client-side javascript. Default: true. For more information: [CookieAuthenticationOptions::CookieHttpOnly](https://msdn.microsoft.com/en-us/library/dn385540.aspx).                     |
+| Authentication/ApplicationCookie/CookieSecure                            | Determines if the cookie should only be transmitted on HTTPS request. Default: SameAsRequest. For more information: [CookieAuthenticationOptions::CookieSecure](https://msdn.microsoft.com/en-us/library/dn385538.aspx).  |
+| Authentication/ApplicationCookie/ExpireTimeSpan                          | Controls how much time the application cookie will remain valid from the point it is created. Default: 14 days. For more information: [CookieAuthenticationOptions::ExpireTimeSpan](https://msdn.microsoft.com/en-us/library/dn385543.aspx).  |
+| Authentication/ApplicationCookie/SlidingExpiration                       | The SlidingExpiration is set to true to instruct the middleware to re-issue a new cookie with a new expiration time any time it processes a request which is more than halfway through the expiration window. Default: true. For more information: [CookieAuthenticationOptions::SlidingExpiration](https://msdn.microsoft.com/en-us/library/dn385548.aspx). |
+| Authentication/ApplicationCookie/LoginPath                               | The LoginPath property informs the middleware that it should change an outgoing 401 Unauthorized status code into a 302 redirection onto the given login path. Default: ~/signin. For more information: [CookieAuthenticationOptions::LoginPath](https://msdn.microsoft.com/en-us/library/dn385541.aspx).                                            |
+| Authentication/ApplicationCookie/LogoutPath                              | If the LogoutPath is provided the middleware then a request to that path will redirect based on the ReturnUrlParameter. For more information: [CookieAuthenticationOptions::LogoutPath](https://msdn.microsoft.com/en-us/library/dn385545.aspx).               |
+| Authentication/ApplicationCookie/ReturnUrlParameter                      | The ReturnUrlParameter determines the name of the query string parameter which is appended by the middleware when a 401 Unauthorized status code is changed to a 302 redirect onto the login path. For more information: [CookieAuthenticationOptions::ReturnUrlParameter](https://msdn.microsoft.com/en-us/library/dn385546.aspx).                           |
+| Authentication/ApplicationCookie/SecurityStampValidator/ValidateInterval | The period of time between security stamp validations. Default: 30 mins. For more information: [SecurityStampValidator::OnValidateIdentity](https://msdn.microsoft.com/en-us/library/microsoft.aspnet.identity.owin.securitystampvalidator.onvalidateidentity.aspx).                    |
+| Authentication/TwoFactorCookie/AuthenticationType                        | The type of the two-factor authentication cookie. Default: TwoFactorCookie. For more information: [AuthenticationOptions::AuthenticationType](https://msdn.microsoft.com/en-us/library/dn300391.aspx).            |
+| Authentication/TwoFactorCookie/ExpireTimeSpan                            | Controls how much time the two-factor cookie will remain valid from the point it is created. Default: 5 mins. For more information: [CookieAuthenticationOptions::ExpireTimeSpan](https://msdn.microsoft.com/en-us/library/dn385543.aspx).     |
+|||
 
 ### See also
 
