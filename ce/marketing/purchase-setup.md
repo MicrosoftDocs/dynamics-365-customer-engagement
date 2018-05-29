@@ -19,6 +19,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+<!--Note to author: Be sure to update the date in the metadata-->
 
 # Run the setup wizard
 

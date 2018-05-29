@@ -19,6 +19,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+<!--Note to author: Please update date in metadata-->
 
 # First time setup FAQ and troubleshooting
 
@@ -30,7 +31,7 @@ Read this topic to find answers to common questions and solutions to known issue
 
 ## Why do I need a new portal, and how can I get one?
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event portals. A free portal app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so usually this won't be an issue, but you can only have one free portal per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant. Some other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps also include a free portal, so you might already have a configure free portal on your tenant. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard will let you know if you need a new portal app.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] requires a dedicated [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals solution for running marketing pages and event portals. A free portal app is included with [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], so usually this won't be an issue, but you can only have one free portal per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant. Some other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] apps also include a free portal, so you might already have a configure-free portal on your tenant. The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard will let you know if you need a new portal app.
 
 If you don't have any unconfigured free or paid portals available, you have two options:
 
@@ -41,7 +42,7 @@ If you are using all your existing portals, then you can purchase a new one for 
 
 To get a new, unconfigured portal app and then use it with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
 
-1. Open your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center and go to **Billing** > **Subscriptions.**
+1. Open your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center and go to **Billing** > **Subscriptions**.
 1. Choose **Buy add-ons** in the tile for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription.
 1. Purchase a new portal using the form provided.  
     > [!IMPORTANT]
@@ -50,7 +51,7 @@ To get a new, unconfigured portal app and then use it with [!INCLUDE[pn-marketin
 
 ## Why do I get an authorization-failed message when I try to run the setup wizard?
 
-In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an _unmanaged_ state, which means, (among other things) that you can't get permission to install third-party solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see the following error message when you run the setup wizard for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
+In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] or [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)], you will receive an organization that is in an _unmanaged_ state, which means (among other things) that you can't get permission to install third-party solutions&mdash;including [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]. As a result, you'll see the following error message when you run the setup wizard for [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)].
 
 ![Unmanaged organization error](media/setup-ts-unmanaged-aad.png "Unmanaged organization error")
 
