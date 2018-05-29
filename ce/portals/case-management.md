@@ -21,8 +21,6 @@ The use of cases will vary depending on your type of organization. Typically, ca
 
 The forms that are displayed on the portal for creating and updating cases can be customized allowing you to control what fields are visible to the user.
 
-The user's ability to create, update, close, and view cases both for themselves can for others within their organization is dependent on their case access permissions.
-
 ## Create cases
 
 1. Sign in to the portal and select **Support**.
@@ -62,5 +60,8 @@ A web portal customer also has the ability to re-open a closed case if they feel
 
 ## Case deflection
 
-Case deflection consists of a mandatory search that users must go through before they can create a new case. The user first types a description of their problem into the search box and clicks the search button. A list of results is then displayed.
+Case deflection consists of a mandatory search that users must go through before they can create a new case. The user first types a description of their problem into the search box and clicks the search button. A list of results is then displayed. The list of results is also displayed when a user enters the case title while creating a new case.
 
+This list includes (can be configured): blog posts, web content (web pages), forum threads, issues, and resolved cases.  Note that only publicly viewable fields of a resolved case are viewable by the public. The user can of course skip reading the search results if they wish, but this search encourages them to make use of existing knowledge resources before resorting to direct support.
+
+![Case deflection](media/case-deflection.png "Case deflection")
