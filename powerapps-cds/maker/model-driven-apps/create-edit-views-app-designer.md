@@ -113,13 +113,13 @@ As you add attributes, you can drag them to any position among existing column h
 You can set filter criteria so that only a subset of the records is displayed in a view. When a user opens the view, only the records that meet the defined filter criteria are displayed. You can select fields from both the primary and related entities to filter on.
 1. In the app designer, expand the **Filter Criteria** section.
    
-    ![Set Filter Criteria](../customize/media/ViewAppDesigner_FilterCriteria.png "Set filter criteria") 
+    ![Set Filter Criteria](media/ViewAppDesigner_FilterCriteria.png "Set filter criteria") 
 
 2. Select **Add Filter**.
 3. Select an attribute from the drop-down list in the first column. 
 4. Select an operator from the drop-down list in the second column.
 
-    ![Set Filter Criteria Operator](../customize/media/ViewAppDesigner_FilterCriteriaOption.png "Set filter criteria operator")
+    ![Set Filter Criteria Operator](media/ViewAppDesigner_FilterCriteriaOption.png "Set filter criteria operator")
 
 5. Enter a value to filter by in the third column.
 
@@ -131,7 +131,7 @@ You can filter data based on the attributes of related entities in addition to t
 
 2. Repeat steps 2 through 5 from the previous procedure.
 
-More information: [Create and edit relationships between entities](../customize/create-edit-entity-relationships.md)
+More information: [Create and edit relationships between entities](create-edit-entity-relationships.md)
 
 ## Group multiple filters
 You can add multiple filters to your view if you want to filter records by using more than one field. 
@@ -177,9 +177,9 @@ When you edit a public or system  view, you must save and publish your changes b
 
 
 ## Community tools
-**View Lyout Replicator** and **View Designer** are tools that XrmToolbox community developed for Dynamics 365 Customer Engagement.
+**View Layout Replicator** and **View Designer** are tools that XrmToolbox community developed for Dynamics 365 Customer Engagement.
 
-More information: [Developer tools](https://review.docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools).
+More information: [Developer tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools).
 
 > [!NOTE]
 > These tools are provided by XrmToolBox and are not supported by Microsoft. If you have questions pertaining to the tool, please contact the publisher. More information: [XrmToolBox](https://www.xrmtoolbox.com/). 
