@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 6e650ebd-c683-465f-a5c6-2d0fea971a87
 caps.latest.revision: 25
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Manage activities in Dynamics 365 for phones and tablets
 
@@ -43,5 +43,5 @@ manager: "brycho"
   
  ![Dynamics 365 for phones and tablets activity feed](../../../media/mobile-activity-feed.png "Dynamics 365 for phones and tablets activity feed")  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

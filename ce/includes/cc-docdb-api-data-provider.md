@@ -1,1 +1,1 @@
-Azure Cosmos DB for DocumentDB API Data Provider
+Azure Cosmos DB for SQL API Data Provider

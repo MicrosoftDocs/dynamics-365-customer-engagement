@@ -1,6 +1,6 @@
 ---
 title: "retrieveMultipleRecords (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 11/10/2017
+ms.date: 05/24/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -52,7 +52,7 @@ manager: "amyla"
 <td>Number</td>
 <td>No</td>
 <td><p>Specify a positive number that indicates the number of entity records to be returned per page. If you do not specify this parameter, the default value is passed as 5000.</p>
-<p>If the number of records being retrieved is more than the specified <b>maxPageSize</b> value, <code>nextLink</code> attribute in the returned promise object will contain a link to retrieve the next set of entities. </td>
+<p>If the number of records being retrieved is more than the specified <code>maxPageSize</code> value, <code>nextLink</code> attribute in the returned promise object will contain a link to retrieve the next set of entities. </td>
 </tr>
 <tr>
 <td>successCallback</td>
@@ -61,7 +61,7 @@ manager: "amyla"
 <td><p>A function to call when entity records are retrived. An object with the following attributes is passed to the function:</p>
 <ul>
 <li><b>entities</b>: An array of JSON objects, where each object represents the retrieved entity record containing attributes and their values as <code>key: value</code> pairs. The Id of the entity record is retrieved by default.</li>
-<li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <b>maxPageSize</b> paramter, this attribute returns the URL to return next set of records.</li>
+<li><b>nextLink</b>: String. If the number of records being retrieved is more than the value specified in the <code>maxPageSize</code> parameter in the request, this attribute returns the URL to return next set of records.</li>
 </ul>
 </td>
 </tr>
@@ -75,7 +75,7 @@ manager: "amyla"
 
 ## Return Value
 
-On success, returns a promise that contains an array of JSON objects (**entities**) containing the retrieved entity records and the **nextLink** attribute (optional) with the URL pointing to next set of records in case paging (**maxPageSize**) is specified and the record count returned exceeds the paging value.
+On success, returns a promise that contains an array of JSON objects (**entities**) containing the retrieved entity records and the **nextLink** attribute (optional) with the URL pointing to next set of records in case paging (`maxPageSize`) is specified in the request, and the record count returned exceeds the paging value.
 
 ## Examples
 
@@ -102,7 +102,7 @@ Xrm.WebApi.retrieveMultipleRecords("account", "?$select=name&$top=3").then(
 
 ### Specify the number of entities to return in a page
 
-The following example demonstrates the use of the **maxPageSize** parameter to specify the number of records (3) to be displayed in a page.
+The following example demonstrates the use of the `maxPageSize` parameter to specify the number of records (3) to be displayed in a page.
 
 ```JavaScript
 Xrm.WebApi.retrieveMultipleRecords("account", "?$select=name", 3).then(

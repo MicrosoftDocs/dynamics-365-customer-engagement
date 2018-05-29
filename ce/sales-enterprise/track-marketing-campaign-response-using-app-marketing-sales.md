@@ -1,9 +1,10 @@
 ---
 title: "Track a marketing campaign response using in-app marketing (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-sales
 ms.date: 08/31/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-sales
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -12,9 +13,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 1bf875ef-5d83-44f6-8b5c-67f7e3286e7c
 caps.latest.revision: 46
-author: "shubhadaj"
-ms.author: "shujoshi"
-manager: "sakudes"
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
 ---
 # Track a marketing campaign response using in-app marketing (Sales)
 
@@ -50,7 +51,7 @@ Record the replies you get from potential customers in response to a specific ma
   
 ### See also  
  [System Settings dialog box - Marketing tab](../admin/system-settings-dialog-box-marketing-tab.md)   
- [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)   
+ [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   

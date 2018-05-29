@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+author: "mduelae"
 ms.assetid: faa87829-895e-4799-a587-c52551a78415
 caps.latest.revision: 12
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Manage work orders, agreements, customer assets, and time off requests in Dynamics 365 for phones and tablets
 
@@ -67,5 +67,5 @@ Field agents can use the mobile app to review work orders and get all the inform
   
 3.  Enter the required information, and  then tap **Save**.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Field Service - User's Guide](../../../../field-service/user-guide.md)

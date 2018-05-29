@@ -35,7 +35,10 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
-      "contributors_to_exclude": [ "buck1ey", "bishalgoswami", "kathleenmcgrath", "marycc", "tinaburden" ]
+      "contributors_to_exclude": [ "buck1ey", "bishalgoswami", "kathleenmcgrath", "marycc", "tinaburden", "almostdunh" ],
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
+      "feedback_product_url": "https://experience.dynamics.com/ideas/"
     },
     "fileMetadata": {
       "breadcrumb_path": {
@@ -65,7 +68,7 @@
         "voice-of-customer/**.*": "bc/toc.yml"
       },
       "searchScope": {
-        "ce/**.*": ["Dynamics 365", "Customer Engagement" ],
+        "**.*": ["Dynamics 365", "Customer Engagement" ],
         "admin/**.*": ["Dynamics 365", "Customer Engagement" ],
         "analytics/**.*": ["Dynamics 365", "Customer Engagement" ],
         "basics/**.*": ["Dynamics 365", "Customer Engagement" ],

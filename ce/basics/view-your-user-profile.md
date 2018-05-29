@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# View your user profile 
+# View your user profile  
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -30,6 +30,8 @@ Your user profile displays useful information about you to your entire organizat
 2.  Scroll down to the very bottom of the **Set Personal Options** dialog box, and then choose **View your user information**.  
   
 3.  To check your security role, on the nav bar, choose the down arrow ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name, and then choose **Security Roles**.  
+
+    ![View user profile](media/view-user-profile.png)
   
 4.  To view other profile information, such as Work Hours, Connections, and Services, on the nav bar, choose the down arrow ![User profile security option More Options button](../basics/media/user-profile-security-option-more-button.gif "User profile security option More Options button") next to your name.  
   

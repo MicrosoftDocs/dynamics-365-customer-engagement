@@ -3,7 +3,7 @@ title: "Route posts using automation rules in Social Engagement | Microsoft Docs
 description: "Learn how to set up automation rules in Social Engagement to automatically handle subsets of incoming posts."
 keywords: "automation rule, automated task"
 ms.date: 01/24/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Route posts using automation rules

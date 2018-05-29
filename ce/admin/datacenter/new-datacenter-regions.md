@@ -23,7 +23,7 @@ ms.author: "jimholtz"
   
 -   For new [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organizations, the datacenter will be aligned with the country/region you selected during sign-up.  
   
--   For existing [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organizations, [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will soon accommodate migrations to datacenters in the new region when requested by the customer as long as the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization meets certain business requirements. The specific requirements are still being finalized and this article will be updated as additional information becomes available.  
+-   For existing [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organizations, [!INCLUDE[cc_Microsoft](../../includes/cc-microsoft.md)] will soon accommodate migrations to datacenters in the new region when requested by the customer as long as the [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] organization meets certain business requirements.  
   
 The following table lists the newest datacenter regions. The [datacenter maps](http://go.microsoft.com/fwlink/p/?LinkId=522460) show all the regions. Or use the interactive data map: [Where is my data?](http://go.microsoft.com/fwlink/p/?LinkID=401277)  
   

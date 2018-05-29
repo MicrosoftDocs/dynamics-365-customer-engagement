@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 39d3726f-5631-45f1-b9b8-6724567da26a
 caps.latest.revision: 26
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Pin your favorites in Dynamics 365 for phones and tablets
 
@@ -38,5 +38,5 @@ manager: "brycho"
   
  ![Dynamics 365 for mobile create communication card](../../../media/mobile-create-comm-card.png "Dynamics 365 for mobile create communication card")  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

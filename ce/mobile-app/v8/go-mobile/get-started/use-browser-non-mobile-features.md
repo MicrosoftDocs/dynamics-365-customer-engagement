@@ -38,5 +38,5 @@ ms.author: "mkaur"
   
 3.  Sign in to the web application when it appears. The web app goes right to the record that you were working on in the mobile app.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

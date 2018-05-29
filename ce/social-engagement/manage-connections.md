@@ -3,7 +3,7 @@ title: "Manage connections in Social Engagement | Microsoft Docs"
 description: "Learn how to get started with connections to other services."
 keywords: "connect, connections, integration, dynamics 365"
 ms.date: 11/16/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Manage connections in Social Engagement

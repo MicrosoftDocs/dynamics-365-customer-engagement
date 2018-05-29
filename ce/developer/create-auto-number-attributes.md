@@ -221,6 +221,9 @@ The **AutoNumberSeed** message has the following parameters:
 |AttributeName|string|The logical name of the attribute you want to set the seed on.|
 |Value|int|Next auto-number value for the attribute.|
 
+> [!NOTE]
+> Setting the seed only changes the **current number value** for the specified attribute in the current environment. It does not imply a common **start value** for the attribute. The seed value is not included in a solution when installed in a different environments. To set the starting number after a solution import, use **SetAutoNumberSeed** message in the target environment.
+
 ### Examples
 The following samples set the seed to 10000 for an auto-number attribute named **new\_SerialNumber** for a custom entity named **new\_Widget**.
 

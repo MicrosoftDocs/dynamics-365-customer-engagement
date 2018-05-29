@@ -8,15 +8,15 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: cba0438d-9095-4dff-9398-7eb3eb1584fd
 caps.latest.revision: 28
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Track customer service cases in Dynamics 365 for phones and tablets
 
@@ -52,6 +52,6 @@ As a Customer Service Manager or Customer Service Rep, use the [!INCLUDE[pn_crm_
   
 3.  Sign in to the web application when it appears. The web app goes right to the case you had open in the mobile app.  
   
-## See Also  
+### See also  
  [Manage activities in Dynamics 365 for phones and tablets](manage-activities.md)   
  [Use Cortana voice commands in Dynamics 365 for phones](use-cortana-voice-commands.md)

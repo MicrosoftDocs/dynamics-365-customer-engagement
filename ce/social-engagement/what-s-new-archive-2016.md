@@ -1,15 +1,21 @@
 ---
 title: "Archive - Social Engagement 2016 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2016."
-ms.date: 09/12/2017
-ms.service: mse
+keywords: ""
+ms.date: 04/10/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: 6bc1005f-f38e-4637-bb1e-fbacd82b3349
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
+topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
+
 # Microsoft Social Engagement 2016 Updates
 
 ## Microsoft Social Engagement 2016 Update 1.12 
@@ -117,7 +123,7 @@ manager: sakudes
  
  To acquire data from [!INCLUDE[tn_instagram](../includes/tn-instagram.md)], you'll need to add at least one [!INCLUDE[tn_instagram](../includes/tn-instagram.md)] profile to your social profiles in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], and then allow data acquisition for that profile. 
  
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](add-rules-search-topic.md#addKeywordsRule), [Add an Instagram rule](add-rules-search-topic.md#instagram_rule), [Manage access tokens](manage-access-tokens.md) 
+ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a keywords rule](add-rules-search-topic.md#addKeywordsRule), [Manage access tokens](manage-access-tokens.md) 
  
 ### Link to Dynamics 365 is now available for Professional licenses 
  We’re excited to announce that all customers using [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in combination with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] can now create [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] entities from a post in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Users with a Professional license can now link a post to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] and trigger a workflow in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. While users with a [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)] Professional license now can create new records in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] from single posts, the automated record creation using automation rules continues to be available for Enterprise licenses only. 

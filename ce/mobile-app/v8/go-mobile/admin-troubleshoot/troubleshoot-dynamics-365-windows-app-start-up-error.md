@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 66361a6d-4cac-40a0-acf4-95669a2ae97b
 caps.latest.revision: 33
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Troubleshoot a Dynamics 365 for Windows app start-up error
 
@@ -38,7 +38,7 @@ Did you receive this error?
 ## If you’re using a Windows phone  
  You received this error because you’re trying to connect to an on-premises deployment of [!INCLUDE[pn_crm_shortest](../../../../includes/pn-crm-shortest.md)], which is  not supported for your version on Windows Phones. Windows Phone connection to [!INCLUDE[pn_crm_2016](../../../../includes/pn-crm-2016.md)] on-premises requires the [Dynamics 365 for Windows app built for Windows 10](http://go.microsoft.com/fwlink/p/?LinkID=799909). [!INCLUDE[proc_more_information](../../../../includes/proc-more-information.md)] [TechNet: Support for Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531131.aspx)  
   
-## See Also  
+### See also  
  [Install Dynamics 365 for phones and tablets](../get-started/install.md)   
  [TechNet: Support for Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531131.aspx)   
  [TechNet: Set up Dynamics 365 for phones and tablets](https://technet.microsoft.com/library/dn531128.aspx)   

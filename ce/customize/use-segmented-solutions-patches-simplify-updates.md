@@ -1,7 +1,8 @@
 ---
-title: "Use segmented solutions and patches to simplify solution updates (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Use segmented solutions and patches to simplify solution updates with PowerApps | MicrosoftDocs"
+description: "Learn how to use solution segmentation to update your solutions"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 04/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,17 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "jimholtz"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 5c05f683-e1bd-4885-be23-b6973128773f
 caps.latest.revision: 15
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Use segmented solutions and patches to export selected entity assets
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-To gain tighter control over what you distribute in solutions and solution patches, use solution segmentation. With solution segmentation, you can export solutions with selected entity assets, such as entity fields, forms, and views, rather than entire entities with all the assets. To create the segmented solutions and patches, you can use the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface, without writing code.  
+To gain tighter control over what you distribute in solutions and solution patches, use solution segmentation. With solution segmentation, you can export solutions with selected entity assets, such as entity fields, forms, and views, rather than entire entities with all the assets. To create the segmented solutions and patches, you can use the solutions user interface, without writing code.  
   
  In addition to having more control over what’s in a solution, you’ll be able to control what goes into a patch. You can create a patch for a parent solution and export it as a minor update to the base solution. When you clone a solution, the system rolls up all related patches into the base solution and creates a new version.  
   
@@ -54,15 +56,15 @@ To gain tighter control over what you distribute in solutions and solution patch
   
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
   
-2.  Click **New** and create a solution. Enter information in the required fields. Click **Save & Close**.  
+2.  Select **New** and create a solution. Enter information in the required fields. Select **Save & Close**.  
   
 3.  Open the solution you just created. In the **Add Existing** drop-down list, select **Entity**.  
   
-4.  In the **Select solution components** dialog box, select one or more entities you want to add to the solution. Click **OK**.  
+4.  In the **Select solution components** dialog box, select one or more entities you want to add to the solution. Select **OK**.  
   
 5.  The wizard opens. Follow the wizard to add assets for each selected entity to the solution.  
   
-6.  Click **Publish** for changes to take effect.  
+6.  Select **Publish** for changes to take effect.  
   
  The following illustrations provide an example of creating a segmented solution by choosing entity assets from the `Account`, `Case`, and `Contact` entities.  
   
@@ -101,13 +103,13 @@ To gain tighter control over what you distribute in solutions and solution patch
   
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
   
-2.  In the grid, select an unmanaged solution to create a patch for. Click **Clone a Patch**. The dialog box that opens contains the base solution’s name and the patch version number. Click **Save**.  
+2.  In the grid, select an unmanaged solution to create a patch for. Select **Clone a Patch**. The dialog box that opens contains the base solution’s name and the patch version number. Select **Save**.  
   
 3.  In the grid, find and open the newly created patch. Just like with the base solution, follow the wizard to add the components and assets you want.  
   
-4.  Click **Publish** for your changes to take effect.  
+4.  Select **Publish** for your changes to take effect.  
   
- The following illustrations provide an example of creating a patch for an existing solution. Start by clicking **Clone a Patch** (in the compressed view, the **Clone a Patch** icon is depicted as two small squares, as shown below).  
+ The following illustrations provide an example of creating a patch for an existing solution. Start by selecting **Clone a Patch** (in the compressed view, the **Clone a Patch** icon is depicted as two small squares, as shown below).  
   
  ![Clone a patch icon.](../customize/media/solution-segmentation-click-patch-icon-admin.png "Clone a patch icon.")  
   
@@ -128,9 +130,9 @@ To gain tighter control over what you distribute in solutions and solution patch
   
 1. [!INCLUDE[proc_settings_solutions](../includes/proc-settings-solutions.md)]  
   
-2.  From the list, select an unmanaged solution you want to clone. Click **Clone Solution**. The dialog box that opens contains the base solution’s name and the new version number. Click **Save**.  
+2.  From the list, select an unmanaged solution you want to clone. Select **Clone Solution**. The dialog box that opens contains the base solution’s name and the new version number. Select **Save**.  
   
-3.  Click **Publish** for your changes to take effect.  
+3.  Select **Publish** for your changes to take effect.  
   
  Continuing on with the example, you see the **Clone to Solution** dialog box that shows the new solution version number.  
   

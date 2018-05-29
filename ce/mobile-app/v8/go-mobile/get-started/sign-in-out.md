@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 662aaa8c-f56b-4f74-88ff-c21aba808315
 caps.latest.revision: 40
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Signing in and signing out on Dynamics 365 for phones and tablets
 
@@ -45,5 +45,5 @@ manager: "brycho"
   
  You can sign in again as the same or a different user, or you can sign in to a different organization.  
   
-## See Also  
+### See also  
  [Dynamics 365 for Phones and Tablets User's Guide](../../../dynamics-365-phones-tablets-users-guide.md)

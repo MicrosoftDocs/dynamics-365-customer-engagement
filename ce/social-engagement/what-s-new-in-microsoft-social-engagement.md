@@ -2,8 +2,8 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 03/07/2018
-ms.service: mse
+ms.date: 05/08/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -11,7 +11,8 @@ ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
@@ -23,6 +24,29 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
+
+### Attachments in private messages now show in the post list
+
+Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
+
+### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
+
+The integration of Social Insights in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and inherit several settings from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
+The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
+
+### See which Facebook page a post is coming from and reply consistently
+
+The post list in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] now shows on which [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page each post and comment was posted. Engaging on your [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page is now easier because the social profile matching this page will already be selected when you write a reply. 
+
+### Instagram account rules are no longer possible
+
+Due to changes on the [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] API, we are experiencing a downgrade on data acquisition for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. We are currently receiving lower volumes of [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] posts for hashtag search rules, and no comments to [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] posts at all. Additionally, we are not receiving posts or comments for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] account search rules. At this time, the search rules only return partial author information.
+
+Existing search rules for [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] accounts don't return results anymore. Keyword search rules with [!INCLUDE[tn-instagram](../includes/tn-instagram.md)] hashtags continue to work as expected.
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.3
 
@@ -74,7 +98,8 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 ### Changes for author information from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages
 
-Starting February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updates its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, will continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page before this change on February 6.    
+As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.   
+
 [Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements
