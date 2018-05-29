@@ -59,6 +59,8 @@ The editor toolbar has a number of buttons to help with content editing. Move th
 |Background Color |Changes the background color of the selected text as well as newly typed text. |
 | | |
 
+> [!NOTE]
+> When in full screen mode, the **Save** button will not be available. To save the changes, select **Minimize** to return to the regular mode where the buttons are available.
 
 ## Create a link
 
