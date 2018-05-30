@@ -20,10 +20,10 @@ ms.custom:
 Microsoft is committed to making its products and services easier for everyone. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)  
   
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement apps 
- [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  More information: [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts)
+ [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  More information: [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
   
 ## Using a screen reader in Unified Interface apps
-Screen readers make Dynamics 365 Customer Engagement applications accessible to people who have low or no vision. Unified Interface apps in Dynamics 365 enable a more consistent screen reader experience. More information: [Using a screen reader with Unified Interface apps](../basics/screen-reader)
+Screen readers make Dynamics 365 Customer Engagement applications accessible to people who have low or no vision. Unified Interface apps in Dynamics 365 enable a more consistent screen reader experience. More information: [Using a screen reader with Unified Interface apps](../basics/screen-reader.md)
 
 ## Accessibility info for browsers  
  For accessibility information about your browser, visit the following websites:  
