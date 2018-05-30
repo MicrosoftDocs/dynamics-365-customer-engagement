@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 04/12/2018
+ms.date: 05/08/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -11,7 +11,6 @@ ms.assetid: e8941c81-866f-4363-8ca1-fc035f9a3844
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ms.custom:
   - dyn365-socialengagement
 ---
@@ -25,6 +24,12 @@ If you're new to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-
 For a detailed list of improvements and bug fixes for the latest release, see our [blog](https://blogs.msdn.microsoft.com/crm/tag/social-engagement-kb-articles/).
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
+
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
+
+### Attachments in private messages now show in the post list
+
+Social Engagement now shows attached images and videos in private messages on Facebook and direct messages on Twitter directly in the post list. To see the attachments, open the post details of a direct message that contains attachments. 
 
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.4
 
@@ -93,7 +98,8 @@ With an administrator configuration role in [!INCLUDE[pn_netbreeze_short](../inc
 
 ### Changes for author information from [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages
 
-Starting February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updates its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts will only be available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, will continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page before this change on February 6.    
+As of February 6, 2018, [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] updated its API to pull data for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] pages. After that date, author information for [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] posts is only available for pages that have been added as a social profile to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution. The content of posts and comments, as well as enrichments such as sentiment, continue to be available for posts and comments without author information. We recommend you add page access tokens for every [!INCLUDE[tn-facebook](../includes/tn-facebook.md)] page as a result of this change.   
+
 [Read more about the experience for Facebook Pages in Social Engagement.](facebook-pages-data-acquisition.md)
 
 ### Service and product improvements

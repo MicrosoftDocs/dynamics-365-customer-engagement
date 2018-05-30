@@ -1,6 +1,7 @@
 ---
 title: "Manage storage for Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+ms.custom: 
+  - dyn365-deflc
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"

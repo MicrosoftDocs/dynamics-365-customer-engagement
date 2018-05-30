@@ -41,6 +41,5 @@ For accessibility information about your browser, visit the following websites:
  If you’re using the high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], you should also select **Enable high contrast** in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] personal options. On your dashboard, click or tap ![Gear button](../basics/media/selection-rule-gear-button.gif "Gear button") **>** **Options**. Click or tap the **General** tab, click or tap **Enable high contrast**, and then click or tap **OK**.  
 
 ### See also  
-
  [Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility)<br/>
  [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)

@@ -17,6 +17,7 @@ manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
+caps.latest.revision: 51
 topic-status: Drafting
 ---
 
@@ -74,7 +75,6 @@ Make your marketing campaigns successful by creating, distributing, and assignin
     > [!NOTE]
     > 1.  You can only distribute campaign activities of type "mail merge" to marketing lists that contain the same type of record. For example, if one marketing list contains accounts and a second marketing list contains leads, the mail merge campaign activity will fail. Create a separate mail merge campaign activity for each group of marketing lists with the same record type. 
     > 2.  When you distribute a campaign activity or run a quick campaign, and if a contact, account, or lead in the target audience (typically specified in a marketing list) doesn't have data in the Email, Fax, Address, or Primary Phone fields, respective activities like Email, Phone, Letter, and Fax won't be created for that contact, account or lead. 
-    > 3. You can add a campaign activity to a campaign as well as a campaign template. However, only non-template campaigns allow distributing campaign activities to the marketing list contacts associated with the campaign.
   
 9. After all the distributed activities are closed, you can close the campaign activity. To close the campaign activity, open the campaign activity record, and on the command bar, click **Close Campaign Activity**. Set an appropriate status for the activity, and click **OK**.  
   

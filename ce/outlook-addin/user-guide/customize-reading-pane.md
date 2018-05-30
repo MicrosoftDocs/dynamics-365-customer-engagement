@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
 ms.assetid: 45fe5705-b32c-4b8c-a81d-659bd987b02c
 caps.latest.revision: 13
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Customize the Reading Pane in Dynamics 365 for Outlook
 When you use [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-full.md)], you can choose the sections in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that are displayed in the Reading Pane so that you don't have to open the record to see the details.  
