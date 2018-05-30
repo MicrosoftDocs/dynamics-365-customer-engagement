@@ -62,6 +62,10 @@ A web portal customer also has the ability to re-open a closed case if they feel
 
 Case deflection consists of a mandatory search that users must go through before they can create a new case. The user first types a description of their problem into the search box and clicks the search button. A list of results is then displayed. The list of results is also displayed when a user enters the case title while creating a new case.
 
+![Case deflection](media/case-deflection.png "Case deflection")
+
 This list includes (can be configured): blog posts, web content (web pages), forum threads, issues, and resolved cases.  Note that only publicly viewable fields of a resolved case are viewable by the public. The user can of course skip reading the search results if they wish, but this search encourages them to make use of existing knowledge resources before resorting to direct support.
 
-![Case deflection](media/case-deflection.png "Case deflection")
+### Turn off case deflection
+
+To turn off case deflection, you must [create a site setting](configure-site-settings.md) named HelpDesk/CaseDeflection/Enabled and set its value to "false".

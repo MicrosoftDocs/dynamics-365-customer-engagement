@@ -16,7 +16,7 @@ manager: sakudes
 # Crowdsource ideas
 Learn how to manage Forum Ideas, Idea Comments, and Idea Votes.
 
-## Manage idea forums in [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
+## Manage idea forums in Dynamics 365
 
 [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users can manage Idea Forum records under the Community tab, provided the portal customizations have been imported into your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization.
 
