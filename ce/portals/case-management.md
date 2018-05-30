@@ -37,18 +37,14 @@ The forms that are displayed on the portal for creating and updating cases can b
 
 5. Select **Submit**.
 
+## Add case notes
 
-## Add comment to a case
+Case notes are brief items of information added to a case record. A case note can be viewed by all users who have access to the case record. Web portal customers can use notes to submit comments or ideas, or to share information with the support team that is working on their case. 
 
-Comments are brief items of information added to a case record. A case comment can be viewed by all users who have access to the case record. Web portal customers can use comments to submit notes or ideas, or to share information with the support team that is working on their case. 
+Web portal customers can easily add case notes, and then select **Update** to include that information in the case record. These notes can optionally include attachments - useful info for resolving the case at hand.
 
-1. Open the case to which you need to add a comment.
-
-2. Select **Add Comment**. The Add a Comment dialog box appears.
-
-3. Enter your comment, and if required, attach a file.
-
-4. Select **Submit**.
+> [!NOTE]
+> Any case notes that are entered by a Microsoft Dynamics CRM user directly through the Microsoft Dynamics CRM record will only be displayed to a web portal customer if the \*WEB\* keyword is somewhere in the case note body.
 
 ## Close or cancel a case 
 
