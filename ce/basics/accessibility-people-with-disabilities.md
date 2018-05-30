@@ -43,5 +43,5 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 
 ### See also  
 
- [Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
+ [Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility)<br/>
  [Microsoft Accessibility](http://www.microsoft.com/enable/default.aspx)
