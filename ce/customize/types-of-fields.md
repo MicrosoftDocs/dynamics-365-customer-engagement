@@ -1,17 +1,19 @@
 ---
-title: "Types of fields and field data types (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "Types of fields and field data types in PowerApps | MicrosoftDocs"
+description: "Understand the different field and data types available for your app"
 keywords: ""
-ms.date: 10/30/2017
+ms.date: 04/25/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
-ms.author: udag
-manager: sakudes
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -21,11 +23,11 @@ topic-status: Drafting
 
 # Types of fields and field data types
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_TypesOfFields"></a>   
 ## Types of fields  
- The following table contains information about the field types available in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+ The following table contains information about the field types available in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)].  
   
 |Field type|Description|Available field data type|  
 |----------------|-----------------|-------------------------------|  
@@ -42,8 +44,8 @@ topic-status: Drafting
 |**Option Set**|This field provides a set of options. Each option has a number value and label. When added to a form, this field displays a control for users to select only one option. When this field is displayed in **Advanced Find**, users can use a picklist control to select multiple options to include in their search criteria. <br /> You can define a single, global option set and configure **MultiSelect Option Set** fields to use that single set of options. More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)|
 |**MultiSelect Option Set**|This field provides a set of options, where multiple options can be selected. When added to a form, this field uses a control for users to select multiple options. When this field is displayed in **Advanced Find**, users can select multiple options from the list to include in their search criteria. <br> You can define a single global option set and configure **MultiSelect Option Set** fields to use that single set of options. More information: [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing global option sets](../customize/create-edit-global-option-sets.md)|
 |**Two Options**|This field provides two options. Each option has a number value of 0 or 1 corresponding to a false or true value. Each option also has a label so that true or false values can be represented as “Yes” and “No”, “Hot” and “Cold”, “On” and “Off” or any pair of labels you want to display.<br /><br /> Two option fields don’t provide format options at the field level. But when you add one to the form you can choose to display them as radio buttons, a check box, or a select list.|  
-|**Status**|A system field that has options that generally correspond to active and inactive status. Some system attributes have additional options, but all custom attributes have only **Active** and **Inactive** status options. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) --> <br /><br /> You can also include custom state transitions to control which status options are available for certain entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define status reason transitions](../customize/define-status-reason-transitions.md)|  
-|**Status Reason**|A system field that has options that provide additional detail about the Status field. Each option is associated with one of the available Status options. You can add and edit the options. <!-- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Default Status and Status Reason values](../customize/default-status-and-status-reason-values.md) -->|  
+|**Status**|A system field that has options that generally correspond to active and inactive status. Some system attributes have additional options, but all custom attributes have only **Active** and **Inactive** status options. <br /><br /> You can also include custom state transitions to control which status options are available for certain entities. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define status reason transitions](../customize/define-status-reason-transitions.md)|  
+|**Status Reason**|A system field that has options that provide additional detail about the Status field. Each option is associated with one of the available Status options. You can add and edit the options. |  
 |**Whole Number**|Integers with a value between -2,147,483,648 and 2,147,483,647 can be in this field. You can restrict the maximum or minimum values in this range. This field has format options **None**, **Duration**, **Time Zone**, and **Language** that change depending on how the field is presented. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Whole number format options](../customize/types-of-fields.md#BKMK_WholeNummberFormatOptions)|  
 |**Floating Point Number**|Up to 5 decimal points of precision can be used for values between -100,000,000,000 and -100,000,000,000 can be in this field. You can specify the level of precision and the maximum and minimum values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using the right type of number](../customize/types-of-fields.md#BKMK_UsingTheRightTypeOfNumber)|  
 |**Decimal Number**|Up to 10 decimal points of precision can be used for values between -100,000,000,000 and -100,000,000,000 can be in this field. You can specify the level of precision and the maximum and minimum values. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Using the right type of number](../customize/types-of-fields.md#BKMK_UsingTheRightTypeOfNumber)|  
@@ -88,7 +90,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 > [!NOTE]
 >  This feature was introduced in [!INCLUDE[pn_crm_8_1_0_op](../includes/pn-crm-8-1-0-op.md)] and [!INCLUDE[pn_crm_8_1_0_online](../includes/pn-crm-8-1-0-online.md)].  
   
- In previous releases, several out-of-the-box entities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
+ In previous releases of Dynamics 365 customer engagement, several out-of-the-box entities such as the Case, Lead, and Opportunity entities, included a special kind of lookup field that represented a customer. Using this lookup field you could choose between two entities: Account or Contact. With this new capability, you can add the Customer field to any system or custom entity. You can use the Customer field in more entities to  track the customer's information  in the same way you've used the Customer field in the Case, Lead, and Opportunity entities.  
   
  Let's look at the following business scenario. Your company is an insurance provider. You use [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to manage your customer interactions and standardize business processes. It’s important for you to know if a recipient of policies or claims is an individual or a company. To address this business requirement, you can create two custom entities: Policies and Claims.  To get and track the customer information you want, add the Customer lookup field to the Policies entity and the Claims entity, by using the new Customer field capability.  
   
@@ -175,7 +177,7 @@ More information: [!INCLUDE[proc_more_information](../includes/proc-more-informa
 |Publisher *|Queue|Resource *|  
 |Sales Literature|Territory|User*|  
   
- Even though an entity has an image field, displaying that image in the application requires an additional step. In the entity definition the **Primary Image** field values are either **[None]** or **Entity Image**. Click **Entity Image** to display the image in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing entities](../customize/create-edit-entities.md)  
+ Even though an entity has an image field, displaying that image in the application requires an additional step. In the entity definition the **Primary Image** field values are either **[None]** or **Entity Image**. Select **Entity Image** to display the image in the application. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Creating and editing entities](../customize/create-edit-entities.md)  
   
  When image display is enabled for an entity, any records that don’t have an image will display a placeholder image. For example, the Lead entity:  
   

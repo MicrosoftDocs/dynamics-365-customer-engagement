@@ -1,25 +1,27 @@
 ---
 title: "Onboard your organization and users to Dynamics 365 (online) | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 10/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 41b89fd8-bfaf-40bb-8428-2013b5271230
+author: jimholtz
+ms.author: jimholtz
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 30
-author: "jimholtz"
-ms.author: "jimholtz"
+topic-status: Drafting
 ---
+
 # Onboard your organization and users
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
-
-<!-- Bryce suggests killing this topic -->
 
 New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]? We've put together step-by-step guidance whether you’re still evaluating [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], ready to make a purchase, or ready to onboard your organization and users.  
   
@@ -63,7 +65,7 @@ New to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]
   
 <a name="VL"></a>   
 ### Buy through volume licensing  
- If your organization has 250 or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users, you may be interested in [purchasing a Dynamics 365 enterprise licensing agreement](https://www.microsoft.com/licensing/default.aspx).  
+ If your organization has 250 or more [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users, you may be interested in [purchasing a Dynamics 365 enterprise licensing agreement](https://www.microsoft.com/licensing).  
   
 <a name="Partner"></a>   
 ### Buy through a cloud solution provider  
@@ -153,8 +155,6 @@ For more advanced scenarios, consider the following development tools: [Solution
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]
   
 -   [Manage storage for Dynamics 365 (online)](manage-storage.md)  
-  
--   [Understanding storage and storage notifications](https://blogs.msdn.microsoft.com/crm/2013/07/24/understanding-storage-and-storage-notifications-in-microsoft-dynamics-crm-online/)  
   
 <a name="Sandbox"></a>   
 ### Create a sandbox (non-production instance)  
@@ -305,9 +305,6 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Deliver web engagement experience with portal capabilities for [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]](../portals/administer-manage-portal-dynamics-365.md)  
   
-#### Customer Insights Service  
- [!INCLUDE[pn_customerinsight_full](../includes/pn-customer-insights-full.md)] is a cloud-based SaaS service that enables organizations of all sizes to bring together data from multiple sources and generate knowledge and insights to build a holistic 360° view of their customers. Use [!INCLUDE[pn_customerinsight_short](../includes/pn-customer-insights-short.md)] to connect to transactional data sources and model profiles of customers and their interactions. The [!INCLUDE[pn_customerinsight_short](../includes/pn-customer-insights-short.md)] application transforms profile, interaction, and KPI’s into rich visuals that you can customize and organize to focus on what matters to you. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Customer Insights service](http://go.microsoft.com/fwlink/p/?LinkId=824625)  
-  
 #### Dynamics 365 - Gamification  
  [!INCLUDE[pn_gamification](../includes/pn-gamification.md)] allows employees to participate in individual and team-based games which motivate employees to achieve certain pre-defined metrics by offering prizes, awards, privileges, and recognition. The gamification solution relies on fun, engaging activities that drive collaboration and competition to increase performance and participation. The solution uniquely encourages broader participation by getting more employees in the game through drafting teams. Organizations typically see increased productivity, engagement, and performance as well as user adoption of business applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Keep your employees engaged and productive by using Gamification](../gamification/increase-employee-productivity.md)
   
@@ -316,7 +313,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 <a name="Preview"></a>   
 ### Preview features in Dynamics 365 (online)  
- Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Find out what preview features are currently being offered: [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md)  
+ Preview features are features that aren’t complete, but are made available on a “preview” basis so customers can get early access and provide feedback. Find out what preview features are currently being offered: [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md)  
   
 <a name="Maintenance"></a>   
 ### On-going monitoring, maintenance, and administration  
@@ -334,7 +331,7 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [What's new](https://docs.microsoft.com/dynamics365/get-started/whats-new/index)  
     
--   [Dynamics 365 - Online vs on-premises features FAQ](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/dynamics-365-online-vs-on-premises-features-faq.md)  
+-   [Dynamics 365 - Online vs on-premises features](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/online-only-features)  
   
 <a name="Troubleshoot"></a>   
 ### Troubleshooting, FAQ, and support  
@@ -388,13 +385,11 @@ To do advanced customizations, we recommend you work with a partner. [Find a par
   
 -   [Dynamics 365 for Project Service Automation - User's Guide](../project-service/admin-guide.md)
   
--   [Dynamics 365 for Finance and Operations, Enterprise edition](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
+-   [Dynamics 365 for Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/index)  
   
 -   [Customer Service hub – User’s guide](../customer-service/user-guide-customer-service.md)
   
 -   [Watch videos on YouTube](https://go.microsoft.com/fwlink/p/?linkid=825366)  
-  
- <!--We also provide a training & Adoption Kit that includes eBooks you can download and customize for your business needs. For example, add your company’s brand and create your own customized training. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Training & Adoption Kit for Dynamics 365](training%20&%20Adoption%20Kit%20for%20Microsoft%20Dynamics%20365.md)  -->
   
 <a name="InstallMoCA"></a>   
 ### Install Dynamics 365 for phones or Dynamics 365 for tablets  

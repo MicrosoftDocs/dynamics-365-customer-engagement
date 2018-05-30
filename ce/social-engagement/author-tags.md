@@ -2,8 +2,8 @@
 title: "Author tags in Social Engagement | Microsoft Docs"
 description: "Add, change, and remove author tags from authors in Social Engagement"
 keywords: "author tags, tags"
-ms.date: 12/19/2017
-ms.service: mse
+ms.date: 04/11/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Manage author tags
@@ -23,6 +25,10 @@ Every user can add or remove author tags when working with an author's details. 
 > To review all authors that have a certain tag added, go to **Social Engagement** > **Analytics** > **Overview** and apply an **Author Tags** [filter](use-filters.md). You’ll find the 100 most active authors with this tag in the **Authors** widget when you expand it to the full view. 
 
 ![Author details with highlighted buttons to add and remove an author tag](media/author-tags-in-author-details.png "Author details with highlighted buttons to add and remove an author tag")
+
+## View author tags
+
+To see the author tags added to a specific author, you need to open the **[Author Details](author-details.md)**. 
 
 ## Add or create author tags
 
@@ -43,11 +49,11 @@ If a tag is no longer accurate, you can remove it from the author.
 
 ## Change author tags
 
-To edit the author tags that were assigned to an author, you can either [add](#add-or-create-author-tags) more author tags (up to 20 per author), or [remove](#remove-author-tags) those which don’t match anymore. 
+To edit the author tags that were assigned to an author, you can either [add](#add-or-create-author-tags) more author tags (up to 20 per author), or [remove](#remove-author-tags) those that don’t match anymore. 
 
 ## Export author tags data
 
-If you want to extract the author tags that were added to a specific author, you can copy the labels of the tags and paste it into a document.
+If you want to extract the author tags that were added to a specific author, you can copy the labels of the tags and paste them into a document.
 
 ### See also
 

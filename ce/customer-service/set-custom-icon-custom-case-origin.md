@@ -1,20 +1,21 @@
 ---
-title: "Set custom icon for custom Case Origin field (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Set custom icon for custom Case Origin field (Dynamics 365 Customer Engagement) | MicrosoftDocs
+description: Know how to set custom icon for custom Case Origin field in Dynamics 365 Customer Engagement
+keywords: Custom Case Origin field; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: shellyha
+ms.date: 09/30/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.assetid: 273e5ff6-7cf4-4b4b-852a-8219ae98da17
-caps.latest.revision: 7
-ms.author: "rdubois"
-manager: "brycho"
+ms.custom:
+  - dyn365-customerservice
 ---
+
 # Set the custom icon in views for Case Origin field
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -48,13 +49,13 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] you can set a cus
   
  [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create and edit web resources](../customize/create-edit-web-resources.md)  
   
-     For example, for a custom option with a value of 100,000,000 create a web resource with the name new_Incident_origincode_icon100000000.png.  
+   For example, for a custom option with a value of 100,000,000 create a web resource with the name new_Incident_origincode_icon100000000.png.  
   
-    > [!IMPORTANT]
+  > [!IMPORTANT]
     >  Do not include commas in the name of the web resource.   
     > The solution publisher customization prefix is prepended to the name of the web resource and this value must be ‘new’.  
   
-     Use the **Upload File** button in the web resource form to upload the icon file you created.  
+   Use the **Upload File** button in the web resource form to upload the icon file you created.  
   
 5.  Save and publish your web resource.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Behavior and format of the Date and Time field (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Behavior and format of the Date and Time field in PowerApps | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 04/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,16 +10,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 73d691c7-344e-4c96-8979-c661c290bf81
 caps.latest.revision: 47
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Behavior and format of the Date and Time field
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign or the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose several different field behaviors: **User Local**, **Date Only** or **Time-Zone Independent**.  
+In [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], the Date and Time data type is used in many system entity fields. For example, you can show when an account was last used in a marketing campaign or the date and time when a case was escalated. You can also create custom entities that include the date and time fields. Depending on what the field represents, you can choose several different field behaviors: **User Local**, **Date Only** or **Time-Zone Independent**.  
   
 <a name="Behavior"></a>   
 ## Date and time field behavior and format  
@@ -32,7 +34,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], the Date and Tim
 |**Time-Zone Independent**<br /><br /> -   The concept of a time zone isn’t applicable to this behavior. The field values are displayed without the time zone conversion.<br />-   The date and time values are stored and retrieved as specified in the UI and Web services (SDK).|**Date Only** - or - **Date and Time**|The **Time-Zone Independent** behavior can’t be changed to other behavior types, once it’s set.|  
   
 > [!NOTE]
->  To create a DateTime field and specify a particular behavior, go to **Settings** > **Customizations** > **Customize the System** > **Components** > **Entities**.  Choose the entity you want and choose **Fields**. In the field’s definition, choose **Date and Time** in the **Type** drop-down list.  
+>  To create a DateTime field and specify a particular behavior, in solution explorer go to **Components** > **Entities**.  Choose the entity you want and choose **Fields**. In the field’s definition, choose **Date and Time** in the **Type** drop-down list.  
   
 <a name="ManagedProperty"></a>   
 ## Set managed property to change date and time behavior  
@@ -43,27 +45,25 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], the Date and Tim
   
  To set the managed property, do the following:  
   
-- [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
-  
--   Choose **Customize the System** > **Components** > **Entities** and then choose a particular entity and then choose **Fields**. Choose a field. On the command bar, choose **More Actions** and in the drop-down list, choose **Managed Properties**.  
+-   Open solution explorer, go to **Components** > **Entities** and then choose a particular entity and then choose **Fields**. Choose a field. On the command bar, choose **More Actions** and in the drop-down list, choose **Managed Properties**.  
   
 -   In the **Set Managed Properties** dialog box, choose the **Can change date and time behavior** property and choose **True** or **False**. Choose **Set** to save the settings.  
   
  The following screenshot shows the date and time manager property.  
   
- ![Set managed property for Date&#47;Time field](../customize/media/datetime-set-managed-property.PNG "Set managed property for Date/Time field")  
+ ![Set managed property for Date/Time field](../customize/media/datetime-set-managed-property.PNG "Set managed property for Date/Time field")  
   
 <a name="DateOnly"></a>   
 ## Date Only example: birthdays and anniversaries  
- The Date Only behavior is good for cases when information about the time of the day and the time zone isn’t required, such as birthdays or anniversaries. With this selection, all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users around the world see the exact same date value.  
+ The Date Only behavior is good for cases when information about the time of the day and the time zone isn’t required, such as birthdays or anniversaries. With this selection, all app users around the world see the exact same date value.  
   
- For example, Kevin and Nancy work in the Contoso Corp sales department. [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] stores their customer and sales data. Kevin, based in New York (GMT-5), creates the contact record with the birthdate 4/1/1970, and assigns the record to Nancy. Nancy, based in Seattle (GMT-8), opens the record on March 31st and, because there is no time zone conversion to her local time zone, sees the contact’s correct birthdate as 4/1/1970. All other users of the system, regardless of location, see the birthdate as 4/1/1970 when they open the contact’s record  
+ For example, Kevin and Nancy work in the Contoso Corp sales department. The system stores their customer and sales data. Kevin, based in New York (GMT-5), creates the contact record with the birthdate 4/1/1970, and assigns the record to Nancy. Nancy, based in Seattle (GMT-8), opens the record on March 31st and, because there is no time zone conversion to her local time zone, sees the contact’s correct birthdate as 4/1/1970. All other users of the system, regardless of location, see the birthdate as 4/1/1970 when they open the contact’s record  
   
 <a name="TZI"></a>   
 ## Time-Zone Independent example: hotel check-in  
- You can use this behavior when time zone information isn’t required, such as the hotel check-in time. With this selection, all [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] users around the world see the same date and time value.  
+ You can use this behavior when time zone information isn’t required, such as the hotel check-in time. With this selection, all app users around the world see the same date and time value.  
   
- For example, Lisa and Rebecca work for a hotel chain that uses [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] to track reservations. Lisa is based in Seattle (GMT-8). Rebecca is based in New York (GMT-5). A customer calls Lisa to book a room in one of the company’s hotels in New York City.  Lisa creates a new reservation record, sets the expected check-in time to 12/10/2014 at 11:00 AM, and saves the record. The customer arrives at the hotel in New York City at the expected time. Rebecca, at the local hotel’s front desk, views the reservation record and sees the expected check-in time as 12/10/2014 at 11:00 AM. She welcomes the customer to the hotel.  
+ For example, Lisa and Rebecca work for a hotel chain that uses the app to track reservations. Lisa is based in Seattle (GMT-8). Rebecca is based in New York (GMT-5). A customer calls Lisa to book a room in one of the company’s hotels in New York City.  Lisa creates a new reservation record, sets the expected check-in time to 12/10/2014 at 11:00 AM, and saves the record. The customer arrives at the hotel in New York City at the expected time. Rebecca, at the local hotel’s front desk, views the reservation record and sees the expected check-in time as 12/10/2014 at 11:00 AM. She welcomes the customer to the hotel.  
   
 <a name="SpecialConsiderations"></a>   
 ## Special considerations for date and time fields  
@@ -72,7 +72,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], the Date and Tim
  The date and time fields support values as early as 1/1/1753 12:00 AM.  
   
 ### Ensuring calculated and rollup fields are valid after changing the field’s behavior  
- After changing the behavior of a calculated field or a rollup field, save the field definition to ensure the field is still valid. To save, use the field editor. Choose **Settings** > **Customization** > **Customize the System** > **Components** > **Entities** > **Entity X** > **Fields**. On the field’s form, choose the **Edit** button next to the **Field Type** drop-down list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define calculated fields](../customize/define-calculated-fields.md) and [Define rollup fields](../customize/define-rollup-fields.md).  
+ After changing the behavior of a calculated field or a rollup field, save the field definition to ensure the field is still valid. To save, use the field editor. In solution explorer go to **Components** > **Entities** > **Entity X** > **Fields**. On the field’s form, choose the **Edit** button next to the **Field Type** drop-down list. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define calculated fields](../customize/define-calculated-fields.md) and [Define rollup fields](../customize/define-rollup-fields.md).  
   
 <a name="ChangeBehavior"></a>   
 ### Changing the field behavior to Date Only on update  

@@ -2,8 +2,8 @@
 title: "Learn about what's new in Microsoft Dynamics 365 - Gamification and the issues addressed by the team. | Microsoft Docs"
 description: "Learn about new features, improved capabilities, fixed issues in Dynamics 365 - Gamification."
 keywords: "what's new, release notes, fixed issues, dynamics 365 gamification"
-ms.date: 10/12/2017
-ms.service: gamification
+ms.date: 04/25/2018
+ms.service: dynamics-365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # What's new in Dynamics 365 - Gamification
@@ -21,6 +23,53 @@ Welcome to [!INCLUDE[pn_gamification](../includes/pn-gamification.md)]. Here's a
 If you are new to [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)], see [Keep your employees engaged and productive by using Gamification](increase-employee-productivity.md).
 
 The two core components of [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] are the solution, which is [installed from AppSource](https://go.microsoft.com/fwlink/p/?linkid=830919) and integrated in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-2016-shortest.md)], and [the web portal](https://go.microsoft.com/fwlink/p/?linkid=830344), where all the fun happens.
+
+## Update 2018.4.17 
+
+### Resolved issues
+
+- Users in child business units now get promoted to Game Managers when they get the Game Manager role assigned in [!INCLUDE[pn-crm-online-shortest](../includes/pn-crm-online-shortest.md)].
+
+## Update 2018.3.29
+
+### New and improved features
+
+- The [Terms and Usage](https://go.microsoft.com/fwlink/?linkid=870920) has been modified. 
+
+### Resolved issues
+
+- Narrator now reads out the page name and application name correctly when keyboard focus shifts to **Settings** tab of window.
+
+
+## Update 2018.2.11
+
+### New or improved features
+
+- The shortcut to help articles is now accessible when using a keyboard for navigation.
+
+- Images throughout the solution and web portal now have proper alt text.
+
+- Additional information about certain fields and controls are now accessible when using a keyboard for navigation.
+
+- Screen readers now read the label of a checkbox when selected.
+
+#### Solution
+
+- Newly assigned Game Manager roles in Dynamics 365 now [sync automatically](understand-security-roles.md#available-security-roles) with the Gamification web portal. Administrators don't need to manually trigger an update of the user data after updating the solution to at least version 2018.2.11.
+
+## Update 2018.2.9
+
+### Resolved issues
+
+- Screen readers now read labels of radio buttons and checkboxes when configuring KPIs in a Unified Interface app. 
+
+- Screen readers now treat navigation elements consistently in all web applications.
+
+- Buttons in Gamification settings can no longer be selected when they're disabled.
+
+- Drop-down menus on the KPI form in Unified Interface apps now show proper values to choose from.
+
+- To avoid server timeout, the user synchronization workflow now has more time to complete. 
 
 ## Update 2017.10
 

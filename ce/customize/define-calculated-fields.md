@@ -1,7 +1,8 @@
 ---
-title: "Define calculated fields (Dynamics 365 Customer Engagement)| MicrosoftDocs"
+title: "Define calculated fields in PowerApps | MicrosoftDocs"
+description: "Learn how to define calculated fields"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/06/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,16 +11,18 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 6d58a297-2ddf-4236-be3a-47249b49d5fa
 caps.latest.revision: 67
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Define calculated fields to automate manual calculations
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *calculated* fields let you automate manual calculations used in your business processes. For example, a salesperson may want to know the weighted revenue for an opportunity which is based on the estimated revenue from an opportunity multiplied by the probability. Or, they want to automatically apply a discount, if an order is greater than $500. A calculated field can contain values resulting from simple math operations, or conditional operations, such as greater than or if-else, and many others. You can accomplish all this by using the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user interface, no need to write code.  
+Calculated fields let you automate manual calculations used in your business processes. For example, a salesperson may want to know the weighted revenue for an opportunity which is based on the estimated revenue from an opportunity multiplied by the probability. Or, they want to automatically apply a discount, if an order is greater than $500. A calculated field can contain values resulting from simple math operations, or conditional operations, such as greater than or if-else, and many others. You can accomplish all this by using [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], no need to write code.  
   
  **The calculated field capabilities:**  
   
@@ -37,9 +40,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *calculated* fie
   
 -   If you updated your Online organization to [!INCLUDE[pn_crm_8_2_0_online](../includes/pn-crm-8-2-0-online.md)], you can configure calculated fields to use custom controls.  
   
- <!-- (removing link for now since this feature isn’t supported yet.)
- [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Visual controls in Dynamics 365 for phones and tablets](../customize/add-visual-controls-mobile-app.md#BKMK_VisualControls)  
- -->
   
  **A few examples of the calculated fields**  
   
@@ -62,9 +62,9 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], *calculated* fie
 ## Calculated fields examples  
  Let’s take a look at calculated field examples in more detail. We’ll define the calculated fields with the Field Editor. To open the Field Editor:  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open solution explorer 
   
-2.  Choose **Customize the System** > **Components** > **Entities**.  
+2.  Expand **Components** > **Entities**.  
   
 3.  Select the entity you want and choose **Fields**. Choose **New**.  
   

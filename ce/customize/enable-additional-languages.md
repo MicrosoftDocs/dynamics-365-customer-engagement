@@ -10,10 +10,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: "Mattp123"
 ms.assetid: ece68f5f-ad40-4bfa-465a-3e5bafb854aa
 caps.latest.revision: 55
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 
 <a name="BKMK_Localization"></a>   

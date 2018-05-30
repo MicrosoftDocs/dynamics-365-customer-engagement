@@ -1,20 +1,27 @@
 ---
 title: "Translate product names and properties into multiple languages (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 for Sales."
+keywords: "Translate, langaguge"
+ms.date: 04/01/2018
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: "shubhadaj"
 ms.assetid: 6eb8263b-b8a0-4d8b-8383-956d380a203d
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 21
-ms.author: "shujoshi"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Translate product names and properties into multiple languages (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -34,9 +41,9 @@ When you sell your products in different regions, it is important that you trans
   
 2.  [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Click **Export Field Translations**.  
+3.  Select **Export Field Translations**.  
   
-4.  In the **Export Field Translations** dialog box, click **OK**.  
+4.  In the **Export Field Translations** dialog box, select **OK**.  
   
      All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] Work with localizable attributes.  
   
@@ -62,13 +69,13 @@ When you sell your products in different regions, it is important that you trans
   
 2.  [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-3.  Click **Import Field Translations**.  
+3.  Select **Import Field Translations**.  
   
-4.  In the **Field Translation Import Jobs** page, on the Action toolbar, click **Import Field Translations**.  
+4.  In the **Field Translation Import Jobs** page, on the Action toolbar, select **Import Field Translations**.  
   
-5.  In the **Import Translated Text** dialog box, click **Browse**, and select the file that you've received from your translation agency.  
+5.  In the **Import Translated Text** dialog box, select **Browse**, and select the file that you've received from your translation agency.  
   
-6.  Click **Import**.  
+6.  Select **Import**.  
   
      This starts the import job. You can check the status to see if the import has succeeded or failed.  
   

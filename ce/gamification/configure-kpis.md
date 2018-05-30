@@ -2,8 +2,8 @@
 title: "Configure Gamification KPIs in Dynamics 365 (online) | Microsoft Docs"
 description: "Learn how to set up and edit KPIs in Dynamics 365 (online) to use them in Dynamics 365 – Gamification games. "
 keywords: "Gamification, KPI, saved view, configuration"
-ms.date: 10/12/2017
-ms.service: gamification
+ms.date: 03/27/2018
+ms.service: dynamics-365-sales
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,13 +12,15 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-gamification
 ---
 
 # Configure KPIs for Gamification in [!INCLUDE[pn_crm_online_subsequent](../includes/pn-crm-online-shortest.md)]
 
 Scores and achievements in your games are based on KPIs that you define in [!INCLUDE[pn_gamification](../includes/pn-gamification-shortest.md)]. It's a two-step process: first, in [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online-shortest.md)], a user with a **Game Manager** security role creates the KPIs. Next, the user chooses and configures the KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)] when setting up a new game.
 
-> [!VIDEO https://www.youtube.com/embed/7kb9zfvSjLE]
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/3ed19c05-ce49-4bc8-a11c-be527217c9ae" frameborder="0" allowfullscreen=""></iframe></div>
 
 More information about setting up KPIs in [!INCLUDE[pn_gamification_shortest](../includes/pn-gamification-shortest.md)]: [Set up and run games in Gamification](run-games.md)  
 Basic information about KPIs; [Concepts to learn before you get started using Gamification](get-started.md)

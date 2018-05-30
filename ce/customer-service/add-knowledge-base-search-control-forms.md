@@ -4,14 +4,16 @@ description: Know how to add the Knowledge Base Search control to Dynamics 365 C
 keywords: Knowledge base forms; Customer service; Customer Service Hub; Dynamics 365
 author: anjgupta
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 03/16/2018
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2f43c2cb-684a-4388-a22b-6d891e4b8a19
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Add the Knowledge Base Search control to forms
@@ -55,7 +57,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
 4.  In the solution explorer, choose the entity you want to add the search control to, and under **Communication & Collaboration**, make sure the **Knowledge Management** check box is selected.  
   
-    ![Setting to enable knowledge management](media/check-knowledge-management.png)
+    ![Setting to enable knowledge management](media/check-knowledge-management.png "Setting to enable knowledge management")
 
     Select **Save** icon to save the setting for the entity.
   
@@ -63,7 +65,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
 6.  Choose the entity form of type **Main**.  
   
-    ![Choose form type](media/choose-form-type-km.png)
+    ![Choose form type](media/choose-form-type-km.png "Choose form type")
   
 7.  Select the area where you want to place the search control, and on the **Insert** tab, select **Knowledge Base Search**.  
   
@@ -71,7 +73,7 @@ Microsoft Dynamics 365 supports the native Dynamics 365 knowledge management. Th
   
 8.  In the **Set Properties** dialog box, on the **Display** tab, specify fields as given in the table below:
   
-    ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png) 
+    ![Set properties for Knowledge Base Search control](media/km-search-control-tab.png "Set properties for Knowledge Base Search control") 
 
 9. Select **Set** to apply the settings.   
     

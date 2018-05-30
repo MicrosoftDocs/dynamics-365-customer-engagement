@@ -3,7 +3,7 @@ title: "Create a simple customer journey (Dynamics 365 for Marketing) | Microsof
 description: "A tutorial for how to set up a customer journey that implements a simple email blast in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; send email; email blast"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,13 +14,15 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Create a simple customer journey with email messaging
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 As you engage potential customers, they start by discovering your product, evaluate whether it meets their needs, look for a good offer, and finally make a purchase. We call this process the *customer journey*. Use [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] customer journeys to create a model that helps you guide the members of a selected marketing segment through this process by using automated messaging, activity generation, interactive decision points, and more.
 
@@ -100,13 +102,13 @@ To create a customer journey that executes a one-time email blast:
 
     [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] copies the journey to its email marketing service, which executes the journey by processing contacts, performing actions, and collecting results during the time it is set to run. The journey's **Status Reason** is updated to **Live**.
 
-1. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and see how your journey is going. Open your customer journey in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and switch to the **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view by using the drop-down list above the journey-name headline.
+1. It might take a few hours for your messages to get sent, so allow some time for them to arrive in your inbox. After they do, open them and load the images. Then you can go back to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and see how your journey is going. Open your customer journey in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] and switch to the **Customer journey: Insights** form view by using the drop-down list above the journey-name headline.
     ![Location of the view selector](media/journey-view-selector.png "Location of the view selector")
 
     From here, use the **Designer** tab to see information and results for each tile from your pipeline. Open the **Dashboard** tab to see detailed analytics.
 
     > [!TIP]
-    > Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for analyzing the results of your marketing initiatives, including marketing emails. Try opening the record for the email message you sent with this customer journey and check its **[!INCLUDE[pn-insights](../includes/pn-insights.md)]** view for even more information.
+    > Many entities in [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] provide an **Insights** form view for analyzing the results of your marketing initiatives, including marketing emails. For example, try opening the record for the email message you sent with this customer journey and check its **Marketing email: Insights** form view for even more information.
 
 ### See also
 

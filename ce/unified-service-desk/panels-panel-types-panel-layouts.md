@@ -1,10 +1,11 @@
 ---
 title: "Panels, panel types, and panel layouts in Unified Service Desk for Dynamics 365 Customer Engagement| MicrosoftDocs"
 description: "Learn about using panels to display hosted controls of various types. Various predefined panel types are available in Unified Service Desk to support a variety of layout options such as tabbed layout, deck layout, and stacked layout."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: cc93dff6-3d0e-4a73-918d-16dd883d7fec
 caps.latest.revision: 9
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Panels, panel types, and panel layouts in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] uses panels to display hosted controls of various types. Various predefined panel types are available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to support a variety of layout options such as tabbed layout, deck layout, and stacked layout. You define the arrangement of these panels on the main screen of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using a **Panel Layout** hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panel Layout (Hosted Control)](../unified-service-desk/panel-layout-hosted-control.md)  

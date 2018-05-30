@@ -2,9 +2,10 @@
 title: "Create or edit a competitor record (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Track your competitors and their strengths to win sales against them."
 keywords: "competitor, sales, opportunity"
-ms.date: 09/22/2017
-ms.service: crm-online
-ms.custom: 
+ms.date: 04/01/2018
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,7 +13,7 @@ applies_to:
 ms.assetid: fb1a7bdd-0a49-4177-bc95-5837b8c79b60
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -26,7 +27,7 @@ topic-status: Drafting
 
 Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn_microsoftcrm](../includes/pn-dynamics-crm.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
 
-## Create a competitor (Sales Hub)
+## Create a competitor (Sales Hub app)
 
 1.	Select the site map  ![Site Map icon](media/site-map-icon.png "site map icon"), and then select **Competitors**.
 
@@ -36,18 +37,17 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 4.	On the command bar, select **Save**. 
 
+5. To associate a competitor with an opportunity, select the **Opportunities** tab, and select **Add Existing Opportunity**. In the **Search** box, select the Lookup icon, and then select an opportunity from the results. 
 
-## Create a competitor (Sales)
-[//]: # (In step 2, I realize that you're preparing the step so it will be easier to add a reference to Dyn 365 for Outlook later, but I don't think it's good to have just one bullet when you say "do one of the following." Also, I don't know which token to suggest for "Dynamics 365 application"--I'm not sure what it's referring to.)
+6. To associate a competitor with a product, select the **Related** tab, and then select **Products**. Select **Add Existing Product** and use the Lookup icon to select a product.
+
+
+## Create a competitor (Sales app)
 
 1. [!INCLUDE[proc_sales_competitors](../includes/proc-sales-competitors.md)]  
   
-2.  Do one of the following:  
+2.  Select **New**.  
   
-    -   If you're using the Dynamics 365 application, select **New**.  
-  
-<!--    -   If you're using Dynamics 365 for Outlook, in the **Records** tab, select **New**.  
--->  
 3. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
 4.  Select **Save**.  

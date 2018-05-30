@@ -1,13 +1,15 @@
 ---
 title: "Schedule anything with Universal Resource Scheduling (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 searchScope:
   - Customer Service
   - Field Service
   - Project Service
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "common-scheduler"
@@ -16,10 +18,11 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: krbjoran
 ms.assetid: c92c0cba-cc1d-41ef-983f-869a7a8c1988
 caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)
 

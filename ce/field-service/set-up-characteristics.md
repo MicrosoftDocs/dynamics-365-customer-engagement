@@ -1,9 +1,10 @@
 ---
 title: "Set up characteristics (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,10 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: krbjoran
 ms.assetid: 6a95bd55-8d7a-434e-a681-e1d1c0dc7598
 caps.latest.revision: 14
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Specify skills for resources (Field Service)
 

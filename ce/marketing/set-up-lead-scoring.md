@@ -3,7 +3,7 @@ title: "Set up lead scoring models (Dynamics 365 for Marketing) | Microsoft Docs
 description: "A tutorial for how to set up lead-scoring models and read lead scores in Dynamics 365 for Marketing"
 keywords: "tutorial; leads; lead scoring; lead scoring model"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,13 +14,15 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Set up automatic lead generation and scoring
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863166" frameborder="0" allowfullscreen></iframe>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
 A big part of marketing has to do with finding new leads, qualifying them, and then sending sales-ready leads to salespeople. To help you identify the hottest leads, [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] scores each one based on criteria that includes each lead's demographic details and interaction record. A lead who meets your target demographic profile and has interacted with your marketing materials (for example, by opening emails, registering for downloads, browsing your website, or attending an event) will probably get a high score, provided you've set up your scoring model correctly.
 

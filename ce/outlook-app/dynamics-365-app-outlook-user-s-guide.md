@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"  
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Dynamics 365 App for Outlook User Guide  
 
@@ -28,11 +28,6 @@ Use [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-o
  For example, when you open an email message, view information from [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] about the email recipients. Or with a single click, link an [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] email message or appointment to a specific [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record. When you link an email message or appointment to a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, the [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] record appears as an activity for that record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
  <!--[Watch a short video (1:35) about Dynamics 365 App for Outlook.](https://go.microsoft.com/fwlink/p/?linkid=829982)  -->
-
-<!--  
-> [!TIP]
-> [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is a [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] add-in. As of the [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)], [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] paired with [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)] is the preferred way to use [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] together with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. You may also be familiar with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)], which provides complete [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] capabilities (including offline capabilities) from [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]. **Note that tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] are used together by the same user. Choose one or the other.** 
- -->
 
 ## Known issues
 
@@ -145,6 +140,9 @@ Let's go over the individual elements in the menu bar.
 |![Menu - Insights](media/navbar-insights-btn.png)|Choose **Insights** to view the most important and relevant information in relation to what you are doing right now. <br />See [Gain insights into your activities with relationship assistant](#gain-insights-into-your-activities-with-relationship-assistant)|
 |![Menu - Documents](media/navbar-add-template-btn.png)|Choose **Documents** to add email templates, sales literature, or knowledge base articles. <br />See [Add an email template when you create an email message](#add-an-email-template-when-you-create-an-email-message) and [Add sales literature or a knowledge base article when you create an email message](#add-sales-literature-or-a-knowledge-base-article-when-you-create-an-email-message)|
 
+## Experience App for Outlook as a pinnable taskpane
+
+If you're running Outlook 2016 for Windows (build 7668.2000 or later), App for Outlook will appear as a pinnable vertical [taskpane](https://docs.microsoft.com/outlook/add-ins/add-in-commands-for-outlook#launching-a-task-pane) to the right of an open message or appointment in Outlook. For more information, see [Implement a pinnable taskpane in Outlook](https://docs.microsoft.com/outlook/add-ins/pinnable-taskpane). 
 
 ## Add an email recipient as a contact or lead
 One of the first things you might want to do when you receive a customer email, is add the person as a contact or lead to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. In the **[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]** pane, click (+) and then select **Add as contact** or **Add as lead**.
@@ -223,11 +221,9 @@ You can link an email message or meeting to a specific [!INCLUDE[pn_crm_shortest
 ## Track signed S/MIME emails
 [!INCLUDE [pn-dyn-365-app-outlook](../includes/pn-dyn-365-app-outlook.md)] can track S/MIME signed emails in Outlook Desktop and Outlook Web App (OWA). This is enabled on Click-to-Run [!INCLUDE [pn-outlook-2016](../includes/pn-outlook-2016.md)] build 16.0.8730.1000 or later. To determine your Outlook version, go to **File** > **Office Account** > **About Outlook**.
 
-<!-- Waiting to hear from Dev on how this works then I need to update some screenshots from v8 to v9.
-
 ## Customize the track regarding card
 
-The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Job Title** with **Business Phone** in the Contact card.
+The admin can change what's displayed in the card that appears when you track the regarding email. For example, you might want to replace **Mobile Phone** with **Company Name** in the Contact card.
 
 ![Initial contact card](media/initial-contact-card.png "Initial contact card")
 
@@ -235,27 +231,27 @@ To change the fields that appear, follow these steps:
 
 1. In [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], go to **Settings** > **Customizations** > **Customize the System**.
 2. Expand **Entities** and choose an entity such as **Contact**.
-3. Expand the entity and select **Forms**, then select the **Contact** form.
+3. Expand the entity and select **Forms**, then select the **App for Outlook Contact Card** form.
 
    ![Contact entity form](media/contact-entity-form.png)
-4. Drag **Business Phone** below **Account Name**. Drag **Job Title** below **Mobile Phone**.
 
-   | | |  |
-   |---------|---------|---------|
-   |![Drag fields in form](media/drag-fields-in-form.png "Drag fields in form")     |         | ![After dragging fields](media/after-dragging-fields.png "After dragging fields")        |
+4. Drag **Company Name** above **Business Phone**.
+
+   ![Drag field in form](media/drag-fields-in-form.png "Drag field in form")
+
+   ![After dragging field](media/after-dragging-fields.png "After dragging field")
 
    > [!NOTE]
-   > The first four fields appear in the track regarding card.
-5. Choose **Save**, **Publish**, and then close the form editor.
-6. On the solution page, choose **Components** > **Prepare Client Customizations**. 
+   > The first three fields appear in the track regarding card.
 
-   ![Prepare client customizations](media/prepare-client-customizations.png "Prepare client customizations")
+5. Select **Save**, **Publish**, and then close the form editor.
+6. On the solution page, **Publish All Customizations**. 
 7. Close the solutions page.
 
-After completing the above, right-click in the track regarding card, and then choose **Reload**. It might take some time for the synchronization to complete and the change to appear.
+After completing the above, right-click in the track regarding card, and then choose **Reload**. It will take a few minutes for the synchronization to complete and the change to appear.
 
 ![After customizing card](media/after-customizing-card.png "After customizing card")</br>
-The business phone number replaces job title in the Contact card. -->
+The company name now appears after the contact name in the Contact card.
 
 ## Compose an email message and link it to a Dynamics 365 record  
 Create an email message and then follow the steps in [Link an email message or meeting to a specific Dynamics 365 record](#link-an-email-message-or-meeting-to-a-specific-dynamics-365-record).
@@ -279,7 +275,6 @@ To access the assistant, on the nav bar, click ![Menu - Insights](media/navbar-i
 
 <!--
 ## Monitor an email message after you send it  
-[Reviewer note: I did not see this in the new UI.]  
 
  You can monitor an email message after you send it to see the number of times that the message is viewed, opened, replied to, or forwarded. For a monitored email message, you can also see the last activity related to the email message, or view all activity related to the message.  
   
@@ -524,61 +519,6 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 
    ![Enable custom field](media/add-custom-field.png)
 5. Choose **Save** > **Publish** on the **Home** tab.
-
-
-<!--  
-### Filter contacts by column (field)  
-[Reviewer note: I don't think this info is very useful and plan to delete.]
-
-1.  Click the **Filter** button ![Dynamics 365 App for Outlook contract tracking filter button](../outlook-app/media/dynamics-365-app-outlook-contract-tracking-filter-button.png "Dynamics 365 App for Outlook contract tracking filter button").  
-  
-2.  Enter the text you want to filter on in the appropriate field(s).  
-  
- ![Dynamics 365 App for Outlook contact filter by field](../outlook-app/media/dynamics-365-app-outlook-contact-filter-by-field.png "Dynamics 365 App for Outlook contact filter by field")  
-  
-3.  Press Enter.  
-  
-4.  To clear the filter fields, click the **Filter** button again.  
-  
-    > [!NOTE]
-    >  You can filter on the **Full name**, **Title**, **Company**, **Department**, and **Business address** fields. You can’t filter on the **Tracking** status, **Business phone**, or **Email** fields.  
-  
-### Add or remove columns  
-[Reviewer note: I don't think this info is very useful and plan to delete.]  
-
-1.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../outlook-app/media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button").  
-  
-2.  Select or clear the check boxes for the columns you want to add or remove.  
-  
-    > [!NOTE]
-    >  You can’t remove the **Tracking** column.  
-  
-3.  Click the **Settings** button ![Dynamics 365 App for Outlook Settings button](../outlook-app/media/dynamics-365-app-outlook-settings-button.png "Dynamics 365 App for Outlook Settings button") again to hide the list of columns.  
-  
-### Move columns  
-[Reviewer note: I don't think this info is very useful and plan to delete.]
--   Select the column you want to move, and then drag it to a new location.  
-  
-    > [!NOTE]
-    >  You can’t move the **Status** column.  
-  
-### Sort data  
-[Reviewer note: I don't think this info is very useful and plan to delete.] 
--   To sort the data in ascending order, click the column heading. To change the sort order to descending, click the column heading again.  
-  
-    > [!NOTE]
-    >  You can sort on the **Full name**, **Company**, **Department**, and **Business address** fields.  
- 
-### Show the latest data  
-  
--   Click the **Refresh** button ![Dynamics 365 App for Outlook Refresh button](../outlook-app/media/dynamics-365-app-outlook-refresh-button.png "Dynamics 365 App for Outlook Refresh button").  
-  
-### Set the number of records you see on the screen  
-[Reviewer note: I don't think this info is very useful and plan to delete.]  
--   Enter the number you want at the bottom of the screen.  
-  
- ![Dynamics 365 App for Outlook contact tracking, number of records to show](../outlook-app/media/dynamics-365-app-outlook-contact-tracking-number-of-records-show.png "Dynamics 365 App for Outlook contact tracking, number of records to show")  
--->
  
 ### See also  
  [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md)   

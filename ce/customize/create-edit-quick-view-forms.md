@@ -1,7 +1,8 @@
 ---
-title: "Create or edit quick view forms (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create or edit quick view forms in PowerApps | MicrosoftDocs"
+description: "Learn how to create or edit a quick view form"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,16 +11,19 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 9b101734-cc11-4d05-bd45-eb611eae9931
 caps.latest.revision: 14
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
+
 # Create or edit a quick view form to view information about a related entity
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], a quick view form can be added to another form as a quick view control. It provides a template to view information about a related entity record within a form for another entity record. This means you do not need to navigate to a different record to see the information you need to do your work.  
+A quick view form can be added to another form as a quick view control. It provides a template to view information about a related entity record within a form for another entity record. This means your app users do not need to navigate to a different record to see the information needed to do their work.  
   
  Quick view controls are associated with a lookup field that is included in a form. If the lookup field value is not set, the quick view control will not be visible. Data in quick view controls cannot be edited and quick view forms do not support form scripts.  
   
@@ -29,7 +33,7 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], a quick view for
 ## Create a quick view form  
  You create quick view forms using the form editor in a manner similar to the way you create other forms. Quick view forms are read-only. Use them to create forms that are for reading purposes only.  
   
-1.  In the default solution, using the solution explorer, expand the **Entities** node and select the entity you want to create a new quick view form for.  
+1.  In the solution explorer, expand the **Entities** node and select the entity you want to create a new quick view form for.  
   
 2.  Expand the entity and select the **Forms** node.  
   

@@ -1,7 +1,7 @@
 ---
-title: "Configure actions for workflows (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Configure actions for workflows in PowerApps | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,14 +10,16 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "PowerApps"
+author: "Mattp123"
 ms.assetid: 6dbc0f10-7ac5-4685-ab74-22d24bf7102d
 caps.latest.revision: 19
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Configure custom actions from a workflow
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 You can enable a custom action from a workflow without writing code. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Invoke custom actions from a workflow](../customize/invoke-custom-actions-workflow-dialog.md).  
   
@@ -78,12 +80,12 @@ Actions also have something that workflow processes don’t – input and output
 >  After the action is activated and code is written to use a unique name, the unique name must not be changed without also changing the code that references it.  
   
  **Enable rollback**  
- Generally, processes that support transactions will “undo” (or roll back) the entire operation if any part of them fails. There are some exceptions to this. Some actions developers might do in code initiated by the action might not support transactions. For example, if the code perform actions in other systems that are beyond the scope of the transaction. Those can’t be rolled back by the action running in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. Some messages in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] platform don’t support transactions. But everything you can do just with the user interface of the action will support transactions. All the actions that are part of a real-time workflow are considered in transaction, but with actions you have the option to opt out of this.  
+ Generally, processes that support transactions will “undo” (or roll back) the entire operation if any part of them fails. There are some exceptions to this. Some actions developers might do in code initiated by the action might not support transactions. For example, if the code perform actions in other systems that are beyond the scope of the transaction. Those can’t be rolled back by the action running in an app. Some messages in the platform don’t support transactions. But everything you can do just with the user interface of the action will support transactions. All the actions that are part of a real-time workflow are considered in transaction, but with actions you have the option to opt out of this.  
   
  You should consult with the developer who will use this message to determine whether it must be in transaction or not. Generally, an action should be in transaction if the actions performed by the business process don’t make sense unless all of them are completed successfully. The classic example is transferring funds between two bank accounts. If you withdraw funds from one account you must deposit them in the other. If either fails, both must fail.  
   
 > [!NOTE]
->  You can’t enable rollback if a custom action is invoked directly from within a workflow. You can enable rollback if an action is triggered by a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web services message.  
+>  You can’t enable rollback if a custom action is invoked directly from within a workflow. You can enable rollback if an action is triggered by a [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] web services message.  
   
  **Activate As**  
  Like all processes, you can activate the process as a template and use it as an advanced starting point for processes that follow a similar pattern.  
@@ -92,8 +94,8 @@ Actions also have something that workflow processes don’t – input and output
  In this area, you’ll specify any data that the action expects to start and what data will be passed out of the action. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define process arguments](../customize/configure-actions.md#BKMK_DefineProcessArgs)  
   
  **Add Stages, Conditions and Actions**  
- Like other processes, you specify what actions to perform and when to perform them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add stages, conditions and actions](../customize/configure-actions.md#BKMK_AddStagesConditionsAndActions)  
-  a
+ Like other processes, you specify what actions to perform and when to perform them. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add stages, conditions and actions](../customize/configure-actions.md#BKMK_AddStagesConditionsAndActions)
+
 <a name="BKMK_DefineProcessArgs"></a>   
 ### Define process arguments  
  When a developer uses a message, they may begin with some data that they can pass into the message. For example, to create a new case record, there might be the case title value that is passed in as a the input argument.  
@@ -114,7 +116,7 @@ Actions also have something that workflow processes don’t – input and output
 |Boolean|A `true` or `false` value.|  
 |DateTime|A value that stores date and time information.|  
 |Decimal|A number value with decimal precision. Used when precision is extremely important.|  
-|Entity|A [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record for the specified entity. When you select Entity, the drop-down is enabled and allows you to select the entity type.|  
+|Entity|A record for the specified entity. When you select Entity, the drop-down is enabled and allows you to select the entity type.|  
 |EntityCollection|A collection of entity records.|  
 |EntityReference|An object that contains the name, ID, and type of an entity record that uniquely identifies it. When you select EntityReference, the drop-down is enabled and allows you to select the entity type.|  
 |Float|A number value with decimal precision. Used when data comes from a measurement that isn’t absolutely precise.|  
@@ -130,7 +132,7 @@ Actions also have something that workflow processes don’t – input and output
 ### Add stages and steps  
  Actions are a type of process very similar to real-time workflows. All the steps that can be used in real-time workflows can be used in actions. For information about the steps that can be used for both real-time workflows and actions, see [Workflow stages and steps](../customize/configure-workflow-steps.md#BKMK_WorkflowStagesAndSteps).  
   
- In addition to the steps that can be used for real-time workflows, actions also have the **Assign Value** step. <!-- that is similar to the one used to set variables or input arguments in dialogs. --> In actions, these can be used only to set output arguments. You can use the form assistant to set output arguments to specific values or, more likely, to values from the record that the action is running against, records related to that record with a many-to-one relationship, records created in an earlier step, or values that are part of the process itself.  
+ In addition to the steps that can be used for real-time workflows, actions also have the **Assign Value** step.  In actions, these can be used only to set output arguments. You can use the form assistant to set output arguments to specific values or, more likely, to values from the record that the action is running against, records related to that record with a many-to-one relationship, records created in an earlier step, or values that are part of the process itself.  
   
 ### See also  
  [Actions](../customize/actions.md)   

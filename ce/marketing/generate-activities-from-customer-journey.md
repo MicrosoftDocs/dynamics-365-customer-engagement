@@ -3,7 +3,7 @@ title: "Generate activities from a customer journey (Dynamics 365 for Marketing)
 description: "A tutorial for how to set up a customer journey to generate and assign contact-related activities to staff in Dynamics 365 for Marketing"
 keywords: "tutorial; customer journey; activities"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,13 +14,15 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Generate activities from a customer journey
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863167" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d73cc179-5984-4a32-ad84-0755f56b0399" frameborder="0" allowfullscreen=""></iframe></div>
 
 In [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)], you use activities to plan and record customer interactions such as phone calls, tasks, or appointments. Your customer journeys can also generate these for you—usually for planning purposes. For example, you might create a journey like the one you made in [Create an interactive customer journey with triggers and signup](create-interactive-customer-journey.md), and then add an **Activity** tile behind the trigger that creates a phone-call task associated with each contact who submits the registration form.  
 

@@ -8,11 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "get-started-article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
+author: "mduelae"
 ms.assetid: 7a28ff46-558b-47c5-9c99-073fd6f66844
 caps.latest.revision: 141
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Setup overview for mobile apps
 
@@ -75,8 +76,10 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
     -   System Form  
   
     -   User Application Metadata  
-  
+ 
     -   View  
+ 
+    -   App
   
 4.  Choose a security role > **Business Management** tab. Verify that the **Read** permission is set for the following entity:  
   
@@ -95,6 +98,7 @@ Your users can access their [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shorte
 >  Be sure to provide users the URL and credentials they need to sign in.  
   
 <a name="BKMK_AdminToDo"></a>   
+
 ## What admins need to do  
   
 ### Security privileges  
@@ -527,7 +531,7 @@ else
   
 - **Data transmission**. [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] requires an [!INCLUDE[pn_Internet_facing_deployment](../includes/pn-internet-facing-deployment.md)], so when your organization’s mobile devices synchronize [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data with your online [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the data is encrypted with [!INCLUDE[pn_Secure_Sockets_Layer](../includes/pn-secure-sockets-layer.md)].  
   
-- **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] see “What’s the difference between sign out and reconfigure?” in [Dynamics 365 for phones and tablets User's Guide](dynamics-365-phones-tablets-users-guide.md)  
+- **Cached data**. [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] only cache records and lists that you’ve recently accessed in the app. To clear cached data, users can either sign out or reconfigure.
   
 - **Encrypting cached data**. Cached data is not encrypted. You can use [BitLocker](https://technet.microsoft.com/library/hh831713.aspx) to encrypt the entire hard drive on a [!INCLUDE[pn_windows8](../includes/pn-windows8.md)] or later device. For Apple and Android devices, consider [Windows Intune](http://go.microsoft.com/fwlink/p/?LinkID=394174) or a product from another company to encrypt the hard drive on the mobile device.  
   

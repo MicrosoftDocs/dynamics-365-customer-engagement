@@ -60,9 +60,9 @@ ms.author: "jimholtz"
   
 - [!INCLUDE[pn_ms_dyn_365_for_customer_service](../../includes/pn-ms-dyn-365-for-customer-service.md)]  
   
-- Dynamics 365 Customer Engagement Plan Enterprise Edition
+- Dynamics 365 Customer Engagement Plan
   
-Customer Engagement Plan Enterprise Edition is a user subscription that includes [!INCLUDE[pn_ms_dyn_365_for_sales](../../includes/pn-ms-dyn-365-for-sales.md)], [!INCLUDE[pn_ms_dyn_365_for_customer_service](../../includes/pn-ms-dyn-365-for-customer-service.md)], [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../../includes/pn-project-service-auto.md)], and Team Members, Enterprise edition. Please note that [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)] cause location data to be transmitted to [!INCLUDE[pn_bing_maps](../../includes/pn-bing-maps.md)] outside of Germany.  
+Customer Engagement Plan is a user subscription that includes [!INCLUDE[pn_ms_dyn_365_for_sales](../../includes/pn-ms-dyn-365-for-sales.md)], [!INCLUDE[pn_ms_dyn_365_for_customer_service](../../includes/pn-ms-dyn-365-for-customer-service.md)], [!INCLUDE[pn_field_service](../../includes/pn-field-service.md)], [!INCLUDE[pn_project_service_auto](../../includes/pn-project-service-auto.md)], and Team Members. Please note that [!INCLUDE[pn_dyn_365_field_service](../../includes/pn-dyn-365-field-service.md)] and [!INCLUDE[pn_dyn_365_project_service_auto](../../includes/pn-dyn-365-project-service-auto.md)] cause location data to be transmitted to [!INCLUDE[pn_bing_maps](../../includes/pn-bing-maps.md)] outside of Germany.  
   
 ### Coming soon:  
   
@@ -90,10 +90,6 @@ Customer Engagement Plan Enterprise Edition is a user subscription that includes
 - [!INCLUDE[pn_azure_machine_learning](../../includes/pn-azure-machine-learning.md)] integration  
   
 - [!INCLUDE[pn_bing_maps](../../includes/pn-bing-maps.md)] integration  
-
-<!-- safe to delete after PM go ahead
-- [!INCLUDE[pn_cortana](../../includes/pn-cortana.md)] integration  
--->
 
 - [!INCLUDE[pn_office_365_groups](../../includes/pn-office-365-groups.md)] integration  
   

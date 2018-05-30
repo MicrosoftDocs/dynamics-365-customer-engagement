@@ -8,12 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"  
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
+author: "mduelae"
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 
 # Overview of Dynamics 365 for phones and tablets 

@@ -1,9 +1,10 @@
 ---
 title: "Set up RTV sub-statuses  (Dynamics 365 for Field Service) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-fieldservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -12,10 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: krbjoran
 ms.assetid: a7ecdd69-392e-4b2a-9c95-a9e4fed0c8fb
 caps.latest.revision: 13
-ms.author: "mkaur"
-manager: "amyla"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Set up RTV sub-statuses to specify return status more precisely (Field Service)
 

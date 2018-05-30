@@ -1,7 +1,8 @@
 ---
-title: "Types of entities (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Types of entities in PowerApps | MicrosoftDocs"
+description: "Understand the different types of entities"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/25/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,18 +11,20 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 2f3f6053-0b9e-41e7-bd94-2239351e9f4b
 caps.latest.revision: 41
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Types of entities
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_TypesOfEntities"></a>   
 
- Before creating or editing entities in Dynamics 365 Customer Engagement, you should understand that there are different types of entities. Once a custom entity is created, these types cannot be changed. The two major divisions are based on entity ownership and whether the entities are activity entities.  
+ Before creating or editing entities in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)], you should understand that there are different types of entities. Once a custom entity is created, these types cannot be changed. The two major divisions are based on entity ownership and whether the entities are activity entities.  
   
 <a name="BKMK_EntityOwnership"></a>   
 ## Entity ownership  
@@ -29,10 +32,10 @@ manager: "brycho"
   
 |Ownership|Description|  
 |---------------|-----------------|  
-|**Business-owned**|There are 12 business-owned system entities. These include Business Unit, Calendar, Team, Security Role, and User.|  
-|**None**|There are 127 system entities that don’t have an owner, but most of these aren’t visible in the solution explorer. These mostly consist of intersect entities created to support Many-to-Many relationships or where access to the record is controlled by a parent record. For example, Opportunity Product records must be accessed through a user or team owned Opportunity record.|  
-|**Organization-owned**|There are 68 organization-owned system entities. These include Article, Article Template, Competitor, Currency, and Web Resource.|  
-|**User or Team Owned**|There are 59 user or team owned system entities. Because these records are owned by a user or team, they’re connected to a business unit and specific security roles for the business unit. Therefore, these entities participate in role-based security.|  
+|**Business-owned**|There are several business-owned system entities. These include Business Unit, Calendar, Team, Security Role, and User.|  
+|**None**|There are many system entities that don’t have an owner, but most of these aren’t visible in the solution explorer. These mostly consist of intersect entities created to support Many-to-Many relationships or where access to the record is controlled by a parent record. For example, Opportunity Product records must be accessed through a user or team owned Opportunity record.|  
+|**Organization-owned**|There are organization-owned system entities. These include Article, Article Template, Competitor, Currency, and Web Resource.|  
+|**User or Team Owned**|There are user or team owned system entities. Because these records are owned by a user or team, they’re connected to a business unit and specific security roles for the business unit. Therefore, these entities participate in role-based security.|  
   
  The custom entities that you create, and most customizable system entities, are either **organization-owned** or **user or team owned**.  
   
@@ -45,7 +48,7 @@ manager: "brycho"
   
  Activity entities can only be owned by a user or team, they can’t be owned by an organization.  
   
- There are 15 system entities that represent activities as shown in the following table.  
+ There are several system entities that represent activities as shown in the following table.  
   
 |Name|Description|Display in activity menus|  
 |----------|-----------------|-------------------------------|  

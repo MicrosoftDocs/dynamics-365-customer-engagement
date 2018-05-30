@@ -18,6 +18,7 @@
 ### [Create web roles](create-web-roles.md)
 ### [Manage knowledge articles](manage-knowledge-articles-content-levels.md)
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
+### [Search within file attachments](search-file-attachment.md)
 ### [Engage with communities](engage-with-communities.md)
 ### [Display file attachments with knowledge articles](display-file-attachments-knowledge-article.md)
 ### [Set up and moderate forums](setup-moderate-forums.md)
@@ -99,3 +100,5 @@
 #### [Render an RSS feed by using a custom page template](render-rss-custom-page-template.md)
 #### [Render a site header and primary navigation bar](render-site-header-primary-navigation.md)
 #### [Enable header and footer output caching on a portal](enable-header-footer-output-caching.md)
+
+## [Legacy Adxstudio Portals v7 FAQ](legacy-portal-faq.md)

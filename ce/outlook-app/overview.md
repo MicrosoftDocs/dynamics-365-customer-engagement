@@ -8,13 +8,13 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"  
-  - "Dynamics 365 Version 9.x"
+  - Dynamics 365 (online)
+  - Dynamics 365 Version 9.x
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Overview of Dynamics 365 App for Outlook 
 
@@ -23,8 +23,7 @@ manager: "brycho"
 > [!IMPORTANT]
 > The latest release of [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)] works with [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or later only. 
 >
-<!--
-> [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is not the same as [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]. [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] is deprecated with [!INCLUDE[pn_crm_9_0_0_online](../includes/pn-crm-9-0-0-online.md)] and will be removed in a future major release. -->
+
 
 To enable this feature, see [Enable](deploy-dynamics-365-app-for-outlook.md#enable).
 

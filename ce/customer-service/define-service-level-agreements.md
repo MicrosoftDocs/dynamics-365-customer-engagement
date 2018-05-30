@@ -1,20 +1,21 @@
 ---
-title: "Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Define service level agreements (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Know how to define service level agreements in Dynamics 365 for Customer Service
+keywords: Service leve agreements; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: shellyha
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.assetid: 75c6bab8-54d8-4410-b210-003953aa4b53
-caps.latest.revision: 65
-ms.author: "shujoshi"
-manager: "sakudes"
+ms.custom:
+  - dyn365-customerservice
 ---
+
 # Define service level agreements (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -291,7 +292,7 @@ Define the level of service or support that your organization agrees to offer to
 ## How is the SLA applied?  
  When a record is created, the SLA is applied (default or through entitlement for the Case entity) and the related record field values are updated. When the record is modified and any of the record field values change, that is, when the fields that are added in the **Applicable When** conditions of the SLA change, the SLA is applied again. For example, if the priority of the case changes from Normal to High, and according to the SLA the first response should happen soon, the SLA is reapplied to make sure the KPIs are tracked based on the updated values.  
   
- When the SLA is applied again, all the SLA items are evaluated based on the updated record fields and the failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated. To avoid this, you can request that your system customizer add a custom field to the entity (to track if the failure/warning actions were already taken) and add it to the **Applicable When** condition so that the actions aren’t initiated multiple times.  
+ When the SLA is applied again, all the SLA items are evaluated based on the updated record fields and the failure or warning actions are initiated if the time has been exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.  
   
 > [!NOTE]
 >  You can only have one SLA running on one record. When an entity record is updated with a different SLA, the previously applied SLA is canceled.  
@@ -321,9 +322,9 @@ Define the level of service or support that your organization agrees to offer to
 >  To track SLAs for entities other than case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](../customer-service/add-timer-forms-track-time-against-enhanced-sla.md)  
   
 ### See also  
- [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   
- [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)   
- [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   
- [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   
- [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md)
+ [Create a customer service schedule and define the work hours](../customer-service/create-customer-service-schedule-define-work-hours.md)   <br>
+ [Create an entitlement to define the support terms for a customer](../customer-service/create-entitlement-define-support-terms-customer.md)   <br>
+ [Automatically create a case from an email](../customer-service/automatically-create-case-from-email.md)   <br>
+ [Create rules to automatically route cases](../customer-service/create-rules-automatically-route-cases.md)   <br>
+ [Create and manage a case (Customer Service Hub)](../customer-service/user-guide-customer-service-hub.md) <br>
  [Create and manage a case (Customer Service](../customer-service/user-guide-customer-service.md)

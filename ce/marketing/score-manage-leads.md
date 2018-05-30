@@ -3,7 +3,7 @@ title: "Generate, score, and qualify leads (Dynamics 365 for Marketing) | Micros
 description: "How to work with leads, set up automatic scoring rules, and identify sales-ready prospects in Dynamics 365 for Marketing"
 keywords: "lead; lead-scoring rule; grade; qualify; sales ready"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,13 +14,15 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Score and manage leads
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<iframe width="560" height="315" src="https://go.microsoft.com/fwlink/p/?linkid=863166" frameborder="0" allowfullscreen></iframe>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/ae6596f2-4df4-420e-9635-df776e4e5398" frameborder="0" allowfullscreen=""></iframe></div>
 
 Using [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], you can:
 
@@ -40,10 +42,8 @@ After a single interaction, a new lead is usually still considered *unqualified*
 
 Each lead has a score, and each time the associated contact interacts with an initiative in that lead's marketing context, it increases the lead score until it reaches a certain threshold, at which time it's considered marketing-qualified (sales-ready). At that point, the lead is sent to a salesperson, who decides whether to accept the lead. After the lead is accepted by sales, the lead might go on to become a sales-qualified lead, then converted to an opportunity and, finally, become a closed sale. Or, the salesperson might decide that the lead isn't ready and might reject the lead or recycle it by sending it back to marketing. Other leads might eventually get marked as lost, but the contact will remain in your database to be included in future marketing campaigns.
 
-> [!IMPORTANT]
-> Automatic lead scoring only works for leads that are associated with a contact. Scoring fails for leads that don't have a contact associated with them. Also, segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads, which means that you can only address marketing emails to contacts.
-> 
-> Your landing pages will typically either create a lead/contact pair when they create a new contact, or associate new leads with existing contacts when they're available. But when you create a lead manually, you must also associate it with a contact manually to enable lead scoring.
+> [!NOTE]
+> If you are integrating [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] with [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], then you should probably also customize the lead views and dashboards shown to salespeople to ensure that only sales-ready leads are shown to them. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Create or edit views](../customize/create-edit-views.md) and [Create or edit dashboards](../customize/create-edit-dashboards.md)
 
 ## Lead generation
 
@@ -56,6 +56,11 @@ There are two ways to create a lead: manual and automatic.
 ## Lead scoring
 
 After a lead exists, [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] can start scoring it based on demographic data, firmographic data, and contact interactions. Scoring occurs automatically according to rules that you establish as lead-scoring models.
+
+> [!IMPORTANT]
+> Automatic lead scoring only works for leads that are associated with a contact. Scoring fails for leads that don't have a contact associated with them. Also, segments in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only include contacts, not leads, which means that you can only address marketing emails to contacts.
+> 
+> Your landing pages will typically either create a lead/contact pair when they create a new contact, or associate new leads with existing contacts when they're available. But when you create a lead manually, you must also associate it with a contact manually to enable lead scoring.
 
 ## Create, view, and manage your lead-scoring models
 
@@ -155,4 +160,5 @@ Here are a few more examples of how to use hops to create useful conditions:
 
 [Set up lead scoring](set-up-lead-scoring.md)  
 [Register contacts' engagement](register-engagement.md)  
-[Manage customer information](manage-customer-information.md)
+[Manage customer information](manage-customer-information.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)

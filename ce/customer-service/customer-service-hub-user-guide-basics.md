@@ -5,11 +5,13 @@ keywords: Basics of the Customer Service Hub; Customer Service; Microsoft Dynami
 author: anjgupta
 applies_to: Dynamics 365 (online) 
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 02/20/2018
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: f7241c02-a8ea-4b67-9d7b-428f91071090
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Learn the basics of the Customer Service Hub
@@ -28,6 +30,7 @@ The Customer Service Hub’s intuitive interface brings together vital informati
     - Google Chrome
     - Microsoft Edge (supported on Windows 10)
     - Apple Safari 11
+    - Internet Explorer 11
 
 - **Mobile**
     - iOS 10 - Tablet & Phone
@@ -44,12 +47,12 @@ The Customer Service Hub app is available to use on a desktop browser and on a m
   
 -   In the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] web application, go to **Settings** > **Application** > **My Apps** >  **Customer Service Hub**.   
 
-     ![open-csh](media/open-csh.png)
+     ![open-csh](media/open-csh.png "Open the Customer Service Hub")
  
   
 -    In the Dynamics 365 sitemap, navigate to the app switcher and then select **Customer Service Hub**.
 
-     ![open-csh-sitemap](media/open-csh-sitemap.png)
+     ![open-csh-sitemap](media/open-csh-sitemap.png "Customer Service Hub sitemap")
   
 **Mobile device**
 
@@ -60,7 +63,7 @@ To access the Customer Service Hub app on a mobile device:
   To install the Dynamics 365 mobile app, see [Install Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)
 - From the MyApps page, select **Customer Service Hub**.
 
-   ![choose-on-mobile](media/ChooseAnApp_1.png)
+   ![choose-on-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 
 ## Work with case management record types, dashboards, and tools  
@@ -87,7 +90,7 @@ Any record types that are enabled for mobile are also available for use in the C
   
 1.  On the sitemap, select **Service**, and then select an entity record type.  
   
-    ![navigate recods](media/v9-navigate-records.png)
+    ![navigate recods](media/v9-navigate-records.png "Navigate records")
   
     When you select a record type from the menu, such as Accounts, Contacts, or Cases, you’ll see a list of corresponding customer records (also known as Entity grid). 
 
@@ -109,7 +112,7 @@ Any record types that are enabled for mobile are also available for use in the C
 
 For a mobile device, the sitemap is displayed as illustrated in the following image:
 
-![mobile-sitemap](media/mobile-sitemap.png)
+![mobile-sitemap](media/mobile-sitemap.png "Customer Service Hub sitemap on mobile")
 
 
 ## Open the default dashboard for a record type
@@ -124,7 +127,7 @@ To return to the list of records, select **Open Views** in the command bar.
   
 -   When you're viewing a record, select and expand **Open Record Set** to navigate to other records. A side panel opens where you can view other records. You can directly select the records from the panel and view the details of the  record.
  
-      ![record-set](media/v9-record-set.png)
+      ![record-set](media/v9-record-set.png "Record set")
 
 > [!NOTE]
 > The option Open Record Set will not be available on devices with comparatively smaller screen sizes.
@@ -155,7 +158,7 @@ When you select a process stage on the process bar, you'll see the steps to take
 
 The stages in the business process flow are displayed in floating mode, or docked mode. Stages can  be aligned in a vertical layout, instead of horizontal, which makes it easier to see what steps are required to move forward. You can also choose to include an optional step in the business process flow and define criteria to trigger it.
 
-![business-process-flow](media/business-process-flow.png)
+![business-process-flow](media/business-process-flow.png "Business process flows")
   
 If there is more than one process to follow, you can switch between them by selecting **Process** > **Switch Process** on the command bar, and then selecting the process you want to use.  Or you can choose to abandon the process if it no longer applies.
   
@@ -172,7 +175,7 @@ If there is more than one process to follow, you can switch between them by sele
   
 For example, here’s a view of how the tabs appear on the case form:
   
-![case-form-tabs](media/v9-case-form-tabs.png)
+![case-form-tabs](media/v9-case-form-tabs.png "Case form tabs")
   
  This table lists the default tabs for each record type and the information that they show for a particular record.  
   
@@ -188,7 +191,7 @@ For example, here’s a view of how the tabs appear on the case form:
 ### **Contact card**  
  See a complete view of your customer’s touch points in the Contact card. This card is available in the **General Information** section of the **Summary** tab.  
   
-![contact-card](media/contact-card.png)
+![contact-card](media/contact-card.png "Contact card")
 
  You can add a picture to the account or contact record in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web application, and it will appear on this card. You can make calls to customers from the Contact card using Skype for Business – IP telephony.
   
@@ -214,7 +217,7 @@ The Timeline is available on the **Summary** tab for account, contact, case reco
   
      You can filter by Activity status or record type. Select the ellipsis and then select  **Open filter pane** to explore the filters
 
-     ![timeline-ellipsis](media/timeline-ellipsis.png)
+     ![timeline-ellipsis](media/timeline-ellipsis.png "Timeline ellipsis to filter activities")
   
 -   Refresh the timeline so you see the updated list of activities.  
   
@@ -230,15 +233,15 @@ For example:
 
 By default, the first tab in the Related section of a case record shows the **Recent Cases and Entitlements** for the current case record you’re working on. 
   
-![reference-panel](media/reference-panel.png)
+![reference-panel](media/reference-panel.png "Reference panel")
 
 The second tab in the Related section of a case record is the **Knowledge Base search**. Knowledge Base search lets you search for the knowledge articles related to a specific record. It also lets you view automatic suggestions. You can filter the search results to display articles that are Published, Draft, or Approved. For more information, see [Search for Knowledge articles](customer-service-hub-user-guide-case-sla.md#search-for-knowledge-articles). 
   
-![knowledge-article-search](media/case-form-search-rp.png)
+![knowledge-article-search](media/case-form-search-rp.png "Knowledge article search in Reference panel")
 
 The third tab in the Related section of a case record displays **Similar Cases**. Select **...** on a record to follow or unfollow the case, and explore other options. 
 
-![similar-cases](media/similar-cases.png)
+![similar-cases](media/similar-cases.png "Similar cases in Reference panel")
 
  Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
@@ -261,11 +264,11 @@ The Customer Service Hub is available to use on a desktop browser, and on a mobi
 
 For example, on a browser, if you zoom in to about 100% or more, the tabs get docked on the top of the panel.
 
-![reference-panel-zoomin](media/rp-zoomin.png)
+![reference-panel-zoomin](media/rp-zoomin.png "Reference panel reflow")
 
 Similarly, if you zoom out to about 60-70%, the records appear in grid form.
 
-![reference-panel-zoomout](media/rp-grid-zoomout.png)
+![reference-panel-zoomout](media/rp-grid-zoomout.png "Reference panel reflow")
 
 ## Understand Activities
 
@@ -286,7 +289,7 @@ In Dynamics 365, the following activities are supported:
 #### Open Activities view
 In the Customer Service Hub sitemap, select **Service** > **Activities**. The **My Activities** view is displayed. 
 
-![activities-email](media/activities-csh-email.png)
+![activities-email](media/activities-csh-email.png "Activities view")
 
 - Select ![quick-create-activity](media/quick-create-button.png) in the nav bar to go to **Activities** to quickly add a new activity.
 
@@ -310,7 +313,7 @@ Use queues to organize, prioritize, and monitor the progress of your work. In Dy
 
 In the Customer Service Hub sitemap, select **Service** > **Queues**. The queues view is displayed.
 
-![queues-view](media/queues-view.png)
+![queues-view](media/queues-view.png "Queues view")
 
 - Use the drop-down lists to switch between the views and the various queues.
 - Select a record in the queues view to:
@@ -323,5 +326,7 @@ To know how to add a case to a queues, see [Add a case to a queue](customer-serv
 
 
 ### See also
+
+[Create and design forms for Customer Service Hub](create-design-forms-customer-service-hub.md)
 
 [Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)

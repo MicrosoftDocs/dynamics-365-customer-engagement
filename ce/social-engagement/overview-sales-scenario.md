@@ -2,13 +2,16 @@
 title: "Social Engagement scenarios for salespeople | Microsoft Docs"
 description: "Review sales scenarios to get inspiration for how to efficiently leverage Social Engagement in your organization."
 ms.date: 09/12/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: 2ad0f5dc-24c6-4cad-a8e2-f88361765607
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 ms.manager: sakudes
+ms.custom:
+  - dyn365-socialengagement
+manager: sakudes
 ---
 # Social selling - grow your network and boost sales
 
@@ -29,8 +32,6 @@ This overview suggests ways you and your team can use [!INCLUDE[Social Engagemen
 ## Social selling: grow your network and influence
 
 Learn how to install, configure, and personalize the Social Selling Assistant to increase your presence on social media.
-
-> [!VIDEO https://www.youtube.com/embed/B0tcV0piZbI]
 
 1. [Configure Social Engagement for the Social Selling Assistant](configure-social-selling-assistant.md).
 

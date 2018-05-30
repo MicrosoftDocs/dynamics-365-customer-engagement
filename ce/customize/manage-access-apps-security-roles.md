@@ -5,10 +5,12 @@ keywords: ""
 ms.date: 10/25/2017
 ms.service: crm-online
 ms.custom: 
+  - dyn365-deflc
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: "shubhadaj"
 ms.assetid: c00f867d-78f0-4f3e-a716-f7b25f9d343a
 ms.author: shujoshi
 ms.reviewer: 

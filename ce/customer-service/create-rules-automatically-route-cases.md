@@ -1,20 +1,21 @@
 ---
-title: "Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Create rules to automatically route cases (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: Understand how to create rules to automatically route cases in Dynamics 365 for Customer Service
+keywords: Create rules; Route cases; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: shellyha
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.assetid: 85a8e762-c063-48a5-bf38-ffc4df6a7c79
-caps.latest.revision: 25
-ms.author: "shujoshi"
-manager: "sakudes"
+ms.custom:
+  - dyn365-customerservice
 ---
+
 # Create rules to automatically route cases (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
@@ -61,11 +62,12 @@ Use routing rules in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]
   
        For example, to route all cases that have the **IsEscalated** field set to **Yes** to the **Tier 2 support** queue, specify the conditions as shown here:  
   
-       !["If Conditions" for a routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-if-conditions.png ""If Conditions" for a routing rule in Dynamics CRM")  
+       !["If Conditions" for a routing rule in Dynamics CRM](media/crm-ua-rule-criteria-if-conditions.png "If Conditions for a routing rule in Dynamics CRM")
  
     3. Under **Then Conditions**, specify the queue to which the cases will be routed or the user or team to which the cases will be assigned if the conditions in the **If Conditions** section are met.
-  
-       !["Then Conditions"  for routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-then-conditions.png ""Then Conditions"  for routing rule in Dynamics CRM")  
+      
+       !["Then Conditions" for routing rule in Dynamics CRM](../customer-service/media/crm-ua-rule-criteria-then-conditions.png "Then Conditions  for routing rule in Dynamics CRM")  
+      
   
     > [!TIP]
     >  To group conditions in the criteria, use the **Group And** or **Group Or** options.  

@@ -1,23 +1,24 @@
 ---
 title: "Synchronize user information between Dynamics 365 Customer Engagement and Active Directory | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 05/02/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - "Dynamics 365 (on-premises)"
   - "Dynamics 365 Version 9.x"
+author: "jimholtz"
 ms.assetid: 137b4aa7-2c90-4584-a2bd-38c812788121
 caps.latest.revision: 23
-ms.author: "rdubois"
+ms.author: "jimholtz"
 manager: "brycho"
 ---
 # Synchronize user information with Active Directory
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
+Applies to [!INCLUDE[pn-dyn-365-op](../includes/pn-dyn-365-op.md)]
 
 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] supports two methods for authenticating users:  
   
@@ -29,7 +30,7 @@ By default, customers who purchase [!INCLUDE[pn_microsoftcrm](../includes/pn-mic
   
 With integrated [!INCLUDE[pn_Windows_Authentication](../includes/pn-windows-authentication.md)], each user record in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] must be associated with a user account in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] to enable log on to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. When the user records are associated, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] automatically reads and stores other information about the user record (including the first and last name, the email address, and the globally unique identifier, or GUID) from the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] directory service.  
   
-However, changes to the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] information associated with a specific user can create discrepancies with the information maintained in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], thereby preventing the user from accessing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Specifically, if value of the **User SamAccountName logon** attribute in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] changes for a user, the corresponding user information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] won’t match and the user won’t be able log on..  
+However, changes to the [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] information associated with a specific user can create discrepancies with the information maintained in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], thereby preventing the user from accessing [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Specifically, if value of the **User SamAccountName logon** attribute in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] changes for a user, the corresponding user information in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] won’t match and the user won’t be able log on.  
   
 To ensure that the user can successfully log on to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], you must update the information in the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] user record so that it matches the detail in [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)].  
   

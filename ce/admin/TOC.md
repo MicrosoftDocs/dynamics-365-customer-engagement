@@ -3,6 +3,7 @@
 # [Getting started with your subscription](getting-started.md)
 ## [Terminology](online-terminology.md)
 ## [Try Dynamics 365 (online)](try-dynamics-365-online.md)
+## [About Unified Interface](about-unified-interface.md)
 ## [Onboard your organization and users](onboard-your-organization-and-users-to-dynamics-365-online.md)
 ## [Onboarding cheat sheet for admins](onboarding-cheat-sheet-admins.md)
 ## [Enabling preview features](what-are-preview-features-how-do-i-enable-them.md)
@@ -52,11 +53,13 @@
 ## [Add Partner of Record](add-partner-record-subscription.md)
 ## [For partners: get credit when customers subscribe](partners-credit-when-customers-subscribe-dynamics-365.md)
 ## [For partners: Delegated Administrator](for-partners-delegated-administrator.md)
+
 # [Manage security, users, and teams](manage-security-users-and-teams.md)
 ## [Security concepts](security-concepts.md)
 ### [Security roles and privileges](security-roles-privileges.md)
 #### [Create or edit a security role](create-edit-security-role.md)
 #### [Copy a security role](copy-security-role.md)
+#### [Create an administrative user and prevent privilege elevation](prevent-elevation-security-role-privilege.md)
 #### [Assign security roles to a form](assign-security-roles-form.md)
 #### [View user profile](../basics/view-your-user-profile.md)
 ### [User session and access management](user-session-management.md)
@@ -73,7 +76,9 @@
 ## [Create or edit a business unit](create-edit-business-unit-control-access-records.md)
 ## [Add or remove sales territory members](add-remove-territory-members.md)
 ## [Troubleshooting: Read-write access](troubleshooting-user-needs-read-write-access-organization.md)
+
 # [Manage instances](manage-online-instances.md)
+## [What's new with instance management](new-instance-management.md)
 ## [Sandbox](manage-sandbox-instances.md)
 ## [Add instance](add-instance-subscription.md)
 ## [Switch instance](switch-instance.md)
@@ -81,11 +86,13 @@
 ## [Delete instance](delete-instance.md)
 ## [Backup and restore instances](backup-restore-instances.md)
 ## [Support instances](support-instance.md) 
+## [Common Data Service instances](common-data-service-instances.md)
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
 ## [Add and edit multiregional instances](add-edit-multiregional-instances.md)
 ## [Encryption keys for instance](manage-encryption-keys-instance.md)
 ## [Troubleshooting: Unblock required URLs](troubleshooting-unblock-urls-required.md)
+
 # [Datacenter regions](../admin/datacenter/new-datacenter-regions.md)
 ## [Australia](../admin/datacenter/about-microsoft-cloud-australia.md) 
 ## [Canada](../admin/datacenter/about-microsoft-cloud-canada.md)
@@ -111,10 +118,12 @@
 ## [Enhanced service level agreements](enhanced-service-level-agreements.md)
 ## [Configure Relevance Search](configure-relevance-search-organization.md)
 ## [Manage product catalog configuration](manage-product-catalog-configuration.md)
+
 # [Performance tuning and optimization](performance-tuning-and-optimization.md)
 ## [Verify network capacity and throughput for clients](verify-network-capacity-throughput-clients.md)
 ## [Key preparation and configuration tasks](key-preparation-and-configuration-tasks.md)
 ## [Data query performance](analyze-improve-data-query-performance.md)
+
 # [Manage your data](manage-your-data.md)
 ## [Add or remove sample data](add-remove-sample-data.md)
 ## [Import data](import-data-all-record-types.md)
@@ -128,7 +137,9 @@
 ## [View and take action on bulk deletion jobs](view-take-action-bulk-deletion-jobs.md)
 ## [Monitor and manage system jobs](monitor-manage-system-jobs.md)
 ## [Audit data and user activity](audit-data-user-activity.md)
+<!-- ### [Enable and use Activity Logging](enable-use-comprehensive-auditing.md) -->
 ## [Data encryption](data-encryption.md)
+## [Remove user personal data](remove-user-personal-data.md)
 ## [Manage storage](manage-storage.md)
 ## [Free storage space](free-storage-space.md)
 ## [Fixing Add License Wizard and Add Storage Wizard errors](add-license-wizard-add-storage-wizard-errors.md)
@@ -141,6 +152,7 @@
 ### [Configure date settings for demo data](configure-date-settings-for-demo-data.md)
 ### [Modify a configuration data schema](modify-configuration-data-schema.md)
 ### [Import configuration data](import-configuration-data.md)
+
 # [Work with templates](work-with-templates.md)
 ## [Articles](create-templates-articles.md)
 ## [Email](create-templates-email.md)
@@ -168,6 +180,7 @@
 #### [Best practices](best-practices-server-side-synchronization.md)
 #### [Forward mailboxes or edit mailboxes](create-forward-mailboxes-edit-mailboxes.md)
 ### [Configure Outlook or Exchange folder-level tracking](configure-outlook-exchange-folder-level-tracking.md)
+### [Use Outlook category to track appointments and emails](use-outlook-category-track-appointments-emails.md)
 ### [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)
 ### [Set incoming and outgoing email synchronization](set-incoming-outgoing-email-synchronization.md)
 ### [Choose records to synchronize with Exchange](choose-records-synchronize-dynamics-365-outlook-exchange.md)
@@ -229,14 +242,7 @@
 ## [Preview feature: Automatically suggest knowledge articles](public-preview-automatically-suggest-knowledge-articles.md)
 ## [Preview feature: Suggest similar cases for a case](public-preview-suggest-similar-cases-for-a-case.md)
 ## [Enable document suggestions](enable-document-suggestions.md)
-# [Preview feature: Relationship Insights](relationship-insights.md)
-## [Preview feature: Overview](relationship-insights-overview.md)
-## [Preview feature: Configure](configure-relationship-insights-features.md)
-## [Preview feature: Relationship assistant](relationship-assistant.md)
-## [Preview feature: Action cards reference](action-cards-reference.md)
-## [Preview feature: Email engagement](email-engagement.md)
-## [Preview feature: Auto capture](auto-capture.md)
-<!-- ## [Preview feature: Relationship analytics](relationship-analytics.md) -->
+
 # [Dynamics 365 Government](../admin/government/microsoft-dynamics-365-government.md)
 ## [Dynamics 365 (online) Government - Feature availability](../admin/government/government-feature-availability.md)
 
@@ -254,6 +260,6 @@
 ## [Sales tab](system-settings-dialog-box-sales-tab.md)
 ## [Service tab](system-settings-dialog-box-service-tab.md)
 ## [Synchronization tab](system-settings-dialog-box-synchronization-tab.md)
-<!-- ## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md) -->
+## [Mobile Client tab](system-settings-dialog-box-mobile-client-tab.md)
 ## [Previews tab](system-settings-dialog-box-previews-tab.md)
 ## [On-off switch for Learning Path (guided help)](on-off-switch-for-learning-path-guided-help.md)

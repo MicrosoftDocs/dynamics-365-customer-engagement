@@ -1,9 +1,11 @@
 ---
 title: "Place child nodes by using shortcuts for a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to place child nodes by using shortcuts for portals."
-ms.custom: ""
+ms.custom:
+  - dyn365-a11y
+  - dyn365-portal
 ms.date: 09/28/2017
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article

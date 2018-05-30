@@ -1,9 +1,10 @@
 ---
 title: "Add resources (Dynamics 365 for Project Service Automation) | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/30/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -12,10 +13,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: krbjoran
 ms.assetid: 20eda29f-6ebb-4bab-b347-e487e5196bb0
 caps.latest.revision: 10
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Add resources (Project Service Automation)
 

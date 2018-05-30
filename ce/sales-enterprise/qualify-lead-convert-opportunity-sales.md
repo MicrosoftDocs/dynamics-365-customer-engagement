@@ -2,9 +2,10 @@
 title: "Qualify a lead and convert it to an opportunity (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Qualify the lead after you've identified the timeframe, budget, and purchase process of the lead."
 keywords: "lead, budget, purchase process, decision maker, opportunity"
-ms.date: 09/22/2017
-ms.service: crm-online
-ms.custom: 
+ms.date: 04/01/2018
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,7 +13,7 @@ applies_to:
 ms.assetid: 476a1284-61e5-4eb2-9bd4-b95d111cf82e
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -24,7 +25,6 @@ topic-status: Tech Reviewing
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
-[//]: # ("After" instead of "once" is from the Writing Style Guide.)
 Does your lead have what you're looking for&mdash;and vice versa? After you've identified the timeframe, budget, purchase process, and decision makers for the sale, it's time to qualify your lead. Qualifying a lead in the Sales app converts it to an opportunity.  
   
 Ideally, your leads or prospects should have a need that you can provide a solution for, and have the budget and influence necessary for making the purchasing decision. In addition, you should be able to provide their solution within the timeframe they need it.  
@@ -68,7 +68,7 @@ To qualify multiple leads, go to the list of leads, select the leads you want to
 
 -   Research leads through social media channels like LinkedIn and Twitter. [Qualify leads faster with Insights](https://www.microsoft.com/en-us/dynamics/crm-customer-center/insights-for-microsoft-dynamics-crm-powered-by-insideview.aspx)  
 
--   Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-with-app-marketing-sales.md)  (applies to the Sales app only)
+-   Nurture your leads through a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  (applies to the Sales app only)
 
   
 <a name="bkmk4"></a>   

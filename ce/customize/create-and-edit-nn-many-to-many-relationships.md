@@ -1,7 +1,8 @@
 ---
-title: "Create N:N (many-to-many) relationships (Dynamics 365 Customer Engagement) | MicrosoftDocs"
+title: "Create N:N (many-to-many) relationships in PowerApps | MicrosoftDocs"
+description: "Learn how to create many-to-may relationships"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/03/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -10,15 +11,17 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 248cecfd-c9e8-430b-b4b0-860669866084
 caps.latest.revision: 33
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 tags: 
 ---
 # Create N:N (many-to-many) relationships
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 <a name="BKMK_CreateEditNNRelationships"></a>   
 
@@ -32,15 +35,13 @@ tags:
   
 ## Create or edit N-N relationships between entities  
   
-1. [!INCLUDE[proc_settings_customization](../includes/proc-settings-customization.md)]  
+1. Open solution explorer.
   
-2.  Click **Customize the System**.  
+2.  Under **Components**, expand **Entities**, and then expand the entity you want to work with.  
   
-3.  Under **Components**, expand **Entities**, and then expand the entity you want to work with.  
+3.  Select **N:N Relationships**.  
   
-4.  Click **N:N Relationships**.  
-  
-5.  To edit or view the details for an existing relationship, select the relationship, on the Actions toolbar, click **Actions**, and then click **Edit**.  
+4.  To edit or view the details for an existing relationship, select the relationship, on the Actions toolbar, click **Actions**, and then click **Edit**.  
   
      \- OR -  
   
@@ -49,7 +50,7 @@ tags:
     > [!IMPORTANT]
     >  If **New Many-to-Many Relationship** does not appear on the Actions toolbar, you cannot create a N:N relationship for that entity.  
   
-6.  For a new relationship, in the **Current Entity** section, in the **Display Option** list, choose one of the following options:  
+5.  For a new relationship, in the **Current Entity** section, in the **Display Option** list, choose one of the following options:  
   
     - **Do Not Display**: The other entity will not display an associated view for the current entity.  
   
@@ -63,18 +64,18 @@ tags:
     > [!IMPORTANT]
     >  The navigation paradigm for the forms associated with updated entities is significantly different than that for entities that have not been updated. While the mechanics for defining the Display Area and Display Order are common, be sure you understand the various navigation paradigms as you establish entity relationships.  
   
-7.  In the **Other Entity** section, select the other entity from the **Entity Name** list.  
+6.  In the **Other Entity** section, select the other entity from the **Entity Name** list.  
   
     > [!NOTE]
     >  When you specify the entity name, default values are set for the **Name** and **Relationship Entity Name** fields in the **Relationship Definition** section. If you change the **Entity Name** value before you save, these names will not change, so be sure these names are meaningful before saving.  
   
-8.  In the **Relationship Definition** section, confirm the **Name** and the **Relationship Entity Name**.  
+7.  In the **Relationship Definition** section, confirm the **Name** and the **Relationship Entity Name**.  
   
      These values must be unique among N:N relationships.  
   
-9. Click **Save and Close** to close the N:N Relationship form.  
+8. Click **Save and Close** to close the N:N Relationship form.  
   
-10. When your customizations are complete, publish them:  
+9. When your customizations are complete, publish them:  
   
     -   To publish customizations for only the component that you’re currently editing, on the **Home** tab, in the **Save** group, click **Publish**.  
   
@@ -85,3 +86,6 @@ tags:
     >   
     > [!INCLUDE[cc_solution_recommendation](../includes/cc-solution-recommendation.md)]  
 
+### See also
+
+[Create 1:N (one-to-many) relationships](../customize/create-and-edit-1n-relationships.md)

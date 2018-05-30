@@ -5,11 +5,13 @@ keywords: Dashboards; Customer Service Hub; Customer Service;  Microsoft Dynamic
 author: anjgupta
 applies_to: Dynamics 365 (online)
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 02/20/2018
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: df25e314-069c-4361-abbc-e7d0dde2a596
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Use interactive dashboards to effectively manage service cases in the Customer Service Hub
@@ -56,7 +58,7 @@ The illustrations given below show multi-stream and single-stream dashboards wit
 - Refresh All
 - Timeframe filter 
   
-![dashboard-header](media/dashboard-header.png "dashboard header")
+![dashboard-header](media/dashboard-header.png "Dashboard header")
   
 ### Multi-stream dashboard standard view  (with visual filter)
  In the multi-stream dashboard, when you select **Show Visual Filter**, you see a row of visual filters at the top with the data streams below.  
@@ -143,7 +145,7 @@ By using a combination of Visual and Global filters, you can drill down from a l
 
 For example, you can choose to view cases created in **This Quarter**, or  **Last Quarter**. You can also apply **Custom Time Frame** filter, where you can choose a particular start and end date to view the records created during a specific timeframe.   
 
-![custom-timeframe](media/custom-timeframe.png)
+![custom-timeframe](media/custom-timeframe.png "Custom timeframe")
   
   
 
@@ -168,9 +170,7 @@ Benefit from the Bulk Select option, where you can select multiple records at on
 
 Select the Bulk Select icon and select multiple records by selecting the check box. Then select **(...)** to view the actions that can be performed on the selected records.
 
-![bulk-select](media/bulk-select-csh.png "bulk select")
-
-
+![bulk-select](media/bulk-select-csh.png "Bulk select")
 
 ## Change the sort order in the data stream  
  You can easily toggle the sort order in the stream by selecting the field name on which you want the data to be sorted. You can also sort the records by oldest or newest. 
@@ -183,15 +183,18 @@ Select the Bulk Select icon and select multiple records by selecting the check b
 
 In the streams, the color is depicted using the thin vertical line to the left of the work item description. You can work with your administrator to choose the colors you like for your dashboard data.  
 
-![color-streams](media/color-streams.png "color streams in dashboard")
+![color-streams](media/color-streams.png "Color streams in dashboard")
 
 
 ## Information for customizers  
  For information on how to configure the interactive dashboards, see [Configure interactive experience dashboards](https://technet.microsoft.com/library/d1446a95-14bf-4b15-a905-72fce07f4c76.aspx)  
   
 
-### See also
+## See also
+
+[Configure interactive dashboards in the Customer Service Hub](configure-interactive-dashboards-customer-service-hub.md)
+
 [Learn the basics of the Customer Service Hub ](customer-service-hub-user-guide-basics.md)
   
-[Track your cases efficiently and act on them quickly](customer-service-hub-user-guide-case-sla.md)
+
   

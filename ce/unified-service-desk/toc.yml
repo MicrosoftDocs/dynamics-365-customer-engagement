@@ -23,6 +23,8 @@
       href: admin/unified-service-desk-interactive-service-hub-package.md
     - name: Unified Service Desk Web Client sample package
       href: admin/unified-service-desk-dynamics-365-web-client-package.md
+    - name: Unified Service Desk Unified Interface sample package
+      href: admin/unified-service-desk-dynamics-365-unified-interface-package.md
     - name: Unified Service Desk Upgrade sample package
       href: admin/unified-service-desk-upgrade-package.md
 - name: Install, deploy, and upgrade Unified Service Desk
@@ -83,6 +85,14 @@
       href: admin/configure-client-caching-unified-service-desk.md
     - name: Help improve Unified Service Desk
       href: admin/help-improve-unified-service-desk.md
+      items:
+      - name: Provide feedback about Unified Service Desk
+        href: admin/provide-feedback.md
+    - name: Comply with General Data Protection Regulation (GDPR)
+      href: admin/comply-gdpr.md
+      items:
+      - name: Comply Unified Service Desk data
+        href: admin/comply-unified-service-desk-data-gdpr.md
   - name: Configure auditing and diagnostics in Unified Service Desk
     href: admin/configure-auditing-diagnostics-unified-service-desk.md
   - name: Performance data collection using keyboard shortcut
@@ -105,11 +115,26 @@
       href: admin/export-unified-service-desk-configuration-data.md
   - name: Performance enhancement for CRM entity page loads
     href: admin/performance-enhancement-CRM-entity-page-loads.md
-    items:
-    - name: Known issues of performance enhancement for CRM entity page loads
-      href: admin/known-issues-performance-enhancement-CRM-entity-page-loads.md
   - name: Recover Internet Explorer process instance
     href: admin/recover-internet-explorer-process-instance.md
+- name: Analyze best practices in Unified Service Desk
+  href: admin/analyze-best-practices-unified-service-desk.md
+  items:
+  - name: Download and install Best Practices Analyzer
+    href: admin/download-install-best-practices-analyzer.md
+  - name: "Walkthrough: Configure Best Practices Analyzer"
+    href: admin/walkthrough-configure-best-practices-analyzer.md
+  - name: Read Best Practices Analyzer report
+    href: admin/read-best-practices-analyzer-report.md
+  - name: Best practice rule categories and parameters
+    href: admin/compliance-categories-parameters-bpa.md
+    items:
+    - name: System configurations
+      href: admin/system-configurations-bpa.md
+    - name: Internet Explorer settings
+      href: admin/internet-explorer-settings-bpa.md
+    - name: Unified Service Desk configurations
+      href: admin/unified-service-desk-configurations-bpa.md   
 - name: Configure your agent application using Unified Service Desk
   href: configure-agent-application-unified-service-desk.md
   items:
@@ -160,7 +185,7 @@
         href: create-user-defined-event.md
     - name: Configure toolbars in your application
       href: configure-toolbars-application.md
-    - name: Configure JAWS screen reader support
+    - name: Configure JAWS screen reader for Unified Service Desk
       href: configure-jaws-screen-reader-support.md
     - name: Configure session information
       href: configure-session-information.md
@@ -198,6 +223,26 @@
       href: walkthrough-configure-agent-scripting-agent-application.md
     - name: 'Walkthrough 8: Use Dynamics 365 knowledge base within your agent application'
       href: walkthrough-8-use-parature-knowledge-base-within-your-agent-application.md
+  - name: "Preview feature: Support for Unified Interface Apps"
+    href: Support-unified-interfaces-apps-usd.md
+    items:
+    - name: "Preview feature: Unified Service Desk and Unified Interface configuration walkthroughs"
+      href: unified-service-desk-unified-interface-configuration-walkthroughs.md
+      items:
+      - name: "Preview feature: Walkthrough 1: Build a simple agent application for Unified Interface Apps"
+        href: walkthrough1-unified-interface-build-a-simple-agent-application.md
+      - name: "Preview feature: Walkthrough 2: Display an external webpage in your agent application"
+        href: walkthrough2-unified-interface-display-an-external-webpage-in-your-agent-application.md
+      - name: "Preview feature: Walkthrough 3: Display Microsoft Dynamics 365 Unified Interface app records in your agent application"
+        href: walkthrough3-unified-interface-display-microsoft-dynamics-365-records-in-your-agent-application.md
+      - name: "Preview feature: Walkthrough 4: Display a Microsoft Dynamics 365 Unified Interface app record in a session in your agent application"
+        href: walkthrough4-unified-interface-display-dynamics-365-record-session-agent-application.md
+      - name: "Preview feature: Walkthrough 5: Display enhanced session information by displaying session name and overview data"
+        href: walkthrough5-unified-interface-display-enhanced-session-information-displaying-session-name-overview-data.md
+      - name: "Preview feature: Walkthrough 6: Configure the Debugger hosted control in your agent application"
+        href: walkthrough6-unified-interface-configure-debugger-hosted-control-agent-application.md
+      - name: "Preview feature: Walkthrough 7: Configure agent scripting in your agent application"
+        href: walkthrough7-unified-interface-configure-agent-scripting-agent-application.md
 - name: Extend Unified Service Desk
   href: extend-unified-service-desk.md
   items:
@@ -354,7 +399,7 @@
   - name: Use custom hosted control in Unified Service Desk
     href: use-custom-hosted-control-unified-service-desk.md
     items:
-    - name: 'Walkthrough: Create custom hosted control for Unified Service Desk'
+    - name: "Walkthrough: Create custom hosted control for Unified Service Desk"
       href: walkthrough-create-custom-hosted-control-for-unified-service-desk.md
     - name: Use SafeDispatcher for custom hosted controls in Unified Service Desk
       href: use-safedispatcher-custom-hosted-controls-unified-service-desk.md
@@ -427,6 +472,8 @@
     href: standard-web-application-hosted-control.md
   - name: Toolbar Container (Hosted Control)
     href: toolbar-container-hosted-control.md
+  - name: 'Preview feature: Unified Interface Page (Hosted Control)'
+    href: unified-interface-page-hosted-control.md
   - name: User Notes (Hosted Control)
     href: user-notes-hosted-control.md
   - name: USD Hosted Control (Hosted Control)
@@ -437,3 +484,8 @@
     href: session-timer-custom-hosted-control.md
 - name: Accessibility in Unified Service Desk for Microsoft Dynamics 365
   href: admin/accessibility-unified-service-desk-microsoft-dynamics-365.md
+- name: Release notes of Unified Service Desk
+  href: release-notes.md
+  items:
+  - name: Release notes of Unified Service Desk 3.3
+    href: release-notes-unified-service-desk-33.md

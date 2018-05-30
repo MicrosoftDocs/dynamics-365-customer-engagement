@@ -1,20 +1,23 @@
 ---
 title: "Set up Microsoft Social Engagement | Microsoft Docs"
 description: "Learn how you can set up Social Engagement in a few steps."
-ms.date: 09/12/2017
-ms.service: mse
+keywords: ""
+ms.date: 03/27/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
-applies_to: "Social Engagement"
+applies_to:
+  - "Social Engagement"
 ms.assetid: c05d085a-0528-42d4-9398-eb4bb079ce7e
-author: "m-hartmann"
+author: m-hartmann
 ms.author: mhart
 manager: sakudes
-robots: noindex,nofollow
+topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
+
 # Set up Microsoft Social Engagement
 This topic explains what the Administrator for your organization does to set up [!INCLUDE[pn_netbreeze_long](../includes/pn-social-engagement-long.md)].  
-  
-> [!VIDEO https://www.youtube.com/embed/04CVnYkXefU]
   
 <a name="set_sol_default"></a>   
 ## Define global settings  

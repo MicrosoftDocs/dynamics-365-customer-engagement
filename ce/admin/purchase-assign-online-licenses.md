@@ -1,7 +1,7 @@
 ---
 title: "Purchase and assign Dynamics 365 (online) licenses | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 04/04/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -46,14 +46,15 @@ manager: "brycho"
   
  ![Dynamics 365 Sales Plan buy now](../admin/media/dynamics-365-sales-plan-buy-now.png "Dynamics 365 Sales Plan buy now")  
   
-<a name="BKMK_AssignLicense"></a>   
+<a name="BKMK_AssignLicense"></a>  
+ 
 ## Assign a license to a user  
   
 1.  Browse to the [Office 365 admin center](https://portal.office.com) and sign in as a global admin.  
   
 2.  Click **Users** > **Active users**.  
   
-3.  Select multiple users, a then click **Edit product licenses**.  
+3.  Select multiple users, and then click **Edit product licenses**.  
   
  ![Edit product licenses for multiple users](../admin/media/edit-product-licenses-multiple-users.png "Edit product licenses for multiple users")  
   
@@ -68,6 +69,17 @@ manager: "brycho"
 7.  Review the license status on the Active users page and make other assignments as needed.  
   
  ![Active users page](../admin/media/active-users-page.png "Active users page")  
+
+## PowerApps licensing
+
+On March 21, 2018, we introduced PowerApps integration with Dynamics 365 for Customer Engagement. See the blogs [PowerApps Spring Update](https://powerapps.microsoft.com/blog/powerapps-spring-announce/) and [What’s new in the Dynamics 365 admin center](https://blogs.msdn.microsoft.com/crm/2018/03/21/whats-new-in-the-dynamics-365-admin-center/).
+
+Dynamics 365 and PowerApps are now based on the same platform that powers Dynamics 365. PowerApps users appear as users in Dynamics 365 via **Settings** > **Security** > **Users**. What users can do and the security role assigned to them is scoped to PowerApps and Flow applications managed by environment administrators. See [Configure environment security](https://docs.microsoft.com/powerapps/administrator/database-security).
+
+PowerApps users can be licensed in multiple ways. They can be assigned a license by a Global administrator of PowerApps, Flow or many of the Office 365 user licenses (almost all Office 365 user license types) that include PowerApps capabilities.  PowerApps users can also be licensed via self-serve sign-up. See [Manage licenses in my org](https://docs.microsoft.com/powerapps/administrator/signup-question-and-answer).
+
+> [!TIP]
+> You can use security groups to control which licensed users can be a member of a particular instance by assigning a security group to your Dynamics 365 (online) instances. See [Control user access to instances: security groups and licenses](add-instance-subscription.md#control-user-access-to-instances-security-groups-and-licenses). 
   
 ### See also  
  [Important information for CRM Online customers](../admin/important-information-customers.md)   

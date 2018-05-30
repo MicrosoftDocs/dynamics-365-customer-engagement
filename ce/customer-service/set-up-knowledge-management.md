@@ -1,20 +1,21 @@
 ---
-title: "Set up knowledge management (Dynamics 365 for Customer Service) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 09/15/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Set up knowledge management (Dynamics 365 for Customer Service) | MicrosoftDocs
+description: See how to set up knowledge management in Dynamics 365 for Customer Service
+keywords: Set up knowledge management; Dynamics 365; Customer Service
+author: anjgupta
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.author: anjgup
+manager: shellyha
+ms.date: 09/15/2017
+ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.assetid: 68356343-fdd5-4c0e-9c09-dbebf718c764
-caps.latest.revision: 17
-ms.author: "anjgup"
-manager: "sakudes"
+ms.custom:
+  - dyn365-customerservice
 ---
+
 # Set up knowledge management (Customer Service)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]

@@ -1,21 +1,25 @@
 ---
 title: "Preview feature: Set up Cortana integration with Dynamics 365 Customer Engagement | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics CRM Online"
 ms.assetid: b31d2c05-5785-4827-bd3e-e65ad95040d0
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 11
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # Preview feature: Set up Cortana integration
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
@@ -32,9 +36,7 @@ We’re introducing [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integratio
 > [!NOTE]
 > [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
   
- <!-- Eventually, Cortana integration will be fully included in the product.  -->
-  
- For more information about how to enable Preview features, see [What are Preview features and how do I enable them?](what-are-preview-features-how-do-i-enable-them.md).  
+ For more information about how to enable Preview features, see [What are Preview features and how do I enable them?](../admin/what-are-preview-features-how-do-i-enable-them.md).  
   
 > [!NOTE]
 > [!INCLUDE[pn_cortana](../includes/pn-cortana.md)] integration with [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] is a Preview feature. [!INCLUDE[cc_preview_feature](../includes/cc-preview-feature.md)]  

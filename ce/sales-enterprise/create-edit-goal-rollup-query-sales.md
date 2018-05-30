@@ -1,25 +1,39 @@
 ---
-title: "Create or edit a goal rollup query (Dynamics 365 for Sales) | MicrosoftDocs"
-ms.custom: ""
-ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+title: "Define a goal rollup query (Dynamics 365 for Sales) | MicrosoftDocs"
+description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 for Sales."
+keywords: "goal, rollup query"
+ms.date: 04/01/2018
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 2c15d62a-5cfa-4229-afe2-8927d45edadc
-caps.latest.revision: 31
-ms.author: "shujoshi"
-manager: "amyla"
+author: shubhadaj
+ms.author: shujoshi
+manager: sakudes
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
+topic-status: Drafting
 ---
-# Create or edit a goal rollup query (Sales)
+
+# Define a goal rollup query (Sales & Sales Hub)
+
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
 
 Use the rollup query to gather data about a given goal, including all its related goals, in one view.  
+
+## Create a rollup query (Sales Hub app)
+
+> [!IMPORTANT]
+
+> Currently, you can't create a goal rollup query in the Sales Hub app. To create a goal rollup query, use the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] - custom app.
+
+## Create a rollup query (Sales app)
   
 [!INCLUDE[proc_permissions_mgr_vp_ceo_busmgr_sysadmin_syscust](../includes/proc-permissions-mgr-vp-ceo-busmgr-sysadmin-syscust.md)]  
   
@@ -33,11 +47,11 @@ Use the rollup query to gather data about a given goal, including all its relate
   
 2.  Go to **Rollup Queries**. [How do I get there?](../basics/navigation-customer-engagement-enterprise.md)  
   
-3.  To create a new rollup query, in the **Records** group, click **New**.  
+3.  To create a new rollup query, in the **Records** group, select **New**.  
   
      -OR-  
   
-     To edit a rollup query, click **Edit**.  
+     To edit a rollup query, select **Edit**.  
   
 4. [!INCLUDE[proc_handy_infotips](../includes/proc-handy-infotips.md)]  
   
@@ -45,20 +59,20 @@ Use the rollup query to gather data about a given goal, including all its relate
   
     - **Entity Type**. Select the record type.  
   
-    - **Owner**. Click the **Lookup** icon, and select the user or team who will own this query.  
+    - **Owner**. Select the **Lookup** icon, and select the user or team who will own this query.  
   
         > [!NOTE]
         >  If you change this selection after you add your query criteria in the **Query** section, your query criteria will be deleted.  
   
 5.  In the **Query** section, add the criteria for your query. The criteria you can add depends on the record type.  
   
-6.  To see the results for the query, click **View Records**.  
+6.  To see the results for the query, select **View Records**.  
   
-7.  Click **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  
+7.  Select **Save**, **Save and Close**, or, to create a new rollup query, **Save and New**.  
   
-8.  To view the data for a goal, on the nav bar, click **Sales**, and then click **Goals**.  
+8.  To view the data for a goal, on the nav bar, select **Sales**, and then select **Goals**.  
   
-9. Select the goal you want, and then click **More Commands**![More Commands button in Appointment Activity](../sales-enterprise/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then click **Recalculate**.  
+9. Select the goal you want, and then select **More Commands**![More Commands button in Appointment Activity](../sales-enterprise/media/more-commands-button.gif "More Commands button in Appointment Activity"), and then select **Recalculate**.  
   
      The values of the actuals are recalculated. You can see the recalculated values in the **Percentage Achieved**, **Actual**, and **In-Progress** columns. If you open the goal, under **Actuals**, you can see the **Last Rolled Up Date**.  
   

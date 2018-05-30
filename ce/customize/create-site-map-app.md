@@ -1,16 +1,19 @@
 ---
-title: "Create a site map for an app (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-description: ""
+title: "Create a site map for an app in PowerApps | MicrosoftDocs"
+description: "Learn how to create a site map for you app"
 keywords: ""
-ms.date: 09/30/2017
+ms.date: 04/05/2018
 ms.service: crm-online
 ms.custom: 
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: 2461bd71-6cb4-46b7-8d1f-6a0aa3dca809
-ms.author: shujoshi
+ms.author: "matp"
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -20,14 +23,13 @@ topic-status: Drafting
 
 # Create a site map for an app using the site map designer
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
-Site maps define the navigation for your app. Create a site map for your app with ease by using the tile-based site map designer. Use the new designer to drag components onto the design canvas, preview your work, and instantly publish the site map. Administrators and any user with the required privileges can quickly create site maps for apps.  
+Site maps define the navigation for your app. Create a site map for your app with ease by using the tile-based site map designer. Use the designer to drag components onto the design canvas, preview your work, and instantly publish the site map. Administrators and any user with the required privileges can quickly create site maps for apps.  
   
-The site map designer also lets you define the area, subarea, or group titles in the languages supported by [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
+The site map designer also lets you define the area, subarea, or group titles in the languages supported by the environment.  
   
-[//]: # (@Uday, please check that the token works here. It was approved during the review cycle for the Tokenizer, but never was created on GitHub. Today -- Nov. 20 -- I created the file and submitted a pull request.)
-By default, a site map for the [!include[](../includes/pn-custom-app-module.md)] app is already available. You can edit this site map or configure site maps for new apps by using the site map designer. The site map designer is integrated with the app designer.  
+A default site map is available. You can edit this site map or configure site maps for new apps by using the site map designer. The site map designer is integrated with the app designer.  
 
 ## Prerequisites
 Verify the following prerequisites before you start creating the site map:
@@ -36,7 +38,7 @@ Verify the following prerequisites before you start creating the site map:
 -   Read and Write privileges for the Customizations entity  
 -   Read privileges for the Solution entity
   
-## Create a site map for a custom app  
+## Create a site map for an app  
   
 1. On the app designer canvas, in the **Site Map** area, select **Open the Site Map Designer** ![Open Site Map Designer button](../customize/media/dynamics365-open-designer.PNG "Open Site Map Designer button").  
   
@@ -60,9 +62,9 @@ Verify the following prerequisites before you start creating the site map:
   
 6.  Select **Publish**.  
   
-## Edit the default site map (Dynamics 365 - custom app) 
+## Edit the default site map 
 
- [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] comes with a default site map for the [!include[](../includes/pn-custom-app-module.md)] app. This site map is supported for both the web app and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+ Your environment comes with a default site map. This site map is supported for both model-driven apps and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
 1. In the [!include[](../includes/pn-custom-app-module.md)] app, go to **Settings** > **Customizations**.  
   
@@ -109,9 +111,9 @@ Verify the following prerequisites before you start creating the site map:
   
      Under **Advanced**, do the following:  
   
-    - **More Titles**: If your organization uses multiple languages, select a language (Locale) for the title, enter the title, and then select **Add**![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete titles for as many languages as your organization uses. However, you can have only one title per language.  
+    - **More Titles**: If your organization uses multiple languages, select a language (Locale) for the title, enter the title, and then select **Add** ![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete titles for as many languages as your organization uses. However, you can have only one title per language.  
   
-    - **More Description**: If your organization uses multiple languages, select a language for the description, enter the description, and then select **Add**![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete descriptions for as many languages as your organization uses. However, you can have only one description per language.  
+    - **More Description**: If your organization uses multiple languages, select a language for the description, enter the description, and then select **Add** ![Add button in the site map designer](../customize/media/add-icon-sitemap-designer.png "Add button in the site map designer"). You can create, edit, or delete descriptions for as many languages as your organization uses. However, you can have only one description per language.  
   
     - **URL**: Enter the URL to render for the [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] folder that represents the area.  
   
@@ -219,9 +221,10 @@ Verify the following prerequisites before you start creating the site map:
   
 |Site Maps|Supported Clients|  
 |---------------|-----------------------|  
+|New apps| Unified Interface and [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app |  
 |Site map for the [!include[](../includes/pn-custom-app-module.md)] app|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app and [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]|  
 |Default business apps (Sales, Sales Hub, Customer Service, Customer Service Hub, Field Service, Project Service Automation)|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app and Unified Interface|  
-|New apps|[!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] web app and Unified Interface|  
+ 
   
 ### See also  
  [Create or edit an app](../customize/create-edit-app.md)   

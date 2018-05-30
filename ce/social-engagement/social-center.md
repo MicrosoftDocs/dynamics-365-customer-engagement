@@ -3,7 +3,7 @@ title: "Streams in Social Center of Microsoft Social Engagement | Microsoft Docs
 description: "Get started to work efficiently in Social Center."
 keywords: "social center, streams, post list, social engagement, engagement"
 ms.date: 12/08/2017
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Social Engagement"
@@ -12,13 +12,14 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Keep track of live data streams with Social Center
 Social media runs at a fast pace. To keep up and collaborate efficiently, your personal streams come in handy. Manage your streams, share them with other users, and stay informed in real time on new and updated posts. New posts are posts that were recently picked up by a search topic and processed to appear in a solution. Fresh posts are posts whose metadata has been changed recently (for example, a label was added or a post received a reply). Streams use filters to define the data set and surface the most relevant posts.  
 
-> [!VIDEO https://www.youtube.com/embed/vlxQG-h_ZRg]
-  
+ 
  To see your streams, go to **Social Center**.  
   
  Streams in Social Center are user-specific, meaning that every user sees only streams they own or that are shared with them. Depending on your interaction role, you can create, edit, share, or delete streams, or interact with posts from your streams. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Understand user roles](user-roles.md), [Drive business objectives using posts](publish-react-posts.md)  

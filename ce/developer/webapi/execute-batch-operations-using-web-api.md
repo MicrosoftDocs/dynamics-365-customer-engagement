@@ -2,7 +2,7 @@
 title: "Execute batch operations using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Batch operation lets you group multiple operations in a single HTTP request. Read how to execute batch operations using the Web API"
 ms.custom: ""
-ms.date: 12/15/2017
+ms.date: 05/23/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,6 +29,9 @@ You can group multiple operations into a single HTTP request using a batch opera
  Remember that associated entities can be created in a single operation more easily than using a batch request. Batch requests are best used when performing operations on entities that aren’t associated with each other when all the operations must be performed in a single transactional operation.  
   
  Also, the responses returned are essentially text documents rather than objects that can easily be parsed into JSON. You’ll need to parse the text in the response or locate a helper library to access the data in the response.  
+ 
+> [!NOTE]
+>  Batch requests can contain up to 100 individual requests and cannot contain other batch requests.  
   
 <a name="bkmk_BatchRequests"></a>   
 ## Batch requests  
@@ -202,7 +205,7 @@ Prefer: odata.include-annotations="*"
   
 --batch_AAA123-- 
 ```
-For more information on preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
+[!INCLUDE[sdk_for_more_info_about](../../includes/sdk-for-more-info-about.md)] preference headers, see [Header Prefer](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752234).
 
 ### See also
 

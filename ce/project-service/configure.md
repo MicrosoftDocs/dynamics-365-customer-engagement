@@ -1,9 +1,10 @@
 ---
 title: "Configure Dynamics 365 for Project Service Automation | MicrosoftDocs"
-ms.custom: ""
+ms.custom:
+  - dyn365-projectservice
 ms.date: 09/15/2017
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "project-service-automation"
@@ -12,10 +13,11 @@ ms.topic: "get-started-article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: krbjoran
 ms.assetid: 72ece784-fe33-4318-8f27-f4c861d4adbc
 caps.latest.revision: 16
-ms.author: "mkaur"
-manager: "brycho"
+ms.author: krbjoran
+manager: shellyha
 ---
 # Configure Project Service Automation
 

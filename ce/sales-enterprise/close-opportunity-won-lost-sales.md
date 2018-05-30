@@ -2,9 +2,10 @@
 title: "Close an opportunity as won or lost (Dynamics 365 for Sales) | MicrosoftDocs"
 description: "Close the opportunity to indicate whether it was won or lost."
 keywords: "Close, Won, Lost, opportunity, proposal"
-ms.date: 09/22/2017
-ms.service: crm-online
-ms.custom: 
+ms.date: 04/01/2018
+ms.service: dynamics-365-sales
+ms.custom:
+  - dyn365-sales
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -12,7 +13,7 @@ applies_to:
 ms.assetid: be3ff5e6-019b-4c07-aebb-e5792af19b4d
 author: shubhadaj
 ms.author: shujoshi
-manager: amyla
+manager: sakudes
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

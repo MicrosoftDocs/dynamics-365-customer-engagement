@@ -10,10 +10,11 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+author: "Mattp123"
 ms.assetid: a987a803-4674-4eb0-87de-caefa003b1eb
 caps.latest.revision: 12
-ms.author: "rdubois"
-manager: "brycho"
+ms.author: "matp"
+manager: "kvivek"
 ---
 # Monitor and manage workflow processes
 
@@ -50,12 +51,6 @@ To monitor and manage processes, you must locate the process, evaluate the statu
  To view the log of errors for a specific process, open the real-time workflow or action definition and go to the **Process Session** tab. This will only show any errors logged for this process.  
   
  If you want a view of all the errors for any process, go to **Advanced Find** and create a view showing errors on the process session entity.  
-  
-<!-- 
-<a name="BKMK_MonitorDialogs"></a>   
-## Monitoring dialogs  
- Every dialog that is run will create a Process Session record. This record provides a summary of the interaction within the dialog. You can view the Process Sessions for a specific dialog by using the Process Sessions area for that dialog, or you can use **Advanced Find** to create a query where the related **Process** **Category** is **Dialog**.  
--->
   
 <a name="BKMK_StatusOfWorkflowProcesses"></a>   
 ## Status of workflow processes  

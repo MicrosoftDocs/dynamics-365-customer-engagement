@@ -1,8 +1,8 @@
 ---
 title: "Dynamics 365 for phones and tablets User's Guide (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/22/2018
-ms.reviewer: ""
+ms.date: 05/24/2018
+ms.reviewer: "kvivek"
 ms.service: "crm-online"
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,6 +25,7 @@ Use the [!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!IN
 > [!NOTE]
 > - On February 21, 2018, we announced the deprecation of the Windows Phone app for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. On May 22, 2018, the Windows Phone app will no longer be supported for [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)]. Support for the  app on Windows tablets and PCs remains unchanged. The Windows Phone app will continue to be available in the store and will be supported for Dynamics 365, (version 8.2) and earlier supported versions. If you wish to continue to use the Windows Phone app, you should not update to Dynamics 365, version 9.0 as the Windows Phone app will not be supported with version 9.x. 
 > - [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] has separate mobile apps for [!INCLUDE[pn_field_service](../includes/pn-field-service.md)] and Operations. Learn about [Dynamics 365 for Field Service (Resco) mobile app](https://go.microsoft.com/fwlink/?linkid=846157) and [Dynamics 365  for Operations mobile app](https://ax.help.dynamics.com/en/wiki/mobile-development-handbook/).  
+> - We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
     
 ## Install the app from your device’s app store  
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phone and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)    
@@ -51,14 +52,6 @@ Here's how to sign out in case someone else needs to use your device.
 3.  Tap **Sign out**.
 
 You can sign in again as the same or a different user, or you can sign in to a different organization.
-
-<!-- 
-## Continuum support for Windows Phone
-Use your phone like a PC with Continuum support. You can connect a Windows 10 mobile device to a larger screen, allowing you to utilize your phone as a PC. Use a dock or adapter to connect to a monitor, keyboard, and mouse, and then use the mobile app on your Windows 10 phone and see your content on a larger screen.
-
-When your phone is connected to another screen, the mobile app reflows to fit the larger screen size. You can also continue to use your phone the way you normally would without interrupting what’s playing on the larger screen. This offers a natural, no compromise, and familiar method to seamlessly switch between a smaller device to a bigger device, without impacting your productivity. [Learn more about
-Continuum](https://www.microsoft.com/en-us/windows/Continuum).
--->
 
 ## Basic navigation
 
@@ -415,45 +408,6 @@ Other things to keep in mind about background sync:
 If multiple entries are made in the same field by offline users (for example, two or more “close by” dates), the conflict is clearly marked and you can choose the correct entry.  
   
 If a record has changed on the server between the time your device retrieved the record and when it tries to update or delete that record,   you'll see an exclamation mark   ("!”) by the relevant field, and will need to resubmit your  updated changes.
-
-<!-- Commenting out this content per request from Ankit Saraf. Safe to delete later if no request to bring it back. It also exits in configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md
-
-**Enhanced sync filters**
-
-Admins can choose what information to sync to user's devices. This can help minimize impact to user's device's memory.  
- 
-> [!NOTE]
->  Make sure that your users are using the latest version of the mobile app For Advanced Filters to work offline.  
-  
- Admins can define a custom filter based on the following rules. You can create filters up to three levels.  
-
- |    |  
- |----|  
- |equal|  
- |not equal|  
- |gt – greater than|  
- |ge – greater than or equal to|  
- |le – less than or equal to|  
- |lt – less than|  
- |like|  
- |not-like|  
- |in|  
- |not-in|  
- |null|  
- |not-null|  
- |eq-userid|  
- |ne-userid|  
- |eq-userteams|  
- |eq-useroruserteams|  
- |eq-useroruserhierarchy|  
- |eq-useroruserhierarchyandteams|  
- |eq-businessid|  
- |ne-businessid|  
- |eq-userlanguage|  
- |begins-with|  
- |not-begin-with|  
- |ends-with|  
- |not-end-with| -->
  
 ## Reconfigure the app
 

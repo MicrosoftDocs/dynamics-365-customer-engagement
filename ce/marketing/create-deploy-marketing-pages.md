@@ -3,7 +3,7 @@ title: "Design, check, and publish marketing pages (Dynamics 365 for Marketing) 
 description: "How to design and deploy landing, forwarding, and subscription pages in Dynamics 365 for Marketing"
 keywords: "landing page; subscription center; forward to a friend; form; field; matching"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +14,8 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Create and deploy marketing pages
@@ -249,7 +251,7 @@ Administrators can choose settings that control several aspects of the way all m
 
 [Create a landing page](create-landing-page.md)  
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)
 [Content blocks reference](content-blocks-reference.md)  
 [Upload and use images and files](upload-images-files.md)  
 [How Dynamics 365 for Marketing uses cookies](cookies.md)

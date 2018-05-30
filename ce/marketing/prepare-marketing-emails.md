@@ -2,8 +2,8 @@
 title: "Design, preview, check, and send marketing emails (Dynamics 365 for Marketing) | Microsoft Docs "
 description: "How to design and deliver marketing email messages in Dynamics 365 for Marketing"
 keywords: "email; marketing email; dynamic content; go live; validation; preview; Litmus"
-ms.date: 04/01/2018
-ms.service: crm-online
+ms.date: 04/25/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,13 +14,15 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
+ms.custom:
+  - dyn365-marketing
 ---
 
 # Prepare marketing email messages
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-<div class="embeddedvideo"><iframe src="https://go.microsoft.com/fwlink/p/?linkid=863168" frameborder="0" allowfullscreen></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/17c3476e-9383-413b-98ec-0b1ac6659824" frameborder="0" allowfullscreen=""></iframe></div>
 
 The process for creating marketing emails in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] begins with understanding what makes them such a powerful tool for your marketing campaigns. After you create a good design aimed at a specific segment of your audience, you preview it and check for errors before going live. You can fine-tune the reach and effectiveness of your message through advanced operations like merging database values, adding dynamic content, and introduce programming logic.
 
@@ -101,6 +103,8 @@ Marketing messages are delivered as HTML and therefore support hyperlinks. Some 
 - **Forward to a friend**: This type of link opens a form that contacts can use to forward a marketing email to their own friends or colleagues by entering recipients' email addresses. It's a good idea to include this type of service for your contacts because messages forwarded by using the forward form are counted correctly in your email results and analytics (messages forwarded by using a contact's local email client forward feature won't be registered in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], and all message opens and clicks performed by the recipients who were forwarded the message will be credited to the original recipient). A forward-to-a-friend page ID can be included in each set of content settings, but none is provided out of the box, so you must create a forwarding page and add it to your content settings to use this feature. You add a forward-to-a-friend link to your page by using the dynamic-content feature, which creates the link based on the page identified in the content settings.
 - **View as a web page**: This link opens the marketing email message in a web browser. Some recipients will find this useful if their standard email client is having trouble rendering the message. You add this link to your page by using the assist-edit feature, which creates the link by using the message object itself.
 
+<a name="dynamic-content"></a>
+
 ## Add dynamic content
 
 Dynamic content is content that gets resolved just before a message is sent to a specific individual. You'll typically use dynamic content to merge information from the recipient's contact record (such as first and last name), to place special links, and to place information and links from the content settings. If you're comfortable working in code, you can also create custom logic that includes conditional statements, while loops, and more. You can use dynamic content in your message body and in the message header fields (subject, from address, and from name).
@@ -149,22 +153,18 @@ Start by positioning your cursor in the field where you want to insert the dynam
 
 After you've selected a source, the **Assist Edit** drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as *{{ SourceName.FieldName }}* or *{{ SourceName(RecordID).FieldName }}*, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
 
-- `{{ Contact.FirstName }}`  
+- `{{ contact.firstname }}`  
 Places the recipient's first name.
-- `{{ ContentSettings.SubscriptionCenter }}`  
-Places a link to the subscription center page identified in the active content settings.
-- `{{ ContentSettings.ForwardToAFriend }}`  
+- `{{ msdyncrm_contentsettings.msdyncrm_subscriptioncenter }}`  
+Places the URL for the subscription center page identified in the active content settings.
+- `{{ msdyncrm_contentsettings.msdyncrm_forwardtoafriend }}`  
 Places a link to the forwarding page identified in the active content settings.
-- `{{ Message.OpenAsWebPage }}`  
-Places a link that opens the current message in a web browser.
+- `{{ Message.ViewAsWebpageURL }}`  
+Places the URL for opening the current message in a web browser.
 - `{{ msevtmgt_event(123).msevtmgt_webinarurl }}`  
-Places the web URL for the event identified by the specified event ID (123 in the example).
+Places the webinar URL for the event identified by the specified event ID (123 in the example).
 - `{{ msdyn_survey(321).msdyn_name }}`  
 Places the name of the survey identified by the specified survey ID (321 in the example).
-- `{{ Contact.Account.OwnerUser.PrimaryEmail }}`  
-This is a useful expression for setting up the **From Email** address for a message. It resolves to the email address of the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] user who owns the account associated with the mail recipient. This person is typically the account manager, who the recipient may know personally. Contacts are much more likely to open a message when it comes from somebody they know.
-- `{{ Contact.Account.OwnerUser.FullName }}`  
-This is similar to the previous example, but this time the expression resolves to the account manager's full name (useful for use in the **From Name** field).
 
 ### Advanced dynamic content
 
@@ -177,16 +177,6 @@ You must write your dynamic logic by using Handlebars syntax, which you can read
 
 > [!NOTE]
 > The assist-edit feature provided by the graphical editor creates Handlebars syntax and inserts it into the code automatically. You can see this when you open the message in the HTML editor. You can use either editor to add dynamic features supported by both, but the code editor is more flexible.
-
-The following table provides a few examples of how you might use Handlebars to add custom, dynamic features to your marketing email messages.
-
-| **Feature type** | **Description** | **Examples** |
-|------------------|-----------------|--------------|
-| Properties       | Inserts a database value|`{Contact.FirstName}}`<br />`{{ContentSettings.SenderAddress}}`|                      |
-| If/Else          | Creates a conditional statement that decides at send time which content to include for each recipient. |`{{#if Contact.Deleted}}`<br />`Deleted`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country 'Denmark')}}`<br />`Hej`<br />`{{else if (eq Contact.Country 'UK')}}`<br />`Hi`<br />`{{/if}}`<br /><br />`{{#if (eq Contact.Country Contact.DeliveryCountry)}}`<br />`Delivered to you`<br />`{{/if}}`<br /><br />`{{#if (gt Contact.Age 18)}}`<br />`Apply now`<br />`{{/if}}`<br /><br />`{{#if (lte Contact.Age 70)}}`<br />`Apply now`<br />`{{/if}}`|
-| For each         | Creates a for-each loop | `{{#each Contact.Addresses}}`<br />`{{this.StreetName}}`<br />`{{/each}}` |
-|Relationships    | Finds database field values from a related record. | `{{Contact.Phone.PrimaryPhone}}`<br />`{{Contact.SalesPerson.Address.StreetName}}` |
-| Custom entities  | Finds a value from a specific record, identified by an ID value. | `{{LandingPage(123).Url}}` |
 
 ## Inspect and edit the text-only version of your message
 
@@ -267,7 +257,7 @@ The inbox preview is provided by a [!INCLUDE[cc-microsoft](../includes/cc-micros
 The **Inbox Preview** tab displays a grid of icons, each labeled with the name of a different destination platform or email client. Initially, each preview is dimmed and shows a key (locked) icon, which means that you haven't yet generated that preview by using your current design and settings. Select one of these icons to generate that preview and unlock its icon. Each time you unlock a preview, you'll use one preview from either your organization's or your personal quota. The unlocked preview remains available for viewing until you change the design or the **Properties** (dynamic text) settings, at which time all existing previews will no longer be valid and will be shown as locked again.
 
 > [!NOTE]
-> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Enable Litmus inbox previews](marketing-settings.md#marketing-configuration)
+> Litmus must be enabled for your site before you can use it. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Default marketing settings](marketing-settings.md#marketing-configuration)
 
 ## Required elements: How to pass the error check
 
@@ -301,7 +291,7 @@ To publish a message, open it and select **Go Live**. [!INCLUDE[pn-microsoftcrm]
 [Create a marketing email](create-marketing-email.md)  
 [Create a simple customer journey](create-simple-customer-journey.md)  
 [Design your digital content](design-digital-content.md)  
-[Designer keyboard shortcuts](designer-shortcuts.md)  
+[Accessibility and keyboard shortcuts](designer-shortcuts.md)
 [Content blocks reference](content-blocks-reference.md)  
 [Work with email templates](email-templates.md)  
 [Upload and use images and files](upload-images-files.md)
