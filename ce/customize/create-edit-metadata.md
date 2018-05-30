@@ -21,7 +21,7 @@ manager: "kvivek"
 
 # Entities, metadata, and the metadata browser
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 This topic looks at metadata and how you can use it to create [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] apps or customize [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)].  
   

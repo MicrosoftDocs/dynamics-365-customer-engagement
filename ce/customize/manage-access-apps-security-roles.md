@@ -1,8 +1,8 @@
 ---
-title: "Manage access to Dynamics 365 Customer Engagement apps by using security roles | MicrosoftDocs"
-description: ""
+title: "Manage access to PowerApps apps by using security roles | MicrosoftDocs"
+description: "Learn how to control access to your PowerApps apps"
 keywords: ""
-ms.date: 10/25/2017
+ms.date: 04/12/2018
 ms.service: crm-online
 ms.custom: 
   - dyn365-deflc
@@ -10,9 +10,11 @@ ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
-author: "shubhadaj"
+  - "powerapps"
+author: "Mattp123"
 ms.assetid: c00f867d-78f0-4f3e-a716-f7b25f9d343a
-ms.author: shujoshi
+ms.author: matp
+manager: kvivek
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -22,7 +24,7 @@ topic-status: Drafting
 
 # Manage access to apps by using security roles
 
-[!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
+ [!INCLUDE [cc-applies-to-powerapps-and-update-9-0-0](../includes/cc-applies-to-powerapps-and-update-9-0-0.md)]
 
 You can choose what users see and access from the **My Apps** page or the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] home page by giving app access to specific security roles. Users will have access to apps based on the security roles they're assigned to.  
   
