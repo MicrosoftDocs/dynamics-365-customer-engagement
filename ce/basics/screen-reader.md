@@ -35,7 +35,7 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 Although you can use a screen reader anywhere in Dynamics 365 Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 Customer Engagement, visit [About Unified Interface in Dynamics 365](../admin/about-unified-interface.md).
 
 
-Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-the-app-switcher.md) in Dynamics 365 to open a Unified Interface app.
+Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-the-app-switcher) in Dynamics 365 to open a Unified Interface app.
 
 1.	On the navigation bar, use the **Tab** key to move to the Dynamics 365 drop-down control and press **Enter** to open the site map.
 2.	Press the **Tab** key until you hear the name of the application you want to open—for example, “Sales Hub.” Press **Enter** to open the app.
