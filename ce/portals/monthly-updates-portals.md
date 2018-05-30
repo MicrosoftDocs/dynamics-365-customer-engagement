@@ -45,6 +45,10 @@ Portal capabilities version 8.3 for [!INCLUDE[pn-dynamics-crm](../includes/pn-dy
   
 - **Administrative wizard to add an entity to the portal**: This feature introduces a new administrative wizard to easily expose data on the portal. The entity created through the wizard takes the data from your organization and makes a subset of it available to your portal customers, based on the security and permission model you choose. More information: [Create and expose portal content easily](create-expose-portal-content.md)
 - **Portal interaction tracking (preview)**: Use this preview feature to track a customer's interaction with your portal and funnel it to [!include[](../includes/pn-customerinsight-full.md)]. This will be helpful for plotting a 360-degree view of the user’s journey on your portal before and after a case is created. This also helps you to understand the real issue, avoid asking the user for the same information over again, and enable you to respond with relevant information.
+
+  > [!NOTE]
+  > The preview for this feature has ended. For more information on Microsoft Dynamics 365 for Customer Insights preview, click [here](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-insights/preview-retire).
+
 - **Import metadata translation**: Use this feature to import the metadata translation of newly activated languages after you install a portal. More information: [Import metadata translation](manage-portal.md#import-metadata-translation)
 - **Source code availability for portals**: A one-time release of portal capabilities code is released to the Microsoft Download Center under MIT license for developers to download. This feature enables portals to be deployed to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] on-premises or online environments, and allows developers to customize the code to suit their specific business needs.
 

@@ -2,12 +2,16 @@
 # [What's new](monthly-updates-portals.md)
 # [Provision a portal](provision-portal.md)
 
-# [Manage a portal](manage-portal.md)
+# [Administer a portal](manage-portal.md)
 ## [Supported browsers](supported-browsers.md)
 ## [Connect with Dynamics 365 online organization](connect-with-dynamics.md)
 ## [View portal error logs](view-portal-error-log.md)
 ## [Change Dynamics 365 instance](change-dynamics-instance.md)
 ## [Clear the server-side cache](clear-server-side-cache.md)
+## [Download public key of portal](get-public-key.md)
+## [Reset a portal](reset-portal.md)
+## [Change base URL of a portal](change-base-url.md)
+## [Upgrade a portal](upgrade-portal.md)
 
 # [Configure a portal](configure-portal.md)
 ## [Enable multiple-language support](enable-multiple-language-support.md)
@@ -18,6 +22,7 @@
 ### [Configure OpenID provider settings](configure-openid-settings.md)
 ### [Configure WS-Federation provider settings](configure-ws-federation-settings.md)
 ### [Configure SAML 2.0 provider settings](configure-saml2-settings.md)
+### [Migrate identity providers to Azure AD B2C](migrate-identity-providers.md)
 ## Search
 ### [Improve search by using faceted search](improve-portal-search-faceted-search.md)
 ### [Search within file attachments](search-file-attachment.md)
