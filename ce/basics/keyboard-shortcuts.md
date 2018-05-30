@@ -201,4 +201,4 @@ If you’re in a record—for example, a lead—this section shows you the keybo
 ## See also
 
 [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
-
+ [Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
