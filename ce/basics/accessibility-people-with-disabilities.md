@@ -21,8 +21,8 @@ Microsoft is committed to making its products and services easier for everyone. 
 ## Keyboard shortcuts in Dynamics 365 Customer Engagement apps 
 [!INCLUDE[pn_dynamics-crm](../includes/pn-dynamics-crm.md)] offers keyboard shortcuts to address issues faced by people with limited dexterity or motion disabilities. Also, people who don’t use a mouse can use a keyboard to navigate and complete actions.  More information: [Use keyboard shortcuts in Dynamics 365 Customer Engagement applications](../basics/keyboard-shortcuts.md)
   
-## Using a screen reader in Unified Interface apps
-Screen readers make Dynamics 365 Customer Engagement applications accessible to people who have low or no vision. Unified Interface apps in Dynamics 365 enable a more consistent screen reader experience. More information: [Using a screen reader with Unified Interface apps](../basics/screen-reader.md)
+## Use a screen reader in Unified Interface apps
+Screen readers make Dynamics 365 Customer Engagement applications accessible to people who have low or no vision. Unified Interface apps in Dynamics 365 enable a more consistent screen reader experience. More information: [Use a screen reader with Unified Interface apps](../basics/screen-reader.md)
 
 ## Accessibility info for browsers  
 For accessibility information about your browser, visit the following websites:  
@@ -36,7 +36,7 @@ For accessibility information about your browser, visit the following websites:
 -   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)  
   
 ## Heighten color contrast of some text and images  
- The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You’ll find this setting on the **Ease of Access** page in [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx), [Windows 8](http://www.microsoft.com/enable/products/windows8/default.aspx), and [Windows 7](http://www.microsoft.com/enable/products/windows7/default.aspx).  
+ The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You’ll find this setting on the **Ease of Access** page in [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx).  
   
  If you’re using the high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)], you should also select **Enable high contrast** in your [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] personal options. On your dashboard, click or tap ![Gear button](../basics/media/selection-rule-gear-button.gif "Gear button") **>** **Options**. Click or tap the **General** tab, click or tap **Enable high contrast**, and then click or tap **OK**.  
 
