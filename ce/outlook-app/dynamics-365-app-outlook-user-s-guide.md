@@ -524,7 +524,7 @@ To have [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlo
 
 The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365. Server Side Synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365. In most scenarios, the Outlook item is immediately created in Dynamics 365. However, in some cases, Server Side Synchronization service is used to promote the item to Dynamics 365 and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
 
-![Outlook app sync](media/sync table.png "Outlook app sync")
+![Outlook app sync](media/sync_table.png "Outlook app sync")
 
 If the Dynamics 365 App for Outlook uses Server Side Synchronization to track an item to Dynamics 365, the track status of the item will be “Pending”.
 
