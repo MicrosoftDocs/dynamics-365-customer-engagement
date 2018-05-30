@@ -90,7 +90,6 @@ You can navigate through the controls by using the **Tab** key. The cursor will 
 
 
 ## See also
-
 [Move around Customer Engagement apps using keyboard shortcuts](../basics/keyboard-shortcuts.md)
 [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
 [Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility.md)
