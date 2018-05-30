@@ -1,7 +1,6 @@
 ---
 title: "Live Assist for Dynamics 365 powered by Café X (Dynamics 365 Customer Engagement) | MicrosoftDocs"
-ms.custom:
-  - 
+ms.custom: ""
 ms.date: 09/30/2017
 ms.reviewer: ""
 ms.service: "crm-online"
