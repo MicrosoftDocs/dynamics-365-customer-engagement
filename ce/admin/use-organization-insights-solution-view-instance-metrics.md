@@ -23,6 +23,8 @@ manager: "kvivek"
 Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] provides important adoption and use metrics for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization, and tools to help you stay ahead of performance and support issues.  
   
 > [!IMPORTANT]
+>  To comply with the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) (GDPR), we are changing the time the Organization Insights solution will retain data from 90 days to 30 days.
+>
 >  Check your version of the Organization Insights solution. In [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)], go to **Settings** > **Solutions**, and determine the version of OrganizationInsightsSolution.  
 >   
 >  Organization Insights solution version 1.3.1.0 is the officially supported version. If you have installed version 1.3.0.2, please upgrade to the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview).
