@@ -22,13 +22,13 @@ To use the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator c
 
 1. In [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], switch to the Unified Interface app (i.e Sales Hub). 
 
-2. Go to the **Lead** entity and open one of the lead forms.
+2. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to any of their forms, you'll find the controls embedded on the form. A system administrator or customizer can [add the controls to forms](add-sales-navigator-controls-forms.md).
 
-3. If your organization has added [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls to Lead forms, you'll find the controls embedded on the form. A customizer can also add the controls to other record types, such as Contact, Account, or Opportunity.
+3. If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** button in the control and give the requested permissions to the app. 
+![Sign in to LinkedIn Sales Navigator dialog box](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
 
-> [!NOTE] 
-> If you haven't signed in to [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator, select the **Sign in** button in the control and give the requested permissions to the app. 
-> ![Sign in to LinkedIn Sales Navigator dialog box](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
+4. If you are part of multiple Sales Navigator teams, select the team you want to use with the controls.
+![Select the Sales Navigator team to work with](media/select-team-sales-navigator.png)
 
 ## Work with the Sales Navigator controls
 
