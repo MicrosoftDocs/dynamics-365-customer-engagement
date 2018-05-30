@@ -6,7 +6,7 @@ author: kathleenmcgrath
 applies_to: Dynamics 365 (online)
 ms.author: kmcgrath
 manager: renwe
-ms.date: 05/15/2018
+ms.date: 05/30/2018
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 5424660b-743b-434f-9993-fb64ae4e776a
@@ -26,16 +26,16 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 > [!NOTE]
 > JAWS screen reader is supported on the latest Unified Client. If choosing JAWS, we recommend using it with Internet Explorer. 
 
-> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface.md) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
+> Narrator is a screen-reading app built into Windows 10. Apps built using [Unified Interface](../admin/about-unified-interface) are optimized for Narrator. This topic assumes that you are using Narrator on Microsoft Edge. 
 >
 
 ## Basic tasks using a screen reader with Dynamics 365
 
 ### Open a Unified Interface-based app
-Although you can use a screen reader anywhere in Dynamics 365 Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 Customer Engagement, visit [About Unified Interface in Dynamics 365](../admin/about-unified-interface.md).
+Although you can use a screen reader anywhere in Dynamics 365 Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 Customer Engagement, visit [About Unified Interface in Dynamics 365](../admin/about-unified-interface).
 
 
-Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-the-app-switcher.md) in Dynamics 365 to open a Unified Interface app.
+Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-the-app-switcher) in Dynamics 365 to open a Unified Interface app.
 
 1.	On the navigation bar, use the **Tab** key to move to the Dynamics 365 drop-down control and press **Enter** to open the site map.
 2.	Press the **Tab** key until you hear the name of the application you want to open—for example, “Sales Hub.” Press **Enter** to open the app.
@@ -91,7 +91,7 @@ You can navigate through the controls by using the **Tab** key. The cursor will 
 
 ## See also
 
-[Move around Customer Engagement apps using keyboard shortcuts](../basics/keyboard-shortcuts.md)
-[Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
+[Move around Customer Engagement apps using keyboard shortcuts](../basics/keyboard-shortcuts)
+[Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities)
 [Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
 

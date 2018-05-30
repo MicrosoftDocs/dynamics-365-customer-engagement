@@ -8,7 +8,7 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.author: kmcgrath
 manager: renwe
-ms.date: 05/15/2018
+ms.date: 05/30/2018
 ms.topic: article
 ms.service: dynamics-365-cross-app
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a
@@ -174,9 +174,9 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 
 [Dynamics 365 for Marketing: Keyboard shortcuts and accessibility features for content designers](../marketing/designer-shortcuts)
 
-[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365.md)
+[Unified Service Desk](../unified-service-desk/admin/accessibility-unified-service-desk-microsoft-dynamics-365)
 
-[App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page.md)
+[App designer, site map designer, and My Apps page](../customize/accessibility-app-designer-site-map-designer-my-apps-page)
 
 ## Navigating submenus
 If you use a screen reader, follow these steps to access any of the submenus that are displayed when you hover the mouse over a navigation link.
@@ -200,5 +200,5 @@ If you’re in a record—for example, a lead—this section shows you the keybo
 
 ## See also
 
-[Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities.md)
+ [Accessibility for people with disabilities](../basics/accessibility-people-with-disabilities)
  [Accessibility features for Customer Engagement](/dynamics365/get-started/accessibility/customer-engagement/accessibility)
