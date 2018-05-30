@@ -92,7 +92,7 @@ To find or create a redirect URL.
 
 The same redirect-URL record where you can find the redirecting URL also shows the data collected by using that URL. To see these results, go to **Marketing** &gt; **Internet Marketing** &gt; **Redirect URLs** and open the redirect-URL record you want to examine. Browse the following two tabs to see information gathered by the URL:
 
-- **General Info**: This is where you find the basic metadata and the redirecting URL itself. After your redirecting URL has started to collect data, you'll find the results here, including a map with geodata and other information from [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)].
+- **General Info**: This is where you find the basic metadata and the redirecting URL itself. After your redirecting URL has started to collect data, you'll find the results here, including a map with geodata and other information.
 - **Timeline**: Shows a detailed timeline of each click recorded over time.
 
 ### See also

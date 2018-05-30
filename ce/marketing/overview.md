@@ -70,8 +70,7 @@ Create online surveys and analyze the results. This feature is bundled with the 
 Import leads generated with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]'s lead tools into [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]. This feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products.
 - **[!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] Portals**  
 The [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app uses [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] portals to publish its event, marketing pages, and online surveys. The portals feature is bundled with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app, but is also available separately as an add-on for other [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] products. A ready-to-use, feature-rich event portal is also included, and is unique to the event-management feature.
-- **[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]**  
-Better understand and engage with customers by gaining detailed insights through intelligent customer analytics. Set up target segments for your customer journeys based on dynamic or fixed criteria, and incorporate customer analytics into your lead-scoring strategies. [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] charts and widgets measure the health and quality of each lead with metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
+
 
 All these features are fully integrated and work together to create a comprehensive marketing solution.
 
@@ -197,7 +196,7 @@ Key lead-management features include:
 - **Generate leads across multiple channels**  
     Create multichannel customer journeys to attract the best leads from [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)], email, web landing pages, events, webinars, and more. Easily import marketing lists by using familiar tools such as [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)].
 - **Lead nurturing**  
-    Apply [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], and implement automated customer journeys to nurture leads by delivering highly relevant, perfectly timed messages and personalized experiences.
+    Apply insights and implement automated customer journeys to nurture leads by delivering highly relevant, perfectly timed messages and personalized experiences.
 - **Lead qualification**  
     Use business process flows to guide each lead through the lead-generation demand waterfall model, from discovery, through nurturing, and on to qualification and close.
 - **Lead scoring**  
@@ -211,8 +210,8 @@ Key lead-management features include:
 - **Analysis and insights**  
     Evaluate the success of your marketing initiatives, and apply lessons learned to your future campaigns, by using rich analytic tools, including:
     - Demand-generation dashboards that measure conversion, volume, velocity, and more
-    - [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] charts and widgets that measure the effectiveness of lead scoring models by calculating metrics such as total leads scored over time, sales readiness distribution per model, and more.
-    - [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] charts and widgets that measure the health and quality of each lead by using metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
+    - Charts and widgets that measure the effectiveness of lead scoring models by calculating metrics such as total leads scored over time, sales readiness distribution per model, and more.
+    - Charts and widgets that measure the health and quality of each lead by using metrics such as lead age, lead interaction timeline, lead qualification progression, and more.
 
 When creating or editing a rule, you'll assemble its logic by using a drag-and-drop rule designer. Each rule has a condition (which establishes a certain property or event) and an action (which establishes how the score for a lead that meets the condition will be adjusted).
 

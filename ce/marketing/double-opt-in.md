@@ -21,6 +21,8 @@ topic-status: Drafting
 
 # Set up double opt-in for new subscriptions and consent changes
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 The _double opt-in_ process (also known as _confirmed opt-in_) asks contacts who sign up for a new subscription list, or who choose to increase their level of [data-protection consent](gdpr.md), to confirm their request by clicking on a link sent to their registered email address. This system helps make sure that the request is intentional, and that the supplied email address is legitimate and functional.
 
 The double opt-in process works as follows:

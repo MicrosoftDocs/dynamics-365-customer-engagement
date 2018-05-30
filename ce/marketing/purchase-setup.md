@@ -22,6 +22,8 @@ topic-status: Drafting
 
 # Run the setup wizard
 
+[!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
+
 After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], or signing up for a trial, you'll have an unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app available on your tenant. To set up the app, you must run its setup wizard.
 
 - If you are setting up a [trial](trial-signup.md), then you will receive a link to the setup wizard in a welcome email. Click that link to launch the wizard.
