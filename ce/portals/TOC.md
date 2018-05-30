@@ -25,7 +25,6 @@
 ### [Configure knowledge categories and articles](configure-knowledge-categories-articles.md)
 ### [Manage knowledge articles by using content access level](manage-knowledge-articles-content-levels.md)
 ### [Display file attachments with knowledge articles](display-file-attachments-knowledge-article.md)
-## [Manage blogs](manage-blogs.md)
 ## [Create an opportunity](create-edit-and-distribute-opportunities-in-dynamics-365.md)
 
 # [Content management in portal](manage-portal-content.md)
@@ -95,6 +94,7 @@
 ### [Moderate forums](moderate-forums.md)
 ### [Manage forum access permissions](forum-access-permission.md)
 ### [Subscribe to alerts](subscribe-alerts.md)
+## [Manage blogs](manage-blogs.md)
 ## [Manage ideas](crowdsource-ideas.md)
 ## [Manage cases in portals](case-management.md)
 
