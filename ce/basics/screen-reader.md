@@ -32,7 +32,7 @@ Screen readers make Dynamics 365 Customer Engagement applications accessible to 
 ## Basic tasks using a screen reader with Dynamics 365
 
 ### Open a Unified Interface-based app
-Although you can use a screen reader anywhere in Dynamics 365 Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 Customer Engagement, visit [About Unified Interface in Dynamics 365](..admin/about-unified-interface.md).
+Although you can use a screen reader anywhere in Dynamics 365 Customer Engagement, we have made enhancements to Unified Interface apps that make using a screen reader more consistent. For a full list of Unified Interface apps available in Dynamics 365 Customer Engagement, visit [About Unified Interface in Dynamics 365](../admin/about-unified-interface.md).
 
 
 Use the [app switcher](../basics/where-find-business-apps#apps-you-might-see-in-the-app-switcher.md) in Dynamics 365 to open a Unified Interface app.
@@ -75,9 +75,9 @@ You can navigate through the dashboard charts using the Tab key and Caps lock + 
 > You must have the latest Windows 10 Update installed to have all of the accessibility features available for charts.
 
 #### Interactive Dashboard Streams
-You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the Tab key to quickly move between dashboard streams.
+You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the **Tab** key to quickly move between dashboard streams.
 
-To navigate through each element of a stream, use the Up/Down arrow keys. Narrator will read the type of control and the title of the control.
+To navigate through each element of a dashboard stream, use the Up/Down arrow keys. Narrator will read the type of control and the title of the control.
 
 #### Business process flows
 You can navigate a business process flow, such as the one found at the top of the Lead form, by pressing the **Tab** key to move forward, and **Shift+Tab** to move backward between the entities. Use the **Enter** key on the **Move to the Left** or **Move to the Right** buttons to display additional entities in the process flow. Narrator reads the entity type, stage, status, title, element number out of total elements, and whether it is currently selected.
