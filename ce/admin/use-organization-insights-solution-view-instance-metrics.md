@@ -1,7 +1,7 @@
 ---
 title: "Use the Organization Insights solution to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 02/23/2018
+ms.date: 5/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 5e6f6b85-1a25-4c56-a92f-59f0a289e9c6
 caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Use the Organization Insights solution to view metrics about your instance 
 
@@ -398,7 +398,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
   
 -   Data is only shown for the applied time range.  
   
--   Data is available from the time of release of the solution in AppSource, and will be retained for 90 days.  
+-   Data is available from the time of release of the solution in AppSource, and will be retained for 30 days.  
   
 -   Data is shown for time series at an hourly aggregation interval.  
   
