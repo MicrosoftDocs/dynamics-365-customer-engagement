@@ -72,7 +72,7 @@ You can also use the Tab key to quickly navigate to interactive elements on the 
 You can navigate through the dashboard charts using the Tab key and Caps lock + arrow keys. Press the **Tab** key to quickly go to the interactive elements and use Caps lock + an arrow key for navigation of non-interactive elements, such as headings, landmarks, and items.
 
 > [!NOTE]
-> You must have the latest Windows 10 Update installed to have all of the accessibility features available for charts.
+> You must have the latest [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx) Update installed to have all of the accessibility features available for charts.
 
 #### Interactive Dashboard Streams
 You can use the **Tab** key or **Shift+Tab** keys to move between interactive dashboard streams, such as found in the Accounts dashboard, or just change the navigation mode until you hear “Headings” and then use the **Tab** key to quickly move between dashboard streams.
