@@ -2,7 +2,7 @@
 title: "Sign in to LinkedIn Sales Navigator | Microsoft Docs"
 description: "Sign in to LinkedIn Sales Navigator in Dynamics 365 to see lead information on forms."
 keywords: "sign in, authenticate, sales navigator, customized form"
-ms.date: 05/24/2018
+ms.date: 05/31/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
