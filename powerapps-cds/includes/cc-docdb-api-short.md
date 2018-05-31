@@ -1,1 +1,1 @@
-DocumentDB API
+SQL API
