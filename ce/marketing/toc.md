@@ -10,8 +10,8 @@
 #### [Run the setup wizard](purchase-setup.md)
 #### [Setup FAQ and troubleshooting](setup-troubleshooting.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
-#### [Keep Marketing up to date](apply-updates.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
+#### [Keep Marketing up to date](apply-updates.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
 
 ### Administration settings
@@ -67,6 +67,7 @@
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Upload and use images and files](upload-images-files.md)
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
+#### [Market to leads](market-to-leads.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
 #### [Engage customers online with portals](portals.md)
@@ -90,7 +91,6 @@
 #### [Record and view financial information for events](event-financials.md)
 
 ### [Analyze results to gain insights](insights.md)
-### [Market to leads](market-to-leads.md)
 ### [Export data](export-data-Word-Excel.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)

@@ -119,7 +119,7 @@ The input field under the **Target** setting specifies which contact or lead fie
 
 ## Default marketing settings
 
-Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Default marketing settings** page to establish collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active. 
+Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Default marketing settings** page to set up collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active.
 
 Choose an existing configuration to edit or delete it or choose **+ New** from the command bar to create a new one.
 

@@ -31,11 +31,12 @@ topic-status: Drafting
 <li>[Purchase a production version of Marketing](purchase-marketing.md)</li>
 <li>[Run the setup wizard](purchase-setup.md)</li>
 <li>[Setup FAQ and troubleshooting](setup-troubleshooting.md)</li>
-<li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Manage Marketing instances](manage-marketing-instances.md)</li>
+<li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
 <li>[Find your way around](navigation.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
+<li>[Data protection and GDPR](gdpr.md)</li>
 <li>[How Marketing uses cookies](cookies.md)</li>
 
 </td><td>
