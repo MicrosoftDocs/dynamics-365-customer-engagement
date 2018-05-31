@@ -1,7 +1,7 @@
 ---
 title: "Use the Organization Insights solution to view metrics about your Dynamics 365 (online) instance | MicrosoftDocs"
 ms.custom: ""
-ms.date: 02/23/2018
+ms.date: 5/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: 5e6f6b85-1a25-4c56-a92f-59f0a289e9c6
 caps.latest.revision: 5
 author: "jimholtz"
 ms.author: "jimholtz"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Use the Organization Insights solution to view metrics about your instance 
 
@@ -23,6 +23,8 @@ manager: "brycho"
 Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)] provides important adoption and use metrics for your [!INCLUDE[pn_dyn_365](../includes/pn-dyn-365.md)] organization, and tools to help you stay ahead of performance and support issues.  
   
 > [!IMPORTANT]
+>  To comply with the [General Data Protection Regulation](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx) (GDPR), we are changing the time the Organization Insights solution will retain data from 90 days to 30 days.
+>
 >  Check your version of the Organization Insights solution. In [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online.md)], go to **Settings** > **Solutions**, and determine the version of OrganizationInsightsSolution.  
 >   
 >  Organization Insights solution version 1.3.1.0 is the officially supported version. If you have installed version 1.3.0.2, please upgrade to the latest version from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.04931187-431c-415d-8777-f7f482ba8095?tab=Overview).
@@ -398,7 +400,7 @@ Organization Insights for [!INCLUDE[pn_dyn_365_online](../includes/pn-crm-online
   
 -   Data is only shown for the applied time range.  
   
--   Data is available from the time of release of the solution in AppSource, and will be retained for 90 days.  
+-   Data is available from the time of release of the solution in AppSource, and will be retained for 30 days.  
   
 -   Data is shown for time series at an hourly aggregation interval.  
   
