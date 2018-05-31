@@ -42,10 +42,14 @@ If you are using all your existing portals, then you can purchase a new one for 
 To get a new, unconfigured portal app and then use it with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)]:
 
 1. Open your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] admin center and go to **Billing** > **Subscriptions**.
+
 1. Choose **Buy add-ons** in the tile for your [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] subscription.
-1. Purchase a new portal using the form provided.  
+
+1. Purchase a new portal using the form provided.
+
     > [!IMPORTANT]
     > Be sure not to configure your new portal because the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard requires an _unconfigured_ portal to be present on your tenant. The wizard will configure the portal for you as required.
+
 1. Run the [Marketing setup wizard](purchase-setup.md).
 
 ## Why do I get an authorization-failed message when I try to run the setup wizard?
@@ -56,5 +60,5 @@ In some cases, when you sign up for a trial of [!INCLUDE[pn-microsoftcrm](../inc
 
 To fix this, do one of the following:
 
-- If you are just setting up a trial of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], then consider creating a new trial tenant and set up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial there, as described earlier under [Get all prerequisites in place to set up a Marketing trial](#preview-prerequisites).
+- If you are just setting up a trial of [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], then consider creating a new trial tenant and set up the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial there, as described in [Sign up for a managed Office 365 trial tenant and install the Marketing trial on it](trial-signup.md#get-managed-tenant).
 - If you want to continue using the tenant where you received this error, then you must convert your unmanaged org into a managed one and then run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup wizard again. For instructions about how to do this, see [Take over an unmanaged directory as administrator in Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=866761).

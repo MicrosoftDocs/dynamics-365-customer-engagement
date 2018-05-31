@@ -26,8 +26,10 @@ topic-status: Drafting
 
 <h2>Administer the system</h2>
 <li>[Readme](https://go.microsoft.com/fwlink/p/?linkid=864736)</li>
-<li>[First time setup](purchase-setup.md)</li>
-<li>[Troubleshoot first time setup](setup-troubleshooting.md)</li>
+<li>[Sign up for a free trial](trial-signup.md)</li>
+<li>[Purchase a production version of Marketing](purchase-marketing.md)</li>
+<li>[Run the setup wizard](purchase-setup.md)</li>
+<li>[Setup FAQ and troubleshooting](setup-troubleshooting.md)</li>
 <li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Open the Settings work area](open-advanced-settings.md)</li>
 <li>[Organization settings](organization-settings.md)</li>

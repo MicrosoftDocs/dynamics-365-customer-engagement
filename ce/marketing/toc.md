@@ -13,20 +13,25 @@
 #### [Keep Marketing up to date](apply-updates.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Uninstall Marketing](uninstall-marketing.md)
-### [Open the administration settings](open-advanced-settings.md)
-### [Organization settings](organization-settings.md)
-#### [Manage users](manage-users.md)
-#### [Manage teams](manage-teams.md)
-#### [Define fiscal year settings](fiscal-year-settings.md)
-#### [Manage Excel templates](manage-excel-templates.md)
-#### [Manage Word templates](manage-word-templates.md)
-### [Business Management settings](business-management-settings.md)
-### [Customize](customize.md)
-### [Marketing settings](marketing-settings.md)
-### [Event management settings](events-settings.md)
-### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
-### [Manage sample data](additional-settings.md)
-### [Quota management](quota-management.md)
+
+### Administration settings
+#### [Open the administration settings](open-advanced-settings.md)
+#### [Organization settings](organization-settings.md)
+##### [Manage users](manage-users.md)
+##### [Manage teams](manage-teams.md)
+##### [Define fiscal year settings](fiscal-year-settings.md)
+##### [Manage Excel templates](manage-excel-templates.md)
+##### [Manage Word templates](manage-word-templates.md)
+#### [Business Management settings](business-management-settings.md)
+#### [Marketing settings](marketing-settings.md)
+#### [Event management settings](events-settings.md)
+#### [Manage LinkedIn Lead Gen](linkedin-configuration.md)
+#### [Manage sample data](additional-settings.md)
+#### [Quota management](quota-management.md)
+
+### [Customize Marketing](customize.md)
+### [Data protection and GDPR](gdpr.md)
+### [How the app uses cookies](cookies.md)
 
 ## [User Guide](user-guide.md)
 
@@ -35,7 +40,6 @@
 #### [Find your way around](navigation.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
-#### [Market to leads](market-to-leads.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
@@ -86,9 +90,8 @@
 #### [Record and view financial information for events](event-financials.md)
 
 ### [Analyze results to gain insights](insights.md)
+### [Market to leads](market-to-leads.md)
 ### [Export data](export-data-Word-Excel.md)
-### [Data protection and GDPR](gdpr.md)
-### [How the app uses cookies](cookies.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)

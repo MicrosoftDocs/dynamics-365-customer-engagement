@@ -42,7 +42,8 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > - You must already have an [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 > - **You must be running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher** (supplied together with most trial and stand-alone Marketing setups).
 > - You must already have a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] license assigned to your user account on your [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
-> - An unconfigured portal app must be available on your tenant, but usually this is included with Marketing, provided no other free portals are in use on your tenant. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Why do I need a new portal, and how can I get one?](setup-troubleshooting.md#why-portal)
+> - An unconfigured [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] app must be available on your tenant.
+> - An unconfigured portal app must be available on your tenant. Usually this is included with [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)], provided no other free portals are already in use on your tenant. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Why do I need a new portal, and how can I get one?](setup-troubleshooting.md#why-portal)
 > - You must run the setup wizard as a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user with admin privileges on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance where you are installing Marketing.
 > - Close all other browser windows and tabs before starting.
 > - Clear your browser cache before starting.
