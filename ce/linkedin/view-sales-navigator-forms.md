@@ -40,9 +40,30 @@ Both Lead and Account controls work by matching certain input parameters receive
 
 Once a match is found, subsequent loads are done through the record GUID association. Optionally, you can save recommended leads as new leads in Sales Navigator.
 
-> [!TIP]
-> If the control does not load the correct profile on the first match, the user can fix the problem permanently by clicking on the “…” (more commands) menu, then on the **Not the right person** option and finding the correct match with the search interface. Additionally, you can send [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members a request to connect or message them using InMail in Sales Navigator.
+### Select the right match from multiple matches
+
+If the system can't find a unique match for a person's profile, it will suggest potential matches. 
+
+Select **Match** on the correct profile to map it to the related record. 
+
+### Change the incorrect matching
+
+If the control doesn't load the correct profile on the first match, you can change the matching permanently. 
+
+1. Select the “…” (more commands) menu.
+2. Select the **Not the right person** option. 
+3. Find the correct match on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with the search interface. Additionally, you can send [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members a request to **Connect** or **Message** them using InMail in Sales Navigator.
 > ![More options with Sales Navigator control](media/more-options-sales-navigator.png "More options with Sales Navigator control")
+
+### Find a matching company for an account
+
+Sometimes, no company account is associated with a person's profile. You can use the search interface to find the right company and match it to the related account. 
+
+![Search a company and match it to an account](media/match-company-sales-navigator.png)
+
+1. Enter the Name and other known details of the company you're looking for. 
+2. Select **Search**.
+2. Review the suggested match and select **Match** to associate it with the related account.
 
 ### See also
 
