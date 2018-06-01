@@ -1,0 +1,112 @@
+# URS Extensibility Release Notes
+
+- [May 2018](#may-2018)
+- [April 2018](#april-2018)
+- [February 2018](#february-2018)
+- [December 2017](#december-2017)
+- [July 2017](#july-2017)
+
+<a name="May 2018"></a>
+## May 2018
+
+### Resource Cell Template
+
+#### Hide Resource Image
+
+The default Resource Cell Template shipped in this update includes support for automatically hiding the resource image if the resource row in the Schedule Board is configured to a small height. If you have a custom Resource Cell Template, add the below template updates to your Resource Cell Template configuration record.
+
+The updated markup to hide the resource image. The first and last line are new.
+```html
+{{#if (or (eq (is-sa-grid-view) true) (eq (is-row-small) false)) }}
+    {{#if imagepath}}
+    <img class='resource-image' src='{{client-url}}{{imagepath}}' />
+    {{else}}
+    <div class='resource-image unknown-resource'></div>
+    {{/if}}
+{{/if}}
+```
+
+The update markup to hide the second row of text in the template. The first line is new.
+```html
+{{#if (and (eq (is-sa-grid-view) false) (eq (is-row-small) false)) }} 
+    <div class='booked-duration'>{{BookedDuration}}<div class='fo-sch-clock'></div></div>
+    <div class='booked-percentage'>{{BookedPercentage}}%</div>  
+{{/if}}
+```
+
+<a name="april-2018"></a>
+## April 2018
+
+### Retrieve Constraints Query
+
+#### Ignore Proposed Bookings
+
+The default Retrieve Constraints Query shipped in this update includes a default value for the Ignore Proposed Bookings parameter used by the Schedule Assistant. To change the default value for this parameter, or if you have a custom Retrieve Constraints Query, update or add the below new property to the `Requirement` bag transformation part in your Retrieve Constraints Query configuration record.
+
+The added `IgnoreProposedBookings` property
+```xml
+<IgnoreProposedBookings ufx-type="bool">true</IgnoreProposedBookings> 
+```
+
+<a name="february-2018"></a>
+## February 2018
+
+### Schedule Assistant Filter Layout
+
+#### Ignore Proposed Bookings
+
+The default Schedule Assistant Filter Layout shipped in this update includes a new checkbox control to set the Ignore Proposed Bookings parameter used by the Schedule Assistant. If you have a custom Schedule Assistant Filter Layout, add the below new control to the last `fieldset` control section in your Schedule Assistant Filter Layout configuration record.
+
+The new `IgnoreProposedBookings` control
+```xml
+<control type="boolean" key="Requirement/IgnoreProposedBookings" label-id="ScheduleAssistant.West.settingsform.IgnoreProposedBookings" />
+```
+<a name="december-2017"></a>
+## December 2017
+
+### Retrieve Resources Query
+
+#### Schedule Board Visible Date Range
+
+Included in this update, the Retrieve Resources Query gets as input the visible date range of the board. This let's the query use the board's date range in it's database queries. The default Retrieve Resources Query shipped in this update has not changed. However, you can now customize the query to depend on the board's visible date range.
+
+The updated input parameters available in the XPath `$input` variable are `ScheduleBoard/StartDate` and `ScheduleBoard/EndDate`.
+
+The below snippet (not shipped) shows how the new input parameters can be used to query the total number of bookings per resource in the date range visible on the board.
+```xml
+<!-- Booking join -->
+<link-entity name="bookableresourcebooking" from="resource" to="bookableresourceid" link-type="outer">
+    <attribute name="name" aggregate="countcolumn" alias="bookingcount" />
+
+    <filter>
+        <condition attribute="statecode" operator="eq" value="0" />
+        <condition attribute="starttime" operator="le">
+            <ufx:value select="$input/ScheduleBoard/EndDate" attribute="value" />
+        </condition>
+        <condition attribute="endtime" operator="ge">
+            <ufx:value select="$input/ScheduleBoard/StartDate" attribute="value" />
+        </condition>
+    </filter>
+</link-entity>
+```
+
+The below snippet (not shipped) shows how the Resource Cell Template can then be customized to show the total number of bookings.
+```html
+<div>Booking Count: {{bookingcount}}</div>
+```
+
+### Schedule Assistant Filter Layout
+
+#### Sort by Total Availability
+
+The default Schedule Assistant Filter Layout shipped in this update includes a new order option to sort the result of the Schedule Assistant by a resource's total availability. If you have a custom Schedule Assistant Filter Layout, add the below new order option to the `order` control in your Schedule Assistant Filter Layout configuration record.
+
+The new sort option
+```xml
+<order name="totalavailabletime" entity="bookableresource" attribute="totalavailabletime" label-id="ScheduleAssistant.Center.slotsgrid.TotalAvailableTime" />
+```
+
+<a name="july-2017"></a>
+## July 2017
+
+The July 2017 update for URS was the initial release for extensible queries, custom filter layouts, and resource cell template
