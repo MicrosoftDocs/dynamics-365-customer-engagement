@@ -1,7 +1,7 @@
 ---
 title: "Deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: ""
-ms.date: "2017-04-20"
+ms.date: 04/20/2017
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

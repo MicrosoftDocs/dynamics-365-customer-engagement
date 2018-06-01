@@ -1,7 +1,7 @@
 ---
 title: "Configure server-based authentication with Dynamics 365 (online) and SharePoint on-premises | MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/30/2017
+ms.date: 05/10/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -72,7 +72,7 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   
 - [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] configuration  
   
-    - [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] must be configured for a single farm deployment only.  
+    - If you use [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], for each [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] farm, only one [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] can be configured for server-based integration.  
   
     - [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] website must be accessible via the Internet. A reverse proxy may also be required for [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] authentication. More information: [Configure a reverse proxy device for SharePoint Server 2013 hybrid](https://technet.microsoft.com/library/dn607304.aspx)  
   
@@ -84,7 +84,6 @@ Introduced with [!INCLUDE[pn_crm_online_2015_update_1](../includes/pn-crm-online
   
     -   For document management functionality when using the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] mobile apps, the on-premises [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] server must be available through the Internet.  
   
-    -   If you use [!INCLUDE[pn_microsoft_sharepoint_2013](../includes/pn-microsoft-sharepoint-2013.md)], for each [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] farm, only one [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] organization can be configured for server-based integration.  
   
 <a name="BKMK_otherPreq"></a>  
  
