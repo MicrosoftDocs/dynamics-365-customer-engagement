@@ -2,7 +2,7 @@
 title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to provision a portal."
 ms.custom: ""
-ms.date: 12/05/2017
+ms.date: 06/01/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -123,3 +123,15 @@ If the package installation has failed, the portal administrator page will open 
 
 > [!Note]
 > Some solutions have prerequisites for their installation, so an installation will fail if the prerequisites are not met. For example, to install the Partner Field Service for a partner portal, the Partner Portal and Field Service solutions must have already been installed. If you attempt to install the Partner Field Service first, the installation will fail and give you an error message.
+
+## Dynamics 365 Portals app
+
+The Dynamics 365 Portals app allows you to configure and manage your online platform to communicate and collaborate with customers. 
+
+When you install Dynamics 365 Portals version 9.0 and higher, the Dynamics 365 Portals app, built on the Unified Interface framework, is created out-of-the-box.
+
+### Open Dynamics 365 Portals app
+
+1.	Sign in to Dynamics 365.
+2.	Open the URL `<organization URL>/apps` or https://home.dynamics.com. 
+3.	Select the Dynamics 365 Portals app.

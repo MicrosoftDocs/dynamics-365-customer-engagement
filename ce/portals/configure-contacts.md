@@ -2,7 +2,7 @@
 title: "Configure a contact for use on a portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to add and configure a contact to be used in a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 06/01/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,6 +20,9 @@ After filling out the basic information for a contact in [!INCLUDE[pn-dynamics-c
 2.  On the command ribbon, go to **More Commands** &gt; **Change Password**.
 
 Complete the change password workflow, and the necessary fields will be automatically configured. When you have done this, your contact will be configured for your portals.
+
+> [!NOTE]
+> Change password is supported only in web client.
 
 ### See also
 [Invite contacts to your portals](invite-contacts.md)  
