@@ -19,7 +19,7 @@ topic-status: Drafting
 # Reset a Dynamics 365 portal
 
 <!--Note to author: please review the revisions in the following paragraph for accuracy.-->
-Once a portal is provisioned, you might need to delete resources from your portal under certain conditions, such as if you move your Dynamics 365 organization to another tenant or another datacenter or if you want to remove the portal from your organization.
+Once a portal is provisioned, you might need to delete resources from your portal under certain circumstances, such as if you move your Dynamics 365 organization to another tenant or another datacenter or if you want to remove the portal from your organization.
 
 To do this, you can reset your portal, which will delete all the hosted resources associated with it. Then you can provision the portal again. Once the reset operation is finished, your portal URL will not be accessible anymore.
 
@@ -28,7 +28,7 @@ It is important to note that resetting your portal doesn’t remove portal confi
 You can reset a completely configured portal, or a portal for which provisioning or updating of a Dynamics 365 instance has failed.
 
 To reset a configured portal:
-<!--Note to author: Step 1 says "Applications" (plural), but farther down it says "Application" (singular). Which is correct?-->
+<!--Note to author: Step 1 says "Applications" (plural) tab, but farther down it says "Application" (singular) tab. Which is correct?-->
 
 1.	Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 
@@ -46,7 +46,7 @@ To reset a configured portal:
 > - If you don't have appropriate permissions on an associated Azure Active Directory application, an error is displayed. You must contact the global administrator for the appropriate permissions.
 > - When the portal is reset successfully, the portal name and its status on the **Application** tab in the Dynamics 365 Administration Center does not change. For example, if your portal name and status were Portal 1 and Configured respectively, then after resetting the portal, these values do not change. If you want to change the portal name, you can change it on the **Portal Details** tab in the Portal Admin Center. However, the status value cannot be reverted to Not Configured.
 
-<!--Note to author: Is the Portal Admin Center the same as the Dynamics 365 Administration Center? If yes, I recommend being consistent in how we refer to them.-->
+<!--Note to author: Is the Portal Admin Center the same as the Dynamics 365 Administration Center? If yes, I recommend being consistent in how we refer to it.-->
 
   > It is important to note that the portal's status on the **Application** tab does not represent its provisioning status and does not affect the functioning of your portal. It just shows whether you have ever accessed the Portal Admin Center for that corresponding portal or not.
 
