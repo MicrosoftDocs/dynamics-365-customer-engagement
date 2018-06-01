@@ -35,6 +35,36 @@ When an administrator [assigns a Social Engagement license](assign-user-roles.md
 
 On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will reduce the [retention time of Social Content](data-retention-social-engagement.md) to 15 months. This means that posts older than 15 months won’t be available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution anymore. We recommend running reports and analytics that are dependent on older Social Content before this change becomes effective. You can [export data from widgets and lists](analyze-social-data-using-widgets.md#export-data-from-widgets) if you want to keep reports about older data. 
 
+## Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between Web browsers and Web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will remove the support of TLS 1.0 and TLS 1.1 in order to align with [!INCLUDE [cc-microsoft](../includes/cc-microsoft.md)] compliance requirements and security best practices.
+
+### What is the impact?
+
+After [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] disables TLS 1.0 and TLS 1.1 any connections to the service that rely on those versions will fail.
+
+
+### How to avoid interruptions in the user experience
+
+We recommend to switch to a browser supporting TLS 1.2.
+All major browser (Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) releases after April 2016 support TLS 1.2.
+
+| Browser |  | Version| Remarks |
+|---------|---|--------|---------|
+|Microsoft Edge| equals or higher |12.10240| compatible by [default](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
+|Internet Explorer | | 11 | enabled by default, Desktop & Mobile |
+|Firefox | equals or higher | 27 | [Release notes](http://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/27.0/releasenotes/?flang=es-MX), all operating systems  |
+|Chrome | equals or higher| 29 | [Details](https://bugs.chromium.org/p/chromium/issues/detail?id=90392#c28), all operating systems |
+|Safari | equals or higher | 7 | |
+|Opera  | equals or higher | 12 | [Release notes](https://blogs.opera.com/security/2016/02/opera-12-and-opera-mail-security-update/) |
+|Android OS Browser |equals or higher |  Android 5.0 (Lollipop) | Compatible by default |
+|Mobile Safari | equals or higher | 5 for iOS 5 or higher| Compatible by default |
+
+### Related information
+
+[TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
 
 ### Attachments in private messages now show in the post list
