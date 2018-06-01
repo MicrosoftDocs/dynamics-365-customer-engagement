@@ -13,8 +13,8 @@ applies_to:
 author: "mduelae"
 ms.assetid: f5c366db-30d2-44c6-89f4-89a566dae188
 caps.latest.revision: 26
-ms.author: "mkaur"
-manager: "kvivek"
+ms.author: "jimholtz"
+manager: "brycho"
 ---
 # Secure your mobile data from loss or theft
 

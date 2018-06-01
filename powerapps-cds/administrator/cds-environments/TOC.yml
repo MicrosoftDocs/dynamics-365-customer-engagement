@@ -1,0 +1,266 @@
+- name: Administer PowerApps
+  href: https://docs.microsoft.com/en-us/powerapps/administrator/
+  items:
+  - name: Quickstarts
+    items:
+    - name: View apps iin your environments
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/admin-view-apps
+  - name: Concepts
+    items:
+    - name: Licensing overview
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/pricing-billing-skus
+    - name: Introduction to data groups
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/introduction-to-data-groups
+    - name: Regions overview
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/regions-overview
+  - name: How-to guides
+    items:
+    - name: Purchase PowerApps
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/signup-for-powerapps-admin
+    - name: Manage licenses in your org
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/signup-question-and-answer
+    - name: Create a database
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/create-database
+    - name: Manage apps in your org
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/admin-manage-apps
+    - name: Move an app between tenants or environments
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/environment-and-tenant-migration
+    - name: '[Responding to DSR requests]'
+      items:
+      - name: System-generated logs
+        href: https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs
+      - name: '[PowerApps customer data]'
+        items:
+        - name: Export data
+          href: https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-export-dsr
+        - name: Delete data
+          href: https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-delete-dsr
+      - name: CDS for Apps customer data
+        href: https://docs.microsoft.com/en-us/powerapps/administrator/common-data-service-gdpr-dsr-guide
+  - name: Reference
+    items:
+    - name: PowerShell support for PowerApps (preview)
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-powershell
+- name: Administer Common Data Service environments
+  href: admin-guide.md
+  items:
+  - name: Overview
+    items:
+    - name: Introducing the new admin center
+      href: intro-new-admin-center.md
+    - name: Requirements
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/web-application-requirements
+    - name: Environments overview
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/environments-overview  
+  - name: Quickstarts
+    items:
+    - name: Try Dynamics 365 (online)
+      href: try-dynamics-365-online.md
+    - name: Onboarding
+      href: onboard-your-organization-and-users-to-dynamics-365-online.md
+      items:
+      - name: 250 seats or more - use FastTrack
+        href: onboarding-cheat-sheet-admins.md
+      - name: Create a trial environment
+        href: try-dynamics-365-online.md
+      - name: add users
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles
+      - name: Set up email
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/integrate-synchronize-your-email-system
+      - name: Import data
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/import-data-all-record-types
+      - name: Customize
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/overview
+  - name: Tutorials
+    items:
+    - name: Manage subscription with Office 365 admin center
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-office-365-admin-center-manage-subscription
+    - name: Manage updates
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-updates
+    - name: Plan for deployment
+      href: plan-for-deployment-and-administration.md
+  - name: Concepts
+    items:
+    - name: Multiple online instances or tenants
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/multiple-online-instances-tenants
+    - name: Policies and Communications
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/policies-communications
+    - name: Office 365 user ID
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/what-office-365-how-does-relate
+    - name: What is Office 365?
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/whats-an-office-365-user-id-why-need-one
+  - name: How-to guides
+    items:
+    - name: Getting started with your subscription
+      href: getting-started.md
+      items:
+      - name: Move between apps
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/quickly-navigate-office-365-app-launcher
+      - name: Sign in to apps
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/sign-in-office-365-apps
+      - name: Troubleshoot sign-in problems
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/troubleshoot-sign-in-problems
+      - name: Service health
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/check-online-service-health
+      - name: Using Organization Insights solution
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-organization-insights-solution-view-instance-metrics
+      - name: Using Organization Insights dashboard (preview feature)
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-organization-insights-dashboard-view-instance-metrics
+    - name: Manage subscriptions, licenses, and user accounts
+      href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-subscriptions-licenses-user-accounts
+      items:
+      - name: View active users in your tenant
+        href: https://docs.microsoft.com/en-us/powerapps/administrator/admin-view-user-licenses
+      - name: Reset a user's password
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/reset-users-password
+      - name: Manage email notifications
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-email-notifications
+      - name: Purchase and assign licenses
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/purchase-assign-online-licenses
+      - name: Manage Microsoft licenses
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-licenses
+      - name: Manage user account synchronization
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-user-account-synchronization
+      - name: Grant users access
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/grant-users-access
+      - name: Restrict access with trusted IP rules
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/restrict-access-online-trusted-ip-rules
+      - name: Invite users with Azure Active Directory B2B collaboration
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/invite-users-azure-active-directory-b2b-collaboration
+      - name: Administer without a license
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/global-service-administrators-can-administer-without-license
+      - name: Cancel subscription
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/cancel-subscription
+      - name: Use the Service admin role to manage your tenant
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-service-admin-role-manage-tenant
+      - name: Add Partner of Record
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/add-partner-record-subscription
+      - name: 'For partners: get credit when customers subscribe'
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/partners-credit-when-customers-subscribe-dynamics-365
+      - name: 'For partners: Delegated Administrator'
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/for-partners-delegated-administrator
+    - name: Manage environments
+      href: manage-online-environments.md
+      items:
+      - name: Administer environments
+        href: https://docs.microsoft.com/en-us/powerapps/administrator/environments-administration
+      - name: Create an environment
+        href: https://docs.microsoft.com/en-us/powerapps/administrator/create-environment
+      - name: About Sandbox environment
+        href: manage-sandbox-environments.md
+      - name: Add environment
+        href: add-environment-subscription.md
+      - name: Switch environment
+        href: switch-environment.md
+      - name: Copy environment
+        href: copy-environment.md
+      - name: Delete environment
+        href: delete-environment.md
+      - name: Backup and restore environments
+        href: backup-restore-environments.md
+      - name: Support environments
+        href: support-environment.md
+      - name: Common Data Service environments
+        href: common-data-service-environments.md
+      - name: Edit properties of an environment
+        href: edit-properties-environment.md
+      - name: Multiple online environments or tenants
+        href: multiple-online-environment-tenants.md
+      - name: Add and edit multiregional environments
+        href: add-edit-multiregional-environments.md
+      - name: 'Troubleshooting: Unblock required URLs'
+        href: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/troubleshooting-unblock-urls-required
+    - name: Configure environment security
+      href: https://docs.microsoft.com/en-us/powerapps/administrator/database-security
+      items:
+      - name: Create a DLP policy
+        href: https://docs.microsoft.com/en-us/powerapps/administrator/create-dlp-policy
+      - name: Manage DLP policies
+        href: https://docs.microsoft.com/en-us/powerapps/administrator/prevent-data-loss
+      - name: Encryption keys for environment
+        href: manage-encryption-keys-environment.md
+  - name: Resources
+    items:
+    - name: Release history
+      href: release-history.md
+    - name: Terminology
+      href: online-terminology.md
+- name: Dynamics 365 settings
+  items:
+  - name: System settings
+    items:
+    - name: General
+      href: system-settings-dialog-box-general-tab.md
+    - name: Fiscal year + calendar
+      href: system-settings-dialog-box-calendar-tab.md
+    - name: Business closures
+      href: set-when-business-closed.md
+    - name: Currencies
+      href: customize-regional-options-admins.md
+    - name: Languages
+      href: enable-languages.md
+    - name: Formats
+      href: system-settings-dialog-box-formats-tab.md
+    - name: Privacy preferences
+      href: set-privacy-preferences-organization.md
+    - name: Manage subscriptions
+      href: manage-online-environments.md
+  - name: Document management
+    items:
+    - name: Settings
+    - name: SharePoint sites
+    - name: SharePoint document locations
+    - name: Manage document suggestions
+    - name: OneDrive for Business
+    - name: OneNote integration
+  - name: Data management
+    items:
+    - name: Announcements
+    - name: Auditing
+    - name: Auto numbering
+    - name: Auto record creation rules
+    - name: Duplicate detection
+    - name: Data maps
+    - name: Encryption
+    - name: Jobs
+    - name: Templates
+    - name: Add data
+    - name: Download template
+    - name: Import
+    - name: Bulk delete
+  - name: Email configuration
+    items:
+    - name: Server profiles
+    - name: Mailboxes
+    - name: Email settings
+    - name: Synchronization settings
+    - name: Dynamics 365 for Outlook
+    - name: Migrate router data
+    - name: New mailbox or server profile
+  - name: Security
+    items:
+    - name: Users
+    - name: Security roles
+    - name: Teams
+    - name: Business units
+    - name: Field security profiles
+    - name: Hierarchy security
+    - name: Positions
+    - name: Access team templates
+  - name: Customization
+    items:
+    - name: Solutions
+    - name: Customize this system
+    - name: Publishers
+    - name: Themes
+    - name: Processes
+    - name: Activity feeds settings
+    - name: Export field translations
+    - name: Developer resources
+    - name: Dynamics Marketplace
+  - name: Add-ons
+    items:
+    - name: Relationship Insights
+    - name: Mobile
+    - name: Yammer
+    - name: Microsoft Social Engage

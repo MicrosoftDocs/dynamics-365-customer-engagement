@@ -1,23 +1,26 @@
 ---
 title: "Customize Dynamics 365 Power BI content packs (Dynamics 365 Customer Engagement)| MicrosoftDocs"
-ms.custom: ""
+description: "Learn how to modify the available Power BI content packs to use with Dynamics 365 data."
+keywords: "PBI"
 ms.date: 09/30/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 424d7f29-de44-4ce0-94f1-be8777ad6485
+author: Mattp123
+ms.author: matp
+manager: amyla
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 16
-author: "Mattp123"
-ms.author: "matp"
-manager: "amyla"
+topic-status: Drafting
 tags: 
- - "MigrationHO"
 ---
+
 # Customize Dynamics 365 Power BI content packs
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]
