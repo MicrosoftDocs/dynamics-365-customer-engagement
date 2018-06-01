@@ -82,7 +82,7 @@ From here, you can do the following:
 
 - **Sort the list**: Select a column heading to sort the list by values in that column. Select the heading again to sort in the opposite direction.
 - **Search the list**: Enter text in the search field above the list to show only those records that contain your text.
-- **Filter the list**: Select a letter at the bottom of the list to show only records with names that start with that letter.
+- **Filter the list**: Select one of the letters at the bottom of the list to show only records that start with that letter (in the field by which the list is currently being sorted).
 - **Choose a system view**: A system view is predefined to show commonly used list views such as active contacts, tasks assigned to you, closed leads, and so on. The current system view&mdash;My Active Contacts, in the preceding image&mdash;is shown as a heading above the list. To change the system view, select the down arrow next to this heading and choose the view you want. To set a view as the default, select the pushpin icon next to the view.
 - **Go to a page in the list**: If the list contains more records than can be shown on one page, use the paging controls at the bottom of the list to move forward and backward through the pages.
 - **Create records**: Select **New** to create a new, blank record.
