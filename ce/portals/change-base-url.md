@@ -19,7 +19,7 @@ topic-status: Drafting
 
 # Change the base URL of a portal
 
-You can change the base URL of a portal after it is provisioned. For example, if you choose `contosocommunity.microsoftcrmportals.com` as the base URL when provisioning the portal, you can later change it to `contosocommunityportal.microsoftcrmportals.com` as per your requirements.
+You can change the base URL of a portal after it is provisioned. For example, if you choose `contosocommunity.microsoftcrmportals.com` as the base URL when provisioning the portal, you can later change it to `contosocommunityportal.microsoftcrmportals.com` to meet your requirements.
 
 > [!NOTE]
 > Once you change the base URL of your portal, the older URL will no longer be accessible and it will become available for other customers to use for their portals.
