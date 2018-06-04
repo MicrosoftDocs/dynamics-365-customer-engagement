@@ -33,7 +33,7 @@ When an administrator [assigns a Social Engagement license](assign-user-roles.md
 
 ### Reduction of retention time for Social Content to 15 months
 
-On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will reduce the [retention time of Social Content](data-retention-social-engagement.md) to 15 months. This means that posts older than 15 months won’t be available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution anymore. We recommend running reports and analytics that are dependent on older Social Content before this change becomes effective. You can [export data from widgets and lists](analyze-social-data-using-widgets.md#export-data-from-widgets) if you want to keep reports about older data. 
+On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will reduce the [retention time of Social Content](data-retention-social-engagement.md) to 15 months. This means that posts older than 15 months won’t be available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution anymore. You can [export data from widgets and lists](analyze-social-data-using-widgets.md#export-data-from-widgets) to create reports about the data. 
 
 ### Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
