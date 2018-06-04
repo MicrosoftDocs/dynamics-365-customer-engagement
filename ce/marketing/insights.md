@@ -1,8 +1,12 @@
 ---
 title: "Analyze marketing results and gain insights (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to find and interpret marketing results, KPIs, and analytics in Dynamics 365 for Marketing"
+keywords: "insights;results;KPIs;analytics"
 ms.date: 04/25/2018
-ms.service: crm-online
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,6 +18,7 @@ manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
 ---
+
 # Analyze results to gain insights from your marketing activities
 
 [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] keeps track of the way your contacts react to your various marketing initiatives and provides detailed analytical views to help you understand your impact and learn what works best. For example, each of the following entities provides statistics, analytics, and key performance indicators (KPIs) based on your marketing results:
@@ -128,7 +133,7 @@ Many different lists, statistics, and KPIs are provided to help you evaluate and
 
 <dl>
 <dt>Blocked</dt><dd>Messages that were blocked (not sent) due to a contact's preferences or a problem with their email address. This can happen if the segment included contacts marked as <b>Do not bulk email</b>, or because the contact's email address was missing, invalid, or blacklisted. Examples of blacklisted address include known anonymous email servers and generic addresses such as do-not-repy@constoso.com or office@contoso.com.</dd>
-<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>  
+<dt>Bounced (hard)</dt><dd>Messages that resulted in a hard bounce, which indicates that the address is invalid. A hard bounce might occur because the domain name doesn't exist or because the recipient is unknown. Multiple hard bounces can lower your server's send reputation, which will reduce your delivery rate, so you should remove hard-bouncing addresses from your contact records. When an address returns a hard bounce, Dynamics 365 will automatically stop sending new messages to that address for six months, but your email results will still show each attempt as a hard bounce.</dd>
 <dt>Bounced (other)</dt><dd>Messages that bounced for some reason other than a hard or soft bounce. This result is rare, and might indicated a <em>remote bounce</em>, which occurs when a server initially accepting a message, but then returns a bounce message sometime later. These are otherwise treated as soft bounces.</dd>
 <dt>Bounced (soft)</dt><dd>Messages that resulted in a soft bounce. A soft bounce occurs when an email is sent to a valid server, which recognizes the user, but still rejects the message for some reason, such as because the recipient's mailbox is full, the mail server is temporarily unavailable, or the recipient no longer has an email account at that address. If five messages in a row sent to a given address result in a soft bounce, then that address is treated as a hard-bounce address.</dd>
 <dt>Clicked (total)</dt><dd>The total count of all the links clicked in all sent messages. Multiple clicks of the same link in a single message are counted multiple times, so the proportion of total clicks per total sent can sometimes be more than 100%.</dd>
