@@ -133,7 +133,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
     In the **Security Roles** screen, select the name of a role to open the security role information page. Select the **Business process Flows** tab, and then assign appropriate privileges on the business process flow for a security role.
 
     > [!NOTE]
-    > The **System Administrator** and **System Customizer** security roles have access to the new business process flows by default.
+    > The **System Administrator** and **System Customizer** security roles have access to new business process flows by default.
 
     ![Assign privileges for your business process flow](media/bpf-assign-privileges.png)
 

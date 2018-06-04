@@ -98,7 +98,7 @@ You can assign the following privileges on a business process flow:
 - **Append To**: Allows cross-entity navigation to an entity. For example, the Opportunity entity in the **Lead to Opportunity Sales Process** business process flow.
 
 > [!NOTE]
-> The **System Administrator** and **System Customizer** security roles have access to the existing and new business process flows by default. 
+> The **System Administrator** and **System Customizer** security roles have access to all business process flows by default. 
  
   
 <a name="BKMK_Considerations"></a>   
