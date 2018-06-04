@@ -1,9 +1,12 @@
 ---
 title: "Market to leads (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "How to integrate sales-driven and marketing-driven lead processes in Dynamics 365 for Marketing"
-keywords: ""
+keywords: "leads;contacts;marketing;sales"
 ms.date: 04/25/2018
-ms.service: crm-online
+ms.service:
+  - "crm-online"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -64,7 +67,7 @@ For example, to set up a segment that finds all the leads collected at a recent 
     <br/>
     ![Link to the related contact records](media/leads-segment-lead-relation.png "Link to the related contact records")
 
-1. Set the new relation to **All\*** to find all contacts that relate to the found leads.  
+1. Set the new relation to **All&ast;** to find all contacts that relate to the found leads.  
     <br/>
     ![The final lead segment query](media/leads-segment-lead-final.png "The final lead segment query")
 
