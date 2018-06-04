@@ -118,7 +118,7 @@
     }
   ],
   "branch_target_mapping": {
-    "live": [
+    "master": [
       "Publish",
       "Pdf"
     ]
