@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 05/29/2018
+ms.date: 06/04/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -29,7 +29,7 @@ For important, late-breaking information and a list of known issues, see the [So
 
 ### Change of permissions for newly invited users
 
-When an administrator [assigns a Social Engagement license](assign-user-roles.md) to a user, this user will get Power Analyst permissions. This enables users to create search topics and get started quickly. Administrators can [change the permissions](user-roles.md) at any time according to their business requirements. 
+When an administrator [assigns a Social Engagement license](assign-user-roles.md) to a user, this user will get Power Analyst and Responder permissions. This enables users to create search topics and engage in conversations with other authors. Administrators can [change the permissions](user-roles.md) at any time according to their business requirements. 
 
 ### Reduction of retention time for Social Content to 15 months
 

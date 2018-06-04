@@ -2,7 +2,7 @@
 title: "Understand user roles in Social Engagement | Microsoft Docs"
 description: "Understand the permissions for the available user roles in Social Engagement."
 keywords: "permissions, user roles, interaction role, configuration role"
-ms.date: 05/29/2018
+ms.date: 06/04/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -22,14 +22,14 @@ Administrators can assign roles with appropriate permissions for your [!INCLUDE[
   
 Every invited user should be assigned both types of roles.  
   
-An administrator needs to confirm the automatically-assigned Power Analyst and Reader role for an invited user, or update the user role.  
+An administrator can update the automatically-assigned Power Analyst and Responder role for a newly invited user.
   
 To assign and edit user roles, go to **Settings** > **User Management**.  
   
 > [!IMPORTANT]
 >  User roles set in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] don’t apply to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. You’ll need to set roles in both [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. A user can have a different role in each solution.  
 >   
->  If there are **Newly invited (Power Analyst/Reader)** users in the solution, administrators will receive a notification when accessing the **Settings** area.  
+>  If there are **Newly invited** users in the solution, administrators can find them from the drop-down menu on **Settings** > **User Management**.  
   
 ## Configuration user roles  
 
