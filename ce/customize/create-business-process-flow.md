@@ -175,18 +175,18 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
     -   When you select **Next Stage** on the process bar for a record, any records that use the relationship will be listed in the process flow, thereby promoting reuse of records in the process. In addition, you can use workflows to automate creation of records so that the user simply selects it instead of creating one to further streamline the process.  
   
- **Edit Steps**  
+**Edit Steps**  
  Each stage can have up to 30 steps.    
   
- **Add branch**  
+**Add branch**  
  To learn about adding a branch to a stage, see [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md).  
   
  To make a business process flow available for people to use, you must order the process flow, activate it, and specify business process flow privileges for a security role and then assign the security role to appropriate users.  
   
- **Set Process Flow Order**  
+**Set Process Flow Order**  
  When you have more than one business process flow for an entity (record type), you’ll need to set which process is automatically assigned to new records.. In the command bar, select **Order Process Flow**. For new records or records that do not already have a process flow associated with them, the first business process flow that a user has access to is the one that will be used.  
   
- **Activate**  
+**Activate**  
  Before anyone can use the business process flow, you must activate it. In the command bar, select **Activate**. After you confirm the activation, the business process flow is ready to use. If a business process flow has errors, you will not be able to activate it until the errors are corrected. 
 
 **Edit Security Roles**  
