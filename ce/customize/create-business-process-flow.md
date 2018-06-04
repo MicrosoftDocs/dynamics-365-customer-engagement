@@ -33,18 +33,15 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
 <a name="BKMK_Createbusinessprocessflows"></a>   
 ## Create a business process flow  
   
-1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
-  
-    > [!TIP]
-    >  After you create a business process flow definition, you can   
+1. [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]       
   
 1. Open solution explorer.
   
-2. On the left navigation pane, select **Processes**. 
+1. On the left navigation pane, select **Processes**. 
   
-3.  On the **Actions** toolbar, select **New**.  
+1.  On the **Actions** toolbar, select **New**.  
   
-4.  In the **Create Process**  dialog box, complete the required fields:  
+1.  In the **Create Process**  dialog box, complete the required fields:  
   
     -   Enter a process name. The name of the process doesn’t need to be unique, but it should be meaningful for people who need to choose a process. You can change this later.  
   
@@ -56,13 +53,13 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
          The entity you select affects the fields available for steps that can be added to the first stage of the process flow. If you don’t find the entity you want, make sure the entity has the Business process flows (fields will be created) option set in the entity definition. You cannot change this after you save the process.  
   
-5. [!INCLUDE[proc_click_or_tap_ok](../includes/proc-click-or-tap-ok.md)]  
+1. [!INCLUDE[proc_click_or_tap_ok](../includes/proc-click-or-tap-ok.md)]  
   
      The new process is created, and the business process flow designer opens with a single stage already created for you.  
   
  ![Business process flow window showing main elements](../customize/media/business-process-flow-window-showing-main-elements.png "Business process flow window showing main elements")  
   
-6. **Add stages.** If your users will progress from one business stage to another in the  process:  
+1. **Add stages.** If your users will progress from one business stage to another in the  process:  
   
     1.  Drag a **Stage** component from the **Components** tab and drop it on a + sign in the designer.  
   
@@ -78,7 +75,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
         -   When you're done changing properties, select the **Apply** button.  
   
-7. **Add steps to a stage.** To see the steps in a stage, select **Details** in the lower-right corner of the stage. To add more steps:  
+1. **Add steps to a stage.** To see the steps in a stage, select **Details** in the lower-right corner of the stage. To add more steps:  
   
     1.  Drag the **Step** component to the stage from the **Components** tab.  
   
@@ -94,7 +91,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
         4.  Select **Apply** when you're done.  
   
-8. **Add a branch (condition) to the process.** To add a branching condition:  
+1. **Add a branch (condition) to the process.** To add a branching condition:  
   
     1.  Drag the **Condition** component from the **Components** tab to a + sign between two stages.  
   
@@ -102,7 +99,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
     2.  Select the condition, and then set properties in the **Properties** tab. For more information on branching properties, see [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md). When you're finished setting properties for the condition, select **Apply**.  
   
-9. **Add a workflow.** To invoke a workflow:  
+1. **Add a workflow.** To invoke a workflow:  
   
     1.  Drag a **Workflow** component from the **Components** tab to a stage or to the **Global Workflow** item in the designer.   Which one you add it to depends on the following:  
   
@@ -122,16 +119,16 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
        For more information on workflows, see [Workflow processes](../customize/workflow-processes.md).  
   
-10. To validate the business process flow, select **Validate** on the action bar.  
+1. To validate the business process flow, select **Validate** on the action bar.  
   
-11. To save the process as a draft while you continue to work on it, select **Save** in the action bar.  
+1. To save the process as a draft while you continue to work on it, select **Save** in the action bar.  
   
     > [!IMPORTANT]
     >  As long as a process is a draft, people won’t be able to use it.  
   
-12. To activate the process and make it available to your team, select **Activate** on the action bar.
+1. To activate the process and make it available to your team, select **Activate** on the action bar.
 
-13. To provide control over who can create, read, update, or delete the business process flow instance, select **Edit Security Roles** on the command bar of the designer. For example, for service-related processes, you could provide full access for customer service reps to change the business process flow instance, but provide read-only access to the instance for sales reps so they can monitor post-sales activities for their customers.
+1. To provide control over who can create, read, update, or delete the business process flow instance, select **Edit Security Roles** on the command bar of the designer. For example, for service-related processes, you could provide full access for customer service reps to change the business process flow instance, but provide read-only access to the instance for sales reps so they can monitor post-sales activities for their customers.
 
     In the **Security Roles** screen, select the name of a role to open the security role information page. Select the **Business process Flows** tab, and then assign appropriate privileges on the business process flow for a security role.
 
