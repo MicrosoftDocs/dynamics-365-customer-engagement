@@ -3,7 +3,11 @@ title: "Find and apply updates to core and shared solutions (Dynamics 365 for Ma
 description: "How to find out when an update for one or more Dynamics 365 for Marketing solutions are available and then apply the updates"
 keywords: "update;solutions;administration;instances"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-admin"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,9 +18,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-admin
-  - dyn365-marketing
 ---
 
 # Keep Marketing up to date
