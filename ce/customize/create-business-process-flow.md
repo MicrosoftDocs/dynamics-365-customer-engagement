@@ -131,12 +131,12 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
   
 12. To activate the process and make it available to your team, select **Activate** on the action bar.
 
-13. To provide control over who can create, read, update, or delete the business process flow instance, select **Edit Security Roles** on the action bar. For example, for service-related processes, you could provide full access for customer service reps to change the business process flow instance, but provide read-only access to the instance for sales reps so they can monitor post-sales activities for their customers.
+13. To provide control over who can create, read, update, or delete the business process flow instance, select **Edit Security Roles** on the command bar of the designer. For example, for service-related processes, you could provide full access for customer service reps to change the business process flow instance, but provide read-only access to the instance for sales reps so they can monitor post-sales activities for their customers.
 
-    In the **Security Roles** screen, select the name of a role to open the security role information page. Select the Business process Flows tab, and then assign appropriate privileges on the business process flow for a security role.
+    In the **Security Roles** screen, select the name of a role to open the security role information page. Select the **Business process Flows** tab, and then assign appropriate privileges on the business process flow for a security role.
 
     > [!NOTE]
-    > **System Administrator** and **System Customizer** security roles have privileges on the new business process flows by default.
+    > The **System Administrator** and **System Customizer** security roles have access to the new business process flows by default.
 
     ![Assign privileges for your business process flow](media/bpf-assign-privileges.png)
 
@@ -184,7 +184,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
  **Add branch**  
  To learn about adding a branch to a stage, see [Enhance business process flows with branching](../customize/enhance-business-process-flows-branching.md).  
   
- To make a business process flow available for people to use, you must order the process flow, enable security roles, and activate it.  
+ To make a business process flow available for people to use, you must order the process flow, activate it, and specify business process flow privileges for a security role and then assign the security role to appropriate users.  
   
  **Set Process Flow Order**  
  When you have more than one business process flow for an entity (record type), you’ll need to set which process is automatically assigned to new records.. In the command bar, select **Order Process Flow**. For new records or records that do not already have a process flow associated with them, the first business process flow that a user has access to is the one that will be used.  
@@ -197,7 +197,7 @@ This topic shows how to create a business process flow with [!INCLUDE [pn-powera
 
  By default, only the **System Administrator** and **System Customizer** security roles can access a new business process flow.  
   
-To specify privileges on a business process flow, open the business process flow definition for editing, and then select **Edit Security Roles** in the command bar of the business process flow designer. See Step 13 earlier in the topic for more details.  
+To specify privileges on a business process flow, open the business process flow definition for editing, and then select **Edit Security Roles** in the command bar of the business process flow designer. See Step 14 earlier in the topic for more details.  
 
 ## Preview feature: Add an on-demand action to a business process flow
 The [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update introduces a new business process flow feature: business process flow automation with Action Steps. You can add a button to a business process flow that will trigger an action or workflow.

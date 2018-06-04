@@ -85,7 +85,7 @@ A business process flow definition is represented as a custom entity and an inst
 <a name="BKMK_BPFPrivileges"></a>   
 ## Business process flow privileges
 
-Each business process flow definition that is represented as a custom entity comes with its own set of privileges that can be edited within a security just like any other system or custom entity. You can specify the privileges in the **Business Process Flows** tab for a security role.
+Each business process flow definition that is represented as a custom entity comes with its own set of privileges that can be edited within a security role just like any other system or custom entity. You can specify the privileges in the **Business Process Flows** tab for a security role.
 
 ![Set privileges for business process flow](media/bpf-privileges-customizer.png) 
 
@@ -95,7 +95,10 @@ You can assign the following privileges on a business process flow:
 - **Write**: Allows updating the business process flow. For example, changing state and navigation. 
 - **Delete**: Allows deleting an instance such as when a record is deleted. 
 - **Append**: Allows cross-entity navigation from an entity. For example, the Lead entity in the **Lead to Opportunity Sales Process** business process flow. 
-- **Append To**: Allows cross-entity navigation to an entity. For example, the Opportunity entity in the **Lead to Opportunity Sales Process** business process flow. 
+- **Append To**: Allows cross-entity navigation to an entity. For example, the Opportunity entity in the **Lead to Opportunity Sales Process** business process flow.
+
+> [!NOTE]
+> The **System Administrator** and **System Customizer** security roles have access to the existing and new business process flows by default. 
  
   
 <a name="BKMK_Considerations"></a>   
@@ -160,23 +163,9 @@ You can assign the following privileges on a business process flow:
   
 -   Multi-entity processes can contain no more than five entities.
   
-## Preview feature: Business process flow entity customization support 
+## Business process flow entity customization support 
 
 Introduced in the [!INCLUDE [pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] update, business process flow entities can appear in the system so that entity record data can be made available in grids, views, charts, and dashboards. 
-
-> [!IMPORTANT]
-> [!INCLUDE [cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
-
-> [!INCLUDE [cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]
-
-
-### Enable customization support for business process flow entities
-1.	Go to **Settings** > **Administration** > **System Settings**.
-2.	Select the **Preview** tab.
-3.	Review, and if you agree, accept the license terms.
-4.	Select **Enable BPF Entity Customization Support**, and then select **OK**.
-
-![Enable business process flow entity customization support](media/enable-bpf-custom.png)
 
 ### Use business process flow entity records with grids, views, charts, and dashboards
 
@@ -187,8 +176,6 @@ Business process flows, such as **Lead To Opportunity Sales Process**, appear as
 ![Solution Explorer with lead-to-opportunity process entity](media/bpf-lead-solution-explorer.png)
 
 To access a default business process flow view, open solution explorer, expand **Entities** > expand the process that you want, such as **Lead To Opportunity Sales Process**, select **Views**, and then select the view that you want.
-
-![Access a business process flow entity view](media/bpf-entity-views.png)
 
 Several default views are available that you can view as a chart, such as the **Active Opportunity Sales Process** view. 
 
