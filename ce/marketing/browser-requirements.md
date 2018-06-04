@@ -3,7 +3,10 @@ title: "Browser requirements for Dynamics 365 for Marketing | Microsoft Docs"
 description: "Learn about the browser requirements for Dynamics 365 for Marketing"
 keywords: "browser;requirements"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,8 +17,6 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-marketing
 ---
 
 # Browser and system requirements
