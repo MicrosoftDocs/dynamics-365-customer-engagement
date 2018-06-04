@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 for Marketing Readme (Known Issues) | MicrosoftDocs"
-ms.date: 04/02/2018
+ms.date: 05/10/2018
 ms.service: "crm-online"
 ms.topic: "article"
 author: "kathleenmcgrath"
@@ -9,48 +9,46 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 78dc5157-cf1d-4e32-ace7-9e71763e7510
+author: kathleenmcgrath
+ms.author: kmcgrath
+manager: sakudes
 ---
+
 Dynamics 365 for Marketing<br>Readme (Known Issues)
 ===================================================
 
 This document provides important, late-breaking information about known issues
-and possible workarounds for Dynamics 365 for Marketing.
+and workarounds for Dynamics 365 for Marketing.
 
-### Dynamics 365 for Marketing - Trials 
+### Dynamics 365 for Marketing - trials 
 
 -   A trial of Dynamics 365 for Marketing is subject to [these limits and
     restrictions](https://go.microsoft.com/fwlink/p/?linkid=864735).
 
--   On the **Your colleagues are also trying Dynamics 365** page, the **Learn
-    more** link goes to the incorrect FAQ.
-
 -   You cannot use the Join sign-up process to add more users to a Marketing
-    trial that is running on a trial tenant without mailbox setup for org admin.
-    Instead, each new user must be added in a special way. Refer to [First Time
-    setup FAQ](https://go.microsoft.com/fwlink/?linkid=866753).
+    trial that is running on a trial tenant without a mailbox set up for the
+    organization admin. Instead, each new user must be added in a specific way.
+    Refer to the [First time setup
+    FAQ](https://go.microsoft.com/fwlink/?linkid=866753).
 
 -   You cannot sign up using an \@microsoft.com email address. Please set up a
-    trial instance first as described in this
-    [FAQ](https://go.microsoft.com/fwlink/p/?linkid=866753).
+    trial instance first as described in the [First time setup
+    FAQ](https://go.microsoft.com/fwlink/p/?linkid=866753).
 
-### Dynamics 365 for Marketing - Known Issues
+### Dynamics 365 for Marketing - known issues
 
 -   Configuration, installation, and first-run experience
 
     -   The first-run experience to fully deploy the Marketing app might take up
-        to two hours. During this process, retries might happen automatically
+        to two hours. During this process, retries might happen automatically,
         causing success (failure) notification by email.
 
     -   First-run experience success and failure emails sometimes aren't
         delivered. View the first-run experience link to show the actual status.
 
-    -   After installing sample data via **Sample Data Management** in
-        **Advanced Settings,** the status incorrectly shows that sample data has
-        not been installed.
-
 -   Customer journeys
 
-    -   Setting triggers on specific "link clicked" after the email tile, shows
+    -   Setting triggers on specific "link clicked" after the email tile shows
         multiple options for the same link. Triggers might not work correctly
         because clicks are not always attributed to the correct link.
 
@@ -58,17 +56,10 @@ and possible workarounds for Dynamics 365 for Marketing.
         were participating in, but they might continue to be included in other
         actions, such as tasks and workflows.
 
-    -   Insights (across journeys, emails and marketing pages) may take up to 6
-        hours to display.
+    -   Insights (across journeys, emails and marketing pages) may take up to
+        six hours to display.
 
     -   The Snapshot view generated for journeys might be missing some tiles.
-
-    -   Snapshot doesn't work correctly in full-screen mode. The workaround is
-        to use Snapshot in regular mode.
-
-    -   When you save a customer journey after adding a segment, you might see
-        an error indicating that the segment isn’t present. The workaround is to
-        remove the segment tile, and then add a new segment tile and segment.
 
 -   Segmentation
 
@@ -76,14 +67,21 @@ and possible workarounds for Dynamics 365 for Marketing.
 
     -   Segmentation doesn't work on lookup fields.
 
-    -   Metadata used for building conditions and dropdowns shown on the
-        designer, is not localized for non-English orgs.
+    -   Metadata used for building conditions and drop-downs shown on the
+        designer is not localized for non-English organizations.
+
+    -   The Save button is not visible on the command bar after the initial save
+        of the segment. Use the Save button in the lower-right corner of the
+        page instead.
 
     -   Dynamic segments based on subscription marketing lists don't remove
         unsubscribed contacts from running journeys. The unsubscribe request
         will be honored in future journeys. [Learn how to use suppression
         segments to ensure running journeys will implement unsubscribe
         requests.](https://go.microsoft.com/fwlink/p/?linkid=867008)
+
+    -   When creating a compound segment, users might have to wait for a few
+        minutes for the segment selector data to load.
 
 -   Email marketing
 
@@ -96,7 +94,7 @@ and possible workarounds for Dynamics 365 for Marketing.
         for troubleshooting content settings.
 
     -   Selecting **Stop** on a live email will prevent its use on future
-        journeys, but its use on live journey continues unaffected, and emails
+        journeys, but its use on live journeys continues unaffected, and emails
         are delivered.
 
     -   Reusing the same email multiple times (within the same journey or in
@@ -110,6 +108,9 @@ and possible workarounds for Dynamics 365 for Marketing.
     -   The keyword grid is not displayed when you save a newly created keyword
         but the record is created successfully.
 
+    -   Outgoing email test sends might not work at times in some organizations.
+        Contact the Support team for mitigation options.
+
 -   Marketing pages and forms
 
     -   When configuring a form on a page, we recommend that you enter a
@@ -120,11 +121,19 @@ and possible workarounds for Dynamics 365 for Marketing.
         its public link (full page URL) is ready. Visitors might see an error
         message on the page prior to this.
 
+    -   When adding text in the confirmation box while setting up a form in a
+        Marketing page, the text is not accepted the first time, and the user
+        needs to click the text box once more to enter the text.
+
+    -   Marketing pages from the sample data do not go live in certain
+        organizations (Italian, Japanese). A new marketing page can still be
+        created and pushed live.
+
 -   Lead scoring and management
 
     -   Lead scoring results might take up to one hour to be calculated.
 
-    -   While creating lead scoring rules, dropdowns might not be localized for
+    -   While creating lead scoring rules, drop-downs might not be localized for
     non-English languages.
 
 -   Event management
@@ -151,7 +160,7 @@ and possible workarounds for Dynamics 365 for Marketing.
         states (Status Reason) across the application, and **Stop** buttons to
         manage records that are no longer required.
 
-    -   Dynamics 365 for Marketing is currently only supported on the following
+    -   Dynamics 365 for Marketing is currently supported only on the following
         browsers: **Microsoft Edge, Chrome, and Safari on Mac**.
 
 Copyright
@@ -175,4 +184,4 @@ agreement.
 Microsoft and Microsoft Dynamics are trademarks of the Microsoft group of
 companies. All other trademarks are property of their respective owners.
 
-[Third Party Notices](https://go.microsoft.com/fwlink/?linkid=853765)
+*Third Party Notices*
