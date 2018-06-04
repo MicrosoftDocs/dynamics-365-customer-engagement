@@ -43,8 +43,6 @@ In [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)],  you can track m
   
     - **Close all child cases when parent case is closed**: The parent case can’t be closed until all the child cases are closed.  
   
-    - **Don’t allow parent case closure until all child cases are closed**: The parent case can’t be closed until all the child cases are closed.  
-  
     > [!NOTE]
     >  If you don’t make a selection, parent and child cases are closed independently of each other. This is the default setting.  
   

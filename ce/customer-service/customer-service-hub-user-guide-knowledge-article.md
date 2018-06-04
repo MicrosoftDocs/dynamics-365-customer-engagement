@@ -30,7 +30,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 ## Knowledge management process  
  The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub.  
   
- ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365")  
+ ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "This diagram shows the various stages of the knowledge management process, like creating an article, sending it for review, and then publishing the article. Refer the processes below to know more.")  
   
   
 ## Create a knowledge article  
