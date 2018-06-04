@@ -1,5 +1,5 @@
 ---
-title: "Change the base URL of a Dynamics 365 portals | MicrosoftDocs"
+title: "Change the base URL of a Dynamics 365 portal | MicrosoftDocs"
 description: "Learn how to change the base URL of a portal."
 ms.date: 05/30/2018
 ms.service: crm-online
@@ -15,16 +15,16 @@ ms.reviewer:
 topic-status: Drafting
 ---
 
-# Change base URL of a portal
+# Change the base URL of a portal
 
-You can change the base URL of a portal after it is provisioned. For example, if you choose `contosocommunity.microsoftcrmportals.com` as the base URL while provision the portal, you can later change it to `contosocommunityportal.microsoftcrmportals.com` as per your requirement.
+You can change the base URL of a portal after it is provisioned. For example, if you choose `contosocommunity.microsoftcrmportals.com` as the base URL when provisioning the portal, you can later change it to `contosocommunityportal.microsoftcrmportals.com` to meet your requirements.
 
 > [!NOTE]
-> Once you change the base URL of your portal, the older URL will not be accessible, and it will be made available for other customers to use it for their portal.
+> Once you change the base URL of your portal, the older URL will no longer be accessible and it will become available for other customers to use for their portals.
 
 1.	Go to the Dynamics 365 Administration Center page and select the **Applications** tab.
 
-2.	Select the name of the portal of which you want to change the base URL, and then select **Manage**.
+2.	Select the name of the portal for which you want to change the base URL, and then select **Manage**.
 
 3.	Go to **Portal Actions** > **Change base URL**. 
 
@@ -38,11 +38,11 @@ You can change the base URL of a portal after it is provisioned. For example, if
 
 ## Troubleshooting
 
-This section provides information about troubleshooting issues while changing base URL of a portal.
+This section provides information about troubleshooting issues while changing the base URL of a portal.
 
 ### Changing the base URL fails
 
-If changing the base URL of a portal fails, an error is displayed as shown in the below image:
+If changing the base URL of a portal fails, an error is displayed as shown in the following image:
 
 ![Error while changing the base URL of the portal](media/change-base-url-error.png "Error while changing the base URL of the portal")
 
