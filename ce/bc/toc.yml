@@ -36,12 +36,6 @@
     - name: App for Outlook
       tocHref: /dynamics365/customer-engagement/outlook-app/
       topicHref: /dynamics365/customer-engagement/outlook-app/overview
-    - name: Customer Insights
-      tocHref: /dynamics365/customer-engagement/insights-insideview/
-      topicHref: /dynamics365/customer-engagement/insights-insideview/insights-powered-by-insideview
-    - name: Customer Insights
-      tocHref: /dynamics365/customer-engagement/customer-insights/
-      topicHref: /dynamics365/customer-engagement/customer-insights/getstart
     - name: Company News Timeline
       tocHref: /dynamics365/customer-engagement/company-news-timeline/
       topicHref: /dynamics365/customer-engagement/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets

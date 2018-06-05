@@ -67,7 +67,6 @@ These guides provide in-depth information about specific apps, solutions and rel
 <td>
 <li>[Social Engagement](social-engagement/index.md)</li>
 <li>[Gamification](gamification/index.md)</li>
-<li>[Customer Insights](customer-insights/index.md)</li>
 <li>[Unified Service Desk](unified-service-desk/index.md)</li>
 </td>
 </tr>
