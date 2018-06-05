@@ -129,7 +129,7 @@ JObject contact2 = JsonConvert.DeserializeObject<JObject>(await response.Content
   
 if (response.StatusCode == HttpStatusCode.NoContent)  //204  
 {  
-Console.WriteLine("POST succeeded, entity created!”);  
+Console.WriteLine("POST succeeded, entity created!");  
 //optionally process response message headers or body here, for example:  
 entityUri = response.Headers.GetValues("OData-EntityId").FirstOrDefault();  
 entityUris.Add(entityUri);  
