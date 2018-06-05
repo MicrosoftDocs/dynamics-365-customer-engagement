@@ -28,9 +28,9 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 
 ## Knowledge management process  
- The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub.  
+ The following diagram describes the default process for creating and using knowledge articles in the Customer Service Hub. Create an article and mark it for review. The reviewer can approve or reject the article. If the article is rejected, it is sent back for edits or updates. If the article is approved, it is published on the portal. It is also available in search and can also be translated.
   
- ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "This diagram shows the various stages of the knowledge management process, like creating an article, sending it for review, and then publishing the article. Refer the processes below to know more.")  
+ ![Knowledge management process in Dynamics 365](../customer-service/media/v8-km-walkthrough.png "Knowledge management process in Dynamics 365")  
   
   
 ## Create a knowledge article  
