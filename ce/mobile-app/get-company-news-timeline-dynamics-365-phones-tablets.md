@@ -13,8 +13,8 @@ applies_to:
 author: "mduelae"
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 8
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Stay on top of the latest news about your customers
 
