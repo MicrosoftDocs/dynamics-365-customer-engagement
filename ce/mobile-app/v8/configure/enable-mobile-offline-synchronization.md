@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 8.x"
 ms.assetid: 19eb9378-3eb0-4964-98d8-5c674a0c746b
 caps.latest.revision: 7
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Enable mobile offline synchronization
 
