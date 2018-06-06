@@ -1,6 +1,6 @@
 ---
 title: "GetGlobalContext function and ClientGlobalContext.js.aspx in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 01/22/2018
+ms.date: 06/05/2018
 ms.service: "crm-online"
 ms.topic: "conceptual"
 applies_to: 
@@ -17,6 +17,9 @@ manager: "amyla"
 Use the **GetGlobalContext** function when programming with [web resources](../../web-resources.md) to gain access to the global context information such as the information specific to the client, organization or user for your Customer Engagement instance. 
 
 To get access to the **GetGlobalContext** function in your HTML web resource, include a reference to **ClientGlobalContext.js.aspx**.
+
+> [!NOTE]
+> Including a reference to **ClientGlobalContext.js.aspx** does not make the **Xrm** object available in HTML web resources. Therefore, scripts containing `Xrm.*` methods aren’t supported in HTML web resources. `parent.Xrm.*` will work if the HTML web resource is loaded in a form container. However, for other places, such as loading an HTML web resource as part of the SiteMap, `parent.Xrm.*` also won’t work.
 
 ## GetGlobalContext function
 
