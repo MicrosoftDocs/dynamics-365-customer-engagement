@@ -54,8 +54,8 @@ All major browser (Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) rele
 
 | Browser |  | Version| Remarks |
 |---------|---|--------|---------|
-|Microsoft Edge| equals or higher |12.10240| compatible by [default](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
-|Internet Explorer | | 11 | enabled by default, Desktop & Mobile |
+|Microsoft Edge| equals or higher |12.10240| Compatible by [default](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
+|Internet Explorer | | 11 | Enabled by default, Desktop & Mobile |
 |Firefox | equals or higher | 27 | [Release notes](http://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/27.0/releasenotes/?flang=es-MX), all operating systems  |
 |Chrome | equals or higher| 29 | [Details](https://bugs.chromium.org/p/chromium/issues/detail?id=90392#c28), all operating systems |
 |Safari | equals or higher | 7 | |
