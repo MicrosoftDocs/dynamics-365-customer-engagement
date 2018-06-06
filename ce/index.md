@@ -55,16 +55,16 @@ These guides provide in-depth information about specific apps, solutions and rel
 <li>[Marketing](marketing/index.md)</li>
 <li>[Field Service](field-service/index.md)</li>
 <li>[Project Service Automation](project-service/index.md)</li>
-<li>[Portals](portals/index.md)</li>
 </td>
 <td>
+<li>[Portals](portals/index.md)</li>
 <li>[Voice of the Customer](voice-of-customer/index.md)</li>
 <li>[LinkedIn Connector](linkedin/index.md)</li>
 <li>[Live Assist, powered by Café X](live-assist/index.md)</li>
 <li>[Versium Predict](versium-predict/index.md)</li>
-<li>[Insights, powered by InsideView](insights-insideview/index.md)</li>
 </td>
 <td>
+<li>[Insights, powered by InsideView](insights-insideview/index.md)</li>
 <li>[Social Engagement](social-engagement/index.md)</li>
 <li>[Gamification](gamification/index.md)</li>
 <li>[Unified Service Desk](unified-service-desk/index.md)</li>
