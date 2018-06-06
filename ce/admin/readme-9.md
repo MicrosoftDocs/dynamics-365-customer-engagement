@@ -663,4 +663,4 @@ Unified Service Desk
 Third-party notice 
 -------------------
 
-[Third-party notice](https://go.microsoft.com/fwlink/p/?linkid=853765).
+[Third-party notice](https://go.microsoft.com/fwlink/p/?linkid=853765)
