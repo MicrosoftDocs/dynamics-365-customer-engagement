@@ -69,7 +69,7 @@ IDecorators seems to be no more than a dictionary
 
  -->
 
-**Type**: `[KeyValuePair](keyvaluepair.md)`<br />
+<!--**Type**: `[KeyValuePair](keyvaluepair.md)`<br />
 **Optional** -->
 
 <!-- ## diagnostics
@@ -134,7 +134,7 @@ interface ILearningPath
 
 -->
 
-**Type**: `object` -->
+<!--**Type**: `object` -->
 
 <!-- ### Remarks
 The object has the following `string` properties:
@@ -199,7 +199,7 @@ All methods provided by IPerformance are internal
 Should we just remove it?
 --->
 
-[!INCLUDE [internal](../../../includes/internal.md)] -->
+<!--[!INCLUDE [internal](../../../includes/internal.md)] -->
 
 <!--## refs
 
