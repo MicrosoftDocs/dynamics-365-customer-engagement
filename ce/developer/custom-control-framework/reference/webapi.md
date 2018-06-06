@@ -1,3 +1,21 @@
+---
+title: CaptureImageOptions | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: f6e1aca7-7415-42a2-8ca2-44c962cdc90a
+---
+
 # WebApi
 
 <!-- Not in CustomControlExposedInterfaces.d.ts -->
@@ -12,11 +30,14 @@
 | ------|-------------|
 |[createRecord](webapi/createrecord.md)|[!INCLUDE [createrecord-description](webapi/includes/createrecord-description.md)]|
 |[deleteRecord](webapi/deleterecord.md)|[!INCLUDE [deleterecord-description](webapi/includes/deleterecord-description.md)]|
-|[execute](webapi/execute.md)|[!INCLUDE [execute-description](webapi/includes/execute-description.md)]|
-|[executeMultiple](webapi/executemultiple.md)|[!INCLUDE [executemultiple-description](webapi/includes/executemultiple-description.md)]|
 |[retrieveMultipleRecords](webapi/retrievemultiplerecords.md)|[!INCLUDE [retrievemultiplerecords-description](webapi/includes/retrievemultiplerecords-description.md)]|
 |[retrieveRecord](webapi/retrieverecord.md)|[!INCLUDE [retrieverecord-description](webapi/includes/retrieverecord-description.md)]|
 |[updateRecord](webapi/updaterecord.md)|[!INCLUDE [updaterecord-description](webapi/includes/updaterecord-description.md)]|
+<!--|[execute](webapi/execute.md)|[!INCLUDE [execute-description](webapi/includes/execute-description.md)]|-->
+<!--|[executeMultiple](webapi/executemultiple.md)|[!INCLUDE [executemultiple-description](webapi/includes/executemultiple-description.md)]|
+|[retrieveMultipleRecords](webapi/retrievemultiplerecords.md)|[!INCLUDE [retrievemultiplerecords-description](webapi/includes/retrievemultiplerecords-description.md)]|
+|[retrieveRecord](webapi/retrieverecord.md)|[!INCLUDE [retrieverecord-description](webapi/includes/retrieverecord-description.md)]|
+|[updateRecord](webapi/updaterecord.md)|[!INCLUDE [updaterecord-description](webapi/includes/updaterecord-description.md)]|-->
 
 ### Related topics
 
