@@ -35,6 +35,10 @@ For known issues with this version of [!INCLUDE[pn_crm_app_for_outlook_short](..
 
 There are two ways to install [!INCLUDE [pn-ms-office](../includes/pn-ms-office.md)]: using a Windows Installer (MSI) version or a Click-to-Run (C2R) version of [!INCLUDE [pn-office-shortest](../includes/pn-office-shortest.md)]. You might have issues accessing [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] in the Add-ins area of [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] if you don't have the necessary updates for your installation version. For more information, see [Issue when trying to access Dynamics 365 within the Add-ins area of Outlook](https://support.microsoft.com/help/3211586/error-message-0x8006ffff-occurs-when-you-access-dynamics-365-within-th).
 
+If your organization is using a custom EWS URL on your Exchange Online configuration (in place of the default https://outlook.office365.com), Dynamics 365 App for Outlook is not supported.
+You will receive the message **Sorry, something went wrong. Please try again, or restart the application. Error code: Error_Message_0x80070000** when you use Dynamics 365 App for Outlook in Outlook Desktop and Outlook Web Access.
+
+
 ## Requirements  
  The following are required to use [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]:  
   
