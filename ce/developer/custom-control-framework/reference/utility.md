@@ -1,3 +1,21 @@
+---
+title: Utility | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: b9b232cd-5d3a-4bd6-a745-5242a63978ad
+---
+
 # Utility
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
@@ -9,7 +27,10 @@
 
 |Method | Description | 
 | ------|-------------|
-|[addGlobalNotification](utility/addglobalnotification.md)|[!INCLUDE [addglobalnotification-description](utility/includes/addglobalnotification-description.md)]|
+|[getEntityMetadata](utility/getentitymetadata.md)|[!INCLUDE [getentitymetadata-description](utility/includes/getentitymetadata-description.md)]|
+|[hasEntityPrivilege](utility/hasentityprivilege.md)|[!INCLUDE [hasentityprivilege-description](utility/includes/hasentityprivilege-description.md)]|
+|[lookupObjects](utility/lookupobjects.md)|[!INCLUDE [lookupobjects-description](utility/includes/lookupobjects-description.md)]|
+<!--|[addGlobalNotification](utility/addglobalnotification.md)|[!INCLUDE [addglobalnotification-description](utility/includes/addglobalnotification-description.md)]|
 |[beginSecureSessionForResource](utility/beginsecuresessionforresource.md)|[!INCLUDE [beginsecuresessionforresource-description](utility/includes/beginsecuresessionforresource-description.md)]|
 |[clearGlobalNotification](utility/clearglobalnotification.md)|[!INCLUDE [clearglobalnotification-description](utility/includes/clearglobalnotification-description.md)]|
 |[createServerUri](utility/createserveruri.md)|[!INCLUDE [createserveruri-description](utility/includes/createserveruri-description.md)]|
@@ -24,7 +45,7 @@
 |[lookupObjects](utility/lookupobjects.md)|[!INCLUDE [lookupobjects-description](utility/includes/lookupobjects-description.md)]|
 |[retrieveFormWithAttributes](utility/retrieveformwithattributes.md)|[!INCLUDE [retrieveformwithattributes-description](utility/includes/retrieveformwithattributes-description.md)]|
 |[retrieveRecordCommand](utility/retrieveRecordCommand.md)|[!INCLUDE [retrieveRecordCommand-description](utility/includes/retrieveRecordCommand-description.md)]|
-|[triggerOfflineMetadataSync](utility/triggerOfflineMetadataSync.md)|[!INCLUDE [triggerOfflineMetadataSync-description](utility/includes/triggerOfflineMetadataSync-description.md)]|
+|[triggerOfflineMetadataSync](utility/triggerOfflineMetadataSync.md)|[!INCLUDE [triggerOfflineMetadataSync-description](utility/includes/triggerOfflineMetadataSync-description.md)]|-->
 
 ### Related topics
 
