@@ -21,7 +21,7 @@ This document provides important information about this product version:
 
 You'll also find information about known issues and possible workarounds.
 
-Services and apps availability 
+Services and apps availability - ddessed
 -------------------------------
 
 | Services and Apps                                    | GA | Public Preview | Private Preview |
