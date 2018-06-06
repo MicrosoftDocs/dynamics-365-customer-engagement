@@ -1,7 +1,7 @@
 ---
 title: "Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "Product documentation for Dynamics 365 Customer Engagement apps and services. Formerly known as Dynamics CRM."
-ms.date: 02/12/2018
+ms.date: 06/06/2018
 ms.service: dynamics-365-crossapp
 ms.topic: "index-page"
 ms.custom:
@@ -52,7 +52,7 @@ These guides provide in-depth information about specific apps, solutions and rel
 <td>
 <li>[Sales](sales-enterprise/index.md)</li>
 <li>[Customer Service](customer-service/index.md)</li>
-<!-- <li>[Marketing](marketing/index.md)</li> -->
+<li>[Marketing](marketing/index.md)</li>
 <li>[Field Service](field-service/index.md)</li>
 <li>[Project Service Automation](project-service/index.md)</li>
 <li>[Portals](portals/index.md)</li>
