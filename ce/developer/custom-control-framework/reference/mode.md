@@ -1,3 +1,22 @@
+---
+title: Mode | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 8b51654c-ee67-40f8-ae5b-be684dad3520
+
+---
+
 # Mode
 
 <!-- IMode -->
@@ -22,32 +41,32 @@ Width in pixels allocated to the control.
 
 
 
-## blur
+<!--## blur
 
 Unfocus this control and any children.
 
-**Type**: `function`
+**Type**: `function`-->
 
 
 
-## contextInfo
+<!--## contextInfo
 
 Contains type, id and record name of current entity.
 
-**Type**: `object`
+**Type**: `object`-->
 
 <!-- IContextInfo -->
 
-The `contextInfo` object contains the following properties:
+<!--The `contextInfo` object contains the following properties:
 
 |Name|Type|Optional|Description|
 |--|--|--|--|
 |`entityId`|`string`|no|The unique id for the entity|
 |`entityRecordName`|`string`|yes|The value of the primary name attribute of the entity|
-|`entityTypeName`|`string`|no|Logical name of the entity|
+|`entityTypeName`|`string`|no|Logical name of the entity|-->
 
 
-## focus
+<!--## focus
 
 Focus this control and any parents.
 
@@ -65,7 +84,7 @@ Whether the control or it's child control has focus
 
 Whether the control is on an active page in the navigation stack on the dom.
 
-**Type**: `boolean`
+**Type**: `boolean`-->
 
 
 ## isControlDisabled
@@ -75,11 +94,11 @@ Whether the control is disabled.
 **Type**: `string`
 
 
-## isRead
+<!--## isRead
 
 Placeholder description: Mode.isRead
 
-**Type**: `boolean`
+**Type**: `boolean`-->
 
 
 ## isVisible
@@ -98,11 +117,11 @@ The defined control label.
 
 
 
-## rowSpan
+<!--## rowSpan
 
 The span of a rows for the multi-line controls.
 
-**Type**: `number`
+**Type**: `number`-->
 
 
 
@@ -110,11 +129,14 @@ The span of a rows for the multi-line controls.
 
 |Method | Description | 
 | ------------- |-------------|
-|[clearNotification](mode/clearnotification.md)|[!INCLUDE [clearnotification-description](mode/includes/clearnotification-description.md)]|
 |[setControlState](mode/setcontrolstate.md)|[!INCLUDE [setcontrolstate-description](mode/includes/setcontrolstate-description.md)]|
 |[setFullScreen](mode/setfullscreen.md)|[!INCLUDE [setfullscreen-description](mode/includes/setfullscreen-description.md)]|
-|[setNotification](mode/setnotification.md)|[!INCLUDE [setnotification-description](mode/includes/setnotification-description.md)]|
 |[trackContainerResize](mode/trackcontainerresize.md)|[!INCLUDE [trackcontainerresize-description](mode/includes/trackcontainerresize-description.md)]|
+<!--|[clearNotification](mode/clearnotification.md)|[!INCLUDE [clearnotification-description](mode/includes/clearnotification-description.md)]|
+|[setControlState](mode/setcontrolstate.md)|[!INCLUDE [setcontrolstate-description](mode/includes/setcontrolstate-description.md)]|
+|[setFullScreen](mode/setfullscreen.md)|[!INCLUDE [setfullscreen-description](mode/includes/setfullscreen-description.md)]|
+<!--|[setNotification](mode/setnotification.md)|[!INCLUDE [setnotification-description](mode/includes/setnotification-description.md)]|
+|[trackContainerResize](mode/trackcontainerresize.md)|[!INCLUDE [trackcontainerresize-description](mode/includes/trackcontainerresize-description.md)]|-->
 
 
 ### Related topics
