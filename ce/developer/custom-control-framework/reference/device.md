@@ -36,11 +36,12 @@ ms.assetid: a0f9abc5-c605-4433-bf5a-f8253eeeda3b
 |[captureVideo](device/capturevideo.md)|[!INCLUDE [capturevideo-description](device/includes/capturevideo-description.md)]|
 |[getBarcodeValue](device/getbarcodevalue.md)|[!INCLUDE [getbarcodevalue-description](device/includes/getbarcodevalue-description.md)]|
 |[getCurrentPosition](device/getcurrentposition.md)|[!INCLUDE [getcurrentposition-description](device/includes/getcurrentposition-description.md)]|
+|[pickFile](device/pickfile.md)|[!INCLUDE [pickfile-description](device/includes/pickfile-description.md)]|
 <!--|[isCaptureAudioOperationAvailable](device/iscaptureaudiooperationavailable.md)|[!INCLUDE [iscaptureaudiooperationavailable-description](device/includes/iscaptureaudiooperationavailable-description.md)]|
 |[isCaptureVideoOperationAvailable](device/iscapturevideooperationavailable.md)|[!INCLUDE [iscapturevideooperationavailable-description](device/includes/iscapturevideooperationavailable-description.md)]|
 |[isGetBarcodeValueOperationAvailable](device/isgetbarcodevalueoperationavailable.md)|[!INCLUDE [isgetbarcodevalueoperationavailable-description](device/includes/isgetbarcodevalueoperationavailable-description.md)]|
-|[isTakePictureOperationAvailable](device/istakepictureoperationavailable.md)|[!INCLUDE [istakepictureoperationavailable-description](device/includes/istakepictureoperationavailable-description.md)]|-->
-|[pickFile](device/pickfile.md)|[!INCLUDE [pickfile-description](device/includes/pickfile-description.md)]|
+|[isTakePictureOperationAvailable](device/istakepictureoperationavailable.md)|[!INCLUDE [istakepictureoperationavailable-description](device/includes/istakepictureoperationavailable-description.md)]|
+|[pickFile](device/pickfile.md)|[!INCLUDE [pickfile-description](device/includes/pickfile-description.md)]|-->
 
 
 ### Related topics
