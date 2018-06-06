@@ -61,7 +61,7 @@ topic-status: Drafting
 <h2>Configure Marketing features</h2>
 <li>[Configure landing pages](marketing-settings.md#config-mkt-pages)</li>
 <li>[Set default data sources for email previews](marketing-settings.md#default-marketing-settings)</li>
-<li>[Choose entities for Customer Insights sync](marketing-settings.md#dci-sync)</li>
+<li>[Sync entities for customer insights](marketing-settings.md#dci-sync)</li>
 <li>[Event management settings](events-settings.md)</li>
 <li>[Manage LinkedIn Lead Gen](linkedin-configuration.md)</li>
 <li>[Manage quotas](quota-management.md)</li>
