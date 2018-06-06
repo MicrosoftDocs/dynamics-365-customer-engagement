@@ -24,7 +24,7 @@ manager: "kvivek"
   
 -   [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)] or [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)] (64-bit and 32-bit versions)  
   
--   [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (64-bit and 32-bit versions)  
+-   [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (64-bit and 32-bit versions) * Windows 7 does not support offline capabilities.
   
 -   [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)] and [!INCLUDE[pn_windows_server_2012_r2](../../includes/pn-windows-server-2012-r2.md)] when running as a [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] application  
   
