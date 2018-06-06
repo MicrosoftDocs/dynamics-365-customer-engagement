@@ -53,7 +53,7 @@ Once a match is found, subsequent loads are done through the record GUID associa
 
 ## Dynamics CRM 2016 and Dynamics 365: LinkedIn Sales Navigator for Microsoft Dynamics
 
-Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets are available for to display on forms in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Please refer to the links below for more information and detailed steps for installing and setting up the solution. 
+Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets are available to display on forms in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Please refer to the links below for more information and detailed steps for installing and setting up the solution. 
 
 [Get the solution from AppSource](https://appsource.microsoft.com/product/dynamics-365/linkedin.0cb76fe0-d453-4edb-a68c-65fb9119493a?src=Retail&tab=Overview)
 
