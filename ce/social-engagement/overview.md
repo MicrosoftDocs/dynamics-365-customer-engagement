@@ -29,6 +29,8 @@ Social media is no longer relegated to a select few in the marketing department.
 
 ## Success stories
 
+<!--Note to author: When testing these links, I notice that all except Bremont do not click back to this overview page. It's the same on the live page. But I'm not clever enough to know how to change that.-->
+
 See how some of our customers are using [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to address their use cases.  
 
 -   [UK banking disrupted: Metro Bank reinvents customer service with Microsoft](https://customers.microsoft.com/story/uk-banking-disrupted-metro-bank-reinvents-customer-ser)&mdash;transforming customer service and social insights.
@@ -45,6 +47,7 @@ See how some of our customers are using [!INCLUDE[Social Engagement](../includes
 ## Pricing information
 
 [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+
 Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
 
 ## Getting started
@@ -96,6 +99,8 @@ Have a look at these additional assets that are waiting for you.
 -   [Jesper Osgaard's Microsoft Lystavlen](https://blogs.technet.microsoft.com/lystavlen/tag/microsoft-social-engagement/) covers many Microsoft products and services. Be sure to bookmark his blog.
 
 ### See also
+
+<!--Note to author: Clicking on the Get Connected link keeps me on the Overview page.-->
 
 [Social Engagement FAQ](faq.md)   
 [Get connected to the social conversation by using Social Engagement](get-connected-social-conversation.md)
