@@ -47,6 +47,10 @@ All [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagem
   - **Maximum number of alternate key definitions for an entity**  
   
      There can be a maximum of 5 alternate key definitions for an entity in a [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
+     
+  - **Unicode characters in key value**
+    
+    If the data within a field that is used in an alternate key will contain one of the following characters `<`,`>`,`*`,`%`,`&`,`:`,`\\` then patch or upsert actions will not work.  If you only need uniqueness then this approach will work, but if you need to use these keys as part of data integration then it is best to create the key on fields that won't have data with those characters.
 
 <a name="BKMK_crud"></a>   
 ## Retrieve and delete alternate keys  
