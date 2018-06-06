@@ -30,7 +30,7 @@ ms.assetid: 47a15499-c526-4289-a632-49b717ba455f
 
 |Method | Description | 
 | ------------- |-------------|
-|[getPopupService](factory/getpopupservice.md)|[!include[getpopupservice-description](factory/includes/getpopupservice-description.md)]|
+|[getPopupService](factory/getpopupservice.md)|[!INCLUDE[getpopupservice-description](factory/includes/getpopupservice-description.md)]|
 |[requestRender](factory/requestrender.md)|[!INCLUDE [requestrender-description](factory/includes/requestrender-description.md)]|
 <!--|[bindDOMComponent](factory/binddomcomponent.md)|[!INCLUDE [binddomcomponent-description](factory/includes/binddomcomponent-description.md)]|
 |[createComponent](factory/createcomponent.md)|[!INCLUDE [createcomponent-description](factory/includes/createcomponent-description.md)]|
