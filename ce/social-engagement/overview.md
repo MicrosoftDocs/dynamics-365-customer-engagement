@@ -16,6 +16,9 @@ ms.custom:
   - dyn365-socialengagement
 ---
 
+<!--Note to author: Metadata guidance says applies_to: should list at least two, such as Dynamics 365 (online) and Dynamics 365 Version 9.x-->
+<!--Note to author: Be sure to update to the date of publication-->
+
 # Connect with customers. Empower your organization. Create real results.
 
 The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.
@@ -54,7 +57,7 @@ Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 
 -   [Set up searches to listen to social media conversations](set-up-searches.md): Capturing the right data for your business is a crucial step for successfully analyzing social media data. Set up searches and refine the quality of the results they give you, organize searches to meet your needs, and maintain an optimal post quota.
 
--   [Analyze social data by using widgets](analyze-social-data-using-widgets.md): Visualize data in different areas to analyze your search results. See which filters are available to form a data set and how you can apply them to various widgets.
+-   [Analyze social data by using widgets](analyze-social-data-using-widgets.md): Visualize data in different areas to analyze your search results. See which filters are available to form a dataset and how you can apply them to various widgets.
 
 -   [Engage on social networks](engage-on-social-networks.md): Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and share it with other users of the solution.
 
