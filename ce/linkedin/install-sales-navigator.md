@@ -31,7 +31,7 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 
 ## Install the solution
 
-1. Go to [AppSource](https://appsource.microsoft.com) and search for "[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]". Select the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Controls for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Unified Interface**
+1. Go to [AppSource](https://appsource.microsoft.com) and search for "[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)]". Select the **Sales Navigator Controls for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Unified Interface**
 
 2. Review the terms of service and select **Get**.
 
@@ -54,7 +54,7 @@ After installing the solution, you can visit the [Office 365 admin center](https
 
 4. Under **Solutions**, click **Manage your solutions**.
 
-5. Select **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]** and click **Upgrade**.
+5. Select **Sales Navigator for [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]** and click **Upgrade**.
 
 6. Review the **Terms of service** and click **Upgrade**.
 

@@ -16,7 +16,7 @@ topic-status: Drafting
 
 # View Sales Navigator controls on forms
 
-To use the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls, you need be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator) and [a customizer needs to add them to a form](add-sales-navigator-controls-forms.md). 
+To use the Sales Navigator controls, you need be a [LinkedIn Sales Navigator Seat Holder](https://www.linkedin.com/help/sales-navigator/answer/50233/adding-or-removing-seat-holders-in-sales-navigator) and [a customizer needs to add them to a form](add-sales-navigator-controls-forms.md). 
 
 ## View controls on the form
 
