@@ -24,8 +24,6 @@ manager: "jdaly"
 |[destroy](control/destroy.md)|[!INCLUDE [destroy-description](control/includes/destroy-description.md)]| 
 |[getOutputs](control/getoutputs.md)|[!INCLUDE [getoutputs-description](control/includes/getoutputs-description.md)]|
 |[init](control/init.md)|[!INCLUDE [init-description](control/includes/init-description.md)]|
-<!...|[onPreNavigation](control/onprenavigation.md)|[!INCLUDE [onprenavigation-description](control/includes/onprenavigation-description.md)]|...>
-<!...|[render](control/render.md)|[!INCLUDE [render-description](control/includes/render-description.md)]|...>
 |[updateView](control/updateview.md)|[!INCLUDE [updateview-description](control/includes/updateview-description.md)]|
 
 
