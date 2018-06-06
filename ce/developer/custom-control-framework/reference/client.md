@@ -1,3 +1,21 @@
+---
+title: Client | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 4ce41c82-bf4a-4d34-9344-5311c24d76de
+---
+
 # Client
 
 <!-- IClient -->
@@ -6,11 +24,11 @@
 
 [!INCLUDE [client-description](includes/client-description.md)]
 
-## dateFormattingInfo
+<!--## dateFormattingInfo
 
 The interface for Date Formatting.
 
-**Type**: [DateFormattingInfo](dateformattinginfo.md)
+**Type**: [DateFormattingInfo](dateformattinginfo.md)-->
 
 ## disableScroll
 
@@ -34,7 +52,7 @@ The `formFactor` value is an enum with the following possible values
 |3|Desktop|
 |4|MailApp|
 
-## isPreview
+<!--## isPreview
 
 Whether the control is rendered in the customization preview mode.
 
@@ -50,11 +68,11 @@ The interface for Number Formatting.
 
 Settings object for the organization.
 
-**Type**: `object`
+**Type**: `object`-->
 
 <!-- ICustomControlExposedOrgSettings -->
 
-The `orgSettings` object contains the following properties:
+<!--The `orgSettings` object contains the following properties:
 
 |Name|Type|Description|
 |--|--|--|
@@ -70,7 +88,7 @@ The `orgSettings` object contains the following properties:
 |`isActionCardEnabled`|`boolean`|Whether ActionCard is enabled.|
 |`isEmailMonitoringAllowed`|`boolean`|Whether email monitoring is allowed.|
 |`organizationId`|`string`|Identifier of the organization.|
-|`showWeekNumber`|`boolean`|Information that specifies whether to display the week number.|
+|`showWeekNumber`|`boolean`|Information that specifies whether to display the week number.|-->
 
 
 ## Methods
@@ -78,11 +96,11 @@ The `orgSettings` object contains the following properties:
 |Method | Description | 
 | ------------- |-------------|
 |[getClient](client/getclient.md)|[!INCLUDE [getclient-description](client/includes/getclient-description.md)]|
-|[getClientState](client/getclientstate.md)|[!INCLUDE [getclientstate-description](client/includes/getclientstate-description.md)]|
+<!--|[getClientState](client/getclientstate.md)|[!INCLUDE [getclientstate-description](client/includes/getclientstate-description.md)]|-->
 |[getFormFactor](client/getformfactor.md)|[!INCLUDE [getformfactor-description](client/includes/getformfactor-description.md)]|
-|[ignoreSelfUpdates](client/ignoreselfupdates.md)|[!INCLUDE [ignoreselfupdates-description](client/includes/ignoreselfupdates-description.md)]|
+<!--|[ignoreSelfUpdates](client/ignoreselfupdates.md)|[!INCLUDE [ignoreselfupdates-description](client/includes/ignoreselfupdates-description.md)]|-->
 |[isOffline](client/isoffline.md)|[!INCLUDE [isoffline-description](client/includes/isoffline-description.md)]|
-|[setFullScreen](client/setfullscreen.md)|[!INCLUDE [setfullscreen-description](client/includes/setfullscreen-description.md)]|
+<!--|[setFullScreen](client/setfullscreen.md)|[!INCLUDE [setfullscreen-description](client/includes/setfullscreen-description.md)]|-->
 
 ### Related topics
 
