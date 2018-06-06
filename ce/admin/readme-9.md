@@ -21,7 +21,7 @@ This document provides important information about this product version:
 
 You'll also find information about known issues and possible workarounds.
 
-Services and apps availability 
+Services and apps availability
 -------------------------------
 
 | Services and Apps                                    | GA | Public Preview | Private Preview |
@@ -663,4 +663,4 @@ Unified Service Desk
 Third-party notice 
 -------------------
 
-[Third-party notice](https://go.microsoft.com/fwlink/p/?linkid=853765)
+[Third-party notice](https://go.microsoft.com/fwlink/p/?linkid=853765).
