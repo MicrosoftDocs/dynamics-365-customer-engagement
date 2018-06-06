@@ -1,3 +1,20 @@
+---
+title: Context | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 6e066350-9d22-4078-b497-26be7d2fa374
+---
 # Context
 
 <!-- PropBag -->
@@ -15,12 +32,12 @@ Placeholder description: PropBag.accessibility
 
 
 
-## children
+<!-- ## children
 
 Placeholder description: PropBag.children
 
 **Type**: `any`<br />
-**Optional**
+**Optional** -->
 
 ## client
 
@@ -38,7 +55,7 @@ Placeholder description: PropBag.communicationChannel
 
 
 
-## decorators
+<!-- ## decorators
 
 Placeholder description: PropBag.decorators
 <!-- 
@@ -53,21 +70,27 @@ IDecorators seems to be no more than a dictionary
  -->
 
 **Type**: `[KeyValuePair](keyvaluepair.md)`<br />
-**Optional**
+**Optional** -->
 
-## diagnostics
+<!-- ## diagnostics
 
 Placeholder description: PropBag.diagnostics
 
-**Type**: [Diagnostics](diagnostics.md)
+**Type**: [Diagnostics](diagnostics.md) -->
+
+## device 
+
+Placeholder description: PropBag.device
+
+**Type**: [Device](device.md)
 
 
 
-## externalContext
+<!-- ## externalContext
 
 Placeholder description: PropBag.externalContext
 
-**Type**: [ExternalContext](externalcontext.md)
+**Type**: [ExternalContext](externalcontext.md) -->
 
 
 
@@ -87,7 +110,7 @@ Placeholder description: PropBag.formatting
 
 
 
-## learningPath
+<!-- ## learningPath
 
 Placeholder description: PropBag.learningPath
 
@@ -111,14 +134,14 @@ interface ILearningPath
 
 -->
 
-**Type**: `object`
+**Type**: `object` -->
 
-### Remarks
+<!-- ### Remarks
 The object has the following `string` properties:
 |Name|Description|
 |----|-----------|
 |`DOMAttributeName`|DOM attribute name.|
-|`baseControlId`|Identifier for the base control.|
+|`baseControlId`|Identifier for the base control.|-->
 
 ## mode
 
@@ -136,27 +159,27 @@ Placeholder description: PropBag.navigation
 
 
 
-## offline
+<!--## offline
 
 Placeholder description: PropBag.offline
 
-**Type**: [Offline](offline.md)
+**Type**: [Offline](offline.md)-->
 
 
 
-## orgSettings
+<!-- ## orgSettings
 
 Placeholder description: PropBag.orgSettings
 
-**Type**: [OrgSettings](orgsettings.md)
+**Type**: [OrgSettings](orgsettings.md)-->
 
 
 
-## page
+<!--## page
 
 Placeholder description: PropBag.page
 
-**Type**: [Page](page.md)
+**Type**: [Page](page.md)-->
 
 
 
@@ -168,7 +191,7 @@ Placeholder description: PropBag.parameters
 
 
 
-## performance
+<!--## performance
 
 <!-- 
 QUESTION
@@ -176,9 +199,9 @@ All methods provided by IPerformance are internal
 Should we just remove it?
 --->
 
-[!INCLUDE [internal](../../../includes/internal.md)]
+[!INCLUDE [internal](../../../includes/internal.md)] -->
 
-## refs
+<!--## refs
 
 Placeholder description: PropBag.refs
 
@@ -189,7 +212,7 @@ Placeholder description: PropBag.refs
 
 Placeholder description: PropBag.reporting
 
-**Type**: [Reporting](reporting.md)
+**Type**: [Reporting](reporting.md)-->
 
 ## resources
 
@@ -197,11 +220,11 @@ Placeholder description: PropBag.resources
 
 **Type**: [Resources](resources.md)
 
-## theming
+<!--## theming
 
 Placeholder description: PropBag.theming
 
-**Type**: [Theming](theming.md)
+**Type**: [Theming](theming.md)-->
 
 ## updatedProperties
 
