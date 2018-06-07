@@ -47,13 +47,15 @@ The content access level based filtering is not enabled by default. To enable co
 
 5.  Select **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
 
-**Dynamics 365 Portals app**
+**Unified Client interface**
+
+In the Unified Client interface, you must add the **Portal Knowledge Article for Interactive experience** form to the Knowledge Article entity for adding content access levels to a knowledge article.
 
 1. Open the Customer Service Hub app in App designer.
 
     ![Open app designer](media/csh-app-designer.png "Open app designer")
 
-2. Under **Entity View**, select the **Forms** tile for the Knowledge Article entity.
+2. Under **Entity View**, select the **Forms** tile for the **Knowledge Article** entity.
 
 3. In the **Components** pane, select **Portal Knowledge Article for Interactive experience**.
 
