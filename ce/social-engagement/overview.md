@@ -16,8 +16,6 @@ ms.custom:
   - dyn365-socialengagement
 ---
 
-<!--Note to author: Metadata guidance says applies_to: should list at least two, such as Dynamics 365 (online) and Dynamics 365 Version 9.x-->
-
 # Connect with customers. Empower your organization. Create real results.
 
 The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.
@@ -27,8 +25,6 @@ Social media is no longer relegated to a select few in the marketing department.
 ![analytics&#45;conversation&#45;view&#45;social&#45;engagement](media/analytics-conversation-view-social-engagement.jpg "Social Engagement dashboard for conversations displaying charts and phrase clouds")
 
 ## Success stories
-
-<!--Note to author: When testing these links, I notice that all except Bremont do not click back to this overview page. It's the same on the live page. But I'm not clever enough to know how to change that.-->
 
 See how some of our customers are using [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to address their use cases.  
 

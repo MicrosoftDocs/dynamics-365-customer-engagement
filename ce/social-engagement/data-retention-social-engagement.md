@@ -13,8 +13,6 @@ ms.author: mhart
 manager: sakudes
 ---
 
-<!--Note to author: Metadata guidance says applies_to: should list at least two, such as Dynamics 365 (online) and Dynamics 365 Version 9.x-->
-
 # Data retention in Social Engagement
 
 Get to know which user data gets stored when you work with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and how long this data persists. Whenever data is stored in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], either as acquired posts or user settings, it’s stored in a database. While posts end up in a central data store, all other data is stored in a solution-specific database. Posts acquired in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] are available for analysis for 15 months before they are automatically removed from the database. If you need to keep track of older data for reporting purposes, you can [export the data](analyze-social-data-using-widgets.md#export-data-from-widgets) before it reaches the retention time.     
