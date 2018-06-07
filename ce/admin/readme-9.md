@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 05/16/2018
+ms.date: 06/04/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -9,7 +9,7 @@ applies_to:
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: "kathleenmcgrath"
 ms.author: "kmcgrath"
-manager: "brycho"
+manager: "renwe"
 ---
 
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
@@ -21,7 +21,7 @@ This document provides important information about this product version:
 
 You'll also find information about known issues and possible workarounds.
 
-Services and apps availability 
+Services and apps availability
 -------------------------------
 
 | Services and Apps                                    | GA | Public Preview | Private Preview |
@@ -46,10 +46,9 @@ Services and apps availability
 | Unified Service Desk                                 | X  |                |                 |
 | Voice of the Customer                                | X  |                |                 |
 | Dynamics 365 App for Outlook                         | X  |                |                 |
-| Embedded intelligence - Auto capture                 | X  |                |                 |
-| Embedded intelligence - Relationship assistant       | X  |                |                 |
-| Embedded intelligence - Email engagement             | X  |                |                 |
-| Customer Insights                                    |    | X              |                 |
+| Embedded intelligence – Auto capture                 | X  |                |                 |
+| Embedded intelligence – Relationship assistant       | X  |                |                 |
+| Embedded intelligence – Email engagement             | X  |                |                 |
 | LinkedIn (Lead Gen Forms only)                       |    | X              |                 |
 | Mobile offline (Dynamics 365 for phones and tablets) | X  |                |                 |
 | Sales insights add-on – Relationship analytics       |    | X              |                 |
@@ -80,10 +79,11 @@ required to take the following actions to maintain the connectivity to Dynamics
     tools](https://docs.microsoft.com/dynamics365/customer-engagement/developer/download-tools-nuget)
     from NuGet.
 
-5.  Download and update your Unified Service Desk to [version
-    3.1.0](https://www.microsoft.com/download/details.aspx?id=56144). If you
-    want to continue to use older versions of Unified Service Desk, you must
-    [update the client desktop’s registry
+5.  Download and update your Unified Service Desk to [the latest
+    version](https://docs.microsoft.com/dynamics365/customer-engagement/unified-service-desk/download-unified-service-desk)
+    (versions 3.1, 3.2, and 3.3 are TLS 1.2 compliant). If you want to continue
+    to use older versions of Unified Service Desk, you must [update the client
+    desktop’s registry
     entries](https://blogs.msdn.microsoft.com/usd/2017/10/20/unified-service-desk-and-tls-1-2-mandate-for-dynamics-365-online/).
 
 Please refer to the following information to help identify whether you are
@@ -245,20 +245,22 @@ in the browser or on mobile devices for each scenario. 
 
 -   Other
 
- -   Some organizations might see duplicate views for All Accounts on the Account
-    homepage grid and for All Contacts for the Contact homepage grid. For
-    organizations updating or signing up to the latest version, the redundant
-    pair of views display as 'All Accounts (not available)' and 'All Contacts
-    (not available)'. Updating organizations will also find these views in a
-    deactivated state, provided they are not customized. The guidance is not to
-    use them, even though they continue to be fully supported.
+    -   Some organizations might see duplicate views for All Accounts on the
+        Account homepage grid and for All Contacts for the Contact homepage
+        grid. For organizations updating or signing up to the latest version,
+        the redundant pair of views display as 'All Accounts (not available)'
+        and 'All Contacts (not available)'. Updating organizations will also
+        find these views in a deactivated state, provided they are not
+        customized. The guidance is not to use them, even though they continue
+        to be fully supported.
 
- -   When a record is selected from the Queues entity grid and Pick or Release
-    command actions are performed on an iPad, it results in displaying an empty
-    dialog box. This issue is not observed on a web browser.
+    -   When a record is selected from the Queues entity grid and Pick or
+        Release command actions are performed on an iPad, it results in
+        displaying an empty dialog box. This issue is not observed on a web
+        browser.
 
- -   When an opened article is closed in the KB search control, recent cases and
-    entitlements are opened instead of the KB search control.
+    -   When an opened article is closed in the KB search control, recent cases
+        and entitlements are opened instead of the KB search control.
 
 ### Customer Service Hub (Internet Explorer 11 only)
 
@@ -311,10 +313,14 @@ App modules and the app designer
     business process flow might not get automatically added to the app designer
     canvas when the business process flow is added to the app module.
 
--   In the app designer, the option to set **App for Outlook Dashboard** as your default dashboard is available for all Unified Interface apps, but the dashboard is only supported for Dynamics 365 App for Outlook. If you select this dashboard for another app the dashboard will not load, and users will see a blank screen or error message.
+-   In the app designer, the option to set **App for Outlook Dashboard** as your
+    default dashboard is available for all Unified Interface apps, but the
+    dashboard is only supported for Dynamics 365 App for Outlook. If you select
+    this dashboard for another app, the dashboard will not load and users will
+    see a blank screen or error message.
 
-View designer
--------------
+View designer 
+--------------
 
 -   When the view designer is opened, sample data from several columns overlap
     intermittently.
@@ -450,20 +456,11 @@ Dynamics 365 App for Outlook
 
 -   Initial loading might take some time.
 
--   When selecting **See more** to see more entities, Outlook 2013 and Outlook
-    2016 display an add-in error, Chrome and Internet Explorer 11 display a
-    "long running script" error message, and Microsoft Edge displays a blank
-    screen for a while and then navigates to the previous page.
-
 -   In Outlook 2013 and Outlook 2016, Outlook frequently displays "add-in
     error."
 
 -   In Internet Explorer 11, Internet Explorer frequently displays a "long
     running script" error message.
-
--   When navigating to a record's main form, Outlook 2013 and Outlook 2016
-    display an add-in error; in Chrome and Internet Explorer 11, the app
-    displays a "Script Error" message.
 
 -   In Outlook 2013 and Outlook 2016, when entering text in the **Look for
     Records** field when you set regarding, some of the characters disappear. In
@@ -483,24 +480,23 @@ Dynamics 365 App for Outlook
     Microsoft Edge in Outlook Web Access causes the browser to become
     unresponsive.
 
--   If there are any custom security roles, users who have that role assigned
-    might not be able to access Dynamics 365 App for Outlook. In addition to the
-    [required
-    privileges](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#required-privileges),
-    they also need to have access to the Dynamics 365 App for Outlook solution.
-    While we are working on providing an easy way to configure this, the
-    workaround is to [provide Create and Write privileges on the App entity in
-    the Customization
-    tab](https://support.microsoft.com/en-us/help/4078135/sorry-something-went-wrong-while-initializing-the-app-when-accessing-t).
+-   If there are any custom security roles, [the roles need to be assigned to
+    Dynamics 365 App for Outlook App
+    Module](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/outlook-app/deploy-dynamics-365-app-for-outlook#provide-security-role-access).
 
 Dynamics 365 for Outlook
 ------------------------
 
-Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update. This
-update includes support for Transport Layer Security (TLS) 1.2, which is
-required for connecting Dynamics 365 for Outlook with Dynamics 365 (online),
-version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
-Outlook](https://www.microsoft.com/en-us/download/details.aspx?id=56327).
+-   Microsoft has released Dynamics 365 for Outlook version 8.2.2.137 update.
+    This update includes support for Transport Layer Security (TLS) 1.2, which
+    is required for connecting Dynamics 365 for Outlook with Dynamics 365
+    (online), version 9.0. See [Version 8.2.2.137 Update for Dynamics 365 for
+    Outlook](https://www.microsoft.com/en-us/download/details.aspx?id=56327).
+
+-   In offline mode, adding an attachment to a Note in Dynamics 365 for Outlook
+    might show the message “Microsoft Dynamics 365 has encountered an error.” A
+    workaround for this issue is to dismiss the notification and upload the
+    attachment.
 
 Inactivity timeout
 ------------------
@@ -602,10 +598,15 @@ update the preferred solution.
 Mobile Offline
 --------------
 
-We’re working to improve mobile offline capabilities in Dynamics 365 for phones and tablets for release in the second quarter of 2019, and are currently onboarding only a limited set of new customers. When a preview program opens for mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let customers know. Existing customers who are already using mobile offline capabilities are not affected.
+We’re working to improve mobile offline capabilities in Dynamics 365 for phones
+and tablets for release in the second quarter of 2019, and are currently
+onboarding only a limited set of new customers. When a preview program opens for
+mobile offline capabilities in Dynamics 365 for phones and tablets, we’ll let
+customers know. Existing customers who are already using mobile offline
+capabilities are not affected.
 
-> [!NOTE]
-> The mobile app for Dynamics 365 for Field Service continues to support mobile offline capabilities for existing and new customers.
+**Note:** The mobile app for Dynamics 365 for Field Service continues to support
+mobile offline capabilities for existing and new customers.
 
 Unified Service Desk
 --------------------
@@ -621,7 +622,9 @@ Unified Service Desk
 -   You can integrate apps built using Unified Interface in the Unified Service
     Desk using the preview capabilities in [version
     3.3](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/admin/whats-new-unified-service-desk-administrators#whats-new-in-includepn-unified-service-desk-3-3includespn-unified-service-desk-3-3md).
-    This support is not available in earlier versions. More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
+    This support is not available in earlier versions. More
+    information: [Support for Unified Interface Apps in Unified Service
+    Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
 
 -   **Interactive Service Hub**: With the Dynamics 365 (online), version 9.0
     release, Interactive Service Hub has been rebuilt as a Unified Interface app
@@ -631,11 +634,13 @@ Unified Service Desk
     are running Dynamics 365, version 8.2 or an earlier supported version of
     Microsoft Dynamics CRM. You can integrate with Customer Service Hub in
     Unified Service Desk in the same way as any other Unified Interface app.
-    More information: [Support for Unified Interface Apps in Unified Service Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
+    More information: [Support for Unified Interface Apps in Unified Service
+    Desk](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/unified-service-desk/support-unified-interfaces-apps-usd)
 
 -   **Relationship Insights**: Although you can view information from the
     relationship assistant in the Unified Service Desk client, you cannot
-    interact with the information in the client. More information: [Embedded intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
+    interact with the information in the client. More information: [Embedded
+    intelligence](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/embedded-intelligence)
 
 -   **LinkedIn Sales Navigator for Microsoft Dynamics 365 for Sales**: This is
     not supported.

@@ -92,6 +92,9 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the previous item within a dashboard element  | Up (↑) arrow key | 
 |Close a menu | Escape |
 |Select a check box or radio button | Spacebar |
+|Modify the date range filter | Ctrl+Alt+D |
+|Show the visual filter pane | Ctrl+Alt+V |
+|Move to the global command bar | Ctrl+Alt+A | 
 
 ### Global filter shortcuts
 
@@ -123,6 +126,8 @@ Interactive dashboards enable new functionality, such as filtering, sorting, and
 |Move to the previous item | Up (↑) arrow key |
 |Move to the first item | Home |
 |Move to the last item | End |
+|Move to the next stream | Ctrl+F6 |
+|Move to the previous stream | Ctrl+Shift+F6 |
 |Close a menu | Escape |
 |Change the state of a check box | Spacebar |
 
