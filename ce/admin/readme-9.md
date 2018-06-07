@@ -21,7 +21,7 @@ This document provides important information about this product version:
 
 You'll also find information about known issues and possible workarounds.
 
-Services and apps availability 
+Services and apps availability
 -------------------------------
 
 | Services and Apps                                    | GA | Public Preview | Private Preview |
@@ -49,7 +49,6 @@ Services and apps availability
 | Embedded intelligence – Auto capture                 | X  |                |                 |
 | Embedded intelligence – Relationship assistant       | X  |                |                 |
 | Embedded intelligence – Email engagement             | X  |                |                 |
-| Customer Insights                                    |    | X              |                 |
 | LinkedIn (Lead Gen Forms only)                       |    | X              |                 |
 | Mobile offline (Dynamics 365 for phones and tablets) | X  |                |                 |
 | Sales insights add-on – Relationship analytics       |    | X              |                 |
