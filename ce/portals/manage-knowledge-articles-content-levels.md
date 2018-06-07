@@ -2,7 +2,7 @@
 title: "Manage knowledge articles using content access levels for portals in Dynamics 365 | MicrosoftDocs"
 description: "Instructions to manage knowledge articles by using content access levels in a portal."
 ms.custom: ""
-ms.date: 09/28/2017
+ms.date: 06/07/2018
 ms.service: crm-online
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -27,7 +27,7 @@ The content access level based filtering is not enabled by default. To enable co
 
 ## Create content access levels
 
-1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Content Access Levels**
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Content Access Levels**.
 2. In the ribbon, select **New**.
 3. Fill in the **Name** and **Description**.
 4. Change **Default Access Level** from **No** to **Yes** if it should be the default.
@@ -35,11 +35,51 @@ The content access level based filtering is not enabled by default. To enable co
 
 ## Assign content access levels to knowledge articles
 
+**Web client**
+
 1.  Open the Interactive Service Hub.
+
 2.  Select the knowledge article you want to edit, or create a new article.
+
 3.  Select **Summary** just above the progress bar.
+
 4.  Under **Related Information** (third column), select the symbol that looks like a lock.
+
 5.  Select **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
+
+**Dynamics 365 Portals app**
+
+1. Open the Customer Service Hub app in App designer.
+
+    ![Open app designer](media/csh-app-designer.png "Open app designer")
+
+2. Under **Entity View**, select the **Forms** tile for the Knowledge Article entity.
+
+3. In the **Components** pane, select **Portal Knowledge Article for Interactive experience**.
+
+    ![Add Portal knowledge article form](media/kb-content-access-level.png "Add Portal knowledge article form")
+
+4. Save and publish the changes.
+
+5. Open Customer Service Hub.
+
+6. Navigate to the knowledge article you want to assign content access level.
+
+7. From the **Knowledge Article** box, select **Portal Knowledge Article for Interactive experience**.
+
+    ![Select Portal knowledge article form](media/kb-portal-select.png "Select Portal knowledge article form")
+
+8. On the **Summary** tab, under **Related information**, select **Content Access Levels** (lock icon) from the toolbar to add content access level.
+
+    ![Select Content Access Levels](media/kb-select-lock-icon.png "Select Content Access Levels")
+
+9. From **More Commands**, select **Add Existing Content Access Level**.
+
+10. Browse and select the content access level.
+
+11. Select **Add**.
+
+
 
 ## Assign content access levels to portal users
 
