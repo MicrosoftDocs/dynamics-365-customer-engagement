@@ -79,21 +79,48 @@ In addition, special privacy protection is required for minors (children), requi
 
 ## Enable GDPR features in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)]
 
-By default, GDPR features such as consent management are disabled on new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installations. To enable or disable the features, go to **Settings** > **Advanced settings** > **Marketing settings** > **Data protection tools**.
+By default, GDPR features such as consent management are disabled on new [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] installations. To enable or disable the features:
+
+1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Data protection tools**.
+
+1. A list of **Active GDPR configurations** opens. If a configuration already exists, then select that one to open it; if no configuration yet exists, then select **+ New** on the command bar. You can have _at most_ one GDPR configuration.
+
+1. The **GDPR Configuration** form opens.  
+    ![The GDPR Configuration form](media/gdpr-config.png "The GDPR Configuration form")
+
+    Make the following settings:
+    - **Name**: Enter any name that you like.
+    - **Respect consent**: Set to **Yes** to enable GDPR features throughout your app. Set to **No** to disable them.
+
+1. Select **Save** at the bottom-right corner of the window.
 
 ## View and set the consent level for each contact
 
-All contact records include a **Data protection** section with a drop-down list labelled **Consent given**. You can read or set the consent level here. This setting only takes effect when you have enabled the GDPR features.
- 
+When GDPR is enabled, you can view and set data-protection options for each contact. To work with them:
+
+1. Go to **Marketing** > **Customers** > **Contacts** to open your contact list, then find and open a contact in the list.
+
+1. On the **Contact** form, open the **Details** tab, and then find the **Data protection** section.  
+    ![Data protection settings for contacts](media/gdpr-contact.png "Data protection settings for contacts")
+
+    The following settings and information are available here:
+    - **Consent given**: Read or set the maximum consent level granted by this contact. This contact will only be able participate in marketing initiatives permitted for this consent level or lower. You should only change this setting after receiving explicit consent from this contact. Usually, you should allow contacts to change this themselves using a subscription center.
+    - **Is a child**: Mark this box to indicate that this contact is a minor (usually, under 18 years old), and therefore requires extra protection.
+    - **Parent or custodian**: If the contact is a child, then select their legal parent or custodian (guardian) in this lookup field. The parent or custodian must also be saved as a contact in your database.
+
 ## Filter segments by consent
 
-You can filter segments by consent level just like you can when filtering by other contact values.
+You can filter segments by consent level just like you can when filtering by other contact values. Use the **Consent Given** field of the **Contact** entity to filter by consent level.
+
+![Filter a segment by consent level](media/gdpr-segment.png "Filter a segment by consent level")
 
 <a name="journey-consent-level"></a> 
 
 ## Set the minimum required consent level for a customer journey
 
 You can set the minimum consent level for any customer journey. When set, the journey will process only contacts of that level or higher. To do this, open the journey, go to its **General** tab, and set the **Minimum consent** field to the appropriate level.
+
+![Set the minimum required consent level for a customer journey](media/gdpr-journey.png "Set the minimum required consent level for a customer journey")
 
 If you change the consent level of a running customer journey, the journey stops processing any contacts that don't meet that level of consent, including contacts that are already partly through the journey.
 
@@ -103,7 +130,10 @@ You can set the minimum consent level for any lead-scoring model. When set, the 
 
 To do this, open the lead scoring model, go to the **Summary** tab, and set the **Minimum consent** field to the appropriate level.
 
+![Set the minimum required consent level for lead scoring models](media/gdpr-scoring.png "Set the minimum required consent level for lead scoring models")
+
 ## Include a consent selector in a subscription center
+
 A subscription center is probably the best place to enable contacts to confirm and modify their consent level. To set this up:
 
 - Set up a marketing form field that maps to the GDPR consent field of the contact entity.
