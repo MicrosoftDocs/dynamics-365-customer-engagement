@@ -61,9 +61,9 @@ When Dynamics 365 tracks an email, it associates the email address to a record w
 5. Equipment
 6. Team
 7. Business unit
-8. Jimholtz: Please explain the following as I don't understand "Followed natural ascending order of object type of emailable entities"
+8. Email-enabled custom entities
 
-In the email **To** field, all of the Dynamics 365 records of emailable entities with the email address will be listed.
+In the email **To** field, all of the Dynamics 365 records of email-enabled entities with the email address will be listed.
   
 <a name="BKMK_tracking-token"></a>   
 
