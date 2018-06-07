@@ -2,7 +2,7 @@
 title: "Archive - Social Engagement 2017 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2017."
 keywords: "release notes, 2017, what's new"
-ms.date: 01/30/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:

@@ -2,7 +2,7 @@
 title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Social Engagement to Event Hubs."
 keywords: "azure event hubs, event hub, stream data, connection string "
-ms.date: 02/12/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
