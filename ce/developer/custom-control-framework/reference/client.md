@@ -98,7 +98,7 @@ Settings object for the organization.
 |[getClient](client/getclient.md)|[!INCLUDE [getclient-description](client/includes/getclient-description.md)]|
 |[getFormFactor](client/getformfactor.md)|[!INCLUDE [getformfactor-description](client/includes/getformfactor-description.md)]|
 |[isOffline](client/isoffline.md)|[!INCLUDE [isoffline-description](client/includes/isoffline-description.md)]|
-<!--|[getClientState](client/getclientstate.md)|[!INCLUDE [getclientstate-description](client/includes/getclientstate-description.md)]|-
+<!--|[getClientState](client/getclientstate.md)|[!INCLUDE [getclientstate-description](client/includes/getclientstate-description.md)]|
 |[getFormFactor](client/getformfactor.md)|[!INCLUDE [getformfactor-description](client/includes/getformfactor-description.md)]|
 |[ignoreSelfUpdates](client/ignoreselfupdates.md)|[!INCLUDE [ignoreselfupdates-description](client/includes/ignoreselfupdates-description.md)]|
 |[isOffline](client/isoffline.md)|[!INCLUDE [isoffline-description](client/includes/isoffline-description.md)]|
