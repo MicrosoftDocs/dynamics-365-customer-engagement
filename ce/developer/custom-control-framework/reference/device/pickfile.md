@@ -1,3 +1,22 @@
+---
+title: PickFile | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: aae27c64-33c4-47f1-b833-4c04161c01e2
+---
+
+
 # pickFile
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../../includes/cc_applies_to_update_9_0_0.md)]
@@ -27,9 +46,9 @@ The `options` parameter object has the following properties:
 
 |Name|Type|Description|
 |--|--|--|
-|`accept`|`string`|Placeholder description: PickFileOptions.accept|
-|`allowMultipleFiles`|`boolean`|Placeholder description: PickFileOptions.allowMultipleFiles|
-|`maximumAllowedFileSize`|`number`|Placeholder description: PickFileOptions.maximumAllowedFileSize|
+|`accept`|`string`|Image file types to select. Valid values are "audio", "video", or "image"|
+|`allowMultipleFiles`|`boolean`|Indicates whether to allow selecting multiple files|
+|`maximumAllowedFileSize`|`number`|Maximum size of the files(s) to be selected|
 
 ### Related topics
 
