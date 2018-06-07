@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 06/04/2018
+ms.date: 0613/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -14,6 +14,8 @@ manager: sakudes
 ms.custom:
   - dyn365-socialengagement
 ---
+
+<!--Note to author: Metadata guidance says applies_to: should list at least two, such as Dynamics 365 (online) and Dynamics 365 Version 9.x-->
 
 # What&#39;s new in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
@@ -37,22 +39,22 @@ On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement
 
 ### Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
 
-The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between Web browsers and Web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1. 
+The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between web browsers and web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1. 
 [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will remove the support of TLS 1.0 and TLS 1.1 in order to align with [!INCLUDE [cc-microsoft](../includes/cc-microsoft.md)] compliance requirements and security best practices.
 
 #### What is the impact?
 
-After [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] disables TLS 1.0 and TLS 1.1 any connections to the service that rely on those versions will fail.
+After [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] disables TLS 1.0 and TLS 1.1, any connections to the service that rely on those versions will fail.
 
 #### How to avoid interruptions in the user experience
 
-We recommend to switch to a browser supporting TLS 1.2.
+We recommend switching to a browser supporting TLS 1.2.
 All major browser (Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) releases after April 2016 support TLS 1.2.
 
 | Browser |  | Version| Remarks |
 |---------|---|--------|---------|
-|Microsoft Edge| equals or higher |12.10240| compatible by [default](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
-|Internet Explorer | | 11 | enabled by default, Desktop & Mobile |
+|Microsoft Edge| equals or higher |12.10240| Compatible by [default](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
+|Internet Explorer | | 11 | Enabled by default, Desktop & Mobile |
 |Firefox | equals or higher | 27 | [Release notes](http://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/27.0/releasenotes/?flang=es-MX), all operating systems  |
 |Chrome | equals or higher| 29 | [Details](https://bugs.chromium.org/p/chromium/issues/detail?id=90392#c28), all operating systems |
 |Safari | equals or higher | 7 | |
@@ -75,6 +77,7 @@ Social Engagement now shows attached images and videos in private messages on Fa
 ### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
 
 The integration of Social Insights in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and inherit several settings from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
+
 The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
 
 ### See which Facebook page a post is coming from and reply consistently

@@ -2,7 +2,7 @@
 title: "Overview of Social Engagement, pricing, and related scenarios | Microsoft Docs"
 description: "Learn about features and pricing of Social Engagement and get started using the service."
 keywords: "social engagement, overview, quick start, scenarios"
-ms.date: 05/28/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -16,6 +16,8 @@ ms.custom:
   - dyn365-socialengagement
 ---
 
+<!--Note to author: Metadata guidance says applies_to: should list at least two, such as Dynamics 365 (online) and Dynamics 365 Version 9.x-->
+
 # Connect with customers. Empower your organization. Create real results.
 
 The speed at which we do business, and the number of channels we're using to do it, are both rapidly increasing. Employees and customers have a wide array of choices when it comes to communicating, and social media channels are key components of the customer journey as customers connect with your brand, your employees, and each other.
@@ -25,6 +27,8 @@ Social media is no longer relegated to a select few in the marketing department.
 ![analytics&#45;conversation&#45;view&#45;social&#45;engagement](media/analytics-conversation-view-social-engagement.jpg "Social Engagement dashboard for conversations displaying charts and phrase clouds")
 
 ## Success stories
+
+<!--Note to author: When testing these links, I notice that all except Bremont do not click back to this overview page. It's the same on the live page. But I'm not clever enough to know how to change that.-->
 
 See how some of our customers are using [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] to address their use cases.  
 
@@ -42,6 +46,7 @@ See how some of our customers are using [!INCLUDE[Social Engagement](../includes
 ## Pricing information
 
 [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] is included with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] Plan, Customer Engagement Plan, and Customer Engagement Application (Sales, Customer Service, Field Service, and Project Service Automation) subscriptions. So, everyone across the organization can benefit from its capabilities. For more information about pricing and licensing for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], visit [Dynamics 365 pricing](http://go.microsoft.com/fwlink/p/?LinkID=401462).  
+
 Note that [!INCLUDE[Social Engagement](../includes/pn-social-engagement-short.md)] pricing is based on a monthly post quota. [Learn more about how to buy post quota add-on subscriptions for your organization](manage-post-quota.md#buy-additional-quota).
 
 ## Getting started
@@ -54,7 +59,7 @@ Setting up [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.
 
 -   [Set up searches to listen to social media conversations](set-up-searches.md): Capturing the right data for your business is a crucial step for successfully analyzing social media data. Set up searches and refine the quality of the results they give you, organize searches to meet your needs, and maintain an optimal post quota.
 
--   [Analyze social data by using widgets](analyze-social-data-using-widgets.md): Visualize data in different areas to analyze your search results. See which filters are available to form a data set and how you can apply them to various widgets.
+-   [Analyze social data by using widgets](analyze-social-data-using-widgets.md): Visualize data in different areas to analyze your search results. See which filters are available to form a dataset and how you can apply them to various widgets.
 
 -   [Engage on social networks](engage-on-social-networks.md): Interact with other users on social media and keep the conversations flowing. Create streams to follow the conversations that matter most to you, and reply to posts directly from within [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Find out how you can connect a social profile with [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and share it with other users of the solution.
 
@@ -94,5 +99,6 @@ Have a look at these additional assets that are waiting for you.
 
 ### See also
 
+[What's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md)
 [Social Engagement FAQ](faq.md)   
-[Get connected to the social conversation by using Social Engagement](get-connected-social-conversation.md)
+[Request a trial](https://experience.dynamics.com/trials/)
