@@ -2,16 +2,16 @@
 title: "Install LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Install the LinkedIn Sales Navigator for Dynamics 365 capabilities from AppSource"
 keywords: "installation, setup, sales navigator, appsource"
-ms.date: 05/30/2018
+ms.date: 06/10/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
   - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 (online)"
 ms.assetid: 4b15aff2-3a7b-3488-260c-21611dee658a
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ---
 
 # Install Sales Navigator Controls for Dynamics 365 Unified Interface
@@ -34,9 +34,7 @@ You will need to sign your team up for [LinkedIn Sales Navigator Team](https://b
 
 2. Review the terms of service and select **Get**.
 
-
-[comment]: <> (update steps and add screenshots)
-
+3. Proceed with the setup wizard to install the solution.
 
 > [!TIP]
 > If you aren't working with Unified Interface apps, [review the installation steps](https://www.linkedin.com/help/sales-navigator/topics/2052/2071/80081) for [Sales Navigator for Microsoft Dynamics](https://appsource.microsoft.com/en-us/product/dynamics-365/linkedin.0cb76fe0-d453-4edb-a68c-65fb9119493a?src=retail&tab=Overview). This solution provides Sales Navigator widgets for Dynamics CRM 2016 and [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].

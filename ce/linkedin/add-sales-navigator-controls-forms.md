@@ -2,16 +2,16 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365."
 keywords: "custom control, sales navigator, linkedin, integration, customization"
-ms.date: 05/25/2018
+ms.date: 06/10/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
   - "Dynamics 365 Version 9.x"
+  - "Dynamics 365 (online)"
 ms.assetid: 41253990-3a7d-0829-8509-91273db68b82
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ---
 
 # Add LinkedIn Sales Navigator controls to forms
@@ -95,7 +95,6 @@ Select the **Last Name** property and select the ![Pencil icon](media/pencil-ico
 ![LinkedIn Sales Navigator controls on opportunity form](media/LinkedIn-controls-opportunty-form.png)
 
 ### See also
-
 
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)     
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)     
