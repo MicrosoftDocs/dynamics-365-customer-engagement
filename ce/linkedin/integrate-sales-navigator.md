@@ -20,9 +20,9 @@ Digital transformation is real. Across every industry vertical, companies are re
 
 ## Unified Interface apps: Sales Navigator Controls for Dynamics 365 Unified Interface 
 
-Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are available with a total of eight modules. These controls are [available through AppSource](install-sales-navigator.md) and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). 
+Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are [available through AppSource](install-sales-navigator.md) and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). 
 
-The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has four modules, which can be mixed and matched: 
+The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has the following sections which you can choose to show or hide: 
 
 - **Top Card**: shows information about the person like name, headline, and more. Additionally, provides capabilities to message or save the person as a lead in Sales Navigator. 
 
@@ -48,10 +48,10 @@ Both controls also provide an alternate version, which takes a lookup (entity re
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account lookup** control: the name of the referenced entity is used as the company name.
 
-Once a match is found, subsequent loads are done through the record GUID association. If the control does not load the correct profile on the first match, users can resolve the issue by [finding the correct match](view-sales-navigator-forms.md) with the provided search interface. 
+The control binds to a field which is used to match the record with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile or company account. Once a match is found, subsequent loads are done through the record GUID association. If the control does not load the correct profile on the first match, users can resolve the issue by [finding the correct match](view-sales-navigator-forms.md) with the provided search interface. 
 
 
-## Dynamics CRM 2016 and Dynamics 365: LinkedIn Sales Navigator for Microsoft Dynamics
+## Dynamics CRM 2016 and Dynamics 365: [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator for Microsoft Dynamics
 
 Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator widgets are available to display on forms in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Please refer to the links below for more information and detailed steps for installing and setting up the solution. 
 
