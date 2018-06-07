@@ -92,7 +92,6 @@ Select the **Last Name** property and select the ![Pencil icon](media/pencil-ico
 ![Click path to save and publish customizations on a form](media/save-publish-customizations.png "Click path to save and publish customizations on a form")
 
 12. Select **Publish** to make your customizations available to the organization.
-<!-- ![LinkedIn Sales Navigator controls on opportunity form](media/LinkedIn-controls-opportunty-form.png) -->
 
 ### See also
 
