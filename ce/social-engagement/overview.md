@@ -2,7 +2,7 @@
 title: "Overview of Social Engagement, pricing, and related scenarios | Microsoft Docs"
 description: "Learn about features and pricing of Social Engagement and get started using the service."
 keywords: "social engagement, overview, quick start, scenarios"
-ms.date: 05/28/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -17,7 +17,6 @@ ms.custom:
 ---
 
 <!--Note to author: Metadata guidance says applies_to: should list at least two, such as Dynamics 365 (online) and Dynamics 365 Version 9.x-->
-<!--Note to author: Be sure to update to the date of publication-->
 
 # Connect with customers. Empower your organization. Create real results.
 
@@ -100,7 +99,6 @@ Have a look at these additional assets that are waiting for you.
 
 ### See also
 
-<!--Note to author: Clicking on the Get Connected link keeps me on the Overview page.-->
-
+[What's new in Social Engagement](what-s-new-in-microsoft-social-engagement.md)
 [Social Engagement FAQ](faq.md)   
-[Get connected to the social conversation by using Social Engagement](get-connected-social-conversation.md)
+[Request a trial](https://experience.dynamics.com/trials/)
