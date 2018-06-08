@@ -63,7 +63,7 @@ After installing the solution, you can visit the [Office 365 admin center](https
 
 3. Go to **Settings** > **Solutions**. 
 
-4. Select the solution and choose **Delete**
+4. Select the solution and choose **Delete**.
 
 More information about installing or removing a solution: [TechNet: Install or remove a preferred solution](https://technet.microsoft.com/library/dn878909.aspx).
 
