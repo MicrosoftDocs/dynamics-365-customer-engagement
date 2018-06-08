@@ -73,5 +73,3 @@
 ## [Schedule optimization](schedule-optimization.md)
 ## [Troubleshooting tips and answers to FAQ](troubleshooting-tips-answers-faq.md)
 ## [See also](see-also.md)
-
-# [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
