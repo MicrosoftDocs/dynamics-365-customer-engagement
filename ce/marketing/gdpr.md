@@ -96,17 +96,15 @@ By default, GDPR features such as consent management are disabled on new [!INCLU
 
 ## View and set the consent level for each contact
 
-When GDPR is enabled, you can view and set data-protection options for each contact. To work with them:
+When GDPR is enabled, you can view and set data-protection options for each contact. To work with them, open a contact record, go to its **Details** tab, and then scroll down to find the **Data protection** section.
 
-1. Go to **Marketing** > **Customers** > **Contacts** to open your contact list, then find and open a contact in the list.
+![Data protection settings for contacts](media/gdpr-contact.png "Data protection settings for contacts")
 
-1. On the **Contact** form, open the **Details** tab, and then find the **Data protection** section.  
-    ![Data protection settings for contacts](media/gdpr-contact.png "Data protection settings for contacts")
+The following settings and information are available here:
 
-    The following settings and information are available here:
-    - **Consent given**: Read or set the maximum consent level granted by this contact. This contact will only be able participate in marketing initiatives permitted for this consent level or lower. You should only change this setting after receiving explicit consent from this contact. Usually, you should allow contacts to change this themselves using a subscription center.
-    - **Is a child**: Mark this box to indicate that this contact is a minor (usually, under 18 years old), and therefore requires extra protection.
-    - **Parent or custodian**: If the contact is a child, then select their legal parent or custodian (guardian) in this lookup field. The parent or custodian must also be saved as a contact in your database.
+- **Consent given**: Read or set the maximum consent level granted by this contact. This contact will only be able participate in marketing initiatives permitted for this consent level or lower. You should only change this setting after receiving explicit consent from this contact. Usually, you should allow contacts to change this themselves using a subscription center.
+- **Is a child**: Mark this box to indicate that this contact is a minor (usually, under 18 years old), and therefore requires extra protection.
+- **Parent or custodian**: If the contact is a child, then select their legal parent or custodian (guardian) in this lookup field. The parent or custodian must also be saved as a contact in your database.
 
 ## Filter segments by consent
 
