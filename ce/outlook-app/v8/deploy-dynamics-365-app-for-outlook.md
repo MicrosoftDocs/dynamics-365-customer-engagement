@@ -218,11 +218,19 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
   
 #### To push the app to users  
   
-1.  Go to **Settings** >  **Dynamics 365 App for Outlook**.  
+1.  [!INCLUDE[proc_permissions_system_admin_and_customizer](../includes/proc-permissions-system-admin-and-customizer.md)]  
   
-2.  In the **Getting Started with Dynamics 365 App for Outlook** screen, under **Add for Eligible Users** (you may have to click **Settings** if you’re opening this screen for the second or subsequent time), select the **Automatically add the app to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]** check box if you want to have users get the app automatically. If a user has the required privileges and email is synchronized through [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], you won’t have to do anything more to push the app to them. For example, if you add the required privileges to the Salesperson role, and then assign this role to a new user, they’ll automatically get the app.  
+    Check your security role  
   
-3.  Do one of the following:  
+    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
+  
+    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
+2.  Go to **Settings** >  **Dynamics 365 App for Outlook**.  
+  
+3.  In the **Getting Started with Dynamics 365 App for Outlook** screen, under **Add for Eligible Users** (you may have to click **Settings** if you’re opening this screen for the second or subsequent time), select the **Automatically add the app to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]** check box if you want to have users get the app automatically. If a user has the required privileges and email is synchronized through [!INCLUDE[cc_server_side_synch](../../includes/cc-server-side-synch.md)], you won’t have to do anything more to push the app to them. For example, if you add the required privileges to the Salesperson role, and then assign this role to a new user, they’ll automatically get the app.  
+  
+4.  Do one of the following:  
   
     -   To push the app to all eligible users, click **Add App for All Eligible Users**.  
   
@@ -231,7 +239,7 @@ Exchange Server version 15.0.1236.3.32 (Cumulative Update 14 for Exchange Server
     > [!TIP]
     >  If the list shows that a user is pending or hasn’t been added, you can click the **Learn more** link next to the user to find more information about status.  
   
-4.  When you’re done, click **Save**.  
+5.  When you’re done, click **Save**.  
   
 #### To have users install the app themselves  
   
