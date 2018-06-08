@@ -41,7 +41,7 @@ shortest travel time, available work hours, and many other constraints.
 
 ![](media/8cce1b1462b960eecac5012ad1a2d685.png)
 
-Benefits of using the RSO add-on 
+Benefits of using Resource Scheduling Optimization 
 ---------------------------------
 
 >   **Automated scheduling**: Automatically scheduling the majority of
@@ -55,7 +55,7 @@ Benefits of using the RSO add-on
 >   arrival and completion times and seamlessly schedules alternate technicians
 >   for urgent situations.
 
->   **Technician efficiencies and reduced cost**:** **
+>   **Technician efficiencies and reduced cost**:
 
 -   Fitting more appointments into working hours drives revenue and reduces
     overtime costs.
@@ -63,7 +63,7 @@ Benefits of using the RSO add-on
 -   Matching work orders and technician skillsets reduces the cost of lost
     appointments.
 
->   **Reduced travel time**:
+>   **Reduced travel time means reduced fuel consumption and less vehicle maintenance**:
 
 -   Ensuring your technicians are taking the shortest possible route with
     turn-by-turn directions from Bing Maps or your custom mapping provider
@@ -73,7 +73,7 @@ Benefits of using the RSO add-on
     generally will surpass the cost of RSO. 
 
 >   **Improved customer retention**: Giving preference to higher-priority work
->   orders helps avoid service level agreement (SLA) penalties and meet customer
+>   orders helps avoid service level agreement (SLA) penalties and helps you meet customer
 >   service commitments.
 
 More resources 
@@ -98,3 +98,6 @@ More resources
 -   S[cheduling anything in Dynamics 365 with Universal Resource
     Scheduling](https://www.microsoft.com/en-US/dynamics/crm-customer-center/scheduling-anything-in-dynamics-365-with-universal-resource-scheduling.aspx)
 
+<a name="bkmk_step3 "></a>   
+## Privacy notice  
+[!INCLUDE[cc_privacy_rso_location_info_bing_maps](../includes/cc-privacy-rso-location-info-bing-maps.md)]
