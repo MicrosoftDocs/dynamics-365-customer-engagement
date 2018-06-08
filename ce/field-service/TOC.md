@@ -73,4 +73,4 @@
 ## [Schedule optimization](rso-schedule-optimization.md)
 ## [FAQ and troubleshooting tips](rso-faq.md)
 
-# [Universal Resource Scheduling (URS)](../ce/common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
+# [Universal Resource Scheduling (URS)](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
