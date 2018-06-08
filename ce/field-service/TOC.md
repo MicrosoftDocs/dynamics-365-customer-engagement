@@ -67,6 +67,13 @@
 ### [Extend standard components or add Azure services](developer/extend-connected-field-service-solutions.md)
 ### [IoT - Parent IoT Alerts workflow](developer/iot-parent-iot-alerts-workflow.md)
 
+# [Overview of Resource Scheduling Optimization (RSO)](overview-resource-scheduling-optimization.md)
+## [Deployment](deployment.md)
+## [Configuration](configuration.md)
+## [Schedule optimization](schedule-optimization.md)
+## [Troubleshooting tips and answers to FAQ](troubleshooting-tips-answers-faq.md)
+## [See also](see-also.md)
+
 # [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
 
 
