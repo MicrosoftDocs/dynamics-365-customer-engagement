@@ -1,6 +1,6 @@
 ---
 
-title: Overview of Resource Scheduling Optimization (RSO) 
+title: Resource Scheduling Optimization (RSO) 
 author: shellyhaverkamp
 manager: shellyha
 ms.date: 06/08/2018
@@ -8,15 +8,12 @@ ms.topic: article
 ms.custom:
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellha
+ms.author: shellyha
 
 ---
 
-Overview of Resource Scheduling Optimization (RSO) 
+Resource Scheduling Optimization (RSO)
 ===================================================
-
-What is Resource Scheduling Optimization?
------------------------------------------
 
 Resource Scheduling Optimization (RSO) is an add-on capability for the Dynamics
 365 for Field Service application that enables you to automatically schedule
