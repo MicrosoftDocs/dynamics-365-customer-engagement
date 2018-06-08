@@ -1,6 +1,6 @@
 ---
 
-title: Troubleshooting tips and answers to FAQ
+title: FAQ and troubleshooting tips
 author: shellyhaverkamp
 manager: shellyha
 ms.date: 06/08/2018
@@ -8,12 +8,12 @@ ms.topic: article
 ms.custom:
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellha
+ms.author: shellyha
 
 ---
 
-Troubleshooting tips and answers to FAQ
-=======================================
+FAQ and troubleshooting tips
+================================
 
 Why doesn’t RSO on Org B work anymore after I copied Dynamics 365 Org A to Org B (with RSO deployed)? 
 ------------------------------------------------------------------------------------------------------
