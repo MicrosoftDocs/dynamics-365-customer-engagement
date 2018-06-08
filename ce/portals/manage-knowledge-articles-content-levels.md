@@ -38,7 +38,7 @@ The content access level based filtering is not enabled by default. To enable co
 
 **Customer Service Hub app**
 
-If you want to add content access level in a knowledge article from the Customer Service Hub app, you must add the **Portal Knowledge Article for Interactive experience** form to the Knowledge Article entity for adding content access levels to a knowledge article.
+If you want to add content access level in a knowledge article from the Customer Service Hub app, you must add the **Portal Knowledge Article for Interactive experience** form to the Knowledge Article entity.
 
 1. Open the Customer Service Hub app in App designer.
 
