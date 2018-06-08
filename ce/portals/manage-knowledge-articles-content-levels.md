@@ -48,9 +48,29 @@ The content access level based filtering is not enabled by default. To enable co
 
 5.  Select **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
 
-**Unified Client interface**
+**Dynamics 365 Portals app**
 
-In the Unified Client interface, you must add the **Portal Knowledge Article for Interactive experience** form to the Knowledge Article entity for adding content access levels to a knowledge article.
+In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
+
+1. [Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portals-app).
+
+2. Go to **Portals** > **Knowledge Article** and open the knowledge article you want to assign content access level.
+
+3. On the **Summary** tab, under **Related information**, select **Content Access Levels** (lock icon) from the toolbar to add content access level.
+
+    ![Select Content Access Levels](media/kb-select-lock-icon.png "Select Content Access Levels")
+
+4. From **More Commands**, select **Add Existing Content Access Level**.
+
+    ![Add Content Access Level](media/kb-add-content-access-level.png "Add Content Access Level")
+
+5. In the **Lookup Records** pane, browse and select the content access level.
+
+6. Select **Add**.
+
+**Customer Service Hub app**
+
+If you want to add content access level in a knowledge article from the Customer Service Hub app, you must add the **Portal Knowledge Article for Interactive experience** form to the Knowledge Article entity for adding content access levels to a knowledge article.
 
 1. Open the Customer Service Hub app in App designer.
 
@@ -78,10 +98,11 @@ In the Unified Client interface, you must add the **Portal Knowledge Article for
 
 9. From **More Commands**, select **Add Existing Content Access Level**.
 
-10. Browse and select the content access level.
+    ![Add Content Access Level](media/kb-add-content-access-level.png "Add Content Access Level")
+
+10. In the **Lookup Records** pane, browse and select the content access level.
 
 11. Select **Add**.
-
 
 
 ## Assign content access levels to portal users

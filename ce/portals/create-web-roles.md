@@ -44,7 +44,8 @@ Now that the Web Role has been created, you will be able to configure it to meet
 ### See also
 
 [Engage with communities by using the community portal](engage-with-communities.md)  
-[Configure a Dynamics 365 portal](configure-portal.md) 
+[Configure a Dynamics 365 portal](configure-portal.md) <br>
 [Control webpage access for portals](webpage-access-control.md)  
-[Configure web roles for a PRM portal](configure-web-roles-partner-portal.md) 
-[Add record-based security by using entity permissions for portals](assign-entity-permissions.md) 
+[Configure web roles for a PRM portal](configure-web-roles-partner-portal.md) <br>
+[Add record-based security by using entity permissions for portals](assign-entity-permissions.md) <br>
+[Manage knowledge articles by using content access levels](manage-knowledge-articles-content-levels.md)

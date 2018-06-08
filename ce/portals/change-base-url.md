@@ -1,7 +1,7 @@
 ---
 title: "Change the base URL of a Dynamics 365 portal | MicrosoftDocs"
 description: "Learn how to change the base URL of a portal."
-ms.date: 05/30/2018
+ms.date: 06/08/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
