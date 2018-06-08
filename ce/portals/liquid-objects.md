@@ -1244,7 +1244,13 @@ Hello, anonymous user!
 
 ### Attributes
 
-In addition to having all of the attributes of an [entities](#entities), user has the following attributes.  
+In addition to having all of the attributes of an [entity](#entity) object, user has the following attributes.
+
+|Attribute|Description|
+|---------|-----------|
+|roles|Returns the roles to which the user belongs, as an [array](liquid-types.md#array).<br>`{% if user.roles contains 'Administrators' %} User is an administrator. {% endif %}`<br>**Note**: You can also use the `has_role` filter to test for individual role memberships.|
+|basic_badges_url|Returns the service url to retrieve a user's badges.<br>To render badges for a user you must include a tag with the attributes "data-badge" and "data-uri". To render the current user's badges:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>To render out a user's badges by id (variable userid):<br>`<div data-badge data-uri='{{user.basic_badges_url | replace_first: user.id, userid}}'><div>`|
+|||
 
 
 ## weblinks
