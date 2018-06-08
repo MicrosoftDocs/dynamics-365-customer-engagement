@@ -67,7 +67,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Click path to Change Properties button](media/change-form-properties.png "Click path to Change Properties button")
 
-6. In the **Field Properties** window, switch to the **Control** tab and select **Add control...**.
+6. In the **Field Properties** window, switch to the **Controls** tab and select **Add control**.
 
    ![Click path to Add Control button](media/add-control.png "Click path to Add Control button")
 
@@ -83,7 +83,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the accuracy to find the right match.  
 
-  Select the **Last Name** property and select the ![Pencil icon](media/pencil-icon.png "Pencil icon") pencil icon. In the **Bind a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
+  Select the **Last Name** property and select the ![Pencil icon](media/pencil-icon.png "Pencil icon") pencil icon. In the **Bind to a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
 
    ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
 
