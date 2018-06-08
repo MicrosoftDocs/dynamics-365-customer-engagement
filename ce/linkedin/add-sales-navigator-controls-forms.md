@@ -75,9 +75,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Click path to add a Sales Navigator controls](media/add-control-to-form.png "Click path to add a Sales Navigator control")
 
-8. Now you need to configure the Sales Navigator control. 
-
-  In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] control. 
+8. Now you need to configure the Sales Navigator control. In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] control. 
     > [!TIP]
     > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fall back to the default platform control. To hide the default controls from the forms on mobile scenarios, select the **Hide Default Control** check box.
 
