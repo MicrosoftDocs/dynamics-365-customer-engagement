@@ -71,6 +71,6 @@
 ## [Deployment](rso-deployment.md)
 ## [Configuration](rso-configuration.md)
 ## [Schedule optimization](rso-schedule-optimization.md)
-## [FAQ and troubleshooting tips](rso-troubleshooting-tips-answers-faq.md)
+## [FAQ and troubleshooting tips](rso-faq.md)
 
 # [Universal Resource Scheduling (URS)](../ce/common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
