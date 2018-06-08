@@ -8,7 +8,7 @@ ms.topic: article
 ms.custom:
   - dyn365-fieldservice
 ms.service: dynamics-365-customerservice
-ms.author: shellha
+ms.author: shellyha
 
 ---
 
