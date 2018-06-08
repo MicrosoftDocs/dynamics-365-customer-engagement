@@ -27,7 +27,9 @@ topic-status: Drafting
 If you already have a paid [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance in use (probably with other [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] customer engagements apps running on it), then you can integrate [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] with your instance by adding a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app to your tenant and then assigning it to the appropriate instance.
 
 > [!IMPORTANT]
-> [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only be used on instances running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher.
+> - [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] can only be used on instances running [!include[pn-crm-9-0-0-online](../includes/pn-crm-9-0-0-online.md)] or higher.
+> - You can only install the product if you are located in a country/region where it is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
+
 
 ## How [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is licensed
 
