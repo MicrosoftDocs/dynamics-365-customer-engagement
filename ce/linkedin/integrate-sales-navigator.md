@@ -16,13 +16,13 @@ manager: sakudes
 
 # Integrate LinkedIn Sales Navigator solutions for Dynamics 365
 
-Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. Enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data graph and insights. Build custom applications powered by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator intelligence, enhancing business processes with data about people, organizations and relationships. 
+Digital transformation is real. Across every industry vertical, companies are rethinking their business processes and entire segments are reorganizing. Enhance key application scenarios by connecting the system of record with the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] data graph and insights. Build custom applications powered by [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator intelligence, enhancing business processes with data about people, organizations, and relationships. 
 
 ## Unified Interface apps: Sales Navigator Controls for Dynamics 365 Unified Interface 
 
 Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are [available through AppSource](install-sales-navigator.md) and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). 
 
-The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has the following sections which you can choose to show or hide: 
+The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has the following sections, which you can choose to show or hide: 
 
 - **Top Card**: shows information about the person like name, headline, and more. Additionally, provides capabilities to message or save the person as a lead in Sales Navigator. 
 
@@ -48,7 +48,7 @@ Both controls also provide an alternate version, which takes a lookup (entity re
 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account lookup** control: the name of the referenced entity is used as the company name.
 
-The control binds to a field which is used to match the record with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile or company account. Once a match is found, subsequent loads are done through the record GUID association. If the control does not load the correct profile on the first match, users can resolve the issue by [finding the correct match](view-sales-navigator-forms.md) with the provided search interface. 
+The control binds to a field that is used to match the record with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile or company account. Once a match is found, subsequent loads are done through the record GUID association. If the control does not load the correct profile on the first match, users can resolve the issue by [finding the correct match](view-sales-navigator-forms.md) with the provided search interface. 
 
 
 ## Dynamics CRM 2016 and Dynamics 365: [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator for Microsoft Dynamics
