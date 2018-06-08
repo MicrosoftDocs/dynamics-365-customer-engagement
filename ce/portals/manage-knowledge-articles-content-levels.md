@@ -36,38 +36,6 @@ The content access level based filtering is not enabled by default. To enable co
 
 ## Assign content access levels to knowledge articles
 
-**Web client**
-
-1.  Open the Interactive Service Hub.
-
-2.  Select the knowledge article you want to edit, or create a new article.
-
-3.  Select **Summary** just above the progress bar.
-
-4.  Under **Related Information** (third column), select the symbol that looks like a lock.
-
-5.  Select **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
-
-**Dynamics 365 Portals app**
-
-In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
-
-1. [Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portals-app).
-
-2. Go to **Portals** > **Knowledge Article** and open the knowledge article you want to assign content access level.
-
-3. On the **Summary** tab, under **Related information**, select **Content Access Levels** (lock icon) from the toolbar to add content access level.
-
-    ![Select Content Access Levels](media/kb-select-lock-icon.png "Select Content Access Levels")
-
-4. From **More Commands**, select **Add Existing Content Access Level**.
-
-    ![Add Content Access Level](media/kb-add-content-access-level.png "Add Content Access Level")
-
-5. In the **Lookup Records** pane, browse and select the content access level.
-
-6. Select **Add**.
-
 **Customer Service Hub app**
 
 If you want to add content access level in a knowledge article from the Customer Service Hub app, you must add the **Portal Knowledge Article for Interactive experience** form to the Knowledge Article entity for adding content access levels to a knowledge article.
@@ -103,6 +71,39 @@ If you want to add content access level in a knowledge article from the Customer
 10. In the **Lookup Records** pane, browse and select the content access level.
 
 11. Select **Add**.
+
+
+**Dynamics 365 Portals app**
+
+In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you can access a knowledge article and add content access level to it by going to **Portals** > **Knowledge Article**.
+
+1. [Open the Dynamics 365 Portals app](provision-portal.md#open-dynamics-365-portals-app).
+
+2. Go to **Portals** > **Knowledge Article** and open the knowledge article you want to assign content access level.
+
+3. On the **Summary** tab, under **Related information**, select **Content Access Levels** (lock icon) from the toolbar to add content access level.
+
+    ![Select Content Access Levels](media/kb-select-lock-icon.png "Select Content Access Levels")
+
+4. From **More Commands**, select **Add Existing Content Access Level**.
+
+    ![Add Content Access Level](media/kb-add-content-access-level.png "Add Content Access Level")
+
+5. In the **Lookup Records** pane, browse and select the content access level.
+
+6. Select **Add**.
+
+**Interactive Service Hub**
+
+1.  Open the Interactive Service Hub.
+
+2.  Select the knowledge article you want to edit, or create a new article.
+
+3.  Select **Summary** just above the progress bar.
+
+4.  Under **Related Information** (third column), select the symbol that looks like a lock.
+
+5.  Select **+** to add a new Content Access Level or the **Trash Can** symbol next to a Content Access Level to remove it.
 
 
 ## Assign content access levels to portal users
