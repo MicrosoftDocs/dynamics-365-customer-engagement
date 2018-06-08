@@ -26,7 +26,8 @@ manager: sakudes
 ## Add Sales Navigator controls to a form
 
 You can [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) to any form or entity in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
-There are 4 different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls: 
+
+There are four different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls: 
  
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile)**: Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile using a specific lead or contact name.
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Lookup Control**: Shows member profile information using the name of the primary contact related to the record.
@@ -44,7 +45,7 @@ The Sales Navigator controls can be added by modifying field on a form in [!INCL
 
 
 
-In the procedure below, show an example on how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying **Last Name** field. 
+This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. 
 
 1. In the web client of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], go to **Settings** > **Customizations**.
 
@@ -58,11 +59,11 @@ In the procedure below, show an example on how to add a [!INCLUDE[pn-linkedin](.
 
    ![Lead form in customization area](media/select-lead-form-sales-navigator.png "Lead form in customization area")
 
-5. To add a custom control, begin by adding a new field to the form, which will be bound to the primary attribute of the control (last name for Lead control and company name for Account control). Simply drag the field from the Field Explorer on the right to the desired position. For this example, we will start by dragging the **Last Name** field to the form.
+5. To add a custom control, begin by adding a new field to the form, which will be bound to the primary attribute of the control (last name for Lead control and company name for Account control). Drag the field from the Field Explorer on the right to the desired position. For this example, we will start by dragging the **Last Name** field to the form.
 
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
-    > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form checkbox on the **Display** tab.
+    > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.
 
    ![Click path to Change Properties button](media/change-form-properties.png "Click path to Change Properties button")
 
@@ -72,24 +73,27 @@ In the procedure below, show an example on how to add a [!INCLUDE[pn-linkedin](.
 
 7. Select the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator member profile** control and select **Add**.
 
-   ![Click path to add a Sales Navigator controls](media/add-control-to-form.png "Click path to add a Sales Navigator controls")
+   ![Click path to add a Sales Navigator controls](media/add-control-to-form.png "Click path to add a Sales Navigator control")
 
-8. Now you need to configure the Sales Navigator control.    
-In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] control. 
+8. Now you need to configure the Sales Navigator control. 
+
+  In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] control. 
     > [!TIP]
-    > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fallback to the default platform control. To hide the default controls from the forms on mobile scenarios, check the **Hide Default Control** checkbox.
+    > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fall back to the default platform control. To hide the default controls from the forms on mobile scenarios, select the **Hide Default Control** check box.
 
    ![Configure properties of a Sales Navigator control](media/configure-sales-navigator-control.png "Configure properties of a Sales Navigator control")
 
-9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend to bind the remaining parameters (first name, e-mail, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the accuracy to find the right match.     
-Select the **Last Name** property and select the ![Pencil icon](media/pencil-icon.png "Pencil icon") pencil icon. in the **Bind a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
+9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the accuracy to find the right match.  
+
+  Select the **Last Name** property and select the ![Pencil icon](media/pencil-icon.png "Pencil icon") pencil icon. In the **Bind a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
 
    ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
 
 10. Select **Add** in the Field Properties window.
 
 11. In the **Form Editor**, select **Save** to apply your changes to the form. 
-![Click path to save and publish customizations on a form](media/save-publish-customizations.png "Click path to save and publish customizations on a form")
+
+  ![Click path to save and publish customizations on a form](media/save-publish-customizations.png "Click path to save and publish customizations on a form")
 
 12. Select **Publish** to make your customizations available to the organization.
 
