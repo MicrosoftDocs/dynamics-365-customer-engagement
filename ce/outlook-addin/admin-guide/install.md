@@ -42,10 +42,10 @@ To set up [!INCLUDE[pn_crm_for_outlook_full](../../includes/pn-crm-for-outlook-f
   
     -   To install from the web (version 8.x), go to [Microsoft Dynamics CRM 2016 for Microsoft Office Outlook (Outlook Client)](http://go.microsoft.com/fwlink/p/?LinkId=690396), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
     
-     > [!NOTE]
-    >  To install from the web (version 9.0), go to [Dynamics 365 (online) for Outlook, version 9.0 (Outlook client)](https://www.microsoft.com/en-us/download/details.aspx?id=56972), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
+    -   To install from the web (version 9.0), go to [Dynamics 365 (online) for Outlook, version 9.0 (Outlook client)](https://www.microsoft.com/en-us/download/details.aspx?id=56972), and then download and run the executable file that matches the installed [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] architecture. 
     
-    If you updated your Dynamics 365 (online) organziation to version 9.0 and the Dynamics 365 for Outlook client is unable to connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/en-us/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
+     > [!NOTE]
+    >  If you have updated your Dynamics 365 (online) organziation to version 9.0 and the Dynamics 365 for Outlook client does not connect then you may need to install TLS 1.2. For more information, [Install TLS](https://support.microsoft.com/en-us/help/4054414/dynamics-365-for-outlook-update-for-version-9-0).
     
   
     -   To install from a DVD, double-click **SetupClient.exe** in the installation folder for the architecture (32-bit or 64-bit) of [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] that you’ve installed:  
