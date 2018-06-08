@@ -75,10 +75,3 @@
 ## [See also](see-also.md)
 
 # [Universal Resource Scheduling](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md)
-
-
-
-
-
-
-
