@@ -3,7 +3,11 @@ title: "Import data and set up duplicate detection (Dynamics 365 for Marketing) 
 description: "Learn how to import data and control how duplicate records are identified in Dynamics 365 for Marketing"
 keywords: "administration; import; export; duplicate detection"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-admin"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

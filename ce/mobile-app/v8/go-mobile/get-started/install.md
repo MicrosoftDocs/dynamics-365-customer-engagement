@@ -8,17 +8,17 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2013"
-  - "Dynamics CRM 2015"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2013
+  - Dynamics CRM 2015
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: 7dc8f57e-ce10-40a9-a827-ae0fe13f0b93
 caps.latest.revision: 77
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Install Dynamics 365 for phones and tablets
 

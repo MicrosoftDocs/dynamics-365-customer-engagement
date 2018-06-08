@@ -3,7 +3,10 @@ title: "Create segments and lists to establish target markets (Dynamics 365 for 
 description: "How to create segments and lists that you can use to target customer journeys and manage subscriptions in Dynamics 365 for Marketing"
 keywords: "segment; marketing list; subscription; Customer Insights"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -36,9 +39,9 @@ Segments can be dynamic, static, or compound.
 - *Static segments* establish a static list of contacts who are selected on a per-contact basis rather than created logically based on field values. Marketers and salespeople might create and populate a static list based on private knowledge or offline interactions.
 - *Compound segments* combine existing (live) segments using logical operators.
 
-### Segments are synced with Customer Insights
+### Segments are synced with the customer-insights services
 
-[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with another product called *[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]* to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] apply its powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] records and information from other systems. You can also access [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] directly to make use of its additional analytical tools and other features. [!include[](../includes/proc-more-information.md)] [Customer Insights online help](https://go.microsoft.com/fwlink/p/?linkid=863946)
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] works together with a set of external customer-insights services that operate using their own, external, customer-interaction database to provide advanced segment definitions and customer analytics. The integration is seamless and results in powerful combined functionality when the two systems work together. Your contact records and marketing lists are continuously synchronized between the two systems, which lets the customer-insights services apply their powerful data processing and analytical tools to your contacts, and combine these with information from other types of [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] records and information from other systems.
 
 ### Segments must be live before you can use them
 
@@ -59,12 +62,12 @@ Segment records provide several tabs for describing, defining, and reviewing the
 The **General** tab provides general information about the segment, including:
 
 - **Name**: Enter a name that will make the segment easy for you and others to identify while working in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)].
-- **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for pupulating the list on the **Definition** tab.
+- **Segment Type**: Set the segment to dynamic, static, or compound. This setting controls which types of settings you'll see for populating the list on the **Definition** tab.
 - **Status reason**: Shows whether the segment is draft or live. Only live segments are available for use in customer journeys and compound segments.
 
 ### The Definition tab
 
-Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For marketing lists, you'll be able to choose from lists created in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] and synchronized to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
+Use the **Definition** tab to establish membership of the segment. For dynamic segments, you'll get a query builder here. For static segments, you'll select specific contacts one at a time.
 
 The settings on this tab are described in more detail later in this topic.
 
@@ -81,7 +84,7 @@ When you are working with a static segment, the **Definition** tab lists all of 
 Because your database probably includes a large number of contacts, the **Definition** tab can't show all of them at once. It provides paging controls at the bottom and a search filter at the top. Select the filter button at the top of the list to open a form where you can build a query that can help you find the contacts you want to add.
 
 > [!TIP]
-> Each time you adjust the filter settings, you must select the **Apply** button to update the list. 
+> Each time you adjust the filter settings, you must select the **Apply** button to update the list.
 
 ## Define a dynamic a segment
 
@@ -117,9 +120,6 @@ The map at the top of the explorer shows the entities that are available for use
 
 Close the **Explore** view by selecting **OK**. Your resulting query is then shown in the **Designer**, just as though you had created it there (as shown previously).
 
-> [!NOTE]
-> In the language of [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)], _entities_ are often referred to as _profiles_.
-
 The following image shows the previous query midway through construction, where we're adding the account criterion. Note how the map colors indicate where you are, where you've been, and what you can (and can't) do next.
 
 ![The segment explorer map, showing progress](media/segment-explorer-example2.png "The segment explorer map, showing progress")
@@ -133,7 +133,7 @@ The following image shows the previous query midway through construction, where 
 
 ### Combine segment groups
 
-A simple segment might have just one group, but you can create and combine as many groups a need. As a result, you can create highly sophisticated queries in your [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] database.
+A simple segment might have just one group, but you can create and combine as many groups as needed. As a result, you can create highly sophisticated queries.
 
 You combine groups, working first group to last, by using the following operators:
 
@@ -186,25 +186,25 @@ For details about how to create marketing lists and use them in subscription cen
 
 ## Create segments based on opportunities
 
-The default [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup does not sync opportunities with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], which means that opportunities are not initially included in the segment builder, but you can add them.
-
+The default [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] setup does not sync opportunities with the customer-insights services, which means that opportunities are not initially included in the segment builder, but you can add them.
 
 > [!IMPORTANT]
-> After you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and consume storage space there and can't be removed again. You should only add those entities you're sure you'll need.
+> The sync settings are permanent, so once you begin syncing an entity you won't be able to remove it again later. Syncing occurs often, and each entity that you sync requires storage space and processing time, so you should only sync those entities you are sure you will need.
 
 After opportunities are added, you'll be able to create segments that query the opportunities entity and find contacts associated with those opportunities.
 
 > [!NOTE]
-> After syncing opportunities with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], you'll also be able to use them in your lead-scoring rules by using the techniques described in [Create advanced lead scoring conditions with traversals](score-manage-leads.md#traversals)
+> After syncing opportunities with the customer-insights services, you'll also be able to use them in your lead-scoring rules by using the techniques described in [Create advanced lead scoring conditions with traversals](score-manage-leads.md#traversals)
 
-### Sync opportunities with Customer Insights
-If your Marketing instance isn't already set up to sync opportunities with Customer Insights, talk to your admin about setting this up as follows:
+### Sync opportunities with the customer-insights services
 
-1.	Go to **Settings** > **Marketing** > **Customer Insight Sync**. (Admin privileges required.)
+If your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] instance isn't already set up to sync opportunities with the customer-insights services, talk to your admin about setting this up as follows:
 
-1. The **Customer Insight Sync** page shows a list of check boxes, with one for each entity that you can sync with [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. Find **Opportunity (opportunity)** in the list, and select its check box (if it isn't already selected).
+1. Go to **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync**. (Admin privileges required.)
 
-1.	Select **Publish Changes** to apply your setting.
+1. The **Customer insights sync** page shows a list of check boxes, with one for each entity that you can sync with the customer-insights services. Find **Opportunity (opportunity)** in the list, and select its check box (if it isn't already selected).
+
+1. Select **Publish Changes** to apply your setting.
 
 Allow some time for the new setting to be propagated and the sync to be completed.
 After the settings have been propagated, you'll be able to see the opportunity entity in your segment designer, and can use it to define segments by applying techniques similar to those described earlier in this topic. An example is given in the following section.

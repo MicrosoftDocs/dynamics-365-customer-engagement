@@ -3,7 +3,10 @@ title: "Get started with Dynamics 365 for Marketing | Microsoft Docs"
 description: "How to get around in Dynamics 365 for Marketing; how to work with basic records such as contacts, accounts and leads; and strategies for email marketing"
 keywords: "get started; basics"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"

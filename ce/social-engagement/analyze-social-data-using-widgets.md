@@ -3,7 +3,7 @@ title: "Analyze social data with widgets in Social Engagement | Microsoft Docs"
 description: "Learn how to work with widgets in the Social Engagement user interface."
 keywords: "widgets, analytics, get started"
 ms.date: 03/27/2018
-ms.service: mse
+ms.service: dynamics-365-marketing
 ms.topic: get-started-article
 applies_to:
   - "Social Engagement"
@@ -12,6 +12,8 @@ author: m-hartmann
 ms.author: mhart
 manager: sakudes
 topic-status: Drafting
+ms.custom:
+  - dyn365-socialengagement
 ---
 
 # Analyze social data using widgets

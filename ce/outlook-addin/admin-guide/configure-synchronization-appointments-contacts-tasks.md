@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: 7b6ace06-0cc2-4a04-a2bd-5d229acb6a00
 caps.latest.revision: 21
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Configure synchronization for appointments, contacts, and tasks
 By default, some synchronization between [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] and Outlook for Dynamics 365 is disabled so organizations can control what gets synced according to their business requirements. Dynamics 365 admins can enable synchronization using **Settings** > **Administration** > **System Settings** > **Synchronization**.  

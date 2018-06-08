@@ -1,21 +1,25 @@
 ---
 title: "What fields can be synchronized between Dynamics 365 Customer Engagement and Outlook? | MicrosoftDocs"
-ms.custom: ""
+description: ""
+keywords: ""
 ms.date: 08/31/2017
-ms.reviewer: ""
-ms.service: "crm-online"
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-applies_to: 
+ms.service: crm-online
+ms.custom: 
+ms.topic: article
+applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: what-fields-synchronized-outlook
+author: jimholtz
+ms.author: jimholtz
+manager: brycho
+ms.reviewer: 
+ms.suite: 
+ms.tgt_pltfrm: 
 caps.latest.revision: 17
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+topic-status: Drafting
 ---
+
 # What fields can be synchronized with Outlook?
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]

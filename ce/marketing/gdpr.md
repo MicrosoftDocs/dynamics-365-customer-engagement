@@ -3,7 +3,10 @@ title: "Work with data protection and GDPR (Dynamics 365 for Marketing) | Micros
 description: "Protect customer privacy and remain compliant with GDPR regulations with Dynamics 365 for Marketing"
 keywords: "GDPR; data protection; privacy"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -144,9 +147,8 @@ The following list provides a few ideas for how your organization could set up a
 
 Ideally, you should prepare your system to make it easy for your privacy officer to completely delete a contact and all their related data on request. 
 
-- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] back-end systems (such as [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)]).
+- For a non-customized system, your privacy officer can just use the standard search function to find the contact and then hard-delete the contact. The system will automatically unlink and remove all related interaction data stored in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] back-end systems (including from all [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] and customer-insights services).
 - If you have custom fields or entities, then you must further customize your system to make sure it deletes all related personal data from related records and/or unlinks them from the contact record so that all personal information is removed. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Developer Guide (Marketing)](developer/marketing-developer-guide.md)
-
 
 > [!NOTE]
 > All data entered into a forward-to-a-friend form is automatically deleted after 30 days, so no new contact or lead records are created unless a recipient of the forward chooses to register with your organization using a landing page.

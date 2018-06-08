@@ -1,9 +1,11 @@
 ---
 title: "Provision a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to provision a portal."
-ms.custom: ""
-ms.date: 06/01/2018
-ms.service: crm-online
+ms.custom:
+  - dyn365-portal
+  - dyn365-deflc
+ms.date: 06/08/2018
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: article
@@ -133,5 +135,5 @@ When you install Dynamics 365 Portals version 9.0 and higher, the Dynamics 365 P
 ### Open Dynamics 365 Portals app
 
 1.	Sign in to Dynamics 365.
-2.	Open the URL `<organization URL>/apps` or https://home.dynamics.com. 
+2.	Open the URL `<organization URL>/apps` or go to **Settings** > **My Apps**. 
 3.	Select the Dynamics 365 Portals app.

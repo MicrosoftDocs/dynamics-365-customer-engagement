@@ -1,25 +1,21 @@
 ---
 title: "Create or edit a campaign template using in-app marketing (Sales) for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: ""
-keywords: ""
-ms.date: 05/01/2018
-ms.service: crm-online
-ms.custom: 
-ms.topic: article
-applies_to:
+ms.custom: ""
+ms.date: 09/30/2017
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 07423d4c-8546-48e6-878a-6d54ecc0901f
-author: jimholtz
-ms.author: jimholtz
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 42
-topic-status: Drafting
+author: "jimholtz"
+ms.author: "jimholtz"
+manager: "sakudes"
 ---
-
 # Create or edit a campaign template using in-app marketing (Sales)
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]

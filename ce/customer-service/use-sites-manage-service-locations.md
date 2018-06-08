@@ -7,11 +7,13 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.author: anjgup
-manager: sakudes
+manager: shellyha
 ms.date: 09/15/2017
 ms.topic: article
-ms.service: crm-online
+ms.service: dynamics-365-customerservice
 ms.assetid: 5af40bb8-be4e-419d-a69a-640236b36174
+ms.custom:
+  - dyn365-customerservice
 ---
 
 # Use sites to manage your service locations (Customer Service)

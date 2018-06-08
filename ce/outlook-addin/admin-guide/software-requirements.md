@@ -8,12 +8,12 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
+  - Dynamics 365 (online)
 ms.assetid: bec19b47-d167-4acb-b554-05c45b819c3f
 caps.latest.revision: 66
-author: "jimholtz"
-ms.author: "jimholtz"
-manager: "brycho"
+author: "mduelae"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Microsoft Dynamics 365 for Outlook software requirements
 [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] works the way that you do by providing a seamless combination of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] features in the familiar [!INCLUDE[pn_MS_Outlook_Short](../../includes/pn-ms-outlook-short.md)] environment. This section lists software requirements for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] and [!INCLUDE[pn_crm_outlook_offline_access](../../includes/pn-crm-outlook-offline-access.md)].  
@@ -24,7 +24,7 @@ manager: "brycho"
   
 -   [!INCLUDE[pn_windows_8_1](../../includes/pn-windows-8-1.md)] or [!INCLUDE[pn_windows8](../../includes/pn-windows8.md)] (64-bit and 32-bit versions)  
   
--   [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (64-bit and 32-bit versions)  
+-   [!INCLUDE[pn_Windows_7](../../includes/pn-windows-7.md)] Service Pack 1 (64-bit and 32-bit versions) * Windows 7 does not support offline capabilities.
   
 -   [!INCLUDE[pn_windowsserver2012](../../includes/pn-windowsserver2012.md)] and [!INCLUDE[pn_windows_server_2012_r2](../../includes/pn-windows-server-2012-r2.md)] when running as a [!INCLUDE[pn_Remote_Desktop_Services](../../includes/pn-remote-desktop-services.md)] application  
   

@@ -1,10 +1,11 @@
 ---
 title: "Administer a portal for Dynamics 365 | MicrosoftDocs"
 description: "Instructions to administer your portal."
-keywords: ""
-ms.date: 05/30/2018
-ms.service: crm-online
-ms.custom: 
+keywords: "portal administration, portal admin center"
+ms.date: 06/08/2018
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 265AE063-1D9C-40DD-AAAF-69EAB848F22F
 author: sbmjais

@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 8.x"
 ms.assetid: c463347e-a057-4230-951a-1cca07b213f0
 caps.latest.revision: 7
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Create a mobile offline profile 
 

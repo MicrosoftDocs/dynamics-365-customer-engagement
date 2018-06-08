@@ -12,8 +12,8 @@ applies_to:
   - "Dynamics 365 Version 8.x"
 ms.assetid: da282f05-9188-40ec-b835-d4e991609edc
 caps.latest.revision: 7
-ms.author: "jimholtz"
-manager: "brycho"
+ms.author: "mkaur"
+manager: "kvivek"
 ---
 # Enable entities for mobile offline synchronization
 

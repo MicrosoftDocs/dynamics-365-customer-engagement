@@ -1,7 +1,7 @@
 ---
 title: "Supported web browsers and mobile devices | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 02/07/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""

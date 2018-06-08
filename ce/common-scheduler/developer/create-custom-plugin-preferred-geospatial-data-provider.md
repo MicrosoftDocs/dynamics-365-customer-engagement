@@ -1,13 +1,15 @@
 ---
 title: "Create custom plug-in to use your preferred geospatial data provider | MicrosoftDocs"
 description: "Provides information on how to create a custom plug-in to use geospatial data provider other than the default Bing Maps in Dynamics 365 for Field Service and Dynamics 365 for Project Service Automation."
-ms.custom: ""
+ms.custom:
+  - dyn365-developer
+  - dyn365-customerservice
 ms.date: 01/29/2018
 searchScope:  
   - Field Service
   - Project Service
 ms.reviewer: ""
-ms.service: "crm-online"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.technology: 
   - "field-service"
@@ -17,9 +19,9 @@ ms.topic: "conceptual"
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 2be7f42d-745c-4454-b132-f2a3d47194ae
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "amyla"
+author: KumarVivek
+ms.author: kvivek
+manager: kvivek
 ---
 # Create custom plug-in to use your preferred geospatial data provider
 

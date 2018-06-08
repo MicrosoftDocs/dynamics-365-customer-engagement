@@ -3,8 +3,9 @@ title: "Customize content by using content snippets on a portal in Dynamics 365 
 description: "Learn how to customize content by using content snippets."
 keywords: ""
 ms.date: 01/26/2018
-ms.service: crm-online
-ms.custom: 
+ms.service: dynamics-365-customerservice
+ms.custom:
+  - dyn365-portal
 ms.topic: article
 ms.assetid: 64f9ec14-c22a-4337-af29-fc8b512cea63
 author: sbmjais

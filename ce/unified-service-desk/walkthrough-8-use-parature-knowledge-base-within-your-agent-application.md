@@ -1,10 +1,11 @@
 ---
 title: "Walkthrough 8: Use Customer Engagement knowledge base within your agent application | MicrosoftDocs"
 description: "Demonstrates how to configure a panel in Unified Service Desk to to display knowledge base records."
-ms.custom: ""
+ms.custom:
+  - dyn365-USD
 ms.date: 08/23/2017
 ms.reviewer: ""
-ms.service: "usd"
+ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
@@ -16,9 +17,9 @@ applies_to:
   - "Dynamics CRM 2016"
 ms.assetid: accd2d7a-9210-403a-abab-52c1cef11757
 caps.latest.revision: 10
-author: "KumarVivek"
-ms.author: "kvivek"
-manager: "jdaly"
+author: kabala123
+ms.author: kabala
+manager: sakudes
 ---
 # Walkthrough 8: Use Customer Engagement knowledge base within your agent application
 This walkthrough demonstrates how to configure a panel in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using the **KM Control** hosted control that displays knowledge base records from your [!INCLUDE[pn_parature](../includes/pn-parature.md)] instance that is integrated with your [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] instance.  

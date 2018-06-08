@@ -3,7 +3,10 @@ title: "Content-blocks reference (Dynamics 365 for Marketing) | Microsoft Docs"
 description: "Details for how to use each content block that is available for the design tool in Dynamics 365 for Marketing"
 keywords: "designer; content block; block; reference; email; form;  page"
 ms.date: 04/01/2018
-ms.service: crm-online
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-marketing"
 ms.topic: reference
 applies_to:
   - "Dynamics 365 (online)"
@@ -73,7 +76,7 @@ When you select a button block, you can use an inline toolbar to style the butto
 
 This section describes content blocks that are only available when you are designing a marketing email message.
 
-<a name="event-blocks"></a>   
+<a name="event-blocks"></a>
 
 ### Marketing-page, event, and survey blocks
 
@@ -97,6 +100,8 @@ To configure a form block, select it in your layout, open the **Properties** tab
 - **Error message**: Enter a short message that tells the user that a temporary error has prevented the system from accepting the form submission. For example, "We can't accept your form submission right now. Please try again later."
 - **Limit exceeded message**: Enter a short message announcing that the system has stopped processing new submissions temporarily, and inviting the user to try again later. This situation can occur if the server detects a submission pattern consistent with abuse of the system and has therefore entered a defensive stance.
 - **Redirect URL**: Enter a URL to send the submitter to immediately after they submit the form. This typically would be a page on your own website that thanks the submitter and confirms their submission, or some other message related to the purpose of your marketing page.
+
+<a name="form-content-blocks"></a>
 
 ## Form content blocks
 
