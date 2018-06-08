@@ -2,7 +2,7 @@
 title: "Enable and use Activity Logging (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
-ms.date: 03/21/2018
+ms.date: 06/07/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -70,6 +70,9 @@ Logging takes place at the SDK layer which means a single action can trigger mul
 |All support CRUD activities     |Microsoft support engineer activities on customer environment.|
 |Admin activities     |Admin activities on customer tenant.|
 |Backend commands     |Microsoft support engineer activities on customer tenant and environment.|
+|Report Viewed  |Logging when a report is viewed. Critical customer content information might be displayed on the report.  |
+|Report Viewer Export  |Exporting a report to different formats moves the data outside of the secure environment and is vulnerable to threats.  |
+|Report Viewer Render Image  |Logging multimedia assets that are shown when a report is displayed. They might contain critical customer information.  |
 
 ### Microsoft Social Engagement logging   
 
