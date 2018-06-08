@@ -36,11 +36,11 @@ When you are setting up your [!INCLUDE[pn-marketing-app-module](../includes/pn-m
 
 <a name="geo-support"></a>
 
-## Why can't I install Marketing in my country/region?
+## Why can't I install [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] in my country/region?
 
-Dynamics 365 for Marketing is a relatively new app for the Dynamics 365 platform, so it is not yet supported in all countries/regions where Dynamics 365 is available. If you are located outside of a supported country/region, then the setup wizard will prevent you from setting up the product, even if the Admin center shows that a Marketing app is available on your tenant. The reason you see the unconfigured app on your tenant is probably because you've licensed a Dynamics 365 product or bundle that includes it. You will be able to set it up as soon as support for the product is extended to your country/region.
+[!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] is a relatively new app for the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] platform, so it is not yet supported in all countries/regions where [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is available. If you are located outside of a supported country/region, then the setup wizard will prevent you from setting up the product, even if the Admin center shows that a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] app is available on your tenant. The reason you see the unconfigured app on your tenant is probably because you've licensed a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] product or bundle that includes it&mdash;you'll be able to set it up as soon as support for the product is extended to your country/region.
 
-These geographical restrictions apply both to trial and production versions of Dynamics 365 for Marketing.
+These geographical restrictions apply both to trial and production versions of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)].
 
 To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
