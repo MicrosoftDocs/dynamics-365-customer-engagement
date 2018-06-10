@@ -68,7 +68,7 @@ The new `IgnoreProposedBookings` control
 
 #### Schedule Board Visible Date Range
 
-Included in this update, the Retrieve Resources Query gets as input the visible date range of the board. This let's the query use the board's date range in it's database queries. The default Retrieve Resources Query shipped in this update has not changed. However, you can now customize the query to depend on the board's visible date range.
+Included in this update, the Retrieve Resources Query gets as input the visible date range of the board. This lets the query use the board's date range in its database queries. The default Retrieve Resources Query shipped in this update has not changed. However, you can now customize the query to depend on the board's visible date range.
 
 The updated input parameters available in the XPath `$input` variable are `ScheduleBoard/StartDate` and `ScheduleBoard/EndDate`.
 

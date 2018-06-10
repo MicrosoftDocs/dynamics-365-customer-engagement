@@ -11,7 +11,7 @@ In this section we'll create the new schema for the master `Language` entity and
 1. In Dynamics 365, in the top navigation bar, go to Settings > Customizations
 1. Go to Publishers
 1. Click New
-1. Fill out the new New Publisher form with the below details:
+1. Fill out the New Publisher form with the below details:
 
     Field | Value
     --- | ---
@@ -39,7 +39,7 @@ In this section we'll create the new schema for the master `Language` entity and
 ### Create the Language Entity
 
 1. In the Language solution form, in the left navigation menu, click Entities
-1. In the ribobn bar to the right of the left navigation menu, click New
+1. In the ribbon bar to the right of the left navigation menu, click New
 1. Fill out the New Entity form with the below details:
 
     Field | Value
@@ -69,11 +69,11 @@ In this section we'll create the new schema for the master `Language` entity and
 ### Create the Relationships from the Requirement Entity to the Language Entity
 
 1. In the Language solution form, in the left navigation menu, click Entities
-1. In the ribobn bar to the right of the left navigation menu, click Add Existing and select Entity from the dropdown
+1. In the ribbon bar to the right of the left navigation menu, click Add Existing and select Entity from the dropdown
 1. Select Resource Requirement and click OK (If presented with a Missing Required Components dialog, select No, do not include required components.)
 1. Click Finish
 1. In the Language solution form, in the left navigation menu, select the Resource Requirement entity and then select Fields
-1. In the ribobn bar to the right of the left navigation menu, click New
+1. In the ribbon bar to the right of the left navigation menu, click New
 1. Fill out the New Field form with the below details:
 
     Field | Value
@@ -83,7 +83,7 @@ In this section we'll create the new schema for the master `Language` entity and
     Target Record Type | Language
 
 1. Click Save and Close
-1. In the ribobn bar to the right of the left navigation menu, click New
+1. In the ribbon bar to the right of the left navigation menu, click New
 1. Fill out the New Field form with the below details:
 
     Field | Value
@@ -97,7 +97,7 @@ In this section we'll create the new schema for the master `Language` entity and
 #### Update the Requirement Main Form
 
 1. In the Language solution form, in the left navigation menu, select the Resource Requirement entity and then select Forms
-1. In the ribobn bar to the right of the left navigation menu, click Add Subcomponents
+1. In the ribbon bar to the right of the left navigation menu, click Add Subcomponents
 1. Select the form named Information with a Form Type of Main and click Finish (If presented with a Missing Required Components dialog, select No, do not include required components.)
 1. Select the added Information form and open the form editor
 1. In the top ribbon select Insert > Section > Two Columns to insert a new section on the form
@@ -270,7 +270,7 @@ The complete Retrieve Resources Query
 
 1. In the top right, double click the Language tab
 1. Scroll down to General Settings > Other Settings
-1. Locate the Retreive Resources Query field, click the button to the right to open the editor
+1. Locate the Retrieve Resources Query field, click the button to the right to open the editor
 1. Update the Value field with the Retrieve Resources Query code above and click Save As
 1. Enter "Language Resources Query" in the Name field and click Save
 1. At the bottom of the dialog, click Apply
@@ -405,4 +405,4 @@ The board will reload with the updated configuration. Schedule Assistant filteri
 
 ### Summary
 
-In the above steps we modified the Filter panel in the Schedule Assistant to show a filter control for the Language entity. We also modified the Retrieve Constraints Query to query the new Language attributes and shape them into a list. When a user selects to find availability for a Requirement record, the Filter panel will show the captured Language constraints. The the values from the Filter panel are passed into the Retrieve Resources query and the FetchXML query returns only matching resources.
+In the above steps we modified the Filter panel in the Schedule Assistant to show a filter control for the Language entity. We also modified the Retrieve Constraints Query to query the new Language attributes and shape them into a list. When a user selects to find availability for a Requirement record, the Filter panel will show the captured Language constraints. The values from the Filter panel are passed into the Retrieve Resources query and the FetchXML query returns only matching resources.
