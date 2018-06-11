@@ -73,7 +73,7 @@ The table below explains many of the Forum Alert attributes used by portals.
 
 ### See also
 
-[Setup and moderate forums](setup-moderate-forums.md)  
+[Setup and manage forums](setup-manage-forums.md)  
 [Manage forum threads](manage-forum-threads.md)  
 [Create forum posts on the portal](create-forum-posts.md)  
 [Moderate forums](moderate-forums.md)  
