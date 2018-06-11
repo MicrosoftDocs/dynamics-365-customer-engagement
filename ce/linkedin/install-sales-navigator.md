@@ -24,7 +24,7 @@ This installation is required to enable the sync between [!INCLUDE[pn-dynamics-3
 - You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365   
 --OR--   
 You will need to sign your team up for [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions) or [LinkedIn Sales Navigator Enterprise](https://business.linkedin.com/sales-solutions).    
-  We recommend having a Sales Navigator Administrator + Team Member seat to complete the installation, however you may use a Sales Navigator Administrator seat.
+  We recommend having a Sales Navigator Administrator + Team Member seat to complete the installation. However, you may use a Sales Navigator Administrator seat.
 - You will need to enable JavaScript in your browser.
 - You will need to disable your pop-up blocker for the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] domain.
 
@@ -63,7 +63,7 @@ After installing the solution, you can visit the [Office 365 admin center](https
 
 3. Go to **Settings** > **Solutions**. 
 
-4. Select the solution and choose **Delete**
+4. Select the solution and choose **Delete**.
 
 More information about installing or removing a solution: [TechNet: Install or remove a preferred solution](https://technet.microsoft.com/library/dn878909.aspx).
 
