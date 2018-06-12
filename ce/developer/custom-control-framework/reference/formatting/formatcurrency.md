@@ -1,19 +1,36 @@
+---
+title: FormatCurrency | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 87e433e6-573f-414f-b49d-1213f2bd8cf4
+---
+
 # formatCurrency
 
 [!INCLUDE [formatcurrency-description](includes/formatcurrency-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
 
 ## Syntax
 
-`Name(param)`
+`formatCurrency(value:number, precision?:number, symbol?:string)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|value|`number`|yes| A value to be formatted.|
+|precision|`number`|yes| The number of digits after decimal point.|
+|symbol|`string`|yes| The currency symbol/code to be added with currency value.|
 
 ## Return Value
 
