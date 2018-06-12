@@ -1,19 +1,37 @@
+---
+title: formatDateLong | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: b1b3449a-4f28-4a4c-97e0-eb1c118376d6
+---
+
 # formatDateLong
 
 [!INCLUDE [formatdatelong-description](includes/formatdatelong-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
+
+Returns a formatted string that represents a date in the long form using abbreviations. Result pattern is based on culture. In USA it's "Abbreviated Day of week, Month dd, yyyy" in USA
+
 
 ## Syntax
 
-`Name(param)`
+`formatDateLong(value: Date)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+value|`Date`|yes|Value Date to format.|
 
 ## Return Value
 
