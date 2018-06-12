@@ -78,13 +78,11 @@ The basic settings here will be checked and respected by all optimization scopes
     personal address.
   > - Start location and end location should have the same setting. For example,
     you cannot have the start location be a personal address and the end
-    location be location agnostic.
- 
+    location be location agnostic. 
   
    > [!div class="mx-imgBorder"]
    > ![](media/636100d6aa13549867e07f2942ab151f.png)
    
-
 2. Configure BOOKING SETUP METADATA for the desired entity. To do this, set
     **Default Scheduling Method** to **Optimize**. For example, if enabled for
     work order entity’s booking setup metadata, every newly created work order
@@ -101,11 +99,9 @@ The basic settings here will be checked and respected by all optimization scopes
 
     > [!NOTE]
     > Work Location must be either On Site or Location Agnostic. If On Site is the requirement, you need to specify latitude and longitude. More details on this are available in section 5.12. 
-
     
     > [!div class="mx-imgBorder"]
-    > ![](media/c6ddfd243951a9a69073065ebbf2e0cb.png)
-    
+    > ![](media/c6ddfd243951a9a69073065ebbf2e0cb.png)    
 
 4. Check **From Date** and **To Date** for resource requirements to make sure
     the dates fall into the window you would like to schedule. You can use the
