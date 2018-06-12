@@ -1,1 +1,0 @@
-The action which retrieve Record commands for selected record ids
