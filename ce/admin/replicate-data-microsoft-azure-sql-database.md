@@ -369,6 +369,12 @@ The statement has been terminated.
   
 -   Set the [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)] to use read committed snapshot isolation (RCSI) for workloads running concurrently on the destination database that execute long running read queries, such as reporting and ETL jobs. This reduces the occurrence of timeout errors that can occur with the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] due to read\write conflicts.  
   
+-   Set the Azure SQL Server to use a Max Degree of Parallelism (MAXDOP) of 1. This will improve query performance and reduce blocking that can occur with the Data Export Service, as well as help prevent Azure Request Limit issues. 
+
+-   A note should be added here to recommend periodic reindexing of the DES database and updating statistics.
+
+-   We should also provide a link to https://docs.microsoft.com/en-us/azure/sql-database/sql-database-single-database-monitor for more Azure performance monitoring recommendations.
+  
 ## About data synchronization latency
 
 The [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] is architected to synchronize data changes to the destination database using a push mechanism by listening to changes as they happen in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]. The service strives to push data within a few minutes, but there are number of factors that can influence end-to-end synchronization latency. 
