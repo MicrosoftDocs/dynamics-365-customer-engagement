@@ -25,7 +25,7 @@ RSO is one of three ways to schedule with Dynamics 365 for Field Service:
 1.  **Manual scheduling**: Drag and drop work order requirements from the bottom
     panel to the resource’s calendar above.
 
-> ![](media/29a8d922fb088fa1d668c598f6887e65.png)
+    ![](media/29a8d922fb088fa1d668c598f6887e65.png)
 
 1.  **Scheduling Assistant**: This allows you to filter resources on the left
     panel by travel range, skills, dates, roles, territories, and more. The
