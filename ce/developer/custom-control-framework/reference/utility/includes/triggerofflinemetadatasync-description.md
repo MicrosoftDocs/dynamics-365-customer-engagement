@@ -1,1 +1,0 @@
-Trigger the offline metadata sync
