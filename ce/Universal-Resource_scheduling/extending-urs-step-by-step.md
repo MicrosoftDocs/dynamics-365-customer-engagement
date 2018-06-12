@@ -144,6 +144,8 @@ The complete Filter Layout
 
 #### Create a new Languages Board
 
+In order to keep these changes isolated, we will create a brand new separate Schedule Board and implement the changes, but you can always make these changes on the default Schedule Board so that other Schedule Boards can automatically inherit these changes.
+
 1. In Dynamics 365, in the top navigation bar, go to Resource Scheduling > Schedule Board
 1. In the top right, click the + sign to create a new board
 1. Name the new board Language
@@ -151,11 +153,14 @@ The complete Filter Layout
 
 #### Update the Schedule Board Filter Layout
 
+Next, we will create a new configuration record which stores filter layouts and queries used by the Schedule Board, and then we will link the newly created Schedule Board to the new configuration record. There are multiple ways to do this, but here is the quickest:
+
 1. In the top right, double click the Language tab
 1. Scroll down to General Settings > Other Settings
 1. Locate the Filter Layout field, click the button to the right to open the editor
-1. Update the Value field with the Filter Layout code above and click Save As
-1. Enter "Language Filter Layout" in the Name field and click Save
+1. Update the Value field with the Filter Layout code above and click Save As. 
+1. Enter "Language Filter Layout" in the Name field and click Save. This creates a new configuration record.
+1. Select the newly created configuration record from the dropdown menu in the Filter Layout field to link this Schedule Board to the new Filter Layout.
 1. At the bottom of the dialog, click Apply
 
 The board will reload and you will see the Filter panel in the left with the new layout; only the Languages filter will be available. Filtering will not work yet, as we need to update the Retrieve Resources Query to take advantage of the new filter.
