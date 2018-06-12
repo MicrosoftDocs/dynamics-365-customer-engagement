@@ -15,4 +15,4 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 54872c8e-8db7-43df-b928-a83591b3bb77
 ---
-Opens Confirm Dialog.
+Opens a Confirm Dialog.
