@@ -34,9 +34,11 @@ The following settings must be configured after deploying RSO.
     organization to interact with the Bing Maps service that the schedule board
     uses.
 
-    ![](media/9311df68c981d7f4c5e984622ca1e244.png)
+    > [!div class="mx-imgBorder"]
+    > ![](media/9311df68c981d7f4c5e984622ca1e244.png)
 
-    ![](media/c2e5f7299860832f2823f285d0fcd113.png)
+    > [!div class="mx-imgBorder"]
+    > ![](media/c2e5f7299860832f2823f285d0fcd113.png)
 
     > [!NOTE]
     > Only a user with the System Administrator role can enable this. 
