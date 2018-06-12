@@ -71,12 +71,12 @@ The basic settings here will be checked and respected by all optimization scopes
     **Scheduling Summary** view, select one or more resource records, and then
     click **EDIT** to bulk edit the Optimize Schedule field to YES.
 
-> [!NOTE]
-> - Once you have enabled your resources for RSO, you need to set the latitude
+  > [!NOTE]
+  > - Once you have enabled your resources for RSO, you need to set the latitude
     and longitude for the resources’ organizational unit or personal address,
     depending on whether their start/end location is an organizational unit or a
     personal address.
-> - Start location and end location should have the same setting. For example,
+  > - Start location and end location should have the same setting. For example,
     you cannot have the start location be a personal address and the end
     location be location agnostic.
 
@@ -128,49 +128,38 @@ The basic settings here will be checked and respected by all optimization scopes
 Create an optimization schedule 
 --------------------------------
 
->   You can define when RSO should optimize requirements and/or bookings for
->   selected resources—for example, at 1 AM on weekdays. Creating a schedule
->   also entails creating a scope and a goal.
+You can define when RSO should optimize requirements and/or bookings for selected resources—for example, at 1 AM on weekdays. Creating a schedule also entails creating a scope and a goal.
 
 ![](media/88139c6831f34eb47709a44bc6d3dd6e.png)
 
-| Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. See the next section for details about scope and goals. | [./media/image8.png](./media/image8.png) |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. See the next section for details about scope and goals.
 
+[./media/image8.png](./media/image8.png)
 
--   **Timer**: Defines how often this schedule will run.
-
--   **Timer Mode**: The reference instant from when the schedule will start the
+- **Timer**: Defines how often this schedule will run.
+- **Timer Mode**: The reference instant from when the schedule will start the
     timer (Fixed or After Job Completion). For example, if timer is set to 30
     minutes, the first run will start 30 minutes from the publish date/time.
     Fixed = run every 30 minutes. After Job Completion = run 30 minutes from the
     end of the last RSO job execution. Job refers to the RSO job.
-
--   **Valid From** and **Valid To**: The first/last date and time when this
+- **Valid From** and **Valid To**: The first/last date and time when this
     schedule will be valid for execution.
 
->   Filter is used to set a variety of combinations. For example, the schedule
->   will run at 1 AM and 7 PM every Monday through Friday.
+Filter is used to set a variety of combinations. For example, the schedule will run at 1 AM and 7 PM every Monday through Friday.
 
 ![](media/dce427070a0bc406cd407e62319887b3.png)
 
->   The Filter section of the schedule is an advanced feature. The Filter window
->   allows for a variety of combinations to be selected:
+The Filter section of the schedule is an advanced feature. The Filter window allows for a variety of combinations to be selected:
 
--   You can filter by month, numerical day, weekday, hour, and minute, and refer
+- You can filter by month, numerical day, weekday, hour, and minute, and refer
     to a configured time zone.
-
--   Leaving all filters blank means no filters will be applied.
+- Leaving all filters blank means no filters will be applied.
 
 **How does Timer work with Filter?**
 
->   If you configure your Timer and Filter as shown here, it means that RSO will
->   run every 30 minutes after the previous job is completed—from 12/3/2016 at 9
->   AM to 12/4/2018 at 9 AM except on Saturdays and Sundays.
+If you configure your Timer and Filter as shown here, it means that RSO will run every 30 minutes after the previous job is completed—from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM except on Saturdays and Sundays.
 
-| [./media/image10.png](./media/image10.png) |
-|--------------------------------------------|
-
+![](media/image10.png)
 
 ![](media/6006fd53284a7c51c4cfe8712be658bd.png)
 
