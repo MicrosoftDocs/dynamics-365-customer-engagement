@@ -79,19 +79,19 @@ The basic settings here will be checked and respected by all optimization scopes
   > - Start location and end location should have the same setting. For example,
     you cannot have the start location be a personal address and the end
     location be location agnostic.
-
-   <br/>
+ 
+  
    > [!div class="mx-imgBorder"]
    > ![](media/636100d6aa13549867e07f2942ab151f.png)
-   <br/>
+   
 
 2. Configure BOOKING SETUP METADATA for the desired entity. To do this, set
     **Default Scheduling Method** to **Optimize**. For example, if enabled for
     work order entity’s booking setup metadata, every newly created work order
     and related resource requirement will be configured to optimize
     automatically.
-    > [!div class="mx-imgBorder"]
-    > ![](media/f0d624969f46a29e897670479a546ef6.png)
+    
+    ![](media/f0d624969f46a29e897670479a546ef6.png)
 
 3. For existing resource requirement records in your system, update Resource
     Requirements Scheduling Method. To do this, go to **Resource Scheduling
@@ -102,10 +102,10 @@ The basic settings here will be checked and respected by all optimization scopes
     > [!NOTE]
     > Work Location must be either On Site or Location Agnostic. If On Site is the requirement, you need to specify latitude and longitude. More details on this are available in section 5.12. 
 
-    <br/>
+    
     > [!div class="mx-imgBorder"]
     > ![](media/c6ddfd243951a9a69073065ebbf2e0cb.png)
-    <br/>
+    
 
 4. Check **From Date** and **To Date** for resource requirements to make sure
     the dates fall into the window you would like to schedule. You can use the
@@ -151,8 +151,8 @@ Give the schedule a logical name to express which resource requirements and book
     schedule will be valid for execution.
 
 Filter is used to set a variety of combinations. For example, the schedule will run at 1 AM and 7 PM every Monday through Friday.
-> [!div class="mx-imgBorder"]
-> ![](media/dce427070a0bc406cd407e62319887b3.png)
+
+![](media/dce427070a0bc406cd407e62319887b3.png)
 
 The Filter section of the schedule is an advanced feature. The Filter window allows for a variety of combinations to be selected:
 
@@ -160,7 +160,7 @@ The Filter section of the schedule is an advanced feature. The Filter window all
     to a configured time zone.
 - Leaving all filters blank means no filters will be applied.
 
-**How does Timer work with Filter?**
+### How does Timer work with Filter?
 
 If you configure your Timer and Filter as shown here, it means that RSO will run every 30 minutes after the previous job is completed—from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM except on Saturdays and Sundays.
 > [!div class="mx-imgBorder"]
@@ -205,8 +205,8 @@ The following explains how to define an optimization scope.
 
 2. Select at least one requirement or booking view for what needs to be
     optimized.
-    > [!div class="mx-imgBorder"]
-    > ![](media/843748f6ea067de2163318e71ac4851d.png)
+    
+    ![](media/843748f6ea067de2163318e71ac4851d.png)
 
 3. If you select booking view, you can set it to **Now or After**. For example,
     maybe you want to optimize bookings for the next 5 days, from 2 hours on
@@ -214,27 +214,28 @@ The following explains how to define an optimization scope.
     The current, out-of-the-box Dynamics 365 entity view filter doesn’t support
     this Now or After condition; RSO enabled this additional setting on top of
     whatever filter conditions are defined for that booking view.
-    > [!div class="mx-imgBorder"]
-    > ![](media/322f8b809e438d032b150b13fde88148.png)
+    
+    ![](media/322f8b809e438d032b150b13fde88148.png)
 
 4. Optimization Range Settings is the time range where bookings can be created,
     updated, and deleted.
 
   **Example 1:** You want to have a booking created/moved ahead 24 hours but from 1 hour on; in other words, bookings will be moved into a range starting Now+1hour and ending Now+1hour+1day (which might partly still be today).
-  > [!div class="mx-imgBorder"]
-  > ![](media/62ab888c08dfc0bdd81587535de73d5d.png)
+  
+  ![](media/62ab888c08dfc0bdd81587535de73d5d.png)
 
   - **Range Reference**: The start moment for all subsequent work order range
     calculation (Job current time or Beginning of the Job’s current day).
   - **Range Offset**: Amount of time added to the range reference to define the
     range start.
   - **Range Duration (days)**: Number of days added to the range reference.
+  
     > [!div class="mx-imgBorder"]
     > ![](media/06e5a506621a550cc2d05df234a3dbde.png)
 
   **Example 2**: You want to have a booking created/moved into the next two days.
-  > [!div class="mx-imgBorder"]
-  > ![](media/6a06b7a1a69c2f493686442af5e44520.png)
+  
+  ![](media/6a06b7a1a69c2f493686442af5e44520.png)
   > [!div class="mx-imgBorder"]
   > ![](media/5d265da65e27891ebab3319627e9a3fa.png)
 
@@ -251,6 +252,7 @@ The following explains how to define an optimization scope.
         was added into Resource View).
   - Requirements under Eligible for Optimization match the records from the
         Requirement View.
+        
     > [!div class="mx-imgBorder"]
     > ![](media/9b12b09d64d881041edd3d93f27be00c.png)
 
@@ -262,6 +264,7 @@ The following explains how to define an optimization scope.
   - If Resource View referred by optimization scope is a personal view,
         modified filters through the schedule board will be saved back into the
         same personal view.
+        
     > [!div class="mx-imgBorder"]
     > ![](media/d3b94e01e4d75db77d4f06e20b8d83d9.png)
 
@@ -272,8 +275,8 @@ You can define how bookings should be optimized (constraints and objectives). Th
 
 - Meet all company constraints.
 - Have the highest possible score for the company’s objectives.
-  > [!div class="mx-imgBorder"]
-  > ![](media/13db00f67badee105913102fc3e121ed.png)
+  
+  ![](media/13db00f67badee105913102fc3e121ed.png)
 
 **Engine Effort Level**: How much effort the RSO should make to find the best combination of resources, route, and day/time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
 
