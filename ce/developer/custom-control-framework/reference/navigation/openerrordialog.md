@@ -15,11 +15,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 10c154b9-45a0-44ee-a621-73d6a9009c6d
 ---
-
 # openErrorDialog
 
 [!INCLUDE [openerrordialog-description](includes/openerrordialog-description.md)]
-
 
 ## Syntax
 
