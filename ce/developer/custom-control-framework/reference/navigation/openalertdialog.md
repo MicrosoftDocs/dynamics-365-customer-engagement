@@ -29,7 +29,7 @@ ms.assetid: 4acd3f17-74c0-4de1-9326-3778ff413f1e
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|alertstrings|`AlertDialogStrings`|yes|Strings to be used in alert dialog. The AlertDialogStrings has the following attributes:<br/>- **text**: `string`. The message to be displayed in the alert dialog. <br/>- **confirmButtonLabel**:`string`. The confirm button label. if you do not sprecify the button label, OK (in user's preferred language) is used as the button label.|
+|alertStrings|`AlertDialogStrings`|yes|Strings to be used in alert dialog. The AlertDialogStrings has the following attributes:<br/>- **text**: `string`. The message to be displayed in the alert dialog. <br/>- **confirmButtonLabel**:`string`. The confirm button label. if you do not sprecify the button label, OK (in user's preferred language) is used as the button label.|
 |options|`AlertDialogOptions`|yes|Dialog options. The AlertDialogOptions has the following attributes:<br/>- **height**: `number`. Height of the alert dialog in pixels. <br/>- **width**: `number`. Width of the alert dialog in pixels|
 
 ## Return Value
