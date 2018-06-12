@@ -1,23 +1,42 @@
+---
+title: hasEntityPrivilege | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: f22723f0-c606-465c-abba-0a8c46a10e32
+
+---
+
 # hasEntityPrivilege
 
 [!INCLUDE [hasentityprivilege-description](includes/hasentityprivilege-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
+
 
 ## Syntax
 
-`Name(param)`
+`hasEntityPrivilege(entityTypeName, privilegeType, privilegeDepth)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|entityTypeName|`string`|yes|Entity type name|
+|priviligeType|``|||
+|priviligeDepth||||
 
 ## Return Value
 
-Type: `string`
+Type: `boolean`
 
 
 ### Related topics
