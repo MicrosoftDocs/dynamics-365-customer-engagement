@@ -173,11 +173,10 @@ Scope is the RSO mechanism for defining the relevant inputs: resource requireme
 
 > [!IMPORTANT]
 > Scopes should be as small as possible. RSO will be quicker and more effective if optimization requests contain few resources, requirements, bookings, and shorter range durations. Usually companies already have partitions that could be used for RSO; for instance: 
-
-- Temporally defined: optimize technicians who work in the day separately from
+> - Temporally defined: optimize technicians who work in the day separately from
     those who work at night.
-- Geographically defined: neighborhoods, cities.
-- Logically defined: support level, incident type.
+> - Geographically defined: neighborhoods, cities.
+> - Logically defined: support level, incident type.
 
 Upon opening the **Scheduling Optimization Scope** form, users can select existing system views or personal views (for which they have read permissions) from the Resource, Requirement, and Booking view drop-down menus. If personal view is selected, it will be shared with the Resource Scheduling Optimization application user and other users who have access to the scope.
 
@@ -263,95 +262,81 @@ The following explains how to define an optimization scope.
 Define the optimization goal 
 -----------------------------
 
->   You can define how bookings should be optimized (constraints and
->   objectives). The goal of the Resource Scheduling Optimization engine is to
->   process a list of resources and a list of resource requirements, along with
->   existing bookings, to create the optimal route/list of bookings for the
->   resources. Bookings can be considered optimally scheduled if they:
+You can define how bookings should be optimized (constraints and objectives). The goal of the Resource Scheduling Optimization engine is to process a list of resources and a list of resource requirements, along with existing bookings, to create the optimal route/list of bookings for the resources. Bookings can be considered optimally scheduled if they:
 
--   Meet all company constraints.
+- Meet all company constraints.
+- Have the highest possible score for the company’s objectives.
 
--   Have the highest possible score for the company’s objectives.
+  ![](media/13db00f67badee105913102fc3e121ed.png)
 
-![](media/13db00f67badee105913102fc3e121ed.png)
-
->   **Engine Effort Level**: How much effort the RSO should make to find the
->   best combination of resources, route, and day/time. The higher the effort,
->   the longer RSO takes to complete the execution. For example, the effort
->   might be very light, light, moderate, intense, or very intense. The higher
->   the intensity, the more iterations of possible combinations the RSO engine
->   considers.
+**Engine Effort Level**: How much effort the RSO should make to find the best combination of resources, route, and day/time. The higher the effort, the longer RSO takes to complete the execution. For example, the effort might be very light, light, moderate, intense, or very intense. The higher the intensity, the more iterations of possible combinations the RSO engine considers.
 
 ### Define constraints
 
--   **Schedule Within Working Hours**: Creates the booking if it can be
+- **Schedule Within Working Hours**: Creates the booking if it can be
     completed within the resource’s working hours. Verifies the booking is not
     scheduled out of the resource’s working hours. This includes travel time
     from the last booking to the resource’s end location, although it’s not
     shown on the schedule board in a visual way.
 
-![](media/c56516997db07c1f0ef64bdcc507350f.png)
+    ![](media/c56516997db07c1f0ef64bdcc507350f.png)
 
--   **Meets Required Characteristics**: Verifies the resource has all the
+- **Meets Required Characteristics**: Verifies the resource has all the
     required characteristics and should have minimum required skill level.
 
--   **Scheduling Lock Option**: If marked, this will respect lock options
+- **Scheduling Lock Option**: If marked, this will respect lock options
     configured on a booking record.
 
--   **Scheduling Windows**: If marked, RSO will schedule work to comply within
+- **Scheduling Windows**: If marked, RSO will schedule work to comply within
     the time window start and end fields on the resource requirement or booking
     record.
 
-    -   If **From Date** and **To Date** on resource requirement or **Date
+    - If **From Date** and **To Date** on resource requirement or **Date
         Window Start** and **Date Window End** on resource booking are set as
         shown in the following example, it indicates you want RSO to schedule
         the booking on 5/24/2018 and time of day doesn’t matter.
 
-![](media/753086631f45017fa9cef8f3795078ba.png)
+    ![](media/753086631f45017fa9cef8f3795078ba.png)
 
--   If **Time Window Start** and **Time Window End** are set as shown in the
+    - If **Time Window Start** and **Time Window End** are set as shown in the
     following example, it indicates you want RSO to schedule a booking from 2 AM
     to 6 AM and the date doesn’t matter.
 
-![](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
+    ![](media/8dfb6c914473209fa9b74cad5b6dcd45.png)
 
--   If **Time From Promised** and **Time To Promised** are set as shown in the
+    - If **Time From Promised** and **Time To Promised** are set as shown in the
     following example, it indicates you want RSO to schedule a booking between 4
     AM and 8 AM on 5/24/2018. It has to be a specific date and specific time
     range.
 
-![](media/f08dd1dd681a4369a2b46a968c08e631.png)
+    ![](media/f08dd1dd681a4369a2b46a968c08e631.png)
 
-| **Note:**  |
-|------------|
+    > [!NOTE]
 
-
--   If the above fields are conflicted, RSO will use **Time From Promised** and
+    > - If the above fields are conflicted, RSO will use **Time From Promised** and
     **Time To Promised** first. Then it will use one or a combination of other
     fields.
-
--   RSO will ensure the **Estimated Arrival Time** falls into the window
+    > - RSO will ensure the **Estimated Arrival Time** falls into the window
     specified above. It does not guarantee that the booking’s end time will fall
     within the time window.
 
--   **Restricted Resources**: If marked, RSO will not schedule a restricted
+- **Restricted Resources**: If marked, RSO will not schedule a restricted
     resource to the booking.
 
 ### Define objectives
 
--   **Maximize total working hours**: The combination of the engine results
+- **Maximize total working hours**: The combination of the engine results
     (iteration) with the total highest aggregate work time will best meet this
     objective.
 
--   **Minimize total travel time**: The version of the engine results
+- **Minimize total travel time**: The version of the engine results
     (iteration) with the total lowest aggregate travel time will best meet this
     objective.
 
-| **Note:** This cannot be the first objective in the list. RSO might not schedule anything with the travel time as 0 minutes in order to meet the first objective. |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    > [!NOTE]
+    > This cannot be the first objective in the list. RSO might not schedule anything with the travel time as 0 minutes in order to meet the first objective.
 
-
--   **Locked bookings:** Once a booking is created, a lock can be set on the
+- **Locked bookings:** Once a booking is created, a lock can be set on the
     scheduling lock options field in the RSO section of the booking. The options
     are Time Range, Resource, Time, and Resource and Time. When the locked
     bookings objective is selected, RSO will try to include locked bookings into
@@ -364,13 +349,13 @@ Define the optimization goal
 
     ![](media/8c6c7de10ed96ca76c884ee41086507b.png)
 
-    -   If locked booking is a high-ranking objective, RSO will keep the locked
+    If locked booking is a high-ranking objective, RSO will keep the locked
         booking there with 30 minutes of idle time before it by sacrificing the
         other objectives. The following screenshot shows the result.
 
-![](media/49561093ec91a28a5961b0be4f892cbf.png)
+    ![](media/49561093ec91a28a5961b0be4f892cbf.png)
 
--   If locked booking is not a selected objective or is ranked lower in the
+    If locked booking is not a selected objective or is ranked lower in the
     order of importance for objectives, RSO might ignore this locked booking
     (exclude this locked booking from the optimal route) and schedule other
     bookings for Matthew at 2:30 AM in order to achieve the highest score for
@@ -380,9 +365,9 @@ Define the optimization goal
     would lose the lock information defined on the booking record, which can’t
     be retrieved from the backing requirement.
 
-![](media/c26b87771f6bd1cf5954a261a1b09736.png)
+    ![](media/c26b87771f6bd1cf5954a261a1b09736.png)
 
--   **High priority requirements**: RSO will evaluate this objective and give
+- **High priority requirements**: RSO will evaluate this objective and give
     priority to the resource/booking combination with the highest score for
     priority. The priority is set on the resource requirement record and is an
     option set with weighted values. RSO checks **Level of Importance** on
