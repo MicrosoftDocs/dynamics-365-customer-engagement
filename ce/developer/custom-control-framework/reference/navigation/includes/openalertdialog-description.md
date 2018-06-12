@@ -16,3 +16,4 @@ applies_to:
 ms.assetid: abbb4f55-c349-4d7a-8d98-7c853c629c6f
 ---
 Opens Alert Dialog.
+ 
