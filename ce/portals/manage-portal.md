@@ -1,8 +1,8 @@
 ---
-title: "Manage a portal for Dynamics 365 | MicrosoftDocs"
-description: "Instructions to manage your portal."
-keywords: ""
-ms.date: 12/05/2017
+title: "Administer a portal for Dynamics 365 | MicrosoftDocs"
+description: "Instructions to administer your portal."
+keywords: "portal administration, portal admin center"
+ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
 ms.custom:
   - dyn365-portal
@@ -17,7 +17,7 @@ ms.tgt_pltfrm:
 topic-status: Drafting
 ---
 
-# Manage your portal
+# Administer your portal
 
 After provisioning a portal, you can perform various actions such as setting up a custom domain and importing metadata translations. This section provides you the information about all the tasks required to manage your portal.
 
@@ -33,9 +33,13 @@ If you are not a global administrator and you try to manage a portal that has al
 ### To add yourself as an owner of the Azure AD application
 
 1. Go to the Portal Management page. The following error message is displayed: "You don’t have permission to perform this action. Contact your global administrator to get owner permission for Application ID: [app id] in your Azure Active Directory."
+
 2. Copy the app ID from the error message.
+
 3. Go to Azure AD associated with your tenant. [!include[](../includes/proc-more-information.md)] [Take over an unmanaged directory as administrator in Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-manage-o365-subscription)
+
 4. In Azure AD, search for the application by using the app ID you copied from the error message.
+
 5. Add users or groups as owners of this application. [!include[](../includes/proc-more-information.md)] [Managing access to apps](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-managing-access-to-apps)
 
     > [!Note]
@@ -48,8 +52,11 @@ If you are not a global administrator and you try to manage a portal that has al
 A custom domain can help your customers find your support resources more easily and enhance your brand. Only one custom domain name can be added to a portal. After you've provisioned your portal and acquired your domain name, you'll need an SSL certificate to set up a custom host name. You can use the purchased SSL certificate for your domain to link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain by using a wizard.
 
 1. Go to the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Administration center, and then select the **Applications** tab.
+
 2. Select the name of the portal for which you want to set up a custom domain, and then select **Manage**.
+
 3. Go to **Portal Actions** > **Add a Custom Domain Name**. A wizard opens to choose the SSL certificate.
+
 4. On the **Choose a SSL certificate** page, select one of the following options:
     - **Upload a new certificate**: Select this option to upload the .pfx file if you have not yet uploaded it to the organization. Select the upload button underneath **File** to select the .pfx file. After selecting the file, enter the password for your SSL certificate in the **Password** field.
     - **Use an existing certificate**: Select this option to choose the correct certificate from the drop-down list.
@@ -62,8 +69,8 @@ A custom domain can help your customers find your support resources more easily 
     > - Contains all intermediate certificates in the certificate chain
     > - Must be SHA2 enabled; SHA1 support is being removed from popular browsers
 
-
 5. Select **Next**.
+
 6. On the **Choose a host name** page, select one of the following options:
     - **Add a new host name**: Select this option to create a new custom domain. Enter the domain name you want in the **Domain Name** field.
     - **Use an existing host name**: Select this option to choose a host name from the drop-down list. 
@@ -73,6 +80,7 @@ A custom domain can help your customers find your support resources more easily 
    > - To create a custom host name, you will need to create a CNAME with your domain provider that points your domain to the URL of your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal. If you have just added a CNAME with your domain provider, it will take some time to propagate to all DNS servers. If the name is not propagated and you add it here, the following error message will appear: "Please add a CNAME record to this domain name." Retry after some time passes.
 
 7. Review the information you have entered, and then select **Next** to begin creating the SSL Binding. You should see the message "Custom Domain name has been successfully configured for this Portal. You can now go to {Custom Domain Name} to access this portal." {Custom Domain Name} will be a hyperlink to the Custom Portal URL that was just configured.
+
 8. Select **Finish** to close the wizard.
 
     > [!Note]
