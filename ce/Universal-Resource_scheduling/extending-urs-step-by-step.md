@@ -159,8 +159,7 @@ Next, we will create a new configuration record which stores filter layouts and 
 1. Scroll down to General Settings > Other Settings
 1. Locate the Filter Layout field, click the button to the right to open the editor
 1. Update the Value field with the Filter Layout code above and click Save As. 
-1. Enter "Language Filter Layout" in the Name field and click Save. This creates a new configuration record.
-1. Select the newly created configuration record from the dropdown menu in the Filter Layout field to link this Schedule Board to the new Filter Layout.
+1. Enter "Language Filter Layout" in the Name field and click Save. This creates a new configuration record and links this Schedule Board to the record.
 1. At the bottom of the dialog, click Apply
 
 The board will reload and you will see the Filter panel in the left with the new layout; only the Languages filter will be available. Filtering will not work yet, as we need to update the Retrieve Resources Query to take advantage of the new filter.
@@ -261,7 +260,7 @@ Name | Description
 1. Scroll down to General Settings > Other Settings
 1. Locate the Retrieve Resources Query field, click the button to the right to open the editor
 1. Update the Value field with the Retrieve Resources Query code above and click Save As
-1. Enter "Language Resources Query" in the Name field and click Save
+1. Enter "Language Resources Query" in the Name field and click Save. This creates a new configuration record and links this Schedule Board to the record.
 1. At the bottom of the dialog, click Apply
 
 The board will reload with the updated configuration. Filtering will now work. If you created Language records and associated them with Resource records, you will now be able to filter resources by their associated languages.
@@ -325,7 +324,7 @@ The complete Schedule Assistant Filter Layout
 1. Scroll to the Schedule Types section and select None in the left list
 1. Locate the Schedule Assistant Filter Layout field, click the button to the right to open the editor
 1. Update the Value field with the Schedule Assistant Filter Layout code above and click Save As
-1. Enter "Language Schedule Assistant Filter Layout" in the Name field and click Save
+1. Enter "Language Schedule Assistant Filter Layout" in the Name field and click Save. This creates a new configuration record and links this Schedule Board to the record.
 1. At the bottom of the dialog, click Apply
 
 The board will reload. We need to change the Retrieve Constraints Query before we can use the Schedule Assistant with our new Language constraints.
@@ -386,7 +385,7 @@ The complete Retrieve Constraints Query
 1. Scroll to the Schedule Types section and select None in the left list
 1. Locate the Schedule Assistant Retrieve Constraints Query field, click the button to the right to open the editor
 1. Update the Value field with the Retrieve Resources Query code above and click Save As
-1. Enter "Language Constraints Query" in the Name field and click Save
+1. Enter "Language Constraints Query" in the Name field and click Save. This creates a new configuration record and links this Schedule Board to the record.
 1. Locate the Schedule Assistant Retrieve Resources Query field and select the Languages Resources Query we created earlier for the Schedule Board Customizations
 1. At the bottom of the dialog, click Apply
 
