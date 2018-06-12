@@ -1,23 +1,39 @@
+---
+title: getResource | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 5c04ba7c-acfe-4375-8dd8-6c537ded9352
+---
+
+
 # getResource
 
 [!INCLUDE [getresource-description](includes/getresource-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
 
 ## Syntax
 
-`Name(param)`
+`getResource(id, success, failure)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|id|`string`|yes|The resource string identifier.|
+|success|`string`|no|The success callback. Resource data is returned in base 64 encoded format.|
+|failure|`string`|no|The failure callback.|
 
-## Return Value
 
-Type: `string`
 
 
 ### Related topics
