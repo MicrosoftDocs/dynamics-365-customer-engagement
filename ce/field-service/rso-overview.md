@@ -25,7 +25,8 @@ shortest travel time, available work hours, and many other constraints.
 1.  **Manual scheduling**: Drag and drop work order requirements from the bottom
     panel to the resource’s calendar above.
 
-![](media/29a8d922fb088fa1d668c598f6887e65.png)
+> [!div class="mx-imgBorder"]
+> ![](media/29a8d922fb088fa1d668c598f6887e65.png)
 
 1.  **Scheduling Assistant**: This allows you to filter resources on the left
     panel by travel range, skills, dates, roles, territories, and more. The
