@@ -1,23 +1,37 @@
+---
+title: setFullScreen | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 1faf3e79-969e-4c1e-ac01-8e2155c609fa
+---
+
+
 # setFullScreen
 
 [!INCLUDE [setfullscreen-description](includes/setfullscreen-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
+
 
 ## Syntax
 
-`Name(param)`
+`setFullScreen()`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|value|`boolean`|yes|`True` if control needs to autosize to full screen. `False` if control needs to autosize to allocated width.|
 
-## Return Value
-
-Type: `string`
 
 
 ### Related topics
