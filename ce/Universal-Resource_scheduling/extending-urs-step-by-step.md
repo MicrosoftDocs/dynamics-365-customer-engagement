@@ -1,6 +1,8 @@
-# Extending URS: Find Resources by Required Language - A Step by Step Guide
+# Extending URS: Find Resources by Language - A Step by Step Guide
 
-In this step-by-step guide, we'll extend URS resources with a `Language` constraint. Consider an organization that wants to filter resources by the languages they speak. They also want to capture on the `Requirement` record the language required for the job. This constraint follows a similar pattern to the built-in `Territory` constraint. A new master entity `Language` will store the different languages a resource can speak. A `Resource` record can then be associated to many `Languages` through a many-to-many relationship entity. On the `Requirement` entity, we'll model this by creating two new lookup attributes: `Required Language` and `Secondary Language`. When finding available resources for a requirement, only resources associated with either the `Required Language` or the `Secondary Language` will be shown.
+> This step by step guide is a companion to [Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)](understanding-and-customizing-resource-matching-in-urs.md)
+
+In this step-by-step guide, we'll extend URS resources with a `Language` constraint. Consider an organization that wants to filter resources by the languages they speak. They also want to capture on the `Requirement` record the language required for the job. This constraint follows a similar pattern to the built-in `Territory` constraint. A new master entity `Language` will store the different languages a resource can speak. A `Resource` record can then be associated to many `Languages` through a many-to-many relationship entity. On the `Requirement` entity, we'll model this by creating two new lookup attributes: `Primary Language` and `Secondary Language`. When finding available resources for a requirement, only resources associated with either the `Primary Language` or the `Secondary Language` will be shown.
 
 ## Creating the New Entities and Relationships
 
@@ -8,9 +10,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 ### Create a New Publisher
 
-1. In Dynamics 365, in the top navigation bar, go to Settings > Customizations
-1. Go to Publishers
-1. Click New
+1. In Dynamics 365, under Customizations, create a new Publisher
 1. Fill out the New Publisher form with the below details:
 
     Field | Value
@@ -23,8 +23,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 ### Create a New Solution
 
-1. In Dynamics 365, in the top navigation bar, go to Settings > Solutions
-1. Click New
+1. In Dynamics 365, under Customizations, create a new Solution
 1. Fill out the New Solution form with the below details:
 
     Field | Value
@@ -38,8 +37,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 ### Create the Language Entity
 
-1. In the Language solution form, in the left navigation menu, click Entities
-1. In the ribbon bar to the right of the left navigation menu, click New
+1. In the Language solution, create a new Entity
 1. Fill out the New Entity form with the below details:
 
     Field | Value
@@ -52,8 +50,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 ### Create the Many-to-Many Relationship from the Resource Entity to the Language Entity
 
-1. In the Language entity form, in the left navigation menu, click N:N Relationships
-1. In the ribbon bar to the right of the left navigation menu, click New Many-to-Many Relationship
+1. In the Language entity, create a new Many-to-Many Relationship
 1. Fill out the New Relationship form with the below details:
 
     Field | Value
@@ -68,22 +65,18 @@ In this section we'll create the new schema for the master `Language` entity and
 
 ### Create the Relationships from the Requirement Entity to the Language Entity
 
-1. In the Language solution form, in the left navigation menu, click Entities
-1. In the ribbon bar to the right of the left navigation menu, click Add Existing and select Entity from the dropdown
-1. Select Resource Requirement and click OK (If presented with a Missing Required Components dialog, select No, do not include required components.)
-1. Click Finish
-1. In the Language solution form, in the left navigation menu, select the Resource Requirement entity and then select Fields
-1. In the ribbon bar to the right of the left navigation menu, click New
+1. In the Language solution, add the existing Resource Requirement entity to the solution (If presented with a Missing Required Components dialog, select No, do not include required components.)
+1. In the Resource Requirement entity, create a new Field
 1. Fill out the New Field form with the below details:
 
     Field | Value
     --- | ---
-    Display Name | Required Language
+    Display Name | Primary Language
     Data Type | Lookup
     Target Record Type | Language
 
 1. Click Save and Close
-1. In the ribbon bar to the right of the left navigation menu, click New
+1. In the Resource Requirement entity, create a new Field
 1. Fill out the New Field form with the below details:
 
     Field | Value
@@ -96,17 +89,8 @@ In this section we'll create the new schema for the master `Language` entity and
 
 #### Update the Requirement Main Form
 
-1. In the Language solution form, in the left navigation menu, select the Resource Requirement entity and then select Forms
-1. In the ribbon bar to the right of the left navigation menu, click Add Subcomponents
-1. Select the form named Information with a Form Type of Main and click Finish (If presented with a Missing Required Components dialog, select No, do not include required components.)
-1. Select the added Information form and open the form editor
-1. In the top ribbon select Insert > Section > Two Columns to insert a new section on the form
-    
-    You can optionally move the new section near the top of the form
-
-1. Double click on the new section to open the Section Properties dialog
-1. Change the Label to Languages and click OK
-1. In the right Field Explorer, drag the Required Language and Secondary Language fields to the new section
+1. In the Resource Requirement entity, add the existing Information form to the entity's subcomponents (If presented with a Missing Required Components dialog, select No, do not include required components.)
+1. In the Information form, use the Field Explorer to add the two new attributes, Primary Language and Secondary Language to the form so users can enter this information as they create requirements
 1. Click Save
 1. Click Publish
 1. You can close the form editor
@@ -117,7 +101,7 @@ In the above steps, we created the new Language entity. We then added new relati
 
 #### Adding Data
 
-Use Advanced Find to add new records to the Language entity. You can then associate Resource records to the new Language records by opening a Resource record and navigating to the Language relationship in the navigation bar. For Requirement records, you can fill in the new Required Language and Secondary Language fields on the Requirement form.
+Use Advanced Find to add new records to the Language entity. You can then associate Resource records to the new Language records by opening a Resource record and navigating to the Language relationship in the navigation bar. For Requirement records, you can fill in the new Primary Language and Secondary Language fields on the Requirement form.
 
 ## Customizing the Schedule Board
 
@@ -350,17 +334,17 @@ The Retrieve Constraints Query configuration is a [UFX Query](Universal-FetchXML
 > The default Retrieve Constraints Query shipped with URS is a large query that supports all the requirement constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
 
 ```xml
-<Languages ufx:select="lookup-to-list(Requirement/lang_requiredlanguage, Requirement/lang_secondarylanguage)" />
+<Languages ufx:select="lookup-to-list(Requirement/lang_primarylanguage, Requirement/lang_secondarylanguage)" />
 ```
 
-UFX Queries are processed in sequential order. The Retrieve Constraints Query uses FetchXML to query the `Requirement (msdyn_resourcerequirement)` entity and assigns the result, a Requirement record, to the  `Requirement` property. We are adding to the constraints property bag a new property `Languages` that combine both attributes, the Required Language and Secondary Language, into a single list of entities (EntityCollection). This is required since we are showing the Languages control in the Filter panel as a list of records. An alternative would be to create two separate controls in the Filter panel for the two attributes.
+UFX Queries are processed in sequential order. The Retrieve Constraints Query uses FetchXML to query the `Requirement (msdyn_resourcerequirement)` entity and assigns the result, a Requirement record, to the  `Requirement` property. We are adding to the constraints property bag a new property `Languages` that combine both attributes, the Primary Language and Secondary Language, into a single list of entities (EntityCollection). This is required since we are showing the Languages control in the Filter panel as a list of records. An alternative would be to create two separate controls in the Filter panel for the two attributes.
 
 Here is the description of each attribute:
 
 Name | Description
 --- | ---
 **`Languages`** | Create a new property in the result constraints property bag named `Languages`
-`ufx:select` | Assign the result of the XPath expression in this attribute to the `Languages` property. The `lang_requiredlanguage` and `lang_secondarylanguage` properties, retrieved earlier in the query and available in the `Requirement` property, is passed to the `lookup-to-list` XPath function which converts multiple `lookup` properties to a single `list (EntityCollection)`
+`ufx:select` | Assign the result of the XPath expression in this attribute to the `Languages` property. The `lang_primarylanguage` and `lang_secondarylanguage` properties, retrieved earlier in the query and available in the `Requirement` property, is passed to the `lookup-to-list` XPath function which converts multiple `lookup` properties to a single `list (EntityCollection)`
 
 The complete Retrieve Constraints Query
 
@@ -386,7 +370,7 @@ The complete Retrieve Constraints Query
     </bag>
   </Requirement>
   
-  <Languages ufx:select="lookup-to-list(Requirement/lang_requiredlanguage, Requirement/lang_secondarylanguage)" />
+  <Languages ufx:select="lookup-to-list(Requirement/lang_primarylanguage, Requirement/lang_secondarylanguage)" />
 </bag>
 ```
 
