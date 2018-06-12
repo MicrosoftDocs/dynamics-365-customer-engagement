@@ -344,7 +344,7 @@ The Retrieve Constraints Query configuration is a [UFX Query](Universal-FetchXML
 
 UFX Queries are processed in sequential order. The Retrieve Constraints Query uses FetchXML to query the `Requirement (msdyn_resourcerequirement)` entity and assigns the result, a Requirement record, to the  `Requirement` property. We are adding to the constraints property bag a new property `Languages` that combine both attributes, the Primary Language and Secondary Language, into a single list of entities (EntityCollection). This is required since we are showing the Languages control in the Filter panel as a list of records. An alternative would be to create two separate controls in the Filter panel for the two attributes.
 
-Here is the description of each attribute:
+Here is the description of each **`element`** and `attribute`:
 
 Name | Description
 --- | ---
