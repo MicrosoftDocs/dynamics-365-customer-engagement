@@ -1,22 +1,32 @@
+---
+title: getLinkedEntities | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: feb4e449-935f-452e-a67a-d3cf3c2bdcfb
+---
+
 # getLinkedEntities
 
 [!INCLUDE [getlinkedentities-description](includes/getlinkedentities-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
 
 ## Syntax
-`Name(param)`
+`getLinkedEntities()`
 
-## Parameters
-
-| Parameter Name|Type|Required|Description|
-| ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
 
 ## Return Value
 
-Type: `string`
+Type: `ILinkEntityExposedExpression`
 
 
 ### Related topics
