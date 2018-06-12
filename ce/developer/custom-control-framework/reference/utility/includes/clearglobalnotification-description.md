@@ -1,1 +1,0 @@
-Clears a global Notification. 
