@@ -15,11 +15,9 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: ae94e467-d12c-4a74-96f0-05a09e03c5f8
 ---
-
 # openFile
 
 [!INCLUDE [openfile-description](includes/openfile-description.md)]
-
 
 ## Syntax
 
