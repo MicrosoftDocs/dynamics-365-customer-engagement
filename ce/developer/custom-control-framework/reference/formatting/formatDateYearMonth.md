@@ -1,19 +1,34 @@
+---
+title: formatDateYearMonth | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: b4c08ece-a164-455c-a1b7-8ce855aedad4
+---
+
 # formatDateYearMonth
 
 [!INCLUDE [formatdateyearmonth-description](includes/formatdateyearmonth-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
 
 ## Syntax
 
-`Name(param)`
+`formatDateYearMonth(value: Date)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|value|`Date`|yes|Value Date to format.|
 
 ## Return Value
 
