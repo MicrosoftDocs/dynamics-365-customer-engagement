@@ -21,7 +21,6 @@ ms.assetid: 590078f3-c604-4bd0-ac74-9cf6d8806802
 
 [!INCLUDE [openurl-description](includes/openurl-description.md)]
 
-
 ## Syntax
 
 `openUrl(url, options)`
