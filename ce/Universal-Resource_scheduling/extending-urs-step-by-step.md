@@ -171,7 +171,7 @@ The board will reload and you will see the Filter panel in the left with the new
 
 The Retrieve Resources Query configuration is a [UFX Query](./Universal-FetchXML.md) used by the Resource Matching API. It takes as input the values entered in the Filter panel and dynamically constructs the correct FetchXML to find matching resources.
 
-> The default Retrieve Resources Query shipped with URS is a large query that supports all the resource constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
+> Below is the snippet that will be added to the Retrieve Resources Query to include the Resources' Languages.
 
 ```xml
 <link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" ufx:if="$input/Languages/bag">
@@ -200,7 +200,7 @@ Name | Description
 **`value`** | Contains the ID of a Language record
 **`ufx:value`** and `select` | Outputs the result of the XPath expression in the `select` attribute
 
-The complete Retrieve Resources Query
+> The default Retrieve Resources Query shipped with URS is a large query that supports all the resource constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
