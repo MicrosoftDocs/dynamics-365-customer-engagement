@@ -1,23 +1,38 @@
+---
+title: getTimeZoneOffsetMinutes | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 86290d20-7dbb-4932-adaa-31121ae7a3f6
+---
+
 # getTimeZoneOffsetMinutes
 
 [!INCLUDE [gettimezoneoffsetminutes-description](includes/gettimezoneoffsetminutes-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
 
 ## Syntax
 
-`Name(param)`
+`getTimeZoneOffsetMinutes(date)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|date|`Date`|yes|date to get the offset from utc for.|
 
 ## Return Value
 
-Type: `string`
+Type: `number`
 
 
 ### Related topics
