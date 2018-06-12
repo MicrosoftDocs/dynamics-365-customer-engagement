@@ -1,1 +1,0 @@
-Begins a secure session for a 1st party resource.
