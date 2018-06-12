@@ -18,128 +18,114 @@ Configuration
 RSO system settings 
 --------------------
 
->   The following settings must be configured after deploying RSO.
+The following settings must be configured after deploying RSO.
 
-1.  Go to **Resource Scheduling Optimization** \> **Administration** \>
+1. Go to **Resource Scheduling Optimization** \> **Administration** \>
     **Resource Scheduling Parameters**.
 
--   Set **Enable Resource Scheduling Optimization** as **Yes**.
+  - Set **Enable Resource Scheduling Optimization** as **Yes**.
 
--   Set **Default Goal** if needed. It can help you speed up interactions with
+  - Set **Default Goal** if needed. It can help you speed up interactions with
     RSO through the schedule board by predefining how the engine should optimize
     data. Users can still pick different goals. For more details, see “4.3
     Leverage schedule board to review optimization results.”
 
--   Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
+  - Set **Connect to Maps** as **Yes**. The connect to maps feature allows this
     organization to interact with the Bing Maps service that the schedule board
     uses.
 
-![](media/9311df68c981d7f4c5e984622ca1e244.png)
+    ![](media/9311df68c981d7f4c5e984622ca1e244.png)
 
-![](media/c2e5f7299860832f2823f285d0fcd113.png)
+    ![](media/c2e5f7299860832f2823f285d0fcd113.png)
 
-| **Note:** Only a user with the System Administrator role can enable this. |
-|---------------------------------------------------------------------------|
+  > [!NOTE]
+  > Only a user with the System Administrator role can enable this. 
 
-
-1.  Go to **Settings** \> **Security** \> **Users**, navigate to the
+2. Go to **Settings** \> **Security** \> **Users**, navigate to the
     **Application Users** view, and assign the Field Service - Administrator
     security role to the Resource Scheduling Optimization application user.
 
-2.  Go to **Settings** \> **Security** \> **Field Security Profiles**, open
+3. Go to **Settings** \> **Security** \> **Field Security Profiles**, open
     **Field Service – Administrator**, and add **Resource Scheduling
     Optimization** into the Field Security Profile.
 
-| Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO: |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO:
 
+1. Go to **Settings** \> **Security** \> **Users**.
 
-3.  Go to **Settings** \> **Security** \> **Users**.
+2. Locate the user or team of dispatchers.
 
-4.  Locate the user or team of dispatchers.
+3. Click **Manage Roles**.
 
-5.  Click **Manage Roles**.
+4. Grant **RSO Dispatcher** a security role.
 
-6.  Grant **RSO Dispatcher** a security role.
+5. Click **Save**.
 
-7.  Click **Save**.
+6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
 
-8.  Go to **Settings** \> **Security** \> **Field Security Profiles**.
-
-9.  Open **Resource Scheduling Optimization - Dispatcher** and add the user or
+7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
     team to the profile and then click **Save**.
 
 Settings to prepare data for optimization 
 ------------------------------------------
 
->   The basic settings here will be checked and respected by all optimization
->   scopes.
+The basic settings here will be checked and respected by all optimization scopes.
 
-1.  Update **Optimize Schedule** to **Yes** for resources. To do so, go to
+1. Update **Optimize Schedule** to **Yes** for resources. To do so, go to
     **Resource Scheduling Optimization** \> **Resources**. Navigate to the
     **Scheduling Summary** view, select one or more resource records, and then
     click **EDIT** to bulk edit the Optimize Schedule field to YES.
 
-| **Note:** |
-|-----------|
-
-
--   Once you have enabled your resources for RSO, you need to set the latitude
+> [!NOTE]
+> - Once you have enabled your resources for RSO, you need to set the latitude
     and longitude for the resources’ organizational unit or personal address,
     depending on whether their start/end location is an organizational unit or a
     personal address.
-
--   Start location and end location should have the same setting. For example,
+> - Start location and end location should have the same setting. For example,
     you cannot have the start location be a personal address and the end
     location be location agnostic.
 
-![](media/636100d6aa13549867e07f2942ab151f.png)
+   ![](media/636100d6aa13549867e07f2942ab151f.png)
 
-1.  Configure BOOKING SETUP METADATA for the desired entity. To do this, set
+2. Configure BOOKING SETUP METADATA for the desired entity. To do this, set
     **Default Scheduling Method** to **Optimize**. For example, if enabled for
     work order entity’s booking setup metadata, every newly created work order
     and related resource requirement will be configured to optimize
     automatically.
 
-![](media/f0d624969f46a29e897670479a546ef6.png)
+    ![](media/f0d624969f46a29e897670479a546ef6.png)
 
-1.  For existing resource requirement records in your system, update Resource
+3. For existing resource requirement records in your system, update Resource
     Requirements Scheduling Method. To do this, go to **Resource Scheduling
     Optimization** \> **Resource Requirements,** navigate to the **Unscheduled
     Work Order Requirements** view, select some or all records, and click
     **EDIT** to bulk edit Optimize Schedule to YES.
 
-| **Note:** Work Location must be either On Site or Location Agnostic. If On Site is the requirement, you need to specify latitude and longitude. More details on this are available in section 5.12. |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    > [!NOTE]
+    > Work Location must be either On Site or Location Agnostic. If On Site is the requirement, you need to specify latitude and longitude. More details on this are available in section 5.12. 
 
+    ![](media/c6ddfd243951a9a69073065ebbf2e0cb.png)
 
-![](media/c6ddfd243951a9a69073065ebbf2e0cb.png)
-
-1.  Check **From Date** and **To Date** for resource requirements to make sure
+4. Check **From Date** and **To Date** for resource requirements to make sure
     the dates fall into the window you would like to schedule. You can use the
     bulk edit feature to update values for selected records as well.
 
-2.  Go to **Resource Scheduling Optimization** \> **Settings** \> **Booking
+5. Go to **Resource Scheduling Optimization** \> **Settings** \> **Booking
     Statuses** and configure **Scheduling Method** for booking status.
 
-![](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
+    ![](media/bba178b0bd68c83aee9bb87cb66f19cb.jpg)
 
->   Configure scheduling method for booking status
-
-| **Note:** Any booking status with an empty scheduling method will be treated as Do Not Move. |
-|----------------------------------------------------------------------------------------------|
-
-
--   **Optimize**: This means RSO is free to move this booking around. 
-
--   **Do Not Move**: This means RSO will not alter the booking (RSO will
+    > [!NOTE]
+    > Any booking status with an empty scheduling method will be treated as Do Not Move.
+    
+  - **Optimize**: This means RSO is free to move this booking around. 
+  - **Do Not Move**: This means RSO will not alter the booking (RSO will
     preserve the estimated arrival time and assigned resource. The booking’s
     start time and estimated travel duration may be changed if RSO schedules a
     booking in a new location before the Do Not Move booking). This operates the
     same as if the user set the booking to **Locked to resource + time** on the
     scheduling lock options field.
-
--   **Ignore**: RSO will completely ignore this booking. It will ignore for both
+  - **Ignore**: RSO will completely ignore this booking. It will ignore for both
     location and time, meaning there will be overlaps. It is as if the booking
     doesn’t exist. Use this when the booking status is in the state of proposed
     or canceled.
