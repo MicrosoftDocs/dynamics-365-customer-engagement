@@ -1,3 +1,21 @@
+---
+title: EntityReference | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: ad8659f7-f566-43db-bed1-c8484c114a59
+---
+
 # EntityReference
 
 <!-- CustomControlEntityReference -->
@@ -7,21 +25,21 @@
 
 ## entityType
 
-The entity type name
+The entity logical name. Read-only.
 
 **Type**: `string`
 
 
 ## id
 
-The record id.
+The record id. Read-only.
 
 **Type**: `string`
 
 
 ## name
 
-The entity type name.
+The name of the entity reference. Read-only.
 
 **Type**: `string`
 
