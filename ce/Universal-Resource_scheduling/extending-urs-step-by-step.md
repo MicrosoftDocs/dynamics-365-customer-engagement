@@ -189,7 +189,7 @@ The Retrieve Resources Query configuration is a [UFX Query](./Universal-FetchXML
 
 > The values selected in the Filter panel is passed as input to the query and is available in the XPath `$input` variable
 
-The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We are adding a FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. Here is the description of each element and attribute:
+The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We are adding a FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. Here is the description of each **`element`** and `attribute`:
 
 Name | Description
 --- | ---
