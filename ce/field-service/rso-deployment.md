@@ -1,3 +1,4 @@
+
 ---
 
 title: Deployment
@@ -21,20 +22,19 @@ Prerequisites
 1.  Purchase Plan 1 for Dynamics 365 and RSO licenses. RSO does not work on
     earlier versions of Dynamics 365 Online.
 
-| **Note:** At the time of this publication, a paid Plan 1 subscription is required for purchasing and enabling RSO. |
-|--------------------------------------------------------------------------------------------------------------------|
-
+> [!NOTE]
+> At the time of this publication, a paid Plan 1 subscription is required for purchasing and enabling RSO. 
 
 2.  Install Dynamics 365 for Field Service.
 
-![](media/70dc3d56ea79ba8554b8a6d1e8412453.png)
+    ![](media/70dc3d56ea79ba8554b8a6d1e8412453.png)
 
 1.  Under Purchase Services, find Resource Scheduling Optimization. After buying
     at least one Plan 1 user subscription, add RSO, which you will find under
     **Billing** \> **Purchase services**. Scroll down to find Dynamics 365 for
     Field Service, Enterprise Edition – Resource Scheduling Optimization.
 
-![](media/f2c51af5f406959188248862933fcecd.png)
+    ![](media/f2c51af5f406959188248862933fcecd.png)
 
 1.  The price of RSO is based on schedulable resources.
 
