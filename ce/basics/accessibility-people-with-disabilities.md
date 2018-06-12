@@ -5,12 +5,12 @@ keywords: Accessibility; keyboard shortcuts; Accessibility in customer enagageme
 applies_to: 
   - Dynamics 365 (online)
   - Dynamics 365 Version 8.x
-ms.author: kmcgrath
-manager: renwe
 ms.date: 05/30/2018
 ms.service: dynamics-365-crossapp
 ms.topic: article
-author: kathleenmcgrath
+author: "ReneeW-CPub"
+ms.author: "renwe"
+manager: "annbe"
 ms.assetid: c071a618-4574-4894-9ae5-74dac6443b0a
 ms.custom:
   - dyn365-a11y

@@ -7,9 +7,9 @@ applies_to:
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
-author: "kathleenmcgrath"
-ms.author: "kmcgrath"
-manager: "renwe"
+author: "ReneeW-CPub"
+ms.author: "renwe"
+manager: "annbe"
 ---
 
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
