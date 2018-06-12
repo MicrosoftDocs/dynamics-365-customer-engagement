@@ -1,3 +1,21 @@
+---
+title: UserSettings | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: c237ff96-9268-4068-9d61-aea0bdc79fc2
+---
+
 # UserSettings
 
 <!-- IUserSettings -->
@@ -11,15 +29,6 @@
 Date formatting information as retrieved from the server.
 
 **Type**: `DateFormattingInfo`
-
-
-
-## isHighContrastEnabled
-
-Whether High Contrast is enabled.
-
-**Type**: `boolean`
-
 
 
 ## isRTL
@@ -43,14 +52,6 @@ Current user's language id
 Number formatting information as retrieved from the server.
 
 **Type**: `NumberFormattingInfo`
-
-
-
-## pagingLimit
-
-Returns the paging limit of the user
-
-**Type**: `number`
 
 
 
