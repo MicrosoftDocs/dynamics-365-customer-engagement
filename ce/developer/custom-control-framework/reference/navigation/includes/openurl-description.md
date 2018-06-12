@@ -15,4 +15,4 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 7349a88f-670c-4233-9508-b46df988789b
 ---
-Open url, including file urls.
+Opens url, including file urls.
