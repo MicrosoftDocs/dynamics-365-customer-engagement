@@ -20,7 +20,6 @@ ms.assetid: 27a1e54c-71fe-450f-8f84-b4cc125970bf
 
 [!INCLUDE [openwebresource-description](includes/openwebresource-description.md)]
 
-
 ## Syntax
 
 `openWebResource(name, options, data)`
