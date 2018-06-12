@@ -26,7 +26,7 @@ ms.assetid: feb4e449-935f-452e-a67a-d3cf3c2bdcfb
 
 ## Return Value
 
-Type: `ILinkEntityExposedExpression`
+Type: [ILinkEntityExposedExpression](../ilinkentityexposedexpression.md)
 
 
 ### Related topics
