@@ -113,7 +113,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 ### Summary
 
-In the above steps we created the new Language entity and added new relationships to the Resource and Requirement entities.
+In the above steps, we created the new Language entity. We then added new relationships with the Resource and Requirement entities. Resources can be related to multiple languages, since we added a many to many relationship between Language and Resource. Requirements can be related to two Languages since we added two lookup attributes on Requirement entity pointing to the new Language entity.
 
 #### Adding Data
 
