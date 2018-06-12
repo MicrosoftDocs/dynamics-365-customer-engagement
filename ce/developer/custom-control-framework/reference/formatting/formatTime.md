@@ -1,18 +1,35 @@
+---
+title: formatTime | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 148964b5-106e-4f2e-8038-9086d29dc54f
+
+---
+
 # formatTime
 
 [!INCLUDE [formattime-description](includes/formattime-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
 
 ## Syntax
-`Name(param)`
+`formatTime(value: Date, behavior: FormattingApi.DateTimeFieldBehavior)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|value|`Date`|yes|The date to be formatted.|
+|behaviour|`FormattingApi.DAteTimeFieldBehaviour`|yes|The behaviour of the datetime object to be formatted.|
 
 ## Return Value
 
