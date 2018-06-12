@@ -25,21 +25,21 @@ RSO is one of three ways to schedule with Dynamics 365 for Field Service:
 1.  **Manual scheduling**: Drag and drop work order requirements from the bottom
     panel to the resource’s calendar above.
 
-  ![](media/29a8d922fb088fa1d668c598f6887e65.png)
+   ![](media/29a8d922fb088fa1d668c598f6887e65.png)
 
 1.  **Scheduling Assistant**: This allows you to filter resources on the left
     panel by travel range, skills, dates, roles, territories, and more. The
     system recommends available resources on the right and displays estimated
     travel times.
 
-  ![](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
+   ![](media/131ed6d21d96cbc0ccc5a730dcbe1bd0.png)
 
 1.  **Resource Scheduling Optimization**: This add-on evaluates routes and
     automatically schedules bookable records to minimize travel time and
     maximize working hours and more, based on your configured objectives, such
     as “minimize travel time” and “maximize working hours.”
 
-  ![](media/8cce1b1462b960eecac5012ad1a2d685.png)
+   ![](media/8cce1b1462b960eecac5012ad1a2d685.png)
 
 Benefits of using Resource Scheduling Optimization 
 ---------------------------------
