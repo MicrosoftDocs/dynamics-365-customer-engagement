@@ -15,4 +15,4 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 50c6cefa-8c1f-4f67-aa3f-de93dc12d3be
 ---
-Opens an HTML web resource. 
+Opens HTML web resource. 
