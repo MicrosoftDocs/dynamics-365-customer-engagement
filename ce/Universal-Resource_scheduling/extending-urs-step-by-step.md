@@ -117,7 +117,7 @@ In the above steps, we created the new Language entity. We then added new relati
 
 #### Adding Data
 
-Use Advanced Find to add new records to the Language entity. You can then associate Resource records to the new Language records by opening a Resource record and navigating to the Language relationship in the navigation bar. For Requirement records, you can fill in the new Required Language and Secondary Language fields.
+Use Advanced Find to add new records to the Language entity. You can then associate Resource records to the new Language records by opening a Resource record and navigating to the Language relationship in the navigation bar. For Requirement records, you can fill in the new Required Language and Secondary Language fields on the Requirement form.
 
 ## Customizing the Schedule Board
 
