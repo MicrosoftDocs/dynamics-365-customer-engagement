@@ -35,7 +35,6 @@ ms.assetid: bea56947-d976-4974-9ac7-2d5f5c7b6732
 
 Type: `Promise`
 
-
 ### Related topics
 
 [Navigation](../navigation.md)<br />
