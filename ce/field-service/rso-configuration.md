@@ -38,8 +38,8 @@ The following settings must be configured after deploying RSO.
 
     ![](media/c2e5f7299860832f2823f285d0fcd113.png)
 
-  > [!NOTE]
-  > Only a user with the System Administrator role can enable this. 
+    > [!NOTE]
+    > Only a user with the System Administrator role can enable this. 
 
 2. Go to **Settings** \> **Security** \> **Users**, navigate to the
     **Application Users** view, and assign the Field Service - Administrator
@@ -49,21 +49,16 @@ The following settings must be configured after deploying RSO.
     **Field Service – Administrator**, and add **Resource Scheduling
     Optimization** into the Field Security Profile.
 
-Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO:
+    > [!NOTE]
+    > Steps 2 and 3 help ensure that RSO is able to optimize work order-related requirements and bookings. For Field Service dispatchers who want to interact with RSO:
 
-1. Go to **Settings** \> **Security** \> **Users**.
-
-2. Locate the user or team of dispatchers.
-
-3. Click **Manage Roles**.
-
-4. Grant **RSO Dispatcher** a security role.
-
-5. Click **Save**.
-
-6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
-
-7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
+    > 1. Go to **Settings** \> **Security** \> **Users**.
+    > 2. Locate the user or team of dispatchers.
+    > 3. Click **Manage Roles**.
+    > 4. Grant **RSO Dispatcher** a security role.
+    > 5. Click **Save**.
+    > 6. Go to **Settings** \> **Security** \> **Field Security Profiles**.
+    > 7. Open **Resource Scheduling Optimization - Dispatcher** and add the user or
     team to the profile and then click **Save**.
 
 Settings to prepare data for optimization 
