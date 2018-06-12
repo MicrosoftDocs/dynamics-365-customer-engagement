@@ -109,7 +109,7 @@ To filter resources in the Schedule Board with the new Language constraint, we'l
 
 ### Filter Layout Configuration
 
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to made your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Filter Layout configuration is an XML layout definition to customize the layout of the Filter panel.
 
@@ -167,7 +167,7 @@ The board will reload and you will see the Filter panel in the left with the new
 
 ### Retrieve Resources Query Configuration
 
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Retrieve Resources Query configuration is a [UFX Query](./Universal-FetchXML.md) used by the Resource Matching API. It takes as input the values entered in the Filter panel and dynamically constructs the correct FetchXML to find matching resources.
 
@@ -278,7 +278,7 @@ Unlike the Schedule Board customizations, where each board can be individually c
 
 ### Schedule Assistant Filter Layout Configuration
 
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Schedule Assistant Filter Layout configuration, like the Schedule Board Filter Layout, defines the layout of the controls in the Filter panel. Since the Schedule Assistant uses more filters than the Schedule Board, like Start Time, End Time, Duration, etc., a different layout is used.
 
@@ -332,7 +332,7 @@ The board will reload. We need to change the Retrieve Constraints Query before w
 
 ### Retrieve Constraints Query Configuration
 
-> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Retrieve Constraints Query configuration is a [UFX Query](Universal-FetchXML.md) used by the Retrieve Requirement Constraints API. It takes as input the ID of a Requirement record (selected in the UI) and returns the Requirement record and all its child records.
 
