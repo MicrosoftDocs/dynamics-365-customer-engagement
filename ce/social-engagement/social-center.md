@@ -2,7 +2,7 @@
 title: "Streams in Social Center of Microsoft Social Engagement | Microsoft Docs"
 description: "Get started to work efficiently in Social Center."
 keywords: "social center, streams, post list, social engagement, engagement"
-ms.date: 12/08/2017
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -59,7 +59,7 @@ Social media runs at a fast pace. To keep up and collaborate efficiently, your p
   
 <a name="ShareStream"></a>   
 ## Share a stream  
- Share streams you own to enable seamless collaboration within your organization’s teams.  
+ Share streams you own to enable seamless collaboration within your organization’s teams. You need to have a Manager [interaction role](user-roles.md) to manage the sharing of streams.  
   
  Users or groups you share the stream with will always see the data the way you have configured it. If you change the data set for a shared stream, the displayed data will also change for the users the stream is shared with.  
   

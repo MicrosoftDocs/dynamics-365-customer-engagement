@@ -2,7 +2,7 @@
 title: "Archive - Social Engagement 2017 Update x.x | Microsoft Docs"
 description: "Archive of What's New updates for Social Engagement releases in 2017."
 keywords: "release notes, 2017, what's new"
-ms.date: 01/30/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -73,7 +73,7 @@ Explore the social engagement circle and social strategy, and look at brand repu
 
 ### New social post packs for Microsoft Social Engagement
 
-In addition to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the [Microsoft Products and Services Agreement (MPSA)](https://www.microsoft.com/Licensing/worldwide.aspx). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
+In addition to the 10,000 monthly post package for Microsoft Social Engagement, new packages with 100,000 and 1,000,000 monthly posts are now available as part of the Microsoft Products and Services Agreement (MPSA). The MPSA is a transactional licensing agreement for commercial, government, and academic organizations that have 250 or more users or devices.
 
 ### Service and product improvements
 
