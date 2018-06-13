@@ -180,7 +180,7 @@ The Resource Matching API receives as input the constraints property bag and que
 
 URS can be extended with custom resource constraints. Extending constraints work the same way as the ones build into URS, they are modeled as attributes and relationships in Dynamics 365.
 
-> A step by step guide with code samples needed for each step is described in [Extending URS to Find Resources by Required Language: A Step by Step Guide](extending-urs-step-by-step.md)
+> A step by step guide with code samples needed for each step is described in [Extending URS: Find Resources by Language - A Step by Step Guide](extending-urs-step-by-step.md)
 
 ### Custom Constraints
 
@@ -242,4 +242,4 @@ In the July 2017 update for URS, the Filter panel (#2 above) was updated to supp
 
 Another client side extensibility point made available in the July 2017 update is the resource cell. The resource cell is rendered through a customizable Handlebars.js template. The results from the Resource Matching API is made available to the template. Therefore, by customizing the query executed by the Resource Matching API, custom data can be rendered in the resource cell.
 
-> A step by step guide with code samples needed for each step is described in [Extending URS to Find Resources by Required Language: A Step by Step Guide](extending-urs-step-by-step.md)
+> A step by step guide with code samples needed for each step is described in [Extending URS: Find Resources by Language - A Step by Step Guide](extending-urs-step-by-step.md)
