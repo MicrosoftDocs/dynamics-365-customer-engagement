@@ -131,7 +131,7 @@ Name | Description
 `entity` | This entity's records will be displayed in the dropdown
 `multi` | Configures the dropdown to allow selecting a single record or multiple records
 
-> The default Filter layout shipped with URS is a large layout. For this exercise, we'll use only the Languages filter and remove all other filters.
+> Filter Layout:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -327,7 +327,7 @@ The complete Schedule Assistant Filter Layout
 1. Enter "Language Schedule Assistant Filter Layout" in the Name field and click Save. This creates a new configuration record and links this Schedule Board to the record.
 1. At the bottom of the dialog, click Apply
 
-The board will reload. We need to change the Retrieve Constraints Query before we can use the Schedule Assistant with our new Language constraints.
+The board will reload. Next, we need to change the Retrieve Constraints Query before we can use the Schedule Assistant with our new Language constraints, so that the Languages set on the Requirement are part of the Schedule Assistant search.
 
 ### Retrieve Constraints Query Configuration
 
@@ -341,7 +341,7 @@ The Retrieve Constraints Query configuration is a [UFX Query](Universal-FetchXML
 <Languages ufx:select="lookup-to-list(Requirement/lang_primarylanguage, Requirement/lang_secondarylanguage)" />
 ```
 
-UFX Queries are processed in sequential order. The Retrieve Constraints Query uses FetchXML to query the `Requirement (msdyn_resourcerequirement)` entity and assigns the result, a Requirement record, to the  `Requirement` property. We are adding to the constraints property bag a new property `Languages` that combine both attributes, the Primary Language and Secondary Language, into a single list of entities (EntityCollection). This is required since we are showing the Languages control in the Filter panel as a list of records. An alternative would be to create two separate controls in the Filter panel for the two attributes.
+UFX Queries are processed in sequential order. The Retrieve Constraints Query uses FetchXML to query the `Requirement (msdyn_resourcerequirement)` entity and assigns the result, a Requirement record, to the  `Requirement` property. We are adding to the constraints property bag a new property `Languages` that combines both attributes, the Primary Language and Secondary Language, into a single list of entities (EntityCollection). This is required since we are showing the Languages control in the Filter panel as a list of records. An alternative would be to create two separate controls in the Filter panel for the two attributes.
 
 Here is the description of each **`element`** and `attribute`:
 
@@ -350,7 +350,7 @@ Name | Description
 **`Languages`** | Create a new property in the result constraints property bag named `Languages`
 `ufx:select` | Assign the result of the XPath expression in this attribute to the `Languages` property. The `lang_primarylanguage` and `lang_secondarylanguage` properties, retrieved earlier in the query and available in the `Requirement` property, is passed to the `lookup-to-list` XPath function which converts multiple `lookup` properties to a single `list (EntityCollection)`
 
-The complete Retrieve Constraints Query
+Retrieve Constraints Query:
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -389,8 +389,8 @@ The complete Retrieve Constraints Query
 1. Locate the Schedule Assistant Retrieve Resources Query field and select the Languages Resources Query we created earlier for the Schedule Board Customizations
 1. At the bottom of the dialog, click Apply
 
-The board will reload with the updated configuration. Schedule Assistant filtering will now work. If you created Language records and associated them with Requirement records, you will now be able to select a Requirement record in the bottom of the Schedule Board, click Find Availability to open the Schedule Assistant, and see only resources matching the languages saved on the requirement are shown.
+The board will reload with the updated configuration. Schedule Assistant filtering will now work. If you created Language records and associated them with Requirement records, you will now be able to select a Requirement record in the bottom of the Schedule Board, click Find Availability to launch the Schedule Assistant, and see only resources matching the languages saved on the requirement.
 
 ### Summary
 
-In the above steps we modified the Filter panel in the Schedule Assistant to show a filter control for the Language entity. We also modified the Retrieve Constraints Query to query the new Language attributes and shape them into a list. When a user selects to find availability for a Requirement record, the Filter panel will show the captured Language constraints. The values from the Filter panel are passed into the Retrieve Resources query and the FetchXML query returns only matching resources.
+In the above steps we modified the Filter panel in the Schedule Assistant to show a filter control for the Language entity. We also modified the Retrieve Constraints Query to query the new Language attributes related to the Requirement entity, and shape them into a list. When a user selects to find availability for a Requirement record, the Filter panel will show the captured Language constraints. The values from the Filter panel are passed into the Retrieve Resources query and the FetchXML query returns only matching resources.
