@@ -17,4 +17,5 @@ ms.assetid: 73788966-b83c-4797-8062-8b12bf8409eb
 
 ---
 
+
 Use this function for any initial setup necessary for your control.
