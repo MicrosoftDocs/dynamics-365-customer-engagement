@@ -5,9 +5,9 @@ ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
 ms.assetid: c83c3a09-f04e-4dc6-8ddf-ccd0b4cc080e
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: "Nava kiran"
+ms.author: "nabuthuk"
+manager: "jdaly"
 ---
 # getOutputs
 
@@ -45,5 +45,5 @@ MyControl.prototype.getOutputs = function () {
 ### Related topics
 
 [Control](../control.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
