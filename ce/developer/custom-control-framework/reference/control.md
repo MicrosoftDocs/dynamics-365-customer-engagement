@@ -1,5 +1,5 @@
 ---
-title: "Control | MicrosoftDocs"
+title: StandardControl | MicrosoftDocs
 ms.date: 01/12/2018
 ms.service: "crm-online"
 ms.topic: "reference"
@@ -29,5 +29,5 @@ manager: "jdaly"
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
