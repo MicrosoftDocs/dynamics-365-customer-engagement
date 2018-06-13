@@ -34,7 +34,7 @@ Using the Filter panel to filter resources is one method of finding matching res
 
 ### Finding Available Resources with the Schedule Assistant
 
-In the bottom of the Schedule Board you'll find a list of Requirement records. You can select one of them and chose to find availability. This action opens the Schedule Assistant. The Schedule Assistant uses the constraints captured on the selected Requirement record to find matching resources that are available to be booked. Only resources matching the constraints on the Requirement and which are available in the requested time period specified on the Requirement are shown on the board.
+In the bottom of the Schedule Board you'll find a list of Requirement records. You can select one of them and choose to find availability. This action opens the Schedule Assistant. The Schedule Assistant uses the constraints captured on the selected Requirement record to find matching resources that are available to be booked. Only resources matching the constraints on the Requirement and which are available in the requested time period specified on the Requirement are shown on the board.
 
 A similar experience is available through a "Book" ribbon button available on the Requirement entity and other schedulable entities in Dynamics 365 list views or forms. When "Book" is clicked, the Schedule Assistant is opened showing resources matching the constraints of the selected Requirement record.
 
