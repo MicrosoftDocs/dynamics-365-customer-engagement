@@ -102,7 +102,6 @@ The column sorting for the current query.
 |[getViewId](dataset/getviewid.md)|[!INCLUDE [getviewid-description](dataset/includes/getviewid-description.md)]| 
 |[openDatasetItem](dataset/opendatasetitem.md)|[!INCLUDE [opendatasetitem-description](dataset/includes/opendatasetitem-description.md)]| 
 |[refresh](dataset/refresh.md)|[!INCLUDE [refresh-description](dataset/includes/refresh-description.md)]| 
-|[retrieveRecordCommand](dataset/retrieverecordcommand.md)|[!INCLUDE [retrieverecordcommand-description](dataset/includes/retrieverecordcommand-description.md)]| 
 |[setSelectedRecordIds](dataset/setselectedrecordids.md)|[!INCLUDE [setselectedrecordids-description](dataset/includes/setselectedrecordids-description.md)]| 
 
 ### Related topics
