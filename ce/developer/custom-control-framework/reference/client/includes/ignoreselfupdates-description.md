@@ -1,1 +1,0 @@
-Set to true if control should not receive update on the values modified by itself to avoid circular updates.
