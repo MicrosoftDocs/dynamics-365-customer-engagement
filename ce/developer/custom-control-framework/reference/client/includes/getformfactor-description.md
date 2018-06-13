@@ -3,7 +3,7 @@ title: getFormFactor | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -16,22 +16,7 @@ applies_to:
 ms.assetid: c8ff5a3c-d6e4-4b33-b63e-3604d3dc95dc
 ---
 
-[!INCLUDE [cc_applies_to_update_9_0_0]](../../../includes/cc_applies_to_update_9_0_0.md)
 
-Device form factor
+Device form factor.
 
-## Syntax 
-`getFormFactor()`
 
-## Return Value
-
-**Type**: `number`
-
-**Description**: Returns one of the following values
-
-|Value| Form Factor|
-|---|---|
-|0|Unknown|
-|1|Desktop|
-|2|Tablet|
-|3|Phone|
