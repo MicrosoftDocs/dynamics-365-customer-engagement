@@ -27,6 +27,6 @@ ms.assetid: 6c306633-14a1-4199-95cb-58000b3cafed
 
 ### Related topics
 
-[Filtering](../filtering.md)
+[Filtering](../filtering.md)<br/>
 [Custom Control Framework API Reference](../index.md)<br />
 [Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
