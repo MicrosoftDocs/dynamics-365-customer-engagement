@@ -33,6 +33,7 @@ The first line is new. The updated markup to hide the second row of text in the 
     <div class='booked-percentage'>{{BookedPercentage}}%</div>  
 {{/if}}
 ```
+>For more context, see this article - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/removed-resource-image
 
 <a name="april-2018"></a>
 ## April 2018
@@ -43,10 +44,11 @@ The first line is new. The updated markup to hide the second row of text in the 
 
 The default Retrieve Constraints Query shipped in this update includes a default value for the Ignore Proposed Bookings parameter used by the Schedule Assistant. To change the default value for this parameter, or if you have a custom Retrieve Constraints Query, update or add the below new property to the `Requirement` bag transformation part in your Retrieve Constraints Query configuration record.
 
-The added `IgnoreProposedBookings` property
+The added `IgnoreProposedBookings` property:
 ```xml
 <IgnoreProposedBookings ufx-type="bool">true</IgnoreProposedBookings> 
 ```
+>Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
 
 <a name="february-2018"></a>
 ## February 2018
@@ -61,6 +63,7 @@ The new `IgnoreProposedBookings` control
 ```xml
 <control type="boolean" key="Requirement/IgnoreProposedBookings" label-id="ScheduleAssistant.West.settingsform.IgnoreProposedBookings" />
 ```
+>Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
 <a name="december-2017"></a>
 ## December 2017
 
@@ -68,7 +71,7 @@ The new `IgnoreProposedBookings` control
 
 #### Schedule Board Visible Date Range
 
-Included in this update, the Retrieve Resources Query gets as input the visible date range of the board. This lets the query use the board's date range in its database queries. The default Retrieve Resources Query shipped in this update has not changed. However, you can now customize the query to depend on the board's visible date range.
+Included in this update, the Retrieve Resources Query gets as input the visible date range of the Schedule Board. This lets the query use the board's date range in its database queries. The default Retrieve Resources Query shipped in this update has not changed. However, you can now customize the query to depend on the board's visible date range.
 
 The updated input parameters available in the XPath `$input` variable are `ScheduleBoard/StartDate` and `ScheduleBoard/EndDate`.
 
@@ -94,6 +97,10 @@ The below snippet (not shipped) shows how the Resource Cell Template can then be
 ```html
 <div>Booking Count: {{bookingcount}}</div>
 ```
+>When changing the dates on the Schedule Board, the Resource Query is not automatically executed again. Rather, you must click the search button to re-execute the search using the new Schedule Board visible dates.
+
+>For more context, here is a blog post on the subject - https://blogs.msdn.microsoft.com/crm/2017/12/15/new-use-schedule-board-date-ranges-in-custom-queries-in-universal-resource-scheduling/
+
 
 ### Schedule Assistant Filter Layout
 
@@ -105,7 +112,7 @@ The new sort option
 ```xml
 <order name="totalavailabletime" entity="bookableresource" attribute="totalavailabletime" label-id="ScheduleAssistant.Center.slotsgrid.TotalAvailableTime" />
 ```
-
+>For more context on the scenario, here is a blog post - https://blogs.msdn.microsoft.com/crm/2017/12/15/sort-available-resources-by-total-available-time-in-universal-resource-scheduling/
 <a name="july-2017"></a>
 ## July 2017
 
