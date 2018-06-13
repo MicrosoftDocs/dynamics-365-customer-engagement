@@ -5,9 +5,9 @@ ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
 ms.assetid: 4485b7d4-c68f-4298-8676-1820eb33c1ad
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: "Nava kiran"
+ms.author: "nabuthuk"
+manager: "jdaly"
 ---
 # init
 
@@ -27,7 +27,7 @@ manager: "amyla"
 | ------------- |----|--------|-----------|
 |context|[Context](../context.md)|yes|The *Input Properties* containing the parameters, control metadata and interface functions.|
 |notifyOutputChanged|`function`|no|The method for this control to notify the framework that it has new outputs|
-|state|[KeyValuePair](../keyvaluepair.md)|no|The control state for this control saved from setState in the last session|
+|state|[KeyValuePair](../keyvaluepair.md)|no|The control state for this control saved from *setControlState* in the last session|
 |container|[HTMLDivElement](https://developer.mozilla.org/docs/Web/API/HTMLDivElement)|no|The div element to render|
 
 
@@ -36,5 +36,5 @@ manager: "amyla"
 ### Related topics
 
 [Control](../control.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../custom-control-framework-overview.md)<br />
