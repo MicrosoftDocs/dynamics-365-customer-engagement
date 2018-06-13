@@ -131,7 +131,7 @@ Name | Description
 `entity` | This entity's records will be displayed in the dropdown
 `multi` | Configures the dropdown to allow selecting a single record or multiple records
 
-The complete Filter Layout
+> The default Filter layout shipped with URS is a large layout. For this exercise, we'll use only the Languages filter and remove all other filters.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
