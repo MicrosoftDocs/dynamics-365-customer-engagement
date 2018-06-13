@@ -1,1 +1,0 @@
-Make the control full screen.
