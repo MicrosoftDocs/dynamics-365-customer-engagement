@@ -1,1 +1,19 @@
-This method will re-render the control with the updated values after the function you set in the  [Control](../../control.md).[init](../init.md)*`NotifyOutputChanged`* parameter.
+---
+title: UpdateView | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: 
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 5054e324-d95b-4378-9ab5-73fc8919e90c
+---
+
+This method will be called when any value in the property bag has changed. This includes field values, data-sets, global values such as container height and width, offline status, control metadata values such as label, visible, etc.
