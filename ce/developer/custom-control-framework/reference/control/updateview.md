@@ -5,9 +5,9 @@ ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
 ms.assetid: 899d6eb3-62b4-4c1f-947c-aed1f8643caa
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: "Nava kiran"
+ms.author: "nabuthuk"
+manager: "jdaly"
 ---
 # updateView
 
@@ -37,5 +37,5 @@ Set the value of the field control to the raw value from the configured field
 ### Related topics
 
 [Control](../control.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
