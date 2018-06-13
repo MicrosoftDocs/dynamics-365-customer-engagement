@@ -30,9 +30,9 @@ Protecting data, preserving privacy, and complying with regulations such as the 
 This topic covers how you can set [!INCLUDE [pn-ms-dyn-365](../includes/pn-ms-dyn-365.md)] to audit a broad range of data processing activities and use the [Office 365 Security and Compliance Center](https://support.office.com/en-us/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US) to review the data in activity reports.
 
 ## Requirements
-An Office 365 Enterprise [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) or [E5](https://products.office.com/business/office-365-enterprise-e5-business-software) subscription is required to do Activity Logging.
-
-For version 8.x, version 8.2.2.1310 or later is required.
+- An Office 365 Enterprise [E3](https://products.office.com/business/office-365-enterprise-e3-business-software) or [E5](https://products.office.com/business/office-365-enterprise-e5-business-software) subscription is required to do Activity Logging.
+- For version 8.x, version 8.2.2.1310 or later is required.
+- Available for production and not Sandbox instances.
 
 ## How this differs from past audit logging
 Audit logging as described in [Audit data and user activity for security and compliance](audit-data-user-activity.md) covers enabling and viewing logging for specific entities and attributes which you select. What is logged is largely based on the context of the activity. Open a record and activities such as who created the record, what values were entered and changed, who updated it, etc, are logged for that particular record.
