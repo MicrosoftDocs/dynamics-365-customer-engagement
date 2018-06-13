@@ -24,7 +24,7 @@ You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest]
   
 <a name="BKMK_Snapshot"></a>   
 ## View a snapshot of service health  
- [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can see a quick snapshot of service health for some of your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. Click **Health** > **Service health** to get more information on all your services.  
+ [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can see a quick snapshot of service health for some of your [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. Click **Service health** to get more information on all your services.  
   
  ![Office 365 Admin Center service health dashboard](../admin/media/office-365-admin-center-service-health-dashboard.png "Office 365 Admin Center service health dashboard")  
   
@@ -35,13 +35,13 @@ You can quickly get a real-time status of your [!INCLUDE[pn_crm_online_shortest]
  ![Office 365 Admin Center service issue](../admin/media/office-365-admin-center-service-issue.png "Office 365 Admin Center service issue")  
   
 ## View service health history  
- Click **Health** > **Service health** >**View history** to see a calendar with the past 30 days of service. Select a date and see service health status and details for that day. You might need to click **Go to the v2 Service Health page** first.  
+ Click **View history** in the upper right to view the past 7 or the past 30 days of service. Select an item to see service health status and details for that item.
   
  ![Office 365 Admin Center service health history](../admin/media/office-365-admin-center-service-health-history.png "Office 365 Admin Center service health history")  
   
 <a name="BKMK_PlannedMaintenance"></a>   
 ## View planned maintenance  
- Click **Health** > **Message center** to see if there are any scheduled events for your online service and to view other informative messages.  
+ Click the **Message center** on your home dashboard to see if there are any scheduled events for your online service and to view other informative messages.  
   
  ![Office 365 Admin Center Message Center](../admin/media/office-365-admin-center-message-center.png "Office 365 Admin Center Message Center")  
   
