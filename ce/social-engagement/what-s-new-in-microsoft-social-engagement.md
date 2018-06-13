@@ -2,7 +2,7 @@
 title: "What's new in Microsoft Social Engagement | Microsoft Docs"
 description: "Learn about the recent changes and new features in Social Engagement."
 keywords: "news, product updates, product improvements, service updates"
-ms.date: 05/08/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -25,6 +25,45 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.6
+
+### Change of permissions for newly invited users
+
+When an administrator [assigns a Social Engagement license](assign-user-roles.md) to a user, this user will get Power Analyst and Responder permissions. This enables users to create search topics and engage in conversations with other authors. Administrators can [change the permissions](user-roles.md) at any time according to their business requirements. 
+
+### Reduction of retention time for Social Content to 15 months
+
+On June 16, 2018, [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will reduce the [retention time of Social Content](data-retention-social-engagement.md) to 15 months. This means that posts older than 15 months won’t be available in your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution anymore. If you need to keep track of older data for reporting purposes, you can [export the data](analyze-social-data-using-widgets.md#export-data-from-widgets) before it gets deleted automatically. 
+
+### Disabling TLS 1.0 and TLS 1.1 in [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]
+
+The [Transport Layer Security (TLS) protocol](https://msdn.microsoft.com/en-us/library/windows/desktop/ms721627(v=vs.85).aspx#_security_transport_layer_security_protocol_gly) is most widely recognized as the protocol that provides secure HTTP (HTTPS) for connections between web browsers and web servers. The TLS 1.0 protocol version was defined in 1999. While no longer the default security protocol in use by modern operating systems, TLS 1.0 is still supported for backward compatibility. The same applies for TLS 1.1. 
+[!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] will remove the support of TLS 1.0 and TLS 1.1 in order to align with [!INCLUDE [cc-microsoft](../includes/cc-microsoft.md)] compliance requirements and security best practices.
+
+#### What is the impact?
+
+After [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] disables TLS 1.0 and TLS 1.1, any connections to the service that rely on those versions will fail.
+
+#### How to avoid interruptions in the user experience
+
+We recommend switching to a browser supporting TLS 1.2.
+All major browser (Edge, Internet Explorer, Firefox, Chrome, Safari, Opera) releases after April 2016 support TLS 1.2.
+
+| Browser |  | Version| Remarks |
+|---------|---|--------|---------|
+|Microsoft Edge| equals or higher |12.10240| Compatible by [default](https://developer.microsoft.com/en-us/microsoft-edge/platform/status/tls12/?q=TLS%201.2)|
+|Internet Explorer | | 11 | Enabled by default, Desktop & Mobile |
+|Firefox | equals or higher | 27 | [Release notes](http://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-US/firefox/27.0/releasenotes/?flang=es-MX), all operating systems  |
+|Chrome | equals or higher| 29 | [Details](https://bugs.chromium.org/p/chromium/issues/detail?id=90392#c28), all operating systems |
+|Safari | equals or higher | 7 | |
+|Opera  | equals or higher | 12 | [Release notes](https://blogs.opera.com/security/2016/02/opera-12-and-opera-mail-security-update/) |
+|Android OS Browser |equals or higher |  Android 5.0 (Lollipop) | Compatible by default |
+|Mobile Safari | equals or higher | 5 for iOS 5 or higher| Compatible by default |
+
+#### Related information
+
+[TLS 1.2 support at Microsoft](https://blogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.5
 
 ### Attachments in private messages now show in the post list
@@ -36,6 +75,7 @@ Social Engagement now shows attached images and videos in private messages on Fa
 ### Refreshed visuals for Social Insights in Dynamics 365 Customer Engagement
 
 The integration of Social Insights in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-shortest.md)] forms and dashboards now comes with new and updated visuals. The existing charts and visuals now reflect the latest user interface of [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] and inherit several settings from [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)]. Due to this change, we have deprecated some widgets such as Analytics Summary. You can reconfigure to remove or replace such widgets. 
+
 The steps to [set up and configure Social Insights in Dynamics 365](integrate-social-engagement-dynamics-365.md) are now available in the help center. 
 
 ### See which Facebook page a post is coming from and reply consistently
