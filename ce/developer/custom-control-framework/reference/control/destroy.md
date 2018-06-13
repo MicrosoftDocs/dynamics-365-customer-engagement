@@ -5,9 +5,9 @@ ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
 ms.assetid: ba66b513-2a7b-4ba6-b2d5-446ea2b42fdb
-author: "JimDaly"
-ms.author: "jdaly"
-manager: "amyla"
+author: ""
+ms.author: "nabuthuk"
+manager: "jdaly"
 ---
 # destroy
 
@@ -29,5 +29,5 @@ MyControl.prototype.destroy = function () {
 ### Related topics
 
 [Control](../control.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
