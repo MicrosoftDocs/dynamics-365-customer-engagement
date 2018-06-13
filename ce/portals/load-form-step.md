@@ -53,7 +53,7 @@ This step type allows the web form step to act as an entity form within the over
 
 | Name                      | Description                                                                                                                                                                       |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Add Captcha               | reCAPTCHA is a free CAPTCHA service used by the portal to prevent malicious spam attacks. The service requires a unique key to authenticate requests for your portal application. |
+| Add Captcha               | Portal uses RadCaptcha by Telerik to prevent malicious spam attacks. The service requires a unique key to authenticate requests for your portal application. |
 | Validation Group          | The group name assigned to input controls for evaluating valid input of named groups.                                                                                             |
 | Previous Button CSS Class | CSS Class name assigned to the Previous button.                                                                                                                                   |
 | Previous Button Text      | Label on the previous button.                                                                                                                                                     |
