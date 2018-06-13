@@ -262,6 +262,18 @@ OData-Version: 4.0
 HTTP/1.1 204 No Content
 OData-Version: 4.0
 ```
+
+## Community tools
+
+### Auto Number Manager
+
+**Auto Number Manager** for XrmToolBox is a community driven tool for [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement that provides a UI to set, update and remove auto number format on new or existing attributes.
+Please see the [Developer tools](developer-tools.md) topic for community developed tools and [anm.xrmtoolbox.com](http://anm.xrmtoolbox.com) for more information about Auto Number Manager.
+
+> [!NOTE]
+> The community tools are not a product of [!include[pn_microsoft_dynamics](../includes/pn-microsoft-dynamics.md)] and does not extend support to the community tools. 
+> If you have questions pertaining to the tool, please contact the publisher. More Information: [XrmToolBox](https://www.xrmtoolbox.com). 
+
 ### See Also
 [Metadata and data models](metadata-data-models.md)  
 [Customize entity attribute metadata](customize-entity-attribute-metadata.md) 
