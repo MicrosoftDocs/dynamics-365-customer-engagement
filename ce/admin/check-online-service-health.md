@@ -61,7 +61,7 @@ If your company has multiple instances of [!INCLUDE[pn_crm_online_shortest](../i
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3. Choose the **Service Health** tab.  
+3. Select the **Service Health** tab.  
   
 ![View health of individual instances](../admin/media/o365-instance-health.png "View health of individual instances")  
   
