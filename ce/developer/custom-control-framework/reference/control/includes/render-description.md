@@ -1,1 +1,0 @@
-Placeholder description: ce\developer\custom-control-framework\reference\control\includes\render-description.md
