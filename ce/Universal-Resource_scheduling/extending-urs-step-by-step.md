@@ -164,40 +164,69 @@ Next, we will create a new configuration record which stores filter layouts and 
 
 The board will reload and you will see the Filter panel in the left with the new layout; only the Languages filter will be available. Filtering will not work yet, as we need to update the Retrieve Resources Query to take advantage of the new filter.
 
+<a name="retrieve-resources-query-configuration"></a>
 ### Retrieve Resources Query Configuration
 
 > For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Retrieve Resources Query configuration is a [UFX Query](./Universal-FetchXML.md) used by the Resource Matching API. It takes as input the values entered in the Filter panel and dynamically constructs the correct FetchXML to find matching resources.
 
-> Below is the snippet that will be added to the Retrieve Resources Query to include the Resources' Languages.
+> Below is the snippet that will be added to the Retrieve Resources Query to match by the Resources' Languages.
 
 ```xml
-<link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" ufx:if="$input/Languages/bag">
-  <filter type="and">
-    <condition operator="in" attribute="lang_languageid">
-      <ufx:apply select="$input/Languages/bag">
+<link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_primary" link-type="outer" ufx:if="$input/Languages/bag[1]">
+  <attribute name="lang_languageid" alias="lang_primary" groupby="true" />
+
+  <filter>
+    <condition attribute="lang_languageid" operator="eq">
+      <ufx:value select="$input/Languages/bag[1]/@ufx-id" attribute="value" />
+    </condition>          
+  </filter>
+</link-entity>
+
+<link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_secondary" link-type="outer" ufx:if="$input/Languages/bag[2]">
+  <attribute name="lang_languageid" alias="lang_secondary" groupby="true" />
+
+  <filter>
+    <condition attribute="lang_languageid" operator="eq">
+      <ufx:value select="$input/Languages/bag[2]/@ufx-id" attribute="value" />
+    </condition>          
+  </filter>
+</link-entity>
+
+<link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_others" link-type="outer" ufx:if="$input/Languages/bag[position() > 2]">
+
+  <filter>
+    <condition attribute="lang_languageid" operator="in">
+      <ufx:apply select="$input/Languages/bag[position() > 2]">
         <value>
           <ufx:value select="@ufx-id" />
         </value>
       </ufx:apply>
-    </condition>
+    </condition>            
   </filter>
-</link-entity>
+</link-entity>        
+
+<filter type="or">
+  <condition entityname="lang_primary" attribute="lang_languageid" operator="not-null" ufx:if="$input/Languages/bag[1]" />
+  <condition entityname="lang_secondary" attribute="lang_languageid" operator="not-null" ufx:if="$input/Languages/bag[2]" />
+  <condition entityname="lang_others" attribute="lang_languageid" operator="not-null" ufx:if="$input/Languages/bag[position() > 2]" />          
+</filter>
 ```
 
 > The values selected in the Filter panel is passed as input to the query and is available in the XPath `$input` variable
 
-The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We are adding a FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. Here is the description of each **`element`** and `attribute`:
+The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We are using the FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. To support showing the matched languages and ordering by primary or secondary language, described later in the section [Resource Cell Template](#resource-cell-template-configuration), we are using multiple `link-entity` joins. Here is the description of each **`element`** and `attribute`:
 
 Name | Description
 --- | ---
 **`link-entity`** | Create a join to the many-to-many relationship between the Resource and Language entities
 `ufx:if` | Only emit this FetchXML element (`link-entity`) if the XPath expression in this attribute returns a value
-**`filter`** and **`condition`** | Filter the many-to-many relationship records with an `in` condition to only the ones that match the specified Language IDs
+**`filter`** and **`condition`** | Filter the many-to-many relationship records to only the ones that match the specified Language IDs
+**`attribute`** | Return the primary or secondary language matched
+**`ufx:value`** and `select` | Outputs the result of the XPath expression in the `select` attribute
 **`ufx:apply`** and `select` | Emit the child FetchXML elements for each result returned from the XPath expression in the `select` attribute
 **`value`** | Contains the ID of a Language record
-**`ufx:value`** and `select` | Outputs the result of the XPath expression in the `select` attribute
 
 > The default Retrieve Resources Query shipped with URS is a large query that supports all the resource constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
 
@@ -214,17 +243,44 @@ Name | Description
         <attribute name="msdyn_startlocation" alias="startlocation" groupby="true"/>
 
         <!-- Language join -->
-        <link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" ufx:if="$input/Languages/bag">
-          <filter type="and">
-            <condition operator="in" attribute="lang_languageid">
-              <ufx:apply select="$input/Languages/bag">
+        <link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_primary" link-type="outer" ufx:if="$input/Languages/bag[1]">
+          <attribute name="lang_languageid" alias="lang_primary" groupby="true" />
+          
+          <filter>
+            <condition attribute="lang_languageid" operator="eq">
+              <ufx:value select="$input/Languages/bag[1]/@ufx-id" attribute="value" />
+            </condition>          
+          </filter>
+        </link-entity>
+
+        <link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_secondary" link-type="outer" ufx:if="$input/Languages/bag[2]">
+          <attribute name="lang_languageid" alias="lang_secondary" groupby="true" />
+          
+          <filter>
+            <condition attribute="lang_languageid" operator="eq">
+              <ufx:value select="$input/Languages/bag[2]/@ufx-id" attribute="value" />
+            </condition>          
+          </filter>
+        </link-entity>
+        
+        <link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_others" link-type="outer" ufx:if="$input/Languages/bag[position() > 2]">
+          
+          <filter>
+            <condition attribute="lang_languageid" operator="in">
+              <ufx:apply select="$input/Languages/bag[position() > 2]">
                 <value>
                   <ufx:value select="@ufx-id" />
                 </value>
               </ufx:apply>
-            </condition>
+            </condition>            
           </filter>
-        </link-entity>
+        </link-entity>        
+        
+        <filter type="or">
+          <condition entityname="lang_primary" attribute="lang_languageid" operator="not-null" ufx:if="$input/Languages/bag[1]" />
+          <condition entityname="lang_secondary" attribute="lang_languageid" operator="not-null" ufx:if="$input/Languages/bag[2]" />
+          <condition entityname="lang_others" attribute="lang_languageid" operator="not-null" ufx:if="$input/Languages/bag[position() > 2]" />          
+        </filter>
         
         <link-entity name="systemuser" from="systemuserid" to="userid" link-type="outer">
           <attribute name="systemuserid" alias="systemuserid" groupby="true" />
@@ -390,6 +446,72 @@ Retrieve Constraints Query:
 1. At the bottom of the dialog, click Apply
 
 The board will reload with the updated configuration. Schedule Assistant filtering will now work. If you created Language records and associated them with Requirement records, you will now be able to select a Requirement record in the bottom of the Schedule Board, click Find Availability to launch the Schedule Assistant, and see only resources matching the languages saved on the requirement.
+
+<a name="resource-cell-template-configuration"></a>
+### Resource Cell Template Configuration
+
+> For the below steps, it is helpful to use a text editor that supports HTML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+
+The Resource Cell Template configuration is a [Handlebars](https://handlebarsjs.com/) template used to render content in the resource cell. The output from the Retrieve Resources Query is available to the template.
+
+We are modifying the default resource template to show a green ✔✱ indicator if the resource matched the primary and secondary languages, a green ✔ indicator if the resource only matched the primary language, and a yellow ✔ indicator if the resource matched only the secondary language.
+
+```html
+{{#if lang_primary}}
+<span style='color:green;'>&#10004;{{#if lang_secondary}} &#10033;{{/if}}</span>
+{{else if lang_secondary}}
+<span style='color:#ffe700;'>&#10004;</span>
+{{/if}} 
+```
+
+The `lang_primary` and `lang_secondary` properties are returned from our custom [Retrieve Resources Query](#retrieve-resources-query-configuration) we setup above. Consult the [Handlebars](https://handlebarsjs.com/) website for documentation on the templating syntax.
+
+Resource Cell Template:
+
+```html
+<div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
+	{{#if imagepath}}
+	<img class='resource-image' src='{{client-url}}{{imagepath}}' />
+	{{else}}
+	<div class='resource-image unknown-resource'></div>
+	{{/if}}
+	<div class='resource-info'>
+		<div class='resource-name primary-text ellipsis' title='{{name}}'>{{name}}</div>
+		<div class='secondary-text ellipsis'>
+			{{#if (eq (is-sa-grid-view) false) }}
+			<div class='booked-duration'>{{BookedDuration}}</div>
+			<div class='booked-percentage'>
+				{{BookedPercentage}}%
+				
+				{{#if lang_primary}}
+				<span style='color:green;'>&#10004;{{#if lang_secondary}} &#10033;{{/if}}</span>
+				{{else if lang_secondary}}
+				<span style='color:#ffe700;'>&#10004;</span>
+				{{/if}}            
+			</div>
+			{{/if}}
+		</div>
+		{{#if (eq (is-sa-grid-view) false) }}
+		<div class='matching-indicator'></div>
+		{{/if}}
+	</div>
+	{{#if (eq (is-sa-grid-view) false) }}
+	{{> resource-map-pin-template this }}
+	{{/if}}
+</div>
+```
+
+#### Update the Resource Cell Template
+
+1. In the top right, double click the Language tab
+1. In the top right, click Open Default Settings
+1. Scroll to the Schedule Types section and select None in the left list
+1. Locate the Schedule Assistant Resource Cell Template field, click the button to the right to open the editor
+1. Update the Value field with the Resource Cell Template code above and click Save As
+1. Enter "Language Resource Cell Template" in the Name field and click Save. This creates a new configuration record and links this Schedule Board to the record.
+1. At the bottom of the dialog, click Apply
+
+The board will reload with the updated configuration. The resource cell will now indicate how a resource matched the language constraint in the Filter panel.
 
 ### Summary
 
