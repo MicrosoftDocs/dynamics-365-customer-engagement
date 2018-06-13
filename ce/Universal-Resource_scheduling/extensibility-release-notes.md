@@ -15,7 +15,7 @@
 
 The default Resource Cell Template shipped in this update includes support for automatically hiding the resource image if the resource row in the Schedule Board is configured to a small height. If you have a custom Resource Cell Template, add the below template updates to your Resource Cell Template configuration record.
 
-The updated markup to hide the resource image. The first and last line are new.
+The first and last line are newly introduced to light up the functionality. The updated markup to hide the resource image:
 ```html
 {{#if (or (eq (is-sa-grid-view) true) (eq (is-row-small) false)) }}
     {{#if imagepath}}
@@ -26,7 +26,7 @@ The updated markup to hide the resource image. The first and last line are new.
 {{/if}}
 ```
 
-The update markup to hide the second row of text in the template. The first line is new.
+The first line is new. The updated markup to hide the second row of text in the template: 
 ```html
 {{#if (and (eq (is-sa-grid-view) false) (eq (is-row-small) false)) }} 
     <div class='booked-duration'>{{BookedDuration}}<div class='fo-sch-clock'></div></div>
