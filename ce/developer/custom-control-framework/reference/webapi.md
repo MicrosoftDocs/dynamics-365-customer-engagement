@@ -33,11 +33,7 @@ ms.assetid: f6e1aca7-7415-42a2-8ca2-44c962cdc90a
 |[retrieveMultipleRecords](webapi/retrievemultiplerecords.md)|[!INCLUDE [retrievemultiplerecords-description](webapi/includes/retrievemultiplerecords-description.md)]|
 |[retrieveRecord](webapi/retrieverecord.md)|[!INCLUDE [retrieverecord-description](webapi/includes/retrieverecord-description.md)]|
 |[updateRecord](webapi/updaterecord.md)|[!INCLUDE [updaterecord-description](webapi/includes/updaterecord-description.md)]|
-<!--|[execute](webapi/execute.md)|[!INCLUDE [execute-description](webapi/includes/execute-description.md)]|-->
-<!--|[executeMultiple](webapi/executemultiple.md)|[!INCLUDE [executemultiple-description](webapi/includes/executemultiple-description.md)]|
-|[retrieveMultipleRecords](webapi/retrievemultiplerecords.md)|[!INCLUDE [retrievemultiplerecords-description](webapi/includes/retrievemultiplerecords-description.md)]|
-|[retrieveRecord](webapi/retrieverecord.md)|[!INCLUDE [retrieverecord-description](webapi/includes/retrieverecord-description.md)]|
-|[updateRecord](webapi/updaterecord.md)|[!INCLUDE [updaterecord-description](webapi/includes/updaterecord-description.md)]|-->
+
 
 ### Related topics
 
