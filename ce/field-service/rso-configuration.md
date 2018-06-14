@@ -371,7 +371,7 @@ You can define how bookings should be optimized (constraints and objectives). Th
     would lose the lock information defined on the booking record, which can’t
     be retrieved from the backing requirement.
     > [!div class="mx-imgBorder"]
-    > ![](media/c26b87771f6bd1cf5954a261a1b09736.png)
+    > ![](media/rso-edgar-dominquez.png)
 
 - **High priority requirements**: RSO will evaluate this objective and give
     priority to the resource/booking combination with the highest score for
