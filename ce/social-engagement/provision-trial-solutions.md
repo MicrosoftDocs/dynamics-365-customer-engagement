@@ -33,7 +33,7 @@ To create a new Office 365 tenant for your trial, review [Create a new Office 36
 3. Don't enter any data on the **Welcome, let's get zo know you** page. Simply select the **Sign in** button.
 4. Enter your admin credentials for the Office 365 tenant you want to add the trial solution to.
 5. Select **Sign in**.
-6. Confirm the order and select **Try now**.
+6. Confirm the order and select **Try now**.   
    > [!NOTE]
    > Trials are free of charge.
 7. Select **Continue**
@@ -50,7 +50,7 @@ To create a new Office 365 tenant for your trial, review [Create a new Office 36
    - [Edge](https://support.microsoft.com/help/4026200/windows-browse-inprivate-in-microsoft-edge)
    - [Mozilla Firefox](https://support.mozilla.org/kb/private-browsing-use-firefox-without-history)
    - [Google Chrome](https://support.google.com/chrome/answer/95464)
-3. On the **Welcome, let's get zo know you** page fill in the required information and select **Just one more step**.
+3. On the **Welcome, let's get zo know you** page fill in the required information and select **Just one more step**.   
    > [!NOTE]
    > The provided **Business email address** will be used to send your new user credentials after successful provisioning.   
 4. On the **Create your user ID** page fill in the required information and select **Create my account**.
