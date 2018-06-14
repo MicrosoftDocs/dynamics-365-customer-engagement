@@ -24,8 +24,7 @@ ms.assetid: 418871c0-59dc-4a7c-a8f9-9364a19f7662
 
 Designates a record that will provide default values based on mapped attribute value. The lookup object has following properties: entity type, id and name.
 
-## entityID
-
+## entity
 Unique Id of the entity record to display the form for. 
 
 **Type**: `string`
@@ -80,5 +79,5 @@ The windowPosition value is a number with the following possible values
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
