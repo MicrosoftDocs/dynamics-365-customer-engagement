@@ -1,6 +1,6 @@
 ---
-title: "Custom Control Framework API Reference for Dynamics 365 Customer Engagement | MicrosoftDocs"
-description: "The topic provides Custom Control Framework API reference for Dynamics 365 Customer Engagement."
+title: "PowerApps Control Framework API Reference for Dynamics 365 Customer Engagement | MicrosoftDocs"
+description: "The topic provides PowerApps Control Framework API reference for Dynamics 365 Customer Engagement."
 ms.date: 01/12/2018
 ms.service: "crm-online"
 ms.topic: "index-page"
@@ -8,7 +8,7 @@ ms.assetid: 7da1b8e9-97af-4acb-a393-2e09caf86fc2
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 
-author: "JimDaly"
+author: "nabuthuk"
 ms.author: "jdaly"
 manager: "amyla"
 ---
@@ -31,24 +31,20 @@ This section contains reference documentation for creating custom controls using
 |[EntityReference](entityreference.md)|[!INCLUDE [entityreference-description](includes/entityreference-description.md)]|
 |[Factory](factory.md)|[!INCLUDE [factory-description](includes/factory-description.md)]|
 |[KeyValuePair](keyvaluepair.md)|[!INCLUDE [keyvaluepair-description](includes/keyvaluepair-description.md)]|
-|[LinkEntity](linkentity.md)|[!INCLUDE [linkentity-description](includes/linkentity-description.md)]|
 |[Linking](linking.md)|[!INCLUDE [linking-description](includes/linking-description.md)]|
 |[Formatting](formatting.md)|[!INCLUDE [formatting-description](includes/formatting-description.md)]|
 |[Mode](mode.md)|[!INCLUDE [mode-description](includes/mode-description.md)]|
 |[Navigation](navigation.md)|[!INCLUDE [navigation-description](includes/navigation-description.md)]|
 |[NumberFormattingInfo](numberformattinginfo.md)|[!INCLUDE [numberformattinginfo-description](includes/numberformattinginfo-description.md)]|
-|[OrgSettings](orgsettings.md)|[!INCLUDE [orgsettings-description](includes/orgsettings-description.md)]|
-|[Page](page.md)|[!INCLUDE [page-description](includes/page-description.md)]|
 |[Paging](paging.md)|[!INCLUDE [paging-description](includes/paging-description.md)]|
 |[Popup](popup.md)|[!INCLUDE [popup-description](includes/popup-description.md)]|
 |[PopupService](popupservice.md)|[!INCLUDE [popupservice-description](includes/popupservice-description.md)]|
 |[Resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 |[Sort](sort.md)|[!INCLUDE [sort-description](includes/sort-description.md)]|
-|[Theming](theming.md)|[!INCLUDE [theming-description](includes/theming-description.md)]|
-|[ThemingColors](themingcolors.md)|[!INCLUDE [themingcolors-description](includes/themingcolors-description.md)]|
 |[UserSettings](usersettings.md)|[!INCLUDE [usersettings-description](includes/usersettings-description.md)]|
 |[Utility](utility.md)|[!INCLUDE [utility-description](includes/utility-description.md)]|
+|[WebApi](webapi.md)|[! INCLUDE [webapi-description](includes/webapi-ddescription.md)]|
 
 ### Related topics
 
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework Overview](../custom-control-framework-overview.md)
