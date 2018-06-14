@@ -3,7 +3,7 @@ title: addLinkedEtity | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -36,5 +36,5 @@ ms.assetid: 05fd8a07-e850-4b56-9c8b-70ef3a35cf4d
 ### Related topics
 
 [Linking](../linking.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
