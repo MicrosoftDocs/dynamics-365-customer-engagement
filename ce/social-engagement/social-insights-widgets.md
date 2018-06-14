@@ -2,19 +2,16 @@
 title: "Social Insights widgets in Dynamics 365 from Social Engagement | Microsoft Docs"
 description: "Find out which Social Insights widgets are available to show on forms in Dynamics 365."
 keywords: "widget, visualization, social insights, social engagement"
-ms.date: 05/30/2018
-ms.service: mse
+ms.date: 06/30/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
-  - "Social Engagement - update"
+  - "Social Engagement"
 ms.assetid: b2a35d49-bcd1-430e-bc76-98cf6350d005
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ---
-
-<!--To author: Be sure to update publication date-->
 
 # Work with widgets in Social Insights
 
@@ -90,25 +87,25 @@ Find out who are the five most active authors posting the most about your search
 
 ### Recent posts
 
-See an excerpt of the five most recent posts matching your dataset. Keep in mind that you can always switch to the full experience of Social Engagement to see all matching posts and their full content, and interact with them.
+See an excerpt of the five most recent posts matching your data set. Keep in mind that you can always switch to the full experience of Social Engagement to see all matching posts and their full content, and interact with them.
 
 ![Recent posts widget in Social Insights](media/recent-posts-widget-social-insights.png "Screenshot of recent posts")
 
 ### Sentiment history
 
-Find out how the sentiment developed in the selected timeframe to correlate the sentiment about the search topic with dates and events.
+Find out how the sentiment developed in the selected time frame to correlate the sentiment about the search topic with dates and events.
 
 ![Sentiment history widget in Social Insights](media/sentiment-history-widget-social-insights.png "Screenshot of sentiment history")
 
 ### Sentiment share of voice
 
-See how positive, negative, and neutral sentiment values are distributed in your selected dataset. 
+See how positive, negative, and neutral sentiment values are distributed in your selected data set. 
 
 ![Sentiment share of voice widget in Social Insights](media/sentiment-widget-social-insights.png "Screenshot of sentiment")
 
 ### Sentiment summary by sources
 
-Find out how the sentiment index varies among the most active sources in your dataset. 
+Find out how the sentiment index varies among the most active sources in your data set. 
 
 ![Sentiment by sources widget in Social Insights](media/sentiment-by-source-widget-social-insights.png "Screenshot of sentiment by sources")
 
@@ -126,7 +123,7 @@ See which sources were the most active and how they contributed to the overall p
 
 ### Top phrases
 
-Find out which phrases were most often used in your dataset to quickly get an impression of significant phrases to understand what's on the authors' minds. 
+Find out which phrases were most often used in your data set to quickly get an impression of significant phrases to understand what's on the authors' minds. 
 
 ![Phrases widget in Social Insights](media/phrases-widget-social-insights.png "Screenshot of top phrases")
 

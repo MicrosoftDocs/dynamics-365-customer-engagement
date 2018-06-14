@@ -2,16 +2,15 @@
 title: "Social Engagement integration with Dynamics 365 | Microsoft Docs"
 description: "Learn about the available integrations with Dynamics 365 and additional services."
 keywords: "social insights, dynamics 365, UCI, unified interface, integration, component"
-ms.date: 06/04/2018
-ms.service: mse
+ms.date: 06/30/2018
+ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
-  - "Social Engagement -update"
+  - "Social Engagemen"
 ms.assetid: f780a931-3fcc-468a-9849-a22aab60984b
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
-topic-status: Drafting
 ms.custom:
   - dyn365-socialengagement
 ---
@@ -107,9 +106,7 @@ You can add the Social Insights controls to the existing system dashboards or to
 
 ### Add a Social Insights control to an entity form
 
-To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the IFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable. More information: Use the form editor.
-
-<!--To author: Should "Use the form editor" in "more information" above be hyperlinked?-->
+To add Social Insights controls to an entity (record type) form, you have to [use the form editor](https://technet.microsoft.com/library/dn531185.aspx) provided in the Dynamics 365 Customization area. You can position the Social Insights control anywhere on the form and resize it, just like you would do with the IFrame controls. You can make the control bigger by increasing the number of rows and spanning the control over several columns. This is important if you want to make a graph or a chart in the control appear larger and be more readable.
 
 1. Select **Settings** > **Customizations** > **Customize the System**.
 
@@ -129,11 +126,9 @@ To add Social Insights controls to an entity (record type) form, you have to [us
 
 ### Configure Social Insights visuals on entity forms
 
-#### Change the configuration of Social Insights in web apps
+#### Change the configuration of Social Insights in the web client
 
-<!-- Question to Editor: How do we officially refer to the non-UCI apps? From editor: Had to check around, but it is "Web Client"-->
-
-Once Social Insights is added to an entity form in a web app, you can configure it to meet your needs. 
+Once Social Insights is added to an entity form in a web client app, you can configure it to meet your needs. 
 
 ![Social Insights configuration dialog in web apps](media/social-insights-configuration-web-app.png "Social Insights configuration dialog in web apps")
 
