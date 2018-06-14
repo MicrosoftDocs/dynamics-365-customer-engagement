@@ -1,3 +1,21 @@
+---
+title: Column | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: db4be085-c31e-4045-8834-b0f45c569964
+---
+
 # Column
 
 <!-- IDataSetExposedColumn  -->
@@ -18,10 +36,10 @@ The data type of this column's values.
 
 ## disableSorting
 
-Whether the column must disable sorting
+Prevents the UI from making the column sortable.
 
 **Type**: `boolean`<br />
-**Optional**
+
 
 ## displayName
 
@@ -29,37 +47,24 @@ Localized display name for the column
 
 **Type**: `string`
 
-## imageProviderFunctionName
 
-The name of the function that provides an image for the column.
-
-**Type**: `string`<br />
-**Optional**
-
-## imageProviderWebresource
-
-The column web resource name.
-
-**Type**: `string`<br />
-**Optional**
 
 ## isHidden
 
 The column visibility state.
 
 **Type**: `boolean`<br />
-**Optional**
+
 
 ## isPrimary
 
-Whether the column is the primary attribute.
+Is specific column the primary attribute of the view's entity.
 
 **Type**: `boolean`<br />
-**Optional**
 
 ## name
 
-Name of the column, unique in this data set.
+Name of the column, unique in this dataset.
 
 **Type**: `string`
 
@@ -71,15 +76,13 @@ The column order for the layout.
 
 ## visualSizeFactor
 
-The configured size factor for this column relative to other columns in the data set. 
+Customized colum width ratios. 
 
 **Type**: `number`
 
-### Remarks
-By default columns have a size factor of 1.0, but the system customizer or user can make some columns larger (e.g., 1.5) or smaller (e.g., 0.75).
 
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
