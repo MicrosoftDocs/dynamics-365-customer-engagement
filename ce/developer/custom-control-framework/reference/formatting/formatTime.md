@@ -3,7 +3,7 @@ title: formatTime | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -22,14 +22,14 @@ ms.assetid: 148964b5-106e-4f2e-8038-9086d29dc54f
 [!INCLUDE [formattime-description](includes/formattime-description.md)]
 
 ## Syntax
-`formatTime(value: Date, behavior: FormattingApi.DateTimeFieldBehavior)`
+`formatTime(value, behavior)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
 |value|`Date`|yes|The date to be formatted.|
-|behaviour|`FormattingApi.DAteTimeFieldBehaviour`|yes|The behaviour of the datetime object to be formatted.|
+|behaviour|`DateTimeFieldBehaviour`|yes|The behaviour of the datetime object to be formatted.|
 
 ## Return Value
 
@@ -39,5 +39,5 @@ Type: `string`
 ### Related topics
 
 [Formatting](../formatting.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
