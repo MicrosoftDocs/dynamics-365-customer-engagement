@@ -55,14 +55,14 @@ Deployment steps
     manage.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/99184ffcd1791f53bc75f05bd1179036.png)
+    > ![](media/rso-welcome.png)
 
 3. Select the organization where the RSO solution will be installed, review the
     Terms of Service and select the agreement box, and then select **Deploy** to
     start the RSO deployment.
 
     > [!div class="mx-imgBorder"]
-    > ![](media/84a588bba0dee11f9e42b29a34908b90.png)
+    > ![](media/rso-instance.png)
 
 4. Click **Upgrade to new version** to apply a new update if one is available.
 
@@ -74,4 +74,4 @@ Deployment steps
     solution will remain, which will not impact anything inside of the Dynamics
     365 organization.
 
-    ![](media/08b39e78e06451fed9309fdc08753875.png)
+    ![](media/rso-completed.png)
