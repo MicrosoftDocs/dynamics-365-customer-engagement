@@ -3,7 +3,7 @@ title: getString| Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -30,7 +30,7 @@ ms.assetid: f28117a1-5d88-4c52-999c-1e07b09c0fe0
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|id|`string`|yes|Name ofthe resource in the control manifest.|
+|id|`string`|yes|Name of the resource in the control manifest.|
 
 ## Return Value
 
@@ -40,5 +40,5 @@ Type: `string`
 ### Related topics
 
 [Resources](../resources.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
