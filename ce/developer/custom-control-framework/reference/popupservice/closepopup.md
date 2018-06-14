@@ -1,27 +1,41 @@
+---
+title: closePopup | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: eb191796-37bf-46a3-b055-ee043375a42c
+---
+
 # closePopup
 
 [!INCLUDE [closepopup-description](includes/closepopup-description.md)]
-<!-- TODO -->
-> [!IMPORTANT]
-> The content below is a placeholder. It doesn't describe the correct parameters for this method.
+
 
 ## Syntax
 
-`Name(param)`
+`closePopup(name)`
 
 ## Parameters
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|param|`string`|yes|placeholder|
+|name|`string`|yes|The name of the popup you're trying to close.|
 
-## Return Value
 
-Type: `string`
 
 
 ### Related topics
 
 [PopupService](../popupservice.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
