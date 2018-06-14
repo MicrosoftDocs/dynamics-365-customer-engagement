@@ -3,7 +3,7 @@ title: formatDateLongAbbreviated | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -22,7 +22,7 @@ ms.assetid: d91ba452-b57f-425c-bf64-cabf723a6249
 
 ## Syntax
 
-`formatDateLongAbbreviated(value: Date)`
+`formatDateLongAbbreviated(value)`
 
 ## Parameters
 
