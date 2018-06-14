@@ -3,7 +3,7 @@ title: formatDateLong | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -23,7 +23,7 @@ ms.assetid: b1b3449a-4f28-4a4c-97e0-eb1c118376d6
 
 ## Syntax
 
-`formatDateLong(value: Date)`
+`formatDateLong(value)`
 
 ## Parameters
 
