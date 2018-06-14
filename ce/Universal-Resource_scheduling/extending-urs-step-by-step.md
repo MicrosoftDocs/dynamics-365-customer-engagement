@@ -218,7 +218,9 @@ The Retrieve Resources Query configuration is a [UFX Query](./Universal-FetchXML
 
 > The values selected in the Filter panel is passed as input to the query and is available in the XPath `$input` variable
 
-The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We are using the FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. To support showing the matched languages and ordering by primary or secondary language, described later in the section [Resource Cell Template](#resource-cell-template-configuration), we are using multiple `link-entity` joins. Here is the description of each **`element`** and `attribute`:
+The Retrieve Resources Query uses FetchXML to query the `Resource (bookableresource)` entity. We are using the FetchXML `link-entity` element to only return resources associated with the Language records selected in the Filter panel. To support showing the matched languages and ordering by primary or secondary language, described later in the section [Resource Cell Template](#resource-cell-template-configuration), we are using multiple `link-entity` joins. 
+
+Here is the description of each **`element`** and `attribute`:
 
 Name | Description
 --- | ---
@@ -253,6 +255,8 @@ Name | Description
 ```
 
 UFX Queries are processed in sequential order. After the resources are retrieved through FetchXML, the results are assigned to the `Resources` property. We are sorting the results based on the `lang_order` property added earlier and re-assigning the sorted results to the `Resources` property.
+
+Here is the description of each **`element`** and `attribute`:
 
 Name | Description
 --- | ---
