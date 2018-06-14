@@ -2,7 +2,7 @@
 title: "Enable and use Activity Logging (Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
 description: Learn how to enable auditing to be used for reports in the Office 365 Security Compliance Center.
-ms.date: 06/07/2018
+ms.date: 06/13/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
