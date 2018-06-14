@@ -3,7 +3,7 @@ title: hasEntityPrivilege | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -35,11 +35,11 @@ ms.assetid: f22723f0-c606-465c-abba-0a8c46a10e32
 
 ## Return Value
 
-Type: `boolean`
+**Type**: `boolean`
 
 
 ### Related topics
 
 [Utility](../utility.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
