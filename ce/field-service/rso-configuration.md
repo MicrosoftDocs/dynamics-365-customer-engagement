@@ -135,7 +135,7 @@ You can define when RSO should optimize requirements and/or bookings for selecte
 
 Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. See the next section for details about scope and goals.
 
-[./media/image8.png](./media/image8.png)
+![](media/rso-wa-job.png)
 
 - **Timer**: Defines how often this schedule will run.
 - **Timer Mode**: The reference instant from when the schedule will start the
