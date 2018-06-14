@@ -1,3 +1,22 @@
+---
+title: Popup | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: b0af1803-ae3a-41c2-a8a5-b15970bd6f96
+---
+
+
 # Popup
 
 <!-- IPopupProps  -->
@@ -10,14 +29,14 @@
 
 ## closeOnOutsideClick
 
-Indicates whether we should NOT close the popup on an outside mouse click.
+Indicates whether popup close on an outside mouse click.
 
-**Type**: `boolean`<br />
-**Optional**
+**Type**: `boolean`
+
 
 ## content
 
-Allows insertion of static markup to Popups.
+Static DOM element to be inserted.
 
 **Type**: [HTMLElement](https://developer.mozilla.org/docs/Web/API/HTMLElement)
 
@@ -25,8 +44,8 @@ Allows insertion of static markup to Popups.
 
 The id to be set to the anchor control if any.
 
-**Type**: `string`<br />
-**Optional**
+**Type**: `string`
+
 
 ## name
 
@@ -34,29 +53,17 @@ The name of the Popup. Used like a reference to open Popups.
 
 **Type**: `string`
 
-## popupStyle
-
-User-defined styles for the popup.
-
-**Type**: [Style](style.md)<br />
-**Optional**
 
 ## popupToOpen
 
 The name of Popup which should be opened.
 
-**Type**: `string`<br />
-**Optional**
+**Type**: `string`
+
 
 ### Remarks
 Should be defined ONLY in a Root Popup. To open nested Popups, should be provided string like `rootName.nestedName.[allOtherNestedNames]`. To close Popups, should be provided empty string. This property will be automatically propagated to children.
 
-## shadowStyle
-
-User-defined styles for the popups shadow.
-
-**Type**: [Style](style.md)<br />
-**Optional**
 
 ## type
 <!-- PopupType -->
@@ -76,5 +83,5 @@ Should be only one `Root` Popup for each set of Popups.
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
