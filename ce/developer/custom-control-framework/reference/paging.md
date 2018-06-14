@@ -1,6 +1,22 @@
-# Paging
+---
+title: Paging | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 12891e96-972c-4289-bbde-2bc261cd1f12
+---
 
-<!-- IDataSetExposedPaging  -->
+# Paging
 
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
@@ -8,9 +24,9 @@
 [!INCLUDE [paging-description](includes/paging-description.md)]
 
 
-## firstPageNumber
+## totalResultCount
 
-Number of first page
+Total number of results on the server for the current query.
 
 **Type**: `number`
 
@@ -26,23 +42,7 @@ Whether the result set can be paged backwards.
 
 **Type**: `boolean`
 
-## lastPageNumber
 
-Number of last page
-
-**Type**: `number`
-
-## pageSize
-
-The number of records per page
-
-**Type**: `number`
-
-## totalResultCount
-
-Total number of results on the server for the current query.
-
-**Type**: `number`
 
 ## Methods
 
@@ -55,5 +55,5 @@ Total number of results on the server for the current query.
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
