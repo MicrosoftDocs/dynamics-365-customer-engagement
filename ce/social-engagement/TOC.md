@@ -9,6 +9,7 @@
 ### [Service scenarios](overview-service-scenario.md)
 ## [Get started with Social Engagement](get-started.md)
 ### [Social Engagement training videos](https://go.microsoft.com/fwlink/p/?linkid=861639)
+### [Provision a trial solution](provision-trial-solutions.md)
 ### [Sign in to Social Engagement](sign-in.md)
 ### [Set your preferences for the user interface](user-preferences.md)
 ### [Get help with Social Engagement](get-help.md)
