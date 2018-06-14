@@ -3,7 +3,7 @@ title: Device | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -37,14 +37,10 @@ ms.assetid: a0f9abc5-c605-4433-bf5a-f8253eeeda3b
 |[getBarcodeValue](device/getbarcodevalue.md)|[!INCLUDE [getbarcodevalue-description](device/includes/getbarcodevalue-description.md)]|
 |[getCurrentPosition](device/getcurrentposition.md)|[!INCLUDE [getcurrentposition-description](device/includes/getcurrentposition-description.md)]|
 |[pickFile](device/pickfile.md)|[!INCLUDE [pickfile-description](device/includes/pickfile-description.md)]|
-<!--|[isCaptureAudioOperationAvailable](device/iscaptureaudiooperationavailable.md)|[!INCLUDE [iscaptureaudiooperationavailable-description](device/includes/iscaptureaudiooperationavailable-description.md)]|
-|[isCaptureVideoOperationAvailable](device/iscapturevideooperationavailable.md)|[!INCLUDE [iscapturevideooperationavailable-description](device/includes/iscapturevideooperationavailable-description.md)]|
-|[isGetBarcodeValueOperationAvailable](device/isgetbarcodevalueoperationavailable.md)|[!INCLUDE [isgetbarcodevalueoperationavailable-description](device/includes/isgetbarcodevalueoperationavailable-description.md)]|
-|[isTakePictureOperationAvailable](device/istakepictureoperationavailable.md)|[!INCLUDE [istakepictureoperationavailable-description](device/includes/istakepictureoperationavailable-description.md)]|
-|[pickFile](device/pickfile.md)|[!INCLUDE [pickfile-description](device/includes/pickfile-description.md)]|-->
+
 
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
