@@ -1,3 +1,22 @@
+---
+title: DateFormattingInfo | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 4e7d43fb-b6b7-4f1d-89e3-0b8157c9d2d9
+---
+
+
 # DateFormattingInfo
 
 
@@ -8,25 +27,24 @@
 
 ## abbreviatedDayNames
 
-Placeholder description: DateFormattingInfo.abbreviatedDayNames
-
+{ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" }
 **Type**: `string`
 
 ## abbreviatedMonthGenitiveNames
 
-Placeholder description: DateFormattingInfo.abbreviatedMonthGenitiveNames
+{ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "" }
 
 **Type**: `string[]`
 
 ## abbreviatedMonthNames
 
-Placeholder description: DateFormattingInfo.abbreviatedMonthNames
+{ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec", "" }
 
 **Type**: `string[]`
 
 ## amDesignator
 
-Placeholder description: DateFormattingInfo.amDesignator
+"AM"
 
 **Type**: `string`
 
@@ -42,29 +60,27 @@ The `calendar` object contains the following properties:
 
 |Name|Type|Description|
 |--|--|--|
-|`algorithmType`|`number`|Placeholder description: Calendar.algorithmType|
-|`calendarType`|`number`|Placeholder description: Calendar.calendarType|
-|`eras`|`number[]`|Placeholder description: Calendar.eras|
-|`isReadOnly`|`boolean`|Placeholder description: Calendar.isReadOnly|
-|`maxSupportedDateTime`|`Date`|Placeholder description: Calendar.maxSupportedDateTime|
-|`minSupportedDateTime`|`Date`|Placeholder description: Calendar.minSupportedDateTime|
-|`twoDigitYearMax`|`number`|Placeholder description: Calendar.twoDigitYearMax|
+|`algorithmType`|`number`|1|
+|`calendarType`|`number`|1|
+|`maxSupportedDateTime`|`Date`|"/Date(253402300799999)/"|
+|`minSupportedDateTime`|`Date`|"/Date(-62135568000000)/"|
+|`twoDigitYearMax`|`number`|2029|
 
 ## calendarWeekRule
 
-Placeholder description: DateFormattingInfo.calendarWeekRule
+0
 
 **Type**: `number`
 
 ## dateSeparator
 
-Placeholder description: DateFormattingInfo.dateSeparator
+"/"
 
 **Type**: `string`
 
 ## dayNames
 
-Placeholder description: DateFormattingInfo.dayNames
+{ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" }
 
 **Type**: `string[]`
 
@@ -93,89 +109,89 @@ The `firstDayOfWeek` property can be set to one of the following values:
 
 ## fullDateTimePattern
 
-Placeholder description: DateFormattingInfo.fullDateTimePattern
+"dddd, MMMM d, yyyy h:mm:ss tt"
 
 **Type**: `string`
 
 ## longDatePattern
 
-Placeholder description: DateFormattingInfo.longDatePattern
+dddd, MMMM d, yyyy"
 
 **Type**: `string`
 
 ## longTimePattern
 
-Placeholder description: DateFormattingInfo.longTimePattern
+"hh:mm:ss tt"
 
 **Type**: `string`
 
 ## monthDayPattern
 
-Placeholder description: DateFormattingInfo.monthDayPattern
+"MMMM dd"
 
 **Type**: `string`
 
 ## monthGenitiveNames
 
-Placeholder description: DateFormattingInfo.monthGenitiveNames
+{ "January", "February", "March", ...  "December", "" }
 
 **Type**: `string[]`
 
 ## monthNames
 
-Placeholder description: DateFormattingInfo.monthNames
+{ "January", "February", "March", ...  "December", "" }
 
 **Type**: `string[]`
 
 ## pmDesignator
 
-Placeholder description: DateFormattingInfo.pmDesignator
+"PM"
 
 **Type**: `string`
 
 ## shortDatePattern
 
-Placeholder description: DateFormattingInfo.shortDatePattern
+"M/d/yyyy"
 
 **Type**: `string`
 
 ## shortTimePattern
 
-Placeholder description: DateFormattingInfo.shortTimePattern
+"h:mm tt"
 
 **Type**: `string`
 
 ## shortestDayNames
 
-Placeholder description: DateFormattingInfo.shortestDayNames
+{ "Su", "Mo", "Tu", "We", "Th", "Fr", "Sa" }
 
 **Type**: `string[]`
 
 ## sortableDateTimePattern
 
-Placeholder description: DateFormattingInfo.sortableDateTimePattern
+yyyy'-'MM'-'dd'T'HH':'mm':'ss"
 
 **Type**: `string`
 
 ## timeSeparator
 
-Placeholder description: DateFormattingInfo.timeSeparator
+":"
 
 **Type**: `string`
 
 ## universalSortableDateTimePattern
 
-Placeholder description: DateFormattingInfo.universalSortableDateTimePattern
+"yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
 
 **Type**: `string`
 
 ## yearMonthPattern
 
-Placeholder description: DateFormattingInfo.yearMonthPattern
+"MMMM yyyy"
 
 **Type**: `string`
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
