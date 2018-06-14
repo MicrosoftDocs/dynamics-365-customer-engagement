@@ -1,3 +1,21 @@
+---
+title: ConditionExpression | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: bd90b3fd-a4b4-4999-8b53-d2a5dce4966b
+---
+
 # ConditionExpression
 
 
@@ -67,11 +85,11 @@ Entity alias name so filtering can be used on linked entities.
 
 ## value
 
-The raw value used to evaluate the condition.
+The value evaluated by the condition.
 
 **Type**: `string | string[]`
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
