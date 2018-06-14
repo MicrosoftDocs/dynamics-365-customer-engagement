@@ -1,3 +1,25 @@
+---
+title: URS Extensibility Release Notes | Microsoft Docs
+description: URS Extensibility Release Notes
+keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
+author: yonalow
+ms.author: yolow
+manager: shellyha
+ms.date: 06/14/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.technology: 
+  - "field-service"
+  - "project-service"
+ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
+---
+
 # URS Extensibility Release Notes
 
 - [May 2018](#may-2018)
@@ -33,7 +55,7 @@ The first line is new. The updated markup to hide the second row of text in the 
     <div class='booked-percentage'>{{BookedPercentage}}%</div>  
 {{/if}}
 ```
->For more context, see this article - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/removed-resource-image
+> For more context, see this article - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/removed-resource-image
 
 <a name="april-2018"></a>
 ## April 2018
@@ -48,7 +70,7 @@ The added `IgnoreProposedBookings` property:
 ```xml
 <IgnoreProposedBookings ufx-type="bool">true</IgnoreProposedBookings> 
 ```
->Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
+> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
 
 <a name="february-2018"></a>
 ## February 2018
@@ -63,7 +85,8 @@ The new `IgnoreProposedBookings` control
 ```xml
 <control type="boolean" key="Requirement/IgnoreProposedBookings" label-id="ScheduleAssistant.West.settingsform.IgnoreProposedBookings" />
 ```
->Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
+> Here is a link to an article with more context on ignore proposed functionality - https://docs.microsoft.com/en-us/business-applications-release-notes/april18/dynamics365-field-service/ignore-proposed-bookings
+
 <a name="december-2017"></a>
 ## December 2017
 
@@ -97,10 +120,9 @@ The below snippet (not shipped) shows how the Resource Cell Template can then be
 ```html
 <div>Booking Count: {{bookingcount}}</div>
 ```
->When changing the dates on the Schedule Board, the Resource Query is not automatically executed again. Rather, you must click the search button to re-execute the search using the new Schedule Board visible dates.
+> When changing the dates on the Schedule Board, the Resource Query is not automatically executed again. Rather, you must click the search button to re-execute the search using the new Schedule Board visible dates.
 
->For more context, here is a blog post on the subject - https://blogs.msdn.microsoft.com/crm/2017/12/15/new-use-schedule-board-date-ranges-in-custom-queries-in-universal-resource-scheduling/
-
+> For more context, here is a blog post on the subject - https://blogs.msdn.microsoft.com/crm/2017/12/15/new-use-schedule-board-date-ranges-in-custom-queries-in-universal-resource-scheduling/
 
 ### Schedule Assistant Filter Layout
 
@@ -112,7 +134,8 @@ The new sort option
 ```xml
 <order name="totalavailabletime" entity="bookableresource" attribute="totalavailabletime" label-id="ScheduleAssistant.Center.slotsgrid.TotalAvailableTime" />
 ```
->For more context on the scenario, here is a blog post - https://blogs.msdn.microsoft.com/crm/2017/12/15/sort-available-resources-by-total-available-time-in-universal-resource-scheduling/
+> For more context on the scenario, here is a blog post - https://blogs.msdn.microsoft.com/crm/2017/12/15/sort-available-resources-by-total-available-time-in-universal-resource-scheduling/
+
 <a name="july-2017"></a>
 ## July 2017
 

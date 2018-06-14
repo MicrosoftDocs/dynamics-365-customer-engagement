@@ -1,11 +1,11 @@
 ---
 title: Universal Fetch XML | Microsoft Docs
-description: Advanced query langugage to extend Schedule board functionality
+description: Advanced query langugage to extend Universal Resource Scheduling
 keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
-author: nabuthuk
-ms.author: nabuthuk
+author: yonalow
+ms.author: yolow
 manager: shellyha
-ms.date: 05/14/2018
+ms.date: 06/14/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,6 +14,9 @@ ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (online)"
   - "Dynamics 365 Version 9.x"
+ms.technology: 
+  - "field-service"
+  - "project-service"
 ms.assetid: d9c56128-497d-4789-9631-4cb34f04638e
 ---
 
@@ -112,6 +115,7 @@ The same bag in XML:
 </bag>
 ```
 
+<a name="ufx-queries"></a>
 #### Introduction to UFX Queries
 
 UFX Queries are written as XML-based **UFX Bags**. Properties in the bag can contain **UFX directives** to query data dynamically. A UFX Query executes on in-memory objects, not XML. Only the directives are written in XML. It's output can be serialized to JSON or XML.
@@ -303,3 +307,8 @@ Name | Description
 $input | A `bag` available to the UFX Query with input values
 $null | A null constant. Selecting `$null` on a property removes the property from the bag
 $current | Reference to the current bag being processed by the UFX Query
+
+### See Also
+
+[Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)](understanding-and-customizing-resource-matching-in-urs.md)
+[URS Extensibility Release Notes](extensibility-release-notes.md)

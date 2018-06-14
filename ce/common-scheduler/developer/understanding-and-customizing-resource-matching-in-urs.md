@@ -1,3 +1,25 @@
+---
+title: Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS) | Microsoft Docs
+description: Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)
+keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
+author: yonalow
+ms.author: yolow
+manager: shellyha
+ms.date: 06/14/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.technology: 
+  - "field-service"
+  - "project-service"  
+ms.assetid: 91ab73b2-3f37-4c51-ac4a-1c0bc24c461a
+---
+
 # Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)
 
 Universal Resource Scheduling (URS), the scheduling engine underlying Field Service and Project service, ships with extensive resource matching capabilities to book the right resources for a job. While the URS solution ships with Field and Project service, URS can also be used to schedule any workstream in Dynamics 365. In this article we'll take a look at how the built-in resource constraints are implemented and how to customize URS with custom resource constraints.
@@ -230,7 +252,7 @@ Based on the [resource matching flows](#summarizing-the-resource-matching-flows)
 
 Internally, the Retrieve Requirement Constraints API (#1 above) and the Resource Matching API (#3 above) use FetchXML to query data from Dynamics 365. The Retrieve Requirement Constraints API issues multiple queries to retrieve the Requirement record and its child constraints (e.g. Requirement Characteristic etc.) The Resource Matching API, based on the resource constraints passed to it as input, will dynamically construct the correct FetchXML query so only Resource records matching the specified FetchXML criteria are returned from Dynamics 365.
 
-In the July 2017 update for URS, to support extensible resource matching, [Universal FetchXML (UFX)](Universal-FetchXML.md) was introduced. Two important features UFX adds to FetchXML are: 1) Multiple result sets, a single UFX Query can return results from multiple entities, and 2) Dynamic FetchXML, a UFX Query can dynamically construct FetchXML based on input data.
+In the July 2017 update for URS, to support extensible resource matching, [Universal FetchXML (UFX)](universal-fetchxml.md) was introduced. Two important features UFX adds to FetchXML are: 1) Multiple result sets, a single UFX Query can return results from multiple entities, and 2) Dynamic FetchXML, a UFX Query can dynamically construct FetchXML based on input data.
 
 With UFX, a single query can be constructed to query for a Requirement record and all its child records. The Retrieve Requirement Constraints API executes a customizable UFX Query to retrieve a Requirement and its child constraints. The query can be customized to retrieve custom constraint records as well.
 
@@ -242,4 +264,10 @@ In the July 2017 update for URS, the Filter panel (#2 above) was updated to supp
 
 Another client side extensibility point made available in the July 2017 update is the resource cell. The resource cell is rendered through a customizable Handlebars.js template. The results from the Resource Matching API is made available to the template. Therefore, by customizing the query executed by the Resource Matching API, custom data can be rendered in the resource cell.
 
+> [!div class="nextstepaction"]
 > A step by step guide with code samples needed for each step is described in [Extending URS: Find Resources by Language - A Step by Step Guide](extending-urs-step-by-step.md)
+
+### See Also
+
+[Universal Fetch XML](universal-fetchxml.md)
+[URS Extensibility Release Notes](extensibility-release-notes.md)
