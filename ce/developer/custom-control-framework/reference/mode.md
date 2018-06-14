@@ -3,7 +3,7 @@ title: Mode | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -41,51 +41,6 @@ Width in pixels allocated to the control.
 
 
 
-<!--## blur
-
-Unfocus this control and any children.
-
-**Type**: `function`-->
-
-
-
-<!--## contextInfo
-
-Contains type, id and record name of current entity.
-
-**Type**: `object`-->
-
-<!-- IContextInfo -->
-
-<!--The `contextInfo` object contains the following properties:
-
-|Name|Type|Optional|Description|
-|--|--|--|--|
-|`entityId`|`string`|no|The unique id for the entity|
-|`entityRecordName`|`string`|yes|The value of the primary name attribute of the entity|
-|`entityTypeName`|`string`|no|Logical name of the entity|-->
-
-
-<!--## focus
-
-Focus this control and any parents.
-
-**Type**: `function`
-
-
-## hasFocus
-
-Whether the control or it's child control has focus
-
-**Type**: `boolean`
-
-
-## isActive
-
-Whether the control is on an active page in the navigation stack on the dom.
-
-**Type**: `boolean`-->
-
 
 ## isControlDisabled
 
@@ -117,13 +72,6 @@ The defined control label.
 
 
 
-<!--## rowSpan
-
-The span of a rows for the multi-line controls.
-
-**Type**: `number`-->
-
-
 
 ## Methods
 
@@ -132,14 +80,10 @@ The span of a rows for the multi-line controls.
 |[setControlState](mode/setcontrolstate.md)|[!INCLUDE [setcontrolstate-description](mode/includes/setcontrolstate-description.md)]|
 |[setFullScreen](mode/setfullscreen.md)|[!INCLUDE [setfullscreen-description](mode/includes/setfullscreen-description.md)]|
 |[trackContainerResize](mode/trackcontainerresize.md)|[!INCLUDE [trackcontainerresize-description](mode/includes/trackcontainerresize-description.md)]|
-<!--|[clearNotification](mode/clearnotification.md)|[!INCLUDE [clearnotification-description](mode/includes/clearnotification-description.md)]|
-|[setControlState](mode/setcontrolstate.md)|[!INCLUDE [setcontrolstate-description](mode/includes/setcontrolstate-description.md)]|
-|[setFullScreen](mode/setfullscreen.md)|[!INCLUDE [setfullscreen-description](mode/includes/setfullscreen-description.md)]|
-<!--|[setNotification](mode/setnotification.md)|[!INCLUDE [setnotification-description](mode/includes/setnotification-description.md)]|
-|[trackContainerResize](mode/trackcontainerresize.md)|[!INCLUDE [trackcontainerresize-description](mode/includes/trackcontainerresize-description.md)]|-->
+
 
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
