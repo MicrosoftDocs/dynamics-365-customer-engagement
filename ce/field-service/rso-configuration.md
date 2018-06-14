@@ -81,7 +81,7 @@ The basic settings here will be checked and respected by all optimization scopes
     location be location agnostic. 
   
    > [!div class="mx-imgBorder"]
-   > ![](media/636100d6aa13549867e07f2942ab151f.png)
+   > ![](media/rso-set-to-yes.png)
    
 2. Configure BOOKING SETUP METADATA for the desired entity. To do this, set
     **Default Scheduling Method** to **Optimize**. For example, if enabled for
