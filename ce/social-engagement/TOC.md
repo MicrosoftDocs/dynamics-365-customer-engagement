@@ -58,6 +58,7 @@
 ### [Manage author tags](author-tags.md)
 ## [Manage connections in Social Engagement](manage-connections.md)
 ### [Integrate Social Engagement with Dynamics 365](integrate-social-engagement-dynamics-365.md)
+#### [Work with widgets in Social Insights](social-insights-widgets.md)
 ### [Stream data from Social Engagement to Azure Event Hubs](stream-data-to-event-hubs.md)
 #### [Work with events from Social Engagement in Azure Event Hubs](work-with-event-hubs.md)
 #### [JSON reference for events from Social Engagement](event-hubs-json-reference-social-engagement.md)
