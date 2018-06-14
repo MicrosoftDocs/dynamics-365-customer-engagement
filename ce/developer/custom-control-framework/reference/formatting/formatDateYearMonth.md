@@ -3,7 +3,7 @@ title: formatDateYearMonth | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -22,7 +22,7 @@ ms.assetid: b4c08ece-a164-455c-a1b7-8ce855aedad4
 
 ## Syntax
 
-`formatDateYearMonth(value: Date)`
+`formatDateYearMonth(value)`
 
 ## Parameters
 
@@ -38,5 +38,5 @@ Type: `string`
 ### Related topics
 
 [Formatting](../formatting.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
