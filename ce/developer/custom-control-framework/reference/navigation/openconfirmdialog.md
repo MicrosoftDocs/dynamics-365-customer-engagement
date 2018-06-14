@@ -34,11 +34,15 @@ ms.assetid: 83f2c208-696c-48b1-b65c-2ba7374d6cfc
 
 ## Return Value
 
-Type: `Promise`
+Type: `Promise<ConfirmDialogResponse>`
+
+## Remarks
+
+See [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) and [File](https://developer.mozilla.org/docs/Web/API/File)
 
 
 ### Related topics
 
 [Navigation](../navigation.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
