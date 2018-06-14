@@ -232,13 +232,14 @@ Name | Description
 
 #### Determining a Resource's sort order
 
+After we retrieve the matching resources, based on each resource's assigned languages, we assign a new `lang_order` property to determine its sort order.
+
 ```xml
 <bag>
   <lang_order ufx:select="iif(lang_primary and lang_secondary, 1, iif(lang_primary, 2, iif(lang_secondary, 3, 4)))" />
 </bag>
 ```
-
-After we retrieve the matching resources, based on each resource's assigned languages, we assign a new `lang_order` property to determine its sort order.
+Here is the description of each **`element`** and `attribute`:
 
 Name | Description
 --- | ---
