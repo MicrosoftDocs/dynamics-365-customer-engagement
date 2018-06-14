@@ -1,6 +1,6 @@
 ---
-title: Extending URS: Find Resources by Language - A Step by Step Guide | Microsoft Docs
-description: Extending URS: Find Resources by Language - A Step by Step Guide
+title: Extending URS - Find Resources by Language - A Step by Step Guide | Microsoft Docs
+description: Extending URS - Find Resources by Language - A Step by Step Guide
 keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
@@ -131,11 +131,13 @@ To filter resources in the Schedule Board with the new Language constraint, we'l
 
 ### Filter Layout Configuration
 
-> [!TIP] For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+> [!TIP
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Filter Layout configuration is an XML layout definition to customize the layout of the Filter panel.
 
-> [!NOTE] For this exercise, we'll remove all default filters shipped with URS from the Filter panel and add Languages as the only available filter.
+> [!NOTE]
+> For this exercise, we'll remove all default filters shipped with URS from the Filter panel and add Languages as the only available filter.
 
 ```xml
 <control type="combo" source="entity" key="Languages" inactive-state="1" label-id="Languages" entity="lang_language" multi="true" />
@@ -189,7 +191,8 @@ The board will reload and you will see the Filter panel in the left with the new
 <a name="retrieve-resources-query-configuration"></a>
 ### Retrieve Resources Query Configuration
 
-> [!TIP] For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+> [!TIP]
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Retrieve Resources Query configuration is a [UFX Query](universal-fetchxml.md#ufx-queries) used by the Resource Matching API. It takes as input the values entered in the Filter panel and dynamically constructs the correct FetchXML to find matching resources.
 
@@ -285,7 +288,8 @@ Name | Description
 **`Resources`** | Re-assign the `Resources` property
 `ufx:select` | Assign the result of the XPath expression in this attribute to the `Resources` property. The XPath [`order`](universal-fetchxml.md#order) function is used to order the `Resources` list on its `lang_order` property.
 
-> [!NOTE] The default Retrieve Resources Query shipped with URS is a large query that supports all the resource constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
+> [!NOTE]
+> The default Retrieve Resources Query shipped with URS is a large query that supports all the resource constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -394,11 +398,13 @@ Unlike the Schedule Board customizations, where each board can be individually c
 
 ### Schedule Assistant Filter Layout Configuration
 
-> [!TIP] For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+> [!TIP]
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Schedule Assistant Filter Layout configuration, like the Schedule Board Filter Layout, defines the layout of the controls in the Filter panel. Since the Schedule Assistant uses more filters than the Schedule Board, like Start Time, End Time, Duration, etc., a different layout is used.
 
-> [!NOTE] For this exercise, we'll reuse only a subset of the default filters shipped in URS from the Schedule Assistant Filter Layout configuration and add the Languages dropdown as the only available filter.
+> [!NOTE]
+> For this exercise, we'll reuse only a subset of the default filters shipped in URS from the Schedule Assistant Filter Layout configuration and add the Languages dropdown as the only available filter.
 
 The filter we are adding to the layout is the same as above in [Filter Layout Configuration](#filter-layout-configuration). The other controls are needed to modify the Schedule Assistant search parameters.
 
@@ -448,11 +454,13 @@ The board will reload. Next, we need to change the Retrieve Constraints Query be
 
 ### Retrieve Constraints Query Configuration
 
-> [!TIP] For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+> [!TIP]
+> For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Retrieve Constraints Query configuration is a [UFX Query](universal-fetchxml.md#ufx-queries) used by the Retrieve Requirement Constraints API. It takes as input the ID of a Requirement record (selected in the UI) and returns the Requirement record and all its child records.
 
-> [!NOTE] The default Retrieve Constraints Query shipped with URS is a large query that supports all the requirement constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
+> [!NOTE]
+> The default Retrieve Constraints Query shipped with URS is a large query that supports all the requirement constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
 
 ```xml
 <Languages ufx:select="lookup-to-list(Requirement/lang_primarylanguage, Requirement/lang_secondarylanguage)" />
@@ -511,7 +519,8 @@ The board will reload with the updated configuration. Schedule Assistant filteri
 <a name="resource-cell-template-configuration"></a>
 ### Resource Cell Template Configuration
 
-> [!TIP] For the below steps, it is helpful to use a text editor that supports HTML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
+> [!TIP]
+> For the below steps, it is helpful to use a text editor that supports HTML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Resource Cell Template configuration is a [Handlebars](https://handlebarsjs.com/) template used to render content in the resource cell. The output from the Retrieve Resources Query is available to the template.
 
