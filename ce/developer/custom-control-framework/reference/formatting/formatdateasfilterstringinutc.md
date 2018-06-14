@@ -3,7 +3,7 @@ title: formatDateAsFilterStringUTC | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -23,7 +23,7 @@ ms.assetid: a604fbbf-6d09-450d-b686-7a5cb3f3a2bc
 
 ## Syntax
 
-`formatDateAsFilterStringInUTC(value: Date, includeTime?: boolean)`
+`formatDateAsFilterStringInUTC(value, includeTime)`
 
 ## Parameters
 
@@ -40,5 +40,5 @@ Type: `string`
 ### Related topics
 
 [Formatting](../formatting.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
