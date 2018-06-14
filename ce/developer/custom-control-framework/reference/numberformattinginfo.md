@@ -1,3 +1,21 @@
+---
+title: NumberFormattingInfo | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 8c0481ee-abf9-492a-a1ef-b36e8a68167b
+---
+
 # NumberFormattingInfo
 
 
@@ -8,143 +26,161 @@
 
 ## currencyDecimalDigits
 
-Placeholder description: NumberFormattingInfo.currencyDecimalDigits
+ example 2
 
 **Type**: `number`
 
 ## currencyDecimalSeparator
 
-Placeholder description: NumberFormattingInfo.currencyDecimalSeparator
+example "."
 
 **Type**: `string`
 
 ## currencyGroupSeparator
 
-Placeholder description: NumberFormattingInfo.currencyGroupSeparator
+example ","
 
 **Type**: `string`
 
 ## currencyGroupSizes
 
-Placeholder description: NumberFormattingInfo.currencyGroupSizes
+example [ 3 ]
 
 **Type**: `number[]`
 
 ## currencyNegativePattern
 
-Placeholder description: NumberFormattingInfo.currencyNegativePattern
+example 0
+
+**Type**: `number`
+
+## currentPositivePattern
+
+example 0
 
 **Type**: `number`
 
 ## currencySymbol
 
-Placeholder description: NumberFormattingInfo.currencySymbol
+example "$"
 
 **Type**: `string`
 
 ## nanSymbol
 
-Placeholder description: NumberFormattingInfo.nanSymbol
+example "NaN"
 
 **Type**: `string`
 
 ## nativeDigits
 
-Placeholder description: NumberFormattingInfo.nativeDigits
+example { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
 
 **Type**: `string[]`
 
 ## negativeInfinitySymbol
 
-Placeholder description: NumberFormattingInfo.negativeInfinitySymbol
+example "-Infinity"
 
 **Type**: `string`
 
 ## negativeSign
 
-Placeholder description: NumberFormattingInfo.negativeSign
+example "-"
 
 **Type**: `string`
 
 ## numberDecimalDigits
 
-Placeholder description: NumberFormattingInfo.numberDecimalDigits
+example 2
 
 **Type**: `number`
 
+## numberDecimalSeparator
+
+example "."
+
+**Type**: `string`
+
 ## numberGroupSeparator
 
-Placeholder description: NumberFormattingInfo.numberGroupSeparator
+example ","
 
 **Type**: `string`
 
 ## numberGroupSizes
 
-Placeholder description: NumberFormattingInfo.numberGroupSizes
+example [3]
 
 **Type**: `number[]`
 
 ## numberNegativePattern
 
-Placeholder description: NumberFormattingInfo.numberNegativePattern
+example 1
 
 **Type**: `number`
 
 ## perMilleSymbol
 
-Placeholder description: NumberFormattingInfo.perMilleSymbol
+example "‰"
 
 **Type**: `string`
 
 ## percentDecimalDigits
 
-Placeholder description: NumberFormattingInfo.percentDecimalDigits
+example 2
 
 **Type**: `number`
 
 ## percentDecimalSeparator
 
-Placeholder description: NumberFormattingInfo.percentDecimalSeparator
+example "."
 
 **Type**: `string`
 
 ## percentGroupSeparator
 
-Placeholder description: NumberFormattingInfo.percentGroupSeparator
+example ","
 
 **Type**: `string`
 
 ## percentGroupSizes
 
-Placeholder description: NumberFormattingInfo.percentGroupSizes
+example [3]
 
 **Type**: `number[]`
 
 ## percentNegativePattern
 
-Placeholder description: NumberFormattingInfo.percentNegativePattern
+example 0
 
 **Type**: `number`
 
 ## percentPositivePattern
 
-Placeholder description: NumberFormattingInfo.percentPositivePattern
+example 0
 
 **Type**: `number`
 
 ## percentSymbol
 
-Placeholder description: NumberFormattingInfo.percentSymbol
+example "%"
+
+**Type**: `string`
+
+## positiveInfinitySymbol
+
+example "Infinity"
 
 **Type**: `string`
 
 ## positiveSign
 
-Placeholder description: NumberFormattingInfo.name
+example "+"
 
 **Type**: `string`
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
