@@ -3,7 +3,7 @@ title: getWeekOfYear | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -22,7 +22,7 @@ ms.assetid: 9d62e091-2276-44e9-9b9f-b216f51b4d05
 
 
 ## Syntax
-`getWeekOfYear(value: Date)`
+`getWeekOfYear(value)`
 
 ## Parameters
 
@@ -38,5 +38,5 @@ Type: `string`
 ### Related topics
 
 [Formatting](../formatting.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
