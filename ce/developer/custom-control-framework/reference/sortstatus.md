@@ -1,3 +1,21 @@
+---
+title: SortStatus | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 09f6d0a7-a95a-421e-a413-281d1d0d0e19
+---
+
 # Sort
 
 <!-- IDataSetExposedColumnSortStatus  -->
@@ -30,5 +48,5 @@ The `sortDirection` value is an enum with the following possible values
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
