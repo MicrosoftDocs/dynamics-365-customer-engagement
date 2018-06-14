@@ -3,7 +3,7 @@ title: formatLanguage | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -23,7 +23,7 @@ ms.assetid: 859ca133-92db-49d5-a68f-a2f47d8daa83
 
 ## Syntax
 
-`formatLanguage(value: number)`
+`formatLanguage(value)`
 
 ## Parameters
 
@@ -39,5 +39,5 @@ Type: `string`
 ### Related topics
 
 [Formatting](../formatting.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
