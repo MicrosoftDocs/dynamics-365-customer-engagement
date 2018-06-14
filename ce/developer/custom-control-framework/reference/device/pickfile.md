@@ -3,7 +3,7 @@ title: PickFile | Microsoft Docs
 description: 
 keywords:
 ms.author: nabuthuk
-manager: 
+manager: jdaly
 ms.date: 06/4/2018
 ms.reviewer: ""
 ms.service: "crm-online"
@@ -32,7 +32,7 @@ ms.assetid: aae27c64-33c4-47f1-b833-4c04161c01e2
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|`options`|`object`|no|Placeholder description: pickFile.options|
+|`options`|`object`|no|Options to pick file.|
 
 ## Return Value
 
@@ -53,5 +53,5 @@ The `options` parameter object has the following properties:
 ### Related topics
 
 [Device](../device.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
