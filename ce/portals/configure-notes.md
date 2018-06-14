@@ -3,7 +3,7 @@ title: "Configure notes on entity forms and web forms for a portal in Dynamics 3
 description: "Instructions to add and configure notes on entity forms and web forms in a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""

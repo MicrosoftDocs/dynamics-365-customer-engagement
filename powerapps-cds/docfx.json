@@ -21,8 +21,11 @@
     "resource": [
       {
         "files": [
+
+          "**/*.gif",
           "**/*.png",
           "**/*.jpg"
+
         ],
         "exclude": [
           "**/obj/**",

@@ -3,7 +3,11 @@ title: "Configure core marketing functionality in Dynamics 365 for Marketing | M
 description: "Use the marketing settings to configure landing pages, email marketing, and Customer Insights in Dynamics 365 for Marketing"
 keywords: "administration; landing page; Customer Insights"
 ms.date: 04/01/2018
-ms.service: dynamics-365-marketing
+ms.service:
+  - "dynamics-365-marketing"
+ms.custom:
+  - "dyn365-admin"
+  - "dyn365-marketing"
 ms.topic: article
 applies_to:
   - "Dynamics 365 (online)"
@@ -14,16 +18,13 @@ ms.author: kamaybac
 manager: sakudes
 ms.reviewer: renwe
 topic-status: Drafting
-ms.custom:
-  - dyn365-admin
-  - dyn365-marketing
 ---
 
 # Marketing settings
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
-The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)].
+The **Marketing settings** section contains pages that let you configure the core marketing functionality for landing pages, email marketing, and customer-insights services.
 
 To find these settings, open **Settings** > **Advanced settings** and choose one of the pages under the **Marketing settings** heading in the left column. You can also access these same settings by finding the **Marketing settings** section in the right column and choosing the icons there.
 
@@ -84,16 +85,16 @@ Settings on the **Portal defaults** tab control how your marketing pages are hos
 
 <a name="dci-sync"></a>
 
-## Choose entities to sync with Customer Insights
+## Choose entities to sync with the customer-insights services
 
-[!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)] is an [!INCLUDE[pn-azure-shortest](../includes/pn-azure-shortest.md)]-based service that provides analytical tools for working with customer records. It helps you to better understand your customers and helps you set up subscription lists and target segments for use in email-marketing campaigns.
+The customer-insights services are external services that provide analytical tools for working with customer records. They help you to better understand your customers and help you set up subscription lists and target segments for use in email-marketing campaigns.
 
-The analytical and data-crunching capabilities of [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] are very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and [!INCLUDE[pn-customer-insights-full](../includes/pn-customer-insights-full.md)].
+The analytical and data-crunching capabilities of the customer-insights services are very powerful, but also resource-intensive, so the solution maximizes performance by synchronizing the relevant customer and account data between [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] and these external services.
 
-Use the **Settings** > **Advanced settings** > **Marketing settings** > **[!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)] Sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to replicate to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)]. For optimal performance and functionality, choose only the entities you need—no more and no less.
+Use the **Settings** > **Advanced settings** > **Marketing settings** > **Customer insights sync** page to choose which database entities from [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to replicate to the customer-insights services. For optimal performance and functionality, choose only the entities you need—no more and no less.
 
 > [!IMPORTANT]
-> Once you add a new entity to [!INCLUDE[pn-customer-insights-short](../includes/pn-customer-insights-short.md)], it will continue to sync and  consume storage space there and can't be removed. You should only add those entities you are sure you will need.
+> The sync settings are permanent, so once you begin syncing an entity you won't be able to remove it again later. Syncing occurs often, and each entity that you sync requires storage space and processing time, so you should only sync those entities you are sure you will need.
 
 Select the check box for each entity you want to sync. If you can't see the entity you want, try using the search field to find it.
 
@@ -118,7 +119,7 @@ The input field under the **Target** setting specifies which contact or lead fie
 
 ## Default marketing settings
 
-Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Default marketing settings** page to establish collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active. 
+Use the **Settings** > **Advanced Settings** > **Marketing settings** > **Default marketing settings** page to set up collections of settings that establish various defaults used throughout the app. You can store as many settings sets as you want, but only the one marked as **Default** is active.
 
 Choose an existing configuration to edit or delete it or choose **+ New** from the command bar to create a new one.
 

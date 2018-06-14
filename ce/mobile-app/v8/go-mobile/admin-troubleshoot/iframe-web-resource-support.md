@@ -8,15 +8,15 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 (on-premises)"
-  - "Dynamics CRM 2016"
-  - "Dynamics CRM Online"
-author: "jimholtz"
+  - Dynamics 365 (online)
+  - Dynamics 365 (on-premises)
+  - Dynamics CRM 2016
+  - Dynamics CRM Online
+author: "mduelae"
 ms.assetid: d4bcbe8e-75c5-4489-b8f1-50641a87f684
 caps.latest.revision: 24
 ms.author: "mkaur"
-manager: "brycho"
+manager: "kvivek"
 ---
 # iFrame and web resource support in Dynamics 365 for tablets
 

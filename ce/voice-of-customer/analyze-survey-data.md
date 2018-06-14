@@ -2,7 +2,7 @@
 title: "Analyze survey data by using Voice of the Customer | MicrosoftDocs"
 description: "After receiving survey responses, learn how to analyze them and prepare reports."
 keywords: "analyze survey responses; survey dashboard"
-ms.date: 11/13/2017
+ms.date: 05/22/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -40,7 +40,7 @@ A survey response record is created after a respondent submits a survey. Based o
 
 To view all survey responses:
 
-1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
+1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)] or [open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
 
 2.  Go to **Voice of the Customer** &gt; **Survey Responses**.
 
@@ -48,13 +48,27 @@ To view all survey responses:
 
 To view survey response for a survey:
 
+**Web client**
+
 1.  Sign in to [!INCLUDE[pn-crm-2016-shortest](../includes/pn-crm-2016-shortest.md)].
 
 2.  Go to **Voice of the Customer** &gt; **Surveys**.
 
 3.  Select the name of the survey for which you want to view survey responses.
 
-4.  Select the down arrow next to your survey name at the top of the screen, and then select **Survey** **Responses**.
+4.  Select the down arrow next to your survey name at the top of the screen, and then select **Survey Responses**.
+
+5.  Select the survey response you want to view.
+
+**Voice of the Customer app**
+
+1.  [Open Voice of the Customer app](install-solution.md#open-voice-of-the-customer-app).
+
+2.  Go to **Voice of the Customer** &gt; **Surveys**.
+
+3.  Select the name of the survey for which you want to view survey responses.
+
+4.  Under **Related**, select **Survey Responses**.
 
 5.  Select the survey response you want to view.
 
@@ -66,9 +80,15 @@ You can also use Advanced Find to create customized queries. For example, you ca
 
 ## Store responses in a custom field by using response mapping
 
-Voice of the Customer provides some additional fields in the Survey Response entity on the **Measures** tab in the Survey Response form. You can map and store the response to a question in these fields. To map the response to a question to a field, you must select the field from the **Response Mapping** list in the question form when you create the question.
+Voice of the Customer provides some additional fields in the Survey Response entity on the **Measures** tab in the Survey Response form. You can map and store the response to a question in these fields. To map the response to a question to a field, you must select the field from the **Response Mapping** list in the question form (in web client) or **Map response to** list in the **Properties** pane (in Voice of the Customer app) when you create the question.
+
+**Web client**
 
 ![Response mapping to a custom field](media/custom-field-response-mapping.png "Response mapping to a custom field")  
+
+**Voice of the Customer app**
+
+![Response mapping to a custom field](media/custom-field-response-mapping-uci.png "Response mapping to a custom field")
 
 Response mapping makes the question responses directly available as part of the Survey Response entity and, therefore, readily available to reports and workflows. The mapping fields available on the survey response are listed in the following table.
 
@@ -153,4 +173,4 @@ Additionally, you can create your own customized dashboard. [!INCLUDE[proc-more-
 [Plan a survey](plan-survey.md)   
 [Design a basic survey](design-basic-survey.md)   
 [Design an advanced survey](design-advanced-survey.md)   
-[Distribute a survey](distribute-survey.md)
+[Distribute a survey](distribute-survey.md) 
