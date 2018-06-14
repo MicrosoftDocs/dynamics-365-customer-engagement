@@ -171,7 +171,9 @@ The board will reload and you will see the Filter panel in the left with the new
 
 The Retrieve Resources Query configuration is a [UFX Query](./Universal-FetchXML.md) used by the Resource Matching API. It takes as input the values entered in the Filter panel and dynamically constructs the correct FetchXML to find matching resources.
 
-> Below is the snippet that will be added to the Retrieve Resources Query to match by the Resources' Languages.
+> Below are the new snippets added to the Retrieve Resources Query to match and order by the Resources' Languages.
+
+#### Adding the joins from `bookableresource` to `lang_language`
 
 ```xml
 <link-entity name="lang_lang_language_bookableresource" from="bookableresourceid" to="bookableresourceid" alias="lang_primary" link-type="outer" ufx:if="$input/Languages/bag[1]">
@@ -222,11 +224,39 @@ Name | Description
 --- | ---
 **`link-entity`** | Create a join to the many-to-many relationship between the Resource and Language entities
 `ufx:if` | Only emit this FetchXML element (`link-entity`) if the XPath expression in this attribute returns a value
-**`filter`** and **`condition`** | Filter the many-to-many relationship records to only the ones that match the specified Language IDs
 **`attribute`** | Return the primary or secondary language matched
+**`filter`** and **`condition`** | Filter the many-to-many relationship records to only the ones that match the specified Language IDs
 **`ufx:value`** and `select` | Outputs the result of the XPath expression in the `select` attribute
 **`ufx:apply`** and `select` | Emit the child FetchXML elements for each result returned from the XPath expression in the `select` attribute
 **`value`** | Contains the ID of a Language record
+
+#### Determining a Resource's sort order
+
+```xml
+<bag>
+  <lang_order ufx:select="iif(lang_primary and lang_secondary, 1, iif(lang_primary, 2, iif(lang_secondary, 3, 4)))" />
+</bag>
+```
+
+After we retrieve the matching resources, based on each resource's assigned languages, we assign a new `lang_order` property to determine its sort order.
+
+Name | Description
+--- | ---
+**`lang_order`** | Create a new property in each Resource returned from the FetchXML query named `lang_order`
+`ufx:select`| Assign the result of the XPath expression in this attribute to the `lang_order` property. The `lang_primary` and `lang_secondary` properties, retrieved earlier in the query, is used together with the XPath `iif` function to determine the resource matching order.
+
+#### Ordering the results
+
+```xml
+<Resources ufx:select="order(Resources, 'lang_order')" />
+```
+
+UFX Queries are processed in sequential order. After the resources are retrieved through FetchXML, the results are assigned to the `Resources` property. We are sorting the results based on the `lang_order` property added earlier and re-assigning the sorted results to the `Resources` property.
+
+Name | Description
+--- | ---
+**`Resources`** | Re-assign the `Resources` property
+`ufx:select` | Assign the result of the XPath expression in this attribute to the `Resources` property. The XPath `order` function is used to order the `Resources` list on its `lang_order` property.
 
 > The default Retrieve Resources Query shipped with URS is a large query that supports all the resource constraints included with URS. For this exercise, we'll use only a subset of the default query and add Languages as the only filter.
 
@@ -305,8 +335,12 @@ Name | Description
       <accountimagepath ufx:select="$null" />
       <contactimagepath ufx:select="$null" />
       <userimagepath ufx:select="$null" />
+      
+      <lang_order ufx:select="iif(lang_primary and lang_secondary, 1, iif(lang_primary, 2, iif(lang_secondary, 3, 4)))" />
     </bag>
   </Resources>
+
+  <Resources ufx:select="order(Resources, 'lang_order')" />
 </bag>
 ```
 
@@ -470,34 +504,34 @@ Resource Cell Template:
 
 ```html
 <div class='resource-card-wrapper {{iif ResourceCellSelected "resource-cell-selected" ""}} {{iif ResourceUnavailable "resource-unavailable" ""}} {{iif IsMatchingAvailability "availability-match" ""}}'>
-	{{#if imagepath}}
-	<img class='resource-image' src='{{client-url}}{{imagepath}}' />
-	{{else}}
-	<div class='resource-image unknown-resource'></div>
-	{{/if}}
-	<div class='resource-info'>
-		<div class='resource-name primary-text ellipsis' title='{{name}}'>{{name}}</div>
-		<div class='secondary-text ellipsis'>
-			{{#if (eq (is-sa-grid-view) false) }}
-			<div class='booked-duration'>{{BookedDuration}}</div>
-			<div class='booked-percentage'>
-				{{BookedPercentage}}%
-				
-				{{#if lang_primary}}
-				<span style='color:green;'>&#10004;{{#if lang_secondary}} &#10033;{{/if}}</span>
-				{{else if lang_secondary}}
-				<span style='color:#ffe700;'>&#10004;</span>
-				{{/if}}            
-			</div>
-			{{/if}}
-		</div>
-		{{#if (eq (is-sa-grid-view) false) }}
-		<div class='matching-indicator'></div>
-		{{/if}}
-	</div>
-	{{#if (eq (is-sa-grid-view) false) }}
-	{{> resource-map-pin-template this }}
-	{{/if}}
+  {{#if imagepath}}
+  <img class='resource-image' src='{{client-url}}{{imagepath}}' />
+  {{else}}
+  <div class='resource-image unknown-resource'></div>
+  {{/if}}
+  <div class='resource-info'>
+    <div class='resource-name primary-text ellipsis' title='{{name}}'>{{name}}</div>
+    <div class='secondary-text ellipsis'>
+      {{#if (eq (is-sa-grid-view) false) }}
+      <div class='booked-duration'>{{BookedDuration}}</div>
+      <div class='booked-percentage'>
+        {{BookedPercentage}}%
+        
+        {{#if lang_primary}}
+        <span style='color:green;'>&#10004;{{#if lang_secondary}} &#10033;{{/if}}</span>
+        {{else if lang_secondary}}
+        <span style='color:#ffe700;'>&#10004;</span>
+        {{/if}}            
+      </div>
+      {{/if}}
+    </div>
+    {{#if (eq (is-sa-grid-view) false) }}
+    <div class='matching-indicator'></div>
+    {{/if}}
+  </div>
+  {{#if (eq (is-sa-grid-view) false) }}
+  {{> resource-map-pin-template this }}
+  {{/if}}
 </div>
 ```
 
