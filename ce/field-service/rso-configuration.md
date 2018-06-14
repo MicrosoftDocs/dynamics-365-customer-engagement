@@ -135,7 +135,8 @@ You can define when RSO should optimize requirements and/or bookings for selecte
 
 Give the schedule a logical name to express which resource requirements and bookable resources will be optimized. If a scope and goal have not been created, you will need to create those for this schedule. See the next section for details about scope and goals.
 
-![](media/rso-wa-job.png)
+> [!div class="mx-imgBorder"]
+> ![](media/rso-wa-job.png)
 
 - **Timer**: Defines how often this schedule will run.
 - **Timer Mode**: The reference instant from when the schedule will start the
@@ -160,7 +161,7 @@ The Filter section of the schedule is an advanced feature. The Filter window all
 
 If you configure your Timer and Filter as shown here, it means that RSO will run every 30 minutes after the previous job is completed—from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM except on Saturdays and Sundays.
 > [!div class="mx-imgBorder"]
-> ![](media/image10.png)
+> ![](media/rso-wa-territory.png)
 > [!div class="mx-imgBorder"]
 > ![](media/6006fd53284a7c51c4cfe8712be658bd.png)
 > [!div class="mx-imgBorder"]
