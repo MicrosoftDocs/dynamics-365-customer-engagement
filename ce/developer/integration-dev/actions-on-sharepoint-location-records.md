@@ -1,7 +1,7 @@
 ---
 title: "Actions on SharePoint location records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 ms.custom: ""
-ms.date: 10/31/2017
+ms.date: 06/14/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -18,7 +18,9 @@ author: "KumarVivek"
 ms.author: "kvivek"
 manager: "amyla"
 ---
+# Actions on SharePoint location records
 
+You can perform the actions described in this topic on Microsoft SharePoint location records.
 <a name="CRUDRecords"></a>
 
 ## Create, retrieve, update, and delete location records
