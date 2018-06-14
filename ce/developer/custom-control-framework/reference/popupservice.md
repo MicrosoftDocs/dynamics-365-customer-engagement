@@ -1,3 +1,21 @@
+---
+title: PopupService | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 8f8d46c1-cc61-48c3-8e15-71f36e1cada1
+---
+
 # PopupService
 
 <!-- IPopupService -->
@@ -13,7 +31,6 @@
 |[closePopup](popupservice/closepopup.md)|[!INCLUDE [closepopup-description](popupservice/includes/closepopup-description.md)]|
 |[createPopup](popupservice/createpopup.md)|[!INCLUDE [createpopup-description](popupservice/includes/createpopup-description.md)]|
 |[deletePopup](popupservice/deletepopup.md)|[!INCLUDE [deletepopup-description](popupservice/includes/deletepopup-description.md)]|
-|[getPopups](popupservice/getpopups.md)|[!INCLUDE [getpopups-description](popupservice/includes/getpopups-description.md)]|
 |[getPopupsId](popupservice/getpopupsid.md)|[!INCLUDE [getpopupsid-description](popupservice/includes/getpopupsid-description.md)]|
 |[openPopup](popupservice/openpopup.md)|[!INCLUDE [openpopup-description](popupservice/includes/openpopup-description.md)]|
 |[setPopupsId](popupservice/setpopupsid.md)|[!INCLUDE [setpopupsid-description](popupservice/includes/setpopupsid-description.md)]|
@@ -22,5 +39,5 @@
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
