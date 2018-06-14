@@ -41,29 +41,24 @@ ms.assetid: 0a11feb1-0b7d-4591-b7b3-8e45d4e58805
 
 **Type**: `string`
 
+## RequiredLevel
+
+**Type**: `RequiredLevel`
+
+The `RequiredLevel` has following values:
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|value|RequiredLevel|
+|---|---|
+|-1|Unknown|
+|0|None|
+|1|SystemRequired|
+|2|Applicationrequired|
+|3|Recommended|
 
 
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
