@@ -2,7 +2,7 @@
 title: "Stream data to Azure Event Hubs | Microsoft Docs"
 description: "Find out how you can stream events from Social Engagement to Event Hubs."
 keywords: "azure event hubs, event hub, stream data, connection string "
-ms.date: 02/12/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -52,10 +52,6 @@ Start building out your custom metrics or analysis based on the posts found by [
   
 > [!TIP]
 >  For an end-to-end example, see [Work with events from Social Engagement in Azure Event Hubs](work-with-event-hubs.md "Work with events from Social Engagement in Azure Event Hubs").  
-
-## Social Engagement as a data source in Customer Insights
-
-[Dynamics 365 for Customer Insights](https://docs.microsoft.com/dynamics365/customer-engagement/customer-insights/getstart) includes a connector to add Social Engagement as a data source. This connector creates and manages the connection between Social Engagement and Azure Event Hubs. For more information about the connector, see [Add Microsoft Social Engagement as a data source](https://docs.microsoft.com/dynamics365/customer-engagement/customer-insights/deploy/datasourcemse)
 
 <a name="disable_connection"></a>   
 ## Disable or re-enable a connection to Azure Event Hubs  

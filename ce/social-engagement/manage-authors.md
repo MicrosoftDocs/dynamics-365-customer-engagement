@@ -2,7 +2,7 @@
 title: "Manage authors in Social Engagement | Microsoft Docs"
 description: "Learn how to delete posts and export information about authors."
 keywords: "author management, delete author, block author, export author information"
-ms.date: 05/08/2018
+ms.date: 06/13/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
@@ -35,8 +35,8 @@ Deleting an author will result in:
 
 1. In **[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]** go to **Analytics** > **Overview**
 
-2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past two years.    
-   Since posts are stored for two years, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
+2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past 15 months.    
+   Since posts are stored for 15 months, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
 
 3. Select the **Author** filter [using the filter menu](use-filters.md#add-edit-or-remove-a-filter). 
 
@@ -57,8 +57,8 @@ To inform an author about personal social profile data that is stored in [!INCLU
 
 1. In **[!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)]** go to **Analytics** > **Overview**.
 
-2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past two years.    
-   Since posts are stored for two years, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
+2. [Define a custom time frame](use-filters.md#edit-the-analysis-time-frame) to include the past 15 months.   
+   Since posts are stored for 15 months, this ensures that you review all available data in [!INCLUDE[pn-social-engagement-short](../includes/pn-social-engagement-short.md)] and find the author if they published a post during that time. 
 
 3. Select the **Author** filter [using the filter menu](use-filters.md#add-edit-or-remove-a-filter). 
 
