@@ -107,8 +107,12 @@ With schedule board integration, you can:
 > [!div class="mx-imgBorder"]
 > ![](media/c7f68e46401aff45535576fb1176baf7.png)
 
+</br>
+
 > [!div class="mx-imgBorder"]
 > ![](media/0cf8f7f1138f3f06eed053bb175a2412.png)
+
+</br>
 
 **Feature Details**: After clicking **SCHEDULE BOARD**, you will see the
 following:
