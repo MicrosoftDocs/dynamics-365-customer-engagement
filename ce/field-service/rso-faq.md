@@ -108,8 +108,7 @@ There are various reasons for this. First, review the optimization results from 
   - Do their locations have geocodes?
     - Organizational Unit Address’ geocode is held in the related
             Organizational Unit.
-    - Resource Address’ geocode is held on the related resource’s
-            user/contact/etc.
+    - Resource Address’ geocode is held on the related resource’s user/contact/etc.
 - Characteristics:
   - Do your resources have any of the required characteristics and required
         skill levels?
@@ -142,16 +141,16 @@ Here are more details to analyze:
         evaluate based on similar criteria and if the Schedule Assistant finds
         results, RSO generally will, too.
 
-  > [!NOTE]
-  > There are some scenarios where the Schedule Assistant may find
+    > [!NOTE]
+    > There are some scenarios where the Schedule Assistant may find
         results and the RSO won’t.
-
-    - If your resources found as potential matches do not have **Optimize
+      > - If your resources found as potential matches do not have **Optimize
             Schedule** set to **Yes** (meaning RSO would not consider them).
-    - If your date windows on the requirement are outside of the scope of
+      > - If your date windows on the requirement are outside of the scope of
             your RSO run.
-    - If your territory for the requirement doesn’t match the resources’
+      > - If your territory for the requirement doesn’t match the resources’
             territory.
+            
 - Scheduling method:
   - Is the requirement’s **Scheduling Method** set to **Optimize**?
 
@@ -192,7 +191,7 @@ Here are more details to analyze:
   - Is there sufficient capacity to pick up all of the work in your scope?
     - If not, is there a valid reason that this requirement might not have
             been selected based on your goals over other possible requirements?
-    - Is there sufficient capacity based on the required characteristics and
+  - Is there sufficient capacity based on the required characteristics and
         resource preferences within the scope of the run (with all other
         contributing factors)?
 - Geolocation:
@@ -259,11 +258,8 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
     the following screenshot. There are five bookings (A, B, C, D, E) included
     in the **Scheduling Summary – Scheduled by RSO-WA** booking view when they
     are being scheduled, with this configuration:
-  - All five bookings will possibly be moved into the optimization range
-        start/end area if there is enough capacity.
-  - If a booking locked to **Time Range** overlaps with the optimization
-        range, the booking will be moved. If the locked time range is outside of
-        the optimization range, the booking will be ignored.
+  - All five bookings will possibly be moved into the optimization range start/end area if there is enough capacity.
+  - If a booking locked to **Time Range** overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
     > [!div class="mx-imgBorder"]
     > ![](media/c159161ca58dafa8a23d6ab26652119b.png)
@@ -279,12 +275,8 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
         optimization range start/end area if there is enough capacity.
   - Booking A is in the past before **Now or After** will be excluded from
         the scope.
-  - Booking B is overlapping with the **Now or After** line and will be
-        considered as virtually locked.
-  - For a booking locked to **Time Range**, if a locked time range overlaps
-        with the optimization range, the booking will be moved. If the locked
-        time range is outside of the optimization range, the booking will be
-        ignored.
+  - Booking B is overlapping with the **Now or After** line and will be considered as virtually locked.
+  - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
     > [!div class="mx-imgBorder"]
     > ![](media/e82afdbb4400441f0b017c94fc4888ae.png)
@@ -300,12 +292,8 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
         range start/end area if there is enough capacity.
   - Bookings A and B are in the past before **Now or After** will be
         excluded from the scope.
-  - Booking C is overlapping with the **Now or After** line and will be
-        considered as virtually locked.
-  - For a booking locked to **Time Range**, if a locked time range overlaps
-        with the optimization range, the booking will be moved. If the locked
-        time range is outside of the optimization range, the booking will be
-        ignored.
+  - Booking C is overlapping with the **Now or After** line and will be considered as virtually locked.
+  - For a booking locked to **Time Range**, if a locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
     > [!div class="mx-imgBorder"]
     > ![](media/218b39ff875c0414710b4ab54509e555.png)
@@ -316,12 +304,8 @@ With extensible scope, optimization range settings (Range Reference, Range Offse
     being scheduled, with this configuration:
   - Only one booking (E) will possibly be moved into the optimization range
         start/end area if there is enough capacity.
-  - Bookings A, B, C, and D are in the past before **Now or After** will be
-        excluded from the scope.
-  - For a booking locked to **Time Range**, if the locked time range
-        overlaps with the optimization range, the booking will be moved. If the
-        locked time range is outside of the optimization range, the booking will
-        be ignored.
+  - Bookings A, B, C, and D are in the past before **Now or After** will be excluded from the scope.
+  - For a booking locked to **Time Range**, if the locked time range overlaps with the optimization range, the booking will be moved. If the locked time range is outside of the optimization range, the booking will be ignored.
 
     > [!div class="mx-imgBorder"]
     > ![](media/9353549197ca4e3cb80867d3001d4ea5.png)
