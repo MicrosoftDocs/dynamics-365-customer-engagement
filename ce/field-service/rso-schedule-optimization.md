@@ -82,12 +82,11 @@ Once a schedule has been published, you can open it and monitor the scheduling o
     
     > [!div class="mx-imgBorder"]
     > ![](media/6de4990e642d4562abf53d7d7c611ae4.png)
-
-     
+ 
     > [!div class="mx-imgBorder"]
     > ![](media/1df29d0660d6ec43db91d6225ebed17a.png)
 
-1. You can view booking details as well as analytic charts showing how many
+2. You can view booking details as well as analytic charts showing how many
     hours of travel time versus how many work hours are scheduled for this run.
 
     > [!div class="mx-imgBorder"]
