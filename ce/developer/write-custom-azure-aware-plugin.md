@@ -9,7 +9,7 @@ ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
-<br /> - "Dynamics 365 (online)"
+- "Dynamics 365 (online)"
 ms.assetid: 35d8e05c-245a-4eff-bc5f-3a4ee8ffcb46
 caps.latest.revision: 30
 author: "JimDaly"
@@ -22,7 +22,7 @@ manager: "amyla"
 
 Writing a plug-in that works with [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] is similar to writing any other [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement plug-in. However, in addition to invoking any desired web service methods, the plug-in must include code to initiate posting the execution context to the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)].  
   
-<a name="bkmk_design"></a><br />
+<a name="bkmk_design"></a>
 
 ## Plug-in design considerations  
 For a plug-in that executes synchronously, the recommended design is for the plug-in to send a message to [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for the purpose of retrieving information from a listener application or other external service. Use of a two-way or REST contract on the [!INCLUDE[windows_azure_service_bus](../includes/windows-azure-service-bus.md)] endpoint allows a data string to be returned to the plug-in.  
