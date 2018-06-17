@@ -1,6 +1,6 @@
 ---
-title: Extending URS - Find Resources by Language - A Step by Step Guide | Microsoft Docs
-description: Extending URS - Find Resources by Language - A Step by Step Guide
+title: Extending URS - Find resources by language - a step by step guide | Microsoft Docs
+description: Extending URS - Find resources by language - a step by step guide
 keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
@@ -20,17 +20,17 @@ ms.technology:
 ms.assetid: b79f00b5-e90e-41d2-b761-92e255ef2da0
 ---
 
-# Extending URS: Find Resources by Language - A Step by Step Guide
+# Extending URS: Find resources by language - a step by step guide
 
-> This step by step guide is a companion to [Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)](understanding-and-customizing-resource-matching-in-urs.md)
+> This step by step guide is a companion to [Understanding and customizing resource matching in Universal Resource Scheduling (URS)](understanding-and-customizing-resource-matching-in-urs.md)
 
 In this step-by-step guide, we'll extend URS resources with a `Language` constraint. Consider an organization that wants to filter resources by the languages they speak. They also want to capture on the `Requirement` record the language required for the job. This constraint follows a similar pattern to the built-in `Territory` constraint. A new master entity `Language` will store the different languages a resource can speak. A `Resource` record can then be associated to many `Languages` through a many-to-many relationship entity. On the `Requirement` entity, we'll model this by creating two new lookup attributes: `Primary Language` and `Secondary Language`. When finding available resources for a requirement, only resources associated with either the `Primary Language` or the `Secondary Language` will be shown.
 
-## Creating the New Entities and Relationships
+## Creating the new entities and relationships
 
 In this section we'll create the new schema for the master `Language` entity and update the `Resource` and `Requirement` entities with the corresponding relationships to the new `Language` entity.
 
-### Create a New Publisher
+### Create a new Publisher
 
 1. In Dynamics 365, under Customizations, create a new Publisher
 1. Fill out the New Publisher form with the below details:
@@ -43,7 +43,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 1. Click Save and Close
 
-### Create a New Solution
+### Create a new Solution
 
 1. In Dynamics 365, under Customizations, create a new Solution
 1. Fill out the New Solution form with the below details:
@@ -57,7 +57,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 1. Click Save
 
-### Create the Language Entity
+### Create the Language entity
 
 1. In the Language solution, create a new Entity
 1. Fill out the New Entity form with the below details:
@@ -70,7 +70,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 1. Click Save
 
-### Create the Many-to-Many Relationship from the Resource Entity to the Language Entity
+### Create the many-to-many relationship from the Resource entity to the Language entity
 
 1. In the Language entity, create a new Many-to-Many Relationship
 1. Fill out the New Relationship form with the below details:
@@ -85,7 +85,7 @@ In this section we'll create the new schema for the master `Language` entity and
 1. Click Save and Close
 1. Close the Language entity form
 
-### Create the Relationships from the Requirement Entity to the Language Entity
+### Create the relationships from the Requirement entity to the Language entity
 
 1. In the Language solution, add the existing Resource Requirement entity to the solution (If presented with a Missing Required Components dialog, select No, do not include required components.)
 1. In the Resource Requirement entity, create a new Field
@@ -109,7 +109,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 1. Click Save and Close
 
-#### Update the Requirement Main Form
+#### Update the Requirement main form
 
 1. In the Resource Requirement entity, add the existing Information form to the entity's subcomponents (If presented with a Missing Required Components dialog, select No, do not include required components.)
 1. In the Information form, use the Field Explorer to add the two new attributes, Primary Language and Secondary Language to the form so users can enter this information as they create requirements
@@ -121,7 +121,7 @@ In this section we'll create the new schema for the master `Language` entity and
 
 In the above steps, we created the new Language entity. We then added new relationships with the Resource and Requirement entities. Resources can be related to multiple languages, since we added a many to many relationship between Language and Resource. Requirements can be related to two Languages since we added two lookup attributes on Requirement entity pointing to the new Language entity.
 
-#### Adding Data
+#### Adding data
 
 Use Advanced Find to add new records to the Language entity. You can then associate Resource records to the new Language records by opening a Resource record and navigating to the Language relationship in the navigation bar. For Requirement records, you can fill in the new Primary Language and Secondary Language fields on the Requirement form.
 
@@ -131,7 +131,7 @@ To filter resources in the Schedule Board with the new Language constraint, we'l
 
 ### Filter Layout Configuration
 
-> [!TIP
+> [!TIP]
 > For the below steps, it is helpful to use a text editor that supports XML syntax highlighting to make your changes, and then paste your changes back into the Universal Resource Scheduling editor.
 
 The Filter Layout configuration is an XML layout definition to customize the layout of the Filter panel.
@@ -166,7 +166,7 @@ Name | Description
 </filter>
 ```
 
-#### Create a new Languages Board
+#### Create a new Languages board
 
 In order to keep these changes isolated, we will create a brand new separate Schedule Board and implement the changes, but you can always make these changes on the default Schedule Board so that other Schedule Boards can automatically inherit these changes.
 
@@ -587,8 +587,8 @@ The board will reload with the updated configuration. The resource cell will now
 
 In the above steps we modified the Filter panel in the Schedule Assistant to show a filter control for the Language entity. We also modified the Retrieve Constraints Query to query the new Language attributes related to the Requirement entity, and shape them into a list. When a user selects to find availability for a Requirement record, the Filter panel will show the captured Language constraints. The values from the Filter panel are passed into the Retrieve Resources query and the FetchXML query returns only matching resources.
 
-### See Also
+### See also
 
 [Universal Fetch XML](universal-fetchxml.md)
 
-[URS Extensibility Release Notes](extensibility-release-notes.md)
+[URS extensibility release notes](extensibility-release-notes.md)

@@ -1,6 +1,6 @@
 ---
-title: Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS) | Microsoft Docs
-description: Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)
+title: Understanding and customizing resource matching in Universal Resource Scheduling (URS) | Microsoft Docs
+description: Understanding and customizing resource matching in Universal Resource Scheduling (URS)
 keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
@@ -20,7 +20,7 @@ ms.technology:
 ms.assetid: 91ab73b2-3f37-4c51-ac4a-1c0bc24c461a
 ---
 
-# Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)
+# Understanding and customizing resource matching in Universal Resource Scheduling (URS)
 
 Universal Resource Scheduling (URS), the scheduling engine underlying Field Service and Project service, ships with extensive resource matching capabilities to book the right resources for a job. While the URS solution ships with Field and Project service, URS can also be used to schedule any workstream in Dynamics 365. In this article we'll take a look at how the built-in resource constraints are implemented and how to customize URS with custom resource constraints.
 
@@ -36,7 +36,7 @@ A Resource record and its associated constraints are modeled through attributes 
 
 Another important entity in URS is the Resource Requirement (`msdyn_resourcerequirement`) entity. The Requirement entity records a requirement for work to be done. It captures parameters about the demanded work, such as the From and To date fields, restricting the time period in which the work can be done; the Duration field for how long the job is expected to take; the  Work Location indicating the location of the required work. The Requirement entity also captures resource constraints to restrict which resources can fulfill and be booked for this requirement. Like the Resource entity, resource constraints are expressed as attributes on the Requirement entity or as relationships to other entities. Territory is a lookup attribute from the Requirement entity to the Territory entity indicating the territory the work is to be done in and, therefore, we must find a resource from the same territory. Requirement Characteristic is a child relationship relating the Requirement to the Characteristic entity expressing the skills required to complete the job and, therefore, the requirement can be matched to only resources with matching skills.
 
-### Constraints Shipped in URS
+### Constraints shipped in URS
 
 Following is the list of constraints that ship with URS:
 
@@ -54,7 +54,7 @@ The Schedule Board shows a list of resources and the bookings assigned to them. 
 
 Using the Filter panel to filter resources is one method of finding matching resources. This method is used when you want to manually show a list of resources matching a specific set of constraints.
 
-### Finding Available Resources with the Schedule Assistant
+### Finding available resources with the Schedule Assistant
 
 In the bottom of the Schedule Board you'll find a list of Requirement records. You can select one of them and choose to find availability. This action opens the Schedule Assistant. The Schedule Assistant uses the constraints captured on the selected Requirement record to find matching resources that are available to be booked. Only resources matching the constraints on the Requirement and which are available in the requested time period specified on the Requirement are shown on the board.
 
@@ -62,9 +62,9 @@ A similar experience is available through a "Book" ribbon button available on th
 
 Unlike the previously mentioned Schedule Board mode, where you use the Filter panel to manually filters resources, in Schedule Assistant mode, the Filter panel automatically fills in the resource constraints from the Requirement record and only matching resources are shown.
 
-## How Constraints Matching Works
+## How constraints matching works
 
-### Constraints Entities
+### Constraints entities
 
 Some constraints are specified as attributes directly on the Resource entity while others are defined through relationships. Relationships are needed when a constraint is referencing a 2nd, master entity.
 
@@ -143,7 +143,7 @@ Job 2 | Financial Analyst
 
 Sometimes, the requirement may have a constraint modeled as a lookup attribute, while the resource may store the matching attributes on the N:N table. For example, In the case of Requirement, the Territory constraint is a lookup attribute to the Territory entity. A Requirement captures a demand for work and the territory the work will be done in. A Resource record, however, can be associated to many Territory records.
 
-### Constraints Property Bags
+### Constraints property bags
 
 When the user selects values in the Filter panel and clicks the Search button, the values are sent to the Resource Matching API. For multi-valued constraints, the Filter panel shows the data from the master entities Territory and Characteristic and includes the selected values in the constraints property bag.
 
@@ -171,40 +171,40 @@ Name | Value
 
 The Resource Matching API receives as input the constraints property bag and queries for matching resources. The matching resources are then shown in the Schedule Board or Schedule Assistant.
 
-### Summarizing the Entities Used for Resource Matching
+### Summarizing the entities used for resource matching
 
-- Sample Master Entities
+- Sample master entities
     - Territory - Referenced as a constraint
     - Characteristic - Referenced as a constraint
     - Resource - Assigned to Bookings
     - Resource Territory - Associates Resources to Territories
     - Resource Characteristic - Associates Resources to Characteristics
-- Sample Transactional Entities
+- Sample transactional entities
     - Requirement - Captures a demand for work and references Territory
     - Requirement Characteristic - Associates Requirements to Characteristics
 
-### Summarizing the Resource Matching Flows
+### Summarizing the resource matching flows
 
-- Manual Filtering. Filter Panel > Resource Matching API
+- Manual filtering. Filter Panel > Resource Matching API
 
     1. A user manually adds constraints in the Filter panel
     1. The constraints are sent to the Resource Matching API
     1. The filtered list of resources is shown
 
-- Requirement Filtering. Retrieve Requirement Constraints API > Filter Panel > Resource Matching API
+- Requirement filtering. Retrieve Requirement Constraints API > Filter Panel > Resource Matching API
 
     1. A user finds availability for a Requirement record (from within the Schedule Board or from the Book button in the ribbon).
     1. The constraints are retrieved through the Retrieve Requirement Constraints API and shown in the Filter panel.
     1. The constraints are sent to the Resource Matching API
     1. The filtered list of resources is shown
 
-## Extending URS with Custom Constraints
+## Extending URS with custom constraints
 
 URS can be extended with custom resource constraints. Extending constraints work the same way as the ones build into URS, they are modeled as attributes and relationships in Dynamics 365.
 
-> A step by step guide with code samples needed for each step is described in [Extending URS: Find Resources by Language - A Step by Step Guide](extending-urs-step-by-step.md)
+> A step by step guide with code samples needed for each step is described in [Extending URS: Find resources by language - a step by step guide](extending-urs-step-by-step.md)
 
-### Custom Constraints
+### Custom constraints
 
 We'll use "language" as an example scenario. An organization wants to filter resources by the language they speak. They also want to capture on the Requirement record the language required for a job. This constraint follows a similar pattern to the built-in Territory constraint. A new master entity Language stores the different languages a resource can speak. A Resource record can be associated to many Languages through a many-to-many relationship entity. On the Requirement entity, we'll create two new lookup attributes: `Required Language` and `Secondary Language`. When finding available resources for a requirement, only resources associated with either the `Required Language` or the `Secondary Language` will be shown.
 
@@ -232,7 +232,7 @@ Requirement | Duration | Territory | Required Language | Secondary Language
 Job 1 | 1 hr | New York | English | ---
 Job 2 | 1 hr | Seattle | Spanish | English
 
-### Extensibility Points
+### Extensibility points
 
 Based on the [resource matching flows](#summarizing-the-resource-matching-flows) described above, these are the extensibility points we need to modify for our custom constraints to work:
 
@@ -248,7 +248,7 @@ Based on the [resource matching flows](#summarizing-the-resource-matching-flows)
 
     The API will get as input the new Language constraints; it needs to return only resources speaking the selected languages.
 
-### Extensible Queries
+### Extensible queries
 
 Internally, the Retrieve Requirement Constraints API (#1 above) and the Resource Matching API (#3 above) use FetchXML to query data from Dynamics 365. The Retrieve Requirement Constraints API issues multiple queries to retrieve the Requirement record and its child constraints (e.g. Requirement Characteristic etc.) The Resource Matching API, based on the resource constraints passed to it as input, will dynamically construct the correct FetchXML query so only Resource records matching the specified FetchXML criteria are returned from Dynamics 365.
 
@@ -265,10 +265,10 @@ In the July 2017 update for URS, the Filter panel (#2 above) was updated to supp
 Another client side extensibility point made available in the July 2017 update is the resource cell. The resource cell is rendered through a customizable Handlebars.js template. The results from the Resource Matching API is made available to the template. Therefore, by customizing the query executed by the Resource Matching API, custom data can be rendered in the resource cell.
 
 > [!div class="nextstepaction"]
-> A step by step guide with code samples needed for each step is described in [Extending URS: Find Resources by Language - A Step by Step Guide](extending-urs-step-by-step.md)
+> A step by step guide with code samples needed for each step is described in [Extending URS: Find resources by language - a step by step guide](extending-urs-step-by-step.md)
 
-### See Also
+### See also
 
 [Universal Fetch XML](universal-fetchxml.md)
 
-[URS Extensibility Release Notes](extensibility-release-notes.md)
+[URS extensibility release notes](extensibility-release-notes.md)

@@ -1,6 +1,6 @@
 ---
-title: URS Extensibility Release Notes | Microsoft Docs
-description: URS Extensibility Release Notes
+title: URS extensibility release notes | Microsoft Docs
+description: URS extensibility release notes
 keywords: Universal Resource scheduling; Dynamics 365 for Field Service, Dynamics 365 for Project Service, Field Service, Project Service, Project Service Automation
 author: yonalow
 ms.author: yolow
@@ -20,7 +20,7 @@ ms.technology:
 ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
 ---
 
-# URS Extensibility Release Notes
+# URS extensibility release notes
 
 - [May 2018](#may-2018)
 - [April 2018](#april-2018)
@@ -33,7 +33,7 @@ ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
 
 ### Resource Cell Template
 
-#### Hide Resource Image
+#### Hide resource image
 
 The default Resource Cell Template shipped in this update includes support for automatically hiding the resource image if the resource row in the Schedule Board is configured to a small height. If you have a custom Resource Cell Template, add the below template updates to your Resource Cell Template configuration record.
 
@@ -62,7 +62,7 @@ The first line is new. The updated markup to hide the second row of text in the 
 
 ### Retrieve Constraints Query
 
-#### Ignore Proposed Bookings
+#### Ignore proposed bookings
 
 The default Retrieve Constraints Query shipped in this update includes a default value for the Ignore Proposed Bookings parameter used by the Schedule Assistant. To change the default value for this parameter, or if you have a custom Retrieve Constraints Query, update or add the below new property to the `Requirement` bag transformation part in your Retrieve Constraints Query configuration record.
 
@@ -77,7 +77,7 @@ The added `IgnoreProposedBookings` property:
 
 ### Schedule Assistant Filter Layout
 
-#### Ignore Proposed Bookings
+#### Ignore proposed bookings
 
 The default Schedule Assistant Filter Layout shipped in this update includes a new checkbox control to set the Ignore Proposed Bookings parameter used by the Schedule Assistant. If you have a custom Schedule Assistant Filter Layout, add the below new control to the last `fieldset` control section in your Schedule Assistant Filter Layout configuration record.
 
@@ -92,7 +92,7 @@ The new `IgnoreProposedBookings` control
 
 ### Retrieve Resources Query
 
-#### Schedule Board Visible Date Range
+#### Schedule Board visible date range
 
 Included in this update, the Retrieve Resources Query gets as input the visible date range of the Schedule Board. This lets the query use the board's date range in its database queries. The default Retrieve Resources Query shipped in this update has not changed. However, you can now customize the query to depend on the board's visible date range.
 
@@ -126,7 +126,7 @@ The below snippet (not shipped) shows how the Resource Cell Template can then be
 
 ### Schedule Assistant Filter Layout
 
-#### Sort by Total Availability
+#### Sort by total availability
 
 The default Schedule Assistant Filter Layout shipped in this update includes a new order option to sort the result of the Schedule Assistant by a resource's total availability. If you have a custom Schedule Assistant Filter Layout, add the below new order option to the `order` control in your Schedule Assistant Filter Layout configuration record.
 
