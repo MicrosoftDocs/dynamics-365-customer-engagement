@@ -5,7 +5,7 @@
  {
   var query_math = from c in svcContext.ContactSet
                    where c.ContactId != _contactId2
-                   &amp;&amp; c.Address1_Latitude != null &amp;&amp; 
+                   && c.Address1_Latitude != null && 
                    c.Address1_Longitude != null
                    select new
                    {

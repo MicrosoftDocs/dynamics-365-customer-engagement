@@ -5,8 +5,8 @@
  {
   var query_andor1 = from c in svcContext.ContactSet
                      where ((c.Address1_City == "Redmond" ||
-                     c.Address1_City == "Bellevue") &amp;&amp;
-                     (c.CreditLimit.Value != null &amp;&amp;
+                     c.Address1_City == "Bellevue") &&
+                     (c.CreditLimit.Value != null &&
                      c.CreditLimit.Value >= 200))
                      select c;
 
