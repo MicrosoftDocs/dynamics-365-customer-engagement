@@ -328,7 +328,7 @@ namespace Microsoft.Crm.Sdk.Samples
       var list_join = (from a in svcContext.AccountSet
                        join c in svcContext.ContactSet
                        on a.PrimaryContactId.Id equals c.ContactId
-                       where a.Name == "Contoso Ltd" &amp;&amp;
+                       where a.Name == "Contoso Ltd" &&
                        a.Address1_Name == "Contoso Pharmaceuticals"
                        select a).ToList();
       foreach (var c in list_join)
@@ -625,7 +625,7 @@ namespace Microsoft.Crm.Sdk.Samples
      using (ServiceContext svcContext = new ServiceContext(_serviceProxy))
      {
       var query_gele1 = from c in svcContext.ContactSet
-                        where c.CreditLimit.Value >= 200 &amp;&amp;
+                        where c.CreditLimit.Value >= 200 &&
                         c.CreditLimit.Value <= 400
                         select new
                         {
@@ -763,18 +763,18 @@ namespace Microsoft.Crm.Sdk.Samples
      System.Console.WriteLine();
 
      // *****************************************************************************************************************
-     //    LNQ        Using the &amp;&amp; and || operators 1
+     //    LNQ        Using the && and || operators 1
      // *****************************************************************************************************************
 
      System.Console.WriteLine();
-     System.Console.WriteLine("List of Contact Info using the &amp;&amp; and || operators 1");
+     System.Console.WriteLine("List of Contact Info using the && and || operators 1");
      System.Console.WriteLine("======================================");
      using (ServiceContext svcContext = new ServiceContext(_serviceProxy))
      {
       var query_andor1 = from c in svcContext.ContactSet
                          where ((c.Address1_City == "Redmond" ||
-                         c.Address1_City == "Bellevue") &amp;&amp;
-                         (c.CreditLimit.Value != null &amp;&amp;
+                         c.Address1_City == "Bellevue") &&
+                         (c.CreditLimit.Value != null &&
                          c.CreditLimit.Value >= 200))
                          select c;
 
@@ -786,7 +786,7 @@ namespace Microsoft.Crm.Sdk.Samples
      }
      System.Console.WriteLine("=====================================");
      // OUTPUT:
-     // List of Contact Info using the &amp;&amp; and || operators 1
+     // List of Contact Info using the && and || operators 1
      //======================================
      //Wilcox, Colin Redmond 300.0000
      //Smith, Brian Bellevue 30000.0000
@@ -1011,7 +1011,7 @@ namespace Microsoft.Crm.Sdk.Samples
      using (ServiceContext svcContext = new ServiceContext(_serviceProxy))
      {
       var query_wheretrans = from c in svcContext.ContactSet
-                             where c.ContactId == _contactId1 &amp;&amp;
+                             where c.ContactId == _contactId1 &&
                              c.Anniversary > DateTime.Parse("1/1/2010")
                              select new
                              {
@@ -1071,7 +1071,7 @@ namespace Microsoft.Crm.Sdk.Samples
      using (ServiceContext svcContext = new ServiceContext(_serviceProxy))
      {
       var query_orderbypicklist = from c in svcContext.ContactSet
-                                  where c.LastName != "Parker" &amp;&amp;
+                                  where c.LastName != "Parker" &&
                                   c.AccountRoleCode != null
                                   orderby c.AccountRoleCode, c.FirstName
                                   select new
@@ -1266,7 +1266,7 @@ namespace Microsoft.Crm.Sdk.Samples
      {
       var query_projections = from c in svcContext.ContactSet
                               where c.ContactId == _contactId1
-                              &amp;&amp; c.NumberOfChildren != null &amp;&amp; 
+                              && c.NumberOfChildren != null && 
                               c.Anniversary.Value != null
                               select new
                               {
@@ -1337,7 +1337,7 @@ namespace Microsoft.Crm.Sdk.Samples
      {
       var query_math = from c in svcContext.ContactSet
                        where c.ContactId != _contactId2
-                       &amp;&amp; c.Address1_Latitude != null &amp;&amp; 
+                       && c.Address1_Latitude != null && 
                        c.Address1_Longitude != null
                        select new
                        {
@@ -1474,7 +1474,7 @@ namespace Microsoft.Crm.Sdk.Samples
       var query_twowhere = from a in svcContext.AccountSet
                            join c in svcContext.ContactSet 
                            on a.PrimaryContactId.Id equals c.ContactId
-                           where c.LastName == "Smith" &amp;&amp; c.CreditOnHold != null
+                           where c.LastName == "Smith" && c.CreditOnHold != null
                            where a.Name == "Contoso Ltd"
                            orderby a.Name
                            select a;

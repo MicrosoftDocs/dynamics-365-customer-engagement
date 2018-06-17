@@ -46,7 +46,7 @@ namespace Microsoft.Crm.Sdk.Samples
 			catch (Exception)
 			{
 				//MessageBufferClient.Retrieve() will throw a timeout exception, if there are no packets to retrieve. So, do not throw if it is a TimeOutException.
-				//if (!(ex.GetType().Name.Equals("TimeoutException") &amp;&amp; ex.Message.Equals("Message could not be retrieved: RequestTimeout, Request Timeout")))
+				//if (!(ex.GetType().Name.Equals("TimeoutException") && ex.Message.Equals("Message could not be retrieved: RequestTimeout, Request Timeout")))
 				//{
 				//    throw ex;
 				//}
