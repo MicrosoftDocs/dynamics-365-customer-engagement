@@ -341,7 +341,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
             var salespersonRole = (from role in _context.RoleSet
                                    where role.Name == "Salesperson" 
-                                   &amp;&amp; role.BusinessUnitId.Id == _rootBusinessUnit.Id
+                                   && role.BusinessUnitId.Id == _rootBusinessUnit.Id
                                    select role).First();
 
             // assign role to the team

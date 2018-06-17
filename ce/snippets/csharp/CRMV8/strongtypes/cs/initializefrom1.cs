@@ -38,7 +38,7 @@
  initialized =
      (InitializeFromResponse)_serviceProxy.Execute(initialize);
 
- if (initialized.Entity != null &amp;&amp;
+ if (initialized.Entity != null &&
      initialized.Entity.LogicalName == Opportunity.EntityLogicalName)
  {
      var opportunity = (Opportunity)initialized.Entity;

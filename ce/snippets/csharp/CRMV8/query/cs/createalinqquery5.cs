@@ -2,7 +2,7 @@
 
 
  var queryContacts = from c in svcContext.ContactSet
-                     where (c.Address1_City == "Redmond") &amp;&amp;
+                     where (c.Address1_City == "Redmond") &&
                            (c.FirstName.Equals("Joe") ||
                             c.FirstName.Equals("John"))
                      select new Contact
