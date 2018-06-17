@@ -46,7 +46,7 @@
 
 
      if (canBeReferencedResponse.CanBeReferenced == true
-         &amp;&amp; canBeReferencingResponse.CanBeReferencing == true)
+         && canBeReferencingResponse.CanBeReferencing == true)
      {
          return true;
      }

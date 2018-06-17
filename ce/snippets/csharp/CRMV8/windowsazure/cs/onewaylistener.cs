@@ -151,7 +151,7 @@ namespace Microsoft.Crm.Sdk.Samples
             StringBuilder sb = new StringBuilder();
             foreach (KeyValuePair<string, object> parameter in parameterCollection)
             {
-                if (parameter.Value != null &amp;&amp; parameter.Value.GetType() == typeof(Entity))
+                if (parameter.Value != null && parameter.Value.GetType() == typeof(Entity))
                 {
                     Entity e = (Entity)parameter.Value;
                     sb.Append(parameter.Key + ": " + SerializeEntity(e));

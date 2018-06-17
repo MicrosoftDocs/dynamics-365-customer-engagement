@@ -653,11 +653,11 @@ Namespace Microsoft.Crm.Sdk.Samples
      Console.WriteLine()
 
      ' *****************************************************************************
-     '    LNQ        Using the &amp;&amp; and || operators 1
+     '    LNQ        Using the && and || operators 1
      ' *****************************************************************************
 
      Console.WriteLine()
-     Console.WriteLine("List of Contact Info using the &amp;&amp; and || operators 1")
+     Console.WriteLine("List of Contact Info using the && and || operators 1")
      Console.WriteLine("======================================")
      Using svcContext As New ServiceContext(_serviceProxy)
       Dim query_andor1 = From c In svcContext.ContactSet _
@@ -677,7 +677,7 @@ Namespace Microsoft.Crm.Sdk.Samples
      End Using
      Console.WriteLine("=====================================")
      '  OUTPUT:
-     '  List of Contact Info using the &amp;&amp; and || operators 1
+     '  List of Contact Info using the && and || operators 1
      ' ======================================
      ' Wilcox, Colin Redmond 300.0000
      ' Smith, Brian Bellevue 30000.0000
