@@ -16,4 +16,4 @@ applies_to:
 ms.assetid: bfa50b3a-ef71-4a03-8f43-8489b78d8191
 ---
 
-The interface for the context.factory
+The interface for the `context.factory`
