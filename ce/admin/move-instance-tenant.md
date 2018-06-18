@@ -27,14 +27,16 @@ There are no user-interface changes or version changes as part of this move. You
 
 > [!IMPORTANT]
 > For versions prior to Dynamics 365 (online) version 9.0, when moving individual Dynamics 365 (online) instances from one tenant to another, if that requires also a geographical region change, your tenant becomes a multiregional tenant. Regional features are enabled in the Dynamics 365 admin center.
+> 
 > You might need to reconfigure some applications and settings after Tenant to Tenant Migration such as Microsoft Dynamics 365 for Outlook, server-side sync, SharePoint integration, etc.
+>
 > Dynamics 365 (online) version 9.0 does not currently support tenant to tenant migration. Check back later for availability. 
 
 ## Impact of migrating between tenants
 
-When your organization is moved from one tenant to another, the URL does not need to change, as the source instance will be deleted in the end.
+When your organization is moved from one tenant to another, the URL does not need to change, as the source instance will be deleted after the move.
 
-In order to perform this operation, some information needs to be provided, for example:
+In order to perform this operation, you'll need to provide some information, such as:
 - What is the source tenant domain and its region? (example: EMEA, NA, APAC)
 - What is the destination tenant domain and its region? (example: EMEA, NA, APAC)
 - Does the destination tenant have a valid Dynamics 365 subscription?
@@ -44,9 +46,9 @@ In order to perform this operation, some information needs to be provided, for e
 
 If you do not have a Dynamics 365 subscription and/or trial in the destination tenant, then you will need to create one. You might need to purchase a new Dynamics 365 subscription in the destination tenant (or convert a trial to paid), if not already done.
 
-You will need to create a temporary instance or instances in the destination tenant, depending on how many source instances you are migrating.  Source and destination instances need to be 1:1 relation, Production vs non-Production (Sandbox). These instances should also be version 8.2.2 or below versions. The users to be migrated from one tenant to another, need to be created on the target tenant as well.
+You will need to create a temporary instance or instances in the destination tenant, depending on how many source instances you are migrating.  Source instance type and destination instance type need to match (production vs non-production (Sandbox)). These instances should also be version 8.2.2 or below. The users to be migrated from one tenant to another need to be created on the target tenant as well.
 
-The destination tenant needs an equal or higher number of active user licenses, Dynamics 365 instance licenses for the instances being migrated, and equal or higher storage as the source tenant.
+The destination tenant needs an equal or higher number of active user licenses, Dynamics 365 instance licenses for the instances being migrated, and equal or greater storage as the source tenant.
 
 ## How the move works
 
@@ -55,7 +57,7 @@ You’ll be provided with a list of prerequisites and post-requisites for your m
 
 | |Before the move<br/>Notification   |During the move<br/>Cut-over  |After the move<br/>Notification and support |
 |---------|---------|---------|---------|
-|What Microsoft does    |Your support representative or Account Manager will work with you to request a move and schedule it.         |Cut-over for the migration takes several hours, depending on the number of users and the amount of data. During this period, the organization is not accessible, so the cut-over should be scheduled during the evening or over a weekend.<br/>There is a step that will require your involvement, which is to provide a Dynamics 365 User Mapping File. This is requested in advance so that we can validate the users being moved before the migration takes place.         |You will be alerted by email or telephone when your instance is migrated to the new tenant.<br/>After the tenant migration is complete, your support representative or Account Manager will assist you to contact with billing to cancel and/or credit your previous subscription, if needed.         |
+|**What Microsoft does**   |Your support representative or Account Manager will work with you to request a move and schedule it.         |Cut-over for the migration takes several hours, depending on the number of users and the amount of data. During this period, the organization is not accessible, so the cut-over should be scheduled during the evening or over a weekend.<br/><br/>There is a step that will require your involvement, which is to provide a Dynamics 365 User Mapping File. This is requested in advance so that we can validate the users being moved before the migration takes place.         |You will be alerted by email or telephone when your instance is migrated to the new tenant.<br/><br/>After the tenant migration is complete, your support representative or Account Manager will assist you to contact with billing to cancel and/or credit your previous subscription, if needed.         |
 
 We will adhere to the terms of the [Microsoft Online Services Service Level Agreement](http://go.microsoft.com/fwlink/p/?LinkID=523897) for all moves. 
 
