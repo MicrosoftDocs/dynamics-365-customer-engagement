@@ -4,7 +4,7 @@
  using (ServiceContext svcContext = new ServiceContext(_serviceProxy))
  {
   var query_gele1 = from c in svcContext.ContactSet
-                    where c.CreditLimit.Value >= 200 &amp;&amp;
+                    where c.CreditLimit.Value >= 200 &&
                     c.CreditLimit.Value <= 400
                     select new
                     {

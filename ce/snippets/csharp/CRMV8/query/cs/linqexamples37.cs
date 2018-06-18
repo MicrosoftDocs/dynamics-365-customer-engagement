@@ -4,7 +4,7 @@
  using (ServiceContext svcContext = new ServiceContext(_serviceProxy))
  {
   var query_wheretrans = from c in svcContext.ContactSet
-                         where c.ContactId == _contactId1 &amp;&amp;
+                         where c.ContactId == _contactId1 &&
                          c.Anniversary > DateTime.Parse("1/1/2010")
                          select new
                          {
