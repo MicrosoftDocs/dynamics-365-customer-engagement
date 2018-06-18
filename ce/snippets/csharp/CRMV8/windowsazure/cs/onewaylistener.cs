@@ -31,23 +31,35 @@ namespace Microsoft.Crm.Sdk.Samples
         {
             ServiceBusEnvironment.SystemConnectivity.Mode = ConnectivityMode.Http;
 
-            Console.Write("Your Service Namespace: ");
+            // The one specified when creating the azure bus
+            Console.Write("Enter your Azure service namespace: ");
             string serviceNamespace = Console.ReadLine();
-            Console.Write("Your Issuer Name: ");
-            string issuerName = Console.ReadLine();
 
-            // The issuer secret is the Service Bus namespace management key.
-            Console.Write("Your Issuer Secret: ");
-            string issuerSecret = Console.ReadLine();
+            // The shared access key policy name
+            Console.Write("Enter your shared access policy name: ");
+            string sharedAccesKeyName = Console.ReadLine();
 
-            // Create the service URI based on the service namespace.
-            Uri address = ServiceBusEnvironment.CreateServiceUri(Uri.UriSchemeHttps, serviceNamespace, "RemoteService");
+            // The primary of they access key policy specificied above
+            Console.Write("Enter your shared access policy key: ");
+            string sharedAccessKey = Console.ReadLine();
+
+            // Input the same path that was specified in the Service Bus Configuration dialog
+            // when registering the Azure-aware plug-in with the Plug-in Registration tool.
+            Console.Write("Enter your endpoint path: ");
+            string servicePath = Console.ReadLine();
+
+            // Leverage the Azure API to create the correct URI.
+            Uri address = ServiceBusEnvironment.CreateServiceUri(
+                Uri.UriSchemeHttps,
+                serviceNamespace,
+                servicePath);
+            
             Console.WriteLine("Service address: " + address);
 
             // Create the credentials object for the endpoint.
-            TransportClientEndpointBehavior sharedSecretServiceBusCredential = new TransportClientEndpointBehavior() 
+            TransportClientEndpointBehavior sharedAccessServiceBusCredential = new TransportClientEndpointBehavior() 
             {
-                TokenProvider = TokenProvider.CreateSharedSecretTokenProvider(issuerName, issuerSecret)
+                TokenProvider = TokenProvider.CreateSharedAccessSignatureTokenProvider(sharedAccesKeyName, sharedAccessKey)
             };
             
             // Create the binding object.
@@ -65,7 +77,7 @@ namespace Microsoft.Crm.Sdk.Samples
             foreach (ServiceEndpoint endpoint in host.Description.Endpoints)
             {
                 endpoint.Behaviors.Add(serviceRegistrySettings);
-                endpoint.Behaviors.Add(sharedSecretServiceBusCredential);
+                endpoint.Behaviors.Add(sharedAccessServiceBusCredential);
             }
 
             // Open the service.
