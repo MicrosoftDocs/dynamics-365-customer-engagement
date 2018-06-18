@@ -16,4 +16,4 @@ applies_to:
 ms.assetid: 3768fd84-8ea1-4936-aeee-6eb7837966e7
 ---
 
-It defines the control's namespace, version abd display information. 
+It defines the control's namespace, version and display information. 
