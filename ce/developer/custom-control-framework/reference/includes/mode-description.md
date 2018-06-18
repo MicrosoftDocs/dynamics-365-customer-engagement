@@ -15,4 +15,5 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 8022c3a6-fa4c-4cfc-afad-a2589d0fbe53
 ---
+
 The interface for the `context.mode`
