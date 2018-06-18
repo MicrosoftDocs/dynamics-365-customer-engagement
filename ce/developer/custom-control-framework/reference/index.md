@@ -12,7 +12,7 @@ author: "nabuthuk"
 ms.author: "jdaly"
 manager: "amyla"
 ---
-# Custom Control Framework API Reference
+# PowerApps Control Framework API Reference
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -30,7 +30,6 @@ This section contains reference documentation for creating custom controls using
 |[Entity](entity.md)|[!INCLUDE [entity-description](includes/entity-description.md)]|
 |[EntityReference](entityreference.md)|[!INCLUDE [entityreference-description](includes/entityreference-description.md)]|
 |[Factory](factory.md)|[!INCLUDE [factory-description](includes/factory-description.md)]|
-|[KeyValuePair](keyvaluepair.md)|[!INCLUDE [keyvaluepair-description](includes/keyvaluepair-description.md)]|
 |[Linking](linking.md)|[!INCLUDE [linking-description](includes/linking-description.md)]|
 |[Formatting](formatting.md)|[!INCLUDE [formatting-description](includes/formatting-description.md)]|
 |[Mode](mode.md)|[!INCLUDE [mode-description](includes/mode-description.md)]|
@@ -40,10 +39,10 @@ This section contains reference documentation for creating custom controls using
 |[Popup](popup.md)|[!INCLUDE [popup-description](includes/popup-description.md)]|
 |[PopupService](popupservice.md)|[!INCLUDE [popupservice-description](includes/popupservice-description.md)]|
 |[Resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
-|[Sort](sort.md)|[!INCLUDE [sort-description](includes/sort-description.md)]|
+|[SortStatus](sort.md)|[!INCLUDE [sort-description](includes/sortstatus-description.md)]|
 |[UserSettings](usersettings.md)|[!INCLUDE [usersettings-description](includes/usersettings-description.md)]|
 |[Utility](utility.md)|[!INCLUDE [utility-description](includes/utility-description.md)]|
-|[WebApi](webapi.md)|[! INCLUDE [webapi-description](includes/webapi-ddescription.md)]|
+|[WebApi](webapi.md)|[!INCLUDE [webapi-description](includes/webapi-ddescription.md)]|
 
 ### Related topics
 
