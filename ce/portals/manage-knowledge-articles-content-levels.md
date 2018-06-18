@@ -3,7 +3,7 @@ title: "Manage knowledge articles using content access levels for portals in Dyn
 description: "Instructions to manage knowledge articles by using content access levels in a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 06/08/2018
+ms.date: 06/18/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +24,7 @@ When you create a new knowledge article, the Default content access level is app
 
 Portal navigation and search results consider the content access level(s) associated to the logged-in user. If the user does not have the necessary content access level permission to view a knowledge article, or if the user attempts to open an article under [faceted search conditions](improve-portal-search-faceted-search.md), the Article Unavailable message is displayed.
 
-The content access level based filtering is not enabled by default. To enable content access level based filtering of knowledge articles on your portal, set the value of the KnowledgeManagement/ContentAccessLevel/Enabled site setting to true.
+To enable content access level based filtering of knowledge articles on your portal, set the value of the **KnowledgeManagement/ContentAccessLevel/Enabled** site setting to true. By default, the value of the site setting is set to false.
 
 ## Create content access levels
 
