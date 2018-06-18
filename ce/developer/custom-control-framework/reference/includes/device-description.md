@@ -15,4 +15,5 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: de178280-a62e-4cbb-8421-21d792d8e194
 ---
+
 The interface for the `context.device`
