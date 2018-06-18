@@ -133,7 +133,7 @@ namespace Microsoft.Crm.Sdk.Samples
             Incident incident = _serviceProxy.Retrieve(Incident.EntityLogicalName, 
                 _caseIncidentId, new ColumnSet(allColumns: true)).ToEntity<Incident>();
 
-            if (incident.StateCode.HasValue &amp;&amp; 
+            if (incident.StateCode.HasValue && 
                 incident.StateCode == IncidentState.Resolved)
             {
                 Console.WriteLine("The incident was closed out as Resolved.");
