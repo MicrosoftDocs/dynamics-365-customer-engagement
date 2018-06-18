@@ -1,3 +1,21 @@
+---
+title: Property Element | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 45f4872d-c1d2-4c5a-8721-251b96ede370
+---
+
 # property element
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
@@ -8,15 +26,13 @@
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|`name`|Placeholder description property.name|`string`|yes|
+|`name`|Name of the property|`string`|yes|
 |`display-name-key`|Placeholder description property.display-name-key|`string`|yes|
-|`of-type`|Placeholder description property.of-type|See [Remarks](#remarks)|no|
-|`usage`|Placeholder description property.usage|`bound`,`input` or `output`|no|
-|`required`|Placeholder description property.name|`boolean`|no|
+|`of-type`|Defines the data type of the property|See [Remarks](#remarks)|no|
+|`usage`|The usage attribute identifies if the property is meant to represent an entity attribute that the control can change (bound) or read-only values (input)|`bound`,`input` or `output`|no|
+|`required`|Whether the property is required or not|`boolean`|no|
 |`hidden`|Placeholder description property.name|`boolean`|no|
-|`of-type-group`|Placeholder description property.name|`string`|no|
-|`of-same-type-as`|Placeholder description property.name|`string`|no|
-|`default-value`|Placeholder description property.name|`string`|no|
+|`of-type-group`|Defines the set of related data types identified by a single name|`string`|no|
 |`description-key`|Placeholder description property.name|`string`|no|
 
 ### Remarks
@@ -39,6 +55,6 @@ The `of-type` attribute value must be one of the following:
 
 ### Related topics
 
-[Custom Control Framework Manifest Schema Reference](index.md)<br />
-[Custom Control Framework API Reference](../reference/index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework Manifest Schema Reference](index.md)<br />
+[PowerApps Control Framework API Reference](../reference/index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
