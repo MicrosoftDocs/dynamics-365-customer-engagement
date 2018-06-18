@@ -125,7 +125,7 @@ To view email insights, go to **Marketing** > **Marketing execution** > **Market
 
 Here you can find a complete history of how various contacts have reacted to the selected message, which links they selected, and where they were when interacting with the message. You can also see delivery details.
 
-Because you can reuse an email message in several different journeys, the filter controls for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
+Because you can reuse an email message in several different journeys, the [filter settings](#filter) for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
 
 Marketing email messages provide the following insights tabs:
 
