@@ -49,7 +49,7 @@ After purchasing your license for [!INCLUDE[pn-marketing-business-app-module-nam
 > - Close all other browser windows and tabs before starting.
 > - Clear your browser cache before starting.
 > 
-> If you run into trouble while working with the setup wizard, see [First time setup FAQ and troubleshooting](setup-troubleshooting.md) for some possible solutions.
+> If you run into trouble while working with the setup wizard, see the [Administration FAQ](setup-troubleshooting.md) for some possible solutions.
 
 > [!IMPORTANT]
 > Your system is constrained by certain limits and quotas that apply to the number of contacts you can store, monthly email messages you can send, monthly Litmus previews you can view, and more. Please familiarize yourself with the terms and limits of the product before you begin to use it. The limits are different based on whether you are running a trial, preview, or subscribed version of the product.

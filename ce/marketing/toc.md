@@ -8,7 +8,6 @@
 #### [Sign up for a free trial](trial-signup.md)
 #### [Purchase a production version of Marketing](purchase-marketing.md)
 #### [Run the setup wizard](purchase-setup.md)
-#### [Setup FAQ and troubleshooting](setup-troubleshooting.md)
 #### [Open the Dynamics 365 admin center](dynamics-365-admin-center.md)
 #### [Manage Marketing instances](manage-marketing-instances.md)
 #### [Keep Marketing up to date](apply-updates.md)
@@ -32,6 +31,7 @@
 ### [Customize Marketing](customize.md)
 ### [Data protection and GDPR](gdpr.md)
 ### [How the app uses cookies](cookies.md)
+### [Administration FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
 

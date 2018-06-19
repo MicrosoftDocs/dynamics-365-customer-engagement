@@ -30,7 +30,6 @@ topic-status: Drafting
 <li>[Sign up for a free trial](trial-signup.md)</li>
 <li>[Purchase a production version of Marketing](purchase-marketing.md)</li>
 <li>[Run the setup wizard](purchase-setup.md)</li>
-<li>[Setup FAQ and troubleshooting](setup-troubleshooting.md)</li>
 <li>[Manage Marketing instances](manage-marketing-instances.md)</li>
 <li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Open the administration settings](open-advanced-settings.md)</li>
@@ -38,6 +37,7 @@ topic-status: Drafting
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
 <li>[Data protection and GDPR](gdpr.md)</li>
 <li>[How Marketing uses cookies](cookies.md)</li>
+<li>[Administration FAQ](setup-troubleshooting.md)</li>
 
 </td><td>
 
