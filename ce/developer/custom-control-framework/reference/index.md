@@ -9,8 +9,8 @@ applies_to:
   - "Dynamics 365 (online)"
 ms.assetid: 
 author: "nabuthuk"
-ms.author: "jdaly"
-manager: "amyla"
+ms.author: "nabuthuk"
+manager: "Jdaly"
 ---
 # PowerApps Control Framework API Reference
 
