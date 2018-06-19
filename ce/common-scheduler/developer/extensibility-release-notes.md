@@ -18,6 +18,9 @@ ms.technology:
   - "field-service"
   - "project-service"
 ms.assetid: a5df453e-9246-47f8-b979-a73371be838e
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ---
 
 # URS extensibility release notes

@@ -77,7 +77,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     ValidateResponse validateResp = (ValidateResponse)_serviceProxy.Execute(validatedReq);
                     
                     // Verify success
-                    if ((validateResp.Result != null) &amp;&amp; (validateResp.Result.Length > 0))
+                    if ((validateResp.Result != null) && (validateResp.Result.Length > 0))
                     {
                         Console.WriteLine("Validated the appointment.");                        
                     }

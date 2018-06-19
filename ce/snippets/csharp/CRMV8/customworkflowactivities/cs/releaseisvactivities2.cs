@@ -71,7 +71,7 @@
 
          //Check to see if this birthday occurred on a leap year
          bool leapYearAdjust = false;
-         if (nextBirthday.Month == 2 &amp;&amp; nextBirthday.Day == 29)
+         if (nextBirthday.Month == 2 && nextBirthday.Day == 29)
          {
              //Sanity check, was that year a leap year
              if (DateTime.IsLeapYear(nextBirthday.Year))
@@ -94,7 +94,7 @@
          nextBirthday = nextBirthday.AddYears(DateTime.Now.Year - nextBirthday.Year);
 
          //Check to see if the date was adjusted
-         if (leapYearAdjust &amp;&amp; DateTime.IsLeapYear(nextBirthday.Year))
+         if (leapYearAdjust && DateTime.IsLeapYear(nextBirthday.Year))
          {
              nextBirthday = nextBirthday.AddDays(-1);
          }
