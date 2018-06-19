@@ -1,1 +1,0 @@
-An object mapping a parameter definition to its key as defined in its manifest
