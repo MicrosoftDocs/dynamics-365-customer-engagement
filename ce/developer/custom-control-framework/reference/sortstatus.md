@@ -22,7 +22,7 @@ ms.assetid: 09f6d0a7-a95a-421e-a413-281d1d0d0e19
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE [sort-description](includes/sort-description.md)]
+[!INCLUDE [sort-description](includes/sortstatus-description.md)]
 
 
 ## name
