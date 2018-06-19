@@ -87,7 +87,7 @@
 ## [Delete instance](delete-instance.md)
 ## [Backup and restore instances](backup-restore-instances.md)
 ## [Support instances](support-instance.md) 
-## [Move instance](move-instance-tenant.md)
+<!-- ## [Move instance](move-instance-tenant.md) -->
 ## [Common Data Service instances](common-data-service-instances.md)
 ## [Edit properties of an instance](edit-properties-instance.md)
 ## [Multiple online instances or tenants](multiple-online-instances-tenants.md)
