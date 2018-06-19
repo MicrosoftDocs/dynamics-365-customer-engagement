@@ -1,1 +1,0 @@
-An object where each property represents a key that provides access to a value.
