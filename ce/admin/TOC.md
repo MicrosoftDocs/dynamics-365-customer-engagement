@@ -38,6 +38,7 @@
 ## [Plan for online deployment and administration](plan-for-deployment-and-administration.md)
 ## [Supported web browsers and mobile devices](supported-web-browsers-and-mobile-devices.md)
 ### [Web application requirements](web-application-requirements.md)
+### [Support for devices](device-support.md)
 # [Manage subscriptions, licenses, and user accounts](manage-subscriptions-licenses-user-accounts.md)
 ## [Reset a user's password](reset-users-password.md)
 ## [Manage email notifications](manage-email-notifications.md)
