@@ -1,18 +1,30 @@
+---
+title: Entity | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 26ac530c-3e16-4b12-b691-51036a512bff
+---
+
 # Entity
 
 <!-- IDataSetExposedRecord  -->
 
 [!INCLUDE [entity-description](includes/entity-description.md)]
 
-## Methods
 
-|Method | Description | 
-| ------------- |-------------|
-|[getNamedReference](entity/getnamedreference.md)|[!INCLUDE [getnamedreference-description](entity/includes/getnamedreference-description.md)]|
-|[getRecordId](entity/getrecordid.md)|[!INCLUDE [getrecordid-description](entity/includes/getrecordid-description.md)]|
-|[getValue](entity/getvalue.md)|[!INCLUDE [getvalue-description](entity/includes/getvalue-description.md)]|
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
