@@ -68,7 +68,7 @@ ms.custom:
 <li>[YouTube playlist](http://go.microsoft.com/fwlink/p/?LinkId=400720)</li>
 <li>[Community forum](http://go.microsoft.com/fwlink/p/?LinkId=400719)</li>
 <li>[Contact support](http://go.microsoft.com/fwlink/p/?LinkId=394391)</li>
-<li>[Request a trial] (https://experience.dynamics.com/trials/)</li>
+<li>[Request a trial](https://experience.dynamics.com/trials/)</li>
 
 </td>
 <td>
