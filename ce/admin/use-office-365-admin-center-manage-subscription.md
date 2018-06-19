@@ -1,7 +1,7 @@
 ---
 title: "Use the Office 365 admin center to manage your Dynamics 365 (online) subscription | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 06/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -16,7 +16,7 @@ author: "jimholtz"
 ms.author: "jimholtz"
 manager: "brycho"
 ---
-# Use the Office 365 admin center to manage your subscription
+# Use the Office 365 admin center to manage your subscription 
 
 [!INCLUDE[cc-applies-to-update-9-0-0](../includes/cc_applies_to_update_9_0_0.md)]<br/>[!INCLUDE[cc-applies-to-update-8-2-0](../includes/cc_applies_to_update_8_2_0.md)]
 
@@ -52,18 +52,14 @@ manager: "brycho"
  ![Dynamics 365 Administration Center - Updates tab](../admin/media/crm-admin-center-updates.png "Dynamics 365 Administration Center - Updates tab")  
   
 <a name="BKMK_ServiceHealth"></a>   
+
 ## Check your service health  
  You can quickly get real-time status of your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. The Service health page on the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
   
- Click **Health** > **Service health**, and select services with issues to get more information.  
-  
- ![Office 365 admin center dashboard service health](../admin/media/o365-admin-center-dashboard-service-health.png "Office 365 admin center dashboard service health")  
-  
- Click **View history** from the right-side menu to get more detailed information for each service arranged by date.  
-  
- ![Office 365 Admin Center service health history](../admin/media/office-365-admin-center-service-health-history.png "Office 365 Admin Center service health history")  
+For more information, see the topic [How do I check my online service health?](check-online-service-health.md).
   
 <a name="BKMK_ServiceMessages"></a>   
+
 ## Review your messages  
  Check out the Message center to see how to fix or prevent issues, plan for service changes, or just to stay informed of new or updated features.  
   
