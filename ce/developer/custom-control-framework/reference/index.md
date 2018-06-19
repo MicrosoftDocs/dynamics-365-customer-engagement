@@ -46,4 +46,4 @@ This section contains reference documentation for creating custom controls using
 
 ### Related topics
 
-[PowerApps Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
