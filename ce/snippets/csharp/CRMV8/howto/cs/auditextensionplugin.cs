@@ -35,7 +35,7 @@ namespace Microsoft.Crm.Sdk.Samples
             #endregion
 
             // case for Retrieve message
-            if (pluginContext.OutputParameters.Contains("BusinessEntity") &amp;&amp;
+            if (pluginContext.OutputParameters.Contains("BusinessEntity") &&
                 pluginContext.OutputParameters["BusinessEntity"] is Entity)
             {
                 var entity = ((Entity)pluginContext.OutputParameters["BusinessEntity"])
@@ -43,7 +43,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 RecordRead(orgService, entity, pluginContext.UserId);
             }
             // case for RetrieveMultiple message
-            else if (pluginContext.OutputParameters.Contains("BusinessEntityCollection") &amp;&amp;
+            else if (pluginContext.OutputParameters.Contains("BusinessEntityCollection") &&
                 pluginContext.OutputParameters["BusinessEntityCollection"] is EntityCollection)
             {
                 var entities = (EntityCollection)pluginContext

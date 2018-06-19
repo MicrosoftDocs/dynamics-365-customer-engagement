@@ -78,7 +78,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.Write("Press [Enter] to retrieve a message from the queue (type quit to exit): ");
                 string line = Console.ReadLine();
 
-                if (!string.IsNullOrEmpty(line) &amp;&amp; string.Equals(line, "quit", StringComparison.OrdinalIgnoreCase))
+                if (!string.IsNullOrEmpty(line) && string.Equals(line, "quit", StringComparison.OrdinalIgnoreCase))
                 {
                     break;
                 }
@@ -105,9 +105,9 @@ namespace Microsoft.Crm.Sdk.Samples
                             message.Properties.TryGetValue(keyRoot + requestNameKey, out requestNameValue);
 
                             // Filter message with specific message properties. i.e. EntityLogicalName=letter and RequestName=Create
-                            if (entityLogicalNameValue != null &amp;&amp; requestNameValue != null)
+                            if (entityLogicalNameValue != null && requestNameValue != null)
                             {
-                                if (entityLogicalNameValue.ToString() == "letter" &amp;&amp; requestNameValue.ToString() == "Create")
+                                if (entityLogicalNameValue.ToString() == "letter" && requestNameValue.ToString() == "Create")
                                 {
                                     Console.WriteLine("--------------------------------");
                                     Console.WriteLine(string.Format("Message received: Id = {0}", message.MessageId));
@@ -270,7 +270,7 @@ namespace Microsoft.Crm.Sdk.Samples
             StringBuilder sb = new StringBuilder();
             foreach (KeyValuePair<string, object> parameter in parameterCollection)
             {
-                if (parameter.Value != null &amp;&amp; parameter.Value.GetType() == typeof(Entity))
+                if (parameter.Value != null && parameter.Value.GetType() == typeof(Entity))
                 {
                     Entity e = (Entity)parameter.Value;
                     sb.Append(parameter.Key + ": " + SerializeEntity(e));
