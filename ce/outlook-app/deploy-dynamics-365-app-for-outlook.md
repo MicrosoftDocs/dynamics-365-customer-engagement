@@ -160,6 +160,9 @@ If you have custom security roles defined in Dynamics 365, users who have that s
 
 *[Support for 2013 versions of Office 365 ProPlus ended February 28, 2017.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28)
 
+> [!NOTE]
+>  Windows Server is not supported. 
+
 #### Macintosh
 - Outlook 2016 for Mac
 
