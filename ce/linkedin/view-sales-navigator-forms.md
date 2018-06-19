@@ -28,17 +28,13 @@ To use the Sales Navigator controls, you need to be a [LinkedIn Sales Navigator 
 
   ![Sign in to LinkedIn Sales Navigator dialog box](media/sign-in-sales-navigator.png "Sign in to LinkedIn Sales Navigator dialog box")
 
-4. If you are part of multiple Sales Navigator teams, select the team you want to use with the controls.
-
-  ![Select the Sales Navigator team to work with](media/select-team-sales-navigator.png "Select the Sales Navigator team to work with")
-
 ## Work with the Sales Navigator controls
 
-Both Lead and Account controls work by matching certain input parameters received from [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profiles and companies: 
+Both Lead and Account controls work by matching certain input parameters received from [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] with [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profiles and companies, such as: 
 
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead control: last name (primary), first name, email, job title, company name 
+- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead control: last name (primary), first name, email, job title, company name, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
 
-- [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website 
+ [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
 
 Once a match is found, subsequent loads are done through the record GUID association. Optionally, you can save recommended leads as new leads in Sales Navigator.
 
@@ -54,13 +50,14 @@ If the control doesn't load the correct profile on the first match, you can chan
 
 1. Select the “…” (more commands) menu.
 2. Select the **Not the right person** option. 
-3. Find the correct match on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with the search interface. Additionally, you can send [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members a request to **Connect** or **Message** them using InMail in Sales Navigator.
+3. Find the correct match on [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] with the search interface. 
+4. Additionally, you can send [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] members a request to **Connect** or **Message** them using InMail in Sales Navigator.
 
 > ![More options with Sales Navigator control](media/more-options-sales-navigator.png "More options with Sales Navigator control")
 
 ### Find a matching company for an account
 
-Sometimes, no company account is associated with a person's profile. You can use the search interface to find the right company and match it to the related account. 
+If no company account is associated with a person's profile, there's no company profile suggested. You can use the search interface to find the right company and match it to the related account. 
 
 ![Search a company and match it to an account](media/match-company-sales-navigator.png "Search a company and match it to an account")
 
