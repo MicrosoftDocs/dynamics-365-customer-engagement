@@ -56,7 +56,7 @@ manager: "brycho"
 ## Check your service health  
  You can quickly get real-time status of your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. The Service health page on the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
   
-For more information, see the topic [How do I check my online service health?](check-online-service-health.md)
+For more information, see [How do I check my online service health?](check-online-service-health.md)
   
 <a name="BKMK_ServiceMessages"></a>   
 
