@@ -56,7 +56,7 @@ manager: "brycho"
 ## Check your service health  
  You can quickly get real-time status of your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] and [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] services. The Service health page on the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)] provides a comprehensive view of the service health of your online services. If users are having trouble signing in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], check this page to see if there is a service outage.  
   
-For more information, see the topic [How do I check my online service health?](check-online-service-health.md).
+For more information, see the topic [How do I check my online service health?](check-online-service-health.md)
   
 <a name="BKMK_ServiceMessages"></a>   
 
@@ -68,12 +68,14 @@ For more information, see the topic [How do I check my online service health?](c
  ![Office 365 Admin Center Message Center](../admin/media/office-365-admin-center-message-center.png "Office 365 Admin Center Message Center")  
   
 <a name="BKMK_ServiceRequest"></a>   
+
 ## Request support  
  Having a problem with your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] service? You can create a support request to get the issue resolved.  
   
 More information: [Contact Technical Support](contact-technical-support.md)
 
 <a name="BKMK_ManageUsers"></a>   
+
 ## Manage users  
  Each user signs in to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] with an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID (more precisely, an [!INCLUDE[pn_azure_active_directory](../includes/pn-azure-active-directory.md)] user ID, see the following Note). Access to [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] is controlled through the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] user ID.  
   
