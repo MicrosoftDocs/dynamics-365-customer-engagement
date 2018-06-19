@@ -116,7 +116,6 @@ In addition to the **Volume** section, some tiles also show additional sections 
     > [!NOTE]
     > On selecting **View details**, the details you see may include results from several different customer jouneys&mdash;for example, if you open an email message that has been reused. To view detailed results for just one journey, use the [filter settings](#filter) to choose a journey name after the related record opens.
 
-
 <a name="email-insights"></a>  
 
 ## Email insights
