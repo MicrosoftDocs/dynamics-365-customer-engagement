@@ -2,7 +2,7 @@
 title: "Add LinkedIn Sales Navigator controls to forms | Microsoft Docs"
 description: "Add LinkedIn Sales Navigator controls to forms in Dynamics 365."
 keywords: "custom control, sales navigator, linkedin, integration, customization"
-ms.date: 06/10/2018
+ms.date: 06/25/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -25,7 +25,7 @@ manager: sakudes
 
 ## Add Sales Navigator controls to a form
 
-You can [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) to any form or entity in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
+You can use the web app to [add custom controls](https://docs.microsoft.com/dynamics365/customer-engagement/customize/use-custom-controls-data-visualizations) on any form or entity of a Unified Interface app in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name. 
 
 There are four different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls: 
  
@@ -59,11 +59,12 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Lead form in customization area](media/select-lead-form-sales-navigator.png "Lead form in customization area")
 
-5. To add a custom control, begin by adding a new field to the form, which will be bound to the primary attribute of the control (last name for Lead control and company name for Account control). Drag the field from the Field Explorer on the right to the desired position. For this example, we will start by dragging the **Last Name** field to the form.
+5. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (member name for Lead control and company name for Account control). In this example, we already have the **Name** field to the form.
 
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
-    > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.
+    > By default, controls on the Unified Interface show in two columns with the label and value side by side. To maximize the control so that it takes the full horizontal space available on the column, clear the **Display label** on the form check box on the **Display** tab.    
+    > ![Cleared checkbox to hide label on the form](media/display-label-form-cleared.png "Cleared checkbox to hide label on the form")
 
    ![Click path to Change Properties button](media/change-form-properties.png "Click path to Change Properties button")
 
@@ -81,7 +82,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Configure properties of a Sales Navigator control](media/configure-sales-navigator-control.png "Configure properties of a Sales Navigator control")
 
-9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the accuracy to find the right match.  
+9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the [accuracy to find the right match](https://www.linkedin.com/help/sales-navigator/answer/77041/leads-contacts-and-accounts-matching-between-sales-navigator-and-your-crm).  
 
   Select the **Last Name** property and select the ![Pencil icon](media/pencil-icon.png "Pencil icon") pencil icon. In the **Bind to a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
 
