@@ -316,7 +316,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         foreach (var key in keys)
                         {
                             Console.WriteLine("  Key {0} status {1}", key.SchemaName, key.EntityKeyIndexStatus);
-                            allKeysReady = allKeysReady &amp;&amp; (key.EntityKeyIndexStatus == EntityKeyIndexStatus.Active);
+                            allKeysReady = allKeysReady && (key.EntityKeyIndexStatus == EntityKeyIndexStatus.Active);
                         }
                     }
 
