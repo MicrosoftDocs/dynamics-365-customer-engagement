@@ -39,10 +39,10 @@ This section contains reference documentation for creating custom controls using
 |[Popup](popup.md)|[!INCLUDE [popup-description](includes/popup-description.md)]|
 |[PopupService](popupservice.md)|[!INCLUDE [popupservice-description](includes/popupservice-description.md)]|
 |[Resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
-|[SortStatus](sort.md)|[!INCLUDE [sort-description](includes/sortstatus-description.md)]|
+|[SortStatus](sort.md)|[!INCLUDE [sortstatus-description](includes/sortstatus-description.md)]|
 |[UserSettings](usersettings.md)|[!INCLUDE [usersettings-description](includes/usersettings-description.md)]|
 |[Utility](utility.md)|[!INCLUDE [utility-description](includes/utility-description.md)]|
-|[WebApi](webapi.md)|[!INCLUDE [webapi-description](includes/webapi-ddescription.md)]|
+|[WebApi](webapi.md)|[!INCLUDE [webapi-description](includes/webapi-description.md)]|
 
 ### Related topics
 
