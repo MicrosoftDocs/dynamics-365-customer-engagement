@@ -2,7 +2,7 @@
 title: "Integrate LinkedIn Sales Navigator solutions for Dynamics 365 | Microsoft Docs"
 description: "Learn how to integrate the Sales Navigator solutions with Dynamics 365."
 keywords: "integration, sales navigator, linkedin, versions"
-ms.date: 06/10/2018
+ms.date: 06/25/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -20,7 +20,7 @@ Digital transformation is real. Across every industry vertical, companies are re
 
 ## Unified Interface apps: Sales Navigator Controls for Dynamics 365 Unified Interface 
 
-Two [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are [available through AppSource](install-sales-navigator.md) and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). 
+Two flavors of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are [available through AppSource](install-sales-navigator.md) and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). You can configure your forms to show more than one control at the same time.  
 
 The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has the following sections, which you can choose to show or hide: 
 
@@ -32,7 +32,7 @@ The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead**
 
 - **Related Leads**: shows potential leads who are similar to the target person and might represent the relevant stakeholders around them. On a sales scenario, this insight is crucial to identify the potential decision makers for a deal. 
 
-The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile. This control has four modules, which can be mixed and matched: 
+The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile. This control has four modules, which you can choose to show or hide: 
 
 - **Top Card**: shows information about the company like company name, industry, location, and more. Additionally, provides capabilities to view the related account and save it in Sales Navigator. 
 
