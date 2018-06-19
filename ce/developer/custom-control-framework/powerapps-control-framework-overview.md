@@ -11,12 +11,12 @@ author: ""
 ms.author: "nabuthuk"
 manager: "jdaly"
 ---
-# Custom Control Framework Overview
+# PowerApps Control Framework Overview
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../includes/cc_applies_to_update_9_0_0.md)]
 
 
-This section contains documentation for creating custom controls using the PowerApps Control fFamework.
+This section contains documentation for creating custom controls using the PowerApps Control Famework.
 
 > [!IMPORTANT]
 > - [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
