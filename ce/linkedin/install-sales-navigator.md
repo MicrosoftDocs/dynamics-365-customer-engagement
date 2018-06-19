@@ -2,7 +2,7 @@
 title: "Install LinkedIn Sales Navigator for Dynamics 365 | Microsoft Docs"
 description: "Install the LinkedIn Sales Navigator for Dynamics 365 capabilities from AppSource"
 keywords: "installation, setup, sales navigator, appsource"
-ms.date: 06/10/2018
+ms.date: 06/25/2018
 ms.service: crm-online
 ms.topic: article
 applies_to:
@@ -20,7 +20,6 @@ manager: sakudes
 This installation is required to enable the sync between [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] Unified Interface apps and [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator.
 
 - You have a System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. 
-- You need a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] account. [Join now](https://www.linkedin.com/reg/join).
 - You have a [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365   
 --OR--   
 You will need to sign your team up for [LinkedIn Sales Navigator Team](https://business.linkedin.com/sales-solutions) or [LinkedIn Sales Navigator Enterprise](https://business.linkedin.com/sales-solutions).    
