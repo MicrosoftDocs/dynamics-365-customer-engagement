@@ -35,7 +35,7 @@ ms.custom:
   <ul>
   <li>[Service Manager](service-manager-guide.md)</li>
   <li>[Dynamics 365 for phones and tablets](../mobile-app/install-dynamics-365-for-phones-and-tablets.md)</li>
-  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365 - Blog](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)</li> 
+  <li>[Upgrade to the Customer Service Hub in Microsoft Dynamics 365](upgrade-ish-csh.md)</li> 
   </ul>
   </td>
 </tr>

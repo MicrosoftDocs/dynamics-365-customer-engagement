@@ -56,7 +56,7 @@ If you're using a mobile device with Dynamics 365 for phones and tablets install
 ![csh-mobile](media/ChooseAnApp_1.png "Customer Service Hub on mobile")
 
 > [!NOTE]
-> Looking forward to upgrade to the Customer Service Hub app? See the blog [Upgrade to the Customer Service Hub in Microsoft Dynamics 365](https://blogs.msdn.microsoft.com/crm/2018/02/16/upgrade-from-interactive-service-hub-to-the-customer-service-hub-in-microsoft-dynamics-365-online-version-9-0/)
+> Looking forward to upgrade to the Customer Service Hub app? See [Upgrade to the Customer Service Hub in Microsoft Dynamics 365](upgrade-ish-csh.md)
 
 ## Accessibility and GDPR in the Customer Service Hub 
 
