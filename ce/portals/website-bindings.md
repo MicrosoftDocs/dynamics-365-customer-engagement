@@ -63,7 +63,7 @@ For Azure websites and cloud services, the site name and virtual path values are
 <ServiceDefinition>
   <WebRole>
     <Sites>
-      <Site name="Adxstudio Portals">
+      <Site name="Dynamics Portals">
         <VirtualApplication name="customer-portal"/>
 ```
 
