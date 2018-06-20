@@ -197,7 +197,14 @@ Check back later for updates on supported platforms.
 Note: Dynamics 365, version 9 is not available on-premises.
 
 (1) Tracking email in compose mode and tracking appointments requires Exchange Server 2013 CU14 or [!INCLUDE [pn-exchange-server-2016-short](../includes/pn-exchange-server-2016-short.md)]. <br />
-(2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 or later. <br />
+
+(2) Tracking contacts is supported only on Exchange Server 2016 CU3 and Outlook 2016 16.0.6741.1000 C2R version or later. 
+Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs installed. For more information, see these KB articles:
+- [KB3118330](https://support.microsoft.com/en-us/help/3118330/october-4,-2016,-update-for-office-2016-kb3118330)
+- [KB3118374](https://support.microsoft.com/en-us/help/3118374/october-4,-2016,-update-for-office-2016-kb3118374)
+- [kb3118375](https://support.microsoft.com/en-us/help/3118375/october-4,-2016,-update-for-outlook-2016-kb3118375)
+- [kb3115500](https://support.microsoft.com/en-us/help/3115500/october-4,-2016,-update-for-office-2016-kb3115500) <br />
+ 
 (3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
 (4) Supported on iPhones 6S or higher, with iOS 8 or higher.
 
