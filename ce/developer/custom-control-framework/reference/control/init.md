@@ -27,7 +27,7 @@ manager: "jdaly"
 | ------------- |----|--------|-----------|
 |context|[Context](../context.md)|yes|The *Input Properties* containing the parameters, control metadata and interface functions.|
 |notifyOutputChanged|`function`|no|The method for this control to notify the framework that it has new outputs|
-|state|[KeyValuePair](../keyvaluepair.md)|no|The control state for this control saved from *setControlState* in the last session|
+|state|`Dictionary`|no|The control state for this control saved from *setControlState* in the last session|
 |container|[HTMLDivElement](https://developer.mozilla.org/docs/Web/API/HTMLDivElement)|no|The div element to render|
 
 
