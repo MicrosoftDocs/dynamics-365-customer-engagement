@@ -202,8 +202,8 @@ Note: Dynamics 365, version 9 is not available on-premises.
 Or, Outlook 2016 MSI version 16.0.4444.1000 or higher with the following KBs installed. For more information, see these KB articles:
 - [KB3118330](https://support.microsoft.com/en-us/help/3118330/october-4,-2016,-update-for-office-2016-kb3118330)
 - [KB3118374](https://support.microsoft.com/en-us/help/3118374/october-4,-2016,-update-for-office-2016-kb3118374)
-- [kb3118375](https://support.microsoft.com/en-us/help/3118375/october-4,-2016,-update-for-outlook-2016-kb3118375)
-- [kb3115500](https://support.microsoft.com/en-us/help/3115500/october-4,-2016,-update-for-office-2016-kb3115500) <br />
+- [KB3118375](https://support.microsoft.com/en-us/help/3118375/october-4,-2016,-update-for-outlook-2016-kb3118375)
+- [KB3115500](https://support.microsoft.com/en-us/help/3115500/october-4,-2016,-update-for-office-2016-kb3115500) <br />
  
 (3) Supported only on Outlook 2016 16.0.7426.1049 or later.<br />
 (4) Supported on iPhones 6S or higher, with iOS 8 or higher.
