@@ -15,4 +15,5 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 5e559598-c465-483b-a993-33909a66d70c
 ---
+
 Get the current formatted value of this record column.
