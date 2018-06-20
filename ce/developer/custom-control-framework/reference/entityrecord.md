@@ -32,7 +32,6 @@ ms.assetid: 9efccace-015b-4d45-b893-3e794c254e36
 |[getNamedreference](entityrecord/getnamedreference.md)|[!INCLUDE [getnamedreference-description](entityrecord/includes/getnamedreference-description.md)]|
 
 
-
 ### Related topics
 
 [PowerApps Control Framework API Reference](index.md)<br />
