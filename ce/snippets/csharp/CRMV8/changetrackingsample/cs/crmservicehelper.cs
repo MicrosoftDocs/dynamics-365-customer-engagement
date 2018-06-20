@@ -63,7 +63,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     return false;
                 if (this.EndpointType != c.EndpointType)
                     return false;
-                if (null != this.Credentials &amp;&amp; null != c.Credentials)
+                if (null != this.Credentials && null != c.Credentials)
                 {
                     if (this.EndpointType == AuthenticationProviderType.ActiveDirectory)
                     {
@@ -231,7 +231,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 {
                     addConfig = true;
                 }
-                else if (configNumber > 0 &amp;&amp; configNumber <= configurations.Count)
+                else if (configNumber > 0 && configNumber <= configurations.Count)
                 {
                     // Return the organization Uri.
                     config = configurations[configNumber - 1];
@@ -552,7 +552,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 // An on-premises Microsoft Dynamics CRM server deployment. 
                 case AuthenticationProviderType.ActiveDirectory:
                     // Uses credentials from windows credential manager for earlier saved configuration.
-                    if (isCredentialExist &amp;&amp; !String.IsNullOrWhiteSpace(config.OrganizationName))
+                    if (isCredentialExist && !String.IsNullOrWhiteSpace(config.OrganizationName))
                     {
                         domain = config.Credentials.Windows.ClientCredential.Domain;
                         userName = config.Credentials.Windows.ClientCredential.UserName;
@@ -572,7 +572,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         }
                     }
                     // Uses default credentials saved in windows credential manager for current organization.
-                    else if (!isCredentialExist &amp;&amp; !String.IsNullOrWhiteSpace(config.OrganizationName))
+                    else if (!isCredentialExist && !String.IsNullOrWhiteSpace(config.OrganizationName))
                     {
                         return null;
                     }
@@ -587,7 +587,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
                             // If user do not choose to enter user name, 
                             // then try to use default credential from windows credential manager.
-                            if (domainAndUserName.Length == 1 &amp;&amp; String.IsNullOrWhiteSpace(domainAndUserName[0]))
+                            if (domainAndUserName.Length == 1 && String.IsNullOrWhiteSpace(domainAndUserName[0]))
                             {
                                 return null;
                             }
@@ -638,8 +638,8 @@ namespace Microsoft.Crm.Sdk.Samples
                     // For OnlineFederation environments, initially try to authenticate with the current UserPrincipalName
                     // for single sign-on scenario.
                     else if (config.EndpointType == AuthenticationProviderType.OnlineFederation 
-                        &amp;&amp; config.AuthFailureCount == 0 
-                        &amp;&amp; !String.IsNullOrWhiteSpace(UserPrincipal.Current.UserPrincipalName))
+                        && config.AuthFailureCount == 0 
+                        && !String.IsNullOrWhiteSpace(UserPrincipal.Current.UserPrincipalName))
                     {
                         config.UserPrincipalName = UserPrincipal.Current.UserPrincipalName;
                         return null;
@@ -737,7 +737,7 @@ namespace Microsoft.Crm.Sdk.Samples
             // For organization service Uri, if service management exists 
             // then use it from cache. Otherwise create new service management for current organization.
             IServiceManagement<TService> serviceManagement =
-                (isOrgServiceRequest &amp;&amp; null != currentConfig.OrganizationServiceManagement) ?
+                (isOrgServiceRequest && null != currentConfig.OrganizationServiceManagement) ?
                 (IServiceManagement<TService>)currentConfig.OrganizationServiceManagement :
                 ServiceConfigurationFactory.CreateManagement<TService>(
                 serviceUri);
@@ -967,7 +967,7 @@ namespace Microsoft.Crm.Sdk.Samples
                         }
                         int orgNumber;
                         Int32.TryParse(input, out orgNumber);
-                        if (orgNumber > 0 &amp;&amp; orgNumber <= orgs.Count)
+                        if (orgNumber > 0 && orgNumber <= orgs.Count)
                         {
                             config.OrganizationName = orgs[orgNumber - 1].FriendlyName;
                             // Return the organization Uri.
@@ -1017,7 +1017,7 @@ namespace Microsoft.Crm.Sdk.Samples
             {
                     // If authentication failed using current UserPrincipalName, 
                     // request UserName and Password to try to authenticate using user credentials.
-                    if (!String.IsNullOrWhiteSpace(config.UserPrincipalName) &amp;&amp; 
+                    if (!String.IsNullOrWhiteSpace(config.UserPrincipalName) && 
                         ex.Message.Contains("Access is denied."))
                     {
                         config.AuthFailureCount += 1;
@@ -1076,7 +1076,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 switch (endpointType)
                 {
                     case AuthenticationProviderType.ActiveDirectory:
-                        if (null != cred &amp;&amp; cred.UserName.Contains("\\"))
+                        if (null != cred && cred.UserName.Contains("\\"))
                         {
                             String[] domainAndUser = cred.UserName.Split('\\');
                             result.Windows.ClientCredential = new System.Net.NetworkCredential()
@@ -1697,7 +1697,7 @@ namespace Microsoft.Crm.Sdk.Samples
         /// </summary>
         public void RenewTokenIfRequired()
         {
-            if (null != this._proxy.SecurityTokenResponse &amp;&amp;
+            if (null != this._proxy.SecurityTokenResponse &&
                 DateTime.UtcNow.AddMinutes(15) >= this._proxy.SecurityTokenResponse.Response.Lifetime.Expires)
             {
                 try

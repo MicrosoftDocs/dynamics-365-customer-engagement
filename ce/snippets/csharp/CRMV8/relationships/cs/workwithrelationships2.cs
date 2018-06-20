@@ -7,7 +7,7 @@
  bool campaignEligibleParticipate =
      EligibleCreateManyToManyRelationship("campaign");
 
- if (accountEligibleParticipate &amp;&amp; campaignEligibleParticipate)
+ if (accountEligibleParticipate && campaignEligibleParticipate)
  {
 
      CreateManyToManyRequest createManyToManyRelationshipRequest =

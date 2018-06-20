@@ -20,7 +20,7 @@ manager: "amyla"
 
 [!INCLUDE[](../includes/cc_applies_to_update_9_0_0.md)]
 
-[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement supports three security models for authentication: claims-based authentication, [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication, and OAuth 2.0. The type of authentication used depends on the type of deployment your application is accessing, [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] or [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)], and if your application is using the Web API or the Organization Service.  
+[!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] Customer Engagement supports three security models for authentication: claims-based authentication, [!INCLUDE[pn_Active_Directory](../includes/pn-active-directory.md)] authentication, and OAuth 2.0. The type of authentication used depends on the type of deployment your application is accessing (Online, on-premises, or internet facing deployment) and if your application is using the Web API or the Organization Service.  
   
  In addition to using the correct security model, applications must establish a communication channel with the [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] web services on the target deployment. The SDK run-time assemblies use [Windows Communication Foundation](https://msdn.microsoft.com/netframework/aa663324.aspx) ([!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)]) technology to establish this communication channel.  
   

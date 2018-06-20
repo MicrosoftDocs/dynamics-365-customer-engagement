@@ -160,6 +160,9 @@ If you have custom security roles defined in Dynamics 365, users who have that s
 
 *[Support for 2013 versions of Office 365 ProPlus ended February 28, 2017.](https://support.microsoft.com/help/3199744/support-for-the-2013-versions-of-office-365-proplus-ends-february-28)
 
+> [!NOTE]
+>  Windows Server is not supported. 
+
 #### Macintosh
 - Outlook 2016 for Mac
 
@@ -295,6 +298,25 @@ Note: Dynamics 365, version 9 is not available on-premises.
 1. If you don't see [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] when you click the **Settings** button ![Settings button](../admin/media/mp-ua-r16-settings.png "Settings button"), check that you've enabled the feature. See [Enable](#enable).
 
 2. If you or your users have trouble installing [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], it may be because their [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox is currently linked to another [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] organization. An [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox (email address) can only synchronize appointments, contacts, and tasks with one organization, and a user that belongs to that organization can only synchronize appointments, contacts, and tasks with one [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] mailbox.  You can overwrite the setting stored in [!INCLUDE[pn_Exchange](../includes/pn-exchange.md)] if you want to change the primary synchronizing organization. For more information, see [this KB article.](https://support.microsoft.com/en-gb/help/3211627/incomingemailrejected-error-when-attempting-to-install-dynamics-365-app-for-outlook)
+
+## Limitations  
+
+#### Dashboard customization in Dynamics 365 App for Outlook 
+
+The following dashboard customizations are not supported currently.
+
+-  In Dynamics 365 App for Outlook, you will not be able to switch dashboards by navigating to the main menu and then **Home**.
+   Choosing the Dashboards option will redirect back to the default App for Outlook dashboard.
+
+   ![Dynamics 365 App for Outlook Dashboard](media/CustomDashboard.PNG "Dynamics 365 App for Outlook Dashboard")
+
+
+- Switching the default dashboard for App for Outlook in App designer
+
+  System customizers have access to the App Designer for Dynamics 365 App for Outlook as it is one of the App Modules in version 9.0.
+We recommend that you do not change the default App for Outlook dashboard as that is not a supported.
+
+  ![App for Outlook App Designer Dashboard](media/AppDesignerDashboard.PNG "App for Outlook App Designer Dashboard")
   
 <a name="BKMK_Explore"></a>   
 

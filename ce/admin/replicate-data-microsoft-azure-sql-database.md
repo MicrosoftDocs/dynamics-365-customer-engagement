@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/29/2018
+ms.date: 06/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -14,7 +14,7 @@ ms.assetid: a70feedc-12b9-4a2d-baf0-f489cdcc177d
 caps.latest.revision: 46
 author: "Mattp123"
 ms.author: "matp"
-manager: "brycho"
+manager: "kvivek"
 ---
 # Replicate data to Azure SQL Database
 
@@ -368,6 +368,15 @@ The statement has been terminated.
 -   To avoid synchronization errors due to resource throttling, we recommend that you have an [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)] Premium P1 or better plan when you use the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Azure SQL Database resource limits](https://docs.microsoft.com/azure/sql-database/sql-database-resource-limits) and [SQL Database Pricing](https://azure.microsoft.com/pricing/details/sql-database/)  
   
 -   Set the [!INCLUDE[pn_Azure_SQL_Database_long](../includes/pn-azure-sql-database-long.md)] to use read committed snapshot isolation (RCSI) for workloads running concurrently on the destination database that execute long running read queries, such as reporting and ETL jobs. This reduces the occurrence of timeout errors that can occur with the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] due to read\write conflicts.  
+
+-	To help improve query performance we recommend the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] database max degree of parallelism (MAXDOP) be set to 1. More information: [MSDN: Server Memory Options](https://msdn.microsoft.com/library/ms178067.aspx)
+
+-	Frequently assess the amount of fragmentation, and when necessary, rebuild the indexes in the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] database. More information: [Reorganize and Rebuild Indexes](https://docs.microsoft.com/sql/relational-databases/indexes/reorganize-and-rebuild-indexes?view=sql-server-2017)
+
+-	Periodically update database statistics on tables and indexed views in the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] database. More information: [Update Statistics](https://docs.microsoft.com/sql/relational-databases/statistics/update-statistics?view=sql-server-2017) 
+
+-	Monitor the [!INCLUDE[cc_Data_Export_Service](../includes/cc-data-export-service.md)] database’s utilization. More information: [Perf monitoring](https://docs.microsoft.com/azure/sql-database/sql-database-single-database-monitor)
+
   
 ## About data synchronization latency
 
@@ -411,6 +420,56 @@ When the above conditions are met, 15 minutes is a typical synchronization laten
   
 > [!IMPORTANT]
 >  An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription can have multiple [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Ids. Make sure that you select the correct [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Id that is associated with the instance of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that you will use for data export.  
+
+```powershell
+# -------------------------------------------------------------------------------- #
+	#  Provide the value for the following parameters before executing the script
+$subscriptionId = 'ContosoSubscriptionId'	
+$keyvaultName = 'ContosoKeyVault'
+	$secretName = 'ContosoDataExportSecret'
+	$resourceGroupName = 'ContosoResourceGroup1'
+	$location = 'West US'
+	$connectionString = 'AzureSQLconnectionString'
+$organizationIdList = 'ContosoSalesOrg1_id, ContosoSalesOrg2_id'
+$tenantId = 'tenantId'
+	# -------------------------------------------------------------------------------- #
+
+# Login to Azure account, select subscription and tenant Id
+Login-AzureRmAccount
+Set-AzureRmContext -TenantId $tenantId -SubscriptionId $subscriptionId
+
+# Create new resource group if not exists.
+$rgAvail = Get-AzureRmResourceGroup -Name $resourceGroupName -Location $location -ErrorAction SilentlyContinue
+if(!$rgAvail){
+    New-AzureRmResourceGroup -Name $resourceGroupName -Location $location
+}
+
+# Create new key vault if not exists.
+$kvAvail = Get-AzureRmKeyVault -VaultName $keyvaultName -ResourceGroupName $resourceGroupName -ErrorAction SilentlyContinue
+if(!$kvAvail){
+    New-AzureRmKeyVault -VaultName $keyvaultName -ResourceGroupName $resourceGroupName -Location $location
+    # Wait few seconds for DNS entry to propagate
+    Start-Sleep -Seconds 15
+}
+
+# Create tags to store allowed set of Organizations.
+$secretTags = @{}
+foreach ($orgId in $organizationIdList.Split(',')) {
+    $secretTags.Add($orgId.Trim(), $tenantId)
+}
+
+# Add or update a secret to key vault.
+$secretVaule = ConvertTo-SecureString $connectionString -AsPlainText -Force
+$secret = Set-AzureKeyVaultSecret -VaultName $keyvaultName -Name $secretName -SecretValue $secretVaule -Tags $secretTags
+
+# Authorize application to access key vault.
+$servicePrincipal = 'b861dbcc-a7ef-4219-a005-0e4de4ea7dcf'
+Set-AzureRmKeyVaultAccessPolicy -VaultName $keyvaultName -ServicePrincipalName $servicePrincipal -PermissionsToSecrets get
+
+# Display secret url.
+Write-Host "Connection key vault URL is "$secret.id.TrimEnd($secret.Version)""
+```
+
 
 <a name="Delete_DEP"></a>   
 ## How to delete all Data Export Profile tables and stored procedures
