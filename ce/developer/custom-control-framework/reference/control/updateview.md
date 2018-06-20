@@ -33,7 +33,6 @@ MyNameSpace.JSHelloWorldControl.prototype.updateView = function (context) {
 };
 ```
 
-
 ## Remarks
 
 Set the value of the field control to the raw value from the configured field
