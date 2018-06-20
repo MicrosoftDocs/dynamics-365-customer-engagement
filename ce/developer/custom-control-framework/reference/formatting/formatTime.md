@@ -29,7 +29,7 @@ ms.assetid: 148964b5-106e-4f2e-8038-9086d29dc54f
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
 |value|`Date`|yes|The date to be formatted.|
-|behaviour|`DateTimeFieldBehaviour`|yes|The behaviour of the datetime object to be formatted.|
+|behaviour|`DateTimeFieldBehaviour`|yes|The behaviour of the datetime object to be formatted. The `DateTimeFieldBehaviour` has the following attributes:<br/>- `None =0`: Unknown DateTime behaviour <br/>- `UserLocal =1`: Respect user local time. Dates stored as UTC<br/>- `TimeZoneIndependent =3`: Dates and time stored without conversion to UTC|
 
 ## Return Value
 
