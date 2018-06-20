@@ -1,7 +1,7 @@
 ---
 title: "Set up server-side synchronization of email, appointments, contacts, and tasks | MicrosoftDocs"
 ms.custom: ""
-ms.date: 09/30/2017
+ms.date: 06/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
