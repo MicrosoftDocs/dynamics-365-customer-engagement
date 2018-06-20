@@ -110,6 +110,7 @@ The interface for `context.webApi`
 
 **Type**: [WebApi](webapi.md)
 
+
 ### Related topics
 
 [PowerApps Control Framework API Reference](index.md)<br />
