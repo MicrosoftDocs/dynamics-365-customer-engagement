@@ -35,5 +35,5 @@ ms.assetid: c5f482c2-dde2-460b-89a7-39e0efcc5704
 ### Related topics
 
 [Mode](../mode.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
