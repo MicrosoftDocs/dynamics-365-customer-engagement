@@ -16,7 +16,6 @@ manager: "jdaly"
 [!INCLUDE[./includes/destroy-description.md](./includes/destroy-description.md)]
 
 
-
 ## Syntax
 
 `init(context,notifyOutputChanged,state,container)`
@@ -45,4 +44,4 @@ MyNameSpace.JSHelloWorldControl.prototype.init = function (context, notifyOutput
 
 [Control](../control.md)<br />
 [PowerApps Control Framework API Reference](../index.md)<br />
-[PowerApps Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
