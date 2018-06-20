@@ -40,6 +40,8 @@
 #### [Find your way around](navigation.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
+#### [Import data](../developer/entities/import.md)
+#### [Export data](export-data-word-excel.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
 #### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
@@ -59,7 +61,7 @@
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 
-### Create marketing pages and email messages
+### Create marketing emails and pages
 #### [Design your digital content](design-digital-content.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
 #### [Work with email templates](email-templates.md)
@@ -95,7 +97,6 @@
 #### [Record and view financial information for events](event-financials.md)
 
 ### [Analyze results to gain insights](insights.md)
-### [Export data](export-data-Word-Excel.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
