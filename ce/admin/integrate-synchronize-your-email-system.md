@@ -1,7 +1,7 @@
 ---
 title: "Integrate (synchronize) your email system with Dynamics 365 Customer Engagement | MicrosoftDocs"
 ms.custom: ""
-ms.date: 01/29/2018
+ms.date: 06/30/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
