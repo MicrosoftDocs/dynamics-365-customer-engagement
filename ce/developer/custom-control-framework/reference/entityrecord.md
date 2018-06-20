@@ -18,7 +18,7 @@ ms.assetid: 9efccace-015b-4d45-b893-3e794c254e36
 
 # EntityRecord
 
-[!INCLUDE [cc_applies_to_update_9_0_0](../../../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE [entityrecord-description](includes/entityrecord-description.md)]
 
