@@ -18,7 +18,6 @@ ms.assetid: f879cb97-34d2-49ed-bef3-4df0af972b19
 # getNamedReference
 
 [!INCLUDE [cc_applies_to_update_9_0_0](../../../../includes/cc_applies_to_update_9_0_0.md)]
-
 [!INCLUDE[./includes/getnamedreference-description.md](./includes/getnamedreference-description.md)]
 
 ## Syntax
