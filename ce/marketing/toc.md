@@ -38,10 +38,12 @@
 ### [Learn the basics](get-started-section.md)
 #### [Browser and system requirements](browser-requirements.md)
 #### [Find your way around](navigation.md)
+#### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 #### [Organize your work](organize-daily-work.md)
 #### [Manage customer information](manage-customer-information.md)
+#### [Import data](import-data.md)
+#### [Export data](export-data-Word-Excel.md)
 #### [Best practices for email marketing](get-ready-email-marketing.md)
-#### [Accessibility and keyboard shortcuts](designer-shortcuts.md)
 
 ### [Basic tutorials](basic-tutorials.md)
 #### [Create a segment](create-segment.md)
@@ -59,21 +61,21 @@
 #### [Create an inbound customer journey](create-inbound-customer-journey.md)
 #### [Set up a subscription center](set-up-subscription-center.md)
 
-### [Create, target, and deliver online marketing content](marketing-execution-section.md)
+### Design marketing pages and email messages
 #### [Design your digital content](design-digital-content.md)
-#### [Content blocks reference](content-blocks-reference.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
 #### [Work with email templates](email-templates.md)
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
 #### [Upload and use images and files](upload-images-files.md)
+#### [Content blocks reference](content-blocks-reference.md)
+
+### Create segments and customer journeys
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
-#### [Market to leads](market-to-leads.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
 #### [Customer journey tiles reference](customer-journey-tiles-reference.md)
-#### [Engage customers online with portals](portals.md)
-#### [Create and run online surveys](surveys.md)
 
 ### [Manage, score, and qualify leads](qualify-leads-section.md)
+#### [Market to leads](market-to-leads.md)
 #### [Score and manage leads](score-manage-leads.md)
 #### [Register contacts' engagement](register-engagement.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
@@ -90,8 +92,11 @@
 #### [Follow up after the event](followup-after-event.md)
 #### [Record and view financial information for events](event-financials.md)
 
+### Engage customers with surveys and portals
+#### [Engage customers online with portals](portals.md)
+#### [Create and run online surveys](surveys.md)
+
 ### [Analyze results to gain insights](insights.md)
-### [Export data](export-data-Word-Excel.md)
 
 ## [Developer Guide](developer/marketing-developer-guide.md)
 ### [Extend customer journeys using custom channels](developer/extend-customer-journeys-custom-channels.md)
