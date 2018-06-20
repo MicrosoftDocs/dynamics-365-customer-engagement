@@ -18,7 +18,7 @@ ms.assetid: 0ad24866-08c3-4584-8964-decff50e716e
 
 # getFormFactor
 
-[!INCLUDE [getformfactor-description]](includes/getformfactor-description.md)
+[!INCLUDE [getformfactor-description](includes/getformfactor-description.md)]
 
 ## Syntax
 
