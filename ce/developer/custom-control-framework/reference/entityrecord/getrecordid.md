@@ -18,7 +18,7 @@ ms.assetid: 8d98a8ca-d4e9-405e-bd59-a1207a46020c
 
 # getRecordId
 
-[!INCLUDE [cc_applies_to_update_9_0_0](../../../includes/cc_applies_to_update_9_0_0.md)]
+[!INCLUDE [cc_applies_to_update_9_0_0](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
 [!INCLUDE [getrecordid-description](includes/getrecordid-description.md)]
 
