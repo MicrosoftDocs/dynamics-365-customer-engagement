@@ -17,7 +17,7 @@ ms.assetid: 4b7c18f8-cd00-4f39-8f88-ed9306d6a055
 ---
 # getClient
 
-[!INCLUDE [../includes/getclient-description]](../includes/getclient-description.md)
+[!INCLUDE [../includes/getclient-description](../includes/getclient-description.md)]
 
 
 ## Syntax
