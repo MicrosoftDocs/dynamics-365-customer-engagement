@@ -31,6 +31,14 @@ manager: "jdaly"
 |container|[HTMLDivElement](https://developer.mozilla.org/docs/Web/API/HTMLDivElement)|no|The div element to render|
 
 
+## Example
+```JavaScript
+MyNameSpace.JSHelloWorldControl.prototype.init = function (context, notifyOutputChanged, state, container) {
+	this._labelElement = document.createElement("label");
+	this._labelElement.setAttribute("class", "JS_HelloWorldColor");
+	container.appendChild(this._labelElement);
+};
+```
 
 
 ### Related topics
