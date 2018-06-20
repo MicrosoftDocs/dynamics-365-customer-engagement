@@ -20,6 +20,9 @@ ms.assetid: e9a70a4c-71e6-4a06-bcc9-6da37cdf52c1
 
 [!INCLUDE [cc_applies_to_update_9_0_0]](../../../includes/cc_applies_to_update_9_0_0.md)
 
+
+[!INCLUDE [ilinkentityexposedexpression-description](includes/ilinkentityexposedexpression-description.md)]
+
 ## name
 The 'name' of the entity to link to.
 
