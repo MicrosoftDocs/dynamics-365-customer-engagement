@@ -43,9 +43,9 @@ topic-status: Drafting
 
 <h2>Work with data</h2>
 <li>[Manage sample data](additional-settings.md)</li>
-<li>[Import data and manage imports](business-management-settings.md#Import-data-and-manage-imports)</li>
-<li>[Export data or templates](business-management-settings.md#export-data-or-templates)</li>
-<li>[Manage duplicate detection](business-management-settings.md#keep-your-data-clean-by-using-duplicate-detection)</li>
+<li>[Import data and manage imports](business-management-settings.md#import)</li>
+<li>[Export data or templates](business-management-settings.md#export)</li>
+<li>[Manage duplicate detection](business-management-settings.md#duplicate-detection)</li>
 <li>[Manage Excel templates](manage-excel-templates.md)</li>
 <li>[Manage Word templates](manage-word-templates.md)</li>
 

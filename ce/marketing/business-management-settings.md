@@ -26,6 +26,8 @@ topic-status: Drafting
 
 This topic describes what you can do when working in the **Advanced Settings** > **Business Management** section of the **Settings** work area.
 
+<a name="import"></a>
+
 ## Import data and manage imports
 
 Bring your customer and sales data quickly into your app by importing it. You can import data into most record types.
@@ -41,6 +43,8 @@ When you import data while working in the **Settings** work area, you must selec
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Import data](import-data.md)
 
+<a name="export"></a>
+
 ## Export data or templates
 
 Present information to people who don't have access to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] by exporting the data to an [!INCLUDE[pn-excel-short](../includes/pn-excel-short.md)] workbook. You can export just the data from a list, or you can export a template.
@@ -55,6 +59,8 @@ Data and templates can be exported from:
 When you export data or templates while working in the **Settings** work area, you must select the entity you want to export (such as a lead or contact). You can also choose the view that will be used for exporting. If you don't choose a view, the default view is selected, and the data or template for all the columns in that view are exported.
 
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Export data](export-data-word-excel.md)
+
+<a name="duplicate-detection"></a>
 
 ## Keep your data clean by using duplicate detection
 
@@ -98,7 +104,7 @@ All the duplicate detection rules will be unpublished in the back end.
 
 ### See also
 
-[Import data](import-data.md)
+[Import data](import-data.md)  
 [Manage Excel templates](manage-excel-templates.md)  
 [Manage Word templates](manage-word-templates.md)  
 [Export data](export-data-Word-Excel.md)
