@@ -49,3 +49,8 @@ The 'type' of the link, referrres by the link-entity attribute. '
 The 'alias' for the link-entity relationship.
 
 **Type**:  `string`
+
+### Related topics
+
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
