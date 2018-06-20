@@ -15,5 +15,4 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: aa507061-e1a3-45e3-b2ca-5278c6201cb7
 ---
-
 Entity linking expression
