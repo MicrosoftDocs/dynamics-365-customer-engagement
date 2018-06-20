@@ -124,7 +124,7 @@ To reset your portal:
 
 The [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)] enables you to change the  name of any of your instances at any time. If you do so, then the URL for the affected instance will also change to match and, as a result, your portal will no longer be configured correctly and will stop working. To fix it, you must reconfigure your portal as follows:
 
-1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Applications** tab .
+1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Applications** tab.
 
 1. Each configured portal app is listed in the **Application** column using the name of the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
     ![Select your portal](media/faq-portal-manage.png "Select your portal")
