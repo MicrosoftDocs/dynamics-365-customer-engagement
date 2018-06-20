@@ -23,11 +23,15 @@ manager: "jdaly"
 
 | Parameter Name|Type|Required|Description|
 | ------------- |----|--------|-----------|
-|context|[KeyValuePair](../keyvaluepair.md)|yes|Placeholder description CustomControl.updateView.context parameter|
+|context|`Inputs`|yes|It contains valuses as set up by customizer mapped to the named defined in the manifest, as well as utility functions|
 
-## Return Value
-Type: [VirtualComponent](../virtualcomponent.md)
 
+## Example
+```JavaScript
+MyNameSpace.JSHelloWorldControl.prototype.updateView = function (context) {
+	this._labelElement.innerText = "Hello World! (JS)";
+};
+```
 
 
 ## Remarks
