@@ -31,6 +31,6 @@ Type: [FilterExpression](../filterexpression.md)
 
 ### Related topics
 
-[Filtering](../filtering.md)
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[Filtering](../filtering.md)<br/>
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
