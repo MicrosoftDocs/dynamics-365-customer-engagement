@@ -25,15 +25,23 @@ To create a new Office 365 tenant for your trial, review [Create a new Office 36
 ## Add a Social Engagement trial to an existing Office 365 tenant
 
 1. [Request a trial](https://experience.dynamics.com/trials/) for Social Engagement.
+
 2. Open the link with the Social Engagement promo code you received in email in a _private session of your browser_. To learn how to open a private session in your browser, see: 
    - [Internet Explorer](https://support.microsoft.com/products/internet-explorer)
    - [Edge](https://support.microsoft.com/help/4026200/windows-browse-inprivate-in-microsoft-edge)
    - [Mozilla Firefox](https://support.mozilla.org/kb/private-browsing-use-firefox-without-history)
    - [Google Chrome](https://support.google.com/chrome/answer/95464)
+
 3. Don't enter any data on the **Welcome, let's get zo know you** page. Simply select the **Sign in** button.
+   ![Sign in to an existing Office 365 tenant](media/mse-trial-existing-sign-in.png "Sign in to an existing Office 365 tenant")
+
 4. Enter your admin credentials for the Office 365 tenant you want to add the trial solution to.
 5. Select **Sign in**.
+   ![Enter administrator credentials for your organization](media/mse-trial-existing-password.png "Enter administrator credentials for your organization")
+
 6. Confirm the order and select **Try now**. Trials are free of charge.
+   ![Try Now button to accept trial offer](media/mse-trial-existing-try-now.png "Try Now button to accept trial offer")
+
 7. Select **Continue**
 8. In the Office 365 admin center, go to **Users** > **Active users**.
 9. Select a user you want to give access to the trial and select **Edit** in the **Product licenses** section. 
@@ -48,7 +56,7 @@ To create a new Office 365 tenant for your trial, review [Create a new Office 36
    - [Edge](https://support.microsoft.com/help/4026200/windows-browse-inprivate-in-microsoft-edge)
    - [Mozilla Firefox](https://support.mozilla.org/kb/private-browsing-use-firefox-without-history)
    - [Google Chrome](https://support.google.com/chrome/answer/95464)
-3. On the **Welcome, let's get zo know you** page fill in the required information and select **Just one more step**. The provided **Business email address** will be used to send your new user credentials after successful provisioning.   
+3. On the **Welcome, let's get zo know you** page fill in the required information and select **Next**. The provided **Business email address** will be used to send your new user credentials after successful provisioning.   
 4. On the **Create your user ID** page fill in the required information and select **Create my account**.
 5. On the next page, select your country code from the drop-down list. Enter your phone number and select **Text me**.
 6. Enter the verification code from the text message you received and select **Next**.
