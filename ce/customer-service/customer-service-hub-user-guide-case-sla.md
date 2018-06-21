@@ -343,7 +343,10 @@ You can set a parent child relationship between cases where you can set one case
   
      If this case is linked to an entitlement, the billable time will be subtracted from the allotted minutes for that entitlement.  
   
-6.  Select **Resolve**.  
+6.  Select **Resolve**.
+
+> [!NOTE]
+> You cannot edit or update any attribute of the case once it is resolved.
   
  
 ## Cancel a case  
