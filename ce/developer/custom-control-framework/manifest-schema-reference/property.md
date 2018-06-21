@@ -27,13 +27,12 @@ ms.assetid: 45f4872d-c1d2-4c5a-8721-251b96ede370
 |Name|Description|Type|Required|
 |--|--|--|--|
 |`name`|Name of the property|`string`|yes|
-|`display-name-key`|Placeholder description property.display-name-key|`string`|yes|
+|`display-name-key`|Used in the customization screens as localized strings that describes the name of the property.|`string`|yes|
 |`of-type`|Defines the data type of the property|See [Remarks](#remarks)|no|
 |`usage`|The usage attribute identifies if the property is meant to represent an entity attribute that the control can change (bound) or read-only values (input)|`bound`,`input` or `output`|no|
 |`required`|Whether the property is required or not|`boolean`|no|
-|`hidden`|Placeholder description property.name|`boolean`|no|
 |`of-type-group`|Defines the set of related data types identified by a single name|`string`|no|
-|`description-key`|Placeholder description property.name|`string`|no|
+|`description-key`|Used in the customization screens as localized strings that describes the description of the property.|`string`|no|
 
 ### Remarks
 
