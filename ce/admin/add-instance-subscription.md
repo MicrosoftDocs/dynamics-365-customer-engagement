@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 09/30/2017
+ms.date: 06/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
