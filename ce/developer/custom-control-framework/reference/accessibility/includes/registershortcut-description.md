@@ -1,1 +1,0 @@
-Registers a keyboard shortcut for the control.
