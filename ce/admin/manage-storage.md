@@ -2,7 +2,7 @@
 title: "Manage storage for Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 09/30/2017
+ms.date: 06/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -30,13 +30,13 @@ You can manage your organization’s data storage capacity in connection with yo
 ## Monitor the amount of storage your organization is using  
  Monitor your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] storage to make sure you’ve got lots of capacity for growth.  
   
- If your total storage used is 80% or more of capacity, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admins will receive email notifications and alerts will appear on the Service Health page.  
+ If your total storage used is 80% or more of capacity, [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] admins and users will receive email notifications and alerts will appear on the Service Health page.  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Choose the **Service Health** tab.  
+3. Choose the **Service Health** tab.  
   
  ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
   
@@ -44,13 +44,13 @@ You can manage your organization’s data storage capacity in connection with yo
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
-2.  Click **Billing** > **Purchase Services**.  
+2. Click **Billing** > **Purchase Services**.  
   
-3.  Scroll down to the **Add-on subscriptions** section and mouse over the **Dynamics 365 - Additional Database Storage** tile.  
+3. Scroll down to the **Add-on subscriptions** section and mouse over the **Dynamics 365 - Additional Database Storage** tile.  
   
  ![Purchase additional online storage](../admin/media/purchase-additional-online-storage.png "Purchase additional online storage")  
   
-4.  Click **Buy now**, and then proceed through the order process.  
+4. Click **Buy now**, and then proceed through the order process.  
   
      If you paid for the subscription by credit card, any additional storage space that you order will be available immediately after you receive an order confirmation. If you’re invoiced for subscription payments, you may be asked to complete a credit check. In this case, the additional storage will not be available until the credit check is passed.  
 
