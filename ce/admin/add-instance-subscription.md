@@ -2,7 +2,7 @@
 title: "Add an instance to your subscription of Dynamics 365 (online) | MicrosoftDocs"
 ms.custom: 
   - dyn365-deflc
-ms.date: 09/30/2017
+ms.date: 06/21/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -138,6 +138,8 @@ You can add production and non-production (Sandbox) instances to a [!INCLUDE[pn_
   
 -   If you do not assign a security group to an instance, the instance will show up in the **Instances** tab (instance picker) in the [!INCLUDE[pn_dyn_365_admin_center](../includes/pn-dyn-365-admin-center.md)] even for those who have not been assigned a security role in that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance.  
   
+-   You cannot make security groups members of other security groups.
+
 > [!NOTE]
 >  All licensed users, whether or not they are members of the security groups, must be assigned [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles to access [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]. You assign the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security roles in the [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] web application. Users can’t access instances of [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] until they are assigned at least one security role for that instance. More information: [Grant users access to Microsoft Dynamics 365 (online)](../admin/grant-users-access.md).  
   
