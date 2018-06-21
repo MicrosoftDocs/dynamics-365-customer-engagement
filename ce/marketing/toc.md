@@ -69,10 +69,6 @@
 #### [Upload and use images and files](upload-images-files.md)
 #### [Content blocks reference](content-blocks-reference.md)
 
-### Engage contacts with portals and surveys
-#### [Engage customers online with portals](portals.md)
-#### [Create and run online surveys](surveys.md)
-
 ### Segmentation and customer journeys
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)
 #### [Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
@@ -83,6 +79,10 @@
 #### [Market to leads](market-to-leads.md)
 #### [Register contacts' engagement](register-engagement.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
+
+### Engage contacts with portals and surveys
+#### [Engage customers online with portals](portals.md)
+#### [Create and run online surveys](surveys.md)
 
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
