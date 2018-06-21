@@ -26,11 +26,10 @@ topic-status: Drafting
 
 You can install and use a trial version of [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] for free.
 
-> [!NOTE]
-> You will receive a trial [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance together with your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You must run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial instance, and can't install it on a production instance.
-
 > [!IMPORTANT]
-> You can install, at most, one [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
+> - You will receive a trial [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance together with your [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial. You must run the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial instance, and can't install it on a production instance.
+> - You can install, at most, one [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial per [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
+> - You can only install the trial if you are located in a country/region where the product is supported. To read the latest list of countries/regions where you can use [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)], download the [Microsoft Dynamics 365 International Availability](https://go.microsoft.com/fwlink/p/?linkid=875097) document (PDF).
 
 The procedure for setting up your trial depends on whether you already have a _managed_ [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant (which is a tenant where Azure Active Directory (Azure AD) is available). Nearly all organizations that already use [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] or [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] have managed tenants, but if your organization doesn't currently use any [!INCLUDE[cc-microsoft](../includes/cc-microsoft.md)] services (or have only ever set up a trial tenant), then you must set up a managed trial tenant first.
 
