@@ -1,1 +1,0 @@
-Send the data to telemetry endpoint by enqueueing it
