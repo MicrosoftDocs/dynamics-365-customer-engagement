@@ -39,8 +39,16 @@ ms.assetid: 66599c2f-6651-4b27-92da-a38897acdfb5
 |[html](html.md)|[!INCLUDE [html-description](includes/html-description.md)]|0 or more|
 |[resx](resx.md)|[!INCLUDE [resx-description](includes/resx-description.md)]|0 or more|
 
+
+## Example
+```xml
+<resources>
+			<code path="JS_HelloWorldControl.js" order="1" />
+			<css path="css/JS_HelloWorldControl.css" order="1" />
+		</resources>
+```
 ### Related topics
 
 [PowerApps Control Framework Manifest Schema Reference](index.md)<br />
 [PowerApps Control Framework API Reference](../reference/index.md)<br />
-[PowerApps Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
