@@ -26,7 +26,14 @@ topic-status: Drafting
 Images are an important part of most marketing-page and marketing-email designs. To use images in your designs, you must upload them to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)], which also hosts the images and delivers them when contacts open an email or marketing page.
 
 > [!NOTE]
-> For security purposes, this feature only allows you to upload image files. You will see an error message if you attempt to upload a file of an unsupported type.
+> For security purposes, this feature only allows you to upload image files. The following image formats are supported:
+> 
+> - GIF
+> - BMP
+> - JPEG
+> - PNG
+> 
+> You will see an error message if you attempt to upload a file of an unsupported type.
 
 ## Upload files to [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)]
 
