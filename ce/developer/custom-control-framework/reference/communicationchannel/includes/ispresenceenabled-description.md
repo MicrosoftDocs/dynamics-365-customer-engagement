@@ -1,1 +1,0 @@
-Whether presence is enabled or not for the current entity.
