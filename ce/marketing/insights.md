@@ -46,6 +46,8 @@ Once you have an **Insights** form view open, you can navigate between the avail
 
 ![Insights tabs](media/insights-tabs.png "Insights tabs")
 
+<a name="filter"></a>
+
 ### Filter insights by date range and usage
 
 At the top of most insights tabs, you'll find settings that let you filter the information shown—for example, by date ( **From** and **To** settings) or usage (such as which customer journey an email was used in).
@@ -110,7 +112,9 @@ In addition to the **Volume** section, some tiles also show additional sections 
 
 - **KPIs**: For tile types that collect key performance indicators (KPIs), such as email tiles, you can read detailed results here. For a complete list of KPIs available for email messages, see [Email insights](#email-insights) (the **Data** panel shows many, but not all, of these).
 - **Paths**: Trigger and splitter tiles include this section, which tells you how many contacts went down each available path.
-- **View Details**: This link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.
+- **View details**: This link is provided at the bottom of the **Details** panel for tile types that have even more information available. Select this link to open the associated record, where you can explore its full insights panels. For example, email and event tiles provide this link, which opens the insights panels for the specific message or event associated with the tile.  
+    > [!NOTE]
+    > On selecting **View details**, the details you see may include results from several different customer jouneys&mdash;for example, if you open an email message that has been reused. To view detailed results for just one journey, use the [filter settings](#filter) to choose a journey name after the related record opens.
 
 <a name="email-insights"></a>  
 
@@ -120,7 +124,7 @@ To view email insights, go to **Marketing** > **Marketing execution** > **Market
 
 Here you can find a complete history of how various contacts have reacted to the selected message, which links they selected, and where they were when interacting with the message. You can also see delivery details.
 
-Because you can reuse an email message in several different journeys, the filter controls for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
+Because you can reuse an email message in several different journeys, the [filter settings](#filter) for email insights include a field for specifying which journey you would like to analyze. If you don't select a journey, then the information you see applies to all journeys where the message was used. As with most other entities, you can also filter email insights by date range.
 
 Marketing email messages provide the following insights tabs:
 
