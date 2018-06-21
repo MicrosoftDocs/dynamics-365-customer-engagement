@@ -12,8 +12,7 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: c919d10e-8881-4ba9-a609-40b11b555648
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Define settings for parent and child cases (Customer Service)

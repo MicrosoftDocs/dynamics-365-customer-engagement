@@ -12,8 +12,7 @@ ms.date: 09/15/2017
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.assetid: 9384cb0a-64ec-424d-bf73-7010997c4d4e
-ms.custom:
-  - dyn365-customerservice
+ms.custom: dyn365-customerservice
 ---
 
 # Create an entitlement to define the support terms for a customer (Customer Service)
