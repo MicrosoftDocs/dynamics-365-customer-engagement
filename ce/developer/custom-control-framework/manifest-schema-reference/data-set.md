@@ -27,7 +27,7 @@ ms.assetid: 9ffe8930-b290-4252-98d4-a1195b00205f
 |Name|Description|Type|Required|
 |--|--|--|--|
 |`description-key`|Used in the customization screen as localized strings that describes the description of the property.|`string`|no|
-|`display-name-key`|Used in the customization screens as localized strings that describes the name of the property.`string`|yes|
+|`display-name-key`|Used in the customization screens as localized strings that describes the name of the property.|`string`|yes|
 |`name`|Name of the grid|`string`|yes|
 
 ## Parent Elements
