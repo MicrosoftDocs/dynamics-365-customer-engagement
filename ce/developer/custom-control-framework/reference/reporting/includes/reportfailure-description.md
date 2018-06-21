@@ -1,1 +1,0 @@
-Reports a failure for the component - the activityid, orgid and userid are automatically appended dimensions.
