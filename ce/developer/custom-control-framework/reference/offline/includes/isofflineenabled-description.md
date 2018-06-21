@@ -1,1 +1,0 @@
-Placeholder description: ce\developer\custom-control-framework\reference\offline\includes\isofflineenabled-description.md
