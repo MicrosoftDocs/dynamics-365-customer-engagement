@@ -48,10 +48,12 @@ topic-status: Drafting
 <li>[Dynamics 365 for Marketing overview](overview.md)</li>
 <li>[Browser and system requirements](browser-requirements.md)</li>
 <li>[Find your way around](navigation.md)</li>
+<li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
+<li> [Import data](import-data.md)</li>
+<li> [Export data](export-data-word-excel.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
-<li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 
 </td></tr>
 <tr><td>
