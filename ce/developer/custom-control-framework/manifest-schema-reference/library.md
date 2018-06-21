@@ -43,6 +43,14 @@ ms.assetid: 90f2b4c9-7396-4ab9-bc9f-810189dc18b7
 |--|--|--|
 |[packaged_library](packaged_library.md)|[!INCLUDE [packaged_library-description](includes/packaged_library-description.md)]|0 or more|
 
+## Example
+```xml
+<resources>
+			<library name="AngularJSCore" version=">=1" order="1">
+				<packaged_library path="libs/angular.min.js" version="1.5.8" />
+			</library>
+  </resources>
+```
 ### Related topics
 
 [PowerApps Control Framework Manifest Schema Reference](index.md)<br />
