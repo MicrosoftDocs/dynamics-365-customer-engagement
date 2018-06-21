@@ -26,8 +26,8 @@ ms.assetid: 9ffe8930-b290-4252-98d4-a1195b00205f
 
 |Name|Description|Type|Required|
 |--|--|--|--|
-|`description-key`|Placeholder description data-set.description-key|`string`|no|
-|`display-name-key`|Placeholder description data-set.display-name-key|`string`|yes|
+|`description-key`|Used in the customization screen as localized strings that describes the description of the property.|`string`|no|
+|`display-name-key`|Used in the customization screens as localized strings that describes the name of the property.`string`|yes|
 |`name`|Name of the grid|`string`|yes|
 
 ## Parent Elements
@@ -36,7 +36,11 @@ ms.assetid: 9ffe8930-b290-4252-98d4-a1195b00205f
 |--|--|
 |[control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
 
-
+## Example
+```xml
+ <data-set name="dataSetGrid" display-name-key="DataSetGridProperty">
+	  </data-set>
+```
 ### Related topics
 
 [PowerApps Control Framework Manifest Schema Reference](index.md)<br />
