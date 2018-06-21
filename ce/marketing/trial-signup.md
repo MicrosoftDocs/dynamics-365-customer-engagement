@@ -54,7 +54,7 @@ To sign up for a free trial of [!INCLUDE[pn-marketing-business-app-module-name](
 
 1. Enter your email address and phone number and choose **Get Started**.
 
-1. The website asks whether you want to use an existing [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant or to create a new one. Choose to use an existing tenant and then follow the instructions on your screen to sign in if needed. (If you want to set up a new tenant, then use the procedure in [Sign up for a [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] trial with a managed Office 365 trial tenant](#get-managed-tenant) instead.)
+1. The website asks whether you want to use an existing [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant or to create a new one. Choose to use an existing tenant and then follow the instructions on your screen to sign in if needed. (If you want to set up a new tenant, then use the procedure in [Sign up for a Dynamics 365 trial with a managed Office 365 trial tenant](#get-managed-tenant) instead.)
 
 1. Once you are signed in, the tenant will begin setting up a new [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] trial instance with the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial already installed. [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] is a complex app, so this may take some time to set up for your account.
 
@@ -110,7 +110,7 @@ The user account that you used to set it up is now:
 - The global administrator for the trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant.
 - A system administrator for the [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] org.
 
-When you install the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, as described here, then each new user must be added in a special way. If you set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on an existing, non-trial tenant, then new users can just sign up as described in [Sign up for the Dynamics 365 for Marketing trial](#marketing-preview-signup). To add new users to a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial running on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant:
+If you set up a [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a production tenant, then new users can add themselves by going to trial.dynamics.com and then signing up using their existing [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] email address. However, if you installed the [!INCLUDE[pn-marketing-app-module](../includes/pn-marketing-app-module.md)] trial on a trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant, as described in the previous section, then you must add each new user as follows:
 
 1. Open a web browser and go to [portal.office.com](http://portal.office.com). Sign in to your trial [!INCLUDE[pn-ms-office-365](../includes/pn-ms-office-365.md)] tenant as the global administrator that you set up while signing up for the trial.
 1. Once you are signed in, go to [portal.office.com/adminportal/home#/users](http://portal.office.com/adminportal/home#/users) to open the **Active users** page, where you can manage users for the tenant.
