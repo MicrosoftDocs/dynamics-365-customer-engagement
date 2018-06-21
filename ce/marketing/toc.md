@@ -80,10 +80,6 @@
 #### [Register contacts' engagement](register-engagement.md)
 #### [LinkedIn Lead Gen integration](LinkedIn-Lead-Gen-integration.md)
 
-### Engage contacts with portals and surveys
-#### [Engage customers online with portals](portals.md)
-#### [Create and run online surveys](surveys.md)
-
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
 #### [Event management dashboard](event-management-dashboard.md)
@@ -95,6 +91,10 @@
 #### [Invite, register, and house event attendees](invite-register-house-event-attendees.md)
 #### [Follow up after the event](followup-after-event.md)
 #### [Record and view financial information for events](event-financials.md)
+
+### Engage contacts with portals and surveys
+#### [Engage customers online with portals](portals.md)
+#### [Create and run online surveys](surveys.md)
 
 ### [Analyze results to gain insights](insights.md)
 
