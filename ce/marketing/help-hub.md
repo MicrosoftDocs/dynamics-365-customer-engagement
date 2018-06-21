@@ -29,7 +29,6 @@ topic-status: Drafting
 <li>[Sign up for a free trial](trial-signup.md)</li>
 <li>[Purchase a production version of Marketing](purchase-marketing.md)</li>
 <li>[Run the setup wizard](purchase-setup.md)</li>
-<li>[Setup FAQ and troubleshooting](setup-troubleshooting.md)</li>
 <li>[Manage Marketing instances](manage-marketing-instances.md)</li>
 <li>[Keep Marketing up to date](apply-updates.md)</li>
 <li>[Open the Settings work area](open-advanced-settings.md)</li>
@@ -41,6 +40,7 @@ topic-status: Drafting
 <li>[Manage your quotas](quota-management.md)</li>
 <li>[Customize Dynamics 365 for Marketing](customize.md)</li>
 <li>[Data protection and GDPR](gdpr.md)</li>
+<li>[Administration FAQ](setup-troubleshooting.md)</li>
 
 </td><td>
 
@@ -48,10 +48,12 @@ topic-status: Drafting
 <li>[Dynamics 365 for Marketing overview](overview.md)</li>
 <li>[Browser and system requirements](browser-requirements.md)</li>
 <li>[Find your way around](navigation.md)</li>
+<li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 <li>[Organize your work](organize-daily-work.md)</li>
 <li>[Manage customer information](manage-customer-information.md)</li>
+<li> [Import data](import-data.md)</li>
+<li> [Export data](export-data-word-excel.md)</li>
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
-<li>[Accessibility and keyboard shortcuts](designer-shortcuts.md)</li>
 
 </td></tr>
 <tr><td>
