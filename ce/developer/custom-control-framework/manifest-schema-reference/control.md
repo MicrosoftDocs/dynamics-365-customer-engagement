@@ -26,11 +26,11 @@ ms.assetid: 4dacd337-c9df-458e-86f3-bfb3ab543ea7
 
 |Name|Description|Type|Required|
 |--|--|--|--|
+|`namespace`|Defines the object prototype of the control|[!INCLUDE [alphanumerictype-description](includes/alphanumerictype-description.md)]|yes|
 |`constructor`|A method for initalizing the object|[!INCLUDE [alphanumerictype-description](includes/alphanumerictype-description.md)]|yes|
 |`control-type`|Standard|[!INCLUDE [controltype-description](includes/controltype-description.md)]|no|
-|`description-key`||`string`|no|
-|`display-name-key`||`string`|yes|
-|`namespace`|Defines the object prototype of the control|[!INCLUDE [alphanumerictype-description](includes/alphanumerictype-description.md)]|yes|
+|`description-key`|Used in the customization screens as localized strings that describes the description of the property.|`string`|no|
+|`display-name-key`|Used in the customization screens as localized strings that describes the name of the property.|`string`|yes|
 |`preview-image`|Image that will be used on the customization screens to show a preview of the controlo to the customizer|`string`|no|
 |`version`|Defines the version of the control|`string`|yes|
 
@@ -44,16 +44,17 @@ ms.assetid: 4dacd337-c9df-458e-86f3-bfb3ab543ea7
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[AvailableOn](availableon.md)|[!INCLUDE [availableon-description](includes/availableon-description.md)]|0 or 1|
 |[child](child.md)|[!INCLUDE [child-description](includes/child-description.md)]|0 or 1|
 |[data-set](data-set.md)|[!INCLUDE [data-set-description](includes/data-set-description.md)]|0 or more|
-|[dependencies](dependencies.md)|[!INCLUDE [dependencies-description](includes/dependencies-description.md)]|0 or 1|
-|[groups](groups.md)|[!INCLUDE [groups-description](includes/groups-description.md)]|0 or more|
-|[modes](modes.md)|[!INCLUDE [modes-description](includes/modes-description.md)]|0 or 1|
 |[property](property.md)|[!INCLUDE [property-description](includes/property-description.md)]|0 or more|
 |[resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|1|
 |[type-group](type-group.md)|[!INCLUDE [type-group-description](includes/type-group-description.md)]|0 or more|
 
+## Example
+
+```xml
+<control namespace="MyNameSpace" constructor="JSHelloWorldControl" version="1.0.0" display-name-key="JS_HelloWorldControl_Display_Key" description-key="JS_HelloWorldControl_Desc_Key" control-type="standard" preview-image="img/preview.png">
+  ```
 ### Related topics
 
 [PowerApps Control Framework Manifest Schema Reference](index.md)<br />
