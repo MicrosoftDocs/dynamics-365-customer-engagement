@@ -45,7 +45,7 @@ The Sales Navigator controls can be added by modifying field on a form in [!INCL
 
 
 
-This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. 
+This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. Other controls can be configured in the same way.
 
 1. In the web client of [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)], go to **Settings** > **Customizations**.
 
@@ -53,9 +53,9 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 2. Select **Customize the System**.
 
-3. Expand the **Entities** node and select the entity you want to customize. You can use any entity, but for this example, we'll select the **Lead** entity and expand the node.
+3. Expand the **Entities** node and select the entity you want to customize. You can use virtually any entity, but for this example, we'll select the **Lead** entity and expand the node.
 
-4. Select **Forms** and then select the **Lead** form.
+4. Select **Forms** and then select the default **Lead** form.
 
    ![Lead form in customization area](media/select-lead-form-sales-navigator.png "Lead form in customization area")
 

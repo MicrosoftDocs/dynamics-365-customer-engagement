@@ -24,13 +24,13 @@ Two flavors of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigat
 
 The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile. This control has the following sections, which you can choose to show or hide: 
 
-- **Top Card**: shows information about the person like name, headline, and more. Additionally, provides capabilities to message or save the person as a lead in Sales Navigator. 
+- **Top Card**: shows information about the person like name, headline, and more. Additionally, it provides capabilities to message or save the person as a lead in Sales Navigator. 
 
 - **News (Icebreakers)**: shows the person’s highlights, activities, conversation starters, and more.
 
-- **Connections (Get Introduced)**: shows the mutual connections and allows for an introduction to the person. 
+- **Connections (Get Introduced)**: shows the mutual connections and allows for a warm introduction to the person. 
 
-- **Related Leads**: shows potential leads who are similar to the target person and might represent the relevant stakeholders around them. On a sales scenario, this insight is crucial to identify the potential decision makers for a deal. 
+- **Related Leads**: shows potential Sales Navigator leads who are similar to the target person and might represent the relevant stakeholders around them. On a sales scenario, this insight is crucial to identify the potential decision-makers for a deal. 
 
 The **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account** control shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile. This control has four modules, which you can choose to show or hide: 
 
