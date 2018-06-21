@@ -1,1 +1,0 @@
-Returns the base URL that was used to access the application.
