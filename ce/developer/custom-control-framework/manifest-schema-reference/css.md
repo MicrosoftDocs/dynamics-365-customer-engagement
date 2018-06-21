@@ -35,6 +35,11 @@ ms.assetid: b6119424-c0a4-4412-b25c-8239da6cbe36
 |--|--|
 |[resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|
 
+## Example
+```xml
+<css path="css/JS_HelloWorldControl.css" order="1" />
+```
+
 ### Related topics
 
 [PowerApps Control Framework Manifest Schema Reference](index.md)<br />
