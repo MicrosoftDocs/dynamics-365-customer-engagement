@@ -38,9 +38,6 @@ Schedule anything in Dynamics 365 using Universal Resource Scheduling. You can e
   
 - [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-project-service-auto.md)], you’ll have a new improved scheduling experience. More information: [Dynamics 365 for Project Service Automation Help](../project-service/overview.md) 
   
-> [!NOTE]
-> [!INCLUDE[cc_feature_included_with_2016_update_d365_online](../includes/cc-feature-included-with-update-2016.md)]  <!-- This may be the incorrect token. It was added to fix a build issue. -->  
-  
 ## Prerequisites  
  Before you can start using  Universal Resource Scheduling, make sure you have the following:  
   
