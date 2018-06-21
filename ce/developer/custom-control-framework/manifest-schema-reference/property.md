@@ -52,6 +52,11 @@ The `of-type` attribute value must be one of the following:
 |--|--|--|
 |[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|0 or more|
 
+## Example
+```xml
+<property name="myFirstProperty" display-name-key="myFirstProperty_Display_Key" description-key="myFirstProperty_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+```
+
 ### Related topics
 
 [PowerApps Control Framework Manifest Schema Reference](index.md)<br />
