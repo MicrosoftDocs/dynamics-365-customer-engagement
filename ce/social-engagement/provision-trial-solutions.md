@@ -43,9 +43,17 @@ To create a new Office 365 tenant for your trial, review [Create a new Office 36
    ![Try Now button to accept trial offer](media/mse-trial-existing-try-now.png "Try Now button to accept trial offer")
 
 7. Select **Continue**
+   ![Confirmation screen for accepted trial offer](media/mse-trial-existing-receipt.png "Confirmation screen for accepted trial offer")
+   
 8. In the Office 365 admin center, go to **Users** > **Active users**.
+   ![Menu in Office 365 admin center with active users option shown](media/mse-trial-existing-active-users.png)
+
 9. Select a user you want to give access to the trial and select **Edit** in the **Product licenses** section. 
+   ![Edit product licenses for a user](media/mse-trial-existing-edit-license.png "Edit product licenses for a user")
+
 10. Ensure that both, a Dynamics 365 license and the **Microsoft Social Engagement Enterprise** license are set to **On**.
+   ![Assigned licenses in the Office 365 admin center](media/mse-trial-existing-assigned-licenses.png "Assigned licenses in the Office 365 admin center")
+
 11. Social Engagement will be available for the selected user in the configured tenant within 5-10 minutes. If Social Engagement isn't available from the app switcher in the top-right corner, close your browser and sign in with a private session again.
  
 ## Create a new Office 365 tenant for the Social Engagement trial
