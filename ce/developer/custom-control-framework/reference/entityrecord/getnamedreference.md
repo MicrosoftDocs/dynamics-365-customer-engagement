@@ -24,7 +24,7 @@ ms.assetid: f879cb97-34d2-49ed-bef3-4df0af972b19
 
 `getNamedReference()`
 
-## ReturnValue
+## Return Value
 **Type**: [EntityReference](../entityreference.md)
 
 
