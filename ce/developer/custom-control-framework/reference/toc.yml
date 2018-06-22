@@ -49,23 +49,24 @@
   - name: DateFormattingInfo
     href: dateformattinginfo.md
   - name: Device
-   href: device.md
-   items:
-   - name: captureAudio
-     href: device/captureaudio.md
-   - name: captureImage
-     href: device/captureimage.md
-   - name: captureVideo
-     href: device/capturevideo.md 
-   - name: getBarcodeValue
-     href: device/getbarcodevalue.md 
-   - name: getCurrentPosition
-     href: device/getcurrentposition.md 
-   - name: pickFile
-     href: device/pickfile.md        
+    href: device.md
+    items:
+    - name: captureAudio
+      href: device/captureaudio.md
+    - name: captureImage
+      href: device/captureimage.md
+    - name: captureVideo
+      href: device/capturevideo.md 
+    - name: getBarcodeValue
+      href: device/getbarcodevalue.md 
+    - name: getCurrentPosition
+      href: device/getcurrentposition.md 
+    - name: pickFile
+      href: device/pickfile.md        
   - name: Entity
     href: entity.md
-  - name: EntityRecord/entityrecord.md
+  - name: EntityRecord
+    href: entityrecord.md
     items:
     - name: getFormattedValue
       href: entityrecord/getformattedvalue.md
@@ -79,13 +80,13 @@
     href: entityreference.md                          
   - name: Factory
     href: factory.md
-   items:
-   - name: requestRender
-     href: factory/requestrender.md
-   - name: gePopupService
-     href: factory/getpopupservice.md
+    items:
+    - name: requestRender
+      href: factory/requestrender.md
+    - name: gePopupService
+      href: factory/getpopupservice.md
   - name: FilterExpression
-     href: filterexpression.md
+    href: filterexpression.md
   - name: Filtering
     href: filtering.md
     items:
@@ -208,17 +209,17 @@
       href: utility/hasentityprivilege.md    
     - name: lookupObjects
       href: utility/lookupobjects.md                     
- - name: WebApi
- href: webapi.md
-   items:
-   - name: createRecord
-     href: webapi/createrecord.md     
-   - name: deleteRecord
-     href: webapi/deleterecord.md 
-   - name: retrieveMultipleRecords
-     href: webapi/retrievemultiplerecords.md 
-   - name: retrieveRecord
-     href: webapi/retrieverecord.md 
-   - name: updateRecord
-     href: webapi/updaterecord.md   
+  - name: WebApi
+    href: webapi.md
+    items:
+    - name: createRecord
+      href: webapi/createrecord.md     
+    - name: deleteRecord
+      href: webapi/deleterecord.md 
+    - name: retrieveMultipleRecords
+      href: webapi/retrievemultiplerecords.md 
+    - name: retrieveRecord
+      href: webapi/retrieverecord.md 
+    - name: updateRecord
+      href: webapi/updaterecord.md   
   
