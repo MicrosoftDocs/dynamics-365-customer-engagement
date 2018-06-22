@@ -59,7 +59,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Lead form in customization area](media/select-lead-form-sales-navigator.png "Lead form in customization area")
 
-5. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (member name for Lead control and company name for Account control). In this example, we already have the **Name** field to the form.
+5. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (“Last Name” field for the member profile control and “Company Name” for the company profile control). In this example, we already have the **Last Name** field to the form.
 
 6. Select the **Last Name** field and then select **Change Properties** in the ribbon.
     > [!TIP]
@@ -84,17 +84,19 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the [accuracy to find the right match](https://www.linkedin.com/help/sales-navigator/answer/77041/leads-contacts-and-accounts-matching-between-sales-navigator-and-your-crm).  
 
-  Select the **Last Name** property and select the ![Pencil icon](media/pencil-icon.png "Pencil icon") pencil icon. In the **Bind to a value on a field** list, select **lastname (SingleLine.Text)** and select **OK**.
+ Select the **Company Name** property with the description **Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy** and select the pencil icon. 
+
+10. In the **Bind to a value on a field** list, select **firstname (SingleLine.Text)** and select **OK**.
 
    ![Bind value on a field dialog box](media/configure-lastname-property.png "Bind value on a field dialog box")
 
-10. Select **Add** in the Field Properties window.
+11. Select **Add** in the Field Properties window.
 
-11. In the **Form Editor**, select **Save** to apply your changes to the form. 
+12. In the **Form Editor**, select **Save** to apply your changes to the form. 
 
   ![Click path to save and publish customizations on a form](media/save-publish-customizations.png "Click path to save and publish customizations on a form")
 
-12. Select **Publish** to make your customizations available to the organization.
+13. Select **Publish** to make your customizations available to the organization.
 
 ### See also
 
