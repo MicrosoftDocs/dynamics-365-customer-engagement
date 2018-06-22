@@ -1,43 +1,17 @@
 - name: API Reference
   href: index.md
   items:
-  - name: ActionCollection
-    href: actioncollection.md
-#  - name: Accessibility
-#    href: accessibility.md
-#    items:
-#    - name: blurElementById
-#      href: accessibility/blurelementbyid.md
-#    - name: focusElementById
-#      href: accessibility/focuselementbyid.md
-#    - name: getUniqueId
-#      href: accessibility/getuniqueid.md
-#    - name: registerShortcut
-#      href: accessibility/registershortcut.md
   - name: Client
     href: client.md
     items:
     - name: getClient
       href: client/getclient.md
-    - name: getClientState
-      href: client/getclientstate.md
     - name: getFormFactor
       href: client/getformfactor.md
-    - name: ignoreSelfUpdates
-      href: client/ignoreselfupdates.md
     - name: isOffline
-      href: client/isoffline.md
-    - name: setFullScreen
-      href: client/setfullscreen.md                                              
+      href: client/isoffline.md                                              
   - name: Column
     href: column.md    
-#  - name: CommunicationChannel
-#    href: communicationchannel.md
-#    items:
-#    - name: getPresenceMappedField
-#      href: communicationchannel/getpresencemappedfield.md
-#    - name: isPresenceEnabled
-#      href: communicationchannel/ispresenceenabled.md
   - name: ConditionExpression	
     href: conditionexpression.md
   - name: Context
@@ -51,16 +25,8 @@
       href: control/getoutputs.md
     - name: init
       href: control/init.md
-    - name: onPreNavigation
-      href: control/onprenavigation.md
-    - name: render
-      href: control/render.md
     - name: updateView
-      href: control/updateview.md
-#  - name: CustomControlConfiguration
-#    href: customcontrolconfiguration.md        
-#  - name: CustomControlDescriptor
-#    href: customcontroldescriptor.md              
+      href: control/updateview.md            
   - name: DataSet
     href: dataset.md
     items:
@@ -78,85 +44,46 @@
       href: dataset/opendatasetitem.md
     - name: refresh
       href: dataset/refresh.md
-    - name: retrieveRecordCommand
-      href: dataset/retrieverecordcommand.md
     - name: setSelectedRecordIds
       href: dataset/setselectedrecordids.md                                                                
   - name: DateFormattingInfo
     href: dateformattinginfo.md
-#  - name: Device
-#    href: device.md
-#    items:
-#    - name: captureAudio
-#      href: device/captureaudio.md
-#    - name: captureImage
-#      href: device/captureimage.md
-#    - name: captureVideo
-#      href: device/capturevideo.md 
-#    - name: getBarcodeValue
-#      href: device/getbarcodevalue.md 
-#    - name: getCurrentPosition
-#      href: device/getcurrentposition.md 
-#    - name: isCaptureAudioOperationAvailable
-#      href: device/iscaptureaudiooperationavailable.md 
-#    - name: isCaptureVideoOperationAvailable
-#      href: device/iscapturevideooperationavailable.md                                         
-#    - name: isGetBarcodeValueOperationAvailable
-#      href: device/isgetbarcodevalueoperationavailable.md    
-#    - name: isTakePictureOperationAvailable
-#      href: device/istakepictureoperationavailable.md  
-#    - name: pickFile
-#      href: device/pickfile.md        
-#  - name: Diagnostics
-#    href: diagnostics.md
-#    items:
-#    - name: traceDebug
-#      href: diagnostics/tracedebug.md
-#    - name: traceError
-#      href: diagnostics/traceerror.md
-#    - name: traceInfo
-#      href: diagnostics/traceinfo.md
-#    - name: traceWarning
-#      href: diagnostics/tracewarning.md
+ - name: Device
+   href: device.md
+   items:
+  - name: captureAudio
+    href: device/captureaudio.md
+  - name: captureImage
+  href: device/captureimage.md
+  - name: captureVideo
+    href: device/capturevideo.md 
+  - name: getBarcodeValue
+    href: device/getbarcodevalue.md 
+  - name: getCurrentPosition
+    href: device/getcurrentposition.md 
+   - name: pickFile
+    href: device/pickfile.md        
   - name: Entity
     href: entity.md
+  - name: EntityRecord/entityrecord.md
     items:
+    - name: getFormattedValue
+      href: entityrecord/getformattedvalue.md
     - name: getNamedReference
-      href: entity/getnamedreference.md
+      href: entityrecord/getnamedreference.md
     - name: getRecordId
-      href: entity/getrecordid.md
+      href: entityrecord/getrecordid.md
     - name: getValue
-      href: entity/getvalue.md                
+      href: entityrecord/getvalue.md                
   - name: EntityReference
-    href: entityreference.md          
-#  - name: ExternalContext
-#    href: externalcontext.md
-#    items:
-#    - name: getAvailableExternalContexts
-#      href: externalcontext/getavailableexternalcontexts.md
-#    - name: getExternalContextProperty
-#      href: externalcontext/getexternalcontextproperty.md 
-#    - name: invokeExternalContextAction
-#      href: externalcontext/invokeexternalcontextaction.md                 
-#  - name: Factory
-#    href: factory.md
-#    items:
-#    - name: bindDOMComponent
-#      href: factory/binddomcomponent.md
-#    - name: createComponent
-#      href: factory/createcomponent.md
-#    - name: createElement
-#      href: factory/createelement.md
-#    - name: fireEvent
-#      href: factory/fireevent.md
-#    - name: getControlDefaultMapping
-#      href: factory/getcontroldefaultmapping.md
-#    - name: requestRender
-#      href: factory/requestrender.md
-#    - name: unbindDOMComponent
-#      href: factory/unbinddomcomponent.md
-#    - name: updateComponent
-#      href: factory/updatecomponent.md
+    href: entityreference.md                          
+    - name: Factory
+   href: factory.md
+   items:
+   - name: requestRender
+     href: factory/requestrender.md
+   - name: gePopupService
+    href: factory/getpopupservice.md
   - name: FilterExpression
     href: filterexpression.md
   - name: Filtering
@@ -192,13 +119,7 @@
     - name: formatTime
       href: formatting/formattime.md 
     - name: getWeekOfYear
-      href: formatting/getweekofyear.md 
-#  - name: FormProps
-#    href: formprops.md
-  - name: KeyValuePair
-    href: keyvaluepair.md      
-  - name: LinkEntity
-    href: linkentity.md
+      href: formatting/getweekofyear.md      
   - name: Linking
     href: linking.md
     items:
@@ -209,14 +130,10 @@
   - name: Mode
     href: mode.md
     items:
-    - name: clearNotification
-      href: mode/clearnotification.md
     - name: setControlState
       href: mode/setcontrolstate.md
     - name: setFullScreen
       href: mode/setfullscreen.md
-    - name: setNotification
-      href: mode/setnotification.md
     - name: trackContainerResize
       href: mode/trackcontainerresize.md                                
   - name: Navigation
@@ -232,34 +149,12 @@
       href: navigation/openerrordialog.md
     - name: openFile
       href: navigation/openfile.md
-    - name: openForm
-      href: navigation/openform.md
-    - name: openGrid
-      href: navigation/opengrid.md
-    - name: openMap
-      href: navigation/openmap.md
-    - name: openPhoneNumber
-      href: navigation/openphonenumber.md
-    - name: openTaskFlow
-      href: navigation/opentaskflow.md
     - name: openUrl
       href: navigation/openurl.md
     - name: openWebResource
       href: navigation/openwebresource.md
   - name: NumberFormattingInfo
     href: numberformattinginfo.md
-#  - name: Offline
-#    href: offline.md
-#    items:
-#    - name: isOfflineEnabled
-#      href: offline/isofflineenabled.md         
-  - name: OrgSettings
-    href: orgsettings.md
-  - name: Page
-    href: page.md
-    items:
-    - name: getClientUrl
-      href: page/getclienturl.md
   - name: Paging
     href: paging.md
     items:
@@ -270,9 +165,7 @@
     - name: reset
       href: paging/reset.md   
     - name: setPageSize
-      href: paging/setpagesize.md                           
-#  - name: ParameterDefinitionMap
-#    href: parameterdefinitionmap.md      
+      href: paging/setpagesize.md                               
   - name: Popup
     href: popup.md
   - name: PopupService
@@ -283,9 +176,7 @@
     - name: createPopup
       href: popupservice/createpopup.md   
     - name: deletePopup
-      href: popupservice/deletepopup.md   
-    - name: getPopups
-      href: popupservice/getpopups.md   
+      href: popupservice/deletepopup.md    
     - name: getPopupsId
       href: popupservice/getpopupsid.md   
     - name: openPopup
@@ -293,16 +184,7 @@
     - name: setPopupsId
       href: popupservice/setpopupsid.md   
     - name: updatePopup
-      href: popupservice/updatepopup.md                                                                    
-#  - name: Reporting
-#    href: reporting.md
-#    items:
-#    - name: reportEvent
-#      href: reporting/reportevent.md
-#    - name: reportFailure
-#      href: reporting/reportfailure.md 
-#    - name: reportSuccess
-#      href: reporting/reportsuccess.md         
+      href: popupservice/updatepopup.md                                                                            
   - name: Resources
     href: resources.md
     items:
@@ -310,23 +192,8 @@
       href: resources/getresource.md
     - name: getString
       href: resources/getstring.md
-  - name: Sort
-    href: sort.md
-#  - name: Style
-#    href: style.md         
-  - name: Theming
-    href: theming.md
-    items:
-    - name: disableUiTransitions
-      href: theming/disableuitransitions.md
-    - name: getEntityColor
-      href: theming/getentitycolor.md
-    - name: inlineLayout
-      href: theming/inlinelayout.md
-    - name: rightAlignEdit
-      href: theming/rightalignedit.md        
-  - name: ThemingColors
-    href: themingcolors.md
+  - name: SortStatus
+    href: sortstatus.md
   - name: UserSettings
     href: usersettings.md
     items:
@@ -335,70 +202,23 @@
   - name: Utility
     href: utility.md
     items:
-    - name: addGlobalNotification
-      href: utility/addglobalnotification.md
-    - name: beginSecureSessionForResource
-      href: utility/beginsecuresessionforresource.md  
-    - name: clearGlobalNotification
-      href: utility/clearglobalnotification.md  
-    - name: createServerUri
-      href: utility/createserveruri.md  
-    - name: eventListenerExists
-      href: utility/eventlistenerexists.md  
-    - name: getEntitiesMetadata
-      href: utility/getentitiesmetadata.md  
     - name: getEntityMetadata
-      href: utility/getentitymetadata.md  
-    - name: getEntityName
-      href: utility/getentityname.md  
-    - name: getFormId
-      href: utility/getformid.md  
-    - name: getResourceString
-      href: utility/getresourcestring.md  
+      href: utility/getentitymetadata.md   
     - name: hasEntityPrivilege
-      href: utility/hasentityprivilege.md  
-    - name: isFeatureEnabled
-      href: utility/isfeatureenabled.md  
+      href: utility/hasentityprivilege.md    
     - name: lookupObjects
-      href: utility/lookupobjects.md  
-    - name: retrieveFormWithAttributes
-      href: utility/retrieveformwithattributes.md  
-    - name: retrieveRecordCommand
-      href: utility/retrieverecordcommand.md  
-    - name: triggerOfflineMetadataSync
-      href: utility/triggerofflinemetadatasync.md 
-#  - name: VirtualComponent
-#    href: virtualcomponent.md
-#    items:
-#    - name: getChildren
-#      href: virtualcomponent/getchildren.md
-#    - name: getComponentId
-#      href: virtualcomponent/getcomponentid.md
-#    - name: getProperties
-#      href: virtualcomponent/getproperties.md
-#    - name: getType
-#      href: virtualcomponent/gettype.md
-#    - name: getVirtualRepresentation
-#      href: virtualcomponent/getvirtualrepresentation.md                                
-#  - name: VirtualComponentControlStates
-#    href: virtualcomponentcontrolstates.md  
-#  - name: VirtualComponentEventHandlerPair
-#    href: virtualcomponenteventhandlerpair.md  
-#  - name: VirtualComponentProps
-#    href: virtualcomponentprops.md                    
-#  - name: WebApi
-#    href: webapi.md
-#    items:
-#    - name: createRecord
-#      href: webapi/createrecord.md     
-#    - name: deleteRecord
-#      href: webapi/deleterecord.md 
-#    - name: executeMultiple
-#      href: webapi/executemultiple.md 
-#    - name: retrieveMultipleRecords
-#      href: webapi/retrievemultiplerecords.md 
-#    - name: retrieveRecord
-#      href: webapi/retrieverecord.md 
-#    - name: updateRecord
-#      href: webapi/updaterecord.md   
+      href: utility/lookupobjects.md                     
+ - name: WebApi
+ href: webapi.md
+   items:
+   - name: createRecord
+   href: webapi/createrecord.md     
+  - name: deleteRecord
+    href: webapi/deleterecord.md 
+   - name: retrieveMultipleRecords
+     href: webapi/retrievemultiplerecords.md 
+   - name: retrieveRecord
+     href: webapi/retrieverecord.md 
+   - name: updateRecord
+   href: webapi/updaterecord.md   
   
