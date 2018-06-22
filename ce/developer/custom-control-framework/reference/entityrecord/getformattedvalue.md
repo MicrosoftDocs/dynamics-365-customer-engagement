@@ -32,7 +32,7 @@ ms.assetid: 74992f97-89b7-401e-ac95-9c8a47f990d1
 | ------------- |----|--------|-----------|
 |`columnName`|`string`|yes|Column name of the record|
 
-## ReturnValue
+## Return Value
 
 **Type**: `string`
 
