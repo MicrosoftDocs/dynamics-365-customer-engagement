@@ -34,7 +34,7 @@ There are four different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account (company profile)**: Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile using a specific account name. 
 - **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Account Lookup Control**: Shows company profile information using the account name related to the record.  
 
-The Sales Navigator controls can be added by modifying field on a form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Modify the following fields according to the control type. Optionally, you can add multiple fields to match the control to make the matches more relevant. Keep in mind that this requires all fields to match before a member profile or company profile is suggested.
+The Sales Navigator controls can be added by modifying field on a form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Modify the following fields according to the control type. Optionally, you can add multiple fields to match the control to make the matches more relevant. Keep in mind that this requires all fields to match before a member profile or company profile is suggested. If no match, or in rare cases a wrong match is found, you can use the search interface to find the right profile.
 
 | Sales Navigator Control                            | Field name to modify | Field type |
 |----------------------------------------------------|----------------------|------------|
@@ -51,7 +51,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
    ![Click path to customization area](media/customizations-nav-bar.png "Click path to customization area")
 
-2. Select **Customize the System**.
+2. Select **Customize the System**. For this example, we'll customize the default solution. [Learn more about customizing Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/customize/solutions-overview).
 
 3. Expand the **Entities** node and select the entity you want to customize. You can use virtually any entity, but for this example, we'll select the **Lead** entity and expand the node.
 
