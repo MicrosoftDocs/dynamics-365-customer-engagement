@@ -36,7 +36,7 @@ Both Lead and Account controls work by matching certain input parameters receive
 
  [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account control: company name (primary), company website, and [more fields from LinkedIn](https://www.linkedin.com/help/sales-navigator/answer/79552) 
 
-Once a match is found, subsequent loads are done through the record GUID association. Optionally, you can save recommended leads as new leads in Sales Navigator.
+Once a match is found, the control will show related information about the member or company profile and will persist when you load the form again. Optionally, you can save recommended leads as new leads in Sales Navigator.
 
 ### Select the right match from multiple matches
 
