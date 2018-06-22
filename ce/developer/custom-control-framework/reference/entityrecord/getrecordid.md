@@ -25,7 +25,7 @@ ms.assetid: 8d98a8ca-d4e9-405e-bd59-a1207a46020c
 ## Syntax
 `getRecordId()`
 
-## ReturnValue
+## Return Value
 **Type**: `string`
 
 ### Related topics
