@@ -31,5 +31,5 @@ ms.assetid: 96fa69f3-38d2-4e95-bb25-02d92aa6296c
 ### Related topics
 
 [DataSet](../dataset.md)<br />
-[Custom Control Framework API Reference](../index.md)<br />
-[Custom Control Framework Overview](../../custom-control-framework-overview.md)<br />
+[PowerApps Control Framework API Reference](../index.md)<br />
+[PowerApps Control Framework Overview](../../powerapps-control-framework-overview.md)<br />
