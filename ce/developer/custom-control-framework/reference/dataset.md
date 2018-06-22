@@ -106,5 +106,5 @@ The column sorting for the current query.
 
 ### Related topics
 
-[Custom Control Framework API Reference](index.md)<br />
-[Custom Control Framework Overview](../custom-control-framework-overview.md)
+[PowerApps Control Framework API Reference](index.md)<br />
+[PowerApps Control Framework Overview](../powerapps-control-framework-overview.md)
