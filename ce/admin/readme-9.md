@@ -155,21 +155,17 @@ Sales and Customer Service web client apps
 -   Knowledge Articles are displayed unformatted when relevance search is
     enabled.
 
--   If there is any text in the quick find search when a view is changed,
-    records are not refreshed in the Knowledge Article form.
-
--   Knowledge Articles sometimes display an inaccurate number of article views.
-
 -   When you give a long name (more than 41 characters) to a custom entity
     enabled for Knowledge Management, you might get an error.
-
--   Search of Knowledge Articles on custom dashboards might not return results.
 
 -   Only the first keyword added to a Knowledge Article returns results in a
     quick find search.
 
 -   If a Knowledge Article is in read-only mode, links in the article will not
     work.
+    
+-   Knowledge Articles creation and authoring is not supported on web client, and is supported only on Unified Client. Hence, on clicking on out of the box Knowledge Article node in Dynamics 365 custom web app sitemap, the page auto refreshes and redirects to default landing page after seven seconds. Knowledge Articles wiil be opened in a new tab for you in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
+
 
 Sales Hub and Customer Service Hub apps 
 ----------------------------------------
