@@ -144,8 +144,6 @@
       href: navigation/openalertdialog.md
     - name: openConfirmDialog
       href: navigation/openconfirmdialog.md
-    - name: openDialog
-      href: navigation/opendialog.md
     - name: openErrorDialog
       href: navigation/openerrordialog.md
     - name: openFile
