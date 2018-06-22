@@ -33,7 +33,7 @@ This article provides a step-by-step guide to get up and running with a [trial s
    - [Mozilla Firefox](https://support.mozilla.org/kb/private-browsing-use-firefox-without-history)
    - [Google Chrome](https://support.google.com/chrome/answer/95464)
 
-3. Don't enter any data on the **Welcome, let's get zo know you** page. Simply select the **Sign in** button.
+3. Don't enter any data on the **Welcome, let's get to know you** page. Simply select the **Sign in** button.
    ![Sign in to an existing Office 365 tenant](media/mse-trial-existing-sign-in.png "Sign in to an existing Office 365 tenant")
 
 4. Enter your admin credentials for the Office 365 tenant you want to add the trial solution to.
