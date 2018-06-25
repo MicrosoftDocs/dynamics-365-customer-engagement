@@ -71,6 +71,9 @@ These activities can be converted to any default (system) entity records or cust
  In a record creation and update rule, when you specify a queue for a source type, any incoming activity from that source is added as a queue item for that specified queue. That is, if a rule for a particular source activity and queue combination is active, the rule processes the incoming activity on that queue to create or update records.  
   
  For an email source type, specifying a queue is mandatory. For all other source types including custom activities, it is optional.  
+
+> [!NOTE]
+> An Email queue item gets deactivated when it is converted to a Case.
   
 <a name="bkmk_RulesInSolutions"></a>   
 ## Rules in solutions  
@@ -128,7 +131,6 @@ If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] instance mee
   
         > [!NOTE]
         >  You can associate only one rule per source type to a specific queue. For example: If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue. Otherwise, automatic record creation for email won’t work. 
-        Also consider that an Email queue item gets deactivated when it is converted to a Case.
         [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or change a queue](../customer-service/create-edit-queue.md)  
   
 6.  Click **Save**.  
