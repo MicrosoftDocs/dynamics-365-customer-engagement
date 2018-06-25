@@ -33,6 +33,20 @@ Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-d
 
 If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
 
+**Insufficient permissions to provide feedback**
+
+The **Provide Feedback** feature is available only if you have a [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] instance.
+
+If you log in using administrator credentials and select **Provide Feedback** to provide your feedback/comments, you can see an **Insufficient Permissions** message. 
+
+![Insufficient Permissions](media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
+
+The message says to contact the administrator even though you log in as an administrator. The reason for this message is that you did not enable the **HelpImproveUsd** option in the UII global options.
+
+If you enable **HelpImproveUsd**, the data collection is enabled, and in turn, you (agent and administrator) can provide feedback to improve the product.
+
+To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
+
 ## Limitations in Unified Service Desk
 
 This section describes the limitations in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]
