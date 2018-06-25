@@ -44,7 +44,6 @@ ms.assetid: 4dacd337-c9df-458e-86f3-bfb3ab543ea7
 
 |Element|Description|Occurrences|
 |--|--|--|
-|[child](child.md)|[!INCLUDE [child-description](includes/child-description.md)]|0 or 1|
 |[data-set](data-set.md)|[!INCLUDE [data-set-description](includes/data-set-description.md)]|0 or more|
 |[property](property.md)|[!INCLUDE [property-description](includes/property-description.md)]|0 or more|
 |[resources](resources.md)|[!INCLUDE [resources-description](includes/resources-description.md)]|1|
