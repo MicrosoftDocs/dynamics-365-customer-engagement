@@ -25,27 +25,29 @@ This section describes the known issues and limitations in [!INCLUDE[pn-unified-
 
 ### Best Practices Analyzer
 
-**Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
+- **Warning for HelpImproveUSD parameter in Dynamics 365 (on-premises)**
 
-Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)], you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
+  Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] is enabled/disabled only for [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)]. If you are using [!INCLUDE[pn-crm-onprem](../includes/pn-crm-onprem.md)], you can see a warning for the Help Improve [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] (HelpImproveUSD) parameter in the report.
 
-**Error for Enable Enhanced Protected mode in Windows 7 operating system**
+- **Error for Enable Enhanced Protected mode in Windows 7 operating system**
 
-If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
+  If you are using [!include[pn-windows-7](../includes/pn-windows-7.md)] operating system, the **Enable Enhanced Protected Mode** option is not available in Internet Explorer options. Hence, you can see an error message for the **Enable Enhanced Protected Mode** parameter in the report.
 
-**Insufficient permissions to provide feedback**
+### Provide Feedback
 
-The **Provide Feedback** feature is available only if you have a [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] instance.
+- **Insufficient permissions to provide feedback**
 
-If you log in using administrator credentials and select **Provide Feedback** to provide your feedback/comments, you can see an **Insufficient Permissions** message. 
+  The **Provide Feedback** feature is available only if you have a [!INCLUDE[pn-crm-online](../includes/pn-crm-online.md)] instance.
 
-![Insufficient Permissions](media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
+  If you log in using administrator credentials and select **Provide Feedback** to provide your feedback/comments, you can see an **Insufficient Permissions** message. 
 
-The message says to contact the administrator even though you log in as an administrator. The reason for this message is that you did not enable the **HelpImproveUsd** option in the UII global options.
+  ![Insufficient Permissions](media/insufficient-permissions-provide-feedback-window.PNG "Insufficient Permissions")
 
-If you enable **HelpImproveUsd**, the data collection is enabled, and in turn, you (agent and administrator) can provide feedback to improve the product.
+  The message says to contact the administrator even though you log in as an administrator. The reason for this message is that you did not enable the **HelpImproveUsd** option in the UII global options.
 
-To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
+  If you enable **HelpImproveUsd**, the data collection is enabled, and in turn, you (agent and administrator) can provide feedback to improve the product.
+
+  To enable **HelpImproveUsd**, view [Help improve Unified Service Desk](admin/help-improve-unified-service-desk.md).
 
 ## Limitations in Unified Service Desk
 
