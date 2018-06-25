@@ -1,13 +1,27 @@
-
-# Custom Control Framework Manifest Schema Reference
+---
+title: PowerApps Control Framework MAnifest Schema Reference | Microsoft Docs
+description: 
+keywords:
+ms.author: nabuthuk
+manager: jdaly
+ms.date: 06/4/2018
+ms.reviewer: ""
+ms.service: "crm-online"
+ms.suite: ""
+ms.tgt_pltfrm: ""
+ms.topic: "article"
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
+ms.assetid: 045a395b-4475-48dd-8f67-6bc2b33cd89c
+---
+# PowerApps Control Framework Manifest Schema Reference
 
 |Element|Description|
 |----|-----------|
-|[child](child.md)|[!INCLUDE [child-description](includes/child-description.md)]|
 |[code](code.md)|[!INCLUDE [code-description](includes/code-description.md)]|
 |[control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
 |[css](css.md)|[!INCLUDE [css-description](includes/css-description.md)]|
-|[customcontrol](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
 |[data-set](data-set.md)|[!INCLUDE [data-set-description](includes/data-set-description.md)]|
 |[html](html.md)|[!INCLUDE [html-description](includes/html-description.md)]|
 |[img](img.md)|[!INCLUDE [img-description](includes/img-description.md)]|
