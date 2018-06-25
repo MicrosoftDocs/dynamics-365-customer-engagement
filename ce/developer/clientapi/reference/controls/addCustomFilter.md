@@ -15,6 +15,9 @@ manager: "amyla"
 
 Adds filters to the results displayed in the lookup. Each filter will be combined with any previously added filters as an “AND” condition.
 
+> [!NOTE]
+> Custom lookup filters are not supported in mobile offline. For information about the mobile offline feature, see [Configure mobile offline synchronization](../../../../mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
+
 ## Control types supported
 
 Lookup
