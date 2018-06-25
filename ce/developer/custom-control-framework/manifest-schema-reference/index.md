@@ -5,7 +5,6 @@
 |----|-----------|
 |[child](child.md)|[!INCLUDE [child-description](includes/child-description.md)]|
 |[code](code.md)|[!INCLUDE [code-description](includes/code-description.md)]|
-|[container](container.md)|[!INCLUDE [container-description](includes/container-description.md)]|
 |[control](control.md)|[!INCLUDE [control-description](includes/control-description.md)]|
 |[css](css.md)|[!INCLUDE [css-description](includes/css-description.md)]|
 |[customcontrol](customcontrol.md)|[!INCLUDE [customcontrol-description](includes/customcontrol-description.md)]|
@@ -14,7 +13,6 @@
 |[img](img.md)|[!INCLUDE [img-description](includes/img-description.md)]|
 |[library](library.md)|[!INCLUDE [library-description](includes/library-description.md)]|
 |[manifest](manifest.md)|[!INCLUDE [manifest-description](includes/manifest-description.md)]|
-|[modes](modes.md)|[!INCLUDE [modes-description](includes/modes-description.md)]|
 |[packaged_library](packaged_library.md)|[!INCLUDE [packaged_library-description](includes/packaged_library-description.md)]|
 |[property](property.md)|[!INCLUDE [property-description](includes/property-description.md)]|
 |[property-set](property-set.md)|[!INCLUDE [property-set-description](includes/property-set-description.md)]|
