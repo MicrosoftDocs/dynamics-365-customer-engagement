@@ -144,7 +144,7 @@ Review your content-settings records and decide which to use (or create a new on
 
 You will choose the content-settings record to use for all confirmation-request messages when you set up double opt-in for your site, as described later in this topic.
 
-[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add dynamic content](prepare-marketing-emails.md#dynamic-content)
+[!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
 ## Create a thank-you page for each type of confirmation
 

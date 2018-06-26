@@ -175,7 +175,7 @@ Content settings are sets of standard and required values that are available for
 
 To choose the content settings used by a journey, go to its **General** tab and make a selection for the **Content settings** field.
 
-For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](prepare-marketing-emails.md#content-settings)
+For more information about how to create and configure content-settings records, see [Use content settings to set up repositories of standard and required values for email messages](dynamic-email-content.md#content-settings)
 
 If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create. For more information about how to establish the default content-settings record for new journeys, see [Default marketing settings](marketing-settings.md#default-marketing-settings).
 
