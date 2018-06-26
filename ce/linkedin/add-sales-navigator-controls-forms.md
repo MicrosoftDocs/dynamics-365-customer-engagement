@@ -84,7 +84,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the [accuracy to find the right match](https://www.linkedin.com/help/sales-navigator/answer/77041/leads-contacts-and-accounts-matching-between-sales-navigator-and-your-crm).  
 
-Select the **First Name** property with the description **Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy** and select the pencil icon. 
+   Select the **First Name** property with the description **Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy** and select the pencil icon. 
 
 10. In the **Bind to a value on a field** list, select **firstname (SingleLine.Text)** and select **OK**.
 
