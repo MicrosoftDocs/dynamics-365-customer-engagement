@@ -37,7 +37,7 @@ Begin by finding the app in the app Store.
 
    ![Select Store](media/select-store.png "Select Store")
 
-2. Search for **dynamics** and select the **Dynamics 365 (Preview)** tile.
+2. Search for **dynamics**, and then select the **Dynamics 365 (Preview)** tile.
 
    ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
 
@@ -47,7 +47,7 @@ You have a choice when adding Dynamics 365 to Microsoft Teams. You can install t
 
 Once you've selected the Dynamics 365 app (see steps above), the settings page opens. 
 
-Select **Install** to install the personal app.
+Verify **Yes** is enabled, and then select **Install** to install the personal app.
 
    ![Install personal app](media/teams-install-add-for-you.png "Install personal app")
 
@@ -57,7 +57,7 @@ There are two personal app features: the personal app bot and the personal app d
 
 Use these steps to install the personal app bot.
 
-1. With the personal app installed, in the bot select **Open**  for the bot from the features page. 
+1. With the personal app installed, in the bot section, select **Open**. 
 
    ![Select Open bot](media/teams-personal-app-installed-open-bot.png "Select Open bot")
 
@@ -69,19 +69,25 @@ Use these steps to install the personal app bot.
 
    Your bot is set up and ready for input.
 
-   ![teams](media/teams-first-bot.png)
+   ![Bot is ready for input](media/teams-first-bot.png "Bot is ready for input")
 
-4. Use **Search** to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
+4. You can search to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
 
-   ![teams](media/teams-search-contoso.png)
+   ![Use Search to find records](media/teams-search-contoso.png "Use Search to find records")
+
+5. Search returns a list of related Dynamics 365 records. Select a record to see details.
+
+   ![Search returns a list of records](media/teams-bot-search.png "Search returns a list of records")
+
+6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, by selecting **Opportunity**, you'll see a related opportunity for the account.
+
+   ![See related details](media/teams-bot-record-detail.png "See related details")
 
 
-
-
-
-
-
-
+.
+.
+.
+.
 5. Select **Open**.
 
     ![Select Open](media/select-open.png "Select Open")
