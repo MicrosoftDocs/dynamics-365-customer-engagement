@@ -2,7 +2,7 @@
 title: "Preview feature: Integrate Dynamics 365 Customer Engagement with Microsoft Teams| MicrosoftDocs"
 ms.custom: ""
 description: Integrate Dynamics 365 Customer Engagement with Microsoft Teams. 
-ms.date: 03/30/2018
+ms.date: 07/15/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -29,19 +29,56 @@ manager: "brycho"
 
 If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-teams/group-chat-software), you know it's the place to manage all your conversations, files, and tools in one team workspace. Create and edit documents right in the app and enjoy instant access to SharePoint, OneNote, PowerBI, and now, [!INCLUDE [pn-crm-online](../includes/pn-crm-online.md)].
 
-Follow these steps to add Dynamics 365 to your Microsoft Teams app.
+You have a choice when adding Dynamics 365 to Microsoft Teams. You can install the personal app which integrates Dynamics 365 and Teams for your own use, or you can install the Team app to use with your team members.
+
+For either choice, you begin by finding the app in the app Store.
+
+## Select the app in the app Store.
 
 1. In Microsoft Teams, select **Store**.
 
    ![Select Store](media/select-store.png "Select Store")
 
-2. Search for **Dynamics 365** and select the **Dynamics 365** tile.
+2. Search for **Dynamics 365** and select the **Dynamics 365 (Preview)** tile.
 
-    ![Search for and select Dynamics 365](media/search-select-dynamics-365.png "Search for and select Dynamics 365")
+   ![Search for and select Dynamics 365](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
 
-4. Select **Install**.
+## Install the personal app
 
-    ![Select Install](media/select-install.png "Select Install")
+Once you've selected the Dynamics 365 app, the settings page opens. These steps involve the settings under **App for you**.
+
+Select **Install** to install the personal app.
+
+   ![Install personal app](media/teams-install-add-for-you.png "Install personal app")
+
+There are two personal app features: the personal app bot and the personal app dashboard. The bot allows you to interact with Dynamics 365 to find and display records within Microsoft Teams. You configure the dashboard to show a Dynamics 365 dashboard view in Microsoft Teams.
+
+## Install the personal app bot
+
+1. With the personal app installed, in the bot select **Open**  for the bot from the features page. 
+
+   ![Select Open bot](media/teams-personal-app-installed-open-bot.png "Select Open bot)
+
+2. A Welcome message appears in the **Conversation** tab page. Select **Sign in**.
+
+   ![Bot Welcome page](media/teams-bot-welcome.png "Bot Welcome page")
+
+3. Select your organization, and then select **Next**.
+
+   Your bot is set up and ready for input.
+
+   ![teams](media/teams-first-bot.png)
+
+4. Use **Search** to find records of interest. For example, enter "search contoso" in **Search** to see Contoso records.
+
+   ![teams](media/teams-search-contoso.png)
+
+
+
+
+
+
+
 
 5. Select **Open**.
 
@@ -55,11 +92,21 @@ Follow these steps to add Dynamics 365 to your Microsoft Teams app.
     Note: only app modules licensed for the selected organization are listed.​
 10. Select **Save**.​
 
+## Add Dynamics 365 to Microsoft Teams
+
+Follow these steps to add Dynamics 365 to your Microsoft Teams app.
+
+
+
 ![Configure Settings](../admin/media/select-org-app-module-save.png "Configure Settings")
 
 The Microsoft Dynamics 365 default dashboard appears for the app module selected.
 
 ![Microsoft Teams integrated with Dynamics 365](media/teams-dynamics-365-dashboard.png "Microsoft Teams integrated with Dynamics 365")
+
+## Configure and use the personal bot
+
+## Configure and use the personal dashboard
 
 ## Delete user data
 Your privacy is important to us! You can remove Dynamics 365 app personal data from Microsoft Teams.
