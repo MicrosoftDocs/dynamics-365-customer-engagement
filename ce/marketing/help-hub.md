@@ -40,7 +40,7 @@ topic-status: Drafting
 <li>[Manage your quotas](quota-management.md)</li>
 <li>[Customize Dynamics 365 for Marketing](customize.md)</li>
 <li>[Data protection and GDPR](gdpr.md)</li>
-<li>[Administration FAQ](setup-troubleshooting.md)</li>
+<li>[Administration and setup FAQ](setup-troubleshooting.md)</li>
 
 </td><td>
 

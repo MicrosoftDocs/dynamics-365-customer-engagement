@@ -31,7 +31,7 @@
 ### [Customize Marketing](customize.md)
 ### [Data protection and GDPR](gdpr.md)
 ### [How the app uses cookies](cookies.md)
-### [Administration FAQ](setup-troubleshooting.md)
+### [Administration and setup FAQ](setup-troubleshooting.md)
 
 ## [User Guide](user-guide.md)
 

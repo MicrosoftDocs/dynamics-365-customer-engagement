@@ -1,6 +1,6 @@
 ---
-title: "Administration frequently asked questions (Dynamics 365 for Marketing) | Microsoft Docs"
-description: "Solutions to common questions and issues that can occur during the initial setup and administration of Dynamics 365 for Marketing"
+title: "Administration and setup frequently asked questions (Dynamics 365 for Marketing) | Microsoft Docs"
+description: "Solutions to common questions and issues that can occur during the initial setup and ongoing administration of Dynamics 365 for Marketing"
 keywords: "troubleshooting;setup"
 ms.date: 06/01/2018
 ms.service:
@@ -20,7 +20,7 @@ ms.reviewer: renwe
 topic-status: Drafting
 ---
 
-# Administration FAQ
+# Administration and setup FAQ
 
 [!INCLUDE[cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 
@@ -100,20 +100,20 @@ If your setup fails for some reason, you'll be notified by email and/or by a sta
 - If you are setting up a [trial](trial-signup.md), then you should have received a welcome email that included a link to the setup wizard. Find your welcome mail and click that link to launch the wizard.
 - If you are setting up a production instance, then launch the setup wizard from the **Applications** tab in the [!INCLUDE[pn-dyn-365-admin-center](../includes/pn-dyn-365-admin-center.md)], as described in [Purchase a production version of Dynamics 365 for Marketing](purchase-marketing.md).
 
-<a name="reset-portal"></a>
+<a name="restart-portal"></a>
 
-## How can I reset the portal?
+## How can I restart the portal?
 
-Marketing pages and the event portal both run on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals app. Sometimes, you may notice that settings you make in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] aren't reflected on the portal right away, such as (for the event portal): updates to banner images, speaker images, or payment gateway assignments. Also, if your portal becomes unresponsive or otherwise unreliable, it can often help to go in an reset it.
+Marketing pages and the event portal both run on the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] portals app. Sometimes, you may notice that settings you make in [!INCLUDE[pn-marketing-business-app-module-name](../includes/pn-marketing-business-app-module-name.md)] aren't reflected on the portal right away, such as (for the event portal): updates to banner images, speaker images, or payment gateway assignments. Also, if your portal becomes unresponsive or otherwise unreliable, it can often help to go in an restart it.
 
-To reset your portal:
+To restart your portal:
 
 1. [Open the Dynamics 365 admin center](dynamics-365-admin-center.md) and go to the **Applications** tab .
 
 1. Each configured portal app is listed in the **Application** column using the name of the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] instance it is assigned to (so it probably doesn't have "portal" in its name), and shows a value of **Configured** in the **Status** column. Find and select your portal in the list and then select **Manage** in the side panel.  
     ![Select your portal](media/faq-portal-manage.png "Select your portal")
 
-1. The portals manager opens. Select **Portal actions** in the side panel, and then select the **Restart** tile to reset the portal.  
+1. The portals manager opens. Select **Portal actions** in the side panel, and then select the **Restart** tile to restart the portal.  
     ![Open portal actions and then select restart](media/faq-portal-manage2.png "Open portal actions and then select restart")
 
 1. You'll be asked to confirm the action. Choose **Restart** to continue and then allow a few minutes for the process to complete.

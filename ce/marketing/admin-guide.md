@@ -37,7 +37,7 @@ topic-status: Drafting
 <li>[Best practices for email marketing](get-ready-email-marketing.md)</li>
 <li>[Data protection and GDPR](gdpr.md)</li>
 <li>[How Marketing uses cookies](cookies.md)</li>
-<li>[Administration FAQ](setup-troubleshooting.md)</li>
+<li>[Administration and setup FAQ](setup-troubleshooting.md)</li>
 
 </td><td>
 
