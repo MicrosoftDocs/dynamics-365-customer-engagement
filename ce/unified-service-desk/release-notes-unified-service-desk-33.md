@@ -2,7 +2,7 @@
 title: "Release notes of Unified Service Desk 3.3 (Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about the known issues in Unified Service Desk."
 ms.custom: ""
-ms.date: 05/8/2018
+ms.date: 06/26/2018
 ms.service: "usd"
 ms.topic: "article"
 applies_to: 
@@ -14,7 +14,7 @@ applies_to:
 ms.assetid: FCB9B5AA-62A9-4CFA-9F84-E63735B879DF
 author: "kabala123"
 ms.author: "kabala"
-manager: "sakudes"
+manager: "Shujoshi"
 ---
 
 # Release notes of Unified Service Desk 3.3
