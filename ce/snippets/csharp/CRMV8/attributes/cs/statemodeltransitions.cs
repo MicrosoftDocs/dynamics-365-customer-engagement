@@ -243,7 +243,7 @@ namespace Microsoft.Crm.Sdk.Samples
    }
 
 
-   if (EnforceStateTransitions.HasValue &amp;&amp; EnforceStateTransitions.Value == true)
+   if (EnforceStateTransitions.HasValue && EnforceStateTransitions.Value == true)
    {
     //When EnforceStateTransitions is true use the TransitionData to filter the valid options
     foreach (StatusOptionMetadata option in statusAttribute.OptionSet.Options)

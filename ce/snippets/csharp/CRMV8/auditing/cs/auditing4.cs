@@ -24,7 +24,7 @@
  {
      for (int n = partitions.Count - 1; n >= 0; --n)
      {
-         if (partitions[n].EndDate <= DateTime.Now &amp;&amp; partitions[n].EndDate > deleteRequest.EndDate)
+         if (partitions[n].EndDate <= DateTime.Now && partitions[n].EndDate > deleteRequest.EndDate)
          {
              deleteRequest.EndDate = (DateTime)partitions[n].EndDate;
              break;

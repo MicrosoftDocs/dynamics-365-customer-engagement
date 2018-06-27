@@ -78,4 +78,5 @@
 ### [Social Engagement FAQ](faq.md)
 ### [Accessibility for Social Engagement](accessibility.md)
 ### [Social Engagement Privacy Notices](privacy-notices.md)
+## [Request a trial](https://experience.dynamics.com/trials/)
 
