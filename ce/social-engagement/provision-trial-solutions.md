@@ -1,5 +1,5 @@
 ---
-title: "Provision trial solutions for Microsoft Social Engagement | Microsoft Docs"
+title: "Set up trial solutions for Microsoft Social Engagement | Microsoft Docs"
 description: "Review the steps to get a trial solution for Social Engagement"
 keywords: "trial. provisioning, MSE, testdrive"
 ms.date: 06/14/2017
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-socialengagement
 ---
 
-# Provision trial solutions for Microsoft Social Engagement
+# Set up trial solutions for Microsoft Social Engagement
 
 This article provides a step-by-step guide to get up and running with a [trial solution for Social Engagement](https://experience.dynamics.com/trials/). 
 
