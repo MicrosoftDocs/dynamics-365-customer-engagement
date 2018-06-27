@@ -144,6 +144,10 @@ Instagram authors are currently listed as "Unknown Author" in Social Engagement.
 
 ## Search setup - known issues
 
+### Changing search topic category not reflected in the UI   
+
+When the category on an existing search topic, the search topic still shows the previously selected category. Although the changes are saved, you need to refresh the browser to see the change reflected correctly. 
+
 ### Retweets not acquired if keyword is after the 140th character
 
 If a retweet is longer than 140 characters and the matching search term of a keyword rule appears after the 140th character, the retweet isn't acquired by the system.
