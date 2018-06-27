@@ -164,7 +164,7 @@ Sales and Customer Service web client apps
 -   If a Knowledge Article is in read-only mode, links in the article will not
     work.
     
--   Knowledge Articles creation and authoring is not supported on web client, and is supported only on Unified Client. Hence, on clicking on out of the box Knowledge Article node in Dynamics 365 custom web app sitemap, the page auto refreshes and redirects to default landing page after seven seconds. Knowledge Articles wiil be opened in a new tab for you in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
+-   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
 
 
 Sales Hub and Customer Service Hub apps 
