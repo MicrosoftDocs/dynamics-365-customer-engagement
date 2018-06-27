@@ -79,9 +79,15 @@ Use these steps to install the personal app bot.
 
    ![Search returns a list of records](media/teams-bot-search.png "Search returns a list of records")
 
-6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for this account.
+6. The details of the selected record are displayed in the personal app bot. You can select an activity to view and edit related record details. For example, select **Show Opportunities** to see opportunities for the Contoso account.
 
-   ![See related details](media/teams-bot-record-detail.png "See related details")
+   ![See related details and records](media/teams-bot-record-quick-action.png "See related details and records")
+
+   You can update the details of the records in the personal bot.
+
+## Install the personal dashboard
+
+   
 
 
 .
