@@ -218,6 +218,7 @@ By default, all new messages that you create will be commercial messages. To cha
 
 Take care not to send transactional messages that include promotional content. It is your responsibility to be familiar with, and conform to, all relevant laws that apply in the countries/regions where you deliver commercial and transactional messages.
 
+<a name="preview-message"></a>  
 
 ## Check your work by using previews and test sends
 

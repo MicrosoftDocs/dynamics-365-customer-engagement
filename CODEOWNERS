@@ -2,12 +2,12 @@
 # Each line is a file pattern followed by one or more owners.
 
 /ce/admin/                                    @jimholtz
-/ce/analytics/                                @matp
+/ce/analytics/                                @Mattp123
 /ce/common-scheduler/	                        @shelly-haverkamp
 /ce/company-news-timeline/                    @jimholtz
 /ce/customer-insights/	                      @jimholtz
 /ce/customer-service/                         @shelly-haverkamp
-/ce/customize/	                              @matp
+/ce/customize/	                              @Mattp123
 /ce/developer/	                              @JimDaly
 /ce/field-service/	                          @shelly-haverkamp
 /ce/gamification/	                            @saurabh-kudesia
@@ -26,4 +26,4 @@
 /ce/unified-service-desk/	                    @saurabh-kudesia
 /ce/voice-of-customer/	                      @saurabh-kudesia
 /ce/marketing/developer/                      @KumarVivek
-/ce/admin/readme-9.md                         @kathleenmcgrath @almostdunh
+/ce/admin/readme-9.md                         @ReneeW-CPub @almostdunh
