@@ -2,7 +2,7 @@
 title: "Install the Voice of the Customer solution | MicrosoftDocs"
 description: "Instructions to install the Voice of the Customer solution."
 keywords: "install voice of the customer"
-ms.date: 05/22/2018
+ms.date: 06/15/2018
 ms.service: dynamics-365-customerservice
 ms.topic: article
 applies_to:
@@ -47,7 +47,7 @@ This section provides you the steps to install the Voice of the Customer for [!I
 
 6.  Select **Install**.
 
-When you install Voice of the Customer, a VOC Push Service user is created automatically. This user is created to allow Voice of the Customer Azure service to authenticate with Dynamics 365 using Server-to-Server (S2S) authentication. The VOC Push Service user is an application user and does not consume any license. The user is assigned Survey Administrator role. More information on S2S authentication: [Server-to-Server (S2S) authentication](https://msdn.microsoft.com/en-us/library/mt790168.aspx).
+When you install Voice of the Customer, a VOC Push Service user is created automatically. This user is created to allow Voice of the Customer Azure service to authenticate with Dynamics 365 using Server-to-Server (S2S) authentication, and is primarily used for pushing survey responses. The VOC Push Service user is an application user and does not consume any license. The user is assigned Survey Administrator role. More information on S2S authentication: [Server-to-Server (S2S) authentication](https://msdn.microsoft.com/en-us/library/mt790168.aspx).
 
 > [!NOTE]
 > The VOC Push Service user runs only with minimum required privileges to communicate to Voice of the Customer Azure service, and if your organization deploys a custom plugin that runs on the Survey Response entity, you are advised to do either of following:

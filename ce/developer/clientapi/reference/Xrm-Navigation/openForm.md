@@ -96,13 +96,21 @@ manager: "amyla"
 <td>successCallback</td>
 <td>Function</td>
 <td>No</td>
-<td>A function to execute when the entity form or quick create form is displayed. This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> property with the following properties to identify the record displayed or created:
+<td>A function to execute when:
+<ul>
+<li>The entity form is displayed for existing records.</li>
+<li>The record is saved in the entity form displayed for a new record.</li>
+<li>The record is saved in the quick create form.</li>
+</ul>
+<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>successCallback</b> function is executed only when you save a record in a quick create form that was opened using the **openForm** method.
+
+This function is passed an object as a parameter. The object has a <b>savedEntityReference</b> array with the following properties to identify the record(s) displayed or created:
 <ul>
 <li><b>entityType</b>: The logical name of the entity.</li>
 <li><b>id</b>: A string representation of a GUID value for the record.</li>
 <li><b>name</b>: The primary attribute value of the record displayed or created.</li></ul>
 
-<b>NOTE</b>: On [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), the <b>successCallback</b> function will be executed only if you are opening a quick create form.
+<b>NOTE</b>: When you open a form for an existing record or to create a record, <b>savedEntityReference</b> will contain a single item. When you open a quick create form on [Unified Interface](/dynamics365/get-started/whats-new/customer-engagement/new-in-july-2017-update#unified-interface-framework-for-new-apps), and create multiple records by clicking <b>Save & New</b>, <b>savedEntityReference</b> will contain multiple items, each item representing the record created using the quick create form.
 </td>
 </tr>
 <tr>

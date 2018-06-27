@@ -3,7 +3,7 @@ title: "Engage with communities by using a community portal in Dynamics 365 | Mi
 description: "Instructions to engage with communities by using the community portal."
 ms.custom:
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,11 +18,13 @@ manager: sakudes
 
 Keep your customer engagement strong by growing a community, publishing articles, gathering user feedback, and acting on user-provided ideas. With out-of-the-box solutions available with portals you can:
 
--   Allow your users to hold conversations by posting messages on a forum. A forum can contain a number of topics, also known as threads, and can be replied to by many users. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up and moderate forums](setup-moderate-forums.md)  
+-   Allow your users to hold conversations by posting messages on a forum. A forum can contain a number of topics, also known as threads, and can be replied to by many users. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Set up and moderate forums](setup-manage-forums.md)  
 
 -   Manage multiple corporate or community blogs on a single portal, with multiple authors per blog. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage blogs](manage-blogs.md)  
 
 -   Engage with and gather feedback from your community, including gather ideas, votes, and comments on suggestions. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Crowdsource ideas](crowdsource-ideas.md)  
+
+- Engage with customer with a modern case management system. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Manage cases in portals](case-management.md)
 
 ### See also
 

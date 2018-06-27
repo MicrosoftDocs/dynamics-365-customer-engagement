@@ -3,7 +3,7 @@ title: "Invite contacts to your portal in Dynamics 365  | MicrosoftDocs"
 description: "Instructions to create and configure invitations in a portal."
 ms.custom:
   - dyn365-portal
-ms.date: 12/05/2017
+ms.date: 06/08/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -33,6 +33,7 @@ To edit the **Send Invitation** workflow email template, locate it and deactivat
 
 > [!NOTE]
 > The invitation is sent only to the primary email (emailaddress1) of the contact. The invitation will not be sent to the secondary email (emailaddress2) or alternate email (emailaddress3) of the contact record.
+> The **Send Invitation** workflow is supported only in web client.
 
 ## Create and configure invitations
 

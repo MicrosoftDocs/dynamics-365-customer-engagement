@@ -127,7 +127,7 @@ namespace Microsoft.Crm.Sdk.Samples
                     bool campaignEligibleParticipate =
                         EligibleCreateManyToManyRelationship("campaign");
 
-                    if (accountEligibleParticipate &amp;&amp; campaignEligibleParticipate)
+                    if (accountEligibleParticipate && campaignEligibleParticipate)
                     {
 
                         CreateManyToManyRequest createManyToManyRelationshipRequest =
@@ -281,7 +281,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
 
             if (canBeReferencedResponse.CanBeReferenced == true
-                &amp;&amp; canBeReferencingResponse.CanBeReferencing == true)
+                && canBeReferencingResponse.CanBeReferencing == true)
             {
                 return true;
             }

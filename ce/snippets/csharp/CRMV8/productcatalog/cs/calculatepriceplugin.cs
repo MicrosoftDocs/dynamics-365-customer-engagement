@@ -30,14 +30,14 @@ namespace Microsoft.Crm.Sdk.Samples
                 serviceProvider.GetService(typeof(IPluginExecutionContext));
             
             if (context.ParentContext != null
-                &amp;&amp; context.ParentContext.ParentContext != null
-                &amp;&amp; context.ParentContext.ParentContext != null
-                &amp;&amp; context.ParentContext.ParentContext.ParentContext.SharedVariables.ContainsKey("CustomPrice")
-                &amp;&amp; (bool)context.ParentContext.ParentContext.ParentContext.SharedVariables["CustomPrice"])
+                && context.ParentContext.ParentContext != null
+                && context.ParentContext.ParentContext != null
+                && context.ParentContext.ParentContext.ParentContext.SharedVariables.ContainsKey("CustomPrice")
+                && (bool)context.ParentContext.ParentContext.ParentContext.SharedVariables["CustomPrice"])
                 return;
             
             // The InputParameters collection contains all the data passed in the message request.            
-            if (context.InputParameters.Contains("Target") &amp;&amp;
+            if (context.InputParameters.Contains("Target") &&
                 context.InputParameters["Target"] is EntityReference)
             {
                 // Obtain the target entity from the input parmameters.
@@ -422,7 +422,7 @@ namespace Microsoft.Crm.Sdk.Samples
         {
             decimal discount = 0;
 
-            if (amount > (decimal)1000.00 &amp;&amp; amount < (decimal)5000.00)
+            if (amount > (decimal)1000.00 && amount < (decimal)5000.00)
             {
                 discount = amount * (decimal)0.05;
             }

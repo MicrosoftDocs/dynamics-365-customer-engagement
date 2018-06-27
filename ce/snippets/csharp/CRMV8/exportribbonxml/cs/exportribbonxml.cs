@@ -170,7 +170,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
      foreach (EntityMetadata em in resp.EntityMetadata)
      {
-      if (em.IsCustomEntity == true &amp;&amp; em.IsIntersect == false)
+      if (em.IsCustomEntity == true && em.IsIntersect == false)
       {
        entRibReq.EntityName = em.LogicalName;
        RetrieveEntityRibbonResponse entRibResp = (RetrieveEntityRibbonResponse)_serviceProxy.Execute(entRibReq);

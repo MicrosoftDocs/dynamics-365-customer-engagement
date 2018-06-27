@@ -49,7 +49,14 @@ If you're following the sales process from start to finish, you *qualify* a lead
    - **Contact**: The contact associated with this opportunity.
  
    - **Account**: The account associated with this opportunity.
- 
+
+   - **Currency**: Choose the currency for the opportunity. This is the currency the opportunity amount is calculated in.
+
+     > [!NOTE]
+
+     > Your base record and all its line items must use the same currency. For example, if your opportunity has the currency set to U.S Dollars, you must use the same currency for the price list items that you add to the opportunity. You can’t change the currency of the base record (in this case, an opportunity), unless you remove all the list items associated with the record.
+     > Similarly, all the records created from an opportunity, such as a quote, order or invoice must use the same currency as the opportunity.
+
    - **Purchase Timeframe**: The timeframe by when the account or contact is likely to make the purchase.
  
    - **Budget Amount**: Enter a value to indicate the lead's potential available budget. 

@@ -10,6 +10,7 @@ ms.tgt_pltfrm: ""
 ms.topic: article
 ms.assetid: 18dc6cfa-101c-4104-86b9-59a130fdcbfd
 ms.reviewer: ""
+redirect_url: /dynamics365/customer-engagement/portals/liquid-tags
 author: sbmjais
 ms.author: shjais
 manager: sakudes
