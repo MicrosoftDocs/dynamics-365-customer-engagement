@@ -43,9 +43,14 @@ The GDPR makes clear that the concept of personal data includes online identifie
 
 ## Stages of GDPR
 
-![Four stages of GDPR](../../unified-service-desk/media/gdpr-four-stages-image.PNG "Four stages of GDPR")
+![Four stages of GDPR are Discover, Manage, Protect, and Report](../../unified-service-desk/media/gdpr-four-stages-image.PNG "Four stages of GDPR")
 
-![Four stages of GDPR](../../unified-service-desk/media/gdpr-four-stages-infographic.PNG "Four stages of GDPR infographic")
+|Stages of GDPR| Description|
+|------|------|
+|Discover|Identify what data under your control is subject to the GDPR. This analysis includes understanding what data you have and where it exists.|
+|Manage|The GDPR provides more control over your data. GDPR lets you to manage access and control how data is used and accessed.|
+|Protect|The GDPR require you to establish security controls to prevent, detect, and respond to the vulnerabilities and data breaches.|
+|Report|The GDPR sets new standards in transparency, accountability, execution, data requests, and report data breaches.|
 
 ## See also
 

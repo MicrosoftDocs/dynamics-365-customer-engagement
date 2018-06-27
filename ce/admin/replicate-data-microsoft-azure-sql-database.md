@@ -1,7 +1,7 @@
 ---
 title: "Replicate Dynamics 365 (online) data to Azure SQL Database | MicrosoftDocs"
 ms.custom: ""
-ms.date: 06/12/2018
+ms.date: 06/19/2018
 ms.reviewer: ""
 ms.service: "crm-online"
 ms.suite: ""
@@ -420,6 +420,56 @@ When the above conditions are met, 15 minutes is a typical synchronization laten
   
 > [!IMPORTANT]
 >  An [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] subscription can have multiple [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Ids. Make sure that you select the correct [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] Active Directory tenant Id that is associated with the instance of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] that you will use for data export.  
+
+```powershell
+# -------------------------------------------------------------------------------- #
+	#  Provide the value for the following parameters before executing the script
+$subscriptionId = 'ContosoSubscriptionId'	
+$keyvaultName = 'ContosoKeyVault'
+	$secretName = 'ContosoDataExportSecret'
+	$resourceGroupName = 'ContosoResourceGroup1'
+	$location = 'West US'
+	$connectionString = 'AzureSQLconnectionString'
+$organizationIdList = 'ContosoSalesOrg1_id, ContosoSalesOrg2_id'
+$tenantId = 'tenantId'
+	# -------------------------------------------------------------------------------- #
+
+# Login to Azure account, select subscription and tenant Id
+Login-AzureRmAccount
+Set-AzureRmContext -TenantId $tenantId -SubscriptionId $subscriptionId
+
+# Create new resource group if not exists.
+$rgAvail = Get-AzureRmResourceGroup -Name $resourceGroupName -Location $location -ErrorAction SilentlyContinue
+if(!$rgAvail){
+    New-AzureRmResourceGroup -Name $resourceGroupName -Location $location
+}
+
+# Create new key vault if not exists.
+$kvAvail = Get-AzureRmKeyVault -VaultName $keyvaultName -ResourceGroupName $resourceGroupName -ErrorAction SilentlyContinue
+if(!$kvAvail){
+    New-AzureRmKeyVault -VaultName $keyvaultName -ResourceGroupName $resourceGroupName -Location $location
+    # Wait few seconds for DNS entry to propagate
+    Start-Sleep -Seconds 15
+}
+
+# Create tags to store allowed set of Organizations.
+$secretTags = @{}
+foreach ($orgId in $organizationIdList.Split(',')) {
+    $secretTags.Add($orgId.Trim(), $tenantId)
+}
+
+# Add or update a secret to key vault.
+$secretVaule = ConvertTo-SecureString $connectionString -AsPlainText -Force
+$secret = Set-AzureKeyVaultSecret -VaultName $keyvaultName -Name $secretName -SecretValue $secretVaule -Tags $secretTags
+
+# Authorize application to access key vault.
+$servicePrincipal = 'b861dbcc-a7ef-4219-a005-0e4de4ea7dcf'
+Set-AzureRmKeyVaultAccessPolicy -VaultName $keyvaultName -ServicePrincipalName $servicePrincipal -PermissionsToSecrets get
+
+# Display secret url.
+Write-Host "Connection key vault URL is "$secret.id.TrimEnd($secret.Version)""
+```
+
 
 <a name="Delete_DEP"></a>   
 ## How to delete all Data Export Profile tables and stored procedures

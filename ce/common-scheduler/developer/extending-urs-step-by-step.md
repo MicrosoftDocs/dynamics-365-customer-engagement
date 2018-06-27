@@ -18,6 +18,9 @@ ms.technology:
   - "field-service"
   - "project-service"
 ms.assetid: b79f00b5-e90e-41d2-b761-92e255ef2da0
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ---
 
 # Extending URS: Find Resources by Language - A Step by Step Guide
@@ -590,4 +593,5 @@ In the above steps we modified the Filter panel in the Schedule Assistant to sho
 ### See Also
 
 [Universal Fetch XML](universal-fetchxml.md)
+
 [URS Extensibility Release Notes](extensibility-release-notes.md)

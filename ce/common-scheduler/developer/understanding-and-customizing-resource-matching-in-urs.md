@@ -18,6 +18,9 @@ ms.technology:
   - "field-service"
   - "project-service"  
 ms.assetid: 91ab73b2-3f37-4c51-ac4a-1c0bc24c461a
+ms.custom:
+  - dyn365-projectservice
+  - dyn365-fieldservice
 ---
 
 # Understanding and Customizing Resource Matching in Universal Resource Scheduling (URS)
@@ -270,4 +273,5 @@ Another client side extensibility point made available in the July 2017 update i
 ### See Also
 
 [Universal Fetch XML](universal-fetchxml.md)
+
 [URS Extensibility Release Notes](extensibility-release-notes.md)

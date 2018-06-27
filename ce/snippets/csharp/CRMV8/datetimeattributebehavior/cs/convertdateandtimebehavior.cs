@@ -136,14 +136,14 @@ namespace Microsoft.Crm.Sdk.Samples
                         Console.WriteLine("Waiting for the async job to complete...\n");
                         
                         AsyncOperation crmAsyncJob = new AsyncOperation();
-                        while (response.JobId != null &amp;&amp; waitCount > 0)
+                        while (response.JobId != null && waitCount > 0)
                         {
                             // Check to see if the async operation is complete
                             crmAsyncJob =
                               (AsyncOperation)_serviceProxy.Retrieve(AsyncOperation.EntityLogicalName,
                                            response.JobId, cs);
-                            if (crmAsyncJob.StateCode.HasValue &amp;&amp;
-                                    crmAsyncJob.StateCode.Value == AsyncOperationState.Completed &amp;&amp; 
+                            if (crmAsyncJob.StateCode.HasValue &&
+                                    crmAsyncJob.StateCode.Value == AsyncOperationState.Completed && 
                                     crmAsyncJob.StatusCode.Value == (int)asyncoperation_statuscode.Succeeded)
                             {
                                 waitCount = 0;                                
@@ -178,7 +178,7 @@ namespace Microsoft.Crm.Sdk.Samples
 
                         // If the async job is taking tool long to process,
                         // inform the user about the same.
-                        if (waitCount == 0 &amp;&amp; crmAsyncJob.StateCode.Value != (AsyncOperationState.Completed))
+                        if (waitCount == 0 && crmAsyncJob.StateCode.Value != (AsyncOperationState.Completed))
                         {
                             Console.WriteLine("The async job is taking too long to complete. Aborting the sample.");
                         }

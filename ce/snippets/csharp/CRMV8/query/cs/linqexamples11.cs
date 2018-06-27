@@ -6,7 +6,7 @@
   var list_join = (from a in svcContext.AccountSet
                    join c in svcContext.ContactSet
                    on a.PrimaryContactId.Id equals c.ContactId
-                   where a.Name == "Contoso Ltd" &amp;&amp;
+                   where a.Name == "Contoso Ltd" &&
                    a.Address1_Name == "Contoso Pharmaceuticals"
                    select a).ToList();
   foreach (var c in list_join)

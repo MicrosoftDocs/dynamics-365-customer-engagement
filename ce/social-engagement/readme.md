@@ -144,6 +144,10 @@ Instagram authors are currently listed as "Unknown Author" in Social Engagement.
 
 ## Search setup - known issues
 
+### Retweets not acquired if keyword is after the 140th character
+
+If a retweet is longer than 140 characters and the matching search term of a keyword rule appears after the 140th character, the retweet isn't acquired by the system.
+
 ### Deleted searches are counted in the quota total
 
 If you [delete a search
