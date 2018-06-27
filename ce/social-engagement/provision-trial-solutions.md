@@ -2,7 +2,7 @@
 title: "Set up trial solutions for Microsoft Social Engagement | Microsoft Docs"
 description: "Review the steps to get a trial solution for Social Engagement"
 keywords: "trial. provisioning, MSE, testdrive"
-ms.date: 06/14/2017
+ms.date: 06/28/2018
 ms.service: dynamics-365-marketing
 ms.topic: article
 applies_to:
