@@ -457,6 +457,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_solutioncomponent_parent_solutioncomponent"></a> solutioncomponent_parent_solutioncomponent
 
 Same as solutioncomponent entity [solutioncomponent_parent_solutioncomponent](solutioncomponent.md#BKMK_solutioncomponent_parent_solutioncomponent) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|solutioncomponent|
@@ -471,6 +472,7 @@ Same as solutioncomponent entity [solutioncomponent_parent_solutioncomponent](so
 ### <a name="BKMK_userentityinstancedata_solutioncomponent"></a> userentityinstancedata_solutioncomponent
 
 Same as userentityinstancedata entity [userentityinstancedata_solutioncomponent](userentityinstancedata.md#BKMK_userentityinstancedata_solutioncomponent) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|

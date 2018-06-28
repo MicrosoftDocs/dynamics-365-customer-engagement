@@ -50,9 +50,9 @@ With bulk deletion you can perform the following operations:
   
 1. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
   
-2.  Choose **Bulk Record Deletion**.  
+2. Choose **Bulk Record Deletion**.  
   
-3.  Choose **New** to run the **Bulk Deletion Wizard** to create a bulk deletion job with the records you want to delete.  
+3. Choose **New** to run the **Bulk Deletion Wizard** to create a bulk deletion job with the records you want to delete.  
   
 For information about how to implement bulk delete in code, see [Delete data in bulk](../developer/delete-data-bulk.md). 
   

@@ -27,7 +27,7 @@ You can check resource availability to get an overall view of how booked your re
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_2016_update_1](../includes/cc-feature-included-with-2016-update-1.md)]  
->   
+> 
 >  If you are using an newer version, for resource availability see, [Schedule resources for a project (Project Service Automation)](../project-service/schedule-resources-project.md).  
 
 1. Go to **Project Service > Resource Availability**.  

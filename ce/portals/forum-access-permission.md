@@ -41,12 +41,13 @@ Forum Access Permission is a security rule that can be assigned to a particular 
 
 The table below explains many of the Forum Access Permission attributes used by portals.
 
-| Name  | Description                                                                                                                                |
-|-------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Name  | A name used for reference within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].                                                                                             |
-| Forum | The [Manage forum threads](manage-forum-threads.md) associated with the permission.                                                          |  
-| Right | The permission setting can be one of the following:<ul><li>**Restrict Read**: Prevents viewing of the forum for users in a web role associated with the rule.</li><li>**Grant Change**: Allows a user in a web role associated with the rule to moderate the forum. Grant Change takes precedence over Restrict Read.</li></ul>
-||
+
+| Name  |                                                                                                                                                           Description                                                                                                                                                           |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name  |                                                                                                                  A name used for reference within [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].                                                                                                                  |
+| Forum |                                                                                                                       The [Manage forum threads](manage-forum-threads.md) associated with the permission.                                                                                                                       |
+| Right | The permission setting can be one of the following:<ul><li>**Restrict Read**: Prevents viewing of the forum for users in a web role associated with the rule.</li><li>**Grant Change**: Allows a user in a web role associated with the rule to moderate the forum. Grant Change takes precedence over Restrict Read.</li></ul> |
+|       |                                                                                                                                                                                                                                                                                                                                 |
 
 ### See also
 

@@ -27,9 +27,9 @@ You're working on a support case and you wonder if there's a similar case that m
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]  
 > - [!INCLUDE[cc_preview_features_no_MS_support](../includes/cc-preview-features-no-ms-support.md)]  
->   
+> 
 > **Send us feedback**  
->   
+> 
 >  We'd love your feedback on the suggest similar cases feature! To send us your feedback, register your account on the [Microsoft Connect site](https://connect.microsoft.com/site687), and then [submit your feedback](https://connect.microsoft.com/site687/Feedback/LoadSubmitFeedbackForm?FormID=5908).  
   
 <a name="BKMK_EnablePreview"></a>   
@@ -39,13 +39,13 @@ You're working on a support case and you wonder if there's a similar case that m
   
 1. [!INCLUDE[proc_settings_administration](../includes/proc-settings-administration.md)]  
   
-2.  Click **System Settings** and open the **Previews** tab.  
+2. Click **System Settings** and open the **Previews** tab.  
   
-3.  Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 Text Analytics Preview** to **Yes**.  
+3. Under **Text Analytics Preview for Case Topic analysis, Suggest Similar Cases and Suggest Knowledge Articles**, set the **Enable Dynamics 365 Text Analytics Preview** to **Yes**.  
   
-4.  Click **OK** to give your consent.  
+4. Click **OK** to give your consent.  
   
-5.  Click **OK** to close the **System Settings** dialog.  
+5. Click **OK** to close the **System Settings** dialog.  
   
 <a name="BKMK_ConnectTextAnalytics"></a>   
 
@@ -62,25 +62,25 @@ You're working on a support case and you wonder if there's a similar case that m
 ## See related cases  
  After configuring the [!INCLUDE[pn_CognitiveServices_short](../includes/pn-microsoftcognitiveservices-short.md)] Text Analytics service and setting up similar records suggestions, you're ready to see cases related to the ones you're working on.  
   
-1.  Click **Service** > **Cases** and open a case.  
+1. Click **Service** > **Cases** and open a case.  
   
-2.  For similar cases, click **Find**.  
+2. For similar cases, click **Find**.  
   
- ![Find similar cases](../admin/media/find-similar-cases.png "Find similar cases")  
+   ![Find similar cases](../admin/media/find-similar-cases.png "Find similar cases")  
   
-3.  Click a case title to review that case's posts, activities, and notes. Then click **Found a Solution!** to add a  case with useful information to the **Similar Cases** area (under **Case Relationships**) to the case you're working on.  
+3. Click a case title to review that case's posts, activities, and notes. Then click **Found a Solution!** to add a  case with useful information to the **Similar Cases** area (under **Case Relationships**) to the case you're working on.  
   
 <a name="BKMK_ISHSearch"></a>   
 ## See related cases in the interactive service hub  
  The interactive service hub  unifies vital information in one place, and lets you focus on things that require your attention, like finding articles and cases related to your active case.  
   
-1.  Open the interactive service hub. See [Open the interactive service hub](../customer-service/user-guide-customer-service.md).  
+1. Open the interactive service hub. See [Open the interactive service hub](../customer-service/user-guide-customer-service.md).  
   
-2.  Click **Service** > **Cases** and open a case.  
+2. Click **Service** > **Cases** and open a case.  
   
-3.  Click the **Similar Cases** button to find related cases.  
+3. Click the **Similar Cases** button to find related cases.  
   
- ![Interactive Service Hub similar cases](../admin/media/interactive-service-hub-similar-cases.png "Interactive Service Hub similar cases")  
+   ![Interactive Service Hub similar cases](../admin/media/interactive-service-hub-similar-cases.png "Interactive Service Hub similar cases")  
   
 ### See also  
  [User's guide for the new interactive service hub](../customer-service/user-guide-customer-service.md)   

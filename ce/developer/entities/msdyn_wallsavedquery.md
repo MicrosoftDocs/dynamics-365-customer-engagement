@@ -663,6 +663,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_wallsavedquery_SyncErrors"></a> msdyn_wallsavedquery_SyncErrors
 
 Same as syncerror entity [msdyn_wallsavedquery_SyncErrors](syncerror.md#BKMK_msdyn_wallsavedquery_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -677,6 +678,7 @@ Same as syncerror entity [msdyn_wallsavedquery_SyncErrors](syncerror.md#BKMK_msd
 ### <a name="BKMK_msdyn_wallsavedquery_AsyncOperations"></a> msdyn_wallsavedquery_AsyncOperations
 
 Same as asyncoperation entity [msdyn_wallsavedquery_AsyncOperations](asyncoperation.md#BKMK_msdyn_wallsavedquery_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -691,6 +693,7 @@ Same as asyncoperation entity [msdyn_wallsavedquery_AsyncOperations](asyncoperat
 ### <a name="BKMK_msdyn_wallsavedquery_MailboxTrackingFolders"></a> msdyn_wallsavedquery_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_wallsavedquery_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_wallsavedquery_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -705,6 +708,7 @@ Same as mailboxtrackingfolder entity [msdyn_wallsavedquery_MailboxTrackingFolder
 ### <a name="BKMK_msdyn_wallsavedquery_UserEntityInstanceDatas"></a> msdyn_wallsavedquery_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_wallsavedquery_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_wallsavedquery_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -719,6 +723,7 @@ Same as userentityinstancedata entity [msdyn_wallsavedquery_UserEntityInstanceDa
 ### <a name="BKMK_msdyn_wallsavedquery_ProcessSession"></a> msdyn_wallsavedquery_ProcessSession
 
 Same as processsession entity [msdyn_wallsavedquery_ProcessSession](processsession.md#BKMK_msdyn_wallsavedquery_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -733,6 +738,7 @@ Same as processsession entity [msdyn_wallsavedquery_ProcessSession](processsessi
 ### <a name="BKMK_msdyn_wallsavedquery_BulkDeleteFailures"></a> msdyn_wallsavedquery_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_wallsavedquery_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_wallsavedquery_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -747,6 +753,7 @@ Same as bulkdeletefailure entity [msdyn_wallsavedquery_BulkDeleteFailures](bulkd
 ### <a name="BKMK_msdyn_wallsavedquery_PrincipalObjectAttributeAccesses"></a> msdyn_wallsavedquery_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_wallsavedquery_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_wallsavedquery_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -761,6 +768,7 @@ Same as principalobjectattributeaccess entity [msdyn_wallsavedquery_PrincipalObj
 ### <a name="BKMK_msdyn_wallsavedquery_wallsavedqueryusersettings"></a> msdyn_wallsavedquery_wallsavedqueryusersettings
 
 Same as msdyn_wallsavedqueryusersettings entity [msdyn_wallsavedquery_wallsavedqueryusersettings](msdyn_wallsavedqueryusersettings.md#BKMK_msdyn_wallsavedquery_wallsavedqueryusersettings) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_wallsavedqueryusersettings|

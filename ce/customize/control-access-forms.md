@@ -33,11 +33,11 @@ tags:
   
      Use this to make a main form available to specific groups.  
   
- Different people in your organization may interact with the same data in different ways. Managers may depend on being able to quickly scan information in a record and service people may require a form that streamlines data entry. You can accommodate different requirements by assigning forms to the security roles that different groups of people belong to.  
+  Different people in your organization may interact with the same data in different ways. Managers may depend on being able to quickly scan information in a record and service people may require a form that streamlines data entry. You can accommodate different requirements by assigning forms to the security roles that different groups of people belong to.  
   
- For step-by-step procedures, see [Assign security roles to forms](../admin/assign-security-roles-form.md).  
+  For step-by-step procedures, see [Assign security roles to forms](../admin/assign-security-roles-form.md).  
   
- When you have more than one main or mobile form defined for an entity, you can select which forms users will be able to use based on their security roles. Because each entity must be able to display a form for any user, at least one form must be designated as a ”fallback” form – a form visible to users whose security roles do not have any forms explicitly assigned to them.  
+  When you have more than one main or mobile form defined for an entity, you can select which forms users will be able to use based on their security roles. Because each entity must be able to display a form for any user, at least one form must be designated as a ”fallback” form – a form visible to users whose security roles do not have any forms explicitly assigned to them.  
   
 > [!NOTE]
 >  Quick Create and Quick View forms cannot be assigned to security roles.  

@@ -1235,6 +1235,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_rmaproduct_ActivityPointers"></a> msdyn_rmaproduct_ActivityPointers
 
 Same as activitypointer entity [msdyn_rmaproduct_ActivityPointers](activitypointer.md#BKMK_msdyn_rmaproduct_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -1249,6 +1250,7 @@ Same as activitypointer entity [msdyn_rmaproduct_ActivityPointers](activitypoint
 ### <a name="BKMK_msdyn_rmaproduct_msdyn_approvals"></a> msdyn_rmaproduct_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_rmaproduct_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_rmaproduct_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -1263,6 +1265,7 @@ Same as msdyn_approval entity [msdyn_rmaproduct_msdyn_approvals](msdyn_approval.
 ### <a name="BKMK_msdyn_rmaproduct_msdyn_bookingalerts"></a> msdyn_rmaproduct_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_rmaproduct_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_rmaproduct_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -1277,6 +1280,7 @@ Same as msdyn_bookingalert entity [msdyn_rmaproduct_msdyn_bookingalerts](msdyn_b
 ### <a name="BKMK_msdyn_rmaproduct_SyncErrors"></a> msdyn_rmaproduct_SyncErrors
 
 Same as syncerror entity [msdyn_rmaproduct_SyncErrors](syncerror.md#BKMK_msdyn_rmaproduct_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1291,6 +1295,7 @@ Same as syncerror entity [msdyn_rmaproduct_SyncErrors](syncerror.md#BKMK_msdyn_r
 ### <a name="BKMK_msdyn_rmaproduct_AsyncOperations"></a> msdyn_rmaproduct_AsyncOperations
 
 Same as asyncoperation entity [msdyn_rmaproduct_AsyncOperations](asyncoperation.md#BKMK_msdyn_rmaproduct_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1305,6 +1310,7 @@ Same as asyncoperation entity [msdyn_rmaproduct_AsyncOperations](asyncoperation.
 ### <a name="BKMK_msdyn_rmaproduct_MailboxTrackingFolders"></a> msdyn_rmaproduct_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_rmaproduct_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_rmaproduct_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1319,6 +1325,7 @@ Same as mailboxtrackingfolder entity [msdyn_rmaproduct_MailboxTrackingFolders](m
 ### <a name="BKMK_msdyn_rmaproduct_UserEntityInstanceDatas"></a> msdyn_rmaproduct_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_rmaproduct_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_rmaproduct_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1333,6 +1340,7 @@ Same as userentityinstancedata entity [msdyn_rmaproduct_UserEntityInstanceDatas]
 ### <a name="BKMK_msdyn_rmaproduct_ProcessSession"></a> msdyn_rmaproduct_ProcessSession
 
 Same as processsession entity [msdyn_rmaproduct_ProcessSession](processsession.md#BKMK_msdyn_rmaproduct_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1347,6 +1355,7 @@ Same as processsession entity [msdyn_rmaproduct_ProcessSession](processsession.m
 ### <a name="BKMK_msdyn_rmaproduct_BulkDeleteFailures"></a> msdyn_rmaproduct_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_rmaproduct_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_rmaproduct_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1361,6 +1370,7 @@ Same as bulkdeletefailure entity [msdyn_rmaproduct_BulkDeleteFailures](bulkdelet
 ### <a name="BKMK_msdyn_rmaproduct_PrincipalObjectAttributeAccesses"></a> msdyn_rmaproduct_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_rmaproduct_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_rmaproduct_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1375,6 +1385,7 @@ Same as principalobjectattributeaccess entity [msdyn_rmaproduct_PrincipalObjectA
 ### <a name="BKMK_msdyn_rmaproduct_Appointments"></a> msdyn_rmaproduct_Appointments
 
 Same as appointment entity [msdyn_rmaproduct_Appointments](appointment.md#BKMK_msdyn_rmaproduct_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1389,6 +1400,7 @@ Same as appointment entity [msdyn_rmaproduct_Appointments](appointment.md#BKMK_m
 ### <a name="BKMK_msdyn_rmaproduct_Emails"></a> msdyn_rmaproduct_Emails
 
 Same as email entity [msdyn_rmaproduct_Emails](email.md#BKMK_msdyn_rmaproduct_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1403,6 +1415,7 @@ Same as email entity [msdyn_rmaproduct_Emails](email.md#BKMK_msdyn_rmaproduct_Em
 ### <a name="BKMK_msdyn_rmaproduct_Faxes"></a> msdyn_rmaproduct_Faxes
 
 Same as fax entity [msdyn_rmaproduct_Faxes](fax.md#BKMK_msdyn_rmaproduct_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1417,6 +1430,7 @@ Same as fax entity [msdyn_rmaproduct_Faxes](fax.md#BKMK_msdyn_rmaproduct_Faxes) 
 ### <a name="BKMK_msdyn_rmaproduct_Letters"></a> msdyn_rmaproduct_Letters
 
 Same as letter entity [msdyn_rmaproduct_Letters](letter.md#BKMK_msdyn_rmaproduct_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1431,6 +1445,7 @@ Same as letter entity [msdyn_rmaproduct_Letters](letter.md#BKMK_msdyn_rmaproduct
 ### <a name="BKMK_msdyn_rmaproduct_PhoneCalls"></a> msdyn_rmaproduct_PhoneCalls
 
 Same as phonecall entity [msdyn_rmaproduct_PhoneCalls](phonecall.md#BKMK_msdyn_rmaproduct_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1445,6 +1460,7 @@ Same as phonecall entity [msdyn_rmaproduct_PhoneCalls](phonecall.md#BKMK_msdyn_r
 ### <a name="BKMK_msdyn_rmaproduct_Tasks"></a> msdyn_rmaproduct_Tasks
 
 Same as task entity [msdyn_rmaproduct_Tasks](task.md#BKMK_msdyn_rmaproduct_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1459,6 +1475,7 @@ Same as task entity [msdyn_rmaproduct_Tasks](task.md#BKMK_msdyn_rmaproduct_Tasks
 ### <a name="BKMK_msdyn_rmaproduct_RecurringAppointmentMasters"></a> msdyn_rmaproduct_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_rmaproduct_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_rmaproduct_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1473,6 +1490,7 @@ Same as recurringappointmentmaster entity [msdyn_rmaproduct_RecurringAppointment
 ### <a name="BKMK_msdyn_rmaproduct_SocialActivities"></a> msdyn_rmaproduct_SocialActivities
 
 Same as socialactivity entity [msdyn_rmaproduct_SocialActivities](socialactivity.md#BKMK_msdyn_rmaproduct_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1487,6 +1505,7 @@ Same as socialactivity entity [msdyn_rmaproduct_SocialActivities](socialactivity
 ### <a name="BKMK_msdyn_rmaproduct_connections1"></a> msdyn_rmaproduct_connections1
 
 Same as connection entity [msdyn_rmaproduct_connections1](connection.md#BKMK_msdyn_rmaproduct_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1501,6 +1520,7 @@ Same as connection entity [msdyn_rmaproduct_connections1](connection.md#BKMK_msd
 ### <a name="BKMK_msdyn_rmaproduct_connections2"></a> msdyn_rmaproduct_connections2
 
 Same as connection entity [msdyn_rmaproduct_connections2](connection.md#BKMK_msdyn_rmaproduct_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1515,6 +1535,7 @@ Same as connection entity [msdyn_rmaproduct_connections2](connection.md#BKMK_msd
 ### <a name="BKMK_msdyn_rmaproduct_Annotations"></a> msdyn_rmaproduct_Annotations
 
 Same as annotation entity [msdyn_rmaproduct_Annotations](annotation.md#BKMK_msdyn_rmaproduct_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1529,6 +1550,7 @@ Same as annotation entity [msdyn_rmaproduct_Annotations](annotation.md#BKMK_msdy
 ### <a name="BKMK_msdyn_rmaproduct_ServiceAppointments"></a> msdyn_rmaproduct_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_rmaproduct_ServiceAppointments](serviceappointment.md#BKMK_msdyn_rmaproduct_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1543,6 +1565,7 @@ Same as serviceappointment entity [msdyn_rmaproduct_ServiceAppointments](service
 ### <a name="BKMK_msdyn_msdyn_rmaproduct_msdyn_rmareceiptproduct_RMAProduct"></a> msdyn_msdyn_rmaproduct_msdyn_rmareceiptproduct_RMAProduct
 
 Same as msdyn_rmareceiptproduct entity [msdyn_msdyn_rmaproduct_msdyn_rmareceiptproduct_RMAProduct](msdyn_rmareceiptproduct.md#BKMK_msdyn_msdyn_rmaproduct_msdyn_rmareceiptproduct_RMAProduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rmareceiptproduct|
@@ -1557,6 +1580,7 @@ Same as msdyn_rmareceiptproduct entity [msdyn_msdyn_rmaproduct_msdyn_rmareceiptp
 ### <a name="BKMK_msdyn_msdyn_rmaproduct_msdyn_rtvproduct_RMAProduct"></a> msdyn_msdyn_rmaproduct_msdyn_rtvproduct_RMAProduct
 
 Same as msdyn_rtvproduct entity [msdyn_msdyn_rmaproduct_msdyn_rtvproduct_RMAProduct](msdyn_rtvproduct.md#BKMK_msdyn_msdyn_rmaproduct_msdyn_rtvproduct_RMAProduct) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_rtvproduct|

@@ -2247,6 +2247,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_fact_SyncErrors"></a> msdyn_fact_SyncErrors
 
 Same as syncerror entity [msdyn_fact_SyncErrors](syncerror.md#BKMK_msdyn_fact_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2261,6 +2262,7 @@ Same as syncerror entity [msdyn_fact_SyncErrors](syncerror.md#BKMK_msdyn_fact_Sy
 ### <a name="BKMK_msdyn_fact_DuplicateMatchingRecord"></a> msdyn_fact_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_fact_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_fact_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2275,6 +2277,7 @@ Same as duplicaterecord entity [msdyn_fact_DuplicateMatchingRecord](duplicaterec
 ### <a name="BKMK_msdyn_fact_DuplicateBaseRecord"></a> msdyn_fact_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_fact_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_fact_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2289,6 +2292,7 @@ Same as duplicaterecord entity [msdyn_fact_DuplicateBaseRecord](duplicaterecord.
 ### <a name="BKMK_msdyn_fact_AsyncOperations"></a> msdyn_fact_AsyncOperations
 
 Same as asyncoperation entity [msdyn_fact_AsyncOperations](asyncoperation.md#BKMK_msdyn_fact_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -2303,6 +2307,7 @@ Same as asyncoperation entity [msdyn_fact_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_msdyn_fact_MailboxTrackingFolders"></a> msdyn_fact_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_fact_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_fact_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -2317,6 +2322,7 @@ Same as mailboxtrackingfolder entity [msdyn_fact_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_msdyn_fact_UserEntityInstanceDatas"></a> msdyn_fact_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_fact_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_fact_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -2331,6 +2337,7 @@ Same as userentityinstancedata entity [msdyn_fact_UserEntityInstanceDatas](usere
 ### <a name="BKMK_msdyn_fact_ProcessSession"></a> msdyn_fact_ProcessSession
 
 Same as processsession entity [msdyn_fact_ProcessSession](processsession.md#BKMK_msdyn_fact_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -2345,6 +2352,7 @@ Same as processsession entity [msdyn_fact_ProcessSession](processsession.md#BKMK
 ### <a name="BKMK_msdyn_fact_BulkDeleteFailures"></a> msdyn_fact_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_fact_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_fact_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -2359,6 +2367,7 @@ Same as bulkdeletefailure entity [msdyn_fact_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_msdyn_fact_PrincipalObjectAttributeAccesses"></a> msdyn_fact_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_fact_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_fact_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -2373,6 +2382,7 @@ Same as principalobjectattributeaccess entity [msdyn_fact_PrincipalObjectAttribu
 ### <a name="BKMK_msdyn_fact_Annotations"></a> msdyn_fact_Annotations
 
 Same as annotation entity [msdyn_fact_Annotations](annotation.md#BKMK_msdyn_fact_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

@@ -822,6 +822,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_routingruleitem_BulkDeleteFailures"></a> routingruleitem_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [routingruleitem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_routingruleitem_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -836,6 +837,7 @@ Same as bulkdeletefailure entity [routingruleitem_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_routingruleitem_ProcessSessions"></a> routingruleitem_ProcessSessions
 
 Same as processsession entity [routingruleitem_ProcessSessions](processsession.md#BKMK_routingruleitem_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -850,6 +852,7 @@ Same as processsession entity [routingruleitem_ProcessSessions](processsession.m
 ### <a name="BKMK_routingruleitem_userentityinstancedatas"></a> routingruleitem_userentityinstancedatas
 
 Same as userentityinstancedata entity [routingruleitem_userentityinstancedatas](userentityinstancedata.md#BKMK_routingruleitem_userentityinstancedatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -864,6 +867,7 @@ Same as userentityinstancedata entity [routingruleitem_userentityinstancedatas](
 ### <a name="BKMK_routingruleitem_Annotation"></a> routingruleitem_Annotation
 
 Same as annotation entity [routingruleitem_Annotation](annotation.md#BKMK_routingruleitem_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -878,6 +882,7 @@ Same as annotation entity [routingruleitem_Annotation](annotation.md#BKMK_routin
 ### <a name="BKMK_routingruleitem_AsyncOperations"></a> routingruleitem_AsyncOperations
 
 Same as asyncoperation entity [routingruleitem_AsyncOperations](asyncoperation.md#BKMK_routingruleitem_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|

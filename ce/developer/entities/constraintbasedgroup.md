@@ -543,6 +543,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_constraintbasedgroup_SyncErrors"></a> constraintbasedgroup_SyncErrors
 
 Same as syncerror entity [constraintbasedgroup_SyncErrors](syncerror.md#BKMK_constraintbasedgroup_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -557,6 +558,7 @@ Same as syncerror entity [constraintbasedgroup_SyncErrors](syncerror.md#BKMK_con
 ### <a name="BKMK_ConstraintBasedGroup_AsyncOperations"></a> ConstraintBasedGroup_AsyncOperations
 
 Same as asyncoperation entity [ConstraintBasedGroup_AsyncOperations](asyncoperation.md#BKMK_ConstraintBasedGroup_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -571,6 +573,7 @@ Same as asyncoperation entity [ConstraintBasedGroup_AsyncOperations](asyncoperat
 ### <a name="BKMK_constraintbasedgroup_MailboxTrackingFolders"></a> constraintbasedgroup_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [constraintbasedgroup_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_constraintbasedgroup_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -585,6 +588,7 @@ Same as mailboxtrackingfolder entity [constraintbasedgroup_MailboxTrackingFolder
 ### <a name="BKMK_userentityinstancedata_constraintbasedgroup"></a> userentityinstancedata_constraintbasedgroup
 
 Same as userentityinstancedata entity [userentityinstancedata_constraintbasedgroup](userentityinstancedata.md#BKMK_userentityinstancedata_constraintbasedgroup) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -599,6 +603,7 @@ Same as userentityinstancedata entity [userentityinstancedata_constraintbasedgro
 ### <a name="BKMK_ConstraintBasedGroup_ProcessSessions"></a> ConstraintBasedGroup_ProcessSessions
 
 Same as processsession entity [ConstraintBasedGroup_ProcessSessions](processsession.md#BKMK_ConstraintBasedGroup_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -613,6 +618,7 @@ Same as processsession entity [ConstraintBasedGroup_ProcessSessions](processsess
 ### <a name="BKMK_ConstraintBasedGroup_BulkDeleteFailures"></a> ConstraintBasedGroup_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [ConstraintBasedGroup_BulkDeleteFailures](bulkdeletefailure.md#BKMK_ConstraintBasedGroup_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -627,6 +633,7 @@ Same as bulkdeletefailure entity [ConstraintBasedGroup_BulkDeleteFailures](bulkd
 ### <a name="BKMK_constraintbasedgroup_PrincipalObjectAttributeAccesses"></a> constraintbasedgroup_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [constraintbasedgroup_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_constraintbasedgroup_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -641,6 +648,7 @@ Same as principalobjectattributeaccess entity [constraintbasedgroup_PrincipalObj
 ### <a name="BKMK_constraintbasedgroup_connections1"></a> constraintbasedgroup_connections1
 
 Same as connection entity [constraintbasedgroup_connections1](connection.md#BKMK_constraintbasedgroup_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -655,6 +663,7 @@ Same as connection entity [constraintbasedgroup_connections1](connection.md#BKMK
 ### <a name="BKMK_constraintbasedgroup_connections2"></a> constraintbasedgroup_connections2
 
 Same as connection entity [constraintbasedgroup_connections2](connection.md#BKMK_constraintbasedgroup_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -669,6 +678,7 @@ Same as connection entity [constraintbasedgroup_connections2](connection.md#BKMK
 ### <a name="BKMK_constraintbasedgroup_resource_groups"></a> constraintbasedgroup_resource_groups
 
 Same as resourcegroup entity [constraintbasedgroup_resource_groups](resourcegroup.md#BKMK_constraintbasedgroup_resource_groups) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resourcegroup|
@@ -683,6 +693,7 @@ Same as resourcegroup entity [constraintbasedgroup_resource_groups](resourcegrou
 ### <a name="BKMK_constraint_based_group_resource_specs"></a> constraint_based_group_resource_specs
 
 Same as resourcespec entity [constraint_based_group_resource_specs](resourcespec.md#BKMK_constraint_based_group_resource_specs) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|resourcespec|

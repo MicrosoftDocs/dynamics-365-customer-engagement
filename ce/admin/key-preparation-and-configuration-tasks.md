@@ -31,37 +31,37 @@ This topic, which is intended for administrators and business users of [!INCLUDE
   
  To make sure that Internet files for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] are not being deleted, increase the disk space for temporary Internet files.  
   
-1.  Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
+1. Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
   
-2.  On the **General** tab, in the **Browsing history** section, click or tap **Settings**.  
+2. On the **General** tab, in the **Browsing history** section, click or tap **Settings**.  
   
-3.  Set the **Disk space to use** field to **350**.  
+3. Set the **Disk space to use** field to **350**.  
   
-4.  Click or tap **OK**, and then click or tap **OK** again.  
+4. Click or tap **OK**, and then click or tap **OK** again.  
   
 **Retain browsing history**  
   
 To optimize your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] experience, we recommend that you do not select the option to delete the browsing history when you exit from your browser. If you select this option, it deletes everything marked in your **Browsing history** settings, such as temporary Internet files, cookies, and history (by default, the check boxes for these options are selected). Deleting your temporary Internet files causes [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)] to cache the files again, and deleting cookies signs you out of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-1.  Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
+1. Open [!INCLUDE[pn_Internet_Explorer](../includes/pn-internet-explorer.md)], and on the **Tools** menu, click or tap **Internet Options**.  
   
-2.  Click or tap the **General** tab, and in the **Browsing history** section, make sure that the **Delete browsing history on exit** check box is cleared.  
+2. Click or tap the **General** tab, and in the **Browsing history** section, make sure that the **Delete browsing history on exit** check box is cleared.  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] websites.  
+   [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] websites.  
   
- [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] websites.  
+   [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] occasionally uses pop-up windows. Your browser may be blocking these windows because of the pop-up blocker settings. You must configure the pop-up blocker settings to allow pop-up windows for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] websites.  
   
- **If you experience slower performance in Internet Explorer**  
+   **If you experience slower performance in Internet Explorer**  
   
 If your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] performance is slower in Internet Explorer than in other browsers, set **JavaScript Timer Frequency** to **Maximum Performance**.  
   
-1.  Go to **Control Panel** > **System and Security** > **Power Options**.  
+1. Go to **Control Panel** > **System and Security** > **Power Options**.  
   
-2.  For your active power plan, click **Change plan settings** > **Change advanced power settings**.  
+2. For your active power plan, click **Change plan settings** > **Change advanced power settings**.  
   
-3.  Expand **Internet Explorer** > **JavaScript Timer Frequency**, for **On battery** and **Plugged in**, choose **Maximum Performance**.  
+3. Expand **Internet Explorer** > **JavaScript Timer Frequency**, for **On battery** and **Plugged in**, choose **Maximum Performance**.  
   
- ![Internet Explorer power options](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
+   ![Internet Explorer power options](../admin/media/crm-itpro-iepoweroptions.png "Internet Explorer power options")  
   
 **Increase data storage limits for websites**  
   
@@ -71,45 +71,45 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
 ### Increase data storage limit by using group policy  
   
-1.  On your keyboard, press the Windows key + R.  
+1. On your keyboard, press the Windows key + R.  
   
-2.  In the **Run** dialog box, type `gpedit.msc`, and click **OK**.  
+2. In the **Run** dialog box, type `gpedit.msc`, and click **OK**.  
   
- **Local Group Policy Editor** opens.  
+   **Local Group Policy Editor** opens.  
   
-3.  Navigate to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Internet Explorer** > **Internet Control Panel** > **General Page** > **Browsing History**.  
+3. Navigate to **Computer Configuration** > **Administrative Templates** > **Windows Components** > **Internet Explorer** > **Internet Control Panel** > **General Page** > **Browsing History**.  
   
-4.  In the right pane, double-click the setting **Set default storage limits for websites**.  
+4. In the right pane, double-click the setting **Set default storage limits for websites**.  
   
-5.  In the **Set default storage limits for websites** dialog box, click **Enabled**, and then in the **Options** section, in the **Set default storage limit for websites** field, add the required limit.  
+5. In the **Set default storage limits for websites** dialog box, click **Enabled**, and then in the **Options** section, in the **Set default storage limit for websites** field, add the required limit.  
   
-6.  Click **Apply**, and then click **OK**.  
+6. Click **Apply**, and then click **OK**.  
   
-7.  Close Local Group Policy Editor, and restart the computer.  
+7. Close Local Group Policy Editor, and restart the computer.  
   
 ### Increase data storage limit by using Registry Editor  
   
-1.  On your keyboard, press the Windows key + R.  
+1. On your keyboard, press the Windows key + R.  
   
-2.  In the **Run** dialog box, type `regedit`, and click **OK**.  
+2. In the **Run** dialog box, type `regedit`, and click **OK**.  
   
- **Registry Editor** opens.  
+   **Registry Editor** opens.  
   
-3.  Navigate to the key: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft.  
+3. Navigate to the key: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft.  
   
-4.  Create a subkey **Internet Explorer** inside **Microsoft**.  
+4. Create a subkey **Internet Explorer** inside **Microsoft**.  
   
-    1.  Right-click **Microsoft**, and then click **New** > **Key**.  
+   1.  Right-click **Microsoft**, and then click **New** > **Key**.  
   
-    2.  Type **Internet Explorer** as the name of the subkey.  
+   2.  Type **Internet Explorer** as the name of the subkey.  
   
-5.  Similarly, create a subkey **BrowserStorage** in the newly created subkey **Internet Explorer**.  
+5. Similarly, create a subkey **BrowserStorage** in the newly created subkey **Internet Explorer**.  
   
-6.  Click the **BrowserStorage** subkey, and in the right pane, right-click, and then click **New** > **DWORD Value**.  
+6. Click the **BrowserStorage** subkey, and in the right pane, right-click, and then click **New** > **DWORD Value**.  
   
-7.  Type `DeafultDomainCacheLimitInMB` as the name.  
+7. Type `DeafultDomainCacheLimitInMB` as the name.  
   
-8.  Double-click the DWORD item you just created.  
+8. Double-click the DWORD item you just created.  
   
 9. In the **Edit DWORD Value** dialog box, select **Decimal** as **Base**, and then enter the required storage limit in MB, and click **OK**.  
   
@@ -139,13 +139,13 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
  Each environment requires a thoughtful decision on what to include and exclude, and there is always a possibility that excluding files from scans could lead to unwanted consequences. Use the following list alongside your well-planned internal IT management policies:  
   
--   Check for any interference from desktop security software. Some antivirus programs include a feature known as ScriptScan that can affect the performance of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Most programs have functionality to disable scanning on certain websites. Make sure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] URL is added to this list. For McAfee specifically, see the following KB articles for this setting:  
+- Check for any interference from desktop security software. Some antivirus programs include a feature known as ScriptScan that can affect the performance of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Most programs have functionality to disable scanning on certain websites. Make sure that the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] URL is added to this list. For McAfee specifically, see the following KB articles for this setting:  
   
-    -   [McAfee Knowledge Base Article: KB65382](https://kc.mcafee.com/corporate/index?page=content&id=KB65382)  
+  -   [McAfee Knowledge Base Article: KB65382](https://kc.mcafee.com/corporate/index?page=content&id=KB65382)  
   
-    -   [Microsoft Support Knowledge Base Article: KB924341](http://go.microsoft.com/fwlink/p/?LinkId=232344)  
+  -   [Microsoft Support Knowledge Base Article: KB924341](http://go.microsoft.com/fwlink/p/?LinkId=232344)  
   
--   If you use other antivirus software, make sure that the URL of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] website is included in the trusted zone for the virus scanning, and disable on-access scanning for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] website.  For more information, see the specific antivirus application documentation.  
+- If you use other antivirus software, make sure that the URL of the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] website is included in the trusted zone for the virus scanning, and disable on-access scanning for the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] website.  For more information, see the specific antivirus application documentation.  
   
 <a name="bkmk_importantemail"></a>   
 
@@ -154,11 +154,11 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
   
  Make sure that the following email addresses are added to the allowed list for your email application:  
   
-- **crmonl@microsoft.com**. This email alias sends information about updates to the service.  
+- <strong>crmonl@microsoft.com</strong>. This email alias sends information about updates to the service.  
   
-- **billing@microsoft.com**. This email alias sends information about [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] billing.  
+- <strong>billing@microsoft.com</strong>. This email alias sends information about [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] billing.  
   
-- **msonlineservicesteam@microsoftonline.com**. This email alias sends informational email messages when you sign up for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
+- <strong>msonlineservicesteam@microsoftonline.com</strong>. This email alias sends informational email messages when you sign up for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
 <a name="bkmk_availableresources"></a>   
 
@@ -173,32 +173,32 @@ Every time you visit a website, [!INCLUDE[pn_Internet_Explorer](../includes/pn-i
 ### Maximize your technical support experience  
  When you request help for technical issues or questions, it is important that you have as much information available as possible. Here are common questions that you may be asked when you request technical support:  
   
--   What part of the application are you having issues with?  
+- What part of the application are you having issues with?  
   
-     For example, installation issues with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
+   For example, installation issues with [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)].  
   
--   What is the exact error or problem that you are experiencing?  
+- What is the exact error or problem that you are experiencing?  
   
-     Provide detailed information, including the exact error message that you are seeing. Include a screen capture if you can.  
+   Provide detailed information, including the exact error message that you are seeing. Include a screen capture if you can.  
   
--   What were you doing in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] when the error occurred?  
+- What were you doing in [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] when the error occurred?  
   
-     Provide the exact steps that you are performing to reproduce the error. This lets the Support team better analyze why you may be experiencing it.  
+   Provide the exact steps that you are performing to reproduce the error. This lets the Support team better analyze why you may be experiencing it.  
   
--   What are the details of the environment you are experiencing the issue on?  
+- What are the details of the environment you are experiencing the issue on?  
   
-     Provide the version of the operating system, browser, and if applicable, the version of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] on the computers where the issue is occurring.  
+   Provide the version of the operating system, browser, and if applicable, the version of [!INCLUDE[pn_MS_Office](../includes/pn-ms-office.md)] on the computers where the issue is occurring.  
   
--   Does the issue affect all users or a certain type of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role or only certain users?  
+- Does the issue affect all users or a certain type of [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] security role or only certain users?  
   
- When possible, provide log files (if you know how to find them). This applies to applications such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. The following table lists the location of the log or trace files for these applications.  
+  When possible, provide log files (if you know how to find them). This applies to applications such as [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] or [!INCLUDE[pn_CRM_E-Mail_Router](../includes/pn-crm-e-mail-router.md)]. The following table lists the location of the log or trace files for these applications.  
   
-|||  
-|-|-|  
-|**Logs or Traces**|**Log File Location**|  
-|[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Outlook logs|%Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs|  
-|[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Outlook Trace files|%Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces|  
-|[!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] E-mail Router logs|%Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs|  
+|                                                                                     |                                                                      |
+|-------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+|                                 **Logs or Traces**                                  |                        **Log File Location**                         |
+|    [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Outlook logs     |  %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Logs  |
+| [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] for Outlook Trace files | %Userprofile%\Local Settings\Application Data\Microsoft\MSCRM\Traces |
+|   [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] E-mail Router logs    |          %Userprofile%\AppData\Roaming\Microsoft\MSCRM\Logs          |
   
 ### See also  
  [Set up a Dynamics 365 organization](../admin/set-up-a-dynamics-365-organization.md)

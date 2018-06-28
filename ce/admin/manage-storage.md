@@ -38,7 +38,7 @@ You can manage your organization’s data storage capacity in connection with yo
   
 3. Choose the **Service Health** tab.  
   
- ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
+   ![View storage consumed by each instance](../admin/media/instance-storage.png "View storage consumed by each instance")  
   
 ## Add storage to Dynamics 365 (online)  
   
@@ -48,7 +48,7 @@ You can manage your organization’s data storage capacity in connection with yo
   
 3. Scroll down to the **Add-on subscriptions** section and mouse over the **Dynamics 365 - Additional Database Storage** tile.  
   
- ![Purchase additional online storage](../admin/media/purchase-additional-online-storage.png "Purchase additional online storage")  
+   ![Purchase additional online storage](../admin/media/purchase-additional-online-storage.png "Purchase additional online storage")  
   
 4. Click **Buy now**, and then proceed through the order process.  
   

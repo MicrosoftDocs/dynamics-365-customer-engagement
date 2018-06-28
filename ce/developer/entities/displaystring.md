@@ -565,6 +565,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_displaystring"></a> userentityinstancedata_displaystring
 
 Same as userentityinstancedata entity [userentityinstancedata_displaystring](userentityinstancedata.md#BKMK_userentityinstancedata_displaystring) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -579,6 +580,7 @@ Same as userentityinstancedata entity [userentityinstancedata_displaystring](use
 ### <a name="BKMK_DisplayString_AsyncOperations"></a> DisplayString_AsyncOperations
 
 Same as asyncoperation entity [DisplayString_AsyncOperations](asyncoperation.md#BKMK_DisplayString_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -593,6 +595,7 @@ Same as asyncoperation entity [DisplayString_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_DisplayString_BulkDeleteFailures"></a> DisplayString_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [DisplayString_BulkDeleteFailures](bulkdeletefailure.md#BKMK_DisplayString_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

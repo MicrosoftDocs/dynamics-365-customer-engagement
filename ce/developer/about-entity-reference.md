@@ -23,16 +23,16 @@ Use this reference to understand the available operations that can be performed 
 
 > [!NOTE]
 > This reference is generated from a tenant with multiple solutions from [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] installed but is not customized. This includes entities that may not exist in your environment because these solutions are not installed. Custom entities, attributes, and relationships cannot be included here.
->
+> 
 > This reference includes only entities where:
->
+> 
 > -  **IsPrivate** equals `false`
 >    - This excludes entities where no external use cases exist.
 > - **IsIntersect** equals `false`
 >    - This excludes entities used to define Many-to-many relationships.
 > - The entity supports some kind of operation.
 >    - This excludes entities which you can't use. 
->
+> 
 > To see all entity metadata information for your environment, see [Browse the metadata for your organization](browse-your-metadata.md).
 
 ## Messages

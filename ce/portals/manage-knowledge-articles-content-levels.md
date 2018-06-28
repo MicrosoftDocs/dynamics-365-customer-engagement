@@ -108,10 +108,10 @@ In [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] Portals app, you 
 
 ## Assign content access levels to portal users
 
-1.  Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Contacts**
-2.  Select the Contact you wish to edit.
-3.  Under the **Details** tab, find the **Content Access Levels** section.
-4.  Press **+** to add a new content access level or the **Trash Can** symbol next to a content access level to remove it.
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] and go to **Portals** &gt; **Security** &gt; **Contacts**
+2. Select the Contact you wish to edit.
+3. Under the **Details** tab, find the **Content Access Levels** section.
+4. Press **+** to add a new content access level or the **Trash Can** symbol next to a content access level to remove it.
 
 > [!NOTE] 
 > A user can also inherit a content access level if it is assigned to a Web Role, Parent Contact, or Account that the user is connected to. This inheritance avoids the need to reassign or update content access levels at an individual level. You can assign Web Roles to a content access level by navigating to **Portals** &gt; **Security** &gt; **Web Roles** and then following the same steps. You can assign accounts to a content access level by navigating to **Sales** &gt; **Accounts** and then selecting the account to edit. After the account is selected, find the **Content Access Levels** section on the rightmost side of the screen and use the **+** and **Trash Can** buttons to add or remove a content access level.

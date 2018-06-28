@@ -753,6 +753,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_SyncErrors"></a> msdyn_transactioncategorypricelevel_SyncErrors
 
 Same as syncerror entity [msdyn_transactioncategorypricelevel_SyncErrors](syncerror.md#BKMK_msdyn_transactioncategorypricelevel_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -767,6 +768,7 @@ Same as syncerror entity [msdyn_transactioncategorypricelevel_SyncErrors](syncer
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_DuplicateMatchingRecord"></a> msdyn_transactioncategorypricelevel_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_transactioncategorypricelevel_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_transactioncategorypricelevel_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -781,6 +783,7 @@ Same as duplicaterecord entity [msdyn_transactioncategorypricelevel_DuplicateMat
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_DuplicateBaseRecord"></a> msdyn_transactioncategorypricelevel_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_transactioncategorypricelevel_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_transactioncategorypricelevel_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -795,6 +798,7 @@ Same as duplicaterecord entity [msdyn_transactioncategorypricelevel_DuplicateBas
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_AsyncOperations"></a> msdyn_transactioncategorypricelevel_AsyncOperations
 
 Same as asyncoperation entity [msdyn_transactioncategorypricelevel_AsyncOperations](asyncoperation.md#BKMK_msdyn_transactioncategorypricelevel_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -809,6 +813,7 @@ Same as asyncoperation entity [msdyn_transactioncategorypricelevel_AsyncOperatio
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_MailboxTrackingFolders"></a> msdyn_transactioncategorypricelevel_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_transactioncategorypricelevel_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_transactioncategorypricelevel_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -823,6 +828,7 @@ Same as mailboxtrackingfolder entity [msdyn_transactioncategorypricelevel_Mailbo
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_UserEntityInstanceDatas"></a> msdyn_transactioncategorypricelevel_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_transactioncategorypricelevel_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_transactioncategorypricelevel_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -837,6 +843,7 @@ Same as userentityinstancedata entity [msdyn_transactioncategorypricelevel_UserE
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_ProcessSession"></a> msdyn_transactioncategorypricelevel_ProcessSession
 
 Same as processsession entity [msdyn_transactioncategorypricelevel_ProcessSession](processsession.md#BKMK_msdyn_transactioncategorypricelevel_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -851,6 +858,7 @@ Same as processsession entity [msdyn_transactioncategorypricelevel_ProcessSessio
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_BulkDeleteFailures"></a> msdyn_transactioncategorypricelevel_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_transactioncategorypricelevel_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_transactioncategorypricelevel_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -865,6 +873,7 @@ Same as bulkdeletefailure entity [msdyn_transactioncategorypricelevel_BulkDelete
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_PrincipalObjectAttributeAccesses"></a> msdyn_transactioncategorypricelevel_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_transactioncategorypricelevel_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_transactioncategorypricelevel_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -879,6 +888,7 @@ Same as principalobjectattributeaccess entity [msdyn_transactioncategorypricelev
 ### <a name="BKMK_msdyn_transactioncategorypricelevel_Annotations"></a> msdyn_transactioncategorypricelevel_Annotations
 
 Same as annotation entity [msdyn_transactioncategorypricelevel_Annotations](annotation.md#BKMK_msdyn_transactioncategorypricelevel_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

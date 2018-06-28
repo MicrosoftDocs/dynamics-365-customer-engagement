@@ -731,6 +731,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_CustomerRelationship_AsyncOperations"></a> CustomerRelationship_AsyncOperations
 
 Same as asyncoperation entity [CustomerRelationship_AsyncOperations](asyncoperation.md#BKMK_CustomerRelationship_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -745,6 +746,7 @@ Same as asyncoperation entity [CustomerRelationship_AsyncOperations](asyncoperat
 ### <a name="BKMK_CustomerRelationship_BulkDeleteFailures"></a> CustomerRelationship_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [CustomerRelationship_BulkDeleteFailures](bulkdeletefailure.md#BKMK_CustomerRelationship_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -759,6 +761,7 @@ Same as bulkdeletefailure entity [CustomerRelationship_BulkDeleteFailures](bulkd
 ### <a name="BKMK_userentityinstancedata_customerrelationship"></a> userentityinstancedata_customerrelationship
 
 Same as userentityinstancedata entity [userentityinstancedata_customerrelationship](userentityinstancedata.md#BKMK_userentityinstancedata_customerrelationship) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -773,6 +776,7 @@ Same as userentityinstancedata entity [userentityinstancedata_customerrelationsh
 ### <a name="BKMK_CustomerRelationship_ProcessSessions"></a> CustomerRelationship_ProcessSessions
 
 Same as processsession entity [CustomerRelationship_ProcessSessions](processsession.md#BKMK_CustomerRelationship_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -787,6 +791,7 @@ Same as processsession entity [CustomerRelationship_ProcessSessions](processsess
 ### <a name="BKMK_customer_relationship_converse_relationship"></a> customer_relationship_converse_relationship
 
 Same as customerrelationship entity [customer_relationship_converse_relationship](customerrelationship.md#BKMK_customer_relationship_converse_relationship) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|customerrelationship|

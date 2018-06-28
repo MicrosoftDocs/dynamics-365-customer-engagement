@@ -42,7 +42,7 @@ This sample code is for [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamic
   
 - **Tax**: Tax is applied on the amount that is effective after the discount is applied (total amount minus discount). If the effective amount is less than 5000, tax is 10%; otherwise, tax is 8%.  
   
- For more information, see [Use custom pricing for products](use-custom-pricing-products.md).  
+  For more information, see [Use custom pricing for products](use-custom-pricing-products.md).  
   
 ## Example  
  [!code-csharp[Plug-Ins#CalculatePricePlugin](../snippets/csharp/CRMV8/plug-ins/cs/calculatepriceplugin.cs#calculatepriceplugin)]  

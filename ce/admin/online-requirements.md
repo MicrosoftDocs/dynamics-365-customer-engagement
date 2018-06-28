@@ -22,7 +22,7 @@ manager: "brycho"
 
 [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] gives you the following options to access [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] data:  
   
--   Web browser. No need to install anything to run [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from a computer running a supported web browser.  
+- Web browser. No need to install anything to run [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] from a computer running a supported web browser.  
 
 - [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]. An [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] add-in that provides you with a complete set of [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] capabilities right within [!INCLUDE[pn_MS_Outlook_Full](../includes/pn-ms-outlook-full.md)].  
   

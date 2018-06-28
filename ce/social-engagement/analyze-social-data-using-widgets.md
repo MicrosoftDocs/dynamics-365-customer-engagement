@@ -77,8 +77,8 @@ The exported [!INCLUDE[pn_Excel_short](../includes/pn-excel-short.md)] file cont
 1. On the widget, select the widget actions symbol (![Widget actions symbol](media/more-options-icon.png "Widget actions symbol")). 
 
 2. In the list of actions, select **Export** ![Download the data into Excel](media/export-data-icon.png "Download the data into Excel").    
-> [!NOTE]
-> To export data from a list in full view, you need to select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
+   > [!NOTE]
+   > To export data from a list in full view, you need to select the check boxes of the entries that you want to export, and then click **Export** in the list header.  
   
 
 ## Expand a widget to full view

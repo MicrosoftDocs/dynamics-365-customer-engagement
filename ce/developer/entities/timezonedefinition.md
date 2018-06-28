@@ -377,6 +377,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_timezonedefinition"></a> userentityinstancedata_timezonedefinition
 
 Same as userentityinstancedata entity [userentityinstancedata_timezonedefinition](userentityinstancedata.md#BKMK_userentityinstancedata_timezonedefinition) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -391,6 +392,7 @@ Same as userentityinstancedata entity [userentityinstancedata_timezonedefinition
 ### <a name="BKMK_lk_timezonerule_timezonedefinitionid"></a> lk_timezonerule_timezonedefinitionid
 
 Same as timezonerule entity [lk_timezonerule_timezonedefinitionid](timezonerule.md#BKMK_lk_timezonerule_timezonedefinitionid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|timezonerule|
@@ -405,6 +407,7 @@ Same as timezonerule entity [lk_timezonerule_timezonedefinitionid](timezonerule.
 ### <a name="BKMK_lk_timezonelocalizedname_timezonedefinitionid"></a> lk_timezonelocalizedname_timezonedefinitionid
 
 Same as timezonelocalizedname entity [lk_timezonelocalizedname_timezonedefinitionid](timezonelocalizedname.md#BKMK_lk_timezonelocalizedname_timezonedefinitionid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|timezonelocalizedname|

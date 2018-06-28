@@ -580,6 +580,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_Account"></a> msdyn_Account
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Customer Account associated with this Quote|
@@ -595,6 +596,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_AccountManagerId"></a> msdyn_AccountManagerId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Account manager responsible for the quote.|
@@ -610,6 +612,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_ContractOrganizationalUnitId"></a> msdyn_ContractOrganizationalUnitId
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The organizational unit in charge of the contract.|
@@ -625,6 +628,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_EstimatedCost"></a> msdyn_EstimatedCost
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The estimated cost of this quote|
@@ -643,6 +647,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_feasible"></a> msdyn_feasible
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows how the quote estimation compares to project estimation. Possible values are 0: Feasibility Not Available, 1: Feasible, and 2: Not Feasible.|
@@ -666,6 +671,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_InvoiceSetupTotals"></a> msdyn_InvoiceSetupTotals
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|The totals of all assigned Invoice Setups|
@@ -684,6 +690,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_OrderType"></a> msdyn_OrderType
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Internal use only.|
@@ -707,6 +714,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_QuoteLineEndDate"></a> msdyn_QuoteLineEndDate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -723,6 +731,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 ### <a name="BKMK_msdyn_QuoteLineStartDate"></a> msdyn_QuoteLineStartDate
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -2039,6 +2048,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_AdjustedGrossMargin"></a> msdyn_AdjustedGrossMargin
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the estimated gross margin after accounting for non-chargeable components.|
@@ -2056,6 +2066,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_Competitive"></a> msdyn_Competitive
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows how the quote estimation of sales value and schedule compare to customer expectations on those parameters. Possible values are 1: Within Customer expectations, 2: Not Within Customer expectations, and 0: Customer expectations Not Available.|
@@ -2095,6 +2106,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_CustomerBudgetRollUp"></a> msdyn_CustomerBudgetRollUp
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the total customer budget for the quote, computed from all the quote lines.|
@@ -2113,6 +2125,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_customerbudgetrollup_Base"></a> msdyn_customerbudgetrollup_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the value of the customer budget in the base currency.|
@@ -2162,6 +2175,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_EstimatedBudget"></a> msdyn_EstimatedBudget
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows how the estimated sales value on the quote compares to customer budgets. Possible values are 1: Within Customer Budget, 2: Exceeds Customer Budget, 0: Budget Estimate Not Available|
@@ -2185,6 +2199,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_EstimatedCompletionRollUp"></a> msdyn_EstimatedCompletionRollUp
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
@@ -2232,6 +2247,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_estimatedcost_Base"></a> msdyn_estimatedcost_Base
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Estimated Cost in base currency.|
@@ -2250,6 +2266,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_EstimatedQuoteMargin"></a> msdyn_EstimatedQuoteMargin
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Estimated Margin of this quote|
@@ -2267,6 +2284,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_EstimatedSchedule"></a> msdyn_EstimatedSchedule
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows how the estimated schedule on the quote compares to customer expectations. Possible values are 1: Estimated To Finish Early, 2: Estimated To Finish Late, 3: Estimated To Finish On Schedule, and 0: Schedule Not Available.|
@@ -2291,6 +2309,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_GrossMargin"></a> msdyn_GrossMargin
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the estimated gross margin without accounting for non-chargeable components.|
@@ -2308,6 +2327,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_invoicesetuptotals_Base"></a> msdyn_invoicesetuptotals_Base
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Invoice Setup Totals in base currency.|
@@ -2326,6 +2346,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_Profitability"></a> msdyn_Profitability
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Shows the estimated profitability of the quote. Possible values are Profitable, Not Profitable, and Profitability not available.|
@@ -2349,6 +2370,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_TotalAmount"></a> msdyn_TotalAmount
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -2367,6 +2389,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_totalamount_Base"></a> msdyn_totalamount_Base
 
 **Added by**: Field Service Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the TotalAmount in base currency.|
@@ -2385,6 +2408,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_TotalChargeableCostRollup"></a> msdyn_TotalChargeableCostRollup
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -2403,6 +2427,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_totalchargeablecostrollup_Base"></a> msdyn_totalchargeablecostrollup_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Total Chargeable Cost in base currency.|
@@ -2452,6 +2477,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_TotalNonchargeableCostRollup"></a> msdyn_TotalNonchargeableCostRollup
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description||
@@ -2470,6 +2496,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 ### <a name="BKMK_msdyn_totalnonchargeablecostrollup_Base"></a> msdyn_totalnonchargeablecostrollup_Base
 
 **Added by**: Project Service Automation Solution<br />
+
 |Property|Value|
 |--------|-----|
 |Description|Value of the Total Non-chargeable Cost in base currency.|
@@ -2915,6 +2942,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Quote_ActivityPointers"></a> Quote_ActivityPointers
 
 Same as activitypointer entity [Quote_ActivityPointers](activitypointer.md#BKMK_Quote_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -2929,6 +2957,7 @@ Same as activitypointer entity [Quote_ActivityPointers](activitypointer.md#BKMK_
 ### <a name="BKMK_Quote_SyncErrors"></a> Quote_SyncErrors
 
 Same as syncerror entity [Quote_SyncErrors](syncerror.md#BKMK_Quote_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -2943,6 +2972,7 @@ Same as syncerror entity [Quote_SyncErrors](syncerror.md#BKMK_Quote_SyncErrors) 
 ### <a name="BKMK_quote_activity_parties"></a> quote_activity_parties
 
 Same as activityparty entity [quote_activity_parties](activityparty.md#BKMK_quote_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -2957,6 +2987,7 @@ Same as activityparty entity [quote_activity_parties](activityparty.md#BKMK_quot
 ### <a name="BKMK_Quote_DuplicateMatchingRecord"></a> Quote_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [Quote_DuplicateMatchingRecord](duplicaterecord.md#BKMK_Quote_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2971,6 +3002,7 @@ Same as duplicaterecord entity [Quote_DuplicateMatchingRecord](duplicaterecord.m
 ### <a name="BKMK_Quote_DuplicateBaseRecord"></a> Quote_DuplicateBaseRecord
 
 Same as duplicaterecord entity [Quote_DuplicateBaseRecord](duplicaterecord.md#BKMK_Quote_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -2985,6 +3017,7 @@ Same as duplicaterecord entity [Quote_DuplicateBaseRecord](duplicaterecord.md#BK
 ### <a name="BKMK_Quote_SharepointDocumentLocation"></a> Quote_SharepointDocumentLocation
 
 Same as sharepointdocumentlocation entity [Quote_SharepointDocumentLocation](sharepointdocumentlocation.md#BKMK_Quote_SharepointDocumentLocation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -2999,6 +3032,7 @@ Same as sharepointdocumentlocation entity [Quote_SharepointDocumentLocation](sha
 ### <a name="BKMK_Quote_SharepointDocument"></a> Quote_SharepointDocument
 
 Same as sharepointdocument entity [Quote_SharepointDocument](sharepointdocument.md#BKMK_Quote_SharepointDocument) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -3013,6 +3047,7 @@ Same as sharepointdocument entity [Quote_SharepointDocument](sharepointdocument.
 ### <a name="BKMK_Quote_AsyncOperations"></a> Quote_AsyncOperations
 
 Same as asyncoperation entity [Quote_AsyncOperations](asyncoperation.md#BKMK_Quote_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -3027,6 +3062,7 @@ Same as asyncoperation entity [Quote_AsyncOperations](asyncoperation.md#BKMK_Quo
 ### <a name="BKMK_Quote_MailboxTrackingFolder"></a> Quote_MailboxTrackingFolder
 
 Same as mailboxtrackingfolder entity [Quote_MailboxTrackingFolder](mailboxtrackingfolder.md#BKMK_Quote_MailboxTrackingFolder) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -3041,6 +3077,7 @@ Same as mailboxtrackingfolder entity [Quote_MailboxTrackingFolder](mailboxtracki
 ### <a name="BKMK_userentityinstancedata_quote"></a> userentityinstancedata_quote
 
 Same as userentityinstancedata entity [userentityinstancedata_quote](userentityinstancedata.md#BKMK_userentityinstancedata_quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -3055,6 +3092,7 @@ Same as userentityinstancedata entity [userentityinstancedata_quote](userentityi
 ### <a name="BKMK_Quote_ProcessSessions"></a> Quote_ProcessSessions
 
 Same as processsession entity [Quote_ProcessSessions](processsession.md#BKMK_Quote_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -3069,6 +3107,7 @@ Same as processsession entity [Quote_ProcessSessions](processsession.md#BKMK_Quo
 ### <a name="BKMK_Quote_BulkDeleteFailures"></a> Quote_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Quote_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Quote_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -3083,6 +3122,7 @@ Same as bulkdeletefailure entity [Quote_BulkDeleteFailures](bulkdeletefailure.md
 ### <a name="BKMK_quote_principalobjectattributeaccess"></a> quote_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [quote_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_quote_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -3097,6 +3137,7 @@ Same as principalobjectattributeaccess entity [quote_principalobjectattributeacc
 ### <a name="BKMK_Quote_Appointments"></a> Quote_Appointments
 
 Same as appointment entity [Quote_Appointments](appointment.md#BKMK_Quote_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -3111,6 +3152,7 @@ Same as appointment entity [Quote_Appointments](appointment.md#BKMK_Quote_Appoin
 ### <a name="BKMK_Quote_Emails"></a> Quote_Emails
 
 Same as email entity [Quote_Emails](email.md#BKMK_Quote_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -3125,6 +3167,7 @@ Same as email entity [Quote_Emails](email.md#BKMK_Quote_Emails) Many-To-One rela
 ### <a name="BKMK_Quote_Faxes"></a> Quote_Faxes
 
 Same as fax entity [Quote_Faxes](fax.md#BKMK_Quote_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -3139,6 +3182,7 @@ Same as fax entity [Quote_Faxes](fax.md#BKMK_Quote_Faxes) Many-To-One relationsh
 ### <a name="BKMK_Quote_Letters"></a> Quote_Letters
 
 Same as letter entity [Quote_Letters](letter.md#BKMK_Quote_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -3153,6 +3197,7 @@ Same as letter entity [Quote_Letters](letter.md#BKMK_Quote_Letters) Many-To-One 
 ### <a name="BKMK_Quote_Phonecalls"></a> Quote_Phonecalls
 
 Same as phonecall entity [Quote_Phonecalls](phonecall.md#BKMK_Quote_Phonecalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -3167,6 +3212,7 @@ Same as phonecall entity [Quote_Phonecalls](phonecall.md#BKMK_Quote_Phonecalls) 
 ### <a name="BKMK_Quote_Tasks"></a> Quote_Tasks
 
 Same as task entity [Quote_Tasks](task.md#BKMK_Quote_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -3181,6 +3227,7 @@ Same as task entity [Quote_Tasks](task.md#BKMK_Quote_Tasks) Many-To-One relation
 ### <a name="BKMK_Quote_RecurringAppointmentMasters"></a> Quote_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [Quote_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_Quote_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -3195,6 +3242,7 @@ Same as recurringappointmentmaster entity [Quote_RecurringAppointmentMasters](re
 ### <a name="BKMK_Quote_SocialActivities"></a> Quote_SocialActivities
 
 Same as socialactivity entity [Quote_SocialActivities](socialactivity.md#BKMK_Quote_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -3209,6 +3257,7 @@ Same as socialactivity entity [Quote_SocialActivities](socialactivity.md#BKMK_Qu
 ### <a name="BKMK_quote_connections1"></a> quote_connections1
 
 Same as connection entity [quote_connections1](connection.md#BKMK_quote_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -3223,6 +3272,7 @@ Same as connection entity [quote_connections1](connection.md#BKMK_quote_connecti
 ### <a name="BKMK_quote_connections2"></a> quote_connections2
 
 Same as connection entity [quote_connections2](connection.md#BKMK_quote_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -3237,6 +3287,7 @@ Same as connection entity [quote_connections2](connection.md#BKMK_quote_connecti
 ### <a name="BKMK_Quote_Annotation"></a> Quote_Annotation
 
 Same as annotation entity [Quote_Annotation](annotation.md#BKMK_Quote_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -3251,6 +3302,7 @@ Same as annotation entity [Quote_Annotation](annotation.md#BKMK_Quote_Annotation
 ### <a name="BKMK_Quote_ServiceAppointments"></a> Quote_ServiceAppointments
 
 Same as serviceappointment entity [Quote_ServiceAppointments](serviceappointment.md#BKMK_Quote_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -3265,6 +3317,7 @@ Same as serviceappointment entity [Quote_ServiceAppointments](serviceappointment
 ### <a name="BKMK_quote_QuoteCloses"></a> quote_QuoteCloses
 
 Same as quoteclose entity [quote_QuoteCloses](quoteclose.md#BKMK_quote_QuoteCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -3279,6 +3332,7 @@ Same as quoteclose entity [quote_QuoteCloses](quoteclose.md#BKMK_quote_QuoteClos
 ### <a name="BKMK_lk_opportunitysalesprocess_quoteid"></a> lk_opportunitysalesprocess_quoteid
 
 Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_quoteid](opportunitysalesprocess.md#BKMK_lk_opportunitysalesprocess_quoteid) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunitysalesprocess|
@@ -3293,6 +3347,7 @@ Same as opportunitysalesprocess entity [lk_opportunitysalesprocess_quoteid](oppo
 ### <a name="BKMK_quote_details"></a> quote_details
 
 Same as quotedetail entity [quote_details](quotedetail.md#BKMK_quote_details) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quotedetail|
@@ -3307,6 +3362,7 @@ Same as quotedetail entity [quote_details](quotedetail.md#BKMK_quote_details) Ma
 ### <a name="BKMK_quote_orders"></a> quote_orders
 
 Same as salesorder entity [quote_orders](salesorder.md#BKMK_quote_orders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|salesorder|
@@ -3321,6 +3377,7 @@ Same as salesorder entity [quote_orders](salesorder.md#BKMK_quote_orders) Many-T
 ### <a name="BKMK_Quote_QuoteClose"></a> Quote_QuoteClose
 
 Same as quoteclose entity [Quote_QuoteClose](quoteclose.md#BKMK_Quote_QuoteClose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|quoteclose|
@@ -3335,6 +3392,7 @@ Same as quoteclose entity [Quote_QuoteClose](quoteclose.md#BKMK_Quote_QuoteClose
 ### <a name="BKMK_slakpiinstance_quote"></a> slakpiinstance_quote
 
 Same as slakpiinstance entity [slakpiinstance_quote](slakpiinstance.md#BKMK_slakpiinstance_quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|slakpiinstance|
@@ -3349,6 +3407,7 @@ Same as slakpiinstance entity [slakpiinstance_quote](slakpiinstance.md#BKMK_slak
 ### <a name="BKMK_quote_msdyn_bookingalerts"></a> quote_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [quote_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_quote_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -3363,6 +3422,7 @@ Same as msdyn_bookingalert entity [quote_msdyn_bookingalerts](msdyn_bookingalert
 ### <a name="BKMK_quote_msdyn_approvals"></a> quote_msdyn_approvals
 
 Same as msdyn_approval entity [quote_msdyn_approvals](msdyn_approval.md#BKMK_quote_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -3377,6 +3437,7 @@ Same as msdyn_approval entity [quote_msdyn_approvals](msdyn_approval.md#BKMK_quo
 ### <a name="BKMK_bpf_quote_OpportunitySalesProcess"></a> bpf_quote_OpportunitySalesProcess
 
 Same as opportunitysalesprocess entity [bpf_quote_OpportunitySalesProcess](opportunitysalesprocess.md#BKMK_bpf_quote_OpportunitySalesProcess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|opportunitysalesprocess|
@@ -3391,6 +3452,7 @@ Same as opportunitysalesprocess entity [bpf_quote_OpportunitySalesProcess](oppor
 ### <a name="BKMK_msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote"></a> msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote
 
 Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote](msdyn_quotelineanalyticsbreakdown.md#BKMK_msdyn_quote_msdyn_quotelineanalyticsbreakdown_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelineanalyticsbreakdown|
@@ -3405,6 +3467,7 @@ Same as msdyn_quotelineanalyticsbreakdown entity [msdyn_quote_msdyn_quotelineana
 ### <a name="BKMK_msdyn_quote_msdyn_quotelinetransaction"></a> msdyn_quote_msdyn_quotelinetransaction
 
 Same as msdyn_quotelinetransaction entity [msdyn_quote_msdyn_quotelinetransaction](msdyn_quotelinetransaction.md#BKMK_msdyn_quote_msdyn_quotelinetransaction) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotelinetransaction|
@@ -3419,6 +3482,7 @@ Same as msdyn_quotelinetransaction entity [msdyn_quote_msdyn_quotelinetransactio
 ### <a name="BKMK_msdyn_quote_msdyn_quotepricelist_Quote"></a> msdyn_quote_msdyn_quotepricelist_Quote
 
 Same as msdyn_quotepricelist entity [msdyn_quote_msdyn_quotepricelist_Quote](msdyn_quotepricelist.md#BKMK_msdyn_quote_msdyn_quotepricelist_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotepricelist|
@@ -3433,6 +3497,7 @@ Same as msdyn_quotepricelist entity [msdyn_quote_msdyn_quotepricelist_Quote](msd
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingincident_Quote"></a> msdyn_quote_msdyn_quotebookingincident_Quote
 
 Same as msdyn_quotebookingincident entity [msdyn_quote_msdyn_quotebookingincident_Quote](msdyn_quotebookingincident.md#BKMK_msdyn_quote_msdyn_quotebookingincident_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingincident|
@@ -3447,6 +3512,7 @@ Same as msdyn_quotebookingincident entity [msdyn_quote_msdyn_quotebookinginciden
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingproduct_Quote"></a> msdyn_quote_msdyn_quotebookingproduct_Quote
 
 Same as msdyn_quotebookingproduct entity [msdyn_quote_msdyn_quotebookingproduct_Quote](msdyn_quotebookingproduct.md#BKMK_msdyn_quote_msdyn_quotebookingproduct_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingproduct|
@@ -3461,6 +3527,7 @@ Same as msdyn_quotebookingproduct entity [msdyn_quote_msdyn_quotebookingproduct_
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingservice_Quote"></a> msdyn_quote_msdyn_quotebookingservice_Quote
 
 Same as msdyn_quotebookingservice entity [msdyn_quote_msdyn_quotebookingservice_Quote](msdyn_quotebookingservice.md#BKMK_msdyn_quote_msdyn_quotebookingservice_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservice|
@@ -3475,6 +3542,7 @@ Same as msdyn_quotebookingservice entity [msdyn_quote_msdyn_quotebookingservice_
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingservicetask_Quote"></a> msdyn_quote_msdyn_quotebookingservicetask_Quote
 
 Same as msdyn_quotebookingservicetask entity [msdyn_quote_msdyn_quotebookingservicetask_Quote](msdyn_quotebookingservicetask.md#BKMK_msdyn_quote_msdyn_quotebookingservicetask_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingservicetask|
@@ -3489,6 +3557,7 @@ Same as msdyn_quotebookingservicetask entity [msdyn_quote_msdyn_quotebookingserv
 ### <a name="BKMK_msdyn_quote_msdyn_quotebookingsetup_Quote"></a> msdyn_quote_msdyn_quotebookingsetup_Quote
 
 Same as msdyn_quotebookingsetup entity [msdyn_quote_msdyn_quotebookingsetup_Quote](msdyn_quotebookingsetup.md#BKMK_msdyn_quote_msdyn_quotebookingsetup_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quotebookingsetup|
@@ -3503,6 +3572,7 @@ Same as msdyn_quotebookingsetup entity [msdyn_quote_msdyn_quotebookingsetup_Quot
 ### <a name="BKMK_msdyn_quote_msdyn_quoteinvoicingsetup_Quote"></a> msdyn_quote_msdyn_quoteinvoicingsetup_Quote
 
 Same as msdyn_quoteinvoicingsetup entity [msdyn_quote_msdyn_quoteinvoicingsetup_Quote](msdyn_quoteinvoicingsetup.md#BKMK_msdyn_quote_msdyn_quoteinvoicingsetup_Quote) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_quoteinvoicingsetup|

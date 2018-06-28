@@ -600,6 +600,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_SemiAnnualFiscalCalendar_AsyncOperations"></a> SemiAnnualFiscalCalendar_AsyncOperations
 
 Same as asyncoperation entity [SemiAnnualFiscalCalendar_AsyncOperations](asyncoperation.md#BKMK_SemiAnnualFiscalCalendar_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -614,6 +615,7 @@ Same as asyncoperation entity [SemiAnnualFiscalCalendar_AsyncOperations](asyncop
 ### <a name="BKMK_SemiAnnualFiscalCalendar_BulkDeleteFailures"></a> SemiAnnualFiscalCalendar_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [SemiAnnualFiscalCalendar_BulkDeleteFailures](bulkdeletefailure.md#BKMK_SemiAnnualFiscalCalendar_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|

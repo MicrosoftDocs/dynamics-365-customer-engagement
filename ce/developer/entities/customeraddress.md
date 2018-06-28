@@ -983,6 +983,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_customer_address_contracts_as_billing_address"></a> customer_address_contracts_as_billing_address
 
 Same as contract entity [customer_address_contracts_as_billing_address](contract.md#BKMK_customer_address_contracts_as_billing_address) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -997,6 +998,7 @@ Same as contract entity [customer_address_contracts_as_billing_address](contract
 ### <a name="BKMK_customer_address_contracts_as_service_address"></a> customer_address_contracts_as_service_address
 
 Same as contract entity [customer_address_contracts_as_service_address](contract.md#BKMK_customer_address_contracts_as_service_address) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contract|
@@ -1011,6 +1013,7 @@ Same as contract entity [customer_address_contracts_as_service_address](contract
 ### <a name="BKMK_customer_address_contract_line_items"></a> customer_address_contract_line_items
 
 Same as contractdetail entity [customer_address_contract_line_items](contractdetail.md#BKMK_customer_address_contract_line_items) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|contractdetail|
@@ -1025,6 +1028,7 @@ Same as contractdetail entity [customer_address_contract_line_items](contractdet
 ### <a name="BKMK_CustomerAddress_BulkDeleteFailures"></a> CustomerAddress_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [CustomerAddress_BulkDeleteFailures](bulkdeletefailure.md#BKMK_CustomerAddress_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1039,6 +1043,7 @@ Same as bulkdeletefailure entity [CustomerAddress_BulkDeleteFailures](bulkdelete
 ### <a name="BKMK_userentityinstancedata_customeraddress"></a> userentityinstancedata_customeraddress
 
 Same as userentityinstancedata entity [userentityinstancedata_customeraddress](userentityinstancedata.md#BKMK_userentityinstancedata_customeraddress) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1053,6 +1058,7 @@ Same as userentityinstancedata entity [userentityinstancedata_customeraddress](u
 ### <a name="BKMK_CustomerAddress_SyncErrors"></a> CustomerAddress_SyncErrors
 
 Same as syncerror entity [CustomerAddress_SyncErrors](syncerror.md#BKMK_CustomerAddress_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1067,6 +1073,7 @@ Same as syncerror entity [CustomerAddress_SyncErrors](syncerror.md#BKMK_Customer
 ### <a name="BKMK_CustomerAddress_AsyncOperations"></a> CustomerAddress_AsyncOperations
 
 Same as asyncoperation entity [CustomerAddress_AsyncOperations](asyncoperation.md#BKMK_CustomerAddress_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1081,6 +1088,7 @@ Same as asyncoperation entity [CustomerAddress_AsyncOperations](asyncoperation.m
 ### <a name="BKMK_CustomerAddress_ProcessSessions"></a> CustomerAddress_ProcessSessions
 
 Same as processsession entity [CustomerAddress_ProcessSessions](processsession.md#BKMK_CustomerAddress_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -1095,6 +1103,7 @@ Same as processsession entity [CustomerAddress_ProcessSessions](processsession.m
 ### <a name="BKMK_customeraddress_principalobjectattributeaccess"></a> customeraddress_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [customeraddress_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_customeraddress_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

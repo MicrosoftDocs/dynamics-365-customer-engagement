@@ -17,7 +17,7 @@ manager: "faisalmo"
 
 - [!INCLUDE [cc_applies_to_update_9_0_0](../includes/cc_applies_to_update_9_0_0.md)]
 - [!INCLUDE [cc_applies_to_update_8_2_0](../includes/cc_applies_to_update_8_2_0.md)]
- 
+
 Beginning March 19, 2018 we will limit the number of API requests made by each user, per organization instance, within a five minute interval. When this limit is exceeded, an exception will be thrown by the platform.
 
 The limit will help ensure that users running applications that make extraordinarily large demands on servers will not affect other users. The limit will not affect normal users of the platform. Only applications that perform a very large number of API requests will be affected. Based on telemetry data analysis, this limit is well within the bounds of most applications that perform a large number of API requests. The limit will help provide a level of protection from random and unexpected surges in request volumes that threaten the availability and performance characteristics of the [!INCLUDE [pn-dyn-365](../includes/pn-dyn-365.md)] platform.
@@ -121,7 +121,7 @@ public class Retry
                     // else use exponential backoff delay
                     delay = TimeSpan.FromSeconds(Math.Pow(2, retryCount));
                 }
-                
+
                 Thread.Sleep(delay);
             }
         }
@@ -138,7 +138,6 @@ public class Retry
         return false;
     }
 }
-
 ```
 
 

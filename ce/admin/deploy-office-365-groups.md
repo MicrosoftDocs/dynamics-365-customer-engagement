@@ -32,7 +32,7 @@ manager: "brycho"
   
 > [!TIP]
 >  Check out the following for a quick introduction to [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]:  
->   
+> 
 > - ![Video button](../admin/media/video--button.PNG "Video button") Video: [Introducing Groups in Office 365](https://youtu.be/t3OLvYXepvE).  
 > -   [Learn more about groups](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)  
   
@@ -49,7 +49,7 @@ manager: "brycho"
   
 - [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)]  
   
--   To use document storage with [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], you will need [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] and access to the group [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
+- To use document storage with [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], you will need [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] and access to the group [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
   
 <a name="BKMK_EnableOfficeGroups"></a>   
 
@@ -58,22 +58,22 @@ manager: "brycho"
   
 > [!NOTE]
 >  Users must have an [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] mailbox set up to use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. [!INCLUDE[pn_Exchange_Online](../includes/pn-exchange-online.md)] is already properly configured for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] organizations as a part of [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]. You also need to enable server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration to see documents in an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group; you don't have to use [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration, only set up the connection to [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)].  Server-based [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] integration is also required to enable the group [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook.  
->   
+> 
 > [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md)  
   
 1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)]  
   
 2. [!INCLUDE[proc_office365_choose_admin_crm](../includes/proc-office365-choose-admin-crm.md)]  
   
-3.  Click the **Instances** tab.  
+3. Click the **Instances** tab.  
   
-4.  Choose your instance, and then click **Solutions**.  
+4. Choose your instance, and then click **Solutions**.  
   
-5.  Select **Office 365 Groups** and then click **Install**.  
+5. Select **Office 365 Groups** and then click **Install**.  
   
-6.  Review the terms of service and then click **Install**.  
+6. Review the terms of service and then click **Install**.  
   
- Once installation of the solution has completed, you can configure [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
+   Once installation of the solution has completed, you can configure [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)].  
   
 > [!NOTE]
 >  When you install a solution, your [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] site is taken offline in maintenance mode for a short time. We recommend you install the solution when it’s least disruptive to users.  
@@ -97,17 +97,17 @@ manager: "brycho"
 ## Configure Office 365 Groups  
  Once you provision [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], you can enable them for any entity. Security group membership is associated with the entity. You configure [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] in [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)].  
   
-1.  In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], click **Settings** > **Office 365 Groups**.  
+1. In [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], click **Settings** > **Office 365 Groups**.  
   
-2.  On the **Office 365 Groups Settings** page, click ![Add properties button](../admin/media/add-properties-button.png "Add properties button")**Add entity** and choose an entity from the drop-down list. Repeat this step for each entity you want to enable, including custom entities.  
+2. On the **Office 365 Groups Settings** page, click ![Add properties button](../admin/media/add-properties-button.png "Add properties button")**Add entity** and choose an entity from the drop-down list. Repeat this step for each entity you want to enable, including custom entities.  
   
-3.  Optionally, you can click **Auto-create** for an entity to have a new group automatically created when a new record for that entity is created. However, we recommend you choose this option only for entities that typically require large groups to collaborate.  
+3. Optionally, you can click **Auto-create** for an entity to have a new group automatically created when a new record for that entity is created. However, we recommend you choose this option only for entities that typically require large groups to collaborate.  
   
-4.  When you have added all the entities you want to enable for [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], click **Publish All**.  
+4. When you have added all the entities you want to enable for [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], click **Publish All**.  
   
-     All of your pending system customizations will be published, including those you may have saved but not published in another area.  
+    All of your pending system customizations will be published, including those you may have saved but not published in another area.  
   
- You’re now ready to use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. See [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md).  
+   You’re now ready to use [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)]. See [Collaborate with your colleagues using Office 365 Groups](../basics/collaborate-with-colleagues-using-office-365-groups.md).  
   
 <a name="BKMK_Connectors"></a>   
 ## Use the Office 365 Connectors for Groups  
@@ -116,40 +116,40 @@ manager: "brycho"
 > [!TIP]
 >  Check out the following Dynamics 365 Blog: [Dynamics CRM Online connector for Office 365 Groups](http://blogs.msdn.microsoft.com/crm/2016/04/01/dynamics-crm-online-connector-for-office-365-groups/)  
   
-1.  Sign in to your [Office 365 Outlook](https://outlook.office365.com).  
+1. Sign in to your [Office 365 Outlook](https://outlook.office365.com).  
   
-2.  Create or choose an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group.  
+2. Create or choose an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group.  
   
-3.  Click **Connectors**.  
+3. Click **Connectors**.  
   
- ![Click Office 365 Groups Connectors.](../admin/media/office-365-groups-connectors.png "Click Office 365 Groups Connectors.")  
+   ![Click Office 365 Groups Connectors.](../admin/media/office-365-groups-connectors.png "Click Office 365 Groups Connectors.")  
   
-4.  Scroll down to **Dynamics 365 Online**, and then click **Add**.  
+4. Scroll down to **Dynamics 365 Online**, and then click **Add**.  
   
-5.  If you have access to more than one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, choose which instance to connect to this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group. If you only have access to one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, this step will be skipped and you will advance to the next step.  
+5. If you have access to more than one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, choose which instance to connect to this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group. If you only have access to one [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] instance, this step will be skipped and you will advance to the next step.  
   
-6.  Choose the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record you want to connect this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group to, and then click **Save**.  
+6. Choose the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record you want to connect this [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Group to, and then click **Save**.  
   
- ![Add Office 365 Groups records to connect](../admin/media/add-office-365-groups-records-to-connect.png "Add Office 365 Groups records to connect")  
+   ![Add Office 365 Groups records to connect](../admin/media/add-office-365-groups-records-to-connect.png "Add Office 365 Groups records to connect")  
   
- Once connected, the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] connector shows up at the top of the connection list with a summary of connected records.  
+   Once connected, the [!INCLUDE[pn_dynamics_crm_online](../includes/pn-dynamics-crm-online.md)] connector shows up at the top of the connection list with a summary of connected records.  
   
- ![Office 365 Groups records in connector](../admin/media/office-365-groups-records-in-connector.png "Office 365 Groups records in connector")  
+   ![Office 365 Groups records in connector](../admin/media/office-365-groups-records-in-connector.png "Office 365 Groups records in connector")  
   
- To delete a connected record, click **View**, and then click **Remove**.  
+   To delete a connected record, click **View**, and then click **Remove**.  
   
- ![Delete Office 365 Groups records from connect](../admin/media/delete-office-365-groups-records-from-connect.png "Delete Office 365 Groups records from connect")  
+   ![Delete Office 365 Groups records from connect](../admin/media/delete-office-365-groups-records-from-connect.png "Delete Office 365 Groups records from connect")  
   
 > [!NOTE]
 >  Note the following about the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] Connectors for Groups:  
->   
-> -   Only account, lead, and opportunity records are supported.  
-> -   You can connect up to five records.  
-> -   Only task type activities are sent to the group as connector cards.  
-> -   The activity appears as a new conversation in a card format in the Group.  
-> -   The fields in the card shown in the Group conversation are not customizable.  
-> -   Nothing is required in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to make the connector work.  
-> -   For sensitive information, you should connect your Dynamics 365 record to a private group where only approved members can view contents. For public groups, everyone in the org has access to view contents. See "Public and private Office 365 groups" in [Learn more about groups](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).  
+> 
+> - Only account, lead, and opportunity records are supported.  
+> - You can connect up to five records.  
+> - Only task type activities are sent to the group as connector cards.  
+> - The activity appears as a new conversation in a card format in the Group.  
+> - The fields in the card shown in the Group conversation are not customizable.  
+> - Nothing is required in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to make the connector work.  
+> - For sensitive information, you should connect your Dynamics 365 record to a private group where only approved members can view contents. For public groups, everyone in the org has access to view contents. See "Public and private Office 365 groups" in [Learn more about groups](https://support.office.com/en-us/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).  
   
 <a name="BKMK_KnownIssues"></a>   
 ## Known issues  

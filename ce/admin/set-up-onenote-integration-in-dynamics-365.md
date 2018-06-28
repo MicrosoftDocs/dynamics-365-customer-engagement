@@ -43,7 +43,7 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
 - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
   
- ![Enable SharePoint Integration](../admin/media/enable-sharepoint-integration.png "Enable SharePoint Integration")  
+  ![Enable SharePoint Integration](../admin/media/enable-sharepoint-integration.png "Enable SharePoint Integration")  
   
 <a name="BKMK_EnableOneNote"></a>   
 ## Step 2: Turn on OneNote integration  
@@ -52,19 +52,19 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
 1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
   
-2.  Select **OneNote Integration**.  
+2. Select **OneNote Integration**.  
   
- ![Choose OneNote Integration](../admin/media/onenote-integration.png "Select OneNote Integration")  
+   ![Choose OneNote Integration](../admin/media/onenote-integration.png "Select OneNote Integration")  
   
-3.  Follow the instructions in the wizard to turn on [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration for selected entities. Choose entities that need a full notebook per record. Only entities that are already enabled for document management are listed. Select **Finish**.  
+3. Follow the instructions in the wizard to turn on [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration for selected entities. Choose entities that need a full notebook per record. Only entities that are already enabled for document management are listed. Select **Finish**.  
   
- ![Follow instructions in wizard](../admin/media/onenote-integration-wizard.png "Follow instructions in the wizard")  
+   ![Follow instructions in wizard](../admin/media/onenote-integration-wizard.png "Follow instructions in the wizard")  
   
-4.  You can also enable [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration for an entity from the customization form, as long as document management has been enabled for that entity.  
+4. You can also enable [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] integration for an entity from the customization form, as long as document management has been enabled for that entity.  
   
- ![Select OneNote integration for an entity](../admin/media/onenote-select-entity.png "Select OneNote integration for an entity")  
+   ![Select OneNote integration for an entity](../admin/media/onenote-select-entity.png "Select OneNote integration for an entity")  
   
-5.  A [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)]. After the dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is created for that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, you can view and navigate to that notebook from any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client.  
+5. A [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is automatically created for a record the first time you select the **OneNote** tab in the activities area in [!INCLUDE[pn_CRM_online](../includes/pn-crm-online.md)]. After the dedicated [!INCLUDE[pn_onenote](../includes/pn-onenote.md)] notebook is created for that [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] record, you can view and navigate to that notebook from any [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] client.  
   
 [!INCLUDE[proc-more-information](../includes/proc-more-information.md)]  [Use OneNote in Dynamics 365 (online)](../basics/use-onenote.md)
   
@@ -72,11 +72,11 @@ Gather your thoughts, ideas, plans and research in one single place with [!INCLU
   
 1. [!INCLUDE[proc_settings_doc_mgmt](../includes/proc-settings-doc-mgmt.md)]  
   
-2.  Select **OneNote Integration**.  
+2. Select **OneNote Integration**.  
   
- ![Choose OneNote Integration](../admin/media/onenote-integration.png "Select OneNote Integration")  
+   ![Choose OneNote Integration](../admin/media/onenote-integration.png "Select OneNote Integration")  
   
-3.  In the **OneNote Integration Setting** dialog box, clear the check boxes for all entities, and then select **Finish**.  
+3. In the **OneNote Integration Setting** dialog box, clear the check boxes for all entities, and then select **Finish**.  
   
 ### See also  
  [Use OneNote in Dynamics 365 (online)](../basics/use-onenote.md)   

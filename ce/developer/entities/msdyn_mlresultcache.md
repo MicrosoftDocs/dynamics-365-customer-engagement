@@ -581,6 +581,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_mlresultcache_SyncErrors"></a> msdyn_mlresultcache_SyncErrors
 
 Same as syncerror entity [msdyn_mlresultcache_SyncErrors](syncerror.md#BKMK_msdyn_mlresultcache_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -595,6 +596,7 @@ Same as syncerror entity [msdyn_mlresultcache_SyncErrors](syncerror.md#BKMK_msdy
 ### <a name="BKMK_msdyn_mlresultcache_AsyncOperations"></a> msdyn_mlresultcache_AsyncOperations
 
 Same as asyncoperation entity [msdyn_mlresultcache_AsyncOperations](asyncoperation.md#BKMK_msdyn_mlresultcache_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -609,6 +611,7 @@ Same as asyncoperation entity [msdyn_mlresultcache_AsyncOperations](asyncoperati
 ### <a name="BKMK_msdyn_mlresultcache_MailboxTrackingFolders"></a> msdyn_mlresultcache_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_mlresultcache_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_mlresultcache_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -623,6 +626,7 @@ Same as mailboxtrackingfolder entity [msdyn_mlresultcache_MailboxTrackingFolders
 ### <a name="BKMK_msdyn_mlresultcache_UserEntityInstanceDatas"></a> msdyn_mlresultcache_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_mlresultcache_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_mlresultcache_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -637,6 +641,7 @@ Same as userentityinstancedata entity [msdyn_mlresultcache_UserEntityInstanceDat
 ### <a name="BKMK_msdyn_mlresultcache_ProcessSession"></a> msdyn_mlresultcache_ProcessSession
 
 Same as processsession entity [msdyn_mlresultcache_ProcessSession](processsession.md#BKMK_msdyn_mlresultcache_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -651,6 +656,7 @@ Same as processsession entity [msdyn_mlresultcache_ProcessSession](processsessio
 ### <a name="BKMK_msdyn_mlresultcache_BulkDeleteFailures"></a> msdyn_mlresultcache_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_mlresultcache_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_mlresultcache_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -665,6 +671,7 @@ Same as bulkdeletefailure entity [msdyn_mlresultcache_BulkDeleteFailures](bulkde
 ### <a name="BKMK_msdyn_mlresultcache_PrincipalObjectAttributeAccesses"></a> msdyn_mlresultcache_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_mlresultcache_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_mlresultcache_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

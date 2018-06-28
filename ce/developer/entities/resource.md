@@ -426,6 +426,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_Resource_SyncErrors"></a> Resource_SyncErrors
 
 Same as syncerror entity [Resource_SyncErrors](syncerror.md#BKMK_Resource_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -440,6 +441,7 @@ Same as syncerror entity [Resource_SyncErrors](syncerror.md#BKMK_Resource_SyncEr
 ### <a name="BKMK_Resource_AsyncOperations"></a> Resource_AsyncOperations
 
 Same as asyncoperation entity [Resource_AsyncOperations](asyncoperation.md#BKMK_Resource_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -454,6 +456,7 @@ Same as asyncoperation entity [Resource_AsyncOperations](asyncoperation.md#BKMK_
 ### <a name="BKMK_resource_MailboxTrackingFolders"></a> resource_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [resource_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_resource_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -468,6 +471,7 @@ Same as mailboxtrackingfolder entity [resource_MailboxTrackingFolders](mailboxtr
 ### <a name="BKMK_userentityinstancedata_resource"></a> userentityinstancedata_resource
 
 Same as userentityinstancedata entity [userentityinstancedata_resource](userentityinstancedata.md#BKMK_userentityinstancedata_resource) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -482,6 +486,7 @@ Same as userentityinstancedata entity [userentityinstancedata_resource](userenti
 ### <a name="BKMK_Resource_BulkDeleteFailures"></a> Resource_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [Resource_BulkDeleteFailures](bulkdeletefailure.md#BKMK_Resource_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -496,6 +501,7 @@ Same as bulkdeletefailure entity [Resource_BulkDeleteFailures](bulkdeletefailure
 ### <a name="BKMK_resource_PrincipalObjectAttributeAccesses"></a> resource_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [resource_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_resource_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

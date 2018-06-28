@@ -23,15 +23,15 @@ If you create an email message in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-
   
  If you are the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator, verify that the user who sent the email is enabled for sending email. To do this:  
   
-1.  Click **Settings**, and then click **Email Configuration**.  
+1. Click **Settings**, and then click **Email Configuration**.  
   
-2.  Click **Mailboxes**, and then change the view to **Active Mailboxes.**  
+2. Click **Mailboxes**, and then change the view to **Active Mailboxes.**  
   
-3.  Select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record for the user who sent the email, and then click the **Edit** button.  
+3. Select the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record for the user who sent the email, and then click the **Edit** button.  
   
-4.  Verify the user is correctly configured and enabled for sending email:  
+4. Verify the user is correctly configured and enabled for sending email:  
   
-    -   If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
+   - If the user’s [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] mailbox record is configured to use server-side synchronization for outgoing email, verify the user’s email address is approved and is also tested and enabled.  For more information about configuring server-side synchronization, see [set up server-side synchronization of email, appointments, contacts, and tasks](../admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks.md).  
   
 ### See also  
  [Integrate your email system with Microsoft Dynamics 365](../admin/integrate-synchronize-your-email-system.md)

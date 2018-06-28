@@ -59,7 +59,6 @@ OData-Version: 4.0
   "opportunityid@odata.bind": "[Organization URI]/api/data/v9.0/opportunities(b3828ac8-917a-e511-80d2-00155d2a68d2)"
  }
 }
-
 ```
 
  **Response**
@@ -171,7 +170,6 @@ OData-Version: 4.0
   <Parameter Name="NoteText" Type="Edm.String" Nullable="false" Unicode="false" />
   <ReturnType Type="mscrm.annotation" Nullable="false" />
 </Action>
-
 ```
 
  The following HTTP request and response shows how to call the custom action and the response it returns if successful.  

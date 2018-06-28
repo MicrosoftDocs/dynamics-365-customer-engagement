@@ -20,40 +20,42 @@ ms.author: "kvivek"
 [!INCLUDE[](../../includes/cc_applies_to_update_9_0_0.md)]
 
 This sample demonstrates how to perform conditional operations using [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Customer Engagement Web API and C#.  
-  
+
 > [!NOTE]
 >  This sample implements the Dynamics 365 operations and console output detailed in [Web API Conditional Operations Sample](web-api-conditional-operations-sample.md) and uses the common C# constructs described in [Web API Samples (C#)](web-api-samples-csharp.md).  
-  
+
 <a name="bkmk_Prereqs"></a>   
 ## Prerequisites  
  Prerequisites for all [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] Web API C# samples are detailed in the [Prerequisites](web-api-samples-csharp.md#bkmk_prerequisites) section of the parent topic [Web API Samples (C#)](web-api-samples-csharp.md).  
-  
+
 <a name="bkmk_RunSample"></a>   
 ## Run this sample  
  To run this sample:  
-  
-1.  Go to [Microsoft CRM Web API Conditional Operations Sample (C#)](http://go.microsoft.com/fwlink/p/?LinkId=824045) and download the Microsoft CRM Web API Conditional Operations Sample (CS).zip file, and extract the contents of the file to a folder on your computer. The extracted folder should contain the following files:  
-  
-    |File|Description|  
-    |----------|-----------------|  
-    |Program.cs|Contains the source code for this sample.|  
-    |App.config|The application configuration file, which contains placeholder [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server connection information.|  
-    |ConditionalOperations.sln<br /> ConditionalOperations.csproj<br /> Packages.config<br /> AssemblyInfo.cs|The standard [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] solution, project, NuGet package, and assembly information files for this sample.|  
-  
-2.  Double-click the ConditionalOperations.sln file to open the solution  in [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
-  
-3.  Build the solution (**Build** > **Build Solution**). This should automatically download and update all the required NuGet packages.  
-  
-4.  Edit the App.Config file in your solution to specify your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server instance against which you want this sample to run.  
-  
-5.  Run the project.  All sample projects are configured to run in debug mode by default.  
-  
-     The sample code output will be displayed in a console window.  
-  
+
+1. Go to [Microsoft CRM Web API Conditional Operations Sample (C#)](http://go.microsoft.com/fwlink/p/?LinkId=824045) and download the Microsoft CRM Web API Conditional Operations Sample (CS).zip file, and extract the contents of the file to a folder on your computer. The extracted folder should contain the following files:  
+
+
+   |                                                   File                                                   |                                                                                 Description                                                                                 |
+   |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |                                                Program.cs                                                |                                                                  Contains the source code for this sample.                                                                  |
+   |                                                App.config                                                |        The application configuration file, which contains placeholder [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server connection information.         |
+   | ConditionalOperations.sln<br /> ConditionalOperations.csproj<br /> Packages.config<br /> AssemblyInfo.cs | The standard [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)] solution, project, NuGet package, and assembly information files for this sample. |
+
+
+2. Double-click the ConditionalOperations.sln file to open the solution  in [!INCLUDE[pn_Visual_Studio_short](../../includes/pn-visual-studio-short.md)].  
+
+3. Build the solution (**Build** > **Build Solution**). This should automatically download and update all the required NuGet packages.  
+
+4. Edit the App.Config file in your solution to specify your [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server instance against which you want this sample to run.  
+
+5. Run the project.  All sample projects are configured to run in debug mode by default.  
+
+    The sample code output will be displayed in a console window.  
+
 <a name="bkmk_CodeSample"></a>   
 ## Code Sample  
  `Program.cs`  
-  
+
 ```csharp  
 using Microsoft.Crm.Sdk.Samples.HelperCode;  
 using Newtonsoft.Json;  
@@ -66,7 +68,7 @@ using System.Collections.Generic;
 using System.Net.Http;  
 using System.Net.Http.Headers;  
 using System.Threading.Tasks;  
-  
+
 namespace Microsoft.Crm.Sdk.Samples  
 {  
     /// <summary>  
@@ -96,7 +98,7 @@ namespace Microsoft.Crm.Sdk.Samples
         private string queryOptions;        // Select clause to filter the record retrievals  
         private string initialAcctETagVal;  // The initial ETag value of the account created     
         private string updatedAcctETagVal;  // The ETag value of the account after it is updated  
-  
+
         /// <summary>   
         /// Primary method that demonstrates Microsoft CRM Web API  
         /// Conditional operations.   
@@ -105,22 +107,22 @@ namespace Microsoft.Crm.Sdk.Samples
         {  
             HttpRequestMessage request;  
             HttpResponseMessage response;  
-  
+
             #region Conditional GET              
             Console.WriteLine("\n--Conditional GET section started--");  
             // Attempt to retrieve using conditional GET with current ETag value.  
             request = new HttpRequestMessage(HttpMethod.Get, accountUri + queryOptions);  
-  
+
             // Retrieve only if it doesn't match previously retrieved version.  
             request.Headers.Add("If-None-Match", initialAcctETagVal);  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.NotModified)  // 304; expected.  
             {  
                 Console.WriteLine("Instance retrieved using ETag: {0}", initialAcctETagVal);  
                 Console.WriteLine("Expected outcome: Entity was not modified so nothing was returned.");  
             }  
-  
+
             else if (response.StatusCode == HttpStatusCode.OK)  // 200; not expected  
             {  
                 Console.WriteLine("Instance retrieved using ETag: {0}", initialAcctETagVal);  
@@ -128,12 +130,12 @@ namespace Microsoft.Crm.Sdk.Samples
                     await response.Content.ReadAsStringAsync());  
                 Console.WriteLine(account.ToString(Formatting.Indented));  
             }  
-  
+
             else  
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             // Modify the account instance by updating telephone1  
             String accountPhoneUri = String.Format("{0}/{1}", accountUri, "telephone1");  
             JObject phoneProperty = new JObject();  
@@ -148,12 +150,12 @@ namespace Microsoft.Crm.Sdk.Samples
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             // Reattempt conditional GET with original ETag value.               
             request = new HttpRequestMessage(HttpMethod.Get, accountUri + queryOptions);  
             request.Headers.Add("If-None-Match", initialAcctETagVal);  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.OK) //200; expected  
             {  
                 Console.WriteLine("Instance retrieved using ETag: {0}", initialAcctETagVal);  
@@ -164,24 +166,24 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             // Retrieve and output current account state.  
             account = JsonConvert.DeserializeObject<JObject>(  
             await response.Content.ReadAsStringAsync());  
             updatedAcctETagVal = account["@odata.etag"].ToString(); // Capture updated ETag  
             Console.WriteLine(account.ToString(Formatting.Indented));  
-  
+
             #endregion Conditional GET  
-  
+
             #region Optimistic concurrency on delete and update  
             Console.WriteLine("\n--Optimistic concurrency section started--");  
-  
+
             // Attempt to delete original account (if matches original ETag value).  
             request = new HttpRequestMessage(HttpMethod.Delete, accountUri);  
             request.Headers.Add("If-Match", initialAcctETagVal); // If you replace "initialAcctETagVal" with "updatedAcctETagVal",   
                                                                  // delete will succeed.  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.PreconditionFailed) // 412; Precondition failed error expected  
             {  
                 Console.WriteLine("Expected Error: The version of the existing record doesn't match the property provided.");  
@@ -192,12 +194,12 @@ namespace Microsoft.Crm.Sdk.Samples
             {  
                 Console.WriteLine("Account deleted!");  
             }  
-  
+
             else  
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             //Attempt to update account (if matches original ETag value).  
             JObject accountUpdate = new JObject();  
             accountUpdate.Add("telephone1", "555-0002");  
@@ -207,7 +209,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Encoding.UTF8, "application/json");  
             request.Headers.Add("If-Match", initialAcctETagVal);  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.PreconditionFailed) // 412; //Precondition failed error expected  
             {  
                 Console.WriteLine("Expected Error: The version of the existing record doesn't match the property provided.");  
@@ -223,7 +225,7 @@ namespace Microsoft.Crm.Sdk.Samples
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             // Reattempt update if matches current ETag value.  
             accountUpdate["telephone1"] = "555-0003";  
             request = new HttpRequestMessage(new HttpMethod("PATCH"), accountUri);  
@@ -231,7 +233,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Encoding.UTF8, "application/json");  
             request.Headers.Add("If-Match", updatedAcctETagVal);  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.NoContent) // 204; expected  
             {  
                 Console.WriteLine("\nAccount successfully updated using ETag: {0}, status code: '{1}'.",  
@@ -245,28 +247,28 @@ namespace Microsoft.Crm.Sdk.Samples
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             // Retrieve and output current account state.  
             account = GetCurrentRecord(accountUri, queryOptions);  
             updatedAcctETagVal = account["@odata.etag"].ToString(); //Capture updated ETag  
             Console.WriteLine(account.ToString(Formatting.Indented));  
-  
+
             #endregion Optimistic concurrency on delete and update  
-  
+
             #region Controlling upsert operations  
             Console.WriteLine("\n--Controlling upsert operations section started--");  
             //Attempt to insert without update some properties for this account  
             accountUpdate = new JObject();  
             accountUpdate.Add("telephone1", "555-0004");  
             accountUpdate.Add("revenue", 7500000);  
-  
+
             request = new HttpRequestMessage(new HttpMethod("PATCH"), accountUri);  
             request.Content = new StringContent(accountUpdate.ToString(),  
                 Encoding.UTF8, "application/json");  
             //Perform operation only if matching resource does not exist.   
             request.Headers.Add("If-None-Match", "*");  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.PreconditionFailed) // 412; expected  
             {  
                 Console.WriteLine("Expected Error: A record with matching key values already exists.");  
@@ -277,12 +279,12 @@ namespace Microsoft.Crm.Sdk.Samples
             {  
                 Console.WriteLine("Account updated using If-None-Match '*'");  
             }  
-  
+
             else  
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             //Attempt to perform same update without creation.   
             accountUpdate["telephone1"] = "555-0005";  
             request = new HttpRequestMessage(new HttpMethod("PATCH"), accountUri);  
@@ -291,7 +293,7 @@ namespace Microsoft.Crm.Sdk.Samples
             //Perform operation only if matching resource exists.   
             request.Headers.Add("If-Match", "*");  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.NoContent)  // 204; expected  
             {  
                 Console.WriteLine("Account updated using If-Match '*'");  
@@ -303,11 +305,11 @@ namespace Microsoft.Crm.Sdk.Samples
             }  
             else  
             { throw new CrmHttpResponseException(response.Content); }  
-  
+
             //Retrieve and output current account state.  
             account = GetCurrentRecord(accountUri, queryOptions);  
             Console.WriteLine(account.ToString(Formatting.Indented));  
-  
+
             // Delete the account record  
             HttpResponseMessage deleteResponse;  
             deleteResponse = httpClient.DeleteAsync(accountUri).Result;  
@@ -325,17 +327,17 @@ namespace Microsoft.Crm.Sdk.Samples
                 // Throw last failure.  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             // Attempt to update it  
             accountUpdate["telephone1"] = "555-0006";  
             request = new HttpRequestMessage(new HttpMethod("PATCH"), accountUri);  
             request.Content = new StringContent(accountUpdate.ToString(),  
                 Encoding.UTF8, "application/json");  
-  
+
             // Perform operation only if matching resource exists.   
             request.Headers.Add("If-Match", "*");  
             response = await httpClient.SendAsync(request);  
-  
+
             if (response.StatusCode == HttpStatusCode.PreconditionFailed ||  
                      response.StatusCode == HttpStatusCode.NotFound)  // 412 or 404; expected  
             {  
@@ -351,10 +353,10 @@ namespace Microsoft.Crm.Sdk.Samples
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             #endregion Controlling upsert operations  
         }  
-  
+
         /// <summary> Main method for the ConditionalOperations project. </summary>  
         /// <param name="args">  
         /// Command line arguments, first is the optional connection string name.  
@@ -381,7 +383,7 @@ namespace Microsoft.Crm.Sdk.Samples
                 Console.ReadLine();  
             }  
         }  
-  
+
         /// <summary>  
         /// Obtains the connection information from the application's configuration file,  
         /// and uses this info to connect to the specified CRM service.  
@@ -396,13 +398,13 @@ namespace Microsoft.Crm.Sdk.Samples
                 config = new FileConfiguration(cmdargs[0]);  
             else  
                 config = new FileConfiguration(null);  
-  
+
             // Create a helper object to authenticate the user with this connection info.  
             Authentication auth = new Authentication(config);  
-  
+
             // Next use a HttpClient object to connect to specified CRM Web service.  
             httpClient = new HttpClient(auth.ClientHandler, true);  
-  
+
             // Define the Web API base address, the max period of execute time, the   
             // default OData version, and the default response payload format.  
             httpClient.BaseAddress = new Uri(config.ServiceUrl + "api/data/v8.1/");  
@@ -412,7 +414,7 @@ namespace Microsoft.Crm.Sdk.Samples
             httpClient.DefaultRequestHeaders.Accept.Add(  
                 new MediaTypeWithQualityHeaderValue("application/json"));  
         }  
-  
+
         /// <summary> Creates the CRM entity instance used by this sample. </summary>  
         private void CreateRequiredRecords()  
         {  
@@ -433,7 +435,7 @@ namespace Microsoft.Crm.Sdk.Samples
             {  
                 throw new CrmHttpResponseException(response.Content);  
             }  
-  
+
             // Retrieve the account record you created.  
             queryOptions = "?$select=name,revenue,telephone1,description";  
             account = GetCurrentRecord(accountUri, queryOptions);  
@@ -441,7 +443,7 @@ namespace Microsoft.Crm.Sdk.Samples
             Console.WriteLine(account.ToString(Formatting.Indented));  
             initialAcctETagVal = account["@odata.etag"].ToString();  
         }  
-  
+
         /// <summary>   
         /// Returns the current state of the specified entity, using the specified query criteria.   
         /// </summary>  
@@ -466,7 +468,7 @@ namespace Microsoft.Crm.Sdk.Samples
             { throw new CrmHttpResponseException(response.Content); }  
             return entity;  
         }  
-  
+
         /// <summary> Sends an HTTP message containing a JSON payload to the target URL. </summary>  
         /// <typeparam name="T">Type of the data to send in the message content (payload)</typeparam>  
         /// <param name="client">A preconfigured HTTP client</param>  
@@ -491,7 +493,7 @@ namespace Microsoft.Crm.Sdk.Samples
             request.Content.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json");  
             return await client.SendAsync(request);  
         }  
-  
+
         /// <summary> Displays exception information to the console. </summary>  
         /// <param name="ex">The exception to output</param>  
         private static void DisplayException(Exception ex)  
@@ -507,7 +509,7 @@ namespace Microsoft.Crm.Sdk.Samples
     }  
 }  
 ```  
-  
+
 ### See also  
  [Use the Dynamics 365 Web API](../use-microsoft-dynamics-365-web-api.md)   
  [Perform conditional operations using the Web API](perform-conditional-operations-using-web-api.md)   

@@ -921,6 +921,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_userentityinstancedata_queueitem"></a> userentityinstancedata_queueitem
 
 Same as userentityinstancedata entity [userentityinstancedata_queueitem](userentityinstancedata.md#BKMK_userentityinstancedata_queueitem) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -935,6 +936,7 @@ Same as userentityinstancedata entity [userentityinstancedata_queueitem](userent
 ### <a name="BKMK_QueueItem_AsyncOperations"></a> QueueItem_AsyncOperations
 
 Same as asyncoperation entity [QueueItem_AsyncOperations](asyncoperation.md#BKMK_QueueItem_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -949,6 +951,7 @@ Same as asyncoperation entity [QueueItem_AsyncOperations](asyncoperation.md#BKMK
 ### <a name="BKMK_QueueItem_SyncErrors"></a> QueueItem_SyncErrors
 
 Same as syncerror entity [QueueItem_SyncErrors](syncerror.md#BKMK_QueueItem_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -963,6 +966,7 @@ Same as syncerror entity [QueueItem_SyncErrors](syncerror.md#BKMK_QueueItem_Sync
 ### <a name="BKMK_QueueItem_BulkDeleteFailures"></a> QueueItem_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [QueueItem_BulkDeleteFailures](bulkdeletefailure.md#BKMK_QueueItem_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -977,6 +981,7 @@ Same as bulkdeletefailure entity [QueueItem_BulkDeleteFailures](bulkdeletefailur
 ### <a name="BKMK_queueitem_principalobjectattributeaccess"></a> queueitem_principalobjectattributeaccess
 
 Same as principalobjectattributeaccess entity [queueitem_principalobjectattributeaccess](principalobjectattributeaccess.md#BKMK_queueitem_principalobjectattributeaccess) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -991,6 +996,7 @@ Same as principalobjectattributeaccess entity [queueitem_principalobjectattribut
 ### <a name="BKMK_QueueItem_ProcessSessions"></a> QueueItem_ProcessSessions
 
 Same as processsession entity [QueueItem_ProcessSessions](processsession.md#BKMK_QueueItem_ProcessSessions) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|

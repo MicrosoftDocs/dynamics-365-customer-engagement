@@ -106,11 +106,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### AddressTypeCode Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_City"></a> City
 
@@ -379,11 +377,9 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 #### ShippingMethodCode Options
 
-|Value|Label|
-|-----|-----|
-
-
-
+| Value | Label |
+|-------|-------|
+|       |       |
 
 ### <a name="BKMK_StateOrProvince"></a> StateOrProvince
 
@@ -905,6 +901,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_LeadAddress_SyncErrors"></a> LeadAddress_SyncErrors
 
 Same as syncerror entity [LeadAddress_SyncErrors](syncerror.md#BKMK_LeadAddress_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -919,6 +916,7 @@ Same as syncerror entity [LeadAddress_SyncErrors](syncerror.md#BKMK_LeadAddress_
 ### <a name="BKMK_leadaddress_AsyncOperations"></a> leadaddress_AsyncOperations
 
 Same as asyncoperation entity [leadaddress_AsyncOperations](asyncoperation.md#BKMK_leadaddress_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -933,6 +931,7 @@ Same as asyncoperation entity [leadaddress_AsyncOperations](asyncoperation.md#BK
 ### <a name="BKMK_leadaddress_MailboxTrackingFolders"></a> leadaddress_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [leadaddress_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_leadaddress_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -947,6 +946,7 @@ Same as mailboxtrackingfolder entity [leadaddress_MailboxTrackingFolders](mailbo
 ### <a name="BKMK_userentityinstancedata_leadaddress"></a> userentityinstancedata_leadaddress
 
 Same as userentityinstancedata entity [userentityinstancedata_leadaddress](userentityinstancedata.md#BKMK_userentityinstancedata_leadaddress) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -961,6 +961,7 @@ Same as userentityinstancedata entity [userentityinstancedata_leadaddress](usere
 ### <a name="BKMK_leadaddress_BulkDeleteFailures"></a> leadaddress_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [leadaddress_BulkDeleteFailures](bulkdeletefailure.md#BKMK_leadaddress_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -975,6 +976,7 @@ Same as bulkdeletefailure entity [leadaddress_BulkDeleteFailures](bulkdeletefail
 ### <a name="BKMK_leadaddress_PrincipalObjectAttributeAccesses"></a> leadaddress_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [leadaddress_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_leadaddress_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

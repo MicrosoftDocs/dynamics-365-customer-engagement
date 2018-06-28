@@ -26,35 +26,35 @@ Admins for [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.
   
 > [!TIP]
 >  To determine your revision of [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)], in the upper-right corner of your [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] screen, choose the **Settings** gear (![User settings button](../admin/media/user-settings-button.png "User settings button")) > **About**.  
->   
+> 
 >  Your revision should be 2040 or above for both numbers highlighted.  
   
  ![Dynamics 365 (online) revision version](../admin/media/revision-version.png "Dynamics 365 (online) revision version")  
   
  To create a simple custom view to see the delegated admin user:  
   
-1.  Go to **Settings** > **Security** > **Users**.  
+1. Go to **Settings** > **Security** > **Users**.  
   
-2.  Choose **Select a view** (![Drop-down button](../admin/media/dropdown-button.png "Drop-down button")) and then choose **Create Personal View**.  
+2. Choose **Select a view** (![Drop-down button](../admin/media/dropdown-button.png "Drop-down button")) and then choose **Create Personal View**.  
   
-3.  Verify **Users** is selected in **Look for**.  
+3. Verify **Users** is selected in **Look for**.  
   
-4.  Choose **User** > **Contains Data**, and then choose **Results**.  
+4. Choose **User** > **Contains Data**, and then choose **Results**.  
   
- ![Create a custom user view](../admin/media/user-custom-view.png "Create a custom user view")  
+   ![Create a custom user view](../admin/media/user-custom-view.png "Create a custom user view")  
   
- Delegated Admin will appear in the list of users.  
+   Delegated Admin will appear in the list of users.  
   
- ![Delegated admin appears in user list](../admin/media/delegated-admin-user.png "Delegated admin appears in user list")  
+   ![Delegated admin appears in user list](../admin/media/delegated-admin-user.png "Delegated admin appears in user list")  
   
 ## How to get authorized as a delegated admin  
  [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] partners can be authorized to be delegated admins for a company in several ways:  
   
-1.  A partner can offer the customer to become a delegated admin for their account by sending a link to the delegated admin offer. The customer will need to accept and sign in with their [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] credentials.  
+1. A partner can offer the customer to become a delegated admin for their account by sending a link to the delegated admin offer. The customer will need to accept and sign in with their [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)]/[!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] credentials.  
   
-2.  A partner can send the customer a purchase offer link with delegated admin selected as part of the offer. The customer will need to sign up for the offer and accept the delegated admin offer.  
+2. A partner can send the customer a purchase offer link with delegated admin selected as part of the offer. The customer will need to sign up for the offer and accept the delegated admin offer.  
   
-3.  A partner can create a trial invitation link to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and invite the customer to the trial via a link in email or a link on the partner’s website. The trial invitation can include delegated admin if the prospect chooses to accept.  
+3. A partner can create a trial invitation link to [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] and invite the customer to the trial via a link in email or a link on the partner’s website. The trial invitation can include delegated admin if the prospect chooses to accept.  
   
 ## Related information  
  Review the following for more information on partners and delegated admins.  

@@ -56,7 +56,7 @@ To help you with consent management and other GDPR related workloads, [!INCLUDE[
 - A default collection of hierarchical consent levels is provided out of the box, where higher levels of consent include lower levels.
 - Contact records include a field that stores the level of consent each contact has granted your organization.
 - You can configure each customer journey to only process contacts that have given a minimum-required level of consent.
--  You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
+- You can configure each lead-scoring model to only compute scores for leads associated with contacts that have given a minimum-required level of consent.
 - You can create marketing pages with marketing forms that encourage contacts to grant a level of consent while being unambiguously informed. The consent is stored in each contact's record.
 - You’ll be able to use various mechanics in [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] to extract all information related to a specific contact and share relevant information with that contact when requested.
 - You'll be able to use mechanics to have [!INCLUDE[pn-microsoftcrm](../includes/pn-dynamics-365.md)] "forget" (delete) all information about a specific contact when requested.

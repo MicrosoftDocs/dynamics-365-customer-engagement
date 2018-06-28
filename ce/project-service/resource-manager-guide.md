@@ -29,35 +29,35 @@ The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 
   
  Resource scheduling helps you do the following:  
   
--   Match resources to projects, based on how well their skills and proficiency levels match the project resource requirements.  
+- Match resources to projects, based on how well their skills and proficiency levels match the project resource requirements.  
   
--   Match a resource’s schedule to a project calendar, based on their availability and scheduled time off. The color-coded calendar gives you visual cues about resource availability.  
+- Match a resource’s schedule to a project calendar, based on their availability and scheduled time off. The color-coded calendar gives you visual cues about resource availability.  
   
--   Review the capacity of each consultant and determine how that capacity is currently used. This can help you find where a consultant might be under- or over-utilized, or if they’re working at capacity.  
+- Review the capacity of each consultant and determine how that capacity is currently used. This can help you find where a consultant might be under- or over-utilized, or if they’re working at capacity.  
   
--   Assign a percentage or a specific number of hours for a worker’s capacity to a project.  
+- Assign a percentage or a specific number of hours for a worker’s capacity to a project.  
   
--   Make group resource bookings.  
+- Make group resource bookings.  
   
--   Soft book or hard book resources, and convert soft-booked hours into hard-booked hours in one step.  
+- Soft book or hard book resources, and convert soft-booked hours into hard-booked hours in one step.  
   
--   Automatically form a project team based on resources defined in a work breakdown structure for a project.  
+- Automatically form a project team based on resources defined in a work breakdown structure for a project.  
   
--   Fulfill resource requests (book, propose, find substitute resources).  
+- Fulfill resource requests (book, propose, find substitute resources).  
   
--   Assign resources according to a central (resource manager assigns) or hybrid model (resource manager and other managers can assign). For more information about setting a central versus hybrid resource management model, see [Configure additional parameters settings (Project Service Automation)](../project-service/configure-additional-parameters-settings.md).  
+- Assign resources according to a central (resource manager assigns) or hybrid model (resource manager and other managers can assign). For more information about setting a central versus hybrid resource management model, see [Configure additional parameters settings (Project Service Automation)](../project-service/configure-additional-parameters-settings.md).  
   
- You can manage resources efficiently across projects and ensure that projects are staffed appropriately. You’ll need to perform the following tasks:  
+  You can manage resources efficiently across projects and ensure that projects are staffed appropriately. You’ll need to perform the following tasks:  
   
--   [Manage resource requests](../project-service/manage-resource-requests.md). Match the skills and proficiencies of your consultants to the right projects.  
+- [Manage resource requests](../project-service/manage-resource-requests.md). Match the skills and proficiencies of your consultants to the right projects.  
   
--   [View resource availability](../project-service/view-resource-availability.md). Check consultants’ availability in a calendar view.  
+- [View resource availability](../project-service/view-resource-availability.md). Check consultants’ availability in a calendar view.  
   
--   [View resource utilization](../project-service/view-resource-utilization.md). See the percentage of time that your consultants are currently booked.  
+- [View resource utilization](../project-service/view-resource-utilization.md). See the percentage of time that your consultants are currently booked.  
   
--   [Schedule resources for a project](../project-service/schedule-resources-project.md). Schedule consultants for a project.  
+- [Schedule resources for a project](../project-service/schedule-resources-project.md). Schedule consultants for a project.  
   
- For more information about submitting resource requests for individual projects, see [Submit resource requests](../project-service/submit-resource-requests.md).  
+  For more information about submitting resource requests for individual projects, see [Submit resource requests](../project-service/submit-resource-requests.md).  
   
 ### See Also  
  [Overview of Project Service Automation](../project-service/overview.md)   

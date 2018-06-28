@@ -30,9 +30,9 @@ This topic contains a table that lists the message and entity combinations that 
   
 > [!NOTE]
 >  The `SDK\Message-entity support for plug-ins.xlsx` file in the download is more up-to-date than the tables provided below. Refer to that file for the latest changes.  
->   
+> 
 >  The term *offline* applies to the [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)]. The term *client* can apply to either [!INCLUDE[pn_crm_outlook_online](../includes/pn-crm-outlook-online.md)] or [!INCLUDE[pn_crm_outlook_offline_access](../includes/pn-crm-outlook-offline-access.md)].  
->   
+> 
 >  Whether a message is available online or offline can be determined programmatically by inspecting the `SdkMessage.Availability` attribute. [!INCLUDE[metadata_browser](../includes/metadata-browser.md)]  
   
 <a name="orgowned"></a>   

@@ -9,4 +9,4 @@ You don't need to activate the webinar feature to use the rest of the event-mana
 - [!INCLUDE[pn-azure-service-fabric](../includes/pn-azure-service-fabric.md)] ([!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Overview of Azure Service Fabric](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-overview))
   - Processes and sends registration data and webinar account credentials to ON24
   - Retrieves webinar metrics from On24 to [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)]
-  -Stores customer’s ON24 account credentials (custom encrypted)
+    -Stores customer’s ON24 account credentials (custom encrypted)

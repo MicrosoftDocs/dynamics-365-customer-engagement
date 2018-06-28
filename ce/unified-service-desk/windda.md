@@ -27,17 +27,17 @@ manager: sakudes
 ## WinDDA tags and events  
  The WinDDA consists of the following tags that are used to define a control:  
   
--   [AccControl Tag](../unified-service-desk/acccontrol-tag.md)  
+- [AccControl Tag](../unified-service-desk/acccontrol-tag.md)  
   
--   [ACCSelector Tag](../unified-service-desk/acc-selector-tag.md)  
+- [ACCSelector Tag](../unified-service-desk/acc-selector-tag.md)  
   
--   [Next Tag](../unified-service-desk/next-tag-windda.md)  
+- [Next Tag](../unified-service-desk/next-tag-windda.md)  
   
--   [FindWindow Tag](../unified-service-desk/find-window-tag.md)  
+- [FindWindow Tag](../unified-service-desk/find-window-tag.md)  
   
- The following topic provides information about the events that the WinDDA supports:  
+  The following topic provides information about the events that the WinDDA supports:  
   
--   [WinDDA events](../unified-service-desk/win-dda-events.md)  
+- [WinDDA events](../unified-service-desk/win-dda-events.md)  
   
 ### See also  
  [Use Data Driven Adapters](../unified-service-desk/use-data-driven-adapters-ddas.md)   

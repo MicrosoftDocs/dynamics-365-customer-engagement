@@ -26,10 +26,10 @@ Portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.m
 
 ## Get started
 
-  - [Review the updates](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases) that have been made to    portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, along with other information pertinent to those updates.
-  - Get the [latest list of features](monthly-updates-portals.md) added to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
-  - [Provision a portal](provision-portal.md) and link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain.
-  - [Configure portals](configure-portal.md) and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
-  - [Manage portal content](manage-portal-content.md) to create a helpful environment to foster discussion.
-  - [Customize content](customize-content-snippets.md) to populate any section of a page's layout.
+- [Review the updates](https://support.microsoft.com/help/3181191/portal-capabilities-for-microsoft-dynamics-365-releases) that have been made to    portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] to date, along with other information pertinent to those updates.
+- Get the [latest list of features](monthly-updates-portals.md) added to portal capabilities for [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+- [Provision a portal](provision-portal.md) and link your [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] portal to a custom domain.
+- [Configure portals](configure-portal.md) and customize [!INCLUDE[pn-microsoftcrm](../includes/pn-microsoftcrm.md)].
+- [Manage portal content](manage-portal-content.md) to create a helpful environment to foster discussion.
+- [Customize content](customize-content-snippets.md) to populate any section of a page's layout.
 

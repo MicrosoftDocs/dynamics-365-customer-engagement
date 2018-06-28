@@ -31,15 +31,15 @@ This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../
 
  The following are required to use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)]:  
   
--   [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md).  
+- [Configure server-based authentication with Dynamics 365 (online) and SharePoint Online](configure-server-based-authentication-sharepoint-online.md).  
   
--   A [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] license for each user. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What is OneDrive for Business?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)  
+- A [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] license for each user. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [What is OneDrive for Business?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)  
   
--   A [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] license for each user. Users with a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] license can use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. For [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscriptions come with [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] licenses.  
+- A [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] license for each user. Users with a [!INCLUDE[pn_SharePoint_short](../includes/pn-sharepoint-short.md)] license can use [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)]. For [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] subscriptions come with [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)] licenses.  
   
 - [!INCLUDE[cc_Office365PlanRequirement](../includes/cc-office365planrequirement.md)]  
   
--   Before using [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator and end users should access [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] through the web interface. For example, if you’re using [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], go to **https://portal.office.com** > **app launcher**![Office 365 app launcher](../admin/media/crm-itpro-officeapplauncher.png "Office 365 app launcher") > **OneDrive**. The site and other information required by [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to enable [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] integration gets created only when the site is accessed.  
+- Before using [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)], the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] administrator and end users should access [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] through the web interface. For example, if you’re using [!INCLUDE[pn_sharepoint_online](../includes/pn-sharepoint-online.md)], go to **<https://portal.office.com>** > **app launcher**![Office 365 app launcher](../admin/media/crm-itpro-officeapplauncher.png "Office 365 app launcher") > **OneDrive**. The site and other information required by [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] to enable [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] integration gets created only when the site is accessed.  
   
 ## Enable OneDrive for Business  
  You can enable [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] as follows.  
@@ -51,13 +51,13 @@ This feature was introduced in [!INCLUDE[pn_crm_online_2016_update_shortest](../
 ## Controlling access to OneDrive for Business in Dynamics 365  
  You can toggle availability of [!INCLUDE[pn_onedrive](../includes/pn-onedrive.md)] in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for end users through the **OneDrive for Business** privilege.  
   
-1.  Click **Settings** > **Security** > **Security Roles**.  
+1. Click **Settings** > **Security** > **Security Roles**.  
   
-2.  Select a security role, and then click the **Core Records** tab.  
+2. Select a security role, and then click the **Core Records** tab.  
   
-3.  Under **Miscellaneous Privileges**, toggle the **OneDrive for Business** privilege to the desired availability.  
+3. Under **Miscellaneous Privileges**, toggle the **OneDrive for Business** privilege to the desired availability.  
   
- ![Toggle availability of OneDrive for Business](../admin/media/crm-itpro-onedriveforbusn-priv.png "Toggle availability of OneDrive for Business")  
+   ![Toggle availability of OneDrive for Business](../admin/media/crm-itpro-onedriveforbusn-priv.png "Toggle availability of OneDrive for Business")  
   
 ### See also  
  [Enable OneDrive for Business (on-premises)](connect-onedrive-business.md)   

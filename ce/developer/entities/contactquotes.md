@@ -212,6 +212,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_contactquotes_AsyncOperations"></a> contactquotes_AsyncOperations
 
 Same as asyncoperation entity [contactquotes_AsyncOperations](asyncoperation.md#BKMK_contactquotes_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -226,6 +227,7 @@ Same as asyncoperation entity [contactquotes_AsyncOperations](asyncoperation.md#
 ### <a name="BKMK_contactquotes_MailboxTrackingFolders"></a> contactquotes_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [contactquotes_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_contactquotes_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -240,6 +242,7 @@ Same as mailboxtrackingfolder entity [contactquotes_MailboxTrackingFolders](mail
 ### <a name="BKMK_contactquotes_UserEntityInstanceDatas"></a> contactquotes_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [contactquotes_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_contactquotes_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -254,6 +257,7 @@ Same as userentityinstancedata entity [contactquotes_UserEntityInstanceDatas](us
 ### <a name="BKMK_contactquotes_BulkDeleteFailures"></a> contactquotes_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [contactquotes_BulkDeleteFailures](bulkdeletefailure.md#BKMK_contactquotes_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -268,6 +272,7 @@ Same as bulkdeletefailure entity [contactquotes_BulkDeleteFailures](bulkdeletefa
 ### <a name="BKMK_contactquotes_PrincipalObjectAttributeAccesses"></a> contactquotes_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [contactquotes_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_contactquotes_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|

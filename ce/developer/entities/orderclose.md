@@ -1735,6 +1735,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_orderclose_activity_parties"></a> orderclose_activity_parties
 
 Same as activityparty entity [orderclose_activity_parties](activityparty.md#BKMK_orderclose_activity_parties) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activityparty|
@@ -1749,6 +1750,7 @@ Same as activityparty entity [orderclose_activity_parties](activityparty.md#BKMK
 ### <a name="BKMK_CampaignResponse_OrderCloses"></a> CampaignResponse_OrderCloses
 
 Same as campaignresponse entity [CampaignResponse_OrderCloses](campaignresponse.md#BKMK_CampaignResponse_OrderCloses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|campaignresponse|
@@ -1763,6 +1765,7 @@ Same as campaignresponse entity [CampaignResponse_OrderCloses](campaignresponse.
 ### <a name="BKMK_OrderClose_SyncErrors"></a> OrderClose_SyncErrors
 
 Same as syncerror entity [OrderClose_SyncErrors](syncerror.md#BKMK_OrderClose_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -1777,6 +1780,7 @@ Same as syncerror entity [OrderClose_SyncErrors](syncerror.md#BKMK_OrderClose_Sy
 ### <a name="BKMK_OrderClose_AsyncOperations"></a> OrderClose_AsyncOperations
 
 Same as asyncoperation entity [OrderClose_AsyncOperations](asyncoperation.md#BKMK_OrderClose_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -1791,6 +1795,7 @@ Same as asyncoperation entity [OrderClose_AsyncOperations](asyncoperation.md#BKM
 ### <a name="BKMK_orderclose_MailboxTrackingFolders"></a> orderclose_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [orderclose_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_orderclose_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -1805,6 +1810,7 @@ Same as mailboxtrackingfolder entity [orderclose_MailboxTrackingFolders](mailbox
 ### <a name="BKMK_userentityinstancedata_orderclose"></a> userentityinstancedata_orderclose
 
 Same as userentityinstancedata entity [userentityinstancedata_orderclose](userentityinstancedata.md#BKMK_userentityinstancedata_orderclose) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -1819,6 +1825,7 @@ Same as userentityinstancedata entity [userentityinstancedata_orderclose](useren
 ### <a name="BKMK_OrderClose_BulkDeleteFailures"></a> OrderClose_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [OrderClose_BulkDeleteFailures](bulkdeletefailure.md#BKMK_OrderClose_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -1833,6 +1840,7 @@ Same as bulkdeletefailure entity [OrderClose_BulkDeleteFailures](bulkdeletefailu
 ### <a name="BKMK_orderclose_PrincipalObjectAttributeAccesses"></a> orderclose_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [orderclose_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_orderclose_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -1847,6 +1855,7 @@ Same as principalobjectattributeaccess entity [orderclose_PrincipalObjectAttribu
 ### <a name="BKMK_OrderClose_Annotation"></a> OrderClose_Annotation
 
 Same as annotation entity [OrderClose_Annotation](annotation.md#BKMK_OrderClose_Annotation) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|

@@ -46,27 +46,27 @@ Editable grid is a custom control in [!INCLUDE[pn_dynamics_crm](../../includes/p
   
  On the web client, an entity will support editable grid if all of the following conditions are true:  
   
--   The entity is customizable (IsCustomizable = true)  
+- The entity is customizable (IsCustomizable = true)  
   
--   The entity is either refreshed (IsAIRUpdated = true) or a custom entity (IsCustomEntity = true)  
+- The entity is either refreshed (IsAIRUpdated = true) or a custom entity (IsCustomEntity = true)  
   
--   The entity is not a child entity (IsChildEntity = false)  
+- The entity is not a child entity (IsChildEntity = false)  
   
- On the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] mobile client, an entity will support editable grid if the entity can be displayed in the mobile client's site map.  
+  On the [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] mobile client, an entity will support editable grid if the entity can be displayed in the mobile client's site map.  
   
- For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
+  For information about the entities that support editable grids, see **Supported out-of-the-box entities** section in [Make grids (lists) editable in Dynamics 365 using the Editable Grid custom control](../../customize/make-grids-lists-editable-custom-control.md)  
   
- Editable grids do not support roll up associated views (**Rollup type** = `Related`).  
+  Editable grids do not support roll up associated views (**Rollup type** = `Related`).  
   
- Use the following sample code to generate an XML file that you can open in [!INCLUDE[pn_microsoft_excel](../../includes/pn-microsoft-excel.md)] as an XML table to view the entity-support information for editable controls. [!INCLUDE[pn_Excel_short](../../includes/pn-excel-short.md)] will figure out the schema automatically, and display the information under the following columns:  
+  Use the following sample code to generate an XML file that you can open in [!INCLUDE[pn_microsoft_excel](../../includes/pn-microsoft-excel.md)] as an XML table to view the entity-support information for editable controls. [!INCLUDE[pn_Excel_short](../../includes/pn-excel-short.md)] will figure out the schema automatically, and display the information under the following columns:  
   
--   `LogicalName`: Logical name of entity.  
+- `LogicalName`: Logical name of entity.  
   
--   `DisplayName`: Display name of entity.  
+- `DisplayName`: Display name of entity.  
   
--   `CanEnableEditableGridWeb`: Displays status  (True or False) whether editable grid is supported for the entity  on the web client.  
+- `CanEnableEditableGridWeb`: Displays status  (True or False) whether editable grid is supported for the entity  on the web client.  
   
--   `CanEnableEditableGridMobile`: Displays status (True or False) whether editable grid is supported for the entity on mobile clients. ([!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)]).  
+- `CanEnableEditableGridMobile`: Displays status (True or False) whether editable grid is supported for the entity on mobile clients. ([!INCLUDE[pn_Mobile_Express_short](../../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../../includes/pn-moca-short.md)]).  
   
 ```csharp  
 using System;  

@@ -48,12 +48,12 @@ Follow these steps to add Dynamics 365 to your Microsoft Teams app.
     ![Select Open](media/select-open.png "Select Open")
 
 6. Select **Login** and sign in with your **Dynamics 365** credentials.
-7. Select the **Settings** tab.​
-8. Under **Org Name**, select an organization. ​
-    Note: only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed.​
-9. Under **App Module**, select the app module from which to build a dashboard. ​
-    Note: only app modules licensed for the selected organization are listed.​
-10. Select **Save**.​
+7. Select the **Settings** tab. 
+8. Under **Org Name**, select an organization.  
+    Note: only Dynamics 365 version 9.x or later organizations appear in the list. Also, only active organizations (those that are not disabled or provisioning) are displayed. 
+9. Under **App Module**, select the app module from which to build a dashboard.  
+    Note: only app modules licensed for the selected organization are listed. 
+10. Select **Save**. 
 
 ![Configure Settings](../admin/media/select-org-app-module-save.png "Configure Settings")
 
@@ -66,12 +66,13 @@ Your privacy is important to us! You can remove Dynamics 365 app personal data f
 
 The following data is stored with Dynamics 365 integration with Microsoft Teams.
 
-|Data  |Description | Data classification   |Example |
-|---------|---------|---------|-------|
-|User ID     |The user's Azure Active Directory object ID |EndUsePseudonymousIdentifiers<br/>(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer.|<ul><li>User GUIDs, PUIDs, or SIDs</li><br/><li>Session IDs</li><ul> |
-|Tenant ID     |The Azure Active Directory ID of user's tenant| OrganizationIdentifiableInformation<br/>(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.         |<ul><li>Tenant ID (non-GUID)</li><br/><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
-|Org URL     |The URL of the Dynamics 365 org |OrganizationIdentifiableInformation<br />(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.         |<ul><li>Tenant ID (non-GUID)</li><br/><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
-|App module ID     |The ID of app module selected to show in the dashboard|EndUsePseudonymousIdentifiers         <br/>(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer.        |<ul><li>User GUIDs, PUIDs, or SIDs</li><br/><li>Session IDs</li><ul> |
+
+|     Data      |                      Description                       |                                                                                                                                           Data classification                                                                                                                                           |                                                                    Example                                                                     |
+|---------------|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
+|    User ID    |      The user's Azure Active Directory object ID       |     EndUsePseudonymousIdentifiers<br/>(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer.      |                                      <ul><li>User GUIDs, PUIDs, or SIDs</li><br/><li>Session IDs</li><ul>                                      |
+|   Tenant ID   |     The Azure Active Directory ID of user's tenant     |                                                  OrganizationIdentifiableInformation<br/>(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.                                                   | <ul><li>Tenant ID (non-GUID)</li><br/><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
+|    Org URL    |            The URL of the Dynamics 365 org             |                                                  OrganizationIdentifiableInformation<br />(OII) Data that can be used to identify a tenant, generally config or usage data. This data is not linkable to a user and does not contain Customer content.                                                  | <ul><li>Tenant ID (non-GUID)</li><br/><li>Domain name in e-mail address (xxx@contoso.com) or other tenant-specific domain information</li><ul> |
+| App module ID | The ID of app module selected to show in the dashboard | EndUsePseudonymousIdentifiers         <br/>(EUPI) An identifier created by Microsoft tied to the user of a Microsoft service. When EUPI is combined with other information, such as a mapping table, it identifies the end user. EUPI does not contain information uploaded or created by the customer. |                                      <ul><li>User GUIDs, PUIDs, or SIDs</li><br/><li>Session IDs</li><ul>                                      |
 
 You can [contact support](contact-technical-support.md) to request data deletion. Run the following Windows PowerShell commands to gather the information needed by Dynamics 365 support.
 

@@ -22,12 +22,12 @@ You can invite respondents to take part in a [!INCLUDE[pn-voice-of-the-customer-
   
 - **Non-anonymous**.   You send survey invites to specific contacts, accounts, or leads in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)].  
   
-||Media|Trigger|Invitation can be piped|Response in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]|Comments|  
-|-|-----------|-------------|-----------------------------|---------------------------------------------------------------------------------|--------------|  
-|**Anonymous**|Any|Any|No|Create lead||  
-|**Email templates**|Email|Direct email<br /><br /> Workflow<br /><br /> Campaign<br /><br /> Quick campaign<br /><br /> Email merge<br /><br /> Manual email|Yes|Account<br /><br /> Contact<br /><br /> Lead<br /><br /> Regarding|Need to create an email template for each survey|  
-|**Email**|Email|Workflow<br /><br /> Campaign<br /><br /> Quick campaign<br /><br /> Manual email|Yes (for workflows)|Account<br /><br /> Contact<br /><br /> Lead<br /><br /> Regarding||  
-|**Invitations only**|For subsequent use with any media|Any|Yes (for workflows)|Account<br /><br /> Contact<br /><br /> Lead<br /><br /> Regarding|Useful for integration with third-party email providers|  
+|                      |               Media               |                                                              Trigger                                                               | Invitation can be piped | Response in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] |                        Comments                         |
+|----------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------------------------------------------------------|---------------------------------------------------------|
+|    **Anonymous**     |                Any                |                                                                Any                                                                 |           No            |                               Create lead                               |                                                         |
+| **Email templates**  |               Email               | Direct email<br /><br /> Workflow<br /><br /> Campaign<br /><br /> Quick campaign<br /><br /> Email merge<br /><br /> Manual email |           Yes           |   Account<br /><br /> Contact<br /><br /> Lead<br /><br /> Regarding    |    Need to create an email template for each survey     |
+|      **Email**       |               Email               |                         Workflow<br /><br /> Campaign<br /><br /> Quick campaign<br /><br /> Manual email                          |   Yes (for workflows)   |   Account<br /><br /> Contact<br /><br /> Lead<br /><br /> Regarding    |                                                         |
+| **Invitations only** | For subsequent use with any media |                                                                Any                                                                 |   Yes (for workflows)   |   Account<br /><br /> Contact<br /><br /> Lead<br /><br /> Regarding    | Useful for integration with third-party email providers |
   
 ### Anonymous surveys  
  If you configure your survey to allow anonymous respondents, you can copy the survey URL and paste it from the survey to the medium you want to send it with. You can send it in email, post it on social media sites like [!INCLUDE[tn_twitter](../includes/tn-twitter.md)] or [!INCLUDE[tn_facebook](../includes/tn-facebook.md)], or publish it on your website.  
@@ -52,7 +52,7 @@ You can invite respondents to take part in a [!INCLUDE[pn-voice-of-the-customer-
   
  For example, this survey snippet contains piped data for Customer, User, and Other_1 (used for the case number):  
   
- Thank you _CUSTOMER_PIPED_DATA\_ for giving your feedback and helping us improve the service we are able to deliver to you. Please take the time to answer a few questions regarding case number _OTHER_1_PIPED_DATA\_ and Customer Service Representative _USER_PIPED_DATA\_.  
+ Thank you *CUSTOMER_PIPED_DATA\\* for giving your feedback and helping us improve the service we are able to deliver to you. Please take the time to answer a few questions regarding case number *OTHER_1_PIPED_DATA\\* and Customer Service Representative *USER_PIPED_DATA\\*.  
   
  In the email invite, add the piped data field, followed by **=** and the value. You can add multiple parameters, separated by **&#124;**. Using the survey snippet example above, the following line in an email invite:  
   

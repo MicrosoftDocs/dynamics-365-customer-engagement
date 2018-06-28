@@ -791,6 +791,7 @@ Listed by **SchemaName**.
 ### <a name="BKMK_msdyn_purchaseorderreceipt_ActivityPointers"></a> msdyn_purchaseorderreceipt_ActivityPointers
 
 Same as activitypointer entity [msdyn_purchaseorderreceipt_ActivityPointers](activitypointer.md#BKMK_msdyn_purchaseorderreceipt_ActivityPointers) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|activitypointer|
@@ -805,6 +806,7 @@ Same as activitypointer entity [msdyn_purchaseorderreceipt_ActivityPointers](act
 ### <a name="BKMK_msdyn_purchaseorderreceipt_msdyn_approvals"></a> msdyn_purchaseorderreceipt_msdyn_approvals
 
 Same as msdyn_approval entity [msdyn_purchaseorderreceipt_msdyn_approvals](msdyn_approval.md#BKMK_msdyn_purchaseorderreceipt_msdyn_approvals) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_approval|
@@ -819,6 +821,7 @@ Same as msdyn_approval entity [msdyn_purchaseorderreceipt_msdyn_approvals](msdyn
 ### <a name="BKMK_msdyn_purchaseorderreceipt_msdyn_bookingalerts"></a> msdyn_purchaseorderreceipt_msdyn_bookingalerts
 
 Same as msdyn_bookingalert entity [msdyn_purchaseorderreceipt_msdyn_bookingalerts](msdyn_bookingalert.md#BKMK_msdyn_purchaseorderreceipt_msdyn_bookingalerts) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bookingalert|
@@ -833,6 +836,7 @@ Same as msdyn_bookingalert entity [msdyn_purchaseorderreceipt_msdyn_bookingalert
 ### <a name="BKMK_msdyn_purchaseorderreceipt_SyncErrors"></a> msdyn_purchaseorderreceipt_SyncErrors
 
 Same as syncerror entity [msdyn_purchaseorderreceipt_SyncErrors](syncerror.md#BKMK_msdyn_purchaseorderreceipt_SyncErrors) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|syncerror|
@@ -847,6 +851,7 @@ Same as syncerror entity [msdyn_purchaseorderreceipt_SyncErrors](syncerror.md#BK
 ### <a name="BKMK_msdyn_purchaseorderreceipt_DuplicateMatchingRecord"></a> msdyn_purchaseorderreceipt_DuplicateMatchingRecord
 
 Same as duplicaterecord entity [msdyn_purchaseorderreceipt_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_purchaseorderreceipt_DuplicateMatchingRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -861,6 +866,7 @@ Same as duplicaterecord entity [msdyn_purchaseorderreceipt_DuplicateMatchingReco
 ### <a name="BKMK_msdyn_purchaseorderreceipt_DuplicateBaseRecord"></a> msdyn_purchaseorderreceipt_DuplicateBaseRecord
 
 Same as duplicaterecord entity [msdyn_purchaseorderreceipt_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_purchaseorderreceipt_DuplicateBaseRecord) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|duplicaterecord|
@@ -875,6 +881,7 @@ Same as duplicaterecord entity [msdyn_purchaseorderreceipt_DuplicateBaseRecord](
 ### <a name="BKMK_msdyn_purchaseorderreceipt_SharePointDocumentLocations"></a> msdyn_purchaseorderreceipt_SharePointDocumentLocations
 
 Same as sharepointdocumentlocation entity [msdyn_purchaseorderreceipt_SharePointDocumentLocations](sharepointdocumentlocation.md#BKMK_msdyn_purchaseorderreceipt_SharePointDocumentLocations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocumentlocation|
@@ -889,6 +896,7 @@ Same as sharepointdocumentlocation entity [msdyn_purchaseorderreceipt_SharePoint
 ### <a name="BKMK_msdyn_purchaseorderreceipt_SharePointDocuments"></a> msdyn_purchaseorderreceipt_SharePointDocuments
 
 Same as sharepointdocument entity [msdyn_purchaseorderreceipt_SharePointDocuments](sharepointdocument.md#BKMK_msdyn_purchaseorderreceipt_SharePointDocuments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|sharepointdocument|
@@ -903,6 +911,7 @@ Same as sharepointdocument entity [msdyn_purchaseorderreceipt_SharePointDocument
 ### <a name="BKMK_msdyn_purchaseorderreceipt_AsyncOperations"></a> msdyn_purchaseorderreceipt_AsyncOperations
 
 Same as asyncoperation entity [msdyn_purchaseorderreceipt_AsyncOperations](asyncoperation.md#BKMK_msdyn_purchaseorderreceipt_AsyncOperations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|asyncoperation|
@@ -917,6 +926,7 @@ Same as asyncoperation entity [msdyn_purchaseorderreceipt_AsyncOperations](async
 ### <a name="BKMK_msdyn_purchaseorderreceipt_MailboxTrackingFolders"></a> msdyn_purchaseorderreceipt_MailboxTrackingFolders
 
 Same as mailboxtrackingfolder entity [msdyn_purchaseorderreceipt_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_purchaseorderreceipt_MailboxTrackingFolders) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|mailboxtrackingfolder|
@@ -931,6 +941,7 @@ Same as mailboxtrackingfolder entity [msdyn_purchaseorderreceipt_MailboxTracking
 ### <a name="BKMK_msdyn_purchaseorderreceipt_UserEntityInstanceDatas"></a> msdyn_purchaseorderreceipt_UserEntityInstanceDatas
 
 Same as userentityinstancedata entity [msdyn_purchaseorderreceipt_UserEntityInstanceDatas](userentityinstancedata.md#BKMK_msdyn_purchaseorderreceipt_UserEntityInstanceDatas) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|userentityinstancedata|
@@ -945,6 +956,7 @@ Same as userentityinstancedata entity [msdyn_purchaseorderreceipt_UserEntityInst
 ### <a name="BKMK_msdyn_purchaseorderreceipt_ProcessSession"></a> msdyn_purchaseorderreceipt_ProcessSession
 
 Same as processsession entity [msdyn_purchaseorderreceipt_ProcessSession](processsession.md#BKMK_msdyn_purchaseorderreceipt_ProcessSession) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|processsession|
@@ -959,6 +971,7 @@ Same as processsession entity [msdyn_purchaseorderreceipt_ProcessSession](proces
 ### <a name="BKMK_msdyn_purchaseorderreceipt_BulkDeleteFailures"></a> msdyn_purchaseorderreceipt_BulkDeleteFailures
 
 Same as bulkdeletefailure entity [msdyn_purchaseorderreceipt_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_purchaseorderreceipt_BulkDeleteFailures) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|bulkdeletefailure|
@@ -973,6 +986,7 @@ Same as bulkdeletefailure entity [msdyn_purchaseorderreceipt_BulkDeleteFailures]
 ### <a name="BKMK_msdyn_purchaseorderreceipt_PrincipalObjectAttributeAccesses"></a> msdyn_purchaseorderreceipt_PrincipalObjectAttributeAccesses
 
 Same as principalobjectattributeaccess entity [msdyn_purchaseorderreceipt_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_purchaseorderreceipt_PrincipalObjectAttributeAccesses) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|principalobjectattributeaccess|
@@ -987,6 +1001,7 @@ Same as principalobjectattributeaccess entity [msdyn_purchaseorderreceipt_Princi
 ### <a name="BKMK_msdyn_purchaseorderreceipt_Appointments"></a> msdyn_purchaseorderreceipt_Appointments
 
 Same as appointment entity [msdyn_purchaseorderreceipt_Appointments](appointment.md#BKMK_msdyn_purchaseorderreceipt_Appointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|appointment|
@@ -1001,6 +1016,7 @@ Same as appointment entity [msdyn_purchaseorderreceipt_Appointments](appointment
 ### <a name="BKMK_msdyn_purchaseorderreceipt_Emails"></a> msdyn_purchaseorderreceipt_Emails
 
 Same as email entity [msdyn_purchaseorderreceipt_Emails](email.md#BKMK_msdyn_purchaseorderreceipt_Emails) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|email|
@@ -1015,6 +1031,7 @@ Same as email entity [msdyn_purchaseorderreceipt_Emails](email.md#BKMK_msdyn_pur
 ### <a name="BKMK_msdyn_purchaseorderreceipt_Faxes"></a> msdyn_purchaseorderreceipt_Faxes
 
 Same as fax entity [msdyn_purchaseorderreceipt_Faxes](fax.md#BKMK_msdyn_purchaseorderreceipt_Faxes) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|fax|
@@ -1029,6 +1046,7 @@ Same as fax entity [msdyn_purchaseorderreceipt_Faxes](fax.md#BKMK_msdyn_purchase
 ### <a name="BKMK_msdyn_purchaseorderreceipt_Letters"></a> msdyn_purchaseorderreceipt_Letters
 
 Same as letter entity [msdyn_purchaseorderreceipt_Letters](letter.md#BKMK_msdyn_purchaseorderreceipt_Letters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|letter|
@@ -1043,6 +1061,7 @@ Same as letter entity [msdyn_purchaseorderreceipt_Letters](letter.md#BKMK_msdyn_
 ### <a name="BKMK_msdyn_purchaseorderreceipt_PhoneCalls"></a> msdyn_purchaseorderreceipt_PhoneCalls
 
 Same as phonecall entity [msdyn_purchaseorderreceipt_PhoneCalls](phonecall.md#BKMK_msdyn_purchaseorderreceipt_PhoneCalls) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|phonecall|
@@ -1057,6 +1076,7 @@ Same as phonecall entity [msdyn_purchaseorderreceipt_PhoneCalls](phonecall.md#BK
 ### <a name="BKMK_msdyn_purchaseorderreceipt_Tasks"></a> msdyn_purchaseorderreceipt_Tasks
 
 Same as task entity [msdyn_purchaseorderreceipt_Tasks](task.md#BKMK_msdyn_purchaseorderreceipt_Tasks) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|task|
@@ -1071,6 +1091,7 @@ Same as task entity [msdyn_purchaseorderreceipt_Tasks](task.md#BKMK_msdyn_purcha
 ### <a name="BKMK_msdyn_purchaseorderreceipt_RecurringAppointmentMasters"></a> msdyn_purchaseorderreceipt_RecurringAppointmentMasters
 
 Same as recurringappointmentmaster entity [msdyn_purchaseorderreceipt_RecurringAppointmentMasters](recurringappointmentmaster.md#BKMK_msdyn_purchaseorderreceipt_RecurringAppointmentMasters) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|recurringappointmentmaster|
@@ -1085,6 +1106,7 @@ Same as recurringappointmentmaster entity [msdyn_purchaseorderreceipt_RecurringA
 ### <a name="BKMK_msdyn_purchaseorderreceipt_SocialActivities"></a> msdyn_purchaseorderreceipt_SocialActivities
 
 Same as socialactivity entity [msdyn_purchaseorderreceipt_SocialActivities](socialactivity.md#BKMK_msdyn_purchaseorderreceipt_SocialActivities) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|socialactivity|
@@ -1099,6 +1121,7 @@ Same as socialactivity entity [msdyn_purchaseorderreceipt_SocialActivities](soci
 ### <a name="BKMK_msdyn_purchaseorderreceipt_connections1"></a> msdyn_purchaseorderreceipt_connections1
 
 Same as connection entity [msdyn_purchaseorderreceipt_connections1](connection.md#BKMK_msdyn_purchaseorderreceipt_connections1) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1113,6 +1136,7 @@ Same as connection entity [msdyn_purchaseorderreceipt_connections1](connection.m
 ### <a name="BKMK_msdyn_purchaseorderreceipt_connections2"></a> msdyn_purchaseorderreceipt_connections2
 
 Same as connection entity [msdyn_purchaseorderreceipt_connections2](connection.md#BKMK_msdyn_purchaseorderreceipt_connections2) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|connection|
@@ -1127,6 +1151,7 @@ Same as connection entity [msdyn_purchaseorderreceipt_connections2](connection.m
 ### <a name="BKMK_msdyn_purchaseorderreceipt_Annotations"></a> msdyn_purchaseorderreceipt_Annotations
 
 Same as annotation entity [msdyn_purchaseorderreceipt_Annotations](annotation.md#BKMK_msdyn_purchaseorderreceipt_Annotations) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|annotation|
@@ -1141,6 +1166,7 @@ Same as annotation entity [msdyn_purchaseorderreceipt_Annotations](annotation.md
 ### <a name="BKMK_msdyn_purchaseorderreceipt_ServiceAppointments"></a> msdyn_purchaseorderreceipt_ServiceAppointments
 
 Same as serviceappointment entity [msdyn_purchaseorderreceipt_ServiceAppointments](serviceappointment.md#BKMK_msdyn_purchaseorderreceipt_ServiceAppointments) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|serviceappointment|
@@ -1155,6 +1181,7 @@ Same as serviceappointment entity [msdyn_purchaseorderreceipt_ServiceAppointment
 ### <a name="BKMK_bpf_msdyn_purchaseorderreceipt_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799"></a> bpf_msdyn_purchaseorderreceipt_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799
 
 Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [bpf_msdyn_purchaseorderreceipt_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799](msdyn_bpf_2c5fe86acc8b414b8322ae571000c799.md#BKMK_bpf_msdyn_purchaseorderreceipt_msdyn_bpf_2c5fe86acc8b414b8322ae571000c799) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_bpf_2c5fe86acc8b414b8322ae571000c799|
@@ -1169,6 +1196,7 @@ Same as msdyn_bpf_2c5fe86acc8b414b8322ae571000c799 entity [bpf_msdyn_purchaseord
 ### <a name="BKMK_msdyn_msdyn_purchaseorderreceipt_msdyn_purchaseorderreceiptproduct_PurchaseOrderReceipt"></a> msdyn_msdyn_purchaseorderreceipt_msdyn_purchaseorderreceiptproduct_PurchaseOrderReceipt
 
 Same as msdyn_purchaseorderreceiptproduct entity [msdyn_msdyn_purchaseorderreceipt_msdyn_purchaseorderreceiptproduct_PurchaseOrderReceipt](msdyn_purchaseorderreceiptproduct.md#BKMK_msdyn_msdyn_purchaseorderreceipt_msdyn_purchaseorderreceiptproduct_PurchaseOrderReceipt) Many-To-One relationship.
+
 |Property|Value|
 |--------|-----|
 |ReferencingEntity|msdyn_purchaseorderreceiptproduct|

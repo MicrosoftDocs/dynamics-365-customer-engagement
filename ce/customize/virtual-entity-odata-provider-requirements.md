@@ -29,7 +29,7 @@ This topic describes how to configure the OData v4 data provider as well as the 
 
 - Your [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] environment requires that all entities have an ID attribute, this ID is known as a unique identifier and the value must be a guid.  You can only map ID fields to external fields with the EDM.Guid data type.  You can’t map an EDM.Int32 data type to a uniqueidentifer data type field in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)].
 
--  OData entities with nullable properties must be set to match the mapped field in the virtual entity. For example, an OData entity property with Nullable=False must have the mapped field in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Field Requirement attribute set to **Business Required**. 
+- OData entities with nullable properties must be set to match the mapped field in the virtual entity. For example, an OData entity property with Nullable=False must have the mapped field in [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Field Requirement attribute set to **Business Required**. 
 
 - For retrieve multiple queries, such as when you load data in to a grid, control the size of the dataset returned from the external data source by using the select and filter query parameters.
 
@@ -40,18 +40,17 @@ This topic describes how to configure the OData v4 data provider as well as the 
 The following table lists the OData Entity Data Model (EDM) data type mappings with [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] data types. 
 
 
-|OData Data Type  | [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Data Type  |
-|---------|---------|
-|Edm.Boolean   |    Two Options     |
-|Edm.DateTime     |    Date and Time     |
-|Edm.DateTimeOffset     |     Date and Time    |
-|  Edm.Decimal   |    Decimal Number or Currency     |
-|Edm.Double     |   Floating Point Number      |
-|Edm.Guid     |    Unique Identifier     |
-|Edm.Int32    |     Whole Number    |
-|Edm.Int64    |     Whole Number    |
-Edm.String    |    Single Line of Text or Multiple Lines of Text     |
-
+|  OData Data Type   | [!INCLUDE [pn-powerapps](../includes/pn-powerapps.md)] Data Type |
+|--------------------|------------------------------------------------------------------|
+|    Edm.Boolean     |                           Two Options                            |
+|    Edm.DateTime    |                          Date and Time                           |
+| Edm.DateTimeOffset |                          Date and Time                           |
+|    Edm.Decimal     |                    Decimal Number or Currency                    |
+|     Edm.Double     |                      Floating Point Number                       |
+|      Edm.Guid      |                        Unique Identifier                         |
+|     Edm.Int32      |                           Whole Number                           |
+|     Edm.Int64      |                           Whole Number                           |
+|     Edm.String     |          Single Line of Text or Multiple Lines of Text           |
 
 ### OData EDM data types that are not supported for mapping with virtual entities 
 - Edm.Binary 
@@ -68,34 +67,34 @@ Edm.String    |    Single Line of Text or Multiple Lines of Text     |
 
 - Edm.SByte
 
- 
+
 ## Add a data source using the OData v4 Data Provider  
  This procedure shows you how to use the out-of-box OData Data Provider to use as the virtual entity data source.   
-  
-1.  Go to **Settings** > **Administration** > **Virtual Entity Data Sources**.  
-  
-2.  On the actions toolbar, select **New**.  
-  
-3.  On the Select  Data Provider dialog box, select from the following data sources, and then select **OK**.  
-  
-    - **OData v4 Data Provider**. Your environment includes an Odata v4 data provider that can be used to connect to data sources that support the OData v4 open standard.  
-  
-    -   *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
-  
-4.  On the New Data Source properties page, complete the following fields, and then save the record.  
-  
-    - **Name**. Type a name that describes the data source.  
-  
-    - **Uri**. If you are using the OData Data Provider, enter the uri for the OData web service. For example, if you are using the OData provider to connect to a web service hosted in Azure, the URI can look similar to *http://contosodataservice.azurewebsites.net/odata/*.  
-  
-    - **Timeout in seconds**. Enter the number of seconds to wait for a response from the web service before a data request time-out. For example, enter 30 to wait a maximum of thirty seconds before a time-out occurs.  
-    
-    - **Pagination mode**. Select whether to use client-side or server-side paging to control how query results are paged. The default value is client-side paging. With server-side paging, the server controls how results are paged by using the $skiptoken parameter, which is added to the query string. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skip Token System Query Option ($skiptoken)](https://msdn.microsoft.com/library/dd942121.aspx)  
-        -  **Return inline count**. Returns the total number records in the result set. This setting is used to enable next page functionality when you return data to a grid. Use a value of false if your OData endpoint doesn't support the OData $inclinecount parameter. The default value is false.
-  
-    - **Request Parameters**. Optionally, you can add custom header or query string parameters used to connect to the OData web service, such as authentication parameters to the external service. Select **Query String** to toggle between header and query string parameter and value. Up to 10 header or query strings can be added.  
-  
- ![Virtual entity data source record](../customize/media/virtual-entity-data-source.png "Virtual entity data source record") 
+
+1. Go to **Settings** > **Administration** > **Virtual Entity Data Sources**.  
+
+2. On the actions toolbar, select **New**.  
+
+3. On the Select  Data Provider dialog box, select from the following data sources, and then select **OK**.  
+
+   - **OData v4 Data Provider**. Your environment includes an Odata v4 data provider that can be used to connect to data sources that support the OData v4 open standard.  
+
+   - *Custom data provider*. If you've imported a data  provider plug-in, the data provider will appear here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Get started with virtual entities](https://docs.microsoft.com/dynamics365/#pivot=developer&panel=developer_sales)  
+
+4. On the New Data Source properties page, complete the following fields, and then save the record.  
+
+   - **Name**. Type a name that describes the data source.  
+
+   - **Uri**. If you are using the OData Data Provider, enter the uri for the OData web service. For example, if you are using the OData provider to connect to a web service hosted in Azure, the URI can look similar to *http://contosodataservice.azurewebsites.net/odata/*.  
+
+   - **Timeout in seconds**. Enter the number of seconds to wait for a response from the web service before a data request time-out. For example, enter 30 to wait a maximum of thirty seconds before a time-out occurs.  
+
+   - **Pagination mode**. Select whether to use client-side or server-side paging to control how query results are paged. The default value is client-side paging. With server-side paging, the server controls how results are paged by using the $skiptoken parameter, which is added to the query string. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Skip Token System Query Option ($skiptoken)](https://msdn.microsoft.com/library/dd942121.aspx)  
+       -  **Return inline count**. Returns the total number records in the result set. This setting is used to enable next page functionality when you return data to a grid. Use a value of false if your OData endpoint doesn't support the OData $inclinecount parameter. The default value is false.
+
+   - **Request Parameters**. Optionally, you can add custom header or query string parameters used to connect to the OData web service, such as authentication parameters to the external service. Select **Query String** to toggle between header and query string parameter and value. Up to 10 header or query strings can be added.  
+
+   ![Virtual entity data source record](../customize/media/virtual-entity-data-source.png "Virtual entity data source record") 
 
 
 ### See also  

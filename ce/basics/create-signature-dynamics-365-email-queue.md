@@ -25,31 +25,31 @@ Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest
 ## Create an email signature  
  To edit a signature if you are not a system administrator:  
   
-1.   Click the **Settings** button ![Options button for Dynamics 365](../basics/media/optionsbutton.png "Options button for Dynamics 365") in the upper-right corner of the screen.  
+1. Click the **Settings** button ![Options button for Dynamics 365](../basics/media/optionsbutton.png "Options button for Dynamics 365") in the upper-right corner of the screen.  
   
-2.   Click **Options**, and then click the **Email Signatures** tab.  
+2. Click **Options**, and then click the **Email Signatures** tab.  
   
- To edit a signature if you are a system administrator:  
+   To edit a signature if you are a system administrator:  
   
-1. [!INCLUDE[proc_settings_templates](../includes/proc-settings-templates.md)]  
+3. [!INCLUDE[proc_settings_templates](../includes/proc-settings-templates.md)]  
   
-2.  Choose **Email Signatures**.  
+4. Choose **Email Signatures**.  
   
- To create a new email signature:  
+   To create a new email signature:  
   
-1.   On the Actions toolbar, click **New**.  
+5. On the Actions toolbar, click **New**.  
   
-2.   On the **Email Signature: New Email Signature** page, enter the following values:  
+6. On the **Email Signature: New Email Signature** page, enter the following values:  
   
-    - **Owner:** The user or team that owns this signature.  
+   - **Owner:** The user or team that owns this signature.  
   
-    - **Language:** If you have multiple language packages installed, select the language for the signature you're composing.  
+   - **Language:** If you have multiple language packages installed, select the language for the signature you're composing.  
   
-    - **Title:** The title for this email signature.  
+   - **Title:** The title for this email signature.  
   
-3.   Click **Set as Default** to make this the default email signature.  
+7. Click **Set as Default** to make this the default email signature.  
   
-4.   Click **Save and Close**.  
+8. Click **Save and Close**.  
   
 ## Using email signatures  
  If you have a default signature, when you create a new email in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] (for example, **Sales** > **Activities** > **Email**), an email signature is automatically added to the email based on the user you enter in the **From** field. An email signature must be defined for the user.  
@@ -60,19 +60,19 @@ Use an email signature in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest
   
 ## Things to know about email signatures  
   
--   The owner of an email signature can create, update, or delete it.  
+- The owner of an email signature can create, update, or delete it.  
   
--   Each user or team can have no more than one default email signature.  
+- Each user or team can have no more than one default email signature.  
   
--   When you change the owner of an email signature, the signature reverts to non-default. For example, a signature is a default for user A. User A assigns it to queue X and queue X already has a default signature. The signature  assigned will be non-default for queue X. If queue X does not have a default signature, the new signature will become the default signature.  
+- When you change the owner of an email signature, the signature reverts to non-default. For example, a signature is a default for user A. User A assigns it to queue X and queue X already has a default signature. The signature  assigned will be non-default for queue X. If queue X does not have a default signature, the new signature will become the default signature.  
   
--   If the **From** field is changed to a user, the user email signature will appear. When you click **Insert Signature**, all the signatures that the user owns will appear. If the **From** field is changed to a queue,  the default email signature of the owner of the queue will appear. The owner of a queue can be a user or a team. When you click **Insert Signature**, all the email signatures that are owned by the queue owner (user or a team) will appear.  
+- If the **From** field is changed to a user, the user email signature will appear. When you click **Insert Signature**, all the signatures that the user owns will appear. If the **From** field is changed to a queue,  the default email signature of the owner of the queue will appear. The owner of a queue can be a user or a team. When you click **Insert Signature**, all the email signatures that are owned by the queue owner (user or a team) will appear.  
   
- ![Email signature for user responding to an email](../basics/media/email-signature-user-responding-an-email.png "Email signature for user responding to an email")  
+  ![Email signature for user responding to an email](../basics/media/email-signature-user-responding-an-email.png "Email signature for user responding to an email")  
   
--   If the **From** field is changed to a queue,  the default email signature of the owner of the queue will appear. The owner of a queue can be a user or a team. When you click **Insert Signature**, all the email signatures that are owned by the queue owner (user or a team) will appear.  
+- If the **From** field is changed to a queue,  the default email signature of the owner of the queue will appear. The owner of a queue can be a user or a team. When you click **Insert Signature**, all the email signatures that are owned by the queue owner (user or a team) will appear.  
   
- ![Email signature for a queue responding to email](../basics/media/email-signature-queue-responding-email.png "Email signature for a queue responding to email")  
+  ![Email signature for a queue responding to email](../basics/media/email-signature-queue-responding-email.png "Email signature for a queue responding to email")  
   
 ### See also  
  [Work with templates](../admin/work-with-templates.md)
