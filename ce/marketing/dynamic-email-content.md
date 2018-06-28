@@ -109,7 +109,9 @@ Non-contextual field expressions (which use the form  `{{EntityName(RecordID).Fi
 
 ## Dynamic values in To, From-name, From-address, and Reply-to fields
 
-On the **Summary** tab of the **Email** form, you can make various non-content-related settings for your message. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
+On the **Summary** tab of the **Marketing Email** form, you can make various non-content-related settings for your message in the **Advanced Header** section. This includes values and expressions for establishing the to, from-name, from-address, and reply-to values the message will use.
+
+![Advanced header settings for email messages](media/email-advanced-header-settings.png "Advanced header settings for email messages")
 
 Though these settings provide assist-edit buttons, you must only place static values, or values from the **Contact[context]** entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities or lookup-field values.
 
