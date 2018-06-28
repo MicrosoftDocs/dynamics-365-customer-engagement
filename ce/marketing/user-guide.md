@@ -62,10 +62,12 @@ topic-status: Drafting
 <h2>Design marketing emails and landing pages</h2>
 <li>[Design your digital content](design-digital-content.md)</li>
 <li>[Content blocks reference](content-blocks-reference.md)</li>
+<li>[Upload and use images and files](upload-images-files.md)</li>
 <li>[Prepare marketing email messages](prepare-marketing-emails.md)</li>
+<li>[Add dynamic content to email messages](dynamic-email-content.md)</li>
 <li>[Work with email templates](email-templates.md)</li>
 <li>[Create and deploy marketing pages](create-deploy-marketing-pages.md)</li>
-<li>[Upload and use images and files](upload-images-files.md)</li>
+<li>[Set up double opt-in](double-opt-in.md)</li>
 
 </td></tr>
 <tr><td>

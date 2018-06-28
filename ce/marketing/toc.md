@@ -63,11 +63,13 @@
 
 ### Create marketing emails and pages
 #### [Design your digital content](design-digital-content.md)
+#### [Content blocks reference](content-blocks-reference.md)
+#### [Upload and use images and files](upload-images-files.md)
 #### [Prepare marketing email messages](prepare-marketing-emails.md)
+#### [Add dynamic content to email messages](dynamic-email-content.md)
 #### [Work with email templates](email-templates.md)
 #### [Create and deploy marketing pages](create-deploy-marketing-pages.md)
-#### [Upload and use images and files](upload-images-files.md)
-#### [Content blocks reference](content-blocks-reference.md)
+#### [Set up double opt-in](double-opt-in.md)
 
 ### Segmentation and customer journeys
 #### [Segmentation, lists, and subscriptions](segmentation-lists-subscriptions.md)

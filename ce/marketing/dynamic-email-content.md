@@ -29,7 +29,7 @@ Dynamic content gets resolved just before a message is sent to a specific indivi
 
 Content settings are sets of standard and required values that are available for use in marketing email messages. Each includes a subscription-center link, a forward-to-a-friend link, social-media links, your postal address, and other information that can be placed into the message as dynamic values by using the assist-edit feature.
 
-Dynamics 365 is delivered with a single default set of content settings, which is preconfigured to use the default subscription center (also included out of the box). You can customize this set as needed, and you can also create additional sets. You'll set up each customer journey to use a specific content-settings set, which means that all messages sent by that journey will use the same set. However, each journey can use a different set, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
+[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] is delivered with a single default set of content settings, which is preconfigured to use the default subscription center (also included out of the box). You can customize this set as needed, and you can also create additional sets. You'll set up each customer journey to use a specific content-settings set, which means that all messages sent by that journey will use the same set. However, each journey can use a different set, which means that you can use an identical marketing-email design in two or more customer journeys, each specifying a different set of content settings. If you have more than one set of content settings, exactly one of them will be the default and will be applied automatically to each new customer journey that you create.
 
 The values for content settings are first evaluated at send time, which means that you can edit a content-settings set at any time, and all pending and future email messages will automatically use the latest values.
 
@@ -46,13 +46,13 @@ To view, edit, or create a content-settings set:
 1. Make the following settings, as needed:
 
     - **Name**: Enter a name for the customer-settings set. This is the name shown when you're assigning content settings to a customer journey or email-message preview.
-    - **Owner**: Shows the Dynamics 365 user who created the set.
+    - **Owner**: Shows the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] user who created the set.
     - **Subscription Center**: Specify an existing marketing page that is set up as a subscription center. Select the  **&lt;/&gt;**  button to choose from a list of available pages. All marketing email messages must include a valid subscription-center link taken from a content-settings set.
     - **Address Main**: Enter the main part of your organization's postal address. All marketing email messages must include a valid main address taken from a content-settings set.
     - **Address Line 2**: Enter supplemental postal address information (if needed).
     - **Default**: Set to **Yes** to make the current content-settings set the default for all new customer journeys. There must always be exactly one default; if you change the default, the existing default will automatically be changed to **No**.
     - **Forward to a Friend**: Specify an existing marketing page that is set up as a forward-to-a-friend page. Select the  **&lt;/&gt;**  button to choose from a list of available pages.
-    - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the landing page for your organization.
+    - **LinkedIn URL**,  **Twitter URL**,  **Facebook URL**, and  **YouTube URL**: For each of these social-media services, enter the URL for landing page for your organization.
 
 1. Select **Save** in the bottom-right corner of the window to save your settings.
 
@@ -62,13 +62,13 @@ To view, edit, or create a content-settings set:
 
 ## Use assist-edit to place dynamic field values
 
-The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values and links from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text block in the graphical designer. The button is also provided for the subject field and for the from-address and from-name fields.
+The **Assist Edit**  button  **&lt;/&gt;**  helps you construct valid dynamic expressions to position field values from recipient contact records, the message content settings, and other database values. This button is provided on the text formatting toolbar whenever you select a text block in the graphical designer. The button is also provided for some settings fields, such as the subject, from-address, and from-name fields.
 
 Start by positioning your cursor in the field where you want to insert the dynamic text, and then select the  **Assist Edit**  button  **&lt;/&gt;**  to open a drop-down list showing a selection of data sources appropriate for your current context, which can include some or all the following:
 
 - **Contact[context]**: Places a field value, such as a first name, from each recipient's contact record.
 - **Content settings[context]**: Places a field value from the content settings—a subscription center URL, forwarding URL, and the sender postal address are included here.
-- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](https://review.docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/double-opt-in?branch=Marketing-July-2018).
+- **Message[context]**: Places values that relate to the message itself; currently, this includes the open-as-webpage URL and the various dynamic values used in [double opt-in emails](double-opt-in.md).
 - **Account**: Places a value from a specific account record.
 - **Contact**: Places a value from a specific contact record (not the recipient's record).
 - **Event**: Places a link to a specific event sign-up page, or a field value from the page.
@@ -77,18 +77,20 @@ Start by positioning your cursor in the field where you want to insert the dynam
 - **Marketing page**: Places a link to a specific marketing page, or a field value from the page.
 - **Survey**: Places a link to a specific online survey (Voice of the Customer), or a field value from the survey.
 
-**Note:** Entities shown by assist edit that include **[context]** in their name take values that can change for each recipient (such as the recipient's name). Entities that don't include **[context]** in their name must refer to a specific record ID, which doesn't change for each recipient. Note also that the **[context]** label isn't included in the code placed on the page when you're done (just the entity name).
+> [!NOTE]
+> Entities shown by assist edit that include **[context]** in their name take values that can change for each recipient (such as the recipient's name). Entities that don't include **[context]** in their name must refer to a specific record ID, which doesn't change for each recipient. Note also that the **[context]** label isn't included in the code placed on the page when you're done.
 
-**Note** : The entities included in the assist-edit menu are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings#choose-entities-to-sync-with-the-customer-insights-services) for instructions.
+> [!NOTE]
+> The entities included in the assist-edit menu are those that you are currently syncing with the customer-insights service, which means that you might see more entities than those mentioned in the previous list. If you need to show information from an entity that isn't listed, then ask your admin to add that entity to the customer-insights service. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
 After you've selected a source, the  **Assist Edit**  drop-down list is updated to show individual fields that are available from that source. Choose one of these to place the value or link. The result is an expression that uses a format such as `{{EntityName.FieldName}}` or `{{EntityName(RecordID).FieldName}}`, though more complex expressions can also be generated depending on the options you pick. Here are some examples:
 
 -  `{{contact.firstname}}`  
 Places the recipient's first name.
 - `{{msdyncrm_contentsettings.msdyncrm_subscriptioncenter}}`  
-Places the URL for the subscription center page identified in the active content settings.
+Places the URL for the subscription center page identified in the content settings configured for the customer journey that sends the message.
 - `{{msdyncrm_contentsettings.msdyncrm_forwardtoafriend}}`  
-Places the URL to the forwarding page identified in the active content settings.
+Places the URL to the forwarding page identified in the content settings configured for the customer journey that sends the message.
 - `{{Message.ViewAsWebpageURL}}`  
 Places the URL for opening the current message in a web browser.
 - `{{msevtmgt_event(8a519395-856c-4e22-b560-650ce6d6a79d).msevtmgt_webinarurl}}`  
@@ -98,12 +100,12 @@ Places the name of the survey identified by the specified survey ID (in parenthe
 
 ## Find record IDs
 
-Non-contextual field expressions (which use the form  _{{EntityName(RecordID).FieldName}}_) require a record ID to identify the specific record the value must come from. To find the ID for any record:
+Non-contextual field expressions (which use the form  `{{EntityName(RecordID).FieldName}}`) require a record ID to identify the specific record the value must come from. To find the ID for any record:
 
 1. Open the record you want to reference
 2. Look at the URL shown in your browser's address bar, which should show a URL such as:  
 `https://<MyOrg>.crm.dynamics.com/main.aspx?appid=c8cba597-4754-e811-a859-000d3a1be1a3&pagetype=entityrecord&etn=msevtmgt_event&id=5acc43d5-356e-e811-a960-000d3a1cae35`
-3. Find the last parameter in the URL, which should start with &quot;&amp;id=&quot;, followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
+3. Find the part of the URL that starts with `&id=`, which is followed by the ID number of your current record. Copy that number (the value only) and use it in your expression.
 
 ## Dynamic values in To, From-name, From-address, and Reply-to fields
 
@@ -111,7 +113,8 @@ On the **Summary** tab of the **Email** form, you can make various non-content-r
 
 Though these settings provide assist-edit buttons, you must only place static values, or values from the **Contact[context]** entity, such as `{{contact.emailaddress1}}` (which is the default for the **To** address). These settings don't currently support any other entities or lookup-field values.
 
-**TIP** : You can also include conditional statements in the **Advanced Header** fields, for example to use contact.emailaddress2 if contact.emailaddress1 is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
+> [!TIP]
+> You can include conditional statements in the **Advanced Header** fields, for example to use `contact.emailaddress2` if `contact.emailaddress1` is empty. But you can still only refer to the contact entity in your conditional expressions and displayed fields.
 
 ## Advanced dynamic content
 
@@ -120,24 +123,26 @@ You can add advanced logical processing to your email designs, which can make th
 As you've seen in previous examples, dynamic content is surrounded by double curly-brackets ( `{{` and `}}` ). This includes both standard field values that you add using the assist-edit feature, and the more advanced programming constructs described in this section.
 
 > [!TIP]
-> If you want to display double curly-brackets in a message, rather than use them to denote the start or end of a code block, then prepend the brackets with a backslash, such as `\{{` or `\}}`. The slashes won't appear in your final, rendered message, but the double brackets will.
+> If you want to display double curly-brackets in a message, rather than use them to denote the start or end of a code block, then prepend (escape) the first bracket with a backslash, such as `\{{` or `\}}`. The slashes won't appear in your final, rendered message, but the double brackets will.
 
 ### Fetch custom values from fields and lookup fields
 
-As we've seen, you can use the assist-edit feature to insert both context-sensitive and specific-record values from your database in your email messages—the result is an expression that uses a format such as `{{EntityName.FieldName}}` or `{{EntityName(RecordID).FieldName}}`, as illustrated in the examples shown in Use assist-edit to place dynamic field values.
+As we've seen, you can use the assist-edit feature to insert both context-sensitive and specific-record values from your database in your email messages—the result is an expression that uses a format such as `{{EntityName.FieldName}}` or `{{EntityName(RecordID).FieldName}}`, as illustrated in the examples shown in [Use assist-edit to place dynamic field values](#assist-edit).
 
-**Tip** : If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity and field names match those used in the database and will help you avoid misspellings.
+> [!TIP]
+> If you require the types of data that are supported by assist-edit, then it's usually best to use the assist-edit feature to place the code. This will ensure that the entity and field names match those used in the database and will help you avoid misspellings.
 
-You can place nearly any database value into your messages, including from fields and entities not shown by the assist-edit tool. You can do so using the same syntax as you can see when using assist-edit, but you'll need to find the correct entity and field names (for example by using the tools for [customizing entities, relationships and fields](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/customize-entities-relationships-fields)).
+You can place nearly any database value into your messages using the same types of syntax created when using assist-edit, but you'll need to find the correct entity, relationship, and field names (for example by using the tools for [customizing entities, relationships and fields](../customize/customize-entities-relationships-fields.md)).
 
-**Note** : You can only use data from entities that are synced with the customer-insights service (and therefore also listed in the assist-edit menu). If you need to show information from an entity that isn't yet synced, then talk to your admin. If you are an admin, then see [Choose entities to sync with the customer-insights services](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings#choose-entities-to-sync-with-the-customer-insights-services) for instructions.
+> [!NOTE]
+> You can only use data from entities that are synced with the customer-insights service (and therefore also listed in the assist-edit menu). If you need to show information from an entity that isn't yet synced, then talk to your admin. If you are an admin, then see [Choose entities to sync with the customer-insights services](marketing-settings.md#dci-sync) for instructions.
 
 In addition, you can also construct expressions that fetch values from lookup fields (which link to related records) by adding an extra &quot;hop&quot; in your expression, where each hop (also known as an _access operator_) is indicated by a period (.), such as:
 
 - `{{EntityName.RelationshipName.FieldName}}`
 - `{{EntityName(RecordID).RelationshipName.FieldName}}`
 
-Here are a few useful examples for placing lookup fields:
+Here are a few useful examples for placing lookup field values:
 
 - `{{contact.contact_account_parentcustomerid.name}}`  
 This expression finds the name of the account for the company where a contact works.
@@ -166,16 +171,16 @@ Conditional (if-then-else) statements display content depending on whether one o
 
 Where:
 
-- The statement must always open with `{{#if … }}`.
+- The conditional block must always open with `{{#if … }}`.
 - Conditional expressions must be contained in parenthesis.
 - Conditional expressions start with an &lt;operator&gt;, which must be one of the values listed in the following table. It establishes how the first value is to be compared to the second value.
 - &lt;value1&gt; and &lt;value2&gt; are values to be compared by the conditional expression, and each can be either dynamic or constant values. If either &lt;value1&gt; or &lt;value2&gt; is a constant string value (not a number or expression), then it must be surrounded with single quotes ('); for real numbers, use a period (.) as a decimal delineator.
 - `{{else}}` and `{{else if … }}` clauses are optional.
-- The statement must always close with `{{/if}}`.
+- The conditional block must always close with `{{/if}}`.
 
-The following table lists all the operators that you can use in your conditional expressions. Other operators are not currently available. Note that you can't use other operators (such as &quot;begins with&quot;) or complex Boolean expressions (such as with AND or OR operators) in your conditional expressions.
+The following table lists all the operators that you can use in your conditional expressions. Other operators are not currently available, nor can you use complex Boolean expressions (such as with AND or OR operators) in your conditional expressions.
 
-| **Dynamics 365 syntax (case sensitive)** | **Operator** |
+| **[!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] syntax (case sensitive)** | **Operator** |
 | --- | --- |
 | eq | Equal to |
 | ne | Not equal to |
@@ -201,7 +206,6 @@ For example, this conditional statement could be used to establish the language 
 > ```
 > Where `''` is two single quotes, not a double quote. This finds empty fields, but not null fields.
 
-
 > [!TIP]
 > Though you can't use complex Boolean expressions in your conditional expressions, you can implement similar functionality as follows:
 > 
@@ -222,7 +226,6 @@ For example, this conditional statement could be used to establish the language 
 > ```Handlebars
 > {{#if A}}<DisplayedContent>{{/if}} {{#if B}}<DisplayedContent>{{/if}}
 > ```
-> &nbsp;
 
 ### For-each loops
 
@@ -244,35 +247,41 @@ For-each loops take the following form:
 
 Where:
 
-- The statement must always open with `{{#each … }}`.
+- The loop block must always open with `{{#each … }}`.
 - `Entity.RelationshipName` identifies the set of related records that the loop will iterate over.
 - The loop starts with the first available related record, and repeats for each available related record until all related records have been listed. Note that the related records will be returned in an arbitrary and unpredictable order.
-- Static content is repeated for each loop. You might use this, for example, to set up an HTML table or add field labels.
 - `{{this.RelatedField<n>}}` identifies a field name from the related record. The &quot;this&quot; part of this expression refers to the related record being processed in the current loop iteration, and must be followed by a valid field name for the related entity. You can include any number of fields in each loop.
-- The statement must always close with `{{/each}}`.
+- The loop block must always close with `{{/each}}`.
 
 For example, your database could include a list of products that a contact has ordered. You could list these in an email message using code such as:
 
  ```Handlebars
-<ul>
-{{#each contact.contact_product_productid}}
- <li>{{this.name}}</li>
-{{/each}}
-</ul>
+<p>You have purchased:
+{{#each contact.contact_product_productid}}</p>
+    <p class="productList">{{this.name}}
+{{/each}}</p>
 ``` 
 
-In this example, the Dynamics 365 system has been customized to include a _product_ [entity](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-entities), which is set up with a 1:N [relationship](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-entity-relationships)between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/marketing-settings#choose-entities-to-sync-with-the-customer-insights-services)with the customer-insights database (as usual).
+In this example, the [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] system has been customized to include a [custom entity](../customize/create-edit-entities.md) called _product_, which is set up with a 1:N [relationship](../customize/create-edit-entity-relationships.md) between the _contact_ and _product_ entities on the _productid_ field. For the product entity to be available to your email messages, it must also be [synced](marketing-settings.md#dci-sync) with the customer-insights database (as usual).
 
 ## Mix your code with content in the editor
 
 Often, programmers use multiple lines and indents to format their code during development. This makes the code easier to read and understand. The examples in this help topic likewise use techniques such as these to illustrate the structure of the code. However, when you enter your code into the designer, it's important that you compact the code and maintain your page layout—and that means removing all the extra lines and spaces. Here are some tips for how to enter your code in the designer:
 
 - You can work on either the **HTML** or **Designer** tab.
-- If you are working on the **HTML** tab, then all the code and static text that is part of a single paragraph must be contained within a single set of &lt;p&gt; tags. Do not place code outside of valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
-- If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create   and &lt;p&gt; tags in your code, which will result in unwanted empty space in your rendered design. If you got to the **HTML** tab, you'll see all of these extra tags in your code.
+- If are working on the **Designer** tab, avoid all extra spaces and carriage returns because these will create `&nbsp;`and `<p>` tags in your code, which will result in unwanted empty space in your rendered design. If you got to the **HTML** tab, you'll see all of these extra tags in your code.
+- If you are working on the **HTML** tab, then all the code and static text that is part of a single paragraph must be contained within a single set of &lt;p&gt; tags (or some other HTML tag pair). Do not place code outside of valid HTML tag pairs, as that will confuse the editor (especially if you switch between the **HTML** and **Design** tabs).
 - If you are working on the **HTML** tab, then you can add extra spaces and carriage returns to your code, but these will probably be collapsed automatically into a single line if you or anyone else opens the message using the **Designer** tab.
 
-Here are some examples of how some of the examples given in this topic should be entered onto the HTML tab of the designer:
+Here are some examples of how some of the other examples given in this topic should be entered onto the HTML tab of the designer:
+ ```Handlebars
+<p>{{#if (eq contact.address1_country 'Denmark')}}Hej{{else if (eq contact.address1_country 'US')}}Hi{{/if}}{{contact.firstname}}!</p>
 
-- `<p>{{#if (eq contact.address1_country 'Denmark')}}Hej{{else if (eq contact.address1_country 'US')}}Hi{{/if}}{{contact.firstname}}!</p>`
-- `<ul>{{ #each contact.contact_product_productid }}<li>{{ this.name }}</li>{{/each}}</ul>`
+<p>You have purchased:{{#each contact.contact_product_productid}}</p><p class="productList">{{this.name}}{{/each}}</p>
+``` 
+
+### See also
+
+[Design your digital content](design-digital-content.md)  
+[Prepare marketing email messages](prepare-marketing-emails.md)  
+[Create automated campaigns with customer journeys](customer-journeys-create-automated-campaigns.md)
