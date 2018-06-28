@@ -31,7 +31,7 @@ If you're familiar with [Microsoft Teams](https://products.office.com/microsoft-
 
 Begin by finding the app in the app Store.
 
-## Select the app in the app Store.
+## Select the app in the app Store
 
 1. In Microsoft Teams, select **Store**.
 
@@ -95,6 +95,15 @@ If you have more than one organization or Unified Interface app, you can use the
 
 ![Dashboard settings](media/teams-settings-page.png "Dashboard settings")
 
+## Install the Team app
+
+You can also install the Team app which integrates Dynamics 365 and Teams to use with your team members. These steps are for installing the Team app - the settings under **Add to a team**.
+
+Once you've selected the Dynamics 365 app (see [Select the app in the app Store](#select-the-app-in-the-app-store)), the settings page opens. 
+
+Verify **Yes** is enabled, and then select **Install** to install the Team app.
+
+   ![Install Team app](media/teams-first-settings.png "Install Team app")
 
 
 . <br/>
