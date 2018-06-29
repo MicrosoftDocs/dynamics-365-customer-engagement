@@ -84,6 +84,9 @@
 
 ### [Event planning and management](event-management.md)
 #### [Set up an event](set-up-event.md)
+#### [Set up and manage an event waitlist](event-waitlist.md)
+#### [Create and manage recurring events](event-recurring.md)
+#### [Create and use event templates](event-templates.md)
 #### [Event management dashboard](event-management-dashboard.md)
 #### [Set up a webinar](set-up-webinar.md)
 #### [Manage event sponsorships](manage-event-sponsorships.md)
