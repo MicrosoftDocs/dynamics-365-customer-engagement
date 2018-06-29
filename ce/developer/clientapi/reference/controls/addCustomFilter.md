@@ -1,6 +1,6 @@
 ---
 title: "addCustomFilter (Client API reference) in Dynamics 365 Customer Engagement| MicrosoftDocs"
-ms.date: 11/29/2017
+ms.date: 06/24/2018
 ms.service: "crm-online"
 ms.topic: "reference"
 applies_to: "Dynamics 365 (online)"
@@ -14,6 +14,9 @@ manager: "amyla"
 [!INCLUDE[](../../../../includes/cc_applies_to_update_9_0_0.md)]
 
 Adds filters to the results displayed in the lookup. Each filter will be combined with any previously added filters as an “AND” condition.
+
+> [!NOTE]
+> Custom lookup filters are not supported in mobile offline. For information about the mobile offline feature, see [Configure mobile offline synchronization](../../../../mobile-app/configure-mobile-offline-synchronization-dynamics-365-phones-tablets.md)
 
 ## Control types supported
 
