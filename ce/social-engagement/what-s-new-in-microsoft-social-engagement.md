@@ -25,6 +25,12 @@ For a detailed list of improvements and bug fixes for the latest release, see ou
 
 For important, late-breaking information and a list of known issues, see the [Social Engagement Readme](http://go.microsoft.com/fwlink/p/?LinkID=393612).
 
+## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.7
+
+### Removal of interaction functionality for Facebook user profiles
+
+With the release of Facebook's Graph API v3.0 on August 1 2018, social profiles for Facebook users in Social Engagement can't like, share, or comment posts anymore. With this release, we're removing the interaction controls for Facebook user profiles from the Social Engagement user interface. The logic for data acquisition doesn't change. You still need to create a Facebook Acquisition profile to allow data acquisition from Facebook for Facebook pages you administer.
+
 ## [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] 2018 Update 1.6
 
 ### Change of permissions for newly invited users
