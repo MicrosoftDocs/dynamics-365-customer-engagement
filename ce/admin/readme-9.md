@@ -1,6 +1,6 @@
 ---
 title: "Dynamics 365 Customer Engagement Readme (Known Issues) | MicrosoftDocs"
-ms.date: 06/04/2018
+ms.date: 06/28/2018
 ms.service: "crm-online"
 ms.topic: "article"
 applies_to: 
@@ -8,8 +8,8 @@ applies_to:
   - "Dynamics 365 Version 9.x"
 ms.assetid: 99ea6ece-c35a-4f0e-85a4-26622cd87031
 author: "ReneeW-CPub"
-ms.author: "renwe" 
-manager: "renwe"
+ms.author: "renwe"
+manager: "annbe"
 ---
 
 Dynamics 365 Customer Engagement<br>Readme / Known Issues
@@ -155,21 +155,17 @@ Sales and Customer Service web client apps
 -   Knowledge Articles are displayed unformatted when relevance search is
     enabled.
 
--   If there is any text in the quick find search when a view is changed,
-    records are not refreshed in the Knowledge Article form.
-
--   Knowledge Articles sometimes display an inaccurate number of article views.
-
 -   When you give a long name (more than 41 characters) to a custom entity
     enabled for Knowledge Management, you might get an error.
-
--   Search of Knowledge Articles on custom dashboards might not return results.
 
 -   Only the first keyword added to a Knowledge Article returns results in a
     quick find search.
 
 -   If a Knowledge Article is in read-only mode, links in the article will not
     work.
+    
+-   Knowledge Articles creation and authoring is not supported on the web client, and is supported only in the Unified Interface. When you click the out-of-the-box Knowledge Article node in the Dynamics 365 custom web app sitemap, the page auto refreshes and redirects to the default landing page after seven seconds. Knowledge Articles open in a new tab in the Customer Service Hub application. Please see the new tab in your browser for accessing, creating, and managing your Knowledge articles with enhanced capabilities. If the new tab does not open automatically, check your browser’s settings to allow pop-ups. Also, check your security role privilege for accessing the Customer Service Hub application. 
+
 
 Sales Hub and Customer Service Hub apps 
 ----------------------------------------
