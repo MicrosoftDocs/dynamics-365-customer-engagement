@@ -40,6 +40,8 @@ For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the 
 
 8. To create a new web link, select **Add New Web Link**.
 
+    ![Add web link](media/add-web-link.png "add web link")
+
 9. To edit an existing web link, select the web link name.
 
 9. Enter appropriate values in the fields.
