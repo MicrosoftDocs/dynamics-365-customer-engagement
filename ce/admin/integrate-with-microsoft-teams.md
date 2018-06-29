@@ -101,9 +101,9 @@ You can also install the Team app which integrates Dynamics 365 and Teams to use
 
 Once you've selected the Dynamics 365 app (see [Select the app in the app Store](#select-the-app-in-the-app-store)), the settings page opens. 
 
-Verify **Yes** is enabled, and then select **Install** to install the Team app.
+Choose a Team, verify **Yes** is enabled, and then select **Install** to install the Team app.
 
-   ![Install Team app](media/teams-first-settings.png "Install Team app")
+![Install Team app](media/teams-first-settings.png "Install Team app")
 
 
 . <br/>
