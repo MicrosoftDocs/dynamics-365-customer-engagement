@@ -3,15 +3,11 @@ title: "Sign in to Social Engagement | Microsoft Docs"
 description: "Learn how to sign in to Social Engagement."
 ms.custom:
   - dyn365-socialengagement
-ms.date: 09/12/2017
-ms.reviewer: ""
+ms.date: 07/11/2018
 ms.service: dynamics-365-marketing
-ms.suite: ""
-ms.tgt_pltfrm: ""
 ms.topic: article
 applies_to: "Social Engagement"
 ms.assetid: cf28bc71-9085-4e3f-a00c-a6e4d92179c8
-caps.latest.revision: 7
 author: m-hartmann
 ms.author: mhart
 manager: sakudes
@@ -19,9 +15,17 @@ manager: sakudes
 # Sign in to Social Engagement
 To sign in to Social Engagement, you'll need to be assigned a user license. Your organization's Office 365 administrator assigns user licenses when setting up Social Engagement. For more information about assigning licenses to users, see [Manage user licenses](manage-licenses.md).  
   
-<a name="SignInOffice365"></a>   
-## Sign in to Social Engagement from the Office 365 admin center  
- Sign in to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] online service from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
+## Sign in to Social Engagement from a dedicated sign-in page
+
+Using the [sign-in page for Social Engagement](https://social.dynamics.com/login) is the fastest way to sign in to your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution.
+
+1. In your browser, open [https://social.dynamics.com/login](https://social.dynamics.com/login).
+
+2. Sign in with your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] credentials to proceed to the app.
+
+## Sign in to Social Engagement from Office 365
+
+Sign in to the [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] online service from the [!INCLUDE[pn_office_365_admin_center](../includes/pn-office-365-admin-center.md)].  
   
 1.  In your browser, open [https://portal.office.com](https://portal.office.com).  
   
@@ -36,9 +40,9 @@ To sign in to Social Engagement, you'll need to be assigned a user license. Your
 > [!TIP]
 >  If you don’t see a shortcut to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] on the [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] nav bar, verify that a [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] license is assigned to you.  
   
-<a name="SignInWithURL"></a>   
 ## Sign in to Social Engagement by using the app URL  
- We recommend saving the URL for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to your browser's favorites, and getting to know the app URL. You'll need this URL each time you want to  sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
+
+We recommend saving the URL for your [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)] solution to your browser's favorites, and getting to know the app URL. You'll need this URL each time you want to  sign in to [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)].  
   
  If you’re looking for [!INCLUDE[pn_netbreeze_short](../includes/pn-social-engagement-short.md)], the URL includes your organization’s appID, and will look like this: **https://listening-prod.dynamics.com/app/\<appID>**.  
   
