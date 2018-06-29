@@ -26,13 +26,13 @@ Read this topic to learn how to set up a waitlist and how to invite contacts on 
 
 ## How the waitlist works
 
-The waitlist holds a list of contacts that submitted a registration after an event was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. Each contact chooses whether to be automatically registered when they join the waiting list.
+The waitlist holds a list of contacts that submitted a registration after an event was fully booked. The waitlist registers the time and day that each contact registered, so when space becomes available, contacts are either automatically registered or offered an invitation to register in the same order that they joined the waitlist. You can choose whether contacts will be automatically registered when space becomes available for them, or whether they should instead be sent an invitation to register manually.
 
 When new space becomes available, the waitlist reacts as follows:
 
 1. The oldest existing waitlist record is identified by checking the registration date/time.
 
-1. The identified waitlist record changes its **Invited** field from **No** to **Yes** to indicate that space is now available for that contact. In addition, one of the following occurs, depending on whether the contact is using automatic registration:
+1. The identified waitlist record changes its **Invited** field from **No** to **Yes** to indicate that space is now available for that contact. In addition, one of the following occurs, depending on whether or not the contact is using automatic registration:
 
     - If the waitlist record has **Automatically register** set to **Yes** , then an event registration record is generated for the contact and the associated waitlist record is hidden. You should create a segment that finds these contacts (where (Automatically-register = Yes) and (Invited = Yes)) and then use a customer journey to send them a notification email that they are now registered.
     - If the waitlist record has **Automatically register** set to **No** , then nothing happens right away. You should create a segment that finds these contacts (where (Automatically-register = No) and (Invited = Yes)) and then use a customer journey to send them an email that invites them to visit the event portal to accept the free slot.
@@ -43,10 +43,16 @@ To enable or disable the waitlist for any event:
 
 1. Go to the events list (**Events** > **Event** > **Events**), then open or create an event.
 
-1. Open the **General** tab and in the **Key information** area, find the **Waitlist this event** field.  
+1. Open the **General** tab and find the **Venue constraints** area.  
     ![Enable the waitlist for an event](media/event-waitlist-enable.png "Enable the waitlist for an event")
 
-1. Set **Waitlist this event** to **Yes** to enable the waitlist. Set to **No** to disable it.
+1. Make the following settings:
+
+    - **Maximum event capacity**: Enter the maximum number of people that can attend your event. The waitlist will only take affect after this number of contacts have registered.
+    - **Waitlist this event**: Set to **Yes** to enable the waitlist feature and reveal **Waitlist** section, which contains the other settings described here.
+    - **Number of invitations per slot**: When an extra space becomes available, the system will invite this many contacts from the waitlist, in the same order they joined. Often you will set this to one, but if you are using manual waitlist registration, then you might choose a higher number to increase the chance that at least one contact will follow through with the registration. When a slot opens, the system changes this many waitlist records' **Invited** field from **No** to **Yes**.
+    - **Automatically register waitlisted contacts**: Set to **Yes** to automatically register the next contact in line when space becomes available. When this is set to **Yes**, all waitlist records for this event will therefore have their **Automatically register** fields set to **Yes**. When this is set to **No**, then you can choose whether or not to allow contacts to choose this option for themselves while joining the waitlist.
+    - **Contact can choose to be registered automatically**: This option is only shown when  you aren't using automatic registration. Choose **Yes** to provide a check box on the registration form where contacts can choose  to be registered automatically. Choose **No** to use manual registration for all contacts. The **Automatically register** field for each waitlist record will be assigned to match either this option or the choice made by contacts when they join the waitlist.
 
 ## View the waitlist
 
@@ -54,7 +60,7 @@ To see who is currently on the waitlist for any event:
 
 1. Go to the events list (**Events** > **Event** > **Events**), then open or create an event.
 
-1. Open the **Registration &amp; Attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
+1. Open the **Registration and attendance** tab and scroll down to the **Waitlist** section. (Note that the **Waitlist** section is only shown for events where the waitlist is enabled.)  
     ![View the waitlist for an event](media/event-waitlist-view.png "View the waitlist for an event")
 
     Here you'll find a list of each contact that is waiting to be invited to this event. You can see the following information for each of them:
@@ -138,7 +144,7 @@ Each email message should inform the recipient about what has happened (auto reg
 
 For a journey sending invites to waitlist contacts that aren't auto-registered, consider adding an event tile as a child of the email-message tile so you can add a trigger that reacts to registration and follows up as needed.
 
-The following example shows a journey that has two parallel paths, one for auto-registered contacts and one for invited (manual-register) contacts. Note that both email messages show a child event tile, and that the invite flow includes a trigger, which is set to react by sending a welcome mail to contacts that register. After a few days, the trigger sends contacts that don't register down the bottom path, where a workflow removes unresponsive contacts from the waitlist so other waiting contacts can be invited.
+The following example shows a journey that has two parallel paths, one for auto-registered contacts and one for invited (manual-register) contacts. Note that both email messages show a child event tile, and that the invite flow includes a trigger, which is set to react by sending a welcome mail to contacts that register. After a few days, the trigger sends contacts that don't register down the bottom path, where a workflow removes unresponsive contacts from the waitlist so other waiting contacts can be invited (this requires that you create a [custom workflow](../customize/workflow-processes.md) to handle this).
 
 ![A customer journey for processing a waitlist](media/event-waitlist-journey.png "A customer journey for processing a waitlist")
 
