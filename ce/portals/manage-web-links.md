@@ -3,7 +3,7 @@ title: "Manage web links in Dynamics 365 or on portals in Dynamics 365 | Microso
 description: "Instructions to manage web links in Dynamics 365 or on portals."
 ms.custom:
   - dyn365-portal
-ms.date: 09/28/2017
+ms.date: 06/29/2018
 ms.service: dynamics-365-customerservice
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -14,17 +14,66 @@ author: sbmjais
 ms.author: shjais
 manager: sakudes
 ---
-# Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] or on portals
+# Manage web links in Dynamics 365 or on portals
 
 A web link can link to any URL or it can link to another webpage within the same website. When a web link is to a webpage, the security and publishing state of the webpage will apply to the web link as well. Web links are always part of a web link set. A web link set is a group of links such as a primary navigation or a group of footer links. Web link sets allow internal, regardless of placement in the site map, and external links to be grouped together and ordered.
 
-## Manage web links in [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)]
+## Manage web links in Dynamics 365
 
-For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the portal customizations have been imported into the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, Web links can be managed in the Portals section.
+For [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] users, once the portal customizations have been imported into the [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)] organization, web links can be managed from a web link set.
+
+1. Sign in to [!INCLUDE[pn-dynamics-crm](../includes/pn-dynamics-crm.md)].
+
+2. Go to **Portals** > **Web Link Sets**.
+
+3. To create a new web link set, select **New**.
+
+4. To edit an existing web link set, select the web link set name.
+
+5. Enter appropriate values in the fields.
+
+6. If you create a new web link set, select **Save** to save the record so you can add web links.
+
+7. Select the down arrow next to your web link set name at the top of the screen, and then select **Web Links**.
+
+    ![Select web link](media/web-link.png "Select web link")
+
+8. To create a new web link, select **Add New Web Link**.
+
+9. To edit an existing web link, select the web link name.
+
+9. Enter appropriate values in the fields.
+
+6. Save the changes.
 
 ## Manage web links in a portal
 
-To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. To edit a web link set, point to the web link set and select the blue edit button that appears. Drag and drop the move icon to reorder the web links. Select the paper & pencil icon to edit a web link. Select the red minus icon to delete a web link from the set. Select the green plus icon to add a new web link to the set.
+To modify a web link set, you need appropriate permissions and the web link set you want to modify must be part of the page template. 
+
+1.  Point to the web link set and select the **Edit** button that appears. 
+
+    ![Edit primary navigation](media/edit-primary-nav.png "Edit primary navigation")
+
+    A dialog box appears with a list of web links that can be reordered or removed, and an option to add new links.
+
+    ![Edit primary navigation dialog box](media/edit-primary-nav-dialog.png "Edit primary navigation dialog box")
+
+2. To reorder the web links, use the move icon to drag and drop the web links.
+
+3. To edit a web link, select the paper & pencil icon.
+
+4. To delete a web link, select the red minus icon.
+
+5.  To add a new web link, select the row with the green plus icon.
+
+    ![Add new link to primary navigation](media/add-new-link.png "Add new link to primary navigation")
+
+6.  Enter a name for the web link.
+
+7.  From the **Page** list, choose the page you want to link.
+
+8.  Select **Save**.
+
 
 ## Multilevel web link sets
 
